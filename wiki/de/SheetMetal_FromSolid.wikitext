@@ -27,6 +27,7 @@ Der Befehl [[Image:SheetMetal_FromSolid.svg|24px]] '''SheetMetal VonFestkörper'
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 # Ein Basisobjekt auswählen (einen Festkörper oder ein Schalenobjekt).
 # Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
 #* Die Schaltfläche {{Button|[[Image:SheetMetal_FromSolid.svg|16px]] [[SheetMetal_FromSolid/de|Convert to Sheet Metal]]}} drücken.
@@ -44,6 +45,7 @@ Der Befehl [[Image:SheetMetal_FromSolid.svg|24px]] '''SheetMetal VonFestkörper'
 #** Die Schaltfläche {{Button|Preview}} drücken, um zu bestätigen und die Bearbeitung abzuschließen.
 # Die Schaltfläche {{Button|OK}} drücken, um das Aufgaben-Fenster zu schließen und den Befehl zu beenden.
 # Wahlweise die Parameter in der [[Property_View/de|Eigenschaften-Ansicht]] einstellen.
+</div>
 
 <span id="Task_Panel"></span>
 ===Aufgaben-Fenster===
@@ -52,12 +54,14 @@ Ein vorhandenes '''SolidToSheet'''-Objekt in der [[Tree_View/de|Baumansicht]] do
 
 [[Image:SheetMetal_FromSolid-Task.png|320px]]
 
+<div class="mw-translate-fuzzy">
 * '''Thickness''': Eingabe für die Eigenschaft '''Thickness'''.
 * '''Bend Radius''': Eingabe für die Eigenschaft '''Radius'''.
 * '''Invert''': Schaltet die Eigenschaft '''Invert''' um; .
 * {{Button|Select}}: Aktiviert den Bearbeitungsmodus, der ermöglicht die Liste der zu entfernenden Flächen bzw. Stoßkanten innerhalb der Eigenschaft '''base Object''' hinzuzufügen. Wenn gedrückt:
 ** {{Button|Preview}}: Zeigt den Bearbeitungsmodus an. Drücken, um den Bearbeitungsmodus zu beenden (ausgeblendet bis '''Select''' gedrückt wurde).
 ** {{Button|Clear All}}: Drücken, um die Liste zu leeren (ausgeblendet bis '''Select''' gedrückt wurde). Wandelt sich zu {{Button|Clear Selected}}, wenn wenigstens ein Listenelement aktiviert wurde; entfernt nur die ausgewählten Elemente.
+</div>
 
 <span id="Properties"></span>
 ==Eigenschaften==
