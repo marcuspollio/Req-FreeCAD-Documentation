@@ -74,9 +74,7 @@ und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen 
 <span id="Data"></span>
 ===Daten===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Properties_Title|Parameters}}
-</div>
+{{Properties_Title/de|Parameters}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * {{PropertyData|Invert|Bool}}: "Invert bend direction". Controls whether the wall thickness builds up inside or outside the base object.
