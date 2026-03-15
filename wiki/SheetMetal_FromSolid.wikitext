@@ -2,6 +2,7 @@
 <languages/>
 <translate>
 
+<!--T:1-->
 {{Docnav
 |[[SheetMetal_AddBase|AddBase]]
 |[[SheetMetal_AddWall|AddWall]]
@@ -11,6 +12,7 @@
 |IconC=Sheetmetal_workbench_icon.svg
 }}
 
+<!--T:2-->
 {{GuiCommand
 |Name=SheetMetal FromSolid
 |MenuLocation=SheetMetal → Convert to Sheet Metal
@@ -19,12 +21,14 @@
 |Version=0.8.0
 }}
 
-== Description ==
+== Description == <!--T:3-->
 
+<!--T:4-->
 The [[Image:SheetMetal_FromSolid.svg|24px]] '''SheetMetal FromSolid''' converts a solid or shell to a sheet metal object (introduced in version 0.8.0).
 
-== Usage ==
+== Usage == <!--T:5-->
 
+<!--T:6-->
 # Select a base object (a solid or a shell).
 # There are several ways to invoke the command:
 #* Press the {{Button|[[Image:SheetMetal_FromSolid.svg|16px]] [[SheetMetal_FromSolid|Convert to Sheet Metal]]}} button.
@@ -43,14 +47,16 @@ The [[Image:SheetMetal_FromSolid.svg|24px]] '''SheetMetal FromSolid''' converts 
 # Press the {{Button|OK}} button to close the Task Panel and finish the command.
 # Optionally adjust the profile parameters in the [[Property_View|Property View]].
 
-===Task Panel===
+===Task Panel=== <!--T:7-->
 
+<!--T:8-->
 Double-click an existing '''SolidToSheet''' object in the [[Tree_View|Tree View]] to re-open the task panel and edit the parameters.
 
 </translate>
 [[Image:SheetMetal_FromSolid-Task.png|320px]]
 <translate>
 
+<!--T:9-->
 * '''Thickness''': Sets the '''Thickness''' property.
 * '''Bend Radius''': Sets the '''Radius''' property.
 * '''Invert''': Toggles the '''Invert''' property; .
@@ -58,21 +64,26 @@ Double-click an existing '''SolidToSheet''' object in the [[Tree_View|Tree View]
 ** {{Button|Preview}}: Indicates edit mode. Press to finish the edit mode (hidden until '''Select''' is pressed).
 ** {{Button|Clear All}}: Press to clear the list (hidden until '''Select''' is pressed). Changes to {{Button|Clear Selected}} if at least one list item is checked; removes only the selected items.
 
-== Properties ==
+== Properties == <!--T:10-->
 
+<!--T:11-->
 See also: [[Property_View|Property View]].
 
+<!--T:12-->
 A SheetMetal '''SolidToSheet''' object is derived from a [[Part_Feature|Part Feature]] object or, if it is inside a [[PartDesign_Body|PartDesign Body]], from a [[PartDesign_Feature|PartDesign Feature]] object, and inherits all its properties. It also has the following additional properties:
 
-=== Data ===
+=== Data === <!--T:13-->
 
+<!--T:14-->
 {{Properties_Title|Parameters}}
 
+<!--T:15-->
 * {{PropertyData|Invert|Bool}}: "Invert bend direction". Controls whether the wall thickness builds up inside or outside the base object.
 * {{PropertyData|Radius|Length}}: Inner radius of automatically added bends.
 * {{PropertyData|Thickness|Length}}: Wall thickness of the sheet metal shape.
 * {{PropertyData|base Object|LinkSub}}: "Base object". Link to the solid/shell and its selected sub-elements.
 
+<!--T:16-->
 {{Docnav
 |[[SheetMetal_AddBase|AddBase]]
 |[[SheetMetal_AddWall|AddWall]]
