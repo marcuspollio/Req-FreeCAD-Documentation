@@ -52,14 +52,12 @@ Ein vorhandenes '''SolidToSheet'''-Objekt in der [[Tree_View/de|Baumansicht]] do
 
 [[Image:SheetMetal_FromSolid-Task.png|320px]]
 
-<div class="mw-translate-fuzzy">
 * '''Thickness''': Eingabe für die Eigenschaft '''Thickness'''.
 * '''Bend Radius''': Eingabe für die Eigenschaft '''Radius'''.
 * '''Invert''': Schaltet die Eigenschaft '''Invert''' um; .
 * {{Button|Select}}: Aktiviert den Bearbeitungsmodus, der ermöglicht die Liste der zu entfernenden Flächen bzw. Stoßkanten innerhalb der Eigenschaft '''base Object''' hinzuzufügen. Wenn gedrückt:
 ** {{Button|Preview}}: Zeigt den Bearbeitungsmodus an. Drücken, um den Bearbeitungsmodus zu beenden (ausgeblendet bis '''Select''' gedrückt wurde).
 ** {{Button|Clear All}}: Drücken, um die Liste zu leeren (ausgeblendet bis '''Select''' gedrückt wurde). Wandelt sich zu {{Button|Clear Selected}}, wenn wenigstens ein Listenelement aktiviert wurde; entfernt nur die ausgewählten Elemente.
-</div>
 
 <span id="Properties"></span>
 ==Eigenschaften==
