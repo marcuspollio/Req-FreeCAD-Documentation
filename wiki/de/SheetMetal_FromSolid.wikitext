@@ -54,14 +54,12 @@ Ein vorhandenes '''SolidToSheet'''-Objekt in der [[Tree_View/de|Baumansicht]] do
 
 [[Image:SheetMetal_FromSolid-Task.png|320px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Thickness''': Sets the '''Thickness''' property.
-* '''Bend Radius''': Sets the '''Radius''' property.
-* '''Invert''': Toggles the '''Invert''' property; .
-* {{Button|Select}}: Activates the edit mode that allows to add the list of faces to remove and/or seam edges within the '''base Object''' property. If pressed:
-** {{Button|Preview}}: Indicates edit mode. Press to finish the edit mode (hidden until '''Select''' is pressed).
-** {{Button|Clear All}}: Press to clear the list (hidden until '''Select''' is pressed). Changes to {{Button|Clear Selected}} if at least one list item is checked; removes only the selected items.
-</div>
+* '''Thickness''': Eingabe für die Eigenschaft '''Thickness'''.
+* '''Bend Radius''': Eingabe für die Eigenschaft '''Radius'''.
+* '''Invert''': Schaltet die Eigenschaft '''Invert''' um; .
+* {{Button|Select}}: Aktiviert den Bearbeitungsmodus, der ermöglicht die Liste der zu entfernenden Flächen bzw. Stoßkanten innerhalb der Eigenschaft '''base Object''' hinzuzufügen. Wenn gedrückt:
+** {{Button|Preview}}: Zeigt den Bearbeitungsmodus an. Drücken, um den Bearbeitungsmodus zu beenden (ausgeblendet bis '''Select''' gedrückt wurde).
+** {{Button|Clear All}}: Drücken, um die Liste zu leeren (ausgeblendet bis '''Select''' gedrückt wurde). Wandelt sich zu {{Button|Clear Selected}}, wenn wenigstens ein Listenelement aktiviert wurde; entfernt nur die ausgewählten Elemente.
 
 <span id="Properties"></span>
 ==Eigenschaften==
