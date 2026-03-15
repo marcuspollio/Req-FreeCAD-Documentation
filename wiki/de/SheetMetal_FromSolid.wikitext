@@ -63,9 +63,8 @@ Ein vorhandenes '''SolidToSheet'''-Objekt in der [[Tree_View/de|Baumansicht]] do
 ** {{Button|Clear All}}: Press to clear the list (hidden until '''Select''' is pressed). Changes to {{Button|Clear Selected}} if at least one list item is checked; removes only the selected items.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Properties ==
-</div>
+<span id="Properties"></span>
+==Eigenschaften==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 See also: [[Property_View|Property View]].
