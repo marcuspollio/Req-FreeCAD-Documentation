@@ -47,9 +47,8 @@ Der Befehl [[Image:SheetMetal_FromSolid.svg|24px]] '''SheetMetal VonFestkörper'
 # Optionally adjust the profile parameters in the [[Property_View|Property View]].
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Task Panel===
-</div>
+<span id="Task_Panel"></span>
+===Aufgaben-Fenster===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Double-click an existing '''SolidToSheet''' object in the [[Tree_View|Tree View]] to re-open the task panel and edit the parameters.
