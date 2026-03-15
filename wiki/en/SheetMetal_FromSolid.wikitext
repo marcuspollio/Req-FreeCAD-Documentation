@@ -36,8 +36,8 @@ The [[Image:SheetMetal_FromSolid.svg|24px]] '''SheetMetal FromSolid''' command c
 #* Optionally press the {{Button|Select}} button to edit the '''Faces to remove and seam edges''' list.
 #*: (A {{Button|Preview}} button indicates the list edit mode)
 #** Optionally select faces/edges in the 3D View to add them to the list, or remove them respectively.
-#** Optionally press the {{Button|Clear All}} to remove all items from the '''Faces to remove and seam edges''' list.
-#** Optionally check list items and press the {{Button|Clear Selected}} to remove only the selected items from the '''Faces to remove and seam edges''' list.
+#** Optionally press the {{Button|Clear All}} button to remove all items from the '''Faces to remove and seam edges''' list.
+#** Optionally check list items and press the {{Button|Clear Selected}} button to remove only the selected items from the '''Faces to remove and seam edges''' list.
 #** Press the {{Button|Preview}} button to confirm and finish editing.
 # Press the {{Button|OK}} button to close the Task Panel and finish the command.
 # Optionally adjust the profile parameters in the [[Property_View|Property View]].
@@ -52,7 +52,7 @@ Double-click an existing '''SolidToSheet''' object in the [[Tree_View|Tree View]
 * '''Bend Radius''': Sets the '''Radius''' property.
 * '''Invert''': Toggles the '''Invert''' property; .
 * {{Button|Select}}: Activates the edit mode that allows to add the list of faces to remove and/or seam edges within the '''base Object''' property. If pressed:
-** {{Button|Preview}}: Indicates edit mode. Press to finish the edit mode (hidden until '''Select''' is pressed).
+** {{Button|Preview}}: Indicates the edit mode. Press to finish the edit mode (hidden until '''Select''' is pressed).
 ** {{Button|Clear All}}: Press to clear the list (hidden until '''Select''' is pressed). Changes to {{Button|Clear Selected}} if at least one list item is checked; removes only the selected items.
 
 == Properties ==
