@@ -76,12 +76,10 @@ und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen 
 
 {{Properties_Title/de|Parameters}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{PropertyData|Invert|Bool}}: "Invert bend direction". Controls whether the wall thickness builds up inside or outside the base object.
-* {{PropertyData|Radius|Length}}: Inner radius of automatically added bends.
-* {{PropertyData|Thickness|Length}}: Wall thickness of the sheet metal shape.
-* {{PropertyData|base Object|LinkSub}}: "Base object". Link to the solid/shell and its selected sub-elements.
-</div>
+* {{PropertyData|Invert|Bool}}: "Biegerichtung umkehren". Steuert, ob die Wandstärke auf der Innen- oder der Außenseite des Basisobjekts aufgebaut wird.
+* {{PropertyData|Radius|Length}}: Innenradius der automatisch hinzugefügten Bögen.
+* {{PropertyData|Thickness|Length}}: Wandstärke der Blechform.
+* {{PropertyData|base Object|LinkSub}}: "Basisobjekt". Verknüpfung zu dem Festkörper bzw. dem Schalenobjekt und seinen ausgewählten Unterelementen.
 
 {{Docnav/de
 |[[SheetMetal_AddBase/de|BasisprofilErstellen]]
