@@ -34,7 +34,7 @@ The [[Image:SheetMetal_FromSolid.svg|24px]] '''SheetMetal FromSolid''' converts 
 # A '''SolidToSheet''' object is created, and the '''Convert to Sheet Metal''' [[Task_Panel|Task Panel]] opens:
 #: The '''Faces to remove and seam edges''' list is empty if the base object was selected in the [[Tree_View|Tree View]], or it contains the subelements that were used to select the base object in the [[3D_View|3D View]].
 #* Adjust the parameters in the Task Panel.
-#* Optionally press the {{Button|Select}} button to edit '''Faces to remove and seam edges''' list.
+#* Optionally press the {{Button|Select}} button to edit the '''Faces to remove and seam edges''' list.
 #*: (A {{Button|Preview}} button indicates the list edit mode)
 #** Optionally select faces/edges in the 3D View to add them to the list, or remove them respectively.
 #** Optionally press the {{Button|Clear All}} to remove all items from the '''Faces to remove and seam edges''' list.
