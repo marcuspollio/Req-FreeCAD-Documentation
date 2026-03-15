@@ -27,25 +27,23 @@ Der Befehl [[Image:SheetMetal_FromSolid.svg|24px]] '''SheetMetal VonFestkörper'
 <span id="Usage"></span>
 ==Anwendung==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select a base object (a solid or a shell).
-# There are several ways to invoke the command:
-#* Press the {{Button|[[Image:SheetMetal_FromSolid.svg|16px]] [[SheetMetal_FromSolid|Convert to Sheet Metal]]}} button.
-#* Select the {{MenuCommand|Sheet Metal → [[Image:SheetMetal_FromSolid.svg|16px]] Convert to Sheet Metal}} option from the menu.
-#* Right-click in the [[Tree_View|Tree View]] or the [[3D_View|3D View]] and select the {{MenuCommand|Sheet Metal → [[Image:SheetMetal_FromSolid.svg|16px]] Convert to Sheet Metal}} option from the context menu.
-#* Use the keyboard shortcut: {{KEY|C}} then {{KEY|S}}.
-# A '''SolidToSheet''' object is created, and the '''Convert to Sheet Metal''' [[Task_Panel|Task Panel]] opens:
-#: The '''Faces to remove and seam edges''' list is empty if the base object was selected in the [[Tree_View|Tree View]], or it contains the subelements that were used to select the base object in the [[3D_View|3D View]].
-#* Adjust the parameters in the Task Panel.
-#* Optionally press the {{Button|Select}} button to edit the '''Faces to remove and seam edges''' list.
-#*: (A {{Button|Preview}} button indicates the list edit mode)
-#** Optionally select faces/edges in the 3D View to add them to the list, or remove them respectively.
-#** Optionally press the {{Button|Clear All}} to remove all items from the '''Faces to remove and seam edges''' list.
-#** Optionally check list items and press the {{Button|Clear Selected}} to remove only the selected items from the '''Faces to remove and seam edges''' list.
-#** Press the {{Button|Preview}} button to confirm and finish editing.
-# Press the {{Button|OK}} button to close the Task Panel and finish the command.
-# Optionally adjust the profile parameters in the [[Property_View|Property View]].
-</div>
+# Ein Basisobjekt auswählen (einen Festkörper oder ein Schalenobjekt).
+# Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+#* Die Schaltfläche {{Button|[[Image:SheetMetal_FromSolid.svg|16px]] [[SheetMetal_FromSolid/de|Convert to Sheet Metal]]}} drücken.
+#* Den Menüeintrag {{MenuCommand|Sheet Metal → [[Image:SheetMetal_FromSolid.svg|16px]] Convert to Sheet Metal}} auswählen.
+#* Ein Rechtsklick in die [[Tree_View/de|Baumansicht]] oder die [[3D_View/de|3D-Ansicht]] und die Menüoption {{MenuCommand|Sheet Metal → [[Image:SheetMetal_FromSolid.svg|16px]] Convert to Sheet Metal}} im Kontextmenü auswählen.
+#* Das Tastaturkürzel {{KEY|C}} dann {{KEY|S}}.
+# Ein '''SolidToSheet'''-Objekt wird erstellt und das [[Task_Panel/de|Aufgaben-Fenster]] '''Convert to Sheet Metal''' wird geöffnet:
+#: Die Liste '''Faces to remove and seam edges''' ist leer, wenn das Basisobjekt in der [[Tree_View/de|Baumansicht]] ausgewählt wurde  oder sie enthält die Unterelemente, die verwendet wurden, um das Basisobjekt in der [[3D_View/de|3D-Ansicht]] auszuwählen.
+#* Die Parameter im Aufgaben-Fenster anpassen.
+#* Wahlweise die Schaltfläche {{Button|Select}} drücken, um die Liste '''Faces to remove and seam edges''' zu bearbeiten.
+#*: (Eine Schaltfläche {{Button|Preview}} zeigt den Bearbeitungsmodus der Liste an)
+#** Wahlweise Flächen bzw. Kanten in der 3D-Ansicht auswählen, um sie zur Liste hinzuzufügen bzw. daraus zu entfernen.
+#** Wahlweise die Schaltfläche {{Button|Clear All}} drücken, um alle Elemente von der Liste '''Faces to remove and seam edges''' zu entfernen.
+#** Wahlweise Listenelemente aktivieren und die Schaltfläche {{Button|Clear Selected}} drücken, um nur die ausgewählten Elemente von der Liste '''Faces to remove and seam edges''' zu entfernen.
+#** Die Schaltfläche {{Button|Preview}} drücken, um zu bestätigen und die Bearbeitung abzuschließen.
+# Die Schaltfläche {{Button|OK}} drücken, um das Aufgaben-Fenster zu schließen und den Befehl zu beenden.
+# Wahlweise die Parameter in der [[Property_View/de|Eigenschaften-Ansicht]] einstellen.
 
 <span id="Task_Panel"></span>
 ===Aufgaben-Fenster===
