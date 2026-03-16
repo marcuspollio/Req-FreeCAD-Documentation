@@ -116,11 +116,9 @@ The status of the {{PropertyData|LinkCopyOnChange}} property can be modified in 
 
 Der Benutzer kann genau steuern, welche Objekte und Abhängigkeiten beim Erstellen der Variante kopiert werden sollen:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Right click the link with {{PropertyData|LinkCopyOnChange}} set to {{Value|Enabled}}.
-# Select {{MenuCommand|Setup configurable object}} context menu entry.
-# A dialog will pop up to let you choose which object to copy, to potentially exclude dependent or non-relevant objects from the copy.
-</div>
+# Den Link mit der rechten Maustaste anklicken und {{PropertyData/de|LinkCopyOnChange}} auf  {{Value|Enabled}} setzen.
+# {{MenuCommand|Konfigurierbares Objekt einrichten}} aus dem Kontextmenü wählen.
+# Es erscheint ein Dialogfeld, in dem ausgewählt werden kann, welches Objekt kopiert werden soll, um gegebenenfalls abhängige oder irrelevante Objekte vom Kopiervorgang auszuschließen.
 
 <span id="Shadowing_properties"></span>
 === Schattierung von Eigenschaften ===
