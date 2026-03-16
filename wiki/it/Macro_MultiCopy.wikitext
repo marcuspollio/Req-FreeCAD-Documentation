@@ -178,11 +178,9 @@ from 1 to 3 :
 
 I valori '''1''' e '''3''' rappresentano l'intervallo di duplicazione in cui entrambi i valori sono INCLUSIVI. Il primo valore (da) deve essere sempre MINORE O UGUALE al secondo valore (a). I valori (insieme) possono assumere la forma di uno dei cinque tipi di numerazione ('''check 'Key Features'''').
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-<code>[1]</code> represents the '''first object''' from an assumed list of user-selected objects.
-<br><code>{1}</code> represents the '''label name''' of the first object.
-<br><code>{n#}</code> represents a '''numbering label''' of the type 'Ordinary Numerals'. (more on that, later)
-</div>
+<code>[1]</code> rappresenta il ''primo oggetto''' da un elenco presumibilmente selezionato dall'utente.
+<br><code>{1}</code> rappresenta il '''nome dell'etichetta''' del primo oggetto.
+<br><code>{n#}</code> rappresenta un'''etichetta di numerazione''' del tipo 'Numeri ordinari'''. (maggiori dettagli in seguito)
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''NOTE''' that correct '''tab indentations''' are very crucial to the commands; they cannot be replaced with spaces.
