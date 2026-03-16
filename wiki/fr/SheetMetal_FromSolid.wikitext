@@ -26,29 +26,26 @@ La commande [[Image:SheetMetal_FromSolid.svg|24px]] '''SheetMetal Convertir un s
 <span id="Usage"></span>
 ==Utilisation==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select a base object (a solid or a shell).
-# There are several ways to invoke the command:
-#* Press the {{Button|[[Image:SheetMetal_FromSolid.svg|16px]] [[SheetMetal_FromSolid|Convert to Sheet Metal]]}} button.
-#* Select the {{MenuCommand|Sheet Metal → [[Image:SheetMetal_FromSolid.svg|16px]] Convert to Sheet Metal}} option from the menu.
-#* Right-click in the [[Tree_View|Tree View]] or the [[3D_View|3D View]] and select the {{MenuCommand|Sheet Metal → [[Image:SheetMetal_FromSolid.svg|16px]] Convert to Sheet Metal}} option from the context menu.
-#* Use the keyboard shortcut: {{KEY|C}} then {{KEY|S}}.
-# A '''SolidToSheet''' object is created, and the '''Convert to Sheet Metal''' [[Task_Panel|Task Panel]] opens:
-#: The '''Faces to remove and seam edges''' list is empty if the base object was selected in the [[Tree_View|Tree View]], or it contains the subelements that were used to select the base object in the [[3D_View|3D View]].
-#* Adjust the parameters in the Task Panel.
-#* Optionally press the {{Button|Select}} button to edit the '''Faces to remove and seam edges''' list.
-#*: (A {{Button|Preview}} button indicates the list edit mode)
-#** Optionally select faces/edges in the 3D View to add them to the list, or remove them respectively.
-#** Optionally press the {{Button|Clear All}} button to remove all items from the '''Faces to remove and seam edges''' list.
-#** Optionally check list items and press the {{Button|Clear Selected}} button to remove only the selected items from the '''Faces to remove and seam edges''' list.
-#** Press the {{Button|Preview}} button to confirm and finish editing.
-# Press the {{Button|OK}} button to close the Task Panel and finish the command.
-# Optionally adjust the profile parameters in the [[Property_View|Property View]].
-</div>
+# Sélectionnez un objet de base (un solide ou une coque).
+# Il existe plusieurs façons de lancer la commande :
+#* Cliquez sur le bouton {{Button|[[Image:SheetMetal_FromSolid.svg|16px]] [[SheetMetal_FromSolid/fr|Convertir en tôle]]}}.
+#* Sélectionnez l'option {{MenuCommand|Sheet Metal → [[Image:SheetMetal_FromSolid.svg|16px]] Convertir en tôle}} du menu.
+#* Cliquez avec le bouton droit de la souris dans l'[[Tree_View/fr|arborescence]] ou la [[3D_View/fr|vue 3D]] et sélectionnez l'option {{MenuCommand|Sheet Metal → [[Image:SheetMetal_FromSolid.svg|16px]] Convertir en tôle}} dans le menu contextuel.
+#* Utilisez le raccourci clavier : {{KEY|C}} puis {{KEY|S}}.
+# Un objet '''SolidToSheet''' est créé et le [[Task_Panel/fr|panneau des tâches]] '''Convertir en tôle''' s'ouvre :
+#: La liste '''Faces à supprimer et arêtes de jonction''' est vide si l'objet de base a été sélectionné dans l'[[Tree_View/fr|arborescence]], ou elle contient les sous-éléments qui ont été utilisés pour sélectionner l'objet de base dans la [[3D_View/fr|vue 3D]].
+#* Ajustez les paramètres dans le panneau de tâches.
+#* Vous pouvez appuyer sur le bouton {{Button|Sélectionner}} pour modifier la liste '''Faces à supprimer et arêtes de jonction'''.
+#*: (Un bouton {{Button|Aperçu}} indique que la liste est en mode édition)
+#** Vous pouvez sélectionner des faces/arêtes dans la vue 3D pour les ajouter à la liste ou les supprimer respectivement.
+#** Vous pouvez également cliquer sur le bouton {{Button|Tout effacer}} pour supprimer tous les éléments de la liste '''Faces à supprimer et arêtes de jonction'''.
+#** Vous pouvez cocher des éléments de la liste et cliquer sur le bouton {{Button|Effacer la sélection}} pour supprimer uniquement les éléments sélectionnés de la liste '''Faces à supprimer et arêtes de jonction'''.
+#** Cliquez sur le bouton {{Button|Aperçu}} pour confirmer et terminer la modification.
+# Cliquez sur le bouton {{Button|OK}} pour fermer le panneau des tâches et terminer la commande.
+# Vous pouvez également ajuster les paramètres du profil dans l'[[Property_View/fr|éditeur de propriétés]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Task Panel===
-</div>
+<span id="Task_Panel"></span>
+=== Panneau des tâches ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Double-click an existing '''SolidToSheet''' object in the [[Tree_View|Tree View]] to re-open the task panel and edit the parameters.
