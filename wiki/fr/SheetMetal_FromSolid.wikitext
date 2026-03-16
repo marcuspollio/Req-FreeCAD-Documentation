@@ -68,9 +68,7 @@ Un objet SheetMetal '''SolidToSheet''' est dérivé d'un objet [[Part_Feature/fr
 <span id="Data"></span>
 === Données ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Properties_Title|Parameters}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * {{PropertyData|Invert|Bool}}: "Invert bend direction". Controls whether the wall thickness builds up inside or outside the base object.
