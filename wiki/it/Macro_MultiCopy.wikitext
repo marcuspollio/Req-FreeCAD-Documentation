@@ -202,9 +202,8 @@ Sia ''i'' un oggetto arbitrario, l'i-esimo, da un elenco predefinito di oggetti 
 <br><code>[i|0]</code> rappresenta l'i-esimo oggetto senza dipendenze (un'altra forma)
 <br><code>[i|1]</code> rappresenta l'i-esimo oggetto CON dipendenze incluse
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====Numbering labels====
-</div>
+<span id="Numbering_labels"></span>
+====Etichette di numerazione====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 <code>{n#}</code> or <code>{N#}</code> are of the type 'Ordinary Numerals'
