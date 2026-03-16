@@ -9,19 +9,17 @@
 |IconC=Workbench_Sketcher.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/pl
 |Name=Sketcher CreateText
-|MenuLocation=Sketch → Geometries → Text
-|Workbenches=[[Sketcher_Workbench|Sketcher]]
+|Name/pl=Szkicownik: Utwórz tekst
+|MenuLocation=Szkicownik → Geometrie → Tekst
+|Workbenches=[[Sketcher_Workbench/pl|Szkicownik]]
 |Shortcut={{KEY|G}} {{KEY|T}}
 |Version=1.2
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Description==
-</div> 
+<span id="Description"></span>
+==Opis== 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The [[Image:Sketcher_CreateText.svg|24px]] [[Sketcher_CreateText|Sketcher CreateText]] tool creates text geometries controlled by a Text constraint.
