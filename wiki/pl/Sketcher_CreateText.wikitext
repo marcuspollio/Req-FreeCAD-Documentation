@@ -32,7 +32,6 @@ Zapoznaj się również z informacjami na stronie [[Sketcher_Workbench/pl#Pomoce
 
 Pos-OVP = Pozycyjne [[Sketcher_Preferences/pl#Ogólne|Parametry wyświetlane w widoku]]. {{Version/pl|1.0}}
 
-<div class="mw-translate-fuzzy">
 # Istnieje kilka sposobów uruchomienia narzędzia:
 #* Naciśnij przycisk {{Button|[[Image:Sketcher_CreateText.svg|16px]] [[Sketcher_CreateText/pl|Tekst]]}}.
 #* Wybierz z menu opcję {{MenuCommand|Szkic → Geometrie → [[Image:Sketcher_CreateText.svg|16px]] Tekst}}.
@@ -55,7 +54,6 @@ Pos-OVP = Pozycyjne [[Sketcher_Preferences/pl#Ogólne|Parametry wyświetlane w w
 # Jeśli narzędzie działa w [[Sketcher_Workbench#Continue_modes/pl|trybie kontynuacji]]:
 ## Opcjonalnie kontynuuj tworzenie tekstów.
 ## Aby zakończyć, kliknij prawym przyciskiem myszy lub naciśnij {{KEY|Esc}}, albo uruchom inne narzędzie tworzenia geometrii lub więzów.
-</div>
 
 <span id="Notes"></span>
 ==Uwagi== 
