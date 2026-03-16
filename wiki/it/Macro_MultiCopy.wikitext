@@ -215,11 +215,9 @@ Un'etichetta di numerazione può avere due opzioni aggiuntive:
 # <code>{n#X}</code> Riempimento (di 'X' cifre)
 # <code>{n#X|i1}</code> Assegnazione del livello del ciclo annidato (a un ciclo contrassegnato come 'i1')
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In case of a nested loop level assignment WITHOUT padding, do:
-# <code>{n#0|i1}</code> OR
+In caso di assegnazione di livelli di ciclo annidati SENZA riempimento, procedere come segue:
+# <code>{n#0|i1}</code> OPPURE
 # <code>{n#|i1}</code>
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ====Example 2====
