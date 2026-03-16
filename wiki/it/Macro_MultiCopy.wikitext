@@ -255,23 +255,21 @@ CORRECT Signal}}
 <span id="Notes"></span>
 ==Note==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| style="text-align: left;"
 |- style="vertical-align: top;"
 ! scope="col" style="width:30px;padding:5px 0px" |
 ! scope="col" |
 |- style="vertical-align: top;"
 |(1)
-|There are a few inevitable from-to naming clashes between roman numerals and alphabetic characters.<br>E.g.: c, v, i, x, etc.
+|Esistono alcune inevitabili contraddizioni nella nomenclatura tra numeri romani e caratteri alfabetici.<br>Ad esempio: c, v, i, x, ecc.
 |- style="vertical-align: top;"
 |(2)
-|By design, roman numerals take precedence over alphabetic characters.
+|Per impostazione predefinita, i numeri romani hanno la precedenza sui caratteri alfabetici.
 |- style="vertical-align: top;"
 |(3)
-|Dependencies only apply to 'Standard Copy'; its application on 'Simple Copy' will automatically be ignored.
+|Le dipendenze si applicano solo alla "Copia standard"; la loro applicazione alla "Copia semplice" verrà automaticamente ignorata.
 |- style="vertical-align: top;"
 |}
-</div>
 
 ==Script==
 
