@@ -326,9 +326,8 @@ __Files__         = "MultiCopy_UI_Files/MultiCopy_Main_Dialog.ui, "\
 <!-- Codeextralink (or the code to be downloaded) must be the first code detected to be read by AddonManager -->
 {{Codeextralink|https://raw.githubusercontent.com/melwyncarlo/MultiCopy/main/MultiCopy.FCMacro}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Links==
-</div>
+<span id="Links"></span>
+==Link==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [1] [https://github.com/melwyncarlo/MultiCopy MultiCopy Github Repository]
