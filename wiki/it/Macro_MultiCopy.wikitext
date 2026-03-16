@@ -230,10 +230,8 @@ from 1 to 2 : i1 :
 
 Qui gli oggetti vengono incollati insieme alle relative dipendenze. L'etichetta 'Numeri ordinari' ha un padding di '3', mentre l'etichetta 'Alfabeto maiuscolo' ha un padding di '0'.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''NOTICE''' how the 'from-to' loop uses the lower-case alphabet; but the label will be outputted as upper-case.
-<br>The above commands would output a set of duplicated objects (of the first object) each labelled as follows:
-</div>
+'''NOTARE''' come il ciclo 'da-a' utilizzi l'alfabeto minuscolo; tuttavia, l'etichetta verrà visualizzata in maiuscolo.
+<br>I comandi sopra riportati genereranno un insieme di oggetti duplicati (del primo oggetto), ciascuno etichettato come segue:
 
 <pre>
 Pasted-Body-001-A
