@@ -205,13 +205,11 @@ Sia ''i'' un oggetto arbitrario, l'i-esimo, da un elenco predefinito di oggetti 
 <span id="Numbering_labels"></span>
 ====Etichette di numerazione====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-<code>{n#}</code> or <code>{N#}</code> are of the type 'Ordinary Numerals'
-<br><code>{R#}</code> or <code>{ru#}</code> or <code>{RU#}</code> are of the type 'Upper-case Roman Numerals'
-<br><code>{r#}</code> or <code>{rl#}</code> or <code>{RL#}</code> are of the type 'Lower-case Roman Numerals'
-<br><code>{A#}</code> or <code>{au#}</code> or <code>{AU#}</code> are of the type 'Upper-case Alphabet'
-<br><code>{a#}</code> or <code>{al#}</code> or <code>{AL#}</code> are of the type 'Lower-case Alphabet'
-</div>
+<code>{n#}</code> o <code>{N#}</code> sono del tipo 'Numeri ordinari'
+<br><code>{R#}</code> o <code>{ru#}</code> o <code>{RU#}</code> sono del tipo 'Numeri romani maiuscoli'
+<br><code>{r#}</code> o <code>{rl#}</code> o <code>{RL#}</code> sono del tipo 'Numeri romani minuscoli'
+<br><code>{A#}</code> o <code>{au#}</code> o <code>{AU#}</code> sono del tipo 'Alfabeto maiuscolo'
+<br><code>{a#}</code> o <code>{al#}</code> o <code>{AL#}</code> sono del tipo 'Alfabeto minuscolo'
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 A numbering label can have two additional options:
