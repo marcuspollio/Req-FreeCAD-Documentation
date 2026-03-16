@@ -51,18 +51,15 @@ Double-cliquez sur un objet '''SolidToSheet''' existant dans l'[[Tree_View/fr|ar
 
 [[Image:SheetMetal_FromSolid-Task.png|320px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Thickness''': Sets the '''Thickness''' property.
-* '''Bend Radius''': Sets the '''Radius''' property.
-* '''Invert''': Toggles the '''Invert''' property; .
-* {{Button|Select}}: Activates the edit mode that allows to add the list of faces to remove and/or seam edges within the '''base Object''' property. If pressed:
-** {{Button|Preview}}: Indicates the edit mode. Press to finish the edit mode (hidden until '''Select''' is pressed).
-** {{Button|Clear All}}: Press to clear the list (hidden until '''Select''' is pressed). Changes to {{Button|Clear Selected}} if at least one list item is checked; removes only the selected items.
-</div>
+* '''Épaisseur''' : définit la propriété '''Thickness'''.
+* '''Rayon de courbure''' : définit la propriété '''Radius'''.
+* '''Inverser''' : active/désactive la propriété '''Invert'''.
+* {{Button|Sélectionner}} : active le mode d'édition permettant d'ajouter la liste des faces à supprimer et/ou des arêtes de jonction dans la propriété '''base Object'''. Si on appuie dessus :
+** {{Button|Aperçu}} : indique le mode d'édition. Appuyez pour quitter le mode d'édition (masqué jusqu'à ce que l'on appuie sur '''Sélectionner''').
+** {{Button|Tout effacer}} : appuyez pour effacer la liste (masqué jusqu'à ce que '''Sélectionner''' soit activé). Devient {{Button|Effacer la sélection}} si au moins un élément de la liste est coché. Cela ne supprime que les éléments sélectionnés.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Properties ==
-</div>
+<span id="Properties"></span>
+== Propriétés ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 See also: [[Property_View|Property View]].
