@@ -127,12 +127,10 @@ Wenn ein Link eine Eigenschaft besitzt, die genau denselben Namen und Typ hat wi
 
 '''So wird eine Überschreibung in der Benutzeroberfläche hinzugefügt:'''
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select the Link in the Tree View.
-# Right-click anywhere in the [[Property_View|Property View]] and select {{MenuCommand|Add property}}.
-# Choose the '''Type''' and enter the '''Name''' to match the property you wish to override.
-# The property will now appear in the Link's list with its own independent value. It is no longer shown in green font in the Property View, to indicate this new state.
-</div>
+# Den Link in der Baumansicht auswählen.
+# Mit der rechten Maustaste auf eine beliebige Stelle in der [[Property_View/de|Eigenschaften-Ansicht]] klicken und {{MenuCommand|Eigenschaft hinzufügen}} wählen.
+# Den '''Type''' auswählen und den '''Name''' eingeben, der der Eigenschaft entspricht, die überschrieben werden soll.
+# Die Eigenschaft wird nun in der Liste der Verknüpfungen mit einem eigenen, eigenständigen Wert angezeigt. In der Eigenschaften-Ansicht wird sie nicht mehr in grüner Schrift dargestellt, um diesen neuen Status anzuzeigen.
 
 Mit dieser Überschreibung können sich Links weiterhin wie einfache Verweise verhalten, ohne eine vollständige Kopie auszulösen. Dennoch können sie gezielt ihre eigenen, vom Quellobjekt unabhängigen Eigenschaften nutzen.
 
