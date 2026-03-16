@@ -63,9 +63,7 @@ zypper install libredwg0 libredwg-tools
 Umieść plik wykonywalny w ścieżce wyszukiwania systemu operacyjnego, {{Incode|os.getenv("PATH")}}, w celu automatycznego wykrywania ''({{Version/pl|0.21}})'', lub ustaw ścieżkę ręcznie. Zobacz stronę [[Import_Export_Preferences/pl#DWG|Ustawienia Importu i Eksportu]].
 
 <span id="Installation_macOS"></span>
-<div class="mw-translate-fuzzy">
-==== Instalacja MacOS ====
-</div>
+==== Instalacja macOS ====
 
 <div class="mw-translate-fuzzy">
 Instalacja kompilacji dla systemu macOS została przetestowana na komputerze z procesorem Apple M1 pod kontrolą systemu macOS 26.3.1 (Tahoe) oraz [https://brew.sh Homebrew].
