@@ -182,9 +182,7 @@ I valori '''1''' e '''3''' rappresentano l'intervallo di duplicazione in cui ent
 <br><code>{1}</code> rappresenta il '''nome dell'etichetta''' del primo oggetto.
 <br><code>{n#}</code> rappresenta un'''etichetta di numerazione''' del tipo 'Numeri ordinari'''. (maggiori dettagli in seguito)
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''NOTE''' that correct '''tab indentations''' are very crucial to the commands; they cannot be replaced with spaces.
-</div>
+'''NOTA''' che la corretta '''indentazione delle tabulazioni''' è fondamentale per i comandi; non può essere sostituita con spazi.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Brackets are only used for commands of the second generic type. The square brackets '''[''' and ''']''' always lie on the left-hand side of the command; whereas, the curly brackets '''{''' and '''}''' always lie on the right-hand side of the command.
