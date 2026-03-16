@@ -31,7 +31,6 @@ Voir aussi : [[Sketcher_Workbench/fr#Aides_au_dessin|Aides au dessin]].
 
 Pos-OVP = [[Sketcher_Preferences/fr#Général|paramètres d'affichage]] de position. {{Version/fr|1.0}}
 
-<div class="mw-translate-fuzzy">
 # Il existe plusieurs façons de lancer l'outil :
 #* Cliquez sur le bouton {{Button|[[Image:Sketcher_CreateText.svg|16px]] [[Sketcher_CreateText/fr|Texte]]}}.
 #* Sélectionnez l'option {{MenuCommand|Esquisse → Géométries → [[Image:Sketcher_CreateText.svg|16px]] Texte}} du menu.
@@ -54,7 +53,6 @@ Pos-OVP = [[Sketcher_Preferences/fr#Général|paramètres d'affichage]] de posit
 # Si l'outil fonctionne en [[Sketcher_Workbench/fr#Modes_continus|mode continu]] :
 ## Vous pouvez continuer à créer des textes si vous le souhaitez.
 ## Pour terminer, cliquez avec le bouton droit de la souris ou appuyez sur {{KEY|Échap}}, ou lancez un autre outil de création de géométrie ou de contrainte.
-</div>
 
 <span id="Notes"></span>
 ==Remarques== 
