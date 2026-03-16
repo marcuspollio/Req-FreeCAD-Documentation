@@ -197,12 +197,10 @@ Body-Something_3
 <span id="Object_representation"></span>
 ====Rappresentazione dell'oggetto====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Let '''i''' be an arbitrary i-th object from an assumed list of user-selected objects.
-<br><code>[i]</code> represents the '''i-th object''' without dependencies (by default)
-<br><code>[i|0]</code> represents the '''i-th object''' without dependencies (another form)
-<br><code>[i|1]</code> represents the '''i-th object''' WITH dependencies included
-</div>
+Sia ''i'' un oggetto arbitrario, l'i-esimo, da un elenco predefinito di oggetti scelti dall'utente.
+<br><code>[i]</code> rappresenta l'i-esimo oggetto senza dipendenze (impostazione predefinita)
+<br><code>[i|0]</code> rappresenta l'i-esimo oggetto senza dipendenze (un'altra forma)
+<br><code>[i|1]</code> rappresenta l'i-esimo oggetto CON dipendenze incluse
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ====Numbering labels====
