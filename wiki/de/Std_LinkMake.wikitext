@@ -105,11 +105,9 @@ Das Verhalten der Verknüpfung wird durch ihre {{PropertyData/de|LinkCopyOnChang
 
 Diese abgeleiteten Link-Instanzen werden manchmal auch als '''Varianten-Links''' bezeichnet. Sie können optional mit einer Tabellenkalkulation gekoppelt werden, um [[Configuration_Tables/de|Konfigurationstabellen]] zu nutzen.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The status of the {{PropertyData|LinkCopyOnChange}} property can be modified in the UI in two alternative ways:
-* Select the Link object to modify, either in the Tree View or the 3D View, then use the Property View to change its value.
-* Right-click the Link object in the Tree View, and on its context menu, navigate to the {{MenuCommand|Copy on Change}} submenu entry. There you can switch between (at this time) {{Value|Enabled}} and {{Value|Tracking}}.
-</div>
+Der Status der Eigenschaft {{PropertyData/de|LinkCopyOnChange}} kann in der Benutzeroberfläche auf zwei verschiedene Arten geändert werden:
+* Das zu bearbeitende Link-Objekt entweder in der Baumansicht oder in der 3D-Ansicht auswählen und dann dessen Wert über die Eigenschaften-Ansicht ändern.
+* Mit der rechten Maustaste auf das Link-Objekt in der Baumansicht klicken und im Kontextmenü zum Untermenüeintrag {{MenuCommand|Bei Änderung kopieren}} navigieren. Dort kann (derzeit) zwischen {{Value|Aktiviert}} und {{Value|Verfolgung}} gewechselt werden.
 
 <span id="Setting_up_the_configurable_object"></span>
 === Einrichten des konfigurierbaren Objekts ===
