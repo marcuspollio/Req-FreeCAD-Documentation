@@ -1,15 +1,13 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[Sketcher_CreatePeriodicBSplineByInterpolation|Periodic B-Spline From Knots]]
-|[[Sketcher_ToggleConstruction|Toggle Construction Geometry]]
-|[[Sketcher_Workbench|Sketcher]]
+{{Docnav/pl
+|[[Sketcher_CreatePeriodicBSplineByInterpolation/pl|Okresowa krzywa złożona przez węzły]]
+|[[Sketcher_ToggleConstruction/pl|Przełącz tryb konstrukcji]]
+|[[Sketcher_Workbench/pl|Szkicownik]]
 |IconL=Sketcher_CreatePeriodicBSplineByInterpolation.svg
 |IconR=Sketcher_ToggleConstruction.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommand
@@ -75,16 +73,14 @@ Pos-OVP = Positional [[Sketcher_Preferences#General|On-View-Parameters]]. {{Vers
 </div>
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[Sketcher_CreatePeriodicBSplineByInterpolation|Periodic B-Spline From Knots]]
-|[[Sketcher_ToggleConstruction|Toggle Construction Geometry]]
-|[[Sketcher_Workbench|Sketcher]]
+{{Docnav/pl
+|[[Sketcher_CreatePeriodicBSplineByInterpolation/pl|Okresowa krzywa złożona przez węzły]]
+|[[Sketcher_ToggleConstruction/pl|Przełącz tryb konstrukcji]]
+|[[Sketcher_Workbench/pl|Szkicownik]]
 |IconL=Sketcher_CreatePeriodicBSplineByInterpolation.svg
 |IconR=Sketcher_ToggleConstruction.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
