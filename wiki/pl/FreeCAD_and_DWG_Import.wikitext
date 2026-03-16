@@ -72,9 +72,7 @@ Instalacja kompilacji dla systemu macOS została przetestowana na komputerze z p
 * Wymagane składniki, które można zainstalować za pomocą Homebrew, to '''autoconf''' i '''texinfo'''.
 * Instalacja w systemie macOS wymaga poprawnie sklonowanego repozytorium git dla '''libredwg'''.
 
-<div class="mw-translate-fuzzy">
 Poniższy skrypt służy do automatycznego pobierania, konfiguracji i instalacji po zainstalowaniu Homebrew. Wymaga on programu '''git''', który może być preinstalowany w systemie macOS lub zainstalowany za pomocą narzędzi wiersza poleceń:
-</div>
 
 <syntaxhighlight lang="bash">
 #!/bin/bash
@@ -93,9 +91,7 @@ make
 make install
 </syntaxhighlight>
 
-<div class="mw-translate-fuzzy">
 W zależności od wersji systemu macOS i architektury komputera poniższe pliki wykonywalne będą dostępne w katalogu /opt/homebrew/bin lub /usr/local/bin:
-</div>
 
 <syntaxhighlight lang="bash">
 {{Code|lang=bash|code=
