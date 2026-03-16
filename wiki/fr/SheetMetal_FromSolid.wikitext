@@ -61,9 +61,7 @@ Double-cliquez sur un objet '''SolidToSheet''' existant dans l'[[Tree_View/fr|ar
 <span id="Properties"></span>
 == Propriétés ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-See also: [[Property_View|Property View]].
-</div>
+Voir aussi : [[Property_View/fr|Éditeur de propriétés]]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 A SheetMetal '''SolidToSheet''' object is derived from a [[Part_Feature|Part Feature]] object or, if it is inside a [[PartDesign_Body|PartDesign Body]], from a [[PartDesign_Feature|PartDesign Feature]] object, and inherits all its properties. It also has the following additional properties:
