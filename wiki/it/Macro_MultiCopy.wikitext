@@ -211,11 +211,9 @@ Sia ''i'' un oggetto arbitrario, l'i-esimo, da un elenco predefinito di oggetti 
 <br><code>{A#}</code> o <code>{au#}</code> o <code>{AU#}</code> sono del tipo 'Alfabeto maiuscolo'
 <br><code>{a#}</code> o <code>{al#}</code> o <code>{AL#}</code> sono del tipo 'Alfabeto minuscolo'
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-A numbering label can have two additional options:
-# <code>{n#X}</code> Padding (of 'X' digits)
-# <code>{n#X|i1}</code> Nested loop level assignment (to a loop tagged as 'i1')
-</div>
+Un'etichetta di numerazione può avere due opzioni aggiuntive:
+# <code>{n#X}</code> Riempimento (di 'X' cifre)
+# <code>{n#X|i1}</code> Assegnazione del livello del ciclo annidato (a un ciclo contrassegnato come 'i1')
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In case of a nested loop level assignment WITHOUT padding, do:
