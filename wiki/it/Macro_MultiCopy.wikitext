@@ -228,9 +228,7 @@ from 1 to 2 : i1 :
           [1|1] = Pasted-{1}-{n#3|i1}-{AU#0|i2}
 </pre>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Here, the objects are pasted along with the dependencies. The 'Ordinary Numeral' label has a padding of '3', and the 'Upper-case Alphabet' label has a padding of '0'.
-</div>
+Qui gli oggetti vengono incollati insieme alle relative dipendenze. L'etichetta 'Numeri ordinari' ha un padding di '3', mentre l'etichetta 'Alfabeto maiuscolo' ha un padding di '0'.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''NOTICE''' how the 'from-to' loop uses the lower-case alphabet; but the label will be outputted as upper-case.
