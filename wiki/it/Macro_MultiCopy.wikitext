@@ -186,9 +186,7 @@ I valori '''1''' e '''3''' rappresentano l'intervallo di duplicazione in cui ent
 
 Le parentesi quadre vengono utilizzate solo per i comandi del secondo tipo generico. Le parentesi quadre '''[''' e ''']''' si trovano sempre a sinistra del comando; mentre le parentesi graffe '''{''' e '''}''' si trovano sempre a destra del comando.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Let the first object's original label name be '''Body'''. Then, the above commands would output a set of duplicated objects (of the first object) each labelled as follows:
-</div>
+Supponiamo che il nome dell'etichetta originale del primo oggetto sia '''Body'''. Quindi, i comandi precedenti genererebbero un insieme di oggetti duplicati (del primo oggetto), ciascuno etichettato come segue:
 
 <pre>
 Body-Something_1
