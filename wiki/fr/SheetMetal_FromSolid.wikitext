@@ -10,15 +10,14 @@
 |IconC=Sheetmetal_workbench_icon.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/fr
 |Name=SheetMetal FromSolid
-|MenuLocation=SheetMetal → Convert to Sheet Metal
-|Workbenches=[[SheetMetal_Workbench|SheetMetal]]
+|Name/fr=SheetMetal Convertir en tôle
+|MenuLocation=SheetMetal → Convertir en tôle
+|Workbenches=[[SheetMetal_Workbench/fr|SheetMetal]]
 |Shortcut={{KEY|C}} {{KEY|S}}
 |Version=0.8.0
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Description ==
