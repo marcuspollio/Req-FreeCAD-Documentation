@@ -70,12 +70,10 @@ Un objet SheetMetal '''SolidToSheet''' est dérivé d'un objet [[Part_Feature/fr
 
 {{Properties_Title|Parameters}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{PropertyData|Invert|Bool}}: "Invert bend direction". Controls whether the wall thickness builds up inside or outside the base object.
-* {{PropertyData|Radius|Length}}: Inner radius of automatically added bends.
-* {{PropertyData|Thickness|Length}}: Wall thickness of the sheet metal shape.
-* {{PropertyData|base Object|LinkSub}}: "Base object". Link to the solid/shell and its selected sub-elements.
-</div>
+* {{PropertyData|Invert|Bool}} : inverse le sens du pliage. Détermine si l'épaisseur des parois s'accroît vers l'intérieur ou vers l'extérieur de l'objet de base.
+* {{PropertyData|Radius|Length}} : rayon intérieur des plis ajoutés automatiquement.
+* {{PropertyData|Thickness|Length}} : épaisseur des parois de la forme en tôle.
+* {{PropertyData|base Object|LinkSub}} : objet de base. Lien vers le solide/la coque et ses sous-éléments sélectionnés.
 
 {{Docnav/fr
 |[[SheetMetal_AddBase/fr|Tôle de base]]
