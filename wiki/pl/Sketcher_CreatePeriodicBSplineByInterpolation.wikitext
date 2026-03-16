@@ -2,10 +2,10 @@
 
 {{Docnav/pl
 |[[Sketcher_CreateBSplineByInterpolation/pl|Krzywa złożona przez węzły]]
-|[[Sketcher_ToggleConstruction/pl|Przełącz tryb konstrukcji]]
+|[[Sketcher_CreateText/pl|Tekst]]
 |[[Sketcher_Workbench/pl|środowisko pracy Szkicownik]]
 |IconL=Sketcher_CreateBSplineByInterpolation.svg
-|IconR=Sketcher_ToggleConstruction.svg
+|IconR=Sketcher_CreateText.svg
 |IconC=Workbench_Sketcher.svg
 }}
 
@@ -46,6 +46,7 @@ Zobacz stronę [[Sketcher_CreateBSpline/pl#Uwagi|Krzywa złożona przez punkty k
 Zobacz stronę [[Sketcher_CreateBSpline/pl#Ograniczenia|Krzywa złożona przez punkty kontrolne]].
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[Sketcher_CreateBSplineByInterpolation/pl|Krzywa złożona przez interpolację]]
 |[[Sketcher_ToggleConstruction/pl|Przełącz tryb konstrukcji]]
@@ -54,6 +55,7 @@ Zobacz stronę [[Sketcher_CreateBSpline/pl#Ograniczenia|Krzywa złożona przez p
 |IconR=Sketcher_ToggleConstruction.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
