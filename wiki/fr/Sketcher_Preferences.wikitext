@@ -97,7 +97,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | Spécifie le mode de mise à l'échelle automatique de la géométrie lors de la première dimension :
 * {{MenuCommand|Toujours}} : la mise à l'échelle automatique de la première dimension est toujours effectuée.
 * {{MenuCommand|Jamais}} : la mise à l'échelle automatique de la première dimension n'est jamais effectuée.
-* {{MenuCommand|Lorsqu'aucun élément d'échelle n'est visible}} : la mise à l'échelle automatique à la première dimension n'est effectuée que s'il n'y a pas d'objets visibles dans la vue 3D.
+* {{MenuCommand|Lorsque aucune fonction de mise à l'échelle n'est visible.}} : la mise à l'échelle automatique à la première dimension n'est effectuée que s'il n'y a pas d'objets visibles dans la vue 3D.
 
 |-
 | {{MenuCommand|Mode de visibilité des paramètres dans la vue}} {{Version/fr|1.0}}
