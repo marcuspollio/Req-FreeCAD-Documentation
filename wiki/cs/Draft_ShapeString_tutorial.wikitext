@@ -16,7 +16,7 @@ Tento tutoriál byl přepracován pro FreeCAD v1.1, ale mělo by být možné po
 Tento tutoriál popisuje metodu vytváření 3D textu a jeho použití s ​​pevnými objekty v [[File:Workbench_Part.svg|24px]] [[Part_Workbench/cs|pracovním prostředí Part]]. Budeme diskutovat o tom, jak:
 * vložit obrysový text pomocí nástroje {{Button|[[Image:Draft_ShapeString.svg|16px]] [[Draft_ShapeString/cs|Draft ShapeString]]}},
 * umístit ho na geometrii pomocí {{Button|[[File:Part_EditAttachment.svg|16px]] [[Part_EditAttachment/cs|Part EditAttachment]]}},
-* vytlačit ho tak, aby se stal 3D tělesem {{Button|[[File:Part_Extrude.svg|16px]] [[Part_Extrude/cs|Part Extrude]]}}, nakonec
+* vytlačit ho tak, aby se stal 3D tělesem {{Button|[[File:Part_Extrude.svg|16px]] [[Part_Extrude/cs|Part Extrude]]}} a nakonec, jak
 * vyrýt text použitím booleovského {{Button|[[File:Part_Cut.svg|16px]] [[Part_Cut/cs|Part Cut]]}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
