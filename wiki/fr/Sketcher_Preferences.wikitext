@@ -14,7 +14,7 @@
 <span id="Introduction"></span>
 == Introduction ==
 
-Les préférences pour l'[[Image:Workbench_Sketcher.svg|24px]] [[Sketcher_Workbench/fr|atelier Sketcher]] se trouvent dans [[Preferences_Editor/fr|Réglage des préférences]]. Dans le menu, sélectionnez {{MenuCommand|Édition → Préférences...}} puis {{MenuCommand|[[Image:Workbench_Sketcher.svg|16px]] Sketcher}}. Ce groupe n'est disponible que si l'atelier Sketcher a été chargé dans la session FreeCAD en cours.
+Les préférences pour l'atelier [[Image:Workbench_Sketcher.svg|24px]] [[Sketcher_Workbench/fr|Sketcher]] se trouvent dans [[Preferences_Editor/fr|Réglage des préférences]]. Dans le menu, sélectionnez {{MenuCommand|Édition → Préférences}} puis {{MenuCommand|[[Image:Workbench_Sketcher.svg|16px]] Sketcher}}. Ce groupe n'est disponible que si l'atelier Sketcher a été chargé dans la session FreeCAD en cours.
 
 Il existe quatre pages : [[#Général|Général]], [[#Grille|Grille]], [[#Affichage|Affichage]] et [[#Apparence|Apparence]].
 
