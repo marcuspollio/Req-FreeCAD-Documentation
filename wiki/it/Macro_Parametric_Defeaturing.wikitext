@@ -7,9 +7,7 @@
 |Description=Questa macro è simile allo strumento di rimozione delle parti ([[Part_Defeaturing/it|rimozione delle parti]] presente in [[Part_Workbench/it|Part]], ma è parametrica e funziona anche in [[PartDesign_Workbench/it|PartDesign]]. Per utilizzarla: selezionare le facce delle feature che si desidera rimuovere dal modello ed eseguire la macro. Per la rimozione delle parti vengono utilizzate le facce, non gli spigoli o i vertici. Le facce utilizzate possono essere modificate in seguito e l'oggetto verrà ricostruito automaticamente.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Parametric is generally a good thing in 3D modeling, but because defeaturing relies upon face names: Face1, Face2, etc. it is vulnerable to topological naming issues and might break if changes are made to the original source object being defeatured when those changes result in the face names getting renumbered. Defeaturing is also a somewhat finicky process, not guaranteed to always succeed.<br/>
-</div>
+In generale, la modellazione parametrica è un'ottima cosa nella modellazione 3D, ma poiché la rimozione delle caratteristiche si basa sui nomi delle facce (Faccia1, Faccia2, ecc.), è vulnerabile a problemi di denominazione topologica e potrebbe non funzionare correttamente se vengono apportate modifiche all'oggetto sorgente originale da rimuovere, in quanto tali modifiche comportano una rinumerazione dei nomi delle facce. La rimozione delle caratteristiche è inoltre un processo piuttosto delicato, il cui successo non è sempre garantito.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Full documentation can be found on GitHub: [https://github.com/mwganson/parametric_defeaturing Parametric Defeaturing].<br/>
