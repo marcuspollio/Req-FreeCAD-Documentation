@@ -75,11 +75,10 @@ Chcete-li použít ShapeStrings uvnitř [[File:Workbench_PartDesign.svg|24px]] [
 [[File:ShapeStringEngraveTutorial_ShapeStringText.png]]
 {{Caption|Text vytvořený jako ShapeString, tedy jako vyplněný složený tvar v rovině}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-5. Move the ShapeString to the Chamfer:
-:5.1. Make sure both the {{incode|Chamfer}} object and the {{incode|ShapeString}} object are visible in the [[3D_View|3D View]]. If one is not, select it in the [[Tree_View|Tree View]] and press {{KEY|Space}} on the keyboard.
-:5.2. Switch to the [[Part_Workbench|Part Workbench]].
-:5.3. In the [[Tree_View|Tree View]], select {{incode|ShapeString}}.
+5. Přesunutí ShapeStringu na zkosení:
+:5.1. Ujistěte se, že jsou ve [[3D_View/cs|3D pohledu]] viditelné oba objekty: {{incode|Chamfer}} i {{incode|ShapeString}}. Pokud některý z nich není viditelný, vyberte ho ve [[Tree_View/cs|stromovém pohledu]] a stiskněte klávesu {{KEY|Mezerník}} na klávesnici.
+:5.2. Přejděte na [[Part_Workbench/cs|pracovní plochu Part]].
+:5.3. Ve [[Tree_View/cs|stromovém zobrazení]] vyberte {{incode|ShapeString}}.
 :5.4. Select {{MenuCommand|Part → [[File:Part_EditAttachment.svg|16px]] [[Part_EditAttachment|Attachment]]}}.
 :5.5. In the 3D View, select the chamfered face of the {{incode|Chamfer}}.
 :5.6. In the {{MenuCommand|Attachment}} [[Task_Panel|task panel]]: 
@@ -89,7 +88,6 @@ Chcete-li použít ShapeStrings uvnitř [[File:Workbench_PartDesign.svg|24px]] [
 :5.9. On the {{MenuCommand|Data}} tab of the [[Property_View|Property View]]:
 ::5.9.1. Change {{MenuCommand|Justification}} to {{incode|Middle-Center}}.
 ::5.9.2. Expand the {{MenuCommand|Attachment Offset}} property node and change {{MenuCommand|Angle}} to {{incode|90.0 °}}.
-</div>
 
 [[File:ShapeStringEngraveTutorial_TextOnBlock.png]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
