@@ -90,9 +90,7 @@ Chcete-li použít ShapeStrings uvnitř [[File:Workbench_PartDesign.svg|24px]] [
 ::5.9.2. Rozbalte uzel vlastností {{MenuCommand|Attachment Offset}} a změňte hodnotu {{MenuCommand|Angle}} na {{incode|90,0 °}}.
 
 [[File:ShapeStringEngraveTutorial_TextOnBlock.png]]
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|The ShapeString centered on the chamfered face}}
-</div>
+{{Caption|ShapeString vycentrovaný na zkosené ploše}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Create the engraved text==
