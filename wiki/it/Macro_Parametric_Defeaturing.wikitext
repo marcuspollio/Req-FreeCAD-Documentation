@@ -7,9 +7,7 @@
 
 In generale, la modellazione parametrica è un'ottima cosa nella modellazione 3D, ma poiché la rimozione delle caratteristiche si basa sui nomi delle facce (Faccia1, Faccia2, ecc.), è vulnerabile a problemi di denominazione topologica e potrebbe non funzionare correttamente se vengono apportate modifiche all'oggetto sorgente originale da rimuovere, in quanto tali modifiche comportano una rinumerazione dei nomi delle facce. La rimozione delle caratteristiche è inoltre un processo piuttosto delicato, il cui successo non è sempre garantito.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Full documentation can be found on GitHub: [https://github.com/mwganson/parametric_defeaturing Parametric Defeaturing].<br/>
-</div>
+La documentazione completa è disponibile su GitHub: [https://github.com/mwganson/parametric_defeaturing Parametric Defeaturing].<br/>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |Author=TheMarkster
