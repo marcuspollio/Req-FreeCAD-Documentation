@@ -1,21 +1,18 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Macro
 |Name=Macro Packages
 |Icon=Packages_icon.svg
-|Description=Gui front end for pip for installing/removing pypi packages in the FreeCAD Python environment.
+|Description=Interfaccia grafica per pip per l'installazione e la rimozione di pacchetti pypi nell'ambiente Python di FreeCAD.
 |Author=TheMarkster
 |Version=0.4
-|Date=2025.01.18
+|Date=18-01-2025
 |FCVersion=1.0
 |Download=[https://wiki.freecad.org/images/c/c7/Packages_icon.svg ToolBar Icon]
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Description ==
-</div> 
+<span id="Description"></span>
+== Descrizione == 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This is a Gui front end for pip for installing pypi packages into the FreeCAD Python environment.
