@@ -36,14 +36,12 @@ Chcete-li použít ShapeStrings uvnitř [[File:Workbench_PartDesign.svg|24px]] [
 <span id="Create_the_basic_shape"></span>
 ==Vytvoření základního tvaru==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-2. Create a rectangular box:
-:2.1. Insert a primitive cube by clicking on {{Button|[[Image:Part_Box.svg|16px]] [[Part_Box|Cube]]}}.
-:2.2. Select the created {{incode|Cube}} in the [[Tree_View|Tree View]].
-:2.3. On the {{MenuCommand|Data}} tab of the [[Property_View|Property View]]:
-::2.3.1. Change {{MenuCommand|Width}} to {{incode|31 mm}}.
-:2.4. Re-center the view per step 1.3.
-</div>
+2. Vytvoření obdélníkové krabice:
+:2.1. Vložte jednoduchý krychlový tvar kliknutím na {{Button|[[Image:Part_Box.svg|16px]] [[Part_Box/cs|Krychle]]}}.
+:2.2. Ve [[Tree_View/cs|stromovém zobrazení]] vyberte vytvořenou {{incode|cube}}.
+:2.3. Na kartě {{MenuCommand|Data}} v okně [[Property_View/cs|Vlastnosti]]:
+::2.3.1. Změňte hodnotu {{MenuCommand|Width}} na {{incode|31 mm}}.
+:2.4. Znovu vycentrujte zobrazení podle kroku 1.3.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 3. Create a chamfer:
