@@ -33,9 +33,8 @@ Chcete-li použít ShapeStrings uvnitř [[File:Workbench_PartDesign.svg|24px]] [
 :1.3. Při přidávání objektů stiskněte tlačítko {{Button|[[File:Std_ViewFitAll.svg|16px]] [[Std_ViewFitAll/cs|Přizpůsobit vše]]}} nebo jeho klávesovou zkratku {{KEY|V}}, {{KEY|F}}. Tím se posune a přiblíží [[3D_View/cs|3D pohled]] tak, aby byly v pohledu viditelné všechny prvky.
 :Podržte klávesu {{KEY|Ctrl}} a kliknutím vyberte více položek. Pokud jste vybrali něco omylem nebo chcete zrušit výběr všech položek, stačí kliknout na prázdné místo ve [[3D_View/cs|3D pohledu]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Create the basic shape==
-</div>
+<span id="Create_the_basic_shape"></span>
+==Vytvoření základního tvaru==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 2. Create a rectangular box:
