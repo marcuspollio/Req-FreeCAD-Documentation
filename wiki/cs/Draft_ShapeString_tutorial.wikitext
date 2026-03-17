@@ -117,9 +117,7 @@ Chcete-li použít ShapeStrings uvnitř [[File:Workbench_PartDesign.svg|24px]] [
 :7.2. Press {{Button|[[File:Part_Cut.svg|16px]] [[Part_Cut|Cut]]}}. This will create a {{incode|Cut}} object. This is the final object.
 
 [[File:08_T04_Part_ShapesString_Extrude_final_cut.png]]
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Final model: a chamfered cube, with engraved text created from ShapeString, Extrude, and boolean Cut operations.}}
-</div>
+{{Caption|Konečný model: zkosená krychle s vyrytým textem, vytvořená pomocí operací ShapeString, Extrude a booleovského odečtení.}}
 
 <span id="Engraving_3D_text_with_the_PartDesign_Workbench"></span>
 == Gravírování 3D textu pomocí pracovního prostředí PartDesign ==
