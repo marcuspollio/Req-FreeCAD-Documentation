@@ -57,7 +57,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 {{Emphasis|Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.}}
 
 |-
-| {{MenuCommand|Outil automatique de contrainte horizontale/verticale}} {{Version/fr|1.0}}
+| {{MenuCommand|Outil unifié pour les contraintes horizontales/verticales automatiques}} {{Version/fr|1.0}}
 | Si cette option est cochée, l'[[Sketcher_ConstrainHorVer/fr|outil automatique de contrainte horizontale/verticale]] est ajouté à la barre d'outils (il est toujours disponible dans le menu et par son raccourci), et les outils de [[Sketcher_ConstrainHorizontal/fr|contrainte horizontale]] et de [[Sketcher_ConstrainVertical|contrainte verticale]] sont regroupés en dessous dans une liste déroulante.
 
 {{Emphasis|Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.}}
