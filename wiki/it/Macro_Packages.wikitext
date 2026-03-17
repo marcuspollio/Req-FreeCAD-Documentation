@@ -27,17 +27,11 @@ Questa macro installerà i pacchetti pypi in una cartella speciale chiamata {{Fi
 
 Tenere presente che un pacchetto potrebbe avere dipendenze aggiuntive, che verranno installate a loro volta, e quando si rimuove il pacchetto, anche le dipendenze installate con esso verranno rimosse, a meno che non siano state installate anche come dipendenze di un altro pacchetto. È possibile eliminare l'intera cartella per rimuovere tutti i pacchetti di dipendenza installati con questa macro e con Addon Manager. Ovviamente, così facendo, si potrebbe compromettere il funzionamento di eventuali componenti aggiuntivi che richiedono questi pacchetti.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The installed packages will go into a subfolder based on the Python version in use. If FreeCAD is updated to a newer version of Python, then those packages will most likely need to be re-installed. You can simply copy them over to the new Python version folder, but it is better to use pip in case the newer Python version requires a newer version of the package.
-</div>
+I pacchetti installati verranno inseriti in una sottocartella in base alla versione di Python in uso. Se FreeCAD viene aggiornato ad una versione più recente di Python, è molto probabile che questi pacchetti debbano essere reinstallati. È possibile semplicemente copiarli nella cartella della nuova versione di Python, ma è preferibile utilizzare pip nel caso in cui la nuova versione di Python richieda una versione più recente del pacchetto.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 == Script ==
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-ToolBar icon
-</div>
+Icona barra degli strumenti
 [[Image:Packages_icon.svg]]
 
 '''packages.py'''
@@ -1655,9 +1649,7 @@ if __name__ == "__main__":
         FreeCAD.Console.PrintError("Already there is an active task dialog.\n")
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Link==
-</div> 
+==Link== 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The forum discussion [https://forum.freecad.org/viewtopic.php?t=91793 Macro Packages]
