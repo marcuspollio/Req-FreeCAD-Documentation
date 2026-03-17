@@ -20,9 +20,7 @@ La documentazione completa è disponibile su GitHub: [https://github.com/mwganso
 <span id="Description"></span>
 == Descrizione ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This macro is similar to the [[Part_Defeaturing|defeaturing tool]] in the [[Part_Workbench|Part Workbench]], but it's parametric and it also works in [[PartDesign_Workbench|PartDesign]]. To use: select the faces of the features you wish to remove from the model and run the macro. Faces are used in defeaturing, not edges or vertices. The faces used may be edited later and the object will rebuild itself automatically.
-</div>
+Questa macro è simile allo strumento di [[Part_Defeaturing/it|rimozione]] presente in [[Part_Workbench/it|Part]], ma è parametrica e funziona anche in [[PartDesign_Workbench/it|PartDesign]]. Per utilizzarla: selezionare le facce delle feature che si desidera rimuovere dal modello ed eseguire la macro. Nella rimozione delle parti vengono utilizzate le facce, non gli spigoli o i vertici. Le facce utilizzate possono essere modificate in seguito e l'oggetto verrà ricostruito automaticamente.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Parametric is generally a good thing in 3D modeling, but because defeaturing relies upon face names: Face1, Face2, etc. it is vulnerable to topological naming issues and might break if changes are made to the original source object being defeatured when those changes result in the face names getting renumbered. Defeaturing is also a somewhat finicky process, not guaranteed to always succeed.
