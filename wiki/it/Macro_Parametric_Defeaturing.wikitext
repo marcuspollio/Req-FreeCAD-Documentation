@@ -9,7 +9,6 @@ In generale, la modellazione parametrica è un'ottima cosa nella modellazione 3D
 
 La documentazione completa è disponibile su GitHub: [https://github.com/mwganson/parametric_defeaturing Parametric Defeaturing].<br/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |Author=TheMarkster
 |Version=0.2021.10.10.rev2
 |Date=2021-10-10.rev2
@@ -17,11 +16,9 @@ La documentazione completa è disponibile su GitHub: [https://github.com/mwganso
 |Download=[https://wiki.freecad.org/File:parametric_defeaturing.svg ToolBar Icon]
 |Links=[https://github.com/mwganson/parametric_defeaturing Full Documentation on GitHub]
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Description ==
-</div>
+<span id="Description"></span>
+== Descrizione ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This macro is similar to the [[Part_Defeaturing|defeaturing tool]] in the [[Part_Workbench|Part Workbench]], but it's parametric and it also works in [[PartDesign_Workbench|PartDesign]]. To use: select the faces of the features you wish to remove from the model and run the macro. Faces are used in defeaturing, not edges or vertices. The faces used may be edited later and the object will rebuild itself automatically.
