@@ -22,13 +22,10 @@ Tento tutoriál popisuje metodu vytváření 3D textu a jeho použití s ​​p
 Chcete-li použít ShapeStrings uvnitř [[File:Workbench_PartDesign.svg|24px]] [[PartDesign_Workbench/cs|pracovního prostředí PartDesign]], je proces v podstatě stejný jako u Part Workbench, ale ShapeString musí být umístěn uvnitř [[PartDesign_Body/cs|PartDesign Těla]]. Další informace najdete na konci tohoto návodu.
 
 [[File:08_T04_Part_ShapesString_Extrude_final_cut.png]]
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Final model of the engraved text.}}
-</div>
+{{Caption|Finální model rytého textu.}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Setup ==
-</div>
+<span id="Setup"></span>
+== Nastavení ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 1. Open FreeCAD and create a new empty document with {{MenuCommand|File → [[File:Std_New.svg|16px]] [[Std_New|New Document]]}}.
