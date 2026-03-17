@@ -205,8 +205,8 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | {{MenuCommand|Forcer la caméra orthographique lors du passage en mode édition}}
 | Si cette option est cochée, le mode de la caméra sera forcé en mode orthographique à l'ouverture de l'esquisse. Le mode de la caméra sera rétabli lorsque vous quitterez le mode édition. Cette préférence n'est disponible que si {{MenuCommand|Restaurer la position de la caméra après l'édition}} est activée.
 |-
-| {{MenuCommand|Ouvrir l'esquisse en mode "Vue en coupe"}}
-| Si cette option est cochée, l'esquisse s'ouvrira en mode "Vue en coupe".
+| {{MenuCommand|Ouvrir l'esquisse en mode « Vue en coupe »}}
+| Si cette option est cochée, l'esquisse s'ouvrira en mode « Vue en coupe ».
 |-
 | {{Button|{{MenuCommand|Appliquer aux esquisses existantes}}}}
 | Si vous appuyez sur ce bouton, les paramètres de {{MenuCommand|Automatisation de la visibilité}} seront également appliqués aux esquisses existantes. Sinon, ils ne seront utilisés que pour les nouvelles esquisses.
