@@ -73,9 +73,7 @@ Chcete-li použít ShapeStrings uvnitř [[File:Workbench_PartDesign.svg|24px]] [
 :4.7. Proveďte opačný postup než v kroku 4.4, aby se objekt {{incode|Chamfer}} opět zobrazil.
 
 [[File:ShapeStringEngraveTutorial_ShapeStringText.png]]
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Text created as a ShapeString, that is, a filled compound shape on a plane}}
-</div>
+{{Caption|Text vytvořený jako ShapeString, tedy jako vyplněný složený tvar v rovině}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 5. Move the ShapeString to the Chamfer:
