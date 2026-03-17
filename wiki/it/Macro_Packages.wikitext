@@ -18,13 +18,10 @@ Questa è un'interfaccia grafica (GUI) per pip, utile per installare pacchetti P
 
 [[File:Packages_scr001.png|600px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Packages screenshot}}
-</div>
+{{Caption|Screenshot di Packages}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Usage ==
-</div> 
+<span id="Usage"></span>
+== Utilizzo == 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This macro will install pypi packages into a special folder called {{FileName|AdditionalPythonPackages}}. This is the same exact folder that is also used by the AddonManager for installing dependencies for various addons. Files in this folder might have been installed by the addon manager or by this macro. You can click the button in the bottom right corner to open the folder location in your default file browser. Note that if the folder does not yet exist it will be created for you. If the folder has to be created, then FreeCAD will not recognize packages installed into it until FreeCAD is restarted. After that, no FreeCAD restart should be required again. Packages are installed using pip. These are installed from pypi. Only the top 8000 most downloaded packages are listed, but you can use the search button to install those that are outside the top 8000 most popular packages. The apply filter button will use the filter line edit contents to filter the packages in the top 8000 list. The Sort checkbox toggles sorting between alphabetical and based on popularity (default unchecked state). The open url button opens the pypi page for the selected package in your default browser.
