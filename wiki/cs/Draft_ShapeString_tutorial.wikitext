@@ -19,9 +19,7 @@ Tento tutoriál popisuje metodu vytváření 3D textu a jeho použití s ​​p
 * vytlačit ho tak, aby se stal 3D tělesem {{Button|[[File:Part_Extrude.svg|16px]] [[Part_Extrude/cs|Part Extrude]]}} a nakonec, jak
 * vyrýt text použitím booleovského {{Button|[[File:Part_Cut.svg|16px]] [[Part_Cut/cs|Part Cut]]}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To use ShapeStrings inside the [[File:Workbench_PartDesign.svg|24px]] [[PartDesign_Workbench|PartDesign Workbench]], the process is essentially the same as with the Part Workbench, but the ShapeString must be placed inside the [[PartDesign_Body|PartDesign Body]]. Go to the end of this tutorial for more information.
-</div>
+Chcete-li použít ShapeStrings uvnitř [[File:Workbench_PartDesign.svg|24px]] [[PartDesign_Workbench/cs|pracovního prostředí PartDesign]], je proces v podstatě stejný jako u Part Workbench, ale ShapeString musí být umístěn uvnitř [[PartDesign_Body/cs|PartDesign Těla]]. Další informace najdete na konci tohoto návodu.
 
 [[File:08_T04_Part_ShapesString_Extrude_final_cut.png]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
