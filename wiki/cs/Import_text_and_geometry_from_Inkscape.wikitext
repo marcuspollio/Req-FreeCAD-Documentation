@@ -37,7 +37,8 @@ Inkscape 0.91 and FreeCAD 0.16.6704 on Windows are used for these operations.
 *use pad or [[Part_Extrude|Part Extrude]] tool on the faces to get solids
 *you can fuse your objects or use compound on them depending on your intended further work
 
-== Importing geometry from inkscape ==
+<span id="Importing_geometry_from_inkscape"></span>
+== Import geometrie z programu Inkscape ==
 
 Since inkscape and FreeCAD seem to have different approaches on how to apply dimensions on svg-object, the recommended workflow seems to be:
 *ungroup all objects in inkscape
