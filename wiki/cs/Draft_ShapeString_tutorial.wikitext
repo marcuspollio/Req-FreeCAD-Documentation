@@ -47,9 +47,9 @@ Chcete-li použít ShapeStrings uvnitř [[File:Workbench_PartDesign.svg|24px]] [
 :3.1. Ve [[3D_View/cs|3D pohledu]] vyberte horní hranu ({{incode|Edge6}}) podlouhlé stěny {{incode|Cube}}.
 :3.2. Klikněte na tlačítko {{Button|[[Image:Part_Chamfer.svg|16px]] [[Part_Chamfer|Zkosení]]}}.
 :3.3. Na [[Task_Panel|panelu úloh]] {{MenuCommand|Zkosit hrany}}:
-::3.3.1. Verify that {{MenuCommand|Select edges}} is selected and that the {{MenuCommand|Chamfer type}} is {{incode|Equal distance}}.
-::3.3.2. Change {{MenuCommand|Length}} to {{incode|5 mm}}.
-::3.3.3. Press {{Button|OK}}. This will create a {{incode|Chamfer}} object.
+::3.3.1. Zkontrolujte, zda je vybrána položka {{MenuCommand|Vybrat hrany}} a zda je u položky {{MenuCommand|Typ zkosení}} nastaveno {{incode|Stejná vzdálenost}}.
+::3.3.2. Změňte hodnotu {{MenuCommand|Délka}} na {{incode|5 mm}}.
+::3.3.3. Stiskněte tlačítko {{Button|OK}}. Tím se vytvoří objekt {{incode|Chamfer}}.
 
 [[File:01_T04_Part_Cube_base_long.png]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
