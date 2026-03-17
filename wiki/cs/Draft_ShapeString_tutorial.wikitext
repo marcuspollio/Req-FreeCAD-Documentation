@@ -13,13 +13,11 @@
 
 Tento tutoriál byl přepracován pro FreeCAD v1.1, ale mělo by být možné postupovat podle kroků i pro v1.0.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This tutorial describes a method to create 3D text and use it with solid objects in the [[File:Workbench_Part.svg|24px]] [[Part_Workbench|Part Workbench]]. We will discuss how to:
+Tento tutoriál popisuje metodu vytváření 3D textu a jeho použití s ​​pevnými objekty v [[File:Workbench_Part.svg|24px]] [[Part_Workbench/cs|pracovním prostředí Part]]. Budeme diskutovat o tom, jak:
 * insert outlined text with the {{Button|[[Image:Draft_ShapeString.svg|16px]] [[Draft_ShapeString|Draft ShapeString]]}} tool,
 * position it on geometry using {{Button|[[File:Part_EditAttachment.svg|16px]] [[Part_EditAttachment|Part EditAttachment]]}},
 * extrude it to be a 3D solid with {{Button|[[File:Part_Extrude.svg|16px]] [[Part_Extrude|Part Extrude]]}}, then finally
 * engrave the text by applying a boolean {{Button|[[File:Part_Cut.svg|16px]] [[Part_Cut|Part Cut]]}}.
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To use ShapeStrings inside the [[File:Workbench_PartDesign.svg|24px]] [[PartDesign_Workbench|PartDesign Workbench]], the process is essentially the same as with the Part Workbench, but the ShapeString must be placed inside the [[PartDesign_Body|PartDesign Body]]. Go to the end of this tutorial for more information.
