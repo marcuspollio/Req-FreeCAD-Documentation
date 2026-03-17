@@ -57,22 +57,20 @@ Chcete-li použít ShapeStrings uvnitř [[File:Workbench_PartDesign.svg|24px]] [
 <span id="Insert_the_ShapeString"></span>
 ==Vložení ShapeStringu==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-4. Create the ShapeString:
-:4.1. Switch to the [[Draft_Workbench|Draft Workbench]].
-:4.2. Click on {{Button|[[File:Draft_ShapeString.svg|16px]] [[Draft_ShapeString|Shape From Text]]}}.
-:4.3. In the {{MenuCommand|ShapeString}} [[Task_Panel|task panel]]:
-::4.3.1. Change {{MenuCommand|Text}} to {{incode|FreeCAD}}.
-::4.3.2. Change {{MenuCommand|Height}} to {{incode|5 mm}}.
-::4.3.3. Make sure {{MenuCommand|Font file}} points to a valid font, (e.g, {{incode|/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf}} or {{incode|C:/Windows/Fonts/arial.ttf}}).
-:::Note: for more details about working with fonts please refer to the [[Draft_ShapeString|Draft ShapeString]] page.
-::4.3.4. Reset its location to the origin by pressing {{Button|Reset Point}}.
-::4.3.5. Press {{Button|OK}}. This will create a {{incode|ShapeString}} object.
-:4.4. In the [[Tree_View|Tree View]], select {{incode|Chamfer}}. On the {{MenuCommand|View}} tab, change the value of {{MenuCommand|Visibility}} to {{incode|false}}, or press {{KEY|Space}} on the keyboard. This will hide the {{incode|Chamfer}} object, so you can see the {{incode|ShapeString}} better.
-:4.5. To see the ShapeString from above change the view by pressing {{Button|[[File:Std_ViewTop.svg|16px]] [[Std_ViewTop|Top]]}}, or {{KEY|2}} on the keyboard.
-:4.6. To restore the view to isometric, press {{Button|[[File:Std_ViewIsometric.svg|16px]] [[Std_ViewIsometric|Isometric]]}}, or {{KEY|0}} on the keyboard.
-:4.7. Reverse step 4.4 to make the {{incode|Chamfer}} object visible again.
-</div>
+4. Vytvoření ShapeStringu:
+:4.1. Přejděte na [[Draft_Workbench/cs|pracovní plochu Draft]].
+:4.2. Klikněte na tlačítko {{Button|[[File:Draft_ShapeString.svg|16px]] [[Draft_ShapeString/cs|Tvar z textu]]}}.
+:4.3. Na [[Task_Panel/cs|panelu úloh]] {{MenuCommand|ShapeString}}:
+::4.3.1. Změňte {{MenuCommand|Text}} na {{incode|FreeCAD}}.
+::4.3.2. Změňte hodnotu {{MenuCommand|Height}} na {{incode|5 mm}}.
+::4.3.3. Ujistěte se, že {{MenuCommand|Font file}} odkazuje na platný font (např. {{incode|/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf}} or {{incode|C:/Windows/Fonts/arial.ttf}}).
+:::Poznámka: další informace o práci s písmy najdete na stránce [[Draft_ShapeString/cs|Draft ShapeString]].
+::4.3.4. Stisknutím tlačítka {{Button|Reset Point}} vynulujte jeho pozici na počátek.
+::4.3.5. Stiskněte tlačítko {{Button|OK}}. Tím se vytvoří objekt {{incode|ShapeString}}.
+:4.4. Ve [[Tree_View/cs|stromovém zobrazení]] vyberte položku {{incode|Zkosení}}. Na kartě {{MenuCommand|Zobrazení}} změňte hodnotu {{MenuCommand|Visibility}} na {{incode|false}} nebo stiskněte klávesu {{KEY|Mezerník}} na klávesnici. Tím se objekt {{incode|Chamfer}} skryje, takže {{incode|ShapeString}} budete lépe vidět.
+:4.5. Chcete-li si prohlédnout ShapeString shora, přepněte zobrazení stisknutím tlačítka {{Button|[[File:Std_ViewTop.svg|16px]] [[Std_ViewTop/cs|Top]]}} nebo klávesy {{KEY|2}} na klávesnici.
+:4.6. Chcete-li obnovit izometrický pohled, stiskněte tlačítko {{Button|[[File:Std_ViewIsometric.svg|16px]] [[Std_ViewIsometric/cs|Isometrický]]}} nebo klávesu {{KEY|0}} na klávesnici.
+:4.7. Proveďte opačný postup než v kroku 4.4, aby se objekt {{incode|Chamfer}} opět zobrazil.
 
 [[File:ShapeStringEngraveTutorial_ShapeStringText.png]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
