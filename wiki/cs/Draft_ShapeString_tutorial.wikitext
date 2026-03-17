@@ -124,7 +124,7 @@ Chcete-li použít ShapeStrings uvnitř [[File:Workbench_PartDesign.svg|24px]] [
 
 Podobný postup, jaký byl popsán výše, lze provést pomocí [[PartDesign_Workbench/cs|pracovní plochy PartDesign]].
 
-# Nejprve vytvořte tlačítko {{Button|[[File:Draft_ShapeString.svg|16px]] [[Draft_ShapeString/cs|Draft ShapeString]]}}.
+# Nejprve vytvořte {{Button|[[File:Draft_ShapeString.svg|16px]] [[Draft_ShapeString/cs|Draft ShapeString]]}}.
 # Vytvořte {{Button|[[File:PartDesign_Body_Tree.svg|16px]] [[PartDesign_Body/cs|PartDesign Body]]}}, nastavte ho jako aktivní a vytvořte základní těleso přidáním základního tělesa nebo vytažením náčrtu pomocí {{Button|[[File:PartDesign_Pad.svg|16px]] [[PartDesign_Pad/cs|PartDesign Desky]]}}.
 # Přesuňte objekt {{incode|ShapeString}} do aktivního tělesa.
 # Pomocí tlačítka {{Button|[[File:Part_EditAttachment.svg|16px]] [[Part_EditAttachment/cs|Part EditAttachment]]}} připojte objekt {{incode|ShapeString}} k jedné ze stěn tělesa nebo k hraně náčrtu.
