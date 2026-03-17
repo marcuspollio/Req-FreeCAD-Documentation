@@ -62,7 +62,9 @@ Dim-OVP = Dimensional On-View-Parameters. {{Version|1.0}}
 ## To finish, right-click or press {{KEY|Esc}}, or start another geometry or constraint creation tool.
 
 ==Problem for fully constraining an arc==
+
 An arc has 5 Degrees of freedom (DoF) and constraining the 2 end points and the center to other existing and static points would need 3×2=6 DoF.
+
 To avoid over-constraining, 2 points of the arc can be coincident to these existing points but the last constraint need to consumme only one DoF and could be a horizontal (or vertical) constraint.
 
 <!--T:10-->
