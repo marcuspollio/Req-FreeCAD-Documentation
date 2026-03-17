@@ -64,7 +64,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 
 |-
 | {{MenuCommand|Grouper les commandes des polylignes et des lignes}} {{Version/fr|1.1}}
-| Si cette option est cochée, afficher un bouton de groupe de commandes qui contient à la fois les commandes des [[Sketcher_CreatePolyline/fr|polylignes]] et des [[Sketcher_CreateLine/fr|lignes]]. Dans le cas contraire, chaque commande dispose de son propre bouton.
+| Si cette option est cochée, un bouton de groupe de commandes contenant à la fois les commandes [[Sketcher_CreatePolyline/fr|polylignes]] et [[Sketcher_CreateLine/fr|lignes]] s'affiche. Dans le cas contraire, chaque commande dispose de son propre bouton.
 
 {{Emphasis|Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.}}
 
