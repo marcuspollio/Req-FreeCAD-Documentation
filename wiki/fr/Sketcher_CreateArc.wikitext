@@ -23,7 +23,7 @@
 L'outil [[Image:Sketcher_CreateArc.svg|24px]] [[Sketcher_CreateArc/fr|Sketcher Arc par centre]] crée un arc par son centre et ses extrémités. {{Version/fr|1.0}} : ou par ses extrémités et un point de l'arc.
 
 [[Image:Sketcher_ArcExample3.png|400px]]
-{{Caption|Arc créé en mode Centre avec des contraintes appliquées automatiquement, définies par la saisie de tous les paramètres de la vue.}}
+{{Caption|Arc créé à partir du centre avec des contraintes appliquées automatiquement, définies par la saisie de tous les paramètres d'affichage.}}
 
 <span id="Usage"></span>
 ==Utilisation==
