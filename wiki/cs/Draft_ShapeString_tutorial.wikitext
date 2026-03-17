@@ -95,20 +95,18 @@ Chcete-li použít ShapeStrings uvnitř [[File:Workbench_PartDesign.svg|24px]] [
 <span id="Create_the_engraved_text"></span>
 ==Vytvoření gravírovaného textu==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-6. Create a solid object from the ShapeString:
-:6.1. Make sure the [[Part_Workbench|Part Workbench]] is still active.
-:6.2. In the [[Tree_View|Tree View]], select {{incode|ShapeString}}, then press {{Button|[[File:Part_Extrude.svg|16px]] [[Part_Extrude|Extrude]]}}.
-:6.3. In the {{MenuCommand|Extrude}} [[Task_Panel|task panel]]:
-::6.3.1. In the {{MenuCommand|Direction}} section select {{incode|Along normal}}
-::6.3.2. In the {{MenuCommand|Length}} section set {{MenuCommand|Along}} to {{incode|0 mm}} and {{MenuCommand|Against}} to {{incode|1 mm}}.
-::6.3.3. Check the {{MenuCommand|Create solid}} option.
-::6.3.4. Press {{Button|OK}}. This will create an {{incode|Extrude}} object.
-:6.4. Since it has been extruded into the {{incode|Chamfer}} object, the 3D View will look the same as before. Verify the creation of a solid 3D object by temporarily making the {{incode|Chamfer}} object invisible:
-::6.4.1. In [[Tree_View|Tree View]], select {{incode|Chamfer}}.
-::6.4.2. Press {{KEY|Space}} to hide it. You should see a solid 3D object in the shape of the word "FreeCAD".
-::6.4.3. Press {{KEY|Space}} to make the Chamfer visible again.
-</div>
+6. Vytvoření trojrozměrného textu z ShapeString objektu:
+:6.1. Ujistěte se, že je [[Part_Workbench/cs|pracovní plocha Part]] stále aktivní.
+:6.2. Ve [[Tree_View|stromovém ohledu]] vyberte {{incode|ShapeString}} a poté stiskněte tlačítko {{Button|[[File:Part_Extrude.svg|16px]] [[Part_Extrude|Extrudovat]]}}.
+:6.3. Na [[Task_Panel|úloh]] {{MenuCommand|Vytažení}}:
+::6.3.1. V části {{MenuCommand|Směr}} vyberte možnost {{incode|Podél normály}}
+::6.3.2. V části {{MenuCommand|Délka}} nastavte hodnotu {{MenuCommand|Podél}} na {{incode|0 mm}} a hodnotu {{MenuCommand|Against}} na {{incode|1 mm}}.
+::6.3.3. Zaškrtněte možnost {{MenuCommand|Vytvořit těleso}}.
+::6.3.4. Stiskněte tlačítko {{Button|OK}}. Tím se vytvoří objekt {{incode|Extrude}}.
+:6.4. Jelikož byl objekt extrudován do objektu {{incode|Chamfer}}, bude 3D pohled vypadat stejně jako předtím. Ověřte, zda byl vytvořen plný 3D objekt, tak, že dočasně skryjete objekt {{incode|Chamfer}}:
+::6.4.1. Ve [[Tree_View|stromovém zobrazení]] vyberte možnost {{incode|Chamfer}}.
+::6.4.2. Stiskněte klávesu {{KEY|Space}}, abyste ho skryli. Měl by se vám zobrazit plný 3D objekt ve tvaru slova „FreeCAD“.
+::6.4.3. Stiskněte klávesu {{KEY|mezerník}}, aby se zkosení znovu zobrazilo.
 
 [[File:ShapeStringEngraveTutorial_3DText.png]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
