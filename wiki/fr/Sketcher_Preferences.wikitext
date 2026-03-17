@@ -280,7 +280,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | La couleur utilisée pour les faces internes formées par une géométrie d'intersection ou des boucles fermées lorsqu'elles ne sont pas en mode édition.
 |}
 
-Les couleurs des sélections lorsqu'une esquisse est en mode édition sont contrôlées par les paramètres globaux {{MenuCommand|Activer la présélection}} et {{MenuCommand|Activer la présélection}}, voir les [[Preferences_Editor/fr#Sélection|réglages des préférences]].
+Les couleurs des sélections lorsqu'une esquisse est en mode édition sont contrôlées par les paramètres globaux {{MenuCommand|Activer la présélection}} et {{MenuCommand|Activer la sélection}}, voir les [[Preferences_Editor/fr#Sélection|réglages des préférences]].
 
 La taille des sommets en mode édition est contrôlée par le [[Preferences_Editor/fr#Vue_3D|paramètre]] {{MenuCommand|Taille des marqueurs}}.
 
