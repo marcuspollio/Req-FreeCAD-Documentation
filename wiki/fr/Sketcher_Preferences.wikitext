@@ -128,7 +128,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | La distance entre deux lignes de la grille. Utilisée comme valeur de base si {{MenuCommand|Espacement automatique de la grille}} est activé. Elle est stockée dans la propriété {{PropertyView|Show Grid}} des esquisses.
 |-
 | {{MenuCommand|Seuil du nombre de pixels}}
-| Le seuil d'espacement de la grille en pixels. Utilisé uniquement si {{MenuCommand|Espacement automatique de la grille}} est activé. Si l'espacement à l'écran est inférieur à cette valeur, l'espacement physique de la grille est multiplié par la valeur de {{MenuCommand|Ligne principale de la grille tous les}}. Si l'espacement à l'écran est supérieur à la valeur seuil multipliée par la valeur de {{MenuCommand|chaque}}, l'espacement de la grille physique est divisé par la valeur de {{MenuCommand|chaque}}. Si la valeur de {{MenuCommand|chaque}} est fixée à 1, 10 est utilisé à la place dans ces calculs.
+| Le seuil d'espacement de la grille en pixels. Utilisé uniquement si {{MenuCommand|Espacement automatique de la grille}} est activé. Si l'espacement à l'écran est inférieur à cette valeur, l'espacement physique de la grille est multiplié par la valeur de {{MenuCommand|Intervalle des lignes principales de la grille}}. Si l'espacement à l'écran est supérieur à la valeur seuil multipliée par la valeur de {{MenuCommand|Intervalle}}, l'espacement de la grille physique est divisé par la valeur de {{MenuCommand|Intervalle}}. Si la valeur de {{MenuCommand|Intervalle}} est fixée à 1, 10 est utilisé à la place dans ces calculs.
 |-
 | {{MenuCommand|Lignes secondaires de la grille}}
 | Pour les lignes secondaires de la grille, vous pouvez spécifier :
@@ -138,7 +138,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 |-
 | {{MenuCommand|Lignes principales de la grille}}
 | Pour les lignes principales de la grille, vous pouvez spécifier :
-* {{MenuCommand|Ligne principale de la grille tous les}} : nombre de carrés entre les lignes de la grille principale. Définissez 1 pour désactiver les lignes de la grille principale.
+* {{MenuCommand|Intervalle des lignes principales de la grille}} : nombre de carrés entre les lignes de la grille principale. Définissez 1 pour désactiver les lignes de la grille principale.
 * {{MenuCommand|Motif des lignes}}
 * {{MenuCommand|Largeur des lignes}}
 * {{MenuCommand|Couleur des lignes}}
