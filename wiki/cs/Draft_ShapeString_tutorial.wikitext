@@ -146,13 +146,11 @@ Chcete-li použít ShapeStrings uvnitř [[File:Workbench_PartDesign.svg|24px]] [
 
 Podobný postup, jaký byl popsán výše, lze provést pomocí [[PartDesign_Workbench/cs|pracovní plochy PartDesign]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Create the {{Button|[[File:Draft_ShapeString.svg|16px]] [[Draft_ShapeString|Draft ShapeString]]}} first.
-# Create a {{Button|[[File:PartDesign_Body_Tree.svg|16px]] [[PartDesign_Body|PartDesign Body]]}}, make it active, and create a base solid by adding a primitive, or by extruding a sketch with {{Button|[[File:PartDesign_Pad.svg|16px]] [[PartDesign_Pad|PartDesign Pad]]}}.
-# Move the {{incode|ShapeString}} object into the active body.
-# Attach the {{incode|ShapeString}} object to one of the faces of the solid, or to an edge of the sketch, using {{Button|[[File:Part_EditAttachment.svg|16px]] [[Part_EditAttachment|Part EditAttachment]]}}.
-# Now create a {{Button|[[File:PartDesign_Pad.svg|16px]] [[PartDesign_Pad|PartDesign Pad]]}} or a {{Button|[[File:PartDesign_Pocket.svg|16px]] [[PartDesign_Pocket|PartDesign Pocket]]}} from the {{incode|ShapeString}}, in order to produce an additive or a subtractive [[PartDesign_Feature|feature]] respectively.
-</div>
+# Nejprve vytvořte tlačítko {{Button|[[File:Draft_ShapeString.svg|16px]] [[Draft_ShapeString/cs|Draft ShapeString]]}}.
+# Vytvořte {{Button|[[File:PartDesign_Body_Tree.svg|16px]] [[PartDesign_Body/cs|PartDesign Body]]}}, nastavte ho jako aktivní a vytvořte základní těleso přidáním základního tělesa nebo vytažením náčrtu pomocí {{Button|[[File:PartDesign_Pad.svg|16px]] [[PartDesign_Pad/cs|PartDesign Desky]]}}.
+# Přesuňte objekt {{incode|ShapeString}} do aktivního tělesa.
+# Pomocí tlačítka {{Button|[[File:Part_EditAttachment.svg|16px]] [[Part_EditAttachment/cs|Part EditAttachment]]}} připojte objekt {{incode|ShapeString}} k jedné ze stěn tělesa nebo k hraně náčrtu.
+# Nyní vytvořte {{Button|[[File:PartDesign_Pad.svg|16px]] [[PartDesign_Pad/cs|PartDesign Desku]]}} nebo {{Button|[[File:PartDesign_Pocket.svg|16px]] [[PartDesign_Pocket|PartDesign Kapsu]]}} z {{incode|ShapeStringu}}, abyste vytvořili aditivní, resp. subtraktivní [[PartDesign_Feature|funkci]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 See the forum thread [https://forum.freecad.org/viewtopic.php?f=3&t=36623 How to use ShapeStrings in PartDesign].
