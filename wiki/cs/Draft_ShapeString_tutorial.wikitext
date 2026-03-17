@@ -152,9 +152,7 @@ Podobný postup, jaký byl popsán výše, lze provést pomocí [[PartDesign_Wor
 # Pomocí tlačítka {{Button|[[File:Part_EditAttachment.svg|16px]] [[Part_EditAttachment/cs|Part EditAttachment]]}} připojte objekt {{incode|ShapeString}} k jedné ze stěn tělesa nebo k hraně náčrtu.
 # Nyní vytvořte {{Button|[[File:PartDesign_Pad.svg|16px]] [[PartDesign_Pad/cs|PartDesign Desku]]}} nebo {{Button|[[File:PartDesign_Pocket.svg|16px]] [[PartDesign_Pocket|PartDesign Kapsu]]}} z {{incode|ShapeStringu}}, abyste vytvořili aditivní, resp. subtraktivní [[PartDesign_Feature|funkci]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-See the forum thread [https://forum.freecad.org/viewtopic.php?f=3&t=36623 How to use ShapeStrings in PartDesign].
-</div>
+Podívejte se na vlákno na fóru [https://forum.freecad.org/viewtopic.php?f=3&t=36623 Jak používat ShapeStrings v PartDesignu].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Notes==
