@@ -82,12 +82,12 @@ Chcete-li použít ShapeStrings uvnitř [[File:Workbench_PartDesign.svg|24px]] [
 :5.4. Vyberte {{MenuCommand|Part→ [[File:Part_EditAttachment.svg|16px]] [[Part_EditAttachment/cs|Připojení]]}}.
 :5.5. Ve 3D pohledu vyberte zkosenou plochu prvku {{incode|Chamfer}}.
 :5.6. Na [[Task_Panel|panelu úloh]] {{MenuCommand|Připojení}}: 
-::5.6.1 Změňte {{MenuCommand|Režim připojení}} na {{incode|Inertia 2-3}}.
-::5.6.2 Press {{Button|OK}}.
-:5.8. Make sure {{incode|Shapestring}} is selected in the [[Tree_View|Tree View]].
-:5.9. On the {{MenuCommand|Data}} tab of the [[Property_View|Property View]]:
-::5.9.1. Change {{MenuCommand|Justification}} to {{incode|Middle-Center}}.
-::5.9.2. Expand the {{MenuCommand|Attachment Offset}} property node and change {{MenuCommand|Angle}} to {{incode|90.0 °}}.
+::5.6.1 Změňte {{MenuCommand|Režim připojení}} na {{incode|Setrvačnost 2-3}}.
+::5.6.2 Stiskně tlačítko {{Button|OK}}.
+:5.8. Ujistěte se, že je ve [[Tree_View/cs|stromovém pohledu]] vybrána položka {{incode|Shapestring}}.
+:5.9. Na kartě {{MenuCommand|Data}} v okně [[Property_View|Vlastnosti]]:
+::5.9.1. Změňte {{MenuCommand|Justification}} na {{incode|Middle-Center}}.
+::5.9.2. Rozbalte uzel vlastností {{MenuCommand|Attachment Offset}} a změňte hodnotu {{MenuCommand|Angle}} na {{incode|90,0 °}}.
 
 [[File:ShapeStringEngraveTutorial_TextOnBlock.png]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
