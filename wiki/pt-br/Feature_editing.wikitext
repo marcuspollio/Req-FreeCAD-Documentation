@@ -17,7 +17,7 @@ Body with a [[PartDesign_AdditiveBox|box]] feature.<br>
 Body with a box and a [[PartDesign_Chamfer|chamfer]] feature.<br>
 Body with a box, a chamfer and a [[PartDesign_Pocket|pocket]] feature.}}
 
-A document can contain multiple Bodies, but only one Body can be active. New features are added to the active Body. A Body can be activated or deactivated by double clicking it in the [[Tree_view|Tree view]]. The activate Body is highlighted in the Tree view.
+Um documento pode conter múltiplos [[PartDesign Body|Corpos]], mas apenas um Corpo pode estar ativo. Novas operações são adicionadas ao Corpo ativo. Um Corpo pode ser ativado ou desativado com um duplo clique na [[Tree_view|Árvore de modelos]]. O Corpo ativo é destacado na Árvore de modelos.
 
 [[File:PartDesign Body tree.png]]
 
