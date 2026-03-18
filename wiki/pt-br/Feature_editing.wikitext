@@ -62,14 +62,18 @@ Although FreeCAD version 1.0 already has code to mitigate the [[Topological_nami
 
 The idea of parametric modeling implies that you can change the values of certain parameters and subsequent steps are changed according to the new values. However, when severe changes are made, the model can break due to the [[Topological_naming_problem|topological naming problem]]. Breakage can be minimized if you respect the following design principles:
 
-* Avoid attaching sketches and custom datum geometry to generated geometry, that is any face, edge or vertex, of the model's solid. Attach them to the standard planes/axes of the Origin of the Body instead. Sketches attached to standard planes/axes or to datum geometry attached to standard planes/axes, will not get unexpectedly reattached to a different reference. Use attachment offsets as needed.
-* Use a "master sketch". Since a master sketch is done before the rest of the model, it can only reference the standard planes/axes.
-** A master sketch should be as simple as possible, containing the basic geometric elements of your model.
-** Master sketch elements can be referenced when modelling subsequent features.
-** A master sketch can be the first sketch in the Body, or outside the Body completely. In the first case it can be referenced directly as external geometry, in the latter it can be referenced via a [[File:PartDesign_ShapeBinder.svg|16px]] [[PartDesign_ShapeBinder|ShapeBinder]] or [[File:PartDesign_SubShapeBinder.svg|16px]] [[PartDesign_SubShapeBinder|SubShapeBinder]].
-* Don't create (Sub)ShapeBinders from generated geometry. Keep in mind that (Sub)ShapeBinders can be an issue if geometry is deleted from the sketch it is based on.
-* Always first try to reference a sketch, or sketch geometry, rather than generated geometry. If you inevitably have to reference generated geometry, use the first feature where the element to be referenced occurs. Changes to later steps then won't break your model.
-* Use dress ups, like fillets and chamfers, as late in the feature tree as possible.
+* Evite vincular esboços e geometrias de referência personalizadas à geometria gerada, ou seja, a qualquer face, aresta ou vértice do sólido do modelo. Em vez disso, vincule-os aos planos/eixos padrão da Origem do Corpo. Esboços vinculados a planos/eixos padrão, ou a geometrias de referência vinculadas a esses planos/eixos, não serão inesperadamente reassociados a uma referência diferente. Utilize deslocamentos de vinculação (attachment offsets) conforme necessário.
+
+* Utilize um “esboço mestre” (master sketch). Como o esboço mestre é criado antes do restante do modelo, ele pode referenciar apenas os planos/eixos padrão.
+** Um esboço mestre deve ser o mais simples possível, contendo os elementos geométricos básicos do modelo.
+** Os elementos do esboço mestre podem ser referenciados ao modelar operações subsequentes.
+** Um esboço mestre pode ser o primeiro esboço no Corpo ou estar completamente fora dele. No primeiro caso, pode ser referenciado diretamente como geometria externa; no segundo, pode ser referenciado por meio de um [[File:PartDesign_ShapeBinder.svg|16px]] [[PartDesign_ShapeBinder|ShapeBinder]] ou [[File:PartDesign_SubShapeBinder.svg|16px]] [[PartDesign_SubShapeBinder|SubShapeBinder]].
+
+* Não crie (Sub)ShapeBinders a partir de geometria gerada. Tenha em mente que (Sub)ShapeBinders podem causar problemas se a geometria for removida do esboço no qual se baseiam.
+
+* Sempre tente primeiro referenciar um esboço, ou a geometria de um esboço, em vez de geometria gerada. Se inevitavelmente precisar referenciar geometria gerada, utilize a primeira operação em que o elemento a ser referenciado aparece. Assim, alterações em etapas posteriores não quebrarão o modelo.
+
+* Utilize acabamentos, como filetes (fillets) e chanfros (chamfers), o mais tarde possível na árvore de operações.
 
 ==Tutorials==
 
