@@ -46,7 +46,8 @@ The features of a Body can be reordered, or moved to a different Body. Select th
 
 {{Caption|Schematic representation of the PartDesign workflow.}}
 
-== Datum geometry ==
+<span id="Datum_geometry"></span>
+== Geometria de referência ==
 
 Datum geometry consists of custom planes, lines, points or externally linked shapes. They can be created for use as reference by sketches and features. There are many [[Part_EditAttachment|attachment]] options for datum objects.
 
