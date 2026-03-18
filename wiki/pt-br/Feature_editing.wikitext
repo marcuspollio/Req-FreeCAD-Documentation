@@ -55,7 +55,7 @@ No FreeCAD, planos de referência (datum planes) fazem sentido quando você est�
 
 Os planos de referência tornam-se mais úteis quando há mais de um esboço com a mesma orientação não padrão. Nesse caso, ao ajustar a orientação do plano de referência, todos os esboços associados e as operações criadas a partir desses esboços também serão ajustados.
 
-Although FreeCAD version 1.0 already has code to mitigate the [[Topological_naming_problem|topological naming problem]], it is still best practice to attach both sketches and datum planes to the base planes of the Body's Origin whenever possible. Referencing generated geometry (geometry that is the result of a feature operation, for example a pad or pocket) may yet result in less stable models. See [[#Advice_for_creating_stable models|Advice for creating stable models]] below.
+Embora a versão 1.0 do FreeCAD já possua código para mitigar o [[Topological_naming_problem|problema de nomeação topológica]], ainda é uma boa prática vincular tanto esboços quanto planos de referência aos planos base da Origem do Corpo sempre que possível. Referenciar geometria gerada (geometria que é resultado de uma operação, como um pad ou um pocket) ainda pode resultar em modelos menos estáveis. Veja [[#Advice_for_creating_stable_models|Recomendações para criar modelos estáveis]] abaixo.
 
 <span id="Advice_for_creating_stable_models"></span>
 == Recomendações para criar modelos estáveis ==
