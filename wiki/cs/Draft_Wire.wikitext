@@ -20,7 +20,7 @@
 Nástroj Drát vytváří lomenou čáru (sekvenci přímek z několika segmentů) v aktuální [[Draft SelectPlane/cs|pracovní rovině]]. Použije se  [[Draft Linestyle/cs|tloušťka čáry a barva]] předem zadaná v záložce Nástrojů. Nástroj Drát se chová přesně stejně jako nástroj [[Draft Line/cs|Přímka]] kromě toho, že nekončí po zadání dvou bodů.
 </div>
 
-The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its {{PropertyData|Fillet Radius}} or {{PropertyData|Chamfer Size}} respectively. It is also possible to subdivide the edges of a Draft Wire by changing its {{PropertyData|Subdivisions}} property.
+The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its {{PropertyData|Fillet Radius}} property or {{PropertyData|Chamfer Size}} property respectively. It is also possible to subdivide the edges of a Draft Wire by changing its {{PropertyData|Subdivisions}} property.
 
 [[Image:Draft_Polyline_example.jpg|400px]]
 {{Caption|Wire defined by multiple points}}
