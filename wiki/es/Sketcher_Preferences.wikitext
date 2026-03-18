@@ -43,7 +43,7 @@ On this page you can specify the following:
 | {{MenuCommand|Esc key can leave sketch edit mode}}
 | If checked, the {{KEY|Esc}} key can trigger exiting sketch edit mode. The option to disable this may be useful for users who are used to pressing {{KEY|Esc}} as part of their workflow in other CAD solutions but don't necessarily want to exit a sketch.
 |-
-| {{MenuCommand|Disable shading in edit mode}} Only available in version 1.0.
+| {{MenuCommand|Disable shading in edit mode}} Only available in {{Version|1.0}}.
 | If checked, the shaded view is disabled when entering sketch edit mode.
 |-
 | {{MenuCommand|Notify about automatic constraint substitutions}}
@@ -281,7 +281,7 @@ The size of the vertices in edit mode is controlled by the {{MenuCommand|Marker 
 
 ==Note==
 
-There is another preference that has an influence on sketches. If the {{MenuCommand|Transparent objects}} preference on the [[Preferences_Editor#3D_View|Display → 3D View]] tab is set to {{Value|Backface pass}}, arrowheads on one end of sketch dimensions are hidden on some systems. When viewed from the rear the dimension value can then also be hidden. Versions 0.19 to 0.21 (except Link branch) are affected. In versions 0.19 and 0.20 the effect only occurs if {{MenuCommand|Show grid}} is deactivated in the [[Sketcher_Dialog#Edit_controls|Edit controls]] section of the [[Task_panel|Task panel]] as shown below.
+There is another preference that has an influence on sketches. If the {{MenuCommand|Transparent objects}} preference on the [[Preferences_Editor#3D_View|Display → 3D View]] tab is set to {{Value|Backface pass}}, arrowheads on one end of sketch dimensions are hidden on some systems. When viewed from the rear the dimension value can then also be hidden. Versions 0.19 to 0.21 (except Link branch) are affected. In versions 0.19 and 0.20 the effect only occurs if {{MenuCommand|Display grid}} is deactivated in the [[Sketcher_Dialog#Sketch_Edit|Edit controls]] section of the [[Task_Panel|Task panel]] as shown below.
 
 See [https://forum.freecad.org/viewtopic.php?t=70975&start=10 forum topic].
 
