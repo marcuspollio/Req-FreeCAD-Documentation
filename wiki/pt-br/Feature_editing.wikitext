@@ -40,7 +40,7 @@ Apenas uma operação pode estar visível por vez. É possível [[Std_ToggleVisi
 <span id="Moving_and_Reordering_Objects"></span>
 === Movendo e reordenando objetos ===
 
-The features of a Body can be reordered, or moved to a different Body. Select the feature and right-click to get a context menu that offers both options. The operation may be prevented if the object has dependencies in the source Body, such as being attached to a face. To move a sketch to another Body, it should not contain links to external geometry.
+As operações de um Corpo podem ser reordenadas ou movidas para outro Corpo. Selecione a operação e clique com o botão direito para acessar um menu de contexto que oferece ambas as opções. A operação pode ser impedida se o objeto tiver dependências no Corpo de origem, como estar vinculado a uma face. Para mover um esboço para outro Corpo, ele não deve conter vínculos com geometria externa.
 
 [[Image:PartDesign_workflow.svg|400px]]
 
