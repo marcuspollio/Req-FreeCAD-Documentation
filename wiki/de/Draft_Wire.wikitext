@@ -24,9 +24,7 @@
 
 Der Befehl [[Image:Draft_Wire.svg|24px]] '''Draft Linienzug'''   [[#Erstellen|erstellt]] einen Linienzug (Polylinie), eine Folge von mehreren Liniensegmenten. Der Befehl kann auch verwendet werden, um [[Draft_Line/de|Draft-Linien]] und Draft-Linienzüge zu [[#Verbinden|verbinden]].
 
-<div class="mw-translate-fuzzy">
-Die Ecken eines Draft-Linienzuges können verrundet oder mit einer Fase versehen werden, indem seine {{PropertyData/de|Fillet Radius}} oder {{PropertyData/de|Chamfer Size}} geändert wird. Außerdem ist es möglich die Kanten eines Linienzuges zu unterteilen, indem seine {{PropertyData/de|Subdivisions}} geändert wird.
-</div>
+Die Ecken eines Draft-Linienzuges können verrundet oder mit einer Fase versehen werden, indem seine {{PropertyData/de|Fillet Radius}}-Eigenschaft oder {{PropertyData/de|Chamfer Size}}-Eigenschaft geändert wird. Außerdem ist es möglich die Kanten eines Linienzuges zu unterteilen, indem seine {{PropertyData/de|Subdivisions}}-Eigenschaft geändert wird.
 
 [[Image:Draft_Polyline_example.jpg|400px]]
 {{Caption|Ein durch mehrere Punkte festgelegter Linienzug (Polylinie)}}
