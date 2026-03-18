@@ -30,7 +30,8 @@ Na versão 1.0 do FreeCAD, foi introduzida uma propriedade experimental que perm
 
 When a model requires multiple Bodies, like the wooden chair, the general purpose [[Image:Std_Part.svg|16px]] [[Std Part|Part container]] can be used to group them and move the whole as a unit.
 
-=== Body visibility management ===
+<span id="Body_visibility_management"></span>
+=== Gerenciamento da visibilidade do Corpo(body) ===
 
 By default a Body presents its most recent feature to the outside. This feature is the Tip of the Body. The Tip also marks the location where new features are added. It is possible to temporarily redefine the Tip to a feature in the middle of the Body to insert new objects (features, sketches or datum geometry) there. As a new feature is added to the Body, visibility of the previous feature is turned off, and the new feature becomes the Tip.
 
