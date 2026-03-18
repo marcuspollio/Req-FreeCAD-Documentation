@@ -36,11 +36,11 @@
 |-
 | [[Image:Sketcher_CreateRectangle.svg|32px]] [[Sketcher_CreateRectangle/it|Rettangolo]]
 | Disegna un rettangolo da 2 vertici opposti
-| [[Image:Sketcher_CreateRectangle_Center.svg|32px]] [[Sketcher_CreateRectangle_Center|Centered rectangle]]
-| Creates a centered rectangle
+| [[Image:Sketcher_CreateRectangle_Center.svg|32px]] [[Sketcher_CreateRectangle_Center/it|Rettangolo centrato]]
+| Crea un rettangolo centrato
 |-
-| [[Image:Sketcher_CreateOblong.svg|32px]] [[Sketcher_CreateOblong|Rounded rectangle]]
-| Creates a rounded rectangle
+| [[Image:Sketcher_CreateOblong.svg|32px]] [[Sketcher_CreateOblong/it|Rettangolo arrotondato]]
+| Creates un rettangolo arrotondato
 | [[Image:Sketcher_CreateTriangle.svg|32px]] [[Sketcher_CreateTriangle/it|Triangolo]]
 | Disegna un triangolo regolare inscritto in un cerchio di geometria di costruzione
 |-
@@ -56,18 +56,18 @@
 |-
 | [[Image:Sketcher_CreateOctagon.svg|32px]] [[Sketcher_CreateOctagon/it|Ottagono]]
 | Disegna un ottagono regolare inscritto in un cerchio di geometria di costruzione
-| [[Image:Sketcher_CreateRegularPolygon.svg|32px]] [[Sketcher_CreateRegularPolygon|Regular polygon]]
-| Creates a regular polygon. The number of sides can be specified
+| [[Image:Sketcher_CreateRegularPolygon.svg|32px]] [[Sketcher_CreateRegularPolygon/it|Poligono regolare]]
+| Crea un poligono regolare. Specificare il numero di lati
 |-
 | [[Image:Sketcher_CreateSlot.svg|32px]] [[Sketcher_CreateSlot/it|Asola]]
 | Disegna un'asola
-| [[Image:Sketcher_CreateArcSlot.svg|32px]] [[Sketcher_CreateArcSlot|Arc slot]]
-| Creates an arc slot
+| [[Image:Sketcher_CreateArcSlot.svg|32px]] [[Sketcher_CreateArcSlot/it|Asola ad arco]]
+| Crea un'asola ad arco
 |-
-| [[Image:Sketcher_CreateBSpline.svg|32px]] [[Sketcher_CreateBSpline|B-spline by control points]]
-| Creates a B-spline curve by control points
-| [[Image:Sketcher_CreatePeriodicBSpline.svg|32px]] [[Sketcher_CreatePeriodicBSpline|Periodic B-spline by control points]]
-| Creates a periodic (closed) B-spline curve by control points.
+| [[Image:Sketcher_CreateBSpline.svg|32px]] [[Sketcher_CreateBSpline/it|B-spline da punti di controllo]]
+| Crea una curva B-spline dai punti di controllo
+| [[Image:Sketcher_CreatePeriodicBSpline.svg|32px]] [[Sketcher_CreatePeriodicBSpline/it|B-spline periodica da punti di controllo]]
+| Crea una curva B-spline periodica (chiusa) dai punti di controllo.
 |-
 | [[Image:Sketcher_CreateBSplineByInterpolation.svg|32px]] [[Sketcher_CreateBSplineByInterpolation|B-spline by knots]]
 | Creates a B-spline curve by knot points
