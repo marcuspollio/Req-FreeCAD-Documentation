@@ -29,6 +29,7 @@ Nelle versioni {{VersionMinus/it|0.21}} la pagina [[#Aspetto|Aspetto]] è etiche
 
 In questa pagina si può specificare quanto segue:
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nome
 !style="width: 66%;"|Descrizione
@@ -53,6 +54,7 @@ In questa pagina si può specificare quanto segue:
 |-
 | {{MenuCommand|Unifica Coincidente e Punto su Oggetto}} {{Version/it|1.0}}
 | Se selezionato, lo [[Sketcher_ConstrainCoincident/it|strumento di vincolo coincidente]] e lo [[Sketcher_ConstrainPointOnObject/it|strumento di vincolo punto su oggetto]] vengono unificati in uno [[Sketcher_ConstrainCoincidentUnified/it|strumento singolo]].
+</div>
 
 {{Emphasis|Dopo aver modificato questa preferenza è necessario riavviare FreeCAD.}}
 
@@ -285,7 +287,9 @@ La dimensione dei vertici in modalità di modifica è controllata da {{MenuComma
 
 ==Note==
 
+<div class="mw-translate-fuzzy">
 C'è un'altra preferenza che influenza gli schizzi. Se la preferenza {{MenuCommand|Oggetti trasparenti}} nella scheda [[Preferences_Editor/it#3D_View|Visualizzazione → Vista 3D]] è impostata su {{Value|Passa per le facce nascoste}}, le punte delle frecce su un'estremità delle quote dello schizzo sono nascoste su alcuni sistemi. Se visto dal retro, il valore della quota può anche essere nascosto. Sono interessate le versioni da 0.19 a 0.21 (tranne il ramo Link). Nelle versioni 0.19 e 0.20 l'effetto si verifica solo se {{MenuCommand|Mostra griglia}} è disattivato nella sezione [[Sketcher_Dialog/it#Edit_controls|Modifica controlli]] del [[Task_panel/it|Pannello delle attività]] come mostrato di seguito.
+</div>
 
 Veedere [https://forum.freecad.org/viewtopic.php?t=70975&start=10 il topic sul forum].
 
