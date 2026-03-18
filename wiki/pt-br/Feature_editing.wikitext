@@ -28,7 +28,7 @@ A contiguous solid is an object like a casting or something machined from a sing
 
 Na versão 1.0 do FreeCAD, foi introduzida uma propriedade experimental que permite que o Corpo tenha sólidos não contíguos. Isso também pode ser definido nas [[PartDesign_Preferences#General|Preferências]] como padrão para Corpos recém-criados. Isso não se destina a ser usado para construir, como no exemplo, uma cadeira em um único Corpo. Destina-se a permitir operações que possam gerar sólidos desconectados, que serão tornados contíguos por operações posteriores.
 
-When a model requires multiple Bodies, like the wooden chair, the general purpose [[Image:Std_Part.svg|16px]] [[Std Part|Part container]] can be used to group them and move the whole as a unit.
+Quando um modelo requer múltiplos Corpos, como a cadeira de madeira, o contêiner de uso geral [[Image:Std_Part.svg|16px]] [[Std Part|Peça (Part)]] pode ser utilizado para agrupá-los e mover o conjunto como uma única unidade.
 
 <span id="Body_visibility_management"></span>
 === Gerenciamento da visibilidade do Corpo(body) ===
