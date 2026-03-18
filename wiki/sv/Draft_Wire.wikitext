@@ -22,7 +22,7 @@ Detta verktyg ber användaren om flera punkter och ritar en tråd (linje som är
 Punkterna kan väljas med musen i 3d vyn eller genom att mata in koordinater med tangentbordet.
 </div>
 
-The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its {{PropertyData|Fillet Radius}} or {{PropertyData|Chamfer Size}} respectively. It is also possible to subdivide the edges of a Draft Wire by changing its {{PropertyData|Subdivisions}} property.
+The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its {{PropertyData|Fillet Radius}} property or {{PropertyData|Chamfer Size}} property respectively. It is also possible to subdivide the edges of a Draft Wire by changing its {{PropertyData|Subdivisions}} property.
 
 [[Image:Draft_Polyline_example.jpg|400px]]
 <div class="mw-translate-fuzzy">
