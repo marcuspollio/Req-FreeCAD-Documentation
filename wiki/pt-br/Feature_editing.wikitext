@@ -13,10 +13,10 @@ Trabalhar no PartDesign requer primeiro a criação de um [[File:PartDesign_Body
 
 [[File:PartDesign_Feature_example.png|400px]]
 
-{{Caption|Feature editing in practice. From left to right:<br>
-Body with a [[PartDesign_AdditiveBox|box]] feature.<br>
-Body with a box and a [[PartDesign_Chamfer|chamfer]] feature.<br>
-Body with a box, a chamfer and a [[PartDesign_Pocket|pocket]] feature.}}
+{{Caption|Edição de operações na prática. Da esquerda para a direita:<br>
+Corpo com uma operação de [[PartDesign_AdditiveBox|caixa]].<br>
+Corpo com uma operação de caixa e uma operação de [[PartDesign_Chamfer|chanfro]].<br>
+Corpo com uma operação de caixa, uma operação de chanfro e uma operação de [[PartDesign_Pocket|bolso]].}}
 
 Um documento pode conter múltiplos [[PartDesign Body|Corpos]], mas apenas um Corpo pode estar ativo. Novas operações são adicionadas ao Corpo ativo. Um Corpo pode ser ativado ou desativado com um duplo clique na [[Tree_view|Árvore de modelos]]. O Corpo ativo é destacado na Árvore de modelos.
 
