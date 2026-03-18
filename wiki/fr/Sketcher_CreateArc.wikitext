@@ -56,7 +56,7 @@ Dim-OVP = Paramètres d'affichage des dimensions. {{Version/fr|1.0}}
 <span id="Notes"></span>
 ==Remarques==
 
-* An arc has 5 degrees of freedom (DoF). Constraining its end points and its center to other existing and static points with coincident constraints would need 3×2=6 DoF. To avoid over-constraining, 2 points of the arc can be coincident to these existing points, but the last constraint needs to consume only one DoF. It can be a horizontal or vertical constraint for example. If both end points have coincident constraints, applying a radius dimension or equal constraint to define the radius of the arc can also work.
+* Un arc possède 5 degrés de liberté (DoF). Pour contraindre ses extrémités et son centre à d'autres points existants et statiques à l'aide de contraintes de coïncidence, il faudrait 3 × 2 = 6 degrés de liberté. Pour éviter de sur-contraindre, deux points de l'arc peuvent coïncider avec ces points existants, mais la dernière contrainte ne doit utiliser qu'un seul degré de liberté. Il peut s'agir, par exemple, d'une contrainte horizontale ou verticale. Si les deux extrémités ont des contraintes de coïncidence, l'application d'une dimension de rayon ou d'une contrainte d'égalité pour définir le rayon de l'arc peut également fonctionner.
 
 
 {{Docnav/fr
