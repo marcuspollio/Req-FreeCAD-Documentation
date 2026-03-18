@@ -287,9 +287,7 @@ La taille des sommets en mode édition est contrôlée par le [[Preferences_Edit
 <span id="Note"></span>
 ==Remarque==
 
-<div class="mw-translate-fuzzy">
-Une autre préférence a une influence sur les esquisses. Si la préférence {{MenuCommand|Objets transparents}} de l'onglet [[Preferences_Editor/fr#Vue_3D|Affichage → Vue 3D]] est réglée à {{Value|Passe pour les faces cachées}}, les pointes de flèche à l'une des extrémités des dimensions de l'esquisse sont masquées sur certains systèmes. En vue arrière, la valeur de la cote peut également être cachée. Les versions 0.19 à 0.21 (à l'exception de la branche Link) sont concernées. Dans les versions 0.19 et 0.20, l'effet ne se produit que si la {{MenuCommand|Afficher la grille}} est désactivée dans la section [[Sketcher_Dialog/fr#Modifier_les_contrôles|Contrôles d'édition]] du [[Task_panel/fr|panneau des tâches]], comme illustré ci-dessous.
-</div>
+Une autre préférence a une influence sur les esquisses. Si la préférence {{MenuCommand|Objets transparents}} de l'onglet [[Preferences_Editor/fr#Vue_3D|Affichage → Vue 3D]] est réglée à {{Value|Passe pour les faces cachées}}, les pointes de flèche à l'une des extrémités des dimensions de l'esquisse sont masquées sur certains systèmes. En vue arrière, la valeur de la cote peut également être cachée. Les versions 0.19 à 0.21 (à l'exception de la branche Link) sont concernées. Dans les versions 0.19 et 0.20, l'effet ne se produit que si la {{MenuCommand|Afficher la grille}} est désactivée dans la section [[Sketcher_Dialog/fr#État_de_l'esquisse|État de l'esquisse]] du [[Task_Panel/fr|panneau des tâches]], comme illustré ci-dessous.
 
 Voir ce [https://forum.freecad.org/viewtopic.php?t=70975&start=10 fil du forum].
 
