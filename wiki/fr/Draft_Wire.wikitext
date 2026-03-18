@@ -23,7 +23,9 @@
 
 La commande [[Image:Draft_Wire.svg|24px]] '''Draft Polyligne''' [[#Cr.C3.A9er|crée]] une polyligne, une séquence de plusieurs segments de ligne connectés. La commande peut aussi être utilisée pour [[#Joindre|joindre]] des [[Draft_Line/fr|Draft Lignes]] et des Draft Polylignes.
 
+<div class="mw-translate-fuzzy">
 Les angles d'une Draft Polyligne peuvent être arrondis ou chanfreinés en modifiant respectivement sa propriété {{PropertyData|Fillet Radius}} ou {{PropertyData|Chamfer Size}}. Il est également possible de subdiviser les bords d'une Draft Polyligne en modifiant sa propriété {{PropertyData|Subdivisions}}.
+</div>
 
 [[Image:Draft_Polyline_example.jpg|400px]]
 {{Caption|Une polyligne définie par plusieurs points}}
