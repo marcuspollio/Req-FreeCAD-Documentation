@@ -20,7 +20,7 @@
 
 ==Description== 
 
-La commande [[Image:Draft_SelectPlane.svg|24px]] '''Draft Plan de travail''' définit le plan de travail en cours sous Draft. C'est le plan dans la [[3D_view/fr|vue 3D]] où les nouveaux objets de [[Draft_Workbench/fr|Draft]] sont créés. Un nouveau plan de travail peut être basé sur l'une des nombreuses [[#Utilisation_avec_des_présélections|présélections]] ou sur une sélection. La sélection peut être créée avant ([[#Utilisation_avec_présélection|présélection]]) ou après ([[#Utilisation_avec_post-sélection|post-sélection]]) le lancement de la commande.
+La commande [[Image:Draft_SelectPlane.svg|24px]] '''Draft Plan de travail''' définit le plan de travail en cours sous Draft. C'est le plan dans la [[3D_View/fr|vue 3D]] où les nouveaux objets de [[Draft_Workbench/fr|Draft]] sont créés. Un nouveau plan de travail peut être basé sur l'une des nombreuses [[#Utilisation_avec_des_présélections|présélections]] ou sur une sélection. La sélection peut être créée avant ([[#Utilisation_avec_présélection|présélection]]) ou après ([[#Utilisation_avec_post-sélection|post-sélection]]) le lancement de la commande.
 
 {{Version/fr|1.0}} : pour chaque vue 3D, un plan de travail distinct est enregistré.
 
