@@ -133,6 +133,12 @@ ToDo (last check: 20260310):
 
 == Part Design Workbench ==
 
+{| cellpadding=5
+| [[File:PartDesign_thread_texture_relnotes_1.2.png|384px]]
+| Support for cosmetic threads (thread textures) was added to the [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Hole]] tool. They can be enabled using the ''Cosmetic Thread'' property (''Threaded'' has to be enabled and ''Model Thread'' must be disabled).
+[https://github.com/FreeCAD/FreeCAD/pull/22573 Pull request #22573]
+|}
+
 === Further Part Design improvements ===
 
 * Interactive dragger was added to the [[Image:PartDesign_Draft.svg|24px]] [[PartDesign_Draft|Draft]] tool. [https://github.com/FreeCAD/FreeCAD/pull/27111 Pull request #27111]
