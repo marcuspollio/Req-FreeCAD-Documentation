@@ -22,7 +22,9 @@
 
 Polecenie [[Image:Draft_Wire.svg|24px]] '''Polilinia''' [[#Utwórz|tworzy]] linię łamaną, czyli sekwencję kilku połączonych segmentów linii. Polecenie to może być również użyte do [[#Przyłącz|łączenia]] [[Draft_Line/pl|linii]] i polilinii.
 
+<div class="mw-translate-fuzzy">
 Rogi prostokąta mogą być zaokrąglone lub sfazowane poprzez zmianę właściwości {{PropertyData/pl|Promień zaokrąglenia}} lub {{PropertyData/pl|Rozmiar fazki}}. Możliwe jest również dzielenie krawędzi polilinii poprzez zmianę jego właściwości {{PropertyData/pl|Podziały}}.
+</div>
 
 [[Image:Draft_Polyline_example.jpg|400px]]
 {{Caption|Linia zdefiniowana przez wiele punktów}}
