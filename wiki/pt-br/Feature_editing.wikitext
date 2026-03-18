@@ -8,7 +8,7 @@ This page explains the feature editing workflow of the [[Image:Workbench_PartDes
 
 == Body ==
 
-Working in PartDesign requires first creating a [[File:PartDesign_Body.svg|16px]] [[PartDesign Body|Body]]. The Body is a container intended to hold a single contiguous solid. When a Body is created, an Origin object, a local coordinate system consisting of standard reference planes (XY, XZ, YZ) and axes (X, Y, Z), is automatically added. The solid is then built by adding features. Each [[PartDesign_Feature|feature]] is cumulative and adds to or subtracts from the result of the previous feature.
+Trabalhar no PartDesign requer primeiro a criação de um [[File:PartDesign_Body.svg|16px]] [[PartDesign Body|Corpo]]. O Corpo é um contêiner destinado a armazenar um único sólido contíguo. Quando um Corpo é criado, um objeto de Origem (Origin) — um sistema de coordenadas local composto por planos de referência padrão (XY, XZ, YZ) e eixos (X, Y, Z) — é adicionado automaticamente. O sólido é então construído pela adição de operações. Cada [[PartDesign_Feature|operação]] é cumulativa e adiciona ou subtrai do resultado da operação anterior.
 
 [[File:PartDesign_Feature_example.png|400px]]
 
