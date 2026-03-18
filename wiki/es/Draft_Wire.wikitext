@@ -29,7 +29,7 @@
 La herramienta Contorno crea polilíneas (secuencias de líneas formadas por varios segmentos) en el [[Draft SelectPlane/es|plano de trabajo]] actual. Toma el [[Draft Linestyle/es|Espesor de línea y color]] previamente definidos en la pestaña de tareas. La herramienta Contorno se comporta como la herramienta [[Draft Line/es|Línea]], con la excepción de que no termina tras indicar dos puntos.
 </div>
 
-The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its {{PropertyData|Fillet Radius}} or {{PropertyData|Chamfer Size}} respectively. It is also possible to subdivide the edges of a Draft Wire by changing its {{PropertyData|Subdivisions}} property.
+The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its {{PropertyData|Fillet Radius}} property or {{PropertyData|Chamfer Size}} property respectively. It is also possible to subdivide the edges of a Draft Wire by changing its {{PropertyData|Subdivisions}} property.
 
 [[Image:Draft_Polyline_example.jpg|400px]]
 <div class="mw-translate-fuzzy">
