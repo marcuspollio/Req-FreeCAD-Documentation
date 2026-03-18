@@ -25,7 +25,7 @@
 利用连线工具可创建一条折线(一系列互连的线段)。本工具利用[[Draft Tray|底图工具栏]]中的[[Draft Linestyle|底图线条样式]]进行绘制。除了允许用户输入2个以上的点之外，连线工具与[[Draft Line|底图线段]]工具的行为完全相同。
 </div>
 
-The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its {{PropertyData|Fillet Radius}} or {{PropertyData|Chamfer Size}} respectively. It is also possible to subdivide the edges of a Draft Wire by changing its {{PropertyData|Subdivisions}} property.
+The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its {{PropertyData|Fillet Radius}} property or {{PropertyData|Chamfer Size}} property respectively. It is also possible to subdivide the edges of a Draft Wire by changing its {{PropertyData|Subdivisions}} property.
 
 [[Image:Draft_Polyline_example.jpg|400px]]
 {{Caption|多点定一连线}}
