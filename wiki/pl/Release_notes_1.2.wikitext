@@ -165,13 +165,11 @@ ToDo (last check: 20260310):
 <span id="Part_Design_Workbench"></span>
 ==Środowisko pracy Projekt Części==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:PartDesign_thread_texture_relnotes_1.2.png|384px]]
-| Support for cosmetic threads (thread textures) was added to the [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Hole]] tool. They can be enabled using the ''Cosmetic Thread'' property (''Threaded'' has to be enabled and ''Model Thread'' must be disabled).
+| Wsparcie dla gwintów kosmetycznych (tekstur gwintów) zostało dodane do narzędzia [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole/pl|Otwór]]. Mogą one zostać włączone za pomocą właściwości ''Cosmetic Thread'' (właściwość ''Threaded'' musi być włączona, zaś właściwość ''Model Thread'' wyłączona).
 [https://github.com/FreeCAD/FreeCAD/pull/22573 Pull request #22573]
 |}
-</div>
 
 <span id="Further_Part_Design_improvements"></span>
 ===Pozostałe ulepszenia środowiska Projekt Części===
