@@ -49,7 +49,7 @@ As operações de um Corpo podem ser reordenadas ou movidas para outro Corpo. Se
 <span id="Datum_geometry"></span>
 == Geometria de referência ==
 
-Datum geometry consists of custom planes, lines, points or externally linked shapes. They can be created for use as reference by sketches and features. There are many [[Part_EditAttachment|attachment]] options for datum objects.
+A geometria de referência consiste em planos, linhas, pontos personalizados ou formas vinculadas externamente. Ela pode ser criada para servir como referência para esboços e operações. Existem muitas opções de [[Part_EditAttachment|vinculação]] para objetos de referência.
 
 No FreeCAD, planos de referência (datum planes) fazem sentido quando você está posicionando esboços em orientações não padrão, ou seja, em planos deslocados ou rotacionados em torno dos três eixos principais. No entanto, como os esboços também podem ser posicionados em orientações não padrão e possuem as mesmas opções de vinculação que os planos de referência, muitas vezes não há necessidade de utilizá-los.
 
