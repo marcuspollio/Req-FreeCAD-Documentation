@@ -29,6 +29,7 @@ Dans {{VersionMinus/fr|0.21}}, la page [[#Apparence|Apparence]] est intitulée �
 
 Sur cette page, vous pouvez spécifier les éléments suivants :
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nom
 !style="width: 66%;"|Description
@@ -53,6 +54,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 |-
 | {{MenuCommand|Unifier les contraintes de coïncidence et de point sur objet}} {{Version/fr|1.0}}
 | Si cette option est cochée, l'[[Sketcher_ConstrainCoincident/fr|outil de contrainte de coïncidence]] et l'[[Sketcher_ConstrainPointOnObject/fr|outil de contrainte point sur objet]] sont unifiés en un [[Sketcher_ConstrainCoincidentUnified/fr|seul outil]].
+</div>
 
 {{Emphasis|Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.}}
 
@@ -287,7 +289,9 @@ La taille des sommets en mode édition est contrôlée par le [[Preferences_Edit
 <span id="Note"></span>
 ==Remarque==
 
+<div class="mw-translate-fuzzy">
 Une autre préférence a une influence sur les esquisses. Si la préférence {{MenuCommand|Objets transparents}} de l'onglet [[Preferences_Editor/fr#Vue_3D|Affichage → Vue 3D]] est réglée à {{Value|Passe pour les faces cachées}}, les pointes de flèche à l'une des extrémités des dimensions de l'esquisse sont masquées sur certains systèmes. En vue arrière, la valeur de la cote peut également être cachée. Les versions 0.19 à 0.21 (à l'exception de la branche Link) sont concernées. Dans les versions 0.19 et 0.20, l'effet ne se produit que si la {{MenuCommand|Afficher la grille}} est désactivée dans la section [[Sketcher_Dialog/fr#Modifier_les_contrôles|Contrôles d'édition]] du [[Task_panel/fr|panneau des tâches]], comme illustré ci-dessous.
+</div>
 
 Voir ce [https://forum.freecad.org/viewtopic.php?t=70975&start=10 fil du forum].
 
