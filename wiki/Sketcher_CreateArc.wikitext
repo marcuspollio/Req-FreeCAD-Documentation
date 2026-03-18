@@ -61,8 +61,9 @@ Dim-OVP = Dimensional On-View-Parameters. {{Version|1.0}}
 ## Optionally keep creating arcs.
 ## To finish, right-click or press {{KEY|Esc}}, or start another geometry or constraint creation tool.
 
-==Notes==
+==Notes== <!--T:16-->
 
+<!--T:17-->
 * An arc has 5 degrees of freedom (DoF). Constraining its end points and its center to other existing and static points with coincident constraints would need 3×2=6 DoF. To avoid over-constraining, 2 points of the arc can be coincident to these existing points, but the last constraint needs to consume only one DoF. It can be a horizontal or vertical constraint for example. If both end points have coincident constraints, applying a radius dimension or equal constraint to define the radius of the arc can also work.
 
 
