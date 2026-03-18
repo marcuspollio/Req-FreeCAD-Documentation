@@ -285,10 +285,8 @@ Rozmiar wierzchołków w trybie edycji jest kontrolowany przez [[Preferences_Edi
 <span id="Note"></span>
 ==Uwagi==
 
-<div class="mw-translate-fuzzy">
 Jest jeszcze jedna preferencja, która ma wpływ na szkice. Jeżeli preferencja {{MenuCommand|Przezroczystość obiektów}} na zakładce [[Preferences_Editor/pl#Widok_3D|Wyświetlanie → Widok 3D]] jest ustawiona na {{Value|Przebieg od tyłu}}, 
-groty strzałek na jednym końcu wymiarów szkicu są w niektórych systemach ukryte. Przy oglądaniu od tyłu wartość wymiaru może być wtedy również ukryta. Problem dotyczy wersji od 0.19 do 0.21 ''(z wyjątkiem gałęzi Link)''. W wersjach 0.19 i 0.20 efekt występuje tylko wtedy, gdy {{MenuCommand|Pokaż siatkę}} jest wyłączone w sekcji [[Sketcher_Dialog/pl#Edycja_kontrolek|Edycja kontrolek]] w [[Task_panel/pl|Panelu zadań]], jak pokazano poniżej.
-</div>
+groty strzałek na jednym końcu wymiarów szkicu są w niektórych systemach ukryte. Przy oglądaniu od tyłu wartość wymiaru może być wtedy również ukryta. Problem dotyczy wersji od 0.19 do 0.21 ''(z wyjątkiem gałęzi Link)''. W wersjach 0.19 i 0.20 efekt występuje tylko wtedy, gdy {{MenuCommand|Wyświetl siatkę}} jest wyłączone w sekcji [[Sketcher_Dialog/pl#Edycja_szkicu|Edycja szkicu]] w [[Task_Panel/pl|Panelu zadań]], jak pokazano poniżej.
 
 Zobacz ten [https://forum.freecad.org/viewtopic.php?t=70975&start=10 temat na forum].
 
