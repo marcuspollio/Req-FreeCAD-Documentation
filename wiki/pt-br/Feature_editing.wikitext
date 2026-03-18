@@ -37,7 +37,8 @@ Por padrão, um Corpo apresenta sua operação mais recente ao exterior. Essa op
 
 There can only be one feature visible at a time. It is possible to [[Std_ToggleVisibility|toggle the visibility]] of any feature in the Body, by selecting it in the Tree view and pressing the {{KEY|Spacebar}}, in effect going back in the history of the Body. Note that changing the visibility of features does not change the Tip of the Body.
 
-=== Moving and Reordering Objects ===
+<span id="Moving_and_Reordering_Objects"></span>
+=== Movendo e reordenando objetos ===
 
 The features of a Body can be reordered, or moved to a different Body. Select the feature and right-click to get a context menu that offers both options. The operation may be prevented if the object has dependencies in the source Body, such as being attached to a face. To move a sketch to another Body, it should not contain links to external geometry.
 
