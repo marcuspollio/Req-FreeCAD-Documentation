@@ -27,7 +27,7 @@
 Unealta filament "Wire" creează o polilinie (o succesiune de segmente legate între ele) în [[Draft SelectPlane/ro|planul de lucru]] curent. Preia valorile pentru [[Draft Linestyle/ro|lăţimea și culoarea liniei]] setate în prealabil pe tab-ul "Sarcini" (Tasks). Unealta "Wire" se comportă ca şi unealta [[Draft Line/ro|linie din CIornă]], cu deosebirea că va continua şi după trasarea între primele două puncte.
 </div>
 
-The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its {{PropertyData|Fillet Radius}} or {{PropertyData|Chamfer Size}} respectively. It is also possible to subdivide the edges of a Draft Wire by changing its {{PropertyData|Subdivisions}} property.
+The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its {{PropertyData|Fillet Radius}} property or {{PropertyData|Chamfer Size}} property respectively. It is also possible to subdivide the edges of a Draft Wire by changing its {{PropertyData|Subdivisions}} property.
 
 [[Image:Draft_Polyline_example.jpg|400px]]
 <div class="mw-translate-fuzzy">
