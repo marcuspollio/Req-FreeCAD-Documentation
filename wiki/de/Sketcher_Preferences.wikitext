@@ -29,6 +29,7 @@ In {{VersionMinus/de|0.21}} hieß die Seite [[#Darstellung|Darstellung]] noch "F
 
 Auf dieser Seite "Allgemein" kann Folgendes festgelegt werden:
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Name
 !style="width: 66%;"|Beschreibung
@@ -53,6 +54,7 @@ Auf dieser Seite "Allgemein" kann Folgendes festgelegt werden:
 |-
 | {{MenuCommand|KoinzidentFestlegen und PunkAufObjektFestlegen kombinieren}} {{Version/de|1.0}}
 | Wenn aktiviert, werden die Randbedingungen [[Sketcher_ConstrainCoincident/de|KoinzidentFestlegen]] und [[Sketcher_ConstrainPointOnObject/de|PunktAufObjektFestlegen]] in einem [[Sketcher_ConstrainCoincidentUnified/de|einzigen Werkzeug]] kombiniert.
+</div>
 
 {{Emphasis|Nachdem diese Einstellung geändert wurde, muss FreeCAD neu gestartet werden.}}
 
@@ -287,7 +289,9 @@ Die Größe der Knoten im Bearbeitungsmodus wird durch die Einstellung {{MenuCom
 <span id="Note"></span>
 ==Hinweis==
 
+<div class="mw-translate-fuzzy">
 Es gibt eine weitere Einstellung, die einen Einfluss auf Skizzen hat. Ist die Einstellung {{MenuCommand|Transparente Objekte}} auf der Registerkarte [[Preferences_Editor/de#3D-Viewer|Anzeige → 3D-Viewer]] auf {{Value|Zusätzlicher Rückseiten-Render-Durchgang}} gesetzt, fehlt auf einigen Systemen die Pfeilspitzen an einem Ende der Skizzenmaße. Von der Rückseite betrachtet kann auch die Maßzahl fehlen. Die Versionen 0.19 bis 0.21 (außer Link-Branch) sind betroffen. In den Versionen 0.19 und 0.20 tritt der Effekt nur dann auf, wenn {{MenuCommand|Raster anzeigen}} im Abschnitt [[Sketcher_Dialog/de#Erweiterte Steuerung des Lösers|Erweiterte Steuerung des Lösers]] im [[Task_panel/de|Aufgaben-Bereich]] deaktiviert wurde, wie unten dargestellt.
+</div>
 
 Siehe [https://forum.freecad.org/viewtopic.php?t=70975&start=10 Forumsbeitrag].
 
