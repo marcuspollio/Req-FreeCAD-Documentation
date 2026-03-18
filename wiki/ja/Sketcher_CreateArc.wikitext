@@ -54,6 +54,10 @@
 ## 必要に応じて円弧の作成を続けます。
 ## 編集を終了するためには、右クリック、{{KEY|Esc}}キーを押す、または別の作図または拘束ツールを起動します。
 
+==Notes==
+
+* An arc has 5 degrees of freedom (DoF). Constraining its end points and its center to other existing and static points with coincident constraints would need 3×2=6 DoF. To avoid over-constraining, 2 points of the arc can be coincident to these existing points, but the last constraint needs to consume only one DoF. It can be a horizontal or vertical constraint for example. If both end points have coincident constraints, applying a radius dimension or equal constraint to define the radius of the arc can also work.
+
 
 {{Docnav/ja
 |[[Sketcher_CreateLine/ja|線分を作成]]
