@@ -57,7 +57,7 @@ Dim-OVP = Dimensional On-View-Parameters (In-Ansicht-Parameter zur maßlichen Fe
 <span id="Notes"></span>
 ==Hinweise==
 
-* An arc has 5 degrees of freedom (DoF). Constraining its end points and its center to other existing and static points with coincident constraints would need 3×2=6 DoF. To avoid over-constraining, 2 points of the arc can be coincident to these existing points, but the last constraint needs to consume only one DoF. It can be a horizontal or vertical constraint for example. If both end points have coincident constraints, applying a radius dimension or equal constraint to define the radius of the arc can also work.
+* Ein Bogen hat 5 Freiheitsgrade (DoF). Würden seine Endpunkte und sein Mittelpunkt durch koinzidente Beschränkungen an andere vorhandene und statische Punkte gebunden, wären 3×2=6 Freiheitsgrade erforderlich. Um eine Überbeschränkung zu vermeiden, können zwei Punkte des Bogens mit diesen vorhandenen Punkten koinzident sein, doch die letzte Beschränkung darf nur einen Freiheitsgrad beanspruchen. Dies kann beispielsweise eine horizontale oder vertikale Beschränkung sein. Wenn beide Endpunkte koinzidente Beschränkungen haben, kann auch die Anwendung einer Radiusbemaßung oder einer Gleichheitsbeschränkung zur Definition des Radius des Bogens funktionieren.
 
 
 {{Docnav/de
