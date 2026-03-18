@@ -163,6 +163,14 @@ ToDo (last check: 20260310):
 <span id="Part_Design_Workbench"></span>
 == Atelier PartDesign ==
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:PartDesign_thread_texture_relnotes_1.2.png|384px]]
+| Support for cosmetic threads (thread textures) was added to the [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Hole]] tool. They can be enabled using the ''Cosmetic Thread'' property (''Threaded'' has to be enabled and ''Model Thread'' must be disabled).
+[https://github.com/FreeCAD/FreeCAD/pull/22573 Pull request #22573]
+|}
+</div>
+
 <span id="Further_Part_Design_improvements"></span>
 === Autres améliorations de PartDesign ===
 
