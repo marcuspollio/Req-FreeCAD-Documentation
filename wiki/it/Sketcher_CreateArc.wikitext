@@ -54,6 +54,10 @@ Dim-OVP = Dimensional On-View-Parameters, {{Version/it|1.0}}.
 ## Facoltativamente continuare a creare archi.
 ## Per terminare, fare clic con il pulsante destro del mouse o premere {{KEY|Esc}} oppure avviare un altro strumento di creazione di geometrie o vincoli.
 
+==Notes==
+
+* An arc has 5 degrees of freedom (DoF). Constraining its end points and its center to other existing and static points with coincident constraints would need 3×2=6 DoF. To avoid over-constraining, 2 points of the arc can be coincident to these existing points, but the last constraint needs to consume only one DoF. It can be a horizontal or vertical constraint for example. If both end points have coincident constraints, applying a radius dimension or equal constraint to define the radius of the arc can also work.
+
 
 {{Docnav/it
 |[[Sketcher_CreateLine/it|Linea]]
