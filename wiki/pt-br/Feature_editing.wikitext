@@ -35,7 +35,7 @@ When a model requires multiple Bodies, like the wooden chair, the general purpos
 
 Por padrão, um Corpo apresenta sua operação mais recente ao exterior. Essa operação é o Tip do Corpo. O Tip também indica a posição onde novas operações são adicionadas. É possível redefinir temporariamente o Tip para uma operação intermediária no Corpo, a fim de inserir novos objetos (operações, esboços ou geometria de referência) nesse ponto. À medida que uma nova operação é adicionada ao Corpo, a visibilidade da operação anterior é desativada, e a nova operação passa a ser o Tip.
 
-There can only be one feature visible at a time. It is possible to [[Std_ToggleVisibility|toggle the visibility]] of any feature in the Body, by selecting it in the Tree view and pressing the {{KEY|Spacebar}}, in effect going back in the history of the Body. Note that changing the visibility of features does not change the Tip of the Body.
+Apenas uma operação pode estar visível por vez. É possível [[Std_ToggleVisibility|alternar a visibilidade]] de qualquer operação no Corpo, selecionando-a na Árvore de modelos e pressionando a {{KEY|barra de espaço}}, efetivamente retornando no histórico do Corpo. Observe que alterar a visibilidade das operações não modifica o Tip do Corpo.
 
 <span id="Moving_and_Reordering_Objects"></span>
 === Movendo e reordenando objetos ===
