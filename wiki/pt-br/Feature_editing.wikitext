@@ -26,7 +26,7 @@ Um documento pode conter múltiplos [[PartDesign Body|Corpos]], mas apenas um Co
 
 A contiguous solid is an object like a casting or something machined from a single block of metal. If the object involves nails, screws or glue, it is not a contiguous solid. As a practical example, a wooden chair would be made of multiple Bodies, with one for each of its sub-components (legs, slats, seat, etc).
 
-In FreeCAD version 1.0 an experimental property was introduced that allows the Body to have non-contiguous solids. This can also be set in the [[PartDesign_Preferences#General|Preferences]] as default for newly created Bodies. This is not intended to be used to build, as in the example, a chair in one Body. It is meant to allow features that may produce disconnected solids that will be made contiguous by later features.
+Na versão 1.0 do FreeCAD, foi introduzida uma propriedade experimental que permite que o Corpo tenha sólidos não contíguos. Isso também pode ser definido nas [[PartDesign_Preferences#General|Preferências]] como padrão para Corpos recém-criados. Isso não se destina a ser usado para construir, como no exemplo, uma cadeira em um único Corpo. Destina-se a permitir operações que possam gerar sólidos desconectados, que serão tornados contíguos por operações posteriores.
 
 When a model requires multiple Bodies, like the wooden chair, the general purpose [[Image:Std_Part.svg|16px]] [[Std Part|Part container]] can be used to group them and move the whole as a unit.
 
