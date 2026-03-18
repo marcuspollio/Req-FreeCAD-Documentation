@@ -57,7 +57,7 @@ Dim-OVP = Wymiarowe parametry w  widoku. {{Version/pl|1.0}}
 <span id="Notes"></span>
 ==Uwagi==
 
-* An arc has 5 degrees of freedom (DoF). Constraining its end points and its center to other existing and static points with coincident constraints would need 3×2=6 DoF. To avoid over-constraining, 2 points of the arc can be coincident to these existing points, but the last constraint needs to consume only one DoF. It can be a horizontal or vertical constraint for example. If both end points have coincident constraints, applying a radius dimension or equal constraint to define the radius of the arc can also work.
+* Łuk ma 5 stopni swobody (DoF). Związanie jego punktów końcowych i środka względem innych istniejących i statycznych punktów za pomocą wiązań zbieżności wymagałoby 3×2=6 stopni swobody. Aby uniknąć nadmiernego związania, 2 punkty łuku mogą zbiegać się z tymi istniejącymi punktami, ale ostatnie wiązanie musi wykorzystywać tylko jeden stopień swobody. Może to być na przykład wiązanie poziome lub pionowe. Jeśli oba punkty końcowe mają wiązania zbieżności, zastosowanie wymiaru promienia lub wiązania równości w celu zdefiniowania promienia łuku również może zadziałać.
 
 
 {{Docnav/pl
