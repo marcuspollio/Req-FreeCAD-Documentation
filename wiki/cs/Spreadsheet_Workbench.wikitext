@@ -205,9 +205,7 @@ FreeCAD kontroluje cyklické závislosti. Viz [[Spreadsheet_Workbench/cs#Current
 <span id="References_to_CAD-data"></span>
 === Odkazy na CAD data ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-As indicated above, one can reference data from the CAD model in spreadsheet expressions.
-</div>
+Jak již bylo uvedeno výše, ve vzorcích tabulkového procesoru lze odkazovat na data z CAD modelu.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The following table shows some examples assuming the model has a feature named "MyCube":
