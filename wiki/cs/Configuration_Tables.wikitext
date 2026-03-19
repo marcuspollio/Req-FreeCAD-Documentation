@@ -16,9 +16,7 @@ S vydáním [[Release_notes_0.20/cs#Spreadsheet_Workbench|FreeCADu V0.20]] byly 
 
 Dříve bylo možné parametryzovat objekty pomocí technik, jako jsou tabulkové procesory, avšak více různých instancí daného objektu nemohlo existovat současně, pokud jste se neuchýlili k technikám, jako je kopírování souborů nebo objektů, což s sebou přinášelo problémy s údržbou. Konfigurační tabulky usnadňují správu těchto variant a umožňují mezi nimi snadno přepínat.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This tutorial assumes that you have some familiarity with the [[PartDesign_Workbench|PartDesign Workbench]] and the [[Sketcher_Workbench|Sketcher Workbench]]. You should also be familiar with the [[Tree view|Tree view]] and the [[Property_editor|Property editor]].
-</div>
+Tento návod předpokládá, že již máte určité znalosti o pracovním prostředí [[PartDesign_Workbench/cs|PartDesign]] a [[Sketcher_Workbench/cs|Sketcher]]. Měli byste také znát [[Tree view/cs|stromovou strukturu]] a [[Property_editor/cs|editor vlastností]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 There is also a [https://www.youtube.com/watch?v=m9C_ahIVKOI video version of this tutorial].
