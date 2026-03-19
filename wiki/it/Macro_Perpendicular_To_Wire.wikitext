@@ -110,9 +110,7 @@ pl.Base = pointsDirection[0]                          # position base first poin
 
 :[[File:Macro Perpendicular To Wire 04.png]]
 
-<div class="mw-translate-fuzzy">
-per discretizzare gli altri parametri
-</div>
+Gli altri parametri per {{incode|discretize()}} sono i seguenti:
 
 {{Code|code=
 # Discretizes the edge and returns a list of points.
@@ -135,17 +133,13 @@ per discretizzare gli altri parametri
 
 [[File:Macro Perpendicular To Wire.gif]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Discussions==
-</div>
+<span id="Discussions"></span>
+==Discussione==
 
 La discussione nel forum [[https://forum.freecad.org/viewtopic.php?f=13&t=19899&start=20 Spiralbohrer]]
 
 <span id="Version"></span>
-<div class="mw-translate-fuzzy">
-==Version==
-Ver 00.02 2019-04-06 : Python 3
-</div>
+==Versione==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Ver 00.03 2020-03-21: Source and comment typo fixes 
