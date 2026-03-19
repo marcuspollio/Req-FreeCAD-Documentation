@@ -48,27 +48,25 @@ Konkrétní hodnoty parametrů pro naše varianty jsou uvedeny v této tabulce:
 <span id="Instructions"></span>
 ==Instrukce==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Create a new [[Spreadsheet_CreateSheet|spreadsheet]] with a heading row. Leave the second row empty. That row will hold the current configuration and will automatically be filled later. Add parameters for M10 and M12 in rows 3 and 4: <p>[[File:Variant-link-spreadsheet-table-example-before-configuration-table.png]]</p>
-# Use the [[PartDesign_Workbench|PartDesign Workbench]] to create a [[PartDesign_Body|Body]] and [[PartDesign_NewSketch|Sketch]] for the hex nut. Dimensional constraint will be added in a later step. <p>[[File:Variant-link-example-hex-nut-sketch-unconstrained.png]]</p>
-# [[PartDesign_Pad|Pad]] the Sketch. Accept the default Length value.
-# Right-click cell A2 in the spreadsheet and select {{MenuCommand|Configuration table...}} from the context menu.
-# The {{MenuCommand|Setup Configuration Table}} dialog opens.
-# Enter the following: <p>[[File:Variant-link-example-setup-configuration-table.png]]</p> This fills out the second row in the table, adds a new {{PropertyData|Configuration}} property to the Body and binds the configuration table to it.
-# Press the {{Button|OK}} button.
-# If cell A2 shows {{Value|#PENDING}}, you can right-click the spreadsheet in the [[Tree_view|Tree view]] and choose {{MenuCommand|Recompute object}} to show the correct value.
-# Set an alias for the 3 cells in row 2 underneath <u>Diameter</u>, <u>WidthAcrossCorners</u>, and <u>Thickness</u>. Each alias should match the cell's column heading. <p>[[File:Variant-link-spreadsheet-table-example.png]]</p>
-# Constrain the Sketch with two constraints and bind the [[Expressions|expressions]] {{Value|Spreadsheet.Diameter}} and {{Value|Spreadsheet.WidthAcrossCorners}} to them: <p>[[File:Variant-link-example-hex-nut-sketch.png]]</p>
-# Bind {{Value|Spreadsheet.Thickness}} to the {{PropertyData|Length}} of the pad.
-# Create a [[PartDesign_SubShapeBinder|PartDesign SubShapeBinder]].
-# In the [[Tree_view|Tree view]] drag the Binder out of the Body and drop it on the Document node.
-# Drop the Body on the Binder to set its {{PropertyData|Support}} property to the Body. Dropping is required as this property is Read Only by default.
-# Set the {{PropertyData|Bind Copy on Change}} to {{Value|Enabled}} on the Binder.
-# Select {{Value|M12}} for the {{PropertyData|Configuration}} property of the Binder.
-# Set {{PropertyView|Use Binder Style}} to {{FALSE}} on the Binder.
-# Change the {{PropertyData|Placement}} of the Binder so that it's away from the Body. 
-# Once finished, you should have something like the following: <p>[[File:Variant-link-finished-example-document.png|500px]]</p>
-</div>
+# Vytvořte nový [[Spreadsheet_CreateSheet/cs|tabulkový list]] s řádkem záhlaví. Druhý řádek nechte prázdný. Tento řádek bude obsahovat aktuální konfiguraci a bude později automaticky vyplněn. Do řádků 3 a 4 vložte parametry pro M10 a M12: <p>[[File:Variant-link-spreadsheet-table-example-before-configuration-table.png]]</p>
+# Pomocí [[PartDesign_Workbench/cs|pracovní plochy PartDesign]] vytvořte [[PartDesign_Body/cs|těleso]] a [[PartDesign_NewSketch/cs|náčrt]] pro šestihrannou matici. Rozměrové vazby budou přidány v dalším kroku. <p>[[File:Variant-link-example-hex-nut-sketch-unconstrained.png]]</p>
+# [[PartDesign_Pad/cs|Pad]] ve skici. Přijměte výchozí hodnotu délky.
+# Klikněte pravým tlačítkem myši na buňku A2 v tabulce a z kontextového menu vyberte {{MenuCommand|Configuration table...}}.
+# Otevře se dialogové okno {{MenuCommand|Nastavení konfigurační tabulky}}.
+# Zadejte následující: <p>[[File:Variant-link-example-setup-configuration-table.png]]</p> Tím se vyplní druhý řádek tabulky, do Body se přidá nová vlastnost {{PropertyData|Configuration}} a tabulka konfigurace se k ní přiřadí.
+# Stiskněte tlačítko {{Button|OK}}.
+# Pokud se v buňce A2 zobrazuje hodnota {{Value|#PENDING}}, můžete ve [[Tree_view/cs|stromovém zobrazení]] kliknout pravým tlačítkem myši na tabulku a vybrat příkaz {{MenuCommand|Přepočítat objekt}}, čímž se zobrazí správná hodnota.
+# Nastavte alias pro 3 buňky v řádku 2 pod řádkem <u>Diameter</u>, <u>WidthAcrossCorners</u> a <u>Thickness</u>. Každý alias by měl odpovídat záhlaví sloupce buňky. <p>[[File:Variant-link-spreadsheet-table-example.png]]</p>
+# Zavazběte náčrt dvěma vazbami a přiřaďte k nim [[Expressions/cs|výrazy]] {{Value|Spreadsheet.Diameter}} a {{Value|Spreadsheet.WidthAcrossCorners}}: <p>[[File:Variant-link-example-hex-nut-sketch.png]]</p>
+# Přiřaďte hodnotu {{Value|Spreadsheet.Thickness}} k vlastnosti {{PropertyData|Length}} desky.
+# Vytvořte [[PartDesign_SubShapeBinder/cs|PartDesign SubShapeBinder]].
+# Ve [[Tree_view|stromovém zobrazení]] přetáhněte prvek Binder z prvku Body a umístěte ho na uzel Document.
+# Přetáhněte prvek Body na Binder, aby se jeho vlastnost {{PropertyData|Support}} nastavila na Body. Přetažení je nutné, protože tato vlastnost je ve výchozím nastavení jen pro čtení.
+# V nástroji Binder nastavte parametr {{PropertyData|Bind Copy on Change}} na hodnotu {{Value|Enabled}}.
+# Pro vlastnost {{PropertyData|Configuration}} objektu Binder vyberte hodnotu {{Value|M12}}.
+# V okně Binder nastavte parametr {{PropertyView|Use Binder Style}} na hodnotu {{FALSE}}.
+# Změňte {{PropertyData|Placement}} Binderu tak, aby nebyl v těsné blízkosti Body. 
+# Až budete hotovi, měli byste mít něco podobného tomuto: <p>[[File:Variant-link-finished-example-document.png|500px]]</p>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Use Std Link instead of PartDesign SubShapeBinder===
