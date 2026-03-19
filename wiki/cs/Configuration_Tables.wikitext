@@ -45,9 +45,8 @@ Konkrétní hodnoty parametrů pro naše varianty jsou uvedeny v této tabulce:
 | M12 || style="text-align:right;" | 12 || style="text-align:right;" | 20.78 || style="text-align:right;" | 10.8
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Instructions==
-</div>
+<span id="Instructions"></span>
+==Instrukce==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Create a new [[Spreadsheet_CreateSheet|spreadsheet]] with a heading row. Leave the second row empty. That row will hold the current configuration and will automatically be filled later. Add parameters for M10 and M12 in rows 3 and 4: <p>[[File:Variant-link-spreadsheet-table-example-before-configuration-table.png]]</p>
