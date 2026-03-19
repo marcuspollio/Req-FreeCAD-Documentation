@@ -202,9 +202,8 @@ Název spreadsheetu se při jeho vytvoření automaticky nastaví na název tabu
 
 FreeCAD kontroluje cyklické závislosti. Viz [[Spreadsheet_Workbench/cs#Current_limitations|Aktuální omezení]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== References to CAD-data ===
-</div>
+<span id="References_to_CAD-data"></span>
+=== Odkazy na CAD data ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 As indicated above, one can reference data from the CAD model in spreadsheet expressions.
