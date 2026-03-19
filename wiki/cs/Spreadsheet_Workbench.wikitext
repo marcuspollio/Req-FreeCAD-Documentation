@@ -95,9 +95,8 @@ Pracovní plocha [[Image:Workbench_Spreadsheet.svg|24px]] [[Spreadsheet_Workbenc
 
 * [[Image:Preferences-spreadsheet.svg|32px]] [[Spreadsheet_Preferences/cs|Předvolby]]: nastavení pro pracovní prostředí Spreadsheet. {{Version|0.20}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Removing cells can be dangerous ==
-</div>
+<span id="Removing_cells_can_be_dangerous"></span>
+== Odstranění buněk může být nebezpečné ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Note that deleting or removing cells with data can break the spreadsheet and your model if it relies on the spreadsheet. You are not prewarned if this happens.
