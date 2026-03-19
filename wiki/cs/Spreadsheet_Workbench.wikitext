@@ -166,9 +166,8 @@ As indicated by the tabs, the following properties can be changed:
 * Alias: Define an [[Spreadsheet_SetAlias|alias]] for this cell. This alias can be used in cell formulas and also in general [[Expressions|expressions]]; see section [[#Spreadsheet_data_in_expressions|Spreadsheet data in expressions]] for more information.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Cell expressions ==
-</div>
+<span id="Cell_expressions"></span>
+== Výrazy buněk ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 A spreadsheet cell may contain a number, a text or an expression. Expressions must start with an equal sign '='.
