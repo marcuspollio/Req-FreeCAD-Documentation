@@ -287,9 +287,7 @@ Die Größe der Knoten im Bearbeitungsmodus wird durch die Einstellung {{MenuCom
 <span id="Note"></span>
 ==Hinweis==
 
-<div class="mw-translate-fuzzy">
-Es gibt eine weitere Einstellung, die einen Einfluss auf Skizzen hat. Ist die Einstellung {{MenuCommand|Transparente Objekte}} auf der Registerkarte [[Preferences_Editor/de#3D-Viewer|Anzeige → 3D-Viewer]] auf {{Value|Zusätzlicher Rückseiten-Render-Durchgang}} gesetzt, fehlt auf einigen Systemen die Pfeilspitzen an einem Ende der Skizzenmaße. Von der Rückseite betrachtet kann auch die Maßzahl fehlen. Die Versionen 0.19 bis 0.21 (außer Link-Branch) sind betroffen. In den Versionen 0.19 und 0.20 tritt der Effekt nur dann auf, wenn {{MenuCommand|Raster anzeigen}} im Abschnitt [[Sketcher_Dialog/de#Erweiterte Steuerung des Lösers|Erweiterte Steuerung des Lösers]] im [[Task_panel/de|Aufgaben-Bereich]] deaktiviert wurde, wie unten dargestellt.
-</div>
+Es gibt eine weitere Einstellung, die einen Einfluss auf Skizzen hat. Ist die Einstellung {{MenuCommand|Transparente Objekte}} auf der Registerkarte [[Preferences_Editor/de#3D-Viewer|Anzeige → 3D-Ansicht]] auf {{Value|Zusätzlicher Rückseiten-Render-Durchgang}} gesetzt, fehlt auf einigen Systemen die Pfeilspitzen an einem Ende der Skizzenmaße. Von der Rückseite betrachtet kann auch die Maßzahl fehlen. Die Versionen 0.19 bis 0.21 (außer Link-Branch) sind betroffen. In den Versionen 0.19 und 0.20 tritt der Effekt nur dann auf, wenn {{MenuCommand|Raster anzeigen}} im Abschnitt [[Sketcher_Dialog/de#Erweiterte Einstellungen des Lösers|Erweiterte Einstellungen des Lösers]] im [[Task_Panel/de|Aufgaben-Fenster]] deaktiviert wurde, wie unten dargestellt.
 
 Siehe [https://forum.freecad.org/viewtopic.php?t=70975&start=10 Forumsbeitrag].
 
