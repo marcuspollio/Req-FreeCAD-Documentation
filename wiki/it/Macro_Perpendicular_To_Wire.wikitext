@@ -20,11 +20,10 @@ Posiziona l'oggetto perpendicolarmente alla linea selezionata.
 <span id="Usage"></span>
 ==Utilizzo== 
 
-<div class="mw-translate-fuzzy">
-# : selezionare il percorso (può essere un elemento o un sotto-elemento)
-# : selezionare l'oggetto da posizionare
-# : eseguire la macro
-</div>
+# Installare la macro tramite [[Image:Std_AddonMgr.svg|24px|link=Std_AddonMgr]] [[Std_AddonMgr/it|Addon Manager]]
+# Selezionare il percorso (può essere un elemento o un sotto-elemento)
+# Selezionare l'oggetto da allineare
+# Eseguire la macro
 
 ==Script==
 
