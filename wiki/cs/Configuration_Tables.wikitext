@@ -77,9 +77,8 @@ Pro odkaz na variantu můžete místo [[PartDesign_SubShapeBinder/cs|PartDesign_
 # V nastavení odkazu nastavte parametr {{PropertyData|Link Copy On Change}} na hodnotu {{Value|Enabled}}.
 # Postupujte podle výše uvedených kroků 16, 18 a 19.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Key considerations==
-</div>
+<span id="Key_considerations"></span>
+==Hlavní aspekty, které je třeba zvážit==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * As mentioned, a variant link can be made using a [[Std_LinkMake|Std Link]] or a [[PartDesign_SubShapeBinder|PartDesign SubShapeBinder]]. Realthunder explains the difference [https://forum.freecad.org/viewtopic.php?f=17&t=42183 here]: <p>{{quote|text=Instead of duplicating the linked object with all its hierarchy, the [[PartDesign_SubShapeBinder|SubShapeBinder]] will make a flattened copy of the mutated object. Another difference to Link is that the [[PartDesign_SubShapeBinder|SubShapeBinder]] will sync any changes of the original object back to the copy even if the configurations are different, while for Link, once copied, the two objects become independent.}}</p>
