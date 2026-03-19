@@ -122,7 +122,7 @@ Das Objekt hat dieselben Befestigungseigenschaften wie ein [[Part_Part2DObject/d
 * {{PropertyView/de|Arrow Size End|Length}}: Gibt die Größe des Symbols an, das am Ende des Linienzuges angezeigt wird. {{Version/de|1.1}}
 * {{PropertyView/de|Arrow Size Start|Length}}: Gibt die Größe des Symbols an, das am Anfang des Linienzuges angezeigt wird. {{Version/de|1.1}}
 * {{PropertyView/de|Arrow Type End |Enumeration}}: Gibt die Art des Symbols an, das am Ende des Linienzuges angezeigt wird; es stehen {{value|Dot}} (Punkt), {{value|Circle}} (Kreis), {{value|Arrow}} (Pfeil), {{value|Tick}} (Schrägstrich), {{value|Tick-2}} (Schrägstrich-2) oder {{value|Ohne}}. {{Version/de|1.1}} zur Auswahl.
-* {{PropertyView/de|Arrow Type Start|Enumeration}}: Wie vorher am Anfang des Linienzuges. {{Version|1.1}}
+* {{PropertyView/de|Arrow Type Start|Enumeration}}: Wie vorher am Anfang des Linienzuges. {{Version/de|1.1}}
 * {{PropertyView/de|Pattern|Enumeration}}: Gibt das [[Draft_Pattern/de|Draft-Schraffurmuster]] an, mit dem die Fläche des geschlossenen Linienzuges gefüllt werden soll. Diese Eigenschaft funktioniert nur, wenn die {{PropertyData/de|Make Face}} auf {{TRUE}} gesetzt ist und wenn die {{PropertyView/de|Display Mode}} den Wert {{value|Flat Lines}} enthält.
 * {{PropertyView/de|Pattern Size|Float}}: Gibt die Größe des [[Draft_Pattern/de|Draft-Schraffurmusters]] an.
 
