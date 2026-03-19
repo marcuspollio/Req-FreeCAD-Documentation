@@ -81,9 +81,9 @@ Die Einzelzeichen-Tastaturkürzel, die im Aufgaben-Fenster zur Verfügung stehen
 <span id="Notes"></span>
 ==Hinweise==
 
-* Ein Draft Kantenzug (Wire) kann mit dem Befehl [[Draft_Edit/de|Draft Bearbeiten]] bearbeitet werden.
-* Ein Draft Kantenzug kann mit dem Befehl [[Draft_WireToBSpline/de|Draft KantenzugZuBSpline]] in einen [[Draft_BSpline/de|Draft-B-Spline]] umgewandelt werden.
-* [[Draft_Line/de|Draft-Linien]] und Draft-Kantenzüge können auch mit den Befehlen [[Draft_Join/de|Draft Verbinden]] oder [[Draft_Upgrade/de|Draft Hochstufen]] verbunden werden.
+* Ein Draft Linienzug (Wire) kann mit dem Befehl [[Draft_Edit/de|Draft Bearbeiten]] bearbeitet werden.
+* Ein Draft Linienzug kann mit dem Befehl [[Draft_WireToBSpline/de|Draft KantenzugZuBSpline]] in einen [[Draft_BSpline/de|Draft-B-Spline]] umgewandelt werden.
+* [[Draft_Line/de|Draft-Linien]] und Draft-Linienzug können auch mit den Befehlen [[Draft_Join/de|Draft Verbinden]] oder [[Draft_Upgrade/de|Draft Hochstufen]] verbunden werden.
 
 <span id="Properties"></span>
 ==Eigenschaften==
