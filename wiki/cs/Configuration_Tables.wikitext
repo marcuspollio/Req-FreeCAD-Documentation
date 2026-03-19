@@ -14,9 +14,7 @@
 
 S vydáním [[Release_notes_0.20/cs#Spreadsheet_Workbench|FreeCADu V0.20]] byly představeny dvě nové výkonné funkce: ''Variantní [[Std_LinkMake/cs|odkazy]]'' a ''[https://forum.freecad.org/viewtopic.php?f=17&t=42183 konfigurační tabulky]''. Konfigurační tabulky jsou zvláštním typem variantních odkazů. Umožňují měnit sady předdefinovaných parametrů pro daný objekt.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Prior to this, you could parameterize objects with techniques such as spreadsheets, but multiple varied instances of that object couldn't exist at the same time unless you resorted to techniques like copying files or objects which creates maintenance issues. Configuration tables make the maintenance of such variants, and the ability to toggle between them easy.
-</div>
+Dříve bylo možné parametryzovat objekty pomocí technik, jako jsou tabulkové procesory, avšak více různých instancí daného objektu nemohlo existovat současně, pokud jste se neuchýlili k technikám, jako je kopírování souborů nebo objektů, což s sebou přinášelo problémy s údržbou. Konfigurační tabulky usnadňují správu těchto variant a umožňují mezi nimi snadno přepínat.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This tutorial assumes that you have some familiarity with the [[PartDesign_Workbench|PartDesign Workbench]] and the [[Sketcher_Workbench|Sketcher Workbench]]. You should also be familiar with the [[Tree view|Tree view]] and the [[Property_editor|Property editor]].
