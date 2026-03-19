@@ -75,9 +75,7 @@ In sostanza, la linea viene tagliata in x punti con {{incode|discretize()}} (per
     pointsDirection = lineSelected.Shape.discretize(Number=500)             # discretize the path line first selection
 }}
 
-<div class="mw-translate-fuzzy">
-la perpendicolarità è calcolata tra 2 punti modificando :
-</div>
+1. La perpendicolarità si calcola tra 2 punti:
 
 {{Code|code=
 v=pointsDirection[0].sub(pointsDirection[1])          # perpendicular of first > second point
