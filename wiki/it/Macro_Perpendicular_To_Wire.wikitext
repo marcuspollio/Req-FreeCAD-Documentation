@@ -69,9 +69,7 @@ except Exception:
 <span id="Options"></span>
 ==Opzioni==
 
-<div class="mw-translate-fuzzy">
-Principio di funzionamento :
-</div>
+In sostanza, la linea viene tagliata in x punti con {{incode|discretize()}} (per questo scopo si utilizza come valore predefinito {{incode|Number&#61;500}} ma i tagli possono essere modificati tra 0 e 499)
 
 {{Code|code=
     pointsDirection = lineSelected.Shape.discretize(Number=500)             # discretize the path line first selection
