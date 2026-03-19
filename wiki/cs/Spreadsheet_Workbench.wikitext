@@ -187,9 +187,8 @@ Cell expressions may contain numbers, functions, references to other cells, and 
 References to objects in the model are explained under [[#References_to_CAD-data|References to CAD-data]] below. Using spreadsheet cell values to define model properties are explained under [[#Spreadsheet_data_in_expressions|Spreadsheet data in expressions]] below. For more information on expressions and the available functions, see [[Expressions|Expressions]].
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Interaction between spreadsheets and the CAD model ==
-</div>
+<span id="Interaction_between_spreadsheets_and_the_CAD_model"></span>
+== Vzájemná interakce mezi tabulkami a CAD modelem ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Data in the cells of a spreadsheet may be used in CAD model parameter expressions. Thus, a spreadsheet may be used as the source for parameter values used throughout a model, effectively gathering the values in one place. When values are changed in the spreadsheet, they are propagated throughout the model.
