@@ -200,9 +200,7 @@ FreeCAD při vytvoření tabulky automaticky přiřadí jedinečný název. Tyto
 
 Název spreadsheetu se při jeho vytvoření automaticky nastaví na název tabulky. Na rozdíl od názvu lze tento název změnit, například v panelu vlastností nebo pomocí příkazu „Přejmenovat“ v kontextovém menu. Ve výchozím nastavení FreeCAD nedovoluje duplicitní názvy listů, ale existuje [[Preferences_Editor/cs#Document|nastavení]], kterým lze toto omezení zrušit. Na listy se stejnými názvy v rámci jednoho dokumentu nelze odkazovat pomocí jejich názvu.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-FreeCAD checks for cyclic dependencies. See [[Spreadsheet_Workbench#Current_limitations|Current limitations]].
-</div>
+FreeCAD kontroluje cyklické závislosti. Viz [[Spreadsheet_Workbench/cs#Current_limitations|Aktuální omezení]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === References to CAD-data ===
