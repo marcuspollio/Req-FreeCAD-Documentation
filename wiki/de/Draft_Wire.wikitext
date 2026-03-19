@@ -101,17 +101,17 @@ Das Objekt hat dieselben Befestigungseigenschaften wie ein [[Part_Part2DObject/d
 
 {{TitleProperty|Draft}}
 
-* {{PropertyData/de|Area|Area}}: (nur Lesezugriff) gibt dem Flächeninhalt der Fläche eines Kantenzuges an. Der Wert ist {{value|0.0}}, wenn die {{PropertyData/de|Make Face}} auf {{FALSE}} gesetzt ist oder die Fläche nicht erstellt werden kann.
+* {{PropertyData/de|Area|Area}}: (nur Lesezugriff) gibt den Flächeninhalt der Fläche eines Linienzuges an. Der Wert ist {{value|0.0}}, wenn die {{PropertyData/de|Make Face}} auf {{FALSE}} gesetzt ist oder die Fläche nicht erstellt werden kann.
 * {{PropertyData/de|Base|Link}}
-* {{PropertyData/de|Chamfer Size|Length}}: gibt die Länge der Fasen an den Ecken des Kantenzuges an.
-* {{PropertyData/de|Closed|Bool}}: spezifiziert, ob der Draht geschlossen ist oder nicht. Wenn der Kantenzug zu Beginn offen ist, ist dieser Wert {{FALSE}}; wird er auf {{TRUE}} gesetzt, wird ein Liniensegment hinzugefügt, um den Kantenzug zu schließen. Wenn der Kantenzug ursprünglich geschlossen ist, ist dieser Wert {{TRUE}}; wird er auf {{FALSE}} gesetzt, wird das letzte Liniensegment entfernen, und der Kantenzug wird geöffnet.
-* {{PropertyData/de|End|VectorDistance}}: gibt den Endpunkt des Kantenzuges an.
-* {{PropertyData/de|Fillet Radius|Length}}: gibt den Radius der Verrundungen an den Ecken eines Kantenzuges an.
-* {{PropertyData/de|Length|Length}}: (nur Lesezugriff) gibt die Länge des gesamten Kantenzuges an.
-* {{PropertyData/de|Make Face|Bool}}: gibt an, ob der Draht eine Fläche bildet oder nicht. Wenn sie {{TRUE}} ist, wird eine Fläche erstellt, andernfalls werden nur die Kanten als Teil des Objekts betrachtet. Diese Eigenschaft funktioniert nur, wenn die {{PropertyData/de|Closed}} auf {{TRUE}} gesetzt ist und wenn der Kantenzug sich nicht selbst überschneidet.
-* {{PropertyData|Points|VectorList}}: gibt die Punkte des Kantenzuges in seinem lokalen Koordinatensystem an.
-* {{PropertyData/de|Start|VectorDistance}}: gibt den Startpunkt des Kantenzuges an.
-* {{PropertyData/de|Subdivisions|Integer}}: gibt die Anzahl der Unterteilungen für jede Kante des Kantenzuges an. Ist ihr Wert {{value|1}}, wird jede Kante in {{value|2}} gleichgroße Abschnitte aufgeteilt. Unterteilungen werden vor Fasen und Verrundungen angewendet.
+* {{PropertyData/de|Chamfer Size|Length}}: gibt die Länge der Fasen an den Ecken des Linienzuges an.
+* {{PropertyData/de|Closed|Bool}}: legt fest, ob der Linienzug geschlossen ist oder nicht. Wenn der Linienzug zu Beginn offen ist, ist dieser Wert {{FALSE}}; wird er auf {{TRUE}} gesetzt, wird ein Liniensegment hinzugefügt, um den Linienzug zu schließen. Wenn der Linienzug ursprünglich geschlossen ist, ist dieser Wert {{TRUE}}; wird er auf {{FALSE}} gesetzt, wird das letzte Liniensegment entfernen, und der Linienzug wird geöffnet.
+* {{PropertyData/de|End|VectorDistance}}: gibt den Endpunkt des Linienzuges an.
+* {{PropertyData/de|Fillet Radius|Length}}: gibt den Radius der Verrundungen an den Ecken eines Linienzuges an.
+* {{PropertyData/de|Length|Length}}: (nur Lesezugriff) gibt die Länge des gesamten Linienzuges an.
+* {{PropertyData/de|Make Face|Bool}}: gibt an, ob der Linienzug eine Fläche bildet oder nicht. Wenn sie {{TRUE}} ist, wird eine Fläche erstellt, andernfalls werden nur die Liniensegmente als Teil des Objekts betrachtet. Diese Eigenschaft funktioniert nur, wenn die {{PropertyData/de|Closed}} auf {{TRUE}} gesetzt ist und wenn der Linienzug sich nicht selbst überschneidet.
+* {{PropertyData|Points|VectorList}}: gibt die Punkte des Linienzuges in seinem lokalen Koordinatensystem an.
+* {{PropertyData/de|Start|VectorDistance}}: gibt den Startpunkt des Linienzuges an.
+* {{PropertyData/de|Subdivisions|Integer}}: gibt die Anzahl der Unterteilungen für jedes Liniensegmente des Linienzuges an. Ist ihr Wert {{value|1}}, wird jedes Liniensegment in {{value|2}} gleichgroße Abschnitte aufgeteilt. Unterteilungen werden vor Fasen und Verrundungen angewendet.
 * {{PropertyData/de|Tool|Link}}
 
 <span id="View"></span>
