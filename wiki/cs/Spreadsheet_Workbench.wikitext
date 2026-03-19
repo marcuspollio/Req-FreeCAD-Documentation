@@ -143,9 +143,8 @@ This operation deletes the contents, the properties and the aliases of the cells
 The cut and copy operations store the contents, properties and aliases of the cells on the Clipboard. The paste operation writes the data in such a way that the content of the top left cell of the stored data is dropped in the active cell. Other stored content is placed relative to that cell. Formulas are updated accordingly. Aliases are only pasted if they are unique.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Cell properties ==
-</div>
+<span id="Cell_properties"></span>
+== Vlastnosti buněk ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The properties of a spreadsheet cell can be edited by right-clicking the cell and selecting {{MenuCommand|Properties…}} from the context menu. The following dialog pops up:
