@@ -68,9 +68,8 @@ Konkrétní hodnoty parametrů pro naše varianty jsou uvedeny v této tabulce:
 # Změňte {{PropertyData|Placement}} Binderu tak, aby nebyl v těsné blízkosti Body. 
 # Až budete hotovi, měli byste mít něco podobného tomuto: <p>[[File:Variant-link-finished-example-document.png|500px]]</p>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Use Std Link instead of PartDesign SubShapeBinder===
-</div>
+<span id="Use_Std_Link_instead_of_PartDesign_SubShapeBinder"></span>
+===Použití Std Link namísto PartDesign SubShapeBinder===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 For the variant link you can also use a [[Std_LinkMake|Std Link]] instead of a [[PartDesign_SubShapeBinder|PartDesign SubShapeBinder]]:
