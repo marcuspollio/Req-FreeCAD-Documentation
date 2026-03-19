@@ -138,12 +138,12 @@ wire = make_wire(pointslist, closed=False, placement=None, face=None, support=No
 wire = make_wire(Part.Wire, closed=False, placement=None, face=None, support=None)
 }}
 
-* Erzeugt ein {{incode|Wire}}-Objekt (Kantenzug) mit der angegebenen Liste von Punkten, {{incode|pointslist}}.
-** Jeder Punkt in der Liste wird durch seinen {{incode|FreeCAD.Vector}} definiert, mit Einheiten in Millimetern.
-** Alternativ kann die Eingabe ein {{incode|Part.Wire}} sein, aus dem die Punkte extrahiert werden.
-* Wenn {{incode|closed}} {{incode|True}} ist, oder wenn der erste und letzte Punkt identisch sind, wird der Kantenzug geschlossen.
-* Wenn ein {{incode|placement}} (Position) angegeben wird, wird dieses verwendet; andernfalls wird die Form im Ursprung erzeugt.
-* Wenn {{incode|face}} {{incode|True}} ist und der Kantenzug geschlossen ist, wird der Kantenzug eine Fläche bilden, d.h. er wird gefüllt erscheinen.
+* Erstellt ein {{incode|Wire}}-Objekt mit der vorgegebenen Liste von Punkten, {{incode|pointslist}}.
+** Jeder Punkt in der Liste wird durch seinen {{incode|FreeCAD.Vector}} festgelegt, mit Einheiten in Millimetern.
+** Alternativ kann die Eingabe auch ein {{incode|Part.Wire}} sein, aus dem Punkte extrahiert werden.
+* Ist {{incode|closed}} auf {{incode|True}} gesetzt, oder wenn der erste und letzte Punkt identisch sind, ist der Linienzug geschlossen.
+* Ist {{incode|placement}} auf {{incode|None}} gesetzt, wird der Linienzug am Ursprung erzeugt.
+* Ist {{incode|face}} auf {{incode|True}} gesetzt, und der Linienzug geschlossen, ergibt der Linienzug eine Fläche, d. h. er erscheint gefüllt.
 
 Beispiel: 
 
