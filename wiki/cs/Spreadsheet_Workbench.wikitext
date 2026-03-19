@@ -207,34 +207,32 @@ FreeCAD kontroluje cyklické závislosti. Viz [[Spreadsheet_Workbench/cs#Current
 
 Jak již bylo uvedeno výše, ve vzorcích tabulkového procesoru lze odkazovat na data z CAD modelu.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The following table shows some examples assuming the model has a feature named "MyCube":
+Následující tabulka uvádí několik příkladů za předpokladu, že model obsahuje prvek s názvem "MyCube":
 {|{{Prettytable}}
- !CAD-Data
- !Cell in Spreadsheet
- !Result
+ !CAD-data
+ !Buňka v tabulce
+ !Výsledek
  |-
- |Parametric Length of a Part-Workbench Cube
+ |Parametrická délka Part-Workbench krychle
  |{{Incode|<nowiki>=MyCube.Length</nowiki>}}
- |Length with units mm
+ |Délka v jednotkách mm
  |-
- |Volume of the Cube
+ |Objem krychle
  |{{Incode|<nowiki>=MyCube.Shape.Volume</nowiki>}}
- |Volume  in mm&sup3; without units
+ |Objem v mm³ bez jednotek
  |-
- |Type of the Cube-shape
+ |Typ tvaru krychle
  |{{Incode|<nowiki>=MyCube.Shape.ShapeType</nowiki>}}
- |String: Solid
+ |Řetězec: Solid
  |-
- |Label of the Cube
+ |Návěstí krychle
  |{{Incode|<nowiki>=MyCube.Label</nowiki>}}
- |String: MyCube
+ |Řetězec: MyCube
  |-
- |X coordinate of the center of mass of the Cube
+ |Souřadnice X těžiště krychle
  |{{Incode|<nowiki>=MyCube.Shape.CenterOfMass.x</nowiki>}}
- |Coordinate in mm without units
+ |Souřadnice v mm bez jednotek
  |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Spreadsheet data in expressions ===
