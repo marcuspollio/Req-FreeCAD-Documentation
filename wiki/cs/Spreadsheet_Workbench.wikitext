@@ -196,9 +196,7 @@ Stejně tak lze vlastnosti objektů z CAD modelu použít ve vzorcích v buňká
 
 V jednom dokumentu lze použít více než jednu tabulku. Tabulku lze identifikovat buď podle jejího názvu, nebo podle jejího označení.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-FreeCAD will automatically assign a unique name to a spreadsheet when it is created. These names follow the pattern {{incode|Spreadsheet}}, {{incode|Spreadsheet001}}, {{incode|Spreadsheet002}} and so on. The name can not be changed, and it is not visible in the properties of the spreadsheet. It can be used to refer to the spreadsheet in an [[Expressions|Expression]] (see [[#Spreadsheet_data_in_expressions|Spreadsheet data in expressions]] below.)
-</div>
+FreeCAD při vytvoření tabulky automaticky přiřadí jedinečný název. Tyto názvy mají formát {{incode|Spreadsheet}}, {{incode|Spreadsheet001}}, {{incode|Spreadsheet002}} a tak dále. Název nelze změnit a není viditelný ve vlastnostech tabulky. Lze ho použít k odkazu na tabulku ve [[Expressions/cs|výrazech]] (viz [[#Spreadsheet_data_in_expressions|Data tabulky ve výrazech]] níže).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The label of a spreadsheet is automatically set to the name of the spreadsheet upon creation. Unlike the name, the label can be changed, for example in the properties panel or using the context menu action Rename. By default FreeCAD does not accept duplicate labels, but there is a [[Preferences_Editor#Document|preference]] to override this. Spreadsheets with duplicate labels in the same document cannot be referenced by their label.
