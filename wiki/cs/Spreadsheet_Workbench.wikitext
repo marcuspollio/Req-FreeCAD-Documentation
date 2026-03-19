@@ -192,9 +192,7 @@ References to objects in the model are explained under [[#References_to_CAD-data
 
 Data v buňkách tabulky lze použít ve vzorcích parametrů CAD modelu. Tabulku tak lze využít jako zdroj hodnot parametrů používaných v celém modelu, čímž se tyto hodnoty efektivně shromáždí na jednom místě. Jakmile dojde ke změně hodnot v tabulce, promítnou se do celého modelu.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Similarly, properties from CAD model objects may be used in expressions in spreadsheet cells. This allows use of object properties like volume or area in the spreadsheet. If the name of an object in the CAD model is changed, the change will automatically be propagated to any references in spreadsheet expressions using the name which was changed.
-</div> 
+Stejně tak lze vlastnosti objektů z CAD modelu použít ve vzorcích v buňkách tabulky. To umožňuje v tabulce využívat vlastnosti objektů, jako je objem nebo plocha. Pokud dojde ke změně názvu objektu v CAD modelu, tato změna se automaticky promítne do všech odkazů ve vzorcích tabulky, které tento změněný název používají. 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 More than one spreadsheet may be used in a document. A spreadsheet can be identified using either its name or its label.
