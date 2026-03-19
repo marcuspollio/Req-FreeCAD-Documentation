@@ -107,9 +107,8 @@ Upozorňujeme, že smazání nebo odstranění buněk s daty může způsobit po
 Rows and columns can be inserted or removed by right-clicking a row or column header and selecting the appropriate option from the context menu. It is possible to select multiple rows or columns first. Either by holding down the {{KEY|Ctrl}} key while selecting the headers, or by holding down the left mouse button and dragging.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Edit cells ==
-</div>
+<span id="Edit_cells"></span>
+== Editace buněk ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The content of a cell can be edited by selecting the cell and entering a value in the {{MenuCommand|Content}} inputbox at the top of the window. To edit a cell in-place, select it and press {{KEY|F2}}, or double-click it.
