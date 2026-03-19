@@ -9,9 +9,8 @@
 |Files=[https://forum.freecad.org/download/file.php?id=270593 ConfigurationTableExample.FCStd]
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Introduction==
-</div>
+<span id="Introduction"></span>
+==Úvod==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 With the release of [[Release_notes_0.20#Spreadsheet_Workbench|FreeCAD V0.20]] two powerful new features have been introduced: ''Variant [[Std_LinkMake|Links]]'' and ''[https://forum.freecad.org/viewtopic.php?f=17&t=42183 Configuration Tables]''. Configuration tables are a special type of variant link. They allow to vary sets of predefined parameters for a given object.
