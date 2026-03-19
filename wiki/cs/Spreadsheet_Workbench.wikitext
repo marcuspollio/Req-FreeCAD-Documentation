@@ -114,9 +114,8 @@ Rows and columns can be inserted or removed by right-clicking a row or column he
 The content of a cell can be edited by selecting the cell and entering a value in the {{MenuCommand|Content}} inputbox at the top of the window. To edit a cell in-place, select it and press {{KEY|F2}}, or double-click it.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Delete cells ==
-</div>
+<span id="Delete_cells"></span>
+== Odstranění buněk ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Select one or more cells. To select multiple cells hold down the {{KEY|Ctrl}} key while selecting, or hold down the left mouse button and drag to select a rectangular cell range.
