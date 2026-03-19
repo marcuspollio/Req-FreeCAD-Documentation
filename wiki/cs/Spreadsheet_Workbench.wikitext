@@ -100,9 +100,8 @@ Pracovní plocha [[Image:Workbench_Spreadsheet.svg|24px]] [[Spreadsheet_Workbenc
 
 Upozorňujeme, že smazání nebo odstranění buněk s daty může způsobit poškození tabulky a vašeho modelu, pokud na nich model závisí. V takovém případě nebudete předem upozorněni.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Insert and remove rows and columns ==
-</div>
+<span id="Insert_and_remove_rows_and_columns"></span>
+== Vložení a odstranění řádků a sloupců ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Rows and columns can be inserted or removed by right-clicking a row or column header and selecting the appropriate option from the context menu. It is possible to select multiple rows or columns first. Either by holding down the {{KEY|Ctrl}} key while selecting the headers, or by holding down the left mouse button and dragging.
