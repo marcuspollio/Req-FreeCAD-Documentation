@@ -12,9 +12,7 @@
 <span id="Introduction"></span>
 ==Úvod==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-With the release of [[Release_notes_0.20#Spreadsheet_Workbench|FreeCAD V0.20]] two powerful new features have been introduced: ''Variant [[Std_LinkMake|Links]]'' and ''[https://forum.freecad.org/viewtopic.php?f=17&t=42183 Configuration Tables]''. Configuration tables are a special type of variant link. They allow to vary sets of predefined parameters for a given object.
-</div>
+S vydáním [[Release_notes_0.20/cs#Spreadsheet_Workbench|FreeCADu V0.20]] byly představeny dvě nové výkonné funkce: ''Variantní [[Std_LinkMake/cs|odkazy]]'' a ''[https://forum.freecad.org/viewtopic.php?f=17&t=42183 konfigurační tabulky]''. Konfigurační tabulky jsou zvláštním typem variantních odkazů. Umožňují měnit sady předdefinovaných parametrů pro daný objekt.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Prior to this, you could parameterize objects with techniques such as spreadsheets, but multiple varied instances of that object couldn't exist at the same time unless you resorted to techniques like copying files or objects which creates maintenance issues. Configuration tables make the maintenance of such variants, and the ability to toggle between them easy.
