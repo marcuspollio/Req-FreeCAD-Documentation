@@ -627,6 +627,7 @@ The following code allows you to add a tab to the [[Combo view]], separate from 
 </translate>
 {{Code|code=
 # create new Tab in ComboView
+import PySide
 from PySide import QtGui,QtCore
 #from PySide import uic
 
@@ -652,13 +653,14 @@ def getComboView(mw):
 
 mw = getMainWindow()
 tab = getComboView(getMainWindow())
-tab2=QtGui.QDialog()
+tab2=QtGui.QTextEdit()    #QDialog()
+tab2.setText("My new tab text editor")
 tab.addTab(tab2,"A Special Tab")
 
 #uic.loadUi("/myTaskPanelforTabs.ui",tab2)
 tab2.show()
 #tab.removeTab(2)
-
+#########
 
 }}
 <translate>
