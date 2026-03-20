@@ -588,7 +588,7 @@ class myWidget_Ui(object):
     def setupUi(self, myWidget):
         myWidget.setObjectName("my Nice New Widget")
         myWidget.resize(QtCore.QSize(QtCore.QRect(0,0,300,100).size()).expandedTo(myWidget.minimumSizeHint())) # sets size of the widget
- 
+
         self.label = QtGui.QLabel(myWidget) # creates a label
         self.label.setGeometry(QtCore.QRect(50,50,200,24)) # sets its size
         self.label.setObjectName("label") # sets its name, so it can be found by name
