@@ -232,9 +232,48 @@ from PySide.QtWidgets import QApplication
 from PySide.QtGui import QColor, QPixmap, QImage, QPainter, QCursor
 from PySide.QtCore import Qt
 
-myImage = QtGui.QPixmap("Complete_Path_to_image.bmp")
+cross32x32Icon = [
+"32 32 2 1",
+" 	c None",
+".	c #FF0000",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                                ",
+"............... . ..............",
+"                                ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               ",
+"                .               "
+]
+
+myImage = QtGui.QPixmap(cross32x32Icon)
 cursor = QtGui.QCursor(myImage)
 QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
+
 
 }}
 <translate>
