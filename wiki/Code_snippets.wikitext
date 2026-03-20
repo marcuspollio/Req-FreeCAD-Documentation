@@ -328,7 +328,7 @@ The Inventor framework allows to add one or more callback nodes to the scenegrap
 {{Code|code=
 App.newDocument()
 v=Gui.activeDocument().activeView()
- 
+
 #This class logs any mouse button events. As the registered callback function fires twice for 'down' and
 #'up' events we need a boolean flag to handle this.
 class ViewObserver:
