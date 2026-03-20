@@ -244,11 +244,11 @@ The image is created by Gimp exported in a .XPM file. Copy and use the code betw
 
 </translate>
 {{Code|code=
-import PySide2
-from PySide2 import QtCore, QtGui, QtWidgets
-from PySide2.QtWidgets import QApplication
-from PySide2.QtGui import QColor, QPixmap, QImage, QPainter, QCursor
-from PySide2.QtCore import Qt
+import PySide
+from PySide import QtCore, QtGui, QtWidgets
+from PySide.QtWidgets import QApplication
+from PySide.QtGui import QColor, QPixmap, QImage, QPainter, QCursor
+from PySide.QtCore import Qt
 
 cross32x32Icon = [
 "32 32 2 1",
@@ -291,6 +291,7 @@ cross32x32Icon = [
 myImage = QtGui.QPixmap(cross32x32Icon)
 cursor = QtGui.QCursor(myImage)
 QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
+
 
 }}
 <translate>
