@@ -36,7 +36,7 @@ Voir aussi : [[Draft_Snap/fr|Draft Aimantation]] et [[Draft_Constrain/fr|Draft C
 #* Appuyez sur le bouton {{Button|[[Image:Draft_Edit.svg|16px]] [[Draft_Edit/fr|Éditer]]}}.
 #* Sélectionnez l'option {{MenuCommand|Modification → [[Image:Draft_Edit.svg|16px]] Éditer}} dans le menu.
 #* Utilisez le raccourci clavier : {{KEY|D}} puis {{KEY|E}}.
-#* Pour un seul objet : sélectionnez l'option {{MenuCommand|Edit}} dans le menu contextuel de l'[[Tree_View/fr|arborescence]]. Cela ne fonctionne que pour les objets Draft pris en charge. {{Version/fr|0.21}}
+#* Pour un seul objet : sélectionnez l'option {{MenuCommand|Éditer}} dans le menu contextuel de l'[[Tree_View/fr|arborescence]]. Cela ne fonctionne que pour les objets Draft pris en charge. {{Version/fr|0.21}}
 # Si vous n'avez pas encore sélectionné d'objet : sélectionnez un objet dans la [[3D_View/fr|vue 3D]].
 # Les objets sélectionnés sont marqués par des nœuds temporaires et le [[#Panneau_principal_des_t.C3.A2ches|panneau principal des tâches]] s'ouvre. Voir [[#Options|Options]] pour plus d'informations.
 # En option, utiliser un menu contextuel de nœud ou de bord. Ces menus contextuels ne sont disponibles que pour certains objets Draft. Voir [[#Objets_pris_en_charge|Objets pris en charge]] pour plus d'informations.
@@ -211,8 +211,8 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 Voir aussi : [[Preferences_Editor/fr|Réglage des préférences]] et [[Draft_Preferences/fr|Draft Préférences]].
 
-* La couleur des nœuds temporaires est la même que celle des symboles d'aimantation. Cette couleur peut être modifiée dans les préférences : {{MenuCommand|Édition → Préférences... → Draft → Grille et aimantation → Couleur des symboles d'aimantation}}. Notez que cette couleur n'est pas utilisée pour les nœuds temporaires affichés pour les [[Draft_BezCurve/fr|Draft Courbes de Bézier]]. Ces noeuds utilisent la {{PropertyView|Couleur de ligne}} de la courbe à la place.
-* La taille des nœuds dépend de : {{MenuCommand|Édition → Préférences... → Affichage → Vue 3D → Taille des marqueurs}}. {{Version/fr|1.0}}
+* La couleur des nœuds temporaires est la même que celle des symboles d'aimantation. Cette couleur peut être modifiée dans les préférences : {{MenuCommand|Édition → Préférences → Draft → Grille et aimantation → Couleur des symboles d'aimantation}}. Notez que cette couleur n'est pas utilisée pour les nœuds temporaires affichés pour les [[Draft_BezCurve/fr|Draft Courbes de Bézier]]. Ces noeuds utilisent la {{PropertyView|Couleur de ligne}} de la courbe à la place.
+* La taille des nœuds dépend de : {{MenuCommand|Édition → Préférences → Affichage → Vue 3D → Taille des marqueurs}}. {{Version/fr|1.0}}
 
 <span id="Scripting"></span>
 ==Script==
