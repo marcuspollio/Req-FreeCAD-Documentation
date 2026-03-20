@@ -681,13 +681,13 @@ mw = FreeCADGui.getMainWindow()
 dws = mw.findChildren(QtGui.QDockWidget)
 
 # objectName may be :
-# "Report view"
-# "Tree view"
-# "Property view"
-# "Selection view"
-# "Combo View"
-# "Python console"
-# "draftToolbar"
+#Tasks
+#Model
+#WorkFeatures
+#Selection view
+#Python console
+#DAG View
+#Report view
 
 for i in dws:
   if i.objectName() == "Report view":
@@ -697,6 +697,7 @@ for i in dws:
 va = dw.toggleViewAction()
 va.setChecked(True)        # True or False
 dw.setVisible(True)        # True or False
+
 }}
 <translate>
 
