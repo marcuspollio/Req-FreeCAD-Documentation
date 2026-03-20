@@ -188,23 +188,7 @@ me.Mesh=m
 
 </translate>{{Top}}<translate>
 
-===Add an arc or a circle=== <!--T:13-->
-
-</translate>
-{{Code|code=
-import Part
-doc = App.activeDocument()
-c = Part.Circle() 
-c.Radius=10.0  
-f = doc.addObject("Part::Feature", "Circle") # create a document with a circle feature 
-f.Shape = c.toShape() # Assign the circle shape to the shape property 
-doc.recompute()
-}}
-<translate>
-
-</translate>{{Top}}<translate>
-
-===Access and change the representation of an object=== <!--T:14-->
+===Access and change the representation of a Mesh below=== <!--T:14-->
 
 <!--T:103-->
 Each object in a FreeCAD document has an associated view representation object that stores all the parameters that define how that object appears: i.e. color, linewidth, etc... See also [[#List the components of an object|List the components of an object]] snippet below
@@ -218,6 +202,21 @@ gad = Gui.activeDocument() # access the active document containing all
 v = gad.getObject("Cube")  # access the view representation to the Mesh feature 'Cube' 
 v.ShapeColor               # prints the color to the console 
 v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
+}}
+<translate>
+</translate>{{Top}}<translate>
+
+===Add an arc or a circle=== <!--T:13-->
+
+</translate>
+{{Code|code=
+import Part
+doc = App.activeDocument()
+c = Part.Circle() 
+c.Radius=10.0  
+f = doc.addObject("Part::Feature", "Circle") # create a document with a circle feature 
+f.Shape = c.toShape() # Assign the circle shape to the shape property 
+doc.recompute()
 }}
 <translate>
 
