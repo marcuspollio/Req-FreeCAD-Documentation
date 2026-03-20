@@ -337,9 +337,10 @@ class ViewObserver:
        pos = info["Position"]
        if (down):
            FreeCAD.Console.PrintMessage("Clicked on position: ("+str(pos[0])+", "+str(pos[1])+")\n")
-       
+
 o = ViewObserver()
 c = v.addEventCallback("SoMouseButtonEvent",o.logPosition)
+
 }}
 <translate>
 
