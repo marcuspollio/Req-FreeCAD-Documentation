@@ -21,10 +21,10 @@
 ==Description== <!--T:2-->
 
 <!--T:4-->
-The '''BIM Views Manager''' is a dockable window that opens below the normal Tree View, that contains all the [[Arch_BuildingPart|Building Parts]] and [[Draft_WorkingPlaneProxy|Working Plane Proxies]] of your model.
+The '''BIM Views Manager''' is a dockable window that opens below the normal Tree View, that contains all the [[Arch_BuildingPart|Building Parts]] and [[Draft_WorkingPlaneProxy|Working Plane Proxies]] of your model in the top half. [[BIM_DrawingView|Drawing Views]] and TechDraw Pages are listed in the bottom half.
 
 <!--T:5-->
-The aim of this window is to allow to quickly access your levels and working plane configurations, without the need to navigate the tree to find them.
+The aim of this window is to allow to quickly access your levels and working plane configurations, without the need to navigate the tree to find them. It also enables accessing existing pages and drawings.
 
 </translate>
 [[Image:BIM_views_screenshot.png|600px]]
