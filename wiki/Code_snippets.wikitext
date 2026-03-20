@@ -675,7 +675,7 @@ This script give the ability to manipulate the UI from the [[Python_Console|Pyth
 * [[Tree_View|Tree View]]
 * [[Property_View|Property View]]
 * [[Selection_View|Selection View]]
-* [[Combo_View|Combo View]]
+* [[Combo_View|Model]]
 * [[Python_Console|Python Console]]
 * draftToolbar
 
@@ -712,8 +712,8 @@ dw.setVisible(True)        # True or False
 
 </translate>
 {{Code|code=
-import WebGui
-WebGui.openBrowser("http://www.example.com")
+import webbrowser
+webbrowser.open("https://wiki.freecad.org/Online_Help_Toc")
 }}
 <translate>
 
