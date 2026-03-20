@@ -411,11 +411,12 @@ class ViewObserver:
            FreeCAD.Console.PrintMessage("_______________________________________"+"\n")
        except Exception:
            None
- 
+
 o = ViewObserver()
 c = v.addEventCallback("SoEvent",o.logPosition)
 
 #v.removeEventCallback("SoEvent",c) # remove ViewObserver
+
 }}
 <translate>
 
