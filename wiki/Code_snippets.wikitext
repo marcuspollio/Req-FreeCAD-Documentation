@@ -226,11 +226,11 @@ doc.recompute()
 
 </translate>
 {{Code|code=
-import PySide2
-from PySide2 import QtCore, QtGui, QtWidgets
-from PySide2.QtWidgets import QApplication
-from PySide2.QtGui import QColor, QPixmap, QImage, QPainter, QCursor
-from PySide2.QtCore import Qt
+import PySide
+from PySide import QtCore, QtGui, QtWidgets
+from PySide.QtWidgets import QApplication
+from PySide.QtGui import QColor, QPixmap, QImage, QPainter, QCursor
+from PySide.QtCore import Qt
 
 myImage = QtGui.QPixmap("Complete_Path_to_image.bmp")
 cursor = QtGui.QCursor(myImage)
