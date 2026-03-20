@@ -25,7 +25,7 @@ class ScriptWorkbench (Workbench):
         import Scripts # assuming Scripts.py is your module
         list = ["Script_Cmd"] # That list must contain command names, that can be defined in Scripts.py
         self.appendToolbar("My Scripts",list) 
-        
+
 Gui.addWorkbench(ScriptWorkbench())
 }}
 <translate>
