@@ -25,7 +25,7 @@ class ScriptWorkbench (Workbench):
         import Scripts # assuming Scripts.py is your module
         list = ["Script_Cmd"] # That list must contain command names, that can be defined in Scripts.py
         self.appendToolbar("My Scripts",list) 
-
+        
 Gui.addWorkbench(ScriptWorkbench())
 }}
 <translate>
@@ -39,7 +39,7 @@ This is an example of a main module file, containing everything your module does
 
 </translate>
 {{Code|code=
-import FreeCAD, FreeCADGui 
+ import FreeCAD, FreeCADGui 
  
 class ScriptCmd: 
    def Activated(self): 
@@ -47,7 +47,7 @@ class ScriptCmd:
        FreeCAD.Console.PrintMessage('Hello, World!')
    def GetResources(self): 
        return {'Pixmap' : 'path_to_an_icon/myicon.png', 'MenuText': 'Short text', 'ToolTip': 'More detailed text'} 
-
+       
 FreeCADGui.addCommand('Script_Cmd', ScriptCmd())
 }}
 <translate>
@@ -173,37 +173,14 @@ m.addFacet(0.0,1.0,1.0, 0.0,0.0,1.0, 1.0,0.0,1.0)
 m.addFacet(0.0,1.0,1.0, 1.0,0.0,1.0, 1.0,1.0,1.0)
 m.addFacet(1.0,1.0,0.0, 1.0,1.0,1.0, 1.0,0.0,1.0)
 m.addFacet(1.0,1.0,0.0, 1.0,0.0,1.0, 1.0,0.0,0.0)
-
-# scale to a edge length of 100
-mat = App.Matrix()
-mat.scale(100.0, 100.0, 100.0)
-m.transformGeometry(mat)
-
+# scale to a edge langth of 100
+m.scale(100.0)
 # add the mesh to the active document
 me=doc.addObject("Mesh::Feature","Cube")
 me.Mesh=m
-
 }}
 <translate>
 
-</translate>{{Top}}<translate>
-
-===Access and change the representation of a Mesh below=== <!--T:14-->
-
-<!--T:103-->
-Each object in a FreeCAD document has an associated view representation object that stores all the parameters that define how that object appears: i.e. color, linewidth, etc... See also [[#List the components of an object|List the components of an object]] snippet below
-
-</translate>
-{{Code|code=
-gad = Gui.activeDocument() # access the active document containing all 
-                           # view representations of the features in the
-                           # corresponding App document 
-
-v = gad.getObject("Cube")  # access the view representation to the Mesh feature 'Cube' 
-v.ShapeColor               # prints the color to the console 
-v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
-}}
-<translate>
 </translate>{{Top}}<translate>
 
 ===Add an arc or a circle=== <!--T:13-->
@@ -222,58 +199,38 @@ doc.recompute()
 
 </translate>{{Top}}<translate>
 
+===Access and change the representation of an object=== <!--T:14-->
+
+<!--T:103-->
+Each object in a FreeCAD document has an associated view representation object that stores all the parameters that define how that object appears: i.e. color, linewidth, etc... See also [[#List the components of an object|List the components of an object]] snippet below
+
+</translate>
+{{Code|code=
+gad = Gui.activeDocument() # access the active document containing all 
+                           # view representations of the features in the
+                           # corresponding App document 
+
+v = gad.getObject("Cube")  # access the view representation to the Mesh feature 'Cube' 
+v.ShapeColor               # prints the color to the console 
+v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
+}}
+<translate>
+
+</translate>{{Top}}<translate>
+
 ===Replace the form of mouse with one image=== <!--T:142-->
 
 </translate>
 {{Code|code=
-import PySide
-from PySide import QtCore, QtGui, QtWidgets
-from PySide.QtWidgets import QApplication
-from PySide.QtGui import QColor, QPixmap, QImage, QPainter, QCursor
-from PySide.QtCore import Qt
+import PySide2
+from PySide2 import QtCore, QtGui, QtWidgets
+from PySide2.QtWidgets import QApplication
+from PySide2.QtGui import QColor, QPixmap, QImage, QPainter, QCursor
+from PySide2.QtCore import Qt
 
-cross32x32Icon = [
-"32 32 2 1",
-" 	c None",
-".	c #FF0000",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                                ",
-"............... . ..............",
-"                                ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               ",
-"                .               "
-]
-
-myImage = QtGui.QPixmap(cross32x32Icon)
+myImage = QtGui.QPixmap("Complete_Path_to_image.bmp")
 cursor = QtGui.QCursor(myImage)
 QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
-
 
 }}
 <translate>
@@ -286,11 +243,12 @@ QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 The image is created by Gimp exported in a .XPM file. Copy and use the code between the bracket '''"{"'''  code to copy  '''"}"'''
 
 </translate>
-import PySide
-from PySide import QtCore, QtGui, QtWidgets
-from PySide.QtWidgets import QApplication
-from PySide.QtGui import QColor, QPixmap, QImage, QPainter, QCursor
-from PySide.QtCore import Qt
+{{Code|code=
+import PySide2
+from PySide2 import QtCore, QtGui, QtWidgets
+from PySide2.QtWidgets import QApplication
+from PySide2.QtGui import QColor, QPixmap, QImage, QPainter, QCursor
+from PySide2.QtCore import Qt
 
 cross32x32Icon = [
 "32 32 2 1",
@@ -378,7 +336,7 @@ class ViewObserver:
        pos = info["Position"]
        if (down):
            FreeCAD.Console.PrintMessage("Clicked on position: ("+str(pos[0])+", "+str(pos[1])+")\n")
-
+       
 o = ViewObserver()
 c = v.addEventCallback("SoMouseButtonEvent",o.logPosition)
 }}
