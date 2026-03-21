@@ -271,9 +271,7 @@ FreeCAD při přepočítávání kontroluje cyklické závislosti. Tato kontrola
 
 {{Version|0.20}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-It is possible to bind the content of cells to other spreadsheet cells. This can be useful when dealing with large tables or to get cell content from another spreadsheet.
-</div>
+Obsah buněk lze propojit s jinými buňkami v tabulce. To se může hodit při práci s rozsáhlými tabulkami nebo při načítání obsahu buněk z jiné tabulky.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Create binding ===
