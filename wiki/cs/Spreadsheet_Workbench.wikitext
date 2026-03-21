@@ -195,9 +195,7 @@ Chcete-li použít data z tabulky v jiných částech programu FreeCAD, obvykle 
 Doporučeným způsobem odkazování na data v tabulce je použití názvu tabulky a aliasu buňky. Podrobnější vysvětlení výhod a nevýhod jednotlivých způsobů odkazování najdete v následující podrobnější části.
 <div class="mw-collapsible-content">
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Using the spreadsheet label has the advantage that it can be freely changed to describe the contents of the spreadsheet. It is also easier to identify the spreadsheet that is being used since the text in the expression matches the label shown in the model and property views. If you decide to change the label of a spreadsheet, existing references to the contents of the spreadsheet will be updated, so you won't break your expressions by renaming the spreadsheet. The internal name of the spreadsheet is not readily available anywhere except within the expression editor, so if you use the internal name and later decide to rename the spreadsheets, you might have a hard time tracing your expression data back to its source.
-</div> 
+Použití návěstí tabulky má tu výhodu, že ho lze libovolně měnit tak, aby popisoval obsah tabulky. Také je snazší identifikovat používanou tabulku, protože text ve výrazu odpovídá popisku zobrazenému v zobrazení modelu a vlastností. Pokud se rozhodnete změnit název listu, budou stávající odkazy na jeho obsah aktualizovány, takže přejmenováním listu nedojde k narušení funkčnosti vašich výrazů. Interní název listu není nikde snadno dostupný, s výjimkou editoru výrazů, takže pokud tento interní název použijete a později se rozhodnete listy přejmenovat, může být obtížné vysledovat, odkud data ve vašich výrazech pocházejí. 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Be aware that when you create a new spreadsheet, the name and the label are the same, so it is easy to accidentally use the spreadsheet name instead of the label. A simple way to avoid this is to give the spreadsheet a meaningful name before starting to use it in expressions.
