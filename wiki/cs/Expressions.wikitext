@@ -328,9 +328,8 @@ Strings are identified in expressions by surrounding them with opening/closing d
 In following example, "TEXT" is recognized as a string : {{incode|<<TEXT>>}}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== String concatenation ====
-</div>
+<span id="String_concatenation"></span>
+==== Spojování řetězců ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Strings can be concatenated using the '+' sign.
