@@ -209,22 +209,20 @@ Ačkoli můžete ve výrazu k odkazování na buňku použít číslo řádku a 
 
 Úprava tabulky spustí přepočítání 3D modelu, i když se změny modelu nijak nedotýkají. U složitých modelů může přepočítání trvat dlouho a čekání po každé jednotlivé úpravě je samozřejmě dost nepříjemné.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-There are three solutions to deal with this:
-# Temporarily skip recomputes:
-#* In the [[Tree_View|Tree View]] right-click the [[Image:Document.svg|24px]] document that contains the spreadsheet.
-#* Select the {{MenuCommand|Skip recomputes}} option from the context menu.
-#* There is a big disadvantage to this solution. New values entered in the spreadsheet will not be displayed until the document is recomputed. Instead {{incode|#PENDING}} is shown.
-#* You can either recompute manually, using the [[Std_Refresh|Std Refresh]] command, or disable {{MenuCommand|Skip recomputes}} when you are done editing.
-# Use a macro to automatically skip recomputes while editing a spreadsheet:
-#* Download and run [https://forum.freecad.org/viewtopic.php?f=8&t=48600#p419301 skipSheet.FCMacro].
-#* This solution saves a few steps compared to the first solution, but also has the mentioned disadvantage.
-# Put the spreadsheet in a separate [[File_Format_FCStd|FreeCAD file]]:
-#* You can reference spreadsheet data from an external {{FileName|.FCStd}} file with this syntax: {{incode|<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>}}.
-#* The advantage of having the spreadsheet in another file over switching off recomputes is that the spreadsheet itself does get recomputed.
-#* The disadvantage is that the model won't automatically recompute after changes to the spreadsheet.
-#* In the scenario where you first open the 'spreadsheet' file, change one or more values and then open the 'model' file, there won't be any indication that the model needs to be recomputed. But if both files are open the [[Std_Refresh|Std Refresh]] icon will update correctly for the 'model' file after changes to the 'spreadsheet' file.
-</div>
+Existují tři možnosti, jak tento problém vyřešit:
+# Dočasně přeskočit přepočítání:
+#* Ve [[Tree_View|stromovém zobrazení]] klikněte pravým tlačítkem myši na dokument [[Image:Document.svg|24px]], který obsahuje tabulku.
+#* Z kontextového menu vyberte možnost {{MenuCommand|Přeskočit přepočítání}}.
+#* Toto řešení má jednu velkou nevýhodu. Nové hodnoty zadané do tabulky se nezobrazí, dokud nedojde k přepočítání dokumentu. Místo nich se zobrazí {{incode|#PENDING}}.
+#* Po dokončení úprav můžete výpočty provést ručně pomocí příkazu [[Std_Refresh/cs|Std Obnovit]] nebo deaktivovat možnost {{MenuCommand|Přeskočit přepočítání}}.
+# Pomocí makra můžete při úpravách tabulky automaticky přeskočit přepočítávání:
+#* Stáhněte si a spusťte soubor [https://forum.freecad.org/viewtopic.php?f=8&t=48600#p419301 skipSheet.FCMacro].
+#* Toto řešení ušetří oproti prvnímu řešení několik kroků, má však také zmíněnou nevýhodu.
+# Uložte tabulku do samostatného [[File_Format_FCStd/cs|FreeCAD souboru]]:
+#* Na data z tabulky v externím souboru {{FileName|.FCStd}} můžete odkazovat pomocí této syntaxe: {{incode|<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>}}.
+#* Výhodou toho, že je tabulka uložena v samostatném souboru, oproti vypnutí přepočítávání je to, že tabulka se skutečně přepočítá.
+#* Nevýhodou je, že model se po změnách v tabulce automaticky nepřepočítá.
+#* V případě, že nejprve otevřete soubor 'tabulky', změníte jednu nebo více hodnot a poté otevřete soubor 'modelu', nic nenaznačuje, že je třeba model přepočítat. Pokud jsou však oba soubory otevřené, ikona [[Std_Refresh/cs|Std Obnovit]] se po provedení změn v souboru 'tabulky' správně aktualizuje pro soubor 'modelu'.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Units ==
