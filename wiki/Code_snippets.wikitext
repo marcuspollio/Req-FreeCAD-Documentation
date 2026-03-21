@@ -1080,6 +1080,7 @@ o = App.ActiveDocument.ActiveObject
 op = o.PropertiesList
 for p in op:
     Console.PrintMessage("Property: "+ str(p)+ " Value: " + str(o.getPropertyByName(p))+"\r\n")
+
 }}
 <translate>
 
