@@ -335,9 +335,7 @@ Pokud nyní zadáte něco do buňky C1, okamžitě se to zobrazí i v buňce B3.
 <span id="Configuration_tables"></span>
 == Konfigurační tabulky ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Version|0.20}}
-</div>
 
 Pomocí tabulkových procesorů můžete vytvářet konfigurační tabulky se sadami předdefinovaných parametrů pro váš model a poté dynamicky měnit, kterou konfiguraci použít. Podívejte se na návod [[Configuration_Tables/cs|Konfigurační tabulky]]. Pokud se chcete dozvědět více o vnitřním fungování této funkce, přečtěte si [https://forum.freecad.org/viewtopic.php?f=17&t=42183 tento příspěvek na fóru].
 
