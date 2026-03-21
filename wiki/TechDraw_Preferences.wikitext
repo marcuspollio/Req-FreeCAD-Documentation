@@ -255,7 +255,7 @@ HLR stands for ''hidden line removal''.
 * '''Fuse before section''': Performs a fuse operation on the input shape(s) before Section view processing.
 * '''Switch workbench on click''': If checked, double-clicking on a page in the tree will automatically switch to TechDraw and the page will be made visible. {{Version|1.1}}
 * '''Allow crazy edges''': Includes edges with unexpected geometry in results, e.g. zero lengths.
-* '''validate shapes''': If checked, input shapes will be checked for errors before use and invalid shapes will be skipped. It can be slower but may prevent crashes. {{Version|1.1}}
+* '''Validate shapes''': If checked, input shapes will be checked for errors before use and invalid shapes will be skipped. It can be slower but may prevent crashes. {{Version|1.1}}
 * '''Debug section''': Dumps intermediate results during a Section view processing.
 * '''Debug bad shape''': If checked, shapes that failed validation will be saved as B-rep files for later analysis. {{Version|1.1}}
 * '''Debug detail''': Dumps intermediate results during a Detail view processing.
