@@ -245,9 +245,8 @@ Někdy může být žádoucí odstranit z výrazu určitou veličinu. Toho lze d
 
 Tabulky z FreeCADu lze importovat a exportovat do formátu [https://en.wikipedia.org/wiki/Comma-separated_values CSV], který je kompatibilní s většinou ostatních tabulkových procesorů, jako jsou Microsoft Excel nebo LibreOffice Calc. Další informace najdete na stránkách [[Spreadsheet_Import/cs|Import tabulek]] a [[Spreadsheet_Export/cs|Export tabulek]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== XLSX format ===
-</div>
+<span id="XLSX_format"></span>
+=== Formát XLSX ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Spreadsheets in the Excel-format XLSX can be imported with the [[Std_Import|Std Import]] command or the [[Std_Open|Std Open]] command. The following features are supported:
