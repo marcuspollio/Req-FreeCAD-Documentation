@@ -10,9 +10,7 @@ Výraz ve FreeCADu je matematický výraz využívající standardní matematick
 
 Čísla mohou k oddělení celých číslic od desetinných míst používat buď čárku {{incode|,}} nebo desetinnou tečku {{incode|.}}. Pokud se používá desetinná čárka, ''musí'' za ní následovat alespoň jedna číslice. Výrazy {{incode|1. + 2.}} a {{incode|1, + 2,}} jsou tedy neplatné, ale {{incode|1.0 + 2.0}} a {{incode|1,0 + 2,0}} jsou platné.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Operators and functions are unit-aware, and require valid combinations of units, if supplied. For example, {{incode|2mm + 4mm}} is a valid expression, while {{incode|2mm + 4}} is not. This also applies to references to object properties that have units, such as Length properties. Thus {{incode|Pad001.Length + 1}} is invalid since it adds a pure number to a property with length units, it requires {{incode|Pad001.Length + 1mm}}.
-</div>
+Operátory a funkce zohledňují jednotky a vyžadují platné kombinace jednotek, jsou-li zadány. Například {{incode|2mm + 4mm}} je platný výraz, zatímco {{incode|2mm + 4}} platný není. To platí také pro odkazy na vlastnosti objektů, které mají jednotky, jako jsou vlastnosti délky. Proto je {{incode|Pad001.Length + 1}} neplatné, protože přidává čisté číslo k vlastnosti s jednotkami délky; je třeba použít {{incode|Pad001.Length + 1mm}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Some unit related errors can seem unintuitive, with expressions either being rejected or producing results that do not match the units of the property being set. Here are some examples:
