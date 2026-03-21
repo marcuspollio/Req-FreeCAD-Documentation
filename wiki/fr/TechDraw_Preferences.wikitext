@@ -235,23 +235,23 @@ Version anglaise de l'inrface graphique, HLR pour ''hidden line removal'' (ligne
 [[Image:Preferences_TechDraw_Page_Advanced.png|thumb|350px|Préférences de Avancé]]
 
 * '''Détecter les faces''' : si cette option est cochée, TechDraw tentera de créer des faces en utilisant les segments de ligne renvoyés par l'algorithme de suppression de ligne cachée. Les faces doivent être détectés pour utiliser les [[TechDraw_Hatching/fr|hachures]], mais il peut y avoir une dégradation des performances pour les modèles complexes.
-* '''Rapport d'avancement''' : messages d'avancement lors de la construction de la Géométrie de la vue. {{Version/fr|0.21}}
-* '''Utiliser le nouvel algorithme de recherche de face''' : si cette option est cochée, le nouvel algorithme de recherche de face sera utilisé à la place de l'algorithme d'origine. {{Version/fr|0.21}}
+* '''Rapport d'avancement''' : affiche des messages d'avancement pendant la construction des géométries de vue. {{Version/fr|0.21}}
+* '''Utiliser le nouvel algorithme de recherche de faces''' : si cette option est cochée, le nouvel algorithme de recherche de face sera utilisé à la place de l'algorithme d'origine. {{Version/fr|0.21}}
 * '''Corriger automatiquement les références des cotes''' : si cette option est cochée, une tentative est faite pour mettre à jour les références des cotes lorsque le modèle change. {{Version/fr|0.21}}
 * '''Afficher les arêtes des coupes''' : met en évidence les arêtes des coupes dans les [[TechDraw_SectionView/fr|vues en coupe]].
-* '''Unir avant d'effectuer une vue en coupe''' : effectue une opération de fusion sur la ou les formes d'entrée avant le traitement de la vue en coupe.
-* '''Basculer d'atelier d'un double-clic''' : si cette option est cochée, un double-clic sur une feuille de l'arborescence fera basculer automatiquement vers TechDraw et la feuille sera rendue visible. {{Version/fr|1.1}}
-* '''Autoriser des arêtes inhabituelles''' : inclut des arêtes avec une géométrie inattendue dans les résultats, par ex. longueurs nulles.
+* '''Fusionner avant les vues en coupe''' : effectue une opération de fusion sur la ou les formes d'entrée avant le traitement de la vue en coupe.
+* '''Activer l'atelier en cliquant dessus''' : si cette option est cochée, un double-clic sur une feuille de l'arborescence fera basculer automatiquement vers TechDraw et la feuille sera rendue visible. {{Version/fr|1.1}}
+* '''Autoriser les arêtes irrégulières''' : inclut des arêtes avec une géométrie inattendue dans les résultats, par ex. longueurs nulles.
 * '''Valider les formes''' : si cette option est cochée, les formes saisies seront vérifiées de la présence d'erreurs avant d'être utilisées et les formes invalides seront ignorées. Cela peut être plus lent mais peut éviter des plantages. {{Version/fr|1.1}}
 * '''Débogage des vues en coupe''' : affiche les résultats intermédiaires pendant un traitement des vues en coupe.
-* '''Débogage des mauvaises formes''' : si cette option est cochée, les formes qui ont échoué à la validation seront sauvegardées en tant que fichiers B-rep pour une analyse ultérieure. {{Version/fr|1.1}}
+* '''Débogage des formes incorrectes''' : si cette option est cochée, les formes qui ont échoué à la validation seront sauvegardées en tant que fichiers B-rep pour une analyse ultérieure. {{Version/fr|1.1}}
 * '''Débogage des vues détaillées''' : affiche les résultats intermédiaires pendant un traitement des vues détailllées.
-* '''Passes pour supprimer les chevauchements d'arêtes''' : nombre de tentatives de suppression des chevauchements d'arêtes renvoyées par l'algorithme de suppression des lignes cachées. Une valeur de 0 indique qu'il n'y a pas de suppression. Les valeurs supérieures à 2 ne sont généralement pas productives. Chaque tentative augmente le temps nécessaire à la production du dessin. {{Version/fr|0.21}}
+* '''Nombre de passes pour supprimer les chevauchements d'arêtes''' : nombre de tentatives de suppression des chevauchements d'arêtes renvoyées par l'algorithme de suppression des lignes cachées. Une valeur de 0 indique qu'il n'y a pas de suppression. Les valeurs supérieures à 2 ne sont généralement pas productives. Chaque tentative augmente le temps nécessaire à la production du dessin. {{Version/fr|0.21}}
 * '''Zone de sélection autour des arêtes''' : taille de la zone de sélection autour des arêtes. L'unité de focalisation est d'environ 0.1 mm, en fonction de votre zoom en cours.
 * '''Zone de sélection autour des marques centrales''' : zone de sélection autour des marques centrales. L'unité de focalisation est d'environ 0.1 mm, en fonction de votre zoom en cours. La valeur par défaut est 10. Les valeurs comprises entre 20 et 30 facilitent considérablement la sélection des bords. Les valeurs élevées entraînent des chevauchements avec d'autres éléments du dessin.
-* '''Taille maximum des tuiles de hachures SVG''' : limite des tuiles SVG d'une taille de 64x64 pixels utilisées pour hachurer une seule face. Pour des mises à l'échelle importantes, il se peut que l'on obtienne une erreur concernant le nombre trop élevé de tuiles SVG, il faut alors augmenter le nombre maximum de tuiles.
-* '''Nombre maximum de segments des hachures PAT''' : nombre maximal de segments de hachures utilisés pour hachurer une face avec un motif PAT.
-* '''Déplacement des bulles''' : la touche de modification pour le déplacement des bulles peut être modifiée par rapport à la valeur par défaut pour éviter les conflits avec les raccourcis clavier du système d'exploitation ou du style de navigation. {{Version/fr|1.0}}
+* '''Nombre maximum de tuiles de hachures au format SVG''' : taille limite des tuiles SVG à 64x64 pixels utilisées pour hachurer une seule face. Pour des mises à l'échelle importantes, il se peut que l'on obtienne une erreur concernant le nombre trop élevé de tuiles SVG, il faut alors augmenter le nombre maximum de tuiles.
+* '''Nombre maximum de segments des hachures au format PAT''' : nombre maximal de segments de hachures utilisés pour hachurer une face avec un motif PAT.
+* '''Déplacement des bulles''' : la touche du modificateur pour le déplacement des bulles peut être modifiée par rapport à la valeur par défaut pour éviter les conflits avec les raccourcis clavier du système d'exploitation ou du style de navigation. {{Version/fr|1.0}}
 
 
 {{Docnav/fr
