@@ -1760,8 +1760,8 @@ qP = float(a[3])
 pl = FreeCAD.Placement()
 pl.Rotation.Q = (xP,yP,zP,qP)         # rotation of object
 pl.Base = FreeCAD.Vector(0.0,0.0,0.0) # here coordinates XYZ of Object
-rec = Draft.makeRectangle(length=10.0,height=10.0,placement=pl,face=False,support=None) # create rectangle
-#rec = Draft.makeCircle(radius=5,placement=pl,face=False,support=None)                   # create circle
+rec = Draft.make_rectangle(length=10.0,height=10.0,placement=pl,face=False,support=None) # create rectangle
+#rec = Draft.make_circle(radius=5,placement=pl,face=False,support=None)                   # create circle
 print( rec.Name)
 }}
 <translate>
@@ -1775,7 +1775,7 @@ import Draft
 pl = FreeCAD.Placement()
 pl.Rotation = FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
 pl.Base = FreeCAD.Vector(0.0,0.0,0.0)
-rec = Draft.makeRectangle(length=10.0,height=10.0,placement=pl,face=False,support=None)
+rec = Draft.make_rectangle(length=10.0,height=10.0,placement=pl,face=False,support=None)
 }}
 <translate>
 
