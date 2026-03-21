@@ -317,9 +317,8 @@ The following aggregate functions are supported:
 <span id="String_manipulation"></span>
 === Práce s řetězci ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== String identification ====
-</div>
+<span id="String_identification"></span>
+==== Identifikace řetězce ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Strings are identified in expressions by surrounding them with opening/closing double chevrons (as are labels).
