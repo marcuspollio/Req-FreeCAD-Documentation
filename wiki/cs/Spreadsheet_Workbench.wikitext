@@ -273,9 +273,8 @@ FreeCAD při přepočítávání kontroluje cyklické závislosti. Tato kontrola
 
 Obsah buněk lze propojit s jinými buňkami v tabulce. To se může hodit při práci s rozsáhlými tabulkami nebo při načítání obsahu buněk z jiné tabulky.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Create binding ===
-</div>
+<span id="Create_binding"></span>
+=== Tvorba vazby ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To bind, for example, the cell range A3-C4 to the cell range B1-D2:
