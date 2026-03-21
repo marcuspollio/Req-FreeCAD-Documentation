@@ -32,9 +32,7 @@ Jak již bylo uvedeno výše, na objekt můžete odkazovat pomocí jeho {{Proper
 
 Můžete odkazovat na jakoukoli vlastnost objektu. Chcete-li například odkazovat na výšku válce, můžete použít {{incode|Cylinder.Height}} nebo  {{incode|<<Label_of_cylinder>>.Height}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-It is possible to add [[Property_editor#Context_menu|custom properties]] to objects and use those in expressions. To reference constraints in sketches it is advisable to [[Sketcher_Workbench#Edit_constraints|name]] them.
-</div>
+K objektům lze přidávat [[Property_edito/csr#Context_menu|uživatelské vlastnosti]] a používat je ve výrazech. Pro odkazování na vazby ve skicách se doporučuje jim [[Sketcher_Workbench/cs#Edit_constraints|přiřadit názvy]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 For more information about referencing objects, see [[#Reference_to_CAD_data|Reference to CAD data]].
