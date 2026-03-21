@@ -207,9 +207,7 @@ Ačkoli můžete ve výrazu k odkazování na buňku použít číslo řádku a 
 <span id="Complex_models_and_recomputes"></span>
 === Složité modely a nové výpočty ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Editing a spreadsheet will trigger a recompute of the 3D model, even if the changes do not affect the model. For a complex model a recompute can take a long time, and having to wait after every single edit is of course quite annoying.
-</div>
+Úprava tabulky spustí přepočítání 3D modelu, i když se změny modelu nijak nedotýkají. U složitých modelů může přepočítání trvat dlouho a čekání po každé jednotlivé úpravě je samozřejmě dost nepříjemné.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 There are three solutions to deal with this:
