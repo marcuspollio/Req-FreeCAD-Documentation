@@ -521,9 +521,8 @@ Funkce: {{Version|1.0}}.
 |}
 </div>
 {{Top}}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Matrix functions ===
-</div>
+<span id="Matrix_functions"></span>
+=== Maticové funkce ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{incode|Rotation}} and {{incode|Placement}} can each be represented by a {{incode|Matrix}}. The following functions all take in a {{incode|Matrix}}, {{incode|Rotation}}, or {{incode|Placement}} as their first parameter denoted in the table below by {{incode|m}}. The type of the returned object is the same as the object supplied in the first argument except when using {{incode|mtranslate}} on a {{incode|Rotation}}, in which case a {{incode|Placement}} will be returned.
