@@ -1865,9 +1865,9 @@ If you have a 3d point and want to get the 2d point on the opengl widget then us
 
 </translate>
 {{Code|code=
-from PySide2 import QtCore
-from PySide2 import QtGui
-from PySide2 import QtWidgets
+from PySide import QtCore
+from PySide import QtGui
+from PySide import QtWidgets
 from FreeCAD import Base
 
 x, y, z, = 10,10,10
