@@ -248,9 +248,7 @@ Tabulky z FreeCADu lze importovat a exportovat do formátu [https://en.wikipedia
 <span id="XLSX_format"></span>
 === Formát XLSX ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Spreadsheets in the Excel-format XLSX can be imported with the [[Std_Import|Std Import]] command or the [[Std_Open|Std Open]] command. The following features are supported:
-</div>
+Tabulky ve Excel-formátu XLSX lze importovat pomocí příkazu [[Std_Import/cs|Std Import]] nebo [[Std_Open/cs|Std Otevřít]]. Podporovány jsou následující funkce:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * All functions that are also available in the FreeCAD spreadsheet. Other functions give an error in the corresponding cell after import.
