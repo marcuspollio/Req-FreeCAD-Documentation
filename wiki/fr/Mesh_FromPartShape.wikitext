@@ -43,8 +43,8 @@ Voici les mailleurs disponibles et leurs paramètres :
 <span id="Standard_mesher"></span>
 ===Mailleur standard===
 
-* {{MenuCommand|Déviation de surface}} : la [https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2 déviation linéaire] maximale d'une section de maillage par rapport à la surface de l'objet.
-* {{MenuCommand|Déviation angulaire}} : la [https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2 déviation angulaire] maximale d'une section de maillage à la suivante. Ce paramètre est utilisé lors du maillage de surfaces courbes.
+* {{MenuCommand|Déviation de surface}} : [https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2 déviation linéaire] maximale d'une section de maillage par rapport à la surface de l'objet.
+* {{MenuCommand|Déviation angulaire}} : [https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2 déviation angulaire] maximale d'une section de maillage à la suivante. Ce paramètre est utilisé lors du maillage de surfaces courbes.
 * {{MenuCommand|Déviation relative de surface}} : si coché, la déviation linéaire maximale d'un segment de maillage sera la {{MenuCommand|Déviation de surface}} spécifiée multipliée par la longueur du segment de maillage en cours (arête).
 * {{MenuCommand|Appliquer les couleurs des faces au maillage}} : si coché, le maillage prendra les couleurs des faces de l'objet.
 * {{MenuCommand|Définir les segments par les couleurs des faces}} : si coché, les segments de maillage seront regroupés en fonction des couleurs des faces de l'objet. Ces groupes seront exportés pour les formats de sortie de maillage prenant en charge cette fonctionnalité (le format [https://fr.wikipedia.org/wiki/Objet_3D_(format_de_fichier) OBJ] par exemple).
