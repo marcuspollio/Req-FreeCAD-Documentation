@@ -123,9 +123,7 @@ Výrazy v buňkách mohou obsahovat čísla, funkce, odkazy na jiné buňky a od
 * Jako oddělovač desetinných míst se vždy používá tečka. Při zadávání hodnot lze však použít i čárky.
 * Počet zobrazených desetinných míst se může lišit podle nastavení [[Preferences_Editor/cs#Units|v předvolbách]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-References to objects in the model are explained under [[#References_to_CAD-data|References to CAD-data]] below. Using spreadsheet cell values to define model properties are explained under [[#Spreadsheet_data_in_expressions|Spreadsheet data in expressions]] below. For more information on expressions and the available functions, see [[Expressions|Expressions]].
-</div>
+Odkazy na objekty v modelu jsou vysvětleny níže v sekci [[#References_to_CAD-data|Odkazy na CAD data]]. Použití hodnot buněk tabulkového procesoru k definování vlastností modelu je vysvětleno níže v sekci [[#Spreadsheet_data_in_expressions|Data tabulkového procesoru ve výrazech]]. Další informace o výrazech a dostupných funkcích najdete v sekci [[Expressions/cs|Výrazy]].
 
 <span id="Interaction_between_spreadsheets_and_the_CAD_model"></span>
 == Vzájemná interakce mezi tabulkami a CAD modelem ==
