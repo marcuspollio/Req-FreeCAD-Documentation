@@ -23,9 +23,7 @@ Některé chyby související s jednotkami mohou působit neintuitivně, protož
 
 Více argumentů funkce lze oddělit buď středníkem {{incode|;}}, nebo čárkou následovanou mezerou {{incode|, }}. V druhém případě se čárka po zadání převede na středník. Při použití středníku není nutné zadávat mezeru na konci.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Arguments may include references to cells in a spreadsheet. A cell reference consists of the cell's uppercase row letter followed by its column number, for example {{incode|A1}}. A cell may also be referenced by using the cell's alias instead, for example {{incode|Spreadsheet.MyPartWidth}}.
-</div>
+Argumenty mohou obsahovat odkazy na buňky v tabulce. Odkaz na buňku se skládá z velkého písmene označujícího řádek, za kterým následuje číslo sloupce, například {{incode|A1}}. Na buňku lze odkazovat také pomocí jejího aliasu, například {{incode|Spreadsheet.MyPartWidth}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Referencing objects===
