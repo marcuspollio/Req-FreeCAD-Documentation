@@ -57,46 +57,46 @@ Jsou podporovány následující konstanty:
 
 Jsou podporovány následující operátory:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+<div class="mw-translate-fuzzy">
 {| class="wikitable"
-!style="width: 33%;"|Operator
-!style="width: 66%;"|Description
+!style="width: 33%;"|Operátor
+!style="width: 66%;"|Popis
 |-
 | style="text-align:center;" |'''+'''
-| [https://en.wikipedia.org/wiki/Addition Addition]
+| [https://en.wikipedia.org/wiki/Addition Sčítání]
 |-
 | style="text-align:center;" |'''-'''
-| [https://en.wikipedia.org/wiki/Subtraction Subtraction]
+| [https://en.wikipedia.org/wiki/Subtraction Odčítání]
 |-
 | style="text-align:center;" | '''*'''
-| [https://en.wikipedia.org/wiki/Multiplication Multiplication]
+| [https://en.wikipedia.org/wiki/Multiplication Násobení]
 |-
 | style="text-align:center;" | '''/'''
-| Floating point [https://en.wikipedia.org/wiki/Division_(mathematics) Division]
+| https://en.wikipedia.org/wiki/Division_(mathematics) Dělení] s plovoucí desetinnou čárkou
 |-
 | style="text-align:center;" | '''%'''
-| [https://en.wikipedia.org/wiki/Remainder Remainder]
+| [https://en.wikipedia.org/wiki/Remainder Zbytek po dělení]
 |-
 | style="text-align:center;" | '''^'''
-| [https://en.wikipedia.org/wiki/Exponentiation Exponentiation]
+| [https://en.wikipedia.org/wiki/Exponentiation Umocňování]
 |-
 | style="text-align:center;" | '''=='''
-| [https://en.wikipedia.org/wiki/Relational_operator Equal]
+| [https://en.wikipedia.org/wiki/Relational_operator Rovnost]
 |-
 | style="text-align:center;" | '''!='''
-| [https://en.wikipedia.org/wiki/Relational_operator Not equal]
+| [https://en.wikipedia.org/wiki/Relational_operator Nerovnost]
 |-
 | style="text-align:center;" | '''>'''
-| [https://en.wikipedia.org/wiki/Relational_operator Greater than]
+| [https://en.wikipedia.org/wiki/Relational_operator Větší než]
 |-
 | style="text-align:center;" | '''>='''
-| [https://en.wikipedia.org/wiki/Relational_operator Greater than or equal to]
+| [https://en.wikipedia.org/wiki/Relational_operator Větší než nebo rovno]
 |-
 | style="text-align:center;" | '''<'''
-| [https://en.wikipedia.org/wiki/Relational_operator Less than]
+| [https://en.wikipedia.org/wiki/Relational_operator Menší než]
 |-
 | style="text-align:center;" | '''<='''
-| [https://en.wikipedia.org/wiki/Relational_operator Less than or equal to]
+| [https://en.wikipedia.org/wiki/Relational_operator Menší než nebo rovno]
 |}
 </div>
 {{Top}}
