@@ -1267,9 +1267,7 @@ Například na štítek {{incode|Sketch\002}} je třeba odkazovat jako {{incode|
 | Mezery označují konec názvu, a proto je nelze použít
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For example, the following name is valid: {{incode|<<Sketch>>.Constraints.T2üßµ@}}. While these are invalid names: {{incode|<<Sketch>>.Constraints.test\result_2}} (\r means "carriage return") or {{incode|<<Sketch>>.Constraints.mol}} (mol is a unit).
-</div>
+Například následující název je platný: {{incode|<<Sketch>>.Constraints.T2üßµ@}}. Naproti tomu tyto názvy jsou neplatné: {{incode|<<Sketch>>.Constraints.test\result_2}} (\r znamená „návrat vozíku“) nebo {{incode|<<Sketch>>.Constraints.mol}} (mol je jednotka).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Since shorter names (especially if they have only one or two characters) can easily result in invalid names, consider using longer names and/or establishing a suitable naming convention.
