@@ -1279,9 +1279,7 @@ Viz [[Spreadsheet_SetAlias/cs#Usage|Spreadsheet Nastavení alias]].
 <span id="Reference_to_CAD_data"></span>
 == Odkaz na CAD data ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-It is possible to use data from the model itself in an expression. To reference a property use {{incode|object_name.property}} or {{incode|<<object_label>>.property}}, labels must be enclosed in {{incode|<<}} and {{incode|>>}}. If you want to use labels they must be unique.
-</div>
+Ve výrazu je možné použít data přímo z modelu. Chcete-li odkazovat na vlastnost, použijte {{incode|object_name.property}} nebo {{incode|<<object_label>>.property}}; označení musí být uzavřena v značkách {{incode|<<}} a {{incode|>>}}. Pokud chcete použít popisky, musí být jedinečné.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 All next examples reference the object by its name, but in all cases the object label can also be used.
