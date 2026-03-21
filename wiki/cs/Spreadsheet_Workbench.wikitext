@@ -89,13 +89,11 @@ Tato operace odstraní obsah, vlastnosti a aliasy buněk. Chcete-li odstranit po
 <span id="Cut,_copy_and_paste_cells"></span>
 == Vyjmutí, kopírování a vložení buněk ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select one or more cells. See above.
-# Do one of the following:
-#* Use one the standard shortcuts: {{KEY|Ctrl}}+{{KEY|X}}, {{KEY|Ctrl}}+{{KEY|C}} or {{KEY|Ctrl}}+{{KEY|V}} respectively.
-#* Right-click one of the selected cells and select the appropriate option from the context menu.
-#* Select the appropriate option from the [[Std_Edit_Menu|Edit Menu]].
-</div>
+# Vyberte jednu nebo více buněk. Viz výše.
+# Proveďte jednu z následujících akcí:
+#* Použijte jednu ze standardních klávesových zkratek: {{KEY|Ctrl}}+{{KEY|X}}, {{KEY|Ctrl}}+{{KEY|C}} nebo {{KEY|Ctrl}}+{{KEY|V}}.
+#* Klikněte pravým tlačítkem myši na jednu z vybraných buněk a z kontextového menu vyberte příslušnou možnost.
+#* Vyberte příslušnou možnost z [[Std_Edit_Menu/cs|menu Upravit]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The cut and copy operations store the contents, properties and aliases of the cells on the Clipboard. The paste operation writes the data in such a way that the content of the top left cell of the stored data is dropped in the active cell. Other stored content is placed relative to that cell. Formulas are updated accordingly. Aliases are only pasted if they are unique.
