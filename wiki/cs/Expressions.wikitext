@@ -367,9 +367,8 @@ For more than one %-specifier use the following syntax: {{incode|<<Cube length i
 
 Ukázkový soubor FreeCADu využívající formátování řetězců je k dispozici [https://forum.freecad.org/viewtopic.php?f=8&t=58657 na fóru]
 {{Top}}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Object creation functions ===
-</div>
+<span id="Object_creation_functions"></span>
+=== Funkce pro vytváření objektů ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The following objects may be created in expressions using the following functions:
