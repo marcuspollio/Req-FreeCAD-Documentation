@@ -8,9 +8,7 @@ Vlastnosti lze definovat pomocí matematických výrazů. V grafickém uživatel
 
 Výraz ve FreeCADu je matematický výraz využívající standardní matematické [[#Supported_operators|operátory]], [[#Supported_functions|funkce]] a [[#Supported_constants|předdefinované konstanty]], jak je popsáno níže. Kromě toho může výraz odkazovat na vlastnosti objektů a také používat [[#Conditional_expressions|podmínky]]. Čísla ve výrazu mohou mít připojenou volitelnou [[#Jednotky|jednotku]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Numbers may use either a comma {{incode|,}} or a decimal point {{incode|.}} to separate whole digits from decimals. When the decimal marker is used, it ''must'' be followed by at least one digit. Thus, the expressions {{incode|1. + 2.}} and {{incode|1, + 2,}} are invalid, but {{incode|1.0 + 2.0}} and {{incode|1,0 + 2,0}} are valid.
-</div>
+Čísla mohou k oddělení celých číslic od desetinných míst používat buď čárku {{incode|,}} nebo desetinnou tečku {{incode|.}}. Pokud se používá desetinná čárka, ''musí'' za ní následovat alespoň jedna číslice. Výrazy {{incode|1. + 2.}} a {{incode|1, + 2,}} jsou tedy neplatné, ale {{incode|1.0 + 2.0}} a {{incode|1,0 + 2,0}} jsou platné.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Operators and functions are unit-aware, and require valid combinations of units, if supplied. For example, {{incode|2mm + 4mm}} is a valid expression, while {{incode|2mm + 4}} is not. This also applies to references to object properties that have units, such as Length properties. Thus {{incode|Pad001.Length + 1}} is invalid since it adds a pure number to a property with length units, it requires {{incode|Pad001.Length + 1mm}}.
