@@ -926,6 +926,7 @@ def mouse_over_cb( event_callback):
             label = str(o["Object"])
             if not label in obj:
                 obj.append(label)
+
         FreeCAD.Console.PrintMessage("\n"+str(obj))
 
 
