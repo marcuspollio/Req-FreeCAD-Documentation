@@ -1244,30 +1244,28 @@ Například na štítek {{incode|Sketch\002}} je třeba odkazovat jako {{incode|
 
 [[Object_name/cs#Name|Názvy]] objektů, jako jsou kóty, náčrtky atd., nesmí obsahovat níže uvedené znaky nebo sekvence znaků, jinak je název neplatný:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable"
-!style="width: 33%;"|Characters / Character sequences
-!style="width: 66%;"|Description
+!style="width: 33%;"|Znaky / Sekvence znaků
+!style="width: 66%;"|Popis
 |-
 | '''+''', '''-''', '''*''', '''/''', '''^''', '''_''', '''<''', '''>''', '''(''', ''')''', '''{''', '''}''', '''[''', ''']''', '''.''', ''',''', '''='''
-| Characters that are math operators or part of mathematical constructs
+| Znaky, které jsou matematickými operátory nebo součástí matematických výrazů
 |-
-| '''A''', '''kA''', '''mA''', '''MA''', '''J''', '''K''', ''' ' ''', ''' ft ''', '''°''', and many more!
-| Characters and character sequences that are units (see the [[#Units|Units]] paragraph)
+| '''A''', '''kA''', '''mA''', '''MA''', '''J''', '''K''', ''' ' ''', ''' ft ''', '''°''', a mnoho dalších!
+| Znaky a sekvence znaků, které jsou jednotkami (viz odstavec [[#Units|Jednotky]])
 |-
-| '''#''', '''!''', '''?''', '''§''', '''$''', '''%''', '''&''', ''':''', ''';''', '''\''', '''<nowiki>|</nowiki>''', '''~''', '''∆''', '''¿''', and many more!
-| Characters used as placeholder or to trigger special operations
+| '''#''', '''!''', '''?''', '''§''', '''$''', '''%''', '''&''', ''':''', ''';''', '''\''', '''<nowiki>|</nowiki>''', '''~''', '''∆''', '''¿''', a mnoho dalších!
+| Znaky používané jako zástupné znaky nebo ke spuštění speciálních operací
 |-
 | '''pi''', '''e'''
-| Mathematical constants
+| Matematické konstanty
 |-
 | '''´''', '''`''', ''' ' ''', '''"'''
-| Characters used for accents
+| Znaky používané pro diakritiku
 |-
-| space
-| A space defines the end of a name and can therefore not be used
+| mezera
+| Mezery označují konec názvu, a proto je nelze použít
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 For example, the following name is valid: {{incode|<<Sketch>>.Constraints.T2üßµ@}}. While these are invalid names: {{incode|<<Sketch>>.Constraints.test\result_2}} (\r means "carriage return") or {{incode|<<Sketch>>.Constraints.mol}} (mol is a unit).
