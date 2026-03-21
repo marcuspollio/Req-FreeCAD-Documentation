@@ -259,9 +259,7 @@ Ostatní funkce se do tabulky FreeCADu neimportují.
 <span id="Printing"></span>
 == Tisk ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To handle the page setup necessary for printing, FreeCAD spreadsheets are printed by inserting them into a [[TechDraw_SpreadsheetView|TechDraw Spreadsheet View]].
-</div>
+Aby bylo možné provést nastavení stránky potřebné pro tisk, tisknou se tabulky z FreeCADu tak, že se vloží do [[TechDraw_SpreadsheetView/cs|TechDraw zobrazení tabulky]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Current limitations ==
