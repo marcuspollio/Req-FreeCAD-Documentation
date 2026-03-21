@@ -37,7 +37,7 @@ Vyberte objekt v prvním sloupci a stiskněte klávesu {{KEY|F2}} (ve Windows a 
 <span id="Edit_object_description"></span>
 === Úprava popisu objektu ===
 
-Objekt může mít volitelně popis. Tato informace je uložena v jeho vlastnosti {{PropertyData|Label2}}. Pokud je zobrazen sloupec s popisem, můžete tuto vlastnost upravit výběrem objektu v tomto sloupci a stisknutím klávesy {{KEY|F2}} (ve Windows a Linuxu) nebo {{KEY|Enter}} (v macOS). Vlastnost lze také změnit v [[Property_View|zobrazení vlastností]].
+Objekt může mít volitelně popis. Tato informace je uložena v jeho vlastnosti {{PropertyData|Label2}}. Pokud je zobrazen sloupec s popisem, můžete tuto vlastnost upravit výběrem objektu v tomto sloupci a stisknutím klávesy {{KEY|F2}} (ve Windows a Linuxu) nebo {{KEY|Enter}} (v macOS). Vlastnost lze také změnit v [[Property_View/cs|zobrazení vlastností]].
 
 <span id="Context_menu"></span>
 === Kontextové menu ===
