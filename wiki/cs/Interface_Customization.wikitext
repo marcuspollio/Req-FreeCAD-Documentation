@@ -10,9 +10,7 @@
 <span id="Introduction"></span>
 ==Úvod==
 
-<div class="mw-translate-fuzzy">
-Protože grafické rozhraní FreeCADu je založeno na moderním toolkitu  [http://en.wikipedia.org/wiki/Qt_(toolkit) Qt], má nejvyšší úroveň organizace. Widgety, menu, nástrojové pruhy a další nástroje mohou být modifikovány, přesunovány, sdíleny mezi pracovními plochami, mohou být nastavovány a modifikovány klávesové zkratky a mohou být zaznamenávána a přehrávána makra. Okno pro nastavení je přístupné z menu '''Nástroje -> Nastavení'''
-</div>
+Rozhraní programu FreeCAD je založeno na moderním vývojovém prostředí [https://en.wikipedia.org/wiki/Qt_(toolkit) Qt] a vyznačuje se špičkovou strukturou. Některé aspekty rozhraní lze přizpůsobit. Můžete například přidat vlastní panely nástrojů s nástroji z několika pracovních ploch nebo nástroji definovanými v makrech a můžete si vytvořit vlastní klávesové zkratky. Nabídky a výchozí panely nástrojů, které jsou součástí FreeCADu a jeho pracovních ploch, však nelze měnit.
 
 [[Image:Std_DlgCustomize_tab_Toolbars.png]]
 <div class="mw-translate-fuzzy">
