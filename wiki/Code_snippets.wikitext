@@ -1094,6 +1094,7 @@ import Draft
 obj = FreeCADGui.Selection.getSelection()[0]
 obj.addProperty("App::PropertyString","GComment","Draft","Font name").GComment = "Comment here"
 App.activeDocument().recompute()
+
 }}
 <translate>
 
