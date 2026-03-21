@@ -1566,13 +1566,14 @@ for obj in FreeCAD.ActiveDocument.Objects:
 # select one face of the object
 import FreeCAD, Draft
 App=FreeCAD
-nameObject = "Box"                             # objet
-faceSelect = "Face3"                           # face to selection
-loch=App.ActiveDocument.getObject(nameObject)  # objet
+nameObject = "Box"                             # objet Name
+faceSelect = "Face3"                           # face to selected
+loch=App.ActiveDocument.getObject(nameObject)  # get object by name
 Gui.Selection.clearSelection()                 # clear all selection
 Gui.Selection.addSelection(loch,faceSelect)    # select the face specified
 s = Gui.Selection.getSelectionEx()
-#Draft.makeFacebinder(s)                       # 
+#Draft.makeFacebinder(s)                       #
+
 }}
 <translate>
 
