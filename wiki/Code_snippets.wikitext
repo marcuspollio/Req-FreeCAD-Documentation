@@ -222,11 +222,11 @@ v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
 
 </translate>
 {{Code|code=
-import PySide
-from PySide import QtCore, QtGui, QtWidgets
-from PySide.QtWidgets import QApplication
-from PySide.QtGui import QColor, QPixmap, QImage, QPainter, QCursor
-from PySide.QtCore import Qt
+import PySide2
+from PySide2 import QtCore, QtGui, QtWidgets
+from PySide2.QtWidgets import QApplication
+from PySide2.QtGui import QColor, QPixmap, QImage, QPainter, QCursor
+from PySide2.QtCore import Qt
 
 myImage = QtGui.QPixmap("Complete_Path_to_image.bmp")
 cursor = QtGui.QCursor(myImage)
@@ -244,11 +244,11 @@ The image is created by Gimp exported in a .XPM file. Copy and use the code betw
 
 </translate>
 {{Code|code=
-import PySide
-from PySide import QtCore, QtGui, QtWidgets
-from PySide.QtWidgets import QApplication
-from PySide.QtGui import QColor, QPixmap, QImage, QPainter, QCursor
-from PySide.QtCore import Qt
+import PySide2
+from PySide2 import QtCore, QtGui, QtWidgets
+from PySide2.QtWidgets import QApplication
+from PySide2.QtGui import QColor, QPixmap, QImage, QPainter, QCursor
+from PySide2.QtCore import Qt
 
 cross32x32Icon = [
 "32 32 2 1",
@@ -292,7 +292,6 @@ myImage = QtGui.QPixmap(cross32x32Icon)
 cursor = QtGui.QCursor(myImage)
 QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 
-
 }}
 <translate>
 
@@ -328,7 +327,7 @@ The Inventor framework allows to add one or more callback nodes to the scenegrap
 {{Code|code=
 App.newDocument()
 v=Gui.activeDocument().activeView()
-
+ 
 #This class logs any mouse button events. As the registered callback function fires twice for 'down' and
 #'up' events we need a boolean flag to handle this.
 class ViewObserver:
@@ -337,10 +336,9 @@ class ViewObserver:
        pos = info["Position"]
        if (down):
            FreeCAD.Console.PrintMessage("Clicked on position: ("+str(pos[0])+", "+str(pos[1])+")\n")
-
+       
 o = ViewObserver()
 c = v.addEventCallback("SoMouseButtonEvent",o.logPosition)
-
 }}
 <translate>
 
@@ -411,12 +409,11 @@ class ViewObserver:
            FreeCAD.Console.PrintMessage("_______________________________________"+"\n")
        except Exception:
            None
-
+ 
 o = ViewObserver()
 c = v.addEventCallback("SoEvent",o.logPosition)
 
 #v.removeEventCallback("SoEvent",c) # remove ViewObserver
-
 }}
 <translate>
 
@@ -588,7 +585,7 @@ class myWidget_Ui(object):
     def setupUi(self, myWidget):
         myWidget.setObjectName("my Nice New Widget")
         myWidget.resize(QtCore.QSize(QtCore.QRect(0,0,300,100).size()).expandedTo(myWidget.minimumSizeHint())) # sets size of the widget
-
+ 
         self.label = QtGui.QLabel(myWidget) # creates a label
         self.label.setGeometry(QtCore.QRect(50,50,200,24)) # sets its size
         self.label.setObjectName("label") # sets its name, so it can be found by name
@@ -604,16 +601,13 @@ Then, all you need to do is to create a reference to the FreeCAD Qt window, inse
 
 </translate>
 {{Code|code=
-import PySide
-from PySide import QtCore, QtGui, QtWidgets
-app = QtGui.QApplication
+app = QtGui.qApp
 FCmw = app.activeWindow() # the active qt window, = the freecad window since we are inside it
 # FCmw = FreeCADGui.getMainWindow() # use this line if the 'addDockWidget' error is declared
 myNewFreeCADWidget = QtGui.QDockWidget() # create a new dckwidget
 myNewFreeCADWidget.ui = myWidget_Ui() # load the Ui script
 myNewFreeCADWidget.ui.setupUi(myNewFreeCADWidget) # setup the ui
 FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the widget to the main window
-
 }}
 <translate>
 
@@ -627,16 +621,15 @@ The following code allows you to add a tab to the [[Combo view]], separate from 
 </translate>
 {{Code|code=
 # create new Tab in ComboView
-import PySide
 from PySide import QtGui,QtCore
 #from PySide import uic
 
 def getMainWindow():
    "returns the main window"
-   # using QtGui.QApplication.activeWindow() isn't very reliable because if another
+   # using QtGui.qApp.activeWindow() isn't very reliable because if another
    # widget than the mainwindow is active (e.g. a dialog) the wrong widget is
    # returned
-   toplevel = QtGui.QApplication.topLevelWidgets()
+   toplevel = QtGui.qApp.topLevelWidgets()
    for i in toplevel:
        if i.metaObject().className() == "Gui::MainWindow":
            return i
@@ -645,7 +638,7 @@ def getMainWindow():
 def getComboView(mw):
    dw=mw.findChildren(QtGui.QDockWidget)
    for i in dw:
-       if str(i.objectName()) == "Model":
+       if str(i.objectName()) == "Combo View":
            return i.findChild(QtGui.QTabWidget)
        elif str(i.objectName()) == "Python Console":
            return i.findChild(QtGui.QTabWidget)
@@ -653,14 +646,12 @@ def getComboView(mw):
 
 mw = getMainWindow()
 tab = getComboView(getMainWindow())
-tab2=QtGui.QTextEdit()    #QDialog()
-tab2.setText("My new tab text editor")
+tab2=QtGui.QDialog()
 tab.addTab(tab2,"A Special Tab")
 
 #uic.loadUi("/myTaskPanelforTabs.ui",tab2)
 tab2.show()
 #tab.removeTab(2)
-#########
 
 }}
 <translate>
@@ -675,7 +666,7 @@ This script give the ability to manipulate the UI from the [[Python_Console|Pyth
 * [[Tree_View|Tree View]]
 * [[Property_View|Property View]]
 * [[Selection_View|Selection View]]
-* [[Combo_View|Model]]
+* [[Combo_View|Combo View]]
 * [[Python_Console|Python Console]]
 * draftToolbar
 
@@ -686,13 +677,13 @@ mw = FreeCADGui.getMainWindow()
 dws = mw.findChildren(QtGui.QDockWidget)
 
 # objectName may be :
-#Tasks
-#Model
-#WorkFeatures
-#Selection view
-#Python console
-#DAG View
-#Report view
+# "Report view"
+# "Tree view"
+# "Property view"
+# "Selection view"
+# "Combo View"
+# "Python console"
+# "draftToolbar"
 
 for i in dws:
   if i.objectName() == "Report view":
@@ -702,7 +693,6 @@ for i in dws:
 va = dw.toggleViewAction()
 va.setChecked(True)        # True or False
 dw.setVisible(True)        # True or False
-
 }}
 <translate>
 
@@ -712,8 +702,8 @@ dw.setVisible(True)        # True or False
 
 </translate>
 {{Code|code=
-import webbrowser
-webbrowser.open("https://wiki.freecad.org/Online_Help_Toc")
+import WebGui
+WebGui.openBrowser("http://www.example.com")
 }}
 <translate>
 
@@ -723,23 +713,12 @@ webbrowser.open("https://wiki.freecad.org/Online_Help_Toc")
 
 </translate>
 {{Code|code=
-##Original code## https://docs.python.org/fr/3/library/urllib.request.html#examples
-#
-from PySide import QtGui
-import urllib.request
-import urllib.parse
-
-textEdit = QtGui.QTextEdit()
-textEdit.resize(600, 200)
-
-data = urllib.parse.urlencode({'spam': 1, 'eggs': 2, 'bacon': 0})
-data = data.encode('ascii')
-with urllib.request.urlopen("http://www.freecad.org/wiki/index.php?title=Macro_FCSpring_Helix_Variable", 0) as f:
-    htmlPage = str(f.read().decode('utf-8'))
-
-textEdit.insertPlainText(htmlPage)
-textEdit.show()
-
+from PySide import QtGui,QtWebKit
+a = QtGui.qApp
+mw = a.activeWindow()
+v = mw.findChild(QtWebKit.QWebFrame)
+html = unicode(v.toHtml())
+print( html)
 }}
 <translate>
 
@@ -756,23 +735,22 @@ textEdit.show()
 import Part, FreeCAD, math, PartGui, FreeCADGui
 from FreeCAD import Base, Console
 sel = FreeCADGui.Selection.getSelection() # " sel " contains the items selected
-if len(sel)!=3:
-    # If there are no 3 objects selected, an error is displayed in the report view
-    # The \r and \n at the end of line mean return and the newline CR + LF.
-    Console.PrintError("Select 3 points exactly\r\n")
-else:
-    points=[]
-    for obj in sel:
-        points.append(obj.Shape.BoundBox.Center)
+if len(sel)!=3 :
+  # If there are no 3 objects selected, an error is displayed in the report view
+  # The \r and \n at the end of line mean return and the newline CR + LF.
+  Console.PrintError("Select 3 points exactly\r\n")
+else :
+  points=[]
+  for obj in sel:
+    points.append(obj.Shape.BoundBox.Center)
 
-    for pt in points:
-        # display of the coordinates in the report view
-        Console.PrintMessage(str(pt.x)+"\r\n")
-        Console.PrintMessage(str(pt.y)+"\r\n")
-        Console.PrintMessage(str(pt.z)+"\r\n")
+  for pt in points:
+    # display of the coordinates in the report view
+    Console.PrintMessage(str(pt.x)+"\r\n")
+    Console.PrintMessage(str(pt.y)+"\r\n")
+    Console.PrintMessage(str(pt.z)+"\r\n")
 
-    Console.PrintMessage(str(pt[1]) + "\r\n")
-
+  Console.PrintMessage(str(pt[1]) + "\r\n")
 }}
 <translate>
 
@@ -809,9 +787,9 @@ for obj in objs:
 
 </translate>
 {{Code|code=
-sel = Gui.Selection.getSelection()[0] #First object selected
-for edge in FreeCAD.ActiveDocument.getObject(sel.Name).Shape.Edges: # replace "MyObjectName" for list
-    print( edge.Length)}}
+for edge in FreeCAD.ActiveDocument.MyObjectName.Shape.Edges: # replace "MyObjectName" for list
+    print( edge.Length)
+}}
 <translate>
 
 </translate>{{Top}}<translate>
