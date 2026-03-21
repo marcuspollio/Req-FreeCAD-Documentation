@@ -310,12 +310,10 @@ Pokud nyní zadáte něco do buňky C1, okamžitě se to zobrazí i v buňce B3.
 <span id="Change_binding"></span>
 === Změna vazby ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Right-click a bound cell (there is no need to highlight the whole bound range) and select {{MenuCommand|Bind…}} from the context menu.
-# The {{MenuCommand|Bind Spreadsheet Cells}} dialog opens.
-# Change one or more options. Note that the {{MenuCommand|Bind cells}}, the bound cell range, cannot be changed.
-# Press {{Button|OK}}.
-</div>
+# Klikněte pravým tlačítkem myši na buňku s přiřazenou hodnotou (není nutné označovat celý rozsah s přiřazenými hodnotami) a z kontextového menu vyberte {{MenuCommand|Přiřadit…}}.
+# Otevře se dialogové okno {{MenuCommand|Přiřadit buňky tabulky}}.
+# Změňte jednu nebo více možností. Upozorňujeme, že položku {{MenuCommand|Vázat buňky}}, tedy rozsah vázaných buněk, nelze změnit.
+# Stiskněte {{Button|OK}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Remove binding ===
