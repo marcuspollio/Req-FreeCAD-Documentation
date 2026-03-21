@@ -250,11 +250,9 @@ Tabulky z FreeCADu lze importovat a exportovat do formátu [https://en.wikipedia
 
 Tabulky ve Excel-formátu XLSX lze importovat pomocí příkazu [[Std_Import/cs|Std Import]] nebo [[Std_Open/cs|Std Otevřít]]. Podporovány jsou následující funkce:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* All functions that are also available in the FreeCAD spreadsheet. Other functions give an error in the corresponding cell after import.
-* Alias names for cells.
-* More than one sheet in the Excel-spreadsheet. In this case one FreeCAD spreadsheet is created for each Excel sheet.
-</div>
+* Všechny funkce, které jsou k dispozici i v tabulce FreeCADu. Ostatní funkce po importu vygenerují v příslušné buňce chybu.
+* Aliasy pro buňky.
+* Více než jeden list v tabulce Excelu. V takovém případě se pro každý list Excelu vytvoří jedna tabulka FreeCADu.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Other functionality is not imported into the FreeCAD spreadsheet.
