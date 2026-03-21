@@ -572,7 +572,7 @@ Funkce: {{Version|1.0}}.
 
 Podmíněné výrazy mají tvar {{incode|podmínka ? výsledek_pravda : výsledek_nepravda}}. Podmínka je definována jako výraz, jehož výsledkem je buď {{incode|0}} (nepravda), nebo hodnota odlišná od nuly (pravda). Upozorňujeme, že jakákoli hodnota je vyhodnocena jako nula, pokud platí {{incode|abs(hodnota) < 1e-7}}; v opačném případě je vyhodnocena jako hodnota odlišná od nuly.
 
-Dostupné [https://en.wikipedia.org/wiki/Relational_operator#Standard_relational_operators relační operátory] najdete v sekci[[#Supported_operators/cs|Podporované operátory]].
+Dostupné [https://en.wikipedia.org/wiki/Relational_operator#Standard_relational_operators relační operátory] najdete v sekci [[#Supported_operators/cs|Podporované operátory]].
 
 <span id="Notes"></span>
 ==== Poznámky ====
