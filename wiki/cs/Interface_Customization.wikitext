@@ -132,7 +132,8 @@ Viz [[#Search|Klávesnice]].
 # Zrušte zaškrtnutí políčka před názvem panelu nástrojů v pravém panelu.
 # Deaktivovaný panel nástrojů nebude v rozhraní FreeCADu viditelný.
 
-====Add a command====
+<span id="Add_a_command"></span>
+====Přidání příkazu====
 
 # At least one custom toolbar is required. See [[#Create_a_toolbar|Create a toolbar]].
 # Select the correct toolbar in the panel on the right. If no toolbar is selected, the command will be added to the first toolbar in the list.
