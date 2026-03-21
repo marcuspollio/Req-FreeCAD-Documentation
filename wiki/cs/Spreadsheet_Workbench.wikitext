@@ -79,12 +79,10 @@ Obsah buňky lze upravit tak, že buňku vyberete a zadáte hodnotu do vstupníh
 <span id="Delete_cells"></span>
 == Odstranění buněk ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select one or more cells. To select multiple cells hold down the {{KEY|Ctrl}} key while selecting, or hold down the left mouse button and drag to select a rectangular cell range.
-# Do one of the following:
-#* Press the {{KEY|Delete}} key.
-#* Right-click one of the selected cells and select the {{MenuCommand|[[File:Edit-delete.svg|16px]] Delete}} option from the context menu.
-</div>
+# Vyberte jednu nebo více buněk. Chcete-li vybrat více buněk, podržte při výběru klávesu {{KEY|Ctrl}} nebo podržte levé tlačítko myši a tažením vyberte obdélníkový rozsah buněk.
+# Proveďte jednu z následujících akcí:
+#* Stiskněte klávesu {{KEY|Delete}}.
+#* Klikněte pravým tlačítkem myši na jednu z vybraných buněk a z kontextového menu vyberte možnost {{MenuCommand|[[File:Edit-delete.svg|16px]] Odstranit}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This operation deletes the contents, the properties and the aliases of the cells. To only delete their contents, cells should be [[#Edit_cells|edited]] instead.
