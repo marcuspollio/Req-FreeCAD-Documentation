@@ -13,9 +13,7 @@
 Rozhraní programu FreeCAD je založeno na moderním vývojovém prostředí [https://en.wikipedia.org/wiki/Qt_(toolkit) Qt] a vyznačuje se špičkovou strukturou. Některé aspekty rozhraní lze přizpůsobit. Můžete například přidat vlastní panely nástrojů s nástroji z několika pracovních ploch nebo nástroji definovanými v makrech a můžete si vytvořit vlastní klávesové zkratky. Nabídky a výchozí panely nástrojů, které jsou součástí FreeCADu a jeho pracovních ploch, však nelze měnit.
 
 [[Image:Std_DlgCustomize_tab_Toolbars.png]]
-<div class="mw-translate-fuzzy">
 [[Image:Screenshot-customize.jpg]]
-</div>
 
 ==Usage==
 
