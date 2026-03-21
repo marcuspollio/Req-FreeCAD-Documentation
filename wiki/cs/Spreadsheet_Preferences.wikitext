@@ -20,23 +20,23 @@ Je zde pouze jedna stránka: Tabulka.
 Na této stránce můžete nastavit následující:
 
 {| class="wikitable"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Název
+!style="width: 66%;"|Popis
 |-
-| {{MenuCommand|Delimiter character}}
-|  The character used as field delimiter.
+| {{MenuCommand|Oddělovací znak}}
+|  Znak použitý jako oddělovač polí.
 |-
-| {{MenuCommand|Quote character}}
-|  The character used to delimit strings.
+| {{MenuCommand|Znak uvozovek}}
+|  Znak používaný k oddělení řetězců.
 |-
-| {{MenuCommand|Escape character}}
-|  The character used to prevent the following character from being parsed.
+| {{MenuCommand|Escape znak}}
+|  Znak, který zabraňuje analýze následujícího znaku.
 |-
-| {{MenuCommand|Default zoom level}}
-| The default zoom level for spreadsheets (from 60% to 160%). {{Version|1.1}}
+| {{MenuCommand|Výchozí úroveň zvětšení}}
+| Výchozí úroveň zvětšení pro tabulky (od 60% do 160%). {{Version|1.1}}
 |-
-| {{MenuCommand|Show alias in cell with format}}
-|  If checked, and if the cell has a value and an alias, the alias and value are shown in the given format. {{Value|%V}} is the placeholder for the value and {{Value|%A}} the placeholder for the alias. {{Version|1.0}}
+| {{MenuCommand|Zobrazit alias v buňce s formátem}}
+|  Je-li tato možnost zaškrtnuta a buňka obsahuje hodnotu i alias, zobrazí se alias a hodnota v zadaném formátu. {{Value|%V}} je zástupný symbol pro hodnotu a {{Value|%A}} zástupný symbol pro alias. {{Version|1.0}}
 |}
 
 
