@@ -1386,9 +1386,8 @@ Please note that both mentioned workarounds should be used with caution, and tha
 There is no concept of global variables in FreeCAD at the moment. Instead, arbitrary variables can be defined as cells in a spreadsheet using the [[Spreadsheet Workbench|Spreadsheet workbench]], and then be given a name using the alias property for the cell (right-click on cell). Then they can be accessed from any expression just as any other object property.
 </div>
 {{Top}}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Cross-document linking ==
-</div>
+<span id="Cross-document_linking"></span>
+== Propojení mezi dokumenty ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 It is possible (with limitations) to define a Property of an object in your current document (".FCstd" file) by using an Expression to reference a Property of an object contained in a different document (".FCstd" file). For example, a cell in a spreadsheet or the {{PropertyData|Length}} of a Part Cube, etc. in one document can be defined by an Expression that references the X Placement value or another Property of an object contained in a different document.
