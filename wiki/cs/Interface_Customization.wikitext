@@ -15,7 +15,8 @@ Rozhraní programu FreeCAD je založeno na moderním vývojovém prostředí [ht
 [[Image:Std_DlgCustomize_tab_Toolbars.png]]
 [[Image:Screenshot-customize.jpg]]
 
-==Usage==
+<span id="Usage"></span>
+==Použití==
 
 # The commands available in the Customize dialog box depend on the workbenches that have been loaded in the current FreeCAD session.  So you should first load all workbenches whose commands you want to have access to.
 # There are several ways to invoke the [[Image:Std_DlgCustomize.svg|16px]] [[Std_DlgCustomize|Std DlgCustomize]] command:
