@@ -33,7 +33,8 @@ The '''Std Open''' command opens a file. If the file is not a native FreeCAD fil
 # Select a file.
 # Press the {{Button|Open}} button.
 
-==Options==
+<span id="Options"></span>
+==Volby==
 
 * Press {{KEY|Esc}} or the {{Button|Cancel}} button to abort the command.
 
