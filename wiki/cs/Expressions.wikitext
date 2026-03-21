@@ -1414,10 +1414,8 @@ Of course, it's up to you to load the corresponding documents later when you wan
 <span id="Known_issues_/_remaining_tasks"></span>
 == Známé problémy / zbývající úkoly ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* FreeCAD does not yet have a built-in expression manager where all expressions in a document are listed, and can be created, deleted, queried, etc. But an addon is available: [https://github.com/gbroques/fcxref fcxref expression manager].
-* Open bugs/tickets for Expressions can be found on [https://github.com/FreeCAD/FreeCAD/labels/Topic%3A%20Expressions GitHub].
-</div>
+* FreeCAD zatím neobsahuje zabudovaného správce výrazů, ve kterém by byly uvedeny všechny výrazy v dokumentu a kde by bylo možné je vytvářet, mazat, vyhledávat atd. K dispozici je však doplněk: [https://github.com/gbroques/fcxref fcxref expression manager].
+* Aktuální chyby a požadavky týkající se výrazů najdete na [https://github.com/FreeCAD/FreeCAD/labels/Topic%3A%20Expressions GitHubu].
 {{Top}}
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Scripting ==
