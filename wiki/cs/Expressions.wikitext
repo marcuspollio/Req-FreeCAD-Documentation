@@ -41,18 +41,16 @@ Další informace o odkazování na objekty najdete v článku [[#Reference_to_C
 
 Jsou podporovány následující konstanty:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable"
-!style="width: 33%;"|Constant
-!style="width: 66%;"|Description
+!style="width: 33%;"|Konstanta
+!style="width: 66%;"|Popis
 |-
 | style="text-align:center;" | '''e'''
-| [https://en.wikipedia.org/wiki/E_(mathematical_constant) Euler's number]
+| [https://en.wikipedia.org/wiki/E_(mathematical_constant) Eulerovo číslo]
 |-
 | style="text-align:center;" | '''pi'''
 | [https://en.wikipedia.org/wiki/Pi Pi]
 |}
-</div>
 {{Top}}
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Supported operators ==
