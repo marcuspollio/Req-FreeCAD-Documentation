@@ -723,12 +723,23 @@ webbrowser.open("https://wiki.freecad.org/Online_Help_Toc")
 
 </translate>
 {{Code|code=
-from PySide import QtGui,QtWebKit
-a = QtGui.qApp
-mw = a.activeWindow()
-v = mw.findChild(QtWebKit.QWebFrame)
-html = unicode(v.toHtml())
-print( html)
+##Original code## https://docs.python.org/fr/3/library/urllib.request.html#examples
+#
+from PySide import QtGui
+import urllib.request
+import urllib.parse
+
+textEdit = QtGui.QTextEdit()
+textEdit.resize(600, 200)
+
+data = urllib.parse.urlencode({'spam': 1, 'eggs': 2, 'bacon': 0})
+data = data.encode('ascii')
+with urllib.request.urlopen("http://www.freecad.org/wiki/index.php?title=Macro_FCSpring_Helix_Variable", 0) as f:
+    htmlPage = str(f.read().decode('utf-8'))
+
+textEdit.insertPlainText(htmlPage)
+textEdit.show()
+
 }}
 <translate>
 
