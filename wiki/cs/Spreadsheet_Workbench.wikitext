@@ -224,9 +224,8 @@ Existují tři možnosti, jak tento problém vyřešit:
 #* Nevýhodou je, že model se po změnách v tabulce automaticky nepřepočítá.
 #* V případě, že nejprve otevřete soubor 'tabulky', změníte jednu nebo více hodnot a poté otevřete soubor 'modelu', nic nenaznačuje, že je třeba model přepočítat. Pokud jsou však oba soubory otevřené, ikona [[Std_Refresh/cs|Std Obnovit]] se po provedení změn v souboru 'tabulky' správně aktualizuje pro soubor 'modelu'.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Units ==
-</div>
+<span id="Units"></span>
+== Jednotky ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The Spreadsheet has a notion of dimension (units) associated with cell values. A number entered without an associated unit has no dimension. The unit should be entered immediately following the number value, with no intervening space. If a number has an associated unit, that unit will be used in all calculations. For example, the multiplication of two lengths with the unit mm gives an area with the unit mm&sup2;.
