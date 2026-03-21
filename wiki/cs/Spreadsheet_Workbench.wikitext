@@ -256,9 +256,8 @@ Tabulky ve Excel-formátu XLSX lze importovat pomocí příkazu [[Std_Import/cs|
 
 Ostatní funkce se do tabulky FreeCADu neimportují.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Printing ==
-</div>
+<span id="Printing"></span>
+== Tisk ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To handle the page setup necessary for printing, FreeCAD spreadsheets are printed by inserting them into a [[TechDraw_SpreadsheetView|TechDraw Spreadsheet View]].
