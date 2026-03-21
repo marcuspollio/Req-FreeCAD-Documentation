@@ -177,21 +177,19 @@ Následující tabulka uvádí několik příkladů za předpokladu, že model o
 
 Chcete-li použít data z tabulky v jiných částech programu FreeCAD, obvykle vytvoříte [[Expressions/cs|výraz]], který odkazuje na tabulku a buňku obsahující data, která chcete použít. Tabulky můžete identifikovat podle názvu nebo štítku a buňky podle adresy nebo aliasu. Pro všechny způsoby odkazování je k dispozici funkce automatického doplňování.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {|{{Prettytable}}
  !
- !Spreadsheet by Name
- !Spreadsheet by Label
+ !Tabulka podle názvu
+ !Tabulka podle návěstí
  |-
- !Cell by Address
+ !Buňka podle adresy
  |{{incode|<nowiki>=Spreadsheet042.B5</nowiki>}}
  |{{incode|<nowiki>=<<MySpreadsheet>>.B5</nowiki>}}
  |-
- !Cell by Alias
+ !Buňka podle Alias
  |{{incode|<nowiki>=Spreadsheet042.MyAlias</nowiki>}}
  |{{incode|<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>}}
  |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 <div class="mw-collapsible mw-collapsed">
