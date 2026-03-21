@@ -6,9 +6,7 @@
 
 Vlastnosti lze definovat pomocí matematických výrazů. V grafickém uživatelském rozhraní se u rolovacích polí nebo vstupních polí, která jsou vázána na vlastnosti, po aktivaci zobrazí modrá ikona [[Image:Bound-expression.svg|16px]]. Kliknutím na ikonu nebo zadáním znaménka rovnosti {{KEY|&#61;}} se otevře editor výrazů pro danou vlastnost. Pokud se ve vstupním poli místo ikony zobrazuje tlačítko {{Button|...}}, lze editor výrazů otevřít kliknutím pravým tlačítkem myši na vlastnost a výběrem položky {{MenuCommand|Výraz}} z kontextového menu.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-A FreeCAD expression is a mathematical expression using the standard mathematical [[#Supported_operators|operators]], [[#Supported_functions|functions]] and [[#Supported_constants|predefined constants]] as described below. In addition, the expression may reference object properties, and also use [[#Conditional_expressions|conditionals]]. Numbers in an expression may have an optional [[#Units|unit]] attached to them.
-</div>
+Výraz ve FreeCADu je matematický výraz využívající standardní matematické [[#Supported_operators|operátory]], [[#Supported_functions|funkce]] a [[#Supported_constants|předdefinované konstanty]], jak je popsáno níže. Kromě toho může výraz odkazovat na vlastnosti objektů a také používat [[#Conditional_expressions|podmínky]]. Čísla ve výrazu mohou mít připojenou volitelnou [[#Jednotky|jednotku]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Numbers may use either a comma {{incode|,}} or a decimal point {{incode|.}} to separate whole digits from decimals. When the decimal marker is used, it ''must'' be followed by at least one digit. Thus, the expressions {{incode|1. + 2.}} and {{incode|1, + 2,}} are invalid, but {{incode|1.0 + 2.0}} and {{incode|1,0 + 2,0}} are valid.
