@@ -15,7 +15,7 @@ Tyto objekty nemusí být nutně geometrické tvary viditelné ve [[3D_View/cs|3
 <span id="Working_with_the_Tree_View"></span>
 == Práce se stromovým zobrazením ==
 
-Ve výchozím nastavení se každý nový objekt po vytvoření přidá na konec seznamu v zobrazení stromové struktury. Zobrazení stromu umožňuje spravovat objekty tak, aby byly přehledně uspořádány; umožňuje vytvářet [[Std_Group|skupiny]], přesouvat objekty uvnitř skupin, přesouvat skupiny uvnitř jiných skupin, přejmenovávat objekty, kopírovat objekty, mazat objekty a používat položky z jeho [[#Context_menu|kontextového menu]].
+Ve výchozím nastavení se každý nový objekt po vytvoření přidá na konec seznamu v zobrazení stromové struktury. Zobrazení stromu umožňuje spravovat objekty tak, aby byly přehledně uspořádány; umožňuje vytvářet [[Std_Group/cs|skupiny]], přesouvat objekty uvnitř skupin, přesouvat skupiny uvnitř jiných skupin, přejmenovávat objekty, kopírovat objekty, mazat objekty a používat položky z jeho [[#Context_menu|kontextového menu]].
 
 Mnoho operací vytváří objekty, které jsou závislé na již existujícím objektu. V tomto případě stromová struktura zobrazuje tento vztah tak, že starší objekt je absorbován do nového objektu. Rozbalením a sbalením objektů ve stromovém pohledu se zobrazí parametrická historie daného objektu. Objekty, které jsou hlouběji uvnitř jiných, jsou starší, zatímco objekty, které jsou vně, jsou novější a jsou odvozeny od starších objektů. Úpravou vnitřních objektů se parametrické operace šíří až nahoru a generují nový výsledek.
 
