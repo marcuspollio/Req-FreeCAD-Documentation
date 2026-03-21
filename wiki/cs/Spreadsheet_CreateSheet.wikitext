@@ -9,10 +9,10 @@
 |IconC=Workbench_Spreadsheet.svg
 }}
 
-{{GuiCommand
-|Name=Spreadsheet CreateSheet
-|MenuLocation=Spreadsheet → New Spreadsheet
-|Workbenches=[[Spreadsheet_Workbench|Spreadsheet]]
+{{GuiCommand/cs
+|Name=Spreadsheet Vytvoření listu
+|MenuLocation=Tabulka → New Spreadsheet
+|Workbenches=[[Spreadsheet_Workbench/cs|Spreadsheet]]
 |Version=0.17
 }}
 
