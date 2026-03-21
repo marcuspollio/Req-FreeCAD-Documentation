@@ -261,9 +261,8 @@ Ostatní funkce se do tabulky FreeCADu neimportují.
 
 Aby bylo možné provést nastavení stránky potřebné pro tisk, tisknou se tabulky z FreeCADu tak, že se vloží do [[TechDraw_SpreadsheetView/cs|TechDraw zobrazení tabulky]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Current limitations ==
-</div>
+<span id="Current_limitations"></span>
+== Aktuální omezení ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 FreeCAD checks for cyclic dependencies when it recomputes. By design, that check stops at the level of the spreadsheet object. As a consequence, you should not have a spreadsheet which contains both cells whose values are used to specify parameters to the model, and cells whose values use output from the model. For example, you cannot have cells specifying the length, width, and height of an object, and another cell which references the total volume of the resulting shape. This restriction can be surmounted by having two spreadsheets: one used as a data-source for input parameters to the model and the other used for calculations based on resultant geometry-data.
