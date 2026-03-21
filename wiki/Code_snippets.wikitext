@@ -756,22 +756,23 @@ textEdit.show()
 import Part, FreeCAD, math, PartGui, FreeCADGui
 from FreeCAD import Base, Console
 sel = FreeCADGui.Selection.getSelection() # " sel " contains the items selected
-if len(sel)!=3 :
-  # If there are no 3 objects selected, an error is displayed in the report view
-  # The \r and \n at the end of line mean return and the newline CR + LF.
-  Console.PrintError("Select 3 points exactly\r\n")
-else :
-  points=[]
-  for obj in sel:
-    points.append(obj.Shape.BoundBox.Center)
+if len(sel)!=3:
+    # If there are no 3 objects selected, an error is displayed in the report view
+    # The \r and \n at the end of line mean return and the newline CR + LF.
+    Console.PrintError("Select 3 points exactly\r\n")
+else:
+    points=[]
+    for obj in sel:
+        points.append(obj.Shape.BoundBox.Center)
 
-  for pt in points:
-    # display of the coordinates in the report view
-    Console.PrintMessage(str(pt.x)+"\r\n")
-    Console.PrintMessage(str(pt.y)+"\r\n")
-    Console.PrintMessage(str(pt.z)+"\r\n")
+    for pt in points:
+        # display of the coordinates in the report view
+        Console.PrintMessage(str(pt.x)+"\r\n")
+        Console.PrintMessage(str(pt.y)+"\r\n")
+        Console.PrintMessage(str(pt.z)+"\r\n")
 
-  Console.PrintMessage(str(pt[1]) + "\r\n")
+    Console.PrintMessage(str(pt[1]) + "\r\n")
+
 }}
 <translate>
 
