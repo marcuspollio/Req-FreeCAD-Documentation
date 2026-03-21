@@ -574,9 +574,8 @@ Podmíněné výrazy mají tvar {{incode|podmínka ? výsledek_pravda : výslede
 
 Dostupné [https://en.wikipedia.org/wiki/Relational_operator#Standard_relational_operators relační operátory] najdete v sekci[[#Supported_operators/cs|Podporované operátory]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Notes ===
-</div>
+<span id="Notes"></span>
+==== Poznámky ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * {{VersionMinus|1.0}}: To use a boolean property as the condition this syntax must be used: {{incode|VarSet.MyBool &#61;&#61; 1 ? 10 mm : 15 mm}}.
