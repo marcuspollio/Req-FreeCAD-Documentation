@@ -570,9 +570,7 @@ Funkce: {{Version|1.0}}.
 <span id="Conditional_expressions"></span>
 == Podmíněné výrazy ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Conditional expressions are of the form {{incode|condition ? resultTrue : resultFalse}}. The condition is defined as an expression that evaluates to either {{incode|0}} (false) or non-zero (true). Note that any value is evaluated as zero if {{incode|abs(value) < 1e-7}}, else it is evaluated as non-zero.
-</div>
+Podmíněné výrazy mají tvar {{incode|podmínka ? výsledek_pravda : výsledek_nepravda}}. Podmínka je definována jako výraz, jehož výsledkem je buď {{incode|0}} (nepravda), nebo hodnota odlišná od nuly (pravda). Upozorňujeme, že jakákoli hodnota je vyhodnocena jako nula, pokud platí {{incode|abs(hodnota) < 1e-7}}; v opačném případě je vyhodnocena jako hodnota odlišná od nuly.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 See [[#Supported_operators|Supported operators]] for the available [https://en.wikipedia.org/wiki/Relational_operator#Standard_relational_operators relational operators].
