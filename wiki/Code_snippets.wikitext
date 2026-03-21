@@ -1819,6 +1819,8 @@ Note, that body might be None, if no active body is selected and that the Select
 
 </translate>
 {{Code|code=
+import Part, PartDesign, Sketcher
+
 body = Gui.ActiveDocument.ActiveView.getActiveObject('pdbody')
 first_selection = Gui.Selection.getSelectionEx()[0]
 
@@ -1828,9 +1830,10 @@ face_name = first_selection.SubElementNames[0]
 sketch = App.ActiveDocument.addObject('Sketcher::SketchObject','MySketch')
 body.addObject(sketch)
 sketch.MapMode = 'FlatFace'
-sketch.Support = (feature, face_name)
+sketch.AttachmentSupport = (feature, face_name)
 
 App.ActiveDocument.recompute()
+
 }}
 <translate>
 
