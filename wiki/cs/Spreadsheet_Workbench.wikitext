@@ -117,9 +117,7 @@ Jak naznačují záložky, lze změnit následující vlastnosti:
 
 Buňka tabulky může obsahovat číslo, text nebo výraz. Výrazy musí začínat rovnítkem '='.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Cell expressions may contain numbers, functions, references to other cells, and references to properties of the model (But see [[#Current_limitations|Current limitations]] below). A cell can be referenced by its address (capital column letter + row number, e.g. B4) or by its [[Spreadsheet_SetAlias|alias]].
-</div>
+Výrazy v buňkách mohou obsahovat čísla, funkce, odkazy na jiné buňky a odkazy na vlastnosti modelu (viz však níže uvedená sekced [[#Current_limitations|Aktuální omezení]]). Na buňku lze odkazovat pomocí její adresy (velké písmeno sloupce + číslo řádku, např. B4) nebo pomocí jejího [[Spreadsheet_SetAlias/cs|aliasu]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''Note:''' Cell expressions are treated by FreeCAD as programming code. Therefore, when you edit a cell the content you see may not follow your display settings:
