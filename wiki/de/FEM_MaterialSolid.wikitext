@@ -13,10 +13,10 @@
 {{GuiCommand/de
 |Name=FEM MaterialSolid
 |Name/de=FEM MaterialFeststoff
-|MenuLocation=Modell → Materiallien → Material für Feststoffe
+|MenuLocation=Modell → Materialien → Feststoff
 |Workbenches=[[FEM_Workbench/de|FEM]]
 |Shortcut={{KEY|M}} {{KEY|S}}
-|SeeAlso=[[FEM_tutorial/de|FEM Tutorium]]
+|SeeAlso=[[FEM_tutorial/de|FEM Anleitung]]
 }}
 {{GuiCommandFemInfo/de
 |Solvers=Alle
