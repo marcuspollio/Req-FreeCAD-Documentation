@@ -18,7 +18,7 @@
 
 ==Description==
 
-La commande '''Forme à partir du maillage''' crée des objets [[Mesh/fr|maillés]] non paramétriques, [[Mesh_Feature/fr|Mesh Features]], à partir d'objets [[Shape/fr|shape]] ([[Part_Feature/fr|Part Features]]).
+La commande '''Maillage à partir d'une forme''' crée des objets [[Mesh/fr|maillés]] non paramétriques, [[Mesh_Feature/fr|Mesh Features]], à partir d'objets [[Shape/fr|shape]] ([[Part_Feature/fr|Part Features]]).
 
 Cette commande est le pendant de la commande [[Part_ShapeFromMesh/fr|Part Forme à partir du maillage]].
 
