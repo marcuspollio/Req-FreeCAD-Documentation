@@ -342,9 +342,7 @@ Following example {{incode|<<MY>> + <<TEXT>>}} will be concatenated to "MYTEXT".
 <span id="String_conversion"></span>
 ==== Konverze řetězců ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Numerical values can be converted to strings with the {{incode|str}} function:
-</div>
+Číselné hodnoty lze převést na řetězce pomocí funkce {{incode|str}}:
 
 {{incode|str(Box.Length.Value)}}
 
