@@ -1510,7 +1510,8 @@ for i in p1:
     ii+=1
     print( i )                                             # Vector()
     print( ii, ": X:", i.x, " Y:", i.y, " Z:", i.z )       # Vector decode
-Draft.makeWire(p1,closed=False,face=False,support=None)    # to see the difference accuracy (20)
+
+Draft.make_wire(p1,closed=False,face=False,support=None)    # to see the difference accuracy (20)
 
 ## uncomment to use
 #import Draft
@@ -1536,6 +1537,7 @@ Draft.make_wire(p2,closed=False,face=False,support=None)  # to see the differenc
 #Draft.downgrade(App.ActiveDocument.ActiveObject,delete=True)  # second split the Wire in single objects   "downgrade"
 #
 ##Draft.upgrade(FreeCADGui.Selection.getSelection(),delete=True) # to attach lines contiguous SELECTED use "upgrade"
+
 
 }}
 <translate>
