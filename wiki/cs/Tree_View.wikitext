@@ -70,7 +70,7 @@ V zobrazení stromové struktury lze nad výchozí ikonou objektu zobrazit jednu
 <span id="File:FreeCAD_Tree_view_recompute.png_White_check_mark_on_blue_background"></span>
 === [[File:FreeCAD_Tree_view_recompute.png]] Bílá zaškrtávací značka na modrém pozadí ===
 
-To znamená, že objekt musí být [[Std_Refresh|přepočítán]], a to buď z důvodu změn provedených v modelu nebo proto, že uživatel v kontextovém menu stromového zobrazení označil objekt k přepočítání. Ve většině případů se přepočty spouštějí automaticky, ale někdy jsou z důvodu výkonu zpožděny.
+To znamená, že objekt musí být [[Std_Refresh/cs|přepočítán]], a to buď z důvodu změn provedených v modelu nebo proto, že uživatel v kontextovém menu stromového zobrazení označil objekt k přepočítání. Ve většině případů se přepočty spouštějí automaticky, ale někdy jsou z důvodu výkonu zpožděny.
 
 <span id="File:FreeCAD_Tree_view_error.png_White_exclamation_mark_on_red_background"></span>
 === [[File:FreeCAD_Tree_view_error.png]] Bílý vykřičník na červeném pozadí ===
