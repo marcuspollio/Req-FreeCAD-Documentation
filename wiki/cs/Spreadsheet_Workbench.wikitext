@@ -119,11 +119,9 @@ Buňka tabulky může obsahovat číslo, text nebo výraz. Výrazy musí začín
 
 Výrazy v buňkách mohou obsahovat čísla, funkce, odkazy na jiné buňky a odkazy na vlastnosti modelu (viz však níže uvedená sekced [[#Current_limitations|Aktuální omezení]]). Na buňku lze odkazovat pomocí její adresy (velké písmeno sloupce + číslo řádku, např. B4) nebo pomocí jejího [[Spreadsheet_SetAlias/cs|aliasu]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''Note:''' Cell expressions are treated by FreeCAD as programming code. Therefore, when you edit a cell the content you see may not follow your display settings:
-* The decimal separator is always a dot. But commas can also be used when entering values.
-* The number of displayed decimals can differ from your [[Preferences_Editor#Units|preferences settings]].
-</div>
+'''Poznámka:''' FreeCAD zachází s výrazem v buňkách jako s programovacím kódem. Při úpravách buňky se proto může stát, že zobrazený obsah nebude odpovídat vašim nastaveným zobrazením:
+* Jako oddělovač desetinných míst se vždy používá tečka. Při zadávání hodnot lze však použít i čárky.
+* Počet zobrazených desetinných míst se může lišit podle nastavení [[Preferences_Editor/cs#Units|v předvolbách]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 References to objects in the model are explained under [[#References_to_CAD-data|References to CAD-data]] below. Using spreadsheet cell values to define model properties are explained under [[#Spreadsheet_data_in_expressions|Spreadsheet data in expressions]] below. For more information on expressions and the available functions, see [[Expressions|Expressions]].
