@@ -1228,16 +1228,14 @@ In cases where you cannot use a label, such as the name of a sketch's constraint
 <span id="Labels"></span>
 ===Štítky===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For [[Object_name#Label|labels]] there are no invalid characters, however some characters need to be escaped:
+U [[Object_name/cs#Label|popisků]] neexistují žádné neplatné znaky, některé znaky je však třeba escapovat:
 {| class="wikitable"
-!style="width: 33%;"|Characters
-!style="width: 66%;"|Description
+!style="width: 33%;"|Znaky
+!style="width: 66%;"|Popis
 |-
 | {{incode|'}}, {{incode|\}}, {{incode|"}}
-| Need to be escaped by adding {{incode|\}} in front of them.
+| Je třeba ho escapovat přidáním {{incode|\}} před něho.
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 For example, the label {{incode|Sketch\002}} must be referenced as {{incode|<<Sketch\\002>>}}.
