@@ -123,8 +123,8 @@ Il est donc recommandé d'ajouter les cotes lorsque le modèle 3D n'est plus mod
 <span id="Notes"></span>
 ==Remarques==
 
-* '''Sélection d'un bord'''. Les bords peuvent être difficiles à sélectionner. Vous pouvez ajuster la zone de sélection des bords en modifiant la préférence [[TechDraw_Preferences/fr#Avancé|Sélection autour des bords]].
-* '''Position des décimales'''. Les cotes utilisent le paramètre de nombre total de décimales par défaut. Cela peut être changé via les [[TechDraw_Preferences/fr#Dimensions/fr|préférences]] ou en modifiant la propriété FormatSpec.
+* '''Sélection d'une arête'''. Les arêtes peuvent être difficiles à sélectionner. Vous pouvez ajuster la zone de sélection des arêtes en modifiant la préférence [[TechDraw_Preferences/fr#Avancé|Zone de sélection autour des arêtes]].
+* '''Position des décimales'''. Par défaut, les cotes utilisent le paramètre global de décimales. Cela peut être changé via les [[TechDraw_Preferences/fr#Dimensions/fr|préférences]] ou en modifiant la propriété FormatSpec.
 
 <span id="Properties"></span>
 ==Propriétés==
