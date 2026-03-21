@@ -106,13 +106,11 @@ Vlastnosti buňky tabulky lze upravit tak, že na ni kliknete pravým tlačítke
 
 Jak naznačují záložky, lze změnit následující vlastnosti:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Color: Text color and background color
-* Alignment: Text horizontal and vertical alignment 
-* Style: Text style: bold, italic, underline
-* Units: Display units for this cell.  Please read the [[#Units|Units]] section below.
-* Alias: Define an [[Spreadsheet_SetAlias|alias]] for this cell. This alias can be used in cell formulas and also in general [[Expressions|expressions]]; see section [[#Spreadsheet_data_in_expressions|Spreadsheet data in expressions]] for more information.
-</div>
+* Barva: Barva textu a pozadí
+* Zarovnání: vodorovné a svislé zarovnání textu 
+* Styl: Styl textu: tučný, kurzíva, podtržení
+* Jednotky: Jednotky zobrazení pro tuto buňku.  Přečtěte si prosím níže uvedenou sekci [[#Units|Jednotky]].
+* Alias: Definujte pro tuto buňku [[Spreadsheet_SetAlias/cs|alias]]. Tento alias lze použít ve vzorcích buněk i v obecných [[Expressions/cs|výrazech]]; další informace najdete v sekci [[#Spreadsheet_data_in_expressions|Data tabulky ve výrazech]].
 
 <span id="Cell_expressions"></span>
 == Výrazy buněk ==
