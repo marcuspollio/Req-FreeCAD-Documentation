@@ -22,7 +22,7 @@
 
 La commande [[Image:Part_ShapeFromMesh.svg|24px]] '''Part Forme à partir du maillage''' crée des formes à partir d'[[Mesh/fr|objets Mesh]]. Les objets Mesh ont des capacités d'édition limitées dans FreeCAD, les convertir en [[Shape/fr|formes]] permettra de les utiliser avec bien plus d'outils booléens et de modifications.
 
-L'opération inverse est [[Mesh_FromPartShape/fr|Mesh Forme à partir d'un maillage]] de l'[[File:Workbench_Mesh.svg|16px]] [[Mesh_Workbench/fr|atelier Mesh]].
+L'opération inverse est [[Mesh_FromPartShape/fr|Mesh Maillage à partir d'une forme]] de l'[[File:Workbench_Mesh.svg|16px]] [[Mesh_Workbench/fr|atelier Mesh]].
 
 <span id="Usage"></span>
 ==Utilisation==
