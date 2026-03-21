@@ -573,16 +573,14 @@ tab2.show()
 <span id="Enable_or_disable_a_window"></span>
 ===Activer ou désactiver une fenêtre===
 
-<div class="mw-translate-fuzzy">
 Ce script donne la possibilité de manipuler l'interface utilisateur à partir de la [[Python_Console/fr|console Python]] pour afficher/masquer les différents composants dans de l'[[Interface/fr|interface]] de FreeCAD tels que :
-* [[Report_View/fr|Vue rapport]]
-* [[Tree_View/fr|vue en arborescence]]
-* [[Property_View/fr|Éditeur de propriétés]]
-* [[Selection_View/fr|Fenêtre de sélection]]
-* [[Combo_View/fr|Vue combinée]]
-* [[Python_Console/fr|console Python]]
+* [[Report_View/fr|Report View]]
+* [[Tree_View/fr|Tree View]]
+* [[Property_View/fr|Property View]]
+* [[Selection_View/fr|Selection View]]
+* [[Combo_View/fr|Model]]
+* [[Python_Console/fr|Python Console]]
 * draftToolbar
-</div>
 
 {{Code|code=
 from PySide import QtGui
