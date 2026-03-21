@@ -163,7 +163,8 @@ Viz [[#Search|Klávesnice]].
 * Panely nástrojů patřící k aktuálnímu pracovnímu prostředí se aktualizují okamžitě, ale po deaktivaci či opětovné aktivaci panelu nástrojů je nutné změnit pracovní prostředí (přepnout na jiné pracovní prostředí a poté se vrátit zpět).
 * K aktualizaci globálních panelů nástrojů je nutná změna v pracovním prostředí (pokud byly příkazy přidány nebo odstraněny) nebo restart (pokud se změnilo pořadí panelu nástrojů nebo byl panel přejmenován).
 {{Top}}
-===Macros===
+<span id="Macros"></span>
+===Makra===
 
 [[Image:Std_DlgCustomize_tab_Macros.png]]
 {{Caption|The Macros tab}}
