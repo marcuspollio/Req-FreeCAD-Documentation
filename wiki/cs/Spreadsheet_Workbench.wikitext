@@ -74,9 +74,7 @@ Upozorňujeme, že smazání nebo odstranění buněk s daty může způsobit po
 <span id="Edit_cells"></span>
 == Editace buněk ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The content of a cell can be edited by selecting the cell and entering a value in the {{MenuCommand|Content}} inputbox at the top of the window. To edit a cell in-place, select it and press {{KEY|F2}}, or double-click it.
-</div>
+Obsah buňky lze upravit tak, že buňku vyberete a zadáte hodnotu do vstupního pole {{MenuCommand|Content}} v horní části okna. Chcete-li buňku upravit přímo na místě, vyberte ji a stiskněte klávesu {{KEY|F2}} nebo na ni dvakrát klikněte.
 
 <span id="Delete_cells"></span>
 == Odstranění buněk ==
