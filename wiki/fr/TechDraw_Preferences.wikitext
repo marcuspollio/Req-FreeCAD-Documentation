@@ -164,15 +164,15 @@ Tous les préférences avec des étiquettes en ''italiques'' sont des valeurs pa
 * '''Afficher une surbrillance autour des zones de détail''' : cette case à cocher permet d'afficher ou non une surbrillance autour de la zone de détail dans la vue source du détail. {{Version/fr|1.0}}
 * '''Forme des bulles''' : forme des [[TechDraw_Balloon/fr|bulles]].
 * '''Extrémité des bulles''' : style par défaut pour des extrémités des bulles, voir [[TechDraw_Balloon/fr#Propriétés|Propriétés des bulles]].
-* '''Longueur du pli de la ligne de référence des bulles''' : longueur du pli de la ligne de référence des bulles.
+* '''Longueur du pli des lignes de référence des bulles''' : longueur du pli de la ligne de référence des bulles.
 * '''Bulle en forme de triangle rectangle''' : si '''Extrémité des bulles''' est mis à ''Triangle'', le triangle ne peut avoir une direction verticale ou horizontale que lorsque la bulle est déplacée.
 * '''Ligne de repère horizontale automatique''' : force le dernier segment de la [[TechDraw_LeaderLine/fr|ligne de repère]] à être horizontal.
-* '''Type de rupture de la vue interrompue''' : type de rupture par défaut utilisé pour indiquer les [[TechDraw_BrokenView/fr|vues interrompues]] : {{Version/fr|1.0}}
+* '''Type de rupture des vues interrompues''' : type de rupture par défaut utilisé pour indiquer les [[TechDraw_BrokenView/fr|vues interrompues]] : {{Version/fr|1.0}}
 ** ''Aucune ligne d'interruption''
 ** ''Lignes en zigzag''
 ** ''Lignes simples''
-* '''Afficher les marques des centres''' : affiche les marques de centre d'arc dans les vues.
-* '''Imprimer les marques des centres''' : affiche les centres des arcs à l'impression.
+* '''Afficher les marques des centres''' : affiche les marques des centres des arcs dans les vues.
+* '''Imprimer les marques des centres''' : insère les centres des arcs à l'impression.
 * '''Appliquer le format de date ISO 8601''' : remplit automatiquement les champs de date du modèle au format aaaa-mm-jj, même si ce n'est pas le format standard pour les paramètres régionaux en cours.
 
 <span id="Lines"></span>
