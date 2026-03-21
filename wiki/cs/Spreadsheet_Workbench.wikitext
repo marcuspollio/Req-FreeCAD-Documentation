@@ -264,9 +264,7 @@ Aby bylo možné provést nastavení stránky potřebné pro tisk, tisknou se ta
 <span id="Current_limitations"></span>
 == Aktuální omezení ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-FreeCAD checks for cyclic dependencies when it recomputes. By design, that check stops at the level of the spreadsheet object. As a consequence, you should not have a spreadsheet which contains both cells whose values are used to specify parameters to the model, and cells whose values use output from the model. For example, you cannot have cells specifying the length, width, and height of an object, and another cell which references the total volume of the resulting shape. This restriction can be surmounted by having two spreadsheets: one used as a data-source for input parameters to the model and the other used for calculations based on resultant geometry-data.
-</div>
+FreeCAD při přepočítávání kontroluje cyklické závislosti. Tato kontrola je záměrně omezena na úroveň objektu tabulky. Z tohoto důvodu byste neměli mít tabulku, která obsahuje jak buňky, jejichž hodnoty se používají k zadání parametrů modelu, tak buňky, jejichž hodnoty využívají výstupy z modelu. Například nelze mít buňky, které určují délku, šířku a výšku objektu, a zároveň další buňku, která odkazuje na celkový objem výsledného tvaru. Toto omezení lze obejít použitím dvou tabulek: jedna slouží jako zdroj dat pro vstupní parametry modelu a druhá pro výpočty založené na výsledných geometrických datech.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Cell binding ==
