@@ -126,7 +126,8 @@ Viz [[#Search|Klávesnice]].
 # Vyberte panel nástrojů v pravém panelu.
 # Stiskněte tlačítko {{Button|Odstranit}}.
 
-====Disable a toolbar====
+<span id="Disable_a_toolbar"></span>
+====Zakázání panelu nástrojů====
 
 # Uncheck the checkbox in front of the toolbar name in the panel on the right.
 # A disabled toolbar will be invisible in the FreeCAD interface.
