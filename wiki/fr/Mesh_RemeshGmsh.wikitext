@@ -30,7 +30,7 @@ La commande '''Remailler avec Gmsh''' remaille un objet maillé en utilisant le 
 #* Appuyez sur le bouton {{Button|[[Image:Mesh_RemeshGmsh.svg|16px]] [[Mesh_RemeshGmsh/fr|Remailler]]}}
 #* Sélectionnez l'option {{MenuCommand|Maillages → [[Image:Mesh_RemeshGmsh.svg|16px]] Remailler}} du menu.
 # Le panneau des tâches {{MenuCommand|Remaillage par Gmsh}} s'ouvre.
-# Spécifiez les paramètres requis. Voir la [[Mesh_FromPartShape/fr#Mailleur_Gmsh|configuration du mailleur Gmsh]] de la commande [[Mesh_FromPartShape/fr|Mesh Créer un maillage]].
+# Spécifiez les paramètres requis. Voir la [[Mesh_FromPartShape/fr#Mailleur_Gmsh|configuration du mailleur Gmsh]] de la commande [[Mesh_FromPartShape/fr|Mesh Maillage à partir d'une forme]].
 # Appuyez sur le bouton {{Button|Appliquer}} pour remailler l'objet maillé.
 # Modifiez un ou plusieurs paramètres et appuyez à nouveau sur le bouton {{Button|Appliquer}} jusqu'à ce que le nouveau maillage vous convienne.
 # Appuyez sur le bouton {{Button|Fermer}} pour fermer le panneau des tâches et terminer la commande.
