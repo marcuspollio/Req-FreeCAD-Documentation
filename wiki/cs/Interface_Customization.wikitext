@@ -44,10 +44,10 @@ Na této záložce lze definovat vlastní klávesové zkratky. Zkratky pro makra
 
 Příkazy můžete vyhledávat tak, že do vyhledávacího pole zadáte alespoň 3 znaky z jejich názvu v menu. Při vyhledávání se nerozlišují velká a malá písmena.
 
-It is also possible to search for shortcuts:
-* In the search field special keys in shortcuts must be entered as strings. For example to search for commands that use {{KEY|Ctrl}} in their shortcut enter {{Value|ctrl}} (4 letters).
-* Add parenthesis to search for single character shortcuts, for example: {{Value|(c)}}.
-* Add a comma and space between the characters of multi-character shortcuts, for example: {{Value|g, b, b}}.
+Je také možné vyhledávat klávesové zkratky:
+* Do vyhledávacího pole je třeba zadávat speciální klávesy v klávesových zkratkách jako řetězce. Chcete-li například vyhledat příkazy, které ve své klávesové zkratce používají {{KEY|Ctrl}}, zadejte {{Value|ctrl}} (4 písmena).
+* Chcete-li vyhledat zkratky pro jednotlivé znaky, přidejte závorky, například: {{Value|(c)}}.
+* Mezi znaky víceznakových zkratek vložte čárku a mezeru, například: {{Value|g, b, b}}.
 
 ====Add a shortcut====
 
