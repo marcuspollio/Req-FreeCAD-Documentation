@@ -846,6 +846,7 @@ class SelObserver:
 
     def clearSelection(self,doc):                         # If click on the screen, clear the selection
         App.Console.PrintMessage("clearSelection"+ "\n")  # If click on another object, clear the previous object
+
 s =SelObserver()
 FreeCADGui.Selection.addObserver(s)                       # install the function mode resident
 #FreeCADGui.Selection.removeObserver(s)                   # Uninstall the resident function
