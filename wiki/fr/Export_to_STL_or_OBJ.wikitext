@@ -43,7 +43,7 @@ Vous pouvez utiliser votre propre fichier FreeCAD, mais vous pouvez aussi créer
 # Basculez vers l'[[Image:Workbench_Mesh.svg|24px]] [[Mesh_Workbench/fr|Atelier Mesh]].
 # Sélectionnez le solide à mailler dans l'arborescence.
 # Choisissez {{MenuCommand|Maillages}} → {{KEY|[[Image:Mesh_FromPartShape.svg|24px]] Créer un maillage à partir d'une forme}} à partir du menu principal (supérieur).
-# Sélectionnez l'un des mailleurs disponibles et spécifiez les options disponibles. Pour plus d'informations, voir [[Mesh_FromPartShape/fr|Mesh Forme à partir du maillage‏‎]].
+# Sélectionnez l'un des mailleurs disponibles et spécifiez les options disponibles. Pour plus d'informations, voir [[Mesh_FromPartShape/fr|Mesh Maillage à partir d'une forme‏‎]].
 # Choisissez {{Button|OK}}. L'objet maillé sera créé dans l'arborescence (avec l'icône de maillage verte [[Image:Workbench_Mesh.svg|24px]]).
 # Cliquez avec le bouton droit de la souris sur l’objet maillé dans l’arborescence et choisissez {{MenuCommand|[[Image:Mesh_ExportMesh.png|32px]] Exporter le maillage}}.
 # Remplissez le nom du fichier. L'extension n'est pas nécessaire. L'extension sera définie en fonction du type de fichier. Si vous incluez une extension qui ne correspond pas au type de fichier sélectionné, une extension pour le type sélectionné sera ajoutée lors de l'enregistrement du fichier.
