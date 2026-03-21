@@ -7,7 +7,8 @@
 
 {{TOCright}}
 
-==Introduction==
+<span id="Introduction"></span>
+==Úvod==
 
 <div class="mw-translate-fuzzy">
 Protože grafické rozhraní FreeCADu je založeno na moderním toolkitu  [http://en.wikipedia.org/wiki/Qt_(toolkit) Qt], má nejvyšší úroveň organizace. Widgety, menu, nástrojové pruhy a další nástroje mohou být modifikovány, přesunovány, sdíleny mezi pracovními plochami, mohou být nastavovány a modifikovány klávesové zkratky a mohou být zaznamenávána a přehrávána makra. Okno pro nastavení je přístupné z menu '''Nástroje -> Nastavení'''
