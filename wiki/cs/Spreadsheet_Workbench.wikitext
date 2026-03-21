@@ -84,9 +84,7 @@ Obsah buňky lze upravit tak, že buňku vyberete a zadáte hodnotu do vstupníh
 #* Stiskněte klávesu {{KEY|Delete}}.
 #* Klikněte pravým tlačítkem myši na jednu z vybraných buněk a z kontextového menu vyberte možnost {{MenuCommand|[[File:Edit-delete.svg|16px]] Odstranit}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This operation deletes the contents, the properties and the aliases of the cells. To only delete their contents, cells should be [[#Edit_cells|edited]] instead.
-</div>
+Tato operace odstraní obsah, vlastnosti a aliasy buněk. Chcete-li odstranit pouze jejich obsah, je třeba buňky místo toho [[#Edit_cells|upravit]].
 
 <span id="Cut,_copy_and_paste_cells"></span>
 == Vyjmutí, kopírování a vložení buněk ==
