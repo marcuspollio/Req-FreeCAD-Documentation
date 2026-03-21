@@ -227,9 +227,7 @@ Existují tři možnosti, jak tento problém vyřešit:
 <span id="Units"></span>
 == Jednotky ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The Spreadsheet has a notion of dimension (units) associated with cell values. A number entered without an associated unit has no dimension. The unit should be entered immediately following the number value, with no intervening space. If a number has an associated unit, that unit will be used in all calculations. For example, the multiplication of two lengths with the unit mm gives an area with the unit mm&sup2;.
-</div>
+Tabulkový procesor pracuje s pojmem rozměru (jednotky) přiřazeného hodnotám v buňkách. Číslo zadané bez přiřazené jednotky nemá žádný rozměr. Jednotku je třeba zadat bezprostředně za číselnou hodnotou, bez mezery mezi nimi. Pokud je k číslu přiřazena jednotka, bude se tato jednotka používat ve všech výpočtech. Například vynásobením dvou délek s jednotkou mm získáme plochu s jednotkou mm².
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If a cell contains a value which represents a dimension, it should be entered with its associated unit. While in many simple cases one can get by with a dimensionless value, it is unwise to not enter the unit. If a value representing a dimension is entered without its associated unit, there are some sequences of operations which cause  FreeCAD to complain of incompatible units in an expression when it appears the expression should be valid. (This may be better understood by viewing [https://forum.freecad.org/viewtopic.php?f=3&t=34713&p=292455#p292438 this thread] in the FreeCAD forums.)
