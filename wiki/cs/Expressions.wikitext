@@ -1417,9 +1417,8 @@ Of course, it's up to you to load the corresponding documents later when you wan
 * FreeCAD zatím neobsahuje zabudovaného správce výrazů, ve kterém by byly uvedeny všechny výrazy v dokumentu a kde by bylo možné je vytvářet, mazat, vyhledávat atd. K dispozici je však doplněk: [https://github.com/gbroques/fcxref fcxref expression manager].
 * Aktuální chyby a požadavky týkající se výrazů najdete na [https://github.com/FreeCAD/FreeCAD/labels/Topic%3A%20Expressions GitHubu].
 {{Top}}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Scripting ==
-</div>
+<span id="Scripting"></span>
+== Skriptování ==
 
 {{Code|code=
 import FreeCAD as App
