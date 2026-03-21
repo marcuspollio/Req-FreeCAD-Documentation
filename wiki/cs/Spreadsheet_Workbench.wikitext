@@ -100,9 +100,7 @@ Při operacích vyjmout a kopírovat se do schránky uloží obsah, vlastnosti a
 <span id="Cell_properties"></span>
 == Vlastnosti buněk ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The properties of a spreadsheet cell can be edited by right-clicking the cell and selecting {{MenuCommand|Properties…}} from the context menu. The following dialog pops up:
-</div>
+Vlastnosti buňky tabulky lze upravit tak, že na ni kliknete pravým tlačítkem myši a z kontextového menu vyberete {{MenuCommand|Vlastnosti…}}. Zobrazí se následující dialogové okno:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:SpreadsheetCellPropDialog.png]]
