@@ -567,9 +567,8 @@ Funkce: {{Version|1.0}}.
 |}
 </div>
 {{Top}}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Conditional expressions ==
-</div>
+<span id="Conditional_expressions"></span>
+== Podmíněné výrazy ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Conditional expressions are of the form {{incode|condition ? resultTrue : resultFalse}}. The condition is defined as an expression that evaluates to either {{incode|0}} (false) or non-zero (true). Note that any value is evaluated as zero if {{incode|abs(value) < 1e-7}}, else it is evaluated as non-zero.
