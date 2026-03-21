@@ -1271,9 +1271,8 @@ Například následující název je platný: {{incode|<<Sketch>>.Constraints.T2
 
 Vzhledem k tomu, že kratší názvy (zejména pokud mají pouze jeden nebo dva znaky) mohou snadno vést k neplatným názvům, zvažte použití delších názvů a/nebo zavedení vhodných pravidel pro pojmenovávání.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Cell aliases===
-</div>
+<span id="Cell_aliases"></span>
+===Aliasy buněk===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 See [[Spreadsheet_SetAlias#Usage|Spreadsheet SetAlias]].
