@@ -254,9 +254,7 @@ Tabulky ve Excel-formátu XLSX lze importovat pomocí příkazu [[Std_Import/cs|
 * Aliasy pro buňky.
 * Více než jeden list v tabulce Excelu. V takovém případě se pro každý list Excelu vytvoří jedna tabulka FreeCADu.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Other functionality is not imported into the FreeCAD spreadsheet.
-</div>
+Ostatní funkce se do tabulky FreeCADu neimportují.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Printing ==
