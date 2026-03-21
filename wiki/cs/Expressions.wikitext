@@ -1360,9 +1360,8 @@ The following table shows some more examples:
  |}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Cyclic dependencies ===
-</div>
+<span id="Cyclic_dependencies"></span>
+=== Cyklické závislosti ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 FreeCAD checks dependencies based on the relationship between document objects, not properties. This means that you cannot provide data to an object and query that same object for results. For example, even though there are no cyclic dependencies when the properties themselves are considered, you may not have an object which gets its dimensions from a spreadsheet and then display the volume of that object in the same spreadsheet. You have to use two spreadsheets, one to drive your model and the other for reporting.
