@@ -809,8 +809,7 @@ for obj in objs:
 
 </translate>
 {{Code|code=
-sel = Gui.Selection.getSelection()[0] #First object selected
-for edge in FreeCAD.ActiveDocument.getObject(sel.Name).Shape.Edges: # replace "MyObjectName" for list
+for edge in FreeCAD.ActiveDocument.NameOfObject.Shape.Edges: # replace "MyObjectName" for list
     print( edge.Length)}}
 <translate>
 
