@@ -116,9 +116,9 @@ Tous les préférences avec des étiquettes en ''italiques'' sont des valeurs pa
 ::<code>ISO référencement</code> - dessine conformément à la norme ISO 129-1, le texte est toujours horizontal, au-dessus de la ligne de repère la plus courte possible.
 ::<code>ASME intégré</code> - dessine selon la norme ASME Y14.5M, le texte est horizontal, inséré dans une rupture dans la ligne de cote ou l'arc.
 ::<code>ASME référencement</code> - dessine selon la norme ASME Y14.5M, le texte est horizontal, une courte ligne de repère est attachée au centre vertical d'un côté.
-* '''Utiliser les paramètres système pour les décimals''' : utilise le nombre de décimales des [[Preferences_Editor/fr#Unit.C3.A9s|préférences générales]].
+* '''Utiliser les paramètres du système pour les décimales''' : utilise le nombre de décimales des [[Preferences_Editor/fr#Unit.C3.A9s|préférences générales]].
 * '''Afficher les unités''': ajoute l'unité (mm, in, etc.) aux valeurs de cote.
-* '''Nombre personnalisé de décimales''' : nombre de décimales si '''Utiliser les paramètres système pour les décimals''' n'est pas sélectionné et si '''Format des cotes''' n'est pas spécifié.
+* '''Nombre personnalisé de décimales''' : nombre de décimales si '''Utiliser les paramètres du système pour les décimales''' n'est pas sélectionné et si '''Format des cotes''' n'est pas spécifié.
 * '''Format des cotes''' : format personnalisé pour le texte des cotes. Utilise le [https://fr.wikipedia.org/wiki/Printf spécification du format printf].
 * '''Taille de la police''' : taille de police pour le texte de cote.
 * '''Échelle de tolérance du texte''' : réglage de la taille de la police de caractères. Multiplicateur de '''Taille de la police'''.
