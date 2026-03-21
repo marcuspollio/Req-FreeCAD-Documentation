@@ -50,7 +50,7 @@ La commande Part Forme à partir du maillage crée des objets [[Part_Feature/fr|
 <span id="Scripting"></span>
 ==Script==
 
-La création d'une forme [[Shape/fr|Shape]] à partir d'un [[Mesh/fr|maillage]] peut être faite en utilisant la méthode {{incode|makeShapeFromMesh}} à partir d'un [[Part_TopoShape/fr|Part TopoShape]]. Vous devez spécifier le maillage source et la tolérance puis affecter le résultat à un nouvel objet [[Part_Feature/fr|Part Feature]].
+La création d'une [[Shape/fr|forme]] à partir d'un [[Mesh/fr|maillage]] peut être faite en utilisant la méthode {{incode|makeShapeFromMesh}} à partir d'un [[Part_TopoShape/fr|Part TopoShape]]. Vous devez spécifier le maillage source et la tolérance puis affecter le résultat à un nouvel objet [[Part_Feature/fr|Part Feature]].
 
 Notez que le maillage doit être recalculé avant d'être converti en Forme (Shape) sinon il n'y aura pas d'informations de topologie et la conversion ne réussira pas.
 
