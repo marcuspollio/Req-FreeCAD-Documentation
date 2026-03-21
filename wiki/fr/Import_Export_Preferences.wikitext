@@ -60,7 +60,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | Toutes les dimensions du fichier seront mises à l'échelle avec le facteur spécifié.
 |-
 | {{MenuCommand|Mailleur}}
-|  Définit le programme de maillage à utiliser. Si vous utilisez ''Netgen'', assurez-vous qu'il est disponible. Cela peut être vérifié en utilisant [[Image:Workbench_Mesh.svg|24px]] [[Mesh_Workbench/fr|Atelier Mesh]] et [[Mesh_FromPartShape/fr|Créer un maillage]] à l'aide de Netgen. S'il n'est pas disponible, une autre version de FreeCAD, compilée avec Netgen, doit être installée.
+|  Définit le programme de maillage à utiliser. Si vous utilisez ''Netgen'', assurez-vous qu'il est disponible. Cela peut être vérifié en utilisant [[Image:Workbench_Mesh.svg|24px]] [[Mesh_Workbench/fr|Atelier Mesh]] et [[Mesh_FromPartShape/fr|Maillage à partir d'une forme]] à l'aide de Netgen. S'il n'est pas disponible, une autre version de FreeCAD, compilée avec Netgen, doit être installée.
 |-
 | {{MenuCommand|Tessellation}}
 |  Valeur de pavage à utiliser avec le programme de maillage ''Builtin'' et ''Mefisto''.
