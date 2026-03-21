@@ -322,9 +322,8 @@ Pokud nyní zadáte něco do buňky C1, okamžitě se to zobrazí i v buňce B3.
 # Otevře se dialogové okno {{MenuCommand|Přiřadit buňky tabulky}}.
 # Stiskněte tlačítko {{Button|Odpojit}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Notes===
-</div>
+<span id="Notes"></span>
+====Poznámky====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The {{MenuCommand|Hide dependency of binding}} option can be used to prevent problems with cyclic dependencies between spreadsheets. Selecting it is necessary when, for example, cells in ''Spreadsheet A'' are bound to ''Spreadsheet B'', while cells in ''Spreadsheet B'', in turn, are bound to some other cells in ''Spreadsheet A''. This option should be used with caution:
