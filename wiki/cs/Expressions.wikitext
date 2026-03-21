@@ -25,9 +25,8 @@ Více argumentů funkce lze oddělit buď středníkem {{incode|;}}, nebo čárk
 
 Argumenty mohou obsahovat odkazy na buňky v tabulce. Odkaz na buňku se skládá z velkého písmene označujícího řádek, za kterým následuje číslo sloupce, například {{incode|A1}}. Na buňku lze odkazovat také pomocí jejího aliasu, například {{incode|Spreadsheet.MyPartWidth}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Referencing objects===
-</div>
+<span id="Referencing_objects"></span>
+===Odkazování na objekty===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 As already shown above, you can reference an object by its {{PropertyData|Name}}. But you can also use its {{PropertyData|Label}}. In the case of a {{PropertyData|Label}}, it must be enclosed in double {{incode|<<}} and {{incode|>>}} symbols, such as {{incode|<<Label>>}}.
