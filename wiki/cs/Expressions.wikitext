@@ -1379,9 +1379,8 @@ Another way to workaround cyclic dependencies is to hide the reference by using 
 Please note that both mentioned workarounds should be used with caution, and that they do not work if the properties that are reported depend on dimensions that are driven from the same spreadsheet.
 </div>
 {{Top}}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Document-wide global variables ==
-</div>
+<span id="Document-wide_global_variables"></span>
+== Globální proměnné platné pro celý dokument ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 There is no concept of global variables in FreeCAD at the moment. Instead, arbitrary variables can be defined as cells in a spreadsheet using the [[Spreadsheet Workbench|Spreadsheet workbench]], and then be given a name using the alias property for the cell (right-click on cell). Then they can be accessed from any expression just as any other object property.
