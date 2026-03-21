@@ -22,7 +22,8 @@
 
 The [[File:Spreadsheet_Export.svg|24px]] '''Spreadsheet Export''' tool exports a spreadsheet as a CSV file, which can be used in other applications. Note that the {{Value|tab}} character, and not the {{Value|comma}}, is the default field delimiter. But this can be changed in the [[Spreadsheet_Preferences|Spreadsheet Preferences]].
 
-==Usage==
+<span id="Usage"></span>
+==Použití==
 
 # Make sure there is an active [[Spreadsheet_CreateSheet|spreadsheet]].
 # There are several ways to invoke the tool:
