@@ -115,7 +115,7 @@ Jak naznačují záložky, lze změnit následující vlastnosti:
 <span id="Cell_expressions"></span>
 == Výrazy buněk ==
 
-A spreadsheet cell may contain a number, a text or an expression. Expressions must start with an equal sign '='.
+Buňka tabulky může obsahovat číslo, text nebo výraz. Výrazy musí začínat rovnítkem '='.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Cell expressions may contain numbers, functions, references to other cells, and references to properties of the model (But see [[#Current_limitations|Current limitations]] below). A cell can be referenced by its address (capital column letter + row number, e.g. B4) or by its [[Spreadsheet_SetAlias|alias]].
