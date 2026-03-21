@@ -42,7 +42,7 @@ Na této záložce lze definovat vlastní klávesové zkratky. Zkratky pro makra
 <span id="Search"></span>
 ====Hledat====
 
-You can search for commands by entering at least 3 characters of their menu text or name in the search field. The search is case-insensitive.
+Příkazy můžete vyhledávat tak, že do vyhledávacího pole zadáte alespoň 3 znaky z jejich názvu v menu. Při vyhledávání se nerozlišují velká a malá písmena.
 
 It is also possible to search for shortcuts:
 * In the search field special keys in shortcuts must be entered as strings. For example to search for commands that use {{KEY|Ctrl}} in their shortcut enter {{Value|ctrl}} (4 letters).
