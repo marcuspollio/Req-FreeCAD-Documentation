@@ -577,10 +577,8 @@ Dostupné [https://en.wikipedia.org/wiki/Relational_operator#Standard_relational
 <span id="Notes"></span>
 ==== Poznámky ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{VersionMinus|1.0}}: To use a boolean property as the condition this syntax must be used: {{incode|VarSet.MyBool &#61;&#61; 1 ? 10 mm : 15 mm}}.
-* {{VersionPlus|1.1}}: To use a boolean property as the condition this syntax can be used: {{incode|VarSet.MyBool ? 10 mm : 15 mm}}.
-</div>
+* {{VersionMinus|1.0}}: Chcete-li jako podmínku použít logickou vlastnost, je třeba použít následující syntaxi: {{incode|VarSet.MyBool &#61;&#61; 1 ? 10 mm : 15 mm}}.
+* {{VersionPlus|1.1}}: Chcete-li jako podmínku použít logickou vlastnost, lze použít následující syntaxi: {{incode|VarSet.MyBool ? 10 mm : 15 mm}}.
 {{Top}}
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Units ==
