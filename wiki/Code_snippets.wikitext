@@ -1669,7 +1669,7 @@ def normal(self):
 
 </translate>
 {{Code|code=
-import PySide2
+import PySide
 import Draft, Part, FreeCAD, FreeCADGui
 import FreeCADGui as Gui
 from FreeCAD import Base
@@ -1692,6 +1692,7 @@ line = Draft.make_wire([App.Vector(0.0,0.0,0.0), App.Vector(0.0,0.0,20.0)] )    
 line.Placement=plr
 FreeCAD.ActiveDocument.recompute()
 print( "Direction (radian) : ",direction )    # direction in radian
+
 }}
 
 <translate>
