@@ -175,9 +175,7 @@ Následující tabulka uvádí několik příkladů za předpokladu, že model o
 <span id="Spreadsheet_data_in_expressions"></span>
 === Data tabulky ve vzorcích ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In order to use spreadsheet data in other parts of FreeCAD, you will usually create an [[Expressions|Expression]] that refers to the spreadsheet and the cell that contains the data you want to use. You can identify spreadsheets by name or by label, and you can identify the cells by address or by alias. Autocompletion is available for all forms of referencing.
-</div>
+Chcete-li použít data z tabulky v jiných částech programu FreeCAD, obvykle vytvoříte [[Expressions/cs|výraz]], který odkazuje na tabulku a buňku obsahující data, která chcete použít. Tabulky můžete identifikovat podle názvu nebo štítku a buňky podle adresy nebo aliasu. Pro všechny způsoby odkazování je k dispozici funkce automatického doplňování.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {|{{Prettytable}}
