@@ -135,12 +135,12 @@ Viz [[#Search|Klávesnice]].
 <span id="Add_a_command"></span>
 ====Přidání příkazu====
 
-# At least one custom toolbar is required. See [[#Create_a_toolbar|Create a toolbar]].
-# Select the correct toolbar in the panel on the right. If no toolbar is selected, the command will be added to the first toolbar in the list.
-# Select a command category from the '''Category''' dropdown list. Macro commands that have been set up on the [[#Macros|Macros]] tab appear in the {{Value|Macros}} category.
-# Select a command from the '''Commands''' panel, or select {{Value|<Separator>}} to add a separator (a line between two toolbar buttons).
-#* Optionally drag the splitter to the right of the panel to resize it.
-# Press {{Button|[[Image:Button_right.svg|16px]]}} button.
+# Je nutné vybrat alespoň jeden vlastní panel nástrojů. Viz [[#Create_a_toolbar|Vytvoření panelu nástrojů]].
+# V panelu vpravo vyberte správný panel nástrojů. Pokud není vybrán žádný panel nástrojů, příkaz se přidá do prvního panelu nástrojů v seznamu.
+# Vyberte kategorii příkazů z rozevíracího seznamu '''Kategorie'''. Makra, která byla nastavena na záložce [[#Macros|Makra]], se zobrazí v kategorii {{Value|Makra}}.
+# Vyberte příkaz z panelu '''Příkazy''' nebo vyberte {{Value|<Separator>}} pro přidání oddělovače (čáry mezi dvěma tlačítky na panelu nástrojů).
+#* Chcete-li změnit velikost panelu, přetáhněte oddělovač na pravou stranu panelu.
+# Stiskněte tlačítko {{Button|[[Image:Button_right.svg|16px]]}}.
 
 ====Remove a command====
 
