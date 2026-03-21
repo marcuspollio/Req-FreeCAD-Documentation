@@ -266,13 +266,10 @@ Aby bylo možné provést nastavení stránky potřebné pro tisk, tisknou se ta
 
 FreeCAD při přepočítávání kontroluje cyklické závislosti. Tato kontrola je záměrně omezena na úroveň objektu tabulky. Z tohoto důvodu byste neměli mít tabulku, která obsahuje jak buňky, jejichž hodnoty se používají k zadání parametrů modelu, tak buňky, jejichž hodnoty využívají výstupy z modelu. Například nelze mít buňky, které určují délku, šířku a výšku objektu, a zároveň další buňku, která odkazuje na celkový objem výsledného tvaru. Toto omezení lze obejít použitím dvou tabulek: jedna slouží jako zdroj dat pro vstupní parametry modelu a druhá pro výpočty založené na výsledných geometrických datech.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Cell binding ==
-</div>
+<span id="Cell_binding"></span>
+== Vazba na buňky ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Version|0.20}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 It is possible to bind the content of cells to other spreadsheet cells. This can be useful when dealing with large tables or to get cell content from another spreadsheet.
