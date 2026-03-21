@@ -500,7 +500,7 @@ En temps voulu, ce solveur pourrait être distribué avec l'atelier FEM, ce qui 
 
 {|cellpadding=5
 | [[File:Mesh_FromPartShape_Gmsh.png|384px]]
-| [[Mesh_FromPartShape/fr|Mesh Tesselation]] est maintenant en mesure de créer [[mesh/fr|meshes]] en utilisant [https://fr.wikipedia.org/wiki/Gmsh Gmsh]. Ce mailleur est un programme externe qui doit être installé dans le système avant de pouvoir être utilisé. Gmsh était déjà l'une des options pour créer des [[FEM_Mesh/fr|maillages d'éléments finis]] avec l'[[FEM_Workbench/fr|Atelier FEM]].
+| [[Mesh_FromPartShape/fr|Mesh Maillage à partir d'une forme]] est maintenant en mesure de créer des [[mesh/fr|maillages]] en utilisant [https://fr.wikipedia.org/wiki/Gmsh Gmsh]. Ce mailleur est un programme externe qui doit être installé dans le système avant de pouvoir être utilisé. Gmsh était déjà l'une des options pour créer des [[FEM_Mesh/fr|maillages d'éléments finis]] avec l'[[FEM_Workbench/fr|atelier FEM]].
 
 De plus, maintenant la boîfenêtrete de dialogue [[Mesh_FromPartShape/fr|Mesh Tesselation]] se souviendra des paramètres que vous avez utilisés la dernière fois.
 
