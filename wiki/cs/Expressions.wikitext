@@ -1269,9 +1269,7 @@ Například na štítek {{incode|Sketch\002}} je třeba odkazovat jako {{incode|
 
 Například následující název je platný: {{incode|<<Sketch>>.Constraints.T2üßµ@}}. Naproti tomu tyto názvy jsou neplatné: {{incode|<<Sketch>>.Constraints.test\result_2}} (\r znamená „návrat vozíku“) nebo {{incode|<<Sketch>>.Constraints.mol}} (mol je jednotka).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Since shorter names (especially if they have only one or two characters) can easily result in invalid names, consider using longer names and/or establishing a suitable naming convention.
-</div>
+Vzhledem k tomu, že kratší názvy (zejména pokud mají pouze jeden nebo dva znaky) mohou snadno vést k neplatným názvům, zvažte použití delších názvů a/nebo zavedení vhodných pravidel pro pojmenovávání.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Cell aliases===
