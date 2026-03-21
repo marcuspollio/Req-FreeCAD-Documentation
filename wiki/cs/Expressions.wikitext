@@ -580,9 +580,8 @@ Dostupné [https://en.wikipedia.org/wiki/Relational_operator#Standard_relational
 * {{VersionMinus|1.0}}: Chcete-li jako podmínku použít logickou vlastnost, je třeba použít následující syntaxi: {{incode|VarSet.MyBool &#61;&#61; 1 ? 10 mm : 15 mm}}.
 * {{VersionPlus|1.1}}: Chcete-li jako podmínku použít logickou vlastnost, lze použít následující syntaxi: {{incode|VarSet.MyBool ? 10 mm : 15 mm}}.
 {{Top}}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Units ==
-</div>
+<span id="Units"></span>
+== Jednotky ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Units can be used directly in expressions. The parser connects them to the previous value. So {{incode|2mm}} or {{incode|2 mm}} is valid while {{incode|mm}} is invalid because there is no preceding value.
