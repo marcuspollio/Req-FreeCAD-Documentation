@@ -33,9 +33,8 @@ The '''Std DlgCustomize''' command opens the Customize dialog box giving access 
 {{Caption|The Customize dialog box}}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Použití==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # The commands available in the Customize dialog box depend on the workbenches that have been loaded in the current FreeCAD session. So you should first load all workbenches whose commands you want to have access to.
