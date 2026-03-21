@@ -9,10 +9,10 @@
 |IconC=Workbench_Spreadsheet.svg
 }}
 
-{{GuiCommand
-|Name=Spreadsheet SetAlias
+{{GuiCommand/cs
+|Name=Spreadsheet Nastavit Alias
 |MenuLocation=-
-|Workbenches=[[Spreadsheet_Workbench|Spreadsheet]]
+|Workbenches=[[Spreadsheet_Workbench/cs|Spreadsheet]]
 |Shortcut={{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|A}}
 |Version=0.17
 }}
