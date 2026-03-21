@@ -13,7 +13,7 @@ Le support d'Asymptote a été ajouté dans la version 0.19 de FreeCAD.
 
 # Vous pouvez attribuer des couleurs aux faces de l'objet que vous souhaitez exporter avec la commande [[Image:Part_ColorPerFace.svg|24px]] [[Part_ColorPerFace/fr|Part Couleur par face]].
 # Passez à l'[[Image:Workbench_Mesh.svg|24px]] [[Mesh Workbench/fr|atelier Mesh]].
-# Créez un maillage à partir de l'objet avec la commande [[Image:Mesh_FromPartShape.svg|24px]] [[Mesh_FromPartShape/fr|Mesh Tesselation]].
+# Créez un maillage à partir de l'objet avec la commande [[Image:Mesh_FromPartShape.svg|24px]] [[Mesh_FromPartShape/fr|Créer un maillage à partir d'une forme]].
 # Sélectionnez le nouvel objet maillage.
 # Appelez la commande [[Image:Mesh_Export.svg|24px]] [[Mesh_Export/fr|Mesh Exporter un maillage]].
 # Sélectionnez le format de fichier {{FileName|*.asy}} dans la fenêtre de dialogue.
