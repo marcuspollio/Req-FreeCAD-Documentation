@@ -318,11 +318,9 @@ Pokud nyní zadáte něco do buňky C1, okamžitě se to zobrazí i v buňce B3.
 <span id="Remove_binding"></span>
 === Odstranění vazby ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Right-click a bound cell (there is no need to highlight the whole bound range) and select {{MenuCommand|Bind…}} from the context menu.
-# The {{MenuCommand|Bind Spreadsheet Cells}} dialog opens.
-# Press {{Button|Unbind}}.
-</div>
+# Klikněte pravým tlačítkem myši na buňku s přiřazenou hodnotou (není nutné označovat celý rozsah) a z kontextového menu vyberte {{MenuCommand|Přiřadit…}}.
+# Otevře se dialogové okno {{MenuCommand|Přiřadit buňky tabulky}}.
+# Stiskněte tlačítko {{Button|Odpojit}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Notes===
