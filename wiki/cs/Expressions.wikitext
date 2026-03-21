@@ -1216,9 +1216,8 @@ Následující běžně používané jednotky zatím nejsou podporovány; u něk
 |}
 </div>
 {{Top}}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Invalid characters and names==
-</div>
+<span id="Invalid_characters_and_names"></span>
+==Neplatné znaky a názvy==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The expression feature is very powerful but to achieve this power it has some limitations concerning some characters. To overcome this, FreeCAD offers to use labels and reference them instead of the object names. In labels you can use almost all special characters.
