@@ -233,9 +233,7 @@ Pokud buňka obsahuje hodnotu představující veličinu, měla by být zadána 
 
 Zobrazené jednotky hodnoty buňky můžete změnit pomocí [[#Cell_properties|dialogového okna Vlastnosti buňky]]. Tím se nezmění hodnota obsažená v buňce; dojde pouze k převodu stávající hodnoty pro účely zobrazení. Hodnota použitá pro výpočty se nezmění a nezmění se ani výsledky vzorců, které tuto hodnotu používají. Například buňka obsahující hodnotu "5,08cm" může být zobrazena jako "2in" změnou hodnoty na kartě jednotek na "in".
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-A dimensionless number cannot be changed to a number with a unit by the cell properties dialog. One can put in a unit string, and that string will be displayed; but the cell still contains a dimensionless number. In order to change a dimensionless value to a value with a dimension, the value itself must be re-entered with its associated unit.
-</div>
+V dialogovém okně vlastností buňky nelze bezrozměrné číslo převést na číslo s jednotkou. Je možné zadat řetězec jednotky, který se sice zobrazí, ale buňka bude i nadále obsahovat bezrozměrné číslo. Chcete-li bezrozměrnou hodnotu převést na hodnotu s jednotkou, je nutné hodnotu znovu zadat spolu s příslušnou jednotkou.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Occasionally it may be desirable to get rid of a dimension in an expression. This can be done by multiplying by 1 with a reciprocal unit.
