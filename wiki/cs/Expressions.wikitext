@@ -1237,9 +1237,7 @@ U [[Object_name/cs#Label|popisků]] neexistují žádné neplatné znaky, někte
 | Je třeba ho escapovat přidáním {{incode|\}} před něho.
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For example, the label {{incode|Sketch\002}} must be referenced as {{incode|<<Sketch\\002>>}}.
-</div>
+Například na štítek {{incode|Sketch\002}} je třeba odkazovat jako {{incode|<<Sketch\\002>>}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Names===
