@@ -49,7 +49,8 @@ Je také možné vyhledávat klávesové zkratky:
 * Chcete-li vyhledat zkratky pro jednotlivé znaky, přidejte závorky, například: {{Value|(c)}}.
 * Mezi znaky víceznakových zkratek vložte čárku a mezeru, například: {{Value|g, b, b}}.
 
-====Add a shortcut====
+<span id="Add_a_shortcut"></span>
+====Přidání klávesové zkratky====
 
 # Select a command category from the '''Category''' dropdown list.
 # Select a command from the '''Commands''' panel.
