@@ -1,11 +1,9 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Installing_on_Mac/fr|Installation sous Mac]]
-|[[Getting_started/fr|Premiers pas]]
+|[[Version_Migration/fr|Migration de version]]
 }}
-</div>
 
 {{TOCright}}
 
@@ -107,7 +105,7 @@ Voir [[Import_Export_Preferences/fr#DWG|Préférences Importer/Exporter]] et [[F
 
 ===Gmsh===
 
-[http://gmsh.info Gmsh] est un générateur automatique de maillage par éléments finis. il est utilisé par les outils [[FEM_MeshGmshFromShape/fr|FEM Mailler avec Gmsh]] et [[Mesh_FromPartShape/fr|Mesh Tesselation]].
+[http://gmsh.info Gmsh] est un générateur automatique de maillage par éléments finis. il est utilisé par les outils [[FEM_MeshGmshFromShape/fr|FEM Mailler avec Gmsh]] et [[Mesh_FromPartShape/fr|Mesh Maillage à partir d'une forme]].
 
 ===Elmer===
 
@@ -133,11 +131,9 @@ Voir [[Import_Export_Preferences/fr#DWG|Préférences Importer/Exporter]] et [[F
 * [[Third Party Libraries/fr|Bibliothèques tierces]]
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Installing_on_Mac/fr|Installation sous Mac]]
-|[[Getting_started/fr|Premiers pas]]
+|[[Version_Migration/fr|Migration de version]]
 }}
-</div>
 
 {{Userdocnavi{{#translation:}}}}
