@@ -22,7 +22,8 @@
 
 The [[File:Spreadsheet_SetAlias.svg|24px]] '''Spreadsheet SetAlias''' tool opens a dialog to define an alias for a cell. A cell can be referenced by its address (capital column letter + row number, e.g. B4) or by its alias.
 
-==Usage==
+<span id="Usage"></span>
+==Použití==
 
 # Make sure there is an active [[Spreadsheet_CreateSheet|spreadsheet]].
 # Select a cell.
