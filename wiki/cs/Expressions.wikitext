@@ -1281,9 +1281,7 @@ Viz [[Spreadsheet_SetAlias/cs#Usage|Spreadsheet Nastavení alias]].
 
 Ve výrazu je možné použít data přímo z modelu. Chcete-li odkazovat na vlastnost, použijte {{incode|object_name.property}} nebo {{incode|<<object_label>>.property}}; označení musí být uzavřena v značkách {{incode|<<}} a {{incode|>>}}. Pokud chcete použít popisky, musí být jedinečné.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-All next examples reference the object by its name, but in all cases the object label can also be used.
-</div>
+Ve všech následujících příkladech se na objekt odkazuje podle jeho názvu, ale ve všech případech lze použít i popisek objektu.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If the property is a compound of fields, the individual fields can be accessed as {{incode|object_name.property.field}}.
