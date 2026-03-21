@@ -346,9 +346,8 @@ Following example {{incode|<<MY>> + <<TEXT>>}} will be concatenated to "MYTEXT".
 
 {{incode|str(Box.Length.Value)}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== String formatting ====
-</div>
+<span id="String_formatting"></span>
+==== Formátování řetězců ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 String formatting is supported using the (old) %-style Python way.
