@@ -18,9 +18,8 @@ Některé chyby související s jednotkami mohou působit neintuitivně, protož
 
 {{incode|sqrt(2)mm}} není platné, protože volání funkce není číslo. Je třeba zadat {{incode|sqrt(2) * 1mm}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Function arguments===
-</div>
+<span id="Function_arguments"></span>
+===Argumenty funkce===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Multiple arguments to a function may be separated by either a semicolon {{incode|;}} or a comma <em>followed by a space</em> {{incode|, }}. In the latter case, the comma is converted to a semicolon after entry. When a semicolon is used, no trailing space is necessary.
