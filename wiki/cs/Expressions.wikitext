@@ -1219,9 +1219,7 @@ Následující běžně používané jednotky zatím nejsou podporovány; u něk
 <span id="Invalid_characters_and_names"></span>
 ==Neplatné znaky a názvy==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The expression feature is very powerful but to achieve this power it has some limitations concerning some characters. To overcome this, FreeCAD offers to use labels and reference them instead of the object names. In labels you can use almost all special characters.
-</div>
+Funkce výrazů je velmi výkonná, ale aby mohla tento výkon plně využít, má určitá omezení týkající se některých znaků. K překonání tohoto omezení nabízí FreeCAD možnost používat popisky a odkazovat na ně namísto názvů objektů. V popiscích lze použít téměř všechny speciální znaky.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In cases where you cannot use a label, such as the name of a sketch's constraints, you must be aware what characters are not allowed.
