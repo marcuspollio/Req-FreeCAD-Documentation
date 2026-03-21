@@ -25,18 +25,18 @@ Nástroj [[File:Spreadsheet_SetAlias.svg|24px]] '''Spreadsheet Nastavit Alias'''
 <span id="Usage"></span>
 ==Použití==
 
-# Make sure there is an active [[Spreadsheet_CreateSheet|spreadsheet]].
-# Select a cell.
-# There are several ways to invoke the tool:
-#* Press the {{Button|[[File:Spreadsheet_SetAlias.svg|16px]] [[Spreadsheet_SetAlias|Set Alias]]}} button.
-#* Use the keyboard shortcut: {{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|A}}.
-# Enter an alias:
-#* Only alphanumeric characters and underscores ({{incode|A}} to {{incode|Z}}, {{incode|a}} to {{incode|z}}, {{incode|0}} to {{incode|9}} and {{incode|_}}) are allowed.
-#* The first character must be a letter.
-#* Using 1 or 2 capital letters followed by 1 to 5 numbers, for example {{incode|AB123}}, is not allowed as this is considered a cell address.
-#* Character sequences that are units are not allowed. For example {{incode|W}} is an invalid alias as it is the unit for [https://en.wikipedia.org/wiki/Watt Watt]. Since FreeCAD supports many units it is best to avoid short aliases. See [[Expressions#Units|Expressions]].
-#* Using the mathematical constants {{incode|pi}} and {{incode|e}} as aliases will lead to errors and should be avoided.
-#* Do not use spaces in aliases as they will also lead to errors.
+# Ujistěte se, že je otevřený [[Spreadsheet_CreateSheet/cs|tabulkový dokument]].
+# Vyberte buňku.
+# Nástroj lze spustit několika způsoby:
+#* Klikněte na tlačítko {{Button|[[File:Spreadsheet_SetAlias.svg|16px]] [[Spreadsheet_SetAlias/cs|Nastavit alias]]}}.
+#* Použijte klávesovou zkratku: {{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|A}}.
+# Zadejte alias:
+#* Povoleny jsou pouze alfanumerické znaky a podtržítka (od {{incode|A}} do {{incode|Z}}, od {{incode|a}} do {{incode|z}}, od {{incode|0}} do {{incode|9}} a {{incode|_}}).
+#* První znak musí být písmeno.
+#* Použití 1 nebo 2 velkých písmen následovaných 1 až 5 číslicemi, například {{incode|AB123}}, není povoleno, protože se to považuje za adresu buňky.
+#* Sekvence znaků, které představují jednotky, nejsou povoleny. Například {{incode|W}} je neplatný alias, protože se jedná o jednotku pro [https://en.wikipedia.org/wiki/Watt watt]. Vzhledem k tomu, že FreeCAD podporuje mnoho jednotek, je nejlepší se krátkým aliasům vyhýbat. Viz [[Expressions#Units|Výrazy]].
+#* Používání matematických konstant {{incode|pi}} a {{incode|e}} jako aliasů vede k chybám a je třeba se jim vyhnout.
+#* V aliasech nepoužívejte mezery, protože by to vedlo k chybám.
 
 
 {{Docnav/cs
