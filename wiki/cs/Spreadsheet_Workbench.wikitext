@@ -325,14 +325,12 @@ Pokud nyní zadáte něco do buňky C1, okamžitě se to zobrazí i v buňce B3.
 <span id="Notes"></span>
 ====Poznámky====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The {{MenuCommand|Hide dependency of binding}} option can be used to prevent problems with cyclic dependencies between spreadsheets. Selecting it is necessary when, for example, cells in ''Spreadsheet A'' are bound to ''Spreadsheet B'', while cells in ''Spreadsheet B'', in turn, are bound to some other cells in ''Spreadsheet A''. This option should be used with caution:
-** Hiding dependencies can be dangerous because broken dependencies can damage your FreeCAD file. For example, when you delete a spreadsheet you will not be warned about hidden dependencies.
-** When you open a document with a spreadsheet containing a hidden dependency, you will get the spreadsheet marked to be recomputed. This is because a cyclic dependency cannot be recomputed automatically. To recompute the [[Std_Refresh|Std Refresh]] tool must be used.
-* The cell binding has a range check and warns you about mismatched ranges. For example binding 1x3 cells to 3x2 cells cannot work because it is unknown which 3 cells of the original 6 cells should be used.
-* You cannot change the cell range of an existing binding. You must first unbind the cells and then create a new binding.
-* The frame color indicating the binding cannot be changed yet.
-</div>
+* Možnost {{MenuCommand|Skrýt závislost vazby}} lze použít k zamezení problémů s cyklickými závislostmi mezi tabulkami. Je nutné ji vybrat například v případě, že buňky v ‚'Tabulce A‘' jsou vázány na ‚'Tabulku B‘', zatímco buňky v ‚'Tabulce B‘' jsou zase vázány na některé jiné buňky v ‚'Tabulce A‘'. Tuto možnost je třeba používat s opatrností:
+** Skrývání závislostí může být nebezpečné, protože nefunkční závislosti mohou poškodit váš soubor FreeCADu. Například při smazání tabulky nebudete na skryté závislosti upozorněni.
+** Při otevření dokumentu s tabulkou obsahující skrytou závislost se tabulka označí k přepočítání. Důvodem je to, že cyklickou závislost nelze přepočítat automaticky. K přepočítání je nutné použít nástroj [[Std_Refresh/cs|Std Obnovit]].
+* Funkce pro vazbu buněk provádí kontrolu rozsahu a upozorní vás na nesoulad rozsahů. Například vazba buněk o rozměrech 1×3 na buňky o rozměrech 3×2 nemůže fungovat, protože není jasné, které 3 buňky z původních 6 by měly být použity.
+* Rozsah buněk u stávajícího přiřazení nelze změnit. Nejprve musíte zrušit přiřazení buněk a poté vytvořit nové přiřazení.
+* Barvu rámu, která určuje vázání, zatím nelze změnit.
 
 <span id="Configuration_tables"></span>
 == Konfigurační tabulky ==
