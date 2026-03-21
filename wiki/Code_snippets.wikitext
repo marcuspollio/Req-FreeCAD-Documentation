@@ -1468,12 +1468,13 @@ Change the value of "numberOfPoints" if you want a different number of points (p
 </translate>
 {{Code|code=
 numberOfPoints = 100                                                         # Decomposition number (or precision you can change)
-selectedEdge = FreeCADGui.Selection.getSelectionEx()[0].SubObjects[0].copy() # select one element
-points  = selectedEdge.discretize(numberOfPoints)                            # discretize the element
+selectedEdge = FreeCADGui.Selection.getSelectionEx()[0].SubObjects[0].copy() # select one sub element Edge
+points  = selectedEdge.discretize(numberOfPoints)                            # discretize the element Edge
 i=0
-for p in points:                                                             # list and display the coordinates
+for p in points:                                                             # list and display the coordinates of the Edge discretized
     i+=1
     print( i, " X", p.x, " Y", p.y, " Z", p.z)
+
 }}
 <translate>
 
