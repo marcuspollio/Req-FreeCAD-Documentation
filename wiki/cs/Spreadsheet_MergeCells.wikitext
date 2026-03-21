@@ -20,7 +20,8 @@
 
 The [[File:Spreadsheet_MergeCells.svg|24px]] '''Spreadsheet MergeCells''' tool merges a rectangular cell range.
 
-==Usage==
+<span id="Usage"></span>
+==Použití==
 
 # Make sure there is an active [[Spreadsheet_CreateSheet|spreadsheet]].
 # Select two or more cells that form a rectangular cell range. The range may include already merged cells.
