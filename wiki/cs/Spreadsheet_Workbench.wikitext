@@ -201,8 +201,6 @@ Mějte na paměti, že při vytvoření nového listu se jeho název shoduje s o
 
 Ačkoli můžete ve výrazu k odkazování na buňku použít číslo řádku a sloupce, doporučuje se buňce přiřadit alias a používat ho. Informace o tom, jak alias nastavit, najdete v článku [[#Cell_properties|Vlastnosti buněk]]. Například pokud data v buňce B1 obsahují parametr délky pro objekt, alias {{incode|MyObject_Length}} umožní odkazovat na tuto hodnotu jako {{incode|<<MyParams>>.MyObject_Length}} namísto {{incode|Spreadsheet.B1}}. Aliasy jsou nejen mnohem srozumitelnější a přehlednější, ale také se mnohem snáze mění, pokud se rozhodnete upravit strukturu tabulky. Použití aliasu má také tu výhodu, že je snazší rozpoznat, které buňky se používají k ovládání jiných částí dokumentu. Upozorňujeme, že FreeCAD automaticky upraví poziční odkazy ve výrazech, pokud do tabulky vložíte nebo odstraníte řádky a sloupce, takže i když ve výrazu používáte čísla řádků a sloupců, můžete vkládat řádky a sloupce, aniž by došlo k porušení odkazů na okolní buňky. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-</div>
 </div>
 </div>
 
