@@ -95,9 +95,7 @@ Tato operace odstraní obsah, vlastnosti a aliasy buněk. Chcete-li odstranit po
 #* Klikněte pravým tlačítkem myši na jednu z vybraných buněk a z kontextového menu vyberte příslušnou možnost.
 #* Vyberte příslušnou možnost z [[Std_Edit_Menu/cs|menu Upravit]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The cut and copy operations store the contents, properties and aliases of the cells on the Clipboard. The paste operation writes the data in such a way that the content of the top left cell of the stored data is dropped in the active cell. Other stored content is placed relative to that cell. Formulas are updated accordingly. Aliases are only pasted if they are unique.
-</div>
+Při operacích vyjmout a kopírovat se do schránky uloží obsah, vlastnosti a aliasy buněk. Při operaci vložit se data zapíší tak, že obsah buněk v levém horním rohu uložených dat se vloží do aktivní buňky. Ostatní uložený obsah se umístí relativně k této buňce. Vzorce se odpovídajícím způsobem aktualizují. Aliasy se vloží pouze v případě, že jsou jedinečné.
 
 <span id="Cell_properties"></span>
 == Vlastnosti buněk ==
