@@ -240,9 +240,8 @@ Někdy může být žádoucí odstranit z výrazu určitou veličinu. Toho lze d
 <span id="Importing_and_exporting"></span>
 == Import a export ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== CSV format ===
-</div>
+<span id="CSV_format"></span>
+=== CSV formát ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 FreeCAD spreadsheets can be imported and exported to the [https://en.wikipedia.org/wiki/Comma-separated_values CSV] format which can also be read and written by most other spreadsheet applications such as Microsoft Excel or LibreOffice Calc. See [[Spreadsheet_Import|Spreadsheet Import]] and [[Spreadsheet_Export|Spreadsheet Export]] for more information.
