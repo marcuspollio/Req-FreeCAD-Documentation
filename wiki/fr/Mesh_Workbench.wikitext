@@ -31,7 +31,7 @@ Tous les outils de l'atelier Mesh sont accessibles depuis le menu '''Maillages''
 
 * [[Image:Mesh_Export.svg|32px]] [[Mesh_Export/fr|Exporter le maillage]] : exporte un objet maillé vers un fichier.
 
-* [[Image:Mesh_FromPartShape.svg|32px]] [[Mesh_FromPartShape/fr|Créer un maillage]] : crée des objets maillés à partir de la forme d'objets.
+* [[Image:Mesh_FromPartShape.svg|32px]] [[Mesh_FromPartShape/fr|Maillage à partir d'une forme]] : crée des objets maillés à partir de la forme d'objets.
 
 * [[Image:Mesh_RemeshGmsh.svg|32px]] [[Mesh_RemeshGmsh/fr|Remailler avec Gmsh]] : remaille un objet maillé.
 
