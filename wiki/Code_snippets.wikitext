@@ -1527,7 +1527,8 @@ for i in p2:
     ii+=1
     print( i )                                             # Vector()
     print( ii, ": X:", i.x, " Y:", i.y, " Z:", i.z )       # Vector decode 
-Draft.makeWire(p2,closed=False,face=False,support=None)  # to see the difference accuracy (0.5)
+
+Draft.make_wire(p2,closed=False,face=False,support=None)  # to see the difference accuracy (0.5)
 
 ## uncomment to use
 #import Draft
