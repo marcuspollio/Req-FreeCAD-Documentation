@@ -1239,9 +1239,8 @@ U [[Object_name/cs#Label|popisků]] neexistují žádné neplatné znaky, někte
 
 Například na štítek {{incode|Sketch\002}} je třeba odkazovat jako {{incode|<<Sketch\\002>>}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Names===
-</div>
+<span id="Names"></span>
+===Názvy===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[Object_name#Name|Names]] of objects like dimensions, sketches, etc. may not have the characters or character sequences listed below, otherwise the name is invalid:
