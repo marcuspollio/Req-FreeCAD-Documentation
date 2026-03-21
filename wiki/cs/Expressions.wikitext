@@ -1411,9 +1411,8 @@ Note that the master document must be loaded for the values in the master to be 
 Of course, it's up to you to load the corresponding documents later when you want to change anything.
 </div>
 {{Top}}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Known issues / remaining tasks ==
-</div>
+<span id="Known_issues_/_remaining_tasks"></span>
+== Známé problémy / zbývající úkoly ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * FreeCAD does not yet have a built-in expression manager where all expressions in a document are listed, and can be created, deleted, queried, etc. But an addon is available: [https://github.com/gbroques/fcxref fcxref expression manager].
