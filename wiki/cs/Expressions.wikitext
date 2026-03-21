@@ -1276,9 +1276,8 @@ Vzhledem k tomu, že kratší názvy (zejména pokud mají pouze jeden nebo dva 
 
 Viz [[Spreadsheet_SetAlias/cs#Usage|Spreadsheet Nastavení alias]].
 {{Top}}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Reference to CAD data ==
-</div>
+<span id="Reference_to_CAD_data"></span>
+== Odkaz na CAD data ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 It is possible to use data from the model itself in an expression. To reference a property use {{incode|object_name.property}} or {{incode|<<object_label>>.property}}, labels must be enclosed in {{incode|<<}} and {{incode|>>}}. If you want to use labels they must be unique.
