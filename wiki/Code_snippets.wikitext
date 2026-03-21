@@ -1935,8 +1935,8 @@ Part.show(myFace)
 
 </translate>
 {{Code|code=
-import PySide2 
-from PySide2 import QtWidgets, QtCore, QtGui
+import PySide 
+from PySide import QtWidgets, QtCore, QtGui
 
 def restart_freecad():
     """Shuts down and restarts FreeCAD"""
@@ -1946,6 +1946,7 @@ def restart_freecad():
         QtCore.QProcess.startDetached(
             QtWidgets.QApplication.applicationFilePath(), args
         )
+
 }}
 
 <translate>
