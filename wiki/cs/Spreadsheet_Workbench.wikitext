@@ -307,9 +307,8 @@ Pokud nyní zadáte něco do buňky C1, okamžitě se to zobrazí i v buňce B3.
 [[File:Spreadsheet_binding-result.png]]
 {{Caption|Tabulka nyní může vypadat takto}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Change binding ===
-</div>
+<span id="Change_binding"></span>
+=== Změna vazby ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Right-click a bound cell (there is no need to highlight the whole bound range) and select {{MenuCommand|Bind…}} from the context menu.
