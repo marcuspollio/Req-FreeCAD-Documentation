@@ -25,7 +25,7 @@ L'outil '''TechDraw Cote de rayon''' ajoute une cote de rayon à une vue. Cette 
 {{Caption|Mesure d'un cercle en indiquant le rayon}}
 
 <span id="Usage"></span>
-==Comment faire==
+==Utilisation==
 
 # Sélectionnez un cercle ou un arc de cercle. La géométrie peut être sélectionnée dans la [[3D_View/fr|vue 3D]] ou dans le dessin. Notez que certains arcs qui semblent circulaires sont en fait des ellipses ou des B-splines. Dans ce cas, vous ne pouvez pas définir une dimension de rayon.
 # Si vous avez sélectionné une géométrie dans la vue 3D : ajoutez la bonne vue TechDraw à la sélection en la sélectionnant dans l'[[Tree_View/fr|arborescence]].
