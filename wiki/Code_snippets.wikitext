@@ -1846,16 +1846,17 @@ The position is relative to the GL widget. See [https://forum.freecad.org/viewto
 
 </translate>
 {{Code|code=
-from PySide2 import QtCore
-from PySide2 import QtGui
-from PySide2 import QtWidgets
+from PySide import QtCore
+from PySide import QtGui
+from PySide import QtWidgets
 
 mw = Gui.getMainWindow()
-gl = mw.findChild(QtWidgets.QOpenGLWidget)
+gl = mw.findChild(QtWidgets.QWidget)
 me = QtGui.QMouseEvent(QtCore.QEvent.MouseButtonRelease, QtCore.QPoint(800,300), QtCore.Qt.LeftButton, QtCore.Qt.LeftButton, QtCore.Qt.NoModifier)
 
 app = QtWidgets.QApplication.instance()
 app.sendEvent(gl, me)
+
 }}
 <translate>
 
