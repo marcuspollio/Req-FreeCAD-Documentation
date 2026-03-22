@@ -136,8 +136,8 @@ To obtain a straight line, directly towards the center, as hypocycloid, use the 
 To obtain a gear made of complete hypocycloid and epicycloid curves use the following [[Expressions|expressions]]:
 * {{PropertyData|inner_diameter}}: {{incode|0.5 + 1e-6}}
 * {{PropertyData|outer_diameter}}: {{incode|inner_diameter}}
-* {{PropertyData|clearance}}: {{incode|(-1 + inner_diameter/1mm) * 2}}
-* {{PropertyData|head}}: {{incode|(-1 + outer_diameter/1mm) * 2}}
+* {{PropertyData|clearance}}: {{incode|-1 + inner_diameter - 1e-06}}
+* {{PropertyData|head}}: {{incode|-1 + outer_diameter - 1e-06}}
 
 <!--T:32-->
 The reference diameter is ''d = m * z'', with ''m'' being the {{PropertyData|module}} and ''z'' being the {{PropertyData|num_teeth}}.
