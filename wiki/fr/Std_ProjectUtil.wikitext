@@ -44,7 +44,7 @@ Avec la commande '''Std Utilitaire de documents''', vous pouvez extraire des fic
 Il est important de réaliser que les fichiers contenus dans un document FreeCAD sont liés entre eux. La modification seule d'un seul fichier entraînera généralement des erreurs. Pour effectuer des modifications cohérentes sur plusieurs fichiers, utilisez un bon éditeur de code, tel que [https://notepad-plus-plus.org/ Notepad ++] (pour Windows) ou [https://notepadqq.com/s/ Notepadqq] (pour Linux) ou [https://vscodium.com/ VSCodium] (pour Mac et autres).
 
 <span id="Create_Document"></span>
-=== Créer un projet ===
+===Créer un document===
 
 # Sélectionnez l'option {{MenuCommand|Outils → [[Image:Std_ProjectUtil.svg|16px]] Utilitaire de projet...}} du menu.
 # La boîte de dialogue '''Utilitaire de projet''' s'ouvre.
