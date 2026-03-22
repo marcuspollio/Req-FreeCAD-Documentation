@@ -574,16 +574,14 @@ tab2.show()
 <span id="Enable_or_disable_a_window"></span>
 ===Włącz lub wyłącz okno===
 
-<div class="mw-translate-fuzzy">
 Skrypt ten daje możliwość manipulowania interfejsem użytkownika z [[Python_Console/pl|konsoli Python]], aby pokazać/ukryć różne komponenty w [[Interface/pl|interfejsie]] FreeCAD, takie jak:
 * [[Report_View/pl|Widok raportu]]
 * [[Tree_View/pl|Widok drzewa]]
 * [[Property_View/pl|Widok właściwości]]
 * [[Selection_View/pl|Widok wyboru]]
-* [[Combo_View/pl|Widok połączony]]
+* [[Combo_View/pl|Model]]
 * [[Python_Console/pl|Konsola Python]]
 * draftToolbar
-</div>
 
 {{Code|code=
 from PySide import QtGui
