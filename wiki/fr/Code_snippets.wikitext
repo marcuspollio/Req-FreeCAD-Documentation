@@ -154,9 +154,7 @@ me.Mesh=m
 
 Chaque objet dans un document FreeCAD a un objet de représentation de vue associé qui stocke tous les paramètres qui définissent la façon dont cet objet apparaît: c'est-à-dire la couleur, la largeur de ligne, etc... ici pour l'exemple Ajouter une maille Mesh ci dessus.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-See also [[#List the components of an object|List the components of an object]] snippet below.
-</div>
+Voir aussi [[#Lister_les_composantes_d.27un_objet|Lister les composantes d'un objet]].
 
 {{Code|code=
 gad = Gui.activeDocument() # access the active document containing all 
