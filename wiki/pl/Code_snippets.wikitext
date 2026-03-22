@@ -152,9 +152,7 @@ me.Mesh=m
 <span id="Access_and_change_the_representation_of_an_object"></span>
 ===Uzyskanie dostępu i zmiana reprezentację obiektu===
 
-<div class="mw-translate-fuzzy">
-Każdy obiekt w dokumencie FreeCAD ma powiązany obiekt reprezentacji widoku, który przechowuje wszystkie parametry definiujące sposób wyświetlania tego obiektu: tj. kolor, szerokość linii itp. Zobacz także fragment poniżej [[#Lista komponentów obiektu|Lista komponentów obiektu]].
-</div>
+Każdy obiekt w dokumencie FreeCAD ma przypisany obiekt reprezentacji widoku, który przechowuje wszystkie parametry określające wygląd tego obiektu: np. kolor, grubość linii itp. - jak w przypadku powyższego fragmentu kodu środowiska Siatka.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 See also [[#List the components of an object|List the components of an object]] snippet below.
