@@ -46,15 +46,15 @@ Il est important de réaliser que les fichiers contenus dans un document FreeCAD
 <span id="Create_Document"></span>
 ===Créer un document===
 
-# Sélectionnez l'option {{MenuCommand|Outils → [[Image:Std_ProjectUtil.svg|16px]] Utilitaire de projet...}} du menu.
-# La boîte de dialogue '''Utilitaire de projet''' s'ouvre.
-# Appuyez sur le bouton {{Button|...}} à droite de {{MenuCommand|Créer un projet → Source}}.
+# Sélectionnez l'option {{MenuCommand|Outils → [[Image:Std_ProjectUtil.svg|16px]] Utilitaire de documents}} du menu.
+# La boîte de dialogue '''Utilitaire de documents''' s'ouvre.
+# Appuyez sur le bouton {{Button|…}} à droite de {{MenuCommand|Créer un document → Source}}.
 # Sélectionnez le fichier {{FileName|Document.xml}}. La commande trouvera automatiquement tous les fichiers liés.
-# Appuyez sur le bouton {{Button|...}} à droite de {{MenuCommand|Créer un projet → Destination}}.
+# Appuyez sur le bouton {{Button|…}} à droite de {{MenuCommand|Créer un document → Destination}}.
 # Sélectionnez un dossier dans lequel le nouveau fichier de projet doit être créé.
 # Appuyez sur le bouton {{Button|Créer}}.
-# Un nouveau fichier de projet avec un nom fixe, {{FileName|project.fcstd}}, est créé dans le dossier sélectionné. Il n'y a aucun avertissement si un fichier portant ce nom existe déjà.
-# Cochez éventuellement la case '''Charger le fichier de projet après sa création'''.
+# Un nouveau document avec un nom fixe, {{FileName|project.fcstd}}, est créé dans le dossier sélectionné. Il n'y a aucun avertissement si un fichier portant ce nom existe déjà.
+# Cochez éventuellement la case '''Charger le fichier du document après la création'''.
 # Appuyez sur le bouton {{Button|Fermer}} pour fermer la boîte de dialogue.
 
 <span id="Notes"></span>
