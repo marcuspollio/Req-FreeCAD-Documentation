@@ -10,7 +10,7 @@
 <span id="Introduction"></span>
 == Introduction ==
 
-L'interface FreeCAD est basée sur la boîte à outils [https://fr.wikipedia.org/wiki/Qt Qt] et possède une bonne organisation. Certains aspects de l'interface peuvent être personnalisés. Vous pouvez, par exemple, ajouter des barres d'outils personnalisées avec des outils de plusieurs ateliers ou des outils définis dans des macros et vous pouvez créer vos propres raccourcis clavier. Mais les menus et barres d'outils par défaut fournis avec FreeCAD et ses ateliers ne peuvent pas être modifiés.
+L'interface de FreeCAD est basée sur la boîte à outils [https://fr.wikipedia.org/wiki/Qt Qt] et possède une bonne organisation. Certains aspects de l'interface peuvent être personnalisés. Vous pouvez, par exemple, ajouter des barres d'outils personnalisées avec des outils de plusieurs ateliers ou des outils définis dans des macros et vous pouvez créer vos propres raccourcis clavier. Mais les menus et barres d'outils par défaut fournis avec FreeCAD et ses ateliers ne peuvent pas être modifiés.
 
 [[Image:Std_DlgCustomize_tab_Toolbars.png]]
 {{Caption|La boite de dialogue de personnalisation de l'interface}}
@@ -175,7 +175,6 @@ Si vous souhaitez utiliser une macro téléchargée à partir d'une autre source
 <span id="Add_a_macro_command"></span>
 ==== Ajouter une commande macro====
 
-<div class="mw-translate-fuzzy">
 # Dans la liste déroulante '''Macro''', sélectionnez une macro.
 # Saisissez un '''Texte du menu'''. Ce sera le nom utilisé pour identifier la macro-commande et apparaîtra également dans la barre d'outils s'il n'y a pas d'icône.
 # Vous pouvez également saisir une '''Infobulle'''. Ce texte apparaîtra près de l'emplacement de la souris lorsque vous survolez l'icône de la barre d'outils.
@@ -185,12 +184,11 @@ Si vous souhaitez utiliser une macro téléchargée à partir d'une autre source
 # Pour ajouter une icône :
 ## Appuyez sur le bouton '''Icône''' {{Button|...}}.
 ## La fenêtre de dialogue '''Choisir une icône''' s'ouvre.
-## Si nécessaire, appuyez sur le bouton {{Button|Dossiers d'icônes...}} pour ajouter un dossier d'icônes.
+## Si nécessaire, appuyez sur le bouton {{Button|Répertoire des icônes}} pour ajouter un répertoire d'icônes.
 ## Sélectionnez une icône dans le panneau. La fenêtre de dialogue '''Choisir une icône''' se ferme automatiquement.
 # Appuyez sur le bouton {{Button|Ajouter}}.
 # La commande de la macro apparaît dans le panneau de gauche.
 # La commande de la macro peut maintenant être sélectionnée dans l'onglet [[#Barre d'outils|Barre d'outils]].
-</div>
 
 <span id="Remove_a_macro_command"></span>
 ==== Supprimer une commande de macro====
