@@ -27,7 +27,7 @@ With the '''Std ProjectUtil''' command you can extract files from a FreeCAD docu
 [[Image:Project_utility_en.png]]
 <translate>
 <!--T:5-->
-{{Caption|The Project Utility dialog box}}
+{{Caption|The Document Utility dialog box}}
 
 ==Usage== <!--T:6-->
 
@@ -51,7 +51,7 @@ It is important to realize that the files inside a FreeCAD document are interlin
 ===Create Document=== <!--T:11-->
 
 <!--T:12-->
-# Select the {{MenuCommand|Tools → [[Image:Std_ProjectUtil.svg|16px]] Project Utility}} option from the menu.
+# Select the {{MenuCommand|Tools → [[Image:Std_ProjectUtil.svg|16px]] Document Utility}} option from the menu.
 # The '''Project utility''' dialog box opens.
 # Press the {{Button|…}} button to the right of {{MenuCommand|Create Document → Source}}.
 # Select the {{FileName|Document.xml}} file. The command will be automatically find all linked files.
