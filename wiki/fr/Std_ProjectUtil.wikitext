@@ -29,12 +29,12 @@ Avec la commande '''Std Utilitaire de documents''', vous pouvez extraire des fic
 <span id="Extract_Document"></span>
 ===Extraire un document===
 
-# Sélectionnez l'option {{MenuCommand|Outils → [[Image:Std_ProjectUtil.svg|16px]] Utilitaire de projet...}} du menu.
-# La fenêtre de dialogue '''Utilitaire de projet''' s'ouvre.
-# Appuyez sur le bouton {{Button|...}} à droite de {{MenuCommand|Extraire le projet → Source}}.
+# Sélectionnez l'option {{MenuCommand|Outils → [[Image:Std_ProjectUtil.svg|16px]] Utilitaire de documents}} du menu.
+# La fenêtre de dialogue '''Utilitaire de documents''' s'ouvre.
+# Appuyez sur le bouton {{Button|…}} à droite de {{MenuCommand|Extraire un document → Source}}.
 # Sélectionnez le fichier {{FileName|*.FCStd}} que vous souhaitez modifier.
-# Appuyez sur le bouton {{Button|...}} à droite de {{MenuCommand |Extraire le projet → Destination}}.
-# Sélectionnez un dossier dans lequel le fichier de projet doit être extrait. Il est conseillé de sélectionner un dossier vide.
+# Appuyez sur le bouton {{Button|…}} à droite de {{MenuCommand |Extraire un document → Destination}}.
+# Sélectionnez un dossier dans lequel le document doit être extrait. Il est conseillé de sélectionner un dossier vide.
 # Appuyez sur le bouton {{Button|Extraire}}.
 # Appuyez sur le bouton {{Button|Fermer}} pour fermer la fenêtre de dialogue.
 
