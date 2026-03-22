@@ -152,9 +152,7 @@ me.Mesh=m
 <span id="Access_and_change_the_representation_of_an_object"></span>
 ===Zugriff und Änderung der Darstellung eines Objekts===
 
-<div class="mw-translate-fuzzy">
-Jedes Objekt in einem FreeCAD Dokument hat ein zugeordnetes Ansichtsdarstellungsobjekt, das alle Parameter speichert, die definieren, wie das Objekt erscheint: d.h. Farbe, Linienbreite, usw... Siehe auch [[#List the components of an object/de|Liste die Komponenten eines Objekts auf]] Schnipsel unten
-</div>
+Jedem Objekt in einem FreeCAD-Dokument ist ein Darstellungsobjekt zugeordnet, das alle Parameter speichert, die das Erscheinungsbild dieses Objekts bestimmen: z. B. Farbe, Linienstärke usw. Hier für den obigen Mesh-Ausschnitt.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 See also [[#List the components of an object|List the components of an object]] snippet below.
