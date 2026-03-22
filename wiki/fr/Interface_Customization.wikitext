@@ -168,7 +168,7 @@ Voir [[#Recherche|Clavier]].
 [[Image:Std_DlgCustomize_tab_Macros.png]]
 {{Caption|L'onglet Macros}}
 
-Cet onglet permet de définir des commandes de macro. Une fois configurées, elles peuvent être ajoutées à des barres d'outils personnalisées. Les macros installées avec le [[Image:Std_AddonMgr.svg|16px]] [[Std_AddonMgr/fr|gestionnaire des extensions]] sont configurées automatiquement et ajoutées à une barre d'outils {{Value|Globale}} (voir [[#Barre_d'outils|Barre d'outils]]), si vous confirmez le popup '''Ajouter un bouton''' pendant le processus d'installation.
+Cet onglet permet de définir des commandes des macros. Une fois configurées, elles peuvent être ajoutées à des barres d'outils personnalisées. Les macros installées avec le [[Image:Std_AddonMgr.svg|16px]] [[Std_AddonMgr/fr|gestionnaire des extensions]] sont configurées automatiquement et ajoutées à une barre d'outils {{Value|globale}} (voir [[#Barre_d'outils|Barre d'outils]]), si vous confirmez le popup '''Ajouter un bouton''' pendant le processus d'installation.
 
 Si vous souhaitez utiliser une macro téléchargée à partir d'une autre source, vous devrez l'installer manuellement. Voir [[How_to_install_macros/fr|Comment installer des macros]] pour plus d'informations. Notez que FreeCAD utilise un dossier dédié aux macros et que seules les macros de ce dossier peuvent être configurées. Utilisez la [[Image:Std_DlgMacroExecute.svg|16px]] [[Std_DlgMacroExecute/fr|Std Gérer les macros]] pour trouver ce dossier sur votre système.
 
