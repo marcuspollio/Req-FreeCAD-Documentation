@@ -76,6 +76,7 @@ Placeholder for an eye-catching image selected by the admins from the [https://f
 
 <!--T:60-->
 * Solver messages (overconstraint reports) were added to the Assembly task panel. [https://github.com/FreeCAD/FreeCAD/pull/24623 Pull request #24623]
+* A new command has been added to select all joints associated with a chosen component. [https://github.com/FreeCAD/FreeCAD/pull/27530 Pull request #27530]
 
 == BIM Workbench == <!--T:23-->
 
