@@ -149,6 +149,27 @@ me=doc.addObject("Mesh::Feature","Cube")
 me.Mesh=m
 }}
 {{Top}}
+<span id="Access_and_change_the_representation_of_an_object"></span>
+===Accéder et changer la représentation d'un objet===
+
+<div class="mw-translate-fuzzy">
+Chaque objet dans un document FreeCAD a un objet de représentation de vue associé qui stocke tous les paramètres qui définissent la façon dont cet objet apparaît: c'est-à-dire la couleur, la largeur de ligne, etc... Voir aussi l'extrait ci-dessous [[#Lister_les_composantes_d.27un_objet|Lister les composantes d'un objet]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+See also [[#List the components of an object|List the components of an object]] snippet below.
+</div>
+
+{{Code|code=
+gad = Gui.activeDocument() # access the active document containing all 
+                           # view representations of the features in the
+                           # corresponding App document 
+
+v = gad.getObject("Cube")  # access the view representation to the Mesh feature 'Cube' 
+v.ShapeColor               # prints the color to the console 
+v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
+}}
+{{Top}}
 <span id="Add_an_arc_or_a_circle"></span>
 ===Ajouter un arc ou un cercle===
 
@@ -162,21 +183,7 @@ f.Shape = c.toShape() # Assign the circle shape to the shape property
 doc.recompute()
 }}
 {{Top}}
-<span id="Access_and_change_the_representation_of_an_object"></span>
-===Accéder et changer la représentation d'un objet===
 
-Chaque objet dans un document FreeCAD a un objet de représentation de vue associé qui stocke tous les paramètres qui définissent la façon dont cet objet apparaît: c'est-à-dire la couleur, la largeur de ligne, etc... Voir aussi l'extrait ci-dessous [[#Lister_les_composantes_d.27un_objet|Lister les composantes d'un objet]].
-
-{{Code|code=
-gad = Gui.activeDocument() # access the active document containing all 
-                           # view representations of the features in the
-                           # corresponding App document 
-
-v = gad.getObject("Cube")  # access the view representation to the Mesh feature 'Cube' 
-v.ShapeColor               # prints the color to the console 
-v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
-}}
-{{Top}}
 <span id="Replace_the_form_of_mouse_with_one_image"></span>
 ===Remplacer la forme de la souris par une image===
 
