@@ -171,7 +171,6 @@ ToDo (last check: 20260318):
 <!--T:61-->
 * Interactive dragger was added to the [[Image:PartDesign_Draft.svg|24px]] [[PartDesign_Draft|Draft]] tool. [https://github.com/FreeCAD/FreeCAD/pull/27111 Pull request #27111]
 * Interactive draggers were added to the Sphere, Box and Cylinder tools. [https://github.com/FreeCAD/FreeCAD/pull/23700 Pull request #23700]
-* A new method has been added to split a B-spline curve into two curves at a given parameter. [https://github.com/FreeCAD/FreeCAD/pull/26716 Pull request #26716]
 
 == Points Workbench == <!--T:44-->
 
