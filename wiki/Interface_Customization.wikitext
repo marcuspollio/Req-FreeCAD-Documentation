@@ -249,7 +249,7 @@ FreeCAD supports complete theming of the interface, via .qss stylesheets. The [h
 
 <!--T:119-->
 You can also create your own theme if you are not satisfied with the themes that are bundled with FreeCAD, for example by editing an [https://github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets existing style sheet]. Your new style must be placed in a specific folder for it to be found by FreeCAD:
-* {{FileName|%APPDATA%/FreeCAD/Gui/Stylesheets}} (on Windows). The {{FileName|%APPDATA%}} folder can be retrieved by entering {{Incode|App.getUserAppDataDir()}} in the [[Python_console|Python console]].
+* {{FileName|%APPDATA%/FreeCAD/Gui/Stylesheets}} (on Windows). The {{FileName|%APPDATA%}} folder can be retrieved by entering {{Incode|App.getUserAppDataDir()}} in the [[Python_Console|Python console]].
 * {{FileName|$HOME/.FreeCAD/Gui/Stylesheets}} (on Linux).
 * {{FileName|$HOME/Library/Application Support/FreeCAD/Gui/Stylesheets}} (on macOS).
 
