@@ -9,9 +9,6 @@
 |IconC=Workbench_BIM.svg
 }}
 
-{{VeryImportantMessage|Cette commande fait partie de l'ensemble intégré de l'[[BIM_Workbench/fr|atelier BIM]] avec la V1.0<br>
-Cette page a été mise à jour pour cette version.}}
-
 {{GuiCommand/fr
 |Name=Arch Axis
 |Name/fr=Arch Axes
@@ -23,7 +20,7 @@ Cette page a été mise à jour pour cette version.}}
 
 ==Description==
 
-L'outil {{Button|[[Image:Arch_Axis.svg|16px]] [[Arch_Axis/fr|Axes]]}} vous permet de placer une série d'axes dans le document en cours. La distance et l'angle entre les axes sont personnalisables, ainsi que le style de numérotation. Les axes servent principalement de références pour accrocher des objets mais peuvent également être utilisés avec {{Button|[[Image:Arch_AxisSystem.svg|16px]] [[Arch_AxisSystem/fr|Arch Système d'axes]]}}. Ils peuvent également être référencés par d'autres objets Arch pour créer des réseaux paramétriques, par exemple des poutres ou des colonnes. {{Button|[[Image:Arch_Grid.svg|16px]] [[Arch_Grid/fr|Arch Grilles]]}} peut également être utilisé à la place des axes.
+L'outil {{Button|[[Image:Arch_Axis.svg|16px]] [[Arch_Axis/fr|Arch Axes]]}} vous permet de placer une série d'axes dans le document en cours. La distance et l'angle entre les axes sont personnalisables, ainsi que le style de numérotation. Les axes servent principalement de références pour accrocher des objets mais peuvent également être utilisés avec {{Button|[[Image:Arch_AxisSystem.svg|16px]] [[Arch_AxisSystem/fr|Arch Système d'axes]]}}. Ils peuvent également être référencés par d'autres objets Arch pour créer des réseaux paramétriques, par exemple des poutres ou des colonnes. {{Button|[[Image:Arch_Grid.svg|16px]] [[Arch_Grid/fr|Arch Grilles]]}} peut également être utilisé à la place des axes.
 
 [[Image:Arch Axis example.jpg|600px]]
 {{Caption|Deux objets axes placés perpendiculairement l'un par rapport à l'autre pour créer une grille}}
