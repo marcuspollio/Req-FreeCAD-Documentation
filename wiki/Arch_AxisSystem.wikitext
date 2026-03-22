@@ -22,7 +22,7 @@
 ==Description== <!--T:2-->
 
 <!--T:3-->
-The [[Arch AxisSystem|AxisSystem]] tool allows you to combine two or three [[Arch Axis|Arch Axis]] objects.
+The [[Image:Arch_AxisSystem.svg|16px]] [[Arch AxisSystem|AxisSystem]] tool allows you to combine two or three [[Arch_Axis|Arch Axis]] objects.
 
 <!--T:15-->
 This is useful to define the intersection points between the different axes. Arch objects can then use this system to duplicate their shape on the different intersection points.
@@ -30,8 +30,9 @@ This is useful to define the intersection points between the different axes. Arc
 </translate>
 [[Image:Arch AxisSystem example.jpg|600px]]
 <translate>
+
 <!--T:5-->
-{{Caption|Three [[Arch_Axis|Arch Axis]] objects combined into one [[Arch AxisSystem|Arch AxisSystem]]. An [[Arch Structure|Arch Structure]] object uses this system as its {{PropertyData|Axis}} property, to have its shape duplicated at each intersection point.}}
+{{Caption|Three [[Arch_Axis|Arch Axis]] objects combined into one [[Arch_AxisSystem|Arch AxisSystem]]. An [[Arch_Structure|Arch Structure]] object uses this system as its {{PropertyData|Axis}} property, to have its shape duplicated at each intersection point.}}
 
 ==Usage== <!--T:6-->
 
@@ -39,7 +40,7 @@ This is useful to define the intersection points between the different axes. Arc
 # Optionally, select the [[Arch_Axis|Arch Axis]] objects you wish to include in this system.
 # Press the {{Button|[[Image:Arch_AxisSystem.svg|16px]] [[Arch_AxisSystem|Axis System]]}} button.
 # Right-click the newly created axes system object in the Tree View to add/edit the [[Arch_Axis|Arch Axis]] objects included in this system.
-# Select any existing [[Arch Axis]] and press {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add|Add]]}} or {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch_Remove|Remove]]}} buttons to add or remove it to/from this system.
+# Select any existing [[Arch Axis]] and press {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add|Add Component]]}} or {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch_Remove|Remove Component]]}} buttons to add or remove it to/from this system.
 # Set the {{PropertyData|Axis}} property of any Arch object to point to this system, to have its shape duplicated to the intersection points of this system.
 
 ==Options== <!--T:8-->
@@ -55,6 +56,7 @@ See also: [[Arch_API|Arch API]] and [[FreeCAD_Scripting_Basics|FreeCAD Scripting
 
 <!--T:11-->
 The AxisSystem tool can be used in [[Macros|macros]] and from the [[Python|Python]] console by using the following function:
+
 </translate>
 {{Code|code=
 AxisSystem = makeAxisSystem(axes, name="Axis System")
@@ -66,6 +68,7 @@ AxisSystem = makeAxisSystem(axes, name="Axis System")
 
 <!--T:13-->
 Example:
+
 </translate>
 {{Code|code=
 import Draft, Arch
