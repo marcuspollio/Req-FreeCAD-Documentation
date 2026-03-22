@@ -23,7 +23,7 @@
 ==Description== <!--T:2-->
 
 <!--T:3-->
-The {{Button|[[Image:Arch Axis.svg|16px]] [[Arch Axis|Arch Axis]]}} tool allows you to place a series of axes in the current document. The distance and the angle between axes is customizable, as well as the numbering style. The axes serve mainly as references to snap objects onto, but can also be used together with {{Button|[[Image:Arch_AxisSystem.svg|16px]] [[Arch AxisSystem|Arch AxisSystems]]}}. They can also be referenced by other Arch objects to create parametric arrays, for example of beams or columns. {{Button|[[Image:Arch Grid.svg|16px]] [[Arch Grid|Arch Grids]]}} can also be used in places of axes.
+The {{Button|[[Image:Arch Axis.svg|16px]] [[Arch_Axis|Arch Axis]]}} tool allows you to place a series of axes in the current document. The distance and the angle between axes is customizable, as well as the numbering style. The axes serve mainly as references to snap objects onto, but can also be used together with {{Button|[[Image:Arch_AxisSystem.svg|16px]] [[Arch_AxisSystem|Arch AxisSystems]]}}. They can also be referenced by other Arch objects to create parametric arrays, for example of beams or columns. {{Button|[[Image:Arch Grid.svg|16px]] [[Arch_Grid|Arch Grids]]}} can also be used in places of axes.
 
 </translate>
 [[Image:Arch Axis example.jpg|600px]]
@@ -49,24 +49,24 @@ The {{Button|[[Image:Arch Axis.svg|16px]] [[Arch Axis|Arch Axis]]}} tool allows 
 ==Properties== <!--T:12-->
 
 <!--T:13-->
-* {{PropertyData|Length}}: The length of the axes
-* {{PropertyData|Limit}}: If greater than zero, each axis will be represented as two lines of the given length instead of one continuous line {{Version|0.20}}
-* {{PropertyView|Bubble Size}}: The size of the axis bubbles
-* {{PropertyView|Numeration style}}: How the axes are numbered: 1,2,3, A,B,C, etc…
+* {{PropertyData|Length}}: The length of the axes.
+* {{PropertyData|Limit}}: If greater than zero, each axis will be represented as two lines of the given length instead of one continuous line.
+* {{PropertyView|Bubble Size}}: The size of the axis bubbles.
+* {{PropertyView|Numeration style}}: How the axes are numbered: 1,2,3, A,B,C, etc.
 * {{PropertyView|Bubble Position}}: Where the bubble is placed on the axis: At start point, endpoint, both or none.
-* {{PropertyView|Font Name}}: A font to draw the bubble number and/or labels
-* {{PropertyView|Font Size}}: The size of the label text only (bubble text is controlled by the bubble size)
-* {{PropertyView|Show Labels}}: Turns the display of the label texts on/off
+* {{PropertyView|Font Name}}: A font to draw the bubble number and/or labels.
+* {{PropertyView|Font Size}}: The size of the label text only (bubble text is controlled by the bubble size).
+* {{PropertyView|Show Labels}}: Turns the display of the label texts on/off.
 
 ==Use as section mark== <!--T:25-->
 
 <!--T:26-->
-By setting the '''Bubble Position''' property to '''Arrow left/right''' or '''Bar left/right''', the axis will display a filled arrow or bar instead of the bubble, so it can be used as a section mark. {{Version|0.20}}
+By setting the '''Bubble Position''' property to '''Arrow left/right''' or '''Bar left/right''', the axis will display a filled arrow or bar instead of the bubble, so it can be used as a section mark.
 
 ==Scripting== <!--T:27-->
 
 <!--T:14-->
-See also: [[Arch API|Arch API]] and [[FreeCAD Scripting Basics|FreeCAD Scripting Basics]].
+See also: [[Arch_API|Arch API]] and [[FreeCAD_Scripting_Basics|FreeCAD Scripting Basics]].
 
 <!--T:15-->
 The Axis tool can be used in [[Macros|macros]] and from the [[Python|Python]] console by using the following function:
