@@ -37,7 +37,7 @@ L'outil '''Arch Référence externe''' vous permet de placer un objet dans le do
 * Si l'objet original est déplacé dans le fichier contenant, ce mouvement sera reflété dans l'objet de référence.
 * En cliquant avec le bouton droit de la souris sur un objet de référence dans l'arborescence, vous avez le choix entre recharger l'objet d'origine ou ouvrir le fichier qui le contient.
 * Pour référencer plusieurs objets à la fois, placez-les dans un [[Arch_BuildingPart/fr|Arch Partie de bâtiment]].
-* Lorsque vous désactivez la propriété de vue '''Update Colors''' de la référence, les couleurs d'origine ne sont plus rechargées, vous pouvez donc les modifier en toute sécurité.
+* Lorsque vous désactivez la propriété d'affichage  '''Update Colors''' de la référence, les couleurs d'origine ne sont plus rechargées, vous pouvez donc les modifier en toute sécurité.
 
 <span id="Properties"></span>
 ==Propriétés==
