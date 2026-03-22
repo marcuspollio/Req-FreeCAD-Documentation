@@ -179,6 +179,28 @@ me.Mesh=m
 }}
 {{Top}}
 <div lang="en" dir="ltr" class="mw-content-ltr">
+===Access and change the representation of an object===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Each object in a FreeCAD document has an associated view representation object that stores all the parameters that define how that object appears: i.e. color, linewidth, etc... here for the Mesh snippet above.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+See also [[#List the components of an object|List the components of an object]] snippet below.
+</div>
+
+{{Code|code=
+gad = Gui.activeDocument() # access the active document containing all 
+                           # view representations of the features in the
+                           # corresponding App document 
+
+v = gad.getObject("Cube")  # access the view representation to the Mesh feature 'Cube' 
+v.ShapeColor               # prints the color to the console 
+v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
+}}
+{{Top}}
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ===Add an arc or a circle===
 </div>
 
@@ -192,24 +214,7 @@ f.Shape = c.toShape() # Assign the circle shape to the shape property
 doc.recompute()
 }}
 {{Top}}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Access and change the representation of an object===
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Each object in a FreeCAD document has an associated view representation object that stores all the parameters that define how that object appears: i.e. color, linewidth, etc... See also [[#List the components of an object|List the components of an object]] snippet below
-</div>
-
-{{Code|code=
-gad = Gui.activeDocument() # access the active document containing all 
-                           # view representations of the features in the
-                           # corresponding App document 
-
-v = gad.getObject("Cube")  # access the view representation to the Mesh feature 'Cube' 
-v.ShapeColor               # prints the color to the console 
-v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
-}}
-{{Top}}
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Replace the form of mouse with one image===
 </div>
