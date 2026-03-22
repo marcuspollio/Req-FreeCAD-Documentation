@@ -45,11 +45,11 @@ L'outil {{Button|[[Image:Arch_Axis.svg|16px]] [[Arch_Axis/fr|Arch Axes]]}} vous 
 * {{PropertyData|Length}} : longueur des axes.
 * {{PropertyData|Limit}} : si supérieure à zéro, chaque axe sera représenté par deux lignes de la longueur donnée au lieu d'une ligne continue. {{Version/fr|0.20}}
 * {{PropertyView|Bubble Size}} : taille des infobulles des axes.
-* {{PropertyView|Numeration style}} : style de numérotation : 1,2,3, A,B,C, etc...
+* {{PropertyView|Numeration style}} : style de numérotation : 1,2,3, A,B,C, etc.
 * {{PropertyView|Bubble Position}} : position de l'infobulle sur l'axe : point de départ, point à la fin, les deux ou aucun.
-* {{PropertyView|Font Name}} : police du numéro de l'infobulle et/ou des étiquettes
-* {{PropertyView|Font Size}} : taille du texte de l'étiquette uniquement (le texte de l'infobullee est contrôlé par la taille de l'infobulle)
-* {{PropertyView|Show Labels}} : active/désactive l'affichage du textes des étiquettes
+* {{PropertyView|Font Name}} : police du numéro de l'infobulle et/ou des étiquettes.
+* {{PropertyView|Font Size}} : taille du texte de l'étiquette uniquement (le texte de l'infobullee est contrôlé par la taille de l'infobulle).
+* {{PropertyView|Show Labels}} : active/désactive l'affichage du textes des étiquettes.
 
 <span id="Use_as_section_mark"></span>
 ==Utilisation comme marque de section==
