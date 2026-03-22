@@ -18,7 +18,7 @@
 
 ==Description==
 
-Crée un composant [[BIM_Workbench/fr|Arch]] non-paramétrique à partir de n'importe quel objet [[Part_Workbench/fr|Part]]. Cela donne un objet de base Part avec les mêmes attributs et propriétés que les autres objets Arch et permet de préciser comment il doit être exporté au format IFC en définissant sa propriété {{PropertyData|Ifc Type}}.
+Crée un composant [[BIM_Workbench/fr|Arch]] non-paramétrique à partir de n'importe quel objet de base [[Part_Workbench/fr|Part]]. Cela donne un objet de base Part avec les mêmes attributs et propriétés que les autres objets Arch et permet de préciser comment il doit être exporté au format IFC en définissant sa propriété {{PropertyData|Ifc Type}}.
 
 <span id="Usage"></span>
 ==Utilisation==
