@@ -149,6 +149,27 @@ me=doc.addObject("Mesh::Feature","Cube")
 me.Mesh=m
 }}
 {{Top}}
+<span id="Access_and_change_the_representation_of_an_object"></span>
+===Zugriff und Änderung der Darstellung eines Objekts===
+
+<div class="mw-translate-fuzzy">
+Jedes Objekt in einem FreeCAD Dokument hat ein zugeordnetes Ansichtsdarstellungsobjekt, das alle Parameter speichert, die definieren, wie das Objekt erscheint: d.h. Farbe, Linienbreite, usw... Siehe auch [[#List the components of an object/de|Liste die Komponenten eines Objekts auf]] Schnipsel unten
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+See also [[#List the components of an object|List the components of an object]] snippet below.
+</div>
+
+{{Code|code=
+gad = Gui.activeDocument() # access the active document containing all 
+                           # view representations of the features in the
+                           # corresponding App document 
+
+v = gad.getObject("Cube")  # access the view representation to the Mesh feature 'Cube' 
+v.ShapeColor               # prints the color to the console 
+v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
+}}
+{{Top}}
 <span id="Add_an_arc_or_a_circle"></span>
 ===Hinzufügen eines Bogens oder eines Kreises===
 
@@ -162,21 +183,7 @@ f.Shape = c.toShape() # Assign the circle shape to the shape property
 doc.recompute()
 }}
 {{Top}}
-<span id="Access_and_change_the_representation_of_an_object"></span>
-===Zugriff und Änderung der Darstellung eines Objekts===
 
-Jedes Objekt in einem FreeCAD Dokument hat ein zugeordnetes Ansichtsdarstellungsobjekt, das alle Parameter speichert, die definieren, wie das Objekt erscheint: d.h. Farbe, Linienbreite, usw... Siehe auch [[#List the components of an object/de|Liste die Komponenten eines Objekts auf]] Schnipsel unten
-
-{{Code|code=
-gad = Gui.activeDocument() # access the active document containing all 
-                           # view representations of the features in the
-                           # corresponding App document 
-
-v = gad.getObject("Cube")  # access the view representation to the Mesh feature 'Cube' 
-v.ShapeColor               # prints the color to the console 
-v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
-}}
-{{Top}}
 <span id="Replace_the_form_of_mouse_with_one_image"></span>
 ===Ersetze die Form der Maus durch ein Bild===
 
