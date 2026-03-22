@@ -22,7 +22,7 @@
 ==Description== <!--T:2-->
 
 <!--T:3-->
-The [[Image:Arch_AxisSystem.svg|16px]] [[Arch AxisSystem|AxisSystem]] tool allows you to combine two or three [[Arch_Axis|Arch Axis]] objects.
+The [[Image:Arch_AxisSystem.svg|16px]] [[Arch_AxisSystem|Arch AxisSystem]] tool allows you to combine two or three [[Arch_Axis|Arch Axis]] objects.
 
 <!--T:15-->
 This is useful to define the intersection points between the different axes. Arch objects can then use this system to duplicate their shape on the different intersection points.
