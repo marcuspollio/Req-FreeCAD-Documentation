@@ -152,6 +152,27 @@ me=doc.addObject("Mesh::Feature","Cube")
 me.Mesh=m
 }}
 {{Top}}
+<span id="Access_and_change_the_representation_of_an_object"></span>
+=== Accedere alla rappresentazione di un oggetto e modificarla  ===
+
+<div class="mw-translate-fuzzy">
+A ogni oggetto di un documento di FreeCAD è associato un oggetto di rappresentazione della sua vista in cui sono memorizzati tutti i parametri che definiscono il modo in cui l'oggetto deve apparire, come il colore, la larghezza di linea, ecc... Vedere anche lo snippet sottostante [[Code_snippets/it#Elencare_i_componenti_di_un_oggetto|Elencare i componenti di un oggetto]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+See also [[#List the components of an object|List the components of an object]] snippet below.
+</div>
+
+{{Code|code=
+gad = Gui.activeDocument() # access the active document containing all 
+                           # view representations of the features in the
+                           # corresponding App document 
+
+v = gad.getObject("Cube")  # access the view representation to the Mesh feature 'Cube' 
+v.ShapeColor               # prints the color to the console 
+v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
+}}
+{{Top}}
 <span id="Add_an_arc_or_a_circle"></span>
 === Aggiungere un arco o un cerchio ===
 
@@ -165,21 +186,7 @@ f.Shape = c.toShape() # Assign the circle shape to the shape property
 doc.recompute()
 }}
 {{Top}}
-<span id="Access_and_change_the_representation_of_an_object"></span>
-=== Accedere alla rappresentazione di un oggetto e modificarla  ===
 
-A ogni oggetto di un documento di FreeCAD è associato un oggetto di rappresentazione della sua vista in cui sono memorizzati tutti i parametri che definiscono il modo in cui l'oggetto deve apparire, come il colore, la larghezza di linea, ecc... Vedere anche lo snippet sottostante [[Code_snippets/it#Elencare_i_componenti_di_un_oggetto|Elencare i componenti di un oggetto]].
-
-{{Code|code=
-gad = Gui.activeDocument() # access the active document containing all 
-                           # view representations of the features in the
-                           # corresponding App document 
-
-v = gad.getObject("Cube")  # access the view representation to the Mesh feature 'Cube' 
-v.ShapeColor               # prints the color to the console 
-v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
-}}
-{{Top}}
 <span id="Replace_the_form_of_mouse_with_one_image"></span>
 ===Sostituire la forma del mouse con un'immagine===
 
