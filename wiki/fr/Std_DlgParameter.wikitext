@@ -29,7 +29,7 @@ L'utilisation de l'éditeur de paramètres requiert une certaine expérience. Po
 <span id="Usage"></span>
 ==Utilisation==
 
-# Sélectionnez l'option {{MenuCommand|Outils → [[Image:Std_DlgParameter.svg|16px]] Éditer les paramètres...}} du menu.
+# Sélectionnez l'option {{MenuCommand|Outils → [[Image:Std_DlgParameter.svg|16px]] Éditer les paramètres}} du menu.
 # La fenêtre de dialogue '''Éditeur de paramètres''' s'ouvre. Pour plus d'informations, voir [[#Options|Options]].
 # Appuyez sur le bouton {{Button|Sauvegarder sur le disque}} pour mettre à jour immédiatement le fichier {{FileName|user.cfg}}. Cela n'est pas nécessaire car FreeCAD mettra automatiquement à jour ce fichier à la fermeture de l'application.
 # Appuyez sur le bouton {{Button|Fermer}} pour fermer la fenêtre de dialogue et terminer la commande.
