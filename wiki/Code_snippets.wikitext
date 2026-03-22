@@ -183,6 +183,27 @@ me.Mesh=m
 
 </translate>{{Top}}<translate>
 
+===Access and change the representation of an object=== <!--T:14-->
+
+<!--T:103-->
+Each object in a FreeCAD document has an associated view representation object that stores all the parameters that define how that object appears: i.e. color, linewidth, etc... here for the Mesh snippet above.
+
+See also [[#List the components of an object|List the components of an object]] snippet below.
+
+</translate>
+{{Code|code=
+gad = Gui.activeDocument() # access the active document containing all 
+                           # view representations of the features in the
+                           # corresponding App document 
+
+v = gad.getObject("Cube")  # access the view representation to the Mesh feature 'Cube' 
+v.ShapeColor               # prints the color to the console 
+v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
+}}
+<translate>
+
+</translate>{{Top}}<translate>
+
 ===Add an arc or a circle=== <!--T:13-->
 
 </translate>
@@ -199,24 +220,6 @@ doc.recompute()
 
 </translate>{{Top}}<translate>
 
-===Access and change the representation of an object=== <!--T:14-->
-
-<!--T:103-->
-Each object in a FreeCAD document has an associated view representation object that stores all the parameters that define how that object appears: i.e. color, linewidth, etc... See also [[#List the components of an object|List the components of an object]] snippet below
-
-</translate>
-{{Code|code=
-gad = Gui.activeDocument() # access the active document containing all 
-                           # view representations of the features in the
-                           # corresponding App document 
-
-v = gad.getObject("Cube")  # access the view representation to the Mesh feature 'Cube' 
-v.ShapeColor               # prints the color to the console 
-v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
-}}
-<translate>
-
-</translate>{{Top}}<translate>
 
 ===Replace the form of mouse with one image=== <!--T:142-->
 
