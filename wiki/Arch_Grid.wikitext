@@ -22,7 +22,7 @@
 ==Description== <!--T:2-->
 
 <!--T:3-->
-The '''Arch Grid''' tool allows you to place a grid-like object in the document. This object is meant to serve as a base to build Arch objects that need a regular but complex frame, such as windows, curtain walls, column grids, railings, etc. The Grid object is editable like a spreadsheet, where you can add or remove columns and rows, define their size, and merge cells.
+The [[Image:Arch_Grid.svg|16px]] [[Arch_Grid|Grid]] tool allows you to place a grid-like object in the document. This object is meant to serve as a base to build Arch objects that need a regular but complex frame, such as windows, curtain walls, column grids, railings, etc. The Grid object is editable like a spreadsheet, where you can add or remove columns and rows, define their size, and merge cells.
 
 <!--T:4-->
 The Grid is a 2D object, and can therefore be used anywhere a 2D shape such as a [[Draft_Workbench|Draft]] or [[Sketcher_Workbench|Sketch]] is needed, but it can also behave as a [[Arch_AxisSystem|Arch AxisSystem]], and be used to propagate the placement of other Arch objects.
@@ -30,6 +30,7 @@ The Grid is a 2D object, and can therefore be used anywhere a 2D shape such as a
 </translate>
 [[Image:Arch Grid example.jpg|600px]]
 <translate>
+
 <!--T:6-->
 {{Caption|An array of columns, a railing system, and a window, each based on an [[Arch_Grid|Arch Grid]] object.}}
 
