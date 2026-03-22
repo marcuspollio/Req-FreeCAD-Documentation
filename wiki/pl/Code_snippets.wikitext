@@ -154,9 +154,7 @@ me.Mesh=m
 
 Każdy obiekt w dokumencie FreeCAD ma przypisany obiekt reprezentacji widoku, który przechowuje wszystkie parametry określające wygląd tego obiektu: np. kolor, grubość linii itp. - jak w przypadku powyższego fragmentu kodu środowiska Siatka.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-See also [[#List the components of an object|List the components of an object]] snippet below.
-</div>
+Zobacz również poniższy fragment kodu [[#Lista_komponentów_obiektu|Lista komponentów obiektu]].
 
 {{Code|code=
 gad = Gui.activeDocument() # access the active document containing all 
