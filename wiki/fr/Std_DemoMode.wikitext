@@ -2,23 +2,23 @@
 
 {{Docnav/fr
 |[[Std_TextDocument/fr|Ajouter un document texte]]
-|[[Std_UnitsCalculator/fr|Convertisseur d'unités]]
+|[[Std_SceneInspector/fr|Inspecteur du graphe de scène‏‎]]
 |[[Std_Tools_Menu/fr|Menu Outils]]
 |IconL=Std_TextDocument.svg
-|IconR=Std_UnitsCalculator.svg
+|IconR=Std_SceneInspector.svg
 |IconC=Freecad.svg
 }}
 
 {{GuiCommand/fr
 |Name=Std DemoMode
 |Name/fr=Std Vue en rotation
-|MenuLocation=Outils → Faire tourner la vue...
+|MenuLocation=Outils → Faire tourner la vue
 |Workbenches=Tous
 }}
 
 ==Description==
 
-La commande '''Std Vue en rotation''' fera tourner la caméra en continu dans une [[3D view/fr|vue 3D]].
+La commande '''Std Vue en rotation''' fera tourner la caméra en continu dans une [[3D_View/fr|vue 3D]].
 
 [[Image:Std_DemoMode_dialog.png]]
 {{Caption|La fenêtre de dialogue Vue en rotation}}
@@ -26,7 +26,7 @@ La commande '''Std Vue en rotation''' fera tourner la caméra en continu dans un
 <span id="Usage"></span>
 ==Utilisation==
 
-# Sélectionnez l'option {{MenuCommand|Outils → [[Image:Std_DemoMode.svg|16px]] Faire tourner la vue...}} du menu.
+# Sélectionnez l'option {{MenuCommand|Outils → [[Image:Std_DemoMode.svg|16px]] Faire tourner la vue}} du menu.
 # La fenêtre de dialogue '''Vue en rotation''' s'ouvre.
 # Déplacez le curseur '''Angle''' pour incliner le plateau tournant virtuel de la caméra.
 # Déplacez le curseur '''Vitesse''' pour régler la vitesse de rotation de la caméra.
@@ -46,10 +46,10 @@ La commande '''Std Vue en rotation''' fera tourner la caméra en continu dans un
 
 {{Docnav/fr
 |[[Std_TextDocument/fr|Ajouter un document texte]]
-|[[Std_UnitsCalculator/fr|Convertisseur d'unités]]
+|[[Std_SceneInspector/fr|Inspecteur du graphe de scène‏‎]]
 |[[Std_Tools_Menu/fr|Menu Outils]]
 |IconL=Std_TextDocument.svg
-|IconR=Std_UnitsCalculator.svg
+|IconR=Std_SceneInspector.svg
 |IconC=Freecad.svg
 }}
 
