@@ -28,6 +28,8 @@ Placeholder for an eye-catching image selected by the admins from the [https://f
 
 == General == <!--T:7-->
 
+* Multiple documents can now be edited simultaneously with independent tasks and undo/redo stacks, for example having two Sketches open at the same time (GSoC project). [https://github.com/FreeCAD/FreeCAD/pull/21978 Pull request #21978]
+
 == User interface == <!--T:8-->
 
 === Further user interface improvements === <!--T:9-->
