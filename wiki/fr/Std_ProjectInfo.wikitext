@@ -24,10 +24,10 @@ La commande '''Informations sur le document''' affiche une fenêtre de dialogue 
 <span id="Usage"></span>
 ==Utilisation==
 
-# Sélectionnez l'option {{MenuCommand|Fichier → [[Image:Std_ProjectInfo.svg|16px]] Informations sur le document...}} du menu.
+# Sélectionnez l'option {{MenuCommand|Fichier → [[Image:Std_ProjectInfo.svg|16px]] Informations sur le document}} du menu.
 # Une fenêtre de dialogue contenant les informations suivantes apparaît :
 #* '''Nom''' : nom du document. Correspond à la propriété Label du document. ''Non modifiable.''
-#* '''Chemin d'accès''' : chemin complet du fichier. Vide si le fichier n'a pas été sauvegardé. ''Non modifiable.''
+#* '''Chemin d'accès''' : chemin d'accès complet du fichier. Vide si le fichier n'a pas été sauvegardé. ''Non modifiable.''
 #* '''UUID''' : FreeCAD met automatiquement une valeur de checksum. ''Non modifiable.''
 #* '''Version du programme''' : version de FreeCAD utilisée pour sauvegarder le fichier. Vide si le fichier n'a pas été sauvegardé. ''Non éditable.''
 #* '''Système d'unités''' : système d'unités du document. ''La valeur initiale dépend du [[Preferences_Editor/fr#Général_2|système d'unités par défaut]].'' {{Version/fr|1.0}}
