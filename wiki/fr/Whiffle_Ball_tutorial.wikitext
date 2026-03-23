@@ -31,8 +31,8 @@ Vous vous exercerez à :
 
 1. Ouvrez FreeCAD, créez un nouveau document vide avec {{MenuCommand|Fichier → [[File:Std_New.svg|16px]] [[Std_New/fr|Nouveau document]]}} et passez à l'[[Part_Workbench/fr|atelier Part]].
 :1.1. Appuyez sur le bouton {{Button|[[File:Std_ViewIsometric.svg|16px]] [[Std_ViewIsometric/fr|Vue isométrique]]}} ou appuyez sur {{KEY|0}} sur le pavé numérique pour changer la vue à isométrique pour mieux visualiser les solides 3D.
-:1.2. Appuyez sur le bouton {{Button|[[File:Std_ViewFitAll.svg|16px]] [[Std_ViewFitAll|Tout afficher]]}} chaque fois que vous ajoutez des objets afin de faire un panoramique et un zoom sur la [[3D_View/fr|Vue 3D]] afin que tous les éléments sont visibles dans la vue.
-:1.3. Maintenez {{KEY|Ctrl}} pendant que vous cliquez pour sélectionner plusieurs éléments. Si vous avez sélectionné quelque chose de mal ou que vous voulez tout désélectionner, cliquez simplement sur un espace vide dans la [[3D_View/fr|Vue 3D]].
+:1.2. Appuyez sur le bouton {{Button|[[File:Std_ViewFitAll.svg|16px]] [[Std_ViewFitAll/fr|Tout afficher]]}} chaque fois que vous ajoutez des objets afin de faire un panoramique et un zoom sur la [[3D_View/fr|vue 3D]] afin que tous les éléments sont visibles dans la vue.
+:1.3. Maintenez {{KEY|Ctrl}} pendant que vous cliquez pour sélectionner plusieurs éléments. Si vous avez sélectionné quelque chose de mal ou que vous voulez tout désélectionner, cliquez simplement sur un espace vide dans la [[3D_View/fr|vue 3D]].
 
 <span id="Insert_primitive_cubes"></span>
 == Insérer des cubes primitifs ==
