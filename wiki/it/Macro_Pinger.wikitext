@@ -18,7 +18,7 @@
 Utilizzare questa macro per inviare un ping a un altro utente del forum, in modo che riceva una notifica. Per inviare un ping è necessario conoscere esattamente il nome utente e l'ID utente. Si deve anche conoscere la sintassi necessaria per generare il ping. È un processo tutt'altro che intuitivo, per usare un eufemismo. Ecco che arriva la macro Pinger a risolvere il problema. Eseguire la macro, selezionare l'utente che si desidera pingare, fare clic sul pulsante {{Button|Ping}} e copiare e incollare il codice nel messaggio del forum.
 
 [[File:Pinger_scr.png|600px]]
-{{Caption|Pinger screenshot}}
+{{Caption|Screenshot di Pinger }}
 
 == Parameters == 
 
