@@ -28,18 +28,16 @@ Puis il y a des outils plus avancés. Vous commencez par dessiner une esquisse e
 
 Commençons par la création d'un pied en fer en L (cornière) pour fabriquer un établi, avec ces deux méthodes.
 
-<div class="mw-translate-fuzzy">
 == 1ère méthode - par géométrie de construction de solides ==
 
 # Commencez avec l'[[Part_Workbench/fr|atelier Part]] [[Image:Switch PartWorkbench.JPG]].
-# Si vous n'avez pas créé un nouveau document FreeCAD (l'essentiel de la fenêtre de FreeCAD paraît alors grisée), allez dans le menu déroulant {{MenuCommand|Fichier → Nouveau}} ou cliquez sur [[Image:Std_New.svg|32px|link=Std_New/fr]] '''Créer un nouveau document vide'''.
-# Cliquez sur le bouton [[Image:Part_Box.svg|32px]] [[Part_Box/fr|Cube]] pour créer un cube.
-# Changez ses dimensions en le sélectionnant soit dans l'espace 3D, soit en le cliquant dans l'onglet Projet à gauche, puis
+# Si vous n'avez pas créé un nouveau document FreeCAD (l'essentiel de la fenêtre de FreeCAD paraît alors grisée), allez dans le menu déroulant {{MenuCommand|Fichier → Nouveau document}} ou cliquez sur [[Image:Std_New.svg|32px|link=Std_New/fr]] '''Créer un nouveau document vide'''.
+# Cliquez sur le bouton [[Image:Part_Box.svg|32px]] [[Part_Box/fr|Cube]] pour créer un cube. '''Remarque''': à l'époque où ces captures ont été prises, les cubes étaient appelés des boîtes.
+# Changez ses dimensions en le sélectionnant soit dans l'espace 3D, soit en le cliquant dans l'onglet '''Modèle''' à gauche, puis
 # Cliquez sur l'onglet Données en bas, et changez les valeurs de la Longueur, de la Largeur et de la Hauteur en 50mm, 50 et 750 ''(voir Fig. 1.1)''. '''Remarque''' : ''lorsque ces captures ont été faites, les propriétés étaient classées différemment, la Hauteur étant la première''.
-# La boîte remplit maintenant la majeure partie de la vue 3D. Cliquez sur [[Image:Std ViewFitAll.svg|32px]] [[Std ViewFitAll/fr|Tout afficher]] pour adapter la vue à la boîte nouvellement créée.
-# Vous allez maintenant soustraire la deuxième boîte de la première. Sélectionnez d'abord la première forme (nommée Box), puis la seconde (nommée Box001), l'ordre de sélection est important ! (Assurez-vous que les deux formes sont sélectionnées dans l'arbre du projet. '''Une chose à retenir :''' en mode de navigation Inventor, {{Button|Ctrl}} + clic ne fonctionne pas pour la sélection multiple. Changez votre mode de [[Mouse_navigation|Navigation de la souris]] soit CAD soit Blender).
+# Le cube remplit maintenant la majeure partie de la vue 3D. Cliquez sur [[Image:Std ViewFitAll.svg|32px]] [[Std ViewFitAll/fr|Tout afficher]] pour adapter la vue à la boîte nouvellement créée.
+# Vous allez maintenant soustraire le deuxième cube du premier. Sélectionnez d'abord la première forme (nommée Cube), puis la seconde (nommée Cube001), l'ordre de sélection est important ! (Assurez-vous que les deux formes sont sélectionnées dans l'arbre du projet. '''Une chose à retenir :''' en mode de navigation Inventor, {{Button|Ctrl}} + clic ne fonctionne pas pour la sélection multiple. Changez votre mode de [[Mouse_navigation/fr|navigation de la souris]] soit CAD soit Blender).
 # Sur la barre d'outils Part, cliquer sur l'outil [[Image:Part_Cut.svg|32px]] [[Part_Cut/fr|Soustraction]].
-</div>
 
 [[Image:Tutorial-normand01.jpg|center|frame|Fig. 1.1 Le premier cube]]
 
