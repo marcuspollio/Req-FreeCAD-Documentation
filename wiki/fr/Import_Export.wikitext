@@ -21,7 +21,6 @@ Consultez les pages suivantes pour plus d'informations:
 <span id="Overview_of_file_formats"></span>
 ==Présentation des formats de fichiers==
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable"
 !Format
 !Description
@@ -30,7 +29,7 @@ Consultez les pages suivantes pour plus d'informations:
 |-
 | [[File_Format_FCStd/fr|*.FCStd]]
 | Format natif de FreeCAD
-| [[Std_Open/fr|Std Ouvrir]], [[Std_MergeProjects/fr|Std Ajouter au document]]
+| [[Std_Open/fr|Std Ouvrir]], [[Std_MergeProjects/fr|Std Fusionner au document]]
 | [[Std_Save/fr|Std Enregistrer]]
 |-
 | [[Std_FreezeViews/fr|*.cam]]
@@ -120,13 +119,13 @@ Consultez les pages suivantes pour plus d'informations:
 |-
 | *.brep
 | Format natif d'OpenCascade
-| [[Std_Import/fr|Std Importer]], [[Part_Import/fr|Part Importer]]
-| [[Std_Export/fr|Std Exporter]], [[Part_Export/fr|Part Exporter]]
+| [[Std_Import/fr|Std Importer]]
+| [[Std_Export/fr|Std Exporter]]
 |-
 | *.brp
 | Format natif d'OpenCascade
-| [[Std_Import/fr|Std Importer]], [[Part_Import/fr|Part Importer]]
-| [[Std_Export/fr|Std Exporter]], [[Part_Export|Part Exporter]]
+| [[Std_Import/fr|Std Importer]]
+| [[Std_Export/fr|Std Exporter]]
 |-
 | *.cnc
 | G-code
@@ -694,7 +693,6 @@ Pour les utilisateurs Linux: module IfcOpenShell externe requis.
 | [[Path_Job/fr|Path Tâche]]
 | [[Path_ExportTemplate/fr|Path Exporter un modèle]]
 |}
-</div>
 
 
 {{Docnav/fr
