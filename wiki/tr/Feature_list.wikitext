@@ -47,9 +47,7 @@ Bu, FreeCAD'in sunduğu özelliklerin kapsamlı ancak tam olmayan bir listesidir
 
 * ‘’'tam kapsamlı bir GUI uygulaması'‘’. FreeCAD, [https://www.qt.io/ Qt] çerçevesine dayanan eksiksiz bir Grafik Kullanıcı Arayüzüne sahiptir ve [https://en.wikipedia.org/wiki/Open_Inventor Open Inventor] tabanlı bir 3B görüntüleyiciyle donatılmıştır; bu sayede 3B sahnelerin hızlı bir şekilde işlenmesi ve son derece anlaşılır bir sahne grafiği sunumu sağlanmaktadır.
 
-<div class="mw-translate-fuzzy">
-*'''FreeCAD ayrıca bir komut satırı uygulaması olarak da çalışır'''. Bellek kullanımı çok azdır.Komut satırı modunda, FreeCAD arayüzü olmadan ancak tüm geometri araçları ile çalışır. Örneğin, diğer uygulamalara içerik üretmek için sunucu olarak kullanılabilir.
-</div>
+* ‘’'komut satırı uygulaması olarak çalışır'‘’. Komut satırı modunda FreeCAD, kullanıcı arayüzü olmadan ancak tüm geometri araçlarıyla birlikte çalışır. Bu modda bellek kullanımı nispeten azdır ve örneğin diğer uygulamalar için içerik üretmek üzere bir sunucu olarak kullanılabilir.
 
 <div class="mw-translate-fuzzy">
 *'''FreeCAD, [[Embedding FreeCAD|Python modülü]] olarak ''', Python komut dosyalarını çalıştırabilen diğer uygulamaların içine veya bir Python konsoluna alınabilir. Konsol kipinde olduğu gibi, FreeCAD'in arayüz kısmı kullanılamaz, ancak tüm geometri araçlarına erişilebilir.
