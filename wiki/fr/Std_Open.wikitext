@@ -46,7 +46,7 @@ Pour ouvrir un document, utilisez la méthode {{incode|open(filepath)}} ou la m�
 
 Ces méthodes créent et renvoient un document et y chargent un fichier projet. L'argument {{incode|filepath}} doit être une chaîne pointant vers un fichier existant. Si le fichier n'existe pas ou si le fichier ne peut pas être chargé, une exception I/O est levée. Dans ce cas, le document créé est conservé, mais sera vide. Si {{incode|hidden<nowiki>=</nowiki>True}} est utilisé, le document ne sera pas affiché dans l'interface graphique et aucun onglet n'apparaîtra pour lui. Cela permet d'effectuer des opérations automatiques sur un document et de le fermer sans perturber l'interface utilisateur.
 
-Pour un exemple de script, voir [[Std_New/fr#Script|Std Nouveau]].
+Pour un exemple de script, voir [[Std_New/fr#Script|Std Nouveau document]].
 
 
 {{Docnav/fr
