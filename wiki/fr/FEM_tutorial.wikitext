@@ -33,10 +33,10 @@ Dans cet exemple, un cube est utilisé comme objet d'étude, mais tout modèle c
 # Appuyez sur le bouton {{Button|[[Image:Std_New.svg|16px|link=Std_New/fr]] [[Std_New/fr|Nouveau document]]}} pour créer un nouveau document.
 # Activez l'[[Image:Workbench_Part.svg|24px|link=Part_Workbench/fr]] [[Part_Workbench/fr|atelier Part]].
 # Créez un cube.
-# Changer ses '''Dimensions''' selon les valeurs suivantes :
-## Longueur : 8. 000 m.
-## Largeur : 1. 000 m.
-## Hauteur : 1. 000 m.
+# Changez ses '''Dimensions''' selon les valeurs suivantes :
+## Longueur : 8.000 m.
+## Largeur : 1.000 m.
+## Hauteur : 1.000 m.
 
 Maintenant, nous avons un modèle avec lequel travailler.
 
@@ -124,5 +124,5 @@ Nous avons complété la procédure de base de l'[[FEM_Workbench/fr|atelier FEM]
 * Pour un tutoriel vidéo basé sur ce tutoriel écrit, regardez : [https://www.youtube.com/watch?v=SZTIqhfCSVc FEM MaterialReinforced tutorial].
 
 
-{{FEM Tools navi{{#translation:}}}}
+{{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
