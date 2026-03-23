@@ -14,9 +14,7 @@ Diğer CAD modelleyicilerde olduğu gibi, düzlemsel şekiller çizmek veya üre
 
 FreeCAD, [https://en.wikipedia.org/wiki/Scientific_Computation bilimsel hesaplama] alanında bulunan açık kaynak kodlu kütüphanelerden yoğun bir şekilde yararlanmaktadır. Bunlar arasında güçlü bir CAD çekirdeği olan [https://OpenCascade.org Open Cascade Technology (OCCT)]; [https://en.wikipedia.org/wiki/Open_Inventor Open Inventor] ile uyumlu bir 3D grafik geliştirme araç seti olan [https://github.com/coin3d/coin/wiki Coin3D]; dünyaca ünlü kullanıcı grafik arayüzü çerçevesi [https://www.qt.io Qt]; ve modern bir betik dili olan [https://python.org Python]. FreeCAD'in kendisi de diğer programlar tarafından bir kütüphane olarak kullanılabilir.
 
-<div class="mw-translate-fuzzy">
-FreeCAD ayrıca tamamen [http://en.wikipedia.org/wiki/Cross-platform multi-platform] olup, şu anda Windows, Linux/Unix ve Mac OSX sistemlerinde kusursuz bir şekilde çalışmaktadır ayrıca tüm platformlarda aynı görünüm ve işlevselliğe sahiptir.
-</div>
+FreeCAD ayrıca [https://en.wikipedia.org/wiki/Cross-platform çoklu platform] desteğine sahiptir ve şu anda Linux/Unix, Windows ve macOS sistemlerinde çalışmakta olup, tüm platformlarda aynı görünüm ve işlevselliği sunmaktadır.
 
 <div class="mw-translate-fuzzy">
 FreeCAD'in yetenekleri hakkında daha fazla bilgi için, [[Feature list|Özellik listesine]],[[Getting_started#What's new|en son sürüm notlarına]],[[Getting started|Başlangıç]] makalelerine bakın veya daha fazla [[screenshots|ekran görüntüsü]] görün .
