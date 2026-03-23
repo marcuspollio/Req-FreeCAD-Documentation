@@ -51,9 +51,7 @@ Bu, FreeCAD'in sunduğu özelliklerin kapsamlı ancak tam olmayan bir listesidir
 
 * ‘’'[[Embedding FreeCAD|Python modülü]] olarak içe aktarılabilir'‘’. FreeCAD, Python betiklerini çalıştırabilen herhangi bir uygulamaya içe aktarılabilir. Komut satırı modunda olduğu gibi, FreeCAD'in arayüz kısmı kullanılamaz, ancak tüm geometri araçlarına erişilebilir.
 
-<div class="mw-translate-fuzzy">
-*'''Tezgah konsepti''': FreeCAD arayüzünde, aletler [[workbenches|tezgahlar]] şeklinde gruplanır . Bu, çalışma alanını düzenli,işlevsel ve uygulamayı hızlı bir şekilde yükleyerek, yalnızca belirli bir görevi gerçekleştirmek için kullanılan araçları görüntülemenizi sağlar.
-</div>
+* ‘’'Tezgah kavramı'‘’. FreeCAD arayüzünde araçlar [[Workbenches/tr|Tezgah]] a göre gruplandırılmıştır. Bu sayede, belirli bir görevi yerine getirmek için kullanılan araçları görüntüleyebilir, çalışma alanını düzenli ve hızlı tutabilir ve uygulamanın hızla yüklenmesini sağlayabilirsiniz.
 
 <div class="mw-translate-fuzzy">
 *'''Özelliklerin/veri türlerinin sonradan yüklenebilmesi için Eklenti/Modül framework'ü'''. FreeCAD, yalnızca ihtiyaç duyulduğunda yüklenen çekirdek bir uygulamaya ve modüllere ayrılmıştır. Hemen hemen tüm aletler ve geometri türleri modüllerde depolanır. Modüller eklentiler gibi davranır ve mevcut bir FreeCAD kurulumuna eklenebilir veya kaldırılabilir.
