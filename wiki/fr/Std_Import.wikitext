@@ -103,7 +103,7 @@ Un objet Image Plane est dérivé d'un objet [[App_GeoFeature/fr|App GeoFeature]
 
 {{TitleProperty|Object Style}}
 
-* {{PropertyView|Lighting|Enumeration}} : comment le plan de l'image est éclairé dans la [[3D_view/fr|vue 3D]]. Peut être {{value|Two side}} ou {{value|One side}}.
+* {{PropertyView|Lighting|Enumeration}} : la façon dont le plan d'image est éclairé dans la [[3D_View/fr|vue 3D]]. Peut être {{value|Two side}} ou {{value|One side}}.
 
 
 {{Docnav/fr
