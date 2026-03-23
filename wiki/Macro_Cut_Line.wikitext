@@ -14,6 +14,7 @@
 
 <!--T:2-->
 ==Description==
+
 This small macro cut a line and create a points , lines , two colours of line.
 
 </translate>
@@ -35,15 +36,16 @@ Can be used from the Freecad macro editor.
 
 
 <!--T:7-->
-you can change the default values in the macro.
+You can change the default values in the macro.
 
 <!--T:8-->
-With bisColor the lines on the original line is created by a white line red line white line .... the colors are modifiable in the code, line 20 and 23.
+With bisColor the lines on the original line is created by a white line red line white line. The colors are modifiable in the code, line 20 and 23.
 
 ==Script== <!--T:9-->
-</translate>
+
 ToolBar Icon [[Image:Macro_Cut_Line.png]]
 
+</translate>
 '''Macro_cutLine.FCMacro'''
 
 {{MacroCode|code=
@@ -126,14 +128,16 @@ Can be used from the Freecad macro editor.
 
 <!--T:13-->
 If the macro is copied in the Python console, you can you can use it by:
-</translate>
 
+</translate>
 {{Code|code=
 cutLine(4, createLine = 1, biColor = 1, createPoint = 0)
 }}
 <translate>
+
 <!--T:10-->
 ==Links==
-this function use the function discretize [https://forum.freecad.org/viewtopic.php?f=3&t=4217&hilit=discretize the original code]
+
+This function uses the function discretize [https://forum.freecad.org/viewtopic.php?f=3&t=4217&hilit=discretize the original code].
 
 </translate>
