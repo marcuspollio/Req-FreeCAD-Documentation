@@ -57,7 +57,8 @@ To use more than one cross-section, start with the first cross-section sketch as
 
 ==Options== <!--T:19-->
 
-'''Corner transition'''
+<!--T:32-->
+'''Corner transition''':
 * Transformed
 * Right corner
 * Rounded corner
@@ -78,6 +79,7 @@ To use more than one cross-section, start with the first cross-section sketch as
 * Binormal
 ** Specify binormal vector in X, Y and Z
 
+<!--T:33-->
 '''Section Transformation''': 
 * Select '''Constant''' to use a single profile
 * Select '''Multisection''' to use multiple profiles
@@ -139,6 +141,7 @@ A PartDesign AdditivePipe object is derived from a [[Part_Feature|Part Feature]]
 * When you select a [[Glossary#V|vertex]] as section, it must be the last section of the pipe. Otherwise the pipe body would consist of two solids connected at a single point. This would violates the CAD kernel's definition of a 3D object. You can change the order of the sections by dragging them in the list.
 * The path can only be from a single sketch, feature or ShapeBinder. In case you want to sweep along several edges from different sketches, use a [[PartDesign_SubShapeBinder|SubShapeBinder]].
 * The path must not contain branches or T-junctions etc. Loops are allowed.
+* The generated pipe can intersect with itself if it the intersection does not lies on the same plane.
 * It can lead to issues if the cross-section is not perpendicular to the path in 3D.
 * A cross-section cannot lie on the same plane as the one immediately preceding it.
 * The cross-sections must not contain disjoint or crossing loops.
