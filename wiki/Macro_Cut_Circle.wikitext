@@ -1,5 +1,7 @@
 <languages/>
+<translate>
 
+<!--T:1-->
 {{Macro
 |Name=Macro Cut Circle
 |Description=Cuts circles or arcs into multiple arcs. The created arcs can be colored alternately to distinguish them.<br/>{{ColoredText|(Command line, paste the complete macro in the Python console)}}.
@@ -10,16 +12,21 @@
 |Download=[https://wiki.freecad.org/images/9/93/Macro_Cut_Circle.png ToolBar Icon]
 }}
 
-==Description==
+==Description== <!--T:2-->
 
+<!--T:13-->
 This macro cuts circles or arcs into multiple arcs. The created arcs can be colored alternately to distinguish them.
 
+</translate>
 [[File:Macro CutCircle 00.png|400px]]
+<translate>
+<!--T:12-->
 {{Caption|CutCircle}}
 
-==Usage==
+==Usage== <!--T:15-->
 
-# Paste the macro '''cutCirle''' in the [[Python_console|Python console]].
+<!--T:3-->
+# Paste the macro '''cutCirle''' in the [[Python_Console|Python console]].
 # Press {{KEY|Enter}} (the code is now in memory).
 # Select one or more circles or arcs.
 # Invoke the {{Incode|cutCircle()}} function with 1 or 2 arguments from the Python console:
@@ -27,10 +34,12 @@ This macro cuts circles or arcs into multiple arcs. The created arcs can be colo
 #* Example with 2 arguments: {{Incode|cutCircle(6, 1)}}. This will create 6 new arcs for each selected circle or arc, colored alternately in red and white as shown in the image.
 # The original object is not deleted.
 
-==Script==
+==Script== <!--T:6-->
 
+<!--T:16-->
 ToolBar Icon [[Image:Macro_Cut_Circle.png]]
 
+</translate>
 '''Macro_Cut_Circle.FCMacro'''
 
 {{MacroCode|code=
@@ -98,22 +107,32 @@ def cutCircle(number = 2, biColor = 0):
 #cutCircle(4)     #
 
 }}
+<translate>
 
-==Example==
+==Example== <!--T:11-->
 
+</translate>
 {{Code|code=
 cutCircle(5, 1)  # here with 5 arcs and colored
 cutCircle(4)     #
 }}
+<translate>
 
-==Project==
+==Project== <!--T:17-->
 
+<!--T:7-->
 Cut circle to cylinder
 
-==Version==
+==Version== <!--T:8-->
 
+<!--T:14-->
 ver 00.03 02/07/2019 : add "App.ActiveDocument.recompute()"
 
-ver 00.02 09/03/2015 : adding create arcs colored alternately Red White Red White .... or not
+<!--T:9-->
+ver 00.02 09/03/2015 : adding create arcs colored alternately Red White Red White or not
 
+<!--T:10-->
 ver 00.01 24/02/2015 :
+
+
+</translate>
