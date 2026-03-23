@@ -39,7 +39,7 @@ La commande '''Std Fermer''' ferme la fenêtre active. Pour fermer un document, 
 ==Remarques==
 
 * La commande ne peut fermer que les fenêtres [[Std_ViewDockUndockFullscreen/fr|ancrées]].
-* Un document peut également être fermé en cliquant dessus avec le bouton droit de la souris dans la [[Tree_view/fr|vue en arborescence]] et en sélectionnant {{MenuCommand|Fermer le document}} dans le menu contextuel.
+* Un document peut également être fermé en cliquant dessus avec le bouton droit de la souris dans l'[[Tree_View/fr|arborescence]] et en sélectionnant {{MenuCommand|Fermer le document}} dans le menu contextuel.
 
 <span id="Scripting"></span>
 ==Script==
