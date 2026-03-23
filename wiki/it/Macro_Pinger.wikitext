@@ -20,13 +20,14 @@ Utilizzare questa macro per inviare un ping a un altro utente del forum, in modo
 [[File:Pinger_scr.png|600px]]
 {{Caption|Screenshot di Pinger }}
 
-== Parameters == 
+<span id="Parameters"></span>
+== Parametri == 
 
-The Macro supports user parameters, which are used for the added users list. It is in User parameter:Plugins/Pinger as "AddedUsers", a string containing the string representation of a Python dictionary.
+La macro supporta parametri utente, utilizzati per l'elenco degli utenti aggiunti. Il parametro utente è denominato "AddedUsers" in User parameter:Plugins/Pinger, ed è una stringa contenente la rappresentazione in stringa di un dizionario Python.
 
 == Script ==
 
-ToolBar icon
+Icona barra degli strumenti
 [[Image:Pinger_Icon.svg]]
 
 '''Macro_Snip.FCMacro'''
