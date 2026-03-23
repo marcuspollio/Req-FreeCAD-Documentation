@@ -87,7 +87,7 @@ Par défaut, un plan d'image est placé sur le plan global XY. La taille initial
 
 Voir aussi : [[Property_View/fr|Éditeur de propriétés]]
 
-Un objet Plan d'image est dérivé d'un objet [[App_GeoFeature/fr|App GeoFeature]] et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+Un objet Image Plane est dérivé d'un objet [[App_GeoFeature/fr|App GeoFeature]] et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 <span id="Data"></span>
 ===Données===
