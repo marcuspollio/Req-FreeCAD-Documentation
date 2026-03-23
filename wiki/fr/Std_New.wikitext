@@ -56,19 +56,20 @@ La plupart des propriétés peuvent également être modifiées dans la boîte d
 * {{PropertyData|Creation Date|String}} : horodatage automatique (en lecture seule).
 * {{PropertyData|Nom du fichier|Chaîne}} : chemin complet du fichier. Blanc si le document n'a pas été enregistré (lecture seule).
 * {{PropertyData|Id|String}} : pas encore implémenté.
-* {{PropertyData|Label|String}} : le nom qui apparaîtra dans la [[Tree_view/fr|vue en arborescence]]. Remplacé par le nom du document après réouverture.
+* {{PropertyData|Label|String}} : le nom qui apparaîtra dans l'[[Tree_View/fr|arborescence]]. Remplacé par le nom du document après réouverture.
 * {{PropertyData|Last Modified By|String}} : nom de l'auteur.
 * {{PropertyData|Last Modified Date|String}} : horodatage automatique (en lecture seule).
 * {{PropertyData|License|String}} : type de licence.
 * {{PropertyData|License URL|String}} : URL de la licence.
 * {{PropertyData|Material|Map|Hidden}} : associé aux propriétés des matériaux.
 * {{PropertyData|Meta|Map|Caché}} : associé à des méta-informations supplémentaires.
-* {{PropertyData|Show Hidden|Bool}} : si true, les éléments qui ont été cachés dans l'arborescence seront quand même affichés. Cacher des éléments dans l'arbre peut s'avérer utile lorsque l'on travaille sur des modèles de grande taille.
+* {{PropertyData|Show Hidden|Bool}} : si true, les éléments qui ont été cachés dans l'arborescence seront quand même affichés. Cacher des éléments dans l'[[Tree_View/fr|arborescence]] peut s'avérer utile lorsque l'on travaille sur des modèles de grande taille.
 * {{PropertyData|Tip|Link}} : pas encore implémenté.
 * {{PropertyData|Tip Name|String}} : pas encore implémenté.
 * {{PropertyData|Transient Dir|String}} : répertoire de transition utilisé pour les données de récupération (en lecture seule).
 * {{PropertyData|Uid|UUID|Hidden}} : UUID du document (en lecture seule).
 * {{PropertyData|Unit System|Enumeration}} : système d'unité du document. La valeur initiale dépend du [[Preferences_Editor/fr#Général_2|système d'unités par défaut]]. {{Version/fr|1.0}}
+* {{PropertyData|Use Hasher|Bool}} : si la valeur est true, un hasher est utilisé pour atténuer le [[Topological_naming_problem/fr|problème de dénomination topologique]]. {{Version/fr|1.0}}
 
 <span id="Scripting"></span>
 ==Script==
