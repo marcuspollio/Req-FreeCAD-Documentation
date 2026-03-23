@@ -971,19 +971,19 @@ Wyświetlanie w oknie "Widok raportu" ''(Widok → Panele → Widok raportu)''.
 {{Code|code=
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
- 
+
 # Exemples de recherche et de decodage d'informations sur un objet
 # Chaque section peut etre copiee directement dans la console Python ou dans une macro ou utilisez la macro tel quel
 # Certaines commandes se repetent seul l'approche est differente
-# L'affichage se fait dans la Vue rapport : Menu Affichage > Vues > Vue rapport
+# L'affichage se fait dans la Vue rapport : Menu Affichage > Vues > Vue rapport
 #
 # Examples of research and decoding information on an object
 # Each section can be copied directly into the Python console, or in a macro or uses this macro
 # Certain commands as repeat alone approach is different
 # Displayed in Report view: View > Views > report view
 #
-# rev:30/08/2014:29/09/2014:17/09/2015 22/11/2019 30/12/2022
- 
+# rev:30/08/2014:29/09/2014:17/09/2015 22/11/2019 30/12/2022 23/03/2026
+
 from FreeCAD import Base
 import DraftVecUtils, Draft, Part
 
@@ -1033,7 +1033,7 @@ App.Console.PrintMessage("object_Name    : "+str(object_Name)+"\n\n")
 try:
     SubElement = FreeCADGui.Selection.getSelectionEx()                    # sub element name with getSelectionEx()
     element_ = SubElement[0].SubElementNames[0]                           # name of 1 element selected
-    App.Console.PrintMessage("elementSelec   : "+str(element_)+"\n\n")            
+    App.Console.PrintMessage("ElementSelec   : "+str(element_)+"\n\n")            
 except:
     App.Console.PrintMessage("Oups"+"\n\n")            
 ##################################################################################
@@ -1048,7 +1048,7 @@ sel = FreeCADGui.Selection.getSelection()                                 # sele
 i = 0
 for j in enumerate(sel[0].Shape.Edges):                                   # list all Edges
     i += 1
-    App.Console.PrintMessage("Edges n : "+str(i)+"\n")
+    App.Console.PrintMessage("Edges n : "+str(i)+"\n")
     a = sel[0].Shape.Edges[j[0]].Vertexes[0]
     App.Console.PrintMessage("X1             : "+str(a.Point.x)+"\n")     # coordinate XYZ first point
     App.Console.PrintMessage("Y1             : "+str(a.Point.y)+"\n")     #
@@ -1059,7 +1059,8 @@ for j in enumerate(sel[0].Shape.Edges):                                   # list
         App.Console.PrintMessage("Y2             : "+str(a.Point.y)+"\n") #
         App.Console.PrintMessage("Z2             : "+str(a.Point.z)+"\n") #
     except:
-        App.Console.PrintMessage("Oups"+"\n")    
+        App.Console.PrintMessage("Oups"+"\n")
+
 App.Console.PrintMessage("\n")    
 ##################################################################################
 
@@ -1067,11 +1068,11 @@ App.Console.PrintMessage("\n")
 try:
     SubElement = FreeCADGui.Selection.getSelectionEx()                                        # sub element name with getSelectionEx()
     subElementName = Gui.Selection.getSelectionEx()[0].SubElementNames[0]                     # sub element name with getSelectionEx()
-    App.Console.PrintMessage("subElementName : "+str(subElementName)+"\n")
-    
+    App.Console.PrintMessage("subElementName : "+str(subElementName)+"\n")
+
     subObjectLength = Gui.Selection.getSelectionEx()[0].SubObjects[0].Length                  # sub element Length
     App.Console.PrintMessage("subObjectLength: "+str(subObjectLength)+"\n\n")
-    
+
     subObjectX1 = Gui.Selection.getSelectionEx()[0].SubObjects[0].Vertexes[0].Point.x         # sub element coordinate X1
     App.Console.PrintMessage("subObject_X1   : "+str(subObjectX1)+"\n")
     subObjectY1 = Gui.Selection.getSelectionEx()[0].SubObjects[0].Vertexes[0].Point.y         # sub element coordinate Y1
@@ -1091,10 +1092,10 @@ try:
 
     subObjectBoundBox = Gui.Selection.getSelectionEx()[0].SubObjects[0].BoundBox              # sub element BoundBox coordinates
     App.Console.PrintMessage("subObjectBBox  : "+str(subObjectBoundBox)+"\n")
-    
+
     subObjectBoundBoxCenter = Gui.Selection.getSelectionEx()[0].SubObjects[0].BoundBox.Center # sub element BoundBoxCenter
     App.Console.PrintMessage("subObjectBBoxCe: "+str(subObjectBoundBoxCenter)+"\n")
-    
+
     surfaceFace = Gui.Selection.getSelectionEx()[0].SubObjects[0].Area                        # Area of the face selected
     App.Console.PrintMessage("surfaceFace    : "+str(surfaceFace)+"\n\n")
 except:
@@ -1120,6 +1121,7 @@ App.Console.PrintMessage("CenterOfMassZ  : "+str(CenterOfMass[2])+"\n\n")
 sel = FreeCADGui.Selection.getSelection()                                 # select object with getSelection()
 for j in enumerate(sel[0].Shape.Faces):                                   # List alles faces of the object
     App.Console.PrintMessage("Face           : "+str("Face%d" % (j[0]+1))+"\n")
+
 App.Console.PrintMessage("\n\n")
 ##################################################################################
 
@@ -1128,7 +1130,7 @@ sel = FreeCADGui.Selection.getSelection()                                 # sele
 volume_ = sel[0].Shape.Volume                                             # Volume of the object
 App.Console.PrintMessage("volume_        : "+str(volume_)+"\n\n")
 ##################################################################################
- 
+
 # give the BoundBox of the oject selected all type
 objs = FreeCADGui.Selection.getSelection()                                 # select object with getSelection()
 if len(objs) >= 1:                                                         # serch the object type
@@ -1141,7 +1143,7 @@ if len(objs) >= 1:                                                         # ser
 
 boundBox_= s.BoundBox                                                     # BoundBox of the object
 App.Console.PrintMessage("boundBox_      : "+str(boundBox_)+"\n")         # 
- 
+
 boundBoxLX   = boundBox_.XLength                                          # Length x boundBox rectangle
 boundBoxLY   = boundBox_.YLength                                          # Length y boundBox rectangle
 boundBoxLZ   = boundBox_.ZLength                                          # Length z boundBox rectangle
@@ -1155,7 +1157,7 @@ boundBoxZMax = boundBox_.ZMax                                             # coor
 
 boundBoxDiag= boundBox_.DiagonalLength                                    # Diagonal Length boundBox rectangle
 boundBoxCenter = boundBox_.Center                                         # BoundBox Center
-boundBoxCenterOfGravity = boundBox_.CenterOfGravity                       # BoundBox CenterOfGravity
+#boundBoxCenterOfGravity = boundBox_.CenterOfGravity                       # BoundBox CenterOfGravity
 
 App.Console.PrintMessage("boundBoxLX     : "+str(boundBoxLX)+"\n")
 App.Console.PrintMessage("boundBoxLY     : "+str(boundBoxLY)+"\n")
@@ -1169,9 +1171,9 @@ App.Console.PrintMessage("boundBoxYMax   : "+str(boundBoxYMax)+"\n")
 App.Console.PrintMessage("boundBoxZMax   : "+str(boundBoxZMax)+"\n\n")
 
 App.Console.PrintMessage("boundBoxDiag   : "+str(boundBoxDiag)+"\n")
-App.Console.PrintMessage("boundBoxCenter : "+str(boundBoxCenter)+"\n")
+App.Console.PrintMessage("boundBoxCenter : "+str(boundBoxCenter)+"\n")
 
-App.Console.PrintMessage("boundBox Center of Gravity : "+str(boundBoxCenterOfGravity )+"\n\n")
+#App.Console.PrintMessage("boundBox Center of Gravity : "+str(boundBoxCenterOfGravity )+"\n\n")
 
 ##################################################################################
 
@@ -1186,7 +1188,7 @@ sel = FreeCADGui.Selection.getSelection()                                 # sele
 pl = sel[0].Shape.Placement.Base                                          # Placement Vector XYZ
 App.Console.PrintMessage("PlacementBase  : "+str(pl)+"\n\n")
 ##################################################################################
- 
+
 # give the placement Base (xyz) of the object selected
 sel = FreeCADGui.Selection.getSelection()                                 # select object with getSelection()
 oripl_X = sel[0].Placement.Base[0]                                        # decode Placement X
@@ -1197,7 +1199,7 @@ oripl_Z = sel[0].Placement.Base[2]                                        # deco
 #oripl_X = sel[0].Placement.Base.x                                        # decode Placement X
 #oripl_Y = sel[0].Placement.Base.y                                        # decode Placement Y
 #oripl_Z = sel[0].Placement.Base.z                                        # decode Placement Z
- 
+
 App.Console.PrintMessage("oripl_X        : "+str(oripl_X)+"\n")
 App.Console.PrintMessage("oripl_Y        : "+str(oripl_Y)+"\n")
 App.Console.PrintMessage("oripl_Z        : "+str(oripl_Z)+"\n\n")
@@ -1225,13 +1227,13 @@ App.Console.PrintMessage("Placement Rot Angle   : "+str(pl)+"\n\n")
 sel = FreeCADGui.Selection.getSelection()                                 # select object with getSelection()
 Rot   = sel[0].Placement.Rotation.Q                                       # Placement Rotation Q
 App.Console.PrintMessage("Rot           : "+str(Rot)+ "\n")
- 
+
 Rot_0 = sel[0].Placement.Rotation.Q[0]                                    # decode Placement Rotation Q
 App.Console.PrintMessage("Rot_0         : "+str(Rot_0)+ " rad ,  "+str(180 * Rot_0 / 3.1416)+" deg "+"\n") # or math.degrees(angle)
- 
+
 Rot_1 = sel[0].Placement.Rotation.Q[1]                                    # decode Placement Rotation 1
 App.Console.PrintMessage("Rot_1         : "+str(Rot_1)+ " rad ,  "+str(180 * Rot_1 / 3.1416)+" deg "+"\n") # or math.degrees(angle)
- 
+
 Rot_2 = sel[0].Placement.Rotation.Q[2]                                    # decode Placement Rotation 2
 App.Console.PrintMessage("Rot_2         : "+str(Rot_2)+ " rad ,  "+str(180 * Rot_2 / 3.1416)+" deg "+"\n") # or math.degrees(angle)
 
@@ -1240,7 +1242,7 @@ App.Console.PrintMessage("Rot_3         : "+str(Rot_3)+"\n\n")
 
 Rot_Axis = sel[0].Placement.Rotation.Axis                                 # Placement Rotation .Axis
 App.Console.PrintMessage("Rot_Axis      : "+str(Rot_Axis)+ "\n")
- 
+
 Rot_Angle = sel[0].Placement.Rotation.Angle                               # Placement Rotation .Angle
 App.Console.PrintMessage("Rot_Angle     : "+str(Rot_Angle)+ "\n\n")
 ##################################################################################
@@ -1273,6 +1275,13 @@ sel = FreeCADGui.Selection.getSelection()
 vecteur = DraftGeomUtils.findMidpoint(sel[0].Shape.Edges[0])              # find Midpoint
 App.Console.PrintMessage(vecteur)
 Draft.makePoint(vecteur)
+##################################################################################
+
+# Extract the coordinate X,Y,Z and Angle giving the label (here "Cylindre")
+App.Console.PrintMessage("Base.x       : "+str(FreeCAD.ActiveDocument.getObjectsByLabel("Cylindre")[0].Placement.Base.x)+"\n")
+App.Console.PrintMessage("Base.y       : "+str(FreeCAD.ActiveDocument.getObjectsByLabel("Cylindre")[0].Placement.Base.y)+"\n")
+App.Console.PrintMessage("Base.z       : "+str(FreeCAD.ActiveDocument.getObjectsByLabel("Cylindre")[0].Placement.Base.z)+"\n")
+App.Console.PrintMessage("Base.Angle   : "+str(FreeCAD.ActiveDocument.getObjectsByLabel("Cylindre")[0].Placement.Rotation.Angle)+"\n\n")
 ##################################################################################
 }}
 </div> <!-- End of collapsible div -->
