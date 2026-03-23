@@ -194,7 +194,7 @@ Redémarrez FreeCAD pour enregistrer correctement la nouvelle macro.
 
 11. Cette macro doit renvoyer une erreur si aucun document n'est actif. Les autres macros ouvrent un nouveau document s'il n'en existe pas.
 
-Créez un nouveau document avec {{MenuCommand|Fichier → [[Image:Std_New.svg|16px]] [[Std_New/fr|Nouveau]]}} puis répétez les étapes précédentes pour exécuter la macro.
+Créez un nouveau document avec {{MenuCommand|Fichier → [[Image:Std_New.svg|16px]] [[Std_New/fr|Nouveau document]]}} puis répétez les étapes précédentes pour exécuter la macro.
 
 [[Image:Macro Install HowTo 23.png|center|]]
 {{Caption|align=center|La macro renvoyant une erreur si aucun document n'est actif}}
