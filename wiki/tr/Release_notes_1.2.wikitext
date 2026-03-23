@@ -1,0 +1,327 @@
+<languages/>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{VeryImportantMessage|FreeCAD 1.2 is under development, there is no expected released date yet.}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Message|
+Are features missing? Mention them in the [https://forum.freecad.org/viewtopic.php?f&#61;10&t&#61;101169 Release notes for v1.2] forum thread.<br>
+See [[Help_FreeCAD|Help FreeCAD]] for ways to contribute to FreeCAD.
+}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Message|All images on this page must use the {{FileName|_relnotes_1.2}} suffix}}
+</div>
+
+{{TOCright}}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''FreeCAD 1.2''' was released on '''D Month Year''', get it from the [[Download|Download]] page. This page lists all new features and changes.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Previous FreeCAD release notes can be found in the [[Feature_list#Release_notes|Feature list]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Placeholder for an eye-catching image selected by the admins from the [https://forum.freecad.org/viewforum.php?f=24 user showcases forum].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== General ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== User interface ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further user interface improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* The built-in text editor now supports line selection via clicking on the line number (and optionally also holding {{KEY|Shift}} for range selection). [https://github.com/FreeCAD/FreeCAD/pull/27677 Pull request #27677]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Core system and API ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Core ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:AnnotationLabel_relnotes_1.2.png|384px]]
+| A command to add an Annotation Label to the last picked point in the 3D view was added.
+[https://github.com/FreeCAD/FreeCAD/pull/23673 Pull request #23673]
+|}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Further Core improvements ====
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* The search bar in the [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences|Preferences]] is now able to search through tooltips, dropdown values, checkboxes and group titles. [https://github.com/FreeCAD/FreeCAD/pull/24283 Pull request #24283]
+* The [[Image:Std_Measure.svg|24px]] [[Std_Measure|Measure]] tool now has the option to display the measured result of circular elements as diameters instead of radii. [https://github.com/FreeCAD/FreeCAD/pull/24853 Pull request #24853]
+* The [[Image:Std_Measure.svg|24px]] [[Std_Measure|Measure]] tool now supports the measurement of the radius and diameter of cylindrical faces. [https://github.com/FreeCAD/FreeCAD/pull/27044 Pull request #27044]
+* On macOS the .FCStd files now support the native QuickLook extension to show a thumbnail of the file in the finder and the full preview. [https://github.com/FreeCAD/FreeCAD/pull/25239 Pull request #25239]
+* The [[Image:Std_Measure.svg|24px]] [[Std_Measure|Measurement]] units can now be converted and viewed on the fly. [https://github.com/FreeCAD/FreeCAD/pull/27462 Pull request #27462]
+* The [[Image:Std_Measure.svg|24px]] [[Std_Measure|Measure]] tool can now report the radius and diameter for circular faces in addition to the existing measurement types. [https://github.com/FreeCAD/FreeCAD/pull/27415 Pull request #27415]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== API ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Removed Python API ====
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Changed Python API ====
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== New Python API ====
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Start ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Addon Manager ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Assembly Workbench ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further Assembly improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* Solver messages (overconstraint reports) were added to the Assembly task panel. [https://github.com/FreeCAD/FreeCAD/pull/24623 Pull request #24623]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== BIM Workbench ==
+</div>
+
+ToDo (last check: 20260308):
+* https://github.com/FreeCAD/FreeCAD/pull/24078
+* https://github.com/FreeCAD/FreeCAD/pull/24190
+* https://github.com/FreeCAD/FreeCAD/pull/24550
+* https://github.com/FreeCAD/FreeCAD/pull/24595
+* https://github.com/FreeCAD/FreeCAD/pull/25086
+* https://github.com/FreeCAD/FreeCAD/pull/25147
+* https://github.com/FreeCAD/FreeCAD/pull/26758
+* https://github.com/FreeCAD/FreeCAD/pull/27375
+* https://github.com/FreeCAD/FreeCAD/pull/27381
+* https://github.com/FreeCAD/FreeCAD/pull/27746
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further BIM improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== CAM Workbench ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further CAM improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Draft Workbench ==
+</div>
+
+ToDo (last check: 20260310):
+* https://github.com/FreeCAD/FreeCAD/pull/26571
+* https://github.com/FreeCAD/FreeCAD/pull/26950
+* https://github.com/FreeCAD/FreeCAD/pull/27979
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further Draft improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== FEM Workbench ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further FEM improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* The [[Image:FEM_ConstraintElectricChargeDensity.svg|24px]] [[FEM_ElectricChargeDensity|Electric Charge Density]] load now has a ''Concentrated'' checkbox in the ''Total Source'' mode to use concentrated instead of distributed load (making it also applicable to edges and vertices) with CalculiX. [https://github.com/FreeCAD/FreeCAD/pull/25237 Pull request #25237]
+* The [[Image:FEM_ResultShow.svg|24px]] [[FEM_ResultShow|FEM results objects]] now support the animation of half cycles in addition to reversed full cycles. [https://github.com/FreeCAD/FreeCAD/pull/24129 Pull request #24129]
+* The [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint|Section Print]] feature now supports 2D models and electric flux in electrostatic analyses. [https://github.com/FreeCAD/FreeCAD/pull/25081 Pull request #25081]
+* The ''Neumann'' mode of the [[Image:FEM_ConstraintElectrostaticPotential.svg|24px]] [[FEM_ConstraintElectrostaticPotential|Electrostatic potential]] boundary condition can now be used to apply a magnetic flux density boundary condition. [https://github.com/FreeCAD/FreeCAD/pull/25897 Pull request #25897]
+* The ''Displace Mesh'' property was added to the refactored [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools|CalculiX solver]], making it possible to view true scale deformation of the mesh without having to use the Warp filter. [https://github.com/FreeCAD/FreeCAD/pull/27786 Pull request #27786]
+* The ''addArrayFromFunction'' Python function was added, making it possible to create custom arrays based on the [[Image:FEM_PostPipelineFromResult.svg|24px]] [[FEM_PostPipelineFromResult|pipeline]] fields. [https://github.com/FreeCAD/FreeCAD/pull/26076 Pull request #26076]
+* A context menu command to [[Image:FEM_MeshClearGroups.svg|24px]] [[FEM_MeshClearGroups|clear mesh groups]] was added. [https://github.com/FreeCAD/FreeCAD/pull/27945 Pull request #27945]
+* A log verbosity preference was added for [[Image:FEM_SolverElmer.svg|24px]] [[FEM_SolverElmer|Elmer]]. [https://github.com/FreeCAD/FreeCAD/pull/28058 Pull request #28058]
+* The ''None Field Color'' property was added to the [[Image:FEM_PostPipelineFromResult.svg|24px]] [[FEM_PostPipelineFromResult|pipeline]] and filters to set the color when the displayed field is ''None'' (can be helpful e.g. when using the [[FEM_PostFilterGlyph|Glyph filter]]. [https://github.com/FreeCAD/FreeCAD/pull/28028 Pull request #28028]
+* All solver commands are now always shown (even if a given solver is not installed) and are grouped in the toolbar as well as in the menu. The default icon in the toolbar depends on the default solver selected in the Preferences. [https://github.com/FreeCAD/FreeCAD/pull/28144 Pull request #28144]
+* Material assignments are now read from the [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools|CalculiX's]] {{FileName|.frd}} results files. They can't be accessed in FreeCAD yet, but they can be visualized in ParaView upon conversion to {{FileName|.vtm}} format. [https://github.com/FreeCAD/FreeCAD/pull/27847 Pull request #27847]
+* The [[Image:FEM_MaterialMechanicalNonlinear.svg|24px]] [[FEM_MaterialMechanicalNonlinear|Non-linear mechanical material]] objects are now grouped under the [[Image:FEM_MaterialSolid.svg|24px]] [[FEM_MaterialSolid|Solid Material]] objects. The ''Geometrical Nonlinearity'' and ''Material Nonlinearity'' properties are now Boleean. The latter is enabled by default and only applied if any material in the analysis has a non-linear mechanical material object assigned to it. Otherwise, it is ignored. [https://github.com/FreeCAD/FreeCAD/pull/27862 Pull request #27862]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Inspection Workbench ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further Inspection improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Material Workbench ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further Material improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* The Material-Metals database has been extended with additional copper and copper-alloy materials. [https://github.com/FreeCAD/FreeCAD/pull/25832 Pull request #25832]
+* Material assignment via [[Std_SetMaterial|Std SetMaterial]] now wraps changes in a transaction, replacing the "Close" button with "OK" and "Cancel" to enable proper undo support. [https://github.com/FreeCAD/FreeCAD/pull/27910 Pull request #27910]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Mesh Workbench ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further Mesh improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== OpenSCAD Workbench ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further OpenSCAD improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Part Workbench ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further Part improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Part Design Workbench ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:PartDesign_thread_texture_relnotes_1.2.png|384px]]
+| Support for cosmetic threads (thread textures) was added to the [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Hole]] tool. They can be enabled using the ''Cosmetic Thread'' property (''Threaded'' has to be enabled and ''Model Thread'' must be disabled).
+[https://github.com/FreeCAD/FreeCAD/pull/22573 Pull request #22573]
+|}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further Part Design improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* Interactive dragger was added to the [[Image:PartDesign_Draft.svg|24px]] [[PartDesign_Draft|Draft]] tool. [https://github.com/FreeCAD/FreeCAD/pull/27111 Pull request #27111]
+* Interactive draggers were added to the Sphere, Box and Cylinder tools. [https://github.com/FreeCAD/FreeCAD/pull/23700 Pull request #23700]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Points Workbench ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further Points improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Reverse Engineering Workbench ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further Reverse Engineering improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Robot Workbench ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further Robot improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Sketcher Workbench ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:Sketcher_text_relnotes_1.2.png|384px]]
+| Thanks to [https://www.astocad.com/ AstoCAD], a text tool was added to Sketcher, making it possible to create text geometries controlled by a special Text constraint.
+[https://github.com/FreeCAD/FreeCAD/pull/22217 Pull request #22217]
+|}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further Sketcher improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* It is now possible to import Bézier and Offset curves as [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection|External geometry]]. [https://github.com/FreeCAD/FreeCAD/pull/25144 Pull request #25144]
+* When creating or editing circular dimensions it is now possible to switch between the radius or diameter type. [https://github.com/FreeCAD/FreeCAD/pull/26794 Pull request #26794]
+* The constraint list now displays the type of the constraints in the name. [https://github.com/FreeCAD/FreeCAD/pull/26797 Pull request #26797]
+* A new selection mode was added to [[Image:Sketcher_ConstrainSymmetric.svg|24px]] [[Sketcher_ConstrainSymmetric|Symmetric constraint]]. Now it is also possible to select an element (line, arc, or open B-spline) and a symmetry line. [https://github.com/FreeCAD/FreeCAD/pull/25525 Pull request #25525]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Spreadsheet Workbench ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further Spreadsheet improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Surface Workbench ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further Surface improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== TechDraw Workbench ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:TD rich annotations relnotes 1.2.png|384px]]
+| Annotation tools have been reworked with improved rich-text annotation editing. [https://github.com/FreeCAD/FreeCAD/pull/24624 Pull request #24624]
+|}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Further TechDraw improvements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Import and export ==
+</div>
+
+[[Category:News{{#translation:}}]]
+[[Category:Documentation{{#translation:}}]]
+[[Category:Releases{{#translation:}}]]
