@@ -35,8 +35,8 @@ La commande '''Std Nouveau''' crée un nouveau document vide et en fait le docum
 
 Voir aussi : [[Preferences_Editor/fr|Réglage des préférences]].
 
-* Par défaut, FreeCAD démarre sans nouveau document. Cochez l'option {{MenuCommand|Édition → Préférences... → Général → Document → Créer un nouveau document au démarrage}} pour modifier ce comportement.
-* Certaines propriétés du document : nom de l'auteur, nom de la société et informations de licence, peuvent être prédéfinies : {{MenuCommand|Édition → Préférences... → Général → Document → Création et licence}}.
+* Par défaut, FreeCAD démarre sans nouveau document. Cochez l'option {{MenuCommand|Édition → Préférences → Général → Document → Créer un nouveau document au démarrage}} pour modifier ce comportement.
+* Certaines propriétés du document : nom de l'auteur, nom de la société et informations de licence, peuvent être prédéfinies : {{MenuCommand|Édition → Préférences → Général → Document → Création et licence}}.
 
 <span id="Properties"></span>
 ==Propriétés==
