@@ -309,11 +309,11 @@ Il existe de nombreuses façons de créer un assemblage avec Assembly3. Voici la
 :[[File:Assembly3_Example-GettingStarted.jpg|600px]]
 : ''Résultat final de l'exemple de mise en route. Dans l'image, l'atelier Assembly3 est sélectionné, de sorte que ses multiples barres d'outils sont visibles. Notez que la "TabBar" verticale à gauche de l'arborescence est une extension qui n'est pas contenu dans FreeCAD standard (peut être installé avec le Gestionnaire des extensions).''
 
-* Appuyez sur {{Button|[[Image:Std_New.svg|16px]] [[Std_New/fr|Nouveau]]}} pour créer un nouveau fichier FreeCAD
+* Appuyez sur {{Button|[[Image:Std_New.svg|16px]] [[Std_New/fr|Nouveau document]]}} pour créer un nouveau fichier FreeCAD
 * Changez pour l'atelier  [[Image:Assembly3_workbench_icon.svg|16px]] [[Assembly3_Workbench/fr|Assembly3]].
 * Sélectionnez {{Button|[[Image:Assembly_New_Assembly.svg|16px]] [[Assembly3_CreateAssembly/fr|Create assembly]]}}
-* Changez pour l'atelier [[Image:Workbench_Part.svg|16px]] [[Part_Workbench/fr|Part]] et ajoutez un [[Image:Part_Cylinder.svg|16px]] [[Part_Cylinder/fr|Cylindre]] et une [[Image:Part_Box.svg|16px]] [[Part_Box/fr|Cube]]
-* [[Image:Std_Save.svg|16px]] [[Std_Save/fr|Sauvegardez]] le fichier avec le nom que vous voulez. [[Image:Std_CloseActiveWindow.svg|16px]] [[Std_CloseActiveWindow/fr|Fermez]] et [[Image:Std_Open.svg|16px]] [[Std_Open/fr|Ouvrez]] le fichier de nouveau.
+* Changez pour l'atelier [[Image:Workbench_Part.svg|16px]] [[Part_Workbench/fr|Part]] et ajoutez un [[Image:Part_Cylinder.svg|16px]] [[Part_Cylinder/fr|cylindre]] et un [[Image:Part_Box.svg|16px]] [[Part_Box/fr|cube]]
+* [[Image:Std_Save.svg|16px]] [[Std_Save/fr|Sauvegardez]] le fichier avec le nom que vous voulez. [[Image:Std_CloseActiveWindow.svg|16px]] [[Std_CloseActiveWindow/fr|Fermez]] et [[Image:Std_Open.svg|16px]] [[Std_Open/fr|ouvrez]] le fichier de nouveau.
 
 L'arborescence devrait ressembler à ceci (0.20.pre et Link Branch) :
 
