@@ -1,18 +1,15 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Macro
 |Name=Macro Place Image
-|Description=Creates an ImagePlane and aligns it to an existing Draft Rectangle.
+|Description=Crea un ImagePlane e lo allinea a un rettangolo esistente di Draft.
 |Author=heda
 |Version=0.1
 |Date=2023-01-30
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Description==
-</div>
+<span id="Description"></span>
+==Descrizione==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Creates an [[Image_CreateImagePlane|ImagePlane]] and aligns it to an existing [[Draft_Rectangle|Draft Rectangle]].
