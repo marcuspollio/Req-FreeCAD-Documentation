@@ -29,10 +29,10 @@ Ce tutoriel utilise la notation {{Value|(x, y, z)}} pour désigner les coordonn�
 <span id="Setup"></span>
 == Installation ==
 
-1. Ouvrez FreeCAD, créez un nouveau document vide avec {{MenuCommand|Fichier → [[File:Std_New.svg|16px]] [[Std_New/fr|Nouveau]]}}.
+1. Ouvrez FreeCAD, créez un nouveau document vide avec {{MenuCommand|Fichier → [[File:Std_New.svg|16px]] [[Std_New/fr|Nouveau document]]}}.
 :1.1. Basculez vers l'[[Draft_Workbench/fr|atelier Draft]] depuis le [[Std_Workbench/fr|sélecteur d'atelier]] ou le menu {{MenuCommand|Affichage → Atelier → [[File:Workbench_Draft.svg|16px]] Draft}}.
-:1.2. Assurez-vous de comprendre comment utiliser l'[[Property_editor/fr|éditeur de propriétés]], en particulier les onglets {{MenuCommand|Données}} et {{MenuCommand|Affichage}} pour modifier les propriétés. Lors de la modification des propriétés, vous devrez peut-être effectuer une action {{Button|[[Image:Std_Refresh.svg|16px]] [[Std_Refresh/fr|Std Recalculer]]}} pour voir le résultat dans la [[3D_view/fr|vue 3D]].
-:1.3. Comme les objets Draft sont des formes planes, ils sont mieux vus du dessus. Utilisez {{Button|[[File:Std_ViewTop.svg|16px]] [[Std_ViewTop/fr|vue de dessus]]}} pour définir la [[3D_view/fr|vue 3D]].
+:1.2. Assurez-vous de comprendre comment utiliser l'[[Property_View/fr|éditeur de propriétés]], en particulier les onglets {{MenuCommand|Données}} et {{MenuCommand|Affichage}} pour modifier les propriétés. Lors de la modification des propriétés, vous devrez peut-être effectuer une action {{Button|[[Image:Std_Refresh.svg|16px]] [[Std_Refresh/fr|Std Recalculer]]}} pour voir le résultat dans la [[3D_View/fr|vue 3D]].
+:1.3. Comme les objets Draft sont des formes planes, ils sont mieux vus du dessus. Utilisez {{Button|[[File:Std_ViewTop.svg|16px]] [[Std_ViewTop/fr|vue de dessus]]}} pour définir la [[3D_View/fr|vue 3D]].
 : 1.4. Bien qu'elle ne soit pas utilisée dans ce tutoriel, la grille Draft est utile pour positionner des éléments géométriques. Utilisez {{Button|[[File:Draft_SelectPlane.svg|16px]] [[Draft_SelectPlane/fr|Plan de travail]]}} pour définir à la fois le plan de travail et la grille, puis affichez et masquez la grille avec {{Button|[[File:Draft_ToggleGrid.svg|16px]] [[Draft_ToggleGrid/fr|Visibilité de la grille]]}}.
 
 <span id="Snap_toolbar"></span>
