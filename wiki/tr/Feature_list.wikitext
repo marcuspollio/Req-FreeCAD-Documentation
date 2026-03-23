@@ -53,9 +53,7 @@ Bu, FreeCAD'in sunduğu özelliklerin kapsamlı ancak tam olmayan bir listesidir
 
 * ‘’'Tezgah kavramı'‘’. FreeCAD arayüzünde araçlar [[Workbenches/tr|Tezgah]] a göre gruplandırılmıştır. Bu sayede, belirli bir görevi yerine getirmek için kullanılan araçları görüntüleyebilir, çalışma alanını düzenli ve hızlı tutabilir ve uygulamanın hızla yüklenmesini sağlayabilirsiniz.
 
-<div class="mw-translate-fuzzy">
-*'''Özelliklerin/veri türlerinin sonradan yüklenebilmesi için Eklenti/Modül framework'ü'''. FreeCAD, yalnızca ihtiyaç duyulduğunda yüklenen çekirdek bir uygulamaya ve modüllere ayrılmıştır. Hemen hemen tüm aletler ve geometri türleri modüllerde depolanır. Modüller eklentiler gibi davranır ve mevcut bir FreeCAD kurulumuna eklenebilir veya kaldırılabilir.
-</div>
+* ‘’'özelliklerin/veri türlerinin gecikmeli yüklenmesi için eklenti/modül çerçevesi'‘’. FreeCAD, yalnızca gerektiğinde yüklenen modüller ve tezgahlar içeren bir çekirdek uygulama olarak yapılandırılmıştır. Hemen hemen tüm araçlar ve geometri türleri tezgahlarda depolanır. Tezgahlar eklenti gibi davranır; gecikmeli yüklemenin yanı sıra, mevcut bir FreeCAD kurulumuna tek tek çalışma alanları eklenebilir veya bu kurulumdan kaldırılabilir.
 
 <div class="mw-translate-fuzzy">
 *'''Parametrik ilişkisel belge nesneleri''': Bir FreeCAD belgesindeki tüm nesneler parametrelerle tanımlanabilir. Bu parametreler anında değiştirilebilir ve her zaman yeniden hesaplanabilir. Nesneler arasındaki ilişki de depolanır, dolayısıyla bir nesneyi değiştirmek aynı zamanda bağımlı nesnelerini de değiştirir.
