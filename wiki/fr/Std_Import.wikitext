@@ -42,9 +42,9 @@ La commande '''Std Importer''' importe la géométrie d'un format de fichier dif
 <span id="Notes"></span>
 ==Remarques==
 
-* Pour convertir un [[Mesh_Workbench/fr|maillage]] importé en tant que solide, consultez le tutoriel [[Import_from_STL_or_OBJ/fr|Importer depuis STL ou OBJ]].
+* Pour convertir un [[Mesh_Workbench/fr|objet maillé]] importé en tant que solide, consultez le tutoriel [[Import_from_STL_or_OBJ/fr|Importer depuis STL ou OBJ]].
 * Pour importer dans un nouveau document, vous pouvez utiliser la commande [[Std_Open/fr|Std Ouvrir]].
-* Certains ateliers ont des commandes d'importation supplémentaires. Voir: [[Import_Export/fr|Import Export]].
+* Certains ateliers ont des commandes d'importation supplémentaires. Voir [[Import_Export/fr|Import Export]].
 
 <span id="Preferences"></span>
 ==Préférences==
