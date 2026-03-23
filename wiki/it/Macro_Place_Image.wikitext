@@ -13,9 +13,8 @@
 
 Crea un [[Image_CreateImagePlane/it|ImagePlane]] e lo allinea a un [[Draft_Rectangle/it|Rettangolo di Draft]] esistente.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Utilizzo==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Select a Draft Rectangle, run the macro. See __doc__ for limitation.
