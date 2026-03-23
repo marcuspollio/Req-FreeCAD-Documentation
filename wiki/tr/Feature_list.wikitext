@@ -45,9 +45,7 @@ Bu, FreeCAD'in sunduğu özelliklerin kapsamlı ancak tam olmayan bir listesidir
 
 * ‘’'çoklu platform'‘’. FreeCAD, Windows, Linux, macOS ve diğer platformlarda tamamen aynı şekilde çalışır ve aynı şekilde davranır.
 
-<div class="mw-translate-fuzzy">
-*'''FreeCAD tam bir GUI uygulamasıdır'''. FreeCAD, ünlü [http://www.qtsoftware.com/ Qt] framework'e dayanan, tam bir Grafiksel Kullanıcı Arayüzüne sahiptir ve 3D görüntüleyici [http://en.wikipedia.org/wiki/Open_Inventor Open Inventor] ile 3D sahnelerin hızlı bir şekilde oluşturulmasını ve erişilebilir bir sahne grafiği sunumunu sağlar.
-</div>
+* ‘’'tam kapsamlı bir GUI uygulaması'‘’. FreeCAD, [https://www.qt.io/ Qt] çerçevesine dayanan eksiksiz bir Grafik Kullanıcı Arayüzüne sahiptir ve [https://en.wikipedia.org/wiki/Open_Inventor Open Inventor] tabanlı bir 3B görüntüleyiciyle donatılmıştır; bu sayede 3B sahnelerin hızlı bir şekilde işlenmesi ve son derece anlaşılır bir sahne grafiği sunumu sağlanmaktadır.
 
 <div class="mw-translate-fuzzy">
 *'''FreeCAD ayrıca bir komut satırı uygulaması olarak da çalışır'''. Bellek kullanımı çok azdır.Komut satırı modunda, FreeCAD arayüzü olmadan ancak tüm geometri araçları ile çalışır. Örneğin, diğer uygulamalara içerik üretmek için sunucu olarak kullanılabilir.
