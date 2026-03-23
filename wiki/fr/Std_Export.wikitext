@@ -30,8 +30,8 @@ La commande '''Std Exporter''' exporte les objets sélectionnés vers un format 
 #* Sélectionnez un [[Std_Group/fr|Std Groupe]] ou un [[Std_Part/fr|Std Part]] en sélectionnant uniquement l'objet parent lui-même ou les objets imbriqués à l'intérieur.
 #* N'utilisez pas la commande [[Std_SelectAll/fr|Std Tout sélectionner]] car elle sélectionnera également les sous-éléments des PartDesign Corps.
 # Il existe plusieurs façons de lancer la commande :
-#* Sélectionnez l'option {{MenuCommand|Fichier → [[Image:Std_Export.svg|16px]] Exporter...}} du menu.
-#* Utilisez le raccourci clavier: {{KEY|Ctrl}}+{{KEY|E}}.
+#* Sélectionnez l'option {{MenuCommand|Fichier → [[Image:Std_Export.svg|16px]] Exporter…}} du menu.
+#* Utilisez le raccourci clavier : {{KEY|Ctrl}}+{{KEY|E}}.
 # Sélectionnez le format de fichier correct dans la fenêtre de dialogue.
 # Entrez un nom de fichier.
 # Appuyez sur le bouton {{Button|Enregistrer}}.
