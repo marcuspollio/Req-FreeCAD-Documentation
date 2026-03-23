@@ -28,10 +28,10 @@ La commande '''Std Importer''' importe la géométrie d'un format de fichier dif
 ==Utilisation==
 
 # Il existe plusieurs façons d'appeler la commande:
-#* Sélectionnez l'option {{MenuCommand|Fichier → [[Image:Std_Import.svg|16px]] Importer...}} du menu.
+#* Sélectionnez l'option {{MenuCommand|Fichier → [[Image:Std_Import.svg|16px]] Importer…}} du menu.
 #* Utilisez le raccourci clavier : {{KEY|Ctrl}}+{{KEY|I}}. {{VersionMinus/fr|1.0}}
 #* Utilisez le raccourci clavier : {{KEY|Ctrl}}+{{KEY|Alt}}+{{KEY|I}}. {{Version/fr|1.1}}
-# Sélectionnez éventuellement le format de fichier correct dans la boîte de dialogue.
+# Vous pouvez sélectionner le bon format de fichier dans la boîte de dialogue.
 # Sélectionnez un fichier.
 # Appuyez sur le bouton {{Button|Ouvrir}}.
 
