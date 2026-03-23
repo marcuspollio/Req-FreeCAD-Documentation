@@ -54,7 +54,7 @@ La commande '''Std Importer''' importe la géométrie d'un format de fichier dif
 <span id="Image_Plane"></span>
 ==Plan d'image==
 
-Un plan d'image est une représentation plane d'une image dans la [[3D_view/fr|vue 3D]]. Il peut par exemple être utilisé lors de la création d'un modèle basé sur des photographies d'un objet existant.
+Un plan d'image est une représentation plane d'une image dans la [[3D_View/fr|vue 3D]]. Il peut par exemple être utilisé lors de la création d'un modèle basé sur des photographies d'un objet existant.
 
 Par défaut, un plan d'image est placé sur le plan global XY. La taille initiale d'un plan d'image est calculée sur la base d'une résolution de 96 px/pouce.
 
