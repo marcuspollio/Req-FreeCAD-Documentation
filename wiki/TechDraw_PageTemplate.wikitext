@@ -95,6 +95,9 @@ for key, value in texts.items():
 
 texts["FC-Title"] = "The title of my page"
 page.Template.EditableTexts = texts
+
+# Better way to edit fields:
+page.Template.setEditFieldContent("FC-Title", "Another title of my page")
 }}
 <translate>
 
