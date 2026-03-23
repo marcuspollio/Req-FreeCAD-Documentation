@@ -25,13 +25,11 @@ La commande '''Std Fermer''' ferme la fenêtre active. Pour fermer un document, 
 <span id="Usage"></span>
 ==Utilisation==
 
-# Il existe plusieurs façons de lancer la commande :
+# Il existe plusieurs façons de lancer cette commande :
 #* Sélectionnez l'option {{MenuCommand|Fichier → [[Image:Std_CloseActiveWindow.svg|16px]] Fermer}} du menu.
 #* Utilisez le raccourci clavier : {{KEY|Ctrl}}+{{KEY|W}}.
 # Pour fermer un document : répétez cette opération pour toutes les fenêtres qui lui appartiennent.
-# Lors de la fermeture de la dernière fenêtre d'un document non enregistré, une fenêtre de dialogue vous invite à l'enregistrer :
-#* Appuyez sur le bouton {{Button|Enregistre le document actif}} pour enregistrer le document. Si nécessaire, entrez d'abord un nom de fichier.
-#* Appuyez sur le bouton {{Button|Abandonner}} pour supprimer le document et perdre toutes les modifications.
+# Lorsque vous fermez la dernière fenêtre d'un document qui a été modifié, une boîte de dialogue vous invite à l'enregistrer.
 
 ==Options==
 
