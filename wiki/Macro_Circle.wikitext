@@ -20,13 +20,12 @@
 This small macro create a circle or arc giving radius, diameter, circumference, area, startangle, end angle, arc, angle center, cord, arrow, center (point), placemObject on choice. The new circle is created in the real coordinate of object, not in the coordinate of the Body.<br/>{{ColoredText|(Command line, paste this complete macro in the Python console)}}.
 
 <!--T:3-->
-The circle is still facing the screen (with getCameraOrientation) (or give the placement) 
+The circle is still facing the screen (with getCameraOrientation) (or give the placement).
 
 ==Usage== <!--T:14-->
 
 <!--T:4-->
-Copy the code and paste it in the console Python the FreeCAD the command is used all the time to the disposal FreeCAD open
-give the parameter on choice : 
+Copy the code and paste it in the console Python the FreeCAD the command is used all the time to the disposal FreeCAD open give the parameter on choice : 
 
 <!--T:5-->
 * '''x y z''' : coordinates of circle if not coordinates the circle is created on point 0,0,0
@@ -51,7 +50,7 @@ give the parameter on choice :
 **     give '''placemObject = pl'''
 
 <!--T:6-->
-if there is no parameter "'''circle()'''" a list of functions is displayed in the report view
+if there is no parameter "'''circle()'''" a list of functions is displayed in the report view.
 <br /><br />
 </translate>
 <translate>
