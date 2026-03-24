@@ -1,23 +1,18 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Macro
+{{Macro/it
 |Name=Macro Points to Splines
-|Description=Creates splines from Points object sections.
+|Description=Crea spline a partire da sezioni di oggetti Punti.
 |Author=heda
 |Version=0.1
-|Date=2024-10-23
+|Date=23-10-2024
 |FCVersion=
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Description==
-</div>
+<span id="Description"></span>
+==Descrizione==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This macro creates splines from Points object sections.
-</div>
+Questa macro crea spline a partire da sezioni di oggetti Punti.
 
 [[File:Macro_Points_to_Splines.png]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
