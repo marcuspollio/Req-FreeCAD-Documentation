@@ -9,7 +9,6 @@
 |IconC=Freecad.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/fr
 |Name=Std_Cut
 |Name/fr=Std Couper
@@ -18,23 +17,21 @@
 |Workbenches=Tous
 |SeeAlso=[[Std_Copy/fr|Std Copier]], [[Std_Paste/fr|Std Coller]], [[Std_DuplicateSelection/fr|Std Dupliquer une sélection]]
 }}
-</div>
 
 ==Description==
 
-La commande '''Std Couper''' est limitée : elle ne peut être utilisée que pour les [[Spreadsheet_Workbench/fr|Cellules du tableur]]. La commande copie le contenu et les propriétés des cellules dans le presse-papiers puis les efface.
+La commande '''Std Couper''' est limitée : elle ne peut être utilisée que pour les [[Spreadsheet_Workbench/fr|cellules du tableur]]. La commande copie le contenu et les propriétés des cellules dans le presse-papiers puis les efface.
 
 Pour couper d'autres objets, vous pouvez utiliser la commande [[Std_Copy/fr|Std Copier]] suivie d'une opération de suppression.
 
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
 # Sélectionnez une ou plusieurs cellules dans la feuille de calcul.
 # Il y a plusieurs façons de lancer la commande :
 #* Appuyez sur le bouton {{Button|[[Image:Std_Cut.svg|16px]] [[Std_Cut/fr|Couper]]}}.
 #* Sélectionnez l'option {{MenuCommand|Édition → [[Image:Std_Cut.svg|16px]] Couper}} du menu.
-</div>
+#* Utilisez le raccourci clavier : {{KEY|Ctrl}}+{{KEY|X}}.
 
 <span id="Notes"></span>
 ==Remarques==
