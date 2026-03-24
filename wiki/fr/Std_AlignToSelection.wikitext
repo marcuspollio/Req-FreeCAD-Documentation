@@ -25,7 +25,7 @@ La commande '''Std Aligner sur la sélection''' pointe la caméra dans la [[3D_V
 
 {{Version/fr|1.0}} La direction finale de la caméra est opposée à la direction de la normale ou de l'arête.
 
-{{Version|1.1}} La direction finale de la caméra est la direction de la normale ou de l'arête, ou son opposé, selon celle qui est la plus proche de la précédente direction de la caméra.
+{{Version/fr|1.1}} La direction finale de la caméra est la direction de la normale ou de l'arête, ou son opposé, selon celle qui est la plus proche de la précédente direction de la caméra.
 
 <span id="Usage"></span>
 ==Utilisation==
