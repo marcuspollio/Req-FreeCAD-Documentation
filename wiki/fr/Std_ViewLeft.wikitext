@@ -20,7 +20,7 @@
 
 ==Description==
 
-La '''Std Vue de gauche''' place la caméra dans la [[3D_view/fr|vue 3D]] dans la direction de l'axe des X positifs.
+La '''Std Vue de gauche''' place la caméra dans la [[3D_View/fr|vue 3D]] dans la direction de l'axe des X positifs.
 
 [[Image:FreeCAD_views_rear.svg]]
 {{Caption|La flèche 6 pointe dans le sens de la vue de gauche}}
@@ -42,7 +42,7 @@ Voir [[Std_ViewFront/fr#Script|Std Vue de face]].
 
 {{Docnav/fr
 |[[Std_ViewBottom/fr|Vue de dessous]]
-|[[Std_ViewRotateLeft/fr|Rotation à gauche]]
+|[[Std_ViewRotateLeft/fr|Pivoter à gauche]]
 |[[Std_View_Menu/fr|Menu Affichage]]
 |IconL=Std_ViewBottom.svg
 |IconR=Std_ViewRotateLeft.svg
