@@ -11,7 +11,9 @@
 }}
 </div>
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/it|Name=Std_DlgCustomize|Name/it=Personalizza|MenuLocation=Strumenti → Personalizza...|Workbenches=Tutti|SeeAlso=[[Interface_Customization/it|Personalizzare l'interfaccia]]}}
+</div>
 
 <span id="Description"></span>
 ==Descrizione==
@@ -25,6 +27,7 @@ Il comando '''Personalizza''' apre la finestra di dialogo Personalizza dando acc
 <span id="Usage"></span>
 ==Utilizzo==
 
+<div class="mw-translate-fuzzy">
 # I comandi disponibili nella finestra di dialogo Personalizza dipendono dagli ambienti di lavoro che sono stati caricati nella sessione corrente di FreeCAD. Quindi bisogna prima caricare tutti gli ambienti di lavoro che contengono i comandi a cui si vuole avere accesso.
 # Esistono diversi modi per invocare il comando:
 #* Selezionare l'opzione {{MenuCommand|Strumenti → [[Image:Std_DlgCustomize.svg|16px]] Personalizza...}} dal menu.
@@ -32,6 +35,7 @@ Il comando '''Personalizza''' apre la finestra di dialogo Personalizza dando acc
 # Viene visualizzata la finestra di dialogo '''Personalizza'''. Per ulteriori informazioni, vedere [[Interface_Customization/it#Opzioni|Personalizzare l'interfaccia]].
 # Il pulsante {{Button|Help}} non funziona in questo momento.
 # Premere il pulsante {{Button|Chiudi}} per chiudere la finestra di dialogo.
+</div>
 
 
 <div class="mw-translate-fuzzy">
