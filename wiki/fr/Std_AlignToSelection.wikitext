@@ -21,7 +21,7 @@
 
 ==Description==
 
-La commande '''Std Aligner sur la sélection''' pointe la caméra dans la [[3D_view/fr|vue 3D]] active dans la direction de la normale d'une face, de la normale d'un plan défini par une arête courbe plane ({{Version/fr|1.1}}) ou de la direction d'une arête droite.
+La commande '''Std Aligner sur la sélection''' pointe la caméra dans la [[3D_View/fr|vue 3D]] active dans la direction de la normale d'une face, de la normale d'un plan défini par une arête courbe plane ({{Version/fr|1.1}}) ou de la direction d'une arête droite.
 
 {{Version|1.0}} La direction finale de la caméra est opposée à la direction de la normale ou de l'arête.
 
