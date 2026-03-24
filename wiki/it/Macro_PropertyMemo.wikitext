@@ -34,11 +34,9 @@ Avviare la macro, selezionare un oggetto di Draft, compilare i campi e applicare
 
 {{clear}}
 
-<div class="mw-translate-fuzzy">
-* '''Memo''' : In questo caso il titolo della proprietà è Memo
-* '''Name''' : In questo caso il campo della proprietà è compilato con Name
-* Il campo della proprietà può essere compilato a piacere
-</div>
+* '''Memo''': Titolo della proprietà: {{Value|Memo}}.
+* '''Name''': Nome della proprietà: {{Value|Name}}.
+* Il campo è vuoto
 
 <div class="mw-translate-fuzzy">
 <center>
