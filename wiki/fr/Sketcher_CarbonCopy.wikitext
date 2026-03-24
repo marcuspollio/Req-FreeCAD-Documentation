@@ -41,7 +41,7 @@ Les contraintes dimensionnelles qui existaient avant l'opération de copie reste
 <span id="Notes"></span>
 ==Remarques==
 
-* Dans l'[[PartDesign_Workbench/fr|atelier PartDesign]], il est possible de sélectionner l'esquisse à copier au carbone depuis l'extérieur du [[PartDesign_Body/fr|Body]] de l'esquisse active, mais uniquement si la touche {{KEY|Ctrl}} est maintenue enfoncée pendant la sélection.
+* Dans l'[[PartDesign_Workbench/fr|atelier PartDesign]], il est possible de sélectionner l'esquisse à copier au carbone depuis l'extérieur du [[PartDesign_Body/fr|corps]] de l'esquisse active, mais uniquement si la touche {{KEY|Ctrl}} est maintenue enfoncée pendant la sélection.
 * L'esquisse à copier doit être parallèle à l'esquisse active. Si ce n'est pas le cas, les touches {{KEY|Ctrl}} et {{KEY|Alt}} doivent être maintenues enfoncées pendant la sélection. Cela fonctionne également pour les esquisses situées en dehors du corps actif.
 * Si le [[Sketcher_ToggleConstruction/fr|mode de construction]] est actif, la géométrie copiée est créée en tant que géométrie de construction.
 * L'esquisse complète est copiée, il n'est pas possible de n'en sélectionner qu'une partie. Mais après la copie, vous pouvez supprimer les éléments non désirés.
