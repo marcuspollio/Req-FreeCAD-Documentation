@@ -36,15 +36,19 @@ Polecenie '''Scal projekt''' dodaje zawartość pliku FreeCAD do aktywnego dokum
 <span id="Notes"></span>
 ==Uwagi==
 
+<div class="mw-translate-fuzzy">
 * Projekt nie może być łączony z samym sobą, wybieranie bieżącego pliku jest niedozwolone.
 * FreeCAD automatycznie zmieni wewnętrzne nazwy oraz, w zależności od [[Preferences_Editor/pl#Dokument|preferencji]], etykiety obiektów, aby uniknąć konfliktów nazw.
+</div>
 
 <span id="Scripting"></span>
 ==Tworzenie skryptów==
 
 Zobacz również stronę: [https://freecad.github.io/SourceDoc/ Dokumentacja API generowana automatycznie] oraz [[FreeCAD_Scripting_Basics/pl|Podstawy pisania skryptów dla FreeCAD]].
 
+<div class="mw-translate-fuzzy">
 Aby scalić obiekt, należy użyć metody {{incode|mergeProject}} obiektu ''document''.
+</div>
 
 {{Code|code=
 import FreeCAD
