@@ -22,7 +22,9 @@
 Za pomocą polecenia '''Narzędzie projektu''' można wyodrębnić pliki z pliku projektu FreeCAD ''({{FileName|*.FCStd}}), który w rzeczywistości jest plikiem [https://en.wikipedia.org/wiki/Zip_(file_format)'' ZIP], i po ręcznej edycji utworzyć z nich nowy plik projektu.
 
 [[Image:Project_utility_en.png]]
+<div class="mw-translate-fuzzy">
 {{Caption|Okno dialogowe Narzędzia projektu}}
+</div>
 
 <span id="Usage"></span>
 ==Użycie==
@@ -30,6 +32,7 @@ Za pomocą polecenia '''Narzędzie projektu''' można wyodrębnić pliki z pliku
 <span id="Extract_Document"></span>
 ===Wyodrębnienie projektu===
 
+<div class="mw-translate-fuzzy">
 # Wybierz z menu opcję {{MenuCommand|Przybory → [[Image:Std_ProjectUtil.svg|16px]] Narzędzie dokumentu ...}}.
 # Otworzy się okno dialogowe '''Narzędzie dokumentu'''.
 # Naciśnij przycisk {{Button|...}} po prawej stronie {{MenuCommand|Wyodrębnij projekt → Źródło}}.
@@ -38,6 +41,7 @@ Za pomocą polecenia '''Narzędzie projektu''' można wyodrębnić pliki z pliku
 # Wybierz folder, do którego ma zostać wyodrębniony plik projektu. Wskazane jest wybranie pustego folderu.
 # Naciśnij przycisk {{Button|Rozpakuj}}.
 # Naciśnij przycisk {{Button|Zamknij}}, aby zamknąć okno dialogowe.
+</div>
 
 <span id="Manual_edits"></span>
 ===Edycja samodzielna===
@@ -47,6 +51,7 @@ Ważne jest, aby zdać sobie sprawę, że pliki wewnątrz dokumentu FreeCAD są 
 <span id="Create_Document"></span>
 ===Utwórz projekt===
 
+<div class="mw-translate-fuzzy">
 # Wybierz z menu opcję {{MenuCommand|Przybory → [[Image:Std_ProjectUtil.svg|16px]] Narzędzie dokumentu ...}}.
 # Otworzy się okno dialogowe Narzędzie dokumentu.
 # Naciśnij przycisk {{Button|...}} na prawo od {{MenuCommand|Utwórz projekt → Źródło}}.
@@ -57,6 +62,7 @@ Ważne jest, aby zdać sobie sprawę, że pliki wewnątrz dokumentu FreeCAD są 
 # W wybranym folderze tworzony jest nowy plik projektu o ustalonej nazwie, {{FileName|project.fcstd}}. Nie ma ostrzeżenia, jeśli plik o tej nazwie już istnieje.
 # Opcjonalnie zaznacz pole wyboru {{CheckBox|TRUE|Wczytaj plik projektu po utworzeniu}}.
 # Naciśnij przycisk {{Button|Zamknij}}, aby zamknąć okno dialogowe.
+</div>
 
 <span id="Notes"></span>
 ==Uwagi==
