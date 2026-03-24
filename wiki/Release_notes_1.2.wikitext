@@ -23,7 +23,6 @@ See [[Help_FreeCAD|Help FreeCAD]] for ways to contribute to FreeCAD.
 <!--T:5-->
 Previous FreeCAD release notes can be found in the [[Feature_list#Release_notes|Feature list]].
 
-
 == General == <!--T:7-->
 
 * Multiple documents can now be edited simultaneously with independent tasks and undo/redo stacks, for example having two Sketches open at the same time (GSoC project). [https://github.com/FreeCAD/FreeCAD/pull/21978 Pull request #21978]
