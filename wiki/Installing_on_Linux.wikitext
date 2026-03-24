@@ -332,13 +332,15 @@ Many alternative, non-official FreeCAD packages are available on the net, for ex
 ===Installing on other Linux/Unix systems=== <!--T:72--> 
 
 <!--T:73-->
-Many common Linux distros used to include a precompiled FreeCAD as part of the standard packages. This was (and where it's still included, is) often out of date, but is a place to start. Check the standard package managers for your system. One of the following (partial) list of commands could install the official version of FreeCAD for your distro from the terminal. These probably need administrator privileges.
+Many common Linux distros now include a precompiled FreeCAD as part of the standard packages. This is often out of date, but is a place to start. Check the standard package managers for your system. One of the following (partial) list of commands could install the official version of FreeCAD for your distro from the terminal. These probably need administrator privileges.
 
 </translate>
 {{Code|code=
 apt install freecad
+dnf install freecad
 emerge freecad
 slackpkg install freecad
+yum install freecad
 zypper install freecad
 pacman -Sy freecad
 }}
@@ -351,8 +353,6 @@ releases from the github repository. These also tend to work on most x86_64 Linu
 
 <!--T:76-->
 If that still is not good enough, and you cannot locate another source of a precompiled package for your situation, you will need to [[Compile_on_Linux|compile FreeCAD yourself]].
-
-Note that FreeCAD fell out of the packaging system of multiple Linux distros due to being hard to package, depending on overly specific Python versions and having hard to package dependencies, so if you plan to package FreeCAD for your Linux distro of choice, make sure to engage with your distro's maintainer community – they are quite likely to be able to point you in the direction of previous packaging efforts, and inform you why FreeCAD is not currently being packaged.
 
 == Next Step == <!--T:79--> 
 
