@@ -2,7 +2,7 @@
 
 {{Docnav/fr
 |[[Std_Paste/fr|Coller]]
-|[[Std_Refresh/fr|Rafraîchir]]
+|[[Std_Refresh/fr|Recalculer]]
 |[[Std_Edit_Menu/fr|Menu Édition]]
 |IconL=Std_Paste.svg
 |IconR=Std_Refresh.svg
@@ -12,7 +12,7 @@
 {{GuiCommand/fr
 |Name=Std DuplicateSelection
 |Name/fr=Std Dupliquer la sélection
-|MenuLocation=Édition → Dupliquer la sélection
+|MenuLocation=Édition → Dupliquer une sélection
 |Workbenches=Tous
 |SeeAlso=[[Std_Copy/fr|Std Copier]], [[Std_Paste/fr|Std Coller]]
 }}
@@ -41,7 +41,7 @@ Voir [[Std_Paste/fr#Préférences|Std Coller]].
 
 {{Docnav/fr
 |[[Std_Paste/fr|Coller]]
-|[[Std_Refresh/fr|Rafraîchir]]
+|[[Std_Refresh/fr|Recalculer]]
 |[[Std_Edit_Menu/fr|Menu Édition]]
 |IconL=Std_Paste.svg
 |IconR=Std_Refresh.svg
