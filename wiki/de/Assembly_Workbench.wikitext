@@ -16,7 +16,9 @@
 
 {{Version/de|1.0}}
 
+<div class="mw-translate-fuzzy">
 Der Arbeitsbereich [[File:Workbench_Assembly.svg|24px]] [[Assembly_Workbench/de|Assembly]] ist FreeCADs neuer eingebauter Arbeitsbereich für das Erstellen von Baugruppen bzw. Zusammenbauten. Er verwendet den quelloffenen Gleichungslöser [https://github.com/Ondsel-Development/OndselSolver OndselSolver].
+</div>
 
 [[Image:Assembly_Workbench_Example.png|400px]]
 
