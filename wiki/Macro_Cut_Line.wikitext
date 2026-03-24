@@ -13,7 +13,7 @@
 |Download=[https://wiki.freecad.org/images/3/35/Macro_Cut_Line.png ToolBar Icon]
 }}
 
-==Description==
+==Description== <!--T:15-->
 
 <!--T:2-->
 This small macro cut a line and create a points , lines , two colours of line.
@@ -44,6 +44,7 @@ With bisColor the lines on the original line is created by a white line red line
 
 ==Script== <!--T:9-->
 
+<!--T:16-->
 ToolBar Icon [[Image:Macro_Cut_Line.png]]
 
 </translate>
@@ -136,7 +137,7 @@ cutLine(4, createLine = 1, biColor = 1, createPoint = 0)
 }}
 <translate>
 
-==Links==
+==Links== <!--T:17-->
 
 <!--T:10-->
 This function uses the function discretize [https://forum.freecad.org/viewtopic.php?f=3&t=4217&hilit=discretize the original code].
