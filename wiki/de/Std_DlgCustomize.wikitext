@@ -9,6 +9,7 @@
 |IconC=Freecad.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=Std DlgCustomize
 |Name/de=Std DlgAnpassen
@@ -16,6 +17,7 @@
 |Workbenches=Alle
 |SeeAlso=[[Interface_Customization/de|Anpassen der Oberfläche]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Beschreibung==
@@ -29,6 +31,7 @@ Der Befehl '''Std DlgAnpassen''' öffnet das Dialogfeld Anpassen, das Zugriff au
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 # Die im Dialogfeld "Anpassen" verfügbaren Befehle hängen von den Arbeitsbereichen ab, die in der aktuellen FreeCAD-Sitzung geladen wurden. Es sollten also zunächst alle Arbeitsbereiche geladen werden, auf deren Befehle man zugreifen möchte.
 # Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
 #* Den Menüeintrag {{MenuCommand|Werkzeuge → [[Image:Std_DlgCustomize.svg|16px]] Anpassen...}} auswählen.
@@ -36,6 +39,7 @@ Der Befehl '''Std DlgAnpassen''' öffnet das Dialogfeld Anpassen, das Zugriff au
 # Das Dialogfeld '''Anpassen''' wird geöffnet. Weitere Informationen findet man unter [[Interface_Customization/de#Optionen|Anpassen der Oberfläche]].
 # Die Schaltfläche {{Button|Hilfe}} funktioniert zurzeit nicht.
 # Die Schaltfläche {{Button|Schließen}} drücken, um das Dialogfeld zu schließen.
+</div>
 
 
 {{Docnav/de
