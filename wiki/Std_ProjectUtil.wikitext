@@ -59,7 +59,7 @@ It is important to realize that the files inside a FreeCAD document are interlin
 # Select a folder where the new document should be created.
 # Press the {{Button|Create}} button.
 # A new document with a fixed name, {{FileName|project.fcstd}}, is created in the selected folder. There is no warning if a file with that name already exists.
-# Optionally check the '''Load document after creation''' checkbox.
+# Optionally check the '''Load document file after creation''' checkbox.
 # Press the {{Button|Close}} button to close the dialog box.
 
 ==Notes== <!--T:13-->
