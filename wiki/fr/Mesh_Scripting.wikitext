@@ -78,7 +78,7 @@ pipe = cylA
 pipe = pipe.difference(cylB)
 pipe.flipNormals() # somehow required
 doc = FreeCAD.ActiveDocument
-obj = d.addObject("Mesh::Feature", "Pipe")
+obj = doc.addObject("Mesh::Feature", "Pipe")
 obj.Mesh = pipe
 doc.recompute()
 }}
