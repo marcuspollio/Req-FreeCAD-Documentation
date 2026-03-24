@@ -126,11 +126,13 @@ Per ottenere una linea retta, diretta verso il centro, come ipocicloide, utilizz
 <span id="Full_hypocycloid/epicycloid_as_tooth"></span>
 === Ipocicloide/epicicloide completo come dente ===
 
+<div class="mw-translate-fuzzy">
 Per ottenere un ingranaggio composto da curve ipocicloide ed epicicloide complete utilizzare le seguenti [[Expressions/it|espressioni]]:
 * {{PropertyData|inner_diameter}}: {{incode|0.5 + 1e-6}}
 * {{PropertyData|outer_diameter}}: {{incode|inner_diameter}}
 * {{PropertyData|clearance}}: {{incode|(-1 + inner_diameter/1mm) * 2}}
 * {{PropertyData|head}}: {{incode|(-1 + outer_diameter/1mm) * 2}}
+</div>
 
 <div class="mw-translate-fuzzy">
 Il diametro di riferimento è ''d = m * z'', dove ''m'' è {{PropertyData|module}} e ''z'' è {{PropertyData|teeth}}.
@@ -139,9 +141,11 @@ Per un ipocicloide completo, il diametro di rotolamento deve essere ''d_i = d / 
 
 <div class="mw-translate-fuzzy">
 Ora i diametri dei cerchi di rotolamento delle cicloidi devono corrispondere all'addendum/dedendum dell'ingranaggio. L'addendum, cioè la lunghezza del dente sopra il cerchio di riferimento, è 1 + {{PropertyData|head}}. Il dedendum, cioè la lunghezza del dente sotto il cerchio di riferimento, è 1 + {{PropertyData|clearance}}. Entrambi sono normalizzati dal modulo, quindi abbiamo bisogno di un valore di prevalenza/gioco di ''1 - d_in''. L'ulteriore {{incode| / 1mm}} e {{incode| *2}} sono necessari per superare i difetti già risolti nella versione di sviluppo di FCGear Workbench, ma riportare tali correzioni alla versione stabile potrebbe danneggiare i modelli esistenti.
-</div>
+</div> 
 
-Tali "ingranaggi" consentono il numero di denti fino a "due" e vengono utilizzati come palette rotanti nelle pompe o nei compressori (cfr. [https://en.wikipedia.org/wiki/Roots-type_supercharger Roots -tipo Supercharger]).
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Such "gears" allow the the number of teeth to be as low as ''two'' and are used as rotary vanes in pumps or compressors (cf. [https://en.wikipedia.org/wiki/Roots-type_supercharger Roots-type Supercharger]).
+</div>
 
 <span id="Infinitely_large_epicycloid"></span>
 === Epicicloide infinitamente grande ===
