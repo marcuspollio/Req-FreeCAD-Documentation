@@ -21,7 +21,9 @@
 Avec la commande '''Std Utilitaire de documents''', vous pouvez extraire des fichiers de documents FreeCAD ({{FileName|*.FCStd}}), qui est en fait un fichier [https://fr.wikipedia.org/wiki/ZIP_(format_de_fichier) ZIP], et, après des modifications manuelles, créer de nouveaux documents à partir de ces fichiers.
 
 [[Image:Project_utility_en.png]]
+<div class="mw-translate-fuzzy">
 {{Caption|La fenêtre de dialogue Utilitaire de documents}}
+</div>
 
 <span id="Usage"></span>
 ==Utilisation==
@@ -29,6 +31,7 @@ Avec la commande '''Std Utilitaire de documents''', vous pouvez extraire des fic
 <span id="Extract_Document"></span>
 ===Extraire un document===
 
+<div class="mw-translate-fuzzy">
 # Sélectionnez l'option {{MenuCommand|Outils → [[Image:Std_ProjectUtil.svg|16px]] Utilitaire de documents}} du menu.
 # La fenêtre de dialogue '''Utilitaire de documents''' s'ouvre.
 # Appuyez sur le bouton {{Button|…}} à droite de {{MenuCommand|Extraire un document → Source}}.
@@ -37,6 +40,7 @@ Avec la commande '''Std Utilitaire de documents''', vous pouvez extraire des fic
 # Sélectionnez un dossier dans lequel le document doit être extrait. Il est conseillé de sélectionner un dossier vide.
 # Appuyez sur le bouton {{Button|Extraire}}.
 # Appuyez sur le bouton {{Button|Fermer}} pour fermer la fenêtre de dialogue.
+</div>
 
 <span id="Manual_edits"></span>
 === Modifications manuelles ===
@@ -46,6 +50,7 @@ Il est important de réaliser que les fichiers contenus dans un document FreeCAD
 <span id="Create_Document"></span>
 ===Créer un document===
 
+<div class="mw-translate-fuzzy">
 # Sélectionnez l'option {{MenuCommand|Outils → [[Image:Std_ProjectUtil.svg|16px]] Utilitaire de documents}} du menu.
 # La boîte de dialogue '''Utilitaire de documents''' s'ouvre.
 # Appuyez sur le bouton {{Button|…}} à droite de {{MenuCommand|Créer un document → Source}}.
@@ -56,6 +61,7 @@ Il est important de réaliser que les fichiers contenus dans un document FreeCAD
 # Un nouveau document avec un nom fixe, {{FileName|project.fcstd}}, est créé dans le dossier sélectionné. Il n'y a aucun avertissement si un fichier portant ce nom existe déjà.
 # Cochez éventuellement la case '''Charger le fichier du document après la création'''.
 # Appuyez sur le bouton {{Button|Fermer}} pour fermer la boîte de dialogue.
+</div>
 
 <span id="Notes"></span>
 ==Remarques==
