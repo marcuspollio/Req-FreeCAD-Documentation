@@ -39,8 +39,8 @@ La commande '''Std Annuler''' annule la dernière action.
 
 Voir aussi : [[Preferences_Editor/fr|Réglage des préférences]].
 
-* La fonction Annuler/Rétablir peut être désactivée en décochant l'option {{MenuCommand|Édition → Préférences... → Général → Document → Utiliser Annuler/Rétablir sur les documents}}. Mais cela n'est pas recommandé.
-* Le nombre maximum de fois Annuler/Rétablir est contrôlé par {{MenuCommand|Édition → Préférences... → Général → Document → Nombre maximal d'actions Annuler/Rétablir}}.
+* La fonction Annuler/Rétablir peut être désactivée en décochant l'option {{MenuCommand|Édition → Préférences → Général → Document → Utiliser les fonctions Annuler/Rétablir dans les documents}}, mais cela n'est pas recommandé.
+* Le nombre maximum de fois Annuler/Rétablir est contrôlé par {{MenuCommand|Édition → Préférences → Général → Document → Nombre maximum de fois Annuler/Rétablir}}.
 
 <span id="Scripting"></span>
 ==Script==
