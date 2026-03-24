@@ -26,8 +26,8 @@ La commande '''Std Supprimer''' supprime les objets sélectionnés.
 
 # Sélectionnez un ou plusieurs objets.
 # Il existe plusieurs façons de lancer la commande :
-#* Sélectionnez l'option {{MenuCommand|Édition → [[Image:Std_Delete.svg|16px]] Effacer}} du menu.
-#* Sélectionnez l'option {{MenuCommand|[[Image:Std_Delete.svg|16px]] Effacer}} dans le menu contextuel de la [[tree view/fr|vue en arborescence]] ou le menu contextuel de la [[3D_view/fr|vue 3D]].
+#* Sélectionnez l'option {{MenuCommand|Édition → [[Image:Std_Delete.svg|16px]] Supprimer}} du menu.
+#* Sélectionnez l'option {{MenuCommand|[[Image:Std_Delete.svg|16px]] Supprimer}} dans le menu contextuel de l'[[Tree_View/fr|arborescence]] ou le menu contextuel de la [[3D_View/fr|vue 3D]].
 #* Utilisez le raccourci clavier : {{KEY|Suppr}}.
 
 <span id="Scripting"></span>
