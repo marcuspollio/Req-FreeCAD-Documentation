@@ -17,13 +17,17 @@
 
 Cette petite macro vous permet de créer un cercle en donnant comme argument différents paramètres comme le rayon, le diamètre, la circonférence, la surface, angle de départ, angle de fin, arc, angle central, corde, flèche, point au centre du cercle, placement de l'objet au choix. La nouveau cercle est créée dans les coordonnées réelles de l'objet et non dans celles du corps.<br/> {{ColoredText|(Ligne de commande, collez cette macro complète dans la console Python)}}.
 
-Le cercle fait toujours face à l'écran (avec la commande getCameraOrientation) (ou donner le placement) 
+<div class="mw-translate-fuzzy">
+Le cercle fait toujours face à l'écran (avec la commande getCameraOrientation) (ou donner le placement)
+</div>
 
 <span id="Usage"></span>
 ==Utilisation==
 
+<div class="mw-translate-fuzzy">
 Copier le code et le coller dans la console Python de FreeCAD la commande est utilisée tout le temps à la disposition de FreeCAD ouvert
-Donner le paramètre au choix : 
+Donner le paramètre au choix :
+</div> 
 
 * '''x y z''' : coordonnées du cercle s'il n'y a pas de coordonnées, le cercle est créé aux coordonnées 0,0,0
 *'''radius''' : rayon du cercle
@@ -46,8 +50,10 @@ Donner le paramètre au choix :
 **    pl.Base=FreeCAD.Vector(-1.89847898483,-0.490152746439,0.0)
 **    et donner '''placemObject = pl'''
 
+<div class="mw-translate-fuzzy">
 S'il n'y a pas de paramètre ex: "'''circle()'''" la liste des fonctions disponibles est affichée
 <br /><br />
+</div>
 
 ==Script==
 
