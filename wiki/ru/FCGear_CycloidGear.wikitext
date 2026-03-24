@@ -126,11 +126,13 @@ See also: [[Property_View|Property View]].
 <span id="Full_hypocycloid/epicycloid_as_tooth"></span>
 === Полная гипоциклоида/эпициклоида в виде зуба ===
 
+<div class="mw-translate-fuzzy">
 Чтобы получить передачу, состоящую из полных гипоциклоидной и эпициклоидной кривых, используйте следующие [[Expressions/ru|выражения]]:
 * {{PropertyData|inner_diameter - внутр_диаметр}}: {{incode|0.5 + 1e-6}}
 * {{PropertyData|outer_diameter - наружн_диаметр}}: {{incode|внутр_диаметр}}
 * {{PropertyData|clearance - зазор}}: {{incode|(-1 + внутр_диаметр/1мм) * 2}}
 * {{PropertyData|head - головка}}: {{incode|(-1 + наружн_диаметр/1мм) * 2}}
+</div>
 
 <div class="mw-translate-fuzzy">
 Базовый диаметр составляет ''d = m * z'', где ''m'' - это {{PropertyData|модуль}} и ''z'' - это {{PropertyData|число зубьев}}.
@@ -139,9 +141,11 @@ See also: [[Property_View|Property View]].
 
 <div class="mw-translate-fuzzy">
 Теперь диаметры окружностей качения циклоид должны соответствовать аддендуму/дедендуму шестерни. Аддендум, т.е. длина зуба над базовой окружностью, равен 1 + {{PropertyData|головка}}. Дедендум, т.е. длина зуба под опорной окружностью, равен 1 + {{PropertyData|зазор}}. Оба показателя нормированы по модулю, поэтому нам нужно значение головка/зазор, равное ''1 - d_внутр''. Дополнительные {{incode| / 1мм}} и {{incode| * 2}} необходимы для устранения недостатков, уже исправленных в версии Верстака Шестерня для разработчиков, но перенос этих исправлений в стабильную версию может привести к поломке существующих моделей.
-</div>
+</div> 
 
-Такие "шестерёнки" допускают число зубьев до ''двух'' и используются в качестве роторных лопастей в насосах или компрессорах (смотри [https://en.wikipedia.org/wiki/Roots-type_supercharger Roots-type Supercharger (англ.)]).
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Such "gears" allow the the number of teeth to be as low as ''two'' and are used as rotary vanes in pumps or compressors (cf. [https://en.wikipedia.org/wiki/Roots-type_supercharger Roots-type Supercharger]).
+</div>
 
 <span id="Infinitely_large_epicycloid"></span>
 === Бесконечно большая эпициклоида ===
