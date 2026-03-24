@@ -22,7 +22,7 @@
 
 L'outil {{Button|[[Image:Sketcher_CarbonCopy.svg|24px]] [[Sketcher_CarbonCopy/fr|Sketcher Copie carbone]]}} copie toutes les géométries et contraintes d'une autre esquisse dans l'esquisse active.
 
-Les contraintes dimensionnelles qui existaient avant la fonction de copie restent liées aux contraintes dimensionnelles de l'esquisse d'origine via les [[Expressions/fr|expressions]].
+Les contraintes dimensionnelles qui existaient avant l'opération de copie restent liées aux contraintes dimensionnelles de l'esquisse d'origine via les [[Expressions/fr|expressions]].
 
 <span id="Usage"></span>
 ==Utilisation==
