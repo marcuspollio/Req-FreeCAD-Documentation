@@ -111,13 +111,11 @@ Aby uzyskać linię prostą, bezpośrednio w kierunku środka, jako hipocykloid�
 <span id="Full_hypocycloid/epicycloid_as_tooth"></span>
 ===Pełna hipocykloida/epicykloida jako ząb===
 
-<div class="mw-translate-fuzzy">
 Aby uzyskać koło zębate zbudowane z kompletnych krzywych hipocykloidalnych i epicykloidalnych, należy użyć następujących [[Expressions/pl|wyrażenia]]:
 * {{PropertyData|średnica_wewnętrzna}}: {{incode|0.5 + 1e-6}}
 * {{PropertyData|średnica_zewnętrzna}}: {{incode|średnica_wewnętrzna}}
-* {{PropertyData|Prześwit}}: {{incode|(-1 + średnica_wewnętrzna/1mm) * 2}}
-* {{PropertyData|head}}: {{incode|(-1 + średnica_zewnętrzna/1mm) * 2}}
-</div>
+* {{PropertyData|Prześwit}}: {{incode|-1 + średnica_wewnętrzna - 1e-06}}
+* {{PropertyData|head}}: {{incode|-1 + średnica_zewnętrzna - 1e-06}}
 
 Średnica referencyjna to ''d = m * z'', gdzie ''m'' to {{PropertyData|moduł}}, a ''z'' to {{PropertyData|num_teeth}}.
 Dla pełnej hipocykloidy średnica toczenia musi wynosić ''d_i = d / (z*2) = m*z / (z*2)''. A jeśli teraz znormalizujemy to przez moduł, otrzymamy ''d_in = m*z / (z*2) / m = 1 / 2''. Dodatkowa jawna wartość tolerancji ({{incode|1e-6}} w powyższym wyrażeniu) jest wymagana do przezwyciężenia problemów z koincydencją.
