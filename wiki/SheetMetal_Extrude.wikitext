@@ -4,10 +4,10 @@
 
 <!--T:1-->
 {{Docnav
-|[[SheetMetal_AddWall|AddWall]]
+|[[SheetMetal_AddHem|AddHem]]
 |[[SheetMetal_ExtendBySketch|ExtendBySketch]]
 |[[SheetMetal_Workbench|SheetMetal]]
-|IconL=SheetMetal_AddWall.svg
+|IconL=SheetMetal_AddHem.svg
 |IconR=SheetMetal_ExtendBySketch.svg
 |IconC=Sheetmetal_workbench_icon.svg
 }}
@@ -179,10 +179,10 @@ A SheetMetal Extend object is derived from a [[Part_Feature|Part Feature]] objec
 
 <!--T:31-->
 {{Docnav
-|[[SheetMetal_AddWall|AddWall]]
+|[[SheetMetal_AddHem|AddHem]]
 |[[SheetMetal_ExtendBySketch|ExtendBySketch]]
 |[[SheetMetal_Workbench|SheetMetal]]
-|IconL=SheetMetal_AddWall.svg
+|IconL=SheetMetal_AddHem.svg
 |IconR=SheetMetal_ExtendBySketch.svg
 |IconC=Sheetmetal_workbench_icon.svg
 }}
