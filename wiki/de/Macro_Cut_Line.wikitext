@@ -1,4 +1,5 @@
 <languages/>
+
 {{Macro/de
 |Name=Linie Schneiden
 |Icon=Macro_Cut_Line.png
@@ -10,8 +11,14 @@
 |Download=[https://wiki.freecad.org/images/3/35/Macro_Cut_Line.png Werkzeugleisten-Symbol]
 }}
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Description==
+</div>
+
+<div class="mw-translate-fuzzy">
 ==Beschreibung==
 Dieses kleine Makro schneidet eine Linie und erzeugt einen Punkt , Linien , zwei Farben der Linie.
+</div>
 
 [[File:Macro cutLine 00.png|400px]]
 {{Caption|Linieschneiden}}
@@ -27,13 +34,20 @@ Kann aus dem Freecad Makro Editor verwendet werden.
 *'''biColor''' : Linie erzeugen biColor (>0) oder nicht (0) (Defaut 0)
 
 
+<div class="mw-translate-fuzzy">
 du kannst die Standardwerte im Makro ändern.
+</div>
 
+<div class="mw-translate-fuzzy">
 Mit bisColor werden die Linien auf der ursprünglichen Linie durch eine weiße Linie rote Linie weiße Linie .... erzeugt, die Farben sind im Code veränderbar, Zeile 20 und 23.
+</div>
 
 <span id="Script"></span>
 ==Skript==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ToolBar Icon [[Image:Macro_Cut_Line.png]]
+</div>
 
 '''Macro_cutLine.FCMacro'''
 
@@ -119,5 +133,12 @@ Wenn das Makro in die Python Konsole kopiert wird, kannst du es folgendermaßen 
 {{Code|code=
 cutLine(4, createLine = 1, biColor = 1, createPoint = 0)
 }}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Links==
+</div>
+
+<div class="mw-translate-fuzzy">
 ==Verweise==
 diese Funktion verwendet die Funktion discretize [https://forum.freecad.org/viewtopic.php?f=3&t=4217&hilit=discretize the original code]
+</div>
