@@ -15,14 +15,18 @@
 <span id="Description"></span>
 ==Descrizione==
 
+<div class="mw-translate-fuzzy">
 Questa macro permette di creare una linea usando come argomento le coordinate XYZ, la lunghezza e l'angolo.
+</div>
 
 <span id="Usage"></span>
 ==Utilizzo==
 
 Può essere usata dall'editor delle macro di FreeCAD.
 
+<div class="mw-translate-fuzzy">
 i valori di default sono : x1=0, y1=0, z1=0, length=10, angle=0
+</div>
 
 ==Script==
 
