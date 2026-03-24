@@ -122,9 +122,7 @@ Dla pełnej hipocykloidy średnica toczenia musi wynosić ''d_i = d / (z*2) = m*
 
 Teraz średnica koła tocznego cykloidy musi odpowiadać addum/dedendum koła zębatego. Dodatek, tj. długość zęba powyżej koła odniesienia, wynosi 1 + {{PropertyData|head}}. Dedendum, tj. długość zęba poniżej okręgu odniesienia, wynosi 1 + {{PropertyData|prześwit}}. Oba są znormalizowane przez moduł, dlatego potrzebujemy wartości head / prześwit równej ''1 - d_in''. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Such "gears" allow the the number of teeth to be as low as ''two'' and are used as rotary vanes in pumps or compressors (cf. [https://en.wikipedia.org/wiki/Roots-type_supercharger Roots-type Supercharger]).
-</div>
+Takie "koła zębate" pozwalają na zmniejszenie liczby zębów do "dwóch" i są używane jako obrotowe łopatki w pompach lub sprężarkach ''(por. [https://pl.wikipedia.org/wiki/Spr%C4%99%C5%BCarka_z_wiruj%C4%85cymi_t%C5%82okami sprężarka z wirującymi tłokami])''.
 
 <span id="Infinitely_large_epicycloid"></span>
 ===Nieskończenie duża epicykloida===
