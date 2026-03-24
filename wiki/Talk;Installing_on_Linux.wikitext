@@ -2,6 +2,8 @@
 
 ''sudo pacman -S freecad''
 
-Using only -S is not recommended. Better:
+Using only -S is not recommended. Just use:
 
-''sudo pacman -Syu freecad'' [[User:Marcocurreli|Marcocurreli]] ([[User talk:Marcocurreli|talk]]) 17:07, 24 March 2026 (UTC)
+''sudo pacman -Syu freecad'' 
+
+[[User:Marcocurreli|Marcocurreli]] ([[User talk:Marcocurreli|talk]]) 17:07, 24 March 2026 (UTC)
