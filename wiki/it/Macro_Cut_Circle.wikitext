@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Macro/it
 |Name=Macro Cut Circle
 |Translate=Taglia Cerchio
@@ -9,6 +10,7 @@
 |Date=2019-07-02
 |Download=[https://wiki.freecad.org/images/9/93/Macro_Cut_Circle.png ToolBar Icon]
 }}
+</div>
 
 <span id="Description"></span>
 ==Descrizione==
@@ -21,6 +23,7 @@ Questa macro taglia cerchi o archi in più archi. Gli archi creati possono esser
 <span id="Usage"></span>
 ==Utilizzo==
 
+<div class="mw-translate-fuzzy">
 # Incollare la macro '''cutCircle''' nella [[Python_console/it|Console Python]].
 # Premere {{KEY|Enter}} (il codice è ora in memoria).
 # Selezionare uno o più cerchi o archi.
@@ -28,6 +31,7 @@ Questa macro taglia cerchi o archi in più archi. Gli archi creati possono esser
 #* Esempio con 1 argomento: {{Incode|cutCircle(4)}}. Questo creerà 4 nuovi archi per ogni cerchio o arco selezionato e si fermerà lì (nessuna colorazione).
 #* Esempio con 2 argomenti: {{Incode|cutCircle(6, 1)}}. Questo creerà 6 nuovi archi per ciascun cerchio o arco selezionato, colorati alternativamente in rosso e bianco come mostrato nell'immagine.
 # L'oggetto originale non viene eliminato.
+</div>
 
 ==Script==
 
@@ -119,6 +123,8 @@ Tagliare il cerchio in cilindro
 
 ver 00.03 02/07/2019 : aggiunto "App.ActiveDocument.recompute()"
 
+<div class="mw-translate-fuzzy">
 ver 00.02 03/09/2015 : aggiunta la creazione di archi colorati alternativamente Rosso Bianco Rosso Bianco .... oppure no
+</div>
 
 ver 00.01 24/02/2015 :
