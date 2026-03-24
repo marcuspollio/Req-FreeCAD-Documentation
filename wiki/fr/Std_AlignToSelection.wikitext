@@ -33,8 +33,8 @@ La commande '''Std Aligner sur la sélection''' pointe la caméra dans la [[3D_V
 # Sélectionnez une face (qui doit être plane dans la version 1.0), une arête courbe plane ou une arête droite dans la vue 3D.
 # Il y a plusieurs façons de lancer la commande :
 #* Appuyez sur le bouton {{Button|[[Image:Std_AlignToSelection.svg|16px]] [[Std_AlignToSelection/fr|Aligner sur la sélection]]}}.
-#* Sélectionnez l'option {{MenuCommand|Affichage → Vues standards → [[Image:Std_AlignToSelection.svg|16px]] Aligner sur la sélection}} dans le menu.
-#* Sélectionnez l'option {{MenuCommand|[[Image:Std_AlignToSelection.svg|16px]] Aligner sur la sélection}} dans le menu contextuel de la [[3D_view/fr|vue 3D]].
+#* Sélectionnez l'option {{MenuCommand|Affichage → Vues standards → [[Image:Std_AlignToSelection.svg|16px]] Aligner sur la sélection}} du menu.
+#* Sélectionnez l'option {{MenuCommand|[[Image:Std_AlignToSelection.svg|16px]] Aligner sur la sélection}} dans le menu contextuel de la [[3D_View/fr|vue 3D]].
 #* Sélectionnez l'option {{MenuCommand|[[Image:Std_AlignToSelection.svg|16px]] Aligner sur la sélection}} dans le menu du mini-cube du [[Navigation_Cube/fr|cube de navigation]].
 
 
