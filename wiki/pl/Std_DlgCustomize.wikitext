@@ -9,6 +9,7 @@
 |IconC=Freecad.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/pl
 |Name=Std DlgCustomize
 |Name/pl=Std: Dostosuj
@@ -16,6 +17,7 @@
 |Workbenches=wszystkie
 |SeeAlso=[[Interface_Customization/pl|Dostosowywanie interfejsu użytkownika]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Opis==
@@ -29,6 +31,7 @@ Polecenie '''Dostosuj''' otwiera okno dialogowe Dostosuj dając dostęp do kilku
 <span id="Usage"></span>
 ==Użycie==
 
+<div class="mw-translate-fuzzy">
 # Polecenia dostępne w oknie dialogowym Dostosuj zależą od środowisk pracy, które zostały załadowane w bieżącej sesji programu FreeCAD.  Należy więc najpierw załadować wszystkie środowiska pracy, do których poleceń chcemy mieć dostęp.
 # Istnieje kilka sposobów na wywołanie polecenia:
 #* Wybierz z menu opcję {{MenuCommand|Przybory → [[Image:Std_DlgCustomize.svg|16px]] Dostosuj ...}}.
@@ -36,6 +39,7 @@ Polecenie '''Dostosuj''' otwiera okno dialogowe Dostosuj dając dostęp do kilku
 # Otwiera się okno dialogowe '''Dostosuj'''. Więcej informacji można znaleźć na stronie [[Interface_Customization/pl#Opcje|Dostosowywanie interfejsu użytkownika]].
 # Przycisk {{Button|Pomoc}} nie działa w tym momencie.
 # Naciśnij przycisk {{Button|Zamknij}}, aby zamknąć okno dialogowe.
+</div>
 
 
 {{Docnav
