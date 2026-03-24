@@ -15,14 +15,18 @@
 <span id="Description"></span>
 ==Opis==
 
+<div class="mw-translate-fuzzy">
 To niewielkie makro tworzy linię dając jako argument współrzędne XYZ, długość i kąt
+</div>
 
 <span id="Usage"></span>
 ==Użycie==
 
 Może być użyte z edytora makr we FreeCAD.
 
+<div class="mw-translate-fuzzy">
 domyślne wartości to : x1 = 0, y1 = 0, z1 = 0, length = 10, angle = 0
+</div>
 
 <span id="Script"></span>
 ==Skrypt==
