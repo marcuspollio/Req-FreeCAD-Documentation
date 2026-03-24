@@ -14,7 +14,7 @@
 <!--T:1-->
 {{GuiCommand
 |Name=Std DuplicateSelection
-|MenuLocation=Edit → Duplicate Object
+|MenuLocation=Edit → Duplicate Selection
 |Workbenches=All
 |SeeAlso=[[Std_Cut|Std Cut]], [[Std_Copy|Std Copy]], [[Std_Paste|Std Paste]]
 }}
@@ -28,7 +28,7 @@ The '''Std DuplicateSelection''' command duplicates objects within the active do
 
 <!--T:3-->
 # Select one or more objects.
-# Select the {{MenuCommand|Edit → [[Image:Std_DuplicateSelection.svg|16px]] Duplicate Object}} option from the menu.
+# Select the {{MenuCommand|Edit → [[Image:Std_DuplicateSelection.svg|16px]] Duplicate Selection}} option from the menu.
 # If the objects have dependencies that have not been selected, a dialog box will prompt you to specify which should be included.
 
 ==Notes== <!--T:12-->
