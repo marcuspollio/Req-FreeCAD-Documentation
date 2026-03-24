@@ -112,13 +112,11 @@ Um eine gerade Linie zu erhalten, die direkt zum Mittelpunkt führt, wie bei ein
 <span id="Full_hypocycloid/epicycloid_as_tooth"></span>
 === Vollständige Hypozykloide/Epizykloide als Zahn ===
 
-<div class="mw-translate-fuzzy">
 Um ein Zahnrad aus vollständigen Hypozykloiden- und Epizykloidenkurven zu erhalten, verwendet man die folgenden [[Expressions/de|Ausdrücke]]:
 * {{PropertyData/de|inner_diameter}}: {{incode|0.5 + 1e-6}}
 * {{PropertyData/de|outer_diameter}}: {{incode|inner_diameter}}
-* {{PropertyData/de|clearance}}: {{incode|(-1 + inner_diameter/1mm) * 2}}
-* {{PropertyData/de|head}}: {{incode|(-1 + outer_diameter/1mm) * 2}}
-</div>
+* {{PropertyData/de|clearance}}: {{incode|-1 + inner_diameter - 1e-06}}
+* {{PropertyData/de|head}}: {{incode|-1 + outer_diameter - 1e-06}}
 
 Der Teilkreisdurchmesser ist ''d = m * z'', wobei ''m'' der Modul, die {{PropertyData/de|module}}, und ''z'' die Zähnezahl, die {{PropertyData/de|num_teeth}}, ist.
 Für eine vollständige Hypozykloide muss der Abrolldurchmesser ''d_i = d / (z*2) = m*z / (z*2)'' betragen. Wenn wir dies nun durch den Modul normieren, erhalten wir ''d_in = m*z / (z*2) / m = 1 / 2''. Der zusätzliche explizite Toleranzwert ({{incode|1e-6}} im obigen Ausdruck) ist erforderlich, um Koinzidenzprobleme zu überwinden.
