@@ -25,7 +25,7 @@ La commande '''Std Dupliquer une sélection''' duplique des objets dans le docum
 ==Utilisation==
 
 # Sélectionnez un ou plusieurs objets.
-# Sélectionnez l'option {{MenuCommand|Édition → [[Image:Std_DuplicateSelection.svg|16px]] Dupliquer la sélection}} du menu.
+# Sélectionnez l'option {{MenuCommand|Édition → [[Image:Std_DuplicateSelection.svg|16px]] Dupliquer une sélection}} du menu.
 # Si les objets ont des dépendances qui n'ont pas été sélectionnées, une boîte de dialogue vous demandera de spécifier ceux qui doivent être inclus.
 
 <span id="Notes"></span>
