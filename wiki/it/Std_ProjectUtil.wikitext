@@ -24,7 +24,9 @@
 Con il comando '''Utilità di progetto''' è possibile estrarre i file da un file di progetto FreeCAD ({{FileName|*.FCStd}}), che in realtà è un file [https://en.wikipedia.org/wiki/Zip_(file_format) ZIP] e, dopo le modifiche manuali, creare un nuovo file di progetto da essi.
 
 [[Image:Project_utility_en.png]]
+<div class="mw-translate-fuzzy">
 {{Caption|La finestra di dialogo Utilità di progetto}}
+</div>
 
 <span id="Usage"></span>
 ==Utilizzo==
@@ -32,6 +34,7 @@ Con il comando '''Utilità di progetto''' è possibile estrarre i file da un fil
 <span id="Extract_Document"></span>
 ===Estrarre un progetto===
 
+<div class="mw-translate-fuzzy">
 # Selezionare l'opzione {{MenuCommand|Strumenti →  [[Image:Std_ProjectUtil.svg|16px]] Utilità documento...}} dal menu.
 # Viene visualizzata la finestra di dialogo '''Utilità di progetto'''.
 # Premere il pulsante {{Button|...}} alla destra di {{MenuCommand|Estrai progetto → Sorgente}}.
@@ -40,6 +43,7 @@ Con il comando '''Utilità di progetto''' è possibile estrarre i file da un fil
 # Selezionare una cartella in cui estrarre il file del progetto. Si consiglia di selezionare una cartella vuota.
 # Premere il pulsante {{Button|Estrai}}.
 # Premere il pulsante {{Button|Chiudi}} per chiudere la finestra di dialogo.
+</div>
 
 <span id="Manual_edits"></span>
 ===Modifiche manuali===
@@ -51,6 +55,7 @@ Con il comando '''Utilità di progetto''' è possibile estrarre i file da un fil
 <span id="Create_Document"></span>
 ===Creare un progetto===
 
+<div class="mw-translate-fuzzy">
 # Selezionare l'opzione {{MenuCommand|Strumenti →  [[Image:Std_ProjectUtil.svg|16px]] Utilità di progetto...}} dal menu.
 # Viene visualizzata la finestra di dialogo '''Utilità di progetto'''.
 # Premere il pulsante {{Button|...}} alla destra di {{MenuCommand|Crea progetto → Sorgente}}.
@@ -61,6 +66,7 @@ Con il comando '''Utilità di progetto''' è possibile estrarre i file da un fil
 # Nella cartella selezionata viene creato un nuovo file di progetto {{FileName|project.fcstd}} con il nome stabilito. Non vi è alcun avviso se esiste già un file con quel nome.
 # Facoltativamente, selezionare la casella di controllo '''Carica il file di progetto dopo la creazione'''.
 # Premere il pulsante {{Button|Chiudi}} per chiudere la finestra di dialogo.
+</div>
 
 <span id="Notes"></span>
 ==Note==
