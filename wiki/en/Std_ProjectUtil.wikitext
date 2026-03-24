@@ -20,14 +20,14 @@
 With the '''Std ProjectUtil''' command you can extract files from a FreeCAD document ({{FileName|*.FCStd}}), which is in fact a [https://en.wikipedia.org/wiki/Zip_(file_format) ZIP] file, and, after manual edits, create a new document from them.
 
 [[Image:Project_utility_en.png]]
-{{Caption|The Project Utility dialog box}}
+{{Caption|The Document Utility dialog box}}
 
 ==Usage==
 
 ===Extract Document===
 
 # Select the {{MenuCommand|Tools → [[Image:Std_ProjectUtil.svg|16px]] Document Utility}} option from the menu.
-# The '''Project Utility''' dialog box opens.
+# The '''Document Utility''' dialog box opens.
 # Press the {{Button|…}} button to the right of {{MenuCommand|Extract Document → Source}}.
 # Select the {{FileName|*.FCStd}} file you want to edit.
 # Press the {{Button|…}} button to the right of {{MenuCommand|Extract Document → Destination}}.
@@ -41,15 +41,15 @@ It is important to realize that the files inside a FreeCAD document are interlin
 
 ===Create Document===
 
-# Select the {{MenuCommand|Tools → [[Image:Std_ProjectUtil.svg|16px]] Project Utility}} option from the menu.
-# The '''Project utility''' dialog box opens.
+# Select the {{MenuCommand|Tools → [[Image:Std_ProjectUtil.svg|16px]] Document Utility}} option from the menu.
+# The '''Document Utility''' dialog box opens.
 # Press the {{Button|…}} button to the right of {{MenuCommand|Create Document → Source}}.
 # Select the {{FileName|Document.xml}} file. The command will be automatically find all linked files.
 # Press the {{Button|…}} button to the right of {{MenuCommand|Create Document → Destination}}.
 # Select a folder where the new document should be created.
 # Press the {{Button|Create}} button.
 # A new document with a fixed name, {{FileName|project.fcstd}}, is created in the selected folder. There is no warning if a file with that name already exists.
-# Optionally check the '''Load document after creation''' checkbox.
+# Optionally check the '''Load document file after creation''' checkbox.
 # Press the {{Button|Close}} button to close the dialog box.
 
 ==Notes==
