@@ -12,7 +12,7 @@
 {{GuiCommand/fr
 |Name=Std ViewFitSelection
 |Name/fr=Std Affiche la sélection
-|MenuLocation=Affichage →  Vues standards → Affiche la sélection
+|MenuLocation=Affichage →  Vues standards → Afficher la sélection
 |Workbenches=Tous
 |Shortcut={{KEY|V}} {{KEY|S}}
 |SeeAlso=[[Std_ViewFitAll/fr|Std Tout afficher]]
@@ -21,7 +21,7 @@
 <span id="Description"></span>
 == Description ==
 
-La commande '''Std Affiche la sélection''' effectue un zoom et un panoramique de la caméra de sorte que tous les objets sélectionnés tiennent à l'intérieur de la [[3D_view/fr|vue 3D]] active. Cette commande est utile si pour une raison quelconque, les objets se trouvent au-delà des limites de la vue 3D en cours ou ne peuvent pas être facilement trouvés à l'aide de la [[Mouse_navigation/fr|navigation 3D]].
+La commande '''Std Affiche la sélection''' effectue un zoom et un panoramique de la caméra de sorte que tous les objets sélectionnés tiennent à l'intérieur de la [[3D_View/fr|vue 3D]] active. Cette commande est utile si pour une raison quelconque, les objets se trouvent au-delà des limites de la vue 3D en cours ou ne peuvent pas être facilement trouvés à l'aide de la [[Mouse_navigation/fr|navigation 3D]].
 
 <span id="Usage"></span>
 ==Utilisation==
