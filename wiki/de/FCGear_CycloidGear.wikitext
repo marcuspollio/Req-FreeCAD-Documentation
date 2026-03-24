@@ -127,9 +127,7 @@ Für eine vollständige Hypozykloide muss der Abrolldurchmesser ''d_i = d / (z*2
 Nun müssen die Rollkreisdurchmesser der Zykloiden mit der Kofpfhöhe bzw. Fußhöhe des Zahnrads übereinstimmen. Die Kopfhöhe, d. h. die Länge eines Zahns über dem Teilkreis, beträgt 1 + {{PropertyData/de|head}}. Die Fußhöhe, d. h. die Länge eines Zahns unter dem Teilkreis, beträgt 1 + {{PropertyData/de|clearance}}. Beide werden durch den Modul normiert, daher benötigen wir einen Kopf-/Kopfspielwert von ''1 - d_in''. Die zusätzlichen Werte {{incode| / 1 mm}} und {{incode| * 2}} sind erforderlich, um Mängel zu beheben, die bereits in der Entwicklungsversion vom Arbeitsbereich Gear behoben wurden, aber die Übertragung dieser Korrekturen zurück in die stabile Version kann bestehende Modelle beschädigen.
 </div> 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Such "gears" allow the the number of teeth to be as low as ''two'' and are used as rotary vanes in pumps or compressors (cf. [https://en.wikipedia.org/wiki/Roots-type_supercharger Roots-type Supercharger]).
-</div>
+Solche "Zahnräder" ermöglichen eine geringe Zähnezahl von nur "zwei" und werden als Flügel in Pumpen oder Kompressoren verwendet (vgl. [https://de.wikipedia.org/wiki/Roots-Gebl%C3%A4se Roots-Gebläse]).
 
 <span id="Infinitely_large_epicycloid"></span>
 === Unendlich große Epizykloide ===
