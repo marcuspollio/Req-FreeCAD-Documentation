@@ -61,9 +61,11 @@ Der Befehl '''Std AnsichtAufnehmen''' öffnet ein Dialogfenster, um eine Bilddat
 <span id="Image_Comment"></span>
 ===Kommentar zum Bild===
 
+<div class="mw-translate-fuzzy">
 # Die Option '''MIBA-Informationen einfügen''' auswählen, um [http://juergen-riegel.net/Miba/ MIBA]-Informationen in die Datei einzufügen. Nicht alle Bildformate unterstützen dies.
 # Oder die  Option '''Kommentar einfügen''' auswählen und einen Kommentar in das Textfeld eingeben, um einen Kommentar in die Datei einzubetten. Dies wird nicht von allen Bildformaten unterstützt.
 # Das Kontrollkästchen '''Wasserzeichen einfügen''' aktivieren, um ein Wasserzeichen hinzuzufügen. Das Wasserzeichen wird in der unteren linken Ecke des Bildes platziert und besteht aus dem FreeCAD-Logo und dem Namen über der FreeCAD-Haupt-URL: [https://www.freecad.org www.freecad.org].
+</div>
 
 <span id="Notes"></span>
 ==Hinweise==
