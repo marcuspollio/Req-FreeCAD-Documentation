@@ -44,8 +44,14 @@ Placeholder for an eye-catching image selected by the admins from the [https://f
 <!--T:12-->
 {| cellpadding=5
 | [[File:AnnotationLabel_relnotes_1.2.png|384px]]
-| A command to add an Annotation Label to the last picked point in the 3D view was added.
+| A new command to add an Annotation Label to the last picked point in the 3D view was added.
 [https://github.com/FreeCAD/FreeCAD/pull/23673 Pull request #23673]
+|}
+
+{| cellpadding=5
+| [[File:MassProperties_relnotes_1.2.png|384px]]
+| A new Mass Properties command has been added to calculate volume, mass, surface area, center of gravity, center of volume, and inertia for parts and assemblies, with support for custom reference frames and material-aware calculations.
+[https://github.com/FreeCAD/FreeCAD/pull/27347 Pull request #27347]
 |}
 
 ==== Further Core improvements ==== <!--T:13-->
