@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Macro/fr
 |Name=Macro Cut Circle
 |Name/fr=Macro Cut Circle
@@ -11,6 +12,7 @@
 |FCVersion=Toutes
 |Download=[https://wiki.freecad.org/images/9/93/Macro_Cut_Circle.png Icône de la barre d'outils]
 }}
+</div>
 
 ==Description==
 
@@ -22,6 +24,7 @@ Cette macro découpe les cercles ou les arcs en plusieurs arcs. Les arcs créés
 <span id="Usage"></span>
 ==Utilisation==
 
+<div class="mw-translate-fuzzy">
 # Collez la macro '''cutCirle''' dans la [[Python_console/fr|console Python]].
 # Appuyez sur {{KEY|Entrée}} (le code est maintenant en mémoire).
 # Sélectionnez un ou plusieurs cercles ou arcs.
@@ -29,6 +32,7 @@ Cette macro découpe les cercles ou les arcs en plusieurs arcs. Les arcs créés
 #* Exemple avec 1 argument : {{Incode|cutCircle(4)}}. Ceci créera 4 nouveaux arcs pour chaque cercle ou arc sélectionné et s'arrêtera là (pas de coloration).
 #* Exemple avec 2 arguments : {{Incode|cutCircle(6, 1)}}. Ceci créera 6 nouveaux arcs pour chaque cercle ou arc sélectionné, colorés alternativement en rouge et blanc comme indiqué dans l'image.
 # L'objet original n'est pas supprimé.
+</div>
 
 ==Script==
 
@@ -119,6 +123,8 @@ Couper des cercles d'un cylindre.
 
 ver 00.03 02/07/2019 : ajout "App.ActiveDocument.recompute()"
 
+<div class="mw-translate-fuzzy">
 ver 00.02 09/03/2015 : ajout de création des arcs colorés alternativement rouge et blanc ou non.
+</div>
 
 ver 00.01 24/02/2015 :
