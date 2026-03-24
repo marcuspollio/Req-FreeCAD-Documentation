@@ -23,9 +23,7 @@ Questa macro crea una proprietà aggiuntiva (memo o altro testo) per un oggetto 
 <span id="Usage"></span>
 ==Utilizzo==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Launch the macro, select one Draft object, complete the fields and apply. A new property is created in '''Combo view → Property → Data tab'''.
-</div>
+Avviare la macro, selezionare un oggetto di Draft, compilare i campi e applicare. Verrà creata una nuova proprietà in '''Vista combinata → Proprietà → Scheda Dati'''.
 
 <div class="mw-translate-fuzzy">
 *'''Property title''' : titolo della nuova proprietà (Default: Memo)
