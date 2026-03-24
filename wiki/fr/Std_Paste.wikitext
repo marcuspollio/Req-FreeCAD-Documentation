@@ -28,7 +28,7 @@ La commande '''Std Coller''' colle les objets du presse-papiers dans le document
 # Il existe plusieurs façons de lancer la commande :
 #* Appuyez sur le bouton {{Button|[[Image:Std_Paste.svg|16px]] [[Std_Paste/fr|Coller]]}}.
 #* Sélectionnez l'option {{MenuCommand|Édition → [[Image:Std_Paste.svg|16px]] Coller}} du menu.
-#* Sélectionnez l'option {{MenuCommand|[[Image:Std_Paste.svg|16px]] Coller}} dans le menu contextuel de la [[Tree_view/fr|vue en arborescence]]. Notez que cette option n'est disponible que lorsqu'un objet sortant a été sélectionné.
+#* Sélectionnez l'option {{MenuCommand|[[Image:Std_Paste.svg|16px]] Coller}} dans le menu contextuel de l'[[Tree_View/fr|arborescence]]. Notez que cette option n'est disponible que lorsqu'un objet sortant a été sélectionné.
 #* Utilisez le raccourci clavier: {{KEY|Ctrl}}+{{KEY|V}}.
 
 <span id="Notes"></span>
