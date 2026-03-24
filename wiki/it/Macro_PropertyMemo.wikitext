@@ -1,6 +1,5 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Macro/it
 |Name=Macro_PropertyMemo
 |Translate=Proprietà Memo
@@ -10,15 +9,11 @@
 |Version=00.02
 |Date=2015-10-19
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/f/f2/PropertyMemo.png ToolBar Icon]
+|Download=[https://www.freecad.org/wiki/images/f/f2/PropertyMemo.png ToolBar Icon]
 }}
-</div>
 
 <span id="Description"></span>
-<div class="mw-translate-fuzzy">
 ==Descrizione==
-Questa macro crea una proprietà aggiuntiva per gli oggetti, è rinominabile a piacere, ma funziona solo in Draft.
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This macro creates an additional Property (memo or other text) for your object (works only with Draft objects).
@@ -419,9 +414,7 @@ MainWindow.show()
 
 ==Link==
 
-<div class="mw-translate-fuzzy">
-La discussione nel forum [http://forum.freecadweb.org/viewtopic.php?f=3&t=12282 Object description field]
-</div>
+La discussione nel forum [http://forum.freecad.org/viewtopic.php?f=3&t=12282 Object description field]
 
 <div class="mw-translate-fuzzy">
 Le macro di [https://gist.github.com/mario52a mario52a ] in gists
