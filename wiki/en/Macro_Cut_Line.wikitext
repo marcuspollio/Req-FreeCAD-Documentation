@@ -1,4 +1,5 @@
 <languages/>
+
 {{Macro
 |Name=Macro Cut Line
 |Icon=Macro_Cut_Line.png
@@ -7,10 +8,11 @@
 |Version=2.0
 |Date=2019/06/17
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/3/35/Macro_Cut_Line.png ToolBar Icon]
+|Download=[https://wiki.freecad.org/images/3/35/Macro_Cut_Line.png ToolBar Icon]
 }}
 
 ==Description==
+
 This small macro cut a line and create a points , lines , two colours of line.
 
 [[File:Macro cutLine 00.png|400px]]
@@ -26,18 +28,19 @@ Can be used from the Freecad macro editor.
 *'''biColor''' : create line biColor (>0) or not (0) (Defaut 0)
 
 
-you can change the default values in the macro.
+You can change the default values in the macro.
 
-With bisColor the lines on the original line is created by a white line red line white line .... the colors are modifiable in the code, line 20 and 23.
+With bisColor the lines on the original line is created by a white line red line white line. The colors are modifiable in the code, line 20 and 23.
 
 ==Script==
+
 ToolBar Icon [[Image:Macro_Cut_Line.png]]
 
 '''Macro_cutLine.FCMacro'''
 
 {{MacroCode|code=
 #################################################################
-# http://forum.freecadweb.org/viewtopic.php?f=3&t=4217&hilit=discretize
+# https://forum.freecad.org/viewtopic.php?f=3&t=4217&hilit=discretize
 # 08/03/2015 2019/06/17
 
 __title__   = "cutLine"
@@ -116,5 +119,7 @@ If the macro is copied in the Python console, you can you can use it by:
 {{Code|code=
 cutLine(4, createLine = 1, biColor = 1, createPoint = 0)
 }}
+
 ==Links==
-this function use the function discretize [http://forum.freecadweb.org/viewtopic.php?f=3&t=4217&hilit=discretize the original code]
+
+This function uses the function discretize [https://forum.freecad.org/viewtopic.php?f=3&t=4217&hilit=discretize the original code].
