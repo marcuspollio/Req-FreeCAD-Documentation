@@ -1,4 +1,5 @@
 <languages/>
+
 {{Macro/it
 |Name=Macro Cut Line
 |Icon=Macro_Cut_Line.png
@@ -11,8 +12,14 @@
 |Download=[https://wiki.freecad.org/images/3/35/Macro_Cut_Line.png ToolBar Icon]
 }}
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Description==
+</div>
+
+<div class="mw-translate-fuzzy">
 ==Descrizione==
 Questa piccola macro taglia una linea, crea dei punti e dei segmenti bicolore della linea.
+</div>
 
 [[File:Macro cutLine 00.png|400px]]
 {{Caption|cutLine}}
@@ -28,12 +35,19 @@ Può essere usata nell'editor delle macro di FreeCAD.
 *'''biColor''' : crea linee bicolore (>0) oppure no (0) (Defaut 0)
 
 
+<div class="mw-translate-fuzzy">
 è possibile modificare i valori di default nella macro.
+</div>
 
+<div class="mw-translate-fuzzy">
 Con bisColor sulla linea originale vengono create delle linee rosse e bianche .... i colori sono modificabili nel codice alle righe 20 e 23.
+</div>
 
 ==Script==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ToolBar Icon [[Image:Macro_Cut_Line.png]]
+</div>
 
 '''Macro_cutLine.FCMacro'''
 
@@ -119,5 +133,12 @@ Se la macro viene copiata nella console Python può essere utilizzata con:
 {{Code|code=
 cutLine(4, createLine = 1, biColor = 1, createPoint = 0)
 }}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Links==
+</div>
+
+<div class="mw-translate-fuzzy">
 ==Link==
 questa funzione utilizzare la funzione discrete [https://forum.freecad.org/viewtopic.php?f=3&t=4217&hilit=discretize the original code]
+</div>
