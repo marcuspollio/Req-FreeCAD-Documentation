@@ -25,11 +25,9 @@ Questa macro crea una proprietà aggiuntiva (memo o altro testo) per un oggetto 
 
 Avviare la macro, selezionare un oggetto di Draft, compilare i campi e applicare. Verrà creata una nuova proprietà in '''Vista combinata → Proprietà → Scheda Dati'''.
 
-<div class="mw-translate-fuzzy">
-*'''Property title''' : titolo della nuova proprietà (Default: Memo)
-*'''Property name''' : nome del campo compilabile
-*{{CheckBox|TRUE|UnCheck for String}} : casella di controllo per la scelta tra stringa o elenco (By default)
-</div>
+*'''Property title''': Titolo (nome del gruppo) per la nuova proprietà (Predefinito: Memo).
+*'''Property name''': Nome per la nuova proprietà.
+*{{CheckBox|TRUE|UnCheck for String}}: Casella di controllo che determina il tipo di memo. Selezionare la casella di controllo per cambiare il tipo da elenco a stringa.
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
