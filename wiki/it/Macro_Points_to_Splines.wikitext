@@ -21,13 +21,10 @@ Questa macro crea spline a partire da sezioni di oggetti Punti.
 {{Caption|Dialogo per la Macro Points to Splines}}
 
 [[File:Macro_Points_to_Splines_histogram.png]]
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Initial edge length histogram shown by Macro Points to Splines}}
-</div>
+{{Caption|Istogramma iniziale della lunghezza del bordo mostrato dalla Macro Points to Splines}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Utilizzo==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Select Points object (containing sections) and launch. See __doc__ in the [[#Code|code]] below.
