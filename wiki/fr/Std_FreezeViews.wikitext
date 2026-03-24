@@ -17,8 +17,7 @@
 |SeeAlso=[[Std_StoreWorkingView/fr|Std Enregistrer la vue]], [[Std_RecallWorkingView/fr|Std Rappel de vue]], [[Std_ViewIvIssueCamPos/fr|Std Position de la prise de vue]]
 }}
 
-<span id="Introduction"></span>
-== Introduction ==
+==Introduction==
 
 FreeCAD peut mémoriser les paramètres de la caméra jusqu'à 50 "vues figées". Les options de menu relatives aux vues figées se trouvent dans le sous-menu {{MenuCommand|Affichage → Figer l'affichage}}. Les vues figées ne sont pas enregistrées dans le document. Si elles ne sont pas enregistrées avec l'option de menu '''[[#Enregistrer_les_vues|Enregistrer les vues]]''', elles seront perdues à la fermeture de l'application FreeCAD.
 
