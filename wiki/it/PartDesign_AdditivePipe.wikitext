@@ -31,6 +31,7 @@
 
 L'immagine di esempio sopra mostra due diverse forme di sezione trasversale. Il paragrafo seguente descrive la procedura con una sola forma. Ciò consente di ottenere una parte con la stessa sezione trasversale lungo l'intero percorso.
 
+<div class="mw-translate-fuzzy">
 # Creare due schizzi separati;
 #* uno per il percorso, ad esempio due linee collegate da una curva come nell'immagine sopra,
 #* uno per la forma della sezione trasversale, ad esempio un cerchio come la prima forma nell'immagine sopra. Invece di uno schizzo può essere utilizzata anche una faccia di un oggetto 3D. ({{Version/it|0.20}})
@@ -45,12 +46,19 @@ L'immagine di esempio sopra mostra due diverse forme di sezione trasversale. Il 
 #* In alternativa, possono essere selezionati i singoli bordi dello schizzo cliccando {{Button|Aggiungi bordo}} e selezionando i bordi nella vista 3D. Si noti che è necessario premere il pulsante {{Button|Aggiungi bordo}} per ogni nuovo bordo. È necessario selezionare una linea continua senza diramazioni.
 # Le altre impostazioni dovrebbero funzionare con i valori predefiniti nella maggior parte dei casi.
 # Cliccare {{Button|OK}}.
+</div>
 
 Per utilizzare più di una sezione trasversale, iniziare con il primo schizzo della sezione trasversale come descritto sopra. Quindi in '''Trasformazione della sezione''' impostare la modalità di trasformazione su '''Multisezione''', poi premere {{Button|Aggiungi sezione}} quindi selezionare uno schizzo nella [[3D_view/it|vista 3D]]. Ripetere l'operazione per ogni sezione trasversale aggiuntiva.
 
 <span id="Options"></span>
-==Opzioni== 
+==Opzioni==
 
+'''Corner transition''':
+* Transformed
+* Right corner
+* Rounded corner
+
+<div class="mw-translate-fuzzy">
 '''Trasformazione della sezione''': 
 * Selezionare '''Costante''' per usare un singolo profilo
 * Selezionare '''Multisezione''' per usare più profili
@@ -72,6 +80,11 @@ Per utilizzare più di una sezione trasversale, iniziare con il primo schizzo de
 * Trasformato
 * Angolo retto
 * Angolo arrotondato
+</div>
+
+'''Section Transformation''': 
+* Select '''Constant''' to use a single profile
+* Select '''Multisection''' to use multiple profiles
 
 <span id="Properties"></span>
 == Proprietà ==
@@ -117,6 +130,7 @@ Un oggetto PartDesign AdditivePipe deriva da un oggetto [[Part_Feature/it|Part F
 <span id="Notes"></span>
 ==Note==
 
+<div class="mw-translate-fuzzy">
 # Per controllare meglio la forma dello sweep, si raccomanda che tutte le sezioni trasversali abbiano lo stesso numero di segmenti. Per esempio, per uno sweep tra un rettangolo e un cerchio, il cerchio deve essere suddiviso in 4 archi tra loro collegati.
 # È possibile reindirizzare da o verso un singolo [[Glossary/it#V|vertice]] da uno schizzo o da un corpo. {{Version/it|0.20}}
 # Quando si seleziona un [[Glossary/it#V|vertice]] come sezione, deve essere l'ultima sezione dello sweep. Altrimenti il corpo dello sweep sarebbe composto da due solidi collegati ad un unico punto. Ciò viola la definizione del kernel CAD di un oggetto 3D. È possibile modificare l'ordine delle sezioni trascinandole nell'elenco.
@@ -126,6 +140,7 @@ Un oggetto PartDesign AdditivePipe deriva da un oggetto [[Part_Feature/it|Part F
 * Una sezione trasversale non può giacere sullo stesso piano di quella immediatamente prima.
 * Le sezioni trasversali non devono contenere percorsi chiusi disuniti o incrociati.
 * Se lo schizzo ha una geometria interna, allora l'ordine con cui viene creata la geometria dello schizzo dovrebbe essere lo stesso per tutte le sezioni. Iniziare tutte le sezioni con la geometria interna, o iniziarle tutte con quella esterna. Altrimenti verrà creato uno sweep non valido dove le pareti interne ed esterne si incrociano.
+</div>
 
 
 {{Docnav/it
