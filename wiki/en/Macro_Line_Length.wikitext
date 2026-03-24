@@ -13,13 +13,13 @@
 
 ==Description==
 
-This small macro create a line giving as an argument the XYZ coordinates, length, and angle
+This small macro create a line giving as an argument the XYZ coordinates, length, and angle.
 
 ==Usage==
 
 Can be used from the Freecad macro editor.
 
-the default values are : x1 = 0, y1 = 0, z1 = 0, length = 10, angle = 0
+The default values are : x1 = 0, y1 = 0, z1 = 0, length = 10, angle = 0.
 
 ==Script==
 
