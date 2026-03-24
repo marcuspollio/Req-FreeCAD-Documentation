@@ -14,14 +14,18 @@
 
 ==Description==
 
+<div class="mw-translate-fuzzy">
 Cette petite macro crée une ligne en donnant comme argument, ces coordonnées de départ XYZ, sa longueur et un angle.
+</div>
 
 <span id="Usage"></span>
 ==Utilisation==
 
 Peut être utilisée dans l'éditeur de macro de FreeCAD.
 
+<div class="mw-translate-fuzzy">
 Les valeurs par défaut sont : x1 = 0, y1 = 0, z1 = 0, length = 10, angle = 0.
+</div>
 
 ==Script==
 
