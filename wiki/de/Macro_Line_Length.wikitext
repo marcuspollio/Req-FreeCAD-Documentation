@@ -14,14 +14,18 @@
 <span id="Description"></span>
 ==Beschreibung==
 
+<div class="mw-translate-fuzzy">
 Dieses kleine Makro erstellt eine Linie, in der die XYZ-Koordinaten, die Länge und der Winkel als Argument angegeben werden
+</div>
 
 <span id="Usage"></span>
 ==Anwendung==
 
 Kann vom Freecad-Makroeditor verwendet werden.
 
+<div class="mw-translate-fuzzy">
 Die Standardwerte sind: x1 = 0, y1 = 0, z1 = 0, Länge = 10, Winkel = 0
+</div>
 
 <span id="Script"></span>
 ==Skript==
