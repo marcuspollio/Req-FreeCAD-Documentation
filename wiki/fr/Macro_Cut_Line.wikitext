@@ -1,4 +1,5 @@
 <languages/>
+
 {{Macro/fr
 |Name=Macro Cut Line
 |Icon=Macro_Cut_Line.png
@@ -10,8 +11,14 @@
 |Download=[https://wiki.freecad.org/images/3/35/Macro_Cut_Line.png Icône de la barre d'outils]
 }}
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Description==
+</div>
+
+<div class="mw-translate-fuzzy">
 ==Description==
 Cette petite macro coupe une ligne en plusieurs lignes en donnant comme arguments le nombre de coupures, avec création de lignes ou non, colorer les lignes coupées par alternativement rouge puis blanche, création de points à l'endroit de la coupure ou non.
+</div>
 
 [[File:Macro cutLine 00.png|400px]]
 {{Caption|cutLine}}
@@ -27,12 +34,19 @@ Vous pouvez l'utiliser dans une macro.
 *'''biColor''' : crée les lignes biColor (alternativement rouge puis blanche) (>0) ou non (0) (Défaut 0)
 
 
+<div class="mw-translate-fuzzy">
 Vous pouvez changer la valeur de la couleur des lignes par défaut dans la macro.
+</div>
 
+<div class="mw-translate-fuzzy">
 Avec l'option bisColor les lignes sont créées de couleurs rouge et blanche, la couleur par défaut est modifiable dans le code aux lignes 20 et 23.
+</div>
 
 ==Script==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ToolBar Icon [[Image:Macro_Cut_Line.png]]
+</div>
 
 '''Macro_cutLine.FCMacro'''
 
@@ -118,5 +132,12 @@ Si la macro complète est collée dans l'éditeur Python de FreeCAD utilisez la 
 {{Code|code=
 cutLine(4, createLine = 1, biColor = 1, createPoint = 0)
 }}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Links==
+</div>
+
+<div class="mw-translate-fuzzy">
 ==Liens==
 Cette macro utilise la fonction discretize [https://forum.freecad.org/viewtopic.php?f=3&t=4217&hilit=discretize voir le code original]
+</div>
