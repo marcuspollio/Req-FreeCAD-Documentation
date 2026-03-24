@@ -1,8 +1,8 @@
 <languages/>
 
 {{Docnav
-|[[PartDesign_AdditiveLoft|Additive loft]]
-|[[PartDesign_AdditiveHelix|Additive helix]]
+|[[PartDesign_AdditiveLoft|Additive Loft]]
+|[[PartDesign_AdditiveHelix|Additive Helix]]
 |[[PartDesign_Workbench|PartDesign]]
 |IconL=PartDesign_AdditiveLoft.svg
 |IconR=PartDesign_AdditiveHelix.svg
@@ -47,18 +47,27 @@
 # Set options if needed and click {{KEY|OK}}.
 </div>
 
-To use more than one cross-section, start with the first cross-section sketch as described above. Then under '''Section transformation''' set the transformation mode to ''Multisection''; press {{Button|Add Section}} then select a sketch in the [[3D_view|3D view]]. Repeat for each additional cross-section.
+To use more than one cross-section, start with the first cross-section sketch as described above. Then under '''Section Transformation''' set the transformation mode to ''Multisection''; press {{Button|Add Section}} then select a sketch in the [[3D_View|3D View]]. Repeat for each additional cross-section.
 
-==Options== 
+==Options==
+
+'''Corner transition''':
+* Transformed
+* Right corner
+* Rounded corner
 
 <div class="mw-translate-fuzzy">
 == Opţiuni ==
 </div>
 
+'''Section Transformation''': 
+* Select '''Constant''' to use a single profile
+* Select '''Multisection''' to use multiple profiles
+
 <span id="Properties"></span>
 ==Proprietăți==
 
-See also: [[Property_editor|Property editor]].
+See also: [[Property_View|Property View]].
 
 A PartDesign AdditivePipe object is derived from a [[Part_Feature|Part Feature]] object and inherits all its properties. It also has the following additional properties:
 
@@ -106,8 +115,8 @@ A PartDesign AdditivePipe object is derived from a [[Part_Feature|Part Feature]]
 
 
 {{Docnav
-|[[PartDesign_AdditiveLoft|Additive loft]]
-|[[PartDesign_AdditiveHelix|Additive helix]]
+|[[PartDesign_AdditiveLoft|Additive Loft]]
+|[[PartDesign_AdditiveHelix|Additive Helix]]
 |[[PartDesign_Workbench|PartDesign]]
 |IconL=PartDesign_AdditiveLoft.svg
 |IconR=PartDesign_AdditiveHelix.svg
