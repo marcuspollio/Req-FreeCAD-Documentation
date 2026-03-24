@@ -23,16 +23,15 @@ This small macro create a circle or arc giving radius, diameter, circumference, 
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-The circle is still facing the screen (with getCameraOrientation) (or give the placement)
-</div> 
+The circle is still facing the screen (with getCameraOrientation) (or give the placement).
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Usage==
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Copy the code and paste it in the console Python the FreeCAD the command is used all the time to the disposal FreeCAD open
-give the parameter on choice :
+Copy the code and paste it in the console Python the FreeCAD the command is used all the time to the disposal FreeCAD open give the parameter on choice :
 </div> 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -59,7 +58,7 @@ give the parameter on choice :
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-if there is no parameter "'''circle()'''" a list of functions is displayed in the report view
+if there is no parameter "'''circle()'''" a list of functions is displayed in the report view.
 <br /><br />
 </div>
 
