@@ -21,7 +21,7 @@
 
 La commande '''Std Basculer en mode navigation''' est destinée à certaines opérations d'inspection et à certaines opérations d'édition de maillage interactif. Ces opérations sont assez "coûteuses" et reposent donc sur un mode d'édition au cours duquel la plupart des options de navigation sont désactivées. Avec cette commande, il est possible de passer temporairement du mode édition au mode navigation et après avoir changé la [[3D_view/fr|vue 3D]] de revenir en mode édition.
 
-Ne pas confondre cette commande avec la commande [[Std_Edit/fr|Std Mode édition]].
+Ne pas confondre cette commande avec la commande [[Std_Edit/fr|Std Basculer le mode d'édition]].
 
 <span id="Usage"></span>
 ==Utilisation==
@@ -30,10 +30,10 @@ Ne pas confondre cette commande avec la commande [[Std_Edit/fr|Std Mode édition
 
 # Basculez vers l'[[Image:Workbench_Mesh.svg|16px]] [[Mesh_Workbench/fr|atelier Mesh]].
 # Appuyez sur le bouton {{Button|[[Image:Mesh_BuildRegularSolid.svg|16px]] [[Mesh_BuildRegularSolid/fr|Solide régulier...]]}}.
-# La boîte de dialogue '''Solide régulier''' s'ouvre.
+# La fenêtre de dialogue '''Solide régulier''' s'ouvre.
 # Choisissez '''Ellipsoïde''' dans la liste déroulante.
 # Appuyez sur le bouton {{Button|Créer}}.
-# Appuyez sur le bouton {{Button|Fermer}} pour fermer la boîte de dialogue.
+# Appuyez sur le bouton {{Button|Fermer}} pour fermer la fenêtre de dialogue.
 # Sélectionnez l'objet maillé.
 # Appuyez sur le bouton {{Button|[[Image: Mesh_PolyCut.svg|16px]] [[Mesh_PolyCut/fr|Couper le maillage]]}}.
 # Sélectionnez des points dans la vue 3D pour définir un polygone qui chevauche la moitié du maillage.
