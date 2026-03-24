@@ -21,7 +21,7 @@
 
 ==Description==
 
-La commande '''Std Stocker la vue de travail''' enregistre les paramètres de la caméra de la [[3D_view/fr|vue 3D]] active dans sa vue de travail temporaire. Cette vue peut être rappelée avec la commande [[Std_RecallWorkingView/fr|Std Rappel de vue de travail]].
+La commande '''Std Stocker la vue de travail''' enregistre les paramètres de la caméra de la [[3D_View/fr|vue 3D]] active dans sa vue de travail temporaire. Cette vue peut être rappelée avec la commande [[Std_RecallWorkingView/fr|Std Rappel de vue de travail]].
 
 Chaque vue 3D possède sa propre vue de travail. L'enregistrement d'une nouvelle vue de travail écrasera la vue de travail existante de la vue 3D active. Lorsqu'une vue 3D est fermée, sa vue de travail est perdue.
 
