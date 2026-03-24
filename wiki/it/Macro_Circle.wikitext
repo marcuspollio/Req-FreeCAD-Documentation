@@ -18,13 +18,17 @@
 
 Questa piccola macro crea un cerchio o un arco fornendo  a scelta raggio, diametro, circonferenza, area, angolo iniziale, angolo finale, arco, centro dell'angolo, corda, freccia, centro (punto), placemObject. Il nuovo cerchio viene creato nelle coordinate reali dell'oggetto, non nelle coordinate del corpo.<br/>{{ColoredText|(Riga di comando, incolla questa macro completa nella console Python)}}.
 
-Il cerchio viene posto frontale allo schermo, con getCameraOrientation, oppure secondo il posizionamento dato 
+<div class="mw-translate-fuzzy">
+Il cerchio viene posto frontale allo schermo, con getCameraOrientation, oppure secondo il posizionamento dato
+</div>
 
 <span id="Usage"></span>
 ==Utilizzo==
 
+<div class="mw-translate-fuzzy">
 Copiare il codice e incollarlo nella console Python di FreeCAD il comando arà disponibile per tutta la sessione di FreeCAD.
-Assegnare a scelta i parametri: 
+Assegnare a scelta i parametri:
+</div> 
 
 * '''x y z''' : coordinate del cerchio, se non sono attribuite, il cerchio viene creato alle coordinate 0,0,0
 *'''radius''' : raggio del cerchio
@@ -47,8 +51,10 @@ Assegnare a scelta i parametri:
 **    pl.Base=FreeCAD.Vector(-1.89847898483,-0.490152746439,0.0)	
 **    give '''placemObject = pl'''
 
+<div class="mw-translate-fuzzy">
 Se non vengono forniti dei parametri, ad esempio "'''circle()'''", nella vista Report viene visualizzato l'elenco delle funzioni disponibili.
 <br /><br />
+</div>
 
 ==Script==
 
