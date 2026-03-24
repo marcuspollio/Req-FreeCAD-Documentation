@@ -17,13 +17,17 @@
 
 Dieses kleine Makro erstellt einen Kreis oder Bogen mit Radius, Durchmesser, Umfang, Fläche, Startwinkel, Endwinkel, Bogen, Winkelzentrum, Sehne, Pfeil, Mittelpunkt (Punkt) und placemObject nach Wahl. Der neue Kreis wird in den realen Koordinaten des Objekts erstellt, nicht in den Koordinaten des Körpers. <br/>{{ColoredText|(Befehlszeile, fügen Sie dieses vollständige Makro in die Python-Konsole ein)}}.
 
-Der Kreis ist weiterhin auf den Bildschirm ausgerichtet (mit getCameraOrientation) (oder die Platzierung angeben). 
+<div class="mw-translate-fuzzy">
+Der Kreis ist weiterhin auf den Bildschirm ausgerichtet (mit getCameraOrientation) (oder die Platzierung angeben).
+</div>
 
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 Den Code kopieren und in die Python-Konsole von FreeCAD einfügen. Der Befehl wird ständig verwendet, um FreeCAD zu öffnen.
-Den Parameter der Wahl eingeben: 
+Den Parameter der Wahl eingeben:
+</div> 
 
 * '''x y z''' : Koordinaten des Kreises, wenn keine Koordinaten angegeben sind, wird der Kreis am Punkt 0,0,0 erstellt.
 *'''radius''' : Kreisradius
@@ -46,8 +50,10 @@ Den Parameter der Wahl eingeben:
 **     pl.Base=FreeCAD.Vector(-1.89847898483,-0.490152746439,0.0)
 **     give '''placemObject = pl'''
 
+<div class="mw-translate-fuzzy">
 Wenn kein Parameter "'''circle()’''" vorhanden ist, wird im Ausgabefenster eine Liste von Funktionen angezeigt.
 <br /><br />
+</div>
 
 <span id="Script"></span>
 ==Skript==
