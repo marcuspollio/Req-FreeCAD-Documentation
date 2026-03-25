@@ -40,13 +40,11 @@ Starsze informacje na temat wydań FreeCAD można znaleźć na stronie [[Feature
 [https://github.com/FreeCAD/FreeCAD/pull/23673 Pull request #23673]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:MassProperties_relnotes_1.2.png|384px]]
-| A new Mass Properties command has been added to calculate volume, mass, surface area, center of gravity, center of volume, and inertia for parts and assemblies, with support for custom reference frames and material-aware calculations.
+| Dodano nowe polecenie do sprawdzania właściwości masowych, takich jak objętość, masa, pole powierzchni, środek ciężkości, środek objętości i momenty bezwładności dla części i złożeń, ze wsparciem dla własnych układów odniesienia i obliczeniami biorącymi pod uwagę przypisane materiały.
 [https://github.com/FreeCAD/FreeCAD/pull/27347 Pull request #27347]
 |}
-</div>
 
 <span id="Further_Core_improvements"></span>
 ===Pozostałe ulepszenia rdzenia===
