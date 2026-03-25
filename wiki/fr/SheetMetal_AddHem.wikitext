@@ -143,9 +143,7 @@ Un objet SheetMetal Hem est dérivé d'un objet [[Part_Feature/fr|Part Feature]]
 * {{PropertyData|radius|Length}} : rayon de courbure. La valeur par défaut dépend de la propriété radius de l'élément parent.
 * {{PropertyData|width|Length}} : épaisseur de la paroi. Valeur par défaut : {{value|10,00 mm}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Properties_Title|Parameters Ex}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * {{PropertyData|Auto Miter|Bool}}: "Enable Auto Miter". Default: {{TRUE}}.
