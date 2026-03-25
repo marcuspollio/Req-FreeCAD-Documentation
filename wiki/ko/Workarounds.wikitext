@@ -5,8 +5,10 @@
 
 이 글의 목적은 현재 프리캐드에서 누락된 몇 가지 기능을 나열하고 이에 대한 해결 방법을 제공하는 것입니다. 프리캐드에서 특정 기능을 찾지 못하는 신규 사용자에게 도움이 될 수 있습니다.
 
-<span id="Workarounds_for_the_Sketcher_Workbench"></span>
+<span id="Sketcher_Workbench"></span>
+<div class="mw-translate-fuzzy">
 == 스케치 작업대에서 해법 ==
+</div>
 
 {| class="wikitable"
 |-
@@ -28,23 +30,6 @@
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
 | 3
-| Possibility to use the results of the [[Sketcher_External|External Geometry]] tool directly for operations on the sketch
-|
-* Manually trace over the geometry created by this tool
-* [https://github.com/realthunder/FreeCAD/releases Link Branch] - Defining Geometry tool
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|-
-| 4
-| Project multiple edges at once with the [[Sketcher_External|External Geometry]] tool when a face is selected
-|
-* Project edges individually
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|-
-| 5
 | 3D sketches
 |
 * Use the [[Draft_Workbench|Draft Workbench]], but 3D drafts can't be converted to sketches (however, they can be used for spatial frame analyses done [[FEM_Workbench|internally]] or externally, and for [[PartDesign_AdditivePipe|PartDesign AdditivePipe]] or [[Part_Sweep|Part Sweep]] paths)
@@ -52,15 +37,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 6
-| Projection of cut edges when making a sketch on a plane cutting through an object
-|
-* Create a [[Std_LinkMake|Link]] from the object, and [[Part_SliceApart|slice]] that object to get actual cut edges
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|-
-| 7
+| 4
 | [[Sketcher_ViewSection|View section]] tool showing filled cuts
 |
 * If the sketch is plane-parallel to one of the main planes of the global coordinate system: use [[Part_SectionCut|Part SectionCut]]
@@ -68,7 +45,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 8
+| 5
 | Diameter dimension with respect to a symmetry axis for revolved parts
 |
 * Create a radius dimension instead (you can enter the diameter divided by 2 - the calculation will be handled by FreeCAD)
@@ -76,7 +53,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 9
+| 6
 | Dimension labels adapting to the rotation of the view to be always readable
 |
 * Rotate the view when needed
@@ -84,15 +61,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 10
-| First [[Sketcher_Workbench#Dimensional_constraints|dimension]] in the sketch scaling the geometry so that its initially drawn shape is not broken
-|
-* Apply some [[Sketcher_Workbench#Dimensional_constraints|dimensional constraints]] before drawing the entire shape
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|-
-| 11
+| 7
 | An option to hide the whole [[Sketcher_ToggleConstruction|construction geometry]] in an active sketch
 |
 * In the Elements window, use the ''Construction'' filter, select the [[Sketcher_ToggleConstruction|construction geometry]] entities there and uncheck their checkboxes
@@ -102,8 +71,10 @@
 |}
 </div>
 
-<span id="Workarounds_for_the_Part_Workbench_and_Part_Design_Workbench"></span>
+<span id="Part_Workbench_and_Part_Design_Workbenches"></span>
+<div class="mw-translate-fuzzy">
 == 부품 작업대와 부품설계 작업대에서 해법들 ==
+</div>
 
 {| class="wikitable"
 |-
@@ -258,15 +229,9 @@
 * For co-planar faces: use [[Draft_Upgrade|Draft Upgrade]] twice to get a [[Draft_Wire|Draft Wire]], [[Draft_Downgrade|Draft Downgrade]] the wire to get a face
 </div>
 
-|-
-| 19
-| 스케치의 점을 사용하는 [[PartDesign_Hole/ko|구멍]] 도구
-|
-* [[PartDesign_Hole/ko|구멍]] 도구 사용에 점 대신 원을 그립니다.
-
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 20
+| 19
 | [[PartDesign_Point|Datum points]] from coordinates
 |
 * Base [[PartDesign_Point|datum points]] on existing geometry
@@ -275,7 +240,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 21
+| 20
 | A tool for automatic creation of ribs (structural reinforcements)
 |
 * Create ribs manually, wedges ([[Part_Wedge|Part Wedge]] or [[PartDesign_AdditiveWedge|PartDesign AdditiveWedge]]) can be used for simple triangular ribs
@@ -283,7 +248,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 22
+| 21
 | A tool for automatic creation of domes
 |
 * Create domes manually, spheres ([[Part_Sphere|Part Sphere]] or [[PartDesign_AdditiveSphere|PartDesign AdditiveSphere]]) with properly adjusted parameters can be used for simple spherical domes
@@ -291,7 +256,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 23
+| 22
 | Extending faces up to other faces (useful e.g. when extracting midsurfaces, as mentioned above)
 |
 * Use the [[Draft_Upgrade|Draft Upgrade]] tool on the faces to be extended, extend proper edges with [[Draft_Stretch|Draft Stretch]] and recreate the faces using [[Part_MakeFace|Part MakeFace]]
@@ -299,7 +264,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 24
+| 23
 | Fuzzy versions of [[Part_Workbench#Boolean_toolbar|Part Boolean operations]] (possibility to specify a tolerance for boolean union and other operations)
 |
 * Add-on [[Defeaturing_Workbench|Defeaturing Workbench]]
@@ -307,7 +272,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 25
+| 24
 | [[PartDesign_AdditiveLoft|PartDesign AdditiveLoft]] and [[PartDesign_AdditivePipe|PartDesign AdditivePipe]] with a possibility to use an open profile as the first or last section
 |
 * Different modeling approaches, e.g. involving [[PartDesign_Pad|PartDesign Pad]]
@@ -315,7 +280,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 26
+| 25
 | A tool to [[Part_Sweep|sweep]] a circular profile of a given diameter along a selected path
 |
 * Draw the circular profile manually
@@ -323,7 +288,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 27
+| 26
 | Optional local coordinate system display for [[PartDesign_Plane|datum planes]]
 |
 * Attach a [[PartDesign_CoordinateSystem|datum coordinate system]] to datum plane to see its local orientation
@@ -333,8 +298,10 @@
 |}
 </div>
 
-<span id="Workarounds_for_the_Draft_Workbench"></span>
+<span id="Draft_Workbench"></span>
+<div class="mw-translate-fuzzy">
 == 설계제도 작업대에서 해법 ==
+</div>
 
 {| class="wikitable"
 |-
@@ -398,8 +365,10 @@
 |}
 </div>
 
-<span id="Workarounds_for_the_TechDraw_Workbench"></span>
+<span id="TechDraw_Workbench"></span>
+<div class="mw-translate-fuzzy">
 == 기술도면 작업대에서 해법  ==
+</div>
 
 {| class="wikitable"
 |-
@@ -491,8 +460,10 @@
 |}
 </div>
 
-<span id="Workarounds_for_the_FEM_Workbench"></span>
+<span id="FEM_Workbench"></span>
+<div class="mw-translate-fuzzy">
 == 유한요소 해석 작업대에서 해법  ==
+</div>
 
 {| class="wikitable"
 |-
@@ -598,14 +569,6 @@
 * Rendering in external software such as [https://www.blender.org/ Blender]
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|-
-| 2
-| [[Status_bar|Status bar]] instructions (“Now pick this …”) for many tools that would benefit from them (e.g. [[Sketcher_Workbench#Sketcher_constraints|Sketcher constraints]]), more informative tooltips
-|
-* [[Main_Page|Wiki documentation]]
-</div>
-
 <div class="mw-translate-fuzzy">
 |-
 | 4
@@ -616,7 +579,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 4
+| 3
 | More GUI customization options - pie menus, different icon styles and themes and so on
 |
 * Various customization packages created by the community
@@ -625,15 +588,15 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 5
-| Advanced selection tools: selection by angle, inverting selection, selecting inside faces and so on
+| 4
+| Advanced selection tools: selection by angle, inverting selection, improved filters and box selection, and so on
 |
 * Manual selection
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 6
+| 5
 | [[Assembly|Assembly]] workbench with an option to constrain parts to the origin and to [[Datum|datums]]
 |
 * No known workaround
@@ -641,15 +604,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 7
-| [[Std_TransformManip|Transform]] tool with an option to move and rotate with respect to edges and global coordinates
-|
-* Add-on [[Manipulator_Workbench|Manipulator Workbench]]
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|-
-| 8
+| 6
 | More texturing options
 |
 * No known workaround
@@ -657,7 +612,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 9
+| 7
 | Highlight only the individual PartDesign feature in the [[3D_view|3D view]] when the corresponding operation is selected in the [[Tree_view|Tree view]]
 |
 * No known workaround
@@ -665,7 +620,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 10
+| 8
 | Select only the individual PartDesign feature in the [[Tree_view|Tree view]] when a corresponding element is selected in the [[3D_view|3D view]].
 |
 * No known workaround
@@ -673,7 +628,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 11
+| 9
 | Freeform modeling
 |
 * Model complex shapes in a "traditional" way - e.g. using add-on [[Curves_Workbench|Curves]] and [[CurvedShapes_Workbench|CurvedShapes]] workbenches
@@ -682,7 +637,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 12
+| 10
 | Assembly component generators and calculators for: bolted and riveted connections, shafts, splines, keys, cams, gears (spur, bevel, worm), bearings, springs, belts and chains, pins, o-rings
 |
 * [[Fasteners_Workbench|Fasteners Workbench]] and [[Gear_Workbench|Gear Workbench]] but no design calculations available
@@ -691,7 +646,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 13
+| 11
 | A tool for kinematic analysis on properly constrained sketches
 |
 * [[Scripting_and_macros|Python scripting]] - [https://forum.freecadweb.org/viewtopic.php?f=8&t=68826&start=10#p596531 example]
@@ -699,7 +654,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| 14
+| 12
 | [https://en.wikipedia.org/wiki/Geometric_dimensioning_and_tolerancing GD&T] directly on 3D models - [https://en.wikipedia.org/wiki/Model-based_definition MBD] approach
 |
 * [[Draft_Workbench#Annotation|Draft Annotation]] tools
