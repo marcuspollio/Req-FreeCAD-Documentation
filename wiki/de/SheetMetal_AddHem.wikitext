@@ -147,14 +147,12 @@ und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen 
 
 {{Properties_Title|Parameters Ex}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{PropertyData|Auto Miter|Bool}}: "Enable Auto Miter". Default: {{TRUE}}.
-* {{PropertyData|kfactor|FloatConstraint}}: "Location of Neutral Line. Caution: Using ANSI standards, not DIN.". </br> Default: {{value|0,50}}. K factor (also known as neutral factor) for the bend. Used to calculate bend allowance when unfolding.
-* {{PropertyData|max Extend Dist|Length}}: "Auto Miter maximum Extend Distance". Default: {{value|5,00 mm}}.
-* {{PropertyData|min Gap|Length}}: "Auto Miter Minimum Gap". Default: {{value|0,20 mm}}.
-* {{PropertyData|min Relief Gap|Length}}: "Minimum Gap to Relief Cut". Default: {{value|1,00 mm}}.
-* {{PropertyData|unfold|Bool}}: "Shows Unfold View of Current Bend". Default: {{FALSE}} </br> {{TRUE}} unfolds the bend.
-</div>
+* {{PropertyData/de|Auto Miter|Bool}}: "Enable Auto Miter". Automatische Gehrung aktivieren. Standardwert: {{TRUE}}.
+* {{PropertyData/de|kfactor|FloatConstraint}}: "Location of Neutral Line. Caution: Using ANSI standards, not DIN.". Lage der neutralen Faser nach ANSI-Norm, nicht nach DIN. </br> Standardwert: {{value|0,50}}. K-Faktor (also known as neutral factor) des Bogens. Used to calculate bend allowance when unfolding.
+* {{PropertyData/de|max Extend Dist|Length}}: "Auto Miter maximum Extend Distance". Automatische Gehrung, maximale Länge der Erweiterung. Standardwert: {{value|5,00 mm}}.
+* {{PropertyData/de|min Gap|Length}}: "Auto Miter Minimum Gap". Automatische Gehrung, minimaler Spalt. Standardwert: {{value|0,20 mm}}.
+* {{PropertyData/de|min Relief Gap|Length}}: "Minimum Gap to Relief Cut". Standardwert: {{value|1,00 mm}}.
+* {{PropertyData/de|unfold|Bool}}: "Shows Unfold View of Current Bend". Stellt das aktuelle Biegeobjekt abgewickelt dar. Standardwert: {{FALSE}} </br> {{TRUE}} erstellt die Abwicklung des Biegeobjekt.
 
 {{Properties_Title|Parameters Miterangle}}
 
