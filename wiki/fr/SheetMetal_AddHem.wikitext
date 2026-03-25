@@ -103,15 +103,13 @@ Double-cliquez sur un objet Hem existant dans l'[[Tree_View/fr|arborescence]] po
 
 [[Image:SheetMetal_AddHem-Task3.png|260px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Auto Miter''': Toggles the '''Auto Miter''' property.
-*: If checked:
-** '''Minimum Gap''': Sets the '''minGap''' property.
-** '''Max Extend Distance''': Sets the '''max Extend Dist''' property.
-*: If unchecked:
-** '''Angle 1''': sets the '''miterangle1''' property.
-** '''Angle 2''': sets the '''miterangle2''' property.
-</div>
+* '''Onglet automatique''' : active/désactive la propriété '''Auto Miter'''.
+*: Si coché :
+** '''Espace minimum''' : définit la propriété '''minGap'''.
+** '''Distance maximale de l'extension''' : définit la propriété '''max Extend Dist'''.
+*: Si non coché :
+** '''Angle 1''' : définit la propriété '''miterangle1'''.
+** '''Angle 2''' : définit la propriété '''miterangle2'''.
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
