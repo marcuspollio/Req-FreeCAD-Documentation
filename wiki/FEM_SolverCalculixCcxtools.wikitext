@@ -142,6 +142,7 @@ Default values can be set in the menu {{MenuCommand|Edit → Preferences → FEM
 ** plane strain - plane strain 2D solid elements are used
 ** axisymmetric - axisymmetric 2D solid elements are used
 
+<!--T:54-->
 * {{PropertyData|Output 3d}}: note that CalculiX internally expands 1D and 2D elements into 3D elements to accomplish finite element analysis
 ** true - resulting mesh will contain 1D and 2D elements expanded to 3D elements
 ** false - results of 1D and 2D elements will be averaged to the nodes of the original 1D or 2D mesh (i.e. a purely bent beam will show 0 nodal stresses due to averaging)
