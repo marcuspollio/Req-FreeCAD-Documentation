@@ -1,5 +1,6 @@
 <languages/>
 __FORCETOC__
+
 <div class="mw-translate-fuzzy">
 == Istorie ==
 [[File:Screenshot mesh.jpg|thumb|300px|Early FreeCAD version unknown]]
@@ -12,10 +13,8 @@ Istoricul FreeCAD a început în ianuarie 2001, când  [[User:Jriegel|Jürgen Ri
 
 Cuvintele lui Jürgen's au fost:
 
-<div class="mw-translate-fuzzy">
 {{Quote|text=''Proiectul freecad a fost inițiat de mine în ianuarie 2001, ca asa numita GOM (Graphical Object Modeler), cu ideea de a folosi Qt, Python și Cas.CADE, un comercial CAD-Kernel din acel timp am folosit în proiectele Daimler. Cas.CADE a plecat cu o sursă deschisă cu puțin timp înainte, așa că timpul părea corect să încerc o mișcare în spatiul gol al CAD open source. Am avut o experiență de doi ani cu OpenCascade într-un proiect numit QSpect în care, la final, eram principalul designer de software. Am învățat multe despre programarea 3D și CAD. De asemenea, am fost influențată de Catia V5 și interfața foarte specială de utilizare și de programare ... În 17 martie 2002, în cadrul proiectului OpenCascade, am înregistrat software-ul ca FreeCAD. Nu m-am gândit la un nume mai bun, sunt foarte neinspirat cu numele ... În aprilie 2003, Werner Meyer, unul dintre colegiile din proiectul QSpect, a trecut la o companie numită Imetric. Contactul cu Imetric a avut un rezultat foarte promițător, deoarece a căutat o nouă platformă software 3D pentru senzorii 3D. În 2005, Imetric a donat cea mai mare parte a modulelor sale de plasă  la FreeCAD și comunitatea Open Source, iar de atunci aceștia au folosit FreeCAD ca bază pentru software-ul sistemului de senzori. Din acel moment, Werner Meyer este un dezvoltator foarte activ al FreeCAD. În 2005, după un an de luptă, am decis să rup cadrul documentului OpenCascade și să îl înlocuiesc cu o implementare proprie. Deci, în final, folosim doar kernel-ul CAD al OpenCascade și nu restul cadrului său. 2007 a fost o altă piatră de hotar interesantă. Am trecut la QT4 și, prin urmare, la LGPL. În acel moment am făcut multă treabă, mai ales Werner.''.
-|sign=[[User:Jriegel|Jürgen Riegel]]|source=''[http://forum.freecadweb.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?]''}}
-</div>
+|sign=[[User:Jriegel|Jürgen Riegel]]|source=''[http://forum.freecad.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?]''}}
 
 <div class="mw-translate-fuzzy">
 Proiectul a fost anunțat publicului larg pe [http://www.opencascade.org/org/forum OpenCascade Forum] in 2003. Again, in Jürgen's words:
@@ -213,17 +212,27 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| style="background-color: #C1E6F5;"| 1.1
+| style="background-color: #C1E6F5;"| 1.2
 | -
-| in development
-| [[Release_notes_1.1|Release notes 1.1]]
+| In development
+| [[Release_notes_1.2|Release notes 1.2]]
 | [https://github.com/FreeCAD/FreeCAD/commits/main head main]
 |
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| style="background-color: #D4F4B4;"| 1.0
+| style="background-color: #D4F4B4;"| 1.1
+| -
+| 2026-03-24
+| [[Release_notes_1.1|Release notes 1.1]]
+| [https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-1-1 release commit 1.1]
+| [https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-1-1 branch bugfixes 1.1]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+| style="background-color: #FDB3AB;"| 1.0
 | BGBSWW
 | 2024-11-18
 | [[Release_notes_1.0|Release notes 1.0]]
@@ -484,13 +493,11 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 |}
 </div>
 
-<div class="mw-translate-fuzzy">
 == Legături ==
 * [http://sourceforge.net/projects/free-cad/files/ SourceForge Files section] 
 * [http://sourceforge.net/projects/free-cad/files/OldFiles/ SourceForge Old Files section]
-* [http://forum.freecadweb.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?] topic on the FreeCAD forum
+* [http://forum.freecad.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?] topic on the FreeCAD forum
 * [http://www.opencascade.org/org/forum/thread_6572/?forum=11 Announcing FreeCAD Project] on the OpenCascade forum
-</div>
 
 [[Category:News{{#translation:}}]]
 [[Category:Releases{{#translation:}}]]
