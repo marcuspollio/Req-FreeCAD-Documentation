@@ -44,9 +44,7 @@ Der Befehl '''Std ProjekteZusammenführen''' fügt den Inhalt einer FreeCAD-Date
 
 Siehe auch: [https://freecad.github.io/SourceDoc/ Autogenerierte API-Dokumentation] und [[FreeCAD_Scripting_Basics/de|Grundlagen der Skripterstellung in FreeCAD]].
 
-<div class="mw-translate-fuzzy">
-Um ein Projekt hinzuzufügen, wird die Methode {{incode|mergeProject}} des Dokumentobjekts verwendet.
-</div>
+Um ein Dokument hinzuzufügen, wird die Methode {{incode|mergeProject}} des Dokumentobjekts verwendet.
 
 {{Code|code=
 import FreeCAD
