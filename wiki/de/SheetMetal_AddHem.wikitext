@@ -133,18 +133,16 @@ und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen 
 
 {{Properties_Title|Parameters}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{PropertyData|Bend Type|Enumeration}}: "Bend Type". {{value|Material Outside}} (default), {{value|Material Inside}}, {{value|Thickness Outside}}.
-* {{PropertyData|Hem Type|Enumeration}}: "Type of Hem". {{value|Flat}} (default), {{value|Open}}, {{value|Teardrop}}, {{value|Rolled}}.
-* {{PropertyData|Include Bend|Bool}}: "Width includes bend geometry". Default: {{FALSE}}.
-* {{PropertyData|Roll Angle|Angle}}: "Roll Angle". Default angle: {{value|90,00°}}.
-* {{PropertyData|base Object|LinkSub}}: "Base Object". Link to the planar face to receive a hem.
-* {{PropertyData|gap1|Distance}}: "Gap from Left side". Default: {{value|0,00 mm}}.
-* {{PropertyData|gap2|Distance}}: "Gap from Right side". Default: {{value|0,00 mm}}.
-* {{PropertyData|invert|Bool}}: "Invert Bend Direction". Default: {{FALSE}}.
-* {{PropertyData|opened|Bool}}: "Opened Hem". Default: {{FALSE}}.
-* {{PropertyData|opening|Length}}: "Openening. of Hem". Default: {{value|1,00 mm}}
-</div>
+* {{PropertyData|Bend Type|Enumeration}}: "Bend Type". {{value|Material Outside}} (Standardwert), {{value|Material Inside}}, {{value|Thickness Outside}}.
+* {{PropertyData|Hem Type|Enumeration}}: "Type of Hem". {{value|Flat}} (Standardwert), {{value|Open}}, {{value|Teardrop}}, {{value|Rolled}}.
+* {{PropertyData|Include Bend|Bool}}: "Schenkellänge inklusive Bogengeometrie". Standardwert: {{FALSE}}.
+* {{PropertyData|Roll Angle|Angle}}: "Roll Angle". Standardwinkel: {{value|90,00°}}.
+* {{PropertyData|base Object|LinkSub}}: "Base Object". Verknüpfung zur ebenen Fläche, an die ein Falz angesetzt werden soll.
+* {{PropertyData/de|gap1|Distance}}: "Gap from Left side". Spalt von links. Standardwert: {{value|0,00 mm}}.
+* {{PropertyData/de|gap2|Distance}}: "Gap from Right side". Spalt von rechts. Standardwert: {{value|0,00 mm}}.
+* {{PropertyData|invert|Bool}}: "Invert Bend Direction". Biegerichtung umkehren. Standardwert: {{FALSE}}.
+* {{PropertyData|opened|Bool}}: "Opened Hem". Standardwert: {{FALSE}}.
+* {{PropertyData|opening|Length}}: "Openening of Hem". Standardwert: {{value|1,00 mm}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * {{PropertyData|radius|Length}}: "Bend Radius", the default value depends on the radius property of the parent feature: 
