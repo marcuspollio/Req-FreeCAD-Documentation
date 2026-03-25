@@ -81,7 +81,7 @@ from BOPTools import BOPFeatures
 
 Dokładne ścieżki zależą od platformy i sposobu instalacji.
 
-Ta ręczna konfiguracja gwarantuje, że moduły środowiska pracy można zaimportować, obiekty dokumentów są odtwarzane z zachowaniem właściwych typów, a dodatkowe narzędzia języka Python dołączone do środowisk roboczych stają się dostępne.
+Ta ręczna konfiguracja gwarantuje, że moduły środowiska pracy można zaimportować, obiekty dokumentów są odtwarzane z zachowaniem właściwych typów, a dodatkowe narzędzia języka Python dołączone do środowisk pracy stają się dostępne.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Note that the FreeCAD GUI environment performs this initialization automatically. In headless usage, however, this step must be handled explicitly by the user.
