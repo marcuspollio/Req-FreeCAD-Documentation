@@ -22,10 +22,7 @@ Le cercle fait toujours face à l'écran (avec la commande getCameraOrientation)
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
-Copier le code et le coller dans la console Python de FreeCAD la commande est utilisée tout le temps à la disposition de FreeCAD ouvert
-Donner le paramètre au choix :
-</div> 
+Copiez le code et collez-le dans la console Python de FreeCAD ; cette commande est couramment utilisée dans FreeCAD. Ouvrez-la et indiquez le paramètre de votre choix : 
 
 * '''x y z''' : coordonnées du cercle s'il n'y a pas de coordonnées, le cercle est créé aux coordonnées 0,0,0
 *'''radius''' : rayon du cercle
