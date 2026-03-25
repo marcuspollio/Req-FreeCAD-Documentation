@@ -157,9 +157,7 @@ Un objet SheetMetal Hem est dérivé d'un objet [[Part_Feature/fr|Part Feature]]
 * {{PropertyData|miterangle1|Angle}} : angle de l'onglet de pliage depuis le côté gauche. Angle par défaut : {{value|0,00°}}.
 * {{PropertyData|miterangle2|Angle}} : angle de l'onglet de pliage depuis le côté droit. Angle par défaut : {{value|0,00°}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Properties_Title|Parameters Relief}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * {{PropertyData|Relief Factor|Float}}: "Relief Factor". Default: {{value|0,70}}.
