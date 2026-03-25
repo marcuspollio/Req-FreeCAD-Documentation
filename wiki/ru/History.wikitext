@@ -1,5 +1,6 @@
 <languages/>
 __FORCETOC__
+
 == История ==
 [[File:Screenshot mesh.jpg|thumb|300px|Early FreeCAD, version unknown.]]
 [[File:Part BooleanOperations.png|thumb|300px|FreeCAD version 0.7 from 2009.]]
@@ -9,10 +10,8 @@ __FORCETOC__
 
 По собственным словам Jürgen:
 
-<div class="mw-translate-fuzzy">
 {{Quote|text=''Проект FreeCAD был начат мной в январе 2001 года как так называемый GOM (Graphical Object Modeler) с идеей использовать Qt, Python и Cas.CADE (коммерческое ядро CAD, которое я тогда использовал в проектах Daimler). Cas.CADE стал открытым исходным кодом незадолго до этого, поэтому казалось подходящим моментом, чтобы попробовать двигаться в пустующем в то время пространстве САПР с открытым исходным кодом. У меня был двухлетний опыт работы с OpenCascade в проекте под названием QSpect, в котором в конце концов я стал главным разработчиком программного обеспечения. Я многое узнал о 3D и программировании САПР. На меня также повлияла Catia V5 и её особый пользовательский и программный интерфейс… 17 марта 2002 года в рамках проекта OpenCascade я зарегистрировал программное обеспечение как FreeCAD. Я не мог придумать лучшего имени, т.к. я очень плохо разбираюсь в именах… В апреле 2003 года Вернер Мейер, один из коллег по проекту QSpect, перешел в компанию Imetric. Контакт с Imetric оказался многообещающим, так как они искали новую программную 3D платформу для своих 3D-датчиков. В 2005 году Imetric пожертвовала FreeCAD и сообществу Open Source, большую часть своего Mesh-модуля и с тех пор они использовали FreeCAD в качестве основы для своего программного обеспечения сенсорной системы. С того времени Вернер Мейер стал очень активным разработчиком FreeCAD. В 2005 году, после года борьбы, я решил изъять структуру документа OpenCascade и заменить ее собственной реализацией. Итак, в конце концов, мы использовали только ядро САПР OpenCascade, без его фреймворка. 2007 год стал еще одной интересной вехой. Мы перешли на QT4 и, следовательно, на LGPL. В то время мы много работали, в основном Вернер.''
-|sign=[[User:Jriegel|Jürgen Riegel]]|source=''[http://forum.freecadweb.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?]''}}
-</div>
+|sign=[[User:Jriegel|Jürgen Riegel]]|source=''[http://forum.freecad.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?]''}}
 
 Проект был публично анонсирован на [https://dev.opencascade.org/forums форуме OpenCascade] в 2003 году:
 
@@ -140,17 +139,27 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| style="background-color: #C1E6F5;"| 1.1
+| style="background-color: #C1E6F5;"| 1.2
 | -
-| in development
-| [[Release_notes_1.1|Release notes 1.1]]
+| In development
+| [[Release_notes_1.2|Release notes 1.2]]
 | [https://github.com/FreeCAD/FreeCAD/commits/main head main]
 |
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| style="background-color: #D4F4B4;"| 1.0
+| style="background-color: #D4F4B4;"| 1.1
+| -
+| 2026-03-24
+| [[Release_notes_1.1|Release notes 1.1]]
+| [https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-1-1 release commit 1.1]
+| [https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-1-1 branch bugfixes 1.1]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+| style="background-color: #FDB3AB;"| 1.0
 | BGBSWW
 | 2024-11-18
 | [[Release_notes_1.0|Release notes 1.0]]
