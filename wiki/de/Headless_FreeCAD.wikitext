@@ -98,9 +98,7 @@ This manual setup ensures that workbench modules are importable, document object
 Note that the FreeCAD GUI environment performs this initialization automatically. In headless usage, however, this step must be handled explicitly by the user.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-See [[Embedding_FreeCAD|Embedding FreeCAD]].
-</div>
+Siehe [[Embedding_FreeCAD/de|FreeCAD einbinden]].
 
 <span id="Via_shell_script"></span>
 ===Mit einem Shell-Skript===
