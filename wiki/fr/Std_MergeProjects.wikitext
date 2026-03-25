@@ -34,10 +34,8 @@ La commande '''Std Fusionner au document''' ajoute le contenu d'un fichier FreeC
 <span id="Notes"></span>
 ==Remarques==
 
-<div class="mw-translate-fuzzy">
-* Un projet ne peut pas être fusionné avec lui-même, la sélection du fichier en cours n'est pas autorisée.
+* Un document ne peut pas être fusionné avec lui-même, la sélection du fichier en cours n'est pas autorisée.
 * FreeCAD changera automatiquement les noms internes et, selon les [[Preferences_Editor/fr#Document|préférences]], les étiquettes des objets pour éviter les conflits de noms.
-</div>
 
 <span id="Scripting"></span>
 ==Script==
