@@ -10,7 +10,9 @@
 <span id="Introduction"></span>
 ==Wprowadzenie==
 
+<div class="mw-translate-fuzzy">
 Interfejs FreeCAD jest oparty na nowoczesnym zestawie narzędzi [https://en.wikipedia.org/wiki/Qt_(toolkit) Qt] i posiada nowoczesną organizację. Niektóre aspekty interfejsu mogą być dostosowane do indywidualnych potrzeb. Możesz na przykład dodać niestandardowe paski narzędzi, z narzędziami z kilku Środowisk pracy lub narzędziami zdefiniowanymi w makrach, a także tworzyć własne skróty klawiaturowe. Ale menu i domyślne paski narzędzi, które są dostarczane z programem FreeCAD i jego warsztatami nie mogą być zmieniane.
+</div>
 
 [[Image:Std_DlgCustomize_tab_Toolbars.png]]
 {{Caption|Okno dialogowe Dostosowywanie interfejsu}}
@@ -18,6 +20,7 @@ Interfejs FreeCAD jest oparty na nowoczesnym zestawie narzędzi [https://en.wiki
 <span id="Usage"></span>
 ==Użycie==
 
+<div class="mw-translate-fuzzy">
 # Polecenia dostępne w oknie dialogowym Dostosowywania zależą od aktywnych programów roboczych, które zostały załadowane w bieżącej sesji programu FreeCAD. Należy więc najpierw załadować wszystkie programy, do których chcemy mieć dostęp.
 # Istnieje kilka sposobów wywołania polecenia [[Image:Std_DlgCustomize.svg|16px]] [[Std_DlgCustomize/pl|Std: Dostosuj]]:
 #* Wybierz polecenie z menu {{MenuCommand|Przybory → [[Image:Std_DlgCustomize.svg|16px]] Dostosuj...}}.
@@ -25,6 +28,7 @@ Interfejs FreeCAD jest oparty na nowoczesnym zestawie narzędzi [https://en.wiki
 # Otworzy się okno dialogowe '''Dostosuj'''. Więcej informacji można znaleźć w rozdziale [[#Opcje|Opcje]].
 # Przycisk {{Button|Pomocy}} nie działa w tym czasie.
 # Naciśnij przycisk {{Button|Zamknij}}, aby zamknąć okno dialogowe.
+</div>
 
 <span id="Options"></span>
 ==Opcje==
@@ -176,6 +180,7 @@ Jeśli chcesz użyć makra pobranego z innego źródła, będziesz musiał zains
 <span id="Add_a_macro_command"></span>
 ====Dodawanie makropolecenie====
 
+<div class="mw-translate-fuzzy">
 # Na liście rozwijanej '''Makro''' wybierz makro.
 # Wprowadź '''Tekst menu'''. Będzie to nazwa używana do identyfikacji polecenia makra i pojawi się również na pasku narzędzi, jeśli nie będzie ikony.
 # Opcjonalnie wpisz '''podpowiedź do narzędzia'''. Tekst ten pojawi się w pobliżu miejsca, w którym znajduje się mysz po najechaniu na ikonę paska narzędzi.
@@ -190,6 +195,7 @@ Jeśli chcesz użyć makra pobranego z innego źródła, będziesz musiał zains
 # Wciśnij przycisk {{Button|dodaj}}.
 # Polecenie nowej makrodefinicji pojawi się w panelu po lewej stronie.
 # Polecenie utworzonej makrodefinicji można teraz wybrać na karcie [[#Paski narzędzi|Paski narzędzi]].
+</div>
 
 <span id="Remove_a_macro_command"></span>
 ====Usuwanie makropolecenia====
@@ -219,11 +225,13 @@ Ta karta jest pusta, jeśli nie wykryto tego typu manipulatora. Patrz: [[3Dconne
 
 FreeCAD obsługuje kompletną personalizację interfejsu, poprzez arkusze stylów .qss. Format [https://doc.qt.io/qt-5/stylesheet-syntax.html qss] jest bardzo podobny do formatu [https://en.wikipedia.org/wiki/CSS css] używanego na stronach internetowych, w zasadzie dodaje więcej metod, aby odnieść się do różnych widżetów i elementów interfejsu Qt. Możesz zmienić obecny domyślny motyw ''(który po prostu bierze styl zdefiniowany przez system pulpitu)'' poprzez wybranie '''arkusza stylów''' w [[Preferences_Editor/pl#Informacje_og.C3.B3lne|Edytorze ustawień]].
 
+<div class="mw-translate-fuzzy">
 Możesz również stworzyć własny motyw, jeśli nie odpowiada Ci motyw dołączony do programu FreeCAD, na przykład poprzez edycję [https://github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets istniejącego arkusza stylów]. Twój nowy styl musi być umieszczony w określonym folderze, aby został znaleziony przez FreeCAD:
 
 * {{FileName|$HOME/.FreeCAD/Gui/Stylesheets}} ''(Linux)''.
 * {{FileName|$HOME/Library/Application Support/FreeCAD/Gui/Stylesheets}} ''(MacOS)''.
 * {{FileName|%APPDATA%/FreeCAD/Gui/Stylesheets}} ''(Windows)''. Lokalizację folderu {{FileName|%APPDATA%}} można uzyskać poprzez wpisanie {{Incode|App.getUserAppDataDir()}} w [[Python_console/pl|konsoli Python]].
+</div>
 {{Top}}
 <span id="Addons"></span>
 ==Dodatki==
