@@ -165,10 +165,8 @@ und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen 
 
 {{Properties_Title|Parameters Miterangle}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{PropertyData|miterangle1|Angle}}: "Bend Miter Angle from Left Side". Default angle: {{value|0,00°}}.
-* {{PropertyData|miterangle2|Angle}}: "Bend Miter Angle from Right Side". Default angle: {{value|0,00°}}.
-</div>
+* {{PropertyData/de|miterangle1|Angle}}: "Bend Miter Angle from Left Side". Gehrungswinkel der linken Seite. Standardwinkel: {{value|0,00°}}.
+* {{PropertyData/de|miterangle2|Angle}}: "Bend Miter Angle from Right Side". Gehrungswinkel der rechten Seite. Standardwinkel: {{value|0,00°}}.
 
 {{Properties_Title|Parameters Relief}}
 
