@@ -41,9 +41,7 @@ Die Werkzeuge des Arbeitsbereichs befinden sich im Menü {{MenuCommand|Sheet Met
 
 * [[Image:SheetMetal_AddWall.svg|32px]] [[SheetMetal_AddWall/de|Kante ansetzen]]: Setzt eine Kante an jede ausgewählte Umfangsfläche einer Grundfläche an. (Die Kante kann durch das Ändern des Winkels zu einem Falz gewandelt werden.)
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:SheetMetal_AddHem.svg|32px]] [[SheetMetal_AddHem|Make Hem]]: Adds a hem on each selected edge of a base plate. (Similar to the above tool but with settings optimized for hem creation. - introduced in version 0.8.10)
-</div>
+* [[Image:SheetMetal_AddHem.svg|32px]] [[SheetMetal_AddHem|Make Hem]]: Setzt einen Falz an jede ausgewählte Umfangsfläche einer Grundplatte an. (Ähnlich dem vorherigen Werkzeug, aber mit Einstellungen, die für das Erstellen von Falzen optimiert sind. - eingeführt in Version 0.8.10)
 
 * [[Image:SheetMetal_Extrude.svg|32px]] [[SheetMetal_Extrude/de|Fläche erweitern]]: Erweitert eine gewählte Umfangsfläche in Richtung ihrer Flächennormalen.
 
