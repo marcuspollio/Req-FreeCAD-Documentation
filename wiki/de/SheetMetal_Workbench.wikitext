@@ -41,6 +41,10 @@ Die Werkzeuge des Arbeitsbereichs befinden sich im Menü {{MenuCommand|Sheet Met
 
 * [[Image:SheetMetal_AddWall.svg|32px]] [[SheetMetal_AddWall/de|Kante ansetzen]]: Setzt eine Kante an jede ausgewählte Umfangsfläche einer Grundfläche an. (Die Kante kann durch das Ändern des Winkels zu einem Falz gewandelt werden.)
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:SheetMetal_AddHem.svg|32px]] [[SheetMetal_AddHem|Make Hem]]: Adds a hem on each selected edge of a base plate. (Similar to the above tool but with settings optimized for hem creation. - introduced in version 0.8.10)
+</div>
+
 * [[Image:SheetMetal_Extrude.svg|32px]] [[SheetMetal_Extrude/de|Fläche erweitern]]: Erweitert eine gewählte Umfangsfläche in Richtung ihrer Flächennormalen.
 
 * [[Image:SheetMetal_ExtendBySketch.svg|32px]] [[SheetMetal_ExtendBySketch/de|Mit Skizze erweitern]]: Erweitert eine Blechplatte an einer ausgewählten Kantenfläche, indem eine Konturskizze hinzugefügt wird. Es kann dafür verwendet werden, verzahnte Geometrie zu erstellen. (Dies wurde von dem vorherigen Werkzeug abgeteilt und steht für Version 0.7.57 und neuer zur Verfügung)
