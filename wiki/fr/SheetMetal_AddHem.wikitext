@@ -59,6 +59,7 @@ Double-cliquez sur un objet Hem existant dans l'[[Tree_View/fr|arborescence]] po
 [[Image:SheetMetal_AddHem-Task1.png|260px]]
 
 
+<div class="mw-translate-fuzzy">
 * {{Button|Sélectionner}} : modifie le nombre d'arêtes de la propriété '''base Object'''.
 * '''Type''' : définit la propriété '''HemType'''.
 ** '''Plat''' active les sous-options suivantes :
@@ -83,7 +84,7 @@ Double-cliquez sur un objet Hem existant dans l'[[Tree_View/fr|arborescence]] po
 **** '''Angle de roulis''': définit la propriété '''Angle de roulis'''.
 * '''Position''': définit la propriété '''Bend Type'''.
 * '''Déplier''': active ou désactive la propriété '''unfold'''.
-
+</div>
 
 <span id="Offsets"></span>
 ==== Décalages ====
