@@ -86,6 +86,12 @@ texts["FC-Title"] = "The title of my page"
 page.Template.EditableTexts = texts
 }}
 
+Um einzelne Felder zu bearbeiten, kann die Methode {{incode|setEditFieldContent}} der Vorlage {{incode|Template}} verwendet werden:
+
+{{Code|code=
+page.Template.setEditFieldContent("FC-Title", "Another title of my page")
+}}
+
 
 {{Docnav/de
 |[[TechDraw_PageDefault/de|DefaultPage]]
