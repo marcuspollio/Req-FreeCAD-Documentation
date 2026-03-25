@@ -85,9 +85,7 @@ Ta ręczna konfiguracja gwarantuje, że moduły środowiska pracy można zaimpor
 
 Należy pamiętać, że środowisko graficzne FreeCAD wykonuje tę inicjalizację automatycznie. Jednak w przypadku korzystania z programu w trybie bez GUI użytkownik musi wykonać ten krok samodzielnie.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-See [[Embedding_FreeCAD|Embedding FreeCAD]].
-</div>
+Zobacz stronę [[Embedding_FreeCAD/pl|Osadzanie programu FreeCAD]].
 
 <span id="Via_shell_script"></span>
 === Poprzez skrypt w powłoce ===
