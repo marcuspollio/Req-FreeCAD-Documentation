@@ -58,9 +58,8 @@ Dies ist eine sehr leistungsstarke Funktion, die das gesamte Potenzial von FreeC
 
 Beachte, dass dieser Modus für die Verwendung der FreeCAD-API ohne GUI vorgesehen ist. Zwar können einige GUI-bezogene Module importiert werden, doch ist die API-Nutzung, die direkt auf GUI-Komponenten zugreift oder diese manipuliert, sehr eingeschränkt und wird in einem headless-Kontext im Allgemeinen nicht unterstützt.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Additional considerations for Workbench modules in headless mode ====
-</div>
+<span id="Additional_considerations_for_Workbench_modules_in_headless_mode"></span>
+==== Zusätzliche Überlegungen zu Arbeitsbereichs-Modulen im Headless-Modus ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 When using FreeCAD as a Python library in a headless context (for example via a standard Python interpreter or {{incode|FreeCADCmd}}), not all workbench modules are automatically available, even if the core FreeCAD modules can be imported successfully.
