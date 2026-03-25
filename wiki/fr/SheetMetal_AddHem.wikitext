@@ -123,13 +123,10 @@ Double-cliquez sur un objet Hem existant dans l'[[Tree_View/fr|arborescence]] po
 
 Voir aussi : [[Property_View/fr|Éditeur de propriétés]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-A SheetMetal '''Hem''' object is derived from a [[Part_Feature|Part Feature]] object or, if it is inside a [[PartDesign_Body|PartDesign Body]], from a [[PartDesign_Feature|PartDesign Feature]] object, and inherits all its properties. It also has the following additional properties:
-</div>
+Un objet SheetMetal Hem est dérivé d'un objet [[Part_Feature/fr|Part Feature]] ou, s'il se trouve à l'intérieur d'un [[PartDesign_Body/fr|PartDesign Corps]], à partir d'un objet [[PartDesign_Feature/fr|PartDesign Feature]], dont il hérite de toutes les propriétés. Il possède également les propriétés supplémentaires suivantes :
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Data===
-</div>
+<span id="Data"></span>
+===Données===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Properties_Title|Parameters}}
