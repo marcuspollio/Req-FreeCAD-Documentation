@@ -12,14 +12,13 @@
 }}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/de
 |Name=SheetMetal AddHem
-|MenuLocation=SheetMetal → Make Hem
-|Workbenches=[[SheetMetal Workbench|SheetMetal]]
+|Name/de=SheetMetal FalzAnsetzen
+|MenuLocation=SheetMetal → Falz ansetzen
+|Workbenches=[[SheetMetal Workbench/de|SheetMetal]]
 |Shortcut={{KEY|Z}}
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Description==
