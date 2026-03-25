@@ -84,9 +84,7 @@ Cette configuration manuelle garantit que les modules des ateliers peuvent être
 
 Remarquez que l'interface graphique de FreeCAD effectue cette initialisation automatiquement. En mode sans interface graphique, cependant, cette étape doit être effectuée explicitement par l'utilisateur.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-See [[Embedding_FreeCAD|Embedding FreeCAD]].
-</div>
+Voir [[Embedding_FreeCAD/fr|Intégrer FreeCAD]].
 
 <span id="Via_shell_script"></span>
 === Via un script shell ===
