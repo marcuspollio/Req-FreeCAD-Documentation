@@ -6,7 +6,7 @@
 <!--T:2-->
 The goal of this article is to list some currently missing features in FreeCAD and provide workarounds for them. It can be helpful for new users who can't find a particular functionality in FreeCAD.
 
-== Workarounds for the Sketcher Workbench == <!--T:3-->
+== Sketcher Workbench == <!--T:3-->
 
 <!--T:4-->
 {| class="wikitable"
@@ -95,7 +95,7 @@ The goal of this article is to list some currently missing features in FreeCAD a
 <!--T:20-->
 |}
 
-== Workarounds for the Part Workbench and Part Design Workbench == <!--T:21-->
+== Part Workbench and Part Design Workbenches == <!--T:21-->
 
 <!--T:22-->
 {| class="wikitable"
@@ -310,7 +310,7 @@ The goal of this article is to list some currently missing features in FreeCAD a
 <!--T:119-->
 |}
 
-== Workarounds for the Draft Workbench == <!--T:94-->
+== Draft Workbench == <!--T:94-->
 
 <!--T:95-->
 {| class="wikitable"
@@ -370,7 +370,7 @@ The goal of this article is to list some currently missing features in FreeCAD a
 <!--T:103-->
 |}
 
-== Workarounds for the TechDraw Workbench == <!--T:46-->
+== TechDraw Workbench == <!--T:46-->
 
 <!--T:47-->
 {| class="wikitable"
@@ -455,7 +455,7 @@ The goal of this article is to list some currently missing features in FreeCAD a
 * Create a [[TechDraw_View|standard view]] from the correct direction. Workarounds for "View normal to a face" may help. Rotate and position the view as needed.
 |}
 
-== Workarounds for the FEM Workbench == <!--T:57-->
+== FEM Workbench == <!--T:57-->
 
 <!--T:58-->
 {| class="wikitable"
