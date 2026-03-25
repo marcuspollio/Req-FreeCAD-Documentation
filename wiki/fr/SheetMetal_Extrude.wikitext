@@ -146,16 +146,14 @@ Un objet SheetMetal Extend est dérivé d'un objet [[Part_Feature/fr|Part Featur
 * {{PropertyData|Use Subtraction|Bool}} : utilise la soustraction. Par défaut : {{FALSE}}. Permet d'activer ou de désactiver la découpe des parois intersectées d'un même objet pour les onglets définis par l'esquisse liée.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
-|[[SheetMetal_AddWall/fr|Rebord]]
+|[[SheetMetal_AddHem/fr|Ourlet]]
 |[[SheetMetal_ExtendBySketch/fr|Étendre par une esquisse]]
 |[[SheetMetal_Workbench/fr|Atelier SheetMetal]]
-|IconL=SheetMetal_AddWall.svg
+|IconL=SheetMetal_AddHem.svg
 |IconR=SheetMetal_ExtendBySketch.svg
 |IconC=Sheetmetal_workbench_icon.svg
 }}
-</div>
 
 [[Category:SheetMetal{{#translation:}}]]
 [[Category:Addons{{#translation:}}]]
