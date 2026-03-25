@@ -187,14 +187,12 @@ Das Ziel dieses Artikels ist es, einige zurzeit fehlende Funktionen von FreeCAD 
 * Für Flächen eines [[PartDesign_Body/De|PartDesign Körpers]]: Die Eigenschaft Refine des letzten Formelements auf {{True}} setzen, wodurch möglicherweise nicht alle redundanten Flächen entfernt werden.
 * Für koplanare Flächen: Man verwendet [[Draft_Upgrade/de|Draft Hochstufen]] zweimal, um einen [[Draft_Wire/de|Draft Linienzug]] zu erhalten, und führt [[Draft_Downgrade/de|Draft Herunterstufen]] für den Linienzug durch, um eine Fläche zu erhalten
 
-<div class="mw-translate-fuzzy">
 |-
-| 20
+| 19
 | [[PartDesign_Point/de|Bezugspunkte]] aus Koordinaten
 |
 * Basis-[[PartDesign_Point/de|Bezugspunkte]] auf vorhandener Geometrie
 * [[PartDesign_Point/de|Bezugspunkte]] am Ursprung erstellen und ihre [[Placement/de|Positionierung]] nachher ändern
-</div>
 
 <div class="mw-translate-fuzzy">
 |-
