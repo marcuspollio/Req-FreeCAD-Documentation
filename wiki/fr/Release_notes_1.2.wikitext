@@ -15,10 +15,12 @@ Consultez l'[[Help_FreeCAD/fr|aide de FreeCAD]] pour savoir comment contribuer �
 
 Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [[Feature_list/fr#Notes_de_versions|liste des notes de versions]].
 
-L'endroit pour une image évocatrice sélectionnée par les administrateurs sur le [https://forum.freecad.org/viewforum.php?f=24 forum des modèles des utilisateurs].
-
 <span id="General"></span>
 ==Général==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* Multiple documents can now be edited simultaneously with independent tasks and undo/redo stacks, for example having two Sketches open at the same time (GSoC project). [https://github.com/FreeCAD/FreeCAD/pull/21978 Pull request #21978]
+</div>
 
 <span id="User_interface"></span>
 == Interface utilisateur ==
@@ -34,11 +36,21 @@ L'endroit pour une image évocatrice sélectionnée par les administrateurs sur 
 <span id="Core"></span>
 === Noyau ===
 
+<div class="mw-translate-fuzzy">
 {| cellpadding=5
 | [[File:AnnotationLabel_relnotes_1.2.png|384px]]
 | Une commande permettant d'ajouter une étiquette d'annotation au dernier point sélectionné dans la vue 3D a été ajoutée.
 [https://github.com/FreeCAD/FreeCAD/pull/23673 Pull request #23673]
 |}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:MassProperties_relnotes_1.2.png|384px]]
+| A new Mass Properties command has been added to calculate volume, mass, surface area, center of gravity, center of volume, and inertia for parts and assemblies, with support for custom reference frames and material-aware calculations.
+[https://github.com/FreeCAD/FreeCAD/pull/27347 Pull request #27347]
+|}
+</div>
 
 <span id="Further_Core_improvements"></span>
 === Autres améliorations du noyau ===
@@ -71,12 +83,14 @@ L'endroit pour une image évocatrice sélectionnée par les administrateurs sur 
 <span id="Further_Assembly_improvements"></span>
 === Autres améliorations d'Assembly ===
 
+<div class="mw-translate-fuzzy">
 * Des messages du solveur (rapports de surcontrainte) ont été ajoutés au panneau des tâches d'assemblage. [https://github.com/FreeCAD/FreeCAD/pull/24623 Pull request #24623]
+</div>
 
 <span id="BIM_Workbench"></span>
 == Atelier BIM ==
 
-ToDo (last check: 20260308):
+ToDo (last check: 20260318):
 * https://github.com/FreeCAD/FreeCAD/pull/24078
 * https://github.com/FreeCAD/FreeCAD/pull/24190
 * https://github.com/FreeCAD/FreeCAD/pull/24550
@@ -87,6 +101,8 @@ ToDo (last check: 20260308):
 * https://github.com/FreeCAD/FreeCAD/pull/27375
 * https://github.com/FreeCAD/FreeCAD/pull/27381
 * https://github.com/FreeCAD/FreeCAD/pull/27746
+* https://github.com/FreeCAD/FreeCAD/pull/28036
+* https://github.com/FreeCAD/FreeCAD/pull/28104
 
 <span id="Further_BIM_improvements"></span>
 === Autres améliorations de BIM ===
@@ -100,10 +116,12 @@ ToDo (last check: 20260308):
 <span id="Draft_Workbench"></span>
 == Atelier Draft ==
 
-ToDo (last check: 20260310):
+ToDo (last check: 20260318):
 * https://github.com/FreeCAD/FreeCAD/pull/26571
 * https://github.com/FreeCAD/FreeCAD/pull/26950
 * https://github.com/FreeCAD/FreeCAD/pull/27979
+* https://github.com/FreeCAD/FreeCAD/pull/27987
+* https://github.com/FreeCAD/FreeCAD/pull/28324
 
 <span id="Further_Draft_improvements"></span>
 === Autres améliorations de Draft ===
@@ -114,6 +132,7 @@ ToDo (last check: 20260310):
 <span id="Further_FEM_improvements"></span>
 === Autres améliorations de FEM ===
 
+<div class="mw-translate-fuzzy">
 * La [[Image:FEM_ConstraintElectricChargeDensity.svg|24px]] [[FEM_ElectricChargeDensity/fr|densité de charge électrique]] dispose désormais d'une case à cocher « Concentrée » dans le mode « Source totale » pour utiliser une charge concentrée au lieu d'une charge distribuée (ce qui la rend également applicable aux arêtes et aux sommets) avec CalculiX. [https://github.com/FreeCAD/FreeCAD/pull/25237 Pull request #25237]
 * Les [[Image:FEM_ResultShow.svg|24px]] [[FEM_ResultShow/fr|résultats de FEM]] prennent désormais en charge l'animation de demi-cycles en plus des cycles complets inversés. [https://github.com/FreeCAD/FreeCAD/pull/24129 Pull request #24129]
 * La fonction [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint/fr|Enregistrer les résultats par section]] prend désormais en charge les modèles 2D et le flux électrique dans les analyses électrostatiques. [https://github.com/FreeCAD/FreeCAD/pull/25081 Pull request #25081]
@@ -126,6 +145,7 @@ ToDo (last check: 20260310):
 * Toutes les commandes du solveur sont désormais toujours affichées (même si un solveur donné n'est pas installé) et sont regroupées dans la barre d'outils ainsi que dans le menu. L'icône par défaut dans la barre d'outils dépend du solveur par défaut sélectionné dans les préférences. [https://github.com/FreeCAD/FreeCAD/pull/28144 Pull request #28144]
 * Les attributions de matériaux sont désormais lues à partir des fichiers de résultats {{FileName|.frd}} de [[FEM_SolverCalculixCcxtools/fr|CalculiX]]. Ils ne sont pas encore accessibles dans FreeCAD, mais peuvent être visualisés dans ParaView après les avoir convertis au format {{FileName|.vtm}}. [https://github.com/FreeCAD/FreeCAD/pull/27847 Pull request #27847]
 * Les [[Image:FEM_MaterialMechanicalNonlinear.svg|24px]] [[FEM_MaterialMechanicalNonlinear/fr|matériaux mécaniques non linéaire]] sont désormais regroupés sous les [[Image:FEM_MaterialSolid.svg|24px]] [[FEM_MaterialSolid/fr|matériaux solides]]. Les propriétés ''Geometrical Nonlinearity'' et ''Material Nonlinearity'' sont désormais booléennes. La seconde est activée par défaut et n'est appliquée que si un matériau de l'analyse se voit attribuer un objet de matériau mécanique non linéaire. Dans le cas contraire, elle est ignorée. [https://github.com/FreeCAD/FreeCAD/pull/27862 Pull request #27862]
+</div>
 
 <span id="Inspection_Workbench"></span>
 == Atelier Inspection ==
@@ -157,8 +177,9 @@ ToDo (last check: 20260310):
 <span id="Part_Workbench"></span>
 == Atelier Part ==
 
-<span id="Further_Part_improvements"></span>
+<div class="mw-translate-fuzzy">
 === Autres améliorations de Part ===
+</div>
 
 <span id="Part_Design_Workbench"></span>
 == Atelier PartDesign ==
@@ -232,6 +253,12 @@ ToDo (last check: 20260310):
 
 <span id="Further_TechDraw_improvements"></span>
 === Autres améliorations de TechDraw ===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* Smooth edges in [[TechDraw_Workbench|TechDraw]] are now rendered with a thin line as required by ISO drawing standards. [https://github.com/FreeCAD/FreeCAD/pull/27747 Pull request #27747]
+* Section line font, font size, and arrow size in [[TechDraw_SectionView|TechDraw Section Views]] are now configurable per view via view properties. [https://github.com/FreeCAD/FreeCAD/pull/27521 Pull request #27521]
+* [[TechDraw_Workbench|TechDraw]] angle dimensions now support displaying the supplementary angle (180° minus the measured angle) via a view property. [https://github.com/FreeCAD/FreeCAD/pull/27055 Pull request #27055]
+</div>
 
 <span id="Import_and_export"></span>
 ==Importer et exporter ==
