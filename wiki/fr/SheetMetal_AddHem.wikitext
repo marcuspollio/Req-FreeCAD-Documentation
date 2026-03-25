@@ -128,9 +128,7 @@ Un objet SheetMetal Hem est dérivé d'un objet [[Part_Feature/fr|Part Feature]]
 <span id="Data"></span>
 ===Données===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Properties_Title|Parameters}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * {{PropertyData|Bend Type|Enumeration}}: "Bend Type". {{value|Material Outside}} (default), {{value|Material Inside}}, {{value|Thickness Outside}}.
