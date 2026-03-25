@@ -95,6 +95,7 @@ for key, value in texts.items():
 
 texts["FC-Title"] = "The title of my page"
 page.Template.EditableTexts = texts
+}}
 <translate>
 
 To edit individual fields the {{incode|setEditFieldContent}} method of the {{incode|Template}} can be used:
