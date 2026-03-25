@@ -37,9 +37,7 @@ Con bisColor le linee sulla linea originale vengono create con una linea bianca,
 
 ==Script==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-ToolBar Icon [[Image:Macro_Cut_Line.png]]
-</div>
+Icona barra degli strumenti [[Image:Macro_Cut_Line.png]]
 
 '''Macro_cutLine.FCMacro'''
 
@@ -126,9 +124,8 @@ Se la macro viene copiata nella console Python può essere utilizzata con:
 cutLine(4, createLine = 1, biColor = 1, createPoint = 0)
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Links==
-</div>
+<span id="Links"></span>
+==Link==
 
 <div class="mw-translate-fuzzy">
 ==Link==
