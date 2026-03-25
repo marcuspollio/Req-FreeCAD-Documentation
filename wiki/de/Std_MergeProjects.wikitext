@@ -36,10 +36,8 @@ Der Befehl '''Std ProjekteZusammenführen''' fügt den Inhalt einer FreeCAD-Date
 <span id="Notes"></span>
 ==Hinweise==
 
-<div class="mw-translate-fuzzy">
-* Ein Projekt nicht mit sich selbst zusammengeführt werden. Die Auswahl der aktuellen Datei ist nicht erlaubt.
+* Ein Dokument nicht mit sich selbst zusammengeführt werden. Die Auswahl der aktuellen Datei ist nicht erlaubt.
 * FreeCAD ändert automatisch die internen Namen und, abhängig von den [[Preferences_Editor/de#Dokument|Einstellungen]], die Benennungen der Objekte, um Konflikte zu vermeiden.
-</div>
 
 <span id="Scripting"></span>
 ==Skripten==
