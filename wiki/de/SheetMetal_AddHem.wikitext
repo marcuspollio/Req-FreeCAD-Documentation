@@ -170,13 +170,11 @@ und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen 
 
 {{Properties_Title|Parameters Relief}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{PropertyData|Relief Factor|Float}}: "Relief Factor". Default: {{value|0,70}}.
-* {{PropertyData|Use Relief Factor|Bool}}: "Use Relief Factor". Default: {{FALSE}}.
-* {{PropertyData|relief Type|Enumeration}}: "Relief Type". {{value|Rectangle}} (default), {{value|Round}}. Enabled only when a gap value is set.
-* {{PropertyData|reliefd|Length}}: "Relief Depth". Default: {{value|1,00 mm}}. Enabled only when a gap value is set.
-* {{PropertyData|reliefw|Length}}: "Relief Width". Default: {{value|0,80 mm}}. Enabled only when a gap value is set.
-</div>
+* {{PropertyData/de|Relief Factor|Float}}: "Relief Factor". Standardwert: {{value|0,70}}.
+* {{PropertyData/de|Use Relief Factor|Bool}}: "Use Relief Factor". Standardwert: {{FALSE}}.
+* {{PropertyData/de|relief Type|Enumeration}}: "Relief Type". {{value|Rectangle}} (standard), {{value|Round}}. Wird nur aktiviert, wenn ein Spaltwert angegeben wird.
+* {{PropertyData/de|reliefd|Length}}: "Relief Depth". Standardwert: {{value|1,00 mm}}. Wird nur aktiviert, wenn ein Spaltwert angegeben wird.
+* {{PropertyData/de|reliefw|Length}}: "Relief Width". Standardwert: {{value|0,80 mm}}. Wird nur aktiviert, wenn ein Spaltwert angegeben wird.
 
 
 {{Docnav/de
