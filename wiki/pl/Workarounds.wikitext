@@ -187,14 +187,12 @@ Celem tego artykułu jest zebranie obecnie brakujących funkcjonalności we Free
 * Dla powierzchni [[PartDesign_Body|zawartości środowiska Projekt Części]]: zmień właściwość Refine ostatniej operacji na {{True}}, może to nie usunąć wszystkich nadmiarowych powierzchni
 * Dla powierzchni współpłaszczyznowych: użyj narzędzia [[Draft_Upgrade/pl|Rysunek Roboczy: Ulepsz kształt]] dwukrotnie aby uzyskać [[Draft_Wire/pl|linię łamaną]], użyj narzędzia [[Draft_Downgrade/pl|Rysunek Roboczy: Rozbij kształt]] na linii łamanej aby uzyskać powierzchnię
 
-<div class="mw-translate-fuzzy">
 |-
-| 20
+| 19
 | [[PartDesign_Point/pl|Punkty odniesienia]] ze współrzędnych
 |
 * Opieraj [[PartDesign_Point/pl|punkty odniesienia]] na istniejącej geometrii
 * Twórz [[PartDesign_Point/pl|punkty odniesienia]] w środku układu współrzędnych a następnie zmieniaj ich [[Placement/pl|położenie]]
-</div>
 
 <div class="mw-translate-fuzzy">
 |-
