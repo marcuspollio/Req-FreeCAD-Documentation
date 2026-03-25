@@ -32,9 +32,7 @@ Kann aus dem Freecad Makro Editor verwendet werden.
 
 Du kannst die Standardwerte im Makro ändern.
 
-<div class="mw-translate-fuzzy">
-Mit bisColor werden die Linien auf der ursprünglichen Linie durch eine weiße Linie rote Linie weiße Linie .... erzeugt, die Farben sind im Code veränderbar, Zeile 20 und 23.
-</div>
+Mit biColor werden die Linien auf der ursprünglichen Linie als eine abwechselnd weiß und rote Linie erstellt. Die Farben können im Code angepasst werden; Zeile 20 und 23.
 
 <span id="Script"></span>
 ==Skript==
