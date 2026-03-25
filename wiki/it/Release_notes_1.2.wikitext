@@ -15,10 +15,12 @@ Consulta [[Help_FreeCAD/it|Aiuto FreeCAD]] per scoprire come contribuire a FreeC
 
 Le note di rilascio delle versioni precedenti di FreeCAD sono disponibili alla pagina [[Feature_list/it#Note_di_rilascio|Funzionalità]].
 
-Segnaposto per un'immagine accattivante selezionata dagli amministratori dal [https://forum.freecad.org/viewforum.php?f=24 forum delle vetrine degli utenti].
-
 <span id="General"></span>
 == Aspetti generali ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* Multiple documents can now be edited simultaneously with independent tasks and undo/redo stacks, for example having two Sketches open at the same time (GSoC project). [https://github.com/FreeCAD/FreeCAD/pull/21978 Pull request #21978]
+</div>
 
 <span id="User_interface"></span>
 == Interfaccia utente ==
@@ -36,11 +38,21 @@ Segnaposto per un'immagine accattivante selezionata dagli amministratori dal [ht
 <span id="Core"></span>
 === Sistema principale ===
 
+<div class="mw-translate-fuzzy">
 {| cellpadding=5
 | [[File:AnnotationLabel_relnotes_1.2.png|384px]]
 | È stato aggiunto un comando per aggiungere un'etichetta di Annotazione all'ultimo punto selezionato nella vista 3D.
 [https://github.com/FreeCAD/FreeCAD/pull/23673  Pull request #23673]
 |}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:MassProperties_relnotes_1.2.png|384px]]
+| A new Mass Properties command has been added to calculate volume, mass, surface area, center of gravity, center of volume, and inertia for parts and assemblies, with support for custom reference frames and material-aware calculations.
+[https://github.com/FreeCAD/FreeCAD/pull/27347 Pull request #27347]
+|}
+</div>
 
 <span id="Further_Core_improvements"></span>
 === Ulteriori miglioramenti del Sistema Principale ===
@@ -77,12 +89,13 @@ Segnaposto per un'immagine accattivante selezionata dagli amministratori dal [ht
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Solver messages (overconstraint reports) were added to the Assembly task panel. [https://github.com/FreeCAD/FreeCAD/pull/24623 Pull request #24623]
+* A new command has been added to select all joints associated with a chosen component. [https://github.com/FreeCAD/FreeCAD/pull/27530 Pull request #27530]
 </div>
 
 <span id="BIM_Workbench"></span>
 == Ambiente BIM ==
 
-ToDo (last check: 20260308):
+ToDo (last check: 20260318):
 * https://github.com/FreeCAD/FreeCAD/pull/24078
 * https://github.com/FreeCAD/FreeCAD/pull/24190
 * https://github.com/FreeCAD/FreeCAD/pull/24550
@@ -93,6 +106,8 @@ ToDo (last check: 20260308):
 * https://github.com/FreeCAD/FreeCAD/pull/27375
 * https://github.com/FreeCAD/FreeCAD/pull/27381
 * https://github.com/FreeCAD/FreeCAD/pull/27746
+* https://github.com/FreeCAD/FreeCAD/pull/28036
+* https://github.com/FreeCAD/FreeCAD/pull/28104
 
 <span id="Further_BIM_improvements"></span>
 === Ulteriori miglioramenti di BIM ===
@@ -106,10 +121,12 @@ ToDo (last check: 20260308):
 <span id="Draft_Workbench"></span>
 == Ambiente Draft ==
 
-ToDo (last check: 20260310):
+ToDo (last check: 20260318):
 * https://github.com/FreeCAD/FreeCAD/pull/26571
 * https://github.com/FreeCAD/FreeCAD/pull/26950
 * https://github.com/FreeCAD/FreeCAD/pull/27979
+* https://github.com/FreeCAD/FreeCAD/pull/27987
+* https://github.com/FreeCAD/FreeCAD/pull/28324
 
 <span id="Further_Draft_improvements"></span>
 === Ulteriori miglioramenti di Draft ===
@@ -132,7 +149,7 @@ ToDo (last check: 20260310):
 * The ''None Field Color'' property was added to the [[Image:FEM_PostPipelineFromResult.svg|24px]] [[FEM_PostPipelineFromResult|pipeline]] and filters to set the color when the displayed field is ''None'' (can be helpful e.g. when using the [[FEM_PostFilterGlyph|Glyph filter]]. [https://github.com/FreeCAD/FreeCAD/pull/28028 Pull request #28028]
 * All solver commands are now always shown (even if a given solver is not installed) and are grouped in the toolbar as well as in the menu. The default icon in the toolbar depends on the default solver selected in the Preferences. [https://github.com/FreeCAD/FreeCAD/pull/28144 Pull request #28144]
 * Material assignments are now read from the [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools|CalculiX's]] {{FileName|.frd}} results files. They can't be accessed in FreeCAD yet, but they can be visualized in ParaView upon conversion to {{FileName|.vtm}} format. [https://github.com/FreeCAD/FreeCAD/pull/27847 Pull request #27847]
-* The [[Image:FEM_MaterialMechanicalNonlinear.svg|24px]] [[FEM_MaterialMechanicalNonlinear|Non-linear mechanical material]] objects are now grouped under the [[Image:FEM_MaterialSolid.svg|24px]] [[FEM_MaterialSolid|Solid Material]] objects. The ''Geometrical Nonlinearity'' and ''Material Nonlinearity'' properties are now Boleean. The latter is enabled by default and only applied if any material in the analysis has a non-linear mechanical material object assigned to it. Otherwise, it is ignored. [https://github.com/FreeCAD/FreeCAD/pull/27862 Pull request #27862]
+* The [[Image:FEM_MaterialMechanicalNonlinear.svg|24px]] [[FEM_MaterialMechanicalNonlinear|Non-linear mechanical material]] objects are now grouped under the [[Image:FEM_MaterialSolid.svg|24px]] [[FEM_MaterialSolid|Solid Material]] objects. The ''Geometrical Nonlinearity'' and ''Material Nonlinearity'' properties are now Boolean. The latter is enabled by default and only applied if any material in the analysis has a non-linear mechanical material object assigned to it. Otherwise, it is ignored. [https://github.com/FreeCAD/FreeCAD/pull/27862 Pull request #27862]
 </div>
 
 <span id="Inspection_Workbench"></span>
@@ -167,8 +184,9 @@ ToDo (last check: 20260310):
 <span id="Part_Workbench"></span>
 == Ambiente Part ==
 
-<span id="Further_Part_improvements"></span>
+<div class="mw-translate-fuzzy">
 === Ulteriori miglioramenti di Part ===
+</div>
 
 <span id="Part_Design_Workbench"></span>
 == Ambiente Part Design ==
@@ -251,6 +269,12 @@ ToDo (last check: 20260310):
 
 <span id="Further_TechDraw_improvements"></span>
 === Ulteriori miglioramenti di TechDraw ===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* Smooth edges in [[TechDraw_Workbench|TechDraw]] are now rendered with a thin line as required by ISO drawing standards. [https://github.com/FreeCAD/FreeCAD/pull/27747 Pull request #27747]
+* Section line font, font size, and arrow size in [[TechDraw_SectionView|TechDraw Section Views]] are now configurable per view via view properties. [https://github.com/FreeCAD/FreeCAD/pull/27521 Pull request #27521]
+* [[TechDraw_Workbench|TechDraw]] angle dimensions now support displaying the supplementary angle (180° minus the measured angle) via a view property. [https://github.com/FreeCAD/FreeCAD/pull/27055 Pull request #27055]
+</div>
 
 <span id="Import_and_export"></span>
 == Importazione ed esportazione ==
