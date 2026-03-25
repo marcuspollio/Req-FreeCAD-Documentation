@@ -1,16 +1,14 @@
 {{UnfinishedDocu{{#translation:}}}}
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[SheetMetal_AddWall|AddWall]]
-|[[SheetMetal_Extrude|Extrude]]
-|[[SheetMetal_Workbench|SheetMetal]]
+{{Docnav/fr
+|[[SheetMetal_AddWall/fr|Rebord]]
+|[[SheetMetal_Extrude/fr|Prolonger une face]]
+|[[SheetMetal_Workbench/fr|Atelier SheetMetal]]
 |IconL=SheetMetal_AddWall.svg
 |IconR=SheetMetal_Extrude.svg
 |IconC=Sheetmetal_workbench_icon.svg
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommand
@@ -215,16 +213,14 @@ A SheetMetal '''Hem''' object is derived from a [[Part_Feature|Part Feature]] ob
 </div>
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[SheetMetal_AddWall|AddWall]]
-|[[SheetMetal_Extrude|Extrude]]
-|[[SheetMetal_Workbench|SheetMetal]]
+{{Docnav/fr
+|[[SheetMetal_AddWall/fr|Rebord]]
+|[[SheetMetal_Extrude/fr|Prolonger une face]]
+|[[SheetMetal_Workbench/fr|Atelier SheetMetal]]
 |IconL=SheetMetal_AddWall.svg
 |IconR=SheetMetal_Extrude.svg
 |IconC=Sheetmetal_workbench_icon.svg
 }}
-</div>
 
 [[Category:SheetMetal{{#translation:}}]]
 [[Category:Addons{{#translation:}}]]
