@@ -63,9 +63,7 @@ Zauważ, że ten tryb jest przeznaczony do użycia FreeCAD API bez GUI. Podczas 
 
 W przypadku korzystania z FreeCAD jako biblioteki języka Python w kontekście bez GUI (na przykład za pośrednictwem standardowego interpretera języka Python lub {{incode|FreeCADCmd}}), nie wszystkie moduły środowisk roboczych są automatycznie dostępne, nawet jeśli moduły podstawowe FreeCAD można pomyślnie zaimportować.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In particular, modules located in the {{incode|Mod/}} directory (such as PartDesign or submodules of Part) may not be discoverable by Python unless their paths are explicitly added to {{incode|sys.path}}. This can lead to situations where document objects are loaded as generic types (for example {{incode|GeoFeature}}) instead of their specific types (for example {{incode|PartDesign::Body}}), or where imports of workbench-related modules fail.
-</div>
+W szczególności moduły znajdujące się w katalogu {{incode|Mod/}} (takie jak Projekt Części lub podmoduły modułu Część) mogą nie być wykrywane przez Python, chyba że ich ścieżki zostaną wyraźnie dodane do {{incode|sys.path}}. Może to prowadzić do sytuacji, w których obiekty dokumentu są ładowane jako typy generyczne (na przykład {{incode|GeoFeature}}) zamiast ich typów konkretnych (na przykład {{incode|PartDesign::Body}}), lub w których import modułów związanych ze środowiskiem pracy kończy się niepowodzeniem.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To ensure full functionality, it may be necessary to manually extend the Python search path to include the FreeCAD {{incode|Mod/}} directory and, in some cases, specific subdirectories:
