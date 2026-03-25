@@ -1,5 +1,6 @@
 <languages/>
 __FORCETOC__
+
 == 歴史 ==
 [[File:Screenshot mesh.jpg|thumb|300px|初期のFreeCAD、バージョンは不明]]
 [[File:Part BooleanOperations.png|thumb|300px|2009年、FreeCAD第0.7版]]
@@ -146,6 +147,17 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 ! class="unsortable" style="background-color: #cccccc;"| gitコミット
 ! class="unsortable" style="background-color: #cccccc;"| gitブランチ
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+| style="background-color: #C1E6F5;"| 1.2
+| -
+| In development
+| [[Release_notes_1.2|Release notes 1.2]]
+| [https://github.com/FreeCAD/FreeCAD/commits/main head main]
+|
+</div>
+
+<div class="mw-translate-fuzzy">
 |-
 | style="background-color: #C1E6F5;"| 1.1
 | -
@@ -153,7 +165,9 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 | [[Release_notes_1.1/ja|リリースノート第1.1版]]
 | [https://github.com/FreeCAD/FreeCAD/commits/main head main]
 |
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | style="background-color: #D4F4B4;"| 1.0
 | BGBSWW
@@ -161,6 +175,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 | [[Release_notes_1.0/ja|リリースノート第1.0版]]
 | [https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-1-0 第1.0版リリースコミット]
 | [https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-1-0 第1.0版バグ修正ブランチ]
+</div>
 
 |-
 | style="background-color: #FDB3AB;"| 0.21
