@@ -55,6 +55,10 @@ The Sheet Metal tools are all located in the {{MenuCommand|Sheet Metal}} menu an
 
 * [[Image:SheetMetal_AddWall.svg|32px]] [[SheetMetal_AddWall/it|Make Wall]]: Aggiunge una flangia su ogni bordo selezionato di una piastra di base. (La flangia può essere trasformata in un risvolto modificando il suo angolo).
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:SheetMetal_AddHem.svg|32px]] [[SheetMetal_AddHem|Make Hem]]: Adds a hem on each selected edge of a base plate. (Similar to the above tool but with settings optimized for hem creation. - introduced in version 0.8.10)
+</div>
+
 <div class="mw-translate-fuzzy">
 * [[Image:SheetMetal_Extrude.svg|32px]] [[SheetMetal_Extrude/it|Extend Face]]: Estende una lastra di lamiera in corrispondenza di una faccia del bordo selezionata lungo la sua normale. (Aggiungendo uno schizzo di contorno può essere utilizzato per creare una geometria ad incastro.)
 </div>
