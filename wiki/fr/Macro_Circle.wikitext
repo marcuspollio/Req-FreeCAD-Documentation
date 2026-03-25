@@ -17,9 +17,7 @@
 
 Cette petite macro vous permet de créer un cercle en donnant comme argument différents paramètres comme le rayon, le diamètre, la circonférence, la surface, angle de départ, angle de fin, arc, angle central, corde, flèche, point au centre du cercle, placement de l'objet au choix. La nouveau cercle est créée dans les coordonnées réelles de l'objet et non dans celles du corps.<br/> {{ColoredText|(Ligne de commande, collez cette macro complète dans la console Python)}}.
 
-<div class="mw-translate-fuzzy">
-Le cercle fait toujours face à l'écran (avec la commande getCameraOrientation) (ou donner le placement)
-</div>
+Le cercle fait toujours face à l'écran (avec la commande getCameraOrientation) (ou donner le placement).
 
 <span id="Usage"></span>
 ==Utilisation==
