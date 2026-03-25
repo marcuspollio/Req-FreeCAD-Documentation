@@ -33,23 +33,21 @@ Ein '''Falz''' ein Falz besteht üblicherweise aus einem zylindrischen Bogen von
 <span id="Usage"></span>
 ==Anwendung==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select one or more edges of a solid shape.
-# There are several ways to invoke the command:
-#* Press the {{Button|[[Image:SheetMetal_AddHem.svg|16px]] [[SheetMetal_AddHem|Make Hem]]}} button.
-#* Select the {{MenuCommand|Sheet Metal → [[Image:SheetMetal_AddHem.svg|16px]] Make Hem}} option from the menu.
-#* Right-click in the [[Tree_View|Tree View]] or the [[3D_View|3D View]] and select the {{MenuCommand|Sheet Metal → [[Image:SheetMetal_AddHem.svg|16px]] Make Hem}} option from the context menu.
-#* Use the keyboard shortcut: {{KEY|Z}}.
-# A '''Hem''' object is created that consists of one new hem at each selected edge, and the '''Hem properties''' [[Task_Panel|Task Panel]] opens:
-#*With the '''General''' tab selected:
-#** Optionally press the {{Button|Select}} button to add more edges.
-#*** Optionally press the {{Button|Clear selection}} button to clear the list of selected edges.
-#*** Press the {{Button|Preview}} button to finish the selection and display the changes.
-#** Optionally adjust the bend parameters in this tab. See the [[#General|General]] section of the Task Panel description below
-#* Optionally switch to another tab to adjust more parameters. See [[#Offsets|Offsets]], or [[#Miter|Miter]], section of the Task Panel description below.
-# Press the {{Button|OK}} button to finish the command and close the Task Panel.
-# Optionally adjust the parameters in the [[Property_View|Property View]].
-</div>
+# Eine oder mehrere Kanten einer Festkörperform auswählen.
+# Es gibt mehrere Möhglichkeiten, den Befehl aufzurufen:
+#* Die Schaltfläche {{Button|[[Image:SheetMetal_AddHem.svg|16px]] [[SheetMetal_AddHem/de|Falz ansetzen]]}} drücken.
+#* Den Menüeintrag {{MenuCommand|Sheet Metal → [[Image:SheetMetal_AddHem.svg|16px]] Falz ansetzen}} auswählen
+#* EinRechtsklick in die [[Tree_View/de|Baumansiht]] oder die [[3D_View/de|3D-Ansicht]] und die Menüoption {{MenuCommand|Sheet Metal → [[Image:SheetMetal_AddHem.svg|16px]] Falz ansetzen}} im Kontextmenü auswählen.
+#* Das Tastaturkürzel {{KEY|Z}}.
+# Ein '''Hem'''-Objekt wird erstellt, das einen neuen Falz an jeder ausgewählten Kante (Flächenrand) enthält, und das [[Task_Panel/de|Aufgaben-Fenster]] '''Falzeigenschaften''' wird geöffnet:
+#*Mit ausgewähltem Reiter '''Allgemein''':
+#** Wahlweise die Schaltfläche {{Button|Select}} drücken, um weitere Kanten hinzuzufügen.
+#*** Wahlweise die Schaltfläche {{Button|Clear selection}} drücken, um die Liste der ausgewählten Kanten zu löschen
+#*** Die Schaltfläche {{Button|Preview}} drücken, um die Auswahl abzuschließen und die Änderungen anzuzeigen.
+#** Wahlweise die Parameter der Biegung in diesem Reiter anpassen. Siehe Abschnitt [[#General/de|Allgemein]] der Beschreibung des Aufgaben-Fensters weiter unten.
+#* Wahlweise zu einem anderen Reiter wechseln, um weitere Parameter einzustellen. Siehe die Abschnitte [[#Offsets|Abstände]] oder [[#Miter|Gehrung]] der Beschreibung des Aufgaben-Fensters weiter unten.
+# Die Schaltfläche {{Button|OK}} drücken, um den Befehl abzuschließen und das Aufgaben-Fenster zu schließen.
+# Wahlweise die Parameter in der [[Property_View/de|Eigenschaften-Ansicht]] anpassen.
 
 <span id="Task_Panel"></span>
 ===Aufgaben-Fenster===
