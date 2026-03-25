@@ -159,13 +159,11 @@ Un objet SheetMetal Hem est dérivé d'un objet [[Part_Feature/fr|Part Feature]]
 
 {{Properties_Title|Parameters Relief}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{PropertyData|Relief Factor|Float}}: "Relief Factor". Default: {{value|0,70}}.
-* {{PropertyData|Use Relief Factor|Bool}}: "Use Relief Factor". Default: {{FALSE}}.
-* {{PropertyData|relief Type|Enumeration}}: "Relief Type". {{value|Rectangle}} (default), {{value|Round}}. Enabled only when a gap value is set.
-* {{PropertyData|reliefd|Length}}: "Relief Depth". Default: {{value|1,00 mm}}. Enabled only when a gap value is set.
-* {{PropertyData|reliefw|Length}}: "Relief Width". Default: {{value|0,80 mm}}. Enabled only when a gap value is set.
-</div>
+* {{PropertyData|Relief Factor|Float}} : facteur de contre-dépouille. Valeur par défaut : {{value|0,70}}.
+* {{PropertyData|Use Relief Factor|Bool}} : utiliser le facteur de contre-dépouille. Valeur par défaut : {{FALSE}}.
+* {{PropertyData|relief Type|Enumeration}} : type de contre-dépouille. {{value|Rectangle}}. (par défaut), {{value|Round}}. Activé uniquement lorsqu'une valeur d'écart est définie.
+* {{PropertyData|reliefd|Length}} : profondeur de la contre-dépouille. Valeur par défaut : {{value|1,00 mm}}. Activé uniquement lorsqu'une valeur d'espace est définie.
+* {{PropertyData|reliefw|Length}} : largeur de la contre-dépouille. Valeur par défaut : {{value|0,80 mm}}. Activé uniquement lorsqu'une valeur d'espace est définie.
 
 
 {{Docnav/fr
