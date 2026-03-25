@@ -70,9 +70,7 @@ When using FreeCAD as a Python library in a headless context (for example via a 
 In particular, modules located in the {{incode|Mod/}} directory (such as PartDesign or submodules of Part) may not be discoverable by Python unless their paths are explicitly added to {{incode|sys.path}}. This can lead to situations where document objects are loaded as generic types (for example {{incode|GeoFeature}}) instead of their specific types (for example {{incode|PartDesign::Body}}), or where imports of workbench-related modules fail.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To ensure full functionality, it may be necessary to manually extend the Python search path to include the FreeCAD {{incode|Mod/}} directory and, in some cases, specific subdirectories:
-</div>
+Um die volle Funktionalität zu gewährleisten, kann es erforderlich sein, den Python-Suchpfad manuell um das FreeCAD-Verzeichnis {{incode|Mod/}} und in manchen Fällen um bestimmte Unterverzeichnisse zu erweitern:
 
 {{Code|code=
 import sys
