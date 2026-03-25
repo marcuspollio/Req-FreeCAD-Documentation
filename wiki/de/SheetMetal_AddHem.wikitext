@@ -21,9 +21,7 @@
 <span id="Description"></span>
 ==Beschreibung==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The [[Image:SheetMetal_AddHem.svg|24px]] '''SheetMetal AddHem''' command creates hems on selected edges. By changing the {{PropertyData|angle}} property a flange it can be turned into a hem.
-</div>
+Der Befehl [[Image:SheetMetal_AddHem.svg|24px]] [[SheetMetal_AddHem/de|Falz ansetzen]] erstellt Falze an ausgewählten Flächenrändern. Durch das Ändern der {{PropertyData/de|angle}} kann aus einer Kante ein Falz werden.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 A '''hem''' usually consists of a cylindrical bend of roughly 180° and a planar strip (wall).
