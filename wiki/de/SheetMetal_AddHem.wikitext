@@ -91,12 +91,13 @@ Ein vorhandenes Hem-Objekt in der [[Tree_View/de|Baumansicht]] doppelt anklicken
 
 [[Image:SheetMetal_AddHem-Task2.png|260px]]
 
+<div class="mw-translate-fuzzy">
 * '''Gap A''': Eingabe für die Eigenschaft '''gap1'''.
 * '''Gap B''': Eingabe für die Eigenschaft '''gap2'''.
 * Die Auswahlfelder '''Rechteck''' und '''Rund''': Schalten die Eigenschaft '''relief Type''' um.
 * '''Width''': Eingabe für die Eigenschaft '''reliefw'''.
 * '''Depth''': Eingabe für die Eigenschaft '''reliefd'''.
-
+</div>
 
 <span id="Miter"></span>
 ====Gehrung====
@@ -133,6 +134,7 @@ und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen 
 
 {{Properties_Title|Parameters}}
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Bend Type|Enumeration}}: "Bend Type". {{value|Material Outside}} (Standardwert), {{value|Material Inside}}, {{value|Thickness Outside}}.
 * {{PropertyData|Hem Type|Enumeration}}: "Type of Hem". {{value|Flat}} (Standardwert), {{value|Open}}, {{value|Teardrop}}, {{value|Rolled}}.
 * {{PropertyData|Include Bend|Bool}}: "Schenkellänge inklusive Bogengeometrie". Standardwert: {{FALSE}}.
@@ -143,13 +145,6 @@ und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen 
 * {{PropertyData|invert|Bool}}: "Invert Bend Direction". Biegerichtung umkehren. Standardwert: {{FALSE}}.
 * {{PropertyData|opened|Bool}}: "Opened Hem". Standardwert: {{FALSE}}.
 * {{PropertyData|opening|Length}}: "Openening of Hem". Standardwert: {{value|1,00 mm}}
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{PropertyData|radius|Length}}: "Bend Radius", the default value depends on the radius property of the parent feature: 
-** That property is not existent: This property is set to {{value|1,00 mm}}.
-** That property contains a numeric value: An expression linking that property is inserted into this property.
-** That property contains an expression: The expression is copied into this property.
-* {{PropertyData|width|Length}}: "Width of Wall". Default: {{value|10,00 mm}}.
 </div>
 
 {{Properties_Title|Parameters Ex}}
