@@ -85,7 +85,7 @@ texts["FC-Title"] = "The title of my page"
 page.Template.EditableTexts = texts
 }}
 
-Pour modifier chacun des champs, on peut utiliser la méthode {{incode|setEditFieldContent}} du {{incode|Template}} :
+Pour modifier chacun des champs, on peut utiliser la méthode {{incode|setEditFieldContent}} de {{incode|Template}} :
 
 {{Code|code=
 page.Template.setEditFieldContent("FC-Title", "Another title of my page")
