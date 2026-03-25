@@ -60,32 +60,30 @@ Ein vorhandenes Hem-Objekt in der [[Tree_View/de|Baumansicht]] doppelt anklicken
 [[Image:SheetMetal_AddHem-Task1.png|260px]]
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{Button|Select}}: Changes the amount of edges in the '''base Object''' property.
-* '''Type''': Sets the '''HemType''' property.
-** '''Flat''' activates these sub-options:
-*** '''Width''': Sets the '''width''' property.
-*** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Toggles the '''invert''' property.
-*** '''Width includes bend''': Toggles the '''Include Bend''' property.
-** '''Open''': activates these sub-options:
-*** '''Width''': Sets the '''width''' property.
-*** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Toggles the '''invert''' property.
-*** '''Width includes bend''': Toggles the '''Include Bend''' property.
-*** '''Opening''': Sets the '''opening''' property.
-** '''Tear Drop''': activates these sub-options:
-*** '''Width''': Sets the '''width''' property.
-*** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Toggles the '''invert''' property.
-*** '''Width includes bend''': Toggles the '''Include Bend''' property.
-*** '''Bend radius''': Sets the '''radius''' property.
-*** '''Open''': Toggles the '''opened''' property.
-**** '''Opening''': Sets the '''opening''' property.
-** '''Rolled''': activates these sub-options:
-*** '''Bend radius''': Sets the '''radius''' property.
-*** '''Open''': Toggles the '''opened''' property.
-**** '''Roll angle''': Sets the '''Roll Angle''' property.
-* '''Position''': Sets the '''Bend Type''' property.
-* '''Unfold''': Toggles the '''unfold''' property.
-</div>
+* {{Button|Auswählen}}: Ändert die Anzahl der Kanten in der Eigenschaft '''base Object'''.
+* '''Type''': Eingabe für die Eigenschaft '''Hem Type'''.
+** '''Flat''' Aktiviert diese untergeordneten Optionen:
+*** '''Width''': Eingabe für die Eigenschaft '''width'''.
+*** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Schaltet die Eigenschaft '''invert''' um.
+*** '''Width includes bend''': Schaltet die Eigenschaft '''Include Bend''' um.
+** '''Open''': Aktiviert diese untergeordneten Optionen:
+*** '''Width''': Eingabe für die Eigenschaft '''width'''.
+*** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Schaltet die Eigenschaft '''invert''' um.
+*** '''Width includes bend''': Schaltet die Eigenschaft '''Include Bend''' um.
+*** '''Opening''': Eingabe für die Eigenschaft '''opening'''.
+** '''Tear Drop''': Aktiviert diese untergeordneten Optionen:
+*** '''Width''': Eingabe für die Eigenschaft '''width'''.
+*** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Schaltet die Eigenschaft '''invert''' um.
+*** '''Width includes bend''': Schaltet die Eigenschaft '''Include Bend''' um.
+*** '''Bend radius''': Eingabe für die Eigenschaft '''radius'''.
+*** '''Open''': Schaltet die Eigenschaft '''opened''' um.
+**** '''Opening''': Eingabe für die Eigenschaft '''opening'''.
+** '''Rolled''': Aktiviert diese untergeordneten Optionen:
+*** '''Bend radius''': Eingabe für die Eigenschaft '''radius'''.
+*** '''Open''': Schaltet die Eigenschaft '''opened''' um.
+**** '''Roll angle''': Eingabe für die Eigenschaft '''Roll Angle'''.
+* '''Position''': Eingabe für die Eigenschaft '''Bend Type'''.
+* '''Unfold''': Schaltet die Eigenschaft '''unfold''' um.
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
