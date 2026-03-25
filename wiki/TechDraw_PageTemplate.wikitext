@@ -98,6 +98,7 @@ page.Template.EditableTexts = texts
 }}
 <translate>
 
+<!--T:25-->
 To edit individual fields the {{incode|setEditFieldContent}} method of the {{incode|Template}} can be used:
 
 </translate>
