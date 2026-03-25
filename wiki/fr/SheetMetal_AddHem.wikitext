@@ -38,7 +38,7 @@ Un '''ourlet''' se compose généralement d'un coude cylindrique d'environ 180°
 #* Sélectionnez l'option {{MenuCommand|SheetMetal → [[Image:SheetMetal_AddHem.svg|16px]] Créer un ourlet}} dans le menu.
 #* Cliquez avec le bouton droit de la souris dans l'[[Tree_View/fr|arborescence]] ou la [[3D_View/fr|vue 3D]] et sélectionnez l'option {{MenuCommand|SheetMetal → [[Image:SheetMetal_AddHem.svg|16px]] Créer un ourlet}} dans le menu contextuel.
 #* Utilisez le raccourci clavier : {{KEY|Z}}.
-# Un objet '''Hem''' est créé, composé d'un nouvel ourlet sur chaque bord sélectionné et le [[Task_Panel/fr|panneau des tâches]] '''Propriétés de l'ourlet''' s'ouvre :
+# Un objet '''Hem''' est créé, composé d'un nouvel ourlet sur chaque bord sélectionné/ Le [[Task_Panel/fr|panneau des tâches]] '''Propriétés de l'ourlet''' s'ouvre :
 #* Avec l'onglet '''Général''' sélectionné :
 #** Vous pouvez appuyer sur le bouton {{Button|Sélectionner}} pour ajouter d'autres bords.
 #*** Vous pouvez également appuyer sur le bouton {{Button|Effacer la sélection}} pour effacer la liste des bords sélectionnés.
