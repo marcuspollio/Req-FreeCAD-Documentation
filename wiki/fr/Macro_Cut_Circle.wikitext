@@ -22,15 +22,13 @@ Cette macro découpe les cercles ou les arcs en plusieurs arcs. Les arcs créés
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
-# Collez la macro '''cutCirle''' dans la [[Python_console/fr|console Python]].
+# Collez la macro '''cutCirle''' dans la [[Python_Console/fr|console Python]].
 # Appuyez sur {{KEY|Entrée}} (le code est maintenant en mémoire).
 # Sélectionnez un ou plusieurs cercles ou arcs.
 # Lancez la fonction {{Incode|cutCircle()}} avec 1 ou 2 arguments depuis la console Python :
 #* Exemple avec 1 argument : {{Incode|cutCircle(4)}}. Ceci créera 4 nouveaux arcs pour chaque cercle ou arc sélectionné et s'arrêtera là (pas de coloration).
 #* Exemple avec 2 arguments : {{Incode|cutCircle(6, 1)}}. Ceci créera 6 nouveaux arcs pour chaque cercle ou arc sélectionné, colorés alternativement en rouge et blanc comme indiqué dans l'image.
 # L'objet original n'est pas supprimé.
-</div>
 
 ==Script==
 
