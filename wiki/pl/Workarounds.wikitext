@@ -206,52 +206,40 @@ Celem tego artykułu jest zebranie obecnie brakujących funkcjonalności we Free
 |
 * Twórz kopuły ręcznie, sfery ''([[Part_Sphere/pl|środowiska Część]] lub [[PartDesign_AdditiveSphere/pl|Projekt Części]])'' z odpowiednio dobranymi parametrami mogą być wykorzystane do tworzenia prostych kopuł sferycznych
 
-<div class="mw-translate-fuzzy">
 |-
-| 23
+| 22
 | Wydłużanie powierzchni do innych powierzchni (przydatne np. przy uzyskiwaniu powierzchni środkowych, jak to zostało opisane wyżej)
 |
 * Użyj narzędzia [[Draft_Upgrade/pl|Rysunek Roboczy: Ulepsz kształt]] na powierzchni, która ma być wydłużona, rozciągnij odpowiednie krawędzie narzędziem [[Draft_Stretch/pl|Rysunek Roboczy: Rozciągnij]] i odtwórz powierzchnie używając [[Part_MakeFace/pl|Część: Utwórz ścianę z linii łamanych]]
-</div>
 
-<div class="mw-translate-fuzzy">
 |-
-| 24
+| 23
 | Wersje "fuzzy" [[Part_Workbench/pl#Pasek_narzędzi_Operacje_logiczne|operacji logicznych w środowisku Część]] (możliwość wprowadzenia tolerancji dla sumy boolowskiej i innych operacji)
 |
 * Dodatkowe środowisko [[Defeaturing_Workbench/pl|Defeaturing]]
-</div>
 
-<div class="mw-translate-fuzzy">
 |-
-| 25
+| 24
 | [[PartDesign_AdditiveLoft/pl|Projekt Części: Uzupełnianie wyciągnięciem przez profile]] i [[PartDesign_AdditivePipe/pl|Projekt Części: Uzupełnianie wyciągnięciem wzdłuż ścieżki]] z możliwością użycia otwartego profilu jako pierwszego lub ostatniego przekroju
 |
 * Alternatywne podejścia do modelowania, np. z użyciem [[PartDesign_Pad/pl|Projekt Części: Wyciągnij]]
-</div>
 
-<div class="mw-translate-fuzzy">
 |-
-| 26
+| 25
 | Narzędzie do [[Part_Sweep/pl|przeciągnięcia]] profilu kołowego o danej średnicy wzdłuż wskazanej ścieżki
 |
 * Rysuj profil kołowy ręcznie
-</div>
 
-<div class="mw-translate-fuzzy">
 |-
-| 27
+| 26
 | Opcjonalne wyświetlanie lokalnego układu współrzędnych dla [[PartDesign_Plane/pl|płaszczyzn konstrukcyjnych]]
 |
 * Umieść [[PartDesign_CoordinateSystem/pl|lokalny układ współrzędnych]] na płaszczyźnie konstrukcyjnej aby zobaczyć jej orientację
-</div>
 
 |}
 
 <span id="Draft_Workbench"></span>
-<div class="mw-translate-fuzzy">
-== Obejścia dla środowiska Rysunek Roboczy ==
-</div>
+== Środowisko Rysunek Roboczy ==
 
 {| class="wikitable"
 |-
@@ -304,9 +292,7 @@ Celem tego artykułu jest zebranie obecnie brakujących funkcjonalności we Free
 |}
 
 <span id="TechDraw_Workbench"></span>
-<div class="mw-translate-fuzzy">
-== Obejścia dla środowiska Rysunek Techniczny ==
-</div>
+== Środowisko Rysunek Techniczny ==
 
 {| class="wikitable"
 |-
@@ -381,9 +367,7 @@ Celem tego artykułu jest zebranie obecnie brakujących funkcjonalności we Free
 |}
 
 <span id="FEM_Workbench"></span>
-<div class="mw-translate-fuzzy">
-== Obejścia dla środowiska MES ==
-</div>
+== Środowisko MES ==
 
 {| class="wikitable"
 |-
@@ -465,22 +449,18 @@ Celem tego artykułu jest zebranie obecnie brakujących funkcjonalności we Free
 * [https://github.com/realthunder/FreeCAD/releases wersja Link Branch]
 * Renderowanie w zewnętrznym oprogramowaniu, takim jak np. [https://www.blender.org/ Blender]
 
-<div class="mw-translate-fuzzy">
 |-
-| 3
+| 2
 | Konsekwentna kolejność wskazywania - niektóre narzędzia wymagają najpierw wskazania geometrii a inne pozwalają na jej wybór dopiero po uruchomieniu narzędzia
 |
 * Brak znanego obejścia
-</div>
 
-<div class="mw-translate-fuzzy">
 |-
-| 4
+| 3
 | Więcej opcji personalizacji interfejsu - menu kołowe, inne style ikon, motywy itd.
 |
 * Różne pakiety personalizujące tworzone przez społeczność
 * [https://github.com/realthunder/FreeCAD/releases wersja Link Branch]
-</div>
 
 <div class="mw-translate-fuzzy">
 |-
