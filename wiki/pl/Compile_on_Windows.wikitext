@@ -10,6 +10,7 @@
 <span id="Compilation_with_Pixi"></span>
 = Kompilacja z Pixi =
 
+<div class="mw-translate-fuzzy">
 Obecnie najprostszym i najszybszym sposobem na skompilowanie programu FreeCAD jest użycie [https://pixi.sh/latest/ Pixi]. To narzędzie automatycznie zapewnia wszystkie zależności. Szczegóły można znaleźć w [https://freecad.github.io/DevelopersHandbook/gettingstarted/ Podręczniku dewelopera]. Następujące kroki są konieczne dla systemu Windows:
 # Pobierz i zainstaluj [https://visualstudio.microsoft.com/pl/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false MS Visual Studio 2022 Community Edition], uwzględniając "Programowanie aplikacji klasycznych w języku C++".
 # Zainstaluj Pixi przy pomocy następującego polecenia w PowerShell:‎<br/>{{Code|code=iwr -useb https://pixi.sh/install.ps1 {{!}} iex}}
@@ -17,6 +18,7 @@ Obecnie najprostszym i najszybszym sposobem na skompilowanie programu FreeCAD je
 # Z poziomu folderu ''FreeCAD-src'' ze sklonowanym repozytorium FreeCAD, uruchom PowerShell i wpisz:<br/>{{Code|code=pixi run configure}}
 # Uruchom kompilację z tego samego okna PowerShell za pomocą:<br/>{{Code|code=pixi run build}}
 # Po zakończeniu kompilacji, wprowadź następujące polecenie w PowerShell:<br/>{{Code|code=pixi run freecad}}
+</div>
 
 Nie trzeba ponownie uruchamiać polecenia configure, ponieważ będzie ono automatycznie uruchamiane przez ''pixi run build'' w razie potrzeby. Jednak jeśli podmoduł git zostanie dodany lub zaktualizowany, użyj polecenia ''pixi run initialize''.
 
