@@ -140,7 +140,7 @@ Un objet SheetMetal Hem est dérivé d'un objet [[Part_Feature/fr|Part Feature]]
 * {{PropertyData|invert|Bool}} : inverser le sens de la courbure. Par défaut : {{FALSE}}.
 * {{PropertyData|opened|Bool}} : ourlet ouvert. Par défaut : {{FALSE}}.
 * {{PropertyData|opening|Length}} : ouverture de l'ourlet. Valeur par défaut : {{value|1,00 mm}}
-* {{PropertyData|radius|Length}} : rayon de courbure. La valeur par défaut dépend de la propriété radius de l'élément parent : 
+* {{PropertyData|radius|Length}} : rayon de courbure. La valeur par défaut dépend de la propriété radius de l'élément parent.
 * {{PropertyData|width|Length}} : épaisseur de la paroi. Valeur par défaut : {{value|10,00 mm}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
