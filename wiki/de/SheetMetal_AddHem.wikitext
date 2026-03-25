@@ -91,13 +91,11 @@ Ein vorhandenes Hem-Objekt in der [[Tree_View/de|Baumansicht]] doppelt anklicken
 
 [[Image:SheetMetal_AddHem-Task2.png|260px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Gap A''': Sets the '''gap1''' property.
-* '''Gap B''': Sets the '''gap2''' property.
-* '''Rectangle''' and '''Round''' radio buttons:  Toggle '''relief Type''' property.
-* '''Width''': Sets the '''reliefw''' property.
-* '''Depth''': Toggles the '''reliefd''' property.
-</div>
+* '''Gap A''': Eingabe für die Eigenschaft '''gap1'''.
+* '''Gap B''': Eingabe für die Eigenschaft '''gap2'''.
+* Die Auswahlfelder '''Rechteck''' und '''Rund''': Schalten die Eigenschaft '''relief Type''' um.
+* '''Width''': Eingabe für die Eigenschaft '''reliefw'''.
+* '''Depth''': Eingabe für die Eigenschaft '''reliefd'''.
 
 
 <span id="Miter"></span>
