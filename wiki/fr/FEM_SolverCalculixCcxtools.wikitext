@@ -50,7 +50,9 @@ Cliquer sur le bouton {{Button|Editer le fichier .inp}} pour afficher et éditer
 <span id="Properties"></span>
 ==Propriétés==
 
+<div class="mw-translate-fuzzy">
 Cette section a été mise à jour pour la version 1.1.
+</div>
 
 Les valeurs par défaut peuvent être définies dans le menu {{MenuCommand|Édition → Préférences → FEM → CalculiX}}.
 
@@ -69,10 +71,6 @@ Les valeurs par défaut peuvent être définies dans le menu {{MenuCommand|Édit
 * {{PropertyData|Beam Reduced Integration}} {{Version/fr|1.0}} :
 ** true : utilise des éléments de type poutre avec intégration réduite (B31R ou B32R), requis lorsqu'une section de type poutre tubulaire est utilisée, peut également permettre d'obtenir [https://forum.freecad.org/viewtopic.php?t=61233 des résultats précis avec la plasticité].
 ** false : utilise des éléments réguliers de type poutre (entièrement intégrés).
-
-* {{PropertyData|Beam Shell Result Output 3D}} : notez que CalculiX développe en interne les éléments 1D et 2D en éléments 3D pour réaliser l'analyse d'éléments finis.
-** true : le maillage résultant contiendra des éléments 1D et 2D développés en éléments 3D.
-** false : les résultats des éléments 1D et 2D seront moyennés aux noeuds du maillage 1D ou 2D d'origine (c'est-à-dire qu'un modèle de type poutre entièrement plié affichera 0 de contrainte nodale due à la mise en moyenne).
 
 * {{PropertyData|Buckling Accuracy}} : définit la précision de l'évaluation des valeurs propres de flambement. Dans la plupart des cas, la valeur par défaut (0.01) peut être laissée, mais il peut parfois être nécessaire de l'abaisser (par exemple à 0.0001) pour capturer la première valeur propre. {{Version/fr|1.1}}
 
@@ -122,6 +120,10 @@ Les valeurs par défaut peuvent être définies dans le menu {{MenuCommand|Édit
 ** Contraintes planes : des éléments solides 2D de contraintes planes sont utilisés.
 ** Déformation plane : des éléments solides 2D de déformation plane sont utilisés.
 ** Axisymétrique : des éléments solides 2D axisymétriques sont utilisés.
+
+* {{PropertyData|Output 3d}}: note that CalculiX internally expands 1D and 2D elements into 3D elements to accomplish finite element analysis
+** true - resulting mesh will contain 1D and 2D elements expanded to 3D elements
+** false - results of 1D and 2D elements will be averaged to the nodes of the original 1D or 2D mesh (i.e. a purely bent beam will show 0 nodal stresses due to averaging)
 
 * {{PropertyData|Output Frequency}} : définit la fréquence d'écriture des résultats par incréments (le réglage par défaut de 1 signifie que les résultats sont écrits à chaque incrément, le réglage 2 sauvegarde les résultats tous les 2 incréments et ainsi de suite), particulièrement utile pour les simulations non linéaires et transitoires, aide à réduire l'encombrement dans l'arborescence puisque actuellement une paire d'objets de résultats (CCX_Results et Pipeline_CCX_Results) est créée pour chaque trame de résultats. {{Version/fr|1.0}}
 
