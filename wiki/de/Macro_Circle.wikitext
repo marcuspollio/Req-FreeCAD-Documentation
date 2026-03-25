@@ -22,10 +22,7 @@ Der Kreis wird weiterhin auf den Bildschirm ausgerichtet (mit getCameraOrientati
 <span id="Usage"></span>
 ==Anwendung==
 
-<div class="mw-translate-fuzzy">
-Den Code kopieren und in die Python-Konsole von FreeCAD einfügen. Der Befehl wird ständig verwendet, um FreeCAD zu öffnen.
-Den Parameter der Wahl eingeben:
-</div> 
+Den Code kopieren und in die Python-Konsole von FreeCAD einfügen. Der Befehl wird ständig verwendet, um FreeCAD zu öffnen. Den Parameter der Wahl eingeben: 
 
 * '''x y z''' : Koordinaten des Kreises, wenn keine Koordinaten angegeben sind, wird der Kreis am Punkt 0,0,0 erstellt.
 *'''radius''' : Kreisradius
