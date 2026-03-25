@@ -18,15 +18,13 @@ Die FreeCAD-Oberfläche basiert auf dem modernen [https://en.wikipedia.org/wiki/
 <span id="Usage"></span>
 ==Anwendung==
 
-<div class="mw-translate-fuzzy">
 # Die im Dialogfeld Benutzerdefiniert verfügbaren Befehle hängen von den Arbeitsbereichen ab, die in der aktuellen FreeCAD-Sitzung geladen wurden. Es sollten also zunächst alle Arbeitsbereiche geladen werden, auf deren Befehle zugegriffen werden soll.
 # Es gibt mehrere Wege, das Dialogfeld [[Std_DlgCustomize/de|Benutzerdefiniert]] aufzurufen:
-#* Den Menüeintrag  {{MenuCommand|Werkzeuge → [[Image:Std_DlgCustomize.svg|16px]] Benutzerdefiniert...}} auswählen.
-#* Einen Werkzeugleistenbereich mit der rechten Maustaste anklicken und im Kontextmenü {{MenuCommand|[[Image:Std_DlgCustomize.svg|16px]] Benutzerdefiniert...}} auswählen.
+#* Den Menüeintrag  {{MenuCommand|Werkzeuge → [[Image:Std_DlgCustomize.svg|16px]] Benutzerdefiniert}} auswählen.
+#* Einen Werkzeugleistenbereich mit der rechten Maustaste anklicken und im Kontextmenü {{MenuCommand|[[Image:Std_DlgCustomize.svg|16px]] Benutzerdefiniert}} auswählen.
 # Das Dialogfeld '''Anpassen''' öffnet sich. Für weitere Informationen siehe [[#Optionen|Optionen]].
 # Die Schaltfläche {{Button|Hilfe}} funktioniert zurzeit nicht.
 # Die Schaltfläche {{Button|Schließen}} drücken, um das Dialogfeld zu schließen.
-</div>
 
 <span id="Options"></span>
 ==Optionen==
