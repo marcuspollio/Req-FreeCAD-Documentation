@@ -219,12 +219,10 @@ Wenn kein Spaceball erkannt wurde, ist dieser Reiter leer. Siehe: [[3Dconnexion_
 
 FreeCAD unterstützt die vollständige Individualisierung der Oberfläche durch .qss-Stylesheets. Das [https://doc.qt.io/qt-5/stylesheet-syntax.html qss-Format] ist dem in Webseiten verwendeten [https://en.wikipedia.org/wiki/CSS css-Format] sehr ähnlich, es fügt im Grunde Methoden hinzu, um die verschiedenen Widgets und Elemente der Qt-Oberfläche zu referenzieren. Das Standardthema (das einfach den vom Desktopsystem definierten Stil übernimmt) kann angepasst werden, indem ein '''Stylesheet''' in den [[Preferences_Editor/de#Allgemein|FreeCAD-Voreinstellungen]] ausgewählt wird.
 
-<div class="mw-translate-fuzzy">
 Es kann auch ein eigenes Thema erstellt werden, wenn man mit den Themen, die FreeCAD mitgeliefert, nicht zufrieden ist, z.B. indem ein [https://github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets existierendes Stylesheet] bearbeitet wird. Das neue Aussehen (style) muss in einem bestimmten Ordner abgelegt werden, damit es von FreeCAD gefunden wird:
-* {{FileName|%APPDATA%/FreeCAD/Gui/Stylesheets}} (unter Windows). Der Ordner {{FileName|%APPDATA%}} kann durch Eingabe von {{Incode|App.getUserAppDataDir()}} in der [[Python_console/de|Python-Konsole]] abgerufen werden.
+* {{FileName|%APPDATA%/FreeCAD/Gui/Stylesheets}} (unter Windows). Der Ordner {{FileName|%APPDATA%}} kann durch Eingabe von {{Incode|App.getUserAppDataDir()}} in der [[Python_Console/de|Python-Konsole]] abgerufen werden.
 * {{FileName|$HOME/.FreeCAD/Gui/Stylesheets}} (unter Linux).
 * {{FileName|$HOME/Library/Application Support/FreeCAD/Gui/Stylesheets}} (unter macOS).
-</div>
 {{Top}}
 ==Addons==
 
