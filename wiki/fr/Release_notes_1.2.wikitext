@@ -247,7 +247,7 @@ ToDo (last check: 20260318):
 <span id="Further_TechDraw_improvements"></span>
 === Autres améliorations de TechDraw ===
 
-* Les arêtes lissées dans [[TechDraw_Workbench/fr|TechDraw]] sont désormais représentées par une ligne fine, conformément aux normes de dessin ISO. [https://github.com/FreeCAD/FreeCAD/pull/27747 Pull request #27747]
+* Les arêtes arrondies dans [[TechDraw_Workbench/fr|TechDraw]] sont désormais représentées par une ligne fine, conformément aux normes de dessin ISO. [https://github.com/FreeCAD/FreeCAD/pull/27747 Pull request #27747]
 * La police, la taille de police et la taille des flèches des lignes des coupes dans [[TechDraw_SectionView/fr|TechDraw Vue en coupe]] sont désormais configurables pour chaque vue via les propriétés de vue. [https://github.com/FreeCAD/FreeCAD/pull/27521 Pull request #27521]
 * Les cotes angulaires de [[TechDraw_Workbench/fr|TechDraw]] prennent désormais en charge l'affichage de l'angle supplémentaire (180° moins l'angle mesuré) via une propriété de vue. [https://github.com/FreeCAD/FreeCAD/pull/27055 Pull request #27055]
 
