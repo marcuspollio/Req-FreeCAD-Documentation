@@ -171,9 +171,8 @@ ToDo (last check: 20260318):
 <span id="Part_Workbench"></span>
 == Atelier Part ==
 
-<div class="mw-translate-fuzzy">
 === Autres améliorations de Part ===
-</div>
+* Une nouvelle méthode a été ajoutée pour diviser une courbe B-spline en deux courbes à un paramètre donné. [https://github.com/FreeCAD/FreeCAD/pull/26716 Pull request #26716]
 
 <span id="Part_Design_Workbench"></span>
 == Atelier PartDesign ==
