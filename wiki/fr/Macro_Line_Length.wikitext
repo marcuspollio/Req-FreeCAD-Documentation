@@ -21,9 +21,7 @@ Cette petite macro permet de tracer une ligne à partir des coordonnées XYZ, de
 
 Peut être utilisée dans l'éditeur de macro de FreeCAD.
 
-<div class="mw-translate-fuzzy">
 Les valeurs par défaut sont : x1 = 0, y1 = 0, z1 = 0, length = 10, angle = 0.
-</div>
 
 ==Script==
 
