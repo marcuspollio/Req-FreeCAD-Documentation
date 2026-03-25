@@ -31,9 +31,7 @@ Può essere usata nell'editor delle macro di FreeCAD.
 *'''biColor''' : crea linee bicolore (>0) oppure no (0) (Defaut 0)
 
 
-<div class="mw-translate-fuzzy">
-è possibile modificare i valori di default nella macro.
-</div>
+È possibile modificare i valori predefiniti nella macro.
 
 <div class="mw-translate-fuzzy">
 Con bisColor sulla linea originale vengono create delle linee rosse e bianche .... i colori sono modificabili nel codice alle righe 20 e 23.
