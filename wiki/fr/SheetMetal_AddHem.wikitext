@@ -152,14 +152,10 @@ Un objet SheetMetal Hem est dérivé d'un objet [[Part_Feature/fr|Part Feature]]
 * {{PropertyData|min Relief Gap|Length}} : écart minimum pour le grugeage. Par défaut : {{value|1,00 mm}}.
 * {{PropertyData|unfold|Bool}} : affiche la vue dépliée du pliage en cours. Par défaut : {{FALSE}}</br>{{TRUE}} déplie le pliage.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Properties_Title|Parameters Miterangle}}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{PropertyData|miterangle1|Angle}}: "Bend Miter Angle from Left Side". Default angle: {{value|0,00°}}.
-* {{PropertyData|miterangle2|Angle}}: "Bend Miter Angle from Right Side". Default angle: {{value|0,00°}}.
-</div>
+* {{PropertyData|miterangle1|Angle}} : angle de l'onglet de pliage depuis le côté gauche. Angle par défaut : {{value|0,00°}}.
+* {{PropertyData|miterangle2|Angle}} : angle de l'onglet de pliage depuis le côté droit. Angle par défaut : {{value|0,00°}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Properties_Title|Parameters Relief}}
