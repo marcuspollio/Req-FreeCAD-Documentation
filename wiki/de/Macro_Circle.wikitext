@@ -17,9 +17,7 @@
 
 Dieses kleine Makro erstellt einen Kreis oder Bogen mit Radius, Durchmesser, Umfang, Fläche, Startwinkel, Endwinkel, Bogen, Winkelzentrum, Sehne, Pfeil, Mittelpunkt (Punkt) und placemObject nach Wahl. Der neue Kreis wird in den realen Koordinaten des Objekts erstellt, nicht in den Koordinaten des Körpers. <br/>{{ColoredText|(Befehlszeile, fügen Sie dieses vollständige Makro in die Python-Konsole ein)}}.
 
-<div class="mw-translate-fuzzy">
-Der Kreis ist weiterhin auf den Bildschirm ausgerichtet (mit getCameraOrientation) (oder die Platzierung angeben).
-</div>
+Der Kreis wird weiterhin auf den Bildschirm ausgerichtet (mit getCameraOrientation) (oder es wird eine Positionierung eingegeben).
 
 <span id="Usage"></span>
 ==Anwendung==
