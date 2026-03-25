@@ -172,9 +172,8 @@ ToDo (last check: 20260318):
 <span id="Part_Workbench"></span>
 == Arbeitsbereich Part ==
 
-<div class="mw-translate-fuzzy">
 === Weitere Part-Verbesserungen ===
-</div>
+* Eine neue Methode wurde hinzugefügt, um eine B-Spline-Kurve an einem gegebenen Parameter in zwei Kurven aufzutrennen. [https://github.com/FreeCAD/FreeCAD/pull/26716 Pull-Request #26716]
 
 <span id="Part_Design_Workbench"></span>
 == Arbeitsbereich Part Design ==
