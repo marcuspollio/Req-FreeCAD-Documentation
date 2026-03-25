@@ -83,9 +83,7 @@ Dokładne ścieżki zależą od platformy i sposobu instalacji.
 
 Ta ręczna konfiguracja gwarantuje, że moduły środowiska pracy można zaimportować, obiekty dokumentów są odtwarzane z zachowaniem właściwych typów, a dodatkowe narzędzia języka Python dołączone do środowisk pracy stają się dostępne.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Note that the FreeCAD GUI environment performs this initialization automatically. In headless usage, however, this step must be handled explicitly by the user.
-</div>
+Należy pamiętać, że środowisko graficzne FreeCAD wykonuje tę inicjalizację automatycznie. Jednak w przypadku korzystania z programu w trybie bez GUI użytkownik musi wykonać ten krok samodzielnie.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 See [[Embedding_FreeCAD|Embedding FreeCAD]].
