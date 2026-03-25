@@ -12,9 +12,7 @@ Questa pagina riguarda il sistema di dati dei materiali in FreeCAD.
 
 Attualmente è in fase di revisione per riflettere i cambiamenti apportati al sistema Material attualmente in fase di sviluppo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 == Abstract ==
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In a departure from how it was implemented in previous versions, materials are no longer implemented as a simple dictionary. The previous system had the advantage of simplicity, with the disadvantage of a limited range when describing material properties.
