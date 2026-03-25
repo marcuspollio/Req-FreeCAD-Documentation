@@ -65,9 +65,7 @@ W przypadku korzystania z FreeCAD jako biblioteki języka Python w kontekście b
 
 W szczególności moduły znajdujące się w katalogu {{incode|Mod/}} (takie jak Projekt Części lub podmoduły modułu Część) mogą nie być wykrywane przez Python, chyba że ich ścieżki zostaną wyraźnie dodane do {{incode|sys.path}}. Może to prowadzić do sytuacji, w których obiekty dokumentu są ładowane jako typy generyczne (na przykład {{incode|GeoFeature}}) zamiast ich typów konkretnych (na przykład {{incode|PartDesign::Body}}), lub w których import modułów związanych ze środowiskiem pracy kończy się niepowodzeniem.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To ensure full functionality, it may be necessary to manually extend the Python search path to include the FreeCAD {{incode|Mod/}} directory and, in some cases, specific subdirectories:
-</div>
+Aby zapewnić pełną funkcjonalność, konieczne może być ręczne rozszerzenie ścieżki wyszukiwania języka Python o katalog FreeCAD {{incode|Mod/}} oraz, w niektórych przypadkach, o określone podkatalogi:
 
 {{Code|code=
 import sys
