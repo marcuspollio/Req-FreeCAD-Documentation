@@ -87,10 +87,9 @@ Double-click an existing Hem object in the [[Tree_View|Tree View]] to re-open th
 
 * '''Gap A''': Sets the '''gap1''' property.
 * '''Gap B''': Sets the '''gap2''' property.
-* '''Rectangle''' and '''Round''' radio buttons:  Toggle '''relief Type''' property.
+* '''Rectangle''' and '''Round''' radio buttons:  Toggle the '''relief Type''' property.
 * '''Width''': Sets the '''reliefw''' property.
-* '''Depth''': Toggles the '''reliefd''' property.
-
+* '''Depth''': Sets the '''reliefd''' property.
 
 ====Miter====
 
@@ -132,11 +131,7 @@ A SheetMetal '''Hem''' object is derived from a [[Part_Feature|Part Feature]] ob
 * {{PropertyData|invert|Bool}}: "Invert Bend Direction". Default: {{FALSE}}.
 * {{PropertyData|opened|Bool}}: "Opened Hem". Default: {{FALSE}}.
 * {{PropertyData|opening|Length}}: "Openening. of Hem". Default: {{value|1,00 mm}}
-
 * {{PropertyData|radius|Length}}: "Bend Radius", the default value depends on the radius property of the parent feature: 
-** That property is not existent: This property is set to {{value|1,00 mm}}.
-** That property contains a numeric value: An expression linking that property is inserted into this property.
-** That property contains an expression: The expression is copied into this property.
 * {{PropertyData|width|Length}}: "Width of Wall". Default: {{value|10,00 mm}}.
 
 {{Properties_Title|Parameters Ex}}
