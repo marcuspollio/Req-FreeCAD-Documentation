@@ -514,23 +514,16 @@ The goal of this article is to list some currently missing features in FreeCAD a
 * [https://github.com/realthunder/FreeCAD/releases Link Branch]
 * Rendering in external software such as [https://www.blender.org/ Blender]
 
-<!--T:73-->
-|-
-| 2
-| [[Status_bar|Status bar]] instructions (“Now pick this …”) for many tools that would benefit from them (e.g. [[Sketcher_Workbench#Sketcher_constraints|Sketcher constraints]]), more informative tooltips
-|
-* [[Main_Page|Wiki documentation]]
-
 <!--T:74-->
 |-
-| 3
+| 2
 | Consistent selection order - some tools require the user to pick the geometric entity first while others allow selection after enabling the tool
 |
 * No known workaround
 
 <!--T:75-->
 |-
-| 4
+| 3
 | More GUI customization options - pie menus, different icon styles and themes and so on
 |
 * Various customization packages created by the community
@@ -538,49 +531,42 @@ The goal of this article is to list some currently missing features in FreeCAD a
 
 <!--T:112-->
 |-
-| 5
-| Advanced selection tools: selection by angle, inverting selection, selecting inside faces and so on
+| 4
+| Advanced selection tools: selection by angle, inverting selection, improved filters and box selection, and so on
 |
 * Manual selection
 
 <!--T:77-->
 |-
-| 6
+| 5
 | [[Assembly|Assembly]] workbench with an option to constrain parts to the origin and to [[Datum|datums]]
 |
 * No known workaround
 
-<!--T:78-->
-|-
-| 7
-| [[Std_TransformManip|Transform]] tool with an option to move and rotate with respect to edges and global coordinates
-|
-* Add-on [[Manipulator_Workbench|Manipulator Workbench]]
-
 <!--T:79-->
 |-
-| 8
+| 6
 | More texturing options
 |
 * No known workaround
 
 <!--T:81-->
 |-
-| 9
+| 7
 | Highlight only the individual PartDesign feature in the [[3D_view|3D view]] when the corresponding operation is selected in the [[Tree_view|Tree view]]
 |
 * No known workaround
 
 <!--T:82-->
 |-
-| 10
+| 8
 | Select only the individual PartDesign feature in the [[Tree_view|Tree view]] when a corresponding element is selected in the [[3D_view|3D view]].
 |
 * No known workaround
 
 <!--T:83-->
 |-
-| 11
+| 9
 | Freeform modeling
 |
 * Model complex shapes in a "traditional" way - e.g. using add-on [[Curves_Workbench|Curves]] and [[CurvedShapes_Workbench|CurvedShapes]] workbenches
@@ -588,7 +574,7 @@ The goal of this article is to list some currently missing features in FreeCAD a
 
 <!--T:84-->
 |-
-| 12
+| 10
 | Assembly component generators and calculators for: bolted and riveted connections, shafts, splines, keys, cams, gears (spur, bevel, worm), bearings, springs, belts and chains, pins, o-rings
 |
 * [[Fasteners_Workbench|Fasteners Workbench]] and [[Gear_Workbench|Gear Workbench]] but no design calculations available
@@ -596,14 +582,14 @@ The goal of this article is to list some currently missing features in FreeCAD a
 
 <!--T:88-->
 |-
-| 13
+| 11
 | A tool for kinematic analysis on properly constrained sketches
 |
 * [[Scripting_and_macros|Python scripting]] - [https://forum.freecadweb.org/viewtopic.php?f=8&t=68826&start=10#p596531 example]
 
 <!--T:89-->
 |-
-| 14
+| 12
 | [https://en.wikipedia.org/wiki/Geometric_dimensioning_and_tolerancing GD&T] directly on 3D models - [https://en.wikipedia.org/wiki/Model-based_definition MBD] approach
 |
 * [[Draft_Workbench#Annotation|Draft Annotation]] tools
