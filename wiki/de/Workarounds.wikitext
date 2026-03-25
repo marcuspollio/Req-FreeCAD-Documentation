@@ -212,13 +212,11 @@ Das Ziel dieses Artikels ist es, einige zurzeit fehlende Funktionen von FreeCAD 
 |
 * Das Werkzeug [[Draft_Upgrade/de|Draft Hochstufen]] auf den zu erweiternden Flächen verwenden, die entsprechenden Kanten mit [[Draft_Stretch/de|Draft Strecken]] erweitern und die Flächen mit [[Part_MakeFace/de|Part FlächeErstellen]] neu erstellen
 
-<div class="mw-translate-fuzzy">
 |-
-| 24
+| 23
 | Fuzzy-Versionen von [[Part_Workbench/de#Boolean_toolbar/de|Part-Booleschen Operationen]] (Möglichkeit, eine Toleranz für boolesche Vereinigungen und andere Operationen festzulegen)
 |
 * Addon [[Defeaturing_Workbench/de|Arbeitsbereich Defeaturing]]
-</div>
 
 <div class="mw-translate-fuzzy">
 |-
