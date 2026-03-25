@@ -60,32 +60,30 @@ Ein vorhandenes Hem-Objekt in der [[Tree_View/de|Baumansicht]] doppelt anklicken
 [[Image:SheetMetal_AddHem-Task1.png|260px]]
 
 
-<div class="mw-translate-fuzzy">
 * {{Button|Auswählen}}: Ändert die Anzahl der Kanten in der Eigenschaft '''base Object'''.
 * '''Type''': Eingabe für die Eigenschaft '''Hem Type'''.
-** '''Flat''' Aktiviert diese untergeordneten Optionen:
+** [[Image:SheetMetal_HemTypeFlat.svg|24px]] '''Flat''' Aktiviert diese untergeordneten Optionen:
 *** '''Width''': Eingabe für die Eigenschaft '''width'''.
 *** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Schaltet die Eigenschaft '''invert''' um.
 *** '''Width includes bend''': Schaltet die Eigenschaft '''Include Bend''' um.
-** '''Open''': Aktiviert diese untergeordneten Optionen:
+** [[Image:SheetMetal_HemTypeOpen.svg|24px]] '''Open''': Aktiviert diese untergeordneten Optionen:
 *** '''Width''': Eingabe für die Eigenschaft '''width'''.
 *** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Schaltet die Eigenschaft '''invert''' um.
 *** '''Width includes bend''': Schaltet die Eigenschaft '''Include Bend''' um.
 *** '''Opening''': Eingabe für die Eigenschaft '''opening'''.
-** '''Tear Drop''': Aktiviert diese untergeordneten Optionen:
+** [[Image:SheetMetal_HemTypeTear.svg|24px]] '''Tear Drop''': Aktiviert diese untergeordneten Optionen:
 *** '''Width''': Eingabe für die Eigenschaft '''width'''.
 *** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Schaltet die Eigenschaft '''invert''' um.
 *** '''Width includes bend''': Schaltet die Eigenschaft '''Include Bend''' um.
 *** '''Bend radius''': Eingabe für die Eigenschaft '''radius'''.
 *** '''Open''': Schaltet die Eigenschaft '''opened''' um.
 **** '''Opening''': Eingabe für die Eigenschaft '''opening'''.
-** '''Rolled''': Aktiviert diese untergeordneten Optionen:
+** [[Image:SheetMetal_HemTypeRolled.svg|24px]] '''Rolled''': Aktiviert diese untergeordneten Optionen:
 *** '''Bend radius''': Eingabe für die Eigenschaft '''radius'''.
 *** '''Open''': Schaltet die Eigenschaft '''opened''' um.
 **** '''Roll angle''': Eingabe für die Eigenschaft '''Roll Angle'''.
 * '''Position''': Eingabe für die Eigenschaft '''Bend Type'''.
 * '''Unfold''': Schaltet die Eigenschaft '''unfold''' um.
-</div>
 
 <span id="Offsets"></span>
 ====Abstände====
