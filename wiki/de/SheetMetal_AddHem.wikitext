@@ -105,15 +105,13 @@ Ein vorhandenes Hem-Objekt in der [[Tree_View/de|Baumansicht]] doppelt anklicken
 
 [[Image:SheetMetal_AddHem-Task3.png|260px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Auto Miter''': Toggles the '''Auto Miter''' property.
-*: If checked:
-** '''Minimum Gap''': Sets the '''minGap''' property.
-** '''Max Extend Distance''': Sets the '''max Extend Dist''' property.
-*: If unchecked:
-** '''Angle 1''': sets the '''miterangle1''' property.
-** '''Angle 2''': sets the '''miterangle2''' property.
-</div>
+* '''Automatische Gehrung''': Schaltet die Eigenschaft '''Auto Miter''' um.
+*: Wenn aktiviert:
+** '''Mindestspalt''': Eingabe für die Eigenschaft '''minGap'''.
+** '''Maximale Verlängerung''': Eingabe für die Eigenschaft '''max Extend Dist'''.
+*: Wenn deaktiviert:
+** '''Winkel 1''': Eingabe für die Eigenschaft '''miterangle1'''.
+** '''Winkel 2''': Eingabe für die Eigenschaft '''miterangle2'''.
 
 
 <span id="Notes"></span>
