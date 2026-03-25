@@ -89,6 +89,12 @@ texts["FC-Title"] = "The title of my page"
 page.Template.EditableTexts = texts
 }}
 
+To edit individual fields the {{incode|setEditFieldContent}} method of the {{incode|Template}} can be used:
+
+{{Code|code=
+page.Template.setEditFieldContent("FC-Title", "Another title of my page")
+}}
+
 
 <div class="mw-translate-fuzzy">
 {{Docnav
