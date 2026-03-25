@@ -103,10 +103,9 @@ Double-click an existing Hem object in the [[Tree_View|Tree View]] to re-open th
 <!--T:14-->
 * '''Gap A''': Sets the '''gap1''' property.
 * '''Gap B''': Sets the '''gap2''' property.
-* '''Rectangle''' and '''Round''' radio buttons:  Toggle '''relief Type''' property.
+* '''Rectangle''' and '''Round''' radio buttons:  Toggle the '''relief Type''' property.
 * '''Width''': Sets the '''reliefw''' property.
-* '''Depth''': Toggles the '''reliefd''' property.
-
+* '''Depth''': Sets the '''reliefd''' property.
 
 ====Miter==== <!--T:15-->
 
