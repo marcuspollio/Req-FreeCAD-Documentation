@@ -22,9 +22,7 @@ To niewielkie makro tworzy linię dając jako argument współrzędne XYZ, dług
 
 Może być użyte z edytora makr we FreeCAD.
 
-<div class="mw-translate-fuzzy">
-domyślne wartości to : x1 = 0, y1 = 0, z1 = 0, length = 10, angle = 0
-</div>
+Domyślne wartości to : x1 = 0, y1 = 0, z1 = 0, length = 10, angle = 0.
 
 <span id="Script"></span>
 ==Skrypt==
