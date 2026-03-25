@@ -80,9 +80,7 @@ from BOPTools import BOPFeatures
 
 Les chemins d'accès exacts dépendent de la plateforme et de la méthode d'installation.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This manual setup ensures that workbench modules are importable, document objects are reconstructed with their correct types, and additional Python utilities bundled with workbenches become available.
-</div>
+Cette configuration manuelle garantit que les modules des ateliers peuvent être importés, que les objets des documents sont reconstitués avec leurs bons types et que les utilitaires Python supplémentaires fournis avec les ateliers deviennent disponibles.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Note that the FreeCAD GUI environment performs this initialization automatically. In headless usage, however, this step must be handled explicitly by the user.
