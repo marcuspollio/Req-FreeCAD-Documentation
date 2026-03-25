@@ -79,9 +79,7 @@ import PartDesign
 from BOPTools import BOPFeatures
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The exact paths depend on the platform and installation method.
-</div>
+Dokładne ścieżki zależą od platformy i sposobu instalacji.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This manual setup ensures that workbench modules are importable, document objects are reconstructed with their correct types, and additional Python utilities bundled with workbenches become available.
