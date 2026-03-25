@@ -86,9 +86,7 @@ import PartDesign
 from BOPTools import BOPFeatures
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The exact paths depend on the platform and installation method.
-</div>
+Die genauen Pfade hängen von der Plattform und der Installationsmethode ab.
 
 Diese manuelle Konfiguration stellt sicher, dass Arbeitsbereichs-Module importiert werden können, Dokumentobjekte mit den richtigen Typen rekonstruiert werden und zusätzliche Python-Dienstprogramme, die mit den Arbeitsbereichen gebündelt sind, zur Verfügung stehen.
 
