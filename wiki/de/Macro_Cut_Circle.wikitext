@@ -1,16 +1,14 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Macro/de
 |Name=Kreis Schneiden
-|Description=Schneidet Kreise oder Kreisbögen in mehrere Bögen. Die erstellten Bögen können zur Unterscheidung abwechselnd eingefärbt werden.<br/>{{ColoredText|(Befehlszeile, füge das komplette Makro in die Python-Konsole ein)}}.
+|Description=Teilt Kreise oder Kreisbögen in mehrere Bögen auf. Die erstellten Bögen können zur Unterscheidung abwechselnd eingefärbt werden.<br/>{{ColoredText|(Befehlszeile, füge das komplette Makro in die Python-Konsole ein)}}.
 |Author=mario52
 |Version=00.03
 |Date=2019-07-02
 |FCVersion=Alle
 |Download=[https://www.wiki.freecad.org/wiki/images/9/93/Macro_Cut_Circle.png Werkzeugleisten-Symbol]
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung==
