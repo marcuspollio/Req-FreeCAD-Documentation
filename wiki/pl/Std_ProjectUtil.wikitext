@@ -47,18 +47,16 @@ Ważne jest, aby zdać sobie sprawę, że pliki wewnątrz dokumentu FreeCAD są 
 <span id="Create_Document"></span>
 ===Utwórz projekt===
 
-<div class="mw-translate-fuzzy">
-# Wybierz z menu opcję {{MenuCommand|Przybory → [[Image:Std_ProjectUtil.svg|16px]] Narzędzie dokumentu ...}}.
+# Wybierz z menu opcję {{MenuCommand|Przybory → [[Image:Std_ProjectUtil.svg|16px]] Narzędzie dokumentu}}.
 # Otworzy się okno dialogowe Narzędzie dokumentu.
-# Naciśnij przycisk {{Button|...}} na prawo od {{MenuCommand|Utwórz projekt → Źródło}}.
+# Naciśnij przycisk {{Button|…}} na prawo od {{MenuCommand|Utwórz dokument → Źródło}}.
 # Wybierz plik {{FileName|Document.xml}}. Polecenie automatycznie znajdzie wszystkie powiązane pliki.
-# Naciśnij przycisk {{Button|...}} po prawej stronie {{MenuCommand|Utwórz projekt → Miejsce docelowe}}.
-# Wybierz folder, w którym ma zostać utworzony nowy plik projektu.
+# Naciśnij przycisk {{Button|...}} po prawej stronie {{MenuCommand|Utwórz dokument → Miejsce docelowe}}.
+# Wybierz folder, w którym ma zostać utworzony nowy dokument.
 # Naciśnij przycisk {{Button|Utwórz}}.
-# W wybranym folderze tworzony jest nowy plik projektu o ustalonej nazwie, {{FileName|project.fcstd}}. Nie ma ostrzeżenia, jeśli plik o tej nazwie już istnieje.
-# Opcjonalnie zaznacz pole wyboru {{CheckBox|TRUE|Wczytaj plik projektu po utworzeniu}}.
+# W wybranym folderze tworzony jest nowy dokument o ustalonej nazwie, {{FileName|project.fcstd}}. Nie ma ostrzeżenia, jeśli plik o tej nazwie już istnieje.
+# Opcjonalnie zaznacz pole wyboru {{CheckBox|TRUE|Wczytaj plik dokumentu po utworzeniu}}.
 # Naciśnij przycisk {{Button|Zamknij}}, aby zamknąć okno dialogowe.
-</div>
 
 <span id="Notes"></span>
 ==Uwagi==
