@@ -39,7 +39,7 @@ Aceasta pagina prezinta o mare parte dintre funcționalitățile FreeCAD. Daca d
 * [[Image:Feature9.jpg|left]] [[Robot Workbench|Simulator de roboti]] ce permite studierea miscarilor robotilor. Modulul are deja o interfata grafica extinsa, permitand realizarea intregului flux in mod grafic.{{clear}}
 * [[Image:Feature8.jpg|left]] [[Drawing Workbench|Foi de desen]] ce permit crearea de vizualizari 2D ale desenului 3D pe o foaie. Acest modul produce foi SVG sau PDF gata de a fi exportate. Acest modul este in lucru, dar are deja implementata functionalitatea Python.{{clear}}
 * [[Image:Feature-raytracing.jpg|left]] Modulul de [[Raytracing Workbench/ro|Afisare]] poate exporta obiectele 3D pentru a fi folosite de programe externe. Singurul format suportat in prezent este [http://en.wikipedia.org/wiki/POV-Ray povray], dar alte formate sunt planificate pentru viitor.{{clear}}
-* [[Image:Feature-arch.jpg|left]] Modulul [[Arch Workbench|Arhitectural]] permite lucrul folosing pasii [http://en.wikipedia.org/wiki/Building_Information_Modeling BIM] compatibil cu [http://en.wikipedia.org/wiki/Industry_Foundation_Classes IFC]. Comunitatea a dezbatut aprins detaliile modlului in [http://forum.freecadweb.org/viewtopic.php?f=10&t=821 forum].{{clear}}
+* [[Image:Feature-arch.jpg|left]] Modulul [[Arch Workbench|Arhitectural]] permite lucrul folosing pasii [http://en.wikipedia.org/wiki/Building_Information_Modeling BIM] compatibil cu [http://en.wikipedia.org/wiki/Industry_Foundation_Classes IFC]. Comunitatea a dezbatut aprins detaliile modlului in [http://forum.freecad.org/viewtopic.php?f=10&t=821 forum].{{clear}}
 </div>
 
 <span id="General_features"></span>
