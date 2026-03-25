@@ -25,7 +25,7 @@
 ==Description==
 </div>
 
-La commande [[Image:SheetMetal_AddHem.svg|24px]] '''SheetMetal Plis'''permet de créer des plis sur les bords des surfaces sélectionnées. En modifiant la propriété {{PropertyData|angle}}, un bord peut être transformé en pli.
+La commande [[Image:SheetMetal_AddHem.svg|24px]] '''SheetMetal Ourlet'''permet de créer des ourlets sur les bords des surfaces sélectionnées. En modifiant la propriété {{PropertyData|angle}}, un bord peut être transformé en ourlet.
 
 Un '''ourlet''' se compose généralement d'un coude cylindrique d'environ 180° et d'une bande plane (paroi).
 
