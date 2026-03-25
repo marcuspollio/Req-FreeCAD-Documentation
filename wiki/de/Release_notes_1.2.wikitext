@@ -125,6 +125,7 @@ ToDo (last check: 20260318):
 <span id="Further_FEM_improvements"></span>
 === Weitere FEM-Verbesserungen ===
 
+<div class="mw-translate-fuzzy">
 * Die Last der [[Image:FEM_ConstraintElectricChargeDensity.svg|24px]] [[FEM_ElectricChargeDensity/de|Elektrische Ladungsdichte]] verfügt nun im Modus ''Total Source'' über ein Kontrollkästchen ''Concentrated'', um mit CalculiX Punktlasten anstelle von verteilten Lasten (Flächen-/Streckenlasten) zu verwenden (wodurch sie auch auf Kanten und Eckpunkte anwendbar ist). [https://github.com/FreeCAD/FreeCAD/pull/25237 Pull-Request #25237]
 * Die [[Image:FEM_ResultShow.svg|24px]] [[FEM_ResultShow/de|FEM-Ergebnisobjekte]] unterstützen nun zusätzlich zu umgekehrten Vollzyklen auch die Animation von Halbzyklen. [https://github.com/FreeCAD/FreeCAD/pull/24129 Pull-Request #24129]
 * Die [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint/de|Querschnitt-Druckfunktion]] unterstützt nun 2D-Modelle und den elektrischen Fluss in elektrostatischen Analysen. [https://github.com/FreeCAD/FreeCAD/pull/25081 Pull-Request #25081]
@@ -137,6 +138,7 @@ ToDo (last check: 20260318):
 * Alle Befehle des Gleichungslösers werden jetzt immer angezeigt (auch wenn ein angegebener Gleichungslöser nicht installiert ist) und werden sowohl in der Symbolleiste als auch im Menü gruppiert. Das Standardsymbol in der Symbolleiste hängt von dem in den Einstellungen ausgewählten Gleichungslöser ab. [https://github.com/FreeCAD/FreeCAD/pull/28144 Pull-Request #28144]
 * Materialzuordnungen werden jetzt aus den {{FileName|.frd}}-Ergebnisdateien von [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools/de|CalculiX]] ausgelesen. In FreeCAD kann derzeit nicht auf sie zugegriffen werden, aber sie können während der Umwandlung in das {{FileName|.vtm}}-Format mit ParaView dargestellt werden. [https://github.com/FreeCAD/FreeCAD/pull/27847 Pull-Request #27847]
 * Die [[Image:FEM_MaterialMechanicalNonlinear.svg|24px]] [[FEM_MaterialMechanicalNonlinear/de|Nichtlineares mechanisches Material]]-Objekte werden jetzt unter den [[Image:FEM_MaterialSolid.svg|24px]] [[FEM_MaterialSolid/de|Feststoff]]-Objekten gruppiert. Die Eigenschaften ''Geometrical Nonlinearity'' und ''Material Nonlinearity'' sind jetzt boolesche Werte. Letztere ist standardmäßig aktiviert und wird nur angewendet, wenn einem beliebigen Material in der Analyse ein non-linear mechanical material-Objekt zugeordnet wurde. Andernfalls wird sie ignoriert. [https://github.com/FreeCAD/FreeCAD/pull/27862 Pull-Request #27862]
+</div>
 
 <span id="Inspection_Workbench"></span>
 == Arbeitsbereich Inspection ==
