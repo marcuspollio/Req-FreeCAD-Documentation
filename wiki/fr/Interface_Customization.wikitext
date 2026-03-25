@@ -18,7 +18,6 @@ L'interface de FreeCAD est basée sur la boîte à outils [https://en.wikipedia.
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
 # Les commandes disponibles dans la boite de dialogue de personnalisation de l'interface dépendent des ateliers qui ont été chargés dans la session FreeCAD en cours. Vous devez donc d'abord charger tous les ateliers dont vous souhaitez avoir accès aux commandes.
 # Il existe plusieurs façons de lancer la commande [[Image:Std_DlgCustomize.svg|16px]] [[Std_DlgCustomize/fr|Std Personnaliser]] :
 #* Sélectionnez l'option {{MenuCommand|Outils → [[Image:Std_DlgCustomize.svg|16px]] Personnaliser}} du menu.
@@ -26,7 +25,6 @@ L'interface de FreeCAD est basée sur la boîte à outils [https://en.wikipedia.
 # La boîte de dialogue '''Personnaliser''' s'ouvre. Pour plus d'informations, voir [[#Options|Options]].
 # Le bouton {{Button|Aide}} ne fonctionne pas pour le moment.
 # Appuyez sur le bouton {{Button|Fermer}} pour fermer la boîte de dialogue.
-</div>
 
 <span id="Options"></span>
 == Options ==
