@@ -61,9 +61,7 @@ Zauważ, że ten tryb jest przeznaczony do użycia FreeCAD API bez GUI. Podczas 
 <span id="Additional_considerations_for_Workbench_modules_in_headless_mode"></span>
 ==== Dodatkowe uwagi dotyczące modułów środowisk pracy w trybie bez GUI ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-When using FreeCAD as a Python library in a headless context (for example via a standard Python interpreter or {{incode|FreeCADCmd}}), not all workbench modules are automatically available, even if the core FreeCAD modules can be imported successfully.
-</div>
+W przypadku korzystania z FreeCAD jako biblioteki języka Python w kontekście bez GUI (na przykład za pośrednictwem standardowego interpretera języka Python lub {{incode|FreeCADCmd}}), nie wszystkie moduły środowisk roboczych są automatycznie dostępne, nawet jeśli moduły podstawowe FreeCAD można pomyślnie zaimportować.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In particular, modules located in the {{incode|Mod/}} directory (such as PartDesign or submodules of Part) may not be discoverable by Python unless their paths are explicitly added to {{incode|sys.path}}. This can lead to situations where document objects are loaded as generic types (for example {{incode|GeoFeature}}) instead of their specific types (for example {{incode|PartDesign::Body}}), or where imports of workbench-related modules fail.
