@@ -1,5 +1,6 @@
 <languages/>
 __FORCETOC__
+
 == Historia ==
 [[File:Screenshot mesh.jpg|thumb|300px|Primera versión de FreeCAD, desconocida]]
 [[File:Part BooleanOperations.png|thumb|300px|FreeCAD versión 0.7 de 2009]]
@@ -94,17 +95,27 @@ En abril de 2019 se amplió el equipo de desarrolladores del núcleo: A Jürgen,
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| style="background-color: #C1E6F5;"| 1.1
+| style="background-color: #C1E6F5;"| 1.2
 | -
-| in development
-| [[Release_notes_1.1|Release notes 1.1]]
+| In development
+| [[Release_notes_1.2|Release notes 1.2]]
 | [https://github.com/FreeCAD/FreeCAD/commits/main head main]
 |
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| style="background-color: #D4F4B4;"| 1.0
+| style="background-color: #D4F4B4;"| 1.1
+| -
+| 2026-03-24
+| [[Release_notes_1.1|Release notes 1.1]]
+| [https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-1-1 release commit 1.1]
+| [https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-1-1 branch bugfixes 1.1]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+| style="background-color: #FDB3AB;"| 1.0
 | BGBSWW
 | 2024-11-18
 | [[Release_notes_1.0|Release notes 1.0]]
