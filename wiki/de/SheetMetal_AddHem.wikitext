@@ -60,6 +60,7 @@ Ein vorhandenes Hem-Objekt in der [[Tree_View/de|Baumansicht]] doppelt anklicken
 [[Image:SheetMetal_AddHem-Task1.png|260px]]
 
 
+<div class="mw-translate-fuzzy">
 * {{Button|Auswählen}}: Ändert die Anzahl der Kanten in der Eigenschaft '''base Object'''.
 * '''Type''': Eingabe für die Eigenschaft '''Hem Type'''.
 ** '''Flat''' Aktiviert diese untergeordneten Optionen:
@@ -84,7 +85,7 @@ Ein vorhandenes Hem-Objekt in der [[Tree_View/de|Baumansicht]] doppelt anklicken
 **** '''Roll angle''': Eingabe für die Eigenschaft '''Roll Angle'''.
 * '''Position''': Eingabe für die Eigenschaft '''Bend Type'''.
 * '''Unfold''': Schaltet die Eigenschaft '''unfold''' um.
-
+</div>
 
 <span id="Offsets"></span>
 ====Abstände====
