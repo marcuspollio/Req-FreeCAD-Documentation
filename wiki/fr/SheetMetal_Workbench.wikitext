@@ -43,9 +43,7 @@ Les outils Sheet Metal se trouvent tous dans le menu {{MenuCommand|Sheet Metal}}
 
 * [[Image:SheetMetal_AddWall.svg|32px]] [[SheetMetal_AddWall/fr|Rebord]] : ajoute un rebord sur chaque bord sélectionné d'une tôle. (Le rebord peut être transformé en bord rabattu en modifiant son angle).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:SheetMetal_AddHem.svg|32px]] [[SheetMetal_AddHem|Make Hem]]: Adds a hem on each selected edge of a base plate. (Similar to the above tool but with settings optimized for hem creation. - introduced in version 0.8.10)
-</div>
+* [[Image:SheetMetal_AddHem.svg|32px]] [[SheetMetal_AddHem/fr|Ourlet]] : ajoute un ourlet sur chaque bord sélectionné d'une tôle de base. (Semblable à l'outil ci-dessus, mais avec des paramètres optimisés pour la création d'ourlets. Introduit dans la version 0.8.10)
 
 * [[Image:SheetMetal_Extrude.svg|32px]] [[SheetMetal_Extrude/fr|Prolonger une face]] : prolonge une tôle au niveau d'une arête sélectionnée d'une face le long de sa normale.
 
