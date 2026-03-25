@@ -77,9 +77,8 @@ Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [[Featu
 <span id="Further_Assembly_improvements"></span>
 === Autres améliorations d'Assembly ===
 
-<div class="mw-translate-fuzzy">
 * Des messages du solveur (rapports de surcontrainte) ont été ajoutés au panneau des tâches d'assemblage. [https://github.com/FreeCAD/FreeCAD/pull/24623 Pull request #24623]
-</div>
+* Une nouvelle commande a été ajoutée pour sélectionner toutes les liaisons associées à un composant donné. [https://github.com/FreeCAD/FreeCAD/pull/27530 Pull request n° 27530]
 
 <span id="BIM_Workbench"></span>
 == Atelier BIM ==
