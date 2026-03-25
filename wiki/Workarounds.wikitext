@@ -214,16 +214,9 @@ The goal of this article is to list some currently missing features in FreeCAD a
 * For faces of a [[PartDesign_Body|PartDesign Body]]: change the Refine property of the last Feature to {{True}}, may not remove all the redundant faces
 * For co-planar faces: use [[Draft_Upgrade|Draft Upgrade]] twice to get a [[Draft_Wire|Draft Wire]], [[Draft_Downgrade|Draft Downgrade]] the wire to get a face
 
-<!--T:42-->
-|-
-| 19
-| [[PartDesign_Hole|Hole]] tool using points from sketches
-|
-* Draw circles for the [[PartDesign_Hole|Hole]] tool
-
 <!--T:43-->
 |-
-| 20
+| 19
 | [[PartDesign_Point|Datum points]] from coordinates
 |
 * Base [[PartDesign_Point|datum points]] on existing geometry
@@ -231,49 +224,49 @@ The goal of this article is to list some currently missing features in FreeCAD a
 
 <!--T:44-->
 |-
-| 21
+| 20
 | A tool for automatic creation of ribs (structural reinforcements)
 |
 * Create ribs manually, wedges ([[Part_Wedge|Part Wedge]] or [[PartDesign_AdditiveWedge|PartDesign AdditiveWedge]]) can be used for simple triangular ribs
 
 <!--T:45-->
 |-
-| 22
+| 21
 | A tool for automatic creation of domes
 |
 * Create domes manually, spheres ([[Part_Sphere|Part Sphere]] or [[PartDesign_AdditiveSphere|PartDesign AdditiveSphere]]) with properly adjusted parameters can be used for simple spherical domes
 
 <!--T:107-->
 |-
-| 23
+| 22
 | Extending faces up to other faces (useful e.g. when extracting midsurfaces, as mentioned above)
 |
 * Use the [[Draft_Upgrade|Draft Upgrade]] tool on the faces to be extended, extend proper edges with [[Draft_Stretch|Draft Stretch]] and recreate the faces using [[Part_MakeFace|Part MakeFace]]
 
 <!--T:111-->
 |-
-| 24
+| 23
 | Fuzzy versions of [[Part_Workbench#Boolean_toolbar|Part Boolean operations]] (possibility to specify a tolerance for boolean union and other operations)
 |
 * Add-on [[Defeaturing_Workbench|Defeaturing Workbench]]
 
 <!--T:116-->
 |-
-| 25
+| 24
 | [[PartDesign_AdditiveLoft|PartDesign AdditiveLoft]] and [[PartDesign_AdditivePipe|PartDesign AdditivePipe]] with a possibility to use an open profile as the first or last section
 |
 * Different modeling approaches, e.g. involving [[PartDesign_Pad|PartDesign Pad]]
 
 <!--T:117-->
 |-
-| 26
+| 25
 | A tool to [[Part_Sweep|sweep]] a circular profile of a given diameter along a selected path
 |
 * Draw the circular profile manually
 
 <!--T:118-->
 |-
-| 27
+| 26
 | Optional local coordinate system display for [[PartDesign_Plane|datum planes]]
 |
 * Attach a [[PartDesign_CoordinateSystem|datum coordinate system]] to datum plane to see its local orientation
