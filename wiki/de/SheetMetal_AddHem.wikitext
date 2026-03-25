@@ -194,9 +194,7 @@ A SheetMetal '''Hem''' object is derived from a [[Part_Feature|Part Feature]] ob
 * {{PropertyData|miterangle2|Angle}}: "Bend Miter Angle from Right Side". Default angle: {{value|0,00°}}.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Properties_Title|Parameters Relief}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * {{PropertyData|Relief Factor|Float}}: "Relief Factor". Default: {{value|0,70}}.
