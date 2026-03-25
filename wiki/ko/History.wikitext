@@ -1,5 +1,6 @@
 <languages/>
 __FORCETOC__
+
 <div class="mw-translate-fuzzy">
 == History ==
 [[File:Screenshot mesh.jpg|thumb|300px|Early FreeCAD version unknown]]
@@ -151,17 +152,27 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| style="background-color: #C1E6F5;"| 1.1
+| style="background-color: #C1E6F5;"| 1.2
 | -
-| in development
-| [[Release_notes_1.1|Release notes 1.1]]
+| In development
+| [[Release_notes_1.2|Release notes 1.2]]
 | [https://github.com/FreeCAD/FreeCAD/commits/main head main]
 |
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| style="background-color: #D4F4B4;"| 1.0
+| style="background-color: #D4F4B4;"| 1.1
+| -
+| 2026-03-24
+| [[Release_notes_1.1|Release notes 1.1]]
+| [https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-1-1 release commit 1.1]
+| [https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-1-1 branch bugfixes 1.1]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+| style="background-color: #FDB3AB;"| 1.0
 | BGBSWW
 | 2024-11-18
 | [[Release_notes_1.0|Release notes 1.0]]
@@ -415,13 +426,11 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 |}
 </div>
 
-<div class="mw-translate-fuzzy">
 == 링크 ==
 * [http://sourceforge.net/projects/free-cad/files/ SourceForge Files section] 
 * [http://sourceforge.net/projects/free-cad/files/OldFiles/ SourceForge Old Files section]
-* [http://forum.freecadweb.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?] topic on the FreeCAD forum
+* [http://forum.freecad.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?] topic on the FreeCAD forum
 * [http://www.opencascade.org/org/forum/thread_6572/?forum=11 Announcing FreeCAD Project] on the OpenCascade forum
-</div>
 
 [[Category:News{{#translation:}}]]
 [[Category:Releases{{#translation:}}]]
