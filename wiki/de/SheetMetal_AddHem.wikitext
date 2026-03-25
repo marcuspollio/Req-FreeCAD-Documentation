@@ -132,18 +132,18 @@ und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen 
 
 {{Properties_Title|Parameters}}
 
-<div class="mw-translate-fuzzy">
-* {{PropertyData|Bend Type|Enumeration}}: "Bend Type". {{value|Material Outside}} (Standardwert), {{value|Material Inside}}, {{value|Thickness Outside}}.
-* {{PropertyData|Hem Type|Enumeration}}: "Type of Hem". {{value|Flat}} (Standardwert), {{value|Open}}, {{value|Teardrop}}, {{value|Rolled}}.
-* {{PropertyData|Include Bend|Bool}}: "Schenkellänge inklusive Bogengeometrie". Standardwert: {{FALSE}}.
-* {{PropertyData|Roll Angle|Angle}}: "Roll Angle". Standardwinkel: {{value|90,00°}}.
-* {{PropertyData|base Object|LinkSub}}: "Base Object". Verknüpfung zur ebenen Fläche, an die ein Falz angesetzt werden soll.
+* {{PropertyData/de|Bend Type|Enumeration}}: "Bend Type". {{value|Material Outside}} (Standardwert), {{value|Material Inside}}, {{value|Thickness Outside}}.
+* {{PropertyData/de|Hem Type|Enumeration}}: "Type of Hem". {{value|Flat}} (Standardwert), {{value|Open}}, {{value|Teardrop}}, {{value|Rolled}}.
+* {{PropertyData/de|Include Bend|Bool}}: "Schenkellänge inklusive Bogengeometrie". Standardwert: {{FALSE}}.
+* {{PropertyData/de|Roll Angle|Angle}}: "Roll Angle". Standardwinkel: {{value|90,00°}}.
+* {{PropertyData/de|base Object|LinkSub}}: "Base Object". Verknüpfung zur ebenen Fläche, an die ein Falz angesetzt werden soll.
 * {{PropertyData/de|gap1|Distance}}: "Gap from Left side". Spalt von links. Standardwert: {{value|0,00 mm}}.
 * {{PropertyData/de|gap2|Distance}}: "Gap from Right side". Spalt von rechts. Standardwert: {{value|0,00 mm}}.
-* {{PropertyData|invert|Bool}}: "Invert Bend Direction". Biegerichtung umkehren. Standardwert: {{FALSE}}.
-* {{PropertyData|opened|Bool}}: "Opened Hem". Standardwert: {{FALSE}}.
-* {{PropertyData|opening|Length}}: "Openening of Hem". Standardwert: {{value|1,00 mm}}
-</div>
+* {{PropertyData/de|invert|Bool}}: "Invert Bend Direction". Biegerichtung umkehren. Standardwert: {{FALSE}}.
+* {{PropertyData/de|opened|Bool}}: "Opened Hem". Standardwert: {{FALSE}}.
+* {{PropertyData/de|opening|Length}}: "Openening of Hem". Standardwert: {{value|1,00 mm}}
+* {{PropertyData/de|radius|Length}}: "Bend Radius": Biegeradius 
+* {{PropertyData/de|width|Length}}: "Width of Wall". Standardwert: {{value|10,00 mm}}.
 
 {{Properties_Title|Parameters Ex}}
 
