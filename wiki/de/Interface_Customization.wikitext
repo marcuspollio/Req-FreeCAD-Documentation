@@ -10,7 +10,9 @@
 <span id="Introduction"></span>
 ==Einleitung==
 
+<div class="mw-translate-fuzzy">
 Die FreeCAD-Oberfläche basiert auf dem modernen [https://en.wikipedia.org/wiki/Qt_(toolkit) Qt]-Werkzeugsatz und ist dem Stand der Technik entsprechend aufgebaut. Einige Bestandteile der Oberfläche können angepasst werden. Es können z.B. benutzerdefinierte Symbolleisten mit Werkzeugen aus verschiedenen Arbeitsbereichen oder mit auf Makros basierenden Werkzeuge hinzugefügt werden, und es können eigene Tastaturkürzel erstellt werden. Die Menüs und Standardsymbolleisten, die von FreeCAD und seinen Arbeitsbereichen mitgeliefert werden, können jedoch nicht geändert werden.
+</div>
 
 [[Image:Std_DlgCustomize_tab_Toolbars.png]]
 {{Caption|Das Dialogfeld Benutzerdefiniert}}
@@ -18,6 +20,7 @@ Die FreeCAD-Oberfläche basiert auf dem modernen [https://en.wikipedia.org/wiki/
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 # Die im Dialogfeld Benutzerdefiniert verfügbaren Befehle hängen von den Arbeitsbereichen ab, die in der aktuellen FreeCAD-Sitzung geladen wurden. Es sollten also zunächst alle Arbeitsbereiche geladen werden, auf deren Befehle zugegriffen werden soll.
 # Es gibt mehrere Wege, das Dialogfeld [[Std_DlgCustomize/de|Benutzerdefiniert]] aufzurufen:
 #* Den Menüeintrag  {{MenuCommand|Werkzeuge → [[Image:Std_DlgCustomize.svg|16px]] Benutzerdefiniert...}} auswählen.
@@ -25,6 +28,7 @@ Die FreeCAD-Oberfläche basiert auf dem modernen [https://en.wikipedia.org/wiki/
 # Das Dialogfeld '''Anpassen''' öffnet sich. Für weitere Informationen siehe [[#Optionen|Optionen]].
 # Die Schaltfläche {{Button|Hilfe}} funktioniert zurzeit nicht.
 # Die Schaltfläche {{Button|Schließen}} drücken, um das Dialogfeld zu schließen.
+</div>
 
 <span id="Options"></span>
 ==Optionen==
@@ -176,6 +180,7 @@ Soll ein Makro aus einer anderen Quelle geladen werden, muss es manuell installi
 <span id="Add_a_macro_command"></span>
 ====Einen Makrobefehl hinzufügen====
 
+<div class="mw-translate-fuzzy">
 # Ein Makro in der Auswahlliste "Makro" auswählen.
 # Einen "Menütext" eingeben. Das ist der Name des Makros der auch in Symbolleisten angezeigt wird, wenn kein zugehöriges Symbol vorhanden ist.
 # Wahlweise eine "Quick-Info" eingeben. Dieser Hilfstext erscheint in der Nähe des Mauszeigers, wenn er sich über der Schaltfläche befindet.
@@ -190,6 +195,7 @@ Soll ein Makro aus einer anderen Quelle geladen werden, muss es manuell installi
 # Die Schaltfläche {{Button|Hinzufügen}} drücken.
 # Der Makro-Befehl erscheint in der linken Liste.
 # Jetzt kann der Makro-Befehl im Reiter [[#Symbolleisten|Symbolleisten]] ausgewählt werden.
+</div>
 
 <span id="Remove_a_macro_command"></span>
 ====Einen Makrobefehl entfernen====
@@ -219,10 +225,12 @@ Wenn kein Spaceball erkannt wurde, ist dieser Reiter leer. Siehe: [[3Dconnexion_
 
 FreeCAD unterstützt die vollständige Individualisierung der Oberfläche durch .qss-Stylesheets. Das [https://doc.qt.io/qt-5/stylesheet-syntax.html qss-Format] ist dem in Webseiten verwendeten [https://en.wikipedia.org/wiki/CSS css-Format] sehr ähnlich, es fügt im Grunde Methoden hinzu, um die verschiedenen Widgets und Elemente der Qt-Oberfläche zu referenzieren. Das Standardthema (das einfach den vom Desktopsystem definierten Stil übernimmt) kann angepasst werden, indem ein '''Stylesheet''' in den [[Preferences_Editor/de#Allgemein|FreeCAD-Voreinstellungen]] ausgewählt wird.
 
+<div class="mw-translate-fuzzy">
 Es kann auch ein eigenes Thema erstellt werden, wenn man mit den Themen, die FreeCAD mitgeliefert, nicht zufrieden ist, z.B. indem ein [https://github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets existierendes Stylesheet] bearbeitet wird. Das neue Aussehen (style) muss in einem bestimmten Ordner abgelegt werden, damit es von FreeCAD gefunden wird:
 * {{FileName|%APPDATA%/FreeCAD/Gui/Stylesheets}} (unter Windows). Der Ordner {{FileName|%APPDATA%}} kann durch Eingabe von {{Incode|App.getUserAppDataDir()}} in der [[Python_console/de|Python-Konsole]] abgerufen werden.
 * {{FileName|$HOME/.FreeCAD/Gui/Stylesheets}} (unter Linux).
 * {{FileName|$HOME/Library/Application Support/FreeCAD/Gui/Stylesheets}} (unter macOS).
+</div>
 {{Top}}
 ==Addons==
 
