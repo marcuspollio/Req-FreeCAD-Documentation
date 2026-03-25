@@ -119,9 +119,9 @@ Les valeurs par défaut peuvent être définies dans le menu {{MenuCommand|Édit
 ** Déformation plane : des éléments solides 2D de déformation plane sont utilisés.
 ** Axisymétrique : des éléments solides 2D axisymétriques sont utilisés.
 
-* {{PropertyData|Output 3d}}: note that CalculiX internally expands 1D and 2D elements into 3D elements to accomplish finite element analysis
-** true - resulting mesh will contain 1D and 2D elements expanded to 3D elements
-** false - results of 1D and 2D elements will be averaged to the nodes of the original 1D or 2D mesh (i.e. a purely bent beam will show 0 nodal stresses due to averaging)
+* {{PropertyData|Output 3D}} : notez que CalculiX développe en interne les éléments 1D et 2D en éléments 3D pour réaliser l'analyse d'éléments finis.
+** true : le maillage résultant contiendra des éléments 1D et 2D développés en éléments 3D.
+** false : les résultats des éléments 1D et 2D seront moyennés aux noeuds du maillage 1D ou 2D d'origine (c'est-à-dire qu'un modèle de type poutre soumis à une flexion pure présentera des contraintes nodales égales à 0 en raison de la moyenne).
 
 * {{PropertyData|Output Frequency}} : définit la fréquence d'écriture des résultats par incréments (le réglage par défaut de 1 signifie que les résultats sont écrits à chaque incrément, le réglage 2 sauvegarde les résultats tous les 2 incréments et ainsi de suite), particulièrement utile pour les simulations non linéaires et transitoires, aide à réduire l'encombrement dans l'arborescence puisque actuellement une paire d'objets de résultats (CCX_Results et Pipeline_CCX_Results) est créée pour chaque trame de résultats. {{Version/fr|1.0}}
 
