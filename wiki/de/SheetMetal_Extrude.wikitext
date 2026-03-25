@@ -148,16 +148,14 @@ und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen 
 * {{PropertyData/de|Use Subtraction|Bool}}: "Use Subtraction". Standardwert: {{FALSE}}. Schaltet um, ob die durchdrungenen Wände desselben Objekts für die mit der verknüpften Skizze erstellten Stege ausgeschnitten werden.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[SheetMetal_AddWall/de|Kante ansetzen]]
+|[[SheetMetal_AddHem/de|FalzAnsetzen]]
 |[[SheetMetal_ExtendBySketch/de|MitSkizzeErweitern]]
 |[[SheetMetal_Workbench/de|SheetMetal]]
-|IconL=SheetMetal_AddWall.svg
+|IconL=SheetMetal_AddHem.svg
 |IconR=SheetMetal_ExtendBySketch.svg
 |IconC=Sheetmetal_workbench_icon.svg
 }}
-</div>
 
 [[Category:SheetMetal{{#translation:}}]]
 [[Category:Addons{{#translation:}}]]
