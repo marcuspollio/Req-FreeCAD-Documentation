@@ -25,6 +25,7 @@ Previous FreeCAD release notes can be found in the [[Feature_list#Release_notes|
 
 == General == <!--T:7-->
 
+<!--T:67-->
 * Multiple documents can now be edited simultaneously with independent tasks and undo/redo stacks, for example having two Sketches open at the same time (GSoC project). [https://github.com/FreeCAD/FreeCAD/pull/21978 Pull request #21978]
 
 == User interface == <!--T:8-->
@@ -45,6 +46,7 @@ Previous FreeCAD release notes can be found in the [[Feature_list#Release_notes|
 [https://github.com/FreeCAD/FreeCAD/pull/23673 Pull request #23673]
 |}
 
+<!--T:68-->
 {| cellpadding=5
 | [[File:MassProperties_relnotes_1.2.png|384px]]
 | A new Mass Properties command has been added to calculate volume, mass, surface area, center of gravity, center of volume, and inertia for parts and assemblies, with support for custom reference frames and material-aware calculations.
@@ -158,7 +160,8 @@ ToDo (last check: 20260318):
 
 == Part Workbench == <!--T:40-->
 
-=== Further Part improvements === <!--T:41-->
+<!--T:41-->
+=== Further Part improvements ===
 * A new method has been added to split a B-spline curve into two curves at a given parameter. [https://github.com/FreeCAD/FreeCAD/pull/26716 Pull request #26716]
 
 == Part Design Workbench == <!--T:42-->
@@ -223,6 +226,7 @@ ToDo (last check: 20260318):
 
 === Further TechDraw improvements === <!--T:58-->
 
+<!--T:69-->
 * Smooth edges in [[TechDraw_Workbench|TechDraw]] are now rendered with a thin line as required by ISO drawing standards. [https://github.com/FreeCAD/FreeCAD/pull/27747 Pull request #27747]
 * Section line font, font size, and arrow size in [[TechDraw_SectionView|TechDraw Section Views]] are now configurable per view via view properties. [https://github.com/FreeCAD/FreeCAD/pull/27521 Pull request #27521]
 * [[TechDraw_Workbench|TechDraw]] angle dimensions now support displaying the supplementary angle (180° minus the measured angle) via a view property. [https://github.com/FreeCAD/FreeCAD/pull/27055 Pull request #27055]
