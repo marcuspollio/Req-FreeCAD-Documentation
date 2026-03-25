@@ -49,7 +49,7 @@ Usando {{KEY|Edit .inp file}} è possibile visualizzare e modificare manualmente
 <span id="Properties"></span>
 == Proprietà ==
 
-This section has been updated for version 1.1.
+This section has been updated for version 1.2.
 
 <div class="mw-translate-fuzzy">
 I valori predefiniti possono essere impostati nel menu {{KEY|Modifica}} → {{KEY|Preferenze}} → {{KEY|FEM}} → {{KEY|CalculiX}}
@@ -71,12 +71,6 @@ I valori predefiniti possono essere impostati nel menu {{KEY|Modifica}} → {{KE
 * {{PropertyData|Beam Reduced Integration}} - {{Version|1.0}}:
 ** true - uses beam elements with reduced integration (B31R or B32R), required when pipe beam section is used, can also make it possible to obtain [https://forum.freecad.org/viewtopic.php?t=61233 accurate results with plasticity]
 ** false - uses regular (fully-integrated) beam elements
-
-<div class="mw-translate-fuzzy">
-* {{PropertyData|Beam Shell Result Output 3D}}: si noti che CalculiX espande internamente elementi 1D e 2D in elementi 3D per eseguire l'analisi FE
-** falso - i risultati degli elementi 1D e 2D verranno calcolati in base alla media dei nodi della mesh 1D o 2D originale (ad esempio, il raggio puramente piegato mostrerà 0 sforzi nodali dovuti alla media)
-** true - la mesh risultante conterrà elementi 1D e 2D espansi in elementi 3D
-</div>
 
 * {{PropertyData|Buckling Accuracy}} - {{Version|1.1}}: defines the accuracy of buckling eigenvalue evaluation. In most cases it can be left with the default value (0.01) but sometimes it might be necessary to lower it (e.g. to 0.0001) to capture the first eigenvalue.
 
@@ -137,6 +131,10 @@ I valori predefiniti possono essere impostati nel menu {{KEY|Modifica}} → {{KE
 ** plane stress - plane stress 2D solid elements are used
 ** plane strain - plane strain 2D solid elements are used
 ** axisymmetric - axisymmetric 2D solid elements are used
+
+* {{PropertyData|Output 3d}}: note that CalculiX internally expands 1D and 2D elements into 3D elements to accomplish finite element analysis
+** true - resulting mesh will contain 1D and 2D elements expanded to 3D elements
+** false - results of 1D and 2D elements will be averaged to the nodes of the original 1D or 2D mesh (i.e. a purely bent beam will show 0 nodal stresses due to averaging)
 
 * {{PropertyData|Output Frequency}} - {{Version|1.0}}: defines the frequency of results writing in increments (the default setting of 1 means that the results are written every increment, setting 2 would save the results every 2 increments and so on), particularly useful for nonlinear and transient simulations, helps reduce the clutter in the tree since currently a pair of results objects (CCX_Results and Pipeline_CCX_Results) is created for each results frame
 
