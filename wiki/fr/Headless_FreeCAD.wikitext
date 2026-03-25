@@ -57,9 +57,8 @@ Il s'agit d'une fonction très puissante qui libère tout le potentiel de FreeCA
 
 Notez que ce mode est destiné à l'utilisation de l'API FreeCAD sans interface graphique. Bien que certains modules liés à l'interface graphique puissent être importés, l'utilisation de l'API qui accède directement ou manipule les composants de l'interface graphique est très limitée et généralement non prise en charge dans un contexte sans interface graphique.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Additional considerations for Workbench modules in headless mode ====
-</div>
+<span id="Additional_considerations_for_Workbench_modules_in_headless_mode"></span>
+==== Autres considérations sur les modules des ateliers en mode sans interface graphique ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 When using FreeCAD as a Python library in a headless context (for example via a standard Python interpreter or {{incode|FreeCADCmd}}), not all workbench modules are automatically available, even if the core FreeCAD modules can be imported successfully.
