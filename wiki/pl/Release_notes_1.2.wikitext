@@ -15,10 +15,12 @@ Informacje na temat sposobów przyczyniania się do rozwoju programu FreeCAD mo�
 
 Starsze informacje na temat wydań FreeCAD można znaleźć na stronie [[Feature_list/pl#Informacje_o_wydaniu|Lista funkcji]].
 
-Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [https://forum.freecad.org/viewforum.php?f=24 galerii pokazowej użytkowników].
-
 <span id="General"></span>
 ==Ogólne==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* Multiple documents can now be edited simultaneously with independent tasks and undo/redo stacks, for example having two Sketches open at the same time (GSoC project). [https://github.com/FreeCAD/FreeCAD/pull/21978 Pull request #21978]
+</div>
 
 <span id="User_interface"></span>
 ==Interfejs użytkownika==
@@ -34,11 +36,21 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [https://forum
 <span id="Core"></span>
 ===Rdzeń programu===
 
+<div class="mw-translate-fuzzy">
 {| cellpadding=5
 | [[File:AnnotationLabel_relnotes_1.2.png|384px]]
 | Dodano polecenie wstawiające etykietę adnotacji do ostatniego wskazanego punktu w Widoku 3D.
 [https://github.com/FreeCAD/FreeCAD/pull/23673 Pull request #23673]
 |}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:MassProperties_relnotes_1.2.png|384px]]
+| A new Mass Properties command has been added to calculate volume, mass, surface area, center of gravity, center of volume, and inertia for parts and assemblies, with support for custom reference frames and material-aware calculations.
+[https://github.com/FreeCAD/FreeCAD/pull/27347 Pull request #27347]
+|}
+</div>
 
 <span id="Further_Core_improvements"></span>
 ===Pozostałe ulepszenia rdzenia===
@@ -73,12 +85,14 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [https://forum
 <span id="Further_Assembly_improvements"></span>
 ===Pozostałe ulepszenia środowiska Złożenie===
 
+<div class="mw-translate-fuzzy">
 * Do panelu zadań Złożenia dodane zostały wiadomości solvera (informacje o nadmiarowych więzach). [https://github.com/FreeCAD/FreeCAD/pull/24623 Pull request #24623]
+</div>
 
 <span id="BIM_Workbench"></span>
 ==Środowisko pracy BIM==
 
-ToDo (last check: 20260308):
+ToDo (last check: 20260318):
 * https://github.com/FreeCAD/FreeCAD/pull/24078
 * https://github.com/FreeCAD/FreeCAD/pull/24190
 * https://github.com/FreeCAD/FreeCAD/pull/24550
@@ -89,6 +103,8 @@ ToDo (last check: 20260308):
 * https://github.com/FreeCAD/FreeCAD/pull/27375
 * https://github.com/FreeCAD/FreeCAD/pull/27381
 * https://github.com/FreeCAD/FreeCAD/pull/27746
+* https://github.com/FreeCAD/FreeCAD/pull/28036
+* https://github.com/FreeCAD/FreeCAD/pull/28104
 
 <span id="Further_BIM_improvements"></span>
 ===Pozostałe ulepszenia środowiska BIM===
@@ -102,10 +118,12 @@ ToDo (last check: 20260308):
 <span id="Draft_Workbench"></span>
 ==Środowisko pracy Rysunek Roboczy==
 
-ToDo (last check: 20260310):
+ToDo (last check: 20260318):
 * https://github.com/FreeCAD/FreeCAD/pull/26571
 * https://github.com/FreeCAD/FreeCAD/pull/26950
 * https://github.com/FreeCAD/FreeCAD/pull/27979
+* https://github.com/FreeCAD/FreeCAD/pull/27987
+* https://github.com/FreeCAD/FreeCAD/pull/28324
 
 <span id="Further_Draft_improvements"></span>
 ===Pozostałe ulepszenia środowiska Rysunek Roboczy===
@@ -116,6 +134,7 @@ ToDo (last check: 20260310):
 <span id="Further_FEM_improvements"></span>
 ===Pozostałe ulepszenia środowiska MES===
 
+<div class="mw-translate-fuzzy">
 * Obciążenie [[Image:FEM_ConstraintElectricChargeDensity.svg|24px]] [[FEM_ElectricChargeDensity/pl|Gęstością ładunku elektrycznego]] zyskało pole wyboru ''Skupione'' w trybie ''Total Source'', aby używać skupionego zamiast rozłożonego obciążenia (co pozwala na stosowanie go również do krawędzi i wierzchołków) z solverem CalculiX. [https://github.com/FreeCAD/FreeCAD/pull/25237 Pull request #25237]
 * [[Image:FEM_ResultShow.svg|24px]] [[FEM_ResultShow/pl|Obiekty wyników]] wspierają teraz animacje połowy cyklu oprócz odwróconych pełnych cykli. [https://github.com/FreeCAD/FreeCAD/pull/24129 Pull request #24129]
 * [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint/pl|Funkcja zapisu wyników z przekroju]] wspiera teraz modele 2D i strumień elektryczny w analizach elektrostatycznych. [https://github.com/FreeCAD/FreeCAD/pull/25081 Pull request #25081]
@@ -128,6 +147,7 @@ ToDo (last check: 20260310):
 * Komendy wszystkich solverów są teraz zawsze pokazywane (nawet jeśli dany solver nie jest zainstalowany) i są pogrupowane na pasku narzędzi oraz w menu. Domyślna ikona na pasku narzędzi zależy od domyślnego solvera wskazanego w Preferencjach. [https://github.com/FreeCAD/FreeCAD/pull/28144 Pull request #28144]
 * Przypisania materiałów są teraz odczytywane z plików {{FileName|.frd}} z wynikami [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools/pl|solvera CalculiX]]. Nie są one jeszcze dostępne we FreeCAD, ale można je wizualizować w ParaView po konwersji do formatu {{FileName|.vtm}}. [https://github.com/FreeCAD/FreeCAD/pull/27847 Pull request #27847]
 * Obiekty [[Image:FEM_MaterialMechanicalNonlinear.svg|24px]] [[FEM_MaterialMechanicalNonlinear/pl|Nieliniowego materiału mechanicznego]] są teraz grupowane pod obiektami [[Image:FEM_MaterialSolid.svg|24px]] [[FEM_MaterialSolid/pl|materiału ciała stałego]]. Właściwości ''Geometrical Nonlinearity'' oraz ''Material Nonlinearity'' są teraz właściwościami logicznymi. Druga z nich jest włączona domyślnie i stosowana tylko, jeśli jakikolwiek materiał w analizie ma przypisany obiekt nieliniowego materiału mechanicznego. W innym wypadku jest ignorowana. [https://github.com/FreeCAD/FreeCAD/pull/27862 Pull request #27862]
+</div>
 
 <span id="Inspection_Workbench"></span>
 == Środowisko pracy Inspekcja ==
@@ -159,8 +179,9 @@ ToDo (last check: 20260310):
 <span id="Part_Workbench"></span>
 ==Środowisko pracy Część==
 
-<span id="Further_Part_improvements"></span>
+<div class="mw-translate-fuzzy">
 ===Pozostałe ulepszenia środowiska Część===
+</div>
 
 <span id="Part_Design_Workbench"></span>
 ==Środowisko pracy Projekt Części==
@@ -234,6 +255,12 @@ ToDo (last check: 20260310):
 
 <span id="Further_TechDraw_improvements"></span>
 ===Pozostałe ulepszenia środowiska Rysunek Techniczny===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* Smooth edges in [[TechDraw_Workbench|TechDraw]] are now rendered with a thin line as required by ISO drawing standards. [https://github.com/FreeCAD/FreeCAD/pull/27747 Pull request #27747]
+* Section line font, font size, and arrow size in [[TechDraw_SectionView|TechDraw Section Views]] are now configurable per view via view properties. [https://github.com/FreeCAD/FreeCAD/pull/27521 Pull request #27521]
+* [[TechDraw_Workbench|TechDraw]] angle dimensions now support displaying the supplementary angle (180° minus the measured angle) via a view property. [https://github.com/FreeCAD/FreeCAD/pull/27055 Pull request #27055]
+</div>
 
 <span id="Import_and_export"></span>
 == Import i eksport==
