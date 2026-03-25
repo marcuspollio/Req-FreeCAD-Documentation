@@ -242,16 +242,14 @@ C'est fait!
 </div> <!-- Fin de l'élément pliable pour la section de contenu. Ne pas supprimer ! -->
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[SheetMetal_FromSolid/fr|Convertir en tôle]]
-|[[SheetMetal_Extrude/fr|Prolonger une face]]
+|[[SheetMetal_AddHem/fr|Ourlet]]
 |[[SheetMetal_Workbench/fr|Atelier SheetMetal]]
 |IconL=SheetMetal_FromSolid.svg
-|IconR=SheetMetal_Extrude.svg
+|IconR=SheetMetal_AddHem.svg
 |IconC=Sheetmetal_workbench_icon.svg
 }}
-</div>
 
 [[Category:SheetMetal{{#translation:}}]]
 [[Category:Addons{{#translation:}}]]
