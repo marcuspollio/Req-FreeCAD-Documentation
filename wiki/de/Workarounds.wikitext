@@ -206,13 +206,11 @@ Das Ziel dieses Artikels ist es, einige zurzeit fehlende Funktionen von FreeCAD 
 |
 * Kuppeln manuell erstellen; Kugeln ([[Part_Sphere/de|Part Kugel]] oder [[PartDesign_AdditiveSphere/de|PartDesign KugelHinzufügen]]) mit richtig eingestellten Parametern können für einfache Kuppeln verwendet werden
 
-<div class="mw-translate-fuzzy">
 |-
-| 23
+| 22
 | Flächen auf andere Flächen ausdehnen (nützlich z. B. beim Extrahieren von Mitteloberflächen, wie oben erwähnt)
 |
 * Das Werkzeug [[Draft_Upgrade/de|Draft Hochstufen]] auf den zu erweiternden Flächen verwenden, die entsprechenden Kanten mit [[Draft_Stretch/de|Draft Strecken]] erweitern und die Flächen mit [[Part_MakeFace/de|Part FlächeErstellen]] neu erstellen
-</div>
 
 <div class="mw-translate-fuzzy">
 |-
