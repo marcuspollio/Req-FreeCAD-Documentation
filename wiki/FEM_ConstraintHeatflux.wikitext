@@ -46,7 +46,7 @@ Defines a heat flux load on a surface. The following heat flux types are support
 #* Select the {{MenuCommand|Model → Thermal Boundary Conditions and Loads → [[Image:FEM_ConstraintHeatflux.svg|16px]] Heat Flux Load}} option from the menu.
 # Click the {{Button|Add}} button. In the [[3D_View|3D View]] select the face(s) ({{Version|1.1}}: or edge(s) in 2D models) on which the heat flux load should be applied. Optionally, click the {{Button|Remove}} button to remove the selected faces/edges from the selection list.
 # Choose the heat flux type and specify its parameters:
-#* ''DFlux'' - general heat flux, enter the ''Surface Heat Flux'' in Watts per surface area (W/m^2)
+#* ''Flux'' - general heat flux, enter the ''Surface Heat Flux'' in Watts per surface area (W/m^2)
 #* ''Convection'' (default) - convective heat flux, enter the desired ''Film Coefficient'' and ''Ambient Temperature''
 #* {{Version|1.0}}: ''Radiation'' - radiation heat flux, enter the surface ''Emissivity'' and ''Ambient Temperature''
 
