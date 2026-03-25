@@ -32,23 +32,21 @@ Un '''ourlet''' se compose généralement d'un coude cylindrique d'environ 180°
 <span id="Usage"></span>
 ==Utilisation==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select one or more edges of a solid shape.
-# There are several ways to invoke the command:
-#* Press the {{Button|[[Image:SheetMetal_AddHem.svg|16px]] [[SheetMetal_AddHem|Make Hem]]}} button.
-#* Select the {{MenuCommand|Sheet Metal → [[Image:SheetMetal_AddHem.svg|16px]] Make Hem}} option from the menu.
-#* Right-click in the [[Tree_View|Tree View]] or the [[3D_View|3D View]] and select the {{MenuCommand|Sheet Metal → [[Image:SheetMetal_AddHem.svg|16px]] Make Hem}} option from the context menu.
-#* Use the keyboard shortcut: {{KEY|Z}}.
-# A '''Hem''' object is created that consists of one new hem at each selected edge, and the '''Hem properties''' [[Task_Panel|Task Panel]] opens:
-#*With the '''General''' tab selected:
-#** Optionally press the {{Button|Select}} button to add more edges.
-#*** Optionally press the {{Button|Clear selection}} button to clear the list of selected edges.
-#*** Press the {{Button|Preview}} button to finish the selection and display the changes.
-#** Optionally adjust the bend parameters in this tab. See the [[#General|General]] section of the Task Panel description below
-#* Optionally switch to another tab to adjust more parameters. See [[#Offsets|Offsets]], or [[#Miter|Miter]], section of the Task Panel description below.
-# Press the {{Button|OK}} button to finish the command and close the Task Panel.
-# Optionally adjust the parameters in the [[Property_View|Property View]].
-</div>
+# Sélectionnez une ou plusieurs arêtes d'une forme solide.
+# Il existe plusieurs façons de lancer la commande :
+#* Cliquez sur le bouton {{Button|[[Image:SheetMetal_AddHem.svg|16px]] [[SheetMetal_AddHem/fr|Créer un ourlet]]}}.
+#* Sélectionnez l'option {{MenuCommand|SheetMetal → [[Image:SheetMetal_AddHem.svg|16px]] Créer un ourlet}} dans le menu.
+#* Cliquez avec le bouton droit de la souris dans l'[[Tree_View/fr|arborescence]] ou la [[3D_View/fr|vue 3D]] et sélectionnez l'option {{MenuCommand|SheetMetal → [[Image:SheetMetal_AddHem.svg|16px]] Créer un ourlet}} dans le menu contextuel.
+#* Utilisez le raccourci clavier : {{KEY|Z}}.
+# Un objet '''Hem''' est créé, composé d'un nouvel ourlet sur chaque bord sélectionné et le [[Task_Panel/fr|panneau des tâches]] '''Propriétés de l'ourlet''' s'ouvre :
+#* Avec l'onglet '''Général''' sélectionné :
+#** Vous pouvez appuyer sur le bouton {{Button|Sélectionner}} pour ajouter d'autres bords.
+#*** Vous pouvez également appuyer sur le bouton {{Button|Effacer la sélection}} pour effacer la liste des bords sélectionnés.
+#*** Appuyez sur le bouton {{Button|Aperçu}} pour finaliser la sélection et afficher les modifications.
+#** Vous pouvez également ajuster les paramètres de courbure dans cet onglet. Voir la section [[#Général|Général]] de la description du panneau de tâches ci-dessous
+#* Vous pouvez passer à un autre onglet pour régler d'autres paramètres. Voir les sections [[#Offsets|Décalages]] ou [[#Miter|Chanfrein]] de la description du panneau de tâches ci-dessous.
+# Appuyez sur le bouton {{Button|OK}} pour terminer la commande et fermer le panneau de tâches.
+# Vous pouvez régler les paramètres dans l'[[Property_View/fr|éditeur de propriétés]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Task Panel===
