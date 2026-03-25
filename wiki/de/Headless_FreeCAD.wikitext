@@ -94,9 +94,7 @@ The exact paths depend on the platform and installation method.
 This manual setup ensures that workbench modules are importable, document objects are reconstructed with their correct types, and additional Python utilities bundled with workbenches become available.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Note that the FreeCAD GUI environment performs this initialization automatically. In headless usage, however, this step must be handled explicitly by the user.
-</div>
+Es muss beachtet werden, dass die FreeCAD-GUI-Umgebung diese Initialisierung automatisch durchführt. Bei der Verwendung ohne grafische Benutzeroberfläche muss dieser Schritt jedoch explizit vom Benutzer durchgeführt werden.
 
 Siehe [[Embedding_FreeCAD/de|FreeCAD einbinden]].
 
