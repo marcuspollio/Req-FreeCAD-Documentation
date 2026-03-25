@@ -46,10 +46,8 @@ Copiare il codice e incollarlo nella console Python di FreeCAD il comando arà d
 **    pl.Base=FreeCAD.Vector(-1.89847898483,-0.490152746439,0.0)	
 **    give '''placemObject = pl'''
 
-<div class="mw-translate-fuzzy">
 Se non vengono forniti dei parametri, ad esempio "'''circle()'''", nella vista Report viene visualizzato l'elenco delle funzioni disponibili.
 <br /><br />
-</div>
 
 ==Script==
 
