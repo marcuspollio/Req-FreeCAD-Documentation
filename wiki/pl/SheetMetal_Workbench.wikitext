@@ -42,6 +42,10 @@ Wszystkie narzędzie Sheet Metal są zlokalizowane w menu {{MenuCommand|Sheet Me
 
 * [[Image:SheetMetal_AddWall.svg|32px]] [[SheetMetal_AddWall/pl|Dodaj ścianę]]: Dodaje kołnierz na każdej wybranej krawędzi płyty bazowej ''(Kołnierz można przekształcić w obszycie, modyfikując jego kąt)''.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:SheetMetal_AddHem.svg|32px]] [[SheetMetal_AddHem|Make Hem]]: Adds a hem on each selected edge of a base plate. (Similar to the above tool but with settings optimized for hem creation. - introduced in version 0.8.10)
+</div>
+
 * [[Image:SheetMetal_Extrude.svg|32px]] [[SheetMetal_Extrude/pl|Wydłuż]]: Wydłuża blachę na wybranej krawędzi wzdłuż jej kierunku normalnego.
 
 * [[Image:SheetMetal_ExtendBySketch.svg|32px]] [[SheetMetal_ExtendBySketch/pl|Wydłuż przez szkic]]: Wydłuża blachę na wybranej ścianie krawędzi poprzez dodanie szkicu obrysu. Może być użyte do utworzenia zazębiającej się geometrii (to zostało oddzielone od powyższego narzędzia i jest dostępne w wersji 0.7.57 i nowszych).
