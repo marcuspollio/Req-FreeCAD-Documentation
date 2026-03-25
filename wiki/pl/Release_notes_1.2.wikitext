@@ -18,9 +18,7 @@ Starsze informacje na temat wydań FreeCAD można znaleźć na stronie [[Feature
 <span id="General"></span>
 ==Ogólne==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Multiple documents can now be edited simultaneously with independent tasks and undo/redo stacks, for example having two Sketches open at the same time (GSoC project). [https://github.com/FreeCAD/FreeCAD/pull/21978 Pull request #21978]
-</div>
+* Możliwe jest teraz jednoczesne edytowanie wielu dokumentów z niezależnymi zadaniami i stosami cofania, np. mając dwa szkice otwarte na raz (projekt GSoc). [https://github.com/FreeCAD/FreeCAD/pull/21978 Pull request #21978]
 
 <span id="User_interface"></span>
 ==Interfejs użytkownika==
