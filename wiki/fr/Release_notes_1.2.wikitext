@@ -125,7 +125,6 @@ ToDo (last check: 20260318):
 <span id="Further_FEM_improvements"></span>
 === Autres améliorations de FEM ===
 
-<div class="mw-translate-fuzzy">
 * La [[Image:FEM_ConstraintElectricChargeDensity.svg|24px]] [[FEM_ElectricChargeDensity/fr|densité de charge électrique]] dispose désormais d'une case à cocher « Concentrée » dans le mode « Source totale » pour utiliser une charge concentrée au lieu d'une charge distribuée (ce qui la rend également applicable aux arêtes et aux sommets) avec CalculiX. [https://github.com/FreeCAD/FreeCAD/pull/25237 Pull request #25237]
 * Les [[Image:FEM_ResultShow.svg|24px]] [[FEM_ResultShow/fr|résultats de FEM]] prennent désormais en charge l'animation de demi-cycles en plus des cycles complets inversés. [https://github.com/FreeCAD/FreeCAD/pull/24129 Pull request #24129]
 * La fonction [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint/fr|Enregistrer les résultats par section]] prend désormais en charge les modèles 2D et le flux électrique dans les analyses électrostatiques. [https://github.com/FreeCAD/FreeCAD/pull/25081 Pull request #25081]
@@ -138,7 +137,9 @@ ToDo (last check: 20260318):
 * Toutes les commandes du solveur sont désormais toujours affichées (même si un solveur donné n'est pas installé) et sont regroupées dans la barre d'outils ainsi que dans le menu. L'icône par défaut dans la barre d'outils dépend du solveur par défaut sélectionné dans les préférences. [https://github.com/FreeCAD/FreeCAD/pull/28144 Pull request #28144]
 * Les attributions de matériaux sont désormais lues à partir des fichiers de résultats {{FileName|.frd}} de [[FEM_SolverCalculixCcxtools/fr|CalculiX]]. Ils ne sont pas encore accessibles dans FreeCAD, mais peuvent être visualisés dans ParaView après les avoir convertis au format {{FileName|.vtm}}. [https://github.com/FreeCAD/FreeCAD/pull/27847 Pull request #27847]
 * Les [[Image:FEM_MaterialMechanicalNonlinear.svg|24px]] [[FEM_MaterialMechanicalNonlinear/fr|matériaux mécaniques non linéaire]] sont désormais regroupés sous les [[Image:FEM_MaterialSolid.svg|24px]] [[FEM_MaterialSolid/fr|matériaux solides]]. Les propriétés ''Geometrical Nonlinearity'' et ''Material Nonlinearity'' sont désormais booléennes. La seconde est activée par défaut et n'est appliquée que si un matériau de l'analyse se voit attribuer un objet de matériau mécanique non linéaire. Dans le cas contraire, elle est ignorée. [https://github.com/FreeCAD/FreeCAD/pull/27862 Pull request #27862]
-</div>
+* L'algorithme Z-refinement de [[Image:FEM_MeshNetgenFromShape.svg|24px]] [[FEM_MeshNetgenFromShape/fr|Netgen]], qui permet de créer des maillages extrudés, prend désormais également en charge les coques. [https://github.com/FreeCAD/FreeCAD/pull/28204 Pull request #28204]
+* Il est désormais possible de modifier les fichiers d'entrée des maillages afin d'ajouter des commandes personnalisées pour la génération de maillages, à l'instar de ce qui était déjà possible pour les solveurs. Certaines préférences générales de l'atelier FEM ont également été améliorées. [https://github.com/FreeCAD/FreeCAD/pull/27942 Pull request #27942]
+* La [[Image:FEM_ConstraintElectrostaticPotential.svg|24px]] [[FEM_ConstraintElectrostaticPotential/fr|condition aux limites de potentiel électrostatique]] s'appelle désormais ''Condition aux limites électromagnétique''. D'autres modifications mineures de nom ont été effectuées. [https://github.com/FreeCAD/FreeCAD/pull/27614 Pull request #27614]
 
 <span id="Inspection_Workbench"></span>
 == Atelier Inspection ==
