@@ -73,8 +73,10 @@ Alle Einstellungen mit ''kursiven'' Beschriftungen sind Standardwerte für neue 
 <span id="View_Defaults"></span>
 ===Standardwerte für Ansicht===
 
+<div class="mw-translate-fuzzy">
 * '''3D-Kamerarichtung verwenden''': Wenn akktiviert, wird die Richtung der 3D-Kamera (oder die Normale einer ausgewählten Fläche) als Ansichtsrichtung verwendet. Wenn nicht aktiviert, werden Ansichten als Vorderansichten erstellt. {{Version/de|1.0}}
 * '''Benennung immer anzeigen''': Wenn aktiviert, werden die Benennungen von Ansichten auch dann angezeigt, wenn die Rahmen unterdrückt werden. {{Version/de|1.0}}
+</div>
 
 <span id="Snapping"></span>
 ===Einrasten===
@@ -236,6 +238,7 @@ HLR steht für ''Entfernen (oder Ausblenden) verdeckter Linien'' (engl.: hidden 
 
 [[Image:Preferences_TechDraw_Page_Advanced.png|thumb|350px|Erweiterte Einstellungen]]
 
+<div class="mw-translate-fuzzy">
 * '''Flächen erkennen''': Wenn angehakt, versucht TechDraw, Flächen unter Verwendung der Liniensegmente zu erzeugen, die vom Algorithmus zum Entfernen verdeckter Linien zurückgegeben werden. Flächen müssen erkannt werden, um [[TechDraw_Hatching/de|Schraffieren]] verwenden zu können, aber bei komplexen Modellen kann es zu Leistungseinbußen kommen.
 * '''Fortschritt anzeigen''': Gibt Fortschrittsmeldungen aus, während die darzustellende Geometrie berechnet wird. {{Version/de|0.21}}
 * '''Neuen Flächenfinder-Algorithmus verwenden'': Wenn aktiviert, wird der neue Flächenfinder-Algorithmus verwendet, anstatt des originalen. {{Version/de|0.21}}
@@ -254,6 +257,7 @@ HLR steht für ''Entfernen (oder Ausblenden) verdeckter Linien'' (engl.: hidden 
 * '''Max. SVG-Schraffur-Felder''': Die maximale Anzahl (Limit) von SVG-Kacheln mit einer Größe von 64x64 Pixeln, die zum Schraffieren einer einzelnen Fläche verwendet werden. Bei großen Maßstäben könnte man einen Fehler wegen zu vieler SVG-Kacheln erhalten, dann muss man das Kachellimit erhöhen.
 * '''Max. PAT-Schraffur-Segmente''': Die maximale Anzahl von Schraffursegmenten, die beim Schraffieren einer Fläche mit einem PAT-Muster verwendet werden.
 * '''Hinweisfeld ziehen''': Die Modifikatortaste für das Ziehen des Hinweisfeldes kann angepasst werden, um Konflikte mit dem Betriebssystem oder der Tastenzuordnungen der Navigationsart zu verhindern. {{Version/de|1.0}}
+</div>
 
 
 {{Docnav/de
