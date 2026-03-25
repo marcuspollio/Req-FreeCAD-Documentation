@@ -39,6 +39,8 @@ The Sheet Metal tools are all located in the {{MenuCommand|Sheet Metal}} menu an
 
 * [[Image:SheetMetal_AddWall.svg|32px]] [[SheetMetal_AddWall|Make Wall]]: Adds a flange on each selected edge of a base plate. (The flange can be turned into a hem by modifying its angle.)
 
+* [[Image:SheetMetal_AddHem.svg|32px]] [[SheetMetal_AddHem|Make Hem]]: Adds a hem on each selected edge of a base plate. (Similar to the above tool but with settings optimized for hem creation. - introduced in version 0.8.10)
+
 * [[Image:SheetMetal_Extrude.svg|32px]] [[SheetMetal_Extrude|Extend Face]]: Extends a sheet metal plate at a selected edge face along its normal.
 
 * [[Image:SheetMetal_ExtendBySketch.svg|32px]] [[SheetMetal_ExtendBySketch|Extend by Sketch]]: Extends a sheet metal plate at a selected edge face by adding an outline sketch. It can be used to create interlocking geometry. (This was split from the above tool and is available in version 0.7.57 and newer)
