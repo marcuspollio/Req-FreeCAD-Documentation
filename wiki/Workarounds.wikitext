@@ -28,66 +28,37 @@ The goal of this article is to list some currently missing features in FreeCAD a
 |
 * Create a face from the sketch with [[Part_MakeFace|Part MakeFace]], then analyze that face with [[Part_CheckGeometry|Part CheckGeometry]]
 
-<!--T:15-->
-|-
-| 3
-| Possibility to use the results of the [[Sketcher_External|External Geometry]] tool directly for operations on the sketch
-|
-* Manually trace over the geometry created by this tool
-* [https://github.com/realthunder/FreeCAD/releases Link Branch] - Defining Geometry tool
-
-<!--T:16-->
-|-
-| 4
-| Project multiple edges at once with the [[Sketcher_External|External Geometry]] tool when a face is selected
-|
-* Project edges individually
-
 <!--T:17-->
 |-
-| 5
+| 3
 | 3D sketches
 |
 * Use the [[Draft_Workbench|Draft Workbench]], but 3D drafts can't be converted to sketches (however, they can be used for spatial frame analyses done [[FEM_Workbench|internally]] or externally, and for [[PartDesign_AdditivePipe|PartDesign AdditivePipe]] or [[Part_Sweep|Part Sweep]] paths)
 
-<!--T:18-->
-|-
-| 6
-| Projection of cut edges when making a sketch on a plane cutting through an object
-|
-* Create a [[Std_LinkMake|Link]] from the object, and [[Part_SliceApart|slice]] that object to get actual cut edges
-
 <!--T:19-->
 |-
-| 7
+| 4
 | [[Sketcher_ViewSection|View section]] tool showing filled cuts
 |
 * If the sketch is plane-parallel to one of the main planes of the global coordinate system: use [[Part_SectionCut|Part SectionCut]]
 
 <!--T:91-->
 |-
-| 8
+| 5
 | Diameter dimension with respect to a symmetry axis for revolved parts
 |
 * Create a radius dimension instead (you can enter the diameter divided by 2 - the calculation will be handled by FreeCAD)
 
 <!--T:113-->
 |-
-| 9
+| 6
 | Dimension labels adapting to the rotation of the view to be always readable
 |
 * Rotate the view when needed
 
-<!--T:114-->
-|-
-| 10
-| First [[Sketcher_Workbench#Dimensional_constraints|dimension]] in the sketch scaling the geometry so that its initially drawn shape is not broken
-|
-* Apply some [[Sketcher_Workbench#Dimensional_constraints|dimensional constraints]] before drawing the entire shape
-
 <!--T:115-->
 |-
-| 11
+| 7
 | An option to hide the whole [[Sketcher_ToggleConstruction|construction geometry]] in an active sketch
 |
 * In the Elements window, use the ''Construction'' filter, select the [[Sketcher_ToggleConstruction|construction geometry]] entities there and uncheck their checkboxes
