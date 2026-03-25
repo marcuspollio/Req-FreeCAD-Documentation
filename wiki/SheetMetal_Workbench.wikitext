@@ -57,6 +57,7 @@ The Sheet Metal tools are all located in the {{MenuCommand|Sheet Metal}} menu an
 <!--T:56-->
 * [[Image:SheetMetal_AddWall.svg|32px]] [[SheetMetal_AddWall|Make Wall]]: Adds a flange on each selected edge of a base plate. (The flange can be turned into a hem by modifying its angle.)
 
+<!--T:111-->
 * [[Image:SheetMetal_AddHem.svg|32px]] [[SheetMetal_AddHem|Make Hem]]: Adds a hem on each selected edge of a base plate. (Similar to the above tool but with settings optimized for hem creation. - introduced in version 0.8.10)
 
 <!--T:57-->
