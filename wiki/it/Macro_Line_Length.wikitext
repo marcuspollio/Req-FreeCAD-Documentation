@@ -22,9 +22,7 @@ Questa piccola macro crea una linea fornendo come argomenti le coordinate XYZ, l
 
 Può essere usata dall'editor delle macro di FreeCAD.
 
-<div class="mw-translate-fuzzy">
-i valori di default sono : x1=0, y1=0, z1=0, length=10, angle=0
-</div>
+I valori di default sono : x1=0, y1=0, z1=0, length=10, angle=0
 
 ==Script==
 
