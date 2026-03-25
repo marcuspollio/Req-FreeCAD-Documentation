@@ -37,13 +37,11 @@ Das Ziel dieses Artikels ist es, einige zurzeit fehlende Funktionen von FreeCAD 
 |
 * Wenn die Skizze zu einer der Hauptebenen des globalen Koordinatensystems ebenparallel ist, verwendet man [[Part_SectionCut/de|Part Schnittansicht]]
 
-<div class="mw-translate-fuzzy">
 |-
-| 8
+| 5
 | Durchmessermaß in Bezug auf eine Symmetrieachse für gedrehte Teile
 |
 * Eine Radiusbemaßung erstellen (man kann den Durchmesser geteilt durch 2 eingeben – die Berechnung übernimmt FreeCAD)
-</div>
 
 <div class="mw-translate-fuzzy">
 |-
