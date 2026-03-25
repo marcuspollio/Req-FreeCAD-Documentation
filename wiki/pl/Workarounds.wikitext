@@ -25,13 +25,11 @@ Celem tego artykułu jest zebranie obecnie brakujących funkcjonalności we Free
 |
 * Utwórz powierzchnię ze szkicu przy pomocy narzędzia [[Part_MakeFace/pl|Część: Utwórz ścianę z linii łamanych]], następnie dokonaj analizy przy pomocy narzędzia [[Part_CheckGeometry/pl|Część: Sprawdź geometrię]].
 
-<div class="mw-translate-fuzzy">
 |-
-| 5
+| 3
 | Szkice 3D
 |
 * Użyj [[Draft_Workbench/pl|środowiska Rysunek Roboczy]], chociaż geometria 3D tam utworzona nie może by przekonwertowana do szkicu ''(ale da się ją wykorzystać do analiz ram przestrzennych w [[FEM_Workbench/pl|środowisku MES]] lub zewnętrznym programie oraz do ścieżek dla operacji [[PartDesign_AdditivePipe/pl|Projekt Części: Wyciągnięcie po ścieżce]] or [[Part_Sweep|Część: Wyciągnięcie po ścieżce]])''.
-</div>
 
 <div class="mw-translate-fuzzy">
 |-
