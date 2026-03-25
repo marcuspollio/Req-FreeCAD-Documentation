@@ -90,13 +90,11 @@ Double-cliquez sur un objet Hem existant dans l'[[Tree_View/fr|arborescence]] po
 
 [[Image:SheetMetal_AddHem-Task2.png|260px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Gap A''': Sets the '''gap1''' property.
-* '''Gap B''': Sets the '''gap2''' property.
-* '''Rectangle''' and '''Round''' radio buttons:  Toggle the '''relief Type''' property.
-* '''Width''': Sets the '''reliefw''' property.
-* '''Depth''': Sets the '''reliefd''' property.
-</div>
+* '''Espacement A''': définit la propriété '''gap1'''.
+* '''Espacement B''': définit la propriété '''gap2'''.
+* Boutons radio '''Rectangle''' et '''Rond''' : permet de basculer entre les valeurs de la propriété '''relief Type'''.
+* '''Largeur''': définit la propriété '''reliefw'''.
+* '''Profondeur''': définit la propriété '''reliefd'''.
 
 <span id="Miter"></span>
 ====Onglet====
