@@ -32,9 +32,8 @@ There are some good resources out there to handle materials more easily:
 * [https://www.uuidgenerator.net/ UUID generator] to create unique UUIDs for new models. A Version 4 UUID is recommended.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Properties ==
-</div>
+<span id="Properties"></span>
+== Proprietà ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In contrast with the previous materials standard, material properties are clearly defined. They have been designed to be granular and extensible. Properties can inherit multiple properties, adding only what is different. This will improve searching and simplify implementation.
