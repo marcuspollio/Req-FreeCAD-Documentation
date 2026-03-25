@@ -35,9 +35,7 @@ Avec bisColor, les lignes de la ligne d'origine sont générées selon l'alterna
 
 ==Script==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-ToolBar Icon [[Image:Macro_Cut_Line.png]]
-</div>
+Icône de la barre d'outils [[Image:Macro_Cut_Line.png]]
 
 '''Macro_cutLine.FCMacro'''
 
@@ -124,9 +122,8 @@ Si la macro complète est collée dans l'éditeur Python de FreeCAD utilisez la 
 cutLine(4, createLine = 1, biColor = 1, createPoint = 0)
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Links==
-</div>
+<span id="Links"></span>
+==Liens==
 
 <div class="mw-translate-fuzzy">
 ==Liens==
