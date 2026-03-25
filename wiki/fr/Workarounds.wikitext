@@ -4,8 +4,10 @@
 
 Le but de cet article est de lister certaines fonctionnalités actuellement manquantes dans FreeCAD et de fournir des solutions de contournement pour celles-ci. Il peut être utile aux nouveaux utilisateurs qui ne trouvent pas une fonctionnalité particulière dans FreeCAD.
 
-<span id="Workarounds_for_the_Sketcher_Workbench"></span>
+<span id="Sketcher_Workbench"></span>
+<div class="mw-translate-fuzzy">
 == Solutions de contournement de l'atelier Sketcher ==
+</div>
 
 {| class="wikitable"
 |-
@@ -24,65 +26,52 @@ Le but de cet article est de lister certaines fonctionnalités actuellement manq
 |
 * Créez une face à partir de l'esquisse avec [[Part_MakeFace/fr|Part Créer une face]], puis analysez cette face avec [[Part_CheckGeometry/fr|Part Vérifier la géométrie]]
 
-|-
-| 3
-| Possibilité d'utiliser les résultats de l'outil [[Sketcher_External/fr|Géométrie externe]] directement pour des opérations sur l'esquisse
-|
-* Tracez manuellement sur la géométrie créée par cet outil
-* [https://github.com/realthunder/FreeCAD/releases Fork de Realthunder] - Outil de définition de la géométrie
-
-|-
-| 4
-| Projeter plusieurs arêtes à la fois avec l'outil [[Sketcher_External/fr|Géométrie externe]] lorsqu'une face est sélectionnée
-|
-* Projetez des arêtes individuellement
-
+<div class="mw-translate-fuzzy">
 |-
 | 5
 | Esquisses 3D
 |
 * Utilisez l'[[Draft_Workbench/fr|atelier Draft]], mais les ébauches 3D ne peuvent pas être converties en esquisses (elles peuvent toutefois être utilisées pour des analyses ducadre spatial effectuées [[FEM_Workbench/fr|en interne]] ou en externe, et pour des [[PartDesign_AdditivePipe/fr|PartDesign Balayages additifs]] ou des [[Part_Sweep/fr|Part Balayages]])
+</div>
 
-|-
-| 6
-| Projection des arêtes de coupe lors de la réalisation d'une esquisse sur un plan traversant un objet
-|
-* Créez un [[Std_LinkMake/fr|lien]] à partir de l'objet, et [[Part_SliceApart/fr|séparer/exploser]] cet objet pour obtenir les arêtes de coupe réelles
-
+<div class="mw-translate-fuzzy">
 |-
 | 7
 | Outil [[Sketcher_ViewSection/fr|Vue en coupe]] montrant des coupes remplies
 |
 * Si l'esquisse est parallèle à l'un des plans principaux du système de coordonnées global : utilisez [[Part_SectionCut/fr|Part Coupe persistante]]
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 8
 | Dimension du diamètre par rapport à un axe de symétrie pour les pièces tournantes
 |
 * Créez plutôt une cote de rayon (vous pouvez entrer le diamètre divisé par 2 - le calcul sera effectué par FreeCAD).
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 9
 | Les étiquettes de dimension s'adaptent à la rotation de la vue pour être toujours lisibles.
 |
 * Rotation de la vue en cas de besoin
+</div>
 
-|-
-| 10
-| La première [[Sketcher_Workbench/fr#Contraintes_dimensionnelles|dimension]] dans l'esquisse met à l'échelle la géométrie de sorte que sa forme initialement dessinée ne soit pas brisée.
-|
-* Appliquez quelques [[Sketcher_Workbench/fr#Contraintes_dimensionnelles|contraintes_dimensionnelles]] avant de dessiner la forme entière.
-
+<div class="mw-translate-fuzzy">
 |-
 | 11
 | Une option pour cacher l'ensemble de l'ensemble de la [[Sketcher_ToggleConstruction/fr|géométrie de construction]] dans une esquisse active.
 |
 * Dans la fenêtre Éléments, utilisez le filtre ''Construction'', sélectionnez les entités [[Sketcher_ToggleConstruction/fr|géométrie de construction]] et décochez leurs cases.
+</div>
 
 |}
 
-<span id="Workarounds_for_the_Part_Workbench_and_Part_Design_Workbench"></span>
+<span id="Part_Workbench_and_Part_Design_Workbenches"></span>
+<div class="mw-translate-fuzzy">
 == Solutions de contournement pour l'atelier Part et l'atelier PartDesign ==
+</div>
 
 {| class="wikitable"
 |-
@@ -211,66 +200,78 @@ Le but de cet article est de lister certaines fonctionnalités actuellement manq
 * Pour les faces d'un [[PartDesign_Body/fr|PartDesign Corps]] : changez la propriété Refine de la dernière fonction à {{True}}, peut ne pas supprimer toutes les faces redondantes
 * Pour les faces coplanaires : utilisez [[Draft_Upgrade/fr|Draft Agréger]] deux fois pour obtenir une [[Draft_Wire|Draft Polyligne]], [[Draft_Downgrade/fr|Draft Désagréger]] la polyligne pour obtenir une face
 
-|-
-| 19
-| Outil [[PartDesign_Hole/fr|Perçage]] utilisant les points des esquisses
-|
-* Dessinez des cercles pour l'outil [[PartDesign_Hole/fr|Perçage]]
-
+<div class="mw-translate-fuzzy">
 |-
 | 20
 | [[PartDesign_Point/fr|Datum points]] de coordonnées
 |
 * Basez des [[PartDesign_Point/fr|datum points]] sur une géométrie existante
 * Créez des [[PartDesign_Point/fr|datum points]] à l'origine et modifiez leur [[Placement/fr|position]] par la suite.
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 21
 | Un outil pour la création automatique de nervures (renforts structurels)
 |
 * Créez des nervures manuellement, des pyramides tronquées ([[Part_Wedge/fr|Part Pyramide tronquée]] ou [[PartDesign_AdditiveWedge/fr|PartDesign Pyramide tronquée additive]]) peuvent être utilisés pour des nervures triangulaires simples.
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 22
 | Un outil pour la création automatique de dômes
 |
 * Créez des dômes manuellement, des sphères ([[Part_Sphere/fr|Part Sphère]] ou des [[PartDesign_AdditiveSphere|PartDesign Sphère additive]]) avec des paramètres correctement ajustés peuvent être utilisées pour des dômes sphériques simples.
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 23
 | Extension des faces jusqu'à d'autres faces (utile par exemple lors de l'extraction des milieux de surface, comme mentionné ci-dessus)
 |
 * Utilisez l'outil [[Draft_Upgrade/fr|Draft Agréger]] sur les faces à étendre, étendez les bords appropriés avec [[Draft_Stretch/fr|Draft Étirer]] et recréez les faces en utilisant [[Part_MakeFace/fr|Part Créer une face]].
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 24
 | Versions floues des [[Part_Workbench/fr#Barres_d'outils_des_booléens|Part Opérateurs booléens]] (possibilité de spécifier une tolérance pour l'union booléenne et d'autres opérations)
 |
 * Extension [[Defeaturing_Workbench/fr|Atelier Defeaturing]].
 |
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 25
 | [[PartDesign_AdditiveLoft/fr|PartDesign Lissage additif]] et [[PartDesign_AdditivePipe/fr|PartDesign Balayage additif]] avec la possibilité d'utiliser un profil ouvert comme première ou dernière section.
 |
 * Différentes approches de modélisation, impliquant par exemple une [[PartDesign_Pad/fr|PartDesign Protrusion]].
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 26
 | Un outil pour [[Part_Sweep/fr|balayer]] un profil circulaire d'un diamètre donné le long d'une trajectoire sélectionnée.
 |
 * Dessiner le profil circulaire manuellement
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 27
 | Affichage facultatif du système de coordonnées locales pour les [[PartDesign_Plane/fr|plans de référence]].
 |
 * Attachez un [[PartDesign_CoordinateSystem/fr|système de coordonnées de référence]] au plan de référence pour voir son orientation locale.
+</div>
 
 |}
 
-<span id="Workarounds_for_the_Draft_Workbench"></span>
+<span id="Draft_Workbench"></span>
+<div class="mw-translate-fuzzy">
 == Solutions de contournement de l'atelier Draft ==
+</div>
 
 {| class="wikitable"
 |-
@@ -322,8 +323,10 @@ Le but de cet article est de lister certaines fonctionnalités actuellement manq
 
 |}
 
-<span id="Workarounds_for_the_TechDraw_Workbench"></span>
+<span id="TechDraw_Workbench"></span>
+<div class="mw-translate-fuzzy">
 == Solutions de contournement de l'atelier TechDraw ==
+</div>
 
 {| class="wikitable"
 |-
@@ -397,8 +400,10 @@ Le but de cet article est de lister certaines fonctionnalités actuellement manq
 * Créez une [[TechDraw_View/fr|vue standard]] à partir de la bonne direction. Les solutions de contournement pour "Vue normale à une face" peuvent être utiles. Faites pivoter et positionnez la vue selon vos besoins.
 |}
 
-<span id="Workarounds_for_the_FEM_Workbench"></span>
+<span id="FEM_Workbench"></span>
+<div class="mw-translate-fuzzy">
 == Solutions de contournement de l'atelier FEM ==
+</div>
 
 {| class="wikitable"
 |-
@@ -480,85 +485,95 @@ Le but de cet article est de lister certaines fonctionnalités actuellement manq
 * [https://github.com/realthunder/FreeCAD/releases Fork de Realthunder]
 * Rendu avec un logiciel externe tel que [https://www.blender.org/ Blender].
 
-|-
-| 2
-| Instructions de la [[Status_bar/fr|Barre d'état]] ("Maintenant, prenez ce...") pour de nombreux outils qui en bénéficieraient (par exemple, [[Sketcher_Workbench/fr#Contraintes_d.27esquisse|Sketcher Contraintes d'esquisse]]), des infobulles plus informatives
-|
-* [[Main_Page/fr|La documentation du Wiki]]
-
+<div class="mw-translate-fuzzy">
 |-
 | 3
 | Ordre de sélection cohérent - certains outils exigent que l'utilisateur choisisse d'abord l'entité géométrique alors que d'autres permettent la sélection après avoir activé l'outil
 |
 * Pas de solution de contournement connue
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 4
 | Plus d'options de personnalisation de l'interface graphique - menus à secteurs, différents styles et thèmes d'icônes, etc.
 |
 * Divers paquets de personnalisation créés par la communauté
 * [https://github.com/realthunder/FreeCAD/releases Fork de Realthunder]
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 5
 | Outils de sélection avancés : sélection par angle, inversion de la sélection, sélection à l'intérieur des faces, etc.
 |
 * Sélection manuelle
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 6
 | Atelier d'[[Assembly/fr|assemblage]] avec possibilité de contraindre les pièces à l'origine et aux données.
 |
 * Pas de solution de contournement connue
+</div>
 
-|-
-| 7
-| L'outil [[Std_TransformManip/fr|Std Transformer]] avec une option de déplacement et de rotation par rapport aux bords et aux coordonnées globales
-|
-* Extension [[Manipulator_Workbench/fr|atelier Manipulator]]
-
+<div class="mw-translate-fuzzy">
 |-
 | 8
 | Plus d'options de textures
 |
 * Pas de solution de contournement connue
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 9
 | Mettre en évidence uniquement la fonction individuelle de PartDesign dans la [[3D_view/fr|Vue 3D]] lorsque l'opération correspondante est sélectionnée dans la [[Tree_view/fr|Vue en arborescence]]
 |
 * Pas de solution de contournement connue
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 10
 | Sélectionner uniquement l'élément PartDesign individuel dans la [[Tree_view/fr|Vue en arborescence]] lorsqu'un élément correspondant est sélectionné dans la [[3D_view/fr|Vue 3D]]
 |
 * Pas de solution de contournement connue
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 11
 | Modélisation en forme libre
 |
 * Modélisez des formes complexes de manière "traditionnelle", par exemple en utilisant les ateliers externes [[Curves_Workbench/fr|Curves]] et [[CurvedShapes_Workbench/fr|CurvedShapes]].
 * Sculptez des maillages, par exemple dans [https://www.blender.org/ Blender] et les importer dans FreeCAD.
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 12
 | Les générateurs et calculateurs de composants d'assemblage pour : les assemblages boulonnés et rivetés, les arbres, les cannelures, les clavettes, les cames, les engrenages (droits, coniques, à vis sans fin), les roulements, les ressorts, les courroies et les chaînes, les axes, les joints toriques
 |
 * L'[[Fasteners_Workbench/fr|atelier Fasteners]] et l'[[Gear_Workbench/fr|atelier Gear]] mais aucun calcul de conception disponible.
 * [[PartDesign_WizardShaft/fr|PartDesign Conception d'arbre]] - calculs de base pour les arbres
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 13
 | Un outil d'analyse cinématique sur des esquisses correctement contraintes
 |
 * [[Scripting_and_macros/fr|Exemples de scripts et macros]] - [https://forum.freecadweb.org/viewtopic.php?f=8&t=68826&start=10#p596531 exemple]
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 14
 | [[https://en.wikipedia.org/wiki/Geometric_dimensioning_and_tolerancing GD&T]] directement sur les modèles 3D - approche [https://en.wikipedia.org/wiki/Model-based_definition Model-based definition]
 |
 * Outils [[Draft_Workbench/fr#Annotation|Draft Annotation]]
+</div>
 
 |}
