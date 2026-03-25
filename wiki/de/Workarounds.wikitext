@@ -25,13 +25,11 @@ Das Ziel dieses Artikels ist es, einige zurzeit fehlende Funktionen von FreeCAD 
 |
 * Mit [[Part_MakeFace/de|Part FlächeErstellen]] eine Fläche aus der Skizze erstellen und diese  Fläche anschließend mit [[Part_CheckGeometry/de|Part GeometrieÜberprüfen]] analysieren
 
-<div class="mw-translate-fuzzy">
 |-
-| 5
+| 3
 | 3D-Skizzen
 |
-* Den [[Draft_Workbench/de|Arbeitsbereich Draft]] nutzen, 3D-Entwürfe können jedoch nicht in Skizzen umgewandelt werden (sie können jedoch für räumliche Rahmenanalysen  [[FEM_Workbench/de|intern]] oder extern verwendet werden, und für [[PartDesign_AdditivePipe/de|PartDesign RohrHinzufügen]] oder [[Part_Sweep/de|Part Austragungs]]-Pfade)
-</div>
+* Es wird der [[Draft_Workbench/de|Arbeitsbereich Draft]] verwendet, aber 3D-Entwürfe können nicht in Skizzen umgewandelt werden (sie können jedoch für räumliche Rahmenanalysen  [[FEM_Workbench/de|intern]] oder extern verwendet werden, und für [[PartDesign_AdditivePipe/de|PartDesign RohrHinzufügen]] oder [[Part_Sweep/de|Part Austragungs]]-Pfade)
 
 <div class="mw-translate-fuzzy">
 |-
