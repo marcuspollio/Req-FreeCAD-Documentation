@@ -44,7 +44,7 @@ Defines an initial temperature for a thermo-mechanical analysis.
 
 ==Properties==
 
-* {{PropertyData|initial Temperature}}: Initial temperature magnitude.
+* {{PropertyData|Initial Temperature}}: Initial temperature magnitude.
 * {{PropertyData|References}} - {{Version|1.1}}: Regions to which the initial temperature is applied.
 * {{PropertyData|Enable Final Temperature}} - {{Version|1.1}}: Enabled prescribed temperature field in a static analysis step.
 * {{PropertyData|Final Temperature}} - {{Version|1.1}}: Value of a prescribed temperature field in a static analysis step.
