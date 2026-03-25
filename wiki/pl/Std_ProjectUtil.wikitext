@@ -22,9 +22,7 @@
 Za pomocą polecenia '''Narzędzie projektu''' można wyodrębnić pliki z pliku projektu FreeCAD ''({{FileName|*.FCStd}}), który w rzeczywistości jest plikiem [https://en.wikipedia.org/wiki/Zip_(file_format)'' ZIP], i po ręcznej edycji utworzyć z nich nowy plik projektu.
 
 [[Image:Project_utility_en.png]]
-<div class="mw-translate-fuzzy">
-{{Caption|Okno dialogowe Narzędzia projektu}}
-</div>
+{{Caption|Okno dialogowe Narzędzia dokumentu}}
 
 <span id="Usage"></span>
 ==Użycie==
