@@ -51,10 +51,7 @@ Tutto il codice di pythonAssistantWindow.FCMacro è contenuto in una macro, quin
 <span id="Usage"></span>
 ==Utilizzo==
 
-<div class="mw-translate-fuzzy">
-==Uso==
 La PAW si utilizza meglio se ha un pulsante su una barra degli strumenti. Può anche essere eseguita dal menu Macro o incollando il codice nella Console Python, ma queste ultime due opzioni riducono notevolmente la sua facilità d'uso.
-</div>
 
 Quando si avvia FreeCAD l'unica traccia della PAW è un pulsante sulla barra degli strumenti. Cliccando sul pulsante:
 * si apre la PAW nell'angolo in basso a destra
