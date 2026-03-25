@@ -59,32 +59,30 @@ Double-cliquez sur un objet Hem existant dans l'[[Tree_View/fr|arborescence]] po
 [[Image:SheetMetal_AddHem-Task1.png|260px]]
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{Button|Select}}: Changes the amount of edges in the '''base Object''' property.
-* '''Type''': Sets the '''HemType''' property.
-** '''Flat''' activates these sub-options:
-*** '''Width''': Sets the '''width''' property.
-*** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Toggles the '''invert''' property.
-*** '''Width includes bend''': Toggles the '''Include Bend''' property.
-** '''Open''': activates these sub-options:
-*** '''Width''': Sets the '''width''' property.
-*** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Toggles the '''invert''' property.
-*** '''Width includes bend''': Toggles the '''Include Bend''' property.
-*** '''Opening''': Sets the '''opening''' property.
-** '''Tear Drop''': activates these sub-options:
-*** '''Width''': Sets the '''width''' property.
-*** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Toggles the '''invert''' property.
-*** '''Width includes bend''': Toggles the '''Include Bend''' property.
-*** '''Bend radius''': Sets the '''radius''' property.
-*** '''Open''': Toggles the '''opened''' property.
-**** '''Opening''': Sets the '''opening''' property.
-** '''Rolled''': activates these sub-options:
-*** '''Bend radius''': Sets the '''radius''' property.
-*** '''Open''': Toggles the '''opened''' property.
-**** '''Roll angle''': Sets the '''Roll Angle''' property.
-* '''Position''': Sets the '''Bend Type''' property.
-* '''Unfold''': Toggles the '''unfold''' property.
-</div>
+* {{Button|Sélectionner}} : modifie le nombre d'arêtes de la propriété '''base Object'''.
+* '''Type''' : définit la propriété '''HemType'''.
+** '''Plat''' active les sous-options suivantes :
+*** '''Largeur''' : définit la propriété '''width'''.
+*** {{Button|[[Image:Invert_On.svg|16px]] Inverser la paroi}} : active ou désactive la propriété '''invert'''.
+*** '''Largeur inclut la courbure''' : active ou désactive la propriété '''Include Bend'''.
+** '''Ouverture''': active ces sous-options :
+*** '''Largeur''': définit la propriété '''width'''.
+*** {{Button|[[Image:Invert_On.svg|16px]] Inverser la paroi}} : active ou désactive la propriété '''invert'''.
+*** '''Largeur inclut la courbure''' : active ou désactive la propriété '''Include Bend'''.
+*** '''Ouverture''': définit la propriété '''opening'''.
+** '''Goutte''': active ces sous-options :
+*** '''Largeur''': définit la propriété '''width'''.
+*** {{Button|[[Image:Invert_On.svg|16px]] Inverser la paroi}}: active ou désactive la propriété '''invert'''.
+*** '''Largeur inclut la courbure''': active ou désactive la propriété '''Include Bend'''.
+*** '''Rayon de courbure''': définit la propriété '''radius'''.
+*** '''Ouvert''': active ou désactive la propriété '''opened'''.
+**** '''Ouverture''': définit la propriété '''opening'''.
+** '''Enroulé''': active ces sous-options :
+*** '''Rayon de courbure''': définit la propriété '''radius'''.
+*** '''Ouvert''': active ou désactive la propriété '''opened'''.
+**** '''Angle de roulis''': définit la propriété '''Angle de roulis'''.
+* '''Position''': définit la propriété '''Bend Type'''.
+* '''Déplier''': active ou désactive la propriété '''unfold'''.
 
 
 <span id="Offsets"></span>
