@@ -36,7 +36,6 @@ Définit une charge de flux thermique sur une surface. Les types de flux thermiq
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
 # Il existe plusieurs façons de lancer la commande :
 #* Appuyez sur le bouton {{Button|[[Image:FEM_ConstraintHeatflux.svg|16px]] [[FEM_ConstraintHeatflux/fr|Charge de flux thermique]]}}.
 #* Sélectionnez l'option {{MenuCommand|Modèle → Conditions limites et charges thermiques → [[Image:FEM_ConstraintHeatflux.svg|16px]] Charge de flux thermique}} du menu.
@@ -45,7 +44,6 @@ Définit une charge de flux thermique sur une surface. Les types de flux thermiq
 #* ''Flux thermique de surface'' : flux thermique général, entrez le ''Flux thermique de surface'' en Watts par unité de surface (W/m^2).
 #* ''Convection'' (par défaut) : flux thermique convectif, entrez le ''coefficient de transfert thermique'' et la ''coefficient de transfert thermique'' souhaités.
 #* ''Rayonnement'' : flux thermique par rayonnement, entrez l'''émissivité'' de la surface et la ''température ambiante''. {{Version/fr|1.0}}
-</div>
 
 <span id="Properties"></span>
 ==Propriétés==
