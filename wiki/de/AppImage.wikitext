@@ -27,8 +27,8 @@ Für andere Installationsarten siehe [[Download/de|Herunterladen]].
 ! style="text-align: center; font-size: 200%;" | Stable
 ! style="text-align: center; font-size: 200%;" | Development
 |-
-| style="text-align: center;" | [[Image:AppImage-logo.png|link=https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/1.0.2]] [https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/1.0.2 v1.0.2]
-| style="text-align: center;" | [[Image:AppImage-logo.png|link=https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds]] [https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds Weekly build]
+| style="text-align: center;" | [[Image:AppImage-logo.png|link=https://github.com/FreeCAD/FreeCAD/releases/tag/1.1.0]] [https://github.com/FreeCAD/FreeCAD/releases/tag/1.1.0 v1.1.0]
+| style="text-align: center;" | [[Image:AppImage-logo.png|link=https://github.com/FreeCAD/FreeCAD/releases]] [https://github.com/FreeCAD/FreeCAD/releases Development Builds]
 |}
 
 '''Wichtige Hinweise:'''.
@@ -162,11 +162,11 @@ chmod +x appimagetool-x86_64.AppImage
 <span id="Personalized_AppImages"></span>
 == Personalisierte AppImages ==
 
-Dank der Arbeit von {{Emphasis|realthunder}}, Autor von [[App_Link/de|Anwendungsverknüpfung]] und [[Assembly3_Workbench/de|Assembly3 Arbeitsbereich]], ist es möglich, benutzerdefinierte AnwendungsAbbilder mit Hilfe einer Reihe von Skripten zu erstellen.
+Dank der Arbeit von {{Emphasis|realthunder}}, Autor von [[App_Link/de|App Link]] und des [[Assembly3_Workbench/de|Arbeitsbereichs Assembly3]], ist es möglich, benutzerdefinierte AppImages mit Hilfe einer Reihe von Skripten zu erstellen.
 
-Dies macht es sehr bequem, Bilder für einen bestimmten Zweig des Quellcodes für andere zum Testen freizugeben. Obwohl AnwendungsAbbilder nur unter Linux funktioniert, ermöglichen es die Skripte von realthunder, AnwendungsAbbilder auch unter Windows und MacOS zu generieren.
+Dies macht es sehr bequem, Bilder für einen bestimmten Zweig des Quellcodes für andere zum Testen freizugeben. Obwohl AppImage nur unter Linux funktioniert, ermöglichen es die Skripte von realthunder, AppImages auch unter Windows und MacOS zu generieren.
 
-Das Repositorium für diese Skripte befindet sich unter [https://github.com/realthunder/FreeCADMakeImage realthunder/FreeCADMakeImage]. Bitte lies die [https://github.com/realthunder/FreeCADMakeImage/blob/master/Readme.md Readme.md] für weitere Einzelheiten.
+Das Repository für diese Skripte befindet sich unter [https://github.com/realthunder/FreeCADMakeImage realthunder/FreeCADMakeImage]. Bitte lies die [https://github.com/realthunder/FreeCADMakeImage/blob/master/Readme.md Readme.md] für weitere Einzelheiten.
 
 <span id="Related"></span>
 == Verwandtes ==
