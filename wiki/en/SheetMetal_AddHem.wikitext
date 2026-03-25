@@ -57,29 +57,28 @@ Double-click an existing Hem object in the [[Tree_View|Tree View]] to re-open th
 
 * {{Button|Select}}: Changes the amount of edges in the '''base Object''' property.
 * '''Type''': Sets the '''HemType''' property.
-** '''Flat''' activates these sub-options:
+** [[Image:SheetMetal_HemTypeFlat.svg|24px]] '''Flat''' activates these sub-options:
 *** '''Width''': Sets the '''width''' property.
 *** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Toggles the '''invert''' property.
 *** '''Width includes bend''': Toggles the '''Include Bend''' property.
-** '''Open''': activates these sub-options:
+** [[Image:SheetMetal_HemTypeOpen.svg|24px]] '''Open''': activates these sub-options:
 *** '''Width''': Sets the '''width''' property.
 *** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Toggles the '''invert''' property.
 *** '''Width includes bend''': Toggles the '''Include Bend''' property.
 *** '''Opening''': Sets the '''opening''' property.
-** '''Tear Drop''': activates these sub-options:
+** [[Image:SheetMetal_HemTypeTear.svg|24px]] '''Tear Drop''': activates these sub-options:
 *** '''Width''': Sets the '''width''' property.
 *** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Toggles the '''invert''' property.
 *** '''Width includes bend''': Toggles the '''Include Bend''' property.
 *** '''Bend radius''': Sets the '''radius''' property.
 *** '''Open''': Toggles the '''opened''' property.
 **** '''Opening''': Sets the '''opening''' property.
-** '''Rolled''': activates these sub-options:
+** [[Image:SheetMetal_HemTypeRolled.svg|24px]] '''Rolled''': activates these sub-options:
 *** '''Bend radius''': Sets the '''radius''' property.
 *** '''Open''': Toggles the '''opened''' property.
 **** '''Roll angle''': Sets the '''Roll Angle''' property.
 * '''Position''': Sets the '''Bend Type''' property.
 * '''Unfold''': Toggles the '''unfold''' property.
-
 
 ====Offsets====
 
