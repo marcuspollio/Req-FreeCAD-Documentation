@@ -1,5 +1,6 @@
 <languages/>
 __FORCETOC__
+
 == Geschichte ==
 [[File:Screenshot mesh.jpg|thumb|300px|Frühes FreeCAD, Version unbekannt]]
 [[File:Part BooleanOperations.png|thumb|300px|FreeCAD Version 0.7 von 2009]]
@@ -90,6 +91,17 @@ Im April 2019 wurde das Team der Kernentwickler erweitert: Zu Jürgen, Werner un
 ! class="unsortable" style="background-color: #cccccc;"| Veröffentlichungsverpflichtung
 ! class="unsortable" style="background-color: #cccccc;"| Veröffentlichungszweig
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+| style="background-color: #C1E6F5;"| 1.2
+| -
+| In development
+| [[Release_notes_1.2|Release notes 1.2]]
+| [https://github.com/FreeCAD/FreeCAD/commits/main head main]
+|
+</div>
+
+<div class="mw-translate-fuzzy">
 |-
 | style="background-color: #C1E6F5;"| 1.1
 | -
@@ -97,7 +109,9 @@ Im April 2019 wurde das Team der Kernentwickler erweitert: Zu Jürgen, Werner un
 | [[Release_notes_1.1/de|Versionshinweise 1.1]]
 | [https://github.com/FreeCAD/FreeCAD/commits/main head main]
 |
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | style="background-color: #D4F4B4;"| 1.0
 | BGBSWW
@@ -105,6 +119,7 @@ Im April 2019 wurde das Team der Kernentwickler erweitert: Zu Jürgen, Werner un
 | [[Release_notes_1.0/de|Versionshinweise 1.0]]
 | [https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-1-0 release commit 1.0]
 |[https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-1-0 branch bugfixes 1.0]
+</div>
 
 |-
 | style="background-color: #FDB3AB;"| 0.21
