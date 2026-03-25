@@ -127,9 +127,8 @@ Ein vorhandenes Hem-Objekt in der [[Tree_View/de|Baumansicht]] doppelt anklicken
 
 Siehe auch: [[Property_View/de|Eigenschaften-Ansicht]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-A SheetMetal '''Hem''' object is derived from a [[Part_Feature|Part Feature]] object or, if it is inside a [[PartDesign_Body|PartDesign Body]], from a [[PartDesign_Feature|PartDesign Feature]] object, and inherits all its properties. It also has the following additional properties:
-</div>
+Ein SheetMetal-'''Hem'''-Objekt wird von einem [[Part_Feature/de|Part-Formelement]] abgeleitet oder, wenn es sich in einem [[PartDesign_Body/de|PartDesign-Körper]] befindet, von einem [[PartDesign_Feature/de|PartDesign Formelement]]
+und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
 <span id="Data"></span>
 ===Daten===
