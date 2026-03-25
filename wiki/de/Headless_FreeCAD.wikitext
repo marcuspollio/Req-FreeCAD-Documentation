@@ -58,7 +58,49 @@ Dies ist eine sehr leistungsstarke Funktion, die das gesamte Potenzial von FreeC
 
 Beachte, dass dieser Modus für die Verwendung der FreeCAD-API ohne GUI vorgesehen ist. Zwar können einige GUI-bezogene Module importiert werden, doch ist die API-Nutzung, die direkt auf GUI-Komponenten zugreift oder diese manipuliert, sehr eingeschränkt und wird in einem headless-Kontext im Allgemeinen nicht unterstützt.
 
-Siehe [[Embedding_FreeCAD/de|FreeCAD einbinden]].
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Additional considerations for Workbench modules in headless mode ====
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+When using FreeCAD as a Python library in a headless context (for example via a standard Python interpreter or {{incode|FreeCADCmd}}), not all workbench modules are automatically available, even if the core FreeCAD modules can be imported successfully.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+In particular, modules located in the {{incode|Mod/}} directory (such as PartDesign or submodules of Part) may not be discoverable by Python unless their paths are explicitly added to {{incode|sys.path}}. This can lead to situations where document objects are loaded as generic types (for example {{incode|GeoFeature}}) instead of their specific types (for example {{incode|PartDesign::Body}}), or where imports of workbench-related modules fail.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To ensure full functionality, it may be necessary to manually extend the Python search path to include the FreeCAD {{incode|Mod/}} directory and, in some cases, specific subdirectories:
+</div>
+
+{{Code|code=
+import sys
+
+# Example paths (adjust to your installation)
+sys.path.append("/usr/lib/freecad/Mod")
+sys.path.append("/usr/lib/freecad/Mod/Part")
+
+# Workbench modules can now be imported
+import PartDesign
+from BOPTools import BOPFeatures
+}}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The exact paths depend on the platform and installation method.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+This manual setup ensures that workbench modules are importable, document objects are reconstructed with their correct types, and additional Python utilities bundled with workbenches become available.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Note that the FreeCAD GUI environment performs this initialization automatically. In headless usage, however, this step must be handled explicitly by the user.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+See [[Embedding_FreeCAD|Embedding FreeCAD]].
+</div>
 
 <span id="Via_shell_script"></span>
 ===Mit einem Shell-Skript===
