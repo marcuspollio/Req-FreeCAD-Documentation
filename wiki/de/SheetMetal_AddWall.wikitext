@@ -91,13 +91,13 @@ Ein vorhandenes Bend-Objekt in der [[Tree_View/de|Baumansicht]] doppelt anklicke
 
 [[Image:SheetMetal_AddWall-Task2.png|260px]]
 
-* '''Gap A''': Setzt die '''gap1'''-Eigenschaft.
-* '''Gap B''': Setzt die '''gap2'''-Eigenschaft.
-* '''Extend A''': Setzt die '''extend1'''-Eigenschaft.
-* '''Extend B''': Schaltet die '''extend2'''-Eigenschaft um.
-* '''Rectangle''' und '''Round''' Optionsfelder: '''relief Type'''-Eigenschaft umschalten.
-* '''Width''': Setzt die '''reliefw'''-Eigenschaft.
-* '''Depth''': Schaltet die '''reliefd'''-Eigenschaft um.
+* '''Gap A''': Eingabe für die Eigenschaft '''gap1'''.
+* '''Gap B''': Eingabe für die Eigenschaft '''gap2'''.
+* '''Extend A''': Eingabe für die Eigenschaft '''extend1'''.
+* '''Extend B''': Eingabe für die Eigenschaft '''extend2'''.
+* Die Auswahlfelder '''Rechteck''' und '''Rund''' schalten die Eigenschaft '''relief Type'''um.
+* '''Width''': Eingabe für die Eigenschaft '''reliefw'''.
+* '''Depth''': Eingabe für die Eigenschaft '''reliefd'''.
 
 <span id="Miter"></span>
 ====Gehrung====
