@@ -10,18 +10,15 @@
 |IconC=Sheetmetal_workbench_icon.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/fr
 |Name=SheetMetal AddHem
-|MenuLocation=SheetMetal → Make Hem
-|Workbenches=[[SheetMetal Workbench|SheetMetal]]
+|Name/fr=SheetMetal Ourlet
+|MenuLocation=SheetMetal → Créer un ourlet
+|Workbenches=[[SheetMetal_Workbench/fr|SheetMetal]]
 |Shortcut={{KEY|Z}}
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 ==Description==
-</div>
 
 La commande [[Image:SheetMetal_AddHem.svg|24px]] '''SheetMetal Ourlet'''permet de créer des ourlets sur les bords des surfaces sélectionnées. En modifiant la propriété {{PropertyData|angle}}, un bord peut être transformé en ourlet.
 
