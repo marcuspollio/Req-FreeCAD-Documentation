@@ -1,16 +1,14 @@
 {{UnfinishedDocu{{#translation:}}}}
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[SheetMetal_AddWall|AddWall]]
-|[[SheetMetal_Extrude|Extrude]]
-|[[SheetMetal_Workbench|SheetMetal]]
+{{Docnav/de
+|[[SheetMetal_AddWall/de|KanteAnsetzen]]
+|[[SheetMetal_Extrude/de|KanteVerlängern]]
+|[[SheetMetal_Workbench/de|SheetMetal]]
 |IconL=SheetMetal_AddWall.svg
 |IconR=SheetMetal_Extrude.svg
 |IconC=Sheetmetal_workbench_icon.svg
 }}
-</div>
 
 {{GuiCommand/de
 |Name=SheetMetal AddHem
