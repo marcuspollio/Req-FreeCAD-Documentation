@@ -22,9 +22,8 @@ In a departure from how it was implemented in previous versions, materials are n
 
 Nel nuovo sistema, le proprietà sono definite separatamente come una serie di file [https://en.wikipedia.org/wiki/YAML YAML]. Le proprietà vengono quindi combinate in una descrizione delle proprietà con valori specifici per le proprietà richieste. I nuovi tipi di dati, come gli array, implicano che non sia più possibile accedervi tramite semplici dizionari. Piuttosto, viene utilizzata un'API per accedere alle proprietà del materiale e ai valori dei dati. Ciò consente maggiori funzionalità rispetto a prima.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Tools ==
-</div>
+<span id="Tools"></span>
+== Strumenti ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 There are some good resources out there to handle materials more easily:
