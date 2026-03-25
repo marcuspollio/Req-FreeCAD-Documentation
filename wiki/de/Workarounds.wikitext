@@ -31,13 +31,11 @@ Das Ziel dieses Artikels ist es, einige zurzeit fehlende Funktionen von FreeCAD 
 |
 * Es wird der [[Draft_Workbench/de|Arbeitsbereich Draft]] verwendet, aber 3D-Entwürfe können nicht in Skizzen umgewandelt werden (sie können jedoch für räumliche Rahmenanalysen  [[FEM_Workbench/de|intern]] oder extern verwendet werden, und für [[PartDesign_AdditivePipe/de|PartDesign RohrHinzufügen]] oder [[Part_Sweep/de|Part Austragungs]]-Pfade)
 
-<div class="mw-translate-fuzzy">
 |-
-| 7
+| 4
 | Das Werkzeug [[Sketcher_ViewSection/de|Schnitt anzeigen]] zeigt ausgefüllte Schnitte
 |
-* Wenn die Skizze zu einer der Hauptebenen des globalen Koordinatensystems ebenparallel ist: Verwendet man [[Part_SectionCut/de|Part Schnittansicht]]
-</div>
+* Wenn die Skizze zu einer der Hauptebenen des globalen Koordinatensystems ebenparallel ist, verwendet man [[Part_SectionCut/de|Part Schnittansicht]]
 
 <div class="mw-translate-fuzzy">
 |-
