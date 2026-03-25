@@ -21,15 +21,13 @@ Dieses Makro schneidet Kreise oder Kreisbögen in mehrere Bögen. Die Bögen kö
 <span id="Usage"></span>
 ==Anwendung==
 
-<div class="mw-translate-fuzzy">
-# Das Makro '''cutCirle''' in die [[Python_console/de|Python-Konsole]] kopieren.
+# Das Makro '''cutCircle''' in die [[Python_Console/de|Python-Konsole]] kopieren.
 # {{KEY|Enter}} drücken (Der Code ist jetzt im Speicher).
 # Einen oder mehrere Kreise oder Kreisbögen auswählen.
 # Die Funktion {{Incode|cutCircle()}} mit 1 oder 2 Argumenten von der Python-Konsole aus aufrufen:
 #* Beispiel mit 1 Argument: {{Incode|cutCircle(4)}}. Dies erstellt 4 neue Bögen zu jedem ausgewählten Kreis oder Kreisbogen und stoppt an der Stelle (keine Einfärbung).
 #* Beispiel mit 2 Argumenten: {{Incode|cutCircle(6, 1)}}. Dies erstellt 6 neue Bögen zu jedem ausgewählten Kreis oder Kreisbogen, die abwechselnd in Rot und Weiß eingefärbt werden, wie in der Abbildung dargestellt.
 # Das originale Objekt wird nicht gelöscht.
-</div>
 
 <span id="Script"></span>
 ==Skript==
