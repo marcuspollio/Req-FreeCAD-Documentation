@@ -18,9 +18,7 @@
 
 Questa piccola macro crea un cerchio o un arco fornendo  a scelta raggio, diametro, circonferenza, area, angolo iniziale, angolo finale, arco, centro dell'angolo, corda, freccia, centro (punto), placemObject. Il nuovo cerchio viene creato nelle coordinate reali dell'oggetto, non nelle coordinate del corpo.<br/>{{ColoredText|(Riga di comando, incolla questa macro completa nella console Python)}}.
 
-<div class="mw-translate-fuzzy">
-Il cerchio viene posto frontale allo schermo, con getCameraOrientation, oppure secondo il posizionamento dato
-</div>
+Il cerchio viene posto frontale allo schermo, con getCameraOrientation, oppure secondo il posizionamento dato.
 
 <span id="Usage"></span>
 ==Utilizzo==
