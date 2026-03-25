@@ -165,6 +165,7 @@ ToDo (last check: 20260318):
 
 <!--T:41-->
 === Further Part improvements ===
+
 * A new method has been added to split a B-spline curve into two curves at a given parameter. [https://github.com/FreeCAD/FreeCAD/pull/26716 Pull request #26716]
 
 == Part Design Workbench == <!--T:42-->
