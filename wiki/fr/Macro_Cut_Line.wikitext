@@ -29,9 +29,7 @@ Vous pouvez l'utiliser dans une macro.
 *'''biColor''' : crée les lignes biColor (alternativement rouge puis blanche) (>0) ou non (0) (Défaut 0)
 
 
-<div class="mw-translate-fuzzy">
-Vous pouvez changer la valeur de la couleur des lignes par défaut dans la macro.
-</div>
+Vous pouvez modifier les valeurs par défaut dans la macro.
 
 <div class="mw-translate-fuzzy">
 Avec l'option bisColor les lignes sont créées de couleurs rouge et blanche, la couleur par défaut est modifiable dans le code aux lignes 20 et 23.
