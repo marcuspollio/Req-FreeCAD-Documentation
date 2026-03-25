@@ -13,10 +13,7 @@
 
 ==Description==
 
-<div class="mw-translate-fuzzy">
-==Description==
-Cette petite macro coupe une ligne en plusieurs lignes en donnant comme arguments le nombre de coupures, avec création de lignes ou non, colorer les lignes coupées par alternativement rouge puis blanche, création de points à l'endroit de la coupure ou non.
-</div>
+Cette petite macro trace une ligne et génère des points, des lignes et des lignes de deux couleurs différentes.
 
 [[File:Macro cutLine 00.png|400px]]
 {{Caption|cutLine}}
