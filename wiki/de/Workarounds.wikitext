@@ -49,13 +49,11 @@ Das Ziel dieses Artikels ist es, einige zurzeit fehlende Funktionen von FreeCAD 
 |
 * Die Ansicht bei Bedarf drehen
 
-<div class="mw-translate-fuzzy">
 |-
-| 11
-| Eine Option zum Ausblenden der gesamten [[Sketcher_ToggleConstruction/de|Konstruktionsgeometrie]] in einer aktiven Skizze
+| 7
+| Eine Option zum Ausblenden der gesamten [[Sketcher_ToggleConstruction/de|Hilfsgeometrie]] in einer aktiven Skizze
 |
-* Im Fenster Elemente den "Konstruktions"-Filter wählen, dort die [[Sketcher_ToggleConstruction/de|Konstruktionsgeometrie]]-Elemente auswählen und deren Kontrollkästchen deaktivieren
-</div>
+* Im Fenster Elemente den "Konstruktions"-Filter wählen, dort die [[Sketcher_ToggleConstruction/de|Hilfsgeometrie]]-Elemente auswählen und deren Kontrollkästchen deaktivieren
 
 |}
 
