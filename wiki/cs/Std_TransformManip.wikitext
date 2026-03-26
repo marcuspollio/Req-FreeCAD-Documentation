@@ -76,7 +76,8 @@ Kroky přichytávání jsou hodnoty, které slouží výhradně k řízení chov
 * '''Rotace''': Hodnota úhlu – krok přichytávání pro otočení objektu ve 3D pohledu kolem libovolné osy.
 Pokud je jako krok přichytávání nastaveno 0, je při přetahování ve 3D pohledu přichytávání deaktivováno.
 
-===Coordinate system===
+<span id="Coordinate_system"></span>
+===Souřadnicový systém===
 
 This dropdown sets the coordinate system for the manual inputs in the task panel. The coordinate system has no effect when transforming the object solely by dragging in the 3D View (except when choosing ''Global'' and check to ''align the dragger rotation to the selected coordinate system''.)
 
