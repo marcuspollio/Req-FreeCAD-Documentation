@@ -520,24 +520,22 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 <span id="Further_Sketcher_improvements"></span>
 === Další vylepšení pracovního prostředí Sketcher ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* It is now possible to directly use external geometry as input for tools like offset or transform (array), for both external construction and defining geometry. [https://github.com/FreeCAD/FreeCAD/pull/17615 Pull request #17615]
-* External geometry (projected or intersecting) is now by default real (defining) geometry (which does not need to be traced as in 1.0 and prior). It can be toggled to construction geometry as any other geometry [https://github.com/FreeCAD/FreeCAD/pull/17736 Pull request #17736]
-* The Sketcher axes are now displayed with infinite length. [https://github.com/FreeCAD/FreeCAD/pull/17312 Pull request #17312]
-* Sketches are now ordered alphabetically in the [[Image:Sketcher_MapSketch.svg|24px]] [[Sketcher_MapSketch|Attach sketch]] dialog. [https://github.com/FreeCAD/FreeCAD/pull/16518 Pull request #16518]
-* Group dragging was added, making it possible to drag all the selected geometrical entities. [https://github.com/FreeCAD/FreeCAD/pull/18273 Pull request #18273]
-* There is a new preference that, if checked, makes external geometry creation independent of the current construction mode - it is always created as reference geometry in such a case. [https://github.com/FreeCAD/FreeCAD/pull/18697 Pull request #18697]
-* A preference was added to allow optional grouping of the [[Image:Sketcher_CreateLine.svg|24px]] [[Sketcher_CreateLine|Line]] and [[Image:Sketcher_CreatePolyline.svg|24px]] [[Sketcher_CreatePolyline|Polyline]] tools. [https://github.com/FreeCAD/FreeCAD/pull/20165 Pull request #20165]
-* When selecting a constraint or a geometry element within the sketch, the corresponding Tasks panel list is now automatically scrolled to that object. [https://github.com/FreeCAD/FreeCAD/pull/18859 Pull request #18859] and [https://github.com/FreeCAD/FreeCAD/pull/20866 Pull request #20866]
-* Status bar hints were added for Sketcher geometry creation, constraint, edit and transform tools. [https://github.com/FreeCAD/FreeCAD/pull/21632 Pull request #21632],  [https://github.com/FreeCAD/FreeCAD/pull/21751 Pull request #21751], [https://github.com/FreeCAD/FreeCAD/pull/21806 Pull request #21806] and [https://github.com/FreeCAD/FreeCAD/pull/21840 Pull request #21840]
-* Sketches are now automatically scaled after entering the first dimension to avoid breaking the shape when the first dimension is much larger/smaller than the current size of the geometry. [https://github.com/FreeCAD/FreeCAD/pull/21084 Pull request #21084]
-* When creating geometry the mouse movement is ignored if a value is entered in the [[Sketcher_Workbench#On-View-Parameters|on-view-parameters]] (OVP). Tab cycles between OVP input boxes and Enter now confirms. Deleting the value of an OVP input box enables mouse movement for the dimension again. [https://github.com/FreeCAD/FreeCAD/pull/20925 Pull request #20925]
-* Rendering of geometry lines is now prioritized over constraints so that dimensions lines don't cover the geometry. [https://github.com/FreeCAD/FreeCAD/pull/21982 Pull request #21982]
-* Now all parts of dimension constraints can be selected, not only labels. [https://github.com/FreeCAD/FreeCAD/pull/21920 Pull request #21920]
-* It is now possible to use the Ctrl+A shortcut (or Select All option in the Edit menu) to select all geometries within the sketch. [https://github.com/FreeCAD/FreeCAD/pull/23289 Pull request #23289]
-* Box selection from left to right now uses another color than from right to left to indicate different behavior. [https://github.com/FreeCAD/FreeCAD/pull/23261 Pull request #23261]
-* There is a new preference for constraint symbol size. [https://github.com/FreeCAD/FreeCAD/pull/23366 Pull request #23366]
-</div>
+* Nyní je možné přímo použít externí geometrii jako vstup pro nástroje, jako jsou odsazení nebo transformace (pole), a to jak pro externí konstrukci, tak pro definování geometrie. [https://github.com/FreeCAD/FreeCAD/pull/17615 Žádost o začlenění #17615]
+* Externí geometrie (promítnutá nebo protínající) je nyní ve výchozím nastavení skutečnou (definující) geometrií (kterou není nutné trasovat, jako tomu bylo ve verzi 1.0 a starších). Lze ji přepnout na konstrukční geometrii stejně jako jakoukoli jinou geometrii. [https://github.com/FreeCAD/FreeCAD/pull/17736 Žádost o začlenění #17736]
+* Osy prostředí Sketcheru se nyní zobrazují jako nekonečné. [https://github.com/FreeCAD/FreeCAD/pull/17312 Žádost o začlenění #17312]
+* Náčrtky jsou nyní v dialogovém okně [[Image:Sketcher_MapSketch.svg|24px]] [[Sketcher_MapSketch/cs|Připojit náčrt]] seřazeny abecedně. [https://github.com/FreeCAD/FreeCAD/pull/16518 Žádost o začlenění #16518]
+* Byla přidána funkce hromadného přetahování, která umožňuje přetahovat všechny vybrané geometrické objekty. [https://github.com/FreeCAD/FreeCAD/pull/18273 Žádost o začlenění #18273]
+* K dispozici je nové nastavení, které, pokud je zaškrtnuto, zajistí, že vytváření externí geometrie nebude závislé na aktuálním režimu konstrukce – v takovém případě se vždy vytvoří jako referenční geometrie. [https://github.com/FreeCAD/FreeCAD/pull/18697 Žádost o začlenění #18697]
+* Byla přidána předvolba, která umožňuje volitelné seskupování nástrojů [[Image:Sketcher_CreateLine.svg|24px]] [[Sketcher_CreateLine/cs|Čára]] a [[Image:Sketcher_CreatePolyline.svg|24px]] [[Sketcher_CreatePolyline/cs|Lomená čára]]. [https://github.com/FreeCAD/FreeCAD/pull/20165 Žádost o začlenění #20165]
+* Při výběru vazby nebo geometrického prvku v náčrtu se nyní seznam v panelu Úkoly automaticky posune na tento objekt. [https://github.com/FreeCAD/FreeCAD/pull/18859 Žádost o začlenění #18859] a [https://github.com/FreeCAD/FreeCAD/pull/20866 Žádost o začlenění #20866]
+* Byly přidány nápovědy na stavovém řádku pro nástroje Sketcheru určené k vytváření geometrie, k vytváření vazeb, úpravám a transformacím. [https://github.com/FreeCAD/FreeCAD/pull/21632 Žádost o začlenění #21632],  [https://github.com/FreeCAD/FreeCAD/pull/21751 Žádost o začlenění #21751], [https://github.com/FreeCAD/FreeCAD/pull/21806 Žádost o začlenění #21806] a [https://github.com/FreeCAD/FreeCAD/pull/21840 Žádost o začlenění #21840]
+* Náčrtky se nyní automaticky přizpůsobují po zadání prvního rozměru, aby nedošlo k narušení tvaru v případě, že je první rozměr výrazně větší nebo menší než aktuální velikost geometrie. [https://github.com/FreeCAD/FreeCAD/pull/21084 Žádost o začlenění #21084]
+* Při vytváření geometrie se pohyb myši ignoruje, pokud je zadána hodnota v [[Sketcher_Workbench/cs#On-View-Parameters|parametrech zobrazení]] (OVP). Klávesou Tab lze přepínat mezi vstupními poli OVP a klávesou Enter se zadání potvrdí. Vymazáním hodnoty ve vstupním poli OVP se pohyb myši pro kótování opět aktivuje. [https://github.com/FreeCAD/FreeCAD/pull/20925 Žádost o začlenění #20925]
+* Zobrazení geometrických linií má nyní přednost před vazbami, takže kótovací čáry nepřekrývají geometrii. [https://github.com/FreeCAD/FreeCAD/pull/21982 Žádost o začlenění #21982]
+* Nyní lze vybrat všechny části rozměrových vazeb, nejen popisky. [https://github.com/FreeCAD/FreeCAD/pull/21920 Žádost o začlenění #21920]
+* Nyní je možné pomocí klávesové zkratky Ctrl+A (nebo volby Vybrat vše v menu Úpravy) vybrat veškerou geometrii v rámci náčrtu. [https://github.com/FreeCAD/FreeCAD/pull/23289 Žádost o začlenění #23289]
+* Při výběru pole zleva doprava se nyní používá jiná barva než při výběru zprava doleva, aby se odlišilo jejich chování. [https://github.com/FreeCAD/FreeCAD/pull/23261 Žádost o začlenění #23261]
+* Je k dispozici nové nastavení velikosti symbolů pro vazby. [https://github.com/FreeCAD/FreeCAD/pull/23366 Žádost o začlenění #23366]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Spreadsheet Workbench ==
