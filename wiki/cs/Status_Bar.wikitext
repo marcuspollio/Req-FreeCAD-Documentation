@@ -78,9 +78,9 @@ Kliknutím pravým tlačítkem myši na stavový řádek se otevře kontextové 
 * {{MenuCommand|Oznamovací oblast}}: Totéž.
 * {{MenuCommand|Indikátor navigace}}: Totéž.
 
-If the pointer is over the [[#Preselected_information|Preselected information]] field or the [[#Quick_measure|Quick measure]] field the following options are added:
-* {{MenuCommand|Copy}}: Copies the information selected with the next option.
-* {{MenuCommand|Select All}}: Selects the current information.
+Pokud se kurzor nachází nad polem [[#Preselected_information|Předvolené informace]] nebo polem [[#Quick_measure|Rychlé měření]], zobrazí se následující možnosti:
+* {{MenuCommand|Kopírovat}}: Zkopíruje údaje vybrané pomocí následující volby.
+* {{MenuCommand|Vybrat vše}}: Vybere aktuální informace.
 
 The [[#Notification_Area|Notification Area]] has its own context menu.
 
