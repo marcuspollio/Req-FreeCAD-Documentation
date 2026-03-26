@@ -81,10 +81,10 @@ Pokud je jako krok přichytávání nastaveno 0, je při přetahování ve 3D po
 
 Toto rozbalovací menu slouží k nastavení souřadnicového systému pro ruční zadávání hodnot v panelu úloh. Souřadnicový systém nemá žádný vliv při transformaci objektu pouhým přetažením ve 3D pohledu (s výjimkou případů, kdy je vybrána možnost ''Globální'' a zaškrtnuto políčko ''Zarovnat posuvník rotace s vybraným souřadnicovým systémem'').
 
-The axis labels are also displayed on the dragger in the 3D View, whereas '''U, V, W''' is the local coordinate system at the current dragger location, and '''X, Y, Z''' is the global coordinate system (equal to the placement value in the Property View, if the dragger is at the object's origin).
-* '''Local''' (default): the current dragger location and orientation defines the transform origin for the following inputs in the task panel in '''U, V, W'''. The input is equal the delta to the current dragger location in its axes. 
-* '''Global''': the task panel shows the values of the global position and rotation in the global coordinate system '''X, Y, Z''' and allows to change these values. If the dragger mode is set to ''Object origin'', the values are the same as in the placement property of the object to be transformed.
-** '''Align dragger rotation with selected coordinate system''' (default ''FALSE'', only available if the coordinate system is not the local one): changes the orientation of the dragger to match the global axes '''X, Y, Z'''. The dragger location is not changed by this checkbox, only the axis rotation of the dragger. This allows to drag the object in the directions of the global axes (X, Y, Z), even if the object's origin is in a different orientation.
+Popisky os se zobrazují také na kurzoru ve 3D pohledu, přičemž '''U, V, W''' představuje lokální souřadnicový systém v aktuální pozici kurzoru a '''X, Y, Z''' globální souřadnicový systém (odpovídá hodnotě umístění v okně vlastností, pokud se kurzor nachází v počátku objektu).
+* '''Lokální''' (výchozí): aktuální poloha a orientace posuvníku určují počátek transformace pro následující vstupy v panelu úkolů v souřadnicích '''U, V, W'''. Vstup se rovná posunu od aktuální polohy posuvníku v příslušných osách. 
+* '''Globální''': panel úloh zobrazuje hodnoty globální polohy a rotace v globálním souřadnicovém systému '''X, Y, Z''' a umožňuje tyto hodnoty měnit. Je-li režim přetahování nastaven na ''Počátek objektu'', jsou tyto hodnoty stejné jako v nastavení umístění transformovaného objektu.
+** '''Zarovnat posuvník rotace s vybraným souřadnicovým systémem‘'' (výchozí hodnota ''FALSE'', dostupné pouze v případě, že souřadnicový systém není lokální): změní orientaci posuvníku tak, aby odpovídala globálním osám '''X, Y, Z'''. Toto zaškrtávací políčko nemění polohu posuvníku, ale pouze jeho rotaci kolem os. To umožňuje přetahovat objekt ve směrech globálních os (X, Y, Z), i když je počátek objektu v jiné orientaci.
 
 ===Translation===
 
