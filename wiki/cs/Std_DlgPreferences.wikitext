@@ -9,12 +9,12 @@
 |IconC=Freecad.svg
 }}
 
-{{GuiCommand
-|Name=Std DlgPreferences
-|MenuLocation=Edit → Preferences
-|Workbenches=All
+{{GuiCommand/cs
+|Name=Std Předvolby
+|MenuLocation=Úpravy → Předvolby
+|Workbenches=Vše
 |Shortcut={{KEY|Ctrl}}+{{KEY|,}}
-|SeeAlso=[[Preferences_Editor|Preferences Editor]]
+|SeeAlso=[[Preferences_Editor/cs|Editor předvoleb]]
 }}
 
 <span id="Description"></span>
