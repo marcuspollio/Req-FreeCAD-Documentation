@@ -511,13 +511,11 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 [https://github.com/FreeCAD/FreeCAD/pull/17736 Žádost o začlenění #17736]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:InternalFaces_relnotes_1.1.gif|384px]]</br>Click on the image if the animation does not start.
-| The ''Make Internals'' property of sketches is now fully functional. If enabled, it displays faces for closed contours and makes it possible to select them for Part Design operations. The setting is still experimental but allows for a ''Master Sketch'' workflow in Part Design.
-[https://github.com/FreeCAD/FreeCAD/pull/22388 Pull request #22388]
+| [[File:InternalFaces_relnotes_1.1.gif|384px]]</br>Pokud se animace nespustí, klikněte na obrázek.
+| Vlastnost ''Vytvořit vnitřní plochy'' náčrtů je nyní plně funkční. Je-li zapnutá, zobrazuje plochy uzavřených obrysů a umožňuje je vybrat pro operace v prostředí Part Design. Toto nastavení je zatím ve fázi testování, ale umožňuje v prostředí Part Design pracovat s ''Hlavním náčrtem''.
+[https://github.com/FreeCAD/FreeCAD/pull/22388 Žádost o začlenění #22388]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Further Sketcher improvements ===
