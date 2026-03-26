@@ -100,13 +100,11 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 [https://github.com/FreeCAD/FreeCAD/pull/23274 Žádost o začlenění #23274]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:Core_pick_geometry_relnotes_1.1.gif|384px]]</br>Click on the image if the animation does not start.
-| [[Std_ClarifySelection|Clarify Selection]] tool was added based on Realthunder's Pick Geometry. It can be activated with the {{KEY|G}}, {{KEY|G}} keyboard shortcut, the context menu option, or (depending on the selected [[Mouse_navigation|navigation style]]) by holding the left mouse button. It enables temporary transparency and shows a list of all nearby geometrical entities of different types (Object, Face, Edge, Vertex, Other) to allow the selection of hidden/interior objects when hovering over a model in 3D view.
-[https://github.com/FreeCAD/FreeCAD/pull/22029 Pull request #22029]
+| [[File:Core_pick_geometry_relnotes_1.1.gif|384px]]</br>Pokud se animace nespustí, klikněte na obrázek.
+| Byl přidán nástroj [[Std_ClarifySelection/cs|Zřetelnější výběr]], který vychází z funkce Pick Geometry od Realthundera. Lze ho aktivovat klávesovou zkratkou {{KEY|G}}, volbou z kontextového menu nebo (v závislosti na zvoleném [[Mouse_navigation/cs|stylu navigace]]) podržením levého tlačítka myši. Umožňuje dočasnou průhlednost a zobrazuje seznam všech blízkých geometrických entit různých typů (Objekt, Stěna, Hrana, Vrchol, Ostatní), aby bylo možné vybrat skryté/vnitřní objekty při najetí myší na model ve 3D pohledu.
+[https://github.com/FreeCAD/FreeCAD/pull/22029 Žádost o začlenění #22029]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Further Core improvements ====
