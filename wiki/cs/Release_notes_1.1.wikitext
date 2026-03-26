@@ -135,13 +135,11 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 <span id="Addon_Manager"></span>
 == Správce rozšíření ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The Python dependency updater now works correctly if FreeCAD is installed as a snap package or as an AppImage. [https://github.com/FreeCAD/FreeCAD/pull/19384 Pull request #19384], [https://github.com/FreeCAD/FreeCAD/pull/19766 Pull request #19766] and [https://github.com/FreeCAD/FreeCAD/pull/19814 Pull request #19814].
-* The installation path of Python modules in the dependency updater is now shown as an absolute path for better readability. It is also shown correctly according to the FreeCAD installation method. [https://github.com/FreeCAD/FreeCAD/pull/19828 Pull request #19828] and [https://github.com/FreeCAD/FreeCAD/pull/19816 Pull request #19816].
-* The Addon Manager is itself an addon, and can be updated by navigating to its page in the Addon Manager's addons list.
-* Addons can now explicitly declare their support for particular FreeCAD versions, and multiple versions and branches are supported for each.
-* Python dependencies now use a pip-constraints file to ensure conflict-free installation.
-</div>
+* Aktualizátor závislostí pro Python nyní funguje správně, pokud je FreeCAD nainstalován jako balíček snap nebo jako AppImage. [https://github.com/FreeCAD/FreeCAD/pull/19384 Žádost o začlenění #19384], [https://github.com/FreeCAD/FreeCAD/pull/19766 Žádost o začlenění #19766] a [https://github.com/FreeCAD/FreeCAD/pull/19814 Žádost o začlenění #19814].
+* Instalace modulů Pythonu v nástroji pro aktualizaci závislostí se nyní pro lepší přehlednost zobrazuje jako absolutní cesta. Zobrazuje se také správně v závislosti na způsobu instalace FreeCADu. [https://github.com/FreeCAD/FreeCAD/pull/19828 Žádost o začlenění #19828] a [https://github.com/FreeCAD/FreeCAD/pull/19816 Žádost o začlenění #19816].
+* Správce rozšíření je sám o sobě doplňkem a lze ho aktualizovat tak, že přejdete na jeho stránku v seznamu doplňků Správce rozšíření.
+* Rozšíření nyní mohou výslovně deklarovat podporu konkrétních verzí FreeCADu a pro každou z nich je podporováno více verzí a větví.
+* Závislosti v jazyce Python nyní využívají soubor pip-constraints, aby byla zajištěna instalace bez konfliktů.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Assembly Workbench ==
