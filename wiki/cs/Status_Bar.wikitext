@@ -72,11 +72,11 @@ Stavový řádek zobrazuje informace o úrovni přiblížení tím, že udává 
 <span id="Context_menu"></span>
 == Kontextové menu ==
 
-Right-clicking the Status Bar opens a context menu with the following options:
-* {{Version|1.1}}: {{MenuCommand|Input hints}}: Checkbox to toggle this feature.
-* {{Version|1.1}}: {{MenuCommand|Quick measure}}: Idem.
-* {{MenuCommand|Notification Area}}: Idem.
-* {{MenuCommand|Navigation indicator}}: Idem.
+Kliknutím pravým tlačítkem myši na stavový řádek se otevře kontextové menu s následujícími možnostmi:
+* {{Version|1.1}}: {{MenuCommand|Nápověda vstupů}}: Zaškrtávací políčko pro zapnutí či vypnutí této funkce.
+* {{Version|1.1}}: {{MenuCommand|Rychlé měření}}: Totéž.
+* {{MenuCommand|Oznamovací oblast}}: Totéž.
+* {{MenuCommand|Indikátor navigace}}: Totéž.
 
 If the pointer is over the [[#Preselected_information|Preselected information]] field or the [[#Quick_measure|Quick measure]] field the following options are added:
 * {{MenuCommand|Copy}}: Copies the information selected with the next option.
