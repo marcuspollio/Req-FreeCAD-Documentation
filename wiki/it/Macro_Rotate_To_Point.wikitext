@@ -60,12 +60,13 @@ Macro per far ruotare un oggetto su se stesso scegliendo l'asse di rotazione: il
 
 ===Axis Rotation===
 
-<div class="mw-translate-fuzzy">
-*Rotation(Z) Yaw : asse Yaw 
-*Rotation(Y) Pitch : asse Pitch
-*Rotation(X) Roll : asse Roll
-*Rotation(D) Direction: Ruota intorno alla linea, filo selezionato
-</div>
+*Rotation(Z) Yaw: Asse di imbardata
+*Rotation(Y) Pitch: Asse di beccheggio
+*Rotation(X) Roll: Asse di rollio
+*Rotation(D) Direction: Ruota attorno alla linea, il wire selezionato
+*Follow the path: Segue il percorso creato dal wire, dalla linea, dal bordo.
+**1: Selezionare l'oggetto
+**2: Selezionare il percorso
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''The SpinBox {{SpinBox|1,00000 Degrees}} is reinitialized to {{incode|0.0}} and coloured in red''
