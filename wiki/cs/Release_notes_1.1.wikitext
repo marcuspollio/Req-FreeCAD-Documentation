@@ -126,9 +126,7 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 
 * K dispozici je nová statická třída <code>FreeCAD.ApplicationDirectories</code>, která poskytuje funkce související s novou verzovanou strukturou adresářů.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 == Start ==
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The Start page can now display the contents of additional folders specified by the user. Their paths should be separated by double semicolons ({{Incode|;;}}). [https://github.com/FreeCAD/FreeCAD/pull/19473 Pull request #19473], [https://github.com/FreeCAD/FreeCAD/pull/19918 Pull request #19918] and [https://github.com/FreeCAD/FreeCAD/pull/19948 Pull request #19948].
