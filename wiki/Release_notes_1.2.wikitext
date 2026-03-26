@@ -138,7 +138,7 @@ ToDo (last check: 20260318):
 * Material assignments are now read from the [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools|CalculiX's]] {{FileName|.frd}} results files. They can't be accessed in FreeCAD yet, but they can be visualized in ParaView upon conversion to {{FileName|.vtm}} format. [https://github.com/FreeCAD/FreeCAD/pull/27847 Pull request #27847]
 * The [[Image:FEM_MaterialMechanicalNonlinear.svg|24px]] [[FEM_MaterialMechanicalNonlinear|Non-linear mechanical material]] objects are now grouped under the [[Image:FEM_MaterialSolid.svg|24px]] [[FEM_MaterialSolid|Solid Material]] objects. The ''Geometrical Nonlinearity'' and ''Material Nonlinearity'' properties are now Boolean. The latter is enabled by default and only applied if any material in the analysis has a non-linear mechanical material object assigned to it. Otherwise, it is ignored. [https://github.com/FreeCAD/FreeCAD/pull/27862 Pull request #27862]
 * The Z-refinement algorithm of [[Image:FEM_MeshNetgenFromShape.svg|24px]] [[FEM_MeshNetgenFromShape|Netgen]], allowing the creation of extruded meshes, now also supports shells. [https://github.com/FreeCAD/FreeCAD/pull/28204 Pull request #28204]
-* It is now possible to edit the input files for the meshers to add some custom commands for mesh generation, similar to what could already be done for the solvers. Some general preferences of FEM workbench were improved too. [https://github.com/FreeCAD/FreeCAD/pull/27942 Pull request #27942]
+* It is now possible to edit the input files for the meshers to add some custom commands for mesh generation, similar to what could already be done for the solvers. Some general preferences of the FEM Workbench were improved too. [https://github.com/FreeCAD/FreeCAD/pull/27942 Pull request #27942]
 * The [[Image:FEM_ConstraintElectrostaticPotential.svg|24px]] [[FEM_ConstraintElectrostaticPotential|Electrostatic potential boundary condition]] is now named ''Electromagnetic boundary condition''. Some smaller renames were are done. [https://github.com/FreeCAD/FreeCAD/pull/27614 Pull request #27614]
 
 == Inspection Workbench == <!--T:32-->
@@ -163,9 +163,9 @@ ToDo (last check: 20260318):
 
 == Part Workbench == <!--T:40-->
 
-<!--T:41-->
 === Further Part improvements ===
 
+<!--T:41-->
 * A new method has been added to split a B-spline curve into two curves at a given parameter. [https://github.com/FreeCAD/FreeCAD/pull/26716 Pull request #26716]
 
 == Part Design Workbench == <!--T:42-->
