@@ -189,12 +189,6 @@ If a rotation has been entered manually in the Rotation field before activating 
 
 The {{Button|Match Working Plane}} button sets the grid origin to the projection of the current FreeCAD working plane origin onto the base face, expressed as a U/V offset. This allows the tile grid to be aligned to a known reference point in the model.
 
-=== Known limitation: world-axis-aligned grid ===
-
-The tile grid coordinate system is currently derived from the world axes, not from the face edges. For faces that are aligned to the world axes this produces intuitive results. For faces rotated in plan — for example a slab at 30° — the grid still runs horizontally and vertically in world space, and preset alignment corners are computed from the world-axis bounding box of the face rather than from its physical corners. This makes preset alignment unreliable for rotated faces, and the user must resort to Custom alignment with a manually measured offset to achieve a visually correct result.
-
-A future iteration will derive the grid coordinate system from the face's own edge directions, so that tiles run parallel to the face edges by default and preset alignment corners correspond to the actual physical corners of the face regardless of orientation.
-
 == Texture Mapping ==
 
 Texture images are mapped onto the covering surface using a continuous linear projection with a period equal to {{Incode|TileLength + JointWidth}} in U and {{Incode|TileWidth + JointWidth}} in V. The texture repeats seamlessly across the entire surface with no gaps.
