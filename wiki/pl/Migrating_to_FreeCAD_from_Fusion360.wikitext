@@ -16,7 +16,9 @@ Ta strona jest przeznaczona dla użytkowników, którzy są zainteresowani migra
 ==Słowniczek==
 {{VeryImportantMessage|Prosimy również o odniesienie się do trwających prac w ramach projektu [[CAD_Rosetta_Stone|CAD Rosetta Stone]], aby poznać analogiczne nazwy, których używają popularne, komercyjne programy CAD.}}
 
+<div class="mw-translate-fuzzy">
 Odnieś się ogólnie do strony [[Glossary/pl|słowniczka]], ale tutaj znajduje się krótka lista konkretnych terminów, które użytkownicy F360 mogą uznać za szczególnie pomocne:
+</div>
 
 
 * Tangent constraint - forma FreeCAD '''Wiązania współliniowego'''. Zobacz informacje na stronie [[Image:Sketcher_ConstrainTangent.svg|24px|link=Sketcher_ConstrainTangent/pl]] [[Sketcher_ConstrainTangent/pl#Pomiędzy_dwoma_liniami_(współliniowe)|Wiązanie styczności]].
@@ -28,14 +30,12 @@ Odnieś się ogólnie do strony [[Glossary/pl|słowniczka]], ale tutaj znajduje 
 <span id="FAQ"></span>
 ==Najczęściej zadawane pytania==
 
-<div class="mw-translate-fuzzy">
 # Jakie formaty obsługuje FreeCAD?
 #* Natywnym formatem pliku w FreeCAD jest BREP, [https://en.wikipedia.org/wiki/Boundary_representation boundary representation], dostarczany przez wewnętrzne jądro geometrii [[OpenCASCADE/pl|OpenCASCADE ''(OCCT)'']].
 #* FreeCAD obsługuje wszystkie formaty obsługiwane przez OCCT, więc przynajmniej STEP i IGES.
 # Jakich formatów powinienem użyć do migracji do FreeCAD?
-#* STEP jest najlepszym formatem, ponieważ jest to format bryłowy [[Shape/pl|kształtu]], w przeciwieństwie do [[Mesh/pl|siatki]] ''(STL, OBJ, DAE)''. Przykład [https://forum.freecadweb.org/viewtopic.php?f=3&t=50308 Importowanie formatu Step z kolorami].
+#* STEP jest najlepszym formatem, ponieważ jest to format bryłowy [[Shape/pl|kształtu]], w przeciwieństwie do [[Mesh/pl|siatki]] ''(STL, OBJ, DAE)''. Przykład [https://forum.freecad.org/viewtopic.php?f=3&t=50308 Importowanie formatu Step z kolorami].
 #* Importowanie STL jest możliwe, ale ten format siatki będzie trudny do dalszej modyfikacji. Zalecamy konwertowanie zaimportowanych siatek na bryły przy użyciu {{Button|[[File:Part_ShapeFromMesh.svg|16px]] [[Part_ShapeFromMesh/pl|Utwórz kształt z siatki]]}}. Najlepszą radą jest przemodelowanie obiektu w programie FreeCAD, używając siatki jako odniesienia.
-</div>
 
 <span id="Tips"></span>
 ==Wskazówki==
@@ -46,13 +46,11 @@ Odnieś się ogólnie do strony [[Glossary/pl|słowniczka]], ale tutaj znajduje 
 <span id="Learning_Resources"></span>
 ==Zasoby dydaktyczne==
 
-<div class="mw-translate-fuzzy">
 * [https://www.youtube.com/watch?v=_GxJkB23ZHM Fusion360 do FreeCAD - wprowadzenie], wideo autorstwa Brodie Fairhall.
 * [https://www.youtube.com/watch?v=IESZD4QS3P8 Fusion360 do FreeCAD - część 2], wideo autorstwa Brodiego Fairhalla.
-* [https://forum.freecadweb.org/viewtopic.php?f=36&t=50492 V0.19 Benchmarking--2019 Monthly Challenges], seria obiektów stworzonych w Fusion360 jest przebudowywana za pomocą FreeCAD, przez doświadczonego użytkownika ppemawm.
+* [https://forum.freecad.org/viewtopic.php?f=36&t=50492 V0.19 Benchmarking--2019 Monthly Challenges], seria obiektów stworzonych w Fusion360 jest przebudowywana za pomocą FreeCAD, przez doświadczonego użytkownika ppemawm.
 * [https://github.com/macdroid53/LearningFreeCAD Pisemny poradnik dla początkujących: od pierwszej części do rysunku technicznego] autorstwa macdroid53.
 * [https://www.freecad.info/ Zasoby online dla użytkowników FreeCAD].
-</div>
 
 <span id="Comparison_Videos"></span>
 ==Filmy porównawcze==
@@ -62,9 +60,7 @@ Odnieś się ogólnie do strony [[Glossary/pl|słowniczka]], ale tutaj znajduje 
 <span id="Help"></span>
 ==Pomoc==
 
-<div class="mw-translate-fuzzy">
-Czy na tej stronie wiki czegoś brakuje. Złóż prośbę o [https://forum.freecadweb.org/viewtopic.php?f=21&t=6830 dostęp do Wiki] na forum, aby edytować tę stronę.
-</div> 
+Czy na tej stronie wiki czegoś brakuje. Złóż prośbę o [https://forum.freecad.org/viewtopic.php?f=21&t=6830 dostęp do Wiki] na forum, aby edytować tę stronę. 
 
 <span id="Related"></span>
 ==Powiązane==
