@@ -16,7 +16,7 @@ Když se kurzor myši nachází nad tlačítkem nebo položkou menu, zobrazí se
 <span id="Preselected_information"></span>
 === Předvolené informace ===
 
-When the pointer is over an object in the [[3D_View|3D View]] the Status Bar shows the preselected element of the object as well as the current 3D coordinates. This information is updated as the pointer is moved over the object. The update stops when the pointer is over an empty space in the 3D View.
+Když se kurzor nachází nad objektem ve [[3D_View/cs|3D pohledu]], zobrazí se na stavovém řádku předvolený prvek objektu a aktuální 3D souřadnice. Tyto informace se aktualizují při pohybu kurzoru nad objektem. Aktualizace se zastaví, jakmile se kurzor přesune nad prázdné místo ve 3D pohledu.
 
 [[File:FreeCAD_Status_bar_selected.png]]
 
