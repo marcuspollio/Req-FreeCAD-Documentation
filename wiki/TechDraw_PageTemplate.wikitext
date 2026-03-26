@@ -83,7 +83,7 @@ doc.recompute()
 See also: [[TechDraw_Templates|TechDraw Templates]] for more information on creating templates.
 
 <!--T:24-->
-Once a new page has been created, its {{incode|Template}} attribute holds an {{incode|EditableTexts}} dictionary with the name of the editable fields (keys) and their textual values. Copy this dictionary to a variable, make changes, and then re-assign the dictionary to the {{incode|EditableTexts}} attribute to see the changes.
+Once a new '''Page''' object has been created, its {{incode|Template}} attribute links to the embedded '''Template''' object that holds an {{incode|EditableTexts}} dictionary with the name of the editable fields (keys) and their textual values. Copy this dictionary to a variable, make changes, and then re-assign the dictionary to the {{incode|EditableTexts}} attribute to see the changes.
 
 </translate>
 {{Code|code=
@@ -99,7 +99,7 @@ page.Template.EditableTexts = texts
 <translate>
 
 <!--T:25-->
-To edit individual fields the {{incode|setEditFieldContent}} method of the {{incode|Template}} can be used:
+To edit individual fields the {{incode|setEditFieldContent}} method of the linked '''Template''' object can be used:
 
 </translate>
 {{Code|code=
