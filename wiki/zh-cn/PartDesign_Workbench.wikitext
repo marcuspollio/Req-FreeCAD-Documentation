@@ -19,18 +19,7 @@
 
 零件设计工作台采用基于特征的建模方法论，单个零部件通过“实体对象容器（Body）”来承载呈现。Body容器会定义专属局部坐标系，并且包含所有累积生成的特征，这些特征共同构成完整零部件。
 绝大多数特征依托参数化草图生成，整体分为增材特征与减材特征两大类。举例来说：拉伸凸台工具（Pad tool）会将草图拉伸成型，叠加到正在构建的实体上，实现增材建模；拉伸切除工具（Pocket tool）则会将草图拉伸后，从现有实体上挖除对应部分，实现减材建模。
-
 每一个特征都是累积生成的，后续特征完全基于前序特征完成后的实体结果构建。除此之外，也可直接调用基础图元（如增材圆柱体、增材球体等），或是将Body外部创建的实体，直接作为特征纳入零件设计流程。
-
-核心术语与实操要点
-
-- 特征建模：FreeCAD处理STP实体模型、自定义机械零件的核心逻辑，区别于网格建模，可保留参数、方便修改，适配工业CAD场景；
-
-- Body（实体容器）：零件设计的核心载体，单个Body对应一个独立零部件，支持后续导出、转换为STP格式；
-
-- 增材/减材特征：STP模型编辑、修改、重构的常用操作，也是FreeCAD兼容并修改外部STP文件的关键功能；
-
-- 参数化草图：保证模型可编辑、可修改，修改草图参数即可同步更新实体，方便修复、优化导入的STP模型。
 
 See the [[Feature_editing|feature editing]] page for a more complete explanation of this process, and then see [[Creating_a_simple_part_with_PartDesign|Creating a simple component with PartDesign]] to get started with creating solids.
 
