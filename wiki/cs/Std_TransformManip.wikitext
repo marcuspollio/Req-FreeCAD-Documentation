@@ -21,7 +21,7 @@
 
 Příkaz '''Transformovat''' umožňuje na vybraný objekt aplikovat přírůstky otáčení a posunu. To lze provést buď přetažením interaktivního táhla ve 3D pohledu, nebo, {{Version|1.1}}, zadáním přesných hodnot v panelu úloh, a to buď v libovolném (lokálním) souřadnicovém systému táhla, nebo v globálním souřadnicovém systému.
 
-It is also possible to align the object at the dragger to a target element in the document while limiting translation or rotation to any axis selection.
+Je také možné zarovnat objekt, který táhnete, k cílovému prvku v dokumentu a přitom omezit posun nebo otočení na libovolnou vybranou osu.
 
 [[Image:Std_Transform_Manip_Example_1.1.png|350px]]
 
