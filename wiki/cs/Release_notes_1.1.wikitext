@@ -113,9 +113,7 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 * Výchozí struktura adresářů s uživatelskými daty a konfigurací se změnila tak, že nyní obsahuje číslo verze FreeCADu. Díky tomu je aktualizace méně riskantní a umožňuje bezpečné používání starších verzí FreeCADu souběžně s novou verzí. Při spuštění je nyní k dispozici možnost převést starší konfigurace do nové struktury s čísly verzí, pokud je v systému detekována předchozí verze. [https://github.com/FreeCAD/FreeCAD/pull/23321 Žádost o začlenění #23321]
 * Byla přidána možnost přejmenování dynamických vlastností. [https://github.com/FreeCAD/FreeCAD/pull/21444 Žádost o začlenění #21444], [https://github.com/FreeCAD/FreeCAD/pull/21975 Žádost o začlenění #21975] a [https://github.com/FreeCAD/FreeCAD/pull/21976 Žádost o začlenění #21976].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 === API ===
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Removed Python API ====
