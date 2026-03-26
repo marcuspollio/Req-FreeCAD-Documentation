@@ -76,13 +76,11 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 [https://github.com/FreeCAD/FreeCAD/pull/17564 Žádost o začlenění #17564]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:Std_TransformManip_Custom_Alignment_relnotes_1.1.gif|384px]]</br>Click on the image if the animation does not start.
-| Advanced options for axis-specific alignment of the [[Image:Std_TransformManip.svg|24px]] [[Std_TransformManip#Options|Transform tool's]] ''Move to Other Object'' command have been added, enabling selective alignment by individual translation and rotation axes. This allows more precise control when matching an object's position and orientation to a target if only selected axis components should be considered.
-[https://github.com/FreeCAD/FreeCAD/pull/21642 Pull request #21642]
+| [[File:Std_TransformManip_Custom_Alignment_relnotes_1.1.gif|384px]]</br>Pokud se animace nespustí, klikněte na obrázek.
+| Byly přidány pokročilé možnosti pro zarovnání podle konkrétních os v rámci příkazu ''Přesunout k jinému objektu'' nástroje [[Image:Std_TransformManip.svg|24px]] [[Std_TransformManip/cs#Options|Transformace]], které umožňují selektivní zarovnání pomocí jednotlivých os posunu a otáčení. To umožňuje přesnější ovládání při přizpůsobování polohy a orientace objektu k cílovému objektu, pokud mají být zohledněny pouze vybrané složky os.
+[https://github.com/FreeCAD/FreeCAD/pull/21642 Žádost o začlenění #21642]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
