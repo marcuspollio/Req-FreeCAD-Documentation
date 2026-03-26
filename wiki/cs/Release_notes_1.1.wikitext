@@ -502,8 +502,7 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 {| cellpadding=5
 | [[File:Sketcher_intersection_relnotes_1.1.png|384px]]
 | Byl přidán nástroj [[Image:Sketcher_Intersection.svg|24px]] [[Sketcher_Intersection/cs|Průnik]], který umožňuje vytvořit [[Sketcher_External/cs|vnější geometrii]] na základě vybrané referenční geometrie a průniku s rovinou náčrtu.
-[https://github.com/FreeCAD/FreeCAD/pull/17736 
- Žádost o začlenění #17736]
+[https://github.com/FreeCAD/FreeCAD/pull/17736 Pull request #17736]
 |}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
