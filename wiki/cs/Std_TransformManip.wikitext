@@ -58,7 +58,8 @@ Můžete nastavit následující možnosti:
 
 Tato sekce řídí umístění a orientaci interaktivního posuvníku (gizma nebo úchytů os) a jeho chování ve 3D pohledu. Objekt se vždy transformuje kolem aktuálního souřadnicového systému posuvníku.
 
-====Mode====
+<span id="Mode"></span>
+====Způsob====
 
 Allows to adjust the location and orientation of the dragger and therefore the transform origin.
 * '''Object origin''' (default): Places the dragger at the origin of the object to be transformed.
