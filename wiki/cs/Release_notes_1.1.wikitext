@@ -480,17 +480,15 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 <span id="Further_Part_Design_improvements"></span>
 === Další vylepšení pracovního prostředí Part Design ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The origin feature in a Part Design body makes use of the new core datums. The appearance has been changed and the planes enlarge when creating a new sketch. As the orientation was wrong in older FreeCAD versions, files created with these versions need to be converted on opening. It can break files which reference the datums, and converted or new files created with {{VersionPlus|1.1}} will be broken in {{VersionMinus|1.0}}. [https://github.com/FreeCAD/FreeCAD/pull/18126 Pull request #18126]
-* The [[Image:Std_ToggleFreeze.svg|24px]] [[Std_ToggleFreeze|Toggle freeze]] command is now available from Part Design. [https://github.com/FreeCAD/FreeCAD/pull/18373 Pull request #18373]
-* The performance of modeled threads from the [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Hole tool]] has been improved. [https://github.com/FreeCAD/FreeCAD/pull/15744 Pull request #15744]
-* The initial angle for tapered threads in the [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Hole tool]] is now automatically set to the value from the ISO 7-1 and ASME B1.20.1 standards. [https://github.com/FreeCAD/FreeCAD/pull/15744 Pull request #15744]
-* The [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Hole tool]] can now create holes based on sketch points and arcs in addition to circles. [https://github.com/FreeCAD/FreeCAD/pull/20583 Pull request #20583]
-* ''SwitchToTask'', formerly a  [[Fine-tuning|fine-tuning]] parameter, can now be accessed from the [[PartDesign_Preferences#General|Preferences Editor]]. It can be used to enable and disable automatic switching to the task panel when the Part Design Workbench is activated. [https://github.com/FreeCAD/FreeCAD/pull/22136 Pull request #22136]
-* The [[Image:PartDesign_Pad.svg|24px]] [[PartDesign_Pad|Pad]] task panel was improved to have more options for ''Two sided'' mode. [https://github.com/FreeCAD/FreeCAD/pull/21794 Pull request #21794]
-* The preference to allow compounds (multiple solids) for Bodies is now enabled by default and not treated as an experimental feature anymore. [https://github.com/FreeCAD/FreeCAD/pull/23003 Pull request #23003]
-* [[PartDesign_Workbench#Transformation_tools|Transform tools]] can now use different spacing. [https://github.com/FreeCAD/FreeCAD/pull/22389 Pull request #22389]
-</div>
+* Funkce počátku v těle prostředí Part Design využívá nové základní referenční roviny. Vzhled byl změněn a roviny se při vytváření nového náčrtu zvětšují. Jelikož orientace byla ve starších verzích FreeCADu nesprávná, je třeba soubory vytvořené v těchto verzích při otevření převést. Může to poškodit soubory, které odkazují na referenční body, a převedené nebo nové soubory vytvořené ve verzi {{VersionPlus|1.1}} budou ve verzi {{VersionMinus|1.0}} poškozené. [https://github.com/FreeCAD/FreeCAD/pull/18126 Žádost o začlenění #18126]
+* Příkaz [[Image:Std_ToggleFreeze.svg|24px]] [[Std_ToggleFreeze/cs|Přepnout zmrazení]] je nyní k dispozici v prostředí Part Design. [https://github.com/FreeCAD/FreeCAD/pull/18373 Žádost o začlenění #18373]
+* Byl vylepšen výkon modelovaných vláken vytvořených pomocí nástroje [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole/cs|Otvor]]. [https://github.com/FreeCAD/FreeCAD/pull/15744 Žádost o začlenění #15744]
+* Počáteční úhel pro kuželové závity v nástroji [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole/cs|Otvor]] se nyní automaticky nastavuje na hodnotu podle norem ISO 7-1 a ASME B1.20.1. [https://github.com/FreeCAD/FreeCAD/pull/15744 Žádost o začlenění #15744]
+* Nástroj [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole/cs|Otvor]] nyní umožňuje vytvářet otvory nejen na základě kružnic, ale také na základě bodů a oblouků v náčrtu. [https://github.com/FreeCAD/FreeCAD/pull/20583 Žádost o začlenění #20583]
+* Funkce ''SwitchToTask'', která dříve patřila mezi parametry [[Fine-tuning/cs|jemného ladění]], je nyní dostupná v [[PartDesign_Preferences/cs#General|editoru předvoleb]]. Slouží k zapnutí a vypnutí automatického přepnutí na panel úloh při aktivaci pracovního prostředí Part Design. [https://github.com/FreeCAD/FreeCAD/pull/22136 Žádost o začlenění #22136]
+* Panel úloh nástroje [[Image:PartDesign_Pad.svg|24px]] [[PartDesign_Pad/cs|Deska]] byl vylepšen a nyní nabízí více možností pro režim ''Oboustranný''. [https://github.com/FreeCAD/FreeCAD/pull/21794 Žádost o začlenění #21794]
+* Možnost povolit složení (více těles) u Těla je nyní ve výchozím nastavení zapnutá a již není považována za experimentální funkci. [https://github.com/FreeCAD/FreeCAD/pull/23003 Žádost o začlenění #23003]
+* [[PartDesign_Workbench/cs#Transformation_tools|Nástroje pro transformaci]] nyní umožňují nastavit různé rozestupy. [https://github.com/FreeCAD/FreeCAD/pull/22389 Žádost o začlenění #22389]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Sketcher Workbench ==
