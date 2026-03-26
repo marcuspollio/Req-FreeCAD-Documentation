@@ -73,7 +73,9 @@ doc.recompute()
 
 Zobacz również: [[TechDraw_Templates/pl|Rysunek Techniczny: Szablony]] aby uzyskać więcej informacji na temat tworzenia szablonów.
 
+<div class="mw-translate-fuzzy">
 Po utworzeniu nowej strony, jej atrybut {{incode|Template}} przechowuje słownik {{incode|EditableTexts}} zawierający nazwy edytowalnych pól ''(klucze)'' i ich wartości tekstowe. Skopiuj ten słownik do zmiennej, wprowadź zmiany, a następnie ponownie przypisz słownik do atrybutu {{incode|EditableTexts}}, aby zobaczyć zmiany.
+</div>
 
 {{Code|code=
 page = FreeCAD.ActiveDocument.Page
@@ -86,7 +88,9 @@ texts["FC-Title"] = "The title of my page"
 page.Template.EditableTexts = texts
 }}
 
+<div class="mw-translate-fuzzy">
 Do edycji indywidualnych pól można użyć metody {{incode|setEditFieldContent}} z {{incode|Template}}:
+</div>
 
 {{Code|code=
 page.Template.setEditFieldContent("FC-Title", "Another title of my page")
