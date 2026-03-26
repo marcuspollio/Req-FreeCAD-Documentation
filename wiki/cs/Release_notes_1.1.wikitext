@@ -228,9 +228,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 * UI elements were added to allow viewing and editing tool controller parameters from within the operation's task panel. [https://github.com/FreeCAD/FreeCAD/pull/23180 Pull request #23180]
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Draft Workbench ==
-</div>
+<span id="Draft_Workbench"></span>
+== Pracovní plocha Draft ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Objects with two arrows can now have different start and end arrows. The size of an object's start and end arrows can also be different. [https://github.com/FreeCAD/FreeCAD/pull/11941 Pull request #11941]
