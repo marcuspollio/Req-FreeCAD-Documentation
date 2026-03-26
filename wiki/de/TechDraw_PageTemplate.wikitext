@@ -73,7 +73,9 @@ doc.recompute()
 
 Siehe auch: [[TechDraw_Templates/de|TechDraw Vorlagen]] für mehr Informationen zur Erstellung von Vorlagen.
 
+<div class="mw-translate-fuzzy">
 Sobald ein neues Blatt erstellt wurde, enthält sein Attribut {{incode|Template}} ein Wörterbuch (Dictionary-Objekt) {{incode|EditableTexts}} mit den Namen der editierbaren Felder (Keys) und ihren Textinhalten (Values). Dieses Wörterbuch kann in eine Variable kopiert, geändert und dann erneut dem Attribut {{incode|EditableTexts}} zugewiesen werden, um die Änderungen darzustellen.
+</div>
 
 {{Code|code=
 page = FreeCAD.ActiveDocument.Page
@@ -86,7 +88,9 @@ texts["FC-Title"] = "The title of my page"
 page.Template.EditableTexts = texts
 }}
 
+<div class="mw-translate-fuzzy">
 Um einzelne Felder zu bearbeiten, kann die Methode {{incode|setEditFieldContent}} der Vorlage {{incode|Template}} verwendet werden:
+</div>
 
 {{Code|code=
 page.Template.setEditFieldContent("FC-Title", "Another title of my page")
