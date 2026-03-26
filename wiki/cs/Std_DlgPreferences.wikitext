@@ -29,7 +29,8 @@ The '''Std DlgPreferences''' command opens the [[Preferences_Editor|Preferences 
 #* Select the {{MenuCommand|Edit → [[Image:Std_DlgPreferences.svg|16px]] Preferences}} option from the menu.
 #* Use the keyboard shortcut: {{KEY|Ctrl}}+{{KEY|,}}. {{Version|1.1}}
 
-==Notes==
+<span id="Notes"></span>
+==Poznámky==
 
 * For more information see [[Preferences_Editor|Preferences Editor]].
 * On macOS this command may appear in the FreeCAD menu instead of the [[Std_Edit_Menu|Edit]] menu.
