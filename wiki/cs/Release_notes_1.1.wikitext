@@ -128,11 +128,9 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 
 == Start ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The Start page can now display the contents of additional folders specified by the user. Their paths should be separated by double semicolons ({{Incode|;;}}). [https://github.com/FreeCAD/FreeCAD/pull/19473 Pull request #19473], [https://github.com/FreeCAD/FreeCAD/pull/19918 Pull request #19918] and [https://github.com/FreeCAD/FreeCAD/pull/19948 Pull request #19948].
-* The Examples section on the Start page can be hidden with a setting in the preferences. [https://github.com/FreeCAD/FreeCAD/pull/19376 Pull request #19376] and [https://github.com/FreeCAD/FreeCAD/pull/19918 Pull request #19918].
-* Previews (thumbnails) for more 3D model formats (such as STEP and STL) are now displayed in the Recent Files and Examples sections of the Start page if F3D viewer is installed and added to system PATH. [https://github.com/FreeCAD/FreeCAD/pull/19489 Pull request #19489]
-</div>
+* Úvodní stránka nyní může zobrazovat obsah dalších složek, které uživatel určí. Cesty k těmto složkám by měly být odděleny dvojitými středníky ({{Incode|;;}}). [https://github.com/FreeCAD/FreeCAD/pull/19473 Žádost o začlenění #19473], [https://github.com/FreeCAD/FreeCAD/pull/19918 Žádost o začlenění #19918] a [https://github.com/FreeCAD/FreeCAD/pull/19948 Žádost o začlenění #19948].
+* Sekci Příklady na úvodní stránce lze skrýt pomocí nastavení v předvolbách. [https://github.com/FreeCAD/FreeCAD/pull/19376 Žádost o začlenění #19376] a [https://github.com/FreeCAD/FreeCAD/pull/19918 Žádost o začlenění #19918].
+* Náhledy (miniatury) dalších formátů 3D modelů (například STEP a STL) se nyní zobrazují v sekcích Nedávné soubory a Příklady na úvodní stránce, pokud je nainstalován prohlížeč F3D a je přidán do systémové proměnné PATH. [https://github.com/FreeCAD/FreeCAD/pull/19489 Žádost o začlenění #19489]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Addon Manager ==
