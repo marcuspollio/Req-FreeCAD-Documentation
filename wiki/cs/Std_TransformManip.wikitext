@@ -89,9 +89,9 @@ Popisky os se zobrazují také na kurzoru ve 3D pohledu, přičemž '''U, V, W''
 <span id="Translation"></span>
 ===Posunutí===
 
-Length input for changing the translation of the object around the current dragger (transform origin).
-* '''U, V, W''' (default, in ''local'' coordinate system): Allows to input – or displays, when dragging in the 3D View – the delta to the previous dragger location in the local coordinate system (= dragger location). The translation values in U, V, W are accumulated, as long as the dragger rotation (orientation of the axes) is not changed (either by dragging in the 3D View or by inputting rotation values in the task panel), the dragger is re-aligned to a different custom location, or the ''Move to Other Object'' function has been used. In these cases, the values are set to zero in the user interface of the task panel, without changing the actual translation of the object.
-* '''X, Y, Z''' (in ''global'' coordinate system): Allows to input – or displays, when dragging in the 3D View – the location values of the current dragger position in the global coordinate system X, Y, Z. If the dragger mode is set to ''Object origin'', the values correspond with the placement values of the object to be transformed which are also visible in the property view.
+Zadání délky pro změnu posunu objektu kolem aktuálního posuvníku (počátku transformace).
+* '''U, V, W''' (výchozí nastavení, v ''lokálním'' souřadnicovém systému): Umožňuje zadat – nebo při přetahování ve 3D pohledu zobrazit – posun oproti předchozí poloze přetahovacího prvku v lokálním souřadnicovém systému (= poloha posuvníku). Hodnoty posunu v osách U, V, W se sčítají, dokud se nezmění rotace posuvníku (orientace os) (buď tažením ve 3D pohledu, nebo zadáním hodnot rotace v panelu úloh), dokud není posuvník znovu zarovnán na jinou vlastní polohu, nebo dokud není použita funkce ''Přesunout na jiný objekt''. V těchto případech jsou hodnoty v uživatelském rozhraní panelu úloh nastaveny na nulu, aniž by se změnil skutečný posun objektu.
+* '''X, Y, Z''' (v ''globální'' souřadnicovém systému): Umožňuje zadat – nebo při přetahování ve 3D pohledu zobrazit – souřadnice aktuální polohy kurzoru v globálním souřadnicovém systému X, Y, Z. Je-li režim kurzoru nastaven na ''Počátek objektu'', odpovídají tyto hodnoty polohovým souřadnicím transformovaného objektu, které jsou rovněž viditelné v okně vlastností.
 
 ===Rotation===
 
