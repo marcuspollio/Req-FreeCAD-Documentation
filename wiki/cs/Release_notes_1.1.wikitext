@@ -499,13 +499,12 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 [https://github.com/FreeCAD/FreeCAD/pull/17736 Žádost o začlenění #17736]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:Sketcher_intersection_relnotes_1.1.png|384px]]
-| [[Image:Sketcher_Intersection.svg|24px]] [[Sketcher_Intersection|Intersection]] tool was added making it possible to create [[Sketcher_External|external geometry]] based on the selected reference geometry and the intersection of the sketch plane.
-[https://github.com/FreeCAD/FreeCAD/pull/17736 Pull request #17736]
+| Byl přidán nástroj [[Image:Sketcher_Intersection.svg|24px]] [[Sketcher_Intersection/cs|Průnik]], který umožňuje vytvořit [[Sketcher_External/cs|vnější geometrii]] na základě vybrané referenční geometrie a průniku s rovinou náčrtu.
+[https://github.com/FreeCAD/FreeCAD/pull/17736 
+Žádost o začlenění #17736]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
