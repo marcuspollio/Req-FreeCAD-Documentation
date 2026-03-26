@@ -66,7 +66,7 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 
 {| cellpadding=5
 | [[File:Core_datums_relnotes_1.1.png|384px]]
-| [[Image:Part CoordinateSystem.svg|24px]] Nástroje [[Std_Base/cs#Part_Datums|Core Datum]] byly implementovány za účelem vytváření souřadnicových systémů, referenčních rovin, referenčních přímek a referenčních bodů, které lze přiřadit a používat také v sestavách.
+| [[Image:Part CoordinateSystem.svg|24px]] Nástroje [[Std_Base/cs#Part_Datums|Základní systém souřadnic]] byl implementovány za účelem vytváření souřadnicových systémů, referenčních rovin, referenčních přímek a referenčních bodů, které lze přiřadit a používat také v sestavách.
 [https://github.com/FreeCAD/FreeCAD/pull/18332 Žádost o začlenění #18332]
 |}
 
