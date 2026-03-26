@@ -58,9 +58,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 * Všechna okna MDI (včetně např. Spreadsheet a TechDraw) lze nyní oddělit a přepnout do režimu celé obrazovky pomocí klávesových zkratek (''V'', ''U'' nebo ''F11'') nebo položky menu ''Zobrazit → Okno dokumentu''. [https://github.com/FreeCAD/FreeCAD/pull/22544 Žádost o začlenění #22544]
 * Výchozí seznam pracovních prostředí je nyní kratší, protože méně používaná pracovní prostředí jsou ve výchozím nastavení deaktivována. Patří mezi ně pracovní prostředí Inspection, <none>, OpenSCAD, Robot a Test Framework. [https://github.com/FreeCAD/FreeCAD/pull/23034 Žádost o začlenění #23034]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Core system and API ==
-</div>
+<span id="Core_system_and_API"></span>
+== Jádro systému a API ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Core ===
