@@ -41,9 +41,8 @@ The '''Std ToggleTransparency''' command toggles the transparency of selected ob
 # Objects that were transparent (1% or more) become opaque. Opaque objects become 70% transparent.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Notes==
-</div>
+<span id="Notes"></span>
+==Poznámky==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The {{PropertyView|Transparency}} property of objects can also be changed in the [[Property_View|Property View]].
