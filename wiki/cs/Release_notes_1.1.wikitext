@@ -410,9 +410,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 * Three new [[Image:FEM_Examples.svg|24px]] [[FEM_Examples|FEM examples]] were added - one for the newly implemented electrostatics with the refactored CalculiX solver, one for the newly implemented pressure loads on edges of 2D models and one for the cyclic symmetry introduced in FreeCAD 1.0. [https://github.com/FreeCAD/FreeCAD/pull/25117 Pull request #25117], [https://github.com/FreeCAD/FreeCAD/pull/25191 Pull request #25191] and [https://github.com/FreeCAD/FreeCAD/pull/25268 Pull request #25268]
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Material Workbench ==
-</div>
+<span id="Material_Workbench"></span>
+== Pracovní plocha Material ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Materials can now be stored in external datastores. This feature is experimental and has to be activated explicitly when compiling the source code. It is not available in the standard FreeCAD builds. [https://github.com/FreeCAD/FreeCAD/pull/21047 Pull request #21047]
