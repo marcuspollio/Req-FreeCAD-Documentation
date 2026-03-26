@@ -79,7 +79,7 @@ Pokud je jako krok přichytávání nastaveno 0, je při přetahování ve 3D po
 <span id="Coordinate_system"></span>
 ===Souřadnicový systém===
 
-This dropdown sets the coordinate system for the manual inputs in the task panel. The coordinate system has no effect when transforming the object solely by dragging in the 3D View (except when choosing ''Global'' and check to ''align the dragger rotation to the selected coordinate system''.)
+Toto rozbalovací menu slouží k nastavení souřadnicového systému pro ruční zadávání hodnot v panelu úloh. Souřadnicový systém nemá žádný vliv při transformaci objektu pouhým přetažením ve 3D pohledu (s výjimkou případů, kdy je vybrána možnost ''Globální'' a zaškrtnuto políčko ''Zarovnat posuvník rotace s vybraným souřadnicovým systémem'').
 
 The axis labels are also displayed on the dragger in the 3D View, whereas '''U, V, W''' is the local coordinate system at the current dragger location, and '''X, Y, Z''' is the global coordinate system (equal to the placement value in the Property View, if the dragger is at the object's origin).
 * '''Local''' (default): the current dragger location and orientation defines the transform origin for the following inputs in the task panel in '''U, V, W'''. The input is equal the delta to the current dragger location in its axes. 
