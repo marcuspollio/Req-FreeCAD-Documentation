@@ -96,9 +96,9 @@ Zadání délky pro změnu posunu objektu kolem aktuálního posuvníku (počát
 <span id="Rotation"></span>
 ===Rotace===
 
-Angular input for changing the rotation of the object around the current dragger (transform origin).
-* '''U, V, W''' (default, in ''local'' coordinate system): Allows to input – or displays, when dragging in the 3D View – the delta to the previous dragger orientation in the local coordinate system (= dragger orientation). The rotation values in U, V, W are accumulated, as long as the dragger location (position of the axes) is not changed (either by dragging in the 3D View or by inputting translation values in the task panel), the dragger is re-aligned to a different custom location, or the ''Move to Other Object'' function has been used. In these cases, the rotation values are set to zero in the user interface of the task panel, without changing the actual rotation of the object.
-* '''X, Y, Z''' (in ''global'' coordinate system): Allows to input – or displays, when dragging in the 3D View – the location values of the current dragger orientation in the global coordinate system in euler angles around X, Y, Z. If the dragger mode is set to ''Object origin'', the values correspond with the rotational placement values of the object to be transformed.
+Úhlové zadání pro změnu rotace objektu kolem aktuálního posuvníku (počátku transformace).
+* ‚''U, V, W''' (výchozí, v ‚'lokálním‘' souřadnicovém systému): Umožňuje zadat – nebo zobrazit při přetahování ve 3D pohledu – rozdíl oproti předchozí orientaci posuvníku v lokálním souřadnicovém systému (= orientace posuvníku). Hodnoty rotace v U, V, W se sčítají, dokud se nezmění poloha posuvníku (poloha os) (buď tažením v 3D pohledu, nebo zadáním hodnot posunu v panelu úkolů), dokud není posuvník znovu zarovnán na jiné vlastní místo, nebo dokud není použita funkce ''Přesunout na jiný objekt''. V těchto případech jsou hodnoty rotace v uživatelském rozhraní panelu úkolů nastaveny na nulu, aniž by se změnila skutečná rotace objektu.
+* '''X, Y, Z''' (v ''globálním'' souřadnicovém systému): Umožňuje zadat – nebo zobrazit při přetahování v 3D pohledu – hodnoty polohy aktuální orientace posuvníku v globálním souřadnicovém systému v Eulerových úhlech kolem os X, Y, Z. Pokud je režim posuvníku nastaven na ''Počátek objektu'', hodnoty odpovídají hodnotám rotačního umístění objektu, který má být transformován.
 
 ===Utilities===
 
