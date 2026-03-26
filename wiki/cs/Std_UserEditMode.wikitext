@@ -45,7 +45,8 @@ This edit mode is implemented as available but currently does not seem to be use
 
 The object will have the appearance of its individual faces editable with the [[Part_ColorPerFace|Part ColorPerFace]] command.
 
-== Notes ==
+<span id="Notes"></span>
+== Poznámky ==
 
 * Not all objects support all edit modes. If the selected mode isn't supported by the object, its default edit mode will be used instead.
 
