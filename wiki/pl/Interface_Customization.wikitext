@@ -18,15 +18,13 @@ Interfejs FreeCAD jest oparty na współczesnym zestawie narzędzi [https://en.w
 <span id="Usage"></span>
 ==Użycie==
 
-<div class="mw-translate-fuzzy">
 # Polecenia dostępne w oknie dialogowym Dostosowywania zależą od aktywnych programów roboczych, które zostały załadowane w bieżącej sesji programu FreeCAD. Należy więc najpierw załadować wszystkie programy, do których chcemy mieć dostęp.
 # Istnieje kilka sposobów wywołania polecenia [[Image:Std_DlgCustomize.svg|16px]] [[Std_DlgCustomize/pl|Std: Dostosuj]]:
-#* Wybierz polecenie z menu {{MenuCommand|Przybory → [[Image:Std_DlgCustomize.svg|16px]] Dostosuj...}}.
-#* Kliknij prawym przyciskiem myszy na obszarze paska narzędzi i wybierz z menu kontekstowego {{MenuCommand|[[Image:Std_DlgCustomize.svg|16px]] Dostosuj...}}.
+#* Wybierz polecenie z menu {{MenuCommand|Przybory → [[Image:Std_DlgCustomize.svg|16px]] Dostosuj}}.
+#* Kliknij prawym przyciskiem myszy na obszarze paska narzędzi i wybierz z menu kontekstowego {{MenuCommand|[[Image:Std_DlgCustomize.svg|16px]] Dostosuj}}.
 # Otworzy się okno dialogowe '''Dostosuj'''. Więcej informacji można znaleźć w rozdziale [[#Opcje|Opcje]].
 # Przycisk {{Button|Pomocy}} nie działa w tym czasie.
 # Naciśnij przycisk {{Button|Zamknij}}, aby zamknąć okno dialogowe.
-</div>
 
 <span id="Options"></span>
 ==Opcje==
