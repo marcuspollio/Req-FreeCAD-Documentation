@@ -165,7 +165,7 @@ The Alignment setting controls where the tile grid is anchored relative to the b
 
 === Preset alignments ===
 
-Five presets are available: '''Center''', '''TopLeft''', '''TopRight''', '''BottomLeft''', '''BottomRight'''.
+Five presets are available: '''Center''', '''Top Left''', '''Top Right''', '''Bottom Left''', '''Bottom Right'''.
 
 For corner presets, the ''named corner of a tile'' is aligned to the ''named corner of the face bounding box''. For example, TopRight places the top-right corner of a tile flush with the top-right corner of the face.
 
