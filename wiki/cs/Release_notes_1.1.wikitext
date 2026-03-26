@@ -552,9 +552,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 * A task panel was added for the [[Image:Surface_BlendCurve.svg|24px]] [[Surface_BlendCurve|Blend Curve]] tool. [https://github.com/FreeCAD/FreeCAD/pull/21825 Pull request #21825]
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== TechDraw Workbench ==
-</div>
+<span id="TechDraw_Workbench"></span>
+== Pracovní plocha TechDraw ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The [[Image:TechDraw_AreaDimension.svg|24px]] [[TechDraw_AreaDimension|Insert Area Annotation]] tool now properly accounts for holes in faces. [https://github.com/FreeCAD/FreeCAD/pull/17740 Pull request #17740]
