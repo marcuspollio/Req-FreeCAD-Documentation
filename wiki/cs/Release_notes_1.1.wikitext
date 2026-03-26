@@ -132,9 +132,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 * Sekci Příklady na úvodní stránce lze skrýt pomocí nastavení v předvolbách. [https://github.com/FreeCAD/FreeCAD/pull/19376 Žádost o začlenění #19376] a [https://github.com/FreeCAD/FreeCAD/pull/19918 Žádost o začlenění #19918].
 * Náhledy (miniatury) dalších formátů 3D modelů (například STEP a STL) se nyní zobrazují v sekcích Nedávné soubory a Příklady na úvodní stránce, pokud je nainstalován prohlížeč F3D a je přidán do systémové proměnné PATH. [https://github.com/FreeCAD/FreeCAD/pull/19489 Žádost o začlenění #19489]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Addon Manager ==
-</div>
+<span id="Addon_Manager"></span>
+== Správce rozšíření ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The Python dependency updater now works correctly if FreeCAD is installed as a snap package or as an AppImage. [https://github.com/FreeCAD/FreeCAD/pull/19384 Pull request #19384], [https://github.com/FreeCAD/FreeCAD/pull/19766 Pull request #19766] and [https://github.com/FreeCAD/FreeCAD/pull/19814 Pull request #19814].
