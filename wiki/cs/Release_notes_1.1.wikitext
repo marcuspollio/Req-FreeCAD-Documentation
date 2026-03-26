@@ -477,9 +477,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 [https://github.com/FreeCAD/FreeCAD/pull/22880 Žádost o začlenění #22880]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Further Part Design improvements ===
-</div>
+<span id="Further_Part_Design_improvements"></span>
+=== Další vylepšení pracovního prostředí Part Design ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The origin feature in a Part Design body makes use of the new core datums. The appearance has been changed and the planes enlarge when creating a new sketch. As the orientation was wrong in older FreeCAD versions, files created with these versions need to be converted on opening. It can break files which reference the datums, and converted or new files created with {{VersionPlus|1.1}} will be broken in {{VersionMinus|1.0}}. [https://github.com/FreeCAD/FreeCAD/pull/18126 Pull request #18126]
