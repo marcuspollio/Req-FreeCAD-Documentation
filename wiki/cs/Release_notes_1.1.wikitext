@@ -493,13 +493,11 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 <span id="Sketcher_Workbench"></span>
 == Pracovní prostředí Sketcher ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:Sketcher_defining_external_relnotes_1.1.gif|384px]]</br>Click on the image if the animation does not start.
-| [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection|Projection]] tool was added making it possible to create defining [[Sketcher_External|external geometry]] and toggle between defining and construction modes for external geometry.
-[https://github.com/FreeCAD/FreeCAD/pull/17736 Pull request #17736]
+| [[File:Sketcher_defining_external_relnotes_1.1.gif|384px]]</br>Pokud se animace nespustí, klikněte na obrázek.
+| [[Image:Sketcher_Projection.svg|24px]] Byl přidán nástroj [[Sketcher_Projection/cs|Projekce]], který umožňuje vytvářet definici [[Sketcher_External/cs|vnější geometrie]] a přepínat mezi režimy definice a konstrukce vnější geometrie.
+[https://github.com/FreeCAD/FreeCAD/pull/17736 Žádost o začlenění #17736]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
