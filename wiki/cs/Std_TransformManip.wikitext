@@ -111,9 +111,9 @@ Rychlé akce pro transformaci vybraného objektu.
 <span id="Notes"></span>
 ==Poznámky==
 
-* As soon as you rotate/move the object in the [[3D_View|3D View]], changes are applied (only in {{VersionMinus|1.0}}). 
-* Some objects with a {{PropertyData|Placement}} property, such as sketches, cannot be manipulated, neither can objects that are attached to other objects.
-* There is no {{Button|Cancel}} button in {{VersionMinus|0.21}}, in those versions you can press the {{Button|OK}} button and use the [[File:Std_Undo.svg|16px]] [[Std_Undo|Undo]] command to revert changes afterwards.
+* Jakmile objekt ve [[3D_View/cs|3D pohledu]] otočíte nebo posunete, změny se ihned projeví (pouze ve verzi {{VersionMinus|1.0}}).
+* S některými objekty, které mají vlastnost {{PropertyData|Umístění}}, jako jsou například náčrtky, nelze manipulovat; totéž platí pro objekty, které jsou připojeny k jiným objektům.
+* Ve verzi {{VersionMinus|0.21}} není k dispozici tlačítko {{Button|Zrušit}}; v těchto verzích můžete stisknout tlačítko {{Button|OK}} a změny poté vrátit zpět pomocí příkazu [[File:Std_Undo.svg|16px]] [[Std_Undo|Zpět]].
 
 ==Examples==
 
