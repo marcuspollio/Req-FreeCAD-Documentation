@@ -4,13 +4,10 @@
 
 '''FreeCAD 1.1''' byl vydán '''24 března 2026''', stáhněte si ho ze stránky [[Download|Download]]. Na této stránce najdete přehled všech nových funkcí a změn.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Older FreeCAD release notes can be found in the [[Feature_list#Release_notes|Feature list]].
-</div>
+Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_notes|seznamu funkcí]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== General ==
-</div>
+<span id="General"></span>
+== Obecné ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Improved Wayland support. [https://github.com/FreeCAD/FreeCAD/pull/21917 Pull request #21917], [https://github.com/FreeCAD/FreeCAD/pull/23768 Pull request #23768] and [https://github.com/FreeCAD/FreeCAD/pull/23946 Pull request #23946]
