@@ -74,7 +74,7 @@ Ora hai uno schizzo completamente vincolato, come indicato dal risolutore a sini
 
 Uno schizzo con vincoli insufficienti può lasciare spazio a modifiche indesiderate, se si modifica qualcosa in seguito. Ora abbiamo uno schizzo con vincoli totali, come indicato dal risolutore a sinistra e dal cambio di colore. È buona norma avere sempre uno schizzo con vincoli totali.
 
-On the opposite, an over-constrained sketch is also not good. In that case the solver warn you of redundant constraints and you should remove some of them.
+Al contrario, anche uno schizzo eccessivamente vincolato non è una buona cosa. In tal caso, il risolutore ti avvisa della presenza di vincoli ridondanti e dovresti rimuoverne alcuni.
 
 * To leave the sketch, click either on the "Close" button on the left, or the [[File:Sketcher_LeaveSketch.png|32px]] icon in the toolbar, or press {{KEY|ESC}}.
 
