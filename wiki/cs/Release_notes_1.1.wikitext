@@ -70,13 +70,11 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 [https://github.com/FreeCAD/FreeCAD/pull/18332 Žádost o začlenění #18332]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:Std_Transform_Manip_relnotes_1.1.gif|384px]]</br>Click on the image if the animation does not start.
-| The [[Image:Std_TransformManip.svg|24px]] [[Std TransformManip|Transform]] tool was overhauled and now allows for precise inputs besides dragging in the 3D view. It is possible to align the interactive dragger to any element in the document and to transform the object in that local (U, V, W) coordinate system of the dragger, or in the global document coordinate system. The dragger can be aligned to the object's origin as before, and also to the center of mass of the object. It has a new feature to move the object (at the location of the dragger) to a target location in the document and flip the orientation. See all [[Std_TransformManip#Options|new options]].
+| [[File:Std_Transform_Manip_relnotes_1.1.gif|384px]]</br>Pokud se animace nespustí, klikněte na obrázek.
+| Nástroj [[Image:Std_TransformManip.svg|24px]] [[Std TransformManip/cs|Transformace]] prošel zásadní úpravou a nyní kromě přetahování ve 3D pohledu umožňuje i přesné zadávání hodnot. Je možné zarovnat interaktivní přetahovací kurzor na libovolný prvek v dokumentu a transformovat objekt v lokálním souřadnicovém systému (U, V, W) tohoto kurzoru nebo v globálním souřadnicovém systému dokumentu. Přetahovací prvek lze zarovnat k počátku objektu jako dříve, ale také k těžišti objektu. Má novou funkci pro přesun objektu (v místě přetahovacího prvku) na cílové místo v dokumentu a převrácení orientace. Viz [[Std_TransformManip/cs#Options|nové možnosti]].
 [https://github.com/FreeCAD/FreeCAD/pull/17564 Pull request #17564]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
