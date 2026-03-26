@@ -19,7 +19,7 @@
 <span id="Description"></span>
 ==Popis==
 
-The '''Std TransformManip''' command allows you to apply rotation increments and translation increments to a selected object. This can be done either by dragging the interactive dragger in the 3D View or, {{Version|1.1}}, by entering precise values in the task panel, either in any (local) dragger coordinate system or the global coordinate system.
+Příkaz '''Transformovat''' umožňuje na vybraný objekt aplikovat přírůstky otáčení a posunu. To lze provést buď přetažením interaktivního táhla ve 3D pohledu, nebo, {{Version|1.1}}, zadáním přesných hodnot v panelu úloh, a to buď v libovolném (lokálním) souřadnicovém systému táhla, nebo v globálním souřadnicovém systému.
 
 It is also possible to align the object at the dragger to a target element in the document while limiting translation or rotation to any axis selection.
 
