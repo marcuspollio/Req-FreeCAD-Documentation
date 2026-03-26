@@ -445,9 +445,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 * The redundant [[Image:Part_Import.svg|24px]] [[Part_Import|Part Import]] and [[Image:Part_Export.svg|24px]] [[Part_Export|Part Export]] tools were removed from the menu. [https://github.com/FreeCAD/FreeCAD/pull/22116 Pull request #22116]
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Part Design Workbench ==
-</div>
+<span id="Part_Design_Workbench"></span>
+== Pracovní plocha Part Design ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
