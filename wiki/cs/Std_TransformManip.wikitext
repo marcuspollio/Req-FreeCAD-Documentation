@@ -9,11 +9,11 @@
 |IconC=Freecad.svg
 }}
 
-{{GuiCommand
+{{GuiCommand/cs
 |Name=Std TransformManip
-|MenuLocation=Edit → Transform
-|Workbenches=All
-|SeeAlso=[[Std_UserEditMode|Std UserEditMode]]
+|MenuLocation=Upravir → Transformace
+|Workbenches=Vše
+|SeeAlso=[[Std_UserEditMode/cs|Std UserEditMode]]
 }}
 
 ==Description==
