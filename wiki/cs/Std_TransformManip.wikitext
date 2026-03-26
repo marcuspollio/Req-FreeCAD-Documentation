@@ -108,7 +108,8 @@ Rychlé akce pro transformaci vybraného objektu.
 * {{Button|[[Image:Std_DlgParameter.svg|16px]]}}: Umožňuje určit příslušné složky os pro příkaz ''Přesunout na jiný objekt''. Ve výchozím nastavení jsou zaškrtnuty všechny osy posunu a rotace, což znamená, že objekt se posune a otočí ze svého souřadnicového systému (systému tažného prvposuvníku) do souřadnicového systému cílového umístění a zarovná se s ním. Lze zablokovat buď posun, nebo rotaci, případně lze vybrat jednotlivé osy, které se mají přizpůsobit/zarovnat. Například objekt lze pouze otočit tak, aby byl zarovnán s vybranou plochou / objektem, aniž by se pohyboval, nebo lze objekt přesunout tak, aby se shodoval pouze s jednou nebo dvěma osami, s otočením objektu do cílové orientace nebo bez něj. Viz  Viz [[#Advanced:_Custom_alignment_of_axes_components|pokročilé příklady]] níže.
 * {{Button|Překlopit}}: Překlopí orientaci transformovaného objektu o 180 stupňů kolem osy X a Z. To je užitečné v případě, že se po provedení akce ''Přesunout k jinému objektu'' transformovaný objekt protíná s cílovým objektem, protože souřadnice cílového umístění jsou otočeny o 180 stupňů.
 
-==Notes==
+<span id="Notes"></span>
+==Poznámky==
 
 * As soon as you rotate/move the object in the [[3D_View|3D View]], changes are applied (only in {{VersionMinus|1.0}}). 
 * Some objects with a {{PropertyData|Placement}} property, such as sketches, cannot be manipulated, neither can objects that are attached to other objects.
