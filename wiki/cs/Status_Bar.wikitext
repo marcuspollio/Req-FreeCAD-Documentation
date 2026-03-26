@@ -59,10 +59,10 @@ Kliknutím pravým tlačítkem myši na tuto oblast se otevře kontextové menu 
 <span id="Navigation_indicator"></span>
 === Navigační indikátor ===
 
-The Navigation indicator shows the current [[Mouse_navigation|Mouse navigation]] mode. Clicking the indicator opens a menu with the available modes and a {{MenuCommand|Settings}} submenu with the following options:
-* {{MenuCommand|Orbit style}}: See [[Preferences_Editor#Navigation|Preferences Editor]].
-* {{MenuCommand|Compact}}: If this option is checked only a mouse icon is shown in the widget.
-* {{MenuCommand|Tooltip}}: If this option is checked hovering the widget will show a tooltip with detailed usage information.
+Navigační indikátor zobrazuje aktuální režim [[Mouse_navigation|navigace myší]]. Kliknutím na indikátor se otevře nabídka s dostupnými režimy a podnabídka {{MenuCommand|Nastavení}} s následujícími možnostmi:
+* {{MenuCommand|Styl orbitu}}: Viz [[Preferences_Editor/cs#Navigation|Editor předvoleb]].
+* {{MenuCommand|Kompaktní}}: Je-li tato možnost zaškrtnuta, zobrazí se ve widgetu pouze ikona myši.
+* {{MenuCommand|Tooltip}}: Je-li tato možnost zaškrtnuta, zobrazí se po najetí myší na widget popisek s podrobnými informacemi o použití.
 
 === Zoom indicator ===
 
