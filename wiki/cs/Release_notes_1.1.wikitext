@@ -537,9 +537,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 * Při výběru pole zleva doprava se nyní používá jiná barva než při výběru zprava doleva, aby se odlišilo jejich chování. [https://github.com/FreeCAD/FreeCAD/pull/23261 Žádost o začlenění #23261]
 * Je k dispozici nové nastavení velikosti symbolů pro vazby. [https://github.com/FreeCAD/FreeCAD/pull/23366 Žádost o začlenění #23366]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Spreadsheet Workbench ==
-</div>
+<span id="Spreadsheet_Workbench"></span>
+== Pracovní prostředí Spreadsheet ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Default shortcuts for [[Image:Spreadsheet_StyleBold.svg|24px]] [[Spreadsheet_StyleBold|Bold text]], [[Image:Spreadsheet_StyleItalic.svg|24px]] [[Spreadsheet_StyleItalic|Italic text]] and [[Image:Spreadsheet_StyleUnderline.svg|24px]] [[Spreadsheet_StyleUnderline|Underline text]] have been added. [https://github.com/FreeCAD/FreeCAD/pull/15556 Pull request #15556]
