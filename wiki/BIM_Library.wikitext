@@ -21,7 +21,7 @@
 ==Description== <!--T:1-->
 
 <!--T:3-->
-The '''BIM Library''' tool allows you to place, in the current model, an object from the [[Parts_Library_Workbench|Parts Library]], which must be installed via the [[Image:Std_AddonMgr.svg|24px|link=Std_AddonMgr]] [[Std_AddonMgr|Addon Manager]] for this tool to be available.
+The '''BIM Library''' tool allows you to place, in the current model, an object from the [[Parts_Library_Workbench|Parts Library]]. The library can be accessed offline by downlading the whole workbench via the [[Image:Std_AddonMgr.svg|24px|link=Std_AddonMgr]] [[Std_AddonMgr|Addon Manager]], or browsed directly from within FreeCAD: in this case, on-demand downloads will be pulled from the [https://github.com/FreeCAD/FreeCAD-library Parts Library Git repository].
 
 
 </translate>
@@ -45,7 +45,6 @@ The '''BIM Library''' tool allows you to place, in the current model, an object 
 * [[File_Format_FCStd|FCStd]], STEP and [[File_Format_FCStd#*.brep|brep]] files are supported. Only STEP and BREP files are placeable. FCStd files will not allow you to choose a placement, as they might be composed of a complex series of objects with significant positions. When choosing an FCStd file, its contents will be inserted at the position that is defined in the file.
 * STEP and BREP objects are inserted as [[Image:Arch_Equipment.svg|24px]] [[Arch_Equipment|Equipment]] with no separated base shape. Adding a base shape to these objects afterwards will destroy their current shape.
 * On placing an object, you can choose their insertion point between original (the ({{incode|0,0,0}}) point defined in the file), top, middle, bottom and left, center and right.
-* The Library can work offline, in which case it relies on the Parts Library addon to be installed (and updated by the user), or online, in which case it browses directly from the [https://github.com/FreeCAD/FreeCAD-library Parts Library Git repository] and allows to download directly from there.
 
 
 <!--T:10-->
