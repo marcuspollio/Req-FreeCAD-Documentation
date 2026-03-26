@@ -225,13 +225,11 @@ Demo animation (Click the image, if the animation does not start):
 [[Image:Std_TransformManip_OnlyOneTranslate2.gif]]
 
 
-{{Docnav/cs
-|[[Std_Placement/cs|Umístění]]
-|[[Std_Alignment/cs|Zarovnání]]
-|[[Std_Edit_Menu/cs|Menu Upravit]]
-|IconL=Std_Placement.svg
-|IconR=Std_Alignment.svg
-|IconC=Freecad.svg
+{{GuiCommand/cs
+|Name=Std TransformManip
+|MenuLocation=Upravir → Transformovat
+|Workbenches=Vše
+|SeeAlso=[[Std_UserEditMode/cs|Uživatelský režim úprav]]
 }}
 
 {{Std_Base_navi{{#translation:}}}}
