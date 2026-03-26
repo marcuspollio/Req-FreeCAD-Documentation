@@ -72,7 +72,9 @@ doc.recompute()
 
 Voir aussi : [[TechDraw_Templates/fr|TechDraw Modèles]] pour plus d'informations sur la création de modèles.
 
+<div class="mw-translate-fuzzy">
 Une fois qu'une nouvelle feuille a été créée, son attribut {{incode|Template}} contient un dictionnaire {{incode|EditableTexts}} avec le nom des champs modifiables (keys) et leurs valeurs textuelles. Copiez ce dictionnaire dans une variable, apportez des modifications, puis réaffectez le dictionnaire à l'attribut {{incode|EditableTexts}} pour afficher les modifications.
+</div>
 
 {{Code|code=
 page = FreeCAD.ActiveDocument.Page
@@ -85,7 +87,9 @@ texts["FC-Title"] = "The title of my page"
 page.Template.EditableTexts = texts
 }}
 
+<div class="mw-translate-fuzzy">
 Pour modifier chacun des champs, on peut utiliser la méthode {{incode|setEditFieldContent}} de {{incode|Template}} :
+</div>
 
 {{Code|code=
 page.Template.setEditFieldContent("FC-Title", "Another title of my page")
