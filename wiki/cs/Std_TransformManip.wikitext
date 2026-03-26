@@ -71,10 +71,10 @@ Umožňuje nastavit polohu a orientaci posuvníku, a tím i počátek transforma
 <span id="Snapping"></span>
 ===Přichytávání===
 
-Snapping increments are values to control solely the interactive dragging behavior in the 3D View. The object to be transformed snaps to the following increments:
-* '''Translation''': Length value - snapping increment for translational change of the object in the 3D View, either in one axis or planar.
-* '''Rotation''': Angle value - snapping increment for a rotational change of the object in the 3D View around any axis.
-If 0 is set as snapping increment, snapping is deactivated when dragging in the 3D View.
+Kroky přichytávání jsou hodnoty, které slouží výhradně k řízení chování při interaktivním přetahování ve 3D pohledu. Transformovaný objekt se přichytává v následujících krocích:
+* '''Posunutí''': Hodnota délky – krok přichytávání pro posun objektu ve 3D pohledu, a to buď v jedné ose, nebo v rovině.
+* '''Rotace''': Hodnota úhlu – krok přichytávání pro otočení objektu ve 3D pohledu kolem libovolné osy.
+Pokud je jako krok přichytávání nastaveno 0, je při přetahování ve 3D pohledu přichytávání deaktivováno.
 
 ===Coordinate system===
 
