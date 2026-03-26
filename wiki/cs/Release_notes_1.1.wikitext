@@ -73,7 +73,7 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 {| cellpadding=5
 | [[File:Std_Transform_Manip_relnotes_1.1.gif|384px]]</br>Pokud se animace nespustí, klikněte na obrázek.
 | Nástroj [[Image:Std_TransformManip.svg|24px]] [[Std TransformManip/cs|Transformace]] prošel zásadní úpravou a nyní kromě přetahování ve 3D pohledu umožňuje i přesné zadávání hodnot. Je možné zarovnat interaktivní přetahovací kurzor na libovolný prvek v dokumentu a transformovat objekt v lokálním souřadnicovém systému (U, V, W) tohoto kurzoru nebo v globálním souřadnicovém systému dokumentu. Přetahovací prvek lze zarovnat k počátku objektu jako dříve, ale také k těžišti objektu. Má novou funkci pro přesun objektu (v místě přetahovacího prvku) na cílové místo v dokumentu a převrácení orientace. Viz [[Std_TransformManip/cs#Options|nové možnosti]].
-[https://github.com/FreeCAD/FreeCAD/pull/17564 Pull request #17564]
+[https://github.com/FreeCAD/FreeCAD/pull/17564 Žádost o začlenění #17564]
 |}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
