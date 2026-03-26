@@ -56,7 +56,7 @@ Můžete nastavit následující možnosti:
 <span id="Dragger"></span>
 ===Posuvník===
 
-This section controls the interactive dragger (gizmo or axis handles) location and orientation, and its behavior in the 3D View. The object is always transformed around the current dragger coordinate system.
+Tato sekce řídí umístění a orientaci interaktivního posuvníku (gizma nebo úchytů os) a jeho chování ve 3D pohledu. Objekt se vždy transformuje kolem aktuálního souřadnicového systému posuvníku.
 
 ====Mode====
 
