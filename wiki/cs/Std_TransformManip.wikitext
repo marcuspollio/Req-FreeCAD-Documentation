@@ -27,21 +27,21 @@ Je také možné zarovnat objekt, který táhnete, k cílovému prvku v dokument
 
 ==Usage==
 
-# Select an object with a {{PropertyData|Placement}} property. See [[#Notes|Notes]].
-# There are several ways to invoke the command:
-#* Select the {{MenuCommand|Edit → [[Image:Std_TransformManip.svg|16px]] Transform}} option from the menu.
-#* Select the {{MenuCommand|[[Image:Std_TransformManip.svg|16px]] Transform}} option from the [[Tree_View|Tree View]] or [[3D_View|3D View]] context menu.
-#* If [[Std_UserEditMode|edit mode]] is set to {{MenuCommand|[[Image:Std_UserEditModeTransform.svg|16px]] Transform}} you can also double-click the object in the Tree View.
-# The {{MenuCommand|Transform}} task panel opens.
-# Optionally adjust the snapping parameters: These are values for snapping to increments when dragging in the 3D View, either for rotation or translation.
-# Do one or more of the following:
-#* Press and hold the left mouse button on an axis arrow and drag to translate the object along that axis.
-#* Press and hold the left mouse button on a plane and drag to translate the object along that plane.
-#* Press and hold the left mouse button on a sphere and drag to rotate the object around that axis.
-# Optionally, adjust the location of the [[#Dragger|dragger]], [[#Coordinate system|coordinate system]], input precise delta (local), or absolute (global) increments, or [[#Utilities|move the object to a target object]]. {{Version|1.1}}. See the following [[#Options|Options]] section for more information.
-# Do one of the following:
-#* Press the {{Button|OK}} button to confirm and finish the command.
-#* Press the {{Button|Cancel}} button to revert the applied transformations and finish the command. {{Version|1.0}}
+# Vyberte objekt s vlastností {{PropertyData|Umístění}}. Viz [[#Poznámky|Poznámky]].
+# Existuje několik způsobů, jak tento příkaz spustit:
+#* Z menu vyberte možnost {{MenuCommand|Upravit → [[Image:Std_TransformManip.svg|16px]] Transformovat}}.
+#* V kontextovém menu [[Tree_View/cs|Stromového zobrazení]] nebo [[3D_View/cs|3D pohledu]] vyberte možnost {{MenuCommand|[[Image:Std_TransformManip.svg|16px]] Transformovat}}.
+#* Pokud je [[Std_UserEditMode/cs|režim úprav]] nastaven na {{MenuCommand|[[Image:Std_UserEditModeTransform.svg|16px]] Transformovat}}, můžete na objekt ve stromovém zobrazení také poklepat.
+# Otevře se panel úloh {{MenuCommand|Transformovat}}.
+# Volitelně můžete upravit parametry přichytávání: Jedná se o hodnoty pro přichytávání k přírůstkům při přetahování ve 3D pohledu, a to jak při otáčení, tak při posunu.
+# Proveďte jednu nebo více z následujících akcí:
+#* Stiskněte a podržte levé tlačítko myši na šipce osy a tažením posuňte objekt podél této osy.
+#* Stiskněte a podržte levé tlačítko myši na rovině a tažením posuňte objekt podél této roviny.
+#* Stiskněte a podržte levé tlačítko myši na kouli a tažením otočte objekt kolem této osy.
+# Volitelně můžete upravit polohu [[#Dragger|draggeru]], [[#Coordinate system|souřadnicového systému]], zadat přesné přírůstky delta (lokální) nebo absolutní (globální) přírůstky, nebo [[#Utilities|přesunout objekt na cílový objekt]]. {{Version|1.1}}. Více informací najdete v následující sekci [[#Options|Možnosti]].
+# Proveďte jednu z následujících akcí:
+#* Stiskněte tlačítko {{Button|OK}} pro potvrzení a dokončení příkazu.
+#* Stiskněte tlačítko {{Button|Zrušit}} pro vrácení provedených změn a dokončení příkazu. {{Version|1.0}}
 
 ==Options==
 
