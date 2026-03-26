@@ -545,9 +545,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 * Do tabulky byla přidána funkce Zoom. [https://github.com/FreeCAD/FreeCAD/pull/16130 Žádost o začlenění #16130]
 * Do položek kontextového menu byly přidány ikony. [https://github.com/FreeCAD/FreeCAD/pull/22773 Žádost o začlenění #22773]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Surface Workbench ==
-</div>
+<span id="Surface_Workbench"></span>
+== Pracovní plocha Surface ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * A task panel was added for the [[Image:Surface_BlendCurve.svg|24px]] [[Surface_BlendCurve|Blend Curve]] tool. [https://github.com/FreeCAD/FreeCAD/pull/21825 Pull request #21825]
