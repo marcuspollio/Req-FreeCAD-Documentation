@@ -85,7 +85,7 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 {| cellpadding=5
 | [[File:QuickMeasure_relnotes_1.1.gif|384px]]</br>Pokud se animace nespustí, klikněte na obrázek.
 | [[Status_Bar/cs#Quick_measure|Rychlé měření]] zobrazuje ve stavovém řádku další informace na základě vybraných prvků. Kromě délky, úhlu, plochy a poloměru nyní zobrazuje také průměr uzavřených kruhových prvků a vzdálenost os. Funguje to jak u jednoho, tak u více vybraných prvků. K dispozici je také možnost v menu, která tuto funkci deaktivuje.
-[https://github.com/FreeCAD/FreeCAD/pull/23385 Žádost o začlenění #23385] and [https://github.com/FreeCAD/FreeCAD/pull/23399 Žádost o začlenění #23399]
+[https://github.com/FreeCAD/FreeCAD/pull/23385 Žádost o začlenění #23385] a [https://github.com/FreeCAD/FreeCAD/pull/23399 Žádost o začlenění #23399]
 |}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
