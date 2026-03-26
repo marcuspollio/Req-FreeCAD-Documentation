@@ -14,13 +14,11 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 <span id="User_Interface"></span>
 == Uživatelské rozhraní ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:Three_point_lighting_relnotes_1.1.png|384px]]
-| Three-point lighting was added to improve the rendering of 3D models.
-[https://github.com/FreeCAD/FreeCAD/pull/19397 Pull request #19397]
+| Bylo přidáno tříbodové osvětlení, aby se zlepšilo vykreslování 3D modelů.
+[https://github.com/FreeCAD/FreeCAD/pull/19397 Žádost o začlenění #19397]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
