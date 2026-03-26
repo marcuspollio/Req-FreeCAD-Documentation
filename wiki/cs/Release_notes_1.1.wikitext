@@ -490,9 +490,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 * Možnost povolit složení (více těles) u Těla je nyní ve výchozím nastavení zapnutá a již není považována za experimentální funkci. [https://github.com/FreeCAD/FreeCAD/pull/23003 Žádost o začlenění #23003]
 * [[PartDesign_Workbench/cs#Transformation_tools|Nástroje pro transformaci]] nyní umožňují nastavit různé rozestupy. [https://github.com/FreeCAD/FreeCAD/pull/22389 Žádost o začlenění #22389]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Sketcher Workbench ==
-</div>
+<span id="Sketcher_Workbench"></span>
+== Pracovní prostředí Sketcher ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
