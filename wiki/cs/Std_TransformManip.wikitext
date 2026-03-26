@@ -115,7 +115,8 @@ Rychlé akce pro transformaci vybraného objektu.
 * S některými objekty, které mají vlastnost {{PropertyData|Umístění}}, jako jsou například náčrtky, nelze manipulovat; totéž platí pro objekty, které jsou připojeny k jiným objektům.
 * Ve verzi {{VersionMinus|0.21}} není k dispozici tlačítko {{Button|Zrušit}}; v těchto verzích můžete stisknout tlačítko {{Button|OK}} a změny poté vrátit zpět pomocí příkazu [[File:Std_Undo.svg|16px]] [[Std_Undo|Zpět]].
 
-==Examples==
+<span id="Examples"></span>
+==Příklady==
 
 ===Pick custom dragger===
 
