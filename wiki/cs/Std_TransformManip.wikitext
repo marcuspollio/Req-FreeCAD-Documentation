@@ -68,7 +68,8 @@ Umožňuje nastavit polohu a orientaci posuvníku, a tím i počátek transforma
 **'''Reference''' (viditelné pouze v režimu ''Vlastní''): Zobrazí prvek, na který je nastaven bod přetahování (počátek transformace). Pokud nástroj čeká na zadání (výběr) od uživatele, zobrazí se hlášení ''Vyberte plochu, hranu nebo vrchol…''.
 ** {{Button|Vybrat referenci}} / {{Button|Zrušit}} (viditelné pouze v režimu ''Vlastní''): Je-li nastaveno vlastní umístění posuvníku, tlačítko {{Button|Vybrat referenci}} umožňuje uživateli změnit jeho umístění a přichytit ho k jinému prvku v dokumentu. Objekt lze transformovat, změnit umístění táhla a znovu ho transformovat, a to vše v rámci jedné aktivní úlohy. Tlačítko {{Button|Zrušit}} se zobrazí, když transformační nástroj očekává zadání nového umístění posuvníku uživatelem (výběr ve 3D pohledu), a zruší umístění vlastního posuvníku.
 
-====Snapping====
+<span id="Snapping"></span>
+===Přichytávání===
 
 Snapping increments are values to control solely the interactive dragging behavior in the 3D View. The object to be transformed snaps to the following increments:
 * '''Translation''': Length value - snapping increment for translational change of the object in the 3D View, either in one axis or planar.
