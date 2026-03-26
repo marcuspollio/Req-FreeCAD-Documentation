@@ -16,7 +16,9 @@ Diese Seite ist für Anwender gedacht, die aus der Fusion 360 Welt nach FreeCAD 
 == Glossar ==
 {{VeryImportantMessage|Bitte bezieh dich auch auf das in Arbeit befindliche [[CAD_Rosetta_Stone/de|CAD Rosetta Stone]] Projekt, um die analogen Namen zu lernen, die beliebte proprietäre CADs verwenden}}
 
+<div class="mw-translate-fuzzy">
 Verweise auf die [[Glossary/de|Glossar]] Seite im Allgemeinen, aber hier ist eine kurze Liste von spezifischen Begriffen, die F360 Leute besonders hilfreich finden könnten:
+</div>
 
 
 * Tangentiale Beschränkung - FreeCADs Form der '''Kollinearen Beschränkung'''. Siehe [[Image:Sketcher_ConstrainTangent.svg|24px|link=Sketcher_ConstrainTangent/de]] [[Sketcher_ConstrainTangent/de#Zwischen_zwei_Linien_.28kollinear.29|Skizzierer BeschränkeTangential]].
@@ -28,18 +30,17 @@ Verweise auf die [[Glossary/de|Glossar]] Seite im Allgemeinen, aber hier ist ein
 <span id="FAQ"></span>
 == Häufig Gestellte Fragen (HGF) ==
 
-<div class="mw-translate-fuzzy">
-#* Welche Formate werden in FreeCAD unterstützt?
+# Welche Formate werden in FreeCAD unterstützt?
 #* Das native Dateiformat in FreeCAD ist BREP, [https://en.wikipedia.org/wiki/Boundary_representation boundary representation], bereitgestellt vom internen [[OpenCASCADE/de|OpenCASCADE (OCCT)]] Geometriekern.
 #* FreeCAD unterstützt alle Formate, die OCCT unterstützt, also zumindest STEP und IGES.
-#Welche Formate sollte ich verwenden, um zu FreeCAD zu migrieren?
-#* STEP ist das beste Format, da es ein solides [[Shape/de|Form]] Format ist, im Gegensatz zu einem [[Mesh/de|Polygonnetz]] (STL, OBJ, DAE). Beispiel, [https://forum.freecadweb.org/viewtopic.php?f=3&t=50308 Step mit Farben importieren].
-#* Der Import eines STL ist möglich, aber dieses Polygonnetz Format lässt sich nur schwer weiter bearbeiten. Wir empfehlen, importierte Polygonnetze mit {{Button|[[File:Part_ShapeFromMesh.svg|16px]] [[Part_ShapeFromMesh/de|PartFormAusNetz]]}} in Festkörper Formen zu konvertieren. Am besten modellierst du das Objekt in FreeCAD nach, während du das Netz als Referenz verwenden.
-</div>
+# Welche Formate sollte ich verwenden, um zu FreeCAD zu migrieren?
+#* STEP ist das beste Format, da es ein Festkörper-[[Shape/de|Form]]-Format ist, im Gegensatz zu einem [[Mesh/de|Polygonnetz]] (STL, OBJ, DAE). Beispiel, [https://forum.freecad.org/viewtopic.php?f=3&t=50308 Step mit Farben importieren].
+#* Der Import eines STL ist möglich, aber dieses Polygonnetz Format lässt sich nur schwer weiter bearbeiten. Wir empfehlen, importierte Polygonnetze mit {{Button|[[File:Part_ShapeFromMesh.svg|16px]] [[Part_ShapeFromMesh/de|PartFormAusNetz]]}} in Festkörper-Formen zu konvertieren. Am besten modellierst du das Objekt in FreeCAD nach, während du das Netz als Referenz verwenden.
 
-== Tips ==
+<span id="Tips"></span>
+==Tipps==
 
-* @MPetrika ([https://twitter.com/MPetrikas/status/1362051484704264198 twitter]) empfiehlt die Installation der [[ModernUI_Workbench/de|ModernUI Arbeitsbereich]] von HakanSeven12 
+* @MPetrika ([https://twitter.com/MPetrikas/status/1362051484704264198 twitter]) empfiehlt die Installation des Arbeitsbereichs [[ModernUI_Workbench/de|ModernUI]] von HakanSeven12 
 
 
 <span id="Learning_Resources"></span>
