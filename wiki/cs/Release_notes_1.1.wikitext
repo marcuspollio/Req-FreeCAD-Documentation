@@ -148,9 +148,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 * Byl přidán nástroj  [[Image:Assembly_CreateSimulation.svg|24px]] [[Assembly_CreateSimulation/cs|Vytvořit simulaci]], který umožňuje přiřazovat pohyby kloubům a vytvářet animace.[https://github.com/FreeCAD/FreeCAD/pull/16414 Žádost o začlenění #16414]
 * Příkaz [[Image:Assembly_CreateBom.svg|24px]] [[Assembly_CreateBom/cs|Kusovník (BOM)]] nyní dokáže vypsat hodnoty zadaných vlastností. [https://github.com/FreeCAD/FreeCAD/pull/20732 Žádost o začlenění #20732]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Further Assembly improvements ===
-</div>
+<span id="Further_Assembly_improvements"></span>
+=== Další vylepšení prostředí Assembly ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The new core datums can be used for attaching joints to assemble multiple parts. [https://github.com/FreeCAD/FreeCAD/pull/18332 Pull request #18332]
