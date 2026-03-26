@@ -167,9 +167,9 @@ The Alignment setting controls where the tile grid is anchored relative to the b
 
 Five presets are available: '''Center''', '''Top Left''', '''Top Right''', '''Bottom Left''', '''Bottom Right'''.
 
-For corner presets, the ''named corner of a tile'' is aligned to the ''named corner of the face bounding box''. For example, TopRight places the top-right corner of a tile flush with the top-right corner of the face.
+For corner presets, the ''named corner of a the lead tile'' is aligned to the ''named corner of the face bounding box''. For example, Top Right places the top-right corner of a tile flush with the top-right corner of the face. Lead tile is a concept rather than a phyisical tile. It's the one used to define the alignment.
 
-For '''Center''', the centre of a tile is placed at the centre of the face.
+For '''Center''', the center of the lead tile is placed at the center of the face.
 
 === Custom alignment ===
 
