@@ -96,7 +96,6 @@ page.Template.setEditFieldContent("FC-Title", "Another title of my page")
 }}
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav
 |[[TechDraw_PageDefault/ru|Вставить страницу по умолчанию]]
 |[[TechDraw_RedrawPage/ru|Перерисовать страницу]]
@@ -105,7 +104,6 @@ page.Template.setEditFieldContent("FC-Title", "Another title of my page")
 |IconR=TechDraw_RedrawPage.svg
 |IconC=Workbench_TechDraw.svg
 }}
-</div>
 
 {{TechDraw Tools navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
