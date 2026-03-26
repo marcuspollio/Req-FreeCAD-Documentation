@@ -121,9 +121,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 <span id="Changed_Python_API"></span>
 ==== Změny v rozhraní API jazyka Python ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== New Python API ====
-</div>
+<span id="New_Python_API"></span>
+==== Nové rozhraní API pro Python ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * A new <code>FreeCAD.ApplicationDirectories</code> static class is available providing features related to the new versioned directory structure.
