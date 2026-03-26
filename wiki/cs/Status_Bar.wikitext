@@ -69,7 +69,8 @@ Navigační indikátor zobrazuje aktuální režim [[Mouse_navigation|navigace m
 
 Stavový řádek zobrazuje informace o úrovni přiblížení tím, že udává velikost aktuálního [[3D_View/cs|3D pohledu]]. Kliknutím na tento indikátor se otevře rozbalovací nabídka, ve které lze změnit systém jednotek aktuálního dokumentu, případně výchozí systém jednotek, pokud není otevřen žádný dokument.
 
-== Context menu ==
+<span id="Context_menu"></span>
+== Kontextové menu ==
 
 Right-clicking the Status Bar opens a context menu with the following options:
 * {{Version|1.1}}: {{MenuCommand|Input hints}}: Checkbox to toggle this feature.
