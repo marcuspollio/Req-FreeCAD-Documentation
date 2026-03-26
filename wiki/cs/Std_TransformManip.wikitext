@@ -100,7 +100,8 @@ Zadání délky pro změnu posunu objektu kolem aktuálního posuvníku (počát
 * ‚''U, V, W''' (výchozí, v ‚'lokálním‘' souřadnicovém systému): Umožňuje zadat – nebo zobrazit při přetahování ve 3D pohledu – rozdíl oproti předchozí orientaci posuvníku v lokálním souřadnicovém systému (= orientace posuvníku). Hodnoty rotace v U, V, W se sčítají, dokud se nezmění poloha posuvníku (poloha os) (buď tažením v 3D pohledu, nebo zadáním hodnot posunu v panelu úkolů), dokud není posuvník znovu zarovnán na jiné vlastní místo, nebo dokud není použita funkce ''Přesunout na jiný objekt''. V těchto případech jsou hodnoty rotace v uživatelském rozhraní panelu úkolů nastaveny na nulu, aniž by se změnila skutečná rotace objektu.
 * '''X, Y, Z''' (v ''globálním'' souřadnicovém systému): Umožňuje zadat – nebo zobrazit při přetahování v 3D pohledu – hodnoty polohy aktuální orientace posuvníku v globálním souřadnicovém systému v Eulerových úhlech kolem os X, Y, Z. Pokud je režim posuvníku nastaven na ''Počátek objektu'', hodnoty odpovídají hodnotám rotačního umístění objektu, který má být transformován.
 
-===Utilities===
+<span id="Utilities"></span>
+===Nástroje===
 
 Quick actions to transform the selected object.
 * {{Button|Move to Other Object}}: Allows to interactively select a target location in the 3D View (any element in the document) where the object to be transformed is set to (translation and rotation), at the current dragger location. The button changes to {{Button|Cancel}} if the tool waits for an input (3D selection) from the user. '''Cancel''' then aborts the selection of a target but does not close the transform tool. See [[#Examples|examples]] below.
