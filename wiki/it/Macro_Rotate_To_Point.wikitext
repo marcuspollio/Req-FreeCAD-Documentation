@@ -39,9 +39,7 @@ Macro per far ruotare un oggetto su se stesso scegliendo l'asse di rotazione: il
 
 *{{CheckBox|Traduzione}}: Se questa casella di controllo è {{CheckBox|TRUE|selezionata}} la rotazione è disabilitata, il posizionamento dell'oggetto viene effettuato sull'asse selezionato.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''The SpinBox {{SpinBox|1,00000 Degrees}} is reinitialized to {{incode|0.0}} and coloured in red''
-</div>
+''Lo SpinBox {{SpinBox|1.00000 Gradi}} viene reinizializzato a {{incode|0.0}} e colorato di rosso''
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 *The time passed with your favourite macro is displayed.
