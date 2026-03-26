@@ -56,7 +56,8 @@ Kliknutím pravým tlačítkem myši na tuto oblast se otevře kontextové menu 
 * {{MenuCommand|Odstranit uživatelská oznámení}}: TBD.
 * {{MenuCommand|Odstranit vše}}: TBD.
 
-=== Navigation indicator ===
+<span id="Navigation_indicator"></span>
+=== Navigační indikátor ===
 
 The Navigation indicator shows the current [[Mouse_navigation|Mouse navigation]] mode. Clicking the indicator opens a menu with the available modes and a {{MenuCommand|Settings}} submenu with the following options:
 * {{MenuCommand|Orbit style}}: See [[Preferences_Editor#Navigation|Preferences Editor]].
