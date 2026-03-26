@@ -37,9 +37,7 @@ Macro per far ruotare un oggetto su se stesso scegliendo l'asse di rotazione: il
 
 [[File:Macro_Rotate_To_Point_Position-Rotation00.png| [1] Posizione Rotazione]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-*{{CheckBox|Translation}}: If this checkBox is {{CheckBox|TRUE|checked}} the rotation is disabled, the object placement is done on the axis selected.
-</div>
+*{{CheckBox|Traduzione}}: Se questa casella di controllo è {{CheckBox|TRUE|selezionata}} la rotazione è disabilitata, il posizionamento dell'oggetto viene effettuato sull'asse selezionato.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''The SpinBox {{SpinBox|1,00000 Degrees}} is reinitialized to {{incode|0.0}} and coloured in red''
