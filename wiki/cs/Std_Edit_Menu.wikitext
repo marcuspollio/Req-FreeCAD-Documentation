@@ -81,10 +81,10 @@ The following tools are available in this menu:
 * [[File:Std_DlgPreferences.svg|32px]] [[Std_DlgPreferences|Preferences]]: Opens the [[Preferences_Editor|Preferences Editor]]. {{Emphasis|-- On MacOS this menu option may be located in the FreeCAD menu instead of the Edit menu.}}
 
 
-{{Docnav
-|[[Std_File_Menu|Std File Menu]]
-|[[Std_View_Menu|Std View Menu]]
-|[[Std_Base|Std Base]]
+{{Docnav/cs
+|[[Std_File_Menu/cs|Menu Soubor]]
+|[[Std_View_Menu/cs|Menu Zobrazit]]
+|[[Std_Base/cs|Std Base]]
 |IconL=
 |IconR=
 |IconC=Freecad.svg
