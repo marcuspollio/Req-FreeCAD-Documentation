@@ -144,11 +144,9 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 <span id="Assembly_Workbench"></span>
 == Pracovní prostředí Assembly ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The [[Image:Assembly_InsertNewPart.svg|24px]] [[Assembly_InsertNewPart|Insert a new part]] tool was added making it possible to easily add new parts to assembly. [https://github.com/FreeCAD/FreeCAD/pull/17922 Pull request #17922]
-* The [[Image:Assembly_CreateSimulation.svg|24px]] [[Assembly_CreateSimulation|Create Simulation]] tool was added making it possible to add motions to joints and create animations. [https://github.com/FreeCAD/FreeCAD/pull/16414 Pull request #16414]
-* The [[Image:Assembly_CreateBom.svg|24px]] [[Assembly_CreateBom|Bill Of Materials (BOM)]] command can now output the values of given properties. [https://github.com/FreeCAD/FreeCAD/pull/20732 Pull request #20732]
-</div>
+* Byl přidán nástroj [[Image:Assembly_InsertNewPart.svg|24px]][[Assembly_InsertNewPart/cs|Vložit nový díl]], který umožňuje snadno přidávat nové díly do sestavy. [https://github.com/FreeCAD/FreeCAD/pull/17922 Žádost o začlenění #17922]
+* Byl přidán nástroj  [[Image:Assembly_CreateSimulation.svg|24px]] [[Assembly_CreateSimulation/cs|Vytvořit simulaci]], který umožňuje přiřazovat pohyby kloubům a vytvářet animace.[https://github.com/FreeCAD/FreeCAD/pull/16414 Žádost o začlenění #16414]
+* Příkaz [[Image:Assembly_CreateBom.svg|24px]] [[Assembly_CreateBom/cs|Kusovník (BOM)]] nyní dokáže vypsat hodnoty zadaných vlastností. [https://github.com/FreeCAD/FreeCAD/pull/20732 Žádost o začlenění #20732]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Further Assembly improvements ===
