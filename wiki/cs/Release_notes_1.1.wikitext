@@ -567,9 +567,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 * Number of decimals and reference dimension options were added to the [[Image:TechDraw_Dimension.svg|24px]] [[TechDraw_Dimension|dimension]] task panel. [https://github.com/FreeCAD/FreeCAD/pull/23501 Pull request #23501]
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Import and Export ==
-</div>
+<span id="Import_and_Export"></span>
+== Import a Export ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The DXF importer was significantly redesigned at the implementation and user level for a more predictable and consistent user experience. [https://github.com/FreeCAD/FreeCAD/pull/22251 Pull Request #22251]
