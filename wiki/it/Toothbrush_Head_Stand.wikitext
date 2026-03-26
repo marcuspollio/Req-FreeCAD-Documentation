@@ -72,7 +72,7 @@ Ora hai un quadrato mobile.
 
 Ora hai uno schizzo completamente vincolato, come indicato dal risolutore a sinistra e dal cambio di colore. È buona norma avere sempre uno schizzo completamente vincolato.
 
-An under-constrained sketch can leave room for unwanted change, if you modify something later on.
+Uno schizzo con vincoli insufficienti può lasciare spazio a modifiche indesiderate, se si modifica qualcosa in seguito. Ora abbiamo uno schizzo con vincoli totali, come indicato dal risolutore a sinistra e dal cambio di colore. È buona norma avere sempre uno schizzo con vincoli totali.
 
 On the opposite, an over-constrained sketch is also not good. In that case the solver warn you of redundant constraints and you should remove some of them.
 
