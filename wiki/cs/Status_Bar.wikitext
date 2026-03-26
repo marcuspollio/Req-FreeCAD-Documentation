@@ -13,7 +13,8 @@
 
 Když se kurzor myši nachází nad tlačítkem nebo položkou menu, zobrazí se ve stavovém řádku informace o použití daného nástroje. Tyto informace se obvykle shodují s popiskem daného nástroje.
 
-=== Preselected information ===
+<span id="Preselected_information"></span>
+=== Předvolené informace ===
 
 When the pointer is over an object in the [[3D_View|3D View]] the Status Bar shows the preselected element of the object as well as the current 3D coordinates. This information is updated as the pointer is moved over the object. The update stops when the pointer is over an empty space in the 3D View.
 
