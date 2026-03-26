@@ -38,7 +38,7 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 <span id="Further_user_interface_improvements"></span>
 === Další vylepšení uživatelského rozhraní ===
 
-* Byla přidána výchozí klávesová zkratka pro [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences/cs|Std DlgPředvolby]]. [https://github.com/FreeCAD/FreeCAD/pull/15536 Žádost o začlenění #15536]
+* Byla přidána výchozí klávesová zkratka pro [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences/cs|Předvolby]]. [https://github.com/FreeCAD/FreeCAD/pull/15536 Žádost o začlenění #15536]
 * Byla vylepšena stránka nastavení oznamovací oblasti. [https://github.com/FreeCAD/FreeCAD/pull/15207 Žádost o začlenění #15207]
 * Do nástroje [[Image:Std_Measure.svg|24px]] [[Std_Measure/cs|Měření]] byly přidány funkce automatického ukládání a výběru prvků. [https://github.com/FreeCAD/FreeCAD/pull/17717 Žádost o začlenění #17717]
 * Byl přidán parametr ''Přepnout průhlednost'' [[Fine-tuning/cs|pro jemné doladění]], který uživatelům umožňuje změnit výchozí úroveň průhlednosti nastavenou nástrojem [[Image:Std_ToggleTransparency.svg|24px]] [[Std_ToggleTransparency/cs|Přepnout průhlednost]]. [https://github.com/FreeCAD/FreeCAD/pull/18986 Žádost o začlenění #18986]
