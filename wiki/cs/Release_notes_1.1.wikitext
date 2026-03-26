@@ -141,9 +141,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 * Rozšíření nyní mohou výslovně deklarovat podporu konkrétních verzí FreeCADu a pro každou z nich je podporováno více verzí a větví.
 * Závislosti v jazyce Python nyní využívají soubor pip-constraints, aby byla zajištěna instalace bez konfliktů.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Assembly Workbench ==
-</div>
+<span id="Assembly_Workbench"></span>
+== Pracovní prostředí Assembly ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The [[Image:Assembly_InsertNewPart.svg|24px]] [[Assembly_InsertNewPart|Insert a new part]] tool was added making it possible to easily add new parts to assembly. [https://github.com/FreeCAD/FreeCAD/pull/17922 Pull request #17922]
