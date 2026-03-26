@@ -61,12 +61,12 @@ Tato sekce řídí umístění a orientaci interaktivního posuvníku (gizma neb
 <span id="Mode"></span>
 ====Způsob====
 
-Allows to adjust the location and orientation of the dragger and therefore the transform origin.
-* '''Object origin''' (default): Places the dragger at the origin of the object to be transformed.
-* '''Center of mass / Centroid''': Places the dragger at the centroid (geometric center) of the object to be transformed, which is only equal to the center of mass if the material is identical and equally distributed, or not considered.
-*'''Custom''': The dragger can be snapped to any element in the document, not limited to the object to be transformed (faces, edges, vertices, datums). Choosing ''Custom'' waits for a user input, to place the dragger at a custom location. Hovering elements in the document previews the new dragger location and orientation, a click on the selection attaches the dragger at this position.
-**'''Reference''' (only visible in ''Custom'' mode): Displays the element where the dragger (transform origin) is set to. It displays ''Select face, edge or vertex…'' if the tool waits for an input (selection) from the user.
-** {{Button|Pick Reference}} / {{Button|Cancel}} (only visible in ''Custom'' mode): If a custom dragger location is set, {{Button|Pick Reference}} allows the user to change the location of the dragger and snap it to a different element in the document. The object can be transformed, the dragger location be changed and transformed again, all in one active task. {{Button|Cancel}} is displayed when the transform tool expects a user input for a new dragger location (selection in the 3D View) and cancels the placement of a custom dragger location.
+Umožňuje nastavit polohu a orientaci posuvníku, a tím i počátek transformace.
+* '''Počátek objektu''' (výchozí): Umístí kurzor na počátek objektu, který má být transformován.
+* '''Střed hmoty / Těžiště''': Umístí posuvník do těžiště (geometrického středu) transformovaného objektu, které se shoduje s těžištěm hmotnosti pouze v případě, že je materiál stejný a rovnoměrně rozložený, jinak se tím nezabýváme.
+*'''Vlastní''': Posuvník lze přichytit k libovolnému prvku v dokumentu, nikoli pouze k objektu, který má být transformován (plochy, hrany, vrcholy, referenční body). Při výběru možnosti ''Vlastní'' se počká na zadání uživatele, aby bylo možné umístit posuvník na vlastní místo. Při najetí myší na prvky v dokumentu se zobrazí náhled nové polohy a orientace posuvníku; kliknutím na vybraný prvek se posuvník k tomuto místu připojí.
+**'''Reference''' (viditelné pouze v režimu ''Vlastní''): Zobrazí prvek, na který je nastaven bod přetahování (počátek transformace). Pokud nástroj čeká na zadání (výběr) od uživatele, zobrazí se hlášení ''Vyberte plochu, hranu nebo vrchol…''.
+** {{Button|Vybrat referenci}} / {{Button|Zrušit}} (viditelné pouze v režimu ''Vlastní''): Je-li nastaveno vlastní umístění posuvníku, tlačítko {{Button|Vybrat referenci}} umožňuje uživateli změnit jeho umístění a přichytit ho k jinému prvku v dokumentu. Objekt lze transformovat, změnit umístění táhla a znovu ho transformovat, a to vše v rámci jedné aktivní úlohy. Tlačítko {{Button|Zrušit}} se zobrazí, když transformační nástroj očekává zadání nového umístění posuvníku uživatelem (výběr ve 3D pohledu), a zruší umístění vlastního posuvníku.
 
 ====Snapping====
 
