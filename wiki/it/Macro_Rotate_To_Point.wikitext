@@ -1,6 +1,5 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Macro/it
 |Name=Macro Rotate To Point
 |Translate=Macro Rotatzione su Punto
@@ -10,20 +9,13 @@
 |Version=00.09
 |Date=2021/02/25
 |FCVersion=0.18 e più
-|Download=[https://www.freecadweb.org/wiki/images/d/d1/Macro_Rotate_To_Point.svg ToolBar Icon]
+|Download=[https://www.freecad.org/wiki/images/d/d1/Macro_Rotate_To_Point.svg ToolBar Icon]
 }}
-</div>
 
 <span id="Description"></span>
 ==Descrizione==
 
-<div class="mw-translate-fuzzy">
-Questa macro permette di ruotare un oggetto su se stesso scegliendo l'asse di rotazione. L'asse può essere il centro del contenitore dell'oggetto
-*il centro BoundBox
-*il centro di massa
-*la direzione di un filo
-*l'ultimo punto cliccato
-</div>
+Macro per far ruotare un oggetto su se stesso scegliendo l'asse di rotazione: il centro del bounding box, il centro di massa, la direzione, un percorso lungo una linea o l'ultimo punto cliccato. È necessario salvare in un file tutte le coordinate utilizzate e salvarle nel file come "Coordinate [(0.06,1.30,0.0),(85.0,0.0,0.0)]," </br> oppure in una macro completa con diverse opzioni (Crea immagine seriale) per creare un'animazione, aumentare/diminuire, mettere in pausa, effetto yo-yo ....
 
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/2fc48333deca5a31e6232c29a9db5e4c/raw/d9419d4bb13e36940eb2f56c3c469ea4182827ee/Macro%2520Rotate%2520To%2520Point.FCMacro}}
@@ -31,12 +23,10 @@ Questa macro permette di ruotare un oggetto su se stesso scegliendo l'asse di ro
 <span id="Usage"></span>
 ==Uso==
 
-<div class="mw-translate-fuzzy">
-# Carica la macro con [[Std_AddonMgr/it|Addon Manager]]
-# Lancia la macro
-# Clic uno obietto
-# Celia una orientazione
-</div>
+# Caricare la macro con l'[[Std_AddonMgr/it|Addon Manager]]
+# Lanciare la macro
+# Clicccare un oggetto
+# Selezionare uno dei seguenti orientamenti:
 
 [[File:Macro_Rotate_To_Point_00.png|Interface Rotate to point]]
 
@@ -237,9 +227,7 @@ myObject.Placement
 
 06/04/2019 ver 00.04 : Python 3
 
-<div class="mw-translate-fuzzy">
-29/03/2018 ver 00.03 : commento delle linee "FreeCAD.ActiveDocument.recompute()" il cambiamento di posizione e tropo lento con la versione di FreeCAD 0.17.... vedere [https://www.forum.freecadweb.org/viewtopic.php?f=10&t=27732&p=224195#p224195 FC0.17 recompute strange behaviour (regression)]
-</div>
+29/03/2018 ver 00.03 : commento delle linee "FreeCAD.ActiveDocument.recompute()" il cambiamento di posizione e tropo lento con la versione di FreeCAD 0.17.... vedere [https://www.forum.freecad.org/viewtopic.php?f=10&t=27732&p=224195#p224195 FC0.17 recompute strange behaviour (regression)]
 
 27/03/2017 ver 00.02 : modificazione dello spinbox "Pos" adesso accetta i numeri negativi 
 
