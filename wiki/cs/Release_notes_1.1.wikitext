@@ -465,13 +465,11 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 [https://github.com/FreeCAD/FreeCAD/pull/15744 Žádost o začlenění #15744]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:Pd_transparent_preview_relnotes_1.1.png|384px]]
-| Transparent previews were added for Part Design additive and subtractive features. They can be disabled temporarily using task panel checkboxes or by default in the [[PartDesign_Preferences|Preferences]]. There is also an optional highlight of the sketch used as a profile for Part Design operation.
-[https://github.com/FreeCAD/FreeCAD/pull/17249 Pull request #17249] and [https://github.com/FreeCAD/FreeCAD/pull/23477 Pull request #23477]
+| Byly přidány průhledné náhledy pro aditivní a subtraktivní prvky v prostředí Part Design. Lze je dočasně deaktivovat pomocí zaškrtávacích políček na panelu úloh nebo nastavit jako výchozí volbu v [[PartDesign_Preferences/cs|Nastavení]]. K dispozici je také volitelné zvýraznění náčrtu použitého jako profil pro operaci v prostředí Part Design.
+[https://github.com/FreeCAD/FreeCAD/pull/17249 Žádost o začlenění #17249] a [https://github.com/FreeCAD/FreeCAD/pull/23477 Žádost o začlenění #23477]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
