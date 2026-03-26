@@ -540,12 +540,10 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 <span id="Spreadsheet_Workbench"></span>
 == Pracovní prostředí Spreadsheet ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Default shortcuts for [[Image:Spreadsheet_StyleBold.svg|24px]] [[Spreadsheet_StyleBold|Bold text]], [[Image:Spreadsheet_StyleItalic.svg|24px]] [[Spreadsheet_StyleItalic|Italic text]] and [[Image:Spreadsheet_StyleUnderline.svg|24px]] [[Spreadsheet_StyleUnderline|Underline text]] have been added. [https://github.com/FreeCAD/FreeCAD/pull/15556 Pull request #15556]
-* Double-clicking on the separator in the header now resizes the column to content. [https://github.com/FreeCAD/FreeCAD/pull/16296 Pull request #16296]
-* Zoom was added to Spreadsheet. [https://github.com/FreeCAD/FreeCAD/pull/16130 Pull request #16130]
-* Icons were added to context menu entries. [https://github.com/FreeCAD/FreeCAD/pull/22773 Pull request #22773]
-</div>
+* Byly přidány výchozí klávesové zkratky pro [[Image:Spreadsheet_StyleBold.svg|24px]] [[Spreadsheet_StyleBold|Tučný text]], [[Image:Spreadsheet_StyleItalic.svg|24px]] [[Spreadsheet_StyleItalic|Kurzívní text]] a [[Image:Spreadsheet_StyleUnderline.svg|24px]] [[Spreadsheet_StyleUnderline|Podtržený text]]. [https://github.com/FreeCAD/FreeCAD/pull/15556 Žádost o začlenění #15556]
+* Poklepáním na oddělovač v záhlaví se nyní velikost sloupce přizpůsobí obsahu. [https://github.com/FreeCAD/FreeCAD/pull/16296 Žádost o začlenění #16296]
+* Do tabulky byla přidána funkce Zoom. [https://github.com/FreeCAD/FreeCAD/pull/16130 Žádost o začlenění #16130]
+* Do položek kontextového menu byly přidány ikony. [https://github.com/FreeCAD/FreeCAD/pull/22773 Žádost o začlenění #22773]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Surface Workbench ==
