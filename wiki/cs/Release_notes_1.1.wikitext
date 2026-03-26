@@ -448,14 +448,12 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 <span id="Part_Design_Workbench"></span>
 == Pracovní plocha Part Design ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:Part_Design_hole_tool_relnotes_1.1.gif|384px]]</br>Click on the image if the animation does not start.
-| The task panel of the [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Hole tool]] was redesigned. The elements that are not relevant are now hidden, leaving only those useful for the current configuration, even if they are read-only. The panel is based on a diagram that provides direct context, and its elements have been placed near their area of effect.
-[https://github.com/FreeCAD/FreeCAD/pull/19052 Pull request #19052] and [https://github.com/FreeCAD/FreeCAD/pull/19167 Pull request #19167]
+| [[File:Part_Design_hole_tool_relnotes_1.1.gif|384px]]</br>Pokud se animace nespustí, klikněte na obrázek.
+| Byl přepracován panel nástroje [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole/cs|Otvor]]. Prvky, které nejsou relevantní, jsou nyní skryty, takže zůstávají pouze ty, které jsou užitečné pro aktuální konfiguraci, i když jsou pouze pro čtení. Panel vychází ze schématu, které poskytuje přímý kontext, a jeho prvky byly umístěny v blízkosti oblasti, na kterou působí.
+[https://github.com/FreeCAD/FreeCAD/pull/19052 Žádost o začlenění #19052] a [https://github.com/FreeCAD/FreeCAD/pull/19167 Žádost o začlenění #19167]
 :
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
