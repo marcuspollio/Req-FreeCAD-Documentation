@@ -52,10 +52,11 @@ Ora ti trovi di fronte al piano XY visto dall'alto e hai accesso agli strumenti 
 
 Ora hai un rettangolo non vincolato con dimensioni non specificate.
 
-* Click on a line of the rectangle, you now have access to the constraint tools at the right of the toolbar (depending of the size of your screen you may need to drag them to the left in order to see them all)
-* Click on [[File:Constraint_Length.png|32px]] [[Sketcher_ConstrainDistance|'''Distance''']]
-* A dialog prompts you to set a dimension. Enter 80mm, click OK.
-* Repeat with the other side of the rectangle, also 80mm.
+* Fai clic su una linea del rettangolo: ora hai accesso agli strumenti di vincolo a destra della barra degli strumenti (a seconda delle dimensioni dello schermo, potrebbe essere necessario trascinarli verso sinistra per visualizzarli tutti).
+* Fai clic su [[File:Constraint_Length.png|32px]] [[Sketcher_ConstrainDistance|'''Distanza''']]
+* Si aprirà una finestra di dialogo che ti chiederà di impostare una dimensione. Inserisci 80 mm e fai clic su OK.
+
+* Ripeti l'operazione con l'altro lato del rettangolo, sempre impostando 80 mm.
 
 [[File:TBHS-4.JPG|800px|center]]
 
