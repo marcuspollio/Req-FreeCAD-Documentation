@@ -274,9 +274,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 * The ''Working plane orientation'' option has been removed from the [[Draft_Scale|Draft Scale]] command as it did not work properly. [https://github.com/FreeCAD/FreeCAD/pull/23716 Pull request #23716]
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== FEM Workbench ==
-</div>
+<span id="FEM_Workbench"></span>
+== Pracovní plocha FEM ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
