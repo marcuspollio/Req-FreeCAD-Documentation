@@ -192,9 +192,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 * The 2D View creation commands are now grouped together for improved usability. [https://github.com/FreeCAD/FreeCAD/pull/20941 Pull Request #20941]
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== CAM Workbench ==
-</div>
+<span id="CAM_Workbench"></span>
+== Pracovní plocha CAM ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
