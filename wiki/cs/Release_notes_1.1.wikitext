@@ -35,9 +35,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 | Ucelené a vylepšené dialogové okno „Přidat vlastnost“, které podporuje výrazy, výčty a jednotky. Vylepšený editor výrazů s lepším doplňováním pomocí klávesy Tab, chováním při změně velikosti a zadáváním pomocí VarSet. [https://github.com/FreeCAD/FreeCAD/pull/22719 Žádost o začlenění #22719], [https://github.com/FreeCAD/FreeCAD/pull/23426 Žádost o začlenění #23426], [https://github.com/FreeCAD/FreeCAD/pull/22964 Žádost o začlenění #22964] a [https://github.com/FreeCAD/FreeCAD/pull/22944 Žádost o začlenění #22944].
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Further user interface improvements ===
-</div>
+<span id="Further_user_interface_improvements"></span>
+=== Další vylepšení uživatelského rozhraní ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * A default shortcut for [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences|Std DlgPreferences]] has been added. [https://github.com/FreeCAD/FreeCAD/pull/15536 Pull request #15536]
