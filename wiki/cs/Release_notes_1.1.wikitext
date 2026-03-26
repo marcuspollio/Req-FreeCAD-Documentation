@@ -570,12 +570,10 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 <span id="Import_and_Export"></span>
 == Import a Export ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The DXF importer was significantly redesigned at the implementation and user level for a more predictable and consistent user experience. [https://github.com/FreeCAD/FreeCAD/pull/22251 Pull Request #22251]
-* The DXF importer gained improved support for BLOCK and INSERT DXF entities. [https://github.com/FreeCAD/FreeCAD/pull/22045 Pull Request #22045]
-* The DXF importer now reports import stats after an import. [https://github.com/FreeCAD/FreeCAD/pull/21985 Pull Request #21985]
-* The alignment of sketches in SVG export and legacy DXF export has been fixed. [https://github.com/FreeCAD/FreeCAD/pull/19765 Pull request #19765]
-</div>
+* Importér souborů DXF prošel zásadní úpravou na úrovni implementace i uživatelského rozhraní, aby bylo možné zajistit předvídatelnější a konzistentnější uživatelské prostředí. [https://github.com/FreeCAD/FreeCAD/pull/22251  Žádost o začlenění #22251]
+* Importér DXF nyní lépe podporuje prvky BLOCK a INSERT v souborech DXF. [https://github.com/FreeCAD/FreeCAD/pull/22045  Žádost o začlenění #22045]
+* Importér DXF nyní po dokončení importu zobrazuje statistiky importu. [https://github.com/FreeCAD/FreeCAD/pull/21985  Žádost o začlenění #21985]
+* Bylo opraveno zarovnání náčrtků při exportu do formátu SVG a při exportu do staršího formátu DXF. [https://github.com/FreeCAD/FreeCAD/pull/19765  Žádost o začlenění #19765]
 
 
 [[Category:News{{#translation:}}]]
