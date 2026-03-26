@@ -26,16 +26,14 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 [https://github.com/FreeCAD/FreeCAD/pull/22002 Žádost o začlenění #22002]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:Theme_editor_relnotes_1.1.png|384px]]
-| A new Theme Editor and theme token system were implemented to allow better customization of stylesheets.
-[https://github.com/FreeCAD/FreeCAD/pull/20668 Pull request #20668] and [https://github.com/FreeCAD/FreeCAD/pull/20528 Pull request #20528]
+| Byl implementován nový editor šablon a systém tokenů šablon, které umožňují lepší přizpůsobení tabulek stylů.
+[https://github.com/FreeCAD/FreeCAD/pull/20668 Žádost o začlenění #20668] a [https://github.com/FreeCAD/FreeCAD/pull/20528 Žádost o začlenění #20528]
 |-
 | [[File:Add_property_expression_dialog_relnotes_1.1.png|384px]]
-| A consolidated and improved Add Property dialog that supports expressions, enums, and units. An improved Expression Editor with better tab completion, resizing behavior, and VarSet input. [https://github.com/FreeCAD/FreeCAD/pull/22719 Pull request #22719], [https://github.com/FreeCAD/FreeCAD/pull/23426 Pull request #23426], [https://github.com/FreeCAD/FreeCAD/pull/22964 Pull request #22964] and [https://github.com/FreeCAD/FreeCAD/pull/22944 Pull request #22944].
+| Ucelené a vylepšené dialogové okno „Přidat vlastnost“, které podporuje výrazy, výčty a jednotky. Vylepšený editor výrazů s lepším doplňováním pomocí klávesy Tab, chováním při změně velikosti a zadáváním pomocí VarSet. [https://github.com/FreeCAD/FreeCAD/pull/22719 Žádost o začlenění #22719], [https://github.com/FreeCAD/FreeCAD/pull/23426 Žádost o začlenění #23426], [https://github.com/FreeCAD/FreeCAD/pull/22964 Žádost o začlenění #22964] a [https://github.com/FreeCAD/FreeCAD/pull/22944 Žádost o začlenění #22944].
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Further user interface improvements ===
