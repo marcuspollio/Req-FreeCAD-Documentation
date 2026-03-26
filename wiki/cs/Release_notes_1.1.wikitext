@@ -153,9 +153,8 @@ Poznámky ke starším verzím FreeCADu najdete v [[Feature_list/cs#Release_note
 
 * Při sestavování více dílů lze k připevnění spojů použít novou základní souřadnicovou soustavu. [https://github.com/FreeCAD/FreeCAD/pull/18332 Žádost o začlenění #18332]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== BIM Workbench ==
-</div>
+<span id="BIM_Workbench"></span>
+== Pracovní prostředí BIM ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
