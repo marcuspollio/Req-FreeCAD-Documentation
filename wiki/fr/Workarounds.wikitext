@@ -335,13 +335,11 @@ Le but de cet article est de lister certaines fonctionnalités actuellement manq
 |
 * Dans certains cas, il peut être suffisant d'utiliser la première solution de contournement mentionnée ici et de créer manuellement une section avec une ligne de découpe personnalisée
 
-<div class="mw-translate-fuzzy">
 |-
 | 7
 | Exporter des pages TechDraw au format PDF sans rendre le texte du modèle (texte du chemin d'accès) impossible à marquer/à rechercher.
 |
-* Exportez la page en tant que SVG, puis convertissez le SVG en PDF en utilisant par exemple [http://www.inkscape.org Inkscape] ou ouvrez le SVG dans un navigateur Web, puis enregistrez ou imprimez en PDF.
-</div>
+* Exportez la page en tant que SVG, puis convertissez le SVG en PDF en utilisant par exemple [https://inkscape.org/ Inkscape] ou ouvrez le SVG dans un navigateur Web, puis enregistrez ou imprimez en PDF.
 
 |-
 | 8
