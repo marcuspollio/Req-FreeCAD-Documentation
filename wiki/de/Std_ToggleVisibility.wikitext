@@ -9,6 +9,7 @@
 |IconC=Freecad.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=Std ToggleVisibility
 |Name/de=Std SichtbarkeitUmschalten
@@ -17,6 +18,7 @@
 |Shortcut={{KEY|Space}}
 |SeeAlso=[[Std_ShowSelection/de|Std AuswahlEinblenden]], [[Std_HideSelection/de|Std AuswahlAusblenden]], [[Std_ToggleObjects/de|Std ObjekteUmschalten]], [[Std_ShowObjects/de|Std ObjekteEinblenden]], [[Std_HideObjects/de|Std ObjekteAusblenden]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Beschreibung==
@@ -39,7 +41,7 @@ Der Befehl '''Std SichtbarkeitUmschalten''' schaltet die Sichtbarkeit von ausgew
 ==Hinweise==
 
 * Nicht sichtbare Objekte werden mit ausgegrautem Label und ausgegrautem Symbol in der [[Tree_View/de|Baumansicht]] dargestellt.
-* Objekte, die in einem [[Std_Part/de|Std Teil]] enthalten sind, oder eine [[Std_LinkMake/de|Std Verknüpfung]] zu einer [[Std_Group/de|Std Gruppe]] oder einer LinkGroup, und [[PartDesign_Feature/de|Formelemente]] eines [[PartDesign_Body/de|PartDesign-Körpers]] sind nur dann in den [[3D_view/de|3D-Ansichten]] sichtbar, wenn auch alle übergeordneten Bestandteile sichtbar sind. Das heißt, dass ein Formelement in einem PartDesign-Körper, der sich in einem Std Teil befindet, nur dann in 3D-Ansichten zu sehen ist, wenn  auch der PartDesign-Körper und das Std Teil sichtbar sind. Befindet sich dieses Std Teil wiederum auch in einem weiteren Std Teil, dann muss auch letzteres sichtbar sein.
+* Objekte, die in einem [[Std_Part/de|Std Teil]] enthalten sind, oder eine [[Std_LinkMake/de|Std Verknüpfung]] zu einer [[Std_Group/de|Std Gruppe]] oder einer LinkGroup, und [[PartDesign_Feature/de|Formelemente]] eines [[PartDesign_Body/de|PartDesign-Körpers]] sind nur dann in den [[3D_View/de|3D-Ansichten]] sichtbar, wenn auch alle übergeordneten Bestandteile sichtbar sind. Das heißt, dass ein Formelement in einem PartDesign-Körper, der sich in einem Std Teil befindet, nur dann in 3D-Ansichten zu sehen ist, wenn  auch der PartDesign-Körper und das Std Teil sichtbar sind. Befindet sich dieses Std Teil wiederum auch in einem weiteren Std Teil, dann muss auch letzteres sichtbar sein.
 * Wird die Sichbarkeit einer [[Std_Group/de|Std Gruppe]] geändert (oder eines davon abgeleitete Objekts, wie ein [[Arch_BuildingPart/de|Arch Gebäudeteil]]), wird die Sichtbarkeit der enthaltenen Objekte entsprechend geändert. Ihre Schtbarkeit kann aber auch unabhängig geändert werden.
 * Die Ausführung dieses Befehls kann nur dann mit [[Std_Undo/de|Std Rückgängig]] rückgängig gemacht werden, wenn der [[Fine-tuning/de|Fine-Tuning]]-Parameter {{MenuCommand|AutoTransactionView}} auf {{TRUE}} gesetzt ist.
 * Die Sichtbarkeit eines Objekts kann auch durch seine zugehörige {{PropertyData/de|Visibility}} in der [[Property_View/de|Eigenschaften-Ansicht]] geändert werden.
