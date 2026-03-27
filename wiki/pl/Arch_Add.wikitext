@@ -20,13 +20,11 @@
 <span id="Description"></span>
 ==Opis== 
 
-<div class="mw-translate-fuzzy">
-Narzędzie Add pozwala na wykonywanie 4 rodzajów operacji:
+Narzędzie [[Image:Arch_Add.svg|24px]] [[Arch_Add/pl|Połącz obiekty]] pozwala na wykonywanie 4 rodzajów operacji:
 * Dodawanie obiektów opartych na [[Part_Workbench/pl|kształcie]] do komponentu Architektury, takich jak [[Image:Arch_Wall.svg|16px]] [[Arch_Wall/pl|ściana]] lub [[Image:Arch_Structure.svg|16px]] [[Arch_Structure/pl|konstrukcja]]. Obiekty te są scalane z komponentem Architektonicznym, modyfikując jego kształt, a jednocześnie zachowując jego podstawowe właściwości, takie jak szerokość i wysokość.
-* Dodawanie komponentów Architektury do obiektu Architektonicznego opartego na grupie, takiego jak [[Image:Arch_Floor.svg|16px]] [[Arch Floor/pl|Piętra]].
-* Dodawanie [[Image:Arch_Axis.svg|16px]] [[Arch_Axis/pl|systemów osi]] do {{KEY|[[Image:Arch_Structure.svg|16px]] [[Arch_Structure/pl|obiektów konstrukcyjnych]]}}.
-* Dodawanie obiektów do [[Image:Arch_SectionPlane.svg|16px]] [[Arch SectionPlane/pl|płaszczyzny przekroju]].
-</div>
+* Dodawanie komponentów Architektury do obiektu Architektonicznego opartego na grupie, takiego jak [[Image:Arch_Floor.svg|16px]] [[Arch_Floor/pl|Piętra]].
+* Dodawanie [[Image:Arch_Axis.svg|16px]] [[Arch_Axis/pl|układów osi]] do {{KEY|[[Image:Arch_Structure.svg|16px]] [[Arch_Structure/pl|obiektów konstrukcyjnych]]}}.
+* Dodawanie obiektów do [[Image:Arch_SectionPlane.svg|16px]] [[Arch_SectionPlane/pl|płaszczyzny przekroju]].
 
 <div class="mw-translate-fuzzy">
 Odpowiednikiem tego narzędzia jest [[Image:Arch_Remove.svg|16px]] [[Arch_Remove/pl|Usuń komponent]].
