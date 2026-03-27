@@ -9,9 +9,6 @@
 |IconC=Workbench_BIM.svg
 }}
 
-{{VeryImportantMessage|Cette commande fait partie de l'ensemble intégré de l'[[BIM_Workbench/fr|atelier BIM]] avec la V1.0<br>
-Cette page a été mise à jour pour cette version.}}
-
 {{GuiCommand/fr
 |Name=Arch AxisSystem
 |Name/fr=Arch Système d'axes
@@ -22,12 +19,16 @@ Cette page a été mise à jour pour cette version.}}
 
 ==Description==
 
+<div class="mw-translate-fuzzy">
 L'outil [[Arch_AxisSystem/fr|Système d'axes]] vous permet de combiner 2 ou 3 objets [[Arch_Axis/fr|Arch Axes]].
+</div>
 
 Ceci est utile pour définir les points d'intersection entre les différents axes. Les objets Arch peuvent ensuite utiliser ce système pour dupliquer leur forme sur les différents points d'intersection.
 
 [[Image:Arch AxisSystem example.jpg|600px]]
+<div class="mw-translate-fuzzy">
 {{Caption|Trois objets [[Arch_Axis/fr|Arch Axes]] combinés en un [[Arch_AxisSystem/fr|Système d'axes]]. Un objet [[Arch_Structure/fr|Arch Structure]] utilise ce système comme propriété {{PropertyData|Axis}} pour que sa forme soit dupliquée à chaque point d'intersection.}}
+</div>
 
 <span id="Usage"></span>
 ==Utilisation==
@@ -49,6 +50,7 @@ Ceci est utile pour définir les points d'intersection entre les différents axe
 {{Emphasis|Voir aussi :}} [[Arch_API/fr|Arch API]] et [[FreeCAD_Scripting_Basics/fr|Débuter avec les scripts FreeCAD]].
 
 L'outil Système d'Axes peut être utilisé dans une [[Macros/fr|macros]] et depuis la console [[Python/fr|Python]] en utilisant la fonction suivante:
+
 {{Code|code=
 AxisSystem = makeAxisSystem(axes, name="Axis System")
 }}
@@ -56,6 +58,7 @@ AxisSystem = makeAxisSystem(axes, name="Axis System")
 * Crée un objet {{incode|AxisSystem}} à partir de l'objet {{incode|axes}} qui est un seul [[Arch_Axis/fr|Arch Axe]] ou une liste d'entre eux.
 
 Exemple:
+
 {{Code|code=
 import Draft, Arch
 
