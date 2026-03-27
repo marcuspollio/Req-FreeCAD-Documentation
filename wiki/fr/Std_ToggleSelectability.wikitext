@@ -31,7 +31,7 @@ La commande '''Std Basculer la sélectivité''' bascule la sélectionnabilité d
 <span id="Notes"></span>
 ==Remarques==
 
-* La sélectibilité d'un objet peut également être modifiée via sa propriété {{PropertyData|Selectable}} associée dans l'[[Property_editor/fr|éditeur de propriétés]].
+* La sélectibilité d'un objet peut également être modifiée via sa propriété {{PropertyData|Selectable}} associée dans l'[[Property_View/fr|éditeur de propriétés]].
 
 <span id="Scripting"></span>
 ==Script==
