@@ -20,7 +20,9 @@
 
 ==Description==
 
+<div class="mw-translate-fuzzy">
 L'outil '''Arch Plan de coupe''' crée un plan de coupe, qui définit une coupe ou un plan de vue. Il est placé en fonction du [[Draft_SelectPlane/fr|Draft Plan de travail]] en cours et peut être déplacé et réorienté en le déplaçant et en le faisant pivoter, jusqu'à ce qu'il décrive la vue en 2D que vous souhaitez obtenir.
+</div>
 
 L'objet Section Plane ne prend en compte qu'un certain nombre d'objets. Les objets sélectionnés lors de la création d'un plan de coupe seront automatiquement ajoutés à cet ensemble. D'autres objets peuvent être ajoutés ou retirés ultérieurement d'un plan de coupe à l'aide des outils [[Arch_Add/fr|Arch Ajouter]] et [[Arch_Remove/fr|Arch Supprimer]] ou en double-cliquant sur le plan de coupe dans l'arborescence.
 
@@ -67,7 +69,9 @@ La création d'un dessin en 2D s'effectue généralement selon les étapes suiva
 
 [[Image:Arch Section example3.jpg|600px]]
 
+<div class="mw-translate-fuzzy">
 * Le plan de coupe peut également être utilisé pour afficher toute la vue 3D coupée par un plan infini lorsque {{PropertyView|CutView}} est réglé sur {{TRUE}}. Ceci est uniquement visuel et n'affecte pas la géométrie des objets coupés.
+</div>
 
 [[Image:Arch SectionPlane CutView.jpg|600px]]
 
@@ -86,7 +90,6 @@ La création d'un dessin en 2D s'effectue généralement selon les étapes suiva
 * {{PropertyData|UseMaterialColorForFill}} : si {{TRUE}}, lors de la génération d'une vue 2D avec des zones de coupe remplies (par exemple via la [[Image:BIM_Shape2DCut.svg|16px]] [[BIM_Shape2DCut/fr|coupe 2D]]), la couleur de remplissage sera prise à partir du matériau de l'objet coupé. Si {{FALSE}}, une couleur de remplissage par défaut sera utilisée.
 
 [[Image:Arch_SectionPlane_ClipView.png|600px]]
-
 {{Caption|Le Arch Plan de coupe avec la propriété {{PropertyData|Clip}} mise à {{TRUE}} se comportera comme une caméra, en limitant le champ de vision.}}
 
 <span id="View"></span>
