@@ -68,9 +68,7 @@ Macro per far ruotare un oggetto su se stesso scegliendo l'asse di rotazione: il
 **1: Selezionare l'oggetto
 **2: Selezionare il percorso
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''The SpinBox {{SpinBox|1,00000 Degrees}} is reinitialized to {{incode|0.0}} and coloured in red''
-</div>
+''Lo SpinBox {{SpinBox|1.00000 Gradi}} viene reinizializzato a {{incode|0.0}} e colorato di rosso''
 
 ===Coordinates Point clicked===
 
