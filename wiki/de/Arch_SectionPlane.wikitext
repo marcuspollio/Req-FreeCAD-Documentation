@@ -21,7 +21,9 @@
 <span id="Description"></span>
 ==Beschreibung==
 
+<div class="mw-translate-fuzzy">
 Das Werkzeug '''Arch Schnittebene''' erstellt eine Schnittebene (Section-Plane-Objekt), die eine Schnitt- oder Ansichtsebene festlegt. Sie wird entsprechend der aktuellen [[Draft_SelectPlane/de|Draft-Arbeitsebene]] positioniert und kann durch Verschieben und Drehen versetzt und neu ausgerichtet werden, bis es die gewünschte 2D-Ansicht anzeigt.
+</div>
 
 Das Schnittebenenobjekt Section berücksichtigt nur einen bestimmten Satz von Objekten. Objekte, die beim Erstellen einer Schnittebene ausgewählt wurden, werden automatisch zu diesem Satz hinzugefügt. Andere Objekte können später mit den Werkzeugen [[Arch_Add/de|Arch Komponente hinzufügen]] und [[Arch_Remove/de|Arch Komponente entfernen]] hinzugefügt oder daraus entfernt werden oder durch Doppelklicken auf die Schnittebene in der Baumansicht.
 
@@ -69,7 +71,9 @@ Alle erforderlichen Anmerkungen wie Bemaßungen, Texte, 2D-Linien usw. erstellen
 
 [[Image:Arch Section example3.jpg|600px]]
 
+<div class="mw-translate-fuzzy">
 * Die Schnittebene kann auch verwendet werden, um die gesamte 3D-Ansicht anzuzeigen, die von einer unendlichen Ebene beschnitten wird, wenn die {{PropertyView/de|CutView}} auf {{TRUE}} gesetzt ist. Dies ist nur visuell und hat keinen Einfluss auf die Geometrie der beschnittenen Objekte.
+</div>
 
 [[Image:Arch SectionPlane CutView.jpg|600px]]
 
@@ -88,7 +92,6 @@ Alle erforderlichen Anmerkungen wie Bemaßungen, Texte, 2D-Linien usw. erstellen
 * {{PropertyData/de|UseMaterialColorForFill}}: Auf {{TRUE}} gesetzt, wird die Füllfarbe während der Erstellung einer 2D-Ansicht mit gefüllten Schnittflächen (z.B. mit [[Image:BIM_Shape2DCut.svg|16px]] [[BIM_Shape2DCut/de|Schnitt]]) dem Material des Schnittobjekts entnommen. Auf {{FALSE}} gesetzt, wird eine Standard-Füllfarbe verwendet.
 
 [[Image:Arch_SectionPlane_ClipView.png|600px]]
-
 {{Caption|Die Arch-Schnittebene, mit der {{PropertyData/de|Clip}} auf {{TRUE}} gesetzt, verhält sich wie eine Kamera, die das Sichtfeld begrenzt.}}
 
 <span id="View"></span>
