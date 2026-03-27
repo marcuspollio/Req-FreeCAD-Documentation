@@ -44,23 +44,19 @@ Narzędzie [[Image:Arch Axis.svg|24px]] [[Arch_Axis/pl|Osie]] pozwala na umieszc
 <span id="Properties"></span>
 ==Właściwości==
 
-<div class="mw-translate-fuzzy">
 * {{PropertyData|Długość}}: Długość osi.
-* {{PropertyData|Limit}}: Jeśli wartość jest większa niż zero, każda oś będzie przedstawiona jako dwie linie o danej długości zamiast jednej ciągłej linii {{Version/pl|0.20}}.
+* {{PropertyData|Limit}}: Jeśli wartość jest większa niż zero, każda oś będzie przedstawiona jako dwie linie o danej długości zamiast jednej ciągłej linii.
 * {{PropertyView|Rozmiar dymka}}: Rozmiar dymka osi.
-* {{PropertyView|Style numerowania}}: Sposób numerowania osi: 1,2,3, A,B,C, itd...
+* {{PropertyView|Style numerowania}}: Sposób numerowania osi: 1,2,3, A,B,C itd.
 * {{PropertyView|Pozycja dymka}}: Definiuje gdzie znajduje się dymek na osi: Na punkcie początkowym, końcowym, oba lub żaden.
 * {{PropertyView|Nazwa czcionki}}: Czcionka do rysowania numeru dymka i / lub etykiet.
 * {{PropertyView|Rozmiar czcionki}}: Rozmiar tekstu etykiety ''(tekst dymka jest kontrolowany przez rozmiar pęcherzyka)''.
-* {{PropertyView|Wyświetl etykietę}}: Włącza lub wyłącza wyświetlanie tekstów etykiet.
-</div>
+* {{PropertyView|Wyświetl etykiety}}: Włącza lub wyłącza wyświetlanie tekstów etykiet.
 
 <span id="Use_as_section_mark"></span>
 ==Użycie jako oznaczenie przekroju==
 
-<div class="mw-translate-fuzzy">
-Ustawiając właściwość '''Pozycja dymka''' na '''Strzałka lewo/prawo''' lub '''Pasek lewo/prawo''', oś wyświetli wypełnioną strzałkę lub pasek zamiast dymka, dzięki czemu może być użyta jako oznaczenie przekroju. {{Version/pl|0.20}}
-</div>
+Ustawiając właściwość '''Pozycja dymka''' na '''Strzałka lewo/prawo''' lub '''Pasek lewo/prawo''', oś wyświetli wypełnioną strzałkę lub pasek zamiast dymka, dzięki czemu może być użyta jako oznaczenie przekroju.
 
 <span id="Scripting"></span>
 ==Tworzenie skryptów==
