@@ -205,13 +205,11 @@ Le but de cet article est de lister certaines fonctionnalités actuellement manq
 |
 * Créez des dômes manuellement, des sphères ([[Part_Sphere/fr|Part Sphère]] ou des [[PartDesign_AdditiveSphere|PartDesign Sphère additive]]) avec des paramètres correctement ajustés peuvent être utilisées pour des dômes sphériques simples.
 
-<div class="mw-translate-fuzzy">
 |-
-| 23
+| 22
 | Extension des faces jusqu'à d'autres faces (utile par exemple lors de l'extraction des milieux de surface, comme mentionné ci-dessus)
 |
 * Utilisez l'outil [[Draft_Upgrade/fr|Draft Agréger]] sur les faces à étendre, étendez les bords appropriés avec [[Draft_Stretch/fr|Draft Étirer]] et recréez les faces en utilisant [[Part_MakeFace/fr|Part Créer une face]].
-</div>
 
 <div class="mw-translate-fuzzy">
 |-
