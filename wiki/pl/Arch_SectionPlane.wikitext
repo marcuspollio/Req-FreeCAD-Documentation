@@ -21,13 +21,15 @@
 <span id="Description"></span>
 ==Opis==
 
+<div class="mw-translate-fuzzy">
 Narzędzie '''Płaszczyzna przekroju''' tworzy płaszczyznę przekroju, która definiuje przekrój lub płaszczyznę widoku. Przyjmuje ona swoje położenie zgodnie z bieżącą [[Draft_SelectPlane/pl|płaszczyzną przekroju]] i może być przenoszona i zmieniana jej orientacja poprzez przesuwanie i obracanie, aż opisze widok 2D, który chcesz uzyskać.
+</div>
 
 Obiekt płaszczyzny przekroju uwzględnia tylko określony zestaw obiektów. Obiekty wybrane podczas tworzenia płaszczyzny przekroju zostaną automatycznie dodane do tego zestawu. Inne obiekty mogą być później dodawane lub usuwane z obiektu Płaszczyzny przekroju za pomocą narzędzi [[Arch_Add/pl|Połącz obiekty]] i [[Arch_Remove/pl|Usuń komponent]] lub poprzez dwukrotne kliknięcie Płaszczyzny przekroju w widoku drzewa.
 
 Sama Płaszczyzna przekroju nie utworzy żadnego widoku swojego zestawu obiektów. W tym celu należy użyć [[#Typowe_podejście_do_rysowania|podejścia do tworzenia rysunków 2D]], aby utworzyć widok na stronie [[TechDraw_Workbench/pl|rysunku technicznego]]. 
 
-[[Image:Arch_SectionPlane_example.jpg|600px]]
+[[Image:Arch SectionPlane example.jpg|600px]]
 
 <span id="Usage"></span>
 ==Użycie==
@@ -69,7 +71,9 @@ Typowe podejście do tworzenia rysunku 2D uwzględnia następujące kroki, równ
 
 [[Image:Arch Section example3.jpg|600px]]
 
+<div class="mw-translate-fuzzy">
 * Płaszczyzna przekroju może być również użyta do pokazania całego widoku 3D przeciętego nieskończoną płaszczyzną gdy właściwość {{PropertyView|CutView}} jest ustawiona na {{TRUE/pl}}. Ma to jedynie charakter wizualny i nie wpływa na geometrię przecinanych obiektów.
+</div>
 
 [[Image:Arch SectionPlane CutView.jpg|600px]]
 
@@ -88,7 +92,6 @@ Typowe podejście do tworzenia rysunku 2D uwzględnia następujące kroki, równ
 * {{PropertyData|UseMaterialColorForFill}}: Jeśli {{TRUE/pl}}, podczas generowania widoku 2D z wypełnionymi obszarami cięcia (np. za pomocą [[Image:BIM_Shape2DCut.svg|16px]] [[BIM_Shape2DCut/pl|Cięcie przekroju]]), kolor wypełnienia zostanie zaczerpnięty z materiału przecinanego obiektu. Jeśli {{FALSE/pl}}, zostanie użyty domyślny kolor wypełnienia.
 
 [[Image:Arch_SectionPlane_ClipView.png|600px]]
-
 {{Caption|Płaszczyzna przekroju architektury z właściwością {{PropertyData|Clip}} ustawioną na {{TRUE/pl}} będzie zachowywać się jak kamera, ograniczając pole widzenia.}}
 
 <span id="View"></span>
