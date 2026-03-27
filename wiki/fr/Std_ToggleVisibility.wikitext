@@ -36,11 +36,11 @@ La commande '''Std Basculer la visibilité''' bascule la visibilité des objets 
 <span id="Notes"></span>
 ==Remarques==
 
-* Les objets invisibles sont affichés avec une étiquette grisée et une icône grisée dans la [[Tree_view/fr|vue en arborescence]].
-* Les objets imbriqués dans un [[Std_Part/fr|Std Part]] ou un [[Std_LinkMake/fr|Std Lien]] vers un [[Std_Group/fr|Std Groupe]], ou un LinkGroup, et les [[PartDesign_Feature/fr|features]] d'un [[PartDesign_Body/fr|PartDesign Corps]] ne seront visibles dans les [[3D_view/fr|vues 3D]] que si leurs parents successifs sont également visibles. Cela signifie qu'une fonction dans un PartDesign Corps qui est imbriquée dans une pièce standard ne sera visible dans les vues 3D que si la fonction elle-même, le PartDesign Corps et la pièce standard sont tous visibles. Et si la partie standard est à son tour imbriquée dans une autre partie standard, alors ce dernier objet doit également être visible.
+* Les objets invisibles sont affichés avec une étiquette grisée et une icône grisée dans l'[[Tree_View/fr|arborescence]].
+* Les objets imbriqués dans un [[Std_Part/fr|Std Part]] ou un [[Std_LinkMake/fr|Std Lien]] vers un [[Std_Group/fr|Std Groupe]], ou un LinkGroup, et les [[PartDesign_Feature/fr|features]] d'un [[PartDesign_Body/fr|PartDesign Corps]] ne seront visibles dans les [[3D_View/fr|vues 3D]] que si leurs parents successifs sont également visibles. Cela signifie qu'une fonction dans un PartDesign Corps qui est imbriquée dans une pièce standard ne sera visible dans les vues 3D que si la fonction elle-même, le PartDesign Corps et la pièce standard sont tous visibles. Et si la partie standard est à son tour imbriquée dans une autre partie standard, alors ce dernier objet doit également être visible.
 * Si la visibilité d'un [[Std_Group/fr|Std Groupe]] (ou d'un objet dérivé de celui-ci tel qu'une [[Arch_BuildingPart/fr|Arch Partie de bâtiment]]) est modifiée, la visibilité de ses objets imbriqués changera en conséquence. Mais leur visibilité peut également être modifiée de manière indépendante.
 * L'action ne peut être annulée avec [[Std_Undo/fr|Std Annuler]] que si le paramètre {{MenuCommand|AutoTransactionView}} dans le [[Fine-tuning/fr|réglage fin]] est réglé à {{TRUE}}.
-* La visibilité d'un objet peut également être modifiée via sa propriété {{PropertyData|Visibility}} associée dans l'[[Property_editor/fr|éditeur de propriétés]].
+* La visibilité d'un objet peut également être modifiée via sa propriété {{PropertyData|Visibility}} associée dans l'[[Property_View/fr|éditeur de propriétés]].
 
 <span id="Scripting"></span>
 ==Script==
