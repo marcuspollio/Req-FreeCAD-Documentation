@@ -37,9 +37,7 @@ La commande '''Std Style de représentation''' peut remplacer l'effet de la [[Pr
 <span id="24px_As_Is"></span>
 ===[[Image:Std_DrawStyleAsIs.svg|24px]] Par défaut===
 
-<div class="mw-translate-fuzzy">
 Le style '''Par défaut''' ne supplante pas la propriété {{PropertyView|Display Mode}} des objets.
-</div>
 
 [[Image:Std_DrawStyleAsIs_example.png]]
 {{Caption|4 objets identiques chacun avec un mode d'affichage différent (de gauche à droite: « Points », « Filaire », « Ombré » et « Filaire ombré ») avec le style de représentation '''Par défaut'''}}
