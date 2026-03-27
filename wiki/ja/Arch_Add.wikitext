@@ -9,9 +9,6 @@
 |IconC=Workbench_BIM.svg
 }}
 
-{{VeryImportantMessage|THIS COMMAND IS PART OF THE INTEGRATED [[BIM_Workbench|BIM WORKBENCH]] IN V1.0<br>
-This page has been updated for that version.}}
-
 <div class="mw-translate-fuzzy">
 {{GuiCommand/ja
 |Name=Arch Add
@@ -33,7 +30,7 @@ Addツールは2種類の操作を提供します：
 * [[Arch SectionPlane | section planes]]にオブジェクトを追加する
 </div>
 
-The counterpart of this tool is the {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch Remove|Arch Remove]]}} tool.
+The counterpart of this tool is the [[Image:Arch_Remove.svg|16px]] [[Arch_Remove|Remove Component]] tool.
 
 [[Image:Arch Add example.jpg|640px]]
 <div class="mw-translate-fuzzy">
