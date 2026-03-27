@@ -15,7 +15,7 @@
 
 ==Description==
 
-The '''Arch SectionPlane''' tool creates a Section Plane, which defines a section or view plane. It takes its placement according to the current [[Draft_SelectPlane|Draft Working Plane]] and can be relocated and reoriented by moving and rotating it, until it describes the 2D view you want to obtain.
+The [[Image:Arch_SectionPlane.svg|24px]] [[Arch_SectionPlane|Arch SectionPlane]] tool creates a Section Plane, which defines a section or view plane. It takes its placement according to the current [[Draft_SelectPlane|Draft Working Plane]] and can be relocated and reoriented by moving and rotating it, until it describes the 2D view you want to obtain.
 
 The Section Plane object will only consider a certain set of objects. Objects that are selected when you create a Section Plane will be added to that set automatically. Other objects can later be added or removed from a SectionPlane object with the [[Arch_Add|Arch Add]] and [[Arch_Remove|Arch Remove]] tools, or by double-clicking the Section Plane in the Tree View.
 
@@ -60,7 +60,7 @@ The typical workflow to create a 2D drawing involves the following steps, also r
 
 [[Image:Arch Section example3.jpg|600px]]
 
-* The Section Plane can also be used to show the entire 3D View cut by an infinite plane when {{PropertyView|CutView}} is set to {{TRUE}}. This is only visual, and won't affect the geometry of the objects being cut.
+* The Section Plane can also be used to show the entire 3D View cut by an infinite plane when the {{PropertyView|CutView}} property is set to {{TRUE}}. This is only visual, and won't affect the geometry of the objects being cut.
 
 [[Image:Arch SectionPlane CutView.jpg|600px]]
 
@@ -77,7 +77,6 @@ The typical workflow to create a 2D drawing involves the following steps, also r
 * {{PropertyData|UseMaterialColorForFill}}: If {{TRUE}}, when generating a 2D view with filled cut areas (e.g. via [[Image:BIM_Shape2DCut.svg|16px]] [[BIM_Shape2DCut|Section Cut]]), the fill color will be taken from the material of the cut object. If {{FALSE}}, a default fill color will be used.
 
 [[Image:Arch_SectionPlane_ClipView.png|600px]]
-
 {{Caption|The Arch SectionPlane with the {{PropertyData|Clip}} property set to {{TRUE}} will behave like a camera, limiting the field of view.}}
 
 ===View===
