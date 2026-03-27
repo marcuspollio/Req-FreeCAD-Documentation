@@ -44,16 +44,14 @@ Das Werkzeug [[Image:Arch_Axis.svg|24px]] [[Arch_Axis/de|Arch Achse]] ermöglich
 <span id="Properties"></span>
 ==Eigenschaften==
 
-<div class="mw-translate-fuzzy">
-* {{PropertyData/de|Länge}}: die Länge der Achsen
-* {{PropertyData|Limit}}: Falls größer als Null, wird jede Achse als zwei Linien in der gegebenen Länge dargestellt anstatt als eine durchgehende Linie {{Version|0.20}}
-* {{PropertyView/de|Blasengröße}}: die Größe der Achsenblasen
-* {{PropertyView/de|Nummerierungsstil}}: Wie die Achsen nummeriert sind: 1,2,3, A,B,C, usw..
-* {{PropertyView/de|Blasenposition}}: Wo die Blase auf der Achse platziert ist: Am Startpunkt, Endpunkt, beide oder keiner.
-* {{PropertyView/de|Schriftname}}: Einen Schrifttyp, um die Blasennummer und/oder eine Beschriftung anzubringen
-* {{PropertyView/de|Schriftgröße}}: nur die Größe des Beschriftungstextes (der Blasentext wird durch die Blasengröße bestimmt)
-* {{PropertyView/de|Beschriftung anzeigen}}: Schaltet die Anzeige der Etikettentexte ein/aus
-</div>
+* {{PropertyData/de|Length}}: Die Länge der Achsen.
+* {{PropertyData/de|Limit}}: Falls größer als Null, wird jede Achse als zwei Linien in der gegebenen Länge dargestellt anstatt als eine durchgehende Linie.
+* {{PropertyView/de|Bubble Size}}: Die Größe der Achsenblasen.
+* {{PropertyView/de|Numeration style}}: Legt fest, wie die Achsen nummeriert werden: 1,2,3, A,B,C, usw.
+* {{PropertyView/de|Bubble Position}}: Legt fest, wo die Blase auf der Achse positioniert ist: Am Startpunkt, am Endpunkt, an beiden oder an keinem.
+* {{PropertyView/de|Font Name}}: Einen Schrifttyp, um die Blasennummer und/oder eine Beschriftung anzubringen.
+* {{PropertyView/de|Font Size}}: Nur die Größe des Beschriftungstextes (der Blasentext wird durch die Blasengröße bestimmt).
+* {{PropertyView/de|Show Labels}}: Schaltet die Anzeige der Beschriftungstexte ein bzw. aus.
 
 <span id="Use_as_section_mark"></span>
 ==Verwendung als Abschnittsmarkierung==
