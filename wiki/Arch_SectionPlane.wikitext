@@ -31,8 +31,9 @@ The Section Plane object will only consider a certain set of objects. Objects th
 <!--T:4-->
 The Section Plane alone won't create any view of its objects set. For that, you must use the [[#Typical_drawing_workflow|2D drawing production workflow]] to create a view in a [[TechDraw_Workbench|TechDraw page]]. 
 
-<!--T:16-->
+</translate>
 [[Image:Arch SectionPlane example.jpg|600px]]
+<translate>
 
 ==Usage== <!--T:5-->
 
@@ -49,8 +50,9 @@ The Section Plane alone won't create any view of its objects set. For that, you 
 
 ==Typical drawing workflow== <!--T:33-->
 
-<!--T:34-->
+</translate>
 [[Image:BIM_2d_drawing_commands.png]]
+<translate>
 
 <!--T:35-->
 The typical workflow to create a 2D drawing involves the following steps, also reflected in the buttons' order in the toolbar:
@@ -71,20 +73,23 @@ The typical workflow to create a 2D drawing involves the following steps, also r
 <!--T:8-->
 * With a Section Plane object selected, use the [[Image:BIM_Shape2DView.svg|16px]] [[BIM_Shape2DView|Section View]] or [[Image:BIM_Shape2DCut.svg|16px]] [[BIM_Shape2DCut|Section Cut]] tools to create a shape object representing the section view in the document.
 
-<!--T:17-->
+</translate>
 [[Image:Arch Section example2.jpg|600px]]
+<translate>
 
 <!--T:9-->
 * Create [[TechDraw_ArchView|TechDraw ArchView]].
 
-<!--T:18-->
+</translate>
 [[Image:Arch Section example3.jpg|600px]]
+<translate>
 
 <!--T:20-->
 * The Section Plane can also be used to show the entire 3D View cut by an infinite plane when the {{PropertyView|CutView}} property is set to {{TRUE}}. This is only visual, and won't affect the geometry of the objects being cut.
 
-<!--T:21-->
+</translate>
 [[Image:Arch SectionPlane CutView.jpg|600px]]
+<translate>
 
 ==Properties== <!--T:10-->
 
@@ -100,9 +105,9 @@ The typical workflow to create a 2D drawing involves the following steps, also r
 * {{PropertyData|Only Solids}}: If {{TRUE}}, non-solid objects in the set of considered objects will be disregarded during the view generation process.
 * {{PropertyData|UseMaterialColorForFill}}: If {{TRUE}}, when generating a 2D view with filled cut areas (e.g. via [[Image:BIM_Shape2DCut.svg|16px]] [[BIM_Shape2DCut|Section Cut]]), the fill color will be taken from the material of the cut object. If {{FALSE}}, a default fill color will be used.
 
-<!--T:26-->
+</translate>
 [[Image:Arch_SectionPlane_ClipView.png|600px]]
-
+<translate>
 <!--T:27-->
 {{Caption|The Arch SectionPlane with the {{PropertyData|Clip}} property set to {{TRUE}} will behave like a camera, limiting the field of view.}}
 
