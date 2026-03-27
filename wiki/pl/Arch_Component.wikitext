@@ -20,9 +20,7 @@
 <span id="Description"></span>
 ==Opis==
 
-<div class="mw-translate-fuzzy">
-Tworzy nieparametryczny komponent [[BIM_Workbench/pl|BIM]] z dowolnego obiektu opartego na [[Part_Workbench/pl|Części]]. Daje to obiektowi opartemu na części te same atrybuty i właściwości co innym obiektom Architektury i pozwala określić, w jaki sposób powinien być eksportowany do IFC poprzez ustawienie jego właściwości {{PropertyData|Typ IFC}}.
-</div>
+Narzędzie [[Image:Arch_Component.svg|24px]] [[Arch_Component/pl|Komponent]] tworzy nieparametryczny komponent [[BIM_Workbench/pl|BIM]] z dowolnego obiektu opartego na [[Part_Workbench/pl|Części]]. Daje to obiektowi opartemu na części te same atrybuty i właściwości co innym obiektom Architektury i pozwala określić, w jaki sposób powinien być eksportowany do IFC poprzez ustawienie jego właściwości {{PropertyData|Typ IFC}}.
 
 <span id="Usage"></span>
 ==Użycie==
