@@ -36,13 +36,11 @@ Le but de cet article est de lister certaines fonctionnalités actuellement manq
 |
 * Si l'esquisse est parallèle à l'un des plans principaux du système de coordonnées global : utilisez [[Part_SectionCut/fr|Part Coupe persistante]]
 
-<div class="mw-translate-fuzzy">
 |-
-| 8
+| 5
 | Dimension du diamètre par rapport à un axe de symétrie pour les pièces tournantes
 |
 * Créez plutôt une cote de rayon (vous pouvez entrer le diamètre divisé par 2 - le calcul sera effectué par FreeCAD).
-</div>
 
 <div class="mw-translate-fuzzy">
 |-
