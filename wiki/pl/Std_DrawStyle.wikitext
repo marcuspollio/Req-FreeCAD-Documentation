@@ -86,9 +86,7 @@ Styl '''Cieniowany''' nadpisuje właściwość {{PropertyView|Tryb wyświetlania
 <span id="24px_Flat_Lines"></span>
 ===[[Image:Std_DrawStyleFlatLines.svg|24px]] Cieniowany z krawędziami===
 
-<div class="mw-translate-fuzzy">
-Styl '''Płaskie linie''' zastępuje styl {{PropertyView|Tryb wyświetlania}} obiektów. Ten styl odpowiada trybowi wyświetlania ''Cieniowany z krawędziami''. Wierzchołki i krawędzie są wyświetlane w jednolitych kolorach. Powierzchnie są podświetlane w zależności od ich orientacji.
-</div>
+Styl '''Płaskie linie''' nadpisuje właściwość {{PropertyView|Tryb wyświetlania}} obiektów. Ten styl odpowiada trybowi wyświetlania ''Płaskie linie''. Wierzchołki i krawędzie są wyświetlane w jednolitych kolorach. Powierzchnie są podświetlane w zależności od ich orientacji.
 
 [[Image:Std_DrawStyleFlatLines_example.png]]
 {{Caption|Te same obiekty z zastosowanym stylem rysowania "Cieniowany z krawędziami"}}
