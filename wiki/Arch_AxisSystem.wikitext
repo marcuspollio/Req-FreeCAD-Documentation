@@ -30,7 +30,6 @@ This is useful to define the intersection points between the different axes. Arc
 </translate>
 [[Image:Arch AxisSystem example.jpg|600px]]
 <translate>
-
 <!--T:5-->
 {{Caption|Three [[Arch_Axis|Arch Axis]] objects combined into one [[Arch_AxisSystem|Arch AxisSystem]]. An [[Arch_Structure|Arch Structure]] object uses this system as its {{PropertyData|Axis}} property, to have its shape duplicated at each intersection point.}}
 
