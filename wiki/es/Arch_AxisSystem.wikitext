@@ -9,9 +9,6 @@
 |IconC=Workbench_BIM.svg
 }}
 
-{{VeryImportantMessage|THIS COMMAND IS PART OF THE INTEGRATED [[BIM_Workbench|BIM WORKBENCH]] IN V1.0<br>
-This page has been updated for that version.}}
-
 <div class="mw-translate-fuzzy">
 {{GuiCommand/es
 |Name=Arch AxisSystem
@@ -66,6 +63,7 @@ This is useful to define the intersection points between the different axes. Arc
 <div class="mw-translate-fuzzy">
 La herramienta del sistema ejes puede utilizarse en [[macros/es|macros]] y desde la consola de Python mediante la siguiente función:
 </div>
+
 {{Code|code=
 AxisSystem = makeAxisSystem(axes, name="Axis System")
 }}
@@ -75,6 +73,7 @@ Hace un sistema de eje basado en la lista dada de [[Arch Axis/es|Arch Axis]]
 </div>
 
 Ejemplo:
+
 {{Code|code=
 import Draft, Arch
 
