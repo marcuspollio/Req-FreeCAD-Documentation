@@ -9,9 +9,6 @@
 |IconC=Workbench_BIM.svg
 }}
 
-{{VeryImportantMessage|THIS COMMAND IS PART OF THE INTEGRATED [[BIM_Workbench|BIM WORKBENCH]] IN V1.0<br>
-This page has been updated for that version.}}
-
 <div class="mw-translate-fuzzy">
 {{GuiCommand/sv|Name=Arch Add|Name/sv=Arch Add|Workbenches=[[Arch_Workbench/sv|Arch]]|MenuLocation=Arch → Add|SeeAlso=[[Arch Remove/sv|Arch Remove]]}}
 </div>
@@ -25,7 +22,7 @@ Add verkytget låter dig göra 2 olika operationer:
 * lägga till Arch komponenter, som [[Arch Wall/sv|väggar]] eller [[Arch Structure/sv|strukturer]], till en gruppbaserat Arch objekt som [[Arch Floor/sv|golv]].
 </div>
 
-The counterpart of this tool is the {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch Remove|Arch Remove]]}} tool.
+The counterpart of this tool is the [[Image:Arch_Remove.svg|16px]] [[Arch_Remove|Remove Component]] tool.
 
 [[Image:Arch Add example.jpg|640px]]
 <div class="mw-translate-fuzzy">
@@ -44,7 +41,7 @@ The counterpart of this tool is the {{Button|[[Image:Arch_Remove.svg|16px]] [[Ar
 
 ==Scripting==
 
-{{Emphasis|See also:}} [[Arch_API|Arch API]] and [[FreeCAD_Scripting_Basics|FreeCAD Scripting Basics]].
+See also: [[Arch_API|Arch API]] and [[FreeCAD_Scripting_Basics|FreeCAD Scripting Basics]].
 
 The Add tool can be used in [[Macros|macros]] and from the [[Python|Python]] console by using the following function:
 :{{Code|code=
