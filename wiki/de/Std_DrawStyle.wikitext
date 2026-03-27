@@ -38,9 +38,7 @@ Der Befehl '''Std Darstellungsart''' kann den Effekt der {{PropertyView/de|Displ
 <span id="24px_As_Is"></span>
 ===[[Image:Std_DrawStyleAsIs.svg|24px]] Original===
 
-<div class="mw-translate-fuzzy">
 Die Darstellungsart '''Original''' überlagert nicht die {{PropertyView/de|Display Mode}} von Objekten.
-</div>
 
 [[Image:Std_DrawStyleAsIs_example.png]]
 {{Caption|4 identische Objekte mit jeweils unterschiedlichen Display-Modes (von links nach rechts: 'Punkte', 'Drahtgitter', 'Schattiert' und 'Flat lines') mit der aktivierten Darstellungsart 'Original'}}
