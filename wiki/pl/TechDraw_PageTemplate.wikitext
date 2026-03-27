@@ -86,9 +86,7 @@ texts["FC-Title"] = "The title of my page"
 page.Template.EditableTexts = texts
 }}
 
-<div class="mw-translate-fuzzy">
-Do edycji indywidualnych pól można użyć metody {{incode|setEditFieldContent}} z {{incode|Template}}:
-</div>
+Do edycji indywidualnych pól można użyć metody {{incode|setEditFieldContent}} połączonego obiektu '''Template''':
 
 {{Code|code=
 page.Template.setEditFieldContent("FC-Title", "Another title of my page")
