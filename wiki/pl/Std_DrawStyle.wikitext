@@ -54,9 +54,7 @@ Styl '''Tylko punkty''' nadpisuje właściwość {{PropertyView|Tryb wyświetlan
 <span id="24px_Wireframe"></span>
 ===[[Image:Std_DrawStyleWireFrame.svg|24px]] Szkieletowy===
 
-<div class="mw-translate-fuzzy">
-Styl '''Szkieletowy''' nadpisuje styl {{PropertyView|Tryb wyświetlania}} obiektów. Ten styl odpowiada trybowi wyświetlania ''Szkieletowy''. Wierzchołki i krawędzie są wyświetlane w jednolitych kolorach. Twarze nie są wyświetlane.
-</div>
+Styl '''Szkieletowy''' nadpisuje właściwość {{PropertyView|Tryb wyświetlania}} obiektów. Ten styl odpowiada trybowi wyświetlania ''Szkieletowy''. Wierzchołki i krawędzie są wyświetlane w jednolitych kolorach. Twarze nie są wyświetlane.
 
 [[Image:Std_DrawStyleWireframe_example.png]]
 {{Caption|Te same obiekty z zastosowanym stylem rysowania "Szkieletowy"}}
