@@ -19,7 +19,7 @@
 
 ==Description== 
 
-L'outil [[Image:Arch_Add.svg|24px]] [[Arch_Add/fr|Ajouter]] vous permet d'effectuer 4 types d'opérations :
+L'outil [[Image:Arch_Add.svg|24px]] [[Arch_Add/fr|Arch Ajouter]] vous permet d'effectuer 4 types d'opérations :
 * Ajouter des objets basés sur des [[Part_Workbench/fr|formes]] à un composant Arch, tel qu'un [[Image:Arch_Wall.svg|16px]] [[Arch_Wall/fr|mur]] ou une [[Image:Arch_Structure.svg|16px]] [[Arch_Structure/fr|structure]]. Ces objets sont fusionnés avec le composant Arch, modifiant sa forme tout en conservant ses propriétés de base telles que la largeur et la hauteur.
 * Ajouter des composants Arch à un objet Arch basé sur un groupe, tel que des [[Image:Arch_Floor.svg|16px]] [[Arch_Floor/fr|niveaux]].
 * Ajouter des [[Image:Arch_Axis.svg|16px]] [[Arch_Axis/fr|systèmes d'axes]] à des [[Image:Arch_Structure.svg|16px]] [[Arch_Structure/fr|objets structurels]].
