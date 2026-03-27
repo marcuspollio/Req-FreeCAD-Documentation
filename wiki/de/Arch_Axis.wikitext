@@ -56,9 +56,7 @@ Das Werkzeug [[Image:Arch_Axis.svg|24px]] [[Arch_Axis/de|Arch Achse]] ermöglich
 <span id="Use_as_section_mark"></span>
 ==Verwendung als Abschnittsmarkierung==
 
-<div class="mw-translate-fuzzy">
-Durch setzen der Eigenschaft '''Bubble Position''' auf '''Arrow left/right''' oder '''Bar left/right''' wird die Achse einen gefüllten Pfeil oder einen Strich anstatt der Blase anzeigen, so dass sie als Schnittmarkierung genutzt werden kann {{Version/de|0.20}}
-</div>
+Durch setzen der Eigenschaft '''Bubble Position''' auf '''Arrow left/right''' oder '''Bar left/right''' wird die Achse einen gefüllten Pfeil oder einen Strich anstatt der Blase anzeigen, so dass sie als Schnittmarkierung genutzt werden kann.
 
 <span id="Scripting"></span>
 ==Skripten==
