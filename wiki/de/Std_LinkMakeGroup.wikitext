@@ -76,16 +76,14 @@ Dieser Befehl war ursprünglich für den [[Assembly3_Workbench/de|externen Arbei
 
 {{TitleProperty|Link}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{PropertyData|Placement|Placement}}: Standard placement of the LinkGroup. Objects inside the group are positioned relative to this coordinate system. In other words, moving a LinkGroup moves all its contents in the 3D View.
-* {{PropertyData|Link Mode|Enumeration}}: Controls the automated behavior of the group when objects are added or removed:
-** {{value|None}}: The group acts as a simple container. Removing an object from the group does not affect the object's existence in the document.
-** {{value|Auto Delete}}: The group assumes ownership of its contents. If an object is removed from the {{PropertyData|Element List}} or dragged out of the group in the Tree View, the object is permanently deleted from the document.
-** {{value|Auto Link}}: If a document object is added to the group, the group automatically wraps it in an [[App_Link|App Link]].
-** {{value|Auto UnLink}}: A selective cleanup mode. It distinguishes between objects that the group created automatically (such as "helper links" generated via the {{value|Auto Link}} mode) and objects that the user manually moved into the group. It will only delete the objects it created itself; any "guest" objects the user added are preserved when they are removed from the group.
-* {{PropertyData|Element List|LinkList|Hidden}}: An internal list of references to the document objects contained within the group.
-* {{PropertyData|Visibility List|BoolList|Hidden}}: A boolean list that stores the visibility state of each item in the {{PropertyData|Element List}}. This allows the group to manage the visibility of its contents independently of the objects' own settings. To edit or view this property in the Property
-</div> 
+* {{PropertyData/de|Placement|Placement}}: Standardposition der LinkGroup. Objekte innerhalb der Gruppe werden relativ zu diesem Koordinatensystem positioniert. Mit anderen Worten: Wenn man eine LinkGroup verschiebt, werden alle darin enthaltenen Objekte in der 3D-Ansicht mitverschoben.
+* {{PropertyData/de|Link Mode|Enumeration}}: Steuert das automatische Verhalten der Gruppe, wenn Objekte hinzugefügt oder entfernt werden:
+** {{value|None}}: Die Gruppe fungiert lediglich als Container. Das Entfernen eines Objekts aus der Gruppe hat keinen Einfluss auf dessen Existenz im Dokument.
+** {{value|Auto Delete}}: Die Gruppe übernimmt die Verantwortung für ihre Inhalte. Wird ein Objekt aus der {{PropertyData/de|Element list}} entfernt oder in der Baumansicht aus der Gruppe herausgezogen, wird das Objekt dauerhaft aus dem Dokument gelöscht.
+** {{value|Auto Link}}: Wird ein Dokumentobjekt zur Gruppe hinzugefügt, umschließt die Gruppe es automatisch mit einem [[App_Link/de|App-Link]].
+** {{value|Auto UnLink}}: Ein selektiver Bereinigungsmodus. Er unterscheidet zwischen Objekten, die die Gruppe automatisch erstellt hat (wie beispielsweise „Hilfslinks“, die über den Modus {{value|Auto Link}} generiert wurden), und Objekten, die der Benutzer manuell in die Gruppe verschoben hat. Er löscht nur die Objekte, die er selbst erstellt hat; alle vom Benutzer hinzugefügten „Gast“-Objekte bleiben erhalten, wenn sie aus der Gruppe entfernt werden.
+* {{PropertyData/de|Element List|LinkList|Hidden}}: Eine interne Liste mit Verweisen auf die in der Gruppe enthaltenen Dokumentobjekte.
+* {{PropertyData/de|Visibility List|BoolList|Hidden}}: Eine Boolesche Liste, die den Sichtbarkeitsstatus jedes Elements in der {{PropertyData/de|Elementliste}} speichert. Dadurch kann die Gruppe die Sichtbarkeit ihrer Inhalte unabhängig von den Einstellungen der Objekte selbst verwalten. Um diese Eigenschaft in den Eigenschaften zu bearbeiten oder anzuzeigen 
 
 <span id="View"></span>
 === Ansicht ===
