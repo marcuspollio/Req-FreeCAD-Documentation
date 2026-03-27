@@ -54,9 +54,7 @@ L'outil [[Image:Arch Axis.svg|24px]] [[Arch_Axis/fr|Arch Axes]] vous permet de p
 <span id="Use_as_section_mark"></span>
 ==Utilisation comme marque de section==
 
-<div class="mw-translate-fuzzy">
-En définissant la propriété '''Bubble Position''' à '''Arrow left/right''' ou '''Bar left/right''', l'axe affichera une flèche ou une barre remplie à la place de l'infobulle, afin qu'elle puisse être utilisée comme marque de section. {{Version/fr|0.20}}
-</div>
+En définissant la propriété '''Bubble Position''' à '''Arrow left/right''' ou '''Bar left/right''', l'axe affichera une flèche ou une barre remplie à la place de l'infobulle, afin qu'elle puisse être utilisée comme marque de section.
 
 <span id="Scripting"></span>
 ==Script==
