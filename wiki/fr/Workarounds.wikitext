@@ -24,13 +24,11 @@ Le but de cet article est de lister certaines fonctionnalités actuellement manq
 |
 * Créez une face à partir de l'esquisse avec [[Part_MakeFace/fr|Part Créer une face]], puis analysez cette face avec [[Part_CheckGeometry/fr|Part Vérifier la géométrie]]
 
-<div class="mw-translate-fuzzy">
 |-
-| 5
+| 3
 | Esquisses 3D
 |
 * Utilisez l'[[Draft_Workbench/fr|atelier Draft]], mais les ébauches 3D ne peuvent pas être converties en esquisses (elles peuvent toutefois être utilisées pour des analyses ducadre spatial effectuées [[FEM_Workbench/fr|en interne]] ou en externe, et pour des [[PartDesign_AdditivePipe/fr|PartDesign Balayages additifs]] ou des [[Part_Sweep/fr|Part Balayages]])
-</div>
 
 <div class="mw-translate-fuzzy">
 |-
