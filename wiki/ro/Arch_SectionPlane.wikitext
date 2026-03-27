@@ -103,7 +103,6 @@ The typical workflow to create a 2D drawing involves the following steps, also r
 </div>
 
 [[Image:Arch_SectionPlane_ClipView.png|600px]]
-
 {{Caption|The Arch SectionPlane with the {{PropertyData|Clip}} property set to {{TRUE}} will behave like a camera, limiting the field of view.}}
 
 ===View===
