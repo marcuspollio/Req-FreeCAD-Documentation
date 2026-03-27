@@ -9,9 +9,6 @@
 |IconC=Workbench_BIM.svg
 }}
 
-{{VeryImportantMessage|Cette commande fait partie de l'ensemble intégré de l'[[BIM_Workbench/fr|atelier BIM]] avec la V1.0<br>
-Cette page a été mise à jour pour cette version.}}
-
 {{GuiCommand/fr
 |Name=Arch Grid
 |Name/fr=Arch Grille
@@ -22,7 +19,9 @@ Cette page a été mise à jour pour cette version.}}
 
 ==Description==
 
+<div class="mw-translate-fuzzy">
 L'outil '''Arch Grille''' vous permet de placer un objet de type grille dans le document. Cet objet est destiné à servir de base pour construire des objets Arch nécessitant un cadre régulier mais complexe, comme des fenêtres, des murs-rideaux, des grilles de colonnes, des garde-corps, etc. L'objet Grille est modifiable comme une feuille de calcul où vous pouvez ajouter ou supprimer des colonnes et des lignes, définir leur taille et fusionner des cellules.
+</div>
 
 La grille est un objet 2D et peut donc être utilisée partout où une forme 2D, tel qu'un [[Draft_Workbench/fr|dessin]] ou une [[Sketcher_Workbench/fr|esquisse]] sont nécessaires, mais elle peut aussi se comporter comme un [[Arch_AxisSystem/fr|Arch Système d'axes]] et être utilisée pour propager le placement d'autres objets Arch.
 
