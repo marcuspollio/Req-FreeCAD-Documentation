@@ -38,9 +38,7 @@ Polecenie '''Styl kreślenia''' może zastąpić efekt {{PropertyView/pl|wyświe
 <span id="24px_As_Is"></span>
 ===[[Image:Std_DrawStyleAsIs.svg|24px]] Domyślny===
 
-<div class="mw-translate-fuzzy">
 Styl '''Domyślny''' nie nadpisuje właściwości {{PropertyView|Trybu wyświetlania}} obiektów.
-</div>
 
 [[Image:Std_DrawStyleAsIs_example.png]]
 {{Caption|4 identyczne obiekty, każdy z innym trybem wyświetlania ''(od lewej do prawej: "Tylko punkty", "Szkieletowy", "Cieniowany" i "Cieniowany z krawędziami")'' z zastosowanym stylem rysowania "Domyślny".}}
