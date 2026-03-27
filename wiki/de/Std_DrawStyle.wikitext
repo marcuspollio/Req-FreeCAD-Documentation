@@ -38,7 +38,9 @@ Der Befehl '''Std Darstellungsart''' kann den Effekt der {{PropertyView/de|Displ
 <span id="24px_As_Is"></span>
 ===[[Image:Std_DrawStyleAsIs.svg|24px]] Original===
 
+<div class="mw-translate-fuzzy">
 Die Darstellungsart '''Original''' überlagert nicht die {{PropertyView/de|Display Mode}} von Objekten.
+</div>
 
 [[Image:Std_DrawStyleAsIs_example.png]]
 {{Caption|4 identische Objekte mit jeweils unterschiedlichen Display-Modes (von links nach rechts: 'Punkte', 'Drahtgitter', 'Schattiert' und 'Flat lines') mit der aktivierten Darstellungsart 'Original'}}
@@ -46,7 +48,9 @@ Die Darstellungsart '''Original''' überlagert nicht die {{PropertyView/de|Displ
 <span id="24px_Points"></span>
 ===[[Image:Std_DrawStylePoints.svg|24px]] Punkte===
 
+<div class="mw-translate-fuzzy">
 Die Darstellungsart '''Punkte''' überlagert die {{PropertyView/de|Display Mode}} von Objekten. Diese Darstellungsart entspricht dem Display_Mode 'Points'. Knoten werden in deckenden Farben dargestellt. Kanten und Flächen werden nicht dargestellt.
+</div>
 
 [[Image:Std_DrawStylePoints_example.png]]
 {{Caption|Dieselben Objekte mit Darstellungsart 'Punkte' aktiviert}}
@@ -54,7 +58,9 @@ Die Darstellungsart '''Punkte''' überlagert die {{PropertyView/de|Display Mode}
 <span id="24px_Wireframe"></span>
 ===[[Image:Std_DrawStyleWireFrame.svg|24px]] Drahtgitter===
 
+<div class="mw-translate-fuzzy">
 Die Darstellungsart '''Drahtgitter''' überlagert die {{PropertyView/de|Display Mode}} von Objekten. Diese Darstellungsart entspricht dem Display_Mode 'Wireframe'. Knoten und Kanten werden in deckenden Farben dargestellt. Flächen werden nicht dargestellt.
+</div>
 
 [[Image:Std_DrawStyleWireframe_example.png]]
 {{Caption|Dieselben Objekte mit Darstellungsart 'Drahtgitter' aktiviert}}
@@ -62,7 +68,9 @@ Die Darstellungsart '''Drahtgitter''' überlagert die {{PropertyView/de|Display 
 <span id="24px_Hidden_Line"></span>
 ===[[Image:Std_DrawStyleHiddenLine.svg|24px]] Versteckte Linie===
 
+<div class="mw-translate-fuzzy">
 Die Darstellungsart '''Versteckte Line''' überlagert die {{PropertyView/de|Display Mode}} von Objekten. Objekte werden dargestellt, als wären sie in Dreiecksnetze konvertiert.
+</div>
 
 [[Image:Std_DrawStyleHiddenLine_example.png]]
 {{Caption|Dieselben Objekte mit Darstellungsart 'Versteckte Linie' aktiviert}}
@@ -70,7 +78,9 @@ Die Darstellungsart '''Versteckte Line''' überlagert die {{PropertyView/de|Disp
 <span id="24px_No_Shading"></span>
 ===[[Image:Std_DrawStyleNoShading.svg|24px]] Keine Schattierung===
 
+<div class="mw-translate-fuzzy">
 Die Darstellungsart '''Keine Schattierung''' überlagert die {{PropertyView/de|Display Mode}} von Objekten. Punkte, Kanten und Flächen werden gleichmäßig, deckend eingefärbt dargestellt.
+</div>
 
 [[Image:Std_DrawStyleNoShading_example.png]]
 {{Caption|Dieselben Objekte mit Darstellungsart 'Keine Schattierung' aktiviert}}
@@ -78,7 +88,9 @@ Die Darstellungsart '''Keine Schattierung''' überlagert die {{PropertyView/de|D
 <span id="24px_Shaded"></span>
 ===[[Image:Std_DrawStyleShaded.svg|24px]] Schattiert===
 
+<div class="mw-translate-fuzzy">
 Die Darstellungsart '''Schattiert''' überlagert die {{PropertyView/de|Display Mode}} von Objekten. Punkte und Kanten werden nicht dargestellt. Flächen werden abhängig von ihrer Ausrichtung beleuchtet.
+</div>
 
 [[Image:Std_DrawStyleShaded_example.png]]
 {{Caption|Dieselben Objekte mit Darstellungsart 'Schattiert' aktiviert}}
@@ -86,7 +98,9 @@ Die Darstellungsart '''Schattiert''' überlagert die {{PropertyView/de|Display M
 <span id="24px_Flat_Lines"></span>
 ===[[Image:Std_DrawStyleFlatLines.svg|24px]] Flache Linien===
 
+<div class="mw-translate-fuzzy">
 Die Darstellungsart '''Flache Linien''' überlagert die {{PropertyView/de|Display Mode}} von Objekten. Diese Darstellungsart entspricht demDisplay-Mode 'Flat Lines' von Objekten. Punkte und Kanten werden deckend eingefärbt dargestellt. Flächen werden abhängig von ihrer Ausrichtung beleuchtet.
+</div>
 
 [[Image:Std_DrawStyleFlatLines_example.png]]
 {{Caption|Dieselben Objekte mit Darstellungsart 'Flache Linien' aktiviert}}
