@@ -54,9 +54,7 @@ Die Darstellungsart '''Punkte''' überlagert die {{PropertyView/de|Display Mode}
 <span id="24px_Wireframe"></span>
 ===[[Image:Std_DrawStyleWireFrame.svg|24px]] Drahtgitter===
 
-<div class="mw-translate-fuzzy">
 Die Darstellungsart '''Drahtgitter''' überlagert die {{PropertyView/de|Display Mode}} von Objekten. Diese Darstellungsart entspricht dem Display_Mode 'Wireframe'. Knoten und Kanten werden in deckenden Farben dargestellt. Flächen werden nicht dargestellt.
-</div>
 
 [[Image:Std_DrawStyleWireframe_example.png]]
 {{Caption|Dieselben Objekte mit Darstellungsart 'Drahtgitter' aktiviert}}
