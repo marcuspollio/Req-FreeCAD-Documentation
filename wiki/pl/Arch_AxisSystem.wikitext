@@ -9,9 +9,6 @@
 |IconC=Workbench_BIM.svg
 }}
 
-{{VeryImportantMessage|POLECENIE TO JEST CZĘŚCIĄ ZINTEGROWANEGO środowiska pracy [[BIM_Workbench/pl|BIM]] w V1.0<br>
-Ta strona została zaktualizowana dla tej wersji.}}
-
 {{GuiCommand/pl
 |Name=Arch AxisSystem
 |Name/pl=Architektura: Układ osi
@@ -23,12 +20,16 @@ Ta strona została zaktualizowana dla tej wersji.}}
 <span id="Description"></span>
 ==Opis==
 
+<div class="mw-translate-fuzzy">
 Narzędzie Układ osi pozwala na połączenie dwóch lub trzech obiektów [[Arch_Axis/pl|Osiami]] środowiska pracy Architektura.
+</div>
 
 Jest to przydatne do definiowania punktów przecięcia między różnymi osiami. Obiekty Architektury mogą następnie użyć tego systemu do powielenia swojego kształtu na różnych punktach przecięcia.
 
 [[Image:Arch AxisSystem example.jpg|600px]]
+<div class="mw-translate-fuzzy">
 {{Caption|Trzy obiekty [[Arch_Axis/pl|osi]] połączone w jeden [[Arch_AxisSystem/pl|układ osi]]. Obiekt [[Arch_Structure/pl|konstrukcji]] używa tego systemu jako swojej właściwości {{PropertyData|Axis}}, aby jego kształt był powielany w każdym punkcie przecięcia.}}
+</div>
 
 <span id="Usage"></span>
 ==Użycie==
@@ -51,6 +52,7 @@ Jest to przydatne do definiowania punktów przecięcia między różnymi osiami.
 {{Emphasis|Zobacz również:}} [[Arch_API/pl|API: Architektura]] i [[FreeCAD_Scripting_Basics/pl|Podstawy tworzenia skryptów FreeCAD]].
 
 Narzędzie '''Układ osi''' może być używane w [[Macros/pl|makrodefinicjach]] i z konsoli [[Python/pl|Python]] za pomocą następującej funkcji:
+
 {{Code|code=
 AxisSystem = makeAxisSystem(axes, name="Axis System")
 }}
@@ -58,6 +60,7 @@ AxisSystem = makeAxisSystem(axes, name="Axis System")
 * Tworzy obiekt {{Incode|AxisSystem}} z podanego {{Incode|axes}}, który jest pojedynczą [[Arch_Axis/pl|osią]] lub ich listą.
 
 Przykład:
+
 {{Code|code=
 import Draft, Arch
 
