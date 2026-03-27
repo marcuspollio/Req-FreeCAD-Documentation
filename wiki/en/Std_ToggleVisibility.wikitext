@@ -11,7 +11,7 @@
 
 {{GuiCommand
 |Name=Std ToggleVisibility
-|MenuLocation=View → Toggle Visibility
+|MenuLocation=View → Visibility → Toggle Visibility
 |Workbenches=All
 |Shortcut={{KEY|Space}}
 |SeeAlso=[[Std_ShowSelection|Std ShowSelection]], [[Std_HideSelection|Std HideSelection]], [[Std_ToggleObjects|Std ToggleObjects]], [[Std_ShowObjects|Std ShowObjects]], [[Std_HideObjects|Std HideObjects]]
