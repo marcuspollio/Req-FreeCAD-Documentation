@@ -68,7 +68,7 @@ Le style '''Ligne cachée''' remplace la propriété {{PropertyView|Display Mode
 <span id="24px_No_Shading"></span>
 ===[[Image:Std_DrawStyleNoShading.svg|24px]] Pas d'ombrage===
 
-Le style '''Pas d'ombrage''' remplace {{PropertyView|Display Mode}} des objets. Les sommets, les bords et les faces sont affichés en couleurs unies.
+Le style '''Pas d'ombrage''' remplace la propriété {{PropertyView|Display Mode}} des objets. Les sommets, les arêtes et les faces sont affichés en couleurs unies.
 
 [[Image:Std_DrawStyleNoShading_example.png]]
 {{Caption|Les mêmes objets avec le style "Pas d'ombrage" appliqué}}
