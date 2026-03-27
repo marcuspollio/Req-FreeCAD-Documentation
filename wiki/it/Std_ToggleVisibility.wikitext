@@ -9,6 +9,7 @@
 |IconC=Freecad.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/it
 |Name=Std ToggleVisibility
 |Name/it=Mostra/Nascondi
@@ -17,6 +18,7 @@
 |Shortcut={{KEY|Spazio}}
 |SeeAlso=[[Std_ShowSelection/it|Mostra la selezione]], [[Std_HideSelection/it|Nascondi la selezione]], [[Std_ToggleObjects/it|Commuta tutti gli oggetti]], [[Std_ShowObjects/it|Mostra tutti gli oggetti]], [[Std_HideObjects/it|Nascondi tutti gli oggetti]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Descrizione==
