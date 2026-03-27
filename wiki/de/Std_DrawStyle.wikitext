@@ -86,9 +86,7 @@ Die Darstellungsart '''Schattiert''' überlagert die {{PropertyView/de|Display M
 <span id="24px_Flat_Lines"></span>
 ===[[Image:Std_DrawStyleFlatLines.svg|24px]] Flache Linien===
 
-<div class="mw-translate-fuzzy">
-Die Darstellungsart '''Flache Linien''' überlagert die {{PropertyView/de|Display Mode}} von Objekten. Diese Darstellungsart entspricht demDisplay-Mode 'Flat Lines' von Objekten. Punkte und Kanten werden deckend eingefärbt dargestellt. Flächen werden abhängig von ihrer Ausrichtung beleuchtet.
-</div>
+Die Darstellungsart '''Flache Linien''' überlagert die {{PropertyView/de|Display Mode}} von Objekten. Diese Darstellungsart entspricht dem Display-Mode 'Flat Lines' von Objekten. Punkte und Kanten werden deckend eingefärbt dargestellt. Flächen werden abhängig von ihrer Ausrichtung beleuchtet.
 
 [[Image:Std_DrawStyleFlatLines_example.png]]
 {{Caption|Dieselben Objekte mit Darstellungsart 'Flache Linien' aktiviert}}
