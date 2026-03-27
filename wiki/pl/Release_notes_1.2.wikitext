@@ -127,7 +127,6 @@ ToDo (last check: 20260318):
 <span id="Further_FEM_improvements"></span>
 ===Pozostałe ulepszenia środowiska MES===
 
-<div class="mw-translate-fuzzy">
 * Obciążenie [[Image:FEM_ConstraintElectricChargeDensity.svg|24px]] [[FEM_ElectricChargeDensity/pl|Gęstością ładunku elektrycznego]] zyskało pole wyboru ''Skupione'' w trybie ''Total Source'', aby używać skupionego zamiast rozłożonego obciążenia (co pozwala na stosowanie go również do krawędzi i wierzchołków) z solverem CalculiX. [https://github.com/FreeCAD/FreeCAD/pull/25237 Pull request #25237]
 * [[Image:FEM_ResultShow.svg|24px]] [[FEM_ResultShow/pl|Obiekty wyników]] wspierają teraz animacje połowy cyklu oprócz odwróconych pełnych cykli. [https://github.com/FreeCAD/FreeCAD/pull/24129 Pull request #24129]
 * [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint/pl|Funkcja zapisu wyników z przekroju]] wspiera teraz modele 2D i strumień elektryczny w analizach elektrostatycznych. [https://github.com/FreeCAD/FreeCAD/pull/25081 Pull request #25081]
@@ -141,9 +140,8 @@ ToDo (last check: 20260318):
 * Przypisania materiałów są teraz odczytywane z plików {{FileName|.frd}} z wynikami [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools/pl|solvera CalculiX]]. Nie są one jeszcze dostępne we FreeCAD, ale można je wizualizować w ParaView po konwersji do formatu {{FileName|.vtm}}. [https://github.com/FreeCAD/FreeCAD/pull/27847 Pull request #27847]
 * Obiekty [[Image:FEM_MaterialMechanicalNonlinear.svg|24px]] [[FEM_MaterialMechanicalNonlinear/pl|Nieliniowego materiału mechanicznego]] są teraz grupowane pod obiektami [[Image:FEM_MaterialSolid.svg|24px]] [[FEM_MaterialSolid/pl|materiału ciała stałego]]. Właściwości ''Geometrical Nonlinearity'' oraz ''Material Nonlinearity'' są teraz właściwościami logicznymi. Druga z nich jest włączona domyślnie i stosowana tylko, jeśli jakikolwiek materiał w analizie ma przypisany obiekt nieliniowego materiału mechanicznego. W innym wypadku jest ignorowana. [https://github.com/FreeCAD/FreeCAD/pull/27862 Pull request #27862]
 * Algorytm Z-refinement meshera [[Image:FEM_MeshNetgenFromShape.svg|24px]] [[FEM_MeshNetgenFromShape/pl|Netgen]], pozwalający na tworzenie siatek przez wyciągnięcie, teraz wspiera również powłoki. [https://github.com/FreeCAD/FreeCAD/pull/28204 Pull request #28204]
-* Możliwe jest teraz edytowanie plików wejściowych dla mesherów, aby dodawać własne polecenia do generowania siatki, podobnie do tego, co można już było robić dla solverów. Ponadto, niektóre ogólne preferencje MES zostały ulepszone. [https://github.com/FreeCAD/FreeCAD/pull/27942 Pull request #27942]
-* [[Image:FEM_ConstraintElectrostaticPotential.svg|24px]] [[FEM_ConstraintElectrostaticPotential/pl|Warunek brzegowy potencjału elektrostatycznego]] jest teraz nazwany warunkiem brzegowym elektromagnetycznym. Dokonano też kilku mniejszych zmian nazw. [https://github.com/FreeCAD/FreeCAD/pull/27614 Pull request #27614]
-</div>
+* Możliwe jest teraz edytowanie plików wejściowych dla mesherów, aby dodawać własne polecenia do generowania siatki, podobnie do tego, co można już było robić dla solverów. Ponadto, niektóre ogólne preferencje środowiska pracy MES zostały ulepszone. [https://github.com/FreeCAD/FreeCAD/pull/27942 Pull request #27942]
+* [[Image:FEM_ConstraintElectrostaticPotential.svg|24px]] [[FEM_ConstraintElectrostaticPotential/pl|Warunek brzegowy potencjału elektrostatycznego]] jest teraz nazwany ''Warunkiem brzegowym elektromagnetycznym''. Dokonano też kilku mniejszych zmian nazw. [https://github.com/FreeCAD/FreeCAD/pull/27614 Pull request #27614]
 
 <span id="Inspection_Workbench"></span>
 == Środowisko pracy Inspekcja ==
@@ -175,9 +173,8 @@ ToDo (last check: 20260318):
 <span id="Part_Workbench"></span>
 ==Środowisko pracy Część==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Further Part improvements ===
-</div>
+<span id="Further_Part_improvements"></span>
+===Pozostałe ulepszenia środowiska Część===
 
 <div class="mw-translate-fuzzy">
 ===Pozostałe ulepszenia środowiska Część===
