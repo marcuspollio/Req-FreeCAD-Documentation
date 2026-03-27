@@ -79,7 +79,7 @@ The typical workflow to create a 2D drawing involves the following steps, also r
 
 [[Image:Arch Section example3.jpg|600px]]
 
-* The Section Plane can also be used to show the entire 3D View cut by an infinite plane when {{PropertyView|CutView}} is set to {{TRUE}}. This is only visual, and won't affect the geometry of the objects being cut.
+* The Section Plane can also be used to show the entire 3D View cut by an infinite plane when the {{PropertyView|CutView}} property is set to {{TRUE}}. This is only visual, and won't affect the geometry of the objects being cut.
 
 [[Image:Arch SectionPlane CutView.jpg|600px]]
 
@@ -100,7 +100,6 @@ The typical workflow to create a 2D drawing involves the following steps, also r
 </div>
 
 [[Image:Arch_SectionPlane_ClipView.png|600px]]
-
 {{Caption|The Arch SectionPlane with the {{PropertyData|Clip}} property set to {{TRUE}} will behave like a camera, limiting the field of view.}}
 
 ===View===
