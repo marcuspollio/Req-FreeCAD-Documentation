@@ -63,9 +63,7 @@ Beachte, dass dieser Modus für die Verwendung der FreeCAD-API ohne GUI vorgeseh
 
 Wenn FreeCAD als Python-Bibliothek in einem headless-Kontext verwendet wird (beispielsweise über einen Standard-Python-Interpreter oder {{incode|FreeCADCmd}}), stehen nicht alle Arbeitsbereich-Module automatisch zur Verfügung, selbst wenn die FreeCAD-Kernmodule erfolgreich importiert werden können.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In particular, modules located in the {{incode|Mod/}} directory (such as PartDesign or submodules of Part) may not be discoverable by Python unless their paths are explicitly added to {{incode|sys.path}}. This can lead to situations where document objects are loaded as generic types (for example {{incode|GeoFeature}}) instead of their specific types (for example {{incode|PartDesign::Body}}), or where imports of workbench-related modules fail.
-</div>
+Insbesondere Module, die sich im Verzeichnis {{incode|Mod/}} befinden (wie z. B. PartDesign oder Untermodule von Part), werden von Python möglicherweise nicht erkannt, sofern ihre Pfade nicht explizit zu {{incode|sys.path}} hinzugefügt werden. Dies kann dazu führen, dass Dokumentobjekte als generische Typen (z. B. {{incode|GeoFeature}}) anstelle ihrer spezifischen Typen (z. B. {{incode|PartDesign::Body}}) geladen werden oder dass der Import von Arbeitsbereichs-bezogenen Modulen fehlschlägt.
 
 Um die volle Funktionalität zu gewährleisten, kann es erforderlich sein, den Python-Suchpfad manuell um das FreeCAD-Verzeichnis {{incode|Mod/}} und in manchen Fällen um bestimmte Unterverzeichnisse zu erweitern:
 
