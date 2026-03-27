@@ -70,9 +70,7 @@ Styl '''Cieniowany z ukrytymi krawędziami''' nadpisuje właściwość {{Propert
 <span id="24px_No_Shading"></span>
 ===[[Image:Std_DrawStyleNoShading.svg|24px]] Jednolity z krawędziami===
 
-<div class="mw-translate-fuzzy">
-Styl '''Jednolity z krawędziami''' nadpisuje styl {{PropertyView|Tryb wyświetlania}} obiektów. Wierzchołki, krawędzie i ściany są wyświetlane w jednolitych kolorach.
-</div>
+Styl '''Jednolity z krawędziami''' nadpisuje właściwość {{PropertyView|Tryb wyświetlania}} obiektów. Wierzchołki, krawędzie i ściany są wyświetlane w jednolitych kolorach.
 
 [[Image:Std_DrawStyleNoShading_example.png]]
 {{Caption|Te same obiekty z zastosowanym stylem rysowania "Jednolity z krawędziami"}}
