@@ -28,10 +28,12 @@ Das Werkzeug '''Arch Referenz''' ermöglicht im aktuellen Dokument ein Objekt zu
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 # Die Schaltfläche {{Button|[[Image:Arch_Reference.svg|16px]] [[Arch_Reference/de|ExterneReferenz]]}} drücken.
 # Die Schaltfläche {{Button|Datei auswählen...}} drücken und eine vorhandene FreeCAD-Datei auswählen.
 # Eins der enthaltenen auf Part basierenden Objekte in der Aufklappliste auswählen.
 # {{Button|OK}} drücken.
+</div>
 
 <span id="Options"></span>
 ==Optionen==
