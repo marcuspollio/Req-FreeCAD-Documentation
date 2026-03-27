@@ -9,6 +9,7 @@
 |IconC=Freecad.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/ru
 |Name/ru=Видимость
 |Name=Std_ToggleVisibility
@@ -17,6 +18,7 @@
 |Shortcut={{KEY|Space}}
 |SeeAlso=[[Std_ShowSelection/ru|Показать выделенные]], [[Std_HideSelection/ru|Скрыть выделенные]], [[Std_ToggleObjects/ru|Инвертировать все видимости]], [[Std_ShowObjects/ru|Показать все объекты]], [[Std_HideObjects/ru|Скрыть все объекты]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Описание==
