@@ -11,9 +11,6 @@
 }}
 </div>
 
-{{VeryImportantMessage|THIS COMMAND IS PART OF THE INTEGRATED [[BIM_Workbench|BIM WORKBENCH]] IN V1.0<br>
-This page has been updated for that version.}}
-
 <div class="mw-translate-fuzzy">
 {{GuiCommand/ru
 |Name=Удалить компонент
@@ -33,7 +30,7 @@ This page has been updated for that version.}}
 * Вычтите объект на основе  [[Part_Workbench|shape]] из компонента Arch, например {{KEY|[[Image:Arch_Wall.svg|16px]] [[Arch Wall|wall]]}} или {{KEY|[[Image:Arch_Structure.svg|16px]] [[Arch_Structure|Arch Structure]]}}
 </div>
 
-The counterpart of this tool is the {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add|Arch Add]]}} tool.
+The counterpart of this tool is the [[Image:Arch_Add.svg|16px]] [[Arch_Add|Add Component]] tool.
 
 [[Image:Arch Remove example.jpg|600px]]
 <div class="mw-translate-fuzzy">
@@ -44,11 +41,11 @@ The counterpart of this tool is the {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_
 ==Применение==
 
 # Select a subcomponent inside an Arch object.
-# Press the {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch_Remove|Remove component]]}} button, or {{MenuCommand|Modify → [[Image:Arch_Remove.svg|16px]] Remove component}} from the top menu.
+# Press the {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch_Remove|Remove Component]]}} button, or {{MenuCommand|Modify → [[Image:Arch_Remove.svg|16px]] Remove Component}} from the top menu.
 
 Or
 # Select objects to be subtracted, the last object selected must the Arch object from which the other objects will be subtracted.
-# Press the {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch_Remove|Remove component]]}} button, or {{MenuCommand|Modify → [[Image:Arch_Remove.svg|16px]] Remove component}} from the top menu.
+# Press the {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch_Remove|Remove Component]]}} button, or {{MenuCommand|Modify → [[Image:Arch_Remove.svg|16px]] Remove Component}} from the top menu.
 
 ==Scripting==
 
