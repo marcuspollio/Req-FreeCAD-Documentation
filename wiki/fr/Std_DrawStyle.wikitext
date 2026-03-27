@@ -37,14 +37,18 @@ La commande '''Std Style de représentation''' peut remplacer l'effet de la [[Pr
 <span id="24px_As_Is"></span>
 ===[[Image:Std_DrawStyleAsIs.svg|24px]] Par défaut===
 
+<div class="mw-translate-fuzzy">
 Le style '''Par défaut''' ne supplante pas la propriété {{PropertyView|Display Mode}} des objets.
+</div>
 
 [[Image:Std_DrawStyleAsIs_example.png]]
 {{Caption|4 objets identiques chacun avec un mode d'affichage différent (de gauche à droite: « Points », « Filaire », « Ombré » et « Filaire ombré ») avec le style de représentation '''Par défaut'''}}
 
 ===[[Image:Std_DrawStylePoints.svg|24px]] Points===
 
+<div class="mw-translate-fuzzy">
 Le style '''Points''' remplace la propriété {{PropertyView|Display Mode}} des objets. Ce style correspond au mode d'affichage « Points ». Les sommets sont affichés en couleurs unies. Les arêtes et les faces ne sont pas affichées.
+</div>
 
 [[Image:Std_DrawStylePoints_example.png]]
 {{Caption|Les mêmes objets avec le style « Points » appliqué}}
@@ -52,7 +56,9 @@ Le style '''Points''' remplace la propriété {{PropertyView|Display Mode}} des 
 <span id="24px_Wireframe"></span>
 ===[[Image:Std_DrawStyleWireFrame.svg|24px]] Filaire===
 
+<div class="mw-translate-fuzzy">
 Le style '''Filaire''' remplace la propriété {{PropertyView|Display Mode}} des objets. Ce style correspond au mode d'affichage « Filaire ». Les sommets et les arêtes sont affichés en couleurs unies. Les faces ne sont pas affichés.
+</div>
 
 [[Image:Std_DrawStyleWireframe_example.png]]
 {{Caption|Les mêmes objets avec le style « Filaire » appliqué}}
@@ -60,7 +66,9 @@ Le style '''Filaire''' remplace la propriété {{PropertyView|Display Mode}} des
 <span id="24px_Hidden_Line"></span>
 ===[[Image:Std_DrawStyleHiddenLine.svg|24px]] Ligne cachée===
 
+<div class="mw-translate-fuzzy">
 Le style '''Ligne cachée''' remplace la propriété {{PropertyView|Display Mode}} des objets. Les objets sont affichés comme s'ils étaient convertis en maillages triangulaires.
+</div>
 
 [[Image:Std_DrawStyleHiddenLine_example.png]]
 {{Caption|Les mêmes objets avec le style « Ligne cachée » appliqué}}
@@ -68,7 +76,9 @@ Le style '''Ligne cachée''' remplace la propriété {{PropertyView|Display Mode
 <span id="24px_No_Shading"></span>
 ===[[Image:Std_DrawStyleNoShading.svg|24px]] Pas d'ombrage===
 
+<div class="mw-translate-fuzzy">
 Le style '''Pas d'ombrage''' remplace la propriété {{PropertyView|Display Mode}} des objets. Les sommets, les arêtes et les faces sont affichés en couleurs unies.
+</div>
 
 [[Image:Std_DrawStyleNoShading_example.png]]
 {{Caption|Les mêmes objets avec le style « Pas d'ombrage » appliqué}}
@@ -76,7 +86,9 @@ Le style '''Pas d'ombrage''' remplace la propriété {{PropertyView|Display Mode
 <span id="24px_Shaded"></span>
 ===[[Image:Std_DrawStyleShaded.svg|24px]] Ombré===
 
+<div class="mw-translate-fuzzy">
 Le style '''Ombré''' remplace la propriété {{PropertyView|Display Mode}} des objets. Ce style correspond au mode d'affichage « Ombré ». Les sommets et les arêtes ne sont pas affichés. Les faces sont éclairés en fonction de leur orientation.
+</div>
 
 [[Image:Std_DrawStyleShaded_example.png]]
 {{Caption|Les mêmes objets avec le style « Ombré » appliqué}}
@@ -84,7 +96,9 @@ Le style '''Ombré''' remplace la propriété {{PropertyView|Display Mode}} des 
 <span id="24px_Flat_Lines"></span>
 ===[[Image:Std_DrawStyleFlatLines.svg|24px]] Filaire ombré===
 
+<div class="mw-translate-fuzzy">
 Le style '''Filaire ombré''' remplace la propriété {{PropertyView|Display Mode}} des objets. Ce style correspond au mode d'affichage « Filaire ombré ». Les sommets et les arêtes sont affichés en couleurs unies. Les faces sont éclairés en fonction de leur orientation.
+</div>
 
 [[Image:Std_DrawStyleFlatLines_example.png]]
 {{Caption|Les mêmes objets avec le style « Filaire ombré » appliqué}}
