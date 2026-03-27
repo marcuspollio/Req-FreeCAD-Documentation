@@ -19,13 +19,17 @@
 
 ==Description== 
 
+<div class="mw-translate-fuzzy">
 L'outil Ajouter vous permet d'effectuer 4 types d'opérations :
 * Ajouter des objets basés sur des [[Part_Workbench/fr|formes]] à un composant Arch, tel qu'un [[Image:Arch_Wall.svg|16px]] [[Arch_Wall/fr|mur]] ou une [[Image:Arch_Structure.svg|16px]] [[Arch_Structure/fr|structure]]. Ces objets sont fusionnés avec le composant Arch, modifiant sa forme tout en conservant ses propriétés de base telles que la largeur et la hauteur.
 * Ajouter des composants Arch à un objet Arch basé sur un groupe, tel que des [[Image:Arch_Floor.svg|16px]] [[Arch Floor/fr|niveaux]].
 * Ajouter des [[Image:Arch_Axis.svg|16px]] [[Arch_Axis/fr|systèmes d'axes]] à des [[Image:Arch_Structure.svg|16px]] [[Arch Structure/fr|objets structurels]].
 * Ajouter des objets à des [[Image:Arch_SectionPlane.svg|16px]] [[Arch SectionPlane/fr|plans de coupe]].
+</div>
 
+<div class="mw-translate-fuzzy">
 La contrepartie de cet outil est l'outil [[Image:Arch_Remove.svg|16px]] [[Arch Remove/fr|Supprimer]].
+</div>
 
 [[Image:Arch Add example.jpg|640px]]
 {{Caption|Dans l'image ci-dessus, une boîte est ajoutée à un mur.}}
