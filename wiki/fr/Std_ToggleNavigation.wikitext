@@ -19,7 +19,7 @@
 
 ==Description==
 
-La commande '''Std Basculer en mode navigation''' est destinée à certaines opérations d'inspection et à certaines opérations d'édition de maillage interactif. Ces opérations sont assez "coûteuses" et reposent donc sur un mode d'édition au cours duquel la plupart des options de navigation sont désactivées. Avec cette commande, il est possible de passer temporairement du mode édition au mode navigation et après avoir changé la [[3D_view/fr|vue 3D]] de revenir en mode édition.
+La commande '''Std Basculer en mode navigation''' est destinée à certaines opérations d'inspection et à certaines opérations d'édition de maillage interactif. Ces opérations sont assez « coûteuses » et reposent donc sur un mode d'édition au cours duquel la plupart des options de navigation sont désactivées. Avec cette commande, il est possible de passer temporairement du mode édition au mode navigation et après avoir changé la [[3D_View/fr|vue 3D]] de revenir en mode édition.
 
 Ne pas confondre cette commande avec la commande [[Std_Edit/fr|Std Basculer le mode d'édition]].
 
