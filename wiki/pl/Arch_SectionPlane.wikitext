@@ -69,9 +69,7 @@ Typowe podejście do tworzenia rysunku 2D uwzględnia następujące kroki, równ
 
 [[Image:Arch Section example3.jpg|600px]]
 
-<div class="mw-translate-fuzzy">
-* Płaszczyzna przekroju może być również użyta do pokazania całego widoku 3D przeciętego nieskończoną płaszczyzną gdy właściwość {{PropertyView|CutView}} jest ustawiona na {{TRUE/pl}}. Ma to jedynie charakter wizualny i nie wpływa na geometrię przecinanych obiektów.
-</div>
+* Płaszczyzna przekroju może być również użyta do pokazania całego Widoku 3D przeciętego nieskończoną płaszczyzną, gdy właściwość {{PropertyView|CutView}} jest ustawiona na {{TRUE/pl}}. Ma to jedynie charakter wizualny i nie wpływa na geometrię przecinanych obiektów.
 
 [[Image:Arch SectionPlane CutView.jpg|600px]]
 
