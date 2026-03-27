@@ -15,7 +15,7 @@
 
 <!--T:264-->
 Currently, the easiest and quickest way to compile FreeCAD is with [https://pixi.sh/latest/ Pixi]. This tool automatically takes care of all the dependencies. The details can be found in the [https://freecad.github.io/DevelopersHandbook/gettingstarted/ Developers Handbook]. The following steps are necessary on Windows:
-# Download and install https://aka.ms/vs/17/release/vs_community.exe MS Visual Studio 2022 Community Edition], including "Desktop development with C++".
+# Download and install [https://aka.ms/vs/17/release/vs_community.exe MS Visual Studio 2022 Community Edition], including "Desktop development with C++".
 # Install Pixi using the following command in PowerShell:‎<br/>{{Code|code=iwr -useb https://pixi.sh/install.ps1 {{!}} iex}}
 # Install [https://git-scm.com/install/windows Git] and clone the main branch of FreeCAD:<br/>{{Code|code=git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD FreeCAD-src}}
 # From the ''FreeCAD-src'' folder with the cloned FreeCAD repo, run PowerShell and enter:<br/>{{Code|code=pixi run configure}}
