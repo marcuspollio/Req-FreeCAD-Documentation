@@ -20,7 +20,7 @@
 <span id="Description"></span>
 ==Descrição==
 
-Creates a non-parametric [[BIM_Workbench|Arch]] component from any [[Part_Workbench|Part]]-based object. This gives the Part-based object the same attributes and properties as other Arch objects, and allows to specify how it should be exported to IFC by setting its {{PropertyData|Ifc Type}} property.
+The [[Image:Arch_Component.svg|24px]] [[Arch_Component|Arch Component]] tool creates a non-parametric component from any [[Part_Workbench|Part]]-based object. This gives the Part-based object the same attributes and properties as other Arch objects, and allows to specify how it should be exported to IFC by setting its {{PropertyData|Ifc Type}} property.
 
 <span id="Usage"></span>
 ==Utilização==
