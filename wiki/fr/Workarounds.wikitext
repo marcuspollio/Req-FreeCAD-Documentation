@@ -186,14 +186,12 @@ Le but de cet article est de lister certaines fonctionnalités actuellement manq
 * Pour les faces d'un [[PartDesign_Body/fr|PartDesign Corps]] : changez la propriété Refine de la dernière fonction à {{True}}, peut ne pas supprimer toutes les faces redondantes
 * Pour les faces coplanaires : utilisez [[Draft_Upgrade/fr|Draft Agréger]] deux fois pour obtenir une [[Draft_Wire|Draft Polyligne]], [[Draft_Downgrade/fr|Draft Désagréger]] la polyligne pour obtenir une face
 
-<div class="mw-translate-fuzzy">
 |-
-| 20
+| 19
 | [[PartDesign_Point/fr|Datum points]] de coordonnées
 |
 * Basez des [[PartDesign_Point/fr|datum points]] sur une géométrie existante
 * Créez des [[PartDesign_Point/fr|datum points]] à l'origine et modifiez leur [[Placement/fr|position]] par la suite.
-</div>
 
 <div class="mw-translate-fuzzy">
 |-
