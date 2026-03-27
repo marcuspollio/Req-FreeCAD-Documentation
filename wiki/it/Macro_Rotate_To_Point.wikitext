@@ -72,11 +72,10 @@ Macro per far ruotare un oggetto su se stesso scegliendo l'asse di rotazione: il
 
 ===Coordinates Point clicked===
 
-<div class="mw-translate-fuzzy">
+[[File:Macro_Rotate_To_Point_Coordinate-On-Point-Clicked_00.png|Rotate To Point Coordinate-On-Point-Clicked]]
 *DoubleSpinBox : Coordinate X del clic del mouse (modificabile solo nel modo "Point Clicked")
 *DoubleSpinBox : Coordinate Y del clic del mouse (modificabile solo nel modo "Point Clicked")
 *DoubleSpinBox : Coordinate Z del clic del mouse (modificabile solo nel modo "Point Clicked")
-</div>
 
 <span id="[3]_Work_(Box_:_Cube)"></span>
 <div class="mw-translate-fuzzy">
