@@ -46,9 +46,7 @@ Die Darstellungsart '''Original''' überlagert nicht die {{PropertyView/de|Displ
 <span id="24px_Points"></span>
 ===[[Image:Std_DrawStylePoints.svg|24px]] Punkte===
 
-<div class="mw-translate-fuzzy">
 Die Darstellungsart '''Punkte''' überlagert die {{PropertyView/de|Display Mode}} von Objekten. Diese Darstellungsart entspricht dem Display_Mode 'Points'. Knoten werden in deckenden Farben dargestellt. Kanten und Flächen werden nicht dargestellt.
-</div>
 
 [[Image:Std_DrawStylePoints_example.png]]
 {{Caption|Dieselben Objekte mit Darstellungsart 'Punkte' aktiviert}}
