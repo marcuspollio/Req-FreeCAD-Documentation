@@ -21,7 +21,7 @@
 <span id="Description"></span>
 ==Beschreibung==
 
-Das {{Button|[[Image:Arch Axis.svg|16px]] [[Arch Axis/de|Arch Achse]]}} Werkzeug ermöglicht es dir, eine Reihe von Achsen im aktuellen Dokument zu platzieren. Der Abstand und der Winkel zwischen den Achsen ist anpassbar, ebenso wie der Nummerierungsstil. Die Achsen dienen hauptsächlich als Referenzen, auf die Objekte gefangen werden, können aber auch zusammen mit {{Button|[[Image:Arch Axis_System.svg|16px]] [[Arch_AxisSystem|Arch Achsensystem]]}} verwendet werden. Sie können auch von anderen Architekturobjekten referenziert werden, um parametrische Anordnungen, z.B. von Trägern oder Stützen, zu erstellen. {{Button|[[Image:Arch Grid.svg|16px]] [[Arch Grid/de|Arch Gitter]]}} können auch an Stellen von Achsen verwendet werden.
+Das Werkzeug [[Image:Arch_Axis.svg|24px]] [[Arch_Axis/de|Arch Achse]] ermöglicht, eine Reihe von Achsen im aktuellen Dokument zu positionieren. Der Abstand und der Winkel zwischen den Achsen kann angepasst werden, ebenso die Art der Nummerierung. Die Achsen dienen hauptsächlich als Referenzen, auf die Objekte einrasten können, können aber auch zusammen mit [[Image:Arch_AxisSystem.svg|16px]] [[Arch_AxisSystem/de|Arch Achsensystem]] verwendet werden. Sie können auch von anderen Arch-Objekten referenziert werden, um parametrische Anordnungen, z. B. von Trägern oder Stützen, zu erstellen. [[Image:Arch_Grid.svg|16px]] [[Arch_Grid/de|Arch Raster]] können auch an Stellen von Achsen verwendet werden.
 
 [[Image:Arch Axis example.jpg|600px]]
 {{Caption|Zwei Achsenobjekte, die rechtwinklig zueinander ausgerichtet sind, um ein Raster zu erzeugen}}
@@ -44,6 +44,7 @@ Das {{Button|[[Image:Arch Axis.svg|16px]] [[Arch Axis/de|Arch Achse]]}} Werkzeug
 <span id="Properties"></span>
 ==Eigenschaften==
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData/de|Länge}}: die Länge der Achsen
 * {{PropertyData|Limit}}: Falls größer als Null, wird jede Achse als zwei Linien in der gegebenen Länge dargestellt anstatt als eine durchgehende Linie {{Version|0.20}}
 * {{PropertyView/de|Blasengröße}}: die Größe der Achsenblasen
@@ -52,16 +53,21 @@ Das {{Button|[[Image:Arch Axis.svg|16px]] [[Arch Axis/de|Arch Achse]]}} Werkzeug
 * {{PropertyView/de|Schriftname}}: Einen Schrifttyp, um die Blasennummer und/oder eine Beschriftung anzubringen
 * {{PropertyView/de|Schriftgröße}}: nur die Größe des Beschriftungstextes (der Blasentext wird durch die Blasengröße bestimmt)
 * {{PropertyView/de|Beschriftung anzeigen}}: Schaltet die Anzeige der Etikettentexte ein/aus
+</div>
 
 <span id="Use_as_section_mark"></span>
 ==Verwendung als Abschnittsmarkierung==
 
+<div class="mw-translate-fuzzy">
 Durch setzen der Eigenschaft '''Bubble Position''' auf '''Arrow left/right''' oder '''Bar left/right''' wird die Achse einen gefüllten Pfeil oder einen Strich anstatt der Blase anzeigen, so dass sie als Schnittmarkierung genutzt werden kann {{Version/de|0.20}}
+</div>
 
 <span id="Scripting"></span>
 ==Skripten==
 
+<div class="mw-translate-fuzzy">
 {{Emphasis|Siehe auch:}} [[Arch_API/de|Arch API]] und [[FreeCAD_Scripting_Basics/de|Grundlagen der Skripterstellung in FreeCAD]].
+</div>
 
 Das Werkzeug Achse kann in [[Macros/de|Makros]] und von der [[Python/de|Python]]-Konsole aus mit der folgenden Funktion verwendet werden:
 
