@@ -20,7 +20,9 @@
 
 ==Description==
 
+<div class="mw-translate-fuzzy">
 L'outil {{Button|[[Image:Arch_Axis.svg|16px]] [[Arch_Axis/fr|Arch Axes]]}} vous permet de placer une série d'axes dans le document en cours. La distance et l'angle entre les axes sont personnalisables, ainsi que le style de numérotation. Les axes servent principalement de références pour accrocher des objets mais peuvent également être utilisés avec {{Button|[[Image:Arch_AxisSystem.svg|16px]] [[Arch_AxisSystem/fr|Arch Système d'axes]]}}. Ils peuvent également être référencés par d'autres objets Arch pour créer des réseaux paramétriques, par exemple des poutres ou des colonnes. {{Button|[[Image:Arch_Grid.svg|16px]] [[Arch_Grid/fr|Arch Grilles]]}} peut également être utilisé à la place des axes.
+</div>
 
 [[Image:Arch Axis example.jpg|600px]]
 {{Caption|Deux objets axes placés perpendiculairement l'un par rapport à l'autre pour créer une grille}}
@@ -42,6 +44,7 @@ L'outil {{Button|[[Image:Arch_Axis.svg|16px]] [[Arch_Axis/fr|Arch Axes]]}} vous 
 <span id="Properties"></span>
 ==Propriétés==
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Length}} : longueur des axes.
 * {{PropertyData|Limit}} : si supérieure à zéro, chaque axe sera représenté par deux lignes de la longueur donnée au lieu d'une ligne continue. {{Version/fr|0.20}}
 * {{PropertyView|Bubble Size}} : taille des infobulles des axes.
@@ -50,16 +53,21 @@ L'outil {{Button|[[Image:Arch_Axis.svg|16px]] [[Arch_Axis/fr|Arch Axes]]}} vous 
 * {{PropertyView|Font Name}} : police du numéro de l'infobulle et/ou des étiquettes.
 * {{PropertyView|Font Size}} : taille du texte de l'étiquette uniquement (le texte de l'infobullee est contrôlé par la taille de l'infobulle).
 * {{PropertyView|Show Labels}} : active/désactive l'affichage du textes des étiquettes.
+</div>
 
 <span id="Use_as_section_mark"></span>
 ==Utilisation comme marque de section==
 
+<div class="mw-translate-fuzzy">
 En définissant la propriété '''Bubble Position''' à '''Arrow left/right''' ou '''Bar left/right''', l'axe affichera une flèche ou une barre remplie à la place de l'infobulle, afin qu'elle puisse être utilisée comme marque de section. {{Version/fr|0.20}}
+</div>
 
 <span id="Scripting"></span>
 ==Script==
 
+<div class="mw-translate-fuzzy">
 {{Emphasis|Voir aussi :}} [[Arch_API/fr|Arch API]] et [[FreeCAD_Scripting_Basics/fr|Débuter avec les scripts FreeCAD]].
+</div>
 
 L'outil Axes peut être utilisé dans une [[Macros/fr|macro]] et à partir de la console [[Python/fr|Python]] en utilisant la fonction suivante :
 
