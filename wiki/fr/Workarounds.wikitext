@@ -335,11 +335,13 @@ Le but de cet article est de lister certaines fonctionnalités actuellement manq
 |
 * Dans certains cas, il peut être suffisant d'utiliser la première solution de contournement mentionnée ici et de créer manuellement une section avec une ligne de découpe personnalisée
 
+<div class="mw-translate-fuzzy">
 |-
 | 7
 | Exporter des pages TechDraw au format PDF sans rendre le texte du modèle (texte du chemin d'accès) impossible à marquer/à rechercher.
 |
 * Exportez la page en tant que SVG, puis convertissez le SVG en PDF en utilisant par exemple [http://www.inkscape.org Inkscape] ou ouvrez le SVG dans un navigateur Web, puis enregistrez ou imprimez en PDF.
+</div>
 
 |-
 | 8
@@ -480,17 +482,21 @@ Le but de cet article est de lister certaines fonctionnalités actuellement manq
 |
 * Pas de solution de contournement connue
 
+<div class="mw-translate-fuzzy">
 |-
 | 7
 | Mettre en évidence uniquement la fonction individuelle de PartDesign dans la [[3D_view/fr|Vue 3D]] lorsque l'opération correspondante est sélectionnée dans la [[Tree_view/fr|Vue en arborescence]]
 |
 * Pas de solution de contournement connue
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 8
 | Sélectionner uniquement l'élément PartDesign individuel dans la [[Tree_view/fr|Vue en arborescence]] lorsqu'un élément correspondant est sélectionné dans la [[3D_view/fr|Vue 3D]]
 |
 * Pas de solution de contournement connue
+</div>
 
 |-
 | 9
