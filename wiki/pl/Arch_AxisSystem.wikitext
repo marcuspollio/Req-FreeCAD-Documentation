@@ -25,9 +25,7 @@ Narzędzie [[Image:Arch_AxisSystem.svg|24px]] [[Arch_AxisSystem/pl|Układ osi]] 
 Jest to przydatne do definiowania punktów przecięcia między różnymi osiami. Obiekty Architektury mogą następnie użyć tego systemu do powielenia swojego kształtu na różnych punktach przecięcia.
 
 [[Image:Arch AxisSystem example.jpg|600px]]
-<div class="mw-translate-fuzzy">
 {{Caption|Trzy obiekty [[Arch_Axis/pl|osi]] połączone w jeden [[Arch_AxisSystem/pl|układ osi]]. Obiekt [[Arch_Structure/pl|konstrukcji]] używa tego systemu jako swojej właściwości {{PropertyData|Axis}}, aby jego kształt był powielany w każdym punkcie przecięcia.}}
-</div>
 
 <span id="Usage"></span>
 ==Użycie==
