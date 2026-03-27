@@ -62,9 +62,7 @@ Styl '''Szkieletowy''' nadpisuje właściwość {{PropertyView|Tryb wyświetlani
 <span id="24px_Hidden_Line"></span>
 ===[[Image:Std_DrawStyleHiddenLine.svg|24px]] Cieniowany z ukrytymi krawędziami===
 
-<div class="mw-translate-fuzzy">
-Styl '''Cieniowany z ukrytymi krawędziami''' nadpisuje styl {{PropertyView|Tryb wyświetlania}} obiektów. Obiekty są wyświetlane tak, jakby były przekształcone w siatki trójkątów.
-</div>
+Styl '''Cieniowany z ukrytymi krawędziami''' nadpisuje właściwość {{PropertyView|Tryb wyświetlania}} obiektów. Obiekty są wyświetlane tak, jakby były przekształcone w siatki trójkątów.
 
 [[Image:Std_DrawStyleHiddenLine_example.png]]
 {{Caption|Te same obiekty z zastosowanym stylem rysowania "Cieniowany z ukrytymi krawędziami"}}
