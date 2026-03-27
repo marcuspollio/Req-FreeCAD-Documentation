@@ -40,27 +40,25 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="Further_user_interface_improvements"></span>
 === Otras mejoras de la interfaz de usuario ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* A default shortcut for [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences|Std DlgPreferences]] has been added. [https://github.com/FreeCAD/FreeCAD/pull/15536 Pull request #15536]
-* The Notification area preferences page was improved. [https://github.com/FreeCAD/FreeCAD/pull/15207 Pull request #15207]
-* Auto save and additive selection features were added to the [[Image:Std_Measure.svg|24px]] [[Std_Measure|Measure]] tool. [https://github.com/FreeCAD/FreeCAD/pull/17717 Pull request #17717]
-* A ''ToggleTransparency'' [[Fine-tuning|fine-tuning]] parameter was added to allow users to change the default transparency level enabled by the [[Image:Std_ToggleTransparency.svg|24px]] [[Std_ToggleTransparency|Toggle transparency]] tool. [https://github.com/FreeCAD/FreeCAD/pull/18986 Pull request #18986]
-* A ''Show Plane'' view property was added to display the plane on which a 2D object is based. [https://github.com/FreeCAD/FreeCAD/pull/18910 Pull request #18910]
-* It is now possible to change the color of the coordinate system axes using the new preferences under ''Edit → Preferences → Display → 3D View''. [https://github.com/FreeCAD/FreeCAD/pull/16995 Pull request #16995]
-* A ''Show Placement'' view property was added to display the placement as a coordinate system at the origin of an object. [https://github.com/FreeCAD/FreeCAD/pull/19671 Pull request #19671]
-* The SolidWorks [[Mouse_navigation|navigation style]] was added. [https://github.com/FreeCAD/FreeCAD/pull/19568 Pull request #19568]
-* [[Navigation_Cube|Navigation Cube]] animations accumulate the rotation depending on how often you click the flat buttons. [https://github.com/FreeCAD/FreeCAD/pull/19719 Pull request #19719]
-* New orbit styles ''Trackball Classic'' and ''Rounded Arcball'' have been added. ''Rounded Arcball'' is now the default, offering pure roll camera rotation when the cursor is near the screen edges. [https://github.com/FreeCAD/FreeCAD/pull/20535 Pull request #20535]
-* Support for hints in the [[Status_Bar|status bar]] was added. [https://github.com/FreeCAD/FreeCAD/pull/18961 Pull request #18961]
-* All boolean properties in the property view now use a checkbox instead of a true/false drop-down list. [https://github.com/FreeCAD/FreeCAD/pull/21555 Pull request #21555]
-* The Siemens NX [[Mouse_navigation|navigation style]] was added. [https://github.com/FreeCAD/FreeCAD/pull/21813 Pull request #21813]
-* If there is an active object in the tree, [[Image:Std_Group.svg|24px]] [[Std_Group|Group]] will be added to it upon creation. [https://github.com/FreeCAD/FreeCAD/pull/21902 Pull request #21902]
-* The [[Image:Std_AlignToSelection.svg|24px]] [[Std_AlignToSelection|Align to Selection]] command uses smaller rotations. [https://github.com/FreeCAD/FreeCAD/pull/20088 Pull request #20088]
-* The [[Image:Std_AlignToSelection.svg|24px]] [[Std_AlignToSelection|Align to Selection]] command uses the longest edge in a face to align horizontally or vertically. [https://github.com/FreeCAD/FreeCAD/pull/20374 Pull request #20374]
-* The [[Image:Std_AlignToSelection.svg|24px]] [[Std_AlignToSelection|Align to Selection]] command now also aligns the camera view to selected planar curves and non-planar faces. [https://github.com/FreeCAD/FreeCAD/pull/22066 Pull request #22066] and [https://github.com/FreeCAD/FreeCAD/pull/22365 Pull request #22365]
-* All MDI windows (including e.g. Spreadsheet and TechDraw) can now be undocked and set to fullscreen using shortcuts (''V'', ''U'' or ''F11'') or ''View → Document window'' menu option. [https://github.com/FreeCAD/FreeCAD/pull/22544 Pull request #22544]
-* The default list of workbenches is now shorter as rarely used workbenches are deactivated by default. This includes the Inspection, <none>, OpenSCAD, Robot and Test Framework workbenches. [https://github.com/FreeCAD/FreeCAD/pull/23034 Pull request #23034]
-</div>
+* Se agregó un atajo por defecto para [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences/es|Std DlgPreferences]]. [https://github.com/FreeCAD/FreeCAD/pull/15536 Pull request #15536]
+* Se mejoró la página de preferencias del área de notificaciones. [https://github.com/FreeCAD/FreeCAD/pull/15207 Pull request #15207]
+* Se agregaron características de selección aditiva y auto-guardado a la herrameinta [[Image:Std_Measure.svg|24px]] [[Std_Measure/es|Measure]]. [https://github.com/FreeCAD/FreeCAD/pull/17717 Pull request #17717]
+* Se agregó el parámetro de ''Conmutar Transparencia'' para permitir al usuario cambiar el nivel de transparencia por defecto permitido por la herramienta [[Image:Std_ToggleTransparency.svg|24px]] [[Std_ToggleTransparency/es|Toggle Transparency]]
+* Se agregó la propiedad de Vista ''Mostrar Plano'' para visualizar el plano en el que un objeto 2D está basado. [https://github.com/FreeCAD/FreeCAD/pull/18910 Pull request #18910]
+* Ahora es posible cambiar el color de los ejes del sistema de coordenadas usando las nuevas preferencias bajo ''Editar → Preferencias → Vista 3D''.[https://github.com/FreeCAD/FreeCAD/pull/16995 Pull request #16995]
+* Se agregó la propiedad de Vista ''Mostrar Ubicación'' para visualizar la ubicación del sistema de coordenadas en el origen de un objeto. [https://github.com/FreeCAD/FreeCAD/pull/19671 Pull request #19671]
+* Se agregó el [[Mouse_navigation/es|estilo de navegación]] de Solidworks. [https://github.com/FreeCAD/FreeCAD/pull/19568 Pull request #19568]
+* Las animaciones del [[Navigation_Cube/es|Cubo de Navegación]] acumulan la rotación dependiendo de la frecuencia con que se clica en los botones planos. [https://github.com/FreeCAD/FreeCAD/pull/19719 Pull request #19719]
+* Se agregaron los estilos de órbita ''Trackball Clásico'' y ''Rouded Arcball''. ''Rounded Arcball'' es ahora el estilo por defecto, ofreciendo rotación de cámara pura cuando el cursor está cerca de los bordes de la pantalla. [https://github.com/FreeCAD/FreeCAD/pull/20535 Pull request #20535]
+* Se agregó soporte para indicios en la [[Status _Bar/es|barra de estado]]. [https://github.com/FreeCAD/FreeCAD/pull/18961 Pull request #18961]
+* Todas las propiedades booleanas en la vista de propiedades usan una casilla de marcación en lugar de un listado desplegable. [https://github.com/FreeCAD/FreeCAD/pull/21555 Pull request #21555]
+* Se agregó el [[Mouse_navigation/es|estilo de navegación]] Siemens NX. [https://github.com/FreeCAD/FreeCAD/pull/21813 Pull request #21813]
+* Si hay un objeto activo en el árbol, un [[Image:Std_Group.svg|24px]] [[Std_Group/es|Grupo]] será agregado a él cuando se cree. [https://github.com/FreeCAD/FreeCAD/pull/21902 Pull request #21902]
+* El comando [[Image:Std_AlignToSelection.svg|24px]] [[Std_AlignToSelection/es|Alinear a selección]] utiliza rotaciones más pequeñas. [https://github.com/FreeCAD/FreeCAD/pull/20088 Pull request #20088]
+* El comando [[Image:Std_AlignToSelection.svg|24px]] [[Std_AlignToSelection/es|Alinea a selección]] utliliza el borde más largo en una cara para alinear horizontal o verticalmente. [https://github.com/FreeCAD/FreeCAD/pull/20374 Pull request #20374]
+* El comando [[Image:Std_AlignToSelection.svg|24px]] [[Std_AlignToSelection/es|Alinear a selección]] ahora también alinea la vista de cámara a las curvas planares y caras no-planares seleccionadas. [https://github.com/FreeCAD/FreeCAD/pull/22066 Pull request #22066] and [https://github.com/FreeCAD/FreeCAD/pull/22365 Pull request #22365]
+* Todas las ventanas MDI (incluyendo por ejemplo Hojas de Cálculo y Techdraw) ahora pueden ser desancladas y extendidas a pantalla completa usando atajos de teclado (''V'', ''U'' or ''F11'') o con la opción de menú ''Vista → Ventana de Documento''. [https://github.com/FreeCAD/FreeCAD/pull/22544 Pull request #22544]
+* La lista por defecto de los Escritorios de Trabajo ahora es más corta y los escritorios menos usados están desactivados por defecto. Esto incluye los escritorios Inspección, OpenSCAD y Test Framework. [https://github.com/FreeCAD/FreeCAD/pull/23034 Pull request #23034]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Core system and API ==
