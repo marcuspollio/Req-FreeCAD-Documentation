@@ -9,9 +9,6 @@
 |IconC=Workbench_BIM.svg
 }}
 
-{{VeryImportantMessage|THIS COMMAND IS PART OF THE INTEGRATED [[BIM_Workbench|BIM WORKBENCH]] IN V1.0<br>
-This page has been updated for that version.}}
-
 <div class="mw-translate-fuzzy">
 {{GuiCommand/ro
 |Name=Arch AxisSystem
@@ -66,6 +63,7 @@ This is useful to define the intersection points between the different axes. Arc
 <div class="mw-translate-fuzzy">
 Instrumentul Axis System  poate fi utilizat în [[macros]] și de la consola python utilizând umătoarea funcție:
 </div>
+
 {{Code|code=
 AxisSystem = makeAxisSystem(axes, name="Axis System")
 }}
@@ -75,6 +73,7 @@ Face un Axis System bazat pe lista dată de [[Arch Axis]]
 </div>
 
 Exempluː
+
 {{Code|code=
 import Draft, Arch
 
