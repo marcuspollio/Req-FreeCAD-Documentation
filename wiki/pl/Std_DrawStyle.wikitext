@@ -78,9 +78,7 @@ Styl '''Jednolity z krawędziami''' nadpisuje właściwość {{PropertyView|Tryb
 <span id="24px_Shaded"></span>
 ===[[Image:Std_DrawStyleShaded.svg|24px]] Cieniowany===
 
-<div class="mw-translate-fuzzy">
-Styl '''Cieniowany''' nadpisuje styl {{PropertyView|Tryb wyświetlania}} obiektów. Ten styl odpowiada trybowi wyświetlania ''Cieniowany''. Wierzchołki i krawędzie nie są wyświetlane. Powierzchnie są podświetlane w zależności od ich orientacji.
-</div>
+Styl '''Cieniowany''' nadpisuje właściwość {{PropertyView|Tryb wyświetlania}} obiektów. Ten styl odpowiada trybowi wyświetlania ''Cieniowany''. Wierzchołki i krawędzie nie są wyświetlane. Powierzchnie są podświetlane w zależności od ich orientacji.
 
 [[Image:Std_DrawStyleShaded_example.png]]
 {{Caption|Te same obiekty z zastosowanym stylem rysowania "Cieniowany"}}
