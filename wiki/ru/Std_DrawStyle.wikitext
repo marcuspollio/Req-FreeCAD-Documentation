@@ -37,7 +37,7 @@ The '''Std DrawStyle''' command can override the effect of the {{PropertyView|Di
 <span id="24px_As_Is"></span>
 ===[[Image:Std_DrawStyleAsIs.svg|24px]] Как есть===
 
-The '''As Is''' style does not override the {{PropertyView|Display Mode}} of objects.
+The '''As Is''' style does not override the {{PropertyView|Display Mode}} property of objects.
 
 [[Image:Std_DrawStyleAsIs_example.png]]
 {{Caption|4 одинаковых объекта, с разными значениями переменной Display Mode (слева направо: 'Points', 'Wireframe', 'Shaded' и 'Flat lines') в режиме отображения 'Как есть'}}
@@ -45,7 +45,7 @@ The '''As Is''' style does not override the {{PropertyView|Display Mode}} of obj
 <span id="24px_Points"></span>
 ===[[Image:Std_DrawStylePoints.svg|24px]] Точки===
 
-The '''Points''' style overrides the {{PropertyView|Display Mode}} of objects. This style matches the 'Points' Display Mode. Vertices are displayed in solid colors. Edges and faces are not displayed.
+The '''Points''' style overrides the {{PropertyView|Display Mode}} property of objects. This style matches the 'Points' Display Mode. Vertices are displayed in solid colors. Edges and faces are not displayed.
 
 [[Image:Std_DrawStylePoints_example.png]]
 {{Caption|Внешний вид тех же самых объектов в режиме отображения 'Точки'}}
@@ -53,7 +53,7 @@ The '''Points''' style overrides the {{PropertyView|Display Mode}} of objects. T
 <span id="24px_Wireframe"></span>
 ===[[Image:Std_DrawStyleWireFrame.svg|24px]] Каркас===
 
-The '''Wireframe''' style overrides the {{PropertyView|Display Mode}} of objects. This style matches the 'Wireframe' Display Mode. Vertices and edges are displayed in solid colors. Faces are not displayed.
+The '''Wireframe''' style overrides the {{PropertyView|Display Mode}} property of objects. This style matches the 'Wireframe' Display Mode. Vertices and edges are displayed in solid colors. Faces are not displayed.
 
 [[Image:Std_DrawStyleWireframe_example.png]]
 {{Caption|Внешний вид тех же самых объектов в режиме отображения 'Каркас'}}
@@ -61,7 +61,7 @@ The '''Wireframe''' style overrides the {{PropertyView|Display Mode}} of objects
 <span id="24px_Hidden_Line"></span>
 ===[[Image:Std_DrawStyleHiddenLine.svg|24px]] Скрытые линии===
 
-The '''Hidden Line''' style overrides the {{PropertyView|Display Mode}} of objects. Objects are displayed as if converted to triangular meshes.
+The '''Hidden Line''' style overrides the {{PropertyView|Display Mode}} property of objects. Objects are displayed as if converted to triangular meshes.
 
 [[Image:Std_DrawStyleHiddenLine_example.png]]
 {{Caption|Внешний вид тех же самых объектов в режиме отображения 'Скрытые линии'}}
@@ -69,7 +69,7 @@ The '''Hidden Line''' style overrides the {{PropertyView|Display Mode}} of objec
 <span id="24px_No_Shading"></span>
 ===[[Image:Std_DrawStyleNoShading.svg|24px]] Без затенения===
 
-The '''No Shading''' style overrides the {{PropertyView|Display Mode}} of objects. Vertices, edges and faces are displayed in solid colors.
+The '''No Shading''' style overrides the {{PropertyView|Display Mode}} property of objects. Vertices, edges and faces are displayed in solid colors.
 
 [[Image:Std_DrawStyleNoShading_example.png]]
 {{Caption|Внешний вид тех же самых объектов в режиме отображения 'Без затенения'}}
@@ -77,7 +77,7 @@ The '''No Shading''' style overrides the {{PropertyView|Display Mode}} of object
 <span id="24px_Shaded"></span>
 ===[[Image:Std_DrawStyleShaded.svg|24px]] Только грани===
 
-The '''Shaded''' style overrides the {{PropertyView|Display Mode}} of objects. This style matches the 'Shaded' Display Mode. Vertices and edges are not displayed. Faces are illuminated depending on their orientation.
+The '''Shaded''' style overrides the {{PropertyView|Display Mode}} property of objects. This style matches the 'Shaded' Display Mode. Vertices and edges are not displayed. Faces are illuminated depending on their orientation.
 
 [[Image:Std_DrawStyleShaded_example.png]]
 {{Caption|Внешний вид тех же самых объектов в режиме отображения 'Только грани'}}
@@ -85,7 +85,7 @@ The '''Shaded''' style overrides the {{PropertyView|Display Mode}} of objects. T
 <span id="24px_Flat_Lines"></span>
 ===[[Image:Std_DrawStyleFlatLines.svg|24px]] Плоские линии===
 
-The '''Flat Lines''' style overrides the {{PropertyView|Display Mode}} of objects. This style matches the 'Flat Lines' Display Mode. Vertices and edges are displayed in solid colors. Faces are illuminated depending on their orientation.
+The '''Flat Lines''' style overrides the {{PropertyView|Display Mode}} property of objects. This style matches the 'Flat Lines' Display Mode. Vertices and edges are displayed in solid colors. Faces are illuminated depending on their orientation.
 
 [[Image:Std_DrawStyleFlatLines_example.png]]
 {{Caption|Внешний вид тех же самых объектов в режиме отображения 'Плоские линии'}}
