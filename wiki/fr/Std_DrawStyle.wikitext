@@ -76,7 +76,7 @@ Le style '''Pas d'ombrage''' remplace la propriété {{PropertyView|Display Mode
 <span id="24px_Shaded"></span>
 ===[[Image:Std_DrawStyleShaded.svg|24px]] Ombré===
 
-Le style '''Ombré''' remplace {{PropertyView|Display Mode}} des objets. Ce style correspond au mode d'affichage "Ombré". Les sommets et les bords ne sont pas affichés. Les faces sont éclairés en fonction de leur orientation.
+Le style '''Ombré''' remplace la propriété {{PropertyView|Display Mode}} des objets. Ce style correspond au mode d'affichage « Ombré ». Les sommets et les arêtes ne sont pas affichés. Les faces sont éclairés en fonction de leur orientation.
 
 [[Image:Std_DrawStyleShaded_example.png]]
 {{Caption|Les mêmes objets avec le style "Ombré" appliqué}}
