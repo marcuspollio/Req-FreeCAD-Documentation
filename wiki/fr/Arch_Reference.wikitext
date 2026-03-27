@@ -26,12 +26,10 @@ L'outil '''Arch Référence externe''' vous permet de placer un objet dans le do
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
 # Appuyez sur le bouton {{KEY|[[Image:Arch_Reference.svg|16px]] [[Arch_Reference/fr|Référence externe]]}},
-# Appuyez sur le bouton "Choisir un fichier..." et sélectionnez un fichier FreeCAD existant,
+# Appuyez sur le bouton {{Button|Choisir un fichier}} et sélectionnez un fichier FreeCAD existant,
 # Sélectionnez l'un des objets à base de pièce inclus dans la liste déroulante,
-# Appuyer sur '''OK'''.
-</div>
+# Appuyer sur {{Button|OK}}.
 
 ==Options==
 
