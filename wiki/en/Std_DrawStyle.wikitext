@@ -33,49 +33,49 @@ The '''Std DrawStyle''' command can override the effect of the {{PropertyView|Di
 
 ===[[Image:Std_DrawStyleAsIs.svg|24px]] As Is===
 
-The '''As Is''' style does not override the {{PropertyView|Display Mode}} of objects.
+The '''As Is''' style does not override the {{PropertyView|Display Mode}} property of objects.
 
 [[Image:Std_DrawStyleAsIs_example.png]]
 {{Caption|4 identical objects each with a different Display Mode (from left to right: 'Points', 'Wireframe', 'Shaded' and 'Flat Lines') with the 'As Is' draw style applied}}
 
 ===[[Image:Std_DrawStylePoints.svg|24px]] Points===
 
-The '''Points''' style overrides the {{PropertyView|Display Mode}} of objects. This style matches the 'Points' Display Mode. Vertices are displayed in solid colors. Edges and faces are not displayed.
+The '''Points''' style overrides the {{PropertyView|Display Mode}} property of objects. This style matches the 'Points' Display Mode. Vertices are displayed in solid colors. Edges and faces are not displayed.
 
 [[Image:Std_DrawStylePoints_example.png]]
 {{Caption|The same objects with the 'Points' draw style applied}}
 
 ===[[Image:Std_DrawStyleWireFrame.svg|24px]] Wireframe===
 
-The '''Wireframe''' style overrides the {{PropertyView|Display Mode}} of objects. This style matches the 'Wireframe' Display Mode. Vertices and edges are displayed in solid colors. Faces are not displayed.
+The '''Wireframe''' style overrides the {{PropertyView|Display Mode}} property of objects. This style matches the 'Wireframe' Display Mode. Vertices and edges are displayed in solid colors. Faces are not displayed.
 
 [[Image:Std_DrawStyleWireframe_example.png]]
 {{Caption|The same objects with the 'Wireframe' draw style applied}}
 
 ===[[Image:Std_DrawStyleHiddenLine.svg|24px]] Hidden Line===
 
-The '''Hidden Line''' style overrides the {{PropertyView|Display Mode}} of objects. Objects are displayed as if converted to triangular meshes.
+The '''Hidden Line''' style overrides the {{PropertyView|Display Mode}} property of objects. Objects are displayed as if converted to triangular meshes.
 
 [[Image:Std_DrawStyleHiddenLine_example.png]]
 {{Caption|The same objects with the 'Hidden Line' draw style applied}}
 
 ===[[Image:Std_DrawStyleNoShading.svg|24px]] No Shading===
 
-The '''No Shading''' style overrides the {{PropertyView|Display Mode}} of objects. Vertices, edges and faces are displayed in solid colors.
+The '''No Shading''' style overrides the {{PropertyView|Display Mode}} property of objects. Vertices, edges and faces are displayed in solid colors.
 
 [[Image:Std_DrawStyleNoShading_example.png]]
 {{Caption|The same objects with the 'No Shading' draw style applied}}
 
 ===[[Image:Std_DrawStyleShaded.svg|24px]] Shaded===
 
-The '''Shaded''' style overrides the {{PropertyView|Display Mode}} of objects. This style matches the 'Shaded' Display Mode. Vertices and edges are not displayed. Faces are illuminated depending on their orientation.
+The '''Shaded''' style overrides the {{PropertyView|Display Mode}} property of objects. This style matches the 'Shaded' Display Mode. Vertices and edges are not displayed. Faces are illuminated depending on their orientation.
 
 [[Image:Std_DrawStyleShaded_example.png]]
 {{Caption|The same objects with the 'Shaded' draw style applied}}
 
 ===[[Image:Std_DrawStyleFlatLines.svg|24px]] Flat Lines===
 
-The '''Flat Lines''' style overrides the {{PropertyView|Display Mode}} of objects. This style matches the 'Flat Lines' Display Mode. Vertices and edges are displayed in solid colors. Faces are illuminated depending on their orientation.
+The '''Flat Lines''' style overrides the {{PropertyView|Display Mode}} property of objects. This style matches the 'Flat Lines' Display Mode. Vertices and edges are displayed in solid colors. Faces are illuminated depending on their orientation.
 
 [[Image:Std_DrawStyleFlatLines_example.png]]
 {{Caption|The same objects with the 'Flat Lines' draw style applied}}
