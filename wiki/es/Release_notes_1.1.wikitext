@@ -16,13 +16,11 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="User_Interface"></span>
 == Interfaz de usuario ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:Three_point_lighting_relnotes_1.1.png|384px]]
-| Three-point lighting was added to improve the rendering of 3D models.
+| Se agregó iluminación de tres puntos para mejorar la presentación de modelos 3D.
 [https://github.com/FreeCAD/FreeCAD/pull/19397 Pull request #19397]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
