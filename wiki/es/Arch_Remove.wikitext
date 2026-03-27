@@ -4,9 +4,6 @@
 {{docnav/es|[[Arch_Add|Add component]]|[[Arch_Survey|Survey]]|[[Arch_Workbench|Arch]]|IconL=Arch_Add.svg |IconC=Workbench_Arch.svg |IconR=Arch_Survey.svg}}
 </div>
 
-{{VeryImportantMessage|THIS COMMAND IS PART OF THE INTEGRATED [[BIM_Workbench|BIM WORKBENCH]] IN V1.0<br>
-This page has been updated for that version.}}
-
 <div class="mw-translate-fuzzy">
 {{GuiCommand/es
 |Name=Arch Remove
@@ -26,7 +23,7 @@ La herramienta Sustraer te permite hacer dos tipos de operaciones:
 * Restar un objeto basado en [[Part_Workbench/es|formas]] de un objeto de Arquitectura como un [[Arch Wall/es|muro]] o [[Arch Structure/es|estructura]]
 </div>
 
-The counterpart of this tool is the {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add|Arch Add]]}} tool.
+The counterpart of this tool is the [[Image:Arch_Add.svg|16px]] [[Arch_Add|Add Component]] tool.
 
 [[Image:Arch Remove example.jpg|600px]]
 <div class="mw-translate-fuzzy">
@@ -46,7 +43,7 @@ The counterpart of this tool is the {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_
 
 Or
 # Select objects to be subtracted, the last object selected must the Arch object from which the other objects will be subtracted.
-# Press the {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch_Remove|Remove component]]}} button, or {{MenuCommand|Modify → [[Image:Arch_Remove.svg|16px]] Remove component}} from the top menu.
+# Press the {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch_Remove|Remove Component]]}} button, or {{MenuCommand|Modify → [[Image:Arch_Remove.svg|16px]] Remove Component}} from the top menu.
 
 ==Scripting==
 
