@@ -9,9 +9,6 @@
 |IconC=Workbench_BIM.svg
 }}
 
-{{VeryImportantMessage|POLECENIE TO JEST CZĘŚCIĄ ZINTEGROWANEGO środowiska pracy [[BIM_Workbench/pl|BIM]] w V1.0<br>
-Ta strona została zaktualizowana dla tej wersji.}}
-
 {{GuiCommand/pl
 |Name=Arch Remove
 |Name/pl=Architektura: Usuń komponent
@@ -23,11 +20,13 @@ Ta strona została zaktualizowana dla tej wersji.}}
 <span id="Description"></span>
 ==Opis==
 
+<div class="mw-translate-fuzzy">
 Narzędzie '''Usuń komponent''' pozwala na wykonanie 2 rodzajów operacji:
-* Usunięcie komponentu podrzędnego z obiektu Architektury, na przykład usunięcie prostopadłościanu, który został dodany do ściany, jak w {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add/pl|Połącz obiekty]]}}.
-* Odjęcie obiektu opartego na [[Part_Workbench/pl|kształcie]] od komponentu Architektury, takiego jak {{Button|[[Image:Arch_Wall.svg|16px]] [[Arch_Wall/pl|ściana]]}} lub {{Button|[[Image:Arch_Structure.svg|16px]] [[Arch_Structure/pl|konstrukcja]]}}.
+* Usunięcie komponentu podrzędnego z obiektu Architektury, na przykład usunięcie prostopadłościanu, który został dodany do ściany, jak w przykładzie [[Image:Arch_Add.svg|16px]] [[Arch_Add/pl|Dodaj komponent]].
+* Odjęcie obiektu opartego na [[Part_Workbench/pl|kształcie]] od komponentu Architektury, takiego jak [[Image:Arch_Wall.svg|16px]] [[Arch_Wall/pl|ściana]] lub [[Image:Arch_Structure.svg|16px]] [[Arch_Structure/pl|konstrukcja]].
+</div>
 
-Odpowiednikiem tego narzędzia jest {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add/pl|Połącz obiekty]]}}.
+Odpowiednikiem tego narzędzia jest [[Image:Arch_Add.svg|16px]] [[Arch_Add/pl|Dodaj komponent]].
 
 [[Image:Arch Remove example.jpg|600px]]
 {{Caption|Prostopadłościan odjęty od ściany, pozostawiający w niej dziurę.}}
