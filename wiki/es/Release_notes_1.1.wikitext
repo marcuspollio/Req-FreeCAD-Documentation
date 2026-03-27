@@ -28,16 +28,14 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 [https://github.com/FreeCAD/FreeCAD/pull/22002 Pull request #22002]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:Theme_editor_relnotes_1.1.png|384px]]
-| A new Theme Editor and theme token system were implemented to allow better customization of stylesheets.
-[https://github.com/FreeCAD/FreeCAD/pull/20668 Pull request #20668] and [https://github.com/FreeCAD/FreeCAD/pull/20528 Pull request #20528]
+| Se implementó un nuevo Editor de Temas y un sistema de tokens de temas para permitir una mejor personalización de hojas de estilo.
+[https://github.com/FreeCAD/FreeCAD/pull/20668 Pull request #20668] y [https://github.com/FreeCAD/FreeCAD/pull/20528 Pull request #20528]
 |-
 | [[File:Add_property_expression_dialog_relnotes_1.1.png|384px]]
-| A consolidated and improved Add Property dialog that supports expressions, enums, and units. An improved Expression Editor with better tab completion, resizing behavior, and VarSet input. [https://github.com/FreeCAD/FreeCAD/pull/22719 Pull request #22719], [https://github.com/FreeCAD/FreeCAD/pull/23426 Pull request #23426], [https://github.com/FreeCAD/FreeCAD/pull/22964 Pull request #22964] and [https://github.com/FreeCAD/FreeCAD/pull/22944 Pull request #22944].
+| Un diálogo consolidado y mejorado para Agregar Propiedades que soporta expresiones, enumeraciones y unidades. Un Editor de Expresiones optimizado con mejor autocompletado, comportamiento de redimensionado y entrada de VarSet. [https://github.com/FreeCAD/FreeCAD/pull/22719 Pull request #22719], [https://github.com/FreeCAD/FreeCAD/pull/23426 Pull request #23426], [https://github.com/FreeCAD/FreeCAD/pull/22964 Pull request #22964] y[https://github.com/FreeCAD/FreeCAD/pull/22944 Pull request #22944].
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Further user interface improvements ===
