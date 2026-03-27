@@ -78,9 +78,7 @@ Die Darstellungsart '''Keine Schattierung''' überlagert die {{PropertyView/de|D
 <span id="24px_Shaded"></span>
 ===[[Image:Std_DrawStyleShaded.svg|24px]] Schattiert===
 
-<div class="mw-translate-fuzzy">
 Die Darstellungsart '''Schattiert''' überlagert die {{PropertyView/de|Display Mode}} von Objekten. Punkte und Kanten werden nicht dargestellt. Flächen werden abhängig von ihrer Ausrichtung beleuchtet.
-</div>
 
 [[Image:Std_DrawStyleShaded_example.png]]
 {{Caption|Dieselben Objekte mit Darstellungsart 'Schattiert' aktiviert}}
