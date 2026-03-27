@@ -24,9 +24,7 @@ L'outil [[Image:Arch_AxisSystem.svg|24px]] [[Arch_AxisSystem/fr|Arch Système d'
 Ceci est utile pour définir les points d'intersection entre les différents axes. Les objets Arch peuvent ensuite utiliser ce système pour dupliquer leur forme sur les différents points d'intersection.
 
 [[Image:Arch AxisSystem example.jpg|600px]]
-<div class="mw-translate-fuzzy">
 {{Caption|Trois objets [[Arch_Axis/fr|Arch Axes]] combinés en un [[Arch_AxisSystem/fr|Système d'axes]]. Un objet [[Arch_Structure/fr|Arch Structure]] utilise ce système comme propriété {{PropertyData|Axis}} pour que sa forme soit dupliquée à chaque point d'intersection.}}
-</div>
 
 <span id="Usage"></span>
 ==Utilisation==
