@@ -37,9 +37,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 | Un diálogo consolidado y mejorado para Agregar Propiedades que soporta expresiones, enumeraciones y unidades. Un Editor de Expresiones optimizado con mejor autocompletado, comportamiento de redimensionado y entrada de VarSet. [https://github.com/FreeCAD/FreeCAD/pull/22719 Pull request #22719], [https://github.com/FreeCAD/FreeCAD/pull/23426 Pull request #23426], [https://github.com/FreeCAD/FreeCAD/pull/22964 Pull request #22964] y[https://github.com/FreeCAD/FreeCAD/pull/22944 Pull request #22944].
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Further user interface improvements ===
-</div>
+<span id="Further_user_interface_improvements"></span>
+=== Otras mejoras de la interfaz de usuario ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * A default shortcut for [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences|Std DlgPreferences]] has been added. [https://github.com/FreeCAD/FreeCAD/pull/15536 Pull request #15536]
