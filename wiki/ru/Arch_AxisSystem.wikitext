@@ -11,9 +11,6 @@
 }}
 </div>
 
-{{VeryImportantMessage|THIS COMMAND IS PART OF THE INTEGRATED [[BIM_Workbench|BIM WORKBENCH]] IN V1.0<br>
-This page has been updated for that version.}}
-
 <div class="mw-translate-fuzzy">
 {{GuiCommand/ru
 |Name/ru=Arch: AxisSystem/Система осей
@@ -43,8 +40,8 @@ This is useful to define the intersection points between the different axes. Arc
 
 # Optionally, select the [[Arch_Axis|Arch Axis]] objects you wish to include in this system.
 # Press the {{Button|[[Image:Arch_AxisSystem.svg|16px]] [[Arch_AxisSystem|Axis System]]}} button.
-# Right-click the newly created axes system object in the tree view to add/edit the [[Arch_Axis|Arch Axis]] objects included in this system.
-# Select any existing [[Arch Axis]] and press {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add|Add]]}} or {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch_Remove|Remove]]}} buttons to add or remove it to/from this system.
+# Right-click the newly created axes system object in the Tree View to add/edit the [[Arch_Axis|Arch Axis]] objects included in this system.
+# Select any existing [[Arch Axis]] and press {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add|Add Component]]}} or {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch_Remove|Remove Component]]}} buttons to add or remove it to/from this system.
 # Set the {{PropertyData|Axis}} property of any Arch object to point to this system, to have its shape duplicated to the intersection points of this system.
 
 <span id="Options"></span>
@@ -61,6 +58,7 @@ This is useful to define the intersection points between the different axes. Arc
 </div>
 
 The AxisSystem tool can be used in [[Macros|macros]] and from the [[Python|Python]] console by using the following function:
+
 {{Code|code=
 AxisSystem = makeAxisSystem(axes, name="Axis System")
 }}
@@ -68,6 +66,7 @@ AxisSystem = makeAxisSystem(axes, name="Axis System")
 * Creates an {{incode|AxisSystem}} object from the given {{incode|axes}}, which is a single [[Arch_Axis|Arch Axis]], or a list of them.
 
 Пример:
+
 {{Code|code=
 import Draft, Arch
 
