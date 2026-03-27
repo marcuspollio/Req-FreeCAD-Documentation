@@ -60,7 +60,7 @@ Le style '''Filaire''' remplace {{PropertyView|Display Mode}} des objets. Ce sty
 <span id="24px_Hidden_Line"></span>
 ===[[Image:Std_DrawStyleHiddenLine.svg|24px]] Ligne cachée===
 
-Le style '''Ligne cachée''' remplace {{PropertyView|Display Mode}} des objets. Les objets sont affichés comme s'ils étaient convertis en maillages triangulaires.
+Le style '''Ligne cachée''' remplace la propriété {{PropertyView|Display Mode}} des objets. Les objets sont affichés comme s'ils étaient convertis en maillages triangulaires.
 
 [[Image:Std_DrawStyleHiddenLine_example.png]]
 {{Caption|Les mêmes objets avec le style "Ligne cachée" appliqué}}
