@@ -12,9 +12,7 @@
 <span id="Overview"></span>
 ==Огляд==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''Localisation''' is in general the process of providing a Software with a multiple language user interface. In FreeCAD you can set the language of the user interface under {{MenuCommand|Edit → Preferences → General}}. FreeCAD uses [[wikipedia:Qt (toolkit)|Qt]] to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
-</div>
+'''Локалізація''' — це процес надання програмному забезпеченню багатомовного інтерфейсу користувача. У FreeCAD мову інтерфейсу користувача можна налаштувати в меню {{MenuCommand|Редагувати → Налаштування → Загальні}}. Для забезпечення багатомовної підтримки FreeCAD використовує [[wikipedia:Qt (toolkit)|Qt]]. У системах Unix/Linux FreeCAD за замовчуванням використовує поточні налаштування локалі вашої системи.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Helping to translate FreeCAD ==
