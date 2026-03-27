@@ -92,7 +92,7 @@ Le style '''Filaire ombré''' remplace la propriété {{PropertyView|Display Mod
 <span id="Notes"></span>
 ==Remarques==
 
-* Les objets dans une [[3D_view/fr|vue 3D]] ont également une propriété {{PropertyView|Draw Style}}. Cette propriété contrôle le type de ligne utilisé pour les bords. La commande Std Style de représentation ne remplace pas cette propriété.
+* Les objets dans une [[3D_View/fr|vue 3D]] ont également une propriété {{PropertyView|Draw Style}}. Cette propriété contrôle le type de ligne utilisé pour les bords. La commande Std Style de représentation ne remplace pas cette propriété.
 * Pour une macro, pour basculer entre deux styles de dessin, voir : [[Macro_Toggle_Drawstyle/fr|Macro Toggle Drawstyle]].
 
 
