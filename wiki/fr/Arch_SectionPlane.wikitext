@@ -67,9 +67,7 @@ La création d'un dessin en 2D s'effectue généralement selon les étapes suiva
 
 [[Image:Arch Section example3.jpg|600px]]
 
-<div class="mw-translate-fuzzy">
-* Le plan de coupe peut également être utilisé pour afficher toute la vue 3D coupée par un plan infini lorsque {{PropertyView|CutView}} est réglé sur {{TRUE}}. Ceci est uniquement visuel et n'affecte pas la géométrie des objets coupés.
-</div>
+* Le plan de coupe peut également être utilisé pour afficher toute la vue 3D coupée par un plan infini lorsque la propriété {{PropertyView|CutView}} est réglé sur {{TRUE}}. Ceci est uniquement visuel et n'affecte pas la géométrie des objets coupés.
 
 [[Image:Arch SectionPlane CutView.jpg|600px]]
 
