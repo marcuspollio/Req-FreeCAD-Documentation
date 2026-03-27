@@ -32,7 +32,7 @@ La commande '''Std Matériau''' définit le matériau des objets sélectionnés.
 # Sélectionnez un ou plusieurs objets.
 # Il y a plusieurs façons de lancer la commande :
 #* Sélectionnez l'option {{MenuCommand|Affichage → [[Image:Std_SetMaterial.svg|16px]] Définir un matériau}} du menu.
-#* Sélectionnez l'option {{MenuCommand|[[Image:Std_SetMaterial.svg|16px]] Définir un matériau}} dans le menu contextuel de la [[Tree_View/fr|vue en arborescence]] ou dans le menu contextuel de la [[3D_View/fr|vue 3D]].
+#* Sélectionnez l'option {{MenuCommand|[[Image:Std_SetMaterial.svg|16px]] Définir un matériau}} dans le menu contextuel de ll'[[Tree_View/fr|arborescence]] ou dans le menu contextuel de la [[3D_View/fr|vue 3D]].
 # Le panneau de tâches '''Matériau''' s'ouvre.
 # Sélectionnez un matériau dans la liste.
 ## Vous pouvez appuyer sur le bouton {{Button|Lancer l'éditeur}} pour lancer l'[[Material_Edit/fr|éditeur de matériaux]].
