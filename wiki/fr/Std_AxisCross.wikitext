@@ -36,7 +36,7 @@ Les axes du repère se composent de trois flèches représentant les axes positi
 <span id="Notes"></span>
 ==Remarques==
 
-* FreeCAD peut afficher un indicateur du système de coordonnées plus petit dans le coin inférieur droit des vues 3D : {{MenuCommand|Édition → Préférences ... → Affichage → Vue 3D → Afficher le système de coordonnées dans le coin}}. Voir [[Preferences_Editor/fr#Vue_3D|Éditeur de préférences]].
+* FreeCAD peut afficher un indicateur du système de coordonnées plus petit dans le coin inférieur droit des vues 3D : {{MenuCommand|Édition → Préférences → Affichage → Vue 3D → Afficher le système de coordonnées dans le coin}}. Voir [[Preferences_Editor/fr#Vue_3D|Éditeur de préférences]].
 * Le [[Navigation_Cube/fr|cube de navigation]] comprend également un indicateur de système de coordonnées.
 
 <span id="Preferences"></span>
