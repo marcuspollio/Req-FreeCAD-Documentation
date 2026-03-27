@@ -9,9 +9,6 @@
 |IconC=Workbench_BIM.svg
 }}
 
-{{VeryImportantMessage|POLECENIE TO JEST CZĘŚCIĄ ZINTEGROWANEGO środowiska pracy [[BIM_Workbench/pl|BIM]] w V1.0<br>
-Ta strona została zaktualizowana dla tej wersji.}}
-
 {{GuiCommand/pl
 |Name=Arch Grid
 |Name/pl=Architektura: Siatka
@@ -23,7 +20,9 @@ Ta strona została zaktualizowana dla tej wersji.}}
 <span id="Description"></span>
 ==Opis==
 
+<div class="mw-translate-fuzzy">
 Narzędzie '''Siatka''' pozwala na umieszczenie w dokumencie obiektu przypominającego siatkę. Obiekt ten ma służyć jako podstawa do budowania obiektów Architektury, które wymagają regularnej, ale złożonej ramy, takich jak okna, ściany osłonowe, siatki kolumn, balustrady itp. Obiekt Siatka jest edytowalny jak arkusz kalkulacyjny, w którym można dodawać lub usuwać kolumny i wiersze, definiować ich rozmiar i łączyć komórki.
+</div>
 
 Siatka jest obiektem 2D, a zatem może być używana wszędzie tam, gdzie potrzebny jest kształt 2D, taki jak [[Draft_Workbench/pl|rysunek roboczy]] lub [[Sketcher_Workbench/pl|szkic]], ale może również zachowywać się jak [[Arch_AxisSystem/pl|układ osi]] i być używana do umieszczania innych obiektów Architektury.
 
