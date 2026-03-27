@@ -9,9 +9,6 @@
 |IconC=Workbench_BIM.svg
 }}
 
-{{VeryImportantMessage|QUESTO COMANDO FA PARTE DELL'[[BIM_Workbench/it|AMBIENTE BIM]] INTEGRATO NELLA V1.0<br>
-Questa pagina è stata aggiornata per quella versione.}}
-
 {{GuiCommand/it
 |Name=Arch Add
 |Name/it=Aggiungi
@@ -23,13 +20,17 @@ Questa pagina è stata aggiornata per quella versione.}}
 <span id="Description"></span>
 ==Descrizione== 
 
+<div class="mw-translate-fuzzy">
 Lo strumento Aggiungi permette di eseguire 4 diversi tipi di operazioni:
 * Aggiungere a un componente di Architettura degli oggetti basati su [[Part_Workbench/it|forme]], ad esempio un {{KEY|[[Image:Arch_Wall.svg|16px]] [[Arch Wall/it|muro]]}} o una {{KEY|[[Image:Arch_Structure.svg|16px]] [[Arch Structure/it|struttura]]}}. Questi oggetti vengono inseriti nell'elemento Architettura, ed è possibile modificare la loro forma, ma mantenendo le loro caratteristiche di base come la larghezza e l'altezza.
 * Aggiungere componenti di Architettura, quali {{KEY|[[Image:Arch_Wall.svg|16px]] [[Arch_Wall/it|muri]]}} o {{KEY|[[Image:Arch_Structure.svg|16px]] [[Arch_Structure/it|Strutture]]}}, a un oggetto costituito da un gruppo base come il {{KEY|[[Image:Arch_Floor.svg|16px]] [[Arch Floor/it|Piano]]}}.
 * Aggiungere dei {{KEY|[[Image:Arch_Axis.svg|16px]] [[Arch Axis/it|sistemi di assi]]}} a oggetti {{KEY|[[Image:Arch_Structure.svg|16px]] [[Arch Structure/it|struttura]]}}.
 * AAggiungere degli oggetti ai {{KEY|[[Image:Arch_SectionPlane.svg|16px]] [[Arch SectionPlane/it|piani di sezione]]}}.
+</div>
 
+<div class="mw-translate-fuzzy">
 La controparte di questo strumento è lo strumento {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch Remove/it|Rimuovi componente]]}}.
+</div>
 
 [[Image:Arch Add example.jpg|640px]]
 {{Caption|Un box aggiunto a un muro come componente.}}
