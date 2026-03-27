@@ -52,7 +52,7 @@ Le style '''Points''' remplace la propriété {{PropertyView|Display Mode}} des 
 <span id="24px_Wireframe"></span>
 ===[[Image:Std_DrawStyleWireFrame.svg|24px]] Filaire===
 
-Le style '''Filaire''' remplace {{PropertyView|Display Mode}} des objets. Ce style correspond au mode d'affichage « Filaire ». Les sommets et les arêtes sont affichés en couleurs unies. Les faces ne sont pas affichés.
+Le style '''Filaire''' remplace la propriété {{PropertyView|Display Mode}} des objets. Ce style correspond au mode d'affichage « Filaire ». Les sommets et les arêtes sont affichés en couleurs unies. Les faces ne sont pas affichés.
 
 [[Image:Std_DrawStyleWireframe_example.png]]
 {{Caption|Les mêmes objets avec le style « Filaire » appliqué}}
