@@ -11,9 +11,6 @@
 }}
 </div>
 
-{{VeryImportantMessage|THIS COMMAND IS PART OF THE INTEGRATED [[BIM_Workbench|BIM WORKBENCH]] IN V1.0<br>
-This page has been updated for that version.}}
-
 <div class="mw-translate-fuzzy">
 {{GuiCommand/it
 |Name=Arch Remove
@@ -33,7 +30,9 @@ Lo strumento Rimuovi permette di eseguire 2 tipi di operazioni:
 * Rimuovere un oggetto basato su [[Part_Workbench/it|forme]], tipo un [[Image:Arch_Wall.svg|16px]] [[Arch_Wall/it|muro]] o una [[Image:Arch_Structure.svg|16px]] [[Arch_Structure/it|struttura]], da un oggetto di Arch.
 </div>
 
+<div class="mw-translate-fuzzy">
 La controparte di questo strumento è lo strumento {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add/it|Aggiungi]]}}.
+</div>
 
 [[Image:Arch Remove example.jpg|600px]]
 {{Caption|Un parallelepipedo sottratto da un muro, lasciando un buco in esso.}}
