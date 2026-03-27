@@ -47,7 +47,7 @@ Le style '''Par défaut''' ne supplante pas {{PropertyView|Display Mode}} des ob
 Le style '''Points''' remplace {{PropertyView|Display Mode}} des objets. Ce style correspond au mode d'affichage "Points". Les sommets sont affichés en couleurs unies. Les arêtes et les faces ne sont pas affichées.
 
 [[Image:Std_DrawStylePoints_example.png]]
-{{Caption|Les mêmes objets avec le style "Points" appliqué}}
+{{Caption|Les mêmes objets avec le style « Points » appliqué}}
 
 <span id="24px_Wireframe"></span>
 ===[[Image:Std_DrawStyleWireFrame.svg|24px]] Filaire===
