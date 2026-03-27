@@ -335,11 +335,13 @@ Celem tego artykułu jest zebranie obecnie brakujących funkcjonalności we Free
 |
 * W niektórych przypadkach może być wystarczające użycie pierwszego obejścia z tej tabeli i ręczne utworzenie przekroju z użyciem własnej linii cięcia
 
+<div class="mw-translate-fuzzy">
 |-
 | 7
 | Eksport stron środowiska Rysunek Techniczny do formatu PDF z zachowaniem możliwości zaznaczania i wyszukiwania w tekście szablonu.
 |
 * Eksportuj stronę jako SVG, następnie przekonwertuj ją do PDF używając np. [http://www.inkscape.org Inkscape] lub otwórz plik SVG w przeglądarce i zapisz lub wydrukuj jako PDF.
+</div>
 
 |-
 | 8
@@ -480,17 +482,21 @@ Celem tego artykułu jest zebranie obecnie brakujących funkcjonalności we Free
 |
 * Brak znanego obejścia
 
+<div class="mw-translate-fuzzy">
 |-
 | 7
 | Podświetlanie tylko jednej cechy modelu w środowisku [[PartDesign_Workbench/pl|Projekt Części]] w [[3D_view/pl|widoku 3D]] gdy odpowiadająca jej operacja jest wybrana w [[Tree_view/pl|widoku drzewa]]
 |
 * Brak znanego obejścia
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 8
 | Wybieranie tylko jednej cechy środowiska [[PartDesign_Workbench/pl|Projekt Części]] w [[Tree_view/pl|widoku drzewa]] gdy odpowiadający jej element jest wskazany w [[3D_view/pl|widoku 3D]].
 |
 * Brak znanego obejścia
+</div>
 
 |-
 | 9
