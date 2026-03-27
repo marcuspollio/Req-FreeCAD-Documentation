@@ -9,9 +9,6 @@
 |IconC=Workbench_BIM.svg
 }}
 
-{{VeryImportantMessage|POLECENIE TO JEST CZĘŚCIĄ ZINTEGROWANEGO środowiska pracy [[BIM_Workbench/pl|BIM]] w V1.0<br>
-Ta strona została zaktualizowana dla tej wersji.}}
-
 {{GuiCommand/pl
 |Name=Arch Add
 |Name/pl=Architektura: Połącz obiekty
@@ -23,13 +20,17 @@ Ta strona została zaktualizowana dla tej wersji.}}
 <span id="Description"></span>
 ==Opis== 
 
+<div class="mw-translate-fuzzy">
 Narzędzie Add pozwala na wykonywanie 4 rodzajów operacji:
-* Dodawanie obiektów opartych na [[Part_Workbench/pl|kształcie]] do komponentu Architektury, takich jak {{KEY|[[Image:Arch_Wall.svg|16px]] [[Arch_Wall/pl|ściana]]}} lub {{KEY|[[Image:Arch_Structure.svg|16px]] [[Arch_Structure/pl|konstrukcja]]}}. Obiekty te stają się częścią komponentu Architektonicznego i pozwalają modyfikować jego kształt, zachowując jego podstawowe właściwości, takie jak szerokość i wysokość.
-* Dodawanie komponentów Architektury, takich jak {{KEY|[[Image:Arch_Wall.svg|16px]] [[Arch_Wall/pl|ściana]]}} lub {{KEY|[[Image:Arch_Structure.svg|16px]] [[Arch_Structure/pl|konstrukcja]]}}, do obiektu Architektonicznego opartego na grupie, takiego jak {{KEY|[[Image:Arch_Floor.svg|16px]] [[Arch Floor/pl|Piętra]]}}.
-* Dodawanie {{KEY|[[Image:Arch_Axis.svg|16px]] [[Arch_Axis/pl|Systemu osi]]}} do {{KEY|[[Image:Arch_Structure.svg|16px]] [[Arch_Structure/pl|obiektów konstrukcyjnych]]}}.
-* Dodawanie obiektów do {{KEY|[[Image:Arch_SectionPlane.svg|16px]] [[Arch SectionPlane/pl|płaszczyzny przekroju]]}}.
+* Dodawanie obiektów opartych na [[Part_Workbench/pl|kształcie]] do komponentu Architektury, takich jak [[Image:Arch_Wall.svg|16px]] [[Arch_Wall/pl|ściana]] lub [[Image:Arch_Structure.svg|16px]] [[Arch_Structure/pl|konstrukcja]]. Obiekty te są scalane z komponentem Architektonicznym, modyfikując jego kształt, a jednocześnie zachowując jego podstawowe właściwości, takie jak szerokość i wysokość.
+* Dodawanie komponentów Architektury do obiektu Architektonicznego opartego na grupie, takiego jak [[Image:Arch_Floor.svg|16px]] [[Arch Floor/pl|Piętra]].
+* Dodawanie [[Image:Arch_Axis.svg|16px]] [[Arch_Axis/pl|systemów osi]] do {{KEY|[[Image:Arch_Structure.svg|16px]] [[Arch_Structure/pl|obiektów konstrukcyjnych]]}}.
+* Dodawanie obiektów do [[Image:Arch_SectionPlane.svg|16px]] [[Arch SectionPlane/pl|płaszczyzny przekroju]].
+</div>
 
-Odpowiednikiem tego narzędzia jest {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch_Remove/pl|Usuń komponent]]}}.
+<div class="mw-translate-fuzzy">
+Odpowiednikiem tego narzędzia jest [[Image:Arch_Remove.svg|16px]] [[Arch_Remove/pl|Usuń komponent]].
+</div>
 
 [[Image:Arch Add example.jpg|640px]]
 {{Caption|Prostopadłościan dodana do ściany jako komponent.}}
