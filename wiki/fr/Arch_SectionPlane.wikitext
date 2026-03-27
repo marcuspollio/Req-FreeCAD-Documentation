@@ -20,9 +20,7 @@
 
 ==Description==
 
-<div class="mw-translate-fuzzy">
-L'outil '''Arch Plan de coupe''' crée un plan de coupe, qui définit une coupe ou un plan de vue. Il est placé en fonction du [[Draft_SelectPlane/fr|Draft Plan de travail]] en cours et peut être déplacé et réorienté en le déplaçant et en le faisant pivoter, jusqu'à ce qu'il décrive la vue en 2D que vous souhaitez obtenir.
-</div>
+L'outil [[Image:Arch_SectionPlane.svg|24px]] [[Arch_SectionPlane/fr|Arch Plan de coupe]] crée un plan de coupe, qui définit une coupe ou un plan de vue. Il est placé en fonction du [[Draft_SelectPlane/fr|Draft Plan de travail]] en cours et peut être déplacé et réorienté en le déplaçant et en le faisant pivoter, jusqu'à ce qu'il décrive la vue en 2D que vous souhaitez obtenir.
 
 L'objet Section Plane ne prend en compte qu'un certain nombre d'objets. Les objets sélectionnés lors de la création d'un plan de coupe seront automatiquement ajoutés à cet ensemble. D'autres objets peuvent être ajoutés ou retirés ultérieurement d'un plan de coupe à l'aide des outils [[Arch_Add/fr|Arch Ajouter]] et [[Arch_Remove/fr|Arch Supprimer]] ou en double-cliquant sur le plan de coupe dans l'arborescence.
 
