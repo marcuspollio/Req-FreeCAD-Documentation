@@ -26,13 +26,11 @@ Polecenie '''Styl kreślenia''' może zastąpić efekt {{PropertyView/pl|wyświe
 <span id="Usage"></span>
 ==Użycie==
 
-<div class="mw-translate-fuzzy">
 # Istnieje kilka sposobów na wywołanie polecenia:
 #* Kliknij na czarną strzałkę w dół po prawej stronie przycisku {{Button|[[Image:Std_DrawStyleAsIs.svg|24px]] [[Std_DrawStyle/pl|Styl kreślenia]]}} i wybierz styl z menu podręcznego.
 #* W menu przejdź do {{MenuCommand|Widok → Styl kreślenia}} i wybierz styl.
-#* W menu kontekstowym okna [[3D_view/pl|widoku 3D]] przejdź do {{MenuCommand|Styl kreślenia}} i wybierz styl.
+#* W menu kontekstowym okna [[3D_View/pl|Widoku 3D]] przejdź do {{MenuCommand|Styl kreślenia}} i wybierz styl.
 #* Użyj jednego ze skrótów klawiaturowych: {{KEY|V}}, a następnie {{KEY|1}}, {{KEY|2}}, {{KEY|3}}, {{KEY|4}}, {{KEY|5}}, {{KEY|6}} lub {{KEY|7}}.
-</div>
 
 <span id="Available_draw_styles"></span>
 ==Dostępne style kreślenia==
@@ -40,7 +38,9 @@ Polecenie '''Styl kreślenia''' może zastąpić efekt {{PropertyView/pl|wyświe
 <span id="24px_As_Is"></span>
 ===[[Image:Std_DrawStyleAsIs.svg|24px]] Domyślny===
 
+<div class="mw-translate-fuzzy">
 Styl '''Domyślny''' nie nadpisuje właściwości {{PropertyView|Trybu wyświetlania}} obiektów.
+</div>
 
 [[Image:Std_DrawStyleAsIs_example.png]]
 {{Caption|4 identyczne obiekty, każdy z innym trybem wyświetlania ''(od lewej do prawej: "Tylko punkty", "Szkieletowy", "Cieniowany" i "Cieniowany z krawędziami")'' z zastosowanym stylem rysowania "Domyślny".}}
@@ -48,7 +48,9 @@ Styl '''Domyślny''' nie nadpisuje właściwości {{PropertyView|Trybu wyświetl
 <span id="24px_Points"></span>
 ===[[Image:Std_DrawStylePoints.svg|24px]] Tylko punkty===
 
+<div class="mw-translate-fuzzy">
 Styl '''Tylko punkty''' nadpisuje styl {{PropertyView|Tryb wyświetlania}} obiektów. Ten styl odpowiada trybowi wyświetlania ''Tylko punkty''. Wierzchołki są wyświetlane w jednolitych kolorach. Krawędzie i ściany nie są wyświetlane.
+</div>
 
 [[Image:Std_DrawStylePoints_example.png]]
 {{Caption|Te same obiekty z zastosowanym stylem rysowania "Tylko punkty"}}
@@ -56,7 +58,9 @@ Styl '''Tylko punkty''' nadpisuje styl {{PropertyView|Tryb wyświetlania}} obiek
 <span id="24px_Wireframe"></span>
 ===[[Image:Std_DrawStyleWireFrame.svg|24px]] Szkieletowy===
 
+<div class="mw-translate-fuzzy">
 Styl '''Szkieletowy''' nadpisuje styl {{PropertyView|Tryb wyświetlania}} obiektów. Ten styl odpowiada trybowi wyświetlania ''Szkieletowy''. Wierzchołki i krawędzie są wyświetlane w jednolitych kolorach. Twarze nie są wyświetlane.
+</div>
 
 [[Image:Std_DrawStyleWireframe_example.png]]
 {{Caption|Te same obiekty z zastosowanym stylem rysowania "Szkieletowy"}}
@@ -64,7 +68,9 @@ Styl '''Szkieletowy''' nadpisuje styl {{PropertyView|Tryb wyświetlania}} obiekt
 <span id="24px_Hidden_Line"></span>
 ===[[Image:Std_DrawStyleHiddenLine.svg|24px]] Cieniowany z ukrytymi krawędziami===
 
+<div class="mw-translate-fuzzy">
 Styl '''Cieniowany z ukrytymi krawędziami''' nadpisuje styl {{PropertyView|Tryb wyświetlania}} obiektów. Obiekty są wyświetlane tak, jakby były przekształcone w siatki trójkątów.
+</div>
 
 [[Image:Std_DrawStyleHiddenLine_example.png]]
 {{Caption|Te same obiekty z zastosowanym stylem rysowania "Cieniowany z ukrytymi krawędziami"}}
@@ -72,7 +78,9 @@ Styl '''Cieniowany z ukrytymi krawędziami''' nadpisuje styl {{PropertyView|Tryb
 <span id="24px_No_Shading"></span>
 ===[[Image:Std_DrawStyleNoShading.svg|24px]] Jednolity z krawędziami===
 
+<div class="mw-translate-fuzzy">
 Styl '''Jednolity z krawędziami''' nadpisuje styl {{PropertyView|Tryb wyświetlania}} obiektów. Wierzchołki, krawędzie i ściany są wyświetlane w jednolitych kolorach.
+</div>
 
 [[Image:Std_DrawStyleNoShading_example.png]]
 {{Caption|Te same obiekty z zastosowanym stylem rysowania "Jednolity z krawędziami"}}
@@ -80,7 +88,9 @@ Styl '''Jednolity z krawędziami''' nadpisuje styl {{PropertyView|Tryb wyświetl
 <span id="24px_Shaded"></span>
 ===[[Image:Std_DrawStyleShaded.svg|24px]] Cieniowany===
 
+<div class="mw-translate-fuzzy">
 Styl '''Cieniowany''' nadpisuje styl {{PropertyView|Tryb wyświetlania}} obiektów. Ten styl odpowiada trybowi wyświetlania ''Cieniowany''. Wierzchołki i krawędzie nie są wyświetlane. Powierzchnie są podświetlane w zależności od ich orientacji.
+</div>
 
 [[Image:Std_DrawStyleShaded_example.png]]
 {{Caption|Te same obiekty z zastosowanym stylem rysowania "Cieniowany"}}
@@ -88,7 +98,9 @@ Styl '''Cieniowany''' nadpisuje styl {{PropertyView|Tryb wyświetlania}} obiekt�
 <span id="24px_Flat_Lines"></span>
 ===[[Image:Std_DrawStyleFlatLines.svg|24px]] Cieniowany z krawędziami===
 
+<div class="mw-translate-fuzzy">
 Styl '''Płaskie linie''' zastępuje styl {{PropertyView|Tryb wyświetlania}} obiektów. Ten styl odpowiada trybowi wyświetlania ''Cieniowany z krawędziami''. Wierzchołki i krawędzie są wyświetlane w jednolitych kolorach. Powierzchnie są podświetlane w zależności od ich orientacji.
+</div>
 
 [[Image:Std_DrawStyleFlatLines_example.png]]
 {{Caption|Te same obiekty z zastosowanym stylem rysowania "Cieniowany z krawędziami"}}
