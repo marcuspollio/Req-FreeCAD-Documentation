@@ -39,7 +39,7 @@ La commande '''Std Zoom avant''' effectue un zoom avant dans la [[3D_View/fr|vue
 
 Voir aussi : [[Preferences_Editor/fr|Réglage des préférences]].
 
-* Le facteur de zoom peut être modifié : {{MenuCommand|Édition → Préférences... → Affichage → Navigation → Pas du zoom}}. Ce paramètre affecte également le zoom de la molette de défilement.
+* Le facteur de zoom peut être modifié : {{MenuCommand|Édition → Préférences → Affichage → Navigation → Pas du zoom}}. Ce paramètre affecte également le zoom de la molette de défilement.
 
 <span id="Scripting"></span>
 ==Script==
