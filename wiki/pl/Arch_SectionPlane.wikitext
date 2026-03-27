@@ -21,9 +21,7 @@
 <span id="Description"></span>
 ==Opis==
 
-<div class="mw-translate-fuzzy">
-Narzędzie '''Płaszczyzna przekroju''' tworzy płaszczyznę przekroju, która definiuje przekrój lub płaszczyznę widoku. Przyjmuje ona swoje położenie zgodnie z bieżącą [[Draft_SelectPlane/pl|płaszczyzną przekroju]] i może być przenoszona i zmieniana jej orientacja poprzez przesuwanie i obracanie, aż opisze widok 2D, który chcesz uzyskać.
-</div>
+Narzędzie [[Image:Arch_SectionPlane.svg|24px]] [[Arch_SectionPlane/pl|Płaszczyzna przekroju]] tworzy płaszczyznę przekroju, która definiuje przekrój lub płaszczyznę widoku. Przyjmuje ona swoje położenie zgodnie z bieżącą [[Draft_SelectPlane/pl|płaszczyzną przekroju]] i może być przenoszona i zmieniana jej orientacja poprzez przesuwanie i obracanie, aż opisze widok 2D, który chcesz uzyskać.
 
 Obiekt płaszczyzny przekroju uwzględnia tylko określony zestaw obiektów. Obiekty wybrane podczas tworzenia płaszczyzny przekroju zostaną automatycznie dodane do tego zestawu. Inne obiekty mogą być później dodawane lub usuwane z obiektu Płaszczyzny przekroju za pomocą narzędzi [[Arch_Add/pl|Połącz obiekty]] i [[Arch_Remove/pl|Usuń komponent]] lub poprzez dwukrotne kliknięcie Płaszczyzny przekroju w widoku drzewa.
 
