@@ -43,7 +43,7 @@ La commande '''Std Matériau''' définit le matériau des objets sélectionnés.
 <span id="Assigning_a_material_affects_appearance"></span>
 == Assigner un matériau affecte l'apparence ==
 
-L'attribution d'un matériau à un objet lie principalement ses propriétés physiques et techniques. Cependant, elle affecte également l'[[Material_Workbench/fr#Propriétés_physiques_vs_propriétés_esthétiques|apparence visuelle de l'objet]], mais avec certaines conditions importantes.
+L'assignation d'un matériau à un objet lie principalement ses propriétés physiques et techniques. Cependant, elle affecte également l'[[Material_Workbench/fr#Propriétés_physiques_vs_propriétés_esthétiques|apparence visuelle de l'objet]], mais avec certaines conditions importantes.
 
 <span id="Default_behavior"></span>
 === Comportement par défaut ===
