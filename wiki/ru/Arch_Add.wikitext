@@ -11,9 +11,6 @@
 }}
 </div>
 
-{{VeryImportantMessage|THIS COMMAND IS PART OF THE INTEGRATED [[BIM_Workbench|BIM WORKBENCH]] IN V1.0<br>
-This page has been updated for that version.}}
-
 <div class="mw-translate-fuzzy">
 {{GuiCommand/ru
 |Name=Arch Add
@@ -35,7 +32,7 @@ This page has been updated for that version.}}
 * Добавить объекты в плоскость [[Arch SectionPlane|section planes]]
 </div>
 
-The counterpart of this tool is the {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch Remove|Arch Remove]]}} tool.
+The counterpart of this tool is the [[Image:Arch_Remove.svg|16px]] [[Arch_Remove|Remove Component]] tool.
 
 [[Image:Arch Add example.jpg|640px]]
 <div class="mw-translate-fuzzy">
@@ -46,11 +43,11 @@ The counterpart of this tool is the {{Button|[[Image:Arch_Remove.svg|16px]] [[Ar
 ==Применение==
 
 # Select the objects to be added together. The last object selected will be the host Arch object.
-# Press the {{Button|[[Image:Arch Add.svg|16px]] [[Arch_Add|Add component]]}} button, or use {{MenuCommand|Modify → [[Image:Arch_Add.svg|16px]] Add component}} from the top menu.
+# Press the {{Button|[[Image:Arch Add.svg|16px]] [[Arch_Add|Add Component]]}} button, or use {{MenuCommand|Modify → [[Image:Arch_Add.svg|16px]] Add Component}} from the top menu.
 
 ==Scripting==
 
-{{Emphasis|See also:}} [[Arch_API|Arch API]] and [[FreeCAD_Scripting_Basics|FreeCAD Scripting Basics]].
+See also: [[Arch_API|Arch API]] and [[FreeCAD_Scripting_Basics|FreeCAD Scripting Basics]].
 
 The Add tool can be used in [[Macros|macros]] and from the [[Python|Python]] console by using the following function:
 :{{Code|code=
