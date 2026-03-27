@@ -44,7 +44,7 @@ La commande '''Std Sélecteur d'atelier''' active un [[Workbenches/fr|atelier]] 
 
 Voir aussi : [[Preferences_Editor/fr|Réglage des préférences]].
 
-* Une [[Preferences_Editor/fr#Ateliers_disponibles|page avec les préférences associées]] est disponible : {{MenuCommand|Édition → Préférences... → Ateliers → Ateliers disponibles}}. Vous pouvez modifier l'{{MenuCommand|atelier de démarrage}}, le {{MenuCommand|sélecteur d'atelier}}, etc. Le bouton {{Button|[[Image:List-add.svg|x16px]][[Image:Toolbar_flyout_arrow.svg|x16px]]}} de la barre à onglets permet d'accéder à cette page via son menu.
+* Une [[Preferences_Editor/fr#Ateliers_disponibles|page avec les préférences associées]] est disponible : {{MenuCommand|Édition → Préférences → Ateliers → Ateliers disponibles}}. Vous pouvez modifier l'{{MenuCommand|atelier de démarrage}}, le {{MenuCommand|sélecteur d'atelier}}, etc. Le bouton {{Button|[[Image:List-add.svg|x16px]][[Image:Toolbar_flyout_arrow.svg|x16px]]}} de la barre à onglets permet d'accéder à cette page via son menu.
 
 <span id="Scripting"></span>
 ==Script==
