@@ -335,11 +335,13 @@ Das Ziel dieses Artikels ist es, einige zurzeit fehlende Funktionen von FreeCAD 
 |
 * In einigen Fällen kann es ausreichend sein, die erste hier erwähnte Behelfslösung zu verwenden und manuell einen Abschnitt mit einer benutzerdefinierten Schnittlinie zu erstellen.
 
+<div class="mw-translate-fuzzy">
 |-
 | 7
 | Exportieren von TechDraw-Seiten als PDF, ohne dass der Text aus der Vorlage (Pfadtext) markierbar/durchsuchbar bleibt.
 |
 * Die Seite als SVG exportieren. Dann die SVG-Datei mit Hilfe von z. B. [http://www.inkscape.org Inkscape] in eine PDF-Datei konvertieren oder die SVG-Datei in einem Webbrowser öffnen und speichern oder sie als PDF drucken.
+</div>
 
 |-
 | 8
@@ -480,17 +482,21 @@ Das Ziel dieses Artikels ist es, einige zurzeit fehlende Funktionen von FreeCAD 
 |
 * Keine bekannte Behelfslösung
 
+<div class="mw-translate-fuzzy">
 |-
 | 7
 | Nur das einzelne PartDesign-Formelement in der [[3D_View|3D-Ansicht]] hervorheben, wenn die entsprechende Operation in der [[Tree_View/de|Baumansicht]] ausgewählt ist
 |
 * Keine bekannte Behelfslösung
+</div>
 
+<div class="mw-translate-fuzzy">
 |-
 | 8
 | Nur das einzelne PartDesign-Formelement in der [[Tree_View|Baumansicht]] auswählen, wenn ein entsprechendes Element in der [[3D_View|3D-Ansicht]] ausgewählt ist.
 |
 * Keine bekannte Behelfslösung
+</div>
 
 |-
 | 9
