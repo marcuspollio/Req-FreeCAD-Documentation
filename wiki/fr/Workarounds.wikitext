@@ -193,13 +193,11 @@ Le but de cet article est de lister certaines fonctionnalités actuellement manq
 * Basez des [[PartDesign_Point/fr|datum points]] sur une géométrie existante
 * Créez des [[PartDesign_Point/fr|datum points]] à l'origine et modifiez leur [[Placement/fr|position]] par la suite.
 
-<div class="mw-translate-fuzzy">
 |-
-| 21
+| 20
 | Un outil pour la création automatique de nervures (renforts structurels)
 |
 * Créez des nervures manuellement, des pyramides tronquées ([[Part_Wedge/fr|Part Pyramide tronquée]] ou [[PartDesign_AdditiveWedge/fr|PartDesign Pyramide tronquée additive]]) peuvent être utilisés pour des nervures triangulaires simples.
-</div>
 
 <div class="mw-translate-fuzzy">
 |-
