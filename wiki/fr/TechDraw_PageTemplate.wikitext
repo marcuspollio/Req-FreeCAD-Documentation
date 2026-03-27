@@ -72,9 +72,7 @@ doc.recompute()
 
 Voir aussi : [[TechDraw_Templates/fr|TechDraw Modèles]] pour plus d'informations sur la création de modèles.
 
-<div class="mw-translate-fuzzy">
-Une fois qu'une nouvelle feuille a été créée, son attribut {{incode|Template}} contient un dictionnaire {{incode|EditableTexts}} avec le nom des champs modifiables (keys) et leurs valeurs textuelles. Copiez ce dictionnaire dans une variable, apportez des modifications, puis réaffectez le dictionnaire à l'attribut {{incode|EditableTexts}} pour afficher les modifications.
-</div>
+Une fois qu'un nouvel objet '''Page''' a été créé, son attribut {{incode|Template}} renvoie vers l'objet '''Template''' intégré qui contient un dictionnaire {{incode|EditableTexts}} comprenant le nom des champs modifiables (clés) et leurs valeurs textuelles. Copiez ce dictionnaire dans une variable, apportez les modifications souhaitées, puis réattribuez le dictionnaire à l'attribut {{incode|EditableTexts}} pour voir les modifications.
 
 {{Code|code=
 page = FreeCAD.ActiveDocument.Page
