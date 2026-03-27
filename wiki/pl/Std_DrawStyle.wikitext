@@ -46,9 +46,7 @@ Styl '''Domyślny''' nie nadpisuje właściwości {{PropertyView|Trybu wyświetl
 <span id="24px_Points"></span>
 ===[[Image:Std_DrawStylePoints.svg|24px]] Tylko punkty===
 
-<div class="mw-translate-fuzzy">
-Styl '''Tylko punkty''' nadpisuje styl {{PropertyView|Tryb wyświetlania}} obiektów. Ten styl odpowiada trybowi wyświetlania ''Tylko punkty''. Wierzchołki są wyświetlane w jednolitych kolorach. Krawędzie i ściany nie są wyświetlane.
-</div>
+Styl '''Tylko punkty''' nadpisuje właściwość {{PropertyView|Tryb wyświetlania}} obiektów. Ten styl odpowiada trybowi wyświetlania ''Tylko punkty''. Wierzchołki są wyświetlane w jednolitych kolorach. Krawędzie i ściany nie są wyświetlane.
 
 [[Image:Std_DrawStylePoints_example.png]]
 {{Caption|Te same obiekty z zastosowanym stylem rysowania "Tylko punkty"}}
