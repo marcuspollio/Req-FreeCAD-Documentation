@@ -9,9 +9,6 @@
 |IconC=Workbench_BIM.svg
 }}
 
-{{VeryImportantMessage|THIS COMMAND IS PART OF THE INTEGRATED [[BIM_Workbench|BIM WORKBENCH]] IN V1.0<br>
-This page has been updated for that version.}}
-
 {{GuiCommand
 |Name=Arch Grid
 |MenuLocation=Annotation → Grid
@@ -21,7 +18,7 @@ This page has been updated for that version.}}
 
 ==Description==
 
-The '''Arch Grid''' tool allows you to place a grid-like object in the document. This object is meant to serve as a base to build Arch objects that need a regular but complex frame, such as windows, curtain walls, column grids, railings, etc. The Grid object is editable like a spreadsheet, where you can add or remove columns and rows, define their size, and merge cells.
+The [[Image:Arch_Grid.svg|24px]] [[Arch_Grid|Arch Grid]] tool allows you to place a grid-like object in the document. This object is meant to serve as a base to build Arch objects that need a regular but complex frame, such as windows, curtain walls, column grids, railings, etc. The Grid object is editable like a spreadsheet, where you can add or remove columns and rows, define their size, and merge cells.
 
 The Grid is a 2D object, and can therefore be used anywhere a 2D shape such as a [[Draft_Workbench|Draft]] or [[Sketcher_Workbench|Sketch]] is needed, but it can also behave as a [[Arch_AxisSystem|Arch AxisSystem]], and be used to propagate the placement of other Arch objects.
 
@@ -32,7 +29,7 @@ The Grid is a 2D object, and can therefore be used anywhere a 2D shape such as a
 
 # Press the {{Button|[[Image:Arch_Grid.svg|16px]] [[Arch_Grid|Grid]]}} button.
 # Set the '''Width''' and '''Height''' of the grid in the properties.
-# Enter edit mode by double-clicking the grid object in the tree view.
+# Enter edit mode by double-clicking the grid object in the Tree View.
 # Add rows and columns.
 # Set the desired width and height of rows and columns by double-clicking the row or column headers.
 
@@ -59,7 +56,7 @@ The Grid is a 2D object, and can therefore be used anywhere a 2D shape such as a
 
 ==Scripting==
 
-{{Emphasis|See also:}} [[Arch_API|Arch API]] and [[FreeCAD_Scripting_Basics|FreeCAD Scripting Basics]].
+See also: [[Arch_API|Arch API]] and [[FreeCAD_Scripting_Basics|FreeCAD Scripting Basics]].
 
 The Grid tool can be used in [[Macros|macros]] and from the [[Python|Python]] console by using the following function:
 
