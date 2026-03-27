@@ -14,9 +14,8 @@
 
 '''Локалізація''' — це процес надання програмному забезпеченню багатомовного інтерфейсу користувача. У FreeCAD мову інтерфейсу користувача можна налаштувати в меню {{MenuCommand|Редагувати → Налаштування → Загальні}}. Для забезпечення багатомовної підтримки FreeCAD використовує [[wikipedia:Qt (toolkit)|Qt]]. У системах Unix/Linux FreeCAD за замовчуванням використовує поточні налаштування локалі вашої системи.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Helping to translate FreeCAD ==
-</div>
+<span id="Helping_to_translate_FreeCAD"></span>
+== Допомога у перекладі FreeCAD ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 One of the very important things users can contribute to FreeCAD (if for example they don't have programming skills) is to help translate its different aspects (source code, wiki, website, documentation etc...) in to another language. Here are the ways to do that.
