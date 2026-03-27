@@ -9,6 +9,7 @@
 |IconC=Freecad.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/pl
 |Name=Std ToggleVisibility
 |Name/pl=Std: Przełącz widoczność
@@ -17,6 +18,7 @@
 |Shortcut={{KEY|Spacja}}
 |SeeAlso=[[Std_ShowSelection/pl|Pokaż zaznaczone]], [[Std_HideSelection/pl|Ukryj zaznaczone]], [[Std_ToggleObjects/pl|Przełącz widoczność]], [[Std_ShowObjects/pl|Wyświetl wszystkie obiekty]], [[Std_HideObjects/pl|Ukryj wszystkie obiekty]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Opis==
