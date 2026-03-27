@@ -11,9 +11,6 @@
 }}
 </div>
 
-{{VeryImportantMessage|THIS COMMAND IS PART OF THE INTEGRATED [[BIM_Workbench|BIM WORKBENCH]] IN V1.0<br>
-This page has been updated for that version.}}
-
 <div class="mw-translate-fuzzy">
 {{GuiCommand/it
 |Name=Arch Axis
@@ -28,9 +25,11 @@ This page has been updated for that version.}}
 <span id="Description"></span>
 ==Descrizione==
 
+<div class="mw-translate-fuzzy">
 Lo strumento [[Image:Arch Axis.svg|16px]] Assi permette di posizionare una serie di assi nel documento corrente. 
 La distanza e l'angolo tra gli assi è personalizzabile, così come lo stile di numerazione. 
 Gli assi servono principalmente da riferimento per bloccare gli oggetti, ma possono anche essere utilizzati in combinazione con dei [[Image:Arch_AxisSystem.svg|16px]] [[Arch_AxisSystem/it|Sistemi di assi]], e possono anche essere referenziati da altri oggetti Arch per creare schiere parametriche, ad esempio di travi o colonne. Al posto degli assi si può anche usare una [[Image:Arch Grid.svg|16px]] [[Arch_Grid/it|Griglia]].
+</div>
 
 [[Image:Arch Axis example.jpg|600px]]
 {{Caption|Due assi posizionati perpendicolarmente tra loro per creare una griglia
@@ -56,6 +55,7 @@ Gli assi servono principalmente da riferimento per bloccare gli oggetti, ma poss
 <span id="Properties"></span>
 == Proprietà ==
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData/it|Length}}: La lunghezza degli assi
 * {{PropertyData|Limit}}: Se maggiore di zero, ciascun asse verrà rappresentato come due linee della lunghezza specificata anziché una linea continua {{Version/it|0.20}}
 * {{PropertyView/it|Bubble Size}}: La dimensione dei cerchi di numerazione degli assi
@@ -64,16 +64,21 @@ Gli assi servono principalmente da riferimento per bloccare gli oggetti, ma poss
 * {{PropertyView/it|Font Name}}: Un font per disegnare il numero della bolla e/o le etichette
 * {{PropertyView/it|Font Size}}: Solo la dimensione del testo dell'etichetta (il testo della bolla è controllato dalla dimensione della bolla)
 * {{PropertyView/it|Show Labels}}: Attiva/disattiva la visualizzazione dei testi delle etichette
+</div>
 
 <span id="Use_as_section_mark"></span>
 ==Utilizzare come segno di sezione==
 
+<div class="mw-translate-fuzzy">
 Impostando la proprietà '''Bubble Position''' su '''Arrow left/right''' o '''Bar left/right''', l'asse visualizzerà una freccia o una barra piena invece della bolla, quindi può essere utilizzato come segno di sezione. {{Version/it|0.20}}
+</div>
 
 <span id="Scripting"></span>
 ==Script==
 
+<div class="mw-translate-fuzzy">
 {{Emphasis|Vedere anche:}} [[Arch_API/it|API di Arch]] e [[FreeCAD_Scripting_Basics/it|Nozioni di base sugli script di FreeCAD]].
+</div>
 
 Lo strumento Assi può essere utilizzato nelle [[Macros/it|macro]] e dalla console [[FreeCAD_Scripting_Basics/it|Python]] tramite la seguente funzione:
 
