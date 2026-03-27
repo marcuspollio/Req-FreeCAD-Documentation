@@ -59,9 +59,7 @@ En définissant la propriété '''Bubble Position''' à '''Arrow left/right''' o
 <span id="Scripting"></span>
 ==Script==
 
-<div class="mw-translate-fuzzy">
-{{Emphasis|Voir aussi :}} [[Arch_API/fr|Arch API]] et [[FreeCAD_Scripting_Basics/fr|Débuter avec les scripts FreeCAD]].
-</div>
+Voir aussi : [[Arch_API/fr|Arch API]] et [[FreeCAD_Scripting_Basics/fr|Débuter avec les scripts FreeCAD]].
 
 L'outil Axes peut être utilisé dans une [[Macros/fr|macro]] et à partir de la console [[Python/fr|Python]] en utilisant la fonction suivante :
 
