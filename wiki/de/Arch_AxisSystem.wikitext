@@ -25,9 +25,7 @@ Das Werkzeug [[Image:Arch_AxisSystem.svg|24px]] [[Arch_AxisSystem/de|Arch Achsen
 Dies ist nützlich, um die Schnittpunkte zwischen den verschiedenen Achsen festzulegen. Arch Objekte können dann dieses System verwenden, um ihre Form an den verschiedenen Schnittpunkten zu duplizieren.
 
 [[Image:Arch AxisSystem example.jpg|600px]]
-<div class="mw-translate-fuzzy">
-{{Caption|Drei [[Arch_Axis/de|Arch Achsen]]-Objekte zu einem [[Arch AxisSystem/de|Arch Achsensystem]] zusammengefasst. Ein [[Arch Structure/de|Arch Struktur]]-Objekt verwendet dieses System als seine {{PropertyData/de|Achsen}}, um seine Form an jedem Schnittpunkt zu duplizieren.}}
-</div>
+{{Caption|Drei [[Arch_Axis/de|Arch Achsen]], Axis-Objekte, zu einem [[Arch_AxisSystem/de|Arch Achsensystem]] zusammengefasst. Ein [[Arch_Structure/de|Arch Struktur]]-Objekt verwendet dieses System als seine {{PropertyData/de|Achsen}}, um seine Form an jedem Schnittpunkt zu duplizieren.}}
 
 <span id="Usage"></span>
 ==Anwendung==
