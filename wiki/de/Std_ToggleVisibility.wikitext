@@ -28,11 +28,11 @@ Der Befehl '''Std SichtbarkeitUmschalten''' schaltet die Sichtbarkeit von ausgew
 
 # Ein oder mehrere Objekte auswälen.
 #* Unsichtbare Objekte können in der  [[Tree_View/de|Baumansicht]] ausgewählt werden.
-#* Vorsicht bei der Verwendung von {{KEY|Ctrl}}+{{KEY|A}} zur Auswahl von Objekten in der Baumansicht. Dies schließt auch die Unterelemente von [[PartDesign_Body/de|PartDesign Körpern]] und Objekte, die von [[Part_Boolean/de|Part Boolesche Operationen]] verwendet werden, ein. In den meisten Fällen sollten sie unsichtbar bleiben.
-#* Objekte, die von [[Part_Boolean/de|Part Boolesche Operationen]] verwendet werden, werden auch ausgewählt, wenn man {{KEY|Ctrl}}+{{KEY|A}} in einer 3D-Ansicht verwendet.
+#* Vorsicht bei der Verwendung von {{KEY|Ctrl}}+{{KEY|A}} zur Auswahl von Objekten in der Baumansicht. Dies schließt auch die Unterelemente von [[PartDesign_Body/de|PartDesign Körpern]] und Objekten, die von [[Part_Boolean/de|booleschen Verknüpfungen des Arbeitsbereichs Part]] verwendet werden, ein. In den meisten Fällen sollten sie unsichtbar bleiben.
+#* Objekte, die von [[Part_Boolean/de|booleschen Verknüpfungen des Arbeitsbereichs Part]] verwendet werden, werden auch ausgewählt, wenn man {{KEY|Ctrl}}+{{KEY|A}} in einer 3D-Ansicht verwendet.
 # Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-#*  Den Menüeintrag {{MenuCommand|Ansicht → Sichtbarkeit → [[Image:Std_ToggleVisibility.svg|16px]] Ein/Ausblenden}} auswählen.
-#* Die Menüoption {{MenuCommand|[[Image:Std_ToggleVisibility.svg|16px]] Ein/Ausblenden}} im Kontextmenü der Baumansicht oder der 3d-Ansicht auswählen.
+#*  Den Menüeintrag {{MenuCommand|Ansicht → Sichtbarkeit → [[Image:Std_ToggleVisibility.svg|16px]] Sichtbarkeit umschalten}} auswählen.
+#* Die Menüoption {{MenuCommand|[[Image:Std_ToggleVisibility.svg|16px]] Sichtbarkeit umschalten}} im Kontextmenü der Baumansicht oder der 3D-Ansicht auswählen.
 #* Das Tastaturkürzel {{KEY|Leertaste}}.
 
 <span id="Notes"></span>
