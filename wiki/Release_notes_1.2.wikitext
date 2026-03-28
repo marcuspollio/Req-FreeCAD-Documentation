@@ -106,6 +106,18 @@ ToDo (last check: 20260318):
 == CAM Workbench == <!--T:25-->
 
 === Further CAM improvements === <!--T:26-->
+* The ''Sorting Mode'' property was added to [[CAM_Profile|Profile]] and [[CAM_Pocket_Shape|Pocket]] operations, allowing optional shape processing following the order of shape selection. [https://github.com/FreeCAD/FreeCAD/pull/27410 Pull request #27410]
+* Support for rest machining was added to the [[CAM_Adaptive|Adaptive]] operation. [https://github.com/FreeCAD/FreeCAD/pull/27908 Pull request #27908]
+* Hidden ''Approximation'' property was added to the [[CAM_DressupTag|DressupTag]] operation. It may significantly reduce the number of commands if the path contains non-horizontal arc moves (e.g., helix path). [https://github.com/FreeCAD/FreeCAD/pull/28502 Pull request #28502]
+* Tapping was removed as an experimental feature and consolidated into [[CAM_Drilling|Drilling]] as a new strategy. [https://github.com/FreeCAD/FreeCAD/pull/27506 Pull request #27506]
+* Circular Hole operation was significantly improved, including a new C++ 2-Opt TSP solver with Python bindings for improved hole sorting performance as well as new sorting modes and manual reordering in the GUI. [https://github.com/FreeCAD/FreeCAD/pull/23093 Pull request #23093]
+* New style ''LineZFollow'' was added to the [[CAM_DressupLeadInOut|LeadInOut]] operation. It can be used as a replacement for ArcZFollow'', as simpler and requiring less computation. [https://github.com/FreeCAD/FreeCAD/pull/27986 Pull request #27986]
+* It is now possible to manually set ''RetractThreshold'' in [[CAM_Profile|Profile]] and [[CAM_Pocket_Shape|Pocket]] operations. [https://github.com/FreeCAD/FreeCAD/pull/21738 Pull request #21738]
+* Manual selection of faces or edges for [[CAM_Drilling|Drilling]] or Helix Drilling operations is now possible. [https://github.com/FreeCAD/FreeCAD/pull/27494 Pull request #27494]
+* Helix operation, helix and spiral generators were improved to provide better results and allow more control. [https://github.com/FreeCAD/FreeCAD/pull/21971 Pull request #21971]
+* Auto-select for drillable faces was optimized and can now find cylinder faces that have more than 3 edges. [https://github.com/FreeCAD/FreeCAD/pull/27585 Pull request #27585]
+* The ''Optimize Linear Paths'' option was added to the Waterline OCL Adaptive Algorithm to remove unnecessary co-linear points from G-code output. [https://github.com/FreeCAD/FreeCAD/pull/27040 Pull request #27040]
+* The [[CAM_SimulatorGL|new CAM simulator]] was integrated as an MDI widget into the main window. [https://github.com/FreeCAD/FreeCAD/pull/22204 Pull request #22204]
 
 == Draft Workbench == <!--T:27-->
 
