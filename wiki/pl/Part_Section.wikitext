@@ -9,15 +9,13 @@
 |IconC=Workbench_Part.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/pl
 |Name=Part Section
 |Name/pl=Część: Przecięcie
 |MenuLocation=Część → Operacje logiczne → Przecięcie
 |Workbenches=[[Part_Workbench/pl|Część]]
-|SeeAlso=[[Part_CrossSections/pl|Przekrój poprzeczny]]
+|SeeAlso=[[Part_CrossSections/pl|Przekrój poprzeczny]], [[Part_Boolean/pl|Operacje logiczne na bryłach]], [[Part_Cut/pl|Wytnij]], [[Part_Fuse/pl|Połączenie]], [[Part_Common/pl|Przecięcie]]
 }}
-</div>
 
 <span id="Description"></span>
 ==Opis== 
