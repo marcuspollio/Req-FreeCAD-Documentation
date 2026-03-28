@@ -9,6 +9,7 @@
 |IconC=Workbench_Part.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/pl
 |Name=Part Section
 |Name/pl=Część: Przecięcie
@@ -16,6 +17,7 @@
 |Workbenches=[[Part_Workbench/pl|Część]]
 |SeeAlso=[[Part_CrossSections/pl|Przekrój poprzeczny]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Opis== 
@@ -24,6 +26,10 @@ Polecenie [[Image:Part_Section.svg|24px|link=]] '''Przecięcie''' tworzy geometr
 
 * W wyniku przecięcia dwóch brył / powierzchni powstaje jeden lub więcej odcinków.
 * W wyniku przecięcia dwóch prostych lub prostej i bryły / powierzchni otrzymujemy jeden lub więcej punktów.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+This command is an automated form of the [[Image:Part_Boolean.svg|16px|link=Part_Boolean]] [[Part_Boolean|Boolean Operation]].
+</div>
 
 [[Image:PartSection1_it.png]]
 {{Caption|Sześcian przecięty walcem}}
