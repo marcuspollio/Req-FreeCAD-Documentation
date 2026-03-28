@@ -69,9 +69,7 @@ Alle erforderlichen Anmerkungen wie Bemaßungen, Texte, 2D-Linien usw. erstellen
 
 [[Image:Arch Section example3.jpg|600px]]
 
-<div class="mw-translate-fuzzy">
 * Die Schnittebene kann auch verwendet werden, um die gesamte 3D-Ansicht anzuzeigen, die von einer unendlichen Ebene beschnitten wird, wenn die {{PropertyView/de|CutView}} auf {{TRUE}} gesetzt ist. Dies ist nur visuell und hat keinen Einfluss auf die Geometrie der beschnittenen Objekte.
-</div>
 
 [[Image:Arch SectionPlane CutView.jpg|600px]]
 
