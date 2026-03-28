@@ -62,7 +62,7 @@ L'option de menu '''Désancrer''' sépare la [[3D_View/fr|vue 3D]] active de l'i
 ==Remarques==
 
 * Plusieurs vues 3D pour le même document peuvent être créées avec la commande [[Std_ViewCreate/fr| Std Créer une nouvelle vue]].
-* Les vues 3D peuvent également être ancrées et désancrées avec la commande [[Std_ViewDockUndockFullscreen/fr|Std Désancrer une fenêtre du document]].
+* Les vues 3D peuvent également être ancrées et désancrées avec la commande [[Std_ViewFullscreen/fr|Std Plein écran]].
 
 
 {{Docnav/fr
