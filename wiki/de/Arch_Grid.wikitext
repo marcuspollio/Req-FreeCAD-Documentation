@@ -20,9 +20,7 @@
 <span id="Description"></span>
 ==Beschreibung==
 
-<div class="mw-translate-fuzzy">
-Das Werkzeug '''Arch Raster''' ermöglicht, ein gitterartiges Objekt im Dokument zu platzieren. Dieses Objekt soll als Basis für die Erstellung von Arch-Objekten dienen, die einen regelmäßigen, aber komplexen Rahmen benötigen, wie z.B. Fenster, Vorhangfassaden, Säulengitter, Geländer usw. Das Rasterobjekt (Grid-Objekt) kann wie eine Tabellenkalkulation bearbeitet werden, indem Spalten und Zeilen hinzugefügt oder entfernt werden, die Größe festgelegt und Zellen zusammengeführt werden.
-</div>
+Das Werkzeug [[Image:Arch_Grid.svg|24px]] [[Arch_Grid/de|Arch Raster]] ermöglicht, ein gitterartiges Objekt im Dokument zu platzieren. Dieses Objekt soll als Basis für die Erstellung von Arch-Objekten dienen, die einen regelmäßigen, aber komplexen Rahmen benötigen, wie z.B. Fenster, Vorhangfassaden, Säulengitter, Geländer usw. Das Rasterobjekt (Grid-Objekt) kann wie eine Tabellenkalkulation bearbeitet werden, indem Spalten und Zeilen hinzugefügt oder entfernt werden, die Größe festgelegt und Zellen zusammengeführt werden.
 
 Das Raster ist ein 2D-Objekt und kann daher überall dort verwendet werden, wo eine 2D-Form wie z.B. ein [[Draft_Workbench/de|Draft]]-Objekt oder eine [[Sketcher_Workbench/de|Skizze]] benötigt wird, es kann sich aber auch wie ein [[Arch_AxisSystem/de|Arch AchsenSystem]] verhalten und dazu verwendet werden, die Positionierung anderer Arch-Objekte zu verbreiten.
 
