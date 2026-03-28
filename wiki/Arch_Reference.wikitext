@@ -30,7 +30,7 @@ The '''Arch Reference tool''' allows you to place an object in the current docum
 ==Usage== <!--T:5-->
 
 <!--T:6-->
-# Press the {{KEY|[[Image:Arch_Reference.svg|16px]] [[Arch_Reference|External Reference]]}} button,
+# Press the {{Button|[[Image:Arch_Reference.svg|16px]] [[Arch_Reference|External Reference]]}} button,
 # Press the {{Button|Choose File}} button and select an existing FreeCAD file,
 # Select one of the included Part-based objects from the drop-down list,
 # Press {{Button|OK}}.
