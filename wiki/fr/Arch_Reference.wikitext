@@ -19,7 +19,9 @@
 
 ==Description==
 
+<div class="mw-translate-fuzzy">
 L'outil '''Arch Référence externe''' vous permet de placer un objet dans le document en cours qui copie sa forme et ses couleurs à partir d'un objet issu de l'[[Part Workbench/fr|atelierPart]] (y compris [[Arch_BuildingPart/fr|Arch Partie de bâtiment]]) enregistré dans un autre fichier FreeCAD. Si ce fichier FreeCAD change, l'objet reference est marqué pour être rechargé.
+</div>
 
 [[Image:Arch reference screenshot.png|600px]]
 
