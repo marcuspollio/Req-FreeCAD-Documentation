@@ -21,9 +21,7 @@
 <span id="Description"></span>
 ==Beschreibung==
 
-<div class="mw-translate-fuzzy">
-Das Werkzeug '''Arch Schnittebene''' erstellt eine Schnittebene (Section-Plane-Objekt), die eine Schnitt- oder Ansichtsebene festlegt. Sie wird entsprechend der aktuellen [[Draft_SelectPlane/de|Draft-Arbeitsebene]] positioniert und kann durch Verschieben und Drehen versetzt und neu ausgerichtet werden, bis es die gewünschte 2D-Ansicht anzeigt.
-</div>
+Das Werkzeug [[Image:Arch_SectionPlane.svg|24px]] [[Arch_SectionPlane/de|Arch Schnittebene]] erstellt eine Schnittebene, ein Section-Objekt, die eine Schnitt- oder Ansichtsebene festlegt. Sie wird entsprechend der aktuellen [[Draft_SelectPlane/de|Draft-Arbeitsebene]] positioniert und kann durch Verschieben und Drehen versetzt und neu ausgerichtet werden, bis es die gewünschte 2D-Ansicht anzeigt.
 
 Das Schnittebenenobjekt Section berücksichtigt nur einen bestimmten Satz von Objekten. Objekte, die beim Erstellen einer Schnittebene ausgewählt wurden, werden automatisch zu diesem Satz hinzugefügt. Andere Objekte können später mit den Werkzeugen [[Arch_Add/de|Arch Komponente hinzufügen]] und [[Arch_Remove/de|Arch Komponente entfernen]] hinzugefügt oder daraus entfernt werden oder durch Doppelklicken auf die Schnittebene in der Baumansicht.
 
