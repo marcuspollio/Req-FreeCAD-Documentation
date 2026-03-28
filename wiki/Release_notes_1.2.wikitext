@@ -105,6 +105,12 @@ ToDo (last check: 20260318):
 
 == CAM Workbench == <!--T:25-->
 
+{| cellpadding=5
+| [[File:CAM_machine_editor_relnotes_1.2.png|384px]]
+| Machine Library and Editor were added to [[CAM_Preferences|CAM Preferences]]. Machine-based postprocessing was also added. Machine definitions can also be implemented as add-ons.
+[https://github.com/FreeCAD/FreeCAD/pull/26533 Pull request #26533], [https://github.com/FreeCAD/FreeCAD/pull/27507 Pull request #27507] and [https://github.com/FreeCAD/FreeCAD/pull/28405 Pull request #28405]
+|}
+
 === Further CAM improvements === <!--T:26-->
 * The ''Sorting Mode'' property was added to [[CAM_Profile|Profile]] and [[CAM_Pocket_Shape|Pocket]] operations, allowing optional shape processing following the order of shape selection. [https://github.com/FreeCAD/FreeCAD/pull/27410 Pull request #27410]
 * Support for rest machining was added to the [[CAM_Adaptive|Adaptive]] operation. [https://github.com/FreeCAD/FreeCAD/pull/27908 Pull request #27908]
