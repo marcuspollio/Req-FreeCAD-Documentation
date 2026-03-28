@@ -9,6 +9,7 @@
 |IconC=Workbench_Part.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/it
 |Name=Part Section
 |Name=Part Seziona
@@ -16,6 +17,7 @@
 |Workbenches=[[Part_Workbench/it|Part]]
 |SeeAlso=[[Part_CrossSections/it|Part Sezioni]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Descrizione== 
@@ -24,6 +26,10 @@ Il comando [[Image:Part_Section.svg|24px|link=]] '''Part Seziona''' restituisce 
 
 * Un'intersezione di due solidi/facce dà come risultato una o più linee di sezione.
 * Un'intersezione di due linee, o di una linea e di un solido/faccia, dà come risultato uno o più punti.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+This command is an automated form of the [[Image:Part_Boolean.svg|16px|link=Part_Boolean]] [[Part_Boolean|Boolean Operation]].
+</div>
 
 [[Image:PartSection1_it.png]]
 {{Caption|Un cubo sezionato con un cilindro}}
