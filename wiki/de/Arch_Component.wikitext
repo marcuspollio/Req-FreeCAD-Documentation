@@ -19,9 +19,7 @@
 <span id="Description"></span>
 ==Beschreibung==
 
-<div class="mw-translate-fuzzy">
-Erstellt eine nicht-parametrische [[BIM_Workbench/de|Arch]]-Komponente aus jedem [[Part_Workbench/de|Part]]-basierten Objekt. Dies gibt dem Part-basierten Objekt die gleichen Attribute und Eigenschaften wie anderen Arch-Objekten und erlaubt über das Setzen der {{PropertyData/de|Ifc Type}} festzulegen, wie sie nach IFC exportiert werden soll.
-</div>
+Das Werkzeug [[Image:Arch_Component.svg|24px]] [[Arch_Component/de|Arch Komponente]] erstellt eine nicht parametrische Komponente aus jedem [[Part_Workbench/de|Part]]-basierten Objekt. Dies gibt dem Part-basierten Objekt die gleichen Attribute und Eigenschaften wie anderen Arch-Objekten und erlaubt über das Setzen der {{PropertyData/de|Ifc Type}} festzulegen, wie es nach IFC exportiert werden soll.
 
 <span id="Usage"></span>
 ==Anwendung==
