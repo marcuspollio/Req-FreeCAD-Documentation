@@ -22,7 +22,7 @@
 ==Description== <!--T:2-->
 
 <!--T:4-->
-The '''Arch Reference tool''' allows you to place an object in the current document that copies its shape and colors from a [[Part_Workbench|Part]]-based object (including [[Arch_BuildingPart|Arch BuildingPart]]) stored in another FreeCAD file. If that FreeCAD file changes, the reference object is marked to be reloaded.
+The [[Image:Arch_Reference.svg|24px]] [[Arch_Reference|Arch Reference]] tool allows you to place an object in the current document that copies its shape and colors from a [[Part_Workbench|Part]]-based object (including [[Arch_BuildingPart|Arch BuildingPart]]) stored in another FreeCAD file. If that FreeCAD file changes, the reference object is marked to be reloaded.
 
 <!--T:3-->
 [[Image:Arch reference screenshot.png|600px]]
