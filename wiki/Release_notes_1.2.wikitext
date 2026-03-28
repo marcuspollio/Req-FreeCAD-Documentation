@@ -34,6 +34,7 @@ Previous FreeCAD release notes can be found in the [[Feature_list#Release_notes|
 
 <!--T:63-->
 * The built-in text editor now supports line selection via clicking on the line number (and optionally also holding {{KEY|Shift}} for range selection). [https://github.com/FreeCAD/FreeCAD/pull/27677 Pull request #27677]
+* In the built-in text editor, the search field is now prefilled with the currently selected text. [https://github.com/FreeCAD/FreeCAD/pull/27674 Pull request #27674]
 
 == Core system and API == <!--T:10-->
 
