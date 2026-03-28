@@ -114,6 +114,10 @@ ToDo (last check: 20260318):
 |}
 
 === Further CAM improvements === <!--T:26-->
+* The G-code export dialog now shows line numbers. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull request #23862]
+* The MillFace operation was reimplemented with significant improvements as MillFacing. [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull request #24367]
+* [[CAM_SimpleCopy|SimpleCopy]] now allows multiple selection of operations. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull request #24297]
+* OCL Adaptive Algorithm was added to the [[CAM_Waterline|Waterline]] operation. [https://github.com/FreeCAD/FreeCAD/pull/23149 Pull request #23149]
 * The ''Sorting Mode'' property was added to [[CAM_Profile|Profile]] and [[CAM_Pocket_Shape|Pocket]] operations, allowing optional shape processing following the order of shape selection. [https://github.com/FreeCAD/FreeCAD/pull/27410 Pull request #27410]
 * Support for rest machining was added to the [[CAM_Adaptive|Adaptive]] operation. [https://github.com/FreeCAD/FreeCAD/pull/27908 Pull request #27908]
 * Hidden ''Approximation'' property was added to the [[CAM_DressupTag|DressupTag]] operation. It may significantly reduce the number of commands if the path contains non-horizontal arc moves (e.g., helix path). [https://github.com/FreeCAD/FreeCAD/pull/28502 Pull request #28502]
@@ -126,6 +130,17 @@ ToDo (last check: 20260318):
 * Auto-select for drillable faces was optimized and can now find cylinder faces that have more than 3 edges. [https://github.com/FreeCAD/FreeCAD/pull/27585 Pull request #27585]
 * The ''Optimize Linear Paths'' option was added to the Waterline OCL Adaptive Algorithm to remove unnecessary co-linear points from G-code output. [https://github.com/FreeCAD/FreeCAD/pull/27040 Pull request #27040]
 * The [[CAM_SimulatorGL|new CAM simulator]] was integrated as an MDI widget into the main window. [https://github.com/FreeCAD/FreeCAD/pull/22204 Pull request #22204]
+* The [[CAM_Copy|Copy Operation]] tool can now copy all operations and do it recursively. [https://github.com/FreeCAD/FreeCAD/pull/24819 Pull request #24819]
+* The [[CAM_OpActiveToggle|Toggle Operation]] tool now supports Job and Operations groups. [https://github.com/FreeCAD/FreeCAD/pull/24872 Pull request #24872]
+* It is now possible to cancel G-code export. [https://github.com/FreeCAD/FreeCAD/pull/25273 Pull request #25273]
+* Tolerance can now be set for [[CAM_DressupTag|Tag Dressup]], [[CAM_Engrave|Engrave]], and [[CAM_Deburr|Deburr]] operations to change the precision of segmentation of complex shapes while creating a path. [https://github.com/FreeCAD/FreeCAD/pull/26127 Pull request #26127] and [https://github.com/FreeCAD/FreeCAD/pull/26128 Pull request #26128]
+* [[CAM_Adaptive|Adaptive]] operation now automatically picks the diameter of the helix entrance. [https://github.com/FreeCAD/FreeCAD/pull/23980 Pull request #23980]
+* CAM task panels now support selecting shapes from different objects. [https://github.com/FreeCAD/FreeCAD/pull/22304 Pull request #22304]
+* [[CAM_Vcarve|Vcarve]] routing is now improved using "virtual edge backtracking". [https://github.com/FreeCAD/FreeCAD/pull/25049 Pull request #25049]
+* It is now possible to postprocess only selected Operations from the Job and select operations inside Dressup. [https://github.com/FreeCAD/FreeCAD/pull/22764 Pull request #22764]
+* The [[CAM_SelectLoop|loop selection]] tool was improved and now returns the wire if edge(s) selected and other methods failed. [https://github.com/FreeCAD/FreeCAD/pull/24185 Pull request #24185]
+* A cooling feature was added to the Kinetic postprocessor. [https://github.com/FreeCAD/FreeCAD/pull/25022 Pull request #25022]
+* The ''Units'' (Metric/Imperial) property was added to ToolBits. [https://github.com/FreeCAD/FreeCAD/pull/25783 Pull request #25783]
 
 == Draft Workbench == <!--T:27-->
 
