@@ -34,22 +34,20 @@ Dieser Befehl war ursprünglich für den [[Assembly3_Workbench/de|externen Arbei
 <span id="With_selection"></span>
 ===Mit Auswahl===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select one or more objects in the [[Tree_View|Tree View]] or [[3D_View|3D View]].
-# Right-click on the selection to display the context menu.
-# Navigate to {{MenuCommand|Link Actions → Link Group}} in the context menu.
-# Select one of the options from the menu:
-#* {{MenuCommand|Simple Group}}: Creates an empty [[App_LinkGroup|LinkGroup]] and moves the selected objects into it as-is. The {{PropertyData|LinkMode}} property is set to {{Value|None}}.
-#* {{MenuCommand|Group With Links}}: Creates a new [[App_Link|Link]] for every selected object and places these links inside the LinkGroup.
-#** The original objects remain in their original location in the [[Tree_View|Tree View]].
-#** The {{PropertyData|Placement}} of the original objects is copied to the new links so they appear in the same location.
-#** The {{PropertyData|LinkMode}} property of the group is set to {{Value|Auto Delete}}.
-#* {{MenuCommand|Group With Transform Links}}: Creates a new [[App_Link|Link]] for every selected object and places them inside the LinkGroup.
-#** The original objects remain in their original location in the [[Tree_View|Tree View]].
-#** The {{PropertyData|Placement}} the original objects is not copied; all new links are reset to the origin {{Value|(0,0,0)}}.
-#** The {{PropertyData|LinkMode}} property of the group is set to {{Value|Auto Delete}}.
-#** The {{PropertyData|LinkTransform}} property of each created link is set to {{Value|True}}.
-</div>
+# Ein oder mehrere Objekte in der [[Tree_View/de|Baumansicht]] oder der [[3D_View/de|3D-Ansicht]] auswählen.
+# Mit der rechten Maustaste auf die Auswahl klicken, um das Kontextmenü anzuzeigen.
+# Im Kontextmenü zu {{MenuCommand|Link-Aktionen → Link-Gruppe}} navigieren.
+# Eine der Optionen aus dem Menü auswählen:
+#* {{MenuCommand|Einfache Gruppe}}: Erzeugt eine leere [[App_LinkGroup/de|LinkGroup]] und verschiebt die ausgewählten Objekte unverändert dorthin. Die Eigenschaft {{PropertyData/de|LinkMode}} wird auf {{Value|None}} gesetzt.
+#* {{MenuCommand|Gruppieren mit Verknüpfung}}: Erzeugt einen neuen [[App_Link/de|Link]] für jedes ausgewählte Objekt und fügt diese Links in die LinkGroup ein.
+#** Die ursprünglichen Objekte bleiben an ihrer ursprünglichen Position in der [[Tree_View/de|Baumansicht]].
+#** Die {{PropertyData/de|Placement}} der Originalobjekte wird in die neuen Links kopiert, sodass sie an derselben Stelle erscheinen.
+#** Die Eigenschaft {{PropertyData/de|LinkMode}} der Gruppe wird auf {{Value|Auto Delete}} gesetzt.
+#* {{MenuCommand|Group With Transform Links}}: Erzeugt einen neuen [[App_Link/de|Link]] für jedes ausgewählte Objekt und fügt sie in die LinkGroup ein.
+#** Die ursprünglichen Objekte bleiben an ihrer ursprünglichen Position in der [[Tree_View/de|Baumansicht]] erhalten.
+#** Die {{PropertyData/de|Placement}} des Originalobjekts wird nicht kopiert; Alle neuen Verbindungen werden auf den Ursprung {{Value|(0,0,0)}} zurückgesetzt.
+#** Die Eigenschaft {{PropertyData/de|LinkMode}} der Gruppe wird auf {{Value|Auto Delete}} gesetzt.
+#** Die Eigenschaft {{PropertyData/de|LinkTransform}}  jedes erstellten Links wird auf {{Value|True}} gesetzt.
 
 <span id="Without_selection"></span>
 ===Ohne Auswahl===
