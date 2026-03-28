@@ -9,16 +9,14 @@
 |IconC=Freecad.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=Std ToggleVisibility
 |Name/de=Std SichtbarkeitUmschalten
-|MenuLocation=Ansicht → Ein/Ausblenden
+|MenuLocation=Ansicht → Sichtbarkeit → Sichtbarkeit umschalten
 |Workbenches=Alle
-|Shortcut={{KEY|Space}}
+|Shortcut={{KEY|Leertaste}}
 |SeeAlso=[[Std_ShowSelection/de|Std AuswahlEinblenden]], [[Std_HideSelection/de|Std AuswahlAusblenden]], [[Std_ToggleObjects/de|Std ObjekteUmschalten]], [[Std_ShowObjects/de|Std ObjekteEinblenden]], [[Std_HideObjects/de|Std ObjekteAusblenden]]
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung==
