@@ -42,7 +42,7 @@ L'outil '''Arch Référence externe''' vous permet de placer un objet dans le do
 <span id="Properties"></span>
 ==Propriétés==
 
-* {{PropertyData|File}} : fichier de base sur lequel ce composant est construit
+* {{PropertyData|File}} : fichier de base sur lequel ce composant est construit.
 * {{PropertyData|Part}} : l'item à utiliser à partir du fichier de base.
 * {{PropertyView|Update Colors}} : si la valeur est true, les couleurs du fichier lié seront mises à jour.
 
