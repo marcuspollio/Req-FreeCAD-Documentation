@@ -3,7 +3,9 @@
 [[Image:Power_user_hub.png|64px]]
 ----
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 This is the place to come if you are an experienced user and want to learn more about customizing and extending FreeCAD.
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 FreeCAD is extensible by [[Python|Python]] code that is run directly in the [[Python_console|Python console]], or that is loaded from modules at startup. This means that you can modify FreeCAD without needing to recompile the program. For example, you can:
