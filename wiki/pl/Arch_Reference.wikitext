@@ -20,7 +20,9 @@
 <span id="Description"></span>
 ==Opis==
 
+<div class="mw-translate-fuzzy">
 Narzędzie '''Odniesienie''' umożliwia umieszczenie w bieżącym dokumencie obiektu, który kopiuje swój kształt i kolory z obiektu opartego na [[Part_Workbench/pl|Części]] ''(w tym [[Arch_BuildingPart/pl|Części budynku]])'' przechowywanego w innym pliku FreeCAD. Jeśli ten plik ulegnie zmianie, obiekt referencyjny zostanie oznaczony do ponownego załadowania.
+</div>
 
 [[Image:Arch reference screenshot.png|600px]]
 
