@@ -33,9 +33,9 @@ L'outil '''Arch Référence externe''' vous permet de placer un objet dans le do
 
 ==Options==
 
-* L'objet de référence peut être déplacé et pivoté, la position en cours sera conservée après le rechargement de l'objet.
-* Si l'objet original est déplacé dans le fichier contenant, ce mouvement sera reflété dans l'objet de référence.
-* En cliquant avec le bouton droit de la souris sur un objet de référence dans l'arborescence, vous avez le choix entre recharger l'objet d'origine ou ouvrir le fichier qui le contient.
+* L'objet reference peut être déplacé et pivoté, la position en cours sera conservée après le rechargement de l'objet.
+* Si l'objet original est déplacé dans le fichier contenant, ce mouvement sera reflété dans l'objet reference.
+* En cliquant avec le bouton droit de la souris sur un objet reference dans l'arborescence, vous avez le choix entre recharger l'objet d'origine ou ouvrir le fichier qui le contient.
 * Pour référencer plusieurs objets à la fois, placez-les dans un [[Arch_BuildingPart/fr|Arch Partie de bâtiment]].
 * Lorsque vous désactivez la propriété d'affichage  '''Update Colors''' de la référence, les couleurs d'origine ne sont plus rechargées, vous pouvez donc les modifier en toute sécurité.
 
@@ -49,7 +49,7 @@ L'outil '''Arch Référence externe''' vous permet de placer un objet dans le do
 <span id="Scripting"></span>
 ==Script==
 
-L'outil Reference externe peut être utilisé à l'intérieur d'une [[Macros/fr|macro]] et à partir de la console [[Python/fr|Python]], en utilisant la fonction suivante :
+L'outil Référence externe peut être utilisé à l'intérieur d'une [[Macros/fr|macro]] et à partir de la console [[Python/fr|Python]], en utilisant la fonction suivante :
 
 {{Code|code=
 reference = makeReference([filepath], [partname], [name])
