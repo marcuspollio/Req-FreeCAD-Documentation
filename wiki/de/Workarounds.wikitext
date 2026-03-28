@@ -335,13 +335,11 @@ Das Ziel dieses Artikels ist es, einige zurzeit fehlende Funktionen von FreeCAD 
 |
 * In einigen Fällen kann es ausreichend sein, die erste hier erwähnte Behelfslösung zu verwenden und manuell einen Abschnitt mit einer benutzerdefinierten Schnittlinie zu erstellen.
 
-<div class="mw-translate-fuzzy">
 |-
 | 7
 | Exportieren von TechDraw-Seiten als PDF, ohne dass der Text aus der Vorlage (Pfadtext) markierbar/durchsuchbar bleibt.
 |
-* Die Seite als SVG exportieren. Dann die SVG-Datei mit Hilfe von z. B. [http://www.inkscape.org Inkscape] in eine PDF-Datei konvertieren oder die SVG-Datei in einem Webbrowser öffnen und speichern oder sie als PDF drucken.
-</div>
+* Die Seite als SVG exportieren. Dann die SVG-Datei mit Hilfe von z. B. [https://inkscape.org/ Inkscape] in eine PDF-Datei konvertieren oder die SVG-Datei in einem Webbrowser öffnen und speichern oder sie als PDF drucken.
 
 |-
 | 8
