@@ -22,7 +22,7 @@
 
 La commande '''Std Document unique''' bascule le mode Document de l'[[Tree_View/fr|arborescence]] au mode Document unique. Dans ce mode, un seul document est visible dans l'arborescence. Les autres modes sont [[Std_TreeMultiDocument/fr|Arborescence Tous les documents]] et [[Std_TreeCollapseDocument/fr|Arborescence Réduire/développer]].
 
-En mode Document unique, vous pouvez basculer vers un autre document en activant une vue 3D appartenant à ce document. Vous pouvez le faire dans la [[Main_view_area/fr|zone de vue principale]] ou via le menu {{MenuCommand|Fenêtre}} .
+En mode Document unique, vous pouvez basculer vers un autre document en activant une vue 3D appartenant à ce document. Vous pouvez le faire dans la [[Main_View_Area/fr|zone de vue principale]] ou via le menu {{MenuCommand|Fenêtre}} .
 
 <span id="Usage"></span>
 ==Utilisation==
