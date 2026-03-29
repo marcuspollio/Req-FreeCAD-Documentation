@@ -579,7 +579,6 @@ si la case {{MenuCommand|Activer les animations de rotation}} est cochée et si 
 
 Sur cette page, vous pouvez spécifier les éléments suivants :
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nom
 !style="width: 66%;"|Description
@@ -588,9 +587,9 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | Si cette option est sélectionnée, l'arrière-plan de la [[3D_View/fr|vue 3D]] aura la couleur spécifiée.
 |-
 | {{MenuCommand|Dégradé linéaire}}
-| Si cette option est sélectionnée, l'arrière-plan de la [[3D_View/fr|vue 3D]] aura un gradient de couleur vertical défini par les couleurs spécifiées pour '''En haut''' et pour '''En bas'''. Si cette option est activée, une couleur '''Au milieu''' peut également être spécifiée. Appuyez sur le bouton {{Button|[[Image:Button_sort.svg|16px]]}} ({{Version/fr|0.21}}) pour changer les couleurs du haut et du bas.
+| Si cette option est sélectionnée, l'arrière-plan de la [[3D_View/fr|vue 3D]] aura un gradient de couleur vertical défini par les couleurs spécifiées pour '''En haut''' et pour '''En bas'''. Si cette option est activée, une couleur '''Au milieu''' peut également être spécifiée. Appuyez sur le bouton {{Button|[[Image:Button_sort.svg|16px]]}} pour changer les couleurs du haut et du bas.
 |-
-| {{MenuCommand|Dégradé radial}} {{Version/fr|0.21}}
+| {{MenuCommand|Dégradé radial}}
 | Si cette option est sélectionnée, l'arrière-plan de la [[3D_View/fr|vue 3D]] aura un gradient de couleur radial défini par les couleurs spécifiées pour '''Au centre''' et pour '''Au bord'''. Si cette option est activée, une couleur '''Au milieu''' peut également être spécifiée. Appuyez sur le bouton {{Button|[[Image:Button_sort.svg|16px]]}} pour changer les couleurs centrale et au bord.
 |-
 | {{MenuCommand|Objets en cours de modification}}
@@ -605,7 +604,6 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | {{MenuCommand|Taille de la police des étiquettes}}
 | La taille de ces étiquettes.
 |}
-</div>
 
 <span id="Advanced"></span>
 === Avancé ===
