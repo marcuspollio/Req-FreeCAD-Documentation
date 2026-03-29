@@ -205,8 +205,10 @@ L'impostazione '''Massimo segmento Spline''' è quindi la lunghezza massima di c
 
 Nota per gli utenti Linux: per gestire questo formato di file FreeCAD richiede il [[Extra_python_modules/it|Modulo IfcOpenShell]].
 
-<span id="IFC_import"></span>
+<span id="IFC_Import"></span>
+<div class="mw-translate-fuzzy">
 ====Importazione IFC====
+</div>
 
 [[Image:Preferences_Import-Export_Page_IFC_import.png|400px]]
 
@@ -273,8 +275,10 @@ Per ottenere le proprietà di FreeCAD, il modello deve essere stato esportato ut
 |  Se selezionato, i gruppi verranno utilizzati per sostituire gli oggetti menzionati.
 |}
 
-<span id="IFC_export"></span>
+<span id="IFC_Export"></span>
+<div class="mw-translate-fuzzy">
 ====Esportazione IFC====
+</div>
 
 [[Image:Preferences_Import-Export_Page_IFC_export.png|400px]]
 
@@ -453,6 +457,30 @@ In questa pagina si può specificare quanto segue:
 | Se selezionato, verranno importate anche le aree (facce 3D).
 |}
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===PDF===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+TBD.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===SH3D Import===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+TBD.
+</div>
+
 ===STEP===
 
 [[Image:Preferences_Import-Export_Page_STEP.png|400px]]
@@ -597,6 +625,18 @@ Se viene selezionato '''Oggetto FEM mesh''', i risultati nel file VTK verranno o
 
 Se viene selezionato '''Oggetto risultato FreeCAD''', i dati importati verranno convertiti in un oggetto Risultato FEM di FreeCAD. '''Nota:''' questa impostazione richiede i nomi esatti dei componenti dei risultati e quindi funziona correttamente solo con i file VTK esportati da FreeCAD.
 |}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===WebGL===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+TBD.
+</div>
 
 
 {{Docnav/it
