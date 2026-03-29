@@ -268,7 +268,8 @@ self.numericInput.move(250, 220)
 
 Создание поля для ввода числовых данных фактически повторяет создание поля для ввода текста, описанное ранее. Фактически код идентичен, за исключением 3-й и 4-й строк. В 3-й строке устанавливается маска, определенная PySide, которая в данном случае задает до 3 цифр (включая 0). Полный список кодов InputMask можно найти по адресу [http://doc.qt.io/qt-5/qlineedit.html#inputMask-prop QLineEdit InputMask]
 
-===Window Display===
+<span id="Window_Display"></span>
+===Отображение окна===
 
 {{Code|code=
 # now make the window visible
