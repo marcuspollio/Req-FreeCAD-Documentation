@@ -24,9 +24,7 @@ La commande [[Image:Part_Section.svg|24px|link=/fr]] '''Part Section''' crée un
 * Une intersection de deux solides/faces donne lieu à une ou plusieurs lignes de section.
 * L'intersection de deux lignes, ou d'une ligne et d'un solide/face, donne un ou plusieurs points.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This command is an automated form of the [[Image:Part_Boolean.svg|16px|link=Part_Boolean]] [[Part_Boolean|Boolean Operation]].
-</div>
+Cette commande est une forme automatisée d'un [[Image:Part_Boolean.svg|16px|link=Part_Boolean/fr]] [[Part_Boolean/fr|opérateur booléen]].
 
 [[Image:PartSection1_it.png]]
 {{Caption|Un cube sectionné par un cylindre}}
