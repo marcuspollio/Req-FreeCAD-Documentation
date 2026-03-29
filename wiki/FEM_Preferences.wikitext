@@ -115,12 +115,6 @@ On this page you can specify the following:
 | {{MenuCommand|CalculiX path}}
 | The path to the binary of [[FEM_SolverCalculixCcxtools|CalculiX]]. Leave blank to use the default binary.
 |-
-| {{MenuCommand|Use internal editor for *.inp files}}
-| If checked, a built-in *.inp file editor with syntax highlighting is used when editing CalculiX input decks.
-|-
-| {{MenuCommand|External editor}}
-| The path to the external *.inp file editor.
-|-
 | {{MenuCommand|Split writing of *.inp}}
 | If checked, multiple *.inp files are written and the main input deck uses the *INCLUDE keywords to reference the other ones. If unchecked, a single large *.inp file is written.
 |-
