@@ -509,9 +509,7 @@ Si la case {{MenuCommand|Tourner au plus près}} est cochée, la vue 3D est tour
 * '''En bas à gauche'''
 * '''En bas à droite'''
 
-<div class="mw-translate-fuzzy">
-{{MenuCommand|Nom de la police}} spécifie la police utilisée pour les textes du cube. {{Version/fr|0.21}}
-</div>
+{{MenuCommand|Nom de la police}} spécifie la police utilisée pour les textes du cube.
 
 {{MenuCommand|Opacité en cas d'inactivité}} : opacité du cube de navigation lorsqu'il n'est pas survolé par la souris. {{Version/fr|1.0}}
 
