@@ -23,7 +23,7 @@
 ==Description== <!--T:3-->
 
 <!--T:4-->
-The '''Std TreeSyncPlacement''' command toggles the [[Tree_View|Tree View]] SyncPlacement mode. If this mode is on, the {{PropertyData|Placement}} of objects is automatically adjusted when they are dragged and dropped from one container into another container with a different coordinate system, preserving their placement relative to the global coordinate system.
+The '''Std TreeSyncPlacement''' command toggles the [[Tree_View|Tree View]] SyncPlacement mode. If this mode is on, the {{PropertyData|Placement}} property of objects is automatically adjusted when they are dragged and dropped from one container into another container with a different coordinate system, preserving their placement relative to the global coordinate system.
 
 ==Usage== <!--T:5-->
 
