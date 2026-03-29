@@ -10,9 +10,7 @@
 <span id="Introduction"></span>
 ==Einleitung==
 
-<div class="mw-translate-fuzzy">
-Zum Start des '''Voreinstellungseditors''' wählt man den Menüeintrag {{MenuCommand|Bearbeiten → Einstellungen...}} oder ({{Version/de|1.1}}) verwendet das Tastaturkürzel {{KEY|Strg}} + {{KEY|,}}. In macOS erscheint die Menüoption {{MenuCommand|Einstellungen...}} im {{MenuCommand|FreeCAD}}-Menü anstatt im Bearbeitungsmenü (ersteres ist der vorgegebene Ort für Einstellungen auf dem Mac).
-</div>
+Um den '''Voreinstellungseditor''' zu starten, wird der Menüeintrag {{MenuCommand|Bearbeiten → Einstellungen}} ausgewählt oder ({{Version/de|1.1}}) das Tastaturkürzel {{KEY|Strg}} + {{KEY|,}} verwendet. macOS enthält die Menüoption {{MenuCommand|Einstellungen}} im {{MenuCommand|FreeCAD}}-Menü anstatt im Menü Bearbeiten (ersteres ist der vorgegebene Ort für Einstellungen auf dem Mac).
 
 FreeCAD verwendet ein Arbeitsbereich-Konzept, bei dem jeder Arbeitsbereich für bestimmte Aufgaben und Funktionen zuständig ist. Ein Arbeitsbereich kann seine eigenen Voreinstellungen haben. Diese werden nur im Voreinstellungseditor angezeigt, normalerweise in einer fest zugeordneten Gruppe, wenn der Arbeitsbereich in der aktuellen FreeCAD-Sitzung geladen ist. Einige Arbeitsbereiche beinhalten zusätzliche Unterstützung für besondere Import- und Exportformate. Wenn sie dazugehörige Voreinstellungen enthalten, werden diese auf einer oder mehreren zusätzlichen Seiten in der Gruppe [[#Import-Export|Import/Export]] des Voreinstellungseditors angezeigt.
 
