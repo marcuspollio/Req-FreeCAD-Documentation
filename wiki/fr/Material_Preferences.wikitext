@@ -22,8 +22,10 @@ Il y a deux pages : [[#Général|Général]] et [[#Matériau_par_défaut|Matéri
 
 [[Image:Preferences_Material_Page_General.png|thumb|350px|Préférences générales]]
 
-<span id="Card_resources"></span>
+<span id="Card_Resources"></span>
+<div class="mw-translate-fuzzy">
 ===Sources des paramètres===
+</div>
 
 * '''Utiliser des matériaux intégrés''' : si coché, les matériaux intégrés de FreeCAD seront listés.
 * '''Utiliser des matériaux des ateliers externes''' : si coché, les matériaux ajoutés par les ateliers externes (extension) seront listés.
@@ -31,8 +33,10 @@ Il y a deux pages : [[#Général|Général]] et [[#Matériau_par_défaut|Matéri
 * '''Utiliser des matériaux du répertoire défini par l'utilisateur''' : si coché, les matériaux du répertoire spécifié seront listés.
 * '''Répertoire de l'utilisateur''' : source de matériaux supplémentaires.
 
-<span id="Card_sorting_and_duplicates"></span>
+<span id="Card_Sorting_and_Duplicates"></span>
+<div class="mw-translate-fuzzy">
 ===Tri des jeux de paramètres et doublons===
+</div>
 
 * '''Supprimer les doublons de jeux de paramètres''' : si coché, les doublons sont supprimés de la liste.
 * '''Trier par ressources''' : si coché, les matériaux sont affichés triés par leurs ressources (emplacements). Si la case n'est pas cochée, les matériaux sont triés par leur nom.
