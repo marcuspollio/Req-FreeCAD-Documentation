@@ -15,7 +15,8 @@
 * Существует множество различных последовательностей объявления виджетов, сигналов, методов, и опять же, ни одна из них не является «правильной» или «неправильной».
 * Стоит помнить, что PySide работает со строками при обработке пользовательского ввода; то, что отображается на экране как число, на самом деле является текстовым представлением числа.
 
-==Code Based Discussion - Declarative Portion==
+<span id="Code_Based_Discussion_-_Declarative_Portion"></span>
+==Обсуждение кода — Декларативная часть==
 
 The "example program" is actually a large Class definition, the definition of a PySide GUI class, and has over 150 lines of code (including comments). There is no functional purpose to the Class or it's behaviour, the sole purpose is to demonstrate possible GUI actions and present some code that hopefully can be used by other FreeCAD users.
 
