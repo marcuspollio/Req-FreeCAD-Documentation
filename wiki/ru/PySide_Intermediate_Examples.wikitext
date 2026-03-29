@@ -95,7 +95,7 @@ self.label4 = QtGui.QLabel("can you see this?", self)
 self.label4.move(20, 170)
 }}
 
-In PySide labels serve two purposes, static labels (as the name implies) as well as read-only (i.e. display-only) text fields. So unchanging instructions to the user such as "Don't push the red button" as well as dynamic calculation results such as "42" can be communicated to the user. The 2nd line declares a Label and sets it's initial value (which is blank in this case). The 3rd line specifies the font, any font (on the system) can be specified, if not specified the default font is used. In this case the font is specified as a non-proportional one. The label is moved to it's location in the window - it's coordinates specify it's position with respect to the window (not the screen).
+В PySide лабели выполняют две функции: статические лабели (как следует из названия), а также текстовые поля только для чтения (т.е. только для отображения). Таким образом, пользователю могут передаваться как статичные неизменяемые строки, например, «Не нажимайте красную кнопку», так и динамические результаты вычислений, например, «42». Вторая строка объявляет лабель и задает ее начальное значение (в данном случае пустое). Третья строка указывает шрифт; можно указать любой шрифт (из системы, т. е. если он установлен); если он не указан, используется шрифт по умолчанию. В данном случае шрифт задается как непропорциональный. Лабель перемещается в свое местоположение в окне — ее координаты определяют ее положение относительно окна (не экрана).
 
 <span id="Checkbox_Creation"></span>
 ===Создание элементов типа CheckBox===
