@@ -33,7 +33,7 @@ The '''Std AnnotationLabel''' command creates an annotation label in the [[3D_Vi
 # Select the {{MenuCommand|Tools → [[Image:Std_AnnotationLabel.svg|16px]] Annotation Label}} option from the menu.
 # Annotation label will be added to 3D View at the selected location. The corresponding ''Label'' object will be added to the [[Tree_View|Tree View]].
 # Change the ''Label Text'' property to set the label text.
-#* Optionally, change the View properties to modify the appearance of the label. 
+# Optionally, change the View properties to modify the appearance of the label. 
 
 
 
