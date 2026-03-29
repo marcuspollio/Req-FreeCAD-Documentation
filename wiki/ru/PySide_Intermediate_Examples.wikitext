@@ -342,7 +342,7 @@ def mousePressEvent(self, event):
 
 Координаты X и Y момента нажатия кнопки мыши задаются с помощью ссылок "event.pos().x()" и "event.pos().y()". Константы "QtCore.Qt.LeftButton" и "QtCore.Qt.RightButton" используются для определения того, какая кнопка мыши была нажата.
 
-A reference to a widget can be made of the form "self.widgetName.underMouse()" which will return {{TRUE}} or {{FALSE}} as to whether the mouse cursor is over the widget "widgetName". Although presented in the same code excerpt the "underMouse()" handler is not tied to the "mousePressEvent" handler and can be used at any time.
+Ссылка на виджет может иметь вид "self.widgetName.underMouse()", который вернет {{TRUE}} или {{FALSE}} в зависимости от того, находится ли курсор мыши над виджетом "widgetName". Хотя обработчик "underMouse()" представлен в том же фрагменте кода, он не привязан к обработчику "mousePressEvent" и может быть использован в любое время.
 
 ==Code Based Discussion - Main Routine==
 
