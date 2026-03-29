@@ -34,7 +34,6 @@ Ta grupa menu konfiguracji zawiera siedem stron: Ogólne, Dokument, Zaznaczenie,
 
 Na tej stronie można określić następujące parametry:
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nazwa
 !style="width: 66%;"|Opis
@@ -62,7 +61,7 @@ Na tej stronie można określić następujące parametry:
 * '''C/POSIX''': Jako separator dziesiętny używana jest kropka.
 |-
 | {{MenuCommand|Zastąp separator dziesiętny}} {{Version/pl|0.20}}
-| Jeśli opcja jest zaznaczona, separator dziesiętny klawiatury numerycznej zostanie zastąpiony separatorem zdefiniowanym w ustawieniu {{MenuCommand|Format liczb}}. {{Version/pl|0.21}}: Zauważ, że jeśli ta preferencja jest włączona, użycie separatora dziesiętnego klawiatury numerycznej zawsze będzie powodowało wyświetlenie kropki w [[Python_Console/pl|Konsoli Pythona]] i [[Std_DlgMacroExecute/pl#Edycja|Edytorze Makrodefinicji]].  
+| Jeśli opcja jest zaznaczona, separator dziesiętny klawiatury numerycznej zostanie zastąpiony separatorem zdefiniowanym w ustawieniu {{MenuCommand|Format liczb}}. Zauważ, że jeśli ta preferencja jest włączona, użycie separatora dziesiętnego klawiatury numerycznej zawsze będzie powodowało wyświetlenie kropki w [[Python_Console/pl|Konsoli Pythona]] i [[Std_DlgMacroExecute/pl#Edycja|Edytorze Makrodefinicji]].  
 |-
 | {{MenuCommand|Motywy}} {{Version/pl|0.20}}
 | Określa [[Interface_Customization/pl#Motywy|motyw]] w celu dostosowania wyglądu interfejsu użytkownika.
@@ -81,7 +80,6 @@ Na tej stronie można określić następujące parametry:
 |-
 | {{MenuCommand|Rozmiar listy ostatnio używanych plików}}
 |  Określa, ile plików powinno znajdować się na liście ostatnio używanych plików.
-</div>
 
 Opcjonalnie, zaimportowane pliki mogą zostać wykluczone z tej listy, a wyeksportowane pliki mogą zostać uwzględnione. Zobacz [[Fine-tuning/pl|Dostrajanie parametrów]].
 |-
