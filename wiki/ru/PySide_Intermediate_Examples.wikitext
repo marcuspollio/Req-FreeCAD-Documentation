@@ -596,7 +596,7 @@ if form.result==userOK:
 
 ===Import Statement===
 
-The mandatory Import statement
+Обязательное объявление импорта
 
 {{Code|code=
 from PySide import QtGui, QtCore
