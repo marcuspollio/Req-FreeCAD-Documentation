@@ -16,7 +16,7 @@ Le '''cube de navigation''' donne des informations visuelles sur l'orientation d
 Le cube de navigation se compose de plusieurs parties :
 * Le [[#Cube_principal|cube principal]]
 * Six [[#Fl.C3.A8ches_directionnelles|flèches directionnelles]].
-* Le [[#Bouton_de_vue_invers.C3.A9e|bouton de vue inversée]]. (en haut à droite) {{Version/fr|0.20}}
+* Le [[#Bouton_de_vue_invers.C3.A9e|bouton de vue inversée]]. (en haut à droite)
 * Le [[#Menu_du_mini-cube|menu du mini-cube]] (en bas à droite)
 * Les indicateurs des axes X, Y et Z 
 
@@ -28,7 +28,9 @@ Toutes les composantes, à l'exception des indicateurs d'axe, peuvent être cliq
 <span id="Main_cube"></span>
 ===Cube principal===
 
-Le cube principal possède 26 faces : 6 faces principales, 12 faces à bords rectangulaires ({{Version/fr|0.20}}) et 8 faces d'angle. En cliquant sur l'une d'entre elles, la caméra sera réorientée de manière à ce que sa direction soit perpendiculaire à la face sélectionnée.
+<div class="mw-translate-fuzzy">
+Le cube principal possède 26 faces : 6 faces principales, 12 faces à bords rectangulaires et 8 faces d'angle. En cliquant sur l'une d'entre elles, la caméra sera réorientée de manière à ce que sa direction soit perpendiculaire à la face sélectionnée.
+</div>
 
 <span id="Directional_arrows"></span>
 === Flèches directionnelles === 
