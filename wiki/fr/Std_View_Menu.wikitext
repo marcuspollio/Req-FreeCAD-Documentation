@@ -180,12 +180,12 @@ Les outils suivants sont disponibles dans ce menu :
 ** [[Std_TreeSyncView/fr|Synchroniser la vue]] : active/désactive la [[Tree_view/fr|vue en arborescence]] en mode synchronisation.
 ** [[Std_TreeSyncSelection/fr|Synchroniser la sélection]] : active/désactive la vue en arborescence en mode Synchroniser la sélection.
 ** [[Std_TreeSyncPlacement/fr|Synchroniser le placement]] : active/désactive la vue en arborescence en mode Synchroniser le placement.
-** [[Std_TreePreSelection/fr|Préselection]] : active/désactive la vue en arborescence en mode Préselection.
+** [[Std_TreePreSelection/fr|Préselectionner]] : active/désactive la vue en arborescence en mode Préselection.
 ** [[Std_TreeRecordSelection/fr|Enregistrer la sélection]] : active/désactive la vue en arborescence en mode Enregistrer la sélection.
 ** [[Std_TreeSingleDocument/fr|Document unique]] : active/désactive la vue en arborescence en mode Document unique.
 ** [[Std_TreeMultiDocument/fr|Tous les documents]] : active/désactive la vue en arborescence en mode Tous les documents.
 ** [[Std_TreeCollapseDocument/fr|Réduire/développer]] : active/désactive la vue en arborescence en mode Réduire/développer.
-**[[Image:Std_TreeDrag.svg|32px]] [[Std_TreeDrag/fr|Déplacement]] : lance une opération de glissement pour les objets sélectionnés dans l'arborescence.
+**[[Image:Std_TreeDrag.svg|32px]] [[Std_TreeDrag/fr|Déplacer]] : lance une opération de glissement pour les objets sélectionnés dans l'arborescence.
 **[[Image:Std_TreeSelection.svg|32px]] [[Std_TreeSelection/fr|Aller à la sélection]] : fait défiler l'arborescence jusqu'au premier objet créé dans une sélection de vue 3D.
 ** [[File:Std_SelBack.svg|32px]] [[Std_SelBack/fr|Sélection précédente]] : rétablit la sélection précédente de l'arborescence.
 ** [[File:Std_SelForward.svg|32px]] [[Std_SelForward/fr|Sélection suivante]] : rétablit la sélection suivante de l'arborescence.
