@@ -304,7 +304,7 @@ self.show()
 * onCancel
 * onOk
 
-The general form for the handlers is:
+Общий формат обработчиков следующий:
 
 {{Code|code=
 def handlerName(self):
