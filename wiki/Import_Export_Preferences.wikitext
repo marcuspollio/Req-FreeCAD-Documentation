@@ -523,16 +523,20 @@ On this page you can specify the following:
 | If checked, the areas (3D faces) will be imported too.
 |}
 
-===PDF===
+===PDF=== <!--T:285-->
 
+<!--T:286-->
 {{Version|1.1}}
 
+<!--T:287-->
 TBD.
 
-===SH3D Import===
+===SH3D Import=== <!--T:288-->
 
+<!--T:289-->
 {{Version|1.1}}
 
+<!--T:290-->
 TBD.
 
 ===STEP=== <!--T:178-->
@@ -712,10 +716,12 @@ If '''FEM mesh object''' is selected, the results in the VTK file will be omitte
 If '''FreeCAD result object''' is selected, the imported data will be converted into a FreeCAD FEM Result object. '''Note:''' this setting needs the exact result component names and thus it only works properly with VTK files exported from FreeCAD.
 |}
 
-===WebGL===
+===WebGL=== <!--T:291-->
 
+<!--T:292-->
 {{Version|1.1}}
 
+<!--T:293-->
 TBD.
 
 
