@@ -219,7 +219,7 @@ self.quantityInput.setProperty('value', quantity)
 quantity = self.quantityInput.property('value')
 }}
 
-The Gui::QuantitySpinBox widget is a FreeCAD-special, designed to display and handle values together with their [[Expressions#Units|units]]. It is derived from Qt's [https://doc.qt.io/qt-5/qabstractspinbox.html QAbstractSpinBox class]. For all its properties see the list in the source code file [https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/QuantitySpinBox.h#L42 QuantitySpinBox.h]
+Виджет Gui::QuantitySpinBox — это специальный виджет FreeCAD, предназначенный для отображения и обработки значений вместе с [[Expressions#Units|units]]. Он является производным от класса QAbstractSpinBox из Qt [https://doc.qt.io/qt-5/qabstractspinbox.html]. Список всех его свойств можно найти в исходном коде [https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/QuantitySpinBox.h#L42 QuantitySpinBox.h].
 
 ===Contextual Menu Creation===
 
