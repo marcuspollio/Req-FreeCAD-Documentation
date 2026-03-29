@@ -290,7 +290,7 @@ self.show()
 <span id="Generic_Handler"></span>
 ===Универсальный обработчик===
 
-In this code example, generic handlers handle the following events:
+В этом примере кода обработчики событий используют универсальные методы:
 
 * onCheckbox1
 * onCheckbox2
