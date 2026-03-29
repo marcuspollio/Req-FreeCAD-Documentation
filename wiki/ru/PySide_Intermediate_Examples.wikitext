@@ -51,7 +51,8 @@ class ExampleModalGuiClass(QtGui.QDialog):
 
 Этот код лучше всего скопировать дословно и внести изменения. Суть этого кода в том, что мы создаём подкласс класса QDialog из PySide. При адаптации этого кода вам потребуется изменить имя класса "ExampleModalGuiClass" — обязательно измените его в обоих местах (например, в строках 1 и 4).
 
-===Window Return Status===
+<span id="Window_Return_Status"></span>
+===Статус возврата окна===
 
 {{Code|code=
 self.result = userCancelled
