@@ -514,9 +514,7 @@ Wenn {{MenuCommand|Zum Nächsten drehen}} aktiviert ist, wird die 3D-Ansicht bei
 * '''Unten links'''
 * '''Unten rechts'''
 
-<div class="mw-translate-fuzzy">
-{{MenuCommand|Schriftname}} legt die verwendete Schriftart für den Würfeltext fest. {{Version|0.21}}
-</div>
+{{MenuCommand|Schriftname}} legt die verwendete Schriftart für die Texte des Würfels fest.
 
 {{MenuCommand|Undurchsichtigkeit im inaktiven Zustand}} Undurchsichtigkeit des Navigationswürfels, wenn die Maus nicht darüber schwebt. {{Version/de|1.0}}
 
