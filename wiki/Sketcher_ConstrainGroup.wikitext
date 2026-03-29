@@ -1,0 +1,51 @@
+<languages/>
+<translate>
+
+{{Docnav
+|[[Sketcher_ConstrainBlock|Block Constraint]]
+|[[Sketcher_Dimension|Dimension]]
+|[[Sketcher_Workbench|Sketcher]]
+|IconL=Sketcher_ConstrainBlock.svg
+|IconR=Sketcher_Dimension.svg‎
+|IconC=Workbench_Sketcher.svg
+}}
+
+{{GuiCommand
+|Name=Sketcher ConstrainGroup
+|MenuLocation=Sketch → Constraints → Group Constrain
+|Workbenches=[[Sketcher_Workbench|Sketcher]]
+|Shortcut={{KEY|K}} {{KEY|G}}
+|Version=1.2
+|SeeAlso=[[Sketcher_CreateText|Sketcher CreateText]]
+}}
+
+==Description==
+
+The [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup|Sketcher ConstrainGroup]] tool constrains the selected geometries together as a single entity. The position and size of the grouped geometries can be defined by constraining the automatically generated construction line. 
+
+==Usage==
+
+# Select geometries in the sketch.
+# There are several ways to invoke the tool:
+#* Press the {{Button|[[Image:Sketcher_ConstrainGroup.svg|16px]] [[Sketcher_ConstrainGroup|Group Constrain]]}} button.
+#* Select the {{MenuCommand|Sketch → Constraints → [[Image:Sketcher_ConstrainGroup.svg|16px]] Group Constrain}} option from the menu.
+#* Use the keyboard shortcut: {{KEY|K}} then {{KEY|G}}.
+# The selected geometries will be grouped.
+
+==Notes==
+* Constraints applied to grouped edges are ignored as long as the Group constraint is present.
+
+
+{{Docnav
+|[[Sketcher_ConstrainBlock|Block Constraint]]
+|[[Sketcher_Dimension|Dimension]]
+|[[Sketcher_Workbench|Sketcher]]
+|IconL=Sketcher_ConstrainBlock.svg
+|IconR=Sketcher_Dimension.svg‎
+|IconC=Workbench_Sketcher.svg
+}}
+
+
+</translate>
+{{Sketcher_Tools_navi{{#translation:}}}}
+{{Userdocnavi{{#translation:}}}}
