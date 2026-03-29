@@ -338,7 +338,7 @@ def mousePressEvent(self, event):
 		print("over the text '"+self.label1.text()+"'")
 }}
 
-The Mouse Event handler is the same as the generic handler with exception that a second parameter, the mouse event (e.g. left-click, right-click) from the user is passed  in. The name of the handler, "mousePressEvent", is reserved and if it is changed then the handler will no longer receive the event from the mouse presses.
+Обработчик событий мыши аналогичен универсальному обработчику, за исключением того, что в него передается второй параметр — событие мыши (например, щелчок левой кнопкой мыши, щелчок правой кнопкой мыши) от пользователя. Имя обработчика, "mousePressEvent", зарезервировано, и если оно изменено, обработчик больше не будет получать события от нажатий мыши.
 
 The X and Y coordinates of the mouse press are given by the reference "event.pos().x()" and "event.pos().y()". The constants "QtCore.Qt.LeftButton" and "QtCore.Qt.RightButton" are used to determine which mouse button was pressed.
 
