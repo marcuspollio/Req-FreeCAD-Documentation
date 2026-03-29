@@ -374,7 +374,7 @@ if form.result==userOK:
 
 Строки 1 и 2 показывают способ вызова графического интерфейса пользователя (GUI). Для программы может быть несколько определений GUI, и GUI не обязательно вызывать первым в файле Python, его можно вызвать в любой момент. Имя класса GUI указывается в строке 1 (в данном случае "ExampleGuiClass"), но остальные 2 строки следует скопировать дословно.
 
-Lines 4 and 6 use the result field to determine the appropriate action. The last 4 lines simply show the copying of the data in the GUI object to variables local to the executing main procedure.
+В строках 4 и 6 поле результата используется для определения соответствующего действия. Последние 4 строки просто показывают копирование данных из объекта графического интерфейса в переменные, локальные для выполняемой основной процедуры.
 
 ==Complete Modal Code Example==
 
