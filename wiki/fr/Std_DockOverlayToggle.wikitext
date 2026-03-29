@@ -12,7 +12,7 @@
 {{GuiCommand/fr
 |Name=Std DockOverlayToggle
 |Name/fr=Std Basculer la superposition pour tout
-|MenuLocation=Affichage → Panneau ancrable → Activer/désactiver une superposition
+|MenuLocation=Affichage → Superposition des panneaux ancrables → Activer/désactiver une superposition
 |Workbenches=Tous
 |Shortcut={{KEY|F3}}
 |Version=1.0
@@ -30,21 +30,16 @@ Pour utiliser cette commande, le curseur de la souris doit être placé sur le p
 <span id="Usage"></span>
 ==Utilisation==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# The mouse cursor must be positioned over the docked panel you wish to affect. The panel can be in either its normal docked state or in overlay mode.
-# There are several ways to invoke the command:
-#* Select the {{MenuCommand|View → Dock panel overlay → Toggle overlay}} option from the menu.
-#* Use the keyboard shortcut: {{KEY|F3}}.
-#* Use the overlay toggle button ([[File:Overlay.svg|12x12px]]) from a docked window's title bar.
-</div>
+# Le curseur de la souris doit être positionné sur le panneau ancré que vous souhaitez changer. Le panneau peut être soit dans son état ancré normal, soit en mode superposition.
+# Il y a plusieurs façons de lancer la commande :
+#* Sélectionnez l'option {{MenuCommand|Affichage → Panneau ancrable → Activer/désactiver une superposition}} du menu.
+#* Utilisez le raccourci clavier : {{KEY|F3}}.
+#* Utilisez le bouton de basculement de la superposition ([[File:Overlay.svg|12x12px]]) dans la barre de titre d'un panneau ancré.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Preferences==
-</div>
+<span id="Preferences"></span>
+==Préférences==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The appearance of the panels in this "transparent active" state is controlled by the [[Std_DockOverlayAll#Preferences|same stylesheet as the standard overlay mode]].
-</div>
+L'apparence des panneaux dans cet état « transparent actif » est contrôlée par les [[Std_DockOverlayAll/fr#Préférences|même feuille de style que le mode de superposition standard]].
 
 
 {{Docnav/fr
