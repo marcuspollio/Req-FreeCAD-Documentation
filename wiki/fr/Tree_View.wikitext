@@ -69,7 +69,7 @@ Une ou plusieurs plus petites icônes de superposition peuvent être affichées 
 <span id="File:FreeCAD_Tree_view_recompute.png_White_check_mark_on_blue_background"></span>
 === [[File:FreeCAD_Tree_view_recompute.png]] Marque blanche sur fond bleu ===
 
-Cela indique que l'objet doit être [[Std_Refresh/fr|recalculé]] en raison de modifications apportées au modèle ou parce que l'utilisateur a marqué l'objet dans le menu contextuel de la vue en arborescence pour qu'il soit recalculé. Dans la plupart des cas, les recalculs sont déclenchés automatiquement, parfois ils sont retardés pour des raisons de performance.
+Cela indique que l'objet doit être [[Std_Refresh/fr|recalculé]] en raison de modifications apportées au modèle ou parce que l'utilisateur a marqué l'objet dans le menu contextuel de l'arborescence pour qu'il soit recalculé. Dans la plupart des cas, les recalculs sont déclenchés automatiquement, parfois ils sont retardés pour des raisons de performance.
 
 <span id="File:FreeCAD_Tree_view_error.png_White_exclamation_mark_on_red_background"></span>
 === [[File:FreeCAD_Tree_view_error.png]] Point d'exclamation blanc sur fond rouge ===
