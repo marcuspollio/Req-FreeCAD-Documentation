@@ -22,14 +22,14 @@
 <span id="Description"></span>
 ==Description==
 
-La commande '''Std Sélection suivante''' restaure la sélection suivante enregistrée de la [[Tree_view/fr|vue en arborescence]]. Notez que les sélections ne sont enregistrées que si [[Std_TreeRecordSelection/fr|Enregistrer la sélection]] est activé.
+La commande '''Std Sélection suivante''' restaure la sélection suivante enregistrée de l'[[Tree_View/fr|arborescence]]. Notez que les sélections ne sont enregistrées que si [[Std_TreeRecordSelection/fr|Enregistrer la sélection]] est activé.
 
 <span id="Usage"></span>
 ==Utilisation ==
 
 # Il faut qu'il y ait eu une sélection suivante dans la vue en arborescence.
 # Il y a plusieurs façons de lancer la commande :
-#* Cliquez sur la flèche noire vers le bas à droite du bouton {{Button|[[Image:Std_TreeSyncView.svg|16px]]}} et sélectionnez l'option {{MenuCommand|[[Image:Std_SelForward.svg|16px]] Sélection suivante}} dans la liste déroulante. Remarque : l'image du bouton changera en fonction de l'option sélectionnée.
+#* Cliquez sur la flèche vers le bas à droite du bouton {{Button|[[Image:Std_TreeSyncView.svg|16px]]}} et sélectionnez l'option {{MenuCommand|[[Image:Std_SelForward.svg|16px]] Sélection suivante}} dans la liste déroulante. Remarque : l'image du bouton changera en fonction de l'option sélectionnée.
 #* Sélectionnez l'option {{MenuCommand|Affichage → Actions dans l'arborescence → Sélection suivante}} du menu.
 #* Utilisez le raccourci clavier : {{KEY|S}} puis {{KEY|F}}.
 # La sélection suivante est restaurée.
