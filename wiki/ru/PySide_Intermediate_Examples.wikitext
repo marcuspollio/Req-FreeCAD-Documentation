@@ -221,7 +221,8 @@ quantity = self.quantityInput.property('value')
 
 Виджет Gui::QuantitySpinBox — это специальный виджет FreeCAD, предназначенный для отображения и обработки значений вместе с [[Expressions#Units|units]]. Он является производным от класса QAbstractSpinBox из Qt [https://doc.qt.io/qt-5/qabstractspinbox.html]. Список всех его свойств можно найти в исходном коде [https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/QuantitySpinBox.h#L42 QuantitySpinBox.h].
 
-===Contextual Menu Creation===
+<span id="Contextual_Menu_Creation"></span>
+===Создание контекстного меню===
 
 {{Code|code=
 # set contextual menu options for text editing widget
