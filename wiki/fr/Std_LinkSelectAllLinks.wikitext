@@ -26,11 +26,11 @@ La commande '''Std Tous les liens''' sélectionne tous les objets [[App_Link/fr|
 <span id="Usage"></span>
 ==Utilisation ==
 
-# Pour trouver des liens dans plusieurs documents, assurez-vous que la [[Tree_view/fr|vue en arborescence]] est en mode [[Std_TreeMultiDocument/fr|Tous les documents]].
+# Pour trouver des liens dans plusieurs documents, assurez-vous que l'[[Tree_View/fr|arborescence]] est en mode [[Std_TreeMultiDocument/fr|Tous les documents]].
 # Sélectionnez un objet source contenant des liens.
 # Il y a plusieurs façons de lancer la commande :
 #* Sélectionnez l'option {{MenuCommand|Affichage → Navigation par lien → [[Image:Std_LinkSelectAllLinks.svg|16px]] Sélectionner tous les liens}} du menu.
-#* Sélectionnez l'option {{MenuCommand|Actions sur les liens → [[Image:Std_LinkSelectAllLinks.svg|16px]] Sélectionner tous les liens}} dans le menu contextuel de la [[Tree_view/fr|vue en arborescence]].
+#* Sélectionnez l'option {{MenuCommand|Actions sur les liens → [[Image:Std_LinkSelectAllLinks.svg|16px]] Sélectionner tous les liens}} dans le menu contextuel de l'[[Tree_View/fr|arborescence]].
 # Tous les liens qui renvoient à l'objet source sont sélectionnés.
 # Vous pouvez utiliser [[Image:Std_SelBack.svg|16px]] [[Std_SelBack/fr|Std Sélection précédente]] pour resélectionner l'objet source.
 
