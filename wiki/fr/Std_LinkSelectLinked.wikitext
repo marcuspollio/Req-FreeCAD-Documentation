@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
-|[[Std_Workbench/fr|Sélecteur d'atelier]]
+|[[Std_DockOverlayToggleBottom/fr|Basculer en bas]]
 |[[Std_LinkSelectLinkedFinal/fr|Objet lié le plus profond]]
 |[[Std_View_Menu/fr|Menu Affichage]]
-|IconL=
+|IconL=Std_DockOverlayToggleBottom.svg
 |IconR=Std_LinkSelectLinkedFinal.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{GuiCommand/fr
 |Name=Std LinkSelectLinked
@@ -23,7 +21,7 @@
 
 == Description ==
 
-La commande '''Std Objet lié''' sélectionne {{PropertyData/fr|Linked Object}}, l'objet source, d'un objet [[App_Link/fr|App Link]], un lien.
+La commande '''Std Objet lié''' sélectionne la propriété {{PropertyData|Linked Object}}, l'objet source, d'un objet [[App_Link/fr|App Link]], un lien.
 
 <span id="Usage"></span>
 ==Utilisation==
@@ -37,16 +35,14 @@ La commande '''Std Objet lié''' sélectionne {{PropertyData/fr|Linked Object}},
 # Vous pouvez utiliser [[Image:Std_SelBack.svg|16px]] [[Std_SelBack/fr|Std Sélection précédente]] pour resélectionner le lien.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
-|[[Std_Workbench/fr|Sélecteur d'atelier]]
+|[[Std_DockOverlayToggleBottom/fr|Basculer en bas]]
 |[[Std_LinkSelectLinkedFinal/fr|Objet lié le plus profond]]
 |[[Std_View_Menu/fr|Menu Affichage]]
-|IconL=
+|IconL=Std_DockOverlayToggleBottom.svg
 |IconR=Std_LinkSelectLinkedFinal.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
