@@ -9,15 +9,13 @@
 |IconC=Workbench_Part.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/fr
 |Name=Part_Section
 |Name/fr=Part Section
 |MenuLocation=Part → Créer une section
 |Workbenches=[[Part_Workbench/fr|Part]]
-|SeeAlso=[[Part_CrossSections/fr|Part Coupes]]
+|SeeAlso=[[Part_CrossSections/fr|Part Coupes]], [[Part_Boolean/fr|Part Opérateurs booléens]], [[Part_Cut|Part Soustraction]], [[Part_Fuse/fr|Part Union]], [[Part_Common/fr|Part Intersection]]
 }}
-</div>
 
 ==Description== 
 
