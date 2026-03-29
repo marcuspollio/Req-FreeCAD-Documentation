@@ -23,9 +23,9 @@ To preserve resources, FreeCAD does not automatically load all available workben
 Sem qualquer módulo carregado, você terá acesso a duas secções de configuração, responsáveis das configurações gerais do aplicativo e das configurações de visualização.
 </div>
 
-Pressing the {{Button|Reset}} button in the lower left corner of the Preferences dialog opens a menu ({{Version|1.0}}) with options to reset preferences to their default values. You can reset the current page, the current group, or all preferences. In {{VersionMinus|0.21}} the button will reset '''all''' preferences.
+Pressing the {{Button|Reset}} button in the lower left corner of the Preferences dialog opens a menu ({{Version|1.0}}) with options to reset preferences to their default values. You can reset the current page, the current group, or all preferences.
 
-Some advanced preferences can only be changed in the [[Std_DlgParameter|Parameter editor]]. The [[Fine-tuning|Fine-tuning]] page lists some of them.
+Some advanced preferences can only be changed in the [[Std_DlgParameter|Parameter Editor]]. The [[Fine-tuning|Fine-tuning]] page lists some of them.
 
 This page has been updated for version 1.0.
 
@@ -37,8 +37,6 @@ This page has been updated for version 1.0.
 <div class="mw-translate-fuzzy">
 Quando  começar a FreeCAD sem bancada carregada,  vai ter uma janela de preferências mínima. Quando carregar módulos adicionais,  aparecerão novas secções na janela de preferências, o que lhe permite configurar os detalhes de cada bancada.
 </div>
-
-In {{VersionMinus|0.21}} the seventh page, Help, is only available if the [https://github.com/FreeCAD/FreeCAD-Help Help Addon] has been [[Std_AddonMgr|installed]].
 
 <span id="General"></span>
 ===Geral===
@@ -73,7 +71,7 @@ On this page you can specify the following:
 * '''C/POSIX''': A point is used as the decimal separator.
 |-
 | {{MenuCommand|Substitute decimal separator}}
-| If checked, the numerical keypad decimal separator will be substituted with the separator defined by the {{MenuCommand|Number format}} setting. {{Version|0.21}}: Notice that if this preference is enabled, using the numerical keypad decimal separator will always print a dot/period in the [[Python_Console|Python Console]] and the [[Std_DlgMacroExecute#Edit|Macro editor]].
+| If checked, the numerical keypad decimal separator will be substituted with the separator defined by the {{MenuCommand|Number format}} setting. Notice that if this preference is enabled, using the numerical keypad decimal separator will always print a dot/period in the [[Python_Console|Python Console]] and the [[Std_DlgMacroExecute#Edit|Macro editor]].
 |-
 | {{MenuCommand|Theme}}
 | Specifies a [[Interface_Customization#Themes|theme]] to customize the appearance of the user interface.
@@ -270,7 +268,7 @@ On this page you can specify the following:
 
 These preferences control the Notification Area and its notifications.
 
-On this page ({{Version|0.21}}) you can specify the following:
+On this page you can specify the following:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Name
@@ -407,7 +405,7 @@ On this page you can specify the following:
 ==As configurações de exibição==
 </div>
 
-This preferences group has six standard pages: 3D View, Light Sources, UI, Navigation, Colors and Advanced. A seventh page, Mesh view, is added if the [[Mesh_Workbench|Mesh Workbench]] has been loaded.
+This preferences group has six standard pages: 3D View, Light Sources, UI, Navigation, Colors and Advanced. A seventh page, Mesh View, is added if the [[Mesh_Workbench|Mesh Workbench]] has been loaded.
 
 <span id="3D_View"></span>
 ===Vista 3D===
@@ -516,7 +514,7 @@ If {{MenuCommand|Rotate to nearest}} is checked, the 3D view is rotated to the n
 
 {{MenuCommand|Cube size}} defines the size of the cube.
 
-{{MenuCommand|Color}} sets the base color for all elements. {{Version|0.21}}
+{{MenuCommand|Color}} sets the base color for all elements.
 
 {{MenuCommand|Corner}} defines where the Navigation cube is displayed in the [[3D_View|3D View]]. The options are:
 * '''Top left'''
@@ -524,7 +522,7 @@ If {{MenuCommand|Rotate to nearest}} is checked, the 3D view is rotated to the n
 * '''Bottom left'''
 * '''Bottom right'''
 
-{{MenuCommand|Font name}} specifies the font used for the cube's texts. {{Version|0.21}}
+{{MenuCommand|Font name}} specifies the font used for the cube's texts.
 
 {{MenuCommand|Opacity when inactive}} Opacity of the Navigation cube when not hovered by the mouse. {{Version|1.0}}
 
@@ -541,7 +539,7 @@ The {{MenuCommand|Sphere size}} and the {{MenuCommand|Color and transparency}} o
 | Specifies the rotation orbit style used when in rotation mode. The options are:
 * '''Turntable''': Moving the mouse will divide the rotation in steps, rotations around the different axes are performed sequentially.
 * '''Trackball''': Rotations around the different axes are performed simultaneously.
-* '''Free Turntable''': Like '''Trackball''', but if possible, the rotation axis is kept collinear with the global 3D view axis. {{Version|0.21}}
+* '''Free Turntable''': Like '''Trackball''', but if possible, the rotation axis is kept collinear with the global 3D view axis.
 * '''Trackball Classic''': {{Version|1.1}}
 * '''Rounded Arcball''': {{Version|1.1}}
 |-
@@ -600,9 +598,9 @@ On this page you can specify the following:
 | If selected, the background of the [[3D_View|3D View]] will have the specified color.
 |-
 | {{MenuCommand|Linear gradient}}
-| If selected, the background of the [[3D_View|3D View]] will have a vertical color gradient defined by the specified '''Top''' and '''Bottom''' colors. if enabled, a '''Middle''' color can also be specified. Press the {{Button|[[Image:Button_sort.svg|16px]]}} button ({{Version|0.21}}) to switch the top and bottom colors.
+| If selected, the background of the [[3D_View|3D View]] will have a vertical color gradient defined by the specified '''Top''' and '''Bottom''' colors. if enabled, a '''Middle''' color can also be specified. Press the {{Button|[[Image:Button_sort.svg|16px]]}} button to switch the top and bottom colors.
 |-
-| {{MenuCommand|Radial gradient}} {{Version|0.21}}
+| {{MenuCommand|Radial gradient}}
 | If selected, the background of the [[3D_View|3D View]] will have a radial color gradient defined by the specified '''Central''' and '''End''' colors. if enabled, a '''Midway''' color can also be specified. Press the {{Button|[[Image:Button_sort.svg|16px]]}} button to switch the central and end colors.
 |-
 | {{MenuCommand|Object being edited}}
@@ -683,8 +681,8 @@ On this page you can specify the following:
 !style="width: 66%;"|Description
 |-
 | {{MenuCommand|Workbench list}}
-| The list displays all installed workbenches. The list can be reordered by drag and drop ({{Version|0.21}}) and sorted by right-clicking the list and selecting {{MenuCommand|Sort alphabetically}} ({{Version|1.0}}). The order of the list also determines the order of the [[Std_Workbench|Workbench selector]].
-* {{Version|0.21}}: {{MenuCommand|First checkbox in each row}}: If checked, the workbench will be available in the Workbench selector in the next FreeCAD session. The start up workbench cannot be unchecked. Unchecked workbenches are moved to the bottom of the list.
+| The list displays all installed workbenches. The list can be reordered by drag and drop and sorted by right-clicking the list and selecting {{MenuCommand|Sort alphabetically}} ({{Version|1.0}}). The order of the list also determines the order of the [[Std_Workbench|Workbench selector]].
+* {{MenuCommand|First checkbox in each row}}: If checked, the workbench will be available in the Workbench selector in the next FreeCAD session. The start up workbench cannot be unchecked. Unchecked workbenches are moved to the bottom of the list.
 * {{MenuCommand|Auto-load}}: If checked, the workbench will auto-load when FreeCAD starts. Loading more workbenches will make the start up slower, but switching between workbenches that have already been loaded is faster.
 * {{Button|Load}}: Press this button to load the workbench in the current FreeCAD session.
 |-
@@ -706,9 +704,13 @@ On this page you can specify the following:
 | If checked, FreeCAD will remember and restore the workbench that was active for each tab in the [[Main_View_Area|Main View Area]].
 |}
 
+==Import-Export==
+
+The Import-Export preferences affect how files are imported and exported. They are described on the [[Import_Export_Preferences|Import Export Preferences]] page.
+
 ==Python==
 
-This preferences group ({{Version|0.21}}) has three pages: Macro, General and Editor.
+This preferences group has three pages: Macro, General and Editor.
 
 ===Macro===
 
@@ -820,9 +822,48 @@ On this page you can specify the following:
 | Specifies the color that should be used for the selected code type.
 |}
 
+==Start==
+
+{{Version|1.1}}
+
+This preferences group has a single page: General.
+
+===General===
+
+TBD.
+
+==Measure==
+
+{{Version|1.0}}
+
+This preferences group has a single page: Appearance.
+
+===Appearance===
+
+[[Image:Preferences_Measure_Page_Appearance.png|400px]]
+
+On this page you can specify the following:
+
+{| class="wikitable float-right mw-collapsible mw-uncollapsed"
+!style="width: 33%;"|Name
+!style="width: 66%;"|Description
+|-
+| {{MenuCommand|Text size}}
+| Specifies the size of the text in pixels.
+|-
+| {{MenuCommand|Text color}}
+| Specifies the color of the text.
+|-
+| {{MenuCommand|Line color}}
+| Specifies the color of the line connecting the text label with the measured element(s).
+|-
+| {{MenuCommand|Background color}}
+| Specifies the background color of the text label.
+|}
+
 ==Addon Manager==
 
-This preferences group has a single page: Addon manager options.
+This preferences group has a single page: Addon Manager Options.
 
 ===Addon Manager Options===
 
@@ -869,9 +910,9 @@ On this page you can specify the following:
 | {{MenuCommand|Custom repositories}}
 | Custom repositories can be specified here.
 
-To add a repository press the {{Button|[[Image:List-add.svg|16px]]}} button. Both the {{MenuCommand|Repository URL}} and the {{MenuCommand|Branch}}, typically {{Value|master}} or {{Value|main}}, must be specifies in the dialog that opens. {{Version|0.21}}
+To add a repository press the {{Button|[[Image:List-add.svg|16px]]}} button. Both the {{MenuCommand|Repository URL}} and the {{MenuCommand|Branch}}, typically {{Value|master}} or {{Value|main}}, must be specifies in the dialog that opens.
 
-To remove a repository select it in the list and press the {{Button|[[Image:List-remove.svg|16px]]}} button. {{Version|0.21}}
+To remove a repository select it in the list and press the {{Button|[[Image:List-remove.svg|16px]]}} button.
 |-
 | {{MenuCommand|Proxy}}
 | The Addon manager includes experimental support for proxies requiring authentication, set up as user-defined proxies.
@@ -879,50 +920,17 @@ To remove a repository select it in the list and press the {{Button|[[Image:List
 | {{MenuCommand|Score source URL}} {{Version|1.0}}
 | The URL for the Addon Score data. See [[Std_AddonMgr#Sorting_by_score|Std AddonMgr]] for formatting and hosting details.
 |-
-| {{MenuCommand|Path to git executable (optional)}} {{Version|0.21}}
+| {{MenuCommand|Path to git executable (optional)}}
 | The Addon manager attempts to determine the git executable. To override this selection, the path to the executable can be set here.
 |-
 | {{MenuCommand|Show option to change branches (requires git)}}
 | If checked, the Addon manager provides an interface on the addon's details screen that allows switching which git branch is currently checked out. This is intended for advanced users only, as it is possible that a non-primary-branch version of an addon may result in instability and compatibility issues. Git must be installed for this to work. Use with caution.
 |-
-| {{MenuCommand|Disable git (fall back to ZIP downloads only)}} {{Version|0.21}}
+| {{MenuCommand|Disable git (fall back to ZIP downloads only)}}
 | If checked, git downloads are disabled.
 |-
-| {{MenuCommand|Addon developer mode}} {{Version|0.21}}
+| {{MenuCommand|Addon developer mode}}
 | If checked, Addon manager options intended for developers of addons are activated.
-|}
-
-==Import-Export==
-
-The Import-Export preferences affect how files are imported and exported. They are described on the [[Import_Export_Preferences|Import Export Preferences]] page.
-
-==Measure==
-
-{{Version|1.0}}
-
-This preferences group has a single page: Appearance.
-
-===Appearance===
-
-[[Image:Preferences_Measure_Page_Appearance.png|400px]]
-
-On this page you can specify the following:
-
-{| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
-|-
-| {{MenuCommand|Text size}}
-| Specifies the size of the text in pixels.
-|-
-| {{MenuCommand|Text color}}
-| Specifies the color of the text.
-|-
-| {{MenuCommand|Line color}}
-| Specifies the color of the line connecting the text label with the measured element(s).
-|-
-| {{MenuCommand|Background color}}
-| Specifies the background color of the text label.
 |}
 
 ==Workbench related preferences==
