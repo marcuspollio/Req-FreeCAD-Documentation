@@ -397,9 +397,7 @@ Na tej stronie można określić następujące parametry:
 <span id="Display"></span>
 ==Wyświetlanie==
 
-<div class="mw-translate-fuzzy">
 Ta sekcja preferencji grupuje sześć standardowych zakładek: '''Widok 3D''' '''Źródła światła''', '''Interfejs użytkownika''', '''Nawigacja''', '''Kolory''' i '''Zawansowane'''.  Siódma strona, '''Widok siatki''', jest dodawana, jeśli załadowano środowisko pracy [[Mesh_Workbench/pl|Projekt Siatki]].
-</div>
 
 <span id="3D_View"></span>
 ===Widok 3D===
@@ -509,9 +507,7 @@ Jeśli zaznaczono {{MenuCommand|Obróć do najbliższego}}, Po kliknięciu ścia
 
 {{MenuCommand|Rozmiar kostki nawigacyjnej}} Definiuje rozmiar sześcianu. {{Version/pl|0.20}}
 
-<div class="mw-translate-fuzzy">
-{{MenuCommand|Kolor}} ustawia kolor dla wszystkich elementów wokół kostki. {{Version/pl|0.21}}
-</div>
+{{MenuCommand|Kolor}} ustawia kolor dla wszystkich elementów wokół kostki.
 
 Powiązana opcja {{MenuCommand|Narożnik}} określa miejsce wyświetlania kostki nawigacyjnej w oknie [[3D_View/pl|Widoku 3D]].
 Dostępne opcje to:
