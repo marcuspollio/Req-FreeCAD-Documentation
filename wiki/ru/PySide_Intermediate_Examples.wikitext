@@ -24,7 +24,7 @@
 
 [[File:PySideScreenSnapshot3.jpg]]
 
-Most of the remainder of this section will describe the contents of the Class definition which appears at the end of this section. First we will cover the declarative elements that define how things operate and how the GUI is assembled, then we will cover the operative sections (i.e. the code that will execute when user interactions occur). This window is based on the class QDialog and so is modal - which means no activities can be made outside of the window while it is open.
+В оставшейся части этого раздела будет описано содержимое определения класса, которое находится в конце этого раздела. Сначала мы рассмотрим декларативные элементы, определяющие принцип работы и структуру фреймворка, затем перейдем к оперативным разделам (т. е. к коду, который будет выполняться при взаимодействии с пользователем - 'интерактивный код'). Это окно основано на классе QDialog и поэтому является модальным — это означает, что за пределами открытого окна нельзя совершать никаких действий.
 
 ===Import Statement===
 
