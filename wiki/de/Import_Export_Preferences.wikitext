@@ -205,8 +205,9 @@ Die Einstellung '''Max. Länge eines Spline-Segments:''' ist dann die maximale L
 
 Hinweis für Linux Anwender: Um mit diesem Dateiformat umgehen zu können, benötigt FreeCAD das [[Extra_python_modules/de|IfcOpenShell Modul]].
 
-<span id="IFC_import"></span>
+<div class="mw-translate-fuzzy">
 ====IFC Import====
+</div>
 
 [[Image:Preferences_Import-Export_Page_IFC_import.png|400px]]
 
@@ -270,8 +271,9 @@ Um die FreeCAD-Eigenschaften zu erhalten, muss das Modell mit der Option {{MenuC
 | Wenn angehakt, werden Gruppen verwendet, um die genannten Objekte zu ersetzen.
 |}
 
-<span id="IFC_export"></span>
+<div class="mw-translate-fuzzy">
 ====IFC Export====
+</div>
 
 [[Image:Preferences_Import-Export_Page_IFC_export.png|400px]]
 
@@ -451,6 +453,30 @@ Auf dieser Seite kann Folgendes festgelegt werden:
 | Wenn angehakt, werden die Bereiche (3D Flächen) auch importiert.
 |}
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===PDF===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+TBD.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===SH3D Import===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+TBD.
+</div>
+
 ===STEP===
 
 [[Image:Preferences_Import-Export_Page_STEP.png|400px]]
@@ -595,6 +621,18 @@ Wenn '''FEM Netzobjekt''' ausgewählt wird, werden die Ergebnisse in der VTK Dat
 
 Wenn '''FreeCAD Ergebnisobjekt''' ausgewählt wird, werden die importierten Daten in ein FreeCAD FEM Ergebnisobjekt umgewandelt. '''Hinweis:''' diese Einstellung benötigt die exakten Namen der Ergebniskomponenten und funktioniert daher nur ordnungsgemäß mit VTK Dateien , die aus FreeCAD exportiert wurden.
 |}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===WebGL===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+TBD.
+</div>
 
 
 {{Docnav/de
