@@ -344,7 +344,8 @@ def mousePressEvent(self, event):
 
 Ссылка на виджет может иметь вид "self.widgetName.underMouse()", который вернет {{TRUE}} или {{FALSE}} в зависимости от того, находится ли курсор мыши над виджетом "widgetName". Хотя обработчик "underMouse()" представлен в том же фрагменте кода, он не привязан к обработчику "mousePressEvent" и может быть использован в любое время.
 
-==Code Based Discussion - Main Routine==
+<span id="Code_Based_Discussion_-_Main_Routine"></span>
+==Обсуждение кода — Основная рутина==
 
 Most of the volume of code is in the GUI Class definition, there is not much in the main procedure.
 
