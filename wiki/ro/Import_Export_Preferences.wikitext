@@ -280,7 +280,7 @@ Note for Linux users: To handle this file format FreeCAD requires the [[Extra_py
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-====IFC import====
+====IFC Import====
 </div>
 
 [[Image:Preferences_Import-Export_Page_IFC_import.png|400px]]
@@ -355,7 +355,7 @@ To get the FreeCAD properties, the model must have been exported using the optio
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-====IFC export====
+====IFC Export====
 </div>
 
 [[Image:Preferences_Import-Export_Page_IFC_export.png|400px]]
@@ -594,6 +594,30 @@ On this page you can specify the following:
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
+===PDF===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+TBD.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===SH3D Import===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+TBD.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ===STEP===
 </div>
 
@@ -794,6 +818,18 @@ If '''FEM mesh object''' is selected, the results in the VTK file will be omitte
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If '''FreeCAD result object''' is selected, the imported data will be converted into a FreeCAD FEM Result object. '''Note:''' this setting needs the exact result component names and thus it only works properly with VTK files exported from FreeCAD.
 |}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===WebGL===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+TBD.
 </div>
 
 
