@@ -206,9 +206,7 @@ Ustawienie "''Max Spline Segment''' jest wówczas maksymalną długością każd
 Uwaga dla użytkowników Linuksa: Do obsługi tego formatu pliku, FreeCAD wymaga modułu [[Extra_python_modules/pl#IfcOpenShell|IfcOpenShell]].
 
 <span id="IFC_Import"></span>
-<div class="mw-translate-fuzzy">
 ====Import IFC====
-</div>
 
 [[Image:Preferences_Import-Export_Page_IFC_import.png|400px]]
 
@@ -276,9 +274,7 @@ Aby uzyskać parametry FreeCAD, model musi zostać wyeksportowany przy użyciu o
 |}
 
 <span id="IFC_Export"></span>
-<div class="mw-translate-fuzzy">
 ====Eksport IFC====
-</div>
 
 [[Image:Preferences_Import-Export_Page_IFC_export.png|400px]]
 
@@ -458,9 +454,7 @@ Na tej stronie można określić następujące parametry:
 | Jeśli opcja zostanie zaznaczona, obszary ''(powierzchnie 3D)'' również zostaną zaimportowane.
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 ===PDF===
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Version|1.1}}
