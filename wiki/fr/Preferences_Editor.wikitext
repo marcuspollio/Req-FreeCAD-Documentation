@@ -933,9 +933,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | {{MenuCommand|Dépôts personnalisés}}
 | Les dépôts personnalisés peuvent être spécifiés ici.
 
-<div class="mw-translate-fuzzy">
-Pour ajouter un dépôt, cliquez sur le bouton {{Button|[[Image:List-add.svg|16px]]}}. L'{{MenuCommand|URL du dépôt}} et la {{MenuCommand|Branche}}, généralement {{Value|maître}} ou {{Value|principale}}, doivent être spécifiées dans la boîte de dialogue qui s'ouvre. {{Version/fr|0.21}}
-</div>
+Pour ajouter un dépôt, cliquez sur le bouton {{Button|[[Image:List-add.svg|16px]]}}. L'{{MenuCommand|URL du dépôt}} et la {{MenuCommand|Branche}}, généralement {{Value|maître}} ou {{Value|principale}}, doivent être spécifiés dans la boîte de dialogue qui s'ouvre.
 
 <div class="mw-translate-fuzzy">
 Pour supprimer un dépôt, sélectionnez-le dans la liste et appuyez sur le bouton {{Button|[[Image:List-remove.svg|16px]]}}. {{Version/fr|0.21}}
