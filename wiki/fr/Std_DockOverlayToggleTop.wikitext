@@ -28,11 +28,11 @@ Cette commande ne déplace pas les panneaux vers ou hors du système de superpos
 <span id="Usage"></span>
 ==Utilisation==
 
-# La [[Std_DockOverlayAll/fr|superposition]] doit être activée et il doit y avoir au moins un panneau dans la zone de superposition en haut.
+# Le [[Std_DockOverlayAll/fr|mode superposition]] doit être activé et il doit y avoir au moins un panneau dans la zone de superposition en haut.
 # Il existe plusieurs façons de lancer la commande :
 #* Sélectionnez l'option {{MenuCommand|Affichage → Superposition des panneaux ancrables → Activer/masquer en haut}} du menu.
 #* Utilisez le raccourci clavier : {{KEY|Ctrl}}+{{KEY|Flèche haut}}.
-#* Utilisez le bouton de basculement de superposition haut ([[File:Std_DockOverlayToggleTop.svg|12px]]) de la barre de titre du panneau ancré.
+#* Utilisez le bouton de basculement de superposition haut ([[File:Std_DockOverlayToggleTop.svg|16px]]) de la barre de titre du panneau ancré.
 
 
 {{Docnav/fr
