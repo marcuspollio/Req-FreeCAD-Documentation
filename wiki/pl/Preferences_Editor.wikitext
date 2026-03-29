@@ -672,14 +672,13 @@ Preferencje te sterują ładowaniem środowisk pracy.
 
 Na tej stronie można określić następujące parametry:
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nazwa
 !style="width: 66%;"|Opis
 |-
 | {{MenuCommand|Dostępne środowiska pracy}}
-| Lista wyświetla wszystkie zainstalowane środowiska pracy. Lista może zostać uporządkowana metodą przeciągnij i upuść ({{Version/pl|0.21}}) oraz posortowana poprzez kliknięcie prawym przyciskiem myszy i wybranie {{MenuCommand|Sortuj alfabetycznie}} ''({{Version/pl|1.0}})''. Kolejność listy określa również kolejność selektora [[Std_Workbench/pl|środowiska pracy]].
-* {{Version/pl|0.21}}: {{MenuCommand|Pierwsze pole wyboru w każdym rzędzie}}: Jeśli zostanie zaznaczone, środowisko robocze będzie dostępne w selektorze środowiska pracy w następnej sesji FreeCAD. Startowe środowisko nie może być odznaczone. Niezaznaczone środowiska pracy są przesuwane na dół listy.
+| Lista wyświetla wszystkie zainstalowane środowiska pracy. Lista może zostać uporządkowana metodą przeciągnij i upuść oraz posortowana poprzez kliknięcie prawym przyciskiem myszy i wybranie {{MenuCommand|Sortuj alfabetycznie}} ''({{Version/pl|1.0}})''. Kolejność listy określa również kolejność selektora [[Std_Workbench/pl|środowiska pracy]].
+* {{MenuCommand|Pierwsze pole wyboru w każdym rzędzie}}: Jeśli zostanie zaznaczone, środowisko robocze będzie dostępne w selektorze środowiska pracy w następnej sesji FreeCAD. Startowe środowisko nie może być odznaczone. Niezaznaczone środowiska pracy są przesuwane na dół listy.
 * {{MenuCommand|Ładuj automatycznie}}: Jeśli opcja jest zaznaczona, to środowisko pracy będzie automatycznie ładowane podczas uruchamiania programu FreeCAD. Ładowanie większej ilości środowisk powoduje, że start jest wolniejszy, ale przełączanie pomiędzy środowiskami, które zostały już załadowane jest szybsze.
 * {{Button|Wczytaj teraz}}: Naciśnij ten przycisk, aby załadować środowisko w bieżącej sesji FreeCAD.
 |-
@@ -700,7 +699,6 @@ Dostępne opcje to:
 | {{MenuCommand|Pamiętaj aktywne środowisko pracy według zakładek}}
 | Jeśli opcja ta zostanie zaznaczona, FreeCAD zapamięta i przywróci aktywne środowisko pracy dla każdej zakładki w [[Main_View_Area/pl|Głównym obszarze roboczym]].
 |}
-</div>
 
 <span id="Import-Export"></span>
 ==Import Eksport==
