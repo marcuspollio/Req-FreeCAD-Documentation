@@ -1,7 +1,7 @@
 <languages/>
 
 {{Docnav/fr
-|[[Std_TreeSelection/fr|Arborescence Aller à la sélection]]
+|[[Std_TreeSelection/fr|Aller à la sélection]]
 |[[Std_SelForward/fr|Sélection suivante]]
 |[[Std_Edit_Menu/fr|Menu Édition]]
 |IconL=Std_TreeSelection.svg
@@ -28,7 +28,7 @@ La commande '''Std Sélection précédente''' restaure la sélection précédent
 
 # Il faut qu'il y ait eu une sélection précédente dans la vue en arborescence.
 # Il y a plusieurs façons de lancer la commande :
-#* Cliquez sur la flèche noire vers le bas à droite du bouton {{Button|[[Image:Std_TreeSyncView.svg|16px]]}} et sélectionnez l'option {{MenuCommand|[[Image:Std_SelBack.svg|16px]] Sélection précédente}} dans la liste déroulante. Remarque : l'image du bouton changera en fonction de l'option sélectionnée.
+#* Cliquez sur la flèche vers le bas à droite du bouton {{Button|[[Image:Std_TreeSyncView.svg|16px]]}} et sélectionnez l'option {{MenuCommand|[[Image:Std_SelBack.svg|16px]] Sélection précédente}} dans la liste déroulante. Remarque : l'image du bouton changera en fonction de l'option sélectionnée.
 #* Sélectionnez l'option {{MenuCommand|Affichage → Actions dans l'arborescence → Sélection précédente}} du menu.
 #* Utilisez le raccourci clavier : {{KEY|S}} puis {{KEY|B}}.
 # La sélection précédente est restaurée.
