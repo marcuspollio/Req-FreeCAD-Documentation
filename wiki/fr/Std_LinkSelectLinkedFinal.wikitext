@@ -21,7 +21,7 @@
 
 == Description ==
 
-La commande '''Std Objet lié le plus profond''' sélectionne {{PropertyData|Linked Object}}, l'objet source, d'un objet [[App_Link/fr|App Link]], un lien. Mais si cet objet source est également un lien, son objet lié est sélectionné à la place. Ceci est répété jusqu'à ce que l'objet lié ne soit pas un lien. Cet objet source final est l'objet lié le plus profond.
+La commande '''Std Objet lié le plus profond''' sélectionne la propriété {{PropertyData|Linked Object}}, l'objet source, d'un objet [[App_Link/fr|App Link]], un lien. Mais si cet objet source est également un lien, son objet lié est sélectionné à la place. Ceci est répété jusqu'à ce que l'objet lié ne soit pas un lien. Cet objet source final est l'objet lié le plus profond.
 
 <span id="Usage"></span>
 ==Utilisation ==
