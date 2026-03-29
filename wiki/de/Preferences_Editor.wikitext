@@ -582,7 +582,6 @@ Die {{MenuCommand|Sphere size}} (Kugelgröße) und die {{MenuCommand|Color and t
 
 Auf dieser Seite kann Folgendes festgelegt werden:
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Name
 !style="width: 66%;"|Beschreibung
@@ -591,9 +590,9 @@ Auf dieser Seite kann Folgendes festgelegt werden:
 | Wenn diese Option ausgewählt ist, wird der Hintergrund der [[3D_View/de|3D-Ansicht]] in der angegebenen Farbe dargestellt.
 |-
 | {{MenuCommand|Linearer Verlauf}}
-| Wenn diese Option ausgewählt ist, wird der Hintergrund der [[3D_View/de|3D-Ansicht]] mit einem vertikalen Farbverlauf versehen, der durch die angegebenen Farben '''Oben''' und '''Unten''' definiert wird. Wenn diese Option aktiviert ist, kann auch eine Farbe für '''Mitte''' angegeben werden. Die Schaltfläche {{Button|[[Image:Button_sort.svg|16px]]}} ({{Version/de|0.21}}) drücken, um die Farben für oben und unten zu vertauschen.
+| Wenn diese Option ausgewählt ist, wird der Hintergrund der [[3D_View/de|3D-Ansicht]] mit einem vertikalen Farbverlauf versehen, der durch die angegebenen Farben '''Oben''' und '''Unten''' definiert wird. Wenn diese Option aktiviert ist, kann auch eine Farbe für '''Mitte''' angegeben werden. Die Schaltfläche {{Button|[[Image:Button_sort.svg|16px]]}} drücken, um die Farben für oben und unten zu vertauschen.
 |-
-| {{MenuCommand|Radialer Verlauf}} {{Version/de|0.21}}
+| {{MenuCommand|Radialer Verlauf}}
 | Wenn diese Option ausgewählt ist, wird der Hintergrund der [[3D_View/de|3D-Ansicht]] mit einem radialen Farbverlauf versehen, der durch die angegebenen Farben '''Central''' und '''End''' definiert wird. Wenn diese Option aktiviert ist, kann auch eine Farbe '''Midway''' angegeben werden. Die Schaltfläche {{Button|[[Image:Button_sort.svg|16px]]}} drücken, um die Farben Zentral und Ende zu vertauschen.
 |-
 | {{MenuCommand|Objekte in Bearbeitung}}
@@ -608,7 +607,6 @@ Auf dieser Seite kann Folgendes festgelegt werden:
 | {{MenuCommand|Bezeichnungstextgröße}}
 | Die Größe des Bezeichnungstextes.
 |}
-</div>
 
 <span id="Advanced"></span>
 ===Erweitert===
