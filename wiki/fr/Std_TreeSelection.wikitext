@@ -22,7 +22,7 @@
 
 La commande '''Std Aller à la sélection''' fait défiler l'[[Tree_View/fr|arborescence]] jusqu'au premier objet créé dans une sélection de la [[3D_View/fr|vue 3D]].
 
-Si le mode de la vue en arborescence [[Std_TreeSyncSelection/fr|Synchroniser la sélection]] est désactivé, l'arborescence défile jusqu'au premier objet créé dans la sélection dont le parent est déjà développé dans l'arborescence. Si aucun des parents des objets n'est développé, la commande n'aura aucun effet dans ce mode.
+Si le mode [[Std_TreeSyncSelection/fr|Synchroniser la sélection]] de l'arborescence est désactivé, l'arborescence défile jusqu'au premier objet créé dans la sélection dont le parent est déjà développé dans l'arborescence. Si aucun des parents des objets n'est développé, la commande n'aura aucun effet dans ce mode.
 
 <span id="Usage"></span>
 ==Utilisation==
