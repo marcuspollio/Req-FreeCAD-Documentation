@@ -276,7 +276,7 @@ self.numericInput.move(250, 220)
 self.show()
 }}
 
-There is only one line and it causes the GUI to be displayed after the setup.
+Там всего одна строка, и она приводит к отображению интерфейса после завершения настройки.
 
 ==Code Based Discussion - Operative Portion==
 
