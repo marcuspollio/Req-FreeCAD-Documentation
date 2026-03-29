@@ -506,9 +506,7 @@ Wenn {{MenuCommand|Zum Nächsten drehen}} aktiviert ist, wird die 3D-Ansicht bei
 
 {{MenuCommand|Würfelgröße}} bestimmt die Größe des Würfels.
 
-<div class="mw-translate-fuzzy">
-{{MenuCommand|Farbe}} setzt die Basisfarbe für alle Elemente. {{Version|0.21}}
-</div>
+{{MenuCommand|Farbe}} setzt die Basisfarbe für alle Elemente.
 
 {{MenuCommand|Ecke}} legt fest, wo der Navigationswürfel in der [[3D_View/de|3D-Ansicht]] angezeigt wird. Die Optionen sind:
 * '''Oben links'''
