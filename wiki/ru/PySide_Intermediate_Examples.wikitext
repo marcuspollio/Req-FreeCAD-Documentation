@@ -741,7 +741,7 @@ form = ExampleNonmodalGuiClass()
 * геометрия
 В программном обеспечении все эти параметры измеряются в пикселях. PySide имеет функцию измерения в реальных единицах измерения, но эти данные ненадежны, поскольку производители не имеют стандартов для размера пикселя или соотношения сторон.
 
-The Frame is the size of a window including it's side bars, top bar (possibly with a menu in it) and bottom bar. The Geometry is the space lying within the Frame and so is always less than or equal to the Frame. In turn the Frame is always less than or equal to the available screen size.
+Размер рамки (Frame) — это размер окна, включая боковые панели, верхнюю панель (возможно, с меню) и нижнюю панель. Геометрия (Geometry) — это пространство внутри рамки, поэтому она всегда меньше или равна размеру рамки. В свою очередь, размер рамки всегда меньше или равен доступному размеру экрана.
 
 ===Available Screen Size===
 
