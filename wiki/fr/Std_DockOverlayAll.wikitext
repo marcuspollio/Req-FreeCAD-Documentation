@@ -23,7 +23,7 @@
 
 La commande '''Std Basculer la superposition pour tout''' active ou désactive simultanément le mode superposition pour tous les panneaux ancrés.
 
-Le [[Interface/fr#Panneaux_superposables_ancrables|mode superposition]] permet d'optimiser l'espace disponible pour les [[3D_view/fr|vue 3D]] en transformant les panneaux ancrés (tels que la [[Combo_view/fr|vue combinée]] et la [[Report_view/fr|vue rapport]]) en widgets flottants transparents. Lorsqu'ils sont activés, ces panneaux flottent au-dessus de la fenêtre principale, permettant à la vue 3D de s'étendre dans l'espace qu'ils occupaient auparavant. Les panneaux deviennent entièrement opaques et utilisables lorsque le curseur de la souris passe dessus, et redeviennent transparents lorsque le curseur s'éloigne. Cela permet d'interagir avec le modèle 3D « à travers » le panneau transparent.
+Le [[Interface/fr#Panneaux_superposables_ancrables|mode superposition]] permet d'optimiser l'espace disponible pour les [[3D_View/fr|vue 3D]] en transformant les panneaux ancrés (tels que la [[Combo_View/fr|vue combinée]] et la [[Report_View/fr|vue rapport]]) en widgets flottants transparents. Lorsqu'ils sont activés, ces panneaux flottent au-dessus de la fenêtre principale, permettant à la vue 3D de s'étendre dans l'espace qu'ils occupaient auparavant. Les panneaux deviennent entièrement opaques et utilisables lorsque le curseur de la souris passe dessus, et redeviennent transparents lorsque le curseur s'éloigne. Cela permet d'interagir avec le modèle 3D « à travers » le panneau transparent.
 
 <span id="Usage"></span>
 ==Utilisation==
