@@ -9,11 +9,11 @@
 <span id="Notes"></span>
 ===Примечания=== 
 
-* This page is not intended to cover the Python language or to serve as an instruction in Python.
-* The variable names are not descriptive but have been kept in sequence to better organise the explanations
-* There are numerous naming conventions for GUI components, none of which are "right" or "wrong"
-* There are a variety of different sequencings of the declarations for the widgets, the signals, the methods, once again none are "right" or "wrong"
-* It is worth keeping in mind that PySide operates with strings when dealing with user input, what appears on the screen as a number is actually a text representation of a number
+* Эта страница не предназначена для описания языка Python или в качестве инструкции по Python.
+* Названия переменных не являются описательными, но расположены в определенной последовательности для лучшей организации пояснений.
+* Существует множество соглашений об именовании компонентов графического интерфейса, ни одно из которых не является «правильным» или «неправильным».
+* Существует множество различных последовательностей объявления виджетов, сигналов, методов, и опять же, ни одна из них не является «правильной» или «неправильной».
+* Стоит помнить, что PySide работает со строками при обработке пользовательского ввода; то, что отображается на экране как число, на самом деле является текстовым представлением числа.
 
 ==Code Based Discussion - Declarative Portion==
 
