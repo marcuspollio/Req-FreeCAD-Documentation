@@ -237,7 +237,7 @@ The setting '''Max Spline Segment''' is then the maximum length of each of the p
 <!--T:242-->
 Note for Linux users: To handle this file format FreeCAD requires the [[Extra_python_modules|IfcOpenShell module]].
 
-====IFC import==== <!--T:246-->
+====IFC Import==== <!--T:246-->
 
 </translate>
 [[Image:Preferences_Import-Export_Page_IFC_import.png|400px]]
@@ -309,7 +309,7 @@ To get the FreeCAD properties, the model must have been exported using the optio
 |  If checked, groups will be used to replace the mentioned objects.
 |}
 
-====IFC export==== <!--T:247-->
+====IFC Export==== <!--T:247-->
 
 </translate>
 [[Image:Preferences_Import-Export_Page_IFC_export.png|400px]]
@@ -523,6 +523,14 @@ On this page you can specify the following:
 | If checked, the areas (3D faces) will be imported too.
 |}
 
+===PDF===
+
+TBD.
+
+===SH3D Import===
+
+TBD.
+
 ===STEP=== <!--T:178-->
 
 </translate>
@@ -699,6 +707,10 @@ If '''FEM mesh object''' is selected, the results in the VTK file will be omitte
 <!--T:220-->
 If '''FreeCAD result object''' is selected, the imported data will be converted into a FreeCAD FEM Result object. '''Note:''' this setting needs the exact result component names and thus it only works properly with VTK files exported from FreeCAD.
 |}
+
+===WebGL===
+
+TBD.
 
 
 <!--T:193-->
