@@ -17,7 +17,7 @@ Der '''Navigationswürfel''' stellt visuelle Informationen zur Kameraausrichtung
 Der Navigationswürfel besteht aus mehreren Teilen:
 * Dem [[#Hauptwürfel|Hauptwürfel]]
 * Sechs [[#Richtungspfeile|Richtungspfeilen]]
-* Der [[#Schaltfläche_Ansicht_umkehren|Schaltfläche Ansicht umkehren]] (oben rechts) {{Version/de|0.20}}
+* Der [[#Schaltfläche_Ansicht_umkehren|Schaltfläche Ansicht umkehren]] (oben rechts)
 * Dem [[#Miniwürfel-Menü|Miniwürfel-Menü]] (unten rechts)
 * Den X-, Y- und Z-Achsindikatoren 
 
@@ -29,7 +29,9 @@ Alle Elemente, außer den Achsindikatoren, können angeklickt werden.
 <span id="Main_cube"></span>
 ===Hauptwürfel===
 
-Der Hauptwürfel besitzt 26 Flächen: 6 Hauptflächen, 12 rechteckige Kantenflächen ({{Version/de|0.20}}), und 8 Eckflächen. Ein Klick auf eine dieser Flächen ändert die Kameraausrichtung so, dass ihre Blickrichtung senkrecht zu der ausgewählten Fläche verläuft.
+<div class="mw-translate-fuzzy">
+Der Hauptwürfel besitzt 26 Flächen: 6 Hauptflächen, 12 rechteckige Kantenflächen, und 8 Eckflächen. Ein Klick auf eine dieser Flächen ändert die Kameraausrichtung so, dass ihre Blickrichtung senkrecht zu der ausgewählten Fläche verläuft.
+</div>
 
 <span id="Directional_arrows"></span>
 ===Richtungspfeile=== 
