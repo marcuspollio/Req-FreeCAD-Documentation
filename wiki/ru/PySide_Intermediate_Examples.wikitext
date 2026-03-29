@@ -340,7 +340,7 @@ def mousePressEvent(self, event):
 
 Обработчик событий мыши аналогичен универсальному обработчику, за исключением того, что в него передается второй параметр — событие мыши (например, щелчок левой кнопкой мыши, щелчок правой кнопкой мыши) от пользователя. Имя обработчика, "mousePressEvent", зарезервировано, и если оно изменено, обработчик больше не будет получать события от нажатий мыши.
 
-The X and Y coordinates of the mouse press are given by the reference "event.pos().x()" and "event.pos().y()". The constants "QtCore.Qt.LeftButton" and "QtCore.Qt.RightButton" are used to determine which mouse button was pressed.
+Координаты X и Y момента нажатия кнопки мыши задаются с помощью ссылок "event.pos().x()" и "event.pos().y()". Константы "QtCore.Qt.LeftButton" и "QtCore.Qt.RightButton" используются для определения того, какая кнопка мыши была нажата.
 
 A reference to a widget can be made of the form "self.widgetName.underMouse()" which will return {{TRUE}} or {{FALSE}} as to whether the mouse cursor is over the widget "widgetName". Although presented in the same code excerpt the "underMouse()" handler is not tied to the "mousePressEvent" handler and can be used at any time.
 
