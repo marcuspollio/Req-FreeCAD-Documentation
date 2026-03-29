@@ -29,7 +29,7 @@
 <span id="Import_Statement"></span>
 ===Объявление импорта===
 
-Обязательное объявление импорта
+Обязательный импорт
 
 {{Code|code=
 from PySide import QtGui, QtCore
