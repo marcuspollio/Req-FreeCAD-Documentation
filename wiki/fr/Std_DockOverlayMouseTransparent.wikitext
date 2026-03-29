@@ -34,9 +34,9 @@ Pour sortir de ce mode et rendre les panneaux superposés à nouveau interactifs
 <span id="Usage"></span>
 ==Utilisation==
 
-# Le mode de [[Std_DockOverlayAll/fr|superposition]] doit être actif.
+# Le [[Std_DockOverlayAll/fr|mode de superposition]] doit être activé.
 # Il y a plusieurs façons de lancer la commande :
-#* Sélectionnez l'option {{MenuCommand|Affichage → Panneau ancrable → Ignorer les actions de la souris sur les panneaux superposés ancrés}} du menu.
+#* Sélectionnez l'option {{MenuCommand|Affichage → Superposition des panneaux ancrables → Ignorer les actions de la souris sur les panneaux superposés ancrés}} du menu.
 #* Utilisez le raccourci clavier : {{KEY|T}} puis {{KEY|T}}.
 # Pour désactiver le mode, utilisez à nouveau la même commande ou appuyez sur {{KEY|Échap}}.
 
