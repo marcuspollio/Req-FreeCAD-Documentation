@@ -10,17 +10,25 @@
 <span id="Introduction"></span>
 ==Introduzione==
 
+<div class="mw-translate-fuzzy">
 Per avviare l' '''Editor delle preferenze''' selezionare l'opzione dal menu {{MenuCommand|Modifica → Preferenze...}} o ({{Version/it|1.1}}) usare la scorciatoia da tastiera {{KEY|Ctrl}}+{{KEY|,}}. Su macOS invece, l'opzione {{MenuCommand|Preferenze...}} appare nel menu {{MenuCommand|FreeCAD}} (questa è la posizione predefinita per le preferenze su Mac).
+</div>
 
 FreeCAD utilizza il concetto di ambiente di lavoro, in cui ogni ambiente di lavoro è responsabile di attività e funzioni specifiche. Un ambiente di lavoro può avere le sue proprie preferenze. Queste appariranno nell'editor delle Preferenze, di solito in un gruppo dedicato, se l'ambiente di lavoro è stato caricato nella sessione corrente di FreeCAD. Alcuni ambienti di lavoro aggiungono il supporto per formati di importazione ed esportazione specifici. Se sono presenti preferenze correlate, verranno visualizzate in una o più pagine aggiuntive nel gruppo [[#Import-Export|Import-Export]] dell'editor delle preferenze.
 
 Per preservare le risorse, FreeCAD non carica automaticamente tutti gli ambienti di lavoro disponibili. Vedi [[#Ambienti_di_lavoro|Ambienti di lavoro]] per maggiori informazioni. Per un elenco delle preferenze relative all'ambiente, vedere [[#Preferenze relative agli Ambienti di Lavoro|Preferenze relative agli Ambienti di Lavoro]].
 
+<div class="mw-translate-fuzzy">
 Se non è stato caricato alcun ambiente di lavoro, nell'editor delle Preferenze appaiono sette gruppi: [[#Generale|Generale]], [[#Visualizzazione|Visualizzazione]], [[#Ambienti_di_lavoro|Ambienti di lavoro]], [[#Python|Python]], [[#Addon_Manager|Addon Manager]], [[#Import-Export|Import-Export]] e [[#Measure|Measure]]. Tutti gli ambienti di lavoro che sono stati caricati e hanno le proprie preferenze verranno visualizzati di seguito.
+</div>
 
+<div class="mw-translate-fuzzy">
 Premendo il pulsante {{Button|Ripristina}} nell'angolo in basso a sinistra della finestra di dialogo Preferenze si apre un menu ({{Version/it|1.0}}) con opzioni per ripristinare le preferenze ai valori predefiniti. Si possono reimpostare la pagina corrente, il gruppo corrente o tutte le preferenze. Nella {{VersionMinus/it|0.21}} il pulsante ripristinerà '''tutte''' le preferenze.
+</div>
 
+<div class="mw-translate-fuzzy">
 Alcune preferenze avanzate possono essere modificate solo in [[Std_DlgParameter/it|Modifica parametri]]. La pagina [[Fine-tuning/it|Ottimizzare l'installazione]] ne elenca alcuni.
+</div>
 
 Questa pagina è stata aggiornata per la versione 1.0.
 
@@ -30,8 +38,6 @@ Questa pagina è stata aggiornata per la versione 1.0.
 <div class="mw-translate-fuzzy">
 Questo gruppo delle preferenze ha sette pagine: Generale, Documento, Selezione, Cache, Area di notifica, Report e Aiuto.
 </div>
-
-In {{VersionMinus/it|0.21}} la settima pagina, Aiuto, è disponibile solo se il [https://github.com/FreeCAD/FreeCAD-Help Help Addon] è stato [[Std_AddonMgr/it|installato]].
 
 <span id="General"></span>
 === Generale ===
@@ -282,7 +288,9 @@ In questa pagina si può specificare quanto segue:
 
 Queste preferenze controllano l'area di notifica e le relative notifiche.
 
+<div class="mw-translate-fuzzy">
 In questa pagina ({{Version/it|0.21}}) si può specificare quanto segue:
+</div>
 
 <div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-collapsed"
@@ -555,7 +563,9 @@ Se {{MenuCommand|Ruota verso il più vicino}} è selezionato, la vista 3D viene 
 {{MenuCommand|Dimensione cubo}} definisce la dimensione del cubo. {{Version/it|0.20}}
 </div>
 
+<div class="mw-translate-fuzzy">
 {{MenuCommand|Color}} imposta il colore base di tutti gli elementi. {{Version/it|0.21}}
+</div>
 
 <div class="mw-translate-fuzzy">
 {{MenuCommand|Corner}} definisce dove viene visualizzato il cubo di navigazione nella [[3D_view/it|Vista 3D]]. Le opzioni sono:
@@ -565,7 +575,9 @@ Se {{MenuCommand|Ruota verso il più vicino}} è selezionato, la vista 3D viene 
 * '''In basso a destra'''
 </div>
 
+<div class="mw-translate-fuzzy">
 {{MenuCommand|Nome carattere}} specifica il carattere usato per i testi del cubo. {{Version/it|0.21}}
+</div>
 
 {{MenuCommand|Opacity when inactive}} Opacity of the Navigation cube when not hovered by the mouse. {{Version|1.0}}
 
@@ -771,6 +783,10 @@ Nella scheda ''Ambienti di Lavoro Disponibili'' è possibile specificare quanto 
 |}
 </div>
 
+==Import-Export==
+
+Le preferenze Importa/Esporta influiscono sulla modalità di importazione ed esportazione dei file. Sono descritte nella pagina [[Import_Export_Preferences/it|Preferenze di Importa/Esporta]].
+
 ==Python==
 
 <div class="mw-translate-fuzzy">
@@ -903,6 +919,45 @@ Nella scheda ''Editor'' è possibile specificare quanto segue
 |}
 </div>
 
+==Start==
+
+{{Version|1.1}}
+
+This preferences group has a single page: General.
+
+===General===
+
+TBD.
+
+==Measure==
+
+{{Version|1.0}}
+
+This preferences group has a single page: Appearance.
+
+===Appearance===
+
+[[Image:Preferences_Measure_Page_Appearance.png|400px]]
+
+On this page you can specify the following:
+
+{| class="wikitable float-right mw-collapsible mw-uncollapsed"
+!style="width: 33%;"|Name
+!style="width: 66%;"|Description
+|-
+| {{MenuCommand|Text size}}
+| Specifies the size of the text in pixels.
+|-
+| {{MenuCommand|Text color}}
+| Specifies the color of the text.
+|-
+| {{MenuCommand|Line color}}
+| Specifies the color of the line connecting the text label with the measured element(s).
+|-
+| {{MenuCommand|Background color}}
+| Specifies the background color of the text label.
+|}
+
 ==Addon Manager==
 
 <div class="mw-translate-fuzzy">
@@ -952,7 +1007,9 @@ Nella scheda ''Opzioni di Addon manager'' ({{Version/it|0.20}}) puoi specificare
 | I repository personalizzati possono essere specificati qui.
 </div>
 
+<div class="mw-translate-fuzzy">
 Per aggiungere un repository premere il pulsante {{Button|[[Image:List-add.svg|16px]]}}. Sia il {{MenuCommand|Repository URL}} che il {{MenuCommand|Branch}}, tipicamente {{Value|master}} o {{Value|main}}, devono essere specificati nella finestra di dialogo che si apre. {{Version/it|0.21}}
+</div>
 
 <div class="mw-translate-fuzzy">
 Per rimuovere un repository selezionalo nell'elenco e premere il pulsante {{Button|[[Image:List-remove.svg|16px]]}}. {{Version/it|0.21}}
@@ -976,39 +1033,6 @@ Per rimuovere un repository selezionalo nell'elenco e premere il pulsante {{Butt
 | Se selezionato, vengono attivate le opzioni del gestore Addon destinate agli sviluppatori di addons. {{Version/it|0.21}}
 |}
 </div>
-
-==Import-Export==
-
-Le preferenze Importa/Esporta influiscono sulla modalità di importazione ed esportazione dei file. Sono descritte nella pagina [[Import_Export_Preferences/it|Preferenze di Importa/Esporta]].
-
-==Measure==
-
-{{Version|1.0}}
-
-This preferences group has a single page: Appearance.
-
-===Appearance===
-
-[[Image:Preferences_Measure_Page_Appearance.png|400px]]
-
-On this page you can specify the following:
-
-{| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
-|-
-| {{MenuCommand|Text size}}
-| Specifies the size of the text in pixels.
-|-
-| {{MenuCommand|Text color}}
-| Specifies the color of the text.
-|-
-| {{MenuCommand|Line color}}
-| Specifies the color of the line connecting the text label with the measured element(s).
-|-
-| {{MenuCommand|Background color}}
-| Specifies the background color of the text label.
-|}
 
 <span id="Workbench_related_preferences"></span>
 ==Preferenze relative agli Ambienti di Lavoro==
