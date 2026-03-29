@@ -20,7 +20,7 @@
 
 ==Description==
 
-La commande '''Std Présélection''' active ou pas le mode Préselection de la [[Tree_view/fr|vue en arborescence]]. Si ce mode est activé, un objet sur lequel la souris se trouve dans l'arborescence sera présélectionné (temporairement mis en surbrillance) dans toutes les [[3D_view/fr|vues 3D]] appartenant au document de cet objet.
+La commande '''Std Présélection''' active ou pas le mode Préselection de l'[[Tree_View/fr|arborescence]]. Si ce mode est activé, un objet sur lequel la souris se trouve dans l'arborescence sera présélectionné (temporairement mis en surbrillance) dans toutes les [[3D_View/fr|vues 3D]] appartenant au document de cet objet.
 
 <span id="Usage"></span>
 ==Utilisation==
