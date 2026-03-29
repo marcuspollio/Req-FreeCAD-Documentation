@@ -197,7 +197,7 @@ self.textInput.setFixedWidth(190)
 self.textInput.move(20, 220)
 }}
 
-The QLineEdit widget is probably the most common for user textual input, in this example the code section after this one will set up a contextual menu to operate on it. This code section creates (line 2), sets an initial value (line 3), sets a width to the field (line 4) and moves the widget into place (line 5).
+Виджет QLineEdit, вероятно, является наиболее распространенным для ввода текста пользователем. В этом примере следующий фрагмент кода создаст контекстное меню для работы с ним. Этот фрагмент кода создает (строка 2), устанавливает начальное значение (строка 3), задает ширину поля (строка 4) и перемещает виджет на нужное место (строка 5).
 
 ===QuantitySpinBox Creation===
 
