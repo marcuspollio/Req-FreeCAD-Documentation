@@ -12,7 +12,7 @@
 {{GuiCommand/fr
 |Name=Std DockOverlayTransparentAll
 |Name/fr=Std Basculer la transparence pour tout
-|MenuLocation=Affichage → Panneau ancrable → Activer/désactiver la transparence pour tout
+|MenuLocation=Affichage → Superposition des panneaux ancrables → Activer/désactiver la transparence de tous les panneaux
 |Workbenches=Tous
 |Shortcut={{KEY|Maj}}+{{KEY|F4}}
 |Version=1.0
