@@ -154,7 +154,7 @@ self.popupItems1 = OrderedDict([("2","widget"),("pink","foobar"),("4","galopsis"
 self.popup1.addItems(self.popupItems1.keys())
 }}
 
-Returning to the main code sample for this section, line 6 sets the default choice, this line may be omitted, also the value of the default choice could be loaded into the corresponding Label (once again if appropriate). And finally the move into position at line 8.
+Возвращаясь к основному примеру кода для этого раздела, строка 6 устанавливает выбор по умолчанию; эту строку можно опустить, также значение выбора по умолчанию можно загрузить в соответствующую метку (опять же, если это необходимо). И наконец, перемещение на позицию в строке 8.
 
 <span id="Button_Creation_Part_1"></span>
 ===Создание Кнопок Часть 1===
@@ -167,7 +167,7 @@ pushButton1.setAutoDefault(False)
 pushButton1.move(210, 165)
 }}
 
-The button is created in line 2 with it's name, the handler for it's signal when clicked is specified in line 3. Line 4 is there to prevent the button from becoming the 'default button' - the button that will be clicked if the user simply presses the {{KEY|Return}} key. And a move to position finished up the code segment.
+Кнопка создается во второй строке с указанием ее имени, обработчик сигнала при нажатии указывается в третьей строке. Четвертая строка предназначена для предотвращения превращения кнопки в «кнопку по умолчанию» — кнопку, которая будет нажата, если пользователь просто нажмет клавишу {{KEY|Return}}. И перемещение на позицию завершает сегмент кода.
 
 ===Button Creation Part 2===
 
