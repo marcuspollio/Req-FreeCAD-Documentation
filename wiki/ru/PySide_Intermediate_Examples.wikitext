@@ -285,7 +285,7 @@ self.show()
 
 Между обработчиками наблюдается высокая степень сходства. Большинство из них не получают параметров, фактически единственным параметром (или сигналом) является сам факт их выполнения. Другие, такие как "onPopup1" и "mousePressEvent", принимают параметр.
 
-There must be a one to one correspondance between the handlers specified in the declarative section and the handler declared in this, the operative section. There may be extra handlers declared which are never invoked but there may not be any missing.
+Между обработчиками, указанными в декларативном разделе, и обработчиком, объявленным в этом, оперативном разделе, должно существовать однозначное соответствие. Могут быть объявлены дополнительные обработчики, которые никогда не вызываются, но при этом не должно быть отсутствующих.
 
 ===Generic Handler===
 
