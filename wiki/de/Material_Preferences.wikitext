@@ -24,9 +24,7 @@ Dort gibt es zwei Seiten: [[#General|Allgemein]] und [[#Default Material|Standar
 [[Image:Preferences_Material_Page_General.png|thumb|350px|Allgemeine Einstellungen]]
 
 <span id="Card_Resources"></span>
-<div class="mw-translate-fuzzy">
 ===Karten-Ressourcen===
-</div>
 
 * '''Vorinstallierte Materialien verwenden''': Die in FreeCAD integrierten Karten werden als verfügbar aufgelistet.
 * '''Materialien von externen Erweiterungen verwenden''': Materialien, die von externen Erweiterungen hinzugefügt wurden, verwenden.
@@ -35,9 +33,7 @@ Dort gibt es zwei Seiten: [[#General|Allgemein]] und [[#Default Material|Standar
 * '''Benutzerverzeichnis''': Quelle für zusätzliche Materialien.
 
 <span id="Card_Sorting_and_Duplicates"></span>
-<div class="mw-translate-fuzzy">
 ===Kartensortierung und Duplikate===
-</div>
 
 * '''Kartenduplikate löschen''': Doppelte Karten werden aus der Liste der angezeigten Materialien gelöscht.
 * '''Nach Quellen sortieren''': Materialkarten werden nach ihren Quellen (Ablageorten) sortiert. Wenn deaktiviert, werden sie nach ihren Namen sortiert.
