@@ -71,12 +71,12 @@ self.setWindowTitle("Our Example Program Window")
 self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
 }}
 
-Remembering that screen dimensions are measured from the upper-left corner, on the 3rd line the values refer to:
-* the number of pixels the upper-left corner will be to the right of the lefthand screen edge (250)
-* the number of pixels the upper-left corner will be below the upper screen edge (250)
-* the width of the screen in pixels (400)
-* the height of the screen in pixels (350)
-The title of the window is set and the final line simply means that this window will never be obscured by another window - if this is not desired then simply place a Python comment character ('#') as the first character of the line.
+Помните, что размеры экрана измеряются от верхнего левого угла, в 3-й строке значения относятся к:
+* количество пикселей, на которое верхний левый угол будет находиться правей от левого края экрана (250)
+* количество пикселей, на которое верхний левый угол будет находиться ниже верхнего края экрана (250)
+* ширине экрана в пикселях (400)
+* высоте экрана в пикселях (350)
+Заголовок окна задан, а последняя строка просто означает, что это окно никогда не будет закрыто другим окном — если это не требуется, просто поместите символ комментария Python ('#') в качестве первого символа строки.
 
 <span id="Label_Creation"></span>
 ===Создание надписей===
