@@ -23,8 +23,10 @@ Ci sono due pagine: [[#General|Generale]] e [[#Default Material|Materiale predef
 
 [[Image:Preferences_Material_Page_General.png|thumb|350px|Preferenze Generali]]
 
-<span id="Card_resources"></span>
+<span id="Card_Resources"></span>
+<div class="mw-translate-fuzzy">
 ===Risorse della scheda===
+</div>
 
 * '''Usa materiali incorporati''': Se selezionata, verranno elencati i materiali predefiniti di FreeCAD.
 * '''Usa materiali da ambienti esterni''': Se selezionata, verranno elencati i materiali aggiunti da workbench esterni (aggiuntivi).
@@ -32,8 +34,10 @@ Ci sono due pagine: [[#General|Generale]] e [[#Default Material|Materiale predef
 * '''Usa materiali dalla cartella definita dall'utente''': Se selezionata, verranno elencati i materiali dalla directory specificata.
 * '''Cartella dell'utente''': origine per materiali aggiuntivi.
 
-<span id="Card_sorting_and_duplicates"></span>
+<span id="Card_Sorting_and_Duplicates"></span>
+<div class="mw-translate-fuzzy">
 ===Ordinamento e duplicati schede===
+</div>
 
 * '''Elimina duplicati della scheda''': se selezionata, i materiali duplicati vengono eliminati dall'elenco.
 * '''Ordina per risorse''': se selezionata, i materiali vengono visualizzati ordinati in base alle risorse (posizioni). Se non selezionata, vengono ordinati in base al nome.
