@@ -501,9 +501,7 @@ Si la case {{MenuCommand|Tourner au plus près}} est cochée, la vue 3D est tour
 
 {{MenuCommand|Taille du cube}} définit la taille du cube.
 
-<div class="mw-translate-fuzzy">
-{{MenuCommand|Couleur}} définit la couleur de base de tous les éléments. {{Version/fr|0.21}}
-</div>
+{{MenuCommand|Couleur}} définit la couleur de base de tous les éléments.
 
 {{MenuCommand|Choix du coin}} définit l'endroit où le cube de navigation est affiché dans la [[3D_View/fr|vue 3D]]. Les options sont :
 * '''En haut à gauche'''
