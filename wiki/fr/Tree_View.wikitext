@@ -5,7 +5,7 @@
 
 L'[[Tree_View/fr|arborescence]] apparaît dans la section supérieure du panneau '''Modèle''' (si la [[Combo_View/fr|vue combinée]] est active) ou en tant que panneau indépendant. Elle montre tous les objets définis par l'utilisateur qui font partie d'un document FreeCAD. L'arborescence est une représentation de la [[Document_structure/fr|structure du document]] et indique quelles informations sont sauvegardées sur le disque.
 
-Ces objets ne doivent pas nécessairement être des formes géométriques visibles dans la [[3D_view/fr|vue 3D]] mais peuvent également prendre en charge des objets de données créés avec l'un des [[Workbenches/fr|ateliers]].
+Ces objets ne doivent pas nécessairement être des formes géométriques visibles dans la [[3D_View/fr|vue 3D]] mais peuvent également prendre en charge des objets de données créés avec l'un des [[Workbenches/fr|ateliers]].
 
 [[File:FreeCAD_Tree_view.png]]
 
