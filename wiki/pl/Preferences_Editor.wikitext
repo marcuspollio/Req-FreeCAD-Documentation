@@ -16,9 +16,7 @@ FreeCAD wykorzystuje koncepcję środowiska pracy, gdzie każde z nich jest odpo
 
 Aby oszczędzać zasoby, FreeCAD nie ładuje automatycznie wszystkich dostępnych środowisk pracy. Zobacz sekcję [[#Środowiska_pracy|Środowiska pracy]] aby uzyskać więcej informacji. Lista preferencji związanych z każdym środowiskiem pracy, które znajduje się w sekcji [[#Preferencje_środowisk_pracy|Preferencje środowisk pracy]].
 
-<div class="mw-translate-fuzzy">
-Jeśli nie jest załadowane żadne środowisko pracy, w edytorze Preferencji pojawi się siedem pozycji: [[#Ogólne_2|Ogólne]], [[#Wyświetlanie|Wyświetlanie]], [[#Środowiska pracy|Środowiska pracy]],  [[#Python|Python]], [[#Menadżer dodatków|Menadżer dodatków]], [[#Import Eksport|Import Eksport]] i [[#Pomiary|Pomiary]]. Pod nimi pojawią się wszystkie wczytane te środowiska, które mają swoje własne preferencje.
-</div>
+Jeśli nie jest załadowane żadne środowisko pracy, w edytorze Preferencji pojawi się 8 pozycji: [[#Ogólne_2|Ogólne]], [[#Wyświetlanie|Wyświetlanie]], [[#Środowiska pracy|Środowiska pracy]], [[#Import-Eksport|Import-Eksport]], [[#Python|Python]], [[#Start|Start]], [[#Pomiary|Pomiary]] oraz [[#Menadżer dodatków|Menadżer dodatków]]. Pod nimi pojawią się wszystkie wczytane te środowiska, które mają swoje własne preferencje.
 
 <div class="mw-translate-fuzzy">
 Naciśnięcie przycisku {{Button|Zresetuj ...}} w lewym dolnym rogu okna dialogowego Preferencje otwiera menu ({{Version/pl|1.0}}) z opcjami resetowania preferencji do ich wartości domyślnych. Można zresetować bieżącą stronę, bieżącą grupę lub całość preferencji. W {{VersionMinus/pl|0.21}} kliknięcie przycisku ustawi '''wszystkie''' z opcji FreeCAD na ich wartości domyślne.
