@@ -759,7 +759,8 @@ availableHeight		= QtGui.QDesktopWidget().availableGeometry().height()
 
 (Since Python 3.9 this warning appears when the above code is executed: '''DeprecationWarning: QDesktopWidget.screenGeometry(int screen) const is deprecated'''. A replacement seems to be needed from Python 3.10 onwards.)
 
-===Frame Size and Geometry===
+<span id="Frame_Size_and_Geometry"></span>
+===Размер и геометрия рамки===
 
 {{Code|code=
 # set up a variable to hold the Main Window to save some typing...
