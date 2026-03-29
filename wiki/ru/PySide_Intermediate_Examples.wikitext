@@ -735,11 +735,11 @@ form = ExampleNonmodalGuiClass()
 <span id="Misc_Additional_Topics"></span>
 ==Разные дополнительные темы==
 
-There are 3 concepts to the screen real estate in a GUI environment:
-* physical space on the screen
-* frame
-* geometry
-Within the software all are measured in pixels. PySide has function to measure in real world units but these are undependable as the manufacturers have no standard for pixel size or aspect ratio.
+В графическом интерфейсе (GUI) пространство экрана определяется тремя понятиями:
+* физическое пространство на экране
+* рамка
+* геометрия
+В программном обеспечении все эти параметры измеряются в пикселях. PySide имеет функцию измерения в реальных единицах измерения, но эти данные ненадежны, поскольку производители не имеют стандартов для размера пикселя или соотношения сторон.
 
 The Frame is the size of a window including it's side bars, top bar (possibly with a menu in it) and bottom bar. The Geometry is the space lying within the Frame and so is always less than or equal to the Frame. In turn the Frame is always less than or equal to the available screen size.
 
