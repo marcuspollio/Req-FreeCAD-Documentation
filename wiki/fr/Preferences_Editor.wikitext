@@ -34,7 +34,6 @@ Ce groupe de préférences comporte sept pages : Général, Document, Sélection
 
 Dans cette page, vous pouvez spécifier les éléments suivants :
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33% ;"|Nom
 !style="width: 66% ;"|Description
@@ -61,7 +60,7 @@ Dans cette page, vous pouvez spécifier les éléments suivants :
 * '''C/POSIX''' : un point est utilisé comme séparateur décimal.
 |-
 | {{MenuCommand|Remplacer le séparateur décimal}}
-| Si cette option est cochée, le séparateur décimal du clavier numérique sera remplacé par le séparateur défini par le paramètre {{MenuCommand|Format des nombres}}. {{Version/fr|0.21}} : Notez que si cette préférence est activée, l'utilisation du séparateur décimal du clavier numérique imprimera toujours un point dans la [[Python_Console/fr|console Python]] et l'[[Std_DlgMacroExecute/fr#Éditer|éditeur de macro]].
+| Si cette option est cochée, le séparateur décimal du clavier numérique sera remplacé par le séparateur défini par le paramètre {{MenuCommand|Format des nombres}}. : Notez que si cette préférence est activée, l'utilisation du séparateur décimal du clavier numérique imprimera toujours un point dans la [[Python_Console/fr|console Python]] et l'[[Std_DlgMacroExecute/fr#Éditer|éditeur de macro]].
 |-
 | {{MenuCommand|Thème}}
 | Spécifie un [[Interface_Customization/fr#Thèmes|thème]] pour personnaliser l'apparence de l'interface utilisateur.
@@ -80,7 +79,6 @@ Dans cette page, vous pouvez spécifier les éléments suivants :
 |-
 | {{MenuCommand|Taille de la liste des fichiers récents}}
 | Spécifie combien de fichiers doivent être listés dans la liste des fichiers récents.
-</div>
 
 Les fichiers importés peuvent être exclus de cette liste et les fichiers exportés peuvent y être inclus. Voir [[Fine-tuning/fr|Réglage fin]].
 |-
