@@ -10,17 +10,25 @@
 <span id="Introduction"></span>
 == Introduction ==
 
+<div class="mw-translate-fuzzy">
 Pour lancer l''''Éditeur de préférences''', sélectionnez l'option {{MenuCommand|Édition → Préférences...}} du menu ou ({{Version/fr|1.1}}) utiliser le raccourci clavier {{KEY|Ctrl}}+{{KEY|,}}. Sur macOS, l'option {{MenuCommand|Préférences...}} apparaît dans le menu {{MenuCommand|FreeCAD}} à la place (c'est l'emplacement par défaut des préférences sur Mac).
+</div>
 
 FreeCAD utilise un concept d'atelier, où chaque atelier est responsable de tâches et de fonctions spécifiques. Un atelier peut avoir ses propres préférences. Celles-ci n'apparaîtront dans l'éditeur de préférences, généralement dans un groupe dédié, que si l'atelier a été chargé dans la session FreeCAD en cours. Certains ateliers prennent en charge des formats d'importation et d'exportation spécifiques. S'il y a des préférences associées, elles apparaîtront sur une ou plusieurs pages supplémentaires dans le groupe [[#Importer/Exporter|Importer/Exporter]] de l'éditeur de préférences.
 
 Pour préserver les ressources, FreeCAD ne charge pas automatiquement tous les ateliers disponibles. Voir [[#Ateliers|Ateliers]] pour plus d'informations. Pour une liste des préférences relatives aux ateliers, voir [[#Préférences_liées_aux_ateliers|Préférences liées aux ateliers]].
 
+<div class="mw-translate-fuzzy">
 Si aucun atelier n'est chargé, sept groupes apparaissent dans l'éditeur de préférences : [[#G.C3.A9n.C3.A9ral|Général]], [[#Affichage|Affichage]], [[#Ateliers|Ateliers]], [[#Python|Python]], [[#Gestionnaire_des_extensions|Gestionnaire des extensions]], [[#Importer/Exporter|Importer/Exporter]] et [[#Mesure|Mesure]]. Tous les ateliers qui ont été chargés et qui ont leurs propres préférences, apparaîtront en dessous de ceux-ci.
+</div>
 
+<div class="mw-translate-fuzzy">
 En appuyant sur le bouton {{Button|Réinitialiser}} dans le coin inférieur gauche de la fenêtre de dialogue de Préférences, vous ouvrez un menu ({{Version/fr|1.0}}) avec des options permettant de réinitialiser les préférences à leurs valeurs par défaut. Vous pouvez réinitialiser l'onglet en cours, la page en cours ou toutes les préférences. Dans {{VersionMinus/fr|0.21}}, le bouton réinitialise '''toutes''' les préférences.
+</div>
 
+<div class="mw-translate-fuzzy">
 Certaines préférences avancées ne peuvent être modifiées que dans l'[[Std_DlgParameter/fr|Éditeur de paramètres]]. La page [[Fine-tuning/fr|Réglage fin]] en liste quelques-unes.
+</div>
 
 Cette page a été mise à jour pour la version 1.0.
 
@@ -29,8 +37,6 @@ Cette page a été mise à jour pour la version 1.0.
 
 Ce groupe de préférences comporte sept pages : Général, Document, Sélection, Cache, Zone de notification, Vue rapport et Aide.
 
-Dans {{VersionMinus/fr|0.21}}, la septième page, Aide, n'est disponible que si l'[https://github.com/FreeCAD/FreeCAD-Help extension Help] a été [[Std_AddonMgr/fr|installé]].
-
 <span id="General"></span>
 ===Général===
 
@@ -38,6 +44,7 @@ Dans {{VersionMinus/fr|0.21}}, la septième page, Aide, n'est disponible que si 
 
 Dans cette page, vous pouvez spécifier les éléments suivants :
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33% ;"|Nom
 !style="width: 66% ;"|Description
@@ -83,6 +90,7 @@ Dans cette page, vous pouvez spécifier les éléments suivants :
 |-
 | {{MenuCommand|Taille de la liste des fichiers récents}}
 | Spécifie combien de fichiers doivent être listés dans la liste des fichiers récents.
+</div>
 
 Les fichiers importés peuvent être exclus de cette liste et les fichiers exportés peuvent y être inclus. Voir [[Fine-tuning/fr|Réglage fin]].
 |-
@@ -261,7 +269,9 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 
 Ces préférences contrôlent la zone de notification et ses notifications.
 
+<div class="mw-translate-fuzzy">
 Dans l'onglet ''Grille'' ({{Version/fr|0.21}}), vous pouvez spécifier les éléments suivants :
+</div>
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nom
@@ -395,7 +405,9 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 <span id="Display"></span>
 ==Affichage==
 
+<div class="mw-translate-fuzzy">
 Ce groupe de préférences comporte six pages standard : Vue 3D, Sources de lumière, Interface utilisateur, Navigation, Couleurs et Avancé. Une septième page, Maillage, est ajoutée si l'[[Mesh_Workbench/fr|atelier Mesh]] a été chargé.
+</div>
 
 <span id="3D_View"></span>
 ===Vue 3D===
@@ -505,7 +517,9 @@ Si la case {{MenuCommand|Tourner au plus près}} est cochée, la vue 3D est tour
 
 {{MenuCommand|Taille du cube}} définit la taille du cube.
 
+<div class="mw-translate-fuzzy">
 {{MenuCommand|Couleur}} définit la couleur de base de tous les éléments. {{Version/fr|0.21}}
+</div>
 
 {{MenuCommand|Choix du coin}} définit l'endroit où le cube de navigation est affiché dans la [[3D_View/fr|vue 3D]]. Les options sont :
 * '''En haut à gauche'''
@@ -513,7 +527,9 @@ Si la case {{MenuCommand|Tourner au plus près}} est cochée, la vue 3D est tour
 * '''En bas à gauche'''
 * '''En bas à droite'''
 
+<div class="mw-translate-fuzzy">
 {{MenuCommand|Nom de la police}} spécifie la police utilisée pour les textes du cube. {{Version/fr|0.21}}
+</div>
 
 {{MenuCommand|Opacité en cas d'inactivité}} : opacité du cube de navigation lorsqu'il n'est pas survolé par la souris. {{Version/fr|1.0}}
 
@@ -522,6 +538,7 @@ Si la case {{MenuCommand|Tourner au plus près}} est cochée, la vue 3D est tour
 | Si cette case est cochée, le centre de rotation de la vue est affiché lorsque l'on fait glisser la souris.
 La {{MenuCommand|Taille de la sphère}} et la {{MenuCommand|Couleurs et transparence}} de l'indicateur peuvent être spécifiées.
 
+<div class="mw-translate-fuzzy">
 |-
 | {{MenuCommand|Navigation 3D}}
 | Spécifie un [[Mouse_navigation/fr|style de navigation de la souris]]. Pour voir les détails de chaque style, sélectionnez-le et appuyez sur le bouton {{Button|Configuration de la souris}}.
@@ -554,6 +571,7 @@ La {{MenuCommand|Taille de la sphère}} et la {{MenuCommand|Couleurs et transpar
 |-
 | {{MenuCommand|Désactiver le geste d'inclinaison lors de zoom par pincement}}
 | Si cette option est cochée et que {{MenuCommand|Navigation 3D}} est réglé sur '''Gesture''', le geste d'inclinaison sera désactivé pour le zoom par pincement (zoom à deux doigts).
+</div>
 
 |-
 
@@ -583,6 +601,7 @@ si la case {{MenuCommand|Activer les animations de rotation}} est cochée et si 
 
 Sur cette page, vous pouvez spécifier les éléments suivants :
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nom
 !style="width: 66%;"|Description
@@ -608,6 +627,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | {{MenuCommand|Taille de la police des étiquettes}}
 | La taille de ces étiquettes.
 |}
+</div>
 
 <span id="Advanced"></span>
 === Avancé ===
@@ -670,6 +690,7 @@ Ces préférences contrôlent le chargement de l'atelier.
 
 Sur cette page, vous pouvez spécifier les éléments suivants :
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33% ;"|Nom
 !style="width: 66% ;"|Description
@@ -697,10 +718,18 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | {{MenuCommand|Mémoriser l'atelier actif de chaque onglet}}
 | Si cette option est cochée, FreeCAD mémorisera et restaurera l'atelier qui était actif pour chaque onglet dans la [[Main_View_Area/fr|zone d'affichage principale]].
 |}
+</div>
+
+<span id="Import-Export"></span>
+==Importer/Exporter==
+
+Les préférences d'importation et d'exportation affectent la manière dont les fichiers sont importés et exportés. Elles sont décrites sur la page [[Import_Export_Preferences/fr|Préférences Importer/Exporter]].
 
 ==Python==
 
+<div class="mw-translate-fuzzy">
 Ce groupe de préférences ({{Version/fr|0.21}}) comporte trois pages : Macro, Général et Éditeur.
+</div>
 
 ===Macro===
 
@@ -814,10 +843,53 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | Spécificie la couleur qui doit être utilisée pour le type de code sélectionné.
 |}
 
+==Start==
+
+{{Version|1.1}}
+
+This preferences group has a single page: General.
+
+===General===
+
+TBD.
+
+<span id="Measure"></span>
+== Mesure ==
+
+{{Version/fr|1.0}}
+
+Ce groupe de préférences a une seule page : Apparence.
+
+<span id="Appearance"></span>
+===Apparence===
+
+[[Image:Preferences_Measure_Page_Appearance.png|400px]]
+
+Sur cette page, vous pouvez spécifier les éléments suivants :
+
+{| class="wikitable float-right mw-collapsible mw-uncollapsed"
+!style="width: 33%;"|Nom
+!style="width: 66%;"|Description
+|-
+| {{MenuCommand|Taille des textes}}
+| Spécifie la taille des textes en pixels.
+|-
+| {{MenuCommand|Couleur des textes}}
+| Spécifie la couleur des textes.
+|-
+| {{MenuCommand|Couleur des lignes}}
+| Spécifie la couleur des lignes reliant les étiquettes de texte au(x) élément(s) mesuré(s).
+|-
+| {{MenuCommand|Couleur d'arrière-plan}}
+| Spécifie la couleur d'arrière-plan des étiquettes de texte.
+|}
+
 <span id="Addon_Manager"></span>
 == Gestionnaire des extensions ==
 
+<div class="mw-translate-fuzzy">
 Ce groupe de préférences comporte une seule page : Options du gestionnaire des extensions.
+</div>
 
 <span id="Addon_Manager_Options"></span>
 ===Options du gestionnaire des extensions===
@@ -865,8 +937,11 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | {{MenuCommand|Dépôts personnalisés}}
 | Les dépôts personnalisés peuvent être spécifiés ici.
 
+<div class="mw-translate-fuzzy">
 Pour ajouter un dépôt, cliquez sur le bouton {{Button|[[Image:List-add.svg|16px]]}}. L'{{MenuCommand|URL du dépôt}} et la {{MenuCommand|Branche}}, généralement {{Value|maître}} ou {{Value|principale}}, doivent être spécifiées dans la boîte de dialogue qui s'ouvre. {{Version/fr|0.21}}
+</div>
 
+<div class="mw-translate-fuzzy">
 Pour supprimer un dépôt, sélectionnez-le dans la liste et appuyez sur le bouton {{Button|[[Image:List-remove.svg|16px]]}}. {{Version/fr|0.21}}
 |-
 | {{MenuCommand|Proxy}}
@@ -887,42 +962,7 @@ Pour supprimer un dépôt, sélectionnez-le dans la liste et appuyez sur le bout
 | {{MenuCommand|Mode développeur des extensions}}. {{Version/fr|0.21}}
 | Si cette case est cochée, les options du gestionnaire des extensions destinées aux développeurs d'extensions sont activées.
 |}
-
-<span id="Import-Export"></span>
-==Importer/Exporter==
-
-Les préférences d'importation et d'exportation affectent la manière dont les fichiers sont importés et exportés. Elles sont décrites sur la page [[Import_Export_Preferences/fr|Préférences Importer/Exporter]].
-
-<span id="Measure"></span>
-== Mesure ==
-
-{{Version/fr|1.0}}
-
-Ce groupe de préférences a une seule page : Apparence.
-
-<span id="Appearance"></span>
-===Apparence===
-
-[[Image:Preferences_Measure_Page_Appearance.png|400px]]
-
-Sur cette page, vous pouvez spécifier les éléments suivants :
-
-{| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Nom
-!style="width: 66%;"|Description
-|-
-| {{MenuCommand|Taille des textes}}
-| Spécifie la taille des textes en pixels.
-|-
-| {{MenuCommand|Couleur des textes}}
-| Spécifie la couleur des textes.
-|-
-| {{MenuCommand|Couleur des lignes}}
-| Spécifie la couleur des lignes reliant les étiquettes de texte au(x) élément(s) mesuré(s).
-|-
-| {{MenuCommand|Couleur d'arrière-plan}}
-| Spécifie la couleur d'arrière-plan des étiquettes de texte.
-|}
+</div>
 
 <span id="Workbench_related_preferences"></span>
 == Préférences liées aux ateliers ==
