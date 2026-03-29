@@ -29,7 +29,7 @@ La commande '''Std Objet lié''' sélectionne la propriété {{PropertyData|Link
 # Sélectionnez un lien.
 # Il y a plusieurs façons de lancer la commande :
 #* Sélectionnez l'option {{MenuCommand|Affichage → Navigation par lien → [[Image:Std_LinkSelectLinked.svg|16px]] Aller à l'objet lié}} du menu.
-#* Sélectionnez l'option {{MenuCommand|Actions sur les liens → [[Image:Std_LinkSelectLinked.svg|16px]] Aller à l'objet lié}} dans le menu contextuel de la [[Tree_view/fr|vue en arborescence]].
+#* Sélectionnez l'option {{MenuCommand|Actions sur les liens → [[Image:Std_LinkSelectLinked.svg|16px]] Aller à l'objet lié}} dans le menu contextuel de l'[[Tree_View/fr|arborescence]].
 #* Utilisez le raccourci clavier : {{KEY|S}} puis {{KEY|G}}.
 # L'objet lié est sélectionné. Si cet objet appartient à un document externe, ce document est activé.
 # Vous pouvez utiliser [[Image:Std_SelBack.svg|16px]] [[Std_SelBack/fr|Std Sélection précédente]] pour resélectionner le lien.
