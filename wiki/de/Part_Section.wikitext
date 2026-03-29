@@ -9,15 +9,13 @@
 |IconC=Workbench_Part.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=Part Section
 |Name/de=Part Schnittkurve
-|MenuLocation=Formteil → Schnittkurve
+|MenuLocation=Part → Schnittkurve
 |Workbenches=[[Part_Workbench/de|Part]]
-|SeeAlso=[[Part_CrossSections/de|Part Querschnitte]]
+|SeeAlso=[[Part_CrossSections/de|Part Querschnitte]], [[Part_Boolean/de|Part BoolescheVerknüpfung]], [[Part_Cut/de|Part Differenz]], [[Part_Fuse/de|Part Vereinigung]], [[Part_Common/de|Part Schnitt]]
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung== 
