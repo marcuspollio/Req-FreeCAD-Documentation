@@ -867,9 +867,7 @@ Na tej stronie można określić następujące parametry:
 <span id="Addon_Manager"></span>
 ==Menadżer dodatków==
 
-<div class="mw-translate-fuzzy">
 Ta grupa preferencji ma jedną stronę: Opcje menedżera dodatków.
-</div>
 
 <span id="Addon_Manager_Options"></span>
 ===Opcje Menadżera dodatków===
@@ -917,9 +915,7 @@ Na tej stronie można określić następujące parametry:
 | {{MenuCommand|Repozytoria użytkownika}}
 | W tym miejscu można określić własne repozytoria.
 
-<div class="mw-translate-fuzzy">
-Aby dodać repozytorium naciśnij przycisk {{Button|[[Image:List-add.svg|16px]]}}. Zarówno {{MenuCommand|Repository URL}} jak i {{MenuCommand|Branch}}, zwykle {{Value|master}} lub {{Value|main}}, muszą być określone w oknie dialogowym, które się otworzy. {{Version/pl|0.21}}
-</div>
+Aby dodać repozytorium, naciśnij przycisk {{Button|[[Image:List-add.svg|16px]]}}. Zarówno {{MenuCommand|Repository URL}} jak i {{MenuCommand|Branch}}, zwykle {{Value|master}} lub {{Value|main}}, muszą być określone w oknie dialogowym, które się otworzy.
 
 <div class="mw-translate-fuzzy">
 Aby usunąć repozytorium wybierz je na liście i naciśnij przycisk {{Button|[[Image:List-remove.svg|16px]]}}. {{Version/pl|0.21}}
