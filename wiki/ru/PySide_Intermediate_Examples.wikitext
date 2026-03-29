@@ -648,7 +648,8 @@ form = ExampleNonmodalGuiClass()
 
 Еще одно отличие от предыдущего примера заключается в запуске окна. На этот раз для запуска графического интерфейса требуется всего одна строка кода.
 
-==Complete Nonmodal Code Example==
+<span id="Complete_Nonmodal_Code_Example"></span>
+==Полный пример кода не модального окна==
 
 {{Code|code=
 from PySide import QtGui, QtCore
