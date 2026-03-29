@@ -16,9 +16,7 @@ FreeCAD utilise un concept d'atelier, où chaque atelier est responsable de tâc
 
 Pour préserver les ressources, FreeCAD ne charge pas automatiquement tous les ateliers disponibles. Voir [[#Ateliers|Ateliers]] pour plus d'informations. Pour une liste des préférences relatives aux ateliers, voir [[#Préférences_liées_aux_ateliers|Préférences liées aux ateliers]].
 
-<div class="mw-translate-fuzzy">
-Si aucun atelier n'est chargé, sept groupes apparaissent dans l'éditeur de préférences : [[#G.C3.A9n.C3.A9ral|Général]], [[#Affichage|Affichage]], [[#Ateliers|Ateliers]], [[#Python|Python]], [[#Gestionnaire_des_extensions|Gestionnaire des extensions]], [[#Importer/Exporter|Importer/Exporter]] et [[#Mesure|Mesure]]. Tous les ateliers qui ont été chargés et qui ont leurs propres préférences, apparaîtront en dessous de ceux-ci.
-</div>
+Si aucun atelier n'est chargé, 8 groupes apparaissent dans l'éditeur de préférences : [[#Général|Général]], [[#Affichage|Affichage]], [[#Ateliers|Ateliers]], [[#Importer/Exporter|Importer/Exporter]], [[#Python|Python]], [[#Page_d'accueil|Page d'accueil]], [[#Mesure|Mesure]] et [[#Gestionnaire_des_extensions|Gestionnaire des extensions]]. Tous les ateliers qui ont été chargés et qui ont leurs propres préférences, apparaîtront en dessous de ceux-ci.
 
 <div class="mw-translate-fuzzy">
 En appuyant sur le bouton {{Button|Réinitialiser}} dans le coin inférieur gauche de la fenêtre de dialogue de Préférences, vous ouvrez un menu ({{Version/fr|1.0}}) avec des options permettant de réinitialiser les préférences à leurs valeurs par défaut. Vous pouvez réinitialiser l'onglet en cours, la page en cours ou toutes les préférences. Dans {{VersionMinus/fr|0.21}}, le bouton réinitialise '''toutes''' les préférences.
