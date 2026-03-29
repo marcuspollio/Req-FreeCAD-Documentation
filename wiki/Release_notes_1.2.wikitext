@@ -26,8 +26,8 @@ Previous FreeCAD release notes can be found in the [[Feature_list#Release_notes|
 == General == <!--T:7-->
 
 <!--T:67-->
-* Multiple documents can now be edited simultaneously with independent tasks and undo/redo stacks, for example having two Sketches open at the same time (GSoC project). [https://github.com/FreeCAD/FreeCAD/pull/21978 Pull request #21978]
-* <code>.FCBak</code> backup files can now be opened directly from the File → Open dialog without renaming them to <code>.FCStd</code> first, and saving such a file triggers "Save As" to prevent accidentally overwriting the backup. [https://github.com/FreeCAD/FreeCAD/pull/28454 Pull request #28454]
+* Multiple documents can now be edited simultaneously with independent tasks and undo/redo stacks, for example, having two Sketches open at the same time (GSoC project). [https://github.com/FreeCAD/FreeCAD/pull/21978 Pull request #21978]
+* <code>.FCBak</code> backup files can now be opened directly from the File → Open dialog without renaming them to <code>.FCStd</code> first. Saving such a file triggers "Save As" to prevent accidentally overwriting the backup. [https://github.com/FreeCAD/FreeCAD/pull/28454 Pull request #28454]
 
 == User interface == <!--T:8-->
 
