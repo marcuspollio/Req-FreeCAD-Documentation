@@ -27,7 +27,7 @@ La commande '''Std Sélection suivante''' restaure la sélection suivante enregi
 <span id="Usage"></span>
 ==Utilisation ==
 
-# Il faut qu'il y ait eu une sélection suivante dans la vue en arborescence.
+# Il faut qu'il y ait eu une sélection suivante dans l'arborescence.
 # Il y a plusieurs façons de lancer la commande :
 #* Cliquez sur la flèche vers le bas à droite du bouton {{Button|[[Image:Std_TreeSyncView.svg|16px]]}} et sélectionnez l'option {{MenuCommand|[[Image:Std_SelForward.svg|16px]] Sélection suivante}} dans la liste déroulante. Remarque : l'image du bouton changera en fonction de l'option sélectionnée.
 #* Sélectionnez l'option {{MenuCommand|Affichage → Actions dans l'arborescence → Sélection suivante}} du menu.
