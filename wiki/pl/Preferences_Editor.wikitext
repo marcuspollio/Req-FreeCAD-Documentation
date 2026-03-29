@@ -10,17 +10,25 @@
 <span id="Introduction"></span>
 ==Wprowadzenie==
 
+<div class="mw-translate-fuzzy">
 Aby uruchomić '''Edytor ustawień''' wybierz w menu {{MenuCommand|Edycja → Preferencje}} lub ({{Version/pl|1.1}}) użyj skrótu klawiaturowego {{KEY|Ctrl}}+{{KEY|,}}. W systemie MacOS opcja {{MenuCommand|Preferencje ...}} pojawia się w menu {{MenuCommand|FreeCAD}} ''(jest to domyślne miejsce preferencji na Macu)''.
+</div>
 
 FreeCAD wykorzystuje koncepcję środowiska pracy, gdzie każde z nich jest odpowiedzialne za konkretne zadania i funkcje. Każde z nich może mieć swoje własne preferencje. Pojawią się one w edytorze Preferencji, zwykle w dedykowanej grupie, tylko wtedy, gdy dane środowisko pracy zostało załadowane w bieżącej sesji FreeCAD. Niektóre środowiska pracy dodają wsparcie dla określonych formatów importu i eksportu. Jeśli istnieją jakieś powiązane preferencje, pojawią się one w jednej lub kilku dodatkowych stronach w grupy [[#Import_Eksport|Import-Eksport]] edytora Preferencji.
 
 Aby oszczędzać zasoby, FreeCAD nie ładuje automatycznie wszystkich dostępnych środowisk pracy. Zobacz sekcję [[#Środowiska_pracy|Środowiska pracy]] aby uzyskać więcej informacji. Lista preferencji związanych z każdym środowiskiem pracy, które znajduje się w sekcji [[#Preferencje_środowisk_pracy|Preferencje środowisk pracy]].
 
+<div class="mw-translate-fuzzy">
 Jeśli nie jest załadowane żadne środowisko pracy, w edytorze Preferencji pojawi się siedem pozycji: [[#Ogólne_2|Ogólne]], [[#Wyświetlanie|Wyświetlanie]], [[#Środowiska pracy|Środowiska pracy]],  [[#Python|Python]], [[#Menadżer dodatków|Menadżer dodatków]], [[#Import Eksport|Import Eksport]] i [[#Pomiary|Pomiary]]. Pod nimi pojawią się wszystkie wczytane te środowiska, które mają swoje własne preferencje.
+</div>
 
+<div class="mw-translate-fuzzy">
 Naciśnięcie przycisku {{Button|Zresetuj ...}} w lewym dolnym rogu okna dialogowego Preferencje otwiera menu ({{Version/pl|1.0}}) z opcjami resetowania preferencji do ich wartości domyślnych. Można zresetować bieżącą stronę, bieżącą grupę lub całość preferencji. W {{VersionMinus/pl|0.21}} kliknięcie przycisku ustawi '''wszystkie''' z opcji FreeCAD na ich wartości domyślne.
+</div>
 
+<div class="mw-translate-fuzzy">
 Niektóre zaawansowane preferencje mogą być zmienione tylko w [[Std_DlgParameter/pl|Edytorze parametrów]]. Na stronie [[Fine-tuning/pl|Dostrajanie parametrów]] znajduje się lista niektórych z nich.
+</div>
 
 Ta strona została zaktualizowana do wersji 1.0.
 
@@ -29,8 +37,6 @@ Ta strona została zaktualizowana do wersji 1.0.
 
 Ta grupa menu konfiguracji zawiera siedem stron: Ogólne, Dokument, Zaznaczenie, Pamięć podręczna, Obszar powiadomień, Widok raportu i Pomoc.
 
-W {{VersionMinus/pl|0.21}} siódma strona, Pomoc, jest dostępna tylko wtedy, gdy dodatek [https://github.com/FreeCAD/FreeCAD-Help Pomoc] został [[Std_AddonMgr/pl|zainstalowany]].
-
 <span id="General"></span>
 ===Ogólne===
 
@@ -38,6 +44,7 @@ W {{VersionMinus/pl|0.21}} siódma strona, Pomoc, jest dostępna tylko wtedy, gd
 
 Na tej stronie można określić następujące parametry:
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nazwa
 !style="width: 66%;"|Opis
@@ -84,6 +91,7 @@ Na tej stronie można określić następujące parametry:
 |-
 | {{MenuCommand|Rozmiar listy ostatnio używanych plików}}
 |  Określa, ile plików powinno znajdować się na liście ostatnio używanych plików.
+</div>
 
 Opcjonalnie, zaimportowane pliki mogą zostać wykluczone z tej listy, a wyeksportowane pliki mogą zostać uwzględnione. Zobacz [[Fine-tuning/pl|Dostrajanie parametrów]].
 |-
@@ -264,7 +272,9 @@ Na tej stronie można określić następujące parametry:
 
 Te ustawienia sterują ''Obszarem powiadomień'' i jego powiadomieniami.
 
+<div class="mw-translate-fuzzy">
 Na tej stronie ''({{Version/pl|0.21}})'' można określić następujące parametry:
+</div>
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nazwa
@@ -401,7 +411,9 @@ Na tej stronie można określić następujące parametry:
 <span id="Display"></span>
 ==Wyświetlanie==
 
+<div class="mw-translate-fuzzy">
 Ta sekcja preferencji grupuje sześć standardowych zakładek: '''Widok 3D''' '''Źródła światła''', '''Interfejs użytkownika''', '''Nawigacja''', '''Kolory''' i '''Zawansowane'''.  Siódma strona, '''Widok siatki''', jest dodawana, jeśli załadowano środowisko pracy [[Mesh_Workbench/pl|Projekt Siatki]].
+</div>
 
 <span id="3D_View"></span>
 ===Widok 3D===
@@ -511,7 +523,9 @@ Jeśli zaznaczono {{MenuCommand|Obróć do najbliższego}}, Po kliknięciu ścia
 
 {{MenuCommand|Rozmiar kostki nawigacyjnej}} Definiuje rozmiar sześcianu. {{Version/pl|0.20}}
 
+<div class="mw-translate-fuzzy">
 {{MenuCommand|Kolor}} ustawia kolor dla wszystkich elementów wokół kostki. {{Version/pl|0.21}}
+</div>
 
 Powiązana opcja {{MenuCommand|Narożnik}} określa miejsce wyświetlania kostki nawigacyjnej w oknie [[3D_View/pl|Widoku 3D]].
 Dostępne opcje to:
@@ -520,7 +534,9 @@ Dostępne opcje to:
 * '''Lewy dolny'''
 * '''Prawy dolny'''
 
+<div class="mw-translate-fuzzy">
 {{MenuCommand|Nazwa czcionki}} określa czcionkę używaną w opisie kostki. {{Version/pl|0.21}}
+</div>
 
 {{MenuCommand|Przezroczystość, gdy nieaktywne}} Przezroczystość kostki nawigacji, gdy nie znajduje się pod kursorem myszki. {{Version/pl|1.0}}
 
@@ -529,6 +545,7 @@ Dostępne opcje to:
 | Jeśli opcja ta jest zaznaczona, podczas przeciągania wyświetlany jest środek obrotu widoku.
 Można określić {{MenuCommand|Rozmiar sfery}} i {{MenuCommand|Kolor i przezroczystość}} wskaźnika.
 
+<div class="mw-translate-fuzzy">
 |-
 | {{MenuCommand|Styl nawigacji w przestrzeni 3D}}
 |  Określa styl [[Mouse_navigation/pl|nawigacji myszką]]. Aby wyświetlić szczegóły każdego stylu, zaznacz go, i naciśnij przycisk {{Button|Konfiguracja myszki}}.
@@ -561,6 +578,7 @@ Można określić {{MenuCommand|Rozmiar sfery}} i {{MenuCommand|Kolor i przezroc
 |-
 | {{MenuCommand|Wyłącz gest obrotu na ekranie dotykowym}}
 |  Jeśli ta opcja jest zaznaczona, a {{MenuCommand|Styl nawigacji w przestrzeni 3D}} jest ustawiony na '''Gesture''', gest odchylania będzie wyłączony w przypadku powiększania przez "szczypanie" ''(powiększanie dwoma palcami)''.
+</div>
 
 |-
 | {{MenuCommand|Włącz wsparcie dla starszych manipulatorów 3D}} {{Version/pl|1.1}}
@@ -588,6 +606,7 @@ Można określić {{MenuCommand|Rozmiar sfery}} i {{MenuCommand|Kolor i przezroc
 
 Na tej stronie można określić następujące parametry:
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nazwa
 !style="width: 66%;"|Opis
@@ -613,6 +632,7 @@ Na tej stronie można określić następujące parametry:
 | {{MenuCommand|Rozmiar czcionki na etykiecie}}
 | Rozmiar tych etykiet.
 |}
+</div>
 
 <span id="Advanced"></span>
 ===Zaawansowane===
@@ -676,6 +696,7 @@ Preferencje te sterują ładowaniem środowisk pracy.
 
 Na tej stronie można określić następujące parametry:
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nazwa
 !style="width: 66%;"|Opis
@@ -703,10 +724,18 @@ Dostępne opcje to:
 | {{MenuCommand|Pamiętaj aktywne środowisko pracy według zakładek}}
 | Jeśli opcja ta zostanie zaznaczona, FreeCAD zapamięta i przywróci aktywne środowisko pracy dla każdej zakładki w [[Main_View_Area/pl|Głównym obszarze roboczym]].
 |}
+</div>
+
+<span id="Import-Export"></span>
+==Import Eksport==
+
+Ustawienia Import-Export wpływają na sposób importowania i eksportowania plików do i z FreeCAD. Są one opisane na stronie [[Import_Export_Preferences/pl|Preferencje eksportu, importu]].
 
 ==Python==
 
+<div class="mw-translate-fuzzy">
 Ta grupa preferencji ({{Version/pl|0.21}}) ma trzy strony: Makrodefinicje, Ogólne i Edytor.
+</div>
 
 <span id="Macro"></span>
 ===Makropolecenia===
@@ -821,10 +850,53 @@ Na tej stronie można określić następujące parametry:
 | Określa barwę, która ma być używana dla wybranego typu kodu.
 |}
 
+==Start==
+
+{{Version|1.1}}
+
+This preferences group has a single page: General.
+
+===General===
+
+TBD.
+
+<span id="Measure"></span>
+==Pomiary==
+
+{{Version/pl|1.0}}
+
+Ta grupa preferencji ma jedną stronę: Wygląd.
+
+<span id="Appearance"></span>
+===Wygląd===
+
+[[Image:Preferences_Measure_Page_Appearance.png|400px]]
+
+Na tej stronie można określić następujące parametry:
+
+{| class="wikitable float-right mw-collapsible mw-uncollapsed"
+!style="width: 33%;"|Nazwa
+!style="width: 66%;"|Opis
+|-
+| {{MenuCommand|Rozmiar tekstu}}
+| Określa rozmiar tekstu w pikselach.
+|-
+| {{MenuCommand|Kolor tekstu}}
+| Określa kolor tekstu.
+|-
+| {{MenuCommand|Kolor linii}}
+| Określa kolor linii łączącej etykietę tekstową z mierzonymi elementami.
+|-
+| {{MenuCommand|Kolor tła}}
+| Określa kolor tła etykiety tekstowej.
+|}
+
 <span id="Addon_Manager"></span>
 ==Menadżer dodatków==
 
+<div class="mw-translate-fuzzy">
 Ta grupa preferencji ma jedną stronę: Opcje menedżera dodatków.
+</div>
 
 <span id="Addon_Manager_Options"></span>
 ===Opcje Menadżera dodatków===
@@ -872,8 +944,11 @@ Na tej stronie można określić następujące parametry:
 | {{MenuCommand|Repozytoria użytkownika}}
 | W tym miejscu można określić własne repozytoria.
 
+<div class="mw-translate-fuzzy">
 Aby dodać repozytorium naciśnij przycisk {{Button|[[Image:List-add.svg|16px]]}}. Zarówno {{MenuCommand|Repository URL}} jak i {{MenuCommand|Branch}}, zwykle {{Value|master}} lub {{Value|main}}, muszą być określone w oknie dialogowym, które się otworzy. {{Version/pl|0.21}}
+</div>
 
+<div class="mw-translate-fuzzy">
 Aby usunąć repozytorium wybierz je na liście i naciśnij przycisk {{Button|[[Image:List-remove.svg|16px]]}}. {{Version/pl|0.21}}
 |-
 | {{MenuCommand|Serwer pośredniczący}}
@@ -900,42 +975,7 @@ Aby usunąć repozytorium wybierz je na liście i naciśnij przycisk {{Button|[[
 | {{MenuCommand|Tryb dewelopera dodatków}} {{Version/pl|0.21}}
 | Jeśli opcja ta jest zaznaczona, aktywowane są opcje menedżera dodatków przeznaczone dla twórców dodatków.
 |}
-
-<span id="Import-Export"></span>
-==Import Eksport==
-
-Ustawienia Import-Export wpływają na sposób importowania i eksportowania plików do i z FreeCAD. Są one opisane na stronie [[Import_Export_Preferences/pl|Preferencje eksportu, importu]].
-
-<span id="Measure"></span>
-==Pomiary==
-
-{{Version/pl|1.0}}
-
-Ta grupa preferencji ma jedną stronę: Wygląd.
-
-<span id="Appearance"></span>
-===Wygląd===
-
-[[Image:Preferences_Measure_Page_Appearance.png|400px]]
-
-Na tej stronie można określić następujące parametry:
-
-{| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Nazwa
-!style="width: 66%;"|Opis
-|-
-| {{MenuCommand|Rozmiar tekstu}}
-| Określa rozmiar tekstu w pikselach.
-|-
-| {{MenuCommand|Kolor tekstu}}
-| Określa kolor tekstu.
-|-
-| {{MenuCommand|Kolor linii}}
-| Określa kolor linii łączącej etykietę tekstową z mierzonymi elementami.
-|-
-| {{MenuCommand|Kolor tła}}
-| Określa kolor tła etykiety tekstowej.
-|}
+</div>
 
 <span id="Workbench_related_preferences"></span>
 ==Preferencje środowisk pracy==
