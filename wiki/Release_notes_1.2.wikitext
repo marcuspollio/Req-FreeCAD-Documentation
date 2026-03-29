@@ -264,6 +264,7 @@ ToDo (last check: 20260318):
 * Internal faces are now visible from both sides of the sketch plane, and multi-selection highlighting with {{KEY|Ctrl}}+click now correctly highlights all selected faces. [https://github.com/FreeCAD/FreeCAD/pull/28655 Pull request #28655] and [https://github.com/FreeCAD/FreeCAD/pull/28651 Pull request #28651]
 * Double-clicking a geometric constraint now triggers its rename. [https://github.com/FreeCAD/FreeCAD/pull/27678 Pull request #27678]
 * Double-clicking selection now also works with external geometry. [https://github.com/FreeCAD/FreeCAD/pull/28105 Pull request #28105]
+* The Grid and Make Internals properties are now enabled by default for new sketches, and a grid transparency preference has been added. [https://github.com/FreeCAD/FreeCAD/pull/28771 Pull request #28771] and [https://github.com/FreeCAD/FreeCAD/pull/28791 Pull request #28791]
 
 == Spreadsheet Workbench == <!--T:53-->
 
