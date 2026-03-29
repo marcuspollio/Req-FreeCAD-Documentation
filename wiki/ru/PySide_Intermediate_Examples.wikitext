@@ -58,7 +58,7 @@ class ExampleModalGuiClass(QtGui.QDialog):
 self.result = userCancelled
 }}
 
-This is not mandatory but rather a good programming practice, this sets a default return status for the window which will be there regardless of what the user does. Later in the code this may be changed by the Python code to indicate different options the user may have selected.
+Это не обязательное требование, а скорее хорошая практика программирования: устанавливается статус возврата по умолчанию для окна, который будет сохраняться независимо от действий пользователя. Позже в коде это может быть изменено с помощью кода Python для указания различных вариантов, которые мог выбрать пользователь.
 
 <span id="Window_Creation"></span>
 ===Создание окна===
