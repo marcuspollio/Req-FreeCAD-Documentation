@@ -205,8 +205,10 @@ Le format de fichier [https://fr.wikipedia.org/wiki/Industry_Foundation_Classes 
 
 Remarque pour les utilisateurs de Linux : pour gérer ce format de fichier, FreeCAD nécessite le [[Extra_python_modules/fr|module IfcOpenShell]].
 
-<span id="IFC_import"></span>
+<span id="IFC_Import"></span>
+<div class="mw-translate-fuzzy">
 ====Importer des IFC====
+</div>
 
 [[Image:Preferences_Import-Export_Page_IFC_import.png|400px]]
 
@@ -275,8 +277,10 @@ Pour obtenir les propriétés de FreeCAD, le modèle doit avoir été exporté �
 |  Si cette case est cochée, les groupes seront utilisés pour remplacer les objets mentionnés.
 |}
 
-<span id="IFC_export"></span>
+<span id="IFC_Export"></span>
+<div class="mw-translate-fuzzy">
 ====Exporter des IFC====
+</div>
 
 [[Image:Preferences_Import-Export_Page_IFC_export.png|400px]]
 
@@ -455,6 +459,30 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | Si la case est cochée, les surfaces (faces 3D) seront aussi importées.
 |}
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===PDF===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+TBD.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===SH3D Import===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+TBD.
+</div>
+
 ===STEP===
 
 [[Image:Preferences_Import-Export_Page_STEP.png|400px]]
@@ -599,6 +627,18 @@ Si '''Objet maillage de l'atelier FEM''' est sélectionné, les résultats dans 
 
 Si '''Objet résultat de FreeCAD''' est sélectionné, les données importées seront converties en objet Résultat FreeCAD FEM. '''Remarque :''' ce paramètre nécessite les noms exacts des composants des résultats et ne fonctionne donc correctement qu'avec les fichiers VTK exportés depuis FreeCAD.
 |}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===WebGL===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+TBD.
+</div>
 
 
 {{Docnav/fr
