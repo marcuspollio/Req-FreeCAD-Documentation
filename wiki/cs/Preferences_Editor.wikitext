@@ -9,17 +9,25 @@
 
 ==Introduction==
 
+<div class="mw-translate-fuzzy">
 Chcete-li spustit '''Editor předvoleb''', vyberte v menu možnost {{MenuCommand|Upravit → Předvolby...}} nebo ({{Version|1.1}}) použijte klávesovou zkratku {{KEY|Ctrl}}+{{KEY|,}}. V systému macOS se možnost {{MenuCommand|Předvolby...}} zobrazuje v menu {{MenuCommand|FreeCAD}} (toto je výchozí umístění předvoleb v systému Mac).
+</div>
 
 FreeCAD používá koncept pracovních ploch, kde každá pracovní plocha odpovídá za konkrétní úkoly a funkce. Pracovní plocha může mít své vlastní předvolby. Ty se zobrazí v editoru předvoleb, obvykle ve speciální skupině, pouze pokud byla pracovní plocha načtena v aktuální relaci FreeCADu. Některé pracovní plochy přidávají podporu pro konkrétní formáty importu a exportu. Pokud existují nějaké související předvolby, zobrazí se na jedné nebo více dalších stránkách ve skupině [[#Import-Export|Import-Export]] editoru předvoleb.
 
 Z důvodu úspory zdrojů FreeCAD automaticky nenačítá všechny dostupné pracovní plochy. Více informací najdete v sekci [[#Workbenches|Pracovní plochy]]. Seznam předvoleb souvisejících s pracovními plochami najdete v sekci [[#Workbench_related_preferences|Předvolby související s pracovními plochami]].
 
+<div class="mw-translate-fuzzy">
 Pokud není načtena žádná pracovní plocha, v editoru předvoleb se zobrazí sedm skupin: [[#General|Obecné]], [[#Display|Zobrazení]], [[#Workbenches|Pracovní plochy]], [[#Python|Python]], [[#Addon_Manager|Správce doplňků]], [[#Import-Export|Import-Export]] a [[#Measure|Měření]]. Veškeré pracovní plochy, které byly načteny a mají vlastní předvolby, se zobrazí pod nimi.
+</div>
 
+<div class="mw-translate-fuzzy">
 Stisknutím tlačítka {{Button|Reset}} v levém dolním rohu dialogového okna Předvolby se otevře menu ({{Version|1.0}}) s možnostmi obnovení předvoleb na jejich výchozí hodnoty. Můžete obnovit aktuální stránku, aktuální skupinu nebo všechny předvolby. Ve verzi {{VersionMinus|0.21}} tlačítko obnoví '''všechny''' předvolby.
+</div>
 
+<div class="mw-translate-fuzzy">
 Některé pokročilé předvolby lze změnit pouze v [[Std_DlgParameter/cs|editoru parametrů]]. Stránka [[Fine-tuning/cs|Jemné doladění]] uvádí některé z nich.
+</div>
 
 Tato stránka byla aktualizována pro verzi 1.0.
 
@@ -27,8 +35,6 @@ Tato stránka byla aktualizována pro verzi 1.0.
 ==Obecné==
 
 Tato skupina předvoleb má sedm stránek: Obecné, Dokument, Výběr, Mezipaměť, Oznamovací oblast, Zobrazení zprávy a Nápověda.
-
-Ve verzi {{VersionMinus|0.21}} je sedmá stránka, Nápověda, k dispozici pouze v případě, že byl nainstalován [https://github.com/FreeCAD/FreeCAD-Help Help Addon].
 
 <span id="General"></span>
 ===Obecné===
@@ -63,7 +69,7 @@ Na této stránce můžete zadat následující údaje:
 * '''C/POSIX''': A point is used as the decimal separator.
 |-
 | {{MenuCommand|Substitute decimal separator}}
-| If checked, the numerical keypad decimal separator will be substituted with the separator defined by the {{MenuCommand|Number format}} setting. {{Version|0.21}}: Notice that if this preference is enabled, using the numerical keypad decimal separator will always print a dot/period in the [[Python_Console|Python Console]] and the [[Std_DlgMacroExecute#Edit|Macro editor]].
+| If checked, the numerical keypad decimal separator will be substituted with the separator defined by the {{MenuCommand|Number format}} setting. Notice that if this preference is enabled, using the numerical keypad decimal separator will always print a dot/period in the [[Python_Console|Python Console]] and the [[Std_DlgMacroExecute#Edit|Macro editor]].
 |-
 | {{MenuCommand|Theme}}
 | Specifies a [[Interface_Customization#Themes|theme]] to customize the appearance of the user interface.
@@ -262,7 +268,9 @@ Na této stránce můžete zadat následující údaje:
 
 Tyto předvolby ovládají oznamovací oblast a její oznámení.
 
+<div class="mw-translate-fuzzy">
 Na této stránce ({{Version|0.21}}) můžete zadat následující údaje:
+</div>
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Name
@@ -399,7 +407,9 @@ Na této stránce můžete zadat následující údaje:
 <span id="Display"></span>
 ==Zobrazení==
 
+<div class="mw-translate-fuzzy">
 Tato skupina předvoleb má šest standardních stránek: 3D zobrazení, Světelné zdroje, Uživatelské rozhraní, Navigace, Barvy a Pokročilé. Sedmá stránka, Zobrazení sítě, se přidá, pokud byla načtena [[Mesh_Workbench/cs|pracovní plocha Mesh]].
+</div>
 
 <span id="3D_View"></span>
 ===3D pohled===
@@ -510,7 +520,7 @@ If {{MenuCommand|Rotate to nearest}} is checked, the 3D view is rotated to the n
 
 {{MenuCommand|Cube size}} defines the size of the cube.
 
-{{MenuCommand|Color}} sets the base color for all elements. {{Version|0.21}}
+{{MenuCommand|Color}} sets the base color for all elements.
 
 {{MenuCommand|Corner}} defines where the Navigation cube is displayed in the [[3D_View|3D View]]. The options are:
 * '''Top left'''
@@ -518,7 +528,7 @@ If {{MenuCommand|Rotate to nearest}} is checked, the 3D view is rotated to the n
 * '''Bottom left'''
 * '''Bottom right'''
 
-{{MenuCommand|Font name}} specifies the font used for the cube's texts. {{Version|0.21}}
+{{MenuCommand|Font name}} specifies the font used for the cube's texts.
 
 {{MenuCommand|Opacity when inactive}} Opacity of the Navigation cube when not hovered by the mouse. {{Version|1.0}}
 
@@ -535,7 +545,7 @@ The {{MenuCommand|Sphere size}} and the {{MenuCommand|Color and transparency}} o
 | Specifies the rotation orbit style used when in rotation mode. The options are:
 * '''Turntable''': Moving the mouse will divide the rotation in steps, rotations around the different axes are performed sequentially.
 * '''Trackball''': Rotations around the different axes are performed simultaneously.
-* '''Free Turntable''': Like '''Trackball''', but if possible, the rotation axis is kept collinear with the global 3D view axis. {{Version|0.21}}
+* '''Free Turntable''': Like '''Trackball''', but if possible, the rotation axis is kept collinear with the global 3D view axis.
 * '''Trackball Classic''': {{Version|1.1}}
 * '''Rounded Arcball''': {{Version|1.1}}
 |-
@@ -594,9 +604,9 @@ Na této stránce můžete zadat následující údaje:
 | If selected, the background of the [[3D_View|3D View]] will have the specified color.
 |-
 | {{MenuCommand|Linear gradient}}
-| If selected, the background of the [[3D_View|3D View]] will have a vertical color gradient defined by the specified '''Top''' and '''Bottom''' colors. if enabled, a '''Middle''' color can also be specified. Press the {{Button|[[Image:Button_sort.svg|16px]]}} button ({{Version|0.21}}) to switch the top and bottom colors.
+| If selected, the background of the [[3D_View|3D View]] will have a vertical color gradient defined by the specified '''Top''' and '''Bottom''' colors. if enabled, a '''Middle''' color can also be specified. Press the {{Button|[[Image:Button_sort.svg|16px]]}} button to switch the top and bottom colors.
 |-
-| {{MenuCommand|Radial gradient}} {{Version|0.21}}
+| {{MenuCommand|Radial gradient}}
 | If selected, the background of the [[3D_View|3D View]] will have a radial color gradient defined by the specified '''Central''' and '''End''' colors. if enabled, a '''Midway''' color can also be specified. Press the {{Button|[[Image:Button_sort.svg|16px]]}} button to switch the central and end colors.
 |-
 | {{MenuCommand|Object being edited}}
@@ -678,8 +688,8 @@ Na této stránce můžete zadat následující údaje:
 !style="width: 66%;"|Description
 |-
 | {{MenuCommand|Workbench list}}
-| The list displays all installed workbenches. The list can be reordered by drag and drop ({{Version|0.21}}) and sorted by right-clicking the list and selecting {{MenuCommand|Sort alphabetically}} ({{Version|1.0}}). The order of the list also determines the order of the [[Std_Workbench|Workbench selector]].
-* {{Version|0.21}}: {{MenuCommand|First checkbox in each row}}: If checked, the workbench will be available in the Workbench selector in the next FreeCAD session. The start up workbench cannot be unchecked. Unchecked workbenches are moved to the bottom of the list.
+| The list displays all installed workbenches. The list can be reordered by drag and drop and sorted by right-clicking the list and selecting {{MenuCommand|Sort alphabetically}} ({{Version|1.0}}). The order of the list also determines the order of the [[Std_Workbench|Workbench selector]].
+* {{MenuCommand|First checkbox in each row}}: If checked, the workbench will be available in the Workbench selector in the next FreeCAD session. The start up workbench cannot be unchecked. Unchecked workbenches are moved to the bottom of the list.
 * {{MenuCommand|Auto-load}}: If checked, the workbench will auto-load when FreeCAD starts. Loading more workbenches will make the start up slower, but switching between workbenches that have already been loaded is faster.
 * {{Button|Load}}: Press this button to load the workbench in the current FreeCAD session.
 |-
@@ -701,9 +711,15 @@ Na této stránce můžete zadat následující údaje:
 | If checked, FreeCAD will remember and restore the workbench that was active for each tab in the [[Main_View_Area|Main View Area]].
 |}
 
+==Import-Export==
+
+Předvolby importu a exportu ovlivňují způsob importu a exportu souborů. Jsou popsány na stránce [[Import_Export_Preferences/cs|Předvolby importu a exportu]].
+
 ==Python==
 
+<div class="mw-translate-fuzzy">
 Tato skupina předvoleb ({{Version|0.21}}) má tři stránky: Makro, Obecné a Editor.
+</div>
 
 <span id="Macro"></span>
 ===Makro===
@@ -817,10 +833,53 @@ Na této stránce můžete zadat následující údaje:
 | Specifies the color that should be used for the selected code type.
 |}
 
+==Start==
+
+{{Version|1.1}}
+
+This preferences group has a single page: General.
+
+===General===
+
+TBD.
+
+<span id="Measure"></span>
+==Měření==
+
+{{Version|1.0}}
+
+Tato skupina předvoleb má jednu stránku: Vzhled.
+
+<span id="Appearance"></span>
+===Vzhled===
+
+[[Image:Preferences_Measure_Page_Appearance.png|400px]]
+
+Na této stránce můžete zadat následující údaje:
+
+{| class="wikitable float-right mw-collapsible mw-uncollapsed"
+!style="width: 33%;"|Name
+!style="width: 66%;"|Description
+|-
+| {{MenuCommand|Text size}}
+| Specifies the size of the text in pixels.
+|-
+| {{MenuCommand|Text color}}
+| Specifies the color of the text.
+|-
+| {{MenuCommand|Line color}}
+| Specifies the color of the line connecting the text label with the measured element(s).
+|-
+| {{MenuCommand|Background color}}
+| Specifies the background color of the text label.
+|}
+
 <span id="Addon_Manager"></span>
 ==Správce rozšíření==
 
+<div class="mw-translate-fuzzy">
 Tato skupina předvoleb má jednu stránku: Možnosti správce doplňků.
+</div>
 
 <span id="Addon_Manager_Options"></span>
 ===Možnosti Správce rozšíření===
@@ -868,9 +927,9 @@ Na této stránce můžete zadat následující údaje:
 | {{MenuCommand|Custom repositories}}
 | Custom repositories can be specified here.
 
-To add a repository press the {{Button|[[Image:List-add.svg|16px]]}} button. Both the {{MenuCommand|Repository URL}} and the {{MenuCommand|Branch}}, typically {{Value|master}} or {{Value|main}}, must be specifies in the dialog that opens. {{Version|0.21}}
+To add a repository press the {{Button|[[Image:List-add.svg|16px]]}} button. Both the {{MenuCommand|Repository URL}} and the {{MenuCommand|Branch}}, typically {{Value|master}} or {{Value|main}}, must be specifies in the dialog that opens.
 
-To remove a repository select it in the list and press the {{Button|[[Image:List-remove.svg|16px]]}} button. {{Version|0.21}}
+To remove a repository select it in the list and press the {{Button|[[Image:List-remove.svg|16px]]}} button.
 |-
 | {{MenuCommand|Proxy}}
 | The Addon manager includes experimental support for proxies requiring authentication, set up as user-defined proxies.
@@ -878,52 +937,17 @@ To remove a repository select it in the list and press the {{Button|[[Image:List
 | {{MenuCommand|Score source URL}} {{Version|1.0}}
 | The URL for the Addon Score data. See [[Std_AddonMgr#Sorting_by_score|Std AddonMgr]] for formatting and hosting details.
 |-
-| {{MenuCommand|Path to git executable (optional)}} {{Version|0.21}}
+| {{MenuCommand|Path to git executable (optional)}}
 | The Addon manager attempts to determine the git executable. To override this selection, the path to the executable can be set here.
 |-
 | {{MenuCommand|Show option to change branches (requires git)}}
 | If checked, the Addon manager provides an interface on the addon's details screen that allows switching which git branch is currently checked out. This is intended for advanced users only, as it is possible that a non-primary-branch version of an addon may result in instability and compatibility issues. Git must be installed for this to work. Use with caution.
 |-
-| {{MenuCommand|Disable git (fall back to ZIP downloads only)}} {{Version|0.21}}
+| {{MenuCommand|Disable git (fall back to ZIP downloads only)}}
 | If checked, git downloads are disabled.
 |-
-| {{MenuCommand|Addon developer mode}} {{Version|0.21}}
+| {{MenuCommand|Addon developer mode}}
 | If checked, Addon manager options intended for developers of addons are activated.
-|}
-
-==Import-Export==
-
-Předvolby importu a exportu ovlivňují způsob importu a exportu souborů. Jsou popsány na stránce [[Import_Export_Preferences/cs|Předvolby importu a exportu]].
-
-<span id="Measure"></span>
-==Měření==
-
-{{Version|1.0}}
-
-Tato skupina předvoleb má jednu stránku: Vzhled.
-
-<span id="Appearance"></span>
-===Vzhled===
-
-[[Image:Preferences_Measure_Page_Appearance.png|400px]]
-
-Na této stránce můžete zadat následující údaje:
-
-{| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
-|-
-| {{MenuCommand|Text size}}
-| Specifies the size of the text in pixels.
-|-
-| {{MenuCommand|Text color}}
-| Specifies the color of the text.
-|-
-| {{MenuCommand|Line color}}
-| Specifies the color of the line connecting the text label with the measured element(s).
-|-
-| {{MenuCommand|Background color}}
-| Specifies the background color of the text label.
 |}
 
 <span id="Workbench_related_preferences"></span>
