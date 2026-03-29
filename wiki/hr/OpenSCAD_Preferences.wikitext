@@ -1,6 +1,6 @@
 <languages/>
 
-The preferences screen of the [[OpenSCAD_Workbench|OpenSCAD Workbench]] are found in the [[Preferences Editor|Preferences Editor]], {{MenuCommand|Edit → Preferences → OpenSCAD}}.
+The preferences for the [[Image:Workbench_OpenSCAD.svg|24px]] [[OpenSCAD_Workbench|OpenSCAD Workbench]] can be found in the [[Preferences Editor|Preferences Editor]]. In the menu select {{MenuCommand|Edit → Preferences}} and then {{MenuCommand|[[Image:Workbench_OpenSCAD.svg|16px]] OpenSCAD}}. This group is only available if the OpenSCAD Workbench has been loaded in the current FreeCAD session.
 
 There is only one page: General.
 
