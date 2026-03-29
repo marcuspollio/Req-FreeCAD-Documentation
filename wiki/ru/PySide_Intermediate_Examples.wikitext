@@ -144,7 +144,7 @@ self.popup1.activated[str].connect(self.onPopup1)
 self.popup1.move(210, 115)
 }}
 
-In line 2 a list is built up of what will be the user choices. An alternative is to build up a Dictionary but only use the Keys for the list of menu choices. Line 4 creates the pop-up menu (known as a ComboBox to PySide), the user options are added in line 5.
+Во второй строке формируется список вариантов выбора пользователя. Альтернативный вариант — создать словарь, но использовать только ключи для списка пунктов меню. В четвертой строке создается всплывающее меню (в PySide оно называется ComboBox), варианты выбора пользователя добавляются в пятой строке.
 
 As a side note, if the Dictionary was used then the lines would appear as:
 
