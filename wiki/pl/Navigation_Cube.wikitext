@@ -17,7 +17,7 @@
 Kostka nawigacyjna składa się z kilku części:
 * [[#G.C5.82.C3.B3wny_sze.C5.9Bcian_nawigacyjny|Główny sześcian nawigacyjny]].
 * [[#Strza.C5.82ki_kierunkowe|Strzałki kierunkowe]].
-* [[#Przycisk_widoku_do_ty.C5.82u|Przycisk widoku do tyłu]] ''(u góry po prawej)'' {{Version/pl|0.20}}
+* [[#Przycisk_widoku_do_ty.C5.82u|Przycisk widoku do tyłu]] ''(u góry po prawej)''
 * [[#Menu_mini-kostki|Menu mini-kostki]] ''(na dole po prawej)''.
 * Wskaźniki osi X, Y i Z 
 
@@ -29,7 +29,9 @@ Wszystkie elementy, z wyjątkiem wskaźników osi, można klikać.
 <span id="Main_cube"></span>
 ===Główny sześcian nawigacyjny===
 
-Główny sześcian posiada 26 ścian: 6 ścian głównych, 12 prostokątnych ścian brzegowych ({{Version/pl|0.20}}) i 8 ścian narożnych. Kliknięcie dowolnej z nich spowoduje zmianę ujęcia widoku kamery tak, aby jej kierunek był prostopadły do wybranej ściany.
+<div class="mw-translate-fuzzy">
+Główny sześcian posiada 26 ścian: 6 ścian głównych, 12 prostokątnych ścian brzegowych i 8 ścian narożnych. Kliknięcie dowolnej z nich powoduje zmianę ujęcia widoku kamery tak, aby jej kierunek był prostopadły do wybranej ściany.
+</div>
 
 <span id="Directional_arrows"></span>
 ===Strzałki kierunkowe=== 
