@@ -20,7 +20,7 @@
 
 ==Description==
 
-La commande '''Std Synchroniser le placement''' bascule le mode Synchroniser le placement de la [[Tree_view/fr|vue en arborescence]]. Si ce mode est activé, {{PropertyData|Placement}} des objets est automatiquement ajusté lorsqu'ils sont glissés et déposés d'un conteneur dans un autre conteneur avec un système de coordonnées différent, en préservant leur placement par rapport au système de coordonnées global.
+La commande '''Std Synchroniser le placement''' bascule le mode Synchroniser le placement de l'[[Tree_View/fr|arborescence]]. Si ce mode est activé, La propriété {{PropertyData|Placement}} des objets est automatiquement ajusté lorsqu'ils sont glissés et déposés d'un conteneur dans un autre conteneur avec un système de coordonnées différent, en préservant leur placement par rapport au système de coordonnées global.
 
 <span id="Usage"></span>
 ==Utilisation==
