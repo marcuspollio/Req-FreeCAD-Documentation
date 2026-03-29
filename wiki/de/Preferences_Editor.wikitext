@@ -669,14 +669,13 @@ Diese Voreinstellungen kontrollieren das Laden von Arbeitsbereichen.
 
 Auf dieser Seite kann Folgendes festgelegt werden:
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Name
 !style="width: 66%;"|Beschreibung
 |-
 | {{MenuCommand|Arbeitsbereichs-Liste}}
-| Die Liste zeigt alle installierten Arbeitsbereiche an. Die Liste kann per Drag and Drop neu angeordnet werden ({{Version/de|0.21}}) und durch Rechtsklick auf die Liste und Auswahl von {{MenuCommand|Alphabetisch sortieren}} sortiert werden ({{Version/de|1.0}}). Die Reihenfolge der Liste bestimmt auch die Reihenfolge der [[Std_Workbench/de|Arbeitsbereichsauswahl]].
-* {{Version/de|0.21}}: {{MenuCommand|Erst Kontrollkästchen in jeder Zeile}}: Wenn diese Option aktiviert ist, wird der Arbeitsbereich in der Arbeitsbereichsauswahl der nächsten FreeCAD-Sitzung verfügbar sein. Der Arbeitsbereich Start kann nicht deaktiviert werden. Deaktivierte Arbeitsbereiche werden an das Ende der Liste verschoben.
+| Die Liste zeigt alle installierten Arbeitsbereiche an. Die Liste kann per Drag and Drop neu angeordnet werden und durch Rechtsklick auf die Liste und Auswahl von {{MenuCommand|Alphabetisch sortieren}} sortiert werden ({{Version/de|1.0}}). Die Reihenfolge der Liste bestimmt auch die Reihenfolge der [[Std_Workbench/de|Arbeitsbereichsauswahl]].
+* {{MenuCommand|Erst Kontrollkästchen in jeder Zeile}}: Wenn diese Option aktiviert ist, wird der Arbeitsbereich in der Arbeitsbereichsauswahl der nächsten FreeCAD-Sitzung verfügbar sein. Der Arbeitsbereich Start kann nicht deaktiviert werden. Deaktivierte Arbeitsbereiche werden an das Ende der Liste verschoben.
 * {{MenuCommand|Automatisch laden}}: Wenn diese Option aktiviert ist, wird der Arbeitsbereich beim Start von FreeCAD automatisch geladen. Das Laden weiterer Arbeitsbereiche verlangsamt den Startvorgang, aber das Wechseln zwischen bereits geladenen Arbeitsbereichen erfolgt schneller.
 * {{Button|Laden}}: Diese Taste drücken, um den Arbeitsbereich in der aktuellen FreeCAD-Sitzung zu laden.
 |-
@@ -697,7 +696,6 @@ Auf dieser Seite kann Folgendes festgelegt werden:
 | {{MenuCommand|Aktiven Arbeitsbereich je Reiter merken}}
 | Wenn diese Option aktiviert ist, merkt sich FreeCAD den für jede Registerkarte im [[Main_View_Area/de|Hauptansichtsbereich]] aktiven Arbeitsbereich und stellt ihn wieder her.
 |}
-</div>
 
 <span id="Import-Export"></span>
 ==Import/Export==
