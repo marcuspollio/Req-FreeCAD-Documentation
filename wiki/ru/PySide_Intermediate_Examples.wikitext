@@ -18,7 +18,7 @@
 <span id="Code_Based_Discussion_-_Declarative_Portion"></span>
 ==Обсуждение кода — Декларативная часть==
 
-The "example program" is actually a large Class definition, the definition of a PySide GUI class, and has over 150 lines of code (including comments). There is no functional purpose to the Class or it's behaviour, the sole purpose is to demonstrate possible GUI actions and present some code that hopefully can be used by other FreeCAD users.
+"Пример программы" на самом деле представляет собой большое определение класса, определение класса фреймворка PySide, и содержит более 150 строк кода (включая комментарии). Класс и его поведение не имеют функционального назначения, их единственная цель — продемонстрировать возможные действия графического интерфейса и представить код, который, как мы надеемся, смогут использовать другие пользователи FreeCAD.
 
 The Class definition and the small number of lines of code that invoke are described in the order the occur in the file. This order is based on the screen layout which is rather arbitrary and solely intended to demonstrate features. This is the modal GUI screen the PySide Class generates:
 
