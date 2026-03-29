@@ -787,6 +787,11 @@ On this page you can specify the following:
 | If checked, FreeCAD will remember and restore the workbench that was active for each tab in the [[Main_View_Area|Main View Area]].
 |}
 
+==Import-Export== <!--T:143-->
+
+<!--T:196-->
+The Import-Export preferences affect how files are imported and exported. They are described on the [[Import_Export_Preferences|Import Export Preferences]] page.
+
 ==Python== <!--T:326-->
 
 <!--T:327-->
@@ -918,6 +923,45 @@ On this page you can specify the following:
 | Specifies the color that should be used for the selected code type.
 |}
 
+==Start==
+
+TBD.
+
+==Measure== <!--T:363-->
+
+<!--T:375-->
+{{Version|1.0}}
+
+<!--T:364-->
+This preferences group has a single page: Appearance.
+
+===Appearance=== <!--T:365-->
+
+</translate>
+[[Image:Preferences_Measure_Page_Appearance.png|400px]]
+<translate>
+
+<!--T:367-->
+On this page you can specify the following:
+
+<!--T:368-->
+{| class="wikitable float-right mw-collapsible mw-uncollapsed"
+!style="width: 33%;"|Name
+!style="width: 66%;"|Description
+|-
+| {{MenuCommand|Text size}}
+| Specifies the size of the text in pixels.
+|-
+| {{MenuCommand|Text color}}
+| Specifies the color of the text.
+|-
+| {{MenuCommand|Line color}}
+| Specifies the color of the line connecting the text label with the measured element(s).
+|-
+| {{MenuCommand|Background color}}
+| Specifies the background color of the text label.
+|}
+
 ==Addon Manager== <!--T:281-->
 
 <!--T:282-->
@@ -996,46 +1040,6 @@ To remove a repository select it in the list and press the {{Button|[[Image:List
 |-
 | {{MenuCommand|Addon developer mode}} {{Version|0.21}}
 | If checked, Addon manager options intended for developers of addons are activated.
-|}
-
-==Import-Export== <!--T:143-->
-
-<!--T:196-->
-The Import-Export preferences affect how files are imported and exported. They are described on the [[Import_Export_Preferences|Import Export Preferences]] page.
-
-==Measure== <!--T:363-->
-
-<!--T:375-->
-{{Version|1.0}}
-
-<!--T:364-->
-This preferences group has a single page: Appearance.
-
-===Appearance=== <!--T:365-->
-
-</translate>
-[[Image:Preferences_Measure_Page_Appearance.png|400px]]
-<translate>
-
-<!--T:367-->
-On this page you can specify the following:
-
-<!--T:368-->
-{| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
-|-
-| {{MenuCommand|Text size}}
-| Specifies the size of the text in pixels.
-|-
-| {{MenuCommand|Text color}}
-| Specifies the color of the text.
-|-
-| {{MenuCommand|Line color}}
-| Specifies the color of the line connecting the text label with the measured element(s).
-|-
-| {{MenuCommand|Background color}}
-| Specifies the background color of the text label.
 |}
 
 ==Workbench related preferences== <!--T:109-->
