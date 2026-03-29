@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[BIM_TogglePanels/de|AnzeigenUmschalten]]
+|[[BIM_Project/de|Projekt]]
 |[[Native_IFC/de|Native IFC]]
 |[[BIM_Workbench/de|BIM]]
-|IconL=BIM_TogglePanels.svg
+|IconL= BIM_Project.svg
 |IconR=
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{TOCright}}
 
@@ -22,8 +20,10 @@ Es gibt drei Seiten: [[#Allgemeine_Einstellungen|Allgemeine Einstellungen]], [[#
 
 Einige fortgeschrittene Einstellungen können nur im [[Std_DlgParameter/de|Parameter-Editor]] geändert werden. Siehe [[Fine-tuning/de#Arbeitsbereich BIM|Feinabstimmung]].
 
-<span id="General_Settings"></span>
+<span id="General"></span>
+<div class="mw-translate-fuzzy">
 == Allgemeine Einstellungen ==
+</div>
 
 [[Image:Preferences_BIM_Page_General_settings.png]]
 
@@ -38,16 +38,14 @@ Einige fortgeschrittene Einstellungen können nur im [[Std_DlgParameter/de|Param
 [[Image:Preferences_BIM_Page_NativeIFC.png]]
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[BIM_TogglePanels/de|AnzeigenUmschalten]]
+|[[BIM_Project/de|Projekt]]
 |[[Native_IFC/de|Native IFC]]
 |[[BIM_Workbench/de|BIM]]
-|IconL=BIM_TogglePanels.svg
+|IconL= BIM_Project.svg
 |IconR=
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
