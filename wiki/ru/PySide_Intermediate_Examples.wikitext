@@ -590,7 +590,7 @@ if form.result==userOK:
 <span id="Code_Based_Discussion_-_Nonmodal_Code_Example"></span>
 ==Обсуждение кода - Пример немодального кода==
 
-All of the widget specific from the previous modal example transfer to use in a nonmodal window. The main difference is that the nonmodal window does not restrict the user from interacting with other windows. Basically, a nonmodal window is one that can be opened and left open for as long as needed without it placing any restrictions on other application windows. There are a small number of code differences between the two which will be highlighted, consequently this code example is quite brief. Anything that is the same as the previous modal example will be left out in the interests of keeping this overview brief. This is the nonmodal GUI screen the PySide Class generates:
+Все виджеты, специфичные для предыдущего примера с модальным окном, переносятся для использования в немодальном окне. Главное отличие заключается в том, что немодальное окно не ограничивает взаимодействие пользователя с другими окнами. По сути, немодальное окно — это окно, которое можно открыть и оставить открытым столько, сколько необходимо, без каких-либо ограничений для других окон приложения. Между двумя вариантами есть небольшое количество различий в коде, которые будут выделены, поэтому этот пример кода довольно краткий. Все, что совпадает с предыдущим примером с модальным окном, будет опущено в целях краткости обзора. Это немодальный графический интерфейс, который генерирует класс PySide:
 
 [[File:PySideScreenSnapshot4.jpg]]
 
