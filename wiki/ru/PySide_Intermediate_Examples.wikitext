@@ -638,7 +638,7 @@ def mouseMoveEvent(self,event):
 	self.label6.setText("X: "+str(event.x()) + " Y: "+str(event.y()))
 }}
 
-This handler receives the event of a Mouse Move and displays the formatted form of it. Test what happens when it is over widgets or outside of the window.
+Этот обработчик получает событие перемещения мыши и отображает его в отформатированном виде. Проверьте, что происходит, когда курсор находится над виджетами или за пределами окна.
 
 ===Invoking the Window===
 
