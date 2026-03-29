@@ -609,17 +609,11 @@ Wenn '''FEM Netzobjekt''' ausgewählt wird, werden die Ergebnisse in der VTK Dat
 Wenn '''FreeCAD Ergebnisobjekt''' ausgewählt wird, werden die importierten Daten in ein FreeCAD FEM Ergebnisobjekt umgewandelt. '''Hinweis:''' diese Einstellung benötigt die exakten Namen der Ergebniskomponenten und funktioniert daher nur ordnungsgemäß mit VTK Dateien , die aus FreeCAD exportiert wurden.
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 ===WebGL===
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.1}}
-</div>
+{{Version/de|1.1}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-TBD.
-</div>
+In Arbeit.
 
 
 {{Docnav/de
