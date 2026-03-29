@@ -205,9 +205,8 @@ Die Einstellung '''Max. Länge eines Spline-Segments:''' ist dann die maximale L
 
 Hinweis für Linux Anwender: Um mit diesem Dateiformat umgehen zu können, benötigt FreeCAD das [[Extra_python_modules/de|IfcOpenShell Modul]].
 
-<div class="mw-translate-fuzzy">
-====IFC Import====
-</div>
+<span id="IFC_Import"></span>
+====IFC-Import====
 
 [[Image:Preferences_Import-Export_Page_IFC_import.png|400px]]
 
