@@ -617,7 +617,8 @@ class ExampleNonmodalGuiClass(QtGui.QMainWindow):
 
 Этот код лучше всего скопировать дословно и внести изменения. Суть этого кода в том, что мы создаём подкласс класса QDialog из PySide. При адаптации этого кода вам потребуется изменить имя класса "ExampleNonmodalGuiClass" — обязательно измените его в обоих местах (например, в строках 1 и 4).
 
-===Window Creation===
+<span id="Window_Creation"></span>
+===Создание окна===
 
 {{Code|code=
 # create our window
