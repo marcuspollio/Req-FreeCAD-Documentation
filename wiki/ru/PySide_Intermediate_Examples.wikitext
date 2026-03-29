@@ -35,7 +35,7 @@
 from PySide import QtGui, QtCore
 }}
 
-This is best placed at the top of the Python file.
+Лучше всего разместить этот код в самом начале файла Python.
 
 <span id="Class_Definition"></span>
 ===Определение класса===
