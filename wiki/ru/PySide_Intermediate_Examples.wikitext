@@ -347,7 +347,7 @@ def mousePressEvent(self, event):
 <span id="Code_Based_Discussion_-_Main_Routine"></span>
 ==Обсуждение кода — Основная рутина==
 
-Most of the volume of code is in the GUI Class definition, there is not much in the main procedure.
+Большая часть кода находится в определении класса графического интерфейса, в основной процедуре его немного.
 
 {{Code|code=
 # Constant definitions
