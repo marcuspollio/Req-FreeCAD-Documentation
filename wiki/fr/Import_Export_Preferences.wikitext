@@ -206,9 +206,7 @@ Le format de fichier [https://fr.wikipedia.org/wiki/Industry_Foundation_Classes 
 Remarque pour les utilisateurs de Linux : pour gérer ce format de fichier, FreeCAD nécessite le [[Extra_python_modules/fr|module IfcOpenShell]].
 
 <span id="IFC_Import"></span>
-<div class="mw-translate-fuzzy">
 ====Importer des IFC====
-</div>
 
 [[Image:Preferences_Import-Export_Page_IFC_import.png|400px]]
 
@@ -278,9 +276,7 @@ Pour obtenir les propriétés de FreeCAD, le modèle doit avoir été exporté �
 |}
 
 <span id="IFC_Export"></span>
-<div class="mw-translate-fuzzy">
 ====Exporter des IFC====
-</div>
 
 [[Image:Preferences_Import-Export_Page_IFC_export.png|400px]]
 
@@ -459,9 +455,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | Si la case est cochée, les surfaces (faces 3D) seront aussi importées.
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 ===PDF===
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Version|1.1}}
