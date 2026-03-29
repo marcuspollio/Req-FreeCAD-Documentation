@@ -23,7 +23,7 @@
 
 La commande '''Std Panneaux non interactifs''' active ou désactive un mode global de « clic » pour tous les panneaux en cours dans le [[Std_DockOverlayAll/fr|système de superposition]].
 
-Lorsque ce mode est activé, '''tous les panneaux superposés ne réagissent plus du tout à la souris'''. Toutes les actions de la souris - clics, glissements, défilements, etc. - passeront directement à travers les panneaux vers la [[3D_view/fr|vue 3D]] ou tout autre widget situé en dessous. Les panneaux deviennent en fait une couche uniquement visuelle.
+Lorsque ce mode est activé, '''tous les panneaux superposés ne réagissent plus du tout à la souris'''. Toutes les actions de la souris (clics, glissements, défilements, etc.) passeront directement à travers les panneaux vers la [[3D_View/fr|vue 3D]] ou tout autre widget situé en dessous. Les panneaux deviennent en fait une couche uniquement visuelle.
 
 Le curseur de la souris change également pour indiquer que ce mode spécial est actif.
 
