@@ -356,7 +356,7 @@ userCancelled = "Cancelled"
 userOK = "OK"
 }}
 
-Lines 2,3 & 4 deal with coordinating the status of the user interaction with the GUI - e.g. Cancelled, OK, or any other application defined status. The handler routines "onCancel" and "onOk" earlier also set these statuses.
+Строки 2, 3 и 4 отвечают за координацию статуса взаимодействия пользователя с графическим интерфейсом — например, «Отменено», «ОК» или любой другой статус, определенный приложением. Обработчики «onCancel» и «onOk», описанные ранее, также устанавливают эти статусы.
 
 {{Code|code=
 form = ExampleGuiClass()
