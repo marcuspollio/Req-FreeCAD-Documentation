@@ -461,17 +461,12 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 
 A définir
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===SH3D Import===
-</div>
+<span id="SH3D_Import"></span>
+====Importer des SH3D====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.1}}
-</div>
+{{Version/fr|1.1}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-TBD.
-</div>
+A définir
 
 ===STEP===
 
@@ -618,17 +613,11 @@ Si '''Objet maillage de l'atelier FEM''' est sélectionné, les résultats dans 
 Si '''Objet résultat de FreeCAD''' est sélectionné, les données importées seront converties en objet Résultat FreeCAD FEM. '''Remarque :''' ce paramètre nécessite les noms exacts des composants des résultats et ne fonctionne donc correctement qu'avec les fichiers VTK exportés depuis FreeCAD.
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 ===WebGL===
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.1}}
-</div>
+{{Version/fr|1.1}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-TBD.
-</div>
+A définir
 
 
 {{Docnav/fr
