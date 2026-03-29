@@ -24,9 +24,7 @@ Dostępne są dwie strony: [[#Ogólne|Ogólne]] i [[#Domyślny_materiał|Domyśl
 [[Image:Preferences_Material_Page_General.png|thumb|350px|Właściwości Ogólne]]
 
 <span id="Card_Resources"></span>
-<div class="mw-translate-fuzzy">
 ===Zasoby kart===
-</div>
 
 * '''Użyj materiałów wbudowanych''': Jeśli zaznaczone, wbudowane materiały programu FreeCAD będą wyświetlane.
 * '''Użyj materiałów z zewnętrznych środowisk pracy''': Jeśli zaznaczone, materiały wprowadzone przez zewnętrzne (dodatkowe) środowiska pracy będą wyświetlane.
@@ -35,9 +33,7 @@ Dostępne są dwie strony: [[#Ogólne|Ogólne]] i [[#Domyślny_materiał|Domyśl
 * '''Katalog użytkownika''': źródło dla dodatkowych materiałów.
 
 <span id="Card_Sorting_and_Duplicates"></span>
-<div class="mw-translate-fuzzy">
 ===Sortowanie kart i duplikaty===
-</div>
 
 * '''Usuń karty powielone''': Jeśli zaznaczone, powielone karty materiałów będą usuwane z listy.
 * '''Sortuj według zasobów''': Jeśli zaznaczone, materiały są wyświetlane jako posortowane po ich zasobach (źródłach). Jeśli odznaczone, są sortowane po swoich nazwach.
