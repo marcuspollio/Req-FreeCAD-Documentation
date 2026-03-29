@@ -30,11 +30,11 @@ Pour utiliser cette commande, le curseur de la souris doit être placé sur le p
 <span id="Usage"></span>
 ==Utilisation==
 
-# Le curseur de la souris doit être positionné sur le panneau ancré que vous souhaitez changer. Le panneau peut être soit dans son état ancré normal, soit en mode superposition.
+# Le curseur de la souris doit être positionné sur le panneau ancré que vous souhaitez changer. Le panneau peut être soit dans son état ancré normal soit en mode superposition.
 # Il y a plusieurs façons de lancer la commande :
-#* Sélectionnez l'option {{MenuCommand|Affichage → Panneau ancrable → Activer/désactiver une superposition}} du menu.
+#* Sélectionnez l'option {{MenuCommand|Affichage → Superposition des panneaux ancrables → Activer/désactiver une superposition}} du menu.
 #* Utilisez le raccourci clavier : {{KEY|F3}}.
-#* Utilisez le bouton de basculement de la superposition ([[File:Overlay.svg|12x12px]]) dans la barre de titre d'un panneau ancré.
+#* Utilisez le bouton de basculement de la superposition ([[File:Overlay.svg|16px]]) dans la barre de titre d'un panneau ancré.
 
 <span id="Preferences"></span>
 ==Préférences==
