@@ -147,7 +147,7 @@ Es aktiviert zeitweilige Transparenz und zeigt eine Liste aller nahegelegenen ge
 <span id="Assembly_Workbench"></span>
 ==Arbeitsbereich Assembly==
 
-* Das Werkzeug [[Image:Assembly_InsertNewPart.svg|24px]] [[Assembly_InsertNewPart/de|Ein neues Part einfügen]] wurde hinzugefügt, und ermöglicht Part-Objekte einfach innerhalb einer Baugrube hinzuzufügen.[https://github.com/FreeCAD/FreeCAD/pull/17922 Pull-Request #17922]
+* Das Werkzeug [[Image:Assembly_InsertNewPart.svg|24px]] [[Assembly_InsertNewPart/de|Ein neues Part einfügen]] wurde hinzugefügt, und ermöglicht Part-Objekte einfach innerhalb einer Baugruppe hinzuzufügen.[https://github.com/FreeCAD/FreeCAD/pull/17922 Pull-Request #17922]
 * Das Werkzeug [[Image:Assembly_CreateSimulation.svg|24px]] [[Assembly_CreateSimulation/de|Simulation erstellen]] wurde hinzugefügt und ermöglicht Bewegungen zu Verbindungen hinzuzufügen und Animationen zu erstellen. [https://github.com/FreeCAD/FreeCAD/pull/16414 Pull-Request #16414]
 * Der Befehl [[Image:Assembly_CreateBom.svg|24px]] [[Assembly_CreateBom/de|Stückliste erstellen]] kann jetzt auch die Werte angegebener Eigenschaften ausgeben. [https://github.com/FreeCAD/FreeCAD/pull/20732 Pull-Request #20732]
 
