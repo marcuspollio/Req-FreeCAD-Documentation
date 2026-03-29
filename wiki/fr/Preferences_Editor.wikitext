@@ -518,7 +518,6 @@ Si la case {{MenuCommand|Tourner au plus près}} est cochée, la vue 3D est tour
 | Si cette case est cochée, le centre de rotation de la vue est affiché lorsque l'on fait glisser la souris.
 La {{MenuCommand|Taille de la sphère}} et la {{MenuCommand|Couleurs et transparence}} de l'indicateur peuvent être spécifiées.
 
-<div class="mw-translate-fuzzy">
 |-
 | {{MenuCommand|Navigation 3D}}
 | Spécifie un [[Mouse_navigation/fr|style de navigation de la souris]]. Pour voir les détails de chaque style, sélectionnez-le et appuyez sur le bouton {{Button|Configuration de la souris}}.
@@ -527,7 +526,7 @@ La {{MenuCommand|Taille de la sphère}} et la {{MenuCommand|Couleurs et transpar
 | Spécifie le style d'orbite de rotation utilisé en mode de rotation. Les options sont :
 * '''Vue en rotation''' : en déplaçant la souris, vous divisez la rotation en étapes, les rotations autour des différents axes sont effectuées séquentiellement.
 * '''Trackball''' : déplacer la souris horizontalement fera pivoter la vue autour de l'axe des Y.
-* '''Vue en rotation libre''' : comme '''Trackball''', mais si possible l'axe de rotation est maintenu colinéaire avec l'axe global de la vue 3D. {{Version/fr|0.21}}
+* '''Vue en rotation libre''' : comme '''Trackball''', mais si possible l'axe de rotation est maintenu colinéaire avec l'axe global de la vue 3D.
 * '''Trackball classique''' : {{Version/fr|1.1}}
 * '''Rounded Arcball''' : {{Version/fr|1.1}}
 |-
@@ -541,7 +540,7 @@ La {{MenuCommand|Taille de la sphère}} et la {{MenuCommand|Couleurs et transpar
 | Spécifie l'orientation de la caméra pour les nouveaux documents. Ce paramètre est également utilisé par la commande [[Std_ViewHome/fr|Std Accueil]].
 |-
 | {{MenuCommand|Zoom de la caméra}}
-| Affecte le niveau de zoom initial de la caméra pour les nouveaux documents. La valeur que vous définissez est le diamètre d'une sphère qui tient dans la [[3D_view/fr|vue 3D]]. La valeur par défaut est de 100 mm. Elle définit également la taille initiale des caractéristiques d'origine (plans de base dans les nouveaux [[PartDesign_Body/fr|PartDesign Corps]] et [[Std_Part/fr|Std Parts]]).
+| Affecte le niveau de zoom initial de la caméra pour les nouveaux documents. La valeur que vous définissez est le diamètre d'une sphère qui tient dans la [[3D_View/fr|vue 3D]]. La valeur par défaut est de 100 mm. Elle définit également la taille initiale des caractéristiques d'origine (plans de base dans les nouveaux [[PartDesign_Body/fr|PartDesign Corps]] et [[Std_Part/fr|Std Parts]]).
 |-
 | {{MenuCommand|Zoomer au curseur}}
 | Si cette option est cochée, les opérations de zoom seront effectuées à la position du curseur de la souris. Sinon, les opérations de zoom seront effectuées au centre de la vue en cours. Le {{MenuCommand|Pas du zoom}} définit l'ampleur du zoom. Un pas de zoom de '''1''' signifie un facteur de 7,5 pour chaque pas de zoom.
@@ -551,7 +550,6 @@ La {{MenuCommand|Taille de la sphère}} et la {{MenuCommand|Couleurs et transpar
 |-
 | {{MenuCommand|Désactiver le geste d'inclinaison lors de zoom par pincement}}
 | Si cette option est cochée et que {{MenuCommand|Navigation 3D}} est réglé sur '''Gesture''', le geste d'inclinaison sera désactivé pour le zoom par pincement (zoom à deux doigts).
-</div>
 
 |-
 
