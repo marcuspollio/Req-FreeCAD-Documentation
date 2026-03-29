@@ -11,11 +11,11 @@
 
 {{GuiCommand/fr
 |Name=Std TreeCollapseDocument
-|Name/fr=Std Arborescence Réduire/développer
+|Name/fr=Std Réduire/développer
 |MenuLocation=Affichage → Actions dans l'arborescence → Réduire/développer
 |Workbenches=Tous
 |Version=0.19
-|SeeAlso=[[Std_TreeSingleDocument/fr|Std Arborescence Document unique]], [[Std_TreeMultiDocument/fr|Std Arborescence Tous les documents]]
+|SeeAlso=[[Std_TreeSingleDocument/fr|Std Document unique]], [[Std_TreeMultiDocument/fr|Std Tous les documents]]
 }}
 
 ==Description==
