@@ -912,9 +912,7 @@ Auf dieser Seite kann Folgendes festgelegt werden:
 | {{MenuCommand|Benutzerdefiniertes Projektarchiv}}
 | Hier können benutzerdefinierte Projektarchive (Repositorys) angegeben werden.
 
-<div class="mw-translate-fuzzy">
-Um ein Projektarchiv hinzuzufügen, auf die Schaltfläche {{Button|[[Image:List-add.svg|16px]]}} drücken. Beide, das {{MenuCommand|Projektarchiv-URL}} und der {{MenuCommand|Zweig}}, typischerweise {{Value|master}} oder {{Value|main}}, muss in dem sich öffnenden Dialogfeld angegeben werden.{{Version/de|0.21}}
-</div>
+Um ein Projektarchiv hinzuzufügen, auf die Schaltfläche {{Button|[[Image:List-add.svg|16px]]}} drücken. Beide, das {{MenuCommand|Projektarchiv-URL}} und der {{MenuCommand|Zweig}}, typischerweise {{Value|master}} oder {{Value|main}}, muss in dem sich öffnenden Dialogfeld angegeben werden.
 
 <div class="mw-translate-fuzzy">
 Um ein Projektarchiv zu entfernen, wählen man es in der Liste aus und klickt auf die Schaltfläche {{Button|[[Image:List-remove.svg|16px]]}}. {{Version/de|0.21}}
