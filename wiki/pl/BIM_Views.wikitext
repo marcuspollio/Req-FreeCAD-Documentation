@@ -49,7 +49,8 @@ Menedżer widoków BIM pokaże wszystkie poziomy ''(części budynku)'' i pośre
 ** '''Zapisz ujęcie widoku''' zapisuje bieżące ustawienia widoku w wybranym obiekcie, umożliwiając ich przywrócenie, jeśli jego właściwość '''Przywróć widok''' jest ustawiona na wartość Prawda.
 ** '''Zmień nazwę''' umożliwia zmianę nazwy wybranego obiektu.
 
-===Bottom part===
+<span id="Bottom_part"></span>
+===Dolna część===
 
 * Double-clicking a drawing orients the 3D view to the drawing.
 * Double clicking a page opens or activates the page tab.
