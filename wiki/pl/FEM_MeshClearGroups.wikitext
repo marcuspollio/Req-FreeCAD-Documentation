@@ -18,9 +18,8 @@
 |SeeAlso=[[FEM_tutorial/pl|Poradnik MES]], [[FEM_MeshClear/pl|Wyczyść siatkę]]
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Description==
-</div>
+<span id="Description"></span>
+==Opis==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Works similarly to [[FEM_MeshClear|Clear FEM Mesh]], but only removes the [[FEM_MeshGroup|mesh groups]] (including the ones automatically generated for [[FEM_SolverElmer|Elmer]]), while keeping the mesh itself with all the elements. This can be useful to reduce the file size when exporting to any mesh format.
