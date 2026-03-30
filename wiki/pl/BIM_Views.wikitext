@@ -36,18 +36,18 @@ Menedżer widoków BIM pokaże wszystkie poziomy ''(części budynku)'' i pośre
 <span id="Top_part"></span>
 ===Górna część===
 
-* Clicking any entry selects the corresponding object.
-* Double-clicking the height of a level allows you to edit it.
-* Double-clicking the name of any object sets the working plane to it and activates the object {{Version|1.1}}. If the '''Restore View''' property of the object is set to True, and a view configuration has been stored in it, that viewpoint is also restored.
-* The BIM Views Manager top half has a right-click context menu with the following options:
-** '''Activate''' activates a selected level.
-** '''New Level''' creates a new [[Arch_BuildingPart|level]].
-** '''New Working Plane Proxy''' creates a new [[Draft_WorkingPlaneProxy|working plane proxy]].
-** '''Delete''' deletes a selected item.
-** '''Toggle Visibility''' turns a selected level on/off (same as the Space bar).
-** '''Isolate''' turns all levels off except the selected one.
-** '''Save View Position''' stores the current view settings in the selected object, allowing to restore it if its '''Restore View''' property is set to True.
-** '''Rename''' allows you to rename a selected object.
+* Kliknięcie dowolnego wpisu powoduje wybranie odpowiedniego obiektu.
+* Dwukrotne kliknięcie wysokości poziomu umożliwia jego edycję.
+* Dwukrotne kliknięcie nazwy dowolnego obiektu ustawia na nim płaszczyznę roboczą i aktywuje obiekt {{Version/pl|1.1}}. Jeśli właściwość '''Przywróć widok''' obiektu jest ustawiona na Prawda i zapisano w nim konfigurację widoku, ten punkt widzenia jest również przywracany.
+* Menedżer widoków BIM posiada menu kontekstowe dostępne po kliknięciu prawym przyciskiem myszy i zawierające poniższe opcje:
+** '''Aktywuj''' aktywuje wybrany poziom.
+** '''Nowy poziom''' tworzy nowy [[Arch_BuildingPart/pl|poziom]].
+** '''Nowa pośrednia płaszczyzna robocza''' tworzy nową  [[Draft_WorkingPlaneProxy/pl|pośrednią płaszczyznę roboczą]].
+** '''Usuń''' usuwa wybrany element.
+** '''Przełącz widoczność''' włącza/wyłącza wybrany poziom (tak samo jak Spacja).
+** '''Izoluj''' wyłącza wszystkie poziomy z wyjątkiem wybranego.
+** '''Zapisz ujęcie widoku''' zapisuje bieżące ustawienia widoku w wybranym obiekcie, umożliwiając ich przywrócenie, jeśli jego właściwość '''Przywróć widok''' jest ustawiona na wartość Prawda.
+** '''Zmień nazwę''' umożliwia zmianę nazwy wybranego obiektu.
 
 ===Bottom part===
 
