@@ -117,7 +117,7 @@ In der folgenden Tabelle sind die anderen erweiterten Parameter des Navigationsw
 | 0
 
 |-
-| SchriftGröße
+| FontZoom
 | Die Größe der Beschriftungen:
 * {{Value|SchriftGröße &#61; 1.0}}: Macht die Beschriftungen einzeln so groß wie möglich.
 * {{Value|0.0 < FontZoom < 1.0}}: Wie oben, aber begrenzt die maximale Schriftgröße.
