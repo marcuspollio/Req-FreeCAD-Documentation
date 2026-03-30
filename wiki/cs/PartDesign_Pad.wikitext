@@ -84,7 +84,7 @@ Toto umožňuje zadat druhou délku, o kterou by se deska měla prodloužit v op
 <span id="Offset_to_face"></span>
 === Ke tvaru ===
 
-Offset from face at which the pad will end. This option is only available if '''Type''' is '''To last''', '''To first''' or '''Up to face'''.
+Odstup od povrchu, na kterém deska končí. Tato možnost je k dispozici pouze v případě, že je v poli '''Typ''' vybrána možnost '''K poslední''', '''K první''' nebo '''K ploše'''.
 
 ===Length===
 
