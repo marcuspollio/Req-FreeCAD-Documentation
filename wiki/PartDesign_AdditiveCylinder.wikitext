@@ -48,6 +48,7 @@ It is possible to create skewed cylinders by specifying angles in respect to the
 The Cylinder can be edited after its creation in two ways:
 * Double-clicking it in the [[Tree_View|Tree View]], or by right-clicking and selecting '''Edit Primitive''' in the context menu; this brings up the Primitive Parameters.
 * Via the [[Property_View|Property View]].
+{{Version|1.2}} When editing the primitive, interactive gizmos may be available in the [[3D_View|3D View]] to adjust its size directly.
 
 ==Properties== <!--T:10-->
 
