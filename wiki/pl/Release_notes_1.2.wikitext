@@ -18,7 +18,9 @@ Starsze informacje na temat wydań FreeCAD można znaleźć na stronie [[Feature
 <span id="General"></span>
 ==Ogólne==
 
+<div class="mw-translate-fuzzy">
 * Możliwe jest teraz jednoczesne edytowanie wielu dokumentów z niezależnymi zadaniami i stosami cofania, np. mając dwa szkice otwarte na raz (projekt GSoc). [https://github.com/FreeCAD/FreeCAD/pull/21978 Pull request #21978]
+</div>
 
 <span id="User_interface"></span>
 ==Interfejs użytkownika==
@@ -26,7 +28,9 @@ Starsze informacje na temat wydań FreeCAD można znaleźć na stronie [[Feature
 <span id="Further_user_interface_improvements"></span>
 ===Pozostałe ulepszenia interfejsu użytkownika===
 
+<div class="mw-translate-fuzzy">
 * Wbudowany edytor tekstu wspiera teraz zaznaczanie linii poprzez kliknięcie na jej numerze (i opcjonalnie również przytrzymanie klawisza {{KEY|Shift}}, aby zaznaczyć zakres linii). [https://github.com/FreeCAD/FreeCAD/pull/27677 Pull request #27677]
+</div>
 
 <span id="Core_system_and_API"></span>
 == Rdzeń i API==
@@ -40,21 +44,25 @@ Starsze informacje na temat wydań FreeCAD można znaleźć na stronie [[Feature
 [https://github.com/FreeCAD/FreeCAD/pull/23673 Pull request #23673]
 |}
 
+<div class="mw-translate-fuzzy">
 {| cellpadding=5
 | [[File:MassProperties_relnotes_1.2.png|384px]]
 | Dodano nowe polecenie do sprawdzania właściwości masowych, takich jak objętość, masa, pole powierzchni, środek ciężkości, środek objętości i momenty bezwładności dla części i złożeń, ze wsparciem dla własnych układów odniesienia i obliczeniami biorącymi pod uwagę przypisane materiały.
 [https://github.com/FreeCAD/FreeCAD/pull/27347 Pull request #27347]
 |}
+</div>
 
 <span id="Further_Core_improvements"></span>
 ===Pozostałe ulepszenia rdzenia===
 
+<div class="mw-translate-fuzzy">
 * Pasek wyszukiwania w [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences/pl|Ustawieniach]] może teraz uwzględniać podpowiedzi, opcje z list rozwijanych, pola wyboru i tytuły grup. [https://github.com/FreeCAD/FreeCAD/pull/24283 Pull request #24283]
 * Narzędzie [[Image:Std_Measure.svg|24px]] [[Std_Measure/pl|Pomiary]] zyskało opcję wyświetlania pomiaru dla elementów okrągłych w formie średnicy zamiast promienia. [https://github.com/FreeCAD/FreeCAD/pull/24853 Pull request #24853]
 * Narzędzie [[Image:Std_Measure.svg|24px]] [[Std_Measure/pl|Pomiary]] wspiera teraz pomiar promienia i średnicy ścian cylindrycznych. [https://github.com/FreeCAD/FreeCAD/pull/27044 Pull request #27044]
 * W systemie macOS pliki .FCStd wspierają teraz natywne rozszerzenie QuickLook, aby pokazywać podgląd pliku w wyszukiwarce. [https://github.com/FreeCAD/FreeCAD/pull/25239 Pull request #25239]
 * Jednostki [[Image:Std_Measure.svg|24px]] [[Std_Measure/pl|Pomiaru]] można teraz konwertować i odczytywać podczas dokonywania pomiarów. [https://github.com/FreeCAD/FreeCAD/pull/27462 Pull request #27462]
 * Narzędzie [[Image:Std_Measure.svg|24px]] [[Std_Measure/pl|Pomiary]] może teraz podawać promień i średnicę dla kołowych ścian poza dotychczasowymi typami pomiarów dla nich. [https://github.com/FreeCAD/FreeCAD/pull/27415 Pull request #27415]
+</div>
 
 === API ===
 
@@ -105,8 +113,46 @@ ToDo (last check: 20260318):
 <span id="CAM_Workbench"></span>
 ==Środowisko pracy CAM==
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:CAM_machine_editor_relnotes_1.2.png|384px]]
+| Machine Library and Editor were added to the [[CAM_Preferences|CAM Preferences]]. Machine-based postprocessing was also added. Machine definitions can also be implemented as add-ons.
+[https://github.com/FreeCAD/FreeCAD/pull/26533 Pull request #26533], [https://github.com/FreeCAD/FreeCAD/pull/27507 Pull request #27507] and [https://github.com/FreeCAD/FreeCAD/pull/28405 Pull request #28405]
+|}
+</div>
+
 <span id="Further_CAM_improvements"></span>
 ===Pozostałe ulepszenia środowiska CAM===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* The G-code export dialog now shows line numbers. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull request #23862]
+* The MillFace operation was reimplemented with significant improvements as MillFacing. [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull request #24367]
+* [[CAM_SimpleCopy|SimpleCopy]] now allows multiple selection of operations. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull request #24297]
+* OCL Adaptive Algorithm was added to the [[CAM_Waterline|Waterline]] operation. [https://github.com/FreeCAD/FreeCAD/pull/23149 Pull request #23149]
+* The ''Sorting Mode'' property was added to [[CAM_Profile|Profile]] and [[CAM_Pocket_Shape|Pocket]] operations, allowing optional shape processing following the order of shape selection. [https://github.com/FreeCAD/FreeCAD/pull/27410 Pull request #27410]
+* Support for rest machining was added to the [[CAM_Adaptive|Adaptive]] operation. [https://github.com/FreeCAD/FreeCAD/pull/27908 Pull request #27908]
+* Hidden ''Approximation'' property was added to the [[CAM_DressupTag|DressupTag]] operation. It may significantly reduce the number of commands if the path contains non-horizontal arc moves (e.g., helix path). [https://github.com/FreeCAD/FreeCAD/pull/28502 Pull request #28502]
+* Tapping was removed as an experimental feature and consolidated into [[CAM_Drilling|Drilling]] as a new strategy. [https://github.com/FreeCAD/FreeCAD/pull/27506 Pull request #27506]
+* Circular Hole operation was significantly improved, including a new C++ 2-Opt TSP solver with Python bindings for improved hole sorting performance as well as new sorting modes and manual reordering in the GUI. [https://github.com/FreeCAD/FreeCAD/pull/23093 Pull request #23093]
+* New style ''LineZFollow'' was added to the [[CAM_DressupLeadInOut|LeadInOut]] operation. It can be used as a replacement for ''ArcZFollow'', as simpler and requiring less computation. [https://github.com/FreeCAD/FreeCAD/pull/27986 Pull request #27986]
+* It is now possible to manually set ''RetractThreshold'' in [[CAM_Profile|Profile]] and [[CAM_Pocket_Shape|Pocket]] operations. [https://github.com/FreeCAD/FreeCAD/pull/21738 Pull request #21738]
+* Manual selection of faces or edges for [[CAM_Drilling|Drilling]] or Helix Drilling operations is now possible. [https://github.com/FreeCAD/FreeCAD/pull/27494 Pull request #27494]
+* Helix operation, helix and spiral generators were improved to provide better results and allow more control. [https://github.com/FreeCAD/FreeCAD/pull/21971 Pull request #21971]
+* Auto-select for drillable faces was optimized and can now find cylinder faces that have more than 3 edges. [https://github.com/FreeCAD/FreeCAD/pull/27585 Pull request #27585]
+* The ''Optimize Linear Paths'' option was added to the Waterline OCL Adaptive Algorithm to remove unnecessary co-linear points from G-code output. [https://github.com/FreeCAD/FreeCAD/pull/27040 Pull request #27040]
+* The [[CAM_SimulatorGL|new CAM simulator]] was integrated as an MDI widget into the main window. [https://github.com/FreeCAD/FreeCAD/pull/22204 Pull request #22204]
+* The [[CAM_Copy|Copy Operation]] tool can now copy all operations and do it recursively. [https://github.com/FreeCAD/FreeCAD/pull/24819 Pull request #24819]
+* The [[CAM_OpActiveToggle|Toggle Operation]] tool now supports Job and Operations groups. [https://github.com/FreeCAD/FreeCAD/pull/24872 Pull request #24872]
+* It is now possible to cancel G-code export. [https://github.com/FreeCAD/FreeCAD/pull/25273 Pull request #25273]
+* Tolerance can now be set for [[CAM_DressupTag|Tag Dressup]], [[CAM_Engrave|Engrave]], and [[CAM_Deburr|Deburr]] operations to change the precision of segmentation of complex shapes while creating a path. [https://github.com/FreeCAD/FreeCAD/pull/26127 Pull request #26127] and [https://github.com/FreeCAD/FreeCAD/pull/26128 Pull request #26128]
+* [[CAM_Adaptive|Adaptive]] operation now automatically picks the diameter of the helix entrance. [https://github.com/FreeCAD/FreeCAD/pull/23980 Pull request #23980]
+* CAM task panels now support selecting shapes from different objects. [https://github.com/FreeCAD/FreeCAD/pull/22304 Pull request #22304]
+* [[CAM_Vcarve|Vcarve]] routing is now improved using "virtual edge backtracking". [https://github.com/FreeCAD/FreeCAD/pull/25049 Pull request #25049]
+* It is now possible to postprocess only selected Operations from the Job and select operations inside Dressup. [https://github.com/FreeCAD/FreeCAD/pull/22764 Pull request #22764]
+* The [[CAM_SelectLoop|loop selection]] tool was improved and now returns the wire if edge(s) selected and other methods failed. [https://github.com/FreeCAD/FreeCAD/pull/24185 Pull request #24185]
+* A cooling feature was added to the Kinetic postprocessor. [https://github.com/FreeCAD/FreeCAD/pull/25022 Pull request #25022]
+* The ''Units'' (Metric/Imperial) property was added to ToolBits. [https://github.com/FreeCAD/FreeCAD/pull/25783 Pull request #25783]
+</div>
 
 <span id="Draft_Workbench"></span>
 ==Środowisko pracy Rysunek Roboczy==
@@ -190,8 +236,10 @@ ToDo (last check: 20260318):
 <span id="Further_Part_Design_improvements"></span>
 ===Pozostałe ulepszenia środowiska Projekt Części===
 
+<div class="mw-translate-fuzzy">
 * Interaktywny manipulator został dodany do narzędzia [[Image:PartDesign_Draft.svg|24px]] [[PartDesign_Draft/pl|Pochylenie ścian]]. [https://github.com/FreeCAD/FreeCAD/pull/27111 Pull request #27111]
 * Interaktywne manipulatory zostały dodane do narzędzi Sfera, Prostopadłościan oraz Walec. [https://github.com/FreeCAD/FreeCAD/pull/23700 Pull request #23700]
+</div>
 
 <span id="Points_Workbench"></span>
 ==Środowisko pracy Punkty==
@@ -214,19 +262,39 @@ ToDo (last check: 20260318):
 <span id="Sketcher_Workbench"></span>
 ==Środowisko pracy Szkicownik==
 
+<div class="mw-translate-fuzzy">
 {| cellpadding=5
 | [[File:Sketcher_text_relnotes_1.2.png|384px]]
 | Dzięki [https://www.astocad.com/ AstoCAD], do Szkicownika dodane zostało narzędzie Tekst umożliwiające tworzenie geometrii tekstu sterowanych specjalnych wiązaniem typu Tekst.
 [https://github.com/FreeCAD/FreeCAD/pull/22217 Pull request #22217]
 |}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:Sketcher_group_constraint_relnotes_1.2.gif|384px]]</br>Click on the image if the animation does not start.
+| Thanks to [https://www.astocad.com/ AstoCAD], a new [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup|Group constraint]] was added to Sketcher, allowing the geometries to be grouped and moved or constrained together.
+[https://github.com/FreeCAD/FreeCAD/pull/22217 Pull request #22217]
+|}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:InternalFaces_relnotes_1.2.gif|384px]]</br>Click on the image if the animation does not start.
+| Internal face generation now correctly handles complex overlapping geometry such as three or more intersecting circles, where previously some face regions were not generated at all.
+[https://github.com/FreeCAD/FreeCAD/pull/28648 Pull request #28648]
+|}
+</div>
 
 <span id="Further_Sketcher_improvements"></span>
 ===Pozostałe ulepszenia środowiska Szkicownik===
 
+<div class="mw-translate-fuzzy">
 * Możliwe jest już importowanie krzywych typu Bézier i Offset jako [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection/pl|Geometrii zewnętrznej]]. [https://github.com/FreeCAD/FreeCAD/pull/25144 Pull request #25144]
 * Podczas tworzenia lub edycji wymiarów kołowych, możliwe jest przełączanie między promieniem a średnicą. [https://github.com/FreeCAD/FreeCAD/pull/26794 Pull request #26794]
 * Lista wiązań zawiera teraz typ wiązania w jego nazwie. [https://github.com/FreeCAD/FreeCAD/pull/26797 Pull request #26797]
 * Do [[Image:Sketcher_ConstrainSymmetric.svg|24px]] [[Sketcher_ConstrainSymmetric/pl|Wiązania symetrii]] dodany został nowy tryb wskazywania. Możliwe jest teraz zaznaczenie elementu (linii, łuku lub otwartej krzywej złożonej) oraz linii symetrii. [https://github.com/FreeCAD/FreeCAD/pull/25525 Pull request #25525]
+</div>
 
 <span id="Spreadsheet_Workbench"></span>
 ==Środowisko pracy Arkusz Kalkulacyjny==
@@ -251,9 +319,11 @@ ToDo (last check: 20260318):
 <span id="Further_TechDraw_improvements"></span>
 ===Pozostałe ulepszenia środowiska Rysunek Techniczny===
 
+<div class="mw-translate-fuzzy">
 * Gładkie krawędzie w [[TechDraw_Workbench/pl|środowisku Rysunek Techniczny]] są teraz renderowane za pomocą cienkich linii zgodnie z wymaganiami norm ISO. [https://github.com/FreeCAD/FreeCAD/pull/27747 Pull request #27747]
 * Czcionkę linii przekroju, rozmiar czcionki i rozmiar strzałki w [[TechDraw_SectionView/pl|widokach przekroju]] można teraz ustawiać dla poszczególnych widoków za pomocą ich właściwości. [https://github.com/FreeCAD/FreeCAD/pull/27521 Pull request #27521]
 * Wymiary kątowe w [[TechDraw_Workbench/pl|środowisku Rysunek Techniczny]] wspierają teraz wyświetlanie przyległego kąta (180° minus mierzony kąt) poprzez właściwość widoku. [https://github.com/FreeCAD/FreeCAD/pull/27055 Pull request #27055]
+</div>
 
 <span id="Import_and_export"></span>
 == Import i eksport==
