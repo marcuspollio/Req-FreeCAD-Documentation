@@ -254,9 +254,7 @@ Niektóre z nich wymagają użycia [[Sketcher_helper_constraint/pl|wiązań pomo
 
 * [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock/pl|Wiązanie zablokowania]]: Blokuje krawędzie w miejscu za pomocą pojedynczego wiązania. Jest przeznaczony głównie dla krzywych złożonych.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometries. {{Version|1.2}}
-</div>
+* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup/pl|Wiązanie grupy]]: Grupuje wybrane geometrie. {{Version/pl|1.2}}
 
 * [[File:Sketcher_ConstrainSnellsLaw.svg|32px]] [[Sketcher_ConstrainSnellsLaw/pl|Wiązanie refrakcji] (prawo Snell'a)]: Wiąże dwie linie zgodnie z prawem załamania światła, aby symulować światło przechodzące przez interfejs.
 
