@@ -52,7 +52,7 @@ Previous FreeCAD release notes can be found in the [[Feature_list#Release_notes|
 <!--T:68-->
 {| cellpadding=5
 | [[File:MassProperties_relnotes_1.2.png|384px]]
-| A new [[Std_MassProperties|Mass Properties]] command has been added to calculate volume, mass, surface area, center of gravity, center of volume, and inertia for parts and assemblies, with support for custom reference frames and material-aware calculations.
+| A new [[Image:Std_MassProperties.svg|24px]] [[Std_MassProperties|Mass Properties]] command has been added to calculate volume, mass, surface area, center of gravity, center of volume, and inertia for parts and assemblies, with support for custom reference frames and material-aware calculations.
 [https://github.com/FreeCAD/FreeCAD/pull/27347 Pull request #27347]
 |}
 
