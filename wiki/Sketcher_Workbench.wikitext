@@ -344,6 +344,7 @@ These are tools for creating [[#Constraints|constraints]]. Some constraints requ
 <!--T:67-->
 * [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock|Block Constraint]]: Blocks edges in place with a single constraint. It is mainly intended for B-splines.
 
+<!--T:275-->
 * [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometries. {{Version|1.2}}
 
 <!--T:74-->
