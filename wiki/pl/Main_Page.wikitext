@@ -81,9 +81,7 @@ Instrukcje kompilacji są dostępne dla systemów [[Compile_on_Linux/pl|Linux]],
 <span id="About_the_development"></span>
 === O rozwoju ===
 
-<div class="mw-translate-fuzzy">
-Sprawdź [[Development roadmap|Drogę rozwoju]] by dowiedzieć się co jest planowane. Możesz odwiedzić strony [https://tracker.freecad.org/changelog_page.php Dziennik zmian] i [https://tracker.freecad.org/roadmap_page.php Plan rozwoju] na [https://github.com/FreeCAD/FreeCAD/issues FreeCAD tracker], aby sprawdzić postęp wydawania kolejnej wersji programu, lub zobacz [http://www.ohloh.net/p/freecad Statystyki projektu] by zobaczyć jeszcze więcej informacji o kodzie FreeCAD-a. Cała komunikacja w kwestii rozwoju odbywa się na [https://forum.freecad.org forum], więc nie zapomnij go odwiedzić, jeśli chcesz współtworzyć projekt.
-</div>
+Strona [[Feature_list/pl#Informacje_o_wydaniu|Informacje o wydaniu]] zawiera indywidualne dzienniki zmian, natomiast [https://github.com/FreeCAD/FreeCAD/issues system zgłoszeń błędów we FreeCAD] pokazuje bieżące postępy w kierunku następnego wydania. Szersze informacje o bazie kodu FreeCAD i aktywności można sprawdzić na [https://github.com/FreeCAD/FreeCAD/pulse jego stronie GitHub's Insight]. Cała komunikacja dotycząca rozwoju odbywa się na [https://github.com/FreeCAD/FreeCAD/ GitHub], zajrzyj tam, jeśli jesteś zainteresowany udziałem.
 
 
 {{Userdocnavi{{#translation:}}}}
