@@ -44,25 +44,33 @@ Das Menü Werkzeuge stellt Werkzeuge bereit, um Modelle von Fehlern zu befreien,
 
 Die folgenden Werkzeuge stehen in diesem Menü zur Verfügung:
 
+<div class="mw-translate-fuzzy">
 ''Die Reihenfolge der Werkzeuge entspricht dem Menü der Version 1.1.''
+</div>
 
 * [[Image:Std_AddonMgr.svg|32px]] [[Std_AddonMgr/de|Addon-Manager]]: Öffnet den Addon-Manager, mit dem [[External_workbenches/de|externe Arbeitsbereiche]], [[Preference_Packs/de|Voreinstellungspakete]] und [[macros/de|Makros]] installiert werden können.
 
 * [[Image:Std_Measure.svg|32px]] [[Std_Measure/de|Messen]]: MIsst Objekte {{Version/de|1.0}}
 
-* [[Std_ClarifySelection/de|Std AuswahlVerdeutlichen]]: Listet alle Objekte unterschiedlicher Typen in der Nähe des Mauszeigers auf, um deren Auswahl zu erleichtern. {{Version/de|1.1}}
+* [[Image:Std_MassProperties.svg|32px]] [[Std_MassProperties|Mass Properties]]: Measures mass properties of the selected solids. {{Version|1.2}}
+
+* [[Image:Std_AnnotationLabel.svg|32px]] [[Std_AnnotationLabel|Annotation Label]]: creates an annotation label at the selected location. {{Version|1.2}}
 
 * [[Image:Std_UnitsCalculator.svg|32px]] [[Std UnitsCalculator/de|Einheiten-Umrechner...]]: Öffnet einen Rechner für die Umrechnung von Maßeinheiten.
 
+<div class="mw-translate-fuzzy">
+* [[Std_ClarifySelection/de|Std AuswahlVerdeutlichen]]: Listet alle Objekte unterschiedlicher Typen in der Nähe des Mauszeigers auf, um deren Auswahl zu erleichtern. {{Version/de|1.1}}
+</div>
+
 * [[Image:Std_ViewLoadImage.svg|32px]] [[Std_ViewLoadImage/de|Bild laden...]]: Lädt ein Bild (zur Ansicht). {{Version/de|0.21}}
 
-* [[Image:Std_ViewScreenShot.svg|32px]] [[Std ViewScreenShot/de|Bild speichern...]]: Speichert ein Bildschirmfoto der aktiven [[3D_view/de|3D-Ansicht]].
+* [[Image:Std_ViewScreenShot.svg|32px]] [[Std ViewScreenShot/de|Bild speichern]]: Speichert ein Bildschirmfoto der aktiven [[3D_View/de|3D-Ansicht]].
 
 * [[Image:Std_TextDocument.svg|32px]]: [[Std_TextDocument/de|Textdokument hinzufügen]]: Erstellt ein Objekt, das Text enthalten kann.
 
-* [[Image:Std_DemoMode.svg|32px]] [[Std_DemoMode/de|Drehscheibe...]]: Dreht die Kamera in der aktiven 3D-Ansicht kontinuierlich.
+* [[Image:Std_DemoMode.svg|32px]] [[Std_DemoMode/de|Drehscheibe]]: Dreht die Kamera in der aktiven 3D-Ansicht kontinuierlich.
 
-* [[Image:Std_SceneInspector.svg|32px]] [[Std SceneInspector/de|Szeneninspektor...]]: Zeigt eine Übersicht der Szenendiagrammknoten der aktiven 3D-Ansicht an.
+* [[Image:Std_SceneInspector.svg|32px]] [[Std SceneInspector/de|Szeneninspektor]]: Zeigt eine Übersicht der Szenendiagrammknoten der aktiven 3D-Ansicht an.
 
 * [[Image:Std_DependencyGraph.svg|32px]] [[Std_DependencyGraph/de|Abhängigkeitsdiagramm...]]: Zeigt das Abhängigkeitsdiagramm von Objekten an.
 
@@ -72,7 +80,9 @@ Die folgenden Werkzeuge stehen in diesem Menü zur Verfügung:
 
 * [[Image:Std_DlgParameter.svg|32px]][[Std DlgParameter/de|Parameter bearbeiten...]]: Öffnet ein Dialogfeld mit Zugriff auf die Parameter, die das Programm steuern.
 
+<div class="mw-translate-fuzzy">
 * [[Image:Std_DlgCustomize.svg|32px]] [[Std_DlgCustomize/de|Anpassen...]]: Öffnet ein Dialogfeld mit Anpassungsoptionen.
+</div>
 
 
 {{Docnav/de
