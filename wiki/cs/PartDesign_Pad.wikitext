@@ -112,7 +112,7 @@ Změní směr pohybu desky.
 <span id="Direction/edge"></span>
 ==== Směr/hrana ====
 
-You can select the direction of the extrusion:
+Můžete zvolit směr extruze:
 
 * '''Sketch normal''' or '''Face normal:''' The sketch or face is extruded in the direction of its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used.
 * '''Select reference…:''' The sketch or face is extruded in the direction of a straight edge or a [[PartDesign_Line|datum line]] selected from the Body.
