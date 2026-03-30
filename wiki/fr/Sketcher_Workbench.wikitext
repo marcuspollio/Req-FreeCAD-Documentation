@@ -22,7 +22,7 @@ L'atelier Sketcher comporte des [[#Contraintes|contraintes]], permettant aux for
 Sketcher n'est pas destiné à produire des plans en 2D. Une fois que les esquisses sont utilisées pour générer un élément solide, elles sont automatiquement masquées et les contraintes ne sont visibles qu'en mode d'édition d'esquisse. Si vous avez uniquement besoin de produire des vues 2D pour l'impression et que vous ne souhaitez pas créer de modèles 3D, consultez l'[[Draft_Workbench/fr|atelier Draft]].
 
 [[File:FC_ConstrainedSketch.png|450px]]
-{{Caption|Une esquisse pleinement contrainte.‎}}
+{{Caption|Une esquisse complètement contrainte‎}}
 
 <span id="Constraints"></span>
 ==Contraintes==
