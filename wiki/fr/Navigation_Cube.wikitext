@@ -9,7 +9,7 @@
 
 == Introduction ==
 
-Le '''cube de navigation''' donne des informations visuelles sur l'orientation de la caméra dans la [[3D_view/fr|vue 3D]] en cours et peut être utilisé pour la modifier. Par défaut, il est visible et se trouve dans le coin supérieur droit de la vue.
+Le '''cube de navigation''' donne des informations visuelles sur l'orientation de la caméra dans la [[3D_View/fr|vue 3D]] en cours et peut être utilisé pour la modifier. Par défaut, il est visible et se trouve dans le coin supérieur droit de la vue.
 
 [[File:Navigation_Cube_Example.png]]
 
@@ -28,9 +28,7 @@ Toutes les composantes, à l'exception des indicateurs d'axe, peuvent être cliq
 <span id="Main_cube"></span>
 ===Cube principal===
 
-<div class="mw-translate-fuzzy">
-Le cube principal possède 26 faces : 6 faces principales, 12 faces à bords rectangulaires et 8 faces d'angle. En cliquant sur l'une d'entre elles, la caméra sera réorientée de manière à ce que sa direction soit perpendiculaire à la face sélectionnée.
-</div>
+Le cube principal possède 26 faces : 6 faces principales, 12 faces à bords rectangulaires et 8 faces d'angle. En cliquant sur l'une d'entre elles, la caméra sera réorientée de manière à ce que sa direction soit perpendiculaire à la face sélectionnée. {{Version/fr|1.2}} : un double-clic sur une face permet non seulement de faire pivoter la caméra, mais aussi de recentrer la vue.
 
 <span id="Directional_arrows"></span>
 === Flèches directionnelles === 
