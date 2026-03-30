@@ -97,8 +97,8 @@ In der folgenden Tabelle sind die anderen erweiterten Parameter des Navigationsw
 | 1.1
 
 |-
-| FasenGröße
-| Die Größe der Kanten und Ecken als Faktor der Würfelgröße. Die Werte sollten im Bereich von 0.05 bis 0.18 liegen.
+| ChamferSize
+| Die Größe der Kanten- und Eckflächen als Faktor der Würfelgröße. Die Werte sollten im Bereich von 0.05 bis 0.18 liegen.
 
 {{Version/de|0.21}}
 | Gleitkommazahl
