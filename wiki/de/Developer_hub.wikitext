@@ -18,6 +18,7 @@ Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
 <span id="Compiling_FreeCAD"></span>
 === FreeCAD kompilieren ===
 
+<div class="mw-translate-fuzzy">
 * [https://github.com/FreeCAD/FreeCAD Github Repo]. Wenn du neu bei Git bist, lies [[Source code management/de|Quellcode-Verwaltung]]
 * [[Compile_on_Docker/de|Kompilieren mit Docker]]
 * [[Compile_on_Windows/de|Kompilieren auf Windows]]
@@ -30,6 +31,7 @@ Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
 * [[Start_up_and_Configuration/de|Programmstart und Konfiguation]]
 * [[Source_documentation/de|Quellcode Dokumentation]]
 * Verwende den [[Tracker/de|Fehlerverfolger]], wenn du ein Problem hast oder glaubst, einen Fehler gefunden zu haben
+</div>
 
 <span id="Packaging"></span>
 === Paketerstellung ===
