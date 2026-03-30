@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[Std_AddonMgr/de|AddonManager]]
 |[[Std_ClarifySelection/de|AuswahlVerdeutlichen]]
@@ -8,6 +9,7 @@
 |IconR=
 |IconC=Freecad.svg
 }}
+</div>
 
 {{GuiCommand/de
 |Name=Std Measure
@@ -94,6 +96,7 @@ Der Befehl '''Std Measure''' ermöglicht den Zugriff auf die [[Unified_Measureme
 * Wie auch an anderen Stellen in FreeCAD muss die Taste {{KEY|Strg}} gedrückt gehalten werden, um mehrere Objekte auszuwählen.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[Std_AddonMgr/de|AddonManager]]
 |[[Std_ClarifySelection/de|AuswahlVerdeutlichen]]
@@ -102,6 +105,7 @@ Der Befehl '''Std Measure''' ermöglicht den Zugriff auf die [[Unified_Measureme
 |IconR=
 |IconC=Freecad.svg
 }}
+</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
