@@ -160,9 +160,7 @@ Le mie macro su Gist [https://gist.github.com/mario52a mario52a ]
 {{Code|
 App.ActiveDocument.getObject(p[0]).Placement
 }}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-instead
-</div>
+Invece
 {{Code|
 myObject.Placement
 }}
