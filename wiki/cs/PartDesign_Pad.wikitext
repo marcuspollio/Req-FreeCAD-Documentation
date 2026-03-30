@@ -64,9 +64,7 @@ Deska se vysune až k poslednímu povrchu nosníku, na který ve svém směru na
 <span id="To_first"></span>
 ===K první===
 
-<div class="mw-translate-fuzzy">
-Deska se vysune k první ploše tělesa ve směru vysunutí. Není-li v daném směru žádná plocha, zobrazí se chybové hlášení.
-</div>
+Blok se bude rozšiřovat až k prvnímu povrchu podpory, na který ve svém směru narazí. Pokud žádná podpora není, zobrazí se chybová zpráva.
 
 <span id="Up_to_face"></span>
 ===Až k ploše===
