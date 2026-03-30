@@ -1,13 +1,15 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
+|[[Std_UnitsCalculator/de|Einheitenrechner]]
 |[[Std_ViewScreenShot/de|AnsichtAufnehmen]]
-|[[Std_SceneInspector/de|SzenenInspektor]]
 |[[Std_Tools_Menu/de|Std Menü Werkzeuge]]
-|IconL=Std_ViewScreenShot.svg
-|IconR=Std_SceneInspector.svg
+|IconL=Std_UnitsCalculator.svg
+|IconR=Std_ViewScreenShot.svg
 |IconC=Freecad.svg
 }}
+</div>
 
 {{GuiCommand/de
 |Name=Std ViewLoadImage
@@ -25,7 +27,7 @@ Der Befehl '''Std AnsichtBildLaden''' öffnet ein Bild in einem neuen Reiter im 
 <span id="Usage"></span>
 ==Anwendung==
 
-# Den Menüeintrag {{MenuCommand|Werkzeuge → [[Image:Std_ViewLoadImage.svg|16px]] Load image...}} auswählen.
+# Den Menüeintrag {{MenuCommand|Werkzeuge → [[Image:Std_ViewLoadImage.svg|16px]] Bild laden...}} auswählen.
 # Wahlweise den korrekten Dateityp im Dialogfenster auswählen.
 # Eine Datei auswälen.
 # Die Schaltfläche {{Button|Open}} drücken.
@@ -40,14 +42,16 @@ Der Befehl '''Std AnsichtBildLaden''' öffnet ein Bild in einem neuen Reiter im 
 * Um ein Bild in die 3D-Ansicht zu importieren, sollte der Befehl [[Std_Import/de|Std Import]] verwendet werden. {{Version/de|0.21}}
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
+|[[Std_UnitsCalculator/de|Einheitenrechner]]
 |[[Std_ViewScreenShot/de|AnsichtAufnehmen]]
-|[[Std_SceneInspector/de|SzenenInspektor]]
 |[[Std_Tools_Menu/de|Std Menü Werkzeuge]]
-|IconL=Std_ViewScreenShot.svg
-|IconR=Std_SceneInspector.svg
+|IconL=Std_UnitsCalculator.svg
+|IconR=Std_ViewScreenShot.svg
 |IconC=Freecad.svg
 }}
+</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
