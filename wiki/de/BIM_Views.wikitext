@@ -51,7 +51,8 @@ Der BIM Ansichtenverwalter zeigt alle Ebenen (Gebäudeteile) und Arbeitsebenen P
 ** '''Umbenennen''' ermöglicht das Umbenennen eines ausgewählten Objekts.
 </div>
 
-'''Top part'''
+===Top part===
+
 * Clicking any entry selects the corresponding object.
 * Double-clicking the height of a level allows you to edit it.
 * Double-clicking the name of any object sets the working plane to it and activates the object {{Version|1.1}}. If the '''Restore View''' property of the object is set to True, and a view configuration has been stored in it, that viewpoint is also restored.
@@ -65,9 +66,11 @@ Der BIM Ansichtenverwalter zeigt alle Ebenen (Gebäudeteile) und Arbeitsebenen P
 ** '''Save View Position''' stores the current view settings in the selected object, allowing to restore it if its '''Restore View''' property is set to True.
 ** '''Rename''' allows you to rename a selected object.
 
-'''Bottom part'''
+===Bottom part===
+
 * Double-clicking a drawing orients the 3D view to the drawing.
 * Double clicking a page opens or activates the page tab.
+
 
 {{Docnav/de
 |[[BIM_Setup/de|Einrichtung]]
