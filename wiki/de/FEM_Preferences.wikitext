@@ -24,7 +24,9 @@ Die derzeit unterstützten externen Gleichungslöser sind:
 * [[Image:FEM_SolverMystran.svg|32px]] [[FEM_SolverMystran/de|Mystran]]
 * [[Image:FEM_SolverZ88.svg|32px]] [[FEM_SolverZ88/de|Z88]]
 
+<div class="mw-translate-fuzzy">
 Diese Seite wurde für Version 1.1 aktualisiert.
+</div>
 
 <span id="General"></span>
 ==Allgemein==
@@ -33,6 +35,7 @@ Diese Seite wurde für Version 1.1 aktualisiert.
 
 Auf dieser Seite kann Folgendes festgelegt werden:
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Name
 !style="width: 66%;"|Beschreibung
@@ -42,6 +45,7 @@ Auf dieser Seite kann Folgendes festgelegt werden:
 |-
 | {{MenuCommand|Create mesh groups for analysis reference shapes (experimental)}}
 | Wenn mehrere Netze vorhanden sind, werden diese gruppiert. Diese Option ermöglicht eine erhebliche Beschleunigung, wenn Lasten und Einschränkungen vor der Vernetzung zugewiesen werden, weist jedoch derzeit einige Einschränkungen auf und kann zu unerwarteten Ergebnissen führen.
+</div>
 
 |-
 | {{MenuCommand|Ergebnisse bei erneuter Berechnung beibehalten}}
@@ -83,6 +87,7 @@ Auf dieser Seite kann Folgendes festgelegt werden:
 
 Auf dieser Seite kann Folgendes festgelegt werden:
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Name
 !style="width: 66%;"|Beschreibung
@@ -150,6 +155,7 @@ Auf dieser Seite kann Folgendes festgelegt werden:
 | {{MenuCommand|Niederfrequenzgrenze}}
 | Standardmäßige Untergrenze der ausgewerteten Eigenfrequenzen in Frequenzanalysen.
 |}
+</div>
 
 ==Elmer==
 
