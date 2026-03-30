@@ -17,7 +17,6 @@ The developer documentation comprises the following sections:
 === Compiling FreeCAD ===
 
 * [https://github.com/FreeCAD/FreeCAD GitHub repo]: If you are new to git, read [[Source_code_management|Source code management]]
-* [[Compile_on_Docker|Compile on Docker]]
 * [[Compile_on_Windows|Compiling on Windows]]
 * [[Compile_on_Linux|Compiling on Linux]]
 * [[Compile_on_MacOS|Compiling on MacOS]]
@@ -27,7 +26,7 @@ The developer documentation comprises the following sections:
 * [[Third_Party_Tools|Third Party Tools]]
 * [[Start up and Configuration|Start up and Configuration]]
 * [[Start_up_and_Configuration|Source documentation]]
-* Use the [[Tracker|bug tracker]] when you have a problem or think you may have found a bug
+* Use [[https://github.com/FreeCAD/FreeCAD/issues|GitHub]] when you have a problem or think you may have found a bug
 
 === Packaging ===
 
