@@ -1,10 +1,13 @@
 <languages/>
-{{UnfinishedDocu{{#translation:}}}}
 
 {{Docnav/fr
 |[[Compile_on_Docker/fr|Compiler sous Docker]]
 |[[Compiling_(Speeding_up)/fr|Compilation (accélération)]]
 }}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{VeryImportantMessage|This page is for archival purposes only, see the [https://freecad.github.io/DevelopersHandbook/gettingstarted/#pixi relevant section of the Developers Handbook] for up-to-date information.}}
+</div>
 
 {{TOCright}}
 
@@ -85,9 +88,7 @@ Pour lancer FreeCAD dans l'image Docker, exécutez simplement la commande <code>
 
 ==Discussion== 
 
-<div class="mw-translate-fuzzy">
-* Fil du forum FreeCAD : https://forum.freecadweb.org/viewtopic.php?f=8&t=45877
-</div>
+* Fil du forum FreeCAD : https://forum.freecad.org/viewtopic.php?f=8&t=45877
 
 
 {{Docnav/fr
