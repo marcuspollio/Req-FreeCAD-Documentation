@@ -43,7 +43,7 @@ Un objet datum peut également fournir une référence géométrique pour une fo
 <span id="Properties"></span>
 == Propriétés ==
 
-Voir aussi : [[Property_editor/fr|Éditeur de propriétés]]
+Voir aussi : [[Property_View/fr|Éditeur de propriétés]]
 
 Un objet Part LCS, formellement un objet {{Incode|Part::LocalCoordinateSystem}}, est dérivé d'un objet {{Incode|App::LocalCoordinateSystem}}. Toutes ses propriétés sont héritées, à l'exception de celles énumérées sous Attachment.
 
