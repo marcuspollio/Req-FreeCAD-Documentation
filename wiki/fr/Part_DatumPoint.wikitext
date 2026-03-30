@@ -34,7 +34,7 @@ Voir [[Part_CoordinateSystem/fr#Remarque|Part Système de coordonnées]].
 <span id="Properties"></span>
 == Propriétés ==
 
-Voir aussi : [[Property_editor/fr|Éditeur de propriétés]]
+Voir aussi : [[Property_View/fr|Éditeur de propriétés]]
 
 Un objet {{Incode|Part::DatumPoint}} est dérivé d'un objet {{Incode|App::Point}}. Toutes ses propriétés sont héritées, à l'exception de celles énumérées sous Attachment.
 
