@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/ru
 |[[Sketcher_ConstrainSymmetric/ru|Ограничить симметричность]]
 |[[Sketcher_ConstrainSnellsLaw/ru|Ограничение преломления (Закон Снеллиуса)]]
@@ -8,6 +9,7 @@
 |IconR=Sketcher_ConstrainSnellsLaw.svg‎
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{GuiCommand/ru
 |Name=Sketcher ConstrainBlock
@@ -64,6 +66,7 @@
 На странице [[Sketcher_scripting/ru|написание скриптов в Скетчер]] объясняются значения, которые можно использовать для {{incode|Edge}}, и приводятся дополнительные примеры создания ограничений из скриптов Python.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/ru
 |[[Sketcher_ConstrainSymmetric/ru|Ограничить симметричность]]
 |[[Sketcher_ConstrainSnellsLaw/ru|Ограничение преломления (Закон Снеллиуса)]]
@@ -72,6 +75,7 @@
 |IconR=Sketcher_ConstrainSnellsLaw.svg‎
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
