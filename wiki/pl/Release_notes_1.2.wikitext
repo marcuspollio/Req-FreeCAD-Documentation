@@ -255,13 +255,11 @@ ToDo (last check: 20260318):
 <span id="Sketcher_Workbench"></span>
 ==Środowisko pracy Szkicownik==
 
-<div class="mw-translate-fuzzy">
 {| cellpadding=5
 | [[File:Sketcher_text_relnotes_1.2.png|384px]]
-| Dzięki [https://www.astocad.com/ AstoCAD], do Szkicownika dodane zostało narzędzie Tekst umożliwiające tworzenie geometrii tekstu sterowanych specjalnych wiązaniem typu Tekst.
+| Dzięki [https://www.astocad.com/ AstoCAD], do Szkicownika dodane zostało narzędzie [[Image:Sketcher_CreateText.svg|24px]] [[Sketcher_CreateText/pl|Tekst]] umożliwiające tworzenie geometrii tekstu sterowanych specjalnych wiązaniem typu Tekst.
 [https://github.com/FreeCAD/FreeCAD/pull/22217 Pull request #22217]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
