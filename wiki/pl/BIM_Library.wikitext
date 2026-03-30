@@ -39,12 +39,9 @@ Możliwy jest dostęp offline do biblioteki poprzez pobranie całego środowiska
 <span id="Options"></span>
 ==Opcje==
 
-<div class="mw-translate-fuzzy">
 * Obsługiwane są pliki [[File_Format_FCStd/pl|FCStd]], STEP i [[File_Format_FCStd/pl#*.brep|BREP]]. Tylko pliki STEP i BREP są wspierane. Pliki FCStd nie pozwalają na wybór miejsca umieszczenia, ponieważ mogą składać się ze złożonej serii obiektów o znaczących pozycjach. Po wybraniu pliku FCStd jego zawartość zostanie wstawiona w miejscu określonym w pliku.
-* Obiekty STEP i BREP są wstawiane jako [[Image:Arch_Equipment.svg|24px|Arch_Equipment/pl]] [[Arch_Equipment/pl|wyposażenie]] bez oddzielnego kształtu bazowego. Późniejsze dodanie kształtu bazowego do tych obiektów zniszczy ich obecny kształt.
+* Obiekty STEP i BREP są wstawiane jako [[Image:Arch_Equipment.svg|16px|Arch_Equipment/pl]] [[Arch_Equipment/pl|wyposażenie]] bez oddzielnego kształtu bazowego. Późniejsze dodanie kształtu bazowego do tych obiektów zniszczy ich obecny kształt.
 * Podczas umieszczania obiektu można wybrać jego punkt wstawienia pomiędzy oryginalnym ''({{incode|0,0,0}})'' punktem zdefiniowanym w pliku, górnym, środkowym, dolnym i lewym, środkowym i prawym.
-* Biblioteka może działać w trybie offline, w którym polega na zainstalowanym ''(i aktualizowanym przez użytkownika)'' dodatku Parts Library, lub online, w którym przegląda bezpośrednio z repozytorium [https://github.com/FreeCAD/FreeCAD-library Parts Library Git] i umożliwia pobieranie bezpośrednio stamtąd.
-</div>
 
 
 {{Docnav/pl
