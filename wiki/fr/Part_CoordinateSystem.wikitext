@@ -26,7 +26,7 @@ Un objet datum peut également fournir une référence géométrique pour une fo
 <span id="Usage"></span>
 ==Utilisation==
 
-# Vous pouvez également activer le bon conteneur, par exemple un [[Image:PartDesign_Body.svg|16px]] [[PartDesign_Body/fr|PartDesign Corps]], un [[Image:Std_Part.svg|16px]] [[Std_Part/fr|Std Part]] ou un [[Image:Assembly_CreateAssembly.svg|16px]] [[Assembly_CreateAssembly/fr|assemblage]]. Si plusieurs conteneurs sont actifs, l'objet de référence est ajouté au conteneur actif qui a été créé en premier.
+# Vous pouvez activer le bon conteneur, par exemple un [[Image:PartDesign_Body.svg|16px]] [[PartDesign_Body/fr|PartDesign Corps]], un [[Image:Std_Part.svg|16px]] [[Std_Part/fr|Std Part]] ou un [[Image:Assembly_CreateAssembly.svg|16px]] [[Assembly_CreateAssembly/fr|assemblage]]. Si plusieurs conteneurs sont actifs, l'objet de référence est ajouté au conteneur actif qui a été créé en premier.
 # Vous pouvez sélectionner la géométrie à laquelle l'objet datum doit être ancré.
 # Appuyez sur le bouton {{Button|[[Image:Part_CoordinateSystem.svg|16px]] [[Part_CoordinateSystem/fr|Créer un système de coordonnées]]}}.
 # Le panneau de tâches '''Ancrage''' s'ouvre.
