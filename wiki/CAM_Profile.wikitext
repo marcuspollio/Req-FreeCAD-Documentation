@@ -149,6 +149,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 * {{PropertyData|Process Perimeter}}: Check if this Profile Operation should also process the outside perimeter of the base geometry shapes
 * {{PropertyData|Side}}: (Cut Side) Side of edge that tool should cut. This only matters if ''Use Compensation'' is True (checked).
 * {{PropertyData|Use Compensation}}: If checked, the Profile Operation is offset by the tool radius. The offset direction is determined by the Cut Side.
+* {{PropertyData|SortingMode}}: Controls how multiple selected features are ordered. {{Value|Automatic}} uses the default path sorting. {{Value|Manual}} follows the order in which the features were selected.
 
 <!--T:28-->
 {{TitleProperty|Rotation}}
