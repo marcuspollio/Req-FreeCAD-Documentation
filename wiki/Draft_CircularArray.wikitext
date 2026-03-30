@@ -71,7 +71,7 @@ See also: [[Draft_Snap|Draft Snap]].
 See [[Draft_OrthoArray#Notes|Draft OrthoArray]].
 
 <!--T:10-->
-* The default rotation axis for the array is the positive Z axis. This can be changed by editing its {{PropertyData|Axis}} property.
+* If a [[Draft_SelectPlane|working plane]] is active, the array uses its orientation for the rotation axis. Otherwise the default rotation axis is the positive Z axis. This can be changed by editing the {{PropertyData|Axis}} property.
 
 == Properties == <!--T:13-->
 
