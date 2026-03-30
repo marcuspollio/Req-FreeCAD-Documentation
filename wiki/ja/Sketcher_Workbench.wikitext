@@ -83,11 +83,15 @@
 <span id="Tools"></span>
 == ツール ==
 
+<div class="mw-translate-fuzzy">
 スケッチッチャーワークベンチの各ツールは、{{MenuCommand|スケッチ}}メニューやツールバーからアクセスできます。{{Version|0.21}}: ほとんどすべてのスケッチッチャーワークベンチのツールバーは、スケッチが編集モードのときにだけ表示されます。例外は、[[#Sketcher_toolbar|スケッチャー・ツールバー]]で、これはスケッチが編集モードでないときのみ表示されます。
+</div>
 
 いくつかのツールは、スケッチが編集モードの時に、[[3D_view/ja|3Dビュー]]のコンテキスト・メニュー、あるいは[[Sketcher_Dialog/ja|スケッチャー・ダイアログ]]のコンテキスト・メニューからアクセスできます。
 
-{{Version|0.21}}: スケッチが編集モードにある場合、構造体ツールバーは非表示になります。これは、このツールバー上のツールがすべて編集モードでは使用できないためです。 
+<div class="mw-translate-fuzzy">
+{{Version|0.21}}: スケッチが編集モードにある場合、構造体ツールバーは非表示になります。これは、このツールバー上のツールがすべて編集モードでは使用できないためです。
+</div> 
 
 <span id="General"></span>
 === 一般ツール ===
@@ -228,7 +232,9 @@ pages redirect here-->
 
 :* [[File:Sketcher_ConstrainDistanceY.svg|32px]] [[Sketcher_ConstrainDistanceY/ja|垂直距離拘束]]：2点間または線分の両端点間の垂直距離を指定します。もし1点だけが選択されている場合は、原点との垂直距離になります。
 
+<div class="mw-translate-fuzzy">
 :* [[File:Sketcher_ConstrainDistance.svg|32px]] [[Sketcher_ConstrainDistance/ja|距離拘束]]：2点間の距離、線分の長さ、点と線分の距離（垂線の長さ）、{{Version|0.21}}2つの円または円弧間の距離、円または円弧と線分の間の距離、または{{Version|1.0}}円弧の長さを指定します。
+</div>
 
 :* <span id="Sketcher_CompConstrainRadDia">[[File:Sketcher_ConstrainRadiam.svg|32px]] [[Sketcher_ConstrainRadiam/ja|半径/直径を自動拘束]]：円弧またはBスプライン曲線の重み円の半径、または円の直径を指定します。</span><!--Do not edit span id: the Sketcher_CompConstrainRadDia pages redirect here-->
 
@@ -265,6 +271,10 @@ pages redirect here-->
 * [[File:Sketcher_ConstrainSymmetric.svg|32px]] [[Sketcher_ConstrainSymmetric/ja|対称拘束]]：2つの点が、線、座標軸、または第3の点に対して対称になるよう拘束します。
 
 * [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock/ja|固定拘束]]：この拘束だけで、エッジの位置を固定するよう拘束します。主にBスプライン曲線のためのものです。
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometries. {{Version|1.2}}
+</div>
 
 * [[File:Sketcher_ConstrainSnellsLaw.svg|32px]] [[Sketcher_ConstrainSnellsLaw/ja|屈折率拘束（スネルの法則）]]：光が境界を通過するときの屈折の法則（[[https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%8D%E3%83%AB%E3%81%AE%E6%B3%95%E5%89%87 スネルの法則]]）に基づき、2つの線分の関係を拘束します。
 
@@ -342,7 +352,9 @@ pages redirect here-->
 
 * [[File:Sketcher_BSplineInsertKnot.svg|32px]] [[Sketcher_BSplineInsertKnot/ja|ノットを挿入]]：Bスプラインにノットを挿入する、または既存のノット多重度を増やします。
 
+<div class="mw-translate-fuzzy">
 * [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves/ja|曲線を結合]]：2つのBスプラインまたは他の種類のエッジを結合し、新しいBスプラインを作ります。{{Version|0.21}}
+</div>
 
 <span id="Visual_Helpers"></span>
 === スケッチャー表示ツール ===
