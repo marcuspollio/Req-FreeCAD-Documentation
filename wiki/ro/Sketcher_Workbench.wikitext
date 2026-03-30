@@ -126,7 +126,7 @@ Some tools are also available from the [[3D_View|3D View]] context menu while a 
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|0.21}}: If a sketch is in edit mode the Structure toolbar is hidden as none of its tools can then be used.
+If a sketch is in edit mode the Structure toolbar is hidden as none of its tools can then be used.
 </div> 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -457,6 +457,10 @@ Constrânge liniile selectate sau elementele de polilinie la o orientare orizont
 Practic permite blocarea unui element geometric în loc cu o singură constrângere. Ar trebui să fie deosebit de util să lucrați cu acest la curbele B-Splines. A se vedea [https://forum.freecadweb.org/viewtopic.php?f=9&t=26572 Block Constraint forum topic]. {{Version|0.17}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometries. {{Version|1.2}}
+</div>
+
 <div class="mw-translate-fuzzy">
 * [[Image:Constraint_SnellsLaw.png|32px]] [[Sketcher ConstrainSnellsLaw|Snell's Law]]: Constrânge două linii pentru a se supune unei legi de refracție pentru a simula lumina care traversează o interfață. {{Version|0.15}}
 </div>
@@ -604,7 +608,7 @@ Practic permite blocarea unui element geometric în loc cu o singură constrâng
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves|Join Curves]]: Creates a B-spline by joining two existing B-splines or other edges. {{Version|0.21}}
+* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves|Join Curves]]: Creates a B-spline by joining two existing B-splines or other edges.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
