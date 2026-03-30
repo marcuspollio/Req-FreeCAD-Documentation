@@ -35,8 +35,9 @@ The [[Image:CAM_DressupDogbone.svg|24px]] [[CAM_DressupDogbone|CAM DressupDogbon
 <!--T:7-->
 *'''Side''': Which side of the path the modification will be added to.
 *'''Style''': Style of overcut (Dogbone, T-Bone Horizontal, T-Bone Vertical, T-Bone Long Edge, T-Bone Short Edge).
-*'''Incision''': The Algorithm to use calculating the overcut length
-*'''Custom''': If Incision is custom, the custom property is used to set the length.
+* '''Incision''': The algorithm used to calculate the overcut length.
+* '''Custom''': If '''Incision''' is set to {{Value|Custom}}, this value defines the overcut length.
+* {{Version|1.2}} For the adaptive incision type, a non-zero '''Custom''' value can also be used to limit the maximum incision length.
 
 ==Limitations== <!--T:13-->
 
