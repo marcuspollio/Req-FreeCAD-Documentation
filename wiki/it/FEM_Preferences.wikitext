@@ -27,7 +27,7 @@ The currently supported external solvers are:
 * [[Image:FEM_SolverMystran.svg|32px]] [[FEM_SolverMystran|Mystran]]
 * [[Image:FEM_SolverZ88.svg|32px]] [[FEM_SolverZ88|Z88]]
 
-This page has been updated for version 1.1.
+This page has been updated for version 1.2.
 
 <span id="General"></span>
 ==Generale==
@@ -40,8 +40,14 @@ On this page you can specify the following:
 !style="width: 33%;"|Name
 !style="width: 66%;"|Description
 |-
-| {{MenuCommand|Working Directory for Solving Analysis and Gmsh Meshing}}
-| In what directory the mesh and solver files should be stored
+| {{MenuCommand|Working Directory for Solving Analysis and Meshing}}
+| In what directory the mesh and solver files should be stored:
+* Temporary directories - a new temporary directory is created in each file session when the solver/mesher runs
+* Beside .FCStd file - creates a directory in the same folder in which the .FCStd file is located, or, if the file is not saved, creates a temporary directory (if it does not exist) when the solver/mesher runs
+* Custom directory - the working directory is created if it does not exist when the solver/mesher runs, based on the current path specified in the custom directory entry (if empty, the home directory is used)
+|-
+| {{MenuCommand|Editor path}}
+| Path to external input file editor (if empty, FreeCAD internal editor is used)
 |-
 | {{MenuCommand|Create mesh groups for analysis reference shapes (experimental)}}
 | If there are several meshes they will be grouped. This option allows significant speedup if loads and constraints are assigned before meshing, but currently has several limitations and may cause unexpected results.
@@ -92,12 +98,6 @@ On this page you can specify the following:
 |-
 | {{MenuCommand|CalculiX path}}
 | The path to the binary of [[FEM_SolverCalculixCcxtools|CalculiX]]. Leave blank to use the default binary.
-|-
-| {{MenuCommand|Use internal editor for *.inp files}}
-| If checked, a built-in *.inp file editor with syntax highlighting is used when editing CalculiX input decks.
-|-
-| {{MenuCommand|External editor}}
-| The path to the external *.inp file editor.
 |-
 | {{MenuCommand|Split writing of *.inp}}
 | If checked, multiple *.inp files are written and the main input deck uses the *INCLUDE keywords to reference the other ones. If unchecked, a single large *.inp file is written.
