@@ -77,11 +77,15 @@ Diese Regeln gelten nicht für Hilfsgeometrie (Standardfarbe blau), die außerha
 <span id="Tools"></span>
 ==Werkzeuge==
 
+<div class="mw-translate-fuzzy">
 Die Werkzeuge des Arbeitsbereichs Sketcher sind im Menü ''Sketch'' und/oder mehreren Symbolleisten zu finden. {{Version/de|0.21}}: Fast alle Sketcher-Symbolleisten werden nur dann dargestellt, wenn sich eine Skizze im Bearbeitungsmodus befindet. Die einzige Ausnahme ist die Symbolleiste [[#Sketcher_toolbar/de|Sketcher]], die nur dargestellt wird, wenn sich keine Skizze im Bearbeitungsmodus befindet.
+</div>
 
 Einige Werkzeuge stehen auch im Kontextmenü der [[3D_View/de|3D-Ansicht]] zur Verfügung, während sich eine Skizze im Bearbeitungsmodus befindet, oder in den Kontextmenüs des [[Sketcher_Dialog/de|Sketcher-Dialogs]].
 
-{{Version/de|0.21}}: Ist eine Skizze im Bearbeitungsmodus, ist die Werkzeugleiste Struktur ausgeblendet, da dann keins ihrer Werkzeuge verwendet werden kann. 
+<div class="mw-translate-fuzzy">
+{{Version/de|0.21}}: Ist eine Skizze im Bearbeitungsmodus, ist die Werkzeugleiste Struktur ausgeblendet, da dann keins ihrer Werkzeuge verwendet werden kann.
+</div> 
 
 <span id="General"></span>
 ===Allgemein===
@@ -213,7 +217,9 @@ Dies sind Werkzeuge zum Erstellen von [[#Randbedingungen|Randbedingungen]]. Eini
 
 :* [[File:Sketcher_ConstrainDistanceY.svg|32px]] [[Sketcher_ConstrainDistanceY/de|Vertikaler Abstand]]: Legt den vertikalen Abstand zwischen zwei Punkten oder den Endpunkten einer Linie fest. Ist ein einzelner Punkt vorausgewählt, bezieht sich der Abstand auf den Ursprung der Skizze.
 
+<div class="mw-translate-fuzzy">
 :* [[File:Sketcher_ConstrainDistance.svg|32px]] [[Sketcher_ConstrainDistance/de|Abstand]]: Legt die Länge einer Linie, den Abstand zwischen zwei Punkten, den senkrechten Abstand eines Punktes zu einer Linie fest; oder {{Version/de|0.21}} den Abstand zwischen den Kanten zweier Kreise oder Kreisbögen sowie zwischen der Kante eines Kreises oder Kreisbogens und einer Linie; oder {{Version/de|1.0}} die Länge eines Kreisbogens.
+</div>
 
 :* <span id="Sketcher_CompConstrainRadDia">[[File:Sketcher_ConstrainRadiam.svg|32px]] [[Sketcher_ConstrainRadiam/de|Radius/Durchmesser]]: Legt den Radius für Bögen und B-Spline-Gewichtskreise und den Durchmesser für Kreise fest.</span><!--Do not edit span id: the Sketcher_CompConstrainRadDia pages redirect here-->
 
@@ -250,6 +256,10 @@ Dies sind Werkzeuge zum Erstellen von [[#Randbedingungen|Randbedingungen]]. Eini
 * [[File:Sketcher_ConstrainSymmetric.svg|32px]] [[Sketcher_ConstrainSymmetric/de|Symmetrisch festlegen]]: Legt zwei Punkte symmetrisch zu einer Linie oder Achse bzw. zu einem dritten Punkt fest.
 
 * [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock/de|Unbeweglich festlegen]]: Setzt Kanten mit einer einzigen Randbedingung in ihrer aktuellen Lage fest. Es ist hauptsächlich für B-Spines gedacht.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometries. {{Version|1.2}}
+</div>
 
 * [[File:Sketcher_ConstrainSnellsLaw.svg|32px]] [[Sketcher ConstrainSnellsLaw/de|Lichtbrechung festlegen]]: Legt zwei Linien so fest, dass ihr Verlauf der Lichtbrechung entspricht, die beim Passieren einer Grenzfläche auftritt.
 
@@ -327,7 +337,9 @@ Dies sind Werkzeuge zum Erstellen von [[#Randbedingungen|Randbedingungen]]. Eini
 
 * [[File:Sketcher_BSplineInsertKnot.svg|32px]] [[Sketcher_BSplineInsertKnot/de|Knoten einfügen]]: Fügt einen Knoten in einen B-Spline ein oder erhöht die Vielfachheit eines vorhandenen Knotens.
 
+<div class="mw-translate-fuzzy">
 * [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves|Kurven verbinden]]: Erstellt einen B-Spline, indem zwei vorhandene B-Splines oder andere Kanten verbunden werden. {{Version/de|0.21}}
+</div>
 
 <span id="Visual_Helpers"></span>
 ===Visuelle Helfer===
