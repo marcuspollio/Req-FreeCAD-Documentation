@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Sketcher_ConstrainBlock/fr|Blocage]]
 |[[Sketcher_ToggleDrivingConstraint/fr|Contraintes pilotantes]]
@@ -8,6 +9,7 @@
 |IconR=Sketcher_ToggleDrivingConstraint.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{GuiCommand/fr
 |Name=Sketcher ConstrainSnellsLaw
@@ -95,6 +97,7 @@ App.ActiveDocument.recompute()
 }}
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Sketcher_ConstrainBlock/fr|Blocage]]
 |[[Sketcher_ToggleDrivingConstraint/fr|Contraintes pilotantes]]
@@ -103,6 +106,7 @@ App.ActiveDocument.recompute()
 |IconR=Sketcher_ToggleDrivingConstraint.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
