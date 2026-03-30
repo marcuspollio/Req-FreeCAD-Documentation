@@ -22,8 +22,6 @@
 Так же возможна компиляция FreeCAD в Windows с использованием [[Compile_on_Windows|Compile on Windows]].
 </div>
 
-Чтобы скомпилировать FreeCAD без применения графического интерфейса, используйте [[FreeCAD_Docker_CLI_mode/ru|Docker образ FreeCAD в режиме командной строки]].
-
 Насчёт компиляции программной документации смотрите [[Source_documentation/ru|Source documentation]].
 
 Чтобы научиться использовать систему контроля версий и предлагать код, смотрите [[Source_code_management/ru|Поддержка исходного кода]].
