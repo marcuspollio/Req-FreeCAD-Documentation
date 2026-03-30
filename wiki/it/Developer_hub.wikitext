@@ -22,6 +22,7 @@ La documentazione per gli sviluppatori comprende le seguenti sezioni:
 <span id="Compiling_FreeCAD"></span>
 === Compilare FreeCAD ===
 
+<div class="mw-translate-fuzzy">
 * [https://github.com/FreeCAD/FreeCAD Github repo]. Se sei nuovo su git, leggi [[Source code management/it|Gestione del codice sorgente]]
 * [[Compile_on_Docker/it|Compilazione con Docker]]
 * [[Compile_on_Windows/it|Compilare in Windows]]
@@ -33,6 +34,7 @@ La documentazione per gli sviluppatori comprende le seguenti sezioni:
 * [[Start up and Configuration/it|Avvio e configurazione]]
 * [[Source documentation/it|Documentazione del codice sorgente]]
 * Usare il [[Tracker/it|bug Tracker]] quando quando si ha un problema o si pensa di aver trovato un bug
+</div>
 
 === Packaging ===
 
