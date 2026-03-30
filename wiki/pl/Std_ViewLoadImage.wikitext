@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[Std_UnitsCalculator/pl|Przelicznik jednostek]]
 |[[Std_ViewScreenShot/pl|Std: Zapisz zrzut ekranu]]
@@ -8,6 +9,7 @@
 |IconR=Std_ViewScreenShot.svg
 |IconC=Freecad.svg
 }}
+</div>
 
 {{GuiCommand/pl
 |Name=Std ViewLoadImage
@@ -40,6 +42,7 @@ Polecenie '''Załaduj obraz''' otwiera obraz w nowej karcie w [[Main_view_area/p
 * Aby wstawić obraz do okna 3D, należy użyć polecenia [[Std_Import/pl|Importuj]]. {{Version/pl|0.21}}
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[Std_UnitsCalculator/pl|Przelicznik jednostek]]
 |[[Std_ViewScreenShot/pl|Std: Zapisz zrzut ekranu]]
@@ -48,6 +51,7 @@ Polecenie '''Załaduj obraz''' otwiera obraz w nowej karcie w [[Main_view_area/p
 |IconR=Std_ViewScreenShot.svg
 |IconC=Freecad.svg
 }}
+</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
