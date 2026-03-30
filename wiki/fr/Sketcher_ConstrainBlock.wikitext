@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Sketcher_ConstrainSymmetric/fr|Symétrie]]
 |[[Sketcher_ConstrainSnellsLaw/fr|Réfraction]]
@@ -8,6 +9,7 @@
 |IconR=Sketcher_ConstrainSnellsLaw.svg‎
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{GuiCommand/fr
 |Name=Sketcher ConstrainBlock
@@ -62,6 +64,7 @@ Voir aussi : [[Sketcher_Workbench/fr#Aides_au_dessin|Aides au dessin]].
 La page [[Sketcher_scripting/fr|Sketcher Scripts]] explique les valeurs qui peuvent être utilisées pour {{incode|Edge}} et contient d'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Sketcher_ConstrainSymmetric/fr|Symétrie]]
 |[[Sketcher_ConstrainSnellsLaw/fr|Réfraction]]
@@ -70,6 +73,7 @@ La page [[Sketcher_scripting/fr|Sketcher Scripts]] explique les valeurs qui peuv
 |IconR=Sketcher_ConstrainSnellsLaw.svg‎
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
