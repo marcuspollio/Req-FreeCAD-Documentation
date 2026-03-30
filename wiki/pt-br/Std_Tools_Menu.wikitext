@@ -43,7 +43,7 @@ O menu Ferramentas fornece ferramentas para depuração de modelos, personaliza�
 
 As seguintes ferramentas estão disponíveis neste menu:
 
-''The order of the tools matches the version 1.1 menu.''
+''The order of the tools matches the version 1.2 menu.''
 
 <div class="mw-translate-fuzzy">
 * [[Image:Std_AddonMgr.svg|32px]] [[Std_AddonMgr/pt-br|Gerenciador de addons]]: abre o gerenciador de complementos com o qual as  [[External_workbenches/pt-br|bancadas de trabalho externas]] e [[macros/pt-br|macros ]]  podem ser instaladas.
@@ -53,11 +53,15 @@ As seguintes ferramentas estão disponíveis neste menu:
 * [[Image:Std_Measure.svg|32px]] [[Std_Measure/pt-br|Medida]]:{{Version|1.0}}
 </div>
 
-* [[Std_ClarifySelection|Clarify Selection]]: Lists all objects of different types located near the cursor to facilitate their selection. {{Version|1.1}}
+* [[Image:Std_MassProperties.svg|32px]] [[Std_MassProperties|Mass Properties]]: Measures mass properties of the selected solids. {{Version|1.2}}
+
+* [[Image:Std_AnnotationLabel.svg|32px]] [[Std_AnnotationLabel|Annotation Label]]: creates an annotation label at the selected location. {{Version|1.2}}
 
 <div class="mw-translate-fuzzy">
 * [[Image:Std_UnitsCalculator.svg|32px]] [[Std_UnitsCalculator/pt-br|Calculadora de unidades...]]: Abre uma calculadora para a conversão de unidades.
 </div>
+
+* [[Image:Std_ClarifySelection.svg|32px]] [[Std_ClarifySelection|Clarify Selection]]: Lists all objects of different types located near the cursor to facilitate their selection. {{Version|1.1}}
 
 * [[Image:Std_ViewLoadImage.svg|32px]] [[Std_ViewLoadImage/pt-br|Carregar imagem...]]: Carrega uma imagem. {{Version|0.21}}
 
@@ -77,7 +81,9 @@ As seguintes ferramentas estão disponíveis neste menu:
 
 * [[Image:Std_DlgParameter.svg|32px]] [[Std_DlgParameter/pt-br|Editar parametros...]]: Abre uma caixa de diálogo que dá acesso aos parâmetros que controlam o programa.
 
+<div class="mw-translate-fuzzy">
 * [[Image:Std_DlgCustomize.svg|32px]] [[Std_DlgCustomize/pt-br|Personalizar...]]: Abre uma caixa de diálogo com opções de personalização.
+</div>
 
 
 {{Docnav
