@@ -19,8 +19,10 @@ Ez a FreeCAD dokumentációs wikije. Többféleképpen lehet használni: a kül�
 <span id="Manual"></span>
 == Útmutató ==
 
- [[Image:Crystal_Clear_manual.png|64px|left]] A [[Manual:Introduction|FreeCAD kézikönyv]] egy másik, egyszerűbb módja annak, hogy bemutassa a wiki tartalmát. Úgy van kialakítva, hogy könyvszerűen olvasható legyen, és fokozatosan vezessen be a fent említett hub-ok további tartalmaiba. [https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details E-könyv változatok], valamint [https://www.freecad.org/manual/ néhány PDF formátumú fordítás] is elérhető.
+ <div class="mw-translate-fuzzy">
+[[Image:Crystal_Clear_manual.png|64px|left]] A [[Manual:Introduction|FreeCAD kézikönyv]] egy másik, egyszerűbb módja annak, hogy bemutassa a wiki tartalmát. Úgy van kialakítva, hogy könyvszerűen olvasható legyen, és fokozatosan vezessen be a fent említett hub-ok további tartalmaiba. [https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details E-könyv változatok], valamint [https://www.freecad.org/manual/ néhány PDF formátumú fordítás] is elérhető.
 {{Clear}}
+</div>
 
 <span id="Table_of_contents"></span>
 == Tartalomjegyzék ==
@@ -78,7 +80,9 @@ A FreeCAD minden platformra lefordítható a [https://cmake.org/ CMake] segíts�
 <span id="About_the_development"></span>
 === A fejlesztésről ===
 
+<div class="mw-translate-fuzzy">
 Ellenőrizd a [[Development roadmap|Fejlesztési ütemtervet]] a tervezett újdonságokért, a [https://tracker.freecad.org/changelog_page.php Changelog] és [https://tracker.freecad.org/roadmap_page.php Roadmap] oldalakat a [https://github.com/FreeCAD/FreeCAD/issues FreeCAD tracker]-en, hogy nyomon kövesd a következő kiadás előrehaladását, vagy a [http://www.ohloh.net/p/freecad Projektstatisztikákat] a FreeCAD kódállományról szóló további információkért. Minden fejlesztéssel kapcsolatos kommunikáció a [https://forum.freecad.org fórum]-on zajlik, ezért érdemes ellátogatni oda, ha részt szeretnél venni a közösség munkájában.
+</div>
 
 
 {{Userdocnavi{{#translation:}}}}
