@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/it
 |[[Std_ViewScreenShot/it|Cattura schermata]]
 |[[Std_SceneInspector/it|Ispettore di scena]]
@@ -8,6 +9,7 @@
 |IconR=Std_SceneInspector.svg
 |IconC=Freecad.svg
 }}
+</div>
 
 {{GuiCommand/it
 |Name=Std ViewLoadImage
@@ -40,6 +42,7 @@ Il comando '''Carica immagine''' apre un'immagine in una nuova scheda nella [[Ma
 * Per inserire un'immagine nella vista 3D è necessario utilizzare il comando [[Std_Import/it|Importa]]. {{Version/it|0.21}}
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/it
 |[[Std_ViewScreenShot/it|Cattura schermata]]
 |[[Std_SceneInspector/it|Ispettore di scena]]
@@ -48,6 +51,7 @@ Il comando '''Carica immagine''' apre un'immagine in una nuova scheda nella [[Ma
 |IconR=Std_SceneInspector.svg
 |IconC=Freecad.svg
 }}
+</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
