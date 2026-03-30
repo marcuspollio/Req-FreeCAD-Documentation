@@ -36,11 +36,11 @@ The [[Image:BIM_Leader.svg|24px]] [[BIM_Leader|BIM Leader]] tool creates a leade
 # The {{MenuCommand|Leader}} task panel opens.
 # Pick the first point in the [[3D_View|3D View]], or type coordinates and press the {{Button|[[Image:Draft_AddPoint.svg|16px]] Enter Point}} button.
 # Pick additional points in the [[3D_View|3D View]], or type coordinates and press the {{Button|[[Image:Draft_AddPoint.svg|16px]] Enter Point}} button.
-# Press {{KEY|Esc}} or the {{Button|Close}} button to finish the command.
+# Press {{KEY|Esc}} or the {{Button|Close}} button to finish the tool.
 
 ==Notes==
 
-This command is based on [[Draft_Wire|Draft Wire]].
+This tool is based on [[Draft_Wire|Draft Wire]].
 
 
 <!--T:7-->
