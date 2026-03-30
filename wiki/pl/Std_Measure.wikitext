@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav
 |[[Std_AddonMgr/pl|Menadżer dodatków]]
-|[[Std_ClarifySelection/pl|Clarify Selection]]
+|[[Std_MassProperties/pl|Właściwości masowe]]
 |[[Std_Tools_Menu/pl|Std: Menu Przybory]]
 |IconL=Std_AddonMgr.svg
-|IconR=
+|IconR=Std_MassProperties.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{GuiCommand/pl
 |Name=Std Measure
@@ -96,16 +94,14 @@ Polecenie '''Pomiary''' daje dostęp do ujednoliconej funkcjonalności pomiarowe
 * Jak wszędzie we FreeCAD, należy przytrzymać klawisz {{KEY|Ctrl}}, aby wybrać wiele obiektów.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav
 |[[Std_AddonMgr/pl|Menadżer dodatków]]
-|[[Std_ClarifySelection/pl|Clarify Selection]]
+|[[Std_MassProperties/pl|Właściwości masowe]]
 |[[Std_Tools_Menu/pl|Std: Menu Przybory]]
 |IconL=Std_AddonMgr.svg
-|IconR=
+|IconR=Std_MassProperties.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
