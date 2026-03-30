@@ -217,9 +217,7 @@ Dies sind Werkzeuge zum Erstellen von [[#Randbedingungen|Randbedingungen]]. Eini
 
 :* [[File:Sketcher_ConstrainDistanceY.svg|32px]] [[Sketcher_ConstrainDistanceY/de|Vertikaler Abstand]]: Legt den vertikalen Abstand zwischen zwei Punkten oder den Endpunkten einer Linie fest. Ist ein einzelner Punkt vorausgewählt, bezieht sich der Abstand auf den Ursprung der Skizze.
 
-<div class="mw-translate-fuzzy">
-:* [[File:Sketcher_ConstrainDistance.svg|32px]] [[Sketcher_ConstrainDistance/de|Abstand]]: Legt die Länge einer Linie, den Abstand zwischen zwei Punkten, den senkrechten Abstand eines Punktes zu einer Linie fest; oder {{Version/de|0.21}} den Abstand zwischen den Kanten zweier Kreise oder Kreisbögen sowie zwischen der Kante eines Kreises oder Kreisbogens und einer Linie; oder {{Version/de|1.0}} die Länge eines Kreisbogens.
-</div>
+:* [[File:Sketcher_ConstrainDistance.svg|32px]] [[Sketcher_ConstrainDistance/de|Abstand]]: Legt die Länge einer Linie, den Abstand zwischen zwei Punkten, den senkrechten Abstand eines Punktes zu einer Linie fest; oder den Abstand zwischen den Kanten zweier Kreise oder Kreisbögen sowie zwischen der Kante eines Kreises oder Kreisbogens und einer Linie; oder {{Version/de|1.0}} die Länge eines Kreisbogens.
 
 :* <span id="Sketcher_CompConstrainRadDia">[[File:Sketcher_ConstrainRadiam.svg|32px]] [[Sketcher_ConstrainRadiam/de|Radius/Durchmesser]]: Legt den Radius für Bögen und B-Spline-Gewichtskreise und den Durchmesser für Kreise fest.</span><!--Do not edit span id: the Sketcher_CompConstrainRadDia pages redirect here-->
 
