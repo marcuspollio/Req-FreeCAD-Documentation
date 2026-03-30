@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/it
 |[[Sketcher_ConstrainSymmetric/it|Simmetrico]]
 |[[Sketcher_ConstrainSnellsLaw/it|Rifrazione (legge di Snell)]]
@@ -8,6 +9,7 @@
 |IconR=Sketcher_ConstrainSnellsLaw.svg‎
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{GuiCommand/it
 |Name=Sketcher ConstrainBlock
@@ -63,6 +65,7 @@ Vedere anche: [[Sketcher_Workbench/it#Drawing_aids|Aiuti per il disegno]].
 La pagina [[Sketcher_scripting/it|Sketcher scripting]] spiega i valori che possono essere utilizzati per {{incode|Edge}} e contiene ulteriori esempi su come creare vincoli da script Python.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/it
 |[[Sketcher_ConstrainSymmetric/it|Simmetrico]]
 |[[Sketcher_ConstrainSnellsLaw/it|Rifrazione (legge di Snell)]]
@@ -71,6 +74,7 @@ La pagina [[Sketcher_scripting/it|Sketcher scripting]] spiega i valori che posso
 |IconR=Sketcher_ConstrainSnellsLaw.svg‎
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
