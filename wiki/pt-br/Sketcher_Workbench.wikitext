@@ -109,13 +109,17 @@ These rules do not apply to construction geometry (default color blue), which is
 <span id="Tools"></span>
 == Ferramentas ==
 
+<div class="mw-translate-fuzzy">
 As ferramentas do Sketcher Workbench estão localizadas no menu Sketch e/ou em várias barras de ferramentas. {{Version/pt-br|0.21}}: Quase todas as barras de ferramentas do Sketcher são exibidas apenas enquanto um esboço está no modo de edição. A única exceção é o [[#Barra_de ferramentas_do_Sketcher|Barra de ferramentas do Sketcher]] que só é exibida se nenhum esboço estiver no modo de edição.
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Some tools are also available from the [[3D_View|3D View]] context menu while a sketch is in edit mode, or from the context menus of the [[Sketcher_Dialog|Sketcher Dialog]].
 </div>
 
-{{Version/pt-br|0.21}}: Se um esboço estiver no modo de edição, a barra de ferramentas Estrutura ficará oculta, pois nenhuma de suas ferramentas poderá ser usada. 
+<div class="mw-translate-fuzzy">
+{{Version/pt-br|0.21}}: Se um esboço estiver no modo de edição, a barra de ferramentas Estrutura ficará oculta, pois nenhuma de suas ferramentas poderá ser usada.
+</div> 
 
 <span id="General"></span>
 === Gerais ===
@@ -431,6 +435,10 @@ As restrições são usadas para definir comprimentos, definir regras entre os e
 * [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock/pt-br|Bloquear]]: Impede que uma aresta se mova, ou seja, impede que seus vértices mudem suas posições atuais. Deve ser particularmente útil para corrigir a posição de B-Splines. Veja o tópico [https://forum.freecadweb.org/viewtopic.php?f=9&t=26572 Block Constraint] no fórum.
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometries. {{Version|1.2}}
+</div>
+
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_ConstrainSnellsLaw.svg|32px]] [[Sketcher_ConstrainSnellsLaw/pt-br|A Lei de Snell]]: Restringe duas linhas à obediência a uma lei de refração, para simular a luz que passa por uma interface.
 </div>
@@ -576,7 +584,7 @@ As restrições são usadas para definir comprimentos, definir regras entre os e
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves|Join Curves]]: Creates a B-spline by joining two existing B-splines or other edges. {{Version|0.21}}
+* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves|Join Curves]]: Creates a B-spline by joining two existing B-splines or other edges.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
