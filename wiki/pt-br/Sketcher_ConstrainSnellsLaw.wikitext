@@ -1,10 +1,10 @@
 <languages/>
 
 {{Docnav
-|[[Sketcher_ConstrainBlock|Block Constraint]]
+|[[Sketcher_ConstrainGroup|Group Constraint]]
 |[[Sketcher_ToggleDrivingConstraint|Toggle Driving/Reference Constraints]]
 |[[Sketcher_Workbench|Sketcher]]
-|IconL=Sketcher_ConstrainBlock.svg
+|IconL=Sketcher_ConstrainGroup.svg
 |IconR=Sketcher_ToggleDrivingConstraint.svg
 |IconC=Workbench_Sketcher.svg
 }}
@@ -92,10 +92,10 @@ App.ActiveDocument.recompute()
 
 
 {{Docnav
-|[[Sketcher_ConstrainBlock|Block Constraint]]
+|[[Sketcher_ConstrainGroup|Group Constraint]]
 |[[Sketcher_ToggleDrivingConstraint|Toggle Driving/Reference Constraints]]
 |[[Sketcher_Workbench|Sketcher]]
-|IconL=Sketcher_ConstrainBlock.svg
+|IconL=Sketcher_ConstrainGroup.svg
 |IconR=Sketcher_ToggleDrivingConstraint.svg
 |IconC=Workbench_Sketcher.svg
 }}
