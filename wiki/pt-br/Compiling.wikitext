@@ -19,8 +19,6 @@ Para compilar em BSD, e outros sistemas Unix, você pode seguir as instruções 
 
 Também é possível compilar o FreeCAD no Windows, seguindo as instruções em [[Compile_on_Windows/pt-br|Compilar no Windows]] ou usando MSYS2/MinGW veja [[Compile_on_MinGW|Compilar no MinGW]].
 
-Para compilar o FreeCAD sem sua interface gráfica de usuário, use a imagem [[FreeCAD_Docker_CLI_mode|FreeCAD Docker modo CLI]].
-
 Para compilar a documentação da programação, ver [[Source_documentation/pt-br| Documentação do código-fonte]].
 
 Para aprender a usar o sistema de controle de revisão e contribuir com o código, veja [[Source_code_management/pt-br|Gerenciamento de código-fonte]].
