@@ -18,8 +18,6 @@ To compile on BSD, and other Unix systems, you can follow the general instructio
 在Windows上编译FreeCAD，可以使用[[Compile_on_Windows|Compile on Windows]]。
 </div>
 
-To compile FreeCAD without its graphic user interface use the [[FreeCAD_Docker_CLI_mode|FreeCAD Docker CLI mode]] image.
-
 To compile the programming documentation, see [[Source_documentation|Source documentation]].
 
 To learn to use revision control system and contribute code see [[Source_code_management|Source code management]].
