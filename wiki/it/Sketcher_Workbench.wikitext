@@ -81,11 +81,15 @@ Queste regole non si applicano alle geometrie di costruzione (colore predefinito
 <span id="Tools"></span>
 == Strumenti ==
 
+<div class="mw-translate-fuzzy">
 Gli strumenti dell'Ambiente Sketcher si trovano nel menu Sketch e/o in diverse barre degli strumenti. {{Version/it|0.21}}: quasi tutte le barre degli strumenti di Sketcher vengono visualizzate soltanto se uno schizzo è in modalità di modifica. L'unica eccezione è che la [[#Sketcher_toolbar|barra degli strumenti di Sketcher]] viene visualizzata soltanto se nessuno schizzo è in modalità di modifica.
+</div>
 
 Alcuni strumenti sono disponibili anche dal menu contestuale [[3D_view/it|Vista 3D]] mentre uno schizzo è in modalità di modifica o dai menu contestuali della finestra [[Sketcher_Dialog/it|Dialogo Sketcher]].
 
-{{Version/it|0.21}}: se uno schizzo è in modalità di modifica, la barra degli strumenti Struttura è nascosta perché nessuno dei suoi strumenti può essere utilizzato. 
+<div class="mw-translate-fuzzy">
+{{Version/it|0.21}}: se uno schizzo è in modalità di modifica, la barra degli strumenti Struttura è nascosta perché nessuno dei suoi strumenti può essere utilizzato.
+</div> 
 
 <span id="General"></span>
 === Generale ===
@@ -225,7 +229,9 @@ Di seguito sono elencati gli strumenti per creare i [[#Constraints/it|vincoli]].
 
 :* [[File:Sketcher_ConstrainDistanceY.svg|32px]] [[Sketcher_ConstrainDistanceY/it|Distanza verticale]]: Fissa la distanza verticale tra due punti o i punti finali di una linea. Se viene preselezionato un punto singolo, la distanza è relativa all'origine dello schizzo.
 
+<div class="mw-translate-fuzzy">
 :* [[File:Sketcher_ConstrainDistance.svg|32px]] [[Sketcher_ConstrainDistance/it|Distanza]]: Fissa la lunghezza di una linea, la distanza tra due punti, la distanza perpendicolare tra un punto e una linea; oppure, {{Version/it|0.21}}, la distanza tra i bordi di due cerchi o archi, o tra il bordo di un cerchio o arco e una linea; o, {{Version/it|1.0}}, la lunghezza di un arco.
+</div>
 
 :* <span id="Sketcher_CompConstrainRadDia">[[File:Sketcher_ConstrainRadiam.svg|32px]] [[Sketcher_ConstrainRadiam/it|Raggio/diametro automatico]]: Fissa il raggio degli archi, del cerchio dei pesi delle B-spline e il diametro dei cerchi. </span><!--Non modificare l'ID span: le pagine Sketcher_CompConstrainRadDia reindirizzano qui-->
 
@@ -262,6 +268,10 @@ Di seguito sono elencati gli strumenti per creare i [[#Constraints/it|vincoli]].
 * [[File:Sketcher_ConstrainSymmetric.svg|32px]] [[Sketcher_ConstrainSymmetric/it|Simmetrico]]: Vincola due punti in modo che siano simmetrici rispetto ad una linea o ad un asse o relativamente ad un terzo punto.
 
 * [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock/it|Blocca]]: Blocca i bordi sul posto con un singolo vincolo. È destinato principalmente alle B-spline.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometries. {{Version|1.2}}
+</div>
 
 * [[File:Sketcher_ConstrainSnellsLaw.svg|32px]] [[Sketcher_ConstrainSnellsLaw/it|Rifrazione (legge di Snell)]]: Vincola due linee a seguire la legge di rifrazione della luce mentre penetra attraverso un'interfaccia.
 
@@ -339,7 +349,9 @@ Di seguito sono elencati gli strumenti per creare i [[#Constraints/it|vincoli]].
 
 * [[File:Sketcher_BSplineInsertKnot.svg|32px]] [[Sketcher_BSplineInsertKnot/it|Inserisci nodo]]: Inserisce un nodo in una B-spline o aumenta la molteplicità di un nodo esistente.
 
+<div class="mw-translate-fuzzy">
 * [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves/it|Unisci le curve]]: Crea una B-spline unendo due B-spline esistenti o altri bordi, {{Version/it|0.21}}.
+</div>
 
 <span id="Visual_Helpers"></span>
 ===Visualizzazione dello Schizzo===
