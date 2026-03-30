@@ -85,11 +85,15 @@
 <span id="Tools"></span>
 == 도구 ==
 
+<div class="mw-translate-fuzzy">
 스케치 작업대의 도구는 스케치 메뉴 및/또는 여러 도구 모음에 있습니다. {{Version|0.21}}: 거의 모든 스케치 도구 모음은 스케치가 편집 모드에 있는 동안에만 표시됩니다. 유일한 예외는 편집 모드에 스케치가 없는 경우에만 표시되는 [[#Sketcher_toolbar|스케치 도구 모음]]입니다.
+</div>
 
 일부 도구는 스케치가 편집 모드에 있는 동안 [[3D_view/ko|3D 보기]] 상황에 맞는 메뉴나 [[Sketcher_Dialog/ko|스케치 대화상자]]의 상황에 맞는 메뉴에서도 사용할 수 있습니다.
 
-{{Version|0.21}}: 스케치가 편집 모드에 있는 경우 구조 도구 모음은 해당 도구를 사용할 수 없으므로 숨겨집니다. 
+<div class="mw-translate-fuzzy">
+{{Version|0.21}}: 스케치가 편집 모드에 있는 경우 구조 도구 모음은 해당 도구를 사용할 수 없으므로 숨겨집니다.
+</div> 
 
 <span id="General"></span>
 ===일반===
@@ -230,7 +234,9 @@
 
 :* [[File:Sketcher_ConstrainDistanceY.svg|32px]] [[Sketcher_ConstrainDistanceY/ko|수직 거리]]: 두 점 또는 선의 끝점 사이의 수직 거리를 고정합니다. 한 점이 미리 선택된 경우 거리는 스케치 원점을 기준으로 합니다.
 
+<div class="mw-translate-fuzzy">
 :* [[File:Sketcher_ConstrainDistance.svg|32px]] [[Sketcher_ConstrainDistance/ko|거리]]: 선의 길이, 두 점 사이의 거리, 점과 선 사이의 수직 거리를 고정합니다. 또는 {{Version|0.21}}, 두 원이나 호의 가장자리 사이, 또는 원이나 호의 가장자리와 선 사이의 거리를 고정합니다; 또는 {{Version|1.0}}, 호의 길이를 고정합니다.
+</div>
 
 :* <span id="Sketcher_CompConstrainRadDia">[[File:Sketcher_ConstrainRadiam.svg|32px]] [[Sketcher_ConstrainRadiam/ko|자동 반/지름]]: 호 및 B-조절곡선 가중치 원의 반지름 또는 지름을 고정합니다.</span><!--Do not edit span id: the Sketcher_CompConstrainRadDia pages redirect here-->
 
@@ -267,6 +273,10 @@
 * [[File:Sketcher_ConstrainSymmetric.svg|32px]] [[Sketcher_ConstrainSymmetric/ko|대칭]]: 두 점이 선이나 축을 기준으로 또는 세 번째 점을 기준으로 대칭이 되도록 구속합니다.
 
 * [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock/ko|차단]]: 단 하나의 구속으로 선택된 다수의 모서리들을 그자리에 고정합니다. 주로 B-조절곡선용으로 사용됩니다.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometries. {{Version|1.2}}
+</div>
 
 * [[File:Sketcher_ConstrainSnellsLaw.svg|32px]] [[Sketcher_ConstrainSnellsLaw/ko|굴절 (스넬의 법칙)]]: 두 개의 선이 경계선을 통과할 때 빛의 굴절 법칙을 따르도록 제한합니다.
 
@@ -362,7 +372,7 @@
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves|Join Curves]]: Creates a B-spline by joining two existing B-splines or other edges. {{Version|0.21}}
+* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves|Join Curves]]: Creates a B-spline by joining two existing B-splines or other edges.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
