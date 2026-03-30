@@ -240,13 +240,13 @@ ToDo (last check: 20260318):
 <!--T:65-->
 {| cellpadding=5
 | [[File:Sketcher_text_relnotes_1.2.png|384px]]
-| Thanks to [https://www.astocad.com/ AstoCAD], a [[Sketcher_CreateText|text tool]] was added to Sketcher, making it possible to create text geometries controlled by a special Text constraint.
+| Thanks to [https://www.astocad.com/ AstoCAD], a [[Image:Sketcher_CreateText.svg|24px]] [[Sketcher_CreateText|text tool]] was added to Sketcher, making it possible to create text geometries controlled by a special Text constraint.
 [https://github.com/FreeCAD/FreeCAD/pull/22217 Pull request #22217]
 |}
 
 {| cellpadding=5
 | [[File:Sketcher_group_constraint_relnotes_1.2.gif|384px]]</br>Click on the image if the animation does not start.
-| Thanks to [https://www.astocad.com/ AstoCAD], a new [[Sketcher_ConstrainGroup|Group constraint]] was added to Sketcher, allowing the geometries to be grouped and moved or constrained together.
+| Thanks to [https://www.astocad.com/ AstoCAD], a new [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup|Group constraint]] was added to Sketcher, allowing the geometries to be grouped and moved or constrained together.
 [https://github.com/FreeCAD/FreeCAD/pull/22217 Pull request #22217]
 |}
 
