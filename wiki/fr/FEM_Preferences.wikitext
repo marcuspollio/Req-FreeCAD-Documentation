@@ -24,7 +24,9 @@ Les solveurs externes actuellement acceptés sont :
 * [[Image:FEM_SolverMystran.svg|32px]] [[FEM_SolverMystran/fr|Mystran]]
 * [[Image:FEM_SolverZ88.svg|32px]] [[FEM_SolverZ88/fr|Z88]]
 
+<div class="mw-translate-fuzzy">
 Cette page a été mise à jour pour la version 1.1.
+</div>
 
 <span id="General"></span>
 ==Général==
@@ -33,6 +35,7 @@ Cette page a été mise à jour pour la version 1.1.
 
 Sur cette page, vous pouvez spécifier les éléments suivants :
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33% ;"|Nom
 !style="width: 66% ;"|Description
@@ -42,6 +45,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 |-
 | {{MenuCommand|Créer des collectes de maillage pour les formes de référence d'analyse (expérimental)}}
 | S'il y a plusieurs maillages, ils seront regroupés. Cette option permet une accélération significative si les charges et les contraintes sont assignées avant le maillage, mais elle présente actuellement plusieurs limitations et peut entraîner des résultats inattendus.
+</div>
 
 |-
 | {{MenuCommand|Conserver les résultats après un nouveau calcul}}
@@ -83,6 +87,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 
 Sur cette page, vous pouvez spécifier les éléments suivants :
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nom
 !style="width: 66%;"|Description
@@ -150,6 +155,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | {{MenuCommand|Limite de la fréquence basse}}
 | Limite inférieure par défaut des fréquences propres évaluées dans les analyses de fréquence.
 |}
+</div>
 
 ==Elmer==
 
