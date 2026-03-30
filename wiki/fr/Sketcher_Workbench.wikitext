@@ -446,7 +446,7 @@ Lorsqu'une esquisse est en mode édition, les méthodes de sélection suivantes 
 <span id="3D_View_element_selection"></span>
 === Sélection des éléments dans la vue 3D ===
 
-Comme partout ailleurs dans FreeCAD, un élément peut être sélectionné dans la [[3D_view/fr|vue 3D]] avec un simple clic gauche de la souris. Mais il n'est pas nécessaire de maintenir la touche {{KEY|Ctrl}} pour sélectionner plusieurs éléments. Il est toutefois possible de maintenir cette touche enfoncée, ce qui présente l'avantage de pouvoir faire un mauvais clic sans perdre la sélection. Les arêtes, les points et les contraintes peuvent être sélectionnés de cette manière.
+Comme partout ailleurs dans FreeCAD, un élément peut être sélectionné dans la [[3D_View/fr|vue 3D]] avec un simple clic gauche de la souris. Mais il n'est pas nécessaire de maintenir la touche {{KEY|Ctrl}} pour sélectionner plusieurs éléments. Il est toutefois possible de maintenir cette touche enfoncée, ce qui présente l'avantage de pouvoir faire un mauvais clic sans perdre la sélection. Les arêtes, les points et les contraintes peuvent être sélectionnés de cette manière.
 
 <span id="3D_View_box_selection"></span>
 === Sélection par une boîte dans la vue 3D ===
