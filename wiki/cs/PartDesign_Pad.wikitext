@@ -59,9 +59,7 @@ Zadejte číselnou hodnotu pro '''Délku''' desky. Při použití možnosti '''S
 <span id="To_last"></span>
 ===K poslední===
 
-<div class="mw-translate-fuzzy">
-Deska se vysune až k poslední ploše tělesa ve směru vysunutí. Není-li v daném směru žádná plocha, zobrazí se chybové hlášení.
-</div>
+Deska se vysune až k poslednímu povrchu nosníku, na který ve svém směru narazí. Pokud žádný nosník není, zobrazí se chybová zpráva.
 
 <span id="To_first"></span>
 ===K první===
