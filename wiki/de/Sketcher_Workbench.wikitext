@@ -83,9 +83,7 @@ Die Werkzeuge des Arbeitsbereichs Sketcher sind im Menü ''Sketch'' und/oder meh
 
 Einige Werkzeuge stehen auch im Kontextmenü der [[3D_View/de|3D-Ansicht]] zur Verfügung, während sich eine Skizze im Bearbeitungsmodus befindet, oder in den Kontextmenüs des [[Sketcher_Dialog/de|Sketcher-Dialogs]].
 
-<div class="mw-translate-fuzzy">
-{{Version/de|0.21}}: Ist eine Skizze im Bearbeitungsmodus, ist die Werkzeugleiste Struktur ausgeblendet, da dann keins ihrer Werkzeuge verwendet werden kann.
-</div> 
+Ist eine Skizze im Bearbeitungsmodus, ist die Werkzeugleiste Struktur ausgeblendet, da dann keines ihrer Werkzeuge verwendet werden kann. 
 
 <span id="General"></span>
 ===Allgemein===
