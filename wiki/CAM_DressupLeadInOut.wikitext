@@ -1,3 +1,7 @@
+<languages/>
+<translate>
+
+<!--T:9-->
 {{Docnav
 |[[CAM_DressupDragKnife|DressupDragKnife]]
 |[[CAM_DressupRampEntry|DressupRampEntry]]
@@ -7,6 +11,7 @@
 |IconC=Workbench_CAM.svg
 }}
 
+<!--T:1-->
 {{GuiCommand
 |Name=CAM DressupLeadInOut
 |MenuLocation=CAM → Path Dressup → Lead In/Out
@@ -14,11 +19,11 @@
 |SeeAlso=[[CAM_DressupDogbone|CAM DressupDogbone]], [[CAM_DressupTag|CAM DressupTag]], [[CAM_DressupRampEntry|CAM DressupRampEntry]], [[CAM_DressupDragKnife|CAM DressupDragKnife]]
 }}
 
-==Description==
+==Description== <!--T:2-->
 
 The [[Image:CAM_DressupLeadInOut.svg|24px]] [[CAM_DressupLeadInOut|CAM DressupLeadInOut]] command dresses up an existing path by adding lead-in and lead-out moves at the beginning and end of the toolpath.
 
-==Usage==
+==Usage== <!--T:4-->
 
 # Select an existing path object.
 # There are several ways to invoke the command:
@@ -26,24 +31,28 @@ The [[Image:CAM_DressupLeadInOut.svg|24px]] [[CAM_DressupLeadInOut|CAM DressupLe
 # Adjust the lead-in and lead-out settings in the task panel.
 # Confirm the dressup.
 
-==Options==
+==Options== <!--T:6-->
 
 * '''Lead in''': Controls the entry move added before the main cutting path.
 * '''Lead out''': Controls the exit move added after the main cutting path.
 * '''Feed rate''': {{Version|1.2}} The corresponding lead-in and lead-out moves use the feed rates defined for these moves in the tool controller. By default these follow the horizontal feed rate.
 
-==Limitations==
+==Limitations== <!--T:8-->
 
 * This dressup modifies the start and end of an existing path.
 * The exact result depends on the selected path and the chosen lead-in and lead-out settings.
 * {{Version|1.2}} [[Image:CAM_DressupRampEntry.svg|16px]] [[CAM_DressupRampEntry|CAM DressupRampEntry]] can also be applied to a path that already has a Lead In/Out dressup.
 
-==Scripting==
+==Scripting== <!--T:13-->
 
+</translate>
 {{Code|code=
-# Add python code here
+Add python code here
 }}
+<translate>
 
+
+<!--T:10-->
 {{Docnav
 |[[CAM_DressupDragKnife|DressupDragKnife]]
 |[[CAM_DressupRampEntry|DressupRampEntry]]
@@ -53,5 +62,6 @@ The [[Image:CAM_DressupLeadInOut.svg|24px]] [[CAM_DressupLeadInOut|CAM DressupLe
 |IconC=Workbench_CAM.svg
 }}
 
+</translate>
 {{CAM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
