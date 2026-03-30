@@ -70,7 +70,7 @@ Cette commande peut être utilisée sur des objets 2D créés avec l'[[Draft_Wor
 <span id="Properties"></span>
 == Propriétés ==
 
-Voir aussi : [[Property_editor/fr|Éditeur de propriétés]]
+Voir aussi : [[Property_View/fr|Éditeur de propriétés]]
 
 La commande Draft Réseau orthogonal, la commande [[Draft_PolarArray/fr|Draft Réseau polaire]] et la commande [[Draft_CircularArray/fr|Draft Réseau circulaire]] créent le même objet. Cet objet est dérivé d'un objet [[Part_Feature/fr|Part Feature]] et hérite de toutes ses propriétés (à l'exception de certaines propriétés Vue qui ne sont pas héritées par les réseaux liens Link). Les propriétés suivantes sont supplémentaires, sauf indication contraire :
 
