@@ -166,16 +166,15 @@ Tapers the pad in the opposite extrusion direction by the given angle. See '''Ta
 <span id="Limitations"></span>
 ==Omezení==
 
-<div class="mw-translate-fuzzy">
-* Stejně jako všechny funkce Návrh součástí, Pad také vytváří těleso, takže skica musí obsahovat uzavřený profil, jinak selže s chybou „Nepodařilo se ověřit zlomenou tvář“. Uvnitř většího profilu může být více uzavřených profilů za předpokladu, že se žádné neprotínají (například obdélník se dvěma kruhy uvnitř).
-* Algoritmus používaný pro „To First“ a „To Last“ je:
-** Vytvořte čáru přes těžiště náčrtu
-** Najděte všechny plochy podpěry oříznuté touto čarou
-** Vyberte plochu, kde je průsečík nejblíže / nejdále od náčrtu
-: To znamená, že nalezená tvář nemusí být vždy tím, co jste očekávali. Pokud se setkáte s tímto problémem, použijte místo toho typ „“ „Nahoru do tváře“ a vyberte požadovanou tvář.
-: Pro velmi zvláštní případ vytlačování na konkávní povrch, kde je náčrt větší než tento povrch, vytlačování selže. Toto je nevyřešená chyba.
-* <span style = "font-size: x-small; color: blue;"> v0.16 a nižší </span> Neexistuje žádné automatické čištění, např. sousedních rovinných povrchů do jednoho povrchu. Můžete to opravit ručně v pracovním stole součásti pomocí [[Part RefineShape/cs| Zpřesnit tvar]] (který vytvoří nepřipojený, neparametrický těleso) nebo pomocí [[OpenSCAD RefineShapeFeature/cs|Zpřesnit tvarovou funkci]] z [[OpenSCAD Workbench/cs|OpenSCAD Workbench]], který vytváří parametrickou funkci.
-</div>
+* Stejně jako všechny funkce prostředí Part Design i funkce Deska vytváří těleso, proto musí náčrt obsahovat uzavřený profil, jinak dojde k selhání s chybou „Wire is not closed“ (Dráha není uzavřena).
+* Náčrt obsahující [[B-Splines/cs|B-spliny]] často nelze správně zúžit. Jedná se o omezení jádra [[OpenCASCADE/cs|OpenCASCADE]], které FreeCAD používá.
+* U větších úhlů zúžení selže, pokud by koncová plocha měla méně hran než počáteční plocha/náčrt.
+* Algoritmus použitý pro '''K první''' a '''K poslední''' je:
+** Vytvořte přímku procházející těžištěm náčrtu
+** Najděte všechny plochy nosníku, které tato přímka protíná
+** Vyberte plochu, na které je průsečík nejblíže/nejdále od náčrtu
+: To znamená, že nalezená plocha nemusí vždy odpovídat vašim očekáváním. Pokud narazíte na tento problém, použijte místo toho typ '''Až ke tvaru''' a vyberte požadovanou plochu.
+: Ve velmi specifickém případě vytlačení na konkávní plochu, kdy je náčrt větší než tato plocha, dojde k selhání vytlačení. Jedná se o dosud nevyřešenou chybu.
 
 
 {{Docnav/cs
