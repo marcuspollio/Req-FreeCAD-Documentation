@@ -20,9 +20,7 @@
 <span id="Description"></span>
 ==Opis==
 
-<div class="mw-translate-fuzzy">
-Narzędzie '''Biblioteka''' pozwala na umieszczenie w bieżącym modelu obiektu z [[Parts_Library_Workbench/pl|FreeCAD Parts Library]], który musi być zainstalowany poprzez [[Image:Std_AddonMgr.svg|24px|link=Std_AddonMgr/pl]] [[Std_AddonMgr/pl|Menedżera dodatków]], aby to narzędzie było dostępne.
-</div>
+Narzędzie [[Image:BIM_Library.svg|24px]] [[BIM_Library/pl|Biblioteka BIM]] pozwala umieścić obiekt z [[Parts_Library_Workbench/pl|Biblioteki części]] w bieżącym modelu.
 
 The library can be accessed offline by downloading the whole workbench via the [[Image:Std_AddonMgr.svg|16px|link=Std_AddonMgr]] [[Std_AddonMgr|Addon Manager]], or browsed directly from within FreeCAD: in that case, on-demand downloads will be pulled from the [https://github.com/FreeCAD/FreeCAD-library Parts Library Git repository].
 
