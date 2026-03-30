@@ -32,9 +32,7 @@ Działa podobnie do opcji [[FEM_MeshClear/pl|Wyczyść siatkę MES]], ale usuwa 
 <span id="Notes"></span>
 ==Uwagi==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The mesh can still be used by solvers other than [[FEM_SolverElmer|Elmer]], but has no groups associated with it.
-</div>
+Siatka nadal może być używana przez solvery inne niż [[FEM_SolverElmer/pl|Elmer]], ale nie ma skojarzonych grup.
 
 
 {{Docnav/pl
