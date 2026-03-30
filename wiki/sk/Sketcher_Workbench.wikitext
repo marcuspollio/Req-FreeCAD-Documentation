@@ -118,7 +118,7 @@ Some tools are also available from the [[3D_View|3D View]] context menu while a 
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|0.21}}: If a sketch is in edit mode the Structure toolbar is hidden as none of its tools can then be used.
+If a sketch is in edit mode the Structure toolbar is hidden as none of its tools can then be used.
 </div> 
 
 <span id="General"></span>
@@ -443,6 +443,10 @@ Väzby sa používajú na definovanie dĺžok, nastavenie pravidiel medzi súča
 * [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock|Blokovacia väzba]]: Zablokuje hranu a znemožní jej posun, to znamená, že neumožní jej vrcholom zmeniť umiestnenie. Hodí sa napríklad na ukotvenie pozície B-Spline kriviek. Viď [https://forum.freecadweb.org/viewtopic.php?f=9&t=26572 príspevok na fóre o blokovacej väzbe].
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometries. {{Version|1.2}}
+</div>
+
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_ConstrainSnellsLaw.svg|32px]] [[Sketcher_ConstrainSnellsLaw|Snellov zákon]]: Zaväzbí dve čiary tak, aby dodržiavali zákon lomu a simulovali prechod svetla cez optické rozhranie.
 </div>
@@ -588,7 +592,7 @@ Väzby sa používajú na definovanie dĺžok, nastavenie pravidiel medzi súča
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves|Join Curves]]: Creates a B-spline by joining two existing B-splines or other edges. {{Version|0.21}}
+* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves|Join Curves]]: Creates a B-spline by joining two existing B-splines or other edges.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
