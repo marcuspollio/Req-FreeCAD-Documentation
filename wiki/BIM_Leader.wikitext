@@ -1,5 +1,4 @@
 <languages/>
-{{UnfinishedDocu{{#translation:}}}}
 <translate>
 
 <!--T:1-->
@@ -39,10 +38,9 @@ The [[Image:BIM_Leader.svg|24px]] [[BIM_Leader|BIM Leader]] tool creates a leade
 # Pick additional points in the [[3D_View|3D View]], or type coordinates and press the {{Button|[[Image:Draft_AddPoint.svg|16px]] Enter Point}} button.
 # Press {{KEY|Esc}} or the {{Button|Close}} button to finish the command.
 
-==Notes== <!--T:37-->
+==Notes==
 
-<!--T:14-->
-For more information see [[Draft_Wire|Draft Wire]] command on which [[Image:BIM_Leader.svg|24px]] [[BIM_Leader|BIM Leader]] is based.
+For more information see [[Draft_Wire|Draft Wire]] command on which [[BIM_Leader|BIM Leader]] is based.
 
 
 <!--T:7-->
