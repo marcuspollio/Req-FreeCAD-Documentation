@@ -26,14 +26,11 @@ Działa podobnie do opcji [[FEM_MeshClear/pl|Wyczyść siatkę MES]], ale usuwa 
 <span id="Usage"></span>
 ==Użycie==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Right-click a [[Image:FEM_MeshNetgenFromShape.svg|16px]] [[FEM_MeshNetgenFromShape|Netgen]] or [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Gmsh]] FEM mesh object in the [[Tree_View|Tree View]].
-# Select the {{MenuCommand|[[Image:FEM_MeshClearGroups.svg|16px]] Clear Mesh Groups}} option from the context menu.
-</div>
+# Kliknij prawym przyciskiem myszy na obiekcie siatki [[Image:FEM_MeshNetgenFromShape.svg|16px]] [[FEM_MeshNetgenFromShape/pl|Netgen]] lub [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/pl|Gmsh]] w [[Tree_View/pl|Widoku drzewa]].
+# Wybierz opcję {{MenuCommand|[[Image:FEM_MeshClearGroups.svg|16px]] Wyczyść grupy siatki}} z menu kontekstowego.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Notes==
-</div>
+<span id="Notes"></span>
+==Uwagi==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The mesh can still be used by solvers other than [[FEM_SolverElmer|Elmer]], but has no groups associated with it.
