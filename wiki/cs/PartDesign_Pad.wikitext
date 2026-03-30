@@ -89,7 +89,7 @@ Odstup od povrchu, na kterém deska končí. Tato možnost je k dispozici pouze 
 <span id="Length"></span>
 ===Délka===
 
-Defines the length of the pad. This option is only available if '''Type''' is '''Dimension''' or '''Two dimensions'''. The length is measured along the direction vector, or along the normal of the sketch or face. Negative values are not possible. Use the '''Reversed''' option instead.
+Určuje délku desky. Tato možnost je k dispozici pouze v případě, že je ‚‘'Typ'‚‘ nastaven na '''Rozměr''' nebo '''Dva rozměry'''. Délka se měří podél směrového vektoru nebo podél normály náčrtu či plochy. Záporné hodnoty nejsou povoleny. Místo toho použijte možnost '''Překlopit'''.
 
 === 2nd length ===
 
