@@ -27,7 +27,7 @@ Sketcher n'est pas destiné à produire des plans en 2D. Une fois que les esquis
 <span id="Constraints"></span>
 ==Contraintes==
 
-Les contraintes sont utilisées pour limiter les degrés de liberté d'un objet. Par exemple, une ligne sans contrainte a 4 degrés de liberté (abréviation française "DDL" et anglaise "DoF") : elle peut être déplacée horizontalement ou verticalement, étirée, subir une rotation.
+Les contraintes sont utilisées pour limiter les degrés de liberté d'un objet. Par exemple, une ligne sans contrainte a 4 degrés de liberté (abréviation française « DDL » et anglaise « DoF ») : elle peut être déplacée horizontalement ou verticalement, étirée, subir une rotation.
 
 L'application d'une contrainte horizontale ou verticale, ou une contrainte d'angle (par rapport à une autre ligne ou à l'un des axes), limite la capacité de rotation, la laissant ainsi avec 3 degrés de liberté.<br />
 Le verrouillage d'un de ses points par rapport à l'origine va encore supprimer 2 degrés de liberté.<br />
