@@ -79,15 +79,11 @@ Reguły te nie mają zastosowania do geometrii konstrukcyjnej ''(domyślny kolor
 <span id="Tools"></span>
 ==Przybory==
 
-<div class="mw-translate-fuzzy">
-Narzędzia środowiska pracy szkicownika znajdują się w menu Szkic i/lub na kilku paskach narzędziowych. {{Version/pl|0.21}}: Prawie wszystkie paski narzędzi szkicownika są wyświetlane tylko wtedy, gdy szkic jest w trybie edycji. Jedynym wyjątkiem jest pasek narzędzi [[#Pasek_narzędzi_szkicownika|szkicownika]], który jest wyświetlany tylko wtedy, gdy żaden szkic nie jest w trybie edycji.
-</div>
+Narzędzia środowiska pracy szkicownika znajdują się w menu Szkic i/lub na kilku paskach narzędziowych. Prawie wszystkie paski narzędzi szkicownika są wyświetlane tylko wtedy, gdy szkic jest w trybie edycji. Jedynym wyjątkiem jest pasek narzędzi [[#Pasek_narzędzi_szkicownika|szkicownika]], który jest wyświetlany tylko wtedy, gdy żaden szkic nie jest w trybie edycji.
 
 Niektóre narzędzia są również dostępne z menu kontekstowego [[3D_view/pl|Widoku 3D]], gdy szkic jest w trybie edycji, lub z menu kontekstowego [[Sketcher_Dialog/pl|okna dialogowego szkicownika]].
 
-<div class="mw-translate-fuzzy">
-{{Version/pl|0.21}}: Jeśli szkic jest w trybie edycji, pasek narzędzi '''Konstrukcja''' jest ukryty, ponieważ żadne z jego narzędzi nie może być wtedy użyte.
-</div> 
+Jeśli szkic jest w trybie edycji, pasek narzędzi '''Konstrukcja''' jest ukryty, ponieważ żadne z jego narzędzi nie może być wtedy użyte. 
 
 <span id="General"></span>
 ===Informacje ogólne===
