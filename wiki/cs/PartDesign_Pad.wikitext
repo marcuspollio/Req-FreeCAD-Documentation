@@ -76,7 +76,8 @@ Deska se rozšíří až k jedné ploše. Stiskněte tlačítko {{Button|Vybrat 
 
 Toto umožňuje zadat druhou délku, o kterou by se deska měla prodloužit v opačném směru. Směry lze přepnout zaškrtnutím možnosti '''Překlopit'''.
 
-====Up to shape====
+<span id="Up_to_shape"></span>
+====K ploše====
 
 {{Version|1.0}}: The pad will extend up to the selected shape. Optionally press the {{Button|Select shape}} button and select a shape. Leave the {{Button|Select all faces}} checkbox enabled or disable it, press the {{Button|Select faces}} button and select the faces up to which the pad should be created.
 
