@@ -79,11 +79,15 @@ Reguły te nie mają zastosowania do geometrii konstrukcyjnej ''(domyślny kolor
 <span id="Tools"></span>
 ==Przybory==
 
+<div class="mw-translate-fuzzy">
 Narzędzia środowiska pracy szkicownika znajdują się w menu Szkic i/lub na kilku paskach narzędziowych. {{Version/pl|0.21}}: Prawie wszystkie paski narzędzi szkicownika są wyświetlane tylko wtedy, gdy szkic jest w trybie edycji. Jedynym wyjątkiem jest pasek narzędzi [[#Pasek_narzędzi_szkicownika|szkicownika]], który jest wyświetlany tylko wtedy, gdy żaden szkic nie jest w trybie edycji.
+</div>
 
 Niektóre narzędzia są również dostępne z menu kontekstowego [[3D_view/pl|Widoku 3D]], gdy szkic jest w trybie edycji, lub z menu kontekstowego [[Sketcher_Dialog/pl|okna dialogowego szkicownika]].
 
-{{Version/pl|0.21}}: Jeśli szkic jest w trybie edycji, pasek narzędzi '''Konstrukcja''' jest ukryty, ponieważ żadne z jego narzędzi nie może być wtedy użyte. 
+<div class="mw-translate-fuzzy">
+{{Version/pl|0.21}}: Jeśli szkic jest w trybie edycji, pasek narzędzi '''Konstrukcja''' jest ukryty, ponieważ żadne z jego narzędzi nie może być wtedy użyte.
+</div> 
 
 <span id="General"></span>
 ===Informacje ogólne===
@@ -216,7 +220,9 @@ Niektóre z nich wymagają użycia [[Sketcher_helper_constraint/pl|wiązań pomo
 
 :* [[File:Sketcher_ConstrainDistanceY.svg|32px]] [[Sketcher_ConstrainDistanceY/pl|Zwiąż odległość pionową]]: Określa odległość pionową między dwoma punktami lub punktami końcowymi linii. Jeśli wstępnie wybrano pojedynczy punkt, odległość jest określana względem początku szkicu.
 
+<div class="mw-translate-fuzzy">
 :* [[File:Sketcher_ConstrainDistance.svg|32px]] [[Sketcher_ConstrainDistance/pl|Wiązanie odległości]]: Określa długość prostej, odległość między dwoma punktami, odległość prostopadłą między punktem a prostą, lub {{Version|0.21}}, odległość między krawędziami dwóch okręgów lub łuków, lub między krawędzią okręgu lub łuku a prostą lub {{Version/pl|1.0}}, odległość między krawędziami dwóch łuków.
+</div>
 
 :* <span id="Sketcher_CompConstrainRadDia">[[File:Sketcher_ConstrainRadiam.svg|32px]] [[Sketcher_ConstrainRadiam/pl|Zwiąż automatycznie promień / średnicę]]: Określa promień łuków i okręgów z wagą krzywej złożonej oraz średnicę okręgów. {{Version/pl|0.20}}.</span><!--Do not edit span id: the Sketcher_CompConstrainRadDia pages redirect here-->
 
@@ -253,6 +259,10 @@ Niektóre z nich wymagają użycia [[Sketcher_helper_constraint/pl|wiązań pomo
 * [[File:Sketcher_ConstrainSymmetric.svg|32px]] [[Sketcher_ConstrainSymmetric/pl|Wiązanie symetrii]]: Wymusza symetrię dwóch punktów wokół prostej, osi lub wokół trzeciego punktu.
 
 * [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock/pl|Wiązanie zablokowania]]: Blokuje krawędzie w miejscu za pomocą pojedynczego wiązania. Jest przeznaczony głównie dla krzywych złożonych.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometries. {{Version|1.2}}
+</div>
 
 * [[File:Sketcher_ConstrainSnellsLaw.svg|32px]] [[Sketcher_ConstrainSnellsLaw/pl|Wiązanie refrakcji] (prawo Snell'a)]: Wiąże dwie linie zgodnie z prawem załamania światła, aby symulować światło przechodzące przez interfejs.
 
@@ -330,7 +340,9 @@ Niektóre z nich wymagają użycia [[Sketcher_helper_constraint/pl|wiązań pomo
 
 * [[File:Sketcher_BSplineInsertKnot.svg|32px]] [[Sketcher_BSplineInsertKnot/pl|Wstaw węzeł]] Wstawia węzeł do krzywej złożonej lub zwiększa krotność istniejącego węzła.
 
+<div class="mw-translate-fuzzy">
 * [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves/pl|Połącz krzywe]] Tworzy krzywą złożoną poprzez połączenie dwóch istniejących krzywych złożonych lub innych krawędzi.  {{Version/pl|0.21}}
+</div>
 
 <span id="Visual_Helpers"></span>
 ===Widok szkicu===
