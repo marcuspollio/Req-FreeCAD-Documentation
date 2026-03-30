@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[Std_Measure/de|Messen]]
 |[[Std_UnitsCalculator/de|Einheitenrechner]]
+|[[Std_ViewLoadImage/de|AnsichtBildLaden]]
 |[[Std_Tools_Menu/de|Std Menü Werkzeuge]]
-|IconL=Std_Measure.svg
-|IconR=Std_UnitsCalculator.svg
+|IconL=Std_UnitsCalculator.svg
+|IconR=Std_ViewLoadImage.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{GuiCommand/de
 |Name=Std ClarifySelection
@@ -47,16 +45,14 @@ Der Befehl '''Std AuswahlVerdeutlichen''' zeigt ein Menü an, das nahegelegene g
 # Ein Element anklicken, um es auszuwählen.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[Std_Measure/de|Messen]]
 |[[Std_UnitsCalculator/de|Einheitenrechner]]
+|[[Std_ViewLoadImage/de|AnsichtBildLaden]]
 |[[Std_Tools_Menu/de|Std Menü Werkzeuge]]
-|IconL=Std_Measure.svg
-|IconR=Std_UnitsCalculator.svg
+|IconL=Std_UnitsCalculator.svg
+|IconR=Std_ViewLoadImage.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
