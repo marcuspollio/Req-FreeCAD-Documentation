@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav
-|[[Std_ClarifySelection/pl|Clarify Selection]]
-|[[Std_ViewLoadImage/pl|Std: Otwórz widok obrazu]]
+|[[Std_AnnotationLabel/pl|Etykieta adnotacji]]
+|[[Std_ClarifySelection/pl|Określ zaznaczenie]]
 |[[Std_Tools_Menu/pl|Std: Menu Przybory]]
-|IconL=
-|IconR=Std_ViewLoadImage.svg
+|IconL=Std_AnnotationLabel.svg
+|IconR=Std_ClarifySelection.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{GuiCommand/pl
 |Name=Std UnitsCalculator
@@ -69,16 +67,14 @@ Polecenie '''Przelicznik jednostek''' otwiera okno dialogowe Przelicznika jednos
 * Zobacz stronę [[Expressions/pl#Jednostki|Wyrażenia]], aby uzyskać listę wszystkich znanych jednostek.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav
-|[[Std_ClarifySelection/pl|Clarify Selection]]
-|[[Std_ViewLoadImage/pl|Std: Otwórz widok obrazu]]
+|[[Std_AnnotationLabel/pl|Etykieta adnotacji]]
+|[[Std_ClarifySelection/pl|Określ zaznaczenie]]
 |[[Std_Tools_Menu/pl|Std: Menu Przybory]]
-|IconL=
-|IconR=Std_ViewLoadImage.svg
+|IconL=Std_AnnotationLabel.svg
+|IconR=Std_ClarifySelection.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
