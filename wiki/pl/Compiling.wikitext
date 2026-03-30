@@ -1,4 +1,5 @@
 <languages/>
+<div class="mw-translate-fuzzy">
 Każdy system operacyjny ma swoją własną stronę wprowadzającą w proces kompilacji programu FreeCAD w [[Online_Help_Toc/pl|Spisie treści pomocy online]]. 
 {| align='center' cellpadding='10px'
 |align=center|
@@ -13,12 +14,11 @@ Każdy system operacyjny ma swoją własną stronę wprowadzającą w proces kom
 |align=center|[[https://freecad.github.io/DevelopersHandbook/gettingstarted/#pixi|Kompilacja w systemie MacOS]]
 |align=center|[[Compile_on_Windows/pl|Kompilacja w systemie Windows]]
 |}
+</div>
 
 Aby skompilować kod na BSD i innych systemach uniksowych, możesz postępować zgodnie z ogólną instrukcją zawartą w dokumencie [[Compile_on_Linux/pl|Kompilacja w systemie Linux]], ale używając odpowiednich zależności w tych systemach.
 
 Możliwe jest również skompilowanie FreeCAD w systemie Windows postępując zgodnie z instrukcjami zawartymi w [[Compile_on_Windows/pl|Kompilacja w systemie Windows]] lub używając MSYS2/MinGWc [[Compile_on_MinGW/pl|kompilacji w MinGW]].
-
-Aby skompilować FreeCAD bez graficznego interfejsu użytkownika, użyj obrazu dokera [[FreeCAD_Docker_CLI_mode/pl|FreeCAD Docker CLI mode]].
 
 Aby sporządzić dokumentację programowania, patrz [[Source_documentation/pl|Dokumentacja źródłowa]].
 
