@@ -26,7 +26,9 @@
 Il gestore delle viste e dei livelli BIM è una finestra agganciabile che si apre sotto la normale visualizzazione ad albero, che contiene tutte le [[Arch BuildingPart/it|Parti di edificio]] e tutti i [[Draft_WorkingPlaneProxy/it|Piani Proxy]] del modello.
 </div>
 
+<div class="mw-translate-fuzzy">
 Lo scopo di questa finestra è permettere di accedere velocemente ai propri livelli e alle configurazioni del piano di lavoro, senza la necessità di navigare nell'albero per trovarli.
+</div>
 
 [[Image:BIM_views_screenshot.png|600px]]
 {{Caption|The BIM Views Manager}}
@@ -50,6 +52,23 @@ Il gestore delle viste BIM mostrerà tutti i livelli (parti dell'edificio) e i p
 * Facendo clic sul pulsante '''Rinomina''' è possibile rinominare un oggetto selezionato
 </div>
 
+'''Top part'''
+* Clicking any entry selects the corresponding object.
+* Double-clicking the height of a level allows you to edit it.
+* Double-clicking the name of any object sets the working plane to it and activates the object {{Version|1.1}}. If the '''Restore View''' property of the object is set to True, and a view configuration has been stored in it, that viewpoint is also restored.
+* The BIM Views Manager top half has a right-click context menu with the following options:
+** '''Activate''' activates a selected level.
+** '''New Level''' creates a new [[Arch_BuildingPart|level]].
+** '''New Working Plane Proxy''' creates a new [[Draft_WorkingPlaneProxy|working plane proxy]].
+** '''Delete''' deletes a selected item.
+** '''Toggle Visibility''' turns a selected level on/off (same as the Space bar).
+** '''Isolate''' turns all levels off except the selected one.
+** '''Save View Position''' stores the current view settings in the selected object, allowing to restore it if its '''Restore View''' property is set to True.
+** '''Rename''' allows you to rename a selected object.
+
+'''Bottom part'''
+* Double-clicking a drawing orients the 3D view to the drawing.
+* Double clicking a page opens or activates the page tab.
 
 {{Docnav
 |[[BIM_Setup|Setup]]
