@@ -28,17 +28,21 @@ The Tools menu provides tools for debugging models, customizing FreeCAD's behavi
 
 The following tools are available in this menu:
 
-''The order of the tools matches the version 1.1 menu.''
+''The order of the tools matches the version 1.2 menu.''
 
 * [[Image:Std_AddonMgr.svg|32px]] [[Std_AddonMgr|Addon Manager]]: Opens the Addon Manager with which [[External_workbenches|external workbenches]], [[Preference_Packs|preference packs]] and [[macros|macros]] can be installed.
 
 * [[Image:Std_Measure.svg|32px]] [[Std_Measure|Measure]]: Measures objects. {{Version|1.0}}
 
-* [[Std_ClarifySelection|Clarify Selection]]: Lists all objects of different types located near the cursor to facilitate their selection. {{Version|1.1}}
+* [[Image:Std_MassProperties.svg|32px]] [[Std_MassProperties|Mass Properties]]: Measures mass properties of the selected solids. {{Version|1.2}}
+
+* [[Image:Std_AnnotationLabel.svg|32px]] [[Std_AnnotationLabel|Annotation Label]]: creates an annotation label at the selected location. {{Version|1.2}}
 
 <div class="mw-translate-fuzzy">
 [[Std UnitsCalculator|Units Calculator]] oferă conversii rapide între sistemele de măsurare de la ex mm la inci.
 </div>
+
+* [[Image:Std_ClarifySelection.svg|32px]] [[Std_ClarifySelection|Clarify Selection]]: Lists all objects of different types located near the cursor to facilitate their selection. {{Version|1.1}}
 
 * [[Image:Std_ViewLoadImage.svg|32px]] [[Std_ViewLoadImage|Load Image…]]: Loads an image. {{Version|0.21}}
 
