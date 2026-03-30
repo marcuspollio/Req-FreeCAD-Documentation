@@ -384,19 +384,35 @@ Tenere presente che i deve selezionare un oggetto intero e non un sottoelemento 
 <span id="Attachment_offset"></span>
 === Offset dell'associazione ===
 
-L'offset dell'associazione diventa attivo quando è stata selezionata una modalità di collegamento diversa da ''Disattivato''. Viene utilizzato per applicare un offset lineare o rotatorio all'interno del sistema di coordinate di associazione (ACS), come definito dalla modalità di associazione e dagli oggetti di riferimento. 
+L'offset dell'associazione diventa attivo quando è stata selezionata una modalità di collegamento diversa da ''Disattivato''. Viene utilizzato per applicare un offset lineare o rotatorio all'interno del sistema di coordinate di associazione (ACS), come definito dalla modalità di associazione e dagli oggetti di riferimento.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+For the [[#Translate_origin|Translate origin]] mode only the X-, Y- and Z-direction offsets have an effect.
+</div>
+
+<div class="mw-translate-fuzzy">
 * '''In direzione x''': imposta una distanza di offset lungo l'asse X dell'ACS.
+</div>
 
+<div class="mw-translate-fuzzy">
 * '''In direzione y''': imposta una distanza di offset lungo l'asse Y dell'ACS.
+</div>
 
+<div class="mw-translate-fuzzy">
 * '''In direzione z''': imposta una distanza di offset lungo l'asse Z dell'ACS.
+</div>
 
+<div class="mw-translate-fuzzy">
 * '''Intorno all'asse x''': ruota l'oggetto associato attorno all'asse X dell'ACS.
+</div>
 
+<div class="mw-translate-fuzzy">
 * '''Intorno all'asse y''': ruota l'oggetto associato attorno all'asse Y dell'ACS.
+</div>
 
+<div class="mw-translate-fuzzy">
 * '''Intorno all'asse z''': ruota l'oggetto associato attorno all'asse Z dell'ACS.
+</div>
 
 * '''Capovolgi lati''': se selezionato, l'associazione viene invertita. Ciò equivale a ruotare l'oggetto di 180° attorno all'asse Y dell'ACS.
 
