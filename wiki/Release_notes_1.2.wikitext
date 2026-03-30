@@ -110,6 +110,7 @@ ToDo (last check: 20260318):
 
 == CAM Workbench == <!--T:25-->
 
+<!--T:71-->
 {| cellpadding=5
 | [[File:CAM_machine_editor_relnotes_1.2.png|384px]]
 | Machine Library and Editor were added to the [[CAM_Preferences|CAM Preferences]]. Machine-based postprocessing was also added. Machine definitions can also be implemented as add-ons.
@@ -118,6 +119,7 @@ ToDo (last check: 20260318):
 
 === Further CAM improvements === <!--T:26-->
 
+<!--T:72-->
 * The G-code export dialog now shows line numbers. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull request #23862]
 * The MillFace operation was reimplemented with significant improvements as MillFacing. [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull request #24367]
 * [[CAM_SimpleCopy|SimpleCopy]] now allows multiple selection of operations. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull request #24297]
@@ -245,12 +247,14 @@ ToDo (last check: 20260318):
 [https://github.com/FreeCAD/FreeCAD/pull/22217 Pull request #22217]
 |}
 
+<!--T:73-->
 {| cellpadding=5
 | [[File:Sketcher_group_constraint_relnotes_1.2.gif|384px]]</br>Click on the image if the animation does not start.
 | Thanks to [https://www.astocad.com/ AstoCAD], a new [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup|Group constraint]] was added to Sketcher, allowing the geometries to be grouped and moved or constrained together.
 [https://github.com/FreeCAD/FreeCAD/pull/22217 Pull request #22217]
 |}
 
+<!--T:74-->
 {| cellpadding=5
 | [[File:InternalFaces_relnotes_1.2.gif|384px]]</br>Click on the image if the animation does not start.
 | Internal face generation now correctly handles complex overlapping geometry such as three or more intersecting circles, where previously some face regions were not generated at all.
