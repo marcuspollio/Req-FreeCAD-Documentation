@@ -5,9 +5,7 @@
 |[[Tutorials/ko|자습서]]
 }}
 
-<div class="mw-translate-fuzzy">
-여기서는 FreeCAD 관련한 가장 흔한 질문에 대해 답하려고합니다. FreeCAD 관련 문제 또는 질문이 있으면, 먼저 아래의 문답을 확인해 보세요. 그 다음 특정 질문에 대한 답을 찾을 수없는 경우 [http://forum.freecadweb.org/viewforum.php?f=3 FreeCAD 포럼]에 가 보세요!
-</div>
+여기서는 FreeCAD 관련한 가장 흔한 질문에 대해 답하려고합니다. FreeCAD 관련 문제 또는 질문이 있으면, 먼저 아래의 문답을 확인해 보세요. 그 다음 특정 질문에 대한 답을 찾을 수없는 경우 [http://forum.freecad.org/viewforum.php?f=3 FreeCAD 포럼]에 가 보세요!
 
 <span id="Installation"></span>
 == 프로그램 설치 ==
@@ -65,9 +63,7 @@ Find known OS-specific issues in this [https://forum.freecad.org/viewtopic.php?t
 <span id="FreeCAD_doesn&#039;t_start_at_all"></span>
 === FreeCAD가 시작되지 않습니다 ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 There might be a lot of reasons for that, the most likely is that some library is missing. Try starting FreeCAD from a terminal (type {{SystemInput|freecad}} at a terminal prompt, {{SystemInput|FreeCAD}} on some systems) to see if some error message appears. Also, read the rest of this FAQ as it can give you more clues to detect the cause of the problem. If nothing helps, tell about it on the [https://forum.freecad.org forum], there will surely be someone who can help.
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 On some older Windows XP systems you may get an error message like this: {{Emphasis|The application can't start, because the side-by-side configuration is wrong. The reinstallation of the application may solve the problem.}} The reason for this problem is that on your system either the CRT runtime libraries are missing or the version installed is too old because FreeCAD was linked against a newer version. In this case you have to install the {{Emphasis|Microsoft Visual C++ Redistributable Package}} which you'll find at Microsoft. See also the corresponding [https://forum.freecad.org/viewtopic.php?f=3&t=1298&p=9961 forum message].
