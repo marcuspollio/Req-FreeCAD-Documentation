@@ -18,9 +18,13 @@
 
 ==Description==
 
+<div class="mw-translate-fuzzy">
 La commande '''BIM Gérer les vues BIM''' ouvre une fenêtre ancrable sous l'arborescence normale. Elle contient tous les [[Arch_BuildingPart/fr|parties du bâtiment (niveaux)]] et les [[Draft_WorkingPlaneProxy/fr|proxies de plans de travail]] de votre modèle.
+</div>
 
+<div class="mw-translate-fuzzy">
 Le but de cette fenêtre est de permettre d'accéder rapidement à vos niveaux et configurations de plans de travail, sans avoir à naviguer dans l'arborescence pour les retrouver.
+</div>
 
 [[Image:BIM_views_screenshot.png|600px]]
 {{Caption|Le gestionnaire des vues BIM}}
@@ -30,6 +34,7 @@ Le but de cette fenêtre est de permettre d'accéder rapidement à vos niveaux e
 
 Le gestionnaire des vues BIM affichera tous les niveaux (éléments de construction) et les proxies des plans de travail de votre document. Il peut être ancré n'importe où dans l'interface FreeCAD ou être laissé dans une fenêtre autonome. Les éléments de construction afficheront également leur niveau (la coordonnée Z de leur placement).
 
+<div class="mw-translate-fuzzy">
 * En appuyant sur Ctrl+9 ou en cliquant sur le bouton '''Gestionnaire de vues BIM''' dans la barre d'état, vous pouvez afficher ou masquer le gestionnaire des vues de BIM
 * Cliquez sur n'importe quelle entrée sélectionne l'objet correspondant.
 * Double-cliquez sur la hauteur d'un niveau permet de l'éditer.
@@ -43,7 +48,25 @@ Le gestionnaire des vues BIM affichera tous les niveaux (éléments de construct
 ** '''Isoler''' désactive tous les niveaux sauf celui sélectionné.
 ** '''Enregistrer la position de la vue''' enregistre les paramètres de la vue en cours dans l'objet sélectionné, permettant de les restaurer si sa propriété '''Restore View''' est réglée sur True.
 ** '''Renommer''' permet de renommer un objet sélectionné.
+</div>
 
+'''Top part'''
+* Clicking any entry selects the corresponding object.
+* Double-clicking the height of a level allows you to edit it.
+* Double-clicking the name of any object sets the working plane to it and activates the object {{Version|1.1}}. If the '''Restore View''' property of the object is set to True, and a view configuration has been stored in it, that viewpoint is also restored.
+* The BIM Views Manager top half has a right-click context menu with the following options:
+** '''Activate''' activates a selected level.
+** '''New Level''' creates a new [[Arch_BuildingPart|level]].
+** '''New Working Plane Proxy''' creates a new [[Draft_WorkingPlaneProxy|working plane proxy]].
+** '''Delete''' deletes a selected item.
+** '''Toggle Visibility''' turns a selected level on/off (same as the Space bar).
+** '''Isolate''' turns all levels off except the selected one.
+** '''Save View Position''' stores the current view settings in the selected object, allowing to restore it if its '''Restore View''' property is set to True.
+** '''Rename''' allows you to rename a selected object.
+
+'''Bottom part'''
+* Double-clicking a drawing orients the 3D view to the drawing.
+* Double clicking a page opens or activates the page tab.
 
 {{Docnav/fr
 |[[BIM_Setup/fr|Configuration]]
