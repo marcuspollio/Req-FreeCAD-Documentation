@@ -551,30 +551,34 @@ Note that you have to select a whole object and not a subelement such as a face 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Attachment Offset becomes active when an attachment mode other than ''Deactivated'' has been selected. It is used to apply a linear or rotary offset within the attachment coordinate system (ACS), as defined by the attachment mode and the referenced object(s).
-</div> 
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* '''In x-direction''': sets an offset distance along the X-axis of the ACS.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* '''In y-direction''': sets an offset distance along the Y-axis of the ACS.
+For the [[#Translate_origin|Translate origin]] mode only the X-, Y- and Z-direction offsets have an effect.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* '''In z-direction''': sets an offset distance along the Z-axis of the ACS.
+* '''In X-direction''': sets an offset distance along the X-axis of the ACS.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Around x-axis''': rotates the attached object around the X-axis of the ACS.
+* '''In Y-direction''': sets an offset distance along the Y-axis of the ACS.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Around y-axis''': rotates the attached object around the Y-axis of the ACS.
+* '''In Z-direction''': sets an offset distance along the Z-axis of the ACS.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Around z-axis''': rotates the attached object around the Z-axis of the ACS.
+* '''Around X-axis''': rotates the attached object around the X-axis of the ACS.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* '''Around Y-axis''': rotates the attached object around the Y-axis of the ACS.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* '''Around Z-axis''': rotates the attached object around the Z-axis of the ACS.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
