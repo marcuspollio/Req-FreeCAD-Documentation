@@ -57,7 +57,7 @@ Cette commande peut être utilisée sur des objets 2D créés avec l'[[Draft_Wor
 **# Entrez l'{{MenuCommand|Intervalle en Z}} pour spécifier le déplacement des éléments dans la direction Z. Pour un réseau rectangulaire, les valeurs X et Z doivent être {{Value|0}}.
 * Appuyez sur le bouton {{Button|Réinitialiser en X}}, {{Button|Réinitialiser en Y}} ou {{Button|Réinitialiser en Z}} pour réinitialiser l'intervalle dans la direction donnée à la valeur par défaut.
 * Si la case {{MenuCommand|Fusion}} est cochée, les éléments qui se chevauchent dans le réseau sont fusionnés.
-* Si la case {{MenuCommand|Réseau de liens}} est cochée, un réseau de liens est créé au lieu d'un réseau normal. Un réseau de liens est plus efficace car ses éléments sont des objets [[App_Link/fr|Lien d'application]].
+* Si la case {{MenuCommand|Réseau de liens}} est cochée, un réseau de liens est créé au lieu d'un réseau normal. Un réseau de liens est plus efficace car ses éléments sont des objets [[App_Link/fr|App Link]].
 * Appuyez sur {{KEY|Échap}} ou sur le bouton {{Button|Annuler}} pour abandonner.
 
 <span id="Notes"></span>
