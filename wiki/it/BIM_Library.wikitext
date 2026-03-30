@@ -27,6 +27,7 @@
 Lo strumento Libreria BIM consente di posizionare nel modello corrente un oggetto della [[Parts Library/it|Libreria di parti di FreeCAD]], che deve essere installata tramite [[Image:Std_AddonMgr.svg|24px|link=Std_AddonMgr]] [[Std_AddonMgr/it|Addon Manager]] per essere disponibile con questo strumento.
 </div>
 
+The library can be accessed offline by downloading the whole workbench via the [[Image:Std_AddonMgr.svg|16px|link=Std_AddonMgr]] [[Std_AddonMgr|Addon Manager]], or browsed directly from within FreeCAD: in that case, on-demand downloads will be pulled from the [https://github.com/FreeCAD/FreeCAD-library Parts Library Git repository].
 
 [[Image:BIM Library screenshot.png|600px]]
 <div class="mw-translate-fuzzy">
