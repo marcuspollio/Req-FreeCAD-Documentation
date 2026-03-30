@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[Std_Measure/pl|Pomiary]]
 |[[Std_UnitsCalculator/pl|Przelicznik jednostek]]
@@ -8,6 +9,7 @@
 |IconR=Std_UnitsCalculator.svg
 |IconC=Freecad.svg
 }}
+</div>
 
 {{GuiCommand/pl
 |Name=Std ClarifySelection
@@ -45,6 +47,7 @@ Narzędzie '''Clarify Selection''' wyświetla menu wypisujące pobliskie obiekty
 # Kliknij na obiekcie aby go zaznaczyć.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[Std_Measure/pl|Pomiary]]
 |[[Std_UnitsCalculator/pl|Przelicznik jednostek]]
@@ -53,6 +56,7 @@ Narzędzie '''Clarify Selection''' wyświetla menu wypisujące pobliskie obiekty
 |IconR=Std_UnitsCalculator.svg
 |IconC=Freecad.svg
 }}
+</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
