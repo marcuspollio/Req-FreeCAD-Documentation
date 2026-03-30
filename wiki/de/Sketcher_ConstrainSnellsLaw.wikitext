@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[Sketcher_ConstrainBlock/de|Fixieren]]
+|[[Sketcher_ConstrainGroup|Group Constraint]]
 |[[Sketcher_ToggleDrivingConstraint/de|FestlegendeRandbedingungUmschalten]]
 |[[Sketcher_Workbench/de|Sketcher]]
-|IconL=Sketcher_ConstrainBlock.svg
+|IconL=Sketcher_ConstrainGroup.svg
 |IconR=Sketcher_ToggleDrivingConstraint.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 {{GuiCommand/de
 |Name=Sketcher ConstrainSnellsLaw
@@ -98,16 +96,14 @@ App.ActiveDocument.recompute()
 }}
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[Sketcher_ConstrainBlock/de|Fixieren]]
+|[[Sketcher_ConstrainGroup|Group Constraint]]
 |[[Sketcher_ToggleDrivingConstraint/de|FestlegendeRandbedingungUmschalten]]
 |[[Sketcher_Workbench/de|Sketcher]]
-|IconL=Sketcher_ConstrainBlock.svg
+|IconL=Sketcher_ConstrainGroup.svg
 |IconR=Sketcher_ToggleDrivingConstraint.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
