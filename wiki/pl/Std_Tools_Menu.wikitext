@@ -45,15 +45,23 @@ Menu Przybory dostarcza narzędzi do diagnozowania modeli, dostosowywania zachow
 
 W tym menu dostępne są następujące narzędzia:
 
+<div class="mw-translate-fuzzy">
 ''Kolejność narzędzi odpowiada menu w wersji 1.1.''
+</div>
 
 * [[Image: Std_AddonMgr.svg|32px]] [[Std_AddonMgr/pl|Menadżer dodatków]]: Otwiera menadżer dodatków, za pomocą którego można zainstalować [[External_workbenches/pl|zewnętrzne Środowiska pracy]] i [[macros/pl|makrodefinicje]].
 
 * [[Image:Std_Measure.svg|32px]] [[Std_Measure/pl|Pomiary]]: Mierzy obiekty. {{Version/pl|1.0}}
 
-* [[Std_ClarifySelection/pl|Określ zaznaczenie]]: Wyświetla listę wszystkich obiektów różnych typów położonych w pobliżu kursora, aby ułatwić ich wybieranie. {{Version/pl|1.1}}
+* [[Image:Std_MassProperties.svg|32px]] [[Std_MassProperties|Mass Properties]]: Measures mass properties of the selected solids. {{Version|1.2}}
+
+* [[Image:Std_AnnotationLabel.svg|32px]] [[Std_AnnotationLabel|Annotation Label]]: creates an annotation label at the selected location. {{Version|1.2}}
 
 * [[Image:Std_UnitsCalculator.svg|32px]] [[Std_UnitsCalculator/pl|Przelicznik jednostek]]: Otwiera kalkulator do przeliczania jednostek.
+
+<div class="mw-translate-fuzzy">
+* [[Std_ClarifySelection/pl|Określ zaznaczenie]]: Wyświetla listę wszystkich obiektów różnych typów położonych w pobliżu kursora, aby ułatwić ich wybieranie. {{Version/pl|1.1}}
+</div>
 
 * [[Image:Std_ViewLoadImage.svg|32px]] [[Std_ViewLoadImage/pl|Otwórz widok obrazu]]: Wczytuje grafikę. {{Version/pl|0.21}}
 
@@ -73,7 +81,9 @@ W tym menu dostępne są następujące narzędzia:
 
 *[[Image:Std_DlgParameter.svg|32px]] [[Std_DlgParameter/pl|Edycja parametrów]]: Otwiera okno dialogowe dające dostęp do parametrów sterujących programem.
 
+<div class="mw-translate-fuzzy">
 * [[Image:Std_DlgCustomize.svg|32px]] [[Std_DlgCustomize/pl|Dostosuj]]: Otwiera okno dialogowe z opcjami dostosowywania.
+</div>
 
 
 {{Docnav/pl
