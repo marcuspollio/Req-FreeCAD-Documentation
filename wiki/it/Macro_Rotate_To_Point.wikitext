@@ -4,7 +4,7 @@
 |Name=Macro Rotate To Point
 |Translate=Macro Rotatzione su Punto
 |Icon=Macro_Rotate_To_Point.svg
-|Description={{ColoredText|#ff0000|#ffffff|Nuva versione GUI modicato per HD dpi (QGridLayout) funziona solo su FC version 0.18 e più alto (PySide2 Qt5)}} <br/> <br/> Questa macro fa ruotare un oggetto su se stesso intorno all'asse scelto.</br>Si puo salvare in un file tutte le coordinate lavorate e salvarlo in un file "Coordinate [(0.06,1.30,0.0), (85.0,0.0,0.0)]" o in una macro completa per creare un'animazione<br/><br/>Per la precedente versione vedi [https://gist.githubusercontent.com/mario52a/2fc48333deca5a31e6232c29a9db5e4c/raw/9231d5b1d218357305cc0404e46bf6c107509a0e/Macro%2520Rotate%2520To%2520Point.FCMacro Macro_Rotate_To_Point] e installa manualmente.
+|Description={{ColoredText|#ff0000|#ffffff|Nuva versione GUI modicato per HD dpi (QGridLayout) funziona solo su FC version 0.18 e più alto (PySide2 Qt5)}} <br/> <br/> Questa macro fa ruotare un oggetto su se stesso intorno all'asse scelto.</br>Si deve salvare in un file tutte le coordinate elaborate come "Coordinate [(0.06,1.30,0.0), (85.0,0.0,0.0)]" o in una macro completa per creare un'animazione<br/><br/>Per la precedente versione vedi [https://gist.githubusercontent.com/mario52a/2fc48333deca5a31e6232c29a9db5e4c/raw/9231d5b1d218357305cc0404e46bf6c107509a0e/Macro%2520Rotate%2520To%2520Point.FCMacro Macro_Rotate_To_Point] e installa manualmente.
 |Author=Mario52
 |Version=00.09
 |Date=2021/02/25
