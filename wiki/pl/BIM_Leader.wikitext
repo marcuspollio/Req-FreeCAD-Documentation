@@ -1,5 +1,4 @@
 <languages/>
-{{UnfinishedDocu{{#translation:}}}}
 
 {{Docnav/pl
 |[[BIM_DimensionVertical/pl|BIM: Wymiar pionowy]]
@@ -23,16 +22,28 @@
 <span id="Description"></span>
 ==Opis==
 
+<div class="mw-translate-fuzzy">
 Narzędzie [[Image:BIM_Leader.svg|24px]] [[BIM_Leader/pl|BIM: Linia odniesienia]] tworzy linię odniesienia, obiekt '''Polilinia''' z symbolem strzałki w ostatnim wskazanym punkcie.
+</div>
 
 <span id="Usage"></span>
 ==Użycie==
 
+<div class="mw-translate-fuzzy">
 # Istnieje kilka sposobów wywołania tego narzędzia:
 #* Wciśnij przycisk {{Button|[[Image:BIM_Leader.svg|16px]] [[BIM_Leader/pl|Linia odniesienia]]}}.
 #* Wybierz opcję {{MenuCommand|Opisy → [[Image:BIM_Leader.svg|16px]] Linia odniesienia}} z menu.
 #* Użyj skrótu klawiszowego: {{KEY|L}} a następnie {{KEY|E}}.
 # ...
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Notes==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+This tool is based on [[Draft_Wire|Draft Wire]].
+</div>
 
 
 {{Docnav/pl
