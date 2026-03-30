@@ -27,9 +27,10 @@ Starsze informacje na temat wydań FreeCAD można znaleźć na stronie [[Feature
 <span id="Further_user_interface_improvements"></span>
 ===Pozostałe ulepszenia interfejsu użytkownika===
 
-<div class="mw-translate-fuzzy">
 * Wbudowany edytor tekstu wspiera teraz zaznaczanie linii poprzez kliknięcie na jej numerze (i opcjonalnie również przytrzymanie klawisza {{KEY|Shift}}, aby zaznaczyć zakres linii). [https://github.com/FreeCAD/FreeCAD/pull/27677 Pull request #27677]
-</div>
+* We wbudowanym edytorze tekstu, pole wyszukiwania jest teraz wstępnie wypełnione aktualnie zaznaczonym tekstem. [https://github.com/FreeCAD/FreeCAD/pull/27674 Pull request #27674]
+* Od teraz dwukrotne kliknięcie na ścianie [[Navigation_Cube/pl|kostki nawigacyjnej]] dokona obrotu do niej, ale też wyśrodkuje widok. [https://github.com/FreeCAD/FreeCAD/pull/28608 Pull request #28608]
+* Opcja menu kontekstowego [[Tree_View/pl|Widoku drzewa]] ''Przelicz obiekt'' (polecenie ''Std_Recompute'') ma teraz skrót klawiaturowy {{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|R}}. [https://github.com/FreeCAD/FreeCAD/pull/27880 Pull request #27880]
 
 <span id="Core_system_and_API"></span>
 == Rdzeń i API==
@@ -43,13 +44,11 @@ Starsze informacje na temat wydań FreeCAD można znaleźć na stronie [[Feature
 [https://github.com/FreeCAD/FreeCAD/pull/23673 Pull request #23673]
 |}
 
-<div class="mw-translate-fuzzy">
 {| cellpadding=5
 | [[File:MassProperties_relnotes_1.2.png|384px]]
-| Dodano nowe polecenie do sprawdzania właściwości masowych, takich jak objętość, masa, pole powierzchni, środek ciężkości, środek objętości i momenty bezwładności dla części i złożeń, ze wsparciem dla własnych układów odniesienia i obliczeniami biorącymi pod uwagę przypisane materiały.
+| Dodano nowe polecenie [[Image:Std_MassProperties.svg|24px]] [[Std_MassProperties/pl|Właściwości masowe]] do obliczania objętości, masy, pola powierzchni, środka ciężkości, środka objętości i momentów bezwładności dla części i złożeń, ze wsparciem dla własnych układów odniesienia i obliczeniami biorącymi pod uwagę przypisane materiały.
 [https://github.com/FreeCAD/FreeCAD/pull/27347 Pull request #27347]
 |}
-</div>
 
 <span id="Further_Core_improvements"></span>
 ===Pozostałe ulepszenia rdzenia===
