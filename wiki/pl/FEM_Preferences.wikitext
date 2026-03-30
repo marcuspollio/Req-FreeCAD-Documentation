@@ -89,19 +89,12 @@ Na tej stronie można określić następujące parametry:
 
 Na tej stronie można określić następujące parametry:
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nazwa
 !style="width: 66%;"|Opis
 |-
 | {{MenuCommand|Ścieżka CalculiX}}
 | Ścieżka do pliku wykonywalnego solvera [[FEM_SolverCalculixCcxtools/pl|CalculiX]]. Pozostaw puste pole, aby używać domyślnego pliku wykonywalnego.
-|-
-| {{MenuCommand|Użyj wewnętrznego edytora plików *.inp}}
-| Jeśli zaznaczone, wbudowany edytor plików *.inp z kolorowaniem składni będzie używany podczas edycji plików wejściowych solvera CalculiX.
-|-
-| {{MenuCommand|Zewnętrzny edytor}}
-| Ścieżka do zewnętrznego edytora plików *.inp.
 |-
 | {{MenuCommand|Podziel zapis pliku *.inp}}
 | Jeśli zaznaczone, zapisanych będzie kilka plików *.inp a główny plik wejściowych będzie korzystał ze słów kluczowych *INCLUDE jako odniesień do pozostałych plików. Jeśli odznaczone, zapisywany będzie jeden duży plik *.inp.
@@ -157,7 +150,6 @@ Na tej stronie można określić następujące parametry:
 | {{MenuCommand|Dolna granica częstotliwości}}
 | Domyślna dolna granica wyznaczanych częstotliwości drgań własnych w analizach częstotliwościowych.
 |}
-</div>
 
 ==Elmer==
 
