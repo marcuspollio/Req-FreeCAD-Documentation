@@ -541,7 +541,11 @@ Note that you have to select a whole object and not a subelement such as a face 
 
 <div class="mw-translate-fuzzy">
 Attachment Offset is used to apply a linear or rotary offset from the referenced object. It becomes active when an attachment mode other than ''Deactivated'' has been selected .
-</div> 
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+For the [[#Translate_origin|Translate origin]] mode only the X-, Y- and Z-direction offsets have an effect.
+</div>
 
 <div class="mw-translate-fuzzy">
 * '''X''': sets an offset distance in the X axis of the reference object .
