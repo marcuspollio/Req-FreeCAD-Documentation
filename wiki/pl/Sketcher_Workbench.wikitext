@@ -216,9 +216,7 @@ Niektóre z nich wymagają użycia [[Sketcher_helper_constraint/pl|wiązań pomo
 
 :* [[File:Sketcher_ConstrainDistanceY.svg|32px]] [[Sketcher_ConstrainDistanceY/pl|Zwiąż odległość pionową]]: Określa odległość pionową między dwoma punktami lub punktami końcowymi linii. Jeśli wstępnie wybrano pojedynczy punkt, odległość jest określana względem początku szkicu.
 
-<div class="mw-translate-fuzzy">
-:* [[File:Sketcher_ConstrainDistance.svg|32px]] [[Sketcher_ConstrainDistance/pl|Wiązanie odległości]]: Określa długość prostej, odległość między dwoma punktami, odległość prostopadłą między punktem a prostą, lub {{Version|0.21}}, odległość między krawędziami dwóch okręgów lub łuków, lub między krawędzią okręgu lub łuku a prostą lub {{Version/pl|1.0}}, odległość między krawędziami dwóch łuków.
-</div>
+:* [[File:Sketcher_ConstrainDistance.svg|32px]] [[Sketcher_ConstrainDistance/pl|Wiązanie odległości]]: Określa długość prostej, odległość między dwoma punktami, odległość prostopadłą między punktem a prostą, lub odległość między krawędziami dwóch okręgów lub łuków, lub między krawędzią okręgu lub łuku a prostą lub {{Version/pl|1.0}}, odległość między krawędziami dwóch łuków.
 
 :* <span id="Sketcher_CompConstrainRadDia">[[File:Sketcher_ConstrainRadiam.svg|32px]] [[Sketcher_ConstrainRadiam/pl|Zwiąż automatycznie promień / średnicę]]: Określa promień łuków i okręgów z wagą krzywej złożonej oraz średnicę okręgów. {{Version/pl|0.20}}.</span><!--Do not edit span id: the Sketcher_CompConstrainRadDia pages redirect here-->
 
