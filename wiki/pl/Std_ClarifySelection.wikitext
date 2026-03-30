@@ -1,6 +1,6 @@
 <languages/>
 
-{{Docnav
+{{Docnav/pl
 |[[Std_UnitsCalculator/pl|Przelicznik jednostek]]
 |[[Std_ViewLoadImage/pl|Otwórz widok obrazu]]
 |[[Std_Tools_Menu/pl|Menu Przybory]]
@@ -45,16 +45,14 @@ Narzędzie '''Clarify Selection''' wyświetla menu wypisujące pobliskie obiekty
 # Kliknij na obiekcie aby go zaznaczyć.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/pl
-|[[Std_Measure/pl|Pomiary]]
 |[[Std_UnitsCalculator/pl|Przelicznik jednostek]]
+|[[Std_ViewLoadImage/pl|Otwórz widok obrazu]]
 |[[Std_Tools_Menu/pl|Menu Przybory]]
-|IconL=Std_Measure.svg
-|IconR=Std_UnitsCalculator.svg
+|IconL=Std_UnitsCalculator.svg
+|IconR=Std_ViewLoadImage.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
