@@ -46,9 +46,7 @@ To narzędzie jest zautomatyzowaną formą narzędzia [[Image:Part_Boolean.svg|1
 * Dwie wybrane bryły zwykle będą skutkowały utworzeniem jednej zamkniętej polilinii (lub kilku jeśli obiekty przecinają się w różnych miejscach). Jeśli występują ściany współpłaszczyznowe, jak w przykładzie powyżej, dodanych zostanie więcej krawędzi.
 
 [[Image:Part_Section2.png|300px]]
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Red: Section object consisting of two closed wires where the surfaces of both objects intersect}}
-</div>
+{{Caption|Czerwony: Obiekt przekroju składający się z dwóch zamkniętych polilinii gdzie powierzchnie obu obiektów się przecinają}}
 
 <span id="Properties"></span>
 ==Właściwości==
