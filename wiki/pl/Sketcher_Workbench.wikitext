@@ -332,9 +332,7 @@ Niektóre z nich wymagają użycia [[Sketcher_helper_constraint/pl|wiązań pomo
 
 * [[File:Sketcher_BSplineInsertKnot.svg|32px]] [[Sketcher_BSplineInsertKnot/pl|Wstaw węzeł]] Wstawia węzeł do krzywej złożonej lub zwiększa krotność istniejącego węzła.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves/pl|Połącz krzywe]] Tworzy krzywą złożoną poprzez połączenie dwóch istniejących krzywych złożonych lub innych krawędzi.  {{Version/pl|0.21}}
-</div>
+* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves/pl|Połącz krzywe]] Tworzy krzywą złożoną poprzez połączenie dwóch istniejących krzywych złożonych lub innych krawędzi.
 
 <span id="Visual_Helpers"></span>
 ===Widok szkicu===
