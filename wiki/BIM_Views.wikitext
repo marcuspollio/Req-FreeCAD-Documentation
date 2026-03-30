@@ -40,6 +40,7 @@ The BIM Views Manager will show all the levels (building parts) and working plan
 <!--T:8-->
 * Pressing Ctrl+9 or clicking the '''BIM Views Manager''' button in the Status Bar shows or hides the BIM Views Manager.
 
+<!--T:12-->
 '''Top part'''
 * Clicking any entry selects the corresponding object.
 * Double-clicking the height of a level allows you to edit it.
@@ -54,6 +55,7 @@ The BIM Views Manager will show all the levels (building parts) and working plan
 ** '''Save View Position''' stores the current view settings in the selected object, allowing to restore it if its '''Restore View''' property is set to True.
 ** '''Rename''' allows you to rename a selected object.
 
+<!--T:13-->
 '''Bottom part'''
 * Double-clicking a drawing orients the 3D view to the drawing.
 * Double clicking a page opens or activates the page tab.
