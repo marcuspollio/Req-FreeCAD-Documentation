@@ -101,7 +101,8 @@ Definuje délku desky v opačném směru. Tato možnost je k dispozici pouze v p
 
 Zaškrtněte tuto možnost, chcete-li vytáhnout polovinu zadané délky na obě strany náčrtu nebo plochy. Tato možnost je k dispozici pouze v případě, že je v poli „Typ“ vybrána možnost '''Rozměr'''.
 
-=== Reversed ===
+<span id="Reversed"></span>
+=== Překlopit ===
 
 Reverses the direction of the pad.
 
