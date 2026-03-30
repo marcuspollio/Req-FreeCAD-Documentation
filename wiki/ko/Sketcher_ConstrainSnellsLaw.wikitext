@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[Sketcher_ConstrainBlock/ko|차단 구속]]
 |[[Sketcher_ToggleDrivingConstraint/ko|주도/참조 구속 전환]]
@@ -8,6 +9,7 @@
 |IconR=Sketcher_ToggleDrivingConstraint.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{GuiCommand
 |Name=Sketcher ConstrainSnellsLaw
@@ -95,6 +97,7 @@ App.ActiveDocument.recompute()
 }}
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[Sketcher_ConstrainBlock/ko|차단 구속]]
 |[[Sketcher_ToggleDrivingConstraint/ko|주도/참조 구속 전환]]
@@ -103,6 +106,7 @@ App.ActiveDocument.recompute()
 |IconR=Sketcher_ToggleDrivingConstraint.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
