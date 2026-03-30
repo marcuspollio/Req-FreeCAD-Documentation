@@ -15,7 +15,7 @@
 <span id="Description"></span>
 ==Descrizione==
 
-Macro per far ruotare un oggetto su se stesso scegliendo l'asse di rotazione: il centro del bounding box, il centro di massa, la direzione, un percorso lungo una linea o l'ultimo punto cliccato. È necessario salvare in un file tutte le coordinate utilizzate e salvarle nel file come "Coordinate [(0.06,1.30,0.0),(85.0,0.0,0.0)]," </br> oppure in una macro completa con diverse opzioni (Crea immagine seriale) per creare un'animazione, aumentare/diminuire, mettere in pausa, effetto yo-yo ....
+Macro per far ruotare un oggetto su se stesso scegliendo l'asse di rotazione: il centro del bounding box, il centro di massa, la direzione, un percorso lungo una linea o l'ultimo punto cliccato. È necessario salvare in un file tutte le coordinate elaborate come "Coordinate [(0.06,1.30,0.0),(85.0,0.0,0.0)]," </br> oppure in una macro completa con diverse opzioni (Crea immagine seriale) per creare un'animazione, aumentare/diminuire, mettere in pausa, effetto yo-yo ....
 
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/2fc48333deca5a31e6232c29a9db5e4c/raw/d9419d4bb13e36940eb2f56c3c469ea4182827ee/Macro%2520Rotate%2520To%2520Point.FCMacro}}
