@@ -21,9 +21,7 @@
 
 '''Menedżer widoków BIM''' to dokowalne okno, które otwiera się poniżej normalnego Widoku drzewa i zawiera wszystkie [[Arch_BuildingPart/pl|części budowli]] i [[Draft_WorkingPlaneProxy/pl|pośrednie płaszczyzny robocze]] modelu w górnej części. [[BIM_DrawingView/pl|Rysunki 2D]] i strony środowiska Rysunek Techniczny są wymienione w dolnej części.
 
-<div class="mw-translate-fuzzy">
-Celem tego okna jest umożliwienie szybkiego dostępu do poziomów i konfiguracji płaszczyzny roboczej, bez konieczności nawigowania po drzewie w celu ich znalezienia.
-</div>
+Celem tego okna jest umożliwienie szybkiego dostępu do poziomów i konfiguracji płaszczyzny roboczej, bez konieczności nawigowania drzewa w celu ich znalezienia. Umożliwia też dostęp do istniejących stron i rysunków.
 
 [[Image:BIM_views_screenshot.png|600px]]
 {{Caption|Menedżer widoków BIM}}
