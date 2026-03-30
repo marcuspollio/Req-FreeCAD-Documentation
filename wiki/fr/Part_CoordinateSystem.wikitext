@@ -57,7 +57,7 @@ L'objet a les mêmes propriétés d'ancrage qu'un [[Part_Part2DObject/fr#Donn.C3
 {{Properties_Title|Base}}
 
 * {{PropertyData|Origin Features|LinkList|hidden}} : les axes, les plans et le point d'origine sont contrôlés par le système de coordonnées.
-* {{PropertyData|Placement|Placement}} : voir [[Part_Feature/fr#Données|Part Feature]].
+* {{PropertyData|Placement|Placement}} : voir [[Part_Feature/fr#Données|Part Données]].
 * {{PropertyData|Label|String}} : idem.
 * {{PropertyData|Label2|String|hidden}} : idem.
 * {{PropertyData|Expression Engine|ExpressionEngine|hidden}} : idem.
