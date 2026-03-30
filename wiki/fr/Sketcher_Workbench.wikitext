@@ -78,11 +78,15 @@ Ces règles ne s'appliquent pas à la géométrie de construction (couleur bleue
 <span id="Tools"></span>
 == Outils ==
 
+<div class="mw-translate-fuzzy">
 Les outils de l'atelier Sketcher se trouvent dans le menu Esquisse et/ou dans plusieurs barres d'outils. {{Version/fr|0.21}} : la majorité des barres d'outils de Sketcher ne s'affichent que lorsqu'une esquisse est en mode édition. La seule exception est la [[#Barre_d'outils_de_Sketcher|barre d'outils de Sketcher]] est la seule à s'afficher si aucune esquisse n'est en mode édition.
+</div>
 
 Certains outils sont également disponibles dans le menu contextuel de le [[3D_View/fr|vue 3D]] lorsqu'une esquisse est en mode édition, ou dans les menus contextuels de la [[Sketcher_Dialog/fr|boîte de dialogue]].
 
-{{Version/fr|0.21}} : si une esquisse est en mode édition, la barre d'outils Structure est cachée car aucun de ses outils ne peut être utilisé. 
+<div class="mw-translate-fuzzy">
+{{Version/fr|0.21}} : si une esquisse est en mode édition, la barre d'outils Structure est cachée car aucun de ses outils ne peut être utilisé.
+</div> 
 
 <span id="General"></span>
 === Généralités ===
@@ -214,7 +218,9 @@ Il s'agit d'outils permettant de créer des [[#Contraintes|contraintes]]. Certai
 
 :* [[File:Sketcher_ConstrainDistanceY.svg|32px]] [[Sketcher_ConstrainDistanceY/fr|Dimension verticale]] : définit la distance verticale entre deux points ou les extrémités d'une ligne. Si un seul point est présélectionné, la distance est relative à l'origine de l'esquisse.
 
+<div class="mw-translate-fuzzy">
 :* [[File:Sketcher_ConstrainDistance.svg|32px]] [[Sketcher_ConstrainDistance/fr|Distance]] : définit la longueur d'une ligne, la distance entre deux points, la distance perpendiculaire entre un point et une ligne. {{Version/fr|0.21}}, la distance entre les arêtes de deux cercles ou arcs, ou entre l'arête d'un cercle ou d'un arc et une ligne. {{Version/fr|1.0}}, la longueur d'un arc.
+</div>
 
 :* <span id="Sketcher_CompConstrainRadDia">[[File:Sketcher_ConstrainRadiam.svg|32px]] [[Sketcher_ConstrainRadiam/fr|Rayon/diamètre]] : fixe le rayon des arcs et des cercles de pondération des B-splines, ainsi que le diamètre des cercles.</span><!--Do not edit span id: the Sketcher_CompConstrainRadDia pages redirect here-->
 
@@ -251,6 +257,10 @@ Il s'agit d'outils permettant de créer des [[#Contraintes|contraintes]]. Certai
 * [[File:Sketcher_ConstrainSymmetric.svg|32px]] [[Sketcher_ConstrainSymmetric/fr|Symétrie]] : contraint deux points à être symétriques par rapport à une ligne ou un axe, ou par rapport à un troisième point.
 
 * [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock/fr|Blocage]] : bloque les arêtes en place avec une seule contrainte. Cette commande est principalement destinée aux B-splines.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometries. {{Version|1.2}}
+</div>
 
 * [[File:Sketcher_ConstrainSnellsLaw.svg|32px]] [[Sketcher_ConstrainSnellsLaw/fr|Réfraction]] : contraint deux lignes à suivre la loi de réfraction de la lumière lorsqu'elle pénètre à travers une interface.
 
@@ -328,7 +338,9 @@ Il s'agit d'outils permettant de créer des [[#Contraintes|contraintes]]. Certai
 
 * [[File:Sketcher_BSplineInsertKnot.svg|32px]] [[Sketcher_BSplineInsertKnot/fr|Insérer un nœud]] : insère un nœud dans une B-spline ou augmente la multiplicité d'un nœud existant.
 
+<div class="mw-translate-fuzzy">
 * [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves/fr|Relier des courbes]] : crée une B-spline en reliant deux B-splines existantes ou d'autres arêtes. {{Version/fr|0.21}}
+</div>
 
 <span id="Visual_Helpers"></span>
 ===Assistants graphiques===
