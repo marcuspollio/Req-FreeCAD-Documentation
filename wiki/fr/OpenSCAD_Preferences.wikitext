@@ -1,8 +1,6 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
-La fenêtre des préférences de l'[[OpenSCAD_Workbench/fr|atelier OpenSCAD]] se trouve dans [[Preferences_Editor/fr|Éditeur de Préférences]], {{MenuCommand|Édition → Préférences... → OpenSCAD}}.
-</div>
+Les préférences de l'[[OpenSCAD_Workbench/fr|atelier OpenSCAD]] sont accessibles via l'[[Preferences Editor/fr|éditeur de préférences]]. Dans le menu, sélectionnez {{MenuCommand|Édition → Préférences}} puis {{MenuCommand|[[Image:Workbench_OpenSCAD.svg|16px]] OpenSCAD}}. Ce groupe n'est disponible que si l'environnement de travail OpenSCAD a été chargé dans la session FreeCAD en cours.
 
 Il n'y a qu'une seule page : Réglages généraux.
 
