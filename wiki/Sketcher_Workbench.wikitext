@@ -99,13 +99,13 @@ These rules do not apply to construction geometry (default color blue), which is
 == Tools == <!--T:144-->
 
 <!--T:16-->
-The Sketcher Workbench tools are located in the Sketch menu and/or several toolbars. {{Version|0.21}}: Almost all Sketcher toolbars are only displayed while a sketch is in edit mode. The only exception is the [[#Sketcher_toolbar|Sketcher toolbar]] which is only displayed if no sketch is in edit mode.
+The Sketcher Workbench tools are located in the Sketch menu and/or several toolbars. Almost all Sketcher toolbars are only displayed while a sketch is in edit mode. The only exception is the [[#Sketcher_toolbar|Sketcher toolbar]] which is only displayed if no sketch is in edit mode.
 
 <!--T:251-->
 Some tools are also available from the [[3D_View|3D View]] context menu while a sketch is in edit mode, or from the context menus of the [[Sketcher_Dialog|Sketcher Dialog]].
 
 <!--T:177-->
-{{Version|0.21}}: If a sketch is in edit mode the Structure toolbar is hidden as none of its tools can then be used. 
+If a sketch is in edit mode the Structure toolbar is hidden as none of its tools can then be used. 
 
 === General === <!--T:126-->
 
@@ -288,7 +288,7 @@ These are tools for creating [[#Constraints|constraints]]. Some constraints requ
 :* [[File:Sketcher_ConstrainDistanceY.svg|32px]] [[Sketcher_ConstrainDistanceY|Vertical Dimension]]: Fixes the vertical distance between two points or the endpoints of a line. If a single point is pre-selected, the distance is relative to the origin of the sketch.
 
 <!--T:72-->
-:* [[File:Sketcher_ConstrainDistance.svg|32px]] [[Sketcher_ConstrainDistance|Distance Dimension]]: Fixes the length of a line, the distance between two points, the perpendicular distance between a point and a line; or, {{Version|0.21}}, the distance between the edges of two circles or arcs, or between the edge of a circle or arc and a line; or, {{Version|1.0}}, the length of an arc.
+:* [[File:Sketcher_ConstrainDistance.svg|32px]] [[Sketcher_ConstrainDistance|Distance Dimension]]: Fixes the length of a line, the distance between two points, the perpendicular distance between a point and a line; or, the distance between the edges of two circles or arcs, or between the edge of a circle or arc and a line; or, {{Version|1.0}}, the length of an arc.
 
 <!--T:159-->
 :* <span id="Sketcher_CompConstrainRadDia">[[File:Sketcher_ConstrainRadiam.svg|32px]] [[Sketcher_ConstrainRadiam|Radius/Diameter Dimension]]: Fixes the radius of arcs and B-spline weight circles, and the diameter of circles.</span><!--Do not edit span id: the Sketcher_CompConstrainRadDia pages redirect here-->
@@ -456,7 +456,7 @@ These are tools for creating [[#Constraints|constraints]]. Some constraints requ
 * [[File:Sketcher_BSplineInsertKnot.svg|32px]] [[Sketcher_BSplineInsertKnot|Insert Knot]]: Inserts a knot into a B-spline or increases the multiplicity of an existing knot.
 
 <!--T:163-->
-* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves|Join Curves]]: Creates a B-spline by joining two existing B-splines or other edges. {{Version|0.21}}
+* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves|Join Curves]]: Creates a B-spline by joining two existing B-splines or other edges.
 
 ===Visual Helpers=== <!--T:194-->
 
