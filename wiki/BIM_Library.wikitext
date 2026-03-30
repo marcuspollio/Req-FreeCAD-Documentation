@@ -21,8 +21,9 @@
 ==Description== <!--T:1-->
 
 <!--T:3-->
-The '''BIM Library''' tool allows you to place, in the current model, an object from the [[Parts_Library_Workbench|Parts Library]]. The library can be accessed offline by downlading the whole workbench via the [[Image:Std_AddonMgr.svg|24px|link=Std_AddonMgr]] [[Std_AddonMgr|Addon Manager]], or browsed directly from within FreeCAD: in this case, on-demand downloads will be pulled from the [https://github.com/FreeCAD/FreeCAD-library Parts Library Git repository].
+The '''BIM Library''' tool allows you to place, in the current model, an object from the [[Parts_Library_Workbench|Parts Library]]. 
 
+The library can be accessed offline by downloading the whole workbench via the [[Image:Std_AddonMgr.svg|16px|link=Std_AddonMgr]] [[Std_AddonMgr|Addon Manager]], or browsed directly from within FreeCAD: in this case, on-demand downloads will be pulled from the [https://github.com/FreeCAD/FreeCAD-library Parts Library Git repository].
 
 </translate>
 [[Image:BIM Library screenshot.png|600px]]
