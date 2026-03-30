@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[Sketcher_ConstrainSymmetric/pl|Wiązanie symetrii]]
 |[[Sketcher_ConstrainSnellsLaw/pl|Wiązanie prawo Snell'a]]
@@ -8,6 +9,7 @@
 |IconR=Sketcher_ConstrainSnellsLaw.svg‎
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{GuiCommand/pl
 |Name=Sketcher ConstrainBlock
@@ -63,6 +65,7 @@ Zapoznaj się również z informacjami na stronie [[Sketcher_Workbench/pl#Pomoce
 Strona [[Sketcher_scripting/pl|skrypty szkicownika]] wyjaśnia wartości, których można użyć dla {{incode|Krawędzi}} oraz zawiera dalsze przykłady tworzenia wiązań przy użyciu skryptów języka Python.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[Sketcher_ConstrainSymmetric/pl|Wiązanie symetrii]]
 |[[Sketcher_ConstrainSnellsLaw/pl|Wiązanie prawo Snell'a]]
@@ -71,6 +74,7 @@ Strona [[Sketcher_scripting/pl|skrypty szkicownika]] wyjaśnia wartości, który
 |IconR=Sketcher_ConstrainSnellsLaw.svg‎
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
