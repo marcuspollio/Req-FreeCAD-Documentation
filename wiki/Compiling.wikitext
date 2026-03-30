@@ -9,7 +9,7 @@ Each operating system has its own page for compiling FreeCAD in the [[Online_Hel
 |-
 |align=center|[[Compile_on_Windows|Compile on Windows]]
 |align=center|[[Compile_on_Linux|Compile on Linux]]
-|align=center|[https://freecad.github.io/DevelopersHandbook/gettingstarted/#pixi Compile on MacOS]
+|align=center|[https://freecad.github.io/DevelopersHandbook/gettingstarted/#pixi Compile on macOS]
 |}
 
 <!--T:6-->
@@ -17,9 +17,6 @@ To compile on BSD, and other Unix systems, you can follow the general instructio
 
 <!--T:3-->
 It is also possible to compile FreeCAD on Windows by following the instructions in [[Compile_on_Windows|Compile on Windows]] or using MSYS2/MinGW following [[Compile_on_MinGW|Compile on MinGW]].
-
-<!--T:7-->
-To compile FreeCAD without its graphic user interface use the [[FreeCAD_Docker_CLI_mode|FreeCAD Docker CLI mode]] image.
 
 <!--T:4-->
 To compile the programming documentation, see [[Source_documentation|Source documentation]].
