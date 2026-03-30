@@ -30,10 +30,10 @@ The [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup|Sketche
 #* Press the {{Button|[[Image:Sketcher_ConstrainGroup.svg|16px]] [[Sketcher_ConstrainGroup|Group Constraint]]}} button.
 #* Select the {{MenuCommand|Sketch → Constraints → [[Image:Sketcher_ConstrainGroup.svg|16px]] Group Constraint}} option from the menu.
 #* Use the keyboard shortcut: {{KEY|K}} then {{KEY|G}}.
-# The selected geometry will be grouped.
+# The geometry is grouped.
 
 ==Notes==
-* Constraints applied to grouped edges are ignored as long as the Group constraint is present.
+* Constraints applied to grouped edges are ignored as long as the group constraint is present.
 
 
 {{Docnav
