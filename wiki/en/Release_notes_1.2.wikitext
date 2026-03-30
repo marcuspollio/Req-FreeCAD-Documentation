@@ -17,13 +17,17 @@ Previous FreeCAD release notes can be found in the [[Feature_list#Release_notes|
 
 == General ==
 
-* Multiple documents can now be edited simultaneously with independent tasks and undo/redo stacks, for example having two Sketches open at the same time (GSoC project). [https://github.com/FreeCAD/FreeCAD/pull/21978 Pull request #21978]
+* Multiple documents can now be edited simultaneously with independent tasks and undo/redo stacks, for example, having two Sketches open at the same time (GSoC project). [https://github.com/FreeCAD/FreeCAD/pull/21978 Pull request #21978]
+* {{FileName|.FCBak}} backup files can now be opened directly from the File → Open dialog without renaming them to {{FileName|.FCStd}} first. Saving such a file triggers [[Std_SaveAs|Save As…]] to prevent accidentally overwriting the backup. [https://github.com/FreeCAD/FreeCAD/pull/28454 Pull request #28454]
 
 == User interface ==
 
 === Further user interface improvements ===
 
 * The built-in text editor now supports line selection via clicking on the line number (and optionally also holding {{KEY|Shift}} for range selection). [https://github.com/FreeCAD/FreeCAD/pull/27677 Pull request #27677]
+* In the built-in text editor, the search field is now prefilled with the currently selected text. [https://github.com/FreeCAD/FreeCAD/pull/27674 Pull request #27674]
+* Double-clicking a face of the [[Navigation_Cube|navigation cube]] will now rotate to it, but also center the view. [https://github.com/FreeCAD/FreeCAD/pull/28608 Pull request #28608]
+* The ''Recompute Object'' [[Tree_View|Tree View]] context menu option (''Std_Recompute'' command) now has a keyboard shortcut {{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|R}}. [https://github.com/FreeCAD/FreeCAD/pull/27880 Pull request #27880]
 
 == Core system and API ==
 
@@ -37,7 +41,7 @@ Previous FreeCAD release notes can be found in the [[Feature_list#Release_notes|
 
 {| cellpadding=5
 | [[File:MassProperties_relnotes_1.2.png|384px]]
-| A new Mass Properties command has been added to calculate volume, mass, surface area, center of gravity, center of volume, and inertia for parts and assemblies, with support for custom reference frames and material-aware calculations.
+| A new [[Image:Std_MassProperties.svg|24px]] [[Std_MassProperties|Mass Properties]] command has been added to calculate volume, mass, surface area, center of gravity, center of volume, and inertia for parts and assemblies, with support for custom reference frames and material-aware calculations.
 [https://github.com/FreeCAD/FreeCAD/pull/27347 Pull request #27347]
 |}
 
@@ -49,6 +53,7 @@ Previous FreeCAD release notes can be found in the [[Feature_list#Release_notes|
 * On macOS the .FCStd files now support the native QuickLook extension to show a thumbnail of the file in the finder and the full preview. [https://github.com/FreeCAD/FreeCAD/pull/25239 Pull request #25239]
 * The [[Image:Std_Measure.svg|24px]] [[Std_Measure|Measurement]] units can now be converted and viewed on the fly. [https://github.com/FreeCAD/FreeCAD/pull/27462 Pull request #27462]
 * The [[Image:Std_Measure.svg|24px]] [[Std_Measure|Measure]] tool can now report the radius and diameter for circular faces in addition to the existing measurement types. [https://github.com/FreeCAD/FreeCAD/pull/27415 Pull request #27415]
+* The [[Image:Std_Measure.svg|24px]] [[Std_Measure|Measure]] tool now displays area units using unicode superscripts. [https://github.com/FreeCAD/FreeCAD/pull/28044 Pull request #28044]
 
 === API ===
 
@@ -89,7 +94,41 @@ ToDo (last check: 20260318):
 
 == CAM Workbench ==
 
+{| cellpadding=5
+| [[File:CAM_machine_editor_relnotes_1.2.png|384px]]
+| Machine Library and Editor were added to the [[CAM_Preferences|CAM Preferences]]. Machine-based postprocessing was also added. Machine definitions can also be implemented as add-ons.
+[https://github.com/FreeCAD/FreeCAD/pull/26533 Pull request #26533], [https://github.com/FreeCAD/FreeCAD/pull/27507 Pull request #27507] and [https://github.com/FreeCAD/FreeCAD/pull/28405 Pull request #28405]
+|}
+
 === Further CAM improvements ===
+
+* The G-code export dialog now shows line numbers. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull request #23862]
+* The MillFace operation was reimplemented with significant improvements as MillFacing. [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull request #24367]
+* [[CAM_SimpleCopy|SimpleCopy]] now allows multiple selection of operations. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull request #24297]
+* OCL Adaptive Algorithm was added to the [[CAM_Waterline|Waterline]] operation. [https://github.com/FreeCAD/FreeCAD/pull/23149 Pull request #23149]
+* The ''Sorting Mode'' property was added to [[CAM_Profile|Profile]] and [[CAM_Pocket_Shape|Pocket]] operations, allowing optional shape processing following the order of shape selection. [https://github.com/FreeCAD/FreeCAD/pull/27410 Pull request #27410]
+* Support for rest machining was added to the [[CAM_Adaptive|Adaptive]] operation. [https://github.com/FreeCAD/FreeCAD/pull/27908 Pull request #27908]
+* Hidden ''Approximation'' property was added to the [[CAM_DressupTag|DressupTag]] operation. It may significantly reduce the number of commands if the path contains non-horizontal arc moves (e.g., helix path). [https://github.com/FreeCAD/FreeCAD/pull/28502 Pull request #28502]
+* Tapping was removed as an experimental feature and consolidated into [[CAM_Drilling|Drilling]] as a new strategy. [https://github.com/FreeCAD/FreeCAD/pull/27506 Pull request #27506]
+* Circular Hole operation was significantly improved, including a new C++ 2-Opt TSP solver with Python bindings for improved hole sorting performance as well as new sorting modes and manual reordering in the GUI. [https://github.com/FreeCAD/FreeCAD/pull/23093 Pull request #23093]
+* New style ''LineZFollow'' was added to the [[CAM_DressupLeadInOut|LeadInOut]] operation. It can be used as a replacement for ''ArcZFollow'', as simpler and requiring less computation. [https://github.com/FreeCAD/FreeCAD/pull/27986 Pull request #27986]
+* It is now possible to manually set ''RetractThreshold'' in [[CAM_Profile|Profile]] and [[CAM_Pocket_Shape|Pocket]] operations. [https://github.com/FreeCAD/FreeCAD/pull/21738 Pull request #21738]
+* Manual selection of faces or edges for [[CAM_Drilling|Drilling]] or Helix Drilling operations is now possible. [https://github.com/FreeCAD/FreeCAD/pull/27494 Pull request #27494]
+* Helix operation, helix and spiral generators were improved to provide better results and allow more control. [https://github.com/FreeCAD/FreeCAD/pull/21971 Pull request #21971]
+* Auto-select for drillable faces was optimized and can now find cylinder faces that have more than 3 edges. [https://github.com/FreeCAD/FreeCAD/pull/27585 Pull request #27585]
+* The ''Optimize Linear Paths'' option was added to the Waterline OCL Adaptive Algorithm to remove unnecessary co-linear points from G-code output. [https://github.com/FreeCAD/FreeCAD/pull/27040 Pull request #27040]
+* The [[CAM_SimulatorGL|new CAM simulator]] was integrated as an MDI widget into the main window. [https://github.com/FreeCAD/FreeCAD/pull/22204 Pull request #22204]
+* The [[CAM_Copy|Copy Operation]] tool can now copy all operations and do it recursively. [https://github.com/FreeCAD/FreeCAD/pull/24819 Pull request #24819]
+* The [[CAM_OpActiveToggle|Toggle Operation]] tool now supports Job and Operations groups. [https://github.com/FreeCAD/FreeCAD/pull/24872 Pull request #24872]
+* It is now possible to cancel G-code export. [https://github.com/FreeCAD/FreeCAD/pull/25273 Pull request #25273]
+* Tolerance can now be set for [[CAM_DressupTag|Tag Dressup]], [[CAM_Engrave|Engrave]], and [[CAM_Deburr|Deburr]] operations to change the precision of segmentation of complex shapes while creating a path. [https://github.com/FreeCAD/FreeCAD/pull/26127 Pull request #26127] and [https://github.com/FreeCAD/FreeCAD/pull/26128 Pull request #26128]
+* [[CAM_Adaptive|Adaptive]] operation now automatically picks the diameter of the helix entrance. [https://github.com/FreeCAD/FreeCAD/pull/23980 Pull request #23980]
+* CAM task panels now support selecting shapes from different objects. [https://github.com/FreeCAD/FreeCAD/pull/22304 Pull request #22304]
+* [[CAM_Vcarve|Vcarve]] routing is now improved using "virtual edge backtracking". [https://github.com/FreeCAD/FreeCAD/pull/25049 Pull request #25049]
+* It is now possible to postprocess only selected Operations from the Job and select operations inside Dressup. [https://github.com/FreeCAD/FreeCAD/pull/22764 Pull request #22764]
+* The [[CAM_SelectLoop|loop selection]] tool was improved and now returns the wire if edge(s) selected and other methods failed. [https://github.com/FreeCAD/FreeCAD/pull/24185 Pull request #24185]
+* A cooling feature was added to the Kinetic postprocessor. [https://github.com/FreeCAD/FreeCAD/pull/25022 Pull request #25022]
+* The ''Units'' (Metric/Imperial) property was added to ToolBits. [https://github.com/FreeCAD/FreeCAD/pull/25783 Pull request #25783]
 
 == Draft Workbench ==
 
@@ -158,7 +197,9 @@ ToDo (last check: 20260318):
 === Further Part Design improvements ===
 
 * Interactive dragger was added to the [[Image:PartDesign_Draft.svg|24px]] [[PartDesign_Draft|Draft]] tool. [https://github.com/FreeCAD/FreeCAD/pull/27111 Pull request #27111]
-* Interactive draggers were added to the Sphere, Box and Cylinder tools. [https://github.com/FreeCAD/FreeCAD/pull/23700 Pull request #23700]
+* Interactive draggers were added to the Sphere, Box and Cylinder primitive tools. [https://github.com/FreeCAD/FreeCAD/pull/23700 Pull request #23700]
+* Multi-selection is now supported for the [[PartDesign_AdditivePipe|Additive]] and [[PartDesign_SubtractivePipe|Subtractive Pipe]] path edges list. [https://github.com/FreeCAD/FreeCAD/pull/27962 Pull request #27962]
+* Now unhiding a Body with no visible features also unhides its tip. [https://github.com/FreeCAD/FreeCAD/pull/24887 Pull request #24887]
 
 == Points Workbench ==
 
@@ -176,16 +217,34 @@ ToDo (last check: 20260318):
 
 {| cellpadding=5
 | [[File:Sketcher_text_relnotes_1.2.png|384px]]
-| Thanks to [https://www.astocad.com/ AstoCAD], a text tool was added to Sketcher, making it possible to create text geometries controlled by a special Text constraint.
+| Thanks to [https://www.astocad.com/ AstoCAD], a [[Image:Sketcher_CreateText.svg|24px]] [[Sketcher_CreateText|text tool]] was added to Sketcher, making it possible to create text geometries controlled by a special Text constraint.
 [https://github.com/FreeCAD/FreeCAD/pull/22217 Pull request #22217]
+|}
+
+{| cellpadding=5
+| [[File:Sketcher_group_constraint_relnotes_1.2.gif|384px]]</br>Click on the image if the animation does not start.
+| Thanks to [https://www.astocad.com/ AstoCAD], a new [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup|Group constraint]] was added to Sketcher, allowing the geometries to be grouped and moved or constrained together.
+[https://github.com/FreeCAD/FreeCAD/pull/22217 Pull request #22217]
+|}
+
+{| cellpadding=5
+| [[File:InternalFaces_relnotes_1.2.gif|384px]]</br>Click on the image if the animation does not start.
+| Internal face generation now correctly handles complex overlapping geometry such as three or more intersecting circles, where previously some face regions were not generated at all.
+[https://github.com/FreeCAD/FreeCAD/pull/28648 Pull request #28648]
 |}
 
 === Further Sketcher improvements ===
 
 * It is now possible to import Bézier and Offset curves as [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection|External geometry]]. [https://github.com/FreeCAD/FreeCAD/pull/25144 Pull request #25144]
-* When creating or editing circular dimensions it is now possible to switch between the radius or diameter type. [https://github.com/FreeCAD/FreeCAD/pull/26794 Pull request #26794]
-* The constraint list now displays the type of the constraints in the name. [https://github.com/FreeCAD/FreeCAD/pull/26797 Pull request #26797]
+* When creating or editing circular dimensions, it is now possible to switch between the radius and diameter type. [https://github.com/FreeCAD/FreeCAD/pull/26794 Pull request #26794]
+* The constraint list now displays the type of the constraint in the name. [https://github.com/FreeCAD/FreeCAD/pull/26797 Pull request #26797]
 * A new selection mode was added to [[Image:Sketcher_ConstrainSymmetric.svg|24px]] [[Sketcher_ConstrainSymmetric|Symmetric constraint]]. Now it is also possible to select an element (line, arc, or open B-spline) and a symmetry line. [https://github.com/FreeCAD/FreeCAD/pull/25525 Pull request #25525]
+* Internal faces are now visible from both sides of the sketch plane, and multi-selection highlighting with {{KEY|Ctrl}}+click now correctly highlights all selected faces. [https://github.com/FreeCAD/FreeCAD/pull/28655 Pull request #28655] and [https://github.com/FreeCAD/FreeCAD/pull/28651 Pull request #28651]
+* Double-clicking a geometric constraint now triggers its rename. [https://github.com/FreeCAD/FreeCAD/pull/27678 Pull request #27678]
+* Double-clicking selection now also works with external geometry. [https://github.com/FreeCAD/FreeCAD/pull/28105 Pull request #28105]
+* The Grid and Make Internals properties are now enabled by default for new sketches, and a grid transparency preference has been added. [https://github.com/FreeCAD/FreeCAD/pull/28771 Pull request #28771] and [https://github.com/FreeCAD/FreeCAD/pull/28791 Pull request #28791]
+* Selected distance constraints (point-line, circle-circle, and circle-line) now use orientation to prevent [[Sketcher_Workbench#Flipping|flipping]]. [https://github.com/FreeCAD/FreeCAD/pull/26518 Pull request #26518]
+* The ''Create symmetry constraints'' option of the [[Image:Sketcher_Symmetry.svg|24px]] [[Sketcher_Symmetry|Symmetry]] tool was improved to avoid overconstraints. It is now also enabled by default. [https://github.com/FreeCAD/FreeCAD/pull/28118 Pull request #28118] and [https://github.com/FreeCAD/FreeCAD/pull/28319 Pull request #28319]
 
 == Spreadsheet Workbench ==
 
@@ -207,6 +266,8 @@ ToDo (last check: 20260318):
 * Smooth edges in [[TechDraw_Workbench|TechDraw]] are now rendered with a thin line as required by ISO drawing standards. [https://github.com/FreeCAD/FreeCAD/pull/27747 Pull request #27747]
 * Section line font, font size, and arrow size in [[TechDraw_SectionView|TechDraw Section Views]] are now configurable per view via view properties. [https://github.com/FreeCAD/FreeCAD/pull/27521 Pull request #27521]
 * [[TechDraw_Workbench|TechDraw]] angle dimensions now support displaying the supplementary angle (180° minus the measured angle) via a view property. [https://github.com/FreeCAD/FreeCAD/pull/27055 Pull request #27055]
+* Scene drawing is now significantly faster. [https://github.com/FreeCAD/FreeCAD/pull/25898 Pull request #25898] and [https://github.com/FreeCAD/FreeCAD/pull/28702 Pull request #28702]
+* The [[TechDraw_ActiveView|Insert Active View]] task panel has been redesigned with improved spacing, a combobox for background style selection, and grouped crop settings that disable automatically when not in use. [https://github.com/FreeCAD/FreeCAD/pull/28085 Pull request #28085]
 
 == Import and export ==
 
