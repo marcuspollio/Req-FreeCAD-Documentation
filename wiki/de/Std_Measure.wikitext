@@ -94,16 +94,14 @@ Der Befehl '''Std Measure''' ermöglicht den Zugriff auf die [[Unified_Measureme
 * Wie auch an anderen Stellen in FreeCAD muss die Taste {{KEY|Strg}} gedrückt gehalten werden, um mehrere Objekte auszuwählen.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[Std_AddonMgr/de|AddonManager]]
-|[[Std_ClarifySelection/de|AuswahlVerdeutlichen]]
+|[[Std_MassProperties|MassProperties]]
 |[[Std_Tools_Menu/de|Std Menü Werkzeuge]]
 |IconL=Std_AddonMgr.svg
-|IconR=
+|IconR=Std_MassProperties.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
