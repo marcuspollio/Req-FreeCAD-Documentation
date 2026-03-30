@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[Sketcher_ConstrainSymmetric/de|SymmetrieFestlegen]]
 |[[Sketcher_ConstrainSnellsLaw/de|BrechungNachSnelliusFestlegen]]
@@ -8,11 +9,12 @@
 |IconR=Sketcher_ConstrainSnellsLaw.svg‎
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{GuiCommand/de
 |Name=Sketcher ConstrainBlock
 |Name/de=Sketcher Fixieren
-|MenuLocation=Skizze → Sketcher-Randbedingungen → Fixieren
+|MenuLocation=Skizze → Randbedingungen → Unbeweglich festlegen
 |Workbenches=[[Sketcher_Workbench/de|Sketcher]]
 |Shortcut={{KEY|K}} {{KEY|B}}
 |Version=0.17
@@ -63,6 +65,7 @@ Siehe auch: [[Sketcher_Workbench/de#Zeichnungshilfen|Zeichnungshilfen]].
 Die Seite [[Sketcher_scripting/de|Sketcher Skripterstellung]] erklärt die Werte, die für {{incode|Edge}} verwendet werden können und enthält weitere Beispiele, wie man Randbedingungen mit Python-Skripten erstellt.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[Sketcher_ConstrainSymmetric/de|SymmetrieFestlegen]]
 |[[Sketcher_ConstrainSnellsLaw/de|BrechungNachSnelliusFestlegen]]
@@ -71,6 +74,7 @@ Die Seite [[Sketcher_scripting/de|Sketcher Skripterstellung]] erklärt die Werte
 |IconR=Sketcher_ConstrainSnellsLaw.svg‎
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
