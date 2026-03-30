@@ -77,11 +77,15 @@ Tato pravidla se nevztahují na konstrukční geometrii (výchozí barva modrá)
 <span id="Tools"></span>
 == Nástroje ==
 
+<div class="mw-translate-fuzzy">
 Nástroje pracovní plochy Sketcher se nacházejí v menu Sketch a/nebo v několika panelech nástrojů. {{Version|0.21}}: Téměř všechny panely nástrojů Sketcheru se zobrazují pouze v režimu úpravy skici. Jedinou výjimkou je [[#Sketcher_toolbar|panel nástrojů Sketcheru]], který se zobrazuje pouze v případě, že žádná skica není v režimu úpravy.
+</div>
 
 Některé nástroje jsou také k dispozici v kontextovém menu [[3D_View/cs|3D pohledu]], když je skica v režimu úprav, nebo v kontextových menu [[Sketcher_Dialog/cs|dialogového okna Sketcher]].
 
-{{Version|0.21}}: Pokud je skica v režimu úprav, panel nástrojů Struktura je skrytý, protože žádný z jeho nástrojů nelze použít. 
+<div class="mw-translate-fuzzy">
+{{Version|0.21}}: Pokud je skica v režimu úprav, panel nástrojů Struktura je skrytý, protože žádný z jeho nástrojů nelze použít.
+</div> 
 
 <span id="General"></span>
 === Obecné ===
@@ -215,7 +219,9 @@ Jedná se o nástroje pro vytváření [[#Constraints|vazeb]]. Některé vazby v
 
 :* [[File:Sketcher_ConstrainDistanceY.svg|32px]] [[Sketcher_ConstrainDistanceY|Vertikální rozměr]]: Určuje vertikální vzdálenost mezi dvěma body nebo koncovými body přímky. Pokud je předem vybrán jeden bod, vzdálenost se vztahuje k počátku náčrtu.
 
+<div class="mw-translate-fuzzy">
 :* [[File:Sketcher_ConstrainDistance.svg|32px]] [[Sketcher_ConstrainDistance/cs|Vzdálenost]]: Určuje délku přímky, vzdálenost mezi dvěma body, kolmou vzdálenost mezi bodem a přímkou; nebo {{Version|0.21}} vzdálenost mezi okraji dvou kruhů nebo oblouků, nebo mezi okrajem kruhu nebo oblouku a přímkou; nebo {{Version|1.0}}, délku oblouku.
+</div>
 
 :* <span id="Sketcher_CompConstrainRadDia">[[File:Sketcher_ConstrainRadiam.svg|32px]] [[Sketcher_ConstrainRadiam/cs|Rozměr poloměru/průměru]]: Upravuje poloměr oblouků a kruhů váhy B-spline a průměr kruhů.</span><!--Do not edit span id: the Sketcher_CompConstrainRadDia pages redirect here-->
 
@@ -252,6 +258,10 @@ Jedná se o nástroje pro vytváření [[#Constraints|vazeb]]. Některé vazby v
 * [[File:Sketcher_ConstrainSymmetric.svg|32px]] [[Sketcher_ConstrainSymmetric/cs|Vazba symetrie]]: Zajišťuje symetrii dvou bodů vzhledem k přímce nebo ose, případně vzhledem k třetímu bodu.
 
 * [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock/cs|Vazba blokace]]: Blokuje hrany na místě pomocí jediného omezení. Je určeno především pro B-splajny.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometries. {{Version|1.2}}
+</div>
 
 * [[File:Sketcher_ConstrainSnellsLaw.svg|32px]] [[Sketcher_ConstrainSnellsLaw/cs|Vazba refrakce]]: Zajišťuje, aby dvě přímky dodržovaly zákon lomu světla při průchodu rozhraním.
 
@@ -329,7 +339,9 @@ Jedná se o nástroje pro vytváření [[#Constraints|vazeb]]. Některé vazby v
 
 * [[File:Sketcher_BSplineInsertKnot.svg|32px]] [[Sketcher_BSplineInsertKnot/cs|Vložit uzel]]: Vloží uzel do B-spline nebo zvýší multiplicitu existujícího uzlu.
 
+<div class="mw-translate-fuzzy">
 * [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves/cs|Připojit křivky]]: Vytvoří B-spline spojením dvou existujících B-spline nebo jiných hran. {{Version|0.21}}
+</div>
 
 <span id="Visual_Helpers"></span>
 ===Vizuální pomůcky===
