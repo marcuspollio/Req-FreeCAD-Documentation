@@ -27,6 +27,7 @@
 La herramienta de biblioteca le permite colocar, en el modelo actual, un objeto de la [[Parts Library|FreeCAD Parts Library]], que debe instalarse a través del [[Std_AddonMgr|Addon Manager]] para que esta herramienta esté disponible.
 </div>
 
+The library can be accessed offline by downloading the whole workbench via the [[Image:Std_AddonMgr.svg|16px|link=Std_AddonMgr]] [[Std_AddonMgr|Addon Manager]], or browsed directly from within FreeCAD: in that case, on-demand downloads will be pulled from the [https://github.com/FreeCAD/FreeCAD-library Parts Library Git repository].
 
 [[Image:BIM Library screenshot.png|600px]]
 <div class="mw-translate-fuzzy">
