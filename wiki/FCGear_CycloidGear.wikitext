@@ -134,17 +134,17 @@ To obtain a straight line, directly towards the center, as hypocycloid, use the 
 
 <!--T:31-->
 To obtain a gear made of complete hypocycloid and epicycloid curves use the following [[Expressions|expressions]]:
-* {{PropertyData|inner_diameter}}: {{incode|0.5 + 1e-6}}
+* {{PropertyData|inner_diameter}}: {{incode|0.5}}
 * {{PropertyData|outer_diameter}}: {{incode|inner_diameter}}
 * {{PropertyData|clearance}}: {{incode|-1 + inner_diameter - 1e-06}}
 * {{PropertyData|head}}: {{incode|-1 + outer_diameter - 1e-06}}
 
 <!--T:32-->
 The reference diameter is ''d = m * z'', with ''m'' being the {{PropertyData|module}} and ''z'' being the {{PropertyData|num_teeth}}.
-For a complete hypocycloid, the rolling diameter has to be ''d_i = d / (z*2) = m*z / (z*2)''. And if we now normalize this by the module, we get ''d_in = m*z / (z*2) / m = 1 / 2''. The additional explicit tolerance value ({{incode|1e-6}} in the expression above) is required to overcome coincidence issues.
+For a complete hypocycloid, the rolling diameter has to be ''d_i = d / (z*2) = m*z / (z*2)''. And if we now normalize this by the module, we get ''d_in = m*z / (z*2) / m = 1 / 2''.
 
 <!--T:33-->
-Now the cycloids' rolling circle diameters have to match the gear's addedum/dedendum. The addendum, i.e. the tooth length above the reference circle, is 1 + {{PropertyData|head}}. The dedendum, i.e. the tooth length below the reference circle, is 1 + {{PropertyData|clearance}}. Both are normalized by the module, thus we need a head/clearance value of ''1 - d_in''. 
+Now the cycloids' rolling circle diameters have to match the gear's addedum/dedendum. The addendum, i.e. the tooth length above the reference circle, is 1 + {{PropertyData|head}}. The dedendum, i.e. the tooth length below the reference circle, is 1 + {{PropertyData|clearance}}. Both are normalized by the module, thus we need a head/clearance value of ''1 - d_in''. The additional explicit tolerance value ({{incode|1e-6}} in the expressions above) is required to overcome coincidence issues.
 
 <!--T:59-->
 Such "gears" allow the the number of teeth to be as low as ''two'' and are used as rotary vanes in pumps or compressors (cf. [https://en.wikipedia.org/wiki/Roots-type_supercharger Roots-type Supercharger]).
