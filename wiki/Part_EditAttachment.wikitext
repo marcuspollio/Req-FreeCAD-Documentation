@@ -441,25 +441,27 @@ Note that you have to select a whole object and not a subelement such as a face 
 == Attachment offset == <!--T:78-->
 
 <!--T:79-->
-Attachment Offset becomes active when an attachment mode other than ''Deactivated'' has been selected. It is used to apply a linear or rotary offset within the attachment coordinate system (ACS), as defined by the attachment mode and the referenced object(s). 
+Attachment Offset becomes active when an attachment mode other than ''Deactivated'' has been selected. It is used to apply a linear or rotary offset within the attachment coordinate system (ACS), as defined by the attachment mode and the referenced object(s).
+
+For the [[#Translate_origin|Translate origin]] mode only the X-, Y- and Z-direction offsets have an effect.
 
 <!--T:80-->
-* '''In x-direction''': sets an offset distance along the X-axis of the ACS.
+* '''In X-direction''': sets an offset distance along the X-axis of the ACS.
 
 <!--T:81-->
-* '''In y-direction''': sets an offset distance along the Y-axis of the ACS.
+* '''In Y-direction''': sets an offset distance along the Y-axis of the ACS.
 
 <!--T:82-->
-* '''In z-direction''': sets an offset distance along the Z-axis of the ACS.
+* '''In Z-direction''': sets an offset distance along the Z-axis of the ACS.
 
 <!--T:85-->
-* '''Around x-axis''': rotates the attached object around the X-axis of the ACS.
+* '''Around X-axis''': rotates the attached object around the X-axis of the ACS.
 
 <!--T:84-->
-* '''Around y-axis''': rotates the attached object around the Y-axis of the ACS.
+* '''Around Y-axis''': rotates the attached object around the Y-axis of the ACS.
 
 <!--T:83-->
-* '''Around z-axis''': rotates the attached object around the Z-axis of the ACS.
+* '''Around Z-axis''': rotates the attached object around the Z-axis of the ACS.
 
 <!--T:86-->
 * '''Flip sides''': if checked, the attachment is reversed. This is equivalent to rotating the object 180° around the Y-axis of the ACS.
