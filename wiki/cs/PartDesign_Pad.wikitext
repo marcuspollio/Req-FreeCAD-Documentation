@@ -86,7 +86,8 @@ Toto umožňuje zadat druhou délku, o kterou by se deska měla prodloužit v op
 
 Odstup od povrchu, na kterém deska končí. Tato možnost je k dispozici pouze v případě, že je v poli '''Typ''' vybrána možnost '''K poslední''', '''K první''' nebo '''K ploše'''.
 
-===Length===
+<span id="Length"></span>
+===Délka===
 
 Defines the length of the pad. This option is only available if '''Type''' is '''Dimension''' or '''Two dimensions'''. The length is measured along the direction vector, or along the normal of the sketch or face. Negative values are not possible. Use the '''Reversed''' option instead.
 
