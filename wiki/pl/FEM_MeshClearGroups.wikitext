@@ -1,15 +1,13 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[FEM_MeshClear|Clear FEM Mesh]]
-|[[FEM_MeshDisplayInfo|Display Mesh Info]]
-|[[FEM_Workbench|FEM]]
+{{Docnav/pl
+|[[FEM_MeshClear/pl|Wyczyść siatkę MES]]
+|[[FEM_MeshDisplayInfo/pl|Wyświetl informacje o siatce MES]]
+|[[FEM_Workbench/pl|środowisko pracy MES]]
 |IconL=FEM_MeshClear.svg
 |IconR=FEM_MeshDisplayInfo.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommand
@@ -47,16 +45,14 @@ The mesh can still be used by solvers other than [[FEM_SolverElmer|Elmer]], but 
 </div>
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[FEM_MeshClear|Clear FEM Mesh]]
-|[[FEM_MeshDisplayInfo|Display Mesh Info]]
-|[[FEM_Workbench|FEM]]
+{{Docnav/pl
+|[[FEM_MeshClear/pl|Wyczyść siatkę MES]]
+|[[FEM_MeshDisplayInfo/pl|Wyświetl informacje o siatce MES]]
+|[[FEM_Workbench/pl|środowisko pracy MES]]
 |IconL=FEM_MeshClear.svg
 |IconR=FEM_MeshDisplayInfo.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
