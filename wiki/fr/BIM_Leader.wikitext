@@ -1,5 +1,4 @@
 <languages/>
-{{UnfinishedDocu{{#translation:}}}}
 
 {{Docnav/fr
 |[[BIM_DimensionVertical/fr|Dimension verticale]]
@@ -23,16 +22,28 @@
 <span id="Description"></span>
 ==Description==
 
+<div class="mw-translate-fuzzy">
 L'outil [[Image:BIM_Leader.svg|24px]] [[BIM_Leader/fr|BIM Ligne de référence]] crée une ligne de référence, un objet '''Wire''' avec un symbole de flèche au dernier point sélectionné.
+</div>
 
 <span id="Usage"></span>
 ==Utilisation==
 
+<div class="mw-translate-fuzzy">
 # Il y a plusieurs façons de lancer l'outil :
 #* Appuyez sur le bouton {{Button|[[Image:BIM_Leader.svg|16px]] [[BIM_Leader/fr|Ligne de référence]]}}.
 #* Sélectionnez l'option {{MenuCommand|Annotation → [[Image:BIM_Leader.svg|16px]] Ligne de référence}} du menu.
 #* Utilisez le raccourci clavier : {{KEY|L}} puis {{KEY|E}}.
 # …
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Notes==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+This tool is based on [[Draft_Wire|Draft Wire]].
+</div>
 
 
 {{Docnav/fr
