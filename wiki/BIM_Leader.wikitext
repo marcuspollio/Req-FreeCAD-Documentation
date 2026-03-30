@@ -24,7 +24,7 @@
 == Description == <!--T:3-->
 
 <!--T:4-->
-The [[Image:BIM_Leader.svg|24px]] [[BIM_Leader|BIM Leader]] tool creates a leader line, a '''Wire''' object with an arrow symbol at the last selected point. The tool is supposed to be used in conjunction with the '''Text''' tool to create annotations in BIM projects.
+The [[Image:BIM_Leader.svg|24px]] [[BIM_Leader|BIM Leader]] tool creates a leader line, a '''Wire''' object with an arrow symbol at the last selected point. The tool is supposed to be used in conjunction with the [[BIM_Text|BIM Text]] tool to create annotations in BIM projects.
 
 ==Usage== <!--T:5-->
 
@@ -40,7 +40,7 @@ The [[Image:BIM_Leader.svg|24px]] [[BIM_Leader|BIM Leader]] tool creates a leade
 
 ==Notes==
 
-For more information see [[Draft_Wire|Draft Wire]] command on which this command is based.
+This command is based on [[Draft_Wire|Draft Wire]].
 
 
 <!--T:7-->
