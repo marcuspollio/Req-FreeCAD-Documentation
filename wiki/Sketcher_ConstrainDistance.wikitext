@@ -73,6 +73,8 @@ See also: [[Sketcher_Workbench#Drawing_aids|Drawing aids]].
 
 <!--T:30-->
 See [[Sketcher_Dimension#Notes|Sketcher Dimension]].
+* {{Version|1.2}} For point-line and circle/arc distance constraints, the solver preserves the intended orientation of the constraint more reliably. This reduces unexpected flips when geometry changes.
+* If needed, toggling a constraint between driving and reference, or deactivating and reactivating it, can recompute its orientation.
 
 == Scripting == <!--T:17-->
 
