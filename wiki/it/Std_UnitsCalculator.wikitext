@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/it
 |[[Std_DemoMode/it|Visualizza rotazione oggetti]]
 |[[Std_DlgCustomize/it|Personalizza]]
@@ -8,6 +9,7 @@
 |IconR=Std_DlgCustomize.svg
 |IconC=Freecad.svg
 }}
+</div>
 
 {{GuiCommand/it
 |Name=Std_UnitsCalculator
@@ -67,6 +69,7 @@ Il comando '''Convertitore di unità''' apre il Convertitore di unità. Il Conve
 * Vedere [[Expressions/it#Unità|Espressioni]] per un elenco di tutte le unità conosciute.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/it
 |[[Std_DemoMode/it|Visualizza rotazione oggetti]]
 |[[Std_DlgCustomize/it|Personalizza]]
@@ -75,6 +78,7 @@ Il comando '''Convertitore di unità''' apre il Convertitore di unità. Il Conve
 |IconR=Std_DlgCustomize.svg
 |IconC=Freecad.svg
 }}
+</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
