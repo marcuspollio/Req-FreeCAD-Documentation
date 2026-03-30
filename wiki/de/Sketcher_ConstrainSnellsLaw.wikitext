@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[Sketcher_ConstrainBlock/de|Fixieren]]
 |[[Sketcher_ToggleDrivingConstraint/de|FestlegendeRandbedingungUmschalten]]
@@ -8,6 +9,7 @@
 |IconR=Sketcher_ToggleDrivingConstraint.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{GuiCommand/de
 |Name=Sketcher ConstrainSnellsLaw
@@ -96,6 +98,7 @@ App.ActiveDocument.recompute()
 }}
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[Sketcher_ConstrainBlock/de|Fixieren]]
 |[[Sketcher_ToggleDrivingConstraint/de|FestlegendeRandbedingungUmschalten]]
@@ -104,6 +107,7 @@ App.ActiveDocument.recompute()
 |IconR=Sketcher_ToggleDrivingConstraint.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
