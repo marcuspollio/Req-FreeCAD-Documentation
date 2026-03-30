@@ -335,9 +335,7 @@ Dies sind Werkzeuge zum Erstellen von [[#Randbedingungen|Randbedingungen]]. Eini
 
 * [[File:Sketcher_BSplineInsertKnot.svg|32px]] [[Sketcher_BSplineInsertKnot/de|Knoten einfügen]]: Fügt einen Knoten in einen B-Spline ein oder erhöht die Vielfachheit eines vorhandenen Knotens.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves|Kurven verbinden]]: Erstellt einen B-Spline, indem zwei vorhandene B-Splines oder andere Kanten verbunden werden. {{Version/de|0.21}}
-</div>
+* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves/de|Kurven verbinden]]: Erstellt einen B-Spline, indem zwei vorhandene B-Splines oder andere Kanten verbunden werden.
 
 <span id="Visual_Helpers"></span>
 ===Visuelle Helfer===
