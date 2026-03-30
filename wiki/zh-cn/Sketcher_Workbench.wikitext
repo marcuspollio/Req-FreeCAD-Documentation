@@ -128,7 +128,7 @@ Some tools are also available from the [[3D_View|3D View]] context menu while a 
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|0.21}}: If a sketch is in edit mode the Structure toolbar is hidden as none of its tools can then be used.
+If a sketch is in edit mode the Structure toolbar is hidden as none of its tools can then be used.
 </div> 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -453,6 +453,10 @@ Some tools are also available from the [[3D_View|3D View]] context menu while a 
 * [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock|Block Constraint]]: Blocks edges in place with a single constraint. It is mainly intended for B-splines.
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometries. {{Version|1.2}}
+</div>
+
 <div class="mw-translate-fuzzy">
 * [[Image:Constraint_SnellsLaw.png|32px]] [[Sketcher ConstrainSnellsLaw|Snell's Law]]: 约束两条线服从折射定律来模拟通过界面的光。{{Version|0.15}}
 </div>
@@ -601,7 +605,7 @@ Some tools are also available from the [[3D_View|3D View]] context menu while a 
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves|Join Curves]]: Creates a B-spline by joining two existing B-splines or other edges. {{Version|0.21}}
+* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves|Join Curves]]: Creates a B-spline by joining two existing B-splines or other edges.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
