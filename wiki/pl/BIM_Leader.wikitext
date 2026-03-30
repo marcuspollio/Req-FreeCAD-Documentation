@@ -27,17 +27,17 @@ Narzędzie [[Image:BIM_Leader.svg|24px]] [[BIM_Leader/pl|BIM: Linia odniesienia]
 <span id="Usage"></span>
 ==Użycie==
 
-<div class="mw-translate-fuzzy">
 # Istnieje kilka sposobów wywołania tego narzędzia:
 #* Wciśnij przycisk {{Button|[[Image:BIM_Leader.svg|16px]] [[BIM_Leader/pl|Linia odniesienia]]}}.
 #* Wybierz opcję {{MenuCommand|Opisy → [[Image:BIM_Leader.svg|16px]] Linia odniesienia}} z menu.
 #* Użyj skrótu klawiszowego: {{KEY|L}} a następnie {{KEY|E}}.
-# ...
-</div>
+# Otwarty zostanie panel zadań {{MenuCommand|Linia odniesienia}}.
+# Wskaż pierwszy punkt w [[3D_View/pl|Widoku 3D]] lub wpisz współrzędne i naciśnij przycisk {{Button|[[Image:Draft_AddPoint.svg|16px]] Wstaw punkt}}.
+# Wskaż dodatkowe punkty w [[3D_View/pl|Widoku 3D]] lub wpisz współrzędne i naciśnij przycisk {{Button|[[Image:Draft_AddPoint.svg|16px]] Wstaw punkt}}.
+# Wciśnij klawisz {{KEY|Esc}} lub przycisk {{Button|Zamknij}}, aby zakończyć działanie narzędzia.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Notes==
-</div>
+<span id="Notes"></span>
+==Uwagi==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This tool is based on [[Draft_Wire|Draft Wire]].
