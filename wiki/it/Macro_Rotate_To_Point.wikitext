@@ -155,7 +155,7 @@ Le mie macro su Gist [https://gist.github.com/mario52a mario52a ]
 
 08/03/2021/03/08 Versione=00.10 : aggiunta dello zoom sull'oggetto cliccato, valore di memoria, valori imposti
 
-2021/02/25 Version=00.09 : correct the macro : cause multi object possible
+2021/02/25 Version=00.09 : corretta la macro: causa possibile multi-oggetto
 
 {{Code|
 App.ActiveDocument.getObject(p[0]).Placement
