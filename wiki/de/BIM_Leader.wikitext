@@ -1,5 +1,4 @@
 <languages/>
-{{UnfinishedDocu{{#translation:}}}}
 
 {{Docnav/de
 |[[BIM_DimensionVertical/de|VertikalesMaß]]
@@ -23,15 +22,27 @@
 <span id="Description"></span>
 ==Beschreibung==
 
+<div class="mw-translate-fuzzy">
 Das Werkzeug [[Image:BIM_Leader.svg|24px]] [[BIM_Leader/de|BIM Hinweislinie]] erstellt eine Hinweislinie, ein '''Wire'''-Objekt mit einem Pfeil-Symbol an dem zuletzt ausgewählten Punkt.
+</div>
 
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 # Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
 #* Die Schaltfläche {{Button|[[Image:BIM_Leader.svg|16px]] [[BIM_Leader/de|Hinweislinie]]}} drücken.
 #* Den Menüeintrag {{MenuCommand|Beschriftung → [[Image:BIM_Leader.svg|16px]] Hinweislinie}} auswählen.
 #* Das Tastaturkürzel {{KEY|L}} dann {{KEY|E}}.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Notes==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+This tool is based on [[Draft_Wire|Draft Wire]].
+</div>
 
 
 {{Docnav/de
