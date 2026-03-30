@@ -9,15 +9,14 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/pl
 |Name=FEM MeshClearGroups
-|MenuLocation=Context menu on mesh object → Clear Mesh Groups
-|Workbenches=[[FEM_Workbench|FEM]]
+|Name/pl=MES: Wyczyść grupy siatki
+|MenuLocation=Menu kontekstowe na obiekcie siatki → Wyczyść grupy siatki
+|Workbenches=[[FEM_Workbench/pl|MES]]
 |Version=1.2
-|SeeAlso=[[FEM_tutorial|FEM tutorial]], [[FEM_MeshClear|FEM MeshClear]]
+|SeeAlso=[[FEM_tutorial/pl|Poradnik MES]], [[FEM_MeshClear/pl|Wyczyść siatkę]]
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Description==
