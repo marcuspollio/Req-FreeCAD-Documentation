@@ -54,11 +54,7 @@ Typ nabízí pět různých způsobů, jak určit délku desky:
 <span id="Dimension"></span>
 ====Rozměr====
 
-<div class="mw-translate-fuzzy">
-Zadání číselné hodnoty pro výšku desky. Defaultní směr vysunutí je ven z podkladu, ale může to být změněno zakliknutím volby '''Opačně'''. Vysunutí je ve směru [http://en.wikipedia.org/wiki/Surface_normal kolmém] k definující rovině náčrtu.
-S volbou '''Symetricky s rovinou''' bude deska vysunuta z poloviny na jedné straně roviny a z poloviny na druhé straně roviny.
-Záporný rozměr není povolen. Místo toho použijte volbu '''Opačně'''.
-</div>
+Zadejte číselnou hodnotu pro '''Délku''' desky. Při použití možnosti '''Symetricky k rovině''' se deska bude rozprostírat na polovinu zadané délky na obě strany náčrtu nebo plochy.
 
 <span id="To_last"></span>
 ===K poslední===
