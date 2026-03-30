@@ -1,6 +1,7 @@
 <languages/>
 <translate>
 
+<!--T:1-->
 {{Docnav
 |[[Sketcher_ConstrainBlock|Block Constraint]]
 |[[Sketcher_ConstrainSnellsLaw|ConstrainSnellsLaw]]
@@ -10,6 +11,7 @@
 |IconC=Workbench_Sketcher.svg
 }}
 
+<!--T:2-->
 {{GuiCommand
 |Name=Sketcher ConstrainGroup
 |MenuLocation=Sketch → Constraints → Group Constraint
@@ -19,12 +21,14 @@
 |SeeAlso=[[Sketcher_CreateText|Sketcher CreateText]]
 }}
 
-==Description==
+==Description== <!--T:3-->
 
+<!--T:4-->
 The [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup|Sketcher ConstrainGroup]] tool constrains selected geometry together as a single entity. The position and size of the grouped geometry can be defined by constraining the automatically generated construction line. 
 
-==Usage==
+==Usage== <!--T:5-->
 
+<!--T:6-->
 # Select geometry in the sketch.
 # There are several ways to invoke the tool:
 #* Press the {{Button|[[Image:Sketcher_ConstrainGroup.svg|16px]] [[Sketcher_ConstrainGroup|Group Constraint]]}} button.
@@ -32,10 +36,12 @@ The [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup|Sketche
 #* Use the keyboard shortcut: {{KEY|K}} then {{KEY|G}}.
 # The geometry is grouped.
 
+<!--T:7-->
 ==Notes==
 * Constraints applied to grouped edges are ignored as long as the group constraint is present.
 
 
+<!--T:8-->
 {{Docnav
 |[[Sketcher_ConstrainBlock|Block Constraint]]
 |[[Sketcher_ConstrainSnellsLaw|ConstrainSnellsLaw]]
