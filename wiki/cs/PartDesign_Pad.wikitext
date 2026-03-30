@@ -31,12 +31,12 @@ Nástroj '''Deska''' vytlačuje náčrt nebo plochu podél přímé dráhy.
 <span id="Usage"></span>
 ==Použití==
 
-# Select a single sketch or one or more faces from the Body.
-# There are several ways to invoke the tool:
-#* Press the {{Button|[[Image:PartDesign_Pad.svg|16px]] [[PartDesign_Pad|Pad]]}} button.
-#* Select the {{MenuCommand|Part Design → Additive Features → [[Image:PartDesign_Pad.svg|16px]] Pad}} option from the menu.
-# Set the Pad parameters, see [[#Options|Options]] below.
-# Press the {{Button|OK}} button.
+# Vyberte jednu náčrtovou plochu nebo jednu či více ploch z tělesa.
+# Nástroj lze vyvolat několika způsoby:
+#* Stiskněte tlačítko {{Button|[[Image:PartDesign_Pad.svg|16px]] [[PartDesign_Pad/cs|Deska]]}}.
+#* Z menu vyberte možnost {{MenuCommand|Návrh dílu → Additive Features → [[Image:PartDesign_Pad.svg|16px]] Pad}}.
+# Nastavte parametry desky, viz [[#Options|Možnosti]] níže.
+# Stiskněte tlačítko {{Button|OK}}.
 
 <span id="Options"></span>
 ==Volby==
