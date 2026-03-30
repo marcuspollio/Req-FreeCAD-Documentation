@@ -33,17 +33,21 @@ Ta strona została zaktualizowana do wersji 1.2.
 
 Na tej stronie można określić następujące parametry:
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nazwa
 !style="width: 66%;"|Opis
 |-
-| {{MenuCommand|Katalog roboczy do rozwiązywania analizy i tworzenia siatki Gmsh}}
-| Miejsce w systemie plików gdzie powinny być przechowywane pliki siatki i solvera.
+| {{MenuCommand|Katalog roboczy do rozwiązywania analizy i tworzenia siatki}}
+| Miejsce w systemie plików gdzie powinny być przechowywane pliki siatki i solvera:
+* Katalogi tymczasowe - nowa tymczasowa lokalizacja jest tworzona w każdej sesji pliku, gdy solver/mesher jest uruchamiany
+* Przy pliku .FCStd - tworzy lokalizację w tym samym folderze, w którym znajduje się plik .FCStd lub, jeśli plik nie jest zapisany, tworzy tymczasową lokalizację (jeśli nie istnieje) przy uruchomieniu solvera/meshera
+* Lokalizacja użytkownika - katalog roboczy jest tworzony jeśli nie istnieje przy uruchomieniu solvera/meshera, w oparciu o bieżącą ścieżkę wprowadzoną w polu obok tej opcji (jeśli jest ono puste, używany jest katalog domowy)
+|-
+| {{MenuCommand|Ścieżka edytora}}
+| Ścieżka do zewnętrznego edytora plików wejściowych (jeśli pusta, używany jest wewnętrzny edytor programu FreeCAD)
 |-
 | {{MenuCommand|Utwórz grupy siatki dla kształtów referencyjnych analizy (eksperymentalne)}}
-| Jeśli istnieje kilka siatek, zostaną one pogrupowane. Ta opcja pozwala na znacznie przyspieszenie jeśli cechy analizy są definiowane przed tworzeniem siatki, ale obecnie ma pewne ograniczenia i może powodować niespodziewane wyniki.
-</div>
+| Jeśli istnieje kilka siatek, zostaną one pogrupowane. Ta opcja pozwala na znacznie przyspieszenie, jeśli cechy analizy są definiowane przed tworzeniem siatki, ale obecnie ma pewne ograniczenia i może powodować niespodziewane wyniki.
 
 |-
 | {{MenuCommand|Zachowanie wyników przy ponownym uruchomieniu obliczeń}}
