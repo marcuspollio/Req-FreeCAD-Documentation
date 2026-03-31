@@ -21,7 +21,7 @@
 
 The '''Std Import''' command imports geometry from a different file format into the active document. Many file formats are supported and for some formats multiple import options exist. See [[Import_Export|Import Export]] for more information.
 
-{{Version|0.21}}: If an image format is selected the command will create an [[#Image_Plane|Image Plane]].
+If an image format is selected the command will create an [[#Image_Plane|Image Plane]].
 
 ==Usage==
 
