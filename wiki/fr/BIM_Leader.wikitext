@@ -27,13 +27,14 @@ L'outil [[Image:BIM_Leader.svg|24px]] [[BIM_Leader/fr|BIM Ligne de référence]]
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
-# Il y a plusieurs façons de lancer l'outil :
-#* Appuyez sur le bouton {{Button|[[Image:BIM_Leader.svg|16px]] [[BIM_Leader/fr|Ligne de référence]]}}.
+# Il existe plusieurs façons de lancer l'outil :
+#* Cliquez sur le bouton {{Button|[[Image:BIM_Leader.svg|16px]] [[BIM_Leader/fr|Ligne de référence]]}}.
 #* Sélectionnez l'option {{MenuCommand|Annotation → [[Image:BIM_Leader.svg|16px]] Ligne de référence}} du menu.
 #* Utilisez le raccourci clavier : {{KEY|L}} puis {{KEY|E}}.
-# …
-</div>
+# Le panneau de tâches {{MenuCommand|Ligne de référence}} s'ouvre.
+# Sélectionnez le premier point dans la [[3D_View/fr|vue 3D]], ou saisissez des coordonnées et cliquez sur le bouton {{Button|[[Image:Draft_AddPoint.svg|16px]] Saisir un point}}.
+# Sélectionnez des points supplémentaires dans la [[3D_View/fr|vue 3D]], ou saisissez des coordonnées et cliquez sur le bouton {{Button|[[Image:Draft_AddPoint.svg|16px]] Saisir un point}}.
+# Appuyez sur {{KEY|Échap}} ou cliquez sur le bouton {{Button|Fermer}} pour quitter l'outil.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Notes==
