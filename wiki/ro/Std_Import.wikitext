@@ -19,7 +19,7 @@
 Adaugă conținut la fișierul dintr-o altă aplicație în documentul curent.  Sunt acceptate câteva formate de fișiere: [http://en.wikipedia.org/wiki/IGES *.IGES], [http://en.wikipedia.org/wiki/Step_file *.STEP], [http://en.wikipedia.org/wiki/BREP *.BREP], [http://en.wikipedia.org/wiki/STL_%28file_format%29 *.STL], [http://en.wikipedia.org/wiki/Wavefront_.obj_file *.OBJ], [http://en.wikipedia.org/wiki/PLY_%28file_format%29 *.PLY], etc.
 </div>
 
-{{Version|0.21}}: If an image format is selected the command will create an [[#Image_Plane|Image Plane]].
+If an image format is selected the command will create an [[#Image_Plane|Image Plane]].
 
 ==Usage==
 
