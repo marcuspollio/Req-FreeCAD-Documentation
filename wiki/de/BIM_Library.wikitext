@@ -38,12 +38,9 @@ The library can be accessed offline by downloading the whole workbench via the [
 <span id="Options"></span>
 ==Optionen==
 
-<div class="mw-translate-fuzzy">
 * Es werden [[File_Format_FCStd/de|FCStd-]], STEP- und [[File_Format_FCStd/de#*.brep|BREP]]-Dateien unterstützt. Nur STEP- und BREP-Dateien sind postionierbar. Bei FCStd-Dateien kann keine Positionierung gewählt werden, da sie aus einer komplexen Reihe von Objekten mit signifikanten Positionen bestehen können. Wird eine FCStd-Datei ausgewählt, wird ihr Inhalt an der Position eingefügt, die in der Datei definiert ist.
-* STEP- und BREP-Objekte werden als [[Image:Arch_Equipment.svg|24px]] [[Arch_Equipment/de|Ausstattung]] ohne separate Basisform eingefügt. Das nachträgliche Hinzufügen einer Basisform zu diesen Objekten zerstört deren aktuelle Form.
-* Beim Positionieren eines Objekts kann dessen Einfügepunkt zwischen Original (dem in der Datei definierten Punkt ({{incode|0,0,0}})), oben, Mitte, unten und links, Mitte und rechts wählen.
-* Die Bibliothek kann offline arbeiten, in diesem Fall ist sie darauf angewiesen, dass das Addon Parts Library installiert (und vom Benutzer aktualisiert) wird, oder online, in diesem Fall browst sie direkt aus dem [https://github.com/FreeCAD/FreeCAD-library Parts-Library-Git-Repository] und ermöglicht das direkte Herunterladen von dort.
-</div>
+* STEP- und BREP-Objekte werden als [[Image:Arch_Equipment.svg|16px]] [[Arch_Equipment/de|Ausstattung]] ohne separate Basisform eingefügt. Das nachträgliche Hinzufügen einer Basisform zu diesen Objekten zerstört deren aktuelle Form.
+* Beim Positionieren eines Objekts kann dessen Einfügepunkt aus Original (dem in der Datei definierten Punkt ({{incode|0,0,0}})), oben, Mitte und unten sowie links, Mitte und rechts ausgewählt werden.
 
 
 {{Docnav/de
