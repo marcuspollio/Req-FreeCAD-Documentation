@@ -829,7 +829,7 @@ En outre, [[TechDraw_DecorateLine/fr|TechDraw Apparence des lignes]] pour modifi
 Seul le code compatible LGPL2 peut être fourni directement avec TechDraw; le code fourni sous GPL2 ou GPL3 doit être stocké dans un dépôt séparé.
 |-
 | [[File:TechDraw_Dimension_standardization.png|384px]]
-| Le dessin des dimensions a été complètement réécrit. Désormais, toutes les dimensions dessinées sont entièrement conformes à l'une des normes ISO 129-1 ou ASME Y14.5M. Vous avez le choix entre quatre styles: orienté ISO (valeur pivotée), référencé ISO (valeur horizontale), aligné ASME (valeur horizontale), référencé ASME (valeur connectée par une ligne de repère).
+| Le dessin des dimensions a été complètement réécrit. Désormais, toutes les dimensions dessinées sont entièrement conformes à l'une des normes ISO 129-1 ou ASME Y14.5M. Vous avez le choix entre quatre styles: orienté ISO (valeur pivotée), référencé ISO (valeur horizontale), aligné ASME (valeur horizontale), référencé ASME (valeur connectée par une ligne de référence).
 
 [https://forum.freecad.org/viewtopic.php?f=35&t=39571 Forum discussion], [https://github.com/FreeCAD/FreeCAD/pull/2552 pull request #2552].
 
