@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
-|[[Std_UnitsCalculator/fr|Convertisseur d'unités]]
+|[[Std_ClarifySelection/fr|Choisir une sélection]]
 |[[Std_ViewScreenShot/fr|Capture d'écran]]
 |[[Std_Tools_Menu/fr|Menu Outils]]
-|IconL=Std_UnitsCalculator.svg
+|IconL=Std_ClarifySelection.svg
 |IconR=Std_ViewScreenShot.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{GuiCommand/fr
 |Name=Std ViewLoadImage
@@ -41,16 +39,14 @@ La commande '''Std Charger une image''' ouvre une image dans un nouvel onglet de
 * Pour insérer une image dans la vue 3D, la commande [[Std_Import/fr|Std Importer]] doit être utilisée. {{Version/fr|0.21}}
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
-|[[Std_UnitsCalculator/fr|Convertisseur d'unités]]
+|[[Std_ClarifySelection/fr|Choisir une sélection]]
 |[[Std_ViewScreenShot/fr|Capture d'écran]]
 |[[Std_Tools_Menu/fr|Menu Outils]]
-|IconL=Std_UnitsCalculator.svg
+|IconL=Std_ClarifySelection.svg
 |IconR=Std_ViewScreenShot.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
