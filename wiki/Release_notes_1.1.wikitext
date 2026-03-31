@@ -9,59 +9,10 @@
 <!--T:5-->
 Older FreeCAD release notes can be found in the [[Feature_list#Release_notes|Feature list]].
 
-import FreeCAD as App
-import Part
-import math
+== General == <!--T:7-->
 
-# ==========================================
-# ПАРАМЕТРЫ МОДЕЛИ (На основе ссылки и вашего ТЗ)
-# ==========================================
-doc = App.newDocument("Steel_Track_3m")
-App.setActiveDocument(doc.Name)
-
-# ---- Габариты гусеницы ----
-length_total = 3000.0        # Длина по контакту с грунтом (мм)
-track_width = 450.0          # Ширина гусеницы (мм) - по вашему запросу
-track_pitch = 101.6          # Шаг звена (мм) - стандарт PC30
-track_thickness = 18.0       # Толщина стальной пластины трака (мм)
-grouser_height = 35.0        # Высота грунтозацепа (мм)
-
-# ---- Колеса и подвеска ----
-# Радиусы колес (мм)
-road_wheel_radius = 150.0    # Опорный каток
-sprocket_radius = 180.0      # Ведущее колесо (звездочка)
-idler_radius = 150.0         # Направляющее колесо
-
-# ---- Схема расположения колес (ломаная линия / под углом) ----
-# Координаты (X, Y) центров колес. Y = вертикальное смещение от рамы.
-# Важно: центральные катки опущены НИЖЕ (меньшее значение Y), чем крайние.
-wheels_layout = [
-    # Направляющее колесо (переднее)
-    {"x": 200,  "y": 280, "radius": idler_radius, "type": "idler"},
-    # Опорные катки - идут по дуге: вниз, затем вверх
-    {"x": 650,  "y": 250, "radius": road_wheel_radius, "type": "road"},
-    {"x": 1100, "y": 230, "radius": road_wheel_radius, "type": "road"},  # Самая нижняя точка
-    {"x": 1550, "y": 235, "radius": road_wheel_radius, "type": "road"},
-    {"x": 2000, "y": 260, "radius": road_wheel_radius, "type": "road"},
-    {"x": 2450, "y": 280, "radius": road_wheel_radius, "type": "road"},
-    # Ведущее колесо (заднее) - выше для натяжения
-    {"x": 2850, "y": 300, "radius": sprocket_radius, "type": "sprocket"}
-]
-
-# ==========================================
-# 1. СОЗДАНИЕ РАМЫ (профиль)
-# ==========================================
-frame_length = wheels_layout[-1]["x"] - wheels_layout[0]["x"] + 300
-frame = Part.makeBox(frame_length, 80, 100)
-frame.translate(App.Vector(-50, -track_width/2, 0))
-frame_obj = doc.addObject("Part::Feature", "Frame")
-frame_obj.Shape = frame
-frame_obj.ViewObject.ShapeColor = (0.4, 0.4, 0.45)
-
-# ==========================================
-# 2. КОЛЕСА (согласно ломаной схеме)
-# ==========================================
-def add_wheel(x, y, radius, thickness
+<!--T:109-->
+* Improved Wayland support. [https://github.com/FreeCAD/FreeCAD/pull/21917 Pull request #21917], [https://github.com/FreeCAD/FreeCAD/pull/23768 Pull request #23768] and [https://github.com/FreeCAD/FreeCAD/pull/23946 Pull request #23946]
 
 == User Interface == <!--T:8-->
 
