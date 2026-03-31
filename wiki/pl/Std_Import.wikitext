@@ -23,7 +23,7 @@
 
 Polecenie '''Importuj''' importuje geometrię z innego formatu pliku do aktywnego dokumentu. Obsługiwanych jest wiele formatów plików, a dla niektórych formatów istnieje wiele opcji importu. Zobacz stronę [[Import_Export/pl|Import eksport]], aby uzyskać więcej informacji.
 
-{{Version/pl|0.21}}: Po wybraniu formatu obrazu polecenie utworzy [[#Płaszczyzna_obrazu|Płaszczyznę obrazu]].
+Po wybraniu formatu obrazu polecenie utworzy [[#Płaszczyzna_obrazu|Płaszczyznę obrazu]].
 
 <span id="Usage"></span>
 ==Użycie==
