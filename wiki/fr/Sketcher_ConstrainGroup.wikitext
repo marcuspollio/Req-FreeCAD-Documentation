@@ -9,16 +9,15 @@
 |IconC=Workbench_Sketcher.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/fr
 |Name=Sketcher ConstrainGroup
-|MenuLocation=Sketch → Constraints → Group Constraint
-|Workbenches=[[Sketcher_Workbench|Sketcher]]
+|Name/fr=Sketcher Grouper
+|MenuLocation=Esquisse → Contraintes → Groupement
+|Workbenches=[[Sketcher_Workbench/fr|Sketcher]]
 |Shortcut={{KEY|K}} {{KEY|G}}
 |Version=1.2
-|SeeAlso=[[Sketcher_CreateText|Sketcher CreateText]]
+|SeeAlso=[[Sketcher_CreateText/fr|Sketcher Texte]]
 }}
-</div>
 
 ==Description==
 
@@ -27,14 +26,12 @@ L'outil [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup/fr|
 <span id="Usage"></span>
 ==Utilisation==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select geometry in the sketch.
-# There are several ways to invoke the tool:
-#* Press the {{Button|[[Image:Sketcher_ConstrainGroup.svg|16px]] [[Sketcher_ConstrainGroup|Group Constraint]]}} button.
-#* Select the {{MenuCommand|Sketch → Constraints → [[Image:Sketcher_ConstrainGroup.svg|16px]] Group Constraint}} option from the menu.
-#* Use the keyboard shortcut: {{KEY|K}} then {{KEY|G}}.
-# The geometry is grouped.
-</div>
+# Sélectionnez une géométrie dans l'esquisse.
+# Il existe plusieurs façons de lancer l'outil :
+#* Cliquez sur le bouton {{Button|[[Image:Sketcher_ConstrainGroup.svg|16px]] [[Sketcher_ConstrainGroup/fr|Groupement]]}}.
+#* Sélectionnez l'option {{MenuCommand|Esquisse → Contraintes → [[Image:Sketcher_ConstrainGroup.svg|16px]] Groupement}} du menu.
+#* Utilisez le raccourci clavier : {{KEY|K}} puis {{KEY|G}}.
+# La géométrie est regroupée.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Notes==
