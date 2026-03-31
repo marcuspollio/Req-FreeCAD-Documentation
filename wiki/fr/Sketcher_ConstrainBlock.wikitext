@@ -62,16 +62,14 @@ Voir aussi : [[Sketcher_Workbench/fr#Aides_au_dessin|Aides au dessin]].
 La page [[Sketcher_scripting/fr|Sketcher Scripts]] explique les valeurs qui peuvent être utilisées pour {{incode|Edge}} et contient d'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Sketcher_ConstrainSymmetric/fr|Symétrie]]
-|[[Sketcher_ConstrainSnellsLaw/fr|Réfraction]]
+|[[Sketcher_ConstrainGroup/fr|Grouper]]
 |[[Sketcher_Workbench/fr|Atelier Sketcher]]
 |IconL=Constraint_Symmetric.svg
-|IconR=Sketcher_ConstrainSnellsLaw.svg‎
+|IconR=Sketcher_ConstrainGroup.svg‎
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
