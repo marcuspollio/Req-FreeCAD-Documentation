@@ -38,6 +38,7 @@ The [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup|Sketche
 
 <!--T:7-->
 ==Notes==
+
 * Constraints applied to grouped edges are ignored as long as the group constraint is present.
 
 
