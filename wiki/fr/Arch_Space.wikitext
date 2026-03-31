@@ -41,13 +41,13 @@ Une fois qu'un espace a été créé, vous pouvez également ajouter ou supprime
 Par exemple, pour ajouter une limite en fonction d'un espace qui croise un mur :
 # Sélectionnez la face du mur qui coupe l'espace. Ce sera la nouvelle limite.
 # En maintenant la touche {{KEY|Ctrl}} enfoncée, sélectionnez l'espace.
-# Appuyez sur le bouton {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add/fr|Ajouter]]}} dans la barre d'outils.
+# Appuyez sur le bouton {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add/fr|Ajouter un composant]]}} de la barre d'outils.
 # La face du mur définit maintenant une nouvelle limite, et l'espace ne s'étendra que jusqu'à la face du mur dans la direction qui lui fait face.
 
 Même exemple : ajoutez une limite en fonction d'un espace qui croise un mur. Cette fois, nous utilisons le panneau des tâches :
 # Double-cliquez sur l'objet espace dans l'arborescence. Cela activera son panneau des tâches.
 # Sélectionnez la face du mur qui croise l'espace. Ce sera la nouvelle limite.
-# Appuyez sur le bouton {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add/fr|Ajouter]]}} dans le panneau des tâches. Le nom de la face du mur sera affiché dans la section « Limites de l'espace ».
+# Appuyez sur le bouton {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add/fr|Ajouter un composant]]}} du panneau des tâches. Le nom de la face du mur sera affiché dans la section « Limites de l'espace ».
 # Appuyez sur le bouton {{Button|OK}} dans le panneau des tâches.
 # La face du mur définit maintenant une nouvelle limite, et l'espace ne s'étendra que jusqu'à la face du mur dans la direction qui lui fait face.
 
