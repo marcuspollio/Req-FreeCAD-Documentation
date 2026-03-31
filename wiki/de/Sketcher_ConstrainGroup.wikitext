@@ -41,9 +41,8 @@ The [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup|Sketche
 # The geometry is grouped.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Notes==
-</div>
+<span id="Notes"></span>
+==Hinweise==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Constraints applied to grouped edges are ignored as long as the group constraint is present.
