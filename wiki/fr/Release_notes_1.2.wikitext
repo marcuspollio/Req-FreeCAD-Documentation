@@ -27,9 +27,10 @@ Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [[Featu
 <span id="Further_user_interface_improvements"></span>
 === Autres améliorations de l'interface utilisateur ===
 
-<div class="mw-translate-fuzzy">
 * L'éditeur de texte intégré prend désormais en charge la sélection de lignes en cliquant sur le numéro de ligne (et, en option, en maintenant la touche {{KEY|Maj}} enfoncée pour sélectionner une plage). [https://github.com/FreeCAD/FreeCAD/pull/27677 Pull request #27677]
-</div>
+* Dans l'éditeur de texte intégré, le champ de recherche est désormais prérempli avec le texte sélectionné. [https://github.com/FreeCAD/FreeCAD/pull/27674 Pull request #27674]
+* Un double-clic sur une face du [[Navigation_Cube/fr|cube de navigation]] permet désormais de pivoter vers celle-ci, mais aussi de centrer la vue. [https://github.com/FreeCAD/FreeCAD/pull/28608 Pull request #28608]
+* L'option du menu contextuel  ''Recalculer un objet'' de l'[[Tree_View/fr|arborescence]] (commande ''Std_Recompute'') dispose désormais d'un raccourci clavier {{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|R}}. [https://github.com/FreeCAD/FreeCAD/pull/27880 Pull request #27880]
 
 <span id="Core_system_and_API"></span>
 == Noyau et API ==
@@ -43,13 +44,11 @@ Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [[Featu
 [https://github.com/FreeCAD/FreeCAD/pull/23673 Pull request #23673]
 |}
 
-<div class="mw-translate-fuzzy">
 {| cellpadding=5
 | [[File:MassProperties_relnotes_1.2.png|384px]]
-| Une nouvelle commande Propriétés de masse a été ajoutée pour calculer le volume, la masse, la surface, le centre de gravité, le centre de volume et l'inertie des pièces et des assemblages, avec prise en charge des repères de référence personnalisés et des calculs tenant compte des matériaux.
+| Une nouvelle commande [[Image:Std_MassProperties.svg|24px]] [[Std_MassProperties/fr|Propriétés physiques]] a été ajoutée pour calculer le volume, la masse, la surface, le centre de gravité, le centre de volume et l'inertie des pièces et des assemblages, avec prise en charge des repères de référence personnalisés et des calculs tenant compte des matériaux.
 [https://github.com/FreeCAD/FreeCAD/pull/27347 Pull request #27347]
 |}
-</div>
 
 <span id="Further_Core_improvements"></span>
 === Autres améliorations du noyau ===
