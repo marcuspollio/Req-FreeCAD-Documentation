@@ -47,10 +47,10 @@ L'outil '''TechDraw Soudage''' ajoute les spécifications de soudage à une lign
 
 ===Weld Symbol===
 
-* {{PropertyData|All Around}} : affiche le symbole ''Tout autour'' (cercle) au niveau de la brisure de la ligne de repère.
-* {{PropertyData|Field Weld}} : affiche le symbole ''Soudage sur site'' (drapeau) au niveau de la brisure de la ligne de repère.
+* {{PropertyData|All Around}} : affiche le symbole ''Tout autour'' (cercle) au niveau de la brisure de la ligne de référence.
+* {{PropertyData|Field Weld}} : affiche le symbole ''Soudage sur site'' (drapeau) au niveau de la brisure de la ligne de référence.
 * {{PropertyData|Alternate Weld}} : décale le symbole inférieur pour indiquer des soudures alternées.
-* {{PropertyData|Tail Text}} : texte à afficher à la fin de la ligne de repère.
+* {{PropertyData|Tail Text}} : texte à afficher à la fin de la ligne de référence.
 
 <span id="Tile"></span>
 ===Tuile===
