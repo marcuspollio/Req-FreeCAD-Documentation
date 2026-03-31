@@ -388,9 +388,7 @@ Man beachte, dass das gesamte Objekt ausgewählt werden muss und nicht nur ein T
 
 Befestigungsversatz wird aktiviert, wenn ein anderes Befestigungsverfahren als ''Deaktiviert'' ausgewählt wurde. Er wird eingesetzt, um einen linearen oder einen Winkelversatz innerhalb des Koordinatensystems der Befestigung (attachment coordinate system, ACS) anzuwenden, der durch das Befestigungsverfahren und die referenzierten Objekte festgelegt wird.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For the [[#Translate_origin|Translate origin]] mode only the X-, Y- and Z-direction offsets have an effect.
-</div>
+Für den Modus [[#Translate_origin|Ursprung versetzen]] haben nur Versatzwerte in X-, Y- und Z-Richtung eine Wirkung.
 
 <div class="mw-translate-fuzzy">
 * '''In X-Richtung''': legt einen Versatzabstand entlang der X-Achse des ACS fest.
