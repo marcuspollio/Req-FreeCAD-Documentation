@@ -77,10 +77,10 @@ L'outil '''TechDraw Ligne de référence''' ajoute une ligne à une vue. D'autre
 
 {{Properties_Title|Leader}}
 
-* {{PropertyData|Leader Parent|Link}} : vue à laquelle la ligne de repère est attachée.
-* {{PropertyData|Way Points|VectorList}} : points de la ligne de repère.
-* {{PropertyData|Scalable|Bool}} : indique si la ligne de repère s'adapte à {{PropertyData|Leader Parent}}.
-* {{PropertyData|Auto Horizontal|Bool}} : indique si le dernier segment de la ligne de repère doit être horizontal.
+* {{PropertyData|Leader Parent|Link}} : vue à laquelle la ligne de référence est attachée.
+* {{PropertyData|Way Points|VectorList}} : points de la ligne de référence.
+* {{PropertyData|Scalable|Bool}} : indique si la ligne de référence s'adapte à {{PropertyData|Leader Parent}}.
+* {{PropertyData|Auto Horizontal|Bool}} : indique si le dernier segment de la ligne de référence doit être horizontal.
 
 <span id="View"></span>
 ===Vue===
