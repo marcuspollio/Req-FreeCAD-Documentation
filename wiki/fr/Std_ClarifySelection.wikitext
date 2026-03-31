@@ -29,7 +29,7 @@ La commande '''Std Choisir une sélection''' affiche un menu répertoriant les e
 
 # Placez le curseur sur la géométrie dans la [[3D_View/fr|vue 3D]].
 # Il existe plusieurs façons de lancer la commande :
-#* Sélectionnez l'option {{MenuCommand|Définir une sélection}} dans le menu contextuel de la vue 3D.
+#* Sélectionnez l'option {{MenuCommand|Choisir une sélection}} dans le menu contextuel de la vue 3D.
 #* Utilisez le raccourci clavier : {{KEY|G}} puis {{KEY|G}}.
 #* Lorsque vous utilisez le [[Mouse_navigation/fr|style de navigation]] de OpenInventor, Gesture ou OpenSCAD : maintenez la touche {{KEY|Ctrl}} enfoncée et appuyez sur le bouton gauche de la souris.
 #* Lorsque vous utilisez un autre style de navigation : maintenez le bouton gauche de la souris enfoncé pendant la durée définie par la [[Preferences_Editor/fr#Navigation|préférence]] « Délai d'attente pour la pression longue » (1 seconde par défaut).
