@@ -18,7 +18,7 @@
 
 ==Description==
 
-La fenêtre '''BIM Gérer les vues BIM''' est une fenêtre ancrable qui s'ouvre sous l'arborescence standard et qui affiche, dans sa partie supérieure, l'ensemble des [[Arch_BuildingPart/fr|parties du bâtiment (niveaux)]] et des [[Draft_WorkingPlaneProxy/fr|proxies de plan de travail]] de votre modèle. Les [[BIM_DrawingView/fr|vues de dessin]] et les pages TechDraw sont répertoriées dans la partie inférieure.
+La fenêtre '''BIM Gérer les vues''' est une fenêtre ancrable qui s'ouvre sous l'arborescence standard et qui affiche, dans sa partie supérieure, l'ensemble des [[Arch_BuildingPart/fr|parties du bâtiment (niveaux)]] et des [[Draft_WorkingPlaneProxy/fr|proxies de plan de travail]] de votre modèle. Les [[BIM_DrawingView/fr|vues de dessin]] et les pages TechDraw sont répertoriées dans la partie inférieure.
 
 Cette fenêtre a pour but de vous permettre d'accéder rapidement à vos niveaux et à vos configurations de plan de travail, sans avoir à parcourir l'arborescence pour les trouver. Elle permet également d'accéder aux pages et aux dessins existants.
 
