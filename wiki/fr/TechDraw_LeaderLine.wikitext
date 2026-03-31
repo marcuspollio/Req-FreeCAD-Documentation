@@ -23,15 +23,15 @@
 L'outil '''TechDraw Ligne de référence''' ajoute une ligne à une vue. D'autres objets d'annotation (tels que une [[TechDraw_RichTextAnnotation/fr|annotation par texte enrichi]]) peuvent être connectés à une ligne de référence pour former des annotations complexes. 
 
 [[Image:TechDraw_LeaderLine_sample.png]]
-{{Caption|Ligne de repère ajoutée à un vue}}
+{{Caption|Ligne de référence ajoutée à un vue}}
 
 <span id="Usage_create"></span>
 ==Utilisation==
 
 # Sélectionnez une vue.
 # Il y a plusieurs façons de lancer l'outil :
-#* Appuyez sur le bouton {{Button|[[Image:TechDraw_LeaderLine.svg|16px]] [[TechDraw_LeaderLine/fr|Ligne de repère]]}}.
-#* Sélectionnez l'option {{MenuCommand|TechDraw → Ajouter des lignes → [[Image:TechDraw_LeaderLine.svg|16px]] Ligne de repère}} du menu.
+#* Appuyez sur le bouton {{Button|[[Image:TechDraw_LeaderLine.svg|16px]] [[TechDraw_LeaderLine/fr|Ligne de référence]]}}.
+#* Sélectionnez l'option {{MenuCommand|TechDraw → Ajouter des lignes → [[Image:TechDraw_LeaderLine.svg|16px]] Ligne de référence}} du menu.
 # Un panneau de tâches s'ouvre.
 # Appuyez sur le bouton {{Button|Choisir des points}}.
 # Choisissez le premier point de la feuille pour définir le point de départ de la ligne.
