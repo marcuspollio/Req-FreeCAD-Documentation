@@ -21,7 +21,7 @@
 
 ==Description==
 
-L'outil '''Arch Espace''' vous permet de définir un volume vide, soit en le basant sur une forme solide, soit en définissant ses limites, soit en combinant les deux. S'il est basé uniquement sur des limites, le volume est calculé en partant du cadre de sélection de toutes les limites données et en soustrayant les espaces situés derrière chaque limite. L'objet Espace définit toujours un volume solide. La surface de plancher d'un objet d'espace, calculée en coupant un plan horizontal au centre de gravité du volume d'espace, peut également être affichée.
+L'outil '''Arch Espace''' vous permet de définir un volume vide, soit en le basant sur une forme solide, soit en définissant ses limites, soit en combinant les deux. S'il est basé uniquement sur des limites, le volume est calculé en partant du cadre de sélection de toutes les limites données et en soustrayant les espaces situés derrière chaque limite. L'objet Space définit toujours un volume solide. La surface de plancher d'un objet d'espace, calculée en coupant un plan horizontal au centre de gravité du volume d'espace, peut également être affichée.
 
 [[Image:Arch Space example.jpg|640px]]
 
