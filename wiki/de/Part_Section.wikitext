@@ -46,7 +46,7 @@ Dieses Werkzeug ist eine automatisierte Form der [[Image:Part_Booleans.svg|16px|
 * Zwei ausgewählte Festkörper ergeben normalerweise einen geschlossenen Linienzug ( oder mehrere, wenn sich die Objekte an mehreren Stellen schneiden). Sind komplanare Flächen im Spiel, wie in dem Beispiel oben, werden ein paar weitere Kanten hinzugefügt.
 
 [[Image:Part_Section2.png|300px]]
-{{Caption|Rot: Querschnittsobjekt, bestehend aus zwei geschlossenen Linienzügen, deren Oberflächen sich schneiden}}
+{{Caption|Rot: Das Section-Objekt, bestehend aus zwei geschlossenen Linienzügen, dort, wo sich die Oberflächen beider Objekte schneiden}}
 
 <span id="Properties"></span>
 ==Eigenschaften==
