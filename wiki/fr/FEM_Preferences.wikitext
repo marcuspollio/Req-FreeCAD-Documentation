@@ -33,17 +33,24 @@ Cette page a été mise à jour pour la version 1.2.
 
 Sur cette page, vous pouvez spécifier les éléments suivants :
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33% ;"|Nom
 !style="width: 66% ;"|Description
+|-
+| {{MenuCommand|Répertoires de travail pour la résolution d'analyses et le maillage}}
+| Répertoire dans lequel les fichiers de maillage et de calcul doivent être enregistrés :
+* Répertoires temporaires : un nouveau répertoire temporaire est créé à chaque session de fichier lorsque le solveur/maillage s'exécute
+* À côté du fichier .FCStd : crée un répertoire dans le même dossier que celui où se trouve le fichier .FCStd ou, si le fichier n'est pas enregistré, crée un répertoire temporaire (s'il n'existe pas) lorsque le solveur/maillage s'exécute
+* Répertoire personnalisé : le répertoire de travail est créé s'il n'existe pas lors de l'exécution du solveur/maillage, en fonction du chemin d'accès en cours spécifié lors la saisie du répertoire personnalisé (s'il est vide, le répertoire home est utilisé)
+|-
+| {{MenuCommand|Chemin d'accès de l'éditeur}}
+| Chemin d'accès vers l'éditeur de fichier d'entrée externe (s'il est vide, l'éditeur interne de FreeCAD est utilisé)
 |-
 | {{MenuCommand|Répertoires de travail pour la résolution d'analyses et le maillage Gmsh}}
 | Répertoire dans lequel les fichiers de maillage et de solveur doivent être stockés
 |-
 | {{MenuCommand|Créer des collectes de maillage pour les formes de référence d'analyse (expérimental)}}
 | S'il y a plusieurs maillages, ils seront regroupés. Cette option permet une accélération significative si les charges et les contraintes sont assignées avant le maillage, mais elle présente actuellement plusieurs limitations et peut entraîner des résultats inattendus.
-</div>
 
 |-
 | {{MenuCommand|Conserver les résultats après un nouveau calcul}}
