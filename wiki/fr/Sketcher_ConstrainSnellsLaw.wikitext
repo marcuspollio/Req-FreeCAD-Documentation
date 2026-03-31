@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
-|[[Sketcher_ConstrainBlock/fr|Blocage]]
+|[[Sketcher_ConstrainGroup/fr|Grouper]]
 |[[Sketcher_ToggleDrivingConstraint/fr|Contraintes pilotantes]]
 |[[Sketcher_Workbench/fr|Atelier Sketcher]]
-|IconL=Sketcher_ConstrainBlock.svg
+|IconL=Sketcher_ConstrainGroup.svg
 |IconR=Sketcher_ToggleDrivingConstraint.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 {{GuiCommand/fr
 |Name=Sketcher ConstrainSnellsLaw
@@ -97,16 +95,14 @@ App.ActiveDocument.recompute()
 }}
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
-|[[Sketcher_ConstrainBlock/fr|Blocage]]
+|[[Sketcher_ConstrainGroup/fr|Grouper]]
 |[[Sketcher_ToggleDrivingConstraint/fr|Contraintes pilotantes]]
 |[[Sketcher_Workbench/fr|Atelier Sketcher]]
-|IconL=Sketcher_ConstrainBlock.svg
+|IconL=Sketcher_ConstrainGroup.svg
 |IconR=Sketcher_ToggleDrivingConstraint.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
