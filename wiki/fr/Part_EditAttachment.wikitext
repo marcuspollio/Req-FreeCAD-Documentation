@@ -391,17 +391,11 @@ Pour le mode [[#Translation_de_l'origine|Translation de l'origine]], seuls les d
 
 * '''Dans la direction Z''' : définit une distance de décalage le long de l'axe Z de l'ACS.
 
-<div class="mw-translate-fuzzy">
 * '''Autour de l'axe X''' : fait tourner l'objet ancré autour de l'axe X de l'ACS.
-</div>
 
-<div class="mw-translate-fuzzy">
 * '''Autour de l'axe Y''' : fait tourner l'objet ancré autour de l'axe Y de l'ACS.
-</div>
 
-<div class="mw-translate-fuzzy">
 * '''Autour de l'axe Z''' : fait tourner l'objet ancré autour de l'axe Z de l'ACS.
-</div>
 
 * '''Inverser les côtés''' : si la case est cochée, l'ancrage est inversé. Cela équivaut à faire pivoter l'objet de 180° autour de l'axe Y de l'ACS.
 
