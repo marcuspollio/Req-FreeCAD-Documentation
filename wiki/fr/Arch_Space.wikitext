@@ -36,7 +36,7 @@ L'outil '''Arch Espace''' vous permet de définir un volume vide, soit en le bas
 #* En utilisant les touches {{KEY|S}} puis {{KEY|P}}
 #* En utilisant l'entrée {{MenuCommand|3D/BIM → Espace}} du menu supérieur
 
-Une fois qu'un espace a été créé, vous pouvez également ajouter ou supprimer des limites en utilisant les boutons {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add/fr|Ajouter]]}} ou {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch_Remove/fr|Supprimer]]}} dans la barre d'outils. Vous pouvez également le faire dans le panneau des tâches ou dans l'[[Property_editor/fr|éditeur de propriétés]].
+Une fois qu'un espace a été créé, vous pouvez également ajouter ou supprimer des limites en utilisant les boutons {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add/fr|Ajouter un composant]]}} ou {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch_Remove/fr|Supprimer un composant]]}} de la barre d'outils. Vous pouvez également le faire dans le panneau des tâches ou dans l'[[Property_View/fr|éditeur de propriétés]].
 
 Par exemple, pour ajouter une limite en fonction d'un espace qui croise un mur :
 # Sélectionnez la face du mur qui coupe l'espace. Ce sera la nouvelle limite.
