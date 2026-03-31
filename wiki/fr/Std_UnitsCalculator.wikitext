@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
-|[[Std_ClarifySelection/fr|Préciser une sélection]]
+|[[Std_AnnotationLabel/fr|Étiquette]]
 |[[Std_ViewLoadImage/fr|Charger une image]]
 |[[Std_Tools_Menu/fr|Menu Outils]]
-|IconL=
-|IconR=Std_ViewLoadImage.svg
+|IconL=Std_AnnotationLabel.svg
+|IconR=Std_ClarifySelection.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{GuiCommand/fr
 |Name=Std UnitsCalculator
