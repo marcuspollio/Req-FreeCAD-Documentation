@@ -383,21 +383,13 @@ Remarquez que vous devez sélectionner un objet entier et non un sous-élément 
 
 Le décalage de l'ancrage devient actif lorsqu'un mode d'ancrage autre que''Désactivé'' a été sélectionné. Il permet d'appliquer un décalage linéaire ou rotatif dans le système de coordonnées de l'ancrage (attachment coordinate system = ACS), tel que défini par le mode d'ancrage et le(s) objet(s) référencé(s).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For the [[#Translate_origin|Translate origin]] mode only the X-, Y- and Z-direction offsets have an effect.
-</div>
+Pour le mode [[#Translation_de_l'origine|Translation de l'origine]], seuls les décalages dans les directions X, Y et Z ont un effet.
 
-<div class="mw-translate-fuzzy">
 * '''Dans la direction X''' : définit une distance de décalage le long de l'axe X de l'ACS.
-</div>
 
-<div class="mw-translate-fuzzy">
 * '''Dans la direction Y''' : définit une distance de décalage le long de l'axe Y de l'ACS.
-</div>
 
-<div class="mw-translate-fuzzy">
 * '''Dans la direction Z''' : définit une distance de décalage le long de l'axe Z de l'ACS.
-</div>
 
 <div class="mw-translate-fuzzy">
 * '''Autour de l'axe X''' : fait tourner l'objet ancré autour de l'axe X de l'ACS.
