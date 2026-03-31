@@ -38,7 +38,7 @@ The aim of this window is to allow you to quickly access your levels and working
 The BIM Views Manager will show all the levels (building parts) and working plane proxies of your document. It can be docked anywhere in the FreeCAD interface or be left in a standalone window. Building Parts will also show their level (the Z-coordinate of their placement).
 
 <!--T:8-->
-* Pressing Ctrl+9 or clicking the '''BIM Views Manager''' button in the Status Bar shows or hides the BIM Views Manager.
+* Pressing Ctrl+9 or clicking the '''Views Manager''' button in the Status Bar shows or hides the BIM Views Manager.
 
 ===Top part=== <!--T:14-->
 
