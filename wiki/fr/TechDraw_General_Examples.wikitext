@@ -454,7 +454,7 @@ Techdraw fournit deux outils pour ajouter du texte à un dessin :
 ===Symboles de soudure===
 
 L'outil [[Image:TechDraw_WeldSymbol.svg|16px]] [[TechDraw_WeldSymbol/fr|Soudure]] s'attache à une ligne de référence présélectionnée et ajoute des informations sur la manière de créer une certaine soudure entre deux objets afin d'éviter de modéliser les faces de soudure sur les pièces brutes. Le texte de la fourche détermine le processus de soudage ou de brasage à utiliser pour la soudure.
-: Il semble que les symboles de soudure nécessitent une ligne de repère intégrée pour obtenir un symbole de fourche correspondant à la taille du texte, sinon les symboles sur la ligne de repère doivent être redimensionnables.
+: Il semble que les symboles de soudure nécessitent une ligne de référence intégrée pour obtenir un symbole de fourche correspondant à la taille du texte, sinon les symboles sur la ligne de référence doivent être redimensionnables.
 
 [[Image:TechDraw_ExampleDrawing-26.png|300px]]
 
