@@ -92,19 +92,12 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 
 Sur cette page, vous pouvez spécifier les éléments suivants :
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nom
 !style="width: 66%;"|Description
 |-
 | {{MenuCommand|Chemin d'accès de CalculiX}}
 | Chemin d'accès au fichier binaire de [[FEM_SolverCalculixCcxtools/fr|CalculiX]]. Laissez ce champ vide pour utiliser le fichier binaire par défaut.
-|-
-| {{MenuCommand|Utiliser l'éditeur interne pour les fichiers *.inp}}
-| Si cette case est cochée, un éditeur intégré de fichiers *.inp avec coloration syntaxique est utilisé lors de l'édition des jeux d'entrée de CalculiX.
-|-
-| {{MenuCommand|Éditeur externe}}
-| Chemin d'accès à l'éditeur externe de fichiers *.inp.
 |-
 | {{MenuCommand|Diviser lors de l'écriture des fichiers *.inp}}
 | Si la case est cochée, plusieurs fichiers *.inp sont écrits et le fichier d'entrée principal utilise les mots-clés *INCLUDE pour référencer les autres. Si la case n'est pas cochée, un seul gros fichier *.inp est écrit.
@@ -160,7 +153,6 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | {{MenuCommand|Limite de la fréquence basse}}
 | Limite inférieure par défaut des fréquences propres évaluées dans les analyses de fréquence.
 |}
-</div>
 
 ==Elmer==
 
