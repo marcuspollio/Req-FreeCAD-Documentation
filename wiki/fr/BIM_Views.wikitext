@@ -30,21 +30,7 @@ Cette fenêtre a pour but de vous permettre d'accéder rapidement à vos niveaux
 
 Le gestionnaire des vues BIM affichera tous les niveaux (éléments de construction) et les proxies des plans de travail de votre document. Il peut être ancré n'importe où dans l'interface FreeCAD ou être laissé dans une fenêtre autonome. Les éléments de construction afficheront également leur niveau (la coordonnée Z de leur placement).
 
-<div class="mw-translate-fuzzy">
-* En appuyant sur Ctrl+9 ou en cliquant sur le bouton '''Gestionnaire de vues BIM''' dans la barre d'état, vous pouvez afficher ou masquer le gestionnaire des vues de BIM
-* Cliquez sur n'importe quelle entrée sélectionne l'objet correspondant.
-* Double-cliquez sur la hauteur d'un niveau permet de l'éditer.
-* Double-cliquez sur le nom d'un objet quelconque permet d'y placer le plan de travail et, si la propriété '''Restore View''' de l'objet est définie sur True et qu'une configuration de vue a été stockée dans l'objet, ce point de vue est également restauré.
-* Le gestionnaire des vues BIM dispose d'un menu contextuel de clic droit avec les options suivantes :
-** '''Activer''' active le niveau sélectionné.
-** '''Nouveau niveau''' crée un nouveau [[Arch_BuildingPart|niveau]].
-** '''Nouveau proxy de plan de travail''' crée un nouveau [[Draft_WorkingPlaneProxy/fr|proxy de plan de travail]].
-** '''Supprimer''' supprime l'élément sélectionné.
-** '''Activer/désactiver la visibilité''' active/désactive le niveau sélectionné (idem que la barre d'espace).
-** '''Isoler''' désactive tous les niveaux sauf celui sélectionné.
-** '''Enregistrer la position de la vue''' enregistre les paramètres de la vue en cours dans l'objet sélectionné, permettant de les restaurer si sa propriété '''Restore View''' est réglée sur True.
-** '''Renommer''' permet de renommer un objet sélectionné.
-</div>
+* En appuyant sur Ctrl+9 ou en cliquant sur le bouton '''Gestionnaire de vues BIM''' dans la barre d'état, vous pouvez afficher ou masquer le gestionnaire des vues de BIM.
 
 ===Top part===
 
