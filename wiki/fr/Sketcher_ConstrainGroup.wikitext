@@ -33,10 +33,8 @@ L'outil [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup/fr|
 #* Utilisez le raccourci clavier : {{KEY|K}} puis {{KEY|G}}.
 # La géométrie est regroupée.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Notes==
-* Constraints applied to grouped edges are ignored as long as the group constraint is present.
-</div>
+==Remarques==
+* Les contraintes appliquées aux arêtes groupées sont ignorées tant que la contrainte de groupe est active.
 
 
 {{Docnav/fr
