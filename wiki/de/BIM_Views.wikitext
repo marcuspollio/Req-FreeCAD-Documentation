@@ -67,7 +67,8 @@ Der BIM Ansichtenverwalter zeigt alle Ebenen (Gebäudeteile) und Arbeitsebenen P
 ** '''Save View Position''' stores the current view settings in the selected object, allowing to restore it if its '''Restore View''' property is set to True.
 ** '''Rename''' allows you to rename a selected object.
 
-===Bottom part===
+<span id="Bottom_part"></span>
+===Unterer Teil===
 
 * Double-clicking a drawing orients the 3D view to the drawing.
 * Double clicking a page opens or activates the page tab.
