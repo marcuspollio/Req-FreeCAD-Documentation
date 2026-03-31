@@ -14,7 +14,7 @@
 <span id="Introduction"></span>
 == Introduction ==
 
-Les préférences pour l'[[Image:Workbench_FEM.svg|24px]] [[FEM_Workbench/fr|atelier FEM]] peuvent être trouvées dans l'[[Preferences Editor/fr|éditeur de préférences]]. Dans le menu, sélectionnez {{MenuCommand|Édition → Préférences...}} puis {{MenuCommand|[[Image:Workbench_FEM.svg|16px]] FEM}}. Ce groupe n'est disponible que si l'atelier FEM a été chargé dans la session FreeCAD en cours.
+Les préférences pour l'[[Image:Workbench_FEM.svg|24px]] [[FEM_Workbench/fr|atelier FEM]] peuvent être trouvées dans l'[[Preferences Editor/fr|éditeur de préférences]]. Dans le menu, sélectionnez {{MenuCommand|Édition → Préférences}} puis {{MenuCommand|[[Image:Workbench_FEM.svg|16px]] FEM}}. Ce groupe n'est disponible que si l'atelier FEM a été chargé dans la session FreeCAD en cours.
 
 Il y a sept pages : [[#Général|Général]], [[#Gmsh|Gmsh]], [[#CalculiX|CalculiX]], [[#Elmer|Elmer]], [[#Mystran|Mystran]], [[#Z88|Z88]] et [[#Netgen|Netgen]]. Toutes les pages, à l'exception de la première, contrôlent la manière dont FEM interagit avec les maillages et les solveurs externes. 
 
