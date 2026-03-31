@@ -257,7 +257,13 @@ Selection of internal regions (e.g. faces/volumes) can be tricky. It might be ne
 * enabling [[Std_ToggleClipPlane|clipping plane]] for the time of selection and picking internal faces,
 * hiding the boolean object, showing only one of the parts it was applied to and selecting it,
 * [[Std_ToggleTransparency|enabling transparency]] and using the [[Selection_View|Selection View]] with the ''Picked object list'' option checked as described [https://forum.freecad.org/viewtopic.php?t=96984#p826693 here],
-* selecting another, external object and editing the ''References'' property on the ''Data'' tab of a given analysis feature (requires manual specification of the geometric object's number).
+* selecting another, external object and editing the ''References'' property on the ''Data'' tab of a given analysis feature (requires manual specification of the geometric object's name and number - make sure the line corresponding to this object is still highlighted and no other unwanted objects are highlighted after entering the name with the number and click on it if it's not highlighted before confirming with OK).
+
+</translate>
+[[Image:Fem_references.PNG|800px]]
+<translate>
+
+{{Caption|Manually editing the ''References'' property}}
 
 {{Version|1.1}}: If the selected face of CompSolid (Boolean fragments with CompSolid mode + Compound filter standard workflow described in the [[#Assembly_geometries|Assembly geometries]] section) belongs to two solids, a pop-up menu appears, allowing the selection of the proper solid.
 
