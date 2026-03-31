@@ -170,7 +170,7 @@ Tous les préférences avec des étiquettes en ''italiques'' sont des valeurs pa
 * '''Extrémité des bulles''' : style par défaut pour des extrémités des bulles, voir [[TechDraw_Balloon/fr#Propriétés|Propriétés des bulles]].
 * '''Longueur du pli des lignes de référence des bulles''' : longueur du pli de la ligne de référence des bulles.
 * '''Bulle en forme de triangle rectangle''' : si '''Extrémité des bulles''' est mis à ''Triangle'', le triangle ne peut avoir une direction verticale ou horizontale que lorsque la bulle est déplacée.
-* '''Ligne de repère horizontale automatique''' : force le dernier segment de la [[TechDraw_LeaderLine/fr|ligne de repère]] à être horizontal.
+* '''Ligne de référence horizontale automatique''' : force le dernier segment de la [[TechDraw_LeaderLine/fr|ligne de référence]] à être horizontal.
 * '''Type de rupture des vues interrompues''' : type de rupture par défaut utilisé pour indiquer les [[TechDraw_BrokenView/fr|vues interrompues]] : {{Version/fr|1.0}}
 ** ''Aucune ligne d'interruption''
 ** ''Lignes en zigzag''
