@@ -117,14 +117,10 @@ Aby uzyskać koło zębate zbudowane z kompletnych krzywych hipocykloidalnych i 
 * {{PropertyData|Prześwit}}: {{incode|-1 + średnica_wewnętrzna - 1e-06}}
 * {{PropertyData|head}}: {{incode|-1 + średnica_zewnętrzna - 1e-06}}
 
-<div class="mw-translate-fuzzy">
 Średnica referencyjna to ''d = m * z'', gdzie ''m'' to {{PropertyData|moduł}}, a ''z'' to {{PropertyData|num_teeth}}.
-Dla pełnej hipocykloidy średnica toczenia musi wynosić ''d_i = d / (z*2) = m*z / (z*2)''. A jeśli teraz znormalizujemy to przez moduł, otrzymamy ''d_in = m*z / (z*2) / m = 1 / 2''. Dodatkowa jawna wartość tolerancji ({{incode|1e-6}} w powyższym wyrażeniu) jest wymagana do przezwyciężenia problemów z koincydencją.
-</div>
+Dla pełnej hipocykloidy średnica toczenia musi wynosić ''d_i = d / (z*2) = m*z / (z*2)''. A jeśli teraz znormalizujemy to przez moduł, otrzymamy ''d_in = m*z / (z*2) / m = 1 / 2''.
 
-<div class="mw-translate-fuzzy">
-Teraz średnica koła tocznego cykloidy musi odpowiadać addum/dedendum koła zębatego. Dodatek, tj. długość zęba powyżej koła odniesienia, wynosi 1 + {{PropertyData|head}}. Dedendum, tj. długość zęba poniżej okręgu odniesienia, wynosi 1 + {{PropertyData|prześwit}}. Oba są znormalizowane przez moduł, dlatego potrzebujemy wartości head / prześwit równej ''1 - d_in''.
-</div>
+Teraz średnica koła tocznego cykloidy musi odpowiadać addum/dedendum koła zębatego. Dodatek, tj. długość zęba powyżej koła odniesienia, wynosi 1 + {{PropertyData|head}}. Dedendum, tj. długość zęba poniżej okręgu odniesienia, wynosi 1 + {{PropertyData|prześwit}}. Oba są znormalizowane przez moduł, dlatego potrzebujemy wartości head / prześwit równej ''1 - d_in''. Dodatkowa jawna wartość tolerancji ({{incode|1e-6}} w powyższym wyrażeniu) jest wymagana do przezwyciężenia problemów z koincydencją.
 
 Takie "koła zębate" pozwalają na zmniejszenie liczby zębów do "dwóch" i są używane jako obrotowe łopatki w pompach lub sprężarkach ''(por. [https://pl.wikipedia.org/wiki/Spr%C4%99%C5%BCarka_z_wiruj%C4%85cymi_t%C5%82okami sprężarka z wirującymi tłokami])''.
 
