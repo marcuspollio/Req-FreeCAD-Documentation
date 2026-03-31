@@ -78,15 +78,12 @@ Es gibt ein weiteres Inhaltsverzeichnis für das [[Manual:Introduction/de|FreeCA
 ** [[Interface_creation/de|Benutzeroberflächen erstellen]]
 ** [[Dialog_creation/de|Dialoge erstellen]]
 
-<div class="mw-translate-fuzzy">
 * Entwicklung
 ** [[License/de|Lizenz]]
 ** FreeCAD kompilieren
 *** [[Compile_on_Windows/de|Kompilieren unter Windows]]
 *** [[Compile_on_Linux/de|Kompilieren unter Linux]]
-*** [[https://freecad.github.io/DevelopersHandbook/gettingstarted/#pixi|Kompilieren unter MacOS]]
-*** [[Compile_on_Docker/de|Kompilieren unter Docker]]
-*** [[FreeCAD_Docker_CLI_mode|Kompilieren unter Docker Kommandozeilenmodus]]
+*** [[https://freecad.github.io/DevelopersHandbook/gettingstarted/#pixi|Kompilieren unter macOS]]
 *** [[Compiling_(Speeding up)/de|Kompilieren (Beschleunigung)]]
 *** [[Third_Party_Libraries/de|Drittanbieterbibliotheken]]
 *** [[Third_Party_Tools/de|Drittanbieterwerkzeuge]]
@@ -104,7 +101,6 @@ Es gibt ein weiteres Inhaltsverzeichnis für das [[Manual:Introduction/de|FreeCA
 *** [[Extra_python_modules/de|Zusätzliche Python Module installieren]]
 ** [[Source documentation/de|Quelldokumentation]]
 ** [https://freecad.org/api/ API]
-</div>
 
 * Danksagungen
 **[[Contributors/de|Mitwirkende]]
