@@ -227,10 +227,10 @@ ToDo (last check: 20260318):
 <span id="Further_Part_Design_improvements"></span>
 === Autres améliorations de PartDesign ===
 
-<div class="mw-translate-fuzzy">
 * Un manipulateur interactif a été ajouté à l'outil [[Image:PartDesign_Draft.svg|24px]] [[PartDesign_Draft/fr|Dépouille]]. [https://github.com/FreeCAD/FreeCAD/pull/27111 Pull request #27111]
-* Des manipulateurs interactifs ont été ajoutés aux outils Sphère, Cube et Cylindre. [https://github.com/FreeCAD/FreeCAD/pull/23700 Pull request #23700]
-</div>
+* Des manipulateurs interactifs ont été ajoutés aux outils primitifs Sphère, Cube et Cylindre. [https://github.com/FreeCAD/FreeCAD/pull/23700 Pull request #23700]
+* La sélection multiple est désormais prise en charge pour la liste des arêtes de chemin des balayages [[PartDesign_AdditivePipe/fr|additifs]] et [[PartDesign_SubtractivePipe/fr|soustractifs]]. [https://github.com/FreeCAD/FreeCAD/pull/27962 Pull request #27962]
+* Désormais, lorsque l'on affiche un corps ne comportant aucune fonction visible, son extrémité s'affiche également. [https://github.com/FreeCAD/FreeCAD/pull/24887 Pull request #24887]
 
 <span id="Points_Workbench"></span>
 == Atelier Points ==
