@@ -119,7 +119,7 @@ Tous les préférences avec des étiquettes en ''italiques'' sont des valeurs pa
 ::<code>ISO Orienté</code> - dessine selon la norme ISO 129-1, le texte est tourné pour être parallèle à la tangente de la ligne de cote.
 ::<code>ISO référencement</code> - dessine conformément à la norme ISO 129-1, le texte est toujours horizontal, au-dessus de la ligne de référence la plus courte possible.
 ::<code>ASME intégré</code> - dessine selon la norme ASME Y14.5M, le texte est horizontal, inséré dans une rupture dans la ligne de cote ou l'arc.
-::<code>ASME référencement</code> - dessine selon la norme ASME Y14.5M, le texte est horizontal, une courte ligne de repère est attachée au centre vertical d'un côté.
+::<code>ASME référencement</code> - dessine selon la norme ASME Y14.5M, le texte est horizontal, une courte ligne de référence est attachée au centre vertical d'un côté.
 * '''Utiliser les paramètres du système pour les décimales''' : utilise le nombre de décimales des [[Preferences_Editor/fr#Unit.C3.A9s|préférences générales]].
 * '''Afficher les unités''': ajoute l'unité (mm, in, etc.) aux valeurs de cote.
 * '''Nombre personnalisé de décimales''' : nombre de décimales si '''Utiliser les paramètres du système pour les décimales''' n'est pas sélectionné et si '''Format des cotes''' n'est pas spécifié.
