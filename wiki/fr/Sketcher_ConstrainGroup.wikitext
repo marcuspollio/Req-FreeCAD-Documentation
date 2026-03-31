@@ -1,0 +1,63 @@
+<languages/>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Docnav
+|[[Sketcher_ConstrainBlock|Block Constraint]]
+|[[Sketcher_ConstrainSnellsLaw|ConstrainSnellsLaw]]
+|[[Sketcher_Workbench|Sketcher]]
+|IconL=Sketcher_ConstrainBlock.svg
+|IconR=Sketcher_ConstrainSnellsLaw.svg‎
+|IconC=Workbench_Sketcher.svg
+}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{GuiCommand
+|Name=Sketcher ConstrainGroup
+|MenuLocation=Sketch → Constraints → Group Constraint
+|Workbenches=[[Sketcher_Workbench|Sketcher]]
+|Shortcut={{KEY|K}} {{KEY|G}}
+|Version=1.2
+|SeeAlso=[[Sketcher_CreateText|Sketcher CreateText]]
+}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Description==
+</div>
+
+L'outil [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup/fr|Sketcher Grouper]] permet de regrouper la géométrie sélectionnée en une seule entité. La position et la taille de la géométrie regroupée peuvent être définies en modifiant la ligne de construction générée automatiquement. 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Usage==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+# Select geometry in the sketch.
+# There are several ways to invoke the tool:
+#* Press the {{Button|[[Image:Sketcher_ConstrainGroup.svg|16px]] [[Sketcher_ConstrainGroup|Group Constraint]]}} button.
+#* Select the {{MenuCommand|Sketch → Constraints → [[Image:Sketcher_ConstrainGroup.svg|16px]] Group Constraint}} option from the menu.
+#* Use the keyboard shortcut: {{KEY|K}} then {{KEY|G}}.
+# The geometry is grouped.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Notes==
+* Constraints applied to grouped edges are ignored as long as the group constraint is present.
+</div>
+
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Docnav
+|[[Sketcher_ConstrainBlock|Block Constraint]]
+|[[Sketcher_ConstrainSnellsLaw|ConstrainSnellsLaw]]
+|[[Sketcher_Workbench|Sketcher]]
+|IconL=Sketcher_ConstrainBlock.svg
+|IconR=Sketcher_ConstrainSnellsLaw.svg‎
+|IconC=Workbench_Sketcher.svg
+}}
+</div>
+
+
+{{Sketcher_Tools_navi{{#translation:}}}}
+{{Userdocnavi{{#translation:}}}}
