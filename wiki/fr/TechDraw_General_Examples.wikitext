@@ -448,7 +448,7 @@ Une [[Image:TechDraw_Balloon.svg|16px]] [[TechDraw_Balloon/fr|bulle]] est une co
 
 Techdraw fournit deux outils pour ajouter du texte à un dessin :
 * [[Image:TechDraw_Annotation.svg|16px]] [[TechDraw_Annotation/fr|Annotation]] ajoute un bloc de texte en tant qu'annotation à une page. Les annotations utilisent les mêmes paramètres par défaut que les cotes, certains paramètres peuvent être modifiés et ils peuvent être édités et tournés mais ils ne peuvent pas être rattachés.
-* [[Image:TechDraw_RichTextAnnotation.svg|16px]] [[TechDraw_RichTextAnnotation/fr|Annotation texte enrichi]] ajoute un bloc de texte enrichi comme annotation à une page, une ligne de référence ou une vue. Les annotations rattachées à une ligne de référence ou à une vue se déplacent de manière synchrone avec la vue ou la ligne de repère lorsque leur position change. 
+* [[Image:TechDraw_RichTextAnnotation.svg|16px]] [[TechDraw_RichTextAnnotation/fr|Annotation texte enrichi]] ajoute un bloc de texte enrichi comme annotation à une page, une ligne de référence ou une vue. Les annotations rattachées à une ligne de référence ou à une vue se déplacent de manière synchrone avec la vue ou la ligne de référence lorsque leur position change. 
 
 <span id="Weld_symbols"></span>
 ===Symboles de soudure===
