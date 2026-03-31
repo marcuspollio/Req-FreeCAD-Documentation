@@ -259,13 +259,11 @@ ToDo (last check: 20260318):
 [https://github.com/FreeCAD/FreeCAD/pull/22217 Pull request #22217]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:Sketcher_group_constraint_relnotes_1.2.gif|384px]]</br>Click on the image if the animation does not start.
-| Thanks to [https://www.astocad.com/ AstoCAD], a new [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup|Group constraint]] was added to Sketcher, allowing the geometries to be grouped and moved or constrained together.
+| [[File:Sketcher_group_constraint_relnotes_1.2.gif|384px]]</br>Cliquez sur l'image si l'animation ne démarre pas.
+| Grâce à [https://www.astocad.com/ AstoCAD], une nouvelle [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup/fr|contrainte de groupe]] a été ajoutée à Sketcher, permettant de regrouper les géométries et de les déplacer ou de les contraindre ensemble.
 [https://github.com/FreeCAD/FreeCAD/pull/22217 Pull request #22217]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
