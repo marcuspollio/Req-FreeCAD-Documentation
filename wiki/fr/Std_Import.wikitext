@@ -22,7 +22,9 @@
 
 La commande '''Std Importer''' importe la géométrie d'un format de fichier différent dans le document actif. De nombreux formats de fichiers sont pris en charge et pour certains formats, plusieurs options d'importation existent. Voir [[Import_Export/fr|Import Export]] pour plus d'informations.
 
+<div class="mw-translate-fuzzy">
 {{Version/fr|0.21}} : si un format d'image est sélectionné, la commande créera un [[#Plan_d'image|plan d'image]].
+</div>
 
 <span id="Usage"></span>
 ==Utilisation==
