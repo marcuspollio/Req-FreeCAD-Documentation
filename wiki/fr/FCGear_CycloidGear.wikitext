@@ -110,13 +110,11 @@ Pour obtenir une ligne droite, directement vers le centre, comme l'hypocycloïde
 <span id="Full_hypocycloid/epicycloid_as_tooth"></span>
 === Hypocycloïde/épicycloïde complet en tant que dent ===
 
-<div class="mw-translate-fuzzy">
 Pour obtenir une roue dentée constituée de courbes hypocycloïdes et épicycloïdes complètes, utilisez les [[Expressions/fr|expressions]] suivantes :
-* {{PropertyData|inner_diameter}} : {{incode|0.5 + 1e-6}}
+* {{PropertyData|inner_diameter}} : {{incode|0.5}}
 * {{PropertyData|outer_diameter}} : {{incode|inner_diameter}}
 * {{PropertyData|clearance}} : {{incode|-1 + inner_diameter - 1e-06}}
 * {{PropertyData|head}} : {{incode|-1 + outer_diameter - 1e-06}}
-</div>
 
 <div class="mw-translate-fuzzy">
 Le diamètre de référence est ''d = m * z'', avec ''m'' étant le {{PropertyData|module}} et ''z'' étant le nombre de dents {{PropertyData|num_teeth}}.<br/>
