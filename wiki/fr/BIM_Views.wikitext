@@ -48,7 +48,8 @@ Le gestionnaire des vues BIM affichera tous les niveaux (éléments de construct
 ** '''Enregistrer la position de la vue''' enregistre les paramètres de la vue en cours dans l'objet sélectionné, permettant de les restaurer si sa propriété '''Restore View''' est réglée sur True.
 ** '''Renommer''' permet de renommer un objet sélectionné.
 
-===Bottom part===
+<span id="Bottom_part"></span>
+===Partie inférieure===
 
 * Double-clicking a drawing orients the 3D view to the drawing.
 * Double clicking a page opens or activates the page tab.
