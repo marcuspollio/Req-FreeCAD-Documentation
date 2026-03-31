@@ -43,16 +43,14 @@ Das Werkzeug [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGrou
 * Auf gruppierte Kanten angewendete Randbedingungen werden ignoriert, solange die Gruppenbeschränkung besteht.
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[Sketcher_ConstrainBlock|Block Constraint]]
-|[[Sketcher_ConstrainSnellsLaw|ConstrainSnellsLaw]]
-|[[Sketcher_Workbench|Sketcher]]
+{{Docnav/de
+|[[Sketcher_ConstrainBlock/de|Block Fixieren]]
+|[[Sketcher_ConstrainSnellsLaw/de|BrechungNachSnelliusFestlegen]]
+|[[Sketcher_Workbench/de|Sketcher]]
 |IconL=Sketcher_ConstrainBlock.svg
 |IconR=Sketcher_ConstrainSnellsLaw.svg‎
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 
 {{Sketcher_Tools_navi{{#translation:}}}}
