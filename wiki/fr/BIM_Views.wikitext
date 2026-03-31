@@ -34,18 +34,18 @@ Le gestionnaire des vues BIM affichera tous les niveaux (éléments de construct
 
 ===Top part===
 
-* Clicking any entry selects the corresponding object.
-* Double-clicking the height of a level allows you to edit it.
-* Double-clicking the name of any object sets the working plane to it and activates the object {{Version|1.1}}. If the '''Restore View''' property of the object is set to True, and a view configuration has been stored in it, that viewpoint is also restored.
-* The BIM Views Manager top half has a right-click context menu with the following options:
-** '''Activate''' activates a selected level.
-** '''New Level''' creates a new [[Arch_BuildingPart|level]].
-** '''New Working Plane Proxy''' creates a new [[Draft_WorkingPlaneProxy|working plane proxy]].
-** '''Delete''' deletes a selected item.
-** '''Toggle Visibility''' turns a selected level on/off (same as the Space bar).
-** '''Isolate''' turns all levels off except the selected one.
-** '''Save View Position''' stores the current view settings in the selected object, allowing to restore it if its '''Restore View''' property is set to True.
-** '''Rename''' allows you to rename a selected object.
+* Cliquez sur n'importe quelle entrée sélectionne l'objet correspondant.
+* Double-cliquez sur la hauteur d'un niveau permet de l'éditer.
+* Double-cliquez sur le nom d'un objet permet de définir ce dernier comme plan de travail et d'activer l'objet {{Version/fr|1.1}}. Si la propriété '''Restore View''' de l'objet est définie sur True et qu'une configuration de vue a été stockée dans l'objet, ce point de vue est également restauré.
+* Le gestionnaire des vues BIM dispose d'un menu contextuel de clic droit avec les options suivantes :
+** '''Activer''' active le niveau sélectionné.
+** '''Nouveau niveau''' crée un nouveau [[Arch_BuildingPart/fr|niveau]].
+** '''Nouveau proxy de plan de travail''' crée un nouveau [[Draft_WorkingPlaneProxy/fr|proxy de plan de travail]].
+** '''Supprimer''' supprime l'élément sélectionné.
+** '''Activer/désactiver la visibilité''' active/désactive le niveau sélectionné (idem que la barre d'espace).
+** '''Isoler''' désactive tous les niveaux sauf celui sélectionné.
+** '''Enregistrer la position de la vue''' enregistre les paramètres de la vue en cours dans l'objet sélectionné, permettant de les restaurer si sa propriété '''Restore View''' est réglée sur True.
+** '''Renommer''' permet de renommer un objet sélectionné.
 
 ===Bottom part===
 
