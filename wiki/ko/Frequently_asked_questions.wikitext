@@ -65,7 +65,9 @@ Find known OS-specific issues in this [https://forum.freecad.org/viewtopic.php?t
 
 There might be a lot of reasons for that, the most likely is that some library is missing. Try starting FreeCAD from a terminal (type {{SystemInput|freecad}} at a terminal prompt, {{SystemInput|FreeCAD}} on some systems) to see if some error message appears. Also, read the rest of this FAQ as it can give you more clues to detect the cause of the problem. If nothing helps, tell about it on the [https://forum.freecad.org forum], there will surely be someone who can help.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 On some older Windows XP systems you may get an error message like this: {{Emphasis|The application can't start, because the side-by-side configuration is wrong. The reinstallation of the application may solve the problem.}} The reason for this problem is that on your system either the CRT runtime libraries are missing or the version installed is too old because FreeCAD was linked against a newer version. In this case you have to install the {{Emphasis|Microsoft Visual C++ Redistributable Package}} which you'll find at Microsoft. See also the corresponding [https://forum.freecad.org/viewtopic.php?f=3&t=1298&p=9961 forum message].
+</div>
 
 <span id="FreeCAD_starts_normally,_but_not_all_icons_are_displayed,_some_of_them_are_replaced_by_a_black_&#039;X&#039;"></span>
 === FreeCAD가 정상적으로 시작은 되었는데 모든 아이콘들이 보여지지 않고 일부는 'X'로 표시됩니다. ===
