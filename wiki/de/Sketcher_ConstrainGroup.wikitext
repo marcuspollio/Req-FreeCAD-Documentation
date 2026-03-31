@@ -9,16 +9,15 @@
 |IconC=Workbench_Sketcher.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/de
 |Name=Sketcher ConstrainGroup
-|MenuLocation=Sketch → Constraints → Group Constraint
-|Workbenches=[[Sketcher_Workbench|Sketcher]]
+|Name/de=Sketcher GruppeZusammenfassen
+|MenuLocation=Skizze → Randbedingungen → Gruppe Zusammenfassen
+|Workbenches=[[Sketcher_Workbench/de|Sketcher]]
 |Shortcut={{KEY|K}} {{KEY|G}}
 |Version=1.2
-|SeeAlso=[[Sketcher_CreateText|Sketcher CreateText]]
+|SeeAlso=[[Sketcher_CreateText/de|Sketcher TextErstellen]]
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung==
