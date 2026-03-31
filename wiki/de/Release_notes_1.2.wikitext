@@ -269,13 +269,11 @@ ToDo (last check: 20260318):
 [https://github.com/FreeCAD/FreeCAD/pull/22217 Pull-Request #22217]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:InternalFaces_relnotes_1.2.gif|384px]]</br>Click on the image if the animation does not start.
-| Internal face generation now correctly handles complex overlapping geometry such as three or more intersecting circles, where previously some face regions were not generated at all.
-[https://github.com/FreeCAD/FreeCAD/pull/28648 Pull request #28648]
+| [[File:InternalFaces_relnotes_1.2.gif|384px]]</br>Bild anklicken, wenn die Animation nicht automatisch startet.
+| Das Erstellen von internen Flächen verwendet komplexe überlappende Geometrie jetzt korrekt, wo vorher einige Flächenbereiche gar nicht erzeugt wurden, wie bei drei oder mehr überlappenden Kreisen.
+[https://github.com/FreeCAD/FreeCAD/pull/28648 Pull-Request #28648]
 |}
-</div>
 
 <span id="Further_Sketcher_improvements"></span>
 === Weitere Sketcher-Verbesserungen ===
