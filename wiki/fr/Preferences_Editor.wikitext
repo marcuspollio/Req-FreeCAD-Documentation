@@ -565,7 +565,7 @@ si la case {{MenuCommand|Activer les animations de rotation}} est cochée et si 
 
 |-
 | {{MenuCommand|Activer la sélection par une pression longue}} {{Version/fr|1.1}}
-| Active l'outil [[Std_ClarifySelection/fr|Choisir une sélection]] lorsque le bouton gauche de la souris est enfoncé pendant un certain temps (défini par la préférence indiquée ci-dessous). Certains [[Mouse_navigation/fr|styles de navigation]] (OpenInventor, Gesture et OpenSCAD) utilisent à la place Ctrl+bouton gauche de la souris.
+| Active l'outil [[Std_ClarifySelection/fr|Choisir une entité]] lorsque le bouton gauche de la souris est enfoncé pendant un certain temps (défini par la préférence indiquée ci-dessous). Certains [[Mouse_navigation/fr|styles de navigation]] (OpenInventor, Gesture et OpenSCAD) utilisent à la place Ctrl+bouton gauche de la souris.
 
 |-
 | {{MenuCommand|Délai d'attente pour la pression longue}} {{Version/fr|1.1}}
