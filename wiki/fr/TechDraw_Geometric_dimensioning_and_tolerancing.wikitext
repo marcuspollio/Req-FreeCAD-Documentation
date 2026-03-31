@@ -102,7 +102,7 @@ L'indicateur de tolérance de GD&T est une trame, également appelée "trame de 
 * ajoutez le caractère Unicode correspondant à la fonction dont vous avez besoin dans la bulle '''Texte'''. (Vous pouvez les copier à partir des tables de référence [[TechDraw_Geometric_dimensioning_and_tolerancing/fr#R.C3.A9f.C3.A9rencement_de_symboles|dessous]] ou utiliser [[TechDraw_ExtensionCustomizeFormat/fr|Personnaliser la bulle]].)
 * en ajoutant le caractère '|' au '''Texte''', vous démarrez un nouveau champ indicateur.
 
-Aucune règle ne définit si ou comment l'indicateur de tolérance doit avoir une ligne de repère ou non, vous pouvez donc:
+Aucune règle ne définit si ou comment l'indicateur de tolérance doit avoir une ligne de référence ou non, vous pouvez donc:
 * définissez la propriété '''Ligne visible''' sur '''False''' dans la boîte de dialogue de l'infobulle.
 * définissez '''Symbole de fin''' sur '''Flèche pleine''' ou '''Point'''.
 
