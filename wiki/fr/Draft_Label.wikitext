@@ -21,7 +21,7 @@
 
 ==Description==
 
-La commande [[Image:Draft_Label.svg|24px]] '''Draft Étiquette''' crée un texte de plusieurs lignes avec une ligne d'attache à deux segments et une flèche.
+La commande [[Image:Draft_Label.svg|24px]] '''Draft Étiquette''' crée un texte de plusieurs lignes avec une ligne de référence à deux segments et une flèche.
 
 Si un objet ou un sous-élément (face, arête ou sommet) est sélectionné au lancement de la commande, on peut faire en sorte que le texte affiche un ou deux attributs de l'élément sélectionné, notamment la position, la longueur, l'aire, le volume et le matériau. Le texte sera alors lié aux attributs et sera mis à jour si leurs valeurs changent.
 
