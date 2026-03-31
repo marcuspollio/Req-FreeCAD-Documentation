@@ -27,12 +27,14 @@ Das Werkzeug [[Image:BIM_Leader.svg|24px]] [[BIM_Leader/de|BIM Hinweislinie]] er
 <span id="Usage"></span>
 ==Anwendung==
 
-<div class="mw-translate-fuzzy">
 # Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
 #* Die Schaltfläche {{Button|[[Image:BIM_Leader.svg|16px]] [[BIM_Leader/de|Hinweislinie]]}} drücken.
 #* Den Menüeintrag {{MenuCommand|Beschriftung → [[Image:BIM_Leader.svg|16px]] Hinweislinie}} auswählen.
 #* Das Tastaturkürzel {{KEY|L}} dann {{KEY|E}}.
-</div>
+# Das Aufgaben-Fenster {{MenuCommand|Hinweislinie}} wird geöffnet.
+# Den ersten Punkt in der [[3D_View/de|3D-Ansicht]] auswählen oder die Koordinaten eingeben und die Schaltfläche {{Button|[[Image:Draft_AddPoint.svg|16px]] Punkt eingeben}} drücken.
+# Einen weiteren Punkt in der [[3D_View/de|3D-Ansicht]] auswählen oder die Koordinaten eingeben und die Schaltfläche {{Button|[[Image:Draft_AddPoint.svg|16px]] Punkt eingeben}} drücken.
+# {{KEY|Esc}} oder die Schaltfläche {{Button|Schließen}} drücken um das Werkzeug zu beenden.
 
 <span id="Notes"></span>
 ==Hinweise==
