@@ -36,9 +36,9 @@ The [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup|Sketche
 #* Use the keyboard shortcut: {{KEY|K}} then {{KEY|G}}.
 # The geometry is grouped.
 
-<!--T:7-->
-==Notes==
+==Notes== <!--T:7-->
 
+<!--T:9-->
 * Constraints applied to grouped edges are ignored as long as the group constraint is present.
 
 
