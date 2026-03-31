@@ -24,7 +24,9 @@
 
 O comando '''Importar''' importa geometria de arquivos de formatos diferentes para o documento ativo. Muitos formatos de arquivos são suportados e para alguns formatos existem múltiplas opções de importação. Veja [[Import_Export/pt-br|Importar Exportar]] para maiores informações.
 
+<div class="mw-translate-fuzzy">
 {{Version/pt-br|0.21}}: Se for selecionado um formato de imagem, o comando criará um [[#Image_Plane/pt-br|Plano de Imagem]].
+</div>
 
 <span id="Usage"></span>
 ==Uso==
