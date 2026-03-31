@@ -295,12 +295,38 @@ Too coarse mesh is one of the most common sources of inaccuracies and other issu
 === Choosing element type === <!--T:87-->
 
 <!--T:44-->
-The choice of element type is not easy and depends on many factors but the general rule is that hexahedral and quadrilateral elements are preferable over tetrahedral and triangular ones. However, complex geometries can't be meshed with hexahedral elements and FreeCAD can't generate them properly (only using the Subdivision algorithm of the Gmsh mesher but its results are not what one would expect from a hex mesh). Quad or quad-dominated meshes can be generated normally on surfaces - see [https://forum.freecad.org/viewtopic.php?t=20351 this forum thread]). Hexahedral elements can be imported from external meshers like [https://gmsh.info Gmsh] and used in the FEM workbench as shown in [https://www.youtube.com/watch?v=vylt24G7qj4&t=932s this video].
+The choice of element type is not easy and depends on many factors but the general rule is that hexahedral and quadrilateral elements are preferable over tetrahedral and triangular ones. However, complex geometries can't be meshed with hexahedral elements and FreeCAD has very limited capabilities of their generation (see the [[#Hex_meshes|Hex meshes]] section below). However, meshes with hexahedral elements can be imported from external meshers such as [https://gmsh.info Gmsh] and used in the FEM workbench as shown in [https://www.youtube.com/watch?v=vylt24G7qj4&t=932s this video].
 
 === Choosing element order === <!--T:88-->
 
 <!--T:45-->
 The choice of element order (first or second) depends on the analysis conditions but in most cases, second-order elements are preferred. This is particularly the case with triangular and tetrahedral elements - their first-order (linear) versions are normally not recommended for regular usage and they should be used only as filler elements in regions of low importance. However, since FreeCAD can't properly generate hexahedral elements, linear tetrahedrons can be used in some cases, if the meshes are dense enough. Especially when performing analyses with [[FEM_ConstraintContact|contact]].
+
+== Quad and hex meshes ==
+
+=== Quad meshes ===
+
+Quadrilateral elements can be generated on surface geometries using both meshers:
+* [[FEM_MeshGmshFromShape|Gmsh]] - set the {{PropertyData|Algorithm 2D}} property to ''Quasi-structured Quad'' (currently, it doesn't work for 2nd order elements) or enable the {{PropertyData|Recombine All}} property and select the {{PropertyData|Recombination Algorithm}},
+* [[FEM_MeshNetgenFromShape|Netgen]] - enable the {{PropertyData|Quad Dominated}} property.
+
+</translate>
+[[Image:Quad_mesh.PNG|400px]]
+<translate>
+
+{{Caption|Quad-dominated mesh generated with Netgen}}
+
+=== Hex meshes ===
+
+Hexahedral meshes can be generated on volume geometries using both meshers with some significant limitations:
+* [[FEM_MeshGmshFromShape|Gmsh]] - set the {{PropertyData|Subdivision Algorithm}} to ''All Hexahedra'' - however, the resulting elements are not shaped as expected from hexahedral meshes used in practice,
+* [[FEM_MeshGmshFromShape|Netgen]] - {{Version|1.1}}: for simple extruded shapes, hex or hex-dominated meshes can be created by extrusion if the {{PropertyData|Quad Dominated}} property is enabled and the {{PropertyData|ZRefine}} property is set to ''Regular'' (''Custom'' requires specifying the height of each element in the extrusion direction). The extrusion direction can be changed from the default Z using the {{PropertyData|ZRefine Direction}} property. Element height can be specified as a fraction of the total height using the {{PropertyData|ZRefine Size}} property. This approach works only for first-order meshes (unless the generated elements are all hexahedrons).
+
+</translate>
+[[Image:Z_refine.PNG|400px]]
+<translate>
+
+{{Caption|Hex-dominated mesh generated with Netgen's ZRefine algorithm}}
 
 == Negative Jacobians == <!--T:51-->
 
