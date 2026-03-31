@@ -40,7 +40,7 @@ La fenêtre de dialogue de configuration de projet peut créer :
 
 L'outil Projet prend en charge deux types de modèles :
 * Une fois que vous avez rempli les différentes options, le contenu de l'assistant de configuration du projet BIM peut être '''sauvegardé''' en tant que modèle. Ces modèles peuvent être '''restaurés''' et adaptés ultérieurement. Les modèles de projet sont stockés sous forme de fichiers texte dans votre dossier utilisateur FreeCAD.
-* Vous pouvez également enregistrer le contenu du document actuel en tant que modèle. Cela permettra d'enregistrer le document ouvert comme un fichier ''.FCStd'' standard, mais aussi d'inclure des paramètres BIM supplémentaires comme le plan de travail actuel ou les unités actuelles. En utilisant l'option ''restaurer'' à tout moment, le contenu de ce fichier modèle sera fusionné dans le document actif et tous les paramètres qu'il contient seront appliqués.
+* Vous pouvez également enregistrer le contenu du document actuel en tant que modèle. Cela permettra d'enregistrer le document ouvert comme un fichier '''.FCStd''' standard, mais aussi d'inclure des paramètres BIM supplémentaires comme le plan de travail actuel ou les unités actuelles. En utilisant l'option '''Restaurer''' à tout moment, le contenu de ce fichier modèle sera fusionné dans le document actif et tous les paramètres qu'il contient seront appliqués.
 
 
 {{Docnav/fr
