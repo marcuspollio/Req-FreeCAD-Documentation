@@ -38,7 +38,7 @@ Le gestionnaire des vues de BIM affichera tous les niveaux (éléments de constr
 * Cliquez sur n'importe quelle entrée sélectionne l'objet correspondant.
 * Double-cliquez sur la hauteur d'un niveau permet de l'éditer.
 * Double-cliquez sur le nom d'un objet permet de définir ce dernier comme plan de travail et d'activer l'objet {{Version/fr|1.1}}. Si la propriété '''Restore View''' de l'objet est définie sur True et qu'une configuration de vue a été stockée dans l'objet, ce point de vue est également restauré.
-* Le gestionnaire des vues BIM dispose d'un menu contextuel de clic droit avec les options suivantes :
+* Le gestionnaire des vues de BIM dispose d'un menu contextuel de clic droit avec les options suivantes :
 ** '''Activer''' active le niveau sélectionné.
 ** '''Nouveau niveau''' crée un nouveau [[Arch_BuildingPart/fr|niveau]].
 ** '''Nouveau proxy de plan de travail''' crée un nouveau [[Draft_WorkingPlaneProxy/fr|proxy de plan de travail]].
