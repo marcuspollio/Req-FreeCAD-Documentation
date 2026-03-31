@@ -23,9 +23,7 @@
 '''BIM Ansichten''' öffnet den BIM-Ansichten-Manager, ein andockbares Fenster BIM, das sich unterhalb der normalen Baumansicht öffnet und alle [[Arch_BuildingPart/de|Gebäudeteile]] und [[Draft_WorkingPlaneProxy/de|Arbeitsebenen-Proxies]] des Modells enthält.
 </div>
 
-<div class="mw-translate-fuzzy">
-Das Ziel dieses Fensters ist es, einen schnellen Zugriff auf deine Ebenen- und Arbeitsebenen-Konfigurationen zu ermöglichen, ohne dass du durch den Baum navigieren musst, um sie zu finden.
-</div>
+Dieses Fenster soll einen schnellen Zugriff auf die Ebenen- und Arbeitsebenenkonfigurationen ermöglichen, ohne dass dazu die Baumstruktur durchsuch werden muss. Außerdem kann damit auf vorhandene Seiten und Zeichnungen zugegriffen werden.
 
 [[Image:BIM_views_screenshot.png|600px]]
 {{Caption|Der BIM-Ansichten-Manager}}
