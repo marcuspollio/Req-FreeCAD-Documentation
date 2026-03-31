@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
-|[[Std_Measure/fr|Mesurer]]
 |[[Std_UnitsCalculator/fr|Convertisseur d'unités]]
+|[[Std_ViewLoadImage/fr|Charger une image]]
 |[[Std_Tools_Menu/fr|Menu Outils]]
-|IconL=Std_Measure.svg
-|IconR=Std_UnitsCalculator.svg
+|IconL=Std_UnitsCalculator.svg
+|IconR=Std_ViewLoadImage.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{GuiCommand/fr
 |Name=Std ClarifySelection
@@ -46,16 +44,14 @@ La commande '''Std Préciser une sélection''' affiche un menu répertoriant les
 # Cliquez sur un élément pour le sélectionner.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
-|[[Std_Measure/fr|Mesurer]]
 |[[Std_UnitsCalculator/fr|Convertisseur d'unités]]
+|[[Std_ViewLoadImage/fr|Charger une image]]
 |[[Std_Tools_Menu/fr|Menu Outils]]
-|IconL=Std_Measure.svg
-|IconR=Std_UnitsCalculator.svg
+|IconL=Std_UnitsCalculator.svg
+|IconR=Std_ViewLoadImage.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
