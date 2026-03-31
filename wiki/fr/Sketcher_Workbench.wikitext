@@ -82,9 +82,7 @@ Les outils de l'atelier Sketcher se trouvent dans le menu Esquisse et/ou dans pl
 
 Certains outils sont également disponibles dans le menu contextuel de le [[3D_View/fr|vue 3D]] lorsqu'une esquisse est en mode édition, ou dans les menus contextuels de la [[Sketcher_Dialog/fr|boîte de dialogue]].
 
-<div class="mw-translate-fuzzy">
-{{Version/fr|0.21}} : si une esquisse est en mode édition, la barre d'outils Structure est cachée car aucun de ses outils ne peut être utilisé.
-</div> 
+Si une esquisse est en mode édition, la barre d'outils Structure est cachée car aucun de ses outils ne peut être utilisé. 
 
 <span id="General"></span>
 === Généralités ===
