@@ -44,11 +44,11 @@ L'outil '''TechDraw Ligne de référence''' ajoute une ligne à une vue. D'autre
 <span id="Usage_edit"></span>
 ==Édition==
 
-# Double-cliquez sur une ligne de repère dans l'[[Tree_View/fr|arborescence]].
+# Double-cliquez sur une ligne de référence dans l'[[Tree_View/fr|arborescence]].
 # Un panneau de tâches s'ouvre.
 # Pour modifier les points :
 ## Appuyez sur le bouton {{Button|Modifier les points}}.
-## La ligne de repère est marquée par des nœuds temporaires.
+## La ligne de référence est marquée par des nœuds temporaires.
 ## Faites glisser un ou plusieurs nœuds vers une nouvelle position.
 ## Appuyez sur le bouton {{Button|Enregistrer les modifications}}.
 # Vous pouvez modifier le '''Symbole de début''', le '''Symbole de fin''', la '''Couleur''', la '''Largeur''' et le '''Style''' du repère. Voir [[#Propriétés|Propriétés]] pour plus d'informations.
