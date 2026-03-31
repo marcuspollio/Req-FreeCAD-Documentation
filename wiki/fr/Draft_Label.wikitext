@@ -109,7 +109,7 @@ Un objet Draft Label est dérivé d'un objet [[App_FeaturePython/fr|App FeatureP
 {{TitleProperty|Target}}
 
 * {{PropertyData|Target|LinkSub}} : spécifie l'objet et le sous-élément facultatif auquel l'étiquette est liée.
-* {{PropertyData|Target Point|Vector}} : spécifie la position de la pointe de l'attache, qui est l'endroit où la flèche est attachée.
+* {{PropertyData|Target Point|Vector}} : spécifie la position de la pointe de la ligne de référence, qui est l'endroit où la flèche est attachée.
 
 <span id="View"></span>
 === Vue ===
