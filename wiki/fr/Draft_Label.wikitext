@@ -125,12 +125,12 @@ Un objet Draft Label est dérivé d'un objet [[App_FeaturePython/fr|App FeatureP
 
 {{TitleProperty|Graphics}}
 
-* {{PropertyView|Arrow Size Start|Length}} : spécifie la taille du symbole affiché au début de l'attache. {{Version/fr|1.1}}.
-* {{PropertyView|Arrow Type Start|Enumeration}} : spécifie le type de symbole affiché au début de l'attache, qui peut être {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} ou {{value|Tick-2}} ou {{value|None}}. {{Version/fr|1.1}}.
+* {{PropertyView|Arrow Size Start|Length}} : spécifie la taille du symbole affiché au début de la ligne de référence. {{Version/fr|1.1}}.
+* {{PropertyView|Arrow Type Start|Enumeration}} : spécifie le type de symbole affiché au début de la ligne de référence, qui peut être {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} ou {{value|Tick-2}} ou {{value|None}}. {{Version/fr|1.1}}.
 * {{PropertyView|Frame|Enumeration}} : spécifie le type de cadre dessiné autour du texte. Les options pour le moment sont {{Value|None}} ou {{Value|Rectangle}}.
-* {{PropertyView|Line|Bool}} : indique s'il faut afficher la ligne d'attache. S'il est {{FALSE}}, seuls la flèche et le texte sont affichés.
-* {{PropertyView|Line Color|Color}} : spécifie la couleur de l'attache et de la flèche. Également utilisée pour le cadre.
-* {{PropertyView|Line Width|Float}} : spécifie la largeur de l'attache. Également utilisé pour le cadre.
+* {{PropertyView|Line|Bool}} : indique s'il faut afficher la ligne de référence. S'il est {{FALSE}}, seuls la flèche et le texte sont affichés.
+* {{PropertyView|Line Color|Color}} : spécifie la couleur de la ligne de référence et de la flèche. Également utilisée pour le cadre.
+* {{PropertyView|Line Width|Float}} : spécifie la largeur de la ligne de référence. Également utilisé pour le cadre.
 
 {{TitleProperty|Text}}
 
