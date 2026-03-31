@@ -102,9 +102,9 @@ Un objet Draft Label est dérivé d'un objet [[App_FeaturePython/fr|App FeatureP
 
 {{TitleProperty|Leader}}
 
-* {{PropertyData|Points|VectorList}} : spécifie les points de l'attache.
-* {{PropertyData|Straight Direction|Enumeration}} : spécifie la direction du premier segment de l'attache : {{Value|Custom}}, {{Value|Horizontal}} ou {{Value|Vertical}}.
-* {{PropertyData|Straight Distance|Distance}} : spécifie la longueur du premier segment de l'attache. Utilisé uniquement si {{PropertyData|Straight Direction}} est {{Value|Horizontale}} ou {{Value|Verticale}}. Si la distance est positive, l'attache part du côté droit du texte et le texte s'aligne sur la droite. Sinon, l'attache part du côté gauche du texte et le texte s'aligne sur la gauche.
+* {{PropertyData|Points|VectorList}} : spécifie les points de la ligne de référence.
+* {{PropertyData|Straight Direction|Enumeration}} : spécifie la direction du premier segment de la ligne de référence : {{Value|Custom}}, {{Value|Horizontal}} ou {{Value|Vertical}}.
+* {{PropertyData|Straight Distance|Distance}} : spécifie la longueur du premier segment de la ligne de référence. Utilisé uniquement si {{PropertyData|Straight Direction}} est {{Value|Horizontale}} ou {{Value|Verticale}}. Si la distance est positive, l'attache part du côté droit du texte et le texte s'aligne sur la droite. Sinon, l'attache part du côté gauche du texte et le texte s'aligne sur la gauche.
 
 {{TitleProperty|Target}}
 
