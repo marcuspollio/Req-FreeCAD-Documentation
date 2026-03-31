@@ -42,9 +42,7 @@ Das Werkzeug [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGrou
 <span id="Notes"></span>
 ==Hinweise==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Constraints applied to grouped edges are ignored as long as the group constraint is present.
-</div>
+* Auf gruppierte Kanten angewendete Randbedingungen werden ignoriert, solange die Gruppenbeschränkung besteht.
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
