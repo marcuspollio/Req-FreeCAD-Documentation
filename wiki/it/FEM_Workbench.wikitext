@@ -69,7 +69,9 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 <span id="Electromagnetic_Boundary_Conditions"></span>
 === <span id="FEM_CompEmConstraints">Electromagnetic boundary conditions</span><!--Do not edit span id: the FEM_CompEmConstraints pages redirect here--> ===
 
+<div class="mw-translate-fuzzy">
 :* [[Image:FEM_ConstraintElectrostaticPotential.svg|32px]] [[FEM_ConstraintElectrostaticPotential/it|Condizione al contorno del potenziale elettrostatico]]: Utilizzato per la definizione del potenziale elettrostatico.
+</div>
 
 :* [[Image:FEM_ConstraintCurrentDensity.svg|32px]] [[FEM_ConstraintCurrentDensity/it|Condizione al contorno della densità di corrente]]: Utilizzato per definire una densità di corrente. {{Version/it|0.21}}
 
