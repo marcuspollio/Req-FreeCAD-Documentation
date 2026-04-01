@@ -1,6 +1,7 @@
 <languages/>
 {{UnfinishedDocu{{#translation:}}}}
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[BIM_DimensionHorizontal/fr|Dimension horizontale]]
 |[[BIM_Leader/fr|Ligne de référence]]
@@ -9,6 +10,7 @@
 |IconR=BIM_Leader.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/fr
 |Name=BIM DimensionVertical
@@ -35,6 +37,7 @@ L'outil [[Image:BIM_DimensionVertical.svg|24px]] [[BIM_DimensionVertical/fr|BIM 
 # …
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[BIM_DimensionHorizontal/fr|Dimension horizontale]]
 |[[BIM_Leader/fr|Ligne de référence]]
@@ -43,6 +46,7 @@ L'outil [[Image:BIM_DimensionVertical.svg|24px]] [[BIM_DimensionVertical/fr|BIM 
 |IconR=BIM_Leader.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
