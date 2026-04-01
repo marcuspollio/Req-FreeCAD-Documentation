@@ -68,7 +68,8 @@ Teraz, gdy oba cylindry są już na miejscu, chcemy użyć ich do wykonania otwo
 === Kluczowa zaleta modelowania parametrycznego ===
 Teraz, gdy wykonaliśmy już otwory cylindrów, zatrzymajmy się na chwilę, aby zobaczyć jedną z zalet tego systemu. Załóżmy, że na pewnym etapie projektowania okaże się, że cylindry powinny być nieco większe. Ponieważ operacje sumy i przecięcia, które wykonaliśmy, zostały zapisane jako grupy w widoku drzewa, możemy zmienić rozmiar cylindra, a FreeCAD po prostu ponownie wykona operacje sumy i przecięcia, uzyskując nowy rozmiar bloku silnika. Pobaw się chwilę promieniem i położeniem obu cylindrów, a następnie przywróć je do parametrów podanych powyżej, zanim przejdziesz dalej w samouczku.
 
-== The Crankcase ==
+<span id="The_Crankcase"></span>
+== Skrzynia korbowa ==
 
 === Billet and Bearing Caps ===
 
