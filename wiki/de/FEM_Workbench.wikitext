@@ -69,9 +69,7 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 <span id="Electromagnetic_Boundary_Conditions"></span>
 === <span id="FEM_CompEmConstraints">Elektromagnetische Randbedingungen</span><!--Do not edit span id: the FEM_CompEmConstraints pages redirect here--> ===
 
-<div class="mw-translate-fuzzy">
-:* [[Image:FEM_ConstraintElectrostaticPotential.svg|32px]] [[FEM_ConstraintElectrostaticPotential/de|Elektrostatisches Potential]]: Legt ein elektrostatisches Potential fest.
-</div>
+:* [[Image:FEM_ConstraintElectrostaticPotential.svg|32px]] [[FEM_ConstraintElectromagnetic/de|Elektromagnetische Randbedingung]]: Wird verwendet, um das elektrostatische Potential oder ({{Version/de|1.2}}) die magnetische Flussdichte zu definieren.
 
 :* [[Image:FEM_ConstraintCurrentDensity.svg|32px]] [[FEM_ConstraintCurrentDensity/de|Randbedingung Stromdichte]]: Legt eine Stromdichte fest. {{Version/de|0.21}}
 
