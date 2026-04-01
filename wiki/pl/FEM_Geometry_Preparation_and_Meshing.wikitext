@@ -285,9 +285,8 @@ Elementy czworościenne można generować na geometriach powierzchniowych przy p
 
 {{Caption|Siatka z dominującymi elementami quad wygenerowana przez Netgen}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Hex meshes ===
-</div>
+<span id="Hex_meshes"></span>
+=== Siatki hexa ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Hexahedral meshes can be generated on volume geometries using both meshers with some significant limitations:
