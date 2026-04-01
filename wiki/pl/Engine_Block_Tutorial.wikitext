@@ -58,7 +58,8 @@ Po poprawnym ustawieniu właściwości powinieneś zobaczyć okrągłe końce cy
 Drugi cylinder moglibyśmy wykonać w taki sam sposób jak pierwszy, jednak znacznie łatwiej będzie po prostu skopiować istniejący obiekt, ponieważ jedyną różnicą między nimi jest współrzędna X. Aby to zrobić, zaznacz '''Cylinder 1''' w widoku drzewa, a następnie przejdź do {{MenuCommand|Edycja → Powiel zaznaczenie}}. W widoku drzewa pojawi się nowy cylinder (od razu nazwij go '''Cylinder 2'''), jednak nie będzie go widać w widoku 3D, ponieważ znajduje się dokładnie w tym samym miejscu co pierwszy cylinder. Teraz zaznacz '''Cylinder 2''' w Widoku drzewa i zmień jego współrzędną X na 100 mm. Zauważ, że już podczas zmieniania wartości w polu danych cylinder będzie przesuwał się w widoku 3D.
 Gdy drugi cylinder zostanie prawidłowo ustawiony, możesz zobaczyć, jak wyglądają razem, zaznaczając '''Billet''' w widoku drzewa i naciskając {{KEY|Spacebar}}, aby go ukryć (zauważ, że ukryte obiekty są wyszarzone w Widoku drzewa). Ukryj po kolei wszystkie trzy obiekty, a następnie ponownie pokaż je wszystkie.
 
-===  Boring out the Cylinders ===
+<span id="Boring_out_the_Cylinders"></span>
+===  Wywiercanie Cylindrów ===
 
 [[Image: Engine Block Tutorial - Bored Block.png|thumb|right|300px]]
 
