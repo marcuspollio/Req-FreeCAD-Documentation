@@ -2,17 +2,17 @@
 {{UnfinishedDocu{{#translation:}}}}
 
 {{Docnav
-|[[BIM_Text|Text]]
-|[[BIM_DimensionHorizontal|Horizontal dimension]]
+|[[Arch_Reference|Reference]]
+|[[BIM_DimensionHorizontal|DimensionHorizontal]]
 |[[BIM_Workbench|BIM]]
-|IconL=BIM_Text.svg
+|IconL=Arch_Reference.svg
 |IconR=BIM_DimensionHorizontal.svg
 |IconC=Workbench_BIM.svg
 }}
 
 {{GuiCommand
 |Name=BIM DimensionAligned
-|MenuLocation=Annotation → Aligned dimension
+|MenuLocation=Annotation → Aligned Dimension
 |Workbenches=[[BIM_Workbench|BIM]]
 |Shortcut={{KEY|D}} {{KEY|I}}
 |Version=1.0
@@ -21,22 +21,22 @@
 
 == Description ==
 
-The [[Image:BIM_DimensionAligned.svg|24px]] [[BIM_DimensionAligned|BIM DimensionAligned]] tool creates an aligned dimension, a '''Dimension''' object...
+The [[Image:BIM_DimensionAligned.svg|24px]] [[BIM_DimensionAligned|BIM DimensionAligned]] tool creates an aligned dimension, a '''Dimension''' object…
 
 ==Usage==
 
 # There are several ways to invoke the tool:
-#* Press the {{Button|[[Image:BIM_DimensionAligned.svg|16px]] [[BIM_DimensionAligned|Aligned dimension]]}} button.
-#* Select the {{MenuCommand|3D/BIM → [[Image:BIM_DimensionAligned.svg|16px]] Aligned dimension}} option from the menu.
+#* Press the {{Button|[[Image:BIM_DimensionAligned.svg|16px]] [[BIM_DimensionAligned|Aligned Dimension]]}} button.
+#* Select the {{MenuCommand|3D/BIM → [[Image:BIM_DimensionAligned.svg|16px]] Aligned Dimension}} option from the menu.
 #* Use the keyboard shortcut: {{KEY|D}} then {{KEY|I}}.
-# ...
+# …
 
 
 {{Docnav
-|[[BIM_Text|Text]]
-|[[BIM_DimensionHorizontal|Horizontal dimension]]
+|[[Arch_Reference|Reference]]
+|[[BIM_DimensionHorizontal|DimensionHorizontal]]
 |[[BIM_Workbench|BIM]]
-|IconL=BIM_Text.svg
+|IconL=Arch_Reference.svg
 |IconR=BIM_DimensionHorizontal.svg
 |IconC=Workbench_BIM.svg
 }}
