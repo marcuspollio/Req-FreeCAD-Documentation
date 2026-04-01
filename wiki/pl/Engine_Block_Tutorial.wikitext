@@ -37,7 +37,7 @@ Gdy masz już swój sześcian i czujesz się swobodnie z obsługą myszy, zaczni
 |-
 |}
 
-Now that you have your engine block dimensioned properly we should give it a more descriptive name.  Select it in the tree view and either right click to rename it or press the key {{KEY|F2}} on your keyboard.  Name this part '''Billet'''.
+Teraz, gdy blok silnika ma już prawidłowo ustawione wymiary, powinniśmy nadać mu bardziej opisową nazwę. Zaznacz go w widoku drzewa i kliknij prawym przyciskiem myszy, aby zmienić nazwę, lub naciśnij klawisz {{KEY|F2}} na klawiaturze. Nazwij tę część '''Billet'''.
 
 === The First Cylinder ===
 Next we will carve out the first cylinder all the way through the engine block.  To do this we will add a cylinder to the model with the size we want to bore out and then do a Boolean operation to ''subtract'' the material away from the block.  Click the add cylinder button ([[Image:Part_Cylinder.svg|16px]]) to create a new cylinder and then select it in the tree view and set its properties to the following:
