@@ -35,9 +35,7 @@ Jeśli część jest smukła (długa i cienka), przypomina belkę i ma regularny
 
 Należy po prostu narysować linię środkową ''(kilka rad na temat jej uzyskiwania z istniejącej geometrii bryłowej można znaleźć w [https://forum.freecad.org/viewtopic.php?t=81589 tym wątku na forum] - w skrócie, użyj [[Draft_Wire/pl|Polilinii]] lub [[Draft_BSpline/pl|Krzywej złożoej]] z odpowiednim [[Draft_Workbench/pl#Pasek_narzędzi_Rysunek_roboczy:_Przyciągnij|przyciąganiem]] i [[Draft_Line/pl|liniami]] jako geometriami pomocniczymi)'' i zdefiniować odpowiedni [[FEM_ElementGeometry1D/pl|przekrój belki]] z opcjonalnym [[FEM_ElementRotation1D/pl|obrotem]]. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-There's no single rule dictating when beam elements can be used, but it's often advised that the cross-section dimensions should be < 1/10 of the part's length for the beam assumption to be valid.
-</div>
+Nie ma jednej przyjętej zasady, kiedy można używać elementów belkowych, ale często zaleca się, aby wymiary przekroju były < 1/10 długości części, żeby można było zastosować teorię belek.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Version|1.1}}: Very slender beams may have negligible bending stiffness and '''truss''' elements can be used to model them. These elements cannot sustain bending. They only transmit axial forces, not moments. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]]. Instead of a profile, the {{PropertyData|Truss Area}} property of the [[FEM_ElementGeometry1D|FEM ElementGeometry1D]] object is used to define their cross-section.
