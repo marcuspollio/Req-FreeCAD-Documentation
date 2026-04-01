@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[BIM_SetWPTop/fr|Plan de travail en haut]]
-|[[BIM_Copy/fr|Copier]]
+|[[BIM_Clone/fr|Cloner]]
 |[[BIM_Workbench/fr|Atelier BIM]]
 |IconL=BIM_SetWPTop.svg
-|IconR=BIM_Copy.svg
+|IconR=BIM_Clone.svg
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{GuiCommand/fr
 |Name=BIM SetWPSide
