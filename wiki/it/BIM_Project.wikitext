@@ -51,7 +51,9 @@ Quando si inserisce un file IFC, viene creato un oggetto di progetto che contien
 <span id="Locked_and_unlocked_mode"></span>
 ==Modalità bloccata e sbloccata==
 
+<div class="mw-translate-fuzzy">
 Nell'[[BIM_Workbench/it|Ambiente BIM]], la barra di stato presenta un pulsante {{Button|[[Image:IFC.svg|16px]] [[NativeIFC/it#Locked_and_unlocked_modes|Blocca IFC]]}} che consente di alternare tra '''bloccato''' e '''sbloccato'''. Una volta sbloccato, è possibile avere diversi [[BIM Project/it|progetti]] all'interno del proprio documento FreeCAD e avere anche elementi IFC e non IFC.
+</div>
 
 In modalità bloccata, i dati associati all'oggetto del progetto vengono associati direttamente al documento di FreeCAD. Il documento di FreeCAD agisce come una replica fedele, o rendering, del documento IFC. L'oggetto del progetto viene quindi rimosso. E' possibile avere un solo progetto nel proprio documento FreeCAD e non è più possibile  avere oggetti non IFC (ogni nuovo oggetto viene immediatamente convertito in IFC).
 
