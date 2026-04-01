@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[BIM_SetWPSide/fr|Plan de travail de côté]]
 |[[BIM_Clone/fr|Cloner]]
@@ -8,6 +9,7 @@
 |IconR=BIM_Clone.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/fr
 |Name=BIM Copy
@@ -22,6 +24,7 @@
 L’outil [[Image:BIM_Copy.svg|24px]] [[BIM_Copy/fr|BIM Copie]] est un raccourci vers l’outil standard [[Draft_Move/fr|Draft Déplacer]] mais en commençant par son option '''Copier''' ce qui permet de créer une copie d’un objet et de le placer à un endroit donné, en une fois.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[BIM_SetWPSide/fr|Plan de travail de côté]]
 |[[BIM_Clone/fr|Cloner]]
@@ -30,6 +33,7 @@ L’outil [[Image:BIM_Copy.svg|24px]] [[BIM_Copy/fr|BIM Copie]] est un raccourci
 |IconR=BIM_Clone.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
