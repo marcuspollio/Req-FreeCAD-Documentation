@@ -31,14 +31,18 @@ While most designs consist of solids, it's often highly recommended to use wires
 <!--T:13-->
 One should remember that beam, shell, plane stress/strain, and axisymmetric elements discussed below, if used in CalculiX, are not true elements of this kind (they don't use the classic element formulations known from literature and other software) - they are internally expanded to solids. Still, their use is recommended in the aforementioned cases, even in CalculiX.
 
-=== Beam models ===
+=== Beam models === <!--T:89-->
 
+<!--T:90-->
 If a part is slender (long and thin) and beam-like and has a regular cross-section of one of the currently supported beam section types (rectangular, circular, or pipe), then it should be analyzed using beam elements (unless there are some specific forms of loading, response, or unavoidable geometry details that invalidate this assumption). 
 
+<!--T:91-->
 Basically, one should draw a centerline (some tips on how to extract it from existing solid geometry can be found in [https://forum.freecad.org/viewtopic.php?t=81589 this forum thread] - in short, use [[Draft_Wire|Draft Wire]] or [[Draft_BSpline|Draft BSpline]] with proper [[Draft_Workbench#Draft_snap_toolbar|snaps]] and [[Draft_Line|lines]] as supports) and apply [[FEM_ElementGeometry1D|beam section]] with optional [[FEM_ElementRotation1D|rotation]]. 
 
+<!--T:92-->
 There's no single rule dictating when beam elements can be used, but it's often advised that the cross-section dimensions should be < 1/10 of the part's length for the beam assumption to be valid.
 
+<!--T:93-->
 {{Version|1.1}}: Very slender beams may have negligible bending stiffness and '''truss''' elements can be used to model them. These elements cannot sustain bending. They only transmit axial forces, not moments. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]]. Instead of a profile, the {{PropertyData|Truss Area}} property of the [[FEM_ElementGeometry1D|FEM ElementGeometry1D]] object is used to define their cross-section.
 
 </translate>
@@ -47,15 +51,18 @@ There's no single rule dictating when beam elements can be used, but it's often 
 <!--T:9-->
 {{Caption|Slender part suitable for analysis with beam elements - centerline highlighted}}
 
-=== Shell models ===
+=== Shell models === <!--T:94-->
 
 <!--T:10-->
 If a part is thin-walled (such as sheet metal parts), then it should be analyzed using shell elements (unless accurate contact results are needed or some limitations of shell elements are encountered). This is very important and often overlooked. To obtain proper accuracy of results (especially when bending is involved), one needs a few elements (at least 3-5) in the thickness direction. In the case of thin-walled parts, this usually results in large meshes (especially when tetrahedrons are used since hexahedral elements can't be generated in FreeCAD) and high computational cost - high computer power requirements and long solving time. 
 
+<!--T:95-->
 To obtain the geometry suitable for analysis with shell elements, one should draw a midsurface of the part (some tips on how to extract it from existing solid geometry can be found in [https://forum.freecad.org/viewtopic.php?t=67505 this forum thread], [https://forum.freecad.org/viewtopic.php?t=71821 this one] and [https://forum.freecad.org/viewtopic.php?t=81834 this one] - in short, apply [[PartDesign_SubShapeBinder|PartDesign SubShapeBinder]] or [[Draft_Facebinder|Draft Facebinder]], then [[Part_Offset|Part Offset]] and finally use SubShapeBinder and [[Part_Extrude|Extrude]] to extend edges of the midsurfaces and thus close the gaps between them) and apply proper [[FEM_ElementGeometry2D|thickness]]. 
 
+<!--T:96-->
 Again, there's no single rule regarding the applicability of shell elements, but it's usually recommended that the thickness should be < 1/10 of a typical global dimension (length/width) for the shell assumption to be valid.
 
+<!--T:97-->
 {{Version|1.1}}: Very thin shells may have negligible bending stiffness and '''membrane''' elements can be used to model them. These elements cannot sustain bending. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]].
 
 </translate>
@@ -64,7 +71,7 @@ Again, there's no single rule regarding the applicability of shell elements, but
 <!--T:12-->
 {{Caption|Thin-walled part suitable for analysis with shell elements - midsurface highlighted}}
 
-=== Planar models ===
+=== Planar models === <!--T:98-->
 
 <!--T:54-->
 In some cases, 2D analyses are also possible and can be enabled by setting the {{PropertyData|Model Space}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]]:
@@ -282,8 +289,10 @@ Selection of internal regions (e.g. faces/volumes) can be tricky. It might be ne
 [[Image:Fem_references.PNG|800px]]
 <translate>
 
+<!--T:99-->
 {{Caption|Manually editing the ''References'' property}}
 
+<!--T:100-->
 {{Version|1.1}}: If the selected face of CompSolid (Boolean fragments with CompSolid mode + Compound filter standard workflow described in the [[#Assembly_geometries|Assembly geometries]] section) belongs to two solids, a pop-up menu appears, allowing the selection of the proper solid.
 
 == Meshing basics == <!--T:36-->
@@ -321,10 +330,11 @@ The choice of element type is not easy and depends on many factors but the gener
 <!--T:45-->
 The choice of element order (first or second) depends on the analysis conditions but in most cases, second-order elements are preferred. This is particularly the case with triangular and tetrahedral elements - their first-order (linear) versions are normally not recommended for regular usage and they should be used only as filler elements in regions of low importance. However, since FreeCAD can't properly generate hexahedral elements, linear tetrahedrons can be used in some cases, if the meshes are dense enough. Especially when performing analyses with [[FEM_ConstraintContact|contact]].
 
-== Quad and hex meshes ==
+== Quad and hex meshes == <!--T:101-->
 
-=== Quad meshes ===
+=== Quad meshes === <!--T:102-->
 
+<!--T:103-->
 Quadrilateral elements can be generated on surface geometries using both meshers:
 * [[FEM_MeshGmshFromShape|Gmsh]] - set the {{PropertyData|Algorithm 2D}} property to ''Quasi-structured Quad'' (currently, it doesn't work for 2nd order elements) or enable the {{PropertyData|Recombine All}} property and select the {{PropertyData|Recombination Algorithm}},
 * [[FEM_MeshNetgenFromShape|Netgen]] - enable the {{PropertyData|Quad Dominated}} property.
@@ -333,10 +343,12 @@ Quadrilateral elements can be generated on surface geometries using both meshers
 [[Image:Quad_mesh.PNG|400px]]
 <translate>
 
+<!--T:104-->
 {{Caption|Quad-dominated mesh generated with Netgen}}
 
-=== Hex meshes ===
+=== Hex meshes === <!--T:105-->
 
+<!--T:106-->
 Hexahedral meshes can be generated on volume geometries using both meshers with some significant limitations:
 * [[FEM_MeshGmshFromShape|Gmsh]] - set the {{PropertyData|Subdivision Algorithm}} to ''All Hexahedra'' - however, the resulting elements are not shaped as expected from hexahedral meshes used in practice,
 * [[FEM_MeshGmshFromShape|Netgen]] - {{Version|1.1}}: for simple extruded shapes, hex or hex-dominated meshes can be created by extrusion if the {{PropertyData|Quad Dominated}} property is enabled and the {{PropertyData|ZRefine}} property is set to ''Regular'' (''Custom'' requires specifying the height of each element in the extrusion direction). The extrusion direction can be changed from the default Z using the {{PropertyData|ZRefine Direction}} property. Element height can be specified as a fraction of the total height using the {{PropertyData|ZRefine Size}} property. This approach works only for first-order meshes (unless the generated elements are all hexahedrons).
@@ -345,6 +357,7 @@ Hexahedral meshes can be generated on volume geometries using both meshers with 
 [[Image:Z_refine.PNG|400px]]
 <translate>
 
+<!--T:107-->
 {{Caption|Hex-dominated mesh generated with Netgen's ZRefine algorithm}}
 
 == Negative Jacobians == <!--T:51-->
