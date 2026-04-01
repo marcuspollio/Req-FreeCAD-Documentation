@@ -24,23 +24,71 @@
 <span id="Choice_of_the_type_of_geometry"></span>
 == Выбор типа геометрии ==
 
+<div class="mw-translate-fuzzy">
 Хотя большинство конструкций состоят из тел, часто настоятельно рекомендуется использовать линии или поверхности для МКЭ, если структура это позволяет:
 * Если деталь является тонкой (длинной и узкой) и похожа на балку с регулярным поперечным сечением одного из поддерживаемых типов сечений балок (прямоугольное, круглое или трубчатое), то её следует анализировать с использованием балочных элементов (за исключением случаев, когда специфические виды нагрузки, реакции или неизбежные геометрические детали делают это предположение недействительным). В основном, необходимо нарисовать центральную линию (некоторые советы по её извлечению из существующей геометрии тела можно найти в [https://forum.freecad.org/viewtopic.php?t=81589 этой теме форума] — вкратце, используйте [[Draft_Wire|Draft Wire]] или [[Draft_BSpline|Draft BSpline]] с соответствующими [[Draft_Workbench#Draft_snap_toolbar|привязками]] и [[Draft_Line|линиями]] в качестве опор) и применить [[FEM_ElementGeometry1D|сечение балки]] с опциональным [[FEM_ElementRotation1D|поворотом]]. Не существует единого правила, определяющего, когда можно использовать балочные элементы, но часто рекомендуется, чтобы размеры поперечного сечения составляли менее 1/10 длины детали, чтобы предположение о балке считалось действительным.
+</div>
+
+<div class="mw-translate-fuzzy">
+Следует помнить, что балочные, оболочечные, плосконапряжённые/плоскодеформированные и осесимметричные элементы, используемые в CalculiX, не являются настоящими элементами такого типа (они не используют классические формулировки элементов, известные из литературы и других программ). Внутренне они преобразуются в объёмные элементы. Тем не менее, их использование рекомендуется в вышеупомянутых случаях.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Beam models ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+If a part is slender (long and thin) and beam-like and has a regular cross-section of one of the currently supported beam section types (rectangular, circular, or pipe), then it should be analyzed using beam elements (unless there are some specific forms of loading, response, or unavoidable geometry details that invalidate this assumption).
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Basically, one should draw a centerline (some tips on how to extract it from existing solid geometry can be found in [https://forum.freecad.org/viewtopic.php?t=81589 this forum thread] - in short, use [[Draft_Wire|Draft Wire]] or [[Draft_BSpline|Draft BSpline]] with proper [[Draft_Workbench#Draft_snap_toolbar|snaps]] and [[Draft_Line|lines]] as supports) and apply [[FEM_ElementGeometry1D|beam section]] with optional [[FEM_ElementRotation1D|rotation]].
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+There's no single rule dictating when beam elements can be used, but it's often advised that the cross-section dimensions should be < 1/10 of the part's length for the beam assumption to be valid.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}: Very slender beams may have negligible bending stiffness and '''truss''' elements can be used to model them. These elements cannot sustain bending. They only transmit axial forces, not moments. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]]. Instead of a profile, the {{PropertyData|Truss Area}} property of the [[FEM_ElementGeometry1D|FEM ElementGeometry1D]] object is used to define their cross-section.
+</div>
 
 [[Image:FEM_beam_model.JPG|600px]]
 {{Caption|Тонкая деталь, подходящая для анализа с балочными элементами — выделена центральная линия}}
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Shell models ===
+</div>
+
+<div class="mw-translate-fuzzy">
 * Если деталь имеет тонкие стенки (например, детали из листового металла), её следует анализировать с использованием оболочечных элементов (за исключением случаев, когда требуются точные результаты контакта или сталкиваются с ограничениями оболочечных элементов). Это очень важно и часто упускается из виду. Для достижения должной точности результатов (особенно при изгибе) необходимо использовать несколько элементов (не менее 3–5) в направлении толщины. В случае деталей с тонкими стенками это обычно приводит к созданию больших сеток (особенно при использовании тетраэдров, поскольку гексаэдральные элементы не могут быть сгенерированы в FreeCAD) и высокой вычислительной стоимости — высокие требования к вычислительной мощности и длительное время решения. Чтобы получить геометрию, подходящую для анализа с оболочечными элементами, следует нарисовать срединную поверхность детали (некоторые советы по её извлечению из существующей геометрии тела можно найти в [https://forum.freecad.org/viewtopic.php?t=67505 этой теме форума], [https://forum.freecad.org/viewtopic.php?t=71821 этой] и [https://forum.freecad.org/viewtopic.php?t=81834 этой] — вкратце, примените [[PartDesign_SubShapeBinder|PartDesign SubShapeBinder]] или [[Draft_Facebinder|Draft Facebinder]], затем [[Part_Offset|Part Offset]] и, наконец, используйте SubShapeBinder и [[Part_Extrude|Extrude]] для расширения краёв срединных поверхностей, чтобы закрыть зазоры между ними) и применить соответствующую [[FEM_ElementGeometry2D|толщину]]. Опять же, нет единого правила, но обычно рекомендуется, чтобы толщина составляла менее 1/10 от типичного глобального размера (длины/ширины), чтобы предположение об оболочке считалось действительным.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To obtain the geometry suitable for analysis with shell elements, one should draw a midsurface of the part (some tips on how to extract it from existing solid geometry can be found in [https://forum.freecad.org/viewtopic.php?t=67505 this forum thread], [https://forum.freecad.org/viewtopic.php?t=71821 this one] and [https://forum.freecad.org/viewtopic.php?t=81834 this one] - in short, apply [[PartDesign_SubShapeBinder|PartDesign SubShapeBinder]] or [[Draft_Facebinder|Draft Facebinder]], then [[Part_Offset|Part Offset]] and finally use SubShapeBinder and [[Part_Extrude|Extrude]] to extend edges of the midsurfaces and thus close the gaps between them) and apply proper [[FEM_ElementGeometry2D|thickness]].
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Again, there's no single rule regarding the applicability of shell elements, but it's usually recommended that the thickness should be < 1/10 of a typical global dimension (length/width) for the shell assumption to be valid.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}: Very thin shells may have negligible bending stiffness and '''membrane''' elements can be used to model them. These elements cannot sustain bending. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]].
+</div>
 
 [[Image:FEM_shell_model.JPG|600px]]
 {{Caption|Деталь с тонкими стенками, подходящая для анализа с оболочечными элементами — выделена срединная поверхность}}
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Planar models ===
+</div>
+
+<div class="mw-translate-fuzzy">
 * В некоторых случаях также возможны 2D-анализы, которые можно включить, установив свойство {{PropertyData|Model Space}} решателя [[FEM_SolverCalculixCcxtools|CalculiX]]:
 ** Плоское напряжение — для тонких деталей, которые можно упростить до плоских поверхностей, представляющих профиль для выдавливания (толщина задаётся так же, как для оболочек), которые нагружаются и деформируются только в плоскости и имеют нулевое напряжение в направлении, перпендикулярном плоскости. Доступны только две степени свободы — перемещения по X и Y. Поверхности в этом случае должны лежать в плоскости XY. Этот подход довольно распространён. Например, тонкая пластина, подверженная растяжению, может быть проанализирована таким образом.
 ** Плоская деформация — для толстых деталей, которые можно упростить до плоских поверхностей, представляющих профиль для выдавливания (толщина задаётся так же, как для оболочек), которые нагружаются и деформируются только в плоскости и имеют нулевую деформацию в направлениях, перпендикулярных плоскости. Доступны только две степени свободы — перемещения по X и Y. Поверхности в этом случае должны лежать в плоскости XY. Этот подход менее распространён. Например, длинная плотина, стена или труба, подверженная равномерному давлению по всей длине, может быть проанализирована таким образом.
 ** Осесимметричный — для деталей, которые можно упростить до плоских поверхностей, представляющих профиль вращения (толщина здесь не имеет значения), и которые нагружаются равномерно по всей окружности. Доступны только две степени свободы — радиальное и осевое перемещение. Поверхности должны лежать в плоскости XY, справа от оси Y. Этот подход очень распространён. Например, некоторые сосуды под давлением, резиновые опоры, втулки, прокладки, фланцы и даже болтовые соединения (с учётом резьбы как осесимметричной) могут быть проанализированы таким образом.
-
-Следует помнить, что балочные, оболочечные, плосконапряжённые/плоскодеформированные и осесимметричные элементы, используемые в CalculiX, не являются настоящими элементами такого типа (они не используют классические формулировки элементов, известные из литературы и других программ). Внутренне они преобразуются в объёмные элементы. Тем не менее, их использование рекомендуется в вышеупомянутых случаях.
+</div>
 
 <span id="Geometry_validity"></span>
 == Корректность геометрии ==
@@ -173,12 +221,14 @@
 <span id="Assembly_geometries"></span>
 == Геометрии сборок ==
 
+<div class="mw-translate-fuzzy">
 Одним из текущих основных ограничений модуля МКЭ является отсутствие поддержки нескольких сеток. На практике это означает, что нельзя создать сетку для каждой детали сборки отдельно, а затем соединить их с помощью соответствующих ограничений для анализа. Вместо этого необходимо создать единый объект, содержащий все детали сборки, и разбить его на сетку. Здесь есть несколько различных вариантов, все они основаны на [[Part_Workbench#Boolean_toolbar|булевых инструментах модуля Part]]. Выбор зависит от желаемого результата — должны ли отдельные детали/объёмы и их границы быть доступными для выбора (например, для назначения материалов или определения граничных условий, действующих на внутренние грани) или нет:
 * [[Part_Fuse|Part Fuse]] — объединяет детали, делая невозможным их индивидуальный выбор, например, для определения материалов,
 * [[Part_Compound|Part Compound]] — создаёт составной объект, позволяя выбирать отдельные детали,
 * [[Part_JoinConnect|Part JoinConnect]] — работает как Part Fuse, объединяет детали, делая невозможным их индивидуальный выбор,
 * [[Part_BooleanFragments|Part BooleanFragments]] — работает как Part Compound, позволяя выбирать отдельные детали.
 Важно отметить, что если детали точно соприкасаются, на булевом объекте будет создана непрерывная сетка, и для симуляции не потребуются дополнительные ограничения (за исключением случаев, когда используется Part Compound и узлы не совпадают, или свойство [[FEM_MeshGmshFromShape#Properties|«Coherence Mesh» Gmsh]] установлено в {{FALSE}}). Если между деталями есть даже небольшой зазор (или пересечение в случае Part Compound), сетка не будет непрерывной, и потребуются ограничения, такие как [[FEM_ConstraintTie|связывание]] или [[FEM_ConstraintContact|контакт]]. Проведение частотного анализа — хороший способ определить, является ли сетка непрерывной: если детали не соединены, первые формы мод с визуализированной деформацией с помощью [[FEM_PostFilterWarp|фильтра деформации]] покажут разделение — детали будут «разлетаться».
+</div>
 
 [[Image:FEM_modal_separation.JPG|400px]]
 {{Caption|Первая форма моды частотного анализа, визуализированная с помощью фильтра деформации — анализировались два куба с небольшим начальным зазором}}
@@ -211,11 +261,23 @@ to element …
 <span id="Selection_of_interior_entities"></span>
 === Выбор внутренних элементов ===
 
+<div class="mw-translate-fuzzy">
 Выбор внутренних регионов (например, граней/объёмов) может быть сложным. Это может потребоваться для применения различных материалов, объёмных нагрузок или граничных условий (особенно в тепловых и электромагнитных анализах). Возможны несколько способов:
 * включение [[Std_ToggleClipPlane|отсекающей плоскости]] на время выбора и указание внутренних граней,
 * скрытие булева объекта, отображение только одной из деталей, к которой он был применён, и выбор её,
 * включение [[Std_ToggleTransparency|прозрачности]] и использование [[Selection_View|Представления выбора]] с включённой опцией «Список выбранных объектов», как описано [https://forum.freecad.org/viewtopic.php?t=96984#p826693 здесь],
 * выбор другого внешнего объекта и редактирование свойства «References» на вкладке «Data» для данной характеристики анализа (требует ручного указания номера геометрического объекта).
+</div>
+
+[[Image:Fem_references.PNG|800px]]
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Caption|Manually editing the ''References'' property}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}: If the selected face of CompSolid (Boolean fragments with CompSolid mode + Compound filter standard workflow described in the [[#Assembly_geometries|Assembly geometries]] section) belongs to two solids, a pop-up menu appears, allowing the selection of the proper solid.
+</div>
 
 <span id="Meshing_basics"></span>
 == Основы создания сетки ==
@@ -238,18 +300,57 @@ to element …
 <span id="Choosing_element_type"></span>
 === Выбор типа элемента ===
 
+<div class="mw-translate-fuzzy">
 Выбор типа элемента — задача непростая и зависит от множества факторов, однако общее правило заключается в том, что гексагональные и квадратные элементы предпочтительнее тетраэдрических и треугольных. Тем не менее, сложные геометрии невозможно разбить на сетку с гексагональными элементами, и FreeCAD не способен корректно их генерировать (только с использованием алгоритма Subdivision генератора сетки Gmsh, но результаты отличаются от ожидаемых для гексагональной сетки).
 
 Квадратные или преимущественно квадратные сетки могут быть нормально сгенерированы на поверхностях — см. [[https://forum.freecad.org/viewtopic.php?t=20351](https://forum.freecad.org/viewtopic.php?t=20351) эту тему на форуме]. Гексагональные элементы можно импортировать из внешних генераторов сеток, таких как [[https://gmsh.info](https://gmsh.info) Gmsh], и использовать в рабочей среде FEM, как показано в [[https://www.youtube.com/watch?v=vylt24G7qj4&t=932s](https://www.youtube.com/watch?v=vylt24G7qj4&t=932s) этом видео].
+</div>
 
 <span id="Choosing_element_order"></span>
 === Выбор порядка элементов ===
 
 Выбор порядка элементов (первого или второго) зависит от условий анализа, но в большинстве случаев предпочтение отдаётся элементам второго порядка. Это особенно важно для треугольных и тетраэдрических элементов — их элементы первого порядка (линейные) обычно не рекомендуются для регулярного использования и должны применяться только как заполняющие элементы в областях, не имеющих большого значения. Однако, поскольку FreeCAD не может корректно генерировать гексагональные элементы, в некоторых случаях можно использовать линейные тетраэдры, если сетка достаточно плотная. Особенно это актуально при выполнении анализов с [[FEM_ConstraintContact|контактами]].
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Quad and hex meshes ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Quad meshes ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Quadrilateral elements can be generated on surface geometries using both meshers:
+* [[FEM_MeshGmshFromShape|Gmsh]] - set the {{PropertyData|Algorithm 2D}} property to ''Quasi-structured Quad'' (currently, it doesn't work for 2nd order elements) or enable the {{PropertyData|Recombine All}} property and select the {{PropertyData|Recombination Algorithm}},
+* [[FEM_MeshNetgenFromShape|Netgen]] - enable the {{PropertyData|Quad Dominated}} property.
+</div>
+
+[[Image:Quad_mesh.PNG|400px]]
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Caption|Quad-dominated mesh generated with Netgen}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Hex meshes ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Hexahedral meshes can be generated on volume geometries using both meshers with some significant limitations:
+* [[FEM_MeshGmshFromShape|Gmsh]] - set the {{PropertyData|Subdivision Algorithm}} to ''All Hexahedra'' - however, the resulting elements are not shaped as expected from hexahedral meshes used in practice,
+* [[FEM_MeshGmshFromShape|Netgen]] - {{Version|1.1}}: for simple extruded shapes, hex or hex-dominated meshes can be created by extrusion if the {{PropertyData|Quad Dominated}} property is enabled and the {{PropertyData|ZRefine}} property is set to ''Regular'' (''Custom'' requires specifying the height of each element in the extrusion direction). The extrusion direction can be changed from the default Z using the {{PropertyData|ZRefine Direction}} property. Element height can be specified as a fraction of the total height using the {{PropertyData|ZRefine Size}} property. This approach works only for first-order meshes (unless the generated elements are all hexahedrons).
+</div>
+
+[[Image:Z_refine.PNG|400px]]
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Caption|Hex-dominated mesh generated with Netgen's ZRefine algorithm}}
+</div>
+
 <span id="Negative_Jacobians"></span>
 == Отрицательные якобианы ==
 
+<div class="mw-translate-fuzzy">
 Если соблюдать приведённые выше правила (особенно касающиеся корректности геометрии, упрощения модели и выбора размера элемента), сетка должна генерироваться корректно. Однако в некоторых случаях геометрию невозможно сильно упростить, или же сама процедура моделирования корректна, но всё равно приводит к появлению мелких рёбер и граней. В таких ситуациях генерация сетки с элементами второго порядка может завершиться неудачей из-за отрицательных якобианов.
 
 Причина заключается в том, что генераторы сеток должны следовать форме CAD-модели и размещать узлы середины сторон элементов второго порядка непосредственно на геометрию. Для сложных форм это может привести к чрезмерному растяжению элементов, из-за чего они становятся инвертированными. Якобиан является одной из наиболее распространённых мер качества сетки — он отражает отклонение элемента от его идеальной формы. Он становится отрицательным, когда элемент «выворачивается наизнанку» (инвертируется) — либо вследствие сильной деформации во время анализа (не рассматривается здесь), либо из-за указанных выше проблем при генерации сетки.
@@ -261,6 +362,7 @@ to element …
 * дополнительно уменьшить размер элемента;
 * экспортировать геометрию и попробовать создать сетку в интерфейсе Gmsh или Netgen (NGSolve) либо в другом отдельном генераторе сеток, таком как Salome_Meca — эти инструменты имеют дополнительные функции для устранения отрицательных якобианов (например, в Gmsh есть так называемые «High-order tools»);
 * использовать элементы первого порядка — этот вариант следует рассматривать только как последнее средство, поскольку тетраэдры первого порядка известны своей низкой точностью.
+</div>
 
 Независимо от приведённых выше рекомендаций, важно ещё раз подчеркнуть, что отрицательные якобианы обычно являются следствием неаккуратного моделирования и отсутствия подготовки геометрии к анализу (особенно часто это встречается в STEP-моделях, загруженных с различных сайтов). Даже если в таких случаях сетку всё же удаётся сгенерировать, результаты, скорее всего, будут низкого качества (вспомните правило GIGO, упомянутое в первом абзаце). Поэтому очистка и подготовка геометрии к анализу в FEM всегда должны быть приоритетом.
 
