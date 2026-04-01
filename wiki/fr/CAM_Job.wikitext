@@ -57,10 +57,9 @@ La fenêtre de dialogue GUI de la Tâche comporte cinq onglets alignés horizont
 ** '''%M''' répertoire de la macro de l'utilisateur
 ** '''%j''' nom de la tâche
 
-<div class="mw-translate-fuzzy">
 * '''Processeur''' : sélectionne le [[CAM_Post/fr|post-processeur]] pour votre machine.
 * '''Arguments''' : ajoute des arguments pour le [[CAM_Post/fr|post-processeur]] si nécessaire.
-</div>
+* '''Machine''' : vous pouvez sélectionner une configuration de machine. Lorsqu'une machine est sélectionnée, cela définit le post-processeur et les paramètres de sortie associés pour la tâche.
 
 <span id="Setup"></span>
 == Installation ==
