@@ -9,16 +9,14 @@
 |IconC=Workbench_BIM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/fr
 |Name=Arch Axis
 |Name/fr=Arch Axes
-|MenuLocation=Annotation → Axes
+|MenuLocation=Annotation → Outils des axes → Axes
 |Workbenches=[[BIM_Workbench/fr|BIM]]
 |Shortcut={{KEY|A}} {{KEY|X}}
 |SeeAlso=[[Arch_AxisSystem/fr|Arch Système d'axes]], [[Arch_Grid/fr|Arch Grille]]
 }}
-</div>
 
 ==Description==
 
