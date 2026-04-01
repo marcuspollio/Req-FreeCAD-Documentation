@@ -11,12 +11,10 @@
 <span id="Features"></span>
 ==Funkcjonalność==
 
-<div class="mw-translate-fuzzy">
 * Zawiera zestaw narzędzi do edycji kształtu lub modelu STEP, usuwania otworów, ścian, upraszczania modelu, zmiany tolerancji, stosowania rozmytych operacji logicznych itp.
 * Istnieją również narzędzia do utworzenia brył z krawędzi, ścian lub powłok. 
 * Możliwe jest również użycie bezpośredniego modelowania modelu, gdy historia operacji jest niedostępna ''(Dotyczy to modeli 3D STEP)''.
 * Przydatne w sytuacjach wymagających szybkiego usunięcia zastrzeżonych szczegółów modelu przed jego udostępnieniem. Zobacz również stronę [[Defeaturing/pl|Usuwanie cech]].
-</div>
 
 Uwaga: Bardziej zaawansowane narzędzia do upraszczania mogą być użyte, jeśli [[OpenCASCADE/pl|OCC7.3]] jest dostępne.
 
