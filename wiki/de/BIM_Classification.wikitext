@@ -9,14 +9,12 @@
 |IconC=Workbench_BIM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=BIM Classification
 |Name/de=BIM Klassifizierung
-|MenuLocation=Manage → Manage classification...
+|MenuLocation=Verwalten → IFC Management → Klassifizierung verwalten
 |Workbenches=[[BIM_Workbench/de|BIM]]
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung==
