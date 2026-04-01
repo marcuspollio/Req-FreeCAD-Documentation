@@ -9,7 +9,7 @@
 
 ==Features==
 
-* Features a set of tools to edit a Shape or a STEP model, removing hole(s), face(s), simplifying the model, changing the tolerance, applying Fuzzy Boolean operations etc...
+* Features a set of tools to edit a Shape or a STEP model, removing hole(s), face(s), simplifying the model, changing the tolerance, applying Fuzzy Boolean operations etc.
 * There are also tools to create more solid shape(s), from edge(s), face(s) or shell(s). 
 * It is also possible to use direct modeling of the model, when the history of operations is unavailable. (This is the case for 3D STEP models).
 * Useful in situations to quickly remove proprietary details of the model before sharing it. See [[Defeaturing|Defeaturing]]
@@ -31,13 +31,16 @@ See [[How to install additional workbenches]]
 * FreeCAD v0.15 4671  
 * FreeCAD v0.16 >= 6712  
 * FreeCAD v0.17 >= 13522
-* FreeCAD v0.18+
+* FreeCAD v0.18
+* FreeCAD v0.21
+* FreeCAD v1.0
+* FreeCAD v1.1+
 
 ==References==
 
-* Author: Github: [https://github.com/easyw @easyw] | FreeCAD Forums: [https://forum.freecadweb.org/viewtopic.php?f=9&t=29506]
+* Author: Github: [https://github.com/easyw @easyw] | FreeCAD Forums: [https://forum.freecad.org/viewtopic.php?f=9&t=29506]
 * Source code on github: https://github.com/easyw/Defeaturing_WB
-* FC forum thread https://forum.freecadweb.org/viewtopic.php?t=29506
+* FC forum thread https://forum.freecad.org/viewtopic.php?t=29506
 
 ==Tools==
 
