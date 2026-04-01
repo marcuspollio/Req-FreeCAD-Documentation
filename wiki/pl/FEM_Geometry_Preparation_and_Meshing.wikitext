@@ -283,9 +283,7 @@ Elementy czworościenne można generować na geometriach powierzchniowych przy p
 
 [[Image:Quad_mesh.PNG|400px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Quad-dominated mesh generated with Netgen}}
-</div>
+{{Caption|Siatka z dominującymi elementami quad wygenerowana przez Netgen}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Hex meshes ===
