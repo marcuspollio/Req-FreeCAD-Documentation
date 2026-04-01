@@ -263,13 +263,9 @@ Ce menu contient les outils [[Draft_Snap/fr|Draft Aimantation]] ainsi que les ou
 
 * <span id="BIM_OffsetTools">Outils des décalages :</span><!--Do not edit span id: the BIM_OffsetTools pages redirect here-->
 
-<div class="mw-translate-fuzzy">
-* [[Image:BIM_Offset2D.svg|32px]] [[BIM_Offset2D/fr|Décaler en 2D]] : construit une polyligne parallèle à une distance donnée de l'originale, ou agrandit/réduit une face plane (version paramétrique). Il s'agit du même outil que [[Part_Offset2D/fr|Part Décaler en 2D]].
-</div>
+:* [[Image:BIM_Offset2D.svg|32px]] [[BIM_Offset2D/fr|Décaler en 2D]] : construit une polyligne parallèle à une distance donnée de l'originale, ou agrandit/réduit une face plane (version paramétrique). Il s'agit du même outil que [[Part_Offset2D/fr|Part Décaler en 2D]].
 
-<div class="mw-translate-fuzzy">
-* [[Image:Draft_Offset.svg|32px]] [[Draft_Offset/fr|Décaler]] : décale chaque segment d'un objet sélectionné sur une distance donnée ou crée une copie décalée de l'objet sélectionné.
-</div>
+:* [[Image:Draft_Offset.svg|32px]] [[Draft_Offset/fr|Décaler]] : décale chaque segment d'un objet sélectionné sur une distance donnée ou crée une copie décalée de l'objet sélectionné.
 
 * [[Image:Draft_Trimex.svg|32px]] [[Draft_Trimex/fr|Ajuster ou prolonger]] : ajuste ou étend un objet sélectionné.
 
