@@ -16,6 +16,7 @@
 
 <!--T:4-->
 * Features a set of tools to edit a Shape or a STEP model, removing hole(s), face(s), simplifying the model, changing the tolerance, applying Fuzzy Boolean operations etc...
+* Fuzzy Boolean Parametric operations added
 * There are also tools to create more solid shape(s), from edge(s), face(s) or shell(s). 
 * It is also possible to use direct modeling of the model, when the history of operations is unavailable. (This is the case for 3D STEP models).
 * Useful in situations to quickly remove proprietary details of the model before sharing it. See [[Defeaturing|Defeaturing]]
