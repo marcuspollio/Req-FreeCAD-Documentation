@@ -441,26 +441,25 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 <!--T:164-->
 * [[Image:BIM_Setup.svg|32px]] [[BIM_Setup|BIM Setup]]: Configures some of the FreeCAD preferences most commonly used for BIM.
 
-<!--T:165-->
-* [[Image:BIM_Views.svg|32px]] [[BIM_Views|Views Manager]]: Manage the different views and levels of your project.
-
 <!--T:166-->
 * [[Image:BIM_ProjectManager.svg|32px]] [[BIM_ProjectManager|Setup Project]]: Allows to create some basic objects such as a [[Arch_Site|site]], a [[Arch_Building|building]] and [[Arch_Axis|axes]] by filling basic project information.
 
 <!--T:167-->
 * [[Image:BIM_Windows.svg|32px]] [[BIM_Windows|Manage Doors and Windows]]: Manage the doors and windows of your project.
 
+* IFC Management:
+
 <!--T:168-->
-* [[Image:BIM_IfcElements.svg|32px]] [[BIM_IfcElements|Manage IFC Elements]]: Manage how the different elements of your project will be exported to IFC.
+:* [[Image:BIM_IfcElements.svg|32px]] [[BIM_IfcElements|Manage IFC Elements]]: Manage how the different elements of your project will be exported to IFC.
 
 <!--T:169-->
-* [[Image:BIM_IfcQuantities.svg|32px]] [[BIM_IfcQuantities|Manage IFC Quantities]]: Manage how the quantities of your objects are explicitely exported to IFC
+:* [[Image:BIM_IfcQuantities.svg|32px]] [[BIM_IfcQuantities|Manage IFC Quantities]]: Manage how the quantities of your objects are explicitely exported to IFC
 
 <!--T:170-->
-* [[Image:BIM_IfcProperties.svg|32px]] [[BIM_IfcProperties|Manage IFC Properties]]: Manage the IFC properties attached to each of your objects.
+:* [[Image:BIM_IfcProperties.svg|32px]] [[BIM_IfcProperties|Manage IFC Properties]]: Manage the IFC properties attached to each of your objects.
 
 <!--T:171-->
-* [[Image:BIM_Classification.svg|32px]] [[BIM_Classification|Manage Classification]]: Manage how objects and materials of your project relate to classifications systems such as [https://en.wikipedia.org/wiki/Uniclass Uniclass].
+:* [[Image:BIM_Classification.svg|32px]] [[BIM_Classification|Manage Classification]]: Manage how objects and materials of your project relate to classifications systems such as [https://en.wikipedia.org/wiki/Uniclass Uniclass].
 
 <!--T:172-->
 * [[Image:BIM_Layers.svg|32px]] [[BIM_Layers|Manage Layers]]: Manage the layers of your document.
