@@ -35,7 +35,7 @@ Beim Einfügen einer IFC-Datei wird ein Projekt-Objekt erstellt, das den gesamte
 ==Anwendung==
 
 # Sichertellen, dass ein FreeCAD-Dokument geöffnet ist.
-# Die Option {{MenuCommand|Werkzeuge → [[Image:BIM_Project.svg|16px]] IFC-Projekt}} aus dem Menü wählen.
+# Die Menüoption {{MenuCommand|Werkzeuge → [[Image:BIM_Project.svg|16px]] IFC-Projekt}} auswählen.
 # Wahlweise das Dokument sperren, indem die Schaltfläche {{Button|[[Image:IFC.svg|16px]] [[NativeIFC/de#Locked_and_unlocked_modes|IFC Sperren]]}} gedrückt wird.
 
 <span id="Locked_and_unlocked_mode"></span>
