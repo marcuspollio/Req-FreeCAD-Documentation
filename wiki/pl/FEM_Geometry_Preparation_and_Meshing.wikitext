@@ -51,9 +51,7 @@ Aby uzyskać geometrię odpowiednią do analizy z użyciem elementów powłokowy
 
 Tu również nie ma jednej przyjętej zasady, ale zaleca się aby grubość była < 1/10 typowego wymiaru globalnego ''(długość / szerokość)'' części, żeby można było zastosować teorię powłok.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.1}}: Very thin shells may have negligible bending stiffness and '''membrane''' elements can be used to model them. These elements cannot sustain bending. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]].
-</div>
+{{Version/pl|1.1}}: Bardzo cienkie powłoki mogą mieć pomijalną sztywność na zginanie i do ich modelowania można użyć elementów '''powłokowych'''. Te elementy nie mogą przenosić zginania. Aby ich użyć, włącz właściwość {{PropertyData|Exclude Bending Stiffness}} [[FEM_SolverCalculixCcxtools/pl|solvera CalculiX]].
 
 [[Image:FEM_shell_model.JPG|600px]]
 {{Caption|Cienkościenna część nadająca się do analizy przy pomocy elementów powłokowych - podświetlona powierzchnia środkowa}}
