@@ -33,9 +33,8 @@ Während die meisten Konstruktionen aus Volumenkörpern bestehen, wird für die 
 Man sollte bedenken, dass die in CalculiX verwendeten Balken-, Schalen-, ebenen Spannungs-/Dehnungs- und achsensymmetrischen Elemente keine echten Elemente dieser Art sind (sie verwenden nicht die aus der Literatur und anderer Software bekannten klassischen Elementformulierungen) – sie werden intern zu Volumenkörpern erweitert. Dennoch wird ihre Verwendung in den oben genannten Fällen empfohlen.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Beam models ===
-</div>
+<span id="Beam_models"></span>
+=== Trägermodelle ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If a part is slender (long and thin) and beam-like and has a regular cross-section of one of the currently supported beam section types (rectangular, circular, or pipe), then it should be analyzed using beam elements (unless there are some specific forms of loading, response, or unavoidable geometry details that invalidate this assumption).
