@@ -114,7 +114,6 @@ Na tej stronie można określić następujące parametry:
 
 Na tej stronie można określić następujące parametry:
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Name
 !style="width: 66%;"|Description
@@ -129,7 +128,7 @@ Na tej stronie można określić następujące parametry:
 | Odległość pomiędzy dwoma kolejnymi liniami siatki. Używana jako wartość podstawowa, jeśli włączona jest opcja {{MenuCommand|Odstęp linii siatki — automatycznie}}. Używana dla nowych szkiców. Jest zapisywana we właściwości {{PropertyView|Rozmiar siatki}} szkiców.
 |-
 | {{MenuCommand|Próg rozmiaru piksela}}
-| Próg odstępu między siatkami w pikselach. Używane tylko wtedy, gdy włączona jest opcja {{MenuCommand|Odstęp linii siatki — automatycznie}}. Jeśli odstęp na ekranie jest mniejszy niż ta wartość, fizyczny odstęp siatki jest mnożony przez wartość {{MenuCommand|Co N linii będzie linia główna. Ustaw wartość na 1, aby wyłączyć linie główne.}}. Jeśli odstęp na ekranie jest większy niż wartość progowa razy wartość {{MenuCommand|każdy}}, fizyczny odstęp siatki jest dzielony przez wartość {{MenuCommand|każdy}}. Jeśli wartość {{MenuCommand|każdy}} jest ustawiona na 1, w tych obliczeniach używane jest 10.
+| Próg odstępu między siatkami w pikselach. Używane tylko wtedy, gdy włączona jest opcja {{MenuCommand|Odstęp linii siatki - automatycznie}}. Jeśli odstęp na ekranie jest mniejszy niż ta wartość, fizyczny odstęp siatki jest mnożony przez wartość {{MenuCommand|Interwał głównych linii siatki}}. Jeśli odstęp na ekranie jest większy niż wartość progowa razy wartość {{MenuCommand|interwał}}, fizyczny odstęp siatki jest dzielony przez wartość {{MenuCommand|interwał}}. Jeśli wartość {{MenuCommand|interwał}} jest ustawiona na 1, w tych obliczeniach używane jest 10.
 |-
 | {{MenuCommand|Mniejsze linie siatki}}
 | Dla mniejszych linii siatki można określić:
@@ -139,12 +138,14 @@ Na tej stronie można określić następujące parametry:
 |-
 | {{MenuCommand|Główne linie siatki}}
 | Dla głównych linii siatki można określić:
-* {{MenuCommand|Główne linie siatki co}}: Liczba kwadratów pomiędzy głównymi liniami siatki. Ustawienie na 1 powoduje wyłączenie głównych linii siatki.
+* {{MenuCommand|Interwał głównych linii siatki}}: Liczba kwadratów pomiędzy głównymi liniami siatki. Ustawienie na 1 powoduje wyłączenie głównych linii siatki.
 * {{MenuCommand|Wzór linii}}
 * {{MenuCommand|Szerokość linii}}
 * {{MenuCommand|Kolor linii}}
+|-
+| {{MenuCommand|Przezroczystość siatki}} {{Version/pl|1.2}}
+| Ustawia przezroczystość siatki wyświetlanej, gdy szkic jest w trybie edycji. Używane do nowych szkiców.
 |}
-</div>
 
 <span id="Display"></span>
 ==Wyświetlanie==
