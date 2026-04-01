@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[BIM_SetWPTop/de|ArbeitsebeneDraufsicht]]
 |[[BIM_Copy/de|Kopieren]]
@@ -8,6 +9,7 @@
 |IconR=BIM_Copy.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/de
 |Name=BIM SetWPSide
@@ -33,6 +35,7 @@ Das Werkzeug [[Image:BIM_SetWPSide.svg|24px]] [[BIM_SetWPSide/de|BIM Arbeitseben
 #* Das Tastaturkürzel {{KEY|W}} dann {{KEY|P}} dann {{KEY|3}}.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[BIM_SetWPTop/de|ArbeitsebeneDraufsicht]]
 |[[BIM_Copy/de|Kopieren]]
@@ -41,6 +44,7 @@ Das Werkzeug [[Image:BIM_SetWPSide.svg|24px]] [[BIM_SetWPSide/de|BIM Arbeitseben
 |IconR=BIM_Copy.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
