@@ -9,16 +9,14 @@
 |IconC=Workbench_BIM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=BIM Project
 |Name/de=BIM Projekt
-|MenuLocation=3D/BIM → Projekt
+|MenuLocation=Werkzeuge → IFC-Projekt
 |Workbenches=[[BIM_Workbench/de|BIM]]
 |Shortcut=
 |SeeAlso=
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung==
