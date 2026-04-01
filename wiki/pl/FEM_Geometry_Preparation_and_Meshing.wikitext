@@ -271,9 +271,8 @@ Wybór typu elementów skończonych nie jest łatwy i zależy od wielu czynnikó
 
 Wybór rzędu elementów ''(pierwszy lub drugi)'' zależy od warunków analizy, ale w większości przypadków preferowane są elementy drugiego rzędu. Jest tak zwłaszcza w przypadku elementów trójkątnych i czworokątnych - ich wersje pierwszego rzędu ''(liniowe)'' nie powinny być normalnie używane - zaleca się korzystanie z nich tylko jak z wypełniaczy w mało istotnych obszarach. Jednak ponieważ FreeCAD nie może porządnie generować elementów sześciościennych to można korzystać z liniowych czworościanów w niektórych przypadkach jeśli siatki są wystarczająco gęste. Dotyczy to zwłaszcza analiz z [[FEM_ConstraintContact/pl|kontaktem]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Quad and hex meshes ==
-</div>
+<span id="Quad_and_hex_meshes"></span>
+== Siatki quad i hexa ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Quad meshes ===
