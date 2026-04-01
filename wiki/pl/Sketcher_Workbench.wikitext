@@ -198,9 +198,7 @@ Poniżej znajdują się narzędzia do tworzenia obiektów.
 
 :* [[File:Sketcher_CreatePeriodicBSplineByInterpolation.svg|32px]] [[Sketcher_CreatePeriodicBSplineByInterpolation/pl|Okresowa krzywa złożona przez węzły]]: Tworzy okresową krzywą złożoną przez węzły.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_CreateText.svg|32px]] [[Sketcher_CreateText/pl|Tekst]]: Tworzy geometrie tekstu sterowane wiązaniem typu Tekst {{Version/pl|1.2}}.
-</div>
+* [[File:Sketcher_CreateText.svg|32px]] [[Sketcher_CreateText/pl|Tekst]]: Tworzy geometrię tekstu sterowaną wiązaniem typu tekst {{Version/pl|1.2}}.
 
 * [[File:Sketcher_ToggleConstruction.svg|32px]] [[Sketcher_ToggleConstruction/pl|Przełącz tryb konstrukcji]]: Przełącza narzędzia do tworzenia geometrii do / z trybu konstrukcyjnego lub przełącza wybraną geometrię do / z geometrii konstrukcyjnej.
 
