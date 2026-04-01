@@ -217,7 +217,7 @@ Teraz zbliżamy się do ostatecznego projektu silnika. Wróć do środowiska Cz�
 
 [[Image:Engine Block Tutorial - Finished Engine Block.png|thumb|right|300px]]
 
-Now that we have 3D objects for the bore holes and the outer shape, we can use a few boolean operations to stitch the whole thing together.  Select your 6 extruded head bolts in the tree view and join them into a union (name the resulting object '''Head bolt boreholes''').  Then select the '''Bored block''' and the '''Head bolt boreholes''' in that order and perform a cut (like you did when you bored out the cylinders), name the resulting ''Cut'' object '''Block with headbolts'''.  Finally, select the '''Block with headbolts''' and the '''Extruded spline''' and press the ''Make intersection'' button ([[Image:Part_Common.svg|16px]]), and name the resulting object '''Engine block'''.
+Teraz, gdy mamy obiekty 3D dla otworów pod śruby głowicy oraz dla zewnętrznego kształtu, możemy połączyć wszystko za pomocą kilku operacji boolean. Zaznacz w drzewie wszystkie 6 wytłoczonych otworów pod śruby głowicy i wykonaj operację scalenia (nadając wynikowemu obiektowi nazwę '''Head bolt boreholes'''). Następnie zaznacz kolejno '''Bored block''' oraz '''Head bolt boreholes''' i wykonaj wycięcie (tak jak przy rozwiercaniu cylindrów), a powstały obiekt nazwij '''Block with headbolts'''. Na koniec zaznacz '''Block with headbolts''' oraz '''Extruded spline''' i kliknij przycisk ''Utwórz przecięcie'' ([[Image:Part_Common.svg|16px]]), nadając wynikowemu obiektowi nazwę '''Engine block'''.
 
 Your final object should look like the picture on the right.
 
