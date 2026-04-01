@@ -2,7 +2,7 @@
 
 {{Docnav/de
 |[[Branding/de|Markenbildung]]
-|[[Workbench_creation/de|Erstellung Arbeitsbereich ]]
+|[[Workbench_creation/de|Erstellung von Arbeitsbereichen]]
 }}
 
 {{TOCright}}
@@ -60,6 +60,10 @@ Seit der FreeCAD 0.20 können folgende Variablen manuell in den Abschnitt BaseAp
 
 <span id="Translate_the_FreeCAD_wiki"></span>
 == Übersetze das FreeCAD Wiki ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{VeryImportantMessage|Check [https://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_administration#Changing_the_source_text this page] for important information on how to edit translatable text and handle the translation markers.}}
+</div>
 
 Dieses Wiki beherbergt viele Inhalte, von denen die meisten das Handbuch bilden. Du kannst die Dokumentation von der [[Main Page/de|Hauptseite]] aus durchsuchen, oder einen Blick in das Benutzerhandbuch [[Online Help Toc/de|Online Hilfe Inhaltsverzeichnis]] werfen.
 
@@ -235,7 +239,7 @@ FreeCADGui.setLocale('ru')
 
 {{Docnav/de
 |[[Branding/de|Markenbildung]]
-|[[Workbench_creation/de|Erstellung Arbeitsbereich ]]
+|[[Workbench_creation/de|Erstellung von Arbeitsbereichen]]
 }}
 
 {{Userdocnavi{{#translation:}}}}
