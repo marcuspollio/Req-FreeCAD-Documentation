@@ -24,23 +24,71 @@ Przygotowanie geometrii i tworzenie siatek to kluczowe elementy preprocessingu s
 <span id="Choice_of_the_type_of_geometry"></span>
 == Wybór typu geometrii ==
 
+<div class="mw-translate-fuzzy">
 Podczas gdy większość modeli CAD składa się z brył, często bardzo zalecane jest użycie linii i powierzchni w analizach MES jeśli pozwala na to dana konstrukcja:
 * jeśli część jest smukła ''(długa i wąska)'' i przypomina belkę oraz ma regularny przekrój należący do jednego z obecnie wspieranych typów przekrojów belkowych ''(prostokątny, okrągły lub rurowy)'' to powinna być liczona z użyciem elementów belkowych ''(chyba że występują pewne specyficzne formy obciążenia, odpowiedzi lub detale geometrii, których nie można pominąć, a które sprawiają, że to założenie upraszczające jest nieprawdziwe)''. Należy po prostu narysować linię środkową ''(kilka rad na temat jej uzyskiwania z istniejącej geometrii bryłowej można znaleźć w [https://forum.freecad.org/viewtopic.php?t=81589 tym wątku na forum] - w skrócie, użyj [[Draft_Wire/pl|Polilinii]] lub [[Draft_BSpline/pl|Krzywej złożoej]] z odpowiednim [[Draft_Workbench/pl#Pasek_narzędzi_Rysunek_roboczy:_Przyciągnij|przyciąganiem]] i [[Draft_Line/pl|liniami]] jako geometriami pomocniczymi)'' i zdefiniować odpowiedni [[FEM_ElementGeometry1D/pl|przekrój belki]] z opcjonalnym [[FEM_ElementRotation1D/pl|obrotem]]. Nie ma jednej przyjętej zasady kiedy można używać elementów belkowych, ale często zaleca się aby wymiary przekroju były < 1/10 długości części żeby można było zastosować teorię belek.
+</div>
+
+<div class="mw-translate-fuzzy">
+Należy pamiętać, że elementy belkowe, powłokowe, płaskiego stanu naprężeń/odkształceń i osiowosymetryczne w CalculiX nie są prawdziwymi elementami tego typu ''(nie korzystają z klasycznych sformułowań znanych z literatury i innego oprogramowania)'' - wewnętrznie są przekształcane w elementy bryłowe. Pomimo tego, zaleca się korzystanie z nich w wyżej wymienionych przypadkach.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Beam models ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+If a part is slender (long and thin) and beam-like and has a regular cross-section of one of the currently supported beam section types (rectangular, circular, or pipe), then it should be analyzed using beam elements (unless there are some specific forms of loading, response, or unavoidable geometry details that invalidate this assumption).
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Basically, one should draw a centerline (some tips on how to extract it from existing solid geometry can be found in [https://forum.freecad.org/viewtopic.php?t=81589 this forum thread] - in short, use [[Draft_Wire|Draft Wire]] or [[Draft_BSpline|Draft BSpline]] with proper [[Draft_Workbench#Draft_snap_toolbar|snaps]] and [[Draft_Line|lines]] as supports) and apply [[FEM_ElementGeometry1D|beam section]] with optional [[FEM_ElementRotation1D|rotation]].
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+There's no single rule dictating when beam elements can be used, but it's often advised that the cross-section dimensions should be < 1/10 of the part's length for the beam assumption to be valid.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}: Very slender beams may have negligible bending stiffness and '''truss''' elements can be used to model them. These elements cannot sustain bending. They only transmit axial forces, not moments. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]]. Instead of a profile, the {{PropertyData|Truss Area}} property of the [[FEM_ElementGeometry1D|FEM ElementGeometry1D]] object is used to define their cross-section.
+</div>
 
 [[Image:FEM_beam_model.JPG|600px]]
 {{Caption|Smukła część nadająca się do analizy przy pomocy elementów belkowych - podświetlona linia środkowa}}
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Shell models ===
+</div>
+
+<div class="mw-translate-fuzzy">
 * jeśli część jest cienkościenna ''(np. konstrukcje blachowe)'' to powinna być liczona z użyciem elementów powłokowych ''(chyba, że potrzebne są dokładne wyniki związane z kontaktem lub problem stanowią pewne ograniczenia elementów powłokowych)''. Jest to bardzo istotne i często pomijane. Do uzyskania odpowiedniej dokładności wyników ''(zwłaszcza gdy występuje zginanie)'' potrzeba kilku elementów ''(co najmniej 3-5)'' po grubości. W przypadku części cienkościennych, zwykle prowadzi to do uzyskania dużych siatek ''(szczególnie gdy używane są elementy czworościenne, ponieważ sześciościenne nie mogą być wygenerowane we FreeCAD)'' i znacznego zwiększenia kosztu obliczeń ''(wymaganej mocy komputera i czasu analizy)''. Aby uzyskać geometrię odpowiednią do analizy z użyciem elementów powłokowych, należy narysować powierzchnię środkową części ''(kilka rad na temat jej uzyskiwania z istniejącej geometrii bryłowej można znaleźć w [https://forum.freecad.org/viewtopic.php?t=67505 tym wątku na forum], [https://forum.freecad.org/viewtopic.php?t=71821 tym] oraz [https://forum.freecad.org/viewtopic.php?t=81834 tym] - w skrócie, użyj [[PartDesign_SubShapeBinder/pl|Łącznika kształtów podrzędnych]] lub [[Draft_Facebinder/pl|Łącznika kształtu]] a następnie [[Part_Offset/pl|Odsunięcia 3D]] i wreszcie Łącznika kształtów podrzędnych i [[Part_Extrude/pl|Wyciągnięcia]] do wydłużenia krawędzi powierzchni środkowych aby zamknąć przerwy między nimi)'' i zdefiniować odpowiednią [[FEM_ElementGeometry2D/pl|grubość]]. Tu również nie ma jednej przyjętej zasady, ale zaleca się aby grubość była < 1/10 typowego wymiaru globalnego ''(długość / szerokość)'' części żeby można było zastosować teorię powłok.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To obtain the geometry suitable for analysis with shell elements, one should draw a midsurface of the part (some tips on how to extract it from existing solid geometry can be found in [https://forum.freecad.org/viewtopic.php?t=67505 this forum thread], [https://forum.freecad.org/viewtopic.php?t=71821 this one] and [https://forum.freecad.org/viewtopic.php?t=81834 this one] - in short, apply [[PartDesign_SubShapeBinder|PartDesign SubShapeBinder]] or [[Draft_Facebinder|Draft Facebinder]], then [[Part_Offset|Part Offset]] and finally use SubShapeBinder and [[Part_Extrude|Extrude]] to extend edges of the midsurfaces and thus close the gaps between them) and apply proper [[FEM_ElementGeometry2D|thickness]].
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Again, there's no single rule regarding the applicability of shell elements, but it's usually recommended that the thickness should be < 1/10 of a typical global dimension (length/width) for the shell assumption to be valid.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}: Very thin shells may have negligible bending stiffness and '''membrane''' elements can be used to model them. These elements cannot sustain bending. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]].
+</div>
 
 [[Image:FEM_shell_model.JPG|600px]]
 {{Caption|Cienkościenna część nadająca się do analizy przy pomocy elementów powłokowych - podświetlona powierzchnia środkowa}}
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Planar models ===
+</div>
+
+<div class="mw-translate-fuzzy">
 * w niektórych przypadkach możliwe są też analizy 2D, które można aktywować ustawiając odpowiednio właściwość {{PropertyData|Model Space}} [[FEM_SolverCalculixCcxtools/pl|obiektu solvera CalculiX]]:
 ** plane stress (płaski stan naprężeń) - dla cienkich części, które można uprościć do płaskich powierzchni reprezentujących profil do wyciągnięcia (grubość jest definiowana tak samo jak dla powłok), są obciążone i deformują się tylko w płaszczyźnie i mają zerowe naprężenia w kierunku poza płaszczyznowym. Dostępne są jedynie dwa stopnie swobody - przemieszczenia w kierunkach X i Y. Powierzchnie muszą w tym przypadku leżeć na płaszczyźnie XY. To podejście jest dosyć powszechne. Przykładowo, można w ten sposób analizować cienką płytkę poddaną rozciąganiu.
 ** plane strain (płaski stan odkształceń) - dla grubych części, które można uprościć do płaskich powierzchni reprezentujących profil do wyciągnięcia (grubość jest definiowana tak samo jak dla powłok), są obciążone i deformują się tylko w płaszczyźnie i mają zerowe odkształcenia w kierunku poza płaszczyznowym. Dostępne są jedynie dwa stopnie swobody - przemieszczenia w kierunkach X i Y. Powierzchnie muszą w tym przypadku leżeć na płaszczyźnie XY. To podejście nie jest tak często używane. Przykładowo, można w ten sposób analizować długie tamy, ściany lub rury poddane ciśnieniu równomiernemu na całej długości.
 ** axisymmetric (osiowosymetryczne) - dla części, które można uprościć do płaskich powierzchni reprezentujących profil do obrócenia (grubość nie ma tu znaczenia) i są obciążone równomiernie na całym obwodzie. Dostępne są jedynie dwa stopnie swobody - przesunięcie w kierunku promieniowym i osiowym. Powierzchnie muszą leżeć na płaszczyźnie XY, po prawej stronie osi Y. To podejście jest bardzo często stosowane. Przykładowo, można w ten sposób analizować niektóre zbiorniki ciśnieniowe, gumowe wibroizolatory, tulejki, uszczelki, kołnierze a nawet połączenia śrubowe (traktując gwint jako osiowosymetryczny).
-
-Należy pamiętać, że elementy belkowe, powłokowe, płaskiego stanu naprężeń/odkształceń i osiowosymetryczne w CalculiX nie są prawdziwymi elementami tego typu ''(nie korzystają z klasycznych sformułowań znanych z literatury i innego oprogramowania)'' - wewnętrznie są przekształcane w elementy bryłowe. Pomimo tego, zaleca się korzystanie z nich w wyżej wymienionych przypadkach.
+</div>
 
 <span id="Geometry_validity"></span>
 == Poprawność geometrii ==
@@ -173,12 +221,14 @@ Inne pomysły można znaleźć w [https://forum.freecad.org/viewtopic.php?t=9852
 <span id="Assembly_geometries"></span>
 == Geometrie złożeń ==
 
+<div class="mw-translate-fuzzy">
 Obecnie jednym z największych ograniczeń środowiska pracy MES jest brak wsparcia dla wielu siatek w jednej analizie. W praktyce oznacza to, że nie można nałożyć siatki na każdą część złożenia osobno i połączyć je odpowiednimi więzami do analizy. Zamiast tego, należy utworzyć pojedynczy obiekt zawierający wszystkie części złożenia i nałożyć siatkę na ten obiekt. Jest tu kilka opcji, wszystkie korzystające z [[Part_Workbench/pl#Pasek_narzędzi_Operacje_logiczne|operacji logicznych]]. Wybór zależy od oczekiwanego efektu - czy poszczególne części / objętości i ich brzegi mają mieć możliwość wskazania ''(np. do przypisania materiałów lub definicji warunków brzegowych na wewnętrznych ścianach)'' czy nie:
 * [[Part_Fuse/pl|Część: Połączenie]] - scala części, uniemożliwiając ich indywidualne wskazywanie np. do definicji materiałów,
 * [[Part_Compound/pl|Część: Utwórz kształt złożony]] - tworzy obiekt złożony, umożliwiając wskazywanie poszczególnych części,
 * [[Part_JoinConnect/pl|Część: Połącz obiekty]] - działa jak Część: Połączenie, scalając części i uniemożliwiając ich indywidualne wskazywanie,
 * [[Part_BooleanFragments/pl|Część: Fragmentacja funkcją logiczną]] - działa jak Część: Utwórz kształt złożony, uniemożliwiając indywidualne wskazywanie części.
 Należy wspomnieć, że jeśli części się dokładnie stykają to na obiekcie boolowskim powstanie ciągła siatka i nie będzie potrzeby zadawania więzów do symulacji (chyba że używany jest Kształt złożony i węzły nie są zbieżne lub [[FEM_MeshGmshFromShape/pl#Właściwości|właściwość ''Coherence Mesh'' generatora siatki Gmsh]] jest ustawiona na {{FALSE/pl}}). Jeśli jest nawet drobna przerwa (albo przenikanie w przypadku narzędzia Utwórz kształt złożony) między częściami, siatka nie będzie ciągła i konieczne będą więzy takie jak [[FEM_ConstraintTie/pl|tie]] lub [[FEM_ConstraintContact/pl|kontakt]]. Przeprowadzenie analizy częstotliwości drgań własnych to dobry sposób na sprawdzenie czy siatka jest ciągła czy nie - jeśli części nie są połączone to pierwsze postacie drgań własnych z deformacją zwizualizowaną przy pomocy [[FEM_PostFilterWarp/pl|filtra wizualizacji deformacji]] pokażą ich separację - części będą "odlatywać".
+</div>
 
 [[Image:FEM_modal_separation.JPG|400px]]
 {{Caption|Pierwsza postać drgań własnych z filtrem wizualizacji deformacji - analizie poddano dwie kostki z niewielką początkową przerwą między nimi}}
@@ -209,11 +259,23 @@ Takie błędy są wywołane brakującymi lub nakładającymi się definicjami ma
 <span id="Selection_of_interior_entities"></span>
 === Wybieranie wewnętrznych obiektów ===
 
+<div class="mw-translate-fuzzy">
 Wskazywanie wewnętrznych obszarów ''(np. ścian / objętości)'' bywa problematyczne. Może być konieczne do zdefiniowania różnych materiałów, obciążeń objętościowych lub warunków brzegowych ''(zwłaszcza w analizach termicznych i elektromagnetycznych)''. Istnieje kilka sposobów:
 * włączenie [[Std_ToggleClipPlane/pl|płaszczyzny tnącej]] na czas dokonywania wskazania i wybranie wewnętrznych ścian,
 * schowanie obiektu boolowskiego, zostawiając pokazaną tylko jedną z części, na których został on zastosowany i wybranie jej,
 * [[Std_ToggleTransparency/pl|włączenie przezroczystości]] i użycie [[Selection_view/pl|Widoku wyboru]] z zaznaczoną opcją ''Picked object list'' jak opisano [https://forum.freecad.org/viewtopic.php?t=96984#p826693 tutaj],
 * wybranie innego, zewnętrznego obiektu i edycja właściwości ''References'' w zakładce ''Dane'' określonej cechy analizy ''(wymaga ręcznego podania numeru obiektu geometrycznego)''.
+</div>
+
+[[Image:Fem_references.PNG|800px]]
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Caption|Manually editing the ''References'' property}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Version|1.1}}: If the selected face of CompSolid (Boolean fragments with CompSolid mode + Compound filter standard workflow described in the [[#Assembly_geometries|Assembly geometries]] section) belongs to two solids, a pop-up menu appears, allowing the selection of the proper solid.
+</div>
 
 <span id="Meshing_basics"></span>
 == Podstawy tworzenia siatek ==
@@ -235,22 +297,62 @@ Zbyt rzadka siatka to jedno z najczęstszych źródeł niedokładności i innych
 <span id="Choosing_element_type"></span>
 === Dobór typu elementów ===
 
+<div class="mw-translate-fuzzy">
 Wybór typu elementów skończonych nie jest łatwy i zależy od wielu czynników, ale ogólną zasadą jest to, że preferowane są elementy sześciościenne i czworokątne w stosunku do czworościennych i trójkątnych. Jednak skomplikowane geometrie nie mogą być dyskretyzowane przy pomocy elementów sześciościennych a FreeCAD nie potrafi ich porządnie generować ''(tylko przy pomocy algorytmu Subdivision generatora Gmsh, ale jego wyniki nie są tym, czego można by oczekiwać od siatki z elementami sześciościennymi)''. Siatki złożone z elementów czworokątnych lub z dominującymi elementami tego typu można normalnie generować na powierzchniach - zobacz [https://forum.freecad.org/viewtopic.php?t=20351 ten wątek na forum]. Elementy sześciościenne można zaimportować z zewnętrznych generatorów takich jak [https://gmsh.info Gmsh]  i wykorzystać w środowisku pracy MES, co pokazano w [https://www.youtube.com/watch?v=vylt24G7qj4&t=932s tym filmiku].
+</div>
 
 <span id="Choosing_element_order"></span>
 === Dobór rzędu elementów ===
 
 Wybór rzędu elementów ''(pierwszy lub drugi)'' zależy od warunków analizy, ale w większości przypadków preferowane są elementy drugiego rzędu. Jest tak zwłaszcza w przypadku elementów trójkątnych i czworokątnych - ich wersje pierwszego rzędu ''(liniowe)'' nie powinny być normalnie używane - zaleca się korzystanie z nich tylko jak z wypełniaczy w mało istotnych obszarach. Jednak ponieważ FreeCAD nie może porządnie generować elementów sześciościennych to można korzystać z liniowych czworościanów w niektórych przypadkach jeśli siatki są wystarczająco gęste. Dotyczy to zwłaszcza analiz z [[FEM_ConstraintContact/pl|kontaktem]].
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Quad and hex meshes ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Quad meshes ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Quadrilateral elements can be generated on surface geometries using both meshers:
+* [[FEM_MeshGmshFromShape|Gmsh]] - set the {{PropertyData|Algorithm 2D}} property to ''Quasi-structured Quad'' (currently, it doesn't work for 2nd order elements) or enable the {{PropertyData|Recombine All}} property and select the {{PropertyData|Recombination Algorithm}},
+* [[FEM_MeshNetgenFromShape|Netgen]] - enable the {{PropertyData|Quad Dominated}} property.
+</div>
+
+[[Image:Quad_mesh.PNG|400px]]
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Caption|Quad-dominated mesh generated with Netgen}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Hex meshes ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Hexahedral meshes can be generated on volume geometries using both meshers with some significant limitations:
+* [[FEM_MeshGmshFromShape|Gmsh]] - set the {{PropertyData|Subdivision Algorithm}} to ''All Hexahedra'' - however, the resulting elements are not shaped as expected from hexahedral meshes used in practice,
+* [[FEM_MeshGmshFromShape|Netgen]] - {{Version|1.1}}: for simple extruded shapes, hex or hex-dominated meshes can be created by extrusion if the {{PropertyData|Quad Dominated}} property is enabled and the {{PropertyData|ZRefine}} property is set to ''Regular'' (''Custom'' requires specifying the height of each element in the extrusion direction). The extrusion direction can be changed from the default Z using the {{PropertyData|ZRefine Direction}} property. Element height can be specified as a fraction of the total height using the {{PropertyData|ZRefine Size}} property. This approach works only for first-order meshes (unless the generated elements are all hexahedrons).
+</div>
+
+[[Image:Z_refine.PNG|400px]]
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Caption|Hex-dominated mesh generated with Netgen's ZRefine algorithm}}
+</div>
+
 <span id="Negative_Jacobians"></span>
 == Ujemne Jacobiany ==
 
+<div class="mw-translate-fuzzy">
 Jeśli przestrzega się powyższych zasad (szczególnie w kwestii poprawności geometrii, usuwania jej zbędnych cech i doboru rozmiaru elementów), to siatka powinna zostać poprawnie wygenerowana. Jednak w niektórych przypadkach geometrii nie można za bardzo uprościć albo procedura modelowania jest prawidłowa, ale i tak prowadzi do małych krawędzi i ścianek. Wtedy tworzenie siatki z elementami drugiego rzędu może się nie udać ze względu na ujemne Jacobiany. Wynika to z faktu, iż generatory siatek muszą podążać za geometrią CAD i umieszczają węzły środkowe elementów drugiego rzędu na geometrii. Dla bardziej złożonych kształtów może to prowadzić do rozciągnięcia elementów w takim stopniu, że zostają odwrócone na drugą stronę. Jacobian to jedna z głównych miar jakości siatki. opisuje rozbieżność między idealnym a rzeczywistym kształtem elementu. Staje się ujemny gdy element odwraca się na drugą stronę z powodu dużych deformacji w trakcie analizy (nie omawiane tutaj) lub ze względu na opisane wyżej problemy z generowaniem siatki. Ujemne Jacobiany w środowisku pracy MES programu FreeCAD może zgłaszać Gmsh lub CalculiX. Ich położenia na siatce są podświetlane gdy włącza się analizy z CalculiX przy pomocy przycisku [[FEM_SolverRun/pl|Uruchom solver]]. Następujące zalecenia mogą pomóc wyeliminować ujemne Jacobiany:
 * ustaw właściwość ''Second Order Linear'' obiektu [[FEM_MeshGmshFromShape/pl|FEMMeshGmsh]] na ''prawda'' - to powoduje, że węzły środkowe elementów drugiego rzędu są bezpośrednio dodawane w środku prostych krawędzi elementów (początkowo) pierwszego rzędu, bez umieszczania ich na geometrii i rozwiązuje problem w większości przypadków,
 * skorzystaj z generatora Netgen zamiast Gmsh - Netgen jest mniej wrażliwy na problemy z ujemnymi Jacobianami, ale też ich nie zgłasza, więc można się o nich dowiedzieć dopiero uruchamiając analizę,
 * jeszcze bardziej zmniejsz rozmiar elementów,
 * wyeksportuj geometrię i spróbuj wygenerować dla niej siatkę przy pomocy środowisk graficznych programów Gmsh lub Netgen (NGSolve) bądź innych niezależnych preprocessorów (jak Salome_Meca) - te programy mają dodatkowe narzędzia, które mogą pomóc pozbyć się ujemnych Jacobianów (np. Gmsh ma tzw. "High-order tools"),
 * użyj elementów pierwszego rzędu - tylko w ostateczności, ponieważ elementy czworościenne pierwszego rzędu są znane z niskiej dokładności.
+</div>
 
 Niezależnie od tych zaleceń, należy ponownie podkreślić, że ujemne Jacobiany są zwykle winą niechlujnego podejścia do modelowania i braku przygotowania geometrii do analizy (szczególnie częste w przypadku modeli STEP pobieranych z różnych stron internetowych). Nawet jeśli uda się w końcu wygenerować siatkę w takich przypadkach, to wyniki mogą być kiepskiej jakości (zasada ''śmieci na wejściu - śmieci na wyjściu'' wspomniana w pierwszym akapicie). Tak więc oczyszczenie i przygotowanie geometrii do symulacji powinno zawsze być priorytetem.
 
