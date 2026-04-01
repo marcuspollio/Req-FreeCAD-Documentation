@@ -28,9 +28,8 @@ Podczas gdy większość modeli CAD składa się z brył, często bardzo zalecan
 
 Należy pamiętać, że elementy belkowe, powłokowe, płaskiego stanu naprężeń/odkształceń i osiowosymetryczne omawiane poniżej, jeśli korzysta się z nich w solverze CalculiX, nie są prawdziwymi elementami tego typu ''(nie korzystają z klasycznych sformułowań znanych z literatury i innego oprogramowania)'' - wewnętrznie są przekształcane w elementy bryłowe. Pomimo tego zaleca się korzystanie z nich w wyżej wymienionych przypadkach, nawet w solverze CalculiX.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Beam models ===
-</div>
+<span id="Beam_models"></span>
+=== Modele belkowe ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If a part is slender (long and thin) and beam-like and has a regular cross-section of one of the currently supported beam section types (rectangular, circular, or pipe), then it should be analyzed using beam elements (unless there are some specific forms of loading, response, or unavoidable geometry details that invalidate this assumption).
