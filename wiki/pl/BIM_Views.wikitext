@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[BIM_Setup/pl|Konfiguracja środowiska]]
 |[[BIM_ProjectManager/pl|Zarządzaj projektem]]
@@ -8,13 +9,16 @@
 |IconR=BIM_ProjectManager.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
+<div class="mw-translate-fuzzy">
 {{GuiCommandAddon/pl
 |Name=BIM Views
 |Name/pl=BIM: Widoki
 |MenuLocation=Zarządzaj → Widoki
 |Workbenches=[[BIM_Workbench/pl|BIM]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Opis==
@@ -31,7 +35,9 @@ Celem tego okna jest umożliwienie szybkiego dostępu do poziomów i konfiguracj
 
 Menedżer widoków BIM pokaże wszystkie poziomy ''(części budynku)'' i pośrednie płaszczyzny robocze dokumentu. Można go zadokować w dowolnym miejscu interfejsu FreeCAD lub pozostawić w samodzielnym oknie. Części budynku pokażą również swój poziom ''(współrzędną Z ich położenia)''.
 
+<div class="mw-translate-fuzzy">
 * Naciśnięcie kombinacji klawiszy {{KEY|Ctrl}} + {{KEY|9}} lub kliknięcie przycisku '''Menedżer widoków BIM''' na pasku statusu powoduje wyświetlenie lub ukrycie Menedżera widoków BIM.
+</div>
 
 <span id="Top_part"></span>
 ===Górna część===
@@ -56,6 +62,7 @@ Menedżer widoków BIM pokaże wszystkie poziomy ''(części budynku)'' i pośre
 * Dwukrotne kliknięcie na stronie otwiera lub aktywuje zakładkę strony.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[BIM_Setup/pl|Konfiguracja środowiska]]
 |[[BIM_ProjectManager/pl|Zarządzaj projektem]]
@@ -64,6 +71,7 @@ Menedżer widoków BIM pokaże wszystkie poziomy ''(części budynku)'' i pośre
 |IconR=BIM_ProjectManager.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
