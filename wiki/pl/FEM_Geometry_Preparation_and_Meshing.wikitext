@@ -56,9 +56,8 @@ Tu również nie ma jednej przyjętej zasady, ale zaleca się aby grubość był
 [[Image:FEM_shell_model.JPG|600px]]
 {{Caption|Cienkościenna część nadająca się do analizy przy pomocy elementów powłokowych - podświetlona powierzchnia środkowa}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Planar models ===
-</div>
+<span id="Planar_models"></span>
+=== Modele płaskie ===
 
 <div class="mw-translate-fuzzy">
 * w niektórych przypadkach możliwe są też analizy 2D, które można aktywować ustawiając odpowiednio właściwość {{PropertyData|Model Space}} [[FEM_SolverCalculixCcxtools/pl|obiektu solvera CalculiX]]:
