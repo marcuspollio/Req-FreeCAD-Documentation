@@ -31,9 +31,7 @@ Należy pamiętać, że elementy belkowe, powłokowe, płaskiego stanu napręże
 <span id="Beam_models"></span>
 === Modele belkowe ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If a part is slender (long and thin) and beam-like and has a regular cross-section of one of the currently supported beam section types (rectangular, circular, or pipe), then it should be analyzed using beam elements (unless there are some specific forms of loading, response, or unavoidable geometry details that invalidate this assumption).
-</div> 
+Jeśli część jest smukła (długa i cienka), przypomina belkę i ma regularny przekrój o jednym z obecnie wspieranych kształtów przekroju belek (prostokątny, kołowy lub rurowy), to można ją analizować za pomocą elementów belkowych (chyba że występują pewne specyficzne formy obciążenia, odpowiedzi lub nieuniknione szczegóły geometryczne, które uniemożliwiają skorzystanie z tego założenia). 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Basically, one should draw a centerline (some tips on how to extract it from existing solid geometry can be found in [https://forum.freecad.org/viewtopic.php?t=81589 this forum thread] - in short, use [[Draft_Wire|Draft Wire]] or [[Draft_BSpline|Draft BSpline]] with proper [[Draft_Workbench#Draft_snap_toolbar|snaps]] and [[Draft_Line|lines]] as supports) and apply [[FEM_ElementGeometry1D|beam section]] with optional [[FEM_ElementRotation1D|rotation]].
