@@ -40,8 +40,8 @@ Das Werkzeug [[Image:Sketcher_MirrorSketch.svg|24px]] [[Sketcher_MirrorSketch/de
 <span id="Notes"></span>
 ==Hinweise==
 
-* {{Version|1.2}} When symmetry constraints are created, the mirrored geometry remains constrained to the original geometry.
-* If the mirrored geometry touches the mirror axis, the required constraints are created automatically.
+* {{Version/de|1.2}} Wenn Symmetrie-Randbedingungen erstellt werden, bleibt die gespiegelte Geometrie an die ursprüngliche Geometrie gebunden.
+* Wenn die gespiegelte Geometrie die Spiegelachse berührt, werden die erforderlichen Randbedingungen automatisch erstellt.
 
 {{Docnav/de
 |[[Sketcher_MergeSketches/de|SkizzenZusammenführen]]
