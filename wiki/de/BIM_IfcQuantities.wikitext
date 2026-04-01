@@ -9,14 +9,12 @@
 |IconC=Workbench_BIM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=BIM IfcQuantities
 |Name/de=BIM IfcMengen
-|MenuLocation=Verwalten → IFC-Mengen verwalten
+|MenuLocation=Verwalten → IFC Management → IFC-Mengen verwalten
 |Workbenches=[[BIM_Workbench/de|BIM]]
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung==
