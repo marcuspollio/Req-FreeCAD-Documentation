@@ -289,9 +289,7 @@ Ce menu contient les outils [[Draft_Snap/fr|Draft Aimantation]] ainsi que les ou
 
 :* [[Image:Draft_OrthoArray.svg|32px]] [[Draft_OrthoArray/fr|Réseau orthogonal]] : crée un réseau orthogonal à partir d'un objet sélectionné. Cela peut éventuellement créer un réseau de [[App_Link/fr|liens]].
 
-<div class="mw-translate-fuzzy">
-* [[Image:Draft_PathArray.svg|32px]] [[Draft_PathArray/fr|Réseau selon une courbe]] : crée un réseau à partir d'un objet sélectionné en plaçant des copies le long d'un tracé.
-</div>
+:* [[Image:Draft_PathArray.svg|32px]] [[Draft_PathArray/fr|Réseau selon une courbe]] : crée un réseau à partir d'un objet sélectionné en plaçant des copies le long d'un tracé.
 
 <div class="mw-translate-fuzzy">
 * [[File:Draft_PolarArray.svg|32px]] [[Draft_PolarArray/fr|Réseau polaire]] : crée un réseau à partir d'un objet sélectionné en plaçant des copies sur une circonférence. L'outil peut créer un réseau de [[App_Link/fr|liens]].
