@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[Arch_CutPlane/pl|Przetnij płaszczyzną]]
 |[[BIM_Views/pl|Widoki]]
@@ -8,6 +9,7 @@
 |IconR=BIM_Views.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/pl
 |Name=BIM Setup
@@ -33,6 +35,7 @@ System preferencji programu FreeCAD, znajdujący się w menu {{MenuCommand|Edycj
 Po najechaniu myszką na poszczególne ustawienia, pojawi się podpowiedź wyjaśniająca do czego one służą oraz lokalizacja odpowiadającego im ustawienia w ogólnym systemie preferencji FreeCAD.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[Arch_CutPlane/pl|Przetnij płaszczyzną]]
 |[[BIM_Views/pl|Widoki]]
@@ -41,6 +44,7 @@ Po najechaniu myszką na poszczególne ustawienia, pojawi się podpowiedź wyja�
 |IconR=BIM_Views.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
