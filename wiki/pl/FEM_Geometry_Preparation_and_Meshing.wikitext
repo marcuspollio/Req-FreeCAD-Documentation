@@ -37,9 +37,7 @@ Należy po prostu narysować linię środkową ''(kilka rad na temat jej uzyskiw
 
 Nie ma jednej przyjętej zasady, kiedy można używać elementów belkowych, ale często zaleca się, aby wymiary przekroju były < 1/10 długości części, żeby można było zastosować teorię belek.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.1}}: Very slender beams may have negligible bending stiffness and '''truss''' elements can be used to model them. These elements cannot sustain bending. They only transmit axial forces, not moments. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]]. Instead of a profile, the {{PropertyData|Truss Area}} property of the [[FEM_ElementGeometry1D|FEM ElementGeometry1D]] object is used to define their cross-section.
-</div>
+{{Version/pl|1.1}}: Bardzo smukłe belki mogą mieć pomijalną sztywność na zginanie i można użyć elementów '''kratownicowych''' do ich zamodelowania. Te elementy nie mogą przenosić zginania. Przekazują tylko siły osiowe, nie momenty. Aby z nich skorzystać, włącz właściwość {{PropertyData|Exclude Bending Stiffness}} [[FEM_SolverCalculixCcxtools/pl|solvera CalculiX]]. Zamiast profilu, właściwość {{PropertyData|Truss Area}} obiektu [[FEM_ElementGeometry1D/pl|FEM ElementGeometry1D]] jest używana do zdefiniowania ich przekroju poprzecznego.
 
 [[Image:FEM_beam_model.JPG|600px]]
 {{Caption|Smukła część nadająca się do analizy przy pomocy elementów belkowych - podświetlona linia środkowa}}
