@@ -100,7 +100,7 @@ Dodaj kolejny prostopadłościan o nazwie '''Bearing carve''', nadaj mu następu
 |-
 |}
 
-Rename the resulting ''Cut'' object to '''Carved crankcase'''.
+Zmień nazwę powstałego obiektu ''Cut'' na '''Carved crankcase'''.
 
 === Carving out the journals ===
 Next we will cut out a semi-circular place for the crankshaft to sit and a space in the crankcase for it to spin.  We will start with a cylinder, but the orientation of the default cylinder is vertical, whereas we need a horizontal one.  This means we need to figure out how to rotate the cylinder to align it properly with our engine.  If you look at the guide axis in the bottom right corner of the 3D window you will see we want the crankshaft to lie along the positive x-axis.  This means that from its starting location we need to rotate 90 degrees around an axis parallel to the y-axis of the scene.  This tells us what we need to enter the parameters for the cylinder.  Create a cylinder called '''Crankshaft carve''' and give it these properties (notice that now we have to specify the orientation parameters, as well as the regular dimensions we did for the cylinder bores):
