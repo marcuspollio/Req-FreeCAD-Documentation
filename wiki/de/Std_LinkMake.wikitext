@@ -144,11 +144,9 @@ Für Projekte, die verschiedene Links erfordern, wird eine zweistufige Struktur 
 # '''The Instances:''' use regular ({{PropertyData|LinkCopyOnChange}}={{Value|Disabled}}) Links that point to the prototypes, to place them in the model.
 </div> 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This is advantageous in terms of:
-* '''Performance:''' most instances remain lightweight references to a shared Prototype.
-* '''Maintenance:''' if the fundamental design of a part requires changes, only the original source prototype needs to be changed. All instances throughout the project will update automatically.
-</div>
+Dies ist vorteilhaft in Bezug auf:
+* '''Leistung:''' In den meisten Fällen handelt es sich um Lightweight-Referenzen auf einen gemeinsam genutzten Prototyp.
+* '''Wartung:''' Wenn Änderungen am grundlegenden Design eines Bauteils erforderlich sind, muss nur der ursprüngliche Quellprototyp geändert werden. Alle Instanzen im gesamten Projekt werden automatisch aktualisiert.
 
 <span id="Groups"></span>
 == Gruppen ==
