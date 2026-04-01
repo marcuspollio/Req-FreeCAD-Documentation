@@ -22,7 +22,7 @@
 ==Description== <!--T:3-->
 
 <!--T:14-->
-The [[Image:Std_Refresh.svg|24px]] [[Std_Refresh|Std Refresh]] command recomputes the selected objects in the [[Tree_View|Tree View]], or the active document if no objects are selected. The command is disabled if no recompute is required.
+The [[Image:Std_Refresh.svg|24px]] [[Std_Refresh|Std Refresh]] command recomputes objects selected in the [[Tree_View|Tree View]] ({{Version|1.2}}), or the active document if no objects are selected. The command is disabled if no recompute is required.
 
 ==Usage== <!--T:5-->
 
