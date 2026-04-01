@@ -11,10 +11,12 @@ L'ambiente [[File:Defeaturing_workbench_icon.svg|24px]] '''Defeaturing''' è un 
 <span id="Features"></span>
 == Funzioni ==
 
+<div class="mw-translate-fuzzy">
 * Dispone di una serie di strumenti per modificare una forma o un modello STEP, rimuovere fori, facce, semplificare il modello, modificare la tolleranza, applicare operazioni booleane fuzzy ecc ...
 * Ci sono anche strumenti per creare forme solide, da bordi, facce o gusci. 
 * È anche possibile utilizzare la modellazione diretta del modello, quando la cronologia delle operazioni non è disponibile. (Questo è il caso dei modelli 3D STEP).
 * Utile in situazioni per rimuovere rapidamente i dettagli proprietari del modello prima di condividerlo. Vedere [[Defeaturing/it|Defeaturing]]
+</div>
 
 Nota: è possibile utilizzare gli strumenti di Defeaturing più avanzati se è disponibile [[OpenCASCADE/it|OCC7.3]].
 
@@ -34,10 +36,12 @@ Vedere  [[How to install additional workbenches/it|Come installare ambienti di l
 <span id="Supports"></span>
 === Supporti ===
 
+<div class="mw-translate-fuzzy">
 * FreeCAD v0.15 4671  
 * FreeCAD v0.16 >= 6712  
 * FreeCAD v0.17 >= 13522
 * FreeCAD v0.18+
+</div>
 
 <span id="References"></span>
 ==Riferimenti==
