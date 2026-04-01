@@ -55,13 +55,11 @@ Le note di rilascio delle versioni precedenti di FreeCAD sono disponibili alla p
 <span id="Core"></span>
 === Sistema principale ===
 
-<div class="mw-translate-fuzzy">
 {| cellpadding=5
 | [[File:Core_datums_relnotes_1.1.png|384px]]
-| È stato implementato uno strumento [[Std_Base/it#Part_Datums|Core Datum]] per creare sistemi di coordinate locali, piani, assi o punti di Riferimento che possono essere associati e utilizzati anche in Assembly.
+| Sono stati implementati [[Image:Part CoordinateSystem.svg|24px]] [[Std_Base/it#Part_Datums|strumenti per i sistemi di riferimento principali]] per creare sistemi di coordinate, piani di riferimento, linee di riferimento e punti di riferimento che possano essere collegati e utilizzati anche in Assembly.
 [https://github.com/FreeCAD/FreeCAD/pull/18332 Pull request #18332]
 |}
-</div>
 
 <div class="mw-translate-fuzzy">
 {| cellpadding=5
