@@ -61,16 +61,14 @@ Der BIM Ansichtenverwalter zeigt alle Ebenen (Gebäudeteile) und Arbeitsebenen P
 * Durch Doppelklicken auf eine Seite wird die Seitenregisterkarte geöffnet oder aktiviert.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[BIM_Setup/de|Einrichtung]]
-|[[BIM_ProjectManager/de|Projekt]]
+|[[BIM_Project/de|Projekt]]
+|[[BIM_Preferences/de|Einstellungen]]
 |[[BIM_Workbench/de|BIM]]
-|IconL=BIM_Setup.svg
-|IconR=BIM_ProjectManager.svg
+|IconL=BIM_Project.svg
+|IconR=
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
