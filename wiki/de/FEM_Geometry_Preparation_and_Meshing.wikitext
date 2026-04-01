@@ -77,9 +77,8 @@ Again, there's no single rule regarding the applicability of shell elements, but
 [[Image:FEM_shell_model.JPG|600px]]
 {{Caption|Dünnwandiges Bauteil, das zur Analyse von Schalenelementen geeignet ist - Mittelfläche hervorgehoben}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Planar models ===
-</div>
+<span id="Planar_models"></span>
+=== Ebenenmodelle ===
 
 <div class="mw-translate-fuzzy">
 * In einigen Fällen sind auch 2D-Analysen möglich, die durch Setzen der Eigenschaft {{PropertyData/de|Model Space}} des [[FEM_SolverCalculixCcxtools/de|CalculiX-Solvers]] aktiviert werden können:
