@@ -126,12 +126,10 @@ Macro per far ruotare un oggetto su se stesso scegliendo l'asse di rotazione: il
 
 [[File:Macro Rotate To Point Command 00.png|Comando Rotate To Point]]
 
-<div class="mw-translate-fuzzy">
 * {{KEY|Quit}}: chiude la macro
-* {{KEY|Original}}: dopo aver modificato i dati dell'oggetto puoi tornare alla posizione originale, se non hai deselezionato l'oggetto corrente.
-* {{KEY|0,0,0}}: questa opzione posiziona l'oggetto nella coordinata di base {{incode| 0, 0, 0}}
-* {{KEY|Reset}}: reimposta i dati nella macro e deseleziona l'oggetto corrente (stesso clic del mouse nella [[3D_view/it|vista 3D]])
-</div>
+* {{KEY|Original}}: dopo aver modificato i dati dell'oggetto si può tornare alla posizione originale, se non è stato deselezionato l'oggetto corrente.
+* {{KEY|0,0,0}}: questa opzione posiziona l'oggetto nella coordinata di base {{incode| 0, 0, 0}}.
+* {{KEY|Reset}}: Reimposta i dati nella macro e deseleziona l'oggetto corrente.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ToolBar PNG Icon [[File:Macro_Rotate_To_Point.png]] and ToolBar SVG Icon [[Image:Macro_Rotate_To_Point.svg]]
