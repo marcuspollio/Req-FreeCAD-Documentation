@@ -85,19 +85,12 @@ Auf dieser Seite kann Folgendes festgelegt werden:
 
 Auf dieser Seite kann Folgendes festgelegt werden:
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Name
 !style="width: 66%;"|Beschreibung
 |-
 | {{MenuCommand|CalculiX-Pfad}}
 | Der Pfad zur Binärdatei von [[FEM_SolverCalculixCcxtools/de|CalculiX]]. Das Feld leerlassen, um die Standard-Binärdatei zu verwenden.
-|-
-| {{MenuCommand|Den internen Editor für *.inp-Dateien verwenden}}
-| Wenn diese Option aktiviert ist, wird beim Bearbeiten von CalculiX-Eingabedecks ein integrierter *.inp-Datei-Editor mit Syntaxhervorhebung verwendet.
-|-
-| {{MenuCommand|Externer Editor}}
-| Der Pfad zum externen *.inp-Datei-Editor.
 |-
 | {{MenuCommand|Geteilte Schreibweise von *.inp}}
 | Wenn diese Option aktiviert ist, werden mehrere *.inp-Dateien geschrieben, und das Haupt-Eingabedeck verwendet die *INCLUDE-Schlüsselwörter, um auf die anderen zu verweisen. Wenn diese Option deaktiviert ist, wird eine einzige große *.inp-Datei geschrieben.
@@ -153,7 +146,6 @@ Auf dieser Seite kann Folgendes festgelegt werden:
 | {{MenuCommand|Niederfrequenzgrenze}}
 | Standardmäßige Untergrenze der ausgewerteten Eigenfrequenzen in Frequenzanalysen.
 |}
-</div>
 
 ==Elmer==
 
