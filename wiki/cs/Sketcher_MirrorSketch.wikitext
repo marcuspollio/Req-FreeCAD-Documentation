@@ -36,6 +36,10 @@ Nástroj [[Image:Sketcher_MirrorSketch.svg|24px]] [[Sketcher_MirrorSketch/cs|Ske
 # Stiskněte tlačítko {{Button|OK}}.
 # Pro každou vybranou skicu se vytvoří nová skica.
 
+==Notes==
+
+* {{Version|1.2}} When symmetry constraints are created, the mirrored geometry remains constrained to the original geometry.
+* If the mirrored geometry touches the mirror axis, the required constraints are created automatically.
 
 {{Docnav/cs
 |[[Sketcher_MergeSketches/cs|Sloučit náčrtky]]
