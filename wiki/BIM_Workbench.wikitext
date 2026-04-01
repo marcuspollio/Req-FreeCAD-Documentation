@@ -97,17 +97,19 @@ The BIM workbench also adds a series of items in the '''Status Bar''' of FreeCAD
 <!--T:58-->
 * [[Image:Draft_Wire.svg|32px]] [[Draft_Wire|Polyline]]: Creates a polyline (also called wire), a sequence of several connected line segments.
 
-<!--T:59-->
-* [[Image:Draft_Circle.svg|32px]] [[Draft_Circle|Circle]]: Creates a circle from a center and a radius.
+<!--T:65-->
+* [[Image:Draft_Rectangle.svg|32px]] [[Draft_Rectangle|Rectangle]]: Creates a rectangle from two points.
+
+* Arc Tools:
 
 <!--T:60-->
-* [[Image:Draft_Arc.svg|32px]] [[Draft_Arc|Arc]]: Creates a circular arc from a center, a radius, a start angle and an aperture angle.
+:* [[Image:Draft_Arc.svg|32px]] [[Draft_Arc|Arc]]: Creates a circular arc from a center, a radius, a start angle and an aperture angle.
 
 <!--T:61-->
-* [[Image:Draft_Arc_3Points.svg|32px]] [[Draft_Arc_3Points|Arc From 3 Points]]: Creates a circular arc from three points that define its circumference.
+:* [[Image:Draft_Arc_3Points.svg|32px]] [[Draft_Arc_3Points|Arc From 3 Points]]: Creates a circular arc from three points that define its circumference.
 
-<!--T:62-->
-* [[Image:Draft_Fillet.svg|32px]] [[Draft_Fillet|Fillet]]: Creates a fillet, a rounded corner, or a chamfer, a straight edge, between two [[Draft_Line|Draft Lines]].
+<!--T:59-->
+* [[Image:Draft_Circle.svg|32px]] [[Draft_Circle|Circle]]: Creates a circle from a center and a radius.
 
 <!--T:63-->
 * [[Image:Draft_Ellipse.svg|32px]] [[Draft_Ellipse|Ellipse]]: Creates an ellipse from two points defining a rectangle in which the ellipse will fit.
@@ -115,20 +117,22 @@ The BIM workbench also adds a series of items in the '''Status Bar''' of FreeCAD
 <!--T:64-->
 * [[Image:Draft_Polygon.svg|32px]] [[Draft_Polygon|Polygon]]: Creates a regular polygon from a center and a radius.
 
-<!--T:65-->
-* [[Image:Draft_Rectangle.svg|32px]] [[Draft_Rectangle|Rectangle]]: Creates a rectangle from two points.
+* Spline Tools:
 
 <!--T:66-->
-* [[Image:Draft_BSpline.svg|32px]] [[Draft_BSpline|B-Spline]]: Creates a B-spline curve from several points.
+:* [[Image:Draft_BSpline.svg|32px]] [[Draft_BSpline|B-Spline]]: Creates a B-spline curve from several points.
 
 <!--T:67-->
-* [[Image:Draft_BezCurve.svg|32px]] [[Draft_BezCurve|Bézier Curve]]: Creates a Bézier curve from several points.
+:* [[Image:Draft_BezCurve.svg|32px]] [[Draft_BezCurve|Bézier Curve]]: Creates a Bézier curve from several points.
 
 <!--T:68-->
-* [[Image:Draft_CubicBezCurve.svg|32px]] [[Draft_CubicBezCurve|Cubic Bézier Curve]]: Creates a Bézier curve of the third degree.
+:* [[Image:Draft_CubicBezCurve.svg|32px]] [[Draft_CubicBezCurve|Cubic Bézier Curve]]: Creates a Bézier curve of the third degree.
 
 <!--T:69-->
 * [[Image:Draft_Point.svg|32px]] [[Draft_Point|Point]]: Creates a simple point.
+
+<!--T:62-->
+* [[Image:Draft_Fillet.svg|32px]] [[Draft_Fillet|Fillet]]: Creates a fillet, a rounded corner, or a chamfer, a straight edge, between two [[Draft_Line|Draft Lines]].
 
 === 3D/BIM === <!--T:70-->
 
