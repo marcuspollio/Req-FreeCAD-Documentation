@@ -108,13 +108,11 @@ ToDo (last check: 20260318):
 <span id="CAM_Workbench"></span>
 == Arbeitsbereich CAM ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:CAM_machine_editor_relnotes_1.2.png|384px]]
-| Machine Library and Editor were added to the [[CAM_Preferences|CAM Preferences]]. Machine-based postprocessing was also added. Machine definitions can also be implemented as add-ons.
-[https://github.com/FreeCAD/FreeCAD/pull/26533 Pull request #26533], [https://github.com/FreeCAD/FreeCAD/pull/27507 Pull request #27507] and [https://github.com/FreeCAD/FreeCAD/pull/28405 Pull request #28405]
+| Die Maschinenbibliothek und der Editor wurden zur [[CAM_Preferences/de|CAM Einstellungen]] hinzugefügt. Zudem wurde eine maschinenbasierte Nachbearbeitung hinzugefügt. Maschinendefinitionen können ebenfalls als Add-ons implementiert werden.
+[https://github.com/FreeCAD/FreeCAD/pull/26533 Pull-Request #26533], [https://github.com/FreeCAD/FreeCAD/pull/27507 Pull-Request #27507] und [https://github.com/FreeCAD/FreeCAD/pull/28405 Pull-Request #28405]
 |}
-</div>
 
 <span id="Further_CAM_improvements"></span>
 === Weitere CAM-Verbesserungen ===
