@@ -86,13 +86,9 @@ Obiekty 2D są powszechnie używane jako pomoce kreślarskie, lub do rysowania l
 
 * [[Image:Draft_Polygon.svg|32px]] [[Draft_Polygon/pl|Wielokąt]]: tworzy wielokąt foremny o zadanym punkcie środkowym i promieniu.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 * <span id="BIM_SplineTools">Spline Tools:</span><!--Do not edit span id: the BIM_SplineTools pages redirect here-->
-</div>
 
-<div class="mw-translate-fuzzy">
-* [[Image:Draft_BSpline.svg|32px]] [[Draft_BSpline/pl|Krzywa złożona]]: tworzy krzywą złożoną z kilku punktów.
-</div>
+:* [[Image:Draft_BSpline.svg|32px]] [[Draft_BSpline/pl|Krzywa złożona]]: tworzy krzywą złożoną z kilku punktów.
 
 <div class="mw-translate-fuzzy">
 * [[Image:Draft_BezCurve.svg|32px]] [[Draft_BezCurve/pl|Krzywa Bezier'a]]: tworzy krzywą Béziera z kilku punktów.
