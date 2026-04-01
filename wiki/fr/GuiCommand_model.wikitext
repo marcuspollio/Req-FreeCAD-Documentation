@@ -44,15 +44,13 @@ La fermeture et l’ouverture des balises de traduction doivent entourer les ima
 <span id="Usage"></span>
 == Utilisation ==
 
-<div class="mw-translate-fuzzy">
 # Il existe plusieurs façons de lancer la commande :
-#* Appuyez sur le bouton {{Button|[[Image:Std_Open.svg|16px]] [[GuiCommand_model/fr|Base ExampleCommandModel]]}}. (''Note de l'éditeur :'' ceci utilise le modèle [[Template:Button]], il est nécessaire de créer un lien vers la commande comme indiqué dans cet exemple)
+#* Appuyez sur le bouton {{Button|[[Image:Std_Open.svg|16px]] [[GuiCommand_model/fr|Texte du menu pour la commande]]}}. (''Note de l'éditeur :'' ceci utilise le modèle [[Template:Button]], il est nécessaire de créer un lien vers la commande comme indiqué dans cet exemple)
 #* Sélectionnez l'option {{MenuCommand|Menu → Sous-menu → [[Image:Std_Open.svg|16px]] Texte du menu de la commande}} du menu. (''Note de l'éditeur :'' ceci utilise le modèle [[Template:MenuCommand]])
 #* Sélectionnez l'option {{MenuCommand|Submenu → [[Image:Std_Open.svg|16px]] Texte du menu de la commande}} dans le menu contextuel de la [[Tree_View/fr|vue en arborescence]] ou de la [[3D_View/fr|vue 3D]]. (''Note de l'éditeur :'' ceci utilise également le modèle [[Template:MenuCommand]], toutes les commandes ne sont pas accessibles à partir d'un menu contextuel)
 #* Utilisez le raccourci clavier {{KEY|F}} puis {{KEY|C}} ou {{KEY|Ctrl}} + {{KEY|Z}}. (''Note de l'éditeur :'' ceci utilise le modèle [[Template:KEY]], toutes les commandes n'ont pas de raccourci clavier)
 # Étapes détaillées au besoin. Certaines étapes peuvent nécessiter des pressions du {{KEY|clavier}} tandis que d'autres peuvent nécessiter l'utilisation de la souris pour cliquer sur un {{Button|bouton}}.
 # Définissez les options et appuyez sur {{Button|OK}}.
-</div>
 
 == Options ==
 
