@@ -4,10 +4,10 @@
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
 |[[BIM_DimensionHorizontal|DimensionHorizontal]]
-|[[BIM_Leader|Leader]]
+|[[BIM_Text|Text]]
 |[[BIM_Workbench|BIM]]
 |IconL=BIM_DimensionHorizontal.svg
-|IconR=BIM_Leader.svg
+|IconR=BIM_Text.svg
 |IconC=Workbench_BIM.svg
 }}
 </div>
@@ -15,7 +15,7 @@
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommand
 |Name=BIM DimensionVertical
-|MenuLocation=Annotation → Vertical dimension
+|MenuLocation=Annotation → Vertical Dimension
 |Workbenches=[[BIM_Workbench|BIM]]
 |Shortcut={{KEY|D}} {{KEY|V}}
 |Version=1.0
@@ -27,7 +27,7 @@
 == Описание ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-The [[Image:BIM_DimensionVertical.svg|24px]] [[BIM_DimensionVertical|BIM DimensionVertical]] tool creates an vertical dimension, a '''Dimension''' object...
+The [[Image:BIM_DimensionVertical.svg|24px]] [[BIM_DimensionVertical|BIM DimensionVertical]] tool creates an vertical dimension, a '''Dimension''' object…
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -36,20 +36,20 @@ The [[Image:BIM_DimensionVertical.svg|24px]] [[BIM_DimensionVertical|BIM Dimensi
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # There are several ways to invoke the tool:
-#* Press the {{Button|[[Image:BIM_DimensionVertical.svg|16px]] [[BIM_DimensionVertical|Vertical dimension]]}} button.
-#* Select the {{MenuCommand|Annotation → [[Image:BIM_DimensionVertical.svg|16px]] Vertical dimension}} option from the menu.
+#* Press the {{Button|[[Image:BIM_DimensionVertical.svg|16px]] [[BIM_DimensionVertical|Vertical Dimension]]}} button.
+#* Select the {{MenuCommand|Annotation → [[Image:BIM_DimensionVertical.svg|16px]] Vertical Dimension}} option from the menu.
 #* Use the keyboard shortcut: {{KEY|D}} then {{KEY|V}}.
-# ...
+# …
 </div>
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
 |[[BIM_DimensionHorizontal|DimensionHorizontal]]
-|[[BIM_Leader|Leader]]
+|[[BIM_Text|Text]]
 |[[BIM_Workbench|BIM]]
 |IconL=BIM_DimensionHorizontal.svg
-|IconR=BIM_Leader.svg
+|IconR=BIM_Text.svg
 |IconC=Workbench_BIM.svg
 }}
 </div>
