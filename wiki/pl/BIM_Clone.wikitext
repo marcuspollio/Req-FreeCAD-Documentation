@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[BIM_Copy/pl|Kopiuj]]
 |[[Arch_Add/pl|Połącz obiekty]]
@@ -8,7 +9,9 @@
 |IconR=Arch_Add.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/pl
 |Name=BIM Clone
 |Name/pl=BIM: Klonuj
@@ -16,6 +19,7 @@
 |Workbenches=[[BIM_Workbench/pl|BIM]]
 |SeeAlso=[[Draft_Clone/pl|Klon]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Opis==
@@ -48,6 +52,7 @@ Podczas tworzenia takiego klona '''większość właściwości nie zostanie skop
 * {{PropertyData|Clone Of|Link}}: ta właściwość dotyczy wyłącznie klonów obiektów BIM i wskazuje oryginalny obiekt. Więcej szczegółów można znaleźć w dokumentacji właściwości [[Arch_Component/pl|Komponenty architektury]].
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[BIM_Copy/pl|Kopiuj]]
 |[[Arch_Add/pl|Połącz obiekty]]
@@ -56,6 +61,7 @@ Podczas tworzenia takiego klona '''większość właściwości nie zostanie skop
 |IconR=Arch_Add.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
