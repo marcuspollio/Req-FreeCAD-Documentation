@@ -102,7 +102,7 @@ The BIM workbench also adds a series of items in the '''Status Bar''' of FreeCAD
 <!--T:65-->
 * [[Image:Draft_Rectangle.svg|32px]] [[Draft_Rectangle|Rectangle]]: Creates a rectangle from two points.
 
-* Arc Tools:
+* <span id="BIM_ArcTools">Arc Tools:</span><!--Do not edit span id: the BIM_ArcTools pages redirect here-->
 
 <!--T:60-->
 :* [[Image:Draft_Arc.svg|32px]] [[Draft_Arc|Arc]]: Creates a circular arc from a center, a radius, a start angle and an aperture angle.
@@ -119,7 +119,7 @@ The BIM workbench also adds a series of items in the '''Status Bar''' of FreeCAD
 <!--T:64-->
 * [[Image:Draft_Polygon.svg|32px]] [[Draft_Polygon|Polygon]]: Creates a regular polygon from a center and a radius.
 
-* Spline Tools:
+* <span id="BIM_SplineTools">Spline Tools:</span><!--Do not edit span id: the BIM_SplineTools pages redirect here-->
 
 <!--T:66-->
 :* [[Image:Draft_BSpline.svg|32px]] [[Draft_BSpline|B-Spline]]: Creates a B-spline curve from several points.
@@ -293,7 +293,7 @@ Annotations are visual help objects that can be placed inside your model. They c
 <!--T:125-->
 * [[Image:Draft_Hatch.svg|32px]] [[Draft_Hatch|Hatch]]: Creates  hatches on the planar faces of a selected object.
 
-* Axis Tools:
+* <span id="BIM_AxisTools">Axis Tools:</span><!--Do not edit span id: the BIM_AxisTools pages redirect here-->
 
 <!--T:121-->
 :* [[Image:Arch_Axis.svg|32px]] [[Arch_Axis|Axis]]: Adds a 1-direction array of axes.
@@ -356,7 +356,7 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 <!--T:158-->
 * [[Image:Draft_Mirror.svg|32px]] [[Draft_Mirror|Mirror]]: Creates mirrored copies from selected objects.
 
-* Cloning Tools:
+* <span id="BIM_CloneTools">Cloning Tools:</span><!--Do not edit span id: the BIM_CloneTools pages redirect here-->
 
 <!--T:138-->
 :* [[Image:BIM_Clone.svg|32px]] [[BIM_Clone|Clone]]: Clones selected objects.
@@ -372,7 +372,7 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 <!--T:140-->
 * [[Image:BIM_Compound.svg|32px]] [[BIM_Compound|Compound]]: Creates a compound from selected objects. This is the same tool as [[Part_Compound|Part Compound]].
 
-* Offset Tools:
+* <span id="BIM_OffsetTools">* Offset Tools:<!--Do not edit span id: the BIM_OffsetTools pages redirect here-->
 
 <!--T:142-->
 :* [[Image:BIM_Offset2D.svg|32px]] [[BIM_Offset2D|2D Offset]]: Constructs a parallel wire at a given distance from the original, or enlarges/shrinks a planar face (parametric version). This is the same tool as [[Part_Offset2D|Part Offset2D]].
@@ -407,7 +407,7 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 <!--T:152-->
 * [[Image:Arch_Remove.svg|32px]] [[Arch_Remove|Remove Component]]: Subtracts or removes objects from a component.
 
-* Array Tools:
+* <span id="BIM_ArrayTools">* Array Tools:</span><!--Do not edit span id: the BIM_ArrayTools pages redirect here-->
 
 <!--T:153-->
 :* [[Image:Draft_OrthoArray.svg|32px]] [[Draft_OrthoArray|Array]]: Creates an orthogonal array from a selected object. It can optionally create a [[App_Link|Link]] array.
@@ -427,7 +427,7 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 <!--T:159-->
 * [[Image:BIM_Extrude.svg|32px]] [[BIM_Extrude|Extrude]]: Extrudes planar faces of an object. This is the same tool as [[Part_Extrude|Part Extrude]].
 
-* Boolean Tools:
+* <span id="BIM_BooleanTools">Boolean Tools:</span><!--Do not edit span id: the BIM_BooleanTools pages redirect here-->
 
 <!--T:161-->
 :* [[Image:BIM_Fuse.svg|32px]] [[BIM_Fuse|Union]]: Fuses two objects. This is the same tool as [[Part_Fuse|Part Fuse]].
@@ -449,7 +449,7 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 <!--T:167-->
 * [[Image:BIM_Windows.svg|32px]] [[BIM_Windows|Manage Doors and Windows]]: Manage the doors and windows of your project.
 
-* IFC Management:
+* <span id="BIM_IfcManageTools">IFC Management:</span><!--Do not edit span id: the BIM_IfcManageTools pages redirect here-->
 
 <!--T:168-->
 :* [[Image:BIM_IfcElements.svg|32px]] [[BIM_IfcElements|Manage IFC Elements]]: Manage how the different elements of your project will be exported to IFC.
