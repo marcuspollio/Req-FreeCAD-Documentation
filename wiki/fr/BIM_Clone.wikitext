@@ -49,16 +49,14 @@ Les '''propriétés qui définissent la forme''' de l'objet BIM d'origine y sont
 * {{PropertyData|Clone Of|Link}} : cette propriété est spécifique aux clones des objets BIM et pointe vers l'objet d'origine. Pour plus d'informations, consultez la documentation relative à la propriété des [[Arch_Component/fr|Arch Composants]].
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
-|[[BIM_Copy/fr|Copie]]
-|[[Arch_Add/fr|Ajouter]]
+|[[BIM_SetWPSide/fr|Plan de travail de côté]]
+|[[BIM_Link/fr|Lien]]
 |[[BIM_Workbench/fr|Atelier BIM]]
-|IconL=BIM_Copy.svg
-|IconR=Arch_Add.svg
+|IconL=BIM_SetWPSide.svg
+|IconR=BIM_Link.svg
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
