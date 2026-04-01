@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[BIM_SetWPSide/pl|BIM: Płaszczyzna robocza z boku]]
 |[[BIM_Clone/pl|Klonuj]]
@@ -8,6 +9,7 @@
 |IconR=BIM_Clone.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/pl
 |Name=BIM Copy
@@ -23,6 +25,7 @@
 Narzędzie [[Image:BIM_Copy.svg|24px]] [[BIM_Copy/pl|Kopiuj]] jest skrótem do standardowego narzędzia [[Draft_Move/pl|Rysunek roboczy: Przesuń]], ale z włączoną opcją '''Kopiuj''', co pozwala na utworzenie kopii obiektu i umieszczenie go w danym miejscu, za jednym razem.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[BIM_SetWPSide/pl|BIM: Płaszczyzna robocza z boku]]
 |[[BIM_Clone/pl|Klonuj]]
@@ -31,6 +34,7 @@ Narzędzie [[Image:BIM_Copy.svg|24px]] [[BIM_Copy/pl|Kopiuj]] jest skrótem do s
 |IconR=BIM_Clone.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
