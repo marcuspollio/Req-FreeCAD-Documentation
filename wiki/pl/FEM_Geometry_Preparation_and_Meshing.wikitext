@@ -49,9 +49,7 @@ Jeśli część jest cienkościenna ''(np. konstrukcje blachowe)'' to powinna by
 
 Aby uzyskać geometrię odpowiednią do analizy z użyciem elementów powłokowych, należy narysować powierzchnię środkową części ''(kilka rad na temat jej uzyskiwania z istniejącej geometrii bryłowej można znaleźć w [https://forum.freecad.org/viewtopic.php?t=67505 tym wątku na forum], [https://forum.freecad.org/viewtopic.php?t=71821 tym] oraz [https://forum.freecad.org/viewtopic.php?t=81834 tym] - w skrócie, użyj [[PartDesign_SubShapeBinder/pl|Łącznika kształtów podrzędnych]] lub [[Draft_Facebinder/pl|Łącznika kształtu]] a następnie [[Part_Offset/pl|Odsunięcia 3D]] i wreszcie Łącznika kształtów podrzędnych i [[Part_Extrude/pl|Wyciągnięcia]] do wydłużenia krawędzi powierzchni środkowych aby zamknąć przerwy między nimi)'' i zdefiniować odpowiednią [[FEM_ElementGeometry2D/pl|grubość]]. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Again, there's no single rule regarding the applicability of shell elements, but it's usually recommended that the thickness should be < 1/10 of a typical global dimension (length/width) for the shell assumption to be valid.
-</div>
+Tu również nie ma jednej przyjętej zasady, ale zaleca się aby grubość była < 1/10 typowego wymiaru globalnego ''(długość / szerokość)'' części, żeby można było zastosować teorię powłok.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Version|1.1}}: Very thin shells may have negligible bending stiffness and '''membrane''' elements can be used to model them. These elements cannot sustain bending. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]].
