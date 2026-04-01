@@ -33,13 +33,9 @@ Man sollte bedenken, dass die in CalculiX verwendeten Balken-, Schalen-, ebenen 
 <span id="Beam_models"></span>
 === Trägermodelle ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If a part is slender (long and thin) and beam-like and has a regular cross-section of one of the currently supported beam section types (rectangular, circular, or pipe), then it should be analyzed using beam elements (unless there are some specific forms of loading, response, or unavoidable geometry details that invalidate this assumption).
-</div> 
+Wenn ein Bauteil schlank (lang und dünn) und trägerartig ist und einen regelmäßigen Querschnitt eines der derzeit unterstützten Trägerquerschnittstypen (rechteckig, kreisförmig oder rohrförmig) aufweist, sollte es mit Trägerelementen analysiert werden (es sei denn, es gibt bestimmte Formen der Belastung, Reaktion oder unvermeidbare geometrische Details, die diese Annahme ungültig machen). 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Basically, one should draw a centerline (some tips on how to extract it from existing solid geometry can be found in [https://forum.freecad.org/viewtopic.php?t=81589 this forum thread] - in short, use [[Draft_Wire|Draft Wire]] or [[Draft_BSpline|Draft BSpline]] with proper [[Draft_Workbench#Draft_snap_toolbar|snaps]] and [[Draft_Line|lines]] as supports) and apply [[FEM_ElementGeometry1D|beam section]] with optional [[FEM_ElementRotation1D|rotation]].
-</div> 
+Grundsätzlich sollte man eine Mittellinie zeichnen (einige Tipps, wie man diese aus einer vorhandenen Volumengeometrie extrahieren kann, findet man in [https://forum.freecad.org/viewtopic.php?t=81589 diesem Forumbeitrag] – kurz gesagt, verwendet man [[Draft_Wire/de|Draft Linienzug]] oder [[Draft_BSpline/de|Draft BSpline]] mit den richtigen [[Draft_Workbench/de#Draft-Widget_Einrasten|Einrasten]] und [[Draft_Line/de|Linien]] als Stützen) und wendet man [[FEM_ElementGeometry1D/de|Trägerschnitte]] mit optionaler [[FEM_ElementRotation1D/de|Drehung]] an. 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 There's no single rule dictating when beam elements can be used, but it's often advised that the cross-section dimensions should be < 1/10 of the part's length for the beam assumption to be valid.
