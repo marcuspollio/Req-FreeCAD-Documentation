@@ -44,16 +44,14 @@ Narzędzie Projekt obsługuje dwa rodzaje szablonów:
 * Alternatywnie, możesz też zapisać zawartość bieżącego dokumentu jako szablon. To zapisze aktualnie otwarty dokument jako standardowy plik '''.FCStd''' file, ale również uwzględni dodatkowe ustawienia BIM, takie jak bieżąca płaszczyzna robocza lub bieżące jednostki. Po użyciu opcji '''przywróć''' w dowolnej chwili, zawartość tego pliku szablonu zostanie połączona z aktywnym dokumentem a wszystkie ustawienia w nim znalezione będą zastosowane.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/pl
-|[[BIM_Views/pl|Widoki]]
+|[[BIM_Setup/pl|Konfiguracja środowiska]]
 |[[BIM_Windows/pl|Okno]]
 |[[BIM_Workbench/pl|środowisko pracy BIM]]
-|IconL=BIM_Views.svg
+|IconL=BIM_Setup.svg
 |IconR=BIM_Windows.svg
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
