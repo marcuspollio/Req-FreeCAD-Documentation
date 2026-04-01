@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[BIM_Views/de|Ansichten]]
 |[[BIM_Windows/de|Fenster]]
@@ -8,6 +9,7 @@
 |IconR=BIM_Windows.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/de
 |Name=BIM ProjectManager
@@ -44,6 +46,7 @@ Das Projektwerkzeug unterstützt zwei Arten von Vorlagen:
 * Alternativ kann der Inhalt des aktuellen Dokuments als Vorlage gespeichert werden. Dies sichert das aktuell geöffnete Dokument als Standard-'''.FCStd'''-Datei, beinhaltet aber auch zusätzliche BIM-Einstellungen wie die aktuelle Arbeitsebene oder aktuelle Einheiten. Die Option '''wiederherstellen''' kann jederzeit dazu verwendet werden, die Inhalte dieser Vorlage in das aktive Dokument zu laden und alle darin gefundenen Einstellungen anzuwenden.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[BIM_Views/de|Ansichten]]
 |[[BIM_Windows/de|Fenster]]
@@ -52,6 +55,7 @@ Das Projektwerkzeug unterstützt zwei Arten von Vorlagen:
 |IconR=BIM_Windows.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
