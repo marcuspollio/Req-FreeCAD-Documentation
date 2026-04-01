@@ -59,8 +59,10 @@ Okno dialogowe Zadania ma sześć pionowo ułożonych zakładek: {{MenuCommand|O
 ** '''%M''' ścieżka makr użytkownika,
 ** '''%j''' nazwa zadania.
 
+<div class="mw-translate-fuzzy">
 * '''Procesor''': Wybierz [[CAM_Post/pl|postprocesor]] dla swojej maszyny.
 * '''Parametry''': Dodaj parametry dla [[CAM_Post/pl|postprocesora]] jeśli potrzeba.
+</div>
 
 <span id="Setup"></span>
 ==Konfiguracja==
