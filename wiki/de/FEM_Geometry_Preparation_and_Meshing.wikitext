@@ -24,10 +24,7 @@ Die Vorbereitung der Geometrie und die Vernetzung sind entscheidende Bestandteil
 <span id="Choice_of_the_type_of_geometry"></span>
 ==Auswahl der Geometrieart==
 
-<div class="mw-translate-fuzzy">
-Während die meisten Konstruktionen aus Volumenkörpern bestehen, wird für die FEM häufig dringend empfohlen, Linienzüge oder Flächen zu verwenden, wenn die Struktur dies zulässt:
-* Wenn ein Bauteil schlank (lang und dünn) und trägerartig ist und einen regelmäßigen Querschnitt eines der derzeit unterstützten Trägerquerschnittstypen (rechteckig, kreisförmig oder rohrförmig) aufweist, sollte es mit Trägerelementen analysiert werden (es sei denn, es gibt bestimmte Formen der Belastung, Reaktion oder unvermeidbare geometrische Details, die diese Annahme ungültig machen). Grundsätzlich sollte man eine Mittellinie zeichnen (einige Tipps, wie man diese aus einer vorhandenen Volumengeometrie extrahieren kann, findet man in [https://forum.freecad.org/viewtopic.php?t=81589 diesem Forumbeitrag] – kurz gesagt, verwendet man [[Draft_Wire/de|Draft Linienzug]] oder [[Draft_BSpline/de|Draft BSpline]] mit den richtigen [[Draft_Workbench/de#Draft-Widget_Einrasten|Einrasten]] und [[Draft_Line/de|Linien]] als Stützen) und wendet man [[FEM_ElementGeometry1D/de|Trägerschnitte]] mit optionaler [[FEM_ElementRotation1D/de|Drehung]] an. Es gibt keine einheitliche Regel, wann Trägerelemente verwendet werden können, aber es wird oft empfohlen, dass die Querschnittsabmessungen < 1/10 der Länge des Teils betragen sollten, damit die Trägerannahme gültig ist.
-</div>
+Während die meisten Konstruktionen aus Volumenkörpern bestehen, wird für FEM häufig dringend empfohlen, Linienzüge oder Flächen zu verwenden, wenn die Struktur dies zulässt.
 
 <div class="mw-translate-fuzzy">
 Man sollte bedenken, dass die in CalculiX verwendeten Balken-, Schalen-, ebenen Spannungs-/Dehnungs- und achsensymmetrischen Elemente keine echten Elemente dieser Art sind (sie verwenden nicht die aus der Literatur und anderer Software bekannten klassischen Elementformulierungen) – sie werden intern zu Volumenkörpern erweitert. Dennoch wird ihre Verwendung in den oben genannten Fällen empfohlen.
