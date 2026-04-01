@@ -1,16 +1,14 @@
 <languages/>
 {{UnfinishedDocu{{#translation:}}}}
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[Arch_Reference/de|Referenz]]
-|[[BIM_DimensionAligned/de|AusgerichtetesMaß]]
+|[[BIM_DimensionVertical/de|VertikalesMaß]]
+|[[BIM_Leader/de|Hinweislinie]]
 |[[BIM_Workbench/de|BIM]]
-|IconL=Arch_Reference.svg
-|IconR=BIM_DimensionAligned.svg
+|IconL=BIM_DimensionVertical.svg
+|IconR=BIM_Leader.svg
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{GuiCommand/de
 |Name=BIM Text
