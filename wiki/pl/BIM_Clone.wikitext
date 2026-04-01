@@ -48,16 +48,14 @@ Podczas tworzenia takiego klona '''większość właściwości nie zostanie skop
 * {{PropertyData|Clone Of|Link}}: ta właściwość dotyczy wyłącznie klonów obiektów BIM i wskazuje oryginalny obiekt. Więcej szczegółów można znaleźć w dokumentacji właściwości [[Arch_Component/pl|Komponenty architektury]].
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/pl
-|[[BIM_Copy/pl|Kopiuj]]
-|[[Arch_Add/pl|Połącz obiekty]]
+|[[BIM_SetWPSide/pl|Płaszczyzna robocza z boku]]
+|[[BIM_Link/pl|Łącze]]
 |[[BIM_Workbench/pl|środowisko pracy BIM]]
-|IconL=BIM_Copy.svg
-|IconR=Arch_Add.svg
+|IconL=BIM_SetWPSide.svg
+|IconR=BIM_Link.svg
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
