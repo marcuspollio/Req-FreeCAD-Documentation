@@ -179,11 +179,11 @@ Teraz, gdy wiesz, jak łatwo określić współrzędne elementów rysunku, może
 
 Nazwij te okręgi '''Bolt 1''' do '''Bolt 3'''.
 
-=== The Other Side of the Block ===
-Now that the first three head bolts are in place down one side of the engine we need three more mirrored on the other side, there are three ways we could do this:
-*  We could just continue adding circles like we did for the first three and just negate the Y coordinates to put the bolts on the other side of the engine.
-*  We could select the three we have added, go to {{MenuCommand|Edit → Duplicate Selection}} and then negate the Y coordinates of the three new circles.
-*  We could use the mirror functionality in the Part Workbench.
+=== Druga strona bloku ===
+Gdy pierwsze trzy śruby głowicy są już rozmieszczone po jednej stronie silnika, potrzebujemy jeszcze trzech odbitych lustrzanie po drugiej stronie. Możemy to zrobić na trzy sposoby:
+* Możemy po prostu kontynuować dodawanie okręgów tak, jak dla pierwszych trzech, i odwrócić współrzędne Y, aby umieścić śruby po drugiej stronie silnika.
+* Możemy zaznaczyć trzy dodane okręgi, przejść do {{MenuCommand|Edytuj → Powiel zaznaczenie}}, a następnie odwrócić współrzędne Y dla trzech nowych okręgów.
+* Możemy użyć funkcji odbicia lustrzanego w środowisku Część.
 
 Since you should already know how to do the first and second way, we will choose the third way for this example model.  Each of the three methods has its own advantages and disadvantages, but a good operating rule is that simple models (like this one) probably should use the first or second methods, whereas models with lots of duplication and/or duplication of very complicated shapes/objects should probably use the third method.
 
