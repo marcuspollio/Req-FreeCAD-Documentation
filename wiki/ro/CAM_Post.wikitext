@@ -121,6 +121,8 @@ Typical Configuration Sections include:
 The Edit->Preferences...->Path->Job Preferences tab, Defaults->Path is used to set the default Postprocessor selected on Job creation.  This allows Path workbench to be configured to only display desired Postprocessors, and to set a default.
 </div> 
 
+Post-processing settings can be taken either from the Job's selected postprocessor or from a selected machine configuration. If a machine configuration is used, it can define the postprocessor and related output options.
+
 <div class="mw-translate-fuzzy">
 Included Postprocessors are saved in the FreeCAD.Mod.Path.Pathscripts.Post by default:
 *centroid
