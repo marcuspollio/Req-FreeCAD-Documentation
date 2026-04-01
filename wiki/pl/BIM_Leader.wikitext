@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/pl
-|[[BIM_DimensionVertical/pl|BIM: Wymiar pionowy]]
+|[[BIM_Text/pl|Tekst]]
 |[[Arch_Axis/pl|Architektura: Osie]]
 |[[BIM_Workbench/pl|środowisko pracy BIM]]
-|IconL=BIM_DimensionVertical.svg
+|IconL=BIM_Text.svg
 |IconR=Arch_Axis.svg
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{GuiCommand/pl
 |Name=BIM Leader
@@ -44,16 +42,14 @@ Narzędzie [[Image:BIM_Leader.svg|24px]] [[BIM_Leader/pl|BIM: Linia odniesienia]
 To narzędzie jest oparte na narzędziu [[Draft_Wire/pl|Polilinia]].
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/pl
-|[[BIM_DimensionVertical/pl|BIM: Wymiar pionowy]]
+|[[BIM_Text/pl|Tekst]]
 |[[Arch_Axis/pl|Architektura: Osie]]
 |[[BIM_Workbench/pl|środowisko pracy BIM]]
-|IconL=BIM_DimensionVertical.svg
+|IconL=BIM_Text.svg
 |IconR=Arch_Axis.svg
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
