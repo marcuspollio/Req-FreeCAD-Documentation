@@ -242,9 +242,7 @@ Wskazywanie wewnętrznych obszarów ''(np. ścian / objętości)'' bywa problema
 
 {{Caption|Ręczna edycja właściwości ''References''}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.1}}: If the selected face of CompSolid (Boolean fragments with CompSolid mode + Compound filter standard workflow described in the [[#Assembly_geometries|Assembly geometries]] section) belongs to two solids, a pop-up menu appears, allowing the selection of the proper solid.
-</div>
+{{Version/pl|1.1}}: Jeśli wskazana ściana obiektu CompSolid (standardowe podejście z Fragmentacją funkcją logiczną w trybie CompSolid + Filtr złożeń omawiane w seci [[#Geometrie_złożeń|Geometrie złożeń]]) należy do dwóch brył, to pojawi się menu pozwalające na wybór odpowiedniej bryły.
 
 <span id="Meshing_basics"></span>
 == Podstawy tworzenia siatek ==
