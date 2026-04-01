@@ -67,7 +67,7 @@ Zapoznaj się również z informacjami na stronie [[Sketcher_Workbench/pl#Pomoce
 
 Zobacz stronę [[Sketcher_Dimension/pl#Uwagi|Wiązania wymiarów]].
 * {{Version/pl|1.2}} Dla wiązań odległości punkt-linia oraz okrąg/łuk solver bardziej skutecznie zachowuje zamierzoną orientację wiązania. To redukuje niespodziewane odwracanie wiązań przy zmianach geometrii.
-* W razie potrzeby, przełączanie wiązania między sterującym i referencyjnym lub jego deaktywacja i reaktywacja może ponownie przeliczyć jego orientację.
+* W razie potrzeby przełączanie wiązania między sterującym a referencyjnym lub jego deaktywacja i reaktywacja może ponownie przeliczyć jego orientację.
 
 <span id="Scripting"></span>
 ==Tworzenie skryptów==
