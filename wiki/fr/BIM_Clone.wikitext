@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[BIM_Copy/fr|Copie]]
 |[[Arch_Add/fr|Ajouter]]
@@ -8,7 +9,9 @@
 |IconR=Arch_Add.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/fr
 |Name=BIM Clone
 |Name/fr=BIM Cloner
@@ -16,6 +19,7 @@
 |Workbenches=[[BIM_Workbench/fr|BIM]]
 |SeeAlso=[[Draft_Clone/fr|Draft Cloner]]
 }}
+</div>
 
 ==Description==
 
@@ -47,6 +51,7 @@ Les '''propriétés qui définissent la forme''' de l'objet BIM d'origine y sont
 * {{PropertyData|Clone Of|Link}} : cette propriété est spécifique aux clones des objets BIM et pointe vers l'objet d'origine. Pour plus d'informations, consultez la documentation relative à la propriété des [[Arch_Component/fr|Arch Composants]].
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[BIM_Copy/fr|Copie]]
 |[[Arch_Add/fr|Ajouter]]
@@ -55,6 +60,7 @@ Les '''propriétés qui définissent la forme''' de l'objet BIM d'origine y sont
 |IconR=Arch_Add.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
