@@ -126,7 +126,7 @@ Odetnij obiekt '''Crankshaft carve''' od '''Carved crankcase''' i zmień nazwę 
 <span id="Finishing_out_the_Crankcase"></span>
 === Wykańczanie skrzyni korbowej ===
 
-Lastly we will cut out 2 final boxes so that the piston rods can reach from the crankcase up into the engine block.  Make two objects called '''Box carve 1''' and '''Box carve 2''' with the following properties; also, you can duplicate '''Box carve 1''' and just change the X coordinate to get the second carver. Union them into an object called '''Box carvers''', and cut this object away from the '''Crankcase with journals''', calling the final result '''Crankcase'''.  Remember, you can hide the '''Bored block''' by selecting it and pushing spacebar so you can see what you are doing.
+Na koniec wytnij dwa ostatnie prostopadłościany, aby korbowody mogły sięgać ze skrzyni korbowej do bloku silnika. Utwórz dwa obiekty o nazwach '''Box carve 1''' i '''Box carve 2''' z następującymi właściwościami; możesz też skopiować '''Box carve 1''' i zmienić tylko współrzędną X, aby uzyskać drugi wycinacz. Połącz je w jeden obiekt o nazwie '''Box carvers''', a następnie odetnij ten obiekt od '''Crankcase with journals''', nadając powstałemu obiektowi ostateczną nazwę '''Crankcase'''. Pamiętaj, że możesz ukryć '''Bored block'', zaznaczając go i naciskając spację, aby lepiej widzieć, co robisz.
 
 :{| class=wikitable border=1
 |-
