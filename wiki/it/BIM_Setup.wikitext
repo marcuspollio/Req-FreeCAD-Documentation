@@ -2,10 +2,10 @@
 
 {{Docnav
 |[[Arch_CutPlane|CutPlane]]
-|[[BIM_Views|Views]]
+|[[BIM_ProjectManager|ProjectManager]]
 |[[BIM_Workbench|BIM]]
 |IconL=Arch_CutPlane.svg
-|IconR=BIM_Views.svg
+|IconR=BIM_ProjectManager.svg
 |IconC=Workbench_BIM.svg
 }}
 
@@ -26,6 +26,12 @@
 Il sistema di preferenze di FreeCAD, che si trova nel menu '''Modifica -> Preferenze''', è molto complesso. La finestra di dialogo di configurazione '''BIM''' ne offre una versione semplificata, raccogliendo sotto un'unica schermata alcune delle impostazioni delle preferenze più comunemente utilizzate per il lavoro BIM. La modifica di qualsiasi opzione di preferenza ha lo stesso effetto della modifica dell'impostazione corrispondente in Modifica -> Preferenze.
 </div>
 
+==Usage==
+
+# There are several ways to invoke the tool:
+#* Press the {{Button|[[Image:BIM_Setup.svg|16px]] [[BIM_Setup|BIM Setup]]}} button.
+#* Select the {{MenuCommand|Manage → [[Image:BIM_Setup.svg|16px]] BIM Setup}} option from the menu.
+
 [[Image:BIM_setup_screenshot.png|400px]]
 
 <div class="mw-translate-fuzzy">
@@ -35,10 +41,10 @@ Passando il mouse sopra ogni impostazione, viene mostrato un suggerimento che sp
 
 {{Docnav
 |[[Arch_CutPlane|CutPlane]]
-|[[BIM_Views|Views]]
+|[[BIM_ProjectManager|ProjectManager]]
 |[[BIM_Workbench|BIM]]
 |IconL=Arch_CutPlane.svg
-|IconR=BIM_Views.svg
+|IconR=BIM_ProjectManager.svg
 |IconC=Workbench_BIM.svg
 }}
 
