@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[BIM_DimensionVertical/de|VertikalesMaß]]
 |[[Arch_Axis/de|Achse]]
@@ -8,6 +9,7 @@
 |IconR=Arch_Axis.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/de
 |Name=BIM Leader
@@ -42,6 +44,7 @@ Das Werkzeug [[Image:BIM_Leader.svg|24px]] [[BIM_Leader/de|BIM Hinweislinie]] er
 Dieses Werkzeug basiert auf [[Draft_Wire/de|Draft Linienzug]].
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[BIM_DimensionVertical/de|VertikalesMaß]]
 |[[Arch_Axis/de|Achse]]
@@ -50,6 +53,7 @@ Dieses Werkzeug basiert auf [[Draft_Wire/de|Draft Linienzug]].
 |IconR=Arch_Axis.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
