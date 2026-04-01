@@ -44,6 +44,7 @@ Schließende und öffnende Übersetzungs-Tags sollten Bilder und andere unverän
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 # Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
 #* Die Schaltfläche {{Button|[[Image:Std_Open.svg|16px]] [[GuiCommand_model|Base ExampleCommandModel]]}} drücken. (''Editor note:'' Hier wird Die Vorlage [[Template:Button]] verwendet; es ist wichtig, auf den Befehl, wie in diesem Beispiel gezeigt, zu verweisen)
 #* Den Menüeintrag {{MenuCommand|Menü → Untermenü → [[Image:Std_Open.svg|16px]] Menütext des Befehls}} auswählen. (''Editor note:'' Hier wird die Vorlage [[Template:MenuCommand]] verwendet)
@@ -51,6 +52,7 @@ Schließende und öffnende Übersetzungs-Tags sollten Bilder und andere unverän
 #* Das Tastaturkürzel {{KEY|F}} dann {{KEY|C}} oder {{KEY|Ctrl}}+{{KEY|Z}}. (''Editor note:'' Hier wird die Vorlage [[Template:KEY]] verwendet; nicht alle Befehle haben ein Tastaturkürzel)
 # Schritte mit der erforderlichen Genauigkeit beschreiben. Einige Schritte brauchen einen Tastendruck auf der {{KEY|Tastatur}}, während andere das Anklicken einer {{Button|Schaltfläche}} mit der Maus erfordern.
 # Optionen bearbeiten und {{Button|OK}} drücken.
+</div>
 
 <span id="Options"></span>
 ==Optionen==
@@ -165,7 +167,7 @@ Closing and opening translate tags should surround images, and other fixed eleme
 == Usage ==
 
 # There are several ways to invoke the command:
-#* Press the {{Button|[[Image:Std_Open.svg|16px]] [[GuiCommand_model|Base ExampleCommandModel]]}} button. (''Editor note:'' This uses the [[Template:Button]] template, it is necessary to link to the command as shown in this example)
+#* Press the {{Button|[[Image:Std_Open.svg|16px]] [[GuiCommand_model|Menu text for the command]]}} button. (''Editor note:'' This uses the [[Template:Button]] template, it is necessary to link to the command as shown in this example)
 #* Select the {{MenuCommand|Menu → Submenu → [[Image:Std_Open.svg|16px]] Menu text for the command}} option from the menu. (''Editor note:'' This uses the [[Template:MenuCommand]] template)
 #* Select the {{MenuCommand|Submenu → [[Image:Std_Open.svg|16px]] Menu text for the command}} option from the [[Tree_View|Tree View]] context menu or [[3D_View|3D View]] context menu. (''Editor note:'' This also uses the [[Template:MenuCommand]] template, not all commands can be accessed from a context menu)
 #* Use the keyboard shortcut {{KEY|F}} then {{KEY|C}} or {{KEY|Ctrl}}+{{KEY|Z}}. (''Editor note:'' This uses the [[Template:KEY]] template, not all commands have a keyboard shortcut)
