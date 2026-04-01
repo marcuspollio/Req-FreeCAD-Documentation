@@ -61,6 +61,7 @@ The Job GUI dialog box has five horizontally aligned tabs: {{MenuCommand|General
 
 * '''Processor''': Select the [[CAM_Post|postprocessor]] for your machine.
 * '''Arguments''': Add arguments for the [[CAM_Post|postprocessor]] as needed.
+* '''Machine''': Optionally select a machine configuration. When a machine is selected, it defines the postprocessor and related output settings for the job.
 
 <span id="Setup"></span>
 == Configuración ==
