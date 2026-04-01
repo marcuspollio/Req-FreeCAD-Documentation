@@ -123,7 +123,8 @@ Następnie wycinamy półkoliste miejsce, w którym będzie osadzony wał korbow
 
 Odetnij obiekt '''Crankshaft carve''' od '''Carved crankcase''' i zmień nazwę powstałego obiektu na '''crankcase with journals'''.
 
-=== Finishing out the Crankcase ===
+<span id="Finishing_out_the_Crankcase"></span>
+=== Wykańczanie skrzyni korbowej ===
 
 Lastly we will cut out 2 final boxes so that the piston rods can reach from the crankcase up into the engine block.  Make two objects called '''Box carve 1''' and '''Box carve 2''' with the following properties; also, you can duplicate '''Box carve 1''' and just change the X coordinate to get the second carver. Union them into an object called '''Box carvers''', and cut this object away from the '''Crankcase with journals''', calling the final result '''Crankcase'''.  Remember, you can hide the '''Bored block''' by selecting it and pushing spacebar so you can see what you are doing.
 
