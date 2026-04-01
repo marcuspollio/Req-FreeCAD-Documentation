@@ -89,6 +89,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 * {{PropertyData|Step Over}}: Select the horizontal step over ('''Percent''' of tool diameter: 100% = tool diameter).
 * {{PropertyData|Use Outline}}: Uses the outline of the base geometry.
 * {{PropertyData|Zig Zag Angle}}: Angle of the zigzag pattern. (Select the path angle relative to X-axis.)
+* {{PropertyData|SortingMode}}: Controls how multiple selected base geometries are ordered. {{Value|Automatic}} uses automatic sorting. {{Value|Manual}} follows the selection order.
 
 {{TitleProperty|Rotation}}
 
