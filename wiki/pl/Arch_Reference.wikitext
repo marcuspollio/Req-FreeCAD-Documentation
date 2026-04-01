@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[Arch_Component/pl|Komponent]]
-|[[BIM_Text/pl|Tekst]]
+|[[BIM_DimensionAligned/pl|Wymiar dopasowany]]
 |[[BIM_Workbench/pl|środowisko pracy BIM]]
 |IconL=Arch_Component.svg
-|IconR=BIM_Text.svg
+|IconR=BIM_DimensionAligned.svg
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{GuiCommand/pl
 |Name=Arch Reference
@@ -69,16 +67,14 @@ Arch.makeReference("/path/to/some/file.FSCtd", "myPart")
 }}
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[Arch_Component/pl|Komponent]]
-|[[BIM_Text/pl|Tekst]]
+|[[BIM_DimensionAligned/pl|Wymiar dopasowany]]
 |[[BIM_Workbench/pl|środowisko pracy BIM]]
 |IconL=Arch_Component.svg
-|IconR=BIM_Text.svg
+|IconR=BIM_DimensionAligned.svg
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
