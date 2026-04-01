@@ -208,7 +208,7 @@ Teraz, gdy nasze wielokąty prowadnic są już na miejscu, możemy narysować kr
 
 [[Image: Engine Block Tutorial - Spline Edit Mode.png|thumb|right|300px]]
 
-The control points are not shown in that picture so I have added a second screenshot showing the finished spline in edit mode (click the ''Edit mode'' button to turn editing on or off for the selected object, make sure to turn it off when you are done editing it or just skip over this step if you are satisfied with your engine block shape).  Also, note that there is a discontinuity on the leftmost edge of the spline curve, even though it is closed properly, this is a bug in the program behavior and is currently being fixed, as a result your spline curve may look slightly different if you are running a newer version of the software than is available at this time.
+Punkty kontrolne nie są widoczne na poprzednim obrazku, dlatego dodałem drugi zrzut ekranu pokazujący ukończoną krzywą spline w trybie edycji (kliknij przycisk ''Tryb edycji'', aby włączyć lub wyłączyć edycję zaznaczonego obiektu; upewnij się, że wyłączysz ten tryb po zakończeniu edycji lub po prostu pomiń ten krok, jeśli kształt bloku silnika Ci odpowiada). Zauważ także, że na najbardziej lewym brzegu krzywej spline występuje drobna nieciągłość, mimo że krzywa jest prawidłowo zamknięta – jest to błąd w działaniu programu, który jest obecnie naprawiany. W związku z tym Twoja krzywa spline może wyglądać nieco inaczej, jeśli korzystasz z nowszej wersji oprogramowania niż ta dostępna obecnie.
 
 === Extruding the 2D Head Design into our 3D Model to Finish the Design ===
 
