@@ -103,6 +103,8 @@ Typical Configuration Sections include:
 
 The {{MenuCommand|Edit → Preferences → CAM → Job Preferences → Post Processor tab → Post Processor}} is used to set the default Postprocessor selected on Job creation. This allows CAM workbench to be configured to only display desired Postprocessors, and to set a default. 
 
+Post-processing settings can be taken either from the Job's selected postprocessor or from a selected machine configuration. If a machine configuration is used, it can define the postprocessor and related output options.
+
 Included Postprocessors are saved in '''FreeCAD/Mod/CAM/CAM/Post/scripts''' by default:
 *centroid
 *comparams
