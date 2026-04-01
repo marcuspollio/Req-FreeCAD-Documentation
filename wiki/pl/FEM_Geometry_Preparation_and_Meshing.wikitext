@@ -33,9 +33,7 @@ Należy pamiętać, że elementy belkowe, powłokowe, płaskiego stanu napręże
 
 Jeśli część jest smukła (długa i cienka), przypomina belkę i ma regularny przekrój o jednym z obecnie wspieranych kształtów przekroju belek (prostokątny, kołowy lub rurowy), to można ją analizować za pomocą elementów belkowych (chyba że występują pewne specyficzne formy obciążenia, odpowiedzi lub nieuniknione szczegóły geometryczne, które uniemożliwiają skorzystanie z tego założenia). 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Basically, one should draw a centerline (some tips on how to extract it from existing solid geometry can be found in [https://forum.freecad.org/viewtopic.php?t=81589 this forum thread] - in short, use [[Draft_Wire|Draft Wire]] or [[Draft_BSpline|Draft BSpline]] with proper [[Draft_Workbench#Draft_snap_toolbar|snaps]] and [[Draft_Line|lines]] as supports) and apply [[FEM_ElementGeometry1D|beam section]] with optional [[FEM_ElementRotation1D|rotation]].
-</div> 
+Należy po prostu narysować linię środkową ''(kilka rad na temat jej uzyskiwania z istniejącej geometrii bryłowej można znaleźć w [https://forum.freecad.org/viewtopic.php?t=81589 tym wątku na forum] - w skrócie, użyj [[Draft_Wire/pl|Polilinii]] lub [[Draft_BSpline/pl|Krzywej złożoej]] z odpowiednim [[Draft_Workbench/pl#Pasek_narzędzi_Rysunek_roboczy:_Przyciągnij|przyciąganiem]] i [[Draft_Line/pl|liniami]] jako geometriami pomocniczymi)'' i zdefiniować odpowiedni [[FEM_ElementGeometry1D/pl|przekrój belki]] z opcjonalnym [[FEM_ElementRotation1D/pl|obrotem]]. 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 There's no single rule dictating when beam elements can be used, but it's often advised that the cross-section dimensions should be < 1/10 of the part's length for the beam assumption to be valid.
