@@ -11,10 +11,12 @@
 <span id="Features"></span>
 ==Funktionen==
 
+<div class="mw-translate-fuzzy">
 * Bietet einen Werkzeugsatz zum Bearbeiten einer Form oder eines STEP-Modells, Entfernen von Bohrung(en), Fläche(n), Vereinfachen des Modells, Ändern der Toleranz, Anwenden von Fuzzy Bool'schen Operationen usw...
 * Es gibt auch Werkzeuge zum Erzeugen von Volumenkörperformen, aus Kante(n), Fläche(n) oder Schale(n). 
 * Es ist auch möglich, die direkte Modellierung des Modells zu verwenden, wenn die Historie der Arbeitsgänge nicht verfügbar ist. (Dies ist der Fall bei 3D STEP Modellen).
 * Nützlich in Situationen, in denen proprietäre Details des Modells schnell entfernt werden müssen, bevor es gemeinsam genutzt werden kann. Siehe [[Defeaturing/de|Defeaturing]]
+</div>
 
 Hinweis: Fortgeschrittenere Defeaturing Werkzeuge können verwendet werden, wenn [[OpenCASCADE|OCC7.3]] verfügbar ist.
 
@@ -33,10 +35,12 @@ Siehe [[How to install additional workbenches/de|Wie man zusätzliche Werkbänke
 <span id="Supports"></span>
 === Unterstützt ===
 
+<div class="mw-translate-fuzzy">
 * FreeCAD v0.15 4671  
 * FreeCAD v0.16 >= 6712  
 * FreeCAD v0.17 >= 13522
 * FreeCAD v0.18+
+</div>
 
 <span id="References"></span>
 == Referenzen ==
