@@ -288,11 +288,9 @@ Elementy czworościenne można generować na geometriach powierzchniowych przy p
 <span id="Hex_meshes"></span>
 === Siatki hexa ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Hexahedral meshes can be generated on volume geometries using both meshers with some significant limitations:
-* [[FEM_MeshGmshFromShape|Gmsh]] - set the {{PropertyData|Subdivision Algorithm}} to ''All Hexahedra'' - however, the resulting elements are not shaped as expected from hexahedral meshes used in practice,
-* [[FEM_MeshGmshFromShape|Netgen]] - {{Version|1.1}}: for simple extruded shapes, hex or hex-dominated meshes can be created by extrusion if the {{PropertyData|Quad Dominated}} property is enabled and the {{PropertyData|ZRefine}} property is set to ''Regular'' (''Custom'' requires specifying the height of each element in the extrusion direction). The extrusion direction can be changed from the default Z using the {{PropertyData|ZRefine Direction}} property. Element height can be specified as a fraction of the total height using the {{PropertyData|ZRefine Size}} property. This approach works only for first-order meshes (unless the generated elements are all hexahedrons).
-</div>
+Siatki z elementami sześciościennymi można generować dla geometrii objętościowych przy pomocy obu generatorów siatek przy znacznych ograniczeniach:
+* [[FEM_MeshGmshFromShape/pl|Gmsh]] - ustaw właściwość {{PropertyData|Subdivision Algorithm}} na ''All Hexahedra'' - jednak elementy uzyskiwane tą metodą nie mają kształtów oczeiwanych w praktyce od siatek tego typu,
+* [[FEM_MeshGmshFromShape/pl|Netgen]] - {{Version/pl|1.1}}: dla prostych wyciąganych kształtów siatki z elementami hexa lub z dominującymi elementami tego typu można tworzyć poprzez wyciągnięcie, jeśli właściwość {{PropertyData|Quad Dominated}} jest włączona, a właściwość {{PropertyData|ZRefine}} jest ustawiona na ''Regular'' (''Custom'' wymaga określenia wysokości każdego elementu w kierunku wyciągnięcia). Kierunek wyciągnięcia można zmienić z domyślnego Z przy pomocy właściwości {{PropertyData|ZRefine Direction}}. Wysokość elementu można określić jako ułamek całkowitej wysokości przy pomocy właściwości {{PropertyData|ZRefine Size}}. To podejście działa tylko dla siatek pierwszego rzędu (chyba że wszystkie wygenerowane elementy są sześciościenne).
 
 [[Image:Z_refine.PNG|400px]]
 
