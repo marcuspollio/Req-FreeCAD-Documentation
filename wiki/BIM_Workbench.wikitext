@@ -372,7 +372,7 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 <!--T:140-->
 * [[Image:BIM_Compound.svg|32px]] [[BIM_Compound|Compound]]: Creates a compound from selected objects. This is the same tool as [[Part_Compound|Part Compound]].
 
-* <span id="BIM_OffsetTools">* Offset Tools:<!--Do not edit span id: the BIM_OffsetTools pages redirect here-->
+* <span id="BIM_OffsetTools">Offset Tools:<!--Do not edit span id: the BIM_OffsetTools pages redirect here-->
 
 <!--T:142-->
 :* [[Image:BIM_Offset2D.svg|32px]] [[BIM_Offset2D|2D Offset]]: Constructs a parallel wire at a given distance from the original, or enlarges/shrinks a planar face (parametric version). This is the same tool as [[Part_Offset2D|Part Offset2D]].
@@ -407,7 +407,7 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 <!--T:152-->
 * [[Image:Arch_Remove.svg|32px]] [[Arch_Remove|Remove Component]]: Subtracts or removes objects from a component.
 
-* <span id="BIM_ArrayTools">* Array Tools:</span><!--Do not edit span id: the BIM_ArrayTools pages redirect here-->
+* <span id="BIM_ArrayTools">Array Tools:</span><!--Do not edit span id: the BIM_ArrayTools pages redirect here-->
 
 <!--T:153-->
 :* [[Image:Draft_OrthoArray.svg|32px]] [[Draft_OrthoArray|Array]]: Creates an orthogonal array from a selected object. It can optionally create a [[App_Link|Link]] array.
