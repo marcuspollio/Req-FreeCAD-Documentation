@@ -1,6 +1,7 @@
 <languages/>
 {{UnfinishedDocu{{#translation:}}}}
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[BIM_DimensionHorizontal/de|HorizontalesMaß]]
 |[[BIM_Leader/de|Hinweislinie]]
@@ -9,6 +10,7 @@
 |IconR=BIM_Leader.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/de
 |Name=BIM DimensionVertical
@@ -35,6 +37,7 @@ Das Werkzeug [[Image:BIM_DimensionVertical.svg|24px]] [[BIM_DimensionVertical/de
 # ...
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[BIM_DimensionHorizontal/de|HorizontalesMaß]]
 |[[BIM_Leader/de|Hinweislinie]]
@@ -43,6 +46,7 @@ Das Werkzeug [[Image:BIM_DimensionVertical.svg|24px]] [[BIM_DimensionVertical/de
 |IconR=BIM_Leader.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
