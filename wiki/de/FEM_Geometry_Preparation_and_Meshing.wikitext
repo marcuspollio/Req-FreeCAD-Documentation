@@ -324,9 +324,8 @@ Quadrilateral elements can be generated on surface geometries using both meshers
 {{Caption|Quad-dominated mesh generated with Netgen}}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Hex meshes ===
-</div>
+<span id="Hex_meshes"></span>
+=== Sechsecknetze ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Hexahedral meshes can be generated on volume geometries using both meshers with some significant limitations:
