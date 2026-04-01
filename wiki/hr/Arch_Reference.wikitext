@@ -3,10 +3,10 @@
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
 |[[Arch_Component|Component]]
-|[[BIM_Text|Text]]
+|[[BIM_DimensionAligned|DimensionAligned]]
 |[[BIM_Workbench|BIM]]
 |IconL=Arch_Component.svg
-|IconR=BIM_Text.svg
+|IconR=BIM_DimensionAligned.svg
 |IconC=Workbench_BIM.svg
 }}
 </div>
@@ -87,10 +87,10 @@ Arch.makeReference("/path/to/some/file.FSCtd", "myPart")
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
 |[[Arch_Component|Component]]
-|[[BIM_Text|Text]]
+|[[BIM_DimensionAligned|DimensionAligned]]
 |[[BIM_Workbench|BIM]]
 |IconL=Arch_Component.svg
-|IconR=BIM_Text.svg
+|IconR=BIM_DimensionAligned.svg
 |IconC=Workbench_BIM.svg
 }}
 </div>
