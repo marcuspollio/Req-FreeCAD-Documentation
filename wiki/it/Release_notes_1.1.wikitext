@@ -113,9 +113,8 @@ Le note di rilascio delle versioni precedenti di FreeCAD sono disponibili alla p
 |}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Further Core improvements ====
-</div>
+<span id="Further_Core_improvements"></span>
+=== Ulteriori miglioramenti del Sistema Principale ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Support for boolean functions was added to [[Expressions|expressions]]. [https://github.com/FreeCAD/FreeCAD/pull/22506 Pull request #22506]
