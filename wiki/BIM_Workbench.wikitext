@@ -345,26 +345,38 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 <!--T:135-->
 * [[Image:Draft_Move.svg|32px]] [[Draft_Move|Move]]: Moves or copies selected objects from one point to another.
 
-<!--T:136-->
-* [[Image:BIM_Copy.svg|32px]] [[BIM_Copy|Copy]]: Copies selected objects from one point to another.
-
 <!--T:137-->
 * [[Image:Draft_Rotate.svg|32px]] [[Draft_Rotate|Rotate]]: Rotates or copies selected objects around a center point by a given angle.
 
+<!--T:146-->
+* [[Image:Draft_Scale.svg|32px]] [[Draft_Scale|Scale]]: Scales or copies selected objects around a base point.
+
+<!--T:158-->
+* [[Image:Draft_Mirror.svg|32px]] [[Draft_Mirror|Mirror]]: Creates mirrored copies from selected objects.
+
+* Cloning Tools:
+
 <!--T:138-->
-* [[Image:BIM_Clone.svg|32px]] [[BIM_Clone|Clone]]: Clones selected objects.
+:* [[Image:BIM_Clone.svg|32px]] [[BIM_Clone|Clone]]: Clones selected objects.
+
+:* [[Image:BIM_Link.svg|32px]] [[BIM_Link|Make Link]]:
+
+<!--T:136-->
+* [[Image:BIM_Copy.svg|32px]] [[BIM_Copy|Copy]]: Copies selected objects from one point to another.
 
 <!--T:139-->
-* [[Image:BIM_SimpleCopy.svg|32px]] [[BIM_SimpleCopy|Create Simple Copy]]: Creates a non-parametric copy of a selected object. This is the same tool as [[Part_SimpleCopy|Part SimpleCopy]].
+* [[Image:BIM_SimpleCopy.svg|32px]] [[BIM_SimpleCopy|Simple Copy]]: Creates a non-parametric copy of a selected object. This is the same tool as [[Part_SimpleCopy|Part SimpleCopy]].
 
 <!--T:140-->
-* [[Image:BIM_Compound.svg|32px]] [[BIM_Compound|Create Compound]]: Creates a compound from selected objects. This is the same tool as [[Part_Compound|Part Compound]].
+* [[Image:BIM_Compound.svg|32px]] [[BIM_Compound|Compound]]: Creates a compound from selected objects. This is the same tool as [[Part_Compound|Part Compound]].
 
-<!--T:141-->
-* [[Image:Draft_Offset.svg|32px]] [[Draft_Offset|Offset]]: Offsets each segment of a selected object over a given distance, or creates an offset copy of the selected object.
+* Offset Tools:
 
 <!--T:142-->
-* [[Image:BIM_Offset2D.svg|32px]] [[BIM_Offset2D|2D Offset]]: Constructs a parallel wire at a given distance from the original, or enlarges/shrinks a planar face (parametric version). This is the same tool as [[Part_Offset2D|Part Offset2D]].
+:* [[Image:BIM_Offset2D.svg|32px]] [[BIM_Offset2D|2D Offset]]: Constructs a parallel wire at a given distance from the original, or enlarges/shrinks a planar face (parametric version). This is the same tool as [[Part_Offset2D|Part Offset2D]].
+
+<!--T:141-->
+:* [[Image:Draft_Offset.svg|32px]] [[Draft_Offset|Offset]]: Offsets each segment of a selected object over a given distance, or creates an offset copy of the selected object.
 
 <!--T:143-->
 * [[Image:Draft_Trimex.svg|32px]] [[Draft_Trimex|Trimex]]: Trims or extends a selected object.
@@ -374,9 +386,6 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 
 <!--T:145-->
 * [[Image:Draft_Split.svg|32px]] [[Draft_Split|Split]]: Splits a [[Draft_Line|Draft Line]] or [[Draft_Wire|Draft Wire]] at a specified point or edge.
-
-<!--T:146-->
-* [[Image:Draft_Scale.svg|32px]] [[Draft_Scale|Scale]]: Scales or copies selected objects around a base point.
 
 <!--T:147-->
 * [[Image:Draft_Stretch.svg|32px]] [[Draft_Stretch|Stretch]]: Stretches objects by moving selected points.
@@ -396,35 +405,36 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 <!--T:152-->
 * [[Image:Arch_Remove.svg|32px]] [[Arch_Remove|Remove Component]]: Subtracts or removes objects from a component.
 
+* Array Tools:
+
 <!--T:153-->
-* [[Image:Draft_OrthoArray.svg|32px]] [[Draft_OrthoArray|Array]]: Creates an orthogonal array from a selected object. It can optionally create a [[App_Link|Link]] array.
+:* [[Image:Draft_OrthoArray.svg|32px]] [[Draft_OrthoArray|Array]]: Creates an orthogonal array from a selected object. It can optionally create a [[App_Link|Link]] array.
 
 <!--T:154-->
-* [[Image:Draft_PathArray.svg|32px]] [[Draft_PathArray|Path Array]]: Creates an array from a selected object by placing copies along a path.
+:* [[Image:Draft_PathArray.svg|32px]] [[Draft_PathArray|Path Array]]: Creates an array from a selected object by placing copies along a path.
 
 <!--T:155-->
-* [[File:Draft_PolarArray.svg|32px]] [[Draft_PolarArray|Polar Array]]: Creates an array from a selected object by placing copies along a circumference. It can optionally create a [[App_Link|Link]] array.
+:* [[File:Draft_PolarArray.svg|32px]] [[Draft_PolarArray|Polar Array]]: Creates an array from a selected object by placing copies along a circumference. It can optionally create a [[App_Link|Link]] array.
 
 <!--T:156-->
-* [[Image:Draft_PointArray.svg|32px]] [[Draft_PointArray|Point Array]]: Creates an array from a selected object by placing copies at the points from a point compound.
+:* [[Image:Draft_PointArray.svg|32px]] [[Draft_PointArray|Point Array]]: Creates an array from a selected object by placing copies at the points from a point compound.
 
 <!--T:157-->
 * [[Image:Arch_CutPlane.svg|32px]] [[Arch_CutPlane|Cut With Plane]]: Cuts an object according to a plane.
 
-<!--T:158-->
-* [[Image:Draft_Mirror.svg|32px]] [[Draft_Mirror|Mirror]]: Creates mirrored copies from selected objects.
-
 <!--T:159-->
 * [[Image:BIM_Extrude.svg|32px]] [[BIM_Extrude|Extrude]]: Extrudes planar faces of an object. This is the same tool as [[Part_Extrude|Part Extrude]].
 
-<!--T:160-->
-* [[Image:BIM_Cut.svg|32px]] [[BIM_Cut|Difference]]: Subtracts one object from another. This is the same tool as [[Part_Cut|Part Cut]].
+* Boolean Tools:
 
 <!--T:161-->
-* [[Image:BIM_Fuse.svg|32px]] [[BIM_Fuse|Union]]: Fuses two objects. This is the same tool as [[Part_Fuse|Part Fuse]].
+:* [[Image:BIM_Fuse.svg|32px]] [[BIM_Fuse|Union]]: Fuses two objects. This is the same tool as [[Part_Fuse|Part Fuse]].
+
+<!--T:160-->
+:* [[Image:BIM_Cut.svg|32px]] [[BIM_Cut|Difference]]: Subtracts one object from another. This is the same tool as [[Part_Cut|Part Cut]].
 
 <!--T:162-->
-* [[Image:BIM_Common.svg|32px]] [[BIM_Common|Intersection]]: Extracts the common part of two objects. This is the same tool as [[Part_Common|Part Common]].
+:* [[Image:BIM_Common.svg|32px]] [[BIM_Common|Intersection]]: Extracts the common part of two objects. This is the same tool as [[Part_Common|Part Common]].
 
 === Manage === <!--T:163-->
 
