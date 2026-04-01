@@ -33,17 +33,21 @@ Diese Seite wurde für Version 1.2 aktualisiert.
 
 Auf dieser Seite kann Folgendes festgelegt werden:
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Name
 !style="width: 66%;"|Beschreibung
 |-
-| {{MenuCommand|Working Directory for Solving Analysis and Gmsh Meshing}}
-| In welchem Verzeichnis sollen die Netz- und Löser-Dateien gespeichert werden
+| {{MenuCommand|Working Directory for Solving Analysis and Meshing}}
+| In welchem Verzeichnis die Netz- und Löser-Dateien gespeichert werden sollen:
+* Temporary directories - Bei jeder Dateisitzung wird ein neues temporäres Verzeichnis angelegt, wenn der Solver/Mesher ausgeführt wird
+* Beside .FCStd file - legt ein Verzeichnis in demselben Ordner an, in dem sich die .FCStd-Datei befindet, oder erstellt, falls die Datei nicht gespeichert ist, beim Ausführen des Solvers/Mesher ein temporäres Verzeichnis (sofern dieses noch nicht existiert)
+* Custom directory - Das Arbeitsverzeichnis wird erstellt, falls es zum Zeitpunkt der Ausführung des Solvers/Mesher noch nicht existiert, und zwar basierend auf dem aktuellen Pfad, der im benutzerdefinierten Verzeichniseintrag angegeben ist (ist dieser leer, wird das Home-Verzeichnis verwendet)
+|-
+| {{MenuCommand|Editor path}}
+| Pfad zum Editor für externe Eingabedateien (wenn leer, wird der interne Editor von FreeCAD verwendet)
 |-
 | {{MenuCommand|Create mesh groups for analysis reference shapes (experimental)}}
 | Wenn mehrere Netze vorhanden sind, werden diese gruppiert. Diese Option ermöglicht eine erhebliche Beschleunigung, wenn Lasten und Einschränkungen vor der Vernetzung zugewiesen werden, weist jedoch derzeit einige Einschränkungen auf und kann zu unerwarteten Ergebnissen führen.
-</div>
 
 |-
 | {{MenuCommand|Ergebnisse bei erneuter Berechnung beibehalten}}
