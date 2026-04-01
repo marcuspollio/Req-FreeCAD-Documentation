@@ -29,9 +29,7 @@ Cette fenêtre a pour but de vous permettre d'accéder rapidement à vos niveaux
 
 Le gestionnaire des vues de BIM affichera tous les niveaux (éléments de construction) et les proxies des plans de travail de votre document. Il peut être ancré n'importe où dans l'interface FreeCAD ou être laissé dans une fenêtre autonome. Les éléments de construction afficheront également leur niveau (la coordonnée Z de leur placement).
 
-<div class="mw-translate-fuzzy">
-* En appuyant sur Ctrl+9 ou en cliquant sur le bouton '''Gérer les vues''' dans la barre d'état, vous pouvez afficher ou masquer le gestionnaire des vues de BIM.
-</div>
+* En cliquant sur le bouton '''Gérer les vues''' dans la barre d'état, vous affichez ou masquez le gestionnaire des vues de BIM.
 
 <span id="Top_part"></span>
 ===Partie supérieure===
