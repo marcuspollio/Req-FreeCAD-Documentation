@@ -31,10 +31,12 @@ Der Befehl [[Image:CAM_DressupDogbone.svg|24px]] [[CAM_DressupDogbone/de|CAM Auf
 <span id="Options"></span>
 ==Optionen==
 
+<div class="mw-translate-fuzzy">
 *'''Seite''': Auf welcher Seite des Pfades die Änderung hinzugefügt wird.
 *'''Stil''': Art des Überschneidens (Hundeknochen, T-Knochen horizontal, T-Knochen vertikal, T-Knochen lange Kante, T-Knochen kurze Kante).
 *'''Schnitt''': Der Algorithmus zur Berechnung der Überlänge
 *'''Benutzerdefiniert''': Wenn Schnitt benutzerdefiniert ist, wird die benutzerdefinierte Eigenschaft zum Festlegen der Länge verwendet.
+</div>
 
 <span id="Limitations"></span>
 ==Einschränkungen==
