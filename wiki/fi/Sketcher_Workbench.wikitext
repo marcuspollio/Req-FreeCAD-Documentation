@@ -346,7 +346,7 @@ These are tools for creating objects.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[File:Sketcher_CreateText.svg|32px]] [[Sketcher_CreateText|Text]]: Creates text geometries controlled by a Text constraint {{Version|1.2}}.
+* [[File:Sketcher_CreateText.svg|32px]] [[Sketcher_CreateText|Text]]: Creates text geometry controlled by a text constraint {{Version|1.2}}.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -454,7 +454,7 @@ These are tools for creating [[#Constraints|constraints]]. Some constraints requ
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometries. {{Version|1.2}}
+* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometry. {{Version|1.2}}
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
