@@ -2,19 +2,21 @@
 
 {{Docnav/de
 |[[BIM_Windows/de|Fenster]]
-|[[BIM_IfcQuantities/de|IfcGrößen]]
+|[[BIM_IfcQuantities/de|IfcMengen]]
 |[[BIM_Workbench/de|BIM]]
 |IconL=BIM_Windows.svg
 |IconR=BIM_IfcQuantities.svg
 |IconC=Workbench_BIM.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=BIM IfcElements
 |Name/de=BIM IfcElemente
 |MenuLocation=Manage → Manage IFC elements...
 |Workbenches=[[BIM_Workbench/de|BIM]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Beschreibung==
@@ -22,7 +24,7 @@
 Im Dialog '''IFC Elements Manager''' können die Namen, IFC-Typen und Materialien der BIM-Elemente des Modells verwaltet werden. Sein Zweck ist es, einen einfachen Überblick über das Modells zu bieten und zu ermöglichen, sicherzustellen, dass alles so ist, wie gewünscht, bevor das Modell nach [[Arch_IFC/de|IFC]] exportiert wird.
 
 [[Image:BIM_ifcelements_screenshot.png|600px]]
-{{Caption|IFC Elements Manager}}
+{{Caption|IFC-Elemente-Manager}}
 
 Damit kann man:
 
@@ -34,7 +36,7 @@ Damit kann man:
 
 {{Docnav/de
 |[[BIM_Windows/de|Fenster]]
-|[[BIM_IfcQuantities/de|IfcGrößen]]
+|[[BIM_IfcQuantities/de|IfcMengen]]
 |[[BIM_Workbench/de|BIM]]
 |IconL=BIM_Windows.svg
 |IconR=BIM_IfcQuantities.svg
