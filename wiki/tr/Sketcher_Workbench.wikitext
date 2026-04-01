@@ -345,7 +345,7 @@ Bunlar nesne oluşturma araçlarıdır.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[File:Sketcher_CreateText.svg|32px]] [[Sketcher_CreateText|Text]]: Creates text geometries controlled by a Text constraint {{Version|1.2}}.
+* [[File:Sketcher_CreateText.svg|32px]] [[Sketcher_CreateText|Text]]: Creates text geometry controlled by a text constraint {{Version|1.2}}.
 </div>
 
 <div class="mw-translate-fuzzy">
@@ -453,7 +453,7 @@ Kısıtlamalar, uzunlukları tanımlamak, Eskiz öğeleri arasında kuralları b
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometries. {{Version|1.2}}
+* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometry. {{Version|1.2}}
 </div>
 
 <div class="mw-translate-fuzzy">
