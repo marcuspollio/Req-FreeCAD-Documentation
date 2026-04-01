@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[BIM_SetWPTop/pl|BIM: Płaszczyzna robocza z góry]]
-|[[BIM_Copy/pl|BIM: Kopia]]
+|[[BIM_Clone/pl|Klonuj]]
 |[[BIM_Workbench/pl|środowisko pracy BIM]]
 |IconL=BIM_SetWPTop.svg
-|IconR=BIM_Copy.svg
+|IconR=BIM_Clone.svg
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{GuiCommand/pl
 |Name=BIM SetWPSide
