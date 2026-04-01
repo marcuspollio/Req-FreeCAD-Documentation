@@ -9,15 +9,13 @@
 |IconC=Workbench_BIM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=Arch AxisSystem
 |Name/de=Arch Achsensystem
-|MenuLocation=Anmerkung → Achsensystem
+|MenuLocation=Beschriftung → Achswerkzeuge → Achsensystem
 |Workbenches=[[BIM_Workbench/de|BIM]]
 |SeeAlso=[[Arch_Axis/de|Arch Achse]], [[Arch_Grid/de|Arch Raster]]
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung==
