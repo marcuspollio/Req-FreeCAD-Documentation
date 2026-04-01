@@ -37,9 +37,7 @@ Narzędzie [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup/
 <span id="Notes"></span>
 ==Uwagi==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Constraints applied to grouped edges are ignored as long as the group constraint is present.
-</div>
+* Wiązania zadane na pogrupowane krawędzie są ignorowane dopóki obecne jest wiązanie grupy.
 
 
 {{Docnav/pl
