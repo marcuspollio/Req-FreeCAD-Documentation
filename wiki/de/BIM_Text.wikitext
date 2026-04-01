@@ -1,6 +1,7 @@
 <languages/>
 {{UnfinishedDocu{{#translation:}}}}
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[Arch_Reference/de|Referenz]]
 |[[BIM_DimensionAligned/de|AusgerichtetesMaß]]
@@ -9,6 +10,7 @@
 |IconR=BIM_DimensionAligned.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/de
 |Name=BIM Text
@@ -34,6 +36,7 @@ Das Werkzeug '''BIM Text''' erstellt einen Text, entweder ein '''Text'''-Objekt,
 #* Das Tastaturkürzel {{KEY|T}} dann {{KEY|E}}.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[Arch_Reference/de|Referenz]]
 |[[BIM_DimensionAligned/de|AusgerichtetesMaß]]
@@ -42,6 +45,7 @@ Das Werkzeug '''BIM Text''' erstellt einen Text, entweder ein '''Text'''-Objekt,
 |IconR=BIM_DimensionAligned.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
