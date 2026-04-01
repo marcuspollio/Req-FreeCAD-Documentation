@@ -41,7 +41,7 @@ Beim Einfügen einer IFC-Datei wird ein Projekt-Objekt erstellt, das den gesamte
 <span id="Locked_and_unlocked_mode"></span>
 ==Gesperrter und ungesperrter Modus==
 
-Im Arbeitsbereich [[BIM_Workbench/de|BIM]], verfügt die Statusleiste über eine Schaltfläche {{Button|[[Image:IFC.svg|16px]] [[NativeIFC/de#Locked_and_unlocked_modes|IFC sperren]]}}, damit kann man zwischen den Modi '''gesperrt''' und '''entsperrt''' umschalten. Im entsperrten Zustand können mehrere [[BIM_Project/de|Projekte]] im FreeCAD-Dokument enthalten sein, sowohl IFC- als auch Nicht-IFC-Elemente.
+Im Arbeitsbereich [[BIM_Workbench/de|BIM]], verfügt die Statusleiste über eine Schaltfläche {{Button|[[Image:IFC.svg|16px]] [[Native_IFC/de#Locked_and_unlocked_modes|IFC sperren]]}}, damit kann man zwischen den Modi '''gesperrt''' und '''entsperrt''' umschalten. Im entsperrten Zustand können mehrere [[BIM_Project/de|Projekte]] im FreeCAD-Dokument enthalten sein, sowohl IFC- als auch Nicht-IFC-Elemente.
 
 Im gesperrten Modus werden die mit dem Projekt-Objekt verknüpften Daten direkt mit dem FreeCAD-Dokument verknüpft. Das FreeCAD-Dokument fungiert als originalgetreue Kopie oder Darstellung des IFC-Dokuments. Das Projekt-Objekt wird daher entfernt. Es kann nur ein Projekt im FreeCAD-Dokument haben und keine Nicht-IFC-Objekte mehr (jedes neue Objekt wird sofort in IFC konvertiert).
 
