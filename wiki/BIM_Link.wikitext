@@ -1,3 +1,15 @@
+<languages/>
+<translate>
+
+{{Docnav
+|
+|
+|[[BIM_Workbench|BIM]]
+|IconL=
+|IconR=
+|IconC=Workbench_BIM.svg
+}}
+
 {{GuiCommand
 |Name=BIM Link
 |Workbenches=[[BIM_Workbench|BIM]]
@@ -20,3 +32,16 @@ The [[File:Std_LinkMake.svg|16px]] [[BIM_Link|BIM Link]] tool is a shortcut to [
 
 * [[BIM_Link|BIM Link]] is intended to provide a BIM-oriented workflow similar to [[BIM_Clone|BIM Clone]], but using [[Std_LinkMake|Link]].
 * The command is useful when you want to create a linked copy and place it immediately.
+
+{{Docnav
+|
+|
+|[[BIM_Workbench|BIM]]
+|IconL=
+|IconR=
+|IconC=Workbench_BIM.svg
+}}
+
+</translate>
+{{BIM_Tools_navi{{#translation:}}}}
+{{Userdocnavi{{#translation:}}}}
