@@ -72,7 +72,9 @@ FEM ワークベンチは Linux、Windows、Mac OSX で利用できます。
 <span id="Electromagnetic_Boundary_Conditions"></span>
 === <span id="FEM_CompEmConstraints">電磁境界条件（Electromagnetic Boundary Conditions）</span><!--Do not edit span id: the FEM_CompEmConstraints pages redirect here--> ===
 
+<div class="mw-translate-fuzzy">
 :* [[Image:FEM_ConstraintElectrostaticPotential.svg|32px]] [[FEM_ConstraintElectrostaticPotential|静電ポテンシャル境界条件（Electrostatic Potential Boundary Condition）]]：静電ポテンシャルを定義するために使用します。
+</div>
 
 :* [[Image:FEM_ConstraintCurrentDensity.svg|32px]] [[FEM_ConstraintCurrentDensity|電流密度境界条件（Current Density Boundary Condition）]]：電流密度を定義するために使用します。 {{Version|0.21}}
 
