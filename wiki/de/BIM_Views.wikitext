@@ -31,9 +31,7 @@ Dieses Fenster soll einen schnellen Zugriff auf die Ebenen- und Arbeitsebenenkon
 
 Der BIM Ansichtenverwalter zeigt alle Ebenen (Gebäudeteile) und Arbeitsebenen Proxys deines Dokuments an. Er kann an einer beliebigen Stelle in der FreeCAD Oberfläche angedockt oder in einem eigenständigen Fenster belassen werden. Gebäudeteile zeigen auch ihre Ebene an (die Z Koordinate ihrer Positionierung).
 
-<div class="mw-translate-fuzzy">
-* Drücken des Tastaturkürzels{{KEY|Strg}}+{{KEY|9}} oder der Schaltfläche '''Ansichten-Manager''' in der Statusleiste blendet den BIM-Ansichten-Manager ein bzw. aus.
-</div>
+* Das Anklicken der Schaltfläche '''BIM-Ansichten-Manager''' in der Statusleiste blendet den BIM-Ansichten-Manager ein bzw. aus.
 
 <span id="Top_part"></span>
 ===Oberer Teil===
