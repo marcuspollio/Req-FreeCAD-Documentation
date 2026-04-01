@@ -124,6 +124,7 @@ FreCAD_1.1  (рус.)
 
 На этой вкладке вы можете настроить следующие параметры:
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Параметр
 !style="width: 66%;"|Описание
@@ -153,6 +154,7 @@ FreCAD_1.1  (рус.)
 * {{MenuCommand|Толщина линии}}
 * {{MenuCommand|Цвет линии}}
 |}
+</div>
 
 <span id="Display"></span>
 ==Отображение==
