@@ -48,9 +48,9 @@ La fermeture et l’ouverture des balises de traduction doivent entourer les ima
 # Il existe plusieurs façons de lancer la commande :
 #* Appuyez sur le bouton {{Button|[[Image:Std_Open.svg|16px]] [[GuiCommand_model/fr|Base ExampleCommandModel]]}}. (''Note de l'éditeur :'' ceci utilise le modèle [[Template:Button]], il est nécessaire de créer un lien vers la commande comme indiqué dans cet exemple)
 #* Sélectionnez l'option {{MenuCommand|Menu → Sous-menu → [[Image:Std_Open.svg|16px]] Texte du menu de la commande}} du menu. (''Note de l'éditeur :'' ceci utilise le modèle [[Template:MenuCommand]])
-#* Sélectionnez l'option {{MenuCommand|Submenu → [[Image:Std_Open.svg|16px]] Texte du menu de la commande}} dans le menu contextuel de la [[Tree_view/fr|vue en arborescence]] ou de la [[3D_view/fr|vue 3D]]. (''Note de l'éditeur :'' ceci utilise également le modèle [[Template:MenuCommand]], toutes les commandes ne sont pas accessibles à partir d'un menu contextuel)
-#* Utilisez le raccourci clavier {{KEY|F}} puis {{KEY|C}} ou {{KEY|Ctrl}} + {{KEY|Z}}. (''Note de l'éditeur:'' Ceci utilise le modèle [[Template:KEY]], toutes les commandes n'ont pas de raccourci clavier)
-# Étapes détaillées au besoin. Certaines étapes peuvent nécessiter {{KEY|Keyboard}} pressions tandis que d'autres peuvent nécessiter l'utilisation de la souris pour cliquer sur un {{Button|Button}}.
+#* Sélectionnez l'option {{MenuCommand|Submenu → [[Image:Std_Open.svg|16px]] Texte du menu de la commande}} dans le menu contextuel de la [[Tree_View/fr|vue en arborescence]] ou de la [[3D_View/fr|vue 3D]]. (''Note de l'éditeur :'' ceci utilise également le modèle [[Template:MenuCommand]], toutes les commandes ne sont pas accessibles à partir d'un menu contextuel)
+#* Utilisez le raccourci clavier {{KEY|F}} puis {{KEY|C}} ou {{KEY|Ctrl}} + {{KEY|Z}}. (''Note de l'éditeur :'' ceci utilise le modèle [[Template:KEY]], toutes les commandes n'ont pas de raccourci clavier)
+# Étapes détaillées au besoin. Certaines étapes peuvent nécessiter des pressions du {{KEY|clavier}} tandis que d'autres peuvent nécessiter l'utilisation de la souris pour cliquer sur un {{Button|bouton}}.
 # Définissez les options et appuyez sur {{Button|OK}}.
 </div>
 
@@ -71,9 +71,7 @@ Optionnel.
 <span id="Properties"></span>
 == Propriétés ==
 
-<div class="mw-translate-fuzzy">
-Voir aussi : [[Property_editor/fr|Éditeur de propriétés]]
-</div>
+Voir aussi : [[Property_View/fr|Éditeur de propriétés]]
 
 Un objet est généralement dérivé d'un objet de base. Vous ne devez pas énumérer les propriétés qui sont héritées de cet objet de base. Voir par exemple [[Draft_Wire/fr#Propri.C3.A9t.C3.A9s|Draft Polyligne]].
 
@@ -82,9 +80,7 @@ Un objet est généralement dérivé d'un objet de base. Vous ne devez pas énum
 
 {{Properties_Title|Property Group}}
 
-<div class="mw-translate-fuzzy">
-* {{PropertyData|Property Name 1|PropertyType}} : description de la propriété. (''Note de l'éditeur :'' pour trouver {{Value|PropertyType}}, sélectionnez {{MenuCommand|Afficher les propriétés cachées}} dans le menu contextuel de l'[[Property_editor/fr|éditeur de propriétés]]. L'infobulle de chaque propriété comprendra alors cette information. Mais {{Value|PropertyType}} peut également être trouvé dans le code source).
-</div>
+* {{PropertyData|Property Name 1|PropertyType}} : description de la propriété. (''Note de l'éditeur :'' pour trouver {{Value|PropertyType}}, sélectionnez {{MenuCommand|Afficher les propriétés cachées}} dans le menu contextuel de l'[[Property_View/fr|éditeur de propriétés]]. L'infobulle de chaque propriété comprendra alors cette information. Mais {{Value|PropertyType}} peut également être trouvé dans le code source).
 
 <span id="View"></span>
 === Vue ===
@@ -170,7 +166,7 @@ Closing and opening translate tags should surround images, and other fixed eleme
 == Usage ==
 
 # There are several ways to invoke the command:
-#* Press the {{Button|[[Image:Std_Open.svg|16px]] [[GuiCommand_model|Base ExampleCommandModel]]}} button. (''Editor note:'' This uses the [[Template:Button]] template, it is necessary to link to the command as shown in this example)
+#* Press the {{Button|[[Image:Std_Open.svg|16px]] [[GuiCommand_model|Menu text for the command]]}} button. (''Editor note:'' This uses the [[Template:Button]] template, it is necessary to link to the command as shown in this example)
 #* Select the {{MenuCommand|Menu → Submenu → [[Image:Std_Open.svg|16px]] Menu text for the command}} option from the menu. (''Editor note:'' This uses the [[Template:MenuCommand]] template)
 #* Select the {{MenuCommand|Submenu → [[Image:Std_Open.svg|16px]] Menu text for the command}} option from the [[Tree_View|Tree View]] context menu or [[3D_View|3D View]] context menu. (''Editor note:'' This also uses the [[Template:MenuCommand]] template, not all commands can be accessed from a context menu)
 #* Use the keyboard shortcut {{KEY|F}} then {{KEY|C}} or {{KEY|Ctrl}}+{{KEY|Z}}. (''Editor note:'' This uses the [[Template:KEY]] template, not all commands have a keyboard shortcut)
