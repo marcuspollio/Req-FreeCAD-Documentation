@@ -33,11 +33,9 @@ Lors de l'insertion d'un fichier IFC, un objet projet est créé, qui contient t
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
 # Assurez-vous d'avoir un document FreeCAD ouvert.
 # Sélectionnez l'option {{MenuCommand|Utilitaires → [[Image:BIM_Project.svg|16px]] Créer un projet IFC}} du menu.
 # Vous pouvez également verrouiller le document en appuyant sur le bouton {{Button|[[Image:IFC.svg|16px]] [[Native_IFC/fr#Modes_verrouillé_et_déverrouillé|Verrouiller en IFC]]}}.
-</div>
 
 <span id="Locked_and_unlocked_mode"></span>
 == Modes verrouillé et déverrouillé ==
