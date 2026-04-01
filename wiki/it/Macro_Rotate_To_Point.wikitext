@@ -81,14 +81,17 @@ Macro per far ruotare un oggetto su se stesso scegliendo l'asse di rotazione: il
 
 [[File:Macro Rotate To Point Work 00.png|Macro Rotate To Point Work]]
 
-<div class="mw-translate-fuzzy">
-*{{CheckBox|Translation}}: Se questo checkBox è {{CheckBox|TRUE|checked}} la rotazione è disabilitata, il posizionamento dell'oggetto viene eseguito sull'asse selezionato.
-*{{Button|Point}}: viene creato un punto per visualizzare l'asse di rotazione del punto: X rossa, Y verde, Z blu
-*Line Edit:  la modifica della linea mostra la coordinata originale dell'asse selezionato + i dati di input forniti nella casella di selezione
-*{{SpinBox|0,0000}}: immettere la modifica
-*{{KEY|Apply}}: applica la modifica all'oggetto
-* La coordinata viene visualizzata
-</div>
+*{{CheckBox|View}}: Se selezionato, la vista restituisce l'ultima visualizzazione dell'oggetto selezionato (interagisce con la comboBox sottostante) e tutti i parametri vengono ripristinati.
+*{{Button|Point}}: Viene creato un punto per visualizzare l'asse di rotazione del punto: X rosso, Y verde, Z blu.
+*{{Button|Center}}: Viene creato un punto al centro del cerchio.
+*{{ComboBox|Box}}: Elenco di tutti gli oggetti utilizzati. Viene restituito l'oggetto selezionato, lo zoom (se la casella di controllo "view" è selezionata) e tutti i parametri vengono ripristinati.
+*{{ComboBox|0}}: Selezionare un valore predefinito.
+*{{ComboBox|1.0}}: Selezionare il valore salvato utilizzato.
+*{{Button|- Invert}}: Inverte il ​​segno Positivo/Negativo del valore visualizzato.
+*{{SpinBox|1,00000 Degrees}}: Selezionare il valore.
+*{{KEY|Apply}}: Applica la modifica all'oggetto.
+*Line Edit: Modificando questa casella viene visualizza la coordinata originale rispetto all'asse selezionato + i dati di input forniti nello spinBox.
+*Viene visualizzata la coordinata
 
 <span id="Data_to_save"></span>
 ===Dati da salvare===
