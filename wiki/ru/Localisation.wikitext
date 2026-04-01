@@ -74,6 +74,10 @@ Starting with FreeCAD 0.20, the following variables can be manually added to the
 <span id="Translate_the_FreeCAD_wiki"></span>
 == Перевод FreeCAD wiki ==
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{VeryImportantMessage|Check [https://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_administration#Changing_the_source_text this page] for important information on how to edit translatable text and handle the translation markers.}}
+</div>
+
 В этой вики содержится много контента, большинство из которого собрано в руководства. Вы можете просмотреть документацию, начиная со [[Main Page/ru|стартовой страницы]] или можно взглянуть на  [[Online Help Toc/ru|руководство пользователя]]
 
 Примечание: чтобы иметь возможность перевести вики, вам нужно иметь права редактирования, насчёт их получения смотрите [[Frequently_asked_questions/ru#How can I get edit permission on the wiki?|Как я могу полчить права для редактирования wiki?]].
@@ -109,9 +113,7 @@ Starting with FreeCAD 0.20, the following variables can be manually added to the
 
 При добавлении нового контента, вначале должна быть создана страница на английском языке, а затем она переводится на другой язык. Если кто-то хочет изменить или добавить контент на странице, английскую версию надо исправить в первую очередь.
 
-<div class="mw-translate-fuzzy">
-Если вы не уверены, что делать с переводом, не стесняйтесь обратится за помощью на [https://forum.freecadweb.org/viewforum.php?f=21 Development → Wiki subforum] или на [https://forum.freecadweb.org/viewforum.php?f=11 особый языковой субфорум] на [http://forum.freecadweb.org/ форуме FreeCAD].
-</div>
+Если вы не уверены, что делать с переводом, не стесняйтесь обратится за помощью на [https://forum.freecad.org/viewforum.php?f=21 Development → Wiki subforum] или на [https://forum.freecad.org/viewforum.php?f=11 особый языковой субфорум] на [http://forum.freecad.org/ форуме FreeCAD].
 
 <span id="Important_notes"></span>
 ===Важные замечания===
