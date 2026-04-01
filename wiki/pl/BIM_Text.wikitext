@@ -1,16 +1,14 @@
 <languages/>
 {{UnfinishedDocu{{#translation:}}}}
 
-<div class="mw-translate-fuzzy">
 {{Docnav/pl
-|[[Arch_Reference/pl|Architektura: Odniesienie]]
-|[[BIM_DimensionAligned/pl|BIM: Wymiar dopasowany]]
+|[[BIM_DimensionVertical/pl|Wymiar pionowy]]
+|[[BIM_Leader/pl|Linia odniesienia]]
 |[[BIM_Workbench/pl|środowisko pracy BIM]]
-|IconL=Arch_Reference.svg
-|IconR=BIM_DimensionAligned.svg
+|IconL=BIM_DimensionVertical.svg
+|IconR=BIM_Leader.svg
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{GuiCommand/pl
 |Name=BIM Text
