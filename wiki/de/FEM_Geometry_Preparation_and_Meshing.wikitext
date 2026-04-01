@@ -309,9 +309,8 @@ Die Wahl der Elementordnung (erste oder zweite Ordnung) hängt von den Analysebe
 <span id="Quad_and_hex_meshes"></span>
 == Vier- und Sechseckgitter ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Quad meshes ===
-</div>
+<span id="Quad_meshes"></span>
+=== Vierkantnetze ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Quadrilateral elements can be generated on surface geometries using both meshers:
