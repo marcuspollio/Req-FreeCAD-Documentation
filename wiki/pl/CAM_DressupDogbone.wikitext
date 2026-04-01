@@ -31,10 +31,12 @@ Narzędzie [[Image:CAM_DressupDogbone.svg|24px]] [[CAM_DressupDogbone/pl|Nadcię
 <span id="Options"></span>
 ==Opcje==
 
+<div class="mw-translate-fuzzy">
 *'''Side''': Która strona ścieżki będzie modyfikowana.
 *'''Style''': Styl nadcięcia (Dogbone, T-Bone Poziomy, T-Bone Pionowy, T-Bone Długa Krawędź, T-Bone Krótka Krawędź).
 *'''Incision''': Algorytm używany do obliczania długości nadcięcia.
 *'''Custom''': Jeśli nacięcie jest niestandardowe, właściwość niestandardowa jest używana do ustawienia długości.
+</div>
 
 <span id="Limitations"></span>
 ==Ograniczenia==
