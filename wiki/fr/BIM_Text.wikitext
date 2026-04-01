@@ -1,6 +1,7 @@
 <languages/>
 {{UnfinishedDocu{{#translation:}}}}
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Arch_Reference/fr|Référence externe]]
 |[[BIM_DimensionAligned/fr|Dimension alignée]]
@@ -9,6 +10,7 @@
 |IconR=BIM_DimensionAligned.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/fr
 |Name=BIM Text
@@ -35,6 +37,7 @@ L'outil '''BIM Texte''' crée soit un texte, soit un objet '''Texte''', dans la 
 # …
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Arch_Reference/fr|Référence externe]]
 |[[BIM_DimensionAligned/fr|Dimension alignée]]
@@ -43,6 +46,7 @@ L'outil '''BIM Texte''' crée soit un texte, soit un objet '''Texte''', dans la 
 |IconR=BIM_DimensionAligned.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
