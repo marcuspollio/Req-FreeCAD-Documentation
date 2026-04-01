@@ -103,6 +103,8 @@ Typowe sekcje konfiguracji obejmują:
 
 Opcja {{MenuCommand|Edycja → Preferencje → CAM → Preferencje zadania → Zakładka Postprocessora → Postprocessor}} służy do ustawienia domyślnego postprocessora wybranego podczas tworzenia zadania. Umożliwia to skonfigurowanie środowiska pracy CAM tak, aby wyświetlał tylko żądane postprocessory i ustawić domyślny. 
 
+Post-processing settings can be taken either from the Job's selected postprocessor or from a selected machine configuration. If a machine configuration is used, it can define the postprocessor and related output options.
+
 Dołączone postprocessory są domyślnie zapisane w lokalizacji '''FreeCAD/Mod/CAM/CAM/Post/scripts''':
 *centroid
 *comparams
