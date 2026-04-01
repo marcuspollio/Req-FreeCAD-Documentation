@@ -39,6 +39,8 @@ Basically, one should draw a centerline (some tips on how to extract it from exi
 
 There's no single rule dictating when beam elements can be used, but it's often advised that the cross-section dimensions should be < 1/10 of the part's length for the beam assumption to be valid.
 
+{{Version|1.1}}: Very slender beams may have negligible bending stiffness and '''truss''' elements can be used to model them. These elements cannot sustain bending. They only transmit axial forces, not moments. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]]. Instead of a profile, the {{PropertyData|Truss Area}} property of the [[FEM_ElementGeometry1D|FEM ElementGeometry1D]] object is used to define their cross-section.
+
 </translate>
 [[Image:FEM_beam_model.JPG|600px]]
 <translate>
@@ -53,6 +55,8 @@ If a part is thin-walled (such as sheet metal parts), then it should be analyzed
 To obtain the geometry suitable for analysis with shell elements, one should draw a midsurface of the part (some tips on how to extract it from existing solid geometry can be found in [https://forum.freecad.org/viewtopic.php?t=67505 this forum thread], [https://forum.freecad.org/viewtopic.php?t=71821 this one] and [https://forum.freecad.org/viewtopic.php?t=81834 this one] - in short, apply [[PartDesign_SubShapeBinder|PartDesign SubShapeBinder]] or [[Draft_Facebinder|Draft Facebinder]], then [[Part_Offset|Part Offset]] and finally use SubShapeBinder and [[Part_Extrude|Extrude]] to extend edges of the midsurfaces and thus close the gaps between them) and apply proper [[FEM_ElementGeometry2D|thickness]]. 
 
 Again, there's no single rule regarding the applicability of shell elements, but it's usually recommended that the thickness should be < 1/10 of a typical global dimension (length/width) for the shell assumption to be valid.
+
+{{Version|1.1}}: Very thin shells may have negligible bending stiffness and '''membrane''' elements can be used to model them. These elements cannot sustain bending. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]].
 
 </translate>
 [[Image:FEM_shell_model.JPG|600px]]
