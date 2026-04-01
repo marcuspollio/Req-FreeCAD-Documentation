@@ -29,10 +29,12 @@ L'outil [[Image:CAM_DressupDogbone.svg|24px]] [[CAM_DressupDogbone/fr|Dégagemen
 
 ==Options==
 
+<div class="mw-translate-fuzzy">
 *'''Côté''' : côté du parcours où la modification sera ajoutée.
 *'''Style''' : style de surcoupe (Dégagement, Dégagement horizontal, Dégagement vertical, Dégagement long, Dégagement court).
 *'''Incision''' : algorithme à utiliser pour calculer la longueur de la surcoupe.
 *'''Personnalisé''' : si Incision est sélectionné, la propriété Personnalisé sera utilisée pour définir la longueur.
+</div>
 
 ==Limitations==
 
