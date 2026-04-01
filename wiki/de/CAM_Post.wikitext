@@ -103,6 +103,8 @@ Typische Konfigurationsabschnitte sind:
 
 Die Voreinstellungen unter {{MenuCommand|Bearbeiten → Einstellungen → CAM → Auftragseinstellungen → Karteireiter Postprozessor → Nachbearbeitungsprogramm}} werden verwendet, um den bei der Auftragserstellung ausgewählten Standard-Postprozessor festzulegen. Dies ermöglicht den Arbeitsbereich CAM so zu konfigurieren, dass nur die gewünschten Postprozessoren angezeigt werden und einer als Voreinstellung festgelegt wird. 
 
+Post-processing settings can be taken either from the Job's selected postprocessor or from a selected machine configuration. If a machine configuration is used, it can define the postprocessor and related output options.
+
 Enthaltene Postprozessoren werden standardmäßig unter '''FreeCAD/Mod/CAM/CAM/Post/scripts''' gespeichert:
 *centroid
 *comparams
