@@ -274,9 +274,8 @@ Wybór rzędu elementów ''(pierwszy lub drugi)'' zależy od warunków analizy, 
 <span id="Quad_and_hex_meshes"></span>
 == Siatki quad i hexa ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Quad meshes ===
-</div>
+<span id="Quad_meshes"></span>
+=== Siatki quad ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Quadrilateral elements can be generated on surface geometries using both meshers:
