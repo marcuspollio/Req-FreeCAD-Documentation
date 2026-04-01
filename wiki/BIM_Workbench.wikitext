@@ -83,6 +83,7 @@ Additionally, if such [[External_workbenches|addons]] are installed, tools from 
 <!--T:12-->
 The BIM workbench also adds a series of items in the '''Status Bar''' of FreeCAD, and a couple of '''context menu items''', accessible by right-clicking in the 3D View or in the Tree View.
 
+<!--T:276-->
 ''The order of the tools matches the version 1.2 menu.''
 
 === 2D Drafting === <!--T:13-->
@@ -102,6 +103,7 @@ The BIM workbench also adds a series of items in the '''Status Bar''' of FreeCAD
 <!--T:65-->
 * [[Image:Draft_Rectangle.svg|32px]] [[Draft_Rectangle|Rectangle]]: Creates a rectangle from two points.
 
+<!--T:277-->
 * <span id="BIM_ArcTools">Arc Tools:</span><!--Do not edit span id: the BIM_ArcTools pages redirect here-->
 
 <!--T:60-->
@@ -119,6 +121,7 @@ The BIM workbench also adds a series of items in the '''Status Bar''' of FreeCAD
 <!--T:64-->
 * [[Image:Draft_Polygon.svg|32px]] [[Draft_Polygon|Polygon]]: Creates a regular polygon from a center and a radius.
 
+<!--T:278-->
 * <span id="BIM_SplineTools">Spline Tools:</span><!--Do not edit span id: the BIM_SplineTools pages redirect here-->
 
 <!--T:66-->
@@ -293,6 +296,7 @@ Annotations are visual help objects that can be placed inside your model. They c
 <!--T:125-->
 * [[Image:Draft_Hatch.svg|32px]] [[Draft_Hatch|Hatch]]: Creates  hatches on the planar faces of a selected object.
 
+<!--T:279-->
 * <span id="BIM_AxisTools">Axis Tools:</span><!--Do not edit span id: the BIM_AxisTools pages redirect here-->
 
 <!--T:121-->
@@ -356,12 +360,14 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 <!--T:158-->
 * [[Image:Draft_Mirror.svg|32px]] [[Draft_Mirror|Mirror]]: Creates mirrored copies from selected objects.
 
+<!--T:280-->
 * <span id="BIM_CloneTools">Cloning Tools:</span><!--Do not edit span id: the BIM_CloneTools pages redirect here-->
 
 <!--T:138-->
-:* [[Image:BIM_Clone.svg|32px]] [[BIM_Clone|Clone]]: Clones selected objects.
+:* [[Image:BIM_Clone.svg|32px]] [[BIM_Clone|Clone]]: Clones and moves selected objects.
 
-:* [[Image:BIM_Link.svg|32px]] [[BIM_Link|Make Link]]:
+<!--T:281-->
+:* [[Image:BIM_Link.svg|32px]] [[BIM_Link|Make Link]]: Links and moves selected objects. {{Version|1.2}}
 
 <!--T:136-->
 * [[Image:BIM_Copy.svg|32px]] [[BIM_Copy|Copy]]: Copies selected objects from one point to another.
@@ -372,6 +378,7 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 <!--T:140-->
 * [[Image:BIM_Compound.svg|32px]] [[BIM_Compound|Compound]]: Creates a compound from selected objects. This is the same tool as [[Part_Compound|Part Compound]].
 
+<!--T:282-->
 * <span id="BIM_OffsetTools">Offset Tools:<!--Do not edit span id: the BIM_OffsetTools pages redirect here-->
 
 <!--T:142-->
@@ -407,6 +414,7 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 <!--T:152-->
 * [[Image:Arch_Remove.svg|32px]] [[Arch_Remove|Remove Component]]: Subtracts or removes objects from a component.
 
+<!--T:283-->
 * <span id="BIM_ArrayTools">Array Tools:</span><!--Do not edit span id: the BIM_ArrayTools pages redirect here-->
 
 <!--T:153-->
@@ -427,6 +435,7 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 <!--T:159-->
 * [[Image:BIM_Extrude.svg|32px]] [[BIM_Extrude|Extrude]]: Extrudes planar faces of an object. This is the same tool as [[Part_Extrude|Part Extrude]].
 
+<!--T:284-->
 * <span id="BIM_BooleanTools">Boolean Tools:</span><!--Do not edit span id: the BIM_BooleanTools pages redirect here-->
 
 <!--T:161-->
@@ -449,6 +458,7 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 <!--T:167-->
 * [[Image:BIM_Windows.svg|32px]] [[BIM_Windows|Manage Doors and Windows]]: Manage the doors and windows of your project.
 
+<!--T:285-->
 * <span id="BIM_IfcManageTools">IFC Management:</span><!--Do not edit span id: the BIM_IfcManageTools pages redirect here-->
 
 <!--T:168-->
