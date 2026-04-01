@@ -32,7 +32,7 @@ Ceci est utile pour définir les points d'intersection entre les différents axe
 # En option, sélectionnez les objets [[Arch_Axis/fr|Arch Axes]] que vous souhaitez inclure dans ce système.
 # Appuyez sur le bouton {{Button|[[Image:Arch AxisSystem.svg|16px]] [[Arch_AxisSystem/fr|Système d'axes]]}}.
 # Cliquez avec le bouton droit sur l'objet système d'axes nouvellement créé dans l'arborescence pour ajouter/modifier les objets [[Arch_Axis/fr|Axes]] inclus dans ce système.
-# Sélectionnez un [[Arch_Axis/fr|Arch Axe]] existant et appuyez sur les boutons {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add/fr|Arch Ajouter un composant]]}} ou {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch_Remove/fr|Supprimer un composant]]}} pour ajouter ou enlever de ce système.
+# Sélectionnez un [[Arch_Axis/fr|Arch Axe]] existant et appuyez sur les boutons {{Button|[[Image:Arch_Add.svg|16px]] [[Arch_Add/fr|Ajouter un composant]]}} ou {{Button|[[Image:Arch_Remove.svg|16px]] [[Arch_Remove/fr|Supprimer un composant]]}} pour ajouter ou enlever de ce système.
 # Définir la propriété {{PropertyData|Axis}} de n'importe quel objet Arch pour pointer vers ce système, pour que sa forme soit dupliquée aux points d'intersection de ce système
 
 ==Options==
