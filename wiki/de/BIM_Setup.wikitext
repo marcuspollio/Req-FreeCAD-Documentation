@@ -35,16 +35,14 @@ Das Einstellungssystem von FreeCAD, das sich im Menü unter {{MenuCommand|Bearbe
 Schwebt der Mauszeigers über einer Einstellung, wird eine QuickInfo (Tooltipp) angezeigt, die erläutert, wofür sie verwendet wird und wo die entsprechende Einstellung im allgemeinen FreeCAD-Einstellungssystem zu finden ist.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[Arch_CutPlane/de|Schnittebene]]
-|[[BIM_Views/de|Ansichten]]
+|[[BIM_ProjectManager/de|Projektmanager]]
 |[[BIM_Workbench/de|BIM]]
 |IconL=Arch_CutPlane.svg
-|IconR=BIM_Views.svg
+|IconR=BIM_ProjectManager.svg
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
