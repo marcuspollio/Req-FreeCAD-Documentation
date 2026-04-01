@@ -1,6 +1,7 @@
 <languages/>
 {{UnfinishedDocu{{#translation:}}}}
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[BIM_Text/de|Text]]
 |[[BIM_DimensionHorizontal/de|HorizontalesMaß]]
@@ -9,6 +10,7 @@
 |IconR=BIM_DimensionHorizontal.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/de
 |Name=BIM DimensionAligned
@@ -35,6 +37,7 @@ Das Werkzeug [[Image:BIM_DimensionAligned.svg|24px]] [[BIM_DimensionAligned/de|B
 # ...
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[BIM_Text/de|Text]]
 |[[BIM_DimensionHorizontal/de|HorizontalesMaß]]
@@ -43,6 +46,7 @@ Das Werkzeug [[Image:BIM_DimensionAligned.svg|24px]] [[BIM_DimensionAligned/de|B
 |IconR=BIM_DimensionHorizontal.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
