@@ -69,9 +69,7 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 <span id="Electromagnetic_Boundary_Conditions"></span>
 === <span id="FEM_CompEmConstraints">Elektromagnetyczne warunki brzegowe</span><!--Do not edit span id: the FEM_CompEmConstraints pages redirect here--> ===
 
-<div class="mw-translate-fuzzy">
-:* [[Image:FEM_ConstraintElectrostaticPotential.svg|32px]] [[FEM_ConstraintElectrostaticPotential/pl|Warunek brzegowy potencjału elektrostatycznego]]: Służy do definiowania potencjału elektrostatycznego.
-</div>
+:* [[Image:FEM_ConstraintElectrostaticPotential.svg|32px]] [[FEM_ConstraintElectromagnetic/pl|Warunek brzegowy elektromagnetyczny]]: Używane do zdefiniowania potencjału elektrostatycznego lub ({{Version/pl|1.2}}) gęstości strumienia magnetycznego.
 
 :* [[Image:FEM_ConstraintCurrentDensity.svg|32px]] [[FEM_ConstraintCurrentDensity/pl|Warunek brzegowy gęstości prądu]]: Służy do określenia gęstości prądu. {{Version/pl|0.21}}
 
