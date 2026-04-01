@@ -63,6 +63,10 @@ Além disso, se [[External_workbenches|addons]] como esses estiverem instalados,
 
 A bancada de trabalho BIM também adiciona uma série de itens na '''barra de status''' do FreeCAD e alguns '''itens de menu de contexto''', acessíveis ao clicar com o botão direito na vista 3D ou na vista em árvore.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+''The order of the tools matches the version 1.2 menu.''
+</div>
+
 <span id="2D_Drafting"></span>
 === Desenho 2D ===
 
@@ -74,17 +78,23 @@ Objetos 2D são comumente usados como auxiliares de desenho, ou para traçar lin
 
 * [[Image:Draft_Wire.svg|32px]] [[Draft_Wire|Polilinha]]: Cria uma polilinha (também chamada de fio), uma sequência de vários segmentos de linha conectados.
 
-* [[Image:Draft_Circle.svg|32px]] [[Draft_Circle|Círculo]]: Cria um círculo a partir de um centro e um raio.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Draft_Rectangle.svg|32px]] [[Draft_Rectangle|Rectangle]]: Creates a rectangle from two points.
+</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* <span id="BIM_ArcTools">Arc Tools:</span><!--Do not edit span id: the BIM_ArcTools pages redirect here-->
+</div>
+
+<div class="mw-translate-fuzzy">
 * [[Image:Draft_Arc.svg|32px]] [[Draft_Arc|Arco]]: Cria um arco circular a partir de um centro, um raio, um ângulo inicial e um ângulo de abertura.
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Draft_Arc_3Points.svg|32px]] [[Draft_Arc_3Points|Arc From 3 Points]]: Creates a circular arc from three points that define its circumference.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Draft_Fillet.svg|32px]] [[Draft_Fillet|Fillet]]: Creates a fillet, a rounded corner, or a chamfer, a straight edge, between two [[Draft_Line|Draft Lines]].
+:* [[Image:Draft_Arc_3Points.svg|32px]] [[Draft_Arc_3Points|Arc From 3 Points]]: Creates a circular arc from three points that define its circumference.
 </div>
+
+* [[Image:Draft_Circle.svg|32px]] [[Draft_Circle|Círculo]]: Cria um círculo a partir de um centro e um raio.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Draft_Ellipse.svg|32px]] [[Draft_Ellipse|Ellipse]]: Creates an ellipse from two points defining a rectangle in which the ellipse will fit.
@@ -95,23 +105,27 @@ Objetos 2D são comumente usados como auxiliares de desenho, ou para traçar lin
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Draft_Rectangle.svg|32px]] [[Draft_Rectangle|Rectangle]]: Creates a rectangle from two points.
+* <span id="BIM_SplineTools">Spline Tools:</span><!--Do not edit span id: the BIM_SplineTools pages redirect here-->
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Draft_BSpline.svg|32px]] [[Draft_BSpline|B-Spline]]: Creates a B-spline curve from several points.
+:* [[Image:Draft_BSpline.svg|32px]] [[Draft_BSpline|B-Spline]]: Creates a B-spline curve from several points.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Draft_BezCurve.svg|32px]] [[Draft_BezCurve|Bézier Curve]]: Creates a Bézier curve from several points.
+:* [[Image:Draft_BezCurve.svg|32px]] [[Draft_BezCurve|Bézier Curve]]: Creates a Bézier curve from several points.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Draft_CubicBezCurve.svg|32px]] [[Draft_CubicBezCurve|Cubic Bézier Curve]]: Creates a Bézier curve of the third degree.
+:* [[Image:Draft_CubicBezCurve.svg|32px]] [[Draft_CubicBezCurve|Cubic Bézier Curve]]: Creates a Bézier curve of the third degree.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Draft_Point.svg|32px]] [[Draft_Point|Point]]: Creates a simple point.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Draft_Fillet.svg|32px]] [[Draft_Fillet|Fillet]]: Creates a fillet, a rounded corner, or a chamfer, a straight edge, between two [[Draft_Line|Draft Lines]].
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -299,14 +313,6 @@ Annotations are visual help objects that can be placed inside your model. They c
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:BIM_Text.svg|32px]] [[BIM_Text|Text]]: Creates a 2D text in a document or on a TechDraw page.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Draft_ShapeString.svg|32px]] [[Draft_ShapeString|Shape From Text]]: Creates a compound shape that represents a text string.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:BIM_DimensionAligned.svg|32px]] [[BIM_DimensionAligned|Aligned Dimension]]: Creates a dimension aligned with two points or a selected edge.
 </div>
 
@@ -316,6 +322,10 @@ Annotations are visual help objects that can be placed inside your model. They c
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:BIM_DimensionVertical.svg|32px]] [[BIM_DimensionVertical|Vertical Dimension]]: Creates a vertical dimension between two points or from a selected edge.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:BIM_Text.svg|32px]] [[BIM_Text|Text]]: Creates a 2D text in a document or on a TechDraw page.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -331,11 +341,15 @@ Annotations are visual help objects that can be placed inside your model. They c
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Arch_Axis.svg|32px]] [[Arch_Axis|Axis]]: Adds a 1-direction array of axes.
+* <span id="BIM_AxisTools">Axis Tools:</span><!--Do not edit span id: the BIM_AxisTools pages redirect here-->
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Arch_AxisSystem.svg|32px]] [[Arch_AxisSystem|Axis System]]: Adds an axis system composed of several axes.
+:* [[Image:Arch_Axis.svg|32px]] [[Arch_Axis|Axis]]: Adds a 1-direction array of axes.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+:* [[Image:Arch_AxisSystem.svg|32px]] [[Arch_AxisSystem|Axis System]]: Adds an axis system composed of several axes.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -347,7 +361,7 @@ Annotations are visual help objects that can be placed inside your model. They c
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* <span id="BIM_Create2DViews">[[Image:BIM_DrawingView.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] Create 2D Views:</span><!--Do not edit span id: the BIM_Create2DViews pages redirect here-->
+* <span id="BIM_Create2DViews">Create 2D Views:</span><!--Do not edit span id: the BIM_Create2DViews pages redirect here-->
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -400,31 +414,51 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:BIM_Copy.svg|32px]] [[BIM_Copy|Copy]]: Copies selected objects from one point to another.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Draft_Rotate.svg|32px]] [[Draft_Rotate|Rotate]]: Rotates or copies selected objects around a center point by a given angle.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:BIM_Clone.svg|32px]] [[BIM_Clone|Clone]]: Clones selected objects.
+* [[Image:Draft_Scale.svg|32px]] [[Draft_Scale|Scale]]: Scales or copies selected objects around a base point.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:BIM_SimpleCopy.svg|32px]] [[BIM_SimpleCopy|Create Simple Copy]]: Creates a non-parametric copy of a selected object. This is the same tool as [[Part_SimpleCopy|Part SimpleCopy]].
+* [[Image:Draft_Mirror.svg|32px]] [[Draft_Mirror|Mirror]]: Creates mirrored copies from selected objects.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:BIM_Compound.svg|32px]] [[BIM_Compound|Create Compound]]: Creates a compound from selected objects. This is the same tool as [[Part_Compound|Part Compound]].
+* <span id="BIM_CloneTools">Cloning Tools:</span><!--Do not edit span id: the BIM_CloneTools pages redirect here-->
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Draft_Offset.svg|32px]] [[Draft_Offset|Offset]]: Offsets each segment of a selected object over a given distance, or creates an offset copy of the selected object.
+:* [[Image:BIM_Clone.svg|32px]] [[BIM_Clone|Clone]]: Clones and moves selected objects.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:BIM_Offset2D.svg|32px]] [[BIM_Offset2D|2D Offset]]: Constructs a parallel wire at a given distance from the original, or enlarges/shrinks a planar face (parametric version). This is the same tool as [[Part_Offset2D|Part Offset2D]].
+:* [[Image:BIM_Link.svg|32px]] [[BIM_Link|Make Link]]: Links and moves selected objects. {{Version|1.2}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:BIM_Copy.svg|32px]] [[BIM_Copy|Copy]]: Copies selected objects from one point to another.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:BIM_SimpleCopy.svg|32px]] [[BIM_SimpleCopy|Simple Copy]]: Creates a non-parametric copy of a selected object. This is the same tool as [[Part_SimpleCopy|Part SimpleCopy]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:BIM_Compound.svg|32px]] [[BIM_Compound|Compound]]: Creates a compound from selected objects. This is the same tool as [[Part_Compound|Part Compound]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* <span id="BIM_OffsetTools">Offset Tools:<!--Do not edit span id: the BIM_OffsetTools pages redirect here-->
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+:* [[Image:BIM_Offset2D.svg|32px]] [[BIM_Offset2D|2D Offset]]: Constructs a parallel wire at a given distance from the original, or enlarges/shrinks a planar face (parametric version). This is the same tool as [[Part_Offset2D|Part Offset2D]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+:* [[Image:Draft_Offset.svg|32px]] [[Draft_Offset|Offset]]: Offsets each segment of a selected object over a given distance, or creates an offset copy of the selected object.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -437,10 +471,6 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Draft_Split.svg|32px]] [[Draft_Split|Split]]: Splits a [[Draft_Line|Draft Line]] or [[Draft_Wire|Draft Wire]] at a specified point or edge.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Draft_Scale.svg|32px]] [[Draft_Scale|Scale]]: Scales or copies selected objects around a base point.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -468,19 +498,23 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Draft_OrthoArray.svg|32px]] [[Draft_OrthoArray|Array]]: Creates an orthogonal array from a selected object. It can optionally create a [[App_Link|Link]] array.
+* <span id="BIM_ArrayTools">Array Tools:</span><!--Do not edit span id: the BIM_ArrayTools pages redirect here-->
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Draft_PathArray.svg|32px]] [[Draft_PathArray|Path Array]]: Creates an array from a selected object by placing copies along a path.
+:* [[Image:Draft_OrthoArray.svg|32px]] [[Draft_OrthoArray|Array]]: Creates an orthogonal array from a selected object. It can optionally create a [[App_Link|Link]] array.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[File:Draft_PolarArray.svg|32px]] [[Draft_PolarArray|Polar Array]]: Creates an array from a selected object by placing copies along a circumference. It can optionally create a [[App_Link|Link]] array.
+:* [[Image:Draft_PathArray.svg|32px]] [[Draft_PathArray|Path Array]]: Creates an array from a selected object by placing copies along a path.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Draft_PointArray.svg|32px]] [[Draft_PointArray|Point Array]]: Creates an array from a selected object by placing copies at the points from a point compound.
+:* [[File:Draft_PolarArray.svg|32px]] [[Draft_PolarArray|Polar Array]]: Creates an array from a selected object by placing copies along a circumference. It can optionally create a [[App_Link|Link]] array.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+:* [[Image:Draft_PointArray.svg|32px]] [[Draft_PointArray|Point Array]]: Creates an array from a selected object by placing copies at the points from a point compound.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -488,23 +522,23 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Draft_Mirror.svg|32px]] [[Draft_Mirror|Mirror]]: Creates mirrored copies from selected objects.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:BIM_Extrude.svg|32px]] [[BIM_Extrude|Extrude]]: Extrudes planar faces of an object. This is the same tool as [[Part_Extrude|Part Extrude]].
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:BIM_Cut.svg|32px]] [[BIM_Cut|Difference]]: Subtracts one object from another. This is the same tool as [[Part_Cut|Part Cut]].
+* <span id="BIM_BooleanTools">Boolean Tools:</span><!--Do not edit span id: the BIM_BooleanTools pages redirect here-->
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:BIM_Fuse.svg|32px]] [[BIM_Fuse|Union]]: Fuses two objects. This is the same tool as [[Part_Fuse|Part Fuse]].
+:* [[Image:BIM_Fuse.svg|32px]] [[BIM_Fuse|Union]]: Fuses two objects. This is the same tool as [[Part_Fuse|Part Fuse]].
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:BIM_Common.svg|32px]] [[BIM_Common|Intersection]]: Extracts the common part of two objects. This is the same tool as [[Part_Common|Part Common]].
+:* [[Image:BIM_Cut.svg|32px]] [[BIM_Cut|Difference]]: Subtracts one object from another. This is the same tool as [[Part_Cut|Part Cut]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+:* [[Image:BIM_Common.svg|32px]] [[BIM_Common|Intersection]]: Extracts the common part of two objects. This is the same tool as [[Part_Common|Part Common]].
 </div>
 
 <span id="Manage"></span>
@@ -512,10 +546,6 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:BIM_Setup.svg|32px]] [[BIM_Setup|BIM Setup]]: Configures some of the FreeCAD preferences most commonly used for BIM.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:BIM_Views.svg|32px]] [[BIM_Views|Views Manager]]: Manage the different views and levels of your project.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -527,19 +557,23 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:BIM_IfcElements.svg|32px]] [[BIM_IfcElements|Manage IFC Elements]]: Manage how the different elements of your project will be exported to IFC.
+* <span id="BIM_IfcManageTools">IFC Management:</span><!--Do not edit span id: the BIM_IfcManageTools pages redirect here-->
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:BIM_IfcQuantities.svg|32px]] [[BIM_IfcQuantities|Manage IFC Quantities]]: Manage how the quantities of your objects are explicitely exported to IFC
+:* [[Image:BIM_IfcElements.svg|32px]] [[BIM_IfcElements|Manage IFC Elements]]: Manage how the different elements of your project will be exported to IFC.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:BIM_IfcProperties.svg|32px]] [[BIM_IfcProperties|Manage IFC Properties]]: Manage the IFC properties attached to each of your objects.
+:* [[Image:BIM_IfcQuantities.svg|32px]] [[BIM_IfcQuantities|Manage IFC Quantities]]: Manage how the quantities of your objects are explicitely exported to IFC
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:BIM_Classification.svg|32px]] [[BIM_Classification|Manage Classification]]: Manage how objects and materials of your project relate to classifications systems such as [https://en.wikipedia.org/wiki/Uniclass Uniclass].
+:* [[Image:BIM_IfcProperties.svg|32px]] [[BIM_IfcProperties|Manage IFC Properties]]: Manage the IFC properties attached to each of your objects.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+:* [[Image:BIM_Classification.svg|32px]] [[BIM_Classification|Manage Classification]]: Manage how objects and materials of your project relate to classifications systems such as [https://en.wikipedia.org/wiki/Uniclass Uniclass].
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
