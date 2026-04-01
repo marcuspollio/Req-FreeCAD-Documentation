@@ -270,12 +270,6 @@ The BIM workbench also adds a series of items in the '''Status Bar''' of FreeCAD
 <!--T:17-->
 Annotations are visual help objects that can be placed inside your model. They can be used to export your model directly to a 2D format like [[Draft_DXF|DXF]], or reused when creating 2D views of your model with the [[TechDraw_Workbench|TechDraw Workbench]].
 
-<!--T:114-->
-* [[Image:BIM_Text.svg|32px]] [[BIM_Text|Text]]: Creates a 2D text in a document or on a TechDraw page.
-
-<!--T:115-->
-* [[Image:Draft_ShapeString.svg|32px]] [[Draft_ShapeString|Shape From Text]]: Creates a compound shape that represents a text string.
-
 <!--T:116-->
 * [[Image:BIM_DimensionAligned.svg|32px]] [[BIM_DimensionAligned|Aligned Dimension]]: Creates a dimension aligned with two points or a selected edge.
 
@@ -284,6 +278,9 @@ Annotations are visual help objects that can be placed inside your model. They c
 
 <!--T:118-->
 * [[Image:BIM_DimensionVertical.svg|32px]] [[BIM_DimensionVertical|Vertical Dimension]]: Creates a vertical dimension between two points or from a selected edge.
+
+<!--T:114-->
+* [[Image:BIM_Text.svg|32px]] [[BIM_Text|Text]]: Creates a 2D text in a document or on a TechDraw page.
 
 <!--T:119-->
 * [[Image:BIM_Leader.svg|32px]] [[BIM_Leader|Leader]]: Creates a 2-segment polyline with an arrow at its end, to be used as a leader line in conjunction with a [[BIM_Text|Text]].
@@ -294,11 +291,13 @@ Annotations are visual help objects that can be placed inside your model. They c
 <!--T:125-->
 * [[Image:Draft_Hatch.svg|32px]] [[Draft_Hatch|Hatch]]: Creates  hatches on the planar faces of a selected object.
 
+* Axis Tools:
+
 <!--T:121-->
-* [[Image:Arch_Axis.svg|32px]] [[Arch_Axis|Axis]]: Adds a 1-direction array of axes.
+:* [[Image:Arch_Axis.svg|32px]] [[Arch_Axis|Axis]]: Adds a 1-direction array of axes.
 
 <!--T:122-->
-* [[Image:Arch_AxisSystem.svg|32px]] [[Arch_AxisSystem|Axis System]]: Adds an axis system composed of several axes.
+:* [[Image:Arch_AxisSystem.svg|32px]] [[Arch_AxisSystem|Axis System]]: Adds an axis system composed of several axes.
 
 <!--T:123-->
 * [[Image:Arch_Grid.svg|32px]] [[Arch_Grid|Grid]]: Adds a grid-like object.
@@ -307,7 +306,7 @@ Annotations are visual help objects that can be placed inside your model. They c
 * [[Image:Arch_SectionPlane.svg|32px]] [[Arch_SectionPlane|Section Plane]]: Adds a section plane object.
 
 <!--T:270-->
-* <span id="BIM_Create2DViews">[[Image:BIM_DrawingView.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] Create 2D Views:</span><!--Do not edit span id: the BIM_Create2DViews pages redirect here-->
+* <span id="BIM_Create2DViews">Create 2D Views:</span><!--Do not edit span id: the BIM_Create2DViews pages redirect here-->
 
 <!--T:271-->
 :* [[Image:BIM_DrawingView.svg|32px]] [[BIM_DrawingView|2D Drawing]]: Creates a container to hold 2D projections.
