@@ -277,11 +277,9 @@ Wybór rzędu elementów ''(pierwszy lub drugi)'' zależy od warunków analizy, 
 <span id="Quad_meshes"></span>
 === Siatki quad ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Quadrilateral elements can be generated on surface geometries using both meshers:
-* [[FEM_MeshGmshFromShape|Gmsh]] - set the {{PropertyData|Algorithm 2D}} property to ''Quasi-structured Quad'' (currently, it doesn't work for 2nd order elements) or enable the {{PropertyData|Recombine All}} property and select the {{PropertyData|Recombination Algorithm}},
-* [[FEM_MeshNetgenFromShape|Netgen]] - enable the {{PropertyData|Quad Dominated}} property.
-</div>
+Elementy czworościenne można generować na geometriach powierzchniowych przy pomocy obu generatorów siatek:
+* [[FEM_MeshGmshFromShape/pl|Gmsh]] - ustaw właściwość {{PropertyData|Algorithm 2D}} na ''Quasi-structured Quad'' (obecnie nie działa to dla elementów drugiego rzędu) lub włącz właściwość {{PropertyData|Recombine All}} i ustaw {{PropertyData|Recombination Algorithm}},
+* [[FEM_MeshNetgenFromShape/pl|Netgen]] - włącz właściwość {{PropertyData|Quad Dominated}}.
 
 [[Image:Quad_mesh.PNG|400px]]
 
