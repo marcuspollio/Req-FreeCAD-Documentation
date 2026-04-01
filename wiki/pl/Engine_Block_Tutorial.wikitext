@@ -102,8 +102,8 @@ Dodaj kolejny prostopadłościan o nazwie '''Bearing carve''', nadaj mu następu
 
 Zmień nazwę powstałego obiektu ''Cut'' na '''Carved crankcase'''.
 
-=== Carving out the journals ===
-Next we will cut out a semi-circular place for the crankshaft to sit and a space in the crankcase for it to spin.  We will start with a cylinder, but the orientation of the default cylinder is vertical, whereas we need a horizontal one.  This means we need to figure out how to rotate the cylinder to align it properly with our engine.  If you look at the guide axis in the bottom right corner of the 3D window you will see we want the crankshaft to lie along the positive x-axis.  This means that from its starting location we need to rotate 90 degrees around an axis parallel to the y-axis of the scene.  This tells us what we need to enter the parameters for the cylinder.  Create a cylinder called '''Crankshaft carve''' and give it these properties (notice that now we have to specify the orientation parameters, as well as the regular dimensions we did for the cylinder bores):
+=== Wykrawanie panew ===
+Następnie wycinamy półkoliste miejsce, w którym będzie osadzony wał korbowy, oraz przestrzeń w skrzyni korbowej, aby mógł się swobodnie obracać. Zaczniemy od cylindra, ale domyślny cylinder jest ustawiony pionowo, podczas gdy potrzebujemy cylindra poziomego. Oznacza to, że musimy ustalić, jak obrócić cylinder, aby prawidłowo wyrównać go z silnikiem. Jeśli spojrzysz na osie orientacyjne w prawym dolnym rogu okna 3D, zobaczysz, że wał korbowy powinien leżeć wzdłuż dodatniej osi X. Oznacza to, że od początkowego położenia należy obrócić cylinder o 90 stopni wokół osi równoległej do osi Y sceny. To pokazuje, jakie parametry musimy wpisać dla cylindra. Utwórz cylinder o nazwie '''Crankshaft carve''' i nadaj mu następujące właściwości (zauważ, że teraz musimy określić parametry orientacji, oprócz standardowych wymiarów, które stosowaliśmy przy wycinaniu otworów cylindrów):
 
 :{| class=wikitable border=1
 |-
