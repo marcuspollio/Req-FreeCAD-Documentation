@@ -1,7 +1,7 @@
 <languages/>
 
 {{Docnav/de
-|[[BIM_IfcQuantities/de|IfcGrößen]]
+|[[BIM_IfcQuantities/de|IfcMengen]]
 |[[BIM_Classification/de|Klassifizierung]]
 |[[BIM_Workbench/de|BIM]]
 |IconL=BIM_IfcQuantities.svg
@@ -9,12 +9,14 @@
 |IconC=Workbench_BIM.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=BIM IfcProperties
 |Name/de=BIM IfcEigenschaften
 |MenuLocation=Manage → Manage IFC properties...
 |Workbenches=[[BIM_Workbench/de|BIM]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Beschreibung==
@@ -62,7 +64,7 @@ FreeCAD.getUserAppDataDir()
 
 
 {{Docnav/de
-|[[BIM_IfcQuantities/de|IfcGrößen]]
+|[[BIM_IfcQuantities/de|IfcMengen]]
 |[[BIM_Classification/de|Klassifizierung]]
 |[[BIM_Workbench/de|BIM]]
 |IconL=BIM_IfcQuantities.svg
