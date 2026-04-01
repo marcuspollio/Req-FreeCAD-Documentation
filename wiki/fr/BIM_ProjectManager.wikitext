@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[BIM_Views/fr|Gérer les vues]]
 |[[BIM_Windows/fr|Fenêtres et portes]]
@@ -8,6 +9,7 @@
 |IconR=BIM_Windows.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/fr
 |Name=BIM ProjectManager
@@ -43,6 +45,7 @@ L'outil Projet prend en charge deux types de modèles :
 * Vous pouvez également enregistrer le contenu du document actuel en tant que modèle. Cela permettra d'enregistrer le document ouvert comme un fichier '''.FCStd''' standard, mais aussi d'inclure des paramètres BIM supplémentaires comme le plan de travail actuel ou les unités actuelles. En utilisant l'option '''Restaurer''' à tout moment, le contenu de ce fichier modèle sera fusionné dans le document actif et tous les paramètres qu'il contient seront appliqués.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[BIM_Views/fr|Gérer les vues]]
 |[[BIM_Windows/fr|Fenêtres et portes]]
@@ -51,6 +54,7 @@ L'outil Projet prend en charge deux types de modèles :
 |IconR=BIM_Windows.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
