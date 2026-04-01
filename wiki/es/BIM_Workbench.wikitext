@@ -61,6 +61,10 @@ Además, si se instalan estos [[External_workbenches/es|addons]], las herramient
 
 El banco de trabajo BIM también añade una serie de elementos en la '''barra de estado''' de FreeCAD, y un par de elementos del '''menú contextual'''', accesibles haciendo clic con el botón derecho en la vista 3D o en la vista de árbol.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+''The order of the tools matches the version 1.2 menu.''
+</div>
+
 <span id="2D_Drafting"></span>
 === 2D Elaboración ===
 
@@ -72,27 +76,45 @@ Los objetos 2D se utilizan habitualmente como ayudas para el dibujo, o para dibu
 
 * [[Image:Draft_Wire.svg|32px]] [[Draft_Wire|Polilínea]]: Crea una polilínea (también llamada alambre), una secuencia de varios segmentos de línea conectados.
 
-* [[Image:Draft_Circle.svg|32px]] [[Draft_Circle|Círculo]]: Crea un círculo a partir de un centro y un radio.
+* [[Image:Draft_Rectangle.svg|32px]] [[Draft_Rectangle|Rectángulo]]: Crea un rectángulo a partir de dos puntos.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* <span id="BIM_ArcTools">Arc Tools:</span><!--Do not edit span id: the BIM_ArcTools pages redirect here-->
+</div>
+
+<div class="mw-translate-fuzzy">
 * [[Image:Draft_Arc.svg|32px]] [[Draft_Arc|Arco]]: Crea un arco circular a partir de un centro, un radio, un ángulo inicial y un ángulo de apertura.
+</div>
 
+<div class="mw-translate-fuzzy">
 * [[Image:Draft_Arc_3Points.svg|32px]] [[Draft_Arc_3Points|Arco por 3 puntos]]: Crea un arco circular a partir de tres puntos que definen su circunferencia.
+</div>
 
-* [[Image:Draft_Fillet.svg|32px]] [[Draft_Fillet|Filete]]: Crea un filete, una esquina redondeada, o un chaflán, un borde recto, entre dos [[Draft_Line|Líneas borrador]].
+* [[Image:Draft_Circle.svg|32px]] [[Draft_Circle|Círculo]]: Crea un círculo a partir de un centro y un radio.
 
 * [[Image:Draft_Ellipse.svg|32px]] [[Draft_Ellipse|Elipse]]: Crea una elipse a partir de dos puntos que definen un rectángulo en el que encajará la elipse.
 
 * [[Image:Draft_Polygon.svg|32px]] [[Draft_Polygon|Polígono]]: Crea un polígono regular a partir de un centro y un radio.
 
-* [[Image:Draft_Rectangle.svg|32px]] [[Draft_Rectangle|Rectángulo]]: Crea un rectángulo a partir de dos puntos.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* <span id="BIM_SplineTools">Spline Tools:</span><!--Do not edit span id: the BIM_SplineTools pages redirect here-->
+</div>
 
+<div class="mw-translate-fuzzy">
 * [[Image:Draft_BSpline.svg|32px]] [[Draft_BSpline|B-spline]]: Crea una curva B-spline a partir de varios puntos.
+</div>
 
+<div class="mw-translate-fuzzy">
 * [[Image:Draft_BezCurve.svg|32px]] [[Draft_BezCurve|curva Bézier]]: Crea una curva Bézier a partir de varios puntos.
+</div>
 
+<div class="mw-translate-fuzzy">
 * [[Image:Draft_CubicBezCurve.svg|32px]] [[Draft_CubicBezCurve|Curva cúbica de Bézier]]: Crea una curva de Bézier de tercer grado.
+</div>
 
 * [[Image:Draft_Point.svg|32px]] [[Draft_Point|Punto]]: Crea un punto simple.
+
+* [[Image:Draft_Fillet.svg|32px]] [[Draft_Fillet|Filete]]: Crea un filete, una esquina redondeada, o un chaflán, un borde recto, entre dos [[Draft_Line|Líneas borrador]].
 
 === 3D/BIM ===
 
@@ -187,15 +209,13 @@ Los objetos 3D y BIM son los elementos del mundo real que compondrán tu proyect
 
 Las anotaciones son objetos de ayuda visual que se pueden colocar dentro de su modelo. Pueden utilizarse para exportar su modelo directamente a un formato 2D como [[Draft_DXF/es|DXF]], o reutilizarse al crear vistas 2D de su modelo con el [[TechDraw_Workbench/es|Banco de Trabajo TechDraw]].
 
-* [[Image:BIM_Text.svg|32px]] [[BIM_Text|Texto]]: Crea un texto 2D en un documento o en una página TechDraw.
-
-* [[Image:Draft_ShapeString.svg|32px]] [[Draft_ShapeString|Shape from text]]: Crea una forma compuesta que representa una cadena de texto.
-
 * [[Image:BIM_DimensionAligned.svg|32px]] [[BIM_DimensionAligned|Cota Alineada]]: Crea una acotación alineada con dos puntos o un borde seleccionado.
 
 * [[Image:BIM_DimensionHorizontal.svg|32px]] [[BIM_DimensionHorizontal|Cota Horizontal]]: Crea una acotación horizontal entre dos puntos o desde un borde seleccionado.
 
 * [[Image:BIM_DimensionVertical.svg|32px]] [[BIM_DimensionVertical|Cota Vertical]]: Crea una acotación vertical entre dos puntos o desde un borde seleccionado.
+
+* [[Image:BIM_Text.svg|32px]] [[BIM_Text|Texto]]: Crea un texto 2D en un documento o en una página TechDraw.
 
 * [[Image:BIM_Leader.svg|32px]] [[BIM_Leader|Leader]]: Crea una polilínea de dos segmentos con una flecha en su extremo, que se utiliza como línea guía junto con un [[BIM_Text|Texto]].
 
@@ -203,15 +223,25 @@ Las anotaciones son objetos de ayuda visual que se pueden colocar dentro de su m
 
 * [[Image:Draft_Hatch.svg|32px]] [[Draft_Hatch|Hatch]]: Crea  tramas en las caras planas de un objeto seleccionado.
 
-* [[Image:Arch_Axis.svg|32px]] [[Arch_Axis|Eje]]: Añade una matriz de ejes de una dirección.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* <span id="BIM_AxisTools">Axis Tools:</span><!--Do not edit span id: the BIM_AxisTools pages redirect here-->
+</div>
 
+<div class="mw-translate-fuzzy">
+* [[Image:Arch_Axis.svg|32px]] [[Arch_Axis|Eje]]: Añade una matriz de ejes de una dirección.
+</div>
+
+<div class="mw-translate-fuzzy">
 * [[Image:Arch_AxisSystem.svg|32px]] [[Arch_AxisSystem|Sistema de Ejes]]: Añade un sistema de ejes compuesto por varios ejes.
+</div>
 
 * [[Image:Arch_Grid.svg|32px]] [[Arch_Grid|Cuadrícula]]: Añade un objeto cuadrícula.
 
 * [[Image:Arch_SectionPlane.svg|32px]] [[Arch_SectionPlane|Plano de Sección]]: Añade un objeto de plano de sección.
 
+<div class="mw-translate-fuzzy">
 * <span id="BIM_Create2DViews">[[Image:BIM_DrawingView.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] Crear vistas 2D:</span><!--Do not edit span id: the BIM_Create2DViews pages redirect here-->
+</div>
 
 :* [[Image:BIM_DrawingView.svg|32px]] [[BIM_DrawingView|Dibujo 2D]]: Crea un contenedor para almacenar proyecciones 2D.
 
@@ -243,27 +273,51 @@ Este menú contiene las herramientas  [[Draft_Snap|Encaje de Borrador]] así com
 
 * [[Image:Draft_Move.svg|32px]] [[Draft_Move|Mover]]: Mueve o copia los objetos seleccionados de un punto a otro.
 
-* [[Image:BIM_Copy.svg|32px]] [[BIM_Copy|Copiar]]: Copia los objetos seleccionados de un punto a otro.
-
 * [[Image:Draft_Rotate.svg|32px]] [[Draft_Rotate|Rotar]]: Gira o copia los objetos seleccionados alrededor de un punto central en un ángulo determinado.
 
+* [[Image:Draft_Scale.svg|32px]] [[Draft_Scale|Escala]]: Escala o copia los objetos seleccionados alrededor de un punto base.
+
+* [[Image:Draft_Mirror.svg|32px]] [[Draft_Mirror|Espejo]]: Crea copias especulares de los objetos seleccionados.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* <span id="BIM_CloneTools">Cloning Tools:</span><!--Do not edit span id: the BIM_CloneTools pages redirect here-->
+</div>
+
+<div class="mw-translate-fuzzy">
 * [[Image:BIM_Clone.svg|32px]] [[BIM_Clone|Clonar]]: Clona los objetos seleccionados.
+</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+:* [[Image:BIM_Link.svg|32px]] [[BIM_Link|Make Link]]: Links and moves selected objects. {{Version|1.2}}
+</div>
+
+* [[Image:BIM_Copy.svg|32px]] [[BIM_Copy|Copiar]]: Copia los objetos seleccionados de un punto a otro.
+
+<div class="mw-translate-fuzzy">
 * [[Image:BIM_SimpleCopy.svg|32px]] [[BIM_SimpleCopy|Crear Copia Simple]]: Crea una copia no paramétrica de un objeto seleccionado. Es la misma herramienta que [[Part_SimpleCopy|Part SimpleCopy]].
+</div>
 
+<div class="mw-translate-fuzzy">
 * [[Image:BIM_Compound.svg|32px]] [[BIM_Compound|Crear Compuesto]]: Crea un compuesto a partir de los objetos seleccionados. Es la misma herramienta que [[Part_Compound|Compuesto de Partes]].
+</div>
 
-* [[Image:Draft_Offset.svg|32px]] [[Draft_Offset|Desplazamiento]]: Desplaza cada segmento de un objeto seleccionado una distancia determinada o crea una copia desplazada del objeto seleccionado.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* <span id="BIM_OffsetTools">Offset Tools:<!--Do not edit span id: the BIM_OffsetTools pages redirect here-->
+</div>
 
+<div class="mw-translate-fuzzy">
 * [[Image:BIM_Offset2D.svg|32px]] [[BIM_Offset2D|Desplazamiento 2D...]]: Construye un cable paralelo a una distancia determinada del original, o amplía/reduce una cara plana (versión paramétrica). Es la misma herramienta que [[Part_Offset2D|Desplazamiento de Parte 2D]].
+</div>
+
+<div class="mw-translate-fuzzy">
+* [[Image:Draft_Offset.svg|32px]] [[Draft_Offset|Desplazamiento]]: Desplaza cada segmento de un objeto seleccionado una distancia determinada o crea una copia desplazada del objeto seleccionado.
+</div>
 
 * [[Image:Draft_Trimex.svg|32px]] [[Draft_Trimex|Trimex]]: Recorta o amplía un objeto seleccionado.
 
 * [[Image:Draft_Join.svg|32px]] [[Draft_Join|Unir]]: Une [[Draft_Line|Líneas de Borrador]] y [[Draft_Wire|Alambres de Borrador]] en un solo alambre.
 
 * [[Image:Draft_Split.svg|32px]] [[Draft_Split|Dividir]]: Divide una [[Draft_Line|Línea de Borrador]] o un [[Draft_Wire|Alambre de Borrador]] en un punto o borde especificado.
-
-* [[Image:Draft_Scale.svg|32px]] [[Draft_Scale|Escala]]: Escala o copia los objetos seleccionados alrededor de un punto base.
 
 * [[Image:Draft_Stretch.svg|32px]] [[Draft_Stretch|Estirar]]: Estira los objetos moviendo los puntos seleccionados.
 
@@ -277,44 +331,74 @@ Este menú contiene las herramientas  [[Draft_Snap|Encaje de Borrador]] así com
 
 * [[Image:Arch_Remove.svg|32px]] [[Arch_Remove|Eliminar componente]]: Resta o elimina objetos de un componente.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* <span id="BIM_ArrayTools">Array Tools:</span><!--Do not edit span id: the BIM_ArrayTools pages redirect here-->
+</div>
+
+<div class="mw-translate-fuzzy">
 * [[Image:Draft_OrthoArray.svg|32px]] [[Draft_OrthoArray|Matriz]]: Crea una matriz ortogonal a partir de un objeto seleccionado. Opcionalmente, puede crear una matriz [[App_Link|Link]]
+</div>
 
+<div class="mw-translate-fuzzy">
 * [[Image:Draft_PathArray.svg|32px]] [[Draft_PathArray|Matriz de Trazados]]: Crea una matriz a partir de un objeto seleccionado colocando copias a lo largo de un trazado.
+</div>
 
+<div class="mw-translate-fuzzy">
 * [[File:Draft_PolarArray.svg|32px]] [[Draft_PolarArray|Matriz Polar]]: Crea una matriz a partir de un objeto seleccionado colocando copias a lo largo de una circunferencia. Opcionalmente, puede crear una matriz [[App_Link|Link]].
+</div>
 
+<div class="mw-translate-fuzzy">
 * [[Image:Draft_PointArray.svg|32px]] [[Draft_PointArray|Matriz de Punto]]: Crea una matriz a partir de un objeto seleccionado colocando copias en los puntos de un compuesto de puntos.
+</div>
 
 * [[Image:Arch_CutPlane.svg|32px]] [[Arch_CutPlane|Cortar Con Plano]]: Corta un objeto según un plano.
 
-* [[Image:Draft_Mirror.svg|32px]] [[Draft_Mirror|Espejo]]: Crea copias especulares de los objetos seleccionados.
-
 * [[Image:BIM_Extrude.svg|32px]] [[BIM_Extrude|Extruir...]]: Extruye las caras planas de un objeto. Es la misma herramienta que [[Part_Extrude|Extruir Partes]].
 
-* [[Image:BIM_Cut.svg|32px]] [[BIM_Cut|Diferencia]]: Resta un objeto de otro. Es la misma herramienta que [[Part_Cut|Cortar Partes]].
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* <span id="BIM_BooleanTools">Boolean Tools:</span><!--Do not edit span id: the BIM_BooleanTools pages redirect here-->
+</div>
 
+<div class="mw-translate-fuzzy">
 * [[Image:BIM_Fuse.svg|32px]] [[BIM_Fuse|Unión]]: Fusiona dos objetos. Es la misma herramienta que [[Part_Fuse|Fusión de Partes]].
+</div>
 
+<div class="mw-translate-fuzzy">
+* [[Image:BIM_Cut.svg|32px]] [[BIM_Cut|Diferencia]]: Resta un objeto de otro. Es la misma herramienta que [[Part_Cut|Cortar Partes]].
+</div>
+
+<div class="mw-translate-fuzzy">
 * [[Image:BIM_Common.svg|32px]] [[BIM_Common|Intersección]]: Extrae la parte común de dos objetos. Es la misma herramienta que [[Part_Common|Parte Común]].
+</div>
 
 <span id="Manage"></span>
 === Administrar ===
 
 * [[Image:BIM_Setup.svg|32px]] [[BIM_Setup|Configuración BIM...]]: Configura algunas de las preferencias de FreeCAD más utilizadas para BIM.
 
-* [[Image:BIM_Views.svg|32px]] [[BIM_Views|Gestor de vistas]]: Gestione las diferentes vistas y niveles de su proyecto.
-
 * [[Image:BIM_ProjectManager.svg|32px]] [[BIM_ProjectManager|Gestionar proyecto...]]: Permite crear algunos objetos básicos, como un [[Arch_Site|Sitio]], un [[Arch_Building|Edificio]] y [[Arch_Axis|Ejes]], rellenando la información básica del proyecto.
 
 * [[Image:BIM_Windows.svg|32px]] [[BIM_Windows|Gestionar puertas y ventanas...]]: Gestiona las puertas y ventanas de tu proyecto.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* <span id="BIM_IfcManageTools">IFC Management:</span><!--Do not edit span id: the BIM_IfcManageTools pages redirect here-->
+</div>
+
+<div class="mw-translate-fuzzy">
 * [[Image:BIM_IfcElements.svg|32px]] [[BIM_IfcElements|Gestionar elementos IFC...]]: Gestiona cómo se exportarán los diferentes elementos de tu proyecto a IFC.
+</div>
 
+<div class="mw-translate-fuzzy">
 * [[Image:BIM_IfcQuantities.svg|32px]] [[BIM_IfcQuantities|Gestionar cantidades IFC...]]: Gestiona cómo se exportan explícitamente las cantidades de tus objetos a IFC.
+</div>
 
+<div class="mw-translate-fuzzy">
 * [[Image:BIM_IfcProperties.svg|32px]] [[BIM_IfcProperties|Gestionar propiedades IFC...]]: Gestiona las propiedades IFC asociadas a cada uno de tus objetos.
+</div>
 
+<div class="mw-translate-fuzzy">
 * [[Image:BIM_Classification.svg|32px]] [[BIM_Classification|Gestionar clasificación...]]: Gestiona cómo los objetos y materiales de tu proyecto se relacionan con sistemas de clasificación como [https://en.wikipedia.org/wiki/Uniclass Uniclass].
+</div>
 
 * [[Image:BIM_Layers.svg|32px]] [[BIM_Layers|Gestionar capas...]]: Gestiona las capas de tu documento.
 
