@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[BIM_Clone/de|Klonen]]
+|[[BIM_Copy/de|Kopieren]]
 |[[Arch_Remove/de|Entfernen]]
 |[[BIM_Workbench/de|BIM]]
 |IconL=BIM_Clone.svg
 |IconR=Arch_Remove.svg
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{GuiCommand/de
 |Name=Arch Add
@@ -75,16 +73,14 @@ FreeCAD.ActiveDocument.recompute()
 }}
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[BIM_Clone/de|Klonen]]
+|[[BIM_Copy/de|Kopieren]]
 |[[Arch_Remove/de|Entfernen]]
 |[[BIM_Workbench/de|BIM]]
 |IconL=BIM_Clone.svg
 |IconR=Arch_Remove.svg
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
