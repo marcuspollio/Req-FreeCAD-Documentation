@@ -80,6 +80,10 @@ Starting with FreeCAD 0.20, the following variables can be manually added to the
 <span id="Translate_the_FreeCAD_wiki"></span>
 == FreeCAD wikiの翻訳 ==
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{VeryImportantMessage|Check [https://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_administration#Changing_the_source_text this page] for important information on how to edit translatable text and handle the translation markers.}}
+</div>
+
 このwikiには様々の情報があり、その多くはマニュアルを構成しています。ドキュメンテーションを[[Main Page/ja|メインページ]]から閲覧できます。また、ユーザーマニュアルの[[Online Help Toc/ja|オンラインヘルプ目次]]からも読めます。
 
 Wikiを翻訳するには、編集権限が必要です。 [[Frequently_asked_questions#How can I get edit permission on the wiki?|wikiの編集権限を取得する方法]]を参照してください。
@@ -107,7 +111,7 @@ SourceForgeからwikiを移行した際、[[User:Yorik|Yorik]]は、翻訳ペー
 
 新しいコンテンツを追加するときは、英語版を最初に作り、その後で別の言語に翻訳しなければなりません。もしあるページの内容を修正あるいは追記したい場合、英語版のページの修正を先に行わなければなりません。
 
-翻訳をどう進めたらいいのかわからないときは、躊躇せず、[http://forum.freecadweb.org FreeCADフォーラム]の[https://forum.freecadweb.org/viewforum.php?f=21 Development → Wiki subforum]または[https://forum.freecadweb.org/viewforum.php?f=11 言語ごとのフォーラム]で質問してください。
+翻訳をどう進めたらいいのかわからないときは、躊躇せず、[http://forum.freecad.org FreeCADフォーラム]の[https://forum.freecad.org/viewforum.php?f=21 Development → Wiki subforum]または[https://forum.freecad.org/viewforum.php?f=11 言語ごとのフォーラム]で質問してください。
 
 <span id="Important_notes"></span>
 === 重要な注意事項 ===
