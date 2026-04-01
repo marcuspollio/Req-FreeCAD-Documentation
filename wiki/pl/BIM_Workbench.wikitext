@@ -296,17 +296,13 @@ To menu zawiera narzędzia [[Draft_Snap/pl|Przyciągania]] środowiska Rysunek R
 
 :* [[File:Draft_CircularArray.svg|32px]] [[Draft_CircularArray/pl|Szyk kołowy]]: Tworzy szyk z wybranego obiektu poprzez umieszczenie kopii wzdłuż obwodu okręgu. Opcjonalnie może utworzyć szyk [[App_Link/pl|Łączy]].
 
-<div class="mw-translate-fuzzy">
-* [[Image:Draft_PointArray.svg|32px]] [[Draft_PointArray/pl|Szyk z punktów]]: Tworzy szyk z wybranego obiektu poprzez umieszczenie kopii w punktach ze zbioru punktów.
-</div>
+:* [[Image:Draft_PointArray.svg|32px]] [[Draft_PointArray/pl|Szyk z punktów]]: Tworzy szyk z wybranego obiektu poprzez umieszczenie kopii w punktach ze zbioru punktów.
 
 * [[Image:Arch_CutPlane.svg|32px]] [[Arch_CutPlane/pl|Przetnij płaszczyzną]]: Przycina obiekt według płaszczyzny.
 
 * [[Image:BIM_Extrude.svg|32px]] [[BIM_Extrude/pl|Wyciągnięcie ...]]: Wyciąga płaskie powierzchnie obiektu. Jest to to samo narzędzie co [[Part_Extrude/pl|Wyciągnięcie]] środowiska Część.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 * <span id="BIM_BooleanTools">Boolean Tools:</span><!--Do not edit span id: the BIM_BooleanTools pages redirect here-->
-</div>
 
 <div class="mw-translate-fuzzy">
  [[Image:BIM_Fuse.svg|32px]] [[BIM_Fuse/pl|Połączenie]]: Łączy dwa obiekty. Jest to to samo narzędzie co [[Part_Fuse/pl|połącz]] środowiska Część.
