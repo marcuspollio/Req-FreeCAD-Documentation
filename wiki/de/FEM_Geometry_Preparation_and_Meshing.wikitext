@@ -251,9 +251,7 @@ Die Auswahl interner Bereiche (z. B. Flächen/Volumen) kann schwierig sein. Dies
 
 [[Image:Fem_references.PNG|800px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Manually editing the ''References'' property}}
-</div>
+{{Caption|Manuelles Bearbeiten der ''References''-Eigenschaft}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Version|1.1}}: If the selected face of CompSolid (Boolean fragments with CompSolid mode + Compound filter standard workflow described in the [[#Assembly_geometries|Assembly geometries]] section) belongs to two solids, a pop-up menu appears, allowing the selection of the proper solid.
