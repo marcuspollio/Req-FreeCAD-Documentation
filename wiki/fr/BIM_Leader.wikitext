@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[BIM_DimensionVertical/fr|Dimension verticale]]
 |[[Arch_Axis/fr|Axes]]
@@ -8,6 +9,7 @@
 |IconR=Arch_Axis.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/fr
 |Name=BIM Leader
@@ -42,6 +44,7 @@ L'outil [[Image:BIM_Leader.svg|24px]] [[BIM_Leader/fr|BIM Ligne de référence]]
 Cet outil est basé sur [[Draft_Wire/fr|Draft Polyligne]].
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[BIM_DimensionVertical/fr|Dimension verticale]]
 |[[Arch_Axis/fr|Axes]]
@@ -50,6 +53,7 @@ Cet outil est basé sur [[Draft_Wire/fr|Draft Polyligne]].
 |IconR=Arch_Axis.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
