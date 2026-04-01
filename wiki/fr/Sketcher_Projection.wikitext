@@ -21,7 +21,7 @@
 
 ==Description==
 
-L'outil [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection/fr|Sketcher Projection]] ({{Version/fr|1.1}}) crée une projection perpendiculaire des arêtes et/ou des sommets appartenant à des objets extérieurs à l'esquisse sur le plan de l'esquisse. La géométrie projetée est appelée "géométrie externe". Elle reste paramétriquement liée à ses objets sources. La géométrie externe est marquée par une [[Sketcher_Preferences/fr#Apparence|couleur]] (magenta par défaut) et un type de ligne dédiés. Il peut s'agir d'une géométrie de définition visible en dehors de l'esquisse ou d'une géométrie de construction non visible en dehors de l'esquisse.
+L'outil [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection/fr|Sketcher Projection]] ({{Version/fr|1.1}}) crée une projection perpendiculaire des arêtes et/ou des sommets appartenant à des objets extérieurs à l'esquisse sur le plan de l'esquisse. La géométrie projetée est appelée « géométrie externe ». Elle reste paramétriquement liée à ses objets sources. La géométrie externe est marquée par une [[Sketcher_Preferences/fr#Apparence|couleur]] (magenta par défaut) et un type de ligne dédiés. Il peut s'agir d'une géométrie de définition visible en dehors de l'esquisse ou d'une géométrie de construction non visible en dehors de l'esquisse.
 
 <span id="Usage"></span>
 ==Utilisation==
