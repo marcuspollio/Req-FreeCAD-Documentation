@@ -22,13 +22,10 @@
 <span id="Description"></span>
 ==Opis==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup|Sketcher ConstrainGroup]] tool constrains selected geometry together as a single entity. The position and size of the grouped geometry can be defined by constraining the automatically generated construction line.
-</div> 
+Narzędzie [[Image:Sketcher_ConstrainGroup.svg|24px]] [[Sketcher_ConstrainGroup/pl|Wiązanie grupy]] wiąże wybraną geometrię razem jako jeden obiekt. Pozycję i rozmiar zgrupowanej geometrii można zdefiniować wiążąc automatycznie wygenerowaną linię konstrukcyjną. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Użycie==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Select geometry in the sketch.
