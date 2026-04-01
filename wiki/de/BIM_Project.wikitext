@@ -9,14 +9,16 @@
 |IconC=Workbench_BIM.svg
 }}
 
-{{Docnav/de
-|[[Arch_Structure/de|Struktur]]
-|[[BIM_Preferences/de|Einstellungen]]
-|[[BIM_Workbench/de|BIM]]
-|IconL= Arch_Structure.svg
-|IconR= BIM_Preferences.svg
-|IconC=Workbench_BIM.svg
+<div class="mw-translate-fuzzy">
+{{GuiCommand/de
+|Name=BIM Project
+|Name/de=BIM Projekt
+|MenuLocation=3D/BIM → Projekt
+|Workbenches=[[BIM_Workbench/de|BIM]]
+|Shortcut=
+|SeeAlso=
 }}
+</div>
 
 <span id="Description"></span>
 ==Beschreibung==
