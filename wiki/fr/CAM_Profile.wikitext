@@ -119,6 +119,7 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 
 {{TitleProperty|Profile}}
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Direction}} : direction dans laquelle la trajectoire d'outil doit faire le tour de la pièce: dans le sens horaire [CW] ou dans le sens antihoraire [CCW].
 * {{PropertyData|Expand Profile}} : étend le détourage du profilage au-delà du décalage supplémentaire.
 * {{PropertyData|Expand Profile Step Over}} : définit le pourcentage des recouvrements entre les passes, en fonction du diamètre de l'outil.
@@ -129,6 +130,7 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 * {{PropertyData|Process Perimeter}} : vérifie si cette opération de contour doit également traiter le périmètre extérieur des formes géométriques de base.
 * {{PropertyData|Side}} : (couper le côté) côté du bord que l'outil doit couper. Cela n'a d'importance que si ''Utiliser la compensation'' est coché.
 * {{PropertyData|Use Compensation}} : si cette case est cochée, l'opération de contour est décalée du rayon de l'outil. La direction du décalage est déterminée par le côté de coupe.
+</div>
 
 {{TitleProperty|Rotation}}
 
