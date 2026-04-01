@@ -85,7 +85,6 @@ Hinweis: Es wird empfohlen, die Eigenschaft Placement von Pfadbearbeitungen nich
 
 {{TitleProperty|Pocket}}
 
-<div class="mw-translate-fuzzy">
 * {{PropertyData/de|Cut Mode}}: Legt eine Bewegung im Uhrzeigersinn oder gegen den Uhrzeigersinn für den Schnitt fest
 * {{PropertyData/de|Extra Offset}}: Zusätzlicher Versatz, der auf den Vorgang angewendet wird. Die Richtung ist vom Vorgang abhängig. (Zusätzlicher Wert, um vom endgültigen Profil ''gut für Schruppwerkzeugbahn'' entfernt zu bleiben)
 * {{PropertyData/de|Keep Tool Down}}: Versuche, unnötige Rücknahmen zu vermeiden.
@@ -94,7 +93,7 @@ Hinweis: Es wird empfohlen, die Eigenschaft Placement von Pfadbearbeitungen nich
 * {{PropertyData/de|Step Over}}: Den horizontalen Schritt ('''Prozent''' des Werkzeugdurchmessers: 100 % = Werkzeugdurchmesser) wählen.
 * {{PropertyData/de|Use Outline}}: Verwendet den Umriss der Basisgeometrie.
 * {{PropertyData/de|Zig Zag Angle}}: Winkel des Zickzackmusters. (Den Pfadwinkel relativ zur X-Achse auswählen.)
-</div>
+* {{PropertyData/de|SortingMode}}: Legt fest, wie mehrere ausgewählte Basisgeometrien angeordnet werden. {{Value|Automatic}} verwendet die automatische Sortierung. {{Value|Manual}} folgt der Reihenfolge der Auswahl.
 
 {{TitleProperty|Rotation}}
 
