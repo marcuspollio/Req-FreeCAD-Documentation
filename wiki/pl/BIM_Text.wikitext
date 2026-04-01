@@ -1,6 +1,7 @@
 <languages/>
 {{UnfinishedDocu{{#translation:}}}}
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[Arch_Reference/pl|Architektura: Odniesienie]]
 |[[BIM_DimensionAligned/pl|BIM: Wymiar dopasowany]]
@@ -9,6 +10,7 @@
 |IconR=BIM_DimensionAligned.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/pl
 |Name=BIM Text
@@ -35,6 +37,7 @@ Narzędzie '''BIM Tekst''' tworzy tekst - obiekt '''Text''' w bieżącym widoku 
 # ...
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[Arch_Reference/pl|Architektura: Odniesienie]]
 |[[BIM_DimensionAligned/pl|BIM: Wymiar dopasowany]]
@@ -43,6 +46,7 @@ Narzędzie '''BIM Tekst''' tworzy tekst - obiekt '''Text''' w bieżącym widoku 
 |IconR=BIM_DimensionAligned.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
