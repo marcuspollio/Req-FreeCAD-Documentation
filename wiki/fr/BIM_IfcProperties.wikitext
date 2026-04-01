@@ -39,7 +39,7 @@ FreeCAD.getResourceDir()
 
 L'ensemble des propriétés prédéfinies se trouve dans {{FileName|/Mod/BIM/Presets/pset_definitions.csv}}.
 
-Dans le fichier CSV, chaque ligne représente un ensemble de propriétés différent, commençant par le nom de l'ensemble et un nombre quelconque de paires Name;Type, définissant un nom de propriété et son type. Par exemple:
+Dans le fichier CSV, chaque ligne représente un ensemble de propriétés différent, commençant par le nom de l'ensemble et un nombre quelconque de paires Name;Type, définissant un nom de propriété et son type. Par exemple :
 
 {{Code|lang=text|code=
 Pset_FreeCAD;Name;IfcLabel;Version;IfcReal
