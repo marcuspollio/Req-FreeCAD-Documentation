@@ -264,9 +264,7 @@ Zbyt rzadka siatka to jedno z najczęstszych źródeł niedokładności i innych
 <span id="Choosing_element_type"></span>
 === Dobór typu elementów ===
 
-<div class="mw-translate-fuzzy">
-Wybór typu elementów skończonych nie jest łatwy i zależy od wielu czynników, ale ogólną zasadą jest to, że preferowane są elementy sześciościenne i czworokątne w stosunku do czworościennych i trójkątnych. Jednak skomplikowane geometrie nie mogą być dyskretyzowane przy pomocy elementów sześciościennych a FreeCAD nie potrafi ich porządnie generować ''(tylko przy pomocy algorytmu Subdivision generatora Gmsh, ale jego wyniki nie są tym, czego można by oczekiwać od siatki z elementami sześciościennymi)''. Siatki złożone z elementów czworokątnych lub z dominującymi elementami tego typu można normalnie generować na powierzchniach - zobacz [https://forum.freecad.org/viewtopic.php?t=20351 ten wątek na forum]. Elementy sześciościenne można zaimportować z zewnętrznych generatorów takich jak [https://gmsh.info Gmsh]  i wykorzystać w środowisku pracy MES, co pokazano w [https://www.youtube.com/watch?v=vylt24G7qj4&t=932s tym filmiku].
-</div>
+Wybór typu elementów skończonych nie jest łatwy i zależy od wielu czynników, ale ogólną zasadą jest to, że preferowane są elementy sześciościenne i czworokątne w stosunku do czworościennych i trójkątnych. Jednak skomplikowane geometrie nie mogą być dyskretyzowane przy pomocy elementów sześciościennych, a FreeCAD ma bardzo ograniczone możliwości ich generowania (zobacz sekcję [[#Siatki_hexa|Siatki hexa]] poniżej). Jednak siatki z elementami sześciościennymi można zaimportować z zewnętrznych generatorów takich jak [https://gmsh.info Gmsh] i wykorzystać w środowisku pracy MES, co pokazano w [https://www.youtube.com/watch?v=vylt24G7qj4&t=932s tym filmiku].
 
 <span id="Choosing_element_order"></span>
 === Dobór rzędu elementów ===
