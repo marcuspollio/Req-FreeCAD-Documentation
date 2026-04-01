@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[BIM_Setup/de|Einrichtung]]
 |[[BIM_ProjectManager/de|Projekt]]
@@ -8,13 +9,16 @@
 |IconR=BIM_ProjectManager.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=BIM Views
 |Name/de=BIM Ansichten
 |MenuLocation=Manage → Views manager
 |Workbenches=[[BIM_Workbench/de|BIM]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Beschreibung==
@@ -32,7 +36,9 @@ Dieses Fenster soll einen schnellen Zugriff auf die Ebenen- und Arbeitsebenenkon
 
 Der BIM Ansichtenverwalter zeigt alle Ebenen (Gebäudeteile) und Arbeitsebenen Proxys deines Dokuments an. Er kann an einer beliebigen Stelle in der FreeCAD Oberfläche angedockt oder in einem eigenständigen Fenster belassen werden. Gebäudeteile zeigen auch ihre Ebene an (die Z Koordinate ihrer Positionierung).
 
+<div class="mw-translate-fuzzy">
 * Drücken des Tastaturkürzels{{KEY|Strg}}+{{KEY|9}} oder der Schaltfläche '''Ansichten-Manager''' in der Statusleiste blendet den BIM-Ansichten-Manager ein bzw. aus.
+</div>
 
 <span id="Top_part"></span>
 ===Oberer Teil===
@@ -57,6 +63,7 @@ Der BIM Ansichtenverwalter zeigt alle Ebenen (Gebäudeteile) und Arbeitsebenen P
 * Durch Doppelklicken auf eine Seite wird die Seitenregisterkarte geöffnet oder aktiviert.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[BIM_Setup/de|Einrichtung]]
 |[[BIM_ProjectManager/de|Projekt]]
@@ -65,6 +72,7 @@ Der BIM Ansichtenverwalter zeigt alle Ebenen (Gebäudeteile) und Arbeitsebenen P
 |IconR=BIM_ProjectManager.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
