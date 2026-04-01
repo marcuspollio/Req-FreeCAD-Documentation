@@ -306,9 +306,8 @@ Die Wahl des Elementtyps ist nicht einfach und hängt von vielen Faktoren ab, ab
 
 Die Wahl der Elementordnung (erste oder zweite Ordnung) hängt von den Analysebedingungen ab, in den meisten Fällen werden jedoch Elemente zweiter Ordnung bevorzugt. Dies gilt insbesondere für dreieckige und tetraedrische Elemente – ihre linearen Versionen erster Ordnung werden normalerweise nicht für den regulären Gebrauch empfohlen und sollten nur als Füllelemente in Bereichen von geringer Bedeutung verwendet werden. Da FreeCAD jedoch keine hexaedrischen Elemente korrekt generieren kann, können in einigen Fällen lineare Tetraeder verwendet werden, wenn die Netze dicht genug sind. Insbesondere bei der Durchführung von Analysen mit [[FEM_ConstraintContact/de|Kontakt-Randbedingungen]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Quad and hex meshes ==
-</div>
+<span id="Quad_and_hex_meshes"></span>
+== Vier- und Sechseckgitter ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Quad meshes ===
