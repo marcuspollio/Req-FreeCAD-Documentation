@@ -9,15 +9,13 @@
 |IconC=Workbench_BIM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/pl
 |Name=BIM IfcElements
 |Name/pl=BIM: Edytuj właściwości IFC
-|MenuLocation=Zarządzanie → Menadżer elementów IFC
+|MenuLocation=Zarządzanie → Zarządzanie IFC → Zarządzaj elementami IFC
 |Workbenches=[[BIM_Workbench/pl|BIM]]
 |SeeAlso=
 }}
-</div>
 
 <span id="Description"></span>
 ==Opis==
