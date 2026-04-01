@@ -1,13 +1,15 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
-|[[BIM_SetWPFront/pl|BIM: Płaszczyzna robocza z przodu]]
+|[[BIM_SetWPTop/pl|BIM: Płaszczyzna robocza z góry]]
 |[[BIM_Copy/pl|BIM: Kopia]]
 |[[BIM_Workbench/pl|środowisko pracy BIM]]
-|IconL=BIM_SetWPFront.svg
+|IconL=BIM_SetWPTop.svg
 |IconR=BIM_Copy.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/pl
 |Name=BIM SetWPSide
@@ -33,14 +35,16 @@ Narzędzie [[Image:BIM_SetWPSide.svg|24px]] [[BIM_SetWPSide/pl|BIM: Płaszczyzna
 #* Użyj skrótu klawiszowego: {{KEY|W}} następnie {{KEY|P}}, a potem {{KEY|3}}.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
-|[[BIM_SetWPFront/pl|BIM: Płaszczyzna robocza z przodu]]
+|[[BIM_SetWPTop/pl|BIM: Płaszczyzna robocza z góry]]
 |[[BIM_Copy/pl|BIM: Kopia]]
 |[[BIM_Workbench/pl|środowisko pracy BIM]]
-|IconL=BIM_SetWPFront.svg
+|IconL=BIM_SetWPTop.svg
 |IconR=BIM_Copy.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
