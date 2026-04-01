@@ -45,7 +45,7 @@ Dans le fichier CSV, chaque ligne représente un ensemble de propriétés diffé
 Pset_FreeCAD;Name;IfcLabel;Version;IfcReal
 }}
 
-Cela définirait un ensemble de propriétés nommé "FreeCAD" (le préfixe "Pset_" n'est pas obligatoire mais est une pratique courante) qui contient deux propriétés: une appelée "Name" qui est un IfcLabel (un morceau de texte) et une autre appelée "Version" qui est un IfcReal (une valeur numérique avec des décimales).
+Cela définirait un ensemble de propriétés nommé « FreeCAD » (le préfixe « Pset_ » n'est pas obligatoire mais est une pratique courante) qui contient deux propriétés: une appelée « Name » qui est un IfcLabel (un morceau de texte) et une autre appelée « Version » qui est un IfcReal (une valeur numérique avec des décimales).
 
 Vous pouvez ajouter un fichier csv personnalisé contenant vos propres ensembles de propriétés. Ce fichier doit être nommé CustomPsets.csv et être placé dans {{FileName|$USERAPPDATA/BIM}}.
 
