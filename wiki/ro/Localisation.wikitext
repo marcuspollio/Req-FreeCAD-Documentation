@@ -89,6 +89,10 @@ Starting with FreeCAD 0.20, the following variables can be manually added to the
 <span id="Translate_the_FreeCAD_wiki"></span>
 == Tranducere FreeCAD wiki ==
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{VeryImportantMessage|Check [https://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_administration#Changing_the_source_text this page] for important information on how to edit translatable text and handle the translation markers.}}
+</div>
+
 <div class="mw-translate-fuzzy">
 Acest wiki găzduiește o multitudine de conținuturi, majoritatea cărora construiesc manualul. Puteți căuta documentația pornind de la [[Main Page]], or have a look at the User's manual [[Online Help Toc]].
 </div>
@@ -129,9 +133,7 @@ Dacă mergeți la [[Main Page/de]], veți observa că nu mai puteți edita direc
 
 Când se adaugă conținut nou, pagina de engleză  trebuie creată mai întâi, apoi tradusă în altă limbă. Dacă cineva dorește să schimbe sau să adauge conținut într-o pagină, pagina în limba Engleză ar trebui să fie prima modificată.
 
-<div class="mw-translate-fuzzy">
-Dacă nu sunteți siguri cum să continuați cu traducerile, nu ezitați să cereți ajutor în subforumul Develpment/Wiki sau în subforumuol specific al limbii în [http://forum.freecadweb.org FreeCAD forum].
-</div>
+Dacă nu sunteți siguri cum să continuați cu traducerile, nu ezitați să cereți ajutor în subforumul Develpment/Wiki sau în subforumuol specific al limbii în [http://forum.freecad.org FreeCAD forum].
 
 <span id="Important_notes"></span>
 ===Note Importante===
@@ -160,13 +162,12 @@ As per general consensus, the reference page in the wiki is the English page, wh
 <span id="Old_translation_instructions"></span>
 ===Instrucțiuni pentru Vechile traduceri===
 
-<div class="mw-translate-fuzzy">
 {| class = ''mw-collapsible mw-collapsed wikitable''|
 Aceste instrucțiuni sunt doar pentru istoricul istoric. Traducerile ar trebui să utilizeze noul sistem cu extensia [[#Translation extension]]
  descrisă mai sus.
 | -|
 Deci, primul pas este '''să verificați dacă traducerea manuală a fost deja pornită pentru limba dvs. ''' (vedeți în bara laterală stângă, sub "manual"). <br/>
-Dacă nu, mergeți la [http://forum.freecadweb.org/ forum] și spuneți că doriți să începeți o nouă traducere, 
+Dacă nu, mergeți la [http://forum.freecad.org/ forum] și spuneți că doriți să începeți o nouă traducere, 
 vom crea setările de bază pentru limba în care doriți să lucrați. <br/>
 Trebuie apoi să obțineți [[FAQ # How_can_I_get_edit_permission_on_the_wiki.3F | gain wiki permission edit]]. <br/>
 Dacă limba dvs. este deja listată, vedeți în ce pagini încă lipsește o traducere (acestea vor fi listate în roșu). Tehnica este simplă: '''intrați  într-o pagină roșie și copiați / inserați conținutul paginii engleză corespunzătoare și începeți să traduceți'''.<br/>
@@ -186,7 +187,6 @@ Dacă doriți ca șablonul Docnav să afișeze pagini legate în limba dvs., put
   <nowiki>{{docnav/fr|Bienvenue sur l'aide en ligne|Fonctionnalités}}</nowiki>
 Pagina "Bienvenue sur l'aide en ligne" se redirecționează către pagina Online Help Startpage/fr, iar pagina "Fonctionalités" redirecționează către Feature list/fr.
 |}
-</div>
 
 <span id="Translate_the_FreeCAD_website"></span>
 <div class="mw-translate-fuzzy">
@@ -247,11 +247,9 @@ Totul după acest lucru este automat în ceea ce privește un dezvoltator. Admin
 </div>
 
 <span id="Preparing_your_3rd_party_module_or_macro_for_translation"></span>
-<div class="mw-translate-fuzzy">
 === Pregătirea modulului de la o terță parte sau a unei macro pentru traducere ===
 Modulele sau macro-urile de la terțe părți sunt traduse în aceeași manieră, cu excepția faptului că trebuie să faceți o parte din munca dumneavoastră.
-Această adresă [https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180 forum discussion]  descrie detaliile.
-</div>
+Această adresă [https://www.forum.freecad.org/viewtopic.php?f=3&t=25180 forum discussion]  descrie detaliile.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 3rd party modules or macros are translated in much the same fashion, except that you must do some of the work yourself.
