@@ -231,13 +231,12 @@ Takie błędy są wywołane brakującymi lub nakładającymi się definicjami ma
 <span id="Selection_of_interior_entities"></span>
 === Wybieranie wewnętrznych obiektów ===
 
-<div class="mw-translate-fuzzy">
-Wskazywanie wewnętrznych obszarów ''(np. ścian / objętości)'' bywa problematyczne. Może być konieczne do zdefiniowania różnych materiałów, obciążeń objętościowych lub warunków brzegowych ''(zwłaszcza w analizach termicznych i elektromagnetycznych)''. Istnieje kilka sposobów:
+Wskazywanie wewnętrznych obszarów ''(np. ścian / objętości)'' bywa problematyczne. Może być konieczne do zdefiniowania różnych materiałów, obciążeń objętościowych lub warunków brzegowych ''(zwłaszcza w analizach termicznych i elektromagnetycznych z rdzeniami/wtrąceniami lub zewnętrznymi domenami płynu)''. Istnieje kilka sposobów:
+* {{Version/pl|1.1}}: użycie narzędzia [[Std_ClarifySelection/pl|Określ zaznaczenie]] - obecnie najprostszy sposób,
 * włączenie [[Std_ToggleClipPlane/pl|płaszczyzny tnącej]] na czas dokonywania wskazania i wybranie wewnętrznych ścian,
 * schowanie obiektu boolowskiego, zostawiając pokazaną tylko jedną z części, na których został on zastosowany i wybranie jej,
-* [[Std_ToggleTransparency/pl|włączenie przezroczystości]] i użycie [[Selection_view/pl|Widoku wyboru]] z zaznaczoną opcją ''Picked object list'' jak opisano [https://forum.freecad.org/viewtopic.php?t=96984#p826693 tutaj],
-* wybranie innego, zewnętrznego obiektu i edycja właściwości ''References'' w zakładce ''Dane'' określonej cechy analizy ''(wymaga ręcznego podania numeru obiektu geometrycznego)''.
-</div>
+* [[Std_ToggleTransparency/pl|włączenie przezroczystości]] i użycie [[Selection_View/pl|Widoku wyboru]] z zaznaczoną opcją ''Picked object list'' jak opisano [https://forum.freecad.org/viewtopic.php?t=96984#p826693 tutaj],
+* wybranie innego, zewnętrznego obiektu i edycja właściwości ''References'' w zakładce ''Dane'' określonej cechy analizy ''(wymaga ręcznego podania nazwy i numeru obiektu geometrycznego - upewnij się, że wiersz odpowiadający temu obiektowi jest nadal podświetlony i żadne niepożądane obiekty nie są podświetlone po wpisaniu nazwy z numerem i kliknij na nim, jeśli nie jest podświetlony przed potwierdzeniem przyciskiem OK).''.
 
 [[Image:Fem_references.PNG|800px]]
 
