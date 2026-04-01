@@ -61,6 +61,10 @@ A partir de FreeCAD 0.20, les variables suivantes peuvent être ajoutées manuel
 <span id="Translate_the_FreeCAD_wiki"></span>
 == Traduire le wiki FreeCAD ==
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{VeryImportantMessage|Check [https://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_administration#Changing_the_source_text this page] for important information on how to edit translatable text and handle the translation markers.}}
+</div>
+
 Ce wiki héberge un contenu volumineux, dont l'essentiel sert à produire le manuel. Vous pouvez naviguer dans la documentation à partir de la [[Main_Page/fr|page principale]] ou consulter la [[Online_Help_Toc/fr|table des matières]] du guide de l'utilisateur.
 
 Pour pouvoir traduire le wiki, vous devez bien sûr [[Frequently_asked_questions/fr#Comment_puis-je_obtenir_les_droits_pour_modifier_le_wiki_.3F|obtenir les droits d'édition au wiki]].
@@ -128,7 +132,7 @@ Quatre modèles sont couramment utilisés dans les pages de manuel. Ces 4 modèl
 Veuillez noter que, en raison des limitations de l'implémentation du moteur MediaWiki par Sourceforge, nous exigeons que vos pages conservent toutes le nom de leur homologue anglais d'origine, en ajoutant une barre oblique et votre code de langue. Par exemple, la page traduite pour À propos de FreeCAD devrait être About FreeCAD/es pour l’espagnol, About FreeCAD/pl pour le polonais, etc. saura à quoi servent ces pages. Cela facilitera la maintenance et évitera les pages perdues. <br />
 Si vous souhaitez que le modèle Docnav affiche les pages liées dans votre langue, vous pouvez utiliser les '''pages de redirection'''. Elles sont essentiellement des liens de raccourci vers la page réelle. Voici un exemple avec la page française de About FreeCAD. <br />
 * La page About_FreeCAD/fr est la page avec le contenu
-* La page About_FreeCAD contient ce code:
+* La page About_FreeCAD contient ce code :
  <nowiki> #REDIRECT [[About_FreeCAD/fr]] </nowiki>
 * Dans la page About FreeCAD/fr, le code Docnav ressemblera à ceci :
  <nowiki>{{docnav/fr|[[Online_Help_Startpage/fr|Aide en ligne]]|[[Feature_list/fr|Fonctionnalités]]}}</nowiki>
