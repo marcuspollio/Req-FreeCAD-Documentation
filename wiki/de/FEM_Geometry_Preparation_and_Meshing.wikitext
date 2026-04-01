@@ -26,9 +26,7 @@ Die Vorbereitung der Geometrie und die Vernetzung sind entscheidende Bestandteil
 
 Während die meisten Konstruktionen aus Volumenkörpern bestehen, wird für FEM häufig dringend empfohlen, Linienzüge oder Flächen zu verwenden, wenn die Struktur dies zulässt.
 
-<div class="mw-translate-fuzzy">
-Man sollte bedenken, dass die in CalculiX verwendeten Balken-, Schalen-, ebenen Spannungs-/Dehnungs- und achsensymmetrischen Elemente keine echten Elemente dieser Art sind (sie verwenden nicht die aus der Literatur und anderer Software bekannten klassischen Elementformulierungen) – sie werden intern zu Volumenkörpern erweitert. Dennoch wird ihre Verwendung in den oben genannten Fällen empfohlen.
-</div>
+Man sollte bedenken, dass die im Folgenden behandelten Balken-, Schalen-, ebenen Spannungs-/Dehnungs- und achsensymmetrischen Elemente, sofern sie in CalculiX verwendet werden, keine echten Elemente dieser Art sind (sie verwenden nicht die klassischen Elementformulierungen, wie sie aus der Literatur und anderer Software bekannt sind) – sie werden intern zu Volumenelementen expandiert. Dennoch wird ihre Verwendung in den oben genannten Fällen empfohlen, auch in CalculiX.
 
 <span id="Beam_models"></span>
 === Trägermodelle ===
