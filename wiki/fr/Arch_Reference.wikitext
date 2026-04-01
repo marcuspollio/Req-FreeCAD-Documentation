@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Arch_Component/fr|Composant]]
 |[[BIM_Text/fr|Texte]]
@@ -8,6 +9,7 @@
 |IconR=BIM_Text.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/fr
 |Name=Arch Reference
@@ -65,6 +67,7 @@ Arch.makeReference("/path/to/some/file.FSCtd", "myPart")
 }}
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Arch_Component/fr|Composant]]
 |[[BIM_Text/fr|Texte]]
@@ -73,6 +76,7 @@ Arch.makeReference("/path/to/some/file.FSCtd", "myPart")
 |IconR=BIM_Text.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
