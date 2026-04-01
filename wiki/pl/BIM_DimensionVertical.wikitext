@@ -1,6 +1,7 @@
 <languages/>
 {{UnfinishedDocu{{#translation:}}}}
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[BIM_DimensionHorizontal/pl|BIM: Wymiar poziomy]]
 |[[BIM_Leader/pl|BIM: Linia odniesienia]]
@@ -9,6 +10,7 @@
 |IconR=BIM_Leader.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommand/pl
 |Name=BIM DimensionVertical
@@ -35,6 +37,7 @@ Narzędzie [[Image:BIM_DimensionVertical.svg|24px]] [[BIM_DimensionVertical/pl|B
 # ...
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[BIM_DimensionHorizontal/pl|BIM: Wymiar poziomy]]
 |[[BIM_Leader/pl|BIM: Linia odniesienia]]
@@ -43,6 +46,7 @@ Narzędzie [[Image:BIM_DimensionVertical.svg|24px]] [[BIM_DimensionVertical/pl|B
 |IconR=BIM_Leader.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
