@@ -360,9 +360,7 @@ obj = App.ActiveDocument.addObject("App::LinkPython", "Link")
 obj.Label = "Custom label"
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Property shadowing example. The {{incode|appLinkExecute}} function is executed when the Link is recomputed.
-</div>
+Beispiel: Schattieren von Eigenschaften. Die {{incode|appLinkExecute}}-Funktion wird ausgeführt, wenn der Link neu berechnet wird.
 
 {{Code|code=
 def appLinkExecute(self, obj, linkObj, index, linkElement)
