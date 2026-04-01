@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[BIM_SetWPSide/de|ArbeitsebeneSeitenriss]]
-|[[BIM_Clone/de|Klonen]]
-|[[BIM_Workbench/de|BIM]]
-|IconL=BIM_SetWPSide.svg
-|IconR=BIM_Clone.svg
+|[[BIM_Link/de|Verknüpfung]]
+|[[Arch_Add|Add]]
+|[[BIM_Workbench|BIM]]
+|IconL=BIM_Link.svg
+|IconR=Arch_Add.svg
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{GuiCommand/de
 |Name=BIM Copy
@@ -25,16 +23,14 @@
 Das Werkzeug [[Image:BIM_Copy.svg|24px]] [[BIM_Copy/de|BIM Kopieren]] ist eine Abkürzung zum Standardwerkzeug [[Draft_Move/de|Draft Verschieben]], startet aber mit aktivierter Option '''Kopieren''', die es ermöglicht, in einem Arbeitsgang eine Kopie eines Objekts zu erstellen und an einer bestimmten Stelle zu platzieren.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[BIM_SetWPSide/de|ArbeitsebeneSeitenriss]]
-|[[BIM_Clone/de|Klonen]]
-|[[BIM_Workbench/de|BIM]]
-|IconL=BIM_SetWPSide.svg
-|IconR=BIM_Clone.svg
+|[[BIM_Link/de|Verknüpfung]]
+|[[Arch_Add|Add]]
+|[[BIM_Workbench|BIM]]
+|IconL=BIM_Link.svg
+|IconR=Arch_Add.svg
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
