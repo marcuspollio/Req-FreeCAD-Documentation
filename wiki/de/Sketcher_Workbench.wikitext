@@ -251,9 +251,7 @@ Dies sind Werkzeuge zum Erstellen von [[#Randbedingungen|Randbedingungen]]. Eini
 
 * [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock/de|Unbeweglich festlegen]]: Setzt Kanten mit einer einzigen Randbedingung in ihrer aktuellen Lage fest. Es ist hauptsächlich für B-Spines gedacht.
 
-<div class="mw-translate-fuzzy">
-* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Gruppiert ausgewählte Geometrien. {{Version/de|1.2}}
-</div>
+* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup/de|Group Constraint]]: Gruppiert ausgewählte Geometrie. {{Version/de|1.2}}
 
 * [[File:Sketcher_ConstrainSnellsLaw.svg|32px]] [[Sketcher ConstrainSnellsLaw/de|Lichtbrechung festlegen]]: Legt zwei Linien so fest, dass ihr Verlauf der Lichtbrechung entspricht, die beim Passieren einer Grenzfläche auftritt.
 
