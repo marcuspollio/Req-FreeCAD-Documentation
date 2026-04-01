@@ -1,11 +1,11 @@
 <languages/>
 
 {{Docnav
-|[[BIM_SetWPFront|SetWPFront]]
-|[[BIM_Copy|Copy]]
+|[[BIM_SetWPTop|SetWPTop]]
+|[[BIM_Clone|Clone]]
 |[[BIM_Workbench|BIM]]
-|IconL=BIM_SetWPFront.svg
-|IconR=BIM_Copy.svg
+|IconL=BIM_SetWPTop.svg
+|IconR=BIM_Clone.svg
 |IconC=Workbench_BIM.svg
 }}
 
@@ -20,22 +20,22 @@
 
 == Description ==
 
-The [[Image:BIM_SetWPSide.svg|24px]] [[BIM_SetWPSide|BIM SetWPSide]] tool places the working plane on the global YZ plane (side).
+The [[Image:BIM_SetWPSide.svg|24px]] [[BIM_SetWPSide|BIM SetWPSide]] tool places the working plane on the global YZ-plane (side).
 
 ==Usage==
 
 # There are several ways to invoke the tool:
 #* Select the {{MenuCommand|Snapping → [[Image:BIM_SetWPSide.svg|16px]] Working Plane Side}} option from the menu.
-#* Right-click in the [[3D_view|3D view]] and select the {{MenuCommand|Snapping → [[Image:BIM_SetWPSide.svg|16px]] Working Plane Side}} option from the context menu.
+#* Right-click in the [[3D_View|3D View]] and select the {{MenuCommand|Snapping → [[Image:BIM_SetWPSide.svg|16px]] Working Plane Side}} option from the context menu.
 #* Use the keyboard shortcut: {{KEY|W}} then {{KEY|P}}, then {{KEY|3}}.
 
 
 {{Docnav
-|[[BIM_SetWPFront|SetWPFront]]
-|[[BIM_Copy|Copy]]
+|[[BIM_SetWPTop|SetWPTop]]
+|[[BIM_Clone|Clone]]
 |[[BIM_Workbench|BIM]]
-|IconL=BIM_SetWPFront.svg
-|IconR=BIM_Copy.svg
+|IconL=BIM_SetWPTop.svg
+|IconR=BIM_Clone.svg
 |IconC=Workbench_BIM.svg
 }}
 
