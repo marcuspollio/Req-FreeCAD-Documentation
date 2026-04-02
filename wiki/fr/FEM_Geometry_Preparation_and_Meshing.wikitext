@@ -289,7 +289,7 @@ Les éléments quadrilatéraux peuvent être générés sur des géométries de 
 == Maillages hexa ==
 
 Il est possible de générer des maillages hexaédriques sur des géométries volumiques à l'aide de ces deux générateurs de maillage, mais avec certaines limitations importantes :
-* [[FEM_MeshGmshFromShape/fr|Gmsh]] : définir la propriété {{PropertyData|Subdivision Algorithm}} sur ''All Hexahedra', cependant, les éléments obtenus ne présentent pas la forme attendue pour les maillages hexaédriques utilisés en pratique,
+* [[FEM_MeshGmshFromShape/fr|Gmsh]] : définir la propriété {{PropertyData|Subdivision Algorithm}} sur ''All Hexahedra'', cependant, les éléments obtenus ne présentent pas la forme attendue pour les maillages hexaédriques utilisés en pratique,
 * [[FEM_MeshGmshFromShape/fr|Netgen]] : pour les formes extrudées simples, des maillages hexaédriques ou à dominance hexaédrique peuvent être créés par extrusion si la propriété {{PropertyData|Quad Dominated}} est activée et si la propriété {{PropertyData|ZRefine}} est définie sur ''Regular'' (''Custom'' nécessite de spécifier la hauteur de chaque élément dans la direction d'extrusion). La direction d'extrusion peut être modifiée par rapport à la valeur par défaut Z à l'aide de la propriété {{PropertyData|ZRefine Direction}}. La hauteur des éléments peut être spécifiée sous forme de fraction de la hauteur totale à l'aide de la propriété {{PropertyData|ZRefine Size}}. Cette approche ne fonctionne que pour les maillages de premier ordre (à moins que les éléments générés ne soient tous des hexaèdres). {{Version/fr|1.1}}
 
 [[Image:Z_refine.PNG|400px]]
