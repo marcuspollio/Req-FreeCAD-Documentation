@@ -197,9 +197,7 @@ CAM 检查器：
 <span id="Specialty_Operations"></span>
 === 特殊加工 ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:CAM_ThreadMilling.svg|32px]] [[CAM_ThreadMilling|Thread Milling]]: Creates a CAM Thread Milling operation from features of a base object. [[CAM_experimental|{{Emphasis|Experimental}}]].
-</div>
+* [[Image:CAM_ThreadMilling.svg|32px]] [[CAM_ThreadMilling|螺纹铣削]]：根据基础对象特征创建 CAM 螺纹铣削工序。[[CAM_experimental|{{Emphasis|实验性功能}}]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Miscellaneous ===
