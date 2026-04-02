@@ -49,7 +49,7 @@ Les post-processeurs contiennent des indicateurs de configuration et sont conçu
 *Refroidissement activé/désactivé
 *Etc...
 
-Les post-processeurs utilisent le [CAM_scripting/fr#Le_format_G-code_interne_de_FreeCAD|dialecte G-code interne de FreeCAD] en conjonction avec les définitions de configuration du post-processeur, afin de générer un G-code correct du point de vue dialectal pour les machines cibles. Cela permet à l'atelier CAM de générer du G-code correct pour cibler différents contrôleurs de machines CNC en appelant différents post-processeurs.
+Les post-processeurs utilisent le [[CAM_scripting/fr#Le_format_G-code_interne_de_FreeCAD|G-code interne de FreeCAD]] en conjonction avec les définitions de configuration du post-processeur, afin de générer un G-code correct du point de vue dialectal pour les machines cibles. Cela permet à l'atelier CAM de générer du G-code correct pour cibler différents contrôleurs de machines CNC en appelant différents post-processeurs.
 
 Les types de contrôleur de machine CNC comprennent :
 * Fraiseuses CNC
