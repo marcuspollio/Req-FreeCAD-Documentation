@@ -13,15 +13,15 @@ Workbench Draft của FreeCAD đóng vai trò là cầu nối giữa vẽ 2D và
 
 Một trong những điểm mạnh của Workbench Draft là bộ công cụ toàn diện, bao gồm cả các công cụ vẽ cơ bản và các công cụ hiệu chỉnh nâng cao. Những công cụ này không chỉ dùng cho vẽ 2D mà còn để thao tác các đối tượng trong không gian 3D. Bạn có thể thiết lập mặt phẳng làm việc, định nghĩa lưới và áp dụng các ràng buộc để đảm bảo các mối quan hệ hình học luôn được duy trì trong thiết kế của bạn. Các đối tượng Draft có thể được sửa đổi và định vị lại bằng các chế độ bắt điểm (snapping) và nhiều loại ràng buộc khác nhau, giúp việc vẽ chính xác trở nên dễ dàng hơn.
 
-Some of the tools found in the Draft Workbench:
-# Drawing Tools:
-* [[Image:Draft_Line.svg|16px]] [[Draft_Line|Line]],  [[Image:Draft_Wire.svg|16px]] [[Draft_Wire|Wire]] (polyline): These tools allow for creating straight line segments or continuous polylines, which can be constrained and converted into 3D shapes.
-*[[Image:Draft_Circle.svg|16px]] [[Draft_Circle|Circle]], [[Image:Draft_Ellipse.svg|16px]] [[Draft_Ellipse|Ellipse]], and [[Image:Draft_Arc.svg|16px]] [[Draft_Arc|Arc]]: Used to define basic circular and elliptical shapes, with options for further manipulation.
-# Manipulation Tools:
-* [[Image:Draft_Move.svg|16px]] [[Draft_Move|Move]], [[Image:Draft_Rotate.svg|16px]] [[Draft_Rotate|Rotate]] or [[Image:Draft_Scale.svg|16px]] [[Draft_Scale|Scale]]: These operations work in 3D as well as 2D, offering flexibility in positioning objects.
-* [[Image:Draft_Offset.svg|16px]] [[Draft_Offset|Offset]]:  Similar to traditional CAD systems, this allows you to create parallel lines or curves.
-* [[Image:Draft_Trimex.svg|16px]] [[Draft_Trimex|Trimex]] and [[Image:Draft_Stretch.svg|16px]] [[Draft_Stretch|Stretch]]: Modify lines and shapes by trimming or extending them to intersect or meet other objects.
-* [[Image:Draft_Mirror.svg|16px]] [[Draft_Mirror|Mirror]] and [[Image:Draft_Array.svg|16px]] [[Draft_Array|Array]]: These tools replicate and pattern objects, ideal for repetitive components.
+Một số công cụ trong Workbench Draft:
+# Công cụ Vẽ:
+* [[Image:Draft_Line.svg|16px]] [[Draft_Line|Đường thẳng (Line)]],  [[Image:Draft_Wire.svg|16px]] [[Draft_Wire|Đường gấp khúc (Wire/]]polyline): Cho phép tạo các đoạn thẳng hoặc đường gấp khúc liên tục, có thể bị ràng buộc và chuyển đổi thành hình khối 3D.
+*[[Image:Draft_Circle.svg|16px]] [[Draft_Circle|Vòng tròn (Circle)]], [[Image:Draft_Ellipse.svg|16px]] [[Draft_Ellipse|Hình elip (Ellipse)]], and [[Image:Draft_Arc.svg|16px]] [[Draft_Arc|Cung tròn (Arc)]]: Dùng để định nghĩa các hình dạng tròn và elip cơ bản, với các tùy chọn để thao tác thêm.
+# Công cụ Thao tác:
+* [[Image:Draft_Move.svg|16px]] [[Draft_Move|Di chuyển (Move)]], [[Image:Draft_Rotate.svg|16px]] [[Draft_Rotate|Xoay (Rotate)]] hoặc [[Image:Draft_Scale.svg|16px]] [[Draft_Scale|Kích cỡ (Scale)]]: Các thao tác này hoạt động cả trong 3D lẫn 2D, mang lại sự linh hoạt trong việc định vị đối tượng.
+* [[Image:Draft_Offset.svg|16px]] [[Draft_Offset|Dịch chuyển song song (Offset)]]:  Tương tự như các hệ thống CAD truyền thống, cho phép tạo các đường thẳng hoặc đường cong song song.
+* [[Image:Draft_Trimex.svg|16px]] [[Draft_Trimex|Cắt/Nối dài (Trimex)]] và [[Image:Draft_Stretch.svg|16px]] [[Draft_Stretch|Kéo giãn (Stretch)]]: Sửa đổi các đường và hình dạng bằng cách cắt ngắn hoặc kéo dài chúng để giao cắt hoặc gặp các đối tượng khác.
+* [[Image:Draft_Mirror.svg|16px]] [[Draft_Mirror|Đối xứng gương (Mirror)]] và [[Image:Draft_Array.svg|16px]] [[Draft_Array|Mảng (Array)]]: Các công cụ này sao chép và tạo mẫu các đối tượng, lý tưởng cho các thành phần lặp lại.
 
 The snapping system in FreeCAD’s Draft Workbench is designed for precision. Whether working in 2D or 3D, you can snap to critical points like endpoints, midpoints, and centers of circles, making it easy to position elements relative to one another. Modes such as perpendicular, tangent, and intersection snapping further enhance precision. Combined with the working plane and grid system, these tools ensure the accurate alignment of objects and components.
 
