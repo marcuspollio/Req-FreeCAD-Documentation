@@ -245,9 +245,7 @@ Die Auswahl interner Bereiche (z. B. Flächen/Volumen) kann schwierig sein. Dies
 
 {{Caption|Manuelles Bearbeiten der ''References''-Eigenschaft}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.1}}: If the selected face of CompSolid (Boolean fragments with CompSolid mode + Compound filter standard workflow described in the [[#Assembly_geometries|Assembly geometries]] section) belongs to two solids, a pop-up menu appears, allowing the selection of the proper solid.
-</div>
+{{Version/de|1.1}}: Wenn die ausgewählte Fläche von CompSolid (boolesche Fragmente im CompSolid-Modus + Compound-Filter, Standard-Arbeitsablauf wie im Abschnitt [[#Assembly_geometries|Baugruppengeometrien]] beschrieben) zu zwei Volumenkörpern gehört, erscheint ein Popup-Menü, in dem der richtige Volumenkörper ausgewählt werden kann.
 
 <span id="Meshing_basics"></span>
 ==Grundlagen der Vernetzung==
