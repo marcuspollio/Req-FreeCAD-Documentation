@@ -10,12 +10,10 @@ L'[[File:Defeaturing_workbench_icon.svg|24px]] [[Defeaturing Workbench/fr|Atelie
 <span id="Features"></span>
 == Fonctions ==
 
-<div class="mw-translate-fuzzy">
 * Il comprend un ensemble d'outils pour modifier une forme ou un modèle STEP en supprimant de(s) trou(s), de(s) face(s), en simplifiant le modèle, en modifiant la tolérance, en appliquant des opérations booléennes floues, etc.
 * Il y a aussi des outils pour créer des formes plus solides, à partir d'arête(s), de face(s) ou de coque(s).
 * Il est également possible d'utiliser la modélisation directe du modèle, lorsque l'historique des opérations n'est pas disponible. (C'est le cas pour les modèles 3D STEP).
 * Il est utile dans des situations pour supprimer rapidement les détails propriétaires du modèle avant de le partager. Voir [[Defeaturing/fr|Suppression de fonctions]]
-</div>
 
 Remarque : davantage d'outils avancés de Defeaturing pourront être utilisés si [[OpenCASCADE/fr|OCC7.3]] est disponible.
 
