@@ -28,9 +28,8 @@ Bien que la plupart des modèles soient constitués de solides, il est souvent f
 
 Il convient de garder à l'esprit que les éléments de poutre, de coque, de contrainte/déformation plane et axisymétriques évoqués ci-dessous, lorsqu'ils sont utilisés dans CalculiX, ne sont pas de véritables éléments de ce type (ils ne reposent pas sur les formulations classiques des éléments telles qu'on les trouve dans la littérature ou dans d'autres logiciels) : ils sont en effet développés en interne en éléments de solide. Leur utilisation est néanmoins recommandée dans les cas susmentionnés, même dans CalculiX.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Beam models ===
-</div>
+<span id="Beam_models"></span>
+=== Modèle type poutre ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If a part is slender (long and thin) and beam-like and has a regular cross-section of one of the currently supported beam section types (rectangular, circular, or pipe), then it should be analyzed using beam elements (unless there are some specific forms of loading, response, or unavoidable geometry details that invalidate this assumption).
