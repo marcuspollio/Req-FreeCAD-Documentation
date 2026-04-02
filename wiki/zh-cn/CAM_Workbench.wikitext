@@ -18,9 +18,7 @@
 <span id="Introduction"></span>
 == 简介 ==
 
-<div class="mw-translate-fuzzy">
-路径工作台用于从 FreeCAD 3D模型中生成 [https://en.wikipedia.org/wiki/CNC_router 数控机床] 的机器指令。这些产品在数控机床 (如铣刀、车床、激光切割机或类似设备) 上生产真实世界的 3D 物体。通常，指令集是[https://en.wikipedia.org/wiki/G-Code G 代码] 的方言。
-</div>
+[[Image:Workbench_CAM.svg|24px]] [[CAM_Workbench|CAM Workbench]]用于从FreeCAD三维模型生成[https://en.wikipedia.org/wiki/CNC_router CNC 数控机床]所需的加工指令。 These produce real-world 3D objects on CNC machines such as mills, lathes, lasercutters, or similar. Typically, instructions are a [https://en.wikipedia.org/wiki/G-code G-code] dialect. A [https://www.ange-softs.com/SIMULCNCHTML/index.html general CNC lathe tool path sequence simulation example] is presented here.
 
 [[Image:pathwb.png|600px]]
 
