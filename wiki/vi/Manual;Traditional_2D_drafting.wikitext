@@ -101,8 +101,8 @@ Sau đó tạo cung tròn mở cửa bằng công cụ [[Image:Draft_Arc.svg|16p
 
 [[Image:Exercise_cabin_09.jpg]]
 
-* Let's add some description texts using the [[Image:Draft_Text.svg|16px]] [[Draft_Text|Text]] tool. Click a point to position the text, then enter the lines of text, pressing Enter after each line. To finish, press Enter twice.
-* The indication lines (also called "leaders") that link the texts to the item they are describing are simply done with the Wire tool. Draw wires, starting from the text position, to the place being described. Once that is done, you can add a bullet or arrow at the end of the wires by setting their '''End Arrow''' property to '''TRUE'''
+* Hãy thêm một số lời lẽ mô tả bằng công cụ [[Image:Draft_Text.svg|16px]] [[Draft_Text|Văn bản]]. Nhấp vào một điểm để định vị văn bản, sau đó nhập các dòng văn bản, nhấn Enter sau mỗi dòng. Để kết thúc, nhấn Enter hai lần.
+* Các đường dẫn (còn gọi là "đường dóng" - leaders) kết nối văn bản với đối tượng mà chúng mô tả được thực hiện đơn giản bằng công cụ Polyline (đường đa tuyến). Vẽ các đường đa tuyến, bắt đầu từ vị trí văn bản, đến vị trí được mô tả. Sau khi hoàn tất, bạn có thể thêm chấm tròn (bullet) hoặc mũi tên ở cuối các đường đa tuyến bằng cách chọn thuộc tính '''Arrow End Type''' (Mũi tên cuối) của chúng thành Dot hoặc Arrow và đặt kích thước '''Arrow Size End''' tương ứng theo ý bạn.
 
 [[Image:Exercise_cabin_10.jpg]]
 
