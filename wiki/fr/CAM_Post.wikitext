@@ -61,7 +61,7 @@ Les types de contrôleur de machine CNC comprennent :
 * Découpeurs à torche plasma
 * Cintreuses
 * Usinage par décharge électrique
-*Etc...
+* Etc.
 
 Si une seule machine CNC est utilisée ou si toutes les machines CNC partagent un post-processeur commun, l'atelier CAM ne doit inclure qu'un seul post-processeur. Si un seul post-processeur est insuffisant pour générer un G-code pour tous les contrôleurs CNC cibles, plusieurs post-processeurs doivent être installés.
 
