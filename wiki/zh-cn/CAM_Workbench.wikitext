@@ -89,9 +89,8 @@ CAM 检查器：
 
 部分命令为实验性功能，默认未启用。启用方法详见[[CAM_experimental|CAM 实验功能]]。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Project Commands ===
-</div>
+<span id="Project_Commands"></span>
+=== 项目命令 ===
 
 <div class="mw-translate-fuzzy">
 * [[Image:Path-Job.png|32px]] [[CAM_Job|Job]]:  创建一个新的 CNC 作业
