@@ -26,9 +26,7 @@ La préparation de la géométrie et le maillage sont des éléments cruciaux du
 
 Bien que la plupart des modèles soient constitués de solides, il est souvent fortement recommandé d'utiliser des polylignes ou des surfaces pour l'analyse par la méthode des éléments finis (FEM) si la structure le permet.
 
-<div class="mw-translate-fuzzy">
-Il convient de rappeler que les éléments poutre, coque, contrainte/déformation plane et axisymétrique utilisés dans CalculiX ne sont pas de véritables éléments de ce type (ils n'utilisent pas les formulations d'éléments classiques connues dans la littérature et dans d'autres logiciels), ils sont étendus en interne aux solides. Néanmoins, leur utilisation est recommandée dans les cas susmentionnés.
-</div>
+Il convient de garder à l'esprit que les éléments de poutre, de coque, de contrainte/déformation plane et axisymétriques évoqués ci-dessous, lorsqu'ils sont utilisés dans CalculiX, ne sont pas de véritables éléments de ce type (ils ne reposent pas sur les formulations classiques des éléments telles qu'on les trouve dans la littérature ou dans d'autres logiciels) : ils sont en effet développés en interne en éléments de solide. Leur utilisation est néanmoins recommandée dans les cas susmentionnés, même dans CalculiX.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Beam models ===
