@@ -83,8 +83,9 @@ Chúng ta có thể tạo hoa văn gạch chéo (hatch pattern) đẹp mắt cho
 
 [[Image:Exercise_cabin_06.jpg]]
 
-* We will now change the door line to create an opened door symbol. Start by rotating the line using the [[Image:Draft_Rotate.svg|16px]] [[Draft_Rotate|Rotate]] tool. Click the endpoint of the line as rotation center; then specify a base angle of '''0''', and a rotation of '''-90'''.
-* Then create the opening arc with the [[Image:Draft_Arc.svg|16px]] [[Draft_Arc|Arc]] tool. Pick the same point as the rotation center we used in the previous step as the center, click the other point of the line to give the radius, then the start and end points as follows:
+Bây giờ chúng ta sẽ thay đổi đường cửa để tạo ký hiệu cửa đang mở. Bắt đầu bằng cách xoay đường thẳng bằng công cụ [[Image:Draft_Rotate.svg|16px]] [[Draft_Rotate|Xoay]]. Nhấp vào điểm đầu mút của đường thẳng làm tâm xoay; sau đó chỉ định góc cơ sở là '''0''', và góc xoay là '''-90'''.
+
+Sau đó tạo cung tròn mở cửa bằng công cụ [[Image:Draft_Arc.svg|16px]] [[Draft_Arc|Arc]] (Vòng cung). Chọn cùng một điểm làm tâm xoay ở bước trước làm tâm, nhấp vào điểm còn lại của đường thẳng để xác định bán kính, sau đó chọn điểm bắt đầu và điểm kết thúc như sau:
 
 [[Image:Exercise_cabin_07.jpg]]
 
