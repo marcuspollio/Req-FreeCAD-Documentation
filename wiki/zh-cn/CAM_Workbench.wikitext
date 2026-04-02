@@ -107,7 +107,7 @@ CAM 检查器：
 
 * [[Image:CAM_Simulator.svg|32px]] [[CAM_Simulator|传统 CAM 仿真器]]：模拟机床实际铣削加工过程。
 
-* [[Image:CAM_SimulatorGL.svg|32px]] [[CAM_SimulatorGL|CAM仿真器]]: 启用全新优化版 CAM 仿真器。{{Version|1.0}}
+* [[Image:CAM_SimulatorGL.svg|32px]] [[CAM_SimulatorGL|CAM仿真器]]：启用全新优化版 CAM 仿真器。{{Version|1.0}}
 
 * [[Image:CAM_SelectLoop.svg|32px]] [[CAM_SelectLoop|完成轮廓选择]]: 根据选中的两条边闭合生成轮廓。
 
