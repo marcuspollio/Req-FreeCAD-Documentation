@@ -209,9 +209,7 @@ CAM 检查器：
 <span id="Obsolete_Commands"></span>
 === 已废弃指令 ===
 
-<div class="mw-translate-fuzzy">
-* [[Image:CAM_Fixture.svg|32px]] [[CAM_Fixture|Fixture]]: 改变夹具的位置
-</div>
+* [[Image:CAM_Fixture.svg|32px]] [[CAM_Fixture|夹具]]：更改夹具位置。在{{VersionPlus|1.1}}中不可用。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == ToolBit architecture ==
