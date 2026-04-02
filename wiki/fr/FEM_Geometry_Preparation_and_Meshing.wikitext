@@ -24,10 +24,7 @@ La préparation de la géométrie et le maillage sont des éléments cruciaux du
 <span id="Choice_of_the_type_of_geometry"></span>
 == Choix du type de géométrie ==
 
-<div class="mw-translate-fuzzy">
-Bien que la plupart des conceptions soient constituées de solides, il est souvent fortement recommandé d'utiliser des polylignes ou des surfaces pour les éléments finis si la structure le permet :
-* Si une pièce est mince (longue et fine) et en forme de poutre et a une section transversale régulière de l'un des types de section de poutre pris en charge (rectangulaire, circulaire ou tube), elle doit être analysée à l'aide d'éléments de type poutre (à moins qu'il n'y ait des formes spécifiques de charge, de réponse ou des détails géométriques inévitables qui invalident cette supposition). Fondamentalement, il faut dessiner une ligne centrale (des conseils sur la manière de l'extraire d'une géométrie solide existante peuvent être trouvés dans [https://forum.freecad.org/viewtopic.php?t=81589 ce fil de discussion]. En bref, utilisez [[Draft_Wire/fr|Draft Polyligne]] ou [[Draft_BSpline/fr|Draft B-spline]] avec les supports appropriés d'[[Draft_Workbench/fr#Barre_d'outils_d'aimantation_de_Draft|aimantations]] et de [[Draft_Line/fr|lignes]]) et appliquez [[FEM_ElementGeometry1D/fr|coupe transversale d'un élément 1D]] avec accessoirement une [[FEM_ElementRotation1D/fr|rotation]]. Il n'y a pas de vraie règle indiquant quand le principe de poutre peut être utilisé, mais il est souvent conseillé que les dimensions de la section transversale soient < 1/10 de la longueur de la pièce pour que l'utilisation du principe de poutre soit valide.
-</div>
+Bien que la plupart des modèles soient constitués de solides, il est souvent fortement recommandé d'utiliser des polylignes ou des surfaces pour l'analyse par la méthode des éléments finis (FEM) si la structure le permet.
 
 <div class="mw-translate-fuzzy">
 Il convient de rappeler que les éléments poutre, coque, contrainte/déformation plane et axisymétrique utilisés dans CalculiX ne sont pas de véritables éléments de ce type (ils n'utilisent pas les formulations d'éléments classiques connues dans la littérature et dans d'autres logiciels), ils sont étendus en interne aux solides. Néanmoins, leur utilisation est recommandée dans les cas susmentionnés.
