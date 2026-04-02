@@ -204,9 +204,7 @@ CAM 检查器：
 
 * [[Image:CAM_Area.svg|32px]] [[CAM_Area|区域]]: ：根据选定对象创建特征区域。[[CAM_experimental|{{Emphasis|实验性功能}}]]。
 
-<div class="mw-translate-fuzzy">
-* [[Image:Path-Area-Workplane.png|32px]] [[CAM_Area_Workplane|Feature area workplane]]: 创建一个特征区域工作面
-</div>
+* [[Image:CAM_Area_Workplane.svg|32px]] [[CAM_Area_Workplane|区域工作平面]]: ：创建特征区域工作平面。[[CAM_experimental|{{Emphasis|实验性功能}}]]。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Obsolete Commands ===
