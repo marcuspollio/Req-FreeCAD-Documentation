@@ -47,7 +47,7 @@ Các tính năng nâng cao của bàn làm việc Draft bao gồm khả năng nh
 * Hãy bắt đầu bằng cách bật '''chế độ xây dựng (construction mode)''', cho phép chúng ta vẽ một số đường dẫn hướng (guidelines) mà trên đó chúng ta sẽ vẽ hình học cuối cùng. Bạn có thể làm điều này bằng cách nhấn vào lệnh [[Image:Draft_ToggleConstructionMode.svg|24px]] [[Draft_ToggleConstructionMode|Toggle construction mode]] (Chuyển đổi chế độ xây dựng).
 * Nếu muốn, bạn có thể đặt mặt phẳng làm việc thành XY. Điều này sẽ khóa mặt phẳng làm việc, đảm bảo nó luôn nằm trên mặt phẳng XY bất kể bạn thay đổi góc nhìn như thế nào. Nếu bạn chọn không làm điều này, mặt phẳng làm việc sẽ tự động thích ứng với góc nhìn hiện tại, nghĩa là bạn sẽ cần đảm bảo đang ở chế độ nhìn từ trên xuống (Top view) bất cứ khi nào muốn vẽ trên mặt phẳng XY (mặt đất) để tránh các thay đổi hướng ngoài ý muốn.
 
-Let's begin laying out the basic shape of our floorplan.
+Tạo hình dạng cơ bản của mặt bằng
 
 * Press the [[Image:Draft_Rectangle.svg|24px]] '''Draft Rectangle''' button
 * Draw a 2-meter by 2-meter rectangle starting from point (0,0,0), leave the Z coordinate at zero. You can efficiently complete this entire process using the keyboard, without needing the mouse. Simply type:
