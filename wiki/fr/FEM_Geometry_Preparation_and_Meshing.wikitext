@@ -50,9 +50,8 @@ There's no single rule dictating when beam elements can be used, but it's often 
 [[Image:FEM_beam_model.JPG|600px]]
 {{Caption|Pièce mince convenant à l'analyse avec des éléments de poutre - axe central mis en évidence}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Shell models ===
-</div>
+<span id="Shell_models"></span>
+=== Modèles type coque ===
 
 <div class="mw-translate-fuzzy">
 * Si une pièce a des parois minces (comme les pièces en tôle), elle doit être analysée à l'aide d'éléments de coque (sauf si des résultats de contact précis sont nécessaires ou si certaines limites des éléments de coque sont rencontrées). Ce point est très important et souvent négligé. Pour obtenir des résultats précis (en particulier en cas de flexion), il faut quelques éléments (au moins 3 à 5) dans la direction de l'épaisseur. Dans le cas de pièces à parois minces, cela se traduit généralement par de grandes mailles (en particulier lorsque des tétraèdres sont utilisés, car les éléments hexaédriques ne peuvent pas être générés dans FreeCAD) et un coût de calcul élevé - puissance informatique élevée et long temps de résolution. Pour obtenir une géométrie adaptée à l'analyse avec des éléments coques, il faut dessiner une surface médiane de la pièce (des conseils sur la manière de l'extraire d'une géométrie solide existante peuvent être trouvés dans [https://forum.freecad.org/viewtopic.php?t=67505 ce fil de discussion], [https://forum.freecad.org/viewtopic.php?t=71821 celui-ci] et [https://forum.freecad.org/viewtopic.php?t=81834 celui-ci]). En bref, appliquez une [[PartDesign_SubShapeBinder/fr|PartDesign Sous forme liée]] ou une [[Draft_Facebinder/fr|Draft Surface liée]], puis une [[Part_Offset/fr|Part Décalage]] et enfin utilisez la [[PartDesign_SubShapeBinder/fr|PartDesign Sous forme liée]] et [[Part_Extrude/fr|extrudez]] pour étendre les arêtes des surfaces médianes et ainsi combler les écarts entre elles. Appliquez une [[FEM_ElementGeometry2D/fr|épaisseur]] appropriée. Là encore, il n'y a pas de règle unique, mais il est généralement recommandé que l'épaisseur soit < 1/10 d'une dimension globale typique (longueur/largeur) pour que l'utilisation du principe de la coque soit valide.
