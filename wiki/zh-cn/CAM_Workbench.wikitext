@@ -216,13 +216,11 @@ CAM 检查器：
 
 基于ToolBit架构，用于管理刀具、刀头及刀具库。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[CAM_Tools|CAM Tools]]
-* [[CAM_ToolShape|CAM ToolShape]]
-* [[CAM_ToolBit|CAM ToolBit]]
-* [[CAM_ToolBit_Library|CAM ToolBit Library]]
-* [[CAM_ToolController|CAM ToolController]]
-</div>
+* [[CAM_Tools|CAM刀具]]
+* [[CAM_ToolShape|CAM刀具形状]]
+* [[CAM_ToolBit|CAM刀具刀头]]
+* [[CAM_ToolBit_Library|CAM刀具单元库]]
+* [[CAM_ToolController|CAM刀具控制器]]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Other ==
