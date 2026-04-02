@@ -83,10 +83,10 @@ Les avertissements et les erreurs détectés par [[CAM_Sanity/fr|CAM Chercher de
 <span id="Usage"></span>
 ==Utilisation==
 
-# Sélectionnez une [[Image:CAM_Job.svg|16px]] [[CAM_Job/fr|tâche]] dans la [[Tree_View/fr|vue en arborescence]].
+# Sélectionnez une [[Image:CAM_Job.svg|16px]] [[CAM_Job/fr|tâche]] dans l'[[Tree_View/fr|arborescence]].
 # Il existe plusieurs façons de lancer la commande :
-#* Appuyez sur le bouton {{Button|[[Image:CAM_Sanity.svg|16px]] [[CAM_Sanity/fr|Rechercher des erreurs]]}}.
-#* Sélectionnez {{MenuCommand|CAM → [[Image:CAM_Sanity.svg|16px]] Rechercher des erreurs}} du menu.
+#* Appuyez sur le bouton {{Button|[[Image:CAM_Sanity.svg|16px]] [[CAM_Sanity/fr|Chercher des erreurs]]}}.
+#* Sélectionnez {{MenuCommand|CAM → [[Image:CAM_Sanity.svg|16px]] Chercher des erreurs}} du menu.
 #* Utilisez le raccourci clavier : {{KEY|P}} puis {{KEY|S}}.
 # Les informations pertinentes sont rassemblées dans un dictionnaire en Python puis formatées au format AsciiDoc. 
 # Le fichier AsciiDoc est écrit sur le disque au même endroit que le fichier qui sera post-traité. 
