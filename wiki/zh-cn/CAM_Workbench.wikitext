@@ -32,12 +32,7 @@ FreeCAD CAM工作台创建加工指令的流程如下:
 <span id="General_concepts"></span>
 == 基本概念 ==
 
-<div class="mw-translate-fuzzy">
-== 一般概念 ==
-路径工作台生成 G 代码，定义了在目标中铣削由 3D 模型表示的项目所需要的路径—在 [https://www.freecad.org/wiki/Path_scripting#FreeCAD.27s_internal_GCode_format  路径作业操作 FreeCAD G 代码方言]，然后通过选择合适的后处理器, 将其转换为目标数控控制器的相应方言。
-
-G 代码是从路径作业中包含的指令和操作生成的。 作业工作流按将执行的顺序列出这些任务。通过添加路径操作、路径装饰、路径部分命令和路径修改—从路径菜单或 GUI 按钮。
-</div>
+CAM 工作台会生成 G 代码，用以定义在目标铣床上铣削由三维模型表示的工程时所需的加工路径，该 G 代码采用[[CAM_scripting#The_FreeCAD_Internal_GCode_Format|FreeCAD 内部 CAM 作业操作 G 代码格式]]。之后通过选择合适的后处理器，将其转换为适配目标数控系统的对应格式代码。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The G-code is generated from directives and Operations contained in a CAM Job. The Job Workflow lists these in the order they will be executed. The list is populated by adding CAM Operations, Path Dressups, Supplemental Commands, and Path Modifications from the CAM Menu, or GUI buttons.
