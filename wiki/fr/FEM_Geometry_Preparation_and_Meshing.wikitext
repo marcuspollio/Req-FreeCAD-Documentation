@@ -72,9 +72,8 @@ Again, there's no single rule regarding the applicability of shell elements, but
 [[Image:FEM_shell_model.JPG|600px]]
 {{Caption|Pièce à paroi mince adaptée à l'analyse avec des éléments de coque - mise en évidence de la surface médiane}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Planar models ===
-</div>
+<span id="Planar_models"></span>
+=== Modèles plans ===
 
 <div class="mw-translate-fuzzy">
 * Dans certains cas, les analyses 2D sont également possibles et peuvent être activées en définissant la propriété {{PropertyData|Model Space}} du [[FEM_SolverCalculixCcxtools/fr|solveur CalculiX]] :
