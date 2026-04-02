@@ -147,9 +147,7 @@ CAM 检查器：
 
 * [[Image:CAM_Pocket3D.svg|32px]] [[CAM_Pocket3D|三维型腔]]：创建三维挖槽加工路径。
 
-<div class="mw-translate-fuzzy">
-* [[Image:Path-3DSurface.png|32px]] [[CAM_Surface|3D Surface]]: 为 3D 表面创建路径
-</div>
+* [[Image:CAM_Surface.svg|32px]] [[CAM_Surface|三维表面]]：创建三维曲面加工路径。[[CAM_experimental|{{Emphasis|实验性功能}}]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:CAM_Waterline.svg|32px]] [[CAM_Waterline|Waterline]]: Creates a waterline path for a 3D surface. [[CAM_experimental|{{Emphasis|Experimental}}]].
