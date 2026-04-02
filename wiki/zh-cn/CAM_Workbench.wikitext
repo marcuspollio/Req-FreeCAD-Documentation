@@ -225,9 +225,10 @@ CAM 检查器：
 <span id="Other"></span>
 == 其他 ==
 
-<div class="mw-translate-fuzzy">
-路径工作台与其它 CAM 软件包共享很多概念但是它有自己的特性。如果有什么不对劲的地方, 这可能是一个很好的开始。
-</div>
+* [[CAM_FAQ|CAM常见问题]]：CAM 工作台与其他 CAM 软件有许多共通概念，但也有自身特点。若出现异常，可先从此处查阅。
+* [[CAM_SetupSheet|CAM设置表]]：可通过设置表自定义各工序属性值的计算方式。
+* [[CAM_Postprocessor_Customization|CAM后处理器自定义]]：若设备特殊，无法使用现有后处理器，可能需要自行编写后处理器。
+* [[CAM_fourth_axis|CAM第四轴]]：实验性四轴铣削功能。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Preferences ==
