@@ -300,9 +300,7 @@ Il est possible de générer des maillages hexaédriques sur des géométries vo
 
 [[Image:Z_refine.PNG|400px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Hex-dominated mesh generated with Netgen's ZRefine algorithm}}
-</div>
+{{Caption|Maillage à dominance hexaédrique généré à l'aide de l'algorithme ZRefine de Netgen}}
 
 <span id="Negative_Jacobians"></span>
 == Jacobiens négatifs ==
