@@ -74,7 +74,7 @@ Quy trình làm việc dựa trên bàn phím này giúp tăng tốc độ vẽ,
 
 [[Image:Exercise_cabin_04.jpg]]
 
-* We can give the walls a nice hatch pattern. Select both walls, make sure their '''Make Face''' property (located on the Data tab) is set to '''TRUE''', then set their '''Pattern''' property (located on the View tab) to '''Simple''', and their '''Pattern size''' to your liking, for example '''0.01'''. 
+Chúng ta có thể tạo hoa văn gạch chéo (hatch pattern) đẹp mắt cho các bức tường. Chọn cả hai bức tường, đảm bảo thuộc tính '''Make Face''' (Tạo mặt) của chúng (nằm trên tab Dữ liệu) được đặt là '''TRUE''', sau đó đặt thuộc tính '''Pattern''' (Mẫu) (nằm trên tab Chế độ xem) thành '''Simple''', và '''Pattern size''' (Kích thước mẫu) theo ý thích của bạn, ví dụ '''0.01'''. 
 
 [[File:Draft Pattern.png]]
 
