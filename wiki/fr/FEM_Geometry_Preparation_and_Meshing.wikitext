@@ -273,9 +273,8 @@ Le choix du type d'élément n'est pas facile et dépend de nombreux facteurs, m
 
 Le choix de l'ordre des éléments (premier ou second) dépend des conditions d'analyse, mais dans la plupart des cas, les éléments de second ordre sont préférables. Ceci est particulièrement vrai pour les éléments triangulaires et tétraédriques, leurs versions de premier ordre (linéaires) ne sont normalement pas recommandées pour un usage régulier et ne devraient être utilisées que comme éléments de remplissage dans des régions de faible importance. Cependant, comme FreeCAD ne peut pas générer correctement d'éléments hexaédriques, les tétraèdres linéaires peuvent être utilisés dans certains cas, si les maillages sont suffisamment denses. En particulier lors d'analyses avec une [[FEM_ConstraintContact/fr|contrainte de contact]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Quad and hex meshes ==
-</div>
+<span id="Quad_and_hex_meshes"></span>
+== Maillages quadri et hexa ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Quad meshes ===
