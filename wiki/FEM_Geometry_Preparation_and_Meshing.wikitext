@@ -66,7 +66,7 @@ Again, there's no single rule regarding the applicability of shell elements, but
 {{Version|1.1}}: Very thin shells may have negligible bending stiffness and '''membrane''' elements can be used to model them. These elements cannot sustain bending. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]].
 
 </translate>
-[[Image:FEM_shell_model.JPG|600px]]
+[[Image:FEM_shell_midsurf.PNG|600px]]
 <translate>
 <!--T:12-->
 {{Caption|Thin-walled part suitable for analysis with shell elements - midsurface highlighted}}
