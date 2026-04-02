@@ -46,7 +46,7 @@ There's no single rule dictating when beam elements can be used, but it's often 
 {{Version|1.1}}: Very slender beams may have negligible bending stiffness and '''truss''' elements can be used to model them. These elements cannot sustain bending. They only transmit axial forces, not moments. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]]. Instead of a profile, the {{PropertyData|Truss Area}} property of the [[FEM_ElementGeometry1D|FEM ElementGeometry1D]] object is used to define their cross-section.
 
 </translate>
-[[Image:FEM_beam_model.JPG|600px]]
+[[Image:Beam_centerline.PNG|600px]]
 <translate>
 <!--T:9-->
 {{Caption|Slender part suitable for analysis with beam elements - centerline highlighted}}
