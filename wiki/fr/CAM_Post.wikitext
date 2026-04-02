@@ -95,9 +95,9 @@ Les variables de configuration typiques incluent:
 * '''MACHINE_NAME''' (nom de la fraiseuse CNC cible) : utilisé pour insérer une étiquette de nom de machine dans le fichier de sortie final.
 * '''PRECISION''' : utilisé pour définir le nombre de chiffres à inclure après la décimale dans le fichier de sortie final
 
-Les sections de configuration typiques incluent:
+Les sections de configuration typiques incluent :
 * '''PREAMBULE''' : configuration du code insérée au début de la tâche.
-* '''POSTAMBLE''' : configuration du code annexée à la tâche, permettant de stationner la machine, etc...
+* '''POSTAMBLE''' : configuration du code annexée à la tâche, permettant de stationner la machine, etc.
 * '''TOOL_CHANGE''' : code inséré avec chaque changement d'outil dans la tâche.
 
 {{MenuCommand|Édition → Préférences → CAM → Préférences des tâches → Valeurs par défaut → Parcours}} permet de définir le post-processeur par défaut sélectionné lors de la création de la tâche. Ceci permet à l'atelier CAM d'être configuré pour n'afficher que les post-processeurs souhaités et de définir une valeur par défaut. 
