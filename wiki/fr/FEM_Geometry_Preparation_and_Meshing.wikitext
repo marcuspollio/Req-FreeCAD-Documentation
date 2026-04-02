@@ -242,9 +242,7 @@ La sélection de régions internes (par exemple, des faces ou des volumes) peut 
 
 {{Caption|Modification manuelle de la propriété ''References''}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.1}}: If the selected face of CompSolid (Boolean fragments with CompSolid mode + Compound filter standard workflow described in the [[#Assembly_geometries|Assembly geometries]] section) belongs to two solids, a pop-up menu appears, allowing the selection of the proper solid.
-</div>
+{{Version/fr|1.1}} : si la face sélectionnée dans un solide composé (fragments booléens avec le mode CompSolid + flux de travail standard du filtre composé décrit dans la section [[#Assembly_geometries|Assemblage de géométries]]) appartient à deux solides, un menu contextuel s'affiche, permettant de sélectionner le solide approprié.
 
 <span id="Meshing_basics"></span>
 == Les bases du maillage ==
