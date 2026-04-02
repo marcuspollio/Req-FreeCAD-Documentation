@@ -199,9 +199,8 @@ CAM 检查器：
 
 * [[Image:CAM_ThreadMilling.svg|32px]] [[CAM_ThreadMilling|螺纹铣削]]：根据基础对象特征创建 CAM 螺纹铣削工序。[[CAM_experimental|{{Emphasis|实验性功能}}]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Miscellaneous ===
-</div>
+<span id="Miscellaneous"></span>
+=== 其他功能 ===
 
 <div class="mw-translate-fuzzy">
 * [[Image:Path-Area.png|32px]] [[CAM_Area|Feature area]]: 从从所选对象创建一个特征区域
