@@ -37,9 +37,7 @@ Grundsätzlich sollte man eine Mittellinie zeichnen (einige Tipps, wie man diese
 
 Es gibt keine einheitliche Regel, wann Trägerelemente verwendet werden können, aber es wird oft empfohlen, dass die Querschnittsabmessungen < 1/10 der Länge des Teils betragen sollten, damit die Trägerannahme gültig ist.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.1}}: Very slender beams may have negligible bending stiffness and '''truss''' elements can be used to model them. These elements cannot sustain bending. They only transmit axial forces, not moments. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]]. Instead of a profile, the {{PropertyData|Truss Area}} property of the [[FEM_ElementGeometry1D|FEM ElementGeometry1D]] object is used to define their cross-section.
-</div>
+{{Version/de|1.1}}: Sehr schlanke Träger weisen unter Umständen eine vernachlässigbare Biegesteifigkeit auf und können daher mit '''Fachwerk'''-Elementen modelliert werden. Diese Elemente sind nicht biegesteif. Sie übertragen lediglich Axialkräfte, keine Momente. Um sie zu verwenden, die Eigenschaft {{PropertyData/de|Exclude Bending Stiffness}} des [[FEM_SolverCalculixCcxtools/de|CalculiX-Lösers]] aktivieren. Anstelle eines Profils wird die Eigenschaft {{PropertyData/de|Truss Area}} des Objekts [[FEM_ElementGeometry1D/de|FEM ElementGeometry1D]] verwendet, um ihren Querschnitt zu definieren.
 
 [[Image:FEM_beam_model.JPG|600px]]
 {{Caption|Schlankes Bauteil, das zur Analyse von Stabelementen geeignet ist - Mittellinie hervorgehoben}}
