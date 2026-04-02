@@ -66,14 +66,12 @@ CAM中的单位处理可能容易让人困惑，需要理解以下几点：
 # 在首选项中更改单位方案，会修改输入框的默认单位显示。如果你是 CAM 用户且习惯使用公制设计，强烈推荐使用 “公制小型零件与数控（Metric Small Parts & CNC）” 方案；若使用美制单位，则选择 “十进制英制” 或 “美式建筑单位” 均可。
 # 修改偏好的单位方案不会影响输出结果，但有助于避免输入错误。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Output:
-# Generating the correct unit in output is the responsibility of the post-processor and is done only at that time.
-# Machine output unit is completely unrelated to your selected unit schema.
-# Post-processors produce either metric (G21) output, Imperial (G20) output or are configurable.
-# Configurable post-processors default to metric (G21).
-# If you want your configurable post-processor to output imperial G-code (G20), set the correct argument in your job output configuration (ie --inches for linuxcnc). This can be stored in a job template and set as your default template to make it automatic for all future jobs.
-</div>
+代码输出：
+# 输出文件中生成正确的单位是后处理器的职责，且仅在生成G代码时完成。
+# 机床输出单位与你选择的单位方案完全无关。
+# 后处理器可输出公制（G21）、英制（G20）格式，或支持自定义配置。
+# 可配置的后处理器默认采用公制（G21）。
+# 若需要可配置后处理器输出英制G代码（G20），请在作业输出配置中设置正确参数（例如 LinuxCNC 使用 --inches）。该设置可保存到作业模板并设为默认模板，以便后续新建作业自动生效。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 CAM Inspection:
