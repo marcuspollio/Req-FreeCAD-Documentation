@@ -34,7 +34,7 @@ FreeCAD旧版本发布说明可以在[[Feature_list#Release_notes|功能列表]]
 [https://github.com/FreeCAD/FreeCAD/pull/20668 Pull request #20668] and [https://github.com/FreeCAD/FreeCAD/pull/20528 Pull request #20528]
 |-
 | [[File:Add_property_expression_dialog_relnotes_1.1.png|384px]]
-| A consolidated and improved Add Property dialog that supports expressions, enums, and units. An improved Expression Editor with better tab completion, resizing behavior, and VarSet input. [https://github.com/FreeCAD/FreeCAD/pull/22719 Pull request #22719], [https://github.com/FreeCAD/FreeCAD/pull/23426 Pull request #23426], [https://github.com/FreeCAD/FreeCAD/pull/22964 Pull request #22964] and [https://github.com/FreeCAD/FreeCAD/pull/22944 Pull request #22944].
+| 新增一个经过整合和优化的“添加属性”对话框，支持表达式、枚举和单位。 改进后的表达式编辑器，具备更出色的标签补全功能、窗口调整大小行为以及 VarSet 输入功能。 [https://github.com/FreeCAD/FreeCAD/pull/22719 Pull request #22719], [https://github.com/FreeCAD/FreeCAD/pull/23426 Pull request #23426], [https://github.com/FreeCAD/FreeCAD/pull/22964 Pull request #22964] and [https://github.com/FreeCAD/FreeCAD/pull/22944 Pull request #22944].
 |}
 
 <span id="Further_user_interface_improvements"></span>
