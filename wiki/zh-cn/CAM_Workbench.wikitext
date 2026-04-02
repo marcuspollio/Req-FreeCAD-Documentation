@@ -109,9 +109,7 @@ CAM 检查器：
 
 * [[Image:CAM_SimulatorGL.svg|32px]] [[CAM_SimulatorGL|CAM仿真器]]: 启用全新优化版 CAM 仿真器。{{Version|1.0}}
 
-<div class="mw-translate-fuzzy">
-* [[Image:Path-CompleteLoop.png|32px]] [[CAM_SelectLoop|Complete Loop]]: 从两个选定的边完成一个循环
-</div>
+* [[Image:CAM_SelectLoop.svg|32px]] [[CAM_SelectLoop|完成轮廓选择]]: 根据选中的两条边闭合生成轮廓。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:CAM_OpActiveToggle.svg|32px]] [[CAM_OpActiveToggle|Toggle Operation]]: Activates or de-activates a path operation.
