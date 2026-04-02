@@ -166,9 +166,7 @@ CAM 检查器：
 
 * [[Image:CAM_DressupLeadInOut.svg|32px]] [[CAM_DressupLeadInOut|进刀/退刀]]：为选定路径添加进刀点和/或退刀点。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:CAM_DressupRampEntry.svg|32px]] [[CAM_DressupRampEntry|Ramp Entry]]: Adds ramp entry dressup modification to a selected path.
-</div>
+* [[Image:CAM_DressupRampEntry.svg|32px]] [[CAM_DressupRampEntry|斜向进刀]]：为选定路径添加斜向进刀修饰。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:CAM_DressupTag.svg|32px]] [[CAM_DressupTag|Tag]]: Adds a holding tag dressup modification to a selected path.
