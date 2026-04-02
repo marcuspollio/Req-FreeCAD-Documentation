@@ -33,12 +33,12 @@ Các tính năng nâng cao của bàn làm việc Draft bao gồm khả năng nh
 
 [[Image:Exercise_cabin_01.jpg]]
 
-* Switch to the '''Draft Workbench'''
-* As in all technical drawing applications, it is wise to set up your environment correctly, it will save you a lot of time. If you wish to personalize your experience in the Draft Workbench, you can easily do so by adjusting various settings in the Draft Preferences Panel by going to '''Edit → Preferences → Draft'''. In this exercise, however, we will act as if these settings were left at their default values.
+* Chuyển sang '''Bàn làm việc Draft'''
+* Như trong mọi ứng dụng vẽ kỹ thuật, việc thiết lập môi trường làm việc đúng cách là rất khôn ngoan, nó sẽ tiết kiệm cho bạn rất nhiều thời gian. Nếu muốn cá nhân hóa trải nghiệm trong bàn làm việc Draft, bạn có thể dễ dàng thực hiện bằng cách điều chỉnh các cài đặt khác nhau trong Bảng Tùy chỉnh Draft (Draft Preferences Panel) bằng cách vào menu '''Chỉnh sửa → Tùy chỉnh → Draft'''. Tuy nhiên, trong bài tập này, chúng ta sẽ giả sử các cài đặt này đang ở giá trị mặc định.
 
 [[File:FreeCAD DraftPreferences.png]]
 
-* The Draft Preferences Panel in FreeCAD allows you to customize various aspects of your 2D drafting environment. In the '''General Settings''', you can define the default working plane, adjust decimal precision, and set the default line width, style, and color for objects. The '''Grid and Snapping''' section enables you to control grid visibility, spacing, and snapping modes, allowing for precise alignment and positioning of elements. The '''Visual Style''' options let you customize the appearance of objects and the grid, including line and fill colors. In '''Text and Dimensions''', you can configure the default text size, font, and color for annotations, ensuring clarity in technical drawings.
+* Bảng Tùy chỉnh Draft trong FreeCAD cho phép bạn tùy chỉnh nhiều khía cạnh của môi trường vẽ 2D. Trong phần '''Cài đặt chung (General Settings)''', bạn có thể định nghĩa mặt phẳng làm việc mặc định, điều chỉnh độ chính xác thập phân và đặt độ rộng, kiểu và màu đường mặc định cho các đối tượng. Phần '''Lưới và Bắt điểm (Grid and Snapping)''' cho phép bạn kiểm soát độ hiển thị của lưới, khoảng cách và các chế độ bắt điểm, giúp căn chỉnh và định vị phần tử chính xác. Các tùy chọn '''Kiểu hiển thị (Visual Style)''' cho phép bạn tùy chỉnh diện mạo của đối tượng và lưới, bao gồm màu đường và màu tô. Trong phần '''Văn bản và Kích thước (Text and Dimensions)''', bạn có thể cấu hình cỡ chữ, phông chữ và màu mặc định cho các chú thích, đảm bảo sự rõ ràng trong bản vẽ kỹ thuật.
 
 [[Image:Draft_toolbars.png]]
 
