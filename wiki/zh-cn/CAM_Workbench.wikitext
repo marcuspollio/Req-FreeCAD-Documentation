@@ -57,12 +57,10 @@ CAM 工作台存在外部依赖项，包括：
 <span id="Units"></span>
 == 单位 ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Unit handling in CAM can be confusing. There are several points to understand:
-# FreeCAD base units for length and time are 'mm' and 's' respectively. Velocity is thus 'mm/s'. This is what FreeCAD stores internally regardless of anything else
-# The default unit schema uses the default units. If you're using the default schema and you enter a feed rate without a unit string, it will get entered as 'mm/s'
-# Most CNC machines expect feed rate in the form of either 'mm/min' or 'in/min'. Most post-processors will automatically convert the unit when generating gcode.
-</div>
+CAM中的单位处理可能容易让人困惑，需要理解以下几点：
+# FreeCAD 内部使用的长度和时间基本单位分别为'毫米'（'mm'）和'秒'（'s'），因此速度单位为'毫米/秒'（'mm/s'）。无论其他设置如何，FreeCAD 内部均以此存储数据。
+# 默认单位方案使用系统预设单位。若使用默认方案，输入进给速率时未附带单位，则系统会按'毫米/秒'（'mm/s'）识别。
+# 大多数数控机床的进给速率单位为'毫米/分钟'（'mm/min'）或'英寸/分钟'（'in/min'）。多数后处理器在生成 G 代码时会自动进行单位转换。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Schemas:
