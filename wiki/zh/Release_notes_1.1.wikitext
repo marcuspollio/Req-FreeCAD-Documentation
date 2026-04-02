@@ -16,13 +16,11 @@ FreeCAD旧版本发布说明可以在[[Feature_list#Release_notes|功能列表]]
 <span id="User_Interface"></span>
 ===用户界面===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:Three_point_lighting_relnotes_1.1.png|384px]]
-| Three-point lighting was added to improve the rendering of 3D models.
+| 增加了三点布光以改进对3D模型的渲染。
 [https://github.com/FreeCAD/FreeCAD/pull/19397 Pull request #19397]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
