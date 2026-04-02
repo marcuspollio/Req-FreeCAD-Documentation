@@ -277,11 +277,9 @@ Le choix de l'ordre des éléments (premier ou second) dépend des conditions d'
 <span id="Quad_meshes"></span>
 == Maillages quadri ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Quadrilateral elements can be generated on surface geometries using both meshers:
-* [[FEM_MeshGmshFromShape|Gmsh]] - set the {{PropertyData|Algorithm 2D}} property to ''Quasi-structured Quad'' (currently, it doesn't work for 2nd order elements) or enable the {{PropertyData|Recombine All}} property and select the {{PropertyData|Recombination Algorithm}},
-* [[FEM_MeshNetgenFromShape|Netgen]] - enable the {{PropertyData|Quad Dominated}} property.
-</div>
+Les éléments quadrilatéraux peuvent être générés sur des géométries de surface à l'aide des deux générateurs de maillage :
+* [[FEM_MeshGmshFromShape/fr|Gmsh]] : définir la propriété {{PropertyData|Algorithm 2D}} sur ''Quasi-structured Quad'' (actuellement, cela ne fonctionne pas pour les éléments du 2e ordre) ou activer la propriété {{PropertyData|Recombine All}} et sélectionner {{PropertyData|Recombination Algorithm}},
+* [[FEM_MeshNetgenFromShape/fr|Netgen]] : activer la propriété {{PropertyData|Quad Dominated}}.
 
 [[Image:Quad_mesh.PNG|400px]]
 
