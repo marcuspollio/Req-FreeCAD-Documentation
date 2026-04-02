@@ -54,9 +54,8 @@ CAM 工作台存在外部依赖项，包括：
 * 除[[Image:CAM_Engrave.svg|24px]] [[CAM_Engrave|雕刻]]和[[Image:CAM_Surface.svg|24px]] [[CAM_Surface|3D表面加工]]工序外，CAM 工作台中的多数工序仅会基于标准立铣刀生成路径，而忽略刀具控制器中设置的实际刀具类型。
 * CAM工作台内的工序无法识别用于将工件固定在机床上的夹具结构。因此，在将代码传输至机床前，请务必检查并仿真生成的路径。如有必要，可在FreeCAD中对夹具建模，以便更好地检查路径，排查路径与夹具或其他障碍物可能发生的碰撞。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Units ==
-</div>
+<span id="Units"></span>
+== 单位 ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Unit handling in CAM can be confusing. There are several points to understand:
