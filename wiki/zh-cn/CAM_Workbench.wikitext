@@ -181,9 +181,7 @@ CAM 检查器：
 
 * [[Image:CAM_Custom.svg|32px]] [[CAM_Custom|自定义]]：插入自定义G代码。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:CAM_Probe.svg|32px]] [[CAM_Probe|Probe]]: Creates a Probing Grid from a job stock.
-</div>
+* [[Image:CAM_Probe.svg|32px]] [[CAM_Probe|探针检测]]根据工件毛坯创建探针检测网格。
 
 * [[Image:CAM_Shape.svg|32px]] [[CAM_Shape/zh-cn|From Shape]]: Creates a path object from a selected Part object. [[CAM_experimental|{{Emphasis|Experimental}}]].
 
