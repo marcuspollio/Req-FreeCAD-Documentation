@@ -276,9 +276,8 @@ Le choix de l'ordre des éléments (premier ou second) dépend des conditions d'
 <span id="Quad_and_hex_meshes"></span>
 == Maillages quadri et hexa ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Quad meshes ===
-</div>
+<span id="Quad_meshes"></span>
+== Maillages quadri ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Quadrilateral elements can be generated on surface geometries using both meshers:
