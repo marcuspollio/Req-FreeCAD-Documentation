@@ -283,9 +283,7 @@ Les éléments quadrilatéraux peuvent être générés sur des géométries de 
 
 [[Image:Quad_mesh.PNG|400px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Quad-dominated mesh generated with Netgen}}
-</div>
+{{Caption|Maillage à prédominance de quadrilatères généré avec Netgen}}
 
 <span id="Hex_meshes"></span>
 == Maillages hexa ==
