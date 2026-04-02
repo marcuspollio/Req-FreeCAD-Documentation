@@ -294,11 +294,9 @@ Quadrilateral elements can be generated on surface geometries using both meshers
 <span id="Hex_meshes"></span>
 == Maillages hexa ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Hexahedral meshes can be generated on volume geometries using both meshers with some significant limitations:
-* [[FEM_MeshGmshFromShape|Gmsh]] - set the {{PropertyData|Subdivision Algorithm}} to ''All Hexahedra'' - however, the resulting elements are not shaped as expected from hexahedral meshes used in practice,
-* [[FEM_MeshGmshFromShape|Netgen]] - {{Version|1.1}}: for simple extruded shapes, hex or hex-dominated meshes can be created by extrusion if the {{PropertyData|Quad Dominated}} property is enabled and the {{PropertyData|ZRefine}} property is set to ''Regular'' (''Custom'' requires specifying the height of each element in the extrusion direction). The extrusion direction can be changed from the default Z using the {{PropertyData|ZRefine Direction}} property. Element height can be specified as a fraction of the total height using the {{PropertyData|ZRefine Size}} property. This approach works only for first-order meshes (unless the generated elements are all hexahedrons).
-</div>
+Il est possible de générer des maillages hexaédriques sur des géométries volumiques à l'aide de ces deux générateurs de maillage, mais avec certaines limitations importantes :
+* [[FEM_MeshGmshFromShape/fr|Gmsh]] : définir la propriété {{PropertyData|Subdivision Algorithm}} sur ''All Hexahedra', cependant, les éléments obtenus ne présentent pas la forme attendue pour les maillages hexaédriques utilisés en pratique,
+* [[FEM_MeshGmshFromShape/fr|Netgen]] : pour les formes extrudées simples, des maillages hexaédriques ou à dominance hexaédrique peuvent être créés par extrusion si la propriété {{PropertyData|Quad Dominated}} est activée et si la propriété {{PropertyData|ZRefine}} est définie sur ''Regular'' (''Custom'' nécessite de spécifier la hauteur de chaque élément dans la direction d'extrusion). La direction d'extrusion peut être modifiée par rapport à la valeur par défaut Z à l'aide de la propriété {{PropertyData|ZRefine Direction}}. La hauteur des éléments peut être spécifiée sous forme de fraction de la hauteur totale à l'aide de la propriété {{PropertyData|ZRefine Size}}. Cette approche ne fonctionne que pour les maillages de premier ordre (à moins que les éléments générés ne soient tous des hexaèdres). {{Version/fr|1.1}}
 
 [[Image:Z_refine.PNG|400px]]
 
