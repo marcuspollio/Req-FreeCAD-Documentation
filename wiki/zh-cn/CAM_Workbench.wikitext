@@ -120,9 +120,7 @@ CAM 检查器：
 <span id="Basic_Operations"></span>
 === 基本操作 ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:CAM_Profile.svg|32px]] [[CAM_Profile|Profile]]: Creates a profile operation of the entire model, or from one or more selected faces or edges.
-</div>
+* [[Image:CAM_Profile.svg|32px]] [[CAM_Profile|轮廓加工]]：为整个模型或基于一个或多个选定的面/边创建轮廓加工操作。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:CAM_Pocket_Shape.svg|32px]] [[CAM_Pocket_Shape|Pocket Shape]]: Creates a pocketing operation from one or more selected pocket(s).
