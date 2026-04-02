@@ -51,9 +51,7 @@ Pour obtenir une géométrie adaptée à l'analyse avec des éléments coques, i
 
 Là encore, il n'y a pas de règle unique, mais il est généralement recommandé que l'épaisseur soit < à 1/10 d'une dimension globale typique (longueur/largeur) pour que l'utilisation du principe de la coque soit valide.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.1}}: Very thin shells may have negligible bending stiffness and '''membrane''' elements can be used to model them. These elements cannot sustain bending. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]].
-</div>
+{{Version/fr|1.1}} : les coques très minces peuvent présenter une rigidité à la flexion négligeable et peuvent être modélisées à l'aide d'éléments de '''membrane'''. Ces éléments ne peuvent pas supporter la flexion. Pour les utiliser, activez la propriété {{PropertyData|Exclude Bending Stiffness}} du [[FEM_SolverCalculixCcxtools/fr|solveur CalculiX]].
 
 [[Image:FEM_shell_model.JPG|600px]]
 {{Caption|Pièce à paroi mince adaptée à l'analyse avec des éléments de coque - mise en évidence de la surface médiane}}
