@@ -36,7 +36,8 @@ L'outil [[Image:Sketcher_MirrorSketch.svg|24px]] [[Sketcher_MirrorSketch/fr|Sket
 # Appuyez sur le bouton {{Button|OK}}.
 # Pour chaque esquisse sélectionnée, une nouvelle esquisse est créée.
 
-==Notes==
+<span id="Notes"></span>
+==Remarques==
 
 * {{Version|1.2}} When symmetry constraints are created, the mirrored geometry remains constrained to the original geometry.
 * If the mirrored geometry touches the mirror axis, the required constraints are created automatically.
