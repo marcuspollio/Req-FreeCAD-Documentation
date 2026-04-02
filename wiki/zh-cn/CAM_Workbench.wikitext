@@ -130,9 +130,7 @@ CAM 检查器：
 
 * [[Image:CAM_Adaptive.svg|32px]] [[CAM_Adaptive|自适应加工]]：创建自适应清根与轮廓加工路径。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:CAM_Slot.svg|32px]] [[CAM_Slot|Slot]]: Creates a slotting operation from selected features or custom points.
-</div>
+* [[Image:CAM_Slot.svg|32px]] [[CAM_Slot|铣槽]]：根据选定特征或自定义点创建槽加工路径。
 
 <div class="mw-translate-fuzzy">
 * [[Image:CAM_Drilling.svg|32px]] [[CAM_Drilling|Drilling]]: 执行钻孔循环
