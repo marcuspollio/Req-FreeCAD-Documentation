@@ -62,11 +62,9 @@ CAM中的单位处理可能容易让人困惑，需要理解以下几点：
 # 默认单位方案使用系统预设单位。若使用默认方案，输入进给速率时未附带单位，则系统会按毫米/秒（mm/s）识别。
 # 大多数数控机床的进给速率单位为毫米/分钟（mm/min）或英寸/分钟（in/min）。多数后处理器在生成 G 代码时会自动进行单位转换。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Schemas:
-# Changing schema in preferences changes default unit string for the input fields. If you're a CAM user and prefer to design in metric, it's highly recommended that you use the "Metric Small Parts & CNC" schema. If you design in US units, either the Imperial Decimal and Building US will work.
-# Changing your preferred unit schema will have no effect on output but will help avoid input errors.
-</div>
+单位方案：
+# 在首选项中更改单位方案，会修改输入框的默认单位显示。如果你是 CAM 用户且习惯使用公制设计，强烈推荐使用 “公制小型零件与数控（Metric Small Parts & CNC）” 方案；若使用美制单位，则选择 “十进制英制” 或 “美式建筑单位” 均可。
+# 修改偏好的单位方案不会影响输出结果，但有助于避免输入错误。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Output:
