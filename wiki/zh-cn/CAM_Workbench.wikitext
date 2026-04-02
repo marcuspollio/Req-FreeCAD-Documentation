@@ -211,9 +211,8 @@ CAM 检查器：
 
 * [[Image:CAM_Fixture.svg|32px]] [[CAM_Fixture|夹具]]：更改夹具位置。在{{VersionPlus|1.1}}中不可用。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== ToolBit architecture ==
-</div>
+<span id="ToolBit_architecture"></span>
+== 刀具单元 ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Manage tools, bits, and the Tool Library. Based on the ToolBit architecture.
