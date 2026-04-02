@@ -259,9 +259,12 @@ CAM 检查器：
 * [[CAM_Development_Roadmap|CAM开发路线图]]：面向开发者，若你希望为CAM模块贡献代码可阅读此文档。
 
 
-<div class="mw-translate-fuzzy">
-[[Category:User Documentation/zh-cn|分类:用户文档]]
-</div>
+{{Docnav
+|[[BIM_Workbench|BIM工作台]]
+|[[Draft_Workbench|草图工作台]]
+|IconL=Workbench_BIM.svg
+|IconR=Workbench_Draft.svg
+}}
 
 {{CAM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
