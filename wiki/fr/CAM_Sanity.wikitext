@@ -13,7 +13,7 @@
 {{GuiCommand/fr
 |Name=CAM Sanity
 |Name/fr=CAM Chercher des erreurs
-|MenuLocation=CAM → Rechercher des erreurs
+|MenuLocation=CAM → Chercher des erreurs
 |Workbenches=[[CAM_Workbench/fr|CAM]]
 |Shortcut={{KEY|P}} {{KEY|S}}
 |Version=0.19
@@ -88,9 +88,9 @@ Les avertissements et les erreurs détectés par [[CAM_Sanity/fr|CAM Chercher de
 #* Appuyez sur le bouton {{Button|[[Image:CAM_Sanity.svg|16px]] [[CAM_Sanity/fr|Rechercher des erreurs]]}}.
 #* Sélectionnez {{MenuCommand|CAM → [[Image:CAM_Sanity.svg|16px]] Rechercher des erreurs}} du menu.
 #* Utilisez le raccourci clavier : {{KEY|P}} puis {{KEY|S}}.
-# Les informations pertinentes sont rassemblées dans un dictionnaire en Python puis formatées au format Asciidoctor. 
-# Le fichier Asciidoctor est écrit sur le disque au même endroit que le fichier qui sera post-traité. 
-# Un processus externe appelle Asciidoctor pour lire le fichier Asciidoctor et générer le fichier .html. 
+# Les informations pertinentes sont rassemblées dans un dictionnaire en Python puis formatées au format AsciiDoc. 
+# Le fichier AsciiDoc est écrit sur le disque au même endroit que le fichier qui sera post-traité. 
+# Un processus externe fait appel à Asciidoctor pour lire le fichier AsciiDoc et générer le fichier .html. 
 # Ceci lancera automatiquement le navigateur web du système pour visualiser le rapport HTML autonome généré.
 
 <span id="Notes"></span>
@@ -98,9 +98,7 @@ Les avertissements et les erreurs détectés par [[CAM_Sanity/fr|CAM Chercher de
 
 * AsciiDoc est un format de balisage léger pour la création de notes, d'articles, de livres, etc. Il est lisible par l'homme et facilement traduit dans d'autres formats.
 
-<div class="mw-translate-fuzzy">
-* Asciidoctor est un processeur de texte open-source rapide pour la conversion d'asciidoc en HTML, PDF ou d'autres formats. Il est disponible pour Linux, Windows et MacOS. Asciidoctor n'est pas installé avec FreeCAD. Si vous utilisez '''CAM Chercher des erreurs''' sans installer Asciidoctor, le fichier source asciidoc sera généré mais le HTML résultant ne sera pas produit. Voir [https://asciidoctor.org/ Site d'Asciidoctor]
-</div>
+* Asciidoctor est un processeur de texte open-source rapide pour la conversion d'AsciiDoc en HTML, PDF ou d'autres formats. Il est disponible pour Linux, Windows et macOS. Asciidoctor n'est pas installé avec FreeCAD. Si vous utilisez '''CAM Chercher des erreurs''' sans installer Asciidoctor, le fichier source AsciiDoc sera généré mais le HTML résultant ne sera pas produit. Voir [https://asciidoctor.org/ Site d'Asciidoctor]
 
 
 {{Docnav/fr
