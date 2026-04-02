@@ -27,7 +27,7 @@
 ==Description== <!--T:8-->
 
 <!--T:2-->
-Creates a FEM boundary condition for Electromagnetism. To be used together with the [[FEM_EquationElectrostatic|Electrostatic]], [[FEM_EquationElectricforce|Electricforce]], [[FEM_EquationMagnetodynamic|Magnetodynamic]], [[FEM_EquationMagnetodynamic2D|Magnetodynamic2D]] or [[FEM_EquationStaticCurrent|Static current]] equation.
+Creates a FEM boundary condition for electrostatic potential or ({{Version|1.2}}) magnetic flux density. To be used together with the [[FEM_EquationElectrostatic|Electrostatic]], [[FEM_EquationElectricforce|Electricforce]], [[FEM_EquationMagnetodynamic|Magnetodynamic]], [[FEM_EquationMagnetodynamic2D|Magnetodynamic2D]] or [[FEM_EquationStaticCurrent|Static current]] equation.
 
 <!--T:46-->
 {{Version|1.1}}: Works also with the refactored [[FEM_SolverCalculixCcxtools|CalculiX solver object]].
