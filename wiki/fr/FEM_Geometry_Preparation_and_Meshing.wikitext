@@ -37,9 +37,7 @@ En gros, il faut tracer une ligne médiane (vous trouverez quelques conseils pou
 
 Il n'existe pas de règle absolue dictant quand on peut utiliser des éléments de poutre, mais il est souvent recommandé que les dimensions de la section transversale soient < à 1/10 de la longueur de la pièce pour que l'hypothèse de poutre soit valable.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.1}}: Very slender beams may have negligible bending stiffness and '''truss''' elements can be used to model them. These elements cannot sustain bending. They only transmit axial forces, not moments. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]]. Instead of a profile, the {{PropertyData|Truss Area}} property of the [[FEM_ElementGeometry1D|FEM ElementGeometry1D]] object is used to define their cross-section.
-</div>
+{{Version/fr|1.1}} : Les poutres très minces peuvent présenter une rigidité à la flexion négligeable et peuvent être modélisées à l'aide d'éléments de '''treillis'''. Ces éléments ne peuvent pas résister à la flexion. Ils ne transmettent que des forces axiales, et non des moments. Pour les utiliser, activez la propriété {{PropertyData|Exclude Bending Stiffness}} du [[FEM_SolverCalculixCcxtools/fr|solveur CalculiX]]. Au lieu d'un profil, la propriété {{PropertyData|Truss Area}} de l'objet [[FEM_ElementGeometry1D/fr|FEM Coupe transversale d'un élément 1D]] est utilisée pour définir leur section transversale.
 
 [[Image:FEM_beam_model.JPG|600px]]
 {{Caption|Pièce mince convenant à l'analyse avec des éléments de poutre - axe central mis en évidence}}
