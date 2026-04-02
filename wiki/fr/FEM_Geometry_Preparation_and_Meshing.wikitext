@@ -264,9 +264,7 @@ Un maillage trop grossier est l'une des sources les plus courantes d'inexactitud
 <span id="Choosing_element_type"></span>
 === Choisir le type d'élément ===
 
-<div class="mw-translate-fuzzy">
-Le choix du type d'élément n'est pas facile et dépend de nombreux facteurs, mais la règle générale est que les éléments hexaédriques et quadrilatéraux sont préférables aux éléments tétraédriques et triangulaires. Cependant, les géométries complexes ne peuvent pas être maillées avec des éléments hexaédriques et FreeCAD ne peut pas les générer correctement (uniquement en utilisant l'algorithme de subdivision du maillage Gmsh, mais ses résultats ne sont pas ceux que l'on attendrait d'un maillage hexagonal). Les maillages quadratiques ou à dominante quadratique peuvent être générés normalement sur les surfaces, voir [https://forum.freecad.org/viewtopic.php?t=20351 ce fil de discussion]). Les éléments hexaédriques peuvent être importés à partir de maillages externes comme [https://gmsh.info Gmsh] et utilisés dans l'atelier FEM comme le montre [https://www.youtube.com/watch?v=vylt24G7qj4&t=932s cette vidéo].
-</div>
+Le choix du type d'élément n'est pas aisé et dépend de nombreux facteurs, mais la règle générale veut que les éléments hexaédriques et quadrilatéraux soient préférables aux éléments tétraédriques et triangulaires. Cependant, les géométries complexes ne peuvent pas être maillées avec des éléments hexaédriques et FreeCAD dispose de capacités très limitées pour leur génération (voir la section [[#Maillages_hexa|Maillages hexaédriques]] ci-dessous). Toutefois, des maillages comportant des éléments hexaédriques peuvent être importés à partir de générateurs de maillages externes tels que [https://gmsh.info Gmsh] et utilisés dans l'atelier FEM, comme le montre [https://www.youtube.com/watch?v=vylt24G7qj4&t=932s cette vidéo].
 
 <span id="Choosing_element_order"></span>
 === Choisir l'ordre des éléments ===
