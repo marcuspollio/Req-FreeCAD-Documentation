@@ -49,10 +49,10 @@ Các tính năng nâng cao của bàn làm việc Draft bao gồm khả năng nh
 
 Tạo hình dạng cơ bản của mặt bằng
 
-* Press the [[Image:Draft_Rectangle.svg|24px]] '''Draft Rectangle''' button
-* Draw a 2-meter by 2-meter rectangle starting from point (0,0,0), leave the Z coordinate at zero. You can efficiently complete this entire process using the keyboard, without needing the mouse. Simply type:
+Nhấn nút [[Image:Draft_Rectangle.svg|24px]] '''Hình chữ nhật'''.
+* Vẽ một hình chữ nhật kích thước 2m x 2m bắt đầu từ điểm (0,0,0), để tọa độ Z bằng 0. Bạn có thể hoàn thành toàn bộ quá trình này hiệu quả bằng bàn phím mà không cần dùng chuột. Chỉ cần gõ:
 ** '''re''', '''Enter''',  '''Enter''',  '''Enter''',  2m, '''Enter''',  2m, '''Enter''',  0 and '''Enter'''.
-This keyboard-driven workflow speeds up drafting, especially when working with repetitive tasks or precision input, making it ideal for users looking to streamline their workflow. You can view the keystrokes for every object by hovering over the corresponding button.
+Quy trình làm việc dựa trên bàn phím này giúp tăng tốc độ vẽ, đặc biệt khi làm việc với các tác vụ lặp lại hoặc nhập liệu chính xác, rất lý tưởng cho những người dùng muốn tối ưu hóa quy trình của họ. Bạn có thể xem các phím tắt cho từng đối tượng bằng cách giữ con trỏ chuột trên nút tương ứng.
 
 * Duplicate that rectangle by 15cm inside, using the [[Image:Draft_Offset.svg|16px]] [[Draft_Offset|Offset]] tool, turning its Copy mode on, and giving it a distance of 15cm:
 
