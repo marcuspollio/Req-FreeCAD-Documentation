@@ -252,9 +252,7 @@ Il s'agit d'outils permettant de créer des [[#Contraintes|contraintes]]. Certai
 
 * [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock/fr|Blocage]] : bloque les arêtes en place avec une seule contrainte. Cette commande est principalement destinée aux B-splines.
 
-<div class="mw-translate-fuzzy">
-* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup/fr|Grouper]] : regroupe les géométries sélectionnées. {{Version/fr|1.2}}
-</div>
+* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup/fr|Grouper]] : regroupe la géométrie sélectionnée. {{Version/fr|1.2}}
 
 * [[File:Sketcher_ConstrainSnellsLaw.svg|32px]] [[Sketcher_ConstrainSnellsLaw/fr|Réfraction]] : contraint deux lignes à suivre la loi de réfraction de la lumière lorsqu'elle pénètre à travers une interface.
 
