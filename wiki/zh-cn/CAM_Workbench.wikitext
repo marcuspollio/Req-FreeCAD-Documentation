@@ -22,13 +22,11 @@
 
 [[Image:pathwb.png|600px]]
 
-<div class="mw-translate-fuzzy">
 FreeCAD 路径工作台工作流程以以下方式创建机器指令:
 * 3D 模型是基本对象, 通常使用一个或多个 [[PartDesign Workbench|零件设计]], [[Part Workbench|零件]] 或 [[Draft Workbench|底图]] 工作台。
 * [[CAM_Job|作业]] 是在路径工作台中创建的。这包含了所有信息用于生成数控机床上处理作业的必要 G 代码: 有库存材料, 铣削有一个确定的 [[CAM_ToolBitLibraryOpen|工具集]], 它遵循某些命令控制速度和动作 (通常是 G 代码)。
 * 根据作业操作的要求选择工具。
 * 铣削路径的创建使用例如 [[CAM_Profile|轮廓]] 和 [[CAM_Pocket_3D|袖珍]] 操作。这些 路径对象 使用内部 FreeCAD G 代码方言, 独立于数控机床。
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == General concepts ==
