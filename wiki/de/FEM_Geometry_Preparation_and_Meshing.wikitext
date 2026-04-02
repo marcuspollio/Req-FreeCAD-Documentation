@@ -51,9 +51,7 @@ Um eine für die Analyse mit Schalenelementen geeignete Geometrie zu erhalten, s
 
 Auch hier gibt es keine allgemeingültige Regel, aber es wird in der Regel empfohlen, dass die Dicke < 1/10 einer typischen globalen Abmessung (Länge/Breite) betragen sollte, damit die Schalenannahme gültig ist.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.1}}: Very thin shells may have negligible bending stiffness and '''membrane''' elements can be used to model them. These elements cannot sustain bending. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]].
-</div>
+{{Version/de|1.1}}: Sehr dünne Schalen weisen unter Umständen eine vernachlässigbare Biegesteifigkeit auf und können daher mit '''Membran'''-Elementen modelliert werden. Diese Elemente sind nicht in der Lage, Biegungen aufzunehmen. Um sie zu verwenden, die Eigenschaft {{PropertyData/de|Exclude Bending Stiffness}} des [[FEM_SolverCalculixCcxtools/de|CalculiX-Lösers]] aktivieren.
 
 [[Image:FEM_shell_model.JPG|600px]]
 {{Caption|Dünnwandiges Bauteil, das zur Analyse von Schalenelementen geeignet ist - Mittelfläche hervorgehoben}}
