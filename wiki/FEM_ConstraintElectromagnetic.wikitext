@@ -45,7 +45,7 @@ Creates a FEM boundary condition for Electromagnetism. To be used together with 
 
 <!--T:44-->
 # There are several ways to invoke the command:
-#* Press the {{Button|[[Image:FEM_ConstraintElectrostaticPotential.svg|16px]] [[Electromagnetic Boundary Condition|Electromagnetic Boundary Condition]]}} button.
+#* Press the {{Button|[[Image:FEM_ConstraintElectrostaticPotential.svg|16px]] [[FEM_ConstraintElectromagnetic|Electromagnetic Boundary Condition]]}} button.
 #* Select the {{MenuCommand|Model → Electromagnetic Boundary Conditions → [[Image:FEM_ConstraintElectrostaticPotential.svg|16px]] Electromagnetic Boundary Condition}} option from the menu.
 # {{VersionPlus|1.1}}: Select a boundary condition type and its parameters:
 #* ''Dirichlet'' - select and specify ''Potential'' or ''Electromagnetic Potential''. Optionally, set ''Electric Infinity'' ({{VersionPlus|1.2}}: ''Far field'') and ''Potential Constant''.
