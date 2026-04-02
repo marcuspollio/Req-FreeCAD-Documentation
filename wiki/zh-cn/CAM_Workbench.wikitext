@@ -149,9 +149,7 @@ CAM 检查器：
 
 * [[Image:CAM_Surface.svg|32px]] [[CAM_Surface|三维表面]]：创建三维曲面加工路径。[[CAM_experimental|{{Emphasis|实验性功能}}]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:CAM_Waterline.svg|32px]] [[CAM_Waterline|Waterline]]: Creates a waterline path for a 3D surface. [[CAM_experimental|{{Emphasis|Experimental}}]].
-</div>
+* [[Image:CAM_Waterline.svg|32px]] [[CAM_Waterline|水线加工]]：为三维曲面创建水线加工路径。[[CAM_experimental|{{Emphasis|实验性功能}}]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Path Dressup ===
