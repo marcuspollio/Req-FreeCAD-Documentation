@@ -29,7 +29,7 @@ Bản chất tham số của FreeCAD cho phép áp dụng các ràng buộc lên
 
 Các tính năng nâng cao của bàn làm việc Draft bao gồm khả năng nhập và xuất file ở các định dạng như DXF và SVG, cho phép bạn làm việc hoặc chia sẻ thiết kế với người dùng các chương trình CAD khác. Việc viết kịch bản Python càng tăng cường khả năng của FreeCAD, cho phép bạn tự động hóa các tác vụ hoặc tạo quy trình làm việc tùy chỉnh. Bạn có thể viết các script tạo đối tượng draft dựa trên các quy tắc hình học cụ thể, hợp lý hóa các tác vụ lặp đi lặp lại.
 
-To showcase the workflow and possibilities of the Draft Workbench, we will walk through a simple exercise, the result of which will be this little drawing, showing the floor plan of a small house that contains only a kitchen top (A pretty absurd floor plan, but we can do what we want here, can't we?):
+Để minh họa quy trình làm việc và các khả năng của bàn làm việc Draft, chúng ta sẽ thực hiện một bài tập đơn giản. Kết quả sẽ là bản vẽ mặt bằng sàn của một ngôi nhà nhỏ chỉ chứa một khu bếp (một mặt bằng khá vô lý, nhưng chúng ta có thể làm những gì mình muốn mà, phải không?):
 
 [[Image:Exercise_cabin_01.jpg]]
 
