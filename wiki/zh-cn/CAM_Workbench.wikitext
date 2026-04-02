@@ -103,9 +103,7 @@ CAM 检查器：
 <span id="Tool_Commands"></span>
 === 刀具命令 ===
 
-<div class="mw-translate-fuzzy">
-* [[Image:CAM_Inspect.svg|32px]] [[CAM_Inspect|G-Code Inspector]]: 显示 G 代码以便检查
-</div>
+* [[Image:CAM_Inspect.svg|32px]] [[CAM_Inspect|检查刀具路径]]: 显示G代码以供检查。
 
 <div class="mw-translate-fuzzy">
 * [[Image:CAM_Simulator.svg|32px]] [[CAM_Simulator|Simulator]]: 显示铣削操作, 就像在机器上做的那样
