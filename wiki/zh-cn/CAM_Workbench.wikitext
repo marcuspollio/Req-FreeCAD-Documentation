@@ -29,9 +29,8 @@ FreeCAD CAM工作台创建加工指令的流程如下:
 * 通过[[CAM_Profile|轮廓加工]]和[[CAM_Pocket_3D|型腔加工]]等操作创建铣削路径。这些CAM对象使用FreeCAD内部的G代码格式，与具体数控机床无关。
 * 导出适配你所用机床的G代码作业文件。这一步骤称为''后处理''，软件提供多种后处理器可供选用。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== General concepts ==
-</div>
+<span id="General_concepts"></span>
+== 基本概念 ==
 
 <div class="mw-translate-fuzzy">
 == 一般概念 ==
