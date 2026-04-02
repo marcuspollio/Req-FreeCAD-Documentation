@@ -100,7 +100,7 @@ Les sections de configuration typiques incluent :
 * '''POSTAMBLE''' : configuration du code annexée à la tâche, permettant de stationner la machine, etc.
 * '''TOOL_CHANGE''' : code inséré avec chaque changement d'outil dans la tâche.
 
-{{MenuCommand|Édition → Préférences → CAM → Préférences des tâches → Valeurs par défaut → Parcours}} permet de définir le post-processeur par défaut sélectionné lors de la création de la tâche. Ceci permet à l'atelier CAM d'être configuré pour n'afficher que les post-processeurs souhaités et de définir une valeur par défaut. 
+{{MenuCommand|Édition → Préférences → CAM → Préférences des tâches → Onglet ''Post-processeur'' → Post-processeur}} permet de définir le post-processeur par défaut sélectionné lors de la création de la tâche. Ceci permet à l'atelier CAM d'être configuré pour n'afficher que les post-processeurs souhaités et de définir une valeur par défaut. 
 
 Les paramètres de post-traitement peuvent provenir soit du post-processeur sélectionné pour la tâche, soit d'une configuration de machine choisie. Si l'on utilise une configuration de machine, celle-ci peut définir le post-processeur et les options de sortie associées.
 
