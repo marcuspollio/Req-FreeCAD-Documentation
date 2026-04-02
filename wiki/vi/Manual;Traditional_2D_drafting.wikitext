@@ -44,8 +44,8 @@ Các tính năng nâng cao của bàn làm việc Draft bao gồm khả năng nh
 
 * Bật tất cả các nút bắt điểm (snap) tuy tiện lợi nhưng cũng làm chậm quá trình vẽ vì cần nhiều tính toán hơn khi di chuyển con trỏ chuột. Tốt hơn là chỉ bật những cái bạn thực sự sử dụng.
 
-* Let's start by turning '''construction mode''' on, which will allow us to draw some guidelines on which we will draw our final geometry. You can do that by pressing on the [[Image:Draft_ToggleConstructionMode.svg|24px]] [[Draft_ToggleConstructionMode|Toggle construction mode]] command.
-* If you prefer, you can set the working plane to XY. This will lock the working plane, ensuring it remains on the XY plane regardless of how you change the view. If you choose not to do this, the working plane will automatically adapt to the current view, meaning you'll need to ensure you're in the top view whenever you want to draw on the XY (ground) plane to avoid unintended shifts in orientation.
+* Hãy bắt đầu bằng cách bật '''chế độ xây dựng (construction mode)''', cho phép chúng ta vẽ một số đường dẫn hướng (guidelines) mà trên đó chúng ta sẽ vẽ hình học cuối cùng. Bạn có thể làm điều này bằng cách nhấn vào lệnh [[Image:Draft_ToggleConstructionMode.svg|24px]] [[Draft_ToggleConstructionMode|Toggle construction mode]] (Chuyển đổi chế độ xây dựng).
+* Nếu muốn, bạn có thể đặt mặt phẳng làm việc thành XY. Điều này sẽ khóa mặt phẳng làm việc, đảm bảo nó luôn nằm trên mặt phẳng XY bất kể bạn thay đổi góc nhìn như thế nào. Nếu bạn chọn không làm điều này, mặt phẳng làm việc sẽ tự động thích ứng với góc nhìn hiện tại, nghĩa là bạn sẽ cần đảm bảo đang ở chế độ nhìn từ trên xuống (Top view) bất cứ khi nào muốn vẽ trên mặt phẳng XY (mặt đất) để tránh các thay đổi hướng ngoài ý muốn.
 
 Let's begin laying out the basic shape of our floorplan.
 
