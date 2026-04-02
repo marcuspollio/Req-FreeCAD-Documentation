@@ -96,9 +96,7 @@ CAM 检查器：
 
 * [[Image:CAM_Post.svg|32px]] [[CAM_Post|后处理]]: 将工程导出为G代码。
 
-<div class="mw-translate-fuzzy">
-* [[Image:CAM_Sanity.svg|32px]] [[CAM_Sanity|CAM Errors]]: 检查已选择的作业是否有缺失值
-</div>
+* [[Image:CAM_Sanity.svg|32px]] [[CAM_Sanity|合理性检查]]: 检查所选作业是否存在缺失参数。
 
 <div class="mw-translate-fuzzy">
 * [[Image:Path-ExportTemplate.png|32px]] [[CAM_ExportTemplate|Export Template]]: 导出当前作业作为一个模板
