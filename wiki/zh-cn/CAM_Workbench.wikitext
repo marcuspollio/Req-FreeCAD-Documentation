@@ -111,7 +111,7 @@ CAM 检查器：
 
 * [[Image:CAM_SelectLoop.svg|32px]] [[CAM_SelectLoop|完成轮廓选择]]：根据选中的两条边闭合生成轮廓。
 
-* [[Image:CAM_OpActiveToggle.svg|32px]] [[CAM_OpActiveToggle|启用/禁用加工]]：激活或停用某条刀具路径加工。
+* [[Image:CAM_OpActiveToggle.svg|32px]] [[CAM_OpActiveToggle|启用/禁用加工]]：激活或停用某条刀具路径。
 
 * [[Image:CAM_ToolBitLibraryOpen.svg|32px]] [[CAM_ToolBitLibraryOpen|刀具单元库管理器]]：打开编辑器以管理刀具单元库（ToolBit 库）。
 
