@@ -68,7 +68,7 @@ Si une seule machine CNC est utilisée ou si toutes les machines CNC partagent u
 <span id="Usage"></span>
 == Utilisation ==
 
-# Sélectionnez une [[Image:CAM_Job.svg|16px]] [[CAM_Job/fr|CAM Tâche]] dans la [[Tree_view/fr|vue en arborescence]].
+# Sélectionnez une [[Image:CAM_Job.svg|16px]] [[CAM_Job/fr|tâche]] dans l'[[Tree_View/fr|arborescence]].
 # Il existe plusieurs façons de lancer la commande :
 #* Appuyez sur le bouton {{Button|[[Image:CAM_Post.svg|16px]] [[CAM_Post/fr|Post-traiter]]}}.
 #* Sélectionnez l'option {{MenuCommand|CAM → [[Image:CAM_Post.svg|16px]] Post-traiter }} du menu.
