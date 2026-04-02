@@ -13,7 +13,7 @@ Bàn làm việc Draft của FreeCAD đóng vai trò là cầu nối giữa vẽ
 
 Một trong những điểm mạnh của Workbench Draft là bộ công cụ toàn diện, bao gồm cả các công cụ vẽ cơ bản và các công cụ hiệu chỉnh nâng cao. Những công cụ này không chỉ dùng cho vẽ 2D mà còn để thao tác các đối tượng trong không gian 3D. Bạn có thể thiết lập mặt phẳng làm việc, định nghĩa lưới và áp dụng các ràng buộc để đảm bảo các mối quan hệ hình học luôn được duy trì trong thiết kế của bạn. Các đối tượng Draft có thể được sửa đổi và định vị lại bằng các chế độ bắt điểm (snapping) và nhiều loại ràng buộc khác nhau, giúp việc vẽ chính xác trở nên dễ dàng hơn.
 
-Một số công cụ trong Workbench Draft:
+Một số công cụ trong bàn làm việc Draft:
 # Công cụ Vẽ:
 * [[Image:Draft_Line.svg|16px]] [[Draft_Line|Đường thẳng (Line)]],  [[Image:Draft_Wire.svg|16px]] [[Draft_Wire|Đường gấp khúc (Wire/]]polyline): Cho phép tạo các đoạn thẳng hoặc đường gấp khúc liên tục, có thể bị ràng buộc và chuyển đổi thành hình khối 3D.
 *[[Image:Draft_Circle.svg|16px]] [[Draft_Circle|Vòng tròn (Circle)]], [[Image:Draft_Ellipse.svg|16px]] [[Draft_Ellipse|Hình elip (Ellipse)]], và [[Image:Draft_Arc.svg|16px]] [[Draft_Arc|Cung tròn (Arc)]]: Dùng để định nghĩa các hình dạng tròn và elip cơ bản, với các tùy chọn để thao tác thêm.
