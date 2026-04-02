@@ -76,9 +76,8 @@ CAM中的单位处理可能容易让人困惑，需要理解以下几点：
 CAM 检查器：
 # 若使用CAM检查工具查看G代码，会看到单位为毫米/秒（mm/s），因为此时代码尚未经过后处理。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Heights and depths ==
-</div>
+<span id="Heights_and_depths"></span>
+== 高度与深度 ==
 
 <div class="mw-translate-fuzzy">
 ==路径命令==
