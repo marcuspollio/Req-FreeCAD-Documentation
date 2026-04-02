@@ -92,9 +92,7 @@ CAM 检查器：
 <span id="Project_Commands"></span>
 === 项目命令 ===
 
-<div class="mw-translate-fuzzy">
-* [[Image:Path-Job.png|32px]] [[CAM_Job|Job]]:  创建一个新的 CNC 作业
-</div>
+* [[Image:Path-Job.png|32px]] [[CAM_Job|创建作业]]:  创建一个新的CNC作业。
 
 <div class="mw-translate-fuzzy">
 * [[Image:CAM_Post.svg|32px]] [[CAM_Post|Post Process]]: 导出一个项目到 G 代码
