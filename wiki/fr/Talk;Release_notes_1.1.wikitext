@@ -1,0 +1,11 @@
+== integration d'un text dans un solid (erreur) ==
+
+18:55:07  pyException: Traceback (most recent call last):
+
+File "<string>", line 1, in <module>
+
+File "C:\Users\cterr\AppData\Local\Programs\FreeCAD 1.1\Mod\Part\BOPTools\BOPFeatures.py", line 83, in make_fuse
+
+target.addObject(obj)
+
+<class 'ValueError'>: Body: object is not allowed [[User:Cterret|Cterret]] ([[User talk:Cterret|talk]]) 16:52, 2 April 2026 (UTC)
