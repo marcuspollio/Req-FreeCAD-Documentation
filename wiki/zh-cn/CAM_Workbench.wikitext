@@ -100,9 +100,8 @@ CAM 检查器：
 
 * [[Image:Path-ExportTemplate.png|32px]] [[CAM_ExportTemplate|导出模板]]: 导出当前作业作为一个模板
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Tool Commands ===
-</div>
+<span id="Tool_Commands"></span>
+=== 刀具命令 ===
 
 <div class="mw-translate-fuzzy">
 * [[Image:CAM_Inspect.svg|32px]] [[CAM_Inspect|G-Code Inspector]]: 显示 G 代码以便检查
