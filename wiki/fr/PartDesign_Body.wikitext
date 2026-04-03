@@ -168,8 +168,10 @@ La visibilité du corps remplace la visibilité de tout objet qu'il contient. Si
 
 Plusieurs [[Sketch/fr|esquisses]] peuvent être visibles à la fois mais une seule [[PartDesign_Feature/fr|PartDesign Feature]] (résultat solide) peut être visible à la fois. Sélectionner une fonction cachée et appuyer sur la {{KEY|barre espace}} du clavier la rendra visible et masquera automatiquement la fonction précédemment visible.
 
+<div class="mw-translate-fuzzy">
 [[File:PartDesign_Body_Visibility.png]]
 {{Caption|PartDesign Corps : plusieurs [[Sketch/fr|esquisses]] peuvent être visibles simultanément, mais une seule [[PartDesign_Feature/fr|PartDesign Feature]] peut être visible à la fois, que ce soit le tip ou non.}}
+</div>
 
 <span id="Attachment"></span>
 === Ancrage ===
