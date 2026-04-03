@@ -9,6 +9,7 @@
 |IconC=Workbench_PartDesign.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/ru
 |Name/ru=Субтрактивная сфера
 |Name=PartDesign_SubtractiveSphere
@@ -17,6 +18,7 @@
 |Version=0.17
 |SeeAlso=[[PartDesign_CompPrimitiveSubtractive/ru|Создать субтрактивный примитив]], [[PartDesign_AdditiveSphere/ru|Аддитивная сфера]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Описание==
@@ -39,9 +41,11 @@
 <span id="Options"></span>
 ==Опции==
 
+<div class="mw-translate-fuzzy">
 Параметры Сферы после её создания можно изменить двумя способами:
 * Дважды щелкнув по ней в дереве модели или щелкнув правой кнопкой мыши и выбрав '''Редактировать примитив''' в контекстном меню; это откроет окно параметров примитива.
 * Через [[Property_editor/ru|Редактор свойств]].
+</div>
 
 <span id="Properties"></span>
 ==Свойства==
@@ -62,7 +66,6 @@
 |IconR=PartDesign_SubtractiveCone.svg
 |IconC=Workbench_PartDesign.svg
 }}
-
 
 {{PartDesign_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
