@@ -60,6 +60,7 @@ Draft 작업대(workbench)의 작업 흐름과 가능성을 보여 주기 위해
 
 [[Image:Exercise_cabin_02.png]]
 
+<div class="mw-translate-fuzzy">
 * 이제 [[Image:Draft_Line.svg|16px]] [[Draft_Line|선(Line)]] 도구를 사용하여 문과 창문이 배치될 위치를 정의하기 위한 몇 개의 수직선을 그릴 수 있습니다. 이 단계에서는 「상대 모드(Relative mode)」 체크박스가 꺼져 있어야 한다는 점에 유의하세요. 이 선들이 두 개의 사각형과 교차하면서, 벽을 스냅할 수 있는 유용한 교차점을 만들어 줍니다. 첫 번째 선은 다음 점들을 지정하여 그립니다:
 ** '''P1''' (15cm, 1m, 0)
 ** '''P2''' (15cm, 3m, 0)
@@ -69,6 +70,7 @@ Draft 작업대(workbench)의 작업 흐름과 가능성을 보여 주기 위해
 ** line003: x: -55cm, y: -2m
 ** line004: x: 80cm
 ** line005: x: 15cm
+</div>
 
 [[Image:Exercise_cabin_03.jpg]]
 
