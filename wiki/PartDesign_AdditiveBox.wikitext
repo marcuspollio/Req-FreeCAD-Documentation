@@ -44,9 +44,8 @@ Inserts a primitive box in the active Body as the first feature, or fuses it to 
 
 <!--T:9-->
 The Box can be edited after its creation in two ways:
-* Double-clicking it in the [[Tree_View|Tree View]], or by right-clicking and selecting '''Edit Primitive''' in the context menu; this brings up the Primitive Parameters.
+* Double-clicking it in the [[Tree_View|Tree View]], or by right-clicking and selecting '''Edit Primitive''' in the context menu; this brings up the Primitive Parameters and ({{Version|1.2}}) the interactive gizmos (if enabled).
 * Via the [[Property_View|Property View]].
-{{Version|1.2}} When editing the primitive, interactive gizmos may be available in the [[3D_View|3D View]] to adjust its size directly.
 
 ==Properties== <!--T:10-->
 
