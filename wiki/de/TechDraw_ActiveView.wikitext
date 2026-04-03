@@ -45,12 +45,14 @@ Das Werkzeug '''TechDraw AktiveAnsicht''' fügt eine Bitmap-Abbildung der aktive
 
 Folgendes kann eingestellt werden: 
 
+<div class="mw-translate-fuzzy">
 * {{MenuCommand|Bild zuschneiden}}: Beschneidet die erstellte Abbildung.
 * {{MenuCommand|Auf Breite zuschneiden}}: Die Breite (in mm) zum Beschneiden der erstellten Abbildung.
 * {{MenuCommand|Auf Höhe zuschneiden}}: Die Höhe (in mm) zum Beschneiden der erstellten Abbildung.
 * {{MenuCommand|Kein Hintergrund}}: Wenn aktiviert, erhält die Abbildung einen transparenten Hintergrund.
 * {{MenuCommand|Einfarbiger Hintergrund}}: Wenn aktiviert, erhält die Abbildung einen einfarbigen Hintergrund in der ausgwählten Farbe.
 * {{MenuCommand|3D-Hintergrund verwenden}}:  Wenn aktiviert, erhält die Abbildung den Hintergrund der 3D-Ansicht.
+</div>
 
 <span id="Notes"></span>
 == Hinweise ==
