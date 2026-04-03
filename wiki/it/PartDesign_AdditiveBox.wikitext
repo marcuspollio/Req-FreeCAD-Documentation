@@ -9,6 +9,7 @@
 |IconC=Workbench_PartDesign.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/it
 |Name=PartDesign AdditiveBox
 |Name/it=Cubo additivo
@@ -17,6 +18,7 @@
 |Version=0.17
 |SeeAlso=[[PartDesign_CompPrimitiveAdditive/it|Primitiva additiva]], [[PartDesign_SubtractiveBox/it|Cubo sottrattivo]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Descrizione==
@@ -28,19 +30,23 @@ Inserisce un cubo primitivo nel corpo attivo come prima caratteristica o lo fond
 <span id="Usage"></span>
 ==Utilizzo==
 
+<div class="mw-translate-fuzzy">
 # Esistono diversi modi per richiamare lo strumento:
 #* Premere il pulsante {{Button|[[File:PartDesign_AdditiveBox.svg|16px]] [[PartDesign_AdditiveBox|Cubo]]}}. '''Nota''': Il Cubo additivo fa parte di un menu di icone etichettato ''Crea una primitiva additiva''. Dopo l'avvio di FreeCAD, nella barra degli strumenti viene visualizzato il cubo additivo. Se viene visualizzata una primitiva diversa, fare clic sulla freccia rivolta verso il basso accanto all'icona e selezionare Cubo.
 #* Selezionare l'opzione {{MenuCommand|Part Design → Crea una primitiva additiva → [[Image:PartDesign_AdditiveBox.svg|16px]] Cubo}} dal menu.
 # Impostare i parametri della primitiva e la modalità di  [[Part_EditAttachment/it|associazione]].
 # Cliccare su {{Button|OK}}.
 # Nel corpo attivo viene visualizzata una funzione Cubo.
+</div>
 
 <span id="Options"></span>
 == Opzioni ==
 
+<div class="mw-translate-fuzzy">
 Dopo la sua creazione il cubo può essere modificato in due modi:
 * Nell'albero del modello fare doppio clic, oppure fare clic con il tasto destro e selezionare '''Edita la primitiva''' dal menu contestuale; questo mostra i parametri primitivi.
 * Tramite l'[[Property_editor/it|editor delle proprietà]].
+</div>
 
 <span id="Properties"></span>
 == Proprietà ==
