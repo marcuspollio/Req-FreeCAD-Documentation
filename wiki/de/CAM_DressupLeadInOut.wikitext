@@ -1,8 +1,7 @@
 <languages/>
-{{UnfinishedDocu{{#translation:}}}}
 
 {{Docnav/de
-|[[CAM_DressupDragKnife/de|AufbereitungZiehmesser]]
+|[[CAM_DressupDragKnife/de|AufbereitungSchleppmesser]]
 |[[CAM_DressupRampEntry/de|AufbereitungEingangsrampe]]
 |[[CAM_Workbench/de|CAM]]
 |IconL=CAM_DressupDragKnife.svg
@@ -21,14 +20,31 @@
 <span id="Description"></span>
 ==Beschreibung==
 
+The [[Image:CAM_DressupLeadInOut.svg|24px]] [[CAM_DressupLeadInOut|CAM DressupLeadInOut]] command dresses up an existing path by adding lead-in and lead-out moves at the beginning and end of the toolpath.
+
 <span id="Usage"></span>
 ==Anwendung==
+
+# Select an existing path object.
+# There are several ways to invoke the command:
+#* Press the {{Button|[[Image:CAM_DressupLeadInOut.svg|16px]] [[CAM_DressupLeadInOut|Lead In/Out]]}} button.
+#* Select the {{MenuCommand|CAM → Path Dressup → [[Image:CAM_DressupLeadInOut.svg|16px]] Lead In/Out}} option from the menu.
+# Adjust the lead-in and lead-out settings in the task panel.
+# Confirm the dressup.
 
 <span id="Options"></span>
 ==Optionen==
 
+* '''Lead in''': Controls the entry move added before the main cutting path.
+* '''Lead out''': Controls the exit move added after the main cutting path.
+* '''Feed rate''': {{Version|1.2}} The corresponding lead-in and lead-out moves use the feed rates defined for these moves in the tool controller. By default these follow the horizontal feed rate.
+
 <span id="Limitations"></span>
 ==Einschränkungen==
+
+* This dressup modifies the start and end of an existing path.
+* The exact result depends on the selected path and the chosen lead-in and lead-out settings.
+* {{Version|1.2}} [[Image:CAM_DressupRampEntry.svg|16px]] [[CAM_DressupRampEntry|CAM DressupRampEntry]] can also be applied to a path that already has a Lead In/Out dressup.
 
 <span id="Scripting"></span>
 ==Skripten==
@@ -39,7 +55,7 @@ Add python code here
 
 
 {{Docnav/de
-|[[CAM_DressupDragKnife/de|AufbereitungZiehmesser]]
+|[[CAM_DressupDragKnife/de|AufbereitungSchleppmesser]]
 |[[CAM_DressupRampEntry/de|AufbereitungEingangsrampe]]
 |[[CAM_Workbench/de|CAM]]
 |IconL=CAM_DressupDragKnife.svg
