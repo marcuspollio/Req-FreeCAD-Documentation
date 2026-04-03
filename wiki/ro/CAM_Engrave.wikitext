@@ -1,5 +1,4 @@
 <languages/>
-{{UnfinishedDocu{{#translation:}}}}
 
 {{Docnav
 |[[CAM_Drilling|Drilling]]
@@ -20,15 +19,24 @@
 Path Engrave este în primul rând pentru gravarea pe ShapeString pe o piesă. Cu toate acestea, Engrave poate fi util pentru alte tipuri de lucrări 2D
 </div>
 
-The [[Image:CAM_Engrave.svg|24px]] [[CAM_Engrave|CAM Engrave]] command is primarily for engraving a [[Image:Draft_ShapeString.svg|16px]] [[Draft_ShapeString|Draft ShapeString]] onto a part. However, it may be useful for other kinds of 2D.
+The [[Image:CAM_Engrave.svg|24px]] [[CAM_Engrave|CAM Engrave]] command is primarily for engraving a [[Image:Draft_ShapeString.svg|16px]] [[Draft_ShapeString|Draft ShapeString]] onto a part. It can also be used with other flat 2D geometry, for example imported SVG-based shapes.
 
 ==Usage==
 
-Empty
+# There are several ways to invoke the command:
+#* Press the {{Button|[[Image:CAM_Engrave.svg|16px]] [[CAM_Engrave|Engrave]]}} button.
+#* Select the {{MenuCommand|CAM → [[Image:CAM_Engrave.svg|16px]] Engrave}} option from the menu.
+# In the {{MenuCommand|Base Geometry}} section, select the geometry to engrave.
+#* A [[Image:Draft_ShapeString.svg|16px]] [[Draft_ShapeString|Draft ShapeString]] can be used.
+#* Other flat 2D geometry, such as imported SVG-based shapes, can also be used.
+#* When possible, select the whole flat shape instead of selecting many individual edges in the [[3D_View|3D View]].
+# In the {{MenuCommand|Depths}} section, check and adjust the depth settings as required.
+# Confirm the operation.
 
 ==Options==
 
-Empty
+* '''Base''': The geometry to engrave.
+* '''Clear''': Clears the current geometry selection.
 
 ==Properties==
 
