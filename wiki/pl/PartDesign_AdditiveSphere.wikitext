@@ -12,10 +12,10 @@
 {{GuiCommand/pl
 |Name=PartDesign AdditiveSphere
 |Name/pl=Projekt Części: Addytywna sfera
-|MenuLocation=Projekt Części → Utwórz cechę przez dodanie → Addytywna sfera
+|MenuLocation=Projekt Części → Addytywny prymityw → Addytywna sfera
 |Workbenches=[[PartDesign_Workbench/pl|Projekt Części]]
 |Version=0.17
-|SeeAlso=[[PartDesign_CompPrimitiveAdditive/pl|Komponent bryła pierwotna do dodania]], [[PartDesign_SubtractiveSphere/pl|Subtraktywna sfera]]
+|SeeAlso=[[PartDesign_SubtractiveSphere/pl|Subtraktywna sfera]]
 }}
 
 <span id="Description"></span>
@@ -28,19 +28,23 @@ Funkcja ta wstawia pierwotną sferę do aktywnej Zawartości jako pierwszy eleme
 <span id="Usage"></span>
 ==Użycie==
 
+<div class="mw-translate-fuzzy">
 # Istnieje kilka sposobów na wywołanie tego polecenia:
 #* Naciśnij przycisk {{Button|[[File:PartDesign_AdditiveSphere.svg|16px]] [[PartDesign_AdditiveSphere/pl|Addytywna sfera]]}}. '''Uwaga''': Addytywna sfera jest częścią menu narzędzi o nazwie '''Utwórz bryłę pierwotną do dodania'''. Po uruchomieniu programu FreeCAD, Addytywny prostopadłościan wyświetlany jest na pasku narzędzi domyślnie. Aby przejść do funkcji Sfera, kliknij strzałkę w dół na widocznej ikonce i wybierz z menu opcję Addytywna sfera.
 #* Wybierz opcję {{MenuCommand|Projekt Części → Utwórz bryłę pierwotną do dodania → [[Image:PartDesign_AdditiveSphere.svg|16px]] Addytywna sfera}} z menu.
 # Ustaw parametry bryły i [[Part_EditAttachment/pl|dołączenia]].
 # Kliknij {{Button|OK}}.
 # Pod aktywnym obiektem Zawartość pojawi się element Sfera.
+</div>
 
 <span id="Options"></span>
 ==Opcje==
 
+<div class="mw-translate-fuzzy">
 Sferę można edytować po jej utworzeniu na dwa sposoby:
-* Klikając go dwukrotnie w drzewie modelu lub klikając prawym przyciskiem myszy i wybierając '''Edytuj bryłę pierwotną''' z menu podręcznego. Spowoduje to wyświetlenie parametrów bryły pierwotnej.
-* Poprzez [[Property_editor/pl|Edytor właściwości]].
+* Klikając ją dwukrotnie w [[Tree_View/pl|Widoku drzewa]] lub klikając prawym przyciskiem myszy i wybierając '''Edytuj prymityw''' z menu kontekstowego. Spowoduje to wyświetlenie parametrów prymitywu.
+* Poprzez [[Property_View/pl|Widok właściwości]].
+</div>
 
 <span id="Properties"></span>
 ==Właściwości==
