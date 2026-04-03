@@ -401,7 +401,9 @@ Tutaj zaznaczenie obejmuje także numery linii w przykładzie kodu. Jeśli to za
 
 Makra mogą wyświetlać informacje w widoku raportu, aby szczegółowo opisać, co kod robi podczas jego wykonywania.
 
+<div class="mw-translate-fuzzy">
 Jeśli żadna informacja nie jest wyświetlana, upewnij się, że widok raportu i konsola [[Python/pl|Pythona]] są widoczne, a wyjście jest kierowane do widoku raportu.
+</div>
 
 <div class="mw-collapsible-content">
 
