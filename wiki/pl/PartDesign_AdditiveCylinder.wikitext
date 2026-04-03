@@ -28,21 +28,25 @@ Funkcja ta wstawia pierwotny walec do aktywnej Zawartości jako pierwszy element
 <span id="Usage"></span>
 ==Użycie==
 
+<div class="mw-translate-fuzzy">
 # Istnieje kilka sposobów na wywołanie tego polecenia:
 #* Naciśnij przycisk {{Button|[[File:PartDesign_AdditiveCylinder.svg|16px]] [[PartDesign_AdditiveCylinder/pl|Addytywny walec]]}}. '''Uwaga''': Addytywny walec jest częścią menu narzędzi o nazwie '''Utwórz bryłę pierwotną do dodania'''. Po uruchomieniu programu FreeCAD, Addytywny prostopadłościan wyświetlany jest na pasku narzędzi domyślnie. Aby otrzymać Walec, kliknij strzałkę w dół na widocznej ikonce i wybierz z menu opcję Addytywny walec.
 #* Wybierz opcję {{MenuCommand|Projekt Części → Utwórz bryłę pierwotną do dodania → [[Image:PartDesign_AdditiveCylinder.svg|16px]] Addytywny walec}} z menu.
 # Ustaw parametry bryły i [[Part_EditAttachment/pl|dołączenia]].
 # Kliknij {{Button|OK}}.
 # Pod aktywnym obiektem Zawartość pojawi się element Prostopadłościanu.
+</div>
 
 <span id="Options"></span>
 ==Opcje==
 
 Możliwe jest tworzenie przekrzywionych walców poprzez określenie kątów w odniesieniu do wektora normalnego wybranego dołączenia.
 
+<div class="mw-translate-fuzzy">
 Walec można edytować po jego utworzeniu na dwa sposoby:
 * Klikając go dwukrotnie w [[Tree_View/pl|Widoku drzewa]] lub klikając prawym przyciskiem myszy i wybierając '''Edytuj prymityw''' z menu kontekstowego. Spowoduje to wyświetlenie parametrów prymitywu.
 * Poprzez [[Property_View/pl|Widok właściwości]].
+</div>
 
 <span id="Properties"></span>
 ==Właściwości==
