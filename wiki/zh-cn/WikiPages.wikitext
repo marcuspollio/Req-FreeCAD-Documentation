@@ -37,9 +37,8 @@
 
 请勿使用页面嵌入功能（[[Help:Editing#Templates_and_transcluding_pages|帮助：编辑#模板与页面嵌入]]），该功能会给维基文档的翻译工作造成困难。仅可使用本文「模板」章节中所介绍的模板。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Styling ===
-</div>
+<span id="Styling"></span>
+=== 样式规范 ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Templates are used to style the help pages. They give the documentation a consistent look and feel. There is a template for menu commands, {{MenuCommand|File → Save}}, a template to style keys to be pressed, {{KEY|Shift}}, to show a Boolean value, {{TRUE}}, etc. Please get familiar with the [[#Templates|#Templates]] section before writing help pages.
