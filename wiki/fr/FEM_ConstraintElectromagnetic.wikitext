@@ -9,12 +9,11 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommandContainer
 |{{GuiCommand/fr
-|Name=FEM ConstraintElectrostaticPotential
-|Name/fr=FEM Potentiel électrostatique
-|MenuLocation=Modèle → Conditions limites électromagnétiques → Condition limite de potentiel électrostatique
+|Name=FEM ConstraintElectromagnetic
+|Name/fr=FEM Électromagnétisme
+|MenuLocation=Modèle → Conditions limites électromagnétiques → Condition limite électromagnétique
 |Workbenches=[[FEM_Workbench/fr|FEM]]
 |SeeAlso=[[FEM_Example_Capacitance_Two_Balls/fr|FEM Exemple calcul capacité de deux sphères]], [[FEM_tutorial/fr|FEM Tutoriel]]
 }}
@@ -22,7 +21,6 @@
 |Solvers={{VersionMinus/fr|1.0}} : Elmer<br>{{VersionPlus/fr|1.1}} : Elmer, CalculiX
 }}
 }}
-</div>
 
 <span id="Description"></span>
 == Description ==
