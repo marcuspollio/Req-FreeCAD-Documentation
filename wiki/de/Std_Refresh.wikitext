@@ -9,6 +9,7 @@
 |IconC=Freecad.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=Std Refresh
 |Name/de=Std Aktualisieren
@@ -16,19 +17,24 @@
 |Workbenches=Alle
 |Shortcut={{KEY|Ctrl}}+{{KEY|R}}
 }}
+</div>
 
 <span id="Description"></span>
 ==Beschreibung==
 
+<div class="mw-translate-fuzzy">
 Der Befehl '''Std Aktualisieren''' berechnet das aktuelle Dokument neu. Der Befehl ist deaktiviert, solange das Dokument keine Neuberechnung benötigt.
+</div>
 
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 # Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
 #* Die Schaltfläche {{Button|[[Image:Std_Refresh.svg|16px]] [[Std_Refresh/de|Neuberechnen]]}} drücken.
 #* Den Menüeintrag {{MenuCommand|Bearbeiten → [[Image:Std_Refresh.svg|16px]] Neuberechnen}} auswählen.
 #* Das Tastaturkürzel {{KEY|Ctrl}}+{{KEY|R}}.
+</div>
 
 <span id="Options"></span>
 ==Optionen==
