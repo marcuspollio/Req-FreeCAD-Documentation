@@ -58,16 +58,14 @@ Dieser tastaturgesteuerte Arbeitsablauf beschleunigt das Zeichnen, insbesondere 
 
 [[Image:Exercise_cabin_02.png]]
 
-<div class="mw-translate-fuzzy">
 * Wir können dann mit dem Werkzeug [[Image:Draft_Line.svg|16px]] [[Draft_Line/de|Linie]] ein paar vertikale Linien zeichnen, um festzulegen, wo unsere Türen und Fenster platziert werden (beachte, dass das Kontrollkästchen „relativer“ Modus für diesen Schritt deaktiviert sein sollte). Die Kreuzung dieser Linien mit unseren beiden Rechtecken ergibt nützliche Schnittpunkte, an denen wir unsere Wände ausrichten können. Zeichne die erste Linie, indem du die folgenden Punkte definierst:
 ** '''P1''' (15 cm, 1 m, 0) und '''P2''' (15 cm, 3 m, 0).
-* Wir werden diese Linie nun fünfmal duplizieren. Drücke auf das Werkzeug [[Image:Draft_Move.svg|16px]] [[Draft_Move/de|Verschieben]], während der Modus [[Image:Draft_Clone.svg|16px]] [[Draft_Clone/de|Klonen]] aktiviert ist. Stelle sicher, dass der '''Relative Modus''' aktiviert ist. Der Kopiermodus stellt sicher, dass jede Bewegung eine neue Linie erstellt, anstatt die ursprüngliche zu verschieben, während der Relativmodus es dir ermöglicht, Bewegungen basierend auf relativen Entfernungen zu definieren, was die Positionierung erleichtert, ohne dass genaue Koordinaten berechnet werden müssen. Beginne mit der Auswahl der ursprünglichen Linie und starte den Verschiebungsvorgang, indem du einen beliebigen Startpunkt auswählst, z. B. (0,0,0). Führe nach jeder Bewegung den nächsten Vorgang auf der neu erstellten Linie aus, sodass jede Kopie auf der vorherigen aufbaut. Definiere die relativen Endpunkte für jede neue Linie
+* Wir werden diese Linie nun fünfmal duplizieren. Drücke auf das Werkzeug [[Image:Draft_Move.svg|16px]] [[Draft_Move/de|Verschieben]], während der '''Kopieren-Modus''' aktiviert ist. Stelle sicher, dass der '''Relative Modus''' aktiviert ist. Der Kopiermodus stellt sicher, dass jede Bewegung eine neue Linie erstellt, anstatt die ursprüngliche zu verschieben, während der Relativmodus es dir ermöglicht, Bewegungen basierend auf relativen Entfernungen zu definieren, was die Positionierung erleichtert, ohne dass genaue Koordinaten berechnet werden müssen. Beginne mit der Auswahl der ursprünglichen Linie und starte den Verschiebungsvorgang, indem du einen beliebigen Startpunkt auswählst, z. B. (0,0,0). Führe nach jeder Bewegung den nächsten Vorgang auf der neu erstellten Linie aus, sodass jede Kopie auf der vorherigen aufbaut. Definiere die relativen Endpunkte für jede neue Linie
 ** line001: x: 10 cm
 ** line002: x: 120 cm
 ** line003: x: -55 cm, y: -2 m
 ** line004: x: 80 cm
 ** line005: x: 15 cm
-</div>
 
 [[Image:Exercise_cabin_03.jpg]]
 
