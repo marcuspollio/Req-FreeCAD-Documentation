@@ -1,0 +1,47 @@
+<languages/>
+
+{{Docnav
+|[[Std_MassProperties|MassProperties]]
+|[[Std_UnitsCalculator|UnitsCalculator]]
+|[[Std_Tools_Menu|Std Tools Menu]]
+|IconL=Std_MassProperties.svg
+|IconR=Std_UnitsCalculator.svg
+|IconC=Freecad.svg
+}}
+
+{{GuiCommand
+|Name=Std AnnotationLabel
+|MenuLocation=Tools → Annotation Label
+|Workbenches=All
+|Version=1.2
+}}
+
+==Description==
+
+The '''Std AnnotationLabel''' command creates an annotation label in the [[3D_View|3D View]].
+
+[[Image:Std_Annotation_label_example.PNG|400px]]
+
+{{Caption|Example of annotation label}}
+
+==Usage==
+
+# Select a geometric entity in the [[3D_View|3D View]].
+# Select the {{MenuCommand|Tools → [[Image:Std_AnnotationLabel.svg|16px]] Annotation Label}} option from the menu.
+# Annotation label will be added to 3D View at the selected location. The corresponding ''Label'' object will be added to the [[Tree_View|Tree View]].
+# Change the ''Label Text'' property to set the label text.
+# Optionally, change the View properties to modify the appearance of the label. 
+
+
+
+{{Docnav
+|[[Std_MassProperties|MassProperties]]
+|[[Std_UnitsCalculator|UnitsCalculator]]
+|[[Std_Tools_Menu|Std Tools Menu]]
+|IconL=Std_MassProperties.svg
+|IconR=Std_UnitsCalculator.svg
+|IconC=Freecad.svg
+}}
+
+{{Std_Base_navi{{#translation:}}}}
+{{Userdocnavi{{#translation:}}}}
