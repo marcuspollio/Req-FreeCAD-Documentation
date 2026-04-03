@@ -29,14 +29,14 @@ Funkcja ta wstawia pierwotny prostopadłościan odejmowany od aktywnej Zawartoś
 <span id="Usage"></span>
 ==Użycie==
 
-<div class="mw-translate-fuzzy">
 # Istnieje kilka sposobów na wywołanie tego polecenia:
 #* Naciśnij przycisk {{Button|[[Image:PartDesign_SubtractiveBox.svg|16px]] [[PartDesign_SubtractiveBox/pl|Subtraktywny prostopadłościan]]}}. '''Uwaga''': Subtraktywny prostopadłościan jest częścią menu narzędzi o nazwie '''Subtraktywny prymityw'''. Po uruchomieniu programu FreeCAD, Subtraktywny prostopadłościan wyświetlany jest na pasku narzędzi domyślnie. Jeśli wyświetlany jest inny prymityw, kliknij strzałkę w dół obok ikony i wybierz Subtraktywny prostopadłościan z menu.
 #* Wybierz opcję {{MenuCommand|Projekt Części → Subtraktywny prymityw → [[Image:PartDesign_SubtractiveBox.svg|16px]] Subtraktywny prostopadłościan}} z menu.
-# Ustaw parametry bryły i [[Part_EditAttachment/pl|dołączenia]].
+# Otwarty zostanie panel zadań.
+# Ustaw parametry. {{Version/pl|1.2}}: Jeśli [[PartDesign_Preferences/pl#Ogólne|ustawienie]] {{MenuCommand|Pokazuj interaktywne manipulatory podczas edycji cech}} jest włączone (domyślnie), niektóre parametry można ustawić interaktywnymi manipulatorami w [[3D_View/pl|widoku 3D]].
+# Opcjonalnie ustaw [[Part_EditAttachment/pl|Dołączenie]].
 # Kliknij {{Button|OK}}.
 # Pod aktywnym obiektem Zawartość pojawi się element Prostopadłościan.
-</div>
 
 <span id="Options"></span>
 ==Opcje== 
