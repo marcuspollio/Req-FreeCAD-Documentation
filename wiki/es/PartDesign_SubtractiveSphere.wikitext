@@ -43,9 +43,11 @@ Inserta una Esfera sustractiva en el Body (cuerpo) activo. Su forma es sustraíd
 <span id="Options"></span>
 ==Opciones==
 
+<div class="mw-translate-fuzzy">
 Tras su creación, la Esfera puede ser editada de dos maneras:
 * Haciendo doble clic con el ratón sobre el árbol del Modelo, o pinchando con el botón derecho y seleccionando '''Editar primitiva''' en el menú contextual. Con ello se abre la ventana de selección de parámetros de la Primitiva.
 * Por medio del  [[Property_editor/es|Editor de propiedades]].
+</div>
 
 <span id="Properties"></span>
 ==Propiedades==
@@ -70,7 +72,6 @@ Tras su creación, la Esfera puede ser editada de dos maneras:
 |IconC=Workbench_PartDesign.svg
 }}
 </div>
-
 
 {{PartDesign_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
