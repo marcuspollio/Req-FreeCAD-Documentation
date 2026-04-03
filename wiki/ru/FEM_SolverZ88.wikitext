@@ -33,9 +33,9 @@ The [[FEM_SolverZ88|SolverZ88]] command enables usage of the [https://en.wikiped
 ==Installation==
 
 To use the Z88 solver, the OpenSource version of Z88 (Z88OS) needs to be installed:
-# Download the ZIP file from the [https://en.z88.de/download-z88os Z88OS website].
+# Download the ZIP package with the code from the [https://github.com/lscad/z88os Z88OS repository].
 # Extract the ZIP to a folder of your choice.
-# In the [[FEM_Preferences|FEM preferences]] go to the Z88 tab and there set the path to the '''z88r''' binary. If you are on Windows this would be the path to the file {{FileName|z88r.exe}} that is in the subfolder {{FileName|~\bin\win64}} of the folder where your extracted the ZIP.
+# In the [[FEM_Preferences|FEM preferences]] go to the Z88 tab and there set the path to the '''z88r''' binary. If you are on Windows, this would be the path to the file {{FileName|z88r.exe}} that is in the subfolder {{FileName|~\bin\win64}} of the folder where you extracted the ZIP.
 
 <span id="Usage"></span>
 ==Применение==
