@@ -33,9 +33,7 @@ Należy pamiętać, że elementy belkowe, powłokowe, płaskiego stanu napręże
 
 Jeśli część jest smukła (długa i cienka), przypomina belkę i ma regularny przekrój o jednym z obecnie wspieranych kształtów przekroju belek (prostokątny, skrzynkowy, eliptyczny, kołowy lub rurowy), to można ją analizować za pomocą elementów belkowych (chyba że występują pewne specyficzne formy obciążenia, odpowiedzi lub nieuniknione szczegóły geometryczne, które uniemożliwiają skorzystanie z tego założenia). 
 
-<div class="mw-translate-fuzzy">
-Należy po prostu narysować linię środkową ''(kilka rad na temat jej uzyskiwania z istniejącej geometrii bryłowej można znaleźć w [https://forum.freecad.org/viewtopic.php?t=81589 tym wątku na forum] - w skrócie, użyj [[Draft_Wire/pl|Polilinii]] lub [[Draft_BSpline/pl|Krzywej złożoej]] z odpowiednim [[Draft_Workbench/pl#Pasek_narzędzi_Rysunek_roboczy:_Przyciągnij|przyciąganiem]] i [[Draft_Line/pl|liniami]] jako geometriami pomocniczymi)'' i zdefiniować odpowiedni [[FEM_ElementGeometry1D/pl|przekrój belki]] z opcjonalnym [[FEM_ElementRotation1D/pl|obrotem]].
-</div> 
+Należy po prostu narysować linię środkową ''(kilka rad na temat jej uzyskiwania z istniejącej geometrii bryłowej można znaleźć w [https://forum.freecad.org/viewtopic.php?t=81589 tym wątku na forum] - w skrócie, użyj [[Draft_Wire/pl|Polilinii]] lub [[Draft_BSpline/pl|Krzywej złożoej]] z odpowiednim [[Draft_Workbench/pl#Pasek_narzędzi_Rysunek_roboczy:_Przyciągnij|przyciąganiem]] i [[Draft_Line/pl|liniami]] jako geometriami pomocniczymi)'' i zdefiniować odpowiedni [[FEM_ElementGeometry1D/pl|przekrój belki]] z opcjonalnym [[FEM_ElementRotation1D/pl|obrotem]]. 
 
 Nie ma jednej przyjętej zasady, kiedy można używać elementów belkowych, ale często zaleca się, aby wymiary przekroju były < 1/10 długości części, żeby można było zastosować teorię belek.
 
