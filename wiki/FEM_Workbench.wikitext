@@ -87,7 +87,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 === <span id="FEM_CompEmConstraints">Electromagnetic Boundary Conditions</span><!--Do not edit span id: the FEM_CompEmConstraints pages redirect here--> === <!--T:187-->
 
 <!--T:88-->
-:* [[Image:FEM_ConstraintElectrostaticPotential.svg|32px]] [[FEM_ConstraintElectromagnetic|Electromagnetic Boundary Condition]]: Used to define electrostatic potential or ({{Version|1.2}}) magnetic flux density.
+:* [[Image:FEM_ConstraintElectromagnetic.svg|32px]] [[FEM_ConstraintElectromagnetic|Electromagnetic Boundary Condition]]: Used to define electrostatic potential or ({{Version|1.2}}) magnetic flux density.
 
 <!--T:177-->
 :* [[Image:FEM_ConstraintCurrentDensity.svg|32px]] [[FEM_ConstraintCurrentDensity|Current Density Boundary Condition]]: Used to define a current density. {{Version|0.21}}
