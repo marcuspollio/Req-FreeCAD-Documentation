@@ -394,7 +394,9 @@ In questa selezione sono inclusi anche i numeri di riga. Se questa selezione vie
 
 Le macro possono generare informazioni nella vista report per descrivere cosa sta facendo il codice quando è in esecuzione.
 
+<div class="mw-translate-fuzzy">
 Se non viene visualizzata alcuna informazione, assicurarsi che la vista report e la console [[Python/it|Python]] siano visibili e che l'output sia diretto alla vista report.
+</div>
 
 <div class="mw-collapsible-content">
 
