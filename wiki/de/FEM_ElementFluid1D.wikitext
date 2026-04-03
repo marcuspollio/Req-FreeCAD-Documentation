@@ -50,16 +50,14 @@ Erstellt einen FEM-Strömungsabschnitt für pneumatische oder hydraulische Anlag
 # Die [http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node205.html *FLUID SECTION card] wird zur Modellierung von Fluidelementen für 1D-Strömungen verwendet.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[FEM_ElementGeometry2D/de|Elementgeometrie2D]]
-|[[FEM_ConstraintElectrostaticPotential/de|RandbedingungElektrostatischesPotential]]
+|[[FEM_ElementGeometry2D/de|Dicke der Mantelplatte]]
+|[[FEM_ConstraintElectromagnetic/de|Elektromagnetische Randbedingung]]
 |[[FEM_Workbench/de|FEM]]
 |IconL=FEM_ElementGeometry2D.svg
-|IconR=FEM_ConstraintElectrostaticPotential.svg
+|IconR=FEM_ConstraintElectromagnetic.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
