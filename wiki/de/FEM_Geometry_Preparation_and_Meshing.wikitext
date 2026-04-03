@@ -33,9 +33,7 @@ Man sollte bedenken, dass die im Folgenden behandelten Balken-, Schalen-, ebenen
 
 Wenn ein Bauteil schlank (lang und dünn) und trägerartig ist und einen regelmäßigen Querschnitt eines der derzeit unterstützten Trägerquerschnittstypen (rechteckig, quadratisch, elliptisch, kreisförmig oder rohrförmig) aufweist, sollte es mit Trägerelementen analysiert werden (es sei denn, es gibt bestimmte Formen der Belastung, Reaktion oder unvermeidbare geometrische Details, die diese Annahme ungültig machen). 
 
-<div class="mw-translate-fuzzy">
-Grundsätzlich sollte man eine Mittellinie zeichnen (einige Tipps, wie man diese aus einer vorhandenen Volumengeometrie extrahieren kann, findet man in [https://forum.freecad.org/viewtopic.php?t=81589 diesem Forumbeitrag] – kurz gesagt, verwendet man [[Draft_Wire/de|Draft Linienzug]] oder [[Draft_BSpline/de|Draft BSpline]] mit den richtigen [[Draft_Workbench/de#Draft-Widget_Einrasten|Einrasten]] und [[Draft_Line/de|Linien]] als Stützen) und wendet man [[FEM_ElementGeometry1D/de|Trägerschnitte]] mit optionaler [[FEM_ElementRotation1D/de|Drehung]] an.
-</div> 
+Grundsätzlich sollte man eine Mittellinie zeichnen (einige Tipps, wie man diese aus einer vorhandenen Volumengeometrie extrahieren kann, findet man in [https://forum.freecad.org/viewtopic.php?t=81589 diesem Forumbeitrag] – kurz gesagt, verwendet man [[Draft_Wire/de|Draft Linienzug]] oder [[Draft_BSpline/de|Draft BSpline]] mit den richtigen [[Draft_Workbench/de#Draft-Widget_Einrasten|Einrasten]] und [[Draft_Line/de|Linien]] als Stützen) und wendet [[FEM_ElementGeometry1D/de|Trägerschnitte]] mit optionaler [[FEM_ElementRotation1D/de|Drehung]] an. 
 
 Es gibt keine einheitliche Regel, wann Trägerelemente verwendet werden können, aber es wird oft empfohlen, dass die Querschnittsabmessungen < 1/10 der Länge des Teils betragen sollten, damit die Trägerannahme gültig ist.
 
