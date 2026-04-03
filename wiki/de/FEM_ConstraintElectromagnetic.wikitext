@@ -9,6 +9,7 @@
 |IconC=Workbench_FEM.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
 {{GuiCommand/de
 |Name=FEM ConstraintElectrostaticPotential
@@ -21,12 +22,15 @@
 |Solvers={{VersionMinus/de|1.0}}: Elmer<br>{{VersionPlus/de|1.1}}: Elmer, CalculiX
 }}
 }}
+</div>
 
 <span id="Description"></span>
 ==Beschreibung==
 
+<div class="mw-translate-fuzzy">
 Erstellt eine FEM-Randbedingung für das elektrostatische Potential, zur Verwendung mit der [[FEM_EquationElectrostatic/de|Elektrostatik-Gleichung]], der [[FEM_EquationElectricforce/de|Gleichung für die elektrische Kraft]], der
 [[FEM_EquationMagnetodynamic/de|Elektrodynamik-Gleichung]], der [[FEM_EquationMagnetodynamic2D/de|2D-Elektrodynamik-Gleichung]] oder der [[FEM_EquationStaticCurrent/de|Gleichstrom-Gleichung]]
+</div>
 
 {{Version/de|1.1}}: Funktioniert auch mit dem überarbeiteten [[FEM_SolverCalculixCcxtools/de|CalculiX-Löserobjekt]].
 
@@ -38,6 +42,7 @@ Erstellt eine FEM-Randbedingung für das elektrostatische Potential, zur Verwend
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 # Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
 #* Die Schaltfläche {{Button|[[Image:FEM_ConstraintElectrostaticPotential.svg|16px]] [[FEM_ConstraintElectrostaticPotential/de|Elektromagnetische Randbedingung]]}} drücken
 #* Den Menüeintrag {{MenuCommand|Modell → Elektromagnetische Randbedingungen → [[Image:FEM_ConstraintElectrostaticPotential.svg|16px]] Elektromagnetische Randbedingung}} auswählen.
@@ -47,6 +52,7 @@ Erstellt eine FEM-Randbedingung für das elektrostatische Potential, zur Verwend
 # Wahlweise den ''Capacitance Body'' festlegen.
 # Die Schaltfläche {{Button|Hinzufügen}} Drücken.
 # In der [[3D_View/de|3D-Ansicht]] das Objekt auswählen, dem die Randbedingung zugeordnet werden soll. {{Version/de|1.1}}: Die Schaltfläche {{Button|Entfernen}} drücken, um Objekte aus der Auswahl zu entfernen.
+</div>
 
 <span id="Options"></span>
 ==Optionen==
