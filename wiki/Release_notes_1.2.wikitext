@@ -46,7 +46,7 @@ Previous FreeCAD release notes can be found in the [[Feature_list#Release_notes|
 <!--T:12-->
 {| cellpadding=5
 | [[File:AnnotationLabel_relnotes_1.2.png|384px]]
-| A new command to add an Annotation Label to the last picked point in the 3D view was added.
+| A new command to add an [[Std_AnnotationLabel|Annotation Label]] to the last picked point in the 3D view was added.
 [https://github.com/FreeCAD/FreeCAD/pull/23673 Pull request #23673]
 |}
 
