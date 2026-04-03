@@ -1,8 +1,8 @@
 <languages/>
 
 {{Docnav
-|[[PartDesign_SubtractiveBox|Subtractive box]]
-|[[PartDesign_SubtractiveSphere|Subtractive sphere]]
+|[[PartDesign_SubtractiveBox|Subtractive Box]]
+|[[PartDesign_SubtractiveSphere|Subtractive Sphere]]
 |[[PartDesign_Workbench|PartDesign]]
 |IconL=PartDesign_SubtractiveBox.svg
 |IconR=PartDesign_SubtractiveSphere.svg
@@ -11,10 +11,10 @@
 
 {{GuiCommand
 |Name=PartDesign SubtractiveCylinder
-|MenuLocation=Part Design → Create a subtractive primitive → Subtractive Cylinder
+|MenuLocation=Part Design → Subtractive Primitive → Subtractive Cylinder
 |Workbenches=[[PartDesign_Workbench|PartDesign]]
 |Version=0.17
-|SeeAlso=[[PartDesign_CompPrimitiveSubtractive|PartDesign CompPrimitiveSubtractive]], [[PartDesign_AdditiveCylinder|PartDesign AdditiveCylinder]]
+|SeeAlso=[[PartDesign_AdditiveCylinder|PartDesign AdditiveCylinder]]
 }}
 
 <span id="Description"></span>
@@ -29,19 +29,21 @@ Inserts a subtractive cylinder in the active Body. Its shape is subtracted from 
 ==Usage==
 
 # There are several ways to invoke the tool:
-#* Press the {{Button|[[Image:PartDesign_SubtractiveCylinder.svg|16px]] [[PartDesign_SubtractiveCylinder|Subtractive Cylinder]]}} button. '''Note''': the Subtractive Cylinder is part of an icon menu labelled ''Create an subtractive primitive''. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get to the Cylinder, click on the down arrow besides the visible icon and select Subtractive cylinder in the menu.
-#* Select the {{MenuCommand|Part Design → Create a subtractive primitive → [[Image:PartDesign_SubtractiveCylinder.svg|16px]] Subtractive Cylinder}} option from the menu.
-# Set the Primitive parameters and [[Part_EditAttachment|Attachment]].
+#* Press the {{Button|[[Image:PartDesign_SubtractiveCylinder.svg|16px]] [[PartDesign_SubtractiveCylinder|Subtractive Cylinder]]}} button. '''Note''': the Subtractive Cylinder is part of an icon menu labelled ''Subtractive Primitive''. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get to the Cylinder, click on the down arrow besides the visible icon and select Subtractive cylinder in the menu.
+#* Select the {{MenuCommand|Part Design → Subtractive Primitive → [[Image:PartDesign_SubtractiveCylinder.svg|16px]] Subtractive Cylinder}} option from the menu.
+# The task panel opens.
+# Set the parameters. {{Version|1.2}}: If the {{MenuCommand|Show interactive draggers when editing features}} [[PartDesign_Preferences#General|preference]] is selected (default), the radius can be adjusted with an interactive gizmo in the [[3D_View|3D View]].
+# Optionally set the [[Part_EditAttachment|Attachment]].
 # Click {{Button|OK}}.
 # A Cylinder feature appears under the active Body.
 
 ==Options==
 
-It is possible to create skewed cylinders by specifying angles in respect to the normal vector of the chosen attachment. {{Version|0.20}}
+It is possible to create skewed cylinders by specifying angles in respect to the normal vector of the chosen attachment.
 
 The Cylinder can be edited after its creation in two ways:
-* Double-clicking it in the Model tree, or by right-clicking and selecting '''Edit primitive''' in the contextual menu; this brings up the Primitive parameters.
-* Via the [[Property_editor|Property editor]].
+* Double-clicking it in the [[Tree_View|Tree View]], or by right-clicking and selecting '''Edit Primitive''' in the context menu; this brings up the task panel and ({{Version|1.2}}) the interactive gizmo (if enabled).
+* Via the [[Property_View|Property View]].
 
 ==Properties== 
 
@@ -50,13 +52,13 @@ The Cylinder can be edited after its creation in two ways:
 * {{PropertyData|Radius}}: the radius value of the cylinder.
 * {{PropertyData|Angle}}: angle of rotation of the cross section (360 degrees forms a full cylinder).
 * {{PropertyData|Height}}: the height of the cylinder along its axis.
-* {{PropertyData|First Angle}}: angle in first direction. {{Version|0.20}}
-* {{PropertyData|Second Angle}}: angle in second direction. {{Version|0.20}}
+* {{PropertyData|First Angle}}: angle in first direction.
+* {{PropertyData|Second Angle}}: angle in second direction.
 
 
 {{Docnav
-|[[PartDesign_SubtractiveBox|Subtractive box]]
-|[[PartDesign_SubtractiveSphere|Subtractive sphere]]
+|[[PartDesign_SubtractiveBox|Subtractive Box]]
+|[[PartDesign_SubtractiveSphere|Subtractive Sphere]]
 |[[PartDesign_Workbench|PartDesign]]
 |IconL=PartDesign_SubtractiveBox.svg
 |IconR=PartDesign_SubtractiveSphere.svg
