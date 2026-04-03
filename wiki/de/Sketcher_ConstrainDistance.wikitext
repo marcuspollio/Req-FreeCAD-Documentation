@@ -67,9 +67,11 @@ Siehe auch: [[Sketcher_Workbench/de#Zeichnungshilfen|Zeichnungshilfen]].
 <span id="Notes"></span>
 ==Hinweise==
 
+<div class="mw-translate-fuzzy">
 Siehe [[Sketcher_Dimension/de#Hinweise|Sketcher Bemaßung]].
 * {{Version/de|1.2}} Bei Abstands-Randbedingungen zwischen Punkt und Linie sowie zwischen Kreis und Bogen behält der Löser die beabsichtigte Ausrichtung der Beschränkung zuverlässiger bei. Dadurch werden unerwartete Drehungen bei Änderungen der Geometrie reduziert.
 * Falls erforderlich, kann die Ausrichtung neu berechnet werden, indem man eine Beschränkung zwischen Antrieb und Referenz umschaltet oder sie deaktiviert und wieder aktiviert.
+</div>
 
 <span id="Scripting"></span>
 ==Skripten==
