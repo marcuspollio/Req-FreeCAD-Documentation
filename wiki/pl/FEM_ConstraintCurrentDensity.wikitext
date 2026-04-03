@@ -9,7 +9,6 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
 {{GuiCommand/pl
 |Name=FEM ConstraintCurrentDensity
@@ -23,7 +22,6 @@
 |Solvers=Elmer
 }}
 }}
-</div>
 
 <span id="Description"></span>
 ==Opis==
@@ -60,16 +58,14 @@ To okno dialogowe zawiera następujące ustawienia:
 * '''Normalna gęstość prądu_*''' - {{Version/pl|1.1}}: Część rzeczywista/urojona gęstości prądu normalnej do brzegu w A/m². {{Version/pl|1.1}}
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav
-|[[FEM_ConstraintElectrostaticPotential/pl|Warunek brzegowy potencjału elektrostatycznego]]
+|[[FEM_ConstraintElectromagnetic/pl|Warunek brzegowy elektromagnetyczny]]
 |[[FEM_ConstraintMagnetization/pl|Warunek brzegowy magnetyzacji]]
 |[[FEM_Workbench/pl|środowisko pracy MES]]
-|IconL=FEM_ConstraintElectrostaticPotential.svg
+|IconL=FEM_ConstraintElectromagnetic.svg
 |IconR=FEM_ConstraintMagnetization.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
