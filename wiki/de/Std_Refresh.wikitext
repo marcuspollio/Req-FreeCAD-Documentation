@@ -9,15 +9,13 @@
 |IconC=Freecad.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=Std Refresh
 |Name/de=Std Aktualisieren
 |MenuLocation=Bearbeiten → Neuberechnen
 |Workbenches=Alle
-|Shortcut={{KEY|Ctrl}}+{{KEY|R}}
+|Shortcut={{KEY|Strg}}+{{KEY|Umschalt}}+{{KEY|R}}
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung==
