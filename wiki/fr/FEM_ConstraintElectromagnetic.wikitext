@@ -25,9 +25,7 @@
 <span id="Description"></span>
 == Description ==
 
-<div class="mw-translate-fuzzy">
-Crée une condition limite FEM pour le potentiel électrostatique. À utiliser avec les équations [[FEM_EquationElectrostatic/fr|électrostatiques]], de [[FEM_EquationElectricforce/fr|force électrique]], [[FEM_EquationMagnetodynamic/fr|magnétodynamiques]], [[FEM_EquationMagnetodynamic2D/fr|magnétodynamiques 2D]] ou [[FEM_EquationStaticCurrent/fr|courant statique]].
-</div>
+Crée une condition limite FEM pour le potentiel électrostatique ou ({{Version/fr|1.2}}) la densité de flux magnétique. À utiliser avec les équations [[FEM_EquationElectrostatic/fr|électrostatiques]], de [[FEM_EquationElectricforce/fr|force électrique]], [[FEM_EquationMagnetodynamic/fr|magnétodynamiques]], [[FEM_EquationMagnetodynamic2D/fr|magnétodynamiques 2D]] ou [[FEM_EquationStaticCurrent/fr|courant statique]].
 
 {{Version/fr|1.1}} : fonctionne également avec le [[FEM_SolverCalculixCcxtools/fr|solveur CalculiX]] refactorisé.
 
