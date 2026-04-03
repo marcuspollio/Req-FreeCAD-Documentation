@@ -41,8 +41,9 @@ The '''Std AnnotationLabel''' command creates an annotation label in the [[3D_Vi
 # Optionally drag the label in the 3D View to a different position.
 # Optionally, change the View properties to modify the appearance of the label.
 
-==Notes==
+==Notes== <!--T:9-->
 
+<!--T:10-->
 * The ''Base Position'' is determined by the first selected object and how it was selected:
 ** For objects without a shape the global origin is used.
 ** For other objects it depends on the selection method: if selected from the 3D View the picked point is used, if selected from the [[Tree_View|Tree View]] the object's ''Placement'' point is used.
