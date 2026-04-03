@@ -43,14 +43,10 @@ L'outil '''TechDraw  Vue active''' insère une image bitmap de la vue 3D active 
 
 Les éléments suivants peuvent être spécifiés : 
 
-<div class="mw-translate-fuzzy">
-* {{MenuCommand|Recadrer l'image}} : recadrer le bitmap généré.
+* {{MenuCommand|Recadrer l'image}} : recadre l'image bitmap générée. Lorsque cette option est activée, les valeurs de largeur et de hauteur permettent de définir la zone visible de l'image.
 * {{MenuCommand|Recadrer à la largeur}} : largeur (en mm) pour recadrer la vue générée.
 * {{MenuCommand|Recadrer à la hauteur}} : hauteur (en mm) pour recadrer la vue générée.
-* {{MenuCommand|Pas d'arrière-plan}} : si cette case est cochée, le bitmap généré aura un fond transparent.
-* {{MenuCommand|Arrière-plan opaque}} : si cette case est cochée, le bitmap généré aura un arrière-plan de la couleur sélectionnée.
-* {{MenuCommand|Utiliser un arrière-plan 3D}} : si cette case est cochée, le bitmap généré utilisera l'arrière-plan de la fenêtre 3D.
-</div>
+* {{MenuCommand|Arrière-plan}} : définit le mode de l'arrière-plan de l'image bitmap générée. Les modes disponibles sont : pas d'arrière-plan, une couleur d'arrière-plan unie ou l'arrière-plan en cours de la [[3D_View/fr|vue 3D]]. {{Version/fr|1.2}}
 
 <span id="Notes"></span>
 == Remarques ==
