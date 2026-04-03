@@ -21,12 +21,15 @@
 
 ==Description==
 
-The [[File:BIM_Link.svg|24px]] [[BIM_Link|BIM Link]] tool is a shortcut to [[Std_LinkMake|Std LinkMake]], but starts a [[Draft_Move|Draft Move]] operation immediately after, allowing a link to be created and placed in one go.
+The [[File:BIM_Link.svg|24px]] [[BIM_Link|BIM Link]] command is a shortcut to [[Std_LinkMake|Std LinkMake]], but starts a [[Draft_Move|Draft Move]] operation immediately after, allowing a link to be created and placed in one go.
 
 ==Usage==
 
 # Select an object.
-# Start the [[BIM_Link|BIM Link]] command.
+# There are several ways to invoke the command:
+#* Press the {{Button|[[Image:BIM_Link.svg|16px]] [[BIM_Link|Make Link]]}} button.
+#* Select the {{MenuCommand|Modify → Cloning Tools → [[Image:BIM_Link.svg|16px]] Make Link}} option from the menu.
+#* Use the keyboard shortcut: {{KEY|L}} then {{KEY|K}}.
 # A link is created from the selected object.
 # The [[Draft_Move|Draft Move]] command starts automatically.
 # Click in the [[3D_View|3D View]] to place the new link.
