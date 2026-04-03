@@ -30,6 +30,7 @@ Below, you'll find detailed explanations of the whole process, some [[#Automatic
 
 == Getting the source == <!--T:115-->
 
+<!--T:413-->
 Interacting with the source code requires [https://git-scm.com/ {{incode|git}}]. Refer to your current distribution's instructions on how to install its binaries. For instance, on Debian related distributions, Git can be installed via the following command:
 
 </translate>
@@ -38,6 +39,7 @@ sudo apt install git
 }}
 <translate>
 
+<!--T:414-->
 For an in-depth explanation on the contributing process, refer to [[Source_code_management|Source code management]].
 
 <!--T:351-->
