@@ -5,6 +5,10 @@
 |[[Third_Party_Tools/it|Strumenti di terze parti]]
 }}
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{VeryImportantMessage|This page is for archival purposes only, see the [https://freecad.github.io/DevelopersHandbook/gettingstarted/#pixi relevant section of the Developers Handbook] for up-to-date information.}}
+</div>
+
 {{TOCright}}
 
 <span id="Overview"></span>
@@ -76,9 +80,13 @@ Se stai compilando usando Windows, prendi in considerazione l'utilizzo di [[#Lib
 
 === Python ===
 
+<div class="mw-translate-fuzzy">
 '''Versione:''' 3.3 o superiore
+</div>
 
+<div class="mw-translate-fuzzy">
 '''Licenza:''' licenza Python 3.3
+</div>
 
 <div class="mw-translate-fuzzy">
 {{VeryImportantMessage|Python 2 è diventato obsoleto nel 2019. L'ulteriore sviluppo di FreeCAD utilizzerà esclusivamente Python 3; la compatibilità con Python 2 non verrà testata, quindi i vecchi ambienti di lavoro e le macro che utilizzano questa versione dovranno essere aggiornati o potrebbero smettere di funzionare. Si prega di avvisare sul [https://forum.freecadweb.org/ forum di FreeCAD] se si riscontrano problemi con Python 3.}}
