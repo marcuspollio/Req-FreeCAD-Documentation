@@ -32,7 +32,7 @@ Fügt einen Kugel-Grundkörper in den aktiven Körper (Body-Objekt) als Basisfor
 #* Die Schaltfläche {{Button|[[Image:PartDesign_AdditiveSphere.svg|16px]] [[PartDesign_AdditiveSphere/de|Kugel]]}} drücken. '''Hinweis''': Die Kugel ist Teil eines Symbolmenüs mit der Bezeichnung ''Hinzufügende Grundkörper''. Nach dem Start von FreeCAD wird der Quader in der Werkzeugleiste angezeigt. Um zur Schaltfläche Kugel zu gelangen, den Abwärtspfeil neben dem sichtbaren Symbol anklicken und Kugel im Menü auswählen.
 #* Den Menüeintrag {{MenuCommand|Part Design → Hinzufügende Grundkörper → [[Image:PartDesign_AdditiveSphere.svg|16px]] Kugel}} auswählen.
 Das Aufgaben-Fenster wird geöffnet.
-# Die Parameter einstellen. {{Version/de|1.2}}: Ist die [[PartDesign_Preferences/de#General|Einstellung]]  {{MenuCommand|Show interactive draggers when editing features}} ausgewählt (Standardeinstellung), können einige Parameter mit interaktiven Anfassern in der [[3D_View/de|3D-Ansicht]] eingestellt werden.
+# Die Parameter einstellen. {{Version/de|1.2}}: Ist die [[PartDesign_Preferences/de#General|Einstellung]]  {{MenuCommand|Interacktive Dragger beim Bearbeiten von Formelementen anzeigen}} ausgewählt (Standardeinstellung), können einige Parameter mit interaktiven Anfassern in der [[3D_View/de|3D-Ansicht]] eingestellt werden.
 # Wahlweise die [[Part_EditAttachment/de|Befestigung]] einstellen.
 # {{Button|OK}} anklicken.
 # Ein Formelement Kugel, ein Sphere-Objekt, erscheint unter dem aktiven Körper (in der Baumansicht).
