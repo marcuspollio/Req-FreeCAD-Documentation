@@ -2,7 +2,7 @@
 
 {{Docnav
 |[[FEM_ElementGeometry2D|Shell Plate Thickness]]
-|[[FEM_ConstraintElectrostaticPotential|Electrostatic Potential Boundary Condition]]
+|[[FEM_ConstraintElectromagnetic|Electromagnetic Boundary Condition]]
 |[[FEM_Workbench|FEM]]
 |IconL=FEM_ElementGeometry2D.svg
 |IconR=FEM_ConstraintElectrostaticPotential.svg
@@ -49,7 +49,7 @@ Creează o MEF în secțiunea de fluid pentru rețele aerodinamice și hidraulic
 
 {{Docnav
 |[[FEM_ElementGeometry2D|Shell Plate Thickness]]
-|[[FEM_ConstraintElectrostaticPotential|Electrostatic Potential Boundary Condition]]
+|[[FEM_ConstraintElectromagnetic|Electromagnetic Boundary Condition]]
 |[[FEM_Workbench|FEM]]
 |IconL=FEM_ElementGeometry2D.svg
 |IconR=FEM_ConstraintElectrostaticPotential.svg
