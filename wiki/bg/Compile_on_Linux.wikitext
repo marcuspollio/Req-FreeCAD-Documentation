@@ -37,15 +37,7 @@ Below, you'll find detailed explanations of the whole process, some [[#Automatic
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-=== Git ===
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The best way to get the code is to clone the read-only [https://github.com/FreeCAD/FreeCAD Git repository] using the {{incode|git}} program. It can be easily installed on most Linux distributions.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For instance, on Debian related distributions, Git can be installed via the following command:
+Interacting with the source code requires [https://git-scm.com/ {{incode|git}}]. Refer to your current distribution's instructions on how to install its binaries. For instance, on Debian related distributions, Git can be installed via the following command:
 </div>
 
 {{Code|lang=bash|code=
@@ -53,16 +45,16 @@ sudo apt install git
 }}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-The following command will place a copy of the latest version of the FreeCAD source code in a new directory called {{incode|freecad-source}}.
+For an in-depth explanation on the contributing process, refer to [[Source_code_management|Source code management]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Should you only need to compile FreeCAD, the fastest way to get its code is to {{incode|git clone}} the read-only official [https://github.com/FreeCAD/FreeCAD Git repository]. The following command will place a copy of the latest version of the FreeCAD source code in a new directory called {{incode|freecad-source}}.
 </div>
 
 {{Code|lang=bash|code=
 git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git freecad-source
 }}
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For more information on using Git and contributing code to the project, see [[Source code management|Source code management]].
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Getting the dependencies ==
