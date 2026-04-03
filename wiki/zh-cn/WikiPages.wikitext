@@ -47,9 +47,8 @@
 
 如果你正在编辑篇幅较长的页面，建议将页面标记为进行中或未完成状态。这样可以避免维基管理员在你仍在修改内容时，就将页面标记为可翻译状态。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To flag a page add either <code><nowiki>{{Page in progress}}</nowiki></code> or <code><nowiki>{{UnfinishedDocu}}</nowiki></code> as the first line. With <code><nowiki>{{UnfinishedDocu}}</nowiki></code> you invite others to join you in finishing the page, while <code><nowiki>{{Page in progress}}</nowiki></code> indicates that you will do the work yourself and others should give you some time.
-</div>
+如需标记页面，请在首行添加以下代码之一：
+<code><nowiki>{{Page in progress}}</nowiki></code> 或 <code><nowiki>{{UnfinishedDocu}}</nowiki></code>。使用 <code><nowiki>{{UnfinishedDocu}}</nowiki></code> 表示欢迎他人协助完善页面；而 <code><nowiki>{{Page in progress}}</nowiki></code> 表示将由你独立完成编辑，望他人稍作等候。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Once the work is done, please don't forget to remove the flags!
