@@ -169,8 +169,10 @@ Widoczność zawartości jest nadrzędna w stosunku do widoczności wszystkich o
 
 Wiele [[Sketch/pl|Szkiców]] może być widocznych w tym samym czasie, ale tylko jedna [[PartDesign_Feature/pl|Cecha]] ''(wynik bryły)'' może być widoczna w tym samym czasie. Wybranie ukrytej cechy i naciśnięcie klawisza {{KEY|Spacja}} na klawiaturze spowoduje, że stanie się ona widoczna i automatycznie ukryje wcześniej prezentowaną cechę.
 
+<div class="mw-translate-fuzzy">
 [[File:PartDesign_Body_Visibility.png]]
 {{Caption|Zawartość Projektu części: wiele [[Sketch/pl|Szkiców]] może być widocznych jednocześnie, ale tylko jedna [[PartDesign_Feature/pl|cecha]] bryły może być widoczna w tym samym czasie, niezależnie od tego, czy jest to Czubek, czy nie.}}
+</div>
 
 <span id="Attachment"></span>
 ===Przyłączanie===
