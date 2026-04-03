@@ -38,7 +38,7 @@ Crée une condition limite FEM pour la de magnétisation. A utiliser avec les é
 #* Sélectionnez l'option {{MenuCommand|Modèle → Conditions limites électromagnétiques → [[Image:FEM_ConstraintMagnetization.svg|16px]] Condition limite de magnétisation}} du menu.
 # Sélectionnez et spécifiez les composantes de magnétisation.
 # Appuyez sur le bouton {{Button|Ajouter}}.
-# Dans la [[3D_view/fr|vue 3D]], sélectionnez l'objet auquel la condition limite doit être appliquée. {{Version/fr|1.1}} : pour supprimer des objets de la sélection, appuyez sur le bouton {{Button|Supprimer}}.
+# Dans la [[3D_View/fr|vue 3D]], sélectionnez l'objet auquel la condition limite doit être appliquée. {{Version/fr|1.1}} : pour supprimer des objets de la sélection, appuyez sur le bouton {{Button|Supprimer}}.
 
 ==Options==
 
