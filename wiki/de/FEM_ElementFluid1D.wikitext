@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[FEM_ElementGeometry2D/de|Elementgeometrie2D]]
-|[[FEM_ConstraintElectrostaticPotential/de|RandbedingungElektrostatischesPotential]]
+|[[FEM_ElementGeometry2D/de|Dicke der Mantelplatte]]
+|[[FEM_ConstraintElectromagnetic/de|Elektromagnetische Randbedingung]]
 |[[FEM_Workbench/de|FEM]]
 |IconL=FEM_ElementGeometry2D.svg
-|IconR=FEM_ConstraintElectrostaticPotential.svg
+|IconR=FEM_ConstraintElectromagnetic.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{GuiCommandContainer|
 {{GuiCommand/de
