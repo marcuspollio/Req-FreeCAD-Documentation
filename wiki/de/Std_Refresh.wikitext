@@ -25,12 +25,10 @@ Der Befehl '''Std Aktualisieren''' berechnet ausgewählte Objekte neu ({{Version
 <span id="Usage"></span>
 ==Anwendung==
 
-<div class="mw-translate-fuzzy">
 # Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
 #* Die Schaltfläche {{Button|[[Image:Std_Refresh.svg|16px]] [[Std_Refresh/de|Neuberechnen]]}} drücken.
 #* Den Menüeintrag {{MenuCommand|Bearbeiten → [[Image:Std_Refresh.svg|16px]] Neuberechnen}} auswählen.
-#* Das Tastaturkürzel {{KEY|Ctrl}}+{{KEY|R}}.
-</div>
+#* Das Tastaturkürzel {{KEY|Strg}}+{{KEY|Umschalt}}+{{KEY|R}}.
 
 <span id="Options"></span>
 ==Optionen==
