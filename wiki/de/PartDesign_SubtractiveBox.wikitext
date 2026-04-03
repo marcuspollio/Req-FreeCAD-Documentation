@@ -33,7 +33,7 @@ Fügt einen Quader-Grundkörper in den aktiven Körper (Body-Objekt) ein. Seine 
 #* Die Schaltfläche {{Button|[[Image:PartDesign_SubtractiveBox.svg|16px]] '''Quader'''}} drücken '''Hinweis''': Der Quader ist Teil eines Symbolmenüs mit der Bezeichnung Abziehende Grundkörper. Nach dem Start von FreeCAD wird der Quader in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper angezeigt wird, den Abwärtspfeil neben dem Symbol anklicken und Quader im Menü auswählen.
 #* Den Menüeintrag {{MenuCommand|Part Design → Abziehende Grundkörper → [[Image:PartDesign_SubtractiveBox.svg|16px]] Quader}} auswählen.
 Das Aufgaben-Fenster wird geöffnet.
-# Die Parameter einstellen. {{Version/de|1.2}}: Ist die [[PartDesign_Preferences/de#General|Einstellung]]  {{MenuCommand|Show interactive draggers when editing features}} ausgewählt (Standardeinstellung), können einige Parameter mit interaktiven Anfassern in der [[3D_View/de|3D-Ansicht]] eingestellt werden.
+# Die Parameter einstellen. {{Version/de|1.2}}: Ist die [[PartDesign_Preferences/de#General|Einstellung]]  {{MenuCommand|Interaktive Dragger beim Bearbeiten von Formelementen anzeigen}} ausgewählt (Standardeinstellung), können einige Parameter mit interaktiven Anfassern in der [[3D_View/de|3D-Ansicht]] eingestellt werden.
 # Wahlweise die [[Part_EditAttachment/de|Befestigung]] einstellen.
 # {{Button|OK}} anklicken.
 # Ein Formelement Quader, ein Box-Objekt, erscheint unter dem aktiven Körper (in der Baumansicht).
