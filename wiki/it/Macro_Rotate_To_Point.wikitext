@@ -98,29 +98,32 @@ Macro per far ruotare un oggetto su se stesso scegliendo l'asse di rotazione: il
 
 [[File:Macro Rotate To Point Data-To-Save 00.png|Rotate To Point Data-To-Save]]
 
-<div class="mw-translate-fuzzy">
-* Finestra per la visualizzazione delle coordinate memorizzate
-* {{Button|Save}}: salva i dati nel file
-* {{Button|Clear}}: elimina e pulisci l'editor di testo
-* {{Button|Delete}}: elimina la riga selezionata
-* {{Button|Memorize}}: memorizza e visualizza le coordinate
-* {{CheckBox|Macro}}:
-** Modalità normale {{CheckBox | Macro}} la coordinata viene salvata in questa modalità: '''[(0.06,1.30,0.0), (85.0,0.0,0.0)],'''
-** Modalità macro {{CheckBox|TRUE|0,0 Coordinate}} la coordinata viene salvata in una macro completa direttamente nella directory delle macro con lo stesso nome dell'estensione del documento .FCMacro
-*** '''Opzioni della macro'''
-*** '''__ pompe____engrenage__''': Nome del documento
-*** '''__ 22 Coordinates__''': numero di coordinate
-*** '''Digita il tasto Q per uscire''': Esci dalla macro
-*** '''Digita il tasto D per diminuire la velocità''': Diminuisci la velocità dell'animazione
-*** '''Digita il tasto I per aumentare la velocità''': Aumenta la velocità dell'animazione
-*** '''Digitare il tasto P per mettere in pausa/continuare o il tasto RETURN o ESCAPE''': Pausa/Anime
-*** '''Digitare il tasto S per procedere passo dopo passo (tasto RETURN o ESCAPE per continuare)''': Passo dopo passo
-*** '''Digitare la chiave M per questo messaggio''': Visualizza questo memo
-*** ____________________________
-* {{CheckBox|Memo on Click}}:
-** Modalità normale {{CheckBox|Memo on Click}}: i dati non vengono salvati sulla finestra, è necessario premere il pulsante {{Button|Memo (2)}} per salvare le coordinate
-** Modalità Memo on Click {{CheckBox|TRUE|Memo on Demand}}: i dati vengono salvati automaticamente facendo clic sul pulsante {{Button|Apply}}
-</div>
+*Finestra per visualizzare le coordinate memorizzate.
+*{{Button|Clear}}: Elimina e pulisce l'editor di testo.
+*{{Button|Delete}}: Elimina la riga selezionata nella finestra.
+*{{CheckBox|Memo on Click}}: Se selezionato, la posizione viene salvata automaticamente nella finestra con il pulsante "Apply".
+*{{Button|Memorize}}: Memorizza e visualizza le coordinate nella finestra; il numero di coordinate memorizzate viene visualizzato su questo pulsante.
+*{{Button|Save}}: Salva i dati nel file
+*{{CheckBox|Macro}}: 
+**Modalità normale {{CheckBox|Macro}} la coordinata viene salvata in questa modalità: {{incode|["Body004001",(0.0,0.0,-1.5),(0.0,0.0,0.0)],}}
+**Modalità macro {{CheckBox|TRUE|0,0 Coordinate}} la coordinata viene salvata (è stato elaborato un oggetto o più oggetti)</br> in una macro completa direttamente nella directory delle macro con lo stesso nome del documento con estensione .FCMacro
+*** '''Options of the macro'''
+***'''__pompe____engrenage__''' : Nome del documento
+***'''__22 Coordinates__''' : numero di coordinate
+***'''Q per uscire''' : Esce dalla macro
+***'''A per creare una serie di immagini''' : per creare un successione seriale e creare GIF animate (con GIMP o altro)
+***'''D per diminuire la velocità''' : Diminuire la velocità dell'animazione
+***'''I per aumentare la velocità''' : Aumenta la velocità dell'animazione
+***'''P per mettere in pausa/continuare oppure INVIO o ESC''' : Pausa / Animazione
+***'''S per procedere passo passo (premere INVIO o ESC per continuare)''' : passo passo
+***'''V per invertire''' : InVerti il ​​video
+***'''Y per YoYo''' : dall'inizio alla fine e dala fine all'inizio
+***'''M per questo messaggio''' : Visualizza questo promemoria
+***Per utilizzare queste opzioni, fare clic con il mouse nella vista 3D e digitare il tasto desiderato
+***____________________________
+**Modalità normale {{CheckBox|Memo on Click}} : I dati non vengono salvati nella finestra, è necessario premere il pulsante {{Button|Memo (2)}} per salvare le coordinate
+**Modalità Memo on Click {{CheckBox|TRUE|Memo on Demand}} : I dati vengono salvati automaticamente a ogni clic sul pulsante {{Button|Apply}}
+*{{Button|Copy}}: Memorizza il contenuto della finestra in un formato Rotate_To_Point: {{incode|["Body004001",(0.0,0.0,-1.5),(0.0,0.0,0.0)],}}
 
 ===Command===
 
