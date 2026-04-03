@@ -9,6 +9,7 @@
 |IconC=Workbench_PartDesign.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand
 |Name=PartDesign SubtractiveSphere
 |Name/it=Sfera sottrattiva
@@ -17,6 +18,7 @@
 |Version=0.17
 |SeeAlso=[[PartDesign_CompPrimitiveSubtractive/it|Primitiva sottrattiva]], [[PartDesign_AdditiveSphere/it|Sfera additiva]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Descrizione==
@@ -29,19 +31,23 @@ Inserisce una sfera sottrattiva nel corpo attivo. La sua forma viene sottratta d
 <span id="Usage"></span>
 ==Utilizzo==
 
+<div class="mw-translate-fuzzy">
 # Esistono diversi modi per richiamare lo strumento:
 #* Premere il pulsante {{Button|[[Image:PartDesign_SubtractiveSphere.svg|16px]] [[PartDesign_SubtractiveSphere/it|Sfera sottrattiva]]}}. '''Nota''': La Sfera sottrattiva fa parte di un menu di icone etichettato ''Crea una primitiva sottrattiva''. Dopo l'avvio di FreeCAD, nella barra degli strumenti viene visualizzato il cubo sottrattivo. Per accedere alla Sfera, fare clic sulla freccia rivolta verso il basso accanto all'icona e selezionare Sfera nel menu.
 #* Selezionare l'opzione {{MenuCommand|Progettazione di parti → Crea una primitiva sottrattiva → [[Image:PartDesign_SubtractiveSphere.svg|16px]] Sfera sottrattiva}} dal menu.
 # Impostare i parametri della primitiva e la modalità di [[Part_EditAttachment/it|Associazione]].
 # Cliccare su {{Button|OK}}.
 # Nel corpo attivo viene visualizzata una funzione Sfera.
+</div>
 
 <span id="Options"></span>
 == Opzioni ==
 
+<div class="mw-translate-fuzzy">
 Dopo la sua creazione la sfera può essere modificata in due modi:
 * Nell'albero del modello fare doppio clic, oppure fare clic con il tasto destro e selezionare '''Edita la primitiva''' dal menu contestuale; questo mostra i parametri primitivi.
 * Tramite l'[[Property editor/it|editor delle proprietà]].
+</div>
 
 <span id="Properties"></span>
 == Proprietà ==
@@ -62,7 +68,6 @@ Dopo la sua creazione la sfera può essere modificata in due modi:
 |IconR=PartDesign_SubtractiveCone.svg
 |IconC=Workbench_PartDesign.svg
 }}
-
 
 {{PartDesign_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
