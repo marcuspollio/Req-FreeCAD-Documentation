@@ -9,15 +9,13 @@
 |IconC=Freecad.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/fr
 |Name=Std_Refresh
 |Name/fr=Std Recalculer
 |MenuLocation=Édition → Recalculer
 |Workbenches=Tous
-|Shortcut={{KEY|Ctrl}}+{{KEY|R}}
+|Shortcut={{KEY|Ctrl}}+{{KEY|Maj}}+{{KEY|R}}
 }}
-</div>
 
 ==Description==
 
@@ -28,12 +26,10 @@ La commande '''Std Recalculer''' recalcule le document actif. La commande est d�
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
 # Il existe plusieurs façons de lancer la commande :
 #* Appuyez sur le bouton {{Button|[[Image:Std_Refresh.svg|16px]] [[Std_Refresh/fr|Recalculer]]}}.
 #* Sélectionnez l'option {{MenuCommand|Édition → [[Image: Std_Refresh.svg|16px]] Recalculer}} du menu.
-#* Utilisez le raccourci clavier : {{KEY|Ctrl}}+{{KEY|R}}.
-</div>
+#* Utilisez le raccourci clavier : {{KEY|Ctrl}}+{{KEY|Maj}}+{{KEY|R}}.
 
 ==Options==
 
