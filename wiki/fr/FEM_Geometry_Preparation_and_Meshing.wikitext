@@ -31,15 +31,19 @@ Il convient de garder à l'esprit que les éléments de poutre, de coque, de con
 <span id="Beam_models"></span>
 === Modèle type poutre ===
 
-Si une pièce est longue et mince, présente la forme d'une poutre et possède une section transversale régulière correspondant à l'un des types de sections de poutre actuellement pris en charge (rectangulaire, circulaire ou tubulaire), elle doit être analysée à l'aide d'éléments de poutre (à moins que certaines formes spécifiques de chargement, de réponse ou de détails géométriques inévitables ne viennent invalider cette hypothèse). 
+<div class="mw-translate-fuzzy">
+Si une pièce est longue et mince, présente la forme d'une poutre et possède une section transversale régulière correspondant à l'un des types de sections de poutre actuellement pris en charge (rectangulaire, circulaire ou tubulaire), elle doit être analysée à l'aide d'éléments de poutre (à moins que certaines formes spécifiques de chargement, de réponse ou de détails géométriques inévitables ne viennent invalider cette hypothèse).
+</div> 
 
-En gros, il faut tracer une ligne médiane (vous trouverez quelques conseils pour l'extraire d'une géométrie solide existante dans [https://forum.freecad.org/viewtopic.php?t=81589 ce fil de discussion du forum] : en bref, utilisez [[Draft_Wire/fr|Draft Polyligne]] ou [[Draft_BSpline/fr|Draft B-spline]] avec les [[Draft_Workbench/fr#Barre_d'outils_d'aimantation_de_Draft|aimantations]] et [[Draft_Line/fr|lignes]] appropriées comme supports), puis appliquer une [[FEM_ElementGeometry1D/fr|section de poutre]] avec une [[FEM_ElementRotation1D/fr|rotation]] facultative. 
+<div class="mw-translate-fuzzy">
+En gros, il faut tracer une ligne médiane (vous trouverez quelques conseils pour l'extraire d'une géométrie solide existante dans [https://forum.freecad.org/viewtopic.php?t=81589 ce fil de discussion du forum] : en bref, utilisez [[Draft_Wire/fr|Draft Polyligne]] ou [[Draft_BSpline/fr|Draft B-spline]] avec les [[Draft_Workbench/fr#Barre_d'outils_d'aimantation_de_Draft|aimantations]] et [[Draft_Line/fr|lignes]] appropriées comme supports), puis appliquer une [[FEM_ElementGeometry1D/fr|section de poutre]] avec une [[FEM_ElementRotation1D/fr|rotation]] facultative.
+</div> 
 
 Il n'existe pas de règle absolue dictant quand on peut utiliser des éléments de poutre, mais il est souvent recommandé que les dimensions de la section transversale soient < à 1/10 de la longueur de la pièce pour que l'hypothèse de poutre soit valable.
 
 {{Version/fr|1.1}} : Les poutres très minces peuvent présenter une rigidité à la flexion négligeable et peuvent être modélisées à l'aide d'éléments de '''treillis'''. Ces éléments ne peuvent pas résister à la flexion. Ils ne transmettent que des forces axiales, et non des moments. Pour les utiliser, activez la propriété {{PropertyData|Exclude Bending Stiffness}} du [[FEM_SolverCalculixCcxtools/fr|solveur CalculiX]]. Au lieu d'un profil, la propriété {{PropertyData|Truss Area}} de l'objet [[FEM_ElementGeometry1D/fr|FEM Coupe transversale d'un élément 1D]] est utilisée pour définir leur section transversale.
 
-[[Image:FEM_beam_model.JPG|600px]]
+[[Image:Beam_centerline.PNG|600px]]
 {{Caption|Pièce mince convenant à l'analyse avec des éléments de poutre - axe central mis en évidence}}
 
 <span id="Shell_models"></span>
@@ -53,7 +57,7 @@ Là encore, il n'y a pas de règle unique, mais il est généralement recommand�
 
 {{Version/fr|1.1}} : les coques très minces peuvent présenter une rigidité à la flexion négligeable et peuvent être modélisées à l'aide d'éléments de '''membrane'''. Ces éléments ne peuvent pas supporter la flexion. Pour les utiliser, activez la propriété {{PropertyData|Exclude Bending Stiffness}} du [[FEM_SolverCalculixCcxtools/fr|solveur CalculiX]].
 
-[[Image:FEM_shell_model.JPG|600px]]
+[[Image:FEM_shell_midsurf.PNG|600px]]
 {{Caption|Pièce à paroi mince adaptée à l'analyse avec des éléments de coque - mise en évidence de la surface médiane}}
 
 <span id="Planar_models"></span>
@@ -63,6 +67,12 @@ Dans certains cas, les analyses 2D sont également possibles et peuvent être ac
 * '''contrainte plane''' : pour les pièces minces qui peuvent être simplifiées en surfaces planes représentant le profil d'extrusion (l'épaisseur est définie de la même manière que pour les coques), sont chargées et se déforment uniquement dans le plan et ont une contrainte nulle dans la direction hors du plan. Seuls deux degrés de liberté sont disponibles : la translation en X et en Y. Dans ce cas, les surfaces doivent se situer sur le plan XY. Cette approche est assez courante. Par exemple, une plaque mince soumise à une tension peut être analysée de cette manière.
 * '''déformation dans le plan''' : pour les pièces épaisses qui peuvent être simplifiées en surfaces planes représentant le profil d'extrusion (l'épaisseur est définie de la même manière que pour les coquilles), sont chargées et se déforment uniquement dans le plan et ont une déformation nulle dans les directions hors du plan. Seuls deux degrés de liberté sont disponibles : la translation en X et en Y. Dans ce cas, les surfaces doivent être situées sur le plan XY. Cette approche n'est pas très courante. Par exemple, un long barrage, un mur ou un tuyau soumis à une pression uniforme sur toute sa longueur peut être analysé de cette manière.
 * '''axisymétrique''' : pour les pièces qui peuvent être simplifiées en surfaces planes représentant le profil de révolution (l'épaisseur n'a pas d'importance ici) et qui sont chargées uniformément sur toute la circonférence. Seuls deux degrés de liberté sont disponibles : la translation radiale et la translation axiale. Les surfaces doivent être situées sur le plan XY, à droite de l'axe Y. Cette approche est très courante. Par exemple, certains récipients sous pression, les supports en caoutchouc, les bagues, les joints, les brides et même les assemblages boulonnés (en considérant le filetage comme axisymétrique) peuvent être analysés de cette manière.
+
+[[Image:2D_models_and_profiles.PNG|600px]]
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Caption|Parts suitable for 2D analyses and their highlighted profiles that will be used in such analyses. From the left - plane strain, plane stress and axisymmetric models. Revolution axis is also shown for the axisymmetric case. It must coincide with the global Y axis.}}
+</div>
 
 <span id="Geometry_validity"></span>
 == Validité de la géométrie ==
@@ -205,7 +215,9 @@ Il est important de mentionner que si les pièces se touchent exactement, un mai
 [[Image:FEM_modal_separation.JPG|400px]]
 {{Caption|La forme du premier mode d'une analyse de fréquence visualisée avec le filtre des déformations - deux cubes avec un petit écart initial ont été analysés.}}
 
+<div class="mw-translate-fuzzy">
 Il est souvent conseillé d'utiliser des fragments booléens avec le mode Compsolid et d'y appliquer ensuite un [[Part_CompoundFilter/fr|filtre de composé]], en particulier lors de l'analyse d'assemblages multi-matériaux et de solides encastrés dans d'autres solides sans découpes (comme dans le [[FEM_Shear_of_a_Composite_Block/fr|FEM Tutoriel Cisaillement d'un bloc composite]]). Comme on peut le voir dans l'onglet ''Contenu des formes'' de l'outil [[Part_CheckGeometry/fr|Part Vérifier la géométrie]] (il est important d'utiliser cet outil en cas de doute dans de tels cas), le filtre de composé supprime le composé et ne laisse que le solide composite, qui est constitué de plusieurs solides reliés par leurs faces. Cette approche est recommandée car un composé n'est qu'un conteneur contenant des formes topologiquement non connectées et pouvant inclure toutes sortes de formes, ce qui peut empêcher le maillage de l'utiliser correctement (maillage uniquement des solides selon les souhaits de l'utilisateur). Les opérations telles que les fragments booléens créent toujours des composés, et le filtre de composé est utilisé pour extraire la forme pertinente du composé.
+</div>
 
 Les solutions de contournement pour les erreurs telles que :
 
