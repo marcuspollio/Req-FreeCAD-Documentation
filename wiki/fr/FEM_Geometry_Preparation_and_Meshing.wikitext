@@ -33,9 +33,7 @@ Il convient de garder à l'esprit que les éléments de poutre, de coque, de con
 
 Si une pièce est longue et mince, présente la forme d'une poutre et possède une section transversale régulière correspondant à l'un des types de sections de poutre actuellement pris en charge (rectangulaire, carré, elliptique, circulaire ou tubulaire), elle doit être analysée à l'aide d'éléments de poutre (à moins que certaines formes spécifiques de chargement, de réponse ou de détails géométriques inévitables ne viennent invalider cette hypothèse). 
 
-<div class="mw-translate-fuzzy">
-En gros, il faut tracer une ligne médiane (vous trouverez quelques conseils pour l'extraire d'une géométrie solide existante dans [https://forum.freecad.org/viewtopic.php?t=81589 ce fil de discussion du forum] : en bref, utilisez [[Draft_Wire/fr|Draft Polyligne]] ou [[Draft_BSpline/fr|Draft B-spline]] avec les [[Draft_Workbench/fr#Barre_d'outils_d'aimantation_de_Draft|aimantations]] et [[Draft_Line/fr|lignes]] appropriées comme supports), puis appliquer une [[FEM_ElementGeometry1D/fr|section de poutre]] avec une [[FEM_ElementRotation1D/fr|rotation]] facultative.
-</div> 
+En gros, il faut tracer une ligne médiane (vous trouverez quelques conseils pour l'extraire d'une géométrie solide existante dans [https://forum.freecad.org/viewtopic.php?t=81589 ce fil de discussion du forum] : en bref, utilisez [[Draft_Wire/fr|Draft Polyligne]] ou [[Draft_BSpline/fr|Draft B-spline]] avec les [[Draft_Workbench/fr#Barre_d'outils_d'aimantation_de_Draft|aimantations]] et [[Draft_Line/fr|lignes]] appropriées comme supports), puis appliquer une [[FEM_ElementGeometry1D/fr|section de poutre]] avec une [[FEM_ElementRotation1D/fr|rotation]] facultative. 
 
 Il n'existe pas de règle absolue dictant quand on peut utiliser des éléments de poutre, mais il est souvent recommandé que les dimensions de la section transversale soient < à 1/10 de la longueur de la pièce pour que l'hypothèse de poutre soit valable.
 
