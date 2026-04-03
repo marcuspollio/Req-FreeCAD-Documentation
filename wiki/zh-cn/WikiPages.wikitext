@@ -35,9 +35,7 @@
 
 避免在不同页面重复编写相同内容。可将相关信息新建为独立页面，在其他需要引用该内容的页面中添加此页面的链接即可。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Do not use transclusion of pages ([[Help:Editing#Templates_and_transcluding_pages|Help:Editing#Templates and transcluding pages]]), as this makes the wiki difficult to translate. Use only the templates described below in [[#Templates|#Templates]].
-</div>
+请勿使用页面嵌入功能（[[Help:Editing#Templates_and_transcluding_pages|Help:Editing#Templates and transcluding pages]]），该功能会给维基文档的翻译工作造成困难。仅可使用本文「模板」章节中所介绍的模板。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Styling ===
