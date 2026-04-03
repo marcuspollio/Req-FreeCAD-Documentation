@@ -40,11 +40,9 @@ Fügt einen Quader-Grundkörper in den aktiven Körper (Body-Objekt) als Basisfo
 <span id="Options"></span>
 ==Optionen==
 
-<div class="mw-translate-fuzzy">
 Der Quader kann nach der Erstellung auf zwei Arten bearbeitet werden:
-* Durch Doppelklick in der [[Tree_View/de|Baumansicht]] oder durch Rechtsklick und Auswahl von '''Grundkörper bearbeiten''' im Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers“ im Aufgaben-Fenster.
+* Durch Doppelklick in der [[Tree_View/de|Baumansicht]] oder durch Rechtsklick und Auswahl von '''Grundkörper bearbeiten''' im Kontextmenü. Dies öffnet das Aufgaben-Fenster und ({{Version/de|1.2}}) die interaktiven Gizmo (sofern aktiviert).
 * Mit Hilfe der [[Property_View/de|Eigenschaften-Ansicht]].
-</div>
 
 <span id="Properties"></span>
 ==Eigenschaften==
