@@ -22,12 +22,14 @@
 }}
 </div>
 
+<span id="Description"></span>
 ==Descripción==
 
 Inserta un Cilindro primitivo en el Cuerpo activo como primera característica, o lo fusiona con la(s) característica(s) existente(s).
 
 [[File:PartDesign_AdditiveCylinder_example.png|200px]]
 
+<span id="Usage"></span>
 ==Uso==
 
 <div class="mw-translate-fuzzy">
@@ -37,16 +39,20 @@ Inserta un Cilindro primitivo en el Cuerpo activo como primera característica, 
 # Una operación de Cilindro aparece dentro del Body (cuerpo) activo.
 </div>
 
+<span id="Options"></span>
 ==Opciones==
 
 <div class="mw-translate-fuzzy">
 Es posible crear prismas torcidos especificando ángulos con respecto al vector normal del adjunto seleccionado. {{Version/es|0.20}}
 </div>
 
+<div class="mw-translate-fuzzy">
 Tras su creación, el Cilindro puede ser editado de dos maneras:
 * Haciendo doble clic con el ratón sobre el árbol del Modelo, o pinchando con el botón derecho y seleccionando '''Editar primitiva''' en el menú contextual. Con ello se abre la ventana de selección de parámetros de la Primitiva.
 * Por medio del  [[Property_editor/es|Editor de propiedades]].
+</div>
 
+<span id="Properties"></span>
 ==Propiedades==
 
 <div class="mw-translate-fuzzy">
