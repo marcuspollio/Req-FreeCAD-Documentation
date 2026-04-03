@@ -400,7 +400,9 @@ Ici, la sélection sélectionne également les numéros de ligne dans l'exemple 
 
 Les macros peuvent générer des informations dans la vue rapport afin de détailler l'action du code en cours d'exécution.
 
+<div class="mw-translate-fuzzy">
 Si aucune information n'est affichée, assurez-vous que la vue rapport et la console [[Python/fr|Python]] sont visibles et que la sortie est dirigée vers la vue rapport.
+</div>
 
 <div class="mw-collapsible-content">
 
