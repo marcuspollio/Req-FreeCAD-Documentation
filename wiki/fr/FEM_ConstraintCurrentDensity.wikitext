@@ -59,16 +59,14 @@ La fenêtre de dialogue propose les paramètres suivants :
 * '''Normal current density_*''' : partie réelle/imaginaire de la densité de courant normale à la frontière en A/m². {{Version/fr|1.1}}
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
-|[[FEM_ConstraintElectrostaticPotential/fr|Potentiel électrostatique]]
+|[[FEM_ConstraintElectromagnetic/fr|Électromagnétisme]]
 |[[FEM_ConstraintMagnetization/fr|Magnétisation]]
 |[[FEM_Workbench/fr|Atelier FEM]]
-|IconL=FEM_ConstraintElectrostaticPotential.svg
+|IconL=FEM_ConstraintElectromagnetic.svg
 |IconR=FEM_ConstraintMagnetization.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
