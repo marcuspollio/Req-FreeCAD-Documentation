@@ -40,7 +40,7 @@ Crée une condition limite FEM pour la densité de courant. À utiliser avec les
 #* ''Personnalisé'' : sélectionne et spécifie les composants de la densité de courant.
 #* ''Normal'' : spécifie la valeur normale de la densité de courant.
 # Appuyez sur le bouton {{Button|Ajouter}}.
-# Dans la [[3D_view/fr|vue 3D]], sélectionnez l'objet auquel la condition de limite doit être appliquée. {{Version/fr|1.1}} : pour supprimer des objets de la sélection, appuyez sur le bouton {{Button|Supprimer}}.
+# Dans la [[3D_View/fr|vue 3D]], sélectionnez l'objet auquel la condition de limite doit être appliquée. {{Version/fr|1.1}} : pour supprimer des objets de la sélection, appuyez sur le bouton {{Button|Supprimer}}.
 
 ==Options==
 
