@@ -166,8 +166,10 @@ Viditelnost Těla má přednost před viditelností všech objektů, které obsa
 
 Současně může být viditelných více [[Sketch|náčrtů]], ale současně může být viditelná pouze jediný [[PartDesign_Feature|PartDesign prvek]] (výsledný pevný tvar). Výběrem skryté funkce a stisknutím klávesy {{KEY|Space}} na klávesnici ho zobrazíte a automaticky skryjete prvek, který byl viditelný předtím.
 
+<div class="mw-translate-fuzzy">
 [[File:PartDesign_Body_Visibility.png]]
 {{Caption|PartDesign Tělo: může být současně zobrazeno více [[Sketch|náčrtů]], ale současně může být zobrazen pouze jeden plný [[PartDesign_Feature|PartDesign prvek]], ať už se jedná o Tip nebo ne.}}
+</div>
 
 <span id="Attachment"></span>
 === Příloha ===
