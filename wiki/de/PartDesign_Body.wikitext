@@ -170,8 +170,10 @@ Die Sichtbarkeit des Körpers hat Vorrang vor der Sichtbarkeit seiner Elemente. 
 
 Mehrfache [[Sketch/de|Skizzen]] können gleichzeitig sichtbar sein, aber nur ein [[PartDesign Feature/de|PartDesign Formelement]] (Festkörper Ergebnis) kann gleichzeitig sichtbar sein. Durch Auswahl eines ausgeblendeten Formelementes und Drücken der {{KEY|Space}} in der Tastatur wird es sichtbar und das zuvor sichtbare Formelement automatisch ausgeblendet.
 
+<div class="mw-translate-fuzzy">
 [[File:PartDesign_Body_Visibility.png]]
 {{Caption|PartDesign Körper: Mehrfache [[Sketch/de|Skizzen]] können gleichzeitig sichtbar sein, aber nur ein Festkörper [[PartDesign Feature/de|PartDesign Formelement]] kann gleichzeitig sichtbar sein, unabhängig davon, ob es sich um die Spitze handelt oder nicht.}}
+</div>
 
 <span id="Attachment"></span>
 === Befestigung ===
