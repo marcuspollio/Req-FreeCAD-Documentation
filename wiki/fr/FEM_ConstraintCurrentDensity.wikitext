@@ -9,7 +9,6 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommandContainer
 |{{GuiCommand/fr
 |Name=FEM ConstraintCurrentDensity
@@ -23,7 +22,6 @@
 |Solvers=Elmer
 }}
 }}
-</div>
 
 ==Description==
 
