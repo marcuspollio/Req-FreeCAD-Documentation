@@ -6,9 +6,7 @@
 
 [[Image:Freecad default.jpg|1024px|center]] 
 
-<div class="mw-translate-fuzzy">
-'''FreeCAD'''是一个3D [http://en.wikipedia.org/wiki/CAD '''CAD''']建模工具，并不局限于特定目的。它的开发完全遵循[http://en.wikipedia.org/wiki/Open_source 开源](LGPL)协议。FreeCAD的目标虽然指向 [http://en.wikipedia.org/wiki/Mechanical_engineering 机械工程]和[http://en.wikipedia.org/wiki/Product_design 产品设计]，但是它也适合工程领域内的其他用户，比如建筑或者其他工程专业。
-</div>
+'''FreeCAD'''是一款[https://en.wikipedia.org/wiki/Open_source 开源]的通用参数化三维[http://en.wikipedia.org/wiki/CAD '''CAD''']建模软件，其许可协议遵循[[License|LGPL许可]]。FreeCAD主要面向[http://en.wikipedia.org/wiki/Mechanical_engineering 机械工程]和[http://en.wikipedia.org/wiki/Product_design 产品设计]领域，但是由于通用性较强，也适用于工程领域的更广泛用途，比如建筑、有限元分析、3D打印以及其他相关任务。
 
 <div class="mw-translate-fuzzy">
 FreeCAD 的特征工具类似于[http://en.wikipedia.org/wiki/Catia Catia]、[http://en.wikipedia.org/wiki/Solidworks SolidWorks]或[http://en.wikipedia.org/wiki/Solid_Edge Solid Edge]。因此它也可以归入[http://en.wikipedia.org/wiki/CAD '''MCAD''']，[http://en.wikipedia.org/wiki/Product_Lifecycle_Management '''PLM''']，[http://en.wikipedia.org/wiki/CAx '''CAx'''] 以及 [http://en.wikipedia.org/wiki/Computer-aided_engineering '''CAE''']的范畴。它是一个 [http://en.wikipedia.org/wiki/Parametric_feature_based_modeler 参数化特征建模工具]，其模块化的软件设计，令其很容易提供新的功能，而不需要修改核心系统。
