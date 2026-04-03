@@ -9,6 +9,7 @@
 |IconC=Workbench_PartDesign.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand
 |Name=PartDesign SubtractiveBox
 |Name/it=Cubo sottrattivo
@@ -17,6 +18,7 @@
 |Version=0.17
 |SeeAlso=[[PartDesign_CompPrimitiveSubtractive/it|Primitiva sottrattiva]], [[PartDesign_AdditiveBox/it|Cubo additivo]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Descrizione==
@@ -29,19 +31,23 @@ Inserisce un cubo sottrattivo nel corpo attivo. La sua forma viene sottratta dal
 <span id="Usage"></span>
 ==Utilizzo==
 
+<div class="mw-translate-fuzzy">
 # Esistono diversi modi per richiamare lo strumento:
 #* Premere il pulsante {{Button|[[Image:PartDesign_SubtractiveBox.svg|16px]] [[PartDesign_SubtractiveBox/it|Cubo sottrattivo]]}}. '''Nota''': Il Cubo sottrattivo fa parte di un menu di icone etichettato ''Crea una primitiva sottrattiva''. Dopo aver avviato FreeCAD, il cubo sottrattivo è quella visualizzata nella barra degli strumenti. Se viene visualizzata una primitiva diversa, fare clic sulla freccia rivolta verso il basso accanto all'icona e selezionare Cubo sottrattiva
 #* Seleziona l'opzione {{MenuCommand|Part Design → Crea una primitiva sottrattiva → [[Image:PartDesign_SubtractiveBox.svg|16px]] Cubo sottrattivo}} dal menu.
 # Impostare i parametri della primitiva e il modo di  [[Part_EditAttachment/it|Associazione]].
 # Cliccare {{Button|OK}}.
 # Nel corpo attivo viene visualizzata una funzione Cubo.
+</div>
 
 <span id="Options"></span>
 == Opzioni == 
 
+<div class="mw-translate-fuzzy">
 Dopo la sua creazione il cubo può essere modificato in due modi:
 * Nell'albero del modello fare doppio clic, oppure fare clic con il tasto destro e selezionare '''Edita la primitiva''' dal menu contestuale; questo mostra i parametri primitivi.
 * Tramite l'[[Property_editor/it|editor delle proprietà]].
+</div>
 
 <span id="Properties"></span>
 == Proprietà ==
