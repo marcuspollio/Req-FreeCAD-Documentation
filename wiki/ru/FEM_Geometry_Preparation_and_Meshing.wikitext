@@ -38,11 +38,11 @@
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-If a part is slender (long and thin) and beam-like and has a regular cross-section of one of the currently supported beam section types (rectangular, circular, or pipe), then it should be analyzed using beam elements (unless there are some specific forms of loading, response, or unavoidable geometry details that invalidate this assumption).
+If a part is slender (long and thin) and beam-like and has a regular cross-section of one of the currently supported beam section types (rectangular, box, elliptical, circular, or pipe), then it should be analyzed using beam elements (unless there are some specific forms of loading, response, or unavoidable geometry details that invalidate this assumption).
 </div> 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Basically, one should draw a centerline (some tips on how to extract it from existing solid geometry can be found in [https://forum.freecad.org/viewtopic.php?t=81589 this forum thread] - in short, use [[Draft_Wire|Draft Wire]] or [[Draft_BSpline|Draft BSpline]] with proper [[Draft_Workbench#Draft_snap_toolbar|snaps]] and [[Draft_Line|lines]] as supports) and apply [[FEM_ElementGeometry1D|beam section]] with optional [[FEM_ElementRotation1D|rotation]].
+Basically, one should draw a centerline (some tips on how to extract it from existing solid geometry can be found in [https://forum.freecad.org/viewtopic.php?t=81589 this forum thread] - in short, use [[Draft_Wire|Draft Wire]] or [[Draft_BSpline|Draft BSpline]] with proper [[Draft_Workbench#Draft_Snap_toolbar|snaps]] and [[Draft_Line|lines]] as supports) and apply [[FEM_ElementGeometry1D|beam section]] with optional [[FEM_ElementRotation1D|rotation]].
 </div> 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -53,7 +53,7 @@ There's no single rule dictating when beam elements can be used, but it's often 
 {{Version|1.1}}: Very slender beams may have negligible bending stiffness and '''truss''' elements can be used to model them. These elements cannot sustain bending. They only transmit axial forces, not moments. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]]. Instead of a profile, the {{PropertyData|Truss Area}} property of the [[FEM_ElementGeometry1D|FEM ElementGeometry1D]] object is used to define their cross-section.
 </div>
 
-[[Image:FEM_beam_model.JPG|600px]]
+[[Image:Beam_centerline.PNG|600px]]
 {{Caption|Тонкая деталь, подходящая для анализа с балочными элементами — выделена центральная линия}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -76,7 +76,7 @@ Again, there's no single rule regarding the applicability of shell elements, but
 {{Version|1.1}}: Very thin shells may have negligible bending stiffness and '''membrane''' elements can be used to model them. These elements cannot sustain bending. To use them, enable the {{PropertyData|Exclude Bending Stiffness}} property of the [[FEM_SolverCalculixCcxtools|CalculiX solver]].
 </div>
 
-[[Image:FEM_shell_model.JPG|600px]]
+[[Image:FEM_shell_midsurf.PNG|600px]]
 {{Caption|Деталь с тонкими стенками, подходящая для анализа с оболочечными элементами — выделена срединная поверхность}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -88,6 +88,12 @@ Again, there's no single rule regarding the applicability of shell elements, but
 ** Плоское напряжение — для тонких деталей, которые можно упростить до плоских поверхностей, представляющих профиль для выдавливания (толщина задаётся так же, как для оболочек), которые нагружаются и деформируются только в плоскости и имеют нулевое напряжение в направлении, перпендикулярном плоскости. Доступны только две степени свободы — перемещения по X и Y. Поверхности в этом случае должны лежать в плоскости XY. Этот подход довольно распространён. Например, тонкая пластина, подверженная растяжению, может быть проанализирована таким образом.
 ** Плоская деформация — для толстых деталей, которые можно упростить до плоских поверхностей, представляющих профиль для выдавливания (толщина задаётся так же, как для оболочек), которые нагружаются и деформируются только в плоскости и имеют нулевую деформацию в направлениях, перпендикулярных плоскости. Доступны только две степени свободы — перемещения по X и Y. Поверхности в этом случае должны лежать в плоскости XY. Этот подход менее распространён. Например, длинная плотина, стена или труба, подверженная равномерному давлению по всей длине, может быть проанализирована таким образом.
 ** Осесимметричный — для деталей, которые можно упростить до плоских поверхностей, представляющих профиль вращения (толщина здесь не имеет значения), и которые нагружаются равномерно по всей окружности. Доступны только две степени свободы — радиальное и осевое перемещение. Поверхности должны лежать в плоскости XY, справа от оси Y. Этот подход очень распространён. Например, некоторые сосуды под давлением, резиновые опоры, втулки, прокладки, фланцы и даже болтовые соединения (с учётом резьбы как осесимметричной) могут быть проанализированы таким образом.
+</div>
+
+[[Image:2D_models_and_profiles.PNG|600px]]
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Caption|Parts suitable for 2D analyses and their highlighted profiles that will be used in such analyses. From the left - plane strain, plane stress and axisymmetric models. Revolution axis is also shown for the axisymmetric case. It must coincide with the global Y axis.}}
 </div>
 
 <span id="Geometry_validity"></span>
