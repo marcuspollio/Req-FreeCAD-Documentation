@@ -14,13 +14,14 @@
 |Name=BIM Link
 |MenuLocation=Modify → Cloning Tools → Make Link
 |Workbenches=[[BIM_Workbench|BIM]]
+|Shortcut={{KEY|L}} {{KEY|K}}
 |Version=1.2
 |SeeAlso=[[Std_LinkMake|Std LinkMake]], [[BIM_Clone|BIM Clone]], [[Draft_Move|Draft Move]]
 }}
 
 ==Description==
 
-The [[File:BIM_Link.svg|16px]] [[BIM_Link|BIM Link]] tool is a shortcut to [[Std_LinkMake|Link]], but starts a [[Draft_Move|Draft Move]] operation immediately after, allowing a link to be created and placed in one go.
+The [[File:BIM_Link.svg|24px]] [[BIM_Link|BIM Link]] tool is a shortcut to [[Std_LinkMake|Std LinkMake]], but starts a [[Draft_Move|Draft Move]] operation immediately after, allowing a link to be created and placed in one go.
 
 ==Usage==
 
