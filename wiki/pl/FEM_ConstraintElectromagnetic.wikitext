@@ -9,12 +9,11 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
 {{GuiCommand/pl
-|Name=FEM ConstraintElectrostaticPotential
-|Name/pl=MES: Warunek brzegowy potencjału elektrostatycznego
-|MenuLocation=Model → Warunki brzegowe elektromagnetyczne → Warunek brzegowy potencjału elektrostatycznego
+|Name=FEM ConstraintElectromagnetic
+|Name/pl=MES: Warunek brzegowy elektromagnetyczny
+|MenuLocation=Model → Warunki brzegowe elektromagnetyczne → Warunek brzegowy elektromagnetyczny
 |Workbenches=[[FEM_Workbench/pl|MES]]
 |SeeAlso=[[FEM_Example_Capacitance_Two_Balls/pl|MES: Przykład pojemność dwóch kul]], [[FEM_tutorial/pl|Poradnik MES]]
 }}
@@ -22,7 +21,6 @@
 |Solvers={{VersionMinus/pl|1.0}}: Elmer<br>{{VersionPlus/pl|1.1}}: Elmer, CalculiX
 }}
 }}
-</div>
 
 <span id="Description"></span>
 ==Opis==
