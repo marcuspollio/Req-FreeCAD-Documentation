@@ -16,9 +16,8 @@
 * 请注意翻译标签。FreeCAD wiki 使用自动化翻译工具提供多语言版本的页面。所有页面都可能有多个语言版本存在。在许多页面源码里面你都可能会看到在 <code>&lt;translate&gt;...&lt;/translate&gt;</code> 中类似 <code>&lt;!--T:8--&gt;</code>标签的内容. 这种被称为翻译单元的标记标签是由翻译系统自动创建的，所以你不应当手动创建这些内容。翻译标签链接着原文和翻译。所以你也不需要手动编辑这些内容，因为因为手动编辑可能会破坏已有的翻译链接。如果要移动段落或者内容，只要不修改标签，内容就不会发生改变。如果你要删除整个标题或者段落，那么也请同时删除属于那个部分的标签。请注意，对章节或者标题做出的修改时，其翻译也会随之变化；你的编辑内容应当值得去更新翻译。不用担心新内容的翻译标签，因为系统会在编辑后自动自动添加翻译标签。更多信息，参见 [[Localisation|Localisation]] 以及 [https://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example Mediawiki:Extension:Translate page]。
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== General guidelines ==
-</div>
+<span id="General_guidelines"></span>
+== 通用规范 ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Concise descriptions ===
