@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[FEM_ElementGeometry2D/fr|Épaisseur d'un élément 2D]]
 |[[FEM_ConstraintElectrostaticPotential/fr|Potentiel électrostatique]]
@@ -8,6 +9,7 @@
 |IconR=FEM_ConstraintElectrostaticPotential.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{GuiCommandContainer
 |
@@ -49,6 +51,7 @@ Crée un élément FEM de section fluide pour les réseaux pneumatiques et hydra
 # Le [http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node205.html jeu de paramètres *FLUID SECTION] est utilisé pour modéliser les éléments fluides pour un écoulement 1D.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[FEM_ElementGeometry2D/fr|Épaisseur d'un élément 2D]]
 |[[FEM_ConstraintElectrostaticPotential/fr|Potentiel électrostatique]]
@@ -57,6 +60,7 @@ Crée un élément FEM de section fluide pour les réseaux pneumatiques et hydra
 |IconR=FEM_ConstraintElectrostaticPotential.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
