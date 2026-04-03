@@ -9,15 +9,13 @@
 |IconC=Freecad.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/pl
 |Name=Std Refresh
 |Name/pl=Std: Odśwież
 |MenuLocation=Edycja → Ponownie przelicz
 |Workbenches=Wszystkie
-|Shortcut={{KEY|Ctrl}}+{{KEY|R}}
+|Shortcut={{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|R}}
 }}
-</div>
 
 <span id="Description"></span>
 ==Opis==
