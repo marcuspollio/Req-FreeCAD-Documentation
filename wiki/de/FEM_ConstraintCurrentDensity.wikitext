@@ -9,7 +9,6 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
 {{GuiCommand/de
 |Name=FEM ConstraintCurrentDensity
@@ -17,13 +16,12 @@
 |MenuLocation= Modell → Elektromagnetische Randbedingungen → Randbedingung Stromdichte
 |Workbenches=[[FEM_Workbench/de|FEM]]
 |Version=0.21
-|SeeAlso=[[FEM_EquationMagnetodynamic/de|GleichungElektrodynamik]], [[FEM_EquationMagnetodynamic2D/de|GleichungElektrodynamik2D]]
+|SeeAlso=[[FEM_EquationMagnetodynamic/de|FEM GleichungMagnetodynamik]], [[FEM_EquationMagnetodynamic2D/de|FEM GleichungMagnetodynamik2D]]
 }}
 {{GuiCommandFemInfo/de
 |Solvers=Elmer
 }}
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung==
