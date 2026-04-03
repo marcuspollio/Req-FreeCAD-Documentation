@@ -9,6 +9,7 @@
 |IconC=Workbench_FEM.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
 {{GuiCommand/pl
 |Name=FEM ConstraintElectrostaticPotential
@@ -21,11 +22,14 @@
 |Solvers={{VersionMinus/pl|1.0}}: Elmer<br>{{VersionPlus/pl|1.1}}: Elmer, CalculiX
 }}
 }}
+</div>
 
 <span id="Description"></span>
 ==Opis==
 
+<div class="mw-translate-fuzzy">
 Tworzy warunek brzegowy MES dla potencjału elektrostatycznego. Do użycia razem z równaniem [[FEM_EquationElectrostatic/pl|elektrostatycznym]], [[FEM_EquationElectricforce/pl|siły elektrostatycznej]], [[FEM_EquationMagnetodynamic/pl|magnetodynamicznym]], [[FEM_EquationMagnetodynamic2D/pl|magnetodynamicznym 2D]] lub [[FEM_EquationStaticCurrent/pl|statycznym przewodzenia prądu]].
+</div>
 
 {{Version/pl|1.1}}: Działa również z przebudowanym [[FEM_SolverCalculixCcxtools|obiektem solvera CalculiX]].
 
@@ -37,6 +41,7 @@ Tworzy warunek brzegowy MES dla potencjału elektrostatycznego. Do użycia razem
 <span id="Usage"></span>
 ==Użycie==
 
+<div class="mw-translate-fuzzy">
 # Istnieje kilka sposobów na wywołanie tego polecenia:
 #* Wciśnij przycisk {{Button|[[Image:FEM_ConstraintElectrostaticPotential.svg|16px]] '''Warunek brzegowy elektromagnetyczny'''}}.
 #* Wybierz opcję {{MenuCommand|Model → Warunki brzegowe elektromagnetyczne → [[Image:FEM_ConstraintElectrostaticPotential.svg|16px]] Warunek brzegowy elektromagnetyczny}} z menu.
@@ -46,6 +51,7 @@ Tworzy warunek brzegowy MES dla potencjału elektrostatycznego. Do użycia razem
 # Opcjonalnie, zdefiniuj ''Jednostkę przepustową''.
 # Wciśnij przycisk {{Button|Dodaj}}.
 # W oknie [[3D_View/pl|Widoku 3D]] wybierz obiekt, do którego chcesz przypisać warunek brzegowy. {{Version/pl|1.1}}: Aby usunąć obiekty ze wskazania, wciśnij przycisk {{Button|Usuń}}.
+</div>
 
 <span id="Options"></span>
 ==Opcje==
