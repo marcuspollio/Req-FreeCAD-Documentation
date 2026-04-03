@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[FEM_ConstraintElectrostaticPotential/pl|Warunek brzegowy potencjału elektrostatycznego]]
 |[[FEM_ConstraintMagnetization/pl|Warunek brzegowy magnetyzacji]]
@@ -8,6 +9,7 @@
 |IconR=FEM_ConstraintMagnetization.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 <div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
@@ -60,6 +62,7 @@ To okno dialogowe zawiera następujące ustawienia:
 * '''Normalna gęstość prądu_*''' - {{Version/pl|1.1}}: Część rzeczywista/urojona gęstości prądu normalnej do brzegu w A/m². {{Version/pl|1.1}}
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[FEM_ConstraintElectrostaticPotential/pl|Warunek brzegowy potencjału elektrostatycznego]]
 |[[FEM_ConstraintMagnetization/pl|Warunek brzegowy magnetyzacji]]
@@ -68,6 +71,7 @@ To okno dialogowe zawiera następujące ustawienia:
 |IconR=FEM_ConstraintMagnetization.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
