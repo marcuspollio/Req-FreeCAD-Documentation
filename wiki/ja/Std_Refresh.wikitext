@@ -22,7 +22,7 @@
 <span id="Description"></span>
 == 概要 ==
 
-The '''Std Refresh''' command recomputes the active document. The command is disabled if the document does not require a recompute.
+The '''Std Refresh''' command recomputes selected objects ({{Version|1.2}}), or the active document if no objects are selected. The command is disabled if no recompute is required, but in that case the command can still be invoked through its shortcut.
 
 <span id="Usage"></span>
 == 使い方 ==
@@ -30,7 +30,7 @@ The '''Std Refresh''' command recomputes the active document. The command is dis
 # There are several ways to invoke the command:
 #* Press the {{Button|[[Image:Std_Refresh.svg|16px]] [[Std_Refresh|Recompute]]}} button.
 #* Select the {{MenuCommand|Edit → [[Image:Std_Refresh.svg|16px]] Recompute}} option from the menu.
-#* Use the keyboard shortcut: {{KEY|Ctrl}}+{{KEY|R}}.
+#* Use the keyboard shortcut: {{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|R}}.
 
 <span id="Options"></span>
 == オプション ==
