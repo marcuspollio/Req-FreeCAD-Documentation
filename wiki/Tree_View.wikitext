@@ -70,7 +70,6 @@ The following keyboard shortcuts are available when the focus is on the Tree Vie
 ** {{KEY|Alt}}+{{KEY|Right}}: expands selected item(s).
 ** {{KEY|Alt}}+{{KEY|Up}}: expands selected item(s) with all their tier-1 children collapsed (deeper children remain unchanged).
 ** {{KEY|Alt}}+{{KEY|Down}}: expands selected item(s) with all their tier-1 children expanded as well (deeper children remain unchanged).
-** {{Version|1.2}} {{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|R}}: recomputes the selected object or objects. If no object is selected, the active document is recomputed.
 
 == Overlay icons == <!--T:28-->
 
