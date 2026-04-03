@@ -28,19 +28,23 @@ Fügt einen Quader-Grundkörper in den aktiven Körper (Body-Objekt) als Basisfo
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 #Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
 #* Die Schaltfläche (additive) {{Button|[[File:PartDesign_AdditiveBox.svg|16px]] [[PartDesign_AdditiveBox/de|Quader]]}} drücken. '''Hinweis''': Der Quader ist Teil eines Symbolmenüs mit der Bezeichnung ''Hinzufügende Grundkörper''. Nach dem Start von FreeCAD wird der Quader in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper angezeigt wird, den Abwärtspfeil neben dem Symbol anklicken und Quader im Menü auswählen.
 #* Den Menüeintrag {{MenuCommand|Part Design → Hinzufügende Grundkörper → [[Image:PartDesign_AdditiveBox.svg|16px]] Quader}} auswählen.
 # Parameter des Grundkörpers und [[Part_EditAttachment/de|Befestigung]] festlegen.
 # {{Button|OK}} klicken.
 # Ein Box-Objekt (Formelement) erscheint unter dem aktiven Körper (in der Baumansicht).
+</div>
 
 <span id="Options"></span>
 ==Optionen==
 
+<div class="mw-translate-fuzzy">
 Der Quader kann nach der Erstellung auf zwei Arten bearbeitet werden:
 * Durch Doppelklick in der [[Tree_View/de|Baumansicht]] oder durch Rechtsklick und Auswahl von '''Grundkörper bearbeiten''' im Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers“ im Aufgaben-Fenster.
 * Mit Hilfe der [[Property_View/de|Eigenschaften-Ansicht]].
+</div>
 
 <span id="Properties"></span>
 ==Eigenschaften==
