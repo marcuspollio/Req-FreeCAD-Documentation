@@ -58,6 +58,7 @@ Ten sposób pracy oparty na klawiaturze przyspiesza rysowanie, szczególnie przy
 
 [[Image:Exercise_cabin_02.png]]
 
+<div class="mw-translate-fuzzy">
 * Dalej możemy narysować kilka pionowych linii aby zdefiniować położenie dzrwi i okien, korzystając z narzędzia [[Image:Draft_Line.svg|16px]] [[Draft_Line/pl|Linia]] (zauważ, że pole "względne" powinno być odznaczone dla tego kroku). Przecięcie tych linii z dwoma prostokątami da nam przydatne przecięcia do przyciągania ścian. Narysuj pierwszą linię definiując następujące punkty:
 ** '''P1''' (15cm, 1m, 0) i '''P2''' (15cm, 3m, 0).
 * Teraz zduplikujemy tę linię 5 razy. Naciśnij narzędzie [[Image:Draft_Move.svg|16px]] [[Draft_Move/pl|Przesuń]] z włączonym trybem [[Image:Draft_Clone.svg|16px]] [[Draft_Clone/pl|Klonuj]]. Upewnij się, że '''Tryb względny''' jest włączony. Tryb kopiowania zapewnia, że każde przesunięcie tworzy nową linię zamiast przesuwać oryginalną, podczas gdy Tryb względny pozwala na definiowanie ruchów na podstawie odległości względnych, co ułatwia pozycjonowanie bez konieczności obliczania dokładnych współrzędnych. Zacznij od wybrania oryginalnej linii i rozpocznij operację przesunięcia, wybierając dowolny punkt początkowy, na przykład (0,0,0). Po każdym przesunięciu wykonaj kolejną operację na nowo utworzonej linii, dzięki czemu każda kopia będzie oparta na poprzedniej. Zdefiniuj względne punkty końcowe dla każdej nowej linii.
@@ -66,6 +67,7 @@ Ten sposób pracy oparty na klawiaturze przyspiesza rysowanie, szczególnie przy
 ** line003: x: -55cm, y: -2m
 ** line004: x: 80cm
 ** line005: x: 15cm
+</div>
 
 [[Image:Exercise_cabin_03.jpg]]
 
@@ -74,7 +76,7 @@ Ten sposób pracy oparty na klawiaturze przyspiesza rysowanie, szczególnie przy
 
 [[Image:Exercise_cabin_04.jpg]]
 
-* Możemy nadać ścianom ładne kreskowanie. Wybierz obie ściany, upewnij się, że ich właściwość '''Make Face''' (w zakładce Dane) jest ustawiona na '''{{TRUE/pl}}''', następnie ustaw ich właściwość '''Pattern''' (w zakładce Widok) na '''Simple''' a '''Pattern size''' według uznania, np. '''0.005'''. 
+* Możemy nadać ścianom ładne kreskowanie. Wybierz obie ściany, upewnij się, że ich właściwość '''Make Face''' (w zakładce Dane) jest ustawiona na '''{{TRUE/pl}}''', następnie ustaw ich właściwość '''Pattern''' (w zakładce Widok) na '''Simple''' a '''Pattern size''' według uznania, np. '''0.01'''. 
 
 [[File:Draft Pattern.png]]
 
