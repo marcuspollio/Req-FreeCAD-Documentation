@@ -38,7 +38,7 @@ sudo apt install git
 }}
 <translate>
 
-For an in-depth explanation on the contributing process, refer to [[Source code management|Source code management]].
+For an in-depth explanation on the contributing process, refer to [[Source_code_management|Source code management]].
 
 <!--T:351-->
 Should you only need to compile FreeCAD, the fastest way to get its code is to {{incode|git clone}} the read-only official [https://github.com/FreeCAD/FreeCAD Git repository]. The following command will place a copy of the latest version of the FreeCAD source code in a new directory called {{incode|freecad-source}}.
