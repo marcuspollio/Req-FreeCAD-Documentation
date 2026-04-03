@@ -47,7 +47,7 @@ Inserts a subtractive box in the active Body. Its shape is subtracted from the e
 
 <!--T:9-->
 The Box can be edited after its creation in two ways:
-* Double-clicking it in the [[Tree_View|Tree View]], or by right-clicking and selecting '''Edit Primitive''' in the context menu; this brings up the task panel and ({{Version|1.2}}) the interactive gizmos (if enabled).
+* Double-clicking it in the [[Tree_View|Tree View]], or by right-clicking and selecting '''Edit Primitive''' in the context menu. This brings up the task panel and ({{Version|1.2}}) the interactive gizmos (if enabled).
 * Via the [[Property_View|Property View]].
 
 ==Properties== <!--T:10-->
