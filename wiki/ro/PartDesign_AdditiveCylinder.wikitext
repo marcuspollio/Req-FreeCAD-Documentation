@@ -1,8 +1,8 @@
 <languages/>
 
 {{Docnav
-|[[PartDesign_AdditiveBox|Additive box]]
-|[[PartDesign_AdditiveSphere|Additive sphere]]
+|[[PartDesign_AdditiveBox|Additive Box]]
+|[[PartDesign_AdditiveSphere|Additive Sphere]]
 |[[PartDesign_Workbench|PartDesign]]
 |IconL=PartDesign_AdditiveBox.svg
 |IconR=PartDesign_AdditiveSphere.svg
@@ -35,7 +35,7 @@ Primitiva geometrică tip Cilindru se introduc în corpul activ drept prima func
 <span id="Options"></span>
 == Opţiuni ==
 
-It is possible to create skewed cylinders by specifying angles in respect to the normal vector of the chosen attachment. {{Version|0.20}}
+It is possible to create skewed cylinders by specifying angles in respect to the normal vector of the chosen attachment.
 
 <div class="mw-translate-fuzzy">
 Cilindrul poate fi editat, după crearea sa, în două moduri:
@@ -56,8 +56,8 @@ Cilindrul poate fi editat, după crearea sa, în două moduri:
 
 
 {{Docnav
-|[[PartDesign_AdditiveBox|Additive box]]
-|[[PartDesign_AdditiveSphere|Additive sphere]]
+|[[PartDesign_AdditiveBox|Additive Box]]
+|[[PartDesign_AdditiveSphere|Additive Sphere]]
 |[[PartDesign_Workbench|PartDesign]]
 |IconL=PartDesign_AdditiveBox.svg
 |IconR=PartDesign_AdditiveSphere.svg
