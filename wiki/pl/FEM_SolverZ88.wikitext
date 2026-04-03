@@ -29,10 +29,12 @@ Polecenie '''SolverZ88''' umożliwia użycie solvera [https://en.wikipedia.org/w
 <span id="Installation"></span>
 ==Instalacja==
 
+<div class="mw-translate-fuzzy">
 Do korzystania z solvera Z88 musi być zainstalowana otwarta wersja Z88 ''(Z88OS)'':
 # Pobierz plik ZIP ze [https://en.z88.de/download-z88os strony Z88OS].
 # Rozpakuj plik ZIP do wybranego folderu.
 # W [[FEM_Preferences/pl|preferencjach MES]] przejdź do zakładki Z88 i ustaw tam ścieżkę do pliku wykonywalnego '''z88r'''. Jeśli korzystasz z systemu Windows, będzie to ścieżka do pliku {{FileName|z88r.exe}} w podfolderze {{FileName|~\bin\win64}} katalogu, do którego rozpakowałeś plik ZIP.
+</div>
 
 <span id="Usage"></span>
 ==Użycie==
