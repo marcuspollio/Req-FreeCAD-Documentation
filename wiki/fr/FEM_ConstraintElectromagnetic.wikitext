@@ -9,6 +9,7 @@
 |IconC=Workbench_FEM.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommandContainer
 |{{GuiCommand/fr
 |Name=FEM ConstraintElectrostaticPotential
@@ -21,11 +22,14 @@
 |Solvers={{VersionMinus/fr|1.0}} : Elmer<br>{{VersionPlus/fr|1.1}} : Elmer, CalculiX
 }}
 }}
+</div>
 
 <span id="Description"></span>
 == Description ==
 
+<div class="mw-translate-fuzzy">
 Crée une condition limite FEM pour le potentiel électrostatique. À utiliser avec les équations [[FEM_EquationElectrostatic/fr|électrostatiques]], de [[FEM_EquationElectricforce/fr|force électrique]], [[FEM_EquationMagnetodynamic/fr|magnétodynamiques]], [[FEM_EquationMagnetodynamic2D/fr|magnétodynamiques 2D]] ou [[FEM_EquationStaticCurrent/fr|courant statique]].
+</div>
 
 {{Version/fr|1.1}} : fonctionne également avec le [[FEM_SolverCalculixCcxtools/fr|solveur CalculiX]] refactorisé.
 
@@ -37,6 +41,7 @@ Crée une condition limite FEM pour le potentiel électrostatique. À utiliser a
 <span id="Usage"></span>
 ==Utilisation==
 
+<div class="mw-translate-fuzzy">
 # Il y a plusieurs façons de lancer la commande :
 #* Appuyez sur le bouton {{Button|[[Image:FEM_ConstraintElectrostaticPotential.svg|16px]] [[FEM_ConstraintElectrostaticPotential/fr|Condition limite électromagnétique]]}}.
 #* Sélectionnez l'option {{MenuCommand|Modèle → Conditions limites électromagnétiques → [[Image:FEM_ConstraintElectrostaticPotential.svg|16px]] Condition limite électromagnétique}} du menu.
@@ -46,6 +51,7 @@ Crée une condition limite FEM pour le potentiel électrostatique. À utiliser a
 # Vous pouvez définir un ''Corps capacitif''.
 # Appuyez sur le bouton {{Button|Ajouter}}.
 # Dans la [[3D_View/fr|vue 3D]], sélectionnez l'objet auquel la condition limite doit être appliquée. {{Version/fr|1.1}} : pour supprimer des objets de la sélection, appuyez sur le bouton {{Button|Supprimer}}.
+</div>
 
 ==Options==
 
