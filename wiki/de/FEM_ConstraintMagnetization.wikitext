@@ -9,7 +9,6 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
 {{GuiCommand/de
 |Name=FEM ConstraintMagnetization
@@ -17,13 +16,12 @@
 |MenuLocation= Modell → Elektromagnetische Randbedingungen → Randbedingung Magnetisierung
 |Workbenches=[[FEM_Workbench/de|FEM]]
 |Version=0.21
-|SeeAlso=[[FEM_EquationMagnetodynamic/de|MagnetodynamischeGleichung]], [[FEM_EquationMagnetodynamic2D/de|Magnetodynamische2DGleichung]]
+|SeeAlso=[[FEM_EquationMagnetodynamic/de|FEM MagnetodynamischeGleichung]], [[FEM_EquationMagnetodynamic2D/de|FEM Magnetodynamische2DGleichung]]
 }}
 {{GuiCommandFemInfo/de
 |Solvers=Elmer
 }}
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung==
