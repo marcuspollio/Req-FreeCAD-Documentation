@@ -40,11 +40,9 @@ Funkcja ta wstawia pierwotną sferę odejmowaną od aktywnej Zawartości. Jej ks
 <span id="Options"></span>
 ==Opcje==
 
-<div class="mw-translate-fuzzy">
 Sferę można edytować po jej utworzeniu na dwa sposoby:
-* Klikając ją dwukrotnie w [[Tree_View/pl|Widoku drzewa]] lub klikając prawym przyciskiem myszy i wybierając '''Edytuj prymityw''' z menu kontekstowego. Spowoduje to wyświetlenie parametrów prymitywu.
+* Klikając ją dwukrotnie w [[Tree_View/pl|Widoku drzewa]] lub klikając prawym przyciskiem myszy i wybierając '''Edytuj prymityw''' z menu kontekstowego. Spowoduje to wyświetlenie panelu zadań i ({{Version/pl|1.2}}) interaktywnego manipulatora (jeśli jest włączony).
 * Poprzez [[Property_View/pl|Widok właściwości]].
-</div>
 
 <span id="Properties"></span>
 ==Właściwości==
