@@ -27,10 +27,12 @@ La commande [[FEM_SolverZ88/fr|Solveur Z88]] permet d'utiliser le solveur [https
 
 ==Installation==
 
+<div class="mw-translate-fuzzy">
 Pour utiliser le solveur Z88, la version OpenSource de Z88 (Z88OS) doit être installée :
 # Téléchargez le fichier ZIP à partir du [https://en.z88.de/download-z88os site web Z88OS].
 # Extraire le ZIP dans un dossier de votre choix.
 # Dans les [[FEM_Preferences/fr|FEM Préférences]], allez dans l'onglet Z88 et définissez le chemin vers le binaire '''z88r'''. Si vous êtes sous Windows, ce sera le chemin vers le fichier {{FileName|z88r.exe}} qui se trouve dans le sous-dossier {{FileName|~\bin\win64}} du dossier où vous avez extrait le ZIP.
+</div>
 
 <span id="Usage"></span>
 ==Utilisation==
