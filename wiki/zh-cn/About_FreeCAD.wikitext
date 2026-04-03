@@ -14,9 +14,7 @@ FreeCAD具备与[https://en.wikipedia.org/wiki/CATIA CATIA]、[https://en.wikipe
 
 FreeCAD大量使用了[https://en.wikipedia.org/wiki/Scientific_Computation 科学计算]领域的开源库。其中包括[https://OpenCascade.org 开放几何技术（OCCT）]、一种强大的CAD内核[https://github.com/coin3d/coin/wiki Coin3D]、一种与[https://en.wikipedia.org/wiki/Open_Inventor Open Inventor]兼容的三维图形开发工具包、著名的用户界面框架[https://www.qt.io Qt]以及现代脚本语言[https://python.org Python]。FreeCAD本身也可以作为库被其他程序使用。
 
-<div class="mw-translate-fuzzy">
-FreeCAD也是一个真正的[http://en.wikipedia.org/wiki/Cross-platform 多平台]程序，目前可在Windows、Linux/Unix以及Mac OSX系统上完美运行，并在所有平台上拥有一样的外观和功能。
-</div>
+FreeCAD还是一款[https://en.wikipedia.org/wiki/Cross-platform 多平台]软件，目前可运行在Linux/Unix、Windows以及macOS系统上，并且在所有平台上具有相同的外观和功能。
 
 <div class="mw-translate-fuzzy">
 想了解更多FreeCAD的能力，请看[[Feature list/zh-cn|特征列表]]或者[[Getting_started/zh-cn#What's new|最新发布记录]]或者[[Getting started/zh-cn|入门指南]]文章，或者查看更多 [[screenshots/zh-cn|截图]]。
