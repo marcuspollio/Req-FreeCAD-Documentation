@@ -1,6 +1,7 @@
 <languages/>
 <translate>
 
+<!--T:1-->
 {{Docnav
 |[[BIM_Clone|Clone]]
 |[[BIM_Copy|Copy]]
@@ -10,6 +11,7 @@
 |IconC=Workbench_BIM.svg
 }}
 
+<!--T:2-->
 {{GuiCommand
 |Name=BIM Link
 |MenuLocation=Modify → Cloning Tools → Make Link
@@ -19,12 +21,14 @@
 |SeeAlso=[[Std_LinkMake|Std LinkMake]], [[BIM_Clone|BIM Clone]], [[Draft_Move|Draft Move]]
 }}
 
-==Description==
+==Description== <!--T:3-->
 
+<!--T:4-->
 The [[File:BIM_Link.svg|24px]] [[BIM_Link|BIM Link]] command is a shortcut to [[Std_LinkMake|Std LinkMake]], but starts a [[Draft_Move|Draft Move]] operation immediately after, allowing a link to be created and placed in one go.
 
-==Usage==
+==Usage== <!--T:5-->
 
+<!--T:6-->
 # Select an object.
 # There are several ways to invoke the command:
 #* Press the {{Button|[[Image:BIM_Link.svg|16px]] [[BIM_Link|Make Link]]}} button.
@@ -35,6 +39,7 @@ The [[File:BIM_Link.svg|24px]] [[BIM_Link|BIM Link]] command is a shortcut to [[
 # Click in the [[3D_View|3D View]] to place the new link.
 
 
+<!--T:7-->
 {{Docnav
 |[[BIM_Clone|Clone]]
 |[[BIM_Copy|Copy]]
