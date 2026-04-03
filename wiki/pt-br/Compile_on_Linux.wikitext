@@ -28,27 +28,25 @@ Abaixo, você encontrará explicações detalhadas de todo o processo, alguns [[
 <span id="Getting_the_source"></span>
 == Obtendo a fonte ==
 
-=== Git ===
-
-<div class="mw-translate-fuzzy">
-A melhor maneira de obter o código é clonar o repositório Git somente leitura [https://github.com/FreeCAD/FreeCAD Git]. Para isso você precisa do programa {{incode|git}} que pode ser facilmente instalado na maioria das distribuições Linux. Também pode ser obtido no [http://git-scm.com/ site oficial].
-</div>
-
-<div class="mw-translate-fuzzy">
-O Git pode ser instalado através do seguinte comando:
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Interacting with the source code requires [https://git-scm.com/ {{incode|git}}]. Refer to your current distribution's instructions on how to install its binaries. For instance, on Debian related distributions, Git can be installed via the following command:
 </div>
 
 {{Code|lang=bash|code=
 sudo apt install git
 }}
 
-O comando a seguir colocará uma cópia da versão mais recente do código-fonte do FreeCAD em um novo diretório chamado {{incode|freecad-source}}.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+For an in-depth explanation on the contributing process, refer to [[Source_code_management|Source code management]].
+</div>
+
+<div class="mw-translate-fuzzy">
+A melhor maneira de obter o código é clonar o repositório Git somente leitura [https://github.com/FreeCAD/FreeCAD Git]. Para isso você precisa do programa {{incode|git}} que pode ser facilmente instalado na maioria das distribuições Linux. Também pode ser obtido no [http://git-scm.com/ site oficial].
+</div>
 
 {{Code|lang=bash|code=
 git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git freecad-source
 }}
-
-Para obter mais informações sobre como usar o Git e contribuir com código para o projeto, consulte [[Source code management/pt-br|Gerenciamento de código-fonte]].
 
 <span id="Getting_the_dependencies"></span>
 == Obtendo as dependências ==
