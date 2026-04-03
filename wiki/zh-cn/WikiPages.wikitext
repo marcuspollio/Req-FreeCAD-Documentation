@@ -42,9 +42,8 @@
 
 模板用于统一帮助页面的样式，让文档呈现出一致的外观与风格。模板包含菜单命令样式模板（{{MenuCommand | 文件 → 保存}}）、按键样式模板（{{KEY|Shift}}）、布尔值显示模板（{{TRUE}}）等。编写帮助页面前，请先熟悉本文「模板」章节的内容。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Temporary flags ===
-</div>
+<span id="Temporary_flags"></span>
+=== 临时标记 ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you are working on a large page it is advisable to mark the page either as a work in progress or as unfinished. This assures that wiki admins don't mark your page as ready for translation while you are still changing it.
