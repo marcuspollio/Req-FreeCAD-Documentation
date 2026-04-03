@@ -58,6 +58,7 @@ Ce flux de travail au clavier accélère la rédaction, en particulier pour les 
 
 [[Image:Exercise_cabin_02.png|600px]]
 
+<div class="mw-translate-fuzzy">
 * Nous pouvons ensuite tracer quelques lignes verticales pour définir l'emplacement des portes et des fenêtres, en utilisant l'outil [[Image:Draft_Line.svg|16px]] [[Draft_Line/fr|Ligne]]. (notez que la case du mode « relatif » doit être décochée pour cette étape). Le croisement de ces lignes avec nos deux rectangles nous donnera des intersections utiles sur lesquelles nous pourrons fixer nos murs. Tracez la première ligne en définissant les points suivants :
 ** '''P1''' (15cm, 1m, 0) et '''P2''' (15cm, 3m, 0).
 * Nous allons maintenant dupliquer cette ligne 5 fois. Appuyez sur la [[Image:Draft_Move.svg|16px]] [[Draft_Move/fr|Déplacer]] avec le mode [[Image:Draft_Clone.svg|16px]] [[Draft_Clone/fr|Cloner]] activé. Assurez-vous que le '''Mode relatif''' est activé. Le mode Copie permet de s'assurer que chaque mouvement crée une nouvelle ligne au lieu de déplacer l'original, tandis que le mode relatif permet de définir des mouvements basés sur des distances relatives, ce qui facilite le positionnement sans avoir à calculer les coordonnées exactes. Commencez par sélectionner la ligne d'origine et lancez l'opération de déplacement en choisissant un point de départ quelconque, tel que (0,0,0). Après chaque déplacement, effectuez l'opération suivante sur la ligne nouvellement créée, de sorte que chaque copie s'appuie sur la précédente. Définissez les extrémités relatives de chaque nouvelle ligne
@@ -66,6 +67,7 @@ Ce flux de travail au clavier accélère la rédaction, en particulier pour les 
 ** line003: x: -55cm, y: -2m
 ** line004: x: 80cm
 ** line005: x: 15cm
+</div>
 
 [[Image:Exercise_cabin_03.jpg|600px]]
 
