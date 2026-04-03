@@ -45,9 +45,7 @@
 <span id="Temporary_flags"></span>
 === 临时标记 ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If you are working on a large page it is advisable to mark the page either as a work in progress or as unfinished. This assures that wiki admins don't mark your page as ready for translation while you are still changing it.
-</div>
+如果你正在编辑篇幅较长的页面，建议将页面标记为进行中或未完成状态。这样可以避免维基管理员在你仍在修改内容时，就将页面标记为可翻译状态。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To flag a page add either <code><nowiki>{{Page in progress}}</nowiki></code> or <code><nowiki>{{UnfinishedDocu}}</nowiki></code> as the first line. With <code><nowiki>{{UnfinishedDocu}}</nowiki></code> you invite others to join you in finishing the page, while <code><nowiki>{{Page in progress}}</nowiki></code> indicates that you will do the work yourself and others should give you some time.
