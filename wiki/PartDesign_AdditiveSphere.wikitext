@@ -35,7 +35,9 @@ Inserts a primitive sphere in the active Body as the first feature, or fuses it 
 # There are several ways to invoke the tool:
 #* Press the {{Button|[[File:PartDesign_AdditiveSphere.svg|16px]] [[PartDesign_AdditiveSphere|Additive Sphere]]}} button. '''Note''': the Additive Sphere is part of an icon menu labelled ''Additive Primitive''. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get the Sphere, click on the down arrow besides the visible icon and select Additive Sphere in the menu.
 #* Select the {{MenuCommand|Part Design → Additive Primitive → [[Image:PartDesign_AdditiveSphere.svg|16px]] Additive Sphere}} option from the menu.
-# Set the Primitive Parameters and [[Part_EditAttachment|Attachment]].
+# The task panel opens.
+# Set the parameters. {{Version|1.2}}: If the {{MenuCommand|Show interactive draggers when editing features}} [[PartDesign_Preferences#General|preference]] is selected (default), parameters can be adjusted with interactive gizmos in the [[3D_View|3D View]].
+# Optionally set the [[Part_EditAttachment|Attachment]].
 # Click {{Button|OK}}.
 # A Sphere feature appears under the active Body.
 
@@ -43,9 +45,8 @@ Inserts a primitive sphere in the active Body as the first feature, or fuses it 
 
 <!--T:8-->
 The Sphere can be edited after its creation in two ways:
-* Double-clicking it in the [[Tree_View|Tree View]], or by right-clicking and selecting '''Edit Primitive''' in the context menu; this brings up the Primitive Parameters.
+* Double-clicking it in the [[Tree_View|Tree View]], or by right-clicking and selecting '''Edit Primitive''' in the context menu. This brings up the task panel and ({{Version|1.2}}) the interactive gizmos (if enabled).
 * Via the [[Property_View|Property View]].
-{{Version|1.2}} When editing the primitive, interactive gizmos may be available in the [[3D_View|3D View]] to adjust its size directly.
 
 ==Properties== <!--T:9-->
 
