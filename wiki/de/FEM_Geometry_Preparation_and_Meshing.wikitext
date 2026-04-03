@@ -31,15 +31,19 @@ Man sollte bedenken, dass die im Folgenden behandelten Balken-, Schalen-, ebenen
 <span id="Beam_models"></span>
 === Trägermodelle ===
 
-Wenn ein Bauteil schlank (lang und dünn) und trägerartig ist und einen regelmäßigen Querschnitt eines der derzeit unterstützten Trägerquerschnittstypen (rechteckig, kreisförmig oder rohrförmig) aufweist, sollte es mit Trägerelementen analysiert werden (es sei denn, es gibt bestimmte Formen der Belastung, Reaktion oder unvermeidbare geometrische Details, die diese Annahme ungültig machen). 
+<div class="mw-translate-fuzzy">
+Wenn ein Bauteil schlank (lang und dünn) und trägerartig ist und einen regelmäßigen Querschnitt eines der derzeit unterstützten Trägerquerschnittstypen (rechteckig, kreisförmig oder rohrförmig) aufweist, sollte es mit Trägerelementen analysiert werden (es sei denn, es gibt bestimmte Formen der Belastung, Reaktion oder unvermeidbare geometrische Details, die diese Annahme ungültig machen).
+</div> 
 
-Grundsätzlich sollte man eine Mittellinie zeichnen (einige Tipps, wie man diese aus einer vorhandenen Volumengeometrie extrahieren kann, findet man in [https://forum.freecad.org/viewtopic.php?t=81589 diesem Forumbeitrag] – kurz gesagt, verwendet man [[Draft_Wire/de|Draft Linienzug]] oder [[Draft_BSpline/de|Draft BSpline]] mit den richtigen [[Draft_Workbench/de#Draft-Widget_Einrasten|Einrasten]] und [[Draft_Line/de|Linien]] als Stützen) und wendet man [[FEM_ElementGeometry1D/de|Trägerschnitte]] mit optionaler [[FEM_ElementRotation1D/de|Drehung]] an. 
+<div class="mw-translate-fuzzy">
+Grundsätzlich sollte man eine Mittellinie zeichnen (einige Tipps, wie man diese aus einer vorhandenen Volumengeometrie extrahieren kann, findet man in [https://forum.freecad.org/viewtopic.php?t=81589 diesem Forumbeitrag] – kurz gesagt, verwendet man [[Draft_Wire/de|Draft Linienzug]] oder [[Draft_BSpline/de|Draft BSpline]] mit den richtigen [[Draft_Workbench/de#Draft-Widget_Einrasten|Einrasten]] und [[Draft_Line/de|Linien]] als Stützen) und wendet man [[FEM_ElementGeometry1D/de|Trägerschnitte]] mit optionaler [[FEM_ElementRotation1D/de|Drehung]] an.
+</div> 
 
 Es gibt keine einheitliche Regel, wann Trägerelemente verwendet werden können, aber es wird oft empfohlen, dass die Querschnittsabmessungen < 1/10 der Länge des Teils betragen sollten, damit die Trägerannahme gültig ist.
 
 {{Version/de|1.1}}: Sehr schlanke Träger weisen unter Umständen eine vernachlässigbare Biegesteifigkeit auf und können daher mit '''Fachwerk'''-Elementen modelliert werden. Diese Elemente sind nicht biegesteif. Sie übertragen lediglich Axialkräfte, keine Momente. Um sie zu verwenden, die Eigenschaft {{PropertyData/de|Exclude Bending Stiffness}} des [[FEM_SolverCalculixCcxtools/de|CalculiX-Lösers]] aktivieren. Anstelle eines Profils wird die Eigenschaft {{PropertyData/de|Truss Area}} des Objekts [[FEM_ElementGeometry1D/de|FEM ElementGeometry1D]] verwendet, um ihren Querschnitt zu definieren.
 
-[[Image:FEM_beam_model.JPG|600px]]
+[[Image:Beam_centerline.PNG|600px]]
 {{Caption|Schlankes Bauteil, das zur Analyse von Stabelementen geeignet ist - Mittellinie hervorgehoben}}
 
 <span id="Shell_models"></span>
@@ -53,7 +57,7 @@ Auch hier gibt es keine allgemeingültige Regel, aber es wird in der Regel empfo
 
 {{Version/de|1.1}}: Sehr dünne Schalen weisen unter Umständen eine vernachlässigbare Biegesteifigkeit auf und können daher mit '''Membran'''-Elementen modelliert werden. Diese Elemente sind nicht in der Lage, Biegungen aufzunehmen. Um sie zu verwenden, die Eigenschaft {{PropertyData/de|Exclude Bending Stiffness}} des [[FEM_SolverCalculixCcxtools/de|CalculiX-Lösers]] aktivieren.
 
-[[Image:FEM_shell_model.JPG|600px]]
+[[Image:FEM_shell_midsurf.PNG|600px]]
 {{Caption|Dünnwandiges Bauteil, das zur Analyse von Schalenelementen geeignet ist - Mittelfläche hervorgehoben}}
 
 <span id="Planar_models"></span>
@@ -63,6 +67,12 @@ In einigen Fällen sind auch 2D-Analysen möglich, die durch Setzen der Eigensch
 * '''plane stress''' - Für dünne Teile, die zu ebenen Flächen vereinfacht werden können, die das Profil für die Extrusion darstellen (die Dicke wird auf die gleiche Weise wie für Schalen definiert), werden nur in der Ebene belastet und verformt und weisen in Richtung außerhalb der Ebene keine Spannung auf. Es stehen nur zwei Freiheitsgrade zur Verfügung – X- und Y-Translation. In diesem Fall müssen die Flächen auf der XY-Ebene liegen. Dieser Ansatz ist recht verbreitet. Beispielsweise kann eine dünne Platte, die einer Zugspannung ausgesetzt ist, auf diese Weise analysiert werden.
 * '''plane strain''' - Bei dicken Teilen, die zu ebenen Flächen vereinfacht werden können, die das Profil für die Extrusion darstellen (die Dicke wird auf die gleiche Weise wie bei Schalen definiert), werden sie nur in der Ebene belastet und verformt und weisen in den Richtungen außerhalb der Ebene keine Dehnung auf. Es stehen nur zwei Freiheitsgrade zur Verfügung – X- und Y-Translation. In diesem Fall müssen die Flächen auf der XY-Ebene liegen. Dieser Ansatz ist nicht sehr verbreitet. Beispielsweise kann eine lange Dammwand, Mauer oder Rohrleitung, die über ihre gesamte Länge einem gleichmäßigen Druck ausgesetzt ist, auf diese Weise analysiert werden.
 * '''axisymmetric''' - Für Teile, die sich auf ebene Flächen vereinfachen lassen, die das Rotationsprofil darstellen (die Dicke ist hier irrelevant) und die gleichmäßig über den gesamten Umfang belastet werden. Es stehen nur zwei Freiheitsgrade zur Verfügung – radiale und axiale Verschiebung. Die Flächen müssen auf der XY-Ebene rechts von der Y-Achse liegen. Dieser Ansatz ist sehr verbreitet. Beispielsweise können einige Druckbehälter, Gummilager, Buchsen, Dichtungen, Flansche und sogar Schraubverbindungen (wobei das Gewinde als achsensymmetrisch behandelt wird) auf diese Weise analysiert werden.
+
+[[Image:2D_models_and_profiles.PNG|600px]]
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Caption|Parts suitable for 2D analyses and their highlighted profiles that will be used in such analyses. From the left - plane strain, plane stress and axisymmetric models. Revolution axis is also shown for the axisymmetric case. It must coincide with the global Y axis.}}
+</div>
 
 <span id="Geometry_validity"></span>
 == Gültigkeit der Geometrie ==
@@ -207,7 +217,9 @@ Es ist wichtig zu erwähnen, dass, wenn sich die Teile genau berühren, ein kont
 [[Image:FEM_modal_separation.JPG|400px]]
 {{Caption|Die erste Modusform einer Frequenzanalyse, visualisiert mit dem Warp-Filter – zwei Würfel mit einem kleinen Anfangsabstand wurden analysiert.}}
 
+<div class="mw-translate-fuzzy">
 Es wird oft empfohlen, boolesche Fragmente im Compsolid-Modus zu verwenden und dann einen [[Part_CompoundFilter/de|Verbundfilter]] darauf anzuwenden, insbesondere bei der Analyse von Baugruppen aus mehreren Materialien und von Volumenkörpern, die ohne Ausschnitte in andere Volumenkörper eingebettet sind (wie im Tutorium [[FEM_Shear_of_a_Composite_Block/de|FEM Scherung eines Verbundwerkstoffblocks]]). Wie auf der Registerkarte ''Shape Content'' des Werkzeugs [[Part_CheckGeometry/de|Geometrie überprüfen]] zu sehen ist (es ist wichtig, dieses Werkzeug in solchen Fällen im Zweifelsfall zu verwenden), entfernt der Verbundfilter den Verbund und lässt nur den Compsolid übrig, der aus mehreren Volumenkörpern besteht, die durch ihre Flächen miteinander verbunden sind. Dieser Ansatz wird empfohlen, da ein Verbund lediglich ein Container mit topologisch nicht verbundenen Formen ist und alle Arten von Formen enthalten kann, sodass der Mesher ihn möglicherweise nicht richtig verwenden kann (nur die Volumenkörper nach Wunsch des Benutzers vernetzen). Operationen wie boolesche Fragmente erzeugen immer Verbünde, und der Verbundfilter wird verwendet, um die relevante Form aus dem Verbund zu extrahieren.
+</div>
 
 Behelfslösungen für Fehler wie:
 
