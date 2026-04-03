@@ -1,6 +1,7 @@
 <languages/>
 <translate>
 
+<!--T:1-->
 {{Docnav
 |[[Std_Measure|Measure]]
 |[[Std_AnnotationLabel|AnnotationLabel]]
@@ -10,6 +11,7 @@
 |IconC=Freecad.svg
 }}
 
+<!--T:2-->
 {{GuiCommand
 |Name=Std MassProperties
 |MenuLocation=Tools → Mass Properties
@@ -18,8 +20,9 @@
 |SeeAlso=[[Std_Measure|Measure]]
 }}
 
-==Description==
+==Description== <!--T:3-->
 
+<!--T:4-->
 The '''Std MassProperties''' command starts the mass properties measurement feature. It provides the following information:
 * Physical Properties
 ** Volume
@@ -37,10 +40,12 @@ The '''Std MassProperties''' command starts the mass properties measurement feat
 [[Image:Std_MassProperties_task_panel.png|300px]]
 <translate>
 
+<!--T:5-->
 {{Caption|The task panel of the command}}
 
-==Usage==
+==Usage== <!--T:6-->
 
+<!--T:7-->
 # Optionally preselect the solids to be measured.
 # There are several ways to invoke the command:
 #* Press the {{Button|[[Image:Std_MassProperties.svg|16px]] [[Std_MassProperties|Mass Properties]]}} button.
@@ -50,8 +55,9 @@ The '''Std MassProperties''' command starts the mass properties measurement feat
 # Press the {{Button|Reset}} button to clear the measurement or the {{Button|Save}} button to keep it. Saved measurements are put in a Measurements [[Std_Group|group]] in the [[Tree_View|Tree View]].
 # Press {{KEY|Esc}} or the {{Button|Close}} button to finish the command.
 
-==Options==
+==Options== <!--T:8-->
 
+<!--T:9-->
 * Reference:
 ** ''Center of gravity'' - use the center of gravity as a reference to compute inertia.
 ** ''Custom'' - press the {{Button|Select…}} button and pick the reference - [[Part_DatumLine|datum line]] or [[Part_CoordinateSystem|local coordinate system]].
@@ -64,6 +70,7 @@ The '''Std MassProperties''' command starts the mass properties measurement feat
 * {{Button|Create Principal Axes LCS}} in the ''Inertia'' section - creates the corresponding local coordinate system.
 
 
+<!--T:10-->
 {{Docnav
 |[[Std_Measure|Measure]]
 |[[Std_AnnotationLabel|AnnotationLabel]]
