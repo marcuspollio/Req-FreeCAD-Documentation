@@ -30,21 +30,25 @@ Funkcja ta wstawia pierwotny walec odejmowany od aktywnej Zawartości. Jego kszt
 <span id="Usage"></span>
 ==Użycie==
 
+<div class="mw-translate-fuzzy">
 # Istnieje kilka sposobów na wywołanie tego polecenia:
 #* Naciśnij przycisk {{Button|[[Image:PartDesign_SubtractiveCylinder.svg|16px]] [[PartDesign_SubtractiveCylinder/pl|Subtraktywny walec]]}}. '''Uwaga''': Subtraktywny walec jest częścią menu narzędzi o nazwie '''Subtraktywny prymityw'''. Po uruchomieniu programu FreeCAD, Subtraktywny prostopadłościan wyświetlany jest na pasku narzędzi domyślnie. Aby przejść do funkcji Walec, kliknij strzałkę w dół na widocznej ikonce i wybierz z menu opcję Subtraktywny walec.
 #* Wybierz opcję {{MenuCommand|Projekt Części → Subtraktywny prymityw → [[Image:PartDesign_SubtractiveCylinder.svg|16px]] Subtraktywny walec}} z menu.
 # Ustaw parametry bryły i [[Part_EditAttachment/pl|dołączenia]].
 # Kliknij {{Button|OK}}.
 # Pod aktywnym obiektem Zawartość pojawi się element Walec.
+</div>
 
 <span id="Options"></span>
 ==Opcje==
 
 Możliwe jest tworzenie przekrzywionych walców poprzez określenie kątów w odniesieniu do wektora normalnego wybranego dołączenia.
 
+<div class="mw-translate-fuzzy">
 Walec można edytować po jego utworzeniu na dwa sposoby:
 * Klikając go dwukrotnie w [[Tree_View/pl|Widoku drzewa]] lub klikając prawym przyciskiem myszy i wybierając '''Edytuj prymityw''' z menu kontekstowego. Spowoduje to wyświetlenie parametrów prymitywu.
 * Poprzez [[Property_View/pl|Widok właściwości]].
+</div>
 
 <span id="Properties"></span>
 ==Właściwości== 
