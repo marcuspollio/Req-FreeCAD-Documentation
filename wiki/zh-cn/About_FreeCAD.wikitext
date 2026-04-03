@@ -12,9 +12,7 @@ FreeCAD具备与[https://en.wikipedia.org/wiki/CATIA CATIA]、[https://en.wikipe
 
 与其他CAD建模器一样，它有许多二维组件，以便绘制平面形状或创建生产图纸。然而，直接的二维绘图（像是[https://inkscape.org/ Inkscape]或者[https://en.wikipedia.org/wiki/AutoCAD#AutoCAD_LT AutoCAD LT]）亦或是动画或网格编辑（像是[https://www.blender.org/ Blender]、[https://en.wikipedia.org/wiki/Maya_(software) Maya]、[https://en.wikipedia.org/wiki/Autodesk_3ds_Max Autodesk 3ds Max]或是[https://en.wikipedia.org/wiki/CINEMA_4D Cinema 4D]）都不是其关注的重点。尽管如此，由于其广泛的适应性，FreeCAD在其基本功能所涵盖的更广泛的领域中也非常有用。
 
-<div class="mw-translate-fuzzy">
-FreeCAD重度使用了[http://en.wikipedia.org/wiki/Scientific_Computation 科学计算]范围内已存所有伟大的开源库。包含[http://OpenCascade.org OpenCascade]，一个强大的 CAD 内核；[http://www.Coin3D.org Coin3D]，一个[http://en.wikipedia.org/wiki/Open_Inventor Open Inventor]的改进版本；[http://www.qtsoftware.com/ Qt]，世界著名的 UI 框架和[http://www.python.org Python]，现存最好脚本语言之一。FreeCAD自身也能作为开发库被其它应用程序使用。
-</div>
+FreeCAD大量使用了[https://en.wikipedia.org/wiki/Scientific_Computation 科学计算]领域的开源库。其中包括[https://OpenCascade.org 开放几何技术（OCCT）]、一种强大的CAD内核[https://github.com/coin3d/coin/wiki Coin3D]、一种与[https://en.wikipedia.org/wiki/Open_Inventor Open Inventor]兼容的三维图形开发工具包、著名的用户界面框架[https://www.qt.io Qt]以及现代脚本语言[https://python.org Python]。FreeCAD本身也可以作为库被其他程序使用。
 
 <div class="mw-translate-fuzzy">
 FreeCAD也是一个真正的[http://en.wikipedia.org/wiki/Cross-platform 多平台]程序，目前可在Windows、Linux/Unix以及Mac OSX系统上完美运行，并在所有平台上拥有一样的外观和功能。
