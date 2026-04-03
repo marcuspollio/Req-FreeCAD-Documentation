@@ -40,9 +40,7 @@
 <span id="Styling"></span>
 === 样式规范 ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Templates are used to style the help pages. They give the documentation a consistent look and feel. There is a template for menu commands, {{MenuCommand|File → Save}}, a template to style keys to be pressed, {{KEY|Shift}}, to show a Boolean value, {{TRUE}}, etc. Please get familiar with the [[#Templates|#Templates]] section before writing help pages.
-</div>
+模板用于统一帮助页面的样式，让文档呈现出一致的外观与风格。模板包含菜单命令样式模板（{{MenuCommand | 文件 → 保存}}）、按键样式模板（{{KEY|Shift}}）、布尔值显示模板（{{TRUE}}）等。编写帮助页面前，请先熟悉本文「模板」章节的内容。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Temporary flags ===
