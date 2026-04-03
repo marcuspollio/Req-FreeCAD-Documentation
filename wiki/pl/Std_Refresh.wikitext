@@ -9,6 +9,7 @@
 |IconC=Freecad.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/pl
 |Name=Std Refresh
 |Name/pl=Std: Odśwież
@@ -16,19 +17,24 @@
 |Workbenches=Wszystkie
 |Shortcut={{KEY|Ctrl}}+{{KEY|R}}
 }}
+</div>
 
 <span id="Description"></span>
 ==Opis==
 
+<div class="mw-translate-fuzzy">
 Polecenie '''Std Odśwież''' wykonuje ponowne przeliczenie aktywnego dokumentu. Ikonka polecenia jest nieaktywna, jeśli dokument nie wymaga ponownego obliczenia.
+</div>
 
 <span id="Usage"></span>
 ==Użycie==
 
+<div class="mw-translate-fuzzy">
 # Istnieje kilka sposobów na wywołanie polecenia:
 #* Naciśnij przycisk {{Button|[[Image:Std_Refresh.svg|16px]] [[Std_Refresh/pl|Ponownie przelicz]]}}.
 #* Wybierz z menu opcję {{MenuCommand|Edycja → [[Image:Std_Refresh.svg|16px]] Ponownie przelicz}}.
 #* Użyj skrótu klawiaturowego: {{KEY|Ctrl}}+{{KEY|R}}.
+</div>
 
 <span id="Options"></span>
 ==Opcje==
