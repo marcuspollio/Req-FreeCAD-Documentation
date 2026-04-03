@@ -19,9 +19,7 @@
 
 ==Description==
 
-<div class="mw-translate-fuzzy">
-La commande '''Std Recalculer''' recalcule le document actif. La commande est désactivée si le document ne nécessite pas de recalcul.
-</div>
+La commande '''Std Recalculer''' recalcule les objets sélectionnés ({{Version/fr|1.2}}), ou le document actif si aucun objet n'est sélectionné. La commande est désactivée si aucun recalcul n'est nécessaire, mais dans ce cas, elle peut tout de même être exécutée à l'aide de son raccourci.
 
 <span id="Usage"></span>
 ==Utilisation==
