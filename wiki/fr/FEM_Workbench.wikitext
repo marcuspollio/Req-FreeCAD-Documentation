@@ -68,9 +68,7 @@ L'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné qu
 <span id="Electromagnetic_Boundary_Conditions"></span>
 === <span id="FEM_CompEmConstraints">Conditions limites électromagnétiques</span><!--Do not edit span id: the FEM_CompEmConstraints pages redirect here--> ===
 
-<div class="mw-translate-fuzzy">
-:* [[Image:FEM_ConstraintElectrostaticPotential.svg|32px]] [[FEM_ConstraintElectrostaticPotential/fr|Électromagnétisme]] : Utilisé pour définir le potentiel électrostatique ou ({{Version/fr|1.2}}) la densité de flux magnétique.
-</div>
+:* [[Image:FEM_ConstraintElectromagnetic.svg|32px]] [[FEM_ConstraintElectromagnetic/fr|Électromagnétisme]] : Utilisé pour définir le potentiel électrostatique ou ({{Version/fr|1.2}}) la densité de flux magnétique.
 
 :* [[Image:FEM_ConstraintCurrentDensity.svg|32px]] [[FEM_ConstraintCurrentDensity/fr|Densité de courant]] : utilisé pour définir les conditions limites de densité de courant. {{Version/fr|0.21}}
 
