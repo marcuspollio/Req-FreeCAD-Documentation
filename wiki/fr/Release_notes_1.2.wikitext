@@ -38,11 +38,13 @@ Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [[Featu
 <span id="Core"></span>
 === Noyau ===
 
+<div class="mw-translate-fuzzy">
 {| cellpadding=5
 | [[File:AnnotationLabel_relnotes_1.2.png|384px]]
 | Une nouvelle commande permettant d'ajouter une étiquette d'annotation au dernier point sélectionné dans la vue 3D a été ajoutée.
 [https://github.com/FreeCAD/FreeCAD/pull/23673 Pull request #23673]
 |}
+</div>
 
 {| cellpadding=5
 | [[File:MassProperties_relnotes_1.2.png|384px]]
