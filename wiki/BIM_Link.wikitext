@@ -34,10 +34,6 @@ The [[File:BIM_Link.svg|24px]] [[BIM_Link|BIM Link]] command is a shortcut to [[
 # The [[Draft_Move|Draft Move]] command starts automatically.
 # Click in the [[3D_View|3D View]] to place the new link.
 
-==Notes==
-
-* [[BIM_Link|BIM Link]] is intended to provide a BIM-oriented workflow similar to [[BIM_Clone|BIM Clone]], but using [[Std_LinkMake|Link]].
-* The command is useful when you want to create a linked copy and place it immediately.
 
 {{Docnav
 |[[BIM_Clone|Clone]]
