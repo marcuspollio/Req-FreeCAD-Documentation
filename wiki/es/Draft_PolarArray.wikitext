@@ -57,9 +57,9 @@ Ver también: [[Draft_Snap/es|Borrador Atrapar]]
 ==Opciones==
 
 * Enter the {{MenuCommand|Polar angle}} to specify the total angle of the array. The angle is positive in the counter-clockwise direction.
-* Enter the {{MenuCommand|Number of elements}}. Must be at least {{Value|2}}. The maximum that can be entered in the task panel is {{Value|99}}, but higher values are possible by changing the {{PropertyData|Number Polar}} property of the array.
-* Pick a point in the [[3D_view|3D view]], note that this will also finish the command, or type coordinates for the {{MenuCommand|Center of rotation}}. The rotation axis of the array will pass through this point. It is advisable to move the pointer out of the [[3D_view|3D view]] before entering coordinates.
-* Press the {{MenuCommand|Reset point}} button to reset the {{MenuCommand|Center of rotation}} to the origin.
+* Enter the {{MenuCommand|Number of elements}}. Must be at least {{Value|2}}.
+* Pick a point in the [[3D_View|3D View]], note that this will also finish the command, or type coordinates for the {{MenuCommand|Center of Rotation}}. The rotation axis of the array will pass through this point. It is advisable to move the pointer out of the [[3D_View|3D View]] before entering coordinates.
+* Press the {{MenuCommand|Reset Point}} button to reset the {{MenuCommand|Center of Rotation}} to the origin.
 * If the {{MenuCommand|Fuse}} checkbox is checked overlapping elements in the array are fused.
 * If the {{MenuCommand|Link array}} checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [[App_Link|App Link]] objects.
 * Press {{KEY|Esc}} or the {{Button|Cancel}} button to abort the command.
@@ -69,7 +69,7 @@ Ver también: [[Draft_Snap/es|Borrador Atrapar]]
 
 See [[Draft_OrthoArray#Notes|Draft OrthoArray]].
 
-* The default rotation axis for the array is the positive Z axis. This can be changed by editing its {{PropertyData|Axis}} property.
+* {{Version|1.2}}: The array uses the Z-axis of the current [[Draft_SelectPlane|working plane]] for the rotation axis. This can be changed by editing the {{PropertyData|Axis}} property.
 
 <span id="Properties"></span>
 == Propiedades ==
