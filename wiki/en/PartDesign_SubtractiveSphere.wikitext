@@ -1,8 +1,8 @@
 <languages/>
 
 {{Docnav
-|[[PartDesign_SubtractiveCylinder|Subtractive cylinder]]
-|[[PartDesign_SubtractiveCone|Subtractive cone]]
+|[[PartDesign_SubtractiveCylinder|Subtractive Cylinder]]
+|[[PartDesign_SubtractiveCone|Subtractive Cone]]
 |[[PartDesign_Workbench|PartDesign]]
 |IconL=PartDesign_SubtractiveCylinder.svg
 |IconR=PartDesign_SubtractiveCone.svg
@@ -11,10 +11,10 @@
 
 {{GuiCommand
 |Name=PartDesign SubtractiveSphere
-|MenuLocation=Part Design → Create a subtractive primitive → Subtractive Sphere
+|MenuLocation=Part Design → Subtractive Primitive → Subtractive Sphere
 |Workbenches=[[PartDesign_Workbench|PartDesign]]
 |Version=0.17
-|SeeAlso=[[PartDesign_CompPrimitiveSubtractive|PartDesign CompPrimitiveSubtractive]], [[PartDesign_AdditiveSphere|PartDesign AdditiveSphere]]
+|SeeAlso=[[PartDesign_AdditiveSphere|PartDesign AdditiveSphere]]
 }}
 
 ==Description==
@@ -27,37 +27,38 @@ Inserts a subtractive sphere in the active Body. Its shape is subtracted from th
 ==Usage==
 
 # There are several ways to invoke the tool:
-#* Press the {{Button|[[Image:PartDesign_SubtractiveSphere.svg|16px]] [[PartDesign_SubtractiveSphere|Subtractive Sphere]]}} button. '''Note''': the Subtractive Sphere is part of an icon menu labelled ''Create an additive primitive''. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Sphere, click on the down arrow besides the visible icon and select Subtractive Sphere in the menu.
-#* Select the {{MenuCommand|Part Design → Create a subtractive primitive → [[Image:PartDesign_SubtractiveSphere.svg|16px]] Subtractive Sphere}} option from the menu.
-# Set the Primitive parameters and [[Part_EditAttachment|Attachment]].
+#* Press the {{Button|[[Image:PartDesign_SubtractiveSphere.svg|16px]] [[PartDesign_SubtractiveSphere|Subtractive Sphere]]}} button. '''Note''': the Subtractive Sphere is part of an icon menu labelled ''Subtractive Primitive''. After launching FreeCAD, the Subtractive Box is the one displayed in the toolbar. To get the Sphere, click on the down arrow besides the visible icon and select Subtractive Sphere in the menu.
+#* Select the {{MenuCommand|Part Design → Subtractive Primitive → [[Image:PartDesign_SubtractiveSphere.svg|16px]] Subtractive Sphere}} option from the menu.
+# The task panel opens.
+# Set the parameters. {{Version|1.2}}: If the {{MenuCommand|Show interactive draggers when editing features}} [[PartDesign_Preferences#General|preference]] is selected (default), the radius can be adjusted with an interactive gizmo in the [[3D_View|3D View]].
+# Optionally set the [[Part_EditAttachment|Attachment]].
 # Click {{Button|OK}}.
 # A Sphere feature appears under the active Body.
 
 ==Options==
 
 The Sphere can be edited after its creation in two ways:
-* Double-clicking it in the Model tree, or by right-clicking and selecting '''Edit primitive''' in the contextual menu; this brings up the Primitive parameters.
-* Via the [[Property_editor|Property editor]].
+* Double-clicking it in the [[Tree_View|Tree View]], or by right-clicking and selecting '''Edit Primitive''' in the context menu; this brings up the task panel and ({{Version|1.2}}) the interactive gizmo (if enabled).
+* Via the [[Property_View|Property View]].
 
 ==Properties==
 
 * {{PropertyData|Attachment}}: defines the attachment mode as well as the Attachment Offset. See [[Part_EditAttachment|Part EditAttachment]].
 * {{PropertyData|Label}}: Label given to the Sphere object. Change to suit your needs.
 * {{PropertyData|Radius}}: Radius of the sphere.
-* {{PropertyData|Angle1}}: (labelled ''V parameter'' in the Primitive parameters) lower truncation of the sphere, parallel to the circular cross section (-90 degrees in a full sphere)
-* {{PropertyData|Angle2}}: (unlabelled in the Primitive parameters) upper truncation of the sphere, parallel to the circular cross section (90 degrees in a full sphere).
-* {{PropertyData|Angle3}}: (labelled ''U parameter'' in the Primitive parameters) angle of rotation of the cross section (360 degrees in a full sphere).
+* {{PropertyData|Angle1}}: (labelled ''V parameter'' in the Primitive Parameters) lower truncation of the sphere, parallel to the circular cross section (-90 degrees in a full sphere)
+* {{PropertyData|Angle2}}: (unlabelled in the Primitive Parameters) upper truncation of the sphere, parallel to the circular cross section (90 degrees in a full sphere).
+* {{PropertyData|Angle3}}: (labelled ''U parameter'' in the Primitive Parameters) angle of rotation of the cross section (360 degrees in a full sphere).
 
 
 {{Docnav
-|[[PartDesign_SubtractiveCylinder|Subtractive cylinder]]
-|[[PartDesign_SubtractiveCone|Subtractive cone]]
+|[[PartDesign_SubtractiveCylinder|Subtractive Cylinder]]
+|[[PartDesign_SubtractiveCone|Subtractive Cone]]
 |[[PartDesign_Workbench|PartDesign]]
 |IconL=PartDesign_SubtractiveCylinder.svg
 |IconR=PartDesign_SubtractiveCone.svg
 |IconC=Workbench_PartDesign.svg
 }}
-
 
 {{PartDesign_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
