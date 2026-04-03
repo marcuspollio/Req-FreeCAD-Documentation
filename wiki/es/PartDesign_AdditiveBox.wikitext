@@ -42,9 +42,11 @@ Inserta un cubo primitivo en el Cuerpo activo como primera característica, o lo
 <span id="Options"></span>
 ==Opciones==
 
+<div class="mw-translate-fuzzy">
 Tras su creación, el Cubo puede ser editado de dos maneras:
 * Haciendo doble clic con el ratón sobre el árbol del Modelo, o pinchando con el botón derecho y seleccionando '''Editar primitiva''' en el menú contextual. Con ello se abre la ventana de selección de parámetros de la Primitiva.
 * Por medio del [[Property_editor/es|Editor de propiedades]].
+</div>
 
 <span id="Properties"></span>
 ==Propiedades==
