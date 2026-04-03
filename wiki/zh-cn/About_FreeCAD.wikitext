@@ -8,9 +8,7 @@
 
 '''FreeCAD'''是一款[https://en.wikipedia.org/wiki/Open_source 开源]的通用参数化三维[http://en.wikipedia.org/wiki/CAD '''CAD''']建模软件，其许可协议遵循[[License|LGPL许可]]。FreeCAD主要面向[http://en.wikipedia.org/wiki/Mechanical_engineering 机械工程]和[http://en.wikipedia.org/wiki/Product_design 产品设计]领域，但是由于通用性较强，也适用于工程领域的更广泛用途，比如建筑、有限元分析、3D打印以及其他相关任务。
 
-<div class="mw-translate-fuzzy">
-FreeCAD 的特征工具类似于[http://en.wikipedia.org/wiki/Catia Catia]、[http://en.wikipedia.org/wiki/Solidworks SolidWorks]或[http://en.wikipedia.org/wiki/Solid_Edge Solid Edge]。因此它也可以归入[http://en.wikipedia.org/wiki/CAD '''MCAD''']，[http://en.wikipedia.org/wiki/Product_Lifecycle_Management '''PLM''']，[http://en.wikipedia.org/wiki/CAx '''CAx'''] 以及 [http://en.wikipedia.org/wiki/Computer-aided_engineering '''CAE''']的范畴。它是一个 [http://en.wikipedia.org/wiki/Parametric_feature_based_modeler 参数化特征建模工具]，其模块化的软件设计，令其很容易提供新的功能，而不需要修改核心系统。
-</div>
+FreeCAD具备与[https://en.wikipedia.org/wiki/CATIA CATIA]、[https://en.wikipedia.org/wiki/Solidworks SolidWorks]、[https://en.wikipedia.org/wiki/Solid_Edge Solid Edge]或[https://en.wikipedia.org/wiki/Autodesk_Revit Revit]类似功能的工具，因此同样属于[https://en.wikipedia.org/wiki/CAD '''CAD''']、[https://en.wikipedia.org/wiki/Product_Lifecycle_Management '''PLM''']、[https://en.wikipedia.org/wiki/CAx '''CAx''']、[https://en.wikipedia.org/wiki/Computer-aided_engineering '''CAE''']以及[https://en.wikipedia.org/wiki/Building_information_modeling '''BIM''']的范畴。它是一款[https://en.wikipedia.org/wiki/Parametric_feature_based_modeler 基于特征的参数化建模器]，其软件架构采用模块化设计，使得无需修改核心系统即可提供额外功能。
 
 <div class="mw-translate-fuzzy">
 和其他3D [http://en.wikipedia.org/wiki/CAD CAD]建模工具一样，它也拥有很多2D组件，来绘制2D形状，或者从3D模型提取设计细节，并转化为2D的产品图形。但直接的2D绘图(就像 [http://en.wikipedia.org/wiki/AutoCAD#AutoCAD_LT AutoCAD LT])不是我们关注的重点。同理，动画和器官形状(就像 [http://en.wikipedia.org/wiki/Maya_(software) Maya]、 [http://en.wikipedia.org/wiki/3ds_Max 3ds Max]、[http://en.wikipedia.org/wiki/Blender_%28software%29 Blender]或[http://en.wikipedia.org/wiki/CINEMA_4D Cinema 4D])也非FreeCAD所长。然而，多亏了FreeCAD有宽泛的适应性，它可能使用的范围，将远超它目前所关注的领域。
