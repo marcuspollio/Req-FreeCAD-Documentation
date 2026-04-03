@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[FEM_ConstraintElectrostaticPotential/de|RandbedingungElectrostatischesPotential]]
 |[[FEM_ConstraintMagnetization/de|RandbedingungMagnetisierung]]
@@ -8,6 +9,7 @@
 |IconR=FEM_ConstraintMagnetization.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 <div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
@@ -60,6 +62,7 @@ Der Dialog Eigenschaften der Analyseelemente ermöglicht die folgenden Einstellu
 * '''Normal current density_*''': Der reale/imaginäre Teil der Stromdichte senkrecht zur Grenze in A/m². {{Version/de|1.1}}
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[FEM_ConstraintElectrostaticPotential/de|RandbedingungElectrostatischesPotential]]
 |[[FEM_ConstraintMagnetization/de|RandbedingungMagnetisierung]]
@@ -68,6 +71,7 @@ Der Dialog Eigenschaften der Analyseelemente ermöglicht die folgenden Einstellu
 |IconR=FEM_ConstraintMagnetization.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
