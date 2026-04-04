@@ -97,9 +97,7 @@ Trước khi rời khỏi Trang này, chúng ta hãy xem nó sẽ trông như th
 <span id="Multiple_Views_of_a_Single_Part"></span>
 ===Nhiều Hình chiếu của một Chi tiết===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Let's create a multiview drawing using a different Template as a starting point. We'll be using the First Angle convention, but you can change to Third Angle if that is your local convention.
-</div> 
+Hãy tạo một bản vẽ đa hình chiếu (multiview drawing) bằng cách sử dụng một Bản mẫu (Template) khác. Chúng ta sẽ sử dụng quy ước Góc thứ nhất (First Angle), nhưng bạn có thể đổi sang Góc thứ ba (Third Angle) nếu đó là quy ước địa phương của bạn. 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Click on [[Image:TechDraw_PageTemplate.svg|32px]] [[TechDraw_PageTemplate|TechDraw PageTemplate]]. A file chooser dialog will appear. Select a template file. We're going to use "ANSIB.SVG". A new tab will appear.
