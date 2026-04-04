@@ -11,14 +11,13 @@
 }}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/de
 |Name=Std AnnotationLabel
-|MenuLocation=Tools → Annotation Label
-|Workbenches=All
+|Name/de=Std Anmerkung
+|MenuLocation=Werkzeuge → Anmerkung
+|Workbenches=Alle
 |Version=1.2
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung==
