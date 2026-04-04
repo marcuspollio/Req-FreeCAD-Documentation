@@ -19,9 +19,7 @@
 |SeeAlso=[[Std_LinkMake/fr|Std Créer un lien]], [[BIM_Clone/fr|BIM Cloner]], [[Draft_Move/fr|Draft Déplacer]]
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 ==Description==
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The [[File:BIM_Link.svg|24px]] [[BIM_Link|BIM Link]] command is a shortcut to [[Std_LinkMake|Std LinkMake]], but starts a [[Draft_Move|Draft Move]] operation immediately after, allowing a link to be created and placed in one go.
