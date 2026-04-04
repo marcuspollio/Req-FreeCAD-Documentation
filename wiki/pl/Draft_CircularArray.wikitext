@@ -63,9 +63,7 @@ Zapoznaj się również z informacjami na stronie [[Draft_Snap/pl|Przyciąganie]
 
 Zapoznaj się z informacjami zawartymi na stronie [[Draft_OrthoArray/pl#Właściwości|Szyk ortogonalny]].
 
-<div class="mw-translate-fuzzy">
-* Domyślną osią obrotu dla szyku jest dodatnia oś Z. Można to zmienić edytując właściwość {{PropertyData|Oś}}.
-</div>
+* {{Version/pl|1.2}}: Szyk wykorzystuje oś Z bieżącej [[Draft_SelectPlane/pl|płaszczyzny roboczej]] jako oś obrotu. Można to zmienić, edytując właściwość {{PropertyData|Axis}}.
 
 <span id="Properties"></span>
 ==Właściwości==
