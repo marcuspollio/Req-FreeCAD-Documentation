@@ -186,9 +186,8 @@ The X and Y axes are aligned to the tangent (T) and binormal (B) axes of the Fre
 See [[#Frenet_NBT|Frenet NBT]].
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Concentric ====
-</div>
+<span id="Concentric"></span>
+==== 同心 ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The XY-plane is aligned to the [https://en.wikipedia.org/wiki/Osculating_circle osculating circle] at a point on an edge. An optional vertex defines where.
