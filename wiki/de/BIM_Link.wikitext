@@ -22,9 +22,7 @@
 <span id="Description"></span>
 ==Beschreibung==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The [[File:BIM_Link.svg|24px]] [[BIM_Link|BIM Link]] command is a shortcut to [[Std_LinkMake|Std LinkMake]], but starts a [[Draft_Move|Draft Move]] operation immediately after, allowing a link to be created and placed in one go.
-</div>
+Der Befehl [[File:BIM_Link.svg|24px]] [[BIM_Link/de|BIM Verknüpfung]] ist eine Kurzversion von [[Std_LinkMake/de|Std VerknüpfungErstellen]], startet aber unmittelbar eine [[Draft_Move/de|Draft Bewegen]]-Operation, wodurch eine Verknüpfung in einem Schritt erstellt und eingefügt werden kann.
 
 <span id="Usage"></span>
 ==Anwendung==
