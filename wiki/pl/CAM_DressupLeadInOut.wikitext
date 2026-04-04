@@ -35,9 +35,9 @@ Polecenie [[Image:CAM_DressupLeadInOut.svg|24px]] [[CAM_DressupLeadInOut/pl|Ulep
 <span id="Options"></span>
 ==Opcje==
 
-* '''Lead in''': Controls the entry move added before the main cutting path.
-* '''Lead out''': Controls the exit move added after the main cutting path.
-* '''Feed rate''': {{Version|1.2}} The corresponding lead-in and lead-out moves use the feed rates defined for these moves in the tool controller. By default these follow the horizontal feed rate.
+* '''Lead in''': Steruje ruchem wejścia dodawanym przed główną ścieżką skrawania.
+* '''Lead out''': Steruje ruchem wyjścia dodawanym po głównej ścieżce skrawania.
+* '''Feed rate''': {{Version/pl|1.2}} Odpowiadające ruchy najazdu (lead-in) i wyjazdu (lead-out) wykorzystują posuwy zdefiniowane dla tych ruchów w kontrolerze narzędzia. Domyślnie odpowiadają one poziomemu posuwowi.
 
 <span id="Limitations"></span>
 ==Ograniczenia==
