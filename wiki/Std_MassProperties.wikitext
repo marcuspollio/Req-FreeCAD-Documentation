@@ -52,7 +52,7 @@ The '''Std MassProperties''' command starts the mass properties measurement feat
 #* Select the {{MenuCommand|Tools → [[Image:Std_MassProperties.svg|16px]] Mass Properties}} option from the menu.
 # A task panel opens. See [[#Options|Options]] for more information.
 # If no solids were preselected, select them in the [[3D_View|3D View]] or [[Tree_View|Tree View]].
-# Press the {{Button|Reset}} button to clear the measurement or the {{Button|Save}} button to keep it. Saved measurements are put in a Measurements [[Std_Group|group]] in the [[Tree_View|Tree View]].
+# Press the {{Button|Reset}} button to clear the measurement or the {{Button|Save}} button to keep it. Saved measurements are put in a ''Measurements'' [[Std_Group|group]] in the [[Tree_View|Tree View]].
 # Press {{KEY|Esc}} or the {{Button|Close}} button to finish the command.
 
 ==Options== <!--T:8-->
