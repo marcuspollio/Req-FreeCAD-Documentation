@@ -51,18 +51,16 @@ La commande '''Std Propriétés physiques''' lance la fonction de mesure des pro
 
 ==Options==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Reference:
-** ''Center of gravity'' - use the center of gravity as a reference to compute inertia.
-** ''Custom'' - press the {{Button|Select…}} button and pick the reference - [[Part_DatumLine|datum line]] or [[Part_CoordinateSystem|local coordinate system]].
-* Unit system:
+* Référence :
+** ''Centre de gravité'' : utilisez le centre de gravité comme référence pour calculer l'inertie.
+** ''Personnalisé'' : cliquez sur le bouton {{Button|Sélectionner…}} et choisissez la référence : [[Part_DatumLine/fr|ligne de référence]] ou [[Part_CoordinateSystem/fr|système de coordonnées local]].
+* Système d'unités :
 ** ''mm, kg, kg*mm^2''
 ** ''m, kg, kg*m^2''
 ** ''in, lb, lb*in^2''
 ** ''ft, lb, lb*ft^2''
-* {{Button|Create Datum Point}} button in the ''Center of Gravity'' or ''Center of Volume'' section - creates a datum point at this location.
-* {{Button|Create Principal Axes LCS}} in the ''Inertia'' section - creates the corresponding local coordinate system.
-</div>
+* Bouton {{Button|Créer un point de référence}} dans la section ''Centre de gravité'' ou ''Centre du volume'' : crée un point de référence à cet emplacement.
+* {{Button|Créer un système de coordonnées local pour les axes principaux}} dans la section ''Inertie'' : crée le système de coordonnées local correspondant.
 
 
 {{Docnav/fr
