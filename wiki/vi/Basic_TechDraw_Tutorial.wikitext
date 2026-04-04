@@ -99,18 +99,14 @@ Trước khi rời khỏi Trang này, chúng ta hãy xem nó sẽ trông như th
 
 Hãy tạo một bản vẽ đa hình chiếu (multiview drawing) bằng cách sử dụng một Bản mẫu (Template) khác. Chúng ta sẽ sử dụng quy ước Góc thứ nhất (First Angle), nhưng bạn có thể đổi sang Góc thứ ba (Third Angle) nếu đó là quy ước địa phương của bạn. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Click on [[Image:TechDraw_PageTemplate.svg|32px]] [[TechDraw_PageTemplate|TechDraw PageTemplate]]. A file chooser dialog will appear. Select a template file. We're going to use "ANSIB.SVG". A new tab will appear.
-# Select "Body" and "Page001" (if you have more than one page in your document, you need to tell TechDraw which one to use).
-# Click on [[Image:TechDraw_ProjectionGroup.svg|32px]] [[TechDraw_ProjectionGroup|TechDraw ProjectionGroup]]. The familiar small view in the middle of the page will appear and a dialog will appear in the Task panel.
-# Click on several boxes in the Secondary Views section of the dialog. 
-# Drag the View labelled "Front". All the other Views move with it. 
-# Change the Scale drop down box from Page to Custom and change the Custom Scale to 2:1. Press the {{Button|OK}} button.
-</div>
+Nhấp vào [[Image:TechDraw_PageTemplate.svg|32px]] [[TechDraw_PageTemplate|New Page From Template]] (Trang mới từ Bản mẫu). Hộp thoại chọn tệp sẽ xuất hiện. Chọn một tệp bản mẫu. Chúng ta sẽ sử dụng "ANSIB.SVG". Một tab mới sẽ xuất hiện.
+# Chọn "Body" và "Page001" (nếu bạn có nhiều hơn một trang trong tài liệu của mình, bạn cần chỉ cho TechDraw biết trang nào sẽ được sử dụng).
+# Nhấp vào [[Image:TechDraw_ProjectionGroup.svg|32px]] [[TechDraw_ProjectionGroup|TechDraw ProjectionGroup]] (Nhóm hình chiếu TechDraw). Hình chiếu nhỏ quen thuộc ở giữa trang sẽ xuất hiện và một hộp thoại sẽ xuất hiện trong bảng Tác vụ (Task panel).
+# Nhấp vào một vài ô trong phần Chiếu phụ (Secondary Views) của hộp thoại.
+# Kéo Hình chiếu có nhãn "Front" (Mặt trước). Tất cả các Hình chiếu khác sẽ di chuyển theo nó.
+# Thay đổi kiểu Kích cỡ (Scale) từ "Trang" (Page) sang "Tùy chọn" (Custom) và thay đổi Tỷ lệ tùy chỉnh thành 2:1. Nhấn nút {{Button|OK}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 [[Image:TDTut_ProjGroup21.png|center]]
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # In the View labelled "TopLeftFront", select the two Vertices at the extreme ends of the front edge of the work piece.
