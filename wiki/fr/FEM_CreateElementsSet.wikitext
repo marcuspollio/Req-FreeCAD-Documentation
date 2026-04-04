@@ -11,8 +11,8 @@
 
 {{GuiCommand/fr
 |Name=FEM CreateElementsSet
-|Name/fr=FEM Supprimer des éléments
-|MenuLocation=Maillage → Supprimer des éléments
+|Name/fr=FEM Masquer des éléments
+|MenuLocation=Maillage → Masquer des éléments
 |Workbenches=[[FEM_Workbench/fr|FEM]]
 |Version=1.0
 |SeeAlso=[[FEM_tutorial/fr|FEM Tutoriel]]
