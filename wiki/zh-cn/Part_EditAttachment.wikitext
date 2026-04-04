@@ -19,9 +19,8 @@
 }}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Description ==
-</div> 
+<span id="Description"></span>
+== 描述 == 
 
 [[Image:Part_EditAttachment.svg|24px]]'''零件附着编辑'''命令可以将一个对象“附着”到一个或多个其他对象上。被附着的对象会与引用的对象建立链接，这意味着，如果引用对象的[[Std Placement|placement]]或几何形状发生了变化，被附着对象的位置也会相应地自动更新。
 
