@@ -1,15 +1,13 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[Std_MassProperties|MassProperties]]
-|[[Std_UnitsCalculator|UnitsCalculator]]
-|[[Std_Tools_Menu|Std Tools Menu]]
+{{Docnav/de
+|[[Std_MassProperties/de|MasseEigenschaften]]
+|[[Std_UnitsCalculator/de|Einheitenrechner]]
+|[[Std_Tools_Menu/de|Std Menü Werkzeuge]]
 |IconL=Std_MassProperties.svg
 |IconR=Std_UnitsCalculator.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{GuiCommand/de
 |Name=Std AnnotationLabel
@@ -53,16 +51,14 @@ The '''Std AnnotationLabel''' command creates an annotation label in the [[3D_Vi
 </div>
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[Std_MassProperties|MassProperties]]
-|[[Std_UnitsCalculator|UnitsCalculator]]
-|[[Std_Tools_Menu|Std Tools Menu]]
+{{Docnav/de
+|[[Std_MassProperties/de|MasseEigenschaften]]
+|[[Std_UnitsCalculator/de|Einheitenrechner]]
+|[[Std_Tools_Menu/de|Std Menü Werkzeuge]]
 |IconL=Std_MassProperties.svg
 |IconR=Std_UnitsCalculator.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
