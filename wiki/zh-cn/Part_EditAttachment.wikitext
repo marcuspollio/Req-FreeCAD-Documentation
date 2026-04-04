@@ -138,12 +138,10 @@ Z 轴将与一条边保持相切对齐。一个可选的顶点用于定义对齐
 
 如果没有链接任何顶点，则由 {{PropertyData|Map Path Parameter}} 属性来确定该点。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:; Reference combinations:
-: Edge
-: Edge, Vertex
-: Vertex, Edge
-</div>
+:; 参照组合:
+: 边
+: 边, 顶点
+: 顶点, 边
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Frenet NBT ====
