@@ -151,9 +151,7 @@ X 轴和 Y 轴分别与曲边上某一点处的 [https://en.wikipedia.org/wiki/F
 
 如果没有链接任何顶点，则由 {{PropertyData|Map Path Parameter}} 属性来确定该点。如果先选择顶点，物体的原点将平移至该顶点处；如果先选择曲线，则原点保持在曲线上。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''Frenet NBT'' is similar to ''Z tangent to edge'', except that the X-axis is well-defined.
-</div>
+“Frenet NBT”与“Z 轴与边相切”类似，不同之处在于 X 轴有着明确的定义。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :;Reference combinations:
