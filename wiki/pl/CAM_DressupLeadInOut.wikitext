@@ -42,9 +42,9 @@ Polecenie [[Image:CAM_DressupLeadInOut.svg|24px]] [[CAM_DressupLeadInOut/pl|Ulep
 <span id="Limitations"></span>
 ==Ograniczenia==
 
-* This dressup modifies the start and end of an existing path.
-* The exact result depends on the selected path and the chosen lead-in and lead-out settings.
-* {{Version|1.2}} [[Image:CAM_DressupRampEntry.svg|16px]] [[CAM_DressupRampEntry|CAM DressupRampEntry]] can also be applied to a path that already has a Lead In/Out dressup.
+* Ta modyfikacja zmienia początek i koniec istniejącej ścieżki.
+* Dokładny efekt zależy od wybranej ścieżki oraz ustawień najazdu (lead-in) i wyjazdu (lead-out).
+* {{Version|1.2}} [[Image:CAM_DressupRampEntry.svg|16px]] [[CAM_DressupRampEntry/pl|Ulepszenie - parkowanie narzędzia]] można również zastosować do ścieżki, która już ma zastosowaną modyfikację Lead In/Out.
 
 <span id="Scripting"></span>
 ==Tworzenie skryptów==
