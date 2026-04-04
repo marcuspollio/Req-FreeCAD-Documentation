@@ -118,9 +118,7 @@ Bạn có nhận thấy một vấn đề với kích thước vừa tạo khôn
 
 [[Image:TDTut_NewLengthDim.png|center]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-From the first part of this tutorial, we know that the work piece is 53 mm wide, but our new dimensions reads 43.27. This is because "TopLeftFront" is an [https://en.wikipedia.org/wiki/Isometric_projection isometric projection], and our first drawing was an [https://en.wikipedia.org/wiki/Orthographic_projection orthogonal (multiview) projection]. To get the right value, we need to link our dimension directly to the 3D model.
-</div> 
+Từ phần đầu của hướng dẫn này, chúng ta biết rằng chi tiết gia công rộng 53 mm, nhưng kích thước mới của chúng ta lại hiển thị 43,27. Điều này là do "TopLeftFront" (Trên-Trái-Trước) là một [https://en.wikipedia.org/wiki/Isometric_projection hình chiếu đẳng cự], trong khi bản vẽ đầu tiên của chúng ta là một [https://en.wikipedia.org/wiki/Orthographic_projection hình chiếu trực giao]. Để có được giá trị chính xác, chúng ta cần liên kết kích thước của mình trực tiếp với mô hình 3D. 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Note the name of our faulty dimension in the Combo panel. We'll need it in a minute.
