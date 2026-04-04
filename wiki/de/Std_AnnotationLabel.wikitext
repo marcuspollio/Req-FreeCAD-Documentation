@@ -33,9 +33,8 @@ The '''Std AnnotationLabel''' command creates an annotation label in the [[3D_Vi
 {{Caption|Example of annotation label}}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Anwendung==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Select one or more objects. The first selected object determines the ''Base Position'' of the label, which in turn determines its initial ''Text Position''. See [[#Notes|Notes]].
@@ -46,9 +45,8 @@ The '''Std AnnotationLabel''' command creates an annotation label in the [[3D_Vi
 # Optionally, change the View properties to modify the appearance of the label.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Notes==
-</div>
+<span id="Notes"></span>
+==Hinweise==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The ''Base Position'' is determined by the first selected object and how it was selected:
