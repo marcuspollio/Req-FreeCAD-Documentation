@@ -25,12 +25,12 @@ Polecenie [[Image:CAM_DressupLeadInOut.svg|24px]] [[CAM_DressupLeadInOut/pl|Ulep
 <span id="Usage"></span>
 ==Użycie==
 
-# Select an existing path object.
-# There are several ways to invoke the command:
-#* Press the {{Button|[[Image:CAM_DressupLeadInOut.svg|16px]] [[CAM_DressupLeadInOut|Lead In/Out]]}} button.
-#* Select the {{MenuCommand|CAM → Path Dressup → [[Image:CAM_DressupLeadInOut.svg|16px]] Lead In/Out}} option from the menu.
-# Adjust the lead-in and lead-out settings in the task panel.
-# Confirm the dressup.
+# Wybierz istniejący obiekt ścieżki.
+# Istnieje kilka sposobów wywołania polecenia:
+#* Naciśnij przycisk {{Button|[[Image:CAM_DressupLeadInOut.svg|16px]] [[CAM_DressupLeadInOut/pl|Ulepszenie wprowadzenia / wyprowadzenia]]}}.
+#* Wybierz opcję {{MenuCommand|CAM → Operacje wykańczające ścieżki → [[Image:CAM_DressupLeadInOut.svg|16px]] Ulepszenie wprowadzenia / wyprowadzenia}} z menu.
+# Dostosuj ustawienia najazdu (lead-in) i wyjazdu (lead-out) w panelu zadania.
+# Zatwierdź modyfikację.
 
 <span id="Options"></span>
 ==Opcje==
