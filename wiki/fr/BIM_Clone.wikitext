@@ -9,15 +9,14 @@
 |IconC=Workbench_BIM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/fr
 |Name=BIM Clone
 |Name/fr=BIM Cloner
 |MenuLocation=Modification → Outils de clonage → Cloner
 |Workbenches=[[BIM_Workbench/fr|BIM]]
+|Shortcut={{KEY|C}} {{KEY|L}}
 |SeeAlso=[[Draft_Clone/fr|Draft Cloner]]
 }}
-</div>
 
 ==Description==
 
