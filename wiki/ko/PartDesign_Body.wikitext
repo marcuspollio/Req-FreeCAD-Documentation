@@ -200,6 +200,8 @@ PartDesign_Body({{incode|PartDesign::Body}} 클래스)는 [[Part_Feature|Part Fe
 {{Caption|몸통: 여러 개의 [[Sketch/ko|스케치]]가 동시에 표시될 수 있습니다. 그러나 끝단인지 여부에 관계없이 한 번에 하나의 고체 [[PartDesign Feature/ko|도형특징]]만 표시될 수 있습니다.}}
 </div>
 
+{{Version|1.2}} If a Body is made visible while none of its features are visible, the current [[#Tip|Tip]] is shown automatically so that the Body becomes visible in the [[3D_View|3D View]].
+
 <span id="Attachment"></span>
 == 부착 ==
 
