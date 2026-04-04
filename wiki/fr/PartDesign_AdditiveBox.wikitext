@@ -39,11 +39,9 @@ Insère un cube primitif dans un corps actif (body) comme première fonction, ou
 <span id="Options"></span>
 == Options ==
 
-<div class="mw-translate-fuzzy">
 Le cube peut être édité après sa création de deux façons :
-* Double-cliquez le dans l'[[Tree_View/fr|arborescence ]] ou faire un clic droit dessus et sélectionnez '''Éditer la primitive''' dans le menu contextuel. Cela fait apparaître les paramètres de la primitive.
+* En double-cliquant dessus dans l'[[Tree_View/fr|arborescence ]] ou en cliquant avec le bouton droit et en sélectionnant '''Éditer une primitive''' dans le menu contextuel ; cela fait apparaître le panneau de tâches et ({{Version/fr|1.2}}) les manipulateurs interactifs (s'ils sont activés).
 * Via l'[[Property_View/fr|éditeur de propriétés]].
-</div>
 
 <span id="Properties"></span>
 ==Propriétés==
