@@ -19,9 +19,7 @@
 <span id="Description"></span>
 ==Opis==
 
-<div class="mw-translate-fuzzy">
-Narzędzie [[Image:CAM_Engrave.svg|24px]] [[CAM_Engrave/pl|Grawer]] służy głównie do grawerowania obiektów [[Image:Draft_ShapeString.svg|24px]] [[Draft_ShapeString/pl|Rysunek Roboczy: Kształt z tekstu]] na częściach. Może być jednak użyteczne do innych operacji 2D.
-</div>
+Polecenie [[Image:CAM_Engrave.svg|24px]] [[CAM_Engrave/pl|Grawer]] służy głównie do grawerowania obiektów [[Image:Draft_ShapeString.svg|16px]] [[Draft_ShapeString/pl|Rysunek Roboczy: Kształt z tekstu]] na częściach. Może być również używane z inną płaską geometrią 2D, na przykład kształtami zaimportowanymi z plików SVG.
 
 <span id="Usage"></span>
 ==Użycie==
