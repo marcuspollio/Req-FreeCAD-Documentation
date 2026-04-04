@@ -108,10 +108,8 @@ Nhấp vào [[Image:TechDraw_PageTemplate.svg|32px]] [[TechDraw_PageTemplate|New
 
 [[Image:TDTut_ProjGroup21.png|center]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# In the View labelled "TopLeftFront", select the two Vertices at the extreme ends of the front edge of the work piece.
-# Click on [[Image:TechDraw_LengthDimension.svg|32px]] [[TechDraw_LengthDimension|TechDraw LengthDimension]]. Drag the dimension text away from the Body.
-</div>
+# Trong Hình chiếu có nhãn "FrontTopLeft" (Trước-Trên-Trái), hãy chọn hai đỉnh (Vertices) ở hai đầu tận cùng của cạnh trước của chi tiết gia công.
+# Nhấp vào [[Image:TechDraw_LengthDimension.svg|32px]] [[TechDraw_LengthDimension|Length Dimension]] (Kích thước chiều dài). Kéo văn bản kích thước ra xa chi tiết.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Linking Dimensions to 3D Model===
