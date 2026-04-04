@@ -116,9 +116,7 @@ Nhấp vào [[Image:TechDraw_PageTemplate.svg|32px]] [[TechDraw_PageTemplate|New
 
 Bạn có nhận thấy một vấn đề với kích thước vừa tạo không? 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 [[Image:TDTut_NewLengthDim.png|center]]
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 From the first part of this tutorial, we know that the work piece is 53 mm wide, but our new dimensions reads 43.27. This is because "TopLeftFront" is an [https://en.wikipedia.org/wiki/Isometric_projection isometric projection], and our first drawing was an [https://en.wikipedia.org/wiki/Orthographic_projection orthogonal (multiview) projection]. To get the right value, we need to link our dimension directly to the 3D model.
