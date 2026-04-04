@@ -18,9 +18,7 @@
 
 ==Description==
 
-<div class="mw-translate-fuzzy">
-L'outil [[Image:CAM_Engrave.svg|24px]] [[CAM_Engrave/fr|Gravure]] sert principalement à graver une [[Image:Draft_ShapeString.svg|24px]][[Draft_ShapeString/fr|Draft Forme à partir d'un texte]] sur une pièce. Il peut être utile pour d'autres types de 2D.
-</div>
+La commande [[Image:CAM_Engrave.svg|24px]] [[CAM_Engrave/fr|Gravure]] sert principalement à graver une une [[Image:Draft_ShapeString.svg|24px]][[Draft_ShapeString/fr|Draft Forme à partir d'un texte]] sur une pièce. Elle peut également être utilisée avec d'autres géométries 2D planes, par exemple des formes importées au format SVG.
 
 <span id="Usage"></span>
 ==Utilisation==
