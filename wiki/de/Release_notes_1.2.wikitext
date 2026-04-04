@@ -231,10 +231,12 @@ ToDo (last check: 20260318):
 <span id="Further_Part_Design_improvements"></span>
 === Weitere Part Design-Verbesserungen ===
 
+<div class="mw-translate-fuzzy">
 * Der interaktive Dragger wurde zum Werkzeug  [[Image:PartDesign_Draft.svg|24px]] [[PartDesign_Draft/de|Formschräge]] hinzugefügt. [https://github.com/FreeCAD/FreeCAD/pull/27111 Pull-Request #27111]
 * Der interaktive Dragger wurde zu den Kugel-, Quader- und Zylinder-Grundkörper-Werkzeugen hinzugefügt. [https://github.com/FreeCAD/FreeCAD/pull/23700 Pull-Request #23700]
 * [[PartDesign_AdditivePipe/de|Rohr]] und [[PartDesign_SubtractivePipe/de|Abziehendes Rohr]] unterstützen jetzt die Mehrfachauswahl für die Kantenliste der Spine-Kurve (Austragungspfad). [https://github.com/FreeCAD/FreeCAD/pull/27962 Pull-Request #27962]
 * Das Einblenden eines Körpers ohne sichtbare Formelemente blendet jetzt auch das Formelement an der aktuellen Arbeitsposition ein. [https://github.com/FreeCAD/FreeCAD/pull/24887 Pull-Request #24887]
+</div>
 
 <span id="Points_Workbench"></span>
 == Arbeitsbereich Points ==
