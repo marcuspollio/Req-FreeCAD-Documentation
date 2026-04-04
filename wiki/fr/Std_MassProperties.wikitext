@@ -20,20 +20,18 @@
 
 ==Description==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The '''Std MassProperties''' command starts the mass properties measurement feature. It provides the following information:
-* Physical Properties
+La commande '''Std Propriétés physiques''' lance la fonction de mesure des propriétés de masse. Elle fournit les informations suivantes :
+* Propriétés physiques
 ** Volume
-** Mass
-** Density
-** Surface area
-* Center of gravity
-* Center of volume
-* Inertia
-** Inertia matrix
-** Principal moments of inertia
-** Inertia around axis - replaces the aforementioned inertia measures if a datum line is used as a reference for inertia calculations
-</div>
+** Masse
+** Densité
+** Surface
+* Centre de gravité
+* Centre de volume
+* Inertie
+** Matrice d'inertie
+** Moments d'inertie principaux
+** Inertie autour d'un axe : remplace les mesures d'inertie susmentionnées si une ligne de référence est utilisée comme référence pour les calculs d'inertie
 
 [[Image:Std_MassProperties_task_panel.png|300px]]
 
