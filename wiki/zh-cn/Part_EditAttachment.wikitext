@@ -31,20 +31,18 @@
 
 可用的引擎已在下方表格中列出。挂载引擎主要用于控制对象的 {{PropertyData|Placement}}。理论上，所有引擎都可以用于任何具备该属性的对象，但最后这三种引擎，只有在对象的形状与提到的“逻辑形状”相匹配时，其效果才是最符合逻辑和预期的。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable"
 |-
-! Attacher Engine !! Attacher Type !! Logical Shape
+! 吸附引擎 !! 吸附类型 !! 逻辑形状
 |-
 | [[#Engine_3D|Engine 3D]] || Attacher::AttachEngine3D ||
 |-
-| [[#Engine_Plane|Engine Plane]] || Attacher::AttachEnginePlane || Planar face coincident with the XY-plane of the Placement
+| [[#Engine_Plane|Engine Plane]] || Attacher::AttachEnginePlane ||与放置位置的 XY 平面重合的平面面。
 |-
-| [[#Engine_Line|Engine Line]] || Attacher::AttachEngineLine || Straight edge collinear with the Z-axis of the Placement
+| [[#Engine_Line|Engine Line]] || Attacher::AttachEngineLine || 与放置位置的 Z 轴共线的直边。
 |-
-| [[#Engine_Point|Engine Point]] || Attacher::AttachEnginePoint || Vertex coincident with the origin of the Placement
+| [[#Engine_Point|Engine Point]] || Attacher::AttachEnginePoint || 与放置位置的原点重合的顶点。
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The rest of this page focuses on the Engine 3D. The modes of the other engines are only listed. Note that the modes of Engine Plane are in fact identical to those of Engine 3D.
