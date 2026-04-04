@@ -28,14 +28,14 @@ Insère un cube soustractif dans le corps actif. Sa forme est soustraite du soli
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
 # Il y a plusieurs façons de lancer l'outil :
 #* Appuyez sur le bouton {{Button|[[Image:PartDesign_SubtractiveBox.svg|16px]] [[PartDesign_SubtractiveBox/fr|Cube soustractif]]}}. '''Remarque''': le cube soustractif fait partie du menu des icônes appelé ''Créer une primitive soustractive''. Après le lancement de FreeCAD, le cube soustractif est affiché par défaut dans la barre d'outils. Si une primitive différente s'affiche, cliquez sur la flèche vers le bas à côté de l'icône et sélectionnez Cube soustractive dans le menu.
 #* Sélectionnez l'option {{MenuCommand|PartDesign → Créer une primitive soustractive → [[Image:PartDesign_SubtractiveBox.svg|16px]] Cube soustractif}} du menu.
-# Définissez les paramètres de la primitive et de l'[[Part_EditAttachment/fr|ancrage]].
+# Le panneau de tâches s'ouvre.
+# Définissez les paramètres. {{Version/fr|1.2}} : si la [[PartDesign_Preferences/fr#Général|préférence]] (par défaut) {{MenuCommand|Afficher les manipulateurs interactifs lors de l'édition des fonctions}} est sélectionnée, les paramètres peuvent être ajustés à l'aide de manipulateurs interactifs dans la [[3D_View/fr|vue 3D]].
+# Vous pouvez également définir l'[[Part_EditAttachment/fr|ancrage]].
 # Cliquez sur {{Button|OK}}.
 # Une fonction Cube apparaît dans le corps actif.
-</div>
 
 ==Options== 
 
