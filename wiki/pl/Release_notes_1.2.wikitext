@@ -38,13 +38,11 @@ Starsze informacje na temat wydań FreeCAD można znaleźć na stronie [[Feature
 <span id="Core"></span>
 ===Rdzeń programu===
 
-<div class="mw-translate-fuzzy">
 {| cellpadding=5
 | [[File:AnnotationLabel_relnotes_1.2.png|384px]]
-| Dodano nowe polecenie wstawiające etykietę adnotacji do ostatniego wskazanego punktu w Widoku 3D.
+| Dodano nowe polecenie wstawiające [[Image:Std_AnnotationLabel.svg|24px]] [[Std_AnnotationLabel/pl|etykietę adnotacji]] do ostatniego wskazanego punktu w Widoku 3D.
 [https://github.com/FreeCAD/FreeCAD/pull/23673 Pull request #23673]
 |}
-</div>
 
 {| cellpadding=5
 | [[File:MassProperties_relnotes_1.2.png|384px]]
