@@ -29,9 +29,7 @@
 
 一个对象的吸附是由四种吸附引擎中的一种来控制的。默认使用哪种引擎，取决于该对象的具体类型。你可以通过对象的 {{PropertyData|Attacher Engine}} 属性（{{Version|1.0}}）,或者[[Property_View#Context_menu|hidden]] {{PropertyData|Attacher Type}} 属性来进行更改。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The available engines are listed in the table below. Attacher engines control the {{PropertyData|Placement}} of objects. All engines can be used for all objects that have this property. But the results of the last three make the most sense if the shape of the object matches the mentioned 'Logical Shape'.
-</div>
+可用的引擎已在下方表格中列出。挂载引擎主要用于控制对象的 {{PropertyData|Placement}}。理论上，所有引擎都可以用于任何具备该属性的对象，但最后这三种引擎，只有在对象的形状与提到的“逻辑形状”相匹配时，其效果才是最符合逻辑和预期的。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable"
