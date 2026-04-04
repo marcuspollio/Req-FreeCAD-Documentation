@@ -78,9 +78,8 @@
 
 吸附已禁用。你可以通过编辑其 [[Placement|位置]] 属性来移动该对象。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Translate origin ====
-</div>
+<span id="Translate_origin"></span>
+==== 平移原点 ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The origin is matched with a vertex. The orientation is still controlled by the Placement property of the attached object.
