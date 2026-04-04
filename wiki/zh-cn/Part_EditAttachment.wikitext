@@ -134,9 +134,7 @@ XY 平面将在一个顶点处与面保持相切。
 <span id="Z_tangent_to_edge"></span>
 ==== Z 轴与边相切 ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The Z-axis is aligned to be tangent to an edge. An optional vertex defines where.
-</div>
+Z 轴将与一条边保持相切对齐。一个可选的顶点用于定义对齐的具体位置。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If no vertex is linked the {{PropertyData|Map Path Parameter}} property determines the point.
