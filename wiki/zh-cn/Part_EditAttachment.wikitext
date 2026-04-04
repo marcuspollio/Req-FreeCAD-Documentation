@@ -49,23 +49,21 @@
 <span id="Usage"></span>
 == 用法 ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select the object to be attached.
-# Do one of the following:
-#* If the object already has a {{PropertyData|Map Mode}} property: click in that field in the [[Property_View|Property View]] and press the {{Button|…}} button that appears.
-#* Select the {{MenuCommand|Part → [[Image:Part_EditAttachment.svg|16px]] Attachment}} option from the menu.
-# The {{MenuCommand|Attachment}} task panel opens.
-# At the top of the task panel ''Not attached'' can be read. The first button labeled {{Button|Selecting…}} is highlighted to indicate a selection in the [[3D_View|3D View]] is expected.
-# Select a vertex, edge or face/plane belonging to another object.
-# In the input field to the right of the button, the referenced object and subelement are shown. For example, if a face of a [[Part_Box|Part Box]] is selected, the field may show {{Value|Box:Face6}}. The label of the button displays the subelement type now.
-# The available modes are filtered based on the selected references and their order. For example, for modes [[#Align_O-Z-X|Align O-Z-X]] to [[#Align_O-Y-X|Align O-Y-X]] the first reference must be a vertex. If the first reference is a subelement of a different type, they are removed from the list.
-# ''Attached with mode <description>'' is now displayed at the top of the task panel.
-# Optionally select a different [[#Attachment_modes|Attachment Mode]] from the list. For information on the attachment modes, hover the mouse over them for a tooltip to appear.
-# Depending on the selected  mode, add up to three more references by pressing the {{Button|Reference2}}, {{Button|Reference3}}, and {{Button|Reference4}} buttons and repeating step 5. It is also possible to specify all references before selecting an attachment mode.
-# Optionally set an [[#Attachment_offset|Attachment Offset]].
-# Press {{Button|OK}}.
-# If applicable, optionally change the {{PropertyData|Map Path Parameter}} property in the [[Property_View|Property View]].
-</div>
+# 选择要吸附的对象。
+# 执行以下操作之一：
+#* 如果该对象已经具备 {{PropertyData|Map Mode}} 属性：请在 [[Property_View|属性视图]] 中点击该字段，并按下随之出现的 {{Button|…}} 按钮。
+#* 从菜单栏中选择 {{MenuCommand|零件 → [[Image:Part_EditAttachment.svg|16px]] 吸附}} 选项。
+# {{MenuCommand|吸附}} 任务面板随即打开。
+# 在任务面板的顶部，你可以看到显示着“未吸附”的字样。第一个标有 {{Button|正在选择…}} 的按钮处于高亮状态，这是在提示你：现在需要在 [[3D_View|3D 视图]] 中进行选择操作。
+# 选择属于另一个对象的顶点、边或面/平面。
+# 在按钮右侧的输入框中，会显示出被引用的对象及其子元素。例如，如果你选中了 [[Part_Box|零件立方体]] 的一个面，该框中可能会显示 {{Value|Box:Face6}}。此时，按钮上的标签也会更新，显示出子元素的类型。
+# 可用的模式会根据所选的参照物及其顺序进行筛选。例如，对于 [[#Align_O-Z-X|Align O-Z-X]] 到 [[#Align_O-Y-X|Align O-Y-X]] 这些模式，第一个参照物必须是顶点。如果第一个参照物是其他类型的子元素，这些模式就会从列表中移除。
+# ''吸附模式 <description>'' 现在显示在任务面板的顶部。
+# 如果需要，可以从列表中选择一个不同的 [[#Attachment_modes|吸附模式]]。想了解关于这些挂载模式的详情，只需将鼠标悬停在上面，就会弹出提示框。
+# 根据所选的模式，你可以通过点击 {{Button|参照2}}、{{Button|参照3}} 和 {{Button|参照4}} 按钮，并重复步骤 5，来添加最多三个额外的参照。当然，你也可以在选定挂载模式之前，先把所有的参照都指定好。
+# 如果需要，可以设置一个 [[#Attachment_offset|吸附偏移量]]。
+# 单击 {{Button|确定}}.
+# 如果适用，你也可以在 [[Property_View|属性视图]] 中更改 {{PropertyData|映射路径参数}} 属性。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Attachment modes ==
