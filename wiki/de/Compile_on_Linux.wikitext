@@ -30,9 +30,7 @@ Um mit dem Quellcode zu arbeiten, wird [https://git-scm.com/ {{incode|git}}] ben
 sudo apt install git
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For an in-depth explanation on the contributing process, refer to [[Source_code_management|Source code management]].
-</div>
+Eine ausführliche Erläuterung zum Beitragsprozess findet man unter [[Source_code_management/de|Quellcodeverwaltung]].
 
 <div class="mw-translate-fuzzy">
 Der beste Weg, den Code zu bekommen, ist, das schreibgeschützte [https://github.com/FreeCAD/FreeCAD Git-Repository] unter Verwendung des Programms {{incode|git}} zu klonen. Dieses kann auf den meisten Linux-Distributionen einfach installiert werden.
