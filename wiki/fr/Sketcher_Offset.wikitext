@@ -11,8 +11,8 @@
 
 {{GuiCommand/fr
 |Name=Sketcher Offset
-|Name/fr=Sketcher Décaler une géométrie
-|MenuLocation=Esquisse → Outils d'esquisse → Décaler une géométrie
+|Name/fr=Sketcher Décalage
+|MenuLocation=Esquisse → Outils d'esquisse → Créer un décalage
 |Workbenches=[[Sketcher_Workbench/fr|Sketcher]]
 |Shortcut={{KEY|Z}} {{KEY|T}}
 |Version=1.0
