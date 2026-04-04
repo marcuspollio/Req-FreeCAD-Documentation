@@ -63,9 +63,7 @@ Siehe auch: [[Draft_Snap/de|Draft Einrasten]].
 
 Siehe [[Draft_OrthoArray/de#Hinweise|Draft RechtwinkligeAnordnung]].
 
-<div class="mw-translate-fuzzy">
-* Die Standarddrehachse der Anordnung ist die positive Z-Achse. Dies kann durch Anpassen ihrer {{PropertyData/de|Axis}} geändert werden.
-</div>
+* {{Version/de|1.2}}: Das Array verwendet die Z-Achse der aktuellen [[Draft_SelectPlane/de|Arbeitsebene]] als Drehachse. Dies kann durch Bearbeiten der Eigenschaft {{PropertyData/de|Axis}} geändert werden.
 
 <span id="Properties"></span>
 ==Eigenschaften==
