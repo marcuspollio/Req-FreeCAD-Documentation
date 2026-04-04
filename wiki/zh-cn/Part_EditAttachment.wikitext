@@ -24,9 +24,8 @@
 
 [[Image:Part_EditAttachment.svg|24px]]'''零件吸附编辑'''命令可以将一个对象“吸附”到一个或多个其他对象上。被吸附的对象会与引用的对象建立链接，这意味着，如果引用对象的[[Std Placement|placement]]或几何形状发生了变化，被吸附对象的位置也会相应地自动更新。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Attacher engines ==
-</div>
+<span id="Attacher_engines"></span>
+== 吸附引擎 ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The attachment of an object is controlled by one of four attacher engines. The default engine that is used for an object depends on its type. An object's attacher engine can be changed via its {{PropertyData|Attacher Engine}} property ({{Version|1.0}}) or its [[Property_View#Context_menu|hidden]] {{PropertyData|Attacher Type}} property.
