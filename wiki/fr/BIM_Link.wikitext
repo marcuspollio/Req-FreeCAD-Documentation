@@ -9,16 +9,15 @@
 |IconC=Workbench_BIM.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/fr
 |Name=BIM Link
-|MenuLocation=Modify → Cloning Tools → Make Link
-|Workbenches=[[BIM_Workbench|BIM]]
+|Name/fr=BIM Lien
+|MenuLocation=Modification → Outils de clonage → Créer un lien
+|Workbenches=[[BIM_Workbench/fr|BIM]]
 |Shortcut={{KEY|L}} {{KEY|K}}
 |Version=1.2
-|SeeAlso=[[Std_LinkMake|Std LinkMake]], [[BIM_Clone|BIM Clone]], [[Draft_Move|Draft Move]]
+|SeeAlso=[[Std_LinkMake/fr|Std Créer un lien]], [[BIM_Clone/fr|BIM Cloner]], [[Draft_Move/fr|Draft Déplacer]]
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Description==
