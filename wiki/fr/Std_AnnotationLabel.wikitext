@@ -38,12 +38,10 @@ La commande '''Std Étiquette''' permet de créer une étiquette d'annotation da
 <span id="Notes"></span>
 ==Remarques==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The ''Base Position'' is determined by the first selected object and how it was selected:
-** For objects without a shape the global origin is used.
-** For other objects it depends on the selection method: if selected from the 3D View the picked point is used, if selected from the [[Tree_View|Tree View]] the object's ''Placement'' point is used.
-* The coordinates of the ''Text Position'' are relative to the ''Base Position''. For the initial position the X-, Y- and Z-coordinates of the ''Base Position'' are copied and 10 is added to each. This means that the initial length of the leader line is larger if the ''Base Position'' is further from the origin.
-</div>
+* La ''position de base'' est déterminée par le premier objet sélectionné et par la manière dont il a été sélectionné :
+** Pour les objets sans forme, on utilise l'origine globale.
+** Pour les autres objets, cela dépend de la méthode de sélection : s'ils sont sélectionnés depuis la vue 3D, on utilise le point choisi ; s'ils sont sélectionnés depuis l'[[Tree_View/fr|arborescence]], on utilise le point de ''Placement'' de l'objet.
+* Les coordonnées de la ''position du texte'' sont relatives à la ''position de base''. Pour la position initiale, les coordonnées X, Y et Z de la ''position de base'' sont copiées et 10 est ajouté à chacune d'elles. Cela signifie que la longueur initiale de la ligne de référence est plus grande si la ''position de base'' est plus éloignée de l'origine.
 
 
 {{Docnav/fr
