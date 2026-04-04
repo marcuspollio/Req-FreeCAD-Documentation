@@ -35,9 +35,8 @@ La commande [[Image:CAM_Engrave.svg|24px]] [[CAM_Engrave/fr|Gravure]] sert princ
 
 ==Options==
 
-<div class="mw-translate-fuzzy">
-Vide
-</div>
+* '''Base''' : la géométrie à graver.
+* '''Supprimer''' : supprime la sélection géométrique en cours.
 
 <span id="Properties"></span>
 ==Propriétés==
