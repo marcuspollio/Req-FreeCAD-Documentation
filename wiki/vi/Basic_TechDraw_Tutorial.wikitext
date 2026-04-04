@@ -120,13 +120,13 @@ Bạn có nhận thấy một vấn đề với kích thước vừa tạo khôn
 
 Từ phần đầu của hướng dẫn này, chúng ta biết rằng chi tiết gia công rộng 53 mm, nhưng kích thước mới của chúng ta lại hiển thị 43,27. Điều này là do "TopLeftFront" (Trên-Trái-Trước) là một [https://en.wikipedia.org/wiki/Isometric_projection hình chiếu đẳng cự], trong khi bản vẽ đầu tiên của chúng ta là một [https://en.wikipedia.org/wiki/Orthographic_projection hình chiếu trực giao]. Để có được giá trị chính xác, chúng ta cần liên kết kích thước của mình trực tiếp với mô hình 3D. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Note the name of our faulty dimension in the Combo panel. We'll need it in a minute.
-# Change to the 3D tab and select the Vertices at the ends of the front edge of the work piece. Also select Page001.
-# Click on [[Image:TechDraw_LinkDimension.svg|32px]] [[TechDraw_LinkDimension|TechDraw LinkDimension]]. A dialog will open in the Task panel.
-# In the dialog, move our dimension from the Available column to the Selected column. Press {{Button|OK}}.
-# Return to Page001. Our dimension should now read the correct value of 53. (if you still see 43.27, you may need to press the {{Button|Recompute}} button or drag the dimension value a bit until it changes.)
-</div>
+(áp dụng cho FreeCAD 1.0 trở đi)
+# Chọn kích thước bị lỗi của chúng ta.
+# Bấm vào [[Image:TechDraw_DimensionRepair.svg|32px]] [[TechDraw_DimensionRepair|Repair Dimension Reference]]. Trong bảng tác vụ sẽ xuất hiện các trường để sửa (hoặc tạo) liên kết.
+# Chuyển sang cửa sổ mô hình 3D và chọn cạnh trước trên chi tiết gia công.
+# Bấm vào nút Replace references with current selection. Cuộn xuống cuối bảng tác vụ sẽ thấy trong phần References 3D bên dưới ghi thông số tham chiếu của cạnh đã chọn trong chi tiết.
+# Nhấn nút {{Button|OK}}.
+# Quay trở lại Page001. Chọn kích thước của chúng ta. Trong tab Dữ liệu sửa Measure Type thành True.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Going Further ==
