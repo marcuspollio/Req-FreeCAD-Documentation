@@ -85,10 +85,12 @@ It is also possible to search for shortcuts:
 
 ====Notes====
 
+<div class="mw-translate-fuzzy">
 * Os atalhos só funcionam se seus comandos aparecerem no menu padrão ou no menu de uma bancada que foi carregada na sessão atual do FreeCAD, ou se seus comandos aparecerem em uma barra de ferramentas ''visível''.
 <!--Description of problem below: https://forum.freecad.org/viewtopic.php?f=23&t=45826-->
 * Na V0.19, há um problema com alguns comandos da bancada de trabalho "Draft" (Rascunho). Seus atalhos padrão não funcionam e/ou atalhos personalizados não podem ser atribuídos a eles.
 * Para reatribuir um atalho padrão, um novo atalho deve ser atribuído ao seu comando original primeiro.
+</div>
 {{Top}}
 ===Toolbars===
 
