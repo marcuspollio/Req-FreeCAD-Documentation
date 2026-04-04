@@ -168,12 +168,8 @@ La visibilité du corps remplace la visibilité de tout objet qu'il contient. Si
 
 Plusieurs [[Sketch/fr|esquisses]] peuvent être visibles à la fois mais une seule [[PartDesign_Feature/fr|PartDesign Feature]] (résultat solide) peut être visible à la fois. Sélectionner une fonction cachée et appuyer sur la {{KEY|barre espace}} du clavier la rendra visible et masquera automatiquement la fonction précédemment visible.
 
-<div class="mw-translate-fuzzy">
 [[File:PartDesign_Body_Visibility.png]]
 {{Caption|PartDesign Corps : plusieurs [[Sketch/fr|esquisses]] peuvent être visibles simultanément, mais une seule [[PartDesign_Feature/fr|PartDesign Feature]] peut être visible à la fois, que ce soit le tip ou non.}}
-
-{{Version/fr|1.2}} Si un corps est rendu visible alors qu'aucune de ses fonctions n'est visible, la [[#Tip_(fonction_résultante)|fonction résultante ou tip]] en cours s'affiche automatiquement afin que le corps devienne visible dans la [[3D_View/fr|vue 3D]].
-</div>
 
 {{Version|1.2}} If a Body is made visible while none of its features are visible, the current [[#Tip|Tip]] is shown automatically so that the Body becomes visible in the [[3D_View|3D View]].
 
