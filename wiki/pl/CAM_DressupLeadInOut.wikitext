@@ -20,7 +20,7 @@
 <span id="Description"></span>
 ==Opis==
 
-The [[Image:CAM_DressupLeadInOut.svg|24px]] [[CAM_DressupLeadInOut|CAM DressupLeadInOut]] command dresses up an existing path by adding lead-in and lead-out moves at the beginning and end of the toolpath.
+Polecenie [[Image:CAM_DressupLeadInOut.svg|24px]] [[CAM_DressupLeadInOut/pl|Ulepszenie wprowadzenia / wyprowadzenia]] modyfikuje istniejącą ścieżkę, dodając ruchy najazdu (lead-in) i wyjazdu (lead-out) na początku i na końcu ścieżki narzędzia.
 
 <span id="Usage"></span>
 ==Użycie==
