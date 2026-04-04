@@ -39,9 +39,9 @@ La commande [[Image:CAM_DressupLeadInOut.svg|24px]] [[CAM_DressupLeadInOut/fr|CA
 
 ==Limitations==
 
-* This dressup modifies the start and end of an existing path.
-* The exact result depends on the selected path and the chosen lead-in and lead-out settings.
-* {{Version|1.2}} [[Image:CAM_DressupRampEntry.svg|16px]] [[CAM_DressupRampEntry|CAM DressupRampEntry]] can also be applied to a path that already has a Lead In/Out dressup.
+* Ce mode de personnalisation modifie le début et la fin d'un parcours existant.
+* Le résultat exact dépend du chemin sélectionné et des paramètres d'entrée et de sortie choisis.
+* [[Image:CAM_DressupRampEntry.svg|16px]] [[CAM_DressupRampEntry/fr|CAM Rampe d'entrée]] peut également être appliqué à un parcours qui comporte déjà une fonction d'entrée/sortie. {{Version/fr|1.2}}
 
 <span id="Scripting"></span>
 ==Script==
