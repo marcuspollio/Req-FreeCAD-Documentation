@@ -30,9 +30,7 @@ Pour modifier le code source, vous devez disposer de [https://git-scm.com/ {{inc
 sudo apt install git
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For an in-depth explanation on the contributing process, refer to [[Source_code_management|Source code management]].
-</div>
+Pour une explication détaillée du processus de contribution, consultez la page [[Source_code_management/fr|Gestion du code source]].
 
 <div class="mw-translate-fuzzy">
 La meilleure façon d'obtenir le code est de cloner le [https://github.com/FreeCAD/FreeCAD dépôt Git] en lecture seule  à l'aide du programme {{incode|git}}. Il peut être facilement installé sur la plupart des distributions Linux.
