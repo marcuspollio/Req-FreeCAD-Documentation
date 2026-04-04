@@ -147,9 +147,7 @@ Z 轴将与一条边保持相切对齐。一个可选的顶点用于定义对齐
 
 [[File:Attacher_mode_FrenetNB.png|250px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The X and Y axes are aligned to the normal (N) and binormal (B) axes of the [https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas Frenet-Serret coordinate system] at a point on a curved edge. An optional vertex defines where.
-</div>
+X 轴和 Y 轴分别与曲边上某一点处的 [https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas Frenet-Serret coordinate system]  中的法向量 (N) 轴和副法向量 (B) 轴对齐。一个可选的顶点用于定义该位置。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If no vertex is linked the {{PropertyData|Map Path Parameter}} property determines the point. The object's origin is translated to the vertex if the vertex is first, or kept at the curve if the curve is first.
