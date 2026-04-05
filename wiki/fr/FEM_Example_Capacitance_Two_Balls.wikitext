@@ -11,7 +11,7 @@
 
 == Introduction == 
 
-Cet exemple est destiné à montrer comment simuler le 6ème exemple de [https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf Elmer GUI Tutorials], '''Electrostatic equation – Capacitance of two balls''', en utilisant les nouveaux [[FEM_Examples/fr|FEM Exemples]]. Ce tutoriel illustre comment configurer l'exemple, étudier ses différentes parties, le résoudre en utilisant le [[FEM_SolverElmer/fr|FEM Solveur Elmer]] et visualiser les résultats en utilisant [[FEM_PostFilterClipRegion/fr|FEM Filtre de découpe selon une région]].
+Cet exemple est destiné à montrer comment simuler le 6ème exemple de [https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf Elmer GUI Tutorials], '''Electrostatic equation – Capacitance of two balls''', en utilisant les nouveaux [[FEM_Examples/fr|FEM Exemples]]. Ce tutoriel illustre comment configurer l'exemple, étudier ses différentes parties, le résoudre en utilisant le [[FEM_SolverElmer/fr|FEM Solveur Elmer]] et visualiser les résultats en utilisant [[FEM_PostFilterClipRegion/fr|FEM Filtre d'écrêtage d'une région]].
 
 [[File:Two_balls_result_2.png|1000px]]
 {{Caption|Le résultat final de ce tutoriel}}
