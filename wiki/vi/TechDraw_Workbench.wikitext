@@ -47,7 +47,8 @@ Nếu mục tiêu chính của bạn là tạo ra các bản vẽ 2D phức tạ
 
 * [[File:TechDraw_ExportPageDXF.svg|32px]] [[TechDraw_ExportPageDXF|Export Page as DXF]]: lưu trang hiện tại thành [[DXF|DXF]].
 
-=== TechDraw Views ===
+<span id="TechDraw_Views"></span>
+=== Các hình chiếu TechDraw ===
 
 * [[File:TechDraw_View.svg|32px]] [[TechDraw_View|New View]]: adds a representation of one or more objects. {{Version|1.0}}: It can create a single view, a [[TechDraw_ProjectionGroup|Projection Group]], a [[TechDraw_SpreadsheetView|Spreadsheet View]], an [[TechDraw_ArchView|Arch View]], a [[TechDraw_Symbol|Symbol]] or an [[TechDraw_Image|Image View]].
 
