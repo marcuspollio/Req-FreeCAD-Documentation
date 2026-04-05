@@ -37,7 +37,7 @@ Nếu mục tiêu chính của bạn là tạo ra các bản vẽ 2D phức tạ
 
 * [[File:TechDraw_PageTemplate.svg|32px]] [[TechDraw_PageTemplate|New Page From Template]]: thêm một trang mới sử dụng bản mẫu [[TechDraw_Templates|template]] đã chọn.
 
-* [[File:TechDraw_FillTemplateFields.svg|32px]] [[TechDraw_FillTemplateFields|Update Template Fields]]: automatically fills template fields with document information. {{Version|1.0}}
+* [[File:TechDraw_FillTemplateFields.svg|32px]] [[TechDraw_FillTemplateFields|Update Template Fields]]: tự động điền các trường của bản mẫu (template) bằng thông tin trong tài liệu. {{Version|1.0}}
 
 * [[File:TechDraw_RedrawPage.svg|32px]] [[TechDraw_RedrawPage|Redraw Page]]: forces an update of the selected page.
 
