@@ -267,9 +267,7 @@ Ein zu grobes Netz ist eine der häufigsten Ursachen für Ungenauigkeiten und an
 <span id="Choosing_element_type"></span>
 === Auswahl des Elementtyps ===
 
-<div class="mw-translate-fuzzy">
-Die Wahl des Elementtyps ist nicht einfach und hängt von vielen Faktoren ab, aber die allgemeine Regel lautet, dass hexaedrische und quadrilaterale Elemente gegenüber tetraedrischen und dreieckigen Elementen vorzuziehen sind. Komplexe Geometrien können jedoch nicht mit hexaedrischen Elementen vernetzt werden, und FreeCAD kann diese nicht ordnungsgemäß generieren (nur unter Verwendung des Unterteilungsalgorithmus des Gmsh-Mesher, dessen Ergebnisse jedoch nicht den Erwartungen an ein hexagonales Netz entsprechen). Quad- oder quad-dominierte Netze können normalerweise auf Oberflächen generiert werden – siehe [https://forum.freecad.org/viewtopic.php?t=20351 dieser Forenthread]). Hexaedrische Elemente können aus externen Netzgeneratoren importiert werden, wie z. B. [https://gmsh.info Gmsh] und im Arbeitsbereich FEM verwendet, wie in [https://www.youtube.com/watch?v=vylt24G7qj4&t=932s diesem Video] gezeigt.
-</div>
+Die Wahl des Elementtyps ist nicht einfach und hängt von vielen Faktoren ab, aber die allgemeine Regel lautet, dass hexaedrische und quadrilaterale Elemente gegenüber tetraedrischen und dreieckigen Elementen vorzuziehen sind. Komplexe Geometrien können jedoch nicht mit hexaedrischen Elementen vernetzt werden, und FreeCAD kann diese nicht ordnungsgemäß generieren (nur unter Verwendung des Unterteilungsalgorithmus des Gmsh-Mesher, dessen Ergebnisse jedoch nicht den Erwartungen an ein hexagonales Netz entsprechen). Quad- oder quad-dominierte Netze können normalerweise auf Oberflächen generiert werden – siehe [https://forum.freecad.org/viewtopic.php?t=20351 dieser Forenthread]. Hexaedrische Elemente können aus externen Netzgeneratoren importiert werden, wie z. B. [https://gmsh.info Gmsh] und im Arbeitsbereich FEM verwendet, wie in [https://www.youtube.com/watch?v=vylt24G7qj4&t=932s diesem Video] gezeigt.
 
 <span id="Choosing_element_order"></span>
 === Auswahl der Elementreihenfolge ===
