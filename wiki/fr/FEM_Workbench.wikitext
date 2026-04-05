@@ -208,7 +208,7 @@ L'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné qu
 
 * [[Image:FEM_PostFilterClipScalar.svg|32px]] [[FEM_PostFilterClipScalar/fr|Filtre d'écrêtage scalaire]] : utilisé pour écrêter un champ avec une valeur scalaire spécifiée.
 
-* [[Image:FEM_PostFilterCutFunction.svg|32px]] [[FEM_PostFilterCutFunction/fr|Filtre de découpe selon une fonction]] : permet d'afficher les résultats les résultats sur un plan, une sphère, un cylindre ou une boîte intersectant le modèle.
+* [[Image:FEM_PostFilterCutFunction.svg|32px]] [[FEM_PostFilterCutFunction/fr|Filtre par une fonction]] : permet d'afficher les résultats selon un plan, une sphère, un cylindre ou une boîte intersectant le modèle.
 
 * [[Image:FEM_PostFilterClipRegion.svg|32px]] [[FEM_PostFilterClipRegion/fr|Filtre d'écrêtage d'une région]] : utilisé pour écrêter un champ avec un plan, une sphère, un cylindre ou une boîte intersectant le modèle.
 
