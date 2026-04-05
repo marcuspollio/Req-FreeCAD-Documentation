@@ -50,7 +50,7 @@ Nếu mục tiêu chính của bạn là tạo ra các bản vẽ 2D phức tạ
 <span id="TechDraw_Views"></span>
 === Các hình chiếu TechDraw ===
 
-* [[File:TechDraw_View.svg|32px]] [[TechDraw_View|New View]]: adds a representation of one or more objects. {{Version|1.0}}: It can create a single view, a [[TechDraw_ProjectionGroup|Projection Group]], a [[TechDraw_SpreadsheetView|Spreadsheet View]], an [[TechDraw_ArchView|Arch View]], a [[TechDraw_Symbol|Symbol]] or an [[TechDraw_Image|Image View]].
+* [[File:TechDraw_View.svg|32px]] [[TechDraw_View|New View]]: Thêm hình biểu diễn của một hoặc nhiều đối tượng. {{Version|1.0}}: Nó có thể tạo ra một hình chiếu đơn lẻ, một [[TechDraw_ProjectionGroup|Projection Group]], [[TechDraw_SpreadsheetView|Spreadsheet View]], [[TechDraw_ArchView|Arch View]], [[TechDraw_Symbol|Symbol]] hoặc [[TechDraw_Image|Image View]].
 
 * [[File:TechDraw_BrokenView.svg|32px]] [[TechDraw_BrokenView|Broken View]]: adds a broken view of one or more objects. {{Version|1.0}}
 
