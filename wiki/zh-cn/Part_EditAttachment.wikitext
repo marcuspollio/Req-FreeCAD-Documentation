@@ -225,10 +225,8 @@ XY 平面被对齐以穿过三个顶点。X 轴将穿过前两个顶点。
 
 这是用于折叠多面体的一种特殊模式。请按顺序选择四条共点的线：轮廓线 (1)、折痕线 (2)、另一条折痕线 (3)、另一条轮廓线 (4)。为了确定坐标系，系统会通过将线 1 绕线 2 旋转、线 4 绕线 3 旋转，从而使选定的轮廓线重合。原点将与公共点重合，X 轴与线 2 重合，Y 轴则对齐至轮廓线重合的方向。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:; Reference combinations
-: Line, Line, Line, Line
-</div>
+:; 参照组合
+: 直线, 直线, 直线, 直线
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Inertia CS ====
