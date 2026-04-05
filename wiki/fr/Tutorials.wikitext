@@ -126,7 +126,7 @@ Figure 11 Deformed Mesh.png|link=[[FEM_Shear_of_a_Composite_Block/fr]]|[[FEM_She
 
 Femconcrete_Wall_3D_rx_PSS.png|link=[[Analysis_of_reinforced_concrete_with_FEM/fr]]|[[Analysis_of_reinforced_concrete_with_FEM/fr|FEM Analyse du béton armé]] (v0.19)<br/>Estimer le niveau d'armature requis dans une structure en béton pour éviter une rupture en traction ou en cisaillement.
 
-Two_balls_result_2-cropped.png|link=[[FEM_Example_Capacitance_Two_Balls/fr]]|[[FEM_Example_Capacitance_Two_Balls/fr|FEM Exemple calcul capacité de deux sphères]] (v0.19)<br/>Cet exemple montre comment simuler une capacité. Illustre comment configurer l'exemple, étudier ses différentes parties, le résoudre en utilisant le [[FEM_SolverElmer/fr|solveur Elmer]] et visualiser les résultats en utilisant un [[FEM_PostFilterClipRegion/fr|Filtre rattaché à une région]].
+Two_balls_result_2-cropped.png|link=[[FEM_Example_Capacitance_Two_Balls/fr]]|[[FEM_Example_Capacitance_Two_Balls/fr|FEM Exemple calcul capacité de deux sphères]] (v0.19)<br/>Cet exemple montre comment simuler une capacité. Illustre comment configurer l'exemple, étudier ses différentes parties, le résoudre en utilisant le [[FEM_SolverElmer/fr|solveur Elmer]] et visualiser les résultats en utilisant un [[FEM_PostFilterClipRegion/fr|Filtre d'écrêtage d'une région]].
 
 FEM_post-processing_Paraview.png|link=[[Post-Processing_of_FEM_Results_with_Paraview/fr]]|[[Post-Processing_of_FEM_Results_with_Paraview/fr|Post-traitement des résultats FEM avec Paraview]] (v0.19)<br/>Ce tutoriel explique les bases du transfert des données de l'atelier FEM vers Paraview et montre certaines des options et paramètres d'affichage des données.
 
