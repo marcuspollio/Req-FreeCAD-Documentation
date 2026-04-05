@@ -200,9 +200,8 @@ Y 轴与边缘上某一点的密切圆轴线对齐。一个可选的顶点用于
 
 参见 [[#Concentric|Concentric]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== XY-plane by 3 points ====
-</div>
+<span id="XY-plane_by_3_points"></span>
+==== 三点定义 XY 平面 ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The XY-plane is aligned to pass through three vertices. The X-axis will pass through the first two vertices.
