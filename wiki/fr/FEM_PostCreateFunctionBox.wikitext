@@ -29,9 +29,9 @@ La fonction [[Image:FEM_PostCreateFunctionBox.svg|24px]] '''FEM Pavé droit''' d
 ===Créer une fonction pavé droit===
 
 # Il y a plusieurs façons de lancer la commande :
-#* Appuyez sur le bouton {{Button|[[Image:FEM_PostCreateFunctionBox.svg|16px]] [[FEM_PostCreateFunctionBox/fr|Boîte]]}}.
-#* Sélectionnez l'option {{MenuCommand|Résultats → Fonctions de filtrage → [[Image:FEM_PostCreateFunctionBox.svg|16px]] Boîte}} du menu.
-# Le [[Task_panel/fr|panneau des tâches]] s'ouvre.
+#* Appuyez sur le bouton {{Button|[[Image:FEM_PostCreateFunctionBox.svg|16px]] [[FEM_PostCreateFunctionBox/fr|Pavé droit]]}}.
+#* Sélectionnez l'option {{MenuCommand|Résultats → Fonctions de filtrage → [[Image:FEM_PostCreateFunctionBox.svg|16px]] Pavé droit}} du menu.
+# Le [[Task_Panel/fr|panneau des tâches]] s'ouvre.
 # Vous pouvez définir les valeurs de l'origine et de la direction du plan de coupe.
 # Appuyer sur le bouton {{Button|OK}} pour terminer.
 
