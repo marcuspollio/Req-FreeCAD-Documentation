@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/it
 |[[Std_AxisCross/it|Origine degli assi]]
-|[[Part_SectionCut/it|Taglio sezione persistente]]
+|[[Std_TextureMapping/it|Mappa una trama]]
 |[[Std_View_Menu/it|Menu Visualizza]]
 |IconL=Std_AxisCross.svg
-|IconR=Part_SectionCut.svg
+|IconR=Std_TextureMapping.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{GuiCommand/it
 |Name=Std ToggleClipPlane
