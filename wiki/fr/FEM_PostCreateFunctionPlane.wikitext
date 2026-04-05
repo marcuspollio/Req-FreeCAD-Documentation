@@ -19,7 +19,7 @@
 
 ==Description==
 
-La fonction [[Image:FEM_PostCreateFunctionPlane.svg|24px]] '''FEM Filtre fonction plan''' définit la façon dont un maillage est coupé géométriquement. Elle est utilisée par [[Image:FEM_PostFilterCutFunction.svg|16px]] [[FEM_PostFilterCutFunction/fr|Filtre de découpe selon une fonction]] et [[Image:FEM_PostFilterClipRegion.svg|16px]] [[FEM_PostFilterClipRegion/fr|Filtre d'écrêtage d'une région]].
+La fonction [[Image:FEM_PostCreateFunctionPlane.svg|24px]] '''FEM Filtre fonction plan''' définit la façon dont un maillage est coupé géométriquement. Elle est utilisée par [[Image:FEM_PostFilterCutFunction.svg|16px]] [[FEM_PostFilterCutFunction/fr|Filtre par une fonction]] et [[Image:FEM_PostFilterClipRegion.svg|16px]] [[FEM_PostFilterClipRegion/fr|Filtre d'écrêtage d'une région]].
 
 <span id="Usage"></span>
 ==Utilisation==
