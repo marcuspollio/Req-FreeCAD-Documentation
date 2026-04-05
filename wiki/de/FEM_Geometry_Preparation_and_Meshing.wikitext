@@ -235,13 +235,11 @@ Solche Fehler werden durch fehlende oder sich überschneidende Materialdefinitio
 <span id="Selection_of_interior_entities"></span>
 === Auswahl von Innenraumobjekten ===
 
-<div class="mw-translate-fuzzy">
-Die Auswahl interner Bereiche (z. B. Flächen/Volumen) kann schwierig sein. Dies kann für die Anwendung verschiedener Materialien, Körperlasten oder Randbedingungen (insbesondere bei thermischen und elektromagnetischen Analysen) erforderlich sein. Es gibt mehrere Möglichkeiten:
+Die Auswahl interner Bereiche (z. B. Flächen/Volumen) kann schwierig sein. Dies kann für die Anwendung verschiedener Materialien, Körperlasten oder Randbedingungen (insbesondere bei thermischen und elektromagnetischen Analysen) erforderlich sein (mit Kernen/Einschlüssen oder externen Flüssigkeitsbereichen). Es gibt mehrere Möglichkeiten:
 * Die [[Std_ToggleClipPlane/de|Schnittebene]] für die Dauer der Auswahl aktivieren und interne Flächen auswählen.
 * Das boolesche Objekt ausblenden, nur eines der Teile anzeigen, auf die es angewendet wurde, und es auswählen.
 * [[Std_ToggleTransparency/de|Transparenz aktivieren]] und die Verwendung der [[Selection_View/de|Auswahlansicht]] mit aktivierter Option ''Ausgewählte Objektliste'', wie [https://forum.freecad.org/viewtopic.php?t=96984#p826693 hier] beschrieben,
-* ein anderes, externes Objekt auswählen und die Eigenschaft ''Referenzen'' auf der Registerkarte ''Daten'' eines bestimmten Analyseelements bearbeiten (erfordert die manuelle Angabe der Nummer des geometrischen Objekts).
-</div>
+* ein anderes, externes Objekt auswählen und die Eigenschaft ''Referenzen'' auf der Registerkarte ''Daten'' eines bestimmten Analyseelements bearbeiten (erfordert die manuelle Angabe des Names und der Nummer des geometrischen Objekts) – sicherstellen, dass die diesem Objekt zugeordnete Zeile weiterhin markiert ist und keine anderen unerwünschten Objekte markiert sind, nachdem der Name mit der Nummer eingegeben wurde (daraufklicken, falls es zuvor nicht markiert war, bevor mit „OK“ bestätigt wird).
 
 [[Image:Fem_references.PNG|800px]]
 
