@@ -183,9 +183,7 @@ X 轴和 Y 轴将与曲边上某一点处的 Frenet-Serret 坐标系中的切向
 
 XY 平面与边缘上某一点的 [https://en.wikipedia.org/wiki/Osculating_circle 密切圆] 对齐。一个可选的顶点用于定义具体位置。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If no vertex is linked the {{PropertyData|Map Path Parameter}} property determines the point.
-</div>
+如果没有链接顶点，则由 {{PropertyData|Map Path Parameter}} 属性来确定该点。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :; Reference combinations:
