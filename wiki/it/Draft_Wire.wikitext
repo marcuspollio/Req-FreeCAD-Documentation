@@ -24,9 +24,7 @@
 
 Il comando [[Image:Draft_Wire.svg|24px]] '''Polilinea''' [[#Create|crea]] una polilinea, ovvero una sequenza di segmenti di linea collegati. Il comando può anche essere usato per [[#Join|unire]] [[Draft_Line/it|Linee]] e Polilinee.
 
-<div class="mw-translate-fuzzy">
-I vertici di una Polilinea possono essere raccordati (stondati) o smussati cambiando le sue {{PropertyData|Fillet Radius}} or {{PropertyData|Chamfer Size}} rispettivamente. E' anche possibile suddividere i bordi di una Polilinea cambiando la sua {{PropertyData|Subdivisions}} proprietà.
-</div>
+I vertici di una Polilinea possono essere raccordati (stondati) o smussati cambiando le sue proprietà {{PropertyData|Fillet Radius}} or {{PropertyData|Chamfer Size}} rispettivamente. E' anche possibile suddividere i bordi di una Polilinea cambiando la sua {{PropertyData|Subdivisions}} proprietà.
 
 [[Image:Draft_Polyline_example.jpg|400px]]
 {{Caption|Polilinea definita da più punti}}
