@@ -185,15 +185,13 @@ XY 平面与边缘上某一点的 [https://en.wikipedia.org/wiki/Osculating_circ
 
 如果没有链接顶点，则由 {{PropertyData|Map Path Parameter}} 属性来确定该点。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:; Reference combinations:
-: Curve
-: Circle
-: Curve, Vertex
-: Circle, Vertex
-: Vertex, Curve
-: Vertex, Circle
-</div>
+:; 参照组合：
+: 曲线
+: 圆
+: 曲线, 顶点
+: 圆, 顶点
+: 顶点, 曲线
+: 顶点, 圆
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Revolution Section ====
