@@ -99,7 +99,7 @@ Si vous obtenez un message d'erreur sur le binaire du solveur ou similaire lors 
 == Post-traitement du résultat ==
 
 * Bien que nous ayons réussi à visualiser le résultat du potentiel, nous ne voyons actuellement que le potentiel nul dans l'air entourant les deux boules. Pour visualiser le potentiel sur les boules, nous devons appliquer un [[FEM_PostFilterClipRegion/fr|filtre d'écrêtage selon une région]].
-* Dans la vue arborescente, sélectionnez [[Image:FEM_PostPipelineFromResult.svg|24px]] SolverElmerResult, puis dans la barre d'outils cliquez sur le bouton {{Button|[[Image:FEM_PostFilterClipRegion.svg|20px]] Filtre d'écrêtage selon une région}}.
+* Dans la vue arborescente, sélectionnez [[Image:FEM_PostPipelineFromResult.svg|24px]] SolverElmerResult, puis dans la barre d'outils cliquez sur le bouton {{Button|[[Image:FEM_PostFilterClipRegion.svg|20px]] Filtre d'écrêtage d'une région}}.
 * Cela ouvrira un dialogue avec les configurations du filtre. Cliquez sur le bouton {{Button|[[Image:list-add.svg|16px]] Créer}} et choisissez [[Image:FEM_PostCreateFunctionPlane.svg|24px]] Plan. Cela ajoute un plan passant par le centre de la sphère et au niveau duquel le maillage résultant est coupé. Pour lisser la face coupée, cochez l'option '''Cut Cells'''. Cliquez ensuite sur {{Button|Appliquer}}.
 
 [[File:Two_balls_postcreate.png|300px]]
