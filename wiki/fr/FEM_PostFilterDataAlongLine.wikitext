@@ -23,7 +23,7 @@ Trace les valeurs d'un champ le long d'une ligne spécifiée.
 
 [[File:FEM_Line-Clip-Filter-Example.png]]
 
-{{Caption|Un filtre d'écrêtage selon une ligne à l'intérieur d'un [[FEM_PostFilterClipRegion/fr|filtre d'écrêtage selon une région]].</br>
+{{Caption|Un filtre d'écrêtage selon une ligne à l'intérieur d'un [[FEM_PostFilterClipRegion/fr|filtre d'écrêtage d'une région]].</br>
 Le filtre d'écrêtage selon une région est l'objet semi-transparent.</br>
 La partie de la ligne à l'extérieur du filtre d'écrêtage selon une région est définie à une valeur de zéro et apparaît donc en bleu.}}
 
