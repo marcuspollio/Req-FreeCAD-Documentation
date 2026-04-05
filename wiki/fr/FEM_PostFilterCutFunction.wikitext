@@ -23,7 +23,7 @@ Affiche les résultats suivant un plan, une sphère, un cylindre ou une boîte q
 
 [[File:FEM_Function-Cut-Filter-Example.png|400px]]
 
-{{Caption|Un filtre de découpe selon une fonction avec une sphère comme fonction de découpe.</br>Le pipeline original est l'objet semi-transparent.}}
+{{Caption|Un filtre par une fonction avec une sphère comme fonction intersectant.</br>Le pipeline original est l'objet semi-transparent.}}
 
 <span id="Usage"></span>
 ==Utilisation==
