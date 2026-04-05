@@ -14,7 +14,7 @@
 
  [[Image:Workbench_TechDraw.svg|24px]] [[TechDraw Workbench|Bàn làm việc TechDraw]] được sử dụng để tạo ra các bản vẽ kỹ thuật cơ bản từ các mô hình 3D được tạo bằng một bàn làm việc khác như Part, PartDesign, BIM, hoặc được nhập từ các ứng dụng khác. Mỗi bản vẽ là một Trang (Page) , có thể chứa nhiều Hình chiếu (Views) khác nhau của các đối tượng có thể vẽ được như Part::Features, PartDesign::Bodies, nhóm App::Part và nhóm Đối tượng Tài liệu (Document Object). Các bản vẽ tạo ra có thể được sử dụng cho các mục đích như tài liệu hóa, hướng dẫn sản xuất, hợp đồng, giấy phép, v.v.
 
-Dimensions, sections, hatched areas, annotations, and [[SVG|SVG]] symbols can be added to the page, which can be further exported to different formats like [[DXF|DXF]], [[SVG|SVG]], and [[PDF|PDF]].
+Các kích thước, mặt cắt, vùng tô mặt cắt (hatched areas), chú thích và ký hiệu [[SVG|SVG]] có thể được thêm vào trang, và trang này có thể được xuất tiếp ra các định dạng khác nhau như [[DXF|DXF]], [[SVG|SVG]], và [[PDF|PDF]].
 
 If your primary goal is the production of complex 2D drawings and [[DXF|DXF]] files, and you don't need 3D modelling, FreeCAD may not be the right choice for you. You may wish to consider a dedicated software program for technical drafting instead, such as [https://en.wikipedia.org/wiki/LibreCAD LibreCAD] or [https://en.wikipedia.org/wiki/QCad QCad].
 
