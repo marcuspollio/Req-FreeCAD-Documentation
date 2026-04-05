@@ -30,8 +30,8 @@ Affiche les résultats suivant un plan, une sphère, un cylindre ou une boîte q
 
 # Sélectionnez un [[FEM_PostPipelineFromResult/fr|pipeline de résultats]] précédemment créé.
 # Il y a plusieurs façons de lancer la commande :
-#* Appuyez sur le bouton {{Button|[[Image:FEM_PostFilterCutFunction.svg|16px]] [[FEM_PostFilterCutFunction/fr|Filtre de fonction de découpe]]}}.
-#* Sélectionnez l'option {{MenuCommand|Résultats → [[Image:FEM_PostFilterCutFunction.svg|16px]] Filtre de fonction de découpe}} du menu.
+#* Appuyez sur le bouton {{Button|[[Image:FEM_PostFilterCutFunction.svg|16px]] [[FEM_PostFilterCutFunction/fr|Filtre de découpe selon une fonction]]}}.
+#* Sélectionnez l'option {{MenuCommand|Résultats → [[Image:FEM_PostFilterCutFunction.svg|16px]] Filtre de découpe selon une fonction}} du menu.
 # Ajustez les options d'affichage de {{MenuCommand|Résultats}} comme pour le pipeline [[FEM_PostPipelineFromResult|result]]. Vous devrez peut-être masquer le pipeline pour voir l'effet du filtre dans l'aperçu.
 # Faites l'une des choses suivantes :
 #* S'il n'y a pas encore de [[FEM_PostCreateFunctions/fr|fonction de filtre]] définie, appuyez sur le bouton {{Button|[[Image:List-add.svg|16px]] Créer}} et sélectionnez un {{MenuCommand|[[Image:FEM_PostCreateFunctionPlane.svg|16px]] [[FEM_PostCreateFunctionPlane/fr|plan]]}} ou une {{MenuCommand|[[Image:FEM_PostCreateFunctionSphere.svg|16px]] [[FEM_PostCreateFunctionSphere/fr|sphère]]}} ou un {{MenuCommand|[[Image:FEM_PostCreateFunctionCylinder.svg|16px]] [[FEM_PostCreateFunctionCylinder/fr|cylindre]]}} ou une {{MenuCommand|[[Image:FEM_PostCreateFunctionBox.svg|16px]] [[FEM_PostCreateFunctionBox/fr|boîte]]}}.
