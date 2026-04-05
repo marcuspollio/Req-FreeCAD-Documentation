@@ -181,9 +181,7 @@ X 轴和 Y 轴将与曲边上某一点处的 Frenet-Serret 坐标系中的切向
 <span id="Concentric"></span>
 ==== 同心 ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The XY-plane is aligned to the [https://en.wikipedia.org/wiki/Osculating_circle osculating circle] at a point on an edge. An optional vertex defines where.
-</div>
+XY 平面与边缘上某一点的 [https://en.wikipedia.org/wiki/Osculating_circle 密切圆] 对齐。一个可选的顶点用于定义具体位置。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If no vertex is linked the {{PropertyData|Map Path Parameter}} property determines the point.
