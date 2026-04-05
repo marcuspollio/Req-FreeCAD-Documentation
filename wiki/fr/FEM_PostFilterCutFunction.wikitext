@@ -11,8 +11,8 @@
 
 {{GuiCommand/fr
 |Name=FEM PostFilterCutFunction
-|Name/fr=FEM Filtre de découpe selon une fonction
-|MenuLocation=Résultats → Filtre de découpe selon une fonction
+|Name/fr=FEM Filtre par une fonction
+|MenuLocation=Résultats → Filtre par une fonction
 |Workbenches=[[FEM_Workbench/fr|FEM]]
 |SeeAlso=[[FEM_PostPipelineFromResult/fr|FEM Pipeline de résultats]], [[FEM_PostCreateFunctions/fr|FEM Fonctions de filtrage]], [[FEM_tutorial/fr|FEM Tutoriel]]
 }}
