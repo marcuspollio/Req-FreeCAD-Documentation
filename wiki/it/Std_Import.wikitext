@@ -9,35 +9,32 @@
 |IconC=Freecad.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/it
 |Name=Std_Import
 |Name/it=Importa
 |MenuLocation=File → Importa...
 |Workbenches=All
-|Shortcut={{KEY|Ctrl}}+{{KEY|I}}
+|Shortcut={{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|I}}
 |SeeAlso=[[Std_Open/it|Apri]], [[Import_Export/it|Importazione e Esportazione]], [[Import_Export_Preferences/it|Preferenze di Importa/Esporta]]
 }}
-</div>
 
 <span id="Description"></span>
 ==Descrizione==
 
 Il comando '''Importa''' importa la geometria da un diverso formato di file nel documento attivo. Sono supportati molti formati di file e per alcuni formati esistono più opzioni di importazione. Per ulteriori informazioni vedere [[Import_Export/it|Importazione e esportazione]].
 
-{{Version/it|0.21}}: se viene selezionato un formato immagine, il comando creerà un [[#Piano_Immagine|Piano Immagine]].
+Se viene selezionato un formato immagine, il comando creerà un [[#Piano_Immagine|Piano Immagine]].
 
 <span id="Usage"></span>
 ==Utilizzo==
 
-<div class="mw-translate-fuzzy">
 # Esistono diversi modi per invocare il comando:
 #* Selezionare l'opzione {{MenuCommand|File →  [[Image:Std_Import.svg|16px]] Importa...}} dal menu.
-#* Usare la scorciatoia da tastiera: {{KEY|Ctrl}}+{{KEY|I}}.
+#* Usare la scorciatoia da tastiera: {{KEY|Ctrl}}+{{KEY|I}}.  {{VersionMinus/it|1.0}}
+#* Usare la scorciatoia da tastiera: {{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|I}}. {{Version/it|1.1}}
 # Facoltativamente, selezionare il formato file corretto nella finestra di dialogo.
 # Selezionare un file.
 # Premere il pulsante {{Button|Apri}}.
-</div>
 
 <span id="Options"></span>
 ==Opzioni==
