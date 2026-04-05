@@ -205,13 +205,11 @@ Y 轴与边缘上某一点的密切圆轴线对齐。一个可选的顶点用于
 
 XY 平面被对齐以穿过三个顶点。X 轴将穿过前两个顶点。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:; Reference combinations:
-: Vertex, Vertex, Vertex
-: Line, Vertex
-: Vertex, Line
-: Line, Line
-</div>
+:; 参照组合:
+: 顶点, 顶点, 顶点
+: 直线, 顶点
+: 顶点, 直线
+: 直线, 直线
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== XZ-plane by 3 points ====
