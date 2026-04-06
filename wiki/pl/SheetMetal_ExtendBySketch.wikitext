@@ -10,16 +10,15 @@
 |IconC=Sheetmetal_workbench_icon.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/pl
 |Name=SheetMetal ExtendBySketch
-|MenuLocation=SheetMetal → Extend by Sketch
-|Workbenches=[[SheetMetal_Workbench|SheetMetal]]
+|Name/pl=Arkusz Blachy: Wydłuż przez szkic
+|MenuLocation=SheetMetal → Wydłuż przez szkic
+|Workbenches=[[SheetMetal_Workbench/pl|Arkusz Blachy]]
 |Version=0.7.57
 |Shortcut={{KEY|T}}
-|SeeAlso=[[SheetMetal_Extrude|SheetMetal Extrude]]
+|SeeAlso=[[SheetMetal_Extrude/pl|Wydłuż ściankę]]
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Description==
