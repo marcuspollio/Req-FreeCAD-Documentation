@@ -66,9 +66,7 @@ Kliknij dwukrotnie istniejący obiekt Extend w [[Tree_View/pl|Widoku drzewa]], a
 <span id="Notes"></span>
 ==Uwagi==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* This command creates the same Extend object as the [[SheetMetal_Extrude|Extend Face]] command. Whether or not the {{PropertyData|Sketch}} property is empty controls which Task Panel is displayed when the Extend object is edited.
-</div>
+* To polecenie tworzy ten sam obiekt Extend co polecenie [[SheetMetal_Extrude/pl|Wydłuż ścianę]]. To, czy właściwość {{PropertyData|Szkic}} jest pusta, czy nie, decyduje o tym, który Panel zadań jest wyświetlany podczas edycji obiektu Extend.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * See [[SheetMetal_Extrude#Notes|Extend Face]] for additional notes.
