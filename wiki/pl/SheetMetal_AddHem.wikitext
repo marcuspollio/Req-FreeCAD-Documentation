@@ -159,13 +159,11 @@ Obiekt '''Hem''' Arkusza Blachy wywodzi się z obiektu [[Part_Feature/pl|Częś�
 
 {{Properties_Title|Parametry reliefu}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{PropertyData|Relief Factor|Float}}: "Relief Factor". Default: {{value|0,70}}.
-* {{PropertyData|Use Relief Factor|Bool}}: "Use Relief Factor". Default: {{FALSE}}.
-* {{PropertyData|relief Type|Enumeration}}: "Relief Type". {{value|Rectangle}} (default), {{value|Round}}. Enabled only when a gap value is set.
-* {{PropertyData|reliefd|Length}}: "Relief Depth". Default: {{value|1,00 mm}}. Enabled only when a gap value is set.
-* {{PropertyData|reliefw|Length}}: "Relief Width". Default: {{value|0,80 mm}}. Enabled only when a gap value is set.
-</div>
+* {{PropertyData|Współczynnik reliefu|Float}}: "Współczynnik nacięcia odciążającego". Domyślnie: {{value|0,70}}.
+* {{PropertyData|Użyj współczynnika reliefu|Bool}}: "Użyj współczynnika nacięcia odciążającego". Domyślnie: {{FALSE}}.
+* {{PropertyData|Typ reliefu|Enumeration}}: "Typ nacięcia odciążającego". {{value|Prostokąt}} (domyślnie), {{value|Okrąg}}. Dostępne tylko po ustawieniu wartości luzu.
+* {{PropertyData|reliefd|Length}}: "Głębokość nacięcia odciążającego". Domyślnie: {{value|1,00 mm}}. Dostępne tylko po ustawieniu wartości luzu.
+* {{PropertyData|reliefw|Length}}: "Szerokość nacięcia odciążającego". Domyślnie: {{value|0,80 mm}}. Dostępne tylko po ustawieniu wartości luzu.
 
 
 {{Docnav/pl
