@@ -130,24 +130,20 @@ Obiekt '''Hem''' Arkusza Blachy wywodzi się z obiektu [[Part_Feature/pl|Częś�
 
 {{Properties_Title|Parametry}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{PropertyData|Bend Type|Enumeration}}: "Bend Type". {{value|Material Outside}} (default), {{value|Material Inside}}, {{value|Thickness Outside}}.
-* {{PropertyData|Hem Type|Enumeration}}: "Type of Hem". {{value|Flat}} (default), {{value|Open}}, {{value|Teardrop}}, {{value|Rolled}}.
-* {{PropertyData|Include Bend|Bool}}: "Width includes bend geometry". Default: {{FALSE}}.
-* {{PropertyData|Roll Angle|Angle}}: "Roll Angle". Default angle: {{value|90,00°}}.
-* {{PropertyData|base Object|LinkSub}}: "Base Object". Link to the planar face to receive a hem.
-* {{PropertyData|gap1|Distance}}: "Gap from Left side". Default: {{value|0,00 mm}}.
-* {{PropertyData|gap2|Distance}}: "Gap from Right side". Default: {{value|0,00 mm}}.
-* {{PropertyData|invert|Bool}}: "Invert Bend Direction". Default: {{FALSE}}.
-* {{PropertyData|opened|Bool}}: "Opened Hem". Default: {{FALSE}}.
-* {{PropertyData|opening|Length}}: "Openening. of Hem". Default: {{value|1,00 mm}}
-* {{PropertyData|radius|Length}}: "Bend Radius", the default value depends on the radius property of the parent feature: 
-* {{PropertyData|width|Length}}: "Width of Wall". Default: {{value|10,00 mm}}.
-</div>
+* {{PropertyData|Typ gięcia|Enumeration}}: "Typ gięcia". {{value|Materiał na zewnątrz}} (domyślnie), {{value|Materiał wewnątrz}}, {{value|Grubość na zewnątrz}}.
+* {{PropertyData|Typ brzegu|Enumeration}}: "Typ brzegu". {{value|Płaski}} (domyślnie), {{value|Otwarty}}, {{value|Łza}}, {{value|Walcowany}}.
+* {{PropertyData|Uwzględnij zagięcie|Bool}}: "Szerokość obejmuje geometrię gięcia". Domyślnie: {{FALSE/pl}}.
+* {{PropertyData|Kąt zwijania|Angle}}: "Kąt zwijania". Domyślny kąt: {{value|90,00°}}.
+* {{PropertyData|Obiekt bazowy|LinkSub}}: "Obiekt bazowy". Łącze do płaskiej ściany, na której zostanie utworzona fałda.
+* {{PropertyData|luz1|Distance}}: "Luz od lewej strony". Domyślnie: {{value|0,00 mm}}.
+* {{PropertyData|luz2|Distance}}: "Luz od prawej strony". Domyślnie: {{value|0,00 mm}}.
+* {{PropertyData|odwróć|Bool}}: "Odwróć kierunek gięcia". Domyślnie: {{FALSE}}.
+* {{PropertyData|otwarty|Bool}}: "Brzeg otwarty". Domyślnie: {{FALSE}}.
+* {{PropertyData|otwarcie|Length}}: "Otwór brzegu". Domyślnie: {{value|1,00 mm}}.
+* {{PropertyData|promień|Length}}: "Promień gięcia", wartość domyślna zależy od właściwości promienia cechy nadrzędnej.
+* {{PropertyData|szerokość|Length}}: "Szerokość ścianki". Domyślnie: {{value|10,00 mm}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Properties_Title|Parameters Ex}}
-</div>
+{{Properties_Title|Parametry Ex}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * {{PropertyData|Auto Miter|Bool}}: "Enable Auto Miter". Default: {{TRUE}}.
