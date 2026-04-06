@@ -14,9 +14,7 @@
 <span id="Introduction"></span>
 == 简介 ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The [[File:Workbench_BIM.svg|24px]] [[BIM_Workbench|BIM Workbench]] provides a modern [https://en.wikipedia.org/wiki/Building_information_modeling Building Information Modelling] workflow in FreeCAD, with fully parametric objects such as walls, beams, roofs, windows, stairs, pipes, and furniture. It supports [[Arch_IFC|Industry Foundation Classes]] (IFC) files, and the production of 2D plans in combination with the [[File:Workbench_TechDraw.svg|16px]] [[TechDraw_Workbench|TechDraw Workbench]].
-</div>
+[[File:Workbench_BIM.svg|24px]] [[BIM_Workbench|BIM工作台]]在FreeCAD中提供了现代化的[https://en.wikipedia.org/wiki/Building_information_modeling 建筑信息模型]工作流程，包含完全参数化的对象，如墙体、梁、屋顶、窗户、楼梯、管道和家具。它支持[[Arch_IFC|工业基础类]]（IFC）文件，并能与[[File:Workbench_TechDraw.svg|16px]] [[TechDraw_Workbench|TechDraw工作台]]结合制作2D平面图。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The BIM Workbench imports tools from the [[File:Workbench_Draft.svg|16px]] [[Draft_Workbench|Draft Workbench]], as it uses its 2D objects to build 3D parametric objects. But it can also use solid shapes created with other workbenches like [[File:Workbench_Part.svg|16px]] [[Part_Workbench|Part]] and [[File:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign]].
