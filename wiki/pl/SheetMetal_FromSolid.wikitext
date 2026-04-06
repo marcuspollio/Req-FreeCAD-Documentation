@@ -69,13 +69,10 @@ Dwukrotnie kliknij na istniejącym obiekcie '''SolidToSheet''' w [[Tree_View/pl|
 
 Zobacz również: [[Property_View/pl|Widok właściwości]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-A SheetMetal '''SolidToSheet''' object is derived from a [[Part_Feature|Part Feature]] object or, if it is inside a [[PartDesign_Body|PartDesign Body]], from a [[PartDesign_Feature|PartDesign Feature]] object, and inherits all its properties. It also has the following additional properties:
-</div>
+Obiekt ''''SolidToSheet''' wywodzi się z obiektu [[Part_Feature/pl|Część: Cecha]] lub, jeśli jest w obrębie [[PartDesign_Body/pl|Zawartości środowiska Projekt Części]], z obiektu [[PartDesign_Feature/pl|Cechy tego środowiska]] i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Data ===
-</div>
+<span id="Data"></span>
+===Dane===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Properties_Title|Parameters}}
