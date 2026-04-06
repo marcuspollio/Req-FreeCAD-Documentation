@@ -39,13 +39,14 @@ FreeCAD最初的理念是将Cas.CADE（几何内核）、Qt（GUI工具包）和
 
 如果您想了解您的安装使用的是哪个Qt版本，[[Std_About|关于对话框]]中有包含Qt的版本列表。
 
-For more information see:
+更多信息请参阅：
 * [https://en.wikipedia.org/wiki/PySide Wikipedia:PySide]
 * [https://wiki.qt.io/Differences_Between_PySide_and_PyQt Differences Between PySide and PyQt]
 
-When you install FreeCAD, you will get both Qt and a matching PySide as part of the package. If you are [[Compiling|compiling]] yourself, you must verify that matching versions of these two libraries are installed in order for FreeCAD to run correctly. Of course, PySide will only work if Qt is present.
+当您安装FreeCAD时，您将同时获得Qt和与之匹配的PySide，作为软件包的一部分。如果您正在[[Compiling|自行编译]]，则必须验证这两个库的匹配版本已安装，以便FreeCAD正确运行。当然，PySide仅在Qt存在的情况下才能工作。
 {{Top}}
-==Multi version compatibility==
+<span id="Multi_version_compatibility"></span>
+==多版本兼容性==
 
 The main difference between the PySide and subsequent PySide2 and PySide6 libraries is the namespacing. PySide (Qt4) has the main namespaces {{incode|QtGui}} and {{incode|QtCore}}, whereas PySide2 (Qt5) and PySide6 (Qt6) introduced the additional namespace {{incode|QtWidgets}}, where all the widgets are now located, they used to be in QtGui namespace.
 
