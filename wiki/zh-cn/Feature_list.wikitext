@@ -93,9 +93,7 @@
 
 * '''完全可定制/可编程的图形界面'''. FreeCAD基于[https://www.qt.io Qt]的界面完全可以通过Python解释器访问。除了FreeCAD本身提供给工作台的简单函数外，整个Qt框架都是可访问的。用户可以对GUI执行任何操作，例如创建、添加、停靠、修改或删除小部件和工具栏。
 
-<div class="mw-translate-fuzzy">
-* '''缩略图''' (当前仅 Linux 系统版本有): FreeCAD 文档的图标可以在大多数文档管理器中显示文档的缩略图，例如 Gnome 的 Nautilus。
-</div>
+* '''缩略图生成器'''.（目前仅限Linux系统）FreeCAD文档图标在大多数文件管理器应用程序（如Gnome的Nautilus）中显示文件内容。
 
 <div class="mw-translate-fuzzy">
 * '''MSI 安装器''' 可以方便 Windows 系统安装 FreeCAD。 Ubuntu 系统上的包也在维护中。
