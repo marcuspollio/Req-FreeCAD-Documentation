@@ -53,18 +53,16 @@ Polecenie '''Właściwości masowe''' uruchamia narzędzie do pomiaru właściwo
 <span id="Options"></span>
 ==Opcje==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Reference:
-** ''Center of gravity'' - use the center of gravity as a reference to compute inertia.
-** ''Custom'' - press the {{Button|Select…}} button and pick the reference - [[Part_DatumLine|datum line]] or [[Part_CoordinateSystem|local coordinate system]].
-* Unit system:
+* Odniesienie:
+** ''Środek ciężkości'' - używa środka ciężkości jako odniesienia do obliczeń bezwładności.
+** ''Własne'' - naciśnij przycisk {{Button|Wybierz…}} i wybierz odniesienie - [[Part_DatumLine/pl|linię konstrukcyjną]] lub [[Part_CoordinateSystem/pl|lokalny układ współrzędnych]].
+* Układ jednostek:
 ** ''mm, kg, kg*mm^2''
 ** ''m, kg, kg*m^2''
 ** ''in, lb, lb*in^2''
 ** ''ft, lb, lb*ft^2''
-* {{Button|Create Datum Point}} button in the ''Center of Gravity'' or ''Center of Volume'' section - creates a datum point at this location.
-* {{Button|Create Principal Axes LCS}} in the ''Inertia'' section - creates the corresponding local coordinate system.
-</div>
+* Przycisk {{Button|Utwórz punkt konstrukcyjny}} w sekcji ''Środek ciężkości'' lub ''Środek objętości'' - tworzy punkt konstrukcyjny w tej lokalizacji.
+* Przycisk {{Button|Utwórz układ współrzędnych osi głównych}} w sekcji ''Bezwładność'' - tworzy odpowiedni lokalny układ współrzędnych.
 
 
 {{Docnav/pl
