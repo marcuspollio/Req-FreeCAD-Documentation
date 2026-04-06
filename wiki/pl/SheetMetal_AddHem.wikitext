@@ -60,36 +60,33 @@ Kliknij dwukrotnie istniejący obiekt Hem w [[Tree_View/pl|Widoku drzewa]], aby 
 [[Image:SheetMetal_AddHem-Task1.png|260px]]
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{Button|Select}}: Changes the amount of edges in the '''base Object''' property.
-* '''Type''': Sets the '''HemType''' property.
-** [[Image:SheetMetal_HemTypeFlat.svg|24px]] '''Flat''' activates these sub-options:
-*** '''Width''': Sets the '''width''' property.
-*** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Toggles the '''invert''' property.
-*** '''Width includes bend''': Toggles the '''Include Bend''' property.
-** [[Image:SheetMetal_HemTypeOpen.svg|24px]] '''Open''': activates these sub-options:
-*** '''Width''': Sets the '''width''' property.
-*** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Toggles the '''invert''' property.
-*** '''Width includes bend''': Toggles the '''Include Bend''' property.
-*** '''Opening''': Sets the '''opening''' property.
-** [[Image:SheetMetal_HemTypeTear.svg|24px]] '''Tear Drop''': activates these sub-options:
-*** '''Width''': Sets the '''width''' property.
-*** {{Button|[[Image:Invert_On.svg|16px]] Reverse the wall}}: Toggles the '''invert''' property.
-*** '''Width includes bend''': Toggles the '''Include Bend''' property.
-*** '''Bend radius''': Sets the '''radius''' property.
-*** '''Open''': Toggles the '''opened''' property.
-**** '''Opening''': Sets the '''opening''' property.
-** [[Image:SheetMetal_HemTypeRolled.svg|24px]] '''Rolled''': activates these sub-options:
-*** '''Bend radius''': Sets the '''radius''' property.
-*** '''Open''': Toggles the '''opened''' property.
-**** '''Roll angle''': Sets the '''Roll Angle''' property.
-* '''Position''': Sets the '''Bend Type''' property.
-* '''Unfold''': Toggles the '''unfold''' property.
-</div>
+* {{Button|Wybierz}}: Zmienia liczbę krawędzi we właściwości '''Obiekt bazowy'''.
+* '''Typ''': Ustawia właściwość '''Typ brzegu'''.
+** [[Image:SheetMetal_HemTypeFlat.svg|24px]] '''Płaski''' aktywuje następujące podopcje:
+*** '''Szerokość''': Ustawia właściwość '''Szerokość'''.
+*** {{Button|[[Image:Invert_On.svg|16px]] Odwróć ściankę}}: Przełącza właściwość '''Odwróć'''.
+*** '''Szerokość z gięciem''': Przełącza właściwość '''Szerokość z gięciem'''.
+** [[Image:SheetMetal_HemTypeOpen.svg|24px]] '''Otwarty''' aktywuje następujące podopcje:
+*** '''Szerokość''': Ustawia właściwość '''Szerokość'''.
+*** {{Button|[[Image:Invert_On.svg|16px]] Odwróć ściankę}}: Przełącza właściwość '''Odwróć'''.
+*** '''Szerokość z gięciem''': Przełącza właściwość '''Szerokość z gięciem'''.
+*** '''Otwór''': Ustawia właściwość '''Otwór'''.
+** [[Image:SheetMetal_HemTypeTear.svg|24px]] '''Łezka''' aktywuje następujące podopcje:
+*** '''Szerokość''': Ustawia właściwość '''Szerokość'''.
+*** {{Button|[[Image:Invert_On.svg|16px]] Odwróć ściankę}}: Przełącza właściwość '''Odwróć'''.
+*** '''Szerokość z gięciem''': Przełącza właściwość '''Szerokość z gięciem'''.
+*** '''Promień gięcia''': Ustawia właściwość '''Promień gięcia'''.
+*** '''Otwarta''': Przełącza właściwość '''Otwarta'''.
+**** '''Otwór''': Ustawia właściwość '''Otwór'''.
+** [[Image:SheetMetal_HemTypeRolled.svg|24px]] '''Zwinięty''' aktywuje następujące podopcje:
+*** '''Promień gięcia''': Ustawia właściwość '''Promień gięcia'''.
+*** '''Otwarta''': Przełącza właściwość '''Otwarta'''.
+**** '''Kąt zwijania''': Ustawia właściwość '''Kąt zwijania'''.
+* '''Pozycja''': Ustawia właściwość '''Typ gięcia'''.
+* '''Rozwiń''': Przełącza właściwość '''Rozwiń'''.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====Offsets====
-</div>
+<span id="Offsets"></span>
+====Odsunięcia====
 
 [[Image:SheetMetal_AddHem-Task2.png|260px]]
 
