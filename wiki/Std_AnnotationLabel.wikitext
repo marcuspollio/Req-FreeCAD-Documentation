@@ -36,18 +36,18 @@ The '''Std AnnotationLabel''' command creates an annotation label in the [[3D_Vi
 <!--T:7-->
 # Select one or more objects. The first selected object determines the ''Base Position'' of the label, which in turn determines its initial ''Text Position''. See [[#Notes|Notes]].
 # Select the {{MenuCommand|Tools → [[Image:Std_AnnotationLabel.svg|16px]] Annotation Label}} option from the menu.
-# A ''Label'' object is creates.
+# A ''Label'' object is created.
 # Change the ''Label Text'' property to set the label text.
-# Optionally drag the label in the 3D View to a different position.
+# Optionally, drag the label in the 3D View to a different position.
 # Optionally, change the View properties to modify the appearance of the label.
 
 ==Notes== <!--T:9-->
 
 <!--T:10-->
 * The ''Base Position'' is determined by the first selected object and how it was selected:
-** For objects without a shape the global origin is used.
-** For other objects it depends on the selection method: if selected from the 3D View the picked point is used, if selected from the [[Tree_View|Tree View]] the object's ''Placement'' point is used.
-* The coordinates of the ''Text Position'' are relative to the ''Base Position''. For the initial position the X-, Y- and Z-coordinates of the ''Base Position'' are copied and 10 is added to each. This means that the initial length of the leader line is larger if the ''Base Position'' is further from the origin.
+** For objects without a shape, the global origin is used.
+** For other objects, it depends on the selection method: if selected from the 3D View, the picked point is used, if selected from the [[Tree_View|Tree View]], the object's ''Placement'' point is used.
+* The coordinates of the ''Text Position'' are relative to the ''Base Position''. For the initial position, the X-, Y- and Z-coordinates of the ''Base Position'' are copied, and 10 is added to each. This means that the initial length of the leader line is larger if the ''Base Position'' is further from the origin.
 
 
 <!--T:8-->
