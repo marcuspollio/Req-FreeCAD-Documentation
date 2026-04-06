@@ -1,16 +1,14 @@
 {{UnfinishedDocu}}
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[SheetMetal_AddBase|AddBase]]
-|[[SheetMetal_AddWall|AddWall]]
-|[[SheetMetal_Workbench|SheetMetal]]
+{{Docnav/pl
+|[[SheetMetal_AddBase/pl|Utwórz element bazowy]]
+|[[SheetMetal_AddWall/pl|Utwórz ściankę]]
+|[[SheetMetal_Workbench/pl|środowisko pracy Arkusz Blachy]]
 |IconL=SheetMetal_AddBase.svg
 |IconR=SheetMetal_AddWall.svg
 |IconC=Sheetmetal_workbench_icon.svg
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommand
@@ -107,16 +105,14 @@ A SheetMetal '''SolidToSheet''' object is derived from a [[Part_Feature|Part Fea
 * {{PropertyData|base Object|LinkSub}}: "Base object". Link to the solid/shell and its selected sub-elements.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[SheetMetal_AddBase|AddBase]]
-|[[SheetMetal_AddWall|AddWall]]
-|[[SheetMetal_Workbench|SheetMetal]]
+{{Docnav/pl
+|[[SheetMetal_AddBase/pl|Utwórz element bazowy]]
+|[[SheetMetal_AddWall/pl|Utwórz ściankę]]
+|[[SheetMetal_Workbench/pl|środowisko pracy Arkusz Blachy]]
 |IconL=SheetMetal_AddBase.svg
 |IconR=SheetMetal_AddWall.svg
 |IconC=Sheetmetal_workbench_icon.svg
 }}
-</div>
 
 [[Category:SheetMetal{{#translation:}}]]
 [[Category:Addons{{#translation:}}]]
