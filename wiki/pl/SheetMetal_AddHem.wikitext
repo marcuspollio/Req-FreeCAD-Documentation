@@ -10,18 +10,16 @@
 |IconC=Sheetmetal_workbench_icon.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/pl
 |Name=SheetMetal AddHem
-|MenuLocation=SheetMetal → Make Hem
-|Workbenches=[[SheetMetal Workbench|SheetMetal]]
+|Name/pl=Arkusz Blachy: Dodaj brzeg
+|MenuLocation=SheetMetal → Utwórz brzeg
+|Workbenches=[[SheetMetal Workbench/pl|Arkusz Blachy]]
 |Shortcut={{KEY|Z}}
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Description==
-</div>
+<span id="Description"></span>
+==Opis==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The [[Image:SheetMetal_AddHem.svg|24px]] '''SheetMetal AddHem''' command creates hems on selected edges. By changing the {{PropertyData|angle}} property a flange it can be turned into a hem.
