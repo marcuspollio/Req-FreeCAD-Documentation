@@ -29,18 +29,15 @@ Polecenie '''Etykieta adnotacji''' tworzy etykietę adnotacji w [[3D_View/pl|Wid
 <span id="Usage"></span>
 ==Użycie==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select one or more objects. The first selected object determines the ''Base Position'' of the label, which in turn determines its initial ''Text Position''. See [[#Notes|Notes]].
-# Select the {{MenuCommand|Tools → [[Image:Std_AnnotationLabel.svg|16px]] Annotation Label}} option from the menu.
-# A ''Label'' object is creates.
-# Change the ''Label Text'' property to set the label text.
-# Optionally drag the label in the 3D View to a different position.
-# Optionally, change the View properties to modify the appearance of the label.
-</div>
+# Wybierz jeden lub więcej obiektów. Pierwszy wybrany obiekt określa ''Pozycję bazową'' etykiety, która z kolei określa początkową ''Pozycję tekstu''. Zobacz [[#Uwagi|Uwagi]].
+# Wybierz opcję {{MenuCommand|Narzędzia → [[Image:Std_AnnotationLabel.svg|16px]] Etykieta adnotacji}} z menu.
+# Utworzony zostanie obiekt ''Label''.
+# Zmień właściwość ''Tekst etykiety'', aby ustawić tekst etykiety.
+# Opcjonalnie przeciągnij etykietę w Widoku 3D do innej pozycji.
+# Opcjonalnie zmień właściwości Widoku, aby zmodyfikować wygląd etykiety.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Notes==
-</div>
+<span id="Notes"></span>
+==Uwagi==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The ''Base Position'' is determined by the first selected object and how it was selected:
