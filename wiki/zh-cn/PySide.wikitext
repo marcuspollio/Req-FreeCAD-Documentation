@@ -12,7 +12,7 @@
 
 [[PySide|PySide]]库是跨平台图形用户界面(GUI)工具包Qt的Python封装。FreeCAD使用Qt作为其主要的GUI工具包。Qt本身不仅仅是一个GUI工具包，它是一个包含多种用途的C++库的集合，例如可以使用Qt库组件进行网络编程，所有这些都可以通过PySide在Python中访问。任何可以用C++创建的图形界面，同样可以用Python创建和修改。使用Python的一个优势是，Qt界面可以实时开发和测试，因为我们不需要编译源文件。
 
-The recommended way to import PySide (of any version) in FreeCAD is:
+在FreeCAD中导入PySide（任何版本）的推荐方式是：
 
 {{Code|code=
 from PySide import QtCore, QtGui, QtWidgets
