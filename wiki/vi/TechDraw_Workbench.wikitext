@@ -25,7 +25,7 @@ Nếu mục tiêu chính của bạn là tạo ra các bản vẽ 2D phức tạ
 <span id="Snapping"></span>
 == Bắt điểm ==
 
-{{Phiên bản|1.0}}: Bàn làm việc TechDraw có tính năng bắt dính (snapping). Tính năng này có thể được sử dụng để tự động căn chỉnh các hình chiếu (views), hình chiếu cắt (section views) và kích thước (dimensions) khi kéo thả bằng chuột để định vị chúng. Với tùy chọn Bắt dính căn chỉnh hình chiếu ('''Snap View Alignment''') được bật (mặc định) trong [[TechDraw_Preferences#Snapping|Preferences]], các hình chiếu sẽ bắt dính để căn chỉnh với các hình chiếu khác khi ở đủ gần (thiết lập '''View Snapping Factor''' - Hệ số bắt dính hình chiếu). Các kích thước cũng bắt dính với các kích thước song song khác và phần chữ của kích thước có thể bắt dính vào giữa đường kích thước. Có thể tạm thời vô hiệu hóa tính năng bắt dính bằng cách giữ phím {{KEY|Alt}}.
+{{Version|1.0}}: Bàn làm việc TechDraw có tính năng bắt dính (snapping). Tính năng này có thể được sử dụng để tự động căn chỉnh các hình chiếu (views), hình chiếu cắt (section views) và kích thước (dimensions) khi kéo thả bằng chuột để định vị chúng. Với tùy chọn Bắt dính căn chỉnh hình chiếu ('''Snap View Alignment''') được bật (mặc định) trong [[TechDraw_Preferences#Snapping|Preferences]], các hình chiếu sẽ bắt dính để căn chỉnh với các hình chiếu khác khi ở đủ gần (thiết lập '''View Snapping Factor''' - Hệ số bắt dính hình chiếu). Các kích thước cũng bắt dính với các kích thước song song khác và phần chữ của kích thước có thể bắt dính vào giữa đường kích thước. Có thể tạm thời vô hiệu hóa tính năng bắt dính bằng cách giữ phím {{KEY|Alt}}.
 
 <span id="Tools"></span>
 == Công cụ ==
