@@ -31,52 +31,52 @@ Der Auswurf erfolgt, wenn die Kammer, in der sich das Bergungssystem befindet, m
 :* Vorhandensein von Scherstiften zur Verhinderung von Schleppablösung
 :* Passform des Wiederherstellungssystems im Rumpfrohr
 
-As such, this calculator will only give you a starting estimate. Too little powder will result in a failed ejection and a failed recovery. Too much powder may result in damage to the rocket or recovery system, which may also result in a failed recovery. It is '''ALWAYS''' necessary to do a ground test before flying your rocket.
+Daher liefert dieser Rechner nur eine erste Schätzung. Zu wenig Pulver führt zu einem Fehlschlag beim Ausstoßen und bei der Bergung. Zu viel Pulver kann zu Schäden an der Rakete oder am Bergungssystem führen, was ebenfalls zu einem Fehlschlag bei der Bergung führen kann. Es ist '''IMMER''' notwendig, vor dem Start der Rakete einen Bodentest durchzuführen.
 
-When calculating the volume of the body tube, it is rarely necessary to include the full length. For example, the shoulder of the nose or electronics bay may consume some volume. Adjust your length specification accordingly.
+Bei der Berechnung des Volumens des Rumpfrohrs ist es selten notwendig, die gesamte Länge zu berücksichtigen. Beispielsweise können die Nasenspitze oder der Elektronikraum etwas Volumen beanspruchen. Passen Sie Ihre Längenangabe entsprechend an.
 
-There are some rules of thumb that can be applied based on years of experience from multiple rocket builders. Of primary concern here is the force applied to the ejectable portion, typically the nose cone or electronics bay. Ejection forces at this interface should be between 150 and 200 lbf (~667 to 890 N). The pressure required can then be calculated based on the volume of the chamber. This pressure will be less for larger diameters and more for smaller diameters. There are presets in the calculator to set these forces (low and high settings in the combobox).
+Es gibt einige Faustregeln, die auf der Grundlage langjähriger Erfahrungen mehrerer Raketenbauer angewendet werden können. Von vorrangiger Bedeutung ist dabei die Kraft, die auf den auswerfbaren Teil ausgeübt wird, in der Regel die Nasenkonus oder der Elektronikraum. Die Auswurfkräfte an dieser Schnittstelle sollten zwischen 150 und 200 lbf (~667 bis 890 N) liegen. Der erforderliche Druck kann dann auf der Grundlage des Kammervolumens berechnet werden. Dieser Druck ist bei größeren Durchmessern geringer und bei kleineren Durchmessern höher. Im Rechner gibt es Voreinstellungen, um diese Kräfte festzulegen (niedrige und hohe Einstellungen im Kombinationsfeld).
 
-Ground testing should start at the low end of the recommended range to prevent damage to your rocket. Increase the amount as required to ensure safe recovery.
+Die Bodentests sollten am unteren Ende des empfohlenen Bereichs beginnen, um Schäden an der Rakete zu vermeiden. Erhöhe die Menge nach Bedarf, um eine sichere Bergung zu gewährleisten.
 
 <span id="Usage"></span>
 ==Anwendung==
 
 [[File:Calc_ejection_charge.png]]
 
-# There are several ways to invoke the command: 
-#* Press the {{Button|[[Image:Rocket_Calculator.svg|16px]] [[Rocket_Ejection_Charge_Calculator|Ejection Charge Calculator]]}} button.
-#* Select the {{MenuCommand|Rocket → Calculators → [[Image:Rocket_Calculator.svg|16px]] Ejection Charge Calculator}} option from the menu.
-# Enter the weight of your rocket and parameters for your parachute.
+# Es gibt mehrere Möglichkeiten, den Befehl aufzurufen.: 
+#* Drücke den Knopf {{Button|[[Image:Rocket_Calculator.svg|16px]] [[Rocket_Ejection_Charge_Calculator/de|AusstoßLadungsRechner]]}}.
+#* Wähle die Option {{MenuCommand|Rakete → Rechner → [[Image:Rocket_Calculator.svg|16px]] AusstoßLadungsRechner}} aus dem Menü.
+# Gib das Gewicht der Rakete und die Parameter des Fallschirms ein.
 
 <span id="Calculation"></span>
 ==Berechnung==
 
-Pressure is set by desired force, or force can be set by specifying the desired pressure. This is based on the force applied to the area at the end of the volume to be pressurized.
+Der Druck wird durch die gewünschte Kraft eingestellt, oder die Kraft kann durch Angabe des gewünschten Drucks eingestellt werden. Dies basiert auf der Kraft, die auf den Bereich am Ende des zu beaufschlagenden Volumens ausgeübt wird.
 
 ::<math>P = \cfrac{F}{\pi {\left ( \cfrac{D}{2} \right )}^2}</math>
 
-where
+wobei
 
-::<math>F = </math> desired force<br>
-::<math>D = </math> body tube diameter
+::<math>F = </math> gewünschte Kraft<br>
+::<math>D = </math> Rumpfrohrdurchmesser
 
-Once the desired pressure is known, the amount of black powder can be calculated using
+Sobald der gewünschte Druck bekannt ist, kann die Menge an Schwarzpulver anhand folgender Formel berechnet werden:
 
 ::<math>m = \cfrac{ PV }{ R_{c}Tg }</math>
 
-where
+wobei
 
-::<math>P = </math> the pressure calculated in the previous equation<br>
-::<math>V = </math> the volume of the chamber to be pressurized<br>
-::<math>R_{c} = 12.1579\, \frac{m}{K}</math>, combustion gas constant for FFFFg black powder<br>
-::<math>T = 1739\, K</math>, combustion gas temperature<br>
-::<math>g = 9.807\, \frac{m}{s^2}</math>, acceleration due to gravity
+::<math>P = </math> der in der vorherigen Gleichung berechnete Druck<br>
+::<math>V = </math> das Volumen der zu beaufschlagenden Kammer<br>
+::<math>R_{c} = 12.1579\, \frac{m}{K}</math>, Verbrennungsgaskonstante für FFFFg-Schwarzpulver<br>
+::<math>T = 1739\, K</math>, Verbrennungsgastemperatur<br>
+::<math>g = 9.807\, \frac{m}{s^2}</math>, Beschleunigung aufgrund der Schwerkraft
 
 <span id="Units"></span>
 ===Einheiten===
 
-Calculations are done using metric units, but will display in your preferred units. Values can also be entered using any supported units by including the units with the value (''eg'' 5 oz, or 23.2 g)
+Die Berechnungen werden in metrischen Einheiten durchgeführt, aber in den von Ihnen bevorzugten Einheiten angezeigt. Die Werte können auch in allen unterstützten Einheiten eingegeben werden, indem die Einheiten mit dem Wert angegeben werden (z. B. 5 oz oder 23,2 g).
 
 <span id="References"></span>
 ==Referenzen==
@@ -100,4 +100,3 @@ Calculations are done using metric units, but will display in your preferred uni
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
-[[Category:External Workbenches{{#translation:}}]]
