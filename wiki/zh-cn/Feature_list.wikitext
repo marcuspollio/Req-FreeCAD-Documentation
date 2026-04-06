@@ -65,9 +65,7 @@
 
 * '''图形修改操作'''. FreeCAD 可以在3D空间的任意平面中执行平移、旋转、缩放、镜像、偏移（无论是常规偏移还是如 [https://www.researchgate.net/publication/240754626_Self-intersection_Removal_in_Triangular_Mesh_Offsetting Jung/Shin/Choi] 所述的方法）或形状转换操作。
 
-<div class="mw-translate-fuzzy">
-* '''[http://en.wikipedia.org/wiki/Constructive_solid_geometry 布尔操作]''' (相并、相差、相交)
-</div>
+* '''[[构造实体几何]]（布尔运算）'''. FreeCAD 可以进行构造实体几何运算（合并、差集、交集）。
 
 <div class="mw-translate-fuzzy">
 * 在 3D 空间的任意平面创建 '''简单平面几何''' 图形，类似 线、曲线、矩形、弧形、圆形。
