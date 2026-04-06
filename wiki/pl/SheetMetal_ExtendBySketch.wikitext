@@ -35,22 +35,20 @@ W połączeniu ze szkicem konturu może utworzyć '''geometrię zazębiającą s
 <span id="Usage"></span>
 ==Użycie==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-: (Prepare a [[Image:Workbench_Sketcher.svg|16px]] [[Sketcher_Workbench|sketch]] for interlocking tabs)
-# Select one or more edge faces to be extended.
-# Press {{KEY|Ctrl}} and select the sketch in the [[Tree_View|Tree View]] or the [[3D_View|3D View]] to add it to the selection.
-# There are several ways to invoke the command:
-#* Press the {{Button|[[Image:SheetMetal_ExtendBySketch.svg|16px]] [[SheetMetal_ExtendBySketch|Extend by Sketch]]}} button.
-#* Select the {{MenuCommand|Sheet Metal → [[Image:SheetMetal_Extrude.svg|16px]] Extend by Sketch}} option from the menu.
-#* Right-click in the [[Tree_View|Tree View]] or the [[3D_View|3D View]] and select the {{MenuCommand|Sheet Metal → [[Image:SheetMetal_Extrude.svg|16px]] Extend by Sketch}} option from the context menu.
-#* Use the keyboard shortcut: {{KEY|T}}.
-# An '''Extend''' object will be created and the '''Extend properties''' [[Task_Panel|Task Panel]] opens.
-#* Optionally press the {{Button|Select}} button and add or remove faces.
-#* Press the {{Button|Preview}} button to finish the selection and display the changes.
-#* Optionally press the {{Button|Extend Sketch...}} button to select a different sketch.
-#* Optionally check the '''Intersect Clearance''' check box and adjust the value to make room for interlocking tabs.
-# Press the {{Button|OK}} button to finish the command and close the Task Panel.
-</div>
+: (Przygotuj [[Image:Workbench_Sketcher.svg|16px]] [[Sketcher_Workbench/pl|szkic]] dla zazębiających się zakładek)
+# Wybierz jedną lub więcej ścian krawędziowych do wydłużenia.
+# Naciśnij {{KEY|Ctrl}} i wybierz szkic w [[Tree_View/pl|Widoku drzewa]] lub [[3D_View/pl|Widoku 3D]], aby dodać go do zaznaczenia.
+# Istnieje kilka sposobów uruchomienia polecenia:
+#* Naciśnij przycisk {{Button|[[Image:SheetMetal_ExtendBySketch.svg|16px]] [[SheetMetal_ExtendBySketch/pl|Wydłuż przez szkic]]}}.
+#* Wybierz opcję {{MenuCommand|Sheet Metal → [[Image:SheetMetal_Extrude.svg|16px]] Wydłuż przez szkic}} z menu.
+#* Kliknij prawym przyciskiem myszy w [[Tree_View/pl|Widoku drzewa]] lub [[3D_View/pl|Widoku 3D]] i wybierz opcję {{MenuCommand|Sheet Metal → [[Image:SheetMetal_Extrude.svg|16px]] Wydłuż według szkicu}} z menu kontekstowego.
+#* Użyj skrótu klawiaturowego: {{KEY|T}}.
+# Zostanie utworzony obiekt '''Extend''' i otworzy się [[Task_Panel/pl|Panel zadań]] '''Extend properties'''.
+#* Opcjonalnie naciśnij przycisk {{Button|Wybierz}} i dodaj lub usuń ściany.
+#* Naciśnij przycisk {{Button|Podgląd}}, aby zakończyć wybór i wyświetlić zmiany.
+#* Opcjonalnie naciśnij przycisk {{Button|Wydłuż szkic...}}, aby wybrać inny szkic.
+#* Opcjonalnie zaznacz pole wyboru '''Przetnij prześwit''' i dostosuj wartość, aby zrobić miejsce dla zazębiających się zakładek.
+# Naciśnij przycisk {{Button|OK}}, aby zakończyć polecenie i zamknąć Panel zadań.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Task Panel===
