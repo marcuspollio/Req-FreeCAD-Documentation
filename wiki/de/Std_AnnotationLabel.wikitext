@@ -29,14 +29,12 @@ Der Befehl '''Std Anmerkung''' erzeugt eine Anmerkung in der [[3D_View/de|3D-Ans
 <span id="Usage"></span>
 ==Anwendung==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select one or more objects. The first selected object determines the ''Base Position'' of the label, which in turn determines its initial ''Text Position''. See [[#Notes|Notes]].
-# Select the {{MenuCommand|Tools → [[Image:Std_AnnotationLabel.svg|16px]] Annotation Label}} option from the menu.
-# A ''Label'' object is creates.
-# Change the ''Label Text'' property to set the label text.
-# Optionally drag the label in the 3D View to a different position.
-# Optionally, change the View properties to modify the appearance of the label.
-</div>
+# Ein oder mehrere Objekte auswählen. Das zuerst ausgewählte Objekt bestimmt die ''Basisposition'' der Anmerkung, was wiederum seine anfängliche ''Textposition'' bestimmt. Siehe [[#Hinweise|Hinweise]].
+# Die Option {{MenuCommand|Werkzeuge → [[Image:Std_AnnotationLabel.svg|16px]] Anmerkung}} aus dem Menü.
+# Ein ''Label''-Objekt wird erzeugt.
+# Die Eigenschaft ''Label Text'' ändern, um den Anmerkungstext festzulegen.
+# Optional kann die Anmerkung in der 3D-Ansicht an eine andere Position gezogen werden.
+# Optional kann die Eigenschaften der Ansicht geändert werden, um das Aussehen der Anmerkung anzupassen.
 
 <span id="Notes"></span>
 ==Hinweise==
