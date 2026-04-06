@@ -135,38 +135,39 @@ Stożki czołowe mogą być tworzone z lub bez ramion:
 
 {{TitleProperty|Stożek czołowy}}
 
-* {{PropertyData|Blunted Diameter}}: The diameter of the spherical portion at the tip of the nose
-* {{PropertyData|Coefficient}}: Combined with the Nose Type, this defines the shape of the nose cone, see [[#Options|Options]]
-* {{PropertyData|Diameter}}: The diameter of the base of the nose cone
-* {{PropertyData|Length}}: The length of the nose cone without the shoulder. For all blunted shapes, the length is the actual length of the nose and not the virtual length described in the [https://en.wikipedia.org/wiki/Nose_cone_design Nose cone design] reference.
-* {{PropertyData|Nose Style}}: Defines the style of the nose cone, see [[#Options|Options]]
-* {{PropertyData|Nose Type}}: Defines the shape of the nose cone using the coefficient when required, see [[#Options|Options]]
-* {{PropertyData|Ogive Diameter}}: The diameter of the Ogive circle. This is only required for the Secant Ogive nose cone type
-* {{PropertyData|Resolution}}: Used internally, this parameter defines the number of data points to use when drawing the outline of the nose cone
-* {{PropertyData|Shoulder}}: True when the Nose Cone includes a shoulder
-* {{PropertyData|Shoulder Diameter}}: The diameter of the shoulder. This must be less than the radius of the Nose Cone
-* {{PropertyData|Shoulder Length}}: The length of the shoulder
-* {{PropertyData|Shoulder Thickness}}: When the Nose Style is hollow or capped, this will determine the wall thickness of the shoulder
-* {{PropertyData|Thickness}}: When the Nose Style is hollow or capped, this will determine the wall thickness of the nose cone
+* {{PropertyData|Średnica tępego wierzchołka}}: Średnica sferycznej części na czubku stożka czołowego
+* {{PropertyData|Współczynnik}}: W połączeniu z Typem nosa definiuje kształt stożka czołowego, patrz [[#Opcje|Opcje]]
+* {{PropertyData|Średnica}}: Średnica podstawy stożka czołowego
+* {{PropertyData|Długość}}: Długość stożka czołowego bez ramienia. We wszystkich tępych kształtach długość to rzeczywista długość czoła, a nie długość wirtualna opisana w odniesieniu [https://en.wikipedia.org/wiki/Nose_cone_design Projektowanie stożka czołowego]
+* {{PropertyData|Styl czoła}}: Definiuje styl stożka czołowego, patrz [[#Opcje|Opcje]]
+* {{PropertyData|Typ czoła}}: Definiuje kształt stożka czołowego za pomocą współczynnika, gdy jest to wymagane, patrz [[#Opcje|Opcje]]
+* {{PropertyData|Średnica owalna}}: Średnica okręgu owalnego. Wymagana tylko dla typu stożka czołowego Secant Ogive
+* {{PropertyData|Rozdzielczość}}: Parametr używany wewnętrznie, definiuje liczbę punktów danych używanych do rysowania konturu stożka czołowego
+* {{PropertyData|Ramię}}: Wartość prawda, jeśli stożek czołowy zawiera ramię
+* {{PropertyData|Średnica ramienia}}: Średnica ramienia. Musi być mniejsza niż promień stożka czołowego
+* {{PropertyData|Długość ramienia}}: Długość ramienia
+* {{PropertyData|Grubość ramienia}}: Gdy styl czoła jest pusty lub zakryty, określa grubość ścian ramienia
+* {{PropertyData|Grubość}}: Gdy styl czoła jest pusty lub zakryty, określa grubość ścian stożka czołowego
 
-{{TitleProperty|Rocket Component}}
+{{TitleProperty|Komponent rakiety}}
 
-These parameters are provided for information and have no effect on the design of the component.
+Te parametry podano wyłącznie dla informacji i nie mają wpływu na projektowanie komponentu.
 
-* {{PropertyData|Description}}: Description of the component
-* {{PropertyData|Manufacturer}}: Manufacturer when known
-* {{PropertyData|Material}}: Material when known
-* {{PropertyData|Part Number}}: Manufacturer part number
+* {{PropertyData|Opis}}: Opis komponentu
+* {{PropertyData|Producent}}: Producent, jeśli znany
+* {{PropertyData|Materiał}}: Materiał, jeśli znany
+* {{PropertyData|Numer katalogowy}}: Numer katalogowy producenta
 
-== Tutorials and Learning ==
+<span id="Tutorials_and_Learning"></span>
+==Poradniki i nauka==
 
-[https://youtu.be/zwLgie2E4Ts Rocket Workbench Nose Cones] Tutorial on YouTube
+[https://youtu.be/zwLgie2E4Ts Rocket Workbench Nose Cones] Poradnik na YouTube
 
 
-{{Docnav
+{{Docnav/pl
 |
-|[[Rocket_Transition|Transition]]
-|[[Rocket_Workbench|Rocket Workbench]]
+|[[Rocket_Transition/pl|Transition]]
+|[[Rocket_Workbench/pl|Środowisko pracy Rakieta]]
 |
 |IconR=Rocket_Transition.svg
 |IconC=RocketWorkbench.svg
@@ -174,4 +175,3 @@ These parameters are provided for information and have no effect on the design o
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
-[[Category:External Workbenches{{#translation:}}]]
