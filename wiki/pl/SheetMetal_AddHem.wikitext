@@ -103,20 +103,17 @@ Kliknij dwukrotnie istniejący obiekt Hem w [[Tree_View/pl|Widoku drzewa]], aby 
 
 [[Image:SheetMetal_AddHem-Task3.png|260px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Auto Miter''': Toggles the '''Auto Miter''' property.
-*: If checked:
-** '''Minimum Gap''': Sets the '''minGap''' property.
-** '''Max Extend Distance''': Sets the '''max Extend Dist''' property.
-*: If unchecked:
-** '''Angle 1''': sets the '''miterangle1''' property.
-** '''Angle 2''': sets the '''miterangle2''' property.
-</div>
+* '''Automatyczne fazowanie''': Przełącza właściwość '''Auto Miter'''.
+*: Jeśli zaznaczone:
+** '''Minimalny luz''': Ustawia właściwość '''minGap'''.
+** '''Maksymalna długość wydłużenia''': Ustawia właściwość '''max Extend Dist'''.
+*: Jeśli niezaznaczone:
+** '''Kąt 1''': Ustawia właściwość '''miterangle1'''.
+** '''Kąt 2''': Ustawia właściwość '''miterangle2'''.
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Notes==
-</div>
+<span id="Notes"></span>
+==Uwagi==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * See [[SheetMetal_Workbench#Create_a_sheet_metal_object|Create a sheet metal object]] for a basic workflow.
