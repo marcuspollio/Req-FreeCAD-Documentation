@@ -1,15 +1,13 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[Std_Measure|Measure]]
-|[[Std_AnnotationLabel|AnnotationLabel]]
-|[[Std_Tools_Menu|Std Tools Menu]]
+{{Docnav/pl
+|[[Std_Measure/pl|Pomiary]]
+|[[Std_AnnotationLabel/pl|Etykieta adnotacji]]
+|[[Std_Tools_Menu/pl|Menu Przybory]]
 |IconL=Std_Measure.svg
 |IconR=Std_AnnotationLabel.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommand
@@ -79,16 +77,14 @@ The '''Std MassProperties''' command starts the mass properties measurement feat
 </div>
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[Std_Measure|Measure]]
-|[[Std_AnnotationLabel|AnnotationLabel]]
-|[[Std_Tools_Menu|Std Tools Menu]]
+{{Docnav/pl
+|[[Std_Measure/pl|Pomiary]]
+|[[Std_AnnotationLabel/pl|Etykieta adnotacji]]
+|[[Std_Tools_Menu/pl|Menu Przybory]]
 |IconL=Std_Measure.svg
 |IconR=Std_AnnotationLabel.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
