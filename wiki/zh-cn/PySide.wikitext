@@ -48,9 +48,9 @@ FreeCAD最初的理念是将Cas.CADE（几何内核）、Qt（GUI工具包）和
 <span id="Multi_version_compatibility"></span>
 ==多版本兼容性==
 
-The main difference between the PySide and subsequent PySide2 and PySide6 libraries is the namespacing. PySide (Qt4) has the main namespaces {{incode|QtGui}} and {{incode|QtCore}}, whereas PySide2 (Qt5) and PySide6 (Qt6) introduced the additional namespace {{incode|QtWidgets}}, where all the widgets are now located, they used to be in QtGui namespace.
+PySide与后续的PySide2和PySide6库之间的主要区别在于命名空间。PySide（Qt4）具有主要的命名空间{{incode|QtGui}}和{{incode|QtCore}}，而PySide2（Qt5）和PySide6（Qt6）引入了额外的命名空间{{incode|QtWidgets}}，所有控件现在都位于其中，它们以前位于QtGui命名空间中。
 
-FreeCAD’s approach to handle the different versions of Qt/PySide is to call them all PySide, which really should be thought of as PySideX. It does not matter which Qt/PySide version is installed, they are all imported with PySide.
+FreeCAD处理不同版本的Qt/PySide的方式是将它们都称为PySide，这实际上应该被视为PySideX。无论安装的是哪个Qt/PySide版本，它们都通过PySide导入。
 
 A [https://en.wikipedia.org/wiki/Shim_(computing) shim] handles the differences between the versions. This {{incode|PySide}} shim is located in the {{incode|Ext/}} directory of an installation of FreeCAD compiled for Qt5/Qt6.
 
