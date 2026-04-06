@@ -15,13 +15,15 @@ Alternatively, the [[Image:Workbench_PartDesign.svg|24px|link=PartDesign Workben
 
 {{Emphasis|Note:}} A [[PartDesign Body|PartDesign Body]] created with the [[PartDesign Workbench|PartDesign Workbench]] can also be used in a boolean operation with other objects.
 
-== Example ==
+<span id="Example"></span>
+== 示例 ==
 
 [[Image:Part_CGS_workflow_example.svg|600px]]
 
 {{Caption|Example of constructive solid geometry (CSG) workflow: primitive parts are fused (union); the intersection of two other primitive parts is calculated (common); the difference (cut) of the two previous shapes is obtained.}}
 
-== Tutorials ==
+<span id="Tutorials"></span>
+== 教程 ==
 
 The [[tutorials]] page provides some examples on creating solids with the [[Image:Workbench_Part.svg|24px]] [[Part Workbench|Part Workbench]] that use the '''CSG''' method.
 * [[Manual:Traditional modeling, the CSG way|Traditional modeling, the CSG way]]
