@@ -74,9 +74,7 @@ Obiekt ''''SolidToSheet''' wywodzi się z obiektu [[Part_Feature/pl|Część: Ce
 <span id="Data"></span>
 ===Dane===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Properties_Title|Parameters}}
-</div>
+{{Properties_Title|Parametry}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * {{PropertyData|Invert|Bool}}: "Invert bend direction". Controls whether the wall thickness builds up inside or outside the base object.
