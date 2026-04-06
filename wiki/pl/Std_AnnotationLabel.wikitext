@@ -9,18 +9,16 @@
 |IconC=Freecad.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/pl
 |Name=Std AnnotationLabel
-|MenuLocation=Tools → Annotation Label
-|Workbenches=All
+|Name/pl=Std: Etykieta adnotacji
+|MenuLocation=Narzędzia → Etykieta adnotacji
+|Workbenches=Wszystkie
 |Version=1.2
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Description==
-</div>
+<span id="Description"></span>
+==Opis==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The '''Std AnnotationLabel''' command creates an annotation label in the [[3D_View|3D View]].
