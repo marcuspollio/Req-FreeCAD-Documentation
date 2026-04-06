@@ -12,9 +12,7 @@
 
 要在BSD和其他Unix系统上编译，您可以遵循[[Compile_on_Linux|在Linux上编译]]中的一般说明，但需要使用这些系统中相应的依赖项。
 
-<div class="mw-translate-fuzzy">
-在Windows上编译FreeCAD，可以使用[[Compile_on_Windows|Compile on Windows]]。
-</div>
+也可以按照[[Compile_on_Windows|在Windows上编译]]中的说明在Windows上编译FreeCAD，或者按照[[Compile_on_MinGW|在MinGW上编译]]使用MSYS2/MinGW进行编译。
 
 To compile the programming documentation, see [[Source_documentation|Source documentation]].
 
