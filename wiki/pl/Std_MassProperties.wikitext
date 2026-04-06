@@ -9,19 +9,17 @@
 |IconC=Freecad.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/pl
 |Name=Std MassProperties
-|MenuLocation=Tools → Mass Properties
-|Workbenches=All
+|Name/pl=Std: Właściwości masowe
+|MenuLocation=Przybory → Właściwości masowe
+|Workbenches=Wszystkie
 |Version=1.2
-|SeeAlso=[[Std_Measure|Std Measure]]
+|SeeAlso=[[Std_Measure/pl|Pomiary]]
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Description==
-</div>
+<span id="Description"></span>
+==Opis==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The '''Std MassProperties''' command starts the mass properties measurement feature. It provides the following information:
