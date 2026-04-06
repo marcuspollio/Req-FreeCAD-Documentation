@@ -22,13 +22,10 @@
 <span id="Description"></span>
 ==Opis==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The [[File:BIM_Link.svg|24px]] [[BIM_Link|BIM Link]] command is a shortcut to [[Std_LinkMake|Std LinkMake]], but starts a [[Draft_Move|Draft Move]] operation immediately after, allowing a link to be created and placed in one go.
-</div>
+Polecenie [[File:BIM_Link.svg|24px]] [[BIM_Link/pl|Łącze BIM]] jest skrótem do [[Std_LinkMake/pl|Utwórz łącze]], ale od razu uruchamia operację [[Draft_Move/pl|Rysunek Roboczy: Przesuń]], umożliwiając utworzenie i umieszczenie łącza za jednym razem.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Użycie==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Select an object.
