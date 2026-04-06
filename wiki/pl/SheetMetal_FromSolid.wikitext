@@ -57,18 +57,15 @@ Dwukrotnie kliknij na istniejącym obiekcie '''SolidToSheet''' w [[Tree_View/pl|
 
 [[Image:SheetMetal_FromSolid-Task.png|320px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Thickness''': Sets the '''Thickness''' property.
-* '''Bend Radius''': Sets the '''Radius''' property.
-* '''Invert''': Toggles the '''Invert''' property; .
-* {{Button|Select}}: Activates the edit mode that allows to add the list of faces to remove and/or seam edges within the '''base Object''' property. If pressed:
-** {{Button|Preview}}: Indicates the edit mode. Press to finish the edit mode (hidden until '''Select''' is pressed).
-** {{Button|Clear All}}: Press to clear the list (hidden until '''Select''' is pressed). Changes to {{Button|Clear Selected}} if at least one list item is checked; removes only the selected items.
-</div>
+* '''Grubość''': Ustawia właściwość '''Grubość'''.
+* '''Promień zagięcia''': Ustawia właściwość '''Promień'''.
+* '''Odwróć''': Przełącza właściwość '''Odwróć'''.
+* {{Button|Wybierz}}: Aktywuje tryb edycji umożliwiający dodanie do właściwości '''Obiekt bazowy''' listy ścian do usunięcia i/lub krawędzi szwu. Po naciśnięciu:
+  ** {{Button|Podgląd}}: Wskazuje tryb edycji. Naciśnij, aby zakończyć tryb edycji (ukryty do momentu naciśnięcia '''Wybierz''').
+  ** {{Button|Wyczyść wszystko}}: Naciśnij, aby wyczyścić listę (ukryty do momentu naciśnięcia '''Wybierz'''). Zmienia się na {{Button|Wyczyść wybrane}}, jeśli zaznaczono co najmniej jeden element listy; usuwa tylko zaznaczone elementy.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Properties ==
-</div>
+<span id="Properties"></span>
+==Właściwości==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 See also: [[Property_View|Property View]].
