@@ -1,16 +1,14 @@
 <languages/>
-<div class="mw-translate-fuzzy">
-如何编译FreeCAD，针对每种操作系统，都有它自己的页面，在[[Online_Help_Toc|在线帮助文档]]里有. 
-{| align='center' width=50%
-|align=center|[[Image:Windows.png | alt='Windows' | link= Compile_on_Windows]]
-|align=center|[[Image:Linux.png   | alt='Linux' | link= Compile_on_Linux]]
-|align=center|[[Image:Mac.png     | alt='Mac' | link= Compile_on_MacOS]] 
+每个操作系统在[[Online_Help_Toc|在线帮助文档]]中都有自己的编译FreeCAD页面。
+{| align='center' cellpadding='10px'
+|align=center|[[Image:Windows.png|x32px|alt='Windows'|link=Compile_on_Windows]]
+|align=center|[[Image:Linux_with_text.png|x32px|alt='Linux'|link=Compile_on_Linux]]
+|align=center|[[Image:Mac.png|x32px|alt='MacOS'|link= https://freecad.github.io/DevelopersHandbook/gettingstarted/#pixi]]
 |-
-|align=center|[[Compile_on_Windows| 在Windows上编译]]
-|align=center|[[Compile_on_Linux| 在Linux/Unix上编译]]
-|align=center|[[Compile_on_MacOS| 在Mac上编译]]
+|align=center|[[Compile_on_Windows|在Windows上编译]]
+|align=center|[[Compile_on_Linux|在Linux上编译]]
+|align=center|[https://freecad.github.io/DevelopersHandbook/gettingstarted/#pixi 在macOS上编译]
 |}
-</div>
 
 To compile on BSD, and other Unix systems, you can follow the general instruction in [[Compile_on_Linux|Compile on Linux]] but using the appropriate dependencies in those systems.
 
