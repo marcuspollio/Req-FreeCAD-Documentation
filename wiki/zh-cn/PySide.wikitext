@@ -91,7 +91,7 @@ my_check_box = QtWidgets.QCheckBox()
 
 PySide示例分为3个部分，根据对PySide、Python和FreeCAD内部机制的接触程度进行区分。第一个页面包含PySide的概述；第二个和第三个页面主要是不同级别的代码示例。
 
-It is expected that these examples are useful to get started, and afterwards the user can consult other resources online, or the official documentation.
+期望这些示例对入门有所帮助，之后用户可以查阅在线的其他资源，或官方文档。
 {{Top}}
 <span id="Documentation"></span>
 ==文档==
