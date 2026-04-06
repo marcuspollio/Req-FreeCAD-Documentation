@@ -128,9 +128,7 @@ Obiekt '''Hem''' Arkusza Blachy wywodzi się z obiektu [[Part_Feature/pl|Częś�
 <span id="Data"></span>
 ===Dane===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Properties_Title|Parameters}}
-</div>
+{{Properties_Title|Parametry}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * {{PropertyData|Bend Type|Enumeration}}: "Bend Type". {{value|Material Outside}} (default), {{value|Material Inside}}, {{value|Thickness Outside}}.
