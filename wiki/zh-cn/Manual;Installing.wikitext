@@ -10,9 +10,7 @@
 
 FreeCAD采用[https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License LGPL]许可证，允许您下载、安装、重新分发并无限制地将其用于任何目的，无论是商业还是非商业用途。您保留所创建文件的完全所有权。
 
-<div class="mw-translate-fuzzy">
-FreeCAD 在 Windows、Mac OS 和 Linux 上表现相同。然而，安装 FreeCAD 的方式因平台而异。在 Windows 和 Mac 上，FreeCAD 社区提供了预编译的软件包（安装程序），可以直接下载；而在 Linux 上，FreeCAD 的源代码可供 Linux 发行版维护人员使用，他们负责将 FreeCAD 打包为适用于特定发行的版本。因此，在 Linux 上，通常可以直接从软件管理器应用程序安装 FreeCAD。
-</div>
+FreeCAD在Windows、macOS和Linux上运行一致，尽管安装过程因平台而异。对于Windows和Mac用户，FreeCAD社区提供即用型预编译安装程序。在Linux上，源代码提供给发行版维护者，由他们为特定系统打包软件。通常，Linux用户可以通过系统的软件管理器直接安装FreeCAD。
 
 <div class="mw-translate-fuzzy">
 适用于 Windows 和 Mac OS 的官方 FreeCAD 下载页面是 https://github.com/FreeCAD/FreeCAD/releases
