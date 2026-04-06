@@ -63,9 +63,7 @@
 * '''参数化原型创建''' (长方体、球体、 圆柱体、等等)
 </div>
 
-<div class="mw-translate-fuzzy">
-* 图像 '''修改操作''' 在 3D 空间的任意平面进行类似变换、旋转、缩放、镜像、位移（萃取或者[https://www.researchgate.net/publication/240754626_Self-intersection_Removal_in_Triangular_Mesh_Offsetting Jung/Shin/Choi]）或者形状转换。
-</div>
+* '''图形修改操作'''. FreeCAD 可以在3D空间的任意平面中执行平移、旋转、缩放、镜像、偏移（无论是常规偏移还是如 [https://www.researchgate.net/publication/240754626_Self-intersection_Removal_in_Triangular_Mesh_Offsetting Jung/Shin/Choi] 所述的方法）或形状转换操作。
 
 <div class="mw-translate-fuzzy">
 * '''[http://en.wikipedia.org/wiki/Constructive_solid_geometry 布尔操作]''' (相并、相差、相交)
