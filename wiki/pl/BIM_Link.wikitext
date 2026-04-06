@@ -9,20 +9,18 @@
 |IconC=Workbench_BIM.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/pl
 |Name=BIM Link
-|MenuLocation=Modify → Cloning Tools → Make Link
-|Workbenches=[[BIM_Workbench|BIM]]
+|Name/pl=BIM: Łącze
+|MenuLocation=Modyfikuj → Narzędzia klonowania → Utwórz łącze
+|Workbenches=[[BIM_Workbench/pl|BIM]]
 |Shortcut={{KEY|L}} {{KEY|K}}
 |Version=1.2
-|SeeAlso=[[Std_LinkMake|Std LinkMake]], [[BIM_Clone|BIM Clone]], [[Draft_Move|Draft Move]]
+|SeeAlso=[[Std_LinkMake/pl|Utwórz łącze]], [[BIM_Clone/pl|Klonuj]], [[Draft_Move/pl|Przesuń]]
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Description==
-</div>
+<span id="Description"></span>
+==Opis==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The [[File:BIM_Link.svg|24px]] [[BIM_Link|BIM Link]] command is a shortcut to [[Std_LinkMake|Std LinkMake]], but starts a [[Draft_Move|Draft Move]] operation immediately after, allowing a link to be created and placed in one go.
