@@ -1,18 +1,19 @@
 <languages/>
 
-{{Docnav
-|[[Rocket_FinCan|Fin Can]]
-|[[Rocket_LaunchLug|Launch Lug]]
-|[[Rocket_Workbench|Rocket Workbench]]
+{{Docnav/pl
+|[[Rocket_FinCan/pl|Fin Can]]
+|[[Rocket_LaunchLug/pl|Launch Lug]]
+|[[Rocket_Workbench/pl|środowisko pracy Rakieta]]
 |IconL=Rocket_FinCan.svg
 |IconR=Rocket_LaunchLug.svg
 |IconC=RocketWorkbench.svg
 }}
 
-{{GuiCommand
+{{GuiCommand/pl
 |Name=Rocket LaunchGuide
-|MenuLocation=Rocket → Launch Guides
-|Workbenches=[[Rocket_Workbench|Rocket Workbench]]
+|Name/pl=Rakieta: LaunchGuide
+|MenuLocation=Rakieta → Launch Guides
+|Workbenches=[[Rocket_Workbench/pl|Rakieta]]
 |Version=0.19
 }}
 
@@ -21,17 +22,18 @@
 
 Tworzy prowadnicę startową używaną do zapewnienia prostego lotu, zanim rakieta osiągnie stabilność aerodynamiczną.
 
-==Types of launch guides==
+<span id="Types_of_launch_guides"></span>
+==Typy prowadnic startowych==
 
-* [[Image:Rocket_LaunchLug.svg|32px]] [[Rocket_LaunchLug|Launch Lug]]: Create a launch lug
-* [[Image:Rocket_RailButton.svg|32px]] [[Rocket_RailButton|Rail Button]]: Create a rail button
-* [[Image:Rocket_RailGuide.svg|32px]] [[Rocket_RailGuide|Rail Guide]]: Create a rail guide
+* [[Image:Rocket_LaunchLug.svg|32px]] [[Rocket_LaunchLug/pl|Launch Lug]]: Utwórz uchwyt startowy.
+* [[Image:Rocket_RailButton.svg|32px]] [[Rocket_RailButton/pl|Rail Button]]: Utwórz przycisk szynowy.
+* [[Image:Rocket_RailGuide.svg|32px]] [[Rocket_RailGuide/pl|Rail Guide]]: Utwórz prowadnicę szynową.
 
 
-{{Docnav
-|[[Rocket_FinCan|Fin Can]]
-|[[Rocket_LaunchLug|Launch Lug]]
-|[[Rocket_Workbench|Rocket Workbench]]
+{{Docnav/pl
+|[[Rocket_FinCan/pl|Fin Can]]
+|[[Rocket_LaunchLug/pl|Launch Lug]]
+|[[Rocket_Workbench/pl|środowisko pracy Rakieta]]
 |IconL=Rocket_FinCan.svg
 |IconR=Rocket_LaunchLug.svg
 |IconC=RocketWorkbench.svg
@@ -39,4 +41,3 @@ Tworzy prowadnicę startową używaną do zapewnienia prostego lotu, zanim rakie
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
-[[Category:External Workbenches{{#translation:}}]]
