@@ -52,13 +52,13 @@ PySide与后续的PySide2和PySide6库之间的主要区别在于命名空间。
 
 FreeCAD处理不同版本的Qt/PySide的方式是将它们都称为PySide，这实际上应该被视为PySideX。无论安装的是哪个Qt/PySide版本，它们都通过PySide导入。
 
-A [https://en.wikipedia.org/wiki/Shim_(computing) shim] handles the differences between the versions. This {{incode|PySide}} shim is located in the {{incode|Ext/}} directory of an installation of FreeCAD compiled for Qt5/Qt6.
+一个[https://en.wikipedia.org/wiki/Shim_(computing) shim]处理版本之间的差异。这个{{incode|PySide}} shim位于为Qt5/Qt6编译的FreeCAD安装目录的{{incode|Ext/}}目录中。
 
 {{Code|code=
 /usr/share/freecad/Ext/PySide
 }}
 
-This module just imports the necessary classes from {{incode|PySide2/6}}, and places them in the {{incode|PySide}} namespace. This approach was chosen for it's ability to provide backwards compatibility from a Qt4 perspective.
+该模块只是从{{incode|PySide2/6}}导入必要的类，并将它们放入{{incode|PySide}}命名空间中。之所以选择这种方法，是因为它能够从Qt4的角度提供向后兼容性。
 
 {{Code|code=
 PySide2.QtCore -> PySide.QtCore
@@ -68,13 +68,13 @@ PySide2.QtSvg -> PySide.QtSvg
 PySide2.QtUiTools -> PySide.QtUiTools
 }}
 
-For this reason the {{incode|PySide2.QtWidgets}} classes are also placed in the {{incode|PySide.QtGui}} namespace.
+因此，{{incode|PySide2.QtWidgets}}类也被放置在{{incode|PySide.QtGui}}命名空间中。
 
 {{Code|code=
 PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
 }}
 
-But the current recommended way is to use the modern namespacing.
+但目前推荐的方式是使用现代的命名空间。
 
 {{Code|code=
 from PySide import QtCore, QtGui, QtWidgets
