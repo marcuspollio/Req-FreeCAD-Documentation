@@ -50,9 +50,8 @@ Polecenie [[Image:SheetMetal_FromSolid.svg|24px]] '''Z brył''' konwertuje brył
 # Naciśnij przycisk {{Button|OK}}, aby zamknąć Panel zadań i zakończyć polecenie.
 # Opcjonalnie dostosuj parametry profilu w [[Property_View/pl|Widoku właściwości]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Task Panel===
-</div>
+<span id="Task_Panel"></span>
+==Panel zadań==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Double-click an existing '''SolidToSheet''' object in the [[Tree_View|Tree View]] to re-open the task panel and edit the parameters.
