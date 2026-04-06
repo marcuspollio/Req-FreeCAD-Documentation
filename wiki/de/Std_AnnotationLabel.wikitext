@@ -39,12 +39,10 @@ Der Befehl '''Std Anmerkung''' erzeugt eine Anmerkung in der [[3D_View/de|3D-Ans
 <span id="Notes"></span>
 ==Hinweise==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The ''Base Position'' is determined by the first selected object and how it was selected:
-** For objects without a shape the global origin is used.
-** For other objects it depends on the selection method: if selected from the 3D View the picked point is used, if selected from the [[Tree_View|Tree View]] the object's ''Placement'' point is used.
-* The coordinates of the ''Text Position'' are relative to the ''Base Position''. For the initial position the X-, Y- and Z-coordinates of the ''Base Position'' are copied and 10 is added to each. This means that the initial length of the leader line is larger if the ''Base Position'' is further from the origin.
-</div>
+* Die ''Basisposition'' wird durch das zuerst gewählte Objekt, und die Art und Weise wie es gewählt wurde, bestimmt:
+** Bei Objekten ohne eigene Form wird der globale Ursprung verwendet.
+** Bei anderen Objekten hängt dies von der Auswahlmethode ab: Bei Auswahl aus der 3D-Ansicht wird der ausgewählte Punkt verwendet, bei Auswahl aus der [[Tree_View/de|Baumansicht]] der ''Platzierungs''-Punkt des Objekts.
+* Die Koordinaten der ''Textposition'' beziehen sich auf die ''Basisposition''. Für die Ausgangsposition werden die X-, Y- und Z-Koordinaten der ''Basisposition'' übernommen und jeweils um 10 erhöht. Das bedeutet, dass die anfängliche Länge der Führungslinie größer ist, je weiter die ''Basisposition'' vom Ursprung entfernt ist.
 
 
 {{Docnav/de
