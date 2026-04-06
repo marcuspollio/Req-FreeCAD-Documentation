@@ -19,7 +19,7 @@
 <span id="Description"></span>
 ==Beschreibung==
 
-The standard plot module already provides a basic tool to control the plot axes [[File:Matplotlib_edit_subplot.png|24px]]. But that tool is clearly insufficient when multi-axes plots have to be handled, as is the case in the [[Plot_MultiAxes_tutorial|Multi-axes plot tutorial]]. To overcome that limitation you can install the [[Image:Workbench_Plot.svg|24px]] [[Plot_Workbench|Plot Workbench]] using the [[Std_AddonMgr|Add-on manager]], so a more complete tool to edit the plot axes will be available.
+Das Standard-Plot-Modul bietet bereits ein grundlegendes Werkzeug zur Steuerung der Diagrammachsen [[File:Matplotlib_edit_subplot.png|24px]]. Dieses Werkzeug ist jedoch eindeutig unzureichend, wenn Diagramme mit mehreren Achsen verarbeitet werden müssen, wie dies im [[Plot_MultiAxes_tutorial/de|Tutorium zu Diagrammen mit mehreren Achsen]] der Fall ist. Um diese Einschränkung zu umgehen, kann man den [[Image:Workbench_Plot.svg|24px]] [[Plot_Workbench/de|Arbeitsbereich Plot]] über den [[Std_AddonMgr/de|Addon-Manager]] installieren, sodass ein umfassenderes Werkzeug zur Bearbeitung der Diagrammachsen zur Verfügung steht.
 
 [[Image:Plot_MultiAxes_Example.png|600px]]
 
@@ -28,7 +28,7 @@ The standard plot module already provides a basic tool to control the plot axes 
 
 Die Plot-Registerkarte auswählen, die man bearbeiten möchte, und dann dieses Werkzeug ausführen.
 
-Es wird dringend empfohlen, mit der Skalierung des gesamten Darstellung zu beginnen, damit man sicher sein kann, dass es in den verfügbaren Platz passt. Dazu die Option '''Auf alle Achsen anwenden''' aktivieren.
+Es wird dringend empfohlen, mit der Skalierung der gesamten Darstellung zu beginnen, damit man sicher sein kann, dass es in den verfügbaren Platz passt. Dazu die Option '''Auf alle Achsen anwenden''' aktivieren.
 
 [[File:Apply To All Axes.png|Apply to all axes]]
 {{Caption|Auswahl auf alle Achsen anwenden}}
@@ -38,7 +38,7 @@ Anschließend kann man die gesamte Grafik mit den vier Schiebereglern so skalier
 [[File:Plot Axes Sliders.png|Plot area controlling sliders]]
 {{Caption|Schieberegler zum Skalieren der Darstellung}}
 
-Wenn man mit der allgemeinen Größe des Plots zufrieden ist, kann man die Option '''Auf alle Achsen anwenden''' deaktivieren und jede Achsengruppe separat feinabstimmen. Dazu wählt man einfach oben die Achsengruppe aus, die man bearbeiten möchte.
+Wenn man mit der allgemeinen Größe des Diagramms zufrieden ist, kann man die Option '''Auf alle Achsen anwenden''' deaktivieren und jede Achsengruppe separat feinabstimmen. Dazu wählt man einfach oben die Achsengruppe aus, die man bearbeiten möchte.
 
 [[File:Plot Axes Active.png|Plot axes selector]]
 {{Caption|Auswahl für den zu bearbeitenden Achsensatz}}
@@ -67,5 +67,4 @@ Schließlich kann man die für jeden Achsensatz berücksichtigten Minimal- und M
 
 {{Plot_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
-[[Category:External_Workbenches{{#translation:}}]]
 [[Category:Addons{{#translation:}}]]
