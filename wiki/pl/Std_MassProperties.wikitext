@@ -41,20 +41,17 @@ Polecenie '''Właściwości masowe''' uruchamia narzędzie do pomiaru właściwo
 <span id="Usage"></span>
 ==Użycie==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Optionally preselect the solids to be measured.
-# There are several ways to invoke the command:
-#* Press the {{Button|[[Image:Std_MassProperties.svg|16px]] [[Std_MassProperties|Mass Properties]]}} button.
-#* Select the {{MenuCommand|Tools → [[Image:Std_MassProperties.svg|16px]] Mass Properties}} option from the menu.
-# A task panel opens. See [[#Options|Options]] for more information.
-# If no solids were preselected, select them in the [[3D_View|3D View]] or [[Tree_View|Tree View]].
-# Press the {{Button|Reset}} button to clear the measurement or the {{Button|Save}} button to keep it. Saved measurements are put in a ''Measurements'' [[Std_Group|group]] in the [[Tree_View|Tree View]].
-# Press {{KEY|Esc}} or the {{Button|Close}} button to finish the command.
-</div>
+# Opcjonalnie wybierz wstępnie bryły do pomiaru.
+# Istnieje kilka sposobów na wywołanie tego polecenia:
+#* Naciśnij przycisk {{Button|[[Image:Std_MassProperties.svg|16px]] [[Std_MassProperties/pl|Właściwości masowe]]}}.
+#* Wybierz opcję {{MenuCommand|Przybory → [[Image:Std_MassProperties.svg|16px]] Właściwości masowe}} z menu.
+# Otwarty zostanie panel zadań. Zobacz [[#Opcje|Opcje]], aby uzyskać więcej informacji.
+# Jeśli żadne bryły nie były wstępnie wybrane, wybierz je w [[3D_View/pl|Widoku 3D]] lub [[Tree_View/pl|Widoku drzewa]].
+# Naciśnij przycisk {{Button|Resetuj}}, aby wyczyścić pomiar lub {{Button|Zapisz}}, aby go zachować. Zapisane pomiary są umieszczane w [[Std_Group/pl|grupie]] ''Measurements'' w [[Tree_View/pl|Widoku drzewa]].
+# Naciśnij klawisz {{KEY|Esc}} lub przycisk {{Button|Zamknij}}, aby zakończyć działanie polecenia.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Options==
-</div>
+<span id="Options"></span>
+==Opcje==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Reference:
