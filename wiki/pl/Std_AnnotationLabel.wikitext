@@ -39,12 +39,10 @@ Polecenie '''Etykieta adnotacji''' tworzy etykietę adnotacji w [[3D_View/pl|Wid
 <span id="Notes"></span>
 ==Uwagi==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The ''Base Position'' is determined by the first selected object and how it was selected:
-** For objects without a shape the global origin is used.
-** For other objects it depends on the selection method: if selected from the 3D View the picked point is used, if selected from the [[Tree_View|Tree View]] the object's ''Placement'' point is used.
-* The coordinates of the ''Text Position'' are relative to the ''Base Position''. For the initial position the X-, Y- and Z-coordinates of the ''Base Position'' are copied and 10 is added to each. This means that the initial length of the leader line is larger if the ''Base Position'' is further from the origin.
-</div>
+* ''Pozycja bazowa'' jest określona przez pierwszy wybrany obiekt i to jak został on wybrany:
+** Dla obiektów bez kształtu używany jest początek globalnego układu współrzędnych.
+** Dla innych obiektów zależy to od metody wskazania: w przypadku wskazania w Widoku 3D używany jest wybrany punkt a w przypadku wskazania w [[Tree_View/pl|Widoku drzewa]] używany jest punkt ''Umiejscowienia'' obiektu.
+* Współrzędne ''Pozycji tekstu'' są względne do ''Pozycji bazowej''. Dla początkowej pozycji, współrzędne X, Y i Z ''Pozycji bazowej'' są kopiowane i do każdej dodawane jest 10. Oznacza to, że początkowa długość linii odniesienia jest większa, jeśli ''Pozycja bazowa'' jest dalej od początku układu współrzędnych.
 
 
 {{Docnav/pl
