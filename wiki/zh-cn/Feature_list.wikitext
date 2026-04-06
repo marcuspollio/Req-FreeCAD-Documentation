@@ -81,9 +81,7 @@
 
 * '''事务导向'''. 撤销/重做栈存储的是文档事务，而非单个操作，允许每个工具精确定义需要撤销或重做的内容。
 
-<div class="mw-translate-fuzzy">
-* '''内建[[Scripting/zh-cn|脚本]]框架''': FreeCAD 内建 [http://www.python.org/ Python] 脚本解释器和几乎覆盖整个应用程序，接口，几何和显示 3D 视图的 API。解释器可以单独运行复杂的脚本。实际上，整个模块都可以使用 Python 编程。
-</div>
+* '''内置[[Scripting|脚本]]框架'''. FreeCAD 内置了一个 [https://www.python.org/ Python] 解释器，其 API 几乎涵盖应用程序的任何部分，包括界面、几何体及其在3D查看器中的表示。该解释器可以运行复杂脚本，也可以执行单条命令；整个工作台都可以完全用Python编程实现。
 
 <div class="mw-translate-fuzzy">
 * '''内建 Python 终端''' 语法高亮，自动补全，类浏览：Python 命令可以直接在 FreeCAD 中发出，并立即返回结果，允许脚本编写者快速测试功能，浏览其内容的模块，方便了解 FreeCAD 内部。
