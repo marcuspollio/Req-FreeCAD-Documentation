@@ -93,9 +93,10 @@ PySide示例分为3个部分，根据对PySide、Python和FreeCAD内部机制的
 
 It is expected that these examples are useful to get started, and afterwards the user can consult other resources online, or the official documentation.
 {{Top}}
-==Documentation==
+<span id="Documentation"></span>
+==文档==
 
-There are some differences in the handling of widgets between the different versions. Programmers should be aware of these incompatibilities, and consult the official documentation if something doesn't work as expected on a given platform. Although rare, sometimes it may be required to make versioned calls through if-clauses.
+不同版本之间在控件处理方面存在一些差异。程序员应该了解这些不兼容性，并在特定平台上某些功能未按预期工作时查阅官方文档。虽然不常见，但有时可能需要通过if语句进行版本化调用。
 
 The PySide documentation refers to the Python-style classes; however, since Qt is originally a C++ library, the same information should be available in the corresponding C++ reference.
 * [https://doc.qt.io/qtforpython/modules.html Qt Modules] available from PySide2/PySide6 (Qt5/Qt6).
