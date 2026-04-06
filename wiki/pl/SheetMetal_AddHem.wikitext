@@ -33,27 +33,24 @@ Polecenie [[Image:SheetMetal_AddHem.svg|24px]] '''Dodaj brzeg''' tworzy brzegi n
 <span id="Usage"></span>
 ==Użycie==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select one or more edges of a solid shape.
-# There are several ways to invoke the command:
-#* Press the {{Button|[[Image:SheetMetal_AddHem.svg|16px]] [[SheetMetal_AddHem|Make Hem]]}} button.
-#* Select the {{MenuCommand|Sheet Metal → [[Image:SheetMetal_AddHem.svg|16px]] Make Hem}} option from the menu.
-#* Right-click in the [[Tree_View|Tree View]] or the [[3D_View|3D View]] and select the {{MenuCommand|Sheet Metal → [[Image:SheetMetal_AddHem.svg|16px]] Make Hem}} option from the context menu.
-#* Use the keyboard shortcut: {{KEY|Z}}.
-# A '''Hem''' object is created that consists of one new hem at each selected edge, and the '''Hem properties''' [[Task_Panel|Task Panel]] opens:
-#*With the '''General''' tab selected:
-#** Optionally press the {{Button|Select}} button to add more edges.
-#*** Optionally press the {{Button|Clear selection}} button to clear the list of selected edges.
-#*** Press the {{Button|Preview}} button to finish the selection and display the changes.
-#** Optionally adjust the bend parameters in this tab. See the [[#General|General]] section of the Task Panel description below
-#* Optionally switch to another tab to adjust more parameters. See [[#Offsets|Offsets]], or [[#Miter|Miter]], section of the Task Panel description below.
-# Press the {{Button|OK}} button to finish the command and close the Task Panel.
-# Optionally adjust the parameters in the [[Property_View|Property View]].
-</div>
+# Wybierz jedną lub więcej krawędzi bryły.
+# Istnieje kilka sposobów na uruchomienie tego polecenia:
+#* Naciśnij przycisk {{Button|[[Image:SheetMetal_AddHem.svg|16px]] [[SheetMetal_AddHem/pl|Utwórz brzeg]]}}.
+#* Wybierz opcję {{MenuCommand|Sheet Metal → [[Image:SheetMetal_AddHem.svg|16px]] Utwórz brzeg}} z menu.
+#* Kliknij prawym przyciskiem myszy w [[Tree_View/pl|Widoku drzewa]] lub [[3D_View/pl|Widoku 3D]] i wybierz opcję {{MenuCommand|Sheet Metal → [[Image:SheetMetal_AddHem.svg|16px]] Utwórz brzeg}} z menu kontekstowego.
+#* Użyj skrótu klawiaturowego: {{KEY|Z}}.
+# Tworzony jest obiekt '''Hem''', który składa się z jednego nowego brzegu na każdej wybranej krawędzi, a [[Task_Panel/pl|Panel zadań]] '''Hem properties''' zostanie otwarty:
+#* Z wybraną kartą '''Ogólne''':
+#** Opcjonalnie naciśnij przycisk {{Button|Wybierz}}, aby dodać więcej krawędzi.
+#*** Opcjonalnie naciśnij przycisk {{Button|Wyczyść zaznaczenie}}, aby wyczyścić listę wybranych krawędzi.
+#*** Naciśnij przycisk {{Button|Podgląd}}, aby zakończyć wybór i wyświetlić zmiany.
+#** Opcjonalnie dostosuj parametry gięcia na tej karcie. Zobacz sekcję [[#General/pl|Ogólne]] w opisie Panelu zadań poniżej.
+#* Opcjonalnie przełącz się na inną kartę, aby dostosować więcej parametrów. Zobacz sekcję [[#Offsets/pl|Odsunięcia]] lub [[#Miter/pl|Fazowanie]] w opisie Panelu zadań poniżej.
+# Naciśnij przycisk {{Button|OK}}, aby zakończyć polecenie i zamknąć Panel zadań.
+# Opcjonalnie dostosuj parametry w [[Property_View/pl|Widoku właściwości]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Task Panel===
-</div>
+<span id="Task_Panel"></span>
+==Panel zadań==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Double-click an existing Hem object in the [[Tree_View|Tree View]] to re-open the Task Panel and edit the parameters.
