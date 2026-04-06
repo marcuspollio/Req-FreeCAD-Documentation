@@ -80,16 +80,14 @@ Obiekt wydłużenia ścianki środowiska Arkusz Blachy wywodzi się z obiektu [[
 <span id="Data"></span>
 ===Dane===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Properties_Title|Parameters}}
-* {{PropertyData|base Object|LinkSub}}: "Base object". Link to the object and the planar faces to be extended.
-* {{PropertyData|gap1|Distance}}: "Gap from the left side". Default: {{value|0,00 mm}}.
-* {{PropertyData|gap2|Distance}}: "Gap from the right side". Default: {{value|0,00 mm}}.
-* {{PropertyData|length|Length}}: "Length of Wall". Default: {{value|10,00 mm}}.
-** extension length if {{PropertyData|reversed}} = {{false}}.
-** cut out length if {{PropertyData|reversed}} = {{true}}.
-* {{PropertyData|reversed|Bool}}: "Reverse extend direction (cut)". Default: {{false}}. Toggles between extension and cut out.
-</div>
+{{Properties_Title/pl|Parametry}}
+* {{PropertyData|Obiekt bazowy|LinkSub}}: "Obiekt bazowy". Łącze do obiektu oraz płaskich ścian do wydłużenia.
+* {{PropertyData|luz1|Distance}}: "Luz od lewej strony". Domyślnie: {{value|0,00 mm}}.
+* {{PropertyData|luz2|Distance}}: "Luz od prawej strony". Domyślnie: {{value|0,00 mm}}.
+* {{PropertyData|długość|Length}}: "Długość ścianki". Domyślnie: {{value|10,00 mm}}.
+** długość wydłużenia, jeśli {{PropertyData|odwrócone}} = {{false/pl}}.
+** długość wycięcia, jeśli {{PropertyData|odwrócone}} = {{true/pl}}.
+* {{PropertyData|odwrócone|Bool}}: "Odwróć kierunek wydłużenia (wycięcia)". Domyślnie: {{false/pl}}. Przełącza się między wydłużeniem a wycięciem.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Properties_Title|Parameters Ext}}
