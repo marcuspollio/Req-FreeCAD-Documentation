@@ -89,9 +89,7 @@
 
 * '''完整的[[Macros|宏]]记录与编辑'''功能。用户操作界面时发出的Python命令都可以被记录，根据需要进行编辑，并保存以便后续重现。
 
-<div class="mw-translate-fuzzy">
-* '''(ZIP压缩的)文件保存格式''': FreeCAD 文档以 .[[File_Format_FCStd/zh-cn|fcstd]] 为扩展名，可以包含多种信息类型，如几何形状信息，脚本以及缩略图图标。这个 .fcstd 文件本身是 ZIP 文档，所以 FreeCAD 文件已经被压缩了。
-</div>
+* '''基于ZIP的文档保存格式'''. FreeCAD文档以{{FileName|.[[File Format FCStd|FCStd]]}}扩展名保存。文档可以包含多种不同类型的信息，如几何体、脚本或缩略图图标。{{FileName|.FCStd}}文件本身是一个ZIP容器；保存的FreeCAD文件已经过压缩。
 
 <div class="mw-translate-fuzzy">
 * '''完全个性化／脚本化的图形界面'''。基于 [http://www.qtsoftware.com Qt] 的 FreeCAD 的界面完全可以使用 Python 解释器调用。不但 FreeCAD 自己提供的 workbench 函数可以用 Python 调用，Qt 的界面部分也可以调用，例如创建，添加，修改，删除小工具和工具栏。
