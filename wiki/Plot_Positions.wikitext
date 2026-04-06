@@ -1,5 +1,7 @@
 <languages/>
+<translate>
 
+<!--T:4-->
 {{Docnav
 |[[Plot_Labels|Labels]]
 |
@@ -9,31 +11,41 @@
 |IconC=Workbench_Plot.svg
 }}
 
+<!--T:3-->
 {{GuiCommand
 |Name=Plot Positions
 |MenuLocation=Plot → Set positions and sizes
 |Workbenches=[[Plot_Workbench|Plot]]
 }}
 
-==Description==
+==Description== <!--T:8-->
 
+<!--T:11-->
 This tool allows the user to edit the position of some items like titles, axes labels and legend.
 
+</translate>
 [[Image:Plot_MultiAxes_Example.png|600px]]
+<translate>
 
-==Usage==
+==Usage== <!--T:9-->
 
+<!--T:12-->
 Select the plot tab that you want to edit, and run this tool. Then you can select the item you want to edit in the selector
 
+</translate>
 [[File:Plot Position Item Selector.png|Items position selector]]
+<translate>
+<!--T:13-->
 {{Caption|Selector for the item to de edited}}
 
-==Options==
+==Options== <!--T:14-->
 
+<!--T:15-->
 * '''Position''': x and y coordinates of the item. The axes labels can only moved along its own axis
 * '''Font size''': The font size considered for the item.
 
 
+<!--T:5-->
 {{Docnav
 |[[Plot_Labels|Labels]]
 |
@@ -43,7 +55,7 @@ Select the plot tab that you want to edit, and run this tool. Then you can selec
 |IconC=Workbench_Plot.svg
 }}
 
+</translate>
 {{Plot_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
-[[Category:External_Workbenches{{#translation:}}]]
 [[Category:Addons{{#translation:}}]]
