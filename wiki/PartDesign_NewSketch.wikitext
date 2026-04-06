@@ -53,7 +53,7 @@ When creating models using the [[PartDesign_Workbench|PartDesign workbench]], th
 Dialog settings
 * Coordinate system box: defines the orientation of the sketch plane
 * Allow used features: ''TBD''
-: Allow External Features options
+: Options of Allow External Features
 * From other bodies of the same part: any elements used in the same body can be referenced
 * From different parts or free features: ''TBD''
 * Make independent copy: all other elements will be separate copies, i.e. they will not change when the original changes.
