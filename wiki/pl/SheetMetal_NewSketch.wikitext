@@ -10,18 +10,16 @@
 |IconC=Sheetmetal_workbench_icon.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/pl
 |Name=SheetMetal NewSketch
-|MenuLocation=SheetMetal → New Sketch
-|Workbenches=[[SheetMetal_Workbench|SheetMetal]]
+|Name/pl=Arkusz blachy: Nowy szkic
+|MenuLocation=SheetMetal → Nowy szkic
+|Workbenches=[[SheetMetal_Workbench/pl|Arkusz blachy]]
 |Version=0.7.61
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Description ==
-</div>
+<span id="Description"></span>
+==Opis==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The [[Image:Sketcher_NewSketch.svg|24px]] '''SheetMetal NewSketch''' command creates a new sketch without switching workbenches.
@@ -44,16 +42,14 @@ It invokes either the [[Sketcher_NewSketch|Sketcher NewSketch]] tool, or the [[P
 </div>
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[SheetMetal_BaseShape|BaseShape]]
-|[[SheetMetal_AddBase|AddBase]]
-|[[SheetMetal_Workbench|SheetMetal]]
+{{Docnav/pl
+|[[SheetMetal_BaseShape/pl|Kształt Bazowy]]
+|[[SheetMetal_AddBase/pl|Utwórz element bazowy]]
+|[[SheetMetal_Workbench/pl|środowisko pracy Arkusz Blachy]]
 |IconL=SheetMetal_BaseShape.svg
 |IconR=SheetMetal_AddBase.svg
 |IconC=Sheetmetal_workbench_icon.svg
 }}
-</div>
 
 [[Category:SheetMetal{{#translation:}}]]
 [[Category:Addons{{#translation:}}]]
