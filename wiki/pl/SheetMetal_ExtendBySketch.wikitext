@@ -89,13 +89,11 @@ Obiekt wydłużenia ścianki środowiska Arkusz Blachy wywodzi się z obiektu [[
 ** długość wycięcia, jeśli {{PropertyData|odwrócone}} = {{true/pl}}.
 * {{PropertyData|odwrócone|Bool}}: "Odwróć kierunek wydłużenia (wycięcia)". Domyślnie: {{false/pl}}. Przełącza się między wydłużeniem a wycięciem.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Properties_Title|Parameters Ext}}
-* {{PropertyData|Offset|Distance}}: "Offset for subtraction". Default: {{value|0,20 mm}}. Clearance for interlocking geometry
-* {{PropertyData|Refine|Bool}}: "Use Refine". Default: {{TRUE}}.
-* {{PropertyData|Sketch|Link}}: "Wall Sketch". Link to the sketch defining the interlocking geometry. Contains the selected sketch by default.
-* {{PropertyData|Use Subtraction|Bool}}: "Use Subtraction". Default: {{FALSE}} Toggles if intersected walls of the same object are cut out for tabs defined by the linked Sketch.
-</div>
+{{Properties_Title/pl|Parametry Ext}}
+* {{PropertyData|Odsunięcie|Distance}}: "Odsunięcie dla odejmowania". Domyślnie: {{value|0,20 mm}}. Luz dla geometrii zazębiającej się.
+* {{PropertyData|Udoskonal|Bool}}: "Użyj udoskonalenia". Domyślnie: {{TRUE/pl}}.
+* {{PropertyData|Szkic|Link}}: "Szkic ścianki". Łącze do szkicu definiującego geometrię zazębiającą się. Domyślnie zawiera wybrany szkic.
+* {{PropertyData|Użyj odejmowania|Bool}}: "Użyj odejmowania". Domyślnie: {{FALSE/pl}}. Wybiera, czy przecięte ścianki tego samego obiektu są wycinane dla zakładek zdefiniowanych przez powiązany szkic.
 
 
 {{Docnav/pl
