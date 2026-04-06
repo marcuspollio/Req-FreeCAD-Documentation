@@ -98,10 +98,10 @@ It is expected that these examples are useful to get started, and afterwards the
 
 不同版本之间在控件处理方面存在一些差异。程序员应该了解这些不兼容性，并在特定平台上某些功能未按预期工作时查阅官方文档。虽然不常见，但有时可能需要通过if语句进行版本化调用。
 
-The PySide documentation refers to the Python-style classes; however, since Qt is originally a C++ library, the same information should be available in the corresponding C++ reference.
-* [https://doc.qt.io/qtforpython/modules.html Qt Modules] available from PySide2/PySide6 (Qt5/Qt6).
-* [https://doc.qt.io/qt-5/modules-cpp.html All Qt classes by module] in Qt5 for C++.
-* [https://pyside.readthedocs.io/en/latest/ Qt Modules] available from PySide (Qt4).
+PySide文档指的是Python风格的类；然而，由于Qt最初是一个C++库，相同的信息应该可以在相应的C++参考文档中找到。
+* [https://doc.qt.io/qtforpython/modules.html Qt Modules] PySide2/PySide6 (Qt5/Qt6) 可用的模块。
+* [https://doc.qt.io/qt-5/modules-cpp.html All Qt classes by module] Qt5中按模块分类的所有C++类。
+* [https://pyside.readthedocs.io/en/latest/ Qt Modules] PySide (Qt4) 可用的模块。
 {{Top}}
 
 {{Docnav
