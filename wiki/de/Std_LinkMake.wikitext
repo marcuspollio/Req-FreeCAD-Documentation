@@ -139,10 +139,8 @@ Mit dieser Überschreibung können sich Links weiterhin wie einfache Verweise ve
 
 Für Projekte, die verschiedene Links erfordern, wird eine zweistufige Struktur empfohlen:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# '''The inventory (prototypes):''' create a group at the root of your document to act as an inventory. Place your base parts here. If you need a variation (e.g., a screw with a different length), create a Link to the base part, set its {{PropertyData|LinkCopyOnChange}} to {{Value|Enabled}} (or {{Value|Owned}}), and modify the width. This Link is the '''prototype'''.
-# '''The Instances:''' use regular ({{PropertyData|LinkCopyOnChange}}={{Value|Disabled}}) Links that point to the prototypes, to place them in the model.
-</div> 
+# '''Das Inventar (Prototypen):''' Erstellt im Stammverzeichnis des Dokuments eine Gruppe, die als Bestand dient. Hier die Basisteile platzieren. Wenn eine Variante benötigt wird (z. B. eine Schraube mit anderer Länge), erstellt man eine Verknüpfung zum Basisteil und legt deren {{PropertyData/de|LinkCopyOnChange}} auf {{Value|Enabled}} (oder {{Value|Owned}}) fest, und ändert die Länge. Diese Verknüpfung ist der '''Prototyp'''.
+# '''Die Instanzen:''' Reguläre ({{PropertyData/de|LinkCopyOnChange}}={{Value|Disabled}})-Verknüpfungen nutzen, die auf die Prototypen verweisen, um diese im Modell zu platzieren. 
 
 Dies ist vorteilhaft in Bezug auf:
 * '''Leistung:''' In den meisten Fällen handelt es sich um Lightweight-Referenzen auf einen gemeinsam genutzten Prototyp.
