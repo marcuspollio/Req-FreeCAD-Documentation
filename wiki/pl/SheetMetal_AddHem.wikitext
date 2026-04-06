@@ -21,9 +21,7 @@
 <span id="Description"></span>
 ==Opis==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The [[Image:SheetMetal_AddHem.svg|24px]] '''SheetMetal AddHem''' command creates hems on selected edges. By changing the {{PropertyData|angle}} property a flange it can be turned into a hem.
-</div>
+Polecenie [[Image:SheetMetal_AddHem.svg|24px]] '''Dodaj brzeg''' tworzy brzegi na wybranych krawędziach. Zmieniając właściwość {{PropertyData|kąt}} kołnierza, można go przekształcić w brzeg.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 A '''hem''' usually consists of a cylindrical bend of roughly 180° and a planar strip (wall).
