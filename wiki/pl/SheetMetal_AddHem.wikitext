@@ -145,18 +145,14 @@ Obiekt '''Hem''' Arkusza Blachy wywodzi się z obiektu [[Part_Feature/pl|Częś�
 
 {{Properties_Title|Parametry Ex}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{PropertyData|Auto Miter|Bool}}: "Enable Auto Miter". Default: {{TRUE}}.
-* {{PropertyData|kfactor|FloatConstraint}}: "Location of Neutral Line. Caution: Using ANSI standards, not DIN.". </br> Default: {{value|0,50}}. K factor (also known as neutral factor) for the bend. Used to calculate bend allowance when unfolding.
-* {{PropertyData|max Extend Dist|Length}}: "Auto Miter maximum Extend Distance". Default: {{value|5,00 mm}}.
-* {{PropertyData|min Gap|Length}}: "Auto Miter Minimum Gap". Default: {{value|0,20 mm}}.
-* {{PropertyData|min Relief Gap|Length}}: "Minimum Gap to Relief Cut". Default: {{value|1,00 mm}}.
-* {{PropertyData|unfold|Bool}}: "Shows Unfold View of Current Bend". Default: {{FALSE}} </br> {{TRUE}} unfolds the bend.
-</div>
+* {{PropertyData|Auto Miter|Bool}}: "Włącz automatyczne fazowanie". Domyślnie: {{TRUE/pl}}.
+* {{PropertyData|kfactor|FloatConstraint}}: "Położenie linii neutralnej. Uwaga: według standardów ANSI, nie DIN." </br> Domyślnie: {{value|0,50}}. Współczynnik K (znany też jako współczynnik neutralny) dla gięcia. Używany do obliczania dodatku gięcia przy rozwijaniu.
+* {{PropertyData|max Extend Dist|Length}}: "Maksymalna długość wydłużenia przy automatycznym fazowaniu". Domyślnie: {{value|5,00 mm}}.
+* {{PropertyData|min Gap|Length}}: "Minimalny luz przy automatycznym fazowaniu". Domyślnie: {{value|0,20 mm}}.
+* {{PropertyData|min Relief Gap|Length}}: "Minimalny luz przy nacięciu odciążającym". Domyślnie: {{value|1,00 mm}}.
+* {{PropertyData|unfold|Bool}}: "Pokaż widok rozwiniętej obecnej ścianki". Domyślnie: {{FALSE/pl}} </br> {{TRUE/pl}} rozwija ściankę.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Properties_Title|Parameters Miterangle}}
-</div>
+{{Properties_Title|Parametery kąta zagięcia}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * {{PropertyData|miterangle1|Angle}}: "Bend Miter Angle from Left Side". Default angle: {{value|0,00°}}.
