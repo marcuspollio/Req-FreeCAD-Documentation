@@ -27,16 +27,14 @@ Der Befehl [[File:BIM_Link.svg|24px]] [[BIM_Link/de|BIM Verknüpfung]] ist eine 
 <span id="Usage"></span>
 ==Anwendung==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select an object.
-# There are several ways to invoke the command:
-#* Press the {{Button|[[Image:BIM_Link.svg|16px]] [[BIM_Link|Make Link]]}} button.
-#* Select the {{MenuCommand|Modify → Cloning Tools → [[Image:BIM_Link.svg|16px]] Make Link}} option from the menu.
-#* Use the keyboard shortcut: {{KEY|L}} then {{KEY|K}}.
-# A link is created from the selected object.
-# The [[Draft_Move|Draft Move]] command starts automatically.
-# Click in the [[3D_View|3D View]] to place the new link.
-</div>
+# Ein Objekt auswählen.
+# Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+#* Die Schaltfläche {{Button|[[Image:BIM_Link.svg|16px]] [[BIM_Link/de|Verknüpfung erstellen]]}} drücken.
+#* Wähle die Option {{MenuCommand|Modifizieren → Werkzeuge zum Klonen → [[Image:BIM_Link.svg|16px]] Verknüpfung erstellen}} aus dem Menü.
+#* Das Tastaturkürzel: {{KEY|L}} dann {{KEY|K}}.
+# Eine Verknüpfung wird mit den ausgewählten Objekten erstellt.
+# Der Befehl [[Draft_Move/de|Draft Bewegen]] wird automatisch gestartet.
+# In der [[3D_View/de|3D-Ansicht]] klicken, um die neue Verknüpfung zu platzieren.
 
 
 {{Docnav/de
