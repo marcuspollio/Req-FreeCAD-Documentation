@@ -91,9 +91,7 @@
 
 * '''复合式（基于ZIP的）文档保存格式'''. FreeCAD文档以{{FileName|.[[File Format FCStd|FCStd]]}}扩展名保存。文档可以包含多种不同类型的信息，如几何体、脚本或缩略图图标。{{FileName|.FCStd}}文件本身是一个ZIP容器；保存的FreeCAD文件已经过压缩。
 
-<div class="mw-translate-fuzzy">
-* '''完全个性化／脚本化的图形界面'''。基于 [http://www.qtsoftware.com Qt] 的 FreeCAD 的界面完全可以使用 Python 解释器调用。不但 FreeCAD 自己提供的 workbench 函数可以用 Python 调用，Qt 的界面部分也可以调用，例如创建，添加，修改，删除小工具和工具栏。
-</div>
+* '''完全可定制/可编程的图形界面'''. FreeCAD基于[https://www.qt.io Qt]的界面完全可以通过Python解释器访问。除了FreeCAD本身提供给工作台的简单函数外，整个Qt框架都是可访问的。用户可以对GUI执行任何操作，例如创建、添加、停靠、修改或删除小部件和工具栏。
 
 <div class="mw-translate-fuzzy">
 * '''缩略图''' (当前仅 Linux 系统版本有): FreeCAD 文档的图标可以在大多数文档管理器中显示文档的缩略图，例如 Gnome 的 Nautilus。
