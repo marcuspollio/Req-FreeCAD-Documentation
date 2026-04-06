@@ -85,9 +85,7 @@
 
 * '''内置Python控制台'''. Python解释器包含一个具有语法高亮、自动补全和类浏览器的控制台。可以在FreeCAD中直接输入Python命令并立即返回结果，使脚本编写者能够即时测试功能，探索FreeCAD模块和工作台的内容，并轻松了解FreeCAD的内部机制。
 
-<div class="mw-translate-fuzzy">
-* '''用户和终端交互''': 所有用户的 FreeCAD 的操作都执行了 python 代码。这些代码都可以在终端中打印出来和记录为宏。
-</div>
+* '''反映用户交互'''. 用户在FreeCAD界面中执行的所有操作都会运行Python代码，这些代码可以在控制台中显示并记录到宏中。
 
 <div class="mw-translate-fuzzy">
 * '''完全的记录和编辑宏''': 当用户操作时发出 python 命令，这些命令都可以记录，编辑和保存。
