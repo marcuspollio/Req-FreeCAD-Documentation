@@ -21,13 +21,13 @@ from PySide import QtCore, QtGui, QtWidgets
 <span id="Qt_&amp;_PySide_versions"></span>
 ==Qt & PySide 版本==
 
-* Version 1.0 of Qt was released in mid 1990’s
-* Version 4.0 of Qt was released in 2005 and the 4.x series was officially retired in 2015
-** The python wrapper for Qt4.x has the name PySide
-* Version 5.0 of Qt was released in 2012 and the 5.x series was officially retired in 2020.
-** The python wrapper for Qt5.x has the name PySide2
-* Version 6.0 of Qt was released in 2020, it is the current version-series
-** The python wrapper for Qt6.x has the name PySide6 
+* Qt 1.0版本于1990年代中期发布
+* Qt 4.0版本于2005年发布，4.x系列于2015年正式退役
+** Qt4.x的Python封装名为PySide
+* Qt 5.0版本于2012年发布，5.x系列于2020年正式退役。
+** Qt5.x的Python封装名为PySide2
+* Qt 6.0版本于2020年发布，是当前版本系列
+** Qt6.x的Python封装名为PySide6 
 
 [[File:PySideScreenSnapshot1.jpg]] [[File:PySideScreenSnapshot2.jpg]]
 {{Caption|Examples created with PySide. Left: a simple dialog. Right: a more complex dialog with graphs.}}
