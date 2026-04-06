@@ -76,12 +76,10 @@ Obiekt ''''SolidToSheet''' wywodzi się z obiektu [[Part_Feature/pl|Część: Ce
 
 {{Properties_Title|Parametry}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{PropertyData|Invert|Bool}}: "Invert bend direction". Controls whether the wall thickness builds up inside or outside the base object.
-* {{PropertyData|Radius|Length}}: Inner radius of automatically added bends.
-* {{PropertyData|Thickness|Length}}: Wall thickness of the sheet metal shape.
-* {{PropertyData|base Object|LinkSub}}: "Base object". Link to the solid/shell and its selected sub-elements.
-</div>
+* {{PropertyData|Odwróć|Bool}}: "Odwróć kierunek zagięcia". Określa, czy grubość ściany jest budowana do wewnątrz czy na zewnątrz obiektu bazowego.
+* {{PropertyData|Promień|Length}}: Wewnętrzny promień automatycznie dodawanych zagięć.
+* {{PropertyData|Grubość|Length}}: Grubość ścianki kształtu blachy.
+* {{PropertyData|Obiekt bazowy|LinkSub}}: "Obiekt bazowy". Łącze do bryły/powłoki oraz jej wybranych podobiektów.
 
 {{Docnav/pl
 |[[SheetMetal_AddBase/pl|Utwórz element bazowy]]
