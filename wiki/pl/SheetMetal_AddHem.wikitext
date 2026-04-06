@@ -154,14 +154,10 @@ Obiekt '''Hem''' Arkusza Blachy wywodzi się z obiektu [[Part_Feature/pl|Częś�
 
 {{Properties_Title|Parametery kąta zagięcia}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{PropertyData|miterangle1|Angle}}: "Bend Miter Angle from Left Side". Default angle: {{value|0,00°}}.
-* {{PropertyData|miterangle2|Angle}}: "Bend Miter Angle from Right Side". Default angle: {{value|0,00°}}.
-</div>
+* {{PropertyData|miterangle1|Angle}}: "Kąt fazowania gięcia od lewej strony". Domyślny kąt: {{value|0,00°}}.
+* {{PropertyData|miterangle2|Angle}}: "Kąt fazowania gięcia od prawej strony". Domyślny kąt: {{value|0,00°}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Properties_Title|Parameters Relief}}
-</div>
+{{Properties_Title|Parametry reliefu}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * {{PropertyData|Relief Factor|Float}}: "Relief Factor". Default: {{value|0,70}}.
