@@ -1,16 +1,14 @@
 {{UnfinishedDocu{{#translation:}}}}
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[SheetMetal_AddWall|AddWall]]
-|[[SheetMetal_Extrude|Extrude]]
-|[[SheetMetal_Workbench|SheetMetal]]
-|IconL=SheetMetal_AddWall.svg
+{{Docnav/pl
+|[[SheetMetal_AddBase/pl|Utwórz element bazowy]]
+|[[SheetMetal_Extrude/pl|Wydłuż ściankę]]
+|[[SheetMetal_Workbench/pl|środowisko pracy Arkusz Blachy ]]
+|IconL=SheetMetal_AddBase.svg
 |IconR=SheetMetal_Extrude.svg
 |IconC=Sheetmetal_workbench_icon.svg
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommand
@@ -218,16 +216,14 @@ A SheetMetal '''Hem''' object is derived from a [[Part_Feature|Part Feature]] ob
 </div>
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[SheetMetal_AddWall|AddWall]]
-|[[SheetMetal_Extrude|Extrude]]
-|[[SheetMetal_Workbench|SheetMetal]]
-|IconL=SheetMetal_AddWall.svg
+{{Docnav/pl
+|[[SheetMetal_AddBase/pl|Utwórz element bazowy]]
+|[[SheetMetal_Extrude/pl|Wydłuż ściankę]]
+|[[SheetMetal_Workbench/pl|środowisko pracy Arkusz Blachy ]]
+|IconL=SheetMetal_AddBase.svg
 |IconR=SheetMetal_Extrude.svg
 |IconC=Sheetmetal_workbench_icon.svg
 }}
-</div>
 
 [[Category:SheetMetal{{#translation:}}]]
 [[Category:Addons{{#translation:}}]]
