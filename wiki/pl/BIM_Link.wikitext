@@ -27,16 +27,14 @@ Polecenie [[File:BIM_Link.svg|24px]] [[BIM_Link/pl|Łącze BIM]] jest skrótem d
 <span id="Usage"></span>
 ==Użycie==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select an object.
-# There are several ways to invoke the command:
-#* Press the {{Button|[[Image:BIM_Link.svg|16px]] [[BIM_Link|Make Link]]}} button.
-#* Select the {{MenuCommand|Modify → Cloning Tools → [[Image:BIM_Link.svg|16px]] Make Link}} option from the menu.
-#* Use the keyboard shortcut: {{KEY|L}} then {{KEY|K}}.
-# A link is created from the selected object.
-# The [[Draft_Move|Draft Move]] command starts automatically.
-# Click in the [[3D_View|3D View]] to place the new link.
-</div>
+# Wybierz obiekt.
+# Istnieje kilka sposobów na wywołanie tego polecenia:
+#* Naciśnij przycisk {{Button|[[Image:BIM_Link.svg|16px]] [[BIM_Link/pl|Utwórz łącze]]}}.
+#* Wybierz opcję {{MenuCommand|Modyfikuj → Narzędzia klonowania → [[Image:BIM_Link.svg|16px]] Utwórz łącze}} z menu.
+#* Użyj skrótu klawiaturowego: {{KEY|L}}, a następnie {{KEY|K}}.
+# Utworzone zostanie łącze z wybranego obiektu.
+# Polecenie [[Draft_Move/pl|Rysunek Roboczy: Przesuń]] uruchomi się automatycznie.
+# Kliknij w [[3D_View/pl|Widoku 3D]], aby umieścić nowe łącze.
 
 
 {{Docnav/pl
