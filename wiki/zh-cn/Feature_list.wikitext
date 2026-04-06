@@ -33,14 +33,14 @@
 == 关键特性 ==
 
 * [[Image:Feature1.jpg|left]] 基于完整的 [https://en.wikipedia.org/wiki/Open_CASCADE Open CASCADE 技术]的'''几何内核'''，支持对复杂形状类型进行复杂的3D操作，原生支持 [https://en.wikipedia.org/wiki/Boundary_representation 边界表示] (BREP)、[https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline 非均匀有理B样条] (NURBS) 曲线和曲面、广泛的几何实体、布尔运算和[https://en.wikipedia.org/wiki/Fillet_(mechanics) 圆角]，并内置支持 [https://en.wikipedia.org/wiki/ISO_10303 STEP] 和 [https://en.wikipedia.org/wiki/IGES IGES] 格式 {{clear}}
-* [[Image:Feature3.jpg|left]] 完整的'''参数化模型'''。所有FreeCAD对象本质上都是参数化的，意味着它们的形状可以基于[[Property|属性]]，甚至依赖于其他对象。所有更改都会按需重新计算，并由撤销/重做栈记录。可以轻松添加新的对象类型，甚至可以[[Scripted_objects|完全用Python编程实现]]。{{clear}}
-* [[Image:Feature4.jpg|left]] '''模块化架构'''允许通过插件扩展（模块和工作台）为核心应用程序添加功能。一个扩展可以复杂到如同一个用C++编写的全新应用程序，也可以简单到是一个[[Power_users_hub|Python脚本]]或自录制的[[Macros|宏]]。您可以通过内置的'''Python'''解释器、宏或外部脚本完全访问FreeCAD的几乎任何部分，无论是[[Topological_data_scripting|几何创建与变换]]、该几何体的2D或3D表示（[[Scenegraph|场景图]]），甚至是[[PySide|FreeCAD界面]]。{{clear}}
+* [[Image:Feature3.jpg|left]] 完整的'''参数化模型'''。所有FreeCAD对象本质上都是参数化的，意味着它们的形状可以基于[[Property/zh-cn|属性]]，甚至依赖于其他对象。所有更改都会按需重新计算，并由撤销/重做栈记录。可以轻松添加新的对象类型，甚至可以[[Scripted_objects/zh-cn|完全用Python编程实现]]。{{clear}}
+* [[Image:Feature4.jpg|left]] '''模块化架构'''允许通过插件扩展（模块和工作台）为核心应用程序添加功能。一个扩展可以复杂到如同一个用C++编写的全新应用程序，也可以简单到是一个[[Power_users_hub|Python脚本]]或自录制的[[Macros/zh-cn|宏]]。您可以通过内置的'''Python'''解释器、宏或外部脚本完全访问FreeCAD的几乎任何部分，无论是[[Topological_data_scripting|几何创建与变换]]、该几何体的2D或3D表示（[[Scenegraph/zh-cn|场景图]]），甚至是[[PySide/zh-cn|FreeCAD界面]]。{{clear}}
 * [[Image:Feature5.jpg|left]] 支持导入/导出'''标准格式'''，如 [https://en.wikipedia.org/wiki/ISO_10303 STEP]、[https://en.wikipedia.org/wiki/IGES IGES]、[https://en.wikipedia.org/wiki/Obj OBJ]、[https://en.wikipedia.org/wiki/STL_%28file_format%29 STL]、[https://en.wikipedia.org/wiki/Dxf DXF]、[https://en.wikipedia.org/wiki/Svg SVG]、[https://en.wikipedia.org/wiki/COLLADA DAE]、[https://en.wikipedia.org/wiki/Industry_Foundation_Classes IFC] 或 [http://people.sc.fsu.edu/~jburkardt/data/off/off.html OFF]、[https://en.wikipedia.org/wiki/NASTRAN NASTRAN]、[https://en.wikipedia.org/wiki/VRML VRML]，此外还支持FreeCAD原生的 {{FileName|[[File Format FCStd|FCStd]]}} 文件格式。FreeCAD与给定文件格式之间的兼容性水平可能有所不同，因为它取决于实现该格式的工作台。{{clear}}
-* [[Image:Feature7.jpg|left]] 一个带有集成约束求解器的[[Sketcher_Workbench|草图工作台]]，允许您绘制几何约束的2D形状。用草图工作台构建的约束2D形状随后可用作在整个FreeCAD中构建其他对象的基础。{{clear}}
-* [[Image:Feature8.jpg|left]] 一个[[TechDraw_Workbench|技术绘图工作台]]，提供细节视图、剖面视图、尺寸标注等选项，允许您从现有的3D模型生成2D视图。该工作台可生成可供导出的SVG或PDF文件。{{clear}}
-* [[Image:Feature-arch.jpg|left]] 一个[[BIM_Workbench|BIM工作台]]，支持类似[https://en.wikipedia.org/wiki/Building_Information_Modeling 建筑信息模型] (BIM) 的工作流程，并与[https://en.wikipedia.org/wiki/Industry_Foundation_Classes 工业基础类] (IFC) 兼容。{{clear}}
-* [[Image:Feature-CAM.jpg|left]] 一个[[CAM_Workbench|CAM工作台]]，专用于[https://en.wikipedia.org/wiki/Computer-aided_manufacturing 计算机辅助制造] (CAM) 的机械加工。使用CAM工作台，您可以输出、显示和调整用于控制目标机器的[https://en.wikipedia.org/wiki/G-code G代码]。{{clear}}
-* [[Image:Feature_spreadsheet.png|left]] 一个[[Spreadsheet_Workbench|集成电子表格]]和一个[[Expressions|表达式解析器]]，可用于驱动基于公式的模型，并将模型数据集中组织在一个位置。{{clear}}
+* [[Image:Feature7.jpg|left]] 一个带有集成约束求解器的[[Sketcher_Workbench/zh-cn|草图工作台]]，允许您绘制几何约束的2D形状。用草图工作台构建的约束2D形状随后可用作在整个FreeCAD中构建其他对象的基础。{{clear}}
+* [[Image:Feature8.jpg|left]] 一个[[TechDraw_Workbench/zh-cn|技术绘图工作台]]，提供细节视图、剖面视图、尺寸标注等选项，允许您从现有的3D模型生成2D视图。该工作台可生成可供导出的SVG或PDF文件。{{clear}}
+* [[Image:Feature-arch.jpg|left]] 一个[[BIM_Workbench/zh-cn|BIM工作台]]，支持类似[https://en.wikipedia.org/wiki/Building_Information_Modeling 建筑信息模型] (BIM) 的工作流程，并与[https://en.wikipedia.org/wiki/Industry_Foundation_Classes 工业基础类] (IFC) 兼容。{{clear}}
+* [[Image:Feature-CAM.jpg|left]] 一个[[CAM_Workbench/zh-cn|CAM工作台]]，专用于[https://en.wikipedia.org/wiki/Computer-aided_manufacturing 计算机辅助制造] (CAM) 的机械加工。使用CAM工作台，您可以输出、显示和调整用于控制目标机器的[https://en.wikipedia.org/wiki/G-code G代码]。{{clear}}
+* [[Image:Feature_spreadsheet.png|left]] 一个[[Spreadsheet_Workbench/zh-cn|集成电子表格]]和一个[[Expressions/zh-cn|表达式解析器]]，可用于驱动基于公式的模型，并将模型数据集中组织在一个位置。{{clear}}
 
 <span id="General_features"></span>
 == 一般特性 ==
