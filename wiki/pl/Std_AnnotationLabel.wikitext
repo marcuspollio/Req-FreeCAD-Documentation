@@ -24,13 +24,10 @@ Polecenie '''Etykieta adnotacji''' tworzy etykietę adnotacji w [[3D_View/pl|Wid
 
 [[Image:Std_Annotation_label_example.PNG|400px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Example of annotation label}}
-</div>
+{{Caption|Przykład etykiety adnotacji}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Użycie==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Select one or more objects. The first selected object determines the ''Base Position'' of the label, which in turn determines its initial ''Text Position''. See [[#Notes|Notes]].
