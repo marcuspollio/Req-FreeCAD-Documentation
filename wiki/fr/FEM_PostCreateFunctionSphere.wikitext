@@ -37,9 +37,7 @@ La fonction [[Image:FEM_PostCreateFunctionSphere.svg|24px]] '''FEM Sphère''' d�
 <span id="Edit_a_sphere_function"></span>
 ===Modifier une fonction sphère===
 
-<div class="mw-translate-fuzzy">
-Si l'objet Sphere dans l'[[Tree_View/fr|arborescence]] est caché, sélectionnez l'objet [[Image:FEM_PostCreateFunctionSphere.svg|24px]] Sphere dans la [[3D_View/fr|vue 3D]] et appuyez sur {{KEY|Espace}} pour le rendre visible, comme dans cet exemple :
-</div>
+Si l'objet Sphere est caché dans la [[3D_View/fr|vue 3D]], sélectionnez l'objet [[Image:FEM_PostCreateFunctionSphere.svg|24px]] Sphere dans l'[[Tree_View/fr|arborescence]] et appuyez sur {{KEY|Espace}} pour le rendre visible, comme dans cet exemple :
 
 [[File:FEM_Sphere-Cut-Function-Example.png|400px]]
 
