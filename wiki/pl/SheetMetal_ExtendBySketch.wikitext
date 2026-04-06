@@ -68,13 +68,10 @@ Kliknij dwukrotnie istniejący obiekt Extend w [[Tree_View/pl|Widoku drzewa]], a
 
 * To polecenie tworzy ten sam obiekt Extend co polecenie [[SheetMetal_Extrude/pl|Wydłuż ścianę]]. To, czy właściwość {{PropertyData|Szkic}} jest pusta, czy nie, decyduje o tym, który Panel zadań jest wyświetlany podczas edycji obiektu Extend.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* See [[SheetMetal_Extrude#Notes|Extend Face]] for additional notes.
-</div>
+* Zobacz stronę [[SheetMetal_Extrude/pl#Uwagi|Wydłuż ścianę]], aby uzyskać więcej informacji.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Properties==
-</div>
+<span id="Properties"></span>
+==Właściwości==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 See also: [[Property_View|Property View]].
