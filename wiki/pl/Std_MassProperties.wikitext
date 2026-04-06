@@ -21,20 +21,18 @@
 <span id="Description"></span>
 ==Opis==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The '''Std MassProperties''' command starts the mass properties measurement feature. It provides the following information:
-* Physical Properties
-** Volume
-** Mass
-** Density
-** Surface area
-* Center of gravity
-* Center of volume
-* Inertia
-** Inertia matrix
-** Principal moments of inertia
-** Inertia around axis - replaces the aforementioned inertia measures if a datum line is used as a reference for inertia calculations
-</div>
+Polecenie '''Właściwości masowe''' uruchamia narzędzie do pomiaru właściwości masowych. Zapewnia ono następujące informacje:
+* Właściwości fizyczne
+** Objętość
+** Masa
+** Gęstość
+** Pole powierzchni
+* Środek ciężkości
+* Środek objętości
+* Bezwładność
+** Macierz bezwładności
+** Główne momenty bezwładności
+** Bezwładność wokół osi - zastępuje powyższe miary bezwładności jeśli linia konstrukcyjna jest używana jako odniesienie do obliczeń bezwładności
 
 [[Image:Std_MassProperties_task_panel.png|300px]]
 
