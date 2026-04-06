@@ -10,7 +10,7 @@
 |align=center|[https://freecad.github.io/DevelopersHandbook/gettingstarted/#pixi 在macOS上编译]
 |}
 
-To compile on BSD, and other Unix systems, you can follow the general instruction in [[Compile_on_Linux|Compile on Linux]] but using the appropriate dependencies in those systems.
+要在BSD和其他Unix系统上编译，您可以遵循[[Compile_on_Linux|在Linux上编译]]中的一般说明，但需要使用这些系统中相应的依赖项。
 
 <div class="mw-translate-fuzzy">
 在Windows上编译FreeCAD，可以使用[[Compile_on_Windows|Compile on Windows]]。
