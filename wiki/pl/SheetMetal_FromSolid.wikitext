@@ -10,19 +10,17 @@
 |IconC=Sheetmetal_workbench_icon.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/pl
 |Name=SheetMetal FromSolid
-|MenuLocation=SheetMetal → Convert to Sheet Metal
-|Workbenches=[[SheetMetal_Workbench|SheetMetal]]
+|Name/pl=Arkusz Blachy: Z bryły
+|MenuLocation=SheetMetal → Przekształć na blachę
+|Workbenches=[[SheetMetal_Workbench/pl|Arkusz blachy]]
 |Shortcut={{KEY|C}} {{KEY|S}}
 |Version=0.8.0
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Description ==
-</div>
+<span id="Description"></span>
+==Opis==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The [[Image:SheetMetal_FromSolid.svg|24px]] '''SheetMetal FromSolid''' command converts a solid or shell to a sheet metal object (introduced in version 0.8.0).
