@@ -23,13 +23,10 @@
 
 Polecenie [[Image:Sketcher_NewSketch.svg|24px]] '''Nowy szkic''' tworzy nowy szkic bez przełączania się między środowiskami pracy.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-It invokes either the [[Sketcher_NewSketch|Sketcher NewSketch]] tool, or the [[PartDesign_NewSketch|PartDesign NewSketch]] tool if a [[PartDesign_Body|PartDesign Body]] is active.
-</div>
+To polecenie wywołuje narzędzie [[Sketcher_NewSketch/pl|Nowy szkic środowiska Szkicownik]] lub [[PartDesign_NewSketch/pl|Nowy szkic środowiska Projekt Części]], jeśli aktywna jest [[PartDesign_Body/pl|Zawartość środowiska Projekt Części]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Usage ==
-</div>
+<span id="Usage"></span>
+==Użycie==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # There are several ways to invoke the command:
