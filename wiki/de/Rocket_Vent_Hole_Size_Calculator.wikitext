@@ -30,29 +30,29 @@ Die Berechnung basiert auf der Faustregel, dass pro 100 Kubikzoll Volumen eine E
 
 [[File:Calc_vent_hole_size.png]]
 
-# There are several ways to invoke the command: 
-#* Press the {{Button|[[Image:Rocket_Calculator.svg|16px]] [[Rocket_Vent_Hole_Size_Calculator|Vent Hole Size Calculator]]}} button.
-#* Select the {{MenuCommand|Rocket → Calculators → [[Image:Rocket_Calculator.svg|16px]] Vent Hole Size Calculator}} option from the menu.
-# Enter the parameters of your electronics bay.
+# Es gibt mehrere Möglichkeiten, den Befehl aufzurufen.: 
+#* Drücke den Knopf {{Button|[[Image:Rocket_Calculator.svg|16px]] [[Rocket_Vent_Hole_Size_Calculator/de| EntlüftungsöffnungenGrößenRechner]]}}.
+#* Wähle die Option {{MenuCommand|Rakete → Rechner → [[Image:Rocket_Calculator.svg|16px]] Entlüftungsöffnungengrößen-Rechner}} aus dem Menü.
+# Gib die Parameter des Elektronikraums ein.
 
 <span id="Calculation"></span>
 ==Berechnung==
 
-Vent hole size is calculated using the following formula:
+Die Größe der Entlüftungsöffnungen wird mittels der folgenden Formel berechnet:
 
 ::<math>D_{vent} = 0.004396 D \sqrt{\cfrac{L}{N}}</math>
 
-where
+wobei
 
-::<math>D_{vent} = </math> vent hole size
-::<math>D = </math> body tube diameter
-::<math>L = </math> body tube length
-::<math>N = </math> number of vent holes
+::<math>D_{vent} = </math> Größe der Entlüftungsöffnung
+::<math>D = </math> Rumpfrohrdurchmesser
+::<math>L = </math> Rumpfrohrlänge
+::<math>N = </math> Anzahl der Entlüftungsöffnungen
 
 <span id="Units"></span>
 ===Einheiten===
 
-Calculations are done using metric units, but will display in your preferred units. Values can also be entered using any supported units by including the units with the value (''eg'' 5 oz, or 23.2 g)
+Die Berechnungen werden in metrischen Einheiten durchgeführt, aber in den von Ihnen bevorzugten Einheiten angezeigt. Die Werte können auch in allen unterstützten Einheiten eingegeben werden, indem die Einheiten mit dem Wert angegeben werden (z. B. 5 oz oder 23,2 g).
 
 <span id="References"></span>
 ==Referenzen==
@@ -71,4 +71,3 @@ Calculations are done using metric units, but will display in your preferred uni
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
-[[Category:External Workbenches{{#translation:}}]]
