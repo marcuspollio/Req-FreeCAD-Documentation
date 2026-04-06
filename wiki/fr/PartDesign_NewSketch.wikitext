@@ -46,7 +46,7 @@ Lors de la création de modèles à l'aide de l'[[PartDesign_Workbench/fr|atelie
 Paramètres de la fenêtre de dialogue :
 * Système de coordonnées : définit l'orientation du plan de l'esquisse
 * Autoriser les fonctions utilisées : ''à définir''
-: Autoriser les options de fonctions externes
+: Options de ''Autoriser des fonctions externes''
 * À partir d'autres corps de la même pièce : tous les éléments utilisés dans le même corps peuvent être référencés
 * De différentes pièces ou fonctions indépendantes : ''à définir''
 * Faire une copie indépendante : tous les autres éléments seront des copies séparées, c'est-à-dire qu'ils ne changeront pas lorsque l'original sera modifié.
