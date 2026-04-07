@@ -74,9 +74,7 @@ Questo seleziona '''My_document_1''', restituisce tutti i valori delle celle nel
 
 === Note ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Don't forget to set ROOT path to server's stdin/stdout files - both in client AND in server before running it (variable ROOT at start of both source codes). Stdin/stdout files will be created automaticaly.
-</div>
+Non dimenticare di impostare il percorso ROOT per i file stdin/stdout del server, sia nel client che nel server, prima di eseguirlo (variabile ROOT all'inizio di entrambi i codici sorgente). I file stdin/stdout verranno creati automaticamente.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Communication protocol ===
