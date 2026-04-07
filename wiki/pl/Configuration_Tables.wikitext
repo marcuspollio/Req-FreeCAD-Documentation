@@ -16,9 +16,7 @@ Wraz z wydaniem [[Release_notes_0.20/pl#Środowisko_pracy_Arkusz_Kalkulacyjny|Fr
 
 Wcześniej można było parametryzować obiekty za pomocą technik takich jak arkusze kalkulacyjne, ale jednoczesne istnienie wielu zróżnicowanych instancji tego samego obiektu było niemożliwe, chyba że użyto technik takich jak kopiowanie plików lub obiektów, co powodowało problemy z utrzymaniem. Tabele konfiguracyjne ułatwiają zarządzanie takimi wariantami oraz możliwość łatwego przełączania się między nimi.
 
-<div class="mw-translate-fuzzy">
-Ten poradnik zakłada, że jesteś już częściowo zaznajomiony ze środowiskami [[PartDesign_Workbench/pl|Projekt Części]] i [[Sketcher_Workbench/pl|Szkicownik]]. Powinieneś też umieć korzystać z [[Tree view/pl|widoku drzewa]] i [[Property_editor/pl|Edytora właściwości]].
-</div>
+Ten poradnik zakłada, że jesteś już częściowo zaznajomiony ze środowiskami [[PartDesign_Workbench/pl|Projekt Części]] i [[Sketcher_Workbench/pl|Szkicownik]]. Powinieneś też umieć korzystać z [[Tree_View/pl|Widoku drzewa]] i [[Property_View/pl|Widoku właściwości]].
 
 Jest tez dostępna [https://www.youtube.com/watch?v=m9C_ahIVKOI wersja wideo tego poradnika].
 
