@@ -81,9 +81,7 @@ Non dimenticare di impostare il percorso ROOT per i file stdin/stdout del server
 
 Le informazioni vengono scambiate tramite due file. Dal punto di vista del server, uno è l'input, l'altro l'output. Dal punto di vista del client, l'input del server è il suo output e viceversa.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Every command returns some response.
-</div>
+Ogni comando restituisce una risposta.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Command format ====
