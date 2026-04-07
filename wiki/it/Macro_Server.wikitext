@@ -42,9 +42,7 @@ per esempio:
 * Si può ottenere l'elenco degli oggetti nel documento attivo con il comando 'O'.
 * Si può anche ottenere l'elenco degli oggetti in un documento specifico con il comando 'Oconcrete_document'.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-  (list of all documents is returned by command 'D')
-</div>
+(l'elenco di tutti i documenti viene restituito dal comando 'D')
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 It also allows you to get list of :
