@@ -16,7 +16,9 @@ S vydáním [[Release_notes_0.20/cs#Spreadsheet_Workbench|FreeCADu V0.20]] byly 
 
 Dříve bylo možné parametryzovat objekty pomocí technik, jako jsou tabulkové procesory, avšak více různých instancí daného objektu nemohlo existovat současně, pokud jste se neuchýlili k technikám, jako je kopírování souborů nebo objektů, což s sebou přinášelo problémy s údržbou. Konfigurační tabulky usnadňují správu těchto variant a umožňují mezi nimi snadno přepínat.
 
+<div class="mw-translate-fuzzy">
 Tento návod předpokládá, že již máte určité znalosti o pracovním prostředí [[PartDesign_Workbench/cs|PartDesign]] a [[Sketcher_Workbench/cs|Sketcher]]. Měli byste také znát [[Tree_View/cs|stromovou strukturu]] a [[Property_editor/cs|editor vlastností]].
+</div>
 
 K dispozici je také [https://www.youtube.com/watch?v=m9C_ahIVKOI videonávod k tomuto tutoriálu].
 
@@ -48,6 +50,7 @@ Konkrétní hodnoty parametrů pro naše varianty jsou uvedeny v této tabulce:
 <span id="Instructions"></span>
 ==Instrukce==
 
+<div class="mw-translate-fuzzy">
 # Vytvořte nový [[Spreadsheet_CreateSheet/cs|tabulkový list]] s řádkem záhlaví. Druhý řádek nechte prázdný. Tento řádek bude obsahovat aktuální konfiguraci a bude později automaticky vyplněn. Do řádků 3 a 4 vložte parametry pro M10 a M12: <p>[[File:Variant-link-spreadsheet-table-example-before-configuration-table.png]]</p>
 # Pomocí [[PartDesign_Workbench/cs|pracovní plochy PartDesign]] vytvořte [[PartDesign_Body/cs|těleso]] a [[PartDesign_NewSketch/cs|náčrt]] pro šestihrannou matici. Rozměrové vazby budou přidány v dalším kroku. <p>[[File:Variant-link-example-hex-nut-sketch-unconstrained.png]]</p>
 # [[PartDesign_Pad/cs|Pad]] ve skici. Přijměte výchozí hodnotu délky.
@@ -67,6 +70,7 @@ Konkrétní hodnoty parametrů pro naše varianty jsou uvedeny v této tabulce:
 # V okně Binder nastavte parametr {{PropertyView|Use Binder Style}} na hodnotu {{FALSE}}.
 # Změňte {{PropertyData|Placement}} Binderu tak, aby nebyl v těsné blízkosti Body. 
 # Až budete hotovi, měli byste mít něco podobného tomuto: <p>[[File:Variant-link-finished-example-document.png|500px]]</p>
+</div>
 
 <span id="Use_Std_Link_instead_of_PartDesign_SubShapeBinder"></span>
 ===Použití Std Link namísto PartDesign SubShapeBinder===
