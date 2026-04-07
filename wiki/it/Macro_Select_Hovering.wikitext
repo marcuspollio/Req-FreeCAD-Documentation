@@ -1,5 +1,4 @@
 <languages/>
-<div class="mw-translate-fuzzy">
 {{Macro/it
 |Name=Macro Select Hovering
 |Icon=Macro_Select_Hovering.png
@@ -9,9 +8,8 @@
 |Version=00.03b
 |Date=2020-10-28
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/d/d8/Macro_Select_Hovering.png ToolBar Icon]
+|Download=[https://www.freecad.org/wiki/images/d/d8/Macro_Select_Hovering.png ToolBar Icon]
 }}
-</div>
 
 <span id="Description"></span>
 ==Descrizione== 
@@ -27,9 +25,7 @@ Questa macro seleziona a scelta una Faccia, Bordo, Vertice passando sopra con il
 
 [[File:Macro Select Hovering 00.png|Macro Select Hovering]]
 
-<div class="mw-translate-fuzzy">
-PS: Per deselezionare una faccia (o altro) cliccare {{KEY | Pause grab}} e usare la procedura standard: CTRL + Click
-</div> 
+PS: Per deselezionare una faccia (o altro) cliccare {{KEY | Pause grab}} e usare la procedura standard: CTRL + Click 
 
 <span id="How_To_Use"></span>
 == Utilizzo ==
@@ -174,6 +170,4 @@ ver 00.01 (25/12/2017)  :
 <span id="Link"></span>
 ==Vincolo==
 
-<div class="mw-translate-fuzzy">
-[https://forum.freecadweb.org/viewtopic.php?f=3&t=26370 Multiple face selection to convert a shape to a solid]
-</div>
+[https://forum.freecad.org/viewtopic.php?f=3&t=26370 Multiple face selection to convert a shape to a solid]
