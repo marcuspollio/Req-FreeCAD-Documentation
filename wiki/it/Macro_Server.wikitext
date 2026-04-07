@@ -79,9 +79,7 @@ Non dimenticare di impostare il percorso ROOT per i file stdin/stdout del server
 <span id="Communication_protocol"></span>
 === Protocollo di comunicazione ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Informations are exchanged thru two files. From server's POV one is input, the other output. From client's POV server's input is its output and vice versa.
-</div>
+Le informazioni vengono scambiate tramite due file. Dal punto di vista del server, uno è l'input, l'altro l'output. Dal punto di vista del client, l'input del server è il suo output e viceversa.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Every command returns some response.
