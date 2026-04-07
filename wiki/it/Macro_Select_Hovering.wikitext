@@ -34,11 +34,9 @@ Passare sopra agli elementi con il mouse
 
 ====Section Face====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{CheckBox}} Select Face → 3 number of face(s)
-{{LineEdit|300.0}} area total of selections
-{{LineEdit|100.0}} area of the latest selection
-</div>
+{{CheckBox}} Selezionare faccia → 3 numero di facce
+{{LineEdit|300.0}} area totale delle selezioni
+{{LineEdit|100.0}} area della selezione più recente
 
 ====Section Edge====
 
