@@ -16,7 +16,9 @@ Mit der Veröffentlichung von [[Release_notes_0.20#Spreadsheet_Workbench|FreeCAD
 
 Zuvor konntest du Objekte mit Techniken wie Tabellenkalkulationen parametrisieren, aber mehrere verschiedene Instanzen dieses Objekts konnten nicht gleichzeitig existieren, es sei denn, du verwendest Techniken wie das Kopieren von Dateien oder Objekten, was zu Wartungsproblemen führt. Konfigurationstabellen erleichtern die Wartung solcher Varianten und das Umschalten zwischen ihnen.
 
+<div class="mw-translate-fuzzy">
 Dieses Tutorial setzt voraus, dass du mit dem [[PartDesign_Workbench/de|PartDesign Arbeitsbereich]] und dem [[Sketcher_Workbench/de|Sketcher Arbeitsbereich]] vertraut bist. Du solltest auch mit der [[Tree view/de|Baumansicht]] und dem [[Property_editor/de|Eigenschafteneditor]] vertraut sein.
+</div>
 
 Es gibt auch eine [https://www.youtube.com/watch?v=m9C_ahIVKOI Videoversion dieses Tutorials].
 
@@ -48,6 +50,7 @@ Die einzelnen Parameterwerte für unsere Varianten sind in dieser Tabelle beschr
 <span id="Instructions"></span>
 ==Anleitung==
 
+<div class="mw-translate-fuzzy">
 # Erstelle eine neue [[Spreadsheet_CreateSheet/de|Tabelle]] mit einer Überschriftenzeile. Lasse die zweite Zeile leer. Diese Zeile enthält die aktuelle Konfiguration und wird später automatisch ausgefüllt. Füge Parameter für M10 und M12 in den Zeilen 3 und 4 hinzu: <p>[[File:Variant-link-spreadsheet-table-example-before-configuration-table.png]]</p>
 # Verwende den [[PartDesign_Workbench/de|Arbeitsbereich PartDesign]], um einen [[PartDesign_Body/de|Körper]] und eine [[PartDesign_NewSketch/de|Skizze]] für die Sechskantmutter zu erstellen. Die Maßbeschränkung wird in einem späteren Schritt hinzugefügt. <p>[[File:Variant-link-example-hex-nut-sketch-unconstrained.png]]</p>
 # [[PartDesign_Pad/de|Aufpolsterung]] der Skizze. Akzeptiere den Standardlängenwert.
@@ -67,6 +70,7 @@ Die einzelnen Parameterwerte für unsere Varianten sind in dieser Tabelle beschr
 # Setze {{PropertyView|Use Binder Style}} auf {{FALSE}} auf dem Binder.
 # Ändere das {{PropertyData|Placement}} des Binders, sodass er vom Body weg ist.
 # Wenn du fertig bist, solltest du etwa Folgendes haben: <p>[[File:Variant-link-finished-example-document.png|500px]]</p>
+</div>
 
 <span id="Use_Std_Link_instead_of_PartDesign_SubShapeBinder"></span>
 ===Verwende Std Link anstelle von PartDesign TeilFormBinder===
