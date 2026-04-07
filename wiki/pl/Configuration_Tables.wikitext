@@ -48,27 +48,25 @@ Konkretne wartości parametrów dla naszych wariantów są opisane w tej tabeli:
 <span id="Instructions"></span>
 ===Wytyczne===
 
-<div class="mw-translate-fuzzy">
 # Utwórz nowy [[Spreadsheet_CreateSheet/pl|arkusz kalkulacyjny]] z nagłówkiem w pierwszym wierszu. Zostaw drugi wiersz pusty. Ten wiersz będzie przechowywał bieżącą konfigurację i zostanie automatycznie wypełniony później. Dodaj parametry dla M10 i M12 w wierszach 3 i 4: <p>[[File:Variant-link-spreadsheet-table-example-before-configuration-table.png]]</p>
 # Użyj [[PartDesign_Workbench/pl|środowiska pracy Projekt Części]] do stworzenia [[PartDesign_Body|Zawartości]] i [[PartDesign_NewSketch|szkicu]] dla nakrętki sześciokątnej. Wiązanie wymiarowe zostanie dodane w dalszym kroku. <p>[[File:Variant-link-example-hex-nut-sketch-unconstrained.png]]</p>
 # [[PartDesign_Pad/pl|Wyciągnij]] szkic. Zaakceptuj domyślną wartość Długości.
-# Kliknij prawym przyciskiem myszy na komórkę A2 w arkuszu kalkulacyjnym i wybierz {{MenuCommand|Tabela konfiguracji...}} z menu kontekstowego.
+# Kliknij prawym przyciskiem myszy na komórkę A2 w arkuszu kalkulacyjnym i wybierz {{MenuCommand|Tabela konfiguracji}} z menu kontekstowego.
 # Otworzy się okno dialogowe {{MenuCommand|Konfiguracja Tabeli}}.
 # Wprowadź następujące dane: <p>[[File:Variant-link-example-setup-configuration-table.png]]</p> To wypełnia drugi wiersz w tabeli, dodaje nową właściwość {{PropertyData|Configuration}} do Zawartości i wiąże tabelę konfiguracji z nią.
 # Naciśnij przycisk {{Button|OK}}.
-# Jeśli komórka A2 pokazuje {{Value|#PENDING}}, możesz kliknąć arkusz prawym przyciskiem myszy w [[Tree_view/pl|widoku drzewa]] i wybrać {{MenuCommand|Przelicz obiekt}} aby pokazać poprawną wartość.
+# Jeśli komórka A2 pokazuje {{Value|#PENDING}}, możesz kliknąć arkusz prawym przyciskiem myszy w [[Tree_View/pl|Widoku drzewa]] i wybrać {{MenuCommand|Przelicz obiekt}} aby pokazać poprawną wartość.
 # Nadaj alias dla 3 komórek w wierszu 2 pod nagłówkami <u>Diameter</u>, <u>WidthAcrossCorners</u> i <u>Thickness</u>.  Każdy alias powinien odpowiadać nagłówkowi kolumny komórki. <p>[[File:Variant-link-spreadsheet-table-example.png]]</p>
 # Zwiąż szkic dwoma wiązaniami i przypisz do nich [[Expressions/pl|wyrażenia]] {{Value|Spreadsheet.Diameter}} i {{Value|Spreadsheet.WidthAcrossCorners}}: <p>[[File:Variant-link-example-hex-nut-sketch.png]]</p>
 # Przypisz {{Value|Spreadsheet.Thickness}} do właściwości {{PropertyData|Length}} wyciągnięcia.
 # Utwórz [[PartDesign_SubShapeBinder/pl|łącznik kształtów podrzędnych]].
-# W [[Tree_view/pl|widoku drzewa]] przeciągnij łącznik kształtów podrzędnych z Zawartości i upuść go na węźle Dokumentu.
+# W [[Tree_View/pl|Widoku drzewa]], przeciągnij łącznik kształtów podrzędnych z Zawartości i upuść go na węźle Dokumentu.
 # Upuść Zawartość na łącznik, aby ustawić jego właściwość {{PropertyData|Support}} na Zawartość. Upuszczenie jest wymagane, ponieważ ta właściwość jest domyślnie tylko do odczytu.
 # Ustaw właściwość {{PropertyData|Bind Copy on Change}} łącznika na {{Value|Enabled}}.
 # Wybierz {{Value|M12}} dla właściwości {{PropertyData|Configuration}} łącznika.
 # Ustaw właściwość {{PropertyView|Use Binder Style}} na {{FALSE}} dla łącznika.
 # Zmień właściwość {{PropertyData|Placement}} łącznika, aby był oddalony od Zawartości.
 # Po zakończeniu powinieneś mieć coś takiego: <p>[[File:Variant-link-finished-example-document.png|500px]]</p>
-</div>
 
 <span id="Use_Std_Link_instead_of_PartDesign_SubShapeBinder"></span>
 ===Użyj Łącza zamiast Łącznika kształtów podrzędnych===
