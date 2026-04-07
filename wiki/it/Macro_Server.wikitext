@@ -20,9 +20,7 @@ Strumento utile per l'automazione di FreeCAD. L'obiettivo è un programma piccol
 
 Gestione remota di FreeCAD, senza effettiva modifica del modello (per tale scopo, vedere Estensioni).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You need client to send commands to this server. Included is simple python command line utility as reference implementation.
-</div>
+È necessario un client per inviare comandi a questo server. È inclusa una semplice utility da riga di comando in Python come implementazione di riferimento.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This allows you to globally (but still in server's space not FreeCAD itself) select :
