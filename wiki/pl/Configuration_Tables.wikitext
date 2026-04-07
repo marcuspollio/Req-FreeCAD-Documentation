@@ -16,7 +16,9 @@ Wraz z wydaniem [[Release_notes_0.20/pl#Środowisko_pracy_Arkusz_Kalkulacyjny|Fr
 
 Wcześniej można było parametryzować obiekty za pomocą technik takich jak arkusze kalkulacyjne, ale jednoczesne istnienie wielu zróżnicowanych instancji tego samego obiektu było niemożliwe, chyba że użyto technik takich jak kopiowanie plików lub obiektów, co powodowało problemy z utrzymaniem. Tabele konfiguracyjne ułatwiają zarządzanie takimi wariantami oraz możliwość łatwego przełączania się między nimi.
 
+<div class="mw-translate-fuzzy">
 Ten poradnik zakłada, że jesteś już częściowo zaznajomiony ze środowiskami [[PartDesign_Workbench/pl|Projekt Części]] i [[Sketcher_Workbench/pl|Szkicownik]]. Powinieneś też umieć korzystać z [[Tree view/pl|widoku drzewa]] i [[Property_editor/pl|Edytora właściwości]].
+</div>
 
 Jest tez dostępna [https://www.youtube.com/watch?v=m9C_ahIVKOI wersja wideo tego poradnika].
 
@@ -48,6 +50,7 @@ Konkretne wartości parametrów dla naszych wariantów są opisane w tej tabeli:
 <span id="Instructions"></span>
 ===Wytyczne===
 
+<div class="mw-translate-fuzzy">
 # Utwórz nowy [[Spreadsheet_CreateSheet/pl|arkusz kalkulacyjny]] z nagłówkiem w pierwszym wierszu. Zostaw drugi wiersz pusty. Ten wiersz będzie przechowywał bieżącą konfigurację i zostanie automatycznie wypełniony później. Dodaj parametry dla M10 i M12 w wierszach 3 i 4: <p>[[File:Variant-link-spreadsheet-table-example-before-configuration-table.png]]</p>
 # Użyj [[PartDesign_Workbench/pl|środowiska pracy Projekt Części]] do stworzenia [[PartDesign_Body|Zawartości]] i [[PartDesign_NewSketch|szkicu]] dla nakrętki sześciokątnej. Wiązanie wymiarowe zostanie dodane w dalszym kroku. <p>[[File:Variant-link-example-hex-nut-sketch-unconstrained.png]]</p>
 # [[PartDesign_Pad/pl|Wyciągnij]] szkic. Zaakceptuj domyślną wartość Długości.
@@ -67,6 +70,7 @@ Konkretne wartości parametrów dla naszych wariantów są opisane w tej tabeli:
 # Ustaw właściwość {{PropertyView|Use Binder Style}} na {{FALSE}} dla łącznika.
 # Zmień właściwość {{PropertyData|Placement}} łącznika, aby był oddalony od Zawartości.
 # Po zakończeniu powinieneś mieć coś takiego: <p>[[File:Variant-link-finished-example-document.png|500px]]</p>
+</div>
 
 <span id="Use_Std_Link_instead_of_PartDesign_SubShapeBinder"></span>
 ===Użyj Łącza zamiast Łącznika kształtów podrzędnych===
