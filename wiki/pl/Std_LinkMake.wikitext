@@ -137,10 +137,8 @@ Dzięki temu nadpisaniu Łącza nadal mogą działać jako lekkie odniesienia, b
 
 W projektach wymagających łączy wariantowych zalecana jest struktura dwupoziomowa:
 
-<div class="mw-translate-fuzzy">
-# '''Magazyn (prototypy):''' utwórz grupę w korzeniu dokumentu, która będzie pełnić rolę magazynu. Umieść tu swoje podstawowe części. Jeśli potrzebujesz wariantu (np. śruby o innej długości), stwórz Łącze do części bazowej, ustaw jego {{PropertyData|LinkCopyOnChange}} na {{Value|Enabled}} (lub {{Value|Owned}}) i zmodyfikuj szerokość. To Łącze jest '''prototypem'''.
-# '''Instancje:''' używaj zwykłych Łączy ({{PropertyData|LinkCopyOnChange}}={{Value|Disabled}}) wskazujących na prototypy, aby umieszczać je w modelu.
-</div> 
+# '''Magazyn (prototypy):''' utwórz grupę w korzeniu dokumentu, która będzie pełnić rolę magazynu. Umieść tu swoje podstawowe części. Jeśli potrzebujesz wariantu (np. śruby o innej długości), stwórz Łącze do części bazowej, ustaw jego {{PropertyData|LinkCopyOnChange}} na {{Value|Enabled}} (lub {{Value|Owned}}) i zmodyfikuj długość. To Łącze jest '''prototypem'''.
+# '''Instancje:''' używaj zwykłych Łączy ({{PropertyData|LinkCopyOnChange}}={{Value|Disabled}}) wskazujących na prototypy, aby umieszczać je w modelu. 
 
 Jest to korzystne pod względem:
 * '''Wydajność:''' większość instancji pozostaje lekkimi referencjami do wspólnego prototypu.
