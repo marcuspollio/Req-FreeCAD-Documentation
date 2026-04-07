@@ -20,7 +20,7 @@ With the release of [[Release_notes_0.20#Spreadsheet_Workbench|FreeCAD V0.20]] t
 Prior to this, you could parameterize objects with techniques such as spreadsheets, but multiple varied instances of that object couldn't exist at the same time unless you resorted to techniques like copying files or objects which creates maintenance issues. Configuration tables make the maintenance of such variants, and the ability to toggle between them easy.
 
 <!--T:5-->
-This tutorial assumes that you have some familiarity with the [[PartDesign_Workbench|PartDesign Workbench]] and the [[Sketcher_Workbench|Sketcher Workbench]]. You should also be familiar with the [[Tree_View|Tree View]] and the [[Property_View|Property editor]].
+This tutorial assumes that you have some familiarity with the [[PartDesign_Workbench|PartDesign Workbench]] and the [[Sketcher_Workbench|Sketcher Workbench]]. You should also be familiar with the [[Tree_View|Tree View]] and the [[Property_View|Property View]].
 
 <!--T:6-->
 There is also a [https://www.youtube.com/watch?v=m9C_ahIVKOI video version of this tutorial].
@@ -61,7 +61,7 @@ The particular parameter values for our variants are described in this table:
 # Create a new [[Spreadsheet_CreateSheet|spreadsheet]] with a heading row. Leave the second row empty. That row will hold the current configuration and will automatically be filled later. Add parameters for M10 and M12 in rows 3 and 4: <p>[[File:Variant-link-spreadsheet-table-example-before-configuration-table.png]]</p>
 # Use the [[PartDesign_Workbench|PartDesign Workbench]] to create a [[PartDesign_Body|Body]] and [[PartDesign_NewSketch|Sketch]] for the hex nut. Dimensional constraint will be added in a later step. <p>[[File:Variant-link-example-hex-nut-sketch-unconstrained.png]]</p>
 # [[PartDesign_Pad|Pad]] the Sketch. Accept the default Length value.
-# Right-click cell A2 in the spreadsheet and select {{MenuCommand|Configuration table…}} from the context menu.
+# Right-click cell A2 in the spreadsheet and select {{MenuCommand|Configuration Table}} from the context menu.
 # The {{MenuCommand|Setup Configuration Table}} dialog opens.
 # Enter the following: <p>[[File:Variant-link-example-setup-configuration-table.png]]</p> This fills out the second row in the table, adds a new {{PropertyData|Configuration}} property to the Body and binds the configuration table to it.
 # Press the {{Button|OK}} button.
@@ -74,7 +74,7 @@ The particular parameter values for our variants are described in this table:
 # Drop the Body on the Binder to set its {{PropertyData|Support}} property to the Body. Dropping is required as this property is Read Only by default.
 # Set the {{PropertyData|Bind Copy on Change}} property to {{Value|Enabled}} on the Binder.
 # Select {{Value|M12}} for the {{PropertyData|Configuration}} property of the Binder.
-# Set {{PropertyView|Use Binder Style}} property to {{FALSE}} on the Binder.
+# Set the {{PropertyView|Use Binder Style}} property to {{FALSE}} on the Binder.
 # Change the {{PropertyData|Placement}} property of the Binder so that it's away from the Body. 
 # Once finished, you should have something like the following: <p>[[File:Variant-link-finished-example-document.png|500px]]</p>
 
