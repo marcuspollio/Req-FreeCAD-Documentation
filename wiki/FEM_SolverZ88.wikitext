@@ -63,6 +63,10 @@ The following types of finite elements are supported by the Z88 solver implement
 * 6-node triangle and 8-node quadrangle - 3D shell and plate, 2D plane stress and axisymmetric formulations.
 Linear triangles and quadrangles are not supported at all. Beam elements are not yet supported.
 
+== Limitations ==
+* Currently, only displacements (in mm), nodal forces and nodal moments are provided as contour map results. Stress values are loaded into the text document object.
+* In multimaterial models, all materials must be explicitly assigned.
+
 == Preferences == <!--T:13-->
 
 <!--T:14-->
