@@ -26,7 +26,7 @@ Cette fonction fonctionne de manière similaire à [[FEM_MeshClear/fr|FEM Suppri
 ==Utilisation==
 
 # Cliquez avec le bouton droit de la souris sur un objet maillé FEM [[Image:FEM_MeshNetgenFromShape.svg|16px]] [[FEM_MeshNetgenFromShape/fr|Netgen]] ou [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/fr|Gmsh]] dans l'[[Tree_View/fr|arborescence]].
-# Sélectionnez l'option {{MenuCommand|[[Image:FEM_MeshClearGroups.svg|16px]] Supprimer les groupes de maillage}} dans le menu contextuel.
+# Sélectionnez l'option {{MenuCommand|[[Image:FEM_MeshClearGroups.svg|16px]] Supprimer des groupes de maillage}} dans le menu contextuel.
 
 <span id="Notes"></span>
 ==Remarques==
