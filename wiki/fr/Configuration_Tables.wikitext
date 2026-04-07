@@ -16,9 +16,7 @@ Avec la sortie de [[Release_notes_0.20/fr#Atelier_Spreadsheet|FreeCAD V0.20]], d
 
 Auparavant, il était possible de paramétrer des objets à l'aide de techniques telles que les feuilles de calcul, mais plusieurs instances variées de cet objet ne pouvaient pas exister en même temps, à moins de recourir à des techniques telles que la copie de fichiers ou d'objets, ce qui pose des problèmes de maintenance. Les tables de configuration permettent de gérer ces variantes et de passer facilement de l'une à l'autre.
 
-<div class="mw-translate-fuzzy">
-Ce tutoriel suppose que vous êtes familiarisé avec l'[[PartDesign_Workbench/fr|atelier PartDesign]] et l'[[Sketcher_Workbench/fr|atelier Sketcher]]. Vous devez également être familiarisé avec la [[Tree_view/fr|vue en arborescence]] et l'[[Property_editor/fr|éditeur de propriétés]].
-</div>
+Ce tutoriel suppose que vous êtes familiarisé avec l'[[PartDesign_Workbench/fr|atelier PartDesign]] et l'[[Sketcher_Workbench/fr|atelier Sketcher]]. Vous devez également être familiarisé avec l'[[Tree_View/fr|arborescence]] et l'[[Property_View/fr|éditeur de propriétés]].
 
 Il existe également une [https://www.youtube.com/watch?v=m9C_ahIVKOI version vidéo de ce tutoriel].
 
