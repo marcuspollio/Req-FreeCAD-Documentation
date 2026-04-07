@@ -48,27 +48,25 @@ Les valeurs particulières des paramètres de nos variantes sont décrites dans 
 <span id="Instructions"></span>
 == Instructions ==
 
-<div class="mw-translate-fuzzy">
 # Créez une nouvelle [[Spreadsheet_CreateSheet/fr|feuille de calcul]] avec une ligne d'en-tête. Laissez la deuxième ligne vide. Cette ligne contiendra la configuration actuelle et sera automatiquement remplie plus tard. Ajoutez les paramètres pour M10 et M12 dans les lignes 3 et 4 : <p>[[File:Variant-link-spreadsheet-table-example-before-configuration-table.png]]</p>
 # Utilisez l'[[PartDesign_Workbench|atelier PartDesign]] pour créer un [[PartDesign_Body/fr|corps]] et une [[PartDesign_NewSketch/fr|esquisse]] pour l'écrou hexagonal. La contrainte dimensionnelle sera ajoutée dans une étape ultérieure. <p>[[File:Variant-link-example-hex-nut-sketch-unconstrained.png]].</p>
 # Faites une [[PartDesign_Pad/fr|protrusion]] de l'esquisse. Accepter la valeur par défaut de la longueur.
-# Cliquez avec le bouton droit de la souris sur la cellule A2 de la feuille de calcul et sélectionnez {{MenuCommand|Table de configuration...}} dans le menu contextuel.
+# Cliquez avec le bouton droit de la souris sur la cellule A2 de la feuille de calcul et sélectionnez {{MenuCommand|Table de configuration}} dans le menu contextuel.
 # La fenêtre de dialogue {{MenuCommand|Table de configuration}} s'ouvre.
 # Saisissez ce qui suit : <p>[[File:Variant-link-example-setup-configuration-table.png]]</p> Ceci remplit la deuxième ligne du tableau, ajoute une nouvelle propriété {{PropertyData|Configuration}} au corps et y lie la table de configuration.
 # Appuyez sur le bouton {{Button|OK}}.
-# Si la cellule A2 affiche {{Value|#PENDING}}, vous pouvez cliquer avec le bouton droit de la souris sur la feuille de calcul dans la [[Tree_view/fr|vue en arborescence]] et choisir {{MenuCommand|Recompute object}} pour afficher la valeur correcte.
+# Si la cellule A2 affiche {{Value|#PENDING}}, vous pouvez cliquer avec le bouton droit de la souris sur la feuille de calcul dans l'[[Tree_View/fr|arborescence]] et choisir {{MenuCommand|Recompute object}} pour afficher la valeur correcte.
 # Définissez un alias pour les 3 cellules de la ligne 2 sous <u>Diameter</u>, <u>WidthAcrossCorners</u> et <u>Thickness</u>. Chaque alias doit correspondre à l'en-tête de colonne de la cellule. <p>[[File:Variant-link-spreadsheet-table-example.png]]</p>[[File:Variant-link-spreadsheet-table-example.png]].
 # Contraignez l'esquisse avec deux contraintes et liez les [[Expressions/fr|expressions]] {{Value|Spreadsheet.Diameter}} et {{Value|Spreadsheet.WidthAcrossCorners}} : <p>[[File:Variant-link-example-hex-nut-sketch.png]]</p>
-# Lier {{Value|Spreadsheet.Thickness}} à la {{PropertyData|Length}} de la protrusion.
+# Liez la propriété {{Value|Spreadsheet.Thickness}} à la propriété {{PropertyData|Length}} de la protrusion.
 # Créez une [[PartDesign_SubShapeBinder/fr|sous forme liée]].
-# Dans la [[Tree_view/fr|vue en arborescence]], faites glisser le Binder hors du corps et déposez-le sur le nœud Document.
+# Dans l'[[Tree_View/fr|arborescence]], faites glisser le Binder hors du corps et déposez-le sur le nœud Document.
 # Déposez le corps sur le Binder pour définir sa propriété {{PropertyData|Support}} sur le corps. Le dépôt est nécessaire car cette propriété est en lecture seule par défaut.
-# Définissez la {{PropertyData|Bind Copy on Change}} à {{Value|Enabled}} du Binder.
+# Définissez la propriété {{PropertyData|Bind Copy on Change}} à {{Value|Enabled}} du Binder.
 # Sélectionnez {{Value|M12}} pour la propriété {{PropertyData|Configuration}} du Binder.
-# Définissez {{PropertyView|Use Binder Style}} à {{FALSE}} du Binder.
-# Changez {{PropertyData|Placement}} du Binder pour qu'il soit éloigné du corps. 
+# Définissez la propriété {{PropertyView|Use Binder Style}} à {{FALSE}} du Binder.
+# Changez la propriété {{PropertyData|Placement}} du Binder pour qu'il soit éloigné du corps. 
 # Une fois terminé, vous devriez avoir quelque chose comme ce qui suit : <p>[[File:Variant-link-finished-example-document.png|500px]]</p>.
-</div>
 
 <span id="Use_Std_Link_instead_of_PartDesign_SubShapeBinder"></span>
 ===Utiliser Std Lien au lieu de PartDesign Sous forme liée===
