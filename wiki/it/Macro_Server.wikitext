@@ -66,9 +66,7 @@ Il server si avvia eseguendo una macro. Lo si arresta allo stesso modo. La macro
 
 === Client ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Included client script accepts command(s) in form of command line arguments. Each argument is one command.
-</div>
+Lo script client incluso accetta comandi sotto forma di argomenti da riga di comando. Ogni argomento corrisponde a un comando.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 e.g.: ./freecad-ctl.py 'dMy_document_1' C '!B1 123' C
