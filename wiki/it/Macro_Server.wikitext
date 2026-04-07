@@ -76,9 +76,8 @@ Questo seleziona '''My_document_1''', restituisce tutti i valori delle celle nel
 
 Non dimenticare di impostare il percorso ROOT per i file stdin/stdout del server, sia nel client che nel server, prima di eseguirlo (variabile ROOT all'inizio di entrambi i codici sorgente). I file stdin/stdout verranno creati automaticamente.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Communication protocol ===
-</div>
+<span id="Communication_protocol"></span>
+=== Protocollo di comunicazione ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Informations are exchanged thru two files. From server's POV one is input, the other output. From client's POV server's input is its output and vice versa.
