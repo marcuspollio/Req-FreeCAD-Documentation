@@ -16,9 +16,7 @@ Mit der Veröffentlichung von [[Release_notes_0.20#Spreadsheet_Workbench|FreeCAD
 
 Zuvor konntest du Objekte mit Techniken wie Tabellenkalkulationen parametrisieren, aber mehrere verschiedene Instanzen dieses Objekts konnten nicht gleichzeitig existieren, es sei denn, du verwendest Techniken wie das Kopieren von Dateien oder Objekten, was zu Wartungsproblemen führt. Konfigurationstabellen erleichtern die Wartung solcher Varianten und das Umschalten zwischen ihnen.
 
-<div class="mw-translate-fuzzy">
-Dieses Tutorial setzt voraus, dass du mit dem [[PartDesign_Workbench/de|PartDesign Arbeitsbereich]] und dem [[Sketcher_Workbench/de|Sketcher Arbeitsbereich]] vertraut bist. Du solltest auch mit der [[Tree view/de|Baumansicht]] und dem [[Property_editor/de|Eigenschafteneditor]] vertraut sein.
-</div>
+Diese Anleitung setzt voraus, dass du mit den Arbeitsbereichen [[PartDesign_Workbench/de|PartDesign]] und [[Sketcher_Workbench/de|Sketcher]] vertraut bist. Du solltest dich auch mit der [[Tree_View/de|Baumansicht]] und der [[Property_View/de|Eigenschaften-Ansicht]] auskennen.
 
 Es gibt auch eine [https://www.youtube.com/watch?v=m9C_ahIVKOI Videoversion dieses Tutorials].
 
