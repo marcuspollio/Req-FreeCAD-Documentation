@@ -48,27 +48,25 @@ Die einzelnen Parameterwerte für unsere Varianten sind in dieser Tabelle beschr
 <span id="Instructions"></span>
 ==Anleitung==
 
-<div class="mw-translate-fuzzy">
 # Erstelle eine neue [[Spreadsheet_CreateSheet/de|Tabelle]] mit einer Überschriftenzeile. Lasse die zweite Zeile leer. Diese Zeile enthält die aktuelle Konfiguration und wird später automatisch ausgefüllt. Füge Parameter für M10 und M12 in den Zeilen 3 und 4 hinzu: <p>[[File:Variant-link-spreadsheet-table-example-before-configuration-table.png]]</p>
-# Verwende den [[PartDesign_Workbench/de|Arbeitsbereich PartDesign]], um einen [[PartDesign_Body/de|Körper]] und eine [[PartDesign_NewSketch/de|Skizze]] für die Sechskantmutter zu erstellen. Die Maßbeschränkung wird in einem späteren Schritt hinzugefügt. <p>[[File:Variant-link-example-hex-nut-sketch-unconstrained.png]]</p>
+# Verwende den [[PartDesign_Workbench/de|Arbeitsbereich PartDesign]], um einen [[PartDesign_Body/de|Körper]] und eine [[PartDesign_NewSketch/de|Skizze]] für die Sechskantmutter zu erstellen. Die maßlichte Randbedingung wird in einem späteren Schritt hinzugefügt. <p>[[File:Variant-link-example-hex-nut-sketch-unconstrained.png]]</p>
 # [[PartDesign_Pad/de|Aufpolsterung]] der Skizze. Akzeptiere den Standardlängenwert.
-# Klicke mit der rechten Maustaste auf Zelle A2 in der Tabelle und wähle {{MenuCommand|Konfigurationstabelle...}} aus dem Kontextmenü.
+# Klicke mit der rechten Maustaste auf Zelle A2 in der Tabelle und wähle {{MenuCommand|Konfigurationstabelle}} aus dem Kontextmenü.
 # Das Dialogfeld {{MenuCommand|Konfigurationstabelle einrichten}} wird geöffnet.
-# Gebe Folgendes ein: <p>[[File:Variant-link-example-setup-configuration-table.png]]</p> Dadurch wird die zweite Zeile in der Tabelle ausgefüllt, dem Body eine neue {{PropertyData|Configuration}}-Eigenschaft hinzugefügt und die Konfigurationstabelle daran gebunden.
-# Drücke die {{Button|OK}}-Taste.
-# Wenn Zelle A2 {{Value|#PENDING}} anzeigt, kannst du mit der rechten Maustaste auf die Tabelle in der [[Tree_view/de|Baumansicht]] klicken und {{MenuCommand|Objekt neu berechnen}} auswählen, um den richtigen Wert anzuzeigen.
+# Gebe Folgendes ein: <p>[[File:Variant-link-example-setup-configuration-table.png]]</p> Dadurch wird die zweite Zeile in der Tabelle ausgefüllt, dem Body eine neue {{PropertyData/de|Configuration}} hinzugefügt und die Konfigurationstabelle daran gebunden.
+# Drücke die Schaltfläche {{Button|OK}}.
+# Wenn Zelle A2 {{Value|#PENDING}} anzeigt, kannst du mit der rechten Maustaste auf die Tabelle in der [[Tree_View/de|Baumansicht]] klicken und {{MenuCommand|Objekt neu berechnen}} auswählen, um den richtigen Wert anzuzeigen.
 # Lege einen Alias ​​für die 3 Zellen in Zeile 2 unter <u>Durchmesser</u>, <u>Eckmaß</u> und <u>Dicke</u> fest. Jeder Alias ​​sollte mit der Spaltenüberschrift der Zelle übereinstimmen. <p>[[File:Variant-link-spreadsheet-table-example.png]]</p>
-# Beschränke die Skizze mit zwei Einschränkungen und binde die [[Expressions/de|Ausdrücke]] {{Value|Spreadsheet.Durchmesser}} und {{Value|Spreadsheet.Breite über Ecken}} an sie: <p>[[File:Variant-link-example-hex-nut-sketch.png]]</p>
-# Binde {{Value|Spreadsheet.Dicke}} an die {{PropertyData|Länge}} des Pads.
-# Erstelle einen [[PartDesign_SubShapeBinder/de|PartDesign TeilFormBinder]].
-# Ziehe in der [[Tree_view/de|Baumansicht]] den Binder aus dem Body und lege ihn auf dem Dokumentknoten ab.
-# Lege den Body auf dem Binder ab, um seine {{PropertyData|Support}}-Eigenschaft auf den Body zu setzen. Das Ablegen ist erforderlich, da diese Eigenschaft standardmäßig schreibgeschützt ist.
-# Setze {{PropertyData|Bind Copy on Change}} auf dem Binder auf {{Value|Enabled}}.
-# Wähle {{Value|M12}} für die {{PropertyData|Configuration}}-Eigenschaft des Binders.
-# Setze {{PropertyView|Use Binder Style}} auf {{FALSE}} auf dem Binder.
-# Ändere das {{PropertyData|Placement}} des Binders, sodass er vom Body weg ist.
+# Lege die Skizze mit zwei Randbedingungen fest und binde die [[Expressions/de|Ausdrücke]] {{Value|Spreadsheet.Durchmesser}} und {{Value|Spreadsheet.Breite über Ecken}} an sie: <p>[[File:Variant-link-example-hex-nut-sketch.png]]</p>
+# Binde {{Value|Spreadsheet.Dicke}} an die {{PropertyData/de|Länge}} des Pads.
+# Erstelle einen [[PartDesign_SubShapeBinder/de|PartDesign Teilformbinder]].
+# Ziehe in der [[Tree_View/de|Baumansicht]] den Binder aus dem Body und lege ihn auf dem Dokumentknoten ab.
+# Lege den Body auf dem Binder ab, um seine {{PropertyData/de|Support}} auf den Body zu setzen. Das Ablegen ist erforderlich, da diese Eigenschaft standardmäßig schreibgeschützt ist.
+# Setze die {{PropertyData/de|Bind Copy on Change}} auf dem Binder auf {{Value|Enabled}}.
+# Wähle {{Value|M12}} für die {{PropertyData/de|Configuration}} des Binders.
+# Setze die {{PropertyView/de|Use Binder Style}} auf {{FALSE}} auf dem Binder.
+# Ändere die {{PropertyData/de|Placement}} des Binders, sodass er vom Body weg ist.
 # Wenn du fertig bist, solltest du etwa Folgendes haben: <p>[[File:Variant-link-finished-example-document.png|500px]]</p>
-</div>
 
 <span id="Use_Std_Link_instead_of_PartDesign_SubShapeBinder"></span>
 ===Verwende Std Link anstelle von PartDesign TeilFormBinder===
