@@ -16,7 +16,9 @@ Avec la sortie de [[Release_notes_0.20/fr#Atelier_Spreadsheet|FreeCAD V0.20]], d
 
 Auparavant, il était possible de paramétrer des objets à l'aide de techniques telles que les feuilles de calcul, mais plusieurs instances variées de cet objet ne pouvaient pas exister en même temps, à moins de recourir à des techniques telles que la copie de fichiers ou d'objets, ce qui pose des problèmes de maintenance. Les tables de configuration permettent de gérer ces variantes et de passer facilement de l'une à l'autre.
 
+<div class="mw-translate-fuzzy">
 Ce tutoriel suppose que vous êtes familiarisé avec l'[[PartDesign_Workbench/fr|atelier PartDesign]] et l'[[Sketcher_Workbench/fr|atelier Sketcher]]. Vous devez également être familiarisé avec la [[Tree_view/fr|vue en arborescence]] et l'[[Property_editor/fr|éditeur de propriétés]].
+</div>
 
 Il existe également une [https://www.youtube.com/watch?v=m9C_ahIVKOI version vidéo de ce tutoriel].
 
@@ -48,6 +50,7 @@ Les valeurs particulières des paramètres de nos variantes sont décrites dans 
 <span id="Instructions"></span>
 == Instructions ==
 
+<div class="mw-translate-fuzzy">
 # Créez une nouvelle [[Spreadsheet_CreateSheet/fr|feuille de calcul]] avec une ligne d'en-tête. Laissez la deuxième ligne vide. Cette ligne contiendra la configuration actuelle et sera automatiquement remplie plus tard. Ajoutez les paramètres pour M10 et M12 dans les lignes 3 et 4 : <p>[[File:Variant-link-spreadsheet-table-example-before-configuration-table.png]]</p>
 # Utilisez l'[[PartDesign_Workbench|atelier PartDesign]] pour créer un [[PartDesign_Body/fr|corps]] et une [[PartDesign_NewSketch/fr|esquisse]] pour l'écrou hexagonal. La contrainte dimensionnelle sera ajoutée dans une étape ultérieure. <p>[[File:Variant-link-example-hex-nut-sketch-unconstrained.png]].</p>
 # Faites une [[PartDesign_Pad/fr|protrusion]] de l'esquisse. Accepter la valeur par défaut de la longueur.
@@ -67,6 +70,7 @@ Les valeurs particulières des paramètres de nos variantes sont décrites dans 
 # Définissez {{PropertyView|Use Binder Style}} à {{FALSE}} du Binder.
 # Changez {{PropertyData|Placement}} du Binder pour qu'il soit éloigné du corps. 
 # Une fois terminé, vous devriez avoir quelque chose comme ce qui suit : <p>[[File:Variant-link-finished-example-document.png|500px]]</p>.
+</div>
 
 <span id="Use_Std_Link_instead_of_PartDesign_SubShapeBinder"></span>
 ===Utiliser Std Lien au lieu de PartDesign Sous forme liée===
