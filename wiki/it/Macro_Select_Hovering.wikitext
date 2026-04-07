@@ -120,16 +120,14 @@ Icona barra degli strumenti [[File:Macro Select Hovering.png|Macro Select Hoveri
 
 ver 00.04b (30/06/2025) : tornato a PySide e adattato il codice
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-ver 00.04 (11/01/2024) : add:
-*LineEdit info, 
-*ComboBox memo selection, 
-*Button Memo selection, 
-*Button Selected by body
-*Button Reset Data
-*Button Reset Memo
-*Button Remove Selection
-</div>
+ver 00.04 (11/01/2024): aggiunte:
+*Informazioni LineEdit,
+*Selezione ComboBox memo,
+*Selezione pulsante memo,
+*Pulsante Selected by body
+*Pulsante Reset Data
+*Pulsante Reset Memo
+*Pulsante Remove Selection
 
 ver 00.03b (28/10/2020) : add print'''()''' for Python 3
 
