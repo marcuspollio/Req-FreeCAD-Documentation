@@ -83,9 +83,8 @@ Le informazioni vengono scambiate tramite due file. Dal punto di vista del serve
 
 Ogni comando restituisce una risposta.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Command format ====
-</div>
+<span id="Command_format"></span>
+==== Formato comando ====
 
 <syntaxhighlight lang="text">
 <one-letter-mod><name> <data string>
