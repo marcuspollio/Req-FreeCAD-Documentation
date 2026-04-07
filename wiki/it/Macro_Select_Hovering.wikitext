@@ -40,11 +40,9 @@ Passare sopra agli elementi con il mouse
 
 ====Section Edge====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{CheckBox}} Select Edge → 4 number of edge(s)
-{{LineEdit|40.0}} length total of selections
-{{LineEdit|10.0}} length of the latest selection
-</div>
+{{CheckBox}} Selezionare bordo → 4 numero di bordi
+{{LineEdit|40.0}} lunghezza totale delle selezioni
+{{LineEdit|10.0}} lunghezza dell'ultima selezione
 
 ====Section Vertex====
 
