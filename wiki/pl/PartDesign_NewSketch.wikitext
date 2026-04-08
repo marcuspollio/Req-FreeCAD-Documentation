@@ -45,17 +45,15 @@ Podczas tworzenia modeli przy użyciu środowiska [[PartDesign_Workbench/pl|Proj
 ::[[File:PartDesign.CreateSketch.SelectFeatureDialog.jpeg|300px]]
 :: Okno dialogowe ''Wybierz cechę''. Te ustawienia tworzą szkic na płaszczyźnie XY i umożliwiają odniesienia z innych elementów tej samej bryły.
 
-<div class="mw-translate-fuzzy">
 Ustawienia okna dialogowego
 * Pole układu współrzędnych: określa orientację płaszczyzny szkicu.
 * Zezwalaj na używane cechy:
-: Zezwalaj na cechy zewnętrzne
-* Z innych zawartości tej samej bryły: można odwoływać się do dowolnych elementów używanych w obrębie tej samej bryły.
-* Z różnych części lub swobodnych cech:
-* Utwórz niezależną kopię: wszystkie inne elementy będą oddzielnymi kopiami, tj. nie zmienią się, gdy zmieni się oryginał.
-* Utwórz zależną kopię: elementy będą kopiami, ale zachowana zostanie zależność od oryginalnych elementów. Jest to w zasadzie użycie funkcji [[PartDesign_ShapeBinder/pl|Łącznik kształtu]].
-* Utwórz dowiązanie: połączone elementy nie będą kopiami, ale będą wskazywać na oryginalne elementy, np. szkic główny. Wszelkie zmiany są odzwierciedlane w tym szkicu
-</div> 
+* Zezwalaj na cechy zewnętrzne
+** Z innych zawartości tej samej bryły: można odwoływać się do dowolnych elementów używanych w obrębie tej samej bryły.
+** Z różnych części lub swobodnych cech:
+*** Utwórz niezależną kopię (zalecane): wszystkie inne elementy będą oddzielnymi kopiami, tj. nie zmienią się, gdy zmieni się oryginał.
+*** Utwórz zależną kopię: elementy będą kopiami, ale zachowana zostanie zależność od oryginalnych elementów. Jest to w zasadzie użycie funkcji [[PartDesign_ShapeBinder/pl|Łącznik kształtu]].
+*** Utwórz dowiązanie: połączone elementy nie będą kopiami, ale będą wskazywać na oryginalne elementy, np. szkic główny. Wszelkie zmiany są odzwierciedlane w tym szkicu 
 
 Aby odwołać się do dowolnych elementów w w obrębie środowiska pracy [[Sketcher_Workbench/pl|Szkicownik]], użyj przycisków {{Button|[[Image:Sketcher_External.svg|16px]] [[Sketcher_External/pl|Utwórz zewnętrzną geometrię]]}} i {{Button|[[File:Sketcher_CarbonCopy.svg|16px]] [[Sketcher_CarbonCopy/pl|Utwórz kalkę techniczną]]}}. Generalnie zaleca się używanie innych szkiców jako źródła odniesień, a nie ścian lub krawędzi, ponieważ są one w mniejszym stopniu dotknięte problemem nazewnictwa topologicznego.
 
