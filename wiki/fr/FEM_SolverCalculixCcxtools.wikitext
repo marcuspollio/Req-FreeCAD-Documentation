@@ -43,7 +43,7 @@ Permet d'utiliser le solveur [https://fr.wikipedia.org/wiki/Calculix CalculiX]. 
 # Pour le solveur ccx hérité :
 #* Cliquez sur le bouton {{Button|Écrire un fichier .inp}}.
 #* Si vous le souhaitez, cochez la case {{Button|Répertoire de travail}}, puis cliquez sur {{Button|Écrire}} et {{Button|Modifier}} pour modifier le fichier d'entrée avant de lancer l'analyse.
-#* Cliquez sur {{Button|Appliquer}} pour lancer l'analyse.
+#* Cliquez sur {{Button|Lancer}} pour lancer l'analyse.
 
 <span id="Properties"></span>
 ==Propriétés==
