@@ -266,9 +266,8 @@ Przykładowy plik [[Arch_IFC/pl|IFC]] powinien pojawić się w katalogu build i 
 
 Jeżeli nie zostanie podany plik wyjściowy, domyślnie zostanie utworzony plik [[Arch_OBJ/pl|OBJ]] wraz z odpowiadającą mu tabelą materiałów (MTL).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Installation of the compiled libraries ===
-</div>
+<span id="Installation_of_the_compiled_libraries"></span>
+=== Instalacja skompilowanych bibliotek ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If the compilation doesn't report any errors, you may run {{incode|make install}} to copy the headers, compiled libraries, and binaries to their corresponding installation directories.
