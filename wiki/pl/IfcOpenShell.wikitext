@@ -294,9 +294,7 @@ Moduł Pythona {{incode|ifcopenshell}}, wymagany przez FreeCAD, nie znajduje si�
 /usr/lib/python3/dist-packages/ifcopenshell/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If the {{incode|USERSPACE_PYTHON_PREFIX}} variable was set during the CMake configuration step, {{incode|ifcopenshell}} will be placed in the user's {{incode|site-packages/}} directory.
-</div>
+Jeżeli zmienna {{incode|USERSPACE_PYTHON_PREFIX}} została ustawiona podczas konfiguracji CMake, moduł {{incode|ifcopenshell}} zostanie umieszczony w katalogu {{incode|site-packages/}} użytkownika.
 {{Code|code=
 $HOME/.local/lib/python3.6/site-packages/ifcopenshell/
 }}
