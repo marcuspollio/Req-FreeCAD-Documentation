@@ -172,9 +172,7 @@ sudo mv /usr/local/lib/libcarve.so /usr/local/lib/x86_64-linux-gnu/libcarve.so
 sudo ldconfig
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Alternatively, you may set the {{incode|LD_LIBRARY_PATH}} variable to the directory containing {{incode|libcarve.so}}, before launching the executable:
-</div>
+Alternatywnie możesz ustawić zmienną {{incode|LD_LIBRARY_PATH}} na katalog zawierający {{incode|libcarve.so}} przed uruchomieniem pliku wykonywalnego:
 {{Code|code=
 LD_LIBRARY_PATH=/usr/local/lib SimpleViewerExample
 }}
