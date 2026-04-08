@@ -54,9 +54,7 @@ git clone https://github.com/ifcquery/ifcplusplus ifcplusplus-source
 
 === OpenSceneGraph ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-[http://www.openscenegraph.org/ OpenSceneGraph] (OSG) is a collection of C++ libraries that uses OpenGL for 3D visualization; it can be used in games, virtual reality, scientific visualization and modelling.
-</div>
+[http://www.openscenegraph.org/ OpenSceneGraph] (OSG) to zbiór bibliotek C++, który wykorzystuje OpenGL do wizualizacji 3D; może być używany w grach, rzeczywistości wirtualnej, wizualizacji naukowej i modelowaniu.
 
 {{Code|code=
 sudo apt install libopenscenegraph-3.4-dev
