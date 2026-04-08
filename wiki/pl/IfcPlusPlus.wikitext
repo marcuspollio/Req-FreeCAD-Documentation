@@ -160,9 +160,7 @@ Gdy {{incode|SimpleViewerExample}} zostanie umieszczony w {{incode|/usr/local/bi
 SimpleViewerExample: error while loading shared libraries: libcarve.so: cannot open shared object file: No such file or directory
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If this is the case, it may be enough to update the cache of the {{incode|ld.so}} library loader by calling {{incode|ldconfig}}:
-</div>
+Jeżeli tak jest, może wystarczyć zaktualizowanie pamięci podręcznej loadera bibliotek {{incode|ld.so}} poprzez wywołanie {{incode|ldconfig}}:
 {{Code|code=
 sudo ldconfig
 }}
