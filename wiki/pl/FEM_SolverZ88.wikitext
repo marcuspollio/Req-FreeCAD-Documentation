@@ -31,12 +31,12 @@ Polecenie '''SolverZ88''' umożliwia użycie solvera [https://en.wikipedia.org/w
 <span id="Installation"></span>
 ==Instalacja==
 
-<div class="mw-translate-fuzzy">
-Do korzystania z solvera Z88 musi być zainstalowana otwarta wersja Z88 ''(Z88OS)'':
-# Pobierz paczkę ZIP z kodem z [https://github.com/lscad/z88os Z88OS repozytorium Z88OS].
-# Rozpakuj plik ZIP do wybranego folderu.
-# W [[FEM_Preferences/pl|preferencjach MES]] przejdź do zakładki Z88 i ustaw tam ścieżkę do pliku wykonywalnego '''z88r'''. Jeśli korzystasz z systemu Windows, będzie to ścieżka do pliku {{FileName|z88r.exe}} w podfolderze {{FileName|~\bin\win64}} katalogu, do którego rozpakowałeś plik ZIP.
-</div>
+Do korzystania z solvera Z88 musi być zainstalowana otwarta wersja Z88 (Z88OS lub Z88Adria - zobacz [[#Uwagi|Uwagi]], aby uzyskać więcej informacji):
+# Pobierz paczkę ZIP package z kodem, plikami wykonywalnymi i dokumentacją jednej z wersji:
+#* Z88OS: [https://github.com/lscad/z88os oficjalne repozytorium Z88OS] lub [https://github.com/FreeCAD/Z88OS fork repozytorium Z88OS]
+#* Z88Adria: [https://en.z88.de/download-z88adria/ Z88Adria strona pobierania].
+# Wypakuj zawartość paczki ZIP do dowolnego folderu.
+# W [[FEM_Preferences/pl|preferencjach dla środowiska pracy MES]], przejdź do zakładki Z88 i ustaw ścieżkę do pliku wykonywalnego '''z88r'''. W przypadku systemu Windows jest to ścieżka do pliku {{FileName|z88r.exe}} w podkatalogu {{FileName|\bin\win64}} dla Z88OS lub {{FileName|\z88adria_windows}} dla Z88Adria.
 
 <span id="Usage"></span>
 ==Użycie==
