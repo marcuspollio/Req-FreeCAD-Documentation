@@ -32,17 +32,14 @@ Skorzystaj z instrukcji w oficjalnym repozytorium [https://github.com/ifcquery/i
 <span id="Compiling_in_Linux"></span>
 == Kompilacja w systemie Linux ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The general instructions are as follows:
-# Get the source code of IFC++ from its main repository.
-# Gather all dependencies for compiling, including a C++ compiler, CMake, and Make, and the development files for Boost, Qt 5, as well as the OpenSceneGraph (OSG) library for visualization.
-# Run {{incode|cmake}} to generate a {{incode|Makefile}}, then start the compilation by running {{incode|make}}.
-# Install the {{incode|libIfcPlusPlus.a}} and {{incode|libcarve.so}} libraries to the appropriate library path so that they are found by the IFC++ sample viewer.
-</div>
+Ogólne instrukcje przedstawiają się następująco:
+# Pobierz kod źródłowy IFC++ z jego głównego repozytorium.
+# Zgromadź wszystkie zależności potrzebne do kompilacji, w tym kompilator C++, CMake, Make oraz pliki developerskie dla Boost, Qt 5, a także bibliotekę OpenSceneGraph (OSG) do wizualizacji.
+# Uruchom {{incode|cmake}}, aby wygenerować {{incode|Makefile}}, a następnie rozpocznij kompilację, wydając polecenie {{incode|make}}.
+# Zainstaluj biblioteki {{incode|libIfcPlusPlus.a}} i {{incode|libcarve.so}} w odpowiedniej ścieżce bibliotek, aby były wykrywane przez przykładową przeglądarkę IFC++.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Prerequisites ===
-</div>
+<span id="Prerequisites"></span>
+===Wymagania wstępne===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In a Debian/Ubuntu based distribution, getting the required development files is usually simple.
