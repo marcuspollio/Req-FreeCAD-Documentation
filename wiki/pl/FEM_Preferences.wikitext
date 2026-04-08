@@ -212,7 +212,6 @@ Na tej stronie można określić następujące parametry:
 
 Na tej stronie można określić następujące parametry:
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 34%;"|Nazwa
 !style="width: 66%;"|Opis
@@ -223,13 +222,12 @@ Na tej stronie można określić następujące parametry:
 | {{MenuCommand|Metoda Solvera}}
 | Metoda solvera używana przez [[FEM_SolverZ88/pl|solver Z88]] dla nowych symulacji.
 |-
-| {{MenuCommand|Maksymalna ilość miejsc w macierzy sztywności}}
+| {{MenuCommand|Liczba miejsc w macierzy sztywności}}
 | Jest to istotne, gdy używana jest metoda solvera '''Simple Cholesky'''. Po uruchomieniu solvera może pojawić się informacja, że należy zwiększyć wartość parametru '''MAXGS'''. W takim przypadku należy zwiększyć maksymalną liczbę miejsc i ponownie uruchomić solver.
 |-
-| {{MenuCommand|Maksymalna ilość miejsc w wektorze zbieżności}}
+| {{MenuCommand|Liczba miejsc w wektorze zbieżności}}
 | Jest to istotne, gdy używana jest jedna z metod iteracyjnych solvera. Po uruchomieniu solvera może pojawić się informacja o konieczności zwiększenia wartości '''MAXKOI'''. W takim przypadku należy zwiększyć maksymalną liczbę miejsc i ponownie uruchomić solver.
 |}
-</div>
 
 ==Netgen==
 
