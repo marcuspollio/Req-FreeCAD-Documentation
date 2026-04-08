@@ -141,9 +141,8 @@ Należy pamiętać, że plik {{incode|CMakeLists.txt}}, który steruje pracą CM
 
 W zależności od używanej dystrybucji Linuksa i sposobu instalacji zależności, może być konieczne zdefiniowanie niektórych zmiennych CMake, aby biblioteki zostały poprawnie odnalezione.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Specifying the OpenCASCADE libraries ====
-</div>
+<span id="Specifying_the_OpenCASCADE_libraries"></span>
+==== Określanie bibliotek OpenCASCADE ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you manually compiled OpenCASCADE, or if the libraries are not in a standard directory, you may have to set the proper variables.
