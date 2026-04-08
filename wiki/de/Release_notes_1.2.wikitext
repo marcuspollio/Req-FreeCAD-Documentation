@@ -166,7 +166,6 @@ ToDo (last check: 20260318):
 <span id="Further_FEM_improvements"></span>
 === Weitere FEM-Verbesserungen ===
 
-<div class="mw-translate-fuzzy">
 * Die Last der [[Image:FEM_ConstraintElectricChargeDensity.svg|24px]] [[FEM_ElectricChargeDensity/de|Elektrische Ladungsdichte]] verfügt nun im Modus ''Total Source'' über ein Kontrollkästchen ''Concentrated'', um mit CalculiX Punktlasten anstelle von verteilten Lasten (Flächen-/Streckenlasten) zu verwenden (wodurch sie auch auf Kanten und Eckpunkte anwendbar ist). [https://github.com/FreeCAD/FreeCAD/pull/25237 Pull-Request #25237]
 * Die [[Image:FEM_ResultShow.svg|24px]] [[FEM_ResultShow/de|FEM-Ergebnisobjekte]] unterstützen nun zusätzlich zu umgekehrten Vollzyklen auch die Animation von Halbzyklen. [https://github.com/FreeCAD/FreeCAD/pull/24129 Pull-Request #24129]
 * Die [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint/de|Querschnitt-Druckfunktion]] unterstützt nun 2D-Modelle und den elektrischen Fluss in elektrostatischen Analysen. [https://github.com/FreeCAD/FreeCAD/pull/25081 Pull-Request #25081]
@@ -182,8 +181,7 @@ ToDo (last check: 20260318):
 * Der Z-Refinement-Algorithmus von [[Image:FEM_MeshNetgenFromShape.svg|24px]] [[FEM_MeshNetgenFromShape/de|Netgen]], der das Erstellen extrudierter Netze ermöglicht, unterstützt jetzt auch Hüllobjekte. [https://github.com/FreeCAD/FreeCAD/pull/28204 Pull-Request #28204]
 * Es ist jetzt möglich, die Eingabedateien für die Vernetzer zu bearbeiten, um einige individuelle Befehle zum Erstellen von Netzen hinzuzufügen, ähnlich wie es schon für die Gleichungslöser möglich ist. Es wurden auch einige allgemeine FEM-Einstellungen verbessert. [https://github.com/FreeCAD/FreeCAD/pull/27942 Pull-Request #27942]
 * Die Randbedingung [[Image:FEM_ConstraintElectrostaticPotential.svg|24px]] [[FEM_ConstraintElectrostaticPotential/de|Elektrostatische Potential-Randbedingung]] heißt jetzt ''Elektrostatische Potential-Randbedingung''. Es erfolgten kleinere Umbenennungen. [https://github.com/FreeCAD/FreeCAD/pull/27614 Pull-Request #27614]
-* Der [[Image:FEM_SolverZ88.svg|24px]] [[FEM_SolverZ88/de|Z88-Löser]] wurde überarbeitet. Er kann mit beiden Open-Source-Versionen von Z88 – Z88OS und Z88Adria – verwendet werden. Er unterstützt verschiedene Elementtypen und grundlegende Funktionen für lineare Analysen. Für diese Löser-Implementierung sind weitere Verbesserungen geplant. [https://github.com/FreeCAD/FreeCAD/pull/28944 Pull-Request #28944]
-</div>
+* Der [[Image:FEM_SolverZ88.svg|24px]] [[FEM_SolverZ88/de|Z88-Löser]] wurde überarbeitet. Er kann mit beiden Open-Source-Versionen von Z88 – Z88OS und Z88Adria – verwendet werden. Er unterstützt verschiedene Elementtypen und grundlegende Funktionen für lineare Analysen. [https://github.com/FreeCAD/FreeCAD/pull/28944 Pull-Request #28944]
 
 <span id="Inspection_Workbench"></span>
 == Arbeitsbereich Inspection ==
