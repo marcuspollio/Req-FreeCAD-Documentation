@@ -97,9 +97,7 @@ Można również użyć edycji społecznościowej (OCE) OpenCASCADE, jednak nale
 
 === OpenCOLLADA ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Install the development files of OpenCOLLADA.
-</div>
+Zainstaluj pliki deweloperskie OpenCOLLADA.
 {{Code|code=
 sudo apt install opencollada-dev
 }}
