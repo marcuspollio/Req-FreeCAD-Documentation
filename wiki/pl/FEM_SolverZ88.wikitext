@@ -86,11 +86,11 @@ Następujące typy elementów skończonych są wspierane przez implementację so
 * 6-węzłowe trójkąty i 8-węzłowe czworokąty - sformułowania dla powłok i płyt 3D oraz płaskiego stanu naprężeń i symetrii osiowej 2D.
 Liniowe trójkąty i czworokąty nie są w ogóle wspierane. Elementy belkowe nie są jeszcze wspierane.
 
-== Notes ==
-* Z88Adria has the same capabilities/limitations as Z88OS, but doesn't launch its GUI when running the solver from FreeCAD, so Z88Adria is currently the preferred choice.
-* Pressure applied to edges of axisymmetric models must be given as in a corresponding 3D model, i.e. in units of force per unit area; the solver converts it to an equivalent force per unit length by multiplying the pressure by  <math>2 \pi R</math> (where R is the y-coordinate of the element's middle node).
-* For plate elements, the degrees of freedom are in order: Z displacement and rotations <math>\theta_{x}</math> and <math>\theta_{y}</math> (in deg).
-* A '''test''' analysis mode is available. It provides information about the solver parameters. This information is loaded into the text document object.
+== Uwagi ==
+* Z88Adria ma takie same możliwości i ograniczenia jak Z88OS, ale nie uruchamia swojego GUI podczas uruchamiania solvera z poziomu FreeCAD, więc Z88Adria jest obecnie preferowanym wyborem.
+* Ciśnienie zadawane na krawędzie modeli osiowosymetrycznych musi być podane jak w odpowiadającym modelu 3D, czyli jako siła na jednostkę powierzchni. Solver konwertuje to na równoważną siłę na jednostkę długości mnożąc ciśnienie przez <math>2 \pi R</math> (gdzie R to współrzędna y środkowego węzła elementu).
+* Dla elementów płytowych, stopnie swobody to kolejno: przemieszczenia Z i obroty <math>\theta_{x}</math> oraz <math>\theta_{y}</math> (w stopniach).
+* Dostępny jest tryb analizy '''test'''. Zapewnia on informacje o parametrach solvera. Te informacje są ładowane do obiektu dokumentu tekstowego.
 
 == Limitations ==
 * Currently, only displacements (in mm), nodal forces, and nodal moments are provided as contour map results. Stress values are loaded into the text document object.
