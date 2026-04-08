@@ -46,6 +46,7 @@
 ::[[File:PartDesign.CreateSketch.SelectFeatureDialog.jpeg|300px]]
 :: ''특징 선택(Select feature)'' 대화상자. 이러한 설정은 XY 평면에 스케치를 생성하고 동일한 몸통의 다른 항목과의 상호 참조를 허용합니다.
 
+<div class="mw-translate-fuzzy">
 대화상자 설정 
 * 좌표계 상자: 스케치 평면의 방향을 정의합니다.
 * Allow Used Features: TBD
@@ -54,7 +55,8 @@
 * From different parts or free features: ''TBD''
 * Make independent copy: all other elements will be separate copies, i.e. they will not change when the original changes.
 * Make dependent copy: the elements will be copies, but a dependency to the original elements is kept. This is basically using a [[PartDesign_ShapeBinder|Shapebinder]]
-* Create cross-reference: the linked elements will not be copies, but point to the original elements, e.g. a master sketch. Any changes are reflected to this sketch 
+* Create cross-reference: the linked elements will not be copies, but point to the original elements, e.g. a master sketch. Any changes are reflected to this sketch
+</div> 
 
 [[Sketcher_Workbench/ko|스케치 작업대]]에서 어떠한 항목을 참조하려면 {{Button|[[Image:Sketcher_External.svg|16px]] [[Sketcher_External/ko|외부 도형]]}} 및 {{Button|[[File:Sketcher_CarbonCopy.svg|16px]] [[Sketcher_CarbonCopy/ko|먹지 복사]]}} 도구를 사용합니다. 일반적으로 면이나 모서리 대신 다른 스케치를 참조용 원료로 사용하는 것이 좋습니다. 왜냐하면 [[Topological_naming_problem/ko| 위상학적 이름 지정 문제]]의 영향을 덜 받기 때문입니다.
 
