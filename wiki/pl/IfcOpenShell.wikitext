@@ -383,9 +383,8 @@ python3 /home/user/.local/lib/python3.6/site-packages/ifcopenshell/geom/app.py
 
 W chwili pisania tego tekstu (2020) obsługiwana była jedynie wersja [[PythonOCC/pl|PythonOCC]] skompilowana dla edycji społecznościowej [[OpenCASCADE/pl|OpenCASCADE]] (OCE).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== IFC online viewer ==
-</div>
+<span id="IFC_online_viewer"></span>
+== Przeglądarka IFC online ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The IfcOpenShell project has also developed "IFC Pipeline", a self-hosted IFC processing and visualization program. It also provides a small web application that accepts file uploads, which anybody can use. This means that to visualize IFC data you don't need to have IfcOpenShell, or other viewers, installed locally; you can just load your IFC file into this system to see the result.
