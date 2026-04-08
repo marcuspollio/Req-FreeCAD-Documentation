@@ -33,7 +33,7 @@ The [[FEM_SolverZ88|SolverZ88]] command enables usage of the [https://en.wikiped
 ==Installation== <!--T:10-->
 
 <!--T:11-->
-To use the Z88 solver, the open-source version of Z88 (Z88OS or Z88Adria) needs to be installed:
+To use the Z88 solver, the open-source version of Z88 (Z88OS or Z88Adria - see [[#Notes|Notes]] for more details) needs to be installed:
 # Download the ZIP package with the code of either version:
 #* Z88OS: [https://github.com/lscad/z88os official Z88OS repository] or [https://github.com/FreeCAD/Z88OS forked Z88OS repository]
 #* Z88Adria: [https://en.z88.de/download-z88adria/ Z88Adria download page].
