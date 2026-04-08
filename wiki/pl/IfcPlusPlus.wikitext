@@ -210,9 +210,7 @@ Główny deweloper IFC++ nie wspiera bezpośrednio systemu Linux, więc dewelope
 <span id="Invisible_icons"></span>
 === Niewidoczne ikony ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For the {{incode|SimpleViewerExample}}, there are two buttons in the main interface which are invisible if the custom style sheet is not found.
-</div>
+W przypadku {{incode|SimpleViewerExample}} w głównym interfejsie znajdują się dwa przyciski, które są niewidoczne, jeśli nie zostanie odnaleziony niestandardowy arkusz stylów.
 {{Code|lang=cpp|code=
 QIODevice::read (QFile, ":styles.css"): device not open
 }}
