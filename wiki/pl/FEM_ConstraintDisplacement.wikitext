@@ -9,7 +9,6 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
 {{GuiCommand/pl
 |Name=FEM ConstraintDisplacement
@@ -20,10 +19,9 @@
 |SeeAlso=[[FEM_tutorial/pl|Poradnik MES]]
 }}
 {{GuiCommandFemInfo/pl
-|Solvers=CalculiX, Elmer
+|Solvers=CalculiX, Elmer, Z88
 }}
 }}
-</div>
 
 <span id="Description"></span>
 ==Opis==
