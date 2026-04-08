@@ -94,16 +94,13 @@ cd ifcplusplus-build
 cmake ../ifcplusplus-source/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-By default the type of build is {{incode|Release}} but it can also be set to {{incode|Debug}}.
-</div>
+Domyślnie typ kompilacji to {{incode|Release}}, ale można go również ustawić na {{incode|Debug}}.
 {{Code|code=
 cmake -DCMAKE_BUILD_TYPE=Debug ../ifcplusplus-source/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Actual compilation ===
-</div>
+<span id="Actual_compilation"></span>
+=== Właściwa kompilacja ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If there were no error messages during configuration with CMake, a {{incode|Makefile}} should have been created in the build directory, so you can proceed to compile the libraries by running {{incode|make}}.
