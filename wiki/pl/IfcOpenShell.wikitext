@@ -289,9 +289,7 @@ Domyślnie {{incode|CMAKE_INSTALL_PREFIX}} jest ustawiony na {{incode|/usr/local
 /usr/local/lib/libSerializers*.a
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The {{incode|ifcopenshell}} Python module that is required for FreeCAD is not actually present in the build directory; this package is created only when {{incode|make install}} is run. The resulting package is placed in a {{incode|site-packages/}} directory, or a {{incode|dist-packages/}} directory for Debian/Ubuntu distributions.
-</div>
+Moduł Pythona {{incode|ifcopenshell}}, wymagany przez FreeCAD, nie znajduje się faktycznie w katalogu build; pakiet ten jest tworzony dopiero po uruchomieniu {{incode|make install}}. Powstały pakiet jest umieszczany w katalogu {{incode|site-packages/}} lub w katalogu {{incode|dist-packages/}} w dystrybucjach Debian/Ubuntu.
 {{Code|code=
 /usr/lib/python3/dist-packages/ifcopenshell/
 }}
