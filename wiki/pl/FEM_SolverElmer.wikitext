@@ -50,21 +50,20 @@ Elmer jest gotowy do użycia we FreeCAD.
 <span id="Usage"></span>
 ==Użycie==
 
-<div class="mw-translate-fuzzy">
 # Przełącz się na [[Image:Workbench_FEM.svg|16px]] [[FEM_Workbench/pl|środowisko pracy MES]]
 # Utwórz [[Image:FEM_Analysis.svg|16px]] kontener [[FEM_Analysis/pl|Analiza]].
 # Istnieje kilka sposobów na wywołanie tego polecenia:
 #* Naciśnij przycisk {{Button|[[Image:FEM_SolverElmer.svg|16px]] [[FEM_SolverElmer/pl|Solver Elmer]]}}.
-#* Wybierz opcję {{MenuCommand|Rozwiąż → [[Image:FEM_SolverElmer.svg|16px]] Solver Elmer}} z menu.
+#* Wybierz opcję {{MenuCommand|Rozwiąż → Solvery → [[Image:FEM_SolverElmer.svg|16px]] Solver Elmer}} z menu.
 #* Użyj skrótu klawiaturowego: {{KEY|S}} a następnie {{KEY|E}}.
-# Edytuj parametry solvera w [[Property_editor/pl|edytorze właściwości]], w zakładce {{Button|Dane}} obiektu SolverElmer w [[Tree_view/pl|widoku drzewa]].
-# Dwukrotnie kliknij na obiekcie {{KEY|[[Image:FEM_SolverElmer.svg|16px]] SolverElmer}} aby przygorować analizę do uruchomienia.
+# Opcjonalnie edytuj parametry solvera w [[Property_View/pl|Widoku właściwości]], w zakładce {{Button|Dane}} obiektu SolverElmer w [[Tree_View/pl|Widoku drzewa]].
+# Dodaj równanie lub równania definiujące problem fizyczny do rozwiązania i wielkości do obliczenia.
+# Dwukrotnie kliknij na obiekcie [[Image:FEM_SolverElmer.svg|16px]] SolverElmer, aby przygorować analizę do uruchomienia.
 #: [[Image:ElmerSolver TaskPanel.png|300px]]
 #: {{Caption|Okno dialogowe do uruchomienia analizy przy pomocy solvera Elmer.}}
-# Wybierz ścieżkę do zapisania analizy wciskając przycisk {{Button|...}}.
-# Wciśnij przycisk {{Button|Zapisz}} aby zapisać pliki analizy w wybranym wcześniej katalogu.
-# Wciśnij przycisk {{Button|Uruchom}} aby rozpocząć obliczenia.
-</div>
+# Opcjonalnie zaznacz pole {{Button|Ścieżka robocza}}, kliknij {{Button|Zapisz}} i {{Button|Edytuj}}, aby edytować plik wejściowy ''case.sif'' przed uruchomieniem analizy.
+# Opcjonalnie wybierz {{MenuCommand|Typ symulacji}} (Scanning, Steady State or Transient).
+# Kliknij {{Button|Zastosuj}}, aby uruchomić analizę.
 
 Uwaga: Poprawnie zdefiniowana analiza wymaga co najmniej Modelu ''(2D lub 3D)'', Materiału ''([[FEM_MaterialFluid/pl|płynu]] lub [[FEM_MaterialSolid/pl|ciała stałego]])'',[[FEM_MeshGmshFromShape|siatki]], równań i  warunków brzegowych.
 
