@@ -164,6 +164,7 @@ ToDo (last check: 20260318):
 <span id="Further_FEM_improvements"></span>
 === Autres améliorations de FEM ===
 
+<div class="mw-translate-fuzzy">
 * La [[Image:FEM_ConstraintElectricChargeDensity.svg|24px]] [[FEM_ElectricChargeDensity/fr|densité de charge électrique]] dispose désormais d'une case à cocher « Concentrée » dans le mode « Source totale » pour utiliser une charge concentrée au lieu d'une charge distribuée (ce qui la rend également applicable aux arêtes et aux sommets) avec CalculiX. [https://github.com/FreeCAD/FreeCAD/pull/25237 Pull request #25237]
 * Les [[Image:FEM_ResultShow.svg|24px]] [[FEM_ResultShow/fr|résultats de FEM]] prennent désormais en charge l'animation de demi-cycles en plus des cycles complets inversés. [https://github.com/FreeCAD/FreeCAD/pull/24129 Pull request #24129]
 * La fonction [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint/fr|Enregistrer les résultats par section]] prend désormais en charge les modèles 2D et le flux électrique dans les analyses électrostatiques. [https://github.com/FreeCAD/FreeCAD/pull/25081 Pull request #25081]
@@ -180,6 +181,7 @@ ToDo (last check: 20260318):
 * Il est désormais possible de modifier les fichiers d'entrée des maillages afin d'ajouter des commandes personnalisées pour la génération de maillages, à l'instar de ce qui était déjà possible pour les solveurs. Certaines préférences générales de l'atelier FEM ont également été améliorées. [https://github.com/FreeCAD/FreeCAD/pull/27942 Pull request #27942]
 * La [[Image:FEM_ConstraintElectrostaticPotential.svg|24px]] [[FEM_ConstraintElectrostaticPotential/fr|condition aux limites de potentiel électrostatique]] s'appelle désormais ''Condition aux limites électromagnétique''. D'autres modifications mineures de nom ont été effectuées. [https://github.com/FreeCAD/FreeCAD/pull/27614 Pull request #27614]
 * Le [[Image:FEM_SolverZ88.svg|24px]] [[FEM_SolverZ88/fr|solveur Z88]] a été refactorisé. Il peut être utilisé avec les deux versions open source de Z88 : Z88OS et Z88Adria. Il prend en charge plusieurs types d'éléments ainsi que les fonctions de base pour les analyses linéaires. D'autres améliorations sont prévues pour cette implémentation du solveur. [https://github.com/FreeCAD/FreeCAD/pull/28944 Pull request #28944]
+</div>
 
 <span id="Inspection_Workbench"></span>
 == Atelier Inspection ==
@@ -310,11 +312,13 @@ ToDo (last check: 20260318):
 <span id="Further_TechDraw_improvements"></span>
 === Autres améliorations de TechDraw ===
 
+<div class="mw-translate-fuzzy">
 * Les arêtes arrondies dans [[TechDraw_Workbench/fr|TechDraw]] sont désormais représentées par une ligne fine, conformément aux normes de dessin ISO. [https://github.com/FreeCAD/FreeCAD/pull/27747 Pull request #27747]
 * La police, la taille de police et la taille des flèches des lignes des coupes dans [[TechDraw_SectionView/fr|TechDraw Vue en coupe]] sont désormais configurables pour chaque vue via les propriétés de vue. [https://github.com/FreeCAD/FreeCAD/pull/27521 Pull request #27521]
 * Les cotes angulaires de [[TechDraw_Workbench/fr|TechDraw]] prennent désormais en charge l'affichage de l'angle supplémentaire (180° moins l'angle mesuré) via une propriété de vue. [https://github.com/FreeCAD/FreeCAD/pull/27055 Pull request #27055]
 * Le tracé des vues est désormais nettement plus rapide. [https://github.com/FreeCAD/FreeCAD/pull/25898 Pull request #25898] et [https://github.com/FreeCAD/FreeCAD/pull/28702 Pull request #28702]
 * Le panneau de tâches [[TechDraw_ActiveView/fr|Vue active]] a été repensé avec un espacement amélioré, une liste déroulante pour la sélection du style d'arrière-plan et des paramètres de recadrage regroupés qui se désactivent automatiquement lorsqu'ils ne sont pas utilisés. [https://github.com/FreeCAD/FreeCAD/pull/28085 Pull request #28085]
+</div>
 
 <span id="Import_and_export"></span>
 ==Importer et exporter ==
