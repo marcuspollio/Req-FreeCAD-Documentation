@@ -137,9 +137,7 @@ cd IfcOpenShell-build
 cmake ../IfcOpenShell-source/cmake/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Notice that the {{incode|CMakeLists.txt}} file that drives CMake is inside the {{incode|cmake/}} subdirectory in the source directory.
-</div>
+Należy pamiętać, że plik {{incode|CMakeLists.txt}}, który steruje pracą CMake, znajduje się w podkatalogu {{incode|cmake/}} w katalogu źródłowym.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Depending on your Linux distribution, and the way you installed the dependencies, you may have to define some CMake variables so that the libraries are found properly.
