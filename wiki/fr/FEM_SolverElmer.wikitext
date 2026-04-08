@@ -9,16 +9,14 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/fr
 |Name=FEM SolverElmer
 |Name/fr=FEM Solveur Elmer
-|MenuLocation=Résolution → Solveur Elmer
+|MenuLocation=Résolution → Solveurs → Solveur Elmer
 |Workbenches=[[FEM_Workbench/fr|FEM]]
 |Shortcut={{KEY|S}} {{KEY|E}}
 |SeeAlso=[[FEM_SolverElmer_SolverSettings/fr|FEM Paramètres du solveur Elmer]], [[FEM_SolverCalculixCcxtools/fr|FEM Solveur CalculiX]], [[FEM_SolverZ88/fr|FEM Solveur Z88]], [[FEM_tutorial/fr|FEM Tutoriel]]
 }}
-</div>
 
 ==Description==
 
