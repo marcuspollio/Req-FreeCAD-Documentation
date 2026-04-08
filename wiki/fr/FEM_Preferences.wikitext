@@ -214,7 +214,6 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 
 Sur cette page, vous pouvez spécifier les éléments suivants :
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nom
 !style="width: 66%;"|Description
@@ -225,13 +224,12 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | {{MenuCommand|Méthode du solveur}}.
 | Méthode de résolution utilisée par le [[FEM_SolverZ88/fr|solveur Z88]] pour les nouvelles simulations.
 |-
-| {{MenuCommand|Nombre maximum de points dans une matrice de raideur}}
+| {{MenuCommand|Valeurs de la matrice de raideur}}
 | Ceci est pertinent lorsque la méthode du solveur ''Simple Cholesky'' est utilisée. Après avoir démarré le solveur, il peut vous indiquer que vous devez augmenter la valeur ''MAXGS''. Dans ce cas, augmentez les valeurs maximales et relancez le solveur.
 |-
-| {{MenuCommand|Taille maximale dans le vecteur de coïncidence}}
+| {{MenuCommand|Valeurs du vecteur de coïncidence}}
 | Ceci est pertinent lorsqu'une des méthodes de solveur itératif est utilisée. Après avoir lancé le solveur, il peut vous indiquer que vous devez augmenter la valeur ''MAXKOI''. Dans ce cas, augmentez les valeurs maximales et relancez le solveur.
 |}
-</div>
 
 ==Netgen==
 
