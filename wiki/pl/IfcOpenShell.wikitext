@@ -184,9 +184,7 @@ cmake \
 <span id="Specifying_the_libxml2_libraries"></span>
 ==== Określanie bibliotek libxml2 ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If the {{incode|libxml2}} libraries are not found during compilation and linking, or if the libraries are not in a standard directory, you may have to set the proper variables.
-</div>
+Jeżeli biblioteki {{incode|libxml2}} nie zostaną znalezione podczas kompilacji i linkowania, lub jeśli znajdują się w niestandardowym katalogu, może być konieczne ustawienie odpowiednich zmiennych.
 
 {{Code|code=
 cmake \
