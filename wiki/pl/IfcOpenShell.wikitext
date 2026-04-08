@@ -220,16 +220,12 @@ cmake \
 <span id="Single_configuration_line"></span>
 ==== Pojedyncza linia konfiguracji ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In a typical Debian/Ubuntu system you may use this line to configure the compilation. Adjust it as necessary.
-</div>
+W typowym systemie Debian/Ubuntu możesz użyć tej linii do skonfigurowania kompilacji. Dostosuj ją w razie potrzeby.
 {{Code|code=
 cmake -DOCC_INCLUDE_DIR=/usr/include/opencascade -DOCC_LIBRARY_DIR=/usr/lib/x86_64-linux-gnu -DLIBXML2_INCLUDE_DIR=/usr/include/libxml2 -DLIBXML2_LIBRARIES=/usr/lib/x86_64-linux-gnu/libxml2.so -DUSERSPACE_PYTHON_PREFIX=ON ../IfcOpenShell-source/cmake/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Without OpenCOLLADA:
-</div>
+Bez OpenCOLLADA:
 {{Code|code=
 cmake -DOCC_INCLUDE_DIR=/usr/include/opencascade -DOCC_LIBRARY_DIR=/usr/lib/x86_64-linux-gnu -DCOLLADA_SUPPORT=FALSE -DLIBXML2_INCLUDE_DIR=/usr/include/libxml2 -DLIBXML2_LIBRARIES=/usr/lib/x86_64-linux-gnu/libxml2.so -DUSERSPACE_PYTHON_PREFIX=ON ../IfcOpenShell-source/cmake/
 }}
