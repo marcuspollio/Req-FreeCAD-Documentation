@@ -214,6 +214,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 
 Sur cette page, vous pouvez spécifier les éléments suivants :
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nom
 !style="width: 66%;"|Description
@@ -230,6 +231,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | {{MenuCommand|Taille maximale dans le vecteur de coïncidence}}
 | Ceci est pertinent lorsqu'une des méthodes de solveur itératif est utilisée. Après avoir lancé le solveur, il peut vous indiquer que vous devez augmenter la valeur ''MAXKOI''. Dans ce cas, augmentez les valeurs maximales et relancez le solveur.
 |}
+</div>
 
 ==Netgen==
 
