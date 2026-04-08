@@ -386,11 +386,9 @@ W chwili pisania tego tekstu (2020) obsługiwana była jedynie wersja [[PythonOC
 <span id="IFC_online_viewer"></span>
 == Przeglądarka IFC online ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The IfcOpenShell project has also developed "IFC Pipeline", a self-hosted IFC processing and visualization program. It also provides a small web application that accepts file uploads, which anybody can use. This means that to visualize IFC data you don't need to have IfcOpenShell, or other viewers, installed locally; you can just load your IFC file into this system to see the result.
-* Online viewer: https://view.ifcopenshell.org/
-* Repository: [https://github.com/AECgeeks/ifc-pipeline AECgeeks/ifc-pipeline]
-</div>
+Projekt IfcOpenShell opracował również "IFC Pipeline", samodzielny program do przetwarzania i wizualizacji plików IFC. Udostępnia on także małą aplikację webową, która przyjmuje przesyłane pliki i może być używana przez każdego. Oznacza to, że do wizualizacji danych IFC nie jest konieczne lokalne zainstalowanie IfcOpenShell ani innych przeglądarek - wystarczy załadować plik IFC do tego systemu, aby zobaczyć wynik.
+* Przeglądarka online: https://view.ifcopenshell.org/
+* Repozytorium: [https://github.com/AECgeeks/ifc-pipeline AECgeeks/ifc-pipeline]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == More information ==
