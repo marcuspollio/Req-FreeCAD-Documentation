@@ -20,9 +20,7 @@ Biblioteka IFC++ może być używana do celów ogólnych, a dodatkowo zawiera pr
 
 Dystrybucja IFC++ jest udostępniana jako kod źródłowy, więc aby korzystać z biblioteki i przeglądarki, kod musi zostać skompilowany.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-IFC++ is developed mostly on a Windows platform, so it includes solution ({{incode|.snl}}) and project ({{incode|.vcxproj}}) files to compile the {{incode|IfcPlusPlus.dll}} dynamic library using Visual Studio. A static library {{incode|libIfcPlusPlus.a}} can also be produced for Linux using CMake.
-</div>
+IFC++ jest rozwijany głównie na platformie Windows, dlatego zawiera pliki rozwiązania ({{incode|.sln}}) i projektu ({{incode|.vcxproj}}), umożliwiające kompilację biblioteki dynamicznej {{incode|IfcPlusPlus.dll}} przy użyciu Visual Studio. Bibliotekę statyczną {{incode|libIfcPlusPlus.a}} można również wygenerować dla systemu Linux za pomocą CMake.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Emphasis|Note:}} there is a more complete viewer that uses pre-compiled IFC++ libraries intended for Windows. This viewer is free for use but is not open source. It is available by downloading the {{incode|SimpleViewerExampleQt.zip}} package from {{URL|http://www.ifcquery.com/}}, and running {{incode|SimpleViewerExampleQt.exe}}. This viewer is self-contained, everything that it requires to run is included in the {{incode|.zip}} archive.
