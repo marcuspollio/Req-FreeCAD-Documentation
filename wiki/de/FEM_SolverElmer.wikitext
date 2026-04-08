@@ -9,6 +9,7 @@
 |IconC=Workbench_FEM.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=FEM SolverElmer
 |Name/de=FEM LöserElmer
@@ -17,6 +18,7 @@
 |Shortcut={{KEY|S}} {{KEY|E}}
 |SeeAlso=[[FEM_SolverElmer_SolverSettings/de|FEM LöserElmer LöserEinstellungen]], [[FEM_SolverCalculixCcxtools/de|FEM Löser CalculixCcxtools]], [[FEM_SolverZ88|FEM Löser Z88]], [[FEM_tutorial/de|FEM Tutorium]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Beschreibung==
@@ -49,6 +51,7 @@ Jetzt kann Elmer in FreeCAD genutzt werden.
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 # Zum [[Image:Workbench_FEM.svg|16px]] [[FEM_Workbench/de|Arbeitsbereich FEM]].
 # Einen [[Image:FEM_Analysis.svg|16px]] [[FEM_Analysis/de|Analyse]]-Container erstellen.
 # Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
@@ -62,11 +65,9 @@ Jetzt kann Elmer in FreeCAD genutzt werden.
 # Den Pfad zum Speichern der Analyse auswählen, indem man auf {{Button|…}} klickt.
 # Auf {{Button|Schreiben}} klicken, um die Fallakten in das zuvor ausgewählte Verzeichnis zu schreiben.
 # Auf {{Button|Ausführen}} klicken, um die Analyse zu starten.
+</div>
 
 Hinweis: Für eine erfolgreiche Analyse sind mindestens ein Modell (2D oder 3D), ein Material ([[FEM_MaterialFluid/de|MaterialFluide]] oder [[FEM_MaterialSolid/de|MaterialFeststoff]]), ein [[FEM_MeshGmshFromShape/de|NetzGmshAusForm]], Gleichungen und Randbedingungen erforderlich.
-
-[[Image:Elmer_typical_file_tree.png]]
-{{Caption|Beispiel einer  [[Tree_view/de|Baumansicht]], wenn der Löser für Elmer aktiviert ist}}
 
 <span id="Equations"></span>
 ===Gleichungen===
