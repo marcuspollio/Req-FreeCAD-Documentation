@@ -144,9 +144,7 @@ W zależności od używanej dystrybucji Linuksa i sposobu instalacji zależnośc
 <span id="Specifying_the_OpenCASCADE_libraries"></span>
 ==== Określanie bibliotek OpenCASCADE ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If you manually compiled OpenCASCADE, or if the libraries are not in a standard directory, you may have to set the proper variables.
-</div>
+Jeżeli samodzielnie skompilowałeś OpenCASCADE lub biblioteki nie znajdują się w standardowym katalogu, może być konieczne ustawienie odpowiednich zmiennych.
 
 {{Code|code=
 cmake \
