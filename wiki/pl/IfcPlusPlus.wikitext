@@ -75,9 +75,7 @@ sudo make install
 
 === Carve ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Carve is a [[constructive_solid_geometry|constructive solid geometry]] (CSG) C++ library designed to perform boolean operations between two arbitrary polygonal meshes. Together with the IFC++ library, {{incode|libIfcPlusPlus.a}}, Carve is used by the IFC++ sample viewer to open and display IFC files.
-</div>
+Carve to biblioteka C++ do [[constructive_solid_geometry/pl|geometrycznej budowy brył]] (CSG), przeznaczona do wykonywania operacji boolowskich między dowolnymi siatkami wielokątnymi. Wraz z biblioteką IFC++ ({{incode|libIfcPlusPlus.a}}), Carve jest używana przez przykładową przeglądarkę IFC++ do otwierania i wyświetlania plików IFC.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Original repository: [https://code.google.com/archive/p/carve/ carve], GPL2, from 2009 to 2011.
