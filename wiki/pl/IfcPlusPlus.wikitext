@@ -80,9 +80,7 @@ Carve to biblioteka C++ do [[constructive_solid_geometry/pl|geometrycznej budowy
 * Oryginalne repozytorium: [https://code.google.com/archive/p/carve/ carve], licencja GPL2, w latach 2009–2011.
 * Nowe repozytorium: [https://github.com/folded/carve folded/carve], od 2011 roku; projekt przeszedł na licencję MIT od października 2015.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-As the project is now MIT licensed, copies of the Carve source files are now included in the IFC++ repository. This means that when compiling IFC++, {{incode|libcarve.so}} will be compiled as well. This library must be available in the system for the IFC++ sample viewer to work properly.
-</div>
+Ponieważ projekt jest obecnie objęty licencją MIT, kopie plików źródłowych Carve są dołączone do repozytorium IFC++. Oznacza to, że podczas kompilacji IFC++ zostanie również skompilowana biblioteka {{incode|libcarve.so}}. Biblioteka ta musi być dostępna w systemie, aby przykładowa przeglądarka IFC++ działała poprawnie.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === CMake configuration ===
