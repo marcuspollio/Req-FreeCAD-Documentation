@@ -53,9 +53,8 @@ sudo apt install ifcopenshell
 
 Należy jednak zauważyć, że pakiety udostępniane w wielu repozytoriach Linuksa bywają stare i mogą nie zawierać najnowszych zmian w oprogramowaniu. Jeśli chcesz mieć pewność, że używasz najnowszej wersji, skorzystaj z dystrybucji FreeCAD opartej na [[Conda/pl|Conda]], wstępnie skompilowanej dystrybucji IfcOpenShell lub skompiluj IfcOpenShell samodzielnie.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Compiling ==
-</div>
+<span id="Compiling"></span>
+==Kompilacja==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Compiling IfcOpenShell is recommended only for advanced users. The process is similar to [[Compile_on_Linux|compiling FreeCAD on Linux]], so if you have done this already, then you may already have the necessary requisites like the [[OpenCASCADE|OpenCASCADE's]] development files. The process uses the CMake configuration tool to produce a custom {{incode|Makefile}} for use with the Make tool.
