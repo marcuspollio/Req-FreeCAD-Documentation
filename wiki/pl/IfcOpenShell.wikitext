@@ -334,9 +334,7 @@ Kompilacja całej dystrybucji IfcOpenShell generuje pliki wykonywalne, takie jak
 ../IfcOpenShell-build/ifcwrap/_ifcopenshell_wrapper.so
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Existing in the source directory:
-</div>
+* Istniejące w katalogu źródłowym:
 {{Code|code=
 ../IfcOpenShell-source/src/ifcopenshell-python/ifcopenshell/
 }}
