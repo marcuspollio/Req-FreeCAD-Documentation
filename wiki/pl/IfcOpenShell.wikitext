@@ -356,9 +356,7 @@ Lub dla instalacji dla całego systemu:
 sudo mv -t /usr/lib/python3/dist-packages/ ifcopenshell/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Now the {{incode|ifcopenshell}} module should be available to be imported from a [[Python_console|Python console]].
-</div>
+Teraz moduł {{incode|ifcopenshell}} powinien być dostępny do zaimportowania z [[Python_console/pl|konsoli Pythona]].
 {{Code|code=
 >>> import ifcopenshell
 >>> print(ifcopenshell.version)
