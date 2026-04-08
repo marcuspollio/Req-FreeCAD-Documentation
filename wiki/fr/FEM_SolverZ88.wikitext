@@ -78,7 +78,8 @@ Pour utiliser le solveur Z88, il faut installer la version open source de Z88 (Z
 ** siccg : solveur SICCG itératif pour matrices creuses recommandé pour les grandes structures
 * {{PropertyData|Vector Maximum}} : valeur MAXKOI : nombre maximal d'entrées dans le vecteur de coïncidence
 
-== Supported finite element types ==
+<span id="Supported_finite_element_types"></span>
+== Types d'éléments finis pris en charge ==
 
 The following types of finite elements are supported by the Z88 solver implementation:
 * 2-node 3D truss,
