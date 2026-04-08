@@ -22,9 +22,8 @@ import ifcopenshell
 
 IfcOpenShell można zainstalować na różne sposoby w zależności od systemu operacyjnego i środowiska Python. W przeszłości instalacja IfcOpenShell była dość trudna, ponieważ należało skompilować go dla konkretnego systemu; jednak w chwili pisania tego tekstu (2020) rozpoczęcie pracy z nim jest łatwiejsze, ponieważ w wielu dystrybucjach FreeCAD jest on już dołączony do FreeCAD. Ogólnie zaleca się korzystanie z jednej z takich wstępnie skompilowanych dystrybucji, a samodzielną kompilację pozostawić jedynie zaawansowanym użytkownikom.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== From IfcOpenShell ===
-</div>
+<span id="From_IfcOpenShell"></span>
+=== Z IfcOpenShell ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 IfcOpenShell install page: https://docs.ifcopenshell.org/ifcopenshell-python/installation.html
