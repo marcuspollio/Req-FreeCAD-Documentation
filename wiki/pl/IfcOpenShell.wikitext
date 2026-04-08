@@ -230,9 +230,8 @@ Bez OpenCOLLADA:
 cmake -DOCC_INCLUDE_DIR=/usr/include/opencascade -DOCC_LIBRARY_DIR=/usr/lib/x86_64-linux-gnu -DCOLLADA_SUPPORT=FALSE -DLIBXML2_INCLUDE_DIR=/usr/include/libxml2 -DLIBXML2_LIBRARIES=/usr/lib/x86_64-linux-gnu/libxml2.so -DUSERSPACE_PYTHON_PREFIX=ON ../IfcOpenShell-source/cmake/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Actual compilation ===
-</div>
+<span id="Actual_compilation"></span>
+=== Właściwa kompilacja ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If there were no error messages during configuration with CMake, a {{incode|Makefile}} should have been created in the build directory, so you can proceed to compile the libraries by running {{incode|make}}.
