@@ -83,9 +83,7 @@ git clone https://github.com/IfcOpenShell/IfcOpenShell -b v0.6.0 IfcOpenShell-so
 
 === OpenCASCADE ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Install the development files of [[OpenCASCADE|OpenCASCADE]].
-</div>
+Zainstaluj pliki deweloperskie [[OpenCASCADE/pl|OpenCASCADE]].
 {{Code|code=
 sudo apt install libocct*-dev
 }}
