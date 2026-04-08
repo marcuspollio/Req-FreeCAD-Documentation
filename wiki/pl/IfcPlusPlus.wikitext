@@ -41,24 +41,18 @@ Ogólne instrukcje przedstawiają się następująco:
 <span id="Prerequisites"></span>
 ===Wymagania wstępne===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In a Debian/Ubuntu based distribution, getting the required development files is usually simple.
-</div>
+W dystrybucjach opartych na Debian/Ubuntu uzyskanie wymaganych plików developerskich zwykle jest proste.
 {{Code|code=
 sudo apt install git cmake gcc g++ libboost-all-dev
 sudo apt install qt5-qmake qtbase5-dev qttools5-dev libqt5widgets5 libqt5opengl5-dev
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Get the source code of the project and place it in a custom directory to which you have full write access.
-</div> 
+Uzyskaj kod źródłowy projektu i umieść go w katalogu użytkownika, w którym masz pełne prawa do zapisu. 
 {{Code|code=
 git clone https://github.com/ifcquery/ifcplusplus ifcplusplus-source
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 === OpenSceneGraph ===
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [http://www.openscenegraph.org/ OpenSceneGraph] (OSG) is a collection of C++ libraries that uses OpenGL for 3D visualization; it can be used in games, virtual reality, scientific visualization and modelling.
