@@ -310,13 +310,12 @@ ToDo (last check: 20260318):
 <span id="Further_TechDraw_improvements"></span>
 === Autres améliorations de TechDraw ===
 
-<div class="mw-translate-fuzzy">
 * Les arêtes arrondies dans [[TechDraw_Workbench/fr|TechDraw]] sont désormais représentées par une ligne fine, conformément aux normes de dessin ISO. [https://github.com/FreeCAD/FreeCAD/pull/27747 Pull request #27747]
 * La police, la taille de police et la taille des flèches des lignes des coupes dans [[TechDraw_SectionView/fr|TechDraw Vue en coupe]] sont désormais configurables pour chaque vue via les propriétés de vue. [https://github.com/FreeCAD/FreeCAD/pull/27521 Pull request #27521]
 * Les cotes angulaires de [[TechDraw_Workbench/fr|TechDraw]] prennent désormais en charge l'affichage de l'angle supplémentaire (180° moins l'angle mesuré) via une propriété de vue. [https://github.com/FreeCAD/FreeCAD/pull/27055 Pull request #27055]
 * Le tracé des vues est désormais nettement plus rapide. [https://github.com/FreeCAD/FreeCAD/pull/25898 Pull request #25898] et [https://github.com/FreeCAD/FreeCAD/pull/28702 Pull request #28702]
 * Le panneau de tâches [[TechDraw_ActiveView/fr|Vue active]] a été repensé avec un espacement amélioré, une liste déroulante pour la sélection du style d'arrière-plan et des paramètres de recadrage regroupés qui se désactivent automatiquement lorsqu'ils ne sont pas utilisés. [https://github.com/FreeCAD/FreeCAD/pull/28085 Pull request #28085]
-</div>
+* Il existe désormais une option dans le menu contextuel permettant d'activer ou de désactiver la grille pour la page active. [Pull request n° 29083 de https://github.com/FreeCAD/FreeCAD/pull/29083]
 
 <span id="Import_and_export"></span>
 ==Importer et exporter ==
