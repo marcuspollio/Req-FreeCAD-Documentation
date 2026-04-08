@@ -243,9 +243,7 @@ make -j N
 <span id="Troubleshooting_and_other_options"></span>
 === Rozwiązywanie problemów i inne opcje ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-All configuration options are available in the {{incode|CMakeLists.txt}} file located inside the {{incode|IfcOpenShell-source/cmake/}} directory. If there are problems when running CMake or Make, look here for other options that may need to be set.
-</div>
+Wszystkie opcje konfiguracji znajdują się w pliku {{incode|CMakeLists.txt}} w katalogu {{incode|IfcOpenShell-source/cmake/}}. Jeśli pojawią się problemy podczas uruchamiania CMake lub Make, zajrzyj tam, aby sprawdzić inne opcje, które mogą wymagać ustawienia.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In all instructions above, instead of {{incode|cmake}}, the graphical interface {{incode|cmake-gui}} can be used. This will quickly show the available options in the configuration.
