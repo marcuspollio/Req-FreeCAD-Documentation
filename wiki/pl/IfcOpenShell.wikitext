@@ -155,9 +155,8 @@ cmake \
 
 Domyślnie system kompilacji oczekuje edycji społecznościowej (OCE) OpenCASCADE ({{incode|/usr/include/oce/}}), jednak należy pamiętać, że ta wersja jest przestarzała i od 2020 roku nie jest już zalecana przez FreeCAD. Z tego powodu zaleca się instalację plików developerskich głównej wersji [[OpenCASCADE/pl|OpenCASCADE]] (OCCT).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Without OpenCOLLADA ====
-</div>
+<span id="Without_OpenCOLLADA"></span>
+==== Bez OpenCOLLADA ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you don't need OpenCOLLADA support ([[Arch_DAE|DAE]] files) you need to turn it off explicitly with the {{incode|COLLADA_SUPPORT}} variable.
