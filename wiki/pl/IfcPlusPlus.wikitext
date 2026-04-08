@@ -120,9 +120,7 @@ Release/libIfcPlusPlus.a
 Release/SimpleViewerExample
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You can launch the {{incode|SimpleViewerExample}} executable with an [[Arch_IFC|IFC]] file as input.
-</div>
+Możesz uruchomić plik wykonywalny {{incode|SimpleViewerExample}}, podając jako wejście plik [[Arch_IFC/pl|IFC]].
 {{Code|code=
 Release/SimpleViewerExample IfcOpenHouse.ifc
 }}
