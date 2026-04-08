@@ -15,9 +15,8 @@ Biblioteka IFC++ może być używana do celów ogólnych, a dodatkowo zawiera pr
 
 {{Emphasis|Uwaga:}} w powszechnym użyciu nazwy "IfcQuery", "IFC++" i "IfcPlusPlus" mogą być stosowane wymiennie, odnosząc się do tego samego: biblioteki C++ lub, bardziej precyzyjnie, darmowej przeglądarki IFC.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Installing ==
-</div>
+<span id="Installing"></span>
+==Instalacja==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The IFC++ distribution is provided as source code, so to use the library and the viewer, the code must be compiled.
