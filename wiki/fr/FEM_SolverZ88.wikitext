@@ -49,7 +49,9 @@ Pour utiliser le solveur Z88, il faut installer la version open source de Z88 (Z
 # Vous pouvez sélectionner le {{MenuCommand|Type de solveur}}.
 # Cliquez sur {{Button|Lancer}} pour lancer l'analyse.
 
-== Properties ==
+<span id="Properties"></span>
+== Propriétés ==
+
 * {{PropertyData|Exclude Bending Stiffness}} - replaces beams with trusses, currently always checked because beams are not yet supported
 * {{PropertyData|Model Space}}:
 ** 3D - uses 3D shell elements
@@ -77,6 +79,7 @@ Pour utiliser le solveur Z88, il faut installer la version open source de Z88 (Z
 * {{PropertyData|Vector Maximum}} - MAXKOI value: maximum number of entries in the coincidence vector
 
 == Supported finite element types ==
+
 The following types of finite elements are supported by the Z88 solver implementation:
 * 2-node 3D truss,
 * 8-node and 20-node hexahedron,
@@ -85,12 +88,14 @@ The following types of finite elements are supported by the Z88 solver implement
 Linear triangles and quadrangles are not supported at all. Beam elements are not yet supported.
 
 == Notes ==
+
 * Z88Adria has the same capabilities/limitations as Z88OS, but doesn't launch its GUI when running the solver from FreeCAD, so Z88Adria is currently the preferred choice.
-* Pressure applied to edges of axisymmetric models must be given as in a corresponding 3D model, i.e. in units of force per unit area; the solver converts it to an equivalent force per unit length by multiplying the pressure by  <math>2 \pi R</math> (where R is the y-coordinate of the element's middle node).
+* Pressure applied to edges of axisymmetric models must be given as in a corresponding 3D model, i.e. in units of force per unit area; the solver converts it to an equivalent force per unit length by multiplying the pressure by  <math>2 \pi R</math> (where R is the x-coordinate of the element's middle node).
 * For plate elements, the degrees of freedom are in order: Z displacement and rotations <math>\theta_{x}</math> and <math>\theta_{y}</math> (in deg).
 * A '''test''' analysis mode is available. It provides information about the solver parameters. This information is loaded into the text document object.
 
 == Limitations ==
+
 * Currently, only displacements (in mm), nodal forces, and nodal moments are provided as contour map results. Stress values are loaded into the text document object.
 * The 3D truss elements require some additional considerations. In case of errors and missing results when using them, the following steps should be taken:
 ** make sure the structural member is meshed with only one such element (adjust the min and max element size to enforce that),
