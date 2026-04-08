@@ -29,12 +29,12 @@ La commande [[FEM_SolverZ88/fr|Solveur Z88]] permet d'utiliser le solveur [https
 
 ==Installation==
 
-<div class="mw-translate-fuzzy">
-Pour utiliser le solveur Z88, la version OpenSource de Z88 (Z88OS) doit être installée :
-# Téléchargez le fichier ZIP contenant le code depuis le [https://github.com/lscad/z88os dépôt Z88OS].
-# Extraire le ZIP dans un dossier de votre choix.
-# Dans les [[FEM_Preferences/fr|FEM Préférences]], allez dans l'onglet Z88 et définissez le chemin vers le binaire '''z88r'''. Si vous êtes sous Windows, ce sera le chemin vers le fichier {{FileName|z88r.exe}} qui se trouve dans le sous-dossier {{FileName|~\bin\win64}} du dossier où vous avez extrait le ZIP.
-</div>
+Pour utiliser le solveur Z88, il faut installer la version open source de Z88 (Z88OS ou Z88Adria, voir [[#Remarques|Remarques]] pour plus de détails) :
+# Téléchargez le fichier ZIP contenant le code, les binaires et la documentation de l'une ou l'autre version :
+#* Z88OS : [https://github.com/lscad/z88os dépôt officiel de Z88OS] ou [https://github.com/FreeCAD/Z88OS dépôt dérivé de Z88OS]
+#* Z88Adria : [https://en.z88.de/download-z88adria/ page de téléchargement de Z88Adria].
+# Extrayez le contenu du fichier ZIP dans un dossier de votre choix.
+# Dans les [[FEM_Preferences/fr|FEM Préférences]], allez dans l'onglet Z88 et définissez le chemin d'accès au binaire '''z88r'''. Si vous utilisez Windows, il s'agit du chemin d'accès au fichier {{FileName|z88r.exe}} qui se trouve dans le sous-dossier {{FileName|\bin\win64}} pour Z88OS ou {{FileName|\z88adria_windows}} pour Z88Adria.
 
 <span id="Usage"></span>
 ==Utilisation==
