@@ -381,9 +381,7 @@ Jeżeli biblioteka jest już zainstalowana, cały moduł można również urucho
 python3 /home/user/.local/lib/python3.6/site-packages/ifcopenshell/geom/app.py
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-At the time of writing (2020), only the [[PythonOCC|PythonOCC]] version compiled for the [[OpenCASCADE|OpenCASCADE]] community edition (OCE) was supported.
-</div>
+W chwili pisania tego tekstu (2020) obsługiwana była jedynie wersja [[PythonOCC/pl|PythonOCC]] skompilowana dla edycji społecznościowej [[OpenCASCADE/pl|OpenCASCADE]] (OCE).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == IFC online viewer ==
