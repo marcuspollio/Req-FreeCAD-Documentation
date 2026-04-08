@@ -11,7 +11,7 @@
 
 {{GuiCommand
 |Name=FEM SolverCalculixCcxtools
-|MenuLocation=Solve → Solver CalculiX
+|MenuLocation=Solve → Solvers → Solver CalculiX
 |Workbenches=[[FEM_Workbench|FEM]]
 |Shortcut={{VersionMinus|1.0}}: {{KEY|S}} {{KEY|X}}<br>{{VersionPlus|1.1}}: {{KEY|S}} {{KEY|C}}
 |SeeAlso=[[FEM_tutorial|FEM tutorial]]
@@ -28,21 +28,22 @@ Enables usage of the [https://en.wikipedia.org/wiki/Calculix CalculiX] solver. I
 
 ==Usage==
 
-# A [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools solver object is created automatically with the creation of an [[Image:FEM_Analysis.svg|16px|link=FEM_Analysis]] [[FEM_Analysis|Analysis container]] if CalculiX is selected as the default solver in the [[FEM_Preferences#General|General FEM preferences]].<br>To create it manually, do one of the following:
+# A CalculiX SolverCcxTools (legacy ccx solver) or SolverCalculiX (refactored ccx solver) object is created automatically with the creation of an [[Image:FEM_Analysis.svg|16px|link=FEM_Analysis]] [[FEM_Analysis|Analysis container]] if CalculiX is selected as the default solver in the [[FEM_Preferences#General|General FEM preferences]].<br>To create it manually, do one of the following:
 #* Press the {{Button|[[Image:FEM_SolverCalculixCcxtools.svg|16px]] [[FEM_SolverCalculixCcxtools|Solver CalculiX]]}} button.
-#* Select {{MenuCommand|Solve → [[Image:FEM_SolverCalculixCcxtools.svg|16px]] Solver CalculiX}} from the menu.
+#* Select {{MenuCommand|Solve → Solvers → [[Image:FEM_SolverCalculixCcxtools.svg|16px]] Solver CalculiX}} from the menu.
 #* Press the shortcut keys:
 #** {{VersionMinus|1.0}}: {{KEY|S}} {{KEY|X}}
 #** {{VersionPlus|1.1}}: {{KEY|S}} {{KEY|C}}
-# Optionally change the properties of the [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools solver object in the [[Property_View|Property View]].
-# Double click the [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools solver object.
+# Optionally change the properties of the [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools (legacy ccx solver) or [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCalculiX (refactored ccx solver) object in the [[Property_View|Property View]].
+# Double click on the [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools or [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCalculiX solver object.
 # Select the {{MenuCommand|Analysis type}}.
-# Click the {{Button|Write .inp file}} button.
-# Click the {{Button|Run CalculiX}} button.
-
-==Options==
-
-Click the {{Button|Edit .inp file}} button to display and edit the CalculiX input file manually before running the analysis. In that case it can be useful to set the {{PropertyData|Split Input Writer}} property to {{True}}.
+# For legacy ccx solver:
+#* Click the {{Button|Write .inp file}} button.
+#* Optionally, click the {{Button|Edit .inp file}} button to display and edit the CalculiX input file manually before running the analysis. In that case it can be useful to set the {{PropertyData|Split Input Writer}} property to {{True}}.
+#* Click the {{Button|Run CalculiX}} button.
+# For refactored ccx solver:
+#* Optionally, check the {{Button|Working directory}} box, click {{Button|Write}} and {{Button|Edit}} to edit the input file before submitting an analysis.
+#* Click {{Button|Apply}} to start the analysis.
 
 ==Properties==
 
