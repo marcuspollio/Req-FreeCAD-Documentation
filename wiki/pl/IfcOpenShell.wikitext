@@ -240,9 +240,8 @@ make -j N
 
 {{incode|N}} to liczba procesorów przypisana do procesu kompilacji; wybierz co najmniej o jeden mniej niż całkowita liczba rdzeni CPU, które posiadasz.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Troubleshooting and other options ===
-</div>
+<span id="Troubleshooting_and_other_options"></span>
+=== Rozwiązywanie problemów i inne opcje ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 All configuration options are available in the {{incode|CMakeLists.txt}} file located inside the {{incode|IfcOpenShell-source/cmake/}} directory. If there are problems when running CMake or Make, look here for other options that may need to be set.
