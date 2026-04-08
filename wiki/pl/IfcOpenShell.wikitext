@@ -58,13 +58,11 @@ Należy jednak zauważyć, że pakiety udostępniane w wielu repozytoriach Linuk
 
 Kompilacja IfcOpenShell jest zalecana tylko dla zaawansowanych użytkowników. Proces jest podobny do [[Compile_on_Linux/pl|kompilacji FreeCAD w systemie Linux]], więc jeśli robiłeś to wcześniej, prawdopodobnie masz już niezbędne elementy, takie jak pliki developerskie [[OpenCASCADE/pl|OpenCASCADE]]. Proces wykorzystuje narzędzie konfiguracyjne CMake do wygenerowania niestandardowego {{incode|Makefile}} do użycia z narzędziem Make.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The general instructions are outlined in the [https://github.com/IfcOpenShell/IfcOpenShell IfcOpenShell repository], and are as follows:
-# Get the source code of IfcOpenShell from its main repository.
-# Gather all dependencies for compiling, including a C++ compiler, CMake, and Make, and the development files for Boost, libxml2, [[OpenCASCADE|OpenCASCADE]], SWIG, Python, and OpenCOLLADA (optional). Most of these components are strictly optional, however, for use with FreeCAD they should all be installed. OpenCOLLADA is optional as it only provides [[Arch_DAE|DAE]] support for the {{incode|IfcConvert}} binary.
-# Run {{incode|cmake}} to generate a {{incode|Makefile}}, then start the compilation by running {{incode|make}}.
-# Install the {{incode|ifcopenshell}} [[Python|Python]] module in the appropriate {{incode|site-packages/}} directory so that it is found by FreeCAD.
-</div>
+Ogólne instrukcje znajdują się w [https://github.com/IfcOpenShell/IfcOpenShell repozytorium IfcOpenShell] i przedstawiają się następująco:
+# Pobierz kod źródłowy IfcOpenShell z jego głównego repozytorium.
+# Zgromadź wszystkie zależności potrzebne do kompilacji, w tym kompilator C++, CMake, Make oraz pliki developerskie dla Boost, libxml2, [[OpenCASCADE/pl|OpenCASCADE]], SWIG, Python i OpenCOLLADA (opcjonalnie). Większość z tych komponentów jest ściśle opcjonalna, jednak do użycia z FreeCAD powinny być wszystkie zainstalowane. OpenCOLLADA jest opcjonalne, ponieważ zapewnia jedynie obsługę [[Arch_DAE/pl|DAE]] dla binarnego programu {{incode|IfcConvert}}.
+# Uruchom {{incode|cmake}}, aby wygenerować {{incode|Makefile}}, a następnie rozpocznij kompilację, wydając polecenie {{incode|make}}.
+# Zainstaluj moduł {{incode|ifcopenshell}} [[Python/pl|Pythona]] w odpowiednim katalogu {{incode|site-packages/}}, tak aby został wykryty przez FreeCAD.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Emphasis|Note:}} the following examples assume a Debian/Ubuntu based system, but the general procedure should work for other operating systems. For example, in Debian shared libraries are normally located in {{incode|/usr/lib/x86_64-linux-gnu/}} while in other distributions this may be {{incode|/usr/lib64/}} so the paths should be adjusted accordingly.
