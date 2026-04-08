@@ -31,19 +31,19 @@ Permet d'utiliser le solveur [https://fr.wikipedia.org/wiki/Calculix CalculiX]. 
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
-# Un [[Image:FEM_SolverCalculixCcxtools.svg|16px]] objet solveur SolverCcxTools est créé automatiquement lors de la création d'un [[Image:FEM_Analysis.svg|16px|link=FEM_Analysis/fr]] [[FEM_Analysis/fr|conteneur d'analyse]] si CalculiX est sélectionné comme solveur par défaut dans les [[FEM_Preferences/fr#Général|préférences générales]].<br>Pour le créer manuellement, faites l'une des choses suivantes :
+# Un SolverCcxTools de CalculiX (solveur ccx hérité) ou SolverCalculiX (solveur ccx refactorisé) est créé automatiquement lors de la création d'un [[Image:FEM_Analysis.svg|16px|link=FEM_Analysis/fr]] [[FEM_Analysis/fr|conteneur d'analyse]] si CalculiX est sélectionné comme solveur par défaut dans les [[FEM_Preferences/fr#Général|préférences générales]].<br>Pour le créer manuellement, faites l'une des choses suivantes :
 #* Appuyez sur le bouton {{Button|[[Image:FEM_SolverCalculixCcxtools.svg|16px]] [[FEM_SolverCalculixCcxtools/fr|Solveur CalculiX]]}}.
-#* Sélectionnez {{MenuCommand|Résolution → [[Image:FEM_SolverCalculixCcxtools.svg|16px]] Solveur CalculiX}} du menu.
+#* Sélectionnez {{MenuCommand|Résolution → Solveurs → [[Image:FEM_SolverCalculixCcxtools.svg|16px]] Solveur CalculiX}} du menu.
 #* Appuyez sur les touches de raccourci :
 #** {{VersionMinus/fr|1.0}} : {{KEY|S}} {{KEY|X}}
 #** {{VersionPlus/fr|1.1}} : {{KEY|S}} {{KEY|C}}
-# Vous pouvez modifier les propriétés de l'[[Image:FEM_SolverCalculixCcxtools.svg|16px]] objet solveur SolverCcxTools dans l'[[Property_editor/fr|éditeur de propriétés]].
-# Double-cliquez sur l'[[Image:FEM_SolverCalculixCcxtools.svg|16px]] objet solveur SolverCcxTools.
-# Sélectionnez {{MenuCommand|Type d'analyse}}.
-# Cliquez sur le bouton {{Button|Écrire un fichier .inp}}.
-# Cliquez sur le bouton {{Button|Lancer CalculiX}}.
-</div>
+# Vous pouvez modifier les propriétés de [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools (solveur ccx hérité) ou de [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCalculiX (solveur ccx refactorisé) dans l'[[Property_View/fr|éditeur de propriétés]].
+# Double-cliquez sur l'objet SolverCcxTools [[Image:FEM_SolverCalculixCcxtools.svg|16px]] ou SolverCalculiX [[Image:FEM_SolverCalculixCcxtools.svg|16px]].
+# Sélectionnez le {{MenuCommand|Type d'analyse}}.
+# Pour le solveur ccx hérité :
+#* Cliquez sur le bouton {{Button|Écrire un fichier .inp}}.
+#* Si vous le souhaitez, cochez la case {{Button|Répertoire de travail}}, puis cliquez sur {{Button|Écrire}} et {{Button|Modifier}} pour modifier le fichier d'entrée avant de lancer l'analyse.
+#* Cliquez sur {{Button|Appliquer}} pour lancer l'analyse.
 
 <span id="Properties"></span>
 ==Propriétés==
