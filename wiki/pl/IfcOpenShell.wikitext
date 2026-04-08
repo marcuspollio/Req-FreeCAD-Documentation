@@ -38,9 +38,7 @@ pip install ifcopenshell
 <span id="Conda"></span>
 ===Conda===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For Windows and MacOS systems, FreeCAD distributions put together with the [[Conda|Conda]] package manager usually include IfcOpenShell already so no further installation is necessary. Get the appropriate distribution from the [[Download|Download]] page.
-</div>
+W systemach Windows i MacOS dystrybucje FreeCAD przygotowane z menedżerem pakietów [[Conda/pl|Conda]] zazwyczaj zawierają już IfcOpenShell, więc dodatkowa instalacja nie jest konieczna. Pobierz odpowiednią dystrybucję ze strony [[Download/pl|Pobieranie]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The [[AppImage|AppImage]] for Linux is also based on [[Conda|Conda]], and it also includes IfcOpenShell.
