@@ -351,9 +351,7 @@ Teraz ten katalog można przenieść do katalogu {{incode|site-packages/}} użyt
 mv -t $HOME/.local/lib/python3.6/site-packages/ ifcopenshell/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Or for system-wide installation:
-</div>
+Lub dla instalacji dla całego systemu:
 {{Code|code=
 sudo mv -t /usr/lib/python3/dist-packages/ ifcopenshell/
 }}
