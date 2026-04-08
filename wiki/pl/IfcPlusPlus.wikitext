@@ -177,16 +177,13 @@ Alternatywnie możesz ustawić zmienną {{incode|LD_LIBRARY_PATH}} na katalog za
 LD_LIBRARY_PATH=/usr/local/lib SimpleViewerExample
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To make this effect persistent, this environmental variable can be set in the shell resource file, for example, {{incode|.bashrc}}, so that it is propagated to all terminal instances on startup:
-</div>
+Aby efekt ten był trwały, tę zmienną środowiskową można ustawić w pliku zasobów powłoki, na przykład w {{incode|.bashrc}}, tak aby była propagowana do wszystkich instancji terminala podczas uruchamiania:
 {{Code|code=
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Removing the compiled libraries ===
-</div>
+<span id="Removing_the_compiled_libraries"></span>
+=== Usuwanie skompilowanych bibliotek ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To remove the installed libraries, just remove the corresponding files that were installed.
