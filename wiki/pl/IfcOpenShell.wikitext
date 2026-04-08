@@ -119,9 +119,7 @@ sudo make install
 <span id="Python_wrapper"></span>
 === Wrapper Pythona ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For usage with FreeCAD you need the [[Python|Python]] wrapper which uses SWIG to generate the proper interfaces from the C++ classes.
-</div>
+Do użycia z FreeCAD potrzebny jest wrapper [[Python/pl|Pythona]], który wykorzystuje SWIG do wygenerowania odpowiednich interfejsów z klas C++.
 
 {{Code|code=
 sudo apt-get install python-all-dev swig
