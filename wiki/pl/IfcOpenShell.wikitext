@@ -128,9 +128,7 @@ sudo apt-get install python-all-dev swig
 <span id="CMake_configuration"></span>
 === Konfiguracja CMake ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-It is recommended to perform the configuration and compilation in a specific build directory separate from the source directory.
-</div>
+Zaleca się wykonywanie konfiguracji i kompilacji w osobnym katalogu build, oddzielonym od katalogu źródłowego.
 
 {{Code|code=
 mkdir -p IfcOpenShell-build
