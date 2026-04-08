@@ -81,14 +81,15 @@ Pour utiliser le solveur Z88, il faut installer la version open source de Z88 (Z
 <span id="Supported_finite_element_types"></span>
 == Types d'éléments finis pris en charge ==
 
-The following types of finite elements are supported by the Z88 solver implementation:
-* 2-node 3D truss,
-* 8-node and 20-node hexahedron,
-* 4-node and 10-node tetrahedron,
-* 6-node triangle and 8-node quadrangle - 3D shell and plate, 2D plane stress and axisymmetric formulations.
-Linear triangles and quadrangles are not supported at all. Beam elements are not yet supported.
+Les types d'éléments finis suivants sont pris en charge par l'implémentation du solveur Z88 :
+* treillis 3D à 2 nœuds,
+* hexaèdre à 8 et 20 nœuds,
+* tétraèdre à 4 et 10 nœuds,
+* triangle à 6 nœuds et quadrilatère à 8 nœuds. Formulations 3D pour coques et plaques et formulations 2D pour contraintes planes et axisymétriques.
+Les triangles et quadrilatères linéaires ne sont pas pris en charge. Les éléments de poutre ne sont pas encore pris en charge.
 
-== Notes ==
+<span id="Notes"></span>
+== Remarques ==
 
 * Z88Adria has the same capabilities/limitations as Z88OS, but doesn't launch its GUI when running the solver from FreeCAD, so Z88Adria is currently the preferred choice.
 * Pressure applied to edges of axisymmetric models must be given as in a corresponding 3D model, i.e. in units of force per unit area; the solver converts it to an equivalent force per unit length by multiplying the pressure by  <math>2 \pi R</math> (where R is the x-coordinate of the element's middle node).
