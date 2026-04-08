@@ -9,9 +9,7 @@
 
 IfcOpenShell używa [[OpenCASCADE/pl|OpenCASCADE]] wewnętrznie do konwersji niejawnej geometrii w plikach IFC na geometrię jawną, którą mogą zrozumieć inne pakiety CAD, na przykład STEP, [[Arch_OBJ/pl|OBJ]] i [[Arch_DAE/pl|DAE]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-As of v0.19, FreeCAD is able to import IFC files as long as the {{incode|ifcopenshell}} [[Python|Python]] module is available in the system. Likewise, the [[BIM_Workbench|BIM Workbench]] can export a building model to the IFC format so that it can be used in other applications.
-</div>
+Od wersji 0.19 program FreeCAD potrafi importować pliki IFC, o ile w systemie dostępny jest moduł {{incode|ifcopenshell}} [[Python/pl|Pythona]]. Podobnie [[BIM_Workbench/pl|środowisko pracy BIM]] umożliwia eksport modelu budynku do formatu IFC, dzięki czemu może on być używany w innych aplikacjach.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To verify that IfcOpenShell is installed in your system, try to import it from the [[Python_console|Python console]]; the library is correctly installed if no error message is returned.
