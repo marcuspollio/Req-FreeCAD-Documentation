@@ -64,13 +64,10 @@ Ogólne instrukcje znajdują się w [https://github.com/IfcOpenShell/IfcOpenShel
 # Uruchom {{incode|cmake}}, aby wygenerować {{incode|Makefile}}, a następnie rozpocznij kompilację, wydając polecenie {{incode|make}}.
 # Zainstaluj moduł {{incode|ifcopenshell}} [[Python/pl|Pythona]] w odpowiednim katalogu {{incode|site-packages/}}, tak aby został wykryty przez FreeCAD.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Emphasis|Note:}} the following examples assume a Debian/Ubuntu based system, but the general procedure should work for other operating systems. For example, in Debian shared libraries are normally located in {{incode|/usr/lib/x86_64-linux-gnu/}} while in other distributions this may be {{incode|/usr/lib64/}} so the paths should be adjusted accordingly.
-</div>
+{{Emphasis|Uwaga:}} poniższe przykłady zakładają system oparty na Debian/Ubuntu, ale ogólna procedura powinna działać również w innych systemach operacyjnych. Na przykład w Debianie biblioteki współdzielone zwykle znajdują się w {{incode|/usr/lib/x86_64-linux-gnu/}}, podczas gdy w innych dystrybucjach może to być {{incode|/usr/lib64/}}, więc ścieżki należy dostosować odpowiednio.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Prerequisites ===
-</div>
+<span id="Prerequisites"></span>
+===Wymagania wstępne===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Install the basic compilation tools.
