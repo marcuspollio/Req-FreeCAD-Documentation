@@ -9,6 +9,7 @@
 |IconC=Workbench_FEM.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
 {{GuiCommand/de
 |Name=FEM ConstraintDisplacement
@@ -22,6 +23,7 @@
 |Solvers=CalculiX, Elmer
 }}
 }}
+</div>
 
 <span id="Description"></span>
 ==Beschreibung==
