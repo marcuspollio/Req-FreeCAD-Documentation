@@ -198,9 +198,7 @@ sudo rm -rf /usr/local/share/IFCPP/cmake/
 <span id="Fixes_for_Linux"></span>
 == Poprawki dla systemu Linux ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The IFC++ library is developed by its author on a Windows system. This means that even if the code depends on multiplatform libraries like Boost, Qt, and OpenSceneGraph, the code is mostly tested to compile and run on Windows. Nevertheless, over the years other developers have provided fixes to the project so that IFC++ can be compiled and run on Linux distributions.
-</div>
+Biblioteka IFC++ jest rozwijana przez jej autora na systemie Windows. Oznacza to, że choć kod zależy od bibliotek wieloplatformowych, takich jak Boost, Qt i OpenSceneGraph, w większości testowany jest pod kątem kompilacji i działania na Windows. Niemniej jednak, z biegiem lat inni deweloperzy wprowadzili poprawki do projektu, dzięki czemu IFC++ można kompilować i uruchamiać również w dystrybucjach Linuxa.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In particular, a fork of the main project is maintained with small fixes to compile and run better in Debian.
