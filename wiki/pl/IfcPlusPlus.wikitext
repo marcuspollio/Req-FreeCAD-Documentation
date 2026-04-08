@@ -60,9 +60,7 @@ git clone https://github.com/ifcquery/ifcplusplus ifcplusplus-source
 sudo apt install libopenscenegraph-3.4-dev
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If the files are too old in your distribution, you may also compile the libraries yourself. The procedure is outlined in the main repository, [https://github.com/openscenegraph/OpenSceneGraph openscenegraph/OpenSceneGraph]. Compiling is straight forward, although you may need various dependencies like Qt 5, Freetype, Inventor, OpenEXR, COLLADA, ZLIB, GDAL, FFmpeg, Gstreamer, SDL, Cairo, and Poppler.
-</div>
+Jeżeli pliki w twojej dystrybucji są zbyt stare, możesz także skompilować biblioteki samodzielnie. Procedura jest opisana w głównym repozytorium, [https://github.com/openscenegraph/OpenSceneGraph openscenegraph/OpenSceneGraph]. Kompilacja jest stosunkowo prosta, chociaż mogą być potrzebne różne zależności, takie jak Qt 5, Freetype, Inventor, OpenEXR, COLLADA, ZLIB, GDAL, FFmpeg, Gstreamer, SDL, Cairo oraz Poppler.
 
 {{Code|code=
 git clone https://github.com/openscenegraph/OpenSceneGraph OpenSceneGraph-source
@@ -75,9 +73,7 @@ make -j 3
 sudo make install
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 === Carve ===
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Carve is a [[constructive_solid_geometry|constructive solid geometry]] (CSG) C++ library designed to perform boolean operations between two arbitrary polygonal meshes. Together with the IFC++ library, {{incode|libIfcPlusPlus.a}}, Carve is used by the IFC++ sample viewer to open and display IFC files.
