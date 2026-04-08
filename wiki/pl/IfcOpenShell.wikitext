@@ -259,9 +259,7 @@ Jeżeli kompilacja zakończyła się sukcesem, powinien powstać podkatalog {{in
 example/IfcOpenHouse
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The sample [[Arch_IFC|IFC]] file should appear in the build directory, and can be used as input to the also newly compiled {{incode|IfcConvert}} executable. This utility takes as input an IFC file, and produces as output a different format including [[Arch_OBJ|OBJ]], [[Arch_DAE|DAE]] if OpenCOLLADA support was enabled, STEP, IGS, XML, [[Draft_SVG|SVG]], or another [[Arch_IFC|IFC]].
-</div>
+Przykładowy plik [[Arch_IFC/pl|IFC]] powinien pojawić się w katalogu build i może być użyty jako wejście dla również nowo skompilowanego pliku wykonywalnego {{incode|IfcConvert}}. To narzędzie przyjmuje jako wejście plik IFC i generuje na wyjściu różne formaty, w tym [[Arch_OBJ/pl|OBJ]], [[Arch_DAE/pl|DAE]] (jeśli włączono obsługę OpenCOLLADA), STEP, IGS, XML, [[Draft_SVG/pl|SVG]] lub inny plik [[Arch_IFC/pl|IFC]].
 {{Code|code=
 ./IfcConvert IfcOpenHouse.ifc
 }}
