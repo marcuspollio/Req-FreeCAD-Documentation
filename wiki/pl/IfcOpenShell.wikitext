@@ -328,9 +328,7 @@ sudo rm -rf $HOME/.local/lib/python3.6/site-packages/ifcopenshell/
 
 Kompilacja całej dystrybucji IfcOpenShell generuje pliki wykonywalne, takie jak {{incode|IfcConvert}} i {{incode|IfcGeomServer}}, a także wiele bibliotek statycznych ({{incode|lib*.a}}) w katalogu build. Jednak dla FreeCAD potrzebny jest jedynie moduł Python {{incode|ifcopenshell}}. Moduł ten nie jest pojedynczym plikiem, lecz "pakietem", czyli katalogiem zawierającym różne pliki. Pakiet {{incode|ifcopenshell}} jest tworzony z wrapperów Pythona zbudowanych w katalogu {{incode|IfcOpenShell-build/ifcwrap/}} oraz z modułów Pythona znajdujących się w oryginalnym katalogu źródłowym {{incode|IfcOpenShell-source/src/ifcopenshell-python/ifcopenshell/}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Produced by the compilation process:
-</div>
+* Tworzone przez proces kompilacji:
 {{Code|code=
 ../IfcOpenShell-build/ifcwrap/ifcopenshell_wrapper.py
 ../IfcOpenShell-build/ifcwrap/_ifcopenshell_wrapper.so
