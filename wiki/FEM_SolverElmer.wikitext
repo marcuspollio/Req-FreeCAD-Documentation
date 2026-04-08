@@ -14,7 +14,7 @@
 <!--T:1-->
 {{GuiCommand
 |Name=FEM SolverElmer
-|MenuLocation=Solver → Solver Elmer
+|MenuLocation=Solver → Solvers → Solver Elmer
 |Workbenches=[[FEM_Workbench|FEM]]
 |Shortcut={{KEY|S}} {{KEY|E}}
 |SeeAlso=[[FEM_SolverElmer_SolverSettings|FEM SolverElmer SolverSettings]], [[FEM_SolverCalculixCcxtools|FEM Solver CalculixCxxtools]], [[FEM_SolverZ88|FEM Solver Z88]], [[FEM_tutorial|FEM tutorial]]
