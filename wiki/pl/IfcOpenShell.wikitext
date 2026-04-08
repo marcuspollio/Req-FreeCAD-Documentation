@@ -346,9 +346,7 @@ cp -rt . ../IfcOpenShell-source/src/ifcopenshell-python/ifcopenshell/
 cp -t ifcopenshell/ ifcwrap/ifcopenshell_wrapper.py ifcwrap/_ifcopenshell_wrapper.so
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Now this directory can be moved to the user-specific or system {{incode|site-packages/}} ({{incode|dist-packages/}} for Debian/Ubuntu) to make it available for all Python applications.
-</div>
+Teraz ten katalog można przenieść do katalogu {{incode|site-packages/}} użytkownika lub systemowego ({{incode|dist-packages/}} w Debian/Ubuntu), aby był dostępny dla wszystkich aplikacji Python.
 {{Code|code=
 mv -t $HOME/.local/lib/python3.6/site-packages/ ifcopenshell/
 }}
