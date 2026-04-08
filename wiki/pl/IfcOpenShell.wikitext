@@ -251,9 +251,8 @@ We wszystkich powyższych instrukcjach zamiast {{incode|cmake}} można użyć gr
 cmake-gui ../IfcOpenShell-source/cmake/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Testing the compilation in the build directory ===
-</div>
+<span id="Testing_the_compilation_in_the_build_directory"></span>
+=== Testowanie kompilacji w katalogu build ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If the build was successful you should have an {{incode|examples/}} subdirectory with the newly compiled {{incode|IfcOpenHouse}} executable. Run this utility from the build directory to generate a sample IFC file.
