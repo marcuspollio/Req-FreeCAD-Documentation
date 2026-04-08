@@ -9,6 +9,7 @@
 |IconC=Workbench_FEM.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/fr
 |Name=FEM FEM_SolverCalculixCcxtools
 |Name/fr=FEM Solveur CalculiX
@@ -18,6 +19,7 @@
 {{VersionPlus/fr|1.1}} : {{KEY|S}} {{KEY|C}}
 |SeeAlso=[[FEM_tutorial/fr|FEM Tutoriel]]
 }}
+</div>
 
 ==Description==
 
@@ -31,6 +33,7 @@ Permet d'utiliser le solveur [https://fr.wikipedia.org/wiki/Calculix CalculiX]. 
 <span id="Usage"></span>
 ==Utilisation==
 
+<div class="mw-translate-fuzzy">
 # Un [[Image:FEM_SolverCalculixCcxtools.svg|16px]] objet solveur SolverCcxTools est créé automatiquement lors de la création d'un [[Image:FEM_Analysis.svg|16px|link=FEM_Analysis/fr]] [[FEM_Analysis/fr|conteneur d'analyse]] si CalculiX est sélectionné comme solveur par défaut dans les [[FEM_Preferences/fr#Général|préférences générales]].<br>Pour le créer manuellement, faites l'une des choses suivantes :
 #* Appuyez sur le bouton {{Button|[[Image:FEM_SolverCalculixCcxtools.svg|16px]] [[FEM_SolverCalculixCcxtools/fr|Solveur CalculiX]]}}.
 #* Sélectionnez {{MenuCommand|Résolution → [[Image:FEM_SolverCalculixCcxtools.svg|16px]] Solveur CalculiX}} du menu.
@@ -42,10 +45,7 @@ Permet d'utiliser le solveur [https://fr.wikipedia.org/wiki/Calculix CalculiX]. 
 # Sélectionnez {{MenuCommand|Type d'analyse}}.
 # Cliquez sur le bouton {{Button|Écrire un fichier .inp}}.
 # Cliquez sur le bouton {{Button|Lancer CalculiX}}.
-
-==Options==
-
-Cliquer sur le bouton {{Button|Editer le fichier .inp}} pour afficher et éditer manuellement le fichier d'entrée de CalculiX avant d'exécuter l'analyse. Dans ce cas, il peut être utile de définir la propriété {{PropertyData|Split Input Writer}} à {{True}}.
+</div>
 
 <span id="Properties"></span>
 ==Propriétés==
