@@ -45,13 +45,6 @@ Acest obiect este creat automat cu crearea cotainerului {{KEY|[[Image: FEM_Analy
 # Faceți clic pe {{KEY|Run CalculiX}}
 </div>
 
-<span id="Options"></span>
-== Opţiuni ==
-
-<div class="mw-translate-fuzzy">
-Folosind {{KEY | Edit .inp file}}, puteți afișa și edita manual fișierul de intrare CalculiX înainte de a rula analiza. În acest caz ar putea fi util să utilizați parametrul "Split Input Writer = true".
-</div>
-
 <span id="Properties"></span>
 ==Proprietăți==
 
