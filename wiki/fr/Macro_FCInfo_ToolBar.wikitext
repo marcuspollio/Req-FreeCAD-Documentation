@@ -77,13 +77,11 @@ Les options sont situées dans les paramètres de FreeCAD :
 *'''''seT_User_TextHeigthValue'''''
 **donne un hauteur au texte affiché dans la barre d'outils
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 *'''''switch_User_Display_documentName'''''
-** display the document Name ()
-</div>
+** affiche le nom du document ()
 
 *'''''switch_User_Display_objectName'''''
-** qffiche le nom de object ()
+** affiche le nom de object ()
 
 *'''''switch_User_Display_SubElementName'''''
 **affiche le SubElementName ()
