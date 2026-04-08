@@ -376,9 +376,7 @@ from ifcopenshell.geom.app import application
 application().start()
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If the library is already installed, the entire module can also be run from the terminal:
-</div>
+Jeżeli biblioteka jest już zainstalowana, cały moduł można również uruchomić z terminala:
 {{Code|code=
 python3 /home/user/.local/lib/python3.6/site-packages/ifcopenshell/geom/app.py
 }}
