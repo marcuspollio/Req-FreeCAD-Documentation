@@ -24,9 +24,8 @@ IFC++ jest rozwijany głównie na platformie Windows, dlatego zawiera pliki rozw
 
 {{Emphasis|Uwaga:}} istnieje bardziej rozbudowana przeglądarka, która wykorzystuje wstępnie skompilowane biblioteki IFC++ przeznaczone na Windows. Przeglądarka ta jest darmowa w użyciu, ale nie jest open source. Można ją pobrać, pobierając pakiet {{incode|SimpleViewerExampleQt.zip}} ze strony {{URL|http://www.ifcquery.com/}} i uruchamiając {{incode|SimpleViewerExampleQt.exe}}. Przeglądarka jest samodzielna - wszystko, co potrzebne do jej uruchomienia, jest zawarte w archiwum {{incode|.zip}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Compiling in Windows ==
-</div>
+<span id="Compiling_in_Windows"></span>
+== Kompilacja w systemie Windows==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Follow the instructions in the official [https://github.com/ifcquery/ifcplusplus ifcplusplus] repository.
