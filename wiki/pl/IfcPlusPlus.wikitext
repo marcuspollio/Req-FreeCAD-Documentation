@@ -185,9 +185,7 @@ export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 <span id="Removing_the_compiled_libraries"></span>
 === Usuwanie skompilowanych bibliotek ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To remove the installed libraries, just remove the corresponding files that were installed.
-</div>
+Aby usunąć zainstalowane biblioteki, wystarczy usunąć odpowiadające im pliki, które zostały zainstalowane.
 {{Code|lang=sh|code=
 sudo rm -rf /usr/local/bin/SimpleViewerExample
 sudo rm -rf /usr/local/lib/libcarve.so
