@@ -197,9 +197,7 @@ cmake \
 <span id="Specifying_installation_in_the_user&#039;s_home_directory"></span>
 ==== Określanie instalacji w katalogu domowym użytkownika ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-By default, the Python module {{incode|ifcopenshell}} will be installed in a system {{incode|site-packages/}} directory, so it requires superuser privileges. By setting the {{incode|USERSPACE_PYTHON_PREFIX}} variable, the installation of the Python module will be done to the user's home directory.
-</div>
+Domyślnie moduł Python {{incode|ifcopenshell}} zostanie zainstalowany w systemowym katalogu {{incode|site-packages/}}, co wymaga uprawnień administratora. Ustawiając zmienną {{incode|USERSPACE_PYTHON_PREFIX}}, instalacja modułu Python zostanie przeprowadzona w katalogu domowym użytkownika.
 
 {{Code|code=
 cmake \
