@@ -51,9 +51,7 @@ Jeśli jest dostępny, możesz zainstalować IfcOpenShell za pomocą menedżera 
 sudo apt install ifcopenshell
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-However, please notice that packages provided by many Linux repositories tend to be old, and may not contain the latest developments in the software. If you want to be sure you are using the newest software, use a [[Conda|Conda]]-based distribution of FreeCAD, a pre-compiled IfcOpenShell distribution, or compile IfcOpenShell yourself.
-</div>
+Należy jednak zauważyć, że pakiety udostępniane w wielu repozytoriach Linuksa bywają stare i mogą nie zawierać najnowszych zmian w oprogramowaniu. Jeśli chcesz mieć pewność, że używasz najnowszej wersji, skorzystaj z dystrybucji FreeCAD opartej na [[Conda/pl|Conda]], wstępnie skompilowanej dystrybucji IfcOpenShell lub skompiluj IfcOpenShell samodzielnie.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Compiling ==
