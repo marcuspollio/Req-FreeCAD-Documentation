@@ -9,6 +9,7 @@
 |IconC=Workbench_FEM.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/pl
 |Name=FEM SolverElmer
 |Name/pl=MES: Solver Elmer
@@ -17,6 +18,7 @@
 |Shortcut={{KEY|S}} {{KEY|E}}
 |SeeAlso=[[FEM_SolverElmer_SolverSettings/pl|Konfiguracja solvera Elmer]], [[FEM_SolverCalculixCcxtools/pl|Narzędzia CalculiX]], [[FEM_SolverZ88/pl|Solver Z88]], [[FEM_tutorial/pl|Poradnik MES]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Opis==
@@ -50,6 +52,7 @@ Elmer jest gotowy do użycia we FreeCAD.
 <span id="Usage"></span>
 ==Użycie==
 
+<div class="mw-translate-fuzzy">
 # Przełącz się na [[Image:Workbench_FEM.svg|16px]] [[FEM_Workbench/pl|środowisko pracy MES]]
 # Utwórz [[Image:FEM_Analysis.svg|16px]] kontener [[FEM_Analysis/pl|Analiza]].
 # Istnieje kilka sposobów na wywołanie tego polecenia:
@@ -63,11 +66,9 @@ Elmer jest gotowy do użycia we FreeCAD.
 # Wybierz ścieżkę do zapisania analizy wciskając przycisk {{Button|...}}.
 # Wciśnij przycisk {{Button|Zapisz}} aby zapisać pliki analizy w wybranym wcześniej katalogu.
 # Wciśnij przycisk {{Button|Uruchom}} aby rozpocząć obliczenia.
+</div>
 
 Uwaga: Poprawnie zdefiniowana analiza wymaga co najmniej Modelu ''(2D lub 3D)'', Materiału ''([[FEM_MaterialFluid/pl|płynu]] lub [[FEM_MaterialSolid/pl|ciała stałego]])'',[[FEM_MeshGmshFromShape|siatki]], równań i  warunków brzegowych.
-
-[[Image:Elmer_typical_file_tree.png]]
-{{Caption|Przykład [[Tree_view/pl|widoku drzewa]] po aktywacji solvera Elmer}}.
 
 <span id="Equations"></span>
 ==Równania==
