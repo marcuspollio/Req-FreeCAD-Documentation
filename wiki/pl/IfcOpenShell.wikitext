@@ -88,9 +88,7 @@ Zainstaluj pliki deweloperskie [[OpenCASCADE/pl|OpenCASCADE]].
 sudo apt install libocct*-dev
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Which expands to
-</div>
+Co rozszerza się na
 {{Code|code=
 sudo apt install libocct-data-exchange-dev libocct-draw-dev libocct-foundation-dev libocct-modeling-algorithms-dev libocct-modeling-data-dev libocct-ocaf-dev libocct-visualization-dev
 }}
