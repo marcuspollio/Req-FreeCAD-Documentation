@@ -46,14 +46,14 @@ Werden Modelle unter Verwendung des Arbeitsbereichs [[PartDesign_Workbench/de|Pa
 :: Dialog ''Element auswählen''. Diese Einstellungen erstellen eine Skizze auf der XY-Ebene und lassen die Verwendung von Querverweisen anderer Elemente desselben Körpers
 
 Dialog-Einstellungen
-* Koordinatensystemkasten: definiert die Ausrichtung der Skizzierebene
-* Kontrollkästchen ''Verwendete Funktionen Zulassen'': ''ZuTun''
-: Optionen für externe Funktionen zulassen
-* Von anderen Körpern desselben Teils: alle im selben Körper verwendeten Elemente können referenziert werden
-* Von anderen Teilen oder freien Features: ''TBD''
-* Unabhängige Kopie erstellen: alle anderen Elemente werden separate Kopien sein, d.h. sie werden sich nicht ändern, wenn sich das Original ändert.
-* Abhängige Kopie erstellen: die Elemente werden Kopien sein, aber eine Abhängigkeit zu den Originalelementen wird beibehalten. Dies ist im Grunde die Verwendung eines [[PartDesign ShapeBinder/de|Formbinder]]
-* Querverweis erstellen: Die verknüpften Elemente sind keine Kopien, sondern verweisen auf die Originalelemente, z. B. eine Masterskizze. Alle Änderungen werden auf diese Skizze übertragen 
+* Koordinatensystemkasten: definiert die Ausrichtung der Skizzenebene
+* Verwendete Funktionen Zulassen: ''TBD''
+* Externe Funktionen zulassen:
+** Von anderen Körpern desselben Teils: alle im selben Körper verwendeten Elemente können referenziert werden
+** Von anderen Teilen oder freien Features:
+*** Unabhängige Kopie erstellen (empfohlen): alle anderen Elemente werden separate Kopien sein, d.h. sie werden sich nicht ändern, wenn sich das Original ändert.
+*** Abhängige Kopie erstellen: die Elemente werden Kopien sein, aber eine Abhängigkeit zu den Originalelementen wird beibehalten. Dies ist im Grunde die Verwendung eines [[PartDesign_ShapeBinder/de|Formbinder]]
+*** Querverweis erstellen: Die verknüpften Elemente sind keine Kopien, sondern verweisen auf die Originalelemente, z. B. eine Masterskizze. Alle Änderungen werden auf diese Skizze übertragen 
 
 Um beliebige Elemente im [[Sketcher_Workbench/de|Sketcher]] zu referenzieren, können die beiden Werkzeuge {{Button|[[Image:Sketcher_External.svg|16px]] [[Sketcher_External/de|ExterneGeometrie]]}} und {{Button|[[File:Sketcher_CarbonCopy.svg|16px]] [[Sketcher_CarbonCopy/de|Pause]]}} verwendet werden. Generell ist es empfehlenswert, andere Skizzen als Quelle für Referenzen zu verwenden, anstatt Flächen oder Kanten, da diese weniger von dem Problem der topologischen Benennung betroffen sind.
 
