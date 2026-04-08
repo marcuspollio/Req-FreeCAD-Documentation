@@ -59,7 +59,7 @@ Vous êtes prêt à utiliser Elmer dans FreeCAD.
 # Double-cliquez sur l'objet SolverElmer [[Image:FEM_SolverElmer.svg|16px]] pour préparer une analyse.
 #: [[Image:ElmerSolver TaskPanel.png|300px]]
 #: {{Caption|Boîte de dialogue pour lancer une analyse Elmer}}
-# Vous pouvez également cocher la case {{Button|Répertoire de travail}}, cliquer sur {{Button|Écrire}} et {{Button|Modifier}} pour modifier le fichier d'entrée ''case.sif'' avant de lancer l'analyse.
+# Vous pouvez cocher la case {{Button|Répertoire de travail}}, cliquer sur {{Button|Écrire}} et {{Button|Modifier}} pour modifier le fichier d'entrée ''case.sif'' avant de lancer l'analyse.
 # Vous pouvez sélectionner le {{MenuCommand|Type de simulation}} (Balayage, État stationnaire ou transitoire).
 # Cliquez sur {{Button|Lancer}} pour lancer l'analyse.
 
