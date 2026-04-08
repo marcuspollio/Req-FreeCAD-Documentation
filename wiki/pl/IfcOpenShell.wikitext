@@ -11,9 +11,7 @@ IfcOpenShell używa [[OpenCASCADE/pl|OpenCASCADE]] wewnętrznie do konwersji nie
 
 Od wersji 0.19 program FreeCAD potrafi importować pliki IFC, o ile w systemie dostępny jest moduł {{incode|ifcopenshell}} [[Python/pl|Pythona]]. Podobnie [[BIM_Workbench/pl|środowisko pracy BIM]] umożliwia eksport modelu budynku do formatu IFC, dzięki czemu może on być używany w innych aplikacjach.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To verify that IfcOpenShell is installed in your system, try to import it from the [[Python_console|Python console]]; the library is correctly installed if no error message is returned.
-</div>
+Aby sprawdzić, czy IfcOpenShell jest zainstalowany w systemie, spróbuj zaimportować go z poziomu [[Python_console/pl|konsoli Pythona]]. Biblioteka jest poprawnie zainstalowana, jeśli nie pojawi się żaden komunikat o błędzie.
 
 {{Code|code=
 import ifcopenshell
