@@ -39,16 +39,15 @@ Pour utiliser le solveur Z88, il faut installer la version open source de Z88 (Z
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
 # Créez un [[Image:FEM_Analysis.svg|16px]] [[FEM_Analysis/fr|conteneur d'analyse]].
 # Il y a plusieurs façons de lancer la commande :
-#* Sélectionnez l'option {{MenuCommand|Résolution → [[Image:FEM_SolverZ88.svg|x16px]] Solveur Z88}} du menu.
+#* Cliquez sur le bouton {{Button|[[Image:FEM_SolverZ88.svg|16px]] [[FEM_SolverZ88/fr|Solver Z88]]}}.
+#* Sélectionnez l'option {{MenuCommand|Résolution → Solveurs → [[Image:FEM_SolverZ88.svg|x16px]] Solveur Z88}} du menu.
 #* Utilisez le raccourci clavier : {{KEY|S}} puis {{KEY|Z}}.
-# Double-cliquez sur l'objet [[Image:FEM_SolverZ88.svg|x16px]] SolverZ88.
-# Sélectionnez le {{MenuCommand|Type d'analyse}}.
-# Cliquez sur le bouton {{Button|Écrire}}.
-# Cliquez sur le bouton {{Button|Exécuter}}.
-</div>
+# Double-cliquez sur l'objet [[Image:FEM_SolverZ88.svg|16px]] SolverZ88 pour préparer une analyse.
+# Vous pouvez cocher la case {{Button|Répertoire de travail}}, cliquer sur {{Button|Écrire}} et {{Button|Modifier}} pour modifier les fichiers d'entrée avant de lancer l'analyse.
+# Vous pouvez sélectionner le {{MenuCommand|Type de solveur}}.
+# Cliquez sur {{Button|Lancer}} pour lancer l'analyse.
 
 == Properties ==
 * {{PropertyData|Exclude Bending Stiffness}} - replaces beams with trusses, currently always checked because beams are not yet supported
