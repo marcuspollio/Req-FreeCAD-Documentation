@@ -264,9 +264,7 @@ Przykładowy plik [[Arch_IFC/pl|IFC]] powinien pojawić się w katalogu build i 
 ./IfcConvert IfcOpenHouse.ifc
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If no output file is specified, by default it will create an [[Arch_OBJ|OBJ]] file and its accompanying material table (MTL).
-</div>
+Jeżeli nie zostanie podany plik wyjściowy, domyślnie zostanie utworzony plik [[Arch_OBJ/pl|OBJ]] wraz z odpowiadającą mu tabelą materiałów (MTL).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Installation of the compiled libraries ===
