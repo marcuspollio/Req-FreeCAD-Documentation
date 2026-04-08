@@ -45,9 +45,7 @@ W systemach Windows i MacOS dystrybucje FreeCAD przygotowane z menedżerem pakie
 <span id="Linux"></span>
 ===Linux===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If it is available, you may install IfcOpenShell using your distribution's package manager.
-</div>
+Jeśli jest dostępny, możesz zainstalować IfcOpenShell za pomocą menedżera pakietów swojej dystrybucji.
 
 {{Code|code=
 sudo apt install ifcopenshell
