@@ -99,11 +99,11 @@ Les triangles et quadrilatères linéaires ne sont pas pris en charge. Les élé
 <span id="Limitations"></span>
 ==Limitations==
 
-* Currently, only displacements (in mm), nodal forces, and nodal moments are provided as contour map results. Stress values are loaded into the text document object.
-* The 3D truss elements require some additional considerations. In case of errors and missing results when using them, the following steps should be taken:
-** make sure the structural member is meshed with only one such element (adjust the min and max element size to enforce that),
-** apply displacement boundary condition to the whole member, constraining the lateral displacements,
-** use the Cholesky solver.
+* Actuellement, seuls les déplacements (en mm), les efforts aux nœuds et les moments aux nœuds sont fournis sous forme de cartes de contour. Les valeurs de contrainte sont chargées dans l'objet document texte.
+* Les éléments de treillis 3D nécessitent quelques précautions supplémentaires. En cas d'erreurs ou de résultats manquants lors de leur utilisation, les étapes suivantes doivent être suivies :
+** assurez-vous que l'élément de structure est maillé avec un seul élément de ce type (ajustez les tailles minimale et maximale des éléments pour garantir cela),
+** appliquez une condition aux limites de déplacement à l'ensemble de l'élément, en contraignant les déplacements latéraux,
+** utilisez le solveur de Cholesky.
 
 <span id="Preferences"></span>
 == Préférences ==
