@@ -113,9 +113,7 @@ make -j N
 <span id="Testing_the_compilation_in_the_build_directory"></span>
 === Testowanie kompilacji w katalogu build ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If the build was successful you should have a {{incode|Release/}} subdirectory with the newly compiled libraries.
-</div>
+Jeżeli kompilacja zakończyła się sukcesem, powinien powstać podkatalog {{incode|Release/}} z nowo skompilowanymi bibliotekami.
 {{Code|code=
 Release/libcarve.so
 Release/libIfcPlusPlus.a
