@@ -212,6 +212,7 @@ Auf dieser Seite kann Folgendes festgelegt werden:
 
 Auf dieser Seite kann Folgendes festgelegt werden:
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Name
 !style="width: 66%;"|Beschreibung
@@ -228,6 +229,7 @@ Auf dieser Seite kann Folgendes festgelegt werden:
 | {{MenuCommand|Maximale Plätze im Koinzidenzvektor}}
 | Dies ist relevant, wenn eine der iterativen Lösungsmethoden verwendet wird. Nach dem Start des Lösers wird möglicherweise angezeigt, dass der Wert "MAXKOI" erhöht werden muss. Man erhöht in diesem Fall die maximale Anzahl an Stellen und führt den Löser erneut aus.
 |}
+</div>
 
 ==Netgen==
 
