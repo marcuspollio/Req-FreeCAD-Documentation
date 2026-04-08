@@ -299,9 +299,8 @@ Jeżeli zmienna {{incode|USERSPACE_PYTHON_PREFIX}} została ustawiona podczas ko
 $HOME/.local/lib/python3.6/site-packages/ifcopenshell/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Removing the compiled libraries ===
-</div>
+<span id="Removing_the_compiled_libraries"></span>
+=== Usuwanie skompilowanych bibliotek ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To remove the installed libraries, just remove the corresponding files that were installed, and the {{incode|ifcopenshell/}} directory with all modules inside.
