@@ -125,9 +125,7 @@ Możesz uruchomić plik wykonywalny {{incode|SimpleViewerExample}}, podając jak
 Release/SimpleViewerExample IfcOpenHouse.ifc
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If the build type was set to {{incode|Debug}}, then the compiled libraries will appear in the {{incode|Debug/}} subdirectory instead.
-</div>
+Jeżeli typ kompilacji został ustawiony na {{incode|Debug}}, skompilowane biblioteki pojawią się w podkatalogu {{incode|Debug/}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Installation of the compiled libraries ===
