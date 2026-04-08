@@ -102,9 +102,7 @@ cmake -DCMAKE_BUILD_TYPE=Debug ../ifcplusplus-source/
 <span id="Actual_compilation"></span>
 === Właściwa kompilacja ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If there were no error messages during configuration with CMake, a {{incode|Makefile}} should have been created in the build directory, so you can proceed to compile the libraries by running {{incode|make}}.
-</div>
+Jeżeli podczas konfiguracji za pomocą CMake nie pojawiły się żadne komunikaty o błędach, w katalogu build powinien zostać utworzony {{incode|Makefile}}, dzięki czemu możesz przystąpić do kompilacji bibliotek, wydając polecenie {{incode|make}}.
 
 {{Code|code=
 make -j N
