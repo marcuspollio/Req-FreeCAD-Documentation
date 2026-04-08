@@ -215,9 +215,7 @@ W przypadku {{incode|SimpleViewerExample}} w głównym interfejsie znajdują si�
 QIODevice::read (QFile, ":styles.css"): device not open
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The style must be included in the CMake configuration in the section devoted to the Qt libraries:
-</div>
+Styl musi być uwzględniony w konfiguracji CMake w sekcji poświęconej bibliotekom Qt:
 {{Code|lang=cmake|code=
 # ifcplusplus-source/examples/SimpleViewerExampleQt/CMakeLists.txt
 ...
@@ -228,9 +226,8 @@ SET(RESOURCES ${viewer_dir}/Resources/ifcplusplus.qrc)
 QT5_ADD_RESOURCES(SimpleViewerExample_RESOURCES_RCC ${RESOURCES})
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== More information ==
-</div>
+<span id="More_information"></span>
+== Więcej informacji ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [https://www.ifcquery.com/ IFC++ project page]
