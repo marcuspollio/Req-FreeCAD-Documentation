@@ -245,9 +245,7 @@ make -j N
 
 Wszystkie opcje konfiguracji znajdują się w pliku {{incode|CMakeLists.txt}} w katalogu {{incode|IfcOpenShell-source/cmake/}}. Jeśli pojawią się problemy podczas uruchamiania CMake lub Make, zajrzyj tam, aby sprawdzić inne opcje, które mogą wymagać ustawienia.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In all instructions above, instead of {{incode|cmake}}, the graphical interface {{incode|cmake-gui}} can be used. This will quickly show the available options in the configuration.
-</div>
+We wszystkich powyższych instrukcjach zamiast {{incode|cmake}} można użyć graficznego interfejsu {{incode|cmake-gui}}. Pozwoli to szybko zobaczyć dostępne opcje konfiguracji.
 
 {{Code|code=
 cmake-gui ../IfcOpenShell-source/cmake/
