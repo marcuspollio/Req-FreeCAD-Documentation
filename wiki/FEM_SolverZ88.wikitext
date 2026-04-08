@@ -14,7 +14,7 @@
 <!--T:1-->
 {{GuiCommand
 |Name=FEM SolverZ88
-|MenuLocation=Solve → Solver Z88
+|MenuLocation=Solve → Solvers → Solver Z88
 |Workbenches=[[FEM_Workbench|FEM]]
 |Shortcut={{KEY|S}} {{KEY|Z}}
 |SeeAlso=[[FEM_tutorial|FEM tutorial]]
