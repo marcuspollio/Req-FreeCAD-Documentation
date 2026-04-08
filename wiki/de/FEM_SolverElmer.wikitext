@@ -49,21 +49,20 @@ Jetzt kann Elmer in FreeCAD genutzt werden.
 <span id="Usage"></span>
 ==Anwendung==
 
-<div class="mw-translate-fuzzy">
 # Zum [[Image:Workbench_FEM.svg|16px]] [[FEM_Workbench/de|Arbeitsbereich FEM]].
 # Einen [[Image:FEM_Analysis.svg|16px]] [[FEM_Analysis/de|Analyse]]-Container erstellen.
 # Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-#* Die Taste {{Button|[[Image:FEM_SolverElmer.svg|16px]] [[FEM_SolverElmer/de|Löser Elmer]]}} drücken.
-#* Die Option {{MenuCommand|Lösen → [[Image:FEM_SolverElmer.svg|16px]] Löser Elmer}} aus dem Menü wählen.
+#* Die Schaltfläche {{Button|[[Image:FEM_SolverElmer.svg|16px]] [[FEM_SolverElmer/de|Löser Elmer]]}} drücken.
+#* Die Option {{MenuCommand|Lösen → Löser → [[Image:FEM_SolverElmer.svg|16px]] Löser Elmer}} aus dem Menü wählen.
 #* Die Tastenkombination: {{KEY|S}} und dann {{KEY|E}} verwenden.
-# Die Parameter für den Löser in der [[Property_View/de|Eigenschaften-Ansicht]] auf der Registerkarte {{Button|Data}} des SolverElmer-Objekts in der Modell-[[Tree_View/de|Baumansicht]] bearbeiten.
-# Auf das Objekt {{KEY|[[Image:FEM_SolverElmer.svg|16px]] SolverElmer}} doppelklicken, um eine Analyse vorzubereiten.
+# Optional, die Parameter für den Löser in der [[Property_View/de|Eigenschaften-Ansicht]] auf der Registerkarte {{Button|Data}} des SolverElmer-Objekts in der Modell-[[Tree_View/de|Baumansicht]] bearbeiten.
+# Gleichungen hinzufügen, die das physikalische Problem und die zu berechnenden Größen beschreiben.
+# Auf das Objekt [[Image:FEM_SolverElmer.svg|16px]] SolverElmer doppelklicken, um eine Analyse vorzubereiten.
 #: [[Image:ElmerSolver TaskPanel.png|300px]]
 #: {{Caption|Dialogfeld zum Ausführen einer Elmer-Analyse}}
-# Den Pfad zum Speichern der Analyse auswählen, indem man auf {{Button|…}} klickt.
-# Auf {{Button|Schreiben}} klicken, um die Fallakten in das zuvor ausgewählte Verzeichnis zu schreiben.
-# Auf {{Button|Ausführen}} klicken, um die Analyse zu starten.
-</div>
+# Optional das Kontrollkästchen {{Button|Arbeitsverzeichnis}} aktivieren, auf {{Button|Schreiben}} und {{Button|Bearbeiten}} klicken, um die Eingabedatei ''case.sif'' vor dem Starten der Analyse zu bearbeiten.
+# Optional den {{MenuCommand|Simulationstyp}} (Scanning, Steady State oder Transient) auswählen.
+# Auf {{Button|Anwenden}} klicken, um die Analyse zu starten.
 
 Hinweis: Für eine erfolgreiche Analyse sind mindestens ein Modell (2D oder 3D), ein Material ([[FEM_MaterialFluid/de|MaterialFluide]] oder [[FEM_MaterialSolid/de|MaterialFeststoff]]), ein [[FEM_MeshGmshFromShape/de|NetzGmshAusForm]], Gleichungen und Randbedingungen erforderlich.
 
