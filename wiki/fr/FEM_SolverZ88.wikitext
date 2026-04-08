@@ -9,16 +9,14 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/fr
 |Name=FEM SolverZ88
 |Name/fr=FEM Solveur Z88
-|MenuLocation=Résolution → Solveur Z88
+|MenuLocation=Résolution → Solveurs → Solveur Z88
 |Workbenches=[[FEM_Workbench/fr|FEM]]
 |Shortcut={{KEY|S}} {{KEY|Z}}
 |SeeAlso=[[FEM_tutorial/fr|FEM Tutoriel]]
 }}
-</div>
 
 ==Description==
 
