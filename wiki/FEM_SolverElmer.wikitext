@@ -66,7 +66,7 @@ You are ready to use Elmer in FreeCAD.
 #* Use the keyboard shortcut: {{KEY|S}} then {{KEY|E}}.
 # Optionally, edit the parameters for the solver in the [[Property_View|Property View]] {{Button|Data}} tab of the SolverElmer object in the model [[Tree_View|Tree View]].
 # Add equation(s) defining the physical problem and quantities to be calculated.
-# Double-click on the {{KEY|[[Image:FEM_SolverElmer.svg|16px]] SolverElmer}} object to prepare an analysis run
+# Double-click on the {{KEY|[[Image:FEM_SolverElmer.svg|16px]] SolverElmer}} object to prepare an analysis run.
 #: [[Image:ElmerSolver TaskPanel.png|300px]]
 #: {{Caption|Dialog box to run an Elmer analysis}}
 # Optionally, check the {{Button|Working directory}} box, click {{Button|Write}} and {{Button|Edit}} to edit the ''case.sif'' input file before submitting an analysis.
