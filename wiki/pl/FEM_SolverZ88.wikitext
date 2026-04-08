@@ -51,6 +51,8 @@ Do korzystania z solvera Z88 musi być zainstalowana otwarta wersja Z88 (Z88OS l
 # Opcjonalnie wybierz {{MenuCommand|Typ solvera}}.
 # Kliknij {{Button|Zastosuj}}, aby uruchomić analizę.
 
+<span id="Properties"></span>
+<div class="mw-translate-fuzzy">
 == Właściwości ==
 * {{PropertyData|Exclude Bending Stiffness}} - zastępuje belki kratownicami, obecnie zawsze zaznaczone, ponieważ belki nie są jeszcze wspieranere
 * {{PropertyData|Model Space}}:
@@ -77,7 +79,36 @@ Do korzystania z solvera Z88 musi być zainstalowana otwarta wersja Z88 (Z88OS l
 ** sorcg - solver iteracyjny do rzadkich macierzy SORCG zalecany dla dużych struktur
 ** siccg - solver iteracyjny do rzadkich macierzy SICCG zalecany dla dużych struktur
 * {{PropertyData|Vector Maximum}} - wartość MAXKOI: maksymalna liczba elementów wektora zbieżności
+</div>
 
+* {{PropertyData|Exclude Bending Stiffness}} - replaces beams with trusses, currently always checked because beams are not yet supported
+* {{PropertyData|Model Space}}:
+** 3D - uses 3D shell elements
+** plane stress - uses 2D plane stress elements
+** axisymmetric - uses 2D axisymmetric elements
+** plate - uses 3D plate elements
+* {{PropertyData|Shell Flag}} - IHFLAG value: set to 2 or 3 for thin shells and to 4 for very thin shells
+* {{PropertyData|Analysis Type}}:
+** static
+** test
+* {{PropertyData|Displace Mesh}} - deform the mesh by the displacement field
+* {{PropertyData|Integration Order Hexa}} - displacement integration order for hexa elements
+* {{PropertyData|Integration Order Quad}} - displacement integration order for quad elements
+* {{PropertyData|Integration Order Tetra}} - displacement integration order for tetra elements
+* {{PropertyData|Integration Order Tria}} - displacement integration order for tria elements
+* {{PropertyData|Iteration Maximum}} - MAXIT value: maximum number of iterations for iterative solvers
+* {{PropertyData|Matrix Maximum}} - MAXGS value: maximum number of entries in the stiffness matrix
+* {{PropertyData|Relaxation Factor}} - ROMEGA value: convergence acceleration parameter for SOR pre-conditioner
+* {{PropertyData|Residual Limit}} - EPS value: it is compared to the norm of the residual vector
+* {{PropertyData|Shift Factor}} - RALPHA value: convergence acceleration parameter for SIC pre-conditioner
+* {{PropertyData|Solver Type}}:
+** choly - direct Cholesky solver recommended for small structures
+** sorcg - sparse matrix iterative SORCG solver recommended for large structures
+** siccg - sparse matrix iterative SICCG solver recommended for large structures
+* {{PropertyData|Vector Maximum}} - MAXKOI value: maximum number of entries in the coincidence vector
+
+<span id="Supported_finite_element_types"></span>
+<div class="mw-translate-fuzzy">
 == Wspierane typy elementów skończonych ==
 Następujące typy elementów skończonych są wspierane przez implementację solvera Z88:
 * 2-węzłowe kratownice 3D,
@@ -85,19 +116,44 @@ Następujące typy elementów skończonych są wspierane przez implementację so
 * 4-węzłowe i 10-węzłowe czworościany,
 * 6-węzłowe trójkąty i 8-węzłowe czworokąty - sformułowania dla powłok i płyt 3D oraz płaskiego stanu naprężeń i symetrii osiowej 2D.
 Liniowe trójkąty i czworokąty nie są w ogóle wspierane. Elementy belkowe nie są jeszcze wspierane.
+</div>
 
+The following types of finite elements are supported by the Z88 solver implementation:
+* 2-node 3D truss,
+* 8-node and 20-node hexahedron,
+* 4-node and 10-node tetrahedron,
+* 6-node triangle and 8-node quadrangle - 3D shell and plate, 2D plane stress and axisymmetric formulations.
+Linear triangles and quadrangles are not supported at all. Beam elements are not yet supported.
+
+<span id="Notes"></span>
+<div class="mw-translate-fuzzy">
 == Uwagi ==
 * Z88Adria ma takie same możliwości i ograniczenia jak Z88OS, ale nie uruchamia swojego GUI podczas uruchamiania solvera z poziomu FreeCAD, więc Z88Adria jest obecnie preferowanym wyborem.
 * Ciśnienie zadawane na krawędzie modeli osiowosymetrycznych musi być podane jak w odpowiadającym modelu 3D, czyli jako siła na jednostkę powierzchni. Solver konwertuje to na równoważną siłę na jednostkę długości mnożąc ciśnienie przez <math>2 \pi R</math> (gdzie R to współrzędna y środkowego węzła elementu).
 * Dla elementów płytowych, stopnie swobody to kolejno: przemieszczenia Z i obroty <math>\theta_{x}</math> oraz <math>\theta_{y}</math> (w stopniach).
 * Dostępny jest tryb analizy '''test'''. Zapewnia on informacje o parametrach solvera. Te informacje są ładowane do obiektu dokumentu tekstowego.
+</div>
 
+* Z88Adria has the same capabilities/limitations as Z88OS, but doesn't launch its GUI when running the solver from FreeCAD, so Z88Adria is currently the preferred choice.
+* Pressure applied to edges of axisymmetric models must be given as in a corresponding 3D model, i.e. in units of force per unit area; the solver converts it to an equivalent force per unit length by multiplying the pressure by  <math>2 \pi R</math> (where R is the x-coordinate of the element's middle node).
+* For plate elements, the degrees of freedom are in order: Z displacement and rotations <math>\theta_{x}</math> and <math>\theta_{y}</math> (in deg).
+* A '''test''' analysis mode is available. It provides information about the solver parameters. This information is loaded into the text document object.
+
+<span id="Limitations"></span>
+<div class="mw-translate-fuzzy">
 == Ograniczenia ==
 * Obecnie tylko przemieszczenia (w mm), siły i momenty węzłowe są dostępne jako wyniki w postaci map konturowych. Wartości naprężeń są ładowane do obiektu dokumentu tekstowego.
 * Elementy kratownicowe 3D wymagają pewnych dodatkowych ustawień. W przypadku błędów i brakujących wyników podczas używania tych elementów, należy podjąć następujące kroki:
 ** upewnić się, że człon konstrukcyjny ma nałożoną siatkę z tylko jednym takim elementem (dostosuj minimalny i maksymalny rozmiar elementu, aby to wymusić),
 ** nałóż warunek brzegowy przemieszczenia na cały człon konstrukcyjny, blokując przemieszczenia w kierunkach poprzecznych,
 ** użyj solvera Cholesky.
+</div>
+
+* Currently, only displacements (in mm), nodal forces, and nodal moments are provided as contour map results. Stress values are loaded into the text document object.
+* The 3D truss elements require some additional considerations. In case of errors and missing results when using them, the following steps should be taken:
+** make sure the structural member is meshed with only one such element (adjust the min and max element size to enforce that),
+** apply displacement boundary condition to the whole member, constraining the lateral displacements,
+** use the Cholesky solver.
 
 <span id="Preferences"></span>
 == Preferencje ==
