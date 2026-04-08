@@ -27,9 +27,7 @@ IfcOpenShell można zainstalować na różne sposoby w zależności od systemu o
 
 Strona instalacyjna IfcOpenShell: https://docs.ifcopenshell.org/ifcopenshell-python/installation.html
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 === Pip ===
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The easiest way to install IfcOpenShell is using [https://pypi.org/project/pip/ pip]. Once pip is installed on your system, you can [https://datatofish.com/install-package-python-using-pip/ install] IfcOpenShell easily by issuing from a terminal window:
