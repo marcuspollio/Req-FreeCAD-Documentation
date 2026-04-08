@@ -206,9 +206,8 @@ cmake \
     ../IfcOpenShell-source/cmake/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Specifying Python version ====
-</div>
+<span id="Specifying_Python_version"></span>
+==== Określanie wersji Pythona ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you want to generate a binding for a particular Python version, set the {{incode|PYTHON_EXECUTABLE}} variable to the specific executable. Remember that this version must be the same Python version against which FreeCAD was compiled.
