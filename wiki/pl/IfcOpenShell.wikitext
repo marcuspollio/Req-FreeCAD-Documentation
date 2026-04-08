@@ -339,9 +339,7 @@ Kompilacja całej dystrybucji IfcOpenShell generuje pliki wykonywalne, takie jak
 ../IfcOpenShell-source/src/ifcopenshell-python/ifcopenshell/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The {{incode|ifcopenshell}} module is created by copying the original source directory, and adding the two {{incode|*ifcopenshell_wrapper*}} files to it.
-</div>
+Moduł {{incode|ifcopenshell}} jest tworzony poprzez skopiowanie oryginalnego katalogu źródłowego i dodanie do niego dwóch plików {{incode|*ifcopenshell_wrapper*}}.
 
 {{Code|code=
 cp -rt . ../IfcOpenShell-source/src/ifcopenshell-python/ifcopenshell/
