@@ -74,9 +74,7 @@ Zainstaluj podstawowe narzędzia kompilacyjne.
 sudo apt install git cmake gcc g++ libboost-all-dev
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Get the source code of the project and place it in a custom directory to which you have full write access.
-</div>
+Uzyskaj kod źródłowy projektu i umieść go w katalogu użytkownika, w którym masz pełne prawa do zapisu.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 As of this writing (2020), the master branch of the IfcOpenShell project does not contain the latest code, so we need to clone a specific branch.
