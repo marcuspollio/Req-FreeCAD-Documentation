@@ -9,6 +9,7 @@
 |IconC=Workbench_FEM.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=FEM SolverCalculixCcxtools
 |Name/de=FEM LöserCalculixCcxtools
@@ -17,6 +18,7 @@
 |Shortcut={{VersionMinus/de|1.0}}: {{KEY|S}} {{KEY|X}}<br>{{VersionPlus/de|1.1}}: {{KEY|S}} {{KEY|C}}
 |SeeAlso=[[FEM_tutorial/de|FEM Tutorium]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Beschreibung==
@@ -31,6 +33,7 @@ Ermöglicht die Verwendung des Gleichungslösers [https://en.wikipedia.org/wiki/
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 # Ein [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools-Löser-Objekt wird automatisch beim Erstellen eines [[Image:FEM_Analysis.svg|16px|link=FEM_Analysis/de]] [[FEM_Analysis/de|Analysebehälters]] hinzugefügt, wenn CalculiX als Standardlöser in den [[FEM_Preferences#General/de|General FEM preferences]] ausgewählt wurde.<br> Um es manuell zu erstellen, wird eine der folgenden Möglichkeiten verwendet:
 #* Die Schaltfläche {{Button|[[Image:FEM_SolverCalculixCcxtools.svg|16px]] [[FEM_SolverCalculixCcxtools/de|Löser CalculiX]]}} drücken.
 #* Den Menüeintrag {{MenuCommand|Löser → [[Image:FEM_SolverCalculixCcxtools.svg|16px]] Löser CalculiX}} auswählen.
@@ -42,11 +45,7 @@ Ermöglicht die Verwendung des Gleichungslösers [https://en.wikipedia.org/wiki/
 # Die {{MenuCommand|Analyseart}} auswählen.
 # Die Schaltfläche {{Button|.inp-Datei schreiben}} anklicken.
 # Die Schaltfläche {{Button|CalculiX ausführen}} anklicken.
-
-<span id="Options"></span>
-==Optionen==
-
-Klicken Sie auf die Schaltfläche {{Button|Edit .inp file}}, um die CalculiX-Eingabedatei anzuzeigen und manuell zu bearbeiten, bevor Sie die Analyse ausführen. In diesem Fall kann es nützlich sein, die Eigenschaft {{PropertyData|Split Input Writer}} auf {{True}} zu setzen.
+</div>
 
 <span id="Properties"></span>
 ==Eigenschaften==
