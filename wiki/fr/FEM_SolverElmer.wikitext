@@ -48,21 +48,20 @@ Vous êtes prêt à utiliser Elmer dans FreeCAD.
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
-# Basculez vers l'atelier [[Image:Workbench_FEM.svg|16px]] [[FEM_Workbench/fr|FEM]]
+# Basculez vers l'atelier [[Image:Workbench_FEM.svg|16px]] [[FEM_Workbench/fr|FEM]].
 # Créez un [[Image:FEM_Analysis.svg|16px]] [[FEM_Analysis/fr|conteneur d'analyse]].
-# Il y a plusieurs façons de lancer la commande :
-#* Appuyez sur le bouton {{Button|[[Image:FEM_SolverElmer.svg|16px]] [[FEM_SolverElmer/fr|Solveur Elmer ]]}}.
-#* Sélectionnez l'option {{MenuCommand|Solve → [[Image:FEM_SolverElmer.svg|16px]] Solveur Elmer}} dans le menu.
+# Il existe plusieurs façons de lancer la commande :
+#* Appuyez sur le bouton {{Button|[[Image:FEM_SolverElmer.svg|16px]] [[FEM_SolverElmer/fr|Solveur Elmer]]}}.
+#* Sélectionnez l'option {{MenuCommand|Résoudre → Solveurs → [[Image:FEM_SolverElmer.svg|16px]] Solveur Elmer}} du menu.
 #* Utilisez le raccourci clavier : {{KEY|S}} puis {{KEY|E}}.
-# Modifiez les paramètres du solveur dans l'onglet {{Button|Données}} de l'[[Property_View/fr|éditeur de propriétés]] de l'objet SolverElmer dans l'[[Tree_View/fr|arborescence]] du modèle
-# Double-cliquez sur l'objet {{KEY|[[Image:FEM_SolverElmer.svg|16px]] SolverElmer}} pour préparer une analyse
+# Vous pouvez modifier les paramètres du solveur dans l'onglet {{Button|Données}} de l'[[Property_View/fr|éditeur de propriétés]] de l'objet SolverElmer dans l'[[Tree_View/fr|arborescence]] du modèle.
+# Ajoutez la ou les équations définissant le problème physique et les grandeurs à calculer.
+# Double-cliquez sur l'objet SolverElmer [[Image:FEM_SolverElmer.svg|16px]] pour préparer une analyse.
 #: [[Image:ElmerSolver TaskPanel.png|300px]]
-#: {{Caption|Menu pour exécuter une analyse Elmer}}
-# Sélectionnez le chemin vers lequel l'analyse écrira en cliquant sur {{Button|…}}
-# Cliquez sur {{Button|Ecrire}} pour écrire les fichiers de cas dans le répertoire sélectionné précédemment
-# Cliquez sur {{Button|Lancer}} pour démarrer l'analyse
-</div>
+#: {{Caption|Boîte de dialogue pour lancer une analyse Elmer}}
+# Vous pouvez également cocher la case {{Button|Répertoire de travail}}, cliquer sur {{Button|Écrire}} et {{Button|Modifier}} pour modifier le fichier d'entrée ''case.sif'' avant de lancer l'analyse.
+# Vous pouvez sélectionner le {{MenuCommand|Type de simulation}} (Balayage, État stationnaire ou transitoire).
+# Cliquez sur {{Button|Lancer}} pour lancer l'analyse.
 
 Remarque : une analyse réussie nécessitera au moins un modèle (2D ou 3D), un matériau ([[FEM_MaterialFluid/fr|fluide]] ou [[FEM_MaterialSolid/fr|solide]]), un [[FEM_MeshGmshFromShape/fr|maillage]], des équations et des conditions aux limites.
 
