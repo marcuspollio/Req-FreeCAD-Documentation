@@ -40,7 +40,7 @@ Enables usage of the [https://en.wikipedia.org/wiki/Calculix CalculiX] solver. I
 #* Press the shortcut keys:
 #** {{VersionMinus|1.0}}: {{KEY|S}} {{KEY|X}}
 #** {{VersionPlus|1.1}}: {{KEY|S}} {{KEY|C}}
-# Optionally change the properties of the {{KEY|[[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools}} (legacy ccx solver) or {{KEY|[[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCalculiX}} (refactored ccx solver) object in the [[Property_View|Property View]].
+# Optionally change the properties of the [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools (legacy ccx solver) or [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCalculiX (refactored ccx solver) object in the [[Property_View|Property View]].
 # Double click on the [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools or [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCalculiX solver object.
 # Select the {{MenuCommand|Analysis type}}.
 # For legacy ccx solver:
