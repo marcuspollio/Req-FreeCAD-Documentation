@@ -155,9 +155,7 @@ Domyślnie {{incode|CMAKE_INSTALL_PREFIX}} jest ustawiony na {{incode|/usr/local
 <span id="Library_path"></span>
 === Ścieżka biblioteki ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Once {{incode|SimpleViewerExample}} is placed in {{incode|/usr/local/bin}}, the executable will be available in the entire system. However, in certain platforms {{incode|libcarve.so}} may not be found if it is installed in the default {{incode|/usr/local/lib}} directory.
-</div>
+Gdy {{incode|SimpleViewerExample}} zostanie umieszczony w {{incode|/usr/local/bin}}, plik wykonywalny będzie dostępny w całym systemie. Jednak na niektórych platformach {{incode|libcarve.so}} może nie zostać odnaleziony, jeśli jest zainstalowany w domyślnym katalogu {{incode|/usr/local/lib}}.
 {{Code|lang=md|code=
 SimpleViewerExample: error while loading shared libraries: libcarve.so: cannot open shared object file: No such file or directory
 }}
