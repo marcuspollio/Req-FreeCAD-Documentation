@@ -368,9 +368,7 @@ Teraz moduł {{incode|ifcopenshell}} powinien być dostępny do zaimportowania z
 <span id="IFC_viewer_application"></span>
 == Aplikacja przeglądarki IFC ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The IfcOpenShell library actually includes a small graphical viewer for IFC files that uses PyQt5 and PythonOCC.
-</div>
+Biblioteka IfcOpenShell zawiera w rzeczywistości mały graficzny przeglądarka plików IFC, która wykorzystuje PyQt5 oraz PythonOCC.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To launch this viewer from the Python console, the {{incode|application}} class needs to be instantiated and started:
