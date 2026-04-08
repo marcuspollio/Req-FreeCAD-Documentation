@@ -9,7 +9,6 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
 {{GuiCommand/de
 |Name=FEM ConstraintPressure
@@ -19,10 +18,9 @@
 |SeeAlso=[[FEM_ConstraintForce/de|FEM RandbedingungKraft]]
 }}
 {{GuiCommandFemInfo/de
-|Solvers=CalculiX, Elmer
+|Solvers=CalculiX, Elmer, Z88
 }}
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung==
