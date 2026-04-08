@@ -102,9 +102,7 @@ Zainstaluj pliki deweloperskie OpenCOLLADA.
 sudo apt install opencollada-dev
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If the files are too old in your distribution, you may also compile the libraries yourself. The procedure is outlined in the main repository, [https://github.com/KhronosGroup/OpenCOLLADA KhronosGroup/OpenCOLLADA], and it's very straight forward as it only requires the {{incode|libpcre3}} and {{incode|libxml2}} development files.
-</div>
+Jeżeli pliki w twojej dystrybucji są zbyt stare, możesz także skompilować biblioteki samodzielnie. Procedura jest opisana w głównym repozytorium, [https://github.com/KhronosGroup/OpenCOLLADA KhronosGroup/OpenCOLLADA], i jest bardzo prosta, ponieważ wymaga jedynie plików deweloperskich {{incode|libpcre3}} i {{incode|libxml2}}.
 
 {{Code|code=
 sudo apt install libpcre3-dev libxml2-dev
@@ -118,9 +116,8 @@ make -j 3
 sudo make install
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Python wrapper ===
-</div>
+<span id="Python_wrapper"></span>
+=== Wrapper Pythona ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 For usage with FreeCAD you need the [[Python|Python]] wrapper which uses SWIG to generate the proper interfaces from the C++ classes.
