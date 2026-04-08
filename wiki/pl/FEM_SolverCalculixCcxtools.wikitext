@@ -31,19 +31,21 @@ Umożliwia użycie solvera [https://en.wikipedia.org/wiki/Calculix CalculiX]. Mo
 <span id="Usage"></span>
 ==Użycie==
 
-<div class="mw-translate-fuzzy">
-# Obiekt [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools jest tworzony automatycznie razem z [[Image:FEM_Analysis.svg|16px|link=FEM_Analysis/pl]] [[FEM_Analysis/pl|kontenerem analizy]] jeśli CalculiX jest wybrany jako domyślny solver w [[FEM_Preferences/pl#Ogólne|ogólnych ustawieniach środowiska pracy MES]].<br>Aby utworzyć go samodzielnie, skorzystaj z jednego z poniższych sposobów:
+# Obiekt CalculiX SolverCcxTools (starszy solver ccx) lub SolverCalculiX (przebudowany solver ccx) jest tworzony automatycznie razem z [[Image:FEM_Analysis.svg|16px|link=FEM_Analysis/pl]] [[FEM_Analysis/pl|kontenerem analizy]] jeśli CalculiX jest wybrany jako domyślny solver w [[FEM_Preferences/pl#Ogólne|ogólnych ustawieniach środowiska pracy MES]].<br>Aby utworzyć go samodzielnie, skorzystaj z jednego z poniższych sposobów:
 #* Wciśnij przycisk {{Button|[[Image:FEM_SolverCalculixCcxtools.svg|16px]] [[FEM_SolverCalculixCcxtools/pl|Solver CalculiX]]}}.
-#* Wybierz opcję {{MenuCommand|Rozwiąż → [[Image:FEM_SolverCalculixCcxtools.svg|16px]] Solver CalculiX}} z menu.
+#* Wybierz opcję {{MenuCommand|Rozwiąż → Solvery → [[Image:FEM_SolverCalculixCcxtools.svg|16px]] Solver CalculiX}} z menu.
 #* Użyj skrótu klawiszowego:
 #** {{VersionMinus/pl|1.0}}: {{KEY|S}} a następnie {{KEY|X}}
 #** {{VersionPlus/pl|1.1}}: {{KEY|S}} a następnie {{KEY|C}}
-# Opcjonalnie, zmień właściwości obiektu [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools w [[Property_editor/pl|edytorze właściwości]].
-# Dwukrotnie kliknij obiekt [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools.
-# Wybierz {{MenuCommand|Typ analizy}}.
-# Wciśnij przycisk {{Button|Zapisz plik wejściowy .inp}}.
-# Wciśnij przycisk {{Button|Uruchom CalculiX}}.
-</div>
+# Opcjonalnie, zmień właściwości obiektu [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools (starszy solver ccx) lub [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCalculiX (przebudowany solver ccx) w [[Property_View/pl|Widoku właściwości]].
+# Dwukrotnie kliknij na obiekcie [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools lub [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCalculiX.
+# Dla starszego solvera ccx:
+#* Wciśnij przycisk {{Button|Zapisz plik wejściowy .inp}}.
+#* Opcjonalnie wciśnij przycisk {{Button|Edytuj plik wejściowy .inp}}, aby wyświetlić i edytować plik wejściowy CalculiX'a ręcznie przed uruchomieniem analizy. W takim wypadku przydatne może być ustawienie właściwości {{PropertyData|Split Input Writer}} na {{True/pl}}.
+#* Wciśnij przycisk {{Button|Uruchom CalculiX}}.
+# Dla przebudowanego solvera ccx:
+#* Opcjonalnie zaznacz pole {{Button|Ścieżka robocza}}, kliknij {{Button|Zapisz}} i {{Button|Edytuj}}, aby edytować plik wejściowy przed uruchomieniem analizy.
+#* Kliknij {{Button|Zastosuj}}, aby uruchomić analizę.
 
 <span id="Properties"></span>
 ==Właściwości==
