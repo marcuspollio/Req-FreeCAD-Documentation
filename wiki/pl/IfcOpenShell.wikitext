@@ -238,9 +238,7 @@ Jeżeli podczas konfiguracji za pomocą CMake nie pojawiły się żadne komunika
 make -j N
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{incode|N}} is the number of processors that you assign to the compilation process; choose at least one fewer than the total number of CPU cores that you have.
-</div>
+{{incode|N}} to liczba procesorów przypisana do procesu kompilacji; wybierz co najmniej o jeden mniej niż całkowita liczba rdzeni CPU, które posiadasz.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Troubleshooting and other options ===
