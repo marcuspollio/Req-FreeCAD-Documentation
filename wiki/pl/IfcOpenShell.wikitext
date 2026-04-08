@@ -370,9 +370,7 @@ Teraz moduł {{incode|ifcopenshell}} powinien być dostępny do zaimportowania z
 
 Biblioteka IfcOpenShell zawiera w rzeczywistości mały graficzny przeglądarka plików IFC, która wykorzystuje PyQt5 oraz PythonOCC.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To launch this viewer from the Python console, the {{incode|application}} class needs to be instantiated and started:
-</div>
+Aby uruchomić tę przeglądarkę z poziomu konsoli Python, należy utworzyć instancję klasy {{incode|application}} i ją uruchomić:
 {{Code|code=
 from ifcopenshell.geom.app import application
 application().start()
