@@ -125,9 +125,8 @@ Do użycia z FreeCAD potrzebny jest wrapper [[Python/pl|Pythona]], który wykorz
 sudo apt-get install python-all-dev swig
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== CMake configuration ===
-</div>
+<span id="CMake_configuration"></span>
+=== Konfiguracja CMake ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 It is recommended to perform the configuration and compilation in a specific build directory separate from the source directory.
