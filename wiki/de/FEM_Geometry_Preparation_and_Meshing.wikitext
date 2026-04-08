@@ -280,11 +280,9 @@ Die Wahl der Elementordnung (erste oder zweite Ordnung) hängt von den Analysebe
 <span id="Quad_meshes"></span>
 === Vierkantnetze ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Quadrilateral elements can be generated on surface geometries using both meshers:
-* [[FEM_MeshGmshFromShape|Gmsh]] - set the {{PropertyData|Algorithm 2D}} property to ''Quasi-structured Quad'' (currently, it doesn't work for 2nd order elements) or enable the {{PropertyData|Recombine All}} property and select the {{PropertyData|Recombination Algorithm}},
-* [[FEM_MeshNetgenFromShape|Netgen]] - enable the {{PropertyData|Quad Dominated}} property.
-</div>
+Mit beiden Vernetzern lassen sich Vierkantelemente auf Oberflächengeometrien erzeugen:
+* [[FEM_MeshGmshFromShape/de|Gmsh]] - die Eigenschaft {{PropertyData/de|Algorithm 2D}} auf ''Quasi-structured Quad'' (derzeit funktioniert es bei Elementen zweiter Ordnung nicht) setzen, oder die Eigenschaft {{PropertyData/de|Recombine All}} aktivieren und {{PropertyData/de|Recombination Algorithm}} setzen,
+* [[FEM_MeshNetgenFromShape/de|Netgen]] - die Eigenschaft {{PropertyData/de|Quad Dominated}} aktivieren.
 
 [[Image:Quad_mesh.PNG|400px]]
 
