@@ -9,16 +9,14 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/pl
 |Name=FEM SolverCalculixCcxtools
 |Name/pl=MES: Solver CalculiX
-|MenuLocation=Rozwiąż → Solver CalculiX
+|MenuLocation=Rozwiąż → Solvery → Solver CalculiX
 |Workbenches=[[FEM_Workbench/pl|MES]]
 |Shortcut={{VersionMinus/pl|1.0}}: {{KEY|S}} {{KEY|X}}<br>{{VersionPlus/pl|1.1}}: {{KEY|S}} {{KEY|C}}
 |SeeAlso=[[FEM_tutorial/pl|Poradnik MES]]
 }}
-</div>
 
 <span id="Description"></span>
 ==Opis==
