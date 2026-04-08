@@ -127,9 +127,8 @@ Release/SimpleViewerExample IfcOpenHouse.ifc
 
 Jeżeli typ kompilacji został ustawiony na {{incode|Debug}}, skompilowane biblioteki pojawią się w podkatalogu {{incode|Debug/}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Installation of the compiled libraries ===
-</div>
+<span id="Installation_of_the_compiled_libraries"></span>
+=== Instalacja skompilowanych bibliotek ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If the compilation doesn't report any errors, you may run {{incode|make install}} to copy the headers, compiled libraries, and binaries to their corresponding installation directories.
