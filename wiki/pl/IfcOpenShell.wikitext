@@ -170,9 +170,7 @@ cmake \
 <span id="With_OpenCOLLADA"></span>
 ==== Z OpenCOLLADA ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If you manually compiled OpenCOLLADA, or if the libraries are not in a standard directory, you may have to set the proper variables for OpenCOLLADA and for the {{incode|libpcre}} library.
-</div>
+Jeżeli samodzielnie skompilowałeś OpenCOLLADA lub biblioteki nie znajdują się w standardowym katalogu, może być konieczne ustawienie odpowiednich zmiennych dla OpenCOLLADA oraz biblioteki {{incode|libpcre}}.
 
 {{Code|code=
 cmake \
