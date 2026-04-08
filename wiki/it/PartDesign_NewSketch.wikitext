@@ -47,6 +47,7 @@ Quando si creano modelli utilizzando l'[[PartDesign_Workbench|Ambiente PartDesig
 ::[[File:PartDesign.CreateSketch.SelectFeatureDialog.jpeg|300px]]
 :: Dialogo ''Seleziona associazione''. Queste impostazioni creano uno schizzo sul piano XY e permettono i riferimenti da altri elementi dello stesso corpo
 
+<div class="mw-translate-fuzzy">
 Impostazioni nel dialogo
 * Riquadro per il sistema di coordinate: definisce l'orientamento del piano dello schizzo
 * Consenti funzioni utilizzate: ''TBD''
@@ -55,7 +56,8 @@ Impostazioni nel dialogo
 * Da parti diverse o da funzioni libere: ''TBD''
 * Crea una copia indipendente: tutti gli altri elementi saranno copie separate, cioè non cambieranno quando l'originale cambia.
 * Crea una copia dipendente: gli elementi saranno copie, ma viene mantenuta la dipendenza dagli elementi originali. Questo è fondamentalmente utilizzato con [[PartDesign_ShapeBinder/it|Shapebinder]]
-* Crea riferimenti incrociati: gli elementi collegati non saranno copie, ma punteranno agli elementi originali, ad esempio uno schizzo master. Eventuali modifiche si rifletteranno su questo schizzo 
+* Crea riferimenti incrociati: gli elementi collegati non saranno copie, ma punteranno agli elementi originali, ad esempio uno schizzo master. Eventuali modifiche si rifletteranno su questo schizzo
+</div> 
 
 Per fare riferimento a qualsiasi elemento nell' [[Sketcher_Workbench/it|Ambiente Sketcher]] utilizzare {{Button|[[Image:Sketcher_External.svg|16px]] [[Sketcher_External/it|Crea geometria esterna]]}} e {{Button|[[File:Sketcher_CarbonCopy.svg|16px]] [[Sketcher_CarbonCopy/it|Crea copia carbone]]}}. Generalmente si consiglia di utilizzare altri schizzi come fonte per riferimenti piuttosto che facce o bordi, perché sono meno colpiti dal Topological Naming Issue.
 
