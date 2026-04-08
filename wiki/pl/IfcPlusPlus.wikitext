@@ -205,9 +205,7 @@ W szczególności utrzymywany jest fork głównego projektu, zawierający drobne
 
 Jeżeli kod z oficjalnego repozytorium nie działa lub wydaje się mieć problemy w systemie Linux, spróbuj postępować zgodnie z tymi samymi instrukcjami kompilacji, używając źródeł z tego alternatywnego repozytorium. Repozytorium to często pozostaje kilka commitów w tyle za główną dystrybucją, ale jego celem jest pozostanie aktualnym oraz wprowadzenie poprawek specyficznych dla Linuksa. Ulepszenia te są zwykle przesyłane z powrotem do głównego repozytorium, aby oficjalna gałąź kompilowała się w systemie Linux bez problemów.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The main developer of IFC++ does not support Linux directly, so Linux developers should be prepared to troubleshoot problems, fix them, and submit patches when using IFC++ in Linux.
-</div>
+Główny deweloper IFC++ nie wspiera bezpośrednio systemu Linux, więc deweloperzy korzystający z IFC++ na Linuksie powinni być przygotowani na rozwiązywanie problemów, ich naprawianie oraz przesyłanie poprawek do projektu.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Invisible icons ===
