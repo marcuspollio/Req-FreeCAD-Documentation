@@ -225,10 +225,10 @@ On this page you can specify the following:
 | {{MenuCommand|Solver method}}
 | The solver method used by the [[FEM_SolverZ88|Z88 solver]] for new simulations.
 |-
-| {{MenuCommand|Max places in stiffness matrix}}
+| {{MenuCommand|Stiffness matrix entries}}
 | This is relevant when the solver method ''Simple Cholesky'' is used. After starting the solver, it might tell you that you need to increase the ''MAXGS'' value. In this case increase the max places and re-run the solver.
 |-
-| {{MenuCommand|Maximum places in coincidence vector}}
+| {{MenuCommand|Coincidence vector entries}}
 | This is relevant when one of the iterative solver methods is used. After starting the solver, it might tell you that you need to increase the ''MAXKOI'' value. In this case increase the max places and re-run the solver.
 |}
 
