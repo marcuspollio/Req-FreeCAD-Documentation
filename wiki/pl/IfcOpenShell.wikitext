@@ -318,16 +318,13 @@ sudo rm -rf /usr/local/lib/libSerializers*
 sudo rm -rf /usr/lib/python3/dist-packages/ifcopenshell/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Or if the {{incode|USERSPACE_PYTHON_PREFIX}} variable was set.
-</div>
+Lub, jeśli zmienna {{incode|USERSPACE_PYTHON_PREFIX}} była ustawiona.
 {{Code|code=
 sudo rm -rf $HOME/.local/lib/python3.6/site-packages/ifcopenshell/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Manual installation ===
-</div>
+<span id="Manual_installation"></span>
+=== Instalacja ręczna===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Compilation of the entire IfcOpenShell distribution produces binaries like {{incode|IfcConvert}} and {{incode|IfcGeomServer}}, as well as many static libraries ({{incode|lib*.a}}) in the build directory. However, for FreeCAD we only need the {{incode|ifcopenshell}} Python module. This module is not a single file, but a "package", that is, a directory with various files. This {{incode|ifcopenshell}} package is put together from the Python wrappers built inside {{incode|IfcOpenShell-build/ifcwrap/}}, and from the Python modules in the original source directory {{incode|IfcOpenShell-source/src/ifcopenshell-python/ifcopenshell/}}.
