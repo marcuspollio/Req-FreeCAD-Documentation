@@ -9,7 +9,6 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommandContainer
 |
 {{GuiCommand/fr
@@ -20,10 +19,9 @@
 |SeeAlso=[[FEM_ConstraintForce/fr|FEM Charge d'effort]]
 }}
 {{GuiCommandFemInfo/fr
-|Solvers=CalculiX, Elmer
+|Solvers=CalculiX, Elmer, Z88
 }}
 }}
-</div>
 
 ==Description==
 
