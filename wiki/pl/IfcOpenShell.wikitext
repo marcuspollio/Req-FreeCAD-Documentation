@@ -217,9 +217,8 @@ cmake \
     ../IfcOpenShell-source/cmake/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Single configuration line ====
-</div>
+<span id="Single_configuration_line"></span>
+==== Pojedyncza linia konfiguracji ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In a typical Debian/Ubuntu system you may use this line to configure the compilation. Adjust it as necessary.
