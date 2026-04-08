@@ -93,13 +93,9 @@ Co rozszerza się na
 sudo apt install libocct-data-exchange-dev libocct-draw-dev libocct-foundation-dev libocct-modeling-algorithms-dev libocct-modeling-data-dev libocct-ocaf-dev libocct-visualization-dev
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You may use the community edition (OCE) of OpenCASCADE as well, however, please notice that this version is old and no longer recommended by FreeCAD as of 2020.
-</div>
+Można również użyć edycji społecznościowej (OCE) OpenCASCADE, jednak należy pamiętać, że ta wersja jest przestarzała i od 2020 roku nie jest już zalecana przez FreeCAD.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 === OpenCOLLADA ===
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Install the development files of OpenCOLLADA.
