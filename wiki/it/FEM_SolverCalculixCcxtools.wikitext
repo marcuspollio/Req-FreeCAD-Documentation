@@ -39,13 +39,6 @@ CalculiXccxTools abilita l'uso del solutore [https://en.wikipedia.org/wiki/Calcu
 # Cliccare {{KEY|Run CalculiX}}
 </div>
 
-<span id="Options"></span>
-== Opzioni ==
-
-<div class="mw-translate-fuzzy">
-Usando {{KEY|Edit .inp file}} è possibile visualizzare e modificare manualmente il file di input CalculiX prima di eseguire l'analisi. In questo caso può essere utile usare il parametro "Split Input Writer = true".
-</div>
-
 <span id="Properties"></span>
 == Proprietà ==
 
