@@ -269,9 +269,7 @@ Jeżeli nie zostanie podany plik wyjściowy, domyślnie zostanie utworzony plik 
 <span id="Installation_of_the_compiled_libraries"></span>
 === Instalacja skompilowanych bibliotek ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If the compilation doesn't report any errors, you may run {{incode|make install}} to copy the headers, compiled libraries, and binaries to their corresponding installation directories.
-</div>
+Jeżeli kompilacja nie zgłosiła żadnych błędów, możesz uruchomić {{incode|make install}}, aby skopiować nagłówki, skompilowane biblioteki oraz pliki wykonywalne do odpowiednich katalogów instalacyjnych.
 
 {{Code|code=
 sudo make install
