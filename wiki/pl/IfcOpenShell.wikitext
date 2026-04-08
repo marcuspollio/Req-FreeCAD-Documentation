@@ -275,9 +275,7 @@ Jeżeli kompilacja nie zgłosiła żadnych błędów, możesz uruchomić {{incod
 sudo make install
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-By default, the {{incode|CMAKE_INSTALL_PREFIX}} is {{incode|/usr/local/}}, so all compiled files will be placed under this directory, which normally requires elevated privileges.
-</div>
+Domyślnie {{incode|CMAKE_INSTALL_PREFIX}} jest ustawiony na {{incode|/usr/local/}}, więc wszystkie skompilowane pliki zostaną umieszczone w tym katalogu, co zazwyczaj wymaga uprawnień administratora.
 {{Code|code=
 /usr/local/bin/IfcConvert
 /usr/local/bin/IfcGeomServer
