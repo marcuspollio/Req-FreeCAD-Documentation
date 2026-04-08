@@ -302,9 +302,7 @@ $HOME/.local/lib/python3.6/site-packages/ifcopenshell/
 <span id="Removing_the_compiled_libraries"></span>
 === Usuwanie skompilowanych bibliotek ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To remove the installed libraries, just remove the corresponding files that were installed, and the {{incode|ifcopenshell/}} directory with all modules inside.
-</div>
+Aby usunąć zainstalowane biblioteki, wystarczy usunąć odpowiadające im pliki oraz katalog {{incode|ifcopenshell/}} wraz ze wszystkimi modułami w nim zawartymi.
 {{Code|code=
 sudo rm -rf /usr/local/bin/IfcConvert
 sudo rm -rf /usr/local/bin/IfcGeomServer
