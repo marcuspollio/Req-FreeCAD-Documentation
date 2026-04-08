@@ -135,9 +135,7 @@ Jeżeli kompilacja nie zgłosiła żadnych błędów, możesz uruchomić {{incod
 sudo make install
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-By default, the {{incode|CMAKE_INSTALL_PREFIX}} is {{incode|/usr/local/}}, so all compiled files will be placed under this directory, which normally requires elevated privileges.
-</div>
+Domyślnie {{incode|CMAKE_INSTALL_PREFIX}} jest ustawiony na {{incode|/usr/local/}}, więc wszystkie skompilowane pliki zostaną umieszczone w tym katalogu, co zazwyczaj wymaga uprawnień administratora.
 {{Code|lang=sh|code=
 /usr/local/bin/SimpleViewerExample
 /usr/local/lib/libcarve.so
@@ -154,9 +152,8 @@ By default, the {{incode|CMAKE_INSTALL_PREFIX}} is {{incode|/usr/local/}}, so al
 /usr/local/share/IFCPP/cmake/*.cmake
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Library path ===
-</div>
+<span id="Library_path"></span>
+=== Ścieżka biblioteki ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Once {{incode|SimpleViewerExample}} is placed in {{incode|/usr/local/bin}}, the executable will be available in the entire system. However, in certain platforms {{incode|libcarve.so}} may not be found if it is installed in the default {{incode|/usr/local/lib}} directory.
