@@ -207,9 +207,8 @@ Jeżeli kod z oficjalnego repozytorium nie działa lub wydaje się mieć problem
 
 Główny deweloper IFC++ nie wspiera bezpośrednio systemu Linux, więc deweloperzy korzystający z IFC++ na Linuksie powinni być przygotowani na rozwiązywanie problemów, ich naprawianie oraz przesyłanie poprawek do projektu.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Invisible icons ===
-</div>
+<span id="Invisible_icons"></span>
+=== Niewidoczne ikony ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 For the {{incode|SimpleViewerExample}}, there are two buttons in the main interface which are invisible if the custom style sheet is not found.
