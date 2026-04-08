@@ -69,9 +69,7 @@ Ogólne instrukcje znajdują się w [https://github.com/IfcOpenShell/IfcOpenShel
 <span id="Prerequisites"></span>
 ===Wymagania wstępne===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Install the basic compilation tools.
-</div>
+Zainstaluj podstawowe narzędzia kompilacyjne.
 {{Code|code=
 sudo apt install git cmake gcc g++ libboost-all-dev
 }}
