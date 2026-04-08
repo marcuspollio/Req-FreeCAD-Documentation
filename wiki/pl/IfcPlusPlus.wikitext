@@ -165,9 +165,7 @@ Jeżeli tak jest, może wystarczyć zaktualizowanie pamięci podręcznej loadera
 sudo ldconfig
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Or you may have to move the library to the correct directory first:
-</div>
+Lub może być konieczne najpierw przeniesienie biblioteki do właściwego katalogu:
 {{Code|code=
 sudo mkdir -p /usr/local/lib/x86_64-linux-gnu/
 sudo mv /usr/local/lib/libcarve.so /usr/local/lib/x86_64-linux-gnu/libcarve.so
