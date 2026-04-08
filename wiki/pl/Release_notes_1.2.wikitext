@@ -166,7 +166,6 @@ ToDo (last check: 20260318):
 <span id="Further_FEM_improvements"></span>
 ===Pozostałe ulepszenia środowiska MES===
 
-<div class="mw-translate-fuzzy">
 * Obciążenie [[Image:FEM_ConstraintElectricChargeDensity.svg|24px]] [[FEM_ElectricChargeDensity/pl|Gęstością ładunku elektrycznego]] zyskało pole wyboru ''Skupione'' w trybie ''Total Source'', aby używać skupionego zamiast rozłożonego obciążenia (co pozwala na stosowanie go również do krawędzi i wierzchołków) z solverem CalculiX. [https://github.com/FreeCAD/FreeCAD/pull/25237 Pull request #25237]
 * [[Image:FEM_ResultShow.svg|24px]] [[FEM_ResultShow/pl|Obiekty wyników]] wspierają teraz animacje połowy cyklu oprócz odwróconych pełnych cykli. [https://github.com/FreeCAD/FreeCAD/pull/24129 Pull request #24129]
 * [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint/pl|Funkcja zapisu wyników z przekroju]] wspiera teraz modele 2D i strumień elektryczny w analizach elektrostatycznych. [https://github.com/FreeCAD/FreeCAD/pull/25081 Pull request #25081]
@@ -182,8 +181,7 @@ ToDo (last check: 20260318):
 * Algorytm Z-refinement meshera [[Image:FEM_MeshNetgenFromShape.svg|24px]] [[FEM_MeshNetgenFromShape/pl|Netgen]], pozwalający na tworzenie siatek przez wyciągnięcie, teraz wspiera również powłoki. [https://github.com/FreeCAD/FreeCAD/pull/28204 Pull request #28204]
 * Możliwe jest teraz edytowanie plików wejściowych dla mesherów, aby dodawać własne polecenia do generowania siatki, podobnie do tego, co można już było robić dla solverów. Ponadto, niektóre ogólne preferencje środowiska pracy MES zostały ulepszone. [https://github.com/FreeCAD/FreeCAD/pull/27942 Pull request #27942]
 * [[Image:FEM_ConstraintElectrostaticPotential.svg|24px]] [[FEM_ConstraintElectrostaticPotential/pl|Warunek brzegowy potencjału elektrostatycznego]] jest teraz nazwany ''Warunkiem brzegowym elektromagnetycznym''. Dokonano też kilku mniejszych zmian nazw. [https://github.com/FreeCAD/FreeCAD/pull/27614 Pull request #27614]
-* [[Image:FEM_SolverZ88.svg|24px]] [[FEM_SolverZ88/pl|Solver Z88]] został przebudowany. Można go używać z obiema wersjami open-source Z88 - Z88OS oraz Z88Adria. Wspiera kilka typów elementów i podstawowe funkcje do analiz liniowych. Planowane są dalsze usprawnienia dla tej nowej implementacji solvera. [https://github.com/FreeCAD/FreeCAD/pull/28944 Pull request #28944]
-</div>
+* [[Image:FEM_SolverZ88.svg|24px]] [[FEM_SolverZ88/pl|Solver Z88]] został przebudowany. Można go używać z obiema wersjami open-source Z88 - Z88OS oraz Z88Adria. Wspiera kilka typów elementów i podstawowe funkcje do analiz liniowych. [https://github.com/FreeCAD/FreeCAD/pull/28944 Pull request #28944]
 
 <span id="Inspection_Workbench"></span>
 == Środowisko pracy Inspekcja ==
