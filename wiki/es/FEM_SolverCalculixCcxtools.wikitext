@@ -45,13 +45,6 @@ CalculiXccxTools permite usar el solucionador [http://dhondt.de/ CalculiX]. Pued
 # Haga clic en {{KEY|Run CalculiX}}
 </div>
 
-<span id="Options"></span>
-==Opciones==
-
-<div class="mw-translate-fuzzy">
-Al usar {{KEY|Edit.inp file}} puede mostrar y editar el archivo de entrada de CalculiX manualmente antes de ejecutar el análisis. En este caso, puede ser útil usar el parámetro "Split Input Writer = true".
-</div>
-
 <span id="Properties"></span>
 ==Propiedades==
 
