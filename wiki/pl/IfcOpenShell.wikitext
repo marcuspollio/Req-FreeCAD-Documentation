@@ -153,9 +153,7 @@ cmake \
     ../IfcOpenShell-source/cmake/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-By default the build system expects the community edition (OCE) of OpenCASCADE ({{incode|/usr/include/oce/}}), however, please notice that this version is old and no longer recommended by FreeCAD as of 2020. For this reason installing the development files of the main version of [[OpenCASCADE|OpenCASCADE]] (OCCT) is recommended.
-</div>
+Domyślnie system kompilacji oczekuje edycji społecznościowej (OCE) OpenCASCADE ({{incode|/usr/include/oce/}}), jednak należy pamiętać, że ta wersja jest przestarzała i od 2020 roku nie jest już zalecana przez FreeCAD. Z tego powodu zaleca się instalację plików developerskich głównej wersji [[OpenCASCADE/pl|OpenCASCADE]] (OCCT).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Without OpenCOLLADA ====
