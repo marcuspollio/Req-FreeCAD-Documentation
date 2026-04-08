@@ -203,9 +203,7 @@ Biblioteka IFC++ jest rozwijana przez jej autora na systemie Windows. Oznacza to
 W szczególności utrzymywany jest fork głównego projektu, zawierający drobne poprawki umożliwiające lepszą kompilację i działanie w Debianie.
 * [https://github.com/berndhahnebach/ifcplusplus/ berndhahnebach/ifcplusplus]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If the code of the official repository does not work or seems to have issues in Linux, try following the same compilation instructions but using the sources from this alternative repository. This repository is often some commits behind the main distribution, but it aims to remain up to date, and at the same time provide some Linux specific fixes. These improvements are normally submitted back to the main repository in order to make the official branch compile on Linux without issues.
-</div>
+Jeżeli kod z oficjalnego repozytorium nie działa lub wydaje się mieć problemy w systemie Linux, spróbuj postępować zgodnie z tymi samymi instrukcjami kompilacji, używając źródeł z tego alternatywnego repozytorium. Repozytorium to często pozostaje kilka commitów w tyle za główną dystrybucją, ale jego celem jest pozostanie aktualnym oraz wprowadzenie poprawek specyficznych dla Linuksa. Ulepszenia te są zwykle przesyłane z powrotem do głównego repozytorium, aby oficjalna gałąź kompilowała się w systemie Linux bez problemów.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The main developer of IFC++ does not support Linux directly, so Linux developers should be prepared to troubleshoot problems, fix them, and submit patches when using IFC++ in Linux.
