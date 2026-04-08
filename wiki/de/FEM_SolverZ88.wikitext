@@ -9,6 +9,7 @@
 |IconC=Workbench_FEM.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=FEM SolverZ88
 |Name/de=FEM LöserZ88
@@ -17,6 +18,7 @@
 |Shortcut={{KEY|S}} {{KEY|Z}}
 |SeeAlso=[[FEM_tutorial/de|FEM Tutorium]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Beschreibung==
@@ -26,16 +28,21 @@ Der Befehl [[FEM_SolverZ88/de|LöserZ88]] aktiviert die Nutzung des [https://en.
 # Auswählen des Arbeitsverzeichnisses
 # Ausführen des Z88-Lösers
 
+{{Version|1.2}}: The Z88 solver implementation has been completely refactored, and this page has been updated accordingly.
+
 ==Installation==
 
+<div class="mw-translate-fuzzy">
 Um den Z88-Löser zu verwenden, muss die OpenSource-Version von Z88 (Z88OS) installiert sein:
 # Das ZIP-Paket mit dem Code vom [https://github.com/lscad/z88os Z88OS-Repository] herunterladen.
 # Die ZIP-Datei in einen Ordner der Wahl entpacken.
 # In den [[FEM_Preferences/de|FEM-Einstellungen]] zur Registerkarte Z88 gehen und dort den Pfad zur Binärdatei '''z88r''' festlegen. Unter Windows wäre dies der Pfad zur Datei {{FileName|z88r.exe}}, die sich im Unterordner {{FileName|~\bin\win64}} des Ordners befindet, in den die ZIP-Datei extrahiert wurde.
+</div>
 
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 # Einen [[Image:FEM_Analysis.svg|16px|link=FEM_Analysis/de]] [[FEM_Analysis/de|Analyse-Container container]] erstellen.
 # Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
 #* Die Option {{MenuCommand|Lösen → [[Image:FEM_SolverZ88.svg|x16px]] Löser Z88}} aus dem Menü auswählen.
@@ -44,13 +51,62 @@ Um den Z88-Löser zu verwenden, muss die OpenSource-Version von Z88 (Z88OS) inst
 # Den {{MenuCommand|Analysetyp}} auswählen.
 # Die Taste {{Button|Schreiben}} drücken.
 # Die Taste {{Button|Ausführen}} drücken.
+</div>
 
-Als Ergebnis erhält man ein Objekt namens „Z88_xxx_results” (abhängig von der durchgeführten Simulation) in der [[Tree_View/de|Baumansicht]]. Dies ist dieselbe Art von Ergebnisobjekt, die man erhält, wenn man den [[FEM_SolverCalculixCcxtools/de|CalculiX-Löser]] ausführt. Ausgehend davon können die Ergebnisse mit [[FEM_PostPipelineFromResult/de| Nachbearbeitungs-Pipeline]] und [[FEM_Workbench/de#Menu:_Results|Schnittbereich-Filtern]] visualisieren.
+== Properties ==
+* {{PropertyData|Exclude Bending Stiffness}} - replaces beams with trusses, currently always checked because beams are not yet supported
+* {{PropertyData|Model Space}}:
+** 3D - uses 3D shell elements
+** plane stress - uses 2D plane stress elements
+** axisymmetric - uses 2D axisymmetric elements
+** plate - uses 3D plate elements
+* {{PropertyData|Shell Flag}} - IHFLAG value: set to 2 or 3 for thin shells and to 4 for very thin shells
+* {{PropertyData|Analysis Type}}:
+** static
+** test
+* {{PropertyData|Displace Mesh}} - deform the mesh by the displacement field
+* {{PropertyData|Integration Order Hexa}} - displacement integration order for hexa elements
+* {{PropertyData|Integration Order Quad}} - displacement integration order for quad elements
+* {{PropertyData|Integration Order Tetra}} - displacement integration order for tetra elements
+* {{PropertyData|Integration Order Tria}} - displacement integration order for tria elements
+* {{PropertyData|Iteration Maximum}} - MAXIT value: maximum number of iterations for iterative solvers
+* {{PropertyData|Matrix Maximum}} - MAXGS value: maximum number of entries in the stiffness matrix
+* {{PropertyData|Relaxation Factor}} - ROMEGA value: convergence acceleration parameter for SOR pre-conditioner
+* {{PropertyData|Residual Limit}} - EPS value: it is compared to the norm of the residual vector
+* {{PropertyData|Shift Factor}} - RALPHA value: convergence acceleration parameter for SIC pre-conditioner
+* {{PropertyData|Solver Type}}:
+** choly - direct Cholesky solver recommended for small structures
+** sorcg - sparse matrix iterative SORCG solver recommended for large structures
+** siccg - sparse matrix iterative SICCG solver recommended for large structures
+* {{PropertyData|Vector Maximum}} - MAXKOI value: maximum number of entries in the coincidence vector
+
+== Supported finite element types ==
+The following types of finite elements are supported by the Z88 solver implementation:
+* 2-node 3D truss,
+* 8-node and 20-node hexahedron,
+* 4-node and 10-node tetrahedron,
+* 6-node triangle and 8-node quadrangle - 3D shell and plate, 2D plane stress and axisymmetric formulations.
+Linear triangles and quadrangles are not supported at all. Beam elements are not yet supported.
+
+== Notes ==
+* Z88Adria has the same capabilities/limitations as Z88OS, but doesn't launch its GUI when running the solver from FreeCAD, so Z88Adria is currently the preferred choice.
+* Pressure applied to edges of axisymmetric models must be given as in a corresponding 3D model, i.e. in units of force per unit area; the solver converts it to an equivalent force per unit length by multiplying the pressure by  <math>2 \pi R</math> (where R is the y-coordinate of the element's middle node).
+* For plate elements, the degrees of freedom are in order: Z displacement and rotations <math>\theta_{x}</math> and <math>\theta_{y}</math> (in deg).
+* A '''test''' analysis mode is available. It provides information about the solver parameters. This information is loaded into the text document object.
+
+== Limitations ==
+* Currently, only displacements (in mm), nodal forces, and nodal moments are provided as contour map results. Stress values are loaded into the text document object.
+* The 3D truss elements require some additional considerations. In case of errors and missing results when using them, the following steps should be taken:
+** make sure the structural member is meshed with only one such element (adjust the min and max element size to enforce that),
+** apply displacement boundary condition to the whole member, constraining the lateral displacements,
+** use the Cholesky solver.
 
 <span id="Preferences"></span>
 ==Einstellungen==
 
+<div class="mw-translate-fuzzy">
 Siehe die [[FEM_Preferences/de#Z88|Z88-Einstellungen]] für die möglichen Löser-Einstellungen dieser benutzten Löser-Methode.
+</div>
 
 
 {{Docnav
