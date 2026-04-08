@@ -393,18 +393,16 @@ Projekt IfcOpenShell opracował również "IFC Pipeline", samodzielny program do
 <span id="More_information"></span>
 == Więcej informacji ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Website: [http://ifcopenshell.org/ ifcopenshell.org]
-* Code repository: [https://github.com/IfcOpenShell/IfcOpenShell IfcOpenShell/IfcOpenShell]
-* Academy with examples and articles: [http://academy.ifcopenshell.org/ academy.ifcopenshell.org]
-* [https://view.ifcopenshell.org/ IfcOpenShell online viewer]
-* OSArch community with resources for open source architecture: [https://wiki.osarch.org/index.php?title=Main_Page wiki.OSArch.org]
-* [https://forum.freecad.org/viewtopic.php?f=39&t=48971 Installation of IfcOpenShell]; main discussion in the forum.
-* [https://forum.freecad.org/viewtopic.php?f=39&t=12368&start=10#p117883 IFC installation]; old discussion in the forum.
+* Strona internetowa: [http://ifcopenshell.org/ ifcopenshell.org]
+* Repozytorium kodu: [https://github.com/IfcOpenShell/IfcOpenShell IfcOpenShell/IfcOpenShell]
+* Akademia z przykładami i artykułami: [http://academy.ifcopenshell.org/ academy.ifcopenshell.org]
+* [https://view.ifcopenshell.org/ przeglądarka online IfcOpenShell]
+* Społeczność OSArch z zasobami dla open source w architekturze: [https://wiki.osarch.org/index.php?title=Main_Page wiki.OSArch.org]
+* [https://forum.freecad.org/viewtopic.php?f=39&t=48971 Installation of IfcOpenShell]; główna dyskusja na forum
+* [https://forum.freecad.org/viewtopic.php?f=39&t=12368&start=10#p117883 IFC installation]; starsza dyskusja na forum
 * [https://forum.freecad.org/viewtopic.php?f=39&t=33254 IfcPlusPlus compiled on Gentoo - questions and alternatives?]
-* [[Import/Export_IFC_-_compiling_IfcOpenShell|Compiling IfcOpenShell for MacOS]]; an older guide that describes the general process. It may not be needed any more as IfcOpenShell is now distributed together with FreeCAD thanks to [[Conda|Conda]].
-* What pages link to [[Special:WhatLinksHere/IfcOpenShell|this page]].
-</div>
+* [[Import/Export_IFC_-_compiling_IfcOpenShell|Kompilacja IfcOpenShell dla MacOS]]; starszy przewodnik opisujący ogólny proces. Może już nie być potrzebny, ponieważ IfcOpenShell jest obecnie dystrybuowany razem z FreeCAD dzięki [[Conda/pl|Conda]].
+* Strony, które odsyłają do [[Special:WhatLinksHere/IfcOpenShell|tej strony]].
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{FEM_Tools_navi{{#translation:}}}}
