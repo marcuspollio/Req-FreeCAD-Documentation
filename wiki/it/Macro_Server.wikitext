@@ -191,13 +191,9 @@ eObject_0
 
 Qualora fossero necessarie funzionalità aggiuntive, al di là delle capacità di questo server, sarà possibile implementarle facilmente.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Every command must return some response.
-</div>
+Ogni comando deve restituire una risposta.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 == Script ==
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === server macro ===
