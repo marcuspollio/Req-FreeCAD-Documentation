@@ -100,9 +100,7 @@ dove :
 * '''B1''' è il nomie
 * '''123''' è un valore stringa (può essere un altro nome o semplicemente il valore; dipende dalla situazione)
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-this sets cell B1 (in global or active document and spreadsheet) to value 123
-</div>
+Questo imposta la cella B1 (nel documento e nel foglio di calcolo globali o attivi) al valore 123
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Commands ====
