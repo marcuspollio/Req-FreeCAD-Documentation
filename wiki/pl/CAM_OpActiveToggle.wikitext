@@ -28,7 +28,6 @@ Jeśli ta właściwość jest ustawiona na {{FALSE/pl}}, operacja jest traktowan
 <span id="Usage"></span>
 ==Użycie==
 
-<div class="mw-translate-fuzzy">
 # Zaznacz operację w grupie {{MenuCommand|Operations}} należącej do zadania obróbki. Dezaktywowaną operację można rozpoznać po jej wyszarzonej etykiecie i ikonie.
 # Istnieje kilka sposobów wywołania tej komendy:
 #* Wciśnij przycisk {{Button|[[Image:CAM_OpActiveToggle.svg|16px]] [[CAM_OpActiveToggle/pl|Przełącz aktywne stadium operacji]]}}.
@@ -38,14 +37,14 @@ Jeśli ta właściwość jest ustawiona na {{FALSE/pl}}, operacja jest traktowan
 #* Jeśli wybrałeś aktywną operację, to polecenie ją dezaktywuje:
 #** Ikona operacji jest zastępowana ikoną tego narzędzia: [[Image:CAM_OpActiveToggle.svg|16px]].
 #** Ikona i etykieta operacji zostają wyszarzone.
-#** Ścieżki generowane z operacji znikają z [[3D_view/pl|widoku 3D]].
+#** Ścieżki generowane z operacji znikają z [[3D_View/pl|Widoku 3D]].
 #** Podczas używania komendy [[Image:CAM_Inspect.svg|16px]] [[CAM_Inspect/pl|Sprawdź ścieżkę narzędzia]] lub [[Image:CAM_Post.svg|16px]] [[Path_Post/pl|Przetwarzanie końcowe]], G-code operacji nie jest zapewniany.
+#** Jeśli operacja ma wykończenia, są one również pokazywane w stanie nieaktywnym w [[Tree_View/pl|Widoku drzewa]].
 #* Jeśli wybrałeś dezaktywowaną operację, to polecenie ją aktywuje:
 #** Ikona operacji jest zastępowaną tą należącą do operacji.
 #** Ikona i etykieta operacji nie są już wyszarzone.
-#** Ścieżki wygenerowane przez operację są przeliczane i wyświetlane w [[3D_view/pl|widoku 3D]].
-#** Podczas używania komendy [[Image:CAM_Inspect.svg|16px]] [[CAM_Inspect/pl|Sprawdź ścieżkę narzędzia]] lub [[Image:CAM_Post.svg|16px]] [[CAM_Post/pl|Przetwarzanie końcowe]], G-code operacji jest zapewniany.
-</div>
+#** Ścieżki wygenerowane przez operację są przeliczane i wyświetlane w [[3D_View/pl|Widoku 3D]].
+#** Podczas używania komendy [[Image:CAM_Inspect.svg|16px]] [[CAM_Inspect/pl|Sprawdź ścieżkę narzędzia]] lub [[Image:CAM_Post.svg|16px]] [[CAM_Post/pl|Przetwarzanie końcowe]], G-code operacji jest ponownie zapewniany.
 
 <span id="Scripting"></span>
 ==Tworzenie skryptów==
