@@ -142,18 +142,14 @@ Ein '''Fixed'''-Objekt wird von einem [[App_FeaturePython/de|App FeaturePython]]
 
 {{TitleProperty|Limits}}
 
-<div class="mw-translate-fuzzy">
-* {{PropertyData/de|Angle Max|Float}}: Dies ist der obere Grenzwert des Winkels zwischen den beiden Koordinatensystemen (zwischen ihren X-Achsen).
-* {{PropertyData/de|Angle Min|Float}}: Dies ist der untere Grenzwert des Winkels zwischen den beiden Koordinatensystemen (zwischen ihren X-Achsen).
+* {{PropertyData/de|Angle Max|Float}}: Der größte zugelassene Wert des Winkels zwischen den Koordinatensystemen beider Verbinder.
+* {{PropertyData/de|Angle Min|Float}}: Der kleinste zugelassene Wert des Winkels zwischen den Koordinatensystemen beider Verbinder.
 * {{PropertyData/de|Enable Angle Max|Bool}}: Aktiviert den Grenzwert '''Maximaler Winkel''' der Verbindung.
 * {{PropertyData/de|Enable Angle Min|Bool}}: Aktiviert den Grenzwert '''Minimaler Winkel''' der Verbindung.
 * {{PropertyData/de|Enable Length Max|Bool}}: Aktiviert den Grenzwert '''Maximale Länge''' der Verbindung.
 * {{PropertyData/de|Enable Length Min|Bool}}: Aktiviert den Grenzwert '''Minimale Länge''' der Verbindung.
-* {{PropertyData/de|Length Max|Float}}: Dies ist der obere Grenzwert des Abstandes zwischen den beiden Koordinatensystemen (entlang ihrer Z-Achsen).
-* {{PropertyData/de|Length Min|Float}}: Dies ist der untere Grenzwert des Abstandes zwischen den beiden Koordinatensystemen (entlang ihrer Z-Achsen).
-Entfallene Eigenschaften:
-* {{PropertyData/de|Enable Limits|Bool}}: Verwendet diese Verbindung Grenzwerte?
-</div>
+* {{PropertyData/de|Length Max|Float}}: Der größte zugelassene Wert des Abstandes zwischen den Koordinatensystemen beider Verbinder.
+* {{PropertyData/de|Length Min|Float}}: Der kleinste zugelassene Wert des Abstandes zwischen den Koordinatensystemen beider Verbinder.
 
 
 {{Docnav/de
