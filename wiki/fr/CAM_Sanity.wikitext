@@ -38,9 +38,7 @@ Même si le G-code lui-même est correct, des divergences entre la configuration
 <span id="About_the_Report"></span>
 == À propos du rapport ==
 
-<div class="mw-translate-fuzzy">
-Autant que possible, le contenu est indépendant de FreeCAD. L'opérateur CNC ne peut jamais utiliser FreeCAD, donc la terminologie propre à FreeCAD/CAM prête à confusion. Le rapport comporte des sections distinctes et est formaté pour rendre la recherche des choses facile et prévisible.
-</div>
+Dans la mesure du possible, le contenu est indépendant de FreeCAD. L'opérateur de machine n'utilisant peut-être jamais FreeCAD, la terminologie spécifique à FreeCAD et à CAM doit être réduite au minimum. Le rapport comporte des sections distinctes afin de faciliter la consultation des informations de configuration.
 
 <span id="Part_Information"></span>
 === Informations sur les pièces ===
