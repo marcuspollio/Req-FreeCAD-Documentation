@@ -68,9 +68,7 @@ Enthält Unterabschnitte für jede im Auftrag verwendete Werkzeugnummer. Hier wi
 <span id="Output"></span>
 === Ausgabe ===
 
-<div class="mw-translate-fuzzy">
-Gibt Details darüber, wo und wann der G-Code nachbearbeitet wurde. Es wird auch angezeigt, ob der Auftrag optionale/obligatorische Stopps enthält, damit der Bediener weiß, ob er sich während des Betriebs sicher von der Maschine entfernen kann.
-</div>
+Dieser Abschnitt enthält Einzelheiten zur konfigurierten Ausgabedatei und zum Nachbearbeitungskontext. Außerdem wird hier angezeigt, ob der Auftrag optionale oder obligatorische Stopps enthält, sodass der Bediener weiß, ob der Maschinenlauf während der Ausführung überwacht werden muss.
 
 <span id="Coolant"></span>
 === Kühlmittel ===
