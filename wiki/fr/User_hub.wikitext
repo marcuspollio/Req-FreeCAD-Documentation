@@ -105,7 +105,9 @@ Depuis FreeCAD 0.17, de nombreuses macros peuvent être installées à l'aide du
 
 Lorsque de nombreuses macros ou fonctions sont développées ensemble et organisées dans des barres d’outils et des menus, elles peuvent devenir un nouvel atelier.
 
+<div class="mw-translate-fuzzy">
 Les [[External_workbenches/fr|ateliers externes]] sont des collections de fonctions qui ne font pas partie du système FreeCAD de base, généralement développées par des utilisateurs expérimentés et visant un besoin particulier.
+</div>
 
 Depuis FreeCAD 0.17, beaucoup d'ateliers peuvent être installés à l’aide du [[Std_AddonMgr/fr|gestionnaire des extensions]]. Pour l'installation manuelle, voir [[How_to_install_additional_workbenches/fr|Comment installer des ateliers supplémentaires]].
 
