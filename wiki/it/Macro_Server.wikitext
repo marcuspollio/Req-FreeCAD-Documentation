@@ -174,9 +174,7 @@ Ottiene l'elenco delle celle da '''My_spreadsheet''' in '''My_document_0'''
 CMy_document_0 My_spreadsheet
 </syntaxhighlight>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Set path
-</div>
+Imposta il percorso
 
 <syntaxhighlight lang="python3">
 p /tmp/exported-part.stl
