@@ -83,12 +83,12 @@ Um den Z88-Löser zu verwenden, muss die OpenSource-Version von Z88 (Z88OS) inst
 <span id="Supported_finite_element_types"></span>
 == Unterstützte Finite-Elemente-Typen ==
 
-The following types of finite elements are supported by the Z88 solver implementation:
-* 2-node 3D truss,
-* 8-node and 20-node hexahedron,
-* 4-node and 10-node tetrahedron,
-* 6-node triangle and 8-node quadrangle - 3D shell and plate, 2D plane stress and axisymmetric formulations.
-Linear triangles and quadrangles are not supported at all. Beam elements are not yet supported.
+Die Z88-Löser-Implementierung unterstützt die folgenden Arten von Finite-Elemente-Typen:
+* 3D-Fachwerk mit 2 Knoten,
+* Hexaeder mit 8 und 20 Knoten,
+* Tetraeder mit 4 und 10 Knoten,
+* Dreieck mit 6 Knoten und Viereck mit 8 Knoten – 3D-Schalen- und Plattenformulierungen, 2D-Formulierungen für ebene Spannungen und achsensymmetrische Formulierungen.
+Lineare Dreiecke und Vierecke werden überhaupt nicht unterstützt. Balkenelemente werden noch nicht unterstützt.
 
 <span id="Notes"></span>
 == Hinweise ==
