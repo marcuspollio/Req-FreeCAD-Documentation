@@ -9,9 +9,12 @@
 |IconC=Workbench_PartDesign.svg
 }}
 
-<div class="mw-translate-fuzzy">
-{{GuiCommand/cs|Name=PartDesign_LinearPattern|Name/cs=PartDesign LinearPattern|Workbenches=[[PartDesign Workbench/cs|Návrh dílu]], Complete|MenuLocation=PartDesign -> LinearPattern}}
-</div>
+{{GuiCommand/cs
+|Name=PartDesign Lineární pole
+|MenuLocation=Part Design → Transformation Features → Lineární pole
+|Workbenches=[[PartDesign_Workbench|PartDesign]]
+|SeeAlso=[[PartDesign_MultiTransform|PartDesign MultiTransform]]
+}}
 
 <span id="Description"></span>
 <div class="mw-translate-fuzzy">
