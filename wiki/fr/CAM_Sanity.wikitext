@@ -58,9 +58,7 @@ Cette section présente l'objet Stock de la tâche, y compris sa taille et son e
 <span id="Tool_Data"></span>
 === Données de l'outil ===
 
-<div class="mw-translate-fuzzy">
-Comporte des sous-sections pour chaque numéro d'outil utilisé dans la tâche. Elle détaille ce que le programmeur suppose être l'outil et quelles opérations l'utilisent. Cette section ne fonctionne qu'avec le nouveau système d'[[CAM_ToolBit/fr|outils coupants]]. Il s'agit d'un autre domaine dans lequel CAM doit être amélioré. Plus précisément, les outils coupants ont besoin d'attributs supplémentaires relatif à l'outil, comme le fabricant, l'adresse et le numéro de pièce.
-</div>
+Cette section comporte une sous-section pour chaque numéro d'outil utilisé dans la tâche. Elle résume les informations relatives à l'outil et au contrôleur d'outils utilisés par les opérations sélectionnées. En fonction des informations disponibles sur l'outil, cela peut inclure la description de l'outil, son diamètre, les données d'avance, la vitesse de rotation de la broche et les opérations qui utilisent cet outil.
 
 <span id="Output"></span>
 === Résultat ===
