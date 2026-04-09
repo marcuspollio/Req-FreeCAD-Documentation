@@ -109,9 +109,7 @@ Questo imposta la cella B1 (nel documento e nel foglio di calcolo globali o atti
 
 ''D'' - Ottiene l'elenco dei documenti aperti nel formato: d<documento>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''O[<document>]'' - get list of objects in form : o<object> <label>
-</div>
+''O[<document>]'' - Ottiene l'elenco degli oggetti nel formato: o<oggetto> <etichetta>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''C[<document>] [<spreadsheet>]'' - get list of cells in form : c<cell-id> <value>
