@@ -9,9 +9,12 @@
 |IconC=Workbench_PartDesign.svg
 }}
 
-<div class="mw-translate-fuzzy">
-{{GuiCommand/cs|Name=PartDesign_Mirrored|Name/cs=PartDesign Mirrored|Workbenches=[[PartDesign Workbench/cs|Návrh dílu]], Complete|MenuLocation=PartDesign -> Mirrored}}
-</div>
+{{GuiCommand/cs
+|Name=PartDesign Zrcadlení
+|MenuLocation=Tvorba dílu → Transformation Features → Zrcadlit
+|Workbenches=[[PartDesign_Workbench/cs|PartDesign]]
+|SeeAlso=[[PartDesign_MultiTransform/cs|PartDesign Multi transformace]]
+}}
 
 <span id="Description"></span>
 <div class="mw-translate-fuzzy">
