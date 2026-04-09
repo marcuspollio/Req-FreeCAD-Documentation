@@ -11,31 +11,34 @@
 
 Инструмент для создания
 
-*    Origin (X, Y Z axes, Origin (0,0,0) point and XZ, XY, YZ planes)
-*    Points (Center of Mass of object(s), mid points, center of circle, ...),
-*    Axes (from 2 points, Normal of a plane...),
-*    Planes (from 3 points, from one axis and a point...) and many other useful features to facilitate the creation of your project.
+* Начало координат (оси X, Y Z, точка начала координат (0,0,0) и плоскости XZ, XY, YZ)
+* Точки (центр масс объекта(ов), средние точки, центр окружности, ...),
+* Оси (через 2 точки, нормаль к плоскости...),
+* Плоскости (по 3 точкам, по одной оси и точке...) и многие другие полезные функции, облегчающие создание вашего проекта.
 
-==References==
+<span id="References"></span>
+==Ссылки==
 
-* Author: [https://github.com/Rentlau Rentlau]
-* Home page: [https://github.com/Rentlau/WorkFeature WorkFeature]
-* Source code on github: [https://github.com/Rentlau/WorkFeature WorkFeature]
+* Автор: [https://github.com/Rentlau Рентлау (Rentlau)]
+* Главная страница: [https://github.com/Rentlau/WorkFeature WorkFeature]
+* Исходный код на github: [https://github.com/Rentlau/WorkFeature WorkFeature]
 
-==Tools==
+<span id="Tools"></span>
+== Инструменты ==
 
 <span id="Documentation"></span>
 ===Документация===
 
-* Releases Documentation [https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_releasesDocumentation.pdf here] and 
-* Full Documentation [https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_documentation.pdf here]
+* Документация по выпускам [https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_releasesDocumentation.pdf здесь] и
+* Полная документация [https://github.com/Rentlau/WorkFeature/blob/master/WorkFeature/Doc/WF_documentation.pdf здесь]
 
 <span id="Toolbar"></span>
 ===Панель инструментов===
 
 [[Image:WorkFeature-menu-orizz.png]]
 
-===Drop down menu===
+<span id="Drop_down_menu"></span>
+===Выпадающее меню===
 
 [[Image:WorkFeature-dropdown_01.png]]
 
@@ -45,37 +48,44 @@
 
 [[Image:WorkFeature-dropdown_04.png]]
 
-==Installation==
+<span id="Installation"></span>
+== Установка ==
 
-===Automatic installation===
+<span id="Automatic_installation"></span>
+===Автоматическая установка===
 
-This workbench can be installed from the [[Std_AddonMgr|Addon Manager]].
+Этот верстак можно установить через [[Std_AddonMgr/ru|Менеджер дополнений]].
 
-===From GitHub===
+<span id="From_GitHub"></span>
+===Из GitHub===
 
-'''Prerequisites'''
+'''Предварительные требования'''
 
 .........
 
-'''Linux Installation Instructions''' 
+'''Инструкции по установке для Linux''' 
 
-'''Windows Installation Instructions''' 
+'''Инструкции по установке для Windows''' 
 
-'''Mac Installation Instructions'''
+'''Инструкции по установке для Mac'''
 
-==Links to Animation WB==
+<span id="Links_to_Animation_WB"></span>
+==Ссылки на Верстак Анимация==
 
-* Workbench Wiki: 
+* Вики по верстаку:
 * FreeCAD Wiki:
-* FreeCAD Forum: http://forum.freecadweb.org/viewtopic.php?f=22&t=9056&start=160
-* Tutorials: 
-* Videos:  
-* Files: 
-* Report bugs: Please report bugs at [http://forum.freecadweb.org/index.php FreeCAD forum]
+* Форум FreeCAD: http://forum.freecadweb.org/viewtopic.php?f=22&t=9056&start=160
+* Учебники:
+* Видео:
+* Файлы:
+* Сообщить об ошибках: Пожалуйста, сообщайте об ошибках на [http://forum.freecadweb.org/index.php форуме FreeCAD]
 
-==Other useful links==
+<span id="Other_useful_links"></span>
+==Другие полезные ссылки==
 
-* [[External_workbenches|External workbenches]]
+<div class="mw-translate-fuzzy">
+* [[External_workbenches/ru|Внешние верстаки]]
+</div>
 
 
 [[Category:Sandbox{{#translation:}}]]
