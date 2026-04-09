@@ -110,7 +110,8 @@ Objekt MultiTransformace lze vytvořit z existujících transformací [[PartDesi
 *# Z kontextového menu vyberte příkaz {{MenuCommand|Posunout nahoru}} nebo {{MenuCommand|Posunout dolů}}.
 * Pokud je zaškrtnuto políčko {{MenuCommand|Přepočítat při změně}}, zobrazení se bude v reálném čase aktualizovat.
 
-== Limitations ==
+<span id="Limitations"></span>
+== Omezení ==
 
 See [[PartDesign_PolarPattern#Limitations|PartDesign PolarPattern]].
 
