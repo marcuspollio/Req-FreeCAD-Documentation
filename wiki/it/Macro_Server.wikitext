@@ -115,9 +115,7 @@ Questo imposta la cella B1 (nel documento e nel foglio di calcolo globali o atti
 
 ''d<document>'' - seleziona documento
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''s[<document>] <spreadsheet>'' - select spreadsheet
-</div>
+''s[<document>] <spreadsheet>'' - seleziona foglio di calcolo
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''o[<document>] <object-name>'' - select object
