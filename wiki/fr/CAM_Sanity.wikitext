@@ -78,9 +78,7 @@ Cette section présente la pièce dans le contexte de l'enveloppe du brut et per
 <span id="Squawks"></span>
 === Avertissements ===
 
-<div class="mw-translate-fuzzy">
-Les avertissements et les erreurs détectés par [[CAM_Sanity/fr|CAM Chercher des erreurs]]. Il peut s'agir ou non de problèmes, mais ils sont signalés pour attirer l'attention. Par exemple, si le même numéro d'outil est utilisé pour différentes unités d'usinage, il s'agit d'une erreur. Si un contrôleur d'outil n'a pas d'avance/vitesse configurée, cela apparaîtra comme un avertissement. Il détectera également les contrôleurs d'outils inutilisés et émettra un avertissement à leur sujet. CAM bénéficierait ici de la possibilité d'ajouter des notes ou des avertissements arbitraires.
-</div>
+Cette section répertorie les avertissements et les erreurs détectés par [[CAM_Sanity/fr|CAM Chercher des erreurs]]. Ces éléments ne constituent pas nécessairement des problèmes réels, mais ils doivent être vérifiés avant le post-traitement ou l'exécution de la tâche. Il peut s'agir, par exemple, de numéros d'outils en double, d'informations incohérentes sur les outils, de paramètres d'avance ou de broche manquants, ou encore de contrôleurs d'outils inutilisés.
 
 <span id="Usage"></span>
 ==Utilisation==
