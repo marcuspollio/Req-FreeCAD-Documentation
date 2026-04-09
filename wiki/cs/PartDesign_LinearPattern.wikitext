@@ -42,11 +42,11 @@ Nástroj [[Image:PartDesign_LinearPattern.svg|24px]] '''PartDesign LinearPattern
 <span id="Edit"></span>
 === Úpravy ===
 
-# Do one of the following:
-#* Double-click the LinearPattern object in the [[Tree_View|Tree View]].
-#* Right-click the LinearPattern object in the [[Tree_View|Tree View]] and select {{MenuCommand|Edit Linear Pattern}} from the context menu.
-# The {{MenuCommand|Linear Pattern Parameters}} [[Task_Panel|task panel]] opens. See [[#Options|Options]] for more information.
-# Press the {{Button|OK}} button to finish.
+# Proveďte jednu z následujících akcí:
+#* Poklepejte na objekt LinearPattern ve [[Tree_View/cs|stromovém zobrazení]].
+#* Klikněte pravým tlačítkem myši na objekt LinearPattern ve [[Tree_View/cs|stromovém zobrazení]] a z kontextového menu vyberte položku {{MenuCommand|/csUpravit lineární vzor}}.
+# Otevře se [[Task_Panel/cs|panel úloh]] {{MenuCommand|Parametry lineárního vzoru}}. Další informace najdete v sekci [[#Options|Možnosti]].
+# Stiskněte tlačítko {{Button|OK}} pro dokončení.
 
 == Options ==
 
