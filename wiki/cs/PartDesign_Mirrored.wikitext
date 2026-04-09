@@ -36,7 +36,7 @@ Nástroj [[Image:PartDesign_Mirrored.svg|24px]] '''PartDesign Zrcadlení''' zrca
 #* Klikněte na tlačítko {{Button|[[Image:PartDesign_Mirrored.svg|16px]] [[PartDesign_Mirrored/cs|Zrcadlit]]}}.
 #* Z menu vyberte možnost {{MenuCommand|Návrh součásti → Transformační prvky → [[Image:PartDesign_Mirrored.svg|16px]] Zrcadlit}}.
 # Pokud není aktivní žádný objekt a v dokumentu se nacházejí dva nebo více objektů, otevře se dialogové okno {{MenuCommand|Je nutné aktivovat objekt}} s výzvou k aktivaci jednoho z nich. Pokud je v dokumentu pouze jeden objekt, bude aktivován automaticky.
-# Otevře se [[Task_Panel/cs|panel úloh]] {{MenuCommand|Zrcadlit parametry}}. Další informace najdete v sekci[[#Options|Možnosti]].
+# Otevře se [[Task_Panel/cs|panel úloh]] {{MenuCommand|Zrcadlit parametry}}. Další informace najdete v sekci [[#Options|Možnosti]].
 # Stiskněte tlačítko {{Button|OK}} pro dokončení.
 
 <span id="Edit"></span>
