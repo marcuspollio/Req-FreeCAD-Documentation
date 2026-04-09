@@ -84,17 +84,15 @@ Ta sekcja wymienia ostrzeżenia i błędy wykryte przez [[CAM_Sanity/pl|Bezpiecz
 <span id="Usage"></span>
 ==Użycie==
 
-<div class="mw-translate-fuzzy">
-# Wybierz [[Image:CAM_Job.svg|16px]] [[CAM_Job/pl|Zadanie]] w oknie [[Tree_View/pl|Widoku drzewa]].
-# Istnieje kilka sposobów wywołania polecenia:
-#* Naciśnij przycisk {{Button|[[Image:CAM_Sanity.svg|16px]] '''Sprawdzenie poprawności'''}}.
-#* Wybierz  z menu opcję {{MenuCommand|CAM → [[Image:CAM_Sanity.svg|16px]] Sprawdzenie poprawności}}.
-#* Użyj skrótu klawiaturowego: {{KEY|P}}, a następnie {{KEY|S}}.
-# Odpowiednie informacje są gromadzone w słowniku Python, a następnie formatowane do formatu AsciiDoc. 
-# Plik AsciiDoc jest zapisywany na dysku w tej samej lokalizacji, co plik, który zostanie przetworzony. 
-# Zewnętrzny proces wywołuje AsciiDoc, aby odczytać AsciiDoc i wygenerować plik w formacie {{Value|.html}}. 
-# Spowoduje to automatyczne uruchomienie systemowej przeglądarki internetowej w celu wyświetlenia wygenerowanego samodzielnego raportu HTML.
-</div>
+# Wybierz [[Image:CAM_Job.svg|16px]] [[CAM_Job/pl|Zadanie]] w [[Tree_View/pl|Widoku drzewa]].
+# Istnieje kilka sposobów na wywołanie tego polecenia:
+#* Naciśnij przycisk {{Button|[[Image:CAM_Sanity.svg|16px]] [[CAM_Sanity/pl|Bezpieczeństwo]]}}.
+#* Wybierz z menu opcję {{MenuCommand|CAM → [[Image:CAM_Sanity.svg|16px]] Bezpieczeństwo}}.
+#* Użyj skrótu klawiaturowego: {{KEY|P}} a następnie {{KEY|S}}.
+# W razie potrzeby ustaw właściwość {{PropertyData|OutputFile}} Zadania przed uruchomieniem polecenia.
+# FreeCAD generuje samodzielny raport HTML dla wybranego Zadania.
+# Raport jest zapisywany w tej samej lokalizacji, co skonfigurowany plik wyjściowy Zadania.
+# Wygenerowany raport jest otwierany w domyślnej przeglądarce systemowej.
 
 <span id="Notes"></span>
 ==Uwagi==
