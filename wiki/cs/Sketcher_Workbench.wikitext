@@ -333,9 +333,7 @@ Jedná se o nástroje pro vytváření [[#Constraints|vazeb]]. Některé vazby v
 
 * [[File:Sketcher_BSplineInsertKnot.svg|32px]] [[Sketcher_BSplineInsertKnot/cs|Vložit uzel]]: Vloží uzel do B-spline nebo zvýší multiplicitu existujícího uzlu.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves/cs|Připojit křivky]]: Vytvoří B-spline spojením dvou existujících B-spline nebo jiných hran. {{Version|0.21}}
-</div>
+* [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves/cs|Připojit křivky]]: Vytvoří B-spline spojením dvou existujících B-spline nebo jiných hran.
 
 <span id="Visual_Helpers"></span>
 ===Vizuální pomůcky===
