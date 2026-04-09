@@ -29,7 +29,6 @@ Ve verzi {{VersionMinus|0.21}} je stránka [[#Appearance|Vzhled]] označena jako
 
 Na této stránce můžete zadat následující hodnoty:
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Název
 !style="width: 66%;"|Popis
@@ -46,7 +45,7 @@ Na této stránce můžete zadat následující hodnoty:
 | {{MenuCommand|Esc může vypnout režim úprav náčrtu.}}
 | Pokud je zaškrtnuto, klávesa {{KEY|Esc}} může spustit ukončení režimu úprav náčrtu. Možnost tuto funkci deaktivovat může být užitečná pro uživatele, kteří jsou zvyklí stisknout klávesu {{KEY|Esc}} jako součást svého pracovního postupu v jiných CAD řešeních, ale nechtějí nutně ukončit náčrt.
 |-
-| {{MenuCommand|Zakázat stínování v režimu úprav}} K dispozici pouze ve verzi 1.0.
+| {{MenuCommand|Zakázat stínování v režimu úprav}} K dispozici pouze ve {{Version|1.0}}.
 | Pokud je zaškrtnuto, je při vstupu do režimu úprav náčrtu stínovaný pohled deaktivován.
 |-
 | {{MenuCommand|Upozornit na automatickou náhradu vazeb}}
@@ -54,7 +53,6 @@ Na této stránce můžete zadat následující hodnoty:
 |-
 | {{MenuCommand|Sjednotit totožnost a bod na objektu}} {{Version|1.0}}
 | Pokud je zaškrtnuto, nástroje [[Sketcher_ConstrainCoincident/cs|vazba shodnosti]] a [[Sketcher_ConstrainPointOnObject/cs|vazba bodu na objektu]] jsou sjednoceny do [[Sketcher_ConstrainCoincidentUnified/cs|jediného nástroje]].
-</div>
 
 {{Emphasis|Po změně tohoto nastavení musíte FreeCAD restartovat.}}
 
