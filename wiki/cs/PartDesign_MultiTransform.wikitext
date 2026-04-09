@@ -124,21 +124,23 @@ Mohlo by se jednat o montážní desku o rozměrech 150 × 100 × 10 mm pro moto
 
 [[Image:PartDesign_MultiTransform_Example2.png|400px]]
 
-# Create a [[Image:PartDesign_Body.svg|16px]] [[PartDesign_Body|Body]] and add a [[Image:PartDesign_NewSketch.svg|16px]] [[PartDesign_NewSketch|sketch]] on one of its base planes.
-# In the sketch create geometry for one quadrant of the part (i.e. the upper right quadrant).
-#* Note that the constraints must also only cover a quarter of the part, e.g. instead of the full dimension of {{Value|150mm}} enter {{Value|150/2mm}} or {{Value|75mm}}.
-#* Make sure the sketch is closed by adding lines along the vertical and horizontal axes.
-# Extrude the part with [[Image:PartDesign_Pad.svg|16px]] [[PartDesign_Pad|Pad]].
-# Select [[Image:PartDesign_MultiTransform.svg|16px]] '''Multi-Transform'''.
-# The task dialog opens.
-# The last feature of the Body is already selected. Since we want to mirror that feature we can ignore the {{Button|Add Feature}} and {{Button|Remove Feature}} buttons.
-# Right-click in the {{MenuCommand|Transformations}} field and select {{MenuCommand|Add Mirror Transformation}} from the context menu.
-# For the {{MenuCommand|Plane}} select {{MenuCommand|Vertical sketch axis}}.
-# If the {{MenuCommand|Recompute on change}} checkbox is checked, you should now see the part mirrored about one axis.
-# Again select {{MenuCommand|Add Mirror Transformation}} from the context menu of the {{MenuCommand|Transformations}} field.
-# Now for the {{MenuCommand|Plane}} select {{MenuCommand|Horizontal sketch axis}}.
-# Press the {{Button|OK}} button to finish.
-# To remove the edges along the axes of symmetry in the final result, set the {{PropertyData|Refine}} property of the new feature to {{Value|true}} in the [[Property_View|Property View]].
+<div class="mw-translate-fuzzy">
+# Vytvořte [[Image:PartDesign_Body.svg|16px]] [[PartDesign_Body/cs|těleso]] a přidejte [[Image:PartDesign_NewSketch.svg|16px]] [[PartDesign_NewSketch/cs|náčrt]] na jednu z jeho základních rovin.
+# V náčrtu vytvořte geometrii pro jeden kvadrant dílu (tj. pravý horní kvadrant).
+#* Upozorňujeme, že vazby musí pokrývat pouze čtvrtinu dílu, tj. namísto plného rozměru {{Value|150 mm}} zadejte {{Value|150/2 mm}} nebo {{Value|75 mm}}.
+#* Ujistěte se, že je náčrt zavazbený, a to přidáním linií podél svislé a vodorovné osy.
+# Vytvořte vytažení dílu s [[Image:PartDesign_Pad.svg|16px]] [[PartDesign_Pad/cs|deskou]].
+# Vyberte [[Image:PartDesign_MultiTransform.svg|16px]] '''Vícenásobná transformace'''.
+# Otevře se dialogové okno s úkolem.
+# Poslední prvek tělesa je již vybrán. Jelikož chceme tento prvek zrcadlit, můžeme tlačítka {{Button|Přidat prvek}} a {{Button|Odebrat prvek}} ignorovat.
+# Klikněte pravým tlačítkem myši na pole {{MenuCommand|Transformace}} a z kontextového menu vyberte položku {{MenuCommand|Přidat Transformaci zrcadlení}}.
+# V menu {{MenuCommand|Rovina}} vyberte položku {{MenuCommand|Vertikální osa náčrtku}}.
+# Pokud je zaškrtnuto políčko {{MenuCommand|Přepočítat při změně}}, měl by se vám nyní díl zobrazit zrcadlově otočený kolem jedné osy.
+# Z kontextového menu pole {{MenuCommand|Transformace}} znovu vyberte příkaz {{MenuCommand|Přidat transformaci zrcadlení}.
+# Nyní v menu {{MenuCommand|Rovina}} vyberte položku {{MenuCommand|Horizontální osa náčrtku}}.
+# Stiskněte tlačítko {{Button|OK}} pro dokončení.
+# Chcete-li v konečném výsledku odstranit hrany podél os symetrie, nastavte v okně [[Property_View/cs|Zobrazení vlastností]] vlastnost {{PropertyData|Vyhladit}} nového prvku na hodnotu {{Value|true}}.
+</div>
 
 To verify that the part is fully parametric open the initial sketch with the quarter part and change one dimension, say a hole diameter. After closing the sketch the three other holes will have changed accordingly. This works with all other dimensions as well. A sketch modelling the full part with a single extrusion and no mirroring would be a lot more complex and all later changes would be more complicated.
 
