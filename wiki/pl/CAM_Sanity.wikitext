@@ -64,9 +64,7 @@ Ta sekcja zawiera podsekcję dla każdego numeru narzędzia użytego w Zadaniu. 
 <span id="Output"></span>
 ===Rezultat===
 
-<div class="mw-translate-fuzzy">
-Podaje szczegółowe informacje o tym, gdzie i kiedy G-kod został przetworzony. Pokazuje również, czy zadanie zawiera opcjonalne / obowiązkowe postoje, dzięki czemu operator wie, czy można bezpiecznie odejść od maszyny podczas pracy.
-</div>
+Ta sekcja przedstawia szczegóły dotyczące skonfigurowanego pliku wyjściowego oraz kontekstu postprocessingu. Może również pokazywać, czy Zadanie zawiera opcjonalne lub obowiązkowe zatrzymania, dzięki czemu operator wie, czy podczas wykonywania programu wymagana jest jego uwaga.
 
 <span id="Coolant"></span>
 ===Chłodzenie===
