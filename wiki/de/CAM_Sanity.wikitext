@@ -59,9 +59,7 @@ In diesem Abschnitt wird das Rohmaterial-Objekt aus der Bearbeitung angezeigt, e
 <span id="Tool_Data"></span>
 === Werkzeugdaten ===
 
-<div class="mw-translate-fuzzy">
-Enthält Unterabschnitte für jede im Auftrag verwendete Werkzeugnummer. Hier wird detailliert beschrieben, um welches Werkzeug es sich nach Ansicht des Programmierers handelt und bei welchen Vorgängen es zum Einsatz kommt. Dieser Abschnitt funktioniert nur mit dem neuen [[CAM_ToolBit/de|Werkzeugbit]]-System. Dies ist ein weiterer Bereich, in dem CAM verbessert werden muss. Insbesondere benötigen Werkzeugbits zusätzliche Attribute zum Werkzeug, wie Hersteller/URL/Teilenummer.
-</div>
+Dieser Abschnitt enthält einen Unterabschnitt für jede im Auftrag verwendete Werkzeugnummer. Er fasst die Informationen zu den Werkzeugen und Werkzeugsteuerungen zusammen, die bei den ausgewählten Bearbeitungsschritten zum Einsatz kommen. Je nach den verfügbaren Werkzeuginformationen können dies die Werkzeugbeschreibung, der Durchmesser, Angaben zum Vorschub, die Spindeldrehzahl sowie die Bearbeitungsschritte sein, bei denen das Werkzeug verwendet wird.
 
 <span id="Output"></span>
 === Ausgabe ===
