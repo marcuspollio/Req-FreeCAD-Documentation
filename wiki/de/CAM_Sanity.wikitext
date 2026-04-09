@@ -103,9 +103,9 @@ In diesem Abschnitt werden Warnungen und Fehler aufgeführt, die von [[CAM_Sanit
 * Die erstellte HTML-Datei ist so konzipiert, dass sie zusammen mit den Bearbeitungs-Ergebnissen leicht überprüft, archiviert oder weitergegeben werden kann.
 * Bilder für den Bericht können direkt in die erstellte HTML-Datei eingebettet werden.
 
-<div class="mw-translate-fuzzy">
-* Asciidoctor ist ein schneller Open-Source-Textprozessor zur Konvertierung von AsciiDoc in HTML, PDF oder andere Formate. Er ist für Linux, Windows und macOS verfügbar. Asciidoctor wird nicht mit FreeCAD installiert. Wenn man '''CAM Plausibilitätsprüfung''' ohne Installation von Asciidoctor verwendet, wird die AsciiDoc-Quelldatei zwar generiert, aber die resultierende HTML-Datei wird nicht erstellt. Siehe [https://asciidoctor.org/ Asciidoctor-Website]
-</div>
+* Gegebenenfalls werden die Werte im Bericht entsprechend der aktuellen Einheitenformatierung dargestellt.
+* Werkzeugdurchmesser und Vorschubwerte werden für die Anzeige formatiert, und die Spindeldrehzahl wird mit dem Suffix {{incode|rpm}} angezeigt.
+* Der Bericht dient als Hilfsmittel zur Überprüfung. Er ersetzt weder die visuelle Überprüfung der Werkzeugwege noch die Simulation oder die maschinenspezifische Einrichtungsdokumentation.
 
 {{Docnav/de
 |[[CAM_Post/de|Nachbearbeitung]]
