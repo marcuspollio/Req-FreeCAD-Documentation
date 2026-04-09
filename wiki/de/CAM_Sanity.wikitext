@@ -26,9 +26,7 @@ Viele CAM-Benutzer sind Hobbyisten oder Heimwerker. Daher verwenden sie ihre CNC
 
 Hobbyisten führen den G-Code in der Regel kurz nach der Nachbearbeitung aus, wahrscheinlich nur ein- oder zweimal. In einem professionellen Betrieb kann ein bewährter G-Code über einen langen Zeitraum ausgeführt werden.
 
-<div class="mw-translate-fuzzy">
-Ein Problem, das in einer professionellen CNC-Werkstatt auftritt, ist, dass der Programmierer viele Annahmen trifft, die NICHT im G-Code selbst kommuniziert werden. Beispielsweise kann der G-Code ein Werkzeug "T3" anfordern, aber sofern dies nicht kommentiert wird, sagt der G-Code nichts darüber aus, um welche Art von Werkzeug es sich bei "T3" handelt. Es wird einfach angenommen, dass T3 im CAM-System dasselbe ist wie T3 auf der Maschine. Es gibt viele solcher Annahmen, die die Maschineneinrichtung, die Werkzeuge, das Material, die Teileausrichtung usw. betreffen. Selbst wenn der G-Code perfekt ist, kann es zu einem Absturz kommen, wenn der Bediener die Maschine nicht mit denselben Annahmen einrichtet.
-</div>
+Ein Problem bei diesem Arbeitsablauf besteht darin, dass viele Annahmen des Programmierers nicht durch den G-Code selbst vermittelt werden. So kann der G-Code beispielsweise das Werkzeug {{incode|T3}} vorsehen, doch geht aus der Datei nicht unbedingt hervor, um welches Werkzeug es sich handelt, wie das Werkstück ausgerichtet ist oder welche Einstellungen erwartet werden. Ähnliche Annahmen können für die Maschineneinrichtung, die Werkzeugausstattung, das Material, die Ausrichtung des Werkstücks, das Kühlmittel und die Werkstückspannung gelten.
 
 Selbst wenn der G-Code an sich korrekt ist, können Abweichungen zwischen der programmierten und der tatsächlichen Maschineneinstellung dennoch zu Fehlern führen. Kommerzielle Betriebe lösen dieses Problem häufig, indem sie einen Einrichtungsbericht oder ein Einrichtungsbuch für den Maschinenbediener erstellen.
 
