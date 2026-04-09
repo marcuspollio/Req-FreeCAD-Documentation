@@ -10,9 +10,7 @@
 
 [[Assembly2 Workbench/ru|Assembly2]] это верстак для создания сборок из FreeCAD v0.15 с поддержкой импорта деталей из внешних файлов.
 
-<div class="mw-translate-fuzzy">
-По утверждению автора [https://forum.freecadweb.org/viewtopic.php?f=17&t=16591 на форуме], он более не поддерживается с 2016 года, поэтому у него могут быть проблемы с FreeCAD 0.17 и выше. Хорошей альтернативой может быть более новый и активно поддерживаемый [[A2plus Workbench/ru|верстак A2plus]].
-</div>
+По утверждению автора [https://forum.freecad.org/viewtopic.php?f=17&t=16591 на форуме], он более не поддерживается с 2016 года, поэтому у него могут быть проблемы с FreeCAD 0.17 и выше. Хорошей альтернативой может быть более новый и активно поддерживаемый [[A2plus Workbench/ru|верстак A2plus]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[Image:Assembly2_example.jpg]]
@@ -174,7 +172,7 @@ To update to the latest version, delete the assembly2 folder and redownload the 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [https://wiki.freecad.org/index.php?title=Sandbox:Animation Animation]: This Workbench can be used to create sequences of pictures. 
 * [https://wiki.freecad.org/index.php?title=Sandbox:ExplodedAnimation ExplodedAnimation]: FreeCAD workbench to create exploded views and animations of assemblies. 
-* [[External_workbenches|External workbenches]]
+* [https://www.freecad.org/addons.php Addons]
 </div>
 
 {{Userdocnavi{{#translation:}}}}
