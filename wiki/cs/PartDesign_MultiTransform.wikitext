@@ -17,12 +17,7 @@
 }}
 
 <span id="Description"></span>
-<div class="mw-translate-fuzzy">
-==Úvod==
-'Vytváří tvar pomocí kombinací více transformací' - Tento nástroj vezme množinu jednoho nebo více objektů jako vstup (originály) a umožní na nich postupně aplikovat několik transformací. Například vytvoří přírubu se dvěma řadami otvorů. Otvor ('originál') je nejdříve upraven v přímém vzoru ve směru osy X a potom osmkrát vzorkován v polárním vzorku kolem osy Y.
-[[Image:multitransform_example.png|600px|left]]
-{{clear}}
-</div>
+==Popis==
 
 The [[Image:PartDesign_MultiTransform.svg|24px]] '''PartDesign MultiTransform''' tool creates a pattern of one or more features. The pattern can include multiple transformations where each subsequent transformation is applied to the result of the previous transformation.
 
