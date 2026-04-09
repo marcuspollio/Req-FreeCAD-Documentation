@@ -81,9 +81,7 @@ Nástroje pracovní plochy Sketcher se nacházejí v menu Sketch a/nebo v někol
 
 Některé nástroje jsou také k dispozici v kontextovém menu [[3D_View/cs|3D pohledu]], když je skica v režimu úprav, nebo v kontextových menu [[Sketcher_Dialog/cs|dialogového okna Sketcher]].
 
-<div class="mw-translate-fuzzy">
-{{Version|0.21}}: Pokud je skica v režimu úprav, panel nástrojů Struktura je skrytý, protože žádný z jeho nástrojů nelze použít.
-</div> 
+Pokud je skica v režimu úprav, panel nástrojů Struktura je skrytý, protože žádný z jeho nástrojů nelze použít. 
 
 <span id="General"></span>
 === Obecné ===
