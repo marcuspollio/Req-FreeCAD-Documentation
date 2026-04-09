@@ -51,32 +51,30 @@ Nástroj [[Image:PartDesign_Mirrored.svg|24px]] '''PartDesign Mirrored''' zrcadl
 <span id="Options"></span>
 == Volby ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Choose the mode:
-** {{MenuCommand|Transform body}}: Transforms the whole base feature's shape (default). {{Version|1.0}}
-** {{MenuCommand|Transform tool shapes}}: Transforms the individual tool shapes of selected features.
-*** To add features:
-***# Press the {{Button|Add Feature}} button.
-***# Select a feature in the [[Tree_View|Tree View]] or the [[3D_View|3D View]].
-***# Repeat to add more features.
-*** To remove features:
-***# Press the {{Button|Remove Feature}} button.
-***# Do one of the following:
-***#* Select a feature in the [[Tree_View|Tree View]] or the [[3D_View|3D View]].
-***#* Select a feature in the list and press the {{KEY|Del}} key.
-***#* Right-click a feature in the list and select {{MenuCommand|Remove}} from the context menu.
-***# Repeat to remove more features.
-*** If there are several features in the pattern, their order can be important. See [[PartDesign_PolarPattern#Ordering_features|PartDesign PolarPattern]].
-* Specify the mirror {{MenuCommand|Plane}}:
-** {{MenuCommand|Vertical sketch axis}}: The Y-axis of the sketch (the plane passes through this reference and the Z-axis of the sketch, only available for sketch-based features).
-** {{MenuCommand|Horizontal sketch axis}}: The X-axis of the sketch (idem).
-** {{MenuCommand|Construction line #}}: A separate entry for each construction line in the sketch (idem).
-** {{MenuCommand|Base XY-plane}}: The XY-plane of the Body.
-** {{MenuCommand|Base YZ-plane}}: The YZ-plane of the Body.
-** {{MenuCommand|Base XZ-plane}}: The XZ-plane of the Body.
-** {{MenuCommand|Select reference…}}: Select a planar face in the [[3D_View|3D View]].
-* If the {{MenuCommand|Recompute on change}} checkbox is checked the view will update in real time.
-</div>
+* Vyberte režim:
+** {{MenuCommand|Transformovat těleso}}: Transformuje tvar celého základního prvku (výchozí nastavení). {{Version|1.0}}
+** {{MenuCommand|Transformovat tvary nástrojů}}: Transformuje jednotlivé tvary nástrojů u vybraných prvků.
+*** Přidání prvků:
+***# Klikněte na tlačítko {{Button|Přidat prvek}}.
+***# Vyberte prvek ve [[Tree_View/cs|stromovém zobrazení]] nebo ve [[3D_View/cs|3D pohledu]].
+***# Tento postup opakujte, chcete-li přidat další prvky.
+*** Odstranění prvků:
+***# Klikněte na tlačítko {{Button|Odebrat prvek}}.
+***# Proveďte jednu z následujících akcí:
+***#* Vyberte prvek ve [[Tree_View/cs|stromovém zobrazení]] nebo ve [[3D_View/cs|3D pohledu]].
+***#* Vyberte položku v seznamu a stiskněte klávesu {{KEY|Del}}.
+***#* Klikněte pravým tlačítkem myši na položku v seznamu a z kontextového menu vyberte možnost {{MenuCommand|Odebrat}}.
+***# Tento postup opakujte, abyste odstranili další prvky.
+*** Pokud vzor obsahuje více prvků, může být jejich pořadí důležité. Viz [[PartDesign_PolarPattern/cs#Ordering_features|PartDesign Polární vzor]].
+* Zadejte {{MenuCommand|Rovinu}} zrcadlení:
+** {{MenuCommand|Vertikální osa náčrtu}}: Osa Y náčrtu (rovina prochází tímto referenčním bodem a osou Z náčrtu; k dispozici pouze u prvků založených na náčrtu).
+** {{MenuCommand|Horizontální osa náčrtu}}: Osa X náčrtu (totožná).
+** {{MenuCommand|Konstrukční linie č.}}: Samostatný záznam pro každou konstrukční linii ve skice (tamtéž).
+** {{MenuCommand|Základní rovina XY}}: Rovina XY tělesa.
+** {{MenuCommand|Základní rovina YZ}}: Rovina YZ tělesa.
+** {{MenuCommand|Základní rovina XZ}}: Rovina XZ tělesa.
+** {{MenuCommand|Vybrat referenční plochu…}}: Vyberte rovinnou plochu ve [[3D_View/cs|3D zobrazení]].
+* Pokud je zaškrtnuto políčko {{MenuCommand|Přepočítat při změně}}, zobrazení se bude v reálném čase aktualizovat.
 
 <span id="Limitations"></span>
 <div class="mw-translate-fuzzy">
