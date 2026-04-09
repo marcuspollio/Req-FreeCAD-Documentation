@@ -96,9 +96,9 @@ Cette section répertorie les avertissements et les erreurs détectés par [[CAM
 <span id="Notes"></span>
 == Remarques ==
 
-<div class="mw-translate-fuzzy">
-* AsciiDoc est un format de balisage léger pour la création de notes, d'articles, de livres, etc. Il est lisible par l'homme et facilement traduit dans d'autres formats.
-</div>
+* Le rapport est généré directement au format HTML par FreeCAD. Il n'est pas nécessaire d'installer AsciiDoc ou Asciidoctor séparément.
+* Le fichier HTML généré est conçu pour être facilement consulté, archivé ou partagé avec les résultats de la tâche.
+* Les images du rapport peuvent être intégrées directement dans le fichier HTML généré.
 
 <div class="mw-translate-fuzzy">
 * Asciidoctor est un processeur de texte open-source rapide pour la conversion d'AsciiDoc en HTML, PDF ou d'autres formats. Il est disponible pour Linux, Windows et macOS. Asciidoctor n'est pas installé avec FreeCAD. Si vous utilisez '''CAM Chercher des erreurs''' sans installer Asciidoctor, le fichier source AsciiDoc sera généré mais le HTML résultant ne sera pas produit. Voir [https://asciidoctor.org/ Site d'Asciidoctor]
