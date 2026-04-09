@@ -1,7 +1,5 @@
 <languages/>
 
-{{UnfinishedDocu{{#translation:}}}}
-
 {{Docnav/de
 |[[Assembly_ToggleGrounded/de|FestsetzenUmschalten]]
 |[[Assembly_CreateJointRevolute/de|DrehverbindungErstellen]]
@@ -24,11 +22,14 @@
 <span id="Description"></span>
 ==Beschreibung==
 
+<div class="mw-translate-fuzzy">
 Das Werkzeug [[Image:Assembly_CreateJointFixed.svg|24px]] [[Assembly_CreateJointFixed/de|Assembly StarreVerbindungErstellen]] erstellt eine Verbindung zwischen zwei Bauteilen, die keine Verschiebung oder Drehung zulässt.
+</div>
 
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 # Wahlweise zwei geometrsche Elemente zweier verschiedener Bauteile auswählen. Andere Auswahlen werden nicht verarbeitet.
 # Es gibt mehrere Möglichkeiten, dieses Werkzeug aufzurufen:
 #* Die Schaltfläche {{Button|[[Image:Assembly_CreateJointFixed.svg|16px]] [[Assembly_CreateJointFixed/de|Starre Verbindung]]}} drücken.
@@ -102,14 +103,17 @@ Das Werkzeug [[Image:Assembly_CreateJointFixed.svg|24px]] [[Assembly_CreateJoint
 #*: Dieser ermöglicht den Befestigungsversatz der zweiten Verbindungsstelle zu ihrem zugehörigen Element einzustellen.
 #* Die Bauteile werden, jeweils abhängig von dem ausgewählten Element und dem Befestigungsversatz, auf neue, versetzte Positionen verschoben.
 # Die Schaltfläche {{Button|OK}} drücken um das Werkzeug zu beenden.
+</div>
 
 <span id="Notes"></span>
 ==Hinweise==
 
+<div class="mw-translate-fuzzy">
 * Jede Verbindung (Gelenk, Führung, Kopplung) verbindet zwei Bauteile einer Baugruppe und (Repräsentanten von) Verbindungsstellen werden an einem geometrischen Element des jeweiligen Bauteils befestigt, um die vom Gleichungslöser zu verbindenden Positionen zu kennzeichnen.
 * Die Verbindungsstellen sind in Wirklichkeit lokale Koordinatensysteme und werden daher mit einem Symbol gekennzeichnet, das aus den drei Achsen (X, Y und Z) und einem Kreis (XY-Ebene) besteht. Standardmäßig sind sie nur dann sichtbar, wenn der zugehörige Dialog geöffnet ist. Sie sind ständig sichtbar, wenn ihre Sichtbarkeit manuell eingeschaltet wurde.
 * Für eine Verbindung überlagert die zweite Verbindungsstelle die erste Verbindungsstelle standardmäßig deckungsgleich; sie ändert ihre Position, sobald weitere Verbindungen ins Spiel kommen.
 * Schwebt der Mauszeiger in der [[3D_View/de|3D-Ansicht]] über einem geometrischen Element, während der Dialog geöffnet ist und weniger als zwei Elemente auflistet, wird angezeigt, wo die Verbindungsstelle positioniert wird, sobald das Element ausgewählt wird.
+</div>
 
 <span id="Properties"></span>
 ==Eigenschaften==
@@ -123,6 +127,7 @@ Ein '''Fixed'''-Objekt wird von einem [[App_FeaturePython/de|App FeaturePython]]
 
 {{TitleProperty|Joint}}
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData/de|Activated|Bool}}: Zeigt an, ob die Verbindung aktiv ist.
 * {{PropertyData/de|Distance|Float}}:  Speichert den '''Abstand''' der Abstandsverbindung. Wird auch für die Zahnstange-Ritzel- und die Spindelverdindung zum Speichern des '''Steigungsradius''' verwendet sowie für die Zahnrad- und die Riemenverbindung, um den '''Radius1''' zu speichern.
 * {{PropertyData/de|Distance2|Float}}: Dies ist der zweite Abstand der Verbindung. Er wird nur für die Zahnrad- und Riemenverbindung zum Speichern des ''Radius2''' eingesetzt.
@@ -130,9 +135,11 @@ Ein '''Fixed'''-Objekt wird von einem [[App_FeaturePython/de|App FeaturePython]]
 Entfallene Eigenschaften (v.1.0.0-RC-38728) Dies waren die Eigenschaften, die für die Bewegungssimulation verwendet werden konnten:
 * {{PropertyData/de|Offset|Vector}}: Dies ist der Versatzvektor dieser Verbindung.
 * {{PropertyData/de|Rotation|Float}}: Dies ist der Drehwinkel dieser Verbindung.
+</div>
 
 {{TitleProperty|Joint Connector 1}}
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData/de|Detach1|Bool}}: Dies verhindert das Neuberechnen von Placement1 und ermöglicht die Positionierung einzustellen.
 * {{PropertyData/de|Offset1|Placement}}: Dies ist der Befestigungsversatz der ersten Verbindungsstelle der Verbindung. (hinzugefügt mit Version 1.0.0-RC-38728)
 * {{PropertyData/de|Placement1|Placement}}: Dies ist das lokale Koordinatensystem innerhalb des Objekts von Reference1, das für die Verbindung eingesetzt wird.
@@ -142,9 +149,11 @@ Entfallene Eigenschaften:
 * {{PropertyData/de|Object1|String}}: Das erste Objekt der Verbindung.
 * {{PropertyData/de|Part1|Link}}: Das erste Bauteil der Verbindung.
 * {{PropertyData/de|Vertex1|String}}: Der ausgewählte Knoten des ersten Objekts.
+</div>
 
 {{TitleProperty|Joint Connector 2}}
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData/de|Detach2|Bool}}: Dies verhindert das Neuberechnen von Placement2 und ermöglicht die Positionierung einzustellen.
 * {{PropertyData|Offset2|Placement}}: Dies ist der Befestigungsversatz der zweiten Verbindungsstelle der Verbindung. (hinzugefügt mit Version 1.0.0-RC-38728)
 * {{PropertyData/de|Placement2|Placement}}: Dies ist das lokale Koordinatensystem innerhalb des Objekts von Reference2, das für die Verbindung eingesetzt wird.
@@ -154,9 +163,11 @@ Entfallene Eigenschaften:
 * {{PropertyData/de|Object2|String}}: Das zweite Objekt der Verbindung.
 * {{PropertyData/de|Part2|Link}}: Das zweite Bauteil der Verbindung.
 * {{PropertyData/de|Vertex2|String}}: Der ausgewählte Knoten des zweiten Objekts.
+</div>
 
 {{TitleProperty|Limits}}
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData/de|Angle Max|Float}}: Dies ist der obere Grenzwert des Winkels zwischen den beiden Koordinatensystemen (zwischen ihren X-Achsen).
 * {{PropertyData/de|Angle Min|Float}}: Dies ist der untere Grenzwert des Winkels zwischen den beiden Koordinatensystemen (zwischen ihren X-Achsen).
 * {{PropertyData/de|Enable Angle Max|Bool}}: Aktiviert den Grenzwert '''Maximaler Winkel''' der Verbindung.
@@ -167,6 +178,7 @@ Entfallene Eigenschaften:
 * {{PropertyData/de|Length Min|Float}}: Dies ist der untere Grenzwert des Abstandes zwischen den beiden Koordinatensystemen (entlang ihrer Z-Achsen).
 Entfallene Eigenschaften:
 * {{PropertyData/de|Enable Limits|Bool}}: Verwendet diese Verbindung Grenzwerte?
+</div>
 
 
 {{Docnav/de
