@@ -100,9 +100,9 @@ Cette section répertorie les avertissements et les erreurs détectés par [[CAM
 * Le fichier HTML généré est conçu pour être facilement consulté, archivé ou partagé avec les résultats de la tâche.
 * Les images du rapport peuvent être intégrées directement dans le fichier HTML généré.
 
-<div class="mw-translate-fuzzy">
-* Asciidoctor est un processeur de texte open-source rapide pour la conversion d'AsciiDoc en HTML, PDF ou d'autres formats. Il est disponible pour Linux, Windows et macOS. Asciidoctor n'est pas installé avec FreeCAD. Si vous utilisez '''CAM Chercher des erreurs''' sans installer Asciidoctor, le fichier source AsciiDoc sera généré mais le HTML résultant ne sera pas produit. Voir [https://asciidoctor.org/ Site d'Asciidoctor]
-</div>
+* Le cas échéant, les valeurs du rapport sont mises en forme pour l'affichage selon le format d'unité en cours.
+* Les valeurs relatives au diamètre de l'outil et à l'avance sont mises en forme pour l'affichage, et la vitesse de rotation de la broche est indiquée avec le suffixe {{incode|rpm}}.
+* Ce rapport est destiné à faciliter la vérification. Il ne remplace pas l'inspection visuelle du parcours d'outil, la simulation ou la documentation relative au réglage spécifique à la machine.
 
 {{Docnav/fr
 |[[CAM_Post/fr|Post-traitement]]
