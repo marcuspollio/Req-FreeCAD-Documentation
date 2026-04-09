@@ -119,16 +119,11 @@ Un objet '''Fixed''' est dérivé d'un [[App_FeaturePython/fr|App FeaturePython]
 
 {{TitleProperty|Joint}}
 
-<div class="mw-translate-fuzzy">
 * {{PropertyData|Activated|Bool}} : indique si la liaison est active.
 * {{PropertyData|Distance|Float}} : enregistre la '''Distance''' de la liaison Distance. Est également utilisé par les liaisons Crémaillère et Hélicoïde pour enregistrer le '''Rayon primitif''' et par les liaisons Engrenage et Courroie pour enregistrer le '''Rayon1'''.
-* {{PropertyData|Distance2|Float}} : deuxième distance de la liaison. Elle n'est utilisée que par les liaisons Engrenage et Courroie pour enregistrer '''Rayon2'''.
-* {{PropertyData|Distance2|Float}} : deuxième distance de la liaison. Elle n'est utilisée que par la liaison engrenage pour enregistrer le deuxième rayon.
-* {{PropertyData|Joint Type|Ennumeration}} : type de liaison. ({{Value|Fixed}}, {{Value|Revolute}}, {{Value|Cylindrical}}, {{Value|Slider}}, {{Value|Ball}}, {{Value|Distance}}, {{Value|Parallel}}, {{Value|Perpendicular}}, {{Value|Angle}}, {{Value|RackPinion}}, {{Value|Screw}}, {{Value|Gears}}, {{Value|Belt}})
-Propriétés supprimées (v.1.0.0-RC-38728) Il s'agit des propriétés qui pouvaient être utilisées pour animer :
-* {{PropertyData|Offset|Vector}} : vecteur de décalage de la liaison.
-* {{PropertyData|Rotation|Float}} : rotation de la liaison.
-</div>
+* {{PropertyData|Distance2|Float}} : enregistre la valeur de la deuxième distance de la liaison. Elle n'est utilisée que par les liaisons Engrenage et Courroie pour enregistrer '''Rayon2'''.
+* {{PropertyData|Angle|Float}} : enregistre la valeur de l'angle d'une liaison angle.
+* {{PropertyData|Joint Type|Enumeration}} : type de liaison. ({{Value|Fixed}}, {{Value|Revolute}}, {{Value|Cylindrical}}, {{Value|Slider}}, {{Value|Ball}}, {{Value|Distance}}, {{Value|Parallel}}, {{Value|Perpendicular}}, {{Value|Angle}}, {{Value|RackPinion}}, {{Value|Screw}}, {{Value|Gears}}, {{Value|Belt}})
 
 {{TitleProperty|Joint Connector 1}}
 
