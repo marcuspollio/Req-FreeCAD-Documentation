@@ -51,38 +51,38 @@ Nástroj [[Image:PartDesign_LinearPattern.svg|24px]] '''PartDesign LinearPattern
 <span id="Options"></span>
 == Volby ==
 
-* Choose the mode:
-** {{MenuCommand|Transform body}}: Transforms the whole base feature's shape (default). {{Version|1.0}}
-** {{MenuCommand|Transform tool shapes}}: Transforms the individual tool shapes of selected features.
-*** To add features:
-***# Press the {{Button|Add Feature}} button.
-***# Select a feature in the [[Tree_View|Tree View]] or the [[3D_View|3D View]].
-***# Repeat to add more features.
-*** To remove features:
-***# Press the {{Button|Remove Feature}} button.
-***# Do one of the following:
-***#* Select a feature in the [[Tree_View|Tree View]] or the [[3D_View|3D View]].
-***#* Select a feature in the list and press the {{KEY|Del}} key.
-***#* Right-click a feature in the list and select {{MenuCommand|Remove}} from the context menu.
-***# Repeat to remove more features.
-*** If there are several features in the pattern, their order can be important. See [[PartDesign_PolarPattern#Ordering_features|PartDesign PolarPattern]].
-* {{MenuCommand|Direction}}:
-** Press the {{Button|[[Image:Button_sort.svg|16px]]}} button to reverse the direction of the pattern.
-** Specify the direction reference:
-*** {{MenuCommand|Normal sketch axis}}: The Z-axis of the sketch (only available for sketch-based features).
-*** {{MenuCommand|Vertical sketch axis}}: The Y-axis of the sketch (idem).
-*** {{MenuCommand|Horizontal sketch axis}}: The X-axis of the sketch (idem).
-*** {{MenuCommand|Construction line #}}: A separate entry for each construction line in the sketch (idem).
-*** {{MenuCommand|Base X-axis}}: The X-axis of the Body.
-*** {{MenuCommand|Base Y-axis}}: The Y-axis of the Body.
-*** {{MenuCommand|Base Z-axis}}: The Z-axis of the Body.
-*** {{MenuCommand|Select reference…}}: Select a [[PartDesign_Line|Datum Line]] in the [[Tree_View|Tree View]] or a [[PartDesign_Line|Datum Line]] or edge in the [[3D_View|3D View]].
-** {{Version|1.0}}: Specify the length {{MenuCommand|Mode}}:
-*** {{MenuCommand|Extent}}: Enter the {{MenuCommand|Length}} from a given point on the first occurrence to the same point on the last occurrence.
-*** {{Version|1.0}}: {{MenuCommand|Spacing}}: Enter the {{MenuCommand|Spacing}} from a given point on the first occurrence to the same point on the next occurrence. For n occurrences: Extent=(n-1)*Spacing.
-** Specify the number of {{MenuCommand|Occurrences}} (including the original feature).
-* {{MenuCommand|Direction 2}}: Idem. {{Version|1.1}}
-* If the {{MenuCommand|Recompute on change}} checkbox is checked the view will update in real time.
+* Vyberte režim:
+** {{MenuCommand|Transformovat těleso}}: Transformuje tvar celého základního prvku (výchozí nastavení). {{Version|1.0}}
+** {{MenuCommand|Transformovat tvary nástrojů}}: Transformuje jednotlivé tvary nástrojů u vybraných prvků.
+*** Přidání prvků:
+***# Klikněte na tlačítko {{Button|Přidat prvek}}.
+***# Vyberte prvek ve [[Tree_View/cs|stromovém zobrazení]] nebo ve [[3D_View/cs|3D pohledu]].
+***# Tento postup opakujte, chcete-li přidat další prvky.
+*** Odstranění prvků:
+***# Klikněte na tlačítko {{Button|Odebrat prvek}}.
+***# Proveďte jednu z následujících akcí:
+***#* Vyberte prvek ve [[Tree_View/cs|stromovém zobrazení]] nebo ve [[3D_View/cs|3D pohledu]].
+***#* Vyberte položku v seznamu a stiskněte klávesu {{KEY|Del}}.
+***#* Klikněte pravým tlačítkem myši na položku v seznamu a z kontextového menu vyberte {{MenuCommand|Odebrat}}.
+***# Tento postup opakujte, abyste odstranili další prvky.
+*** Pokud vzor obsahuje více prvků, může být jejich pořadí důležité. Viz [[PartDesign_PolarPattern/cs#Ordering_features|PartDesign Kruhový vzor]].
+* {{MenuCommand|Směr}}:
+** Stiskněte tlačítko {{Button|[[Image:Button_sort.svg|16px]]}}, abyste obrátili směr vzoru.
+** Zadejte referenční směr:
+*** {{MenuCommand|Normální osa náčrtu}}: Osa Z náčrtu (k dispozici pouze u prvků založených na náčrtu).
+*** {{MenuCommand|Vertikální osa náčrtu}}: Osa Y náčrtu (totožná).
+*** {{MenuCommand|Vodorovná osa náčrtu}}: Osa X náčrtu (totožná).
+*** {{MenuCommand|Konstrukční linie č.}}: Samostatný záznam pro každou knstrukční linii ve skice (tamtéž).
+*** {{MenuCommand|Základní osa X}}: Osa X tělesa.
+*** {{MenuCommand|Základní osa Y}}: Osa Y tělesa.
+*** {{MenuCommand|Základní osa Z}}: Osa Z tělesa.
+*** {{MenuCommand|Vybrat referenci…}}: Vyberte [[PartDesign_Line/cs|referenční přímku]] ve [[Tree_View/cs|stromovém zobrazení]] nebo [[PartDesign_Line/cs|referenční přímku]] či hranu ve [[3D_View/cs|3D pohledu]].
+** {{Version|1.0}}: Zvolte {{MenuCommand|Způsob}} zadání délek:
+*** {{MenuCommand|Rozsah}}: Zadejte {{MenuCommand|Délku}} od daného bodu v prvním výskytu do stejného bodu v posledním výskytu.
+*** {{Version|1.0}}: {{MenuCommand|Mezery}}: Zadejte hodnotu {{MenuCommand|Mezery}} jako vzdálenost od daného bodu prvního výskytu k stejnému bodu následujícího výskytu. Pro n výskytů platí: Rozsah = (n-1) * Mezera.
+** Zadejte počet {{MenuCommand|výskytů}} (včetně původního prvku).
+* {{MenuCommand|Směr 2}}: Stejné. {{Version|1.1}}
+* Pokud je zaškrtnuto políčko {{MenuCommand|Přepočítat při změně}}, zobrazení se bude v reálném čase aktualizovat.
 
 ==Limitations==
 
