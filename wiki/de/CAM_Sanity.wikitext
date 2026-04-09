@@ -41,9 +41,7 @@ Selbst wenn der G-Code an sich korrekt ist, können Abweichungen zwischen der pr
 <span id="About_the_Report"></span>
 == Über den Bericht ==
 
-<div class="mw-translate-fuzzy">
-Der Inhalt ist so weit wie möglich FreeCAD-unabhängig. Der CNC-Bediener verwendet möglicherweise niemals FreeCAD, sodass FreeCAD/CAM-spezifische Terminologie verwirrend sein kann. Der Bericht ist in verschiedene Abschnitte unterteilt und so formatiert, dass das Auffinden von Informationen einfach und vorhersehbar ist.
-</div>
+Der Inhalt ist so weit wie möglich FreeCAD-unabhängig. Da der Maschinenbediener FreeCAD möglicherweise gar nicht verwendet, sollte FreeCAD- und CAM-spezifische Terminologie auf ein Minimum beschränkt werden. Der Bericht ist in einzelne Abschnitte unterteilt, damit die Einrichtungsinformationen leichter zu überprüfen sind.
 
 <span id="Part_Information"></span>
 === Information zum Teil ===
