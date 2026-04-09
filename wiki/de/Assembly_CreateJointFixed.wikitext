@@ -27,14 +27,13 @@ Das Werkzeug [[Image:Assembly_CreateJointFixed.svg|24px]] [[Assembly_CreateJoint
 <span id="Usage"></span>
 ==Anwendung==
 
-<div class="mw-translate-fuzzy">
 # Wahlweise zwei geometrsche Elemente zweier verschiedener Bauteile auswählen. Andere Auswahlen werden nicht verarbeitet.
 # Es gibt mehrere Möglichkeiten, dieses Werkzeug aufzurufen:
 #* Die Schaltfläche {{Button|[[Image:Assembly_CreateJointFixed.svg|16px]] [[Assembly_CreateJointFixed/de|Starre Verbindung]]}} drücken.
 #* Den Menüeintrag {{MenuCommand|Assembly → [[Image:Assembly_CreateJointFixed.svg|16px]] Starre Verbindung}} auswählen.
 #* Das Tastaturkürzel {{KEY|F}}.
-# Vorausgewählte Bauteile werden so bewegt, dass sie sich an ihren ausgewählten Elementen treffen.
-# Der Dialog '''Verbindung''' wird im [[Task_panel/de|Aufgaben-Fenster]] geöffnet und listet die vorausgewählten Elemente.
+# Wurden gültige Elemente vorausgewählt, werden die Bauteile so bewegt, dass sich die ausgewählten Referenzen treffen.
+# Der Dialog '''Verbindung''' wird im [[Task_panel/de|Aufgaben-Fenster]] geöffnet und listet die ausgewählten Elemente.
 # Wahlweise die Art der Verbindung in der Ausklappliste ändern:
 #* '''Starr''' auswählen.
 #*# Wenn die Auswahlliste leer ist: Zwei geometrische Elemente auswählen.
@@ -77,31 +76,29 @@ Das Werkzeug [[Image:Assembly_CreateJointFixed.svg|24px]] [[Assembly_CreateJoint
 #*# Wenn die Auswahlliste leer ist: Zwei geometrische Elemente auswählen.
 #*# Wahlweise einen Wert für ''Winkel'' eingeben.
 #* '''Zahnstange-Ritzel''' auswählen.
-#*# Wenn die Auswahlliste leer ist: Zwei geometrische Elemente zweier unterschiedlicher Bauteile auswählen, die zuvor verwendet wurden, um eine Gleitverbindung und eine Drehverbindung festzulegen. (Gleitrichtung und Drehachse müssen rechtwinklig zueinander verlaufen)
+#*# Wenn die Auswahlliste leer ist: Zwei geometrische Elemente zweier unterschiedlicher Bauteile auswählen, die zuvor verwendet wurden, um eine Gleitverbindung und eine Drehverbindung festzulegen. Die Gleitrichtung und die Drehachse müssen rechtwinklig zueinander verlaufen.
 #*# Wahlweise einen Wert für ''Steigungsradius'' eingeben.
 #* '''Spindel''' auswählen.
-#*# Wenn die Auswahlliste leer ist: Zwei geometrische Elemente zweier unterschiedlicher Bauteile auswählen, die zuvor verwendet wurden, um eine Gleitverbindung und eine Drehverbindung festzulegen. (Gleitrichtung und Drehachse müssen parallel zueinander verlaufen)
+#*# Wenn die Auswahlliste leer ist: Zwei geometrische Elemente zweier unterschiedlicher Bauteile auswählen, die zuvor verwendet wurden, um eine Gleitverbindung und eine Drehverbindung festzulegen. Die Gleitrichtung und die Drehachse müssen parallel zueinander verlaufen.
 #*# Wahlweise einen Wert für ''Steigungsradius'' eingeben.
 #* '''Zahnräder''' auswählen.
 #*# Wenn die Auswahlliste leer ist: Zwei geometrische Elemente zweier unterschiedlicher Bauteile auswählen, die zuvor verwendet wurden, um zwei unterschiedliche Drehverbindungen festzulegen.
 #*# Wahlweise einen Wert für ''Radius 1'' eingeben.
 #*# Wahlweise einen Wert für ''Radius 2'' eingeben.
-#*# Wahlweise die Option '''Drehrichtung umkehren''' aktivieren/deaktivieren. (Deaktivieren wählt die Option '''Riemen''' aus) - funktioniert bisher nicht für 1.0 RC
+#*# Wahlweise die Option '''Drehrichtung umkehren''' aktivieren bzw. deaktivieren. Deaktivieren wählt die Option '''Riemen''' aus.
 #* '''Riemen''' auswählen.
 #*# Wenn die Auswahlliste leer ist: Zwei geometrische Elemente  zweier unterschiedlicher Bauteile auswählen, die zuvor verwendet wurden, um zwei unterschiedliche Drehverbindungen festzulegen.
 #*# Wahlweise einen Wert für ''Radius 1'' eingeben.
 #*# Wahlweise einen Wert für ''Radius 2'' eingeben.
-#*# Wahlweise die Option '''Drehrichtung umkehren''' aktivieren/deaktivieren. (aktivieren wählt die Option '''Zahnräder''' aus) - funktioniert bisher nicht für 1.0 RC
-# Die Bauteile werden so bewegt, dass sie sich an ihren ausgewählten Elementen treffen.
+#*# Wahlweise die Option '''Drehrichtung umkehren''' aktivieren bzw. deaktivieren. Aktivieren wählt die Option '''Zahnräder''' aus.
 # Wahlweise '''Show advanced offsets''' aktivieren, um die Feineinstellung für die Verbindungsstellen relativ zu ihren zugehörigen Elementen vorzunehmen. check box to fine-tune the placement of each connector relative to its related entity.
 #* Zwei Schaltflächen, '''Versatz1''' und '''Versatz2''', die jeweils einen Befestigungsversatz anzeigen, werden zum Dialog hinzugefügt.
 #* Wahlweise die Schaltfläche '''Versatz1''' drücken, um den Dialog [[Placement/de|Positionierung]] zu öffnen.
-#*: Dieser ermöglicht den Befestigungsversatz der ersten Verbindungsstelle zu ihrem zugehörigen Element einzustellen.
+#*: Dieser ermöglicht den Befestigungsversatz der ersten Verbindungsstelle relativ zu ihrem zugehörigen Element einzustellen.
 #* Wahlweise die Schaltfläche '''Versatz2''' drücken, um den Dialog [[Placement/de|Positionierung]] zu öffnen.
-#*: Dieser ermöglicht den Befestigungsversatz der zweiten Verbindungsstelle zu ihrem zugehörigen Element einzustellen.
+#*: Dieser ermöglicht den Befestigungsversatz der zweiten Verbindungsstelle relativ zu ihrem zugehörigen Element einzustellen.
 #* Die Bauteile werden, jeweils abhängig von dem ausgewählten Element und dem Befestigungsversatz, auf neue, versetzte Positionen verschoben.
 # Die Schaltfläche {{Button|OK}} drücken um das Werkzeug zu beenden.
-</div>
 
 <span id="Notes"></span>
 ==Hinweise==
