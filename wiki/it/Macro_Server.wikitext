@@ -127,9 +127,7 @@ Questo imposta la cella B1 (nel documento e nel foglio di calcolo globali o atti
 
 ''r[<document>]'' - ricalcola documento
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''e[<nowiki><object>] [<file-path>]</nowiki>'' - export selected object
-</div>
+''e[<nowiki><object>] [<file-path>]</nowiki>'' - esporta oggetto selezionato
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Examples ====
