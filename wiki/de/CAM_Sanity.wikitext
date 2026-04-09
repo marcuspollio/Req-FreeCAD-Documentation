@@ -46,9 +46,7 @@ Der Inhalt ist so weit wie möglich FreeCAD-unabhängig. Da der Maschinenbediene
 <span id="Part_Information"></span>
 === Information zum Teil ===
 
-<div class="mw-translate-fuzzy">
-Dieser Abschnitt gibt einen Überblick über das, was hergestellt wird. Idealerweise sollte das Bild die Basisobjekte zeigen. Wenn es mehrere Basisobjekte gibt, sollte das Bild zeigen, wie diese ineinander verschachtelt sind.
-</div>
+Dieser Abschnitt gibt einen Überblick darüber, was erstellt wird. Idealerweise sollte das Bild das Basisobjekt oder die Basisobjekte zeigen, die vom Job verwendet werden. Wenn es mehrere Basisobjekte gibt, sollte das Bild zeigen, wie diese in der Job-Konfiguration zueinander in Beziehung stehen.
 
 <span id="Run_Summary"></span>
 === Lauf-Zusammenfassung ===
