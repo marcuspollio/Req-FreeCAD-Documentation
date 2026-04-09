@@ -25,9 +25,7 @@ De nombreux utilisateurs de machines à commande numérique (CNC) sont des amate
 
 Les amateurs exécutent généralement le G-code peu après l'avoir post-traité, et probablement seulement une ou deux fois. Dans un atelier professionnel, un G-code qui a fait ses preuves peut être exécuté à de nombreuses reprises sur une longue période.
 
-<div class="mw-translate-fuzzy">
-Un problème qui se pose dans un atelier CNC professionnel est qu'il existe de nombreuses hypothèses faites par le programmeur qui ne sont PAS communiquées dans le G-code lui-même. Par exemple, le G-code peut appeler un outil « T3 » mais à moins qu'il ne soit commenté, le G-code ne dit pas à quel type d'outil « T3 » se réfère. On suppose simplement que T3 dans le système CAM est le même que T3 sur la machine. Il existe de nombreuses hypothèses comme celle-ci concernant la configuration de la machine, l'outillage, le matériau, l'orientation des pièces, etc. Même si le G-code est parfait, si l'opérateur ne configure pas la machine avec les mêmes hypothèses, il peut planter.
-</div>
+L'un des problèmes de ce processus réside dans le fait que de nombreuses hypothèses formulées par le programmeur ne sont pas explicitement indiquées dans le G-code. Par exemple, le G-code peut spécifier l'utilisation d'un outil {{incode|T3}}, mais le fichier n'explique pas nécessairement de quel outil il s'agit, comment la pièce brute est orientée, ni quelle configuration est prévue. Des hypothèses similaires peuvent s'appliquer à la configuration de la machine, à l'outillage, au matériau, à l'orientation de la pièce, au liquide de refroidissement et au serrage de la pièce.
 
 <div class="mw-translate-fuzzy">
 Les entreprises commerciales créent souvent un « manuel d'installation » qui documente toutes ces hypothèses et donne aux opérateurs ce dont ils ont besoin pour configurer la machine et produire une pièce.
