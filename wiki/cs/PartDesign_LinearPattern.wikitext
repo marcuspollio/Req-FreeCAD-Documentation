@@ -17,28 +17,7 @@
 }}
 
 <span id="Description"></span>
-<div class="mw-translate-fuzzy">
-==Úvod==
-'Vytvořte lineární vzorek nějakého prvku' - Tento nástroj vezme sadu jednoho nebo více vybraných prvků jako vstup ('originály') a vytvoří z nich druhou sadu prvků přenesených v daném směru. Například:
-[[Image:linearpattern_example.png|600px|left]]
-{{clear}}
- 
-==Volby==
-{|
-| [[Image:linearpattern_parameters.png|left]]
-|
-Při vytváření lineárního vzorku prvku nabízí dialogové okno 'parametry lineárního vzorku' dva různé způsoby specifikování směru vzorku.
-===Standardní osy===
-Jedna ze standardních os '''X''', '''Y''' nebo '''Z''' múže být vybrána radio tlačítkem. Směr vzorku může být obrácen zakliknutím 'Opačný směr'.
-===Vyběr plochy===
-Stisk tlačítka označeného 'Směr' umožňuje vybrat plochu nebo hranu z existujícího tělesa k určení směru. Je-li vybrána plocha, bude směr vzorku kolmý k této ploše. Připomínám, že tlačítko musí být stisknuto pokaždé při výběru nové plochy nebo hrany.
-===Výběr originálů===
-Okénko seznamu ukazuje 'originály', prvky, které jsou vybrány ke vzorkování. Kliknutí na libovolný prvek jej přidá do seznamu.
-===Délka a Výskyty ===
-Určuje délku, která má být pokryta vzorkem a celkový počet výskytů vzorků (včetně originálního prvku). Například šest výskytů v délce 150 dá šířku mezer mezi vzorky na 30 (150 děleno 5, protože mezer je 5 mezi celkovým počtem výskytů 6!).
-|}
-{{clear}}
-</div>
+==Popis==
 
 The [[Image:PartDesign_LinearPattern.svg|24px]] '''PartDesign LinearPattern''' tool creates a linear pattern of one or more features.
 
