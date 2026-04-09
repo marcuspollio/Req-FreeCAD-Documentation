@@ -142,18 +142,14 @@ Obiekt '''Fixed''' wywodzi się z obiektu [[App_FeaturePython/pl|App: Właściwo
 
 {{TitleProperty|Limits}}
 
-<div class="mw-translate-fuzzy">
-* {{PropertyData|Angle Max|Float}}: Maksymalny limit dla kąta pomiędzy układami współrzędnych (ich osiami X).
-* {{PropertyData|Angle Min|Float}}: Minimalny limit dla kąta pomiędzy układami współrzędnych (ich osiami X).
-* {{PropertyData|Enable Angle Max|Bool}}: Włącz ograniczenie maksymalnego kąta tego połączenia.
-* {{PropertyData|Enable Angle Min|Bool}}: Włącz ograniczenie minimalnego kąta tego połączenia.
-* {{PropertyData|Enable Length Max|Bool}}: Włącz ograniczenie maksymalnej długości tego połączenia.
-* {{PropertyData|Enable Length Min|Bool}}: Włącz ograniczenie minimalnej długości tego połączenia.
-* {{PropertyData|Length Max|Float}}: Maksymalny limit odległości między oboma układami współrzędnych ''(wzdłuż ich osi Z)''.
-* {{PropertyData|Length Min|Float}}: Minimalny limit odległości między oboma układami współrzędnych ''(wzdłuż ich osi Z)''.
-Usunięta właściwość:
-* {{PropertyData|Enable Limits|Bool}}: Czy to połączenie korzysta z ograniczeń?
-</div>
+* {{PropertyData|Angle Max|Float}}: Maksymalny dozwolony kąt między układami współrzędnych obu łączników.
+* {{PropertyData|Angle Min|Float}}: Minimalny dozwolony kąt między układami współrzędnych obu łączników.
+* {{PropertyData|Enable Angle Max|Bool}}: Włącza ograniczenie maksymalnego kąta tego połączenia.
+* {{PropertyData|Enable Angle Min|Bool}}: Włącza ograniczenie minimalnego kąta tego połączenia.
+* {{PropertyData|Enable Length Max|Bool}}: Włącza ograniczenie maksymalnej długości tego połączenia.
+* {{PropertyData|Enable Length Min|Bool}}: Włącza ograniczenie minimalnej długości tego połączenia.
+* {{PropertyData|Length Max|Float}}: Maksymalna dozwolona odległość między układami współrzędnych obu łączników wzdłuż ich osi Z.
+* {{PropertyData|Length Min|Float}}: Minimalna dozwolona odległość między układami współrzędnych obu łączników wzdłuż ich osi Z.
 
 
 {{Docnav/pl
