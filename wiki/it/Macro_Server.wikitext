@@ -119,9 +119,7 @@ Questo imposta la cella B1 (nel documento e nel foglio di calcolo globali o atti
 
 ''o[<document>] <object-name>'' - seleziona oggetto
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''p <file-path>'' - select/set path
-</div>
+''p <file-path>'' - seleziona/imposta il percorso
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''@<cell-id> [<spreadsheet>]'' - get cell value in form : c<cell-id> <value>
