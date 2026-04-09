@@ -51,7 +51,8 @@ Um den Z88-Löser zu verwenden, muss die OpenSource-Version von Z88 (Z88OS) inst
 # Die Taste {{Button|Ausführen}} drücken.
 </div>
 
-== Properties ==
+<span id="Properties"></span>
+== Eigenschaften ==
 
 * {{PropertyData|Exclude Bending Stiffness}} - replaces beams with trusses, currently always checked because beams are not yet supported
 * {{PropertyData|Model Space}}:
