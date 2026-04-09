@@ -97,9 +97,9 @@ Ta sekcja wymienia ostrzeżenia i błędy wykryte przez [[CAM_Sanity/pl|Bezpiecz
 <span id="Notes"></span>
 ==Uwagi==
 
-<div class="mw-translate-fuzzy">
-* AsciiDoc to lekki format znaczników do tworzenia notatek, artykułów, książek itp. Jest czytelny dla człowieka i łatwy do przetłumaczenia na inne formaty.
-</div>
+* Raport jest generowany bezpośrednio w formacie HTML przez FreeCAD. Nie jest wymagana osobna instalacja AsciiDoc ani Asciidoctor.
+* Wygenerowany plik HTML jest przeznaczony do łatwego przeglądania, archiwizowania lub udostępniania wraz z plikiem wyjściowym Zadania.
+* Obrazy w raporcie mogą być osadzone bezpośrednio w wygenerowanym pliku HTML.
 
 <div class="mw-translate-fuzzy">
 * Asciidoctor to szybki procesor tekstu o otwartym kodzie źródłowym do konwersji AsciiDoc na HTML, PDF lub inne formaty. Jest dostępny dla systemów Linux, Windows i macOS. Asciidoctor nie jest instalowany z programem FreeCAD. Jeśli użyjesz '''CAM Bezpieczeństwo''' bez zainstalowania Asciidoctor, plik źródłowy AsciiDoc zostanie wygenerowany, ale wynikowy HTML nie zostanie wygenerowany. Zobacz informacje na stronie [https://asciidoctor.org/ domowej tego narzędzia].
