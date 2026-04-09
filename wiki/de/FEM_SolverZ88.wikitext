@@ -96,7 +96,8 @@ Linear triangles and quadrangles are not supported at all. Beam elements are not
 * For plate elements, the degrees of freedom are in order: Z displacement and rotations <math>\theta_{x}</math> and <math>\theta_{y}</math> (in deg).
 * A '''test''' analysis mode is available. It provides information about the solver parameters. This information is loaded into the text document object.
 
-== Limitations ==
+<span id="Limitations"></span>
+== Einschränkungen ==
 
 * Currently, only displacements (in mm), nodal forces, and nodal moments are provided as contour map results. Stress values are loaded into the text document object.
 * The 3D truss elements require some additional considerations. In case of errors and missing results when using them, the following steps should be taken:
