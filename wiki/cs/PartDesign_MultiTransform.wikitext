@@ -19,7 +19,7 @@
 <span id="Description"></span>
 ==Popis==
 
-The [[Image:PartDesign_MultiTransform.svg|24px]] '''PartDesign MultiTransform''' tool creates a pattern of one or more features. The pattern can include multiple transformations where each subsequent transformation is applied to the result of the previous transformation.
+Nástroj [[Image:PartDesign_MultiTransform.svg|24px]] '''PartDesign MultiTransform''' vytváří vzor složený z jednoho nebo více prvků. Vzor může obsahovat více transformací, přičemž každá následující transformace se aplikuje na výsledek předchozí transformace.
 
 The available transformations are: [[Image:PartDesign_Mirrored.svg|16px|link=PartDesign_Mirrored]] [[PartDesign_Mirrored|Mirror]], [[Image:PartDesign_LinearPattern.svg|16px|link=PartDesign_LinearPattern]] [[PartDesign_LinearPattern|Linear Pattern]], [[Image:PartDesign_PolarPattern.svg|16px|link=PartDesign_PolarPattern]] [[PartDesign_PolarPattern|Polar Pattern]] and [[Image:PartDesign_Scaled.svg|16px|link=PartDesign_Scaled]] [[PartDesign_Scaled|Scale]]. The first three are also available as separate tools.
 
