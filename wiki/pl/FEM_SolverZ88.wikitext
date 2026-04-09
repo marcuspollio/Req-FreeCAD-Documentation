@@ -91,34 +91,21 @@ Następujące typy elementów skończonych są wspierane przez implementację so
 Liniowe trójkąty i czworokąty nie są w ogóle wspierane. Elementy belkowe nie są jeszcze wspierane.
 
 <span id="Notes"></span>
-<div class="mw-translate-fuzzy">
 == Uwagi ==
+
 * Z88Adria ma takie same możliwości i ograniczenia jak Z88OS, ale nie uruchamia swojego GUI podczas uruchamiania solvera z poziomu FreeCAD, więc Z88Adria jest obecnie preferowanym wyborem.
 * Ciśnienie zadawane na krawędzie modeli osiowosymetrycznych musi być podane jak w odpowiadającym modelu 3D, czyli jako siła na jednostkę powierzchni. Solver konwertuje to na równoważną siłę na jednostkę długości mnożąc ciśnienie przez <math>2 \pi R</math> (gdzie R to współrzędna y środkowego węzła elementu).
 * Dla elementów płytowych, stopnie swobody to kolejno: przemieszczenia Z i obroty <math>\theta_{x}</math> oraz <math>\theta_{y}</math> (w stopniach).
 * Dostępny jest tryb analizy '''test'''. Zapewnia on informacje o parametrach solvera. Te informacje są ładowane do obiektu dokumentu tekstowego.
-</div>
-
-* Z88Adria has the same capabilities/limitations as Z88OS, but doesn't launch its GUI when running the solver from FreeCAD, so Z88Adria is currently the preferred choice.
-* Pressure applied to edges of axisymmetric models must be given as in a corresponding 3D model, i.e. in units of force per unit area; the solver converts it to an equivalent force per unit length by multiplying the pressure by <math>2 \pi R</math> (where R is the x-coordinate of the element's middle node).
-* For plate elements, the degrees of freedom are in order: Z displacement and rotations <math>\theta_{x}</math> and <math>\theta_{y}</math> (in deg).
-* A '''test''' analysis mode is available. It provides information about the solver parameters. This information is loaded into the text document object.
 
 <span id="Limitations"></span>
-<div class="mw-translate-fuzzy">
 == Ograniczenia ==
+
 * Obecnie tylko przemieszczenia (w mm), siły i momenty węzłowe są dostępne jako wyniki w postaci map konturowych. Wartości naprężeń są ładowane do obiektu dokumentu tekstowego.
 * Elementy kratownicowe 3D wymagają pewnych dodatkowych ustawień. W przypadku błędów i brakujących wyników podczas używania tych elementów, należy podjąć następujące kroki:
 ** upewnić się, że człon konstrukcyjny ma nałożoną siatkę z tylko jednym takim elementem (dostosuj minimalny i maksymalny rozmiar elementu, aby to wymusić),
 ** nałóż warunek brzegowy przemieszczenia na cały człon konstrukcyjny, blokując przemieszczenia w kierunkach poprzecznych,
 ** użyj solvera Cholesky.
-</div>
-
-* Currently, only displacements (in mm), nodal forces, and nodal moments are provided as contour map results. Stress values are loaded into the text document object.
-* The 3D truss elements require some additional considerations. In case of errors and missing results when using them, the following steps should be taken:
-** make sure the structural member is meshed with only one such element (adjust the min and max element size to enforce that),
-** apply displacement boundary condition to the whole member, constraining the lateral displacements,
-** use the Cholesky solver.
 
 <span id="Preferences"></span>
 == Preferencje ==
