@@ -28,9 +28,7 @@ Hobbyści zwykle uruchamiają G-kod krótko po jego przetworzeniu i prawdopodobn
 
 Jednym z problemów w tym podejściu jest to, że wiele założeń przyjętych przez programistę nie jest przekazywanych przez sam G-kod. Na przykład G-kod może wywoływać narzędzie {{incode|T3}}, ale plik niekoniecznie wyjaśnia, jakie to narzędzie, jak zorientowany jest półfabrykat ani jaka konfiguracja jest oczekiwana. Podobne założenia mogą dotyczyć konfiguracji maszyny, oprzyrządowania, materiału, orientacji części, chłodziwa oraz sposobu mocowania detalu.
 
-<div class="mw-translate-fuzzy">
-Komercyjne warsztaty często tworzą "książkę ustawień", która dokumentuje wszystkie te założenia i daje operatorom wszystko, czego potrzebują do skonfigurowania maszyny i wyprodukowania części.
-</div>
+Nawet jeśli sam G-kod jest poprawny, różnice między zaprogramowaną konfiguracją a rzeczywistą konfiguracją maszyny nadal mogą prowadzić do błędów. Warsztaty komercyjne często rozwiązują ten problem, przygotowując dla operatora maszyny raport z konfiguracji lub kartę konfiguracji.
 
 <div class="mw-translate-fuzzy">
 [[Image:CAM_Sanity.svg|24px]] [[CAM_Sanity/pl|Bezpieczeństwo]] jest narzędziem w środowisku pracy CAM do generowania tego rodzaju informacji. Wynikiem tego polecenia jest samodzielny plik {{Value|.html}} z osadzonymi obrazami.
