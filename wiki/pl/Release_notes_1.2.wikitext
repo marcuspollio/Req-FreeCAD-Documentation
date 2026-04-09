@@ -161,12 +161,23 @@ ToDo (last check: 20260318):
 <span id="Further_Draft_improvements"></span>
 ===Pozostałe ulepszenia środowiska Rysunek Roboczy===
 
+<span id="FEM_Workbench"></span>
+<div class="mw-translate-fuzzy">
 ==Środowisko pracy MES==
 {| cellpadding=5
 | [[File:FEM_advanced_gmsh_relnotes_1.2.png|384px]]
 | Dodano kilka nowych narzędzi rozszerzających możliwości meshera [[Image:FEM_MeshGmshFromShape.svg|24px]] [[FEM_MeshGmshFromShape/pl|Gmsh]] o zaawansowane zagęszczenia oraz algorytmy transfinite. Dzięki tym drugim, możliwe jest teraz automatyczne tworzenie siatek typu hexa dla wszystkich kształtów, których podobjętości mają 5 lub 6 ścian z 3 lub 4 krawędziami każda.
 [https://github.com/FreeCAD/FreeCAD/pull/24792 Pull request #24792]
 |}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:FEM_advanced_gmsh_relnotes_1.2.png|384px]]
+| Several new tools extending the capabilities of the [[Image:FEM_MeshGmshFromShape.svg|24px]] [[FEM_MeshGmshFromShape|Gmsh]] mesher with advanced refinements and transfinite algorithms were added. Thanks to the latter, hexahedral meshes can now be automatically created for all shapes whose subvolumes have 5 or 6 faces with 3 or 4 edges each.
+[https://github.com/FreeCAD/FreeCAD/pull/24792 Pull request #24792]
+|}
+</div>
 
 <span id="Further_FEM_improvements"></span>
 ===Pozostałe ulepszenia środowiska MES===
