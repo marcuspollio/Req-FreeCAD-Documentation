@@ -120,15 +120,11 @@ Obiekt '''Fixed''' wywodzi się z obiektu [[App_FeaturePython/pl|App: Właściwo
 
 {{TitleProperty|Joint}}
 
-<div class="mw-translate-fuzzy">
 * {{PropertyData|Activated|Bool}}: Wskazuje czy połączenie jest aktywne.
-* {{PropertyData|Distance|Float}}: Przechowuje '''Odległość''' połączenia typu Odległość. Jest też używana przez połączenia Przekładnia zębate i Śruba do przechowywania '''Promienia skoku''' i przez połączenia Koła zębate oraz Pas do przechowywania '''Promienia 1'''.
-* {{PropertyData|Distance2|Float}}: Druga odległość połączenia. Używana tylko przez połączenia Koła zębate i Pas do przechowywania '''Promienia 2'''.
-* {{PropertyData|Joint Type|Ennumeration}}: Typ połączenia. ({{Value|Fixed}}, {{Value|Revolute}}, {{Value|Cylindrical}}, {{Value|Slider}}, {{Value|Ball}}, {{Value|Distance}}, {{Value|Parallel}}, {{Value|Perpendicular}}, {{Value|Angle}}, {{Value|RackPinion}}, {{Value|Screw}}, {{Value|Gears}}, {{Value|Belt}})
-Usunięte właściwości (v.1.0.0-RC-38728) To były właściwości, których można było użyć do tworzenia animacji:
-* {{PropertyData|Offset|Vector}}: Wektor odsunięcia połączenia.
-* {{PropertyData|Rotation|Float}}: Obrót połączenia.
-</div>
+* {{PropertyData|Distance|Float}}: Przechowuje wartość właściwości '''Odległość''' połączenia typu Odległość. Jest też używana przez połączenia Przekładnia zębate i Śruba do przechowywania '''Promienia skoku''' i przez połączenia Koła zębate oraz Pas do przechowywania '''Promienia 1'''.
+* {{PropertyData|Distance2|Float}}: Przechowuje drugą wartość odległości połączenia. Używana tylko przez połączenia Koła zębate i Pas do przechowywania '''Promienia 2'''.
+* {{PropertyData|Angle|Float}}: Przechowuje wartość kąta Połączenia kątowego.
+* {{PropertyData|Joint Type|Enumeration}}: Typ połączenia. ({{Value|Fixed}}, {{Value|Revolute}}, {{Value|Cylindrical}}, {{Value|Slider}}, {{Value|Ball}}, {{Value|Distance}}, {{Value|Parallel}}, {{Value|Perpendicular}}, {{Value|Angle}}, {{Value|RackPinion}}, {{Value|Screw}}, {{Value|Gears}}, {{Value|Belt}})
 
 {{TitleProperty|Joint Connector 1}}
 
