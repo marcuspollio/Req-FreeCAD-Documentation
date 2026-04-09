@@ -101,9 +101,9 @@ Ta sekcja wymienia ostrzeżenia i błędy wykryte przez [[CAM_Sanity/pl|Bezpiecz
 * Wygenerowany plik HTML jest przeznaczony do łatwego przeglądania, archiwizowania lub udostępniania wraz z plikiem wyjściowym Zadania.
 * Obrazy w raporcie mogą być osadzone bezpośrednio w wygenerowanym pliku HTML.
 
-<div class="mw-translate-fuzzy">
-* Asciidoctor to szybki procesor tekstu o otwartym kodzie źródłowym do konwersji AsciiDoc na HTML, PDF lub inne formaty. Jest dostępny dla systemów Linux, Windows i macOS. Asciidoctor nie jest instalowany z programem FreeCAD. Jeśli użyjesz '''CAM Bezpieczeństwo''' bez zainstalowania Asciidoctor, plik źródłowy AsciiDoc zostanie wygenerowany, ale wynikowy HTML nie zostanie wygenerowany. Zobacz informacje na stronie [https://asciidoctor.org/ domowej tego narzędzia].
-</div>
+* Tam, gdzie to możliwe, wartości w raporcie są formatowane do wyświetlania z użyciem aktualnego formatowania jednostek.
+* Średnica narzędzia i wartości posuwu są formatowane do wyświetlania, a prędkość wrzeciona jest pokazywana z przyrostkiem {{incode|rpm}}.
+* Raport służy jako pomoc przy przeglądzie. Nie zastępuje wizualnej kontroli ścieżki narzędzia, symulacji ani dokumentacji konfiguracji specyficznej dla maszyny.
 
 {{Docnav/pl
 |[[CAM_Post/pl|Przetwarzanie końcowe]]
