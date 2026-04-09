@@ -79,9 +79,7 @@ Dieser Abschnitt zeigt das Teil im Kontext der Rohteilhülle und verdeutlicht di
 <span id="Squawks"></span>
 === Krächzen ===
 
-<div class="mw-translate-fuzzy">
-Von [[CAM_Sanity/de|CAM Plausibilitätsprüfung]] erkannte Warnungen und Fehler. Diese müssen nicht unbedingt Probleme darstellen, sollten jedoch zur weiteren Überprüfung notiert werden. Wenn beispielsweise dieselbe Werkzeugnummer für verschiedene Werkzeugbits verwendet wird, wird dies als Fehler angezeigt. Wenn für einen Werkzeugsteuerung kein Vorschub/keine Geschwindigkeit konfiguriert ist, wird dies als Warnung angezeigt. Außerdem werden ungenutzte Werkzeugsteuerung erkannt und es wird eine Warnung ausgegeben. CAM würde hier von der Möglichkeit profitieren, beliebige Hinweise oder Warnungen hinzuzufügen.
-</div>
+In diesem Abschnitt werden Warnungen und Fehler aufgeführt, die von [[CAM_Sanity/de|CAM Plausibilitätsprüfung]] erkannt wurden. Diese Punkte stellen nicht unbedingt tatsächliche Probleme dar, sollten jedoch vor der Nachbearbeitung oder der Ausführung des Auftrags überprüft werden. Beispiele hierfür sind doppelte Werkzeugnummern, inkonsistente Werkzeuginformationen, fehlende Vorschub- oder Spindeleinstellungen sowie ungenutzte Werkzeugsteuerungen.
 
 <span id="Usage"></span>
 ==Anwendung==
