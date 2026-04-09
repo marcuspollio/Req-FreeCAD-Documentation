@@ -53,7 +53,7 @@ K dispozici jsou následující transformace: [[Image:PartDesign_Mirrored.svg|16
 <span id="Combine_existing_transformations"></span>
 === Kombinace stávajících transformací ===
 
-It is possible to create a MultiTransform object from existing [[PartDesign_Mirrored|Mirror]],  [[PartDesign_LinearPattern|LinearPattern]] and [[PartDesign_PolarPattern|Polar Pattern]] transformations.
+Objekt MultiTransformace lze vytvořit z existujících transformací [[PartDesign_Mirrored/cs|Zrcadlení]], [[PartDesign_LinearPattern/cs|Lineární vzor]] a [[PartDesign_PolarPattern/cs|Kruhový vzor]].
 
 # Check the {{PropertyData|Originals}} property of the existing transformations to make sure they have been applied to the same features.
 # Select those features in the [[Tree_View|Tree View]].
