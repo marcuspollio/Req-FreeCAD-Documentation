@@ -139,7 +139,7 @@ A '''Fixed''' object is derived from an [[App_FeaturePython|App FeaturePython]] 
 
 <!--T:17-->
 * {{PropertyData|Detach1|Bool}}: Prevents {{PropertyData|Placement1}} from recomputing, enabling custom positioning of the placement.
-* {{PropertyData|Offset1|Placement}}: The attachment offset of the first connector of the joint. (added with v1.0.0-RC-38728)
+* {{PropertyData|Offset1|Placement}}: The attachment offset of the first connector of the joint.
 * {{PropertyData|Placement1|Placement}}: The local coordinate system within the object of {{PropertyData|Reference1}} that is used by the joint.
 * {{PropertyData|Reference1|XLinkSubHidden}}: The first reference of the joint.
 
@@ -148,7 +148,7 @@ A '''Fixed''' object is derived from an [[App_FeaturePython|App FeaturePython]] 
 
 <!--T:19-->
 * {{PropertyData|Detach2|Bool}}: Prevents {{PropertyData|Placement2}} from recomputing, enabling custom positioning of the placement.
-* {{PropertyData|Offset2|Placement}}: The attachment offset of the second connector of the joint. (added with v1.0.0-RC-38728)
+* {{PropertyData|Offset2|Placement}}: The attachment offset of the second connector of the joint.
 * {{PropertyData|Placement2|Placement}}: The local coordinate system within the object of {{PropertyData|Reference2}} that is used by the joint.
 * {{PropertyData|Reference2|XLinkSubHidden}}: The second reference of the joint.
 
