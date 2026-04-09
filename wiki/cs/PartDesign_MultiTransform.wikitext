@@ -21,7 +21,7 @@
 
 Nástroj [[Image:PartDesign_MultiTransform.svg|24px]] '''PartDesign MultiTransform''' vytváří vzor složený z jednoho nebo více prvků. Vzor může obsahovat více transformací, přičemž každá následující transformace se aplikuje na výsledek předchozí transformace.
 
-The available transformations are: [[Image:PartDesign_Mirrored.svg|16px|link=PartDesign_Mirrored]] [[PartDesign_Mirrored|Mirror]], [[Image:PartDesign_LinearPattern.svg|16px|link=PartDesign_LinearPattern]] [[PartDesign_LinearPattern|Linear Pattern]], [[Image:PartDesign_PolarPattern.svg|16px|link=PartDesign_PolarPattern]] [[PartDesign_PolarPattern|Polar Pattern]] and [[Image:PartDesign_Scaled.svg|16px|link=PartDesign_Scaled]] [[PartDesign_Scaled|Scale]]. The first three are also available as separate tools.
+K dispozici jsou následující transformace: [[Image:PartDesign_Mirrored.svg|16px|link=PartDesign_Mirrored/cs]] [[PartDesign_Mirrored/cs|Zrcadlení]], [[Image:PartDesign_LinearPattern.svg|16px|link=PartDesign_LinearPattern/cs]] [[PartDesign_LinearPattern/cs|Lineární vzor]], [[Image:PartDesign_PolarPattern.svg|16px|link=PartDesign_PolarPattern/cs]] [[PartDesign_PolarPattern/cs|Kruhový vzor]] a [[Image:PartDesign_Scaled.svg|16px|link=PartDesign_Scaled/cs]] [[PartDesign_Scaled/cs|Měřítko]]. První tři jsou k dispozici také jako samostatné nástroje.
 
 [[Image:multitransform_example.png|600px]]
 {{Caption|A pattern of holes created from a single Hole feature by applying a Linear Pattern with 2 occurrences, followed by a Polar Pattern with 8 occurrences.}}
