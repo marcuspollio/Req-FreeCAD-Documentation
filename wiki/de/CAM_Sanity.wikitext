@@ -84,17 +84,15 @@ In diesem Abschnitt werden Warnungen und Fehler aufgeführt, die von [[CAM_Sanit
 <span id="Usage"></span>
 ==Anwendung==
 
-<div class="mw-translate-fuzzy">
 # Einen [[Image:CAM_Job.svg|16px]] [[CAM_Job/de|CAM Auftrag]] in der [[Tree_View/de|Baumansicht]] auswählen.
 # Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
 #* Die Schaltfläche {{Button|[[Image:CAM_Sanity.svg|16px]] [[CAM_Sanity/de|Plausibilitätsprüfung]]}} drücken.
 #* Die Option {{MenuCommand|CAM → [[Image:CAM_Sanity.svg|16px]] Plausibilitätsprüfung}} aus dem Menü wählen.
 #* Die Tastenkombination nutzen: {{KEY|P}} dann {{KEY|S}}.
-# Die relevanten Informationen werden in einem Python-Dictionary gesammelt und anschließend in das AsciiDoc-Format konvertiert.
-# Die AsciiDoc-Datei wird an denselben Speicherort wie die Datei geschrieben, die nachbearbeitet werden soll.
-# Ein externer Prozess ruft Asciidoctor auf, um die AsciiDoc-Datei zu lesen und die HTML-Datei zu generieren.
-# Dadurch wird der Webbrowser des Systems automatisch gestartet, um den generierten eigenständigen HTML-Bericht anzuzeigen.
-</div>
+# Falls erforderlich, vor der Ausführung des Befehls die Eigenschaft {{PropertyData/de|OutputFile}} des Jobs festlegen.
+# FreeCAD erstellt einen eigenständigen HTML-Bericht für den ausgewählten Job.
+# Der Bericht wird am selben Speicherort wie die konfigurierte Job-Ausgabedatei gespeichert.
+# Der erstellte Bericht wird im Standard-Webbrowser des Systems geöffnet.
 
 <span id="Notes"></span>
 ==Hinweise==
