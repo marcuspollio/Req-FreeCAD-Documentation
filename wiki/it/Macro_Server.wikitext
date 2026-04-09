@@ -162,9 +162,7 @@ Ottiene l'elenco degli oggetti dal documento attivo di FreeCAD
 O
 </syntaxhighlight>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Get list of cells from default spreadsheet in '''My_document_0'''
-</div>
+Ottiene l'elenco delle celle dal foglio di calcolo predefinito in '''My_document_0'''
 
 <syntaxhighlight lang="text">
 CMy_document_0
