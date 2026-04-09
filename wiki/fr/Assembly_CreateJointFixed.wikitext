@@ -134,17 +134,10 @@ Un objet '''Fixed''' est dérivé d'un [[App_FeaturePython/fr|App FeaturePython]
 
 {{TitleProperty|Joint Connector 2}}
 
-<div class="mw-translate-fuzzy">
-* {{PropertyData|Detach2|Bool}} : ceci empêche placement2 d'être recalculé, ce qui permet un positionnement personnalisé de l'emplacement.
-* {{PropertyData|Offset2|Placement}} : décalage d'attachement du deuxième connecteur de la liaison. (ajouté avec la v.1.0.0-RC-38728)
-* {{PropertyData|Placement2|Placement}} : système de coordonnées locales dans l'objet reference2 qui sera utilisé pour la liaison.
-* {{PropertyData|Reference2|XlinkSubHidden}} : deuxième référence de la liaison.
-Propriétés supprimées :
-* {{PropertyData|Element2|String}} : élément sélectionné du deuxième objet.
-* {{PropertyData|Object2|String}} : deuxième objet de la liaison.
-* {{PropertyData|Part2|Link}} : deuxième pièce de la liaison.
-* {{PropertyData|Vertex2|String}} : sommet sélectionné du deuxième objet.
-</div>
+* {{PropertyData|Detach2|Bool}} : empêche le recalcul de {{PropertyData|Placement2}}, ce qui permet de positionner le placement de manière personnalisée.
+* {{PropertyData|Offset2|Placement}} : décalage de l'ancrage du premier connecteur de la liaison.
+* {{PropertyData|Placement2|Placement}} : système de coordonnées local au sein de l'objet de {{PropertyData|Reference2}} utilisé par la liaison.
+* {{PropertyData|Reference1|XLinkSubHidden}} : première référence de la liaison.
 
 {{TitleProperty|Limits}}
 
