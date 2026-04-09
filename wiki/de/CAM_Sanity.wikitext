@@ -30,9 +30,7 @@ Hobbyisten führen den G-Code in der Regel kurz nach der Nachbearbeitung aus, wa
 Ein Problem, das in einer professionellen CNC-Werkstatt auftritt, ist, dass der Programmierer viele Annahmen trifft, die NICHT im G-Code selbst kommuniziert werden. Beispielsweise kann der G-Code ein Werkzeug "T3" anfordern, aber sofern dies nicht kommentiert wird, sagt der G-Code nichts darüber aus, um welche Art von Werkzeug es sich bei "T3" handelt. Es wird einfach angenommen, dass T3 im CAM-System dasselbe ist wie T3 auf der Maschine. Es gibt viele solcher Annahmen, die die Maschineneinrichtung, die Werkzeuge, das Material, die Teileausrichtung usw. betreffen. Selbst wenn der G-Code perfekt ist, kann es zu einem Absturz kommen, wenn der Bediener die Maschine nicht mit denselben Annahmen einrichtet.
 </div>
 
-<div class="mw-translate-fuzzy">
-Kommerzielle Werkstätten erstellen oft ein 'Einrichtungsbuch', in dem all diese Annahmen dokumentiert sind und das den Bedienern die notwendigen Informationen zur Konfiguration der Maschine und zur Herstellung eines Teils liefert.
-</div>
+Selbst wenn der G-Code an sich korrekt ist, können Abweichungen zwischen der programmierten und der tatsächlichen Maschineneinstellung dennoch zu Fehlern führen. Kommerzielle Betriebe lösen dieses Problem häufig, indem sie einen Einrichtungsbericht oder ein Einrichtungsbuch für den Maschinenbediener erstellen.
 
 <div class="mw-translate-fuzzy">
 [[Image:CAM_Sanity.svg|24px]] [[CAM_Sanity/de|CAM Plausibilitätsprüfung]] ist der Befehl im Arbeitsbereich CAM, um diese Art von Informationen zu generieren. Die Ausgabe dieses Befehls ist eine eigenständige HTML-Datei mit eingebetteten Bildern.
