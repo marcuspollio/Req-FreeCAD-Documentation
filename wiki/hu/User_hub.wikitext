@@ -109,7 +109,9 @@ A FreeCAD 0.17 óta számos makró telepíthető a [[Std_AddonMgr|Addon Manager]
 
 Ha sok makrót vagy függvényt együtt fejlesztenek ki, és eszköztárakba és menükbe rendezik őket, új munkaasztallá válhatnak.
 
+<div class="mw-translate-fuzzy">
 [[External_workbenches|A külső munkapadok]] olyan funkciók gyűjteményei, amelyek nem részei az alap FreeCAD rendszernek, általában tapasztalt felhasználók fejlesztették ki, és egy adott igényt céloznak meg.
+</div>
 
 A FreeCAD 0.17 óta számos munkapad telepíthető a [[Std_AddonMgr|Addon Manager]]. A kézi telepítéshez lásd: [[How_to_install_additional_workbenches|További munkapadok telepítése]].
 
