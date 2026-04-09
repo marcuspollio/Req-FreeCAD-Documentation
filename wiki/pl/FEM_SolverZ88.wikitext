@@ -54,31 +54,31 @@ Do korzystania z solvera Z88 musi być zainstalowana otwarta wersja Z88 (Z88OS l
 <span id="Properties"></span>
 == Właściwości ==
 
-* {{PropertyData|Exclude Bending Stiffness}} - replaces beams with trusses, currently always checked because beams are not yet supported
+* {{PropertyData|Exclude Bending Stiffness}} - zastępuje belki kratownicami, obecnie zawsze zaznaczone, ponieważ belki nie są jeszcze wspieranere
 * {{PropertyData|Model Space}}:
-** 3D - uses 3D shell elements
-** plane stress - uses 2D plane stress elements
-** axisymmetric - uses 2D axisymmetric elements
-** plate - uses 3D plate elements
-* {{PropertyData|Shell Flag}} - IHFLAG value: set to 2 or 3 for thin shells and to 4 for very thin shells
+** 3D - używa elementów 3D powłokowych
+** plane stress - używa elementów 2D płaskiego stanu naprężeń
+** axisymmetric - używa elementów 2D osiowosymetrycznych
+** plate - używa elementów 3D płytowych
+* {{PropertyData|Shell Flag}} - wartość IHFLAG: ustaw na 2 lub 3 dla cienkich powłok i na 4 dla bardzo cienkich powłok
 * {{PropertyData|Analysis Type}}:
 ** static
 ** test
-* {{PropertyData|Displace Mesh}} - deform the mesh by the displacement field
-* {{PropertyData|Integration Order Hexa}} - displacement integration order for hexa elements
-* {{PropertyData|Integration Order Quad}} - displacement integration order for quad elements
-* {{PropertyData|Integration Order Tetra}} - displacement integration order for tetra elements
-* {{PropertyData|Integration Order Tria}} - displacement integration order for tria elements
-* {{PropertyData|Iteration Maximum}} - MAXIT value: maximum number of iterations for iterative solvers
-* {{PropertyData|Matrix Maximum}} - MAXGS value: maximum number of entries in the stiffness matrix
-* {{PropertyData|Relaxation Factor}} - ROMEGA value: convergence acceleration parameter for SOR pre-conditioner
-* {{PropertyData|Residual Limit}} - EPS value: it is compared to the norm of the residual vector
-* {{PropertyData|Shift Factor}} - RALPHA value: convergence acceleration parameter for SIC pre-conditioner
+* {{PropertyData|Displace Mesh}} - deformuje siatkę polem przemieszczeń
+* {{PropertyData|Integration Order Hexa}} - rząd całkowania przemieszczeń dla elementów hexa
+* {{PropertyData|Integration Order Quad}} - rząd całkowania przemieszczeń dla elementów quad
+* {{PropertyData|Integration Order Tetra}} - rząd całkowania przemieszczeń dla elementów tetra
+* {{PropertyData|Integration Order Tria}} - rząd całkowania przemieszczeń dla elementów tria
+* {{PropertyData|Iteration Maximum}} - wartość MAXIT: maksymalna liczba iteracji dla solverów iteracyjnych
+* {{PropertyData|Matrix Maximum}} - wartość MAXGS: maksymalna liczba elementów macierzy sztywności
+* {{PropertyData|Relaxation Factor}} - wartość ROMEGA: parametr przyspieszenia zbieżności dla prekondycjonera SOR
+* {{PropertyData|Residual Limit}} - wartość EPS: jest porównywana z normą wektora rezydualnego
+* {{PropertyData|Shift Factor}} - wartość RALPHA: parametr przyspieszenia zbieżności dla prekondycjonera SIC
 * {{PropertyData|Solver Type}}:
-** choly - direct Cholesky solver recommended for small structures
-** sorcg - sparse matrix iterative SORCG solver recommended for large structures
-** siccg - sparse matrix iterative SICCG solver recommended for large structures
-* {{PropertyData|Vector Maximum}} - MAXKOI value: maximum number of entries in the coincidence vector
+** choly - bezpośredni solver Cholesky zalecany dla małych struktur
+** sorcg - solver iteracyjny do rzadkich macierzy SORCG zalecany dla dużych struktur
+** siccg - solver iteracyjny do rzadkich macierzy SICCG zalecany dla dużych struktur
+* {{PropertyData|Vector Maximum}} - wartość MAXKOI: maksymalna liczba elementów wektora zbieżności
 
 <span id="Supported_finite_element_types"></span>
 <div class="mw-translate-fuzzy">
