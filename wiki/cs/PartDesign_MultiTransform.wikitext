@@ -55,22 +55,23 @@ K dispozici jsou následující transformace: [[Image:PartDesign_Mirrored.svg|16
 
 Objekt MultiTransformace lze vytvořit z existujících transformací [[PartDesign_Mirrored/cs|Zrcadlení]], [[PartDesign_LinearPattern/cs|Lineární vzor]] a [[PartDesign_PolarPattern/cs|Kruhový vzor]].
 
-# Check the {{PropertyData|Originals}} property of the existing transformations to make sure they have been applied to the same features.
-# Select those features in the [[Tree_View|Tree View]].
-# There are several ways to invoke the tool:
-#* Press the {{Button|[[Image:PartDesign_MultiTransform.svg|16px]] [[PartDesign_MultiTransform|Multi-Transform]]}} button.
-#* Select the {{MenuCommand|Part Design → Transformation Features → [[Image:PartDesign_MultiTransform.svg|16px]] Multi-Transform}} option from the menu.
-# The {{MenuCommand|MultiTransform parameters}} [[Task_Panel|task panel]] opens.
-# Press the {{Button|OK}} button at the top.
-# Edit the {{PropertyData|Tranformations}} property of the created MultiTransform object:
-## Click in the field.
-## Press the {{Button|…}} button that appears.
-## The {{MenuCommand|Link}} dialog opens.
-## Hold down the {{KEY|Ctrl}} key and select the existing transformations.
-## Press the {{Button|OK}} button.
-# Optionally [[#Edit|edit]] the MultiTransform object, see above.
+# Zkontrolujte vlastnost {{PropertyData|Originals}} u stávajících transformací, abyste se ujistili, že byly použity na stejné prvky.
+# Ve [[Tree_View/cs|stromovém zobrazení]] vyberte tyto prvky.
+# Nástroj lze spustit několika způsoby:
+#* Klikněte na tlačítko {{Button|[[Image:PartDesign_MultiTransform.svg|16px]] [[PartDesign_MultiTransform/cs|Multi-Transformace]]}}.
+#* Z nabídky vyberte možnost {{MenuCommand|Tvorba součásti → Transformační prvky → [[Image:PartDesign_MultiTransform.svg|16px]] Multi-Transformace}}.
+# Otevře se [[Task_Panel/cs|panel úloh]] s parametry {{MenuCommand|MultiTransformace}}.
+# Klikněte na tlačítko {{Button|OK}} v horní části okna.
+# Upravte vlastnost {{PropertyData|Tranformace}} vytvořeného objektu MultiTransformace:
+## Klikněte do pole.
+## Stiskněte tlačítko {{Button|…}}, které se zobrazí.
+## Otevře se dialogové okno {{MenuCommand|Link}}.
+## Podržte klávesu {{KEY|Ctrl}} a vyberte stávající transformace.
+## Stiskněte tlačítko {{Button|OK}}.
+# Případně [[#Edit|upravte]] objekt MultiTransform, viz výše.
 
-==Options== 
+<span id="Options"></span>
+==Volby== 
 
 * Choose the mode:
 ** {{MenuCommand|Transform body}}: Transforms the whole base feature's shape (default). {{Version|1.0}}
