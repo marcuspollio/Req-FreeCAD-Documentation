@@ -22,7 +22,7 @@
 
 La commande [[Image:CAM_OpActiveToggle.svg|24px]] [[CAM_OpActiveToggle/fr|Activer une opération]] active ou désactive la propriété {{PropertyData|Active}} d'une opération CAM sélectionnée.
 
-If this property is set to {{FALSE}}, the operation is treated as inactive. Its path is not shown in the [[3D_View|3D View]], and it is ignored by commands such as [[Image:CAM_Inspect.svg|16px]] [[CAM_Inspect|CAM Inspect]] and [[Image:CAM_Post.svg|16px]] [[CAM_Post|CAM Post]].
+Si cette propriété est définie sur {{FALSE}}, l'opération est considérée comme inactive. Son parcours n'apparaît pas dans la [[3D_View/fr|vue 3D]], et elle est ignorée par des commandes telles que [[Image:CAM_Inspect.svg|16px]] [[CAM_Inspect/fr|CAM Inspecter des commandes]] et [[Image:CAM_Post.svg|16px]] [[CAM_Post/fr|CAM Post-traitement]].
 
 <span id="Usage"></span>
 ==Utilisation==
