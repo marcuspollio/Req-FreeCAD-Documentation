@@ -1,7 +1,5 @@
 <languages/>
 
-{{UnfinishedDocu{{#translation:}}}}
-
 {{Docnav/fr
 |[[Assembly_ToggleGrounded/fr|Activer/désactiver le blocage]]
 |[[Assembly_CreateJointRevolute/fr|Liaison pivot]]
@@ -23,11 +21,14 @@
 
 ==Description==
 
+<div class="mw-translate-fuzzy">
 L'outil [[Image:Assembly_CreateJointFixed.svg|24px]] [[Assembly_CreateJointFixed/fr|Assembly Liaison fixe]] crée une liaison qui verrouille deux pièces de l'assemblage, empêchant tout mouvement ou rotation.
+</div>
 
 <span id="Usage"></span>
 ==Utilisation==
 
+<div class="mw-translate-fuzzy">
 # Vous pouvez pouvez sélectionner deux entités géométriques de deux parties différentes. Les autres sélections seront rejetées.
 # Il y a plusieurs façons de lancer l'outil :
 #* Appuyez sur le bouton {{Button|[[Image:Assembly_CreateJointFixed.svg|16px]] [[Assembly_CreateJointFixed/fr|Liaison fixe]]}}.
@@ -101,14 +102,17 @@ L'outil [[Image:Assembly_CreateJointFixed.svg|24px]] [[Assembly_CreateJointFixed
 #*: Ceci permet d'ajuster le décalage de la fixation du second connecteur à l'entité qui lui est liée.
 #* Les pièces sont déplacées vers de nouvelles positions de décalage en fonction des entités sélectionnées et des décalages de fixation.
 # Appuyez sur {{Button|OK}} pour terminer l'outil.
+</div>
 
 <span id="Notes"></span>
 ==Remarques==
 
+<div class="mw-translate-fuzzy">
 * Chaque liaison relie deux pièces d'un assemblage et les connecteurs attachés à une entité géométrique de chaque pièce sont utilisés pour marquer les positions à faire correspondre par le solveur.
 * Les connecteurs sont en fait des systèmes de coordonnées locales et sont donc marqués par un symbole composé de trois axes (X, Y, Z) et d'un cercle (plan XY). Par défaut, ils ne sont visibles que lorsque la fenêtre de dialogue correspondante est ouverte. Ils sont visibles en permanence si leur visibilité est activée manuellement.
 * Pour une liaison, le second connecteur superpose par défaut le premier connecteur et changera de position en fonction de son type dès que d'autres liaisons seront impliquées.
 * Le fait de passer le pointeur de la souris sur une entité géométrique dans la [[3D_view/fr|vue 3D]], lorsque la fenêtre de dialogue est ouverte et que moins de deux entités sont listées, donne un aperçu de l'endroit où le connecteur sera placé une fois l'entité sélectionnée.
+</div>
 
 <span id="Properties"></span>
 ==Propriétés==
@@ -122,6 +126,7 @@ Un objet '''Fixed''' est dérivé d'un [[App_FeaturePython/fr|App FeaturePython]
 
 {{TitleProperty|Joint}}
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Activated|Bool}} : indique si la liaison est active.
 * {{PropertyData|Distance|Float}} : enregistre la '''Distance''' de la liaison Distance. Est également utilisé par les liaisons Crémaillère et Hélicoïde pour enregistrer le '''Rayon primitif''' et par les liaisons Engrenage et Courroie pour enregistrer le '''Rayon1'''.
 * {{PropertyData|Distance2|Float}} : deuxième distance de la liaison. Elle n'est utilisée que par les liaisons Engrenage et Courroie pour enregistrer '''Rayon2'''.
@@ -130,9 +135,11 @@ Un objet '''Fixed''' est dérivé d'un [[App_FeaturePython/fr|App FeaturePython]
 Propriétés supprimées (v.1.0.0-RC-38728) Il s'agit des propriétés qui pouvaient être utilisées pour animer :
 * {{PropertyData|Offset|Vector}} : vecteur de décalage de la liaison.
 * {{PropertyData|Rotation|Float}} : rotation de la liaison.
+</div>
 
 {{TitleProperty|Joint Connector 1}}
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Detach1|Bool}} : ceci empêche placement1 d'être recalculé, ce qui permet un positionnement personnalisé de l'emplacement.
 * {{PropertyData|Offset1|Placement}} : décalage d'attachement du premier connecteur de la liaison. (ajouté avec la v.1.0.0-RC-38728)
 * {{PropertyData|Placement1|Placement}} : système de coordonnées locales dans l'objet reference1 qui sera utilisé pour la liaison.
@@ -142,9 +149,11 @@ Propriétés supprimées :
 * {{PropertyData|Object1|String}} : premier objet de la liaison.
 * {{PropertyData|Part1|Link}} : première pièce de la liaison.
 * {{PropertyData|Vertex1|String}} : sommet sélectionné du premier objet.
+</div>
 
 {{TitleProperty|Joint Connector 2}}
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Detach2|Bool}} : ceci empêche placement2 d'être recalculé, ce qui permet un positionnement personnalisé de l'emplacement.
 * {{PropertyData|Offset2|Placement}} : décalage d'attachement du deuxième connecteur de la liaison. (ajouté avec la v.1.0.0-RC-38728)
 * {{PropertyData|Placement2|Placement}} : système de coordonnées locales dans l'objet reference2 qui sera utilisé pour la liaison.
@@ -154,9 +163,11 @@ Propriétés supprimées :
 * {{PropertyData|Object2|String}} : deuxième objet de la liaison.
 * {{PropertyData|Part2|Link}} : deuxième pièce de la liaison.
 * {{PropertyData|Vertex2|String}} : sommet sélectionné du deuxième objet.
+</div>
 
 {{TitleProperty|Limits}}
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Angle Max|Float}} : limite maximale de l'angle entre les deux systèmes de coordonnées (entre leurs axes X).
 * {{PropertyData|Angle Min|Float}} : limite minimale de l'angle entre les deux systèmes de coordonnées (entre leurs axes X).
 * {{PropertyData|Enable Angle Max|Bool}} : active la limite maximale de l'angle de la liaison.
@@ -167,6 +178,7 @@ Propriétés supprimées :
 * {{PropertyData|Length Min|Float}} : limite minimale de la distance entre les deux systèmes de coordonnées (entre leurs axes Z).
 Propriété supprimée :
 * {{PropertyData|Enable Limits|Bool}} : cette liaison utilise-t-elle des limites ?
+</div>
 
 
 {{Docnav/fr
