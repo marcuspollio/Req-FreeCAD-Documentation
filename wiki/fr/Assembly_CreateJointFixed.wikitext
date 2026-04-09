@@ -141,18 +141,14 @@ Un objet '''Fixed''' est dérivé d'un [[App_FeaturePython/fr|App FeaturePython]
 
 {{TitleProperty|Limits}}
 
-<div class="mw-translate-fuzzy">
-* {{PropertyData|Angle Max|Float}} : limite maximale de l'angle entre les deux systèmes de coordonnées (entre leurs axes X).
-* {{PropertyData|Angle Min|Float}} : limite minimale de l'angle entre les deux systèmes de coordonnées (entre leurs axes X).
-* {{PropertyData|Enable Angle Max|Bool}} : active la limite maximale de l'angle de la liaison.
-* {{PropertyData|Enable Angle Min|Bool}} : active la limite minimale de l'angle de la liaison.
-* {{PropertyData|Enable Length Max|Bool}} : active la limite de longueur maximale de la liaison.
-* {{PropertyData|Enable Length Min|Bool}} : active la limite de longueur minimale de la liaison.
-* {{PropertyData|Length Max|Float}} : limite maximale de la distance entre les deux systèmes de coordonnées (entre leurs axes Z).
-* {{PropertyData|Length Min|Float}} : limite minimale de la distance entre les deux systèmes de coordonnées (entre leurs axes Z).
-Propriété supprimée :
-* {{PropertyData|Enable Limits|Bool}} : cette liaison utilise-t-elle des limites ?
-</div>
+* {{PropertyData|Angle Max|Float}} : angle maximum autorisé entre les deux systèmes de coordonnées des connecteurs.
+* {{PropertyData|Angle Min|Float}} : angle minimum autorisé entre les deux systèmes de coordonnées des connecteurs.
+* {{PropertyData|Enable Angle Max|Bool}} : active la limite maximum de l'angle de la liaison.
+* {{PropertyData|Enable Angle Min|Bool}} : active la limite minimum de l'angle de la liaison.
+* {{PropertyData|Enable Length Max|Bool}} : active la limite de longueur maximum de la liaison.
+* {{PropertyData|Enable Length Min|Bool}} : active la limite de longueur minimum de la liaison.
+* {{PropertyData|Length Max|Float}} : distance maximum autorisée entre les deux systèmes de coordonnées des connecteurs suivant leur axe Z.
+* {{PropertyData|Length Min|Float}} : distance minimum autorisée entre les deux systèmes de coordonnées des connecteurs suivant leur axe Z.
 
 
 {{Docnav/fr
