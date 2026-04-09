@@ -180,9 +180,7 @@ Imposta il percorso
 p /tmp/exported-part.stl
 </syntaxhighlight>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Export '''Object_0''' to selected path
-</div>
+Esporta '''Object_0''' nel percorso selezionato
 
 <syntaxhighlight lang="python3">
 eObject_0
