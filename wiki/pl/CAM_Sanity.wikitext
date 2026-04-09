@@ -44,9 +44,7 @@ W miarę możliwości treść jest niezależna od FreeCAD. Operator maszyny moż
 <span id="Part_Information"></span>
 ==Informacje o detalu==
 
-<div class="mw-translate-fuzzy">
-Ta sekcja zawiera przegląd tego, co jest tworzone. Idealnie obraz powinien pokazywać obiekty bazowe. Jeśli istnieje wiele obiektów bazowych, obraz powinien pokazywać sposób ich zagnieżdżania.
-</div>
+Ta sekcja przedstawia przegląd tego, co jest wykonywane. Najlepiej, aby obraz pokazywał obiekt bazowy lub obiekty bazowe użyte w zadaniu. Jeśli istnieje wiele obiektów bazowych, obraz powinien pokazywać, jak są one względem siebie rozmieszczone w konfiguracji Zadania.
 
 <span id="Run_Summary"></span>
 ===Podsumowanie procesu===
