@@ -25,21 +25,7 @@ Nástroj [[Image:PartDesign_Mirrored.svg|24px]] '''PartDesign Mirrored''' zrcadl
 {{Caption|K vytvoření zrcadleného prvku se použije prvek Kapsy vytvořený ze skici obsahující kružnici (A). K definování zrcadlící roviny se použije svislá osa skici (B). Výsledek (C) je zobrazen vpravo.}} 
 
 <span id="Usage"></span>
-<div class="mw-translate-fuzzy">
 ==Použití==
-{|
-| [[Image:mirrored_parameters.png|left]]
-|
-Při zrcadlení prvku nabízí dialog 'Parametry zdrcadlení' dva různé způsoby určení roviny zrcadlení.
-===Standardní rovina=== 
-Jedna ze standardních rovin '''XY''', '''YZ''' nebo '''XZ''' může být vybrána radio tlačítkem. 
-===Vyběr plochy=== 
-Stisknutím tlačítka označeného 'Rovina' můžete vybrat plochu tělesa jako rovinu zrcadlení. Pamatujte si, že tlačítko musí být stisknuto vždy když vybíráte novou plochu.
-===Náhled=== 
-Výsledek zrcadlení si můžete zakliknutím políčka "Aktializuj pohled" prohlédnout v reálném čase ještě předtím, než kliknete na OK.
-|}
-{{clear}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Create ===
