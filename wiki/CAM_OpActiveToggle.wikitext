@@ -23,10 +23,9 @@
 ==Description== <!--T:3-->
 
 <!--T:4-->
-The [[Image:CAM_OpActiveToggle.svg|24px]] [[CAM_OpActiveToggle|CAM OpActiveToggle]] command toggles the active state of an existing CAM operation.
+The [[Image:CAM_OpActiveToggle.svg|24px]] [[CAM_OpActiveToggle|CAM OpActiveToggle]] command toggles the {{PropertyData|Active}} property of a selected CAM operation.
 
-<!--T:24-->
-This command can be used when your [[Image:CAM_Job.svg|16px]] [[CAM_Job|Job]] contains at least one operation. It works with operations that provide an {{PropertyData|Active}} property.
+If {{PropertyData|Active}} is set to {{FALSE}}, the operation is treated as inactive. Its path is not shown in the [[3D_View|3D View]], and it is ignored by commands such as [[Image:CAM_Inspect.svg|16px]] [[CAM_Inspect|CAM Inspect]] and [[Image:CAM_Post.svg|16px]] [[CAM_Post|CAM Post]].
 
 ==Usage== <!--T:5-->
 
@@ -48,13 +47,6 @@ This command can be used when your [[Image:CAM_Job.svg|16px]] [[CAM_Job|Job]] co
 #** The operation icon and label are no longer grayed out.
 #** The paths generated from the operation are recomputed and displayed in the [[3D_View|3D View]].
 #** When using the [[Image:CAM_Inspect.svg|16px]] [[CAM_Inspect|CAM Inspect]] command or the [[Image:CAM_Post.svg|16px]] [[CAM_Post|CAM Post]] command, the operation's G-code is provided again.
-
-==Properties== <!--T:14-->
-
-<!--T:20-->
-The command changes the {{PropertyData|Active}} property of the selected operation.
-
-If {{PropertyData|Active}} is set to {{Value|false}}, the operation is treated as inactive. Its path is not shown in the [[3D_View|3D View]], and it is ignored by commands such as [[Image:CAM_Inspect.svg|16px]] [[CAM_Inspect|CAM Inspect]] and [[Image:CAM_Post.svg|16px]] [[CAM_Post|CAM Post]].
 
 ==Scripting== <!--T:17-->
 
