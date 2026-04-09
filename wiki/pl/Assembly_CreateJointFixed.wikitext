@@ -27,14 +27,13 @@ Narzędzie [[Image:Assembly_CreateJointFixed.svg|24px]] [[Assembly_CreateJointFi
 <span id="Usage"></span>
 ==Użycie==
 
-<div class="mw-translate-fuzzy">
 # Opcjonalnie wybierz dwa obiekty geometryczne należące do dwóch różnych części. Inne wskazania będą odrzucane.
 # Jest kilka sposobów na wywołanie tej komendy:
 #* Wciśnij przycisk {{Button|[[Image:Assembly_CreateJointFixed.svg|16px]] [[Assembly_CreateJointFixed/pl|Połączenie stałe]]}}.
 #* Wybierz opcję {{MenuCommand|Złożenie → [[Image:Assembly_CreateJointFixed.svg|16px]] Połączenie stałe}} z menu.
 #* Użyj skrótu: {{KEY|F}}.
-# Wcześniej wybrane części zostaną przesunięte do zetknięcia się ich wskazanych obiektów geometrycznych.
-# Okno dialogowe '''Połączenie''' zostanie otwarte w [[Task_panel/pl|panelu zadań]], wymieniając wcześniej wskazane obiekty.
+# Jeśli prawidłowe obiekty zostały wstępnie wybrane, części będą przesunięte do zetknięcia się wybranych odniesień.
+# Okno dialogowe '''Połączenie''' zostanie otwarte w [[Task_panel/pl|panelu zadań]], wymieniając wskazane obiekty.
 # Opcjonalnie zmień typ połączenia na liście rozwijanej:
 #* Wybierz '''Stałe'''.
 #*# Jeśli lista wskazań jest pusta: wybierz dwa obiekty geometryczne.
@@ -77,10 +76,10 @@ Narzędzie [[Image:Assembly_CreateJointFixed.svg|24px]] [[Assembly_CreateJointFi
 #*# Jeśli lista wskazań jest pusta: wybierz dwa obiekty geometryczne.
 #*# Opcjonalnie wprowadź wartość ''Kąt''.
 #* Wybierz '''Przekładnia zębata'''.
-#*# Jeśli lista wskazań jest pusta: wybierz dwa obiekty geometryczne należące do dwóch różnych części, które wcześniej zostały użyte do zdefiniowania połączeń typu Przesuwne i Obrotowe. ''(kierunek i oś obrotu połączenia przesuwnego muszą być prostopadłe)''
+#*# Jeśli lista wskazań jest pusta: wybierz dwa obiekty geometryczne należące do dwóch różnych części, które wcześniej zostały użyte do zdefiniowania połączeń typu Przesuwne i Obrotowe. Kierunek i oś obrotu połączenia przesuwnego muszą być prostopadłe.
 #*# Opcjonalnie wprowadź wartość ''Promień skoku''.
 #* Wybierz '''Śruba'''. 
-#*# Jeśli lista wskazań jest pusta: wybierz dwa obiekty geometryczne należące do dwóch różnych części, które wcześniej zostały użyte do zdefiniowania połączeń typu Przesuwne i Obrotowe. ''(kierunek i oś obrotu połączenia przesuwnego muszą być równoległe)''
+#*# Jeśli lista wskazań jest pusta: wybierz dwa obiekty geometryczne należące do dwóch różnych części, które wcześniej zostały użyte do zdefiniowania połączeń typu Przesuwne i Obrotowe. Kierunek i oś obrotu połączenia przesuwnego muszą być równoległe.
 #*# Opcjonalnie wprowadź wartość ''Promień skoku''.
 #* Wybierz '''Koła zębate'''. 
 #*# Jeśli lista wskazań jest pusta: wybierz dwa obiekty geometryczne należące do dwóch różnych części, które wcześniej zostały użyte do zdefiniowania dwóch różnych połączeń typu Obrotowe.
@@ -91,17 +90,15 @@ Narzędzie [[Image:Assembly_CreateJointFixed.svg|24px]] [[Assembly_CreateJointFi
 #*# Jeśli lista wskazań jest pusta: wybierz dwa obiekty geometryczne należące do dwóch różnych części, które wcześniej zostały użyte do zdefiniowania dwóch różnych połączeń typu Obrotowe.
 #*# Opcjonalnie wprowadź wartość ''Promień 1''.
 #*# Opcjonalnie wprowadź wartość ''Promień 2''.
-#*# Opcjonalnie zaznacz/odznacz opcję '''Obroty w przeciwnym kierunku'''. ''(zaznaczenie wybiera opcję '''Koła zębate''')'' - nie działa w wersji 1.0 RC póki co
-# Części zostaną przesunięte do zetknięcia się ich wskazanych obiektów geometrycznych.
+#*# Opcjonalnie zaznacz lub odznacz opcję '''Obroty w przeciwnym kierunku'''. Zaznaczenie wybiera opcję '''Koła zębate'''.
 # Opcjonalnie zaznacz pole '''Pokaż zaawansowane odsunięcia''' aby dostosować umiejscowienie każdego łącznika względem jego powiązanego obiektu.
 #* Do okna dialogowego dodane zostaną dwa przyciski oznaczone '''Odsunięcie1''' i '''Odsunięcie2''', każde wyświetlające odsunięcie dołączenia.
 #* Opcjonalnie wciśnij przycisk '''Odsunięcie1''' aby otworzyć okno dialogowe [[Placement/pl|Umiejscowienie]].
-#*: To pozwala dostosować odsunięcie dołączenia pierwszego łącznika do jego powiązanego obiektu.
+#*: To pozwala dostosować odsunięcie dołączenia pierwszego łącznika względem jego powiązanego obiektu.
 #* Opcjonalnie wciśnij przycisk '''Odsunięcie2''' aby otworzyć okno dialogowe [[Placement/pl|Umiejscowienie]].
-#*: To pozwala dostosować odsunięcie dołączenia drugiego łącznika do jego powiązanego obiektu.
+#*: To pozwala dostosować odsunięcie dołączenia drugiego łącznika względem jego powiązanego obiektu.
 #* Części zostaną przesunięte do nowych pozycji odsunięcia zgodnie z ich wybranymi obiektami i odsunięciami dołączenia.
 # Wciśnij przycisk {{Button|OK}} aby zakończyć używanie narzędzia.
-</div>
 
 <span id="Notes"></span>
 ==Uwagi==
