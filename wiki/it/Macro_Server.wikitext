@@ -125,9 +125,7 @@ Questo imposta la cella B1 (nel documento e nel foglio di calcolo globali o atti
 
 ''!<cell-id> <value>'' - imposta il valore della cella
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''r[<document>]'' - recompute document
-</div>
+''r[<document>]'' - ricalcola documento
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''e[<nowiki><object>] [<file-path>]</nowiki>'' - export selected object
