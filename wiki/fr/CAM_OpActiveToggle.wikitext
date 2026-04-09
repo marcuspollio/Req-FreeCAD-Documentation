@@ -27,24 +27,22 @@ Si cette propriété est définie sur {{FALSE}}, l'opération est considérée c
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
 # Sélectionnez une opération dans le groupe {{MenuCommand|Opérations}} appartenant à une tâche. Une opération désactivée est reconnaissable à son étiquette et à son icône grisées.
 # Il existe plusieurs façons de lancer la commande :
-#* Appuyez sur le bouton {{Button|[[Image:CAM_OpActiveToggle.svg|16px]] [[CAM_OpActiveToggle/fr|Activer/désactiver l'état actif de l'opération]]}}.
-#* Sélectionnez le bouton {{MenuCommand|CAM → [[Image:CAM_OpActiveToggle.svg|16px]] Activer/désactiver l'état actif de l'opération}} du menu.
+#* Appuyez sur le bouton {{Button|[[Image:CAM_OpActiveToggle.svg|16px]] [[CAM_OpActiveToggle/fr|Activer/désactiver l'opération]]}}.
+#* Sélectionnez le bouton {{MenuCommand|CAM → [[Image:CAM_OpActiveToggle.svg|16px]] Activer/désactiver l'opération}} du menu.
 #* Utilisez le raccourci clavier : {{KEY|P}} puis {{KEY|X}}.
 # Le résultat dépend de l'opération sélectionnée :
 #* Si vous avez sélectionné une opération active, la commande la désactive :
 #** L'icône de l'opération est remplacée par l'icône de la commande : [[Image:CAM_OpActiveToggle.svg|16px]].
 #** L'icône de l'opération et le libellé sont grisés.
-#** Les chemins générés par l'opération disparaissent de la [[3D_view/fr|vue 3D]].
+#** Les chemins générés par l'opération disparaissent de la [[3D_View/fr|vue 3D]].
 #** Lorsque vous utilisez l'outil [[Image:CAM_Inspect.svg|16px]] [[CAM_Inspect/fr|CAM Inspecter des commandes]] ou de la commande [[Image:CAM_Post.svg|16px]] [[CAM_Post/fr|CAM Post-traitement]], le code G de l'opération n'est pas fourni.
 #* Si vous avez sélectionné une opération désactivée, la commande l'active :
 #** L'icône de l'opération est remplacée par celle appartenant à l'opération.
 #** L'icône et le libellé de l'opération ne sont plus grisés.
-#** Les trajectoires générées par l'opération sont recalculées et affichées dans la [[3D_view/fr|vue 3D]].
-#** Lorsque vous utilisez l'outil [[Image:CAM_Inspect.svg|16px]] [[CAM_Inspect/fr|CAM Inspecter des commandes]] ou de la commande [[Image:CAM_Post.svg|16px]] [[CAM_Post/fr|CAM Post-traitement]], le G-code de l'opération est fourni.
-</div>
+#** Les trajectoires générées par l'opération sont recalculées et affichées dans la [[3D_View/fr|vue 3D]].
+#** Lorsque vous utilisez l'outil [[Image:CAM_Inspect.svg|16px]] [[CAM_Inspect/fr|CAM Inspecter des commandes]] ou de la commande [[Image:CAM_Post.svg|16px]] [[CAM_Post/fr|CAM Post-traitement]], le G-code de l'opération est fourni de nouveau.
 
 <span id="Scripting"></span>
 ==Script==
