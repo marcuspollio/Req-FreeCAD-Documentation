@@ -20,7 +20,7 @@ BOLTS to otwarta biblioteka specyfikacji technicznych.
 <span id="Tools"></span>
 ==Przybory==
 
-Szczegółowy opis [http://www.bolts-library.org/en/docs/0.3/freecad/usage.html tutaj]
+Szczegółowy opis [https://web.archive.org/web/20171004210027/http://www.bolts-library.org/en/docs/0.3/freecad/usage.html tutaj]
 
 Wybór części standardowych:
 
@@ -43,9 +43,9 @@ Opis instalacji znajduje się w [https://github.com/boltsparts/BOLTSFC#readme se
 ==Wymagania wstępne==
 
 Aby korzystać z BOLTS dla FreeCAD wymagane są:
-* FreeCAD ''(http://freecadweb.org/)''
+* FreeCAD ''(https://freecad.org)''
 * python 3.x
-* pyyaml ''(http://pyyaml.org/)''
+* pyyaml ''(https://pyyaml.org/)''
 * importlib ''(https://pypi.python.org/pypi/importlib/1.0.2)'' ''(tylko dla python 2.6)''.
 
 '''Instrukcja instalacji dla systemu Linux''' ''(z GitHub)''
@@ -57,22 +57,24 @@ Aby korzystać z BOLTS dla FreeCAD wymagane są:
 <span id="Links_to_BOLTS_workbench"></span>
 ==Linki do środowiska pracy BOLTS==
 
-* Wiki środowiska pracy: http://www.bolts-library.org/en/docs/0.3/index.html
+* Wiki środowiska pracy: https://web.archive.org/web/20210513004234/https://www.bolts-library.org/en/docs/0.3/index.html
 * Wiki FreeCAD: 
-* Forum FreeCAD: [http://forum.freecadweb.org/viewtopic.php?f=8&t=4549 4549]
-* Poradniki: http://www.bolts-library.org/en/docs/0.3/freecad/usage.html
+* Forum FreeCAD: [https://forum.freecad.org/viewtopic.php?f=8&t=4549 4549]
+* Poradniki: https://web.archive.org/web/20171004210027/http://www.bolts-library.org/en/docs/0.3/freecad/usage.html
 * Filmy:  
 * Pliki: 
-* Lista części, autor i organy normalizacyjne: [http://www.bolts-library.org/en/parts/index.html Lista części]
+* Lista części, autor i organy normalizacyjne: [https://web.archive.org/web/20210125065220/https://www.bolts-library.org/en/parts/index.html Lista części]
 * Zgłaszanie błędów: Prosimy o zgłaszanie błędów na stronie https://github.com/jreinhardt/BOLTS/issues
 
 <span id="Related"></span>
 ==Powiązane==
 
+<div class="mw-translate-fuzzy">
 * [[Parts_Library_Workbench/pl|Środowisko pracy biblioteka podzespołów]]
 * [[Fasteners_Workbench/pl|Środowisko pracy Elementy złączne]]
 * [[External_workbenches/pl|Zewnętrzne środowiska pracy]]
 * [[Macros_recipes/pl|Przepisy na makropolecenia]]
+</div>
 
 
 {{Userdocnavi{{#translation:}}}}
