@@ -27,9 +27,7 @@ Les amateurs exécutent généralement le G-code peu après l'avoir post-traité
 
 L'un des problèmes de ce processus réside dans le fait que de nombreuses hypothèses formulées par le programmeur ne sont pas explicitement indiquées dans le G-code. Par exemple, le G-code peut spécifier l'utilisation d'un outil {{incode|T3}}, mais le fichier n'explique pas nécessairement de quel outil il s'agit, comment la pièce brute est orientée, ni quelle configuration est prévue. Des hypothèses similaires peuvent s'appliquer à la configuration de la machine, à l'outillage, au matériau, à l'orientation de la pièce, au liquide de refroidissement et au serrage de la pièce.
 
-<div class="mw-translate-fuzzy">
-Les entreprises commerciales créent souvent un « manuel d'installation » qui documente toutes ces hypothèses et donne aux opérateurs ce dont ils ont besoin pour configurer la machine et produire une pièce.
-</div>
+Même si le G-code lui-même est correct, des divergences entre la configuration programmée et la configuration réelle de la machine peuvent tout de même entraîner des erreurs. Les ateliers industriels résolvent souvent ce problème en établissant un rapport de configuration ou un cahier de configuration à l'intention de l'opérateur de la machine.
 
 <div class="mw-translate-fuzzy">
 [[Image:CAM_Sanity.svg|24px]] [[CAM_Sanity/fr|CAM Chercher des erreurs]] est la commande de l'atelier CAM pour générer ce type d'informations. Le résultat de cette commande est un fichier .html avec des images intégrées.
