@@ -59,9 +59,7 @@ Ta sekcja pokazuje obiekt półfabrykatu z Zadania, w tym jego rozmiar oraz poł
 <span id="Tool_Data"></span>
 ===Dane narzędzi===
 
-<div class="mw-translate-fuzzy">
-Zawiera sekcje dla każdego numeru narzędzia używanego w zadaniu. Zawiera szczegółowe informacje na temat tego, co programista zakłada jako narzędzie i które operacje go używają. Ta sekcja działa tylko z nowym systemem magazynu [[CAM_ToolBit/pl|narzędzi]]. Jest to kolejny obszar, w którym środowisko CAM wymaga poprawy. W szczególności zestawy narzędzi wymagają dodatkowych atrybutów dotyczących narzędzia, takich jak producent / url / numer części.
-</div>
+Ta sekcja zawiera podsekcję dla każdego numeru narzędzia użytego w Zadaniu. Podsumowuje informacje o narzędziu oraz sterowniku narzędzia użytych w wybranych operacjach. W zależności od dostępnych informacji o narzędziu może to obejmować opis narzędzia, średnicę, informacje o posuwie, prędkość obrotową wrzeciona oraz operacje korzystające z tego narzędzia.
 
 <span id="Output"></span>
 ===Rezultat===
