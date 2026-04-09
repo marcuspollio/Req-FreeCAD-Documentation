@@ -128,17 +128,10 @@ Ein '''Fixed'''-Objekt wird von einem [[App_FeaturePython/de|App FeaturePython]]
 
 {{TitleProperty|Joint Connector 1}}
 
-<div class="mw-translate-fuzzy">
-* {{PropertyData/de|Detach1|Bool}}: Dies verhindert das Neuberechnen von Placement1 und ermöglicht die Positionierung einzustellen.
-* {{PropertyData/de|Offset1|Placement}}: Dies ist der Befestigungsversatz der ersten Verbindungsstelle der Verbindung. (hinzugefügt mit Version 1.0.0-RC-38728)
-* {{PropertyData/de|Placement1|Placement}}: Dies ist das lokale Koordinatensystem innerhalb des Objekts von Reference1, das für die Verbindung eingesetzt wird.
-* {{PropertyData/de|Reference1|XlinkSubHidden}}: Die erste Referenz der Verbindung (geometrisches Element).
-Entfallene Eigenschaften:
-* {{PropertyData/de|Element1|String}}: Das ausgewählte Element des ersten Objekts.
-* {{PropertyData/de|Object1|String}}: Das erste Objekt der Verbindung.
-* {{PropertyData/de|Part1|Link}}: Das erste Bauteil der Verbindung.
-* {{PropertyData/de|Vertex1|String}}: Der ausgewählte Knoten des ersten Objekts.
-</div>
+* {{PropertyData/de|Detach1|Bool}}: Verhindert das Neuberechnen der {{PropertyData/de|Placement1}} und ermöglicht die Positionierung einzustellen.
+* {{PropertyData/de|Offset1|Placement}}: Der Befestigungsversatz des ersten Verbinders der Verbindung.
+* {{PropertyData/de|Placement1|Placement}}: Das lokale Koordinatensystem innerhalb des Objekts der {{PropertyData/de|Reference1}}, das von der Verbindung verwendet wird.
+* {{PropertyData/de|Reference1|XLinkSubHidden}}: Die erste Referenz der Verbindung (geometrisches Element).
 
 {{TitleProperty|Joint Connector 2}}
 
