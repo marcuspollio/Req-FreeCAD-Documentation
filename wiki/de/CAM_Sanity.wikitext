@@ -30,7 +30,9 @@ Ein Problem bei diesem Arbeitsablauf besteht darin, dass viele Annahmen des Prog
 
 Selbst wenn der G-Code an sich korrekt ist, können Abweichungen zwischen der programmierten und der tatsächlichen Maschineneinstellung dennoch zu Fehlern führen. Kommerzielle Betriebe lösen dieses Problem häufig, indem sie einen Einrichtungsbericht oder ein Einrichtungsbuch für den Maschinenbediener erstellen.
 
+<div class="mw-translate-fuzzy">
 [[Image:CAM_Sanity.svg|24px]] [[CAM_Sanity/de|CAM Plausibilitätsprüfung]] ist der Befehl im Arbeitsbereich CAM, mit dem diese Art von einrichtungsbezogenen Informationen erstellt wird. Das Ergebnis ist ein eigenständiger HTML-Bericht mit eingebetteten Bildern, der in einem Webbrowser geöffnet werden kann.
+</div>
 
 [[Image:Sanity.jpg|600px]]
 
