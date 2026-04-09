@@ -9,14 +9,12 @@
 |IconC=Workbench_PartDesign.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/cs
-|Name=PartDesign_PolarPattern
-|Name/cs=Návrh dílu Polární vzorky
-|Workbenches=[[PartDesign Workbench/cs|Návrh dílu]]
-|MenuLocation=Návrh dílu -> Polární vzorky
+|Name=PartDesign Kruhové pole
+|MenuLocation=Tvorba dílu → Transformation Features → Kruhové pole
+|Workbenches=[[PartDesign_Workbench/cs|PartDesign]]
+|SeeAlso=[[PartDesign_MultiTransform/cs|PartDesign Multi Transformace]]
 }}
-</div>
 
 <span id="Description"></span>
 ==Popis==
