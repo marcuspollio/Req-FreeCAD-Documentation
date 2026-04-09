@@ -143,6 +143,7 @@ ToDo (last check: 20260318):
 === Further Draft improvements ===
 
 == FEM Workbench ==
+
 {| cellpadding=5
 | [[File:FEM_advanced_gmsh_relnotes_1.2.png|384px]]
 | Several new tools extending the capabilities of the [[Image:FEM_MeshGmshFromShape.svg|24px]] [[FEM_MeshGmshFromShape|Gmsh]] mesher with advanced refinements and transfinite algorithms were added. Thanks to the latter, hexahedral meshes can now be automatically created for all shapes whose subvolumes have 5 or 6 faces with 3 or 4 edges each.
