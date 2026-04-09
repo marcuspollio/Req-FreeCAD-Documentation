@@ -128,17 +128,10 @@ Obiekt '''Fixed''' wywodzi się z obiektu [[App_FeaturePython/pl|App: Właściwo
 
 {{TitleProperty|Joint Connector 1}}
 
-<div class="mw-translate-fuzzy">
-* {{PropertyData|Detach1|Bool}}: Zapobiega ponownemu przeliczaniu właściwości placement1, umożliwiając własne pozycjonowanie.
-* {{PropertyData|Offset1|Placement}}: To odsunięcie mocowania pierwszego łącznika połączenia. (dodane w v.1.0.0-RC-38728)
-* {{PropertyData|Placement1|Placement}}: To jest lokalny układ współrzędnych w obrębie obiektu reference1, który będzie używany dla połączenia.
+* {{PropertyData|Detach1|Bool}}: Zapobiega ponownemu przeliczaniu właściwości {{PropertyData|Placement1}}, umożliwiając własne pozycjonowanie.
+* {{PropertyData|Offset1|Placement}}: Odsunięcie mocowania pierwszego łącznika połączenia.
+* {{PropertyData|Placement1|Placement}}: Lokalny układ współrzędnych w obrębie obiektu właściwości {{PropertyData|Reference1}}, który jest używany przez połączenie.
 * {{PropertyData|Reference1|XlinkSubHidden}}: Pierwsze odniesienie połączenia.
-Usunięte właściwości:
-* {{PropertyData|Element1|String}}: Wskazany element pierwszego obiektu.
-* {{PropertyData|Object1|String}}: Pierwszy obiekt połączenia.
-* {{PropertyData|Part1|Link}}: Pierwsza część w połączeniu.
-* {{PropertyData|Vertex1|String}}: Wskazany wierzchołek pierwszego obiektu.
-</div>
 
 {{TitleProperty|Joint Connector 2}}
 
