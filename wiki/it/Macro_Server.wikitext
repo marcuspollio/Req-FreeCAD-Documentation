@@ -107,9 +107,7 @@ Questo imposta la cella B1 (nel documento e nel foglio di calcolo globali o atti
 
 ''I'' - ottiene l'ID del server
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''D'' - get list of open documents in form : d<document>
-</div>
+''D'' - Ottiene l'elenco dei documenti aperti nel formato: d<documento>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''O[<document>]'' - get list of objects in form : o<object> <label>
