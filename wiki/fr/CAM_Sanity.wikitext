@@ -29,7 +29,9 @@ L'un des problèmes de ce processus réside dans le fait que de nombreuses hypot
 
 Même si le G-code lui-même est correct, des divergences entre la configuration programmée et la configuration réelle de la machine peuvent tout de même entraîner des erreurs. Les ateliers industriels résolvent souvent ce problème en établissant un rapport de configuration ou un cahier de configuration à l'intention de l'opérateur de la machine.
 
+<div class="mw-translate-fuzzy">
 [[Image:CAM_Sanity.svg|24px]] [[CAM_Sanity|CAM Chercher des erreurs]] est la commande de l'atelier CAM qui permet de générer ce type d'informations relatives à la configuration. Le résultat est un rapport HTML autonome contenant des images intégrées, qui peut être ouvert dans un navigateur web.
+</div>
 
 [[Image:Sanity.jpg|600px]]
 
