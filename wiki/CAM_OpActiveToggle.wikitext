@@ -49,11 +49,6 @@ This command can be used when your [[Image:CAM_Job.svg|16px]] [[CAM_Job|Job]] co
 #** The paths generated from the operation are recomputed and displayed in the [[3D_View|3D View]].
 #** When using the [[Image:CAM_Inspect.svg|16px]] [[CAM_Inspect|CAM Inspect]] command or the [[Image:CAM_Post.svg|16px]] [[CAM_Post|CAM Post]] command, the operation's G-code is provided again.
 
-==Options== <!--T:13-->
-
-<!--T:19-->
-This command has no task panel or command-specific options. It immediately toggles the active state of the selected operation.
-
 ==Properties== <!--T:14-->
 
 <!--T:20-->
