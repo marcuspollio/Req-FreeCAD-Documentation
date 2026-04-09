@@ -47,7 +47,7 @@ K dispozici jsou následující transformace: [[Image:PartDesign_Mirrored.svg|16
 # Proveďte jednu z následujících akcí:
 #* Poklepejte na objekt MultiTransform ve [[Tree_View/cs|stromovém zobrazení]].
 #* Klikněte pravým tlačítkem myši na objekt MultiTransform ve [[Tree_View/cs|stromovém zobrazení]] a z kontextového menu vyberte položku {{MenuCommand|Upravit Multi-Transformaci}}.
-# Otevře se [[Task_Panel/cs|panel úloh]] {{MenuCommandParametry|Multi-Transformace}}. Další informace najdete v sekci [[#Options|Možnosti]].
+# Otevře se [[Task_Panel/cs|panel úloh]] {{MenuCommand|ParametryMulti-Transformace}}. Další informace najdete v sekci [[#Options|Možnosti]].
 # Pro dokončení stiskněte tlačítko {{Button|OK}} v horní části okna.
 
 === Combine existing transformations ===
