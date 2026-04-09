@@ -32,9 +32,7 @@ Ein Problem, das in einer professionellen CNC-Werkstatt auftritt, ist, dass der 
 
 Selbst wenn der G-Code an sich korrekt ist, können Abweichungen zwischen der programmierten und der tatsächlichen Maschineneinstellung dennoch zu Fehlern führen. Kommerzielle Betriebe lösen dieses Problem häufig, indem sie einen Einrichtungsbericht oder ein Einrichtungsbuch für den Maschinenbediener erstellen.
 
-<div class="mw-translate-fuzzy">
-[[Image:CAM_Sanity.svg|24px]] [[CAM_Sanity/de|CAM Plausibilitätsprüfung]] ist der Befehl im Arbeitsbereich CAM, um diese Art von Informationen zu generieren. Die Ausgabe dieses Befehls ist eine eigenständige HTML-Datei mit eingebetteten Bildern.
-</div>
+[[Image:CAM_Sanity.svg|24px]] [[CAM_Sanity/de|CAM Plausibilitätsprüfung]] ist der Befehl im Arbeitsbereich CAM, mit dem diese Art von einrichtungsbezogenen Informationen erstellt wird. Das Ergebnis ist ein eigenständiger HTML-Bericht mit eingebetteten Bildern, der in einem Webbrowser geöffnet werden kann.
 
 [[Image:Sanity.jpg|600px]]
 
