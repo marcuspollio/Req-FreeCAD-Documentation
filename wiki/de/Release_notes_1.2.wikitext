@@ -27,10 +27,12 @@ Frühere FreeCAD-Versionshinweise können unter [[Feature_list/de#Release_notes|
 <span id="Further_user_interface_improvements"></span>
 === Weitere Verbesserungen der Benutzeroberfläche ===
 
+<div class="mw-translate-fuzzy">
 * Der eingebaute Texteditor unterstützt jetzt die Auswahl von Zeilen durch Anklicken der Zeilennummer (und wahlweise auch eine Bereichsauswahl mit gedrückter {{KEY|Umschalttaste}}). [https://github.com/FreeCAD/FreeCAD/pull/27677 Pull-Request #27677]
 * In dem eingebauten Texteditor wird jetzt das Suchfeld mit dem aktuell ausgewählten Text vorausgefüllt. [https://github.com/FreeCAD/FreeCAD/pull/27674 Pull-Request #27674]
 * Ein Doppelklick auf eine Fläche des [[Navigation_Cube/de|Navigationswürfels]] stellt jetzt die Ansicht darauf ein und zentriert sie auch noch. [https://github.com/FreeCAD/FreeCAD/pull/28608 Pull-Request #28608]
 * Die Menüoption ''Recompute Object'' im Kontextmenü der [[Tree_View/de|Baumansicht]] (Befehl ''Std_Recompute'') besitzt jetzt ein Tastaturkürzel {{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|R}}. [https://github.com/FreeCAD/FreeCAD/pull/27880 Pull-Request #27880]
+</div>
 
 <span id="Core_system_and_API"></span>
 == Kernsystem und API ==
@@ -160,8 +162,9 @@ ToDo (last check: 20260318):
 <span id="Further_Draft_improvements"></span>
 === Weitere Draft-Verbesserungen ===
 
-<span id="FEM_Workbench"></span>
+<div class="mw-translate-fuzzy">
 == Arbeitsbereich FEM ==
+</div>
 
 <span id="Further_FEM_improvements"></span>
 === Weitere FEM-Verbesserungen ===
