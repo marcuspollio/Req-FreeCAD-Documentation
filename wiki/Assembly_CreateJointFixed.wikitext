@@ -113,11 +113,6 @@ The [[Image:Assembly_CreateJointFixed.svg|24px]] [[Assembly_CreateJointFixed|Ass
 * Connectors are local coordinate systems and are marked by a symbol with three axes (X, Y, Z) and a circle representing the XY-plane. By default, they are only visible while the related dialog is open. They remain visible if their visibility is switched on manually.
 * For a joint, the second connector is superimposed on the first connector by default and may change its position according to the joint type once other joints are involved.
 * Hovering the mouse pointer over a geometric entity in the [[3D_View|3D View]], while the dialog is open and fewer than two entities are listed, previews where the connector will be placed once the entity is selected.
-* {{Version|1.1}} Selecting an existing joint highlights its referenced entities, making the joint definition easier to inspect.
-* {{Version|1.1}} References based on a Body-attached [[PartDesign_CoordinateSystem|local coordinate system]] are supported correctly.
-* {{Version|1.1}} Invalid references can be removed more reliably while editing a joint.
-* {{Version|1.2}} Joint creation using Draft links has been improved.
-* {{Version|1.2}} Joint behavior in sub-assemblies has been improved.
 
 ==Properties== <!--T:10-->
 
