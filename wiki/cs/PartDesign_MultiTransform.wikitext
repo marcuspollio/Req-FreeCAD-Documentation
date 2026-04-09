@@ -9,9 +9,12 @@
 |IconC=Workbench_PartDesign.svg
 }}
 
-<div class="mw-translate-fuzzy">
-{{GuiCommand/cs|Name=PartDesign_MultiTransform|Name/cs=Návrh dílu MultiTransformace|Workbenches=[[PartDesign Workbench/cs|Návrh dílu]], Kompletace|MenuLocation=Návrh dílu -> MultiTransformace}}
-</div>
+{{GuiCommand/cs
+|Name=PartDesign Vícenásobná transformace
+|MenuLocation=Tvorba dílu → Transformation Features → Multi-Transformace
+|Workbenches=[[PartDesign_Workbench/cs|PartDesign]]
+|SeeAlso=[[PartDesign_Mirrored/cs|PartDesign Zrcadlení]], [[PartDesign_LinearPattern/cs|PartDesign Lineární vzor]], [[PartDesign_PolarPattern/cs|PartDesign Kruhový vzor]], [[PartDesign_Scaled/cs|PartDesign Měřítko]]
+}}
 
 <span id="Description"></span>
 <div class="mw-translate-fuzzy">
