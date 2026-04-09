@@ -162,8 +162,8 @@ A '''Fixed''' object is derived from an [[App_FeaturePython|App FeaturePython]] 
 * {{PropertyData|Enable Angle Min|Bool}}: Enables the minimum angle limit of the joint.
 * {{PropertyData|Enable Length Max|Bool}}: Enables the maximum length limit of the joint.
 * {{PropertyData|Enable Length Min|Bool}}: Enables the minimum length limit of the joint.
-* {{PropertyData|Length Max|Float}}: The maximum permitted distance between both connector coordinate systems along their Z axis.
-* {{PropertyData|Length Min|Float}}: The minimum permitted distance between both connector coordinate systems along their Z axis.
+* {{PropertyData|Length Max|Float}}: The maximum permitted distance between both connector coordinate systems along their Z-axis.
+* {{PropertyData|Length Min|Float}}: The minimum permitted distance between both connector coordinate systems along their Z-axis.
 
 
 <!--T:22-->
