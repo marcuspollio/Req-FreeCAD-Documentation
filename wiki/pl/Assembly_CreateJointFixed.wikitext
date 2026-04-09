@@ -135,17 +135,10 @@ Obiekt '''Fixed''' wywodzi się z obiektu [[App_FeaturePython/pl|App: Właściwo
 
 {{TitleProperty|Joint Connector 2}}
 
-<div class="mw-translate-fuzzy">
-* {{PropertyData|Detach2|Bool}}: Zapobiega ponownemu przeliczaniu właściwości placement2, umożliwiając własne pozycjonowanie.
-* {{PropertyData|Offset2|Placement}}: To odsunięcie mocowania drugiego łącznika połączenia. (dodane w v.1.0.0-RC-38728)
-* {{PropertyData|Placement2|Placement}}: To jest lokalny układ współrzędnych w obrębie obiektu reference2, który będzie używany do połączenia.
-* {{PropertyData|Reference2|XlinkSubHidden}}: Drugie odniesienie połączenia.
-Usunięte właściwości:
-* {{PropertyData|Element2|String}}: Wskazany element drugiego obiektu.
-* {{PropertyData|Object2|String}}: Drugi obiekt połączenia.
-* {{PropertyData|Part2|Link}}: Druga część w połączeniu.
-* {{PropertyData|Vertex2|String}}: Wskazany wierzchołek drugiego obiektu.
-</div>
+* {{PropertyData|Detach2|Bool}}: Zapobiega ponownemu przeliczaniu właściwości {{PropertyData|Placement2}}, umożliwiając własne pozycjonowanie.
+* {{PropertyData|Offset2|Placement}}: Odsunięcie mocowania drugiego łącznika połączenia.
+* {{PropertyData|Placement2|Placement}}: Lokalny układ współrzędnych w obrębie obiektu właściwości {{PropertyData|Reference2}}, który jest używany przez połączenie.
+* {{PropertyData|Reference2|XLinkSubHidden}}: Drugie odniesienie połączenia.
 
 {{TitleProperty|Limits}}
 
