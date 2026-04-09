@@ -111,7 +111,7 @@ Questo imposta la cella B1 (nel documento e nel foglio di calcolo globali o atti
 
 ''O[<document>]'' - Ottiene l'elenco degli oggetti nel formato: o<oggetto> <etichetta>
 
-''C[<document>] [<spreadsheet>]'' - Ottiene l'elenco delle celle nella scheda: c<cell-id> <value>
+''C[<document>] [<spreadsheet>]'' - Ottiene l'elenco delle celle nel formato: c<cell-id> <value>
 
 ''d<document>'' - seleziona documento
 
