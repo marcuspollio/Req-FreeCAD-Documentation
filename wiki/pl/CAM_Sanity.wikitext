@@ -39,9 +39,7 @@ Nawet jeśli sam G-kod jest poprawny, różnice między zaprogramowaną konfigur
 <span id="About_the_Report"></span>
 ==Informacje o raporcie==
 
-<div class="mw-translate-fuzzy">
-O ile to możliwe, treść jest niezależna od programu FreeCAD. Operator CNC może nigdy nie używać FreeCAD, więc terminologia specyficzna dla FreeCAD / CAM jest myląca. Raport ma odrębne sekcje i jest sformatowany tak, aby wyszukiwanie było łatwe i przewidywalne.
-</div>
+W miarę możliwości treść jest niezależna od FreeCAD. Operator maszyny może nigdy nie używać FreeCAD, dlatego terminologia specyficzna dla FreeCAD i CAM powinna być ograniczona do minimum. Raport ma wyraźnie wydzielone sekcje, aby informacje o konfiguracji były łatwiejsze do przeglądania.
 
 <span id="Part_Information"></span>
 ==Informacje o detalu==
