@@ -77,14 +77,7 @@ Nástroj [[Image:PartDesign_Mirrored.svg|24px]] '''PartDesign Mirrored''' zrcadl
 * Pokud je zaškrtnuto políčko {{MenuCommand|Přepočítat při změně}}, zobrazení se bude v reálném čase aktualizovat.
 
 <span id="Limitations"></span>
-<div class="mw-translate-fuzzy">
-==Omezení== 
-* V současnosti může být pouze poslední prvek ve stromu prvků vybrán jako 'originál'
-* Proto není možné vybrat více než jeden prvek k zrcadlení
-* Proto není možné přidat další prvky k zrcadlení v okně 'originálů'
-* Jakmile bylo Zrcadlení zahájeno nebo dokončeno, není už možné přepsat originál jiným prvkem.
-{{clear}}
-</div>
+==Omezení==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 See [[PartDesign_PolarPattern#Limitations|PartDesign PolarPattern]].
