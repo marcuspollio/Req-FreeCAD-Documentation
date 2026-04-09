@@ -162,13 +162,11 @@ ToDo (last check: 20260318):
 <span id="FEM_Workbench"></span>
 == Atelier FEM ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:FEM_advanced_gmsh_relnotes_1.2.png|384px]]
-| Several new tools extending the capabilities of the [[Image:FEM_MeshGmshFromShape.svg|24px]] [[FEM_MeshGmshFromShape|Gmsh]] mesher with advanced refinements and transfinite algorithms were added. Thanks to the latter, hexahedral meshes can now be automatically created for all shapes whose subvolumes have 5 or 6 faces with 3 or 4 edges each.
+| Plusieurs nouveaux outils étendant les capacités du mailleur [[Image:FEM_MeshGmshFromShape.svg|24px]] [[FEM_MeshGmshFromShape/fr|Gmsh]] avec des raffinements avancés et des algorithmes transfinis ont été ajoutés. Grâce à ces derniers, des maillages hexaédriques peuvent désormais être créés automatiquement pour toutes les formes dont les sous-volumes comportent 5 ou 6 faces avec 3 ou 4 arêtes chacune.
 [https://github.com/FreeCAD/FreeCAD/pull/24792 Pull request #24792]
 |}
-</div>
 
 <span id="Further_FEM_improvements"></span>
 === Autres améliorations de FEM ===
