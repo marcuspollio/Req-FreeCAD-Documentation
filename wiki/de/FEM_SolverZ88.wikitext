@@ -100,11 +100,11 @@ Linear triangles and quadrangles are not supported at all. Beam elements are not
 <span id="Limitations"></span>
 == Einschränkungen ==
 
-* Currently, only displacements (in mm), nodal forces, and nodal moments are provided as contour map results. Stress values are loaded into the text document object.
-* The 3D truss elements require some additional considerations. In case of errors and missing results when using them, the following steps should be taken:
-** make sure the structural member is meshed with only one such element (adjust the min and max element size to enforce that),
-** apply displacement boundary condition to the whole member, constraining the lateral displacements,
-** use the Cholesky solver.
+* Derzeit werden als Konturdiagrammergebnisse nur Verschiebungen (in mm), Knotenkräfte und Knotenmomente bereitgestellt. Die Spannungswerte werden in das Textdokumentobjekt geladen.
+* Bei den 3D-Fachwerkelementen sind einige zusätzliche Überlegungen erforderlich. Bei Fehlern und fehlenden Ergebnissen bei deren Verwendung sollten folgende Schritte unternommen werden:
+** Sicherstellen, dass das Bauteil nur mit einem solchen Element vernetzt ist (dazu die minimale und maximale Elementgröße anpassen),
+** eine Verschiebungsrandbedingung auf das gesamte Bauteil anwenden, um die seitlichen Verschiebungen zu begrenzen,
+** den Cholesky-Löser verwenden.
 
 <span id="Preferences"></span>
 ==Einstellungen==
