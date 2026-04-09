@@ -105,9 +105,9 @@ Von [[CAM_Sanity/de|CAM Plausibilitätsprüfung]] erkannte Warnungen und Fehler.
 <span id="Notes"></span>
 ==Hinweise==
 
-<div class="mw-translate-fuzzy">
-* AsciiDoc ist ein leichtgewichtiges Auszeichnungssprachen-Format (Markup) zum Verfassen von Notizen, Artikeln, Büchern usw. Es ist für Menschen lesbar und lässt sich leicht in andere Formate übersetzen.
-</div>
+* Der Bericht wird direkt von FreeCAD als HTML-Datei erstellt. Eine separate Installation von AsciiDoc oder Asciidoctor ist nicht erforderlich.
+* Die erstellte HTML-Datei ist so konzipiert, dass sie zusammen mit den Bearbeitungs-Ergebnissen leicht überprüft, archiviert oder weitergegeben werden kann.
+* Bilder für den Bericht können direkt in die erstellte HTML-Datei eingebettet werden.
 
 <div class="mw-translate-fuzzy">
 * Asciidoctor ist ein schneller Open-Source-Textprozessor zur Konvertierung von AsciiDoc in HTML, PDF oder andere Formate. Er ist für Linux, Windows und macOS verfügbar. Asciidoctor wird nicht mit FreeCAD installiert. Wenn man '''CAM Plausibilitätsprüfung''' ohne Installation von Asciidoctor verwendet, wird die AsciiDoc-Quelldatei zwar generiert, aber die resultierende HTML-Datei wird nicht erstellt. Siehe [https://asciidoctor.org/ Asciidoctor-Website]
