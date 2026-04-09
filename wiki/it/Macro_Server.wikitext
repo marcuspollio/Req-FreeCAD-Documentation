@@ -111,9 +111,7 @@ Questo imposta la cella B1 (nel documento e nel foglio di calcolo globali o atti
 
 ''O[<document>]'' - Ottiene l'elenco degli oggetti nel formato: o<oggetto> <etichetta>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''C[<document>] [<spreadsheet>]'' - get list of cells in form : c<cell-id> <value>
-</div>
+''C[<document>] [<spreadsheet>]'' - Ottiene l'elenco delle celle nella scheda: c<cell-id> <value>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''d<document>'' - select document
