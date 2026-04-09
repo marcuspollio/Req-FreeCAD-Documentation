@@ -35,9 +35,9 @@ Der Befehl  [[Image:CAM_DressupLeadInOut.svg|24px]] [[CAM_DressupLeadInOut/de|CA
 <span id="Options"></span>
 ==Optionen==
 
-* '''Lead in''': Controls the entry move added before the main cutting path.
-* '''Lead out''': Controls the exit move added after the main cutting path.
-* '''Feed rate''': {{Version|1.2}} The corresponding lead-in and lead-out moves use the feed rates defined for these moves in the tool controller. By default these follow the horizontal feed rate.
+* '''Lead in''': Steuert die Einfahrbewegung, die vor dem Hauptschnittweg eingefügt wurde.
+* '''Lead out''': Steuert die Auslaufbewegung, die nach dem Hauptschnittweg hinzugefügt wird.
+* '''Feed rate''': {{Version/de|1.2}} Die entsprechenden Ein- und Ausfahrbewegungen verwenden die für diese Bewegungen in der Werkzeugsteuerung definierten Vorschubgeschwindigkeiten. Standardmäßig entsprechen diese der horizontalen Vorschubgeschwindigkeit.
 
 <span id="Limitations"></span>
 ==Einschränkungen==
