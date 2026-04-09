@@ -107,7 +107,9 @@ Seit FreeCAD v0.17 können viele Makros mit Hilfe des [[Std_AddonMgr/de|Addon-Ma
 
 Wenn viele Makros oder Funktionen gemeinsam entwickelt und in Symbolleisten und Menüs organisiert werden, können sie zu einem neuen Arbeitsbereich werden.
 
+<div class="mw-translate-fuzzy">
 [[External_workbenches/de|Externe Arbeitsbereiche]] sind Sammlungen von Funktionen, die nicht Teil des FreeCAD Basissystems sind, üblicherweise entwickelt von erfahrenen Anwendern und auf einen bestimmten Bedarf abzielend.
+</div>
 
 Seit FreeCAD 0.17 können viele Arbeitsbereiche mit dem [[Std_AddonMgr/de|Addon-Manager]] installiert werden. Für die manuelle Installation siehe [[How_to_install_additional_workbenches/de|Wie zusätzliche Arbeitsbereiche installiert werden]].
 
