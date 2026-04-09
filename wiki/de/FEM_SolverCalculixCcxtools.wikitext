@@ -31,19 +31,22 @@ Ermöglicht die Verwendung des Gleichungslösers [https://en.wikipedia.org/wiki/
 <span id="Usage"></span>
 ==Anwendung==
 
-<div class="mw-translate-fuzzy">
-# Ein [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools-Löser-Objekt wird automatisch beim Erstellen eines [[Image:FEM_Analysis.svg|16px|link=FEM_Analysis/de]] [[FEM_Analysis/de|Analysebehälters]] hinzugefügt, wenn CalculiX als Standardlöser in den [[FEM_Preferences#General/de|General FEM preferences]] ausgewählt wurde.<br> Um es manuell zu erstellen, wird eine der folgenden Möglichkeiten verwendet:
+# Ein CalculiX SolverCcxTools (Alter CCX-Löser) oder SolverCalculiX (überarbeiteter CCX-Löser)-Objekt wird automatisch bei der Erstellung eines [[Image:FEM_Analysis.svg|16px|link=FEM_Analysis/de]] [[FEM_Analysis/de|Analysecontainers]] erstellt, wenn CalculiX wird in den [[FEM_Preferences/de#General|allgemeinen FEM-Einstellungen]] als Standardlöser ausgewählt ist.<br>Um ihn manuell zu erstellen, wie folgt vorgehen:
 #* Die Schaltfläche {{Button|[[Image:FEM_SolverCalculixCcxtools.svg|16px]] [[FEM_SolverCalculixCcxtools/de|Löser CalculiX]]}} drücken.
-#* Den Menüeintrag {{MenuCommand|Löser → [[Image:FEM_SolverCalculixCcxtools.svg|16px]] Löser CalculiX}} auswählen.
-#* Ein Tastaturkürzel:
-#** {{VersionMinus/de|1.0}}: {{KEY|S}} {{KEY|X}}.
-#** {{VersionPlus/de|1.1}}: {{KEY|S}} {{KEY|C}}.
-# Wahlweise die Eigenschaften des [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools-Löser-Objekts im [[Property_editor/de|Eigenschafteneditor]] anpassen.
-# Das [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools-Löser-Objekt doppelt anklicken.
+#* Den Menüeintrag {{MenuCommand|Lösen → Löser → [[Image:FEM_SolverCalculixCcxtools.svg|16px]] Löser CalculiX}} auswählen.
+#* Die Tastenkombination drücken:
+#** {{VersionMinus/de|1.0}}: {{KEY|S}} {{KEY|X}}
+#** {{VersionPlus/de|1.1}}: {{KEY|S}} {{KEY|C}}
+# Wahlweise die Eigenschaften des [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools (veralteter CCX-Löser) oder [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCalculiX (überarbeiteter CCX-Löser)-Objekts in der [[Property_View/de|Eigenschaften-Ansicht]] anpassen.
+# Auf [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCcxTools oder das [[Image:FEM_SolverCalculixCcxtools.svg|16px]] SolverCalculiX-Löser-Objekt doppelklicken.
 # Die {{MenuCommand|Analyseart}} auswählen.
-# Die Schaltfläche {{Button|.inp-Datei schreiben}} anklicken.
-# Die Schaltfläche {{Button|CalculiX ausführen}} anklicken.
-</div>
+# Für den alten CCX-Löser:
+#* Die Schaltfläche {{Button|.inp-Datei schreiben}} anklicken.
+#* Optional auf die Schaltfläche {{Button|.inp-Datei bearbeiten}} klicken, um die CalculiX-Eingabedatei vor der Durchführung der Analyse manuell anzuzeigen und zu bearbeiten. In diesem Fall kann es sinnvoll sein, die Eigenschaft {{PropertyData/de|Split Input Writer}} auf {{True}} zu setzen.
+#* Die Schaltfläche {{Button|CalculiX ausführen}} anklicken.
+# Für den überarbeiteten CCX-Löser:
+#* Optional das Kontrollkästchen {{Button|Arbeitsverzeichnis}} aktivieren, auf {{Button|Schreiben}} und {{Button|Bearbeiten}} klicken, um die Eingabedatei vor dem Start der Analyse zu bearbeiten.
+#* {{Button|Anwenden}} drücken, um die Analyse zu starten.
 
 <span id="Properties"></span>
 ==Eigenschaften==
