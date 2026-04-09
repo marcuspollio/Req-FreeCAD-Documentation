@@ -117,9 +117,7 @@ Questo imposta la cella B1 (nel documento e nel foglio di calcolo globali o atti
 
 ''s[<document>] <spreadsheet>'' - seleziona foglio di calcolo
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''o[<document>] <object-name>'' - select object
-</div>
+''o[<document>] <object-name>'' - seleziona oggetto
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''p <file-path>'' - select/set path
