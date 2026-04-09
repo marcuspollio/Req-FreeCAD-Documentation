@@ -29,8 +29,8 @@ Si cette propriété est définie sur {{FALSE}}, l'opération est considérée c
 
 # Sélectionnez une opération dans le groupe {{MenuCommand|Opérations}} appartenant à une tâche. Une opération désactivée est reconnaissable à son étiquette et à son icône grisées.
 # Il existe plusieurs façons de lancer la commande :
-#* Appuyez sur le bouton {{Button|[[Image:CAM_OpActiveToggle.svg|16px]] [[CAM_OpActiveToggle/fr|Activer/désactiver l'opération]]}}.
-#* Sélectionnez le bouton {{MenuCommand|CAM → [[Image:CAM_OpActiveToggle.svg|16px]] Activer/désactiver l'opération}} du menu.
+#* Appuyez sur le bouton {{Button|[[Image:CAM_OpActiveToggle.svg|16px]] [[CAM_OpActiveToggle/fr|Activer/désactiver une opération]]}}.
+#* Sélectionnez le bouton {{MenuCommand|CAM → [[Image:CAM_OpActiveToggle.svg|16px]] Activer/désactiver une opération}} du menu.
 #* Utilisez le raccourci clavier : {{KEY|P}} puis {{KEY|X}}.
 # Le résultat dépend de l'opération sélectionnée :
 #* Si vous avez sélectionné une opération active, la commande la désactive :
