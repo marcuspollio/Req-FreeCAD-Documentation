@@ -83,9 +83,8 @@ Nástroj [[Image:PartDesign_PolarPattern.svg|24px]] '''PartDesign PolarPattern''
 ** Zadejte počet {{MenuCommand|výskytů}} (včetně původního prvku).
 * Pokud je zaškrtnuto políčko {{MenuCommand|Přepočítat při změně}}, zobrazení se bude v reálném čase aktualizovat.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Ordering features ==
-</div>
+<span id="Ordering_features"></span>
+== Pořadí prvků ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If some of the selected features are additive and others subtractive, their order can have have an impact on the final result. You can change the order by dragging individual features in the list.
