@@ -36,7 +36,7 @@ One issue in that workflow is that many assumptions made by the programmer are n
 Even if the G-code itself is correct, differences between the programmed setup and the actual machine setup can still lead to mistakes. Commercial shops often solve this by preparing a setup report or setup book for the machine operator.
 
 <!--T:12-->
-[[Image:CAM_Sanity.svg|24px]] [[CAM_Sanity|CAM Sanity]] is the command in the CAM workbench used to generate this kind of setup-oriented information. The output is a standalone HTML report with embedded images that can be opened in a web browser.
+The [[Image:CAM_Sanity.svg|24px]] [[CAM_Sanity|CAM Sanity]] command is used to generate this kind of setup-oriented information. The output is a standalone HTML report with embedded images that can be opened in a web browser.
 
 <!--T:36-->
 [[Image:Sanity.jpg|600px]]
