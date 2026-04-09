@@ -50,7 +50,8 @@ K dispozici jsou následující transformace: [[Image:PartDesign_Mirrored.svg|16
 # Otevře se [[Task_Panel/cs|panel úloh]] {{MenuCommand|ParametryMulti-Transformace}}. Další informace najdete v sekci [[#Options|Možnosti]].
 # Pro dokončení stiskněte tlačítko {{Button|OK}} v horní části okna.
 
-=== Combine existing transformations ===
+<span id="Combine_existing_transformations"></span>
+=== Kombinace stávajících transformací ===
 
 It is possible to create a MultiTransform object from existing [[PartDesign_Mirrored|Mirror]],  [[PartDesign_LinearPattern|LinearPattern]] and [[PartDesign_PolarPattern|Polar Pattern]] transformations.
 
