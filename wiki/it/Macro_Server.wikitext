@@ -113,9 +113,7 @@ Questo imposta la cella B1 (nel documento e nel foglio di calcolo globali o atti
 
 ''C[<document>] [<spreadsheet>]'' - Ottiene l'elenco delle celle nella scheda: c<cell-id> <value>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''d<document>'' - select document
-</div>
+''d<document>'' - seleziona documento
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''s[<document>] <spreadsheet>'' - select spreadsheet
