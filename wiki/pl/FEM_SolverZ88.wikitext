@@ -52,34 +52,7 @@ Do korzystania z solvera Z88 musi być zainstalowana otwarta wersja Z88 (Z88OS l
 # Kliknij {{Button|Zastosuj}}, aby uruchomić analizę.
 
 <span id="Properties"></span>
-<div class="mw-translate-fuzzy">
 == Właściwości ==
-* {{PropertyData|Exclude Bending Stiffness}} - zastępuje belki kratownicami, obecnie zawsze zaznaczone, ponieważ belki nie są jeszcze wspieranere
-* {{PropertyData|Model Space}}:
-** 3D - używa elementów 3D powłokowych
-** plane stress - używa elementów 2D płaskiego stanu naprężeń
-** axisymmetric - używa elementów 2D osiowosymetrycznych
-** plate - używa elementów 3D płytowych
-* {{PropertyData|Shell Flag}} - wartość IHFLAG: ustaw na 2 lub 3 dla cienkich powłok i na 4 dla bardzo cienkich powłok
-* {{PropertyData|Analysis Type}}:
-** static
-** test
-* {{PropertyData|Displace Mesh}} - deformuje siatkę polem przemieszczeń
-* {{PropertyData|Integration Order Hexa}} - rząd całkowania przemieszczeń dla elementów hexa
-* {{PropertyData|Integration Order Quad}} - rząd całkowania przemieszczeń dla elementów quad
-* {{PropertyData|Integration Order Tetra}} - rząd całkowania przemieszczeń dla elementów tetra
-* {{PropertyData|Integration Order Tria}} - rząd całkowania przemieszczeń dla elementów tria
-* {{PropertyData|Iteration Maximum}} - wartość MAXIT: maksymalna liczba iteracji dla solverów iteracyjnych
-* {{PropertyData|Matrix Maximum}} - wartość MAXGS: maksymalna liczba elementów macierzy sztywności
-* {{PropertyData|Relaxation Factor}} - wartość ROMEGA: parametr przyspieszenia zbieżności dla prekondycjonera SOR
-* {{PropertyData|Residual Limit}} - wartość EPS: jest porównywana z normą wektora rezydualnego
-* {{PropertyData|Shift Factor}} - wartość RALPHA: parametr przyspieszenia zbieżności dla prekondycjonera SIC
-* {{PropertyData|Solver Type}}:
-** choly - bezpośredni solver Cholesky zalecany dla małych struktur
-** sorcg - solver iteracyjny do rzadkich macierzy SORCG zalecany dla dużych struktur
-** siccg - solver iteracyjny do rzadkich macierzy SICCG zalecany dla dużych struktur
-* {{PropertyData|Vector Maximum}} - wartość MAXKOI: maksymalna liczba elementów wektora zbieżności
-</div>
 
 * {{PropertyData|Exclude Bending Stiffness}} - replaces beams with trusses, currently always checked because beams are not yet supported
 * {{PropertyData|Model Space}}:
