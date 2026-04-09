@@ -1,15 +1,13 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|‎[[PartDesign_Thickness|Thickness]]
-|[[PartDesign_LinearPattern|Linear Pattern]]
-|[[PartDesign_Workbench|PartDesign]]
+{{Docnav/cs
+|‎[[PartDesign_Thickness/cs|Skořepina]]
+|[[PartDesign_LinearPattern/cs|Lineární vzor]]
+|[[PartDesign_Workbench/cs|PartDesign]]
 |IconL=PartDesign_Thickness.svg
 |IconR=PartDesign_LinearPattern.svg
 |IconC=Workbench_PartDesign.svg
 }}
-</div>
 
 <div class="mw-translate-fuzzy">
 {{GuiCommand/cs|Name=PartDesign_Mirrored|Name/cs=PartDesign Mirrored|Workbenches=[[PartDesign Workbench/cs|Návrh dílu]], Complete|MenuLocation=PartDesign -> Mirrored}}
