@@ -81,22 +81,14 @@ Do korzystania z solvera Z88 musi być zainstalowana otwarta wersja Z88 (Z88OS l
 * {{PropertyData|Vector Maximum}} - wartość MAXKOI: maksymalna liczba elementów wektora zbieżności
 
 <span id="Supported_finite_element_types"></span>
-<div class="mw-translate-fuzzy">
 == Wspierane typy elementów skończonych ==
+
 Następujące typy elementów skończonych są wspierane przez implementację solvera Z88:
 * 2-węzłowe kratownice 3D,
 * 8-węzłowe i 20-węzłowe sześciościany,
 * 4-węzłowe i 10-węzłowe czworościany,
 * 6-węzłowe trójkąty i 8-węzłowe czworokąty - sformułowania dla powłok i płyt 3D oraz płaskiego stanu naprężeń i symetrii osiowej 2D.
 Liniowe trójkąty i czworokąty nie są w ogóle wspierane. Elementy belkowe nie są jeszcze wspierane.
-</div>
-
-The following types of finite elements are supported by the Z88 solver implementation:
-* 2-node 3D truss,
-* 8-node and 20-node hexahedron,
-* 4-node and 10-node tetrahedron,
-* 6-node triangle and 8-node quadrangle - 3D shell and plate, 2D plane stress and axisymmetric formulations.
-Linear triangles and quadrangles are not supported at all. Beam elements are not yet supported.
 
 <span id="Notes"></span>
 <div class="mw-translate-fuzzy">
