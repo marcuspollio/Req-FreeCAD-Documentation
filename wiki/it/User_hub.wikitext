@@ -111,7 +111,9 @@ Per installare manualmente le macro fare riferimento al tutorial [[How_to_instal
 
 Quando molte macro o funzioni vengono sviluppate insieme e organizzate in barre degli strumenti e menu, possono diventare un nuovo ambiente di lavoro.
 
+<div class="mw-translate-fuzzy">
 Gli [[External_workbenches/it|ambienti esterni]] sono raccolte di funzioni che non fanno parte del sistema FreeCAD di base, generalmente sviluppate da utenti esperti e che si rivolgono a un'esigenza particolare.
+</div>
 
 Da FreeCAD 0.17 molti ambienti possono essere installati usando [[Std_AddonMgr/it|Addon Manager]].
 Per l'installazione manuale di questi ambienti fare riferimento al tutorial [[How_to_install_additional_workbenches/it|Come installare ambienti aggiuntivi]].
