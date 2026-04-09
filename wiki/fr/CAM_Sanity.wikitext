@@ -83,17 +83,15 @@ Cette section répertorie les avertissements et les erreurs détectés par [[CAM
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
 # Sélectionnez une [[Image:CAM_Job.svg|16px]] [[CAM_Job/fr|tâche]] dans l'[[Tree_View/fr|arborescence]].
 # Il existe plusieurs façons de lancer la commande :
 #* Appuyez sur le bouton {{Button|[[Image:CAM_Sanity.svg|16px]] [[CAM_Sanity/fr|Chercher des erreurs]]}}.
 #* Sélectionnez {{MenuCommand|CAM → [[Image:CAM_Sanity.svg|16px]] Chercher des erreurs}} du menu.
 #* Utilisez le raccourci clavier : {{KEY|P}} puis {{KEY|S}}.
-# Les informations pertinentes sont rassemblées dans un dictionnaire en Python puis formatées au format AsciiDoc. 
-# Le fichier AsciiDoc est écrit sur le disque au même endroit que le fichier qui sera post-traité. 
-# Un processus externe fait appel à Asciidoctor pour lire le fichier AsciiDoc et générer le fichier .html. 
-# Ceci lancera automatiquement le navigateur web du système pour visualiser le rapport HTML autonome généré.
-</div>
+# Si nécessaire, définissez la propriété {{PropertyData|OutputFile}} de la tâche avant de lancer la commande.
+# FreeCAD génère un rapport HTML autonome pour la tâche sélectionnée.
+# Le rapport est enregistré au même emplacement que le fichier de sortie configuré pour la tâche.
+# Le rapport généré s'ouvre dans le navigateur Web par défaut du système.
 
 <span id="Notes"></span>
 == Remarques ==
