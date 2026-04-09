@@ -24,9 +24,7 @@
 
 Wielu użytkowników środowiska pracy CAM to hobbyści i majsterkowicze. W związku z tym używają oni swoich maszyn CNC do uruchamiania G-kodu, który sami skonfigurowali i wygenerowali. Inaczej jest w przypadku większości profesjonalnych i komercyjnych użytkowników. W profesjonalnych warsztatach za tworzenie G-kodu i uruchamianie go na maszynie odpowiadają inni ludzie.
 
-<div class="mw-translate-fuzzy">
-Hobbyści zwykle uruchamiają G-kod zaledwie kilka minut po jego przetworzeniu i prawdopodobnie tylko raz lub dwa razy. W profesjonalnym warsztacie sprawdzony G-kod może być uruchamiany wiele razy przez miesiące lub lata po jego wygenerowaniu.
-</div>
+Hobbyści zwykle uruchamiają G-kod krótko po jego przetworzeniu i prawdopodobnie tylko raz lub dwa razy. W profesjonalnym warsztacie sprawdzony G-kod może być uruchamiany wiele razy przez długi okres czasu.
 
 <div class="mw-translate-fuzzy">
 Jedną z kwestii, która pojawia się w profesjonalnym warsztacie CNC, jest to, że programista przyjmuje wiele założeń, które NIE są przekazywane w samym G-kodzie. Na przykład, G-kod może wywoływać narzędzie "T3", ale o ile nie jest to skomentowane, G-kod nie mówi, do jakiego rodzaju narzędzia odnosi się "T3". Zakłada się po prostu, że T3 w systemie CAM jest tym samym, co T3 na maszynie. Istnieje wiele takich założeń dotyczących konfiguracji maszyny, narzędzi, materiału, orientacji części itp. Nawet jeśli G-kod jest doskonały, jeśli operator nie skonfiguruje maszyny z tymi samymi założeniami, może dojść do awarii.
