@@ -26,14 +26,13 @@ L'outil [[Image:Assembly_CreateJointFixed.svg|24px]] [[Assembly_CreateJointFixed
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
 # Vous pouvez pouvez sélectionner deux entités géométriques de deux parties différentes. Les autres sélections seront rejetées.
 # Il y a plusieurs façons de lancer l'outil :
 #* Appuyez sur le bouton {{Button|[[Image:Assembly_CreateJointFixed.svg|16px]] [[Assembly_CreateJointFixed/fr|Liaison fixe]]}}.
 #* Sélectionnez l'option {{MenuCommand|Assemblage → [[Image:Assembly_CreateJointFixed.svg|16px]] Liaison fixe}} du menu.
 #* Utiliser le raccourci clavier : {{KEY|F}}.
-# Les pièces présélectionnées sont déplacées pour se rencontrer au niveau des entités sélectionnées.
-# La fenêtre de dialogue '''Liaison''' s'ouvre dans le [[Task_panel/fr|panneau des tâches]] avec la liste des entités présélectionnées.
+# Si des entités valides ont été présélectionnées, les pièces sont déplacées de manière à ce que les références sélectionnées coïncident.
+# La fenêtre de dialogue '''Liaison''' s'ouvre dans le [[Task_Panel/fr|panneau des tâches]] avec la liste des entités sélectionnées.
 # Vous pouvez modifier le type de liaison dans la liste déroulante :
 #* Sélectionnez '''Fixe'''.
 #*# Si la liste de sélection est vide : sélectionnez deux entités géométriques.
@@ -76,31 +75,29 @@ L'outil [[Image:Assembly_CreateJointFixed.svg|24px]] [[Assembly_CreateJointFixed
 #*# Si la liste de sélection est vide : sélectionnez deux entités géométriques.
 #*# Vous pouvez pouvez entrer une valeur ''Angle''.
 #* Sélectionnez '''Crémaillère'''.
-#*# Si la liste de sélection est vide : sélectionnez deux entités géométriques de deux parties différentes qui ont été précédemment utilisées pour définir une liaison glissière et une liaison pivot. (La direction du curseur et l'axe de rotation doivent être perpendiculaires)
+#*# Si la liste de sélection est vide : sélectionnez deux entités géométriques de deux parties différentes qui ont été précédemment utilisées pour définir une liaison glissière et une liaison pivot. La direction du curseur et l'axe de rotation doivent être perpendiculaires.
 #*# Entrez vous aussi une valeur de ''Rayon primitif''.
 #* Sélectionnez '''Hélicoïde'''.
-#*# Si la liste de sélection est vide : sélectionnez deux entités géométriques de deux parties différentes qui ont été précédemment utilisées pour définir un joint coulissant et un joint à rotule. (La direction du curseur et l'axe de rotation doivent être parallèles)
+#*# Si la liste de sélection est vide : sélectionnez deux entités géométriques de deux parties différentes qui ont été précédemment utilisées pour définir un joint coulissant et un joint à rotule. La direction du curseur et l'axe de rotation doivent être parallèles.
 #*# Entrez vous aussi une valeur de ''Rayon primitif''.
 #* Sélectionnez '''Engrenage'''.
 #*# Si la liste de sélection est vide : sélectionnez deux entités géométriques de deux pièces différentes qui ont été précédemment utilisées pour définir deux articulations en croix différentes.
 #*# Vous pouvez entrer une valeur de ''Rayon 1''.
 #*# Vous pouvez entrer une valeur de ''Rayon 2''.
-#*# Vous pouvez cocher/décocher l'option '''Rotation inversée'''. (décocher sélectionne l'option '''Courroie'''). Ne fonctionne pas pour la 1.0 RC jusqu'à présent.
+#*# Vous pouvez cocher/décocher l'option '''Rotation inversée'''. Décocher sélectionne l'option '''Courroie'''.
 #* Sélectionnez '''Courroie'''.
 #*# Si la liste de sélection est vide : sélectionnez deux entités géométriques de deux pièces différentes qui ont été précédemment utilisées pour définir deux liaisons pivot différentes.
 #*# Vous pouvez entrer une valeur de ''Rayon 1''.
 #*# Vous pouvez entrer une valeur de ''Rayon 2''.
-#*# Vous pouvez cocher/décocher l'option '''Rotation inversée'''. (cocher sélectionne l'option '''Engrenage'''). Ne fonctionne pas pour la 1.0 RC jusqu'à présent.
-# Les pièces sont déplacées pour se retrouver au niveau des entités sélectionnées.
+#*# Vous pouvez cocher/décocher l'option '''Rotation inversée'''. Cocher sélectionne l'option '''Engrenage'''.
 # Vous pouvez cocher la case '''Afficher les décalages avancés''' pour affiner le placement de chaque connecteur par rapport à l'entité à laquelle il est lié.
 #* Deux boutons '''Décalage 1''' et '''Décalage 2''', affichant chacun un décalage de la fixation, sont ajoutés à la fenêtre de dialogue.
 #* Si vous appuyez sur le bouton '''Décalage 1''', la fenêtre de dialogue [[Placement/fr|Placement]] s'ouvrira.
-#*: Ceci permet d'ajuster le décalage de la fixation du premier connecteur à l'entité qui lui est liée.
+#*: Cela permet de régler le décalage de fixation du premier connecteur par rapport à l'entité associée.
 #* Si vous appuyez sur le bouton '''Décalage 2''', la fenêtre de dialogue [[Placement/fr|Placement]] s'ouvrira.
-#*: Ceci permet d'ajuster le décalage de la fixation du second connecteur à l'entité qui lui est liée.
+#*: Cela permet de régler le décalage de fixation du second connecteur par rapport à l'entité associée.
 #* Les pièces sont déplacées vers de nouvelles positions de décalage en fonction des entités sélectionnées et des décalages de fixation.
 # Appuyez sur {{Button|OK}} pour terminer l'outil.
-</div>
 
 <span id="Notes"></span>
 ==Remarques==
