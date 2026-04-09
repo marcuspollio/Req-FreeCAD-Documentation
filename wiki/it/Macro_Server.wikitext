@@ -121,9 +121,7 @@ Questo imposta la cella B1 (nel documento e nel foglio di calcolo globali o atti
 
 ''p <file-path>'' - seleziona/imposta il percorso
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''@<cell-id> [<spreadsheet>]'' - get cell value in form : c<cell-id> <value>
-</div>
+''@<cell-id> [<spreadsheet>]'' - Ottieni il valore della cella nel formato: c<cell-id> <value>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''!<cell-id> <value>'' - set cell value
