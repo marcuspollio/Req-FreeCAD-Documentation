@@ -56,9 +56,7 @@ Dieser Abschnitt bietet einen kurzen Überblick über den Auftrag, einschließli
 <span id="Rough_Stock"></span>
 === Rohmaterial ===
 
-<div class="mw-translate-fuzzy">
-Beschreibt das Rohmaterialobjekt aus dem Auftrag. Dies ist ein Bereich, in dem CAM von einigen Verbesserungen profitieren würde. Eine rudimentäre Materialeigenschaft für das Rohmaterial wäre hier nützlich und könnte auch zur Empfehlung von Vorschüben/Geschwindigkeiten herangezogen werden.
-</div>
+In diesem Abschnitt wird das Rohmaterial-Objekt aus der Bearbeitung angezeigt, einschließlich seiner Größe und seiner Position relativ zum Modell.
 
 <span id="Tool_Data"></span>
 === Werkzeugdaten ===
