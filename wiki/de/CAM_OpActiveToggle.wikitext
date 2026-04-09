@@ -28,7 +28,6 @@ Wenn diese Eigenschaft auf {{FALSE}} gesetzt ist, wird die Bearbeitung als inakt
 <span id="Usage"></span>
 ==Anwendung==
 
-<div class="mw-translate-fuzzy">
 # Eine Bearbeitung in der Gruppe {{MenuCommand|Operationen}} auswählen, die zu einem Auftrag gehört. Eine deaktivierte Bearbeitung ist an ihrer ausgegrauten Beschriftung und ihrem Symbol zu erkennen.
 # Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
 #* Die Taste {{Button|[[Image:CAM_OpActiveToggle.svg|16px]] [[CAM_OpActiveToggle/de|Bearbeitung umschalten]]}} drücken.
@@ -40,12 +39,12 @@ Wenn diese Eigenschaft auf {{FALSE}} gesetzt ist, wird die Bearbeitung als inakt
 #** Das Symbol und die Bezeichnung der Bearbeitung werden ausgegraut.
 #** Die aus der Bearbeitung generierten Pfade verschwinden aus der [[3D_View/de|3D-Ansicht]].
 #** Bei Verwendung des Befehls [[Image:CAM_Inspect.svg|16px]] [[CAM_Inspect/de|CAM Untersuchen]] oder des Befehls [[Image:CAM_Post.svg|16px]] [[CAM_Post/de|CAM Nachbearbeitung]] wird der G-Code der Bearbeitung nicht bereitgestellt.
+#** Wenn der Vorgang Aufbereitungen enthält, werden diese ebenfalls in einem inaktiven Zustand in der [[Tree_View/de|Baumansicht]] angezeigt.
 #* Wenn eine deaktivierte Bearbeitung ausgewählt ist, wird diese durch den Befehl aktiviert:
 #** Das Symbol für den Bearbeitung wird durch das Symbol für die Bearbeitung ersetzt.
 #** Das Symbol und die Bezeichnung für die Bearbeitung sind nicht mehr ausgegraut.
-#** Die aus der Bearbeitung generierten Pfade werden neu berechnet und in der [[3D_View|3D-Ansicht]] angezeigt.
-#** Bei Verwendung des Befehls [[Image:CAM_Inspect.svg|16px]] [[CAM_Inspect/de|CAM Untersuchen]] oder des Befehls [[Image:CAM_Post.svg|16px]] [[CAM_Post|CAM Nachbearbeitung]] wird der G-Code der Bearbeitung bereitgestellt.
-</div>
+#** Die aus der Bearbeitung generierten Pfade werden neu berechnet und in der [[3D_View/de|3D-Ansicht]] angezeigt.
+#** Bei Verwendung des Befehls [[Image:CAM_Inspect.svg|16px]] [[CAM_Inspect/de|CAM Untersuchen]] oder des Befehls [[Image:CAM_Post.svg|16px]] [[CAM_Post/de|CAM Nachbearbeitung]] wird der G-Code der Bearbeitung erneut bereitgestellt.
 
 <span id="Scripting"></span>
 ==Skripten==
