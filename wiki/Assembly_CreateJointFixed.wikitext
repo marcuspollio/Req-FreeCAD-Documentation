@@ -133,9 +133,6 @@ A '''Fixed''' object is derived from an [[App_FeaturePython|App FeaturePython]] 
 * {{PropertyData|Distance2|Float}}: Stores the second distance value of the joint. It is used by the Gear and Belt joints to store '''Radius2'''.
 * {{PropertyData|Angle|Float}}: Stores the angle value of an Angle joint.
 * {{PropertyData|Joint Type|Enumeration}}: The type of the joint. ({{Value|Fixed}}, {{Value|Revolute}}, {{Value|Cylindrical}}, {{Value|Slider}}, {{Value|Ball}}, {{Value|Distance}}, {{Value|Parallel}}, {{Value|Perpendicular}}, {{Value|Angle}}, {{Value|RackPinion}}, {{Value|Screw}}, {{Value|Gears}}, {{Value|Belt}})
-* Removed properties (v1.0.0-RC-38728). These were formerly used for animation:
-** {{PropertyData|Offset|Vector}}: The former offset vector of the joint.
-** {{PropertyData|Rotation|Float}}: The former rotation value of the joint.
 
 <!--T:16-->
 {{TitleProperty|Joint Connector 1}}
@@ -145,11 +142,6 @@ A '''Fixed''' object is derived from an [[App_FeaturePython|App FeaturePython]] 
 * {{PropertyData|Offset1|Placement}}: The attachment offset of the first connector of the joint. (added with v1.0.0-RC-38728)
 * {{PropertyData|Placement1|Placement}}: The local coordinate system within the object of {{PropertyData|Reference1}} that is used by the joint.
 * {{PropertyData|Reference1|XLinkSubHidden}}: The first reference of the joint.
-* Removed properties:
-** {{PropertyData|Element1|String}}: The selected element of the first object.
-** {{PropertyData|Object1|String}}: The first object of the joint.
-** {{PropertyData|Part1|Link}}: The first part of the joint.
-** {{PropertyData|Vertex1|String}}: The selected vertex of the first object.
 
 <!--T:18-->
 {{TitleProperty|Joint Connector 2}}
@@ -159,11 +151,6 @@ A '''Fixed''' object is derived from an [[App_FeaturePython|App FeaturePython]] 
 * {{PropertyData|Offset2|Placement}}: The attachment offset of the second connector of the joint. (added with v1.0.0-RC-38728)
 * {{PropertyData|Placement2|Placement}}: The local coordinate system within the object of {{PropertyData|Reference2}} that is used by the joint.
 * {{PropertyData|Reference2|XLinkSubHidden}}: The second reference of the joint.
-* Removed properties:
-** {{PropertyData|Element2|String}}: The selected element of the second object.
-** {{PropertyData|Object2|String}}: The second object of the joint.
-** {{PropertyData|Part2|Link}}: The second part of the joint.
-** {{PropertyData|Vertex2|String}}: The selected vertex of the second object.
 
 <!--T:20-->
 {{TitleProperty|Limits}}
@@ -177,8 +164,7 @@ A '''Fixed''' object is derived from an [[App_FeaturePython|App FeaturePython]] 
 * {{PropertyData|Enable Length Min|Bool}}: Enables the minimum length limit of the joint.
 * {{PropertyData|Length Max|Float}}: The maximum permitted distance between both connector coordinate systems along their Z axis.
 * {{PropertyData|Length Min|Float}}: The minimum permitted distance between both connector coordinate systems along their Z axis.
-* Removed property:
-** {{PropertyData|Enable Limits|Bool}}: Former flag indicating whether the joint used limits.
+
 
 <!--T:22-->
 {{Docnav
