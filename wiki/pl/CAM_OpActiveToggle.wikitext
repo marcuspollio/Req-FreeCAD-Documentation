@@ -21,9 +21,7 @@
 <span id="Description"></span>
 ==Opis==
 
-<div class="mw-translate-fuzzy">
-Narzędzie [[Image:CAM_OpActiveToggle.svg|24px]] [[CAM_OpActiveToggle/pl|Przełącz aktywne stadium operacji]] w [[Image:Workbench_CAM.svg|24px]] [[CAM_Workbench/pl|środowisku pracy CAM]] jest używane do przełączania aktywnego stanu istniejącej operacji ścieżki.
-</div>
+Narzędzie [[Image:CAM_OpActiveToggle.svg|24px]] [[CAM_OpActiveToggle/pl|Przełącz aktywne stadium operacji]] przełącza właściwość {{PropertyData|Active}} wybranej operacji CAM.
 
 If this property is set to {{FALSE}}, the operation is treated as inactive. Its path is not shown in the [[3D_View|3D View]], and it is ignored by commands such as [[Image:CAM_Inspect.svg|16px]] [[CAM_Inspect|CAM Inspect]] and [[Image:CAM_Post.svg|16px]] [[CAM_Post|CAM Post]].
 
