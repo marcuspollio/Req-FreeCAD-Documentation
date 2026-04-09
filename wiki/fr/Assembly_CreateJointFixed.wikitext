@@ -102,12 +102,10 @@ L'outil [[Image:Assembly_CreateJointFixed.svg|24px]] [[Assembly_CreateJointFixed
 <span id="Notes"></span>
 ==Remarques==
 
-<div class="mw-translate-fuzzy">
-* Chaque liaison relie deux pièces d'un assemblage et les connecteurs attachés à une entité géométrique de chaque pièce sont utilisés pour marquer les positions à faire correspondre par le solveur.
-* Les connecteurs sont en fait des systèmes de coordonnées locales et sont donc marqués par un symbole composé de trois axes (X, Y, Z) et d'un cercle (plan XY). Par défaut, ils ne sont visibles que lorsque la fenêtre de dialogue correspondante est ouverte. Ils sont visibles en permanence si leur visibilité est activée manuellement.
-* Pour une liaison, le second connecteur superpose par défaut le premier connecteur et changera de position en fonction de son type dès que d'autres liaisons seront impliquées.
-* Le fait de passer le pointeur de la souris sur une entité géométrique dans la [[3D_view/fr|vue 3D]], lorsque la fenêtre de dialogue est ouverte et que moins de deux entités sont listées, donne un aperçu de l'endroit où le connecteur sera placé une fois l'entité sélectionnée.
-</div>
+* Chaque liaison relie deux pièces d'un assemblage et utilise un connecteur associé à une entité géométrique de chaque pièce pour définir la manière dont le solveur les aligne.
+* Les connecteurs sont des systèmes de coordonnées locaux et sont représentés par un symbole comportant trois axes (X, Y, Z) et un cercle représentant le plan XY. Par défaut, ils ne sont visibles que lorsque la boîte de dialogue correspondante est ouverte. Ils restent visibles si leur visibilité est activée manuellement.
+* Pour une liaison, le deuxième connecteur est superposé au premier par défaut et peut changer de position en fonction du type de liaison dès lors que d'autres liaisons sont impliquées.
+* En survolant une entité géométrique dans la [[3D_View/fr|vue 3D]], alors que la boîte de dialogue est ouverte et que moins de deux entités sont répertoriées, vous obtenez un aperçu de l'emplacement du connecteur une fois l'entité sélectionnée.
 
 <span id="Properties"></span>
 ==Propriétés==
