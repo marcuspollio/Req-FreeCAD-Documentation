@@ -131,7 +131,9 @@ FreeCAD 正在持续开发中，所以可能存在缺少或过时的信息。如
 
 当许多宏或函数一起开发，并组织在工具栏和菜单中时，它们可以成为一个新的工作台。
 
+<div class="mw-translate-fuzzy">
 [[External_workbenches|外部工作台]] 是不属于基本 FreeCAD 系统一部分的功能集合，通常由经验丰富的用户开发，并针对特定需求。
+</div>
 
 从 FreeCAD 0.17 开始，可以使用 [[Std_AddonMgr|Addon Manager]] 安装许多工作台。  对于手动安装，请参阅[[How_to_install_additional_workbenches|如何安装附加工作台]]。
 
