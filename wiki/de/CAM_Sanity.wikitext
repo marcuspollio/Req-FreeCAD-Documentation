@@ -22,15 +22,25 @@
 <span id="Description"></span>
 ==Beschreibung==
 
+<div class="mw-translate-fuzzy">
 Viele CAM-Benutzer sind Hobbyisten oder Heimwerker. Daher verwenden sie ihre CNC-Maschinen, um selbst konfigurierten und generierten G-Code auszuführen. Bei den meisten professionellen/kommerziellen Anwendern ist dies nicht der Fall. In professionellen Werkstätten sind verschiedene Personen für die Erstellung des G-Codes (CNC-Programmierer) und für dessen Ausführung auf den Maschinen (CNC-Bediener) zuständig.
+</div>
 
+<div class="mw-translate-fuzzy">
 Hobbyisten führen den G-Code in der Regel nur wenige Minuten nach der Nachbearbeitung aus, wahrscheinlich nur ein- oder zweimal. In einem professionellen Betrieb kann ein bewährter G-Code nach seiner Erstellung über Monate oder Jahre hinweg viele Male ausgeführt werden.
+</div>
 
+<div class="mw-translate-fuzzy">
 Ein Problem, das in einer professionellen CNC-Werkstatt auftritt, ist, dass der Programmierer viele Annahmen trifft, die NICHT im G-Code selbst kommuniziert werden. Beispielsweise kann der G-Code ein Werkzeug "T3" anfordern, aber sofern dies nicht kommentiert wird, sagt der G-Code nichts darüber aus, um welche Art von Werkzeug es sich bei "T3" handelt. Es wird einfach angenommen, dass T3 im CAM-System dasselbe ist wie T3 auf der Maschine. Es gibt viele solcher Annahmen, die die Maschineneinrichtung, die Werkzeuge, das Material, die Teileausrichtung usw. betreffen. Selbst wenn der G-Code perfekt ist, kann es zu einem Absturz kommen, wenn der Bediener die Maschine nicht mit denselben Annahmen einrichtet.
+</div>
 
-Kommerzielle Werkstätten erstellen oft ein 'Einrichtungsbuch', in dem all diese Annahmen dokumentiert sind und das den Bedienern die notwendigen Informationen zur Konfiguration der Maschine und zur Herstellung eines Teils liefert. 
+<div class="mw-translate-fuzzy">
+Kommerzielle Werkstätten erstellen oft ein 'Einrichtungsbuch', in dem all diese Annahmen dokumentiert sind und das den Bedienern die notwendigen Informationen zur Konfiguration der Maschine und zur Herstellung eines Teils liefert.
+</div>
 
+<div class="mw-translate-fuzzy">
 [[Image:CAM_Sanity.svg|24px]] [[CAM_Sanity/de|CAM Plausibilitätsprüfung]] ist der Befehl im Arbeitsbereich CAM, um diese Art von Informationen zu generieren. Die Ausgabe dieses Befehls ist eine eigenständige HTML-Datei mit eingebetteten Bildern.
+</div>
 
 [[Image:Sanity.jpg|600px]]
 
@@ -39,51 +49,70 @@ Kommerzielle Werkstätten erstellen oft ein 'Einrichtungsbuch', in dem all diese
 <span id="About_the_Report"></span>
 == Über den Bericht ==
 
+<div class="mw-translate-fuzzy">
 Der Inhalt ist so weit wie möglich FreeCAD-unabhängig. Der CNC-Bediener verwendet möglicherweise niemals FreeCAD, sodass FreeCAD/CAM-spezifische Terminologie verwirrend sein kann. Der Bericht ist in verschiedene Abschnitte unterteilt und so formatiert, dass das Auffinden von Informationen einfach und vorhersehbar ist.
+</div>
 
 <span id="Part_Information"></span>
 === Information zum Teil ===
 
+<div class="mw-translate-fuzzy">
 Dieser Abschnitt gibt einen Überblick über das, was hergestellt wird. Idealerweise sollte das Bild die Basisobjekte zeigen. Wenn es mehrere Basisobjekte gibt, sollte das Bild zeigen, wie diese ineinander verschachtelt sind.
+</div>
 
 <span id="Run_Summary"></span>
-=== Lauf-Zusammenfassung === 
+=== Lauf-Zusammenfassung ===
 
+<div class="mw-translate-fuzzy">
 Gibt einen schnellen Überblick über die minimalen und maximalen Höhen und Laufzeiten.
+</div>
 
 <span id="Rough_Stock"></span>
-=== Rohmaterial === 
+=== Rohmaterial ===
 
+<div class="mw-translate-fuzzy">
 Beschreibt das Rohmaterialobjekt aus dem Auftrag. Dies ist ein Bereich, in dem CAM von einigen Verbesserungen profitieren würde. Eine rudimentäre Materialeigenschaft für das Rohmaterial wäre hier nützlich und könnte auch zur Empfehlung von Vorschüben/Geschwindigkeiten herangezogen werden.
+</div>
 
 <span id="Tool_Data"></span>
-=== Werkzeugdaten === 
+=== Werkzeugdaten ===
 
+<div class="mw-translate-fuzzy">
 Enthält Unterabschnitte für jede im Auftrag verwendete Werkzeugnummer. Hier wird detailliert beschrieben, um welches Werkzeug es sich nach Ansicht des Programmierers handelt und bei welchen Vorgängen es zum Einsatz kommt. Dieser Abschnitt funktioniert nur mit dem neuen [[CAM_ToolBit/de|Werkzeugbit]]-System. Dies ist ein weiterer Bereich, in dem CAM verbessert werden muss. Insbesondere benötigen Werkzeugbits zusätzliche Attribute zum Werkzeug, wie Hersteller/URL/Teilenummer.
+</div>
 
 <span id="Output"></span>
-=== Ausgabe === 
+=== Ausgabe ===
 
+<div class="mw-translate-fuzzy">
 Gibt Details darüber, wo und wann der G-Code nachbearbeitet wurde. Es wird auch angezeigt, ob der Auftrag optionale/obligatorische Stopps enthält, damit der Bediener weiß, ob er sich während des Betriebs sicher von der Maschine entfernen kann.
+</div>
 
 <span id="Coolant"></span>
-=== Kühlmittel === 
+=== Kühlmittel ===
 
+<div class="mw-translate-fuzzy">
 Welche Art von Kühlmittel wird gegebenenfalls benötigt?
+</div>
 
 <span id="Fixtures_and_Work-holding"></span>
-=== Vorrichtungen und Werkstückspannung === 
+=== Vorrichtungen und Werkstückspannung ===
 
+<div class="mw-translate-fuzzy">
 Zeigt die Teile im Kontext des Lagerumschlags und zeigt auch den Teileursprung an.
+</div>
 
 <span id="Squawks"></span>
-=== Krächzen === 
+=== Krächzen ===
 
+<div class="mw-translate-fuzzy">
 Von [[CAM_Sanity/de|CAM Plausibilitätsprüfung]] erkannte Warnungen und Fehler. Diese müssen nicht unbedingt Probleme darstellen, sollten jedoch zur weiteren Überprüfung notiert werden. Wenn beispielsweise dieselbe Werkzeugnummer für verschiedene Werkzeugbits verwendet wird, wird dies als Fehler angezeigt. Wenn für einen Werkzeugsteuerung kein Vorschub/keine Geschwindigkeit konfiguriert ist, wird dies als Warnung angezeigt. Außerdem werden ungenutzte Werkzeugsteuerung erkannt und es wird eine Warnung ausgegeben. CAM würde hier von der Möglichkeit profitieren, beliebige Hinweise oder Warnungen hinzuzufügen.
+</div>
 
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 # Einen [[Image:CAM_Job.svg|16px]] [[CAM_Job/de|CAM Auftrag]] in der [[Tree_View/de|Baumansicht]] auswählen.
 # Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
 #* Die Schaltfläche {{Button|[[Image:CAM_Sanity.svg|16px]] [[CAM_Sanity/de|Plausibilitätsprüfung]]}} drücken.
@@ -93,14 +122,18 @@ Von [[CAM_Sanity/de|CAM Plausibilitätsprüfung]] erkannte Warnungen und Fehler.
 # Die AsciiDoc-Datei wird an denselben Speicherort wie die Datei geschrieben, die nachbearbeitet werden soll.
 # Ein externer Prozess ruft Asciidoctor auf, um die AsciiDoc-Datei zu lesen und die HTML-Datei zu generieren.
 # Dadurch wird der Webbrowser des Systems automatisch gestartet, um den generierten eigenständigen HTML-Bericht anzuzeigen.
+</div>
 
 <span id="Notes"></span>
 ==Hinweise==
 
+<div class="mw-translate-fuzzy">
 * AsciiDoc ist ein leichtgewichtiges Auszeichnungssprachen-Format (Markup) zum Verfassen von Notizen, Artikeln, Büchern usw. Es ist für Menschen lesbar und lässt sich leicht in andere Formate übersetzen.
+</div>
 
+<div class="mw-translate-fuzzy">
 * Asciidoctor ist ein schneller Open-Source-Textprozessor zur Konvertierung von AsciiDoc in HTML, PDF oder andere Formate. Er ist für Linux, Windows und macOS verfügbar. Asciidoctor wird nicht mit FreeCAD installiert. Wenn man '''CAM Plausibilitätsprüfung''' ohne Installation von Asciidoctor verwendet, wird die AsciiDoc-Quelldatei zwar generiert, aber die resultierende HTML-Datei wird nicht erstellt. Siehe [https://asciidoctor.org/ Asciidoctor-Website]
-
+</div>
 
 {{Docnav/de
 |[[CAM_Post/de|Nachbearbeitung]]
