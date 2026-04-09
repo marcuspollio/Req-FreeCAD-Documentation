@@ -73,42 +73,42 @@ Objekt MultiTransformace lze vytvořit z existujících transformací [[PartDesi
 <span id="Options"></span>
 ==Volby== 
 
-* Choose the mode:
-** {{MenuCommand|Transform body}}: Transforms the whole base feature's shape (default). {{Version|1.0}}
-** {{MenuCommand|Transform tool shapes}}: Transforms the individual tool shapes of selected features.
-*** To add features:
-***# Press the {{Button|Add Feature}} button.
-***# Select a feature in the [[Tree_View|Tree View]] or the [[3D_View|3D View]].
-***# Repeat to add more features.
-*** To remove features:
-***# Press the {{Button|Remove Feature}} button.
-***# Do one of the following:
-***#* Select a feature in the [[Tree_View|Tree View]] or the [[3D_View|3D View]].
-***#* Select a feature in the list at the top and press the {{KEY|Del}} key.
-***#* Right-click a feature in the list at the top and select {{MenuCommand|Remove}} from the context menu.
-***# Repeat to remove more features.
-*** If there are several features in the pattern, their order can be important. See [[PartDesign_PolarPattern#Ordering_features|PartDesign PolarPattern]].
-* To add transformations:
-*# If there are existing transformations: select the transformation after which the new transformation should be added.
-*# Right-click the {{MenuCommand|Transformations}} list.
-*# Select one the following options from the context menu:
-*#* {{MenuCommand|Add Mirror Transformation}}. See [[PartDesign_Mirrored|PartDesign Mirrored]].
-*#* {{MenuCommand|Add Linear Pattern}}. See [[PartDesign_LinearPattern|PartDesign LinearPattern]].
-*#* {{MenuCommand|Add Polar Pattern}} See [[PartDesign_PolarPattern|PartDesign PolarPattern]].
-*#* {{MenuCommand|Add Scaled Transformation}}. See [[PartDesign_Scaled|PartDesign Scaled]].
-*# The selected transformation is added to the list and the settings for the transformation are displayed below the list.
-*# Adjust the settings to suit.
-*# Press the {{Button|OK}} bar at the bottom.
-*# Repeat to add more transformations.
-* To edit a transformation:
-*# Right-click the transformation in the {{MenuCommand|Transformations}} list.
-*# Select {{MenuCommand|Edit}} from the context menu.
-*# Adjust the settings to suit.
-*# Press the {{Button|OK}} bar at the bottom.
-* To change the order of the transformations:
-*# Right-click a transformation in the {{MenuCommand|Transformations}} list.
-*# Select {{MenuCommand|Move Up}} or {{MenuCommand|Move Down}} from the context menu.
-* If the {{MenuCommand|Recompute on change}} checkbox is checked the view will update in real time.
+* Vyberte režim:
+** {{MenuCommand|Transformovat těleso}}: Transformuje tvar celého základního prvku (výchozí nastavení). {{Version|1.0}}
+** {{MenuCommand|Transformovat tvary nástrojů}}: Transformuje jednotlivé tvary nástrojů u vybraných prvků.
+*** Přidání prvků:
+***# Klikněte na tlačítko {{Button|Přidat prvek}}.
+***# Vyberte prvek ve [[Tree_View/cs|stromovém zobrazení]] nebo ve [[3D_View/cs|3D pohledu]].
+***# Tento postup opakujte, chcete-li přidat další prvky.
+*** Odebrání prvků:
+***# Klikněte na tlačítko {{Button|Odebrat prvek}}.
+***# Proveďte jednu z následujících akcí:
+***#* Vyberte prvek ve [[Tree_View/cs|stromovém zobrazení]] nebo ve [[3D_View/cs|3D pohledu]].
+***#* Vyberte prvek ze seznamu nahoře a stiskněte klávesu {{KEY|Del}}.
+***#* Klikněte pravým tlačítkem myši na položku v seznamu nahoře a z kontextového menu vyberte {{MenuCommand|Odebrat}}.
+***# Tento postup opakujte, abyste odstranili další prvky.
+*** Pokud vzor obsahuje více prvků, může být jejich pořadí důležité. Viz [[PartDesign_PolarPattern/cs#Ordering_features|PartDesign Kruhový vzor]].
+* Přidání transformací:
+*# Pokud již existují nějaké transformace: vyberte transformaci, za kterou má být nová transformace přidána.
+*# Klikněte pravým tlačítkem myši na seznam {{MenuCommand|Transformací}}.
+*# Z kontextového menu vyberte jednu z následujících možností:
+*#* {{MenuCommand|Přidat zrcadlovou transformaci}}. Viz [[PartDesign_Mirrored/cs|PartDesign – zrcadlení]].
+*#* {{MenuCommand|Přidat lineární vzor}}. Viz [[PartDesign_LinearPattern/cs|PartDesign Lineární vzor]].
+*#* {{MenuCommand|Přidat Kruhový vzor}} Viz [[PartDesign_PolarPattern/cs|PartDesign Kruhový vzor]].
+*#* {{MenuCommand|Přidat transformaci s měřítkem}}. Viz [[PartDesign_Scaled/cs|PartDesign Měřítko]].
+*# Vybraná transformace se přidá do seznamu a její nastavení se zobrazí pod seznamem.
+*# Nastavení upravte podle potřeby.
+*# Klikněte na tlačítko {{Button|OK}} v dolní části okna.
+*# Tento postup opakujte, chcete-li přidat další transformace.
+* Úprava transformace:
+*# Klikněte pravým tlačítkem myši na transformaci v seznamu {{MenuCommand|Transformace}}.
+*# Z kontextového menu vyberte položku {{MenuCommand|Upravit}}.
+*# Nastavení upravte podle potřeby.
+*# Klikněte na tlačítko {{Button|OK}} v dolní části okna.
+* Chcete-li změnit pořadí transformací:
+*# Klikněte pravým tlačítkem myši na transformaci v seznamu {{MenuCommand|Transformací}}.
+*# Z kontextového menu vyberte příkaz {{MenuCommand|Posunout nahoru}} nebo {{MenuCommand|Posunout dolů}}.
+* Pokud je zaškrtnuto políčko {{MenuCommand|Přepočítat při změně}}, zobrazení se bude v reálném čase aktualizovat.
 
 == Limitations ==
 
