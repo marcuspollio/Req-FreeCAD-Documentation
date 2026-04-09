@@ -80,7 +80,8 @@ Um den Z88-Löser zu verwenden, muss die OpenSource-Version von Z88 (Z88OS) inst
 ** siccg - sparse matrix iterative SICCG solver recommended for large structures
 * {{PropertyData|Vector Maximum}} - MAXKOI value: maximum number of entries in the coincidence vector
 
-== Supported finite element types ==
+<span id="Supported_finite_element_types"></span>
+== Unterstützte Finite-Elemente-Typen ==
 
 The following types of finite elements are supported by the Z88 solver implementation:
 * 2-node 3D truss,
