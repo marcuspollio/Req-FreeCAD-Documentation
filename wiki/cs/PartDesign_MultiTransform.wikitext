@@ -115,7 +115,8 @@ Objekt MultiTransformace lze vytvořit z existujících transformací [[PartDesi
 
 Viz [[PartDesign_PolarPattern/cs#Limitations|PartDesign Kruhové pole]].
 
-== Example ==
+<span id="Example"></span>
+== Příklad ==
 
 You can use this tool to create a fully parametric part that is symmetrical about two axes from a sketch.
 
