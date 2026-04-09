@@ -96,11 +96,9 @@ per esempio:
 
 dove :
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* '''!''' is mod/command
-* '''B1''' is name
-* '''123''' is string value (can be another name or just value; depends on situation)
-</div>
+* '''!''' è mod/comando
+* '''B1''' è il nomie
+* '''123''' è un valore stringa (può essere un altro nome o semplicemente il valore; dipende dalla situazione)
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 this sets cell B1 (in global or active document and spreadsheet) to value 123
