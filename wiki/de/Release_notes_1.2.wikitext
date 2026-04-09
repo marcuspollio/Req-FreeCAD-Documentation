@@ -162,9 +162,12 @@ ToDo (last check: 20260318):
 <span id="Further_Draft_improvements"></span>
 === Weitere Draft-Verbesserungen ===
 
-<div class="mw-translate-fuzzy">
 == Arbeitsbereich FEM ==
-</div>
+{| cellpadding=5
+| [[File:FEM_advanced_gmsh_relnotes_1.2.png|384px]]
+| Verschiedene neue Werkzeuge erweitern die Möglichkeiten des Vernetzers  [[Image:FEM_MeshGmshFromShape.svg|24px]] [[FEM_MeshGmshFromShape/de|Gmsh]] Es wurden erweiterte Verfeinerungen und transfinite Algorithmen hinzugefügt. Dank letzterer können nun automatisch hexaedrische Netze für alle Formen erstellt werden, deren Teilvolumina 5 oder 6 Flächen mit jeweils 3 oder 4 Kanten aufweisen.
+[https://github.com/FreeCAD/FreeCAD/pull/24792 Pull-Request #24792]
+|}
 
 <span id="Further_FEM_improvements"></span>
 === Weitere FEM-Verbesserungen ===
