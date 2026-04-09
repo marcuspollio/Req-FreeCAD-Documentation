@@ -127,7 +127,7 @@ Un objet '''Fixed''' est dérivé d'un [[App_FeaturePython/fr|App FeaturePython]
 
 {{TitleProperty|Joint Connector 1}}
 
-* {{PropertyData|Detach1|Bool}} : Empêche le recalcul de {{PropertyData|Placement1}}, ce qui permet de positionner le placement de manière personnalisée.
+* {{PropertyData|Detach1|Bool}} : empêche le recalcul de {{PropertyData|Placement1}}, ce qui permet de positionner le placement de manière personnalisée.
 * {{PropertyData|Offset1|Placement}} : décalage de l'ancrage du premier connecteur de la liaison.
 * {{PropertyData|Placement1|Placement}} : système de coordonnées local au sein de l'objet de {{PropertyData|Reference1}} utilisé par la liaison.
 * {{PropertyData|Reference1|XLinkSubHidden}} : première référence de la liaison.
