@@ -63,9 +63,7 @@ Cette section comporte une sous-section pour chaque numéro d'outil utilisé dan
 <span id="Output"></span>
 === Résultat ===
 
-<div class="mw-translate-fuzzy">
-Donne des détails sur l'endroit et le moment où le G-code a été post-traité. Il indique également si la tâche contient des arrêts facultatifs/obligatoires afin que l'opérateur sache s'il peut s'éloigner de la machine en toute sécurité au cours d'une opération.
-</div>
+Cette section fournit des détails sur le fichier résultats configuré et le contexte de post-traitement. Elle indique également si la tâche contient des arrêts facultatifs ou obligatoires, afin que l'opérateur sache si le fonctionnement de la machine nécessite une surveillance pendant l'exécution.
 
 <span id="Coolant"></span>
 === Liquide de refroidissement ===
