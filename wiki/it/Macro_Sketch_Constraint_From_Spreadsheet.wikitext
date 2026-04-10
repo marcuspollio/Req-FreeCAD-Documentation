@@ -44,9 +44,7 @@ Due modalità:
 <span id="Automatic_mode"></span>
 ==== Modalità automatica ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-An automatic mode where alias are automatically created using a text zone defined by a cell. The zone includes the cell and those below. These texts correspond to the alias name. The alias is created to the right of its text. The designated cell (here A3) is editable in these dialog boxes:
-</div>
+Nella modalità automatica gli alias vengono creati automaticamente utilizzando un'area di testo definita da una cella. L'area include la cella stessa e quelle sottostanti. Questi testi corrispondono al nome dell'alias. L'alias viene creato a destra del relativo testo. La cella designata (in questo caso A3) è modificabile nelle seguenti finestre di dialogo:
 
 [[File:SketchConstraintFromSpreadsheet2302.png|alt=Alias automatic creation|Alias automatic creation]]
 
