@@ -191,11 +191,9 @@ Dieser Abschnitt enthält detaillierte Informationen zum SQL-Dialekt, der vom BI
 
 Der Dialekt hat spezifische Regeln für die Verwendung von Ausdrücken (wie Funktionen oder Arithmetik) in den Klauseln {{Incode|GROUP BY}} und {{Incode|ORDER BY}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* '''For {{Incode|GROUP BY}}:''' When grouping by an expression, you must repeat the entire expression in the {{Incode|GROUP BY}} clause. Using an alias from the {{Incode|SELECT}} list is not supported.
-** ✅ '''Correct:''' {{Code|lang=sql|code=SELECT TYPE(*) … GROUP BY TYPE(*)}}
-** ❌ '''Incorrect:'''{{Code|lang=sql|code=SELECT TYPE(*) AS BimType … GROUP BY BimType}}
-</div>
+* '''Für {{Incode|GROUP BY}}:''' Wenn nach einem Ausdruck gruppiert werden soll, muss der gesamte Ausdruck in der {{Incode|GROUP BY}}-Klausel wiederholt werden. Die Verwendung eines Alias aus der {{Incode|SELECT}}-Liste wird nicht unterstützt.
+** ✅ '''Richtig:''' {{Code|lang=sql|code=SELECT TYPE(*) … GROUP BY TYPE(*)}}
+** ❌ '''Falsch:'''{{Code|lang=sql|code=SELECT TYPE(*) AS BimType … GROUP BY BimType}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * '''For {{Incode|ORDER BY}}:''' Conversely, sorting by a raw expression is not supported. To sort by the result of an expression, you '''must''' first include it in the {{Incode|SELECT}} list with an {{Incode|AS}} alias, and then refer to that alias in the {{Incode|ORDER BY}} clause.
