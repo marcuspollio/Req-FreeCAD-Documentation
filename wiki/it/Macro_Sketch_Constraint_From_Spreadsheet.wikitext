@@ -26,9 +26,8 @@ Macro che, con un semplice clic su una cella di un foglio di calcolo, aggiunge u
 <span id="Usage"></span>
 == Utilizzo ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Automatic object creation ===
-</div>
+<span id="Automatic_object_creation"></span>
+=== Creazione automatica di oggetti ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you run the macro and have not yet created a spreadsheet, a body or a sketch, the macro suggests to create one and then opens the sketch in edition mode and the spreadsheet so that you can start filling it.
