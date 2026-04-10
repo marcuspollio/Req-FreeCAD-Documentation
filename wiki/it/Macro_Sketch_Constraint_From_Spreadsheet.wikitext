@@ -101,9 +101,7 @@ Per rendere il tutto ancora più preciso, se, ad esempio, una linea è orizzonta
 
 [[File:SketchConstraintFromSpreadsheet5.gif]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The macro also works for Objects properties. If you click, for example, on the Length property of a Pad, and then on a cell with the desired value, the Length property of the pad is automatically modified.
-</div>
+La macro funziona anche per le proprietà degli oggetti. Se, ad esempio, si fa clic sulla proprietà Lunghezza di un Pad e poi su una cella con il valore desiderato, la proprietà Lunghezza del Pad viene modificata automaticamente.
 
 [[File:SketchConstraintFromSpreadsheetchangePropertyPad.gif]]
 
