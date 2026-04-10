@@ -48,9 +48,7 @@ The [[File:Workbench_BIM.svg|24px]] [[BIM_Workbench|Верстак BIM]]  обе
 # Создайте в документе проецируемые виды с помощью [[Draft_Shape2DView|видов на фигуры]], затем добавьте все необходимые аннотации, такие как тексты и размеры, и разместите всё это на странице. Это рекомендуемый способ, так как он более гибкий. 
 # Создайте вид на странице непосредственно из плоскости сечения. Затем все необходимые двумерные аннотации нужно либо добавить в плоскость сечения, либо. разместить прямо на странице. Этот способ менее гибкий.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Finally, quantities schedules can be created using the [[Arch_Schedule|schedule]] tool.
-</div>
+Наконец, графики поставок можно создавать с помощью инструмента [[Arch_Schedule|schedule]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you are used to another BIM application, check our [[BIM_application_compatibility_table|BIM application compatibility table]] to get your bearings when starting with FreeCAD.
