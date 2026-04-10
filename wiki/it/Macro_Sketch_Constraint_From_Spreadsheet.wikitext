@@ -41,9 +41,8 @@ Due modalità:
 * una modalità manuale in cui si selezionano manualmente le celle contenenti il ​​testo da utilizzare come alias.
 * una modalità automatica:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Automatic mode ====
-</div>
+<span id="Automatic_mode"></span>
+==== Modalità automatica ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 An automatic mode where alias are automatically created using a text zone defined by a cell. The zone includes the cell and those below. These texts correspond to the alias name. The alias is created to the right of its text. The designated cell (here A3) is editable in these dialog boxes:
