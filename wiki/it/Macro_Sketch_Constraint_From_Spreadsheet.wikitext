@@ -84,9 +84,7 @@ Se la cella ha un alias, la proprietà lunghezza del vincolo sarà qualcosa del 
 
 [[File:If_the_spreadsheet_has_an_alias.png]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-5) If the constraint causes a conflict in the sketch and the "conflict detection" box is checked, the macro will offer to delete the new constraint:
-</div>
+5) Se il vincolo causa un conflitto nello schizzo e la casella "rilevamento conflitti" è selezionata, la macro proporrà di eliminare il nuovo vincolo:
 
 [[File:SketchConstraintFromSpreadsheet3.gif]]
 
