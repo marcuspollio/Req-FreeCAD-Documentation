@@ -15,9 +15,7 @@
 
 ''Contattarmi sul forum di FreeCAD in caso di problemi.'''
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Macro which, with a simple click on a spreadsheet cell, adds a length constraint to a line or between 2 points using a spreadsheet cell alias or address (ex. C2). Future changes to the spreadsheet will update the constraint. The macro can create alias for you.
-</div>
+Macro che, con un semplice clic su una cella di un foglio di calcolo, aggiunge un vincolo di lunghezza a una linea o tra due punti utilizzando un alias o un indirizzo di cella (ad esempio C2). Le modifiche future al foglio di calcolo aggiorneranno il vincolo. La macro può creare l'alias autonomamente.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Just select 1 line, 2 points or a constraint, click on a spreadsheet cell and run the macro. You can select lines, points at the ends of a line, points, circles or arcs of circles.
