@@ -108,9 +108,7 @@ La macro funziona anche per le proprietà degli oggetti. Se, ad esempio, si fa c
 <span id="You_can_use_formulas"></span>
 === Si possono usare le formule ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Principle: The macro transforms the alias before inserting it into the parameter or dimension expression. It replaces keywords with operations for everything following the character string {{Incode|f}} (f for function).
-</div>
+Principio: La macro trasforma l'alias prima di inserirlo nell'espressione del parametro o della dimensione. Sostituisce le parole chiave con operazioni per tutto ciò che segue la stringa di caratteri {{Incode|f}} (f per funzione).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Example of usage:
