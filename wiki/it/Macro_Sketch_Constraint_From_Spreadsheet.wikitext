@@ -33,9 +33,8 @@ Se si esegue la macro e non si ha ancora creato un foglio di calcolo, un corpo o
 
 [[File:SketchConstraintFromSpreadsheet7.gif]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Automatic alias creation ===
-</div>
+<span id="Automatic_alias_creation"></span>
+=== Creazione automatica di alias ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 It is not mandatory, but it is better to use aliases in your spreadsheet. The macro can create aliases from texts in cells.<br>
