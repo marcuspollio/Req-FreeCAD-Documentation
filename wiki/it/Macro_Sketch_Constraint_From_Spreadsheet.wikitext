@@ -1,16 +1,14 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Macro
+{{Macro/it
 |Name=Macro Sketch Constraint From Spreadsheet
-|Description=Macro which, with a simple click on a spreadsheet cell, adds a length constraint to a line, a circle, or between 2 points using a spreadsheet cell alias or address (ex. C2). Future changes to the spreadsheet will update the constraint. The macro can create alias for you.<br>Just select 1 line, 2 points or a constraint, click on a spreadsheet cell and run the macro. You can select lines, points at the ends of a line, points, circles or arcs of circles.<br>
+|Description=Macro che, con un semplice clic su una cella del foglio di calcolo, aggiunge un vincolo di lunghezza a una linea, un cerchio o tra due punti utilizzando un alias o un indirizzo di cella del foglio di calcolo (es. C2). Le modifiche future al foglio di calcolo aggiorneranno il vincolo. La macro può creare l'alias autonomamente.<br>Basta selezionare una linea, due punti o un vincolo, fare clic su una cella del foglio di calcolo ed eseguire la macro. È possibile selezionare linee, punti alle estremità di una linea, punti, cerchi o archi di cerchio.<br>
 |Author=2cv001
 |Download=[https://wiki.freecad.org/images/d/dc/Macro_Sketch_Constraint_From_Spreadsheet.svg ToolBar icon]
 |Version=02.03
-|Date=2025/10/27
+|Date=27/10/2025/
 |FCVersion=All
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Description ==
