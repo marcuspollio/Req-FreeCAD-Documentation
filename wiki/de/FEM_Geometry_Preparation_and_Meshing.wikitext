@@ -291,11 +291,9 @@ Mit beiden Vernetzern lassen sich Vierkantelemente auf Oberflächengeometrien er
 <span id="Hex_meshes"></span>
 === Sechsecknetze ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Hexahedral meshes can be generated on volume geometries using both meshers with some significant limitations:
-* [[FEM_MeshGmshFromShape|Gmsh]] - set the {{PropertyData|Subdivision Algorithm}} to ''All Hexahedra'' - however, the resulting elements are not shaped as expected from hexahedral meshes used in practice,
-* [[FEM_MeshGmshFromShape|Netgen]] - {{Version|1.1}}: for simple extruded shapes, hex or hex-dominated meshes can be created by extrusion if the {{PropertyData|Quad Dominated}} property is enabled and the {{PropertyData|ZRefine}} property is set to ''Regular'' (''Custom'' requires specifying the height of each element in the extrusion direction). The extrusion direction can be changed from the default Z using the {{PropertyData|ZRefine Direction}} property. Element height can be specified as a fraction of the total height using the {{PropertyData|ZRefine Size}} property. This approach works only for first-order meshes (unless the generated elements are all hexahedrons).
-</div>
+Hexaedrische Netze lassen sich auf Volumengeometrien mit beiden Netzgeneratoren erstellen, allerdings mit einigen erheblichen Einschränkungen:
+* [[FEM_MeshGmshFromShape/de|Gmsh]] - {{PropertyData/de|Subdivision Algorithm}} auf ''All Hexahedra'' setzen - die resultierenden Elemente haben jedoch nicht die Form, die man von den in der Praxis verwendeten hexaedrischen Netzen erwarten würde,
+* [[FEM_MeshGmshFromShape/de|Netgen]] - {{Version/de|1.1}}: Bei einfachen extrudierten Formen können durch Extrusion sechseckige oder überwiegend sechseckige Netze erstellt werden, wenn die Eigenschaft {{PropertyData/de|Quad Dominated}} aktiviert ist und die Eigenschaft {{PropertyData/de|ZRefine}} auf ''Regular'' gesetzt ist (''Custom'' erfordert die Angabe der Höhe jedes Elements in Extrusionsrichtung). Die Extrusionsrichtung kann mithilfe der Eigenschaft {{PropertyData/de|ZRefine Direction}} von der Standardrichtung Z geändert werden. Die Elementhöhe kann mithilfe der Eigenschaft {{PropertyData/de|ZRefine Size}} als Bruchteil der Gesamthöhe angegeben werden. Dieser Ansatz funktioniert nur bei Netzen erster Ordnung (es sei denn, die generierten Elemente sind alle Hexaeder).
 
 [[Image:Z_refine.PNG|400px]]
 
