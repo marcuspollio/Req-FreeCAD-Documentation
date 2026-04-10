@@ -80,9 +80,7 @@ Per utilizzare la modalità manuale, non selezionare l'opzione "Automatic alias"
 
 [[File:Choose type of constraint.png]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If the cell has an alias, the length property of the constraint will be something like 'Spreadsheet.alias'. Otherwise, something like 'Spreadsheet.D4'.
-</div>
+Se la cella ha un alias, la proprietà lunghezza del vincolo sarà qualcosa del tipo 'Spreadsheet.alias'. Altrimenti, qualcosa del tipo 'Spreadsheet.D4'.
 
 [[File:If_the_spreadsheet_has_an_alias.png]]
 
