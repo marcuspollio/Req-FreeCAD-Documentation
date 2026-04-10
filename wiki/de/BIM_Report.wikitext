@@ -264,14 +264,12 @@ The dialect includes a library of built-in functions for data manipulation and a
 
 Es kann auf alle Eigenschaften eines Objekts zugegriffen werden, einschließlich verschachtelter Datenstrukturen.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Direct Access:''' Access a simple property directly by its name.
-** Example: {{Incode|Label}}, {{Incode|IfcType}}
-* '''Nested Access:''' Use dot notation to access sub-properties.
-** Example: {{Incode|Shape.Volume}}, {{Incode|Placement.Base.z}}
-* '''Chained Access:''' Chain property access onto the result of a function, most commonly {{Incode|PARENT()}}.
-** Example: {{Incode|PARENT(*).Label}}, {{Incode|PARENT(*).PARENT(*).Height}}
-</div>
+* '''Direkter Zugriff:''' Direkt über den Namen auf eine einfache Eigenschaft zugreifen.
+** Beispiel: {{Incode|Label}}, {{Incode|IfcType}}
+* '''Verschachtelter Zugriff:''' Die Punktnotation verwenden, um auf Untereigenschaften zuzugreifen.
+** Beispiel: {{Incode|Shape.Volume}}, {{Incode|Placement.Base.z}}
+* '''Verketteter Zugriff:''' Den Zugriff auf Eigenschaften mit dem Ergebnis einer Funktion verketten, am häufigsten {{Incode|PARENT()}}.
+** Beispiel: {{Incode|PARENT(*).Label}}, {{Incode|PARENT(*).PARENT(*).Height}}
 
 <span id="Operators"></span>
 === Operatoren ===
