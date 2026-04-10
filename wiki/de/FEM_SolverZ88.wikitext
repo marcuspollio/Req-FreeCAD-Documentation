@@ -30,12 +30,12 @@ Der Befehl [[FEM_SolverZ88/de|LöserZ88]] aktiviert die Nutzung des [https://en.
 
 ==Installation==
 
-<div class="mw-translate-fuzzy">
-Um den Z88-Löser zu verwenden, muss die OpenSource-Version von Z88 (Z88OS) installiert sein:
-# Das ZIP-Paket mit dem Code vom [https://github.com/lscad/z88os Z88OS-Repository] herunterladen.
-# Die ZIP-Datei in einen Ordner der Wahl entpacken.
-# In den [[FEM_Preferences/de|FEM-Einstellungen]] zur Registerkarte Z88 gehen und dort den Pfad zur Binärdatei '''z88r''' festlegen. Unter Windows wäre dies der Pfad zur Datei {{FileName|z88r.exe}}, die sich im Unterordner {{FileName|~\bin\win64}} des Ordners befindet, in den die ZIP-Datei extrahiert wurde.
-</div>
+Um den Z88-Löser nutzen zu können, muss die Open-Source-Version von Z88 (Z88OS oder Z88Adria – weitere Informationen sind unter [[#Hinweise|Hinweise]]) zu finden, installiert sein:
+# Das ZIP-Paket mit dem Code, den Binärdateien und der Dokumentation der jeweiligen Version herunterladen:
+#* Z88OS: [https://github.com/lscad/z88os Offizielles Z88OS-Repository] oder [https://github.com/FreeCAD/Z88OS abgezweigtes Z88OS-Repository]
+#* Z88Adria: [https://en.z88.de/download-z88adria/ Z88Adria Download-Seite].
+# Den Inhalt der ZIP-Datei in einen Ordner der Wahl entpacken.
+# In den [[FEM_Preferences/de|FEM Einstellungen]], zum Z88-Reiter wechseln und den Pfad zur '''z88r'''-Binärdatei angeben. Wenn Windows verwendet wird, wäre dies der Pfad zur Datei {{FileName|z88r.exe}}, die sich im Unterordner {{FileName|\bin\win64}} für Z88OS bzw. im Unterordner {{FileName|\z88adria_windows}} für Z88Adria befindet.
 
 <span id="Usage"></span>
 ==Anwendung==
