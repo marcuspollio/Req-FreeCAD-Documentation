@@ -51,31 +51,31 @@ Um den Z88-Löser nutzen zu können, muss die Open-Source-Version von Z88 (Z88OS
 <span id="Properties"></span>
 == Eigenschaften ==
 
-* {{PropertyData|Exclude Bending Stiffness}} - replaces beams with trusses, currently always checked because beams are not yet supported
-* {{PropertyData|Model Space}}:
-** 3D - uses 3D shell elements
-** plane stress - uses 2D plane stress elements
-** axisymmetric - uses 2D axisymmetric elements
-** plate - uses 3D plate elements
-* {{PropertyData|Shell Flag}} - IHFLAG value: set to 2 or 3 for thin shells and to 4 for very thin shells
-* {{PropertyData|Analysis Type}}:
-** static
-** test
-* {{PropertyData|Displace Mesh}} - deform the mesh by the displacement field
-* {{PropertyData|Integration Order Hexa}} - displacement integration order for hexa elements
-* {{PropertyData|Integration Order Quad}} - displacement integration order for quad elements
-* {{PropertyData|Integration Order Tetra}} - displacement integration order for tetra elements
-* {{PropertyData|Integration Order Tria}} - displacement integration order for tria elements
-* {{PropertyData|Iteration Maximum}} - MAXIT value: maximum number of iterations for iterative solvers
-* {{PropertyData|Matrix Maximum}} - MAXGS value: maximum number of entries in the stiffness matrix
-* {{PropertyData|Relaxation Factor}} - ROMEGA value: convergence acceleration parameter for SOR pre-conditioner
-* {{PropertyData|Residual Limit}} - EPS value: it is compared to the norm of the residual vector
-* {{PropertyData|Shift Factor}} - RALPHA value: convergence acceleration parameter for SIC pre-conditioner
-* {{PropertyData|Solver Type}}:
-** choly - direct Cholesky solver recommended for small structures
-** sorcg - sparse matrix iterative SORCG solver recommended for large structures
-** siccg - sparse matrix iterative SICCG solver recommended for large structures
-* {{PropertyData|Vector Maximum}} - MAXKOI value: maximum number of entries in the coincidence vector
+* {{PropertyData/de|Exclude Bending Stiffness}} - Ersetzt Träger durch Fachwerkträger; diese Option ist derzeit immer aktiviert, da die Träger noch nicht abgestützt sind
+* {{PropertyData/de|Model Space}}:
+** 3D - verwendet 3D-Schalenelemente
+** plane stress - verwendet 2D-Ebenen-Spannungselemente
+** axisymmetric - verwendet 2D-axialsymmetrische Elemente
+** plate - verwendet 3D-Plattenelemente
+* {{PropertyData/de|Shell Flag}} - IHFLAG-Wert: Setzen Sie ihn auf 2 oder 3 für dünne Schalen und auf 4 für sehr dünne Schalen
+* {{PropertyData/de|Analysis Type}}:
+** statisch
+** testen
+* {{PropertyData/de|Displace Mesh}} - das Netz anhand des Verschiebungsfeldes verformen
+* {{PropertyData/de|Integration Order Hexa}} - Reihenfolge der Verschiebungsintegration für Hexa-Elemente
+* {{PropertyData/de|Integration Order Quad}} - Integrationsreihenfolge für Vierkantelemente
+* {{PropertyData/de|Integration Order Tetra}} - Integrationsreihenfolge für Tetra-Elemente
+* {{PropertyData/de|Integration Order Tria}} - Reihenfolge der Verschiebungsintegration für Tria-Elemente
+* {{PropertyData/de|Iteration Maximum}} - MAXIT-Wert: maximale Anzahl von Iterationen für iterative Löser
+* {{PropertyData/de|Matrix Maximum}} - MAXGS-Wert: maximale Anzahl von Einträgen in der Steifigkeitsmatrix
+* {{PropertyData/de|Relaxation Factor}} - ROMEGA-Wert: Konvergenzbeschleunigungsparameter für den SOR-Vorkonditionierer
+* {{PropertyData/de|Residual Limit}} - EPS-Wert: es wird mit der Norm des Restvektors verglichen
+* {{PropertyData/de|Shift Factor}} - RALPHA-Wert: Konvergenzbeschleunigungsparameter für den SIC-Vorkonditionierer
+* {{PropertyData/de|Solver Type}}:
+** choly - Direkter Cholesky-Löser, empfohlen für kleine Strukturen
+** sorcg - Iterativer SORCG-Löser für spärliche Matrizen, empfohlen für große Strukturen
+** siccg - Iterativer SICCG-Löser für spärliche Matrizen, empfohlen für große Strukturen
+* {{PropertyData/de|Vector Maximum}} - MAXKOI-Wert: maximale Anzahl von Einträgen im Koinzidenzvektor
 
 <span id="Supported_finite_element_types"></span>
 == Unterstützte Finite-Elemente-Typen ==
