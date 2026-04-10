@@ -61,9 +61,7 @@ The [[File:Workbench_BIM.svg|24px]] [[BIM_Workbench|Верстак BIM]]  обе
 
 Рабочая среда BIM объединяет инструменты из нескольких других рабочих сред FreeCAD, в основном [[Draft_Workbench|Draft]] и [[Part_Workbench|Part]], которые были условно разделены на логические категории.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Additionally, if such [[External_workbenches|addons]] are installed, tools from [[Reinforcement_Workbench|Reinforcement]] (extra reinforcing bar tools), [[Fasteners_Workbench|Fasteners]] (bolts and screws), [[Flamingo_Workbench|Flamingo/Dodo]] (metal structure and piping tools) and [[Parts_Library_Workbench|Parts Library]] are automatically included in the BIM workbench.
-</div>
+Кроме того, если установлены такие [[Внешние_верстаки|дополнения]], в верстак BIM автоматически включаются инструменты из [[Верстак_арматуры|Верстака арматуры]] (дополнительные инструменты для армирования), [[Верстак_крепежных_деталей|Верстака крепежных деталей]] (болты и винты), [[Верстак_Flamingo|Верстака Flamingo/Dodo]] (инструменты для работы с металлоконструкциями и трубопроводами) и [[Верстак_библиотеки_деталей|Верстака библиотеки деталей]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The BIM workbench also adds a series of items in the '''Status Bar''' of FreeCAD, and a couple of '''context menu items''', accessible by right-clicking in the 3D View or in the Tree View.
