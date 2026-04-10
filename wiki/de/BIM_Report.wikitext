@@ -102,16 +102,14 @@ Dieses kurze Tutorial führt durch die Erstellung eines vollständigen Raumplans
 <span id="Step_2:_Simple_statement"></span>
 === Schritt 2: Einfache Anweisung ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-First, let's create a simple list of all spaces and their areas.
-# In the '''Report Statements''', click the {{Button|[[Image:List-add.svg|16px]] Add Statement}} button. A new, empty statement will appear in the list.
-# With the new statement selected, click the {{Button|[[Image:Edit-edit.svg|16px]] Edit Selected}} button. The '''Statement Editor''' will appear at the bottom of the Task Panel.
-# In the '''Description''' field, type {{Incode|Room List}}.
-# In the '''SQL Query''' editor, enter the following query. This selects the name and area of all objects that are {{Incode|Space}}s and sorts them alphabetically.{{Code|lang=sql|code=
+Zunächst erstellen wir eine einfache Liste aller Räume und ihrer Flächen.
+# In '''Report Statements''' auf die Schaltfläche {{Button|[[Image:List-add.svg|16px]] Anweisung hinzufügen}} klicken. In der Liste erscheint eine neue, leere Anweisung.
+# Wenn die neue Anweisung ausgewählt ist, auf die Schaltfläche {{Button|[[Image:Edit-edit.svg|16px]] Ausgewählte bearbeiten}} klicken. Der '''Statement Editor''' wird am unteren Rand des Aufgaben-Fensters angezeigt.
+# Im Feld '''Description''', {{Incode|Room List}} eingeben.
+# Im '''SQL Query'''-Editor, die folgende Abfrage eingeben. Dadurch werden Name und Fläche aller Objekte ausgewählt, die {{Incode|Space}} sind, und alphabetisch sortiert. {{Code|lang=sql|code=
 SELECT Label, Area FROM document WHERE IfcType = 'Space' ORDER BY Label ASC
 }}
-# Click the {{Button|[[Image:Document-save.svg|16px]] Save}} button in the editor to commit your changes to the statement.
-</div>
+# Die Schaltfläche {{Button|[[Image:Document-save.svg|16px]] Speichern}} im Editor drücken, um die Änderungen in der Anweisung zu speichern.
 
 <span id="Step_3:_Multi-section_report"></span>
 === Schritt 3: Mehrteiliger Bericht ===
