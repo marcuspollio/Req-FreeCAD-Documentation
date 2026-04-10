@@ -43,9 +43,7 @@ The [[File:Workbench_BIM.svg|24px]] [[BIM_Workbench|Верстак BIM]]  обе
 
 Элементы строительных проектов можно организовать с помощью [[Arch_Site|территорий (местностей)]], [[Arch_Building|зданий]] и [[Arch_BuildingPart|уровней]], как это обычно делается в других приложениях BIM. Однако в FreeCAD такие структуры не являются обязательными, и вы можете организовать элементы модели так, как считаете нужным, например, с помощью [[Std_Group|групп]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-2D drawings can be generated from a model to represent plan, section or elevation views. To generate such a drawing,[[Arch_SectionPlane|section planes]] are placed in the model, to indicate where it should be cut or viewed from. Once the section planes are in place, two methods are possible:
-</div>
+На основе модели можно создать 2D-чертежи, отображающие вид в плане, разрезе или с высоты. Для создания такого чертежа в модель добавляются [[Arch_SectionPlane|плоскости сечения]], указывающие, где модель нужно разрезать или откуда на нее смотреть. После добавления плоскостей сечения возможны два варианта действий:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Create projected views in the document using [[Draft_Shape2DView|shape views]], then add all the necessary annotations such as texts and dimensions, then put all this on a page. This is the recommended way, as it offers more flexibility.
