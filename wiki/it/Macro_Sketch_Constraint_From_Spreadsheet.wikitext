@@ -114,12 +114,10 @@ Esempio di utilizzo:
 
 [[File:SketchConstraintFromSpreadsheetcformulaMult.gif]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If your alias is: radius_f__mul_2_plu_1<br>
-The expression will be:<br>
+Se l'alias è: radius_f__mul_2_plu_1<br>
+L'espressione sarà:<br>
 {{Incode|<<datas>>.radius_f__mul_2_plu_1 '''* 2 + 1'''}}<br>
-Thus, if you have, for instance, the value 5 in the cell, the parameter or dimension will take the value 5 * 2 + 1, which equals 11.
-</div>
+Quindi, se ad esempio c'è il valore 5 nella cella, il parametro o la dimensione assumerà il valore 5 * 2 + 1, che è uguale a 11.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 A snippet of the code showing possible operations and formulas to use:
