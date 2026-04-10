@@ -30,9 +30,7 @@ Jednym z problemów w tym podejściu jest to, że wiele założeń przyjętych p
 
 Nawet jeśli sam G-kod jest poprawny, różnice między zaprogramowaną konfiguracją a rzeczywistą konfiguracją maszyny nadal mogą prowadzić do błędów. Warsztaty komercyjne często rozwiązują ten problem, przygotowując dla operatora maszyny raport z konfiguracji lub kartę konfiguracji.
 
-<div class="mw-translate-fuzzy">
-[[Image:CAM_Sanity.svg|24px]] [[CAM_Sanity/pl|Bezpieczeństwo]] to polecenie w środowisku pracy CAM używane do generowania tego rodzaju informacji dotyczących konfiguracji. Wynikiem jest samodzielny raport HTML z osadzonymi obrazami, który można otworzyć w przeglądarce internetowej.
-</div>
+Polecenie [[Image:CAM_Sanity.svg|24px]] [[CAM_Sanity/pl|Bezpieczeństwo]] jest używane do generowania tego rodzaju informacji dotyczących konfiguracji. Wynikiem jest samodzielny raport HTML z osadzonymi obrazami, który można otworzyć w przeglądarce internetowej.
 
 [[Image:Sanity.jpg|600px]]
 
