@@ -311,11 +311,9 @@ Es kann auf alle Eigenschaften eines Objekts zugegriffen werden, einschließlich
 <span id="General_syntax"></span>
 === Allgemeine Syntax ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Literals and Quotes''': Both single quotes ({{Incode|'}}) and double quotes ({{Incode|"}}) can be used for text literals (strings). For example, {{Incode|WHERE Label {{:=}} 'Wall'}} and {{Incode|WHERE Label {{:=}} "Wall"}} are equivalent.
-* '''Comments''': The parser ignores both single-line comments, which start with {{Incode|--}}, and multi-line comments, which are enclosed in {{Incode|/* … */}}.
-* '''Internationalization''': The parser correctly handles non-ASCII (Unicode) characters in property names (e.g., Fläche).
-</div>
+* '''Literale und Anführungszeichen''': Für Textliterale (Zeichenketten) können sowohl einfache Anführungszeichen ({{Incode|'}}) als auch doppelte Anführungszeichen ({{Incode|"}}) verwendet werden. Zum Beispiel, {{Incode|WHERE Label {{:=}} 'Wall'}} und {{Incode|WHERE Label {{:=}} "Wall"}} sind gleichwertig.
+* '''Kommentare''': Der Parser ignoriert sowohl einzeilige Kommentare, die mit {{Incode|--}} beginnen, als auch mehrzeilige Kommentare, die in {{Incode|/* … */}} eingeschlossen sind.
+* '''Internationalisierung''': Der Parser verarbeitet Nicht-ASCII-Zeichen (Unicode) in Eigenschaftsnamen korrekt (z. B. Fläche).
 
 <span id="Sample_queries"></span>
 == Beispiel-Abfragen ==
