@@ -36,12 +36,10 @@ Se si esegue la macro e non si ha ancora creato un foglio di calcolo, un corpo o
 <span id="Automatic_alias_creation"></span>
 === Creazione automatica di alias ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-It is not mandatory, but it is better to use aliases in your spreadsheet. The macro can create aliases from texts in cells.<br>
-Two modes:
-* a manual mode where you select yourself the cells with text for alias and an automatic mode.
-* and an automatic mode:
-</div>
+Non è obbligatorio, ma è consigliabile utilizzare gli alias nel foglio di calcolo. La macro può creare alias a partire dal testo presente nelle celle.<br>
+Due modalità:
+* una modalità manuale in cui si selezionano manualmente le celle contenenti il ​​testo da utilizzare come alias.
+* una modalità automatica:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Automatic mode ====
