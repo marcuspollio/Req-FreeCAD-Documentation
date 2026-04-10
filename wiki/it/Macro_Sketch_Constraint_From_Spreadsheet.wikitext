@@ -110,9 +110,7 @@ La macro funziona anche per le proprietà degli oggetti. Se, ad esempio, si fa c
 
 Principio: La macro trasforma l'alias prima di inserirlo nell'espressione del parametro o della dimensione. Sostituisce le parole chiave con operazioni per tutto ciò che segue la stringa di caratteri {{Incode|f}} (f per funzione).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Example of usage:
-</div>
+Esempio di utilizzo:
 
 [[File:SketchConstraintFromSpreadsheetcformulaMult.gif]]
 
