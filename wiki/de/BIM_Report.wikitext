@@ -162,10 +162,8 @@ SELECT Label, Width, Height FROM CHILDREN(SELECT * FROM document) WHERE IfcType 
 <span id="Step_5:_Presets_and_templates"></span>
 === Schritt 5: Voreinstellungen und Vorlagen ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Report Templates''' load a full, multi-statement report. In the '''Report Statements''', select a template like "Room and Area Schedule" from the dropdown to instantly load the configuration from Steps 2 & 3. You can save your own reports as new templates for reuse.
-* '''Query Presets''' load a single query into the editor. In the '''Statement Editor''', select a preset like "All Walls" from the dropdown to populate the SQL editor. You can save your own frequently used queries by clicking the {{Button|Save…}} button.
-</div>
+* '''Berichtsvorlagen''' laden einen vollständigen Bericht mit mehreren Anweisungen. Unter '''Report Statements''' (Berichtsvorlagen) eine Vorlage wie „Room and Area Schedule“ (Raum- und Flächenplan) aus der Dropdown-Liste auswählen, um die Konfiguration aus den Schritten 2 und 3 sofort zu laden. Eigenen Berichte können als neue Vorlagen gespeichert werden, um sie später wiederzuverwenden.
+* '''Abfragevoreinstellungen''' laden eine einzelne Abfrage in den Editor. Im '''Statement Editor''' eine Voreinstellung wie „All Walls“ aus dem Dropdown-Menü auswählen, um den SQL-Editor zu füllen. Eigene, häufig verwendete Abfragen können gespeichert werden, indem auf die Schaltfläche {{Button|Speichern…}} geklickt wird.
 
 <span id="BIM_SQL_dialect_reference"></span>
 == BIM SQL-Dialektreferenz ==
