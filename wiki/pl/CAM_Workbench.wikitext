@@ -34,12 +34,14 @@ G-kod jest generowany na podstawie dyrektyw i operacji zawartych w zadaniu CAM. 
 
 Środowisko pracy CAM udostępnia menedżera narzędzi ''(bibliotekę, tabelę narzędzi)'', narzędzia do inspekcji G-kodu oraz symulacji.  Łączy się z postprocesorem i umożliwia importowanie i eksportowanie szablonów zadań.
 
+<div class="mw-translate-fuzzy">
 Środowisko CAM ma zewnętrzne zależności, w tym:
 # Jednostki modelu FreeCAD 3D są zdefiniowane w {{MenuCommand|Edycja → Preferencje ... → Ogólne → Domyślny układ jednostek}}. Konfiguracja Postprocesora definiuje jednostki wynikowe G-kodu.
 # Ścieżka do pliku Makrodefinicji oraz tolerancje geometryczne są zdefiniowane w zakładce {{MenuCommand|Edycja → Preferencje ... → CAM → Ustawienia dla zadania}}.
 # Kolory są definiowane w zakładce {{MenuCommand|Edycja → Preferencje ... → CAM → GUI}}.
 # Parametry znaczników trzymania definiuje się w zakładce {{MenuCommand|Edycja → Preferencje ... → CAM → Wykończenia}}. 
 # To, że jakość modelu Base 3D jest zgodna z wymaganiami środowiska CAM, potwierdza sprawdzenie geometrii.
+</div>
 
 <span id="Limitations"></span>
 ==Ograniczenia==
