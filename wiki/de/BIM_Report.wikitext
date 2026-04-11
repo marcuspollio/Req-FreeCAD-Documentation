@@ -169,14 +169,12 @@ Dieser Abschnitt enthält detaillierte Informationen zum SQL-Dialekt, der vom BI
 <span id="Clauses"></span>
 === Klauseln ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{Incode|SELECT}}: Specifies the columns of data to return. Can use {{Incode|*}} to select a default identifier for all objects.
-* {{Incode|FROM}}: Specifies the data source. In a standalone query, this is always {{Incode|document}}. In a pipeline, {{Incode|document}} is a placeholder for the data from the previous step. Can also use the {{Incode|CHILDREN()}} function.
-* {{Incode|WHERE}}: Filters objects based on conditions.
-* {{Incode|GROUP BY}}: Groups rows that have the same values into summary rows, typically used with aggregate functions.
-* {{Incode|ORDER BY}}: Sorts the final results. Can be followed by {{Incode|ASC}} (ascending, default) or {{Incode|DESC}} (descending). Supports sorting by multiple columns.
-* {{Incode|AS}}: Creates an alias (a custom name) for a column in the {{Incode|SELECT}} clause, e.g., {{Incode|SELECT Area AS "My Area"}}.
-</div>
+* {{Incode|SELECT}}: Legt fest, welche Datenspalten zurückgegeben werden sollen. Mit {{Incode|*}} kann ein Standardbezeichner für alle Objekte ausgewählt werden.
+* {{Incode|FROM}}: Gibt die Datenquelle an. In einer eigenständigen Abfrage ist dies immer {{Incode|document}}. In einer Pipeline ist {{Incode|document}} ein Platzhalter für die Daten aus dem vorherigen Schritt. Es kann auch die Funktion {{Incode|CHILDREN()}} verwendet werden.
+* {{Incode|WHERE}}: Filtert Objekte anhand von Bedingungen.
+* {{Incode|GROUP BY}}: Fasst Zeilen mit identischen Werten zu Zusammenfassungszeilen zusammen; wird in der Regel in Verbindung mit Aggregatfunktionen verwendet.
+* {{Incode|ORDER BY}}: Sortiert die Endergebnisse. Kann gefolgt werden von {{Incode|ASC}} (aufsteigend, Standard) oder {{Incode|DESC}} (absteigend). Unterstützt die Sortierung nach mehreren Spalten.
+* {{Incode|AS}}: Erstellt einen Alias (einen benutzerdefinierten Namen) für eine Spalte in der {{Incode|SELECT}}-Klausel, z. B. {{Incode|SELECT Area AS "My Area"}}.
 
 <span id="Usage_notes_for_GROUP_BY_and_ORDER_BY"></span>
 ==== Anwendungshinweise für GROUP BY und ORDER BY ====
