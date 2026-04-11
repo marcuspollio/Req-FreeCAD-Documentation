@@ -72,19 +72,17 @@ Dieser Abschnitt wird unten im Aufgaben-Fenster angezeigt, wenn eine Anweisung a
 
 [[File:BIM_Report_Statement_Editor.png|thumb|Der Ausdrucks-Editor mit SQL-Editor, Vorschaufenster und Anzeigeoptionen.]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The '''SQL Query Editor''' is a text box with syntax highlighting. Autocompletion for SQL keywords and property names from your model is automatically enabled. Use the {{KEY|↑}} and {{KEY|↓}} keys as needed, and press the {{KEY|Tab}} to apply the chosen suggestion.
-* Below the editor, a '''Live Validation''' status label gives you immediate feedback, indicating if your syntax is valid and showing a live count of matching objects.
-* The {{Button|[[Image:Std_ToggleVisibility.svg|16px]] Show Preview}} button will run the current query on-demand and display the full data results in a temporary table, allowing you to test your query without closing the editor.
-* The {{Button|[[Image:Help-browser.svg|16px]] Help}} button opens a dialog with a "cheatsheet" of all supported SQL clauses and functions.
-* The '''Display Options''' group contains checkboxes for controlling the final formatting in the spreadsheet:
-** {{CheckBox|Use as Pipeline Step}}: When checked, this statement will use the results of the previous statement as its data source instead of querying the entire document. This is the key control for enabling pipeline workflows.
-** {{CheckBox|Use Description as Section Header}}: When checked, the statement's description (e.g., "Room List") will be written as a merged, centered header row in the spreadsheet before its data results.
-** {{CheckBox|TRUE|Include Column Names}}: This option, enabled by default, includes the column headers (e.g., {{Incode|Label}}, {{Incode|Area}}) in the spreadsheet output for this statement.
-** {{CheckBox|Add Empty Row After}}: When checked, a blank row will be inserted after this statement's results, providing visual separation in a multi-section report.
-** {{CheckBox|Print Results in Bold}}: Renders the data cells for this statement's results in a bold font for emphasis.
-* The '''Query Presets''' dropdown allows you to load and save individual, commonly used SQL queries.
-</div>
+* Der '''SQL-Abfrage-Editor''' ist ein Textfeld mit Syntaxhervorhebung. Die Autovervollständigung für SQL-Schlüsselwörter und Eigenschaftsnamen aus dem Modell ist automatisch aktiviert. Nach Bedarf die Tasten {{KEY|↑}} und {{KEY|↓}} verwenden und die {{KEY|Tab}}-Taste drücken, um den ausgewählten Vorschlag zu übernehmen.
+* Unterhalb des Editors, gibt es einen '''Live-Validierungs'''-Status, die unmittelbar eine Rückmeldung gibt, anzeigt, ob deine Syntax gültig ist, und eine Live-Zählung der übereinstimmenden Objekte anzeigt.
+* Die Schaltfläche {{Button|[[Image:Std_ToggleVisibility.svg|16px]] Vorschau anzeigen}} führt die aktuelle Abfrage auf Abruf aus und zeigt die vollständigen Ergebnisse in einer temporären Tabelle an, sodass die Abfrage getestet werden kann, ohne den Editor zu schließen.
+* Die Schaltfläche {{Button|[[Image:Help-browser.svg|16px]] Hilfe}} öffnet ein Dialogfeld mit einer „Übersicht“ aller unterstützten SQL-Klauseln und -Funktionen.
+* Die Gruppe '''Anzeigeoptionen''' enthält Kontrollkästchen zur Steuerung der endgültigen Formatierung in der Tabelle:
+** {{CheckBox|Als Pipeline-Schritt verwenden}}: Wenn diese Option aktiviert ist, verwendet diese Anweisung die Ergebnisse der vorherigen Anweisung als Datenquelle, anstatt das gesamte Dokument abzufragen. Dies ist die zentrale Steuerung zur Aktivierung von Pipeline-Workflows.
+** {{CheckBox|Beschreibung als Abschnittsüberschrift verwenden}}: Wenn dieses Kontrollkästchen aktiviert ist, wird die Beschreibung der Anweisung (z. B. „Raumliste“) als zusammengeführte, zentrierte Kopfzeile in die Tabelle vor den Datenergebnissen eingefügt.
+** {{CheckBox|TRUE|Spaltennamen einbeziehen}}: Diese Option, die standardmäßig aktiviert ist, fügt die Spaltenüberschriften (z. B. {{Incode|Label}}, {{Incode|Area}}) in die Tabellenkalkulationsausgabe für diese Anweisung ein.
+** {{CheckBox|Leere Zeile einfügen}}: Wenn dieses Kontrollkästchen aktiviert ist, wird nach den Ergebnissen dieser Anweisung eine Leerzeile eingefügt, um in einem mehrteiligen Bericht eine visuelle Trennung zu schaffen.
+** {{CheckBox|Ergebnisse fett drucken}}: Die Datenzellen für die Ergebnisse dieser Anweisung werden zur Hervorhebung in Fettschrift dargestellt.
+* Über das Dropdown-Menü '''Abfragevoreinstellungen'''  können einzelne, häufig verwendete SQL-Abfragen geladen und gespeichert werden.
 
 Die Schaltfläche {{Button|[[Image:Document-save.svg|16px]] Speichern}} speichert die Änderungen an der geladenen Anweisung. Wenn das Kontrollkästchen {{CheckBox|Speichern und Weiter}} aktiviert und die Schaltfläche {{Button|[[Image:Document-save.svg|16px]] Speichern}} gedrückt wird, wird zusätzlich zum Speichern eine neue Anweisung erstellt, um die Bearbeitung zu optimieren. Die Schaltfläche {{Button|❌ Verwerfen}} schließt den Anweisungseditor, ohne die vorgenommenen Änderungen zu speichern.
 
