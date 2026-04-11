@@ -34,12 +34,14 @@ Il G-code è generato dalle direttive e dalle operazioni contenute in un percors
 
 CAM offre un Gestore degli utensili (Libreria, Tabella utensili), un analizzatore del G-code e strumenti di simulazione.  Collega il post processore e consente di importare ed esportare i modelli di lavorazioni.
 
+<div class="mw-translate-fuzzy">
 L'ambiente CAM ha delle dipendenze esterne tra cui:
 # Le unità del modello 3D di FreeCAD sono definite nelle impostazioni {{MenuCommand|Modifica → Preferenze ... → Generale → Sistema di unità:}}.  La configurazione del postprocessore definisce le unità G-code finali.
 # Il percorso del file macro e le tolleranze geometriche sono definiti nella scheda {{MenuCommand|Modifica → Preferenze ... → CAM → Preferenze lavorazione}}.
 # I colori sono definiti in {{MenuCommand|Modifica → Preferenze ... → CAM → GUI}}.
 # I parametri dei lembi di fermo pezzo (tag) sono definiti nella scheda {{MenuCommand|Modifica → Preferenze ... → CAM → Ottimizzazione}}.
 # Se la qualità del modello Base 3D supporta i requisiti di CAM, supera la Verifica della geometria.
+</div>
 
 <span id="Limitations"></span>
 ==Limitazioni==
