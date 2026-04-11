@@ -81,10 +81,10 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 {{TitleProperty|Depth}}
 
 * {{PropertyData|Clearance Height}} : hauteur nécessaire pour contourner les brides et les obstructions.
-* {{PropertyData|Final Depth}} : profondeur finale de l'outil - valeur la plus basse de Z.
+* {{PropertyData|Final Depth}} : profondeur finale de l'outil, valeur la plus basse de Z.
 * {{PropertyData|Finish Depth}} : maximum de matériau retiré lors du passage final.
 * {{PropertyData|Safe Height}} : seuil supérieur duquel les mouvements rapides sont autorisés.
-* {{PropertyData|Start Depth}} : profondeur initiale de l'outil - première profondeur de coupe en Z.
+* {{PropertyData|Start Depth}} : profondeur initiale de l'outil, première profondeur de coupe en Z.
 * {{PropertyData|Step Down}} : abaissement incrémentiel de l'outil.
 
 {{TitleProperty|Face}}
