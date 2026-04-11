@@ -62,7 +62,7 @@ Note for Linux users: To handle this file format FreeCAD requires the [[Extra_py
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|이름
-!style="width: 66%;"|설
+!style="width: 66%;"|설명
 |-
 | {{MenuCommand|Scaling factor}}
 | 파일에 있는 모든 치수는 지정된 비율로 확대/축소됩니다.
