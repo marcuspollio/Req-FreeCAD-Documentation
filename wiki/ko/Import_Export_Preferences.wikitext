@@ -99,9 +99,7 @@ Note for Linux users: To handle this file format FreeCAD requires the [[Extra_py
 
 DWG(drawing에서 추출)는 2D 및 3D 설계 데이터와 메타데이터를 저장하기 위한 오토데스크사의 독점적인 비공개 소스 바이너리 파일 형식입니다. FreeCAD는 DWG 파일을 처리하기 위해 별도의 변환기가 필요합니다.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''Note:''' All settings for the DXF file format also apply to DWG.
-</div>
+'''참고:''' DXF 파일 형식에 대한 모든 설정은 DWG에도 동일하게 적용됩니다.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 On this page you can specify the following:
