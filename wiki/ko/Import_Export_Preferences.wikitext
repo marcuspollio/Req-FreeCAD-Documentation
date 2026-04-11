@@ -60,13 +60,12 @@ Note for Linux users: To handle this file format FreeCAD requires the [[Extra_py
 
 이 페이지에서 다음 사항을 지정할 수 있습니다.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|이름
+!style="width: 66%;"|설
 |-
 | {{MenuCommand|Scaling factor}}
-| All dimensions in the file will be scaled with the specified factor.
+| 파일에 있는 모든 치수는 지정된 비율로 확대/축소됩니다.
 |-
 | {{MenuCommand|Mesher}}
 |  Sets the meshing program that should be used. If using ''Netgen'', make sure that it is available. This can be checked by using the [[Image:Workbench_Mesh.svg|24px]] [[Mesh_Workbench|Mesh Workbench]] and [[Mesh_FromPartShape|creating a mesh]] using Netgen. If it is not available another version of FreeCAD, compiled with Netgen, must be installed.
@@ -92,7 +91,6 @@ Note for Linux users: To handle this file format FreeCAD requires the [[Extra_py
 | {{MenuCommand|Allow quads}}
 |  Allow [https://en.wikipedia.org/wiki/Types_of_mesh#Two-dimensional quadrilateral faces].
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===DWG===
