@@ -112,17 +112,15 @@ SELECT Label, Area FROM document WHERE IfcType = 'Space' ORDER BY Label ASC
 <span id="Step_3:_Multi-section_report"></span>
 === Schritt 3: Mehrteiliger Bericht ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Now, let's add a second statement to calculate the total area.
-# In the overview, click {{Button|[[Image:List-add.svg|16px]] Add Statement}} again to create a second statement.
-# With this new statement selected, click {{Button|[[Image:Edit-edit.svg|16px]] Edit Selected}}.
-# Set the '''Description''' to {{Incode|Total Area}}.
-# In the '''SQL Query''' editor, enter this aggregation query:{{Code|lang=sql|code=
+Fügen wir nun eine zweite Anweisung hinzu, um die Gesamtfläche zu berechnen.
+# In der Übersicht erneut auf {{Button|[[Image:List-add.svg|16px]] Anweisung hinzufügen}} klicken, um eine zweite Anweisung zu erstellen.
+# Diese neue Anweisung auswählen und auf {{Button|[[Image:Edit-edit.svg|16px]] Auswahl bearbeiten}} klicken.
+# Die '''Beschreibung''' auf {{Incode|Total Area}} setzen.
+# Im '''SQL-Abfrage'''-Editor, diese Aggregationsabfrage eingeben: {{Code|lang=sql|code=
 SELECT 'Total Usable Area', SUM(Area) FROM document WHERE IfcType = 'Space'
 }}
-# Under '''Display Options''', uncheck '''Include Column Names''' (since our first column is a custom label) and check '''Print Results in Bold''' for emphasis.
-# Click {{Button|[[Image:Document-save.svg|16px]] Save}}. You now have a two-statement report. Click the main {{Button|OK}} button at the bottom of the Task Panel to execute it. The associated spreadsheet will open automatically with the formatted results.
-</div>
+# Unter '''Anzeigeoptionen''', '''Spaltennamen einbeziehen''' deaktivieren (da unsere erste Spalte ein benutzerdefiniertes Feld ist) und '''Ergebnisse fett gedruckt''' zur Hervorhebung überprüfen.
+# {{Button|[[Image:Document-save.svg|16px]] Speichern}} klicken. Nun hat man einen Bericht mit zwei Anweisungen. Auf die Schaltfläche {{Button|OK}} unten im Aufgabenbereich klicken, um ihn auszuführen. Die zugehörige Tabelle wird automatisch mit den formatierten Ergebnissen geöffnet.
 
 <span id="Step_4:_Pipelining_for_advanced_queries"></span>
 === Schritt 4: Befehlsverknüpfung für erweiterte Abfragen ===
