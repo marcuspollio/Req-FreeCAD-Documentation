@@ -109,7 +109,7 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 * {{PropertyData|Cut Mode}} : direction dans laquelle le parcours doit contourner la pièce : sens horaire (ClockWise = CW) ou sens anti-horaire (CounterClockWise = CCW).
 * {{PropertyData|Extra Offset}} : décalage supplémentaire à appliquer à l'opération. La direction dépend de l'opération.
 * {{PropertyData|StartAt}} : commence la poche au centre ou à la limite
-* {{PropertyData|Step Over}} : pourcentage du diamètre de l'outil à utiliser à chaque passage.
+* {{PropertyData|Step Over}} : pourcentage du diamètre de l'outil du pas d'avance à chaque passage.
 * {{PropertyData|Zig Zag Angle}} : angle du motif en zigzag.
 * {{PropertyData|Offset Pattern}} : motif de détourage à utiliser.
 * {{PropertyData|Min Travel}} : utiliser le tri des parcours en 3D.
