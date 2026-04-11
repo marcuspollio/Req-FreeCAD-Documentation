@@ -49,7 +49,7 @@ Le '''Lissage additif''' crée un solide dans le corps actif en faisant une tran
 #* La première ou la dernière sélection peut aussi être une face d'un objet 3D.
 # Il y a plusieurs façons de lancer l'outil :
 #* Cliquez sur le bouton {{Button|[[File:PartDesign_AdditiveLoft.svg|16px]] [[PartDesign_AdditiveLoft/fr|Lissage additif]]}}.
-#* Sélectionnez l'option {{MenuCommand|PartDesign → Créer une primitive additive → [[Image:PartDesign_AdditiveLoft.svg|16px]] Lissage additif}} du menu.
+#* Sélectionnez l'option {{MenuCommand|PartDesign → Créer une fonction additive → [[Image:PartDesign_AdditiveLoft.svg|16px]] Lissage additif}} du menu.
 # Définissez les options si nécessaire et cliquez sur {{Button|OK}}.
 
 ==Options==
