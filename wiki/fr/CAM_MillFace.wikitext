@@ -117,7 +117,7 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 
 {{TitleProperty|Rotation}}
 
-* {{PropertyData|Attempt Inverse Angle}} : tenter automatiquement l'angle inverse si la rotation initiale est incorrecte.
+* {{PropertyData|Attempt Inverse Angle}} : tente automatiquement l'angle inverse si la rotation initiale est incorrecte.
 * {{PropertyData|Enable Rotation}} : active la rotation pour accéder aux poches ou aux zones non normales à l'axe Z.
 * {{PropertyData|Inverse Angle}} : inverse l'angle de la rotation. '' '''Exemple :''' changer une rotation de -22,5 à 22,5 degrés.''
 * {{PropertyData|Limit Depth To Face}} : impose la profondeur Z de la face sélectionnée comme valeur minimale de la profondeur finale. Des valeurs utilisateur plus élevées pour la profondeur finale seront observées.
