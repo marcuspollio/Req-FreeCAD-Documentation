@@ -268,37 +268,35 @@ Es kann auf alle Eigenschaften eines Objekts zugegriffen werden, einschließlich
 <span id="Operators"></span>
 === Operatoren ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable"
-! Type
-! Operators
-! Description
+! Typ
+! Operatoren
+! Beschreibung
 |-
-| '''Comparison'''
+| '''Vergleich'''
 | {{Incode|{{:=}}}}, {{Incode|!{{:=}}}}, {{Incode|>}}, {{Incode|<}}, {{Incode|>{{:=}}}}, {{Incode|<{{:=}}}}
-| Standard comparison operators.
+| Standard-Vergleichsoperatoren.
 |-
 |
 | {{Incode|LIKE}}
-| Case-insensitive pattern matching. Use {{Incode|%}} for multiple characters and {{Incode|_}} for a single character.
+| Musterabgleich ohne Berücksichtigung der Groß-/Kleinschreibung. {{Incode|%}} für mehrere Zeichen und {{Incode|_}} für ein einzelnes Zeichen verwenden.
 |-
 |
 | {{Incode|IS NULL}}, {{Incode|IS NOT NULL}}
-| Checks if a property has a value.
+| Prüft, ob eine Eigenschaft einen Wert hat.
 |-
 |
 | {{Incode|IN (value1, value2, …)}}
-| Checks if a property's value is in a given list of literals.
+| Prüft, ob der Wert einer Eigenschaft in einer vorgegebenen Liste von Literalen enthalten ist.
 |-
-| '''Logical'''
+| '''Logisch'''
 | {{Incode|AND}}, {{Incode|OR}}
-| Used in the {{Incode|WHERE}} clause to combine multiple conditions.
+| Wird in der {{Incode|WHERE}}-Klausel verwendet, um mehrere Bedingungen zu kombinieren.
 |-
-| '''Arithmetic'''
+| '''Arithmetisch'''
 | {{Incode|+}}, {{Incode|-}}, {{Incode|*}}, {{Incode|/}}
-| Perform calculations on numerical properties. Obeys standard operator precedence; use {{Incode|()}} to override.
+| Führt Berechnungen mit numerischen Werten durch. Beachtet die übliche Reihenfolge der Rechenoperatoren; {{Incode|()}} verwenden, um diese zu überschreiben.
 |}
-</div>
 
 <span id="General_syntax"></span>
 === Allgemeine Syntax ===
