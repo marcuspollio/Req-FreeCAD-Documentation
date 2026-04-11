@@ -166,7 +166,7 @@ There is also nanoCAD 5.0 (https://nanocad.com/products/nanoCAD/download/). The 
 <span id="Export_your_AutoCAD_files_in_friendly_format"></span>
 ===AutoCAD 파일을 친근한 형식으로 내보내기===
 
-Exporting your AutoCAD files in a more FreeCAD friendly format, like DXF R12 or R14, SVG, and if version supports it, IGES. All are better alternatives to the DWG format when using FreeCAD. 
+AutoCAD 파일을 FreeCAD와 친근한 형식(예: DXF R12 또는 R14, SVG, 그리고 버전에서 지원하는 경우 IGES)으로 내보낼 수 있습니다. FreeCAD를 사용할 때 DWG 형식보다 모두 더 나은 대안입니다. 
 
 It is important to note that there is no difference between the contents of a file saved in DWG or DXF formats, provided it is the same version (ex. DWG 2014 vs. DXF 2014). Both formats are maintained by Autodesk, and they both support exactly the same features. The difference is that DWG is closed (machine-encoded) while DXF is open.
 
