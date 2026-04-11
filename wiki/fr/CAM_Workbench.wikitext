@@ -33,12 +33,14 @@ Le G-code est généré à partir des directives et des opérations contenues da
 
 L'atelier CAM fournit un gestionnaire d'outils (bibliothèque, table d'outils), un outil d'inspection du G-code et de simulation. Il relie le post-processeur et permet d'importer et d'exporter des modèles de tâches.
 
+<div class="mw-translate-fuzzy">
 L'atelier CAM possède des dépendances externes, notamment :
 # Les unités du modèle 3D FreeCAD sont définies dans les paramètres {{MenuCommand|Édition → Préférences → Général → Système d'unités par défaut}}. La configuration du post-processeur définit les unités G-code finales.
 # Le chemin du fichier Macro et les tolérances géométriques sont définis dans l'onglet {{MenuCommand|Édition → Préférences → CAM → Préférences des tâches}}.
 # Les couleurs sont définies dans l'onglet {{MenuCommand|Édition → Préférences → CAM → Interface graphique}}.
 # Les paramètres des éléments de maintien sont définis dans l'onglet {{MenuCommand|Édition → Préférences → CAM → Finitions}}.
 # Pour que la qualité du modèle 3D de base respecte les exigences de l'atelier CAM, utilisez Vérifier la géométrie.
+</div>
 
 == Limitations ==
 
