@@ -118,12 +118,7 @@ dwg2SVG
 To make it available in FreeCAD, provide the full path to the dwg2dxf binary under {{MenuCommand|Preferences → Import-Export → DWG → Path to file converter}}.
 
 <span id="ODA_File_Converter"></span>
-<div class="mw-translate-fuzzy">
-===ODA Converter (formerly Teigha Converter)===
-* 홈페이지: https://www.opendesign.com/guestfiles/oda_file_converter
-* 라이선스: freeware
-* optional, used to enable import and export of DWG files
-</div>
+===ODA 파일 변환기===
 
 * homepage: https://www.opendesign.com/guestfiles/oda_file_converter
 * license: freeware
