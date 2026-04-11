@@ -40,7 +40,7 @@ Cette opération contient une propriété {{PropertyData|BoundaryShape}} qui per
 <span id="Caveats"></span>
 == Avertissements ==
 
-* L'utilisation de cette fonction sur un plan incliné peut produire des résultats inattendus : elle génèrera toujours un parcours pour couper une surface horizontale. L'étendue de la coupe sera la projection verticale du plan incliné, effectuée à une hauteur correspondante au point le plus bas de ce plan. 
+* L'utilisation de cette commande sur un plan incliné peut produire des résultats inattendus : elle génèrera toujours un parcours pour couper une surface horizontale. L'étendue de la coupe sera la projection verticale du plan incliné, effectuée à une hauteur correspondante au point le plus bas de ce plan. 
 
 * Étant donné que les outils de CAM fonctionnent uniquement sur la géométrie des arêtes/faces sélectionnées et ne se rapportent pas au reste du modèle 3D, les parcours ne dépasseront pas les limites du plan choisi, même s'il est entouré de brut inutilisé ou d'air. Cela laissera des coins non usinés. Ceux-ci peuvent parfois être supprimés avec l'un des outils de rectification disponibles dans le menu ''CAM''.
 
