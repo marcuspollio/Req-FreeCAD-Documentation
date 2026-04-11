@@ -28,7 +28,7 @@ __NOTOC__
 !Export / Create
 |-
 | [[File_Format_FCStd|*.FCStd]]
-| FreeCAD native format
+| 프리캐드 기본 형식
 | [[Std_Open|Std Open]], [[Std_MergeProjects|Std MergeProjects]]
 | [[Std_Save|Std Save]]
 |-
@@ -168,12 +168,12 @@ __NOTOC__
 | no
 |-
 | *.dwg
-| AutoCAD native format. Only 2D geometry is supported. [[FreeCAD_and_DWG_Import|External software]] required.
+| AutoCAD 기본 형식. 2D 형상만 지원. [[FreeCAD_and_DWG_Import/ko|별도 프로그램]]이 필요.
 | [[Std_Import|Std Import]]
 | [[Std_Export|Std Export]]
 |-
 | [[Draft_DXF|*.dxf]]
-| Autodesk drawing exchange format. Only 2D geometry is supported. [[FreeCAD_and_DXF_Import|External software]] required for the legacy Python importer and the legacy Python exporter.
+| 오토데스크 도면 교환 형식. 2D 형상만 지원. 기존 파이썬 가져오기 및 내보내기 도구를 위해서는 [[FreeCAD_and_DXF_Import/ko|별도 프로그램]]이 필요.
 | [[Std_Import|Std Import]]
 | [[Std_Export|Std Export]], [[TechDraw_ExportPageDXF|TechDraw ExportPageDXF]]
 |-
@@ -258,12 +258,12 @@ __NOTOC__
 | [[Std_Export|Std Export]]
 |-
 | *.iges
-| Older solid-based format
+| 구형 고체기반 형식
 | [[Std_Import|Std Import]]
 | [[Std_Export|Std Export]]
 |-
 | *.igs
-| Older solid-based format
+| 구형 고체기반 형식
 | [[Std_Import|Std Import]]
 | [[Std_Export|Std Export]]
 |-
@@ -473,7 +473,7 @@ __NOTOC__
 | [[Robot_Export|Robot ExportKukaCompact]], [[Robot_Export|Robot ExportKukaFull]]
 |-
 | *.step
-| Exchange format for engineering models
+| 공학 모델 교환용 형식
 | [[Std_Import|Std Import]]
 | [[Std_Export|Std Export]]
 |-
@@ -483,27 +483,27 @@ __NOTOC__
 | [[Std_Export|Std Export]]
 |-
 | *.stl
-| Stereolithography mesh (mostly used for 3D printing)
+| 스테레오리소그래피 메쉬(주로 3D 프린팅에 사용됨)
 | [[Std_Import|Std Import]], [[Mesh_Import|Mesh Import]]
 | [[Std_Export|Std Export]], [[Mesh_Export|Mesh Export]] (binary or ASCII)
 |-
 | *.stp
-| Exchange format for engineering models
+| 공학 모델 교환용 형식
 | [[Std_Import|Std Import]]
 | [[Std_Export|Std Export]]
 |-
 | *.stpz
-| Compressed STEP
+| 압축된 STEP형식
 | [[Std_Import|Std Import]]
 | [[Std_Export|Std Export]]
 |-
 | [[Draft_SVG|*.svg]]
-| Scalable vector graphics format
+| 확장 가능한 벡터 그래픽 형식
 | [[Std_Import|Std Import]] (SVG or image format), [[Std_ViewLoadImage|Std ViewLoadImage]]
 | [[Std_Export|Std Export]], [[TechDraw_ExportPageSVG|TechDraw ExportPageSVG]]
 |-
 | *.svgz
-| Compressed SVG
+| 압축된 SVG형
 | [[Std_Import|Std Import]] (image format), [[Std_ViewLoadImage|Std ViewLoadImage]]
 | no
 |-
