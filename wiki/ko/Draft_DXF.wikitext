@@ -93,7 +93,8 @@ Two importers are available, which one is used can be specified under {{MenuComm
 | style="text-align:center; color:green;" | '''✓'''
 |}
 
-==Exporting==
+<span id="Exporting"></span>
+==내보내기(Exporting)==
 
 There are also two exporters. The legacy exporter exports to the R12 DXF format, the C++ exporter to the R14 DXF format. Both formats can be handled by many applications.
 
