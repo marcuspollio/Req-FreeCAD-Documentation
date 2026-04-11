@@ -129,7 +129,7 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 ** {{PropertyData|X}} : valeur de distance X.
 ** {{PropertyData|Y}} : valeur de distance Y.
 ** {{PropertyData|Z}} : valeur de distance Z.
-* {{PropertyData|Use Start Point}} : mis à True, si vous spécifiez manuellement un point de départ. Définissez le point de départ dans le champ Start Point des propriétés de données.
+* {{PropertyData|Use Start Point}} : mis à True, si vous spécifiez manuellement un point de départ, définissez le point de départ dans le champ Start Point des propriétés de données.
 
 <span id="View"></span>
 ===Vue===
