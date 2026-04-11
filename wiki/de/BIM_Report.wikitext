@@ -196,62 +196,60 @@ Der Dialekt hat spezifische Regeln für die Verwendung von Ausdrücken (wie Funk
 <span id="Functions"></span>
 === Funktionen ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The dialect includes a library of built-in functions for data manipulation and analysis.
+Die Programmiersprache verfügt über eine Bibliothek mit integrierten Funktionen zur Datenbearbeitung und -analyse.
 {| class="wikitable"
-! Category
-! Function
-! Description
+! Kategorie
+! Funktion
+! Beschreibung
 |-
-| '''Aggregate'''
+| '''Gesamt'''
 | {{Incode|COUNT(property<nowiki>|</nowiki>*)}}
-| Counts the number of objects. {{Incode|COUNT(*)}} counts all rows; {{Incode|COUNT(property)}} counts rows where the specified property is not {{Incode|NULL}}.
+| Zählt die Anzahl der Objekte. {{Incode|COUNT(*)}} zählt alle Reihen; {{Incode|COUNT(property)}} zählt Zeilen, in denen die angegebene property (Eigenschaft) nicht {{Incode|NULL}} ist.
 |-
 |
 | {{Incode|SUM(property)}}
-| Calculates the sum of a numerical property.
+| Berechnet die Summe einer numerischen property (Eigenschaft).
 |-
 |
 | {{Incode|MIN(property)}}
-| Finds the minimum value of a numerical property.
+| Ermittelt den Minimalwert einer numerischen property (Eigenschaft).
 |-
 |
 | {{Incode|MAX(property)}}
-| Finds the maximum value of a numerical property.
+| Ermittelt den Maximalwert einer numerischen property (Eigenschaft).
 |-
-| '''Hierarchical'''
+| '''Hierarchisch'''
 | {{Incode|PARENT(*)}}
-| Returns the architecturally significant parent of an object (e.g., the Wall a Window is in), transparently skipping over generic groups.
+| Gibt das architektonisch relevante übergeordnete Objekt eines Objekts zurück (z. B. die Wand, in der sich ein Fenster befindet), wobei generische Gruppen transparent übersprungen werden.
 |-
 |
 | {{Incode|CHILDREN(subquery)}}
-| A function used in the {{Incode|FROM}} clause. Returns all children of objects found by the subquery, resolving both containment ({{Incode|.Group}}) and hosting ({{Incode|.Hosts}}) relationships. This function is '''not recursive'''. To find grandchildren or deeper descendants, chain multiple {{Incode|CHILDREN()}} steps together using a pipeline.
+| Eine Funktion, die in der {{Incode|FROM}}-Klausel verwendet wird. Gibt alle Unterelemente der von der Unterabfrage gefundenen Objekte zurück, wobei sowohl Inklusionsbeziehungen ({{Incode|.Group}}) als auch Host-Beziehungen ({{Incode|.Hosts}}) aufgelöst werden. Diese Funktion ist '''nicht rekursiv'''. Um Unterelemente oder tiefer liegende Nachkommen zu finden, mehrere {{Incode|CHILDREN()}}-Schritte mithilfe einer Pipeline verketten.
 |-
 |
 | {{Incode|CHILDREN_RECURSIVE(subquery, max_depth{{:=}}15)}}
-| A function used in the {{Incode|FROM}} clause. Returns all descendant objects of the {{Incode|subquery}} results by recursively traversing the hierarchy. It transparently skips generic groups. An optional {{Incode|max_depth}} can be specified (default: 15, {{Incode|0}} for unlimited). This replaces the need for complex pipelines to find nested objects.
+| Eine Funktion, die in der {{Incode|FROM}}-Klausel verwendet wird. Gibt alle untergeordneten Objekte der {{Incode|subquery}}-Ergebnisse zurück, indem sie die Hierarchie rekursiv durchläuft. Generische Gruppen werden dabei transparent übersprungen. Optional kann ein Wert für {{Incode|max_depth}} angegeben werden (Standard: 15, {{Incode|0}} für unbegrenzt). Dadurch entfällt die Notwendigkeit komplexer Pipelines zum Auffinden verschachtelter Objekte.
 |-
-| '''Utility'''
+| '''Dienstprogramm'''
 | {{Incode|TYPE(*)}}
-| Returns the object's user-facing type, as determined by its proxy (e.g., {{Incode|Wall}}, {{Incode|Space}}, {{Incode|Part::Box}}).
+| Gibt den benutzerseitigen Typ des Objekts zurück, wie er durch seinen Proxy bestimmt wird (z. B. {{Incode|Wall}}, {{Incode|Space}}, {{Incode|Part::Box}}).
 |-
 |
 | {{Incode|CONVERT(quantity, 'unit')}}
-| Converts a FreeCAD Quantity object to a new unit and returns it as a raw number. Example: {{Incode|CONVERT(Area, 'm^2')}}.
+| Konvertiert ein FreeCAD-Mengenobjekt in eine neue Einheit und gibt es als reinen Zahlenwert zurück. Beispiel: {{Incode|CONVERT(Area, 'm^2')}}.
 |-
-| '''String'''
+| '''Zeichenkette'''
 | {{Incode|LOWER(property)}}
-| Converts a text property to lowercase.
+| Wandelt eine Texteigenschaft in Kleinbuchstaben um.
 |-
 |
 | {{Incode|UPPER(property)}}
-| Converts a text property to uppercase.
+| Wandelt eine Texteigenschaft in Großbuchstaben um.
 |-
 |
 | {{Incode|CONCAT(val1, val2, …)}}
-| Joins multiple text values and properties together into a single string.
+| Fügt mehrere Textwerte und Eigenschaften zu einer einzigen Zeichenfolge zusammen.
 |}
-</div>
 
 <span id="Property_access"></span>
 === Eigenschaftenzugriff ===
