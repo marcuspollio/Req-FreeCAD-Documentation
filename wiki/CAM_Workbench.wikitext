@@ -50,7 +50,7 @@ The CAM Workbench has external dependencies including:
 # The Macro file path, and Geometric tolerances, are defined in the {{MenuCommand|Edit → Preferences → CAM → Job Preferences}} tab.
 # Colors are defined in the {{MenuCommand|Edit → Preferences → CAM → GUI}} tab.
 # Holding tag parameters are defined in the {{MenuCommand|Edit → Preferences → CAM → Dressups}} tab. 
-# That the Base 3D model quality supports the CAM workbench requirements, passes Check Geometry.
+# That the Base 3D model quality supports the CAM workbench requirements, passes [[Part_CheckGeometry|Check Geometry]].
 
 == Limitations == <!--T:91-->
 
