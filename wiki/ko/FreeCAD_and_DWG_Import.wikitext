@@ -120,9 +120,9 @@ To make it available in FreeCAD, provide the full path to the dwg2dxf binary und
 <span id="ODA_File_Converter"></span>
 ===ODA 파일 변환기===
 
-* homepage: https://www.opendesign.com/guestfiles/oda_file_converter
-* license: freeware
-* optional, used to enable import and export of DWG files
+* 홈페이지: https://www.opendesign.com/guestfiles/oda_file_converter 
+* 라이선스: 프리웨어 
+* 선택 사항이며, DWG 파일 가져오기 및 내보내기를 활성화하는 데 사용됩니다.
 
 The ODA File Converter is a small freely available utility that allows to convert between several versions of DWG and DXF files. FreeCAD can use it to offer DWG import and export, by converting DWG files to the DXF format under the hood, then using its standard DXF importer to import the file contents. The restrictions of the [[Draft_DXF|DXF importer]] apply.
 
