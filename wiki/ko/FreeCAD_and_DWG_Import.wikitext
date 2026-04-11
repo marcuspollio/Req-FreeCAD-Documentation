@@ -6,7 +6,7 @@
 <span id="Why_is_it_hard_to_support_DWG_Files_in_FreeCAD?"></span>
 == FreeCAD 에서 DWG 파일 작업이 어려운 이유 ? ==
 
-DWG 파일은 내용을 이진 숫자로 기록하고 밀봉한 형식으로 되어 있어서 FreeCAD 에서 직접적으로 처리되지 않습니다. 3rd 단체가 제작한 '파일변환' 기능을 이용하여, DWG 파일을 DXF 파일로, 또는 그 반대로 변환 하는 것을 거쳐야 합니다.
+DWG 형식은 오토데스크사의 기본 도면 파일 형식으로 FreeCAD에서 직접 지원할 수 없는  비공개 독점 소스 바이너리 파일 형식입니다. DWG 파일을 DXF 파일로, 또는 그 반대로 변환하려면 외부 제3자 파일 변환 프로그램이 필요합니다.
 
 <span id="What_do_I_need_to_be_able_to_import_DWG_files?"></span>
 == DWG 파일을 불러오기 위해 필요한 것 ? ==
