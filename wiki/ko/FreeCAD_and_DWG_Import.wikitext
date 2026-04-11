@@ -128,10 +128,7 @@ ODA 파일 변환기는 DWG 및 DXF 파일의 여러 버전 간 변환을 가능
 FreeCAD는 내부적으로 DWG 파일을 DXF 형식으로 변환한 다음 표준 DXF 가져오기 도구를 사용하여 파일 내용을 가져와 DWG 가져오기 및 내보내기를 제공할 수 있습니다. [[Draft_DXF/ko|DXF 가져오기 도구]]의 제한 사항이 적용됩니다.
 
 <span id="Installation"></span>
-<div class="mw-translate-fuzzy">
 ====설치====
-On all platforms, only by installing the appropriate package from https://www.opendesign.com/guestfiles/oda_file_converter. After installation, if the utility is not found automatically by FreeCAD, you might need to set the path to the converter executable manually. open Edit → Preferences → Import-Export → DWG and fill "Path to Teigha File Converter" appropriately.
-</div>
 
 If the utility is not found automatically by FreeCAD after installation, you need to set the path to the executable manually. See [[Import_Export_Preferences#DWG|Import Export Preferences]].
 
