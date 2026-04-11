@@ -21,7 +21,8 @@ From the user's point of view, the DXF import/export module will be loaded autom
 [[Image:Screenshot qcad.jpg]]
 {{Caption|QCAD drawing exported to DXF, which is subsequently opened in FreeCAD}}
 
-==Importing==
+<span id="Importing"></span>
+==가져오기(Importing)==
 
 Two importers are available, which one is used can be specified under {{MenuCommand|Edit → Preferences → Import-Export → DXF}}. One is built-in, C++-based and fast, the other is legacy, coded in Python, slower, and requires the installation of an add-on, but can handle some entities better and can create more refined FreeCAD objects. Both support all DXF versions starting from R12.
 
