@@ -82,9 +82,11 @@
 <span id="File:FreeCAD_Tree_view_unattached.png_Purple_chain_link"></span>
 === [[File:FreeCAD_Tree_view_unattached.png]] 紫の鎖リンク ===
 
+<div class="mw-translate-fuzzy">
 これは、通常[[Sketch/ja|スケッチ]]、（直方体や円柱などの）[[PartDesign_Workbench/ja|PartDesign]]のプリミティブや[[Datum/ja|データム]]ジオメトリに表示されます。オブジェクトが何にもアタッチされていないことを示します。アタッチメントのオフセットもないため、その位置と向きは[[Placement/ja|Placement]]プロパティーで決まります。
+</div>
 
-このようなオブジェクトをどのように扱ったらいいのかについての[[Basic_Attachment_Tutorial/ja|アタッチメントの基本チュートリアル]]があります。
+This icon also shown for [[Assembly_Workbench|Assembly]] joints that are not connected (via other joints) to a grounded object.
 
 <span id="File:FreeCAD_Tree_view_notfullyconstrained.png_Yellow_X"></span>
 === [[File:FreeCAD_Tree_view_notfullyconstrained.png]] 黄色のX ===
