@@ -21,7 +21,7 @@
 <span id="Description"></span>
 ==설명==
 
-[[Std_Group|Std Group]] (internally called [[App_DocumentObjectGroup|App DocumentObjectGroup]]) is a general purpose container that allows you to group different types of objects in the [[Tree_View|Tree View]], regardless of their data type. It is used as a simple folder to categorize and organize the objects in your model, in order to keep a logical structure. Std Groups may be nested inside other Std Groups.
+'''모둠(Std Group)'''(내부적으로는 [[App_DocumentObjectGroup/ko|App DocumentObjectGroup]]이라고 함)은 데이터 유형에 관계없이 [[Tree_View/ko|나무보기]]에서 다양한 유형의 대상체를 한 곳에 모아 담을 수있는 일종의 다목적 그릇입니다. 이는 모형 내 대상체를 분류하고 정리하여 논리적인 구조를 유지하기 위한 간단한 폴더로 사용됩니다. 모둠은 다른 모둠 안에 담길 수도 있습니다.
 
 The Std Group tool is not defined by a particular workbench, but by the base system, thus it is found in the {{MenuCommand|Structure toolbar}} that is available in all [[Workbenches|workbenches]].
 
