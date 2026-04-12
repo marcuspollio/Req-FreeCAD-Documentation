@@ -47,11 +47,15 @@
 
 나무 보기의 상황에 맞는 메뉴에 있는 옵션은 선택한 개체와 현재 활성화된 작업대에 따라 달라집니다. 이 메뉴를 표시하려면 목록 배경을 마우스 오른쪽 버튼으로 클릭하거나, 목록의 개체를 마우스 오른쪽 버튼으로 클릭하거나, 목록에서 여러 개체를 선택한 다음 그 중 하나를 마우스 오른쪽 버튼으로 클릭합니다.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 === Keyboard modifiers ===
+</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 The usual keyboard modifiers can be used in the Tree View. The modifiers can be combined as well.
 * {{KEY|Ctrl}}: hold down this key to select multiple objects.
 * {{KEY|Shift}}: hold down this key to select all objects between a previously selected object and the next selected object.
+</div>
 
 <span id="Keyboard_shortcuts"></span>
 === 키보드 단축키 ===
@@ -88,7 +92,9 @@ The usual keyboard modifiers can be used in the Tree View. The modifiers can be 
 이는 일반적으로 [[Sketch/ko|스케치]], 상자, 원통 등과 같은 기하학적 기본 요소와 [[Datum|ko|기준도형(Datum)]]에 대해 표시됩니다. 이는 객체가 아무 것에도 부착되지 않았음을 나타냅니다. 부착 오프셋이 없으며 [[Placement/ko|배치]] 속성에서만 위치와 정렬을 가져옵니다.
 </div>
 
-This icon also shown for [[Assembly_Workbench|Assembly]] joints that are not connected (via other joints) to a grounded object.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+This icon is also shown for [[Assembly_Workbench|Assembly]] joints that are not connected (via other joints) to a grounded object.
+</div>
 
 <span id="File:FreeCAD_Tree_view_notfullyconstrained.png_Yellow_X"></span>
 ===[[File:FreeCAD_Tree_view_notfullyconstrained.png]] 노란색 X ===
@@ -107,13 +113,21 @@ This icon also shown for [[Assembly_Workbench|Assembly]] joints that are not con
 
 이는 억제된 [[PartDesign_Workbench/ko|부품설계 작업대]] 기능을 나타냅니다.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 === [[File:FreeCAD_Tree_view_link.png]] White upwards curved arrow ===
+</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 This indicates a [[Std_LinkMake|linked]] object.
+</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 === [[File:FreeCAD_Tree_view_link_external.png]] Two white upwards curved arrows ===
+</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 This indicates a [[Std_LinkMake|linked]] object loaded from an external document.
+</div>
 
 <span id="File:FreeCAD_Tree_view_hidden.png_Eye_symbol"></span>
 === [[File:FreeCAD_Tree_view_hidden.png]]눈 기호 ===
@@ -131,9 +145,13 @@ This indicates a [[Std_LinkMake|linked]] object loaded from an external document
 이는 상위 항목이 변경될 때 다시 계산되지 않는 고정된 개체를 나타냅니다.
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 == Preferences ==
+</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 See [[Combo_View#Preferences|Combo View]].
+</div>
 
 
 {{Interface_navi{{#translation:}}}}
