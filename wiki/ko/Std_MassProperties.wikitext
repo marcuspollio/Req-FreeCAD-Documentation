@@ -6,15 +6,13 @@
 |IconC=Freecad.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommand
 |Name=Std MassProperties
-|MenuLocation=Tools → Mass Properties
+|MenuLocation=도구 → 질량속성
 |Workbenches=All
 |Version=1.2
-|SeeAlso=[[Std_Measure|Std Measure]]
+|SeeAlso=[[Std_Measure/ko|측정]]
 }}
-</div>
 
 <span id="Description"></span>
 ==설명==
