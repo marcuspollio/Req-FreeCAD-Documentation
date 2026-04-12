@@ -80,9 +80,11 @@ To znamená, že objekt obsahuje chybu, kterou je třeba opravit. Po přepočít
 <span id="File:FreeCAD_Tree_view_unattached.png_Purple_chain_link"></span>
 === [[File:FreeCAD_Tree_view_unattached.png]] Fialový článek řetězu ===
 
+<div class="mw-translate-fuzzy">
 To se obvykle zobrazuje u [[Sketch/cs|náčrtů]], primitiv [[PartDesign_Workbench/cs|PartDesign]], jako jsou kostky, válce atd., a [[Datum/cs|Datum (Pomocné)]] geometrie. Označuje, že objekt není k ničemu připojen. Nemá žádné odsazení připojení a svou polohu a zarovnání získává výhradně z vlastnosti [[Placement/cs|Umístění]].
+</div>
 
-Existuje [[Basic_Attachment_Tutorial/cs|základní návod k připojování příloh]], který vysvětluje, jak s takovými objekty zacházet.
+This icon also shown for [[Assembly_Workbench|Assembly]] joints that are not connected (via other joints) to a grounded object.
 
 <span id="File:FreeCAD_Tree_view_notfullyconstrained.png_Yellow_X"></span>
 === [[File:FreeCAD_Tree_view_notfullyconstrained.png]] Žluté X ===
