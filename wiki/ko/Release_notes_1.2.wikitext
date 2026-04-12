@@ -23,9 +23,8 @@ See [[Help_FreeCAD|Help FreeCAD]] for ways to contribute to FreeCAD.
 Previous FreeCAD release notes can be found in the [[Feature_list#Release_notes|Feature list]].
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== General ==
-</div>
+<span id="General"></span>
+== 일반 ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Multiple documents can now be edited simultaneously with independent tasks and undo/redo stacks, for example, having two Sketches open at the same time (GSoC project). [https://github.com/FreeCAD/FreeCAD/pull/21978 Pull request #21978]
