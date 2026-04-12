@@ -82,7 +82,9 @@ Wskazuje to, że w obiekcie wystąpił błąd, który należy naprawić. Po prze
 
 Jest to pokazywane dla [[Sketch/pl|szkiców]], prymitywów [[PartDesign_Workbench/pl|środowiska Projekt Części]], takich jak sześcian, walec, itp. oraz geometrii [[Datum/pl|konstrukcyjnej]]. Wskazuje, że obiekt nie jest do niczego przymocowany. Nie ma on przesunięcia dołączenia i pobiera swoją pozycję i wyrównanie wyłącznie z właściwości [[Placement/pl|Umiejscowienie]]. Dostępny jest [[Basic_Attachment_Tutorial/pl|Poradnik: Podstawy mocowania]] wyjaśniający, jak korzystać z takich obiektów.
 
+<div class="mw-translate-fuzzy">
 Ta ikona jest również pokazywana dla połączeń w [[Assembly_Workbench/pl|Złożeniach]], które nie są połączone (poprzez inne połączenia) z obiektem zakotwionym.
+</div>
 
 <span id="File:FreeCAD_Tree_view_notfullyconstrained.png_Yellow_X"></span>
 ===[[File:FreeCAD_Tree_view_notfullyconstrained.png]] Żółty znak X===
