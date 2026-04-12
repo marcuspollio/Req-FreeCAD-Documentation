@@ -34,14 +34,12 @@ Der G-code wird aus den in einem CAM-Auftrag enthaltenen Anweisungen und Bearbei
 
 Der Arbeitsbereich CAM enthält einen Werkzeugverwalter (Bibliothek, Werkzeugtabelle), eine G-Code-Überprüfung und Simulationswerkzeuge. Es verknüpft den Postprozessor und erlaubt den Im- und Export von Auftragsvorlagen.
 
-<div class="mw-translate-fuzzy">
 Der Arbeitsbereich CAM besitzt externe Abhängigkeiten einschließlich:
-# FreeCADs 3D-Modell-Einheiten sind unter {{MenuCommand|Bearbeiten → Einstellungen... → Allgemein → Sprache und Zahlenformat → Standard-Einheitensystem}} festgelegt.  Die Postprozessor-Konfiguration legt die endgültigen G-code-Einheiten fest.
-# Der Pfad der Makrodatei und die geometrischen Toleranzen werden unter {{MenuCommand|Bearbeiten → Einstellungen... →  CAM → Auftagseinstellungen}} definiert.
-# Die Farben werden unter {{MenuCommand|Bearbeiten → Einstellungen... →CAM → GUI}} definiert.
-# Die Parameter der Haltestege werden unter {{MenuCommand|Bearbeiten → Einstellungen... → CAM → Aufbereitungen}} definiert. 
-# Dass die Qualität des 3D-Basismodells die Anforderungen des Arbeitsbereichs CAM unterstützt, wird durch Geometrie prüfen bestätigt.
-</div>
+# FreeCADs 3D-Modell-Einheiten sind unter {{MenuCommand|Bearbeiten → Einstellungen → Allgemein → Sprache und Zahlenformat → Standard-Einheitensystem}} festgelegt.  Die Postprozessor-Konfiguration legt die endgültigen G-code-Einheiten fest.
+# Der Pfad der Makrodatei und die geometrischen Toleranzen werden unter {{MenuCommand|Bearbeiten → Einstellungen →  CAM → Auftagseinstellungen}} definiert.
+# Die Farben werden unter {{MenuCommand|Bearbeiten → Einstellungen →CAM → GUI}} definiert.
+# Die Parameter der Haltestege werden unter {{MenuCommand|Bearbeiten → Einstellungen → CAM → Aufbereitungen}} definiert. 
+# Dass die Qualität des 3D-Basismodells den Anforderungen des Arbeitsbereichs CAM entspricht, lässt es die [[Part_CheckGeometry/de|Prüfung der Geometrie]] bestehen.
 
 <span id="Limitations"></span>
 ==Einschränkungen==
