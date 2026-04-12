@@ -46,9 +46,7 @@
 
 * [[Image:Assembly_CreateSimulation.svg|32px]] [[Assembly_CreateSimulation|Симуляция]]: создает симуляцию в текущей сборке. {{Version|1.1}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Assembly_CreateBom.svg|32px]] [[Assembly_CreateBom|Bill of Materials]]: creates a bill of materials (BOM) from a selected assembly or from the document.
-</div>
+* [[Image:Assembly_CreateBom.svg|32px]] [[Assembly_CreateBom|Спецификация]]: создает спецификацию на основе выбранной сборки или из документа.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * <span id="Assembly_ExportASMT">[[Image:Assembly_ExportASMT.svg|32px]] Export ASMT File:</span><!--Do not edit span id: the Assembly_ExportASMT pages redirect here--> exports data of the currently active assembly as an ASMT file for debugging purposes.
