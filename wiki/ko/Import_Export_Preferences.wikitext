@@ -570,9 +570,7 @@ TBD.
 
 [[Image:Preferences_Import-Export_Page_STEP.png|400px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The [https://en.wikipedia.org/wiki/ISO_10303 Standard for The Exchange of Product model data] (STEP) file format is an ISO standard for the computer-interpretable representation and exchange of product manufacturing information. STEP is commonly used to exchange 3D data between CAD software. STEP files have the {{FileName|.step}} or {{FileName|.stp}} extension. For compressed files the {{FileName|.stpz}} extension is used.
-</div>
+[https://en.wikipedia.org/wiki/ISO_10303 제품 모델 데이터 교환 표준](Standard for The Exchange of Product model data 축약하여 STEP) 파일 형식은 제품 제조 정보를 컴퓨터가 해석할 수 있는 방식으로 표현하고 교환하기 위한 ISO 표준입니다. STEP은 CAD 소프트웨어 간에 3D 데이터를 교환하는 데 일반적으로 사용됩니다. STEP 파일은 {{FileName|.step}} 또는 {{FileName|.stp}} 확장자를 사용합니다. 압축 파일의 경우 {{FileName|.stpz}} 확장자가 사용됩니다.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This page is only shown if the [[Image:Workbench_Part.svg|24px]] [[Part_Workbench|Part Workbench]], [[Image:Workbench_PartDesign.svg|24px]] [[PartDesign_Workbench|PartDesign Workbench]], or [[Image:Workbench_OpenSCAD.svg|24px]] [[OpenSCAD_Workbench|OpenSCAD Workbench]] has been loaded in the current FreeCAD session.
