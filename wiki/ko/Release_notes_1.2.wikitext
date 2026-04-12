@@ -47,9 +47,8 @@ Previous FreeCAD release notes can be found in the [[Feature_list#Release_notes|
 * There is now a button and a shortcut to toggle the bottom panels ([[Report_View|Report View]] and [[Python_Console|Python Console]]). [https://github.com/FreeCAD/FreeCAD/pull/28598 Pull request #28598]
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Core system and API ==
-</div>
+<span id="Core_system_and_API"></span>
+== 핵심 시스템과 API ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Core ===
