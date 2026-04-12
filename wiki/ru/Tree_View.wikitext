@@ -86,7 +86,9 @@
 Это обычно отображается на [[Sketch/ru|эскизах]] для примитивов, таких как коробка, цилиндр и т. д., и [[Datum/ru|Опорной]] геометрии, верстака [[PartDesign_Workbench/ru|PartDesign - ПроектнаяДеталь]] . Указывает, что объект ни к чему не привязан. Он не имеет Attachment Offset - Смещения Прикрепления и получает свое положение и выравнивание исключительно из своего свойства [[Placement/ru|Placement - Размещение]].
 </div>
 
-This icon also shown for [[Assembly_Workbench|Assembly]] joints that are not connected (via other joints) to a grounded object.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+This icon is also shown for [[Assembly_Workbench|Assembly]] joints that are not connected (via other joints) to a grounded object.
+</div>
 
 <span id="File:FreeCAD_Tree_view_notfullyconstrained.png_Yellow_X"></span>
 === [[File:FreeCAD_Tree_view_notfullyconstrained.png]] Жёлтый крестик ===
