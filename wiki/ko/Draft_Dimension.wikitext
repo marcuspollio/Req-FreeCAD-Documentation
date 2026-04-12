@@ -11,8 +11,8 @@
 
 {{GuiCommand
 |Name=Draft Dimension
-|MenuLocation=Annotation → Dimension
-|Workbenches=[[Draft_Workbench|Draft]]
+|MenuLocation=주석 → 치수
+|Workbenches=[[Draft_Workbench/ko|제도 작업대]]
 |Shortcut={{KEY|D}} {{KEY|I}}
 |Version=0.8
 |SeeAlso=[[Draft_FlipDimension|Draft FlipDimension]]
