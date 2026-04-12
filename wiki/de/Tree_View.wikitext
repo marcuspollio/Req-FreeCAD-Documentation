@@ -80,9 +80,11 @@ Dies zeigt an, dass das Objekt einen Fehler hat, der behoben werden muss. Nach d
 <span id="File:FreeCAD_Tree_view_unattached.png_Purple_chain_link"></span>
 ===[[File:FreeCAD_Tree_view_unattached.png]] Lila Kettenglieder===
 
+<div class="mw-translate-fuzzy">
 Dies wird typischerweise für [[Sketch/de|Skizzen]], [[PartDesign_Workbench/de|PartDesign]]-Grundkörper, wie Quader, Zylinder usw. sowie [[Datum/de|Bezugselemente]] angezeigt. Es zeigt an, dass das Objekt nirgends befestigt ist. Es hat keinen Befestigungsversatz und bezieht seine Position und Ausrichtung ausschließlich von seiner Eigenschaft [[Placement/de|Positionierung]] (Placement).
+</div>
 
-Es gibt ein [[Basic_Attachment_Tutorial/de|Grundlegendes Anfügungs Tutorium]], das erklärt, wie man mit solchen Objekten umgeht.
+This icon also shown for [[Assembly_Workbench|Assembly]] joints that are not connected (via other joints) to a grounded object.
 
 <span id="File:FreeCAD_Tree_view_notfullyconstrained.png_Yellow_X"></span>
 === [[File:FreeCAD_Tree_view_notfullyconstrained.png]] Gelbes X ===
