@@ -80,9 +80,11 @@ Wskazuje to, że w obiekcie wystąpił błąd, który należy naprawić. Po prze
 <span id="File:FreeCAD_Tree_view_unattached.png_Purple_chain_link"></span>
 ===[[File:FreeCAD_Tree_view_unattached.png]] Fioletowe ogniwo łańcucha na białym tle===
 
+<div class="mw-translate-fuzzy">
 Jest to typowe dla [[Sketch/pl|szkiców]], prymitywów [[PartDesign_Workbench/pl|środowiska Projekt Części]], takich jak sześcian, walec, itp. oraz geometrii [[Datum/pl|konstrukcyjnej]]. Wskazuje, że obiekt nie jest do niczego przymocowany. Nie ma on przesunięcia dołączenia i pobiera swoją pozycję i wyrównanie wyłącznie z właściwości [[Placement/pl|umiejscowienie]].
+</div>
 
-Dostępny jest [[Basic_Attachment_Tutorial|Poradnik: Podstawy przyłączania]] wyjaśniający jak radzić sobie z takimi obiektami.
+This icon also shown for [[Assembly_Workbench|Assembly]] joints that are not connected (via other joints) to a grounded object.
 
 <span id="File:FreeCAD_Tree_view_notfullyconstrained.png_Yellow_X"></span>
 ===[[File:FreeCAD_Tree_view_notfullyconstrained.png]] Żółty znak X===
