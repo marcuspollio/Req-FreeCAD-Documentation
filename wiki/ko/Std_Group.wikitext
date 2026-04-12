@@ -21,7 +21,7 @@
 <span id="Description"></span>
 ==설명==
 
-'''모둠(Std Group)'''(내부적으로는 [[App_DocumentObjectGroup/ko|App DocumentObjectGroup]]이라고 함)은 데이터 유형에 관계없이 [[Tree_View/ko|나무보기]]에서 다양한 유형의 대상체를 한 곳에 모아 담을 수있는 일종의 다목적 그릇입니다. 이는 모형 내 대상체를 분류하고 정리하여 논리적인 구조를 유지하기 위한 간단한 폴더로 사용됩니다. 모둠은 다른 모둠 안에 담길 수도 있습니다.
+'''모둠(Std Group)'''(내부적으로는 [[App_DocumentObjectGroup/ko|App DocumentObjectGroup]]이라고 함)은 데이터 유형에 관계없이 [[Tree_View/ko|나무보기]]에서 다양한 유형의 대상체를 한 곳에 모아 담을 수 있는 일종의 다목적 그릇입니다. 이는 모형 내 대상체를 분류하고 정리하여 논리적인 구조를 유지하기 위한 간단한 폴더로 사용됩니다. 모둠은 다른 모둠 안에 담길 수도 있습니다.
 
 모둠 도구는 특정 작업대에 의해 정의되지 않고 기본 시스템에 의해 정의되므로 모든 [[Workbenches/ko|작업대]]에서 사용할 수 있는 {{MenuCommand|구조 도구 모음}}에서 찾을 수 있습니다.
 
