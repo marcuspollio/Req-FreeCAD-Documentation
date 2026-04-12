@@ -84,7 +84,7 @@ Esto indica que el objeto tiene un error que debe ser corregido. Después de vol
 Se muestra normalmente para [[Sketch/es|bocetos]], primitivas geométricas, como caja, cilindro, etc. y geometría [[Datum/es|Referencia]]. Indica que el objeto no está unido a nada. No tiene desplazamiento de fijación y obtiene su posición y alineación únicamente de su propiedad [[Placement/es|Colocación]].
 </div>
 
-Hay un [[Basic_Attachment_Tutorial/es|Tutorial Básico de Adjuntos]] que explica cómo manejar tales objetos.
+This icon also shown for [[Assembly_Workbench|Assembly]] joints that are not connected (via other joints) to a grounded object.
 
 <span id="File:FreeCAD_Tree_view_notfullyconstrained.png_Yellow_X"></span>
 === [[File:FreeCAD_Tree_view_notfullyconstrained.png]] Amarillo X ===
