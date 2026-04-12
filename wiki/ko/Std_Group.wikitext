@@ -25,7 +25,7 @@
 
 모둠 도구는 특정 작업대에 의해 정의되지 않고 기본 시스템에 의해 정의되므로 모든 [[Workbenches/ko|작업대]]에서 사용할 수 있는 {{MenuCommand|구조 도구 모음}}에서 찾을 수 있습니다.
 
-조립체를 생성하기 위해 3D 대상체를 단일 단위로 묶으려면 모둠 대신 [[Std_Part/ko|부품(Std Part)]]를 사용하십시오.
+조립체를 생성하기 위해 3D 대상체를 단일 단위로 묶으려면 모둠(Std Group) 대신 [[Std_Part/ko|부품(Std Part)]]이라는 그릇을 사용하십시오.
 
 [[File:Std_Group_example.png]]
 
