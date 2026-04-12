@@ -14,7 +14,7 @@
 <span id="Introduction"></span>
 == 소개 ==
 
-[[File:Workbench_Draft.svg|32px]] '''설계제도 작업대''' 는 대상물을 프리캐드에서 2D로 생성하고 수정하는 것에 중점을 두었습니다. 그러나 대상물이 일반 좌표계의 XY면에서만 존재하는 구속조건이 아닙니다. 대상물의 3D 공간에서 방향이나 위치를 임의로 정할 수 있고, 설계용 물체는 평면 형식, 비 평면 형식 둘 다 됩니다.
+[[File:Workbench_Draft.svg|32px]] '''제도 작업대''' 는 대상체를 프리캐드에서 2D로 생성하고 수정하는 것에 중점을 두었습니다. 그러나 대상체가 일반 좌표계의 XY면에서만 존재하는 구속조건이 아닙니다. 대상체의 3D 공간에서 방향이나 위치를 임의로 정할 수 있고, 제도 대상체는 평면 형식, 비 평면 형식 둘 다 됩니다.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Draft objects can be used for general drafting, similar to what can be done with Inkscape or AutoCAD. But they can also form the base for the creation of 3D objects in other workbenches. A [[Draft_Wire|Draft Wire]] may define the path of an [[Arch_Wall|Arch Wall]], a [[Draft_Polygon|Draft Polygon]] can be extruded with [[Part_Extrude|Part Extrude]], etc. Many of the [[#Modification|Draft modifier tools]] can be applied to 2D and 3D objects created with other workbenches as well. You can, for example, [[Draft_Move|move]] a [[Sketcher_Workbench|Sketch]] or create a [[Draft_OrthoArray|Draft OrthoArray]] from a [[Part_Workbench|Part]] object.
