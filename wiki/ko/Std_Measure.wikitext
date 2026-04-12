@@ -9,15 +9,13 @@
 |IconC=Freecad.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommand
 |Name=Std Measure
-|MenuLocation=Tools → Measure
+|MenuLocation=도구 → 측정
 |Workbenches=All
 |Version=1.0
-|SeeAlso=[[Draft_Dimension|Draft Dimension]]
+|SeeAlso=[[Draft_Dimension/ko|제도 치수]]
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Description==
