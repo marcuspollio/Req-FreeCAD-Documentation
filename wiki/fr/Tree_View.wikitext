@@ -81,7 +81,7 @@ Cela indique que l'objet présente une erreur qui doit être corrigée. Après a
 
 Cela est généralement indiqué pour les [[Sketch/fr|esquisses]], les primitives de [[PartDesign_Workbench/fr|PartDesign]], telles que la boîte, le cylindre, etc. et un [[Datum/fr|datum]] géométrique. Elle indique que l'objet n'est pas attaché à quelque chose. Il n'a pas de décalage d'ancrage et obtient sa position et son alignement uniquement à partir de sa propriété [[Placement/fr|Placement]]. Il existe un [[Basic_Attachment_Tutorial/fr|tutoriel pour les bases de l'ancrage]] qui explique comment gérer ce type d'objets.
 
-This icon also shown for [[Assembly_Workbench|Assembly]] joints that are not connected (via other joints) to a grounded object.
+Cette icône s'affiche également pour les liaisons d'[[Assembly_Workbench/fr|Assembly]] qui ne sont pas reliés (par d'autres liaisons) à un objet bloqué.
 
 <span id="File:FreeCAD_Tree_view_notfullyconstrained.png_Yellow_X"></span>
 === [[File:FreeCAD_Tree_view_notfullyconstrained.png]] X jaune ===
