@@ -393,9 +393,7 @@ However, at FreeCAD we believe having a building should not be mandatory, and th
 
 [[Image:Preferences_Import-Export_Page_IGES.png|400px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The [https://en.wikipedia.org/wiki/IGES Initial Graphics Exchange Specification] (IGES) file format is a file format that allows the digital exchange of information among CAD systems. After publication of the [[Preferences_Editor#STEP|STEP]] file format, IGES development was stopped in 1996, but it is still supported by many CAD programs. IGES files have the {{FileName|.iges}} or {{FileName|.igs}} extension.
-</div>
+[https://en.wikipedia.org/wiki/IGES Initial Graphics Exchange Specification] (IGES) 파일 형식은 CAD 시스템 간의 디지털 정보 교환을 가능하게 하는 파일 형식입니다. [[Preferences_Editor#STEP|STEP]] 파일 형식이 발표된 후 IGES 개발은 1996년에 중단되었지만, 여전히 많은 CAD 프로그램에서 지원되고 있습니다. IGES 파일은 {{FileName|.iges}} 또는 {{FileName|.igs}} 확장자를 가집니다.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This page is only shown if the [[Image:Workbench_Part.svg|24px]] [[Part_Workbench|Part Workbench]], [[Image:Workbench_PartDesign.svg|24px]] [[PartDesign_Workbench|PartDesign Workbench]], or [[Image:Workbench_OpenSCAD.svg|24px]] [[OpenSCAD_Workbench|OpenSCAD Workbench]] has been loaded in the current FreeCAD session.
