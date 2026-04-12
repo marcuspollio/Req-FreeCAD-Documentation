@@ -22,9 +22,7 @@
 {{Version|1.0}}
 </div>
 
-<div class="mw-translate-fuzzy">
-Assembly Workbench — это новый встроенный в FreeCAD инструмент для сборки. Он использует Ondsel solver с открытым исходным кодом.
-</div>
+[[File:Workbench_Assembly.svg|24px]] [[Assembly_Workbench|Верстак Сборка]] Это встроенный в FreeCAD верстак для сборки. Он использует решатель [https://github.com/Ondsel-Development/OndselSolver Ondsel] с открытым исходным кодом.
 
 [[Image:Assembly_Workbench_Example.png|400px]]
 
