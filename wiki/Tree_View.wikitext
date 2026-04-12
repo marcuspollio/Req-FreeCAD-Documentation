@@ -91,6 +91,7 @@ This indicates that the object has an error that needs to be fixed. After recomp
 <!--T:34-->
 This is typically shown for [[Sketch|sketches]], [[PartDesign_Workbench|PartDesign]] primitives, such as box, cylinder, etc. and [[Datum|Datum]] geometry. It indicates that the object is not attached to anything. It has no Attachment Offset and gets its position and alignment solely from its [[Placement|Placement]] property.
 
+<!--T:35-->
 There is a [[Basic Attachment Tutorial]] explaining how to handle such objects. It is also shown for [[Assembly Workbench|Assembly]] Joints that are not connected (via Joints)  to a grounded object.
 
 === [[File:FreeCAD_Tree_view_notfullyconstrained.png]] Yellow X === <!--T:36-->
