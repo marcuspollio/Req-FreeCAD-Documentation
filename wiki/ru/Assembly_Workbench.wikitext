@@ -56,9 +56,7 @@
 <span id="Joints"></span>
 ===Сопряжения (соединения)===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Assembly_ToggleGrounded.svg|32px]] [[Assembly_ToggleGrounded|Toggle Grounded]]: fixes the position and orientation of a shape in relation to the coordinate system of the assembly it belongs to.
-</div>
+* [[Image:Assembly_ToggleGrounded.svg|32px]] [[Assembly_ToggleGrounded|Переключить фиксацию]]: фиксирует положение и ориентацию детали относительно системы координат сборки.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Assembly_CreateJointFixed.svg|32px]] [[Assembly_CreateJointFixed|Fixed Joint]]: creates a joint locking two assembly parts together, preventing any movement or rotation but can be also used to define other types of joints.
