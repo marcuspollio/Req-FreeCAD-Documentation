@@ -79,9 +79,11 @@ Indica che l'oggetto presenta un errore che deve essere corretto. Dopo aver rica
 <span id="File:FreeCAD_Tree_view_unattached.png_Purple_chain_link"></span>
 === [[File:FreeCAD_Tree_view_unattached.png]] Catena di collegamento viola ===
 
+<div class="mw-translate-fuzzy">
 Viene tipicamente mostrato per [[Sketch/it|schizzi]], primitive[[PartDesign_Workbench/it|PartDesign]] come cubo, cilindro, ecc. e geometria [[Datum/it|Datum]]. Indica che l'oggetto non è collegato a nulla. Non ha offset di allegato e ottiene la sua posizione e il suo allineamento esclusivamente dalla sua proprietà [[Placement/it|Posizionamento]].
+</div>
 
-C'è un [[Basic_Attachment_Tutorial/it|Tutorial di base sugli allegati]] che spiega come gestire tali oggetti.
+This icon also shown for [[Assembly_Workbench|Assembly]] joints that are not connected (via other joints) to a grounded object.
 
 <span id="File:FreeCAD_Tree_view_notfullyconstrained.png_Yellow_X"></span>
 === [[File:FreeCAD_Tree_view_notfullyconstrained.png]] X Gialla ===
