@@ -66,7 +66,7 @@
 
 * [[Image:Assembly_CreateJointSlider.svg|32px]] [[Assembly_CreateJointSlider|Скользящее сопряжение]]: создает скользящее (призматическое) сопряжение между двумя выбранными деталями, обеспечивая линейное перемещение по одной оси и ограничивая вращение.
 
-* [[Image:Assembly_CreateJointBall.svg|32px]] [[Assembly_CreateJointBall|Шаровое сопряжение]]: создает шаровое сопряжение между двумя выбранными деталями в одной точке, обеспечивая свободное вращение вокруг этой точки, при этом обе детали остаются соединенными в этой точке.
+* [[Image:Assembly_CreateJointBall.svg|32px]] [[Assembly_CreateJointBall|Шаровое сопряжение]]: создает шаровое сопряжение между двумя выбранными деталями в одной точке, обеспечивая свободное вращение вокруг этой точки, при этом обе детали остаются соединенными.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Assembly_CreateJointDistance.svg|32px]] [[Assembly_CreateJointDistance|Distance Joint]]: creates a distance joint between two selected parts, fixing the distance between both parts.
