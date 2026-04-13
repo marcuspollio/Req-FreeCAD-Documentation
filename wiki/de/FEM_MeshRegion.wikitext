@@ -52,10 +52,8 @@ Es können so viele unterschiedliche Netzbereiche wie nötig erstellt werden.
 <span id="Visual_examples"></span>
 ==Bildhafte Beispiele== 
 
-<div class="mw-translate-fuzzy">
 [[File:FEMMeshRegion_Example1.png|300px|]]
-{{Caption|Beispiel 1: Das grobe Start-NetzGmshAusForm}}
-</div>
+{{Caption|Beispiel 1: Das anfängliche grobe FEM-Netz von Gmsh}}
 
 
 [[File:FEMMeshRegion_Example2.png|300px]]
