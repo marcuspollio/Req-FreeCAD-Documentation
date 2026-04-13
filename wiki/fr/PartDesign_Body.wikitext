@@ -52,7 +52,7 @@ Si un objet solide est sélectionné :
 
 Un [[PartDesign_Body/fr|PartDesign Corps]] (classe {{incode|PartDesign::Body}}) est dérivé de [[Part_Feature/fr|Part Feature]] (classe {{incode|Part::Feature}}), par conséquent il partage toutes les propriétés de cette dernière.
 
-Outre les propriétés décrites dans la [[Part_Feature/fr|Part Fonction]], le corps a les propriétés suivantes dans l'[[Property_editor/fr|éditeur de propriétés]].
+Outre les propriétés décrites dans la [[Part_Feature/fr|Part Fonction]], le corps a les propriétés suivantes dans l'[[Property_View/fr|éditeur de propriétés]].
 
 <span id="Data"></span>
 === Données ===
