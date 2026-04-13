@@ -87,8 +87,8 @@ Outre les propriétés décrites dans la [[Part_Feature/fr|Part Fonction]], le c
 Un document ouvert peut contenir plusieurs corps. Pour ajouter une nouvelle fonction à un corps spécifique, il doit être rendu {{Emphasis|actif}}. Un corps actif sera affiché dans l'[[Tree_View/fr|arborescence]] avec la couleur d'arrière-plan spécifiée par la valeur de {{MenuCommand|conteneur actif}} dans l'[[Preferences_Editor/fr#Couleurs|éditeur de préférences]]. Un corps actif sera également affiché en gras.
 
 Pour activer ou désactiver un corps :
-* Double-cliquez dessus dans la [[Tree_view/fr|vue en arborescence]] ou
-* Ouvrez le menu contextuel (clic droit) et sélectionnez {{MenuCommand|Toggle active body}} (Activer/Désactiver le corps).
+* Double-cliquez dessus dans l'[[Tree_View/fr|arborescence]] ou
+* Ouvrez le menu contextuel (clic droit) et sélectionnez {{MenuCommand|Activer le corps}}.
 
 L'activation d'un corps bascule automatiquement vers l'[[PartDesign_Workbench/fr|atelier PartDesign]]. Un seul corps ne peut être actif à la fois.
 
