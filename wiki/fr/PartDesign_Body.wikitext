@@ -124,7 +124,7 @@ Pour créer la Base Feature :
 
 Vous ne pouvez pas sélectionner un corps existant, ni aucune de ses [[PartDesign_Feature/fr|fonctions]], lorsque vous appuyez sur {{Button|[[File:PartDesign_Body.svg|16px]] [[PartDesign_Body/fr|Créer un corps]]}}. Si vous disposez déjà d'un corps, vous pouvez créer la Base Feature (fonction de base) de la manière suivante :
 * dans l'[[Tree_View/fr|arborescence]], sélectionnez un objet et faites-le glisser à l'intérieur du corps, ou
-* dans l'[[Property_View/fr|éditeur de propriétés]], modifiez la valeur de {{PropertyData|Base Feature}} en appuyant sur les points de suspension {{Button|…}} et en choisissant un objet dans la liste. Dans ce cas, vous pouvez choisir un corps existant comme fonction de base.
+* dans l'[[Property_View/fr|éditeur de propriétés]], modifiez la valeur de la propriété {{PropertyData|Base Feature}} en appuyant sur les points de suspension {{Button|…}} et en choisissant un objet dans la liste. Dans ce cas, vous pouvez choisir un corps existant comme fonction de base.
 
 La Base Feature est entièrement facultative. Elle n'est présente que lors de l'inclusion d'un objet extérieur au corps. Si aucun solide externe n'est inclus, vous pouvez toujours créer votre forme à l'aide d'[[Sketch/fr|esquisses]], de [[PartDesign_Pad/fr|protrusions]], de [[PartDesign_CompPrimitiveAdditive/fr|primitives additives]] et d'autres [[PartDesign_Feature/fr|PartDesign Features]]. Dans ce cas, la propriété {{PropertyData|Base Feature}} reste vide.
 
