@@ -49,7 +49,7 @@ You can create as many different mesh regions as needed.
 ==Visual examples== 
 
 [[File:FEMMeshRegion_Example1.png|300px|]]
-{{Caption|Example 1: The initial coarse FEM Mesh by GMSH}}
+{{Caption|Example 1: The initial coarse FEM Mesh by Gmsh}}
 
 
 [[File:FEMMeshRegion_Example2.png|300px]]
@@ -60,7 +60,7 @@ You can create as many different mesh regions as needed.
 
 ==Notes==
 
-* The order in which the regions are shown in [[Tree View|Tree View]] can change the mesh result. See this [https://forum.freecad.org/viewtopic.php?f=18&t=41955 forum thread].
+* The order in which the regions are shown in [[Tree_View|Tree View]] can change the mesh result. See this [https://forum.freecad.org/viewtopic.php?f=18&t=41955 forum thread].
 
 ==Related==
 
