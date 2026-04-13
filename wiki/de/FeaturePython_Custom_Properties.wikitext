@@ -93,7 +93,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 == App::PropertyAngle ==
 
-Eine Winkeleigenschaft. Sie kann einen Winkelwert  {{incode|angle}} enthalten. Mit ".Value" wird der Wert als Fließkommazahl ausgegeben. Weitere Details finden sich im Abschnitt [[#Ein FeaturePython-Objekt erstellen und diesem eine Eigenschaft hinzufügen|Ein FeaturePython-Objekt erstellen und diesem eine Eigenschaft hinzufügen]].
+Eine Winkeleigenschaft. Sie kann einen Winkelwert  {{incode|angle}} enthalten. Mit ".Value" wird der Wert als Fließkommazahl ausgegeben. Weitere Details finden sich im Abschnitt [[#Creating|Ein FeaturePython-Objekt erstellen und diesem eine Eigenschaft hinzufügen]].
 
 {{Code|code=
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
