@@ -14,137 +14,28 @@ If you have written a macro and want to include it in one of the categories on t
 <div class="toccolours mw-collapsible mw-collapsed">
 <translate>
 
-==
-import FreeCAD as App
-import Part
+===[[File:Part_CheckGeometry.svg|32px]] 3D View operations=== <!--T:97-->
 
-doc = App.newDocument("Concept_Trolley")
+</translate>
+<div class="mw-collapsible-content">
+<translate>
 
-# -----------------------
-# PARAMETERS (mm)
-# -----------------------
-LENGTH = 800
-WIDTH  = 600
-HEIGHT = 900
-PROFILE = 40
+<!--T:170-->
+* {{MacroLink|Icon=Macro_Align_Face_Object_to_View.png|Macro_Align_Face_Object_to_View|Macro Align Face Object to View}}: This macro aligns the current view to a selected face.
 
-CASTER_DIA = 100
-CASTER_HEIGHT = 125
+<!--T:171-->
+* {{MacroLink|Icon=Macro_Align_View_to_Face.png|Macro_Align_View_to_Face|Macro Align View to Face}}: This macro aligns the current view to a selected face.
 
-TOP_THICKNESS = 6
-MONITOR_POST_HEIGHT = 300
+<!--T:172-->
+* {{MacroLink|Icon=Macro_Copy3DViewToClipboard.png|Macro_Copy3DViewToClipboard|Macro Copy3DViewToClipboard}}: Copy contents of 3DView resized 640, 480 px to clipboard.
 
-# Drawer parameters
-DRAWER_WIDTH  = LENGTH - 2*PROFILE - 80
-DRAWER_DEPTH  = WIDTH  - 2*PROFILE - 80
-DRAWER_HEIGHT = 120
-DRAWER_Z      = PROFILE + 460
+<!--T:173-->
+* {{MacroLink|Icon=FCCamera_00.png|Macro_FCCamera|Macro FCCamera}}: This macro can rotate the screen in a defined angle and the defined axis and creates a plane to face the screen to create a form in the specified plane positions the selected face facing the screen, to detect the position of the camera.
 
+<!--T:174-->
+* {{MacroLink|Icon=Macro_Mouse_Cross.png|Macro_Mouse_Cross|Macro Mouse Cross}}: This small macro turns the arrow of the mouse in a precision cross.
 
-def box(x, y, z, dx, dy, dz, name):
-    shape = Part.makeBox(dx, dy, dz)
-    shape.translate(App.Vector(x, y, z))
-    obj = doc.addObject("Part::Feature", name)
-    obj.Shape = shape
-    return obj
-
-
-# -----------------------
-# FRAME
-# -----------------------
-
-# Bottom
-box(0, 0, 0, LENGTH, PROFILE, PROFILE, "Bottom_Front")
-box(0, WIDTH-PROFILE, 0, LENGTH, PROFILE, PROFILE, "Bottom_Rear")
-box(0, PROFILE, 0, PROFILE, WIDTH-2*PROFILE, PROFILE, "Bottom_Left")
-box(LENGTH-PROFILE, PROFILE, 0, PROFILE, WIDTH-2*PROFILE, PROFILE, "Bottom_Right")
-
-# Vertical posts
-box(0, 0, 0, PROFILE, PROFILE, HEIGHT, "Post_FL")
-box(LENGTH-PROFILE, 0, 0, PROFILE, PROFILE, HEIGHT, "Post_FR")
-box(0, WIDTH-PROFILE, 0, PROFILE, PROFILE, HEIGHT, "Post_RL")
-box(LENGTH-PROFILE, WIDTH-PROFILE, 0, PROFILE, PROFILE, HEIGHT, "Post_RR")
-
-# Top
-box(0, 0, HEIGHT, LENGTH, PROFILE, PROFILE, "Top_Front")
-box(0, WIDTH-PROFILE, HEIGHT, LENGTH, PROFILE, PROFILE, "Top_Rear")
-box(0, PROFILE, HEIGHT, PROFILE, WIDTH-2*PROFILE, PROFILE, "Top_Left")
-box(LENGTH-PROFILE, PROFILE, HEIGHT, PROFILE, WIDTH-2*PROFILE, PROFILE, "Top_Right")
-
-# -----------------------
-# TOP WORK PLATE
-# -----------------------
-box(10, 10, HEIGHT+PROFILE, LENGTH-20, WIDTH-20, TOP_THICKNESS, "Top_Plate")
-
-# -----------------------
-# SIDE / REAR PANELS
-# -----------------------
-box(0, PROFILE, PROFILE, 3, WIDTH-2*PROFILE, HEIGHT-PROFILE, "Left_Panel")
-box(LENGTH-3, PROFILE, PROFILE, 3, WIDTH-2*PROFILE, HEIGHT-PROFILE, "Right_Panel")
-box(PROFILE, WIDTH-3, PROFILE, LENGTH-2*PROFILE, 3, HEIGHT-PROFILE, "Rear_Panel")
-
-# -----------------------
-# LOWER CABINET BLOCK
-# -----------------------
-box(PROFILE+20, PROFILE+20, PROFILE,
-    LENGTH-2*PROFILE-40,
-    WIDTH-2*PROFILE-40,
-    430, "Cabinet")
-
-# -----------------------
-# DRAWER MODULE (NEW)
-# -----------------------
-
-# Drawer housing
-box(PROFILE+20, PROFILE+20, DRAWER_Z,
-    DRAWER_WIDTH,
-    DRAWER_DEPTH,
-    DRAWER_HEIGHT,
-    "Drawer_Housing")
-
-# Drawer slide (slightly extended)
-box(PROFILE+20, PROFILE+10, DRAWER_Z+10,
-    DRAWER_WIDTH-20,
-    DRAWER_DEPTH-40,
-    DRAWER_HEIGHT-20,
-    "Drawer_Box")
-
-# Drawer front panel
-box(PROFILE+10, PROFILE+10, DRAWER_Z,
-    10,
-    DRAWER_DEPTH,
-    DRAWER_HEIGHT,
-    "Drawer_Front")
-
-# -----------------------
-# MONITOR STAND
-# -----------------------
-box(LENGTH/2-PROFILE/2, WIDTH/2-PROFILE/2,
-    HEIGHT+PROFILE+TOP_THICKNESS,
-    PROFILE, PROFILE, MONITOR_POST_HEIGHT,
-    "Monitor_Post")
-
-box(LENGTH/2-100, WIDTH/2-20,
-    HEIGHT+PROFILE+TOP_THICKNESS+MONITOR_POST_HEIGHT,
-    200, 40, 8, "Monitor_Plate")
-
-# -----------------------
-# CASTERS
-# -----------------------
-def caster(x, y):
-    cyl = Part.makeCylinder(CASTER_DIA/2, CASTER_HEIGHT)
-    cyl.translate(App.Vector(x, y, -CASTER_HEIGHT))
-    obj = doc.addObject("Part::Feature", "Caster")
-    obj.Shape = cyl
-
-caster(PROFILE, PROFILE)
-caster(LENGTH-PROFILE, PROFILE)
-caster(PROFILE, WIDTH-PROFILE)
-caster(LENGTH-PROFILE, WIDTH-PROFILE)
-
-doc.recompute()
-
-
+<!--T:175-->
 * {{MacroLink|Icon=Macro_Rotate_View_view_90_Degrees.png|Macro_Rotate_View|Macro Rotate View}}: This macro rotates the current view by 90° to the left. Only works if you are in [[Image:View-top.svg|Std_ViewTop|16px|link=Std_ViewTop]] [[Std_ViewTop|XY (top)]] view.
 
 <!--T:176-->
