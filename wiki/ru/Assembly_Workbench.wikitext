@@ -58,9 +58,7 @@
 
 * [[Image:Assembly_ToggleGrounded.svg|32px]] [[Assembly_ToggleGrounded|Переключить фиксацию]]: фиксирует положение и ориентацию детали относительно системы координат сборки.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Assembly_CreateJointFixed.svg|32px]] [[Assembly_CreateJointFixed|Fixed Joint]]: creates a joint locking two assembly parts together, preventing any movement or rotation but can be also used to define other types of joints.
-</div>
+* [[Image:Assembly_CreateJointFixed.svg|32px]] [[Assembly_CreateJointFixed|Фиксированное сопряжение]]: создает сопряжение, фиксирующее две детали вместе, предотвращая их смещение или вращение, но может использоваться и для других типов соединений
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Assembly_CreateJointRevolute.svg|32px]] [[Assembly_CreateJointRevolute|Revolute Joint]]: creates a hinged joint, allowing rotation around a single axis between two selected parts.
