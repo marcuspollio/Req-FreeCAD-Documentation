@@ -1,0 +1,126 @@
+
+import FreeCAD as App
+import Part
+import ImportGui
+import os
+
+# ===============================
+# EXPORT LOCATION
+# ===============================
+EXPORT_PATH = os.path.expanduser("~/Desktop/Full_Trolley.step")
+
+doc = App.newDocument("Full_Trolley")
+
+# ===============================
+# PARAMETERS (mm)
+# ===============================
+L = 800
+W = 600
+H = 900
+PROFILE = 40
+
+CASTER_DIA = 100
+CASTER_H = 125
+
+TOP_THK = 6
+MONITOR_POST_H = 300
+
+DRAWER_W = L - 2*PROFILE - 80
+DRAWER_D = W - 2*PROFILE - 80
+DRAWER_H = 120
+DRAWER_Z = PROFILE + 460
+
+# ===============================
+def box(x,y,z,dx,dy,dz,name):
+    b = Part.makeBox(dx,dy,dz)
+    b.translate(App.Vector(x,y,z))
+    o = doc.addObject("Part::Feature", name)
+    o.Shape = b
+    return o
+
+# ===============================
+# FRAME
+# ===============================
+# Bottom
+box(0,0,0,L,PROFILE,PROFILE,"BF")
+box(0,W-PROFILE,0,L,PROFILE,PROFILE,"BR")
+box(0,PROFILE,0,PROFILE,W-2*PROFILE,PROFILE,"BL")
+box(L-PROFILE,PROFILE,0,PROFILE,W-2*PROFILE,PROFILE,"BRI")
+
+# Posts
+box(0,0,0,PROFILE,PROFILE,H,"PFL")
+box(L-PROFILE,0,0,PROFILE,PROFILE,H,"PFR")
+box(0,W-PROFILE,0,PROFILE,PROFILE,H,"PRL")
+box(L-PROFILE,W-PROFILE,0,PROFILE,PROFILE,H,"PRR")
+
+# Top
+box(0,0,H,L,PROFILE,PROFILE,"TF")
+box(0,W-PROFILE,H,L,PROFILE,PROFILE,"TR")
+box(0,PROFILE,H,PROFILE,W-2*PROFILE,PROFILE,"TL")
+box(L-PROFILE,PROFILE,H,PROFILE,W-2*PROFILE,PROFILE,"TRI")
+
+# ===============================
+# TOP PLATE
+# ===============================
+box(10,10,H+PROFILE,L-20,W-20,TOP_THK,"TopPlate")
+
+# ===============================
+# PANELS
+# ===============================
+box(0,PROFILE,PROFILE,3,W-2*PROFILE,H-PROFILE,"LeftPanel")
+box(L-3,PROFILE,PROFILE,3,W-2*PROFILE,H-PROFILE,"RightPanel")
+box(PROFILE,W-3,PROFILE,L-2*PROFILE,3,H-PROFILE,"RearPanel")
+
+# ===============================
+# CABINET
+# ===============================
+box(PROFILE+20,PROFILE+20,PROFILE,
+    L-2*PROFILE-40,
+    W-2*PROFILE-40,
+    430,"Cabinet")
+
+# ===============================
+# DRAWER MODULE
+# ===============================
+box(PROFILE+20,PROFILE+20,DRAWER_Z,
+    DRAWER_W,DRAWER_D,DRAWER_H,"DrawerHousing")
+
+box(PROFILE+20,PROFILE+10,DRAWER_Z+10,
+    DRAWER_W-20,DRAWER_D-40,DRAWER_H-20,"DrawerBox")
+
+box(PROFILE+10,PROFILE+10,DRAWER_Z,
+    10,DRAWER_D,DRAWER_H,"DrawerFront")
+
+# ===============================
+# MONITOR STAND
+# ===============================
+box(L/2-PROFILE/2,W/2-PROFILE/2,
+    H+PROFILE+TOP_THK,
+    PROFILE,PROFILE,MONITOR_POST_H,"MonitorPost")
+
+box(L/2-100,W/2-20,
+    H+PROFILE+TOP_THK+MONITOR_POST_H,
+    200,40,8,"MonitorPlate")
+
+# ===============================
+# CASTERS
+# ===============================
+def caster(x,y):
+    c = Part.makeCylinder(CASTER_DIA/2,CASTER_H)
+    c.translate(App.Vector(x,y,-CASTER_H))
+    o = doc.addObject("Part::Feature","Caster")
+    o.Shape = c
+
+caster(PROFILE,PROFILE)
+caster(L-PROFILE,PROFILE)
+caster(PROFILE,W-PROFILE)
+caster(L-PROFILE,W-PROFILE)
+
+doc.recompute()
+
+# ===============================
+# EXPORT STEP
+# ===============================
+ImportGui.export(doc.Objects, EXPORT_PATH)
+print("✅ STEP file generated:", EXPORT_PATH)
+``
