@@ -217,7 +217,7 @@ obj.addObjects([feat1, feat2])
 App.ActiveDocument.recompute()
 }}
 
-Dans un document contenant plusieurs corps, le [[PartDesign_Body/fr#Statut_actif|Corps actif]] peut être défini par la méthode {{incode|setActiveObject}} de {{incode|ActiveView}}. Le premier argument est la chaîne fixe {{incode|"pdbody"}} et le deuxième argument est l'objet Body qui doit être activé.
+Dans un document contenant plusieurs corps, le [[PartDesign_Body/fr#Statut_actif|corps actif]] peut être défini par la méthode {{incode|setActiveObject}} de {{incode|ActiveView}}. Le premier argument est la chaîne fixe {{incode|"pdbody"}} et le deuxième argument est l'objet Body qui doit être activé.
 {{Code|code=
 import FreeCAD as App
 import FreeCADGui as Gui
