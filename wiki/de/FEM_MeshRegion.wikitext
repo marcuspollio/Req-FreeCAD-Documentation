@@ -52,8 +52,10 @@ Es können so viele unterschiedliche Netzbereiche wie nötig erstellt werden.
 <span id="Visual_examples"></span>
 ==Bildhafte Beispiele== 
 
+<div class="mw-translate-fuzzy">
 [[File:FEMMeshRegion_Example1.png|300px|]]
 {{Caption|Beispiel 1: Das grobe Start-NetzGmshAusForm}}
+</div>
 
 
 [[File:FEMMeshRegion_Example2.png|300px]]
@@ -65,7 +67,9 @@ Es können so viele unterschiedliche Netzbereiche wie nötig erstellt werden.
 <span id="Notes"></span>
 ==Hinweise==
 
+<div class="mw-translate-fuzzy">
 * Die Reihenfolge in der die Regionen in der [[Tree view/de|Baumansicht]] angezeigt werden, kann das Vermaschungs-Ergebnis beeinflussen. Siehe diesen [https://forum.freecad.org/viewtopic.php?f=18&t=41955 Forenbeitrag].
+</div>
 
 <span id="Related"></span>
 ==Verwandte Themen==
