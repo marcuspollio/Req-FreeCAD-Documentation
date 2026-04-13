@@ -65,7 +65,7 @@ You can create as many different mesh regions as needed.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEMMeshRegion_Example1.png|300px|]]
-{{Caption|Example 1: The initial coarse FEM Mesh by GMSH}}
+{{Caption|Example 1: The initial coarse FEM Mesh by Gmsh}}
 </div>
 
 
@@ -82,7 +82,9 @@ You can create as many different mesh regions as needed.
 <span id="Notes"></span>
 ==Примечания==
 
+<div class="mw-translate-fuzzy">
 Порядок, в котором области отображаются в [[Tree view/ru|Древе проекта]], может изменить результат сетки. См. Эту [https://forum.freecad.org/viewtopic.php?f=18&t=41955 ветку форума].
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Related==
