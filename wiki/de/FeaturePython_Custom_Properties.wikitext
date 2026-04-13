@@ -868,7 +868,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 == App::PropertyQuantity ==
 
-A {{TODO}}quantity property. It can contain {{TODO}}"allowed type and/or values". For more details, see the section about [[#Creating|Creating a FeaturePython object and adding a property to it]].
+Eine {{TODO}}-quantity-Eigenschaft. Sie kann {{TODO}}„zulässige Typen und/oder Werte“ enthalten. Weitere Informationen sind im Abschnitt über [[#Creating|Erstellen eines FeaturePython-Objekts und Hinzufügen einer Eigenschaft dazu]] zu finden.
 
 {{Code|code=
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
