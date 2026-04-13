@@ -1060,7 +1060,7 @@ obj.ThePropertyName # returns [Vector (0, 10, 0), Vector (1, 2, 3), Vector (30, 
 
 == App::PropertyVolume ==
 
-A {{TODO}}volume property. It can contain {{TODO}}"allowed type and/or values". For more details, see the section about [[#Creating|Creating a FeaturePython object and adding a property to it]].
+Eine {{TODO}}-volume-Eigenschaft. Sie kann {{TODO}}„zulässige Typen und/oder Werte“ enthalten. Weitere Informationen sind im Abschnitt über [[#Creating|Erstellen eines FeaturePython-Objekts und Hinzufügen einer Eigenschaft dazu]] zu finden.
 
 {{Code|code=
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
