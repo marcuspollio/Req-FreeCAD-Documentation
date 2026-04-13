@@ -129,27 +129,25 @@ Mit Befehlsverknüpfung können Abfragen miteinander verknüpft werden, wobei di
 
 Um beispielsweise alle Türen im „Erdgeschoss“ zu finden, muss eine mehrstufige Abfrage durchgeführt werden, da Türen Unterelemente von Wänden sind, die wiederum Unterelemente des Stockwerks sind.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Create a new report.
-# '''Statement 1: Find the 'Ground Floor' Object'''
-#* Add a statement with the description {{Incode|Find Ground Floor}}.
-#* This query selects the starting point of our search.{{Code|lang=sql|code=
+# Erzeuge einen neuen Bericht.
+# '''Anweisung 1: Finde das 'Ground Floor'-Objekt'''
+#* Füge eine Anweisung mit der Beschreibung {{Incode|Find Ground Floor}} hinzu.
+#* Diese Abfrage legt den Startpunkt unserer Suche fest. {{Code|lang=sql|code=
 SELECT * FROM document WHERE Label = 'Ground Floor'
 }}
-# '''Statement 2: Find the Walls on that Floor'''
-#* Add a second statement with the description {{Incode|Find Walls on Floor}}.
-#* In the editor, check the {{CheckBox|Use as Pipeline Step}} checkbox. This tells the statement to run on the results of the previous one (the floor object).
-#* Use this query to find all direct children of the floor and keep only the walls:{{Code|lang=sql|code=
+# '''Anweisung 2: Finde die Wände auf dieser Etage'''
+#* Füge eine zweite Anweisung mit der Beschreibung {{Incode|Wände auf dieser Etage finden}} hinzu.
+#* Aktiviere im Editor das Kontrollkästchen {{CheckBox|Als Pipeline-Schritt verwenden}}. Dadurch wird die Anweisung angewiesen, auf den Ergebnissen der vorherigen Anweisung (dem Bodenobjekt) ausgeführt zu werden.
+#* Verwende diese Abfrage, um alle direkten untergeordneten Elemente der Etage zu finden und nur die Wände beizubehalten: {{Code|lang=sql|code=
 SELECT * FROM CHILDREN(SELECT * FROM document) WHERE IfcType = 'Wall'
 }}
-# '''Statement 3: Find the Doors in those Walls'''
-#* Add a third statement with the description {{Incode|Find Doors in Walls}}.
-#* Check the {{CheckBox|Use as Pipeline Step}} checkbox again. This now links it to the output of Statement 2 (the list of walls).
-#* Use this query to find the children of the walls and keep only the doors:{{Code|lang=sql|code=
+# '''Anweisung 3: Finde die Türen in diesen Wänden'''
+#* Füge eine dritte Anweisung mit der Beschreibung {{Incode|Find Doors in Walls}} hinzu.
+#* Aktiviere erneut das Kontrollkästchen {{CheckBox|Use as Pipeline Step}}. Dadurch wird die Anweisung nun mit der Ausgabe von Anweisung 2 (der Liste der Wände) verknüpft.
+#* Verwende diese Abfrage, um die untergeordneten Elemente der Wände zu ermitteln und nur die Türen beizubehalten: {{Code|lang=sql|code=
 SELECT Label, Width, Height FROM CHILDREN(SELECT * FROM document) WHERE IfcType = 'Door'
 }}
-# Click {{Button|OK}}. The report will execute the full three-step pipeline.
-</div>
+# {{Button|OK}} drücken. Der Bericht führt die gesamte dreistufige Pipeline aus.
 
 '''Das Ergebnis verstehen:''' Die endgültige Tabelle zeigt nur die Ergebnisse der letzten Anweisung in der Pipeline (die Liste der Türen). Die ersten beiden Anweisungen fungieren als Zwischenfilter, deren Ergebnisse im Speicher weitergegeben, aber nicht in die Tabelle gedruckt werden, sodass Sie einen übersichtlichen und präzisen Abschlussbericht erhalten.
 
