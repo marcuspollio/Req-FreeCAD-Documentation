@@ -745,7 +745,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 == App::PropertyPath ==
 
-A path property. It can contain a string representing a path to a folder {{TODO}}:(does it also allow paths to files? does it allow relative or absolute paths or both?). For more details, see the section about [[#Creating|Creating a FeaturePython object and adding a property to it]].
+Eine path-Eigenschaft. Es kann eine Zeichenfolge enthalten, die einen Pfad zu einem Ordner darstellt {{TODO}}:(Sind auch Pfade zu Dateien zulässig? Sind relative oder absolute Pfade oder beides zulässig?). Weitere Informationen sind im Abschnitt über [[#Creating|Erstellen eines FeaturePython-Objekts und Hinzufügen einer Eigenschaft dazu]] zu finden.
 
 {{Code|code=
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
