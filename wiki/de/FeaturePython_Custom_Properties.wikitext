@@ -508,7 +508,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 == App::PropertyLinkList ==
 
-Eine link list-Eingenschaft. Sie kann eine Liste verknüpfter Objekte enthalten. Weitere Informationen sind im Abschnitt über [[#Creating|Erstellen eines FeaturePython-Objekts und Hinzufügen einer Eigenschaft dazu]] zu finden.
+Eine link list-Eigenschaft. Sie kann eine Liste verknüpfter Objekte enthalten. Weitere Informationen sind im Abschnitt über [[#Creating|Erstellen eines FeaturePython-Objekts und Hinzufügen einer Eigenschaft dazu]] zu finden.
 
 {{Code|code=
 link_obj0 = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "LinkObjectName0")
