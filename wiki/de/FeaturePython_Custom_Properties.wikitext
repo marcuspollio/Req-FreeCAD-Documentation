@@ -79,7 +79,7 @@ obj.addProperty(type: string, name: string, group="", doc="", attr=0, read_only=
 
 == App::PropertyAcceleration ==
 
-A {{TODO}}acceleration property. It can contain {{TODO}}"allowed type and/or values". For more details, see the section about [[#Creating|Creating a FeaturePython object and adding a property to it]].
+Eine {{TODO}}-Beschleunigungseigenschaft. Sie kann {{TODO}}„zulässige Typen und/oder Werte“ enthalten. Weitere Informationen sind im Abschnitt über [[#Erstellen|Erstellen eines FeaturePython-Objekts und Hinzufügen einer Eigenschaft dazu]] zu finden.
 
 {{Code|code=
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
