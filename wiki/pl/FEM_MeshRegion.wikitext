@@ -52,8 +52,10 @@ Możesz utworzyć tyle różnych obszarów siatki, ile potrzeba.
 <span id="Visual_examples"></span>
 ==Przykłady wizualne== 
 
+<div class="mw-translate-fuzzy">
 [[File:FEMMeshRegion_Example1.png|300px|]]
 {{Caption|Przykład 1: Początkowa rzadka siatka Gmsh.}}
+</div>
 
 
 [[File:FEMMeshRegion_Example2.png|300px]]
@@ -65,7 +67,9 @@ Możesz utworzyć tyle różnych obszarów siatki, ile potrzeba.
 <span id="Notes"></span>
 ==Uwagi==
 
+<div class="mw-translate-fuzzy">
 * Kolejność, w której obszary są pokazywane w [[Tree view/pl|widoku drzewa]] może wpłynąć na uzyskaną siatkę. Więcej informacji można znaleźć [https://forum.freecad.org/viewtopic.php?f=18&t=41955 w tym wątku na forum].
+</div>
 
 <span id="Related"></span>
 ==Powiązane==
