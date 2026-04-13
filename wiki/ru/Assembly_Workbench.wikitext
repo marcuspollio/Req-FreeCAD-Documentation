@@ -62,9 +62,7 @@
 
 * [[Image:Assembly_CreateJointRevolute.svg|32px]] [[Assembly_CreateJointRevolute|Поворотное сопряжение]]: создает поворотное сопряжение, позволяющее вращать две выбранные детали вокруг одной оси.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Assembly_CreateJointCylindrical.svg|32px]] [[Assembly_CreateJointCylindrical|Cylindrical Joint]]: creates a cylindrical joint between two selected parts, allowing rotation around a single axis and a movement along the same axis.
-</div>
+* [[Image:Assembly_CreateJointCylindrical.svg|32px]] [[Assembly_CreateJointCylindrical|Цилиндрическое сопряжение]]: создает цилиндрическое сопряжение между двумя выбранными деталями, обеспечивающее вращение вокруг одной оси и перемещение вдоль этой оси.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Assembly_CreateJointSlider.svg|32px]] [[Assembly_CreateJointSlider|Slider Joint]]: creates a slider (prismatic) joint between two selected parts, allowing a linear movement along a single axis while restricting rotation.
