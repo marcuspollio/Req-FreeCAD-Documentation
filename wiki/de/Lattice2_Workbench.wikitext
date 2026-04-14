@@ -10,7 +10,9 @@
 <span id="Introduction"></span>
 ==Einführung==
 
+<div class="mw-translate-fuzzy">
 Der Arbeitsbereich Lattice2 ist ein [[External_workbenches/de|externer FreeCAD-Arbeitsbereich]], der dem Zweck dient, mit Positionierungen und Anordnungen von Positionierungen zu arbeiten. Es ist eine Art Zusammenbau-Arbeitsbereich, jedoch mit Schwerpunkt auf Anordnungen. Es gibt keine Randbedingungen und Beziehungen, es gibt nur Anordnungen von Positionierungen, die erzeugt, kombiniert, transformiert, überlagert und mit Formen bestückt werden können.
+</div>
 
 Haben Sie sich schon einmal gefragt, wie man mit FreeCAD einen Winkelmesser erstellen kann? Das ist das Ziel der Workbench (einschließlich Beschriftung der Teilstrichmarkierungen). Außerdem können mit der Workbench Explosionszeichnungen erstellt werden.
 
@@ -155,10 +157,12 @@ Detaillierte Beschreibung auf dem [https://github.com/DeepSOIC/Lattice2/wiki Lat
 <span id="Other_useful_links"></span>
 ==Andere nützliche Verknüpfungen==
 
+<div class="mw-translate-fuzzy">
 * [https://github.com/DeepSOIC/Lattice Lattice aka Arbeitsbereich Lattice1 (veraltet)]
 * [[External_workbenches/de|Externe Arbeitsbereiche]]: Liste der FreeCAD-Arbeitsbereiche.
 * [[Macros_recipes/de|Makrorezepte]]
 * [[FreeCAD_Community_Portal/de|FreeCAD-Gemeinschaftsportal]]
+</div>
 
 
 {{Userdocnavi{{#translation:}}}}
