@@ -69,8 +69,7 @@ obj.addProperty("App::PropertyBool", "MyProperty", "PropertyGroup", QT_TRANSLATE
 * Add the following line near the top of the file:
 
 : {{Code|code=
-def QT_TRANSLATE_NOOP(context, text):
-    return text
+from PySide.QtCore import QT_TRANSLATE_NOOP
 }}
 
 : The {{incode|QT_TRANSLATE_NOOP}} function doesn't do anything, but it marks texts to be picked up by the {{incode|lupdate}} utility later on. We only use it in special cases where FreeCAD itself takes care of everything.
@@ -266,7 +265,7 @@ The file {{incode|outfile.ts}} will contain the set of strings that are uploaded
 
 == Related Pages ==
 
-* [[External Workbenches|External Workbenches]]
+* [https://www.freecad.org/addons.php External Workbenches]
 * [[Localisation|Localisation]]
 * For more information make your requests here: [https://forum.freecad.org/viewtopic.php?f=10&t=36413 Translating external workbenches].
 
