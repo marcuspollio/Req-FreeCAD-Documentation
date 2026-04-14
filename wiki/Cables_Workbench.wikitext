@@ -11,7 +11,7 @@
 ==Introduction== <!--T:2-->
 
 <!--T:3-->
-The [[File:Cables_workbench_icon.svg|24px]] [[Cables_Workbench|Cables Workbench]] is a toolset for modeling electrical installations in architectural design projects. It is made to help run cables inside buildings or other objects and to build models of cables with the possibility of making single wire connections. It is an [[External workbenches|external workbench]].
+The [[File:Cables_workbench_icon.svg|24px]] [[Cables_Workbench|Cables Workbench]] is a toolset for modeling electrical installations in architectural design projects. It is made to help run cables inside buildings or other objects and to build models of cables with the possibility of making single wire connections. It is an [https://www.freecad.org/addons.php external workbench].
 
 <!--T:4-->
 This toolset can be used to create electrical boxes or other ready to use electrical elements (the element list will hopefully be expanded in the future). These elements can be connected with fully parametric cables of different profiles, number of wires and thicknesses. There are a few predefined cable profiles here, but there is also possibility to create custom non standard profiles with a simple csv file.
