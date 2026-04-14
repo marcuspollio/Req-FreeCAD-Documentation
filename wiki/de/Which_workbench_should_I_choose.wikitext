@@ -4,7 +4,9 @@ Wenn du neu im Umgang mit FreeCAD bist, ist es wahrscheinlich, dass du dich frag
 
 Arbeitsbereiche sind Zusammenstellungen von gruppierten Werkzeugen, Schaltflächen und anderen Schnittstellenelementen. Man kann sie sich als Anwendung innerhalb einer Anwendung vorstellen. In FreeCAD sind Arbeitsbereiche normalerweise eine Zusammenstellung von Werkzeugen, die einem bestimmten Zweck dienen wie z.B. 2D-Zeichnungserstellung, 3D-Objekte erstellen, Boote konstruieren, Roboter-Bewegungsbahnen erstellen, Gebäude entwerfen und vieles mehr.
 
+<div class="mw-translate-fuzzy">
 FreeCAD enthält einige eingebaute [[Workbenches/de| Arbeitsbereiche]], aber viele weitere [[External workbenches/de|externe Arbeitsbereiche]] können einfach mit dem [[Std_AddonMgr/de|Addon-Manager]] installiert werden.
+</div>
 
 Neue FreeCAD Benutzer beginnen in der Regel mit der Benutzung und dem Erlernen von ein oder zwei spezifischen Workbenches und erkunden dann andere Bereiche von FreeCAD und fügen die Werkzeuge, die sie dort interessant finden, zu ihrem Skillset hinzu. Bevor Sie jedoch in bestimmte Workbenches eintauchen, stellen Sie sicher, dass Sie die [[Getting started]] und [[Manual:Navigating_in_the_3D_view|Navigating in the 3D space]] Seiten lesen, da diese allgemeines Wissen vermitteln, das Sie überall in FreeCAD brauchen werden. Das [[Handbuch:Einführung|FreeCAD Handbuch]] ist ein weiterer guter Weg, um FreeCAD Schritt für Schritt und auf lineare Weise zu entdecken.
 
