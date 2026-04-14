@@ -11,10 +11,8 @@
 
 {{VeryImportantMessage|Der Arbeitsbereich Robot ist nicht gewartet. Wenn du Erfahrung mit dem Thema hast und daran interessiert bist, es zu pflegen, gib bitte deine Absicht im Entwicklerbereich des [https://forum.freecad.org/index.php FreeCAD Forums] an.
 
-<div class="mw-translate-fuzzy">
-Der Grund dafür, dass sich dieser Arbeitsbereich noch im Master-Quellcode befindet, liegt darin, dass dieser Arbeitsbereich in C++ programmiert ist. Wenn dieser Arbeitsbereich in Python programmiert werden könnte, dann könnte er zu einem [[external_workbenches/de|externen Arbeitsbereich]] gemacht und in ein separates Repository verschoben werden.
+Der Grund dafür, dass sich dieser Arbeitsbereich noch im Master-Quellcode befindet, liegt darin, dass dieser Arbeitsbereich in C++ programmiert ist. Wenn dieser Arbeitsbereich in Python programmiert werden könnte, dann könnte er zu einem [https://www.freecad.org/addons.php externen Arbeitsbereich] gemacht und in ein separates Repository verschoben werden.
 }}
-</div>
 
 [[Image:Workbench_Robot.svg|thumb|128px|Symbol des Arbeitsbereichs Robot]]
 
