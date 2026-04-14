@@ -128,16 +128,6 @@ git clone https://github.com/easyw/Manipulator Manipulator
 
 Dieser Arbeitsbereich entwickelte sich aus dem [[Macro_Center_Align_Objects_with_Faces_or_Edges/de|Makro Objekte mit Flächen oder Kanten zentrieren]]
 
-<span id="External_workbenches"></span>
-==Externe Arbeitsbereiche==
-
-FreeCAD-Arbeitsbereiche lassen sich leicht in [[Python/de|Python]] programmieren, daher gibt es viele Leute, die zusätzlich zu den Hauptentwicklern von FreeCAD weitere Arbeitsbereiche entwickeln.
-
-<div class="mw-translate-fuzzy">
-Die Seite [[External_workbenches/de|externe Arbeitsbereiche]] enthält einige Informationen und Anleitungen zu einigen von ihnen, und das Projekt [https://github.com/FreeCAD/FreeCAD-addons FreeCAD-Erweiterungen] hat sich zum Ziel gesetzt, diese zu sammeln und sie von FreeCAD aus leicht installierbar zu machen.
-</div>
-
-Neue Arbeitsbereiche sind in der Entwicklung, bleib dran!
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
