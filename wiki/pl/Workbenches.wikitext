@@ -89,7 +89,9 @@ Zobacz strony [[Std_Import/pl|Std: Import]] i [[Std_ViewLoadImage/pl|Std: Otwór
 
 Środowiska pracy FreeCAD są łatwe do zaprogramowania w [[Python|Python]]. Dlatego też, wiele osób opracowuje dodatkowe stoły robocze wykraczające poza główny obszar rozwoju programu FreeCAD.
 
-Strona [[External_workbenches/pl|zewnętrzne środowiska pracy]] zawiera listę wszystkich, które są znane tej społeczności. Większość z nich można łatwo zainstalować z poziomu FreeCAD, używając [[Std_AddonMgr/pl|Menadżera dodatków]], znajdującego się w menu {{MenuCommand|Narzędzia → [[Image:Std_AddonMgr.svg|24px]] Menadżer dodatków}}. 
+<div class="mw-translate-fuzzy">
+Strona [[External_workbenches/pl|zewnętrzne środowiska pracy]] zawiera listę wszystkich, które są znane tej społeczności. Większość z nich można łatwo zainstalować z poziomu FreeCAD, używając [[Std_AddonMgr/pl|Menadżera dodatków]], znajdującego się w menu {{MenuCommand|Narzędzia → [[Image:Std_AddonMgr.svg|24px]] Menadżer dodatków}}.
+</div> 
 
 
 {{Docnav/pl
