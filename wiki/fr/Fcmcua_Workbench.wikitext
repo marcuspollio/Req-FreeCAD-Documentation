@@ -6,9 +6,7 @@
 
 == Introduction ==
 
-<div class="mw-translate-fuzzy">
-Fcmcua est un [[External_workbenches/fr|atelier externe]] qui est utilisé pour contrôler un assemblage créé dans l'[[Assembly4_Workbench/fr|atelier Assembly4]] depuis un serveur [[wikipedia:OPC Unified Architecture|OPC UA]]. Cela permet de simuler des machines contrôlées par des contrôleurs numériques tels que des [[https://fr.wikipedia.org/wiki/Automate_programmable_industriel|APIs ou Automates programmables industriels (PLCs en anglais)]], pour autant que le contrôleur supporte OPC UA. L'atelier utilise les valeurs fournies par le serveur OPC UA pour manipuler le décalage d'attachement du système de coordonnées local (LCS) de chaque pièce.
-</div>
+Fcmcua est un [https://www.freecad.org/addons.php atelier externe] utilisé pour contrôler un assemblage créé dans l'[[Assembly4_Workbench/fr|atelier Assembly4]] depuis un serveur [[wikipedia:OPC Unified Architecture|OPC UA]]. Cela permet de simuler des machines contrôlées par des contrôleurs numériques tels que des [[https://fr.wikipedia.org/wiki/Automate_programmable_industriel|APIs ou Automates programmables industriels (PLCs en anglais)]], pour autant que le contrôleur supporte OPC UA. L'atelier utilise les valeurs fournies par le serveur OPC UA pour manipuler le décalage d'attachement du système de coordonnées local (LCS) de chaque pièce.
 
 == Installation ==
 
