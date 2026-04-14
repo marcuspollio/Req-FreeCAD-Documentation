@@ -11,7 +11,7 @@
 ==Introduction== <!--T:2-->
 
 <!--T:3-->
-[[Image:DataManager_workbench_icon.svg|32px]] [[DataManager_Workbench|DataManager]] is an [[External_workbenches|external workbench]] which does not belong to the standard FreeCAD installation. It is a workbench for auditing and cleaning up:
+[[Image:DataManager_workbench_icon.svg|32px]] [[DataManager_Workbench|DataManager]] is an [https://www.freecad.org/addons.php external workbench] which does not belong to the standard FreeCAD installation. It is a workbench for auditing and cleaning up:
 
 <!--T:4-->
 * '''VarSets''' (<code>App::VarSet</code>) and their variables.
