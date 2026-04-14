@@ -192,7 +192,7 @@ Z88 este un alt program FEM, care conține un mesher, solver și convertoare, ca
 O bibliotecă pentru exploatarea și manipularea câmpului (FOAM), care este necesară simulărilor de computational Fluid Dynamics (CFD). Ca atare, OpenFOAM este necesar de către [[FEM_Workbench|FEM Workbench]] al FreeCAD. Puteți accesa acest lucru prin intermediul submeniului {{MenuCommand|Model-> Fluid constraints}}. Proiectul se află la https://openfoam.org.
 </div>
 
-[https://openfoam.org OpenFOAM] is a large collection of libraries for computational fluid dynamics (CFD) simulations. OpenFOAM is used by the [[Cfd_Workbench|Cfd]] and [https://github.com/jaheyns/CfdOF CfdOF] [[External_workbenches|external workbenches]].
+[https://openfoam.org OpenFOAM] is a large collection of libraries for computational fluid dynamics (CFD) simulations. OpenFOAM is used by the [[Cfd_Workbench|Cfd]] and [https://github.com/jaheyns/CfdOF CfdOF] [https://www.freecad.org/addons.php external workbenches].
 
 =Related pages=
 
