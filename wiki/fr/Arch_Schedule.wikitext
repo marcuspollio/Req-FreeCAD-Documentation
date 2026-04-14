@@ -9,6 +9,7 @@
 |IconC=Workbench_BIM.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/fr
 |Name=Arch Schedule
 |Name/fr=Arch Nomenclature
@@ -16,12 +17,11 @@
 |Workbenches=[[BIM_Workbench/fr|BIM]]
 |SeeAlso=
 }}
+</div>
 
 ==Description==
 
 L'outil '''Arch Nomenclature''' vous permet de créer et d'alimenter automatiquement une [[Spreadsheet_Workbench/fr|feuille de calculs]] avec les contenus recueillis dans le modèle.
-
-Pour une solution plus générale, consultez l'[https://github.com/furti/FreeCAD-Reporting/tree/master atelier Reporting] dans la liste des [[External_workbenches/fr|ateliers externes]]. Cet atelier utilise la syntaxe SQL pour extraire des informations du document.
 
 <span id="Usage"></span>
 ==Utilisation==
