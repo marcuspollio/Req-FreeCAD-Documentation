@@ -126,9 +126,7 @@ W poprzednich wersjach FreeCAD można było korzystać z dwóch automatycznych s
 * [https://github.com/FreeCAD/FreeCAD-addons addons_installer.FCMacro]: to makro, które było poprzednikiem Menedżera dodatków i jest hostowane w repozytorium [https://github.com/FreeCAD/FreeCAD-addons FreeCAD-addons]. W nowych instalacjach FreeCAD nie trzeba już korzystać z tego narzędzia.
 * [https://github.com/microelly2/freecad-pluginloader freecad-pluginloader]: także makro, które można było używać do instalowania nowych komponentów w FreeCAD. Obecnie nie jest już rozwijane.
 
-<div class="mw-translate-fuzzy">
-Zalecaną metodą instalacji dodatków, czyli [[External_workbenches/pl|zewnętrznych środowisk pracy]] i makr, jest [[Std_AddonMgr/pl|Menedżer dodatków]]. Można jednak nadal dodawać makra do systemu za pomocą metod ręcznych opisanych w poniższych sekcjach; jest to przydatne, jeśli rozwijasz i testujesz własny kod.
-</div>
+Zalecaną metodą instalacji dodatków, czyli [https://www.freecad.org/addons.php zewnętrznych środowisk pracy] i makr, jest [[Std_AddonMgr/pl|Menedżer dodatków]]. Można jednak nadal dodawać makra do systemu za pomocą metod ręcznych opisanych w poniższych sekcjach; jest to przydatne, jeśli rozwijasz i testujesz własny kod.
 
 </div>
 </div>
