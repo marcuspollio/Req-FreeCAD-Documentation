@@ -313,6 +313,7 @@ ToDo (last check: 20260412):
 * Scene drawing is now significantly faster. [https://github.com/FreeCAD/FreeCAD/pull/25898 Pull request #25898] and [https://github.com/FreeCAD/FreeCAD/pull/28702 Pull request #28702]
 * The [[TechDraw_ActiveView|Insert Active View]] task panel has been redesigned with improved spacing, a combobox for background style selection, and grouped crop settings that disable automatically when not in use. [https://github.com/FreeCAD/FreeCAD/pull/28085 Pull request #28085]
 * There is now a context menu option to toggle grid for the active page. [https://github.com/FreeCAD/FreeCAD/pull/29083 Pull request #29083]
+* The task panel of the [[TechDraw_Balloon|Balloon Annotation]] tool was polished. [https://github.com/FreeCAD/FreeCAD/pull/28101 Pull request #28101]
 
 == Import and export == <!--T:59-->
 
