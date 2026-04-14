@@ -55,7 +55,7 @@ There are two versions, Z88OS is the open-source edition, while Z88Aurora is fre
 == Solvers implemented as external workbenches == <!--T:15-->
 
 <!--T:39-->
-These solvers aren't integrated into the [[FEM_Workbench|FEM Workbench]], which means they need a separate interface to set up a simulation project. This is achieved through [[Macros|macros]] or [[External_workbenches|external workbenches]].
+These solvers aren't integrated into the [[FEM_Workbench|FEM Workbench]], which means they need a separate interface to set up a simulation project. This is achieved through [[Macros|macros]] or [https://www.freecad.org/addons.php external workbenches].
 
 === DualSPHysics === <!--T:16-->
 
