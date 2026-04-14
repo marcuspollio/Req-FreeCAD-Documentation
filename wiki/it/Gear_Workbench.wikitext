@@ -7,7 +7,9 @@
 <span id="Introduction"></span>
 ==Introduzione==
 
+<div class="mw-translate-fuzzy">
 '''Gear''' è un [[external_workbenches/it|ambiente complementare]] per la produzione di diversi tipi di ingranaggi e viti senza fine in FreeCAD. La modellazione parametrica consente di modificare in qualsiasi momento le geometrie richieste. Ad esempio, modificando alcuni parametri, l'ingranaggio evolvente diventa un ingranaggio cilindrico, un ingranaggio elicoidale o un ingranaggio a doppia elica.
+</div>
 
 Affinché i risultati di Gear siano utilizzabili, è necessaria una certa conoscenza di base sui diversi tipi di ingranaggi. Modulo, diametro primitivo e diametro di piede sono termini comuni e dovrebbero quindi essere noti.
 
@@ -145,12 +147,14 @@ Dopo l'installazione, gli strumenti sono disponibili nella barra degli strumenti
 <span id="Other_useful_links"></span>
 ==Altri link utili==
 
+<div class="mw-translate-fuzzy">
 * [[Image:PartDesign_InvoluteGear.svg|24px|PartDesign_InvoluteGear]] [[PartDesign_InvoluteGear/it|PartDesign: Profilo ad evolvente]]: questo strumento consente di creare un profilo 2D di un ingranaggio ad evolvente. Questo profilo 2D è completamente parametrico e può essere estruso con la funzione [[PartDesign_Pad/it|PartDesign Pad]].
 * [[Gear/it|Gear]]: Una pagina pensata per differenziare alcuni tipi di ingranaggi in base ai loro nomi (si spera) corretti.
 * [[External_workbenches/it|Ambienti complementari]]: Un elenco di tutti gli ambienti di lavoro esterni correnti di FreeCAD
 * [[Macros_recipes/it|Raccolta di macro]]
 * [https://vivat-geo.de/zykloidenverzahnung.html Ingranaggi cicloidali (tedesco)]
 * [https://vivat-geo.de/evolventenverzahnung.html Ingranaggi ad evolvente (tedesco)]
+</div>
 
 
 {{Userdocnavi{{#translation:}}}}
