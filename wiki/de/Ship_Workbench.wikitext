@@ -15,27 +15,27 @@ Der Arbeitsbereich [[Image:Workbench_Ship.svg|24px]] [[Ship_Workbench/de|Ship]] 
 <span id="Ship_Design"></span>
 ===Schiffskonstruktion===
 
-* [[Image:Ship_LoadExample.svg|32px]] [[Ship_LoadExample/de|BeispielLaden]]
-* [[Image:Ship_CreateShip.svg|32px]] [[Ship_CreateShip/de|SchiffErstellen]]
+* [[Image:Ship_LoadExample.svg|32px]] [[Ship_LoadExample/de|Laden einer Beispiel-Schiffsgeometrie]]
+* [[Image:Ship_CreateShip.svg|32px]] [[Ship_CreateShip/de|Ein neues Schiff erstellen]]
 * [[Image:Ship_AreasCurve.svg|32px]] [[Ship_AreasCurve/de|Bereichskurve]]
 * [[Image:Ship_Hydrostatics.svg|32px]] [[Ship_Hydrostatics/de|Hydrostatik]]
 
 <span id="Weights"></span>
 ===Lasten===
 
-* [[Image:Ship_Weight.svg|32px]] [[Ship_Weight/de|Gewicht]]
-* [[Image:Ship_Tank.svg|32px]] [[Ship_Tank/de|Tank]]
-* [[Image:Ship_Capacity.svg|32px]] [[Ship_Capacity/de|Kapazität]]
-* [[Image:Ship_LoadCondition.svg|32px]] [[Ship_LoadCondition/de|Beladungszustand]]
-* [[Image:Ship_GZ.svg|32px]] [[Ship_GZ/de|GZ]]
+* [[Image:Ship_Weight.svg|32px]] [[Ship_Weight/de|Neue Schiffslast erstellen]]
+* [[Image:Ship_Tank.svg|32px]] [[Ship_Tank/de|Neuen Tank erstellen]]
+* [[Image:Ship_Capacity.svg|32px]] [[Ship_Capacity/de|Tankfüllstandskurve]]
+* [[Image:Ship_LoadCondition.svg|32px]] [[Ship_LoadCondition/de|Neue Ladebedingung erstellen]]
+* [[Image:Ship_GZ.svg|32px]] [[Ship_GZ/de|GZ-Kurvenberechnung]]
 
 <span id="Resistance"></span>
 ===Widerstand===
 
-* [[Image:Ship_ResistanceAmadeo.svg|32px]] [[Ship_ResistanceAmadeo/de|Resistance Amadeo prediction]]
-* [[Image:Ship_ResistanceBlountFox.svg|32px]] [[Ship_ResistanceBlountFox/de|Resistance Blount and Fox prediction]]
-* [[Image:Ship_ResistanceHoltrop.svg|32px]] [[Ship_ResistanceHoltrop/de|Resistance Holtrop prediction]]
-* [[Image:Ship_ResistanceSavitsky.svg|32px]] [[Ship_ResistanceSavitsky/de|Resistance Savitsky prediction]]
+* [[Image:Ship_ResistanceAmadeo.svg|32px]] [[Ship_ResistanceAmadeo/de|Widerstand Amadeo-Vorhersage]]
+* [[Image:Ship_ResistanceBlountFox.svg|32px]] [[Ship_ResistanceBlountFox/de|Widerstand Blount und Fox-Vorhersage]]
+* [[Image:Ship_ResistanceHoltrop.svg|32px]] [[Ship_ResistanceHoltrop/de|Widerstand Holtrop-Vorhersage]]
+* [[Image:Ship_ResistanceSavitsky.svg|32px]] [[Ship_ResistanceSavitsky/de|Widerstand Savitsky-Vorhersage]]
 
 <span id="Tutorials"></span>
 ==Anleitungen==
@@ -46,7 +46,9 @@ Der Arbeitsbereich [[Image:Workbench_Ship.svg|24px]] [[Ship_Workbench/de|Ship]] 
 <span id="History"></span>
 ==Geschichte==
 
+<div class="mw-translate-fuzzy">
 Der Arbeitsbereich Ship (Schiff) wurde seit v0.17 nicht mehr gewartet, ist aber in v0.19 wiederbelebt worden. Ab v0.19 wird er auch als [[External_workbenches/de|externer Arbeitsbereich]] bezeichnet, ist also nicht mehr im Basissystem enthalten. Stattdessen ist er über den [[Std_AddonMgr/de|Addon-Manager]] verfügbar.
+</div>
 
 <span id="References"></span>
 ==Referenzen==
