@@ -47,9 +47,7 @@ Istnieją dwie wersje, Z88OS to wersja z otwartym kodem źródłowym, podczas gd
 <span id="Solvers_implemented_as_external_workbenches"></span>
 == Solvery zaimplementowane jako zewnętrzne środowiska pracy ==
 
-<div class="mw-translate-fuzzy">
-Te solvery nie są zintegrowane ze [[FEM_Workbench/pl|środowiskiem pracy MES]], co oznacza, że potrzebują odrębnego interfejsu do ustawienia symulacji. Jest to osiągane poprzez [[Macros/pl|makra]] lub [[External_workbenches/pl|zewnętrzne środowiska pracy]].
-</div>
+Te solvery nie są zintegrowane ze [[FEM_Workbench/pl|środowiskiem pracy MES]], co oznacza, że potrzebują odrębnego interfejsu do ustawienia symulacji. Jest to osiągane poprzez [[Macros/pl|makra]] lub [https://www.freecad.org/addons.php zewnętrzne środowiska pracy].
 
 === DualSPHysics ===
 
