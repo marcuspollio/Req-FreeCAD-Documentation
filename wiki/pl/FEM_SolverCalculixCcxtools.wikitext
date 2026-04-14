@@ -95,7 +95,7 @@ Domyślne właściwości można ustawić w menu {{MenuCommand|Edycja → Prefere
 
 * {{PropertyData|Iterations Control Parameter Cutb}}: definiuje drugą linię [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 zaawansowanych parametrów iteracji solvera CalculiX] (współczynniki redukcji przyrostu). Używane, jeśli właściwość {{PropertyData|Iterations Control Parameter Time Use}} jest ustawiona na {{true/pl}}.
 
-* {{PropertyData|Iterations Control Parameter Field}} - {{Version|1.2}}: defines [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX's advanced field parameters] (convergence criteria). Used if {{PropertyData|Iterations Control Parameter Time Use}} is set to ''true''.
+* {{PropertyData|Iterations Control Parameter Field}} - {{Version/pl|1.2}}: definiuje [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 zaawansowane parametry pól CalculiX'a] (kryteria zbieżności). Używane, jeśli właściwość {{PropertyData|Iterations Control Parameter Time Use}} jest ustawiona na {{true/pl}}.
 
 <div class="mw-translate-fuzzy">
 * {{PropertyData|Iterations Control Parameter Iter}}: definiuje pierwszą linię [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 zaawansowanych parametrów iteracji solvera CalculiX]. Używane jeśli właściwość {{PropertyData|Iterations Control Parameter Time Use}} jest ustawiona na {{true/pl}}.
