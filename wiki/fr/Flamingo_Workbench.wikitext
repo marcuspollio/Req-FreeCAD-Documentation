@@ -471,15 +471,6 @@ Ouvre une boîte de dialogue pour calculer les pertes de pression sur les pièce
 * [https://wiki.opensourceecology.org/wiki/OSE_Piping_Workbench OSE-Piping-Workbench : pour créer des raccords de tuyauterie supplémentaires]
 
 
-<span id="External_workbenches"></span>
-== Ateliers externes ==
-
-Les ateliers FreeCAD sont faciles à programmer en [[Python/fr |Python]], de ce fait de nombreuses personnes développent des ateliers supplémentaires en dehors des développeurs principaux de FreeCAD.
-
-La page [[external workbenches/fr|ateliers externes]] contient des informations et des tutoriels sur certains d’entre eux, et le projet [https://github.com/FreeCAD/FreeCAD-addons FreeCAD Addons] vise à les rassembler et à les rendre facilement installables depuis FreeCAD.
-
-De nouveaux ateliers sont en développement, tenez vous au courant!
-
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
 [[Category:External Workbenches{{#translation:}}]]
