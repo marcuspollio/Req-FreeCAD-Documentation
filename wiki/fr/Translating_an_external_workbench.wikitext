@@ -73,13 +73,10 @@ obj.addProperty("App::PropertyBool", "MyProperty", "PropertyGroup", QT_TRANSLATE
 * Ajouter la ligne suivante en haut du fichier :
 
 : {{Code|code=
-def QT_TRANSLATE_NOOP(context, text):
-    return text
+from PySide.QtCore import QT_TRANSLATE_NOOP
 }}
 
-<div class="mw-translate-fuzzy">
-: La macro {{incode|QT_TRANSLATE_NOOP}} ne fait rien, mais elle marque les textes qui seront repris plus tard par l'utilitaire {{incode|lupdate}}. Nous ne l'utilisons que dans des cas particuliers où FreeCAD s'occupe lui-même de tout.
-</div>
+: La fonction {{incode|QT_TRANSLATE_NOOP}} ne fait rien, mais elle marque les textes qui seront repris plus tard par l'utilitaire {{incode|lupdate}}. Nous ne l'utilisons que dans des cas particuliers où FreeCAD s'occupe lui-même de tout.
 
 * Pour traduire les noms des menus et des barres d'outils, utilisez le mot {{incode|"Workbench"}} comme contexte :
 
@@ -283,9 +280,11 @@ Le fichier {{incode|outfile.ts}} contiendra l'ensemble des chaînes de caractèr
 <span id="Related_Pages"></span>
 == Pages en relation ==
 
+<div class="mw-translate-fuzzy">
 * [[External_workbenches/fr|Ateliers externes]]
 * [[Localisation/fr|Localisation]]
 * Pour plus d'informations faites vos demandes ici sur le forum : [https://forum.freecad.org/viewtopic.php?f=10&t=36413 Translating external workbenches].
+</div>
 
 
 {{Userdocnavi{{#translation:}}}}
