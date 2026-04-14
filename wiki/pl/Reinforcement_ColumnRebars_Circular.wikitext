@@ -23,7 +23,9 @@
 
 Narzędzie '''Zbrojenie okrągłych słupów''' pozwala użytkownikowi na tworzenie prętów zbrojeniowych wewnątrz obiektu [[Arch_Structure/pl|konstrukcji]]. Ta strona pokazuje dodatkowy przykład użycia tego narzędzia.
 
+<div class="mw-translate-fuzzy">
 To polecenie jest częścią [[External_workbenches/pl|zewnętrznego środowiska pracy]] [[Reinforcement_Workbench/pl|Zbrojenie]], które można zainstalować za pomocą [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/pl|Menadżera dodatków]] poprzez menu {{MenuCommand|Przybory → Menadżera dodatków → Zbrojenie}}.
+</div>
 
 Dostępne są trzy przykłady użycia:
 * [[Reinforcement_ColumnRebars/pl|Prostokątna kolumna z pojedynczym ściągiem]]
