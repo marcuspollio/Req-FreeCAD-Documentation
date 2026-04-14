@@ -5,7 +5,7 @@
 [[Image:Design456_workbench_icon.svg|thumb|128px|Design456 External workbench icon]]
 {{TOCright}}
 
-The Design456 workbench is an [[External_workbenches|External workbench]] that plans to implement a Direct Modeling methodology in FreeCAD. Think 'push and pull geometry' that one finds in CAD suites like SketchUp and Fusion360.
+The Design456 workbench is an [https://www.freecad.org/addons.php external workbench]External workbench]] that plans to implement a Direct Modeling methodology in FreeCAD. Think 'push and pull geometry' that one finds in CAD suites like SketchUp and Fusion360.
 
 The original idea came to live when the developer of Design456 wanted to do the basic tasks which is simple and easy to do in 123D Design. FreeCAD could do the same job but the tools aren't interfaced in that way. This workbench will not keep track of old shapes. It tries to clean up the garbage which might be produced during running under commands. It tries to make the tree as simple as possible. Parameters must be decided during the desired manipulations which cannot be changed later.
 
