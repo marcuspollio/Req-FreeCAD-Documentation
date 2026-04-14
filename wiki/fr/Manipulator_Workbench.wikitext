@@ -6,7 +6,9 @@
 
 {{TOCright}}
 
+<div class="mw-translate-fuzzy">
 L'[[Manipulator_Workbench/fr|Atelier Manipulator]] est un [[External_workbenches/fr|atelier externe]] destiné à aider les utilisateurs de FreeCAD à aligner, déplacer, faire pivoter et mesurer des objets 3D via une interface graphique conviviale. Ces séries d'outils aident à transformer les objets de placement et de mesure et les modèles STEP dans FreeCAD.
+</div>
 
 <span id="Features"></span>
 == Fonctions ==
@@ -126,7 +128,9 @@ L'atelier a évolué à partir de la macro [[Macro_Center_Align_Objects_with_Fac
 
 Les ateliers FreeCAD sont faciles à programmer en [[Python/fr|Python]], il y a donc beaucoup de gens qui développent des ateliers supplémentaires en dehors des développeurs principaux de FreeCAD.
 
+<div class="mw-translate-fuzzy">
 La page des [[External_workbenches/fr|ateliers externes]] contient des informations et des tutoriels sur certains d’entre eux et le projet [https://github.com/FreeCAD/FreeCAD-addons FreeCAD Addons] vise à les rassembler et à les rendre facilement installables depuis FreeCAD.
+</div>
 
 De nouveaux ateliers sont en développement, tenez vous au courant!
 
