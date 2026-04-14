@@ -9,7 +9,7 @@
 
 ==Introduction==
 
-The Lattice2 Workbench is a FreeCAD [[External_workbenches|external workbench]] that serves the purpose of working with placements and arrays of placements. It is a sort of Assembly workbench, but with emphasis on arrays. There are no constraints and relations, there are just arrays of placements that can be generated, combined, transformed, superimposed, and populated with shapes.
+The Lattice2 Workbench is a FreeCAD [https://www.freecad.org/addons.php external workbench] that serves the purpose of working with placements and arrays of placements. It is a sort of Assembly workbench, but with emphasis on arrays. There are no constraints and relations, there are just arrays of placements that can be generated, combined, transformed, superimposed, and populated with shapes.
 
 Ever wondered how to create a protractor with FreeCAD? That's the aim of the workbench (including tick labeling). Also, exploded assemblies can be made with the workbench.
 
@@ -145,7 +145,7 @@ Detailed description on the [https://github.com/DeepSOIC/Lattice2/wiki Lattice2 
 ==Other useful links==
 
 * [https://github.com/DeepSOIC/Lattice Lattice aka Lattice1 Workbench (obsolete)]
-* [[External_workbenches|External Workbenches]]: List of FreeCAD workbenches.
+* [https://www.freecad.org/addons.php External Workbenches]: List of FreeCAD workbenches.
 * [[Macros_recipes|Macros recipes]]
 * [[FreeCAD_Community_Portal|FreeCAD Community Portal]]
 
