@@ -44,6 +44,7 @@ Seit Mai 2025 kann der Addon-Manager verwendet werden, um eine selbstaktualisier
 
 [[File:AddonManager_Main.png|600px]]
 
+<div class="mw-translate-fuzzy">
 # Der Addon-Manager stellt zwei Layouts zur Verfügung: "Schmal" and "Erweitert". In der "schmalen" Ansicht füllt ein Addon eine einzelne Zeile und ihre Beschreibung wird gekürzt, um in den vorhandenen Platz zu passen. "Erweitert" stellt zusätzliche Einzelheiten dar, wie weiteren Beschreibungstext und auch Informationen für Bearbeiter, weitere Installationsdetails usw.
 # Fünf Arten von Addons werden unterstützt: [[external_workbenches/de|Arbeitsbereiche]], [[macros/de|Makros]], [[Preference_Packs/de|Voreinstellungspakete]], Bundles und "andere". Man kann wählen, ob nur eine Art angezeigt wird oder alle in einer einzigen Liste.
 # Die Liste kann so eingegrenzt werden, dass sie nur installierte Pakete, nur Pakete mit erhältlichen Aktualisierungen oder nur Pakete, die noch nicht installiert wurden, enthält.
@@ -52,6 +53,7 @@ Seit Mai 2025 kann der Addon-Manager verwendet werden, um eine selbstaktualisier
 # Die Addon-Daten werden lokal zwischengespeichert, mit einer variablen Häufigkeit der Aktualisierung des Zwischnspeichers, festgelegt in den Benutzereinstellungen.
 # Zu jeder Zeit kann die manuelle Aktualisierung des lokalen Zwischenspeichers ausgewählt werden, um die neuesten verfügbaren Aktualisierungen für alle Erweiterungen anzuzeigen.
 # Die Suche nach Aktualisierungen kann auf automatisch eingestellt sein oder manuell erfolgen durch einen Klick auf eine Schaltfläche (festgelegt in den Benutzereinstellungen). Wenn GitPython und git auf dem eigenen System installiert sind, werden die Aktualisierungsinformationen unter Verwendung von git abgeholt. Wenn nicht, werden Informationen zu Aktualisierungen aus allen vorhandenen Meta-Daten-Datein ausgelesen.
+</div>
 
 Klickt man in dieser Ansicht auf eine Erweiterung, wird eine Seite mit Einzelheiten zu dieser Erweiterung geöffnet:
 
