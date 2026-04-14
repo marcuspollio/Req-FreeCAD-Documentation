@@ -7,9 +7,7 @@
 <span id="Introduction"></span>
 ==Einleitung==
 
-<div class="mw-translate-fuzzy">
-[[Image:Assembly3_workbench_icon.svg|24px]] [[Assembly3_Workbench/de|Assembly3]] ist ein [[External_workbenches/de|externer Arbeitsbereich]], der dem Zusammenbau von verschiedenen Körpern dient, die entweder in einem einzigen oder in mehreren separaten Dokumenten gespeichert sind. Der Arbeitsbereich basiert auf einigen Änderungen der Kernfunktionen, die mit FreeCAD 0.19 eingeführt wurden (z.B. [[App_Link/de|App-Link]]), sodass der Arbeitsbereich Assembly3 nicht mit früheren Versionen verwendet werden kann.
-</div>
+[[Image:Assembly3_workbench_icon.svg|24px]] [[Assembly3_Workbench/de|Assembly3]] ist ein [https://www.freecad.org/addons.php externer Arbeitsbereich], der dem Zusammenbau von verschiedenen Körpern dient, die entweder in einem einzigen oder in mehreren separaten Dokumenten gespeichert sind. Der Arbeitsbereich basiert auf einigen Änderungen der Kernfunktionen, die mit FreeCAD 0.19 eingeführt wurden (z. B. [[App_Link/de|App-Link]]), sodass der Arbeitsbereich Assembly3 nicht mit früheren Versionen verwendet werden kann.
 
 Die Hauptmerkmale des Assembly3-Arbeitsbereichs sind
 * ein '''dynamischer/interaktiver Löser'''. Das heißt, dass man Teile mit der Maus bewegen kann, während der Löser die Bewegung(sfreiheit) einschränkt. Dies erlaubt z. B. ein Rad mit einer Achse zu verbinden und das Rad interaktiv mit der Maus zu drehen. 
