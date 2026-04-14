@@ -33,7 +33,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{defn|defn=An abbreviation for the old Architectural [[#Workbench|workbench]]. This workbench has been superseded by the [[BIM_Workbench|BIM Workbench]] ({{Version|1.0}}).}}
 {{term|Assembly|content=[[Assembly|Assembly]]}}
 {{defn|no=1|defn=A set of [[#Part|parts]] that have defined positions in relation to each other.}}
-{{defn|no=2|defn=A [[#Workbench|workbench]] which aims to facilitate the creation of assemblies. FreeCAD currently does not have such a workbench built-in, but there are several [https://www.freecad.org/addons.php external workbench]external assembly workbenches]].}}
+{{defn|no=2|defn=The [[Assembly_Workbench|Assembly Workbench]].}}
 {{term|Axes}}
 {{defn|defn=Plural of [[#Axis|Axis]]}}
 {{term|Axis}}
