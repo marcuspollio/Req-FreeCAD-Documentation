@@ -9,6 +9,7 @@
 |IconC=Freecad.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/de
 |Name=Std AddonMgr
 |Name/de=Std AddonManager
@@ -17,11 +18,14 @@
 |Version=0.17
 |SeeAlso=[[External_workbenches/de|Externe Arbeitsbereiche]], [[Macros/de|Makros]]
 }}
+</div>
 
 <span id="Description"></span>
 ==Beschreibung==
 
+<div class="mw-translate-fuzzy">
 Der Befehl '''Std AddonManager''' öffnet den Addon-Manager. Mit dem Addon-Manager können [[external_workbenches/de|externe Arbeitsbereiche]], [[macros/de|Makros]], und [[Preference_Packs/de|Voreinstellungspakete]], die durch die FreeCAD-Gemeinschaft bereitgestellt werden, installiert und verwaltet werden. Standardmäßig stammen die verfügbaren Erweiterungen aus zwei Quellen, [https://github.com/FreeCAD/FreeCAD-addons/ (GitHub) FreeCAD-Addons]  und von der Seite [[Macros_recipes/de|Makrorezepte]] in diesem Wiki. Wenn git auf dem eigenen System installiert sind, werden zusätzliche Makros von [https://github.com/FreeCAD/FreeCAD-macros/ (GitHub) FreeCAD-Makros] geladen. Benutzerdefinierte Quellen können in den Voreinstellungen des [[Preferences_Editor/de#AddonManager|AddonManagers]] hinzugefügt werden.
+</div>
 
 Seit Mai 2025 kann der Addon-Manager verwendet werden, um eine selbstaktualisierende Version von sich selbst zu installieren und zu aktualisieren, indem das „Addon-Manager“-Addon installiert wird. Dies ist kompatibel zu FreeCAD-Version 0.21 und neuer.
 
