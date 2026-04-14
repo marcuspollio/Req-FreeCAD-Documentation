@@ -30,15 +30,6 @@ Questo ambiente di lavoro può essere installato da [[Std_AddonMgr/it|Addon Mana
 * Codice sorgente ospitato su GitHub: [https://github.com/mwganson/DynamicData github.com]
 * [https://github.com/mwganson/DynamicData/blob/master/README.md Documentazione ufficiale completa]
 
-<span id="External_workbenches"></span>
-== Ambienti esterni ==
-
-Gli ambienti di FreeCAD sono facili da programmare in [[Python|Python]], quindi ci sono molte persone che sviluppano ambienti aggiuntivi al di fuori degli sviluppatori principali di FreeCAD.
-
-La pagina [[external workbenches/it|ambienti complementari]] ha alcune informazioni e tutorial su alcuni di essi, e il progetto [https://github.com/FreeCAD/FreeCAD-addons FreeCAD Addons] mira a raccoglierli e renderli facilmente installabili da FreeCAD.
-
-Sono in fase di sviluppo ulteriori nuovi ambienti.
-
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
