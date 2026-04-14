@@ -479,15 +479,6 @@ Współczynnik tarcia jest obliczany dla każdej rury prostej i kolana. Dla inny
 * [https://wiki.opensourceecology.org/wiki/OSE_Piping_Workbench OSE-Piping-Workbench: tworzenie dodatkowych złączy rurowych]
 
 
-<span id="External_workbenches"></span>
-==Zewnętrzne środowiska pracy==
-
-Środowiska pracy FreeCAD są łatwe do zaprogramowania w środowisku [[Python/pl|Python]]. Dlatego też, wiele osób opracowuje dodatkowe "przestrzenie robocze" wykraczające poza główny obszar rozwoju programu FreeCAD.
-
-Strona [[External_workbenches/pl|Zewnętrzne środowiska pracy]] zawiera informacje i poradniki na temat niektórych z nich, a projekt [https://github.com/FreeCAD/FreeCAD-addons Dodatki FreeCAD] ma na celu zebranie ich i uczynienie łatwymi do zainstalowania z poziomu programu FreeCAD.
-
-Nowe środowiska pracy są w czasie tworzenia, bądź cierpliwy!
-
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
 [[Category:External Workbenches{{#translation:}}]]
