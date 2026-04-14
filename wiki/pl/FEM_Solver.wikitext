@@ -109,9 +109,7 @@ FEnicS to środowisko obliczeniowe do rozwiązywania równań różniczkowych cz
 
 Zobacz: [https://fenicsproject.org/ strona główna], [https://forum.freecad.org/viewtopic.php?f=18&t=4677 Fenics jako solver (wątek na forum)].
 
-<div class="mw-translate-fuzzy">
-[https://github.com/qingfengxia/FenicsSolver FenicsSolver] to platforma do symulacji do zagadnień wielobryłowych, sprzężonych i wieloskalowych. Celem jest integracja solvera FEniCS do zarówno [[FEM_Workbench/pl|środowiska pracy MES]], jak i [[External_workbenches/pl|zewnętrznego środowiska]] Cfd, więc uzyskany system funkcjonuje jako darmowa alternatywa dla Comsola lub Moose. FenicsSolver jest opracowywany przez autora środowiska Cfd.
-</div>
+[https://github.com/qingfengxia/FenicsSolver FenicsSolver] to platforma do symulacji zagadnień wielobryłowych, sprzężonych i wieloskalowych. Celem jest integracja solvera FEniCS zarówno ze [[FEM_Workbench/pl|środowiskiem pracy MES]], jak i z [https://www.freecad.org/addons.php zewnętrznym środowiskiem] Cfd, więc uzyskany system funkcjonuje jako darmowa alternatywa dla Comsola lub Moose. FenicsSolver jest opracowywany przez autora środowiska Cfd.
 
 === OOFEM ===
 
