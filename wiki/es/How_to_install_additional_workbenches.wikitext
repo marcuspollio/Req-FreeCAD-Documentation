@@ -12,7 +12,9 @@
 <span id="Description"></span>
 ==Descripción==
 
+<div class="mw-translate-fuzzy">
 Usuarios avanzados han extendido FreeCAD con varios [[external workbenches/es|Ambiente de trabajo externos]], que no están integrados en el código fuente principal de FreeCAD, pero son fáciles de instalar en una instalación de FreeCAD existente. Aquí cubriremos los métodos de instalación para los distintos sistemas operativos.
+</div>
 
 {{Emphasis|Note:}} a partir de la versión 0.17, FreeCAD presenta un [[File:AddonManager.svg|24px]] [[Std_AddonMgr/es|Administrador de complementos]] en el menú {{MenuCommand|Herramientas → Administrador de complementos}}, que permite instalar tanto macros como bancos de trabajo. Las instrucciones que siguen sólo son necesarias si se desea instalar manualmente un banco de trabajo. Esto puede ser necesario si por alguna razón el Administrador de complementos no funciona pero tienes acceso al banco de trabajo descargado como un paquete {{FileName|.zip}}.
 
