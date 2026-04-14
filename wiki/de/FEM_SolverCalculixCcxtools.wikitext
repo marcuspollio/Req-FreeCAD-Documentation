@@ -100,11 +100,9 @@ Standardwerte können im Menü {{MenuCommand|Bearbeiten → Einstellungen → FE
 
 * {{PropertyData/de|Iterations Control Parameter Iter}}: definiert die erste Zeile der [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX's advanced iteration parameters] (Anzahl der Iterationen/Reduzierungen). Wird verwendet, wenn {{PropertyData/de|Iterations Control Parameter Time Use}} auf ''true'' gesetzt ist.
 
-<div class="mw-translate-fuzzy">
-* {{PropertyData/de|Iterations Control Parameter Time Use}}
-** true - aktiviert den {{PropertyData/de|Iterations Control Parameter Cutb}} und den {{PropertyData/de|Iterations Control Parameter Iter}}
-** falsch
-</div>
+* {{PropertyData|Iterations Control Parameter Time Use}}
+** true - aktiviert {{PropertyData/de|Iterations Control parameter Cutb}}, {{PropertyData/de|Iterations Control Parameter Iter}} und ({{Version/de|1.2}}) {{PropertyData/de|Iterations Control Parameter Field}}
+** false
 
 * {{PropertyData/de|Material Nonlinearity}}:
 ** linear - nur lineare Materialeigenschaften werden in die Analyse einbezogen
