@@ -23,7 +23,11 @@ Perceba que algumas vezes um Bancada é referida como um ''Módulo''. Entretanto
 <span id="Current"></span>
 === Atual ===
 
+<div class="mw-translate-fuzzy">
 As seguintes bancadas de trabalho estão disponíveis em todas as instalações do FreeCAD:
+</div>
+
+{{Version|1.1}}: Some rarely used workbenches are disabled by default. These are marked with {{Incode|D}} below. A disabled workbench can be enabled in the [[Preferences_Editor#Workbenches|preferences]]. Disabled workbenches can still be activated via the {{Button|[[Image:List-add.svg|x16px]][[Image:Toolbar_flyout_arrow.svg|x16px]]}} menu of [[Std_Workbench|TabBar Workbench selector]].
 
 <!--Please keep this list consistent with Online_Help_Toc, User_hub and Manual:The_FreeCAD_Interface-->
 * [[Image:Freecad.svg|32px]] [[Std_Base|Std Base]]. Essa não é realmente uma bancada, mas sim uma categoria de comandos e ferramentas "padrões" que podem ser usadas em todas bancadas.
@@ -38,13 +42,17 @@ As seguintes bancadas de trabalho estão disponíveis em todas as instalações 
 
 * [[Image:Workbench_FEM.svg|32px]] A [[FEM_Workbench/pt-br|Bancada FEM]] fornece um fluxo de trabalho de Análise de Elementos Finitos (em inglês, FEA).
 
+<div class="mw-translate-fuzzy">
 * [[Image:Workbench_Inspection.svg|32px]] A [[Inspection_Workbench/pt-br|Bancada Inspection]] é feita para disponibilizar ferramentas específicas para o exame das formas. Ela está nos estágios iniciais de desenvolvimento.
+</div>
 
 * [[Image:Workbench_Material.svg|32px]] A [[Material_Workbench|Bancada Material]] manipula o sistema de material do FreeCAD. {{Version|1.0}}
 
 * [[Image:Workbench_Mesh.svg|32px]] A [[Mesh_Workbench/pt-br|bancada de trabalho Mesh]] é usada para trabalhar com malhas trianguladas.
 
+<div class="mw-translate-fuzzy">
 * [[Image:Workbench_OpenSCAD.svg|32px]] A [[OpenSCAD_Workbench/pt-br|Bancada de trabalho OpenSCAD]] como interoperabilidade com OpenSCAD e reparo da história do modelo [[constructive solid geometry/pt-br| geometria sólida construtiva]](CSG) história do modelo.
+</div>
 
 * [[Image:Workbench_Part.svg|32px]] A [[Part_Workbench|Bancada Part]] é para trabalhar com primitivas geométricas e operações booleanas.
 
@@ -54,7 +62,9 @@ As seguintes bancadas de trabalho estão disponíveis em todas as instalações 
 
 * [[Image:Workbench_Reverse_Engineering.svg|32px]] A [[Reverse_Engineering_Workbench/pt-br|Bancada Reverse Engineering ]] destina-se a fornecer ferramentas específicas para converter formas/sólidos/malhas em características paramétricas compatíveis com o FreeCAD.
 
+<div class="mw-translate-fuzzy">
 * [[Image:Workbench_Robot.svg|32px]] A [[Robot_Workbench/pt-br|Bancada Robot]] serve para o estudo dos movimentos dos robôs. Atualmente está sem manutenção.
+</div>
 
 * [[Image:Workbench_Sketcher.svg|32px]] A [[Sketcher_Workbench/pt-br|Bancada Sketcher]] serve para trabalhar com esboços com restrições geométricas.
 
@@ -64,7 +74,9 @@ As seguintes bancadas de trabalho estão disponíveis em todas as instalações 
 
 * [[Image:Workbench_TechDraw.svg|32px]] A [[TechDraw_Workbench/pt-br|Bancada TechDraw]] é usada para a produção de desenhos técnicos a partir de modelos 3D. É o sucessor da [[Drawing_Workbench/pt-br|Bancada Drawing]].
 
+<div class="mw-translate-fuzzy">
 * [[Image:Workbench_Test.svg|32px]] A [[Testing/pt-br|Bancada Test Framework]] é para a depuração do FreeCAD.
+</div>
 
 <span id="Obsolete"></span>
 === Obsoleto ===
@@ -90,7 +102,9 @@ As seguintes bancadas de trabalho não estão mais incluídos após a versão 0.
 
 As bancadas de trabalho do FreeCAD são fáceis de programar em [[Python/pt-br|Python]], portanto há muitas pessoas desenvolvendo bancadas de trabalho adicionais fora da área de desenvolvimento principal do FreeCAD.
 
-A página de bancadas de trabalho externas ([[external_workbenches/pt-br|Bancadas de trabalho externas]]) lista todas as que são conhecidas por esta comunidade. A maioria é facilmente instalável de dentro do FreeCAD, usando o [[Std_AddonMgr/pt-br|Gerenciador de Extensões]], encontrado no menu {{MenuCommand|Ferramentas → [[Image:Std_AddonMgr.svg|24px]] Addon manager}}. 
+<div class="mw-translate-fuzzy">
+A página de bancadas de trabalho externas ([[external_workbenches/pt-br|Bancadas de trabalho externas]]) lista todas as que são conhecidas por esta comunidade. A maioria é facilmente instalável de dentro do FreeCAD, usando o [[Std_AddonMgr/pt-br|Gerenciador de Extensões]], encontrado no menu {{MenuCommand|Ferramentas → [[Image:Std_AddonMgr.svg|24px]] Addon manager}}.
+</div> 
 
 
 <div class="mw-translate-fuzzy">
