@@ -1,22 +1,30 @@
 <languages/>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
 |[[Contributors|Contributors]]
 |
 }}
+</div>
 
 Această pagină este un glosar de termeni și definiții comune ale FreeCAD.
 
 Salt la literă: {{CompactTOC|center=yes}}
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==0-9==
+</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 {{gloss}}
 {{term|3D view|content=[[3D_view|3D view]]}}
 {{defn|defn=The 3D view is a component of the FreeCAD [[Interface|interface]]. It shows a 3D representation of the model.}}
 {{glossend}}
+</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==A==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==A==
@@ -33,7 +41,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==B==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==B==
@@ -53,7 +63,7 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{term|Boolean OPerations check}}
 {{defn|defn=See [[#BOPcheck|BOPcheck]].}}
 {{term|BOPcheck}}
-{{defn|defn= O setare care permite instrumentului de verificare a geometriei din partea WB(Atelierului) și OpenSCAD WB să verifice și geometria făcută din [[#Boolean Logic|Boolean logic]]. Setarea implicită este "false" (sau off) dar utilizatorul îi poate permite să furnizeze mai multă precizie atunci când execută o Check Geometry, dar acest lucru este în detrimentul timpilor de procesare a  unei Check Geometry . Setarea este activată prin navigarea pe traseul Tools > Edit Parameters > Preferences folder > Mod folder > Part folder > Check geometry folder, apoi dublu click "false" în tab-ul drept, schimbarea valorii la "True", click pe butonul "OK", click pe butonul"Save to disk", apoi click pe butonul "Close". O captură de ecran și o descriere a procedurii de activare BOPCheck este la adresa [http://forum.freecadweb.org/viewtopic.php?t=8031#p65914 in post[rile de pe acest forum].}}
+{{defn|defn= O setare care permite instrumentului de verificare a geometriei din partea WB(Atelierului) și OpenSCAD WB să verifice și geometria făcută din [[#Boolean Logic|Boolean logic]]. Setarea implicită este "false" (sau off) dar utilizatorul îi poate permite să furnizeze mai multă precizie atunci când execută o Check Geometry, dar acest lucru este în detrimentul timpilor de procesare a  unei Check Geometry . Setarea este activată prin navigarea pe traseul Tools > Edit Parameters > Preferences folder > Mod folder > Part folder > Check geometry folder, apoi dublu click "false" în tab-ul drept, schimbarea valorii la "True", click pe butonul "OK", click pe butonul"Save to disk", apoi click pe butonul "Close". O captură de ecran și o descriere a procedurii de activare BOPCheck este la adresa [http://forum.freecad.org/viewtopic.php?t=8031#p65914 in post[rile de pe acest forum].}}
 {{term|brep}}
 {{defn|defn=Format nativ de fișier pentru [[#Open CASCADE|Open CASCADE]] și este partajat de câteva aplicații. FreeCAD poate salva în format *.brep .}}
 {{term|B-rep}}
@@ -63,7 +73,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==C==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==C==
@@ -101,7 +113,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==D==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==D==
@@ -128,7 +142,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==E==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==E==
@@ -143,7 +159,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==F==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==F==
@@ -179,13 +197,14 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==G==
+</div>
 
-<div class="mw-translate-fuzzy">
 ==G==
 {{gloss}}
 {{term|GDB or gdb}}
-{{defn|defn=[https://www.gnu.org/software/gdb/ '''G'''NU Project '''D'''e'''B'''ugger], a debugging program used on Unix and other 'nix operating systems in order to get a [[#Backtrace|backtrace]]. "gdb" (without the quotation marks) is also the first part of the command used to start the GDB program itself.  An example of how to use GDB with FreeCAD is in [http://forum.freecadweb.org/viewtopic.php?t=7052#p56918 this forum post]}}
+{{defn|defn=[https://www.gnu.org/software/gdb/ '''G'''NU Project '''D'''e'''B'''ugger], a debugging program used on Unix and other 'nix operating systems in order to get a [[#Backtrace|backtrace]]. "gdb" (without the quotation marks) is also the first part of the command used to start the GDB program itself.  An example of how to use GDB with FreeCAD is in [http://forum.freecad.org/viewtopic.php?t=7052#p56918 this forum post]}}
 {{term|Geometric modeling kernel}}
 {{defn|defn=Also called CAD kernel. A set of complex software libraries responsible for the creation of 3D shapes. All operations on objects (extrude, boolean operations, chamfer, fillet) rely on the geometric modeling kernel.}}
 {{term|Git}}
@@ -195,9 +214,10 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{term|GUI}}
 {{defn|defn='''G'''raphical '''U'''ser '''I'''nterface. Allows users to interact with FreeCAD through graphical icons and the mouse pointer.}}
 {{glossend}}
-</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==H==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==H==
@@ -207,7 +227,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==I==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==I==
@@ -219,7 +241,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==J==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==J==
@@ -229,7 +253,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==K==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==K==
@@ -241,7 +267,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==L==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==L==
@@ -261,7 +289,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==M==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==M==
@@ -281,7 +311,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==N==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==N==
@@ -295,7 +327,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==O==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==O==
@@ -318,7 +352,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==P==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==P==
@@ -369,7 +405,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==Q==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==Q==
@@ -379,7 +417,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==R==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==R==
@@ -395,9 +435,10 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==S==
+</div>
 
-<div class="mw-translate-fuzzy">
 ==S==
 {{gloss}}
 {{term|Section}}
@@ -415,7 +456,7 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{term|Sketcher Solver}}
 {{defn|defn=The internal FreeCAD mechanism that calculates inter-dependencies and effects of adding, deleting, and modifying geometry and associated constraints in each Sketch.  Sketcher Solver also calculates the arrangement of all geometry in each Sketch so it can be displayed correctly.}}
 {{term|Smooth Line}}
-{{defn|defn=In a Drawing, a line indicating a change between tangent surfaces, as in the transition from a flat surface to a fillet. Also "tangent edge". See [http://www.freecadweb.org/wiki/index.php?title=Drawing_View#Modify_an_existing_view Drawing View]}}
+{{defn|defn=In a Drawing, a line indicating a change between tangent surfaces, as in the transition from a flat surface to a fillet. Also "tangent edge". See [http://www.freecad.org/wiki/index.php?title=Drawing_View#Modify_an_existing_view Drawing View]}}
 {{term|Solid}}
 {{defn|defn=Part of 3D space bounded by [[#Shell|Shells]]. A solid has a volume and other properties related to objects with a mass.}}
 {{term|Solver}}
@@ -431,9 +472,10 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{term|Sweep}}
 {{defn|defn=A 3D shape generated from at least one 2D cross-section that traces along a trajectory (path). Commonly used to define the tool as well as the created shape. See [http://en.wikipedia.org/wiki/Solid_modeling#Sweeping Solid modeling]}}
 {{glossend}}
-</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==T==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==T==
@@ -458,7 +500,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==U==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==U==
@@ -472,7 +516,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==V==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==V==
@@ -484,7 +530,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==W==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==W==
@@ -499,7 +547,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==X==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==X==
@@ -509,7 +559,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==Y==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==Y==
@@ -519,7 +571,9 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{glossend}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==Z==
+</div>
 
 <div class="mw-translate-fuzzy">
 ==Z==
@@ -530,10 +584,12 @@ Salt la literă: {{CompactTOC|center=yes}}
 </div>
 
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
 |[[Contributors|Contributors]]
 |
 }}
+</div>
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Wiki{{#translation:}}]]
