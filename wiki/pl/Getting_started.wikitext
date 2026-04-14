@@ -68,10 +68,8 @@ W menu Widok, na pasku narzędzi Widok oraz za pomocą skrótów klawiaturowych 
 
 FreeCAD został zaprojektowany do tworzenia precyzyjnych modeli 3D, ścisłą kontrolę nad tymi modelami ''(możliwość cofnięcia się w historii modelowania i zmiany parametrów)'', a w końcu na budowanie tych modeli ''(poprzez wydruk w technologii 3D i obróbkę numeryczną CNC lub nawet budowę obiektu budowlanego)''. <br />W związku z tym bardzo różni się on od innych aplikacji 3D stworzonych do innych celów, takich jak film animowany czy gry. Jego nauka może być bardzo trudna, zwłaszcza jeśli jest to Twój pierwszy kontakt z modelowaniem 3D. Jeśli w którymś momencie staniesz się zaskoczony, nie zapominaj, że przyjazna społeczność użytkowników na [https://forum.freecad.org forum FreeCAD] może być w stanie wyciągnąć cię z tarapatów w mgnieniu oka.
 
-<div class="mw-translate-fuzzy">
 Środowisko pracy, z którego zaczniesz korzystać w FreeCAD, zależy od rodzaju pracy, którą musisz wykonać: Jeśli zamierzasz pracować na modelach mechanicznych lub ogólnie na małych obiektach, prawdopodobnie będziesz chciał wypróbować środowisko [[PartDesign_Workbench/pl|Projekt Części]]. Jeśli pracujesz w trybie 2D, przejdź do środowiska [[Draft_Workbench/pl|Rysunek Roboczy]] lub [[Sketcher_Workbench/pl|Szkicownik]], jeśli potrzebne Ci są określone wymagania. Jeśli chcesz pracować z modelami BIM, uruchom środowisko [[BIM_Workbench/pl|BIM]]. 
-A jeśli pochodzisz ze świata OpenSCAD, wypróbuj Środowisko pracy [[OpenSCAD_Workbench/pl|OpenSCAD]]. Dostępnych jest również wiele [[External_workbenches/pl|zewnętrznych środowisk]] opracowanych przez społeczność.
-</div>
+A jeśli pochodzisz ze świata OpenSCAD, wypróbuj Środowisko pracy [[OpenSCAD_Workbench/pl|OpenSCAD]]. Dostępnych jest również wiele [https://www.freecad.org/addons.php zewnętrznych środowisk] opracowanych przez społeczność.
 
 Możesz przełączać Środowisko pracy w dowolnym momencie, a także [[Interface_Customization/pl|dostosować ustawienia]], aby dodać narzędzia z innych Środowisk pracy.
 
