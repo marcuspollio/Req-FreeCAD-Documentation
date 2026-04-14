@@ -38,9 +38,7 @@ Für all diese [https://kicad-pcb.org/ KiCad]-Konzepte findet man im Arbeitsbere
 
 ==Installation==
 
-<div class="mw-translate-fuzzy">
-KicadStepUp ist Teil der [[External_workbenches/de|externen Arbeitsbereiche]] und kann automatisch mit dem [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/de|Addon-Manager]], der seit FreeCAD 0.17 mitgeliefert wird, installiert werden (Menüeintrag {{MenuCommand|Werkzeuge → Addon-Manager}}).
-</div>
+KicadStepUp ist Teil der [https://www.freecad.org/addons.php externen Arbeitsbereiche] und kann automatisch mit dem [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/de|Addon-Manager]], der seit FreeCAD 0.17 mitgeliefert wird, installiert werden (Menüeintrag {{MenuCommand|Werkzeuge → Addon-Manager}}).
 
 <span id="Usage"></span>
 ==Anwendung==
