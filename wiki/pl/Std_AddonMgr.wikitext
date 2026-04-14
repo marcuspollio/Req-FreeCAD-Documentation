@@ -21,9 +21,7 @@
 <span id="Description"></span>
 ==Opis==
 
-<div class="mw-translate-fuzzy">
-Polecenie '''Std: Menadżer dodatków''' otwiera Menadżer dodatków. Za jego pomocą możesz zainstalować i zarządzać [[External_workbenches/pl|Zewnętrznymi środowiskami pracy]] oraz [[Macros/pl|makropoleceniami]] i [[Preference_Packs/pl|paczkami ustawień]] dostarczonymi przez społeczność FreeCAD. Domyślnie dostępne dodatki pobierane są z dwóch repozytoriów [https://github.com/FreeCAD/FreeCAD-addons/ FreeCAD-addons] oraz strony [[Macros_recipes/pl|Przepisy na makrodefinicje]] na tej wiki. Jeśli w systemie zainstalowany jest Git, dodatkowe makra zostaną załadowane z [https://github.com/FreeCAD/FreeCAD-macros/ FreeCAD-macros]. Własne repozytoria można dodać w ustawieniach [[Preferences_Editor/pl#Menad.C5.BCer_dodatk.C3.B3w|Menadżera dodatków]].
-</div>
+Polecenie '''Std: Menadżer dodatków''' otwiera Menadżer dodatków. Za jego pomocą możesz zainstalować i zarządzać [https://www.freecad.org/addons.php zewnętrznymi środowiskami pracy] oraz [[Macros/pl|makropoleceniami]] i [[Preference_Packs/pl|paczkami ustawień]] dostarczonymi przez społeczność FreeCAD. Domyślnie dostępne dodatki pobierane są z dwóch repozytoriów [https://github.com/FreeCAD/FreeCAD-addons/ FreeCAD-addons] oraz strony [[Macros_recipes/pl|Przepisy na makrodefinicje]] na tej wiki. Jeśli w systemie zainstalowany jest Git, dodatkowe makra zostaną załadowane z [https://github.com/FreeCAD/FreeCAD-macros/ FreeCAD-macros]. Własne repozytoria można dodać w ustawieniach [[Preferences_Editor/pl#Menad.C5.BCer_dodatk.C3.B3w|Menadżera dodatków]].
 
 Od maja 2025, Menadżer dodatków może być użyty do instalacji i aktualizacji samoaktualizującej się wersji samego siebie poprzez instalację dodatku "Addon Manager". Jest kompatybilny z FreeCAD 0.21 i późniejszymi wersjami.
 
