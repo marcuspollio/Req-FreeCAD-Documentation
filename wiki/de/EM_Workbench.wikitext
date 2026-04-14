@@ -13,9 +13,7 @@ Der Arbeitsbereich EM (ElectroMagnetic) stellt die CAD-Frontend-Schnittstelle zu
 
 == Installation ==
 
-<div class="mw-translate-fuzzy">
-Der [[EM_Workbench/de|Arbeitsbereich EM]] ist ein [[External_workbenches/de|externer Arbeitsbereich]], der mit FreeCADs [[Image:AddonManager.svg|24px]] [[Std_AddonMgr/de|Addon-Manager]] installiert werden kann. Dies kann über den Menüeintrag {{MenuCommand|Werkzeuge → Addon-Manager}} erfolgen.
-</div>
+Der [[EM_Workbench/de|Arbeitsbereich EM]] ist ein [https://www.freecad.org/addons.php externer Arbeitsbereich], der mit FreeCADs [[Image:AddonManager.svg|24px]] [[Std_AddonMgr/de|Addon-Manager]] installiert werden kann. Dies kann über den Menüeintrag {{MenuCommand|Werkzeuge → Addon-Manager}} erfolgen.
 
 Die Löser für elektromagnetische Zusammenhänge FastHenry2 und FasterCap müssen separat installiert werden. Ihre Binärcodes und auch die Quelldateien sind frei erhältlich von [https://www.fastfieldsolvers.com FastFieldSolvers].
 
