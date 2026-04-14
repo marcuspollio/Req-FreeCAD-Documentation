@@ -6,7 +6,7 @@
 
 == Overview==
 
-DynamicData is an [[External_workbenches|external workbench]] with which one can create a container object for holding custom properties.
+DynamicData is an [https://www.freecad.org/addons.php external workbench] with which one can create a container object for holding custom properties.
 
 With this workbench it's possible to create a new custom [[property]] of just about any type that FreeCAD supports. For example a Length property or a [[Placement]] property.  These custom properties can then be used in [[Expressions]] just like any other property.  For example, you could create a Length property called "Width" and refer to it when constraining a sketch element.  Then when the "Width" property is changed, the sketch constraint will automatically update.  This is similar to the way one can use a spreadsheet, but is more interactive in that the properties can be changed while still being able to see the [[3D view]] and also allows for a wider variety of property types.
 
