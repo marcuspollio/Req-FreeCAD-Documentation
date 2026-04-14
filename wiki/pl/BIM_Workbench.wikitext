@@ -55,9 +55,7 @@ Samouczek [[BIM_ingame_tutorial/pl|Obsługa BIM]] jest łatwym sposobem na szybk
 
 Środowisko pracy BIM gromadzi narzędzia z kilku innych środowisk pracy FreeCAD, głównie [[Draft_Workbench/pl|Rysunek Roboczy]] i [[Part_Workbench/pl|Część]], z grubsza zreorganizowane w logiczne kategorie.
 
-<div class="mw-translate-fuzzy">
-Dodatkowo, jeżeli są zainstalowane [[External_workbenches/pl|dodatki]], narzędzia ze środowiska [[Reinforcement_Workbench/pl|Zbrojenie]] ''(dodatkowe narzędzia do prętów zbrojeniowych)'', [[Fasteners_Workbench/pl|Elementy złączne]] ''(śruby i wkręty)'', [[Flamingo_Workbench/pl|Flamingo / Dodo]] ''(narzędzia do konstrukcji stalowych i rurociągów)'' oraz [[Parts_Library_Workbench/pl|Biblioteka podzespołów]] są automatycznie dołączane do środowiska BIM.
-</div>
+Dodatkowo, jeżeli są zainstalowane [https://www.freecad.org/addons.php dodatki], narzędzia ze środowiska [[Reinforcement_Workbench/pl|Zbrojenie]] ''(dodatkowe narzędzia do prętów zbrojeniowych)'', [[Fasteners_Workbench/pl|Elementy złączne]] ''(śruby i wkręty)'', [[Flamingo_Workbench/pl|Flamingo / Dodo]] ''(narzędzia do konstrukcji stalowych i rurociągów)'' oraz [[Parts_Library_Workbench/pl|Biblioteka podzespołów]] są automatycznie dołączane do środowiska BIM.
 
 Środowisko pracy BIM dodaje również serię pozycji w ''pasku statusu'' programu FreeCAD, oraz kilka pozycji ''menu kontekstowego'', dostępnych po kliknięciu prawym przyciskiem myszy w widoku 3D lub w widoku drzewa.
 
