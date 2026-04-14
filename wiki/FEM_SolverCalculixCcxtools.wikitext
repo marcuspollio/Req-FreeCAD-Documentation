@@ -121,7 +121,7 @@ Default values can be set in the menu {{MenuCommand|Edit → Preferences → FEM
 
 <!--T:23-->
 * {{PropertyData|Iterations Control Parameter Time Use}}
-** true - activates {{PropertyData|Iterations Control parameter Cutb}}, {{PropertyData|Iterations Control Parameter Iter}} and ({{Version|1.2}}) {{PropertyData|Iterations Control Parameter Field}}
+** true - activates {{PropertyData|Iterations Control Parameter Cutb}}, {{PropertyData|Iterations Control Parameter Iter}} and ({{Version|1.2}}) {{PropertyData|Iterations Control Parameter Field}}
 ** false
 
 <!--T:27-->
