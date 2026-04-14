@@ -94,9 +94,7 @@ Standardwerte können im Menü {{MenuCommand|Bearbeiten → Einstellungen → FE
 
 * {{PropertyData/de|Increments Maximum}}: maximale Anzahl von Inkrementen, nach denen der Auftrag angehalten wird.
 
-<div class="mw-translate-fuzzy">
-* {{PropertyData/de|Iterations Control parameter Cutb}}: definiert die zweite Zeile der [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX' advanced iteration parameters]. Wird verwendet, wenn {{PropertyData/de|Iterations Control Parameter Time Use}} auf ''true'' gesetzt ist.
-</div>
+* {{PropertyData/de|Iterations Control Parameter Cutb}}: definiert die zweite Zeile der [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX's advanced iteration parameters] (Kürzungsfaktoren). Wird verwendet, wenn {{PropertyData/de|Iterations Control Parameter Time Use}} auf ''true'' gesetzt ist.
 
 * {{PropertyData|Iterations Control Parameter Field}} - {{Version|1.2}}: defines [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX's advanced field parameters] (convergence criteria). Used if {{PropertyData|Iterations Control Parameter Time Use}} is set to ''true''.
 
