@@ -23,9 +23,7 @@
 
 Das Werkzeug [[Reinforcement_HelicalRebar|Reinforcement Wendelbewehrung]] erlaubt dem Anwender, einen fortlaufenden spiralförmigen Bewehrungsstab in einem [[Arch_Structure/de|Struktur]]-Objekt zu erstellen.
 
-<div class="mw-translate-fuzzy">
-Dieses Werkzeug ist Teil des Arbeitsbereichs [[Reinforcement_Workbench/de|Reinforcement]]; dieser ist ein [[External_workbenches/de|externer Arbeitsbereich]], der mit dem [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/de|Addon-Manager]] installiert werden kann.
-</div>
+Dieses Werkzeug ist Teil des [[Reinforcement_Workbench/de|Arbeitsbereichs Reinforcement]]; dieser ist ein [https://www.freecad.org/addons.php externer Arbeitsbereich], der mit dem [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/de|Addon-Manager]] installiert werden kann.
 
 : [[Image:Arch_Rebar_Helical_example.png|80px]]
 {{Caption|Eine fortlaufende Wendelbewehrung in einer [[Arch_Structure/de|Struktur]]}}
