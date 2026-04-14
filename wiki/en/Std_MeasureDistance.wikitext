@@ -36,7 +36,7 @@ The '''Std MeasureDistance''' command creates a distance object that measures an
 
 * You cannot use the [[Draft_Workbench|Draft]] snap tools with this command.
 * To add dimensions to drawings use the dimension tools from the [[TechDraw_Workbench|TechDraw Workbench]].
-* For more comprehensive measuring tools, install the [[Image:Manipulator_workbench_icon.svg|24px|link=Manipulator_Workbench]] [[Manipulator_Workbench|Manipulator Workbench]] (an [[External_workbenches|external workbench]]).
+* For more comprehensive measuring tools, install the [[Image:Manipulator_workbench_icon.svg|24px|link=Manipulator_Workbench]] [[Manipulator_Workbench|Manipulator Workbench]] (an [https://www.freecad.org/addons.php external workbench]).
 
 ==Properties==
 
