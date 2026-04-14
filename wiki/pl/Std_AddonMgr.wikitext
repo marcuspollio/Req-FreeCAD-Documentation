@@ -38,16 +38,14 @@ Od maja 2025, Menadżer dodatków może być użyty do instalacji i aktualizacji
 
 [[File:AddonManager_Main.png|600px]]
 
-<div class="mw-translate-fuzzy">
 # Menedżer dodatków udostępnia dwa układy widoków: "Zwięzły" i "Rozszerzony". W widoku "Zwięzłym" każdy dodatek zajmuje jedną linię, a jego opis jest obcięty, aby zmieścić się w dostępnym miejscu. Z kolei "Rozszerzony" pokazuje dodatkowe szczegóły, w tym więcej tekstu opisu, a także informacje o opiekunie, więcej szczegółów instalacji itp.
-# Obsługiwanych jest pięć różnych typów dodatków: [[External_workbenches/pl|środowiska pracy]], [[Macros/pl|makrodefinicje]], [[Preference_Packs/pl|pakiety preferencji]], paczki i "other". Możesz zdecydować, czy chcesz wyświetlić tylko jeden typ, czy wszystkie na jednej liście.
+# Obsługiwanych jest pięć różnych typów dodatków: [https://www.freecad.org/addons.php środowiska pracy], [[Macros/pl|makrodefinicje]], [[Preference_Packs/pl|pakiety preferencji]], paczki i "other". Możesz zdecydować, czy chcesz wyświetlić tylko jeden typ, czy wszystkie na jednej liście.
 # Lista może być zawężona do pokazania tylko zainstalowanych pakietów, tylko pakietów z dostępnymi aktualizacjami, lub tylko pakietów, które nie są jeszcze zainstalowane.
 # Listę można filtrować, szukając słowa kluczowego w tytule, opisie i tagach ''(opis i tagi muszą być określone przez twórcę dodatku w jego metadanych)''. Filtr może być nawet wyrażeniem regularnym, co pozwala na precyzyjną kontrolę dokładnego wyszukiwania.
 # Rozszerzony widok pokazuje dostępne informacje o wersji, opisie, opiekunie i wersji instalacji dla pakietów, które dostarczają pliki  [[Package_Metadata/pl|metadanych pakietu]] ''(lub dla makrodefinicji z wbudowanymi metadanymi)''.
 # Dane dodatków są buforowane lokalnie, ze zmienną częstotliwością aktualizacji pamięci podręcznej ustawioną w preferencjach użytkownika.
 # W każdej chwili możesz wybrać ręczne aktualizowanie lokalnej pamięci podręcznej, aby zobaczyć najnowsze aktualizacje dostępne dla każdego dodatku. 
 # Sprawdzanie aktualizacji może być ustawione jako automatyczne lub wykonywane ręcznie poprzez kliknięcie przycisku ''(skonfigurowane w preferencjach użytkownika)''. Jeśli środowiska GitPython i Git są zainstalowane w systemie, to informacje o aktualizacjach są pobierane przy użyciu Git. Jeśli nie, to informacje o aktualizacjach są uzyskiwane z dowolnego obecnego pliku metadanych.
-</div>
 
 Kliknięcie dodatku w tym widoku powoduje wyświetlenie strony szczegółów:
 
