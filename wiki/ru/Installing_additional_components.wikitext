@@ -20,7 +20,9 @@
 <span id="External_workbenches"></span>
 =Внешние верстаки=
 
+<div class="mw-translate-fuzzy">
 Кроме стандартных [[workbenches/ru|верстаков]], привязанных к FreeCAD, есть большая коллекция полезных [[External_workbenches|сторонних верстаков]], созданных членами сообщества.
+</div>
 
 <span id="Third_party_software"></span>
 =Стороннее программное обеспечение=
@@ -125,7 +127,9 @@ FreeCAD для Windows и Mac.
 
 ===OpenFOAM===
 
+<div class="mw-translate-fuzzy">
 [https://openfoam.org OpenFOAM] это большая коллекция библиотек для вычислительной гидродинамики (computational fluid dynamics, CFD). OpenFOAM используется [[external_workbenches/ru|внешними верстаками]] [[Cfd_Workbench/ru|Cfd]] и [https://github.com/jaheyns/CfdOF CfdOF].
+</div>
 
 <span id="Related_pages"></span>
 =Связанные страницы=
