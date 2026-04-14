@@ -51,7 +51,6 @@ Les chaînes YouTube suivantes ont un contenu d'assez bonne qualité centré sur
 <span id="&quot;Can_FreeCAD_do_XYZ?&quot;"></span>
 === "FreeCAD peut-il faire XYZ ?" ===
 
-<div class="mw-translate-fuzzy">
 FreeCAD permet déjà d'effectuer les types de travaux suivants :
 * Modélisation paramétrique basée sur des splines à l'aide des ateliers [[Part_Workbench/fr|Part]], [[PartDesign_Workbench/fr|PartDesign]] et [[Sketcher_Workbench/fr|Sketcher]].
 * Modélisation de surfaces et de courbes à l'aide de NURBS
@@ -61,8 +60,7 @@ FreeCAD permet déjà d'effectuer les types de travaux suivants :
 * Analyse des contraintes mécaniques ([[FEM_Workbench/fr|FEM/FEA]])
 * Analyse numérique de la dynamique des fluides ([[Cfd_Workbench/fr|CFD]])
 * [[TechDraw_Workbench/fr|Dessins techniques]]/[[Draft_Workbench/fr|Dessin]]
-* Et d'autres [[Workbenches/fr|ateliers]] et [[External_workbenches/fr|ateliers externes]]...
-</div>
+* Et d'autres [[Workbenches/fr|ateliers]] et [https://www.freecad.org/addons.php ateliers externes]...
 
 <span id="&quot;User_interface_(UI/UX)_is_ugly,_odd,_confusing_or_not_like_XYZ_Software!&quot;"></span>
 === "L'interface utilisateur (UI/UX) est laide, étrange, déroutante ou ne ressemble pas au logiciel XYZ !" ===
