@@ -111,14 +111,16 @@ Default values can be set in the menu {{MenuCommand|Edit → Preferences → FEM
 * {{PropertyData|Increments Maximum}}: maximum number of increments after which the job will be stopped.
 
 <!--T:21-->
-* {{PropertyData|Iterations Control parameter Cutb}}: defines the second line of [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX' advanced iteration parameters]. Used if {{PropertyData|Iterations Control Parameter Time Use}} is set to ''true''.
+* {{PropertyData|Iterations Control Parameter Cutb}}: defines the second line of [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX's advanced iteration parameters] (cutback factors). Used if {{PropertyData|Iterations Control Parameter Time Use}} is set to ''true''.
+
+* {{PropertyData|Iterations Control Parameter Field}} - {{Version|1.2}}: defines [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX's advanced field parameters] (convergence criteria). Used if {{PropertyData|Iterations Control Parameter Time Use}} is set to ''true''.
 
 <!--T:22-->
-* {{PropertyData|Iterations Control Parameter Iter}}: defines the first line of [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX' advanced iteration parameters]. Used if {{PropertyData|Iterations Control Parameter Time Use}} is set to ''true''.
+* {{PropertyData|Iterations Control Parameter Iter}}: defines the first line of [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX's advanced iteration parameters] (numbers of iterations/cutbacks). Used if {{PropertyData|Iterations Control Parameter Time Use}} is set to ''true''.
 
 <!--T:23-->
 * {{PropertyData|Iterations Control Parameter Time Use}}
-** true - activates {{PropertyData|Iterations Control parameter Cutb}} and {{PropertyData|Iterations Control Parameter Iter}}
+** true - activates {{PropertyData|Iterations Control parameter Cutb}}, {{PropertyData|Iterations Control Parameter Iter}} and ({{Version|1.2}}) {{PropertyData|Iterations Control Parameter Field}}
 ** false
 
 <!--T:27-->
