@@ -23,9 +23,7 @@
 
 Das Werkzeug [[Reinforcement_UShapeRebar/de|Reinforcement UBewehrung]] erlaubt dem Anwender, einen Satz U-förmiger Bewehrungsstäbe in einem [[Arch_Structure/de|Arch Struktur]]-Objekt zu erstellen.
 
-<div class="mw-translate-fuzzy">
-Dieses Werkzeug ist Teil des Arbeitsbereichs [[Reinforcement_Workbench/de|Reinforcement]]; dieser ist ein [[External_workbenches/de|externer Arbeitsbereich]], der mit dem [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/de|Addon-Manager]] installiert werden kann.
-</div>
+Dieses Werkzeug ist Teil des [[Reinforcement_Workbench/de|Arbeitsbereichs Reinforcement]]; dieser ist ein [https://www.freecad.org/addons.php externer Arbeitsbereich], der mit dem [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/de|Addon-Manager]] installiert werden kann.
 
 [[Image:Arch_Rebar_UShape_example.png|400px]]
 {{Caption|Zwei Sätze U-förmiger Bewehrungsstäbe in einem [[Arch_Structure/de|Arch Struktur]]-Objekt}}
