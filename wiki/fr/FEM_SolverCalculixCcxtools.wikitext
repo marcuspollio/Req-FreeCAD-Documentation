@@ -91,13 +91,21 @@ Les valeurs par défaut peuvent être définies dans le menu {{MenuCommand|Édit
 
 * {{PropertyData|Increments Maximum}} : nombre maximum d'incréments après lesquels le travail sera arrêté.
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Iterations Control parameter Cutb}} : définit la deuxième ligne des [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 Paramètres d'itération avancés de CalculiX]. Utilisé si {{PropertyData|Iterations Control Parameter Time Use}} est réglé à ''true''.
+</div>
 
+* {{PropertyData|Iterations Control Parameter Field}} - {{Version|1.2}}: defines [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX's advanced field parameters] (convergence criteria). Used if {{PropertyData|Iterations Control Parameter Time Use}} is set to ''true''.
+
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Iterations Control Parameter Iter}} : définit la première ligne des [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 Paramètres d'itération avancés de CalculiX]. Utilisé si {{PropertyData|Iterations Control Parameter Time Use}} est réglé à ''true''.
+</div>
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Iterations Control Parameter Time Use}}
 ** true : active les options {{PropertyData|Iterations Control parameter Cutb}} et {{PropertyData|Iterations Control Parameter Iter}}.
 ** false
+</div>
 
 * {{PropertyData|Material Nonlinearity}} :
 ** linear : seules les propriétés des matériaux linéaires seront incluses dans l'analyse.
