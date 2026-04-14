@@ -283,7 +283,9 @@ De nombreuses extensions comportent des informations de préférence spécifiabl
 <span id="Distributing_a_pack"></span>
 == Distribuer un kit ==
 
+<div class="mw-translate-fuzzy">
 Les kits de préférences sont distribués de manière identique aux [[External_workbenches/fr|ateliers externes]] par le biais du [[Image:Std_AddonMgr.svg|24px|link=Std_AddonMgr/fr]] [[Std_AddonMgr/fr|gestionnaire des extensions]]. Pour installer un kit manuellement, utilisez git pour cloner le dépôt du kit dans votre répertoire de données FreeCAD ((entrez {{incode|App.getUserAppDataDir()}} dans la [[Python_console/fr|console Python]] pour obtenir ce chemin)), dans un sous-répertoire appelé "Preference Packs". Notez que les paquets installés par l'utilisateur et portant le même nom qu'un paquet inclus sont prioritaires.
+</div>
 
 Voir aussi [[Private_Preference_Packs/fr|Kits de préférences privés]].
 
