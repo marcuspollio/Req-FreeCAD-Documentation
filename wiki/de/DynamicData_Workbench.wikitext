@@ -29,15 +29,6 @@ Dieser Arbeitsbereich kann über den [[Std_AddonMgr/de|Addon-Manager]] installie
 * Quellcode gehostet auf GitHub: [https://github.com/mwganson/DynamicData github.com]
 * Vollständige offizielle [https://github.com/mwganson/DynamicData/blob/master/README.md Dokumentation]
 
-<span id="External_workbenches"></span>
-== Externe Arbeitsbereiche ==
-
-FreeCAD Arbeitsbereiche sind einfach in [[Python/de|Python]] zu programmieren, daher gibt es viele Leute, die zusätzliche Arbeitsbereiche außerhalb der FreeCAD-Hauptentwickler entwickeln.
-
-Die Wiki-Seite ([[External workbenches/de|Weitere Arbeitsbereiche]]) enthält für einige von ihnen Informationen und Unterweisungen (Tutorials). Das [https://github.com/FreeCAD/FreeCAD-addons FreeCAD-Addons]-Projekt versucht sie zu sammeln und einfach aus FreeCAD heraus installierbar zu machen.
-
-Neue Arbeitsbereiche sind in der Entwicklung, bleib dran!
-
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
