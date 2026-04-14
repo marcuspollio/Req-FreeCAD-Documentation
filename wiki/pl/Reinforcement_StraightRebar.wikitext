@@ -23,7 +23,9 @@
 
 Narzędzie '''Pręty zbrojeniowe proste''' pozwala użytkownikowi na utworzenie zestawu prostych prętów zbrojeniowych wewnątrz obiektu [[Arch_Structure/pl|konstrukcyjnego]].
 
+<div class="mw-translate-fuzzy">
 To polecenie jest częścią [[External_workbenches/pl|zewnętrznego środowiska pracy]] [[Reinforcement_Workbench/pl|Zbrojenie]], które można zainstalować za pomocą [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/pl|Menadżera dodatków]] poprzez menu {{MenuCommand|Przybory → Menadżera dodatków → Zbrojenie}}.
+</div>
 
 [[Image:Arch_Rebar_Straight_example.png|400px]]
 {{Caption|Dwa zestawy prostych prętów zbrojeniowych wewnątrz [[Arch_Structure/pl|konstrukcji]]}}
