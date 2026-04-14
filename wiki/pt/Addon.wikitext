@@ -9,10 +9,12 @@ No FreeCAD e na sua documentação, uma [[addon/pt|extensão]] é um componente 
 <span id="Different_types"></span>
 == Diferentes tipos ==
 
+<div class="mw-translate-fuzzy">
 Há três tipos de extensões:
 * [[Macros/pt|Macros]]: pequenos trechos de código [[Python/pt|Python]] que oferece uma nova ferramenta ou uma nova funcionalidade num só ficheiro, que termina em {{incode|.FCMacro}}.
 * [[External_workbenches/pt|Bancadas de trabalho]]: Colecção de ficheiros Python que providenciam [[Gui_Command/pt|comandos Gui]] (ferramentas) relacionadas com um tópico em particular, por exemplo, ferramentas para desenhar móveis, ou ferramentas para trabalhar em arquitectura, ou ferramentas para desenhar barcos, etc. Estas bancadas de trabalho normalmente definem novas barras de ferramentas onde [[Gui_Command/pt|comandos]] aparecem como botões.
 * [[Preference_Packs/pt|Pacotes de preferências]]: colecções de preferências do utilizador partilháveis. {{Version|0.20}}
+</div>
 
 <span id="Installation"></span>
 === Instalação ===
