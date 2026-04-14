@@ -108,9 +108,7 @@ FEniCS est un cadre informatique permettant de résoudre des équations aux dér
 
 Voir : [https://fenicsproject.org/ site principale], [https://forum.freecad.org/viewtopic.php?f=18&t=4677 Fenics as Solver (sujet du forum)].
 
-<div class="mw-translate-fuzzy">
-[https://github.com/qingfengxia/FenicsSolver FenicsSolver] est une plate-forme de simulation permettant de traiter des problèmes multi-corps, multi-physique (couplés) et multi-échelles. Il espère intégrer le solveur FEniCS à la fois dans [[FEM_Workbench/fr|atelier FEM]] et dans l'[[External_workbenches/fr|atelier extérieur]] Cfd afin que le système résultant fonctionne comme une alternative gratuite à Comsol ou à Moose. FenicsSolver est développé par le même auteur de Cfd.
-</div>
+[https://github.com/qingfengxia/FenicsSolver FenicsSolver] est une plate-forme de simulation permettant de traiter des problèmes multi-corps, multi-physique (couplés) et multi-échelles. Il espère intégrer le solveur FEniCS à la fois dans [[FEM_Workbench/fr|atelier FEM]] et dans [https://www.freecad.org/addons.php atelier externe] Cfd afin que le système résultant fonctionne comme une alternative gratuite à Comsol ou à Moose. FenicsSolver est développé par le même auteur de Cfd.
 
 === OOFEM ===
 
