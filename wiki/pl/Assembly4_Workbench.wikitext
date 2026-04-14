@@ -7,9 +7,7 @@
 
 {{TOCright}}
 
-<div class="mw-translate-fuzzy">
-Złożenie 4 to [[External_workbenches/pl|zewnętrzne środowisko pracy]], które służy do wykonywania montażu różnych obiektów zawartych w jednym pliku lub w wielu dokumentach. Został stworzony w cyklu rozwojowym v0.19, aby wykorzystać nowe funkcje gałęzi Złożenie 3, takie jak obiekt [[App_Link/pl|App Łącze]] i nowy [[Expressions/pl|silnik wyrażeń]].
-</div>
+Złożenie 4 to [https://www.freecad.org/addons.php zewnętrzne środowisko pracy], które służy do wykonywania montażu różnych obiektów zawartych w jednym pliku lub w wielu dokumentach. Został stworzony w cyklu rozwojowym v0.19, aby wykorzystać nowe funkcje gałęzi Złożenie 3, takie jak obiekt [[App_Link/pl|App Łącze]] i nowy [[Expressions/pl|silnik wyrażeń]].
 
 Został on opracowany z myślą o tym, że prawdziwy solver ograniczeń nie był potrzebny, a zamiast tego [[Expressions/pl|silnik wyrażeń]] wystarczył do ustanowienia relacji między różnymi lokalnymi układami współrzędnych dołączonymi do Zawartości. Dlatego też jego prototypowa nazwa brzmiała "Montaż bez solvera" lub AWS.
 
