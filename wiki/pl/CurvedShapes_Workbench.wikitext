@@ -8,7 +8,9 @@
 <span id="Introduction"></span>
 ==Wprowadzenie==
 
-Środowisko pracy ''Kształty zakrzywione'' jest [[External_workbenches/pl|zewnętrznym środowiskiem]] FreeCAD, które pozwala na tworzenie kształtów 3D z krzywych 2D. 
+<div class="mw-translate-fuzzy">
+Środowisko pracy ''Kształty zakrzywione'' jest [[External_workbenches/pl|zewnętrznym środowiskiem]] FreeCAD, które pozwala na tworzenie kształtów 3D z krzywych 2D.
+</div> 
 
 <span id="Installation"></span>
 ==Instalacja==
@@ -30,7 +32,7 @@ Zalecana sposób instalacji można wykonać poprzez [[Image:Std_AddonMgr.svg|24p
 
 * [[Image:CurvedShapes_SurfaceCut.svg|24px|link=CurvedShapes_SurfaceCut]] [[CurvedShapes_SurfaceCut/pl|Surface Cut]]: Przecina powierzchnię aby uzyskać krzywą konturu lub ściany.
 
-* [[Image:CurvedShapes_NotchConnector.svg|24px|link=CurvedShapes_NotchConnector]] [[CurvedShapes_CurvedPathSegment/pl|Notch Connector]]
+* [[Image:CurvedShapes_NotchConnector.svg|24px|link=CurvedShapes_NotchConnector]] [[CurvedShapes_NotchConnector/pl|Notch Connector]]
 
 <span id="Examples"></span>
 ===Przykłady===
