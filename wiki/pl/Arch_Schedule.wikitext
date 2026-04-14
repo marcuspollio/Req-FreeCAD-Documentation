@@ -9,6 +9,7 @@
 |IconC=Workbench_BIM.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand/pl
 |Name=Arch Schedule
 |Name/pl=Architektura: Obmiar
@@ -16,13 +17,12 @@
 |Workbenches=[[BIM_Workbench/pl|BIM]]
 |SeeAlso=
 }}
+</div>
 
 <span id="Description"></span>
 ==Opis==
 
 Narzędzie '''Obmiar''' umożliwia tworzenie i automatyczne wypełnianie [[Spreadsheet_Workbench/pl|arkusza kalkulacyjnego]] zawartością zebraną z modelu.
-
-Aby uzyskać bardziej ogólne rozwiązanie, zapoznaj się z środowiskiem pracy [https://github.com/furti/FreeCAD-Reporting/tree/master Reporting Workbench] na liście [[External_workbenches/pl|zewnętrznych środowisk pracy]]. To środowisko pracy używa składni SQL do wyodrębniania informacji z dokumentu.
 
 <span id="Usage"></span>
 ==Użycie==
