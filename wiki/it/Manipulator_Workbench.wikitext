@@ -199,21 +199,6 @@ git clone https://github.com/easyw/Manipulator Manipulator
 The workbench evolved out of the [[Macro_Center_Align_Objects_with_Faces_or_Edges|Center Align Objects with Faces or Edges]] macro
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== External workbenches ==
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-FreeCAD workbenches are easy to program in [[Python|Python]], there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The [https://www.freecad.org/addons.php external workbenches] page has some information and tutorials on some of them, and the [https://github.com/FreeCAD/FreeCAD-addons FreeCAD Addons] project aims at gathering them and making them easily installable from within FreeCAD.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-New workbenches are in development, stay tuned!
-</div>
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
