@@ -98,9 +98,7 @@ Standardwerte können im Menü {{MenuCommand|Bearbeiten → Einstellungen → FE
 
 * {{PropertyData/de|Iterations Control Parameter Field}} - {{Version/de|1.2}}: definiert [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX's advanced field parameters] (Konvergenzkriterien). Wird verwendet, wenn {{PropertyData/de|Iterations Control Parameter Time Use}} auf ''true'' gesetzt ist.
 
-<div class="mw-translate-fuzzy">
-* {{PropertyData/de|Iterations Control Parameter Iter}}: definiert die erste Zeile der [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX' advanced iteration parameters]. Wird verwendet, wenn {{PropertyData/de|Iterations Control Parameter Time Use}} auf ''true'' gesetzt ist.
-</div>
+* {{PropertyData/de|Iterations Control Parameter Iter}}: definiert die erste Zeile der [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX's advanced iteration parameters] (Anzahl der Iterationen/Reduzierungen). Wird verwendet, wenn {{PropertyData/de|Iterations Control Parameter Time Use}} auf ''true'' gesetzt ist.
 
 <div class="mw-translate-fuzzy">
 * {{PropertyData/de|Iterations Control Parameter Time Use}}
