@@ -7,7 +7,9 @@
 <span id="Introduction"></span>
 == Einleitung ==
 
+<div class="mw-translate-fuzzy">
 Der Arbeitsbereich MOOC ist ein [[External_workbenches/de|Externer Arbeitsbereich]] mit dem man interaktive Tutorials absolvieren und die Arbeit direkt in der FreeCAD-Oberfläche evaluieren kann. Der Arbeitsbereich MOOC bietet zwei Werkzeuge: interaktive Tutorials und Evaluierungen.
+</div>
 
 * Derzeit nur auf Französisch (und fest codiert).
 * Nur kompatibel mit FreeCAD Py3 und Qt5 (PySide2)
