@@ -11,7 +11,7 @@
 == Introduction == <!--T:2-->
 
 <!--T:3-->
-Fcmcua is an [[External_workbenches|external workbench]] that is used to control an assembly created in [[Assembly4_Workbench|Assembly4 Workbench]] from an [[wikipedia:OPC Unified Architecture|OPC UA]] server. This provides functionality for simulating machines controlled by digital controllers such as [[wikipedia:Programmable logic controller|PLCs]], so long as the controller supports OPC UA. The workbench uses the values provided by the OPC UA server to manipulate the Attachment Offset of each part's Local Coordinate System (LCS).
+Fcmcua is an [https://www.freecad.org/addons.php external workbench] that is used to control an assembly created in [[Assembly4_Workbench|Assembly4 Workbench]] from an [[wikipedia:OPC Unified Architecture|OPC UA]] server. This provides functionality for simulating machines controlled by digital controllers such as [[wikipedia:Programmable logic controller|PLCs]], so long as the controller supports OPC UA. The workbench uses the values provided by the OPC UA server to manipulate the Attachment Offset of each part's Local Coordinate System (LCS).
 
 == Installation == <!--T:4-->
 
