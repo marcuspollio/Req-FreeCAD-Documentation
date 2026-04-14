@@ -5,9 +5,7 @@
 |[[Tutorials/es|Tutoriales]]
 }}
 
-<div class="mw-translate-fuzzy">
-Esta página intenta responder a las preguntas más comunes que se hacen en los foros de FreeCAD. Si tienes un problema o una pregunta sobre FreeCAD, comprueba primero lo que se indica a continuación. Entonces, si no puedes encontrar una respuesta para tu pregunta específica, dirígete al [http://forum.freecadweb.org/viewforum.php?f=3 foro de FreeCAD].
-</div>
+Esta página intenta responder a las preguntas más comunes que se hacen en los foros de FreeCAD. Si tienes un problema o una pregunta sobre FreeCAD, comprueba primero lo que se indica a continuación. Entonces, si no puedes encontrar una respuesta para tu pregunta específica, dirígete al [http://forum.freecad.org/viewforum.php?f=3 foro de FreeCAD].
 
 <span id="Installation"></span>
 == Instalación ==
@@ -29,9 +27,7 @@ A diferencia de la mayoría de los programas de CAD en 3D, FreeCAD puede funcion
 ==== Multithreading ====
 </div>
 
-<div class="mw-translate-fuzzy">
-El núcleo de modelado geométrico subyacente de FreeCAD, la biblioteca de terceros [http://en.wikipedia.org/wiki/Open_Cascade_Technology Tecnología OpenCASCADE] (OCCT), [https://forum.freecadweb.org/viewtopic.php?f=4&t=17501&p=173095&hilit=Multithread#p173095 sólo tiene soporte parcial de multihilo en este momento]. Mira la página [[multithreading/es|multithreading]] para más detalles.
-</div>
+El núcleo de modelado geométrico subyacente de FreeCAD, la biblioteca de terceros [http://en.wikipedia.org/wiki/Open_Cascade_Technology Tecnología OpenCASCADE] (OCCT), [https://forum.freecad.org/viewtopic.php?f=4&t=17501&p=173095&hilit=Multithread#p173095 sólo tiene soporte parcial de multihilo en este momento]. Mira la página [[multithreading/es|multithreading]] para más detalles.
 
 <span id="What_if_I_want_to_compile_FreeCAD_myself?"></span>
 === ¿Qué pasa si quiero compilar FreeCAD yo mismo? ===
@@ -61,13 +57,9 @@ Find known OS-specific issues in this [https://forum.freecad.org/viewtopic.php?t
 <span id="FreeCAD_doesn&#039;t_start_at_all"></span>
 === FreeCAD no se inicia en absoluto ===
 
-<div class="mw-translate-fuzzy">
-Puede haber muchas razones para ello, la más probable es que falte alguna biblioteca. Intenta iniciar FreeCAD desde un terminal (escribe {{SystemInput|freecad}} en el prompt del terminal, {{SystemInput|FreeCAD}} en algunos sistemas) para ver si aparece algún mensaje de error. Además, lee el resto de este FAQ ya que puede darte más pistas para detectar la causa del problema. Si nada ayuda, cuéntalo en el [foro http://forum.freecadweb.org/], seguro que habrá alguien que pueda ayudarte.
-</div>
+Puede haber muchas razones para ello, la más probable es que falte alguna biblioteca. Intenta iniciar FreeCAD desde un terminal (escribe {{SystemInput|freecad}} en el prompt del terminal, {{SystemInput|FreeCAD}} en algunos sistemas) para ver si aparece algún mensaje de error. Además, lee el resto de este FAQ ya que puede darte más pistas para detectar la causa del problema. Si nada ayuda, cuéntalo en el [foro http://forum.freecad.org/], seguro que habrá alguien que pueda ayudarte.
 
-<div class="mw-translate-fuzzy">
-En algunos sistemas Windows XP más antiguos puede aparecer un mensaje de error como el siguiente {{Emphasis|La aplicación no puede iniciarse, porque la configuración de lado a lado es incorrecta. La reinstalación de la aplicación puede resolver el problema.}} La razón de este problema es que en tu sistema o bien faltan las librerías de ejecución de CRT o la versión instalada es demasiado antigua porque FreeCAD fue enlazado con una versión más reciente. En este caso tienes que instalar el {{Emphasis|Microsoft Visual C++ Redistributable Package}} que encontrarás en Microsoft. Ver también el correspondiente [http://forum.freecadweb.org/viewtopic.php?f=3&t=1298&p=9961 mensaje del foro].
-</div>
+En algunos sistemas Windows XP más antiguos puede aparecer un mensaje de error como el siguiente {{Emphasis|La aplicación no puede iniciarse, porque la configuración de lado a lado es incorrecta. La reinstalación de la aplicación puede resolver el problema.}} La razón de este problema es que en tu sistema o bien faltan las librerías de ejecución de CRT o la versión instalada es demasiado antigua porque FreeCAD fue enlazado con una versión más reciente. En este caso tienes que instalar el {{Emphasis|Microsoft Visual C++ Redistributable Package}} que encontrarás en Microsoft. Ver también el correspondiente [http://forum.freecad.org/viewtopic.php?f=3&t=1298&p=9961 mensaje del foro].
 
 <span id="FreeCAD_starts_normally,_but_not_all_icons_are_displayed,_some_of_them_are_replaced_by_a_black_&#039;X&#039;"></span>
 === FreeCAD se inicia normalmente, pero no se muestran todos los iconos, algunos de ellos son reemplazados por una 'X' negra ===
@@ -96,10 +88,8 @@ Esta es una causa muy común del problema. Los síntomas son simplemente que Fre
 Y como consejo general para obtener más información sobre los fallos con FreeCAD puedes iniciarlo con el parámetro del programa {{SystemInput|--write-log}}. Esto creará el archivo {{FileName|FreeCAD.log}} en {{FileName|$HOME/.FreeCAD}} en Linux y Mac OS X o {{FileName|%APPDATA%/FreeCAD}} en sistemas Windows.
 </div>
 
-<div class="mw-translate-fuzzy">
-En algunos casos raros puede tener instalado un controlador gráfico que no se ajusta a su tarjeta gráfica. Tuvimos un caso en el que el portátil del usuario tenía una gráfica Intel a bordo pero tenía instalados unos drivers ATI. [http://forum.freecadweb.org/viewtopic.php?f=13&t=5160&start=10#p41042]
+En algunos casos raros puede tener instalado un controlador gráfico que no se ajusta a su tarjeta gráfica. Tuvimos un caso en el que el portátil del usuario tenía una gráfica Intel a bordo pero tenía instalados unos drivers ATI. [http://forum.freecad.org/viewtopic.php?f=13&t=5160&start=10#p41042]
 Después de eliminar los archivos y volver a instalar el controlador correcto FreeCAD empezó a funcionar.
-</div>
 
 <span id="Some_library,_needed_by_FreeCAD,_is_not_present_on_your_system,_or_wasn&#039;t_found_by_FreeCAD"></span>
 ==== Alguna biblioteca, necesaria para FreeCAD, no está presente en su sistema, o no fue encontrada por FreeCAD ====
@@ -110,12 +100,10 @@ Puede haber dos caminos para este problema: o simplemente falta alguna librería
 Por favor, revise el procedimiento de instalación ([[Installing_on_Windows/es|Windows]], [[Installing_on_Linux/es|Linux]] o [[Installing_on_Mac/es|Mac]]), asegúrese de que ha instalado todas las librerías necesarias (en la mayoría de los sistemas linux esto se hace automáticamente), y compruebe cuál es el número de versión mínimo para cada uno de los componentes.
 </div>
 
-<div class="mw-translate-fuzzy">
-Si todo parece correcto, describe el problema en el [http://forum.freecadweb.org/ foro] o en [[Tracker/es|enviar un error]]. Si estás en un sistema linux, es fácil hacer un backtrace de depuración, que proporciona información muy útil sobre el fallo a los desarrolladores:
+Si todo parece correcto, describe el problema en el [http://forum.freecad.org/ foro] o en [[Tracker/es|enviar un error]]. Si estás en un sistema linux, es fácil hacer un backtrace de depuración, que proporciona información muy útil sobre el fallo a los desarrolladores:
 * en un terminal, escriba {{SystemInput|gdb freecad}} (asumiendo que el paquete gdb está instalado)
 * dentro de gdb, escriba {{SystemInput|run}}
 * Después de la caída, escriba {{SystemInput|bt}} para obtener el seguimiento, que puede incluir en su informe de error.
-</div>
 
 <span id="FreeCAD_freezes_after_startup"></span>
 === FreeCAD se congela tras el arranque ===
@@ -147,10 +135,8 @@ Un fallo de segmentación ocurre en {{SystemOutput|vbo_save_playback_vertex_list
 
 [[File:Jj62l.png|480px|left|opciones de idioma]]
 
-<div class="mw-translate-fuzzy">
-Lo más probable es que tenga una mala configuración regional de Windows. Compruebe si tiene el mismo símbolo para el separador decimal y el símbolo de agrupación de dígitos en su configuración regional. Si es así, [http://forum.freecadweb.org/viewtopic.php?f=4&t=2655&p=20046#p20041 adapte la configuración de su sistema] para utilizar caracteres diferentes para el símbolo de agrupación de dígitos y el separador decimal. Tenga en cuenta que no es obligatorio utilizar el punto como separador de decimales. Es obligatorio utilizar símbolos diferentes en estas dos configuraciones.
+Lo más probable es que tenga una mala configuración regional de Windows. Compruebe si tiene el mismo símbolo para el separador decimal y el símbolo de agrupación de dígitos en su configuración regional. Si es así, [http://forum.freecad.org/viewtopic.php?f=4&t=2655&p=20046#p20041 adapte la configuración de su sistema] para utilizar caracteres diferentes para el símbolo de agrupación de dígitos y el separador decimal. Tenga en cuenta que no es obligatorio utilizar el punto como separador de decimales. Es obligatorio utilizar símbolos diferentes en estas dos configuraciones.
 {{clear}}
-</div>
 
 <span id="FreeCAD_was_running_normally,_and_suddenly_it_doesn&#039;t_start_anymore"></span>
 === FreeCAD se estaba ejecutando normalmente, y de repente ya no se inicia ===
@@ -382,7 +368,7 @@ Sure. All the artwork (icons, banners, etc.) of FreeCAD are licensed LGPL, same 
 === ¿Puedo reutilizar piezas de FreeCAD en otra aplicación? ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Yes, you can use the core parts of FreeCAD in other applications as long as you comply with the terms of the LGPL. Third party libraries, [[External_workbenches|external workbenches]], and [[Macros|macros]] may be subject to their own license terms, so please consult with their authors. More details on the [[License|License]] page.
+Yes, you can use the core parts of FreeCAD in other applications as long as you comply with the terms of the LGPL. Third party libraries, [https://www.freecad.org/addons.php external workbenches], and [[Macros|macros]] may be subject to their own license terms, so please consult with their authors. More details on the [[License|License]] page.
 </div>
 
 
