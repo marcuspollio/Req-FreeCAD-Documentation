@@ -6,7 +6,9 @@
 == Introduction ==
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 To be able to perform finite element analysis (FEA) within the {{KEY|[[Image:Workbench_FEM.svg|24px]] [[FEM_Workbench|FEM Workbench]]}}, FreeCAD makes use of two external programs: one is used for generating the [[FEM_Mesh|FEM Mesh]], and the other for numerically solving the actual analysis. You can test if your FreeCAD installation is ready for FEA by running the [[FEM_CalculiX_Cantilever_3D|FEM CalculiX Cantilever 3D]] example which is included with every installation of FreeCAD since v0.17.
+</div>
 
 [[Image:FEM_Workbench_workflow.svg|600px]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
