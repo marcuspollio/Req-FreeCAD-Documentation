@@ -30,15 +30,6 @@ Cet atelier peut être installé à partir du [[Std_AddonMgr/fr|Gestionnaire des
 * Code source hébergé sur GitHub : [https://github.com/mwganson/DynamicData github.com]
 * [https://github.com/mwganson/DynamicData/blob/master/README.md Documentation officielle complète]
 
-<span id="External_workbenches"></span>
-== Ateliers externes ==
-
-Les ateliers FreeCAD sont faciles à programmer en [[Python/fr |Python]], de ce fait, beaucoup de personnes développent des ateliers supplémentaires en dehors des développeurs principaux de FreeCAD.
-
-La page [[external workbenches/fr|ateliers externes]] contient des informations et des tutoriels sur certains d’entre eux, et le projet [https://github.com/FreeCAD/FreeCAD-addons FreeCAD Addons] vise à les rassembler et à les rendre facilement installables depuis FreeCAD.
-
-De nouveaux ateliers sont en développement, restez à l'écoute !
-
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
