@@ -12,9 +12,7 @@
 <span id="Description"></span>
 ==Opis==
 
-<div class="mw-translate-fuzzy">
-Zaawansowani użytkownicy rozszerzyli FreeCAD o różne niestandardowe [[External_workbenches/pl|zewnętrzne środowiska]] pracy, które nie są zintegrowane z podstawowym kodem źródłowym, ale są łatwe do zainstalowania na istniejącej dystrybucji FreeCAD. Tutaj omówimy metody instalacji dla różnych systemów operacyjnych.
-</div>
+Zaawansowani użytkownicy rozszerzyli FreeCAD o różne niestandardowe [https://www.freecad.org/addons.php zewnętrzne środowiska pracy], które nie są zintegrowane z podstawowym kodem źródłowym, ale są łatwe do zainstalowania na istniejącej dystrybucji FreeCAD. Tutaj omówimy metody instalacji dla różnych systemów operacyjnych.
 
 {{Emphasis|Uwaga:}} Począwszy od wersji 0.17, FreeCAD posiada [[File:Std_AddonMgr.svg|24px]] [[Std_AddonMgr|Menadżer dodatków]] w menu {{MenuCommand|Przybory → Menadżer dodatków}}, który umożliwia instalację zarówno makrodefinicji, jak i środowisk pracy. Poniższe instrukcje są wymagane tylko wtedy, gdy chcesz zainstalować środowisko pracy samodzielnie. Może to być konieczne, jeśli z jakiegoś powodu Menedżer dodatków nie działa, ale masz dostęp do środowiska roboczego pobranego jako pakiet {{FileName|.zip}}.
 
