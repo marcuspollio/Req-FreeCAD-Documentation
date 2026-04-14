@@ -6,9 +6,7 @@
 
 {{TOCright}}
 
-<div class="mw-translate-fuzzy">
-[[Assembly4_Workbench/fr|Assembly4]] est un [[external_workbenches/fr|Atelier externe]] qui est utilisé pour effectuer l'assemblage de différents corps contenus dans un seul fichier ou dans plusieurs documents. Il a été créé dans le cycle de développement v0.19 pour tirer parti des nouvelles fonctionnalités de la branche Assembly3, telles que l'objet [[App_Link/fr|App Link]] et le nouveau [[expressions/fr|moteur d'expression]].
-</div>
+[[Assembly4_Workbench/fr|Assembly4]] est un [https://www.freecad.org/addons.php atelier externe] qui est utilisé pour effectuer l'assemblage de différents corps contenus dans un seul fichier ou dans plusieurs documents. Il a été créé dans le cycle de développement v0.19 pour tirer parti des nouvelles fonctionnalités de la branche Assembly3, telles que l'objet [[App_Link/fr|App Link]] et le nouveau [[Expressions/fr|moteur d'expressions]].
 
 Il a été développé avec l'idée qu'un vrai solveur de contraintes n'était pas nécessaire, et à la place le [[expressions/fr|moteur d'expressions]] était suffisant pour établir des relations entre différents systèmes de coordonnées locaux attachés aux corps. Ainsi, son nom de prototype était "Assembly without solver" ou AWS.
 
