@@ -69,7 +69,9 @@ Inoltre, sono disponibili alcune viste preconfigurate (dall'alto, laterale, fron
 
 L'obiettivo di FreeCAD è quello di consentire di creare dei modelli 3D di alta precisione mantenendo uno stretto controllo sui modelli per essere in grado di tornare indietro nello storico della modellazione e di variare i parametri, e alla fine di costruire quei modelli (attraverso la stampa 3D, CNC o anche la costruzione in cantiere). È quindi molto diverso da alcune applicazioni 3D realizzate per altri scopi, come ad esempio per i film di animazione o per i giochi. La sua curva di apprendimento può essere ripida, specialmente se questo è il primo contatto con la modellazione 3D. Quando si rimane bloccati in un certo punto, ricordarsi che nel [https://forum.freecad.org/index.php FreeCAD forum] c'è una comunità amichevole di utenti può essere in grado di fornire un aiuto in breve tempo.
 
+<div class="mw-translate-fuzzy">
 L'ambiente di lavoro con cui iniziare a lavorare in FreeCAD dipende dal tipo di lavoro si intende realizzare. Quando si ha intenzione di lavorare su modelli meccanici, o più in generale su qualsiasi oggetto di piccole dimensioni, probabilmente si vuole provare [[PartDesign_Workbench/it|Part Design]]. Se si lavora in 2D, allora conviene passare all'ambiente [[Draft_Workbench/it|Draft]], o all'ambiente [[Sketcher_Workbench/it|Sketcher]] quando servono i vincoli. Se si vuole fare BIM, avviare l'ambiente [[BIM_Workbench/it|BIM]]. Se si proviene dal mondo di  OpenSCAD, si può provare l'ambiente [[OpenSCAD_Workbench/it|OpenSCAD]]. Ci sono anche molti  [[External_workbenches/it|Ambienti complementari]] sviluppati dalla comunità.
+</div>
 
 È possibile commutare gli ambienti di lavoro in qualsiasi momento, e anche [[Interface_Customization/it|personalizzare]] il proprio ambiente preferito aggiungendovi degli strumenti di altri ambienti.
 
