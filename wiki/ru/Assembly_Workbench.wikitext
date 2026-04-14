@@ -72,9 +72,7 @@
 
 * [[Image:Assembly_CreateJointParallel.svg|32px]] [[Assembly_CreateJointParallel|Параллельное сопряжение]]: создает параллельное сопряжение между двумя выбранными деталями, устанавливая оси Z выбранных систем координат параллельно друг другу.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Assembly_CreateJointPerpendicular.svg|32px]] [[Assembly_CreateJointPerpendicular|Perpendicular Joint]]: creates a perpendicular joint between two selected parts, setting the Z-Axes of selected coordinate systems perpendicular.
-</div>
+* [[Image:Assembly_CreateJointPerpendicular.svg|32px]] [[Assembly_CreateJointPerpendicular|Перпендикулярное сопряжение]]: создает перпендикулярное сопряжение между двумя выбранными деталями, устанавливая оси Z выбранных систем координат перпендикулярно друг другу.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Assembly_CreateJointAngle.svg|32px]] [[Assembly_CreateJointAngle|Angle Joint]]: creates an angle joint between two selected parts, fixing the angle between the Z-Axes of selected coordinate systems.
