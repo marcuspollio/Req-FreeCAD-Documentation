@@ -4,7 +4,9 @@
 <span id="Introduction"></span>
 == Introducción ==
 
+<div class="mw-translate-fuzzy">
 Desde la v0.17 es fácil añadir [[external_workbenches/es|ambientes de trabajo externos]] utilizando el [[Std_AddonMgr/es|Gestor de complementos]]. Un usuario normal no necesita hacer más que usar esta herramienta.
+</div>
 
 Siga leyendo para obtener más información sobre la instalación de ambientes de trabajo.
 
@@ -27,10 +29,12 @@ Los directorios {{incode|Mod/}} se escanean cada vez que se inicia FreeCAD, y lo
 
 Los ambientess de trabajo instalados de esta manera estarán disponibles para todos los usuarios. Dependiendo de su sistema, es posible que necesite privilegios de administrador para acceder al directorio de instalación.
 
+<div class="mw-translate-fuzzy">
 Copie la carpeta del ambiente de trabajo en {{incode|$INSTALL_DIR/Mod/}}, donde {{incode|$INSTALL_DIR}} es el directorio de instalación de FreeCAD.
 * En Linux suele ser {{incode|/usr/share/freecad/Mod/}}
 * En Windows suele ser {{incode|C:\\Program Files\FreeCAD\Mod}}
 * En macOS suele ser {{incode|/Applications/FreeCAD/Mod/}}
+</div>
 
 <span id="Installing_for_a_single_user"></span>
 == Instalación para un solo usuario ==
