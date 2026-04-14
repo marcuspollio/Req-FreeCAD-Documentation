@@ -7,9 +7,7 @@
 <span id="Introduction"></span>
 ==Wprowadzenie==
 
-<div class="mw-translate-fuzzy">
-Środowisko pracy [[Image:Assembly3_workbench_icon.svg|24px]] [[Assembly3_Workbench/pl|Złożenie 3]] jest [[External_workbenches/pl|zewnętrznym środowiskiem pracy]], które jest używane do wykonywania złożeń różnych części zawartych w jednym lub wielu dokumentach. Środowisko to bazuje na kilku zmianach funkcji rdzenia FreeCAD w wersji 0.19 ''(np. [[App_Link/pl|App Link]])''. Dlatego środowisko Złożenie 3 nie może być używane ze starszymi wersjami programu.
-</div>
+Środowisko pracy [[Image:Assembly3_workbench_icon.svg|24px]] [[Assembly3_Workbench/pl|Złożenie 3]] jest [https://www.freecad.org/addons.php zewnętrznym środowiskiem pracy], które jest używane do wykonywania złożeń różnych części zawartych w jednym lub wielu dokumentach. Środowisko to bazuje na kilku zmianach funkcji rdzenia FreeCAD w wersji 0.19 ''(np. [[App_Link/pl|App Link]])''. Dlatego środowisko Złożenie 3 nie może być używane ze starszymi wersjami programu.
 
 Głównymi cechami środowiska '''Złożenie 3''' są:
 * '''dynamiczny/interaktywny solver'''. Oznacza to, że możesz przesuwać części myszką, podczas gdy solver będzie ograniczał ruch. To pozwala na przykład, na połączenie koła z osią i interaktywne poruszanie kołem przy pomocy myszki. 
