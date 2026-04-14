@@ -26,7 +26,9 @@ A documentação offline não é enviada com todos os instaladores, mas está di
 <span id="External_workbenches"></span>
 =Bancadas de trabalho externas=
 
+<div class="mw-translate-fuzzy">
 Além das [[workbenches/pt-br|bancadas de trabalho]] padronizadas, agrupadas com o FreeCAD, há uma grande coleção de [[External_workbenches/pt-br|bancadas de trabalho externas]] úteis feitas por membros da comunidade.
+</div>
 
 <span id="Third_party_software"></span>
 =Componente de software de terceiros=
@@ -144,7 +146,9 @@ CalculiX GraphiX, uma ‘interface’ GUI. Somente o solucionador é suportado p
 
 ===OpenFOAM===
 
+<div class="mw-translate-fuzzy">
 [https://openfoam.org OpenFOAM] é uma grande coleção de bibliotecas para simulações de dinâmicas de fluidos computacionais (CFD). O OpenFOAM é usado pelo [[Cfd_Workbench/pt-br|Cfd]] e [https://github.com/jaheyns/CfdOF CfdOF] [[external_workbenches/pt-br|Bancadas de trabalho externas]].
+</div>
 
 <span id="Related_pages"></span>
 =Páginas relacionadas=
