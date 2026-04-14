@@ -9,7 +9,7 @@
 {{TOCright}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-[[File:Defeaturing_workbench_icon.svg|24px]] [[Defeaturing Workbench]] is an add-on workbench intended for editing STEP models, removing of the selected features from the model. It is an [[External Workbenches|external workbench]] and therefore not part of the standard FreeCAD install.
+[[File:Defeaturing_workbench_icon.svg|24px]] [[Defeaturing Workbench]] is an add-on workbench intended for editing STEP models, removing of the selected features from the model. It is an [https://www.freecad.org/addons.php external workbench] and therefore not part of the standard FreeCAD install.
 </div>  
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -181,21 +181,6 @@ Removing Features using OCC7.3 new tools
 * make Fuzzy Boolean operations
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== External workbenches ==
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-FreeCAD workbenches are easy to program in [[Python|Python]], there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The [[external workbenches|external workbenches]] page has some information and tutorials on some of them, and the [https://github.com/FreeCAD/FreeCAD-addons FreeCAD Addons] project aims at gathering them and making them easily installable from within FreeCAD.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-New workbenches are in development, stay tuned!
-</div>
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
