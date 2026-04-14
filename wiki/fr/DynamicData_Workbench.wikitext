@@ -7,9 +7,7 @@
 <span id="Overview"></span>
 == Présentation ==
 
-<div class="mw-translate-fuzzy">
-DynamicData est un [[External_workbenches/fr|atelier externe]] avec lequel vous pouvez créer un objet conteneur pour stocker des propriétés personnalisées.
-</div>
+DynamicData est un [https://www.freecad.org/addons.php atelier externe] avec lequel vous pouvez créer un objet conteneur pour stocker des propriétés personnalisées.
 
 Avec cet atelier, vous pouvez créer une nouvelle [[property/fr|propriété]] personnalisée de tout type pris en charge par FreeCAD. Par exemple une propriété Length ou une propriété [[Placement/fr|Placement]]. Ces propriétés personnalisées peuvent ensuite être utilisées dans [[Expressions/fr|Expressions]] comme n'importe quelle autre propriété. Par exemple, vous pouvez créer une propriété Length appelée "Largeur" et y faire référence lorsque vous contraignez un élément d'esquisse. Ensuite, lorsque la propriété "Largeur" ​​est modifiée, la contrainte d'esquisse est automatiquement mise à jour. Ceci est similaire à la façon dont on peut utiliser une feuille de calcul, mais est plus interactif car les propriétés peuvent être modifiées tout en permettant de voir la vue 3D, et cela permet également une plus grande variété de types de propriétés.
 
