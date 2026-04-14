@@ -23,7 +23,9 @@
 
 Das Werkzeug [[Reinforcement_ColumnRebars/de|Reinforcement Stützenbewehrung]] ermöglicht dem Anwender, Bewehrungsstäbe innerhalb einer Stütze ([[Arch Structure/de|Arch-Struktur]]-Objekt) zu erstellen.
 
+<div class="mw-translate-fuzzy">
 Dieser Befehl ist Teil des Arbeitsbereichs [[Reinforcement_Workbench/de|Reinforcement]], ein [[External_workbenches/de|externer Arbeitsbereich]], der mit dem [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/de|Addon-Manager]] installiert werden kann.
+</div>
 
 Drei Anwendungsbeispiele stehen zur Verfügung:
 * [[#Anwendung|Rechteckige Stütze mit einzelnem Bügel (siehe unten)]]
