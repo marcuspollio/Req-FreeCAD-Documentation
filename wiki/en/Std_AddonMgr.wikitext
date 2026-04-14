@@ -14,12 +14,12 @@
 |MenuLocation=Tools → Addon Manager
 |Workbenches=All
 |Version=0.17
-|SeeAlso=[[External_workbenches|External workbenches]], [[Macros|Macros]]
+|SeeAlso=[https://www.freecad.org/addons.php Addons], [[Macros|Macros]]
 }}
 
 ==Description==
 
-The '''Std AddonMgr''' command opens the Addon Manager. With the Addon Manager you can install and manage [[external_workbenches|external workbenches]], [[macros|macros]], and [[Preference_Packs|preference packs]] provided by the FreeCAD community. By default the available addons are taken from two repositories, [https://github.com/FreeCAD/FreeCAD-addons/ FreeCAD-addons] and from the [[Macros_recipes|Macros recipes]] page of this wiki. If git is installed on your system, additional macros will be loaded from [https://github.com/FreeCAD/FreeCAD-macros/ FreeCAD-macros]. Custom repositories can be added in the [[Preferences_Editor#Addon_Manager|Addon Manager preferences]].
+The '''Std AddonMgr''' command opens the Addon Manager. With the Addon Manager you can install and manage [https://www.freecad.org/addons.php external workbenches], [[macros|macros]], and [[Preference_Packs|preference packs]] provided by the FreeCAD community. By default the available addons are taken from two repositories, [https://github.com/FreeCAD/FreeCAD-addons/ FreeCAD-addons] and from the [[Macros_recipes|Macros recipes]] page of this wiki. If git is installed on your system, additional macros will be loaded from [https://github.com/FreeCAD/FreeCAD-macros/ FreeCAD-macros]. Custom repositories can be added in the [[Preferences_Editor#Addon_Manager|Addon Manager preferences]].
 
 As of May 2025, the Addon Manager can now be used to install and update a self-updating version of itself by installing the "Addon Manager" addon. It is compatible with FreeCAD 0.21 and later.
 
