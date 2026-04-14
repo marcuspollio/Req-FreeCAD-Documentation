@@ -120,15 +120,6 @@ Pozostałe funkcje dostępne są na stronie [https://github.com/easyw/kicadStepU
 * Autor: w serwisie Github: [https://github.com/easyw @easyw] | FreeCAD Forums: [https://forum.freecad.org/viewtopic.php?f=24&t=14276 kicad StepUp: Dwukierunkowa współpraca ECAD MCAD]
 * Kod źródłowy na GitHub: https://github.com/easyw/kicadStepUpMod
 
-<span id="Side_Note_about_External_workbenches"></span>
-==Uwaga dodatkowa dotycząca zewnętrznych środowisk pracy==
-
-Środowiska pracy FreeCAD są łatwe do zaprogramowania w środowisku programistycznym [[Python/pl|Python]]. Dlatego też, wiele osób opracowuje dodatkowe "przestrzenie robocze" wykraczające poza główny obszar rozwoju programu FreeCAD.
-
-Strona [[External_workbenches/pl|zewnętrzne środowiska pracy]] zawiera informacje i poradniki na temat niektórych z nich, a projekt [https://github.com/FreeCAD/FreeCAD-addons Dodatki FreeCAD] ma na celu zebranie ich i uczynienie łatwymi do zainstalowania z poziomu programu FreeCAD.
-
-Nowe środowiska pracy są w czasie tworzenia, bądź cierpliwy!
-
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
