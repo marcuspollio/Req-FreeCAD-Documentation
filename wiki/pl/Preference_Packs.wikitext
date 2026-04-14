@@ -284,9 +284,7 @@ Wiele dodatków zawiera informacje o preferencjach użytkownika, które są doda
 <span id="Distributing_a_pack"></span>
 ==Dystrybucja pakietu==
 
-<div class="mw-translate-fuzzy">
-Pakiety Preferencji są dystrybuowane tak samo jak [[External_workbenches/pl|Zewnętrzne środowiska pracy]] poprzez [[Image:Std_AddonMgr.svg|24px|link=Std_AddonMgr/pl]] [[Std_AddonMgr/pl|Menadżer dodatków]]. Aby zainstalować pakiet ręcznie, użyj git, aby sklonować repozytorium pakietów do katalogu danych FreeCAD ''((wpisz {{incode|App.getUserAppDataDir()}} w [[Python_console/pl|Konsoli Python]], aby poznać tę ścieżkę))'', w podkatalogu o nazwie "Pakiety preferencji". Należy pamiętać, że pakiety zainstalowane przez użytkownika o tej samej nazwie co dołączony pakiet mają pierwszeństwo.
-</div>
+Pakiety Preferencji są dystrybuowane tak samo jak [https://www.freecad.org/addons.php zewnętrzne środowiska pracy] poprzez [[Image:Std_AddonMgr.svg|24px|link=Std_AddonMgr/pl]] [[Std_AddonMgr/pl|Menadżer dodatków]]. Aby zainstalować pakiet ręcznie, użyj git, aby sklonować repozytorium pakietów do katalogu danych FreeCAD ''((wpisz {{incode|App.getUserAppDataDir()}} w [[Python_console/pl|Konsoli Python]], aby poznać tę ścieżkę))'', w podkatalogu o nazwie "Pakiety preferencji". Należy pamiętać, że pakiety zainstalowane przez użytkownika o tej samej nazwie co dołączony pakiet mają pierwszeństwo.
 
 Zobacz również stronę [[Private_Preference_Packs/pl|Osobiste pakiety preferencji]].
 
