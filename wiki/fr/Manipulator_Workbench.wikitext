@@ -123,16 +123,6 @@ git clone https://github.com/easyw/Manipulator Manipulator
 
 L'atelier a évolué à partir de la macro [[Macro_Center_Align_Objects_with_Faces_or_Edges/fr|Center Align Objects with Faces or Edges]].
 
-<span id="External_workbenches"></span>
-== Ateliers extérieurs ==
-
-Les ateliers FreeCAD sont faciles à programmer en [[Python/fr|Python]], il y a donc beaucoup de gens qui développent des ateliers supplémentaires en dehors des développeurs principaux de FreeCAD.
-
-<div class="mw-translate-fuzzy">
-La page des [[External_workbenches/fr|ateliers externes]] contient des informations et des tutoriels sur certains d’entre eux et le projet [https://github.com/FreeCAD/FreeCAD-addons FreeCAD Addons] vise à les rassembler et à les rendre facilement installables depuis FreeCAD.
-</div>
-
-De nouveaux ateliers sont en développement, tenez vous au courant!
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
