@@ -9,6 +9,7 @@
 |IconC=Workbench_BIM.svg
 }}
 
+<div class="mw-translate-fuzzy">
 {{GuiCommand
 |Name=Arch Schedule
 |Name/de=Arch Liste
@@ -16,13 +17,12 @@
 |Workbenches=[[BIM_Workbench/de|BIM]]
 |SeeAlso=
 }}
+</div>
 
 <span id="Description"></span>
 ==Beschreibung==
 
 Das Werkzeug '''Arch Liste''' ermöglicht es, ein [[Spreadsheet_Workbench/de|Tabellenblatt]] zu erstellen und es automatisch mit Inhalten aus dem Modell zu befüllen.
-
-Für eine allgemeinere Lösung siehe Arbeitsbereich [https://github.com/furti/FreeCAD-Reporting/tree/master Reporting] in der Liste der [[External_workbenches/de|externen Arbeitsbereiche]]. Dieser Arbeitsbereich verwendet die SQL-Syntax, um Informationen aus dem Dokument zu extrahieren.
 
 <span id="Usage"></span>
 ==Anwendung==
