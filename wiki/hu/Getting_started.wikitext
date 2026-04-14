@@ -76,12 +76,14 @@ A FreeCAD segítségével pontos 3D modelleket készíthetsz, nyomon követheted
 A FreeCAD eltér más 3D programoktól, amelyek például animációra vagy játékok tervezésére készültek. A program megtanulása eleinte nehéz lehet, főleg, ha most találkozol először 3D modellezéssel.
 Ha bárhol elakadnál, ne feledd, hogy a [https://forum.freecad.org FreeCAD fórum] tagjai bármikor segíthetnek gyorsan továbbjutni.
 
+<div class="mw-translate-fuzzy">
 Az, hogy melyik modullal kezded a FreeCAD használatát, az attól függ, hogy milyen típusú feladatot szeretnél végezni:
 Ha mechanikai- vagy általában bármilyen kis méretű modellen dolgozol, valószínűleg a [[PartDesign_Workbench|PartDesign modul]] lesz a legmegfelelőbb.
 Ha 2D-ben szeretnél alakzatokat létrehozni, válts a [[Draft_Workbench|Draft modulra]], vagy ha ezekhez paramétereket szeretnél megadni, a [[Sketcher_Workbench|Sketcher modul]] a megfelelő választás.
 Ha BIM-mel (Épületinformációs Modellezés) szeretnél foglalkozni, indítsd el a [[BIM_Workbench|BIM modult]].
 Ha az OpenSCAD világából érkezel, próbáld ki az [[OpenSCAD_Workbench|OpenSCAD modult]].
 Emellett számos közösség által fejlesztett [[External_workbenches|külső modul]] is elérhető.
+</div>
 
 Bármikor válthatsz a modulok között, és a [[Interface_Customization|kedvenc modulodat]] is testre szabhatod más eszközök hozzáadásával.
 
