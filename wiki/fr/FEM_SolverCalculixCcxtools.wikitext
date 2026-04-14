@@ -93,7 +93,7 @@ Les valeurs par défaut peuvent être définies dans le menu {{MenuCommand|Édit
 
 * {{PropertyData|Iterations Control Parameter Cutb}} : définit la deuxième ligne des [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 Paramètres d'itération avancés de CalculiX] (facteurs de réduction). Utilisé si {{PropertyData|Iterations Control Parameter Time Use}} est défini sur ''true''.
 
-* {{PropertyData|Iterations Control Parameter Field}} - {{Version|1.2}}: defines [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX's advanced field parameters] (convergence criteria). Used if {{PropertyData|Iterations Control Parameter Time Use}} is set to ''true''.
+* {{PropertyData|Iterations Control Parameter Field}} : définit [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 les paramètres de champ avancés de CalculiX] (critères de convergence). Utilisé si {{PropertyData|Iterations Control Parameter Time Use}} est défini sur ''true''. {{Version/fr|1.2}}
 
 <div class="mw-translate-fuzzy">
 * {{PropertyData|Iterations Control Parameter Iter}} : définit la première ligne des [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 Paramètres d'itération avancés de CalculiX]. Utilisé si {{PropertyData|Iterations Control Parameter Time Use}} est réglé à ''true''.
