@@ -73,8 +73,7 @@ obj.addProperty("App::PropertyBool", "MyProperty", "PropertyGroup", QT_TRANSLATE
 * Adicione a seguinte linha no início do arquivo:
 
 : {{Code|code=
-def QT_TRANSLATE_NOOP(context, text):
-    return text
+from PySide.QtCore import QT_TRANSLATE_NOOP
 }}
 
 <div class="mw-translate-fuzzy">
@@ -347,7 +346,7 @@ The file {{incode|outfile.ts}} will contain the set of strings that are uploaded
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[External Workbenches|External Workbenches]]
+* [https://www.freecad.org/addons.php External Workbenches]
 * [[Localisation|Localisation]]
 * For more information make your requests here: [https://forum.freecad.org/viewtopic.php?f=10&t=36413 Translating external workbenches].
 </div>
