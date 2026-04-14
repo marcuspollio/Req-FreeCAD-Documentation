@@ -1,20 +1,18 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{TutorialInfo/it
-|Topic= Modellazione
-|Level= Avanzato
-|Time= 
-|Author=[[User:DeepSOIC|DeepSOIC]], [[User:Murdic|Murdic]]
-|FCVersion=0.14 o superiore (secondo il metodo)
-|Files=
+|Topic=Modellazione
+|Level=Avanzato
+|Time=60 minutes
+|Author=[[User:DeepSOIC|DeepSOIC]], [[User:Murdic|Murdic]], vocx
+|FCVersion=0.19
+|Files=[https://forum.freecad.org/viewtopic.php?f=36&t=44668 Updated: Thread for screw tutorial]
 }}
-</div>
 
 <span id="Introduction"></span>
 == Introduzione ==
 
-This tutorial is a collection of techniques to model screw threads in FreeCAD. It was updated for v0.19, although the overall process has been essentially the same since v0.14, when the tutorial was originally written. The updated content focuses on the [[File:Workbench_PartDesign.svg|24px]] [[PartDesign Workbench|PartDesign Workbench]] to create the thread, but does not use the [[File:PartDesign_AdditiveHelix.svg|24px]] [[PartDesign_AdditiveHelix|PartDesign AdditiveHelix]] tool as this was introduced later.
+Questo tutorial è una raccolta di tecniche per modellare le filettature in FreeCAD. È stato aggiornato per la versione 0.19, sebbene il processo generale sia rimasto sostanzialmente invariato dalla versione 0.14, quando il tutorial è stato originariamente scritto. Il contenuto aggiornato si concentra sull'[[File:Workbench_PartDesign.svg|24px]] [[PartDesign_Workbench/it|Ambiente PartDesign]] per creare la filettatura, ma non utilizza lo strumento [[File:PartDesign_AdditiveHelix.svg|24px]] [[PartDesign_AdditiveHelix/it|Elica additiva di PartDesing]], poiché è stato introdotto in seguito.
 
 <div class="mw-translate-fuzzy">
 La modellazione delle filettature è sconsigliata, perché carica notevolmente il kernel di modellazione, e anche il rendering. Le forme filettate occupano molta memoria e anche una sola filettatura in un progetto FreeCAD può facilmente far balzare le dimensioni del file nella gamma dei megabyte. Tuttavia, ci sono alcune situazioni, in cui è indispensabile modellare la filettatura con tutti i suoi dettagli, e questo è il motivo per cui viene prodotto questo tutorial.
@@ -35,7 +33,7 @@ Remember that thread shapes take a lot of memory, and having just one thread in 
 Utilizzare i modelli prodotti da altri utenti è semplice e fa risparmiare tempo. Consultare la [[Macro BOLTS/it|Macro BOLTS]], che è un'interfaccia per l'inserimento di parti standard dalla libreria BOLTS.
 </div>
 
-Using utilities and parts that other people have created is easy and saves time. See the [[External_workbenches|external workbenches]] page for information on external tools.
+Using utilities and parts that other people have created is easy and saves time. See the [https://www.freecad.org/addons.php external workbenches] page for information on external tools.
 
 In particular, three resources are recommended that can be installed from the [[Std_AddonMgr|Addon Manager]]:
 * [[Fasteners_Workbench|Fasteners Workbench]], to add/attach various fasteners to parts. The screws and nuts don't show a thread by default, but this can be controlled with an option.
