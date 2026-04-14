@@ -18,7 +18,6 @@ Przejdź do litery: {{CompactTOC|center=yes}}
 
 ==A==
 
-<div class="mw-translate-fuzzy">
 {{gloss}}
 {{term|Łuk}}
 {{defn|defn=Część lub odcinek koła.}}
@@ -26,15 +25,14 @@ Przejdź do litery: {{CompactTOC|center=yes}}
 {{defn|defn=Warstwa aplikacji FreeCAD.}}
 {{term|Arch|content=[[Arch_Workbench|Arch]]}}
 {{defn|defn=Skrót od dawnego [[#Workbench/pl|środowiska pracy]] Architektura. To środowisko zostało zastąpione przez [[BIM_Workbench/pl|środowisko pracy BIM]] ({{Version|1.0}}).}}
-{{term|Zespół|content=[[Assembly|Zespół]]}}
-{{defn|no=1|defn=Zestaw [[#Part/pl|części]] o określonych pozycjach względem siebie.}}
-{{defn|no=2|defn=[[#Workbench/pl|Środowisko pracy]] mające na celu ułatwienie tworzenia złożeń. FreeCAD obecnie nie ma takiego środowiska wbudowanego, ale istnieje kilka [[External_workbenches/pl|zewnętrznych środowisk pracy do złożeń]].}}
+{{term|Zespół|content=[[Assembly/pl|Złożenie]]}}
+{{defn|no=1|defn=Zbiór [[#Part/pl|części]] o określonych pozycjach względem siebie.}}
+{{defn|no=2|defn=Środowisko pracy [[Assembly_Workbench/pl|Złożenie]].}}
 {{term|Osie}}
 {{defn|defn=Liczba mnoga od [[#Axis|Oś]]}}
 {{term|Oś}}
 {{defn|defn=Wyimaginowana linia przechodząca przez punkt zerowy środowiska pracy. Są 3 standardowe osie. Mają klasyczne nazwy X, Y i Z. X – lewo-prawo, Y – góra-dół, Z – do i od ekranu/strony.}}
 {{glossend}}
-</div>
 
 ==B==
 
