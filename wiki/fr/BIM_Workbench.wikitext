@@ -54,9 +54,7 @@ Le [[BIM_ingame_tutorial/fr|BIM Tutoriel]] est un moyen facile de se mettre rapi
 
 L'atelier BIM rassemble des outils provenant de plusieurs autres ateliers FreeCAD, principalement [[Draft_Workbench/fr|Draft]] et [[Part_Workbench/fr|Part]], grossièrement réorganisés en catégories logiques.
 
-<div class="mw-translate-fuzzy">
-De plus, si de telles [[External_workbenches/fr|extensions]] sont installées, des outils de [[Reinforcement_Workbench/fr|Reinforcement]] (armatures supplémentaires), [[Fasteners_Workbench/fr|Fasteners]] (boulons et vis), [[Flamingo_Workbench/fr|Flamingo/Dodo]] (outils de structure métallique et de tuyauterie) et [[Parts_Library_Workbench/fr|Parts Library]] sont automatiquement inclus dans l'atelier BIM.
-</div>
+De plus, si de telles [https://www.freecad.org/addons.php extensions] sont installées, des outils de [[Reinforcement_Workbench/fr|Reinforcement]] (armatures supplémentaires), [[Fasteners_Workbench/fr|Fasteners]] (boulons et vis), [[Flamingo_Workbench/fr|Flamingo/Dodo]] (outils de structure métallique et de tuyauterie) et [[Parts_Library_Workbench/fr|Parts Library]] sont automatiquement inclus dans l'atelier BIM.
 
 L'atelier BIM ajoute également une série d'éléments dans la '''barre d'état''' de FreeCAD et quelques '''éléments de menu contextuel''', accessibles en cliquant avec le bouton droit de la souris dans la vue 3D ou dans l'arborescence.
 
