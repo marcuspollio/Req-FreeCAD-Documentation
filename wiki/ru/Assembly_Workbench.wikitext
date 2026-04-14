@@ -70,9 +70,7 @@
 
 * [[Image:Assembly_CreateJointDistance.svg|32px]] [[Assembly_CreateJointDistance|Дистанционное сопряжение]]: создает дистанционное сопряжение между двумя выбранными деталями, фиксируя расстояние между ними.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Assembly_CreateJointParallel.svg|32px]] [[Assembly_CreateJointParallel|Parallel Joint]]: creates a parallel joint between two selected parts, setting the Z-Axes of selected coordinate systems parallel.
-</div>
+* [[Image:Assembly_CreateJointParallel.svg|32px]] [[Assembly_CreateJointParallel|Параллельное сопряжение]]: создает параллельное сопряжение между двумя выбранными деталями, устанавливая оси Z выбранных систем координат параллельно друг другу.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Assembly_CreateJointPerpendicular.svg|32px]] [[Assembly_CreateJointPerpendicular|Perpendicular Joint]]: creates a perpendicular joint between two selected parts, setting the Z-Axes of selected coordinate systems perpendicular.
