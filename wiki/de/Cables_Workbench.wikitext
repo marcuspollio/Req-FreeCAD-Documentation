@@ -7,7 +7,9 @@
 <span id="Introduction"></span>
 ==Einleitung==
 
+<div class="mw-translate-fuzzy">
 Der Arbeitsbereich [[File:Cables_workbench_icon.svg|24px]] '''Cables''' ist ein Werkzeugsatz für das Modellieren elektrischer Anlagen in Gebäudeprojekten. Mit seiner Hilfe können Leitungsverläufe in Gebäuden oder anderen Objekten sowie Einzelverdrahtungen erstellt werden. Er ist ein [[External workbenches/de|externer Arbeitsbereich]].
+</div>
 
 Dieser Werkzeugsatz kann für die Erstellung von Installationsdosen oder anderen gebrauchsfertigen Elektrobauteilen (die Liste der Bauteile wächst hoffentlich in der Zukunft noch) genutzt werden. Diese Elemente können mit vollständig parametrisierbaren Leitungen mit unterschiedlichen Leitungsquerschnitten, mit unterschiedlichen Anzahlen an Leitern und verschiedenen Leiterquerschnitten verbunden werden. Es gibt ein paar vorgefertigte Leitungsquerschnitte, aber es ist ebenso möglich, individuelle, nicht standardisierte Querschnitte mit einer einfachen CSV-Datei zu erstellen.
 
