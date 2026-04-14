@@ -133,10 +133,12 @@ PartDesign 工作台大量使用另一個工作台 [[Sketcher_Workbench|Sketcher
 
 任何使用者都可以為 FreeCAD 開發自己的新功能，並將這些功能以 [[Addon|addon]] 的方式提供給 FreeCAD 社群。
 
+<div class="mw-translate-fuzzy">
 附加元件有三種類型：
 * [[Macros|Macros]]: [[Python|Python]] 程式碼的簡短片段，在以 {{incode|.FCMacro}} 結尾的單一檔案中提供新的工具或功能。
 * [[External_workbenches|Workbenches]]: 以特定主題為中心，提供相關 [[Gui_Command|Gui Commands]] (工具) 的 Python 檔案集合。
 * [[Preference_Packs|Preference Packs]]：可分發的使用者偏好設定集合。
+</div>
 
 <span id="Scripting"></span>
 ==腳本編寫==
