@@ -7,7 +7,9 @@
 
 {{TOCright}}
 
+<div class="mw-translate-fuzzy">
 [[Assembly4_Workbench|Assembly4]] è un [[external_workbenches|external workbench]] viene utilizzato per eseguire l'assemblaggio di diversi corpi contenuti in un unico file o in più documenti. È stato creato nel ciclo di sviluppo v0.19 per sfruttare le nuove funzionalità del ramo Assembly3, come l'oggetto [[App_Link|App Link]] e il nuovo [[expressions|expression engine]].
+</div>
 
 È stato sviluppato con l'idea che non era necessario un vero e proprio risolutore di vincoli e che invece bastava l'[[expressions|expression engine]] per stabilire relazioni tra i diversi sistemi di coordinate locali collegati ai corpi. Così il suo nome provvisorio è " Assemblaggio senza solutore" o AWS.
 
