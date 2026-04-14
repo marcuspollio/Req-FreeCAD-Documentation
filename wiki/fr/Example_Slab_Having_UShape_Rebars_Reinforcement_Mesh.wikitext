@@ -11,9 +11,7 @@
 
 L'outil [[Image:Reinforcement_SlabRebars.svg|24px]] [[Reinforcement_SlabRebars/fr|Renfort de dalle]] permet à l'utilisateur de créer des armatures à l'intérieur d'un objet dalle de [[Arch_Structure/fr|Arch Structure]].
 
-<div class="mw-translate-fuzzy">
-Cet outil fait partie de l'[[Image:Reinforcement_Workbench.svg|24px]] [[Reinforcement_Workbench/fr|atelier Reinforcement]], un [[External_workbenches/fr|atelier externe]] que vous pouvez installer avec le [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/fr|Gestionnaire des extensions]].
-</div>
+Cet outil fait partie de l'[[Image:Reinforcement_Workbench.svg|24px]] [[Reinforcement_Workbench/fr|atelier Reinforcement]], un [https://www.freecad.org/addons.php atelier externe] que vous pouvez installer avec le [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/fr|gestionnaire des extensions]].
 
 Dans cet exemple, nous allons créer une armature de dalle avec des armatures en forme de U pour les deux directions, comme le montre la figure ci-dessous. 
 
