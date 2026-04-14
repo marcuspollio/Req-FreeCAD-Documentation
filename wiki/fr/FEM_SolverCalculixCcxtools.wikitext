@@ -91,7 +91,7 @@ Les valeurs par défaut peuvent être définies dans le menu {{MenuCommand|Édit
 
 * {{PropertyData|Increments Maximum}} : nombre maximum d'incréments après lesquels le travail sera arrêté.
 
-* {{PropertyData|Iterations Control Parameter Cutb}} : définit la deuxième ligne des [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 Paramètres d'itération avancés de CalculiX] (facteurs de réduction). Utilisé si {{PropertyData|Iterations Control Parameter Time Use}} est défini sur ''true''.
+* {{PropertyData|Iterations Control Parameter Cutb}} : définit la deuxième ligne des [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 paramètres d'itération avancés de CalculiX] (facteurs de réduction). Utilisé si {{PropertyData|Iterations Control Parameter Time Use}} est défini sur ''true''.
 
 * {{PropertyData|Iterations Control Parameter Field}} : définit [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 les paramètres de champ avancés de CalculiX] (critères de convergence). Utilisé si {{PropertyData|Iterations Control Parameter Time Use}} est défini sur ''true''. {{Version/fr|1.2}}
 
