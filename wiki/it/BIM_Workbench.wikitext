@@ -55,7 +55,9 @@ Il [[BIM_ingame_tutorial/it|tutorial divertente di BIM]] è un modo semplice per
 
 L'ambiente BIM raccoglie strumenti da diversi altri ambienti di FreeCAD, principalmente [[Draft_Workbench/it|Draft]] e [[Part_Workbench/it|Part]], approssimativamente riorganizzati in categorie logiche.
 
+<div class="mw-translate-fuzzy">
 Inoltre, se tali [[External_workbench/it|addon]] sono installati, gli strumenti da [[Reinforcement_Workbench/it|Reinforcement]] (strumenti aggiuntivi per barre d'armatura), [[Fasteners_Workbench/it|Fasteners]] (bulloni e viti), [[Flamingo_Workbench/it|Flamingo/Dodo ]] (strumenti per strutture metalliche e tubazioni) e [[Parts_Library_Workbench/it|Parts Library]] vengono automaticamente inclusi nell'ambiente BIM.
+</div>
 
 L'ambiente BIM aggiunge anche una serie di elementi nella '''barra di stato''' di FreeCAD e un paio di '''voci nel menu contestuale''', accessibili facendo clic con il tasto destro nella vista 3D o nella vista ad albero .
 
