@@ -97,9 +97,7 @@ Domyślne właściwości można ustawić w menu {{MenuCommand|Edycja → Prefere
 
 * {{PropertyData|Iterations Control Parameter Field}} - {{Version/pl|1.2}}: definiuje [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 zaawansowane parametry pól CalculiX'a] (kryteria zbieżności). Używane, jeśli właściwość {{PropertyData|Iterations Control Parameter Time Use}} jest ustawiona na {{true/pl}}.
 
-<div class="mw-translate-fuzzy">
-* {{PropertyData|Iterations Control Parameter Iter}}: definiuje pierwszą linię [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 zaawansowanych parametrów iteracji solvera CalculiX]. Używane jeśli właściwość {{PropertyData|Iterations Control Parameter Time Use}} jest ustawiona na {{true/pl}}.
-</div>
+* {{PropertyData|Iterations Control Parameter Iter}}: definiuje pierwszą linię [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 zaawansowanych parametrów iteracji solvera CalculiX] (liczby iteracji/redukcji przyrostów). Używane, jeśli właściwość {{PropertyData|Iterations Control Parameter Time Use}} jest ustawiona na {{true/pl}}.
 
 <div class="mw-translate-fuzzy">
 * {{PropertyData|Iterations Control Parameter Time Use}}
