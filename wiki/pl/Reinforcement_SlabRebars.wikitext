@@ -22,7 +22,9 @@
 
 Narzędzie '''Zbrojenie płyty''' pozwala użytkownikowi na tworzenie prętów zbrojeniowych wewnątrz obiektu [[Arch_Structure/pl|konstrukcji]] płyty.
 
+<div class="mw-translate-fuzzy">
 To polecenie jest częścią [[External_workbenches/pl|zewnętrznego środowiska pracy]] [[Reinforcement_Workbench/pl|Zbrojenie]], które można zainstalować za pomocą [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/pl|Menadżera dodatków]] poprzez menu {{MenuCommand|Przybory → Menadżera dodatków → Zbrojenie}}.
+</div>
 
 [[File:Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png|600px]]
 {{Caption|Przykład zbrojenia wewnątrz [[Arch_Structure/pl|konstrukcji]] płyty.}}
