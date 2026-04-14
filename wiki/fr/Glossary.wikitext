@@ -18,7 +18,6 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 
 ==A==
 
-<div class="mw-translate-fuzzy">
 {{gloss}}
 {{term|term=Arc}}
 {{defn|defn=Une portion ou segment d'un cercle.}}
@@ -28,13 +27,12 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{defn|defn=Abréviation de l'ancien [[#Workbench|atelier]] d'architecture. Cet atelier a été remplacé par l'[[BIM_Workbench/fr|atelier BIM]] ({{Version/fr|1.0}}).}}
 {{term|Assembly|content=[[Assembly/fr|Assembly]]}}
 {{defn|no=1|defn=Un ensemble de [[#Part|pièces]] qui ont des positions définies les unes par rapport aux autres.}}
-{{defn|no=2|defn=Un [[#Workbench|atelier]] qui vise à faciliter la création d'assemblages. FreeCAD ne dispose pas actuellement d'un tel atelier intégré, mais il existe plusieurs [[External_workbenches/fr|ateliers externes d'assemblage]].}}
+{{defn|no=2|defn=L'[[Assembly_Workbench/fr|atelier Assembly]].}}
 {{term|Axes}}
 {{defn|defn=Pluriel de [[#Axis|Axis]]}}
 {{term|Axis}}
 {{defn|defn=Ligne imaginaire passant par l'origine de l'espace de travail. Il existe 3 axes normaux. Ils portent les noms classiques de X, Y et Z. X correspond à un déplacement latéral. Y est le haut et le bas. Z représente l'entrée et la sortie de la page/de l'écran.}}
 {{glossend}}
-</div>
 
 ==B==
 
