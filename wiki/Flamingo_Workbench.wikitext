@@ -631,17 +631,6 @@ The friction coefficient is calculated for each straight tube and elbow. For oth
 * [https://wiki.opensourceecology.org/wiki/OSE_Piping_Workbench OSE-Piping-Workbench: to create extra pipe fittings]
 
 
-== External workbenches == <!--T:165-->
-
-<!--T:166-->
-FreeCAD workbenches are easy to program in [[Python|Python]], there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
-
-<!--T:167-->
-The [[external workbenches|external workbenches]] page has some information and tutorials on some of them, and the [https://github.com/FreeCAD/FreeCAD-addons FreeCAD Addons] project aims at gathering them and making them easily installable from within FreeCAD.
-
-<!--T:168-->
-New workbenches are in development, stay tuned!
-
 </translate>
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
