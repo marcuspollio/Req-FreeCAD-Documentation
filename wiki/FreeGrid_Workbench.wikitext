@@ -9,7 +9,7 @@
 <translate>
 
 <!--T:2-->
-The [[Image:FreeGridWorkbench.svg|24px]] '''FreeGrid Workbench''' is an [[External_workbenches|external workbench]] for generating FreeGrid storage system components. In which are included grids, boxes and bit cartridge holders.
+The [[Image:FreeGridWorkbench.svg|24px]] '''FreeGrid Workbench''' is an [https://www.freecad.org/addons.php external workbench] for generating FreeGrid storage system components. In which are included grids, boxes and bit cartridge holders.
 
 </translate>
 [[Image:FreeGrid_example.png|500px]]
@@ -29,16 +29,16 @@ The [[Image:FreeGridWorkbench.svg|24px]] '''FreeGrid Workbench''' is an [[Extern
 === FreeGrid object generation === <!--T:11-->
 
 <!--T:12-->
-* [[Image:FreeGrid_StorageBox.svg|32px]] [[FreeGrid_StorageBox|Storage box]]: Creates a storage box
-* [[Image:FreeGrid_BitCatridgeHolder.svg|32px]] [[FreeGrid_BitCartridgeHolder|Bit cartridge holder]]: Creates a bit cartridge holder
-* [[Image:FreeGrid_StorageGrid.svg|32px]] [[FreeGrid_StorageGrid|Storage grid]]: Creates a storage grid
-* [[Image:FreeGrid_Sketch.svg|32px]] [[FreeGrid_Sketch|Sketch]]: Generates an inner box profile
+* [[Image:FreeGrid_StorageBox.svg|32px]] [[FreeGrid_StorageBox|Storage box]]: Creates a storage box.
+* [[Image:FreeGrid_BitCatridgeHolder.svg|32px]] [[FreeGrid_BitCartridgeHolder|Bit cartridge holder]]: Creates a bit cartridge holder.
+* [[Image:FreeGrid_StorageGrid.svg|32px]] [[FreeGrid_StorageGrid|Storage grid]]: Creates a storage grid.
+* [[Image:FreeGrid_Sketch.svg|32px]] [[FreeGrid_Sketch|Sketch]]: Generates an inner box profile sketch.
 
 === Utilities === <!--T:13-->
 
 <!--T:14-->
-* PreferencesPage: Opens FreeGrid preferences page
-* About: Opens "About" page
+* PreferencesPage: Opens the FreeGrid preferences page.
+* About: Opens the FreeGrid "About" page.
 
 == References == <!--T:6-->
 
