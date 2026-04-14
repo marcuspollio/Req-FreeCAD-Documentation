@@ -23,9 +23,7 @@
 
 Das Werkzeug [[Reinforcement_BeamRebars/de|Reinforcement Balkenbewehrung]] erlaubt dem Anwender Bewehrungsstäbe innerhalb eines Balkenobjekts ([[Arch_Structure/de|Arch-Struktur]]-Objekt) zu erzeugen.
 
-<div class="mw-translate-fuzzy">
-Dieses Werkzeug ist Teil des Arbeitsbereichs [[Reinforcement_Workbench/de|Reinforcement]]; dieser ist ein [[External_workbenches/de|externer Arbeitsbereich]], der mit dem [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/de|Addon-Manager]] installiert werden kann.
-</div>
+Dieses Werkzeug ist Teil des [[Reinforcement_Workbench/de|Arbeitsbereichs Reinforcement]]; dieser ist ein [https://www.freecad.org/addons.php externer Arbeitsbereich], der mit dem [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/de|Addon-Manager]] installiert werden kann.
 
 [[Image:Arch_Rebar_BeamReinforcement_example.png]]
 {{Caption|Balkenbewehrung innerhalb eines Balkens ([[Arch Structure/de|Arch Struktur]])}}
