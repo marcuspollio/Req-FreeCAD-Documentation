@@ -6,7 +6,9 @@
 
 {{TOCright}}
 
-[[File:Defeaturing_workbench_icon.svg|24px]] '''Arbeitsbereich Defeaturing''' ist ein externer Arbeitsbereich, der für die Bearbeitung von STEP-Modellen bestimmt ist, wobei die ausgewählten Formelemente aus dem Modell entfernt werden. Es ist ein [[External_workbenches/de|externer Arbeitsbereich]] und ist daher nicht Teil der Standard FreeCAD-Installation.  
+<div class="mw-translate-fuzzy">
+[[File:Defeaturing_workbench_icon.svg|24px]] '''Arbeitsbereich Defeaturing''' ist ein externer Arbeitsbereich, der für die Bearbeitung von STEP-Modellen bestimmt ist, wobei die ausgewählten Formelemente aus dem Modell entfernt werden. Es ist ein [[External_workbenches/de|externer Arbeitsbereich]] und ist daher nicht Teil der Standard FreeCAD-Installation.
+</div>  
 
 <span id="Features"></span>
 ==Funktionen==
@@ -122,14 +124,6 @@ Entfernen von Formelementen unter Verwendung neuer OCC7.3 Werkzeuge
 * Toleranz lesen oder ändern
 * Fuzzy Boolesche Operationen ausführen
 
-<span id="External_workbenches"></span>
-== Externe Arbeitsbereiche ==
-
-FreeCAD Arbeitsbereiche sind einfach zu programmieren in [[Python/de|Python]], daher gibt es viele Leute, die zusätzliche Arbeitsbereiche außerhalb der FreeCAD Hauptentwickler entwickeln.
-
-Die [[External workbenches/de|Externe Arbeitsbereiche]] Seite hat einige Informationen und Anleitungen zu einigen von ihnen, und das Projekt [https://github.com/FreeCAD/FreeCAD-addons FreeCAD Erweiterungen] hat sich zum Ziel gesetzt, diese zu sammeln und sie von FreeCAD aus leicht installierbar zu machen.
-
-Neue Arbeitsbereiche sind in der Entwicklung, bleib dran!
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
