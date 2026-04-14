@@ -93,13 +93,21 @@ Domyślne właściwości można ustawić w menu {{MenuCommand|Edycja → Prefere
 
 * {{PropertyData|Increments Maximum}}: maksymalna liczba przyrostów, po której analiza zostanie zatrzymana.
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Iterations Control parameter Cutb}}: definiuje drugą linię [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 zaawansowanych parametrów iteracji solvera CalculiX]. Używane jeśli właściwość {{PropertyData|Iterations Control Parameter Time Use}} jest ustawiona na {{true/pl}}.
+</div>
 
+* {{PropertyData|Iterations Control Parameter Field}} - {{Version|1.2}}: defines [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX's advanced field parameters] (convergence criteria). Used if {{PropertyData|Iterations Control Parameter Time Use}} is set to ''true''.
+
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Iterations Control Parameter Iter}}: definiuje pierwszą linię [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 zaawansowanych parametrów iteracji solvera CalculiX]. Używane jeśli właściwość {{PropertyData|Iterations Control Parameter Time Use}} jest ustawiona na {{true/pl}}.
+</div>
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Iterations Control Parameter Time Use}}
 ** {{true/pl}} - aktywuje {{PropertyData|Iterations Control parameter Cutb}} i {{PropertyData|Iterations Control Parameter Iter}}.
 ** {{false/pl}}
+</div>
 
 * {{PropertyData|Material Nonlinearity}}:
 ** linear - w analizie będą uwzględnione tylko liniowe właściwości materiału.
