@@ -20,7 +20,9 @@ Weitere Informationen findest du auf der Seite [[Installing_Helpfile/de|Installi
 <span id="External_workbenches"></span>
 =Externe Arbeitsbereiche=
 
+<div class="mw-translate-fuzzy">
 Abgesehen von den Standard [[workbenches/de|Arbeitsbereichen]], die mit FreeCAD gebündelt sind, gibt es eine große  Sammlung nützlicher [[External_workbenches/de|externer Arbeitsbereiche]], erstellt von Gemeinschaftsmitgliedern.
+</div>
 
 <span id="Third_party_software"></span>
 =Drittanbieter Software=
@@ -125,7 +127,9 @@ Sie wird vom [[FEM_Workbench/de|FEM Arbeitsbereich]] verwendet.
 
 ===OpenFOAM===
 
+<div class="mw-translate-fuzzy">
 [https://openfoam.org OpenFOAM] ist eine große Sammlung von Bibliotheken für numerische Strömungsmechanik (engl.: Computational Fluid Dynamics) (CFD) Simulationen. OpenFOAM wird von [[Cfd_Workbench/de|Cfd]] und [https://github.com/jaheyns/CfdOF CfdOF] [[external_workbenches/de|externe Arbeitsbereiche]] verwendet.
+</div>
 
 <span id="Related_pages"></span>
 =Verwandte Seiten=
