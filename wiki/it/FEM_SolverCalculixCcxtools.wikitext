@@ -96,6 +96,8 @@ I valori predefiniti possono essere impostati nel menu {{KEY|Modifica}} → {{KE
 * {{PropertyData|Iterations Control parameter Cutb}}:definisce la seconda riga dei parametri di iterazione avanzati in * scheda CONTROLS, utilizzata quando "Iterations Control Parameter Time Use" è true
 </div>
 
+* {{PropertyData|Iterations Control Parameter Field}} - {{Version|1.2}}: defines [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX's advanced field parameters] (convergence criteria). Used if {{PropertyData|Iterations Control Parameter Time Use}} is set to ''true''.
+
 <div class="mw-translate-fuzzy">
 * {{PropertyData|Iterations Control Parameter Iter}}: definisce la prima riga dei parametri di iterazione avanzati sotto * scheda CONTROLS, utilizzata quando "Iterations Control Parameter Time Use" è true
 </div>
