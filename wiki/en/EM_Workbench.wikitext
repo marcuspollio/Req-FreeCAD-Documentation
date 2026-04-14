@@ -12,7 +12,7 @@ The EM (ElectroMagnetic) Workbench provides the CAD front-end interface to some 
 
 == Installation ==
 
-The [[EM_Workbench|EM Workbench]] is an [[External_workbenches|external workbench]], that can be installed from the FreeCAD [[Image:AddonManager.svg|24px]] [[Std_AddonMgr|Addon Manager]]. This can be done via the {{MenuCommand|Tools → Addon Manager}} menu.
+The [[EM_Workbench|EM Workbench]] is an [https://www.freecad.org/addons.php external workbench], that can be installed from the FreeCAD [[Image:AddonManager.svg|24px]] [[Std_AddonMgr|Addon Manager]]. This can be done via the {{MenuCommand|Tools → Addon Manager}} menu.
 
 The electromagnetic solvers FastHenry2 and FasterCap must be installed separately. Their binary codes as well as the sources are freely available from [https://www.fastfieldsolvers.com FastFieldSolvers].
 
