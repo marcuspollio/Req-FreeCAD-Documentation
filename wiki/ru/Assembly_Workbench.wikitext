@@ -68,9 +68,8 @@
 
 * [[Image:Assembly_CreateJointBall.svg|32px]] [[Assembly_CreateJointBall|Шаровое сопряжение]]: создает шаровое сопряжение между двумя выбранными деталями в одной точке, обеспечивая свободное вращение вокруг этой точки, при этом обе детали остаются соединенными.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Assembly_CreateJointDistance.svg|32px]] [[Assembly_CreateJointDistance|Distance Joint]]: creates a distance joint between two selected parts, fixing the distance between both parts.
-</div>
+* [[Image:Assembly_CreateJointDistance.svg|32px]] [[Assembly_CreateJointDistance|Дистанционное сопряжение]]: creates a distance joint between two selected parts, fixing the distance between both parts.
+создает дистанционное сопряжение между двумя выбранными деталями, фиксируя расстояние между ними.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Assembly_CreateJointParallel.svg|32px]] [[Assembly_CreateJointParallel|Parallel Joint]]: creates a parallel joint between two selected parts, setting the Z-Axes of selected coordinate systems parallel.
