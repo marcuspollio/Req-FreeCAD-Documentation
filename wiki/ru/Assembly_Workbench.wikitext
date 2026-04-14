@@ -76,9 +76,7 @@
 
 * [[Image:Assembly_CreateJointAngle.svg|32px]] [[Assembly_CreateJointAngle|Угловое сопряжение]]: создает угловое сопряжение между двумя выбранными деталями, фиксируя угол между осями Z выбранных систем координат.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Assembly_CreateJointRackPinion.svg|32px]] [[Assembly_CreateJointRackPinion|Rack and Pinion Joint]]: creates a rack and pinion joint that couples the translation of a part of a slider joint and the rotation of a part of a revolute joint.
-</div>
+* [[Image:Assembly_CreateJointRackPinion.svg|32px]] [[Assembly_CreateJointRackPinion|Реечное сопряжение]]: создает реечное сопряжение, которое соединяет деталь со скользящим сопряжением с деталью с поворотным сопряжением.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Assembly_CreateJointScrew.svg|32px]] [[Assembly_CreateJointScrew|Screw Joint]]: creates a screw (helical) joint that couples the translation of a part of a slider joint and the rotation of a part of a revolute joint.
