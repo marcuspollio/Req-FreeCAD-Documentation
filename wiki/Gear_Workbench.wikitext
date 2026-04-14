@@ -11,7 +11,7 @@
 ==Introduction== <!--T:2-->
 
 <!--T:3-->
-The '''Gear Workbench''' is an [[External_workbenches|external workbench]] for manufacturing different types of gears and worm gears in FreeCAD. The parametric modelling allows the required geometries to be changed at any time. For example, by changing a few parameters, the involute gear becomes either a spur gear, helical gear or double helical gear.
+The '''Gear Workbench''' is an [https://www.freecad.org/addons.php external workbench] for manufacturing different types of gears and worm gears in FreeCAD. The parametric modelling allows the required geometries to be changed at any time. For example, by changing a few parameters, the involute gear becomes either a spur gear, helical gear or double helical gear.
 
 <!--T:26-->
 In order for the results from Gear to be usable, a certain amount of basic knowledge about the different types of gearing is required. Module, pitch diameter or root diameter are common terms and should therefore be known.
@@ -189,7 +189,7 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 <!--T:24-->
 * [[Image:PartDesign_InvoluteGear.svg|24px|PartDesign_InvoluteGear]] [[PartDesign_InvoluteGear|PartDesign InvoluteGear]]: This tool allows for the creation of a 2D profile of an Involute gear. This 2D profile is fully parametric, and can be padded with the [[PartDesign_Pad|PartDesign Pad]] feature.
 * [[Gear|Gear]]: A page intended to differentiate some kind of gears by their (hopefully) correct names.
-* [[External_workbenches|External Workbenches]]: A list of all current external workbenches of FreeCAD
+* [https://www.freecad.org/addons.php external workbench]External Workbenches]]: A list of all current external workbenches of FreeCAD
 * [[Macros_recipes|Macros recipes]]
 * [https://vivat-geo.de/zykloidenverzahnung.html Cycloid gearing (German)]
 * [https://vivat-geo.de/evolventenverzahnung.html Involute gearing (German)]
