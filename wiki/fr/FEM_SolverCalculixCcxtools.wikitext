@@ -97,11 +97,9 @@ Les valeurs par défaut peuvent être définies dans le menu {{MenuCommand|Édit
 
 * {{PropertyData|Iterations Control Parameter Iter}} : définit la première ligne des [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 Paramètres d'itération avancés de CalculiX] (nombre d'itérations/de réductions). Utilisé si {{PropertyData|Iterations Control Parameter Time Use}} est réglé à ''true''.
 
-<div class="mw-translate-fuzzy">
 * {{PropertyData|Iterations Control Parameter Time Use}}
-** true : active les options {{PropertyData|Iterations Control parameter Cutb}} et {{PropertyData|Iterations Control Parameter Iter}}.
+** true : active {{PropertyData|Iterations Control parameter Cutb}}, {{PropertyData|Iterations Control Parameter Iter}} et ({{Version/fr|1.2}}) {{PropertyData|Iterations Control Parameter Field}}
 ** false
-</div>
 
 * {{PropertyData|Material Nonlinearity}} :
 ** linear : seules les propriétés des matériaux linéaires seront incluses dans l'analyse.
