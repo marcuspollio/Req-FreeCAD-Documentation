@@ -7,7 +7,9 @@
 <span id="Introduction"></span>
 == Introduction ==
 
+<div class="mw-translate-fuzzy">
 L''''atelier Gear''' est un [[External_workbenches/fr|atelier externe]] pour la fabrication de différents types de roues dentées et vis sans fin dans FreeCAD. La modélisation paramétrique permet de modifier à tout moment les géométries requises. Par exemple, en modifiant quelques paramètres, la roue dentée à développante devient soit une roue dentée droite, une roue dentée hélicoïdale ou une roue dentée hélicoïdale double.
+</div>
 
 Pour que les résultats de Gear soient utilisables, une certaine connaissance de base des différents types d'engrenages est nécessaire. Module, diamètre primitif et diamètre de base sont des termes courants qui doivent donc être connus.
 
@@ -144,12 +146,14 @@ Après l'installation, les outils sont disponibles dans la barre d'outils Gear e
 <span id="Other_useful_links"></span>
 == Autres liens intéressants ==
 
+<div class="mw-translate-fuzzy">
 * [[Image:PartDesign_InvoluteGear.svg|24px|PartDesign_InvoluteGear]] [[PartDesign_InvoluteGear/fr|PartDesign Roue dentée à développante]] : cet outil permet de créer un profil 2D d'une roue dentée à développante. Ce profil 2D est entièrement paramétrique et peut être complété avec la fonction [[PartDesign_Pad/fr|PartDesign Protrusion]].
 * [[Gear/fr|Roues dentées]] : une page destinée à différencier certains types de roues dentées par leurs noms (espérons-le).
 * [[External_workbenches/fr|Ateliers externes]] : une liste de tous les ateliers externes actuels de FreeCAD
 * [[Macros_recipes/fr|Macros]]
 * [https://vivat-geo.de/zykloidenverzahnung.html Cycloid gearing (German)]
 * [https://vivat-geo.de/evolventenverzahnung.html Involute gearing (German)]
+</div>
 
 
 {{Userdocnavi{{#translation:}}}}
