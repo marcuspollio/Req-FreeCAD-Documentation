@@ -23,7 +23,9 @@
 
 Narzędzie '''Pręty zbrojeniowe typu L''' pozwala użytkownikowi na utworzenie zestawu prętów zbrojeniowych w kształcie L, wewnątrz obiektu [[Arch_Structure/pl|konstrukcji]].
 
+<div class="mw-translate-fuzzy">
 To polecenie jest częścią [[External_workbenches/pl|zewnętrznego środowiska pracy]] [[Reinforcement_Workbench/pl|Zbrojenie]], które można zainstalować za pomocą [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/pl|Menadżera dodatków]] poprzez menu {{MenuCommand|Przybory → Menadżera dodatków → Zbrojenie}}.
+</div>
 
 [[Image:Arch_Rebar_LShape_example.png|400px]]
 {{Caption|Dwa zestawy prętów zbrojeniowych w kształcie L, wewnątrz [[Arch_Structure/pl|konstrukcji]]}}
