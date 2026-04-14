@@ -20,7 +20,9 @@ Vedere  [[Installing_Helpfile/it|Installazione del file della Guida]].
 <span id="External_workbenches"></span>
 =Ambienti di lavoro esterni=
 
+<div class="mw-translate-fuzzy">
 Oltre ai pacchetti degli [[workbenches/it|ambienti di lavoro]] forniti di default con FreeCAD, vi è un'ampia collezione di utili [[External_workbenches/it|ambienti complementari]] realizzati dai membri della comunità.
+</div>
 
 <span id="Third_party_software"></span>
 ==Software di terze parti==
@@ -120,7 +122,9 @@ Vedere [[Import_Export_Preferences/it#DWG|Preferenze di Importa/Esporta]] e [[Fr
 
 ===OpenFOAM===
 
+<div class="mw-translate-fuzzy">
 [https://openfoam.org OpenFOAM] è una vasta raccolta di librerie per simulazioni di fluidodinamica computazionale (CFD). OpenFOAM è utilizzato dall'ambiente [[Cfd_Workbench/it|Cfd]] e [https://github.com/jaheyns/CfdOF CfdOF] [[external_workbench|external_workbench]].
+</div>
 
 <span id="Related_pages"></span>
 =Pagine correlate=
