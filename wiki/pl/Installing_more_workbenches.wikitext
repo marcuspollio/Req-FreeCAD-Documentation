@@ -4,7 +4,9 @@
 <span id="Introduction"></span>
 ==Wprowadzenie==
 
+<div class="mw-translate-fuzzy">
 Od wersji 0.17 można łatwo dodawać [[External_workbenches/pl|zewnętrzne środowiska pracy]] za pomocą [[Std_AddonMgr/pl|menedżera dodatków]]. Użytkownik nie musi robić nic więcej niż korzystać z tego narzędzia.
+</div>
 
 Czytaj dalej, aby uzyskać więcej informacji na temat instalacji środowisk pracy.
 
@@ -28,6 +30,7 @@ Katalogi {{incode|Mod/}} są skanowane przy każdym uruchomieniu FreeCAD, a dost
 
 Skopiuj folder środowiska pracy do katalogu {{incode|$INSTALL_DIR/Mod/}}, gdzie {{incode|$INSTALL_DIR}} jest katalogiem instalacyjnym programu FreeCAD.
 * W systemie Linux jest to zazwyczaj {{incode|/usr/share/freecad/Mod/}}.
+** Dla wersji snap (np. na Ubuntu) jest to {{incode|$HOME/snap/freecad/common/Mod/}}
 * W systemie Windows jest to zwykle {{incode|C:\Program Files\FreeCAD\Mod\}}.
 * Na macOS jest to zazwyczaj {{incode|/Applications/FreeCAD/Mod/}}.
 
