@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-[[File:Defeaturing_workbench_icon.svg|24px]] Środowisko pracy '''Upraszczanie''' jest dodatkowym środowiskiem pracy przeznaczonym do edycji modeli STEP, usuwając wybrane cechy z modelu. Jest to [[External_workbenches/pl|zewnętrzne środowiskiem pracy]] i dlatego nie jest częścią standardowej instalacji FreeCAD.  
+[[File:Defeaturing_workbench_icon.svg|24px]] Środowisko pracy '''Upraszczanie''' jest dodatkowym środowiskiem pracy przeznaczonym do edycji modeli STEP, usuwając wybrane cechy z modelu. Jest to [https://www.freecad.org/addons.php zewnętrzne środowisko pracy] i dlatego nie jest częścią standardowej instalacji FreeCAD.  
 
 <span id="Features"></span>
 ==Funkcjonalność==
@@ -123,14 +123,6 @@ Usuwanie funkcji przy użyciu nowych narzędzi OCC7.3
 * Odczyt lub zmiana tolerancji.
 * Wykonywanie rozmytych operacji logicznych.
 
-<span id="External_workbenches"></span>
-==Zewnętrzne środowiska pracy==
-
-Środowiska pracy FreeCAD są łatwe do zaprogramowania w środowisku [[Python/pl|Python]]. Dlatego też, wiele osób opracowuje dodatkowe "przestrzenie robocze" wykraczające poza główny obszar rozwoju programu FreeCAD.
-
-Strona [[External_workbenches/pl|Zewnętrzne środowiska pracy]] zawiera informacje i poradniki na temat niektórych z nich, a projekt [https://github.com/FreeCAD/FreeCAD-addons Dodatki FreeCAD] ma na celu zebranie ich i uczynienie łatwymi do zainstalowania z poziomu programu FreeCAD.
-
-Nowe środowiska pracy są w czasie tworzenia, bądź cierpliwy!
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
