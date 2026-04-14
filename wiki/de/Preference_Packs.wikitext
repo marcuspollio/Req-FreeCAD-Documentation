@@ -284,7 +284,9 @@ Viele Addons verfügen über benutzerdefinierbare Einstellungsinformationen, die
 <span id="Distributing_a_pack"></span>
 == Verteilen eines Packs ==
 
+<div class="mw-translate-fuzzy">
 Voreinstellungspakete werden genauso wie [[External_workbenches/de|Externe Arbeitsbereiche]] über den  [[Image:Std_AddonMgr.svg|24px|link=Std_AddonMgr/de]] [[Std_AddonMgr/de|Addon-Manager]] verteilt. Um ein Paket manuell zu installieren, klont man das Paket-Repository mit git in das FreeCAD-Datenverzeichnis ({{incode|App.getUserAppDataDir()}} in die [[Python_console/de|Python-Konsole]] eingeben, um diesen Pfad zu erhalten) in ein Unterverzeichnis namens "Preference Packs". Es ist zu beachten, dass vom Benutzer installierte Pakete mit dem gleichen Namen wie ein enthaltenes Paket Vorrang haben.
+</div>
 
 Siehe auch [[Private_Preference_Packs/de|Private Voreinstellungspakete]].
 
