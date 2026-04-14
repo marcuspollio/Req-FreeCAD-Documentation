@@ -46,9 +46,7 @@ Il existe deux versions, Z88OS est l'édition open-source, tandis que Z88Aurora 
 <span id="Solvers_implemented_as_external_workbenches"></span>
 == Solveurs implémentés comme ateliers externes ==
 
-<div class="mw-translate-fuzzy">
-Ces solveurs ne sont pas intégrés dans [[FEM_Workbench/fr|atelier FEM]] ce qui signifie qu'ils ont besoin d'une interface distincte pour configurer un projet de simulation. Ceci est réalisé par [[Macros/fr|macros]] ou [[External_workbenches/fr|Ateliers externes]].
-</div>
+Ces solveurs ne sont pas intégrés dans l'[[FEM_Workbench/fr|atelier FEM]] ce qui signifie qu'ils ont besoin d'une interface distincte pour configurer un projet de simulation. Ceci est réalisé par des [[Macros/fr|macros]] ou des [https://www.freecad.org/addons.php ateliers externes].
 
 === DualSPHysics ===
 
