@@ -88,7 +88,7 @@ Die folgenden Arbeitsbereiche sind nach der Version 0.20 nicht mehr Bestandteil 
 
 FreeCAD-Arbeitsbereiche lassen sich einfach in [[Python/de|Python]] programmieren, es gibt daher viele Menschen, die zusätzliche Arbeitsbereiche außerhalb von FreeCADs Hauptentwicklungsbereich entwickeln.
 
-Die Seite [[External workbenches/de|Externe Arbeitsbereiche]] listet alle, die dieser Gemeinschaft bekannt sind. Die meisten sind einfach aus FreeCAD heraus zu installieren, indem man den [[Std_AddonMgr/de|Addon-Mannager]] verwendet, der unter {{MenuCommand|Werkzeuge → [[Image:Std_AddonMgr.svg|24px]] Addon-Manager}} zu finden ist. 
+Die Seite [https://www.freecad.org/addons.php Addons] listet alle, die dieser Gemeinschaft bekannt sind. Die meisten sind einfach aus FreeCAD heraus zu installieren, indem man den [[Std_AddonMgr/de|Addon-Mannager]] verwendet, der unter {{MenuCommand|Werkzeuge → [[Image:Std_AddonMgr.svg|24px]] Addon-Manager}} zu finden ist. 
 
 
 {{Docnav/de
