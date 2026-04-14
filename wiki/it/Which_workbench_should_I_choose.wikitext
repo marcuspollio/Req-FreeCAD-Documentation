@@ -4,7 +4,9 @@ Se si è nuovi in FreeCAD, è molto probabile che ci si stia chiedendo con quale
 
 Gli ambienti di lavoro sono insiemi di strumenti, pulsanti, pannelli e altri elementi dell'interfaccia raggruppati insieme. Vanno considerati come un'applicazione all'interno di un'applicazione. In FreeCAD, gli ambienti di lavoro solitamente raccolgono una serie di strumenti adatti per uno scopo particolare, come il disegno 2D, la progettazione di oggetti 3D, la progettazione di barche, la progettazione di traiettorie di robot, la progettazione di edifici e molto altro.
 
+<div class="mw-translate-fuzzy">
 FreeCAD viene fornito con diversi [[Workbenches/it|ambienti di lavoro integrati]], ma ne sono disponibili [[External_workbenches/it|molti altri]] e possono essere facilmente installati tramite il [[Std_AddonMgr/it|gestore dei componenti aggiuntivi]].
+</div>
 
 I nuovi utenti di FreeCAD generalmente iniziano a utilizzare e ad apprendere uno o due ambienti di lavoro specifici, quindi esplorano altre aree di FreeCAD e aggiungono gli strumenti che trovano interessanti per le loro competenze. Prima di immergersi in ambienti di lavoro specifici, tuttavia, assicurarsi di leggere le pagine [[Getting_started/it|Iniziare]] e [[Manual:Navigating_in_the_3D_view/it|Navigazione nello spazio 3D]], poiché forniscono conoscenze generiche di cui si avrà bisogno ovunque in FreeCAD. Il [[Manual:Introduction/it|Manuale di FreeCAD]] è un altro buon metodo per scoprire FreeCAD passo dopo passo, in modo lineare.
 
