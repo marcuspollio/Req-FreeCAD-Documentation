@@ -120,15 +120,6 @@ Bitte schau den [https://github.com/easyw/kicadStepUpMod/blob/master/demo/kicadS
 * Autor: Github: [https://github.com/easyw @easyw] | FreeCAD Foren: [https://forum.freecad.org/viewtopic.php?f=24&t=14276 kicad StepUp: ECAD MCAD bidirektionale Zusammenarbeit]
 * Quellcode auf GitHub: https://github.com/easyw/kicadStepUpMod
 
-<span id="Side_Note_about_External_workbenches"></span>
-== Nebenbemerkung zu Externen Arbeitsbereichen ==
-
-FreeCAD Arbeitsbereiche sind einfach in [[Python/de|Python]] zu programmieren, daher gibt es viele Leute, die zusätzliche Arbeitsbereiche außerhalb der FreeCAD-Hauptentwickler entwickeln.
-
-Die Seite [[external workbenches/de|externe Arbeitsbereiche]] enthält einige Informationen und Anleitungen zu einigen von ihnen, und das Projekt [https://github.com/FreeCAD/FreeCAD-addons FreeCAD Erweiterungen] hat sich zum Ziel gesetzt, diese zu sammeln und sie von FreeCAD aus leicht installierbar zu machen.
-
-Neue Arbeitsbereiche sind in der Entwicklung, bleib dran!
-
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
