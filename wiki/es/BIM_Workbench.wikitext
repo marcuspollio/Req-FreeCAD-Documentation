@@ -57,7 +57,9 @@ El [[BIM_ingame_tutorial|tutorial del juego]] es una forma fácil de familiariza
 
 El entorno BIM reúne herramientas de otros entornos de FreeCAD, principalmente [[Draft_Workbench|Draft]] y [[Part_Workbench|Part]], reorganizadas de forma aproximada en categorías lógicas.
 
+<div class="mw-translate-fuzzy">
 Además, si se instalan estos [[External_workbenches/es|addons]], las herramientas de [[Arch_Rebar/es|Refuerzo]] (herramientas para barras de refuerzo adicionales), [[Fasteners_Workbench/es|Fijadores]] (pernos y tornillos), [[Flamingo_Workbench/es|Flamingo/Dodo]] (herramientas de estructura metálica y tuberías) y [[Parts_Library_Workbench/es|Biblioteca de piezas]] se incluyen automáticamente en el banco de trabajo BIM.
+</div>
 
 El banco de trabajo BIM también añade una serie de elementos en la '''barra de estado''' de FreeCAD, y un par de elementos del '''menú contextual'''', accesibles haciendo clic con el botón derecho en la vista 3D o en la vista de árbol.
 
