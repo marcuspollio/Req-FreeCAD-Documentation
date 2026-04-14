@@ -7,7 +7,9 @@
 <span id="Introduction"></span>
 ==Einleitung==
 
+<div class="mw-translate-fuzzy">
 Fcmcua ist ein [[External_workbenches/de|Externer Arbeitsbereich]] der zur Steuerung einer Baugruppe im [[Assembly4_Workbench/de| Arbeitsbereich Assembly4]] von einem [[https://de.wikipedia.org/wiki/OPC_Unified_Architecture|OPC Unified Architecture]]-Server kontrolliert wird. Dies bietet Funktionen zur Simulation von Maschinen, die durch digitale Steuerungen gesteuert werden, wie z. B. [[https://de.wikipedia.org/wiki/Speicherprogrammierbare_Steuerung|Speicherprogrammierbare Steuerungen]], solange der Controller OPC UA unterstützt. Der Arbeitsbereich verwendet die vom OPC UA-Server bereitgestellten Werte, um den Anhangsversatz des lokalen Koordinatensystems (LCS) jedes Teils zu bearbeiten.
+</div>
 
 == Installation ==
 
