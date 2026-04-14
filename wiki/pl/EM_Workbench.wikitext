@@ -14,7 +14,9 @@
 <span id="Installation"></span>
 ==Instalacja==
 
+<div class="mw-translate-fuzzy">
 Środowisko pracy EM jest [[External_workbenches/pl|zewnętrznym środowiskiem pracy]], które można zainstalować z poziomu [[Image:AddonManager.svg|24px]] [[Std_AddonMgr/pl|Menadżera dodatków]] FreeCAD. Można to zrobić przez menu {{MenuCommand|Przybory → Menadżer dodatków}}.
+</div>
 
 Solwery elektromagnetyczne FastHenry2 i FasterCap muszą być zainstalowane oddzielnie. Ich kody binarne oraz źródła są dostępne bezpłatnie na stronie [https://www.fastfieldsolvers.com FastFieldSolvers].
 
