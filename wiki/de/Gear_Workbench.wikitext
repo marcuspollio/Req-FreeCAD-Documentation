@@ -7,9 +7,7 @@
 <span id="Introduction"></span>
 ==Einleitung==
 
-<div class="mw-translate-fuzzy">
-Der Arbeitsbereich '''Gear''' ist ein [[External_workbenches/de|externer Arbeitsbereich]] zur Herstellung verschiedener Arten von Zahnrädern und Schneckenwellen in FreeCAD. Durch die parametrische Modellierung können die erforderlichen Geometrien jederzeit geändert werden. Durch Ändern einiger Parameter wird das Evolventenzahnrad beispielsweise entweder zu einem geradverzahnten, einem schrägverzahnten oder einem doppelschrägverzahnten Zahnrad.<br> (Eine Doppelschrägverzahnung besitzt eine Nut zwischen den beiden Schrägverzahnungen, ohne Nut wird sie Pfeilverzahnung genannt)
-</div>
+Der Arbeitsbereich '''Gear''' ist ein [https://www.freecad.org/addons.php externer Arbeitsbereich] zur Herstellung verschiedener Arten von Zahnrädern und Schneckenwellen in FreeCAD. Durch die parametrische Modellierung können die erforderlichen Geometrien jederzeit geändert werden. Durch Ändern einiger Parameter wird das Evolventenzahnrad beispielsweise entweder zu einem geradverzahnten, einem schrägverzahnten oder einem doppelschrägverzahnten Zahnrad.<br> (Eine Doppelschrägverzahnung besitzt eine Nut zwischen den beiden Schrägverzahnungen, ohne Nut wird sie Pfeilverzahnung genannt)
 
 Damit die Ergebnisse von Gear verwendet werden können, ist ein gewisses Grundwissen über die verschiedenen Arten von Verzahnungen erforderlich. Modul, Teilkreisdurchmesser oder Fußkreisdurchmesser sind gängige Begriffe und sollten daher bekannt sein.
 
@@ -146,14 +144,12 @@ Nach der Installation stehen die Werkzeuge in der Symbolleiste Gear und dem Men�
 <span id="Other_useful_links"></span>
 ==Andere nützliche Verweise==
 
-<div class="mw-translate-fuzzy">
 * [[Image:PartDesign_InvoluteGear.svg|24px|PartDesign_InvoluteGear]] [[PartDesign_InvoluteGear/de|PartDesign Evolventenrad]]: Dieses Werkzeug ermöglicht die Erstellung eines 2D-Profils eines Evolventenzahnrades. Dieses 2D-Profil ist vollständig parametrisch und kann mit der Funktion [[PartDesign_Pad/de|PartDesign Aufpolsterung]] aufgefüllt werden.
 * [[Gear/de|Gear]]: Eine Seite, die dazu gedacht ist, die unterschiedlichen Zahnräder (gears) und Zahnradgetriebe (gears) mit ihren (hoffentlich) korrekten englischen Benennungen aufzulisten.
-* [[External_workbenches/de|Externe Arbeitsbereiche]]: Eine Liste aller aktuellen externen Arbeitsbereiche von FreeCAD
+* [https://www.freecad.org/addons.php Externe Arbeitsbereiche]: Eine Liste aller aktuellen externen Arbeitsbereiche von FreeCAD
 * [[Macros_recipes/de|Makrorezepte]]
 * [https://vivat-geo.de/zykloidenverzahnung.html Die Zykloidenverzahnung (deutsch)]
 * [https://vivat-geo.de/evolventenverzahnung.html Evolventenverzahnung (deutsch)]
-</div>
 
 
 {{Userdocnavi{{#translation:}}}}
