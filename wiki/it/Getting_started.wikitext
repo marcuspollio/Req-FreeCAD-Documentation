@@ -130,10 +130,12 @@ Maggiori informazioni si trovano nella sezione [[Tutorials/it|Tutorial]].
 
 Ogni utente può sviluppare le proprie nuove funzionalità per FreeCAD e renderle disponibili alla comunità di FreeCAD come [[Addon/it|addon]].
 
+<div class="mw-translate-fuzzy">
 Esistono tre tipi di componenti aggiuntivi:
 * [[Macros/it|Macro]]: breve frammento di codice [[Python/it|Python]] che fornisce un nuovo strumento o una nuova funzionalità in un singolo file con estensione {{incode|.FCMacro}}.
 * [[External_workbenches/it|Ambienti complementari]]: raccolte di file Python che forniscono [[Gui_Command/it|Comandi GUI]] (strumenti) correlati incentrati su un particolare argomento.
 * [[Preference_Packs/it|Pacchetti di Preferenze]]: raccolte di preferenze utente distribuibili.
+</div>
 
 <span id="Scripting"></span>
 ==Script==
