@@ -6,7 +6,9 @@
 
 == Introduction ==
 
+<div class="mw-translate-fuzzy">
 [[Assembly3_Workbench/fr|Assembly3]] est un [[External_workbenches/fr|Atelier externe]] utilisé pour effectuer l'assemblage de différents corps contenus dans un seul fichier ou dans plusieurs documents. L'atelier est basé sur plusieurs changements de fonctions de base effectués pour la version de FreeCAD 0.19 (par exemple [[App_Link/fr|App Link]]), de sorte que Assembly3 Workbench ne peut pas être utilisé avec les versions antérieures.
+</div>
 
 Les principales fonctions de l'Atelier Assembly3 sont les suivantes :
 * Un '''solveur dynamique/interactif'''. Cela signifie que vous pouvez déplacer des pièces avec la souris pendant que le solveur contraint le mouvement. Cela permet par exemple de connecter une roue à un axe et de tourner la roue de manière interactive avec la souris. 
