@@ -147,10 +147,12 @@ További információk a [[Tutorials|Útmutatók]] oldalon.”
 
 Bárki fejleszthet saját új funkciókat a FreeCAD-hez, és elérhetővé teheti azokat a FreeCAD-közösség számára mint [[Addon|kiegészítő]].
 
+<div class="mw-translate-fuzzy">
 Három típusú kiegészítő létezik:
 * [[Macros|Makrók]]: rövid [[Python|Python]] kódok, amelyek egy új eszközt vagy funkciót hoznak létre egyetlen fájlban. A fájlnév végződése {{incode|.FCMacro}}.
 * [[External_workbenches|Modulok]]: Python fájlokból álló csomag, amely egy adott témához kapcsolódó eszközöket és grafikus parancsokat tartalmaz.
 * [[Preference_Packs|Beállításcsomagok]]: szabadon terjeszthető felhasználói beállítások.
+</div>
 
 <span id="Scripting"></span>
 ==Szkriptelés==
