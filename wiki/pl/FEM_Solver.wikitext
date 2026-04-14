@@ -47,7 +47,9 @@ Istnieją dwie wersje, Z88OS to wersja z otwartym kodem źródłowym, podczas gd
 <span id="Solvers_implemented_as_external_workbenches"></span>
 == Solvery zaimplementowane jako zewnętrzne środowiska pracy ==
 
+<div class="mw-translate-fuzzy">
 Te solvery nie są zintegrowane ze [[FEM_Workbench/pl|środowiskiem pracy MES]], co oznacza, że potrzebują odrębnego interfejsu do ustawienia symulacji. Jest to osiągane poprzez [[Macros/pl|makra]] lub [[External_workbenches/pl|zewnętrzne środowiska pracy]].
+</div>
 
 === DualSPHysics ===
 
@@ -109,7 +111,9 @@ FEnicS to środowisko obliczeniowe do rozwiązywania równań różniczkowych cz
 
 Zobacz: [https://fenicsproject.org/ strona główna], [https://forum.freecad.org/viewtopic.php?f=18&t=4677 Fenics jako solver (wątek na forum)].
 
+<div class="mw-translate-fuzzy">
 [https://github.com/qingfengxia/FenicsSolver FenicsSolver] to platforma do symulacji do zagadnień wielobryłowych, sprzężonych i wieloskalowych. Celem jest integracja solvera FEniCS do zarówno [[FEM_Workbench/pl|środowiska pracy MES]], jak i [[External_workbenches/pl|zewnętrznego środowiska]] Cfd, więc uzyskany system funkcjonuje jako darmowa alternatywa dla Comsola lub Moose. FenicsSolver jest opracowywany przez autora środowiska Cfd.
+</div>
 
 === OOFEM ===
 
