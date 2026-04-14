@@ -6,7 +6,7 @@
 
 == Introduction ==
 
-[[Image:Assembly3_workbench_icon.svg|24px]] [[Assembly3_Workbench|Assembly3]] is an [[External_workbenches|external workbench]] that is used to perform assembly of different bodies contained in a single file or in multiple documents. The workbench is based on several core function changes done for the version of FreeCAD 0.19 (e.g. [[App_Link|App Link]]), so the Assembly3 Workbench can not be used with earlier versions.
+[[Image:Assembly3_workbench_icon.svg|24px]] [[Assembly3_Workbench|Assembly3]] is an [https://www.freecad.org/addons.php external workbench] that is used to perform assembly of different bodies contained in a single file or in multiple documents. The workbench is based on several core function changes done for the version of FreeCAD 0.19 (e.g. [[App_Link|App Link]]), so the Assembly3 Workbench can not be used with earlier versions.
 
 The main features of the Assembly3 Workbench are
 * '''dynamic/interactive solver'''. This means you can move parts with the mouse while the solver constrains the motion. This allows for example to connect a wheel to an axis and turn the wheel interactively with the mouse. 
