@@ -20,7 +20,9 @@ Zobacz dokument [[Installing_Helpfile/pl|Instalacja dokumentacji pomocy]] aby uz
 <span id="External_workbenches"></span>
 =Zewnętrzne środowiska pracy=
 
+<div class="mw-translate-fuzzy">
 Poza standardowymi [[workbenches/pl|Środowiskami pracy]] dołączonymi do programu FreeCAD, dostępna jest coraz większa kolekcja użytecznych [[External_workbenches/pl|dodatkowych Środowisk pracy]] wykonanych przez członków społeczności.
+</div>
 
 <span id="Third_party_software"></span>
 =Oprogramowanie zewnętrzne=
@@ -130,7 +132,9 @@ CalculiX GraphiX, nakładka GUI. FreeCAD obsługuje tylko solver. Jest używany 
 
 ===OpenFOAM===
 
+<div class="mw-translate-fuzzy">
 [https://openfoam.org OpenFOAM] to duży zbiór bibliotek do symulacji obliczeniowej dynamiki płynów ''(Computational Fluid Dynamics CFD)''. OpenFOAM jest używany przez [[Cfd_Workbench|Cfd]] i [https://github.com/jaheyns/CfdOF CfdOF] [[external_workbenches/pl|zewnętrzne Środowiska pracy]].
+</div>
 
 <span id="Related_pages"></span>
 =Warto odwiedzić=
