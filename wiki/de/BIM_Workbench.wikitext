@@ -55,9 +55,7 @@ Die [[BIM_ingame_tutorial/de|Anwendungsinterne Anleitung]] ist ein einfacher Weg
 
 Der Arbeitsbereich BIM stellt Werkzeuge aus mehreren anderen Arbeitsbereichen, hauptsächlich [[Draft_Workbench/de|Draft]] und [[Part_Workbench/de|Part]] zusammen, die grob in lokale Kategorien umverteilt werden.
 
-<div class="mw-translate-fuzzy">
-Außerdem werden, falls solche [[External_workbenches/de|Addons]] installiert wurden, Werkzeuge von [[Reinforcement_Workbench/de|Reinforcement]] (zusätzliche Werkzeuge für Bewehrungsstäbe), [[Fasteners_Workbench/de|Fasteners]] (Verbindungselemente wie Bolzen, Schrauben usw.), [[Flamingo_Workbench/de|Flamingo/Dodo]] (Metallstruktur- und Rohrleitungswerkzeuge) und [[Parts_Library_Workbench/de|Parts-Library]] (Teilebibliothek) automatisch im Arbeitsbereich BIM integriert.
-</div>
+Außerdem werden, falls solche [https://www.freecad.org/addons.php Addons] installiert wurden, Werkzeuge von [[Reinforcement_Workbench/de|Reinforcement]] (zusätzliche Werkzeuge für Bewehrungsstäbe), [[Fasteners_Workbench/de|Fasteners]] (Verbindungselemente wie Bolzen, Schrauben usw.), [[Flamingo_Workbench/de|Flamingo/Dodo]] (Metallstruktur- und Rohrleitungswerkzeuge) und [[Parts_Library_Workbench/de|Parts-Library]] (Teilebibliothek) automatisch im Arbeitsbereich BIM integriert.
 
 Der Arbeitsbereich BIM fügt auch eine Reihe von Elementen in der '''Statusleiste''' von FreeCAD hinzu sowie einige '''Kontextmenüelemente''', die durch einen Rechtsklick in der 3D-Ansicht oder in der Baumansicht zu erreichen sind.
 
