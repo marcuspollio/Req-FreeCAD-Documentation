@@ -7,9 +7,7 @@
 <span id="Overview"></span>
 ==Informacje ogólne==
 
-<div class="mw-translate-fuzzy">
-DynamicData to [[External_workbenches/pl|zewnętrzne środowisko pracy]], za pomocą którego można utworzyć obiekt kontenera do przechowywania niestandardowych właściwości.
-</div>
+DynamicData to [https://www.freecad.org/addons.php zewnętrzne środowisko pracy], za pomocą którego można utworzyć obiekt kontenera do przechowywania niestandardowych właściwości.
 
 Za pomocą tego środowiska pracy można utworzyć nową niestandardową [[Property/pl|właściwość]] dowolnego typu obsługiwanego przez FreeCAD. Na przykład właściwość Length lub [[Placement/pl|umiejscowienie]]. Te niestandardowe właściwości mogą być następnie używane w [[Expressions/pl|Wyrażeniach]] tak jak każda inna właściwość. Na przykład można utworzyć właściwość Length o nazwie "Szerokość" i odwoływać się do niej podczas związania elementu szkicu. Następnie, gdy właściwość "Szerokość" zostanie zmieniona, wiązanie szkicu zostanie automatycznie zaktualizowane. Jest to podobne do sposobu, w jaki można korzystać z arkusza kalkulacyjnego, ale jest bardziej interaktywne, ponieważ właściwości mogą być zmieniane przy jednoczesnym zachowaniu [[3D_view/pl|widoku 3D]], a także pozwala na szerszą gamę typów właściwości.
 
@@ -29,15 +27,6 @@ To środowisko robocze można zainstalować z [[Std_AddonMgr/pl|Menedżera dodat
 
 * Kod źródłowy hostowany w GitHub: [https://github.com/mwganson/DynamicData github.com]
 * Oficjalna pełna dokumentacja [https://github.com/mwganson/DynamicData/blob/master/README.md]
-
-<span id="External_workbenches"></span>
-==Zewnętrzne środowiska pracy==
-
-Środowiska pracy FreeCAD są łatwe do zaprogramowania w środowisku [[Python/pl|Python]]. Dlatego też, wiele osób opracowuje dodatkowe środowiska pracy wykraczające poza główny obszar rozwoju programu FreeCAD.
-
-Strona [[External_workbenches/pl|Zewnętrzne środowiska pracy]] zawiera informacje i poradniki na temat niektórych z nich, a projekt [https://github.com/FreeCAD/FreeCAD-addons Dodatki FreeCAD] ma na celu zebranie ich i uczynienie łatwymi do zainstalowania z poziomu programu FreeCAD.
-
-Nowe środowiska pracy są w czasie tworzenia, bądź cierpliwy!
 
 
 {{Userdocnavi{{#translation:}}}}
