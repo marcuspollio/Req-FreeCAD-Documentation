@@ -19,7 +19,9 @@ To be able to perform finite element analysis (FEA) within the {{KEY|[[Image:Wor
 === FEM solver ===
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 The default solver to perform finite element calculations is [[FEM_CalculiX|CalculiX]], a simple solver for analysis of structures. FreeCAD writes a CalculiX input file, starts the solver, and reads the output, which can then be presented visually in the viewport; this means the CalculiX binary is standalone and independent from FreeCAD. Given that there are many programs that can generate a mesh, '''it is recommended to install the solver, and make sure it's working first'''.
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If the solver is correctly installed, you may run the single command {{incode|ccx}} in the terminal to obtain a simple response:
