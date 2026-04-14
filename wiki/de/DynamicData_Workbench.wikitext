@@ -7,7 +7,9 @@
 <span id="Overview"></span>
 == Übersicht ==
 
+<div class="mw-translate-fuzzy">
 DynamicData ist ein [[External_workbenches//de|Externer Arbeitsbereich]] mit dem man ein Containerobjekt zum Speichern benutzerdefinierter Eigenschaften erstellen kann.
+</div>
 
 Mit dieser Workbench ist es möglich, eine neue benutzerdefinierte [[Property/de|Eigenschaft]] von nahezu jedem Typ zu erstellen, den FreeCAD unterstützt. Zum Beispiel eine Länge-Eigenschaft oder eine [[Placement/de|Platzierung]]-Eigenschaft. Diese benutzerdefinierten Eigenschaften können dann wie jede andere Eigenschaft in [[Expressions/de|Ausdrücken]] verwendet werden.  Man könnte beispielsweise eine Längeneigenschaft namens "Breite" erstellen und beim Beschränken eines Skizzenelements darauf verweisen.  Wenn dann die Eigenschaft "Breite" geändert wird, wird die Skizzenbeschränkung automatisch aktualisiert.  Dies ähnelt der Verwendung einer Tabellenkalkulation, ist jedoch interaktiver, da die Eigenschaften geändert werden können, während die [[3D_View/de|3D-Ansicht]] weiterhin sichtbar ist, und ermöglicht zudem eine größere Vielfalt an Eigenschaftstypen.
 
