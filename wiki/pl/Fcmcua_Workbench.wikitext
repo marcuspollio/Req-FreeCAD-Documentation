@@ -7,7 +7,9 @@
 <span id="Introduction"></span>
 ==Wprowadzenie==
 
+<div class="mw-translate-fuzzy">
 Fcmcua jest [[External_workbenches/pl|zewnętrznym środowiskiem pracy]], które jest używane do kontrolowania zespołu utworzonego w środowisku [[Assembly4_Workbench/pl|Złożenie 4]] z serwera [[wikipedia:OPC Unified Architecture|OPC UA]]. Zapewnia to funkcjonalność symulacji maszyn sterowanych przez cyfrowe sterowniki takie jak [[wikipedia:Programmable logic controller|PLC]], o ile sterownik obsługuje OPC UA. Środowisko używa wartości dostarczonych przez serwer OPC UA do manipulowania Attachment Offset lokalnego układu współrzędnych ''(LCS)'' każdej części.
+</div>
 
 <span id="Installation"></span>
 ==Instalacja==
