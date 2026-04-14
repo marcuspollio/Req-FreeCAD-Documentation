@@ -32,11 +32,9 @@ Il y a plusieurs façons de le faire : vous pouvez faire un [[Donate/fr|donation
 <span id="Official"></span>
 === Officielles ===
 
-<div class="mw-translate-fuzzy">
 * [[Main_Page/fr|Ce wiki]]
-* [https://forum.freecadweb.org/viewforum.php?f=3 Le forum d'aide]
+* [https://forum.freecad.org/viewforum.php?f=3 Le forum d'aide]
 * [[Workarounds/fr|Solutions de contournement pour les problèmes connus]]
-</div>
 
 <span id="Un-official"></span>
 === Non officielles ===
@@ -53,6 +51,7 @@ Les chaînes YouTube suivantes ont un contenu d'assez bonne qualité centré sur
 <span id="&quot;Can_FreeCAD_do_XYZ?&quot;"></span>
 === "FreeCAD peut-il faire XYZ ?" ===
 
+<div class="mw-translate-fuzzy">
 FreeCAD permet déjà d'effectuer les types de travaux suivants :
 * Modélisation paramétrique basée sur des splines à l'aide des ateliers [[Part_Workbench/fr|Part]], [[PartDesign_Workbench/fr|PartDesign]] et [[Sketcher_Workbench/fr|Sketcher]].
 * Modélisation de surfaces et de courbes à l'aide de NURBS
@@ -63,6 +62,7 @@ FreeCAD permet déjà d'effectuer les types de travaux suivants :
 * Analyse numérique de la dynamique des fluides ([[Cfd_Workbench/fr|CFD]])
 * [[TechDraw_Workbench/fr|Dessins techniques]]/[[Draft_Workbench/fr|Dessin]]
 * Et d'autres [[Workbenches/fr|ateliers]] et [[External_workbenches/fr|ateliers externes]]...
+</div>
 
 <span id="&quot;User_interface_(UI/UX)_is_ugly,_odd,_confusing_or_not_like_XYZ_Software!&quot;"></span>
 === "L'interface utilisateur (UI/UX) est laide, étrange, déroutante ou ne ressemble pas au logiciel XYZ !" ===
@@ -99,11 +99,9 @@ OpenCascade (OCC) est un noyau externe de CAO dont FreeCAD est totalement dépen
 <span id="Additional_links"></span>
 == Liens supplémentaires ==
 
-<div class="mw-translate-fuzzy">
-* [https://forum.freecadweb.org/viewtopic.php?f=8&t=43461 Discussion : FreeCAD n'est pas prêt pour la 1.0 (fil du forum)]
+* [https://forum.freecad.org/viewtopic.php?f=8&t=43461 Discussion : FreeCAD n'est pas prêt pour la 1.0 (fil du forum)]
 * [https://www.youtube.com/watch?v=JBmdbipkbrk Pourquoi l'équipe GIMP vous déteste manifestement* (*En fait, nous vous aimons. **Principalement)] Pat David de la présentation de l'équipe GIMP à SCaLE16x Californie 2016
 * [https://vimeo.com/144089061 Gagner votre soutien au lieu de l'acheter : un guide pratique de l'assistance en matière de code source ouvert] par [https://twitter.com/ijturton Ian Turton] à la conférence FOSS4G Seoul 2015.
-</div>
 
 
 [[Category:Common Questions{{#translation:}}]]
