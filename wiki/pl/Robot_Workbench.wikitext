@@ -11,8 +11,10 @@
 
 {{VeryImportantMessage|Środowisko pracy FreeCAD Robot nie jest utrzymywane. Jeśli masz doświadczenie w tym temacie i jesteś zainteresowany jego utrzymaniem, poinformuj o swoich zamiarach w sekcji dla deweloperów na [https://forum.freecad.org forum FreeCAD].
 
+<div class="mw-translate-fuzzy">
 Powodem, dla którego ten warsztat jest nadal w głównym kodzie źródłowym jest to, że jest on zaprogramowany w C++. Jeśli mógłby być zaprogramowany w Pythonie, to można by utworzyć [[external_workbenches|zewnętrzne środowisko]] i mógłby być przeniesiony do osobnego repozytorium.
 }}
+</div>
 
 [[Image:Workbench_Robot.svg|thumb|128px|Ikonka dla środowiska pracy Robot]]
 
