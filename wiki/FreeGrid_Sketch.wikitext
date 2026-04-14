@@ -1,6 +1,7 @@
 <languages/>
 <translate>
 
+<!--T:1-->
 {{Docnav
 |[[FreeGrid_StorageGrid|StorageGrid]]
 |
@@ -10,6 +11,7 @@
 |IconC=FreeGridWorkbench.svg
 }}
 
+<!--T:2-->
 {{GuiCommand
 |Name=FreeGrid Sketch
 |MenuLocation=FreeeGrid → Sketch
@@ -18,14 +20,17 @@
 |SeeAlso=
 }}
 
-==Description==
+==Description== <!--T:3-->
 
+<!--T:4-->
 The [[FreeGrid_Sketch|FreeGrid Sketch]] tool generates an inner box profile sketch.
 
-This tool is part of the [[FreeGrid_Workbench|FreeGrid Workbench]], an [[External_workbenches|external workbench]] that can be installed with the [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr|Addon Manager]].
+<!--T:5-->
+This tool is part of the [[FreeGrid_Workbench|FreeGrid Workbench]], an [https://www.freecad.org/addons.php external workbench] that can be installed with the [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr|Addon Manager]].
 
-==Usage==
+==Usage== <!--T:6-->
 
+<!--T:7-->
 # Optionally select an existing [[FreeGrid_StorageBox|storage box]].
 # There are several ways to invoke the tool:
 #* Press the {{Button|[[Image:FreeGrid_Sketch.svg|16px]] [[FreeGrid_Sketch|Sketch]]}} button.
@@ -38,6 +43,7 @@ This tool is part of the [[FreeGrid_Workbench|FreeGrid Workbench]], an [[Externa
 # A sketch is created.
 
 
+<!--T:8-->
 {{Docnav
 |[[FreeGrid_StorageGrid|StorageGrid]]
 |
