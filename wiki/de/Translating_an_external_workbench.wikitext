@@ -73,8 +73,7 @@ obj.addProperty("App::PropertyBool", "MyProperty", "PropertyGroup", QT_TRANSLATE
 * Die folgende Zeile im oberen Bereich der Datei hinzufügen:
 
 : {{Code|code=
-def QT_TRANSLATE_NOOP(context, text):
-    return text
+from PySide.QtCore import QT_TRANSLATE_NOOP
 }}
 
 : Die Funktion {{incode|QT_TRANSLATE_NOOP}} macht nichts, außer dass sie Texte markiert, die später vom Dienstprogramm {{incode|lupdate}} aufgesammelt werden. Sie wird nur in Sonderfällen verwendet, in denen sich FreeCAD selbst um alles kümmert.
@@ -231,13 +230,9 @@ https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslati
 
 In den obigen Beispielen wurden zwei separate Funktionen verwendet: {{incode|translate()}} und {{incode|QT_TRANSLATE_NOOP}}. Vielleicht stößt man auch auf {{incode|tr()}} und {{incode|QT_TR_NOOP}}, die automatisch das Argument "context" basierend auf dem Ort, von wo sie aufgerufen werden, bereitstellen. Diese beiden Paare von Funktionen unterscheiden sich grundlegend. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{incode|translate()}} and {{incode|tr()}} accomplish two separate tasks: at runtime they perform the actual translation from the string passed into them to the final translated string. This is true whether they are provided a literal string, or a variable, or a constant: the lookup is dynamic and real-time during the run of the code. However, they provide an additional non-runtime function: they are recognized by the {{incode|pylupdate}} utility. If (and only if) they contain a string literal, that literal is extracted by the utility. ONLY string literals are extracted by {{incode|pylupdate}} -- if a variable is passed it is ignored by the {{incode|pylupdate}} utility. Qt will attempt to provide a translation at runtime, but this will only work if some other piece of code called one of the translation functions with the literal string that needs to be translated, so that {{incode|pylupdate}} can extract it. Note that the code with the string literal need not actually ever execute, it must simply exist as a line of code in a file somewhere: {{incode|pylupdate}} performs no analysis or code execution, it is simply performing a string search and extraction.
-</div>
+{{incode|translate()}} und {{incode|tr()}} erfüllen zwei separate Aufgaben: Zur Laufzeit führen sie die eigentliche Übersetzung der ihnen übergebenen Zeichenkette in die endgültige übersetzte Zeichenkette durch. Dies gilt unabhängig davon, ob ihnen eine Literalzeichenfolge, eine Variable oder eine Konstante übergeben wird: Die Suche erfolgt dynamisch und in Echtzeit während der Ausführung des Codes. Sie bieten jedoch eine zusätzliche Nicht-Laufzeitfunktion: Sie werden vom Dienstprogramm {{incode|pylupdate}} erkannt. Wenn (und nur wenn) sie eine Literalzeichenfolge enthalten, wird diese Literalzeichenfolge vom Dienstprogramm extrahiert. NUR Literalzeichenfolgen werden von {{incode|pylupdate}} extrahiert – wenn eine Variable übergeben wird, wird sie vom Dienstprogramm {{incode|pylupdate}} ignoriert. Qt versucht, zur Laufzeit eine Übersetzung bereitzustellen, dies funktioniert jedoch nur, wenn ein anderer Codeabschnitt eine der Übersetzungsfunktionen mit der zu übersetzenden Zeichenfolge aufruft, damit {{incode|pylupdate}} diese extrahieren kann. Beachte, dass der Code mit dem Zeichenketten-Literal nicht tatsächlich ausgeführt werden muss, sondern lediglich als Codezeile in einer Datei irgendwo vorhanden sein muss: {{incode|pylupdate}} führt keine Analyse oder Codeausführung durch, sondern lediglich eine Zeichenketten-Suche und -Extraktion.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In contrast, {{incode|QT_TRANSLATE_NOOP}} and {{incode|QT_TR_NOOP}} do nothing at all at runtime: they are literal "no-ops", and are completely ignored by running code. Their only use is to mark a literal string for extraction by {{incode|pylupdate}}: it never makes sense to place a variable within a call to one of these functions, it will have no effect. They are used in circumstances where {{incode|translate()}} or {{incode|tr()}} will be called with a variable containing the text to translate. For example, any code that is used to create a Command or a Property will use a NOOP-type function around the command menu text or tooltip, or the property docstring: at runtime when FreeCAD displays these items to the user it calls {{incode|translate()}}: the literal strings must have been extracted by {{incode|pylupdate}} at the point of creation, for example:
-</div>
+Im Gegensatz dazu führen {{incode|QT_TRANSLATE_NOOP}} und {{incode|QT_TR_NOOP}} zur Laufzeit überhaupt keine Aktion aus: Sie sind wörtlich „No-Ops“ und werden vom ausgeführten Code vollständig ignoriert. Ihr einziger Zweck besteht darin, eine Literalzeichenfolge für die Extraktion durch {{incode|pylupdate}} zu markieren: Es macht niemals Sinn, eine Variable in einen Aufruf einer dieser Funktionen einzufügen, da dies keine Wirkung hat. Sie werden in Fällen verwendet, in denen {{incode|translate()}} oder {{incode|tr()}} mit einer Variablen aufgerufen wird, die den zu übersetzenden Text enthält. Beispielsweise verwendet jeder Code, der zum Erstellen eines Befehls oder einer Eigenschaft verwendet wird, eine NOOP-Funktion um den Befehlsmenütext oder den Tooltip oder den Eigenschafts-Docstring herum: Zur Laufzeit, wenn FreeCAD diese Elemente dem Benutzer anzeigt, ruft es {{incode|translate()}} auf: Die Literalzeichenfolgen müssen zum Zeitpunkt der Erstellung durch {{incode|pylupdate}} extrahiert worden sein, zum Beispiel:
 
 {{Code|code=
 def GetResources(self):
@@ -248,9 +243,7 @@ def GetResources(self):
     }
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In this usage, at runtime the dictionary returned by this function is literally:
-</div>
+In dieser Verwendung ist das von dieser Funktion zurückgegebene Wörterbuch zur Laufzeit wörtlich:
 
 {{Code|code=
 { 
@@ -261,9 +254,7 @@ In this usage, at runtime the dictionary returned by this function is literally:
 }
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-There is no reference to any type of translation information. When FreeCAD actually displays this information to the user, the pseudo-code is:
-</div>
+Es gibt keinen Verweis auf irgendeine Art von Übersetzungsinformation. Wenn FreeCAD diese Informationen tatsächlich dem Benutzer anzeigt, lautet der Pseudocode:
 
 {{Code|code=
 for command in commands:
@@ -271,21 +262,15 @@ for command in commands:
     menu_text = translate(resources['MenuText'])
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In this case, {{incode|lupdate}} cannot extract any string from the call to {{incode|translate()}} because it refers to a variable. So {{incode|lupdate}} ignores that call, but at runtime Qt searches for the string that's passed to it. As long as someplace in the code there is a call to one of the translation functions with a matching literal string (in this case, in the {{incode|GetResources()}} function), this translation call will succeed.
-</div>
+In diesem Fall kann {{incode|lupdate}} keine Zeichenfolge aus dem Aufruf von {{incode|translate()}} extrahieren, da dieser sich auf eine Variable bezieht. Daher ignoriert {{incode|lupdate}} diesen Aufruf, aber zur Laufzeit sucht Qt nach der Zeichenfolge, die an ihn übergeben wurde. Solange irgendwo im Code ein Aufruf einer der Übersetzungsfunktionen mit einer übereinstimmenden Literalzeichenfolge vorhanden ist (in diesem Fall in der Funktion {{incode|GetResources()}}), ist dieser Übersetzungsaufruf erfolgreich.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To verify that the expected strings are being extracted, you can manually run the {{incode|pylupdate}} command:
-</div>
+Um zu überprüfen, ob die erwarteten Zeichenfolgen extrahiert werden, kann der Befehl {{incode|pylupdate}} manuell ausführt werden:
 
 {{Code|code=
 pylupdate myfile.py -ts outfile.ts
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The file {{incode|outfile.ts}} will contain the set of strings that are uploaded to CrowdIn for translation.
-</div>
+Die Datei {{incode|outfile.ts}} enthält die Zeichenfolgen, die zur Übersetzung an CrowdIn hochgeladen werden.
 
 <span id="Important_references"></span>
 == Wichtige Verweise ==
@@ -295,9 +280,11 @@ The file {{incode|outfile.ts}} will contain the set of strings that are uploaded
 <span id="Related_Pages"></span>
 ==Verwandte Seiten==
 
+<div class="mw-translate-fuzzy">
 * [[External_workbenches/de|Externe Arbeitsbereiche]]
 * [[Localisation/de|Lokalisierung]]
 * Eigene Anfragen nach weitere Informationen können hier gestellt werden:[https://forum.freecad.org/viewtopic.php?f=10&t=36413 Translating external workbenches] (engl.).
+</div>
 
 
 {{Userdocnavi{{#translation:}}}}
