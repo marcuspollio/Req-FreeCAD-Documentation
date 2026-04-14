@@ -37,7 +37,9 @@ Vous trouverez tous ces concepts de [https://docs.kicad.org/8.0/fr/ KiCad] dans 
 
 ==Installation==
 
+<div class="mw-translate-fuzzy">
 KicadStepUp fait partie des [[External_workbenches/fr|ateliers externes]] et peut être installé automatiquement à l'aide du [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/fr|Gestionnaire des extensions]], fourni avec FreeCAD 0.17 et ultérieurement, dans le menu {{MenuCommand|Outils → Gestionnaire des extensions}}.
+</div>
 
 <span id="Usage"></span>
 ==Utilisation==
