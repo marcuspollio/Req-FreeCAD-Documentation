@@ -20,7 +20,6 @@ Zu Buchstaben springen: {{CompactTOC|center=yes}}
 
 ==A==
 
-<div class="mw-translate-fuzzy">
 {{gloss}}
 
 {{term|Arc}} > Kreisbogen
@@ -35,7 +34,7 @@ Zu Buchstaben springen: {{CompactTOC|center=yes}}
 {{term|Assembly}} > [[Assembly/de|Zusammenbau]]
 {{defn|no=1|defn=Ein Satz von [[#Part|Bauteilen]] , die definierte Positionen in Bezug zueinander haben (Baugruppe).}}
 {{defn|no=2|defn= Ein [[#Workbench|Arbeitsbereich]], der die Erstellung von Baugruppen ermöglichen soll. 
-FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es gibt mehrere [[External_workbenches/de|externe Arbeitsbereiche]] für Zusammenbauten (Baugruppen).}}
+FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es gibt mehrere [https://www.freecad.org/addons.php externe Arbeitsbereiche] für Zusammenbauten (Baugruppen).}}
 
 {{term|Axes}} > Achsen
 {{defn|defn=Mehrzahl von [[#Axis|Achse]]}}
@@ -44,7 +43,6 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 {{defn|defn=Eine imaginäre Linie duch den Ursprung des Arbeitsbereichs. Es gibt drei zueinander senkrecht stehende Achsen. Sie haben die drei üblichen Namen X, Y und Z. X verläuft horizontal, Y verläuft vertikal und Z verläuft senkrecht zum Zeichnungsblatt bzw. Bildschirm.}}
 
 {{glossend}}
-</div>
 
 ==B==
 
