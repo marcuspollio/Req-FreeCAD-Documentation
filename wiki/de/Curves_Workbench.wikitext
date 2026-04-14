@@ -8,12 +8,13 @@
 [[Image:Curves_workbench_icon.svg|thumb|128px|Symbol des externen Arbeitsbereichs Curves]]
 {{TOCright}}
 
+<div class="mw-translate-fuzzy">
 Der Arbeitsbereich Curves (Kurven) ist ein [[External_workbenches/de|externer Arbeitsbereich]], der auf Python basiert und eine Sammlung von Werkzeugen für NURBS-Kurven und -Oberflächen enthält. Dieser Arbeitsbereich wurde mit FreeCAD-Master und OCC 7.4 entwickelt.
+</div>
 
 Hinweis: Einige Werkzeuge funktionieren möglicherweise nicht mit früheren Versionen.
 
-<span id="Installation"></span>
-==Einrichtung==
+==Installation==
 
 Der Arbeitsbereich Curves kann mit dem [[Image:Std_AddonMgr.svg|24px|link=Std_AddonMgr]] [[Std_AddonMgr/de|Addon-Manager]] heruntergeladen werden: Menüeintrag {{MenuCommand|Werkzeuge → Addon-Manager}} auswählen.
 
@@ -95,9 +96,7 @@ Mit dem letzen update wurde die Reihenfolge der Werkzeuge mit den Menüeinträge
 
 * [[Image:Curves_RotationSweep.svg|32px]] [[Curves_RotationSweep/de|Rotation Sweep]]: Erstellt ein RotationSweep-Objekt durch Austragen eines Profils (Profile-Objekt) entlang eines Spines (Rückgratkurve - Sweep-Path) oder um einen Punkt herum.
 
-<div class="mw-translate-fuzzy">
-* [[Image:Curves_ZebraTool.svg|32px]] [[Curves_SurfaceAnalysis/de|Title]]: <- Wrong Icon and name! - (Curves Oberflächenanalyse) Erstellt visuelle Abbildungen für die Analyse auf ausgewählten Formen.
-</div>
+* [[Image:Curves_SurfaceAnalysis.svg|32px]] [[Curves_SurfaceAnalysis/de|Oberflächenanalyse]]: Erstellt visuelle Abbildungen für die Analyse auf ausgewählten Formen. Dieses Werkzeug zeigt in der GUI ein falsches Symbol und einen falschen Namen.
 
 * [[Image:Curves_DraftAnalysis.svg|32px]] [[Curves_DraftAnalysis/de|Schrägungsanalysis]]: Erstellt eine farbige Überlagerung auf einem Objekt, um die Schrägungswinkel darzustellen.
 
