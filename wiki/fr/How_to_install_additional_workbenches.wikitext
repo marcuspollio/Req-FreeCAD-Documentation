@@ -11,7 +11,9 @@
 
 ==Description==
 
+<div class="mw-translate-fuzzy">
 Les utilisateurs expérimentés enrichissent FreeCAD avec divers [[external_workbenches/fr|ateliers externes]] qui ne sont pas intégrés au code source de base mais qui sont faciles à installer à une distribution FreeCAD existante. Nous allons couvrir ici les méthodes d'installation pour les différents systèmes d'exploitation.
+</div>
 
 {{Emphasis|Remarque :}} à partir de la version 0.17, FreeCAD propose un [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/fr|gestionnaire des extensions]] dans le menu {{MenuCommand|Outils → Gestionnaire des extensions}}. Il permet d'installer à la fois des macros et des ateliers. Les instructions ci-dessous ne sont nécessaires que si vous souhaitez installer manuellement un atelier. Cela peut être nécessaire si, pour une raison quelconque, le Gestionnaire des extensions ne fonctionne pas mais que vous avez accès à l'atelier téléchargé en tant que package {{FileName|.zip}}.
 
