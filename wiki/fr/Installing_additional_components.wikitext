@@ -19,7 +19,9 @@ Voir [[Installing_Helpfile/fr|Installation du fichier d'aide]].
 <span id="External_workbenches"></span>
 = Ateliers externes =
 
+<div class="mw-translate-fuzzy">
 Outre les [[Workbenches/fr|ateliers]] par défaut fournis avec FreeCAD, il existe un bon nombre collection d'[[External_workbenches/fr|ateliers externes]] utiles créés par les membres de la communauté.
+</div>
 
 <span id="Third_party_software"></span>
 =Logiciels tiers=
@@ -121,7 +123,9 @@ Voir [[Import_Export_Preferences/fr#DWG|Préférences Importer/Exporter]] et [[F
 
 ===OpenFOAM===
 
+<div class="mw-translate-fuzzy">
 [https://openfoam.org OpenFOAM] est une collection de bibliothèques pour les simulations en dynamique des fluides (Computational Fluid Dynamics = CFD). OpenFOAM est utilisé par [[Cfd_Workbench/fr|atelier Cfd]] et [https://github.com/jaheyns/CfdOF CfdOF] [[external_workbenches/fr|ateliers externes]].
+</div>
 
 <span id="Related_pages"></span>
 =Pages en relation=
