@@ -20,7 +20,9 @@ Viz [[Installing_Helpfile/cs|Instalace souboru nápovědy]].
 <span id="External_workbenches"></span>
 =Externí pracovní prostředí=
 
+<div class="mw-translate-fuzzy">
 Kromě výchozích [[Workbenches/cs|pracovních ploch]] dodávaných s FreeCADem existuje také velká sbírka užitečných [[External_workbenches/cs|externích pracovních ploch]] vytvořených členy komunity.
+</div>
 
 <span id="Third_party_software"></span>
 =Software třetích stran=
@@ -123,7 +125,9 @@ CalculiX GraphiX, grafické uživatelské rozhraní. FreeCAD podporuje pouze ře
 
 ===OpenFOAM===
 
+<div class="mw-translate-fuzzy">
 [https://openfoam.org OpenFOAM] je rozsáhlá sbírka knihoven pro simulace výpočetní dynamiky tekutin (CFD). OpenFOAM je používán v [[Cfd_Workbench/cs|Cfd]] a [https://github.com/jaheyns/CfdOF CfdOF] [[External_workbenches/cs|externích pracovních prostředích]].
+</div>
 
 <span id="Related_pages"></span>
 =Související stránky=
