@@ -9,7 +9,9 @@
 
 ==Introduction==
 
+<div class="mw-translate-fuzzy">
 L'atelier Lattice2 est un [[External_workbenches/fr|atelier externe]] de FreeCAD qui sert à travailler avec des emplacements et des réseaux d'emplacements. Il s'agit d'une sorte d'atelier d'assemblage mais en mettant l'accent sur les réseaux. Il n'y a pas de contraintes et de relations, il n'y a que des réseaux d'emplacements qui peuvent être générés, combinés, transformés, superposés et peuplés de formes.
+</div>
 
 Vous êtes-vous déjà demandé comment créer un rapporteur avec FreeCAD ? C'est l'objectif de l'atelier (y compris l'étiquetage). L'atelier permet également de réaliser des assemblages éclatés.
 
@@ -154,10 +156,12 @@ Description détaillée sur le [https://github.com/DeepSOIC/Lattice2/wiki GitHub
 <span id="Other_useful_links"></span>
 ==Autres liens intéressants==
 
+<div class="mw-translate-fuzzy">
 * [https://github.com/DeepSOIC/Lattice Atelier Lattice1 (obsolète)]
 * [[External_workbenches/fr|Ateliers externes]] : listes des ateliers de FreeCAD.
 * [[Macros_recipes/fr|Macros]]
 * [[FreeCAD_Community_Portal/fr|FreeCAD Portail communautaire]]
+</div>
 
 
 {{Userdocnavi{{#translation:}}}}
