@@ -5,9 +5,7 @@
 |[[Tutorials/ru|Учебные пособия]]
 }}
 
-<div class="mw-translate-fuzzy">
-На этой странице содержатся ответы на самые часто задаваемые вопросы на форуме FreeCAD. Если у вас есть проблема или вопрос, касающийся FreeCAD, попробуйте найти на него ответ на этой странице. Затем, если вы не смогли найти ответ на ваш специфический вопрос, обратитесь на [http://forum.freecadweb.org/viewforum.php?f=3 форум FreeCAD]!
-</div>
+На этой странице содержатся ответы на самые часто задаваемые вопросы на форуме FreeCAD. Если у вас есть проблема или вопрос, касающийся FreeCAD, попробуйте найти на него ответ на этой странице. Затем, если вы не смогли найти ответ на ваш специфический вопрос, обратитесь на [http://forum.freecad.org/viewforum.php?f=3 форум FreeCAD]!
 
 <span id="Installation"></span>
 == Установка ==
@@ -25,9 +23,7 @@
 <span id="Multithreading"></span>
 ==== Многопоточность ====
 
-<div class="mw-translate-fuzzy">
-Базовое геометрическое ядро FreeCAD, сторонняя библиотека [http://ru.wikipedia.org/wiki/Open_Cascade_Technology OpenCASCADE Technology] (OCCT), [https://forum.freecadweb.org/viewtopic.php?f=4&t=17501&p=173095&hilit=Multithread#p173095 в настоящее время имеет только частичную поддержку многопоточности]. Подробности смотрите на странице [[multithreading/ru|многопоточность]].
-</div>
+Базовое геометрическое ядро FreeCAD, сторонняя библиотека [http://ru.wikipedia.org/wiki/Open_Cascade_Technology OpenCASCADE Technology] (OCCT), [https://forum.freecad.org/viewtopic.php?f=4&t=17501&p=173095&hilit=Multithread#p173095 в настоящее время имеет только частичную поддержку многопоточности]. Подробности смотрите на странице [[multithreading/ru|многопоточность]].
 
 <span id="What_if_I_want_to_compile_FreeCAD_myself?"></span>
 === Что, если Я хочу скомпилировать FreeCAD самостоятельно? ===
@@ -61,9 +57,7 @@ Find known OS-specific issues in this [https://forum.freecad.org/viewtopic.php?t
 <span id="FreeCAD_doesn&#039;t_start_at_all"></span>
 === FreeCAD вообще не запускается ===
 
-<div class="mw-translate-fuzzy">
-Причин может быть много, скорее всего, отсутствует какая-то библиотека. Попробуйте запустить FreeCAD из терминала (введите {{SystemInput|freecad}} в командной строке терминала, {{SystemInput|FreeCAD}} в некоторых системах) чтобы увидеть, появляются ли какие-либо сообщения об ошибках. Кроме того, прочитайте оставшуюся часть данной странице, поскольку это может дать дополнительные сведения для обнаружения проблемы. Если ничего не помогает, расскажите об этом на  [http://forum.freecadweb.org/forum], наверняка найдётся кто-нибудь, кто сможет вам помочь.
-</div>
+Причин может быть много, скорее всего, отсутствует какая-то библиотека. Попробуйте запустить FreeCAD из терминала (введите {{SystemInput|freecad}} в командной строке терминала, {{SystemInput|FreeCAD}} в некоторых системах) чтобы увидеть, появляются ли какие-либо сообщения об ошибках. Кроме того, прочитайте оставшуюся часть данной странице, поскольку это может дать дополнительные сведения для обнаружения проблемы. Если ничего не помогает, расскажите об этом на  [http://forum.freecad.org/forum], наверняка найдётся кто-нибудь, кто сможет вам помочь.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 On some older Windows XP systems you may get an error message like this: {{Emphasis|The application can't start, because the side-by-side configuration is wrong. The reinstallation of the application may solve the problem.}} The reason for this problem is that on your system either the CRT runtime libraries are missing or the version installed is too old because FreeCAD was linked against a newer version. In this case you have to install the {{Emphasis|Microsoft Visual C++ Redistributable Package}} which you'll find at Microsoft. See also the corresponding [https://forum.freecad.org/viewtopic.php?f=3&t=1298&p=9961 forum message].
@@ -389,7 +383,7 @@ Sure. All the artwork (icons, banners, etc.) of FreeCAD are licensed LGPL, same 
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Yes, you can use the core parts of FreeCAD in other applications as long as you comply with the terms of the LGPL. Third party libraries, [[External_workbenches|external workbenches]], and [[Macros|macros]] may be subject to their own license terms, so please consult with their authors. More details on the [[License|License]] page.
+Yes, you can use the core parts of FreeCAD in other applications as long as you comply with the terms of the LGPL. Third party libraries, [https://www.freecad.org/addons.php external workbenches], and [[Macros|macros]] may be subject to their own license terms, so please consult with their authors. More details on the [[License|License]] page.
 </div>
 
 
