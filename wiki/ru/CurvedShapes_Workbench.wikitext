@@ -8,7 +8,7 @@
 <span id="Introduction"></span>
 == Введение ==
 
-Curved Shapes is a FreeCAD [[External_workbenches|external workbench]] that creates 3D shapes from 2D curves. 
+Curved Shapes is a FreeCAD [https://www.freecad.org/addons.php external workbench] that creates 3D shapes from 2D curves. 
 
 ==Installation==
 
@@ -28,7 +28,7 @@ Recommended installation is through the FreeCAD [[Image:Std_AddonMgr.svg|24px|li
 
 * [[Image:CurvedShapes_SurfaceCut.svg|24px|link=CurvedShapes_SurfaceCut]] [[CurvedShapes_SurfaceCut|Surface Cut]]: Cuts a surface to get the outline curve or a face.
 
-* [[Image:CurvedShapes_NotchConnector.svg|24px|link=CurvedShapes_NotchConnector]] [[CurvedShapes_CurvedPathSegment|Notch Connector]]
+* [[Image:CurvedShapes_NotchConnector.svg|24px|link=CurvedShapes_NotchConnector]] [[CurvedShapes_NotchConnector|Notch Connector]]
 
 === Examples ===
 
