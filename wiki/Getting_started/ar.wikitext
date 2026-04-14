@@ -140,11 +140,13 @@
 
 يمكن لأي مستخدم تطوير ميزات جديدة خاصة به لبرنامج FreeCAD وإتاحتها لمجتمع المستخدمين كـ [[Addon/ar|إضافة (addon)]].
 
+<div class="mw-translate-fuzzy">
 هناك ثلاثة أنواع من الإضافات (Addons):
 
 * [[Macros|Macros]]: مقتطف قصير من كود [[Python|Python]] يوفّر أداة جديدة أو وظيفة إضافية، ويكون في ملف واحد ينتهي بالامتداد {{incode|.FCMacro}}.
 * [[External_workbenches|Workbenches]]: مجموعات من ملفات Python توفّر أوامر [[Gui_Command|Gui Commands]] (أدوات) مترابطة، وتتمحور حول موضوع معيّن.
 * [[Preference_Packs|Preference Packs]]: مجموعات قابلة للتوزيع من تفضيلات المستخدم.
+</div>
 
 <span id="Scripting"></span>
 ==البرمجة النصية Scripting ==
