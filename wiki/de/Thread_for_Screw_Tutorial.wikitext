@@ -10,7 +10,7 @@
 }}
 
 <span id="Introduction"></span>
-== Einführung ==
+== Einleitung ==
 
 Dieses Tutorium ist eine Sammlung von Techniken zum Modellieren von Schraubengewinden in FreeCAD. Es wurde für v0.19 aktualisiert, obwohl der Gesamtprozess seit v0.14, als das Tutorial ursprünglich geschrieben wurde, im Wesentlichen gleich geblieben ist. Der aktualisierte Inhalt konzentriert sich auf den Arbeitsbereich  [[File:Workbench_PartDesign.svg|24px]] [[PartDesign_Workbench/de|PartDesign]], um das Gewinde zu erstellen, verwendet aber nicht das Werkzeug [[File:PartDesign_AdditiveHelix.svg|24px]] [[PartDesign_AdditiveHelix|PartDesign WendelHinzufügen]], da dieses erst später eingeführt wurde.
 
@@ -28,7 +28,9 @@ Denke daran, dass Gewindeformen viel Speicherplatz beanspruchen und dass ein ein
 <span id="Method_1._Using_utilities_and_parts_from_workbenches"></span>
 ==Methode 1. Verwendung von Dienstprogrammen und Teilen der Arbeitsbereiche==
 
+<div class="mw-translate-fuzzy">
 Die Verwendung von Dienstprogrammen und Teilen, die andere Leute erstellt haben, ist einfach und zeitsparend. Siehe Seite [[external_workbenches/de|externe Arbeitsbereiche]] für Informationen über externe Werkzeuge.
+</div>
 
 Insbesondere werden drei Quellen empfohlen, die über den [[Std_AddonMgr/de|Addon-Manager]] installiert werden können:
 * Arbeitsbereich [[Fasteners_Workbench/de|Fasteners]], zum Hinzufügen sowie Befestigen verschiedener Verbindungselemente an Bauteilen. Die Schrauben und Muttern zeigen standardmäßig kein Gewinde, aber dies kann mit einer Option gesteuert werden.
