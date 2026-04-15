@@ -22,9 +22,7 @@
 
 L'outil [[Reinforcement_BentShapeRebar/fr|Armature cintrée]] permet à l'utilisateur de créer un ensemble de barres d'armature pliées à l'intérieur d'un objet de [[Arch_Structure/fr|Arch Structure]].
 
-<div class="mw-translate-fuzzy">
-Cette outil fait partie de l'[[Reinforcement_Workbench/fr|atelier Reinforcement]], un [[External_workbenches/fr|atelier externe]] qui peut être installé avec le [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/fr|gestionnaire des extensions]].
-</div>
+Cette outil fait partie de l'[[Reinforcement_Workbench/fr|atelier Reinforcement]], un [https://www.freecad.org/addons.php atelier externe] qui peut être installé avec le [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/fr|gestionnaire des extensions]].
 
 [[Image:Arch_Rebar_BentShape_example.png|400px]]
 {{Caption|Deux jeux d'armatures cintrées à l'intérieur d'une [[Arch_Structure/fr|Arch Structure]]}}
