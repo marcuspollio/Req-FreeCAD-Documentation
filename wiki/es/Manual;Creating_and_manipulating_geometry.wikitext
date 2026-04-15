@@ -25,7 +25,7 @@ Así que lo primero que tenemos que hacer para trabajar con la geometría Pieza,
 import Part 
 }}
 
-Take a moment to explore the Part module by typing '''Part.''' in the Python console and browsing through the available methods and attributes in the autocomplete window. This is a great way to familiarize yourself with the functionality the module offers. You'll find a variety of convenient functions, such as makeBox and makeCircle, which allow you to quickly create geometric shapes and objects with just a single command. Many of these functions also offer optional parameters, giving you precise control over dimensions and placement.
+Tómese un momento para explorar el módulo Part escribiendo '''Part.''' en la consola de Python y revisar los métodos y atributos disponibles en la ventana de autocompletado. Esta es una excelente manera de familiarizarte con la funcionalidad que ofrece el módulo. Encontrará diversas funciones prácticas, como makeBox y makeCircle, que le permitan crear rápidamente formas y objetos geométricos con un solo comando. Muchas de estas funciones también ofrecen parámetros opcionales, lo que te brinda un control preciso sobre las dimensiones y la posición.
 
 
 <div class="mw-translate-fuzzy">
