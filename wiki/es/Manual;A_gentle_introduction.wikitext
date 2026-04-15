@@ -81,9 +81,11 @@ box = doc.addObject("Part::Box", "myBox")
 
 El comando '''box = doc.addObject("Part::Box", "myBox")''' agrega un nuevo objeto de caja 3D al documento. Aquí hay una explicación sencilla:
 
-*'''doc.addObject''': This tells FreeCAD to add a new object to the document.
-*'''Part::Box''': This specifies the type of object to create, in this case, a 3D box.
-*'''myBox''': This assigns a name to the new object, making it easier to identify and reference later.
+*''doc.addObject''': Indica a FreeCAD que añada un nuevo objeto al documento.
+
+*''Part::Box''': Especifica el tipo de objeto a crear; en este caso, una caja 3D.
+
+*''myBox''': Asigna un nombre al nuevo objeto, facilitando su identificación y referencia posterior.
 
 The result of this command is that a box appears in the active document, and the variable box stores a reference to it so you can modify or interact with it later. Our box is added in the tree view, but nothing happens in the 3D view yet, because when working from Python, the document is never recomputed automatically. We must do that manually, whenever required:
 
