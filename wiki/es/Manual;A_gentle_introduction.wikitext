@@ -182,7 +182,7 @@ otherpla.Base = FreeCAD.Vector(5, 5, 0)
 box.Placement = otherpla
 }}
 
-Here is a short breakdown of the above commands:
+Aquí tienes un breve desglose de los comandos anteriores:
 
 * '''print(box.Placement)''': Imprime la ubicación de la caja, incluyendo su posición, rotación y orientación en el espacio 3D.
 
