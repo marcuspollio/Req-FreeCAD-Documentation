@@ -79,9 +79,7 @@ Aquí tenéis un desglose de los comandos anteriores:
 
 Observe cómo manejamos '''myObj.Shape'''. Se hizo de la misma manera que en el capítulo anterior, donde modificamos otras propiedades de un objeto, como '''box.Height = 5'''. De hecho, '''Shape''' también es una propiedad, al igual que '''Height'''. Sin embargo, en lugar de aceptar un número, '''Shape''' requiere una característica de la forma. En el próximo capítulo, analizaremos con más detalle cómo se construyen estos objetos paramétricos.
 
-<div class="mw-translate-fuzzy">
-Por ejemplo, vamos a encontrar el área de cada cara de nuestra forma de caja anterior:
-</div>
+Por ahora, exploremos las formas de las piezas con más detalle. En el capítulo sobre modelado tradicional con el Entorno de trabajo de piezas, presentamos una tabla que explica cómo se construyen las formas de las piezas y los diferentes componentes que las conforman, como '''vértices''', '''aristas''' y '''caras'''. Estos mismos componentes están disponibles al trabajar con las formas de las piezas en Python, lo que permite una exploración y manipulación detallada de la geometría. Las formas de las piezas en FreeCAD siempre tienen los siguientes atributos:
 
 * '''Vertexes''': Points in 3D space that define the corners or endpoints of geometry.
 * '''Edges''': Straight or curved lines connecting two vertexes.
