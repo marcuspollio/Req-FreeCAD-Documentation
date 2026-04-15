@@ -69,7 +69,7 @@ FreeCAD.ActiveDocument.recompute()
 
 Aquí tenéis un desglose de los comandos anteriores:
 
-*'''boxShape = Part.makeBox(3,5,7)''': Creates a 3D box with dimensions 3x5x7 (length, width, and height) and stores it as a Part Shape in the variable boxShape. This shape exists only in memory and is not yet part of the FreeCAD document.
+*''boxShape = Part.makeBox(3,5,7)''': Crea una caja 3D con dimensiones 3x5x7 (largo, ancho y alto) y la almacena como una forma de pieza en la variable boxShape. Esta forma existe solo en la memoria y aún no forma parte del documento de FreeCAD.
 
 * '''myObj = FreeCAD.ActiveDocument.addObject("Part::Feature", "MyNewBox")''': Adds a new Part::Feature object named "MyNewBox" to the active FreeCAD document and assigns it to the variable myObj. The new object will appear in the FreeCAD document tree.
 
