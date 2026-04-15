@@ -19,10 +19,13 @@ Además, la amplia adopción de Python en otras aplicaciones, como [https://www.
 
 In FreeCAD, Python scripting enables you to:
 
-* Automate repetitive tasks to save time and reduce errors.
-* Create custom parametric objects that dynamically adapt to changes.
-* Develop personalized macros and tools tailored to specific workflows.
-* Interact with FreeCAD’s Application Programming Interface (API) to access and manipulate geometry, scenes, and user interface elements programmatically.
+* Automatice tareas repetitivas para ahorrar tiempo y reducir errores.
+
+* Cree objetos paramétricos personalizados que se adapten dinámicamente a los cambios.
+
+* Desarrolle macros y herramientas personalizadas adaptadas a flujos de trabajo específicos.
+
+* Interactúe con la interfaz de programación de aplicaciones (API) de FreeCAD para acceder y manipular geometría, escenas y elementos de la interfaz de usuario mediante programación.
 
 By leveraging Python, FreeCAD users can unlock the full potential of the software, transforming it into a powerful and flexible tool tailored to their unique needs.
 
