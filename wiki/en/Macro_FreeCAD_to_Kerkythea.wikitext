@@ -1,14 +1,7 @@
 <languages/>
 
-{{Macro
-|Name=FC to Kerkythea
-|Icon=Macro_FreeCAD_to_Kerkythea.png
-|Description=Macro to export your model to the raytracing program [https://kerkythea.net/ Kerkythea].
-|Author=marmni
-|Version=1.0
-|Date=2015-05-30
-|FCVersion=0.17 and above
-|Download=[https://wiki.freecad.org/images/8/8c/Macro_FreeCAD_to_Kerkythea.png ToolBar Icon]
+{{VeryImportantMessage|This page is obsolete. Check the [https://github.com/marmni/FreeCAD-Kerkythea Addon] instead.
+''Note that the addon is not maintained & deindexed.''
 }}
 
 ==Description==
