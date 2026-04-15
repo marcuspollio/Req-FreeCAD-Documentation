@@ -144,9 +144,7 @@ En FreeCAD, los vectores se utilizan ampliamente para crear y manipular objetos.
 
 Comprender los vectores y su funcionamiento es fundamental para la creación de scripts y la eficaz personalización en FreeCAD. Por ejemplo, los vectores se utilizan para referenciar y ubicar objetos, definir su orientación o incluso calcular las trayectorias para operaciones complejas como barridos o superficies de transición.
 
-<div class="mw-translate-fuzzy">
-'''Leer más'''
-</div>
+En FreeCAD, los vectores se representan mediante la clase '''Vector''', que proporciona diversos métodos y propiedades para realizar operaciones y acceder a sus componentes. Dominar estas capacidades mejorará significativamente su habilidad para interactuar de manera programada con el entorno 3D de FreeCAD. En FreeCAD, los vectores funcionan de la siguiente manera:
 
 {{Code|code=
 myvec = FreeCAD.Vector(2, 0, 0)
