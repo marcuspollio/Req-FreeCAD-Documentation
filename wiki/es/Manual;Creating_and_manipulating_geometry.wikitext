@@ -71,7 +71,7 @@ Aquí tenéis un desglose de los comandos anteriores:
 
 *''boxShape = Part.makeBox(3,5,7)''': Crea una caja 3D con dimensiones 3x5x7 (largo, ancho y alto) y la almacena como una forma de pieza en la variable boxShape. Esta forma existe solo en la memoria y aún no forma parte del documento de FreeCAD.
 
-* '''myObj = FreeCAD.ActiveDocument.addObject("Part::Feature", "MyNewBox")''': Adds a new Part::Feature object named "MyNewBox" to the active FreeCAD document and assigns it to the variable myObj. The new object will appear in the FreeCAD document tree.
+* '''myObj = FreeCAD.ActiveDocument.addObject("Part::Feature", "MyNewBox")''': Agrega un nuevo objeto Part::Feature llamado "MyNewBox" al documento FreeCAD activo y lo asigna a la variable myObj. El nuevo objeto aparecerá en el árbol del documento FreeCAD.
 
 * '''myObj.Shape = boxShape''': Links the boxShape geometry to the Shape property of myObj, integrating the geometry into the FreeCAD document.
 
