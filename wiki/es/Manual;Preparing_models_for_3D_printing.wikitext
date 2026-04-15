@@ -65,12 +65,13 @@ Todo el manejo de la malla, en FreeCAD, se hace mediante otro ambiente de trabaj
 [[Image:Exercise_meshing_01.jpg]]
 </div>
 
-* Let's convert the Lego piece we created in the last chapter into an STL mesh. The geometry can be downloaded at the end of said chapter.
-* Open the FreeCAD file containing the Lego piece.
-* Switch to the [[Mesh_Workbench|Mesh Workbench]]
-* Select the Lego brick
-* Select menu '''Meshes → Create Mesh from Shape'''
-* A task panel will open with several options. Some additional meshing algorithms (Mefisto or Netgen) might not be available, depending on how your version of FreeCAD was compiled. The Standard meshing algorithm will always be present. It offers fewer possibilities than the two others, but is totally sufficient for small objects that fit into the maximum print size of a 3D printer.
+* Vamos a convertir la pieza de Lego que creamos en el capítulo anterior en una malla STL. La geometría se puede descargar al final de dicho capítulo.
+
+* Abra el archivo de FreeCAD que contiene la pieza de Lego.
+* Cambie al [[Mesh_Workbench|Mesh Workbench]]
+* Seleccione el ladrillo de Lego.
+* Seleccione el menú '''Mallas → Crear malla a partir de forma'''.
+* Se abrirá un panel de tareas con varias opciones. Algunos algoritmos de mallado adicionales (Mefisto o Netgen) podrían no estar disponibles, dependiendo de cómo se haya compilado su versión de FreeCAD. El algoritmo de mallado estándar siempre estará presente. Ofrece menos posibilidades que los otros dos, pero es totalmente suficiente para objetos pequeños que se ajusten al tamaño máximo de impresión de una impresora 3D.
 
 [[File:FreeCAD MeshLego.png]]
 
