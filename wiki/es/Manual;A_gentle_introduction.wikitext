@@ -65,7 +65,7 @@ Ahora volvamos a nuestro documento. Veamos qué podemos hacer con él. Teclea lo
 doc.
 }}
 
-In FreeCAD, the naming conventions for Python commands can help you understand their purpose:
+En FreeCAD, las convenciones de nomenclatura para los comandos de Python pueden ayudarte a comprender su propósito:
 
 * Names that begin with an upper-case letter are typically attributes, which store values or data, such as properties of an object.
 * Names that begin with a lower-case letter are usually functions (also called methods), which perform actions or operations, such as creating or modifying objects.
