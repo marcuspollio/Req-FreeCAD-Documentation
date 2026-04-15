@@ -55,7 +55,7 @@ En la consola de Python de FreeCAD, al escribir FreeCAD. (la palabra "FreeCAD" s
 
 [[File:FreeCAD python newDocument.png]]
 
-Typing '''FreeCAD.newDocument()''' creates a new, empty document in FreeCAD, just like clicking the '''New Document''' button in the toolbar. When you execute '''doc = FreeCAD.newDocument()''', the new document object is assigned to the variable '''doc''', allowing you to manipulate it programmatically. By using doc, you can add objects, change properties, or save the document.
+Al escribir '''FreeCAD.newDocument()''' se crea un documento nuevo y vacío en FreeCAD, al igual que al hacer clic en el botón '''Nuevo documento''' de la barra de herramientas. Al ejecutar '''doc = FreeCAD.newDocument()''', el nuevo objeto del documento se asigna a la variable '''doc''', lo que permite manipularlo mediante programación. Con doc, puede añadir objetos, cambiar propiedades o guardar el documento.
 
 In Python, the dot (.) is used to indicate that one element is contained within another. For example, '''newDocument''' is a function within the '''FreeCAD module''', which is why we write FreeCAD.newDocument. The autocomplete window that appears shows everything available within the FreeCAD module. If you were to type a dot after newDocument (without adding the parentheses), it would display everything that belongs to the newDocument function. This illustrates how Python organizes and accesses objects and their components. It's important to note that the parentheses are mandatory when calling a Python function, as they signal the execution of the function.
 
