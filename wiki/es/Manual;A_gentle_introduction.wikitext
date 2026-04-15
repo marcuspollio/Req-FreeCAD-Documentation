@@ -129,7 +129,7 @@ box.Length
 
 En FreeCAD, las propiedades visuales se gestionan mediante un objeto de vista (ViewObject). Cada objeto de FreeCAD tiene un ViewObject asociado, que almacena información sobre cómo se muestra el objeto en la interfaz gráfica, como el color, la transparencia o la visibilidad. Sin embargo, el ViewObject solo es accesible cuando FreeCAD se ejecuta con su interfaz gráfica. Si FreeCAD se inicia en modo no gráfico, por ejemplo, desde una terminal con la opción de línea de comandos -c o cuando se utiliza como biblioteca de Python en un script externo, el ViewObject no está disponible. Esto se debe a que en estos modos no hay una representación visual del objeto, ya que la interfaz gráfica no está cargada.
 
-Try the following example to access the line color of our box:
+Pruebe el siguiente ejemplo para acceder al color de la línea de nuestra caja:
 
 {{Code|code=
 box.ViewObject.LineColor
