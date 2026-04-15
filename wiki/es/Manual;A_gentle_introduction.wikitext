@@ -97,7 +97,7 @@ Ahora nuestra caja ha aparecido en la vista 3D. Muchos de los botones de la barr
 
 [[Archivo:FreeCAD python Sphere.png]]
 
-You can get a list of all possible object types like Part::Box:
+Puedes obtener una lista de todos los tipos de objetos posibles como Part::Box:
 
 {{Code|code=
 doc.supportedTypes()
