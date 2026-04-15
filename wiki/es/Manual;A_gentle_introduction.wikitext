@@ -142,7 +142,7 @@ Los vectores son un concepto fundamental en cualquier aplicación 3D. Un vector 
 
 En FreeCAD, los vectores se utilizan ampliamente para crear y manipular objetos. Permiten realizar una amplia gama de operaciones matemáticas, como suma, resta, producto vectorial, producto escalar y proyecciones. Estas operaciones permiten calcular distancias, ángulos y direcciones, así como definir relaciones entre objetos en el espacio.
 
-Understanding vectors and how they work is essential for effective scripting and customization in FreeCAD. For example, vectors are used to position objects, define their orientation, or even calculate the paths for complex operations like sweeps or lofts.
+Comprender los vectores y su funcionamiento es fundamental para la creación de scripts y la eficaz personalización en FreeCAD. Por ejemplo, los vectores se utilizan para referenciar y ubicar objetos, definir su orientación o incluso calcular las trayectorias para operaciones complejas como barridos o superficies de transición.
 
 <div class="mw-translate-fuzzy">
 '''Leer más'''
