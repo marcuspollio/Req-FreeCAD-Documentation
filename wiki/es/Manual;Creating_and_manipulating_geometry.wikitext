@@ -34,9 +34,7 @@ Dedicar cierto tiempo a explorar el contenido del módulo no solo le ayudará a 
 Part.makeBox(3,5,7) 
 }}
 
-<div class="mw-translate-fuzzy">
-Entrar en Cuando presione Entrar después de escribir la línea anterior, no aparecerá nada en la vista 3D, pero se imprimirá algo como esto en la consola de Python:
-</div>
+Este comando crea una caja 3D, también conocida como prisma rectangular, con dimensiones específicas. El primer parámetro, 3, define la longitud de la caja a lo largo del eje X. El segundo parámetro, 5, establece el ancho a lo largo del eje Y, y el tercer parámetro, 7, especifica la altura a lo largo del eje Z. Si bien esta función genera la geometría de la caja, no la agrega automáticamente al documento FreeCAD activo. En la consola de Python verá lo siguiente:
 
 {{Code|code=
 <Solid object at 0x5f43600> 
