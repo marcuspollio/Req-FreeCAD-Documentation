@@ -79,7 +79,7 @@ Esta distinción te ayuda a navegar por la API de FreeCAD y seleccionar el coman
 box = doc.addObject("Part::Box", "myBox")
 }}
 
-The command '''box = doc.addObject("Part::Box", "myBox")''' adds a new 3D box object to the document. Here's a simple explanation:
+El comando '''box = doc.addObject("Part::Box", "myBox")''' agrega un nuevo objeto de caja 3D al documento. Aquí hay una explicación sencilla:
 
 *'''doc.addObject''': This tells FreeCAD to add a new object to the document.
 *'''Part::Box''': This specifies the type of object to create, in this case, a 3D box.
