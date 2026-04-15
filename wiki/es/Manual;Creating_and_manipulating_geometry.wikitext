@@ -140,9 +140,7 @@ A continuación, una breve explicación de los comandos anteriores: *'''print(bo
 
 *'''print(boxShape.Vertexes[2].ShapeType)''': Accede al tercer vértice en la lista '''Vertexes''' de '''boxShape''' (índice 2) e imprime su tipo de forma. Dado que se trata de un punto específico en el espacio 3D, la salida será "Vertex".
 
-<div class="mw-translate-fuzzy">
-Así que para retomar el tema de las Formas Pieza: Todo comienza con los vértices. Con uno o dos vértices, se forma una Arista (los círculos completos sólo tienen un vértice). Con una o más aristas, se forma un hilo. Con uno o más hilos cerrados, se forma una cara (los hilos adicionales se convierten en "agujeros" en la cara). Con una o más Caras, se forma una Cáscara. Cuando una carcasa está completamente cerrada (hermética), se puede formar un sólido a partir de ella. Y, por último, se puede unir cualquier número de formas de cualquier tipo, lo que se denomina un compuesto.
-</div>
+Para resumir el concepto de Partes de la Forma: Todo comienza con los '''Vértices''', los elementos más básicos de la geometría. Usando uno o dos '''Vértices''', puedes crear una '''Arista''' (ten en cuenta que los círculos completos solo requieren un '''Vértice'''). Una o más '''Aristas''' pueden formar un '''cable''', que puede ser abierto o cerrado. Cuando tienes uno o más '''cables''' cerrados, puedes crear una '''Cara'''. Los '''cables''' adicionales dentro del '''cable''' principal actuarán como "agujeros" en la '''Cara'''. Combinando una o más '''Caras''' puedes construir una '''Cáscara''', que es esencialmente una colección de superficies conectadas. Si una '''Cáscara''' está completamente cerrada y es impermeable, se puede usar para formar un '''Sólido''', un objeto 3D con volumen. Finalmente, cualquier número de formas de cualquier tipo, incluyendo '''Vértices''', '''Aristas''', '''Alámbricos''', '''Caras''', '''Cáscaras''' o '''Sólidos''', se pueden agrupar en un '''Compuesto''', que actúa como un contenedor para múltiples formas.
 
 Ahora podemos intentar crear formas complejas desde cero, construyendo todos sus componentes uno a uno. Por ejemplo, intentemos crear un volumen como éste:
 
