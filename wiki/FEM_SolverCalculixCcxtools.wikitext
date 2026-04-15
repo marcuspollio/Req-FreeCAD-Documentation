@@ -73,11 +73,6 @@ Default values can be set in the menu {{MenuCommand|Edit → Preferences → FEM
 ** true - incrementation control will be automatic
 ** false - automatic incrementation control will be switched off by the DIRECT parameter
 
-<!--T:41-->
-* {{PropertyData|Beam Reduced Integration}} - {{Version|1.0}}:
-** true - uses beam elements with reduced integration (B31R or B32R), required when pipe beam section is used, can also make it possible to obtain [https://forum.freecad.org/viewtopic.php?t=61233 accurate results with plasticity]
-** false - uses regular (fully-integrated) beam elements
-
 <!--T:47-->
 * {{PropertyData|Buckling Accuracy}} - {{Version|1.1}}: defines the accuracy of buckling eigenvalue evaluation. In most cases it can be left with the default value (0.01) but sometimes it might be necessary to lower it (e.g. to 0.0001) to capture the first eigenvalue.
 
@@ -157,6 +152,11 @@ Default values can be set in the menu {{MenuCommand|Edit → Preferences → FEM
 * {{PropertyData|Pastix Mixed Precision}}:
 ** false - mixed precision is not used by the PaStiX solver
 ** true - mixed precision is used by the PaStiX solver, may cause issues with results in some cases
+
+<!--T:41-->
+* {{PropertyData|Reduced Integration}} - {{Version|1.2}}:
+** true - uses hexahedral, quadrilateral or beam elements with reduced integration, in the case of beams they are required when pipe section is used and to obtain [https://forum.freecad.org/viewtopic.php?t=61233 accurate results with plasticity]
+** false - uses regular (fully-integrated) hexahedral, quadrilateral or beam elements
 
 <!--T:29-->
 * {{PropertyData|Split Input Writer}}:
