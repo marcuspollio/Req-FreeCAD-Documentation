@@ -22,9 +22,7 @@
 
 L'outil [[Reinforcement_BeamRebars/fr|Armature pour poutre]] permet à l'utilisateur de créer des armatures à l'intérieur d'un objet poutre de [[Arch_Structure/fr|Arch Structure]].
 
-<div class="mw-translate-fuzzy">
-Cet outil fait partie de l'[[Reinforcement_Workbench/fr|atelier Reinforcement]], un [[External_workbenches/fr|atelier externe]] qui peut être installé avec le [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/fr|gestionnaire des extensions]].
-</div>
+Cet outil fait partie de l'[[Reinforcement_Workbench/fr|atelier Reinforcement]], un  [https://www.freecad.org/addons.php atelier externe] qui peut être installé avec le [[Image:Std_AddonMgr.svg|24px]] [[Std_AddonMgr/fr|gestionnaire des extensions]].
 
 [[Image:Arch_Rebar_BeamReinforcement_example.png]]
 {{Caption|Armatures de poutre à l'intérieur d'une poutre de [[Arch Structure/fr|Arch Structure]]}}
