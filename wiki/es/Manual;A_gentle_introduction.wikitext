@@ -36,7 +36,8 @@ FreeCAD incluye una consola Python avanzada, accesible a través de '''Ver → P
 
 En este capítulo, descubriremos de forma general el lenguaje Python. Si le interesa aprender más, la wiki de documentación de FreeCAD tiene una sección extensa relacionada con la programación en Python ([[Power_users_hub|Python programming]]).
 
-=== Writing Python code ===
+<span id="Writing_Python_code"></span>
+=== Escribiendo código Python ===
 
 En FreeCAD, puedes escribir código Python de dos maneras principales: a través de la consola de Python ({{MenuCommand|View → Panels → Python Console}}) o usando el editor de macros ({{MenuCommand|Macro → Macros → Create}}). La consola de Python te permite introducir comandos uno a uno, que se ejecutan inmediatamente al pulsar Intro, lo que la hace perfecta para pruebas rápidas o exploración interactiva. El editor de macros, por otro lado, se utiliza para escribir y guardar scripts más complejos que constan de varias líneas de código. Estas macros se pueden ejecutar completas posteriormente desde la ventana Macros, lo que proporciona una forma eficaz de automatizar tareas repetitivas y ampliar la funcionalidad de FreeCAD. En este capítulo, podrás usar ambos métodos, pero se recomienda encarecidamente usar la consola de Python, ya que te informará inmediatamente de cualquier error que cometas al escribir.
 
