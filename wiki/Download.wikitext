@@ -28,17 +28,17 @@ Previous versions can be downloaded from the [https://github.com/FreeCAD/FreeCAD
 
 [[Installing_on_Mac|Install instructions]]
 
-[https://github.com/FreeCAD/FreeCAD/releases/download/1.1.0/FreeCAD_1.1.1-macOS-arm64-py311.dmg ARM (M-series) disk image]
+[https://github.com/FreeCAD/FreeCAD/releases/download/1.1.1/FreeCAD_1.1.1-macOS-arm64-py311.dmg ARM (M-series) disk image]
 
-[https://github.com/FreeCAD/FreeCAD/releases/download/1.1.0/FreeCAD_1.1.1-macOS-x86_64-py311.dmg Intel disk image]
+[https://github.com/FreeCAD/FreeCAD/releases/download/1.1.1/FreeCAD_1.1.1-macOS-x86_64-py311.dmg Intel disk image]
 
 | align=center | [[Image:Linux_with_text.png]]
 
 [[Installing_on_Linux|Install instructions]]
 
-[https://github.com/FreeCAD/FreeCAD/releases/download/1.1.0/FreeCAD_1.1.1-Linux-x86_64-py311.AppImage x86_64 AppImage]
+[https://github.com/FreeCAD/FreeCAD/releases/download/1.1.1/FreeCAD_1.1.1-Linux-x86_64-py311.AppImage x86_64 AppImage]
 
-[https://github.com/FreeCAD/FreeCAD/releases/download/1.1.0/FreeCAD_1.1.1-Linux-aarch64-py311.AppImage aarch64 AppImage]
+[https://github.com/FreeCAD/FreeCAD/releases/download/1.1.1/FreeCAD_1.1.1-Linux-aarch64-py311.AppImage aarch64 AppImage]
 
 |}
 <translate>
@@ -80,7 +80,7 @@ More information about FreeCAD's environment variables can be found on [[Start_u
 
 <!--T:4-->
 FreeCAD's development is active.
-* For development builds and development source code, see the [https://github.com/FreeCAD/FreeCAD/releases weekly build releases]. Weekly builds are available for Linux, MacOS, and Windows there.
+* For development builds and development source code, see the [https://github.com/FreeCAD/FreeCAD/releases weekly build releases]. Weekly builds are available for Linux, MacOS, and Windows there. For Linux, daily builds are also available: use the [[Ubuntu_Snap|snap package]]'s edge channel or the [https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-daily FreeCAD daily PPA] (the latter only for Debian-based distributions).
 * To compile the latest source code, see [[Compiling|compiling]].
 
 == Additional modules and macros == <!--T:44-->
