@@ -73,7 +73,7 @@ En FreeCAD, las convenciones de nomenclatura para los comandos de Python pueden 
 
 * Los nombres que comienzan con un guion bajo (_) generalmente se utilizan internamente dentro del módulo y suelen ignorarse.
 
-This distinction helps you navigate FreeCAD’s API and select the appropriate command for your needs. For example, you might use a method to add a new object to a document. The method performs the action of creating and adding the object, while attributes store the object's properties. Understanding this structure makes it easier to explore the functionality available, especially when using the autocomplete feature or reading tooltips. Let's add a box.
+Esta distinción te ayuda a navegar por la API de FreeCAD y seleccionar el comando adecuado para tus necesidades. Por ejemplo, podrías usar un método para agregar un nuevo objeto a un documento. El método realiza la acción de crear y agregar el objeto, mientras que los atributos almacenan las propiedades del objeto. Comprender esta estructura facilita la exploración de la funcionalidad disponible, especialmente al usar la función de autocompletar o leer las sugerencias de herramientas. Agreguemos un cuadro.
 
 {{Code|code=
 box = doc.addObject("Part::Box", "myBox")
