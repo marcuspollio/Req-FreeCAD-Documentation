@@ -134,8 +134,7 @@ print(boxShape.Faces[0].ShapeType)
 print(boxShape.Vertexes[2].ShapeType)
 }}
 
-Here is a short explanation of the above commands:
-*'''print(boxShape.ShapeType)''': Displays the type of the top-level shape represented by '''boxShape'''. In this case, since '''boxShape''' was created as a box using '''Part.makeBox''', the output will be "Solid", indicating that the shape is a 3D solid object.
+A continuación, una breve explicación de los comandos anteriores: *'''print(boxShape.ShapeType)''': Muestra el tipo de la forma de nivel superior representada por '''boxShape'''. En este caso, dado que '''boxShape''' se creó como una caja usando '''Part.makeBox''', el resultado será "Solid", lo que indica que la forma es un objeto sólido 3D.
 
 *'''print(boxShape.Faces[0].ShapeType)''': Accesses the first face in the '''Faces''' list of '''boxShape''' (index 0) and prints its shape type. For a box, each face is a flat surface, so the output will be "Face".
 
