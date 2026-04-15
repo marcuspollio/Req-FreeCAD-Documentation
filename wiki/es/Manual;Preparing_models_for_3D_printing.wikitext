@@ -37,9 +37,7 @@ En las siguientes secciones, asumiremos que ya ha creado modelos sólidos con la
 <span id="Exporting_to_slicers"></span>
 === Exportación a slicers ===
 
-<div class="mw-translate-fuzzy">
-Esta es la técnica más utilizada para impresión 3D. El objeto 3D se exporta a otro programa (el slicer) que generará el  G-code del objeto, cortándolo en finas capas (de ahí el nombre), que reproducirán los movimientos que hará la impresora 3D. Como muchas de esas impresoras son de fabricación casera, suele haber pequeñas diferencias entre unas y otras. Estos programas suelen ofrecer posibilidades de configuración avanzadas que permiten adaptar la salida exactamente a las características de su impresora 3D.
-</div>
+La técnica más común para preparar un modelo 3D  creado para impresión consiste en exportar el objeto 3D desde FreeCAD a un software especializado conocido como laminador. El laminador genera código G dividiendo el modelo en capas finas, que la impresora 3D seguirá para construir el objeto capa a capa. Dado que muchas impresoras 3D, especialmente las de fabricación casera o para aficionados, tienen configuraciones únicas, los programas de laminado ofrecen una amplia gama de ajustes avanzados. Estos ajustes permiten personalizar parámetros clave, como la altura de capa, la velocidad de impresión, la densidad de relleno y las estructuras de soporte, asegurando que el código G se adapte a las características y capacidades específicas de la impresora.
 
 <div class="mw-translate-fuzzy">
 La impresión 3D real, sin embargo, es un tema demasiado amplio para este manual. Pero veremos cómo exportar y utilizar estos cortadores para comprobar que la salida es correcta.
