@@ -33,7 +33,7 @@ L'outil [[Image:Sketcher_BSplineIncreaseKnotMultiplicity.svg|24px]] [[Sketcher_B
 <span id="Example"></span>
 ==Exemple==
 
-Les B-splines sont essentiellement une combinaison de [[B-Splines/fr#Courbes_de_B.C3.A9zier|courbes de Bézier]] (bien expliquées dans les vidéos [https://www.youtube.com/watch?v=bE1MrrqBAl8 ici] et [https://www.youtube.com/watch?v=xXJylM2S72s ici]). Les points où deux courbes de Bézier sont connectés sont appelés des noeuds. Un noeud de multiplicité ''m'' sur une B-spline de degré ''d'' signifie que la courbe à gauche et à droite du noeud a au moins une dérivée d'ordre égal à ''n'' (appelée continuité ''C''<sup>''n'') où ''n = d - m''.
+Les B-splines sont essentiellement une combinaison de [[B-Splines/fr#Courbes_de_B.C3.A9zier|courbes de Bézier]] (bien expliquées dans les vidéos [https://www.youtube.com/watch?v=bE1MrrqBAl8 ici] et [https://www.youtube.com/watch?v=xXJylM2S72s ici]). Les points où deux courbes de Bézier sont connectés sont appelés des noeuds. Un noeud de multiplicité ''m'' sur une B-spline de degré ''d'' signifie que la courbe à gauche et à droite du noeud a au moins une dérivée d'ordre égal à ''n'' (appelée continuité ''C<sup>n</sup>'') où ''n = d - m''.
 
 Dans cette B-spline cubique (degré 3), il y a 3 segments, ce qui signifie que 3 courbes sont connectées à 2 nœuds. Les nœuds ont une multiplicité de 1.
 
