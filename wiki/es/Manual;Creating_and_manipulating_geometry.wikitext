@@ -28,9 +28,7 @@ import Part
 Tómese un momento para explorar el módulo Part escribiendo '''Part.''' en la consola de Python y revisar los métodos y atributos disponibles en la ventana de autocompletado. Esta es una excelente manera de familiarizarte con la funcionalidad que ofrece el módulo. Encontrará diversas funciones prácticas, como makeBox y makeCircle, que le permitan crear rápidamente formas y objetos geométricos con un solo comando. Muchas de estas funciones también ofrecen parámetros opcionales, lo que te brinda un control preciso sobre las dimensiones y la posición.
 
 
-<div class="mw-translate-fuzzy">
-Tómese un minuto para explorar el contenido del módulo Pieza, escribiendo Pieza. y navegando por los diferentes métodos disponibles. El módulo Pieza ofrece varias funciones convenientes como makeBox, makeCircle, etc... que construirán instantáneamente un objeto para usted. Pruebe esto, por ejemplo:
-</div>
+Dedicar cierto tiempo a explorar el contenido del módulo no solo le ayudará a comprender las herramientas que tiene a su disposición, sino que también le permitirá entender cómo funciona internamente el Entorno de trabajo de piezas. Este conocimiento fundamental le resultará decisivo a medida que avancemos y comencemos a crear y manipular geometría mediante programación. Escribe el siguiente comando.
 
 {{Code|code=
 Part.makeBox(3,5,7) 
