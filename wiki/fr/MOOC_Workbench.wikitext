@@ -6,9 +6,7 @@
 
 == Introduction ==
 
-<div class="mw-translate-fuzzy">
-L'atelier MOOC est un [[External_workbenches/fr|atelier externe]] avec lequel vous pouvez suivre des didacticiels interactifs et faire l'évaluation de votre travail directement dans l'interface FreeCAD. L'atelier MOOC propose 2 outils: des tutoriels interactifs et des évaluations.
-</div>
+L'atelier MOOC est un [https://www.freecad.org/addons.php atelier externe] avec lequel vous pouvez suivre des tutoriels interactifs et faire l'évaluation de votre travail directement dans l'interface FreeCAD. L'atelier MOOC propose 2 outils : des tutoriels interactifs et des évaluations.
 
 * Actuellement uniquement en français (et codé en dur).
 * Compatible uniquement avec FreeCAD Py3 et Qt5 (PySide2)
