@@ -111,7 +111,7 @@ for f in boxShape.Faces:
    print(f.Area)
 }}
 
-Or, for each edge, its start point and end point:
+O bien, para cada arista, su punto de inicio y su punto final:
 
 {{Code|code=
 for e in boxShape.Edges:
