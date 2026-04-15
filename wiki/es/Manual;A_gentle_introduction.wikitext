@@ -121,7 +121,7 @@ Esto imprimirá la altura actual de nuestra caja. Ahora intentemos cambiarla:
 box.Height = 5
 }}
 
-If you select your box with the mouse, you will see that in the properties panel, under the '''Data''' tab, our '''Height''' property appears with the new value. All properties of a FreeCAD object that appear in the '''Data''' and '''View''' tabs are directly accessible by Python too, by their names, like we did with the Height property. Data properties are accessed directly from the object itself, for example:
+Si selecciona el cuadro con el ratón, verá que en el panel de propiedades, en la pestaña '''Datos''', aparece nuestra propiedad '''Altura''' con el nuevo valor. Todas las propiedades de un objeto FreeCAD que aparecen en las pestañas '''Datos''' y '''Vista''' también son directamente accesibles desde Python, por sus nombres, como hicimos con la propiedad Altura. Se accede a las propiedades de datos directamente desde el propio objeto, por ejemplo:
 
 {{Code|code=
 box.Length
