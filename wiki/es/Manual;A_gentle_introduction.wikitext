@@ -115,7 +115,7 @@ Enseguida verás un par de cosas muy interesantes, como por ejemplo:
 box.Height
 }}
 
-This will print the current height of our box. Now let's try to change that:
+Esto imprimirá la altura actual de nuestra caja. Ahora intentemos cambiarla:
 
 {{Code|code=
 box.Height = 5
