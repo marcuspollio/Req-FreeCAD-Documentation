@@ -184,12 +184,17 @@ box.Placement = otherpla
 
 Here is a short breakdown of the above commands:
 
-* '''print(box.Placement)''': Prints the placement of the box, which includes its position, rotation, and orientation in 3D space.
-* '''print(box.Placement.Base)''': Prints the position (Base) of the box, which is a vector representing its location in 3D space.
-* '''box.Placement.Base = sumvec''': Sets the base position (location) of the box to the vector sumvec, effectively moving the box to this new position.
-* '''otherpla = FreeCAD.Placement()''': Creates a new placement object named otherpla.
-* '''otherpla.Base = FreeCAD.Vector(5,5,0)''': Sets the base position of otherpla to a vector at coordinates (5, 5, 0).
-* '''box.Placement = otherpla''': Applies otherpla to the box, updating its placement to the new position and orientation defined by otherpla.
+* '''print(box.Placement)''': Imprime la ubicación de la caja, incluyendo su posición, rotación y orientación en el espacio 3D.
+
+* '''print(box.Placement.Base)''': Imprime la posición (Base) de la caja, que es un vector que representa su ubicación en el espacio 3D.
+
+* '''box.Placement.Base = sumvec''': Establece la posición base (ubicación) de la caja al vector sumvec, moviendo la caja a esta nueva posición.
+
+* '''otherpla = FreeCAD.Placement()''': Crea un nuevo objeto de ubicación llamado otherpla.
+
+* '''otherpla.Base = FreeCAD.Vector(5,5,0)''': Establece la posición base de otherpla a un vector en las coordenadas (5, 5, 0).
+
+* '''box.Placement = otherpla''': Aplica otherpla a la caja, actualizando su ubicación a la nueva posición y orientación definidas por otherpla.
 
 '''Read more'''
 
