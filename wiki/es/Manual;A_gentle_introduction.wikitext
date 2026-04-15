@@ -87,7 +87,7 @@ El comando '''box = doc.addObject("Part::Box", "myBox")''' agrega un nuevo objet
 
 *'''myBox''': Asigna un nombre al nuevo objeto, facilitando su identificación y referencia posterior.
 
-The result of this command is that a box appears in the active document, and the variable box stores a reference to it so you can modify or interact with it later. Our box is added in the tree view, but nothing happens in the 3D view yet, because when working from Python, the document is never recomputed automatically. We must do that manually, whenever required:
+El resultado de este comando es que aparece un cuadro en el documento activo, y la variable `box` almacena una referencia al mismo para que puedas modificarlo o interactuar con él posteriormente. Nuestro cuadro se añade a la vista de árbol, pero aún no ocurre nada en la vista 3D, ya que al trabajar con Python, el documento nunca se recalcula automáticamente. Debemos hacerlo manualmente cuando sea necesario.
 
 {{Code|code=
 doc.recompute()
