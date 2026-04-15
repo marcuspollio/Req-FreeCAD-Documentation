@@ -140,7 +140,7 @@ box.ViewObject.LineColor
 
 Los vectores son un concepto fundamental en cualquier aplicación 3D. Un vector es, esencialmente, una lista de tres números (x, y, z) que describen un punto, una posición o una dirección en el espacio tridimensional. Los vectores son esenciales para definir la geometría, las transformaciones y las interacciones en el entorno 3D. Sirven como elementos básicos para operaciones como traslaciones, rotaciones y escalados.
 
-In FreeCAD, vectors are used extensively for creating and manipulating objects. They enable a wide range of mathematical operations, such as addition, subtraction, cross products, dot products, and projections. These operations allow you to calculate distances, angles, and directions or define relationships between objects in space.
+En FreeCAD, los vectores se utilizan ampliamente para crear y manipular objetos. Permiten realizar una amplia gama de operaciones matemáticas, como suma, resta, producto vectorial, producto escalar y proyecciones. Estas operaciones permiten calcular distancias, ángulos y direcciones, así como definir relaciones entre objetos en el espacio.
 
 Understanding vectors and how they work is essential for effective scripting and customization in FreeCAD. For example, vectors are used to position objects, define their orientation, or even calculate the paths for complex operations like sweeps or lofts.
 
