@@ -46,9 +46,7 @@ Slicers often include additional insights, such as estimating print time, materi
 <span id="Converting_objects_to_meshes"></span>
 === Convertir objetos en mallas ===
 
-<div class="mw-translate-fuzzy">
-Ninguno de los slicers, en este momento, tomará directamente la geometría sólida como la que producimos en FreeCAD. Así que tendremos que convertir cualquier objeto que queramos imprimir en 3D en una [https://es.wikipedia.org/wiki/Malla_poligonal Malla poligonal] primero, que el slicer pueda abrir. Afortunadamente, así como convertir una malla en un sólido es una operación complicada, lo contrario, convertir un sólido en una malla, es muy sencillo. Lo único que debemos tener cuidado, es que es aquí donde se producirá la degradación que mencionamos anteriormente. Debemos comprobar que la degradación se mantiene dentro de unos límites aceptables.
-</div>
+Ninguno de los programas de laminado disponibles actualmente puede aceptar directamente la geometría sólida generada en FreeCAD. Programas como Cura y PrusaSlicer trabajan con formatos basados ​​en mallas poligonales (como STL, OBJ o 3MF), que representan la geometría de la superficie del objeto mediante una red de triángulos. Por lo tanto, para utilizar un modelo creado en FreeCAD, primero debe convertirse a un formato de malla que estos programas puedan interpretar.
 
 <div class="mw-translate-fuzzy">
 Todo el manejo de la malla, en FreeCAD, se hace mediante otro ambiente de trabajo específico, el [[Mesh_Workbench/es|Ambiente de trabajo Malla]]. Este ambiente de trabajo contiene, además de las herramientas más importantes que convierten entre objetos Pieza y Malla, varias utilidades destinadas a analizar y reparar mallas. Aunque el trabajo con mallas no es el objetivo de FreeCAD, cuando se trabaja con el modelado 3D, a menudo se necesita tratar con objetos de malla, ya que su uso está muy extendido entre otras aplicaciones. Este ambiente de trabajo te permite manejarlos completamente en FreeCAD.
