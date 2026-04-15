@@ -196,6 +196,7 @@ ToDo (last check: 20260412):
 * The ''Iterations Control Parameter Field'' property was added to the [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools|CalculiX solver]] to allow adjusting the convergence criteria. [https://github.com/FreeCAD/FreeCAD/pull/29227 Pull request #29227]
 * The ''Beam Reduced Integration'' property of the [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools|CalculiX solver]] was replaced by generalized ''Reduced Integration'' property that replaces standard solid, face (shell, 2D) and beam elements with their reduced integration counterparts. [https://github.com/FreeCAD/FreeCAD/pull/29223 Pull request #29223]
 * The refactored [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools|CalculiX solver]] is now used by default. [https://github.com/FreeCAD/FreeCAD/pull/29220 Pull request #29220]
+* The [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint|Section print]] feature can now be used with the [[Image:FEM_SolverZ88.svg|24px]] [[FEM_SolverZ88|Z88 solver]]. [https://github.com/FreeCAD/FreeCAD/pull/29188 Pull request #29188]
 
 == Inspection Workbench == <!--T:32-->
 
