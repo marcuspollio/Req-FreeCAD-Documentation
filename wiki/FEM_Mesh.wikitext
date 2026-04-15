@@ -38,7 +38,7 @@ Previously, Netgen was included with FreeCAD and could be used immediately. Now,
 == Meshing software == <!--T:21-->
 
 <!--T:28-->
-Meshing software operates on solid bodies that can be in different formats, like Step and Brep. These programs can be used independently of FreeCAD, and typically have many options to control the meshing algorithms, element size, and boundary conditions.
+Meshing software operates on shapes that can be in different formats, like STEP and BREP. These programs can be used independently of FreeCAD, and typically have many options to control the meshing algorithms, element size, and boundary conditions.
 
 <!--T:29-->
 The [[FEM_Workbench|FEM Workbench]] has developed simple communication interfaces to use Gmsh and Netgen directly inside FreeCAD. Other programs don't have an interface, but this could change in the future if there is interest from the community, and if those applications are easy to integrate. The meshing software can be compiled and distributed together with FreeCAD only if its license is compatible with the LGPL2 license; otherwise, the program has to be used as an external binary, like Gmsh (GPL2) is used.
