@@ -73,7 +73,7 @@ Aquí tenéis un desglose de los comandos anteriores:
 
 * '''myObj = FreeCAD.ActiveDocument.addObject("Part::Feature", "MyNewBox")''': Agrega un nuevo objeto Part::Feature llamado "MyNewBox" al documento FreeCAD activo y lo asigna a la variable myObj. El nuevo objeto aparecerá en el árbol del documento FreeCAD.
 
-* '''myObj.Shape = boxShape''': Links the boxShape geometry to the Shape property of myObj, integrating the geometry into the FreeCAD document.
+* '''myObj.Shape = boxShape''': Vincula la geometría boxShape con la propiedad Shape de myObj, integrando la geometría en el documento de FreeCAD.
 
 * '''FreeCAD.ActiveDocument.recompute()''': Updates the document to reflect the changes, ensuring that the new object and its geometry appear in the graphical interface.
 
