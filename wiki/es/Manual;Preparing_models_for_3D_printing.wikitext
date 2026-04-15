@@ -32,7 +32,7 @@ Cuando se imprime en 3D, siempre hay que asegurarse de que esta pérdida de cali
 
 * '''Análisis y calibración de malla''': Antes de exportar el modelo a un programa de laminado o generador de trayectorias CNC, es recomendable realizar un análisis de malla con [[Mesh_Workbench|Mesh Workbench]] de FreeCAD con el objeto de detectar irregularidades, bordes no colectores u otros problemas de malla que puedan complicar el proceso de fabricación. Además, incluso con un modelo perfecto, asegúrese de que su impresora 3D o máquina CNC esté correctamente calibrada (por ejemplo, para la nivelación de la base, la configuración del motor paso a paso o la configuración del extrusor) para evitar problemas de calidad en el producto final.
 
-In the following sections, we'll assume that you've already taken care of creating solid models with the correct dimensions. Our focus will now shift to managing the conversion process to G-Code, ensuring that your model maintains the necessary quality for 3D printing or CNC machining. By addressing these considerations, you'll be better equipped to produce successful physical objects directly from your FreeCAD models.
+En las siguientes secciones, asumiremos que ya ha creado modelos sólidos con las dimensiones correctas. Nos centraremos ahora en gestionar el proceso de conversión a código G, garantizando que su modelo mantenga la calidad necesaria para la impresión 3D o el mecanizado CNC. Al tener en cuenta estos aspectos, estará mejor preparado para producir directamente objetos físicos de calidad a partir de sus modelos de FreeCAD.
 
 <span id="Exporting_to_slicers"></span>
 === Exportación a slicers ===
