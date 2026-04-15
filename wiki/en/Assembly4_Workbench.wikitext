@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-[[Assembly4_Workbench|Assembly4]] is an [https://www.freecad.org/addons.php external workbench] that is used to perform assembly of different bodies contained in a single file or in multiple documents. It was created in the v0.19 development cycle to take advantage of Assembly3 branch's new features, such as the [[App_Link|App Link]] object, and the new [[expressions|expression engine]].
+[[Assembly4_Workbench|Assembly4]] is an [https://www.freecad.org/addons.php external workbench] that is used to perform assembly of different bodies contained in a single file or in multiple documents. It was created in the v0.19 development cycle to take advantage of Assembly3 branch's new features, such as the [[App_Link|App Link]] object, and the new [[Expressions|expression engine]].
 
 It was developed with the idea that a true constraint solver was not needed, and instead the [[expressions|expression engine]] was enough to establish relationships between different local coordinate systems attached to bodies. Thus its prototype name was "Assembly without solver" or AWS.
 
