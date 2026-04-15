@@ -174,9 +174,7 @@ Tenga en cuenta que no necesitamos crear '''Vértices''' explícitamente. En su 
 print(Edge.Curve) 
 }}
 
-<div class="mw-translate-fuzzy">
-te mostrará qué tipo de arista es, es decir, si está basada en una línea, en un arco, etc... Pero volvamos a nuestro ejercicio, y construyamos los segmentos de arco. Para esto, necesitaremos un tercer punto, así que podemos usar el conveniente Part.Arc, que toma 3 puntos:
-</div>
+Esto permite comprender la estructura subyacente del borde y cómo se construyó. Ahora, volvamos a nuestro ejercicio y procedamos a construir los segmentos del arco. Para crear un arco, necesitamos tres puntos: un punto de inicio, un punto final y un punto medio que determine el radio de curvatura. Para ello, podemos usar la eficaz función '''Part.Arc''', que toma estos tres puntos como entrada y genera la geometría base del arco.
 
 [[Image:Circel.png]]
 
