@@ -75,7 +75,7 @@ Aquí tenéis un desglose de los comandos anteriores:
 
 * '''myObj.Shape = boxShape''': Vincula la geometría boxShape con la propiedad Shape de myObj, integrando la geometría en el documento de FreeCAD.
 
-* '''FreeCAD.ActiveDocument.recompute()''': Updates the document to reflect the changes, ensuring that the new object and its geometry appear in the graphical interface.
+* '''FreeCAD.ActiveDocument.recompute()''': Actualiza el documento para reflejar los cambios, asegurando que el nuevo objeto y su geometría aparezcan en la interfaz gráfica.
 
 Note how we handled '''myObj.Shape'''. It was done in the same way as in the previous chapter, where we changed other properties of an object, such as '''box.Height = 5'''. In fact, '''Shape''' is also a property, just like '''Height'''. However, instead of taking a number, '''Shape''' requires a Part Shape. In the next chapter, we will take a closer look at how these parametric objects are constructed.
 
