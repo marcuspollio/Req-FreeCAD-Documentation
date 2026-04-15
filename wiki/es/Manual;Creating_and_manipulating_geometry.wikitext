@@ -138,7 +138,7 @@ A continuación, una breve explicación de los comandos anteriores: *'''print(bo
 
 *'''print(boxShape.Faces[0].ShapeType)''': Accede a la primera cara en la lista '''Faces''' de '''boxShape''' (índice 0) e imprime su tipo de forma. Para una caja, cada cara es una superficie plana, por lo que la salida será "Face".
 
-*'''print(boxShape.Vertexes[2].ShapeType)''': Accesses the third vertex in the '''Vertexes''' list of '''boxShape''' (index 2) and prints its shape type. Since this is a specific point in 3D space, the output will be "Vertex".
+*'''print(boxShape.Vertexes[2].ShapeType)''': Accede al tercer vértice en la lista '''Vertexes''' de '''boxShape''' (índice 2) e imprime su tipo de forma. Dado que se trata de un punto específico en el espacio 3D, la salida será "Vertex".
 
 <div class="mw-translate-fuzzy">
 Así que para retomar el tema de las Formas Pieza: Todo comienza con los vértices. Con uno o dos vértices, se forma una Arista (los círculos completos sólo tienen un vértice). Con una o más aristas, se forma un hilo. Con uno o más hilos cerrados, se forma una cara (los hilos adicionales se convierten en "agujeros" en la cara). Con una o más Caras, se forma una Cáscara. Cuando una carcasa está completamente cerrada (hermética), se puede formar un sólido a partir de ella. Y, por último, se puede unir cualquier número de formas de cualquier tipo, lo que se denomina un compuesto.
