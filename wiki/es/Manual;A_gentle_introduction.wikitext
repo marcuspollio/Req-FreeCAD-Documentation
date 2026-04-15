@@ -27,7 +27,7 @@ In FreeCAD, Python scripting enables you to:
 
 * Interactúe con la interfaz de programación de aplicaciones (API) de FreeCAD para acceder y manipular geometría, escenas y elementos de la interfaz de usuario mediante programación.
 
-By leveraging Python, FreeCAD users can unlock the full potential of the software, transforming it into a powerful and flexible tool tailored to their unique needs.
+Al aprovechar Python, los usuarios de FreeCAD pueden liberar todo el potencial del software, transformándolo en una herramienta potente y flexible adaptada a sus necesidades específicas.
 
 FreeCAD incluye una consola Python avanzada, accesible a través de '''Ver → Paneles → Consola Python'''. Esta herramienta permite a los usuarios realizar operaciones más allá de la interfaz gráfica, como acceder a funciones avanzadas, solucionar problemas de geometría y automatizar tareas. También registra los comandos Python para las acciones de la interfaz gráfica si la opción ''Mostrar comandos de script en la consola Python'' está habilitada en {{MenuCommand|Editar → Preferencias → Python → Macro}}). Al mantener la consola abierta, puede observar cómo se ejecuta el código Python mientras trabaja, lo que ofrece una forma intuitiva de aprender el lenguaje mientras explora las capacidades de FreeCAD. Por último, FreeCAD también cuenta con un sistema de [[Macros|macros system]] que permite grabar acciones para reproducirlas posteriormente. Este sistema también utiliza la consola Python, simplemente registrando todo lo que se hace en ella.
 
