@@ -42,7 +42,8 @@ En FreeCAD, puedes escribir código Python de dos maneras principales: a través
 
 If this is your first time using Python, consider reading this short [[Introduction_to_Python|introduction to Python programming]] before going any further, it will make the basic concepts of Python clearer.
 
-=== Manipulating FreeCAD objects ===
+<span id="Manipulating_FreeCAD_objects"></span>
+=== Manipulación de objetos de FreeCAD ===
 
 Let's start by creating a new empty document:
 
