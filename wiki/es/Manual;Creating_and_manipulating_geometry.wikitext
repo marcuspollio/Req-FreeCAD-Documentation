@@ -168,9 +168,7 @@ L1 = Part.LineSegment(V1,V2)
 L2 = Part.LineSegment(V4,V3)
 }}
 
-<div class="mw-translate-fuzzy">
-Ten en cuenta que no necesitamos crear Vértices. Podríamos crear inmediatamente Part.LineSegments a partir de los Vectores de FreeCAD. Esto se debe a que aquí no hemos creado aristas todavía. Un segmento de línea de pieza (al igual que un círculo de pieza, un arco de pieza, una elipse de pieza o una curva de pieza) no crea una arista, sino una geometría base sobre la que se creará una arista. Las aristas siempre se crean a partir de dicha geometría base, que se almacena en su atributo Curva. Así que si tiene una Arista, haciendo:
-</div>
+Tenga en cuenta que no necesitamos crear '''Vértices''' explícitamente. En su lugar, podríamos crear directamente '''Part.LineSegments''' usando '''FreeCAD Vectors'''. Esto se debe a que en esta etapa estamos trabajando con geometría base, no con '''Aristas''' reales. Un '''Part.LineSegment''', así como '''Part.Circle''', '''Part.Arc''', '''Part.Ellipse''' o '''Part.BSpline''', define la geometría subyacente pero no genera una arista por sí mismo. En FreeCAD, las aristas siempre se construyen a partir de dicha geometría base, que se almacena en el atributo '''Curve''' de '''Edge'''. Esto significa que una arista es esencialmente un contenedor alrededor de la geometría base, heredando sus propiedades. Si tiene una arista, puede acceder a su geometría subyacente haciendo referencia al atributo curve. El siguiente comando:
 
 {{Code|code=
 print(Edge.Curve) 
