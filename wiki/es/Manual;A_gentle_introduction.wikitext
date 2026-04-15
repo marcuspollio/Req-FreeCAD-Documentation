@@ -103,7 +103,7 @@ Puedes obtener una lista de todos los tipos de objetos posibles como Part::Box:
 doc.supportedTypes()
 }}
 
-Now let's explore the contents of our box:
+Ahora vamos a explorar el contenido de nuestra caja:
 
 {{Code|code=
 box.
