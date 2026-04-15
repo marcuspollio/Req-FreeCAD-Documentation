@@ -67,9 +67,11 @@ doc.
 
 En FreeCAD, las convenciones de nomenclatura para los comandos de Python pueden ayudarte a comprender su propósito:
 
-* Names that begin with an upper-case letter are typically attributes, which store values or data, such as properties of an object.
-* Names that begin with a lower-case letter are usually functions (also called methods), which perform actions or operations, such as creating or modifying objects.
-* Names that begin with an underscore (_) are generally intended for internal use within the module and can usually be ignored.
+* Los nombres que comienzan con mayúscula suelen ser atributos, que almacenan valores o datos, como las propiedades de un objeto.
+
+* Los nombres que comienzan con minúscula suelen ser funciones (también llamadas métodos), que realizan acciones u operaciones, como crear o modificar objetos.
+
+* Los nombres que comienzan con un guion bajo (_) generalmente se utilizan internamente dentro del módulo y suelen ignorarse.
 
 This distinction helps you navigate FreeCAD’s API and select the appropriate command for your needs. For example, you might use a method to add a new object to a document. The method performs the action of creating and adding the object, while attributes store the object's properties. Understanding this structure makes it easier to explore the functionality available, especially when using the autocomplete feature or reading tooltips. Let's add a box.
 
