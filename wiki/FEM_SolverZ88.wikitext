@@ -65,8 +65,8 @@ To use the Z88 solver, the open-source version of Z88 (Z88OS or Z88Adria - see [
 ** plate - uses 3D plate elements
 * {{PropertyData|Shell Flag}} - IHFLAG value: set to 2 or 3 for thin shells and to 4 for very thin shells
 * {{PropertyData|Analysis Type}}:
-** static
-** test
+** static - regular linear static analysis
+** test - provides information about the solver parameters - this information is loaded into the text document object
 * {{PropertyData|Displace Mesh}} - deform the mesh by the displacement field
 * {{PropertyData|Integration Order Hexa}} - displacement integration order for hexa elements
 * {{PropertyData|Integration Order Quad}} - displacement integration order for quad elements
