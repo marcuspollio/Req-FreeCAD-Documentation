@@ -58,7 +58,7 @@ In this case, we manually created a shape using the '''Part.makeBox()''' functio
 Observe como manejamos miObj.Shape , note que se hace exactamente como lo hicimos en el capítulo anterior, cuando cambiamos otras propiedades de un objeto, como box.Height = 5 . De hecho, '''Forma''' también es una propiedad, al igual que '''Altura''''. Sólo que toma una Forma Pieza, no un número. En el próximo capítulo veremos mejor cómo se construyen estos objetos paramétricos.
 </div>
 
-We can now easily create a "generic" document object in the current document (make sure you have at least one new document open), and give it a box shape like the one we just made:
+Ahora podemos crear fácilmente un objeto de documento "genérico" en el documento actual (asegúrese de tener al menos un documento nuevo abierto) y darle una forma de caja como la que acabamos de crear:
 
 {{Code|code=
 boxShape = Part.makeBox(3,5,7)
@@ -121,7 +121,9 @@ for e in boxShape.Edges:
    print(e.Vertexes[1].Point)
 }}
 
+<div class="mw-translate-fuzzy">
 Como ves, si nuestra boxShape tiene un atributo "Vértices", cada arista de la boxShape también tiene un atributo "Vértices". Como podemos esperar, la boxShape tendrá 8 vértices, mientras que la arista sólo tendrá 2, que son ambos parte de la lista de 8.
+</div>
 
 Siempre podemos comprobar cuál es el tipo de una forma:
 
