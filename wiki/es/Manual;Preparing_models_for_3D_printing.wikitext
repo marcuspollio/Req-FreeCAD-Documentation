@@ -24,7 +24,7 @@ Si has sido precavido al modelar, la mayor parte de las dificultades que puedes 
 Cuando se imprime en 3D, siempre hay que asegurarse de que esta pérdida de calidad se mantiene por debajo de los requisitos mínimos.
 </div>
 
-* '''Confirming the Accuracy of Dimensions''': Precision is critical—what you design in FreeCAD will translate directly to real-world measurements. A millimeter in FreeCAD is a millimeter in the physical object, so each dimension must be carefully considered and verified to ensure accuracy.
+'''Confirmación de la exactitud de las dimensiones''': La precisión es fundamental: lo que diseñe en FreeCAD se traducirá directamente en medidas del mundo real. Un milímetro en FreeCAD equivale a un milímetro en el objeto físico, por lo que cada dimensión debe considerarse y verificarse cuidadosamente para garantizar su exactitud.
 
 * '''Managing Degradation''': It's important to remember that no 3D printer or CNC mill can directly process FreeCAD files. These machines use G-Code, a machine language with various dialects depending on the machine or vendor. The process of converting your model into G-Code can often be done automatically through slicer software, but you also have the option to do it manually for greater control. However, during this conversion, some loss of detail or quality is inevitable, particularly when converting the model to a mesh format for printing. You must ensure that this degradation remains within acceptable limits and doesn’t affect the functionality or appearance of your final object.
 
