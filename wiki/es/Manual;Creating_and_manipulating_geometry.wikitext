@@ -42,9 +42,7 @@ Este comando crea una caja 3D, también conocida como prisma rectangular, con di
 
 El mensaje '''<Objeto sólido en 0x5f43600>''' indica que se ha creado una forma de pieza en la memoria. Se trata de un objeto geométrico almacenado en una dirección de memoria específica, como lo muestra el valor hexadecimal (0x5f43600). Sin embargo, es importante tener en cuenta que lo que hemos creado aún no es un objeto de documento de FreeCAD; existe únicamente como una forma geométrica básica en la memoria.
 
-<div class="mw-translate-fuzzy">
-Ahora podemos crear fácilmente un objeto de documento "genérico" en el documento actual (asegúrate de tener al menos un documento nuevo abierto), y darle una forma de caja como la que acabamos de hacer:
-</div>
+Esta distinción destaca un concepto fundamental en FreeCAD: los objetos y su geometría son independientes. Un objeto de documento de FreeCAD actúa como un contenedor que alberga una forma. Estos objetos pueden tener propiedades adicionales, como longitud, anchura y altura, y pueden ser paramétricos. Los objetos paramétricos recalculan su geometría (o forma) dinámicamente cada vez que cambia alguna de sus propiedades. Por ejemplo, al modificar la longitud de una caja paramétrica, su forma se reconstruirá automáticamente con el valor actualizado.
 
 En este caso, creamos manualmente una forma usando la función '''Part.makeBox()'''. Esta forma es un objeto no paramétrico, lo que significa que no se actualiza automáticamente según ninguna propiedad; es estática a menos que la manipulemos mediante programación. Para que esta forma forme parte del documento FreeCAD activo, sería necesario asignarla a un objeto de documento (como '''Part::Feature'''), lo que la vincularía a la interfaz gráfica y la haría visible y manejable dentro del entorno FreeCAD.
 
