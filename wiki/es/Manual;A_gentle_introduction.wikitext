@@ -45,7 +45,7 @@ Si es la primera vez que usa Python, considere leer esta breve [[Introducción_a
 <span id="Manipulating_FreeCAD_objects"></span>
 === Manipulación de objetos de FreeCAD ===
 
-Let's start by creating a new empty document:
+Comencemos creando un nuevo documento vacío:
 
 {{Code|code=
 doc = FreeCAD.newDocument()
