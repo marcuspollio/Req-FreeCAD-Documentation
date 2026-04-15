@@ -93,7 +93,7 @@ El resultado de este comando es que aparece un cuadro en el documento activo, y 
 doc.recompute()
 }}
 
-Now our box has appeared in the 3D view. Many of the toolbar buttons that add objects in FreeCAD actually do two things: add the object, and recompute. Try now adding a sphere with the appropriate button in the Part Workbench, and you will see the two lines of Python code being executed one after the other.
+Ahora nuestra caja ha aparecido en la vista 3D. Muchos de los botones de la barra de herramientas para añadir objetos en FreeCAD realizan dos acciones: añadir el objeto y recalcular. Intente ahora añadir una esfera con el botón correspondiente en el Entorno de trabajo (Part Workbench) de piezas y verá cómo se ejecutan las dos líneas de código Python una tras otra.
 
 [[File:FreeCAD python Sphere.png]]
 
