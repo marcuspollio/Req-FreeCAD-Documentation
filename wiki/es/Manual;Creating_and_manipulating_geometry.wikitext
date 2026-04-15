@@ -93,7 +93,7 @@ Por ahora, exploremos las formas de las piezas con más detalle. En el capítulo
 
 * '''Sólidos''': Volúmenes 3D delimitados por una o más cáscaras.
 
-All of these attributes are represented as lists in Python. Each list can contain any number of elements or be empty, depending on the shape being explored. For example, a box will have eight '''Vertexes''', twelve '''Edges''', six '''Faces''', one '''Shell''', and one '''Solid''', while a line will only have two '''Vertexes''' and one '''Edge''', with all other attributes being empty. These components are fundamental building blocks of Part geometry and can be accessed and manipulated programmatically. Understanding how they interact provides powerful control over the creation and modification of 3D models. We can access those lists as follows:
+En Python, todos estos atributos se representan como listas. Cada lista puede contener cualquier número de elementos o estar vacía, dependiendo de la forma que se esté analizando. Por ejemplo, una caja tendrá ocho '''Vértices''', doce '''Aristas''', seis '''Caras''', una '''Cáscara''' y un '''Sólido''', mientras que una línea solo tendrá dos '''Vértices''' y una '''Arista''', estando todos los demás atributos vacíos. Estos componentes son bloques de construcción fundamentales de la geometría de las piezas y se puede acceder a ellos y manipularlos mediante programación. Comprender cómo interactúan proporciona un poderoso control sobre la creación y modificación de modelos 3D. Podemos acceder a esas listas de la siguiente manera:
 
 {{Code|code=
 print(boxShape.Vertexes)
