@@ -73,7 +73,7 @@ Todo el manejo de la malla, en FreeCAD, se hace mediante otro ambiente de trabaj
 * Seleccione el menú '''Mallas → Crear malla a partir de forma'''.
 * Se abrirá un panel de tareas con varias opciones. Algunos algoritmos de mallado adicionales (Mefisto o Netgen) podrían no estar disponibles, dependiendo de cómo se haya compilado su versión de FreeCAD. El algoritmo de mallado estándar siempre estará presente. Ofrece menos posibilidades que los otros dos, pero es totalmente suficiente para objetos pequeños que se ajusten al tamaño máximo de impresión de una impresora 3D.
 
-[[File:FreeCAD MeshLego.png]]
+[[Archivo:FreeCAD MeshLego.png]]
 
 <div class="mw-translate-fuzzy">
 * Seleccione el mallado '''Estándar''', y deje el valor de la desviación en el valor por defecto de '''0,10'''. Pulse '''Ok'''.
