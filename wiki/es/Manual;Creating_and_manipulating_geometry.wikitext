@@ -104,9 +104,7 @@ print(boxShape.Shells)
 print(boxShape.Solids)
 }}
 
-<div class="mw-translate-fuzzy">
-O, para cada arista, su punto inicial y su punto final:
-</div>
+Calculemos el área de cada cara de la figura cuadrada que se muestra arriba: (Asegúrese de aplicar sangría a la segunda línea, tal como aparece a continuación. Presione Enter dos veces después de la última línea para ejecutar el comando de Python).
 
 {{Code|code=
 for f in boxShape.Faces:
