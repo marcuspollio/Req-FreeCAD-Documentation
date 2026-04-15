@@ -4,9 +4,7 @@ Si vous êtes nouveau dans FreeCAD, il y a de fortes chances que vous vous deman
 
 Les ateliers sont des ensembles d'outils, de boutons, de panneaux et d'autres éléments d'interface regroupés. Il s'agit en quelque sorte d'une application à l'intérieur d'une application. Dans FreeCAD, les ateliers regroupent généralement un ensemble d'outils adaptés à un usage particulier, comme le dessin 2D, la conception d'objets 3D, la conception de bateaux, la conception de trajectoires de robots, la conception de bâtiments, et bien plus encore.
 
-<div class="mw-translate-fuzzy">
-FreeCAD est livré avec plusieurs [[Workbenches/fr|ateliers intégrés]], mais de [[External_workbenches/fr|nombreux autres ateliers sont disponibles]] et peuvent être facilement installés via le [[Std_AddonMgr/fr|gestionnaire des extensions]].
-</div>
+FreeCAD est livré avec plusieurs [[Workbenches/fr|ateliers intégrés]], mais de [https://www.freecad.org/addons.php nombreux autres ateliers sont disponibles] et peuvent être facilement installés via le [[Std_AddonMgr/fr|gestionnaire des extensions]].
 
 Les nouveaux utilisateurs de FreeCAD commencent généralement par utiliser et apprendre un ou deux ateliers particuliers, puis explorent d'autres domaines de FreeCAD et ajoutent les outils qu'ils trouvent intéressants. Cependant, avant de plonger dans des ateliers particuliers, assurez-vous de lire les pages [[Getting_started/fr|Démarrer avec FreeCAD]] et [[Manual:Navigating_in_the_3D_view/fr|Manuel : Navigation dans la vue 3D]] car elles fournissent des connaissances génériques dont vous aurez besoin partout dans FreeCAD. Le [[Manual:Introduction/fr|Manuel : Introduction]] est un autre bon moyen de découvrir FreeCAD pas à pas, de manière linéaire.
 
