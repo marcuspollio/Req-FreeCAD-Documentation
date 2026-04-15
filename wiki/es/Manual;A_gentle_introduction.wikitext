@@ -51,7 +51,7 @@ Let's start by creating a new empty document:
 doc = FreeCAD.newDocument()
 }}
 
-In the FreeCAD Python console, as soon as you type FreeCAD. (the word "FreeCAD" followed by a dot), an autocomplete window appears. This feature not only speeds up your workflow by suggesting available commands but also helps you discover new functions and features within FreeCAD. Each entry in the list includes a tooltip explaining its purpose, making it easier to understand and explore the available functionality. This autocomplete feature is especially helpful for beginners learning Python scripting and for advanced users navigating FreeCAD’s extensive API efficiently. Take a moment to explore the options in the autocomplete window—you may uncover commands that simplify your workflow or open up new possibilities.
+En la consola de Python de FreeCAD, al escribir FreeCAD. (la palabra "FreeCAD" seguida de un punto), aparece una ventana de autocompletado. Esta función no solo agiliza tu flujo de trabajo, al sugerir los comandos disponibles, sino que también te ayuda a descubrir nuevas funciones y características de FreeCAD. Cada entrada de la lista incluye una información sobre herramientas explicando su propósito, lo que facilita la comprensión y exploración de la funcionalidad disponible. Esta función de autocompletado es especialmente útil para quienes se inician en la programación con Python y para usuarios avanzados que navegan con eficiencia por la extensa API de FreeCAD. Tómate un momento para explorar las opciones en la ventana de autocompletado: podrías descubrir comandos que simplifiquen tu flujo de trabajo o te abran nuevas posibilidades.
 
 [[File:FreeCAD python newDocument.png]]
 
