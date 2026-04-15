@@ -81,12 +81,17 @@ Observe cómo manejamos '''myObj.Shape'''. Se hizo de la misma manera que en el 
 
 Por ahora, exploremos las formas de las piezas con más detalle. En el capítulo sobre modelado tradicional con el Entorno de trabajo de piezas, presentamos una tabla que explica cómo se construyen las formas de las piezas y los diferentes componentes que las conforman, como '''vértices''', '''aristas''' y '''caras'''. Estos mismos componentes están disponibles al trabajar con las formas de las piezas en Python, lo que permite una exploración y manipulación detallada de la geometría. Las formas de las piezas en FreeCAD siempre tienen los siguientes atributos:
 
-* '''Vertexes''': Points in 3D space that define the corners or endpoints of geometry.
-* '''Edges''': Straight or curved lines connecting two vertexes.
-* '''Wires''': Closed or open loops formed by one or more connected edges.
-* '''Faces''': Surfaces enclosed by one or more wires.
-* '''Shells''': Groups of connected faces, forming a continuous surface.
-* '''Solids''': 3D volumes enclosed by one or more shells.
+* '''Vértices''': Puntos en el espacio 3D que definen las esquinas o los extremos de una geometría.
+
+* '''Aristas''': Líneas rectas o curvas que conectan dos vértices.
+
+* '''Cables''': Bucles cerrados o abiertos formados por una o más aristas conectadas.
+
+* '''Caras''': Superficies delimitadas por uno o más cables.
+
+* '''Cáscaras''': Grupos de caras conectadas que forman una superficie continua.
+
+* '''Sólidos''': Volúmenes 3D delimitados por una o más cáscaras.
 
 All of these attributes are represented as lists in Python. Each list can contain any number of elements or be empty, depending on the shape being explored. For example, a box will have eight '''Vertexes''', twelve '''Edges''', six '''Faces''', one '''Shell''', and one '''Solid''', while a line will only have two '''Vertexes''' and one '''Edge''', with all other attributes being empty. These components are fundamental building blocks of Part geometry and can be accessed and manipulated programmatically. Understanding how they interact provides powerful control over the creation and modification of 3D models. We can access those lists as follows:
 
