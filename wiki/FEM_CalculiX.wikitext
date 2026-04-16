@@ -56,6 +56,7 @@ The CalculiX interface supports the following objects:
 ** quadrilateral: CPS4(R), CPS8(R), CPE4(R), CPE8(R), CAX4(R), CAX8(R)
 * 3D beam and truss: B31(R), B32(R), T3D2, T3D3
 
+<!--T:26-->
 More details about the supported CalculiX elements can be found on the [[FEM_Mesh_CalculiX|FEM Mesh CalculiX]] page.
 
 === Analysis === <!--T:23-->
