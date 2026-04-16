@@ -1030,9 +1030,7 @@ El modo puede tener los siguientes valores:
 
 3 -- Solo lectura y oculto
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The attributes can also be set using a list of strings, e.g. {{incode|obj.setEditorMode("Placement", ["ReadOnly", "Hidden"])}}.
-</div>
+Los atributos también se pueden configurar usando una lista de cadenas, por ejemplo, {{incode|obj.setEditorMode("Placement", ["ReadOnly", "Hidden"])}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Attributes set using {{Incode|setEditorMode}} can be removed by the user. See [[Property_editor#Context_menu|Property editor]]. Note that read-only properties can still be changed from Python.
