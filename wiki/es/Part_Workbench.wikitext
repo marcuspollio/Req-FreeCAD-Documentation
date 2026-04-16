@@ -22,9 +22,7 @@ Las sólidas capacidades de modelado de FreeCAD se basan en la [[OpenCASCADE/es|
 
 El entorno de trabajo de piezas también permite crear objetos que no sean sólidos tales como caras y superficies, además de objetos con solo aristas o vértices. También proporciona diversas herramientas de uso general para la manipulación y validación de geometría, así como la creación de copias.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Workbench]] uses an alternative workflow for creating solids. For a detailed discussion of the Part Workbench versus the Part Design Workbench see [[Part_and_PartDesign|Part and Part Design]].
-</div>
+El [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Workbench]] utiliza un flujo de trabajo alternativo para la creación de sólidos. Para una explicación detallada de la diferencia entre Part Workbench y Part Design Workbench, consulte [[Part_and_PartDesign|Part and Part Design]].
 
 [[Image:Part_Workbench_Example.jpg]]
 
