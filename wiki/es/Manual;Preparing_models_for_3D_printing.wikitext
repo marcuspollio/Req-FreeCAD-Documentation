@@ -128,11 +128,7 @@ Antes de comenzar a eliminar el material sobrante, ajustemos la fresadora. Si bi
 
 * Una vez que presione '''Aplicar''', podrá ver las líneas verdes alrededor del objeto. Estas líneas visualizan la trayectoria que seguirá nuestro objeto de corte al cortar el bloque inicial.
 
-<div class="mw-translate-fuzzy">
-* El archivo STL generado en este ejercicio: https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/lego.stl
-* El archivo generado en este ejercicio: https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/path.FCStd
-* El archivo de G-code generado en este ejercicio: https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/lego.gcode
-</div>
+[[File:FreeCAD CAMProfile.png]]
 
 * Nuestro siguiente paso es crear los 6 cilindros extruidos en la parte superior del bloque de Lego.
 
