@@ -19,7 +19,7 @@ TechDraw Workbench permite crear hojas, que pueden estar en blanco o utilizar un
 
 Las hojas de dibujo, una vez terminadas, se pueden imprimir o exportar como archivos [https://en.wikipedia.org/wiki/Scalable_Vector_Graphics SVG], PDF o [https://en.wikipedia.org/wiki/AutoCAD_DXF DXF].
 
-In the following exercise, we will see how to create a simple drawing of a chair model found in the [https://github.com/FreeCAD/FreeCAD-library FreeCAD library] (Industrial Design → Chairs → IkeaLikeChair). The FreeCAD library can easily be added to your FreeCAD installation (refer to the [[Manual:Installing|installing]] chapter of this manual), or you can simply download the model from the library webpage, or via the direct link provided at the bottom of this chapter.
+En el siguiente ejercicio, veremos cómo crear un dibujo sencillo de un modelo de silla que se encuentra en la biblioteca de FreeCAD [https://github.com/FreeCAD/FreeCAD-library] (Diseño Industrial → Sillas → Silla tipo Ikea). La biblioteca de FreeCAD se puede añadir fácilmente a su instalación de FreeCAD (consulte el capítulo [[Manual:Instalación|Instalación]] de este manual), o bien puede descargar el modelo desde la página web de la biblioteca o mediante el enlace directo que se proporciona al final de este capítulo.
 
 [[Image:Exercise_TechDraw_01.png]]
 
