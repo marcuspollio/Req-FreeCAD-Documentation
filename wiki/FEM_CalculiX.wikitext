@@ -30,7 +30,7 @@ The [[FEM_SolverControl|FEM Control Solver]] tool manages the whole process. Use
 == Preprocessing interface == <!--T:21-->
 
 <!--T:4-->
-The input file that CalculiX uses can be prepared and edited before the solver is started. CalculiX doesn't use units and it's user's responsibility to ensure that the same unit system is used consistently in the whole input deck. The units in which FreeCAD writes the input file are independent of the unit system set in FreeCAD's project or preferences. The input file is always written using the SI(mm) unit system:
+The input file that CalculiX uses can be prepared and edited before the solver is started. CalculiX doesn't use units and it's the user's responsibility to ensure that the same unit system is used consistently in the whole input deck. The units in which FreeCAD writes the input file are independent of the unit system set in FreeCAD's project or preferences. The input file is always written using the SI(mm) unit system:
 * length: mm,
 * force: N,
 * mass: tonne,
