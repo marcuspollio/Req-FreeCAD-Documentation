@@ -1032,9 +1032,7 @@ El modo puede tener los siguientes valores:
 
 Los atributos también se pueden configurar usando una lista de cadenas, por ejemplo, {{incode|obj.setEditorMode("Placement", ["ReadOnly", "Hidden"])}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Attributes set using {{Incode|setEditorMode}} can be removed by the user. See [[Property_editor#Context_menu|Property editor]]. Note that read-only properties can still be changed from Python.
-</div>
+Los atributos establecidos mediante {{Incode|setEditorMode}} pueden ser eliminados por el usuario. Consulte [[Property_editor#Context_menu|Editor de propiedades]]. Tenga en cuenta que las propiedades de solo lectura aún pueden modificarse desde Python.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 You can also set these, and more, attributes directly with the {{Incode|addProperty}} function. Attributes set with that function cannot be changed by the user. An interesting possibility is to mark a property as an output property. This way FreeCAD won't mark the object as touched when changing it (so no need to recompute).
