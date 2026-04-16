@@ -125,9 +125,15 @@ Antes de comenzar a eliminar el material sobrante, ajustemos la fresadora. Si bi
 
 [[File:FreeCAD toolController.png]]
 
-<div class="mw-translate-fuzzy">
-'''Descargas''''
-</div>
+* Haga doble clic en la herramienta y cambie su diámetro a 1 mm.
+
+* Ahora estamos listos para comenzar a eliminar el material sobrante del bloque, esculpiendo gradualmente la geometría de Lego. Este proceso utilizará las trayectorias de herramienta que definimos, asegurando que la forma final coincida con el diseño previsto.
+
+* Haga clic en [[Image:CAM_Profile.svg|16px]] [[CAM_Profile|Profile]]. Esta opción se utiliza para esculpir el material innecesario alrededor del perímetro de la pieza, dando forma a los límites exteriores para lograr las dimensiones generales de la pieza de Lego.
+
+* Normalmente no tendrá que cambiar ninguno de los valores predeterminados, excepto el '''Extra Offset''' ubicado en la pestaña Operación. Establezca esta opción en 1 mm para asegurar que el objeto restante corresponda correctamente a los límites de Lego.
+
+* Una vez que presione '''Aplicar''', podrá ver las líneas verdes alrededor del objeto. Estas líneas visualizan la trayectoria que seguirá nuestro objeto de corte al cortar el bloque inicial.
 
 <div class="mw-translate-fuzzy">
 * El archivo STL generado en este ejercicio: https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/lego.stl
