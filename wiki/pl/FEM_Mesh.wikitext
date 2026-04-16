@@ -27,9 +27,7 @@ Poprzednio, Netgen był dołączony do programu FreeCAD i można było z niego k
 <span id="Meshing_software"></span>
 == Oprogramowanie do tworzenia siatek ==
 
-<div class="mw-translate-fuzzy">
-Oprogramowanie do tworzenia siatek operuje na bryłach, które mogą się różnić formatami, jak Step i Brep. Te programy mogą być używane niezależnie od FreeCAD i zwykle mają wiele opcji do sterowania algorytmami tworzenia siatki, rozmiarem elementów i warunkami brzegowymi.
-</div>
+Oprogramowanie do tworzenia siatek operuje na kształtach, które mogą się różnić formatami, jak STEP i BREP. Te programy mogą być używane niezależnie od FreeCAD i zwykle mają wiele opcji do sterowania algorytmami tworzenia siatki, rozmiarem elementów i warunkami brzegowymi.
 
 Środowisko pracy [[FEM_Workbench/pl|MES]] posiada prosty interfejs komunikacji aby używać Gmsh i Netgen bezpośrednio we FreeCAD. Inne programy nie mają interfejsu, ale może to ulec zmianie w przyszłości jeśli będzie zainteresowanie ze strony społeczności i jeśli te programy będą łatwe do zintegrowania. Programy do tworzenia siatek można komplikować i dystrybuować razem z FreeCAD tylko jeśli ich licencje są kompatybilne z licencją LGPL2, inaczej program musi być używany jako zewnętrzna biblioteka, tak jak Gmsh (licencja GPL2).
 
