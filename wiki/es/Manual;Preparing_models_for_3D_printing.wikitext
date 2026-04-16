@@ -52,14 +52,7 @@ Ninguno de los programas de laminado disponibles actualmente puede aceptar direc
 Todo el manejo de la malla, en FreeCAD, se hace mediante otro ambiente de trabajo específico, el [[Mesh_Workbench/es|Ambiente de trabajo Malla]]. Este ambiente de trabajo contiene, además de las herramientas más importantes que convierten entre objetos Pieza y Malla, varias utilidades destinadas a analizar y reparar mallas. Aunque el trabajo con mallas no es el objetivo de FreeCAD, cuando se trabaja con el modelado 3D, a menudo se necesita tratar con objetos de malla, ya que su uso está muy extendido entre otras aplicaciones. Este ambiente de trabajo te permite manejarlos completamente en FreeCAD.
 </div>
 
-<div class="mw-translate-fuzzy">
-* Convirtamos uno de los objetos que hemos modelado en los capítulos anteriores, como la pieza de lego (que puedes descargar desde el final del capítulo anterior).
-* Abre el archivo de FreeCAD que contiene la pieza de lego.
-* Cambia al [[Mesh_Workbench/es|Ambiente de trabajo Malla]]
-* Selecciona el ladrillo lego
-* Selecciona el menú '''Mallas → Crear malla desde forma'''
-* Se abrirá un panel de tareas con varias opciones. Algunos algoritmos de malla adicionales (Mefisto o Netgen) pueden no estar disponibles, dependiendo de cómo se haya compilado tu versión de FreeCAD. El algoritmo de malla estándar siempre estará presente. Ofrece menos posibilidades que los otros dos, pero es totalmente suficiente para objetos pequeños que se ajustan al tamaño máximo de impresión de una impresora 3D.
-</div>
+Afortunadamente, convertir un objeto sólido en una malla en FreeCAD es sencillo, aunque convertir una malla de nuevo en un sólido es una operación más compleja. Durante el proceso de conversión, es fundamental tener en cuenta que puede producirse cierta degradación de la calidad del modelo, especialmente al reducir geometrías complejas a una malla triangular simple. Debe asegurarse de que esta degradación se mantenga dentro de límites aceptables para conservar la precisión del objeto impreso.
 
 <div class="mw-translate-fuzzy">
 [[Image:Exercise_meshing_01.jpg]]
