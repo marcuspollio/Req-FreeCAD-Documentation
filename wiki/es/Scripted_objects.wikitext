@@ -389,9 +389,7 @@ ViewProviderOctahedron(a.ViewObject)
 
 Si desea que su objeto sea seleccionable, o al menos una parte de él, al hacer clic en la ventana gráfica, debe incluir su geometría de moneda dentro de un nodo SoFCSelection. Si su objeto tiene una representación compleja, con widgets, anotaciones, etc., es posible que desee incluir solo una parte en un SoFCSelection. FreeCAD escanea constantemente todo lo que es un SoFCSelection para detectar la selección o preselección, por lo que conviene evitar sobrecargarlo con escaneos innecesarios.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Once the parts of the scenegraph that are to be selectable are inside SoFCSelection nodes, you then need to provide two methods to handle the selection path. The selection path can take the form of a string giving the names of each element in the path, or of an array of scenegraph objects. The two methods are {{incode|getDetailPath}}, which converts from a string path to an array of scenegraph objects, and {{incode|getElementPicked}}, which takes an element which has been clicked on in the scenegraph and returns its string name (note, not its string path).
-</div>
+Una vez que las partes del grafo de escena que se van a seleccionar se encuentran dentro de los nodos SoFCSelection, es necesario proporcionar dos métodos para gestionar la ruta de selección. Esta ruta puede ser una cadena que indique los nombres de cada elemento o una matriz de objetos del grafo de escena. Los dos métodos son {{incode|getDetailPath}}, que convierte una ruta de cadena en una matriz de objetos del grafo de escena, y {{incode|getElementPicked}}, que toma un elemento en el que se ha hecho clic en el grafo de escena y devuelve su nombre (no su ruta de cadena).
 
 Aquí está el ejemplo de molécula anterior, adaptado para que los elementos de la molécula sean seleccionables:
 
