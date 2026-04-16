@@ -166,9 +166,7 @@ Mantén pulsada la tecla {{KEY|Alt}} cuando estés en el [[Entorno de trabajo de
 
 Como alternativa, mantén pulsado y arrastra. Esto simula el desplazamiento con el botón derecho del ratón.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Tilt_view_gesture_text=Rotate the imaginary line formed by two touch points.
-</div>
+|Tilt_view_gesture_text=Gire la línea imaginaria formada por dos puntos de contacto.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This method is disabled by default. To enable, go to {{MenuCommand|Edit → Preferences → Display → Navigation}}, and uncheck the "Disable touchscreen tilt gesture" checkbox.
