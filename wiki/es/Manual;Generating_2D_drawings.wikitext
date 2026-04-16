@@ -13,7 +13,7 @@ Cuando un modelo no se puede imprimir ni fresar directamente con una máquina (p
 
 Ejemplos típicos son las instrucciones de Ikea, los planos arquitectónicos y los planos arquitectónicos. Estos planos suelen contener, no solo el dibujo en sí, sino también numerosas anotaciones, como texto, dimensiones, números y símbolos que ayudan a comprender qué se debe hacer y cómo.
 
-In FreeCAD, the workbench responsible for making such drawings is the [[Image:Workbench_TechDraw.svg|24px]] [[TechDraw_Workbench|TechDraw Workbench]]. 
+En FreeCAD, el entorno de trabajo responsable de realizar dichos dibujos es el [[Image:Workbench_TechDraw.svg|24px]] [[TechDraw_Workbench|TechDraw Workbench]]. 
 
 The TechDraw Workbench allows you to create sheets, which can be blank or use a pre-made [[TechDraw_Templates|template]] to already have a series of items on the sheet, such as borders and a title. On these sheets, you can then place views of the 3D objects you modeled previously, and configure how these views will appear on the sheet. You can also place all kinds of annotations on the sheet, such as dimensions, texts, and other symbols commonly used in technical drawings.
 
