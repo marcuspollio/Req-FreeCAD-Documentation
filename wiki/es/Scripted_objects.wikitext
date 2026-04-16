@@ -1020,13 +1020,15 @@ Por defecto, el usuario puede modificar las propiedades, pero es posible configu
 obj.setEditorMode("MyPropertyName", mode)
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Where mode can have these values:
-  0 -- default mode, read and write
-  1 -- read-only
-  2 -- hidden
-  3 -- read-only and hidden
-</div>
+El modo puede tener los siguientes valores:
+
+0 -- Modo predeterminado, lectura y escritura
+
+1 -- Solo lectura
+
+2 -- Oculto
+
+3 -- Solo lectura y oculto
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The attributes can also be set using a list of strings, e.g. {{incode|obj.setEditorMode("Placement", ["ReadOnly", "Hidden"])}}.
