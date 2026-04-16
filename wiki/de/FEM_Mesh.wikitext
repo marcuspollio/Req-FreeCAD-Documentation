@@ -15,9 +15,7 @@ Es gibt verschiedene Möglichkeiten, ein Polygonnetz im Arbeitsbereich [[FEM_Wor
 Die Gmsh- und Netgen-Werkzeuge unterstützen das Vernetzen von Formen, die mit den Arbeitsbereichen [[Part_Workbench/de|Part]] und [[PartDesign_Workbench/de|PartDesign]] erstellt wurden, sowie einfache Kopien dieser Formen. Im Allgemeinen kann jeder Arbeitsbereich, der Formen erzeugt, wie z. B. der Arbeitsbereich [[BIM_Workbench/de|BIM]], als Grundlage für die Erstellung von Netzobjekten verwendet werden. Bitte beachten, dass sich ein für die FEA verwendetes Netz von einem Netz unterscheidet, das mit dem Arbeitsbereich [[Mesh Workbench/de|Mesh]] erstellt oder importiert wurde.
 
 [[Image:FEM_Workbench_workflow.svg|600px]]
-<div class="mw-translate-fuzzy">
-{{Caption|Der Arbeitsbereich FEM ruft das externe Werkzeug Gmsh auf, um ein Netz aus einem Volumenkörper zu erhalten, der mit einem beliebigen Arbeitsbereich in FreeCAD erstellt wurde; es kann auch ein extern erstelltes Netz importieren}}
-</div>
+{{Caption|Der Arbeitsbereich FEM ruft das externe Werkzeug Gmsh oder Netgen auf, um ein Netz aus einer Form zu erhalten, die mit einem beliebigen Arbeitsbereich in FreeCAD erstellt wurde; es kann auch ein extern erstelltes Netz importieren}}
 
 [[Image:FEM_Mesh.png|600px]]
 {{Caption|(1) Festkörper, der mit PartDesign erzeugt wurde; (2) Netz, das mit dem Gmsh Werkzeug innerhalb des FEM Arbeitsbereich erzeugt wurde (alle Dreiecke); und (3) Netz, das extern mit Gmsh erzeugt wurde, in das Abaqus Format {{FileName|.inp}} exportiert und dann in FreeCAD importiert wurde (alle Vierecke)}}
