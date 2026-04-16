@@ -95,9 +95,7 @@ Además de PrusaSlicer, existen varias otras opciones de software de laminado di
 
 El [[Image:Workbench_CAM.svg|16px]] [[CAM_Workbench|CAM Workbench]] en FreeCAD proporciona opciones avanzadas para generar código G directamente para máquinas CNC, ofreciendo mayor flexibilidad y control en comparación con las herramientas de laminado automático como las utilizadas para la impresión 3D. Mientras que los laminadores de impresión 3D pueden convertir automáticamente un modelo en código G con una mínima intervención, el fresado CNC requiere mucha más participación del usuario para garantizar un control preciso sobre las trayectorias de la herramienta, las velocidades, las profundidades y otros parámetros de mecanizado. Esto hace que CAM Workbench sea esencial para tareas que exigen un código G ajustado con precisión, especialmente para el fresado CNC, donde la complejidad de la máquina y la variedad de operaciones (como corte, perforación y contorneado) requieren una planificación cuidadosa.
 
-<div class="mw-translate-fuzzy">
-La generación de trayectorias de fresado CNC es otro tema demasiado extenso para que quepa en este manual, por lo que vamos a mostrar cómo construir un proyecto sencillo de trayectorias, sin preocuparnos mucho de la mayoría de los detalles del mecanizado CNC real.
-</div>
+En CAM Workbench, la generación de trayectorias de código G es altamente personalizable. Incluye herramientas para generar trayectorias completas para diversas operaciones o, alternativamente, se pueden crear segmentos parciales de código G y ensamblarlos para formar una operación de fresado completa. Este enfoque modular permite adaptar cada paso del proceso de mecanizado, optimizando las trayectorias de la herramienta para lograr eficiencia, adaptarse al tipo de material y a las capacidades específicas de la máquina.
 
 <div class="mw-translate-fuzzy">
 * Cargue el archivo que contiene nuestra pieza de lego, y cambie al [[Path Workbench/es|Ambiente de trabajobtrayectoria]].
