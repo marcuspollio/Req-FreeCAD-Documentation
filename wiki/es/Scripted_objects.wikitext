@@ -1060,9 +1060,7 @@ A continuación se enumeran los atributos que se pueden configurar con {{Incode|
 
 Los atributos de la propiedad se definen en el archivo de encabezado C++ PropertyContainer [https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyContainer.h].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For {{Incode|Prop_ReadOnly}} and {{Incode|Prop_Hidden}} the {{Incode|addProperty}} function has boolean arguments as well:
-</div>
+Para {{Incode|Prop_ReadOnly}} y {{Incode|Prop_Hidden}} la función {{Incode|addProperty}} también tiene argumentos booleanos:
 
 {{Code|code=
 obj.addProperty("App::PropertyString", "MyCustomProperty", "", "", 0, True, True)
