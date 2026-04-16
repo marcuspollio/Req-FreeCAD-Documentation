@@ -1072,9 +1072,7 @@ Lo que equivale a:
 obj.addProperty("App::PropertyString", "MyCustomProperty", "", "", 1+4)
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.0}}: The full signature of the function is:
-</div>
+{{Version|1.0}}: La firma completa de la función es:
 
 {{Code|code=
 obj.addProperty(type: string, name: string, group="", doc="", attr=0, read_only=False, hidden=False, enum_vals=[])
