@@ -1119,9 +1119,7 @@ Para ver objetos:
 * {{incode|PartGui::ViewProviderGridExtensionPython}}
 * {{incode|PartGui::ViewProviderSplineExtensionPython}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-There exist other extensions but they do not work as-is:
-</div>
+Existen otras extensiones, pero no funcionan tal cual:
 
 * {{incode|App::ExtensionPython}}
 * {{incode|Part::PreviewExtensionPython}}
