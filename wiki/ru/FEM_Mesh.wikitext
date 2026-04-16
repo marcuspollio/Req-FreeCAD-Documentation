@@ -8,18 +8,22 @@
 Анализ методом конечных элементов выполняется над сеткой состоящей из множества соединенных между собой треугольных и четырехугольных конечных элементов, которые формируются в результате разделения исходного тела. Чем точнее сформирована эта сетка, тем точнее будут результаты вычислений, но и время потраченное на вычисления тоже будет больше. Баланс между размером сетки, временем вычислений и точностью результатов является важной характеристикой качественного анализа методом конечных элементов.
 </div>
 
+<div class="mw-translate-fuzzy">
 В [[FEM Workbench/ru|верстаке FEM]] существует несколько способов получения сетки для расчета МКЭ:
 * Через графический интерфейс с помощью инструмента [[FEM MeshGmshFromShape/ru|GMSH]].
 * Через графический интерфейс с помощью инструмента [[FEM MeshNetgenFromShape/ru|Netgen]].
 * Импорт сетки из другой программы. В частности, Gmsh и Netgen могут использоваться сами по себе вне FreeCAD для генерации сеток из твердых тел таких как Step-файлы.
 * Создание сетки "вручную" с помощью [[Python/ru|Python]] скриптов.
+</div>
 
 <div class="mw-translate-fuzzy">
 Инструменты Gmsh и Netgen поддерживают создание сеток из тел, созданных в верстаках [[Part_Workbench/ru|Part]] и [[PartDesign_Workbench/ru|PartDesign]], а также из простых копии этих тел. В общем, любой верстак, который генерирует твердые объекты, например [[Arch Workbench/ru|верстак Arch]], также можно использовать для создания сеток. Обратите внимание, что сетка, используемая для АКЭ, не то же самое что сетка, созданная или импортированная из [[Mesh Workbench/ru|верстака Mesh]].
 </div>
 
 [[Image:FEM_Workbench_workflow.svg|600px]]
+<div class="mw-translate-fuzzy">
 {{Caption|Вестак FEM вызывает внешний инструмент Gmsh для получения сетки сгенерированной из твердого тела, которое может быть создано в нескольких верстаках FreeCAD; также можно импортировать сетку, созданную внешним приложением}}
+</div>
 
 [[Image:FEM_Mesh.png|600px]]
 {{Caption|(1) Твердое тело, созданное с помощью PartDesign; (2) сетка, созданная инструментом Gmsh в FEM верстке (все элементы треугольные); и (3) сетка, созданная Gmsh извне, экспортированная в формат Abaqus {{FileName|.inp}}, а затем импортированная в FreeCAD (все элементы четырехугольные)}}
@@ -36,7 +40,7 @@ Previously, Netgen was included with FreeCAD and could be used immediately. Now,
 == Программное обеспечение для разделения тел на сетки конечных элементов ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Meshing software operates on solid bodies that can be in different formats, like Step and Brep. These programs can be used independently of FreeCAD, and typically have many options to control the meshing algorithms, element size, and boundary conditions.
+Meshing software operates on shapes that can be in different formats, like STEP and BREP. These programs can be used independently of FreeCAD, and typically have many options to control the meshing algorithms, element size, and boundary conditions.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
