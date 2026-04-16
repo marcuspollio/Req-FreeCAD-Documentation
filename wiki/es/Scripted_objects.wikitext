@@ -23,11 +23,7 @@ Las Funcionalidades Python siguen las mismas reglas que todas las Funcionalidade
 <span id="Basic_example"></span>
 == Ejemplo básico ==
 
-<div class="mw-translate-fuzzy">
-== Ejemplo básico == 
-
-El ejemplo siguiente se puede encontrar en el archivo [http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/TemplatePyMod/FeaturePython.py?view=markup src/Mod/TemplatePyMod/FeaturePython.py] , junto con varios otros ejemplos:
-</div>
+El siguiente ejemplo se puede encontrar en el archivo [https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py src/Mod/TemplatePyMod/FeaturePython.py], junto con otros ejemplos:
 
 {{Code|code=
 '''Examples for a feature class and its view provider.'''
