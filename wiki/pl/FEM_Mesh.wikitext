@@ -15,9 +15,7 @@ W [[FEM_Workbench/pl|środowisku pracy MES]] dostępne są różne sposoby przyg
 Narzędzia Gmsh i Netgen wspierają tworzenie siatki dla kształtów tworzonych w środowiskach pracy [[Part_Workbench/pl|Część]] i [[PartDesign_Workbench/pl|Projekt Części]], jak również ich prostych kopii. W ogólności, każde środowisko pracy, które generuje kształty, jak [[BIM_Workbench/pl|BIM]] może być użyte do przygotowania geometrii, na której zostanie utworzona siatka. Zwróć uwagę, że siatka używana do analiz MES jest inna niż siatka tworzona lub importowana ze środowiska pracy [[Mesh_Workbench/pl|Siatka]].
 
 [[Image:FEM_Workbench_workflow.svg|600px]]
-<div class="mw-translate-fuzzy">
-{{Caption|Środowisko pracy MES wywołuje zewnętrzne narzędzie Gmsh aby uzyskać siatkę z bryły utworzonej w dowolnym środowisku pracy we FreeCAD; może również zaimportować siatkę utworzoną poza FreeCAD}}
-</div>
+{{Caption|Środowisko pracy MES wywołuje zewnętrzne narzędzie Gmsh lub Netgen, aby uzyskać siatkę z kształtu utworzonego w dowolnym środowisku pracy we FreeCAD; może również zaimportować siatkę utworzoną poza FreeCAD}}
 
 [[Image:FEM_Mesh.png|600px]]
 {{Caption|(1) Bryła utworzona w środowisku pracy Projekt Części, (2) siatka utworzona przez narzędzie Gmsh w środowisku pracy MES (same trójkąty) oraz (3) siatka utworzona zewnętrznie w programie Gmsh, wyeksportowana do formatu Abaqusa {{FileName|.inp}} a następnie zaimportowana do FreeCAD (same czworokąty)}}
