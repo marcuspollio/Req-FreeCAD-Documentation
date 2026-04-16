@@ -1042,16 +1042,21 @@ Ejemplo de propiedad de salida (véase también https://forum.freecad.org/viewto
 obj.addProperty("App::PropertyString", "MyCustomProperty", "", "", 8)
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The attributes that can be set with {{Incode|addProperty}} are listed below. Multiple attributes can be set by adding values.
-   0 -- Prop_None, No special property attribute
-   1 -- Prop_ReadOnly, Property is read-only in the editor
-   2 -- Prop_Transient, Property won't be saved to file
-   4 -- Prop_Hidden, Property won't appear in the editor
-   8 -- Prop_Output, Modified property doesn't touch its parent container
-  16 -- Prop_NoRecompute, Modified property doesn't touch its container for recompute
-  32 -- Prop_NoPersist, Property won't be saved to file at all
-</div>
+A continuación se enumeran los atributos que se pueden configurar con {{Incode|addProperty}}. Se pueden configurar varios atributos añadiendo valores.
+
+0 -- Prop_None, Sin atributo de propiedad especial
+
+1 -- Prop_ReadOnly, La propiedad es de solo lectura en el editor
+
+2 -- Prop_Transient, La propiedad no se guardará en el archivo
+
+4 -- Prop_Hidden, La propiedad no aparecerá en el editor
+
+8 -- Prop_Output, La propiedad modificada no afecta a su contenedor principal
+
+16 -- Prop_NoRecompute, La propiedad modificada no afecta a su contenedor para el recálculo
+
+32 -- Prop_NoPersist, La propiedad no se guardará en el archivo
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The property attributes are defined in the [https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyContainer.h PropertyContainer C++ header file].
