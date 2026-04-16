@@ -584,9 +584,7 @@ RootNode
 
 El {{incode|SwitchNode}} muestra solo uno de sus hijos, dependiendo del modo de visualización seleccionado en FreeCAD.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The examples which use {{incode|addDisplayMode}} are constructing their scenegraphs solely out of coin3d scenegraph elements. Under the covers, {{incode|addDisplayMode}} adds a new child to the {{incode|SwitchNode}}; the name of that node will match the display mode it was passed.
-</div>
+Los ejemplos que utilizan {{incode|addDisplayMode}} construyen sus grafos de escena únicamente a partir de elementos de grafos de escena de coin3d. Internamente, {{incode|addDisplayMode}} agrega un nuevo hijo al {{incode|SwitchNode}}. El nombre de ese nodo coincidirá con el modo de visualización que se le pasó.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The examples which use {{incode|SwitchNode.getChild(x).addChild}} also construct part of their geometry using functions from the Part Workbench, such as {{incode|1=fp.Shape = Part.makeLine(fp.p1,fp.p2)}}. This constructs the different display mode scenegraphs under the {{incode|SwitchNode}}; when we later come to add coin3d elements to the scenegraph, we need to add them to the existing display mode scenegraphs using {{incode|addChild}} rather than creating a new child of the {{incode|SwitchNode}}.
