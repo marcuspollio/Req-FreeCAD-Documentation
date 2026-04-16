@@ -11,9 +11,7 @@
 
 Uno de los propósitos principales de FreeCAD es diseñar objetos que puedan convertirse en productos físicos reales. Estos diseños pueden compartirse con otros para su fabricación o, cada vez más, exportarse directamente a [https://en.wikipedia.org/wiki/3D_printing 3D printers] impresoras 3D o a [https://en.wikipedia.org/wiki/Milling_%28machining%29 CNC mill &CNC machines] fresadoras CNC para su fabricación automatizada. Con FreeCAD, puede crear modelos precisos y detallados, listos para diversos métodos de producción. Este capítulo le guiará a través del proceso de preparación de sus modelos para estas máquinas, asegurándose de que cumplan con las especificaciones necesarias para una fabricación exitosa, ya sea que trabaje en equipo o gestione todo el proceso usted mismo.
 
-<div class="mw-translate-fuzzy">
-Si has sido precavido al modelar, la mayor parte de las dificultades que puedes encontrar al imprimir tu modelo en 3D ya han sido evitadas. Esto implica básicamente:
-</div>
+Si ha tenido cuidado al modelar, la mayoría de los problemas asociados con la impresión 3D de su modelo ya deberían estar minimizados. Los aspectos clave en los que debe centrarse incluyen:
 
 * '''Asegurando la solidez de sus objetos''': Al igual que los objetos del mundo real, sus modelos 3D deben ser sólidos. FreeCAD, especialmente dentro del Entorno de trabajo PartDesign, le ayuda a garantizar que sus modelos permanezcan sólidos durante todo el proceso de diseño. El software le notificará si una operación compromete la solidez del objeto. Además, el Entorno de trabajo Part ofrece una herramienta [[Image:Part_CheckGeometry.svg|16px]] [[Part_CheckGeometry|Check Geometry]], que le permite identificar posibles defectos o problemas que podrían interferir con el proceso de impresión 3D.
 
