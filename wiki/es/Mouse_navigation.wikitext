@@ -92,14 +92,12 @@ Como alternativa, mantenga pulsados ​​los botones izquierdo y derecho del ra
 
 Este es el estilo de navegación predeterminado. Permite al usuario un control sencillo de la vista y no requiere el uso de teclas del teclado, excepto para realizar selecciones múltiples.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{CAD_Navigation
 |Select_name=Select
 |Zoom_name=Zoom
 |Rotate_view_name=Rotate view<br>First method
 |Rotate_view_alt_name=Rotate view<br>Alternate method
 |Pan_name=Pan
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |Ctrl={{KEY|Ctrl}}
