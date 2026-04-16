@@ -99,9 +99,8 @@ En CAM Workbench, la generación de trayectorias de código G es altamente perso
 
 El proceso CAM es, sin duda, mucho más complejo que la impresión 3D, ya que las máquinas CNC utilizan herramientas diferentes y deben tener en cuenta la eliminación de material, la geometría de la herramienta y los márgenes de seguridad, todo ello configurado manualmente. En FreeCAD, crear un proyecto CAM sencillo requiere definir trayectorias de herramienta, ajustar las profundidades de corte, seleccionar las herramientas adecuadas y configurar los desplazamientos, avances y velocidades de trabajo. A diferencia del software de laminado, que gestiona la mayor parte de esto automáticamente, el entorno de trabajo CAM pone el control en tus manos, lo que lo hace altamente personalizable, pero también bastante más complejo.
 
-<div class="mw-translate-fuzzy">
 [[Image:Exercise_path_01.jpg]]
-</div>
+Aunque la generación de trayectorias de fresado CNC es un tema demasiado extenso para abordarlo en detalle aquí, demostraremos cómo crear un proyecto CAM sencillo en FreeCAD. Si bien no nos centraremos en todos los detalles del mecanizado CNC real, esta guía le presentará los pasos esenciales, haciendo hincapié en el nivel de información necesario para garantizar resultados precisos y eficientes. Esta complejidad adicional es fundamental para los proyectos CNC, donde la precisión y la personalización son cruciales para lograr los resultados de mecanizado deseados.
 
 * Load the file containing our Lego piece, and switch to the [[Image:Workbench_CAM.svg|16px]] [[CAM_Workbench|CAM Workbench]].
 * Press on the [[Image:CAM_Job.svg|16px]] [[CAM_Job|Job]] button and select our lego piece.
