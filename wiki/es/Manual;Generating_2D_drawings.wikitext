@@ -79,16 +79,22 @@ Ahora colocaremos cotas e indicaciones en nuestro dibujo. Hay dos maneras de añ
 
 [[Image:Exercise_TechDraw_06.png]]
 
-# Looking at the Page in the [[3D_view|3D view]] window, select the View to which the Balloon will be attached, as shown in the image above.
-# Press the [[Image:TechDraw Balloon.svg|16px]] Balloon button.
-# The cursor is now displayed as a balloon icon.  Click on the page to place the balloon origin at the desired position.
-# The balloon bubble may be dragged to the desired position. 
-# Change the balloon properties by double-clicking the balloon label or the balloon object in the [[Tree_view|tree view]]. This will open the Balloon Task dialog. Set the Value field to the desired text and change the Symbol drop-down menu selection to {{MenuCommand|None}} 
-# Press {{Button|OK}}
-# Repeat the operation for the second callout.
-* We will now fill in the sheet title block.
-** Make sure that the View frames, labels, and vertices are visible. If not, hit the [[Image:TechDraw_ToggleFrame.svg|16px]] Toggle button.
-** Edit the text in each section of the sheet title block by clicking on the small green square on the left side of the text.
+# En la ventana de [[Vista 3D]], seleccione la vista a la que se adjuntará el globo, tal y como se muestra en la imagen superior.
+
+# Pulse el botón Globo [[Imagen:TechDraw Balloon.svg|16px]].
+# El cursor ahora se muestra como un icono de globo. Haga clic en la página para colocar el origen del globo en la posición deseada.
+
+# Puede arrastrar la burbuja del globo a la posición deseada.
+
+# Cambie las propiedades del globo haciendo doble clic en la etiqueta o sobre el objeto del globo en la [[Vista de árbol]]. Esto abrirá el cuadro de diálogo de tareas del globo. Establezca el valor del campo con el texto deseado y cambie la selección del menú desplegable Símbolo a {{MenuCommand|Ninguno}}.
+# Pulse {{Botón|Aceptar}}.
+# Repita la operación para la segunda llamada.
+
+* Ahora completaremos el bloque de título de la hoja.
+
+** Asegúrese de que los marcos, las etiquetas y los vértices de la vista sean visibles. De lo contrario, pulse el botón [[Image:TechDraw_ToggleFrame.svg|16px]] Toggle.
+
+** Edite el texto de cada sección del bloque de título de la hoja haciendo clic en el pequeño cuadrado verde situado a la izquierda del texto.
 
 Our page can now be exported to SVG for further work in graphical applications like [http://www.inkscape.org Inkscape] or to DXF. Select the page in the [[Tree_view|tree view]] and then select menu {{MenuCommand|File → Export}}. The DXF format is importable in almost all existing 2D CAD applications. TechDraw pages can also be directly printed or exported to PDF.
 
