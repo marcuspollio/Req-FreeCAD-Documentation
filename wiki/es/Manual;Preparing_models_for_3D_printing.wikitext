@@ -97,12 +97,7 @@ El [[Image:Workbench_CAM.svg|16px]] [[CAM_Workbench|CAM Workbench]] en FreeCAD p
 
 En CAM Workbench, la generación de trayectorias de código G es altamente personalizable. Incluye herramientas para generar trayectorias completas para diversas operaciones o, alternativamente, se pueden crear segmentos parciales de código G y ensamblarlos para formar una operación de fresado completa. Este enfoque modular permite adaptar cada paso del proceso de mecanizado, optimizando las trayectorias de la herramienta para lograr eficiencia, adaptarse al tipo de material y a las capacidades específicas de la máquina.
 
-<div class="mw-translate-fuzzy">
-* Cargue el archivo que contiene nuestra pieza de lego, y cambie al [[Path Workbench/es|Ambiente de trabajobtrayectoria]].
-* Como la pieza final ya no contiene una cara superior rectangular, oculta la pieza final de lego, y muestra el primer pad cúbico que hicimos, que tiene una cara superior rectangular.
-* Selecciona la cara superior y pulsa el [[Image:Path_Profile.svg|16px]] [[Path_Profile/es|Perfil]].
-* Establece su propiedad '''Desplazamiento''' a 1mm.
-</div>
+El proceso CAM es, sin duda, mucho más complejo que la impresión 3D, ya que las máquinas CNC utilizan herramientas diferentes y deben tener en cuenta la eliminación de material, la geometría de la herramienta y los márgenes de seguridad, todo ello configurado manualmente. En FreeCAD, crear un proyecto CAM sencillo requiere definir trayectorias de herramienta, ajustar las profundidades de corte, seleccionar las herramientas adecuadas y configurar los desplazamientos, avances y velocidades de trabajo. A diferencia del software de laminado, que gestiona la mayor parte de esto automáticamente, el entorno de trabajo CAM pone el control en tus manos, lo que lo hace altamente personalizable, pero también bastante más complejo.
 
 <div class="mw-translate-fuzzy">
 [[Image:Exercise_path_01.jpg]]
