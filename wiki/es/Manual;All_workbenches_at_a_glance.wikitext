@@ -315,74 +315,74 @@ El [[Image:Workbench_Draft.svg|32px]] [[Draft_Workbench|Draft Workbench]] está 
 | Crea copias vinculadas de objetos.
 |-
 | [[Image:Draft_OrthoArray.svg|32px]] [[Draft_OrthoArray|Array]]
-| Creates an orthogonal array from a selected object
+| Crea una matriz ortogonal a partir de un objeto seleccionado.
 | [[Image:Draft_PolarArray.svg|32px]] [[Draft_PolarArray|Polar array]]
-| Creates an array from a selected object by placing copies along a circumference
+| Crea una matriz a partir de un objeto seleccionado colocando copias a lo largo de una circunferencia.
 |-
 | [[Image:Draft_CircularArray.svg|32px]] [[Draft_CircularArray|Circular array]]
-| Creates an array from a selected object by placing copies along concentric circumferences
+| Crea una matriz a partir de un objeto seleccionado colocando copias a lo largo de circunferencias concéntricas.
 | [[Image:Draft_PathArray.svg|32px]] [[Draft_PathArray|Path array]]
-| Creates an array from a selected object by placing copies along a path.
+| Crea una matriz a partir de un objeto seleccionado colocando copias a lo largo de una ruta.
 |-
 | [[Image:Draft_PathLinkArray.svg|32px]] [[Draft_PathLinkArray|Path link array]]
-| Works similar to a path array but creates a [[App_Link|Link]] array instead of a regular array.
+| Funciona de forma similar a una matriz de rutas, pero crea una matriz [[App_Link|Link]] en lugar de una matriz normal.
 | [[Image:Draft_PointArray.svg|32px]] [[Draft_PointArray|Point array]]
-| Creates an array from a selected object by placing copies at the points from a point compound.
+| Crea una matriz a partir de un objeto seleccionado colocando copias en los puntos de un compuesto de puntos.
 |-
 | [[Image:Draft_PointLinkArray.svg|32px]] [[Draft_PointLinkArray|Point link array]]
-| Works similar to a point array but create a [[App_Link|Link]] array instead of a regular array.
+| Funciona de forma similar a una matriz de puntos, pero crea una matriz [[App_Link|Link]] en lugar de una matriz normal.
 | [[Image:Draft PathTwistedArray.svg|32px]] [[Draft PathTwistedArray|Path twisted array]]
-| Creates twisted copies along a path
+| Crea copias retorcidas a lo largo de un camino.
 |-
 | [[Image:Draft PathTwistedLinkArray.svg|32px]] [[PathTwistedLinkArray|Path linked twisted array]]
-| Creates twisted linked copies along a path
+| Crea copias entrelazadas y retorcidas a lo largo de una ruta.
 | [[Image:Draft_Edit.svg|32px]] [[Draft_Edit|Edit]]
-| Edits the active model
+| Edita el modelo activo.
 |-
 | [[Image:Draft_SubelementHighlight.svg|32px]] [[Draft_SubelementHighlight|Subelement highlight]]
-| Temporarily highlights selected objects or the base objects of selected objects
+| Resalta temporalmente los objetos seleccionados o los objetos base de los objetos seleccionados.
 | [[Image:Draft_Join.svg|32px]] [[Draft_Join|Join]]
-| Joins [[Draft_Line|Draft Lines]] and [[Draft_Wire|Draft Wires]] into a single object
+| Une [[Draft_Line|Draft Lines]] y [[Draft_Wire|Draft Wires]] en un solo objeto.
 |-
 | [[Image:Draft_Split.svg|32px]] [[Draft_Split|Split]]
-| Splits a [[Draft_Line|Draft Line]] or [[Draft_Wire|Draft Wire]] at a specified point or edge.
+| Divide una [[Draft_Line|Draft Line]] o [[Draft_Wire|Draft Wire]] en un punto o borde especificado.
 | [[Image:Draft_Upgrade.svg|32px]] [[Draft_Upgrade|Upgrade]]
-| Turns or joins objects into a higher-level object
+| Convierte o une objetos en un objeto de nivel superior.
 |-
 | [[Image:Draft_Downgrade.svg|32px]] [[Draft_Downgrade|Downgrade]]
-| Turns or separates objects into lower-level objects
+| Convierte o separa objetos en objetos de nivel inferior.
 | [[Image:Draft_Shape2DView.svg|32px]] [[Draft_Shape2DView|Shape 2D View]]
-| Creates a 2D object which is a flattened view of another object
+| Crea un objeto 2D que es una vista aplanada de otro objeto.
 |-
 | [[Image:Draft_WireToBSpline.svg|32px]] [[Draft_WireToBSpline|Wire to B-spline]]
-| Converts [[Draft_Wire|Draft Wires]] to [[Draft_BSpline|Draft BSplines]] and vice versa.
+| Convierte [[Draft_Wire|Draft Wires]] en [[Draft_BSpline|Draft BSplines]] y viceversa.
 | [[Image:Draft_Draft2Sketch.svg|32px]] [[Draft_Draft2Sketch|Draft to Sketch]]
-| Converts a Draft object to a Sketch and vice-versa
+| Convierte un objeto Borrador en un Boceto y viceversa.
 |-
 | [[Image:Draft_Slope.svg|32px]] [[Draft Slope|Set slope]]
-| Slopes selected [[Draft_Line|Draft Lines]] or [[Draft_Wire|Draft Wires]]
+| Pendientes seleccionadas [[Draft_Line|Draft Lines]] o [[Draft_Wire|Draft Wires]]
 | [[Image:Draft_FlipDimension.svg|32px]] [[Draft_FlipDimension|Flip dimension]]
-| Rotates the dimension text of selected [[Draft_Dimension|Draft Dimensions]] 180° around the dimension line
+| Gira el texto de la cota de la [[Draft_Dimension|Draft Dimensions]] seleccionada 180° alrededor de la línea de cota.
 |-
 | [[Image:Draft_Shape2DView.svg|32px]] [[Draft_Shape2DView|Shape 2D view]]
-| Creates 2D projections from selected objects
+| Crea proyecciones 2D a partir de objetos seleccionados.
 | [[Image:Draft_Snap_Lock.svg|32px]] [[Draft_Snap_Lock|Snap lock]]
-| Enables or disables snapping globally
+| Habilita o deshabilita el ajuste global.
 |-
 | [[Image:Draft_Snap_Endpoint.svg|32px]] [[Draft_Snap_Endpoint|Snap endpoint]]
-| Snaps to the endpoints of edges.
+| Se ajusta a los vértices de los bordes.
 | [[Image:Draft_Snap_Midpoint.svg|32px]] [[Draft_Snap_Midpoint|Snap midpoint]]
-| Snaps to the midpoint of edges
+| Se ajusta al punto medio de los bordes.
 |-
 | [[Image:Draft_Snap_Center.svg|32px]] [[Draft_Snap_Center|Snap center]]
-| Snaps to the center point of faces and circular edges
+| Se ajusta al punto central de las caras y los bordes circulares.
 | [[Image:Draft_Snap_Angle.svg|32px]] [[Draft_Snap_Angle|Snap angle]]
-| Snaps to the special cardinal points on circular edges, at multiples of 30° and 45°
+| Se ajusta a los puntos cardinales especiales en los bordes circulares, en múltiplos de 30° y 45°.
 |-
 | [[Image:Draft_Snap_Intersection.svg|32px]] [[Draft_Snap_Intersection|Snap intersection]]
-| Snaps to the intersection of two edges
+| Se ajusta a la intersección de dos bordes.
 | [[Image:Draft_Snap_Perpendicular.svg|32px]] [[Draft_Snap_Perpendicular|Snap perpendicular]]
-| Snaps to the perpendicular points on faces and edges.
+| Se ajusta a los puntos perpendiculares de las caras y aristas.
 
 |-
 | [[Image:Draft_Snap_Extension.svg|32px]] [[Draft_Snap_Extension|Snap extension]]
