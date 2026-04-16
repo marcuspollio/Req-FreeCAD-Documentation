@@ -19,10 +19,16 @@ Para obtener más información sobre cómo manipular objetos, consulte [[Std_Tra
 <span id="Selecting_a_navigation_style"></span>
 == Selección de un estilo de navegación ==
 
-<div class="mw-translate-fuzzy">
-* En el [[Preferences Editor/es|Editor de Preferencias]], sección Display, pestaña ''Vista 3D'';
-* Pulsando con el botón derecho en un área vacía de la vista 3D y seleccionando ''Estilo de navegación'' en el menú contextual.
-</div>
+# Realiza una de las siguientes acciones:
+#* Pulsa el botón {{Button|[[File:NavigationCAD_dark.svg|16px]]}} en la [[Status_bar|Barra de estado]].
+
+#* Haz clic derecho en un área vacía de la [[3D_view|Vista 3D]] y selecciona {{MenuCommand|Estilos de navegación}} en el menú contextual.
+
+#* Usa el [[Preferences_Editor#Navigation|Editor de preferencias]]. En el menú, selecciona {{MenuCommand|Editar → Preferencias}} y luego {{MenuCommand|Visualización → Navegación → Navegación 3D}}.
+# Selecciona un estilo de la lista.
+# Opcionalmente, cambie el estilo {{MenuCommand|Orbit}}: pulse el botón {{Button|[[File:NavigationCAD_dark.svg|16px]]}} en la [[Status_bar|Status bar]] y, a continuación, seleccione {{MenuCommand|Settings → Orbit style}}. Consulte [[Preferences_Editor#Navigation|Preferences Editor]].
+# Opcionalmente, cambie el {{MenuCommand|Modo de rotación}}. Consulte [[Editor_de_preferencias#Navegación|Editor de preferencias]].
+# Si se selecciona el estilo de navegación {{MenuCommand|CAD}}: opcionalmente, cambie la configuración {{MenuCommand|Enable animation}}. Consulte [[Preferences_Editor#Navigation|Preferences Editor]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Available navigation styles ==
