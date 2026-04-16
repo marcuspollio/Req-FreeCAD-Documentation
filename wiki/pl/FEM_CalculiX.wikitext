@@ -25,9 +25,14 @@ Narzędzie [[FEM_SolverControl/pl|MES: Kontrola pracy solvera]] zarządza całym
 <span id="Preprocessing_interface"></span>
 == Interfejs do preprocessingu ==
 
-<div class="mw-translate-fuzzy">
-Plik wejściowy, którego CalculiX używa może być przygotowany i edytowany przed uruchomieniem solvera. Jednostki używane w pliku wejściowym są niezależne od jednostek ustawionych w programie FreeCAD - zawsze są to milimetry (mm) i Newtony (N).
-</div>
+Plik wejściowy, którego CalculiX używa może być przygotowany i edytowany przed uruchomieniem solvera. CalculiX nie używa jednostek i odpowiedzialnością użytkownika jest zapewnienie, że ten sam układ jednostek jest konsekwentnie używany w całym pliku wejściowym. Jednostki, w których FreeCAD zapisuje plik wejściowy są niezależne od układu jednostek ustawionego w projekcie lub preferencjach programu FreeCAD. Plik wejściowy jest zawsze zapisywany przy użyciu układu jednostek SI(mm):
+* długość: mm,
+* siła: N,
+* masa: tona,
+* czas: s,
+* ciśnienie/naprężenia: MPa,
+* energia: mJ,
+* gęstość: tona/mm^3.
 
 Interfejs solvera CalculiX wspiera następujące obiekty:
 
