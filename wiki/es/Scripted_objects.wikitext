@@ -1094,9 +1094,8 @@ obj.addProperty(type: string, name: string, group="", doc="", attr=0, read_only=
 
 * {{Incode|enum_vals}}: Valores de enumeración (lista de cadenas), solo relevante si el tipo es {{Incode|"App::PropertyEnumeration"}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Available extensions ==
-</div>
+<span id="Available_extensions"></span>
+== Extensiones disponibles ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The list of available extensions can be obtained with {{incode|grep -RI EXTENSION_PROPERTY_SOURCE_TEMPLATE}} in the repository of the source code and is given here (for FreeCAD v1.1).
