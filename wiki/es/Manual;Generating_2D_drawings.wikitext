@@ -27,21 +27,23 @@ En el siguiente ejercicio, veremos cómo crear un dibujo sencillo de un modelo d
 
 [[Image:Parts_library.jpg]]
 
-* Switch to the [[Image:Workbench_TechDraw.svg|24px]] [[TechDraw_Workbench|TechDraw Workbench]]
-* Press the [[Image:TechDraw_PageTemplate.svg|16px]] [[TechDraw_PageTemplate|TechDraw PageTemplate]] button.
-* Select the '''A4_Portrait_ISO7200TD''' template. A new tab will open in your FreeCAD window, showing the new page.
-* In the [[tree view]] (or in the model tab), select the chair model. It will most likely be named something like "Open CASCADE STEP translator."
-* Press the [[Image:TechDraw_View.svg|16px]] [[TechDraw_View|TechDraw View]] button.
-* A View object will be created on our page. Select the view object in the tree view, and then give the view the following [[TechDraw_View#Properties|properties]] in the data tab of the combo view:
-**Under the Base category:
+* Cambie a la [[Image:Workbench_TechDraw.svg|24px]] [[TechDraw_Workbench|TechDraw Workbench]]
+* Pulse el botón [[Image:TechDraw_PageTemplate.svg|16px]] [[TechDraw_PageTemplate|TechDraw PageTemplate]].
+* Seleccione la plantilla '''A4_Portrait_ISO7200TD'''. Se abrirá una nueva pestaña en la ventana de FreeCAD, mostrando la nueva página.
+
+* En la [[vista de árbol]] (o en la pestaña Modelo), seleccione el modelo de la silla. Probablemente se llame algo como: "Abrir traductor CASCADE STEP".
+
+* Pulse el botón [[Image:TechDraw_View.svg|16px]] [[TechDraw_View|TechDraw View]].
+* Se creará un objeto de vista en nuestra página. Seleccione el objeto de vista en la vista de árbol y, a continuación, asigne a la vista las siguientes propiedades en la pestaña Datos de la vista combinada:
+**En la categoría Base:
 *** X: 70 mm
 *** Y: 120 mm
-*** Rotation: 0
-*** Scale: 0.1
-**Under the Projection category (hit the drop-down arrow to modify the x, y, and z components of these properties individually):
-*** Direction: [0 0 1]
-*** XDirection: [0 -1 0] (Change the y field first, then the x field)
-* We now have a nice top view of our chair. Hit the [[Image:TechDraw_ToggleFrame.svg|16px]] [[TechDraw_ToggleFrame|TechDraw ToggleFrame]] button to turn the View frames, labels, and vertices off.
+*** Rotación: 0
+*** Escala: 0.1
+**En la categoría Proyección (pulse la flecha desplegable para modificar individualmente los componentes x, y, z de estas propiedades):
+*** Dirección: [0 0 1]
+*** Dirección X: [0 -1 0] (Cambie primero el campo y, modificando luego el campo x)
+* Ahora tenemos una vista superior de la silla. Pulse el botón [[Image:TechDraw_ToggleFrame.svg|16px]] [[TechDraw_ToggleFrame|TechDraw ToggleFrame]] para desactivar los marcos, las etiquetas y los vértices de la vista.
 
 [[Image:Exercise_drawing_02.jpg]]
 
