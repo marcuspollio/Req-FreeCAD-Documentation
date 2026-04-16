@@ -54,6 +54,7 @@ Do korzystania z solvera Z88 musi być zainstalowana otwarta wersja Z88 (Z88OS l
 <span id="Properties"></span>
 == Właściwości ==
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Exclude Bending Stiffness}} - zastępuje belki kratownicami, obecnie zawsze zaznaczone, ponieważ belki nie są jeszcze wspieranere
 * {{PropertyData|Model Space}}:
 ** 3D - używa elementów 3D powłokowych
@@ -79,6 +80,7 @@ Do korzystania z solvera Z88 musi być zainstalowana otwarta wersja Z88 (Z88OS l
 ** sorcg - solver iteracyjny do rzadkich macierzy SORCG zalecany dla dużych struktur
 ** siccg - solver iteracyjny do rzadkich macierzy SICCG zalecany dla dużych struktur
 * {{PropertyData|Vector Maximum}} - wartość MAXKOI: maksymalna liczba elementów wektora zbieżności
+</div>
 
 <span id="Supported_finite_element_types"></span>
 == Wspierane typy elementów skończonych ==
@@ -93,10 +95,12 @@ Liniowe trójkąty i czworokąty nie są w ogóle wspierane. Elementy belkowe ni
 <span id="Notes"></span>
 == Uwagi ==
 
+<div class="mw-translate-fuzzy">
 * Z88Adria ma takie same możliwości i ograniczenia jak Z88OS, ale nie uruchamia swojego GUI podczas uruchamiania solvera z poziomu FreeCAD, więc Z88Adria jest obecnie preferowanym wyborem.
 * Ciśnienie zadawane na krawędzie modeli osiowosymetrycznych musi być podane jak w odpowiadającym modelu 3D, czyli jako siła na jednostkę powierzchni. Solver konwertuje to na równoważną siłę na jednostkę długości mnożąc ciśnienie przez <math>2 \pi R</math> (gdzie R to współrzędna y środkowego węzła elementu).
 * Dla elementów płytowych, stopnie swobody to kolejno: przemieszczenia Z i obroty <math>\theta_{x}</math> oraz <math>\theta_{y}</math> (w stopniach).
 * Dostępny jest tryb analizy '''test'''. Zapewnia on informacje o parametrach solvera. Te informacje są ładowane do obiektu dokumentu tekstowego.
+</div>
 
 <span id="Limitations"></span>
 == Ograniczenia ==
