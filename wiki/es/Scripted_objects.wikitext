@@ -169,9 +169,7 @@ makeBox()
 
 Si su objeto requiere ser recalculado tan pronto como se crea, debe hacerlo manualmente en la función {{incode|__init__}} ya que no se llama automáticamente. Este ejemplo no lo requiere porque el método {{incode|onChanged}} de la clase {{incode|Box}} tiene el mismo efecto que la función {{incode|execute}}, pero los ejemplos expuestos a continuación requieren ser recalculados antes de que se muestre algo en la vista 3D. En los ejemplos, esto se hace manualmente con {{incode|ActiveDocument.recompute()}} pero en escenarios más complejos debe decidir dónde recalcular, ya sea todo el documento o el objeto FeaturePython.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This example produces a number of exception stack traces in the report view window. This is because the {{incode|onChanged}} method of the {{incode|Box}} class is called each time a property is added in {{incode|__init__}}. When the first one is added, the Width and Height properties don't exist yet and so the attempt to access them fails.
-</div>
+Este ejemplo genera varios rastros de pila de excepciones en la ventana de vista de informe. Esto se debe a que el método {{incode|onChanged}} de la clase {{incode|Box}} se llama cada vez que se agrega una propiedad en {{incode|__init__}}. Cuando se agrega la primera, las propiedades Width y Height aún no existen, por lo que el intento de acceder a ellas falla.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 An explanation of {{incode|__getstate__}} and {{incode|__setstate__}} which have been replaced by {{incode|dumps}} and {{incode|loads}} is in the forum thread [https://forum.freecad.org/viewtopic.php?f=18&t=44009&start=10#p377892 obj.Proxy.Type is a dict, not a string].
