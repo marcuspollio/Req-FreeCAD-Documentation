@@ -6,13 +6,11 @@
 
 [https://de.wikipedia.org/wiki/Finite-Elemente-Methode Finite-Elemente-Analyse (FEA)] wird auf ein Netzobjekt angewendet, das aus mehreren dreiseitigen/tetraederartigen, vierseitigen/hexaederartigen oder anderen finiten Elementen besteht, die einen originalen Körper unterteilen. Je feiner das Netz ist, desto genauer sind die numerischen Ergebnisse, aber desto größer ist auch die Berechnungszeit. Ein Gleichgewicht zwischen der Größe des Netzes, der Berechnungszeit und der Genauigkeit der Ergebnisse ist ein wichtiges Merkmal einer gut definierten Finite-Elemente-Analyse.
 
-<div class="mw-translate-fuzzy">
 Es gibt verschiedene Möglichkeiten, ein Polygonnetz im Arbeitsbereich [[FEM_Workbench/de|FEM]] einzurichten:
 * Das Werkzeug [[FEM MeshGmshFromShape/de|FEM mesh from shape by Gmsh]] aus der grafischen Benutzeroberfläche.
 * Das Werkzeug [[FEM MeshGmshFromShape/de|FEM mesh from shape by Netgen]] aus der grafischen Benutzeroberfläche.
-* Importieren eines Polygonnetzes aus einem anderen Programm. Insbesondere können Gmsh und Netgen außerhalb von FreeCAD allein verwendet werden, um Volumenkörper wie Step Dateien zu vernetzen.
+* Importieren eines Polygonnetzes aus einem anderen Programm. Insbesondere können Gmsh und Netgen außerhalb von FreeCAD allein verwendet werden, um Formen aus z. B. STEP-Dateien zu vernetzen.
 * Manuelle Erstellung des Netzes durch [[Python/de|Python]]-Skripte.
-</div>
 
 <div class="mw-translate-fuzzy">
 Die Gmsh- und Netgen-Werkzeuge unterstützen die Vernetzung von Körpern, die mit den Arbeitsbereichen [[Part_Workbench/de|Part]] und [[PartDesign_Workbench/de|PartDesign]] erstellt wurden, sowie einfache Kopien dieser Körper. Im Allgemeinen kann jeder Arbeitsbereich, der Festkörper erzeugt, wie z.B. der Arbeitsbereich [[Arch Workbench/de|Arch]], als Grundlage für die Erstellung von Netzobjekten verwendet werden. Beachte, dass sich ein für die FEA verwendetes Netz von einem Netz unterscheidet, das mit dem Arbeitsbereich [[Mesh Workbench/de|Mesh]] erstellt oder importiert wurde.
