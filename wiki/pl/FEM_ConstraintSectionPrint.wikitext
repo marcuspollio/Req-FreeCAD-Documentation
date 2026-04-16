@@ -32,9 +32,7 @@ Zapisuje wstępnie zdefiniowane zmienne wyjściowe z modelu ''(siły i momenty)'
 
 {{Version/pl|1.2}}: Może również zapisać strumień elektryczny w analizach elektrostatycznych z przebudowanym solverem CalculiX. Poza ścianami, można również wskazywać krawędzie (odpowiadają one ścianom w modelach 2D).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.2}}: Section forces can be also printed when using the Z88 solver.
-</div>
+{{Version/pl|1.2}}: Siły przekrojowe można zapisać również używając solvera Z88.
 
 <span id="Usage"></span>
 ==Użycie==
