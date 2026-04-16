@@ -66,10 +66,6 @@ Domyślne właściwości można ustawić w menu {{MenuCommand|Edycja → Prefere
 ** {{true/pl}} - kontrola inkrementacji będzie automatyczna
 ** {{false/pl}} - automatyczna kontrola inkrementacji będzie wyłączona przez parametr DIRECT
 
-* {{PropertyData|Beam Reduced Integration}} - {{Version/pl|1.0}}:
-** {{true/pl}} - używa elementów belkowych ze zredukowanym całkowaniem (B31R lub B32R), które są wymagane w przypadku korzystania z przekroju rurowego i mogą umożliwić uzyskanie [https://forum.freecad.org/viewtopic.php?t=61233 dokładnych wyników w analizach z plastycznością]
-** {{false/pl}} - używa zwykłych elementów belkowych (z pełnym całkowaniem)
-
 * {{PropertyData|Buckling Accuracy}} - {{Version/pl|1.1}}: definiuje dokładność wyznaczania wartości własnych wyboczenia. W większości przypadków domyślna wartość (0.01) jest wystarczająca, ale niekiedy konieczne jest jej obniżenie (np. do 0.0001) aby uchwycić pierwszą postać wyboczenia.
 
 * {{PropertyData|Displace Mesh}} - {{Version/pl|1.2}}: wizualizuje w rzeczywistej skali deformację siatki w obiekcie prezentacji graficznej wyników bez potrzeby użycia filtra wizualizacji deformacji (dostępne tylko dla przebudowanego obiektu solvera CalculiX)
@@ -99,9 +95,11 @@ Domyślne właściwości można ustawić w menu {{MenuCommand|Edycja → Prefere
 
 * {{PropertyData|Iterations Control Parameter Iter}}: definiuje pierwszą linię [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 zaawansowanych parametrów iteracji solvera CalculiX] (liczby iteracji/redukcji przyrostów). Używane, jeśli właściwość {{PropertyData|Iterations Control Parameter Time Use}} jest ustawiona na {{true/pl}}.
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Iterations Control Parameter Time Use}}
 ** {{true/pl}} - aktywuje właściwości {{PropertyData|Iterations Control Parameter Cutb}}, {{PropertyData|Iterations Control Parameter Iter}} oraz {{PropertyData|Iterations Control Parameter Field}}.
 ** {{false/pl}}
+</div>
 
 * {{PropertyData|Material Nonlinearity}}:
 ** linear - w analizie będą uwzględnione tylko liniowe właściwości materiału.
@@ -130,6 +128,12 @@ Domyślne właściwości można ustawić w menu {{MenuCommand|Edycja → Prefere
 * {{PropertyData|Pastix Mixed Precision}}:
 ** {{false/pl}} - mieszana precyzja nie jest używana przez solver PaStiX
 ** {{true/pl}} - mieszana precyzja jest używana przez solver PaStiX, co może prowadzić do problemów z wynikami w niektórych przypadkach
+
+<div class="mw-translate-fuzzy">
+* {{PropertyData|Beam Reduced Integration}} - {{Version/pl|1.0}}:
+** {{true/pl}} - używa elementów belkowych ze zredukowanym całkowaniem (B31R lub B32R), które są wymagane w przypadku korzystania z przekroju rurowego i mogą umożliwić uzyskanie [https://forum.freecad.org/viewtopic.php?t=61233 dokładnych wyników w analizach z plastycznością]
+** {{false/pl}} - używa zwykłych elementów belkowych (z pełnym całkowaniem)
+</div>
 
 * {{PropertyData|Split Input Writer}}:
 ** {{false/pl}} - zapisz wszystkie dane wejściowe do jednego pliku *.inp file.
