@@ -380,9 +380,8 @@ Octahedron(a)
 ViewProviderOctahedron(a.ViewObject)
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Making objects selectable ==
-</div>
+<span id="Making_objects_selectable"></span>
+== Hacer que los objetos sean seleccionables ==
 
 Si desea que su objeto sea seleccionable, o al menos una parte de él, al hacer clic en la ventana gráfica, debe incluir su geometría de moneda dentro de un nodo SoFCSelection. Si su objeto tiene una representación compleja, con widgets, anotaciones, etc., es posible que desee incluir solo una parte en un SoFCSelection. FreeCAD escanea constantemente todo lo que es un SoFCSelection para detectar la selección o preselección, por lo que conviene evitar sobrecargarlo con escaneos innecesarios.
 
