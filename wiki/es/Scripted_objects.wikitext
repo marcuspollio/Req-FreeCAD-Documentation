@@ -407,9 +407,7 @@ Si deseas hacer tu objeto seleccionable, o al menos parte de el, haciendo clic s
 Once the parts of the scenegraph that are to be selectable are inside SoFCSelection nodes, you then need to provide two methods to handle the selection path. The selection path can take the form of a string giving the names of each element in the path, or of an array of scenegraph objects. The two methods are {{incode|getDetailPath}}, which converts from a string path to an array of scenegraph objects, and {{incode|getElementPicked}}, which takes an element which has been clicked on in the scenegraph and returns its string name (note, not its string path).
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Here is the Molecule example above, adapted to make the elements of the Molecule selectable:
-</div>
+Aquí está el ejemplo de molécula anterior, adaptado para que los elementos de la molécula sean seleccionables:
 
 {{Code|code=
 class Molecule:
