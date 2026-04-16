@@ -15,7 +15,7 @@ Ejemplos típicos son las instrucciones de Ikea, los planos arquitectónicos y l
 
 En FreeCAD, el entorno de trabajo responsable de realizar dichos dibujos es el [[Image:Workbench_TechDraw.svg|24px]] [[TechDraw_Workbench|TechDraw Workbench]]. 
 
-The TechDraw Workbench allows you to create sheets, which can be blank or use a pre-made [[TechDraw_Templates|template]] to already have a series of items on the sheet, such as borders and a title. On these sheets, you can then place views of the 3D objects you modeled previously, and configure how these views will appear on the sheet. You can also place all kinds of annotations on the sheet, such as dimensions, texts, and other symbols commonly used in technical drawings.
+TechDraw Workbench permite crear hojas, que pueden estar en blanco o utilizar una plantilla predefinida ([[TechDraw_Templates|template]]) con elementos predefinidos, como bordes y un título. En estas hojas, puede colocar vistas de los objetos 3D modelados previamente y configurar su apariencia. También puede añadir anotaciones, como cotas, textos y otros símbolos comunes en dibujos técnicos.
 
 Drawing sheets, once complete, can be printed or exported as [https://en.wikipedia.org/wiki/Scalable_Vector_Graphics SVG], PDF or [https://en.wikipedia.org/wiki/AutoCAD_DXF DXF] files.
 
