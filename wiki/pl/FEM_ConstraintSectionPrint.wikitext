@@ -9,7 +9,6 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
 {{GuiCommand/pl
 |Name=FEM ConstraintSectionPrint
@@ -20,10 +19,9 @@
 |SeeAlso=
 }}
 {{GuiCommandFemInfo/pl
-|Solvers=CalculiX
+|Solvers=CalculiX, Z88
 }}
 }}
-</div>
 
 <span id="Description"></span>
 ==Opis==
