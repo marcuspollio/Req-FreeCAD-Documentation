@@ -114,7 +114,7 @@ Si desea un tutorial más detallado, consulte [[CAM Walkthrough for the Imppatie
 
 El primer paso consiste en eliminar el material sobrante alrededor del objeto. En esta etapa, partimos de un bloque sólido de materia prima y debemos tallar la pieza de Lego a partir de este bloque. Este proceso implica definir las trayectorias de la herramienta que irán eliminando gradualmente el material sobrante, dejando la forma deseada de la pieza de Lego.
 
-La siguiente imagen muestra la configuración de FreeCAD CAM Workbench para el mecanizado de un bloque de Lego. El árbol del modelo incluye operaciones de modelado sólido como Pad, Pocket y LinearPattern, que se utilizaron para dar forma a la pieza. Se crea un trabajo que contiene trayectorias de herramienta en Operaciones que definen cómo se eliminará el material del material base. Se selecciona la herramienta predeterminada para el mecanizado y el Cuerpo del Modelo representa la pieza 3D en la que se está trabajando. Esta configuración prepara el objeto para generar el código G que controlará la máquina CNC.
+La siguiente imagen muestra la configuración de FreeCAD CAM Workbench para el mecanizado de un bloque de Lego. El árbol del modelo incluye operaciones de modelado sólido como Pad, Pocket y LinearPattern, que se utilizaron para dar forma a la pieza. Se crea un trabajo que contiene trayectorias de herramienta en Operaciones que definen cómo se eliminará el material del material base. Se selecciona la herramienta predeterminada para el mecanizado y el Cuerpo del modelo representa la pieza 3D en la que se está trabajando. Esta configuración prepara el objeto para generar el código G que controlará la máquina CNC.
 [[Image:Exercise_path_02.jpg]]
 
 [[File:FreeCAD CAMtree.png]]
