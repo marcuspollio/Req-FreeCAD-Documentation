@@ -47,10 +47,10 @@ Os passos para fazer um FEA na bancada de trabalho "FEM Workbench" são:
 The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbench makes use of external solvers, the amount of manual setup will depend on the operating system that you are using. See [[FEM Install|FEM Install]] for instructions on setting up the external tools.
 </div>
 
-[[Image:FEM_Workbench_workflow.svg|600px]]
+[[Image:FEM_Workbench_workflow.svg|800px]]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Workflow of the FEM Workbench; the workbench calls two external programs to perform meshing of a solid object, and perform the actual solution of the finite element problem}}
+{{Caption|Workflow of the FEM Workbench; the workbench calls two external programs to perform meshing of a shape, and perform the actual solution of the finite element problem}}
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
