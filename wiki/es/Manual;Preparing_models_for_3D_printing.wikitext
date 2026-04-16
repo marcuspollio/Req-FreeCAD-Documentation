@@ -141,9 +141,13 @@ Antes de comenzar a eliminar el material sobrante, ajustemos la fresadora. Si bi
 * El archivo de G-code generado en este ejercicio: https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/lego.gcode
 </div>
 
-<div class="mw-translate-fuzzy">
-'''Leer más'''
-</div>
+* Nuestro siguiente paso es crear los 6 cilindros extruidos en la parte superior del bloque de Lego.
+
+* Seleccione la cara superior y haga clic en el botón [[Image:CAM_Pocket_Shape.svg|16px]] [[CAM_Pocket_Shape|Pocket Shape]]. En la pestaña «Extensiones», active la opción «Extensiones» y haga clic en el borde de la cara superior (normalmente debería añadirse automáticamente en el cuadro de longitud predeterminado).
+* Finalmente, en la pestaña «Operación», introduzca -1,5 mm en el cuadro «Extensión de pasada» y cambie la opción de patrón a ZigZagOffset.
+* Pulse «Aplicar» y cierre la pestaña.
+* De forma similar, podemos crear los tres cilindros de la parte inferior de la pieza de Lego.
+* Podemos visualizar fácilmente los pasos seguidos durante el fresado del objeto utilizando la opción [[Image:CAM_SimulatorGL.svg|16px]] [[CAM_SimulatorGL|SimulatorGL]].
 
 '''Downloads'''
 
