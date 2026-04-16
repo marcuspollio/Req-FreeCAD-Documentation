@@ -980,9 +980,8 @@ Los tipos de objetos que puede crear con {{incode|FreeCAD.ActiveDocument.addObje
 * {{incode|TechDraw::DrawViewSymbolPython}}
 * {{incode|TechDraw::DrawWeldSymbolPython}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Available methods ==
-</div>
+<span id="Available_methods"></span>
+== Métodos disponibles ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 See [[FeaturePython_methods|FeaturePython methods]] for the complete reference.
