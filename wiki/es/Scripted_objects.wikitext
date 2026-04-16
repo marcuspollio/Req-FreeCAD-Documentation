@@ -932,9 +932,7 @@ else:
 <span id="Available_object_types"></span>
 == Tipos de objetos disponibles ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The object types you can create with {{incode|FreeCAD.ActiveDocument.addObject()}} depend on the loaded modules. After loading all internal workbenches a complete list can be obtained with {{incode|FreeCAD.ActiveDocument.supportedTypes()}}. Only object types with a name ending in {{incode|Python}} can be used for scripted objects. These are listed here (for FreeCAD v1.0):
-</div>
+Los tipos de objetos que puede crear con {{incode|FreeCAD.ActiveDocument.addObject()}} dependen de los módulos cargados. Tras cargar todos los entornos de trabajo internos, puede obtener una lista completa con {{incode|FreeCAD.ActiveDocument.supportedTypes()}}. Solo se pueden usar para objetos programados los tipos de objetos cuyo nombre termine en {{incode|Python}}. Estos se enumeran aquí (para FreeCAD v1.0):
 
 * {{incode|App::DocumentObjectGroupPython}}
 * {{incode|App::FeaturePython}}
