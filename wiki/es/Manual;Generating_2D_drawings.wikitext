@@ -56,7 +56,7 @@ En el siguiente ejercicio, veremos cómo crear un dibujo sencillo de un modelo d
 
 * Tenga en cuenta que puede haber formas más sencillas de obtener las vistas que desea. Simplemente puede [[Manual:Navegación en la vista 3D|rotar]] la vista 3D de su modelo y, una vez que tenga la vista que desea, seleccione el modelo en la vista de árbol y haga clic en [[Imagen:TechDraw_View.svg|16px]] Nueva vista. Esto insertará automáticamente una vista con las propiedades de rotación y dirección deseadas. También puede usar la herramienta [[Imagen:TechDraw_ProjectionGroup.svg|16px]] [[TechDraw_ProjectionGroup|TechDraw ProjectionGroup]].
 
-* We can tweak the aspect of our views if we want, for example, we can change their '''Line Width''' property (under the View tab in the Combo View) to 0.5.
+* Podemos ajustar el aspecto de nuestras vistas si queremos; por ejemplo, podemos cambiar su propiedad '''Ancho de línea''' (en la pestaña Vista en la Vista combinada) a 0,5.
 
 We will now place dimensions and indications on our drawing. There are two ways to add dimensions to a model: one is placing the dimensions inside the 3D model, using the [[Image:Draft_Dimension.svg|16px]] [[Draft_Dimension|Dimension]] tool of the [[Draft_Workbench|Draft Workbench]], and then placing a view of these dimensions on our sheet with the [[Image:TechDraw_DraftView.svg|16px]] [[TechDraw_DraftView|TechDraw DraftView]] tool. The other is to do things directly on the TechDraw sheet. We'll use the latter method.
 
