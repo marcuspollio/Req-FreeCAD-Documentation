@@ -179,9 +179,7 @@ Una explicación de {{incode|__getstate__}} y {{incode|__setstate__}} que han si
 obj.addProperty("App::PropertyLength", "Longitud", "Caja", "Longitud de la caja").Longitud = 1.0
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Which is equivalent to:
-</div>
+Lo que es equivalente a:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Code|code=
