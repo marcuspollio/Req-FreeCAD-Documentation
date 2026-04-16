@@ -21,6 +21,7 @@
 <span id="Workflow"></span>
 == 진행 순서 ==
 
+<div class="mw-translate-fuzzy">
 유한요소 해석의 수행 순서 :
 # 전 처리 : 해석 문제에 관한 설정.
 ## 모델의 형상 : 프리캐드로 형상을 생성 하거나, 다른 프로그램에서 만든 것을 도입 합니다.
@@ -30,13 +31,14 @@
 ### 모델 형상에 관한 메쉬 요소를 생성 하거나, 다른 프로그램에서 만들어진 것을 도입 합니다.
 # 해석 계산 : 프리캐드 상에서 외부의 해석기를 실행 시킵니다.
 # 후 처리 : 해석 결과를 프리캐드 상에서 가시화 작업을 하거나, 다른 프로그램으로 '후 처리' 할 수 있도록 내보내기 합니다.
+</div>
 
 유한요소해석 작업환경은 리눅스, 윈도우 와 맥 OSX 등의 운영체계에서 사용 할 수 있습니다. 그런데 이 작업환경은 외부의 해석기를 이용 하도록 만들어져 있으므로 수동으로 설정 내용 분량들은 여러분이 사용하고 있는 운영체계에 따라 다를 겁니다. [[FEM Install/ko|FEM 설치]] 를 위해 '외부도구 설정 안내서'를 읽어 보세요.
 
-[[Image:FEM_Workbench_workflow.svg|600px]]
+[[Image:FEM_Workbench_workflow.svg|800px]]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Workflow of the FEM Workbench; the workbench calls two external programs to perform meshing of a solid object, and perform the actual solution of the finite element problem}}
+{{Caption|Workflow of the FEM Workbench; the workbench calls two external programs to perform meshing of a shape, and perform the actual solution of the finite element problem}}
 </div>
 
 <span id="Menu:_Model"></span>
