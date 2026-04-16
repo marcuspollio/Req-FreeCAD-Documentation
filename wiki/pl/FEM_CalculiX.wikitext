@@ -39,12 +39,16 @@ Interfejs solvera CalculiX wspiera następujące obiekty:
 <span id="Finite_elements"></span>
 === Elementy skończone ===
 
-<div class="mw-translate-fuzzy">
-* Tet4 i Tet10
-* S3 i S6 
-* B31 i B32
-* i te opisane na stronie [[FEM_Mesh_CalculiX/pl|MES: Siatka CalculiX]]
-</div>
+* Bryłowe 3D: 
+** czworościenne: C3D4, C3D10
+** sześciościenne: C3D8(R), C3D20(R)
+* Powłokowe i membranowe 3D:
+** trójkątne: S3, S6, M3D3, M3D6
+** czworokątne: S4(R), S8(R), M3D4(R), M3D8(R)
+* Płaskiego stanu naprężeń, płaskiego stanu odkształceń i osiowosymetryczne 2D:
+** trójkątne: CPS3, CPS6, CPE3, CPE6, CAX3, CAX6
+** czworokątne: CPS4(R), CPS8(R), CPE4(R), CPE8(R), CAX4(R), CAX8(R)
+* Belkowe i kratownicowe 3D: B31(R), B32(R), T3D2, T3D3
 
 More details about the supported CalculiX elements can be found on the [[FEM_Mesh_CalculiX|FEM Mesh CalculiX]] page.
 
