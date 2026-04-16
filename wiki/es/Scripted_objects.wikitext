@@ -1014,9 +1014,7 @@ Las propiedades se definen en el archivo de cabecera C++ PropertyStandard [https
 <span id="Property_attributes"></span>
 === Atributos de la propiedad ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-By default properties can be changed by the user, but it is possible to make properties read-only, for instance if one wants to show the result of a method. It is also possible to hide a property. These attributes can be set using:
-</div>
+Por defecto, el usuario puede modificar las propiedades, pero es posible configurarlas como de solo lectura, por ejemplo, si se desea mostrar el resultado de un método. También es posible ocultar una propiedad. Estos atributos se pueden configurar mediante:
 
 {{Code|code=
 obj.setEditorMode("MyPropertyName", mode)
