@@ -6,16 +6,22 @@
 
 L'[https://fr.wikipedia.org/wiki/M%C3%A9thode_des_%C3%A9l%C3%A9ments_finis analyse par éléments finis] se fait sur un maillage composé de multiples éléments finis triangulaires/tétraédriques, quadrilatéraux/hexaédriques ou autres qui subdivisent un corps d'origine. Plus le maillage est fin, plus les résultats numériques seront précis, et plus le temps de calcul sera long. Un équilibre entre la taille du maillage, le temps de calcul et la précision des résultats est une caractéristique importante d'une analyse par éléments finis bien définie.
 
+<div class="mw-translate-fuzzy">
 Il existe différentes possibilités pour configurer un maillage dans l'[[FEM_Workbench/fr|atelier FEM]] :
 * L'[[FEM_MeshGmshFromShape/fr|outil Gmsh]] de l'interface utilisateur graphique.
 * L'[[FEM_MeshNetgenFromShape/fr|outil Netgen]] à partir de l'interface graphique.
 * Importer un maillage depuis un autre programme. En particulier, Gmsh et Netgen peuvent être utilisés seuls en dehors de FreeCAD pour mailler des corps solides tels que des fichiers Step.
 * Créer manuellement le maillage à l'aide de scripts [[Python/fr|Python]].
+</div>
 
+<div class="mw-translate-fuzzy">
 Les outils Gmsh et Netgen prennent en charge les corps de maillage créés avec les ateliers [[Part_Workbench/fr|Part]] et [[PartDesign_Workbench/fr|PartDesign]], ainsi que les copies simples de ces solides. En général, tout atelier générant des objets solides, tel que l'[[BIM_Workbench/fr|atelier BIM]], peut être utilisé comme base de création de maillages. Notez qu'un maillage utilisé en analyse par éléments finis est différent d'un maillage créé ou importé à partir de l'[[Mesh_Workbench/fr|atelier Mesh]].
+</div>
 
 [[Image:FEM_Workbench_workflow.svg|600px]]
+<div class="mw-translate-fuzzy">
 {{Caption|L'atelier FEM fait appel à l'outil externe Gmsh pour créer un maillage à partir d'un corps solide créé avec n'importe quel atelier dans FreeCAD. il peut également importer un maillage créé à partir d'une source externe.}}
+</div>
 
 [[Image:FEM_Mesh.png|600px]]
 {{Caption|(1) Corps solide créé avec PartDesign<br>(2) Maillage produit par l'outil Gmsh à l'intérieur de l'atelier FEM (tous les triangles)<br>(3) Maillage produit en externe par Gmsh, exporté au format Abaqus {{FileName|.inp}}, puis importé dans FreeCAD (tous les quadrangles).}}
@@ -27,7 +33,9 @@ Auparavant, Netgen était inclus dans FreeCAD et pouvait être utilisé immédia
 <span id="Meshing_software"></span>
 == Logiciels de maillage ==
 
+<div class="mw-translate-fuzzy">
 Les logiciels de maillage opèrent sur des corps solides qui peuvent être dans différents formats, comme Step et Brep. Ces programmes peuvent être utilisés indépendamment de FreeCAD, et disposent généralement de nombreuses options pour contrôler les algorithmes de maillage, la taille des éléments et les conditions aux limites.
+</div>
 
 L'[[FEM_Workbench/fr|atelier FEM]] a développé des interfaces de communication simples pour utiliser Gmsh et Netgen directement dans FreeCAD. D'autres programmes n'ont pas d'interface, mais cela pourrait changer à l'avenir si la communauté suscite de l'intérêt et si ces applications sont faciles à intégrer. Le logiciel de maillage peut être compilé et distribué avec FreeCAD seulement si sa licence est compatible avec les licences GPL2 ou LGPL2 ; sinon le programme doit être utilisé comme un binaire externe, comme Gmsh (GPL2).
 
