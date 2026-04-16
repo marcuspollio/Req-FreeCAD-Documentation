@@ -60,9 +60,11 @@ En el siguiente ejercicio, veremos cómo crear un dibujo sencillo de un modelo d
 
 Ahora colocaremos cotas e indicaciones en nuestro dibujo. Hay dos maneras de añadir cotas a un modelo: una es colocar las cotas dentro del modelo 3D, usando la herramienta [[Image:Draft_Dimension.svg|16px]] [[Draft_Dimension|Dimension]] del [[Draft_Workbench|Draft Workbench]], y luego colocar una vista de estas cotas en nuestra hoja con la herramienta [[Image:TechDraw_DraftView.svg|16px]] [[TechDraw_DraftView|TechDraw DraftView]]. La otra es hacerlo directamente en la hoja de TechDraw. Usaremos este último método.
 
-* Hit the [[Image:TechDraw_ToggleFrame.svg|16px]] Toggle button to turn the vertices on.
-* Use Ctrl + Left Mouse Click to select the two vertices you want to measure the distance between.
-* Hit the [[Image:TechDraw_LengthDimension.svg|16px]] [[TechDraw_LengthDimension|TechDraw LengthDimension]] button.
+* Pulse el botón [[Image:TechDraw_ToggleFrame.svg|16px]] para activar los vértices.
+
+* Use Ctrl + clic izquierdo del ratón para seleccionar los dos vértices entre los que quiere medir la distancia.
+
+* Pulse el botón [[Image:TechDraw_LengthDimension.svg|16px]] [[TechDraw_LengthDimension|TechDraw LengthDimension]].
 
 [[Image:Exercise_TechDraw_05.png]]
 
