@@ -23,7 +23,7 @@ En el siguiente ejercicio, veremos cómo crear un dibujo sencillo de un modelo d
 
 [[Image:Exercise_TechDraw_01.png]]
 
-* Load the IkeaLikeChair file from the library. You can choose between the .[[File_Format_FCStd|FCStd]] version, which will load the full modeling history or the .[[STEP|step]] version, which will create only one object, without the history. Since we won't need to model any further now, it is best to choose the .step version, as it will be easier to manipulate.
+* Cargue el archivo IkeaLikeChair desde la biblioteca. Puede elegir entre la versión .[[File_Format_FCStd|FCStd]], que cargará todo el historial de modelado, o la versión .[[STEP|step]], que creará un solo objeto, sin el historial. Como no necesitaremos modelar más ahora, es mejor elegir la versión .step, ya que será más fácil de manipular.
 
 [[Image:Parts_library.jpg]]
 
