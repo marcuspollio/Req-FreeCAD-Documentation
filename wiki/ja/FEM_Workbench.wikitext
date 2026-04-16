@@ -21,6 +21,7 @@
 <span id="Workflow"></span>
 ==ワークフロー==
 
+<div class="mw-translate-fuzzy">
 有限要素解析（FEA）を実行する手順は次のとおりです：
 
 # 前処理（Preprocessing）：解析問題の設定
@@ -31,14 +32,17 @@
 # ジオメトリモデルの有限要素メッシュを作成するか、他のアプリケーションからインポートします。
 # 解析（Solving）：FreeCAD から外部ソルバーを実行します。
 # 後処理（Postprocessing）：FreeCAD 内で解析結果を可視化するか、他のアプリケーションで後処理できるように結果をエクスポートします。
+</div>
 
 FEM ワークベンチは Linux、Windows、Mac OSX で利用できます。
 外部ソルバーを使用するため、必要となる手動設定の内容は使用しているオペレーティングシステムによって異なります。
 外部ツールのセットアップ手順については、[[FEM Install|FEM インストール]]を参照してください。
 
-[[Image:FEM_Workbench_workflow.svg|600px]]
+[[Image:FEM_Workbench_workflow.svg|800px]]
 
+<div class="mw-translate-fuzzy">
 {{Caption|FEM ワークベンチのワークフロー。 このワークベンチは、ソリッドのメッシュ生成と有限要素解析（FEA）の実際の解法を行うために、2 つの外部プログラムを呼び出します。}}
+</div>
 
 <span id="Menu:_Model"></span>
 ==メニュー：モデル==
