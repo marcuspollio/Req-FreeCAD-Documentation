@@ -35,9 +35,7 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 [[Image:FEM_Workbench_workflow.svg|800px]]
 
-<div class="mw-translate-fuzzy">
-{{Caption| Arbeitsablauf des Arbeitsbereichs FEM; der Arbeitsbereich ruft zwei externe Programme auf, um die Vernetzung eines Festkörper-Objekts durchzuführen, und die eigentliche Lösung des Finite-Elemente-Problems durchzuführen}}
-</div>
+{{Caption| Arbeitsablauf des Arbeitsbereichs FEM; der Arbeitsbereich ruft zwei externe Programme auf, um die Vernetzung einer Form durchzuführen, und die eigentliche Lösung des Finite-Elemente-Problems durchzuführen}}
 
 <span id="Menu:_Model"></span>
 ==Menü Modell==
