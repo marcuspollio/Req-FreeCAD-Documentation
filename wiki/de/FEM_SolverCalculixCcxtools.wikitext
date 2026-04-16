@@ -67,10 +67,6 @@ Standardwerte können im Menü {{MenuCommand|Bearbeiten → Einstellungen → FE
 ** true - Inkrementierungssteuerung erfolgt automatisch
 ** false - automatische Inkrementierungssteuerung wird durch den Parameter DIRECT ausgeschaltet
 
-* {{PropertyData/de|Beam Reduced Integration}} - {{Version/de|1.0}}:
-** true - verwendet Balkenelemente mit reduzierter Integration (B31R oder B32R), erforderlich bei Verwendung von Rohrträgerprofilen, kann auch [https://forum.freecad.org/viewtopic.php?t=61233 genaue Ergebnisse mit Plastizität] ermöglichen
-** false - verwendet reguläre (vollintegrierte) Balkenelemente
-
 * {{PropertyData/de|Buckling Accuracy}} - {{Version/de|1.1}}: Legt die Genauigkeit der Bewertung der Knick-Eigenwerte fest. In den meisten Fällen kann der Standardwert (0.01) beibehalten werden, aber manchmal kann es erforderlich sein, ihn zu verringern (z. B. auf 0.0001), um den ersten Eigenwert zu erfassen.
 
 * {{PropertyData/de|Displace Mesh}} - {{Version/de|1.2}}: Zeigt die tatsächliche Verformung des Netzes in der Ergebnis-Pipeline an, ohne dass der Warp-Filter erforderlich ist (nur für das überarbeitete CalculiX-Löserobjekt verfügbar).
@@ -100,9 +96,11 @@ Standardwerte können im Menü {{MenuCommand|Bearbeiten → Einstellungen → FE
 
 * {{PropertyData/de|Iterations Control Parameter Iter}}: definiert die erste Zeile der [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 CalculiX's advanced iteration parameters] (Anzahl der Iterationen/Reduzierungen). Wird verwendet, wenn {{PropertyData/de|Iterations Control Parameter Time Use}} auf ''true'' gesetzt ist.
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Iterations Control Parameter Time Use}}
 ** true - aktiviert {{PropertyData/de|Iterations Control parameter Cutb}}, {{PropertyData/de|Iterations Control Parameter Iter}} und ({{Version/de|1.2}}) {{PropertyData/de|Iterations Control Parameter Field}}
 ** false
+</div>
 
 * {{PropertyData/de|Material Nonlinearity}}:
 ** linear - nur lineare Materialeigenschaften werden in die Analyse einbezogen
@@ -131,6 +129,12 @@ Standardwerte können im Menü {{MenuCommand|Bearbeiten → Einstellungen → FE
 * {{PropertyData|Pastix Gemischte Genauigkeit}}:
 ** falsch - der PaStiX-Löser verwendet keine gemischte Genauigkeit
 ** wahr - der PaStiX-Löser verwendet gemischte Genauigkeit, was in einigen Fällen zu Problemen mit den Ergebnissen führen kann
+
+<div class="mw-translate-fuzzy">
+* {{PropertyData/de|Beam Reduced Integration}} - {{Version/de|1.0}}:
+** true - verwendet Balkenelemente mit reduzierter Integration (B31R oder B32R), erforderlich bei Verwendung von Rohrträgerprofilen, kann auch [https://forum.freecad.org/viewtopic.php?t=61233 genaue Ergebnisse mit Plastizität] ermöglichen
+** false - verwendet reguläre (vollintegrierte) Balkenelemente
+</div>
 
 * {{PropertyData/de|Split Input Writer}}:
 ** false - Schreibt die gesamte Eingabe in eine *.inp-Datei, die vom Löser CalculiX verwendet werden kann
