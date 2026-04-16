@@ -17,7 +17,7 @@ En FreeCAD, el entorno de trabajo responsable de realizar dichos dibujos es el [
 
 TechDraw Workbench permite crear hojas, que pueden estar en blanco o utilizar una plantilla predefinida ([[TechDraw_Templates|template]]) con elementos predefinidos, como bordes y un título. En estas hojas, puede colocar vistas de los objetos 3D modelados previamente y configurar su apariencia. También puede añadir anotaciones, como cotas, textos y otros símbolos comunes en dibujos técnicos.
 
-Drawing sheets, once complete, can be printed or exported as [https://en.wikipedia.org/wiki/Scalable_Vector_Graphics SVG], PDF or [https://en.wikipedia.org/wiki/AutoCAD_DXF DXF] files.
+Las hojas de dibujo, una vez terminadas, se pueden imprimir o exportar como archivos [https://en.wikipedia.org/wiki/Scalable_Vector_Graphics SVG], PDF o [https://en.wikipedia.org/wiki/AutoCAD_DXF DXF].
 
 In the following exercise, we will see how to create a simple drawing of a chair model found in the [https://github.com/FreeCAD/FreeCAD-library FreeCAD library] (Industrial Design → Chairs → IkeaLikeChair). The FreeCAD library can easily be added to your FreeCAD installation (refer to the [[Manual:Installing|installing]] chapter of this manual), or you can simply download the model from the library webpage, or via the direct link provided at the bottom of this chapter.
 
