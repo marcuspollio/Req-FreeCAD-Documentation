@@ -63,10 +63,8 @@ Pour plus d'informations sur les éléments CalculiX pris en charge, voir la pag
 <span id="Materials"></span>
 === Matériaux ===
 
-<div class="mw-translate-fuzzy">
-* Matériaux isotropes à élasticité linéaire (uniformité dans toutes les directions)
-* Plasticité avec durcissement isotrope
-</div>
+* Matériaux isotropes à élasticité linéaire (propriétés uniformes dans toutes les directions)
+* Plasticité avec durcissement isotropique ou cinématique
 
 <span id="Postprocessing_interface"></span>
 == Interface de post-traitement ==
