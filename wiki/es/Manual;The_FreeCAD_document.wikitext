@@ -17,9 +17,7 @@ Dentro del documento, puede organizar los objetos en grupos, cada uno con un nom
 
 Los objetos en un documento de FreeCAD varían mucho en tipo, ya que cada entorno de trabajo introduce su propio tipo de objetos. Por ejemplo, el entorno de trabajo [[Mesh_Workbench|Mesh Workbench]] se utiliza para añadir objetos de malla, mientras que el entorno de trabajo [[Part_Workbench|Part Workbench]] proporciona objetos de pieza. En cualquier sesión de FreeCAD, si hay al menos un documento abierto, este se considera activo y se muestra en la vista 3D actual. Este es el documento que está modificando activamente. Al cambiar de pestaña a otro documento, la pestaña recién seleccionada se convierte en el documento activo y la mayoría de las operaciones se aplicarán a él.
 
-<div class="mw-translate-fuzzy">
-Los documentos de LibreCAD se guardan con la extensión .FcStd, que es un formato compuesto basado en zip, similar a [https://www.libreoffice.org LibreOffice]. Si algo va muy mal, a menudo es posible descomprimirlo y arreglar el problema o rescatar los datos.
-</div>
+Los documentos de FreeCAD se guardan en formato de archivo .FCStd, que utiliza una estructura compuesta basada en ZIP, similar a los formatos empleados por programas como LibreOffice. Si surgen problemas técnicos, el documento suele poder descomprimirse, lo que permite acceder directamente a su contenido para solucionar problemas o recuperar datos. Esta función proporciona una garantía adicional, asegurando que su trabajo de diseño se conserve y pueda recuperarse incluso en circunstancias imprevistas.
 
 [[Image:FreeCAD_022_Document.png]]
 
