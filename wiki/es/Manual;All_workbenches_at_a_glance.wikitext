@@ -411,7 +411,6 @@ El [[Image:Workbench_Draft.svg|32px]] [[Draft_Workbench|Draft Workbench]] está 
 
 El [[Image:Workbench_Sketcher.svg|24px]] [[Sketcher_Workbench|Sketcher Workbench]] contiene herramientas para crear y editar objetos 2D complejos, denominados bocetos. La geometría de los elementos que forman estos bocetos se puede referenciar y relacionar con precisión mediante el uso de restricciones. Estos croquis están pensados fundamentalmente como los bloques del flujo de trabajo de construcción de la geometría de PartDesign, pero resultan útiles en cualquier parte de FreeCAD.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable" style="width:100%"
 ! Tool
 ! Description
@@ -419,144 +418,144 @@ El [[Image:Workbench_Sketcher.svg|24px]] [[Sketcher_Workbench|Sketcher Workbench
 ! Description
 |-
 | [[Image:Sketcher_CreatePoint.svg|32px]] [[Sketcher_CreatePoint|Point]]
-| Draws a point
+| Dibuja un punto.
 | [[Image:Sketcher_CreatePolyline.svg|32px]] [[Sketcher_CreatePolyline|Polyline]]
-| Draws a line made of multiple line segments
+| Dibuja una línea formada por múltiples segmentos de línea.
 |-
 | [[Image:Sketcher_Line.svg|32px]] [[Sketcher_CreateLine|Line]]
-| Draws a line segment from 2 points
+| Dibuja un segmento de línea desde 2 puntos.
 | [[Image:Sketcher_Arc.svg|32px]] [[Sketcher_CreateArc|Arc]]
-| Draws an arc segment from the center, radius, start angle and end angle
+| Dibuja un segmento de arco a partir del centro, radio, ángulo inicial y ángulo final.
 |-
 | [[Image:Sketcher Create3PointArc.svg|32px]] [[Sketcher_Create3PointArc|Arc 3 points]]
-| Draws an arc segment from two endpoints and another point on the circumference
+| Dibuja un segmento de arco desde dos puntos extremos y otro punto en la circunferencia.
 | [[Image:Sketcher_CreateArcOfEllipse.svg|32px]] [[Sketcher_CreateArcOfEllipse|Arc of ellipse]]
-| Creates an arc of ellipse
+| Crea un arco de elipse.
 |-
 | [[Image:Sketcher_CreateArcOfHyperbola.svg|32px]] [[Sketcher_CreateArcOfHyperbola|Arc of hyperbola]]
-| Creates an arc of hyperbola
+| Crea un arco de hipérbola.
 | [[Image:Sketcher_CreateArcOfParabola.svg|32px]] [[Sketcher_CreateArcOfParabola|Arc of parabola]]
-| Creates an arc of parabola
+| Crea un arco de parábola.
 |-
 | [[Image:Sketcher_Circle.svg|32px]] [[Sketcher_CreateCircle|Circle]]
-| Draws a circle from the center and radius
+| Dibuja un círculo a partir del centro y el radio.
 | [[Image:Sketcher Create3PointCircle.svg|32px]] [[Sketcher_Create3PointCircle|Circle 3 points]]
-| Draws a circle from three points on the circumference
+| Dibuja un círculo que pasa por tres puntos dados del espacio.
 |-
 | [[Image:Sketcher_CreateEllipseByCenter.svg|32px]] [[Sketcher_CreateEllipseByCenter|Ellipse]]
-| Draws an ellipse by a center point, major radius point and minor radius point
+| Dibuja una elipse mediante un punto central, un punto de radio mayor y un punto de radio menor.
 | [[Image:Sketcher_CreateEllipseBy3Points.svg|32px]] [[Sketcher_CreateEllipseBy3Points|Ellipse 3 points]]
-| Draws an ellipse by major diameter (2 points) and minor radius point
+| Dibuja una elipse dado su diámetro mayor (2 puntos) y el radio menor (1 punto).
 |-
 | [[Image:Sketcher_CreateRectangle.svg|32px]] [[Sketcher_CreateRectangle|Rectangle]]
-| Draws a rectangle from 2 opposite points
+| Dibuja un rectángulo desde 2 puntos opuestos.
 | [[Image:Sketcher_CreateRectangle_Center.svg|32px]] [[Sketcher_CreateRectangle_Center|Centered rectangle]]
-| Creates a centered rectangle
+| Crea un rectángulo centrado a partir del primer click..
 |-
 | [[Image:Sketcher_CreateOblong.svg|32px]] [[Sketcher_CreateOblong|Rounded rectangle]]
-| Creates a rounded rectangle
+| Crea un rectángulo redondeado.
 | [[Image:Sketcher_CreateTriangle.svg|32px]] [[Sketcher_CreateTriangle|Triangle]]
-| Draws a regular triangle inscribed in a construction geometry circle
+| Dibuja un triángulo regular inscrito en un círculo geométrico de construcción.
 |-
 | [[Image:Sketcher_CreateSquare.svg|32px]] [[Sketcher_CreateSquare|Square]]
-| Draws a regular square inscribed in a construction geometry circle
+| Dibuja un cuadrado regular inscrito en un círculo de geometría constructiva.
 | [[Image:Sketcher_CreatePentagon.svg|32px]] [[Sketcher_CreatePentagon|Pentagon]]
-| Draws a regular pentagon inscribed in a construction geometry circle
+| Dibuja un pentágono regular inscrito en un círculo de geometría constructiva.
 |-
 | [[Image:Sketcher_CreateHexagon.svg|32px]] [[Sketcher_CreateHexagon|Hexagon]]
-| Draws a regular hexagon inscribed in a construction geometry circle
+| Dibuja un hexágono regular inscrito en un círculo de geometría constructiva.
 | [[Image:Sketcher_CreateHeptagon.svg|32px]] [[Sketcher_CreateHeptagon|Heptagon]]
-| Draws a regular heptagon inscribed in a construction geometry circle
+| Dibuja un heptágono regular inscrito en un círculo de geometría constructiva.
 |-
 | [[Image:Sketcher_CreateOctagon.svg|32px]] [[Sketcher_CreateOctagon|Octagon]]
-| Draws a regular octagon inscribed in a construction geometry circle
+| Dibuja un octágono regular inscrito en un círculo de geometría constructiva.
 | [[Image:Sketcher_CreateRegularPolygon.svg|32px]] [[Sketcher_CreateRegularPolygon|Regular polygon]]
-| Creates a regular polygon. The number of sides can be specified
+| Crea un polígono regular. Se puede especificar el número de lados.
 |-
 | [[Image:Sketcher_CreateSlot.svg|32px]] [[Sketcher_CreateSlot|Slot]]
-| Creates a slot
+| Crea una ranura.
 | [[Image:Sketcher_CreateArcSlot.svg|32px]] [[Sketcher_CreateArcSlot|Arc slot]]
-| Creates an arc slot
+| Crea una ranura en forma de arco.
 |-
 | [[Image:Sketcher_CreateBSpline.svg|32px]] [[Sketcher_CreateBSpline|B-spline by control points]]
-| Creates a B-spline curve by control points
+| Crea una curva B-spline mediante puntos de control.
 | [[Image:Sketcher_CreatePeriodicBSpline.svg|32px]] [[Sketcher_CreatePeriodicBSpline|Periodic B-spline by control points]]
-| Creates a periodic (closed) B-spline curve by control points.
+| Crea una curva B-spline periódica (cerrada) mediante puntos de control.
 |-
 | [[Image:Sketcher_CreateBSplineByInterpolation.svg|32px]] [[Sketcher_CreateBSplineByInterpolation|B-spline by knots]]
-| Creates a B-spline curve by knot points
+| Crea una curva B-spline mediante puntos de nodo.
 | [[Image:Sketcher_CreatePeriodicBSplineByInterpolation.svg|32px]] [[Sketcher_CreatePeriodicBSplineByInterpolation|Periodic B-spline by knots]]
-| Creates a periodic (closed) B-spline curve by knot points
+| Crea una curva B-spline periódica (cerrada) mediante puntos de nodo.
 |-
 | [[Image:Sketcher_ToggleConstruction.svg|32px]] [[Sketcher_ToggleConstruction|Construction mode]]
-| Toggles an element to/from construction mode
+| Cambia el modo de construcción de un elemento.
 | [[Image:Sketcher_Dimension.svg|32px]] [[Sketcher_Dimension|Dimension]]
-| Based on the current selection, it offers appropriate dimensional/geometric constraints
+| En función de la selección actual, ofrece restricciones dimensionales/geométricas adecuadas.
 |-
 | [[Image:Sketcher_ConstrainDistanceX.svg|32px]] [[Sketcher_ConstrainDistanceX|Horizontal distance]]
-| Fixes the horizontal distance between two points or the endpoints of a line
+| Fija la distancia horizontal entre dos puntos o los extremos de una línea.
 | [[Image:Sketcher_ConstrainDistanceY.svg|32px]] [[Sketcher_ConstrainDistanceY|Vertical distance]]
-| Fixes the vertical distance between two points or the endpoints of a line
+| Fija la distancia vertical entre dos puntos o los extremos de una línea.
 |-
 | [[Image:Sketcher_ConstrainDistance.svg|32px]] [[Sketcher_ConstrainDistance|Distance]]
-| Fixes the length of a line, the distance between two points, the perpendicular distance from a point to a line, the distance between edges of two circles/arcs or between a circle/arc and a line, or the length of an arc
+| Fija la longitud de una línea, la distancia entre dos puntos, la distancia perpendicular de un punto a una línea, la distancia entre los bordes de dos círculos/arcos o entre un círculo/arco y una línea, o la longitud de un arco.
 | [[Image:Sketcher_ConstrainRadiam.svg|32px]] [[Sketcher_ConstrainRadiam|Auto radius/diameter]]
-| Fixes the radius of arcs and B-spline weight circles, and the diameter of circles
+| Fija el radio de los arcos y los círculos de peso B-spline, y el diámetro de los círculos.
 |-
 | [[Image:Sketcher_ConstrainRadius.svg|32px]] [[Sketcher_ConstrainRadius|Radius]]
-| Fixes the radius of circles, arcs and B-spline weight circles
+| Corrige el radio de círculos, arcos y círculos ponderados de B-spline.
 | [[Image:Sketcher_ConstrainDiameter.svg|32px]] [[Sketcher_ConstrainDiameter|Diameter]]
-| Fixes the diameter of circles and arcs.
+| Fija el diámetro de círculos y arcos.
 |-
 | [[Image:Sketcher_ConstrainAngle.svg|32px]] [[Sketcher_ConstrainAngle|Angle]]
-| Fixes the angle between two edges, the angle of a line with the horizontal axis of the sketch, or the aperture angle of a circular arc
+| Fija el ángulo entre dos aristas, el ángulo de una línea con el eje horizontal del boceto o el ángulo de apertura de un arco circular.
 | [[Image:Sketcher_ConstrainLock.svg|32px]] [[Sketcher ConstrainLock|Lock]]
-| Constrains the selected item by setting vertical and horizontal distances relative to the origin, thereby locking the location of that item
+| Restringe el elemento seleccionado estableciendo distancias verticales y horizontales relativas al origen, bloqueando así la ubicación de dicho elemento.
 |-
 | [[Image:Sketcher_ConstrainCoincidentUnified.svg|32px]] [[Sketcher_ConstrainCoincidentUnified|Coincident (unified)]]
-| Creates a coincident constraint between points, fixes points on edges or axes or creates a concentric constraint
+| Crea una restricción de coincidencia entre puntos, fija puntos en aristas o ejes o crea una restricción concéntrica.
 | [[Image:Sketcher_ConstrainHorVer.svg|32px]] [[Sketcher_ConstrainHorVer|Horizontal/vertical]]
-| Constrains lines or pairs of points to be horizontal or vertical, whichever is closest to the current alignment
+| Restringe las líneas o pares de puntos a ser horizontales o verticales, según cuál esté más cerca de la alineación actual.
 |-
 | [[Image:Sketcher_ConstrainHorizontal.svg|32px]] [[Sketcher_ConstrainHorizontal|Horizontal]]
-| Constrains the selected lines or polyline elements to a true horizontal orientation. More than one object can be selected before applying this constraint
+| Restringe las líneas o elementos de polilínea seleccionados a una orientación horizontal verdadera. Se puede seleccionar más de un objeto antes de aplicar esta restricción.
 | [[Image:Sketcher_ConstrainVertical.svg|32px]] [[Sketcher_ConstrainVertical|Vertical]]
-| Constrains the selected lines or polyline elements to a true vertical orientation. More than one object can be selected before applying this constraint.
+| Restringe las líneas o polilíneas seleccionadas a una orientación vertical estricta. Se pueden seleccionar varios objetos antes de aplicar esta restricción.
 |-
 | [[Image:Sketcher_ConstrainParallel.svg|32px]] [[Sketcher_ConstrainParallel|Parallel]]
-| Constrains lines to be parallel.
+| Obliga a que las líneas sean paralelas.
 | [[Image:Sketcher_ConstrainPerpendicular.svg|32px]] [[Sketcher_ConstrainPerpendicular|Perpendicular]]
-| Constrains two lines to be perpendicular
+| Restringe dos líneas a ser perpendiculares.
 |-
 | [[Image:Sketcher_ConstrainTangent.svg|32px]] [[Sketcher_ConstrainTangent|Tangent or collinear]]
-| Creates a tangent constraint between two selected entities or a co-linear constraint between two line segments
+| Crea una restricción de tangencia entre dos entidades seleccionadas o una restricción colineal entre dos segmentos de línea.
 | [[Image:Sketcher ConstrainEqual.svg|32px]] [[Sketcher ConstrainEqual|Equal length]]
-| Constrains two selected entities equal to one another. If used on circles or arcs their radii will be set equal
+| Restringe dos entidades seleccionadas para que sean iguales entre sí. Si se usa en círculos o arcos, sus radios se establecerán iguales.
 |-
 | [[Image:Sketcher_ConstrainSymmetric.svg|32px]] [[Sketcher_ConstrainSymmetric|Symmetric]]
-| Constrains two points to be symmetrical around a line or axis, or around a third point
+| Restringe dos puntos para que sean simétricos con respecto a una línea o eje, o con respecto a un tercer punto.
 | [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock|Block]]
-| Blocks edges in place with a single constraint. It is mainly intended for B-splines
+| Bloquea los bordes en su lugar con una sola restricción. Está principalmente destinado a B-splines.
 |-
 | [[Image:Sketcher_CreateFillet.svg|32px]] [[Sketcher_CreateFillet|Fillet]]
-| Creates a fillet between two non-parallel edges
+| Crea un filete entre dos bordes no paralelos.
 | [[Image:Sketcher_CreateChamfer.svg|32px]] [[Sketcher_CreateChamfer|Chamfer]]
-| Creates a chamfer between two non-parallel edges
+| Crea un chaflán entre dos bordes no paralelos.
 |-
 | [[Image:Sketcher_Trimming.svg|32px]] [[Sketcher_Trimming|Trim]]
-| Trims an edge at the nearest intersections with other edges
+| Recorta un borde en las intersecciones más cercanas con otros bordes.
 | [[Image:Sketcher_Split.svg|32px]] [[Sketcher_Split|Split]]
-| Splits an edge while transferring most constraints
+| Divide una arista mientras transfiere la mayoría de las restricciones.
 |-
 | [[Image:Sketcher_Extend.svg|32px]] [[Sketcher_Extend|Extend]]
-| Extends or shortens a line or an arc to an arbitrary location, or to a target edge or point
+| Extiende o acorta una línea o un arco hasta una ubicación arbitraria, o hasta un borde o punto de destino.
 | [[Image:Sketcher_External.svg|32px]] [[Sketcher_External|External geometry]]
-| Projects edges and/or vertices belonging to objects outside the sketch onto the sketch plane
+| Proyecta aristas y/o vértices pertenecientes a objetos fuera del boceto sobre el plano del boceto.
 |-
 | [[Image:Sketcher_Projection.svg|32px]] [[Sketcher_Projection|Projection]]
-| Projects edges and/or vertices belonging to objects outside the sketch onto the sketch plane.
+| Proyecta las aristas y/o vértices pertenecientes a objetos fuera del boceto sobre el plano del boceto.
 | [[Image:Sketcher_Intersection.svg|32px]] [[Sketcher_Intersection|Intersection]]
-| Intersects faces and/or edges belonging to objects outside the sketch with the sketch plane.
+| Interseca las caras y/o aristas pertenecientes a objetos fuera del boceto con el plano del boceto.
 |-
 | [[Image:Sketcher_CarbonCopy.svg|32px]] [[Sketcher_CarbonCopy|Carbon copy]]
 | Copies all geometry and constraints from another sketch into the active sketch
@@ -583,7 +582,6 @@ El [[Image:Workbench_Sketcher.svg|24px]] [[Sketcher_Workbench|Sketcher Workbench
 | [[Image:Sketcher_RemoveAxesAlignment.svg|32px]] [[Sketcher_RemoveAxesAlignment|Remove axes alignment]]
 | Removes the axes alignment of selected edges by replacing [[Sketcher_ConstrainHorizontal|Horizontal]] and [[Sketcher_ConstrainVertical|Vertical]] constraints with [[Sketcher_ConstrainParallel|Parallel]] and [[Sketcher_ConstrainPerpendicular|Perpendicular]] constraints
 |}
-</div>
 
 <span id="BIM"></span>
 <div class="mw-translate-fuzzy">
