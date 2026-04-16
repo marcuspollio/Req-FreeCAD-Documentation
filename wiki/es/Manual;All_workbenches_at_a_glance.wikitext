@@ -722,9 +722,7 @@ Aunque lo detallado anteriormente resume las herramientas más importantes de Fr
 <span id="External_workbenches"></span>
 === Ambientes de trabajo externos ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-A number of other very useful workbenches produced by FreeCAD community members also exist. Although they are not included in a standard FreeCAD installation, they are easy to install as plug-ins. They are all referenced in the [https://github.com/FreeCAD/FreeCAD-addons FreeCAD-addons] repository. Among the most developed are:
-</div>
+También existen otros entornos de trabajo muy útiles creados por miembros de la comunidad de FreeCAD. Si bien no se incluyen en una instalación estándar de FreeCAD, son fáciles de instalar como complementos. Todos ellos se encuentran referenciados en el repositorio [https://github.com/FreeCAD/FreeCAD-addons FreeCAD-addons]. Entre los más desarrollados se encuentran:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The [https://github.com/hamish2014/FreeCAD_drawing_dimensioning Drawing Dimensioning Workbench] offers many new tools to work directly on Drawing Sheets and allow you to add dimensions, annotations and other technical symbols with great control over their aspect. '''The Drawing Dimensioning Workbench is no longer maintained.'''
