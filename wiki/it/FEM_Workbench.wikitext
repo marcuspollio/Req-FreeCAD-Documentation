@@ -21,6 +21,7 @@ L'[[FEM_Workbench/it|Ambiente FEM]] offre a FreeCAD un moderno flusso di lavoro 
 <span id="Workflow"></span>
 ==Flusso di lavoro==
 
+<div class="mw-translate-fuzzy">
 I passaggi per effettuare un'analisi ad elementi finiti sono: 
 # Preelaborazione: impostazione del problema di analisi.
 ## Modellazione della geometria: creazione della geometria con FreeCAD o importazione da una diversa applicazione.
@@ -30,12 +31,15 @@ I passaggi per effettuare un'analisi ad elementi finiti sono:
 ### Creare un elemento mesh finito per il modello geometrico o importarlo da una diversa applicazione.
 # Risoluzione: eseguire usando un risolutore esterno dall'interno di FreeCAD.
 # Postelaborazione: visualizzare i risultati dell'analisi dall'interno di FreeCAD, o esportare i risultati in modo che possano essere postelaborati con un'altra applicazione.
+</div>
 
 Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato che il modulo FEM utilizza un risolutore esterno, la quantità di interventi manuali dipende dal sistema operativo che si sta utilizzando. Consultare la pagina  [[FEM_Install/it|Installare i componenti per l'ambiente FEM]] per le istruzioni sulla configurazione degli strumenti esterni.
 
-[[Image:FEM_Workbench_workflow.svg|600px]]
+[[Image:FEM_Workbench_workflow.svg|800px]]
 
+<div class="mw-translate-fuzzy">
 {{Caption|Flusso di lavoro del Workbench FEM; il workbench chiama due programmi esterni per eseguire il meshing di un oggetto solido e risolvere il problema degli elementi finiti}}
+</div>
 
 <span id="Menu:_Model"></span>
 == Menu Modello ==
