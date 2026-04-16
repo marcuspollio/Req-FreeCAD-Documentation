@@ -240,9 +240,7 @@ El [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Wor
 
 * [[Image:Part_ToleranceSet.svg|32px]] [[Part_ToleranceSet|Establecer tolerancia]]: Crea una copia paramétrica de los objetos seleccionados con todas las tolerancias contenidas ajustadas al menos en un cierto valor mínimo. {{Version|1.1}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Part_SectionCut.svg|32px]] [[Part_SectionCut|Persistent Section Cut]]: Creates persistent cuts of objects and assemblies.
-</div>
+* [[Image:Part_SectionCut.svg|32px]] [[Part_SectionCut|Persistent Section Cut]]: Crea cortes persistentes en objetos y ensamblajes.
 
 <div class="mw-translate-fuzzy">
 * [[Image:Part_EditAttachment.svg|32px]] [[Part_EditAttachment/es|Attachment]]: Adjunta un objeto a otro objeto.
