@@ -570,9 +570,7 @@ App.ActiveDocument.recompute()
 <span id="Scenegraph_Structure"></span>
 == Estructura del grafo de escena ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You may have noticed that the examples above construct their scenegraphs in slightly different ways. Some use {{incode|obj.addDisplayMode(node, "modename")}} while others use {{incode|obj.SwitchNode.getChild(x).addChild(y)}}.
-</div>
+Es posible que haya notado que los ejemplos anteriores construyen sus grafos de escena de maneras ligeramente diferentes. Algunos usan {{incode|obj.addDisplayMode(node, "modename")}} mientras que otros usan {{incode|obj.SwitchNode.getChild(x).addChild(y)}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Each feature in a FreeCAD document is based the following scenegraph structure:
