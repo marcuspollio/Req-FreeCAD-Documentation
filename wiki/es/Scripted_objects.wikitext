@@ -167,9 +167,7 @@ makeBox()
 === Things to note ===
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If your object relies on being recomputed as soon as it is created, you must do this manually in the {{incode|__init__}} function as it is not called automatically. This example does not require it because the {{incode|onChanged}} method of the {{incode|Box}} class has the same effect as the {{incode|execute}} function, but the examples below rely on being recomputed before anything is displayed in the 3D view. In the examples, this is done manually with {{incode|ActiveDocument.recompute()}} but in more complex scenarios you need to decide where to recompute either the whole document or the FeaturePython object.
-</div>
+Si su objeto requiere ser recalculado tan pronto como se crea, debe hacerlo manualmente en la función {{incode|__init__}} ya que no se llama automáticamente. Este ejemplo no lo requiere porque el método {{incode|onChanged}} de la clase {{incode|Box}} tiene el mismo efecto que la función {{incode|execute}}, pero los ejemplos expuestos a continuación requieren ser recalculados antes de que se muestre algo en la vista 3D. En los ejemplos, esto se hace manualmente con {{incode|ActiveDocument.recompute()}} pero en escenarios más complejos debe decidir dónde recalcular, ya sea todo el documento o el objeto FeaturePython.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This example produces a number of exception stack traces in the report view window. This is because the {{incode|onChanged}} method of the {{incode|Box}} class is called each time a property is added in {{incode|__init__}}. When the first one is added, the Width and Height properties don't exist yet and so the attempt to access them fails.
