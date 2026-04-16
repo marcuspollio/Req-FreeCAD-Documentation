@@ -23,7 +23,7 @@ The steps to carry out a finite element analysis are:
 # Preprocessing: setting up the analysis problem.
 ## Modeling the geometry: creating the geometry with FreeCAD, or importing it from a different application.
 ## Creating an analysis.
-### Adding simulation constraints such as loads and fixed supports to the geometric model.
+### Adding analysis features such as boundary conditions, loads and constraints to the geometric model.
 ### Adding materials to the parts of the geometric model.
 ### Creating a finite element mesh for the geometrical model, or importing it from a different application.
 # Solving: running an external solver from within FreeCAD.
@@ -31,9 +31,9 @@ The steps to carry out a finite element analysis are:
 
 The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbench makes use of external solvers, the amount of manual setup will depend on the operating system that you are using. See [[FEM Install|FEM Install]] for instructions on setting up the external tools.
 
-[[Image:FEM_Workbench_workflow.svg|600px]]
+[[Image:FEM_Workbench_workflow.svg|800px]]
 
-{{Caption|Workflow of the FEM Workbench; the workbench calls two external programs to perform meshing of a solid object, and perform the actual solution of the finite element problem}}
+{{Caption|Workflow of the FEM Workbench; the workbench calls two external programs to perform meshing of a shape, and perform the actual solution of the finite element problem}}
 
 == Menu: Model ==
 
