@@ -25,6 +25,7 @@
 <span id="Workflow"></span>
 == 工作流程 ==
 
+<div class="mw-translate-fuzzy">
 创建有限元分析的流程如下：
 # 预处理：配置要仿真的问题
 ## 创建几何模型：使用 FreeCAD 创建或从其它应用导入几何模型
@@ -34,12 +35,15 @@
 ### 为几何模型创建或从其它应用导入有限元网格
 # 求解：在 FreeCAD 中运行外部求解器
 # 后处理：在 FreeCAD 中将仿真结果可视化，或是导出结果以在其它应用中进行后处理
+</div>
 
 FEM 工作台在 Linux，Windows 和 Mac OSX 上都可用。由于工作台使用了外部求解器，因此具体的手动配置工作多少取决于你所使用的系统平台。关于配置外部工具的步骤请参考 [[FEM Install|FEM 安装]]文档。
 
-[[Image:FEM_Workbench_workflow.svg|600px]]
+[[Image:FEM_Workbench_workflow.svg|800px]]
 
+<div class="mw-translate-fuzzy">
 {{Caption|FEM 工作台的流程；工作台会调用两个外部程序，分别用于为固体对象生成网格和为有限元问题求解}}
+</div>
 
 <span id="Menu:_Model"></span>
 == 菜单：模型 ==
