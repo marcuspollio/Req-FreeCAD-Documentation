@@ -127,11 +127,9 @@ Domyślne właściwości można ustawić w menu {{MenuCommand|Edycja → Prefere
 ** {{false/pl}} - mieszana precyzja nie jest używana przez solver PaStiX
 ** {{true/pl}} - mieszana precyzja jest używana przez solver PaStiX, co może prowadzić do problemów z wynikami w niektórych przypadkach
 
-<div class="mw-translate-fuzzy">
-* {{PropertyData|Beam Reduced Integration}} - {{Version/pl|1.0}}:
-** {{true/pl}} - używa elementów belkowych ze zredukowanym całkowaniem (B31R lub B32R), które są wymagane w przypadku korzystania z przekroju rurowego i mogą umożliwić uzyskanie [https://forum.freecad.org/viewtopic.php?t=61233 dokładnych wyników w analizach z plastycznością]
-** {{false/pl}} - używa zwykłych elementów belkowych (z pełnym całkowaniem)
-</div>
+* {{PropertyData|Reduced Integration}} - {{Version/pl|1.2}}:
+** {{true/pl}} - używa elementów sześciościennych, czworokątnych lub belkowych ze zredukowanym całkowaniem, które w przypadku belek są wymagane do korzystania z przekroju rurowego i umożliwiają uzyskanie [https://forum.freecad.org/viewtopic.php?t=61233 dokładnych wyników w analizach z plastycznością]
+** {{false/pl}} - używa zwykłych elementów sześciościennych, czworokątnych lub belkowych (z pełnym całkowaniem)
 
 * {{PropertyData|Split Input Writer}}:
 ** {{false/pl}} - zapisz wszystkie dane wejściowe do jednego pliku *.inp file.
