@@ -69,13 +69,9 @@ Tabla de ejercicios completa.jpg|link=[[Manual:Modelado_tradicional,_al_método_
 
 10_T03_Part_ball_fillet.png|link=[[Whiffle_Ball_tutorial]]|[[Whiffle_Ball_tutorial|Crear una pelota de wiffle]] (v0.19)<br/>Utilice primitivas sólidas, como cubos y cilindros, y operaciones booleanas, como unión y corte, para crear una pelota hueca.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Tutorial-normand06.jpg|link=[[Basic_modeling_tutorial]]|[[Basic_modeling_tutorial|Basic modeling tutorial]] <br/>Create an iron angle by two methods: using solid primitives, and boolean operations (CSG); and by extruding a planar profile.
-</div>
+Tutorial-normand06.jpg|link=[[Basic_modeling_tutorial]]|[[Basic_modeling_tutorial|Tutorial básico de modelado]] <br/>Crea un ángulo de hierro mediante dos métodos: usando primitivas sólidas y operaciones booleanas (CSG); y extruyendo un perfil plano.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-File:HTCaeroplane04.png|link=[[Aeroplane]]|[[Aeroplane|Aeroplane tutorial]] <br/>Understand placements in FreeCAD by creating a simple aeroplane model. Then learn about rotation angles, yaw (Z), pitch (Y), and roll (X).
-</div>
+Archivo:HTCaeroplane04.png|link=[[Aeroplane]]|[[Aeroplane|Aeroplane tutorial]] <br/>Comprenda la ubicación de los elementos en FreeCAD creando un modelo de avión sencillo. Luego, aprenda sobre los ángulos de rotación, guiñada (Z), cabeceo (Y) y alabeo (X).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 File:T13_14_Threads_components.png|link=[[Thread_for_Screw_Tutorial]]|[[Thread_for_Screw_Tutorial|Thread for screw tutorial]] (v0.19)<br/>Understand how to create threads with several techniques that include use of the tools [[Part_Helix|Part Helix]], [[PartDesign_AdditivePipe|PartDesign AdditivePipe]], [[Part_Sweep|Part Sweep]], [[Part_Fuse|Part Fuse]], and [[Part_Cut|Part Cut]].
