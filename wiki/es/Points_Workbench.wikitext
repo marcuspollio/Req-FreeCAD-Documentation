@@ -53,14 +53,12 @@ Se puede acceder a todas las herramientas del ambiente de trabajo de puntos desd
 ** [https://forum.freecad.org/viewtopic.php?f=13&t=16103 Schnitte durch Flächen aus Messwerten] (alemán)
 
 
-<div class="mw-translate-fuzzy">
-{{Docnav/es
-|[[Path_Workbench/es|Ambiente de trabajo Trayectoria]]
-|[[Raytracing_Workbench/es|Ambiente de trabajo Trazado de rayos]]
-|IconL=Workbench_Path.svg
-|IconR=Workbench_Raytracing.svg
+{{Docnav
+|[[Entorno de trabajo de diseño de piezas|Entorno de trabajo de diseño de piezas]]
+|[[Entorno de trabajo de ingeniería inversa|Entorno de trabajo de ingeniería inversa]]
+|IconL=Entorno de trabajo de diseño de piezas.svg
+|IconR=Entorno de trabajo de ingeniería inversa.svg
 }}
-</div>
 
 {{Points Tools navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
