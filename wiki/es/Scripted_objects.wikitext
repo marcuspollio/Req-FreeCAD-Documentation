@@ -1009,9 +1009,7 @@ Cuando se añaden propiedades a tus objetos personalizados, ten en cuenta esto:
 * Las propiedades se almacenan alfabéticamente en un archivo .fcstd. Si tienes una forma en tus propiedades, cualquier propiedad cuyo nombre va después de "Shape" en orden alfabético, se cargará DESPUÉS de la forma, lo que puede causar un comportamiento extraño.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The properties are defined in the [https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyStandard.h PropertyStandard C++ header file].
-</div>
+Las propiedades se definen en el archivo de cabecera C++ PropertyStandard [https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyStandard.h].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Property attributes ===
