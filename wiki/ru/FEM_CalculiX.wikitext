@@ -22,19 +22,34 @@ The [[FEM_SolverControl|FEM Control Solver]] tool manages the whole process. Use
 
 == Preprocessing interface ==
 
-The input file that CalculiX uses can be prepared and edited before the solver is started. The units used in the input file are independent of the units set in FreeCAD; they will always be millimeters (mm) and Newton (N).
-
-{{Emphasis|(ToDo: check this. What happens with the mesh if inch is used in FreeCAD? As density was introduced, with this we have kg and s and no longer N?! how about this?!)}}
+The input file that CalculiX uses can be prepared and edited before the solver is started. CalculiX doesn't use units and it's the user's responsibility to ensure that the same unit system is used consistently in the whole input deck. The units in which FreeCAD writes the input file are independent of the unit system set in FreeCAD's project or preferences. The input file is always written using the SI(mm) unit system:
+* length: mm,
+* force: N,
+* mass: tonne,
+* time: s,
+* stress: MPa,
+* energy: mJ,
+* density: tonne/mm^3.
 
 The CalculiX interface supports the following objects:
 
-<span id="FEM_Elements"></span>
+<span id="Finite_elements"></span>
+<div class="mw-translate-fuzzy">
 === Элементы МКЭ ===
+</div>
 
-* Tet4 and Tet10
-* S3 and S6 
-* B31 and B32
-* and those described in [[FEM_Mesh_CalculiX|FEM Mesh CalculiX]]
+* 3D solid: 
+** tetrahedral: C3D4, C3D10
+** hexahedral: C3D8(R), C3D20(R)
+* 3D shell and membrane:
+** triangular: S3, S6, M3D3, M3D6
+** quadrilateral: S4(R), S8(R), M3D4(R), M3D8(R)
+* 2D plane stress, plane strain and axisymmetric:
+** triangular: CPS3, CPS6, CPE3, CPE6, CAX3, CAX6
+** quadrilateral: CPS4(R), CPS8(R), CPE4(R), CPE8(R), CAX4(R), CAX8(R)
+* 3D beam and truss: B31(R), B32(R), T3D2, T3D3
+
+More details about the supported CalculiX elements can be found on the [[FEM_Mesh_CalculiX|FEM Mesh CalculiX]] page.
 
 <span id="Analysis"></span>
 === Анализ ===
@@ -42,13 +57,14 @@ The CalculiX interface supports the following objects:
 * Linear and nonlinear static analysis
 * Frequency analysis
 * Linear buckling analysis
-* Coupled thermal-structural analysis
+* Coupled and uncoupled thermal-structural analysis, pure heat transfer analysis
+* Electrostatic analysis
 
 <span id="Materials"></span>
 === Материалы ===
 
-* Linear elastic isotropic materials (uniformity in all directions)
-* Plasticity with isotropic hardening
+* Linear elastic isotropic materials (uniform properties in all directions)
+* Plasticity with isotropic or kinematic hardening
 
 == Postprocessing interface ==
 
@@ -65,9 +81,9 @@ Reaction forces can be found in ''ccx_dat_file'' which contains reaction force c
 == Related ==
 
 * [[FEM_Mesh_CalculiX|FEM Mesh CalculiX]]
-* [[FEM_Preferences#CalculiX|CalculiX preferences]] dialog menu in the FEM Workbench preferences menu
+* [[FEM_Preferences#CalculiX|CalculiX]] page in the FEM Workbench preferences
 
 
-{{FEM Tools navi{{#translation:}}}}
+{{FEM_Tools_navi{{#translation:}}}}
 [[Category:Poweruser_Documentation{{#translation:}}]]
 [[Category:Developer{{#translation:}}]]
