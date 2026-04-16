@@ -157,9 +157,8 @@ def makeBox():
 makeBox()
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Things to note ===
-</div>
+<span id="Things_to_note"></span>
+=== Aspectos a tener en cuenta ===
 
 Si su objeto requiere ser recalculado tan pronto como se crea, debe hacerlo manualmente en la función {{incode|__init__}} ya que no se llama automáticamente. Este ejemplo no lo requiere porque el método {{incode|onChanged}} de la clase {{incode|Box}} tiene el mismo efecto que la función {{incode|execute}}, pero los ejemplos expuestos a continuación requieren ser recalculados antes de que se muestre algo en la vista 3D. En los ejemplos, esto se hace manualmente con {{incode|ActiveDocument.recompute()}} pero en escenarios más complejos debe decidir dónde recalcular, ya sea todo el documento o el objeto FeaturePython.
 
