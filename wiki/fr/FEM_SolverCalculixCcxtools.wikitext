@@ -64,10 +64,6 @@ Les valeurs par défaut peuvent être définies dans le menu {{MenuCommand|Édit
 ** true : le contrôle de l'incrémentation sera automatique.
 ** false : le contrôle de l'incrémentation automatique sera désactivé par le paramètre DIRECT.
 
-* {{PropertyData|Beam Reduced Integration}} {{Version/fr|1.0}} :
-** true : utilise des éléments de type poutre avec intégration réduite (B31R ou B32R), requis lorsqu'une section de type poutre tubulaire est utilisée, peut également permettre d'obtenir [https://forum.freecad.org/viewtopic.php?t=61233 des résultats précis avec la plasticité].
-** false : utilise des éléments réguliers de type poutre (entièrement intégrés).
-
 * {{PropertyData|Buckling Accuracy}} : définit la précision de l'évaluation des valeurs propres de flambement. Dans la plupart des cas, la valeur par défaut (0.01) peut être laissée, mais il peut parfois être nécessaire de l'abaisser (par exemple à 0.0001) pour capturer la première valeur propre. {{Version/fr|1.1}}
 
 * {{PropertyData|Displace Mesh}} : affiche la déformation à l'échelle réelle du maillage dans le pipeline de résultats sans avoir besoin du filtre Warp (disponible uniquement pour l'objet solveur CalculiX refactorisé) {{Version/fr|1.2}}
@@ -97,9 +93,11 @@ Les valeurs par défaut peuvent être définies dans le menu {{MenuCommand|Édit
 
 * {{PropertyData|Iterations Control Parameter Iter}} : définit la première ligne des [http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24 paramètres d'itération avancés de CalculiX] (nombre d'itérations/de réductions). Utilisé si {{PropertyData|Iterations Control Parameter Time Use}} est réglé à ''true''.
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Iterations Control Parameter Time Use}}
 ** true : active {{PropertyData|Iterations Control parameter Cutb}}, {{PropertyData|Iterations Control Parameter Iter}} et ({{Version/fr|1.2}}) {{PropertyData|Iterations Control Parameter Field}}
 ** false
+</div>
 
 * {{PropertyData|Material Nonlinearity}} :
 ** linear : seules les propriétés des matériaux linéaires seront incluses dans l'analyse.
@@ -128,6 +126,12 @@ Les valeurs par défaut peuvent être définies dans le menu {{MenuCommand|Édit
 * {{PropertyData|Pastix Mixed Precision}} :
 ** false : la précision mixte n'est pas utilisée par le solveur PaStiX.
 ** true : la précision mixte est utilisée par le solveur PaStiX, ce qui peut entraîner des problèmes avec les résultats dans certains cas.
+
+<div class="mw-translate-fuzzy">
+* {{PropertyData|Beam Reduced Integration}} {{Version/fr|1.0}} :
+** true : utilise des éléments de type poutre avec intégration réduite (B31R ou B32R), requis lorsqu'une section de type poutre tubulaire est utilisée, peut également permettre d'obtenir [https://forum.freecad.org/viewtopic.php?t=61233 des résultats précis avec la plasticité].
+** false : utilise des éléments réguliers de type poutre (entièrement intégrés).
+</div>
 
 * {{PropertyData|Split Input Writer}} :
 ** false : écrit toute l'entrée dans un fichier * .inp à utiliser par le solveur CalculiX.
