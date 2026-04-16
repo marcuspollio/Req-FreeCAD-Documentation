@@ -1066,9 +1066,7 @@ Para {{Incode|Prop_ReadOnly}} y {{Incode|Prop_Hidden}} la función {{Incode|addP
 obj.addProperty("App::PropertyString", "MyCustomProperty", "", "", 0, True, True)
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Which is equivalent to:
-</div>
+Lo que equivale a:
 
 {{Code|code=
 obj.addProperty("App::PropertyString", "MyCustomProperty", "", "", 1+4)
