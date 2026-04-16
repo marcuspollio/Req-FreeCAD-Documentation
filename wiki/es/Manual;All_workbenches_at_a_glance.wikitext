@@ -711,12 +711,13 @@ El [[Image:Workbench_BIM.svg|24px]] [[BIM_Workbench|BIM Workbench]] (una combina
 
 Aunque lo detallado anteriormente resume las herramientas más importantes de FreeCAD, hay muchos más entornos de trabajo disponibles, entre ellos:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The [[TechDraw_Workbench|TechDraw Workbench]] for producing technical drawings from 3D models.
-* The [[Mesh_Workbench|Mesh Workbench]] allows to work with [https://en.wikipedia.org/wiki/Polygon_mesh polygon meshes]. Although meshes are not the preferred type of geometry to work with in FreeCAD, because of their lack of precision and support for curves, meshes still have a lot of uses and are fully supported in FreeCAD. The Mesh Workbench also offers a number of Part-to-Mesh and Mesh-to-Part tools.
-* The [[Spreadsheet_Workbench|Spreadsheet Workbench]] permits the creation and manipulation of spreadsheet data, that can be extracted from FreeCAD models. Spreadsheet cells can also be referenced in many areas of FreeCAD, making it possible to use them as master data structures.
-* The [[FEM_Workbench|FEM Workbench]] deals with [https://en.wikipedia.org/wiki/Finite_element_method Finite Elements Analysis] and makes it possible to perform pre- and post-processing of FEM analyses and to display the results graphically.
-</div>
+* El [[TechDraw_Workbench|TechDraw Workbench]] permite generar dibujos técnicos a partir de modelos 3D.
+
+* El [[Mesh_Workbench|Mesh Workbench]] permite trabajar con mallas poligonales [https://en.wikipedia.org/wiki/Polygon_mesh]. Si bien las mallas no son el tipo de geometría preferido en FreeCAD debido a su falta de precisión y compatibilidad con curvas, siguen teniendo muchas aplicaciones y son totalmente compatibles con FreeCAD. El Mesh Workbench también ofrece diversas herramientas de conversión de piezas a mallas y de mallas a piezas.
+
+* El [[Spreadsheet_Workbench|Spreadsheet Workbench]] permite crear y manipular datos de hojas de cálculo, que se pueden extraer de los modelos de FreeCAD. Las celdas de las hojas de cálculo también se pueden referenciar en muchas áreas de FreeCAD, lo que permite utilizarlas como estructuras de datos maestras.
+
+* El [[FEM_Workbench|FEM Workbench]] se ocupa del [https://en.wikipedia.org/wiki/Finite_element_method Análisis de elementos finitos] y permite realizar el preprocesamiento y el postprocesamiento de los análisis FEM y mostrar los resultados gráficamente.
 
 <span id="External_workbenches"></span>
 === Ambientes de trabajo externos ===
