@@ -47,10 +47,10 @@ En el siguiente ejercicio, veremos cómo crear un dibujo sencillo de un modelo d
 
 [[Image:Exercise_drawing_02.jpg]]
 
-* Let's repeat the operation twice, to create two more views. We will set their X and Y values, which indicate the position of the view on the page, in order to show them apart from the top view, and their direction, to create different view orientations. Give each new view the following properties:
-** View001 (front view): X: 70, Y: 220, Scale: 0.1, Rotation: 0, Direction: (-1,0,0), XDirection: (0,-1,0)
-** View002 (side view): X: 150, Y: 220, Scale: 0.1, Rotation: 0, Direction: (0,-1,0), XDirection: (1,0,0)
-* After that, we obtain the following page:
+* Repitamos la operación dos veces para crear dos vistas más. Definiremos sus valores X e Y, que indican la posición de la vista en la página, para mostrarlas separadas de la vista superior, y su orientación, para crear diferentes orientaciones. Asignaremos a cada nueva vista las siguientes propiedades:
+** Vista001 (vista frontal): X: 70, Y: 220, Escala: 0.1, Rotación: 0, Dirección: (-1,0,0), Dirección X: (0,-1,0)
+** Vista002 (vista lateral): X: 150, Y: 220, Escala: 0.1, Rotación: 0, Dirección: (0,-1,0), Dirección X: (1,0,0)
+* Después de esto, obtenemos la siguiente página:
 
 [[Image:Exercise_TechDraw_04.png]]
 
