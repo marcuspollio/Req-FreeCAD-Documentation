@@ -567,9 +567,8 @@ ViewProviderLine(a.ViewObject)
 App.ActiveDocument.recompute()
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Scenegraph Structure ==
-</div>
+<span id="Scenegraph_Structure"></span>
+== Estructura del grafo de escena ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 You may have noticed that the examples above construct their scenegraphs in slightly different ways. Some use {{incode|obj.addDisplayMode(node, "modename")}} while others use {{incode|obj.SwitchNode.getChild(x).addChild(y)}}.
