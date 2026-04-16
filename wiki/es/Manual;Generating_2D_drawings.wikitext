@@ -54,7 +54,7 @@ En el siguiente ejercicio, veremos cómo crear un dibujo sencillo de un modelo d
 
 [[Image:Exercise_TechDraw_04.png]]
 
-* Note that there may be easier ways to get the views that you want. You can simply [[Manual:Navigating in the 3D view|rotate]] the 3D view of your model, and once you have the view you want, select the model in the tree view and hit [[Image:TechDraw_View.svg|16px]] New View. This will automatically insert a view with the desired rotation and direction properties. You can also use the [[Image:TechDraw_ProjectionGroup.svg|16px]] [[TechDraw_ProjectionGroup|TechDraw ProjectionGroup]] tool.
+* Tenga en cuenta que puede haber formas más sencillas de obtener las vistas que desea. Simplemente puede [[Manual:Navegación en la vista 3D|rotar]] la vista 3D de su modelo y, una vez que tenga la vista que desea, seleccione el modelo en la vista de árbol y haga clic en [[Imagen:TechDraw_View.svg|16px]] Nueva vista. Esto insertará automáticamente una vista con las propiedades de rotación y dirección deseadas. También puede usar la herramienta [[Imagen:TechDraw_ProjectionGroup.svg|16px]] [[TechDraw_ProjectionGroup|TechDraw ProjectionGroup]].
 
 * We can tweak the aspect of our views if we want, for example, we can change their '''Line Width''' property (under the View tab in the Combo View) to 0.5.
 
