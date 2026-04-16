@@ -9,9 +9,7 @@
 
 {{Manual:TOC}}
 
-<div class="mw-translate-fuzzy">
-Uno de los principales usos de FreeCAD es producir objetos del mundo real. Estos pueden ser diseñados en FreeCAD, y luego hacerse realidad de diferentes maneras, como comunicándolos a otras personas que luego los construirán, o, cada vez más frecuentemente, enviándolos directamente a una [https://en.wikipedia.org/wiki/3D_printing impresora 3D] o a una [https://en.wikipedia.org/wiki/Milling_%28machining%29 fresadora CNC]. Este capítulo le mostrará cómo preparar sus modelos para enviarlos a estas máquinas.
-</div>
+Uno de los propósitos principales de FreeCAD es diseñar objetos que puedan convertirse en productos físicos reales. Estos diseños pueden compartirse con otros para su fabricación o, cada vez más, exportarse directamente a [https://en.wikipedia.org/wiki/3D_printing 3D printers] impresoras 3D o a [https://en.wikipedia.org/wiki/Milling_%28machining%29 CNC mill &CNC machines] fresadoras CNC para su fabricación automatizada. Con FreeCAD, puede crear modelos precisos y detallados, listos para diversos métodos de producción. Este capítulo le guiará a través del proceso de preparación de sus modelos para estas máquinas, asegurándose de que cumplan con las especificaciones necesarias para una fabricación exitosa, ya sea que trabaje en equipo o gestione todo el proceso usted mismo.
 
 <div class="mw-translate-fuzzy">
 Si has sido precavido al modelar, la mayor parte de las dificultades que puedes encontrar al imprimir tu modelo en 3D ya han sido evitadas. Esto implica básicamente:
