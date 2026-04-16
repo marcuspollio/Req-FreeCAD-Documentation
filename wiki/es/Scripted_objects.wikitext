@@ -997,11 +997,10 @@ obj.supportedProperties()
 
 Consulte [[FeaturePython_Custom_Properties|FeaturePython Custom Properties]] para obtener una descripción general.
 
-<div class="mw-translate-fuzzy">
-Cuando se añaden propiedades a tus objetos personalizados, ten en cuenta esto:
-* No utilices caracteres "<" o ">" en las descripciones de las propiedades (eso rompería las partes de xml en el archivo .fcstd)
-* Las propiedades se almacenan alfabéticamente en un archivo .fcstd. Si tienes una forma en tus propiedades, cualquier propiedad cuyo nombre va después de "Shape" en orden alfabético, se cargará DESPUÉS de la forma, lo que puede causar un comportamiento extraño.
-</div>
+Al agregar propiedades a sus objetos personalizados, tenga en cuenta lo siguiente:
+* No utilice los caracteres {{Incode|<}} ni {{Incode|>}} en las descripciones de las propiedades (esto dañaría los fragmentos XML del archivo .FCStd).
+
+* Las propiedades se almacenan alfabéticamente en un archivo .FCStd. Si incluye una forma en sus propiedades, cualquier propiedad cuyo nombre aparezca después de "Forma" en orden alfabético se cargará DESPUÉS de la forma, lo que puede provocar comportamientos inesperados.
 
 Las propiedades se definen en el archivo de cabecera C++ PropertyStandard [https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyStandard.h].
 
