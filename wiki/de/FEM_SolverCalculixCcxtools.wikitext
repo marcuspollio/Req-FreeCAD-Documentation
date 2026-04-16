@@ -128,11 +128,9 @@ Standardwerte können im Menü {{MenuCommand|Bearbeiten → Einstellungen → FE
 ** falsch - der PaStiX-Löser verwendet keine gemischte Genauigkeit
 ** wahr - der PaStiX-Löser verwendet gemischte Genauigkeit, was in einigen Fällen zu Problemen mit den Ergebnissen führen kann
 
-<div class="mw-translate-fuzzy">
-* {{PropertyData/de|Beam Reduced Integration}} - {{Version/de|1.0}}:
-** true - verwendet Balkenelemente mit reduzierter Integration (B31R oder B32R), erforderlich bei Verwendung von Rohrträgerprofilen, kann auch [https://forum.freecad.org/viewtopic.php?t=61233 genaue Ergebnisse mit Plastizität] ermöglichen
-** false - verwendet reguläre (vollintegrierte) Balkenelemente
-</div>
+* {{PropertyData/de|Reduced Integration}} - {{Version/de|1.2}}:
+** true - verwendet sechsflächige, vierseitige oder Balkenelemente mit reduzierter Integration; im Falle der Balken sind sie erforderlich, wenn pipe section verwendet wird und um [https://forum.freecad.org/viewtopic.php?t=61233 genaue Ergebnisse mit Plastizität] zu erhalten
+** false - verwendet reguläre (vollintegrierte) sechsflächige, vierseitige oder Balkenelemente
 
 * {{PropertyData/de|Split Input Writer}}:
 ** false - Schreibt die gesamte Eingabe in eine *.inp-Datei, die vom Löser CalculiX verwendet werden kann
