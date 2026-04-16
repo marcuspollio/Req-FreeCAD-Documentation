@@ -1078,16 +1078,21 @@ obj.addProperty("App::PropertyString", "MyCustomProperty", "", "", 1+4)
 obj.addProperty(type: string, name: string, group="", doc="", attr=0, read_only=False, hidden=False, enum_vals=[])
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* {{Incode|type}}: Property type.
-* {{Incode|name}}: Property name.
-* {{Incode|group}}: Property subsection (used in the [[Property_editor|Property editor]]).
-* {{Incode|doc}}: Tooltip (idem).
-* {{Incode|attr}}: Attribute, see above.
-* {{Incode|read_only}}: See above.
-* {{Incode|hidden}}: See above.
-* {{Incode|enum_vals}}: Enumeration values (list of string), only relevant if type is {{Incode|"App::PropertyEnumeration"}}.
-</div>
+* {{Incode|type}}: Tipo de propiedad.
+
+* {{Incode|name}}: Nombre de la propiedad.
+
+* {{Incode|group}}: Subsección de la propiedad (utilizada en el [[Property_editor|Editor de propiedades]]).
+
+* {{Incode|doc}}: Información sobre herramientas (ídem).
+
+* {{Incode|attr}}: Atributo, ver arriba.
+
+* {{Incode|read_only}}: Ver arriba.
+
+* {{Incode|hidden}}: Ver arriba.
+
+* {{Incode|enum_vals}}: Valores de enumeración (lista de cadenas), solo relevante si el tipo es {{Incode|"App::PropertyEnumeration"}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Available extensions ==
