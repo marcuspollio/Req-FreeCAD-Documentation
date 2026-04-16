@@ -417,7 +417,7 @@ El [[Image:Workbench_Draft.svg|32px]] [[Draft_Workbench|Draft Workbench]] está 
 <span id="Sketcher"></span>
 === Bocetador o editor de croquis ===
 
-El [[Image:Workbench_Sketcher.svg|24px]] [[Sketcher_Workbench|Sketcher Workbench]] contiene herramientas para crear y editar objetos 2D complejos, denominados bocetos. La geometría dentro de estos bocetos se puede referenciar y relacionar con precisión mediante el uso de restricciones. Están pensados ​​principalmente como los bloques de construcción de la geometría de PartDesign, pero resultan útiles en cualquier parte de FreeCAD.
+El [[Image:Workbench_Sketcher.svg|24px]] [[Sketcher_Workbench|Sketcher Workbench]] contiene herramientas para crear y editar objetos 2D complejos, denominados bocetos. La geometría de los elementos que forman estos bocetos se puede referenciar y relacionar con precisión mediante el uso de restricciones. Estos croquis están pensados fundamentalmente como los bloques del flujo de trabajo de construcción de la geometría de PartDesign, pero resultan útiles en cualquier parte de FreeCAD.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable" style="width:100%"
