@@ -92,9 +92,7 @@ El [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Wor
 
 * [[Image:Part_Revolve.svg|32px]] [[Part_Revolve|Revolve]]: Crea un sólido haciendo girar un objeto (no un sólido) alrededor de un eje.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Part_Mirror.svg|32px]] [[Part_Mirror|Mirror]]: Mirrors the selected object across a mirror plane.
-</div>
+* [[Image:Part_Mirror.svg|32px]] [[Part_Mirror|Mirror]]: Refleja el objeto seleccionado a través de un plano de simetría.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Part_Scale.svg|32px]] [[Part_Scale|Scale]]: Scales one or more shapes. {{Version|1.0}}
