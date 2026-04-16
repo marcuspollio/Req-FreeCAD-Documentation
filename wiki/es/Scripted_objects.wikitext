@@ -1097,9 +1097,7 @@ obj.addProperty(type: string, name: string, group="", doc="", attr=0, read_only=
 <span id="Available_extensions"></span>
 == Extensiones disponibles ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The list of available extensions can be obtained with {{incode|grep -RI EXTENSION_PROPERTY_SOURCE_TEMPLATE}} in the repository of the source code and is given here (for FreeCAD v1.1).
-</div>
+La lista de extensiones disponibles se puede obtener con {{incode|grep -RI EXTENSION_PROPERTY_SOURCE_TEMPLATE}} en el repositorio del código fuente y se proporciona aquí (para FreeCAD v1.1).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 For objects:
