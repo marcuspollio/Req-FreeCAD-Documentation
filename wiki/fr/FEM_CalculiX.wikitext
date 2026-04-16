@@ -54,12 +54,11 @@ Pour plus d'informations sur les éléments CalculiX pris en charge, voir la pag
 <span id="Analysis"></span>
 === Analyses ===
 
-<div class="mw-translate-fuzzy">
 * Analyse statique linéaire et non linéaire
 * Analyse de fréquence
 * Analyse du flambage linéaire
-* Analyse thermique-structurelle couplée
-</div>
+* Analyse thermo-structurelle couplée et découplée, analyse de transfert thermique pur
+* Analyse électrostatique
 
 <span id="Materials"></span>
 === Matériaux ===
