@@ -555,32 +555,32 @@ El [[Image:Workbench_Sketcher.svg|24px]] [[Sketcher_Workbench|Sketcher Workbench
 | [[Image:Sketcher_Projection.svg|32px]] [[Sketcher_Projection|Projection]]
 | Proyecta las aristas y/o vértices pertenecientes a objetos fuera del boceto sobre el plano del boceto.
 | [[Image:Sketcher_Intersection.svg|32px]] [[Sketcher_Intersection|Intersection]]
-| Interseca las caras y/o aristas pertenecientes a objetos fuera del boceto con el plano del boceto.
+| Intersecta las caras y/o aristas pertenecientes a objetos fuera del boceto con el plano del boceto.
 |-
 | [[Image:Sketcher_CarbonCopy.svg|32px]] [[Sketcher_CarbonCopy|Carbon copy]]
-| Copies all geometry and constraints from another sketch into the active sketch
+| Copia toda la geometría y las restricciones de otro boceto al boceto activo.
 | [[Image:Sketcher_SelectOrigin.svg|32px]] [[Sketcher_SelectOrigin|Select origin]]
-| Selects the origin of the sketch
+| Selecciona el origen del boceto.
 |-
 | [[Image:Sketcher_SelectHorizontalAxis.svg|32px]] [[Sketcher_SelectHorizontalAxis|Select horizontal axis]]
-| Selects the horizontal axis of the sketch
+| Selecciona el eje horizontal del boceto.
 | [[Image:Sketcher_SelectVerticalAxis.svg|32px]] [[Sketcher_SelectVerticalAxis|Select vertical axis]]
-| Selects the vertical axis of the sketch
+| Selecciona el eje vertical del boceto.
 |-
 | [[Image:Sketcher_Translate.svg|32px]] [[Sketcher_Translate|Array transform]]
-| Moves or optionally creates copies of selected elements
+| Mueve u, opcionalmente, crea copias de los elementos seleccionados.
 | [[Image:Sketcher_Rotate.svg|32px]] [[Sketcher_Rotate|Polar transform]]
-| Rotates or optionally creates rotated copies of selected elements
+| Gira o crea copias giradas de los elementos seleccionados.
 |-
 | [[Image:Sketcher_Scale.svg|32px]] [[Sketcher_Scale|Scale transform]]
-| Scales or optionally creates scaled copies of selected elements
+| Escala o, de forma opcional, crea copias escaladas de los elementos seleccionados.
 | [[Image:Sketcher_Offset.svg|32px]] [[Sketcher_Offset|Offset geometry]]
-| Creates equidistant edges around selected edges
+| Crea bordes equidistantes alrededor de los bordes seleccionados.
 |-
 | [[Image:Sketcher_Symmetry.svg|32px]] [[Sketcher_Symmetry|Symmetry]]
-| Creates mirrored copies of selected elements
+| Crea copias simétricas de los elementos seleccionados.
 | [[Image:Sketcher_RemoveAxesAlignment.svg|32px]] [[Sketcher_RemoveAxesAlignment|Remove axes alignment]]
-| Removes the axes alignment of selected edges by replacing [[Sketcher_ConstrainHorizontal|Horizontal]] and [[Sketcher_ConstrainVertical|Vertical]] constraints with [[Sketcher_ConstrainParallel|Parallel]] and [[Sketcher_ConstrainPerpendicular|Perpendicular]] constraints
+| Elimina la alineación de ejes de los bordes seleccionados reemplazando las restricciones [[Sketcher_ConstrainHorizontal|Horizontal]] y [[Sketcher_ConstrainVertical|Vertical]] con las restricciones [[Sketcher_ConstrainParallel|Parallel]] y [[Sketcher_ConstrainPerpendicular|Perpendicular]].
 |}
 
 <span id="BIM"></span>
