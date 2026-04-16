@@ -27,9 +27,7 @@ Zuvor war Netgen in FreeCAD enthalten und konnte sofort verwendet werden. Nun so
 <span id="Meshing_software"></span>
 == Netzerstellungssoftware ==
 
-<div class="mw-translate-fuzzy">
-Netzerstellungssoftware arbeitet mit Festkörpern, die in verschiedenen Formaten vorliegen können, wie Step und Brep. Diese Programme können unabhängig von FreeCAD verwendet werden und verfügen typischerweise Über viele Optionen zur Steuerung der Vernetzungsalgorithmen, der Elementgröße und der Randbedingungen.
-</div>
+Netzerstellungssoftware arbeitet mit Formen, die in verschiedenen Formaten vorliegen können, wie STEP und BREP. Diese Programme können unabhängig von FreeCAD verwendet werden und verfügen typischerweise Über viele Optionen zur Steuerung der Vernetzungsalgorithmen, der Elementgröße und der Randbedingungen.
 
 Der Arbeitsbereich [[FEM_Workbench/de|FEM]] hat einfache Kommunikationsoberflächen entwickelt, um Gmsh und Netgen direkt in FreeCAD zu verwenden. Andere Programme haben keine Oberfläche, aber das könnte sich in Zukunft ändern, wenn Interesse in der Gemeinschaft besteht und wenn diese Anwendungen leicht zu integrieren sind. Die Netzerstellungssoftware darf nur dann zusammen mit FreeCAD kompiliert und verteilt werden, wenn ihre Lizenz mit der LGPL2-Lizenz kompatibel ist; andernfalls muss das Programm als externe Binärdatei verwendet werden, wie z.B. Gmsh (GPL2).
 
