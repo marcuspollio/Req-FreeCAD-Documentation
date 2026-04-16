@@ -35,9 +35,7 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 
 [[Image:FEM_Workbench_workflow.svg|800px]]
 
-<div class="mw-translate-fuzzy">
-{{Caption|Przepływ pracy w środowisku MES. Środowisko to wywołuje dwa zewnętrzne środowiska w celu wykonania siatkowania obiektu bryłowego oraz rozwiązania problemu metodą elementów skończonych.}}
-</div>
+{{Caption|Przepływ pracy w środowisku MES. Środowisko to wywołuje dwa zewnętrzne środowiska w celu wykonania siatkowania kształtu oraz rozwiązania problemu metodą elementów skończonych.}}
 
 <span id="Menu:_Model"></span>
 ==Menu: Model==
