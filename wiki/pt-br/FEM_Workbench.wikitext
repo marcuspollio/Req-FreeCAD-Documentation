@@ -23,6 +23,7 @@ A [[FEM_Workbench/pt-br | bancada FEM]] fornece um fluxo de trabalho moderno de 
 <span id="Workflow"></span>
 == Fluxo de Trabalho ==
 
+<div class="mw-translate-fuzzy">
 Os passos para realizar uma análise de elementos finitos são:
 # Pré-processamento: configurar o problema de análise.
 ## Modelando a geometria: criar a geometria com o FreeCAD ou importando-a de um aplicativo diferente.
@@ -31,12 +32,15 @@ Os passos para realizar uma análise de elementos finitos são:
 ### Adicionando materiais às partes do modelo geométrico.
 ### Criando uma malha de elementos finitos para o modelo geométrico ou importando-os de um aplicativo diferente.
 # Resolvendo: executando um solucionador externo de dentro do FreeCAD.# Pós-processamento: visualizar os resultados da análise a partir do FreeCAD ou exportar os resultados para que possam ser pós-processados com outra aplicação.
+</div>
 
 A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de trabalho usa solucionadores externos, a quantidade de configuração manual dependerá do sistema operacional que você está usando. Veja [[FEM Install/pt-br | Instalação da FEM]] para instruções sobre como configurar as ferramentas externas.
 
-[[Image:FEM_Workbench_workflow.svg|600px]]
+[[Image:FEM_Workbench_workflow.svg|800px]]
 
+<div class="mw-translate-fuzzy">
 {{Caption | Fluxo de trabalho da bancada FEM; a bancada chama dois programas externos para realizar o meshing de um objeto sólido e executa a solução real do problema do elemento finito}}
+</div>
 
 <span id="Menu:_Model"></span>
 == Menu: Modelo ==
