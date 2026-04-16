@@ -995,9 +995,7 @@ obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "Box")
 obj.supportedProperties()
 }}
 
-<div class="mw-translate-fuzzy">
-Obtendrás una lista de propiedades disponibles:
-</div>
+Consulte [[FeaturePython_Custom_Properties|FeaturePython Custom Properties]] para obtener una descripción general.
 
 <div class="mw-translate-fuzzy">
 Cuando se añaden propiedades a tus objetos personalizados, ten en cuenta esto:
