@@ -175,11 +175,9 @@ Una explicación de {{incode|__getstate__}} y {{incode|__setstate__}} que han si
 
 {{incode|obj.addProperty(...)}} devuelve {{incode|obj}}, de modo que el valor de la propiedad se puede establecer en la misma línea:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Code|code=
-obj.addProperty("App::PropertyLength", "Length", "Box", "Length of the box").Length = 1.0
+obj.addProperty("App::PropertyLength", "Longitud", "Caja", "Longitud de la caja").Longitud = 1.0
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Which is equivalent to:
