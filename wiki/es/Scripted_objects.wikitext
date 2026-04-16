@@ -1109,9 +1109,7 @@ Para objetos:
 * {{incode|Part::AttachExtensionPython}}
 * {{incode|TechDraw::CosmeticExtensionPython}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For view objects:
-</div>
+Para ver objetos:
 * {{incode|Gui::ViewProviderExtensionPython}}
 * {{incode|Gui::ViewProviderGeoFeatureGroupExtensionPython}}
 * {{incode|Gui::ViewProviderGroupExtensionPython}}
