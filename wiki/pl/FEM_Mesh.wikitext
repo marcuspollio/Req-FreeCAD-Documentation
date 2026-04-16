@@ -12,9 +12,7 @@ W [[FEM_Workbench/pl|środowisku pracy MES]] dostępne są różne sposoby przyg
 * Import siatki z zewnętrznego środowiska. Uściślając, Gmsh i Netgen mogą być użyte poza programem FreeCAD aby stworzyć siatkę dla kształtów np. z plików STEP.
 * Ręczne tworzenie siatki poprzez skrypty [[Python/pl|Pythona]].
 
-<div class="mw-translate-fuzzy">
-Narzędzia Gmsh i Netgen wspierają tworzenie siatki dla obiektów tworzonych w środowiskach pracy [[Part_Workbench/pl|Część]] i [[PartDesign_Workbench/pl|Projekt Części]], jak również prostych kopii tych obiektów. W ogólności, każde środowisko pracy, które generuje bryły, jak [[BIM_Workbench/pl|BIM]] może być użyte do przygotowania geometrii, na której zostanie utworzona siatka. Zwróć uwagę, że siatka używana do analiz MES jest inna niż siatka tworzona lub importowana ze środowiska pracy [[Mesh_Workbench/pl|Siatka]].
-</div>
+Narzędzia Gmsh i Netgen wspierają tworzenie siatki dla kształtów tworzonych w środowiskach pracy [[Part_Workbench/pl|Część]] i [[PartDesign_Workbench/pl|Projekt Części]], jak również ich prostych kopii. W ogólności, każde środowisko pracy, które generuje kształty, jak [[BIM_Workbench/pl|BIM]] może być użyte do przygotowania geometrii, na której zostanie utworzona siatka. Zwróć uwagę, że siatka używana do analiz MES jest inna niż siatka tworzona lub importowana ze środowiska pracy [[Mesh_Workbench/pl|Siatka]].
 
 [[Image:FEM_Workbench_workflow.svg|600px]]
 <div class="mw-translate-fuzzy">
