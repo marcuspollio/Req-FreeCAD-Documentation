@@ -582,9 +582,7 @@ RootNode
       - etc
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The {{incode|SwitchNode}} displays only one of its children, depending on which display mode is selection in FreeCAD.
-</div>
+El {{incode|SwitchNode}} muestra solo uno de sus hijos, dependiendo del modo de visualización seleccionado en FreeCAD.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The examples which use {{incode|addDisplayMode}} are constructing their scenegraphs solely out of coin3d scenegraph elements. Under the covers, {{incode|addDisplayMode}} adds a new child to the {{incode|SwitchNode}}; the name of that node will match the display mode it was passed.
