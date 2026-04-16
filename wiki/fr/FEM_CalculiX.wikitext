@@ -49,7 +49,7 @@ L'interface CalculiX prend en charge les objets suivants :
 ** quadrilatéral : CPS4(R), CPS8(R), CPE4(R), CPE8(R), CAX4(R), CAX8(R)
 * Poutre et treillis 3D : B31(R), B32(R), T3D2, T3D3
 
-More details about the supported CalculiX elements can be found on the [[FEM_Mesh_CalculiX|FEM Mesh CalculiX]] page.
+Pour plus d'informations sur les éléments CalculiX pris en charge, voir la page [[FEM_Mesh_CalculiX/fr|FEM Maillage avec CalculiX]].
 
 <span id="Analysis"></span>
 === Analyses ===
