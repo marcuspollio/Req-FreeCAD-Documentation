@@ -136,7 +136,6 @@ El [[Image:Workbench_Part.svg|24px]] [[Part_Workbench|Part Workbench]] ofrece he
 
 El [[Image:Workbench_PartDesign.svg|24px]] [[PartDesign_Workbench|PartDesign Workbench]] es una herramienta esencial para crear y modificar modelos 3D sólidos. Permite a los usuarios diseñar piezas complejas mediante el boceto de perfiles 2D y la posterior aplicación de diversas operaciones, como extrusiones, superficies de transición y revoluciones, para generar geometría 3D. Este entorno de trabajo también admite la creación de características como cavidades, agujeros, redondeos y chaflanes, proporcionando un conjunto completo de herramientas para el diseño detallado de piezas. Además, el Part Design Workbench se integra a la perfección con el Sketcher Workbench, lo que permite a los usuarios definir y restringir bocetos que sirven de base para los modelos 3D. Esta integración facilita un enfoque de diseño paramétrico, permitiendo ajustes y actualizaciones sencillas del modelo a lo largo del proceso de diseño.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable" style="width:100%"
 ! Tool
 ! Description
@@ -144,96 +143,95 @@ El [[Image:Workbench_PartDesign.svg|24px]] [[PartDesign_Workbench|PartDesign Wor
 ! Description
 |-
 | [[Image:PartDesign_Pad.svg|32px]] [[PartDesign_Pad|Pad]]
-| Extrudes a solid object from a selected sketch
+| Extruye un objeto sólido a partir de un boceto seleccionado.
 | [[Image:PartDesign_Revolution.svg|32px]] [[PartDesign_Revolution|Revolution]]
-| Creates a solid by revolving a sketch around an axis
+| Crea un sólido haciendo girar un boceto alrededor de un eje.
 |-
 | [[Image:PartDesign_AdditiveLoft.svg|32px]] [[PartDesign_AdditiveLoft|Additive loft]]
-| Creates a solid by making a transition between two or more sketches.
+| Crea un sólido mediante la transición entre dos o más bocetos.
 | [[Image:PartDesign_AdditivePipe.svg|32px]] [[PartDesign_AdditivePipe|Additive pipe]]
-| Creates a solid by sweeping one or more sketches along an open or closed path.
+| Crea un sólido desplazando uno o más bocetos a lo largo de una trayectoria abierta o cerrada.
 |-
 | [[Image:PartDesign_AdditiveHelix.svg|32px]] [[PartDesign_AdditiveHelix|Additive helix]]
-| Creates a solid by sweeping a sketch along a helix.
+| Crea un sólido desplazando un boceto a lo largo de una hélice.
 | [[Image:PartDesign_AdditiveBox.svg|x32px]] [[PartDesign_AdditiveBox|Additive box]]
-| Creates an additive box
+| Crea una caja aditiva.
 |-
 | [[Image:PartDesign_AdditiveCylinder.svg|32px]] [[PartDesign_AdditiveCylinder|Additive cylinder]]
-| Creates an additive cylinder
+| Crea un cilindro aditivo.
 | [[Image:PartDesign_AdditiveSphere.svg|x32px]] [[PartDesign_AdditiveSphere|Additive sphere]]
-| Creates an additive sphere
+| Crea una esfera aditiva.
 |-
 | [[Image:PartDesign_AdditiveCone.svg|32px]] [[PartDesign_AdditiveCone|Additive cone]]
-| Creates an additive cone
+| Crea un cono aditivo.
 | [[Image:PartDesign_AdditiveEllipsoid.svg|x32px]] [[PartDesign_AdditiveEllipsoid|Additive ellipsoid]]
-| Creates an additive ellipsoid
+| Crea un elipsoide aditivo.
 |-
 | [[Image:PartDesign_AdditiveTorus.svg|32px]] [[PartDesign_AdditiveTorus|Additive torus]]
-| Creates an additive torus
+| Crea un toroide aditivo.
 | [[Image:PartDesign_AdditivePrism.svg|x32px]] [[PartDesign_AdditivePrism|Additive prism]]
-| Creates an additive prism
+| Crea un prisma aditivo.
 |-
 | [[Image:PartDesign_AdditiveWedge.svg|32px]] [[PartDesign_AdditiveWedge|Additive wedge]]
-| Creates an additive wedge
+| Crea una cuña aditiva.
 | [[Image:PartDesign_Pocket.svg|x32px]] [[PartDesign_Pocket|Pocket]]
-| Creates a pocket from a selected sketch
+| Crea un vaciado a partir de un boceto seleccionado.
 |-
 | [[Image:PartDesign_Hole.svg|32px]] [[PartDesign_Hole|Hole]]
-| Creates a hole feature from a selected circle sketch
+| Crea una función de agujero a partir de un boceto de círculo seleccionado.
 | [[Image:PartDesign_Groove.svg|x32px]] [[PartDesign_Groove|Groove]]
-| Creates a groove by revolving a sketch around an axis
+| Crea una ranura haciendo girar un boceto alrededor de un eje.
 |-
 | [[Image:PartDesign_SubtractiveLoft.svg|32px]] [[PartDesign_SubtractiveLoft|Subtractive loft]]
-| Creates a solid shape by making a transition between two or more sketches and subtracts it from the active body
+| Crea una forma sólida mediante una transición entre dos o más bocetos y la resta del cuerpo activo.
 | [[Image:PartDesign_SubtractivePipe.svg|x32px]] [[PartDesign_SubtractivePipe|Subtractive pipe]]
-| Creates a solid shape by sweeping one or more sketches along an open or closed path and subtracts it from the active body
+| Crea una forma sólida barriendo uno o más bocetos a lo largo de una trayectoria abierta o cerrada y la resta del cuerpo activo.
 |-
 | [[Image:PartDesign_SubtractiveHelix.svg|32px]] [[PartDesign_SubtractiveHelix|Subtractive helix]]
-| Creates a solid shape by sweeping a sketch along a helix and subtracts it from the active body
+| Crea una forma sólida barriendo un boceto a lo largo de una hélice y la resta del cuerpo activo.
 | [[Image:PartDesign_SubtractiveBox.svg|x32px]] [[PartDesign_SubtractiveBox|Subtractive box]]
-| Adds a subtractive box to the active body
+| Agrega una caja sustractiva al cuerpo activo.
 |-
 | [[Image:PartDesign_SubtractiveCylinder.svg|32px]] [[PartDesign_SubtractiveCylinder|Subtractive cylinder]]
-| Adds a subtractive cylinder to the active body
+| Agrega un cilindro sustractivo al cuerpo activo.
 | [[Image:PartDesign_SubtractiveSphere.svg|x32px]] [[PartDesign_SubtractiveSphere|Subtractive sphere]]
-| Adds a subtractive sphere to the active body
+| Agrega una esfera sustractiva al cuerpo activo.
 |-
 | [[Image:PartDesign_SubtractiveCone.svg|32px]] [[PartDesign_SubtractiveCone|Subtractive cone]]
-| Adds a subtractive cone to the active body
+| Agrega un cono sustractivo al cuerpo activo.
 | [[Image:PartDesign_SubtractiveEllipsoid.svg|x32px]] [[PartDesign_SubtractiveEllipsoid|Subtractive ellipsoid]]
-| Adds a subtractive ellipsoid to the active body
+| Agrega un elipsoide sustractivo al cuerpo activo.
 |-
 | [[Image:PartDesign_SubtractiveTorus.svg|32px]] [[PartDesign_SubtractiveTorus|Subtractive torus]]
-| Adds a subtractive torus to the active body
+| Agrega un toroide sustractivo al cuerpo activo.
 | [[Image:PartDesign_SubtractivePrism.svg|x32px]] [[PartDesign_SubtractivePrism|Subtractive prism]]
-| Adds a subtractive prism to the active body
+| Añade un prisma sustractivo al cuerpo activo.
 |-
 | [[Image:PartDesign_SubtractiveWedge.svg|32px]] [[PartDesign_SubtractiveWedge|Subtractive wedge]]
-| Adds a subtractive wedge to the active body
+| Agrega una cuña sustractiva al cuerpo activo.
 | [[Image:PartDesign_Boolean.svg|x32px]] [[PartDesign_Boolean|Boolean]]
-| Performs boolean operations on the selected objects
+| Realiza operaciones booleanas en los objetos seleccionados.
 |-
 | [[Image:PartDesign_Fillet.svg|32px]] [[PartDesign_Fillet|Fillet]]
-| Fillets (rounds) the edges of the active body
+| Aplica filetes (redondeos) en los bordes del cuerpo activo
 | [[Image:PartDesign_Chamfer.svg|x32px]] [[PartDesign_Chamfer|Chamfer]]
-| Chamfers the edges of the active body
+| Bisela los bordes del cuerpo activo.
 |-
 | [[Image:PartDesign_Draft.svg|32px]] [[PartDesign_Draft|Draft]]
-| Applies angular draft to faces of an object
+| Aplica inclinación angular a las caras de un objeto.
 | [[Image:PartDesign_Thickness.svg|32px]] [[PartDesign_Thickness|Thickness]]
-| Creates a thick shell from the active body and opens the selected face
+| Crea una gruesa capa a partir del cuerpo activo y abre la cara seleccionada.
 |-
 | [[Image:PartDesign_Mirrored.svg|32px]] [[PartDesign_Mirrored|Mirrored]]
-| Mirrors features on a plane or face
+| Transformación de espejo de un plano o cara.
 | [[Image:PartDesign_LinearPattern.svg|32px]] [[PartDesign_LinearPattern|Linear pattern]]
-| Creates a linear pattern of features
+| Crea un patrón lineal de determinadas características.
 |-
 | [[Image:PartDesign_PolarPattern.svg|32px]] [[PartDesign_PolarPattern|Polar pattern]]
-| Creates a polar pattern of features
+| Crea un patrón polar de determinadas características.
 | [[Image:PartDesign_MultiTransform.svg|32px]] [[PartDesign_MultiTransform|Multitransform]]
-| Allows creating a pattern with any combination of the other transformations
+| Permite crear un patrón con cualquier combinación de las demás transformaciones.
 |}
-</div>
 
 <span id="Draft"></span>
 === Borrador ===
