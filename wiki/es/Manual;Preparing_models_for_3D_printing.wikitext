@@ -55,12 +55,13 @@ Afortunadamente, convertir un objeto sólido en una malla en FreeCAD es sencillo
 
 [[Archivo:FreeCAD MeshLego.png]]
 
-<div class="mw-translate-fuzzy">
-* Seleccione el mallado '''Estándar''', y deje el valor de la desviación en el valor por defecto de '''0,10'''. Pulse '''Ok'''.
-* Se creará un objeto de malla, exactamente encima de nuestro objeto sólido. Oculta el sólido, o mueve uno de los objetos a un lado, para poder comparar ambos.
-* Cambie la propiedad '''Vista → Modo de visualización''' del nuevo objeto malla a '''Líneas planas''', para ver cómo se ha producido la triangulación.
-* Si no estás contento, y crees que el resultado es demasiado grueso, puedes repetir la operación, bajando el valor de la desviación. En el ejemplo de abajo, la malla de la izquierda utiliza el valor por defecto de '''0,10''', mientras que la de la derecha utiliza '''0,01''':
-</div>
+* Seleccione el generador de malla '''Estándar''' y deje el valor de desviación en el valor predeterminado de '''0.10'''. Pulse '''Aceptar'''.
+
+* Se creará un objeto de malla justo encima del objeto sólido. Puede ocultar el sólido o mover uno de los objetos a un lado para compararlos.
+
+* Cambie la propiedad '''Ver → Modo de visualización''' del nuevo objeto de malla a '''Líneas planas''' para observar cómo se realizó la triangulación.
+
+* Si no está satisfecho y considera que el resultado es demasiado tosco, puede repetir la operación reduciendo el valor de desviación. En el ejemplo siguiente, la malla de la izquierda utiliza el valor predeterminado de '''0.10''', mientras que la de la derecha utiliza '''0.01''':
 
 [[Image:Exercise_meshing_02.jpg]]
 
