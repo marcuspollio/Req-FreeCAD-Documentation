@@ -174,12 +174,10 @@ obj.addProperty("App::PropertyLength", "Longitud", "Caja", "Longitud de la caja"
 
 Lo que es equivalente a:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Code|code=
 obj.addProperty("App::PropertyLength", "Length", "Box", "Length of the box")
 obj.Length = 1.0
 }}
-</div>
 
 <span id="Other_more_complex_example"></span>
 == Otro ejemplo más complejo ==
