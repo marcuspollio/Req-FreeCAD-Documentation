@@ -600,9 +600,7 @@ El [[Image:Workbench_Sketcher.svg|24px]] [[Sketcher_Workbench|Sketcher Workbench
 === Arquitectura ===
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The [[Image:Workbench_BIM.svg|24px]] [[BIM_Workbench|BIM Workbench]] (a combination of the former BIM, Native-IFC and Arch Workbenches) workbench is tailored for architectural design and construction planning, offering tools to create and manipulate parametric building elements like walls, slabs, columns, beams, roofs, and windows. It supports IFC (Industry Foundation Classes) for seamless data exchange with other BIM software, facilitating collaboration. Users can generate detailed 2D drawings, annotations, and construction documentation from 3D models, integrating closely with the Draft workbench for tasks like creating floor plans, sections, and elevations.
-</div>
+El [[Image:Workbench_BIM.svg|24px]] [[BIM_Workbench|BIM Workbench]] (una combinación de los antiguos BIM, Native-IFC y Arch Workbench) está diseñado para el diseño arquitectónico y la planificación de la construcción, ofreciendo herramientas para crear y manipular elementos constructivos paramétricos como muros, losas, columnas, vigas, cubiertas y ventanas. Es compatible con IFC (Industry Foundation Classes) para un intercambio de datos fluido con otros programas BIM, facilitando la colaboración. Los usuarios pueden generar dibujos 2D detallados, anotaciones y documentación de construcción a partir de modelos 3D, integrándose estrechamente con el entorno de trabajo Draft para tareas como la creación de planos de planta, secciones y alzados.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable" style="width:100%"
