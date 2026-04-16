@@ -586,9 +586,7 @@ El {{incode|SwitchNode}} muestra solo uno de sus hijos, dependiendo del modo de 
 
 Los ejemplos que utilizan {{incode|addDisplayMode}} construyen sus grafos de escena únicamente a partir de elementos de grafos de escena de coin3d. Internamente, {{incode|addDisplayMode}} agrega un nuevo hijo al {{incode|SwitchNode}}. El nombre de ese nodo coincidirá con el modo de visualización que se le pasó.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The examples which use {{incode|SwitchNode.getChild(x).addChild}} also construct part of their geometry using functions from the Part Workbench, such as {{incode|1=fp.Shape = Part.makeLine(fp.p1,fp.p2)}}. This constructs the different display mode scenegraphs under the {{incode|SwitchNode}}; when we later come to add coin3d elements to the scenegraph, we need to add them to the existing display mode scenegraphs using {{incode|addChild}} rather than creating a new child of the {{incode|SwitchNode}}.
-</div>
+Los ejemplos que utilizan {{incode|SwitchNode.getChild(x).addChild}} también construyen parte de su geometría utilizando funciones del Part Workbench, como {{incode|1=fp.Shape = Part.makeLine(fp.p1,fp.p2)}}. Esto construye los diferentes grafos de escena del modo de visualización bajo el {{incode|SwitchNode}}; cuando más adelante agreguemos elementos coin3d al grafo de escena, necesitaremos agregarlos a los grafos de escena del modo de visualización existentes utilizando {{incode|addChild}} en lugar de crear un nuevo hijo del {{incode|SwitchNode}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 When using {{incode|addDisplayMode()}} to add geometry to the scenegraph, each display mode should have its own node which is passed to {{incode|addDisplayMode()}}; don't reuse the same node for this. Doing so will confuse the selection mechanism. It's okay if each display mode's node has the same geometry nodes added below it, just the root of each display mode needs to be distinct.
