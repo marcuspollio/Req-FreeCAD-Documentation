@@ -93,12 +93,9 @@ Liniowe trójkąty i czworokąty nie są w ogóle wspierane. Elementy belkowe ni
 <span id="Notes"></span>
 == Uwagi ==
 
-<div class="mw-translate-fuzzy">
 * Z88Adria ma takie same możliwości i ograniczenia jak Z88OS, ale nie uruchamia swojego GUI podczas uruchamiania solvera z poziomu FreeCAD, więc Z88Adria jest obecnie preferowanym wyborem.
-* Ciśnienie zadawane na krawędzie modeli osiowosymetrycznych musi być podane jak w odpowiadającym modelu 3D, czyli jako siła na jednostkę powierzchni. Solver konwertuje to na równoważną siłę na jednostkę długości mnożąc ciśnienie przez <math>2 \pi R</math> (gdzie R to współrzędna y środkowego węzła elementu).
+* Ciśnienie zadawane na krawędzie modeli osiowosymetrycznych musi być podane jak w odpowiadającym modelu 3D, czyli jako siła na jednostkę powierzchni. Solver konwertuje to na równoważną siłę na jednostkę długości mnożąc ciśnienie przez <math>2 \pi R</math> (gdzie R to współrzędna x środkowego węzła elementu). Dla elementów płaskiego stanu naprężeń ma miejsce analogiczna konwersja przy użyciu grubości elementu.
 * Dla elementów płytowych, stopnie swobody to kolejno: przemieszczenia Z i obroty <math>\theta_{x}</math> oraz <math>\theta_{y}</math> (w stopniach).
-* Dostępny jest tryb analizy '''test'''. Zapewnia on informacje o parametrach solvera. Te informacje są ładowane do obiektu dokumentu tekstowego.
-</div>
 
 <span id="Limitations"></span>
 == Ograniczenia ==
