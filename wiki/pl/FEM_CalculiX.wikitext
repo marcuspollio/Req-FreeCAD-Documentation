@@ -25,33 +25,43 @@ Narzędzie [[FEM_SolverControl/pl|MES: Kontrola pracy solvera]] zarządza całym
 <span id="Preprocessing_interface"></span>
 == Interfejs do preprocessingu ==
 
+<div class="mw-translate-fuzzy">
 Plik wejściowy, którego CalculiX używa może być przygotowany i edytowany przed uruchomieniem solvera. Jednostki używane w pliku wejściowym są niezależne od jednostek ustawionych w programie FreeCAD - zawsze są to milimetry (mm) i Newtony (N).
-
-{{Emphasis|(Do zrobienia: sprawdzić to. Co się stanie z siatką jeśli we FreeCAD używane będą cale? Po wprowadzeniu gęstości, mamy kg i s, ale już nie N? Co z tym?ǃ)}}
+</div>
 
 Interfejs solvera CalculiX wspiera następujące obiekty:
 
-<span id="FEM_Elements"></span>
+<span id="Finite_elements"></span>
+<div class="mw-translate-fuzzy">
 === Elementy skończone ===
+</div>
 
+<div class="mw-translate-fuzzy">
 * Tet4 i Tet10
 * S3 i S6 
 * B31 i B32
 * i te opisane na stronie [[FEM_Mesh_CalculiX/pl|MES: Siatka CalculiX]]
+</div>
+
+More details about the supported CalculiX elements can be found on the [[FEM_Mesh_CalculiX|FEM Mesh CalculiX]] page.
 
 <span id="Analysis"></span>
 === Analizy ===
 
+<div class="mw-translate-fuzzy">
 * Liniowe i nieliniowe analizy statyczne
 * Analizy modalne (częstotliwości drgań własnych)
 * Liniowe analizy wyboczeniowe
 * Sprzężone analizy termo-mechaniczne
+</div>
 
 <span id="Materials"></span>
 === Materiały ===
 
+<div class="mw-translate-fuzzy">
 * Materiały liniowo sprężyste izotropowe (jednorodne we wszystkich kierunkach)
 * Plastyczność ze wzmocnieniem izotropowym
+</div>
 
 <span id="Postprocessing_interface"></span>
 == Interfejs do postprocessingu ==
@@ -70,9 +80,9 @@ Siły reakcji można odczytać z pliku ''ccx_dat_file'', który zawiera ich skł
 ==Powiązane==
 
 * Strona [[FEM_Mesh_CalculiX/pl|MES: Siatka CalculiX]]
-* Okno dialogowe [[FEM_Preferences/pl#CalculiX|preferencje CalculiX]] w menu preferencji środowiska pracy MES
+* Strona [[FEM_Preferences/pl#CalculiX|CalculiX]] w menu preferencji środowiska pracy MES
 
 
-{{FEM Tools navi{{#translation:}}}}
+{{FEM_Tools_navi{{#translation:}}}}
 [[Category:Poweruser_Documentation{{#translation:}}]]
 [[Category:Developer{{#translation:}}]]
