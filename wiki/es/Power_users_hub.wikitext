@@ -54,12 +54,10 @@ La funcionalidad de FreeCAD está separada en Módulos que tratan con tipos de d
 <span id="Working_with_Parts"></span>
 ====Trabar con Piezas====
 
-<div class="mw-translate-fuzzy">
-* [[Part_Workbench/es|El Ambiente de trabajo Pieza]]: Cómo se utilizan las herramientas y la estructura de [http://en.wikipedia.org/wiki/Open_CASCADE Tecnología Open CASCADE] en FreeCAD
+* [[Part_Workbench/es|El Ambiente de trabajo Pieza]]: Cómo se utilizan las herramientas y la estructura de [https://en.wikipedia.org/wiki/Open_CASCADE Tecnología Open CASCADE] en FreeCAD
 * [[Topological data scripting/es|Guionización topología de datos]]: Cómo interactuar con el módulo de Pieza
 * [[pythonOCC/es|PythonOCC]]: Cómo dar rienda suelta a todo el poder de OpenCasCade
 * [[Mesh to Part/es|Malla a Pieza]]: Conversión entre tipos de objetos
-</div>
 
 <span id="Accessing_the_Coin_scenegraph"></span>
 ====Accediendo los gráficos de escena Coin===
