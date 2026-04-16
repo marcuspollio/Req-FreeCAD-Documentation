@@ -36,6 +36,7 @@ Prints the predefined facial output variables (forces and moments) to the ccx_da
 <!--T:11-->
 {{Version|1.2}}: Can also print electric flux in electrostatic analyses with refactored CalculiX solver. In addition to faces, edges can also be selected (they are equivalent to faces in 2D models).
 
+<!--T:12-->
 {{Version|1.2}}: Section forces can be also printed when using the Z88 solver.
 
 ==Usage== <!--T:4-->
