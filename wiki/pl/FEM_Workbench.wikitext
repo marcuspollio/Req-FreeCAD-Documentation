@@ -21,6 +21,7 @@
 <span id="Workflow"></span>
 ==Przepływ pracy==
 
+<div class="mw-translate-fuzzy">
 Kroki przeprowadzania analizy metodą elementów skończonych:
 # Preprocessing: ustawienie zagadnienia analizy.
 ## Modelowanie geometrii: tworzenie geometrii za pomocą programu FreeCAD lub importowanie jej z innej aplikacji.
@@ -30,12 +31,15 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 ### Tworzenie siatki elementów skończonych dla modelu geometrycznego lub importowanie jej z innej aplikacji.
 # Rozwiązywanie: uruchamianie zewnętrznego solwera z poziomu FreeCAD.
 # Postprocessing: wizualizacja wyników analizy z poziomu FreeCAD lub eksportowanie wyników, aby można je było przetworzyć w innej aplikacji.
+</div>
 
 Środowisko pracy MES może być używane w systemach Linux, Windows i Mac OSX. Ponieważ korzysta z zewnętrznych solverów, zakres ręcznej konfiguracji zależy od systemu operacyjnego, z którego korzystasz. Instrukcje dotyczące konfiguracji zewnętrznych narzędzi znajdują się na stronie [[FEM_Install/pl|Instalacja środowiska MES]].
 
-[[Image:FEM_Workbench_workflow.svg|600px]]
+[[Image:FEM_Workbench_workflow.svg|800px]]
 
+<div class="mw-translate-fuzzy">
 {{Caption|Przepływ pracy w środowisku MES. Środowisko to wywołuje dwa zewnętrzne środowiska w celu wykonania siatkowania obiektu bryłowego oraz rozwiązania problemu metodą elementów skończonych.}}
+</div>
 
 <span id="Menu:_Model"></span>
 ==Menu: Model==
