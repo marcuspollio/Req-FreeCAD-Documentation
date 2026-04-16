@@ -39,10 +39,10 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 Începând cu versiunea 0.15 a FreeCAD, Atelierul AEF poate fi folosit pe platforme Windows, Mac OSX și Linux. Deoarece Atelierul AEF folosește software extern, cantitatea de intervenție manuală până când Atelierul AEF este gata de utilizare va depinde de sistemul de operare pe care îl utilizați. Verificați [[FEM_Install | FEM Install]] page for instructions on setting up the external tools.
 
-[[Image:FEM_Workbench_workflow.svg|600px]]
+[[Image:FEM_Workbench_workflow.svg|800px]]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Workflow of the FEM Workbench; the workbench calls two external programs to perform meshing of a solid object, and perform the actual solution of the finite element problem}}
+{{Caption|Workflow of the FEM Workbench; the workbench calls two external programs to perform meshing of a shape, and perform the actual solution of the finite element problem}}
 </div>
 
 <span id="Menu:_Model"></span>
