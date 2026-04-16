@@ -171,9 +171,7 @@ Si su objeto requiere ser recalculado tan pronto como se crea, debe hacerlo manu
 
 Este ejemplo genera varios rastros de pila de excepciones en la ventana de vista de informe. Esto se debe a que el método {{incode|onChanged}} de la clase {{incode|Box}} se llama cada vez que se agrega una propiedad en {{incode|__init__}}. Cuando se agrega la primera, las propiedades Width y Height aún no existen, por lo que el intento de acceder a ellas falla.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-An explanation of {{incode|__getstate__}} and {{incode|__setstate__}} which have been replaced by {{incode|dumps}} and {{incode|loads}} is in the forum thread [https://forum.freecad.org/viewtopic.php?f=18&t=44009&start=10#p377892 obj.Proxy.Type is a dict, not a string].
-</div>
+Una explicación de {{incode|__getstate__}} y {{incode|__setstate__}} que han sido reemplazados por {{incode|dumps}} y {{incode|loads}} está en el hilo del foro [https://forum.freecad.org/viewtopic.php?f=18&t=44009&start=10#p377892 obj.Proxy.Type es un diccionario, no una cadena].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{incode|obj.addProperty(...)}} returns {{incode|obj}}, so that the value of the property can be set on the same line:
