@@ -32,7 +32,7 @@ The steps to carry out a finite element analysis are:
 # Preprocessing: setting up the analysis problem.
 ## Modeling the geometry: creating the geometry with FreeCAD, or importing it from a different application.
 ## Creating an analysis.
-### Adding simulation constraints such as loads and fixed supports to the geometric model.
+### Adding analysis features such as boundary conditions, loads and constraints to the geometric model.
 ### Adding materials to the parts of the geometric model.
 ### Creating a finite element mesh for the geometrical model, or importing it from a different application.
 # Solving: running an external solver from within FreeCAD.
