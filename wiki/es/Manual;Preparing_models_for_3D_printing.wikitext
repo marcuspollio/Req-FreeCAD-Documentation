@@ -102,9 +102,13 @@ El proceso CAM es, sin duda, mucho más complejo que la impresión 3D, ya que la
 [[Image:Exercise_path_01.jpg]]
 Aunque la generación de trayectorias de fresado CNC es un tema demasiado extenso para abordarlo en detalle aquí, demostraremos cómo crear un proyecto CAM sencillo en FreeCAD. Si bien no nos centraremos en todos los detalles del mecanizado CNC real, esta guía le presentará los pasos esenciales, haciendo hincapié en el nivel de información necesario para garantizar resultados precisos y eficientes. Esta complejidad adicional es fundamental para los proyectos CNC, donde la precisión y la personalización son cruciales para lograr los resultados de mecanizado deseados.
 
-* Load the file containing our Lego piece, and switch to the [[Image:Workbench_CAM.svg|16px]] [[CAM_Workbench|CAM Workbench]].
-* Press on the [[Image:CAM_Job.svg|16px]] [[CAM_Job|Job]] button and select our lego piece.
-* Since this section doesn’t aim to provide an in-depth tutorial of the CAM Workbench, we will be using the default values. If you would like a more detailed tutorial, please refer to [[CAM Walkthrough for the Impatient|CAM walk-through]]. Keep in mind that in the CAM Workbench, a stock body is automatically created around your object, representing the raw material that will be machined. Right now, this stock body extends 1 mm in all directions from the object.
+* Cargue el archivo que contiene nuestra pieza de Lego y cambie a [[Image:Workbench_CAM.svg|16px]] [[CAM_Workbench|CAM Workbench]].
+
+* Pulse el botón [[Image:CAM_Job.svg|16px]] [[CAM_Job|Job]] y seleccione nuestra pieza de Lego.
+
+* Dado que esta sección no pretende ofrecer un tutorial exhaustivo del CAM Workbench, utilizaremos los valores predeterminados.
+
+Si desea un tutorial más detallado, consulte [[CAM Walkthrough for the Imppatient|CAM walk-through]]. Tenga en cuenta que en el CAM Workbench se crea automáticamente un cuerpo base alrededor del objeto, que representa la materia prima que se mecanizará. Inicialmente, este cuerpo base se extiende 1 mm en todas las direcciones desde el objeto, .
 
 [[File:FreeCAD CAM1.png]]
 
