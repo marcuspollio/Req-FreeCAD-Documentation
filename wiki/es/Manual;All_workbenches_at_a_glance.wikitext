@@ -238,7 +238,6 @@ El [[Image:Workbench_PartDesign.svg|24px]] [[PartDesign_Workbench|PartDesign Wor
 
 El [[Image:Workbench_Draft.svg|32px]] [[Draft_Workbench|Draft Workbench]] está diseñado para crear y editar dibujos 2D. Ofrece una variedad de herramientas para el dibujo, incluyendo líneas, arcos, círculos y texto. Los usuarios también pueden realizar operaciones como recortar, extender y desplazar. El Draft Workbench es particularmente útil para dibujos arquitectónicos y puede utilizarse para crear geometrías 2D complejas que posteriormente se pueden transformar en modelos 3D. Se integra a la perfección con otros entornos de trabajo, proporcionando una base versátil para proyectos de diseño tanto 2D como 3D.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable" style="width:100%"
 ! Tool
 ! Description
@@ -246,74 +245,74 @@ El [[Image:Workbench_Draft.svg|32px]] [[Draft_Workbench|Draft Workbench]] está 
 ! Description
 |-
 | [[Image:Draft_Line.svg|32px]] [[Draft_Line|Line]]
-| Draws a line segment between 2 points
+| Dibuja un segmento de recta entre 2 puntos.
 | [[Image:Draft_Wire.svg|32px]] [[Draft_Wire|Polyline]]
-| Draws a line made of multiple line segments (polyline)
+| Dibuja una línea quebrada formada por múltiples segmentos de recta (polilínea).
 |-
 | [[Image:Draft_Fillet.svg|32px]] [[Draft_Fillet|Fillet]]
-| Creates a fillet (rounded corner) or a chamfer (straight edge) between two lines
+| Crea un filete (esquina redondeada) o un chaflán (borde recto) entre dos líneas.
 | [[Image:Draft_Arc.svg|32px]] [[Draft_Arc|Arc]]
-| Draws an arc segment from the center, radius, start angle and end angle
+| Dibuja un segmento de arco desde el centro, radio, ángulo inicial y ángulo final.
 |-
 | [[Image:Draft_Arc_3Points.svg|32px]] [[Draft_Arc_3Points|Arc by 3 points]]
-| Creates a circular arc from three points that define its circumference.
+| Crea un arco circular a partir de tres puntos que definen su circunferencia.
 | [[Image:Draft_Circle.svg|32px]] [[Draft_Circle|Circle]]
-| Draws a circle from the center and radius
+| Dibuja un círculo a partir de su centro y su radio.
 |-
 | [[Image:Draft_Ellipse.svg|32px]][[Draft_Ellipse|Ellipse]]
-| Draws an ellipse from two corner points
+| Dibuja una elipse desde dos puntos de esquina.
 | [[Image:Draft_Rectangle.svg|32px]] [[Draft_Rectangle|Rectangle]]
-| Draws a rectangle from 2 opposite points
+| Dibuja un rectángulo a partir de sus vértices opuestos.
 |-
 | [[Image:Draft_Polygon.svg|32px]] [[Draft_Polygon|Polygon]]
-| Draws a regular polygon from a center and a radius
+| Dibuja un polígono regular a partir de un centro y un radio.
 | [[Image:Draft_BSpline.svg|32px]] [[Draft_BSpline|BSpline]]
-| Draws a B-Spline from a series of points
+|Dibuja una curva B-Spline a partir de una serie de puntos.
 |-
 | [[Image:Draft_BezCurve.svg|32px]] [[Draft_BezCurve|Bézier Curve]]
-| Draws a Bézier curve from a series of points
+| Dibuja una curva de Bézier a partir de una serie de puntos fijados mediante clicks.
 | [[Image:Draft_CubicBezCurve.svg|32px]] [[Draft_CubicBezCurve|Cubic Bézier curve]]
-| Creates a Bézier curve comprised of cubic segments
+| Crea una curva de Bézier compuesta por segmentos cúbicos.
 |-
 | [[Image:Draft_Point.svg|32px]] [[Draft_Point|Point]]
-| Inserts a single point
+| Inserta un solo punto.
 | [[Image:Draft_Facebinder.svg|32px]] [[Draft_Facebinder|Facebinder]]
-| Creates a new object from selected faces on existing objects
+| Crea un nuevo objeto a partir de las caras seleccionadas en objetos existentes.
 |-
 | [[Image:Draft_ShapeString.svg|32px]] [[Draft_ShapeString|Shapestring]]
-| Inserts a compound shape representing a text string at a given point in the current document
+| Inserta una forma compuesta que representa una cadena de texto en un punto determinado del documento actual.
 | [[Image:Draft_Hatch.svg|32px]] [[Draft_Hatch|Hatch]]
-| Creates hatches on the planar faces of a selected object
+| Crea sombreados en las caras planas de un objeto seleccionado.
 |-
 | [[Image:Draft_Text.svg|32px]] [[Draft_Text|Text]]
-| Creates a multi-line annotation
+| Crea una anotación de varias líneas.
 | [[Image:Draft_Dimension.svg|32px]] [[Draft_Dimension|Dimension]]
-| Creates a dimension
+| Crea una dimensión.
 |-
 | [[Image:Draft_Label.svg|32px]] [[Draft_Label|Label]]
-| Creates a label
+| Crea una etiqueta.
 | [[Image:Draft_AnnotationStyleEditor.svg|32px]] [[Draft_AnnotationStyleEditor|Annotation styles]]
-| Allows you to define styles that affect the visual properties of annotation-like objects
+| Permite definir estilos que afectan a las propiedades visuales de objetos similares a anotaciones.
 |-
 | [[Image:Draft_Move.svg|32px]] [[Draft_Move|Move]]
-| Moves or copies objects from one location to another
+| Mueve o copia objetos de una ubicación a otra.
 | [[Image:Draft_Rotate.svg|32px]] [[Draft_Rotate|Rotate]]
-| Rotates objects by a certain angle around a point
+| Gira los objetos un cierto ángulo alrededor de un punto.
 |-
 | [[Image:Draft_Scale.svg|32px]] [[Draft_Scale|Scale]]
-| Scales objects in relation to a point
+| Escala objetos en relación con un punto.
 | [[Image:Draft_Mirror.svg|32px]] [[Draft_Mirror|Mirror]]
-| Mirrors objects across a line
+| Refleja objetos a través de una línea.
 |-
 | [[Image:Draft_Offset.svg|32px]] [[Draft_Offset|Offset]]
-| Offsets an object to a certain distance
+| Desplaza un objeto a una cierta distancia.
 | [[Image:Draft_Trimex.svg|32px]] [[Draft_Trimex|Trimex]]
-| Trims, extends or extrudes an object
+| Recorta, extiende o extruye un objeto.
 |-
 | [[Image:Draft_Stretch.svg|32px]] [[Draft_Stretch|Stretch]]
-| Stretches objects by moving selected points.
+| Estira los objetos moviendo los puntos seleccionados.
 | [[Image:Draft_Clone.svg|32px]] [[Draft_Clone|Clone]]
-| Creates linked copies of objects
+| Crea copias vinculadas de objetos.
 |-
 | [[Image:Draft_OrthoArray.svg|32px]] [[Draft_OrthoArray|Array]]
 | Creates an orthogonal array from a selected object
@@ -384,7 +383,6 @@ El [[Image:Workbench_Draft.svg|32px]] [[Draft_Workbench|Draft Workbench]] está 
 | Snaps to the intersection of two edges
 | [[Image:Draft_Snap_Perpendicular.svg|32px]] [[Draft_Snap_Perpendicular|Snap perpendicular]]
 | Snaps to the perpendicular points on faces and edges.
-</div>
 
 |-
 | [[Image:Draft_Snap_Extension.svg|32px]] [[Draft_Snap_Extension|Snap extension]]
