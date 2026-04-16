@@ -45,9 +45,7 @@ FreeCAD ofrece dos flujos de trabajo principales para el modelado de piezas:
 * La combinación de objetos, un método denominado [[Geometría sólida constructiva]] (CSG) mediante el [[Entorno de trabajo de piezas]], y
 * El modelado paramétrico y la [[Edición de características]] con el [[Entorno de trabajo de diseño de piezas]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Please note that the [[PartDesign Workbench|PartDesign Workbench]] workflow was considerably changed from FreeCAD 0.17 onward; some of the tutorials haven't been updated and may refer to the 0.16 version.
-</div>
+Tenga en cuenta que el flujo de trabajo de [[PartDesign Workbench|PartDesign Workbench]] cambió considerablemente a partir de FreeCAD 0.17; algunos de los tutoriales no se han actualizado y pueden hacer referencia a la versión 0.16.
 
 <gallery mode=packed heights=200px style="font-size:1.1em">
 
