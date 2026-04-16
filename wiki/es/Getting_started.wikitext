@@ -78,7 +78,7 @@ El ambiente de trabajo que empezará a utilizar depende del tipo de trabajo que 
 Puede cambiar de ambiente de trabajo en el momento que quiera, y también [[Interface_Customization/es|personalizar]] su Ambiente de Trabajo favorito agregando herramientas de otros Ambientes de trabajo.
 
 <span id="Working_with_the_PartDesign_and_Sketcher_workbenches"></span>
-==Trabajando con el Ambiente de trabajo DiseñoPiezas y Ambiente de trabajo Croquizador==
+==Trabajando con los entornos de trabajo Diseño de Piezas (PartDesing) y Bocetador (Sketcher)==
 
 El [[PartDesign_Workbench/es|Ambiente de trabajo diseño de parte]] esta especialmente hecho para hacer objetos complejos, iniciando a partir de simples formas, y agregando o removiendo piezas (que nosotros llamamos "características"),hasta que obtienes tu objeto final.Todas las características que tu apliques durante el proceso modelado seran almacenadas en una vista separada llamada [[Document_structure/es|vista de árbol]], el cual contiene los otros objetos de tu documento.Puedes pensar que los objetos de diseño de parte son como una sucesión de operaciones, cada una aplicada al resultado del que lo precede, formando una gran cadena. Dentro de la vista de árbol, puedes ver el objeto final, pero puedes expandirla y contraer todos los estados que lo preceden, y cambiar cualquiera de sus parámetros, el cual automáticamente actualiza el objeto final.
 
