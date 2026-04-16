@@ -155,9 +155,7 @@ Hay dos tipos de complementos:
 <span id="Scripting"></span>
 ==Guión==
 
-<div class="mw-translate-fuzzy">
-Y finalmente, una de las características más poderosas de FreeCAD es el entorno [[scripting/es|scripting]]. Desde la consola python integrada (o desde cualquier otro script python externo), se puede acceder a casi cualquier parte de FreeCAD, crear o modificar la geometría, modificar la representación de esos objetos en la escena 3D o acceder y modificar la interfaz de FreeCAD. El script Python también se puede utilizar en [[macros/es|macros]], que proporcionan un método sencillo para crear comandos personalizados.
-</div>
+Finalmente, una de las características más versátiles de FreeCAD es el entorno [[scripting/es|scripting]]. Desde la consola python integrada (o desde cualquier otro script python externo), se puede acceder a casi cualquier parte de FreeCAD, crear o modificar la geometría, modificar la representación de esos objetos en la escena 3D o acceder y modificar la interfaz de FreeCAD. El script Python también se puede utilizar en [[macros/es|macros]], que proporcionan un método sencillo para crear comandos personalizados.
 
 <span id="What&#039;s_new"></span>
 == ¿Qué hay de nuevo ==
