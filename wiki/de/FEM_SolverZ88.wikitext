@@ -51,6 +51,7 @@ Um den Z88-Löser nutzen zu können, muss die Open-Source-Version von Z88 (Z88OS
 <span id="Properties"></span>
 == Eigenschaften ==
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData/de|Exclude Bending Stiffness}} - Ersetzt Träger durch Fachwerkträger; diese Option ist derzeit immer aktiviert, da die Träger noch nicht abgestützt sind
 * {{PropertyData/de|Model Space}}:
 ** 3D - verwendet 3D-Schalenelemente
@@ -76,6 +77,7 @@ Um den Z88-Löser nutzen zu können, muss die Open-Source-Version von Z88 (Z88OS
 ** sorcg - Iterativer SORCG-Löser für spärliche Matrizen, empfohlen für große Strukturen
 ** siccg - Iterativer SICCG-Löser für spärliche Matrizen, empfohlen für große Strukturen
 * {{PropertyData/de|Vector Maximum}} - MAXKOI-Wert: maximale Anzahl von Einträgen im Koinzidenzvektor
+</div>
 
 <span id="Supported_finite_element_types"></span>
 == Unterstützte Finite-Elemente-Typen ==
@@ -90,10 +92,12 @@ Lineare Dreiecke und Vierecke werden überhaupt nicht unterstützt. Balkenelemen
 <span id="Notes"></span>
 == Hinweise ==
 
+<div class="mw-translate-fuzzy">
 * Z88Adria verfügt über dieselben Funktionen und Einschränkungen wie Z88OS, startet jedoch keine Benutzeroberfläche, wenn der Löser über FreeCAD ausgeführt wird; daher ist Z88Adria derzeit die bevorzugte Wahl.
 * Der auf die Kanten achsensymmetrischer Modelle ausgeübte Druck muss wie in einem entsprechenden 3D-Modell angegeben werden, d. h. in Einheiten von Kraft pro Flächeneinheit; der Löser rechnet ihn in eine äquivalente Kraft pro Längeneinheit um, indem er den Druck mit <math>2 \pi R</math> multipliziert (wobei R die x-Koordinate des mittleren Knotens des Elements ist).
 * Bei Plattenelementen sind die Freiheitsgrade in folgender Reihenfolge: Z-Verschiebung und Drehungen <math>\theta_{x}</math> und <math>\theta_{y}</math> (in Grad).
 * Es steht ein '''Test'''–Analysemodus zur Verfügung. Er liefert Informationen über die Löser-Parameter. Diese Informationen werden in das Textdokument-Objekt geladen.
+</div>
 
 <span id="Limitations"></span>
 == Einschränkungen ==
