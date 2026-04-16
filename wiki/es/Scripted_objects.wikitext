@@ -22,9 +22,8 @@ Debe comprenderse una particularidad, dichos objetos son guardados en archivos F
 
 Las Funcionalidades Python siguen las mismas reglas que todas las Funcionalidades de FreeCAD: se separan en las partes de App y GUI. La parte de App, el objeto documento, define la geometría de nuestro objeto, mientras que su parte GUI, el objeto proveedor de vistas, define el modo en que el objeto se dibujará en la pantalla. El objeto proveedor de vistas, como cualquier otra Funcionalidad de FreeCAD, sólo está disponible cuando se ejecuta FreeCAD en su propio GUI. Hay varias propiedades y métodos disponibles para construir el objeto. Las propiedades tienen que ser de cualquiera de los tipos predefinidos entre las propiedades que ofrece FreeCAD, y aparecerán en la ventana de vista de propiedades, por lo que puede ser editadas por el usuario. De esta manera, los objetos Funcionalidad Python son total y absolutamente paramétricos. Además, puede definir las propiedades del objeto y de su ViewObject por separado.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Basic example ==
-</div>
+<span id="Basic_example"></span>
+== Ejemplo básico ==
 
 <div class="mw-translate-fuzzy">
 == Ejemplo básico == 
