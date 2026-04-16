@@ -1099,9 +1099,7 @@ obj.addProperty(type: string, name: string, group="", doc="", attr=0, read_only=
 
 La lista de extensiones disponibles se puede obtener con {{incode|grep -RI EXTENSION_PROPERTY_SOURCE_TEMPLATE}} en el repositorio del código fuente y se proporciona aquí (para FreeCAD v1.1).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For objects:
-</div>
+Para objetos:
 * {{incode|App::GeoFeatureGroupExtensionPython}}
 * {{incode|App::GroupExtensionPython}}
 * {{incode|App::LinkBaseExtensionPython}}
