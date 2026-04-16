@@ -27,14 +27,16 @@ Si quieres contribuir con contenido a estas páginas, solicita una cuenta wiki c
 
 ===General===
 
-<div class="mw-translate-fuzzy">
-* [[Introduction_to_Python/es|Introducción a Python]] - Ver también otros tutoriales de Python en la parte inferior de esta página
-* [[Python_scripting_tutorial/es|Tutorial guionización en FreeCAD]] - Una visión general a guionización Python en FreeCAD
-* [[FreeCAD_Scripting_Basics/es|Guionización básico en FreeCAD]]: Bien, lo básico...
-* [[Gui_Command/es|Comandos de la interfaz gráfica de usuario]] : Añadiendo comandos personalizados a la interfaz gráfica de usuario
-* Utilizando [[Units/es|Unidades]] mezcladas en FreeCAD
-* [[Profiling/es|Perfilando]] el código Python
-</div>
+* [[Scripting_and_macros|Scripting y macros]] - Lista de páginas wiki relevantes
+* [[Introduction_to_Python|Introducción a Python]] - Consulta también otros tutoriales de Python al final de esta página
+* [[Python_scripting_tutorial|Tutorial de scripting para FreeCAD]] - Introducción al scripting con Python en FreeCAD
+* [[FreeCAD_Scripting_Basics|Conceptos básicos de scripting para FreeCAD]]: Los fundamentos
+* [[Manual:A_gentle_introduction|Manual de FreeCAD - Sección Scripting con Python]]: Introducción al scripting con Python en FreeCAD (en varios capítulos)
+* [[Gui_Command|Comando de la interfaz gráfica]]: Cómo añadir comandos personalizados a la interfaz gráfica
+* Uso de [[Units|Unidades]] mixtas en FreeCAD
+* [[Profiling|Análisis del rendimiento]] del código Python
+* [[Debugging#Python Debugging|Depuración]] del código Python
+*[[Entorno_de_desarrollo_de_Python|Entorno de desarrollo de Python]] - Un entorno de desarrollo sencillo para Python dentro de FreeCAD
 
 <span id="Modules"></span>
 === Modulos ===
