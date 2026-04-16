@@ -50,7 +50,7 @@ Interfejs solvera CalculiX wspiera następujące obiekty:
 ** czworokątne: CPS4(R), CPS8(R), CPE4(R), CPE8(R), CAX4(R), CAX8(R)
 * Belkowe i kratownicowe 3D: B31(R), B32(R), T3D2, T3D3
 
-More details about the supported CalculiX elements can be found on the [[FEM_Mesh_CalculiX|FEM Mesh CalculiX]] page.
+Więcej szczegółów o wspieranych typach elementów solvera CalculiX można znaleźć na stronie [[FEM_Mesh_CalculiX/pl|MES: Siatka CalculiX]].
 
 <span id="Analysis"></span>
 === Analizy ===
