@@ -420,10 +420,10 @@ El [[Image:Workbench_Sketcher.svg|24px]] [[Sketcher_Workbench|Sketcher Workbench
 | [[Image:Sketcher_CreatePoint.svg|32px]] [[Sketcher_CreatePoint|Point]]
 | Dibuja un punto.
 | [[Image:Sketcher_CreatePolyline.svg|32px]] [[Sketcher_CreatePolyline|Polyline]]
-| Dibuja una línea formada por múltiples segmentos de línea.
+| Dibuja una línea poligonal formada por múltiples segmentos de recta.
 |-
 | [[Image:Sketcher_Line.svg|32px]] [[Sketcher_CreateLine|Line]]
-| Dibuja un segmento de línea desde 2 puntos.
+| Dibuja un segmento de recta desde 2 puntos.
 | [[Image:Sketcher_Arc.svg|32px]] [[Sketcher_CreateArc|Arc]]
 | Dibuja un segmento de arco a partir del centro, radio, ángulo inicial y ángulo final.
 |-
