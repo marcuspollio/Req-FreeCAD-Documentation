@@ -84,7 +84,7 @@ El [[PartDesign_Workbench|PartDesign Workbench]] está diseñado para construir 
 
 El entorno de trabajo PartDesign utiliza de manera intensiva otro entorno de trabajo, el [[Sketcher_Workbench|Bocetador]]. El editor de bocetos permite dibujar formas 2D, que se definen aplicando restricciones a la forma 2D. Por ejemplo, se puede dibujar un rectángulo y establecer el tamaño de un lado aplicando una restricción de longitud a uno de los lados. Ese lado no se podrá redimensionar (a menos que se cambie la restricción).
 
-Esas formas 2D hechas con Boceto son utilizadas mucho en el banco de trabajo diseño de parte, por ejemplo para crear volúmenes 3D, o para dibujar áreas sobre una de las caras de tu objeto que luego sera ahuecado a partir del del volumen principal. Este es un flujo de trabajo típico de diseño de parte:
+Esas formas 2D creadas previamente en el bocetador se utilizan mucho en el entorno de trabajo de PartDesign, por ejemplo, para crear volúmenes 3D o para dibujar áreas en las caras del objeto que luego se ahuecarán a partir de su volumen principal. Se describe a continuación el flujo de trabajo usual de PartDesign:
 
 # Crear un boceto nuevo
 # Crea un dibujo con forma cerrada(asegurarse que todos los puntos están cerrados)
