@@ -24,9 +24,7 @@ Cuatro ambientes de trabajo también están diseñados para trabajar en pareja, 
 <span id="Part"></span>
 === Pieza ===
 
-<div class="mw-translate-fuzzy">
-El ambiente de trabajo de piezas proporciona herramientas básicas para trabajar con piezas sólidas: primitivas, como cubos y esferas, y operaciones geométricas simples y operaciones booleanas. Siendo el principal punto de anclaje con [https://en.wikipedia.org/wiki/Open_Cascade_Technology OpenCasCade], el ambiente de trabajo de piezas proporciona la base del sistema de geometría de FreeCAD, y casi todos los demás ambientes de trabajo producen geometría basada en piezas.
-</div>
+El [[Image:Workbench_Part.svg|24px]] [[Part_Workbench|Part Workbench]] ofrece herramientas fundamentales para trabajar con piezas sólidas, incluyendo formas fundamentales como cubos y esferas, así como operaciones geométricas y booleanas básicas. Como enlace principal con [https://en.wikipedia.org/wiki/Open_Cascade_Technology OpenCasCade], el Part Workbench constituye la piedra angular del sistema de geometría de FreeCAD, ya que casi todos los demás entornos de trabajo generan geometrías basada en Part. Este sistema de modelado paramétrico permite un control y modificación precisos de los modelos 3D mediante un flujo de trabajo basado en el historial. Los usuarios pueden construir y refinar diseños complejos apilando y ajustando formas y operaciones más simples, lo que garantiza un proceso de diseño robusto y flexible.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable" style="width:100%"
