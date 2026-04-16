@@ -68,9 +68,10 @@ Ahora colocaremos cotas e indicaciones en nuestro dibujo. Hay dos maneras de añ
 
 [[Image:Exercise_TechDraw_05.png]]
 
-* Repeat the operation, until all the dimensions you wish to indicate are placed. Use the [[Image:TechDraw_VerticalDimension.svg|16px]] [[TechDraw_VerticalDimension|TechDraw VerticalDimension]] and [[Image:TechDraw_HorizontalDimension.svg|16px]] [[TechDraw_HorizontalDimension|TechDraw HorizontalDimension]] tools as necessary. 
-* Take a minute to look at the [[TechDraw_LengthDimension#Properties|properties]] of the Dimension object in the Combo View.
-* Please note that if you are dimensioning an [https://en.wikipedia.org/wiki/Axonometric_projection axonometric] view (e.g., isometric view) instead of a [https://en.wikipedia.org/wiki/Multiview_projection multiview] view (e.g., front view) as we have done here, you will need to use the [[Image:TechDraw_LinkDimension.svg|16px]] [[TechDraw_LinkDimension|TechDraw LinkDimension]] tool to get an accurate dimension.
+* Repita la operación hasta que haya colocado todas las dimensiones que desea indicar. Utilice las herramientas [[Image:TechDraw_VerticalDimension.svg|16px]] [[TechDraw_VerticalDimension|TechDraw VerticalDimension]] y [[Image:TechDraw_HorizontalDimension.svg|16px]] [[TechDraw_HorizontalDimension|TechDraw HorizontalDimension]] según sea necesario.
+
+* Dedique unos instantes a revisar las propiedades [[TechDraw_LengthDimension#Properties|properties]] del objeto de dimensión en la vista combinada.
+* Tenga en cuenta que si está dimensionando una vista [https://en.wikipedia.org/wiki/Axonometric_projection axonométrica] (por ejemplo, vista isométrica) en lugar de una vista [https://en.wikipedia.org/wiki/Multiview_projection multivista] (por ejemplo, vista frontal) como lo hemos hecho aquí, deberá utilizar la herramienta [[Image:TechDraw_LinkDimension.svg|16px]] [[TechDraw_LinkDimension|TechDraw LinkDimension]] para obtener una dimensión precisa.
 
 [[Image:Exercise_TechDraw_07.png]]
 
