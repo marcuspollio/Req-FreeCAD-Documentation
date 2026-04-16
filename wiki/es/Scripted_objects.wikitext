@@ -507,11 +507,7 @@ def makeMolecule():
 <span id="Working_with_simple_shapes"></span>
 == Trabajando con formas simples ==
 
-<div class="mw-translate-fuzzy">
-== Trabajar con formas simples ==
-
-Si tu objeto paramétrico saca simplemente una forma, no es necesario utilizar un objeto proveedor de vista. La forma se mostrará en la representación de formas de FreeCAD:
-</div>
+Si su objeto paramétrico genera una forma, no necesita usar un objeto View Provider. La forma se mostrará utilizando la representación de forma estándar de FreeCAD:
 
 {{Code|code=
 import FreeCAD as App
