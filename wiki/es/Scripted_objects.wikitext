@@ -757,9 +757,7 @@ Al crear objetos con script en PartDesign, el proceso es similar al descrito ant
 
 Las funciones de objetos sólidos con script de PartDesign deben basarse en PartDesign::FeaturePython, PartDesign::FeatureAdditivePython o PartDesign::FeatureSubtractivePython, en lugar de Part::FeaturePython. Solo las variantes Additive y Subtractive pueden usarse en funciones de patrón, y si se basan en Part::FeaturePython, cuando el usuario arrastra el objeto a un cuerpo de PartDesign, se convierte en una BaseFeature en lugar de ser tratado por el cuerpo como un objeto nativo de PartDesign. Nota: se espera que todos estos sean sólidos, por lo que si está creando una función que no sea sólida, debe basarse en Part::FeaturePython; de lo contrario, la siguiente función en el árbol intentará fusionarse como un sólido y fallará.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Here is a simple example of making a Tube primitive, similar to the Tube primitive in Part Workbench except this one will be a PartDesign solid feature object.  For this we will 2 separate files: pdtube.FCMacro and pdtube.py. The .FCMacro file will be executed by the user to create the object. The .py file will hold the class definitions, imported by the .FCMacro. The reason for doing it this way is to maintain the parametric nature of the object after restarting FreeCAD and opening a document containing one of our Tubes.
-</div>
+Aquí tiene un ejemplo sencillo de cómo crear un tubo primitivo, similar al que aparece en Part Workbench, pero este será un objeto sólido de PartDesign. Para ello, utilizaremos dos archivos separados: pdtube.FCMacro y pdtube.py. El usuario ejecutará el archivo .FCMacro para crear el objeto. El archivo .py contendrá las definiciones de clase, importadas por .FCMacro. El motivo de este método es mantener la naturaleza paramétrica del objeto tras reiniciar FreeCAD y abrir un documento que contenga uno de nuestros tubos.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 First, the class definition file:
