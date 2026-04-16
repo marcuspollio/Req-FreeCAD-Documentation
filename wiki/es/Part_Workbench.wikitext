@@ -238,9 +238,7 @@ El [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Wor
 :* [[Image:Part_RefineShape.svg|32px]] [[Part_RefineShape/es|Refinar forma]]: Limpia las caras eliminando las líneas innecesarias.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Part_ToleranceSet.svg|32px]] [[Part_ToleranceSet|Set Tolerance]]: creates a parametric copy of selected objects with all contained tolerances set to at least a certain minimum value. {{Version|1.1}}
-</div>
+* [[Image:Part_ToleranceSet.svg|32px]] [[Part_ToleranceSet|Establecer tolerancia]]: Crea una copia paramétrica de los objetos seleccionados con todas las tolerancias contenidas ajustadas al menos en un cierto valor mínimo. {{Version|1.1}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Part_SectionCut.svg|32px]] [[Part_SectionCut|Persistent Section Cut]]: Creates persistent cuts of objects and assemblies.
