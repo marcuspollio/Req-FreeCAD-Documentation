@@ -6,16 +6,22 @@
 
 Analiza [https://pl.wikipedia.org/wiki/Metoda_element%C3%B3w_sko%C5%84czonych metodą elementów skończonych (MES)] jest przeprowadzana na siatce składającej się z wielu trójkątnych/czworościennych i czworokątnych/prostopadłościennych lub innych elementów skończonych, na które podzielona jest oryginalna geometria. Im gęstsza siatka, tym dokładniejsze będą wyniki, ale też dłużej potrwają obliczenia. Równowaga między rozmiarem siatki a czasem obliczeń i dokładnością wyników to istotna charakterystyka dobrze zdefiniowanej analizy MES.
 
+<div class="mw-translate-fuzzy">
 W [[FEM_Workbench/pl|środowisku pracy MES]] dostępne są różne sposoby przygotowywania siatki:
 * Narzędzie [[FEM_MeshGmshFromShape/pl|Gmsh]] z interfejsu graficznego użytkownika.
 * Narzędzie [[FEM_MeshNetgenFromShape/pl|Netgen]] z interfejsu graficznego użytkownika.
 * Import siatki z zewnętrznego środowiska. Uściślając, Gmsh i Netgen mogą być użyte poza programem FreeCAD aby stworzyć siatkę dla brył takich jak modele w plikach Step.
 * Ręczne tworzenie siatki poprzez skrypty [[Python/pl|Pythona]].
+</div>
 
+<div class="mw-translate-fuzzy">
 Narzędzia Gmsh i Netgen wspierają tworzenie siatki dla obiektów tworzonych w środowiskach pracy [[Part_Workbench/pl|Część]] i [[PartDesign_Workbench/pl|Projekt Części]], jak również prostych kopii tych obiektów. W ogólności, każde środowisko pracy, które generuje bryły, jak [[BIM_Workbench/pl|BIM]] może być użyte do przygotowania geometrii, na której zostanie utworzona siatka. Zwróć uwagę, że siatka używana do analiz MES jest inna niż siatka tworzona lub importowana ze środowiska pracy [[Mesh_Workbench/pl|Siatka]].
+</div>
 
 [[Image:FEM_Workbench_workflow.svg|600px]]
+<div class="mw-translate-fuzzy">
 {{Caption|Środowisko pracy MES wywołuje zewnętrzne narzędzie Gmsh aby uzyskać siatkę z bryły utworzonej w dowolnym środowisku pracy we FreeCAD; może również zaimportować siatkę utworzoną poza FreeCAD}}
+</div>
 
 [[Image:FEM_Mesh.png|600px]]
 {{Caption|(1) Bryła utworzona w środowisku pracy Projekt Części, (2) siatka utworzona przez narzędzie Gmsh w środowisku pracy MES (same trójkąty) oraz (3) siatka utworzona zewnętrznie w programie Gmsh, wyeksportowana do formatu Abaqusa {{FileName|.inp}} a następnie zaimportowana do FreeCAD (same czworokąty)}}
@@ -27,7 +33,9 @@ Poprzednio, Netgen był dołączony do programu FreeCAD i można było z niego k
 <span id="Meshing_software"></span>
 == Oprogramowanie do tworzenia siatek ==
 
+<div class="mw-translate-fuzzy">
 Oprogramowanie do tworzenia siatek operuje na bryłach, które mogą się różnić formatami, jak Step i Brep. Te programy mogą być używane niezależnie od FreeCAD i zwykle mają wiele opcji do sterowania algorytmami tworzenia siatki, rozmiarem elementów i warunkami brzegowymi.
+</div>
 
 Środowisko pracy [[FEM_Workbench/pl|MES]] posiada prosty interfejs komunikacji aby używać Gmsh i Netgen bezpośrednio we FreeCAD. Inne programy nie mają interfejsu, ale może to ulec zmianie w przyszłości jeśli będzie zainteresowanie ze strony społeczności i jeśli te programy będą łatwe do zintegrowania. Programy do tworzenia siatek można komplikować i dystrybuować razem z FreeCAD tylko jeśli ich licencje są kompatybilne z licencją LGPL2, inaczej program musi być używany jako zewnętrzna biblioteka, tak jak Gmsh (licencja GPL2).
 
