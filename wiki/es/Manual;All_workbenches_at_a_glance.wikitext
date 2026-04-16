@@ -24,7 +24,6 @@ Cuatro de los entornos de trabajo están diseñados para funcionar en parejas, c
 
 El [[Image:Workbench_Part.svg|24px]] [[Part_Workbench|Part Workbench]] ofrece herramientas fundamentales para trabajar con piezas sólidas, incluyendo formas fundamentales como cubos y esferas, así como operaciones geométricas y booleanas básicas. Como enlace principal con [https://en.wikipedia.org/wiki/Open_Cascade_Technology OpenCasCade], el Part Workbench constituye la piedra angular del sistema de geometría de FreeCAD, ya que casi todos los demás entornos de trabajo generan geometrías basada en Part. Este sistema de modelado paramétrico permite un control y modificación precisos de los modelos 3D mediante un flujo de trabajo basado en el historial. Los usuarios pueden construir y refinar diseños complejos apilando y ajustando formas y operaciones más simples, lo que garantiza un proceso de diseño robusto y flexible.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable" style="width:100%"
 ! Tool
 ! Description
@@ -32,34 +31,34 @@ El [[Image:Workbench_Part.svg|24px]] [[Part_Workbench|Part Workbench]] ofrece he
 ! Description
 |-
 | [[Image:Part_Box.svg|32px]] [[Part_Box|Box]]
-| Creates a box
+| Crea una caja.
 | [[Image:Part_Cylinder.svg|32px]] [[Part_Cylinder|Cylinder]]
-| Creates a cylinder
+| Crea un cilindro.
 |-
 | [[Image:Part_Sphere.svg|32px]] [[Part_Sphere|Sphere]]
-| Creates a sphere
+| Crea una esfera.
 | [[Image:Part_Cone.svg|32px]] [[Part_Cone|Cone]]
-| Creates a cone
+| Crea un cono.
 |-
 | [[Image:Part_Torus.svg|32px]] [[Part_Torus|Torus]]
-| Creates a torus (ring)
+| Crea un toroide (anillo).
 | [[Image:Part_Tube.svg|32px]] [[Part_Tube|Tube]]
-| Creates a tube
+| Crea un tubo.
 |-
 | [[Image:Part_Primitives.svg|32px]] [[Part_Primitives|Create primitives]]
-| Creates various other parametric geometric primitives
+| Crea diversas primitivas geométricas paramétricas.
 | [[Image:Part_Builder.svg|32px]] [[Part_Builder|Shape builder]]
-| Creates more complex shapes from primitives
+| Crea formas más complejas a partir de formas primitivas.
 |-
 | [[Image:Part_Extrude.svg|32px]] [[Part_Extrude|Extrude]]
-| Extrudes planar faces of an object
+| Extruye las caras planas de un objeto.
 | [[Image:Part_Revolve.svg|32px]] [[Part_Revolve|Revolve]]
-| Creates a solid by revolving another object (not solid) around an axis
+| Crea un sólido haciendo girar otro objeto (no sólido) alrededor de un eje.
 |-
 | [[Image:Part_Mirror.svg|32px]] [[Part_Mirror|Mirror]]
-| Mirrors the selected object on a given mirror plane
+| Refleja el objeto seleccionado en un plano de simetría determinado.
 | [[Image:Part_Scale.svg|32px]] [[Part_Scale|Scale]]
-| Scales a selected shape
+| Escala la forma seleccionada.
 |-
 | [[Image:Part_Fillet.svg|32px]] [[Part_Fillet|Fillet]]
 | Fillets (rounds) edges of an object
@@ -131,7 +130,6 @@ El [[Image:Workbench_Part.svg|24px]] [[Part_Workbench|Part Workbench]] ofrece he
 | [[Image:Part_Defeaturing.svg|32px]] [[Part_Defeaturing|Defeaturing]]
 | Removes features from a shape
 |}
-</div>
 
 <span id="Part_Design"></span>
 === Diseño Piezas ===
