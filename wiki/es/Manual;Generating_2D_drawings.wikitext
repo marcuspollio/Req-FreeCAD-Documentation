@@ -11,7 +11,7 @@
 
 Cuando un modelo no se puede imprimir ni fresar directamente con una máquina (por ejemplo, si es demasiado grande, como un edificio) o requiere montaje manual una vez que las piezas estén listas, normalmente tendrás que explicarle a otra persona cómo hacerlo. En campos técnicos (ingeniería, arquitectura, etc.), esto se suele hacer con planos. Los planos se entregan a la persona responsable del montaje del producto final y le explicarán cómo hacerlo.
 
-Typical examples are Ikea instructions, [https://en.wikipedia.org/wiki/Architectural_drawing architectural drawings], and [https://en.wikipedia.org/wiki/Blueprint blueprints]. These drawings usually contain not only the drawing itself, but also many annotations, such as text, dimensions, numbers, and symbols that will help other people to understand what needs to be done and how.
+Ejemplos típicos son las instrucciones de Ikea, los planos arquitectónicos y los planos arquitectónicos. Estos planos suelen contener, no solo el dibujo en sí, sino también numerosas anotaciones, como texto, dimensiones, números y símbolos que ayudan a comprender qué se debe hacer y cómo.
 
 In FreeCAD, the workbench responsible for making such drawings is the [[Image:Workbench_TechDraw.svg|24px]] [[TechDraw_Workbench|TechDraw Workbench]]. 
 
