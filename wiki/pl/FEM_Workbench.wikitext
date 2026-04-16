@@ -28,7 +28,7 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 ### Dodawanie do modelu geometrycznego cech analizy, takich jak warunki brzegowe, obciążenia i wiązania.
 ### Dodawanie materiałów do części poza modelem geometrycznym.
 ### Tworzenie siatki elementów skończonych dla modelu geometrycznego lub importowanie jej z innej aplikacji.
-# Rozwiązywanie: uruchamianie zewnętrznego solwera z poziomu FreeCAD.
+# Rozwiązywanie: uruchamianie zewnętrznego solvera z poziomu FreeCAD.
 # Postprocessing: wizualizacja wyników analizy z poziomu FreeCAD lub eksportowanie wyników, aby można je było przetworzyć w innej aplikacji.
 
 Środowisko pracy MES może być używane w systemach Linux, Windows i Mac OSX. Ponieważ korzysta z zewnętrznych solverów, zakres ręcznej konfiguracji zależy od systemu operacyjnego, z którego korzystasz. Instrukcje dotyczące konfiguracji zewnętrznych narzędzi znajdują się na stronie [[FEM_Install/pl|Instalacja środowiska MES]].
