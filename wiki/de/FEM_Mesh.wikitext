@@ -12,9 +12,7 @@ Es gibt verschiedene Möglichkeiten, ein Polygonnetz im Arbeitsbereich [[FEM_Wor
 * Importieren eines Polygonnetzes aus einem anderen Programm. Insbesondere können Gmsh und Netgen außerhalb von FreeCAD allein verwendet werden, um Formen aus z. B. STEP-Dateien zu vernetzen.
 * Manuelle Erstellung des Netzes durch [[Python/de|Python]]-Skripte.
 
-<div class="mw-translate-fuzzy">
-Die Gmsh- und Netgen-Werkzeuge unterstützen die Vernetzung von Körpern, die mit den Arbeitsbereichen [[Part_Workbench/de|Part]] und [[PartDesign_Workbench/de|PartDesign]] erstellt wurden, sowie einfache Kopien dieser Körper. Im Allgemeinen kann jeder Arbeitsbereich, der Festkörper erzeugt, wie z.B. der Arbeitsbereich [[Arch Workbench/de|Arch]], als Grundlage für die Erstellung von Netzobjekten verwendet werden. Beachte, dass sich ein für die FEA verwendetes Netz von einem Netz unterscheidet, das mit dem Arbeitsbereich [[Mesh Workbench/de|Mesh]] erstellt oder importiert wurde.
-</div>
+Die Gmsh- und Netgen-Werkzeuge unterstützen das Vernetzen von Formen, die mit den Arbeitsbereichen [[Part_Workbench/de|Part]] und [[PartDesign_Workbench/de|PartDesign]] erstellt wurden, sowie einfache Kopien dieser Formen. Im Allgemeinen kann jeder Arbeitsbereich, der Formen erzeugt, wie z. B. der Arbeitsbereich [[BIM_Workbench/de|BIM]], als Grundlage für die Erstellung von Netzobjekten verwendet werden. Bitte beachten, dass sich ein für die FEA verwendetes Netz von einem Netz unterscheidet, das mit dem Arbeitsbereich [[Mesh Workbench/de|Mesh]] erstellt oder importiert wurde.
 
 [[Image:FEM_Workbench_workflow.svg|600px]]
 <div class="mw-translate-fuzzy">
