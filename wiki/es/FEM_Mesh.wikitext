@@ -14,17 +14,17 @@ El análisis por elementos finitos (AEF) se realiza sobre una malla compuesta po
 There are different possibilities to set up a mesh in the [[FEM_Workbench|FEM Workbench]]:
 * The [[FEM_MeshGmshFromShape|Gmsh tool]] from the graphical user interface.
 * The [[FEM_MeshNetgenFromShape|Netgen tool]] from the graphical user interface.
-* Importing a mesh from another program. In particular, Gmsh and Netgen can be used by themselves outside of FreeCAD to mesh solid bodies like Step files.
+* Importing a mesh from another program. In particular, Gmsh and Netgen can be used by themselves outside of FreeCAD to mesh shapes from e.g. STEP files.
 * Manually creating the mesh through [[Python|Python]] scripting.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-The Gmsh and Netgen tools support meshing bodies created with the [[Part_Workbench|Part Workbench]] and [[PartDesign_Workbench|PartDesign Workbench]], as well as simple copies of those solids. In general, any workbench that generates solid objects, like the [[BIM_Workbench|BIM Workbench]], can be used as the basis from which to create meshes. Notice that a mesh used for FEA is different from a mesh created or imported from the [[Mesh_Workbench|Mesh Workbench]].
+The Gmsh and Netgen tools support meshing shapes created with the [[Part_Workbench|Part Workbench]] and [[PartDesign_Workbench|PartDesign Workbench]], as well as their simple copies. In general, any workbench that generates shapes, like the [[BIM_Workbench|BIM Workbench]], can be used as the basis from which to create meshes. Notice that a mesh used for FEA is different from a mesh created or imported from the [[Mesh_Workbench|Mesh Workbench]].
 </div>
 
 [[Image:FEM_Workbench_workflow.svg|600px]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|The FEM Workbench calls the external tool Gmsh to obtain a mesh from a solid body created with any workbench in FreeCAD; it can also import a mesh created externally}}
+{{Caption|The FEM Workbench calls the external tool Gmsh or Netgen to obtain a mesh from a shape created with any workbench in FreeCAD; it can also import a mesh created externally}}
 </div>
 
 [[Image:FEM_Mesh.png|600px]]
@@ -45,7 +45,7 @@ Previously, Netgen was included with FreeCAD and could be used immediately. Now,
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Meshing software operates on solid bodies that can be in different formats, like Step and Brep. These programs can be used independently of FreeCAD, and typically have many options to control the meshing algorithms, element size, and boundary conditions.
+Meshing software operates on shapes that can be in different formats, like STEP and BREP. These programs can be used independently of FreeCAD, and typically have many options to control the meshing algorithms, element size, and boundary conditions.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
