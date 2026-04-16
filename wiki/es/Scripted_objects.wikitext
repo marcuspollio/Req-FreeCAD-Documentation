@@ -387,11 +387,7 @@ ViewProviderOctahedron(a.ViewObject)
 == Making objects selectable ==
 </div>
 
-<div class="mw-translate-fuzzy">
-== Haciendo objetos seleccionables == 
-
-Si deseas hacer tu objeto seleccionable, o al menos parte de el, haciendo clic sobre el en el visor, debes incluir su geometría Coin dentro de un nodo SoFCSelection. Si el objeto tiene una representación compleja, con widgets, anotaciones, etc, puede que desees incluir sólo una parte de el en un SoFCSelection. Todo lo que es un SoFCSelection es constantemente explorado por FreeCAD para detectar selección/preselección, por lo que tiene sentido evitar sobrecargalo con innecesarias exploraciones. Esto es lo que se haría para incluir un self.face en el ejemplo anterior:
-</div>
+Si desea que su objeto sea seleccionable, o al menos una parte de él, al hacer clic en la ventana gráfica, debe incluir su geometría de moneda dentro de un nodo SoFCSelection. Si su objeto tiene una representación compleja, con widgets, anotaciones, etc., es posible que desee incluir solo una parte en un SoFCSelection. FreeCAD escanea constantemente todo lo que es un SoFCSelection para detectar la selección o preselección, por lo que conviene evitar sobrecargarlo con escaneos innecesarios.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Once the parts of the scenegraph that are to be selectable are inside SoFCSelection nodes, you then need to provide two methods to handle the selection path. The selection path can take the form of a string giving the names of each element in the path, or of an array of scenegraph objects. The two methods are {{incode|getDetailPath}}, which converts from a string path to an array of scenegraph objects, and {{incode|getElementPicked}}, which takes an element which has been clicked on in the scenegraph and returns its string name (note, not its string path).
