@@ -54,7 +54,6 @@ Do korzystania z solvera Z88 musi być zainstalowana otwarta wersja Z88 (Z88OS l
 <span id="Properties"></span>
 == Właściwości ==
 
-<div class="mw-translate-fuzzy">
 * {{PropertyData|Exclude Bending Stiffness}} - zastępuje belki kratownicami, obecnie zawsze zaznaczone, ponieważ belki nie są jeszcze wspieranere
 * {{PropertyData|Model Space}}:
 ** 3D - używa elementów 3D powłokowych
@@ -63,8 +62,8 @@ Do korzystania z solvera Z88 musi być zainstalowana otwarta wersja Z88 (Z88OS l
 ** plate - używa elementów 3D płytowych
 * {{PropertyData|Shell Flag}} - wartość IHFLAG: ustaw na 2 lub 3 dla cienkich powłok i na 4 dla bardzo cienkich powłok
 * {{PropertyData|Analysis Type}}:
-** static
-** test
+** static - standardowa liniowa analiza statyczna
+** test - zapewnia informacje o parametrach solvera - te informacje są ładowane do obiektu dokumentu tekstowego
 * {{PropertyData|Displace Mesh}} - deformuje siatkę polem przemieszczeń
 * {{PropertyData|Integration Order Hexa}} - rząd całkowania przemieszczeń dla elementów hexa
 * {{PropertyData|Integration Order Quad}} - rząd całkowania przemieszczeń dla elementów quad
@@ -80,7 +79,6 @@ Do korzystania z solvera Z88 musi być zainstalowana otwarta wersja Z88 (Z88OS l
 ** sorcg - solver iteracyjny do rzadkich macierzy SORCG zalecany dla dużych struktur
 ** siccg - solver iteracyjny do rzadkich macierzy SICCG zalecany dla dużych struktur
 * {{PropertyData|Vector Maximum}} - wartość MAXKOI: maksymalna liczba elementów wektora zbieżności
-</div>
 
 <span id="Supported_finite_element_types"></span>
 == Wspierane typy elementów skończonych ==
