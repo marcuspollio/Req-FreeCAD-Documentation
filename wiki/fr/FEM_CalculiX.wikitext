@@ -24,9 +24,14 @@ L'outil [[FEM_SolverControl/fr|FEM Réglage du solveur]] gère l'ensemble du pro
 <span id="Preprocessing_interface"></span>
 == Interface de prétraitement ==
 
-<div class="mw-translate-fuzzy">
-Le fichier d'entrée utilisé par CalculiX peut être préparé et édité avant le démarrage du solveur. Les unités utilisées dans le fichier d'entrée sont indépendantes des unités définies dans FreeCAD. Elles seront toujours en millimètres (mm) et en Newton (N).
-</div>
+Le fichier d'entrée utilisé par CalculiX peut être préparé et modifié avant le lancement du solveur. CalculiX n'utilise pas d'unités. Il incombe à l'utilisateur de s'assurer que le même système d'unités est utilisé de manière cohérente dans l'ensemble du fichier d'entrée. Les unités dans lesquelles FreeCAD génère le fichier d'entrée sont indépendantes du système d'unités défini dans le projet ou les préférences de FreeCAD. Le fichier d'entrée est toujours écrit en utilisant le système d'unités SI (mm) :
+* longueur : mm,
+* force : N,
+* masse : tonne,
+* temps : s,
+* contrainte : MPa,
+* énergie : mJ,
+* densité : tonne/mm³.
 
 L'interface CalculiX prend en charge les objets suivants :
 
