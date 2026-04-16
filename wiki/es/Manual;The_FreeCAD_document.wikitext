@@ -13,9 +13,7 @@
 
 Un documento de FreeCAD constituye el núcleo de su entorno de diseño, encapsulando todos los objetos y elementos que componen su escena. Puede contener diversos objetos creados en diferentes entornos de trabajo, lo que permite una integración perfecta y flexibilidad, ya que puede alternar entre ellos mientras trabajas en el mismo documento. Un documento es, esencialmente, el archivo que guarda en su disco duro con todo su trabajo. FreeCAD le permite abrir varios documentos simultáneamente y mostrar múltiples vistas del mismo documento.
 
-<div class="mw-translate-fuzzy">
-Dentro del documento, los objetos pueden moverse en grupos y tener un nombre único. La gestión de grupos, objetos y nombres de objetos se realiza principalmente desde la vista de árbol. Allí se pueden crear grupos, mover objetos a grupos, eliminar objetos o grupos. Haciendo clic con el botón derecho del ratón en la vista de árbol o en un objeto, se puede cambiar el nombre de los objetos, cambiar su color, ocultarlos o mostrarlos, o posiblemente otras operaciones, dependiendo de la mesa de trabajo actual.
-</div>
+Dentro del documento, puede organizar los objetos en grupos, cada uno con un nombre único para facilitar su identificación y gestión. Esta gestión de grupos, objetos y sus nombres se realiza principalmente en la vista de árbol. Aquí, los usuarios pueden crear nuevos grupos, asignar objetos a estos grupos y eliminarlos. Para personalizaciones más detalladas, como cambiar el nombre de los objetos, modificar sus propiedades visuales (como el color) o ajustar su visibilidad, basta con hacer clic con el botón derecho en un objeto o grupo en la vista de árbol. Dependiendo del entorno de trabajo activo, también pueden estar disponibles funcionalidades adicionales.
 
 <div class="mw-translate-fuzzy">
 Los objetos dentro de un documento de FreeCAD pueden ser de diferentes tipos. Cada ambiente de trabajo puede añadir sus propios tipos de objetos, por ejemplo el [[Mesh_Workbench/es|Ambiente de trabajo Mallas]] añade objetos de malla, el [[Part_Workbench/es|Ambiente de trabajo Pieza]] añade objetos de pieza, etc.
