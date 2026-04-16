@@ -24,33 +24,43 @@ L'outil [[FEM_SolverControl/fr|FEM Réglage du solveur]] gère l'ensemble du pro
 <span id="Preprocessing_interface"></span>
 == Interface de prétraitement ==
 
+<div class="mw-translate-fuzzy">
 Le fichier d'entrée utilisé par CalculiX peut être préparé et édité avant le démarrage du solveur. Les unités utilisées dans le fichier d'entrée sont indépendantes des unités définies dans FreeCAD. Elles seront toujours en millimètres (mm) et en Newton (N).
-
-{{Emphasis|(À faire : vérifiez ceci. Que se passe-t-il quand un maillage est en inch et utilisé dans FreeCAD ? Comme la densité a été introduite, nous avons des kg et des s et non plus des N ?!)}}
+</div>
 
 L'interface CalculiX prend en charge les objets suivants :
 
-<span id="FEM_Elements"></span>
+<span id="Finite_elements"></span>
+<div class="mw-translate-fuzzy">
 === Éléments finis ===
+</div>
 
+<div class="mw-translate-fuzzy">
 * Tet4 et Tet10
 * S3 et S6 
 * B31 et B32
 * et ceux décrits dans [[FEM_Mesh_CalculiX/fr|FEM Maillage avec Calculix]]
+</div>
+
+More details about the supported CalculiX elements can be found on the [[FEM_Mesh_CalculiX|FEM Mesh CalculiX]] page.
 
 <span id="Analysis"></span>
 === Analyses ===
 
+<div class="mw-translate-fuzzy">
 * Analyse statique linéaire et non linéaire
 * Analyse de fréquence
 * Analyse du flambage linéaire
 * Analyse thermique-structurelle couplée
+</div>
 
 <span id="Materials"></span>
 === Matériaux ===
 
+<div class="mw-translate-fuzzy">
 * Matériaux isotropes à élasticité linéaire (uniformité dans toutes les directions)
 * Plasticité avec durcissement isotrope
+</div>
 
 <span id="Postprocessing_interface"></span>
 == Interface de post-traitement ==
