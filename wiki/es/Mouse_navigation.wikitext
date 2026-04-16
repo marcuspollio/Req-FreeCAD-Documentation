@@ -543,27 +543,11 @@ Seleccione el objeto que desea seleccionar.
 
 Con el estilo de navegación a través del panel táctil, para desplazar, ampliar y rotar la vista se requiere una tecla modificadora junto con el panel táctil. Este estilo también se puede usar con un ratón.
 
-<div class="mw-translate-fuzzy">
-En la Navegación Touchpad, ni el barrido, ni el acercamiento,  ni la rotación de vista son operaciones exclusivas del ratón (o del touchpad). {{Touchpad Navigation/es}}
-
-{{Touchpad Navigation
-|Select_name=Select
-|Pan_name=Pan
-|Zoom_name=Zoom
-|Rotate_view_name=Rotate view
-|Shift={{KEY|Shift}}
-|Ctrl={{KEY|Ctrl}}
-|Alt={{KEY|Alt}}
-|PageUp={{KEY|PageUp}}
-|PageDown={{KEY|PageDown}}
-|Select_text=Press the left mouse button over an object you want to select.
-|Pan_text=Hold {{KEY|Shift}}, then move the pointer.
-|Zoom_text=Use {{KEY|PageUp}} and {{KEY|PageDown}} to zoom in and out.
-|Zoom_alt_text=Alternatively, hold {{KEY|Shift}} and {{KEY|Ctrl}}, then move the pointer.
-|Rotate_view_text=Hold {{KEY|Alt}}, then move the pointer.
-|Rotate_view_alt_text=Alternatively, hold {{KEY|Shift}} and the left button, then move the pointer.
-}}
-</div>
+{{Navegación_del_panel_táctil
+|Seleccionar_nombre=Seleccionar
+|Zoom_nombre=Zoom
+|Rotar_vista_nombre=Rotar vista
+|Desplazar_nombre=Desplazar
 
 |Ctrl={{TECLA|Ctrl}}
 |Mayús={{TECLA|Mayús}}
