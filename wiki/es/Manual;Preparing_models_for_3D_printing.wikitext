@@ -117,9 +117,8 @@ Si desea un tutorial más detallado, consulte [[CAM Walkthrough for the Imppatie
 * Ajuste la propiedad '''Copias''' de l'arreglo a 8, y su '''Desplazamiento'''' a -2mm en la dirección Z, y mueva la colocación de l'arreglo 2mm en la dirección Z, para que el corte comience un poco por encima de la almohadilla, e incluya también la altura de los puntos.
 </div>
 
-<div class="mw-translate-fuzzy">
+La siguiente imagen muestra la configuración de FreeCAD CAM Workbench para el mecanizado de un bloque de Lego. El árbol del modelo incluye operaciones de modelado sólido como Pad, Pocket y LinearPattern, que se utilizaron para dar forma a la pieza. Se crea un trabajo que contiene trayectorias de herramienta en Operaciones que definen cómo se eliminará el material del material base. Se selecciona la herramienta predeterminada para el mecanizado y el Cuerpo del Modelo representa la pieza 3D en la que se está trabajando. Esta configuración prepara el objeto para generar el código G que controlará la máquina CNC.
 [[Image:Exercise_path_02.jpg]]
-</div>
 
 [[File:FreeCAD CAMtree.png]]
 
