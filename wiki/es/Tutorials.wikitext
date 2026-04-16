@@ -41,11 +41,9 @@ Archivo:Nativeifc-tutorial-01.jpg|link=[[Native_IFC_Tutorial]]|[[Native_IFC_Tuto
 <span id="Modeling_parts"></span>
 ==Modelado Piezas==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-FreeCAD provides two main workflows to modeling parts:
-* combining objects, a method called [[Constructive solid geometry|Constructive solid geometry]] (CSG) using the [[Part_Workbench|Part Workbench]], and
-* using parametric modelling and [[Feature editing|feature editing]] with the [[PartDesign Workbench|PartDesign Workbench]].
-</div>
+FreeCAD ofrece dos flujos de trabajo principales para el modelado de piezas:
+* La combinación de objetos, un método denominado [[Geometría sólida constructiva]] (CSG) mediante el [[Entorno de trabajo de piezas]], y
+* El modelado paramétrico y la [[Edición de características]] con el [[Entorno de trabajo de diseño de piezas]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Please note that the [[PartDesign Workbench|PartDesign Workbench]] workflow was considerably changed from FreeCAD 0.17 onward; some of the tutorials haven't been updated and may refer to the 0.16 version.
