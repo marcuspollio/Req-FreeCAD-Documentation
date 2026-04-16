@@ -15,12 +15,7 @@ Uno de los propósitos principales de FreeCAD es diseñar objetos que puedan con
 Si has sido precavido al modelar, la mayor parte de las dificultades que puedes encontrar al imprimir tu modelo en 3D ya han sido evitadas. Esto implica básicamente:
 </div>
 
-<div class="mw-translate-fuzzy">
-* Asegúrate de que tus objetos 3D son ''sólidos''. Los objetos del mundo real son sólidos, el modelo 3D debe ser sólido también. Hemos visto en capítulos anteriores que FreeCAD te ayuda mucho en ese aspecto, y que el [[PartDesign_Workbench/es|Ambiente de trabajo DiseñoPiezas]] te notificará si haces una operación que impide que tu modelo sea sólido. El [[Part_Workbench/es|Ambiente de Trabajo Pieza]] también contiene un [[Image:Part_CheckGeometry.svg|16px]] [[Part_CheckGeometry/es|Comprobar geometría]] que es muy útil para comprobar posibles defectos.
-* Asegurarse de las '''dimensiones''' de sus objetos. Un milímetro será un milímetro en la vida real. Cada dimensión es importante. 
-* Controlar la '''degradación'''. Ningún sistema de impresión 3D o de fresado CNC puede tomar archivos FreeCAD directamente. La mayoría de ellos sólo entienden un lenguaje de máquina llamado [https://es.wikipedia.org/wiki/G-code G-Code]. El G-code tiene docenas de dialectos diferentes, cada máquina o proveedor suele tener el suyo propio. La conversión de tus modelos en G-Code puede ser fácil y automática, pero también puedes hacerlo manualmente, con un control total sobre la salida. En cualquier caso, es inevitable que se produzca alguna pérdida de calidad de tu modelo durante el proceso. 
-Cuando se imprime en 3D, siempre hay que asegurarse de que esta pérdida de calidad se mantiene por debajo de los requisitos mínimos.
-</div>
+* '''Asegurando la solidez de sus objetos''': Al igual que los objetos del mundo real, sus modelos 3D deben ser sólidos. FreeCAD, especialmente dentro del Entorno de trabajo PartDesign, le ayuda a garantizar que sus modelos permanezcan sólidos durante todo el proceso de diseño. El software le notificará si una operación compromete la solidez del objeto. Además, el Entorno de trabajo Part ofrece una herramienta [[Image:Part_CheckGeometry.svg|16px]] [[Part_CheckGeometry|Check Geometry]], que le permite identificar posibles defectos o problemas que podrían interferir con el proceso de impresión 3D.
 
 '''Confirmación de la exactitud de las dimensiones''': La precisión es fundamental: lo que diseñe en FreeCAD se traducirá directamente en medidas del mundo real. Un milímetro en FreeCAD equivale a un milímetro en el objeto físico, por lo que cada dimensión debe considerarse y verificarse cuidadosamente para garantizar su exactitud.
 
