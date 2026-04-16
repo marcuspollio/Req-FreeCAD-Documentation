@@ -929,9 +929,8 @@ else:
         body.addObject(tube) #optionally we can also use body.insertObject() for placing at particular place in tree
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Available object types ==
-</div>
+<span id="Available_object_types"></span>
+== Tipos de objetos disponibles ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The object types you can create with {{incode|FreeCAD.ActiveDocument.addObject()}} depend on the loaded modules. After loading all internal workbenches a complete list can be obtained with {{incode|FreeCAD.ActiveDocument.supportedTypes()}}. Only object types with a name ending in {{incode|Python}} can be used for scripted objects. These are listed here (for FreeCAD v1.0):
