@@ -121,12 +121,7 @@ La siguiente imagen muestra la configuración de FreeCAD CAM Workbench para el m
 
 Antes de comenzar a eliminar el material sobrante, ajustemos la fresadora. Si bien CAM Workbench permite definir herramientas personalizadas, para simplificar, modificaremos la herramienta predeterminada. Esto garantizará que la configuración esté optimizada para nuestro proyecto sin necesidad de crear una herramienta nueva desde cero.
 
-<div class="mw-translate-fuzzy">
-* Ahora sólo queda unir estas dos operaciones en una. Esto se puede hacer con un [[Path_Job/es|Trayectoria Pedido]]. Pulse el botón [[Image:Path_Job.svg|16px]] [[Path_Job/es|Pedido]]. 
-* Poner la propiedad '''Utilizar Colocaciones''' del proyecto en True, porque hemos cambiado la colocación de las matrices, y queremos que eso se tenga en cuenta en el proyecto.
-* En la vista de árbol, arrastre y suelte las dos matrices en el proyecto. Puedes reordenar las matrices dentro del proyecto si es necesario, haciendo doble clic.
-* El proyecto puede ahora ser exportado a G-code, seleccionándolo, eligiendo el menú '''Archivo -> Exportar''', seleccionando el formato G-code, y en el diálogo emergente que se abrirá, seleccionando un script de post-procesamiento de acuerdo a su máquina.
-</div>
+* Haga clic en el texto '''TC:Default Tool'''. Esto abrirá el '''Editor de controlador de herramientas'''. Modifique las velocidades de avance y de husillo como se muestra en la imagen. Las velocidades de avance para el corte horizontal y vertical están configuradas en 2000 mm/min, mientras que la velocidad de husillo está configurada en 2000 RPM con rotación hacia adelante. Estos ajustes controlan el movimiento y la velocidad de corte de la herramienta durante el proceso de mecanizado.
 
 <div class="mw-translate-fuzzy">
 Hay muchas aplicaciones disponibles para simular el corte real, una de ellas que también es multiplataforma y de código abierto, como FreeCAD, es [http://camotics.org/ Camotics].
