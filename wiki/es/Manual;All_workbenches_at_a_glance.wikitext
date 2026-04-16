@@ -138,9 +138,7 @@ El [[Image:Workbench_Part.svg|24px]] [[Part_Workbench|Part Workbench]] ofrece he
 <span id="Part_Design"></span>
 === Diseño Piezas ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The [[Image:Workbench_PartDesign.svg|24px]] [[PartDesign_Workbench|PartDesign Workbench]] is an essential tool for creating and modifying solid 3D models. It allows users to design complex parts by sketching 2D profiles and then applying various operations such as extrusions, lofts, and revolutions to generate 3D geometry. This workbench also supports the creation of features like pockets, holes, fillets, and chamfers, providing a comprehensive set of tools for detailed part design. Additionally, the Part Design Workbench integrates seamlessly with the Sketcher Workbench, enabling users to define and constrain sketches that serve as the foundation for 3D models. This integration facilitates a parametric design approach, allowing for easy adjustments and updates to the model throughout the design process.
-</div>
+El [[Image:Workbench_PartDesign.svg|24px]] [[PartDesign_Workbench|PartDesign Workbench]] es una herramienta esencial para crear y modificar modelos 3D sólidos. Permite a los usuarios diseñar piezas complejas mediante el boceto de perfiles 2D y la posterior aplicación de diversas operaciones, como extrusiones, superficies de transición y revoluciones, para generar geometría 3D. Este entorno de trabajo también admite la creación de características como cavidades, agujeros, redondeos y chaflanes, proporcionando un conjunto completo de herramientas para el diseño detallado de piezas. Además, el Part Design Workbench se integra a la perfección con el Sketcher Workbench, lo que permite a los usuarios definir y restringir bocetos que sirven de base para los modelos 3D. Esta integración facilita un enfoque de diseño paramétrico, permitiendo ajustes y actualizaciones sencillas del modelo a lo largo del proceso de diseño.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable" style="width:100%"
