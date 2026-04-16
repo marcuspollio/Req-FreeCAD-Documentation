@@ -14,9 +14,7 @@
 
 Además de los tipos de objetos estándar, como anotaciones, mallas y piezas, FreeCAD también ofrece la increíble posibilidad de crear objetos paramétricos completamente programados en Python, denominados [[App_FeaturePython|Funciones de Python]]. Estos objetos se comportan exactamente igual que cualquier otro objeto de FreeCAD y se guardan y restauran automáticamente al guardar o cargar archivos.
 
-<div class="mw-translate-fuzzy">
-Debe comprenderse una particularidad, dichos objetos son guardados en archivos FcStd de FreeCAD con el módulo de Python [http://docs.python.org/release/2.5/lib/module-cPickle.html cPickle]. Este módulo devuelve un objeto de Python como una cadena de texto, permitiendo que se añada al guardado del archivo. En la carga, el módulo cPickle utiliza esa cadena de texto para recrear los objetos originales, proporcionándole acceso al código fuente que creó el objeto. Es decir que si guardas un objeto personalizado y lo abres en un ordenador en el que el código de Python que generó dicho objeto no está presente, el objeto no será recreado. Si distribuyes dichos objetos a otros usuarios, tendrás que distribuirlos junta al archivo de guión de Python que los crea.
-</div>
+Es importante tener en cuenta una particularidad: por motivos de seguridad, los archivos de FreeCAD nunca contienen código incrustado. El código Python que se escribe para crear objetos paramétricos nunca se guarda dentro del archivo. Esto significa que si se abre un archivo que contiene dicho objeto en otro equipo, si ese código Python no está disponible en dicho equipo, el objeto no se recreará por completo. Si se distribuyen estos objetos a otros, también será necesario distribuir el script de Python, por ejemplo, como una macro.
 
 '''Nota''': Es posible empaquetar código Python dentro de un archivo FreeCAD utilizando la serialización JSON con un App::PropertyPythonObject, pero ese código nunca se puede ejecutar directamente y, por lo tanto, tiene poca utilidad para nuestro propósito aquí.
 
