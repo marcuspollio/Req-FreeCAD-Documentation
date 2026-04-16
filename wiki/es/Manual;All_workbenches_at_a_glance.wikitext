@@ -600,7 +600,6 @@ El [[Image:Workbench_Sketcher.svg|24px]] [[Sketcher_Workbench|Sketcher Workbench
 
 El [[Image:Workbench_BIM.svg|24px]] [[BIM_Workbench|BIM Workbench]] (una combinación de los antiguos BIM, Native-IFC y Arch Workbench) está diseñado para el diseño arquitectónico y la planificación de la construcción, ofreciendo herramientas para crear y manipular elementos constructivos paramétricos como muros, losas, columnas, vigas, cubiertas y ventanas. Es compatible con IFC (Industry Foundation Classes) para un intercambio de datos fluido con otros programas BIM, facilitando la colaboración. Los usuarios pueden generar dibujos 2D detallados, anotaciones y documentación de construcción a partir de modelos 3D, integrándose estrechamente con el entorno de trabajo Draft para tareas como la creación de planos de planta, secciones y alzados.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable" style="width:100%"
 ! Tool
 ! Description
@@ -608,101 +607,100 @@ El [[Image:Workbench_BIM.svg|24px]] [[BIM_Workbench|BIM Workbench]] (una combina
 ! Description
 |-
 | [[Image:Arch_Site.svg|32px]] [[Arch_Site|Site]]
-| Creates a site including selected objects
+| Crea un sitio que incluye los objetos seleccionados.
 | [[Image:Arch_Building.svg|32px]] [[Arch_Building|Building]]
-| Creates a building including selected objects
+| Crea un edificio que incluye los objetos seleccionados.
 |-
 | [[Image:Arch_Space.svg|32px]] [[Arch_Space|Space]]
-| Creates a space object in the document
+| Crea un objeto de espacio en el documento.
 | [[Image:Arch_Floor.svg|32px]] [[Arch_Floor|Level]]
-| Creates a floor including selected objects
+| Crea un suelo que incluye los objetos seleccionados.
 |-
 | [[Image:Arch_Wall.svg|32px]] [[Arch_Wall|Wall]]
-| Creates a wall from scratch or using a selected object as a base
+| Crea una pared desde cero o utilizando un objeto seleccionado como base.
 | [[Image:Arch_CurtainWall.svg|32px]] [[Arch_CurtainWall|Curtain Wall]]
-| Creates a curtain wall from scratch or using a selected object as a base
+| Crea un muro cortina desde cero o utilizando un objeto seleccionado como base.
 |-
 | [[Image:BIM_Column.svg|32px]] [[BIM_Column|Column]]
-| Creates a column at a specified location
+| Crea una columna en una ubicación específica.
 | [[Image:BIM_Beam.svg|32px]] [[BIM_Beam|Beam]]
-| Creates a beam between two points
+| Crea un haz entre dos puntos.
 |-
 | [[Image:BIM_Slab.svg|32px]] [[BIM_Slab|Slab]]
-| Creates a slab from a planar shape
+| Crea una losa a partir de una forma plana.
 | [[Image:BIM_Door.svg|32px]] [[BIM_Door|Door]]
-| Places a door at a given location
+| Coloca una puerta en una ubicación determinada.
 |-
 | [[Image:Arch_Window.svg|32px]] [[Arch_Window|Window]]
-| Creates a window using a selected object as a base
+|Crea una ventana utilizando un objeto seleccionado como base.
 | [[Image:Arch_Pipe.svg|32px]] [[Arch_Pipe|Pipe]]
-| Creates a pipe.
+| Crea una tubería.
 |-
 | [[Image:Arch_PipeConnector.svg|32px]] [[Arch_PipeConnector|Connector]]
-| Creates a corner or T-connection between 2 or 3 selected pipes
+| Crea una conexión en esquina o en T entre 2 o 3 tuberías seleccionadas.
 | [[Image:Arch_Stairs.svg|32px]] [[Arch_Stairs|Stairs]]
-| Creates a stairs object in the document
+| Crea un objeto de escaleras en el documento.
 |-
 | [[Image:Arch_Roof.svg|32px]] [[Arch_Roof|Roof]]
-| Creates a sloped roof from a selected face
+| Crea un tejado inclinado a partir de una cara seleccionada.
 | [[Image:Arch_Panel.svg|32px]] [[Arch_Panel|Panel]]
-| Creates a panel object from a selected 2D object
+| Crea un objeto de panel a partir de un objeto 2D seleccionado.
 |-
 | [[Image:Arch_Frame.svg|32px]] [[Arch_Frame|Frame]]
-| Creates a frame object from a selected layout
+| Crea un objeto de marco a partir de un diseño seleccionado.
 | [[Image:Arch_Fence.svg|32px]] [[Arch_Fence|Fence]]
-| Creates a fence from the selected section, post and path
+| Crea una valla a partir de la sección, el poste y el camino seleccionados.
 |-
 | [[Image:Arch_Truss.svg|32px]] [[Arch_Truss|Truss]]
-| Creates a truss from a selected line or from scratch
+| Crea una estructura de celosía a partir de una línea seleccionada o desde cero.
 | [[Image:Arch_Equipment.svg|32px]] [[Arch_Equipment|Equipment]]
-| Creates an equipment or furniture object
+| Crea un objeto de equipo o mueble.
 |-
 | [[Image:Arch_Rebar.svg|32px]] [[Arch_Rebar|Rebar]]
-| Creates a reinforcement bar based on a sketch or a selected face
+| Crea una barra de refuerzo basada en un boceto o una cara seleccionada.
 | [[Image:Arch_Profile.svg|32px]] [[Arch_Profile|Profile]]
-| Creates a parametric 2D profile
+| Crea un perfil paramétrico 2D.
 |-
 | [[Image:BIM_Box.svg|32px]] [[BIM_Box|Box]]
-| Creates a generic box
+| Crea una caja genérica.
 | [[Image:BIM_Library.svg|32px]] [[BIM_Library|Library]]
-| Opens the object library
+| Abre la biblioteca de objetos.
 |-
 | [[Image:Arch_Component.svg|32px]] [[Arch_Component|Component]]
-| Adds un undefined architectural component
+| Agrega un componente arquitectónico indefinido.
 | [[Image:Arch_Reference.svg|32px]] [[Arch_Reference|Reference]]
-| Creates an external reference object
+| Crea un objeto de referencia externa.
 |-
 | [[Image:BIM_DimensionAligned.svg|32px]] [[BIM_DimensionAligned|Aligned Dimension]]
-| Creates an aligned dimension
+| Crea una dimensión alineada.
 | [[Image:BIM_DimensionHorizontal.svg|32px]] [[BIM_DimensionHorizontal|Horizontal Dimension]]
-| Creates a horizontal dimension
+| Crea una dimensión horizontal.
 |-
 | [[Image:BIM_DimensionVertical.svg|32px]] [[BIM_DimensionVertical|Vertical Dimension]]
-| Creates a vertical dimension
+| Crea una dimensión vertical.
 | [[Image:BIM_Leader.svg|32px]] [[BIM_Leader|Leader]]
-| Creates a polyline with an arrow at it's endpoint
+| Crea una polilínea con una flecha en su extremo.
 |-
 | [[Image:Arch_Axis.svg|32px]] [[Arch_Axis|Axis]]
-| Adds a 1-direction array of axes
+|Agrega una matriz de ejes de 1 dirección.
 | [[Image:Arch_AxisSystem.svg|32px]] [[Arch_AxisSystem|Axis System]]
-| Adds an axis system composed of several axes
+| Agrega un sistema de ejes compuesto por varios ejes.
 |-
 | [[Image:Arch_Grid.svg|32px]] [[Arch_Grid|Grid]]
-| Adds a grid-like object
+| Agrega un objeto similar a una cuadrícula.
 | [[Image:Arch_SectionPlane.svg|32px]] [[Arch_SectionPlane|Section Plane]]
-| Adds a section plane object
+| Agrega un objeto de plano de sección.
 |-
 | [[Image:BIM_Hatch.svg|32px]] [[Draft_Hatch|Hatch]]
-| Creates hatched at the selected face
+| Crea un sombreado en la cara seleccionada.
 | [[Image:Techdraw-ArchView.svg|32px]] [[TechDraw_ArchView|View]]
-| Creates a tech draw view from a section plane or 2D object
+| Crea una vista de dibujo técnico a partir de un plano de sección o un objeto 2D.
 |-
 | [[Image:BIM_Material.svg|32px]] [[BIM_Material|Material]]
-| Sets or creates a material for the selected object
+| Establece o crea un material para el objeto seleccionado.
 | [[Image:Arch_Schedule.svg|32px]] [[Arch_Schedule|Schedule]]
-| Creates different types of schedules to collect data from the model
+| Crea diferentes tipos de cronogramas para recopilar datos del modelo.
 |}
-</div>
 
 <span id="Other_built-in_workbenches"></span>
 === Otros ambientes de trabajo incorporados ===
