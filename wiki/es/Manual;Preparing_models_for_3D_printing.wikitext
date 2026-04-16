@@ -123,9 +123,7 @@ Antes de comenzar a eliminar el material sobrante, ajustemos la fresadora. Si bi
 
 * Haga clic en el texto '''TC:Default Tool'''. Esto abrirá el '''Editor de controlador de herramientas'''. Modifique las velocidades de avance y de husillo como se muestra en la imagen. Las velocidades de avance para el corte horizontal y vertical están configuradas en 2000 mm/min, mientras que la velocidad de husillo está configurada en 2000 RPM con rotación hacia adelante. Estos ajustes controlan el movimiento y la velocidad de corte de la herramienta durante el proceso de mecanizado.
 
-<div class="mw-translate-fuzzy">
-Hay muchas aplicaciones disponibles para simular el corte real, una de ellas que también es multiplataforma y de código abierto, como FreeCAD, es [http://camotics.org/ Camotics].
-</div>
+[[File:FreeCAD toolController.png]]
 
 <div class="mw-translate-fuzzy">
 '''Descargas''''
