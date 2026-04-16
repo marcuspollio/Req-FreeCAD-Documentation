@@ -54,9 +54,7 @@ Todo el manejo de la malla, en FreeCAD, se hace mediante otro ambiente de trabaj
 
 Afortunadamente, convertir un objeto sólido en una malla en FreeCAD es sencillo, aunque convertir una malla de nuevo en un sólido es una operación más compleja. Durante el proceso de conversión, es fundamental tener en cuenta que puede producirse cierta degradación de la calidad del modelo, especialmente al reducir geometrías complejas a una malla triangular simple. Debe asegurarse de que esta degradación se mantenga dentro de límites aceptables para conservar la precisión del objeto impreso.
 
-<div class="mw-translate-fuzzy">
-[[Image:Exercise_meshing_01.jpg]]
-</div>
+[[Image:Exercise_meshing_01.jpg]]En FreeCAD, el [[Mesh_Workbench|Mesh Workbench]] gestiona todas las tareas relacionadas con mallas. Este entorno de trabajo incluye herramientas no solo para convertir objetos de pieza a malla, sino también para analizar y reparar mallas. Si bien la manipulación de mallas no es el objetivo principal de FreeCAD, se vuelve esencial al preparar modelos para impresión 3D. Los objetos de malla se utilizan ampliamente en otras aplicaciones, y el Mesh Workbench permite gestionarlos y ajustarlos por completo, asegurando que estén listos para la siguiente etapa del proceso de impresión.
 
 * Vamos a convertir la pieza de Lego que creamos en el capítulo anterior en una malla STL. La geometría se puede descargar al final de dicho capítulo.
 
