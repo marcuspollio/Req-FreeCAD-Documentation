@@ -590,9 +590,7 @@ Los ejemplos que utilizan {{incode|SwitchNode.getChild(x).addChild}} también co
 
 Al usar {{incode|addDisplayMode()}} para agregar geometría al grafo de escena, cada modo de visualización debe tener su propio nodo, el cual se pasa a {{incode|addDisplayMode()}}. No reutilice el mismo nodo para esto. Hacerlo confundirá al mecanismo de selección. No hay problema si el nodo de cada modo de visualización tiene los mismos nodos de geometría agregados debajo, solo la raíz de cada modo de visualización debe ser distinta.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Here is the above molecule example, adapted to be drawn only with Coin3D scenegraph objects instead of using objects from the Part Workbench:
-</div>
+Aquí está el ejemplo de molécula anterior, adaptado para ser dibujado solo con objetos de grafo de escena de Coin3D en lugar de usar objetos del Entorno de trabajo de piezas:
 
 {{Code|code=
 import Part
