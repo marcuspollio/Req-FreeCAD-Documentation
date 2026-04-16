@@ -119,10 +119,7 @@ La siguiente imagen muestra la configuración de FreeCAD CAM Workbench para el m
 
 [[File:FreeCAD CAMtree.png]]
 
-<div class="mw-translate-fuzzy">
-* Ahora hemos definido una trayectoria que, al ser seguida por la fresadora, tallará un volumen rectangular de un bloque de material. Ahora tenemos que tallar el espacio entre los puntos, para revelarlos. Oculta el Pastilla, y vuelve a mostrar la pieza final, para que podamos seleccionar la cara que se encuentra entre los puntos.
-* Selecciona la cara superior, y pulsa el [[Image:Path_Pocket_Shape.svg|16px]] [[Path_Pocket_Shape/es|Forma de bolsillo]]. Ajuste la propiedad '''Desplazamiento''' a 1mm, y la '''altura de retracción'''' a 20mm. Esa es la altura a la que se desplazará el cortador cuando cambie de un bucle a otro. De lo contrario, el cortador podría cortar uno de nuestros puntos:
-</div>
+Antes de comenzar a eliminar el material sobrante, ajustemos la fresadora. Si bien CAM Workbench permite definir herramientas personalizadas, para simplificar, modificaremos la herramienta predeterminada. Esto garantizará que la configuración esté optimizada para nuestro proyecto sin necesidad de crear una herramienta nueva desde cero.
 
 <div class="mw-translate-fuzzy">
 * Ahora sólo queda unir estas dos operaciones en una. Esto se puede hacer con un [[Path_Job/es|Trayectoria Pedido]]. Pulse el botón [[Image:Path_Job.svg|16px]] [[Path_Job/es|Pedido]]. 
