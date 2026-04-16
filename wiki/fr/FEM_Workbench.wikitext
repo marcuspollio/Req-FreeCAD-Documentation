@@ -20,6 +20,7 @@ L'[[FEM_Workbench/fr|atelier FEM]] offre un flux de travail d'[https://fr.wikipe
 <span id="Workflow"></span>
 == Processus de travail ==
 
+<div class="mw-translate-fuzzy">
 Les étapes pour effectuer une analyse d’éléments finis sont les suivantes :
 # Prétraitement : configuration du problème d'analyse.
 ## Modéliser la géométrie : créer la géométrie avec FreeCAD, ou l'importer depuis une autre application.
@@ -29,12 +30,15 @@ Les étapes pour effectuer une analyse d’éléments finis sont les suivantes :
 ### Créer un maillage d'éléments finis pour le modèle géométrique, ou l'importer depuis une autre application.
 # Résoudre : lancer un solveur externe à partir de FreeCAD.
 # Post-traitement : visualiser les résultats de l'analyse depuis FreeCAD, ou exporter les résultats pour qu'ils puissent être post-traités avec une autre application.
+</div>
 
 L'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné que l'atelier utilise des solveurs externes, le nombre d’installations manuelles dépend du système d’exploitation utilisé. Voir [[FEM_Install/fr|FEM Installation des composants requis]] pour des instructions sur la configuration des outils externes.
 
-[[Image:FEM_Workbench_workflow.svg|600px]]
+[[Image:FEM_Workbench_workflow.svg|800px]]
 
+<div class="mw-translate-fuzzy">
 {{Caption|Flux de travail de l'atelier FEM : l'atelier fait appel à deux programmes externes pour effectuer le maillage d'un objet solide et résoudre le problème des éléments finis.}}
+</div>
 
 <span id="Menu:_Model"></span>
 == Menu : Modèle ==
