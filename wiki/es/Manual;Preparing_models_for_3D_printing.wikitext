@@ -89,9 +89,7 @@ Este es nuestro archivo STL exportado y abierto en PrusaSlicer. Con solo pulsar 
 [[Image:Exercise_meshing_03.jpg]]
 </div>
 
-<div class="mw-translate-fuzzy">
-[https://ultimaker.com/en/products/cura-software Cura] es otra aplicación gratuita y de código abierto para Windows, Mac y Linux, mantenida por el fabricante de impresoras 3D [https://ultimaker.com Ultimaker]. Algunos usuarios de FreeCAD han creado un [https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin Ambiente de trabajo Cura] que utiliza cura internamente. El Ambiente de trabajo Cura está disponible en el repositorio [https://github.com/FreeCAD/FreeCAD-addons FreeCAD complementos]. Para utilizar el Ambiente de trabajo Cura, también necesitas instalar el propio Cura, que no está incluido en el ambiente de trabajo.
-</div>
+Además de PrusaSlicer, existen varias otras opciones de software de laminado disponibles para impresión 3D. [https://ultimaker.com/fr/software/ultimaker-cura/ Cura], desarrollado por Ultimaker, es uno de los laminadores de código abierto más populares y admite una amplia gama de impresoras con una amplia personalización. [https://www.simplify3d.com/ Simplify3D ] es un laminador de pago conocido por sus funciones avanzadas y la generación eficiente de trayectorias de herramientas. [https://www.matterhackers.com/store/l/mattercontrol/sk/MKZGTDW6 MatterControl] es un laminador de código abierto que también incluye herramientas CAD básicas, mientras que [https://www.raise3d.com/fr/ideamaker/ IdeaMaker] ofrece una interfaz fácil de usar con alturas de capa adaptativas, desarrollado por Raise3D. Por último, [https://github.com/SoftFever/OrcaSlicer], una opción de código abierto más reciente basada en PrusaSlicer y Bambu Studio, ofrece funciones adicionales para diversas impresoras. Cada programa de laminado tiene sus propias ventajas, por lo que la mejor opción dependerá del modelo de impresora y de los requisitos de impresión específicos.
 
 === Generating G-code ===
 
