@@ -750,9 +750,8 @@ def makeMolecule():
 a,b = makeMolecule()
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Part Design scripted objects ==
-</div>
+<span id="Part_Design_scripted_objects"></span>
+== Objetos script en Part Desing ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 When making scripted objects in PartDesign the process is similar to the scripted objects discussed above, but with a few additional considerations. We must handle 2 shape properties, one for the shape we see in the 3D view and another for the shape used by the pattern tools, such as polar pattern features. The object shapes also needs to be fused to any existing material already in the Body (or cut from it in the case of Subtractive features). And we must account for the placement and attachment of our objects a little bit differently.
