@@ -37,11 +37,9 @@ L'interazione tra l'ambiente [[FEM Workbench/it|FEM]] e CalculiX avviene attrave
 Il file di input che CalculiX utilizza può essere preparato e modificato prima dell'avvio del solver. Le unità utilizzate nel file di input sono indipendenti dalle unità impostate in FreeCAD; sono sempre millimetri (mm) e Newton (N).
 </div>
 
-{{Emphasis|(Da fare: controllare questo. Cosa succede con la mesh se in FreeCAD si usa inch? Siccome è stata introdotta la densità, con questo abbiamo kg e s, e non più N?! Cosa ne pensate di questo?!)}}
-
 L'interfaccia di CalculiX supporta i seguenti oggetti:
 
-=== FEM Elements ===
+=== Finite elements ===
 
 <div class="mw-translate-fuzzy">
 === Elementi FEM ===
@@ -50,6 +48,8 @@ L'interfaccia di CalculiX supporta i seguenti oggetti:
 * B31 and B32
 * e quelli descritti in [[FEM_Mesh_CalculiX/it|FEM Mesh CalculiX]]
 </div>
+
+More details about the supported CalculiX elements can be found on the [[FEM_Mesh_CalculiX|FEM Mesh CalculiX]] page.
 
 === Analysis ===
 
@@ -80,9 +80,9 @@ Reaction forces can be found in ''ccx_dat_file'' which contains reaction force c
 == Related ==
 
 * [[FEM_Mesh_CalculiX|FEM Mesh CalculiX]]
-* [[FEM_Preferences#CalculiX|CalculiX preferences]] dialog menu in the FEM Workbench preferences menu
+* [[FEM_Preferences#CalculiX|CalculiX]] page in the FEM Workbench preferences
 
 
-{{FEM Tools navi{{#translation:}}}}
+{{FEM_Tools_navi{{#translation:}}}}
 [[Category:Poweruser_Documentation{{#translation:}}]]
 [[Category:Developer{{#translation:}}]]
