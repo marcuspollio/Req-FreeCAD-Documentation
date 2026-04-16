@@ -50,6 +50,7 @@
 <span id="Properties"></span>
 ==Właściwości==
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData|Section Type}}: określa typ przekroju belkowego (''Rectangular'' (prostokątny), ''Circular'' (kołowy), ''Pipe'' (rurowy), {{VersionPlus/pl|1.1}}: ''Elliptical'' (eliptyczny) i ''Box'' (skrzynkowy))
 * {{VersionPlus/pl|1.1}}: {{PropertyData|Box Height}}: height of box section, used if {{PropertyData|Section Type}} is ''Box''
 * {{VersionPlus/pl|1.1}}: {{PropertyData|Box T1}}: grubość T1 przekroju skrzynkowego, używana jeśli właściwość {{PropertyData|Section Type}} jest ustawiona na ''Box''
@@ -65,6 +66,7 @@
 * {{PropertyData|Rect Height}}: wysokość przekroju prostokątnego, używana jeśli właściwość {{PropertyData|Section Type}} jest ustawiona na ''Rectangular''
 * {{PropertyData|Rect Width}}: szerokość przekroju prostokątnego, używana jeśli właściwość {{PropertyData|Section Type}} jest ustawiona na ''Rectangular''
 * {{VersionPlus/pl|1.1}}: {{PropertyData|Truss Area}}: pole przekroju poprzecznego elementów kratownicowych, używane jeśli właściwość {{PropertyData|Exclude Bending Stiffness}} jest włączona w [[FEM_SolverCalculixCcxtools/pl|solverze CalculiX]]
+</div>
 
 <span id="Limitations"></span>
 ==Ograniczenia==
