@@ -988,10 +988,7 @@ Consulte [[FeaturePython_methods|FeaturePython methods]] para obtener la referen
 <span id="Available_properties"></span>
 == Propiedades disponibles ==
 
-<div class="mw-translate-fuzzy">
-== Propiedades disponibles == 
-Las propiedades son las auténticas piedras de construcción de los objetos FeaturePython. A través de ellas, el usuario será capaz de interactuar y modificar su objeto. Después de crear un nuevo objeto FeaturePython en tu documento ( a=FreeCAD.ActiveDocument.addObject("App::FeaturePython","Box") ), puedes obtener una lista de las propiedades disponibles escribiendo:
-</div>
+Las propiedades son los verdaderos componentes básicos de los objetos FeaturePython. A través de ellas, podrá interactuar con su objeto y modificarlo. Después de crear un nuevo objeto FeaturePython en su documento, puede obtener una lista de las propiedades disponibles:
 
 {{Code|code=
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "Box")
