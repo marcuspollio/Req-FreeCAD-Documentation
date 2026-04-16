@@ -80,9 +80,7 @@ Configurar correctamente un programa de laminado para impresión 3D es un proces
 
 Este es nuestro archivo STL exportado y abierto en PrusaSlicer. Con solo pulsar el botón "Cortar", el software divide el modelo en capas, genera las trayectorias de impresión para la impresora 3D y aplica la velocidad y la temperatura necesarias. Calcula el relleno, las estructuras de soporte y los perímetros, y luego crea el código G, que contiene instrucciones detalladas para la impresora. Puede previsualizar el modelo cortado capa por capa, comprobar el tiempo de impresión estimado y el consumo de filamento, y finalmente guardar o enviar el código G a la impresora para el proceso de impresión.
 
-<div class="mw-translate-fuzzy">
-[[Image:Exercise_meshing_03.jpg]]
-</div>
+[[File:FreeCAD PrusaSlicer.png]]
 
 Además de PrusaSlicer, existen varias otras opciones de software de laminado disponibles para impresión 3D. [https://ultimaker.com/fr/software/ultimaker-cura/ Cura], desarrollado por Ultimaker, es uno de los laminadores de código abierto más populares y admite una amplia gama de impresoras con una amplia personalización. [https://www.simplify3d.com/ Simplify3D ] es un laminador de pago conocido por sus funciones avanzadas y la generación eficiente de trayectorias de herramientas. [https://www.matterhackers.com/store/l/mattercontrol/sk/MKZGTDW6 MatterControl] es un laminador de código abierto que también incluye herramientas CAD básicas, mientras que [https://www.raise3d.com/fr/ideamaker/ IdeaMaker] ofrece una interfaz fácil de usar con alturas de capa adaptativas, desarrollado por Raise3D. Por último, [https://github.com/SoftFever/OrcaSlicer], una opción de código abierto más reciente basada en PrusaSlicer y Bambu Studio, ofrece funciones adicionales para diversas impresoras. Cada programa de laminado tiene sus propias ventajas, por lo que la mejor opción dependerá del modelo de impresora y de los requisitos de impresión específicos.
 
