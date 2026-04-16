@@ -185,11 +185,7 @@ obj.Length = 1.0
 <span id="Other_more_complex_example"></span>
 == Otro ejemplo más complejo ==
 
-<div class="mw-translate-fuzzy">
-== Otro ejemplo más complejo ==
-
-En este ejemplo se hace uso del [[Part_Workbench/es|Módulo de Pieza]] para crear un octaedro, a continuación, se crea su representación Coin con Pivy.
-</div>
+Este ejemplo utiliza el módulo Part para crear un octaedro y luego crea su representación [https://en.wikipedia.org/wiki/Coin3D Coin] con [[Pivy|Pivy]].
 
 Lo primero es el propio objeto del documento:
 
