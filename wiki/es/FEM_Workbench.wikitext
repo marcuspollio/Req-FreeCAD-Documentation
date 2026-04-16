@@ -38,9 +38,11 @@ Los pasos para realizar un análisis de elementos finitos son:
 
 El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado que el ambiente de trabajo hace uso de solucionadores externos, la cantidad de configuración manual dependerá del sistema operativo que esté utilizando. Ver [[FEM Install/es|Instalación de MEF]] para instrucciones sobre la configuración de las herramientas externas.
 
-[[Image:FEM_Workbench_workflow.svg|600px]]
+[[Image:FEM_Workbench_workflow.svg|800px]]
 
+<div class="mw-translate-fuzzy">
 {{Caption|Flujo de trabajo del ambiente de trabajo MEF; el ambiente de trabajo llama a dos programas externos para realizar el mallado de un objeto sólido, y realizar la solución real del problema de elementos finitos}}
+</div>
 
 <span id="Menu:_Model"></span>
 == Menú: Modelo ==
