@@ -759,9 +759,7 @@ Las funciones de objetos sólidos con script de PartDesign deben basarse en Part
 
 Aquí tiene un ejemplo sencillo de cómo crear un tubo primitivo, similar al que aparece en Part Workbench, pero este será un objeto sólido de PartDesign. Para ello, utilizaremos dos archivos separados: pdtube.FCMacro y pdtube.py. El usuario ejecutará el archivo .FCMacro para crear el objeto. El archivo .py contendrá las definiciones de clase, importadas por .FCMacro. El motivo de este método es mantener la naturaleza paramétrica del objeto tras reiniciar FreeCAD y abrir un documento que contenga uno de nuestros tubos.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-First, the class definition file:
-</div>
+Primero, el archivo de definición de clase:
 
 {{Code|code=
 # -*- coding: utf-8 -*-
