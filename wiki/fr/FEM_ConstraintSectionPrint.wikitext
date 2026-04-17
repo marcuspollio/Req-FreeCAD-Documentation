@@ -32,9 +32,7 @@ Enregistre les variables de sortie prédéfinies (forces et moments) dans ccx_da
 
 {{Version/fr|1.2}} : permet également d'afficher le flux électrique dans les analyses électrostatiques avec le solveur CalculiX refactorisé. En plus des faces, les arêtes peuvent également être sélectionnées (elles sont équivalentes aux faces dans les modèles 2D).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.2}}: Section forces can be also printed when using the Z88 solver.
-</div>
+{{Version/fr|1.2}} : les forces des sections peuvent également être affichées lors de l'utilisation du solveur Z88.
 
 <span id="Usage"></span>
 ==Utilisation==
