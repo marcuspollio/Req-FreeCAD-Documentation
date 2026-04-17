@@ -19,7 +19,7 @@ Para ilustrar cómo funciona PartDesign Workbench, vamos a describir cómo model
 
 [[File:FreeCAD_Exercise1_RedBrick.png]]
 
-Ahora utilizaremos exclusivamente las herramientas [[Sketcher_Workbench|Bocetador]] y [[PartDesign_Workbench|Diseño de partes]]. Dado que todas las herramientas del Sketcher Workbench también están incluidas en el Part Design Workbench, podemos permanecer en Part Design y no será necesario alternar entre ambos.
+Ahora utilizaremos exclusivamente las herramientas [[Sketcher_Workbench|Bocetador]] y [[PartDesign_Workbench|Diseño de Piezas]]. Dado que todas las herramientas del Sketcher Workbench también están incluidas en el Part Design Workbench, podemos permanecer en Part Design y no será necesario alternar entre ambos.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In FreeCAD's PartDesign Workbench, objects are primarily built from Sketches, which are 2D profiles made up of linear segments such as lines, arcs, or ellipses, along with a series of constraints. These constraints dictate specific geometric rules for the sketch and can be applied to both the segments themselves and their key points, like endpoints or center points. For example, you can use a vertical constraint on a line to keep it perfectly vertical, or a position (lock) constraint to fix an endpoint in place, preventing it from moving.
