@@ -27,9 +27,7 @@ Auparavant, Netgen était inclus dans FreeCAD et pouvait être utilisé immédia
 <span id="Meshing_software"></span>
 == Logiciels de maillage ==
 
-<div class="mw-translate-fuzzy">
-Les logiciels de maillage opèrent sur des corps solides qui peuvent être dans différents formats, comme Step et Brep. Ces programmes peuvent être utilisés indépendamment de FreeCAD, et disposent généralement de nombreuses options pour contrôler les algorithmes de maillage, la taille des éléments et les conditions aux limites.
-</div>
+Les logiciels de maillage opèrent sur des formes qui peuvent être dans différents formats, comme STEP et BREP. Ces programmes peuvent être utilisés indépendamment de FreeCAD, et disposent généralement de nombreuses options pour contrôler les algorithmes de maillage, la taille des éléments et les conditions aux limites.
 
 L'[[FEM_Workbench/fr|atelier FEM]] a développé des interfaces de communication simples pour utiliser Gmsh et Netgen directement dans FreeCAD. D'autres programmes n'ont pas d'interface, mais cela pourrait changer à l'avenir si la communauté suscite de l'intérêt et si ces applications sont faciles à intégrer. Le logiciel de maillage peut être compilé et distribué avec FreeCAD seulement si sa licence est compatible avec les licences GPL2 ou LGPL2 ; sinon le programme doit être utilisé comme un binaire externe, comme Gmsh (GPL2).
 
