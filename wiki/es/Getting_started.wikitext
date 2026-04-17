@@ -50,7 +50,7 @@ En primer lugar, deberá descargar e instalar la versión que desee de FreeCAD. 
 
 El concepto principal de la interfaz de FreeCAD es su división en [[entornos de trabajo|entornos de trabajo]]. Un entorno de trabajo es un conjunto de herramientas adecuadas para una tarea específica, como trabajar con [[Mesh_Workbench|mallas]], dibujar [[Draft_Workbench|objetos 2D]] o [[Sketcher_Workbench|bocetos restringidos]]. Puede cambiar el entorno de trabajo actual con el [[Std_Workbench|selector de entorno de trabajo]]. Puede [[Interface_Customization|personalizar]] las herramientas incluidas en cada entorno de trabajo, añadir herramientas de otros entornos de trabajo o incluso incorporar herramientas propias, que denominamos [[macros|macros]]. Los puntos de partida más utilizados son el [[PartDesign_Workbench|Entorno de trabajo de diseño de piezas]] y el [[Part_Workbench|Entorno de trabajo de piezas]].
 
-Cuando comienzas FreeCAD por primera vez, se te presenta la página de inicio. EEsto es lo que parece para la versión 0.18:
+Cuando ejecutas FreeCAD por primera vez, se le muestra la página de inicio. Así es como se ve en la versión 0.19:
 
 [[File:Start_center_0.18_screenshot.jpg|1024px]]
 
