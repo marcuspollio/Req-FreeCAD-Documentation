@@ -144,9 +144,7 @@ Es posible que observe que el historial de modelado en la vista de árbol se ha 
 
 Pero también podríamos querer eliminar el historial, por ejemplo, si vamos a modelar un castillo con este ladrillo y no queremos que todo este historial se repita 500 veces en nuestro archivo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-There are two simple ways to get rid of the history, one is using the [[Part_SimpleCopy|Create simple copy]] tool from the [[Part_Workbench|Part Workbench]], which will create a copy of our piece that doesn't depend anymore on the history (you can delete the whole history afterwards), the other way is exporting the piece as a STEP file and re-importing it.
-</div>
+Hay dos maneras sencillas de eliminar el historial: una es usar la herramienta [[Part_SimpleCopy|Crear copia simple]] del [[Part_Workbench|Part Workbench]], que creará una copia de nuestra pieza que ya no depende del historial (puede eliminar todo el historial después); la otra es exportar la pieza como un archivo STEP y volver a importarlo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''Downloads'''
