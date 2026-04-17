@@ -49,8 +49,9 @@ Para mostrar el flujo de trabajo y las posibilidades de Draft Workbench, realiza
 
 * Activar todos los botones de ajuste es práctico, pero también ralentiza el dibujo, ya que se requiere más cálculo al mover el cursor del ratón. A menudo es mejor mantener solo los que realmente vaya a usar.
 
-* Let's start by turning '''construction mode''' on, which will allow us to draw some guidelines on which we will draw our final geometry. You can do that by pressing on the [[Image:Draft_ToggleConstructionMode.svg|24px]] [[Draft_ToggleConstructionMode|Toggle construction mode]] command.
-* If you prefer, you can set the working plane to XY. This will lock the working plane, ensuring it remains on the XY plane regardless of how you change the view. If you choose not to do this, the working plane will automatically adapt to the current view, meaning you'll need to ensure you're in the top view whenever you want to draw on the XY (ground) plane to avoid unintended shifts in orientation.
+* Comencemos activando el modo de construcción, que nos permitirá dibujar algunas guías sobre las que trazaremos la geometría final. Para ello, pulse el comando [[Image:Draft_ToggleConstructionMode.svg|24px]] [[Draft_ToggleConstructionMode|Toggle construction mode]].
+
+* Si lo prefiere, puede establecer el plano de trabajo en XY. Esto bloqueará el plano de trabajo, asegurando que permanezca en el plano XY, independientemente de cómo cambie la vista. Si decide no hacerlo, el plano de trabajo se adaptará automáticamente a la vista actual, por lo que deberá asegurarse de estar en la vista superior siempre que desee dibujar en el plano XY (suelo) para evitar cambios de orientación involuntarios.
 
 Let's begin laying out the basic shape of our floorplan.
 
