@@ -34,9 +34,7 @@ L'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné qu
 
 [[Image:FEM_Workbench_workflow.svg|800px]]
 
-<div class="mw-translate-fuzzy">
-{{Caption|Flux de travail de l'atelier FEM : l'atelier fait appel à deux programmes externes pour effectuer le maillage d'un objet solide et résoudre le problème des éléments finis.}}
-</div>
+{{Caption|Flux de travail de l'atelier FEM : l'atelier fait appel à deux programmes externes pour effectuer le maillage d'une forme et résoudre le problème des éléments finis.}}
 
 <span id="Menu:_Model"></span>
 == Menu : Modèle ==
