@@ -104,9 +104,7 @@ El [[Draft_Workbench/es|Ambiente de trabajo Borrador]] así como el [[Arch_Workb
 
 El [[Draft_Workbench/es|Ambiente de trabajo Borrador]] le ofrece herramientas 2D un poco similares a las que puede encontrar en aplicaciones CAD 2D tradicionales como [https://en.wikipedia.org/wiki/AutoCAD AutoCAD]. Sin embargo, el dibujo en 2D está muy lejos del alcance de FreeCAD, no espere encontrar allí la gama completa de herramientas que ofrecen estas aplicaciones dedicadas. La mayoría de las herramientas Borrador funcionan no solo en un plano 2D sino también en el espacio 3D completo, y se benefician de los sistemas auxiliares especiales tales como [[Draft_SelectPlane/es |Planos de trabajo]] y [[Draft_Snap/es |Atrapar objeto]].
 
-<div class="mw-translate-fuzzy">
-El [[Arch_Workbench/es|Ambiente de trabajo Arquitectura]] agrega herramientas [https://es.wikipedia.org/wiki/Modelado_de_informaci%C3%B3n_de_construcci%C3%B3n modelado de información de construcción (BIM)] a FreeCAD, lo que le permite construir modelos arquitectónicos con objetos paramétricos. El Ambiente de trabajo Arquitectura se basa mucho en otros módulos, como Borrador y Croquizador. Todas las herramientas de borrador están también presentes en el ambiente de trabajo de Arquitectura, y la mayoría de las herramientas de Arquitectura hacen uso de los sistemas de ayuda de Borrador.
-</div>
+El [[Arch_Workbench/es|Ambiente de trabajo Arquitectura]] agrega herramientas [https://es.wikipedia.org/wiki/Modelado_de_informaci%C3%B3n_de_construcci%C3%B3n modelado de información de construcción (BIM)] a FreeCAD, lo que le permite construir modelos arquitectónicos con objetos paramétricos. El Ambiente de trabajo Arquitectura se basa mucho en otros módulos, como Borrador (Draft) y Croquizador (Sketcher). Todas las herramientas de borrador están también presentes en el ambiente de trabajo de Arquitectura, y la mayoría de las herramientas de Arquitectura hacen uso de los sistemas de ayuda de Borrador.
 
 Un flujo de trabajo típico con los ambientes de trabajo Arquitectura y Borrador podría ser:
 
