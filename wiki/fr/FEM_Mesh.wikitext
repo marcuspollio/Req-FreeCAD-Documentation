@@ -12,9 +12,7 @@ Il existe différentes possibilités pour configurer un maillage dans l'[[FEM_Wo
 * Importer un maillage depuis un autre programme. En particulier, Gmsh et Netgen peuvent être utilisés de manière autonome, en dehors de FreeCAD, pour mailler des formes provenant, par exemple, de fichiers STEP.
 * Créer manuellement le maillage à l'aide de scripts [[Python/fr|Python]].
 
-<div class="mw-translate-fuzzy">
-Les outils Gmsh et Netgen prennent en charge les corps de maillage créés avec les ateliers [[Part_Workbench/fr|Part]] et [[PartDesign_Workbench/fr|PartDesign]], ainsi que les copies simples de ces solides. En général, tout atelier générant des objets solides, tel que l'[[BIM_Workbench/fr|atelier BIM]], peut être utilisé comme base de création de maillages. Notez qu'un maillage utilisé en analyse par éléments finis est différent d'un maillage créé ou importé à partir de l'[[Mesh_Workbench/fr|atelier Mesh]].
-</div>
+Les outils Gmsh et Netgen prennent en charge le maillage des formes créés avec les ateliers [[Part_Workbench/fr|Part]] et [[PartDesign_Workbench/fr|PartDesign]], ainsi que leurs copies simples de ces solides. En général, tout atelier générant des formes, tel que l'[[BIM_Workbench/fr|atelier BIM]], peut être utilisé comme base de création de maillages. Notez qu'un maillage utilisé en analyse par éléments finis est différent d'un maillage créé ou importé à partir de l'[[Mesh_Workbench/fr|atelier Mesh]].
 
 [[Image:FEM_Workbench_workflow.svg|600px]]
 <div class="mw-translate-fuzzy">
