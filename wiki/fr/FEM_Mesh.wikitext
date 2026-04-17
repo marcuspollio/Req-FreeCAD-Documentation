@@ -6,13 +6,11 @@
 
 L'[https://fr.wikipedia.org/wiki/M%C3%A9thode_des_%C3%A9l%C3%A9ments_finis analyse par éléments finis] se fait sur un maillage composé de multiples éléments finis triangulaires/tétraédriques, quadrilatéraux/hexaédriques ou autres qui subdivisent un corps d'origine. Plus le maillage est fin, plus les résultats numériques seront précis, et plus le temps de calcul sera long. Un équilibre entre la taille du maillage, le temps de calcul et la précision des résultats est une caractéristique importante d'une analyse par éléments finis bien définie.
 
-<div class="mw-translate-fuzzy">
 Il existe différentes possibilités pour configurer un maillage dans l'[[FEM_Workbench/fr|atelier FEM]] :
 * L'[[FEM_MeshGmshFromShape/fr|outil Gmsh]] de l'interface utilisateur graphique.
 * L'[[FEM_MeshNetgenFromShape/fr|outil Netgen]] à partir de l'interface graphique.
-* Importer un maillage depuis un autre programme. En particulier, Gmsh et Netgen peuvent être utilisés seuls en dehors de FreeCAD pour mailler des corps solides tels que des fichiers Step.
+* Importer un maillage depuis un autre programme. En particulier, Gmsh et Netgen peuvent être utilisés de manière autonome, en dehors de FreeCAD, pour mailler des formes provenant, par exemple, de fichiers STEP.
 * Créer manuellement le maillage à l'aide de scripts [[Python/fr|Python]].
-</div>
 
 <div class="mw-translate-fuzzy">
 Les outils Gmsh et Netgen prennent en charge les corps de maillage créés avec les ateliers [[Part_Workbench/fr|Part]] et [[PartDesign_Workbench/fr|PartDesign]], ainsi que les copies simples de ces solides. En général, tout atelier générant des objets solides, tel que l'[[BIM_Workbench/fr|atelier BIM]], peut être utilisé comme base de création de maillages. Notez qu'un maillage utilisé en analyse par éléments finis est différent d'un maillage créé ou importé à partir de l'[[Mesh_Workbench/fr|atelier Mesh]].
