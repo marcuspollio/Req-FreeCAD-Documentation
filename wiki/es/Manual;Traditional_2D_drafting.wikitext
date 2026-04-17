@@ -93,8 +93,9 @@ Ahora vamos a dibujar nuestras dos piezas de pared usando la herramienta [[Image
 
 [[Image:Exercise_cabin_06.jpg]]
 
-* We will now change the door line to create an opened door symbol. Start by rotating the line using the [[Image:Draft_Rotate.svg|16px]] [[Draft_Rotate|Rotate]] tool. Click the endpoint of the line as rotation center; then specify a base angle of '''0''', and a rotation of '''-90'''.
-* Then create the opening arc with the [[Image:Draft_Arc.svg|16px]] [[Draft_Arc|Arc]] tool. Pick the same point as the rotation center we used in the previous step as the center, click the other point of the line to give the radius, then the start and end points as follows:
+* Ahora cambiaremos la línea de la puerta para crear un símbolo de puerta abierta. Comience rotando la línea con la herramienta [[Image:Draft_Rotate.svg|16px]] [[Draft_Rotate|Rotación]]. Haga clic en el extremo de la línea como centro de rotación; luego especifique un ángulo base de '''0''' y una rotación de '''-90'''.
+
+* A continuación, cree el arco de apertura con la herramienta [[Image:Draft_Arc.svg|16px]] [[Draft_Arc|Arco]]. Seleccione el mismo punto que usamos como centro de rotación en el paso anterior, haga clic en el otro punto de la línea para definir el radio y, a continuación, defina los puntos inicial y final de la siguiente manera:
 
 [[Image:Exercise_cabin_07.jpg]]
 
