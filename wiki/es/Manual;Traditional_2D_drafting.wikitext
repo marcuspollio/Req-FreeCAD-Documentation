@@ -34,7 +34,7 @@ La naturaleza paramétrica de FreeCAD permite aplicar restricciones a los elemen
 
 Las funciones avanzadas de Draft Workbench incluyen la capacidad de importar y exportar archivos en formatos como DXF y SVG, lo que permite trabajar con diseños o compartirlos con usuarios de otros programas CAD. La programación en Python amplía aún más las capacidades de FreeCAD, permitiendo automatizar tareas o crear flujos de trabajo personalizados. Se pueden escribir scripts que generen objetos de dibujo basados ​​en reglas geométricas específicas, agilizando así las tareas repetitivas.
 
-To showcase the workflow and possibilities of the Draft Workbench, we will walk through a simple exercise, the result of which will be this little drawing, showing the floor plan of a small house that contains only a kitchen top (A pretty absurd floor plan, but we can do what we want here, can't we?):
+Para mostrar el flujo de trabajo y las posibilidades de Draft Workbench, realizaremos un ejercicio sencillo, cuyo resultado será este pequeño dibujo que muestra el plano de una casa pequeña que contiene solo una encimera de cocina (un plano bastante absurdo, pero podemos hacer lo que queramos, ¿no?):
 
 [[Image:Exercise_cabin_01.jpg]]
 
