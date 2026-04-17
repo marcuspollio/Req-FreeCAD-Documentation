@@ -108,13 +108,15 @@ Vamos a extruirlo usando la herramienta [[Image:PartDesign_Pad.svg|16px]] [[Part
 
 [[File:FreeCAD_Exercise1_BottomRec.png]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Create a [[Image:Sketcher_Circle.svg|16px]] [[Sketcher_CreateCircle|circle]] by clicking on the X-axis (red line) and then clicking at another point away from the X axis. This will automatically constrain the center of the circle to lie on the X axis. Repeat this step to create two more circles with centers on the X axis.
-* Select the edges of all three circles, and apply an [[Image:Sketcher_ConstrainEqual.svg|16px]] [[Sketcher_ConstrainEqual|equal constraint]].
-* Set the diameter of one circle to 9.765 mm.
-* Set the distance between the center of the left circle and the left edge of the rectangle we created before to 10.2 mm.
-* Set the distance between the left and middle circles to 12 mm. Repeat this step to set the same 12mm distance between the middle and right circles
-</div>
+* Cree un círculo haciendo clic en el eje X (línea roja) y luego en otro punto alejado del eje X. Esto restringirá automáticamente el centro del círculo al eje X. Repita este paso para crear dos círculos más con el centro en el eje X.
+
+* Seleccione los bordes de los tres círculos y aplique una restricción de igualdad.
+
+* Establezca el diámetro de un círculo en 9,765 mm.
+
+* Ajuste la distancia entre el centro del círculo izquierdo y el borde izquierdo del rectángulo creado anteriormente en 10,2 mm.
+
+* Establezca la distancia entre el círculo izquierdo y el del medio en 12 mm. Repita este paso para establecer la misma distancia de 12 mm entre el círculo del medio y el de la derecha.
 
 [[File:FreeCAD_Exercise1_BottomOuterCirc.png]]
 
