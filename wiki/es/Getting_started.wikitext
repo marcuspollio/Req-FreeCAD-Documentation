@@ -102,9 +102,7 @@ En cualquier momento, puedes seleccionar el origen del croquis y modificarlo, ca
 ==Trabajando con el Ambiente de trabajo Borrador y el Ambiente de trabajo Arquitectura==
 </div>
 
-<div class="mw-translate-fuzzy">
-El [[Draft_Workbench/es|Ambiente de trabajo Borrador]] y [[Arch_Workbench/es|Ambiente de trabajo Arquitectura]] se comportan un poco diferente que los otros bancos de trabajo de arriba, a pesar que ellos siguen las mismas reglas, las cuales son comunes de todo FreeCAD. En breve, mientras el Boceto y diseño de parte están hechas primeramente para diseñar piezas sencillas, borrador y arquitectura son hechos para facilitar tu trabajo cuando están trabajando con varios, objetos sencillos.
-</div>
+El [[Draft_Workbench/es|Ambiente de trabajo Borrador]] así como el [[Arch_Workbench/es|Ambiente de trabajo Arquitectura]] se comportan de una manera ligeramente diferente a los otros bancos de trabajo anteriores, a pesar de seguir las mismas reglas, las cuales son comunes en todo el programa. Mientras el Bocetador (Sketcher) y el Banco de Diseño de Partes (PartDesing) están concebidos en primera instancia para diseñar piezas sencillas, Borrador (Draft_Workbench) y arquitectura (BIM_Workbench) están diseñados para facilitar su trabajo cuando esté trabajando con varios objetos sencillos simultáneamente.
 
 El [[Draft_Workbench/es|Ambiente de trabajo Borrador]] le ofrece herramientas 2D un poco similares a las que puede encontrar en aplicaciones CAD 2D tradicionales como [https://en.wikipedia.org/wiki/AutoCAD AutoCAD]. Sin embargo, el dibujo en 2D está muy lejos del alcance de FreeCAD, no espere encontrar allí la gama completa de herramientas que ofrecen estas aplicaciones dedicadas. La mayoría de las herramientas Borrador funcionan no solo en un plano 2D sino también en el espacio 3D completo, y se benefician de los sistemas auxiliares especiales tales como [[Draft_SelectPlane/es |Planos de trabajo]] y [[Draft_Snap/es |Atrapar objeto]].
 
