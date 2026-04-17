@@ -41,13 +41,14 @@ Los bocetos tienen un modo de edición que permite modificar su geometría y res
 
 [[Image:FreeCAD_Exercise1_re_UC.png]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Now, let's add three more constraints:
-** Activate the [[Image:Sketcher_Dimension.svg|16px]] [[Sketcher_Dimension|automatic dimension]] tool, select one of the vertical segments, and set its length to 23.7 mm.
-** With the tool still active, select one the horizontal segments, and set its length to 47.7 mm.
-** Activate the [[Image:Sketcher_ConstrainSymmetric.svg|16px]] [[Sketcher_ConstrainSymmetric|symmetry constraint]] tool, select the upper left corner point of the rectangle, then the lower right corner point, and finally the origin point (the dot where the red and green axes intersect). This ensures the rectangle stays centered on the origin, limiting its range of movement and providing symmetry across the two axes.
-* You will now notice that our rectangle has turned green, indicating that it is fully constrained. This means every aspect of the sketch, including its position, size, and shape, is now fully defined and locked in place. It is generally a good practice to ensure that sketches are fully constrained, as this helps maintain control over your design and prevents unintended changes during further operations.
-</div>
+* Ahora, agreguemos tres restricciones más:
+** Active la herramienta [[Image:Sketcher_Dimension.svg|16px]] [[Sketcher_Dimension|acotación automática]], seleccione uno de los segmentos verticales y establezca su longitud en 23,7 mm.
+
+** Con la herramienta aún activa, selecciona uno de los segmentos horizontales y establece su longitud en 47,7 mm.
+
+** Activa la herramienta [[Image:Sketcher_ConstrainSymmetric.svg|16px]] [[Sketcher_ConstrainSymmetric|restricción de simetría]], selecciona el punto de la esquina superior izquierda del rectángulo, luego el punto de la esquina inferior derecha y, finalmente, el punto de origen (el punto donde se cruzan los ejes rojo y verde). Esto asegura que el rectángulo permanezca centrado en el origen, limitando su rango de movimiento y proporcionando simetría entre los dos ejes.
+
+* Ahora comprobará que el rectángulo se ha vuelto verde, lo que indica que está completamente restringido. Esto significa que cada aspecto del boceto, incluyendo su posición, tamaño y forma, está ahora completamente definido y fijo. Generalmente, es recomendable asegurarse de que los bocetos estén completamente restringidos, ya que esto ayuda a mantener el control sobre el diseño y evita cambios no deseados durante las operaciones posteriores.
 
 [[Image:FreeCAD_Exercise1_re.png]]
 
