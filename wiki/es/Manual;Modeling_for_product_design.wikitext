@@ -52,10 +52,9 @@ Los bocetos tienen un modo de edición que permite modificar su geometría y res
 
 [[Image:FreeCAD_Exercise1_re.png]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Our base sketch is now ready, we can leave edit mode by pressing the '''Close''' button on top of its task panel, or simply by pressing the '''Escape''' key. If needed later on, we can reenter edit mode anytime by double-clicking the sketch in the tree view, or by right-clicking and pressing on the edit sketch option.
-* Let's extrude it by using the [[Image:PartDesign_Pad.svg|16px]] [[PartDesign_Pad|Pad]] tool, and giving it a distance of 14.4 mm. The other options can be left at their default values:
-</div>
+Nuestro boceto base ya está listo para la siguiente fase de diseño. Podemos salir del modo de edición pulsando el botón "Cerrar" en la parte superior del panel de tareas o simplemente pulsando la tecla "Escape". Si fuera necesario, podemos volver a entrar en el modo de edición en cualquier momento haciendo doble clic en el boceto en la vista de árbol o haciendo clic con el botón derecho y seleccionando la opción "Editar boceto".
+
+Vamos a extruirlo usando la herramienta [[Image:PartDesign_Pad.svg|16px]] [[PartDesign_Pad|Pad]] y asignándole una distancia de 14,4 mm para el grosor. Las demás opciones pueden dejarse con sus valores predeterminados.
 
 [[File:FreeCAD_Exercise1_padding.png]]
 
