@@ -77,8 +77,9 @@ Este flujo de trabajo mediante teclado acelera el dibujo, especialmente al traba
 
 [[Image:Exercise_cabin_03.jpg]]
 
-* That is all we need now, so we can switch construction mode off. Check that all the construction geometry has been placed into a "Construction" group, which makes it easy to hide it all at once or even delete it completely later on.
-* Now let's draw our two wall pieces using the [[Image:Draft_Wire.svg|16px]] [[Draft_Wire|Wire]] tool. Make sure the [[Image:Draft_Snap_Intersection.svg|16px]] [[Draft_Snap|intersection snap]] is turned on, as we will need to snap to the intersections of our lines and rectangles. Draw two wires as follows, by clicking all the points of their contours. To close them, either click on the first point again or press the '''Close''' button:
+Eso es todo lo que necesitamos ahora para desactivar el modo de construcción. Compruebe que toda la geometría de construcción se haya colocado en un grupo de "Construcción", lo que facilita ocultarla de una vez o incluso eliminarla por completo más adelante.
+
+Ahora vamos a dibujar nuestras dos piezas de pared usando la herramienta [[Image:Draft_Wire.svg|16px]] [[Draft_Wire|Cable]]. Asegúrese de que la opción [[Image:Draft_Snap_Intersection.svg|16px]] [[Draft_Snap|Ajuste de intersección]] esté activada, ya que necesitaremos ajustarnos a las intersecciones de nuestras líneas y rectángulos. Dibuje dos polilíneas como se muestra a continuación, haciendo clic en todos los puntos de sus contornos. Para cerrarlos, haga clic de nuevo en el primer punto o pulse el botón '''Cerrar''':
 
 [[Image:Exercise_cabin_04.jpg]]
 
