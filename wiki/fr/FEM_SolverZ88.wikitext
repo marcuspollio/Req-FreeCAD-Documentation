@@ -52,7 +52,6 @@ Pour utiliser le solveur Z88, il faut installer la version open source de Z88 (Z
 <span id="Properties"></span>
 == Propriétés ==
 
-<div class="mw-translate-fuzzy">
 * {{PropertyData|Exclude Bending Stiffness}} : remplace les poutres par des treillis. Cette option est actuellement toujours cochée car les poutres ne sont pas encore prises en charge.
 * {{PropertyData|Model Space}} :
 ** 3D : utilise des éléments de coque 3D
@@ -61,8 +60,8 @@ Pour utiliser le solveur Z88, il faut installer la version open source de Z88 (Z
 ** plate : utilise des éléments de plaque 3D
 * {{PropertyData|Shell Flag}} : valeur IHFLAG : 2 ou 3 pour les coques minces et 4 pour les coques très minces
 * {{PropertyData|Analysis Type}} :
-** static
-** test
+** static : analyse statique linéaire classique
+** test : fournit des informations sur les paramètres du solveur. Ces informations sont chargées dans l'objet document texte.
 * {{PropertyData|Displace Mesh}} : déforme le maillage selon le champ de déplacement
 * {{PropertyData|Integration Order Hexa}} : ordre d'intégration du déplacement pour les éléments hexa
 * {{PropertyData|Integration Order Quad}} : ordre d'intégration du déplacement pour les éléments quad
@@ -78,7 +77,6 @@ Pour utiliser le solveur Z88, il faut installer la version open source de Z88 (Z
 ** sorcg : solveur SORCG itératif pour matrices creuses recommandé pour les grandes structures
 ** siccg : solveur SICCG itératif pour matrices creuses recommandé pour les grandes structures
 * {{PropertyData|Vector Maximum}} : valeur MAXKOI : nombre maximal d'entrées dans le vecteur de coïncidence
-</div>
 
 <span id="Supported_finite_element_types"></span>
 == Types d'éléments finis pris en charge ==
