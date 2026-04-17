@@ -32,9 +32,7 @@ Schreibt die vordefinierten Flächen-Ausgabevariablen (Kräfte und Momente) in d
 
 {{Version/de|1.2}}: Kann auch den elektrischen Fluss in elektrostatischen Analysen mit dem überarbeiteten CalculiX-Löser drucken. Zusätzlich zu Flächen können auch Kanten ausgewählt werden (sie entsprechen Flächen in 2D-Modellen).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.2}}: Section forces can be also printed when using the Z88 solver.
-</div>
+{{Version/de|1.2}}: Bei Verwendung des Z88-Lösers können auch Querschnittskräfte ausgegeben werden.
 
 <span id="Usage"></span>
 ==Anwendung==
