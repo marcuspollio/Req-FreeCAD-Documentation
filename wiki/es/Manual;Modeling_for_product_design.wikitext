@@ -140,9 +140,7 @@ Vamos a extruirlo usando la herramienta [[Image:PartDesign_Pad.svg|16px]] [[Part
 
 [[File:FreeCAD_Exercise1_redBrick2.png]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You may notice that the modeling history in the tree view has become quite extensive. This is incredibly valuable, as it allows us to revisit and modify any step in the design process at any time. For instance, adapting this model to create a 2x2 brick instead of a 2x4 would be a breeze—just a few adjustments to the dimensions and pattern occurrences would do the trick. This same flexibility allows us to design larger, custom pieces that aren't part of the original Lego set. The parametric nature of FreeCAD makes it easy to modify existing models, giving us full control to adapt or expand the design as needed.
-</div>
+Es posible que observe que el historial de modelado en la vista de árbol se ha vuelto bastante extenso. Esto es sumamente valioso, ya que nos permite revisar y modificar cualquier paso del proceso de diseño en cualquier momento. Por ejemplo, adaptar este modelo para crear un ladrillo de 2x2 en lugar de uno de 2x4 sería muy sencillo: bastarían unos pocos ajustes en las dimensiones y la frecuencia de aparición de los patrones. Esta misma flexibilidad nos permite diseñar piezas personalizadas de mayor tamaño que no forman parte del set original de Lego. La naturaleza paramétrica de FreeCAD facilita la modificación de los modelos existentes, lo que nos brinda un control total para adaptar o ampliar el diseño según sea necesario.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 But we could also want to get rid of the history, for example, if we are going to model a castle with this brick, and we don't want to have this whole history repeated 500 times in our file.
