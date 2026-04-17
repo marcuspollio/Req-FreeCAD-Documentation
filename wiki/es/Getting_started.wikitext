@@ -64,7 +64,7 @@ FreeCAD tiene tres [[Mouse_navigation/es|Modos de navegación]] diferentes dispo
 También tiene varias vistas preconfiguradas (vista superior, vista frontal, etc.) disponibles en el menú Ver, en la barra de herramientas Ver, y, por atajos numéricos ({{KEY|1}}, {{KEY|2}}, etc...). Haciendo clic con el botón derecho sobre un objeto o sobre un área vacía de la vista 3D, tiene acceso directo a algunas operaciones comunes, tales como configurar una vista particular, o localizar un objeto en la vista de árbol.
 
 <span id="First_steps_with_FreeCAD"></span>
-==Primeros paso con FreeCAD==
+==Primeros pasos con FreeCAD==
 
 El enfoque de FreeCAD es permitirte hacer modelos 3D de alta presición, para mantener un control ajustado sobre estos modelos(ser capaz de retroceder dentro del historial de modelado y cambiar parametros), y eventualmente construir estos modelos (impresion 3D, mecanizado CNC o incluso sitio de construción). Es por lo tanto muy diferente de algunas otras aplicaciones 3D hechas para otros propositos, tal como animacion o juegos.
 Su curva de aprendizaje puede ser doloroza, especialmente si este es tu primer contacto con modelado 3D. Si esta atorado en algun punto, no olvides que la amigable comunidad de usuarios en el [http://forum.freecad.org/index.php Foro de FreeCAD] podrian sacarte en poco tiempo.
