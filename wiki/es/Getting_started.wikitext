@@ -98,9 +98,7 @@ El cual te da un objeto como este:
 En cualquier momento, puedes seleccionar el origen del croquis y modificarlo, cambiando los parámetros de extrusión en la plataforma, así como la profundidad de las operaciones de vaciado, las cuales se actualizarán en el objeto final.
 
 <span id="Working_with_the_Draft_and_BIM_workbenches"></span>
-<div class="mw-translate-fuzzy">
-==Trabajando con el Ambiente de trabajo Borrador y el Ambiente de trabajo Arquitectura==
-</div>
+==Trabajando en el Ambiente de trabajo Borrador y el Ambiente de trabajo Arquitectura==
 
 El [[Draft_Workbench/es|Ambiente de trabajo Borrador]] así como el [[Arch_Workbench/es|Ambiente de trabajo Arquitectura]] se comportan de una manera ligeramente diferente a los otros bancos de trabajo anteriores, a pesar de seguir las mismas reglas, las cuales son comunes en todo el programa. Mientras el Bocetador (Sketcher) y el Banco de Diseño de Partes (PartDesing) están concebidos en primera instancia para diseñar piezas sencillas, Borrador (Draft_Workbench) y arquitectura (BIM_Workbench) están diseñados para facilitar su trabajo cuando esté trabajando con varios objetos sencillos simultáneamente.
 
