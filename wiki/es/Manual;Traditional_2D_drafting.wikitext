@@ -13,15 +13,20 @@ El entorno de trabajo Draft Workbench de FreeCAD actúa como puente entre el dib
 
 Una de las ventajas de Draft Workbench es su completo conjunto de herramientas, que incluye tanto herramientas básicas de dibujo como herramientas avanzadas de modificación. Estas herramientas se pueden usar no solo para dibujar en 2D, sino también para manipular objetos en el espacio 3D. Puede establecer planos de trabajo, definir cuadrículas y aplicar restricciones para garantizar que las relaciones geométricas se mantengan intactas en todo el diseño. Los objetos de dibujo se pueden modificar y recolocar mediante modos de ajuste y diversas restricciones, lo que facilita enormemente el dibujo preciso.
 
-Some of the tools found in the Draft Workbench:
-# Drawing Tools:
-* [[Image:Draft_Line.svg|16px]] [[Draft_Line|Line]],  [[Image:Draft_Wire.svg|16px]] [[Draft_Wire|Wire]] (polyline): These tools allow for creating straight line segments or continuous polylines, which can be constrained and converted into 3D shapes.
-*[[Image:Draft_Circle.svg|16px]] [[Draft_Circle|Circle]], [[Image:Draft_Ellipse.svg|16px]] [[Draft_Ellipse|Ellipse]], and [[Image:Draft_Arc.svg|16px]] [[Draft_Arc|Arc]]: Used to define basic circular and elliptical shapes, with options for further manipulation.
-# Manipulation Tools:
-* [[Image:Draft_Move.svg|16px]] [[Draft_Move|Move]], [[Image:Draft_Rotate.svg|16px]] [[Draft_Rotate|Rotate]] or [[Image:Draft_Scale.svg|16px]] [[Draft_Scale|Scale]]: These operations work in 3D as well as 2D, offering flexibility in positioning objects.
-* [[Image:Draft_Offset.svg|16px]] [[Draft_Offset|Offset]]:  Similar to traditional CAD systems, this allows you to create parallel lines or curves.
-* [[Image:Draft_Trimex.svg|16px]] [[Draft_Trimex|Trimex]] and [[Image:Draft_Stretch.svg|16px]] [[Draft_Stretch|Stretch]]: Modify lines and shapes by trimming or extending them to intersect or meet other objects.
-* [[Image:Draft_Mirror.svg|16px]] [[Draft_Mirror|Mirror]] and [[Image:Draft_Array.svg|16px]] [[Draft_Array|Array]]: These tools replicate and pattern objects, ideal for repetitive components.
+Algunas de las herramientas que se encuentran en el Entorno de Trabajo Draft:
+# Herramientas de Dibujo:
+* [[Image:Draft_Line.svg|16px]] [[Draft_Line|Line]], [[Image:Draft_Wire.svg|16px]] [[Draft_Wire|Wire]] (polilínea): Estas herramientas permiten crear segmentos de línea recta o polilíneas continuas, que se pueden restringir y convertir en formas 3D.
+
+*[[Image:Draft_Circle.svg|16px]] [[Draft_Circle|Círculo]], [[Image:Draft_Ellipse.svg|16px]] [[Draft_Ellipse|Elipse]] y [[Image:Draft_Arc.svg|16px]] [[Draft_Arc|Arco]]: Se utilizan para definir formas circulares y elípticas básicas, con opciones para su posterior manipulación.
+
+# Herramientas de manipulación:
+* [[Image:Draft_Move.svg|16px]] [[Draft_Move|Mover]], [[Image:Draft_Rotate.svg|16px]] [[Draft_Rotate|Rotar]] o [[Image:Draft_Scale.svg|16px]] [[Draft_Scale|Escalar]]: Estas operaciones funcionan tanto en 3D como en 2D, ofreciendo flexibilidad en el posicionamiento de objetos.
+
+* [[Image:Draft_Offset.svg|16px]] [[Draft_Offset|Desplazar]]: De forma similar a los sistemas CAD tradicionales, permite crear líneas o curvas paralelas.
+
+* [[Image:Draft_Trimex.svg|16px]] [[Draft_Trimex|Trimex]] y [[Image:Draft_Stretch.svg|16px]] [[Draft_Stretch|Estirar]]: Modifica líneas y formas recortándolas o extendiéndolas para que se intersecten o se encuentren con otros objetos.
+
+* [[Image:Draft_Mirror.svg|16px]] [[Draft_Mirror|Mirror]] y [[Image:Draft_Array.svg|16px]] [[Draft_Array|Matriz]]: Estas herramientas replican y crean patrones de objetos, ideales para componentes repetitivos.
 
 The snapping system in FreeCAD’s Draft Workbench is designed for precision. Whether working in 2D or 3D, you can snap to critical points like endpoints, midpoints, and centers of circles, making it easy to position elements relative to one another. Modes such as perpendicular, tangent, and intersection snapping further enhance precision. Combined with the working plane and grid system, these tools ensure the accurate alignment of objects and components.
 
