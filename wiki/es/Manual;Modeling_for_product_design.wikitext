@@ -142,9 +142,7 @@ Vamos a extruirlo usando la herramienta [[Image:PartDesign_Pad.svg|16px]] [[Part
 
 Es posible que observe que el historial de modelado en la vista de árbol se ha vuelto bastante extenso. Esto es sumamente valioso, ya que nos permite revisar y modificar cualquier paso del proceso de diseño en cualquier momento. Por ejemplo, adaptar este modelo para crear un ladrillo de 2x2 en lugar de uno de 2x4 sería muy sencillo: bastarían unos pocos ajustes en las dimensiones y la frecuencia de aparición de los patrones. Esta misma flexibilidad nos permite diseñar piezas personalizadas de mayor tamaño que no forman parte del set original de Lego. La naturaleza paramétrica de FreeCAD facilita la modificación de los modelos existentes, lo que nos brinda un control total para adaptar o ampliar el diseño según sea necesario.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-But we could also want to get rid of the history, for example, if we are going to model a castle with this brick, and we don't want to have this whole history repeated 500 times in our file.
-</div>
+Pero también podríamos querer eliminar el historial, por ejemplo, si vamos a modelar un castillo con este ladrillo y no queremos que todo este historial se repita 500 veces en nuestro archivo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 There are two simple ways to get rid of the history, one is using the [[Part_SimpleCopy|Create simple copy]] tool from the [[Part_Workbench|Part Workbench]], which will create a copy of our piece that doesn't depend anymore on the history (you can delete the whole history afterwards), the other way is exporting the piece as a STEP file and re-importing it.
