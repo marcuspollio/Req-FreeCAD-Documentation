@@ -55,10 +55,11 @@ Para mostrar el flujo de trabajo y las posibilidades de Draft Workbench, realiza
 
 Comencemos por definir la forma básica de nuestro plano.
 
-* Press the [[Image:Draft_Rectangle.svg|24px]] '''Draft Rectangle''' button
-* Draw a 2-meter by 2-meter rectangle starting from point (0,0,0), leave the Z coordinate at zero. You can efficiently complete this entire process using the keyboard, without needing the mouse. Simply type:
-** '''re''', '''Enter''',  '''Enter''',  '''Enter''',  2m, '''Enter''',  2m, '''Enter''',  0 and '''Enter'''.
-This keyboard-driven workflow speeds up drafting, especially when working with repetitive tasks or precision input, making it ideal for users looking to streamline their workflow. You can view the keystrokes for every object by hovering over the corresponding button.
+* Pulse el botón [[Image:Draft_Rectangle.svg|24px]] '''Dibujo de rectángulo'''
+* Dibuje un rectángulo de 2 metros x 2 metros partiendo del punto (0,0,0), dejando la coordenada Z en cero. Puede completar todo este proceso de forma eficiente usando el teclado, sin necesidad del ratón. Simplemente escriba:
+** '''re''', '''Intro''', '''Intro''', '''Intro''', 2m, '''Intro''', 2m, '''Intro''', 0 y '''Intro'''.
+
+Este flujo de trabajo mediante teclado acelera el dibujo, especialmente al trabajar con tareas repetitivas o que requieren precisión, lo que lo hace ideal para usuarios que buscan optimizar su flujo de trabajo. Puede ver las pulsaciones de teclas de cada objeto al pasar el cursor sobre el botón correspondiente.
 
 * Duplicate that rectangle by 15cm inside, using the [[Image:Draft_Offset.svg|16px]] [[Draft_Offset|Offset]] tool, turning its Copy mode on, and giving it a distance of 15cm:
 
