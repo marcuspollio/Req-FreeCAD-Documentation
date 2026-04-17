@@ -297,6 +297,7 @@ ToDo (last check: 20260412):
 == Spreadsheet Workbench == <!--T:53-->
 
 === Further Spreadsheet improvements === <!--T:54-->
+* The color picker was redesigned and has two buttons - for custom colors and for resetting. [https://github.com/FreeCAD/FreeCAD/pull/28698 Pull request #28698]
 
 == Surface Workbench == <!--T:55-->
 
