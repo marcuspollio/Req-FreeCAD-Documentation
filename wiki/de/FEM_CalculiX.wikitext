@@ -39,12 +39,16 @@ Die CalculiX-Schnittstelle unterstützt die folgenden Objekte:
 <span id="Finite_elements"></span>
 === Finite Elemente ===
 
-<div class="mw-translate-fuzzy">
-* Tet4 und Tet10
-* S3 und S6
-* B31 und B32
-* und die in [[FEM_Mesh_CalculiX/de|FEM Mesh CalculiX]] beschriebenen
-</div>
+* 3D-Festkörper: 
+** tetraedrisch: C3D4, C3D10
+** hexaedrisch: C3D8(R), C3D20(R)
+* 3D-Schalen- und Membranstrukturen:
+** dreieckig: S3, S6, M3D3, M3D6
+** viereckig: S4(R), S8(R), M3D4(R), M3D8(R)
+* 2D-Ebenenbeanspruchung, Ebenenverformung und achsensymmetrisch:
+** dreieckig: CPS3, CPS6, CPE3, CPE6, CAX3, CAX6
+** viereckig: CPS4(R), CPS8(R), CPE4(R), CPE8(R), CAX4(R), CAX8(R)
+* 3D-Balken und Fachwerk: B31(R), B32(R), T3D2, T3D3
 
 Weitere Informationen zu den unterstützten CalculiX-Elementen sind auf der Seite [[FEM_Mesh_CalculiX/de|FEM Netz CalculiX]] zu finden.
 
