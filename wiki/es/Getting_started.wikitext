@@ -110,9 +110,7 @@ El [[Draft_Workbench/es|Ambiente de trabajo Borrador]] le ofrece herramientas 2D
 El [[Arch_Workbench/es|Ambiente de trabajo Arquitectura]] agrega herramientas [https://es.wikipedia.org/wiki/Modelado_de_informaci%C3%B3n_de_construcci%C3%B3n modelado de información de construcción (BIM)] a FreeCAD, lo que le permite construir modelos arquitectónicos con objetos paramétricos. El Ambiente de trabajo Arquitectura se basa mucho en otros módulos, como Borrador y Croquizador. Todas las herramientas de borrador están también presentes en el ambiente de trabajo de Arquitectura, y la mayoría de las herramientas de Arquitectura hacen uso de los sistemas de ayuda de Borrador.
 </div>
 
-<div class="mw-translate-fuzzy">
 Un flujo de trabajo típico con los ambientes de trabajo Arquitectura y Borrador podría ser:
-</div>
 
 # Dibujar un par de líneas con la herramienta línea de Borrador
 # Seleccionar cada línea y presionar la herramienta Muro para construir un muro en cada una de ellas
