@@ -53,7 +53,7 @@ Para mostrar el flujo de trabajo y las posibilidades de Draft Workbench, realiza
 
 * Si lo prefiere, puede establecer el plano de trabajo en XY. Esto bloqueará el plano de trabajo, asegurando que permanezca en el plano XY, independientemente de cómo cambie la vista. Si decide no hacerlo, el plano de trabajo se adaptará automáticamente a la vista actual, por lo que deberá asegurarse de estar en la vista superior siempre que desee dibujar en el plano XY (suelo) para evitar cambios de orientación involuntarios.
 
-Let's begin laying out the basic shape of our floorplan.
+Comencemos por definir la forma básica de nuestro plano.
 
 * Press the [[Image:Draft_Rectangle.svg|24px]] '''Draft Rectangle''' button
 * Draw a 2-meter by 2-meter rectangle starting from point (0,0,0), leave the Z coordinate at zero. You can efficiently complete this entire process using the keyboard, without needing the mouse. Simply type:
