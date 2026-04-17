@@ -9,7 +9,6 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommandContainer
 |
 {{GuiCommand/fr
@@ -21,10 +20,9 @@
 |SeeAlso=
 }}
 {{GuiCommandFemInfo/fr
-|Solvers=CalculiX
+|Solvers=CalculiX, Z88
 }}
 }}
-</div>
 
 ==Description==
 
