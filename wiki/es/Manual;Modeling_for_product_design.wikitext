@@ -27,9 +27,7 @@ Un boceto se considera completamente restringido cuando cada punto está fijado 
 
 Agregar las restricciones adecuadas es clave para crear un modelo paramétrico estable. Al equilibrar cuidadosamente las restricciones, puede modificar o ajustar los bocetos fácilmente sin alterar la geometría. Este control convierte al Diseñador de Piezas (Part Design Workbench) en una potente herramienta para el modelado paramétrico preciso, especialmente para tareas como la impresión 3D, donde mantener las relaciones geométricas correctas es fundamental para producir piezas funcionales y precisas.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Sketches have an edit mode, where their geometry and constraints can be changed. When you are done with editing, and leave edit mode, sketches behave like any other FreeCAD object, and can be used as building blocks for all the Part Design tools, but also in other workbenches, such as [[Part_Workbench|Part]] or [[Arch_Workbench|Arch]]. The [[Draft_Workbench|Draft workbench]] also has a tool that converts Draft objects to Sketches, and vice-versa.
-</div>
+Los bocetos tienen un modo de edición que permite modificar su geometría y restricciones. Una vez finalizada la edición y tras salir de este modo, los bocetos se comportan como cualquier otro objeto de FreeCAD y pueden utilizarse como bloques de construcción para todas las herramientas de diseño de piezas, así como en otros entornos de trabajo, como [[Part_Workbench|Part]] o [[Arch_Workbench|Arch]]. El entorno de trabajo [[Draft_Workbench|Draft workbench]] también incluye una herramienta que convierte objetos Draft en bocetos y viceversa.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Switch to the [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Workbench]].
