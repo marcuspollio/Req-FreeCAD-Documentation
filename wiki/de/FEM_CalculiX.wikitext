@@ -60,10 +60,8 @@ Weitere Informationen zu den unterstützten CalculiX-Elementen sind auf der Seit
 <span id="Materials"></span>
 ===Materialien===
 
-<div class="mw-translate-fuzzy">
-* Linear elastische isotrope Materialien (Gleichförmigkeit in allen Richtungen)
-* Plastizität mit isotroper Verfestigung
-</div>
+* Linear elastische isotrope Materialien (gleichförmige Eigenschaften in allen Richtungen)
+* Plastizität mit isotroper oder kinematischer Verfestigung
 
 <span id="Postprocessing_interface"></span>
 == Preprocessing-Schnittstelle ==
