@@ -153,6 +153,8 @@ ToDo (last check: 20260412):
 * A cooling feature was added to the Kinetic postprocessor. [https://github.com/FreeCAD/FreeCAD/pull/25022 Pull request #25022]
 * The ''Units'' (Metric/Imperial) property was added to ToolBits. [https://github.com/FreeCAD/FreeCAD/pull/25783 Pull request #25783]
 * The [[CAM_SimulatorGL|new CAM simulator]] now uses the same ortho/perspective view mode and navigation style as the [[3D_View|3D View]]. [https://github.com/FreeCAD/FreeCAD/pull/23073 Pull request #23073]
+* The [[CAM_Pocket_Shape|Pocket]] operation can now handle horizontal edges in addition to faces. [https://github.com/FreeCAD/FreeCAD/pull/27750 Pull request #27750]
+* The ''Op Final Depth'' property of the [[CAM_Engrave|Engrave]] operation now has a better default value depending on stock and engraving shape. [https://github.com/FreeCAD/FreeCAD/pull/26543 Pull request #26543]
 
 == Draft Workbench == <!--T:27-->
 
