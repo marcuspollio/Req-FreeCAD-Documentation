@@ -15,7 +15,7 @@ El [[PartDesign_Workbench|PartDesign Workbench]] de FreeCAD es una herramienta v
 
 Una de las principales ventajas de PartDesign Workbench es su idoneidad para crear piezas para impresión 3D. Dado que las impresoras 3D requieren modelos sólidos y estancos, PartDesign Workbench garantiza que todas las características permanezcan dentro de un único cuerpo coherente. Esto elimina problemas comunes como huecos o caras superpuestas, que pueden causar problemas durante el proceso de laminado para impresión 3D. Una vez finalizado el diseño, puede exportar fácilmente el modelo como un archivo STL, un formato ampliamente compatible con impresoras 3D. Esto convierte a PartDesign Workbench en la opción ideal para crear objetos imprimibles de alta calidad, ya sea para prototipado, diseño de piezas funcionales o creación de modelos complejos para impresión 3D.
 
-Para ilustrar cómo funciona PartDesign Workbench, vamos a describir cómo modelar esta conocida pieza de [https://en.wikipedia.org/wiki/Lego Lego]. También puedes consultar el [[Basic_Part_Design_Tutorial_019|Tutorial básico de diseño de piezas 019]] si deseas probar con un objeto diferente.
+Para ilustrar cómo funciona PartDesign Workbench, vamos a describir cómo modelar esta conocida pieza de [https://en.wikipedia.org/wiki/Lego Lego]. También puedes consultar el [[Basic_Part_Design_Tutorial_019|Tutorial básico de Diseño de Piezas 019]] si deseas probar con un objeto diferente.
 
 [[File:FreeCAD_Exercise1_RedBrick.png]]
 
