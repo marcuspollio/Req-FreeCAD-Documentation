@@ -82,14 +82,14 @@ El entorno de trabajo PartDesign utiliza de manera intensiva y recurrente otro e
 Esas formas 2D creadas previamente en el bocetador se utilizan mucho en el entorno de trabajo de PartDesign, por ejemplo, para crear volúmenes 3D o para dibujar áreas en las caras del objeto que luego se ahuecarán a partir de su volumen principal. Se describe a continuación el flujo de trabajo usual de PartDesign:
 
 # Crear un boceto nuevo
-# Crea un dibujo con forma cerrada(asegurarse que todos los puntos están cerrados)
+# Dibujar un croquis con forma cerrada asegurándose que todos los puntos estén cerrados.
 # Cerrar el boceto
 # Expandir el boceto a un solido 3D utilizando la herramienta de rellenado.
-# Selecciona una cara del solido
-# Crea un segundo boceto (Esta vez sera dibujado sobre la cara seleccionada)
-# Dibuja una forma cerrada
-# Cierra el boceto
-# Crea un vaciado a partir  del segundo boceto, sobre el primer objeto
+# Seleccionar una cara del sólido
+# Crear un segundo boceto, (en esta ocasión se dibujaría sobre la cara seleccionada)
+# Dibujar una nueva forma cerrada
+# Cerrar el nuevo boceto
+# Aplicar un vaciado al segundo boceto del primer objeto
 
 El cual te da un objeto como este:
 
