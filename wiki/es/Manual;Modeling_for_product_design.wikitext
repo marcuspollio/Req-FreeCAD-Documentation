@@ -78,10 +78,9 @@ Vamos a extruirlo usando la herramienta [[Image:PartDesign_Pad.svg|16px]] [[Part
 
 [[File:FreeCAD_Exercise1_TopFaceSketch.png]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Notice how, once again, when you lock the position and dimension of everything in your sketch, it becomes fully constrained. This always keeps you on the safe side. You could change the first sketch now, everything we did afterwards would keep tight.
-* Leave edit mode, select this new sketch, and create a [[Image:PartDesign_Pad.svg|16px]] [[PartDesign_Pad|Pad]] of 2.7 mm:
-</div>
+* Observe cómo, una vez más, al bloquear la posición y las dimensiones de todo en su boceto, este queda completamente restringido. Esta manera de trabajar le mantiene a salvo. Podría modificar el primer boceto ahora y todo lo que se haga después se mantendrá sin cambios.
+
+* Salga del modo de edición, seleccione este nuevo boceto y cree una [[Image:PartDesign_Pad.svg|16px]] [[PartDesign_Pad|extrusión]] de 2,7 mm:
 
 [[File:FreeCAD_Exercise1_topCylPad.png]]
 
