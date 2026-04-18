@@ -274,9 +274,7 @@ Para controlar la disposición del conjunto mediante el ángulo entre la base y 
 
 Tenga en cuenta que un cambio en el tipo de articulación modificará la etiqueta de la articulación, pero no su nombre. En este caso, la etiqueta cambia a "Fija".
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To animate the assembly we can change the Rotation (Offset1.Angle) of the Fixed joint with Python code. Just copy-paste the following lines in the Python Console:
-</div>
+Para animar el ensamblaje podemos cambiar la rotación (Offset1.Angle) de la articulación fija con código Python. Simplemente copie y pegue las siguientes líneas en la consola de Python:
 
 {{Code|code=
 import math
