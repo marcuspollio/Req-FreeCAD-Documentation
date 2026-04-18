@@ -141,7 +141,7 @@ class DraftObject:
             self.Type = state
 }}
 
-All objects have a {{incode|TypeId}} property, but for [[scripted_objects|scripted objects]] this property is not useful, as it always refers to the parent C++ class, for example, [[Part_Part2DObject|{{incode|Part::Part2DObjectPython}}]] or [[Part_Feature|{{incode|Part::FeaturePython}}]]. Therefore, having this additional {{incode|Proxy.Type}} attribute in the class is useful to treat each object in a particular way.
+Todos los objetos tienen una propiedad {{incode|TypeId}}, pero para [[scripted_objects|scripted objects]] esta propiedad no es útil, ya que siempre se refiere a la clase C++ principal, por ejemplo, [[Part_Part2DObject|{{incode|Part::Part2DObjectPython}}]] o [[Part_Feature|{{incode|Part::FeaturePython}}]]. Por lo tanto, tener este atributo adicional {{incode|Proxy.Type}} en la clase es útil para tratar cada objeto de una manera particular.
 
 === Migrating the object ===
 
