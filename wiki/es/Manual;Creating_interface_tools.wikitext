@@ -109,7 +109,7 @@ panel = BoxTaskPanel()
  FreeCADGui.Control.showDialog(panel)
 }}
 
-Note that the widget created by '''PySideUic.loadUi''' is not specific to FreeCAD, it is a standard Qt widget that can be used with other Qt tools. For example, we could have shown a separate dialog box with it. Try this in the Python Console of FreeCAD (using the correct path to your .ui file of course):
+Tenga en cuenta que el widget creado por '''PySideUic.loadUi''' no es específico de FreeCAD, sino un widget estándar de Qt que se puede usar con otras herramientas de Qt. Por ejemplo, podríamos haber mostrado un cuadro de diálogo independiente con él. Pruebe esto en la consola de Python de FreeCAD (usando la ruta correcta a su archivo .ui, por supuesto):
 
 {{Code|code=
 from PySide import QtGui
