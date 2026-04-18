@@ -914,11 +914,11 @@ Seleccione el vértice inferior de la costura del cilindro en el Pistón y el v�
 
 * Conecte la propiedad de distancia de la articulación '''Distance''' con la propiedad '''Height''' del resorte usando una [[Expressions|expresión]]:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select the Spring in the [[Tree_View|Tree View]].
-# Select the blue icon [[Image:Bound-expression.svg|16px]] in the Height property field.
-# Enter in the expression editor: {{Incode|<<Distance>>.Distance}}
-</div>
+# Seleccione el resorte en la vista de árbol.
+
+# Seleccione el icono azul [[Image:Bound-expression.svg|16px]] en el campo de propiedad Altura.
+
+# Ingrese en el editor de expresiones: {{Incode|<<Distance>>.Distance}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Drive the shock absorber===
