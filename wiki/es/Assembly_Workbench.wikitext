@@ -272,9 +272,7 @@ El pasador de la biela deslizante tiene una orientación redundante. Su eje cent
 
 Para controlar la disposición del conjunto mediante el ángulo entre la base y la manivela, debemos cambiar la articulación de revolución entre ellas por una articulación fija. Para ello, haga doble clic en el objeto de revolución en la vista de árbol. En el cuadro de diálogo, cambie la articulación de revolución a fija y modifique el valor de rotación según sea necesario (el movimiento debe seguir la acción de la rueda del ratón).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Note that a joint type change will change the joint's Label, but not its Name. In this case the Label is changed to "Fixed".
-</div>
+Tenga en cuenta que un cambio en el tipo de articulación modificará la etiqueta de la articulación, pero no su nombre. En este caso, la etiqueta cambia a "Fija".
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To animate the assembly we can change the Rotation (Offset1.Angle) of the Fixed joint with Python code. Just copy-paste the following lines in the Python Console:
