@@ -129,7 +129,7 @@ Bien que l'exportation directe vers le format de fichier XML Kerkythea ne soit p
 : Open Source, disponible pour Windows, Linux et Mac OSX.
 : Il dispose d'outils de réparation standard qui vous permettront de réparer votre modèle dans la plupart des cas (combler les trous, réorienter les normales, etc.)
 * vous pouvez utiliser "make compound" puis "make single copy" ou vous pouvez fusionner des solides pour les regrouper avant de les convertir en maillages
-* N'oubliez pas de définir dans Kerkythea un facteur d'import de 0.001 pour obj-modeler, puisque Kerkythea s'attend à ce que le fichier obj soit en m (mais le schéma d'unités standard dans FreeCAD est mm)
+* N'oubliez pas de définir dans Kerkythea un facteur d'import de 0.001 pour obj-modeler, puisque Kerkythea s'attend à ce que le fichier obj soit en m (mais le système d'unités standard dans FreeCAD est mm)
 : Dans WIndows 7 Kerkythea 64 bits ne semble pas pouvoir enregistrer ces paramètres.
 : Alors rappelez-vous de le faire chaque fois que vous démarrez Kerkythea
 * Si vous importez plusieurs objets dans Kerkythea, vous pouvez utiliser la commande "Fichier → Fusionner" dans Kerkythea
