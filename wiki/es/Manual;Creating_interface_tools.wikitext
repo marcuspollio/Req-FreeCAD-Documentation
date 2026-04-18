@@ -55,7 +55,7 @@ Comencemos creando el widget. Inicie Qt Creator y luego vaya al menú '''Archivo
 
 [[Image:Exercise_python_09.jpg]]
 
-* Now our widget is done, we just need to make sure of one last thing. Since FreeCAD will need to access that widget and read the Length, Width and Height values, we need to give proper names to those widgets, so we can easily retrieve them from within FreeCAD. Click each of the Double Spin Boxes, and in the upper right window, double-click their Object Name, and change them to something easy to remember, for example: BoxLength, BoxWidth and BoxHeight:
+* Ahora que nuestro widget está listo, solo necesitamos asegurarnos de una última cosa. Dado que FreeCAD necesitará acceder a ese widget y leer los valores de Largo, Ancho y Alto, debemos darles nombres adecuados para poder recuperarlos fácilmente desde FreeCAD. Haga clic en cada uno de los cuadros de doble giro y, en la ventana superior derecha, haga doble clic en su Nombre de objeto y cámbielos por algo fácil de recordar, por ejemplo: BoxLength, BoxWidth y BoxHeight:
 
 [[Image:Exercise_python_10.jpg]]
 
