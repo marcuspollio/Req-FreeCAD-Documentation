@@ -91,7 +91,7 @@ Mediante el uso de alias de celda en el Entorno de Trabajo de Hojas de Cálculo 
 
 Por último, tenga en cuenta que las restricciones dentro de un boceto también pueden recibir el valor de una celda de una hoja de cálculo:
 
-You can also give aliases to dimensional constraints (horizontal, vertical or distance)  in a sketch (you can then use that value from outside the sketch as well):
+También puede asignar alias a las restricciones dimensionales (horizontales, verticales o de distancia) en un boceto (luego podrá usar ese valor posteriormente desde fuera del boceto):
 
 [[File:FreeCAD SpreedSheet Rectangle.png]]
 
