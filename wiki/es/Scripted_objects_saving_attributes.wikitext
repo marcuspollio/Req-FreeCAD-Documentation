@@ -143,7 +143,8 @@ class DraftObject:
 
 Todos los objetos tienen una propiedad {{incode|TypeId}}, pero para [[scripted_objects|scripted objects]] esta propiedad no es útil, ya que siempre se refiere a la clase C++ principal, por ejemplo, [[Part_Part2DObject|{{incode|Part::Part2DObjectPython}}]] o [[Part_Feature|{{incode|Part::FeaturePython}}]]. Por lo tanto, tener este atributo adicional {{incode|Proxy.Type}} en la clase es útil para tratar cada objeto de una manera particular.
 
-=== Migrating the object ===
+<span id="Migrating_the_object"></span>
+=== Migrando el objeto ===
 
 Version information can be stored inside the class in order to verify the origin of an object.
 
