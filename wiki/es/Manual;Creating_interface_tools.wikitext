@@ -96,7 +96,7 @@ En el código anterior, utilizamos la función auxiliar '''PySideUic.loadUi''' d
 
 La función "aceptar" es otra utilidad que ofrece Qt. Cuando hay un botón "Aceptar" en un cuadro de diálogo (como ocurre por defecto al usar el panel Tareas de FreeCAD), cualquier función llamada "aceptar" se ejecutará automáticamente al pulsarlo. Del mismo modo, se puede añadir una función "rechazar" que se ejecuta al pulsar el botón "Cancelar". En nuestro caso, omitimos esa función, por lo que al pulsar "Cancelar" se ejecutará el comportamiento predeterminado (no hacer nada y cerrar el cuadro de diálogo).
 
-If we implement any of the accept or reject functions, their default behaviour (do nothing and close) will not occur anymore. So we need to close the Task panel ourselves. This is done with:
+Si implementamos alguna de las funciones de aceptar o rechazar, su comportamiento predeterminado (no hacer nada y cerrar) ya no se producirá. Por lo tanto, debemos cerrar el panel de tareas manualmente. Esto se hace con:
 
 {{Code|code=
 FreeCADGui.Control.closeDialog() 
