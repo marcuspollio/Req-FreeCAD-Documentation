@@ -215,9 +215,7 @@ En lugar de realizar los dos pasos mencionados anteriormente, también es posibl
 
 Una unión conecta exactamente dos elementos de partes diferentes. Opcionalmente, se pueden seleccionar antes de activar la herramienta de unión deseada (si se seleccionan menos de dos elementos, la selección quedará vacía). Los elementos definen la posición y la orientación de un sistema de coordenadas local (LCS) representado por un círculo relleno en el plano XY local y tres líneas a lo largo de los ejes X (rojo), Y (verde) y Z (azul) locales.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* A Revolute joint between Base and Crank
-</div>
+* Una articulación de revolución entre la base y la manivela
 
 [[Image:Assembly_KinematicExample-05.png|200px]]
 [[Image:Button_right.svg|16px|link=]]
