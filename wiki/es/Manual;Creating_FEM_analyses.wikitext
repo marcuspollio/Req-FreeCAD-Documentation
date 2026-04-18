@@ -41,13 +41,21 @@ En esta sección, ilustraremos el procedimiento general de análisis de elemento
 
 Primero, crearemos nuestra geometría simple. Para ello, utilizaremos el entorno de trabajo [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign]].
 
-* Create a new document and go to the [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign]] workbench.
-* Press on [[Image:Sketcher_NewSketch.svg|16px]] [[Sketcher_NewSketch|New Sketch]] to create a new sketch on the YZ plane.
-* Create a [[Image:Sketcher_CreateRectangle_Center.svg|16px]] [[Sketcher_CreateRectangle_Center|centered rectangle]] around the origin point. 
-** Using the  [[Image:Sketcher_Dimension.svg|16px]] [[Sketcher_Dimension|Sketcher Dimension]] set the vertical dimension to '''20 mm''' and the horizontal to '''10 mm'''
-* Exit the sketch mode. 
-* By having selected our newly created sketch apply a [[Image:PartDesign_Pad.svg|16px]] [[PartDesign_Pad|padding]] operation with a length of '''1000 mm'''.
-* Our geometry is now ready. In this example, we’ve made the height (h) and width (b) of the beam much smaller than the length (L) to focus on how it bends. By doing this, we can make sure the beam behaves like a typical long, thin object where bending is the main effect when a force is applied. This setup also makes it easier to compare our results with simple formulas we can calculate by hand.
+* Cree un nuevo documento y vaya al Entorno de Trabajo [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign]].
+
+* Pulse [[Image:Sketcher_NewSketch.svg|16px]] [[Sketcher_NewSketch|Nuevo Boceto]] para crear un nuevo boceto en el plano YZ.
+
+* Genere un rectángulo centrado alrededor del punto de origen.
+
+** Con la herramienta [[Image:Sketcher_Dimension.svg|16px]] [[Sketcher_Dimension|Sketcher Dimension]], asigne la dimensión vertical de '''20 mm''' y la horizontal de '''10 mm'''.
+
+* Salga del modo de boceto.
+
+* Tras seleccionar nuestro boceto recién creado, se aplica una operación de relleno ([[Image:PartDesign_Pad.svg|16px]] [[PartDesign_Pad|padding]]) con una longitud de '''1000 mm'''.
+
+* Nuestra geometría ya está lista.
+
+En este ejemplo, hemos reducido considerablemente la altura (h) y el ancho (b) de la viga en comparación con su longitud (L) para centrarnos en su flexión. De esta forma, podemos asegurarnos de que la viga se comporta como un objeto largo y delgado típico, donde la flexión es el efecto principal al aplicar una fuerza. Esta configuración también facilita la comparación de nuestros resultados con fórmulas sencillas que podemos calcular manualmente.
 
 [[File:FreeCAD FEM BeamGeometry.png|600px]]
 
