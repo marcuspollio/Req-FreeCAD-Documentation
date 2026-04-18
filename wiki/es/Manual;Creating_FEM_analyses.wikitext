@@ -75,8 +75,10 @@ En este ejemplo, hemos reducido considerablemente la altura (h) y el ancho (b) d
 
 [[File:FreeCAD FEM Mesh.png|600px]]
 
-* We can now define the material to be applied to our mesh by pressing on the [[Image:FEM_MaterialSolid.svg|16px]] [[FEM_MaterialSolid|New Material]] option. The choice of material is crucial in any analysis, as different materials with varying properties will behave differently under the same conditions. Factors like strength, elasticity, and density play a significant role in how a material responds to forces, pressures, or temperatures. Selecting the appropriate material ensures accurate simulation results, reflecting how the object would react in real-world scenarios. 
-* A task panel will open to allow us to choose a material. In the Material drop-down list, choose the '''Steel-1C22''' material, and press the '''OK'''.
+Ahora podemos definir el material que se aplicará a nuestra malla pulsando la opción [[Image:FEM_MaterialSolid.svg|16px]] [[FEM_MaterialSolid|Nuevo material]].
+La elección del material es crucial en cualquier análisis, ya que diferentes materiales con propiedades variables se comportarán de manera distinta bajo las mismas condiciones. Factores como la resistencia, la elasticidad y la densidad influyen significativamente en cómo un material responde a fuerzas, presiones o temperaturas. Seleccionar el material adecuado garantiza resultados precisos en la simulación, que reflejen cómo reaccionaría el objeto en situaciones reales.
+
+Se abrirá un panel de tareas para que podamos elegir un material. En la lista desplegable '''Material''', seleccione el material '''Acero-1C22''' y pulse '''Aceptar'''.
 
 [[File:FreeCAD FEM material.png|600px]]
 
