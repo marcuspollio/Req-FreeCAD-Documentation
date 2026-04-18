@@ -574,9 +574,8 @@ Con la herramienta [[Image:Assembly_CreateAssembly.svg|24px]] [[Assembly_CreateA
 
 En la [[Tree_View|vista de árbol]], arrastre y suelte las piezas sobre el '''Objeto Ensamblaje'''. Ahora el solucionador del Ensamblaje puede procesarlas.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Ground a part===
-</div>
+<span id="Ground_a_part"></span>
+=== Pieza en tierra ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To keep the assembly at the desired position, the FixedJaw part should be locked, or grounded as it is called here. Select the FixedJaw in the [[Tree_View|Tree View]] or in the [[3D_View|3D View]] and use the [[Image:Assembly_ToggleGrounded.svg|24px]] [[Assembly_ToggleGrounded|Toggle Grounded]] tool. A GroundedJoint object is added to the Joints container.
