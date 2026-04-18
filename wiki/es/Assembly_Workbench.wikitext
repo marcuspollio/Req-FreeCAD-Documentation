@@ -185,9 +185,8 @@ Con la herramienta [[Image:Assembly_CreateAssembly.svg|24px]] [[Assembly_CreateA
 
 {{Caption|Vista en árbol de las piezas y el ensamblaje}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Move the parts into the assembly===
-</div>
+<span id="Move_the_parts_into_the_assembly"></span>
+=== Mover las piezas al conjunto ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In the [[Tree_View|Tree View]] drag and drop the parts on the Assembly object. They can now be handled by the Assembly's solver.
