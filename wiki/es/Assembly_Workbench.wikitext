@@ -231,9 +231,7 @@ Mueva la '''manivela''' con el botón izquierdo del ratón. Solo debería ser po
 [[Image:Button_right.svg|16px|link=]]
 [[Image:Assembly_KinematicExample-08.png|200px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Selected elements + [[Image:Assembly_CreateJointSlider.svg|24px]] [[Assembly_CreateJointSlider|Slider Joint]] → rearranged Slider Rod}}
-</div>
+{{Caption|Elementos seleccionados + [[Image:Assembly_CreateJointSlider.svg|24px]] [[Assembly_CreateJointSlider|Articulación del deslizador]] → Varilla del deslizador reorganizada}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Move the '''SliderRod''' using the left mouse button. Only a displacement along its centerline should be possible.
