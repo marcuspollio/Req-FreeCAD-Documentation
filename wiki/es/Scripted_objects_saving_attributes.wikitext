@@ -9,7 +9,8 @@ Los objetos con script se reconstruyen cada vez que se abre un documento FCStd. 
 
 Los atributos de la clase utilizada para crear el objeto también se pueden guardar, es decir, "serializar". Esto se puede controlar aún más mediante los métodos {{incode|dumps}} y {{incode|loads}} de la clase.
 
-== Saving all attributes ==
+<span id="Saving_all_attributes"></span>
+== Guardando todos los atributos ==
 
 By default, attributes saved in an object class are those from the {{incode|__dict__}} dictionary of the class.
 
