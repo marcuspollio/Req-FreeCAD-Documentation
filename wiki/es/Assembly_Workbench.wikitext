@@ -700,9 +700,7 @@ En este ejemplo se crea un [https://en.wikipedia.org/wiki/Shock_absorber amortig
 
 El conjunto consta de tres piezas sólidas: un pistón, un cilindro y un resorte. También se necesitan tres elementos no sólidos adicionales: dos ejes y una varilla. Todas las piezas están conectadas mediante varias articulaciones.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The hinge of the piston rotates around Axle2, while the hinge of the cylinder moves on an arc of circle centered on Axle1. The non solid Rod is used for this movement. The length of the Rod is the radius of the arc.
-</div>
+La bisagra del pistón gira alrededor del Eje 2, mientras que la bisagra del cilindro se mueve describiendo un arco de círculo centrado en el Eje 1. Para este movimiento se utiliza una varilla no sólida. La longitud de la varilla es igual al radio del arco.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Prepare parts===
