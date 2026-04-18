@@ -54,9 +54,7 @@ class Box:
         # Assign a Shape to obj
         obj.Shape = Part.makeBox(...)
 </syntaxhighlight>
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Without calling <code>positionBySupport</code>, our custom scripted object won't update it's position when the position of the attached-to object changes.
-</div>
+Sin llamar a <code>positionBySupport</code>, nuestro objeto con script personalizado no actualizará su posición cuando cambie la posición del objeto adjunto.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Full and Complete Minimal Example==
