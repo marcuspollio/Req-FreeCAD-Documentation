@@ -14,9 +14,8 @@ El siguiente GIF muestra cómo acoplar nuestra caja personalizada a un cilindro 
 
 '''NOTA:''' La caja es un objeto personalizado creado con nuestro script, y el cilindro es un objeto FreeCAD normal generado desde el Entorno de Trabajo de Piezas.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Making Scripted Objects Attachable==
-</div>
+<span id="Making_Scripted_Objects_Attachable"></span>
+==Cómo hacer que los objetos programados sean adjuntables==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Add Attach Extension===
