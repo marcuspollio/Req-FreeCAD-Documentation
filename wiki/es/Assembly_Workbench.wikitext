@@ -46,9 +46,8 @@ El [[Archivo:Workbench_Assembly.svg|24px]] [[Assembly_Workbench|Entorno de traba
 
 : Esta herramienta está dirigida a desarrolladores y no se incluirá en futuras versiones. (Ver [https://forum.freecad.org/viewtopic.php?p=812936#p812925 hilo del foro])
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Joints===
-</div>
+<span id="Joints"></span>
+=== Articulaciones ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Assembly_ToggleGrounded.svg|32px]] [[Assembly_ToggleGrounded|Toggle Grounded]]: fixes the position and orientation of a shape in relation to the coordinate system of the assembly it belongs to.
