@@ -128,8 +128,8 @@ Las siguientes dos referencias son específicas de PyQt (no de PySide) pero pued
 * [http://vizzzion.org/?id=pyqt Programación de aplicaciones Qt en python] : Un tutorial más profundo que cubre todo el proceso de trabajo con Qt y Python
 
 '''Pivy''' - Cómo interactuar con las escenas 3D de FreeCAD
-* [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.947&rep=rep1&type=pdf Pivy - Incorporación de un lenguaje guionización dinámico a una biblioteca de gráficos de escenas] : Tesis que explica Pivy en detalle
-* [http://ftp.ntua.gr/mirror/python/pycon/dc2004/papers/47/ Programación de gráficos 3D de alto nivel en Python] : Ejemplo de Pivy de Pycon 2004
+* [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.947&rep=rep1&type=pdf Pivy - Embedding a Dynamic Scripting Language into a Scene Graph Library] : Tesis que explica Pivy en detalle
+* [http://ftp.ntua.gr/mirror/python/pycon/dc2004/papers/47/ High Level 3D Graphics Programming in Python] : Ejemplo de Pivy de Pycon 2004
 * [https://www.semanticscholar.org/paper/Integrating-Pivy-into-Studierstube-4.2-Gruber/08c9a89c8326c87f81c2d83428029fbfb6c2ae64 Introducción de Pivy en studierstube] [https://www.researchgate.net/publication/228737136_Integrating_Pivy_into_Studierstube_42 (Mirror)] : Un artículo que no es realmente un tutorial, pero que ilustra bien cómo funciona Pivy (requiere una cuenta académica)
 
 <span id="Community_projects"></span>
