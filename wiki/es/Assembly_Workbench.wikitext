@@ -61,9 +61,7 @@ El [[Archivo:Workbench_Assembly.svg|24px]] [[Assembly_Workbench|Entorno de traba
 
 * [[Image:Assembly_CreateJointBall.svg|32px]] [[Assembly_CreateJointBall|Articulación esférica]]: Crea una articulación esférica entre dos piezas seleccionadas en un solo punto, permitiendo la rotación libre alrededor del punto mientras se mantienen ambas piezas conectadas en este punto.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Assembly_CreateJointDistance.svg|32px]] [[Assembly_CreateJointDistance|Distance Joint]]: creates a distance joint between two selected parts, fixing the distance between both parts.
-</div>
+* [[Image:Assembly_CreateJointDistance.svg|32px]] [[Assembly_CreateJointDistance|Unión de distancia]]: Crea una unión de distancia entre dos piezas seleccionadas, fijando la distancia entre ambas piezas.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Assembly_CreateJointParallel.svg|32px]] [[Assembly_CreateJointParallel|Parallel Joint]]: creates a parallel joint between two selected parts, setting the Z-Axes of selected coordinate systems parallel.
