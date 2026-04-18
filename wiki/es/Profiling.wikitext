@@ -29,9 +29,8 @@ Luego, visualice esta información con {{incode|kcachegrind}} para Linux o {{inc
 kcachegrind /tmp/callgrind.out
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Resources ==
-</div>
+<span id="Resources"></span>
+== Fuentes ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [https://docs.python.org/3/library/profile.html The Python profilers], {{incode|cProfile}} and {{incode|python}}.
