@@ -69,9 +69,7 @@ El [[Archivo:Workbench_Assembly.svg|24px]] [[Assembly_Workbench|Entorno de traba
 
 * [[Image:Assembly_CreateJointAngle.svg|32px]] [[Assembly_CreateJointAngle|Articulación angular]]: Crea una unión angular entre dos piezas seleccionadas, fijando el ángulo entre los ejes Z de los sistemas de coordenadas seleccionados.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Assembly_CreateJointRackPinion.svg|32px]] [[Assembly_CreateJointRackPinion|Rack and Pinion Joint]]: creates a rack and pinion joint that couples the translation of a part of a slider joint and the rotation of a part of a revolute joint.
-</div>
+* [[Image:Assembly_CreateJointRackPinion.svg|32px]] [[Assembly_CreateJointRackPinion|Articulación de cremallera y piñon]]: Crea una articulación de cremallera y piñón que acopla la traslación de una parte de una articulación deslizante y la rotación de una parte de una articulación de revolución.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Assembly_CreateJointScrew.svg|32px]] [[Assembly_CreateJointScrew|Screw Joint]]: creates a screw (helical) joint that couples the translation of a part of a slider joint and the rotation of a part of a revolute joint.
