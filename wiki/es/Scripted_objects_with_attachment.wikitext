@@ -20,9 +20,7 @@ El siguiente GIF muestra cómo acoplar nuestra caja personalizada a un cilindro 
 <span id="Add_Attach_Extension"></span>
 ===Agregar extensión adjunta===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-First, we need to add the <code>Part::AttachExtensionPython</code> extension to our <code>Part::FeaturePython</code> oject in the constructor, or <code>__init__</code> method, of our custom scripted object.
-</div>
+Primero, necesitamos agregar la extensión <code>Part::AttachExtensionPython</code> a nuestro objeto <code>Part::FeaturePython</code> en el constructor, o método <code>__init__</code>, de nuestro objeto de script personalizado.
 <syntaxhighlight lang="python" line='line'>
 class Box():
     """Custom Scripted Box Object"""
