@@ -187,7 +187,7 @@ Normalement, dans un script, vous pouvez utiliser Quantity pour tout genre de ca
 # FEM (mm, N, s)
 # Décimal métrique (m, m^2, m^3)
 
-La class Quantity a deux options d'utilisation pour la conversion réelle du schéma :
+La class Quantity a deux options d'utilisation pour la conversion réelle du système :
 
 {{Code|code=
 from FreeCAD import Units
