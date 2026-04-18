@@ -49,9 +49,7 @@ El [[Archivo:Workbench_Assembly.svg|24px]] [[Assembly_Workbench|Entorno de traba
 <span id="Joints"></span>
 === Articulaciones ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Assembly_ToggleGrounded.svg|32px]] [[Assembly_ToggleGrounded|Toggle Grounded]]: fixes the position and orientation of a shape in relation to the coordinate system of the assembly it belongs to.
-</div>
+* [[Image:Assembly_ToggleGrounded.svg|32px]] [[Assembly_ToggleGrounded|Alternar conexión a tierra]]: Fija la posición y orientación de una forma en relación con el sistema de coordenadas del ensamblaje al que pertenece.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Assembly_CreateJointFixed.svg|32px]] [[Assembly_CreateJointFixed|Fixed Joint]]: creates a joint locking two assembly parts together, preventing any movement or rotation but can be also used to define other types of joints.
