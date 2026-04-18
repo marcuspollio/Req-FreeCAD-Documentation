@@ -865,9 +865,7 @@ Las dos articulaciones siguientes son necesarias para forzar a la bisagra del ci
 
 {{Caption|[[Image:Assembly_CreateJointCylindrical.svg|24px]] [[Assembly_CreateJointCylindrical|Unión cilíndrica]] + Elementos seleccionados → Varilla reorganizada}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Make sure the Z-Axis of the coordinate system (blue) is perpendicular to the Rod by selecting an endpoint.
-</div>
+Asegúrese de que el eje Z del sistema de coordenadas (azul) sea perpendicular a la varilla seleccionando un punto final.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * A Revolute joint between Rod and Cylinder
