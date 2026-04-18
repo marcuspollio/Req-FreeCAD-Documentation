@@ -480,9 +480,7 @@ Si desea comprobar la situación en distintos ángulos de rotación, siga estos 
 
 En este ejemplo se crea un [https://en.wikipedia.org/wiki/Vise vise].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The assembly consists of three solid parts: a fixed and a movable jaw and a screw with a lever. One additional non solid element, a crank, is also needed. The crank and the solid parts are connected with several joints.
-</div>
+El conjunto consta de tres partes sólidas: una mordaza fija y otra móvil, y un tornillo con palanca. También se necesita un elemento no sólido adicional: una manivela. La manivela y las partes sólidas están conectadas mediante varias articulaciones.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 A Screw Joint couples the translation of a part with a Slider Joint to the rotation of a part with a Revolute Joint. The screw part shall make both a translation and a rotation movement hence it must be a part with a Cylindrical Joint. In this assembly, the screw part will be coupled to the movable jaw with a Distance Joint, to the non solid crank with a Parallel Joint, and to the fixed jaw with a Cylindrical Joint.
