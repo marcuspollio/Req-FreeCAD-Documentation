@@ -51,7 +51,7 @@ Comencemos creando el widget. Inicie Qt Creator y luego vaya al menú '''Archivo
 
 [[Image:Exercise_python_08.jpg]]
 
-* Now place 3 '''Double Spin Box''' widgets (under the Input Widgets section) next to our Length, Width and Height labels. For each of them, in the lower right panel, which shows all the available settings for the selected widget, locate '''Suffix''' and set their suffix to '''mm'''. FreeCAD has a more advanced widget, that can handle different units, but that is not available in Qt Creator by default (but can be [[Compile_on_Linux#Qt_designer_plugin|compiled]]), so for now we will use a standard Double Spin Box, and we add the "mm" suffix to make sure the user knows in which units they work:
+* Ahora coloque 3 widgets '''Double Spin Box''' (en la sección Widgets de entrada) junto a las etiquetas de Longitud, Ancho y Alto. Para cada uno de ellas, en el panel inferior derecho, que muestra todas las configuraciones disponibles para el widget seleccionado, localice '''Suffix''' y establezca su sufijo en '''mm'''. FreeCAD tiene un widget más avanzado que puede manejar diferentes unidades, pero que no está disponible en Qt Creator de forma predeterminada (pero se puede [[Compile_on_Linux#Qt_designer_plugin|compilar]]), así que por ahora usaremos un Double Spin Box estándar y agregaremos el sufijo "mm" para asegurarnos de que el usuario sepa en qué unidades trabaja:
 
 [[Image:Exercise_python_09.jpg]]
 
