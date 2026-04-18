@@ -596,9 +596,7 @@ Para mantener el ensamblaje en la posición deseada, la pieza FixedJaw debe esta
 [[Image:Button_right.svg|16px|link=]]
 [[Image:Assembly_ViseExample-05.png|200px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Selected elements + [[Image:Assembly_CreateJointSlider.svg|24px]] [[Assembly_CreateJointSlider|Slider Joint]] → rearranged MovableJaw}}
-</div>
+{{Caption|Elementos seleccionados + [[Image:Assembly_CreateJointSlider.svg|24px]] [[Assembly_CreateJointSlider|Articulación deslizante]] → rearranged MovableJaw}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Set the Min length to -77 mm and the Max length to -7 mm. This limits the opening of the vise to 70 mm.
