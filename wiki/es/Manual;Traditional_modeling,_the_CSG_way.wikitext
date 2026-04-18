@@ -92,7 +92,7 @@ Observará que los cilindros se extienden más allá de las patas de la mesa. Es
 
 Como puede observar, cada pata se describe ahora mediante una serie de operaciones múltiples anidadas en la vista de árbol. Toda la geometría que hemos creado sigue siendo paramétrica, y puede modificar cualquier parámetro de cualquiera de las operaciones anteriores en cualquier momento. En FreeCAD, nos referimos a esta serie como «historial de modelado», ya que registra el historial de las operaciones que hemos realizado. 
 
-Another particularity of FreeCAD is that the concept of 3D object and the concept of 3D operation tend to blend into one. "Cut" refers to an operation, and also to the 3D object resulting from this operation. In FreeCAD this is sometimes called a "feature", rather than "object" or "operation".
+Otra particularidad de FreeCAD es que los conceptos de objeto 3D y operación 3D tienden a fusionarse. "Cortar" se refiere tanto a una operación como al objeto 3D resultante. En FreeCAD, a esto se le suele llamar "función" en lugar de "objeto" u "operación".
 
 Now let's model the tabletop. It will be a simple rectangular prism, so let's start with another '''Cube''' and change its dimensions under the Data tab as follows:
 * Box: length: 1260 mm, width: 860 mm, height: 80 mm, position: x: 10 mm, y: 10 mm, z: 670 mm. 
