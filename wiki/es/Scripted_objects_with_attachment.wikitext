@@ -12,9 +12,7 @@ El siguiente GIF muestra cómo acoplar nuestra caja personalizada a un cilindro 
 
 [[File:Box-attached-to-cylinder-demo.gif]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''NOTE:''' The box is our custom scripted object, and the cylinder is a regular FreeCAD object generated from the Part workbench.
-</div>
+'''NOTA:''' La caja es un objeto personalizado creado con nuestro script, y el cilindro es un objeto FreeCAD normal generado desde el Entorno de Trabajo de Piezas.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Making Scripted Objects Attachable==
