@@ -15,8 +15,9 @@ En muchas situaciones, no resulta muy práctico crear un objeto con valores cero
 
 Python ofrece una herramienta básica para que el usuario introduzca texto en la pantalla:
 
- text = raw_input("Height of the rectangle?")
- print("The entered height is ",text)
+ texto = raw_input("¿Altura del rectángulo?")
+
+print("La altura ingresada es ",texto)
 
 However, this requires a running Python console, and when running our code from a macro, we are not always sure that the Python console will be turned on on the user's machine.
 
