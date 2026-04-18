@@ -378,9 +378,7 @@ view.fitAll()
 
 El ángulo entre los ejes está configurado en 20 grados. Si desea cambiar este valor, seleccione el Eje 2 y modifique la propiedad Placement.Angle. Esta propiedad debe modificarse antes de mover el Eje 2 al ensamblaje.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Warning: parts may collide if the angle is too large.
-</div>
+Advertencia: las piezas pueden chocar si el ángulo es demasiado grande.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Add an assembly===
