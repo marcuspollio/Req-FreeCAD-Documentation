@@ -72,7 +72,7 @@ Ahora vamos a crear las otras tres patas de la mesa haciendo seis copias adicion
 
 [[Image:Exercise_table_03.jpg]]
 
-Instead of duplicating the base cube six times, we could have duplicated the complete leg three times by copying and pasting the Cut object created above from our first two cubes and rotating each cut leg into their proper orientation. In FreeCAD there are often multiple ways to achieve the same result. This is important to remember, because you may find it easier or more efficient to use different techniques in different contexts.
+En lugar de duplicar el cubo base seis veces, podríamos haber duplicado la pata completa tres veces copiando y pegando el objeto de corte creado anteriormente a partir de nuestros dos primeros cubos y rotando cada pata cortada a su orientación correcta. En FreeCAD, a menudo existen varias maneras de lograr el mismo resultado. Es importante recordarlo, ya que puede resultar más fácil o eficiente utilizar diferentes técnicas en distintos contextos.
 
 * We will now make holes for the screws, using the same Cut operation. Since we need 8 holes (two in each leg) we could make 8 objects to be subtracted. However, let's explore another way. We can make 4 cylinders, each intersecting a pair of legs. So, let's create them with the [[Image:Part_Cylinder.svg|16px]] '''Cylinder''' tool. You can make one cylinder and duplicate it three times. Give each cylinder a radius of 6 mm. This time, we will need to rotate the cylinders using the '''Placement''' property under the Data tab ''('''Note:''' change the Axis property ''before'' setting the Angle, or the rotation will not be applied)'':
 ** Cylinder: height: 1300 mm, angle: 90°, axis: x: 0, y: 1, z: 0, position: x: -10 mm, y: 40 mm, z: 720 mm
