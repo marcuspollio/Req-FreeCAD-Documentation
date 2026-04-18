@@ -419,9 +419,7 @@ Para los demás objetos, utilizaremos la herramienta [[Image:Assembly_InsertLink
 [[Image:Button_right.svg|16px|link=]]
 [[Image:Assembly_UniversalJointExample-03.png|200px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Selected elements + [[Image:Assembly_CreateJointRevolute.svg|24px]] [[Assembly_CreateJointRevolute|Revolute Joint]] + Offset of +40mm or -40mm → rearranged Fork001}}
-</div>
+{{Caption|Elementos seleccionados + [[Image:Assembly_CreateJointRevolute.svg|24px]] [[Assembly_CreateJointRevolute|Articulación de revolución]] + Desplazamiento de +40 mm o -40 mm → Horquilla001 reorganizada}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you invoke the tool first and then select the elements, you can click near the correct endpoint of Axle1 to avoid having to enter an offset.
