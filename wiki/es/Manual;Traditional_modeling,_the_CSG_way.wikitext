@@ -94,9 +94,10 @@ Como puede observar, cada pata se describe ahora mediante una serie de operacion
 
 Otra particularidad de FreeCAD es que los conceptos de objeto 3D y operación 3D tienden a fusionarse. "Cortar" se refiere tanto a una operación como al objeto 3D resultante. En FreeCAD, a esto se le suele llamar "función" en lugar de "objeto" u "operación".
 
-Now let's model the tabletop. It will be a simple rectangular prism, so let's start with another '''Cube''' and change its dimensions under the Data tab as follows:
-* Box: length: 1260 mm, width: 860 mm, height: 80 mm, position: x: 10 mm, y: 10 mm, z: 670 mm. 
-In the '''View''' tab, you can give it a brownish, wood-like color by changing its '''Shape Appearance''' property:
+Ahora vamos a modelar la superficie de la mesa. Será un prisma rectangular simple, así que comencemos con otro cubo y cambiemos sus dimensiones en la pestaña Datos de la siguiente manera:
+* Caja: largo: 1260 mm, ancho: 860 mm, alto: 80 mm, posición: x: 10 mm, y: 10 mm, z: 670 mm.
+
+En la pestaña '''Vista''', puede darle un color marrón, similar a la madera, cambiando su propiedad '''Apariencia de forma''':
 
 Now that our five pieces are complete, it is a good time to give them more descriptive names than "Cut015". By right-clicking each object in the tree view (or pressing '''F2''' with an object selected), you can rename them to something more meaningful. Properly naming your objects can be just as important as the way you model them.
 
