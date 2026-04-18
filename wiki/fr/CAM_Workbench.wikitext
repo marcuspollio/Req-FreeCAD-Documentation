@@ -56,9 +56,9 @@ La gestion des unités dans CAM peut prêter à confusion. Il y a plusieurs poin
 # Le système d'unités par défaut utilise les unités par défaut. Si vous utilisez le système d'unités par défaut et que vous entrez un taux d'avance sans unité, il sera saisi sous la forme « mm/s ».
 # La plupart des machines à commande numérique attendent un débit d'alimentation sous forme de « mm/min » ou « in/min ». La plupart des post-processeurs convertissent automatiquement l'unité lors de la génération de gcode.
 
-Schémas :
-# Changer le schéma dans les préférences change la chaîne d'unité par défaut pour les champs d'entrée. Si vous êtes un utilisateur CAM et que vous préférez concevoir en métrique, il est fortement recommandé d'utiliser le schéma "Metric Small Parts & CNC". Si vous concevez en unités américaines, Imperial Decimal et Building US fonctionneront.
-# Changer le schéma de votre unité préférée n'aura aucun effet sur la sortie, mais aidera à éviter les erreurs de saisie.
+Systèmes :
+# Changer le système dans les préférences change l'unité par défaut pour les champs d'entrée. Si vous êtes un utilisateur de CAM et que vous préférez concevoir en métrique, il est fortement recommandé d'utiliser le système « Métrique, petites pièces & CNC (mm, mm/min) ». Si vous concevez en unités états-uniennes, Système impérial et Construction états-uniennes fonctionneront.
+# Changer votre schéma d'unités par défaut n'aura aucune incidence sur le résultat, mais vous aidera à éviter les erreurs de saisie.
 
 Résultat :
 # C'est au post-processeur qu'il incombe de générer l'unité de mesure correcte dans la sortie, et cette opération n'est effectuée qu'à ce moment-là.
