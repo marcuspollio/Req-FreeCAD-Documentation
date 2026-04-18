@@ -102,7 +102,7 @@ Si implementamos alguna de las funciones de aceptar o rechazar, su comportamient
 FreeCADGui.Control.closeDialog() 
 }}
 
-Once we have our BoxTaskPanel that has 1- a widget called "self.form" and 2- if needed, accept and reject functions, we can open the task panel with it, which is done with these two last lines:
+Una vez que tengamos nuestro BoxTaskPanel que tiene 1-, un widget llamado "self.form", y 2- si es necesario, funciones de aceptar y rechazar, podemos abrir el panel de tareas con él, lo cual se hace con estas dos últimas líneas:
 
 {{Code|code=
 panel = BoxTaskPanel()
