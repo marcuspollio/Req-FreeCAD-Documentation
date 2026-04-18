@@ -398,14 +398,17 @@ Seleccione los dos ejes en la Vista de árbol y utilice la herramienta [[Image:A
 <span id="Move_the_solids_into_the_assembly"></span>
 === Mover los sólidos al ensamblaje ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For the other objects we will use the [[Image:Assembly_InsertLink.svg|24px]] [[Assembly_InsertLink|Component]] tool:
-# Invoke the tool.
-# In the dialog that opens click the Cross object once, and the Fork object twice.
-# Press the {{Button|OK}} button.
-# Make the objects outside the assembly invisible.
-# If the objects inside the assembly overlap too much you can drag them to a new position.
-</div>
+Para los demás objetos, utilizaremos la herramienta [[Image:Assembly_InsertLink.svg|24px]] [[Assembly_InsertLink|Componente]]:
+
+# Activar la herramienta.
+
+# En el cuadro de diálogo que se abre, haga clic una vez en el objeto Cruz y dos veces en el objeto Horquilla.
+
+# Pulse el botón {{Button|OK}}.
+
+# Ocultar los objetos que quedan fuera del ensamblaje.
+
+# Si los objetos dentro del ensamblaje se superponen demasiado, puede arrastrarlos a una nueva posición.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Apply joints===
