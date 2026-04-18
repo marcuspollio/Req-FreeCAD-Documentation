@@ -115,29 +115,39 @@ A continuación, seleccione uno de los tornillos disponibles en el Entorno de tr
 
 Como ya se mencionó anteriormente, se puede lograr el mismo resultado siguiendo pasos diferentes. Para demostrarlo, vamos a crear la misma tabla utilizando una metodología distinta. Recuerde que no hay una forma correcta o incorrecta, solo creatividad individual.
 
-We will start in a similar way, by creating a cube with the following dimensions: length 80 mm, width 8 mm, and height 750 mm
-* Create a cube by selecting the [[Image:Part_Box.svg|16px]] '''Cube''' button and set the following properties (in the '''Data''' tab):
-** Length: 80 mm 
-** Width: 8 mm
-** Height: 750 mm
-*Next, we will create a [[Image:Part_Cylinder.svg|16px]] '''Cylinder''' with the following properties:
-** radius: 6 mm, height: 100 mm, angle: 90°, axis: x: 1, y: 0, z: 0, position: x: 40 mm, y: 40 mm, z: 720 mm
-* Next, we will apply the Cut operation. Select the cube; then, hold the Ctrl key and select the cylinder. Keep in mind that the order is important to define which one stays. Then, press the [[Image:Part_Cut.svg|16px]] '''Cut''' button.
-*  We will then copy and paste the cut object by pressing '''Ctrl+C''' then '''Ctrl+V''' (or menu '''Edit → Copy''' and '''Paste'''):
-** angle: 90°, axis: x: 0, y: 0, z: 1, position: x: 8 mm
-* Select the two objects and apply the [[Image:Part_Fuse.svg|16px]] '''Fuse''' tool. Now the two objects are fused, and we have an L-shaped table leg.
-* Copy and paste the fused leg, positioning it at
-** angle: 90°, axis: x: 0, y: 0, z: -1, position y: 800 mm.
-* Select the two legs and create a [[Image:Part_Compound.svg|16px]] '''Compound'''. 
-* Copy and paste the compound, positioning it at:
-** angle: 180°, axis: x:0, y:0, z:1, position x: 1200 mm, y: 800 mm. We have our legs.
-Let's create the table top. 
-* Create a Cube, and edit its properties as follows:
-** Length: 1184 mm
-** Width: 784 mm
-** Height: 80 mm
-** position x: 8 mm, y: 8 mm, z: 670 mm. 
-Now, continue adding screws in the Fasteners Workbench as before.
+Comenzaremos de forma similar, creando un cubo con las siguientes dimensiones: 80 mm de largo, 8 mm de ancho y 750 mm de alto.
+* Cree un cubo seleccionando el botón '''Cubo''' de la imagen [[Image:Part_Box.svg|16px]] y configure las siguientes propiedades (en la pestaña '''Datos'''):
+** Largo: 80 mm
+** Ancho: 8 mm
+** Alto: 750 mm
+
+* A continuación, crearemos un cilindro clicando sobre la imagen [[Image:Part_Cylinder.svg|16px]] con las siguientes propiedades:
+** Radio: 6 mm, altura: 100 mm, ángulo: 90°, ejes: x: 1, y: 0, z: 0, posición: x: 40 mm, y: 40 mm, z: 720 mm
+
+* Luego, aplicaremos la operación de corte. Seleccione el cubo; luego, mantenga presionada la tecla '''Ctrl''' y seleccione el cilindro. Recuerde que el orden es decisivo para definir qué se queda. Luego, pulse el botón [[Image:Part_Cut.svg|16px]] '''Cortar'''.
+
+* A continuación, copiaremos y pegaremos el objeto cortado pulsando '''Ctrl+C''' y luego '''Ctrl+V''' (o en el menú '''Editar → Copiar''' y '''Pegar'''):
+** ángulo: 90°, eje: x: 0, y: 0, z: 1, posición: x: 8 mm
+
+* Seleccione los dos objetos y aplique la herramienta [[Image:Part_Fuse.svg|16px]] '''Fusionar'''. Ahora los dos objetos están fusionados y tenemos una pata de mesa en forma de L.
+
+* Copie y pegue la pata fusionada, colocándola en:
+** ángulo: 90°, eje: x: 0, y: 0, z: -1, posición y: 800 mm.
+
+* Seleccione las dos patas y cree un [[Image:Part_Compound.svg|16px]] '''Compuesto'''.
+
+* Copie y pegue el compuesto, posicionándolo en:
+** ángulo: 180°, eje: x:0, y:0, z:1, posición x: 1200 mm, y: 800 mm.
+
+Ya tenemos las patas. Vamos a crear la superficie de la mesa.
+
+* Cree un cubo y edite sus propiedades de la siguiente manera:
+** Largo: 1184 mm
+** Ancho: 784 mm
+** Alto: 80 mm
+** Posición x: 8 mm, y: 8 mm, z: 670 mm.
+
+Ahora, continúe añadiendo tornillos en el Entorno de trabajo de fijaciones igual que antes.
 
 [[Image:Tabble_alternative_complete.png]]
 
