@@ -39,7 +39,7 @@ En el siguiente ejercicio, primero crearemos un panel con Qt Creator que solicit
 
 [[Image:Exercise_python_07.jpg]]
 
-Let's start by creating the widget. Start Qt Creator, then menu '''File → New File or Project → Qt → Qt Designer Form → Dialog without buttons'''. Click '''Next''', give it a filename to save, click '''Next''', leave all project fields to their default value ("<none>"), and '''Create'''. FreeCAD's Task system will automatically add OK/Cancel buttons, that's why we chose here a dialog without buttons.
+Comencemos creando el widget. Inicie Qt Creator y luego vaya al menú '''Archivo → Nuevo archivo o proyecto → Qt → Formulario de Qt Designer → Diálogo sin botones'''. Haga clic en '''Siguiente''', asígnele un nombre de archivo para guardarlo, haga clic en '''Siguiente''', deje todos los campos del proyecto con su valor predeterminado ("<ninguno>") y haga clic en '''Crear'''. El sistema de tareas de FreeCAD agregará automáticamente los botones Aceptar/Cancelar, por eso elegimos un diálogo sin botones.
 
 [[Image:Exercise_python_06.jpg]]
 
