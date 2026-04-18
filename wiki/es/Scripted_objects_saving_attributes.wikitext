@@ -114,7 +114,7 @@ Podemos crear un objeto con esta clase y guardar el documento, igual que en el e
 {'color': [0, 0, 1], 'width': 2.5}
 }}
 
-The original tuple for {{incode|self.color}} was converted to a list, but otherwise the information was recovered fine. Instead of restoring all attributes like in the previous case, only the attributes that we specified in {{incode|dumps}} and {{incode|loads}} were restored.
+La tupla original para {{incode|self.color}} se convirtió en una lista, pero por lo demás la información se recuperó correctamente. En lugar de restaurar todos los atributos como en el caso anterior, solo se restauraron los atributos que especificamos en {{incode|dumps}} y {{incode|loads}}.
 
 == Usage ==
 
