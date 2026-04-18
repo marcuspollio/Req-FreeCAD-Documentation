@@ -15,9 +15,11 @@ A lo largo de este manual, hemos visto cómo los objetos paramétricos abordan e
 
 FreeCAD ofrece un sistema fácil para crear objetos paramétricos completos usando Python. Estos objetos se definen mediante una clase de Python, que:
 
-* Declares the necessary properties for the object.
-* Defines the behavior when any of these properties are modified.
-The structure of such a parametric object is as simple as this:
+* Declara las propiedades necesarias para el objeto.
+
+* Define el comportamiento cuando se modifica cualquiera de estas propiedades.
+
+La estructura de un objeto paramétrico de este tipo es tan simple como esto:
 
 {{Code|code=
 class myParametricObject:
