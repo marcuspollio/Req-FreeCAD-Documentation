@@ -90,7 +90,7 @@ Observará que los cilindros se extienden más allá de las patas de la mesa. Es
 
 [[Image:Exercise_table_05.jpg]]
 
-As you can see, each leg is now described by a series of multiple operations nested in the Tree view. All the geometry we have created remains parametric, and you can change any parameter of any of the older operations any time. In FreeCAD, we refer to this series as "modeling history", since it records the history of the operations we performed. 
+Como puede observar, cada pata se describe ahora mediante una serie de operaciones múltiples anidadas en la vista de árbol. Toda la geometría que hemos creado sigue siendo paramétrica, y puede modificar cualquier parámetro de cualquiera de las operaciones anteriores en cualquier momento. En FreeCAD, nos referimos a esta serie como «historial de modelado», ya que registra el historial de las operaciones que hemos realizado. 
 
 Another particularity of FreeCAD is that the concept of 3D object and the concept of 3D operation tend to blend into one. "Cut" refers to an operation, and also to the 3D object resulting from this operation. In FreeCAD this is sometimes called a "feature", rather than "object" or "operation".
 
