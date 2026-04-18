@@ -29,7 +29,7 @@ Para ilustrar el uso del Entorno de Trabajo de Piezas, modelaremos esta mesa uti
 
 [[Image:Exercise_table_complete.jpg]]
 
-Let's create a new document ('''Ctrl+N''' or menu '''File → New''') for our table design. The document is initially called "Unnamed" in the Model tab in the Combo View panel. If you save the document ('''Ctrl+Shift+S''' or menu '''File → Save As''') as "table.FCStd", the document will be renamed "table", which more clearly identifies the project. We will use millimeters (mm) as our units of length. Feel free to change units by using the menu located on the lower right corner, according to your preference. 
+Vamos a crear un nuevo documento ('''Ctrl+N''' o menú '''Archivo → Nuevo''') para el diseño de nuestra mesa. Inicialmente, el documento se llama "Sin nombre" en la pestaña Modelo del panel Vista combinada. Si guarda el documento ('''Ctrl+Mayús+S''' o menú '''Archivo → Guardar como''') como "table.FCStd", se renombrará como "table", lo que identifica el proyecto con mayor claridad. Usaremos milímetros (mm) como unidades de longitud aunque puede cambiar las unidades según sus preferencias mediante el menú situado en la esquina inferior derecha. 
 
 Now we can switch to the Part Workbench and create our first table leg.
 
