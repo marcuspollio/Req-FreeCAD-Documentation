@@ -42,10 +42,9 @@ El [[Archivo:Workbench_Assembly.svg|24px]] [[Assembly_Workbench|Entorno de traba
 
 * [[Image:Assembly_CreateBom.svg|32px]] [[Assembly_CreateBom|Lista de materiales]]: Crea una lista de materiales (BOM) a partir de un ensamblaje seleccionado o del documento.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* <span id="Assembly_ExportASMT">[[Image:Assembly_ExportASMT.svg|32px]] Export ASMT File:</span><!--Do not edit span id: the Assembly_ExportASMT pages redirect here--> exports data of the currently active assembly as an ASMT file for debugging purposes.
-: This tool aims at developers and will not be included in future releases. (see [https://forum.freecad.org/viewtopic.php?p=812936#p812925 forum thread])
-</div>
+* <span id="Assembly_ExportASMT">[[Image:Assembly_ExportASMT.svg|32px]] Export ASMT File:</span><!--Do not edit span id: the Assembly_ExportASMT pages redirect here--> Exporta los datos del ensamblaje activo actual como un archivo ASMT para fines de depuración.
+
+: Esta herramienta está dirigida a desarrolladores y no se incluirá en futuras versiones. (Ver [https://forum.freecad.org/viewtopic.php?p=812936#p812925 hilo del foro])
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Joints===
