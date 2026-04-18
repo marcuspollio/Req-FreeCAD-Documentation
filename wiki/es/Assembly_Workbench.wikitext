@@ -376,9 +376,7 @@ view.fitAll()
 <span id="Change_angle_of_axles"></span>
 === Cambio de ángulo en los ejes ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The angle between the axles is set to 20 degrees. If you want to change this value select Axle2 and change the Placement.Angle property. This property must be changed before moving Axle2 into the assembly.
-</div>
+El ángulo entre los ejes está configurado en 20 grados. Si desea cambiar este valor, seleccione el Eje 2 y modifique la propiedad Placement.Angle. Esta propiedad debe modificarse antes de mover el Eje 2 al ensamblaje.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Warning: parts may collide if the angle is too large.
