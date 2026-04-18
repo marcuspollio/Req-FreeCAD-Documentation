@@ -43,7 +43,7 @@ Almacene la clase en el atributo '''Proxy''' del objeto de un documento de FreeC
 * Cree todas las propiedades que necesite el objeto:
 Mediante el método '''addProperty''', definimos las propiedades personalizadas que requiere el objeto. Las propiedades actúan como parámetros o variables del objeto y se pueden acceder, modificar y visualizar en el editor de propiedades de FreeCAD. En el ejemplo, añadimos una propiedad de punto flotante llamada '''MyLength'''. Esta propiedad influirá posteriormente en la forma o el comportamiento del objeto.
 
-There are many types of properties available in FreeCAD, ranging from floating-point numbers to strings and even specialized types for geometry and materials. To explore the full list of available property types, you can type the following code in the Python console:
+FreeCAD ofrece una gran variedad de propiedades, desde números en coma flotante hasta cadenas de texto e incluso tipos especializados para geometría y materiales. Para explorar la lista completa de los tipos de propiedades disponibles, puede escribir el siguiente código en la consola de Python:
 
 {{Code|code=
 FreeCAD.ActiveDocument.addObject("Part::FeaturePython", "dummy").supportedProperties()
