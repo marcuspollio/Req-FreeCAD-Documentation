@@ -124,7 +124,7 @@ La tupla original para {{incode|self.color}} se convirtió en una lista, pero po
 
 Normalmente, los objetos con script deberían usar propiedades para almacenar información, ya que estas se restauran automáticamente cuando se abre el documento.
 
-However, sometimes the class restore internal information which is not intended to be modified, but which is helpful to inspect.
+Sin embargo, en ocasiones la clase restaura información interna que no está destinada a ser modificada, pero que resulta útil para su inspección.
 
 For example, most objects of the [[Draft_Workbench|Draft Workbench]] set up a {{incode|Type}} attribute that can be used to determine the type of object that is under use.
 
