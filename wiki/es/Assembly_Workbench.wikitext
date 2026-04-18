@@ -487,9 +487,7 @@ Una articulación de tornillo acopla la traslación de una pieza con articulaci�
 <span id="Prepare_parts"></span>
 === Preparar las piezas ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In this example all parts and the assembly are created in one document.
-</div>
+En este ejemplo, todas las piezas y el ensamblaje se crean en un solo documento.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The Python code below will create a new document with four objects. Just copy-paste the following lines in the [[Python_Console|Python Console]]:
