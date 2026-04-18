@@ -105,7 +105,7 @@ state = (self.color, self.width)
 state = ((0, 0, 1), 2.5)
 }}
 
-We can create an object with this class, and save the document, just like in the previous example. When we re-open the file we can inspect the dictionary of the object's class.
+Podemos crear un objeto con esta clase y guardar el documento, igual que en el ejemplo anterior. Al volver a abrir el archivo, podemos consultar el diccionario de la clase del objeto.
 {{Code|code=
 >>> obj2 = App.ActiveDocument.Custom2
 >>> print(obj2.Proxy)
