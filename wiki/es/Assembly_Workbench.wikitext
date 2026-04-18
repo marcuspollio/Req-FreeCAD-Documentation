@@ -53,9 +53,7 @@ El [[Archivo:Workbench_Assembly.svg|24px]] [[Assembly_Workbench|Entorno de traba
 
 * [[Image:Assembly_CreateJointFixed.svg|32px]] [[Assembly_CreateJointFixed|Fijar articulación]]: Crea una unión que bloquea dos piezas de ensamblaje, impidiendo cualquier movimiento o rotación, pero también se puede utilizar para definir otros tipos de uniones.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Assembly_CreateJointRevolute.svg|32px]] [[Assembly_CreateJointRevolute|Revolute Joint]]: creates a hinged joint, allowing rotation around a single axis between two selected parts.
-</div>
+* [[Image:Assembly_CreateJointRevolute.svg|32px]] [[Assembly_CreateJointRevolute|Articulación de revolución]]: Crea una articulación de bisagra, que permite la rotación alrededor de un solo eje entre dos piezas seleccionadas.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Assembly_CreateJointCylindrical.svg|32px]] [[Assembly_CreateJointCylindrical|Cylindrical Joint]]: creates a cylindrical joint between two selected parts, allowing rotation around a single axis and a movement along the same axis.
