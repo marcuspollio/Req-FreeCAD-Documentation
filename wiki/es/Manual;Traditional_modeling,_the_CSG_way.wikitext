@@ -153,7 +153,7 @@ Ahora, continúe añadiendo tornillos en el Entorno de trabajo de fijaciones igu
 
 ==La estructura interna de los objetos Part==
 
-As we saw above, in FreeCAD it is possible to select not only whole objects but parts of them, e.g. the circular edge of our screw hole. This is a good time to have a quick look at how Part objects are constructed internally. Every workbench that produces Part geometry will be based on these:
+Como vimos anteriormente, en FreeCAD es posible seleccionar no solo objetos completos, sino también partes de ellos, por ejemplo, el borde circular del orificio del tornillo. Este es un buen momento para echar un vistazo rápido a cómo se construyen internamente los objetos Pieza. Cada entorno de trabajo que produce geometría Pieza se basa en lo siguiente:
 
 * '''Vertices''': These are points (usually endpoints) on which all the rest is built. For example, a line has two vertices.
 * '''Edges''': Edges can take the form of lines, arcs, ellipses or [https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline NURBS] curves. They usually have two vertices, but some special cases have only one (e.g. a closed circle).
