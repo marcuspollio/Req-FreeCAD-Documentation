@@ -24,9 +24,7 @@ Luego, instale y utilice {{incode|pyprof2calltree}} para convertir la salida del
 pyprof2calltree -i /tmp/profile.cprof -o /tmp/callgrind.out
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Then visualize this information with {{incode|kcachegrind}} for Linux or {{incode|qcachegrind}} for Windows.
-</div>
+Luego, visualice esta información con {{incode|kcachegrind}} para Linux o {{incode|qcachegrind}} para Windows.
 {{Code|code=
 kcachegrind /tmp/callgrind.out
 }}
