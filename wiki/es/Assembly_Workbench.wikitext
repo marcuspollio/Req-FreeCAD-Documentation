@@ -454,12 +454,13 @@ Si es necesario, invierta la dirección de la articulación utilizando el botón
 
 La junta universal se puede accionar moviendo Fork001 con el botón izquierdo del ratón.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If you want to check the situation at distinct rotation angles do the following:
-# Change the Cylindrical joint between Axle1 and Fork001 to a Fixed joint.
-# Select the Offset1.Angle property of the Fixed joint and roll the mouse wheel.
-# The universal joint may be positioned to any angle.
-</div>
+Si desea comprobar la situación en distintos ángulos de rotación, siga estos pasos:
+
+# Cambie la articulación cilíndrica entre el Eje1 y la Horquilla001 a una articulación fija.
+
+# Seleccione la propiedad Offset1.Angle de la articulación fija y gire la rueda del ratón.
+
+# La articulación universal se puede ajustar en cualquier ángulo.
 
 </div> <!-- End of collapsible element for … section. Do not remove! -->
 </div> <!-- End of collapsible element for … section. Do not remove! -->
