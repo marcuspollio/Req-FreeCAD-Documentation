@@ -421,9 +421,7 @@ Para los demás objetos, utilizaremos la herramienta [[Image:Assembly_InsertLink
 
 {{Caption|Elementos seleccionados + [[Image:Assembly_CreateJointRevolute.svg|24px]] [[Assembly_CreateJointRevolute|Articulación de revolución]] + Desplazamiento de +40 mm o -40 mm → Horquilla001 reorganizada}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If you invoke the tool first and then select the elements, you can click near the correct endpoint of Axle1 to avoid having to enter an offset.
-</div>
+Si primero activa la herramienta y luego selecciona los elementos, puede hacer clic cerca del punto final correcto del Eje 1 para evitar tener que introducir un desplazamiento.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * A Cylindrical joint between Fork001 and Cross001
