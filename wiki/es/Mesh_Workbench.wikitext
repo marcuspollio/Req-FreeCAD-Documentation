@@ -56,9 +56,7 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 
 * [[Image:Mesh_FlipNormals.svg|32px]] [[Mesh_FlipNormals|Invertir normales]]: Invierte las normales de los objetos de malla.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Mesh_FillupHoles.svg|32px]] [[Mesh_FillupHoles|Fill Holes]]: Fills holes in mesh objects.
-</div>
+* [[Image:Mesh_FillupHoles.svg|32px]] [[Mesh_FillupHoles|Rellenar agujeros]]: Rellena los agujeros en los objetos de malla.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Mesh_FillInteractiveHole.svg|32px]] [[Mesh_FillInteractiveHole|Close Holes]]: Fills selected holes in mesh objects.
