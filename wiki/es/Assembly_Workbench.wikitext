@@ -482,9 +482,7 @@ En este ejemplo se crea un [https://en.wikipedia.org/wiki/Vise vise].
 
 El conjunto consta de tres partes sólidas: una mordaza fija y otra móvil, y un tornillo con palanca. También se necesita un elemento no sólido adicional: una manivela. La manivela y las partes sólidas están conectadas mediante varias articulaciones.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-A Screw Joint couples the translation of a part with a Slider Joint to the rotation of a part with a Revolute Joint. The screw part shall make both a translation and a rotation movement hence it must be a part with a Cylindrical Joint. In this assembly, the screw part will be coupled to the movable jaw with a Distance Joint, to the non solid crank with a Parallel Joint, and to the fixed jaw with a Cylindrical Joint.
-</div>
+Una articulación de tornillo acopla la traslación de una pieza con articulación deslizante a la rotación de una pieza con articulación de revolución. La pieza de tornillo debe realizar tanto un movimiento de traslación como de rotación, por lo que debe ser una pieza con articulación cilíndrica. En este ensamblaje, la pieza de tornillo se acoplará a la mordaza móvil con una articulación de distancia, a la manivela no sólida con una articulación paralela y a la mordaza fija con una articulación cilíndrica.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Prepare parts===
