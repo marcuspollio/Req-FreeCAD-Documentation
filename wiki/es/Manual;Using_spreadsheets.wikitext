@@ -23,7 +23,8 @@ En la práctica, el Entorno de Trabajo de Hoja de Cálculo es versátil para dif
 
 En el siguiente ejemplo, crearemos un par de objetos, recuperaremos algunas de sus propiedades en una hoja de cálculo y, a continuación, utilizaremos la hoja de cálculo para controlar directamente las propiedades de otros objetos.
 
-=== Reading properties ===
+<span id="Reading_properties"></span>
+=== Lectura de propiedades ===
 
 * Start by switching to the [[Image:Workbench_Part.svg|16px]] [[Part_Workbench|Part Workbench]], and create a couple of objects: a [[Image:Part_Box.svg|16px]] [[Part_Box|box]], a [[Image:Part_Cylinder.svg|16px]] [[Part_Cylinder|cylinder]] and a [[Image:Part_Sphere.svg|16px]] [[Part_Sphere|sphere]].
 * Edit their '''Placement''' property (or use the [[Image:Draft_Move.svg|16px]] [[Draft_Move|Draft Move]] tool) to place them a little apart, so we can better see the effects of what we'll do:
