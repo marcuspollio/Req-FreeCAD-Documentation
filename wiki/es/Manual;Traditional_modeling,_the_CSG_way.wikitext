@@ -155,13 +155,19 @@ Ahora, continúe añadiendo tornillos en el Entorno de trabajo de fijaciones igu
 
 Como vimos anteriormente, en FreeCAD es posible seleccionar no solo objetos completos, sino también partes de ellos, por ejemplo, el borde circular del orificio del tornillo. Este es un buen momento para echar un vistazo rápido a cómo se construyen internamente los objetos Pieza. Cada entorno de trabajo que produce geometría Pieza se basa en lo siguiente:
 
-* '''Vertices''': These are points (usually endpoints) on which all the rest is built. For example, a line has two vertices.
-* '''Edges''': Edges can take the form of lines, arcs, ellipses or [https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline NURBS] curves. They usually have two vertices, but some special cases have only one (e.g. a closed circle).
-* '''Wires''': A wire is a sequence of edges connected by their endpoints. A wire can contain edges of any type, and it can be closed or not.
-* '''Faces''': Faces can be planar or curved. They can be defined by one closed wire forming the border of the face, or by more than one if the face has holes.
-* '''Shells''': Shells are groups of faces connected by their edges. They can be open or closed.
-* '''Solids''': A closed shell can be turned into a solid. Solids carry the notion of inside and outside. Many workbenches rely on this to make sure the objects they produce can be built in the real world.
-* '''Compounds''': Compounds combine other shapes of one or more types into a single object.
+* '''Vértices''': Son los puntos (generalmente extremos) sobre los que se construye todo lo demás. Por ejemplo, una línea tiene dos vértices.
+
+* '''Aristas''': Las aristas pueden ser líneas, arcos, elipses o curvas NURBS (Non-uniform_rational_B-spline). Suelen tener dos vértices, pero en algunos casos especiales solo tienen uno (por ejemplo, un círculo cerrado).
+
+* '''Cables''': Un cable es una secuencia de aristas conectadas por sus extremos. Un cable puede contener aristas de cualquier tipo y puede ser cerrado o no.
+
+* '''Caras''': Las caras pueden ser planas o curvas. Se pueden definir mediante un cable cerrado que forma el borde de la cara, o mediante más de uno si la cara tiene agujeros.
+
+* '''Cáscaras''': Las cáscaras son grupos de caras conectadas por sus aristas. Pueden ser abiertas o cerradas.
+
+* '''Sólidos''': Una cáscara cerrada se puede convertir en un sólido. Los sólidos implican la noción de interior y exterior. Muchos bancos de trabajo se basan en esto para asegurar que los objetos que producen se puedan construir en el mundo real.
+
+* '''Compuestos''': Los compuestos combinan otras formas de uno o más tipos en un solo objeto.
 
 In the 3D view, you can select individual '''vertices''', '''edges''' or '''faces'''. Selecting one of these also selects the whole object it belongs to.
 
