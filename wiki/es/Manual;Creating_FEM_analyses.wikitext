@@ -82,8 +82,9 @@ Se abrirá un panel de tareas para que podamos elegir un material. En la lista d
 
 [[File:FreeCAD FEM material.png|600px]]
 
-* The final step is to apply forces and constraints, translating the physical conditions into the FEM analysis. In this simple case, we have a beam that is fixed on one side (representing attachment to a wall), while the other side is free to move. A distributed force is applied along the entire length of the beam, simulating the load it experiences in real-world conditions. Let's start by specifying the face fixed into the wall and can therefore not move. Press the [[Image:FEM_ConstraintFixed.svg|16px]] [[FEM_ConstraintFixed|Constraint fixed]] button.
-* Press on the '''add''' button and select the left face of our beam (the one at the origin). Click '''Apply'''. This face is now designated as unmovable:
+* El último paso consiste en aplicar fuerzas y restricciones, traduciendo las condiciones físicas al análisis de elementos finitos (FEM). En este caso sencillo, tenemos una viga fija en un extremo (que representa su fijación a una pared), mientras que el otro extremo puede moverse libremente. Se aplica una fuerza distribuida a lo largo de toda la viga, simulando la carga que experimenta en condiciones reales. Comencemos especificando la cara fija a la pared, que por lo tanto no puede moverse. Pulse el botón [[Image:FEM_ConstraintFixed.svg|16px]] [[FEM_ConstraintFixed|Restricción fijada]].
+
+* Pulse el botón '''Añadir''' y seleccione la cara izquierda de la viga (la que está en el origen). Haga clic en '''Aplicar'''. Esta cara ahora se designa como inamovible.
 
 [[File:FreeCAD FEM Beam FC.png|600px]]
 
