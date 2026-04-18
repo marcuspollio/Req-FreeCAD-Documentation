@@ -208,9 +208,7 @@ Para mantener el ensamblaje en la posición deseada, la pieza base debe estar bl
 <span id="Alternative:_Insert_Link"></span>
 === Alternativa: Insertar enlace ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Instead of the two steps mentioned above it is also possible to use the [[Image:Assembly_InsertLink.svg|24px]] [[Assembly_InsertLink|Component]] tool to place objects inside an assembly. The first object automatically becomes the grounded part. So you need to start with the Base object. The tool creates links and the original objects remain outside the assembly. To avoid confusion it is advisable to make them invisible.
-</div>
+En lugar de realizar los dos pasos mencionados anteriormente, también es posible usar la herramienta [[Image:Assembly_InsertLink.svg|24px]] [[Assembly_InsertLink|Componente]] para colocar objetos dentro de un ensamblaje. El primer objeto se convierte automáticamente en la pieza anclada. Por lo tanto, debe comenzar con el objeto Base. La herramienta crea vínculos y los objetos originales permanecen fuera del ensamblaje. Para evitar confusiones, es recomendable hacerlos invisibles.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Apply joints===
