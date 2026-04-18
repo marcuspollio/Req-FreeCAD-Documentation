@@ -17,7 +17,7 @@ Python ofrece una herramienta básica para que el usuario introduzca texto en la
 
  texto = raw_input("¿Altura del rectángulo?")
 
-print("La altura ingresada es ",texto)
+print ("La altura ingresada es ",texto)
 
 Sin embargo, esto requiere que la consola de Python esté en funcionamiento, y cuando ejecutamos nuestro código desde una macro, no siempre podemos estar seguros de que la consola de Python esté activada en la máquina del usuario.
 
