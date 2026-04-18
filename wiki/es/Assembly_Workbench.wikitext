@@ -579,9 +579,8 @@ En la [[Tree_View|vista de árbol]], arrastre y suelte las piezas sobre el '''Ob
 
 Para mantener el ensamblaje en la posición deseada, la pieza FixedJaw debe estar bloqueada o fijada, como se denomina aquí. Seleccione FixedJaw en la vista de árbol o en la vista 3D y utilice la herramienta [[Image:Assembly_ToggleGrounded.svg|24px]] [[Assembly_ToggleGrounded|Toggle Grounded]]. Se añadirá un objeto GroundedJoint al contenedor Articulaciones.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Apply joints===
-</div>
+<span id="Apply_joints"></span>
+=== Aplicar uniones ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * A Revolute joint between FixedJaw and Crank
