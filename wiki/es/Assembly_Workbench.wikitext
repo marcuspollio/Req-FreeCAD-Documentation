@@ -270,9 +270,7 @@ El pasador de la biela deslizante tiene una orientación redundante. Su eje cent
 <span id="Drive_the_crank"></span>
 === Girar la manivela ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To control the layout of the assembly by the angle between the Base and the Crank we have to change the Revolute joint between them to a Fixed joint. To do so double-click the Revolute object in the Tree View. In the dialog change Revolute to Fixed and change the Rotation value as desired (the movement should follow the mouse wheel action).
-</div>
+Para controlar la disposición del conjunto mediante el ángulo entre la base y la manivela, debemos cambiar la articulación de revolución entre ellas por una articulación fija. Para ello, haga doble clic en el objeto de revolución en la vista de árbol. En el cuadro de diálogo, cambie la articulación de revolución a fija y modifique el valor de rotación según sea necesario (el movimiento debe seguir la acción de la rueda del ratón).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Note that a joint type change will change the joint's Label, but not its Name. In this case the Label is changed to "Fixed".
