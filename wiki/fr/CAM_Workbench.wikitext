@@ -58,7 +58,7 @@ La gestion des unités dans CAM peut prêter à confusion. Il y a plusieurs poin
 
 Systèmes :
 # Changer le système dans les préférences change l'unité par défaut pour les champs d'entrée. Si vous êtes un utilisateur de CAM et que vous préférez concevoir en métrique, il est fortement recommandé d'utiliser le système « Métrique, petites pièces & CNC (mm, mm/min) ». Si vous concevez en unités états-uniennes, Système impérial et Construction états-uniennes fonctionneront.
-# Changer votre schéma d'unités par défaut n'aura aucune incidence sur le résultat, mais vous aidera à éviter les erreurs de saisie.
+# Changer votre système d'unités par défaut n'aura aucune incidence sur le résultat, mais vous aidera à éviter les erreurs de saisie.
 
 Résultat :
 # C'est au post-processeur qu'il incombe de générer l'unité de mesure correcte dans la sortie, et cette opération n'est effectuée qu'à ce moment-là.
