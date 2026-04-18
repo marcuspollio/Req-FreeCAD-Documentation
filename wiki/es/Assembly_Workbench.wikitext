@@ -67,9 +67,7 @@ El [[Archivo:Workbench_Assembly.svg|24px]] [[Assembly_Workbench|Entorno de traba
 
 * [[Image:Assembly_CreateJointPerpendicular.svg|32px]] [[Assembly_CreateJointPerpendicular|Unión perpendicular]]: Crea una unión perpendicular entre dos piezas seleccionadas, estableciendo los ejes Z de los sistemas de coordenadas seleccionados como perpendiculares.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Assembly_CreateJointAngle.svg|32px]] [[Assembly_CreateJointAngle|Angle Joint]]: creates an angle joint between two selected parts, fixing the angle between the Z-Axes of selected coordinate systems.
-</div>
+* [[Image:Assembly_CreateJointAngle.svg|32px]] [[Assembly_CreateJointAngle|Articulación angular]]: Crea una unión angular entre dos piezas seleccionadas, fijando el ángulo entre los ejes Z de los sistemas de coordenadas seleccionados.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Assembly_CreateJointRackPinion.svg|32px]] [[Assembly_CreateJointRackPinion|Rack and Pinion Joint]]: creates a rack and pinion joint that couples the translation of a part of a slider joint and the rotation of a part of a revolute joint.
