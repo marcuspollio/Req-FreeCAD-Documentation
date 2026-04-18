@@ -163,7 +163,7 @@ class CustomObject:
             self.version = state[1]
 }}
 
-If the structure of the class changes, that is, if its properties or methods change, are renamed, or are removed, we could test the version attribute in order to migrate the older object to a new set of properties or to a new class. This can be done by implementing the {{incode|onDocumentRestored}} method, as explained in [[Scripted_objects_migration|Scripted objects migration]].
+Si la estructura de la clase cambia, es decir, si sus propiedades o métodos cambian, se renombran o se eliminan, podríamos comprobar el atributo de versión para migrar el objeto antiguo a un nuevo conjunto de propiedades o a una nueva clase. Esto se puede hacer implementando el método {{incode|onDocumentRestored}}, como se explica en [[Scripted_objects_migration|Migración de objetos mediante scripts]].
 
 {{Code|code=
 class CustomObject:
