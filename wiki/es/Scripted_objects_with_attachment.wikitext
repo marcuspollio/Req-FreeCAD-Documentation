@@ -42,9 +42,7 @@ Sin agregar este código, veremos el siguiente cuadro de diálogo de advertencia
 <span id="Update_Position_Based_on_Attached_Object"></span>
 === Actualizar la posición en función del objeto adjunto ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Then, in the `execute` method of our custom scripted object, we need to call the `positionBySupport` on our `Part::FeaturePython` object.
-</div>
+Luego, en el método `execute` de nuestro objeto con script personalizado, necesitamos llamar a `positionBySupport` en nuestro objeto `Part::FeaturePython`.
 <syntaxhighlight lang="python" line='line'>
 class Box:
     
