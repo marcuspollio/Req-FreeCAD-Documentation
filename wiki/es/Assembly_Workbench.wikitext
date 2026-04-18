@@ -702,9 +702,8 @@ El conjunto consta de tres piezas sólidas: un pistón, un cilindro y un resorte
 
 La bisagra del pistón gira alrededor del Eje 2, mientras que la bisagra del cilindro se mueve describiendo un arco de círculo centrado en el Eje 1. Para este movimiento se utiliza una varilla no sólida. La longitud de la varilla es igual al radio del arco.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Prepare parts===
-</div>
+<span id="Prepare_parts"></span>
+=== Preparar las piezas ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The Python code below will create a new document with 6 objects. Create a new [[Macros|macro]] and copy-paste the code below in the Python editor (not in the Python Console). Then [[Std_DlgMacroExecuteDirect|run the macro]].
