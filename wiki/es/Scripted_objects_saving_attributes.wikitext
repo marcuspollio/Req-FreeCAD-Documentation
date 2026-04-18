@@ -99,7 +99,7 @@ class CustomStates:
         self.width = state[1]
 }}
 
-The return value of {{incode|dumps}} is the object that will be serialized. This can be a single value, or a tuple of values. When the object is restored, the class calls the {{incode|loads}} method, passing the {{incode|state}} variable with the serialized content. In this case {{incode|state}} is a tuple that is unpacked into the respective variables to reconstruct the "state" that original existed.
+El valor de retorno de {{incode|dumps}} es el objeto que se serializará. Puede ser un único valor o una tupla de valores. Cuando se restaura el objeto, la clase llama al método {{incode|loads}}, pasando la variable {{incode|state}} con el contenido serializado. En este caso, {{incode|state}} es una tupla que se descomprime en las variables correspondientes para reconstruir el "estado" original.
 {{Code|code=
 state = (self.color, self.width)
 state = ((0, 0, 1), 2.5)
