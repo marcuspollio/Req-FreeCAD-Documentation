@@ -839,9 +839,7 @@ Para mantener el conjunto en la posición deseada, los dos ejes deben estar bloq
 
 {{Caption|[[Image:Assembly_CreateJointSlider.svg|24px]] [[Assembly_CreateJointSlider|Junta deslizante]] + elementos seleccionados → Cilindro reorganizado y movido}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Please pay attention to the location of the coordinate system before selecting a face. It should be in the center of each face.
-</div>
+Por favor, preste atención a la ubicación del sistema de coordenadas antes de seleccionar una cara. Debe estar en el centro de cada cara.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Drag the Cylinder to create some distinct between it and the Piston. The supporting faces for the Spring should be visible.
