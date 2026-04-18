@@ -205,7 +205,7 @@ Units.Quantity('2  m').getUserPreferred() # Tuple: ('2000 mm', 1.0, 'mm')
 
 Ici, vous obtenez deux informations comme un tuple de taille 3. Vous obtenez la chaîne telle qu'elle était avant, plus le facteur de conversion du nombre et la chaîne brute avec uniquement l'unité choisie par le système de conversion. Avec cette information, vous pouvez implémenter une interaction utilisateur beaucoup plus riche.
 
-Le code des schémas unitaires est disponible [https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/UnitsSchemasData.h ici].
+Le code des systèmes des unités est disponible [https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/UnitsSchemasData.h ici].
 
 <span id="Precision"></span>
 === Précision ===
