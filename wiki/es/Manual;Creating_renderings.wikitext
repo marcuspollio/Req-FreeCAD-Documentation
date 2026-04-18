@@ -28,7 +28,7 @@ Una vez instalado POV-Ray o LuxCorerender, es necesario configurar la ruta hacia
 
 === Rendering with PovRay ===
 
-We will use the table we have been modelling in the [[Manual:Traditional modeling, the CSG way|traditional modeling]] chapter to produce renderings with PovRay. 
+Usaremos la mesa que hemos estado modelando en el capítulo [[Manual:Traditional modeling, the CSG way|Modelado tradicional]] para producir renderizaciones con PovRay. 
 
 * Start by loading the table.FCStd file that we modelled earlier or from the link at the bottom of this chapter and entering the [[File:Render workbench icon.svg|16px]] [https://github.com/FreeCAD/FreeCAD-render|render workbench].
 * Create a rendering project by pressing the button in the toolbar corresponding to your renderer. For our example, we will choose the [[File:Render Povray.svg|16px]] povray renderer.  
