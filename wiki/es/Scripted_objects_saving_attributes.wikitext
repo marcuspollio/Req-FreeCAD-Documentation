@@ -64,7 +64,7 @@ Al volver a abrir el archivo, podemos inspeccionar el diccionario de la clase de
 {'Type': {'Version': 'Custom', 'Release': 'production'}, 'ver': '0.18', 'color': [0, 0, 1], 'width': 2.5}
 }}
 
-We see that all attributes that start with {{incode|self}} in the class were saved. These can be of different types, including string, list, float, and dictionary. The original tuple for {{incode|self.color}} was converted to a list, but otherwise all attributes were loaded the same.
+Observamos que todos los atributos que comienzan con {{incode|self}} en la clase se guardaron. Estos pueden ser de diferentes tipos, incluyendo cadena, lista, flotante y diccionario. La tupla original para {{incode|self.color}} se convirtió en una lista, pero por lo demás, todos los atributos se cargaron de la misma manera.
 
 == Saving specific attributes ==
 
