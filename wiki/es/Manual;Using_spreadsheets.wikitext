@@ -26,8 +26,9 @@ En el siguiente ejemplo, crearemos un par de objetos, recuperaremos algunas de s
 <span id="Reading_properties"></span>
 === Lectura de propiedades ===
 
-* Start by switching to the [[Image:Workbench_Part.svg|16px]] [[Part_Workbench|Part Workbench]], and create a couple of objects: a [[Image:Part_Box.svg|16px]] [[Part_Box|box]], a [[Image:Part_Cylinder.svg|16px]] [[Part_Cylinder|cylinder]] and a [[Image:Part_Sphere.svg|16px]] [[Part_Sphere|sphere]].
-* Edit their '''Placement''' property (or use the [[Image:Draft_Move.svg|16px]] [[Draft_Move|Draft Move]] tool) to place them a little apart, so we can better see the effects of what we'll do:
+* Empiece por cambiar a la [[Image:Workbench_Part.svg|16px]] [[Part_Workbench|Entorno de Trabajo de Parte]] y cree un par de objetos: una [[Image:Part_Box.svg|16px]] [[Part_Box|caja]], un [[Image:Part_Cylinder.svg|16px]] [[Part_Cylinder|cilindro]] y una [[Image:Part_Sphere.svg|16px]] [[Part_Sphere|esfera]].
+
+* Edite su propiedad '''Placement''' (o use la herramienta [[Image:Draft_Move.svg|16px]] [[Draft_Move|Mover Boceto]]) para colocarlos un poco separados, de modo que podamos ver mejor los efectos de lo que haremos:
 
 [[Image:Exercise_spreadsheet_01.jpg]]
 
