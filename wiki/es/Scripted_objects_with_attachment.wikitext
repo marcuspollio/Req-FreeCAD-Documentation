@@ -35,9 +35,7 @@ class Box():
         # Needed to make this object "attachable"
         obj.addExtension('Part::AttachExtensionPython')
 </syntaxhighlight>
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Without adding this code, we'll see the following warning dialog when attaching our custom scripted object to another object.
-</div>
+Sin agregar este código, veremos el siguiente cuadro de diálogo de advertencia al adjuntar nuestro objeto con script personalizado a otro objeto.
 
 [[File:Part-attachment-warning-dialog.png]]
 
