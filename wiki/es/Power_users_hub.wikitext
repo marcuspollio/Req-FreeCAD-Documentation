@@ -118,10 +118,10 @@ A continuación se proponen algunos tutoriales genéricos, no específicos para 
 '''PySide''' - Cómo crear y manejar la interfaz Qt UI de FreeCAD desde python
 * [http://zetcode.com/gui/pysidetutorial/ PySide tutorial] : Un tutorial independiente de la plataforma que muestra el uso de PySide con ejemplos
 * [http://www.pythoncentral.io/series/python-pyside-pyqt-tutorial/ PySide/PyQt tutorial] : Un tutorial fácil de leer que cubre PySide y PyQt con ejemplos
-* [http://qt-project.org/wiki/PySideDocumentation Documentación de PySide] : del Proyecto Qt (la gente que lo escribió todo)
-* [http://qt-project.org/wiki/QtCreator_and_PySide Uso de QtCreator en PySide] : también del Proyecto Qt
-* [http://srinikom.github.io/pyside-docs/index.html PySide referencia] : un sinfín de detalles sobre las minucias de PySide y Qt, una fuente de referencia fiable
-* [http://nullege.com/codes/search?cq=PySide PySide fragmentos de código] : una base de datos de fragmentos de código de PySide en la que se puede buscar.
+* [http://qt-project.org/wiki/PySideDocumentation Documentación de PySide] : A cerca del Proyecto Qt (la gente que lo escribió todo)
+* [http://qt-project.org/wiki/QtCreator_and_PySide Uso de QtCreator en PySide] : También del Proyecto Qt
+* [http://srinikom.github.io/pyside-docs/index.html PySide referencia] : Un sinfín de detalles sobre las minucias de PySide y Qt, una fuente de referencia fiable
+* [http://nullege.com/codes/search?cq=PySide PySide fragmentos de código] : Una base de datos de fragmentos de código de PySide en la que se puede buscar
 
 Las siguientes dos referencias son específicas de PyQt (no de PySide) pero pueden ofrecer alguna información de utilidad:
 * [http://www.cs.usfca.edu/~afedosov/qttut/ Basic PyQt tutorial] : Un sencillo y corto tutorial basado en linux que explica cómo trabajar con PyQt y Qt Designer
