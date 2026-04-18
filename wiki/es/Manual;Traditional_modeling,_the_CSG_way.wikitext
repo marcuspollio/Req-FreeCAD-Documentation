@@ -74,11 +74,11 @@ Ahora vamos a crear las otras tres patas de la mesa haciendo seis copias adicion
 
 En lugar de duplicar el cubo base seis veces, podríamos haber duplicado la pata completa tres veces copiando y pegando el objeto de corte creado anteriormente a partir de nuestros dos primeros cubos y rotando cada pata cortada a su orientación correcta. En FreeCAD, a menudo existen varias maneras de lograr el mismo resultado. Es importante recordarlo, ya que puede resultar más fácil o eficiente utilizar diferentes técnicas en distintos contextos.
 
-* We will now make holes for the screws, using the same Cut operation. Since we need 8 holes (two in each leg) we could make 8 objects to be subtracted. However, let's explore another way. We can make 4 cylinders, each intersecting a pair of legs. So, let's create them with the [[Image:Part_Cylinder.svg|16px]] '''Cylinder''' tool. You can make one cylinder and duplicate it three times. Give each cylinder a radius of 6 mm. This time, we will need to rotate the cylinders using the '''Placement''' property under the Data tab ''('''Note:''' change the Axis property ''before'' setting the Angle, or the rotation will not be applied)'':
-** Cylinder: height: 1300 mm, angle: 90°, axis: x: 0, y: 1, z: 0, position: x: -10 mm, y: 40 mm, z: 720 mm
-** Cylinder001: height: 1300 mm, angle: 90°, axis: x: 0, y: 1, z: 0, position: x: -10 mm, y: 840 m, z: 720 mm
-** Cylinder002: height: 900 mm, angle: 90°, axis: x: -1, y: 0, z: 0, position: x: 40 mm, y: -10 mm, z: 700 m
-** Cylinder003: height: 900 mm, angle: 90°, axis: x: -1, y: 0, z: 0, position: x: 1240 mm, y: -10 mm, z: 700 mm
+* Ahora haremos agujeros para los tornillos, usando la misma operación de corte. Como necesitamos 8 agujeros (dos en cada pata), podríamos hacer 8 objetos para restar. Sin embargo, exploremos otra forma. Podemos hacer 4 cilindros, cada uno intersecando un par de patas. Así que, creémoslos con la herramienta [[Image:Part_Cylinder.svg|16px]] '''Cilindro'''. Puede hacer un cilindro y duplicarlo tres veces. Asígnele a cada cilindro un radio de 6 mm. Esta vez, necesitaremos rotar los cilindros usando la propiedad '''Posición''' en la pestaña Datos ''(''Nota:'''' cambie la propiedad Eje ''antes'' de establecer el Ángulo, de lo contrario, la rotación no se aplicará).
+** Cilindro: altura: 1300 mm, ángulo: 90°, eje: x: 0, y: 1, z: 0, posición: x: -10 mm, y: 40 mm, z: 720 mm
+** Cilindro001: altura: 1300 mm, ángulo: 90°, eje: x: 0, y: 1, z: 0, posición: x: -10 mm, y: 840 mm, z: 720 mm
+** Cilindro002: altura: 900 mm, ángulo: 90°, eje: x: -1, y: 0, z: 0, posición: x: 40 mm, y: -10 mm, z: 700 mm
+** Cilindro003: altura: 900 mm, ángulo: 90°, eje: x: -1, y: 0, z: 0, posición: x: 1240 mm, y: -10 mm, z: 700 mm
 
 [[Image:Exercise_table_04.jpg]]
 
