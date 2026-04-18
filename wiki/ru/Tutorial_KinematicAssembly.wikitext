@@ -46,8 +46,8 @@ The '''Base''' is an object with two main geometries, a hole and a pin. Both are
 <span id="Locked_Base"></span>
 ====Блокировка основания====
 
-To keep the assembly at the desired position, the base part should be locked.
-: (If the [[Image:Assembly_LockMover.svg|16px]] [[Assembly3_LockMover|Lock mover]] command is activated, motion tools are deactivated as long as a locked part is selected.)
+Чтобы зафиксировать сборку в нужном положении, необходимо заблокировать базовую деталь.
+: (Если активирована команда [[Image:Assembly_LockMover.svg|16px]] [[Assembly3_LockMover|Блокировка перемещения]], инструменты перемещения будут отключены до тех пор, пока выбрана заблокированная деталь.)
 
 # Select one face of the Base.
 # Press the button {{Button|[[Image:Assembly_ConstraintLock.svg|16px]] [[Assembly3_ConstraintLock|Create "Locked" constraint]]}} to keep the Base in place permanently.
