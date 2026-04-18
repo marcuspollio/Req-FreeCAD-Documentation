@@ -13,14 +13,10 @@
 
 ==Introduction==
 
-<div class="mw-translate-fuzzy">
-[[Std_Base/zh-hans|标准基础]]不是一个真实的工作台，该页面从不属于任何特定工作台但可能被所有工作台使用的的基础系统收集所有命令。
-</div>
+[[Std_Base/zh-hans|基础组件]]不是完整的工作台，这里只收集可能被所有工作台使用的的“基础”命令。
 
 <span id="Tools"></span>
-<div class="mw-translate-fuzzy">
 == 工具 ==
-</div>
 
 <div class="mw-translate-fuzzy">
 多数此页面中命令可以访问菜单、工具条和上下文菜单。
@@ -59,7 +55,7 @@ The standard menu is composed of 7 sub-menus. Each sub-menu has a dedicated page
 
 :* [[File:Part_CoordinateSystem.svg|32px]] [[Part_CoordinateSystem|Coordinate System]]: Creates a coordinate system object that can be attached to other objects. {{Version|1.1}}
 
-:* [[File:Part_DatumPlane.svg|32px]] [[Part_DatumPlane|Datum Plane]]: Creates a datum plane object that can be attached to other objects. {{Version|1.1}}
+:* [[File:Part_DatumPlane.svg|32px]] [[Part_DatumPlane|Datum Plane]]: 创建一个可附着于其他对象的基准平面对象。 {{Version|1.1}}
 
 :* [[File:Part_DatumLine.svg|32px]] [[Part_DatumLine|Datum Line]]: Creates a datum line object that can be attached to other objects. {{Version|1.1}}
 
