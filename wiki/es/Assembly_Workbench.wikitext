@@ -243,9 +243,7 @@ Mueva la '''SliderRod''' con el botón izquierdo del ratón. Solo debería ser p
 
 {{Caption|Elementos seleccionados + [[Image:Assembly_CreateJointRevolute.svg|24px]] [[Assembly_CreateJointRevolute|Articulación de revolución]] → Biela reorganizada}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Move the '''ConnectingRod''' using the left mouse button. Only a rotation around the pivot should be possible.
-</div>
+Mueva la '''ConnectingRod''' usando el botón izquierdo del ratón. Solo debería ser posible una rotación alrededor del punto de pivote.
 
 [[Image:Assembly_KinematicExample-11.png|200px]]
 [[Image:Button_right.svg|16px|link=]]
