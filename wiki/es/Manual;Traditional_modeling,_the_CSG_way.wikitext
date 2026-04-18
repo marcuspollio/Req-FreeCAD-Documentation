@@ -56,7 +56,7 @@ Ahora debería ver dos cubos altos, uno desplazado 8 mm con respecto al otro tan
 
 [[Image:Exercise_table_02.jpg]]
 
-The newly created object, called "Cut", contains the two cubes we used as operands. In fact, the two cubes are still in the document, and have merely been hidden and grouped under the Cut object in the tree view. You can still select them by expanding the arrow next to the Cut object. If you wish, you can make them visible again by clicking the eye icons next to their object labels, in their right-click menus, or by changing their properties.
+El objeto recién creado, llamado "Cortar", contiene los dos cubos que usamos como operandos. De hecho, los dos cubos siguen en el documento; simplemente se han ocultado y agrupado bajo el nuevo objeto "Cortar" en la vista de árbol. Aún puede seleccionarlos expandiendo la flecha junto a dicho objeto. Si lo desea, puede volver a hacerlos visibles haciendo clic en los iconos de ojo junto a sus etiquetas, en sus menús contextuales o modificando sus propiedades.
 
 You can also perform cut and other Boolean operations with the [[Image:Part_Boolean.svg|16px]] [[Part Boolean|Boolean]] tool.
 
