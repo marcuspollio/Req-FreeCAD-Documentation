@@ -101,10 +101,13 @@ Se abrirá un panel de tareas para que podamos elegir un material. En la lista d
 
 [[File:FreeCAD FEM Calculix.png|600px]]
 
-* We can now look at the results. Click on the [[Image:FEM_ResultShow.svg|16px]] [[FEM_ResultShow|show results]] option.
-* Tick the '''Displacement Z''' option, which is the vertical coordinate for our case.
-* You can see the minimum and maximum values for the vertical displacement. Based on the analysis the maximum vertical displacement is ''' -356.30 mm'''. This matches our analytical solution of '''-357.14 mm''' well.
-* You can move the slider next to it. You will be able to see the deformation growing as you apply more force:
+* Ahora podemos ver los resultados. Haga clic en la opción [[Image:FEM_ResultShow.svg|16px]] [[FEM_ResultShow|Mostrar resultados]].
+
+* Marque la opción '''Desplazamiento Z''', que es la coordenada vertical en nuestro caso.
+
+* Puede ver los valores mínimo y máximo del desplazamiento vertical. Según el análisis, el desplazamiento vertical máximo es ''' -356,30 mm'''. Esto coincide con nuestra solución analítica de ''' -357,14 mm'''.
+
+* Puede mover el control deslizante que se encuentra al lado. Podrá ver cómo aumenta la deformación a medida que se aplica más fuerza.
 
 [[File:FreeCAD FEM Results.png|600px]]
 
