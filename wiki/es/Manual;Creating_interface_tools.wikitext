@@ -19,7 +19,7 @@ Python ofrece una herramienta básica para que el usuario introduzca texto en la
 
 print("La altura ingresada es ",texto)
 
-However, this requires a running Python console, and when running our code from a macro, we are not always sure that the Python console will be turned on on the user's machine.
+Sin embargo, esto requiere que la consola de Python esté en funcionamiento, y cuando ejecutamos nuestro código desde una macro, no siempre podemos estar seguros de que la consola de Python esté activada en la máquina del usuario.
 
 The [https://en.wikipedia.org/wiki/Graphical_user_interface Graphical User Interface] (GUI)—encompassing the menus, toolbars, 3D view, and other visual components of FreeCAD—is designed to make the software intuitive and accessible. It serves as a bridge between the user and FreeCAD's underlying functionality, allowing both casual users and experts to interact with the program effectively.
 
