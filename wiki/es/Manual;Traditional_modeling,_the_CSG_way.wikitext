@@ -25,7 +25,7 @@ En FreeCAD, la geometría basada en BREP se gestiona mediante OpenCasCade (https
 
 Si bien otros entornos de trabajo de FreeCAD, como el Entorno de Trabajo de Diseño (Part Desing) y el Entorno de Trabajo de Superficies (Surface Workbench), ofrecen herramientas más avanzadas para la creación y manipulación de geometría, dependen del Entorno de Trabajo de Piezas (Part Workbench). Comprender el funcionamiento interno de los objetos Part y dominar sus herramientas básicas es fundamental. A menudo, estas herramientas más sencillas, pueden resolver problemas que las herramientas más complejas no solucionan eficazmente.
 
-To illustrate the use of the Part Workbench, we will model this table using only CSG operations (except the screws, for which we will use one of the addons, and the dimensions, which will see in the next chapter):
+Para ilustrar el uso del Entorno de Trabajo de Piezas, modelaremos esta mesa utilizando únicamente operaciones CSG (excepto los tornillos, para los que utilizaremos uno de los complementos, y las dimensiones, que veremos en el próximo capítulo):
 
 [[Image:Exercise_table_complete.jpg]]
 
