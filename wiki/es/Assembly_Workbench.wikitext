@@ -40,9 +40,7 @@ El [[Archivo:Workbench_Assembly.svg|24px]] [[Assembly_Workbench|Entorno de traba
 
 * [[Image:Assembly_CreateSimulation.svg|32px]] [[Assembly_CreateSimulation|Simulación]]: Crea una simulación del ensamblaje actual. {{Version|1.1}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Assembly_CreateBom.svg|32px]] [[Assembly_CreateBom|Bill of Materials]]: creates a bill of materials (BOM) from a selected assembly or from the document.
-</div>
+* [[Image:Assembly_CreateBom.svg|32px]] [[Assembly_CreateBom|Lista de materiales]]: Crea una lista de materiales (BOM) a partir de un ensamblaje seleccionado o del documento.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * <span id="Assembly_ExportASMT">[[Image:Assembly_ExportASMT.svg|32px]] Export ASMT File:</span><!--Do not edit span id: the Assembly_ExportASMT pages redirect here--> exports data of the currently active assembly as an ASMT file for debugging purposes.
