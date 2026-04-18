@@ -373,9 +373,8 @@ view.viewIsometric()
 view.fitAll()
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Change angle of axles===
-</div>
+<span id="Change_angle_of_axles"></span>
+=== Cambio de ángulo en los ejes ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The angle between the axles is set to 20 degrees. If you want to change this value select Axle2 and change the Placement.Angle property. This property must be changed before moving Axle2 into the assembly.
