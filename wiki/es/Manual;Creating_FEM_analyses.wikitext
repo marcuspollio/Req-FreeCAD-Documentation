@@ -27,7 +27,7 @@ Este entorno de trabajo permite la integración con otros entornos de trabajo de
 
 '''Ejecución del solucionador''': Una vez completada la configuración, el solucionador calcula la respuesta del modelo a las condiciones aplicadas. Los solucionadores como CalculiX calculan desplazamientos, tensiones y otras magnitudes, según el tipo de análisis realizado. El proceso puede tardar diferentes tiempos dependiendo de la densidad de la malla y la complejidad del modelo.
 
-*  '''Post-Processing''': After the simulation, results are visualized using tools in the FEM Workbench. Stress, strain, and displacement fields are represented as color maps and deformation plots can be generated. These visualizations allow for a thorough analysis of the model's performance, highlighting areas of high stress or deformation.
+* '''Posprocesamiento''': Tras la simulación, los resultados se visualizan mediante las herramientas del entorno de trabajo FEM. Los campos de tensión, deformación y desplazamiento se representan como mapas de color y se pueden generar gráficos de deformación. Estas visualizaciones permiten un análisis exhaustivo del rendimiento del modelo, destacando las zonas de alta tensión o deformación.
 
 
 [[File:FreeCAD FEMBeam.png|600px]]
