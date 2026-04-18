@@ -87,7 +87,7 @@ El motivo por el que utilizamos '''Spreadsheet001''' en lugar de '''Input''' en 
 
 [[File:FreeCAD SpreedSheet SelectionView.png]]
 
-By using cell aliases in FreeCAD's Spreadsheet Workbench, it's possible to store "master values" within the document, making it easy to manage and modify key parameters. For instance, a spreadsheet can hold the dimensions of a model, allowing these values to be referenced throughout the design. This approach simplifies the process of updating the model; if new dimensions are required, you can simply open the spreadsheet, adjust the values, and the model will automatically update to reflect these changes. This method streamlines versioning and improves efficiency, especially in parametric modeling, where dimensions frequently change based on project requirements.
+Mediante el uso de alias de celda en el Entorno de Trabajo de Hojas de Cálculo de FreeCAD, es posible almacenar valores maestros dentro del documento, lo que facilita la gestión y modificación de parámetros clave. Por ejemplo, una hoja de cálculo puede contener las dimensiones de un modelo, permitiendo consultar estos valores a lo largo del diseño. Este método simplifica la actualización del modelo: si se requieren nuevas dimensiones, basta con abrir la hoja de cálculo, ajustar los valores y el modelo se actualizará automáticamente. Esto optimiza el control de versiones y mejora la eficiencia, especialmente en el modelado paramétrico, donde las dimensiones cambian con frecuencia según los requisitos del proyecto.
 
 Finally, note that the constraints inside a sketch can also receive the value of a spreadsheet cell:
 
