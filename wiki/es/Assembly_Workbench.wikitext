@@ -233,9 +233,7 @@ Mueva la '''manivela''' con el botón izquierdo del ratón. Solo debería ser po
 
 {{Caption|Elementos seleccionados + [[Image:Assembly_CreateJointSlider.svg|24px]] [[Assembly_CreateJointSlider|Articulación del deslizador]] → Varilla del deslizador reorganizada}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Move the '''SliderRod''' using the left mouse button. Only a displacement along its centerline should be possible.
-</div>
+Mueva la '''SliderRod''' con el botón izquierdo del ratón. Solo debería ser posible un desplazamiento a lo largo de su eje central.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * A Revolute joint between Crank and Connecting Rod
