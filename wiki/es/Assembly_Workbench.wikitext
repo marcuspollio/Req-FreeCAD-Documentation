@@ -707,9 +707,7 @@ La bisagra del pistón gira alrededor del Eje 2, mientras que la bisagra del cil
 
 El siguiente código Python creará un nuevo documento con 6 objetos. Cree una nueva macro y copie y pegue el código siguiente en el editor de Python (no en la consola de Python). Luego, ejecute la macro con [[Std_DlgMacroExecuteDirect]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The code below cannot be run from the Python Console because the spring must be a [[App_FeaturePython|Part::FeaturePython]] object defined by of a class with the callback functions {{Incode|execute()}} and {{Incode|onChanged()}}. Only then can its height be changed via a property.
-</div>
+El código siguiente no se puede ejecutar desde la consola de Python porque el resorte debe ser un objeto [[App_FeaturePython|Part::FeaturePython]] definido por una clase con las funciones de devolución de llamada {{Incode|execute()}} y {{Incode|onChanged()}}. Solo entonces se puede cambiar su altura a través de una propiedad.
 
 {{Code|code=
 import math
