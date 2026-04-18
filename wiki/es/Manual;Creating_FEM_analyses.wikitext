@@ -34,7 +34,7 @@ Este entorno de trabajo permite la integración con otros entornos de trabajo de
 
 === Preparing FreeCAD ===
 
-In this section, we will demonstrate the general FEM analysis procedure through a simple example. While the topic of FEM is vast, we will focus on a straightforward geometry: a cantilever beam. Our objective is to determine the maximum vertical displacement of this beam under an applied load, and we will compare the numerical results with the analytical solution. In computational mechanics, verifying numerical results against experimental data or analytical solutions is essential to ensure the accuracy and reliability of the simulation. Additionally, we will be using packages that are already included in the FreeCAD installation, so no additional installations will be required for this analysis.
+En esta sección, ilustraremos el procedimiento general de análisis de elementos finitos (FEM) mediante un ejemplo sencillo. Si bien el tema de FEM es extenso, nos centraremos en una geometría simple: una viga en voladizo. Nuestro objetivo es determinar el desplazamiento vertical máximo de esta viga bajo una carga aplicada y compararemos los resultados numéricos con la solución analítica. En mecánica computacional, verificar los resultados numéricos con datos experimentales o soluciones analíticas es fundamental para garantizar la precisión y confiabilidad de la simulación. Además, utilizaremos paquetes que ya están incluidos en la instalación de FreeCAD, por lo que no se requerirán instalaciones adicionales para este análisis.
 
 === Preparing the geometry ===
 
