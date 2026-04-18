@@ -489,9 +489,7 @@ Una articulación de tornillo acopla la traslación de una pieza con articulaci�
 
 En este ejemplo, todas las piezas y el ensamblaje se crean en un solo documento.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The Python code below will create a new document with four objects. Just copy-paste the following lines in the [[Python_Console|Python Console]]:
-</div> 
+El siguiente código Python creará un nuevo documento con cuatro objetos. Simplemente copie y pegue las siguientes líneas en la [[Python_Console|Consola de Python]]: 
 
 {{Code|code=
 import math
