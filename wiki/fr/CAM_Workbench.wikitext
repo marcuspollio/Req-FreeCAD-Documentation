@@ -52,9 +52,9 @@ Certaines limitations actuelles dont vous devez être conscient :
 == Unités ==
 
 La gestion des unités dans CAM peut prêter à confusion. Il y a plusieurs points à comprendre :
-# Les unités de base FreeCAD pour la longueur et le temps sont respectivement "mm" et "s". La vélocité est donc "mm/s". C'est ce que FreeCAD stocke en interne indépendamment de toute autre chose
-# Le schéma d'unité par défaut utilise les unités par défaut. Si vous utilisez le schéma par défaut et que vous entrez un taux d'avance sans chaîne d'unité, il sera saisi en tant que "mm/s"
-# La plupart des machines à commande numérique attendent un débit d'alimentation sous forme de "mm/min" ou "in/min". La plupart des post-processeurs convertissent automatiquement l'unité lors de la génération de gcode.
+# Les unités de base FreeCAD pour la longueur et le temps sont respectivement « mm » et « s ». La vélocité est donc « mm/s ». C'est ce que FreeCAD stocke en interne indépendamment de toute autre chose
+# Le système d'unités par défaut utilise les unités par défaut. Si vous utilisez le système d'unités par défaut et que vous entrez un taux d'avance sans unité, il sera saisi sous la forme « mm/s ».
+# La plupart des machines à commande numérique attendent un débit d'alimentation sous forme de « mm/min » ou « in/min ». La plupart des post-processeurs convertissent automatiquement l'unité lors de la génération de gcode.
 
 Schémas :
 # Changer le schéma dans les préférences change la chaîne d'unité par défaut pour les champs d'entrée. Si vous êtes un utilisateur CAM et que vous préférez concevoir en métrique, il est fortement recommandé d'utiliser le schéma "Metric Small Parts & CNC". Si vous concevez en unités américaines, Imperial Decimal et Building US fonctionneront.
