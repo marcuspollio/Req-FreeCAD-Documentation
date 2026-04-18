@@ -249,10 +249,8 @@ Mueva la '''ConnectingRod''' usando el botón izquierdo del ratón. Solo deberí
 [[Image:Button_right.svg|16px|link=]]
 [[Image:Assembly_KinematicExample-12.png|200px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|If there are several joints in a line we have to help the solver find a sensible solution.<br>
-If required, click and drag the parts into an easier to compute position.}}
-</div>
+{{Leyenda|Si hay varias uniones en una línea, debemos ayudar al solucionador a encontrar una solución razonable.<br>
+Si es necesario, haga clic y arrastre las piezas a una posición más fácil de calcular.}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * A Cylindrical joint between Connecting Rod and Slider Rod
