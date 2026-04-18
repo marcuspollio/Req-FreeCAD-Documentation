@@ -318,9 +318,7 @@ El conjunto consta de tres piezas sólidas: dos horquillas idénticas y una cruz
 
 En este ejemplo, todas las piezas y el ensamblaje se crean en un solo documento. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The Python code below will create a new document with four objects (only 1 Fork). Just copy-paste the following lines in the [[Python_Console|Python Console]]:
-</div>
+El siguiente código Python creará un nuevo documento con cuatro objetos (solo 1 Fork). Simplemente copie y pegue las siguientes líneas en la [[Python_Console|Consola de Python]]:
 
 {{Code|code=
 import math
