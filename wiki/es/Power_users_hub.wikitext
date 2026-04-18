@@ -74,10 +74,10 @@ La funcionalidad de FreeCAD está separada en Módulos que tratan con tipos de d
 <span id="Working_with_parametric_objects"></span>
 ===Trabajando con objetos paramétricos===
 
-* [[Scripted_objects/es|Objetos de guiónes]]: Cómo hacer objetos 100% desde guiónes en Python
-** [[Scripted_objects_with_attachment/es|Objetos guiónes con adjunto]]: Cómo hacer que los objetos de guión se puedan adjuntar a otros objetos.
-** [[Scripted_objects_saving_attributes/es|Scripted objects saving attributes]]: Cómo guardar y restaurar atributos de la clase proxy con {{incode|__dumps}} y {{incode|__loads}}.
-** [[Scripted_objects_migration/es|Migración de objetos guiónes]]: Cómo migrar objetos con guiones antiguos a una nueva clase.
+* [[Scripted_objects/es|Objetos de guiones]]: Cómo hacer objetos 100% a partir de guiones en Python
+** [[Scripted_objects_with_attachment/es|Objetos guiones con adjunto]]: Cómo hacer que los objetos de guión se puedan adjuntar a otros objetos.
+** [[Scripted_objects_saving_attributes/es|Los objetos programados guardan atributos]]: Cómo guardar y restaurar atributos de la clase proxy con {{incode|__dumps}} y {{incode|__loads}}.
+** [[Scripted_objects_migration/es|Migración de objetos guiones]]: Cómo migrar objetos con guiones antiguos a una nueva clase.
 
 <span id="Examples"></span>
 ===Ejemplos===
