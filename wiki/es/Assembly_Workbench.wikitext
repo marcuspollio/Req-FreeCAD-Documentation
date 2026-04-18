@@ -698,9 +698,7 @@ The vise can be driven by moving Crank or MovableJaw with the left mouse.
 
 En este ejemplo se crea un [https://en.wikipedia.org/wiki/Shock_absorber amortiguador].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The assembly consists of three solid parts: a piston, a cylinder and a spring. Three additional non solid elements, two axles and a rod are also needed. All parts are connected with several joints.
-</div>
+El conjunto consta de tres piezas sólidas: un pistón, un cilindro y un resorte. También se necesitan tres elementos no sólidos adicionales: dos ejes y una varilla. Todas las piezas están conectadas mediante varias articulaciones.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The hinge of the piston rotates around Axle2, while the hinge of the cylinder moves on an arc of circle centered on Axle1. The non solid Rod is used for this movement. The length of the Rod is the radius of the arc.
