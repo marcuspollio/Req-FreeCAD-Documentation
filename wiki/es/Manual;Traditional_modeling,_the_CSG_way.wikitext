@@ -94,7 +94,7 @@ Como puede observar, cada pata se describe ahora mediante una serie de operacion
 
 Otra particularidad de FreeCAD es que los conceptos de objeto 3D y operación 3D tienden a fusionarse. "Cortar" se refiere tanto a una operación como al objeto 3D resultante. En FreeCAD, a esto se le suele llamar "función" en lugar de "objeto" u "operación".
 
-Ahora vamos a modelar la superficie de la mesa. Será un prisma rectangular simple, así que comencemos con otro cubo y cambiemos sus dimensiones en la pestaña Datos de la siguiente manera:
+Ahora vamos a modelar la superficie de la mesa. Será un prisma rectangular simple, así que comencemos con otro '''Cubo''' y cambiemos sus dimensiones en la pestaña Datos de la siguiente manera:
 * Caja: largo: 1260 mm, ancho: 860 mm, alto: 80 mm, posición: x: 10 mm, y: 10 mm, z: 670 mm.
 
 En la pestaña '''Vista''', puede darle un color marrón, similar a la madera, cambiando su propiedad '''Apariencia de forma''':
