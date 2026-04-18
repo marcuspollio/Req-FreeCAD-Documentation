@@ -21,7 +21,8 @@ This tutorial is about how to set up a simple mechanism, mainly with the tools f
 <span id="Assembly"></span>
 ==Сборка==
 
-===Parts===
+<span id="Parts"></span>
+===Детали===
 
 The '''Base''' is an object with two main geometries, a hole and a pin. Both are cylindrical. The rest of the shape is not relevant for this tutorial unless it causes clashes. The same goes for the other parts.
 
