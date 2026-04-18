@@ -114,8 +114,9 @@ Puede cambiar la posición del texto de una cota haciendo doble clic en la cota 
 
 [[Image:Exercise_cabin_09.jpg]]
 
-* Let's add some description texts using the [[Image:Draft_Text.svg|16px]] [[Draft_Text|Text]] tool. Click a point to position the text, then enter the lines of text, pressing Enter after each line. To finish, press Enter twice.
-* The indication lines (also called "leaders") that link the texts to the item they are describing are simply done with the Wire tool. Draw wires, starting from the text position, to the place being described. Once that is done, you can add a bullet or arrow at the end of the wires by setting their '''End Arrow''' property to '''TRUE'''
+* Añadamos textos descriptivos con la herramienta [[Image:Draft_Text.svg|16px]] [[Draft_Text|Texto]]. Haga clic en un punto para situar el texto y, a continuación, introduzca el mismo, pulsando Intro después de cada una. Para finalizar, pulse Intro dos veces.
+
+* Las líneas de referencia (también llamadas "líneas guía") que unen los textos con el elemento que describen se crean fácilmente con la herramienta Cable. Dibuje cables desde la posición del texto hasta el lugar que se describe. Una vez hecho esto, puede añadir una viñeta o una flecha al final de los cables estableciendo su propiedad '''Flecha final''' en '''VERDADERO'''.
 
 [[Image:Exercise_cabin_10.jpg]]
 
