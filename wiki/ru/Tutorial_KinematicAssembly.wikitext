@@ -13,7 +13,7 @@
 
 This tutorial is about how to set up a simple mechanism, mainly with the tools from the external [[Image:Assembly3_workbench_icon.svg|16px]] [[Assembly3_Workbench|Assembly3 Workbench]].
 
-The kinematic assembly we will create consists of four parts: a Base, a Slider, a Crank, and a connecting Rod. They are connected with four joints.
+Кинематическая сборка, которую мы создадим, состоит из четырех деталей: основания, ползунка, кривошипа и шатуна. Они соединены четырьмя сопряжениями.
 
 [[Image:Assembly3_KinematicExample-01.png|400px]]
 {{Caption|Assembled parts: Base (amber), Slider (light blue), Crank (red), connecting Rod (green)}}
