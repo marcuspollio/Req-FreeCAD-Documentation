@@ -59,9 +59,7 @@ El [[Archivo:Workbench_Assembly.svg|24px]] [[Assembly_Workbench|Entorno de traba
 
 * [[Image:Assembly_CreateJointSlider.svg|32px]] [[Assembly_CreateJointSlider|Articulación deslizante]]: Crea una articulación deslizante (prismática) entre dos piezas seleccionadas, permitiendo un movimiento lineal a lo largo de un solo eje mientras restringe la rotación.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Assembly_CreateJointBall.svg|32px]] [[Assembly_CreateJointBall|Ball Joint]]: creates a spherical joint between two selected parts at a single point, allowing free rotation around the point while keeping both parts connected at this point.
-</div>
+* [[Image:Assembly_CreateJointBall.svg|32px]] [[Assembly_CreateJointBall|Articulación esférica]]: Crea una articulación esférica entre dos piezas seleccionadas en un solo punto, permitiendo la rotación libre alrededor del punto mientras se mantienen ambas piezas conectadas en este punto.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Assembly_CreateJointDistance.svg|32px]] [[Assembly_CreateJointDistance|Distance Joint]]: creates a distance joint between two selected parts, fixing the distance between both parts.
