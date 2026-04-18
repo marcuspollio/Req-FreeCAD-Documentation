@@ -53,10 +53,13 @@ La segunda parte clave de nuestra clase es el método '''execute'''. Este métod
 
 In summary:
 
-* The '''execute''' method is called whenever the object needs to be updated.
-* It is responsible for recalculating the shape and assigning it to the object's '''Shape''' attribute.
-* The '''obj''' argument gives access to the FreeCAD document object, enabling you to make changes programmatically.
-With this system, FreeCAD handles the rest—ensuring that the object is properly updated in the document and displayed correctly in the graphical interface.
+* El método '''execute''' se invoca siempre que sea necesario actualizar el objeto.
+
+* Este método se encarga de recalcular la forma y asignarla al atributo '''Shape''' del objeto.
+
+* El argumento '''obj''' proporciona acceso al objeto del documento de FreeCAD, lo que permite realizar cambios mediante programación.
+
+Con este sistema, FreeCAD se encarga del resto, asegurando que el objeto se actualice correctamente en el documento y se muestre adecuadamente en la interfaz gráfica.
 
 One crucial thing to remember is that when you create parametric objects in a FreeCAD document, the Python code used to define them is not saved within the file. This is an intentional security measure. If FreeCAD files were allowed to store Python code, it could open the door for malicious actors to distribute files containing harmful scripts that might damage someone’s computer. As a result, when you share a FreeCAD file containing parametric objects created with custom Python code, the recipient must also have access to the code used to define those objects. Without it, FreeCAD won’t know how to recalculate or interact with the objects properly.
 
