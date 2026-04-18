@@ -122,7 +122,7 @@ La tupla original para {{incode|self.color}} se convirtió en una lista, pero po
 <span id="Identifying_the_type"></span>
 === Identificación del tipo ===
 
-Normally, [[scripted_objects|scripted objects]] should use [[property|properties]] to store information, as these are automatically restored when the document is opened.
+Normalmente, los objetos con script deberían usar propiedades para almacenar información, ya que estas se restauran automáticamente cuando se abre el documento.
 
 However, sometimes the class restore internal information which is not intended to be modified, but which is helpful to inspect.
 
