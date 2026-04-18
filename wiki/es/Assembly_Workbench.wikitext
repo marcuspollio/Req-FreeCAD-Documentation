@@ -265,9 +265,7 @@ En el ensamblaje final, utilice el puntero del ratón para arrastrar las piezas 
 <span id="Note"></span>
 ==== Nota ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The pin of the Slider Rod is redundantly orientated. Its centerline is parallel to the pin of the Base through the kinematic chain from Base via Crank and Connecting Rod, i.e. its local Z-Axis cannot rotate around any X- or Y-axis. The Slider joint also prevents the rotation of its Z-Axis around two local axes and so results in two redundantly constrained degrees of freedom. A Cylindrical joint instead of the Slider joint would only lock one rotation resulting in only a single redundantly constrained degree of freedom.
-</div>
+El pasador de la biela deslizante tiene una orientación redundante. Su eje central es paralelo al pasador de la base a través de la cadena cinemática que va desde la base, pasando por la manivela y la biela, lo que significa que su eje Z local no puede girar alrededor de ningún eje X o Y. La articulación deslizante también impide la rotación de su eje Z alrededor de dos ejes locales, lo que resulta en dos grados de libertad con restricciones redundantes. Una articulación cilíndrica, en lugar de la deslizante, solo bloquearía una rotación, lo que resultaría en un único grado de libertad con restricciones redundantes.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Drive the crank===
