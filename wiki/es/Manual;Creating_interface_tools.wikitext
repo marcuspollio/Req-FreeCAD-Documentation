@@ -11,7 +11,7 @@
 
 En los dos últimos capítulos, vimos cómo [[Manual:Creación y manipulación de geometría|crear geometrías de piezas]] y [[Manual:Creación de objetos paramétricos|crear objetos paramétricos]]. Falta un último elemento para obtener el control total de FreeCAD: crear herramientas que interactúen con el usuario.
 
-In many situations, it is not very user-friendly to construct an object with zero values, like we did with the rectangle in the previous chapter, and then ask the user to fill in the Height and Width values in the Properties panel. This works for a very small number of objects but will become very tedious if you have a lot of rectangles to make. A better way would be to be able to already give the Height and Width when creating the rectangle.
+En muchas situaciones, no resulta muy práctico crear un objeto con valores cero, como hicimos con el rectángulo en el capítulo anterior, y luego pedirle al usuario que introduzca los valores de altura y anchura en el panel de propiedades. Esto funciona para un número reducido de objetos, pero se vuelve muy tedioso si hay que crear muchos rectángulos. Una mejor solución sería poder especificar la altura y la anchura al crear el rectángulo.
 
 Python offers a basic tool to have the user enter text on the screen:
 
