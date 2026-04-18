@@ -60,12 +60,12 @@ Schémas :
 # Changer le schéma dans les préférences change la chaîne d'unité par défaut pour les champs d'entrée. Si vous êtes un utilisateur CAM et que vous préférez concevoir en métrique, il est fortement recommandé d'utiliser le schéma "Metric Small Parts & CNC". Si vous concevez en unités américaines, Imperial Decimal et Building US fonctionneront.
 # Changer le schéma de votre unité préférée n'aura aucun effet sur la sortie, mais aidera à éviter les erreurs de saisie.
 
-Sortie :
-# La génération de l'unité correcte en sortie relève de la responsabilité du post-processeur et n'est effectuée qu'à ce moment-là.
-# L'unité de sortie de la machine n'a aucun rapport avec le schéma d'unités que vous avez choisi.
+Résultat :
+# C'est au post-processeur qu'il incombe de générer l'unité de mesure correcte dans la sortie, et cette opération n'est effectuée qu'à ce moment-là.
+# L'unité de sortie de la machine n'a aucun rapport avec le système d'unités que vous avez choisi.
 # Les post-processeurs produisent une sortie métrique (G21), une sortie impériale (G20) ou sont configurables.
 # Les post-processeurs configurables produisent par défaut une sortie métrique (G21).
-# Si vous souhaitez que votre post-processeur configurable produise du G-code impérial (G20), définissez l'argument correct dans la configuration de sortie de votre tâche (par exemple --inches pour linuxcnc). Ceci peut être stocké dans un modèle de tâche et défini comme modèle par défaut pour le rendre automatique pour tous les tâches futures.
+# Si vous souhaitez que votre post-processeur configurable produise du G-code impérial (G20), définissez l'argument correct dans la configuration de sortie de votre tâche (par exemple, inches pour linuxcnc). Ceci peut être stocké dans un modèle de tâche et défini comme modèle par défaut pour le rendre automatique pour tous les tâches futures.
 
 CAM Inspection :
 # Si vous utilisez l'outil CAM Inspection pour inspecter le G-code, vous le verrez en "mm/s" car il n'est pas post-traité.
