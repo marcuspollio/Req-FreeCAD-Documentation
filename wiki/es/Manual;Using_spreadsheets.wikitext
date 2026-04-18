@@ -17,7 +17,7 @@ Además de gestionar valores, este entorno de trabajo es excelente para la gesti
 
 Las hojas de cálculo también permiten a los usuarios introducir fórmulas para realizar cálculos y gestionar datos. Estas fórmulas pueden hacer referencia a otras celdas o parámetros de la hoja de cálculo dentro del modelo 3D, lo que hace que todo el proceso de diseño sea adaptable y responda a los cambios.
 
-It can integrate seamlessly with other FreeCAD workbenches, allowing interaction between data and model components. This integration centralizes control over different aspects of the project, making it easier to manage. The interface is straightforward, resembling traditional spreadsheet software, which makes it familiar and easy to use for those already accustomed to programs like Excel or LibreOffice Calc.
+Se integra a la perfección con otros entornos de trabajo de FreeCAD, permitiendo la interacción entre los datos y los componentes del modelo. Esta integración centraliza el control sobre los distintos aspectos del proyecto, facilitando su gestión. Su interfaz es sencilla, similar a la de las hojas de cálculo tradicionales, lo que la hace familiar y fácil de usar para quienes ya están familiarizados con programas como Excel o LibreOffice Calc.
 
 In practice, the Spreadsheet Workbench is versatile for different use cases, including defining project-wide parameters, managing bills of materials (BOM), and performing custom calculations that influence design decisions. It simplifies complex projects by centralizing the control of parameters in one location.
 
