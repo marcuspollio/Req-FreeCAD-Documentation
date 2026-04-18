@@ -107,9 +107,7 @@ El conjunto a crear consta de cuatro partes: una base, una varilla deslizante, u
 
 En este ejemplo, todas las piezas y el ensamblaje se crean en un solo documento.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The  cylindrical geometries of the objects are either parallel or perpendicular, the rest of the shapes is not relevant for this example unless there are clashes. With this in mind you can model your own objects or create them with the Python code below. The code will create a new document with the four objects (simpler than in the images). Just copy-paste the following lines in the [[Python_Console|Python Console]]:
-</div>
+Las geometrías cilíndricas de los objetos son paralelas o perpendiculares; el resto de las formas no son relevantes para este ejemplo, a menos que haya colisiones. Teniendo esto en cuenta, puede modelar sus propios objetos o crearlos con el código Python que se muestra a continuación. El código creará un nuevo documento con los cuatro objetos (más sencillo que en las imágenes). Simplemente copie y pegue las siguientes líneas en la [[Python_Console|Consola de Python]]:
 
 {{Code|code=
 import FreeCAD as App
