@@ -106,9 +106,11 @@ A continuación, añadamos un fregadero y una placa de cocina. Dibujar este tipo
 
 [[Image:Exercise_cabin_08.jpg]]
 
-* We can now place a couple of dimensions using the [[Image:Draft_Dimension.svg|16px]] [[Draft_Dimension|Dimension]] tool. To create a dimension, you start by selecting three points: the first point sets the start of the measurement, the second point defines the endpoint, and the third point determines where the dimension line and text will be placed. By clicking these points carefully, you ensure that the dimension accurately represents the distance between the two selected points. If you want to force the dimension to be perfectly horizontal or vertical, even if the start and end points are not aligned, hold down the '''Shift''' key while clicking the second point. This locks the dimension into the desired orientation. You can further refine the dimension by adjusting properties such as text size, precision, and color in the properties panel, ensuring the dimensions fit your project’s visual and technical standards.
-* You can change the position of a dimension text by double-clicking the dimension in the tree view. A control point will allow you to move the text graphically. In our exercise, the "0.15" texts have been moved away for better clarity.
-* You can change the contents of the dimension text by editing their '''Override''' property. In our example, the texts of the door and window dimensions have been edited to indicate their heights:
+Ahora podemos colocar un par de cotas usando la herramienta [[Image:Draft_Dimension.svg|16px]] [[Draft_Dimension|Dimensión]]. Para crear una cota, primero seleccione tres puntos: el primero establece el inicio de la medición, el segundo define el punto final y el tercero determina dónde se colocarán la línea de cota y el texto. Al hacer clic con cuidado en estos puntos, se asegura de que la cota represente con precisión la distancia entre los dos puntos seleccionados. Si desea que la cota sea perfectamente horizontal o vertical, incluso si los puntos inicial y final no están alineados, mantenga presionada la tecla Mayús mientras hace clic en el segundo punto. Esto bloquea la cota en la orientación deseada. Puede refinar aún más la cota ajustando propiedades como el tamaño del texto, la precisión y el color en el panel de propiedades, asegurándose de que las cotas se ajusten a los estándares visuales y técnicos de su proyecto.
+
+Puede cambiar la posición del texto de una cota haciendo doble clic en la cota en la vista de árbol. Un punto de control le permitirá mover el texto gráficamente. En nuestro ejercicio, los textos "0.15" se han movido para mayor claridad.
+
+* Puede cambiar el contenido del texto de las dimensiones editando su propiedad '''Override'''. En nuestro ejemplo, los textos de las dimensiones de la puerta y la ventana se han editado para indicar sus alturas:
 
 [[Image:Exercise_cabin_09.jpg]]
 
