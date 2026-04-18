@@ -920,9 +920,8 @@ Seleccione el vértice inferior de la costura del cilindro en el Pistón y el v�
 
 # Ingrese en el editor de expresiones: {{Incode|<<Distance>>.Distance}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Drive the shock absorber===
-</div> 
+<span id="Drive_the_shock_absorber"></span>
+=== Accionar el amortiguador === 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To do so double-click the Distance object in the Tree View and change its Distance property. Recompute the document. The spring changes its length.
