@@ -47,7 +47,7 @@ A Broken View, formally a {{Incode|TechDraw::DrawBrokenView}} object, is derived
 {{TitleProperty|Broken View}}
 
 * {{PropertyData|Breaks|LinkList}}: Objects in the 3D View that define the start/end points and direction of breaks in this view.
-* {{PropertyData|Gap|Length}}: The separation distance for breaks in this view (unscaled 3D length).
+* {{PropertyData|Gap|Length}}: The separation distance for breaks in this view (unscaled 3D length). On the page this distance is multiplied by the view scale factor.
 
 == Notes ==
 
