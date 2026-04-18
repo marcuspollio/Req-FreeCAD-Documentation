@@ -126,7 +126,7 @@ Normalmente, los objetos con script deberían usar propiedades para almacenar in
 
 Sin embargo, en ocasiones la clase restaura información interna que no está destinada a ser modificada, pero que resulta útil para su inspección.
 
-For example, most objects of the [[Draft_Workbench|Draft Workbench]] set up a {{incode|Type}} attribute that can be used to determine the type of object that is under use.
+Por ejemplo, la mayoría de los objetos del [[Draft_Workbench|Entorno de Trabajo de Pieza]] establecen un atributo {{incode|Type}} que se puede utilizar para determinar el tipo de objeto que se está utilizando.
 
 {{Code|code=
 class DraftObject:
