@@ -37,7 +37,7 @@ class VariousStates:
         pass
 }}
 
-An object can be created using this class, and it can be saved to {{FileName|my_document.FCstd}}. If no particular [[viewprovider|viewprovider]] is assigned to the new object, its proxy class is simply set to a value different from {{incode|None}}, in this case, to {{incode|1}}.
+Se puede crear un objeto usando esta clase y guardarlo en {{FileName|my_document.FCstd}}. Si no se asigna ningún [[viewprovider|viewprovider]] en particular al nuevo objeto, su clase proxy simplemente se establece en un valor diferente de {{incode|None}}, en este caso, en {{incode|1}}.
 {{Code|code=
 import FreeCAD as App
 import various_states
