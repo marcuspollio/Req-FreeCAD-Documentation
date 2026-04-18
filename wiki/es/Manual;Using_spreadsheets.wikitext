@@ -63,13 +63,17 @@ La página [[Image:Workbench_Spreadsheet.svg|16px]] [[Spreadsheet_Workbench|Ento
 
 Otra potente función del Entorno de Trabajo de Hojas de Cálculo en FreeCAD es la capacidad no solo de leer valores de las propiedades de los objetos 3D, sino también de asignarles valores. Esto permite controlar las dimensiones y los atributos de los objetos directamente desde la hoja de cálculo. Sin embargo, una de las reglas fundamentales de FreeCAD es que las dependencias circulares están prohibidas; es decir, una hoja de cálculo no puede leer ni escribir en el mismo objeto simultáneamente. Si se hiciera, se crearía una situación en la que el objeto dependería de la hoja de cálculo, y viceversa, lo que daría lugar a una configuración no válida. Para evitar esto, normalmente se crea una segunda hoja de cálculo para gestionar la escritura de valores, asegurando así una clara separación entre los procesos de lectura y escritura.
 
-* We can now close the spreadsheet tab (under the 3D view). This is not mandatory, there is no problem in keeping several spreadsheet windows open.
-* Press the [[Image:Spreadsheet_Create.svg|16px]] '''New Spreadsheet''' button again
-* Change the name of the new spreadsheet to something more meaningful, such as '''Input''' (do this by right-clicking the new spreadsheet object, and choosing '''Rename''').
-* Double-click the Input spreadsheet to open the spreadsheet editor.
-* In cell A1, let's put a descriptive text, for example: "Cube dimensions"
-* In cell B1, write '''=5mm''' (using the = sign makes sure the value is interpreted as a unit value, not a text).
-* Now to be able to use this value outside the spreadsheet, we need to give a name, or alias, to the B1 cell.  Right-click the cell, click '''Properties''' and select the '''Alias''' tab. Give it a name, such as '''cubedims''':
+* Ahora podemos cerrar la pestaña de la hoja de cálculo (en la vista 3D). Aunque esta opción no es obligatoria; no hay problema en mantener varias ventanas de hojas de cálculo abiertas.
+
+* Pulse de nuevo el botón [[Image:Spreadsheet_Create.svg|16px]] '''Nueva hoja de cálculo'''.
+* Cambie el nombre de la nueva hoja de cálculo por uno más descriptivo, como '''Entrada''' (para ello, haga clic con el botón derecho en el objeto de la nueva hoja de cálculo y seleccione '''Cambiar nombre''').
+
+* Haga doble clic en la hoja de cálculo Entrada para abrir el editor de hojas de cálculo.
+
+* En la celda A1, escriba un texto descriptivo, por ejemplo: '''Dimensiones del cubo'''.
+* En la celda B1, escriba '''=5mm''' (el signo = garantiza que el valor se interprete como una unidad, no como texto).
+
+* Para poder usar este valor fuera de la hoja de cálculo, debemos asignarle un nombre o alias a la celda B1. Haga clic con el botón derecho en la celda, haga clic en '''Propiedades''' y seleccione la pestaña '''Alias'''. Asígnele un nombre, como '''cubedims''':
 
 [[File:FreeCAD Spreedsheet Alias.png]]
 
