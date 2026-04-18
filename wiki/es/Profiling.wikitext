@@ -3,9 +3,7 @@
 <span id="Description"></span>
 == Descripción ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Profiling the code of FreeCAD helps find bottlenecks in the algorithms used to create or manipulate objects.
-</div>
+Analizar el código de FreeCAD ayuda a encontrar cuellos de botella en los algoritmos utilizados para crear o manipular objetos.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To profile [[Python|Python]] code use the standard {{incode|cProfile}} module to define start and end points to profile in the code.
