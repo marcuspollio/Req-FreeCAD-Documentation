@@ -88,8 +88,9 @@ Se abrirá un panel de tareas para que podamos elegir un material. En la lista d
 
 [[File:FreeCAD FEM Beam FC.png|600px]]
 
-* We will now add a distributed load on the top face, that could represent, for example, a massive weight being placed on the beam. For this, we will use a press on the[[Image:FEM_ConstraintForce.svg|16px]] [[FEM ConstraintForce|Force load]] option.
-* Click the top face of the beam, set the force to '''1000 N''' and click on the '''reverse direction''' option. Then press the '''OK'''. Our force is now applied:
+* Ahora añadiremos una carga distribuida en la cara superior, que podría representar, por ejemplo, un peso considerable colocado sobre la viga. Para ello, pulsaremos la opción [[Image:FEM_ConstraintForce.svg|16px]] [[FEM ConstraintForce|Carga de fuerza]].
+
+* Haga clic en la cara superior de la viga, establezca la fuerza en '''1000 N''' y haga clic en la opción '''Invertir dirección'''. A continuación, pulse '''Aceptar'''. La fuerza ya está aplicada.
 
 [[File: FreeCAD_FEM_Beam_force.png|600px]]
 
