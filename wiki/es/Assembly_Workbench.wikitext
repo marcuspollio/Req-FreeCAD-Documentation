@@ -896,13 +896,9 @@ Las dos uniones siguientes son necesarias para fijar el resorte a la superficie 
 [[Image:Button_right.svg|16px|link=]]
 [[Image:Assembly_ShockAbsorberExample-13.png|200px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|[[Image:Assembly_CreateJointParallel.svg|24px]] [[Assembly_CreateJointParallel|Parallel Joint]] + Selected faces → rearranged Spring}}
-</div>
+{{Caption|[[Image:Assembly_CreateJointParallel.svg|24px]] [[Assembly_CreateJointParallel|Articulación paralela]] + Caras seleccionadas → Resorte reorganizado}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Select the center of the support face on the Piston and the center of the bottom face of the spring. Keep the distance value 0.
-</div>
+Seleccione el centro de la cara de soporte del pistón y el centro de la cara inferior del resorte. Mantenga el valor de distancia en 0.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * A Fixed joint between Spring and Piston
