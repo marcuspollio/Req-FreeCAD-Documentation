@@ -9,9 +9,19 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
-{{GuiCommand|Name=FEM MaterialSolid |MenuLocation=Model → FEM material for solid||Workbenches=[[FEM_Workbench|FEM]]|Shortcut=M,M|SeeAlso=[[FEM_tutorial|FEM tutorial]]}}
-</div>
+{{GuiCommandContainer|
+
+{{GuiCommand
+|Name=FEM MaterialSolid
+|MenuLocation=Model → Materials → Solid Material
+|Workbench=[[FEM_Workbench|FEM]]
+|Shortcut={{KEY|M}} {{KEY|S}}
+|SeeAlso=[[FEM_tutorial|FEM tutorial]]
+}}
+{{GuiCommandFemInfo
+|Solvers=All
+}}
+}}
 
 <span id="Description"></span>
 ==Descripción==
