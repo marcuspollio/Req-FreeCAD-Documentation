@@ -43,9 +43,11 @@ Comencemos creando el widget. Inicie Qt Creator y luego vaya al menú '''Archivo
 
 [[Image:Exercise_python_06.jpg]]
 
-* Find the '''Label''' in the list in the left panel (under the Display Widgets section), and drag it onto the canvas of our widget. Double-click the recently placed Label, and change its text to '''Length'''.
-* Right-click the widget canvas, and choose '''Lay out → Lay out in a Grid'''. This will turn our widget into a grid with currently only one cell, occupied by our first label. We can now add the next items at the left, right, top or bottom of our first label, and the grid will expand automatically.
-* Add two more labels below the first one, and change their text to Width and Height:
+* Busca la etiqueta '''Label''' en la lista del panel izquierdo (en la sección Widgets de visualización) y arrástrala al lienzo de nuestro widget. Haz doble clic en la etiqueta recién colocada y cambie su texto a '''Longitud'''.
+
+* Haga clic con el botón derecho en el lienzo del widget y seleccione '''Diseño → Diseño en cuadrícula'''. Esto convertirá nuestro widget en una cuadrícula con una sola celda, ocupada por nuestra primera etiqueta. Ahora podemos añadir los siguientes elementos a la izquierda, derecha, arriba o abajo de nuestra primera etiqueta, y la cuadrícula se expandirá automáticamente.
+
+* Añada dos etiquetas más debajo de la primera y cambie su texto a Ancho y Alto.
 
 [[Image:Exercise_python_08.jpg]]
 
