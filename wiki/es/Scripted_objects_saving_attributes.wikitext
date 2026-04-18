@@ -5,7 +5,7 @@
 <span id="Introduction"></span>
 == Introducción ==
 
-[[Scripted_objects|Scripted objects]] are rebuilt every time a [[File_Format_FCStd|FCStd document]] is opened. To do this the document keeps a reference to the module and Python class that were used to create the object, along with its properties.
+Los objetos con script se reconstruyen cada vez que se abre un documento FCStd. Para ello, el documento conserva una referencia al módulo y a la clase de Python que se utilizaron para crear el objeto, junto con sus propiedades.
 
 Attributes of the class used to create the object can also be saved, that is, "serialized". This can be further controlled by the {{incode|dumps}} and {{incode|loads}} methods of the class.
 
