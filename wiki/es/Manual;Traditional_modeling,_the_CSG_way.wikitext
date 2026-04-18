@@ -84,8 +84,9 @@ En lugar de duplicar el cubo base seis veces, podríamos haber duplicado la pata
 
 Observará que los cilindros se extienden más allá de las patas de la mesa. Esto se debe a que, como en todas las aplicaciones 3D basadas en sólidos, las operaciones booleanas en FreeCAD a veces fallan cuando las caras de los objetos son coplanares. Podemos evitar posibles errores colocando los extremos de los cilindros más allá de las superficies de las patas.
 
-* Now let's do the subtractions to create holes in the table legs. Select the first leg; then, with Ctrl pressed, select one of the cylinders that intersects it and press the '''Cut''' button. The hole will be created in the leg, and the cylinder will be hidden. You can find it in the tree view by expanding the leg's new cut object.
-* Select the other leg that intersects by this hidden cylinder, and repeat the operation. This time, select the cylinder in the Tree view, since it is hidden in the 3D view. (Alternatively, you could make the cylinder visible again and select it in the 3D view.) Repeat this operation for the other legs until each of them has two holes:
+* Ahora vamos a realizar las sustracciones para crear agujeros en las patas de la mesa. Selecciona la primera pata; luego, manteniendo pulsada la tecla '''Ctrl''', selecciona uno de los cilindros que la interseca y pulsa el botón '''Cortar'''. Se creará un agujero en la pata y el cilindro quedará oculto. Puedes encontrarlo en la vista de árbol expandiendo el nuevo objeto cortado de la pata.
+
+* Selecciona la otra pata que interseca con este cilindro oculto y repite la operación. Esta vez, selecciona el cilindro en la vista de árbol, ya que está oculto en la vista 3D. (Alternativamente, puedes hacer visible el cilindro de nuevo y seleccionarlo en la vista 3D). Repite esta operación para las demás patas hasta que cada una tenga dos agujeros.
 
 [[Image:Exercise_table_05.jpg]]
 
