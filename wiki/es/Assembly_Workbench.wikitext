@@ -197,9 +197,7 @@ En la vista de árbol, arrastre y suelte las piezas sobre el objeto Ensamblaje. 
 <span id="Ground_a_part"></span>
 === Pieza en tierra ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To keep the assembly at the desired position, the base part should be locked, or grounded as it is called here. Select the Base in the [[Tree_View|Tree View]] or in the [[3D_View|3D View]] and use the [[Image:Assembly_ToggleGrounded.svg|24px]] [[Assembly_ToggleGrounded|Toggle Grounded]] tool. This fixes the position of the Base in relation to the local coordinate system (LCS) of the Assembly container. A GroundedJoint object is added to the Joints container.
-</div>
+Para mantener el ensamblaje en la posición deseada, la pieza base debe estar bloqueada o fijada. Seleccione la base en la vista de árbol o en la vista 3D y utilice la herramienta "Fijar base" (Assembly_ToggleGrounded). Esto fija la posición de la base con respecto al sistema de coordenadas local (SCL) del contenedor del ensamblaje. Se añade un objeto GroundedJoint al contenedor de uniones.
 
 [[Image:Assembly_KinematicExample-03.png|200px]]
 [[Image:Button_right.svg|16px|link=]]
