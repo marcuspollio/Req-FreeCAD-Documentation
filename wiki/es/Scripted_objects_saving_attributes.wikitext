@@ -146,7 +146,7 @@ Todos los objetos tienen una propiedad {{incode|TypeId}}, pero para [[scripted_o
 <span id="Migrating_the_object"></span>
 === Migrando el objeto ===
 
-Version information can be stored inside the class in order to verify the origin of an object.
+La información de versión se puede almacenar dentro de la clase para verificar el origen de un objeto.
 
 {{Code|code=
 class CustomObject:
