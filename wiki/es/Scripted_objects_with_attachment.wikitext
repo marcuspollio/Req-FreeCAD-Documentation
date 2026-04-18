@@ -17,9 +17,8 @@ El siguiente GIF muestra cómo acoplar nuestra caja personalizada a un cilindro 
 <span id="Making_Scripted_Objects_Attachable"></span>
 ==Cómo hacer que los objetos programados sean adjuntables==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Add Attach Extension===
-</div>
+<span id="Add_Attach_Extension"></span>
+===Agregar extensión adjunta===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 First, we need to add the <code>Part::AttachExtensionPython</code> extension to our <code>Part::FeaturePython</code> oject in the constructor, or <code>__init__</code> method, of our custom scripted object.
