@@ -221,9 +221,7 @@ Una unión conecta exactamente dos elementos de partes diferentes. Opcionalmente
 [[Image:Button_right.svg|16px|link=]]
 [[Image:Assembly_KinematicExample-06.png|200px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Selected elements + [[Image:Assembly_CreateJointRevolute.svg|24px]] [[Assembly_CreateJointRevolute|Revolute Joint]] → rearranged Crank}}
-</div>
+{{Caption|Elementos seleccionados + [[Image:Assembly_CreateJointRevolute.svg|24px]] [[Assembly_CreateJointRevolute|Articulación de revolución]] → manivela reorganizada}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Move the '''Crank''' using the left mouse button. Only a rotation around the pivot should be possible.
