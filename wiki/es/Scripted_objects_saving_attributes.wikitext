@@ -2,7 +2,8 @@
 
 {{TOCright}}
 
-== Introduction ==
+<span id="Introduction"></span>
+== Introducción ==
 
 [[Scripted_objects|Scripted objects]] are rebuilt every time a [[File_Format_FCStd|FCStd document]] is opened. To do this the document keeps a reference to the module and Python class that were used to create the object, along with its properties.
 
