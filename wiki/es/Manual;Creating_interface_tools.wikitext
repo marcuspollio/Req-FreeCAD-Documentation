@@ -59,9 +59,11 @@ Comencemos creando el widget. Inicie Qt Creator y luego vaya al menú '''Archivo
 
 [[Image:Exercise_python_10.jpg]]
 
-* Save the file, you can now close Qt Creator, the rest will be done in Python.
-* Open FreeCAD and create a new macro from menu '''Macro → Macros → Create'''
-* Paste the following code. Make sure you change the file path to match where you saved the .ui file created in QtCreator:
+* Guarde el archivo; ahora puedes cerrar Qt Creator. El resto se realizará en Python.
+
+* Abra FreeCAD y cree una nueva macro desde el menú '''Macro → Macros → Crear'''.
+
+* Pegue el siguiente código. Asegúrese de cambiar la ruta del archivo para que coincida con la ubicación donde guardó el archivo .ui creado en Qt Creator:
 
 {{Code|code=
 import FreeCAD,FreeCADGui,Part
