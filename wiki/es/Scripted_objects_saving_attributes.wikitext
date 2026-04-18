@@ -119,7 +119,8 @@ La tupla original para {{incode|self.color}} se convirtió en una lista, pero po
 <span id="Usage"></span>
 == Uso ==
 
-=== Identifying the type ===
+<span id="Identifying_the_type"></span>
+=== Identificación del tipo ===
 
 Normally, [[scripted_objects|scripted objects]] should use [[property|properties]] to store information, as these are automatically restored when the document is opened.
 
