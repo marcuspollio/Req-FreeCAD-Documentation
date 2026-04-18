@@ -17,7 +17,7 @@ BREP ofrece varias ventajas. En primer lugar, define superficies mediante ecuaci
 
 [[Image:Mesh_vs_brep.jpg]]
 
-{{Caption|On the left a mesh representation and on the right a BREP representation}}
+{{Caption|A la izquierda una representación de malla y a la derecha una representación BREP}}
 
 Polygon meshes consist of vertices, edges, and faces that form triangles or quadrilaterals. Meshes are simpler and faster for rendering but lack precision. When zoomed in or printed at large scales, meshes show faceted surfaces rather than smooth curves. In contrast, BREP utilizes curves and surfaces defined mathematically, offering superior accuracy and smoothness. BREP models are preferable for CAD applications where precision is required.
 
