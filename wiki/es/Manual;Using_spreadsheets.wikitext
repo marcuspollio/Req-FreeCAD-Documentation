@@ -21,7 +21,7 @@ Se integra a la perfección con otros entornos de trabajo de FreeCAD, permitiend
 
 En la práctica, el Entorno de Trabajo de Hoja de Cálculo es versátil para diferentes casos de uso, incluyendo la definición de parámetros para todo el proyecto, la gestión de listas de materiales (BOM o Bills Of Materials) y la realización de cálculos personalizados que influyen en las decisiones de diseño. Esto simplifica proyectos complejos al centralizar el control de parámetros en un solo lugar.
 
-In the following example, we will create a couple of objects, retrieve some of their properties in a spreadsheet, then use the spreadsheet to directly drive the properties of other objects.
+En el siguiente ejemplo, crearemos un par de objetos, recuperaremos algunas de sus propiedades en una hoja de cálculo y, a continuación, utilizaremos la hoja de cálculo para controlar directamente las propiedades de otros objetos.
 
 === Reading properties ===
 
