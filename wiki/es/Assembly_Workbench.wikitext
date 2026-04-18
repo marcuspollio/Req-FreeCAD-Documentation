@@ -588,9 +588,7 @@ Para mantener el ensamblaje en la posición deseada, la pieza FixedJaw debe esta
 [[Image:Button_right.svg|16px|link=]]
 [[Image:Assembly_ViseExample-03.png|200px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Selected elements + [[Image:Assembly_CreateJointRevolute.svg|24px]] [[Assembly_CreateJointRevolute|Revolute Joint]] → rearranged Crank}}
-</div>
+{{Caption|Elementos seleccionados + [[Image:Assembly_CreateJointRevolute.svg|24px]] [[Assembly_CreateJointRevolute|Articulación de revolución]] → rearranged Crank}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * A Slider joint between FixedJaw and MovableJaw
