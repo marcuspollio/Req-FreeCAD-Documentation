@@ -13,7 +13,7 @@ En los dos últimos capítulos, vimos cómo [[Manual:Creación y manipulación d
 
 En muchas situaciones, no resulta muy práctico crear un objeto con valores cero, como hicimos con el rectángulo en el capítulo anterior, y luego pedirle al usuario que introduzca los valores de altura y anchura en el panel de propiedades. Esto funciona para un número reducido de objetos, pero se vuelve muy tedioso si hay que crear muchos rectángulos. Una mejor solución sería poder especificar la altura y la anchura al crear el rectángulo.
 
-Python offers a basic tool to have the user enter text on the screen:
+Python ofrece una herramienta básica para que el usuario introduzca texto en la pantalla:
 
  text = raw_input("Height of the rectangle?")
  print("The entered height is ",text)
