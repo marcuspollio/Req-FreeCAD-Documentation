@@ -58,9 +58,7 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 
 * [[Image:Mesh_FillupHoles.svg|32px]] [[Mesh_FillupHoles|Rellenar agujeros]]: Rellena los agujeros en los objetos de malla.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Mesh_FillInteractiveHole.svg|32px]] [[Mesh_FillInteractiveHole|Close Holes]]: Fills selected holes in mesh objects.
-</div>
+* [[Image:Mesh_FillInteractiveHole.svg|32px]] [[Mesh_FillInteractiveHole|Agujeros cerrados]]: Rellena los agujeros seleccionados en los objetos de malla.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Mesh_AddFacet.svg|32px]] [[Mesh_AddFacet|Add Triangle]]: Adds faces along a boundary of an open mesh object.
