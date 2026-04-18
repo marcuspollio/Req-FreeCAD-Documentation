@@ -582,9 +582,7 @@ Para mantener el ensamblaje en la posición deseada, la pieza FixedJaw debe esta
 <span id="Apply_joints"></span>
 === Aplicar uniones ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* A Revolute joint between FixedJaw and Crank
-</div>
+* Una articulación de revolución entre la mandíbula fija y la manivela
 
 [[Image:Assembly_ViseExample-02.png|200px]]
 [[Image:Button_right.svg|16px|link=]]
