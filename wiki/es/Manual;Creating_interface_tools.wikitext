@@ -125,7 +125,7 @@ w.BoxHeight.value()
 
 Esto es muy útil para realizar pruebas.
 
-Finally, don't forget there is much more documentation about using Qt widgets on the FreeCAD Wiki, in the [[Power_users_hub|Python Scripting]] section, which contains a [[Dialog_creation|dialog creation tutorial]], a special 3-part [[PySide|PySide tutorial]] that covers the subject extensively.
+Por último, no olvide que hay mucha más documentación sobre el uso de widgets Qt en la Wiki de FreeCAD, en la sección [[Power_users_hub|Python Scripting]], que contiene un [[Dialog_creation|Tutorial de creación de diálogos]], un [[PySide|Tutorial de PySide]] especial de 3 partes que cubre el tema extensamente.
 
 == Relevant Links ==
 * [https://en.wikipedia.org/wiki/Qt_Creator Qt Creator Documentation]
