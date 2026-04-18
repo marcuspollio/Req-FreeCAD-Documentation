@@ -54,9 +54,9 @@ Agrega propiedades de material a una parte.
 <span id="Notes"></span>
 ==Notas==
 
-<div class="mw-translate-fuzzy">
-#El material mecánico utiliza la tarjeta * MATERIAL en CalculiX. Los detalles sobre el material mecánico se explican enhttp://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html
-</div>
+* Para editar un objeto MaterialSolid existente: Haga doble clic sobre este en la [[Vista de árbol|Vista de árbol]].
+
+* El material mecánico utiliza la [https://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html *tarjeta de MATERIAL en CalculiX].
 
 
 {{Docnav
