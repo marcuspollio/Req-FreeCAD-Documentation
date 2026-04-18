@@ -56,9 +56,8 @@ class Box:
 </syntaxhighlight>
 Sin llamar a <code>positionBySupport</code>, nuestro objeto con script personalizado no actualizará su posición cuando cambie la posición del objeto adjunto.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Full and Complete Minimal Example==
-</div>
+<span id="Full_and_Complete_Minimal_Example"></span>
+== Ejemplo mínimo completo ==
 
 <syntaxhighlight lang="python" line='line'>
 import FreeCAD as App
