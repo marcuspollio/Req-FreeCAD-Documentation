@@ -600,9 +600,7 @@ Para mantener el ensamblaje en la posición deseada, la pieza FixedJaw debe esta
 
 Establezca la longitud mínima en -77 mm y la longitud máxima en -7 mm. Esto limita la apertura de la mordaza a 70 mm.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The next three joints are necessary to force the LeverScrew to: translate like the MovableJaw, rotate like the Crank, and rotate around the main axis.
-</div>
+Las siguientes tres articulaciones son necesarias para forzar al tornillo de palanca a: trasladarse como la mandíbula móvil, girar como la manivela y girar alrededor del eje principal.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * A Distance joint between LeverScrew and MovableJaw
