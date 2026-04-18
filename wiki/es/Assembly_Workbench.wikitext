@@ -598,9 +598,7 @@ Para mantener el ensamblaje en la posición deseada, la pieza FixedJaw debe esta
 
 {{Caption|Elementos seleccionados + [[Image:Assembly_CreateJointSlider.svg|24px]] [[Assembly_CreateJointSlider|Articulación deslizante]] → rearranged MovableJaw}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Set the Min length to -77 mm and the Max length to -7 mm. This limits the opening of the vise to 70 mm.
-</div>
+Establezca la longitud mínima en -77 mm y la longitud máxima en -7 mm. Esto limita la apertura de la mordaza a 70 mm.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The next three joints are necessary to force the LeverScrew to: translate like the MovableJaw, rotate like the Crank, and rotate around the main axis.
