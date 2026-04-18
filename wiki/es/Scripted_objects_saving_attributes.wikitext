@@ -55,7 +55,7 @@ doc.recompute()
 doc.save()
 }}
 
-When we re-open the file we can inspect the dictionary of the object's class.
+Al volver a abrir el archivo, podemos inspeccionar el diccionario de la clase del objeto.
 {{Code|code=
 >>> obj = App.ActiveDocument.Custom
 >>> print(obj.Proxy)
