@@ -877,13 +877,14 @@ Asegúrese de que el eje Z del sistema de coordenadas (azul) sea perpendicular a
 
 Asegúrese nuevamente de que el eje Z del sistema de coordenadas (azul) sea perpendicular a la varilla.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You may encounter problems with this joint. If that is the case try the following:
-# Delete the joint.
-# Switch to the [[Std_ViewFront|front view]].
-# Rotate the assembly (by dragging the Piston) and rotate the Rod so that center of the hinge hole of the Cylinder lies on the Rod.
-# Create the joint again.
-</div>
+Es posible que encuentre problemas con esta unión. Si es así, pruebe lo siguiente:
+# Elimine la unión.
+
+# Cambie a la [[Std_ViewFront|vista frontal]].
+
+# Gire el conjunto (arrastrando el pistón) y gire la varilla de modo que el centro del orificio de la bisagra del cilindro quede sobre la varilla.
+
+# Cree la unión de nuevo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The next two joints are necessary to fix the Spring to the support face.
