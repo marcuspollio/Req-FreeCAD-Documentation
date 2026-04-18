@@ -23,7 +23,7 @@ Este entorno de trabajo permite la integración con otros entornos de trabajo de
 
 * '''Mallado''': El mallado divide la geometría en elementos finitos, lo que permite al solucionador analizar el objeto. La calidad del mallado es crucial, ya que las mallas más finas dan como resultado simulaciones más precisas, pero requieren mayor potencia computacional. Existen herramientas para refinar el mallado localmente, centrándose en las áreas donde se espera que la tensión o la deformación sean mayores. Consulte [[FEM_Geometry_Preparation_and_Meshing#Meshing_basics|Conceptos básicos de mallado]] para obtener más información.
 
-*  '''Applying Loads and Constraints''': In this step, physical conditions such as forces, pressures, moments, or thermal loads are applied to the model. Boundary conditions are also defined, such as fixing points, applying symmetry constraints, or restricting movement, depending on the scenario being simulated.
+'''Aplicación de cargas y restricciones''': En este paso, se aplican al modelo condiciones físicas como fuerzas, presiones, momentos o cargas térmicas. También se definen las condiciones de contorno, como puntos fijos, aplicación de restricciones de simetría o restricción de movimiento, según el escenario que se esté simulando.
 
 *  '''Running the Solver''': Once the setup is complete, the solver calculates the model's response to the applied conditions. Solvers like CalculiX compute displacements, stresses, and other quantities, depending on the type of analysis performed. The process can take varying amounts of time depending on the mesh density and model complexity.
 
