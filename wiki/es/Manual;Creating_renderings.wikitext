@@ -30,11 +30,15 @@ Una vez instalado POV-Ray o LuxCorerender, es necesario configurar la ruta hacia
 
 Usaremos la mesa que hemos estado modelando en el capítulo [[Manual:Traditional modeling, the CSG way|Modelado tradicional]] para producir renderizaciones con PovRay. 
 
-* Start by loading the table.FCStd file that we modelled earlier or from the link at the bottom of this chapter and entering the [[File:Render workbench icon.svg|16px]] [https://github.com/FreeCAD/FreeCAD-render|render workbench].
-* Create a rendering project by pressing the button in the toolbar corresponding to your renderer. For our example, we will choose the [[File:Render Povray.svg|16px]] povray renderer.  
-* Select a template suitable for your project. We will be going with the '''povray_sunlight.pov''' one.
-* You can also try other templates after you create a new project, simply by editing its '''Template''' property.
-* A new project has now been created:
+* Comience cargando el archivo table.FCStd que modelamos anteriormente o haciendo clic desde el enlace al final de este capítulo e introdúzcalo al entorno de renderizado [[Archivo:Render workbench icon.svg|16px]] [https://github.com/FreeCAD/FreeCAD-render|render workbench].
+
+* Cree un proyecto de renderizado presionando el botón en la barra de herramientas correspondiente a su motor de renderizado. Para este ejemplo, elegiremos el motor de renderizado Povray [[Archivo:Render Povray.svg|16px]].
+
+* Seleccione una plantilla adecuada para su proyecto. Usaremos la plantilla '''povray_sunlight.pov'''.
+
+* También puede probar otras plantillas después de crear un nuevo proyecto, simplemente editando su propiedad '''Template'''.
+
+* Se ha creado un nuevo proyecto.
 
 [[File:FreeCAD_Render_Project.png]]
 
