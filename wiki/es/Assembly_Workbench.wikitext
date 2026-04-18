@@ -57,9 +57,7 @@ El [[Archivo:Workbench_Assembly.svg|24px]] [[Assembly_Workbench|Entorno de traba
 
 * [[Image:Assembly_CreateJointCylindrical.svg|32px]] [[Assembly_CreateJointCylindrical|Unión cilíndrica]]: Crea una unión cilíndrica entre dos piezas seleccionadas, permitiendo la rotación alrededor de un solo eje y un movimiento a lo largo del mismo eje.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Assembly_CreateJointSlider.svg|32px]] [[Assembly_CreateJointSlider|Slider Joint]]: creates a slider (prismatic) joint between two selected parts, allowing a linear movement along a single axis while restricting rotation.
-</div>
+* [[Image:Assembly_CreateJointSlider.svg|32px]] [[Assembly_CreateJointSlider|Articulación deslizante]]: Crea una articulación deslizante (prismática) entre dos piezas seleccionadas, permitiendo un movimiento lineal a lo largo de un solo eje mientras restringe la rotación.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Assembly_CreateJointBall.svg|32px]] [[Assembly_CreateJointBall|Ball Joint]]: creates a spherical joint between two selected parts at a single point, allowing free rotation around the point while keeping both parts connected at this point.
