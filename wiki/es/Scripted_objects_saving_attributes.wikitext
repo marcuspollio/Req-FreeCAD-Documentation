@@ -69,7 +69,7 @@ Observamos que todos los atributos que comienzan con {{incode|self}} en la clase
 <span id="Saving_specific_attributes"></span>
 == Guardando atributos específicos ==
 
-We can define a class similar to the first one, that implements specific attributes to save.
+Podemos definir una clase similar a la primera, que implemente atributos específicos para guardar.
 {{Code|code=
 # various_states.py
 class CustomStates:
