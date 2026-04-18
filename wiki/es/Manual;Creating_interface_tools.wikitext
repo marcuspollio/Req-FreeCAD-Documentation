@@ -117,7 +117,7 @@ from PySide import QtGui
  w.show()
 }}
 
-Of course, we didn't add any "OK" or "Cancel" buttons to our dialog, since it was made to be used from the FreeCAD Task panel, which already provides such buttons. So there is no way to close the dialog (other than pressing its Window Close button). But the function show() creates a non-modal dialog, which means it doesn't block the rest of the interface. So, while our dialog is still open, we can read the values of the fields:
+Por supuesto, no añadimos botones de "Aceptar" ni de "Cancelar" a nuestro cuadro de diálogo, ya que fue diseñado para usarse desde el panel de tareas de FreeCAD, que ya incluye dichos botones. Por lo tanto, no hay forma de cerrar el cuadro de diálogo (aparte de pulsar el botón "Cerrar ventana"). Sin embargo, la función '''show()''' crea un cuadro de diálogo no modal, lo que significa que no bloquea el resto de la interfaz. Así pues, mientras nuestro cuadro de diálogo permanece abierto, podemos leer los valores de los campos:
 
 {{Code|code=
 w.BoxHeight.value() 
