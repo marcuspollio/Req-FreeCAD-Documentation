@@ -577,9 +577,7 @@ En la [[Tree_View|vista de árbol]], arrastre y suelte las piezas sobre el '''Ob
 <span id="Ground_a_part"></span>
 === Pieza en tierra ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To keep the assembly at the desired position, the FixedJaw part should be locked, or grounded as it is called here. Select the FixedJaw in the [[Tree_View|Tree View]] or in the [[3D_View|3D View]] and use the [[Image:Assembly_ToggleGrounded.svg|24px]] [[Assembly_ToggleGrounded|Toggle Grounded]] tool. A GroundedJoint object is added to the Joints container.
-</div>
+Para mantener el ensamblaje en la posición deseada, la pieza FixedJaw debe estar bloqueada o fijada, como se denomina aquí. Seleccione FixedJaw en la vista de árbol o en la vista 3D y utilice la herramienta [[Image:Assembly_ToggleGrounded.svg|24px]] [[Assembly_ToggleGrounded|Toggle Grounded]]. Se añadirá un objeto GroundedJoint al contenedor Articulaciones.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Apply joints===
