@@ -38,8 +38,7 @@ class myParametricObject:
 
 All Python classes typically have an '''__init__''' method. This method is executed when a class is instantiated—that is, when a Python object is created from the class. You can think of a class as a "template" or blueprint used to create live instances of itself. Each instance of the class becomes an independent object with its own attributes and methods. In our '''__init__''' method, we perform two crucial tasks:
 
-* Store the class itself in the '''Proxy''' attribute of the FreeCAD document object:
-By assigning '''self''' to the '''Proxy''' attribute of the FreeCAD document object, we link the logic of our Python class to the FreeCAD object. This means the document object will "carry" the Python class code inside itself, allowing it to behave according to the logic defined in the class. This connection enables FreeCAD to know how to interact with and recalculate the parametric object.
+Almacene la clase en el atributo '''Proxy''' del objeto de un documento de FreeCAD: Al asignar '''self''' al atributo '''Proxy''' del objeto de documento de FreeCAD, vinculamos la lógica de nuestra clase Python con el objeto de FreeCAD. Esto significa que el objeto de documento "contendrá" el código de la clase Python en su interior, lo que le permite comportarse según la lógica definida en la clase. Esta conexión permite a FreeCAD saber cómo interactuar con el objeto paramétrico y recalcularlo.
 
 * Create all the properties the object needs:
 Using the '''addProperty''' method, we define the custom properties required by the object. Properties act as parameters or variables for the object and can be accessed, modified, and displayed in FreeCAD's property editor. In the example, we add a floating-point property named '''MyLength'''. This property will later influence the shape or behavior of the object.
