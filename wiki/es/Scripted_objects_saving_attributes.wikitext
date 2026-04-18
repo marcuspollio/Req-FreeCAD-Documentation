@@ -66,7 +66,8 @@ Al volver a abrir el archivo, podemos inspeccionar el diccionario de la clase de
 
 Observamos que todos los atributos que comienzan con {{incode|self}} en la clase se guardaron. Estos pueden ser de diferentes tipos, incluyendo cadena, lista, flotante y diccionario. La tupla original para {{incode|self.color}} se convirtió en una lista, pero por lo demás, todos los atributos se cargaron de la misma manera.
 
-== Saving specific attributes ==
+<span id="Saving_specific_attributes"></span>
+== Guardando atributos específicos ==
 
 We can define a class similar to the first one, that implements specific attributes to save.
 {{Code|code=
