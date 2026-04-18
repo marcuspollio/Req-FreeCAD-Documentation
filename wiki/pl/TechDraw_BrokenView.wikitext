@@ -51,10 +51,8 @@ Widok z przerwaniem, formalnie obiekt {{Incode|TechDraw::DrawBrokenView}}, wywod
 
 {{TitleProperty|Broken View}}
 
-<div class="mw-translate-fuzzy">
 * {{PropertyData|Breaks|LinkList}}: Obiekty w Widoku 3D, które definiują punkty początkowe / końcowe i kierunek przerwań w tym widoku.
-* {{PropertyData|Gap|Length}}: Rozmiar przerwy dla przerwań w tym widoku ''(nieskalowana długość 3D)''.
-</div>
+* {{PropertyData|Gap|Length}}: Rozmiar przerwy dla przerwań w tym widoku ''(nieskalowana długość 3D)''. Na stronie ta odległość jest mnożona przez współczynnik skali widoku.
 
 <span id="Notes"></span>
 ==Uwagi==
