@@ -36,16 +36,20 @@ Agrega propiedades de material a una parte.
 <span id="Usage"></span>
 ==Utilización==
 
-<div class="mw-translate-fuzzy">
-* Haga clic en [[Image: FEM_MaterialSolid.png | 32px]] o seleccione {{KEY | Model}} → {{KEY | [[Image: FEM_MaterialSolid.png | 32px]] Material de FEM para sólidos}} desde el menú superior.
-* Haga doble clic en el objeto {{KEY | [[Image: FEM_MaterialSolid.png | 32px]] SolidMaterial}} creado
-[[File:FEMMaterialProperties.PNG]]
-** Seleccione un material. Para el análisis mecánico de ingeniería, {{KEY | CalculiX-Steel}} es una opción típica.
-** Siempre que esté aplicando material a todo el objeto, no seleccione ninguna entidad geométrica (deje la lista de referencias vacía). El material se aplicará a todo el modelo. De lo contrario, asigne material a partes del modelo en particular manualmente seleccionando algunas de ellas para cada material insertado, pero no deje ninguna parte del modelo sin el material asignado.
-** Puedes ajustar las propiedades del material, como la densidad, el módulo de Young, el Coeficiente de Poisson, etc., sin embargo, la mayoría de los materiales comunes ya están disponibles en los ajustes preestablecidos y no necesitan ningún ajuste.
-** Si realiza modificaciones, puede guardar su material personalizado.
-* Haga clic en {{KEY|Close}} para cerrar el cuadro de diálogo y crear {{KEY|[[Image:FEM_MaterialSolid.png|32px]] SolidMaterial}} objeto
-</div>
+# Existen varias formas de ejecutar el comando:
+#* Pulse el botón {{Button|[[Image:FEM_MaterialSolid.svg|16px]] [[FEM_MaterialSolid|Material Sólido]]}}.
+
+#* Seleccione la opción {{MenuCommand|Modelo → Materiales → [[Image:FEM_MaterialSolid.svg|16px]] Material Sólido}} del menú.
+
+# Se abrirá el panel de tareas de materiales FEM.
+
+# Seleccione un material de la lista desplegable. Por ejemplo, para análisis mecánicos de ingeniería, «CalculiX-Steel» es una opción común. Opcionalmente, pulse el botón {{Button|Iniciar Editor}} para acceder al [[Material_Edit|Editor de Materiales]].
+
+# Si lo desea, marque la casilla {{MenuCommand|Usar este panel de tareas}} para modificar las propiedades del material, como la densidad, el módulo de Young, el coeficiente de Poisson, etc.
+
+# Si aplica el material a todo el objeto, no seleccione ninguna entidad geométrica (deje la lista de referencias vacía). El material se aplicará a todo el modelo. De lo contrario, asigne el material manualmente a las regiones seleccionadas, eligiendo algunas de ellas para cada material insertado, pero asegúrese de que ninguna parte del modelo quede sin material asignado.
+
+# Pulse el botón {{Button|Cerrar}} para cerrar el panel de tareas.
 
 <span id="Notes"></span>
 ==Notas==
