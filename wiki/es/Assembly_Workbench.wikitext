@@ -105,9 +105,7 @@ El conjunto a crear consta de cuatro partes: una base, una varilla deslizante, u
 <span id="Prepare_parts"></span>
 === Preparar las piezas ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In this example all parts and the assembly are created in one document.
-</div>
+En este ejemplo, todas las piezas y el ensamblaje se crean en un solo documento.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The  cylindrical geometries of the objects are either parallel or perpendicular, the rest of the shapes is not relevant for this example unless there are clashes. With this in mind you can model your own objects or create them with the Python code below. The code will create a new document with the four objects (simpler than in the images). Just copy-paste the following lines in the [[Python_Console|Python Console]]:
