@@ -89,7 +89,7 @@ El motivo por el que utilizamos '''Spreadsheet001''' en lugar de '''Input''' en 
 
 Mediante el uso de alias de celda en el Entorno de Trabajo de Hojas de Cálculo de FreeCAD, es posible almacenar valores maestros dentro del documento, lo que facilita la gestión y modificación de parámetros clave. Por ejemplo, una hoja de cálculo puede contener las dimensiones de un modelo, permitiendo consultar estos valores a lo largo del diseño. Este método simplifica la actualización del modelo: si se requieren nuevas dimensiones, basta con abrir la hoja de cálculo, ajustar los valores y el modelo se actualizará automáticamente. Esto optimiza el control de versiones y mejora la eficiencia, especialmente en el modelado paramétrico, donde las dimensiones cambian con frecuencia según los requisitos del proyecto.
 
-Finally, note that the constraints inside a sketch can also receive the value of a spreadsheet cell:
+Por último, tenga en cuenta que las restricciones dentro de un boceto también pueden recibir el valor de una celda de una hoja de cálculo:
 
 You can also give aliases to dimensional constraints (horizontal, vertical or distance)  in a sketch (you can then use that value from outside the sketch as well):
 
