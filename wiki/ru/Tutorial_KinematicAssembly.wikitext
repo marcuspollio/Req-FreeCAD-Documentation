@@ -43,7 +43,8 @@ The '''Base''' is an object with two main geometries, a hole and a pin. Both are
 <span id="Joints"></span>
 ===Сопряжения (соединения)===
 
-====Locked Base====
+<span id="Locked_Base"></span>
+====Блокировка основания====
 
 To keep the assembly at the desired position, the base part should be locked.
 : (If the [[Image:Assembly_LockMover.svg|16px]] [[Assembly3_LockMover|Lock mover]] command is activated, motion tools are deactivated as long as a locked part is selected.)
