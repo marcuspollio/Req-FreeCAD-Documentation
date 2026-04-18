@@ -21,7 +21,7 @@ print("La altura ingresada es ",texto)
 
 Sin embargo, esto requiere que la consola de Python esté en funcionamiento, y cuando ejecutamos nuestro código desde una macro, no siempre podemos estar seguros de que la consola de Python esté activada en la máquina del usuario.
 
-The [https://en.wikipedia.org/wiki/Graphical_user_interface Graphical User Interface] (GUI)—encompassing the menus, toolbars, 3D view, and other visual components of FreeCAD—is designed to make the software intuitive and accessible. It serves as a bridge between the user and FreeCAD's underlying functionality, allowing both casual users and experts to interact with the program effectively.
+La [https://en.wikipedia.org/wiki/Graphical_user_interface] (Interfaz Gráfica de Usuario), que abarca los menús, las barras de herramientas, la vista 3D y otros componentes visuales de FreeCAD, está diseñada para que el software sea intuitivo y accesible. Sirve de puente entre el usuario y la funcionalidad subyacente de FreeCAD, permitiendo que tanto usuarios ocasionales como expertos interactúen con el programa de manera efectiva.
 
 FreeCAD’s GUI is built using [https://en.wikipedia.org/wiki/Qt_(software) Qt], a powerful and open-source GUI toolkit that provides a wide range of features. Qt offers essential building blocks for interface design, such as dialog boxes, buttons, labels, text input fields, and pull-down menus, collectively known as "widgets." These widgets form the foundation of FreeCAD's user experience.
 
