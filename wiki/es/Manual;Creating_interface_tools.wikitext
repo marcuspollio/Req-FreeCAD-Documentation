@@ -123,7 +123,7 @@ Por supuesto, no añadimos botones de "Aceptar" ni de "Cancelar" a nuestro cuadr
 w.BoxHeight.value() 
 }}
 
-This is very useful for testing.
+Esto es muy útil para realizar pruebas.
 
 Finally, don't forget there is much more documentation about using Qt widgets on the FreeCAD Wiki, in the [[Power_users_hub|Python Scripting]] section, which contains a [[Dialog_creation|dialog creation tutorial]], a special 3-part [[PySide|PySide tutorial]] that covers the subject extensively.
 
