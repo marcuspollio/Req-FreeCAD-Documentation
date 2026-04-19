@@ -390,9 +390,7 @@ Crea una elipse centrada en el punto Centro, donde el plano de la elipse está d
 Part.Ellipse(Center, MajorRadius, MinorRadius)
 }}
 
-<div class="mw-translate-fuzzy">
-Crea una elipse con radios mayor y menor MajorRadius y MinorRadius respectivamente, y ubicada en el plano definido por Center y la normal (0,0,1)
-</div>
+Crea una elipse con radios mayor y menor MajorRadius y MinorRadius, respectivamente, ubicada en el plano definido por el punto Center y la normal (0,0,1)
 
 {{Code|code=
 eli = Part.Ellipse(App.Vector(10, 0, 0), App.Vector(0, 5, 0), App.Vector(0, 0, 0))
