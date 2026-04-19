@@ -521,9 +521,7 @@ myMat.move(2, 0, 0)
 myMat.move(App.Vector(2, 0, 0))
 }}
 
-<div class="mw-translate-fuzzy">
-Cuando nuestra matriz es establecida, podemos aplicarla a nuestra forma. FreeCAD proporciona 2 métodos para hacerlo: transformShape() y transformGeometry(). La diferencia es que con el primero, estas seguro de que no ocurrirá ninguna deformación (mira "escalando una forma" más abajo). Podemos aplicar nuestra transformación así:
-</div>
+Una vez definida nuestra matriz, podemos aplicarla a nuestra forma. FreeCAD ofrece dos métodos para hacerlo: {{incode|transformShape()}} y {{incode|transformGeometry()}}. La diferencia radica en que, con el primero, se garantiza que no se producirán deformaciones (véase [[#Scaling a shape|Escalado de una forma]] más abajo). Podemos aplicar nuestra transformación de la siguiente manera:
 
 {{Code|code=
 myShape.transformShape(myMat)
