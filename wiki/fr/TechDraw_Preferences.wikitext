@@ -52,7 +52,7 @@ Tous les préférences avec des étiquettes en ''italiques'' sont des valeurs pa
 * '''Répertoire des modèles''' : répertoire de démarrage du bouton de la barre d'outils {{Button|[[Image:TechDraw_PageTemplate.svg|16px]] [[TechDraw_PageTemplate/fr|Créer une nouvelle feuille à partir d'un modèle]]}}.
 * '''Répertoire des fichiers à motif hachuré''' : répertoire des fichiers par défaut [[SVG/fr|SVG]] ou [[bitmap/fr|bitmap]] pour des [[TechDraw_Hatch/fr|hachures]].
 * '''Répertoire du fichier des groupes de lignes''' : répertoire du fichier alternatif pour les définitions personnelles des [[TechDraw_LineGroup/fr|groupes de lignes]].
-* '''Répertoire pour les symboles de soudure''' : répertoire par défaut du bouton de la barre d'outils {{Button|[[File:TechDraw_WeldSymbol.svg|16px]] [[TechDraw_WeldSymbol/fr|Symbole et informations de soudage]]}}.
+* '''Répertoire pour les symboles de soudage''' : répertoire par défaut du bouton de la barre d'outils {{Button|[[File:TechDraw_WeldSymbol.svg|16px]] [[TechDraw_WeldSymbol/fr|Symbole et informations de soudage]]}}.
 * '''Répertoire du fichier PAT''' : répertoire du fichier de définition de motif PAT par défaut pour des [[TechDraw_GeometricHatch/fr|hachures géométriques]].
 * '''Nom du motif''' : nom du motif PAT par défaut.
 * '''Répertoire des symboles''' : répertoire alternatif pour la recherche de fichiers des symboles SVG.
