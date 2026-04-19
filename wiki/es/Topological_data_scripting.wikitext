@@ -618,7 +618,7 @@ cylinder = disc.extrude(App.Vector(0, 0, 2))
 <span id="Explore_shapes"></span>
 == Explorar formas ==
 
-You can easily explore the topological data structure:
+Puede explorar fácilmente la estructura de datos topológica:
 
 {{Code|code=
 import Part
