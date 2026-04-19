@@ -161,11 +161,11 @@ Tous les préférences avec des étiquettes en ''italiques'' sont des valeurs pa
 * '''Afficher la ligne de coupe dans la vue source''' : si cette option est cochée, l'annotation de la coupe sera dessinée dans la vue source. Si la case n'est pas cochée, aucune ligne de coupe, aucune flèche et aucun symbole ne seront affichés dans la vue source. {{Version/fr|1.0}}
 * '''Inclure la ligne de coupe dans l'annotation de la section''' : si cette option est cochée, la ligne de coupe sera dessinée sur la vue source. Si la case n'est pas cochée, seuls les marques de changement, les flèches et les symboles seront affichés. {{Version/fr|1.0}}
 * '''Marques des lignes des vues en coupe complexe''' : affiche des marques aux changements de direction sur les lignes des [[TechDraw_ComplexSection/fr|vues en coupe complexe]]. {{Version/fr|0.21}}
-* '''Forme du contour pour les vues détaillées''' : forme du contour pour les [[TechDraw_DetailView/fr|vues détaillées]]. Les options sont :
+* '''Forme des contours des vues détaillées''' : forme des contours pour les [[TechDraw_DetailView/fr|vues détaillées]]. Les options sont :
 ** ''Cercle''
 ** ''Carré''
 * '''Afficher l'ajustement des vues détaillées''' : cette case à cocher permet d'afficher ou non le contour d'une vue détaillée. {{Version/fr|1.0}}
-* '''Afficher une surbrillance autour des zones de détail''' : cette case à cocher permet d'afficher ou non une surbrillance autour de la zone de détail dans la vue source du détail. {{Version/fr|1.0}}
+* '''Afficher la mise en évidence autour des zones de détails''' : cette case à cocher permet d'afficher ou non une mise en évidence autour de la zone de détail dans la vue source du détail. {{Version/fr|1.0}}
 * '''Forme des bulles''' : forme des [[TechDraw_Balloon/fr|bulles]].
 * '''Extrémité des bulles''' : style par défaut pour des extrémités des bulles, voir [[TechDraw_Balloon/fr#Propriétés|Propriétés des bulles]].
 * '''Longueur du pli des lignes de référence des bulles''' : longueur du pli de la ligne de référence des bulles.
@@ -176,7 +176,7 @@ Tous les préférences avec des étiquettes en ''italiques'' sont des valeurs pa
 ** ''Lignes en zigzag''
 ** ''Lignes simples''
 * '''Afficher les marques des centres''' : affiche les marques des centres des arcs dans les vues.
-* '''Imprimer les marques des centres''' : insère les centres des arcs à l'impression.
+* '''Afficher les marques des centres''' : insère les centres des arcs à l'impression.
 * '''Appliquer le format de date ISO 8601''' : remplit automatiquement les champs de date du modèle au format aaaa-mm-jj, même si ce n'est pas le format standard pour les paramètres régionaux en cours.
 
 <span id="Lines"></span>
