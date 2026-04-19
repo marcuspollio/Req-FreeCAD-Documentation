@@ -534,11 +534,7 @@ myShape.transformGeometry(myMat)
 }}
 {{Top}}
 <span id="Scale_a_shape"></span>
-<div class="mw-translate-fuzzy">
-==== Escalando una forma ====
-
-Escalando una forma es una operación más peligrosa porque, a diferencia de la traslación o rotación, un escalado no uniforme (con diferentes valores para los ejes X,Y y Z) puede modificar la estructura de la forma. Por ejemplo, escalando una circunferencia con un valor horizontal superior al vertical la transformará en una elipse, que se comporta matemáticamente de forma muy diferente. Para el escalado, no podemos utilizar transformShape, tenemos que usar transformGeometry():
-</div>
+=== Escalar una forma ===
 
 Scaling a shape is a more dangerous operation because, unlike translation or rotation, scaling non-uniformly (with different values for X, Y and Z) can modify the structure of the shape. For example, scaling a circle with a higher value horizontally than vertically will transform it into an ellipse, which behaves mathematically very differently. For scaling, we cannot use the {{incode|transformShape()}}, we must use {{incode|transformGeometry()}}:
 
