@@ -76,10 +76,7 @@ Cuando el wiki se alejó de SourceForge, [[User:Yorik|Yorik]] instaló [http://w
 
 La herramienta está documentada en [http://www.mediawiki.org/wiki/Help:Extension:Translate Help:Extension:Translate], y forma parte de [http://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle MediaWiki Language Extension Bundle].
 
-<div class="mw-translate-fuzzy">
-Para empezar rápidamente a preparar una página para su traducción, lea el [http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example Ejemplo de traducción de una página]. 
-Esencialmente, un par de
-</div>
+Para comenzar rápidamente a preparar una página para su traducción, lea el [http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example ejemplo de traducción de página]. Se necesitan dos etiquetas para rodear toda la página y activar el sistema de traducción:
 
 <pre>
 &lt;translate&gt; ... &lt;/translate&gt;
