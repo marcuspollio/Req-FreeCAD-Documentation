@@ -665,12 +665,7 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 }}
 {{Top}}
 <span id="Use_a_selection"></span>
-<div class="mw-translate-fuzzy">
-=== Utilizando la selección ===
-
-Aquí vemos ahora cómo podemos utilizar la selección que el usuario hizo en la vista.
-Antes de nada creamos un cubo y lo mostramos en la vista
-</div>
+=== Usando la selección ===
 
 Here we see now how we can use a selection the user did in the viewer. First of all we create a box and show it in the viewer.
 
