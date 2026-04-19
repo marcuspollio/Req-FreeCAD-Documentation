@@ -862,7 +862,7 @@ Finalmente, llamamos a la función para crear la pieza y luego hacerla visible.
 
 Aquí tiene un ejemplo completo de cómo construir una caja perforada.
 
-The construction is done one side at a time. When the cube is finished, it is hollowed out by cutting a cylinder through it.
+La construcción se realiza lado por lado. Una vez terminado el cubo, se ahueca cortando un cilindro a través de él.
 
 {{Code|code=
 import FreeCAD as App
