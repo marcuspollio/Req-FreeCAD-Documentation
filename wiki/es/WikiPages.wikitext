@@ -338,12 +338,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 
 Estas plantillas requieren más parámetros de entrada o generan un bloque de texto con un formato específico.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {|{{Prettytable}}
-!style="width:10%;"|Template
-!style="width:45%;"|Appearance
-!style="width:45%;"|Description
-</div>
+!style="width:10%;"|Plantilla
+!style="width:45%;"|Apariencia
+!style="width:45%;"|Descripción
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
