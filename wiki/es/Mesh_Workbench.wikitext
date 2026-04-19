@@ -70,9 +70,7 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 
 * [[Image:Mesh_SegmentationBestFit.svg|32px]] [[Mesh_SegmentationBestFit|Segmentación a partir de superficies de mejor ajuste]]: Crea segmentos de malla separados para tipos de superficie específicos de un objeto de malla y puede identificar sus parámetros.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Mesh_Smoothing.svg|32px]] [[Mesh_Smoothing|Smooth]]: Smooths mesh objects.
-</div>
+* [[Image:Mesh_Smoothing.svg|32px]] [[Mesh_Smoothing|Suavizar]]: Suaviza los objetos de malla.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Mesh_Decimating.svg|32px]] [[Mesh_Decimating|Decimate]]: Reduces the number of faces in mesh objects.
