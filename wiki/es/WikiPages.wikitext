@@ -203,12 +203,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{ASCII|A}}
 |Úselo para indicar una tecla ASCII en una imagen (.svg) que deba presionarse. Debe indicar el carácter deseado o el número de su código ASCII.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:Button|Button]]
 |{{Button|Cancel}}
-|Use it to indicate a button in the graphical user interface that needs to be pressed.
-</div>
+|Úselo para indicar un botón en la interfaz gráfica de usuario que debe presionarse.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
