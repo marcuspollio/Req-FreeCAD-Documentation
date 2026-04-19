@@ -208,12 +208,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{Button|Cancel}}
 |Úselo para indicar un botón en la interfaz gráfica de usuario que debe presionarse.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:RadioButton|RadioButton]]
 |{{RadioButton|Option}}
-|Use it to indicate a radio button in the graphical user interface that needs to be {{RadioButton|TRUE|Selected}} or {{RadioButton|FALSE|Not}}.
-</div>
+|Úselo para indicar un botón de opción en la interfaz gráfica de usuario que debe estar {{RadioButton|TRUE|Selected}} o {{RadioButton|FALSE|Not}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
