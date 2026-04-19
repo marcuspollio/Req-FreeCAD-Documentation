@@ -151,13 +151,13 @@ Esta sección es para los desarrolladores que quieren añadir localización a su
 <span id="Preparing_your_FreeCAD/master_modules_for_translation"></span>
 === Preparando sus módulos de FreeCAD/master para la traducción ===
 
-Estas son las partes del proceso de traducción de FreeCAD:
-* extraer las cadenas de texto del código fuente en archivos *.ts
-* cargar los archivos *.ts en [http://crowdin.net/project/freecad FreeCAD Crowdin].
-* traducción de cadenas dentro de Crowdin
-* extraer archivos *.ts modificados/nuevos de Crowdin
-* convertir archivos *.ts en archivos *.qm y actualizar el archivo *.qrc de cada módulo
-* actualizar el maestro de FreeCAD
+Estas son las etapas del proceso de traducción de FreeCAD:
+* Extraer cadenas de texto del código fuente a archivos *.ts
+* Cargar archivos *.ts en [http://crowdin.net/project/freecad FreeCAD Crowdin].
+* Traducción de cadenas dentro de Crowdin
+* Extraer archivos *.ts modificados/nuevos de Crowdin
+* Convertir archivos *.ts a archivos *.qm y actualizar el archivo *.qrc de cada módulo
+* Actualizar el archivo maestro de FreeCAD
 
 Todos los pasos anteriores son realizados por los "scripts de traducción" que son ejecutados por un administrador periódicamente.
 
