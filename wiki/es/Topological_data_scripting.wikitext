@@ -350,7 +350,7 @@ def makeBCurveEdge(Points):
 <span id="Create_a_plane"></span>
 ==== Crear de un plano ====
 
-A Plane is a flat rectangular surface. The method used to create one is {{incode|makePlane(length, width, [start_pnt, dir_normal])}}. By default start_pnt = Vector(0, 0, 0) and dir_normal = Vector(0, 0, 1). Using dir_normal = Vector(0, 0, 1) will create the plane facing in the positive Z axis direction, while dir_normal = Vector(1, 0, 0) will create the plane facing in the positive X axis direction:
+Un plano es una superficie rectangular plana. El método utilizado para crearlo es {{incode|makePlane(length, width, [start_pnt, dir_normal])}}. Por defecto, start_pnt = Vector(0, 0, 0) y dir_normal = Vector(0, 0, 1). Si se utiliza: dir_normal = Vector(0, 0, 1), el plano se creará orientado en la dirección positiva del eje Z, mientras que si se utiliza: dir_normal = Vector(1, 0, 0), el plano se creará orientado en la dirección positiva del eje X.
 
 {{Code|code=
 plane = Part.makePlane(2, 2)
