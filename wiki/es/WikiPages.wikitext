@@ -293,12 +293,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{VersionNoteObsolete|0.19}}
 |Idem (variante en superíndice).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:Version|Version]]
 |{{Version|0.18}}
-|Use it to indicate that a feature was introduces in the specified FreeCAD version.
-</div>
+|Úselo para indicar que se introdujo una función en la versión de FreeCAD especificada.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
