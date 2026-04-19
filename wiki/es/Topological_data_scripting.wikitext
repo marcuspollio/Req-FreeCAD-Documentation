@@ -384,10 +384,7 @@ Crea una copia de la elipse dada
 Part.Ellipse(S1, S2, Center)
 }}
 
-<div class="mw-translate-fuzzy">
-Crea una elipse centrada en el punto Center, donde el plano de la elipse está definido por Center, S1 y S2, su eje mayor está definido por Center y S1, su radio mayor es la distancia entre Center y S1, 
-y su radio menor es la distancia entre S2 y el eje mayor.
-</div>
+Crea una elipse centrada en el punto Centro, donde el plano de la elipse está definido por Centro, S1 y S2, su eje mayor está definido por Centro y S1, su radio mayor es la distancia entre el Centro y S1, y su radio menor es la distancia entre S2 y el eje mayor.
 
 {{Code|code=
 Part.Ellipse(Center, MajorRadius, MinorRadius)
