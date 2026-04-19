@@ -811,9 +811,7 @@ Aquí definimos la geometría: un arco, formado por tres puntos, y dos segmentos
     myWireProfile=Part.Wire([aWire, aMirroredWire])
 }}
 
-<div class="mw-translate-fuzzy">
-Hasta ahora construimos sólo medio perfil. Más sencillo que construir el perfil completo del mismo modo, simplemente podemos crear una simetría de lo que hicimos, y pegar ambas partes. Así primero creamos una matriz. Una matriz es un modo muy común para aplicar transformaciones a objetos en el mundo 3D, ya que puede contener en una estructura todas las transformaciones básicas que los objetos pueden sufrir (mover, rotar y escalar). Aquí, después de crear la matriz, creamos una simétrica, y creamos una copia de nuestro contorno con esa matriz de transformación aplicada. Ahora tenemos 2 contornos, y podemos crear un tercer contorno a partir de ellos, ya que los contornos son en realidad listas de aristas.
-</div>
+Hasta ahora solo hemos construido la mitad del perfil. En lugar de construir el perfil completo de la misma manera, podemos simplemente reflejar lo que hicimos y unir ambas mitades. Primero creamos una matriz. Una matriz es una forma muy común de aplicar transformaciones a objetos en el mundo 3D, ya que puede contener en una sola estructura todas las transformaciones básicas que pueden experimentar los objetos 3D (mover, rotar y escalar). Después de crear la matriz, la reflejamos, luego creamos una copia de nuestro alambre y le aplicamos la matriz de transformación. Ahora tenemos dos alambres, y podemos crear un tercer alambre a partir de ellos, ya que los alambres son en realidad listas de aristas.
 
 {{Code|code=
     ...
