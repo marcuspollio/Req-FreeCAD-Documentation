@@ -146,9 +146,7 @@ The [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Wo
 
 * [[Image:Part_Cut.svg|32px]] [[Part_Cut|剪切]]: 从一个对象中剪切掉与另一个对象重合的部分。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Part_Fuse.svg|32px]] [[Part_Fuse|Union]]: Fuses two or more objects.
-</div>
+* [[Image:Part_Fuse.svg|32px]] [[Part_Fuse|并集]]: 将两个或多个对象 融合为一个整体。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Part_Common.svg|32px]] [[Part_Common|Intersection]]: Extracts the common part of two objects.
