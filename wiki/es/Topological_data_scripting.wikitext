@@ -822,9 +822,7 @@ Hasta ahora solo hemos construido la mitad del perfil. En lugar de construir el 
     myBody=myBody.makeFillet(myThickness / 12.0, myBody.Edges)
 }}
 
-<div class="mw-translate-fuzzy">
-Ahora que tenemos un contorno cerrado, se puede convertir en una cara. Una vez que tengamos una cara, podemos extruirla. Haciendo esto, creamos un sólido. Entonces aplicamos un pequeño redondeo a nuestro objeto porque queremos crear un buen diseño, no es así?
-</div>
+Ahora que tenemos un alambre cerrado, podemos convertirlo en una cara. Una vez que tenemos una cara, podemos extruirla. Al hacerlo, creamos un sólido. Luego, le aplicamos un pequeño redondeo a nuestro objeto porque nos importa el buen diseño, ¿verdad?
 
 {{Code|code=
     ...
