@@ -942,9 +942,10 @@ To convert a STEP file to an IGS file:
 }}
 {{Top}}
 
-<div class="mw-translate-fuzzy">
-{{docnav/es|Mesh Scripting/es|Mesh to Part/es}}
-</div>
+{{Docnav
+|[[Part_scripting|Part scripting]]
+|[[Scripted_objects|Scripted objects]]
+}}
 
 {{Powerdocnavi{{#translation:}}}}
 [[Category:Developer Documentation{{#translation:}}]]
