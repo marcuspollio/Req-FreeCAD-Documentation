@@ -50,7 +50,7 @@
 
 *[[File:Part_CheckGeometry.svg|32px]] [[Part_CheckGeometry|检查几何体]]：检查所选对象的几何体是否存在错误。
 
-*[[File:PartDesign_SubShapeBinder.svg|32px]] [[PartDesign_SubShapeBinder|Sub-Shape Binder]]: creates a shape binder referencing geometry from one or more parent objects.
+*[[File:PartDesign_SubShapeBinder.svg|32px]] [[PartDesign_SubShapeBinder|子形状绑定器]]：创建一个形状绑定器，以引用来自一个或多个父对象的几何元素。
 
 *[[File:PartDesign_Clone.svg|32px]] [[PartDesign_Clone|Clone]]: creates a clone of the selected body.
 
