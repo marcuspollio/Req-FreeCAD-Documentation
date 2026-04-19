@@ -149,9 +149,7 @@ Consulte la página [[Part_API|Part API]] o esta otra: [https://freecad-python-s
 <span id="Import_modules"></span>
 ===Módulos de importación===
 
-<div class="mw-translate-fuzzy">
-Primero necesitamos importar el módulo Pieza para poder usar su contenido en Python. También importaremos el módulo Base desde dentro del módulo FreeCAD:
-</div>
+Primero necesitamos importar los módulos FreeCAD y Part para poder usar su contenido en Python:
 
 {{Code|code=
 import FreeCAD as App
