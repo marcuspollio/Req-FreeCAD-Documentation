@@ -374,9 +374,7 @@ Existen varias formas de crear una elipse:
 Part.Ellipse()
 }}
 
-<div class="mw-translate-fuzzy">
-Crea una elipse cuyo radio mayor es 2 y el radio menor 1 con centro en el (0,0,0)
-</div>
+Crea una elipse con radio mayor de 2 y radio menor de 1 con centro en (0, 0, 0).
 
 {{Code|code=
 Part.Ellipse(Ellipse)
