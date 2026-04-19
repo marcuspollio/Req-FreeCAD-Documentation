@@ -53,9 +53,7 @@ The [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Wo
 
 * [[File:Part_Tube.svg|32px]] [[Part_Tube|管状体]]: 创建一个管状体。
 
-<div class="mw-translate-fuzzy">
-* [[Image:Part_Primitives.svg|32px]] [[Part_CreatePrimitives|CreatePrimitives]]: 一种用于创建各类参数化几何图元的工具
-</div>
+* [[Image:Part_Primitives.svg|32px]] [[Part_Primitives|基础几何体]]: 用于创建以下基础几何体的工具:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:Part_Plane.svg|32px]] [[Part_Plane|Plane]]: Creates a plane.
