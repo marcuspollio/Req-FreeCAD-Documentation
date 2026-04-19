@@ -177,7 +177,7 @@ Esta [https://www.forum.freecad.org/viewtopic.php?f=3&t=25180 discusión del for
 Actualización: consulte [[Translating_an_external_workbench|Traducción de un entorno de trabajo externo]]
 
 <span id="Automating_Crowdin_Translation_Updates"></span>
-== Automatización de las actualizaciones de las traducciones de Crowdin ==
+== Automatización de las actualizaciones de traducción de Crowdin ==
 
 Actualmente los mantenedores de FreeCAD utilizan la API de Crowdin a través de [[Crowdin_Scripts/es|Crowdin Guiones]] para extraer y enviar las traducciones a Crowdin y de vuelta al repositorio de Github. La API de Crowdin ofrece a los mantenedores de FreeCAD la posibilidad de automatizar aspectos del flujo de trabajo de traducción del proyecto, para más información consulta la [https://support.crowdin.com/api/api-integration-setup/ Documentación de la API de Crowdin].
 
