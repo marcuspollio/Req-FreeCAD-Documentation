@@ -434,7 +434,7 @@ El código anterior creará un semitoroide; solo se modifica el último parámet
 <span id="Create_a_box_or_cuboid"></span>
 === Crea una caja o cuboide ===
 
-Using {{incode|makeBox(length, width, height, [pnt, dir])}}. By default pnt = Vector(0, 0, 0) and dir = Vector(0, 0, 1).
+Usando {{incode|makeBox(length, width, height, [pnt, dir])}}. Por defecto, pnt = Vector(0, 0, 0) y dir = Vector(0, 0, 1).
 
 {{Code|code=
 box = Part.makeBox(10, 10, 10)
