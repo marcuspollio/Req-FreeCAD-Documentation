@@ -409,7 +409,7 @@ Part.show(eli.toShape())
 Para el constructor de la elipse anterior, hemos pasado centro, radio mayor y radio menor.
 {{Top}}
 <span id="Create_a_torus"></span>
-==== Crear un toroide ====
+=== Crear un toroide ===
 
 Usando {{incode|makeTorus(radius1, radius2, [pnt, dir, angle1, angle2, angle])}}. Por defecto, pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = 0, angle2 = 360 y angle = 360. Consideremos un toroide como un círculo pequeño cuyo centro se desplaza a lo largo de un círculo grande de tal forma que el plano del círculo siempre es perpendicular a la trayectoria del círculo grande. Radius1 es el radio del círculo grande, radius2 es el radio del círculo pequeño, pnt es el centro del toroide y dir es la dirección normal. angle1 y angle2 son ángulos en grados para el círculo pequeño; el último parámetro angle es para hacer una sección del toro:
 
