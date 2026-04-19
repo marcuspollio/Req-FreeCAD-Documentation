@@ -169,7 +169,7 @@ Esto crea un archivo de traducción vacío. Una vez hecho esto, debe asegurarse 
 Todo lo demás es automático para el desarrollador. El administrador extraerá las cadenas de texto, los traductores las traducirán, luego el administrador extraerá las traducciones y actualizará FreeCAD/master.
 
 <span id="Preparing_your_3rd_party_module_or_macro_for_translation"></span>
-=== Preparar su módulo o macro de terceros para la traducción ===
+=== Preparación de su módulo o macro de terceros para la traducción ===
 
 Los módulos o macros de terceros se traducen prácticamente de la misma manera, con la diferencia de que debes hacer parte del trabajo tú mismo.
 Este [https://www.forum.freecad.org/viewtopic.php?f=3&t=25180 discusión del foro] describe los detalles.
