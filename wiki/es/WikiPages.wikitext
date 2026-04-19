@@ -283,12 +283,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{Properties_Title|Base}}
 |Úselo para indicar el título de un grupo de propiedades en el [[Property_editor|editor de propiedades]]. El título no se incluirá en la tabla de contenido automática.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:Obsolete|Obsolete]]
 |{{Obsolete|0.19}}
-|Use it to indicate that a feature became obsolete in the specified FreeCAD version.
-</div>
+|Úselo para indicar que una función quedó obsoleta en la versión de FreeCAD especificada.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
