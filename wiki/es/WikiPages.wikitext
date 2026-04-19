@@ -380,12 +380,10 @@ El código Python debe ajustarse a las recomendaciones generales establecidas en
 |{{Fake heading|Heading|2}}
 |Úselo para crear un encabezado que no se incluirá automáticamente en la tabla de contenido.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:GuiCommand|GuiCommand]]
 |See [[GuiCommand model|GuiCommand model]]
-|Use it to create a box with useful information to document workbench commands (tools).
-</div>
+|Úselo para crear un cuadro con información útil para documentar los comandos (herramientas) del entorno de trabajo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
