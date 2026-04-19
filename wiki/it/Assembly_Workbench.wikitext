@@ -58,7 +58,7 @@ L'[[Assembly_Workbench/it|Ambiente Assembly]] [[File:Workbench_Assembly.svg|24px
 
 * [[Image:Assembly_CreateJointSlider.svg|32px]] [[Assembly_CreateJointSlider/it|Giunto di traslazione]]: crea un giunto di scorrimento (prismatico) tra le due parti selezionate, consentendo un movimento lineare lungo un singolo asse e impedendo la rotazione.
 
-* [[Image:Assembly_CreateJointBall.svg|32px]] [[Assembly_CreateJointBall/it|Giunto sferico]]: crea un giunto sferico tra le due parti selezionate in un singolo punto, consentendo la libera rotazione attorno al punto e mantenendo entrambe le parti connesse in questo punto.
+* [[Image:Assembly_CreateJointBall.svg|32px]] [[Assembly_CreateJointBall/it|Giunto sferico]]: crea un giunto sferico in un punto singolo tra due parti selezionate, consentendo la libera rotazione attorno a tale punto e mantenendo entrambe le parti connesse.
 
 * [[Image:Assembly_CreateJointDistance.svg|32px]] [[Assembly_CreateJointDistance/it|Vincolo di distanza]]: crea un vincolo di distanziamento tra le due parti selezionate, fissando la distanza tra le due parti.
 
