@@ -121,12 +121,13 @@ Las preferencias del Entorno de Trabajo de Malla se encuentran en los siguientes
 <span id="Notes"></span>
 == Notas ==
 
-<div class="mw-translate-fuzzy">
-* Hay más herramientas de malla disponibles en el [[Image:Workbench_OpenSCAD.svg|24px]] [[OpenSCAD_Workbench/es|Ambiente de trabajo OpenSCAD]].
-* Ver [[Mesh_Scripting/es|Mallas guiones]] para manipular y crear mallas usando [[Python/es|Python]].
-* Ver también: [[FreeCAD_and_Mesh_Import/es|FreeCAD e Mesh Importación]]
-* Ver [[Asymptote/es|Asymptote]] para exportar mallas al formato Asymptote.
-</div>
+* Hay más herramientas de malla disponibles en [[Imagen:Workbench_OpenSCAD.svg|24px]] [[OpenSCAD_Workbench|Entorno de Trabajo de OpenSCAD]].
+
+* Consulte [[Mesh_Generation|Generación de malla]] para obtener información detallada sobre la creación de mallas mediante la interfaz gráfica de usuario (GUI).
+
+* Vea también [[Mesh_Scripting|Procesado de malla]] para manipular y crear mallas con [[Python]].
+
+* Échele un vistazo a [[FreeCAD_and_Mesh_Import|Importar malla en FreeCAD]].
 
 
 <div class="mw-translate-fuzzy">
