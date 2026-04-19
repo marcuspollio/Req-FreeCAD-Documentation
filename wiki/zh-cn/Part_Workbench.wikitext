@@ -129,9 +129,7 @@ The [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Wo
 
 * [[File:Part_ProjectionOnSurface.svg|32px]] [[Part_ProjectionOnSurface|投影到曲面]]: 将logo、文本或任意表面、连线、边投影到面。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[File:Part_ColorPerFace.svg|32px]] [[Part_ColorPerFace|Appearance per Face]]: Assigns colors to individual faces of objects.
-</div>
+* [[File:Part_ColorPerFace.svg|32px]] [[Part_ColorPerFace|每个面外观]]: 为对象的各个面指定颜色。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Boolean toolbar ===
