@@ -228,12 +228,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{ComboBox|Menu 1}}
 |Úselo para indicar un cuadro combinado en la interfaz gráfica de usuario que necesita ser modificado.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:LineEdit|LineEdit]]
 |{{LineEdit|Metal Nickel (Ni)}}
-|Use it to indicate a LineEdit in the graphical user interface that needs to be modified.
-</div>
+|Úselo para indicar un LineEdit en la interfaz gráfica de usuario que necesite ser modificado.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
