@@ -769,9 +769,7 @@ import FreeCAD as App
 import Part, math
 }}
 
-<div class="mw-translate-fuzzy">
-Necesitaremos, desde luego, el módulo de piezas, pero también el módulo FreeCAD.Base, que contiene estructuras básicas de FreeCAD como vectores y matrices.
-</div>
+Por supuesto, necesitaremos los módulos {{incode|FreeCAD}} e {{incode|Part}}.
 
 {{Code|code=
 def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0):
