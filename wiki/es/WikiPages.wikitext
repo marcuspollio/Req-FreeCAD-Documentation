@@ -273,12 +273,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{PropertyView|Color}}
 |Úselo para indicar una propiedad de Vista en el [[Property_editor|editor de propiedades]]. Ejemplos de propiedades de Vista incluyen {{emphasis|Line Color}}, {{emphasis|Line Color}}, {{emphasis|Line Width}}, {{emphasis|Point Color}}, {{emphasis|Point Size}}, etc.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:PropertyData|PropertyData]]
 |{{PropertyData|Position}}
-|Use it to indicate a Data property in the [[Property_editor|property editor]]. Data properties are different for different types of objects.
-</div>
+|Úselo para indicar una propiedad de datos en el [[Property_editor|editor de propiedades]]. Las propiedades de datos son diferentes para distintos tipos de objetos.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
