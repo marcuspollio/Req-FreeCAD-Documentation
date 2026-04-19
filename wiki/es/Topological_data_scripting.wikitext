@@ -495,7 +495,7 @@ Esto moverá nuestra figura "myShape" 2 unidades en la dirección X.
 <span id="Rotate_a_shape"></span>
 === Rotación de una forma ===
 
-To rotate a shape, you need to specify the rotation center, the axis, and the rotation angle:
+Para rotar una figura, es necesario especificar el centro de rotación, el eje y el ángulo de rotación:
 
 {{Code|code=
 myShape.rotate(App.Vector(0, 0, 0),App.Vector(0, 0, 1), 180)
