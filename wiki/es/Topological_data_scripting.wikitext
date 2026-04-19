@@ -432,11 +432,7 @@ tor=Part.makeTorus(10, 5, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0, 360, 180)
 El código anterior creará un semitoroide; solo se modifica el último parámetro, es decir, los ángulos restantes conservan sus valores predeterminados. Al introducir el ángulo 180, se creará un toroide de 0 a 180 grados, o sea, medio toroide.
 {{Top}}
 <span id="Create_a_box_or_cuboid"></span>
-<div class="mw-translate-fuzzy">
-==== Creación de un cubo o prisma ====
-
-Utilizando '''makeBox(length,width,height,[pnt,dir])'''. Por defecto pnt=Vector(0,0,0) y dir=Vector(0,0,1)
-</div>
+=== Crea una caja o cuboide ===
 
 Using {{incode|makeBox(length, width, height, [pnt, dir])}}. By default pnt = Vector(0, 0, 0) and dir = Vector(0, 0, 1).
 
