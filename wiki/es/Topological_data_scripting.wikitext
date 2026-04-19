@@ -924,9 +924,7 @@ s = Part.makeBox(10, 10, 10)
 s.exportStep("test.stp")
 }}
 
-<div class="mw-translate-fuzzy">
-se guardará nuestro cubo en un archivo STEP. Para cargar un archivo BREP, IGES o STEP, simplemente haz lo contrario:
-</div>
+Guardará nuestra caja en un archivo STEP. Para cargar un archivo BREP, IGES o STEP:
 
 {{Code|code=
 import Part
