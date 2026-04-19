@@ -548,11 +548,7 @@ myShape=myShape.transformGeometry(myMat)
 === Operaciones Booleanas ===
 
 <span id="Subtraction"></span>
-<div class="mw-translate-fuzzy">
-==== Diferencia ====
-
-La diferencia de una forma con otra se llama "corte" en el argot de OCC/FreeCAD y se hace así:
-</div>
+=== Diferencia ===
 
 Subtracting a shape from another one is called "cut" in FreeCAD and is done like this:
 
