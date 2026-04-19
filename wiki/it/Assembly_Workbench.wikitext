@@ -60,7 +60,7 @@ L'[[Assembly_Workbench/it|Ambiente Assembly]] [[File:Workbench_Assembly.svg|24px
 
 * [[Image:Assembly_CreateJointBall.svg|32px]] [[Assembly_CreateJointBall/it|Giunto sferico]]: crea un giunto sferico tra le due parti selezionate in un singolo punto, consentendo la libera rotazione attorno al punto e mantenendo entrambe le parti connesse in questo punto.
 
-* [[Image:Assembly_CreateJointDistance.svg|32px]] [[Assembly_CreateJointDistance/it|Giunto di Distanziamento]]: crea un giunto di distanziamento tra le due parti selezionate, fissando la distanza tra le due parti.
+* [[Image:Assembly_CreateJointDistance.svg|32px]] [[Assembly_CreateJointDistance/it|Vincolo di distanza]]: crea un vincolo di distanziamento tra le due parti selezionate, fissando la distanza tra le due parti.
 
 * [[Image:Assembly_CreateJointParallel.svg|32px]] [[Assembly_CreateJointParallel/it|Giunto di Parallelismo]]: crea un giunto parallelo tra le due parti selezionate, impostando parallelamente gli assi Z dei sistemi di coordinate selezionati.
 
