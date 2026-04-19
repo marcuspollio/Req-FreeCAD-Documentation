@@ -62,9 +62,7 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 
 * [[Image:Mesh_AddFacet.svg|32px]] [[Mesh_AddFacet|Añadir triángulo]]: Agrega caras a lo largo del límite de un objeto de malla abierta.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Mesh_RemoveComponents.svg|32px]] [[Mesh_RemoveComponents|Remove Components]]: Removes faces from mesh objects.
-</div>
+* [[Image:Mesh_RemoveComponents.svg|32px]] [[Mesh_RemoveComponents|Eliminar componentes]]: Elimina caras de objetos de malla.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Mesh_RemoveCompByHand.svg|32px]] [[Mesh_RemoveCompByHand|Remove Components Manually]]: Removes components by hand from mesh objects.
