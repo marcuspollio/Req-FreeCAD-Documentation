@@ -258,12 +258,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{SystemInput|Type this text}}
 |Úselo para indicar el texto introducido por el usuario.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:SystemOutput|SystemOutput]]
 |{{SystemOutput|Output text}}
-|Use it to indicate text output from the system.
-</div>
+|Úselo para indicar la salida de texto del sistema.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
