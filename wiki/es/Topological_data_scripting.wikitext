@@ -285,9 +285,7 @@ ccircle.Curve
 > Circle (Radius : 10, Position : (10, 0, 0), Direction : (1, 0, 0))
 }}
 
-<div class="mw-translate-fuzzy">
-ccircle se creará a una distancia de 10 en el eje x desde el origen, y estará orientado hacia el eje x. Nota: makeCircle sólo acepta Base.Vector() para posición y normal, pero no admite tuplas. Tambien puedes crear una parte de una circunferencia dando su ángulo de inicio y fin, así:
-</div>
+ccircle se creará a una distancia de 10 del origen X y estará orientado hacia afuera a lo largo del eje X. Nota: {{incode|makeCircle()}} solo acepta {{incode|App.Vector()}} para los parámetros de posición y normal, no tuplas. También puede crear parte del círculo especificando un ángulo inicial y un ángulo final:
 
 {{Code|code=
 from math import pi
