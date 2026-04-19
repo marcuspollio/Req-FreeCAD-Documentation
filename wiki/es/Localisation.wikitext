@@ -52,7 +52,7 @@ A partir de la versión 0.20 de FreeCAD, las siguientes variables se pueden agre
 <FCText Name="AdditionalLanguageDomainEntries">"Esperanto"="eo";"French"="fr";</FCText>
 </pre>
 
-'''AdditionalTranslationsDirectory''' - agregue un directorio adicional para que FreeCAD busque archivos *.qm. Esta ubicación tendrá precedencia sobre $userAppDataDir/translations y $resourceDir/translations. Por ejemplo:
+'''AdditionalTranslationsDirectory''' - agrega un directorio adicional para que FreeCAD busque archivos *.qm. Esta ubicación tendrá precedencia sobre $userAppDataDir/translations y $resourceDir/translations. Por ejemplo:
 
 <pre>
 <FCText Name="AdditionalTranslationsDirectory">C:/Users/FreeCADUser/TestTranslations</FCText>
