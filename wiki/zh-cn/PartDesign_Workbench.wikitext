@@ -48,7 +48,7 @@
 
 * [[File:Sketcher_ValidateSketch.svg|32px]] [[Sketcher_ValidateSketch|Validate Sketch]]: verifies the tolerance of different points and adjusts them.
 
-* [[File:Part_CheckGeometry.svg|32px]] [[Part_CheckGeometry|Check Geometry]]: Checks the geometry of selected objects for errors.
+*[[File:Part_CheckGeometry.svg|32px]] [[Part_CheckGeometry|检查几何体]]：检查所选对象的几何体是否存在错误。
 
 *[[File:PartDesign_SubShapeBinder.svg|32px]] [[PartDesign_SubShapeBinder|Sub-Shape Binder]]: creates a shape binder referencing geometry from one or more parent objects.
 
