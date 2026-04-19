@@ -149,7 +149,7 @@ La traducción del sitio web de FreeCAD se realiza ahora a través de [https://c
 Esta sección es para los desarrolladores que quieren añadir localización a su código. 
 
 <span id="Preparing_your_FreeCAD/master_modules_for_translation"></span>
-=== Preparando tus módulos de FreeCAD/master para la traducción ===
+=== Preparando sus módulos de FreeCAD/master para la traducción ===
 
 Estas son las partes del proceso de traducción de FreeCAD:
 * extraer las cadenas de texto del código fuente en archivos *.ts
