@@ -667,7 +667,7 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 <span id="Use_a_selection"></span>
 === Usando la selección ===
 
-Here we see now how we can use a selection the user did in the viewer. First of all we create a box and show it in the viewer.
+A continuación, veremos cómo podemos utilizar una selección realizada por el usuario en el visor. En primer lugar, creamos un cuadro y lo mostramos en el visor.
 
 {{Code|code=
 import Part
