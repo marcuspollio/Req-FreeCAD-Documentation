@@ -99,7 +99,7 @@ Todos los usuarios de la wiki que tengan permisos de "Editor" pueden iniciar la 
 
 Sin embargo, solo los usuarios con permisos de "Administrador" pueden marcar las páginas para su traducción. Una página que no esté marcada para su traducción no utilizará la extensión de traducción y no se sincronizará correctamente con la información en inglés.
 
-La barra lateral izquierda también es traducible, pero solo los administradores pueden modificar este elemento del sitio. Siga las instrucciones específicas en [[Barra lateral de localización|Barra lateral de localización]].
+La barra lateral izquierda también es traducible, pero solo los administradores pueden modificar este elemento del sitio. Siga las instrucciones específicas en [[Localisation Sidebar|Barra lateral de localización]].
 
 La primera vez que se cambia una página al nuevo sistema de traducción, se pierden todas las traducciones manuales anteriores. Para recuperar una traducción, conviene guardar una copia sin conexión del texto original antes del cambio. A continuación, se puede usar este texto traducido para completar las unidades de traducción en el nuevo sistema. También se puede abrir una versión anterior del historial y, de esta manera, recuperar el texto original. Este procedimiento debe repetirse para cada idioma que tuviera una página traducida.
 
