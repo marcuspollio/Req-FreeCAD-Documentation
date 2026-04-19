@@ -429,9 +429,7 @@ El código anterior creará una porción del toroide.
 tor=Part.makeTorus(10, 5, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0, 360, 180)
 }}
 
-<div class="mw-translate-fuzzy">
-El código de arriba creará un semi toro, sólo el último parámetro se ha cambiado, dando el valor 180 creará el toro desde 0 hasta 180, eso es, medio toro.
-</div>
+El código anterior creará un semitoroide; solo se modifica el último parámetro, es decir, los ángulos restantes conservan sus valores predeterminados. Al introducir el ángulo 180, se creará un toroide de 0 a 180 grados, o sea, medio toroide.
 {{Top}}
 <span id="Create_a_box_or_cuboid"></span>
 <div class="mw-translate-fuzzy">
