@@ -6,15 +6,17 @@ Esta página es una extensión de la página [[Help:Editing|Ayuda:Edición]] y p
 <span id="Before_starting"></span>
 == Antes de empezar ==
 
-<div class="mw-translate-fuzzy">
-* Esta documentación wiki está basada en [https://www.mediawiki.org/wiki/MediaWiki MediaWiki], el mismo software que utiliza [https://es.wikipedia.org/wiki/Main_Page Wikipedia]. Si has contribuido a la Wikipedia, editar las páginas del wiki de FreeCAD debería ser fácil.
-* A diferencia de Wikipedia, el wiki de FreeCAD está protegido contra la escritura para evitar el spam. Debes solicitar una cuenta [http://forum.freecadweb.org/viewtopic.php?f=21&t=6830 en el foro].
-* Si nunca has usado el software wiki antes, por favor lee [[Help:Editing|Ayuda:Edición]] para familiarizarte con el marcado que se usa.
-* Para el uso avanzado del software wiki, vea [https://www.mediawiki.org/wiki/Help:Contents Ayuda de MediaWiki:Contenido]. No todas las características de MediaWiki están disponibles en este wiki de FreeCAD, pero muchas sí.
-* Nos gusta mantener la documentación fácil de leer, así que evita usar características complejas. Mantén la sencillez.
-* Usa un sandbox para probar tu código, por ejemplo, [[FreeCADDocu:Sandbox]] o una página particular con tu nombre [[Sandbox:Yourname]]. Las páginas Sandbox deben de ser colocads en la categoría Sandbox. Esto se logra al agregar <code><nowiki>[[Category:Sandbox]]</nowiki></code> al final del código de la wiki.
-* Por favor, ten en cuenta las traducciones. El wiki de FreeCAD utiliza soporte de traducción automática para proporcionar páginas en muchos idiomas. Para cada página pueden existir múltiples versiones lingüísticas. En muchas páginas verás etiquetas como <code>&lt;translate&gt;...&lt;/translate&gt;</code> y muchas etiquetas simples como <code>&lt;!--T:8--&gt;</code>. Estas últimas son llamadas unidades de traducción y son creadas por el sistema de traducción, no debería de crearlas manualmente. Vinculan los títulos y los párrafos a sus versiones traducidas. No debería cambiarlos, ya que eso destruiría esos enlaces. Sin embargo, puede mover los párrafos o cambiar la redacción siempre que las etiquetas permanezcan con ellos. Si elimina un epígrafe o un párrafo, debe eliminar también la etiqueta que le corresponde. Tenga en cuenta que los cambios en los títulos y párrafos existentes afectan a las traducciones actuales. Sus cambios deben valer la pena. No se preocupe cuando añada nuevo material porque el sistema añadirá nuevas etiquetas automáticamente después de sus ediciones. Para más información, consulte [[Localisation/es|Localización]] y la página original [https://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example Mediawiki:Extensión:Traducir].
-</div>
+* Esta documentación wiki se basa en [https://www.mediawiki.org/wiki/MediaWiki MediaWiki], el mismo software que utiliza [https://en.wikipedia.org/wiki/Main_Page Wikipedia]. Si ha contribuido a la redacción u edición de la Wikipedia, editar las páginas wiki de FreeCAD le resultará sencillo.
+
+* Si nunca ha utilizado software wiki, consulte [[Help:Editing]] para familiarizarse con el lenguaje de marcado.
+
+* Para un uso avanzado del software wiki, consulte [https://www.mediawiki.org/wiki/Help:Contents MediaWiki Help:Contents]. No todas las funciones de MediaWiki están disponibles en esta wiki de FreeCAD, pero muchas de ellas sí.
+
+* Nos gusta que la documentación sea fácil de leer, así que evite usar funciones complejas. Manténgala simple.
+
+* Utilice un entorno de pruebas (sandbox) para probar su código, por ejemplo, [[FreeCADDocu:Sandbox]] o una página específica con su nombre [[Sandbox:SuNombre]]. Las páginas de sandbox deben colocarse en la categoría Sandbox. Esto se consigue añadiendo <code><nowiki>[[Category:Sandbox]]</nowiki></code> al final del código wiki.
+
+* Tenga en cuenta las traducciones. La wiki de FreeCAD utiliza traducción automática para ofrecer páginas en varios idiomas. Cada página puede tener varias versiones en diferentes idiomas. En muchas páginas verá etiquetas como <code>&lt;translate&gt;...&lt;/translate&gt;</code> y muchas etiquetas individuales como <code>&lt;!--T:8--&gt;</code>. Estas últimas marcan las llamadas unidades de traducción y son creadas por el sistema de traducción; nunca debe crearlas manualmente. Vinculan los encabezados y párrafos con sus versiones traducidas. No debe modificarlas, ya que esto destruiría esos vínculos. Sin embargo, puede mover párrafos o cambiar la redacción siempre que las etiquetas permanezcan. Si elimina un encabezado o un párrafo, también debe eliminar la etiqueta correspondiente. Tenga en cuenta que los cambios en los encabezados y párrafos existentes afectan a las traducciones actuales. Sus cambios deben ser relevantes. No se preocupe al añadir material nuevo, ya que el sistema añadirá etiquetas automáticamente después de sus ediciones. Para más información, consulte [[Localisation|Localización]] y la página original [https://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example Mediawiki:Extension:Translate page].
 
 <span id="General_guidelines"></span>
 == Directrices generales ==
