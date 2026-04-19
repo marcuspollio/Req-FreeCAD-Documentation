@@ -82,7 +82,7 @@ Une vue en coupe, en fait un objet {{Incode|TechDraw::DrawViewSection}}, est dé
 * {{PropertyData|Section Symbol|String}} : identifiant de cette section.
 * {{PropertyData|Base View|Link}} : vue sur laquelle est basée cette section.
 * {{PropertyData|Section Normal|Vector}} : vecteur décrivant la direction normale au plan de coupe.
-* {{PropertyData|Section Origin|Vector}} : vecteur décrivant un point sur le plan de coupe. Généralement le centroïde de la pièce d'origine. 
+* {{PropertyData|Section Origin|Vector}} : vecteur décrivant un point sur le plan de coupe, généralement le centroïde de la pièce d'origine. 
 * {{PropertyData|Section Direction|Enumeration}} : direction dans la vue de base pour cette section. Options : {{Value|Aligned}}, {{Value|Right}}, {{Value|Left}}, {{Value|Up}} ou {{Value|Down}}.
 
 <span id="View"></span>
