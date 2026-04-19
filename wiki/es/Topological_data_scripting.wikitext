@@ -855,9 +855,7 @@ el = makeBottleTut()
 Part.show(el)
 }}
 
-<div class="mw-translate-fuzzy">
-o, de forma más simple:
-</div>
+Finalmente, llamamos a la función para crear la pieza y luego hacerla visible.
 {{Top}}
 ==Example: Pierced box==
 
