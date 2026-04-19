@@ -583,7 +583,7 @@ fuse = cylinder1.fuse(cylinder2)
 <span id="Section"></span>
 === Sección ===
 
-A "section" is the intersection between a solid shape and a plane shape. It will return an intersection curve, a compound curve composed of edges.
+Una "sección" es la intersección entre una figura sólida y una figura plana. Devuelve una curva de intersección, una curva compuesta formada por aristas.
 
 {{Code|code=
 cylinder1 = Part.makeCylinder(3, 10, App.Vector(0, 0, 0), App.Vector(1, 0, 0))
