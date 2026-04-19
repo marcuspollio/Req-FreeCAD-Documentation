@@ -122,10 +122,8 @@ Para enlazar con la parte superior de la página puede usar:
 
 Esta plantilla debería mostrar automáticamente el texto correcto según el idioma de la página. Un enlace al inicio de la página es especialmente útil para páginas largas, ya que permite al usuario volver rápidamente al índice. Puede colocarlo al final de cada párrafo. Asegúrese de dejar una línea en blanco antes y después de la plantilla.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Image link
-: [[Image:Draft_Wire.svg|24px|Optional text that is shown when you hover the image|link=Draft_Wire]]
-</div>
+; Enlace de la imagen
+: [[Imagen:Draft_Wire.svg|24px|Texto opcional que se muestra al pasar el cursor sobre la imagen|link=Draft_Wire]]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To use an image as a link:
