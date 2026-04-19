@@ -10,7 +10,7 @@
 <span id="Overview"></span>
 ==Vista general==
 
-La '''localización''' consiste, en general, en proporcionar a un determinado software una interfaz de usuario multilingüe. En FreeCAD, puedes configurar el idioma de la interfaz de usuario en {{MenuCommand|Editar → Preferences → General}}. FreeCAD utiliza [[wikipedia:Qt (toolkit)|Qt]] para habilitar la compatibilidad con varios idiomas. En sistemas Unix/Linux, FreeCAD utiliza de forma predeterminada la configuración regional actual del sistema.
+La '''localización''' consiste, en general, en proporcionar a un determinado software una interfaz de usuario multilingüe. En FreeCAD, puede configurar el idioma de la interfaz de usuario en {{MenuCommand|Editar → Preferences → General}}. FreeCAD utiliza [[wikipedia:Qt (toolkit)|Qt]] para habilitar la compatibilidad con varios idiomas. En sistemas Unix/Linux, FreeCAD utiliza de forma predeterminada la configuración regional actual del sistema.
 
 <span id="Helping_to_translate_FreeCAD"></span>
 == Ayudando a traducir FreeCAD ==
