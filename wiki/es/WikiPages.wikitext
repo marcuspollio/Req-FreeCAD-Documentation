@@ -104,7 +104,7 @@ Traducido:
 
 Tenga en cuenta que, para la parte anterior al carácter <code><nowiki>|</nowiki></code>, el enlace real, con mayúsculas y minúsculas, es relevante. Si el nombre de su página es <code><nowiki>Nombre_de_la_página</nowiki></code>, el enlace fallará si escribe <code><nowiki>Nombre_de_la_Página</nowiki></code> (P mayúscula). Antes del carácter <code><nowiki>|</nowiki></code>, todos los espacios deben reemplazarse por guiones bajos (<code><nowiki>_</nowiki></code>). Esto es para ayudar a los traductores que utilizan software de traducción; sin los guiones bajos, el enlace sería traducido directamente por el software, lo que produciría errores indeseables.
 
-Para vincular a un determinado párrafo, agregue un signo <code><nowiki>#</nowiki></code> y sus encabezados al nombre de la página. Ejemplo:
+Para enlazar a un párrafo específico, agregue el signo <code><nowiki>#</nowiki></code> y sus encabezados al nombre de la página. Ejemplo:
 
 <code><nowiki>[[WikiPages#Links|WikiPages]]</nowiki></code>
 
