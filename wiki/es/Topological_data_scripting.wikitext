@@ -406,9 +406,7 @@ eli = Part.Ellipse(App.Vector(0, 0, 0), 10, 5)
 Part.show(eli.toShape())
 }}
 
-<div class="mw-translate-fuzzy">
-para el constructor de la elipse de arriba hemos pasado el centro, MajorRadius y MinorRadius
-</div>
+Para el constructor de la elipse anterior, hemos pasado centro, radio mayor y radio menor.
 {{Top}}
 <span id="Create_a_torus"></span>
 ==== Crear un toroide ====
