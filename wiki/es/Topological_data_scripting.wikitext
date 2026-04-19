@@ -455,7 +455,7 @@ hemisphere = Part.makeSphere(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90, 
 <span id="Create_a_cylinder"></span>
 === Crear un cilindro ===
 
-Using {{incode|makeCylinder(radius, height, [pnt, dir, angle])}}. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1) and angle = 360.
+Usando {{incode|makeCylinder(radius, height, [pnt, dir, angle])}}. Por defecto pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1) y angle = 360.
 
 {{Code|code=
 cylinder = Part.makeCylinder(5, 20)
