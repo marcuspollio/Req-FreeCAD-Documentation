@@ -848,9 +848,7 @@ El mecanismo de fusión es muy potente. Se encargará de pegar lo que sea necesa
     return myBody
 }}
 
-<div class="mw-translate-fuzzy">
-Obtenemos nuestro sólido de pieza como resultado de nuestra función. Ese sólido de pieza, como cualquier otra forma de piezas, se puede atribuir a un objeto en el documento de FreeCAD, con:
-</div> 
+Luego, devolvemos nuestra parte sólida como resultado de nuestra función. 
 
 {{Code|code=
 el = makeBottleTut()
