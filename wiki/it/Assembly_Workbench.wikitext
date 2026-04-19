@@ -70,7 +70,7 @@ L'[[Assembly_Workbench/it|Ambiente Assembly]] [[File:Workbench_Assembly.svg|24px
 
 * [[Image:Assembly_CreateJointRackPinion.svg|32px]] [[Assembly_CreateJointRackPinion/it|Trasmissione a cremagliera e ingranaggio]]: crea una correlazione cremagliera e ingranaggio, che sincronizza il movimento lineare di una parte con un giunto di traslazione e il movimento circolare di una parte con un giunto di rotazione.
 
-* [[Image:Assembly_CreateJointScrew.svg|32px]] [[Assembly_CreateJointScrew/it|Giunto a Vite]]: crea un vincolo a vite (elicoidale) che accoppia la traslazione di una parte di un giunto scorrevole e la rotazione di una parte di un giunto rotante.
+* [[Image:Assembly_CreateJointScrew.svg|32px]] [[Assembly_CreateJointScrew/it|Trasmissione a vite]]: crea una correlazione a vite, che sincronizza il movimento lineare di una parte con un giunto di traslazione e il movimento circolare di una parte con un giunto di rotazione.
 
 * <span id="Assembly_CreateJointGearBelt">[[Image:Assembly_CreateJointGears.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] Giunto Ingranaggi/Cinghia:</span><!--Do not edit span id: the Assembly_CompCreateJointGearBelt pages redirect here-->
 
