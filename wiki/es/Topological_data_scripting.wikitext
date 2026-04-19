@@ -490,9 +490,7 @@ myShape = Part.makeBox(2, 2, 2)
 myShape.translate(App.Vector(2, 0, 0))
 }}
 
-<div class="mw-translate-fuzzy">
-Esto moverá nuestra forma "myShape" 2 unidades en la dirección del eje X.
-</div>
+Esto moverá nuestra figura "myShape" 2 unidades en la dirección X.
 {{Top}}
 <span id="Rotate_a_shape"></span>
 <div class="mw-translate-fuzzy">
