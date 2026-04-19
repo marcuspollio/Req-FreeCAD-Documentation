@@ -61,7 +61,7 @@ Para familiarizarse rápidamente con la estructura y el estilo de la wiki de Fre
 <span id="Structure"></span>
 == Estructura ==
 <div class="mw-collapsible-content">
-El [[User_hub/es|El centro de usuarios]] proporciona un [[Online_Help_Toc/es|Índice de contenidos]]. Esto se utiliza como referencia principal para construir automáticamente la ayuda offline que puedes alcanzar desde FreeCAD, así como la documentación offline en PDF.
+El [[User_hub|Centro de usuarios]] proporciona una [[Online_Help_Toc|Tabla de contenido]]. Esta se utiliza como referencia principal para generar automáticamente la ayuda sin conexión a la que se puede acceder desde FreeCAD, así como la documentación en PDF sin conexión.
 
 La [[Template:Docnav/es|Plantilla:Docnav]] se utiliza para enlazar secuencialmente las páginas, siguiendo a la estructura del [[Online_Help_Toc/es|Índice de contenidos]]. Ver [[#Plantillas|#Plantillas]] para una lista de todas las plantillas.
 
