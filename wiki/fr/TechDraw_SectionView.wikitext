@@ -95,10 +95,10 @@ Une vue en coupe, en fait un objet {{Incode|TechDraw::DrawViewSection}}, est dé
 
 {{TitleProperty|Surface Hatch}}
 
-* {{PropertyView|Geom Hatch Color|Color}}: couleur du motif de hachures géométriques.
-* {{PropertyView|Hatch Color|Color}} : couleur du motif de hachures Svg.
-* {{PropertyView|Hatch Cut Surface|Bool|Hidden}} : permet de hachurer la surface de coupe.
-* {{PropertyView|Weight Pattern|Float}} : poids de ligne du motif de hachures géométriques.
+* {{PropertyView|Geom Hatch Color|Color}}: couleur du motif des hachures géométriques.
+* {{PropertyView|Hatch Color|Color}} : couleur du motif des hachures SVG.
+* {{PropertyView|Hatch Cut Surface|Bool|Hidden}} : permet de hachurer la surface de la coupe.
+* {{PropertyView|Weight Pattern|Float}} : largeur de lignes du motif des hachures géométriques.
 
 <span id="Notes"></span>
 == Remarques ==
