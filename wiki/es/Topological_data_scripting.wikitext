@@ -10,9 +10,7 @@
 <span id="Introduction"></span>
 == Introducción ==
 
-<div class="mw-translate-fuzzy">
-Aquí te explicaremos cómo controlar el módulo [[Part_Workbench/es|Pieza]] directamente desde el intérprete de Python de FreeCAD, o desde cualquier guión externo. Asegúrate de navegar por la sección [[Scripting/es|Guionización]] y las páginas [[FreeCAD_Scripting_Basics/es|Básicos de Guionización FreeCAD]] si necesitas más información sobre cómo funciona el guionización de Python en FreeCAD. Si eres nuevo en Python, es una buena idea leer primero la [[Introduction_to_Python/es|Introducción a Python]].
-</div>
+Aquí le explicaremos cómo controlar el Entorno de Trabajo de [[Part_Workbench|Pieza]] directamente desde el intérprete de Python de FreeCAD o desde cualquier script externo. Asegúrese de consultar la sección [[Scripting|Guionizado]] y las páginas [[FreeCAD_Scripting_Basics|Conceptos básicos de programación en FreeCAD]], si necesita más información sobre cómo funciona la programación en Python en FreeCAD. Si es nuevo en el uso de Python, le recomendamos leer primero la [[Introduction_to_Python|Introducción a Python]].
 
 <span id="See_also"></span>
 ===Ver también===
