@@ -641,7 +641,7 @@ Al escribir las líneas anteriores en el intérprete de Python, adquirirá la co
 <span id="Edge_analysis"></span>
 === Análisis de aristas ===
 
-In case of an edge, which is an arbitrary curve, it's most likely you want to do a discretization. In FreeCAD the edges are parametrized by their lengths. That means you can walk an edge/curve by its length:
+En el caso de una arista, que es una curva arbitraria, lo más probable es que desee realizar una discretización. En FreeCAD, las aristas se parametrizan por su longitud. Esto significa que puede recorrer una arista/curva a lo largo de su longitud:
 
 {{Code|code=
 import Part
