@@ -188,12 +188,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 {{Top}}
 |Úselo para añadir un enlace en la parte superior de la página.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
-|[[Template:Emphasis|Emphasis]]
-|{{Emphasis|emphasis}}
-|Use it to emphasize a piece of text.
-</div>
+|[[Plantilla:Emphasis|Énfasis]]
+|{{Emphasis|énfasis}}
+|Úselo para enfatizar un fragmento de texto.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
