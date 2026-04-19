@@ -192,7 +192,7 @@ Actualmente, los responsables del mantenimiento de FreeCAD utilizan la API de Cr
 
 {{Emphasis|Ver también:}} [[FreeCAD_Scripting_Basics/es|Conceptos básicos de programación en FreeCAD]].
 
-Para obtener un diccionario con los idiomas que admite la interfaz FreeCAD, use el método {{incode|supportedLocales}} del módulo {{incode|FreeCADGui}}.
+Para obtener un diccionario con los idiomas que admite la interfaz de FreeCAD, utilice el método {{incode|supportedLocales}} del módulo {{incode|FreeCADGui}}.
 
 {{Code|code=
 locales = FreeCADGui.supportedLocales()
