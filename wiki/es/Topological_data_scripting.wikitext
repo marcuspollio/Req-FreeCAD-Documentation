@@ -675,9 +675,7 @@ Part.show(Part.makeBox(100, 100, 100))
 Gui.SendMsgToActiveView("ViewFit")
 }}
 
-<div class="mw-translate-fuzzy">
-Selecciona ahora algunas caras o aristas. Con este archivo de guión puedes iterar todos los objetos seleccionados y sus subelementos:
-</div>
+Ahora seleccione algunas caras o aristas. Con este script puede iterar sobre todos los objetos seleccionados y sus subelementos:
 
 {{Code|code=
 for o in Gui.Selection.getSelectionEx():
