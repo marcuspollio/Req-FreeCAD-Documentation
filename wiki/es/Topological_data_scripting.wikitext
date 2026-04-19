@@ -303,7 +303,7 @@ degrees = math.degrees(radians)
 <span id="Create_an_arc_along_points"></span>
 === Crea un arco a lo largo de los puntos ===
 
-Unfortunately there is no {{incode|makeArc()}} function, but we have the {{incode|Part.Arc()}} function to create an arc through three points. It creates an arc object joining the start point to the end point through the middle point. The arc object's {{incode|toShape()}} function must be called to get an edge object, the same as when using {{incode|Part.LineSegment}} instead of {{incode|Part.makeLine}}.
+Lamentablemente, no existe la función {{incode|makeArc()}}, pero sí la función {{incode|Part.Arc()}} para crear un arco que pase por tres puntos. Esta función crea un objeto arco que une el punto inicial con el punto final a través del punto medio. Para obtener un objeto de borde, se debe llamar a la función {{incode|toShape()}} del objeto arco, al igual que cuando se usa {{incode|Part.LineSegment}} en lugar de {{incode|Part.makeLine}}.
 
 {{Code|code=
 arc = Part.Arc(App.Vector(0, 0, 0), App.Vector(0, 5, 0), App.Vector(5, 5, 0))
