@@ -399,9 +399,7 @@ Part.show(eli.toShape())
 
 En el código anterior hemos pasado S1, S2 y Center. De forma similar a {{incode|Arc}}, {{incode|Ellipse}} crea un objeto elíptico, no un borde, por lo que necesitamos convertirlo en un borde usando {{incode|toShape()}} para su visualización.
 
-<div class="mw-translate-fuzzy">
-Nota: Arc sólo acepta Base.Vector() para puntos pero no tuplas
-</div>
+Nota: {{incode|Ellipse()}} solo acepta {{incode|App.Vector()}} para puntos y no para tuplas.
 
 {{Code|code=
 eli = Part.Ellipse(App.Vector(0, 0, 0), 10, 5)
