@@ -363,9 +363,7 @@ Estas plantillas requieren más parámetros de entrada o generan un bloque de te
 |{{Code|code=import FreeCAD}}
 |Úselo para incluir ejemplos de código de varias líneas con una fuente monoespaciada. El lenguaje predeterminado es Python, pero se pueden especificar otros lenguajes.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-[[Python|Python]] code should adhere to the general recommendations established by [https://www.python.org/dev/peps/pep-0008/ PEP8: Style Guide for Python Code]. In particular, parentheses should immediately follow the function name, and a space should follow a comma. This makes the code more readable.
-</div>
+El código Python debe ajustarse a las recomendaciones generales establecidas en [https://www.python.org/dev/peps/pep-0008/ PEP8: Style Guide for Python Code]. En particular, los paréntesis deben seguir inmediatamente al nombre de la función, y debe haber un espacio después de una coma. Esto facilita la lectura del código.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
