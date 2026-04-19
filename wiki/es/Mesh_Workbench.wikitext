@@ -101,9 +101,7 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 * [[Image:Mesh_Merge.svg|32px]] [[Mesh_Merge|Merge]]: Creates a mesh object by combining the meshes of two or more mesh objects.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Mesh_SplitComponents.svg|32px]] [[Mesh_SplitComponents|Split by Components]]: Splits a mesh object into its components.
-</div>
+* [[Image:Mesh_SplitComponents.svg|32px]] [[Mesh_SplitComponents|Dividir por componentes]]: Divide un objeto de malla en sus componentes.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:MeshPart_CreateFlatMesh.svg|32px]] [[MeshPart_CreateFlatMesh|Unwrap Mesh]]: Creates a flat representation of a mesh object.
