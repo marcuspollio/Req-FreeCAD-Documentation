@@ -278,12 +278,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{PropertyData|Position}}
 |Úselo para indicar una propiedad de datos en el [[Property_editor|editor de propiedades]]. Las propiedades de datos son diferentes para distintos tipos de objetos.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:Properties Title|Properties Title]] / [[Template:TitleProperty|TitleProperty]]
 |{{Properties_Title|Base}}
-|Use it to indicate the title of a property group in the [[Property_editor|property editor]]. The title will not be included in the automatic table of contents.
-</div>
+|Úselo para indicar el título de un grupo de propiedades en el [[Property_editor|editor de propiedades]]. El título no se incluirá en la tabla de contenido automática.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
