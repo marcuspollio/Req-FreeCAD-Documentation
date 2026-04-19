@@ -364,7 +364,7 @@ plane.BoundBox
 Nota: {{incode|makePlane()}} solo acepta {{incode|App.Vector()}} para start_pnt y dir_normal y no tuplas.
 {{Top}}
 <span id="Create_an_ellipse"></span>
-==== Crear una elipse ====
+=== Crear una elipse ===
 
 Existen varias formas de crear una elipse:
 
