@@ -841,9 +841,7 @@ En este punto, el cuerpo de nuestra botella está hecho, pero aún necesitamos c
     myBody = myBody.fuse(myNeck)
 }}
 
-<div class="mw-translate-fuzzy">
-La operación de fusión, que en otras aplicaciones es llamada unión, es muy potente. Tendrá cuidado de pegar lo que necesita ser pegado y eliminar las partes que necesiten ser eliminadas.
-</div>
+El mecanismo de fusión es muy potente. Se encargará de pegar lo que sea necesario y de retirar las piezas que deban retirarse.
 
 {{Code|code=
     ...
