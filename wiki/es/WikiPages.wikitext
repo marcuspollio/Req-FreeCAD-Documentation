@@ -198,12 +198,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{KEY|Alt}}
 |Úsela para indicar una tecla del teclado que debe presionarse.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:ASCII|ASCII]]
 |{{ASCII|A}}
-|Use it to indicate a ascii key in a image (.svg) that needs to be pressed. You must give the character desired or the number of the code ascii of the character.
-</div>
+|Úselo para indicar una tecla ASCII en una imagen (.svg) que deba presionarse. Debe indicar el carácter deseado o el número de su código ASCII.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
