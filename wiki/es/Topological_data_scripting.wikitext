@@ -616,11 +616,7 @@ cylinder = disc.extrude(App.Vector(0, 0, 2))
 }}
 {{Top}}
 <span id="Explore_shapes"></span>
-<div class="mw-translate-fuzzy">
-== Exploración de formas ==
-
-Puedes explorar fácilmente la estructura de datos topológicos:
-</div>
+== Explorar formas ==
 
 You can easily explore the topological data structure:
 
