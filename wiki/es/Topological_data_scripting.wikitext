@@ -326,11 +326,7 @@ Los arcos son aristas válidas, como las líneas. Así que también pueden utili
 </div>
 {{Top}}
 <span id="Create_a_polygon"></span>
-<div class="mw-translate-fuzzy">
 ==== Creación de un polígono ====
-
-Un polígono es simplemente un contorno con múltiples aristas rectas. La función makePolygon toma una lista de puntos y crea un contorno a través de dichos puntos:
-</div>
 
 A polygon is simply a wire with multiple straight edges. The {{incode|makePolygon()}} function takes a list of points and creates a wire through those points:
 
