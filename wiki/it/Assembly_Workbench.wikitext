@@ -54,7 +54,7 @@ L'[[Assembly_Workbench/it|Ambiente Assembly]] [[File:Workbench_Assembly.svg|24px
 
 * [[Image:Assembly_CreateJointRevolute.svg|32px]] [[Assembly_CreateJointRevolute/it|Giunto di rotazione]]: crea un giunto rotante, consentendo la rotazione attorno a un singolo asse tra le due parti selezionate.
 
-* [[Image:Assembly_CreateJointCylindrical.svg|32px]] [[Assembly_CreateJointCylindrical/it|Giunto Cilindrico]]: crea un giunto cilindrico tra le due parti selezionate, consentendo la rotazione attorno a un singolo asse e un movimento lungo lo stesso asse.
+* [[Image:Assembly_CreateJointCylindrical.svg|32px]] [[Assembly_CreateJointCylindrical/it|Giunto di rototraslazione]]: crea un giunto cilindrico tra le due parti selezionate, consentendo la rotazione attorno a un singolo asse e un movimento lungo lo stesso asse.
 
 * [[Image:Assembly_CreateJointSlider.svg|32px]] [[Assembly_CreateJointSlider/it|Giunto di Traslazione]]: crea un giunto di scorrimento (prismatico) tra le due parti selezionate, consentendo un movimento lineare lungo un singolo asse e impedendo la rotazione.
 
