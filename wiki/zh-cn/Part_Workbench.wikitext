@@ -115,9 +115,7 @@ The [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Wo
 
 * [[Image:Part_Sweep.svg|32px]] [[Part_Sweep|扫掠]]: 沿路径对一个或多个轮廓进行扫描。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Part_Section.svg|32px]] [[Part_Section|Section]]: Creates a section by intersecting an object with a section plane.
-</div>
+* [[Image:Part_Section.svg|32px]] [[Part_Section|剖面]]: 通过截面平面与对象相交来创建截面。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Part_CrossSections.svg|32px]] [[Part_CrossSections|Cross-Sections]]: Creates one or more cross-sections through an object.
