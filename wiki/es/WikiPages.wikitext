@@ -248,12 +248,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{MenuCommand|File → Save}}
 |Úselo para indicar la ubicación de un comando dentro de un menú específico.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:FileName|FileName]]
 |{{FileName|File name}}
-|Use it to indicate a name of a file or directory.
-</div>
+|Úselo para indicar el nombre de un archivo o directorio.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
