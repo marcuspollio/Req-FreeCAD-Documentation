@@ -15,7 +15,7 @@
 
 Les préférences pour l'[[Image:Workbench_TechDraw.svg|24px]] [[TechDraw_Workbench/fr|atelier TechDraw]] se trouvent dans les [[Preferences_Editor/fr|réglages des préférences]]. Dans le menu, sélectionnez {{MenuCommand|Édition → Préférences}} puis {{MenuCommand|[[Image:Workbench_TechDraw.svg|16px]] TechDraw}}. Ce groupe n'est disponible que si l'atelier TechDraw a été chargé dans la session FreeCAD en cours.
 
-Il y a sept pages : [[#Général|Général]], [[#Échelle|Échelle]], [[#Cotes|Cotes]], [[#Annotation|Annotation]], [[#Couleurs|Couleurs]], [[#Lignes_cachées_supprimées|Lignes cachées supprimées]] et [[#Avancé|Avancé]].
+Il y a sept pages : [[#Général|Général]], [[#Échelle|Échelle]], [[#Cotes|Cotes]], [[#Annotation|Annotation]], [[#Couleurs|Couleurs]], [[#Suppression_des_lignes_cachées|Suppression des lignes cachées]] et [[#Avancé|Avancé]].
 
 Tous les préférences avec des étiquettes en ''italiques'' sont des valeurs par défaut pour les nouveaux objets de dessin. Ils n'ont aucun effet sur les objets existants.
 
