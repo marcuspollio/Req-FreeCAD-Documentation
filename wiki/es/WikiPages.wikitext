@@ -127,9 +127,7 @@ Esta plantilla debería mostrar automáticamente el texto correcto según el idi
 
 Para usar una imagen como enlace:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-<code><nowiki>[[Image:Draft_Wire.svg|24px|Optional text that is shown when you hover the image|link=Draft_Wire]]</nowiki></code>
-</div>
+<code><nowiki>[[Image:Draft_Wire.svg|24px|Texto opcional que se muestra al pasar el ratón por encima de la imagen|link=Draft_Wire]]</nowiki></code>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ; Image link + text link
