@@ -328,7 +328,7 @@ Los arcos son aristas válidas, como las líneas. Así que también pueden utili
 <span id="Create_a_polygon"></span>
 ==== Creación de un polígono ====
 
-A polygon is simply a wire with multiple straight edges. The {{incode|makePolygon()}} function takes a list of points and creates a wire through those points:
+Un polígono es simplemente un cable con múltiples aristas rectas. La función {{incode|makePolygon()}} toma una lista de puntos y crea un cable a través de esos puntos:
 
 {{Code|code=
 lshape_wire = Part.makePolygon([App.Vector(0, 5, 0), App.Vector(0, 0, 0), App.Vector(5, 0, 0)])
