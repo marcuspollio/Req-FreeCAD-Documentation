@@ -47,7 +47,7 @@ Las plantillas se utilizan para dar estilo a las páginas de ayuda. Proporcionan
 
 Si está trabajando en una página extensa, es recomendable marcarla como en proceso o como incompleta. Esto garantiza que los administradores de la wiki no la marquen como lista para traducir mientras aún la está modificando.
 
-Para marcar una página, añada <code><nowiki>{{Page in progress}}</nowiki></code> o <code><nowiki>{{UnfinishedDocu}}</nowiki></code> como primera línea. Con <code><nowiki>{{UnfinishedDocu}}</nowiki></code> invitas a otros a unirse a ti para terminar la página, mientras que <code><nowiki>{{Page in progress}}</nowiki></code> indica que tú mismo harás el trabajo y que los demás deben darte algo de tiempo.
+Para marcar una página, añada <code><nowiki>{{Página en progreso}}</nowiki></code> o <code><nowiki>{{Documentación sin terminar}}</nowiki></code> como primera línea. Con <code><nowiki>{{Documentación sin terminar}}</nowiki></code> invitas a otros a unirse para terminar la página, mientras que <code><nowiki>{{Página en progreso}}</nowiki></code> indica que usted hará el trabajo y que los demás deben darle algo de tiempo.
 
 Una vez terminado el trabajo, no olvides retirar las banderas.
 
