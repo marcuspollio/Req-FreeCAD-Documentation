@@ -21,7 +21,7 @@
 绝大多数特征依托参数化草图生成，整体分为增材特征与减材特征两大类。举例来说：拉伸凸台工具（Pad tool）会将草图拉伸成型，叠加到正在构建的实体上，实现增材建模；拉伸切除工具（Pocket tool）则会将草图拉伸后，从现有实体上挖除对应部分，实现减材建模。
 每一个特征都是累积生成的，后续特征完全基于前序特征完成后的实体结果构建。除此之外，也可直接调用基础图元（如增材圆柱体、增材球体等），或是将Body外部创建的实体，直接作为特征纳入零件设计流程。
 
-See the [[Feature_editing|feature editing]] page for a more complete explanation of this process, and then see [[Creating_a_simple_part_with_PartDesign|Creating a simple component with PartDesign]] to get started with creating solids.
+有关此流程的更完整说明，请参阅特征编辑 (Feature editing) 页面；随后可查看使用 PartDesign 创建简单零件 (Creating a simple component with PartDesign) 以开始创建实体模型。
 
 The [[Image:Workbench_Part.svg|16px]] [[Part_Workbench|Part Workbench]] provides an alternative [[constructive_solid_geometry|constructive solid geometry]] (CSG) methodology for building shapes. For a detailed discussion of the Part Workbench versus the PartDesign Workbench see [[Part_and_PartDesign|Part and Part Design]].
 
