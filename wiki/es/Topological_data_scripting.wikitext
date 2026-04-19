@@ -445,7 +445,7 @@ len(box.Vertexes)
 <span id="Create_a_sphere"></span>
 === Crear una esfera ===
 
-Using {{incode|makeSphere(radius, [pnt, dir, angle1, angle2, angle3])}}. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = -90, angle2 = 90 and angle3 = 360. Angle1 and angle2 are the vertical minimum and maximum of the sphere, angle3 is the sphere diameter.
+Usando {{incode|makeSphere(radius, [pnt, dir, angle1, angle2, angle3])}}. Por defecto, pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = -90, angle2 = 90 y angle3 = 360. Angle1 y angle2 son el mínimo y máximo vertical de la esfera, angle3 es el diámetro de la esfera.
 
 {{Code|code=
 sphere = Part.makeSphere(10)
