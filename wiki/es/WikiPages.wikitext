@@ -116,7 +116,7 @@ Dentro de la misma página puede omitir el nombre de la página. Ejemplo:
 
 <code><nowiki>[[#Links|Enlaces]]</nowiki></code>
 
-Para vincular a la parte superior de la página puede utilizar:
+Para enlazar con la parte superior de la página puede usar:
 
 <code><nowiki>&lt;/translate&gt;{{Top}}&lt;translate&gt;</nowiki></code>
 
