@@ -834,9 +834,7 @@ Ahora que tenemos un alambre cerrado, podemos convertirlo en una cara. Una vez q
     myNeck = Part.makeCylinder(myNeckRadius, myNeckHeight, neckLocation, neckNormal)
 }}
 
-<div class="mw-translate-fuzzy">
-El cuerpo de nuestra botella está creado, aún tenemos que crear el cuello. Así que creamos un nuevo sólido, con un cilindro.
-</div>
+En este punto, el cuerpo de nuestra botella está hecho, pero aún necesitamos crear el cuello. Así que creamos un nuevo sólido, con forma de cilindro.
 
 {{Code|code=
     ...
