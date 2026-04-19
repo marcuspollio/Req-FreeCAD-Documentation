@@ -600,7 +600,7 @@ section.Edges
 <span id="Extrusion"></span>
 === Extrusión ===
 
-Extrusion is the act of "pushing" a flat shape in a certain direction, resulting in a solid body. Think of a circle becoming a tube by "pushing it out": 
+La extrusión es el acto de "empujar" una forma plana en una dirección determinada, dando como resultado un cuerpo sólido. Piense en un círculo que se convierte en un tubo al "empujarlo hacia afuera": 
 
 {{Code|code=
 circle = Part.makeCircle(10)
