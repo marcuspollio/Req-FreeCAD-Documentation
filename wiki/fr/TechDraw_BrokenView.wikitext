@@ -44,7 +44,7 @@ L'outil '''TechDraw Vue interrompue''' insère une « vue interrompue » soit ba
 
 Voir aussi : [[Property_View/fr|Éditeur de propriétés]]
 
-Une vue interrompue, en fait un objet {{Incode|TechDraw::DrawBrokenView}}, est dérivée d'une [[TechDraw_View/fr#Propriétés_Vue_de_Part|vue de Part]] et hérite de toutes ses propriétés. Elle possède également les propriétés supplémentaires suivantes :
+Une vue interrompue, en fait un objet {{Incode|TechDraw::DrawBrokenView}}, est dérivée d'une [[TechDraw_View/fr#Propriétés_Vue_d'une_pièce|vue d'une pièce]] et hérite de toutes ses propriétés. Elle possède également les propriétés supplémentaires suivantes :
 
 <span id="Data"></span>
 ===Données===
