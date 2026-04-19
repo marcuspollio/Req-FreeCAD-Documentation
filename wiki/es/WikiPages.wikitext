@@ -263,12 +263,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{SystemOutput|Output text}}
 |Úselo para indicar la salida de texto del sistema.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:Incode|Incode]]
 |{{incode|import FreeCAD}}
-|Use it to include in-line source code with a monospace font. It should fit in one line.
-</div>
+|Úselo para incluir código fuente en línea con una fuente monoespaciada. Debería caber en una sola línea.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
