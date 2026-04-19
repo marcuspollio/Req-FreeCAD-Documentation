@@ -380,9 +380,7 @@ Crea una elipse con radio mayor de 2 y radio menor de 1 con centro en (0, 0, 0).
 Part.Ellipse(Ellipse)
 }}
 
-<div class="mw-translate-fuzzy">
 Crea una copia de la elipse dada
-</div>
 
 {{Code|code=
 Part.Ellipse(S1, S2, Center)
