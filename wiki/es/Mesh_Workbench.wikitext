@@ -33,9 +33,7 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 
 * [[Image: Mesh MeshFromShape.png | 32px]] [[Mesh MeshFromShape | Create Mesh from shape]]: convierte objetos [[Part_Workbench/es | Part]] en mallas
 
-<div class="mw-translate-fuzzy">
-* [[Image:Mesh_RemeshGmsh.svg|32px]] [[Mesh_RemeshGmsh/rs|Refinamiento...]]: Refina un objeto de malla. {{Version/es|0.19}}
-</div>
+* [[Image:Mesh_RemeshGmsh.svg|32px]] [[Mesh_RemeshGmsh|Refinamiento]]: Remalla de manera más detallada un objeto de malla.
 
 * Analizar
 ** [[Image:Mesh_Evaluation.svg|32px]] [[Mesh_Evaluation/es|Evaluar y reparar malla...]]: Evalúa y repara un objeto de malla.
