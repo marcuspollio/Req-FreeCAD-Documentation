@@ -36,11 +36,15 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 * [[Image:Mesh_RemeshGmsh.svg|32px]] [[Mesh_RemeshGmsh|Refinamiento]]: Remalla de manera más detallada un objeto de malla.
 
 * Analizar
-** [[Image:Mesh_Evaluation.svg|32px]] [[Mesh_Evaluation/es|Evaluar y reparar malla...]]: Evalúa y repara un objeto de malla.
-** [[Image:Mesh_EvaluateFacet.svg|32px]] [[Mesh_EvaluateFacet/es| Face Info]]: Da información sobre las caras
-** [[Image:Mesh_CurvatureInfo.svg|32px]] [[Mesh_CurvatureInfo/es| Curvature Info]]: proporciona información sobre la curvatura
-** [[Image:Mesh_EvaluateSolid.svg|32px]] [[Mesh_EvaluateSolid/es| Check solid mesh]]: Comprueba si el sólido se puede convertir a una malla
-** [[Image:Mesh_BoundingBox.svg|32px]] [[Mesh_BoundingBox/es| Boundings info ...]]: Muestra las coordenadas del cuadro delimitador de un objeto de malla.
+** [[Imagen:Mesh_Evaluation.svg|32px]] [[Mesh_Evaluation|Evaluar y reparar]]: Evalúa y repara un objeto de malla.
+
+** [[Imagen:Mesh_EvaluateFacet.svg|32px]] [[Mesh_EvaluateFacet|Información de caras]]: Muestra información sobre las caras de los objetos de malla.
+
+** [[Imagen:Mesh_CurvatureInfo.svg|32px]] [[Mesh_CurvatureInfo|Información de curvatura]]: Muestra la curvatura absoluta de los objetos de curvatura en los puntos seleccionados.
+
+** [[Imagen:Mesh_EvaluateSolid.svg|32px]] [[Mesh_EvaluateSolid|Evaluar sólido]]: Comprueba si un objeto de malla es sólido.
+
+** [[Image:Mesh_BoundingBox.svg|32px]] [[Mesh_BoundingBox|Información del cuadro delimitador]]: Muestra las coordenadas del cuadro delimitador de un objeto de malla.
 
 * [[Image:Mesh_VertexCurvature.svg|32px]] [[Mesh_VertexCurvature|Gráfico de curvatura]]: Crea objetos de curvatura de malla para objetos de malla.
 
