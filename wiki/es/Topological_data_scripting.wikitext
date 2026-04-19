@@ -430,9 +430,7 @@ Usando {{incode|makeTorus(radius1, radius2, [pnt, dir, angle1, angle2, angle])}}
 torus = Part.makeTorus(10, 2)
 }}
 
-<div class="mw-translate-fuzzy">
-El código de arriba creará un toro con diámetro 20 (radio 10) y espesor 4 (radio del círculo pequeño 2)
-</div>
+El código de arriba creará un toroide con diámetro  de 20 (radio de 10) y espesor de 4 (radio del círculo pequeño de 2).
 
 {{Code|code=
 tor=Part.makeTorus(10, 5, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0, 180)
