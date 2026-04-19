@@ -478,9 +478,7 @@ semicone = Part.makeCone(10, 0, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1), 1
 There are several ways to modify shapes. Some are simple transformation operations such as moving or rotating shapes, others are more complex, such as unioning and subtracting one shape from another.
 {{Top}}
 <span id="Transform_operations"></span>
-<div class="mw-translate-fuzzy">
 === Operaciones de transformación ===
-</div>
 
 <span id="Translate_a_shape"></span>
 <div class="mw-translate-fuzzy">
