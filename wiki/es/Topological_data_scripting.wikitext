@@ -504,11 +504,7 @@ myShape.rotate(App.Vector(0, 0, 0),App.Vector(0, 0, 1), 180)
 El código de arriba rotará la forma 180 grados alrededor del eje Z.
 {{Top}}
 <span id="Matrix_transformations"></span>
-<div class="mw-translate-fuzzy">
-==== Transformaciones genéricas con matrices ====
-
-Una matriz es un modo muy conveniente de almacenar transformaciones en el mundo 3D. En una simple matriz, puedes establecer traslaciones, rotaciones y valores de escala a ser aplicados a un objeto. Por ejemplo:
-</div>
+=== Transformaciones matriciales ===
 
 A matrix is a very convenient way to store transformations in the 3D world. In a single matrix, you can set translation, rotation and scaling values to be applied to an object. For example:
 
