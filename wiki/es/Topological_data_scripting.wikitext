@@ -231,9 +231,7 @@ wire3.Edges
 Part.show(wire3)
 }}
 
-<div class="mw-translate-fuzzy">
-Part.show(wire3) mostrará las 4 aristas que componen nuestro contorno. Otra información útil se puede recuperar fácilmente:
-</div>
+{{incode|Part.show(wire3)}} mostrará los 4 bordes que componen nuestro cable. Otra información útil se puede recuperar fácilmente:
 
 {{Code|code=
 wire3.Length
