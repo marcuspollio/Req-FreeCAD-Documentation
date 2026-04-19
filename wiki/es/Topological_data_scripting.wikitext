@@ -368,7 +368,7 @@ Nota: {{incode|makePlane()}} solo acepta {{incode|App.Vector()}} para start_pnt 
 <span id="Create_an_ellipse"></span>
 ==== Crear una elipse ====
 
-There are several ways to create an ellipse:
+Existen varias formas de crear una elipse:
 
 {{Code|code=
 Part.Ellipse()
