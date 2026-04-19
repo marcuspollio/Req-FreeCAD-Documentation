@@ -423,9 +423,7 @@ El código de arriba creará un toroide con diámetro  de 20 (radio de 10) y esp
 tor=Part.makeTorus(10, 5, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0, 180)
 }}
 
-<div class="mw-translate-fuzzy">
-El código de arriba creará una sección del toro
-</div>
+El código anterior creará una porción del toroide.
 
 {{Code|code=
 tor=Part.makeTorus(10, 5, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0, 360, 180)
