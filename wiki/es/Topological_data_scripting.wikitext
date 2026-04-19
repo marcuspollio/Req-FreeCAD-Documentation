@@ -712,7 +712,7 @@ Part.show(bottle)
 <span id="The_script"></span>
 === El guión ===
 
-For the purpose of this tutorial we will consider a reduced version of the script. In this version the bottle will not be hollowed out, and the neck of the bottle will not be threaded.
+Para este tutorial, utilizaremos una versión reducida del script. En esta versión, la botella no estará ahuecada y el cuello no tendrá rosca.
 
 {{Code|code=
 import FreeCAD as App
