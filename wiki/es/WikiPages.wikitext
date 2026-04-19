@@ -241,7 +241,7 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |--
 |[[Template:TRUE|TRUE]], [[Template:true|true]]
 |{{TRUE}}, {{true}}
-|Úselo para indicar un valor booleano verdadero, por ejemplo, como una propiedad en el [[Property_editor|editor de propiedades]]. Esto es un atajo. Dado que es un valor, prefiera la plantilla [[Template:Value|Valor]] {{Valor|verdadero}}.
+|Úselo para indicar un valor booleano verdadero, por ejemplo, como una propiedad en el [[Property_editor|editor de propiedades]]. Esto es un atajo. Dado que es un valor, prefiera la plantilla [[Template:Value|Valor]] {{Value|verdadero}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
