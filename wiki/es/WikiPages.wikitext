@@ -370,12 +370,10 @@ El código Python debe ajustarse a las recomendaciones generales establecidas en
 |{{CodeDownload|https://wiki.freecad.org/Main_Page|Some label}}
 |Úselo para crear un enlace en una página [[Macros|macro]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:Codeextralink|Codeextralink]]
 |{{Codeextralink|https://wiki.freecad.org/Main_Page}}
-|Use it if the code of a [[Macros|macro]] is too large to be hosted on the Wiki. The code can then be hosted somewhere else, and the raw link to it specified with this template. The [[Std_AddonMgr|Addon Manager]] will use this link.
-</div>
+|Úselo si el código de una [[Macros|macro]] es demasiado grande para alojarlo en la Wiki. El código se puede alojar en otro lugar y el enlace directo se especifica con esta plantilla. El [[Std_AddonMgr|Administrador de complementos]] utilizará este enlace.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
