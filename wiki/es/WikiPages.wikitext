@@ -318,12 +318,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{VersionPlus|0.17}}
 |Úselo para indicar que una función está disponible en la versión de FreeCAD especificada y en versiones posteriores.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:VersionPlus|VersionNotePlus]]
 |{{VersionNotePlus|0.17}}
-|Idem (superscript variant).
-</div>
+|Idem (variante superíndice).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
