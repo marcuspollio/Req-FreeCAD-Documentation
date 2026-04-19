@@ -698,11 +698,7 @@ print("Length of the selected edges: ", length)
 }}
 {{Top}}
 <span id="Example:_The_OCC_bottle"></span>
-<div class="mw-translate-fuzzy">
-== Examen completo: La botella OCC ==
-
-Un ejemplo típico encontrado en la [http://www.opencascade.org/org/gettingstarted/appli/ página de primeros pasos de OpenCasCade] es cómo construir una botella. Este es un buen ejercicio también para FreeCAD. En realidad, puedes seguir nuestro ejemplo de abajo y la página de OCC simultáneamente, comprenderás bien cómo están implementadas las estructuras de OCC en FreeCAD. El archivo de guión completo de abajo está también incluido en la instalación de FreeCAD (dentro del directorio Mod/Part) y puede llamarse desde el interprete de Python escribiendo:
-</div>
+== Ejemplo: La botella OCC ==
 
 A typical example found on the [https://www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html OpenCasCade Technology website] is how to build a bottle. This is a good exercise for FreeCAD too. In fact, if you follow our example below and the OCC page simultaneously, you will see how well OCC structures are implemented in FreeCAD. The script is included in the FreeCAD installation (inside the {{FileName|Mod/Part}} folder) and can be called from the Python interpreter by typing:
 
