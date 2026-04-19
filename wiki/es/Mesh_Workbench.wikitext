@@ -79,9 +79,12 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 * [[Image:Mesh_BuildRegularSolid.svg|32px]] [[Mesh_BuildRegularSolid|Sólido regular]]: Crea un objeto de malla sólida paramétrica regular.
 
 * Booleano
-** [[Image:Mesh_Union.svg|32px]] [[Mesh_Union/es|Unión]]: Crea un objeto de malla que es la unión de dos objetos de malla.
-** [[Image:Mesh_Intersection.svg|32px]] [[Mesh_Intersection/es|Intersección]]: Crea un objeto de malla que es la intersección de dos objetos de malla.
-** [[Image:Mesh_Difference.svg|32px]] [[Mesh_Difference/es|Diferencia]]: Crea un objeto de malla que es la diferencia de dos objetos de malla.
+
+** [[Image:Mesh_Union.svg|32px]] [[Mesh_Union|Unión]]: Crea un objeto de malla que es la unión de dos objetos de malla.
+
+** [[Image:Mesh_Intersection.svg|32px]] [[Mesh_Intersection|Intersección]]: Crea un objeto de malla que es la intersección de dos objetos de malla.
+
+** [[Image:Mesh_Difference.svg|32px]] [[Mesh_Difference|Diferencia]]: Crea un objeto de malla que es la diferencia de dos objetos de malla.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Cutting
