@@ -173,14 +173,12 @@ Haga clic en el enlace de la plantilla para ver las instrucciones de uso y su im
 <span id="Simple_templates"></span>
 === Plantillas sencillas ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-These templates accept a simple text parameter, and format it with a particular style.
-	
+Estas plantillas aceptan un parámetro de texto simple y lo formatean con un estilo específico.
+
 {|{{Prettytable}}
-!style="width:10%;"|Template
-!style="width:20%;"|Appearance
-!style="width:70%;"|Description
-</div>
+!style="width:10%;"|Plantilla
+!style="width:20%;"|Apariencia
+!style="width:70%;"|Descripción
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
