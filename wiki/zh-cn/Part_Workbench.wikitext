@@ -164,9 +164,7 @@ The [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Wo
 :* [[Image:Part_JoinCutout.svg|32px]] [[Part_JoinCutout|Cutout Shape]]: Creates a cutout in a wall of an object for another walled object.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* <span id="Part_CompSplittingTools">[[Image:Part_BooleanFragments.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] Split:</span><!--Do not edit span id: the Part_CompSplittingTools pages redirect here-->
-</div>
+* <span id="Part_CompSplittingTools">[[Image:Part_BooleanFragments.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] 分割形状:</span><!--Do not edit span id: the Part_CompSplittingTools pages redirect here-->
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:Part_BooleanFragments.svg|32px]] [[Part_BooleanFragments|Boolean Fragments]]: Creates all pieces obtained from Boolean operations.
