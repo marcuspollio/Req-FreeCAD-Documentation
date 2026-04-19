@@ -238,12 +238,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{FALSE}}, {{false}}
 |Úselo para indicar un valor booleano Falso, por ejemplo, como una propiedad en el [[Property_editor|editor de propiedades]]. Esto es un atajo. Dado que es un valor, es preferible la plantilla [[Template:Value|Valor]] {{Valor|falso}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:TRUE|TRUE]], [[Template:true|true]]
 |{{TRUE}}, {{true}}
-|Use it to indicate a True Boolean value, for example, as a property in the [[Property_editor|property editor]]. This is a shortcut. Since it is a value, prefer Template [[Template:Value|Value]] {{Value|true}}
-</div>
+|Úselo para indicar un valor booleano verdadero, por ejemplo, como una propiedad en el [[Property_editor|editor de propiedades]]. Esto es un atajo. Dado que es un valor, prefiera la plantilla [[Template:Value|Valor]] {{Valor|verdadero}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
