@@ -914,7 +914,7 @@ Part.show(cut_part)
 <span id="Loading_and_saving"></span>
 == Cargando y guardando ==
 
-There are several ways to save your work. You can of course save your FreeCAD document, but you can also save [[Part_Workbench|Part]] objects directly to common CAD formats, such as BREP, IGS, STEP and STL.
+Hay varias maneras de guardar su trabajo. Puede guarda su documento de FreeCAD, por supuesto, pero también puede guardar objetos [[Part_Workbench|Part]] directamente en formatos CAD comunes, como BREP, IGS, STEP y STL.
 
 Guardar una forma en un archivo es fácil. Hay dos métodos: {{incode|exportBrep()}}, {{incode|exportIges()}}, {{incode|exportStep()}} e {{incode|exportStl()}}, disponibles para todos los objetos de forma. Entonces, haciendo:
 
