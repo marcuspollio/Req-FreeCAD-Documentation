@@ -916,9 +916,7 @@ Part.show(cut_part)
 
 There are several ways to save your work. You can of course save your FreeCAD document, but you can also save [[Part_Workbench|Part]] objects directly to common CAD formats, such as BREP, IGS, STEP and STL.
 
-<div class="mw-translate-fuzzy">
-El guardado de una forma en un archivo es sencillo. Existen los métodos exportBrep(), exportIges(), exportStl() y exportStep() disponibles para todos los objetos de forma. Así, haciendo:
-</div>
+Guardar una forma en un archivo es fácil. Hay dos métodos: {{incode|exportBrep()}}, {{incode|exportIges()}}, {{incode|exportStep()}} e {{incode|exportStl()}}, disponibles para todos los objetos de forma. Entonces, haciendo:
 
 {{Code|code=
 import Part
