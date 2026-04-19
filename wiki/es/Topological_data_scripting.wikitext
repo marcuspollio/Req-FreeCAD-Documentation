@@ -334,7 +334,8 @@ Un polígono es simplemente un cable con múltiples aristas rectas. La función 
 lshape_wire = Part.makePolygon([App.Vector(0, 5, 0), App.Vector(0, 0, 0), App.Vector(5, 0, 0)])
 }}
 {{Top}}
-===Create a Bézier curve===
+<span id="Create_a_Bézier_curve"></span>
+=== Crear una curva de Bézier ===
 
 Bézier curves are used to model smooth curves using a series of poles (points) and optional weights. The function below makes a {{incode|Part.BezierCurve()}} from a series of {{incode|FreeCAD.Vector()}} points. Note: when "getting" and "setting" a single pole or weight, indices start at 1, not 0.
 
