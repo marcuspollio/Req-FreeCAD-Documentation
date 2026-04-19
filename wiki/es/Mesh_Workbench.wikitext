@@ -35,14 +35,14 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 
 * [[Image:Mesh_RemeshGmsh.svg|32px]] [[Mesh_RemeshGmsh|Refinamiento]]: Remalla de manera más detallada un objeto de malla.
 
-* Analizar
-** [[Imagen:Mesh_Evaluation.svg|32px]] [[Mesh_Evaluation|Evaluar y reparar]]: Evalúa y repara un objeto de malla.
+* '''Analizar'''
+** [[Image:Mesh_Evaluation.svg|32px]] [[Mesh_Evaluation|Evaluar y reparar]]: Evalúa y repara un objeto de malla.
 
-** [[Imagen:Mesh_EvaluateFacet.svg|32px]] [[Mesh_EvaluateFacet|Información de caras]]: Muestra información sobre las caras de los objetos de malla.
+** [[Image:Mesh_EvaluateFacet.svg|32px]] [[Mesh_EvaluateFacet|Información de caras]]: Muestra información sobre las caras de los objetos de malla.
 
-** [[Imagen:Mesh_CurvatureInfo.svg|32px]] [[Mesh_CurvatureInfo|Información de curvatura]]: Muestra la curvatura absoluta de los objetos de curvatura en los puntos seleccionados.
+** [[Image:Mesh_CurvatureInfo.svg|32px]] [[Mesh_CurvatureInfo|Información de curvatura]]: Muestra la curvatura absoluta de los objetos de curvatura en los puntos seleccionados.
 
-** [[Imagen:Mesh_EvaluateSolid.svg|32px]] [[Mesh_EvaluateSolid|Evaluar sólido]]: Comprueba si un objeto de malla es sólido.
+** [[Image:Mesh_EvaluateSolid.svg|32px]] [[Mesh_EvaluateSolid|Evaluar sólido]]: Comprueba si un objeto de malla es sólido.
 
 ** [[Image:Mesh_BoundingBox.svg|32px]] [[Mesh_BoundingBox|Información del cuadro delimitador]]: Muestra las coordenadas del cuadro delimitador de un objeto de malla.
 
