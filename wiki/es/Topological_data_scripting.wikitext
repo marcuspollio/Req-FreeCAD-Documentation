@@ -293,11 +293,7 @@ arc1 = Part.makeCircle(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0, 180)
 arc2 = Part.makeCircle(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 180, 360)
 }}
 
-<div class="mw-translate-fuzzy">
-Juntando arc1 y arc2 obtendremos una circunferencia. Los ángulos deberán indicarse en grados, si los tienes en radianes simplemente conviertelos según la fórmula:
-degrees = radians * 180/PI
-o usando el módulo Python de matemáticas (después de importarlo, obviamente):
-</div>
+Los ángulos deben proporcionarse en grados. Si tiene radianes, simplemente conviértalos usando la fórmula: {{incode|grados <nowiki>=</nowiki> radians * 180/pi}} o usando el módulo {{incode|math}} de Python:
 
 {{Code|code=
 import math
