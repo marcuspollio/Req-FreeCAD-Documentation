@@ -483,7 +483,7 @@ Hay varias formas de modificar figuras. Algunas son operaciones de transformaci√
 <span id="Translate_a_shape"></span>
 === Traslaci√≥n de una forma ===
 
-Translating is the act of moving a shape from one place to another. Any shape (edge, face, cube, etc...) can be translated the same way:
+Trasladar es el acto de mover una figura de un lugar a otro. Cualquier figura (arista, cara, cubo, etc.) se puede trasladar de la misma manera:
 
 {{Code|code=
 myShape = Part.makeBox(2, 2, 2)
