@@ -116,7 +116,7 @@ Las preferencias del Entorno de Trabajo de Malla se encuentran en los siguientes
 
 * [[Imagen:Preferences-display.svg|32px]] [[Preferences_Editor#Display|Mostrar]]: En la [[Preferences_Editor#Mesh_View|Vista de malla]] se pueden configurar varias preferencias.
 
-* [[Imagen:Preferences-openscad.svg|32px]] [[OpenSCAD_Preferences|OpenSCAD]]: Los comandos [[Mesh_Union|Unión de malla]], [[Mesh_Intersection|Intersección de malla]] y [[Mesh_Difference|Diferencia de malla]] requiere [http://www.openscad.org/ OpenSCAD] y utilizan la preferencia "Ejecutable de OpenSCAD" para encontrar su ejecutable.
+* [[Imagen:Preferences-openscad.svg|32px]] [[OpenSCAD_Preferences|OpenSCAD]]: Los comandos [[Mesh_Union|Unión de malla]], [[Mesh_Intersection|Intersección de malla]] y [[Mesh_Difference|Diferencia de malla]] requiere [http://www.openscad.org/ OpenSCAD] y utilizan la preferencia '''Ejecutable de OpenSCAD''' para encontrar su ejecutable.
 
 <span id="Notes"></span>
 ==Notas==
