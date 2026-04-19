@@ -463,11 +463,7 @@ partCylinder = Part.makeCylinder(5, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1
 }}
 {{Top}}
 <span id="Create_a_cone"></span>
-<div class="mw-translate-fuzzy">
-==== Creación de un cono ====
-
-Utilizando '''makeCone(radius1,radius2,height,[pnt,dir,angle])'''. Por defecto pnt=Vector(0,0,0), dir=Vector(0,0,1) y angle=360
-</div>
+=== Crear un cono ===
 
 Using {{incode|makeCone(radius1, radius2, height, [pnt, dir, angle])}}. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1) and angle = 360.
 
