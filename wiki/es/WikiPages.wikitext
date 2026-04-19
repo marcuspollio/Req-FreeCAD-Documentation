@@ -268,12 +268,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{incode|import FreeCAD}}
 |Úselo para incluir código fuente en línea con una fuente monoespaciada. Debería caber en una sola línea.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:PropertyView|PropertyView]]
 |{{PropertyView|Color}}
-|Use it to indicate a View property in the [[Property_editor|property editor]]. Examples of View properties include {{emphasis|Line Color}}, {{emphasis|Line Width}}, {{emphasis|Point Color}}, {{emphasis|Point Size}}, etc.
-</div>
+|Úselo para indicar una propiedad de Vista en el [[Property_editor|editor de propiedades]]. Ejemplos de propiedades de Vista incluyen {{énfasis|Color de línea}}, {{emphasis|Line Color}}, {{emphasis|Line Width}}, {{emphasis|Point Color}}, {{emphasis|Point Size}}, etc.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
