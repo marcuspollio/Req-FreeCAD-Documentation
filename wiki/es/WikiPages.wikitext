@@ -336,9 +336,7 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 <span id="Complex_templates"></span>
 === Plantillas complejas ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-These templates require more input parameters, or produce a block of text with a particular format.
-</div>
+Estas plantillas requieren más parámetros de entrada o generan un bloque de texto con un formato específico.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {|{{Prettytable}}
