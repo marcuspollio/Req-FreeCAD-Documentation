@@ -190,7 +190,7 @@ Actualmente, los responsables del mantenimiento de FreeCAD utilizan la API de Cr
 <span id="Scripting"></span>
 ==Programación==
 
-{{Emphasis|Ver también:}} [[FreeCAD_Scripting_Basics/es|Básicos de Guionización FreeCAD]].
+{{Emphasis|Ver también:}} [[FreeCAD_Scripting_Basics/es|Conceptos básicos de programación en FreeCAD]].
 
 Para obtener un diccionario con los idiomas que admite la interfaz FreeCAD, use el método {{incode|supportedLocales}} del módulo {{incode|FreeCADGui}}.
 
