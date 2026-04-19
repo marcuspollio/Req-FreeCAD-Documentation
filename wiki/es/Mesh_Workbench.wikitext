@@ -110,7 +110,7 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 <span id="Preferences"></span>
 == Preferencias ==
 
-Hay algunas [[Import_Export_Preferences/es#Formatos_de_malla|preferencias de exportación relacionadas con los formatos de malla]] pero no son utilizadas por los comandos pertenecientes a este ambiente de trabajo. Son utilizadas por el comando [[Std_Export/es|Std Exportar]].
+Existen algunas [[Import_Export_Preferences#Mesh_Formats|Preferencias de exportación relacionadas con los formatos de malla]], pero no son utilizadas por los comandos de este entorno de trabajo. Son utilizadas por el comando [[Std_Export|Exportación estándar]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Mesh Workbench preferences can be found in the following groups in the [[Preferences_Editor|Preferences Editor]]:
