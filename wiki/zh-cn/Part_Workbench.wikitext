@@ -127,9 +127,7 @@ The [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Wo
 
 * [[Image:Part_Thickness.svg|32px]] [[Part_Thickness|厚度]]: 镂空一个实体，在选中的面上留下开口。
 
-<div class="mw-translate-fuzzy">
-* [[Image:Part_ProjectionOnSurface.png|32px]] [[Part_ProjectionOnSurface|Projection on surface]]: 向表面上投影logo、文本或任意表面、连线、边。可以为投影部分创建一个示例或连线。
-</div>
+* [[File:Part_ProjectionOnSurface.svg|32px]] [[Part_ProjectionOnSurface|投影到曲面]]: 将logo、文本或任意表面、连线、边投影到面。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[File:Part_ColorPerFace.svg|32px]] [[Part_ColorPerFace|Appearance per Face]]: Assigns colors to individual faces of objects.
