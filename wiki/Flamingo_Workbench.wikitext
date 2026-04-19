@@ -31,7 +31,7 @@ For convenience Flamingo/Dodo tools are grouped in three toolbars/menus + one ut
 [[Image:dodoBlob.png|left]]{{clear}}
 
 <!--T:187-->
-:* '''Frame tools''': that is aimed to arrange frames, trusses and similar in FreeCAD using the Structure objects of Arch module. .../flamingo/tutorials/tutorialFrame.pdf
+:* '''Frame tools''': is designed to arrange frames, trusses, and similar. It uses Structure objects from the Arch module. .../flamingo/tutorials/tutorialFrame.pdf
 :* '''Pype tools''': that's the logical continuation of frame tool since it deals with creating pipelines and tubular structures. It also features its own Python classes to create the piping objects, such as tubes, elbows, flanges etc. .../flamingo/tutorials/tutorialPype2.pdf
 :* '''Eagle tools''': that's basically an addition, and shortcut, to the very professional [https://github.com/marmni/FreeCAD-PCB FreeCAD-PCB] workbench (also available in the FreeCAD's add-on repository) to import position of objects from a .brd Eagle's file on a PCB drawn in FreeCAD with the a.m. workbench relating only on their names. It's also the origin, by extension, of the name of the entire workbench. .../flamingo/tutorials/tutorialEagle.pdf
 :* '''Utils''' toolbar provides some functionality to query the objects in the model and their distance, to move/rotate the work plane and a little hack of the [[Draft_Wire|Draft Wire]] creation dialog, which allow to change the work plane position on-the-fly.
