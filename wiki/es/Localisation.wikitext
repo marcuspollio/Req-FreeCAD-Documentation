@@ -101,7 +101,7 @@ Sin embargo, solo los usuarios con permisos de "Administrador" pueden marcar las
 
 La barra lateral izquierda también es traducible, pero solo los administradores pueden modificar este elemento del sitio. Siga las instrucciones específicas en [[Barra lateral de localización|Barra lateral de localización]].
 
-La primera vez que se cambia una página al nuevo sistema de traducción, se pierden todas sus antiguas traducciones "manuales". Para recuperar una traducción, debes guardar una copia offline del texto antiguo antes del cambio. Entonces podrás utilizar este texto antiguo traducido para rellenar las unidades de traducción en el nuevo sistema. También puedes abrir una versión anterior desde el historial, y obtener el texto antiguo de esta manera. Esto tiene que hacerse para cada idioma que tenía una página traducida.
+La primera vez que se cambia una página al nuevo sistema de traducción, se pierden todas las traducciones manuales anteriores. Para recuperar una traducción, conviene guardar una copia sin conexión del texto original antes del cambio. A continuación, se puede usar este texto traducido para completar las unidades de traducción en el nuevo sistema. También se puede abrir una versión anterior del historial y, de esta manera, recuperar el texto original. Este procedimiento debe repetirse para cada idioma que tuviera una página traducida.
 
 <span id="Translate_the_FreeCAD_documentation"></span>
 === Traducir la documentación de FreeCAD ===
