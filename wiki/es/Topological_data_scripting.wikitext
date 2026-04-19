@@ -636,9 +636,7 @@ v = e.Vertexes[0]
 v.Point
 }}
 
-<div class="mw-translate-fuzzy">
-Escribiendo las líneas de arriba en el interprete de Python, conseguirás una buena comprensión de la estructura de los objetos de piezas. Aquí, nuestro comando makeBox() crea una forma sólida. Este sólido, como todos los sólidos de piezas, contiene caras. Las caras siempre contienen contornos, que son listas de aristas que bordean la cara. Cada cara tiene al menos un contorno cerrado (puede tener más si la cara tiene huecos). En el contorno, podemos mirar en cada arista de forma separada, y dentro de cada arista, podemos ver los vértices. Las aristas rectas tienen sólo dos vértices, obviamente.
-</div> 
+Al escribir las líneas anteriores en el intérprete de Python, adquirirá la comprensión de la estructura de los objetos Part. Aquí, nuestro comando {{incode|makeBox()}} creó una forma sólida. Este sólido, como todos los sólidos Part, contiene caras. Las caras siempre contienen cables, que son listas de aristas que las delimitan. Cada cara tiene al menos un cable cerrado (puede tener más si la cara tiene un agujero). En el cable, podemos ver cada arista por separado, y dentro de cada arista, podemos ver los vértices. Las aristas rectas tienen solo dos vértices, obviamente. 
 {{Top}}
 <span id="Edge_analysis"></span>
 <div class="mw-translate-fuzzy">
