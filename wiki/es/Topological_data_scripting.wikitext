@@ -514,9 +514,7 @@ myMat.move(App.Vector(2, 0, 0))
 myMat.rotateZ(math.pi/2)
 }}
 
-<div class="mw-translate-fuzzy">
-Nota: Las matrices de FreeCAD funcionan en radianes. También, casi todas las operaciones de matrices que toman un vector pueden tomar 3 números, así estas dos líneas hacen lo mismo:
-</div>
+Nota: Las matrices de FreeCAD funcionan en radianes. Además, casi todas las operaciones matriciales que aceptan un vector también pueden aceptar tres números, por lo que estas dos líneas hacen lo mismo:
 
 {{Code|code=
 myMat.move(2, 0, 0)
