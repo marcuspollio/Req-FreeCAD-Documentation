@@ -159,7 +159,7 @@ import Part
 <span id="Create_a_vector"></span>
 ===Crear un vector===
 
-[https://es.wikipedia.org/wiki/Vector Vectores] son una de las piezas de información más importantes cuando se construir formas.  Suelen contener tres números (pero no necesariamente siempre): las coordenadas cartesianas X, Y y Z. Se crea un vector así:
+Los [https://es.wikipedia.org/wiki/Vector Vectores] son una de las piezas de información más importantes cuando se van a construir formas.  Suelen contener tres números (pero no necesariamente siempre): las coordenadas cartesianas X, Y y Z. Se crea un vector así:
 
 {{Code|code=
 myVector = App.Vector(3, 2, 0)
