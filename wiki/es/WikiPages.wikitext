@@ -348,12 +348,10 @@ Estas plantillas requieren más parámetros de entrada o generan un bloque de te
 |Esta tabla
 |Úsela para formatear tablas como esta. Se pueden agregar propiedades adicionales a la tabla.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:Caption|Caption]]
 |<div style="width:400px;">{{Caption|Some caption for an image}}</div>
-|Use it to add an explanation below an image. It can be left aligned or center aligned.
-</div>
+|Úsalo para añadir una explicación debajo de una imagen. Se puede alinear a la izquierda o al centro.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
