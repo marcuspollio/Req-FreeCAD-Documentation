@@ -40,7 +40,7 @@ No utilice la transclusión de páginas ([[Help:Editing#Templates_and_transcludi
 <span id="Styling"></span>
 === Estilismo ===
 
-Las plantillas se utilizan para dar estilo a las páginas de ayuda. Proporcionan a la documentación un aspecto consistente. Hay una plantilla para los comandos del menú, {{MenuCommand|Archivo → Guardar}}, una plantilla para dar estilo a las teclas a pulsar, {{KEY|Shift}}, para mostrar un valor booleano, {{TRUE}}, etc. Por favor, familiarícese con la sección [[#Templates|#Plantillas]] antes de escribir páginas de ayuda.
+Las plantillas se utilizan para dar estilo a las páginas de ayuda. Proporcionan a la documentación una apariencia uniforme. Hay una plantilla para los comandos de menú, {{MenuCommand|Archivo → Guardar}}, una plantilla para dar estilo a las teclas que se deben pulsar, {{KEY|Shift}}, para mostrar un valor booleano, {{TRUE}}, etc. Familiarícese con la sección [[#Templates|#Templates]] antes de escribir las páginas de ayuda.
 
 <span id="Temporary_flags"></span>
 === Banderas temporales ===
