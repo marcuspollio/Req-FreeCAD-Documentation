@@ -127,9 +127,7 @@ Part.show(P)
 <span id="Create_basic_shapes"></span>
 ==Crear formas básicas==
 
-<div class="mw-translate-fuzzy">
-Puedes crear fácilmente objetos topológicos básicos con los métodos {{incode|make...()}} del módulo Pieza:
-</div>
+Puede crear fácilmente objetos topológicos básicos con los métodos {{incode|make...()}} del módulo Pieza:
 
 {{Code|code=
 b = Part.makeBox(100, 100, 100)
