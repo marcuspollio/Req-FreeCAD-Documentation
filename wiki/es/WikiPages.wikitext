@@ -81,7 +81,7 @@ Los nombres de las páginas de nivel superior del entorno de trabajo deben tener
 <span id="Headings"></span>
 === Rúbricas ===
 
-Los títulos de los párrafos deben ser cortos y usar mayúsculas y minúsculas: todas las palabras, excepto la primera y los nombres propios, deben estar en minúsculas. No debe utilizar encabezados <code><nowiki>H1</nowiki></code> (<code><nowiki>=&nbsp;Heading&nbsp;=</nowiki></code>) en el marcado de su wiki desde el título de la página ya que se agrega automáticamente como el encabezado principal <code><nowiki>H1</nowiki></code>.
+Los encabezados de párrafo deben ser cortos y usar mayúsculas y minúsculas: todas las palabras, excepto la primera y los nombres propios, deben estar en minúsculas. No debe usar encabezados <code><nowiki>H1</nowiki></code> (<code><nowiki>=&nbsp;Heading&nbsp;=</nowiki></code>) en su marcado wiki, ya que el título de la página se agrega automáticamente como el encabezado principal <code><nowiki>H1</nowiki></code>.
 
 <span id="Links"></span>
 === Enlaces ===
