@@ -912,11 +912,7 @@ Part.show(cut_part)
 }}
 {{Top}}
 <span id="Loading_and_saving"></span>
-<div class="mw-translate-fuzzy">
 == Cargando y guardando ==
-
-Existen diversas formas de guardar tu trabajo en el módulo de piezas. Puedes desde luego guardar el documento de FreeCAD, pero también puedes guardar objetos de pieza directamente en formatos de CAD comunes, como BREP, IGS, STEP y STL.
-</div>
 
 There are several ways to save your work. You can of course save your FreeCAD document, but you can also save [[Part_Workbench|Part]] objects directly to common CAD formats, such as BREP, IGS, STEP and STL.
 
