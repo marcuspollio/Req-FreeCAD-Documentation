@@ -550,7 +550,7 @@ myShape=myShape.transformGeometry(myMat)
 <span id="Subtraction"></span>
 === Diferencia ===
 
-Subtracting a shape from another one is called "cut" in FreeCAD and is done like this:
+En FreeCAD, restar una forma de otra se llama "cortar" y se hace de la siguiente manera:
 
 {{Code|code=
 cylinder = Part.makeCylinder(3, 10, App.Vector(0, 0, 0), App.Vector(1, 0, 0))
