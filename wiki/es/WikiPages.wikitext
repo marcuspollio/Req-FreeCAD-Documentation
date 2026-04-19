@@ -236,7 +236,7 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |--
 |[[Template:FALSE|FALSE]], [[Template:false|false]]
 |{{FALSE}}, {{false}}
-|Úselo para indicar un valor booleano Falso, por ejemplo, como una propiedad en el [[Property_editor|editor de propiedades]]. Esto es un atajo. Dado que es un valor, es preferible la plantilla [[Template:Value|Valor]] {{Valor|falso}}.
+|Úselo para indicar un valor booleano Falso, por ejemplo, como una propiedad en el [[Property_editor|editor de propiedades]]. Esto es un atajo. Dado que es un valor, es preferible la plantilla [[Template:Value|Valor]] {{Value|false}}.
 
 |--
 |[[Template:TRUE|TRUE]], [[Template:true|true]]
