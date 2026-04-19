@@ -506,7 +506,7 @@ El código de arriba rotará la forma 180 grados alrededor del eje Z.
 <span id="Matrix_transformations"></span>
 === Transformaciones matriciales ===
 
-A matrix is a very convenient way to store transformations in the 3D world. In a single matrix, you can set translation, rotation and scaling values to be applied to an object. For example:
+Una matriz es una forma muy práctica de almacenar transformaciones en el mundo 3D. En una sola matriz, se pueden establecer valores de traslación, rotación y escala que se aplicarán a un objeto. Por ejemplo:
 
 {{Code|code=
 myMat = App.Matrix()
