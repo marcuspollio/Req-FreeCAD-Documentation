@@ -650,9 +650,7 @@ anEdge = box.Edges[0]
 print(anEdge.Length)
 }}
 
-<div class="mw-translate-fuzzy">
-Ahora puedes acceder a un montón de propiedades de la arista utilizando la longitud como una posición. Eso significa que si la arista es de 100mm de longitud el punto inicial es y la posición final es 100.
-</div> 
+Ahora puede acceder a muchas propiedades de la arista utilizando su longitud como posición. Esto significa que si esta mide 100 mm, la posición inicial es 0 y la posición final es 100. 
 
 {{Code|code=
 anEdge.tangentAt(0.0)          # tangent direction at the beginning
