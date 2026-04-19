@@ -361,9 +361,7 @@ plane.BoundBox
 > BoundBox (3, 0, 0, 5, 0, 2)
 }}
 
-<div class="mw-translate-fuzzy">
-BoundBox es un prisma encerrando el plano con una diagonal empezando en (3,0,0) y terminando en (5,0,2). Aquí el espesor de BoundBox en el eje Y es cero, ya que nuestra forma es totalmente plana.
-</div>
+{{incode|BoundBox}} es un cuboide que encierra el plano con una diagonal que comienza en (3, 0, 0) y termina en (5, 0, 2). Aquí, el grosor de {{incode|BoundBox}} a lo largo del eje Y es cero, ya que nuestra figura es totalmente plana.
 
 <div class="mw-translate-fuzzy">
 Nota: makePlane sólo acepta Base.Vector() para start_pnt y dir_normal pero no tuplas
