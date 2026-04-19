@@ -932,7 +932,7 @@ s = Part.Shape()
 s.read("test.stp")
 }}
 
-To convert a STEP file to an IGS file:
+Para convertir un archivo STEP a un archivo IGS:
 
 {{Code|code=
  import Part
