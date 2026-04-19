@@ -607,9 +607,7 @@ circle = Part.makeCircle(10)
 tube = circle.extrude(App.Vector(0, 0, 2))
 }}
 
-<div class="mw-translate-fuzzy">
-Si tu círculo está hueco, obtendrás un tubo hueco. Si no es hueco, obtendrás un cilindro sólido:
-</div>
+Si tu círculo está hueco, obtendrás un tubo hueco. Si tu círculo es en realidad un disco con una cara rellena, obtendrás un cilindro sólido.
 
 {{Code|code=
 wire = Part.Wire(circle)
