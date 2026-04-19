@@ -76,7 +76,7 @@ Construcción de aviones de AeroCompany
 ;Nombre de página adecuado:
 Construcción de aviones de AeroCompany
 
-Los nombres de las páginas de los ambientes de trabajo de nivel superior deben tener este formato <code>XYZ Workbench</code>, donde <code>XYZ</code> es el nombre del ambiente de trabajo, por ejemplo [[PartDesign_Workbench/es|Ambiente de trabajo DiseñoPieza]]. Y los nombres de las páginas que describen los comandos (o herramientas) pertenecientes a un banco de trabajo deben tener este formato <code>XYZ Command</code>, por ejemplo [[PartDesign_Pad/es|DiseñoPieza Alcolchado]]. Ten en cuenta que debes utilizar el nombre del comando tal y como aparece en el código fuente.
+Los nombres de las páginas de nivel superior del entorno de trabajo deben tener este formato: <code>XYZ Workbench</code>, donde <code>XYZ</code> es el nombre del entorno de trabajo, por ejemplo [[PartDesign_Workbench|Entorno de Trabajo de diseño de Piezas]]. Y los nombres de las páginas que describen los comandos (o herramientas) pertenecientes a un entorno de trabajo deben tener este formato: <code>XYZ Command</code>, por ejemplo [[PartDesign_Pad|PartDesign Pad]]. Tenga en cuenta que debe usar el nombre del comando tal como aparece en el código fuente.
 
 <span id="Headings"></span>
 === Rúbricas ===
