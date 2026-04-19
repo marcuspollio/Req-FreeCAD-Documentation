@@ -233,12 +233,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{LineEdit|Metal Nickel (Ni)}}
 |Úselo para indicar un LineEdit en la interfaz gráfica de usuario que necesite ser modificado.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:FALSE|FALSE]], [[Template:false|false]]
 |{{FALSE}}, {{false}}
-|Use it to indicate a False Boolean value, for example, as a property in the [[Property_editor|property editor]]. This is a shortcut. Since it is a value, prefer Template [[Template:Value|Value]] {{Value|false}}
-</div>
+|Úselo para indicar un valor booleano Falso, por ejemplo, como una propiedad en el [[Property_editor|editor de propiedades]]. Esto es un atajo. Dado que es un valor, es preferible la plantilla [[Template:Value|Valor]] {{Valor|falso}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
