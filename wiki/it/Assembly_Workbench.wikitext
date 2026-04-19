@@ -50,7 +50,7 @@ L'[[Assembly_Workbench/it|Ambiente Assembly]] [[File:Workbench_Assembly.svg|24px
 
 * [[Image:Assembly_ToggleGrounded.svg|32px]] [[Assembly_ToggleGrounded/it|Attiva\disattiva fissaggio]]: fissa la posizione e l'orientamento di una forma in relazione al sistema di coordinate dell'assieme a cui appartiene.
 
-* [[Image:Assembly_CreateJointFixed.svg|32px]] [[Assembly_CreateJointFixed/it|Giunto fisso]]: crea un giunto che rende solidali tra di loro due parti dell'assieme, impedendo qualsiasi movimento o rotazione, ma può essere utilizzato anche per definire altri tipi di giunti.
+* [[Image:Assembly_CreateJointFixed.svg|32px]] [[Assembly_CreateJointFixed/it|Giunto fisso]]: crea un giunto che rende solidali tra di loro due parti dell'assieme, impedendo qualsiasi traslazione o rotazione, ma può essere utilizzato anche per definire altri tipi di giunti.
 
 * [[Image:Assembly_CreateJointRevolute.svg|32px]] [[Assembly_CreateJointRevolute/it|Giunto di rotazione]]: crea un giunto a cerniera, consentendo la sola rotazione attorno a un singolo asse tra le due parti selezionate.
 
