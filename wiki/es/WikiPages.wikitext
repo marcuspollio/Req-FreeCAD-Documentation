@@ -45,7 +45,7 @@ Las plantillas se utilizan para dar estilo a las páginas de ayuda. Proporcionan
 <span id="Temporary_flags"></span>
 === Banderas temporales ===
 
-Si está trabajando en una página grande, es aconsejable marcar la página como trabajo en curso o como inacabada. Esto asegura que los administradores del wiki no marquen su página como lista para ser traducida mientras usted todavía la está cambiando.
+Si está trabajando en una página extensa, es recomendable marcarla como en proceso o como incompleta. Esto garantiza que los administradores de la wiki no la marquen como lista para traducir mientras aún la está modificando.
 
 Para marcar una página, añada <code><nowiki>{{Page in progress}}</nowiki></code> o <code><nowiki>{{UnfinishedDocu}}</nowiki></code> como primera línea. Con <code><nowiki>{{UnfinishedDocu}}</nowiki></code> invitas a otros a unirse a ti para terminar la página, mientras que <code><nowiki>{{Page in progress}}</nowiki></code> indica que tú mismo harás el trabajo y que los demás deben darte algo de tiempo.
 
