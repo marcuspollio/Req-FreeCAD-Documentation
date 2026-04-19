@@ -780,9 +780,7 @@ def makeBottleTut(myWidth = 50.0, myHeight = 70.0, myThickness = 30.0):
     aPnt5=App.Vector(myWidth / 2., 0, 0)
 }}
 
-<div class="mw-translate-fuzzy">
-Aquí definimos nuestra función makeBottle. Esta función se puede llamar sin argumentos, como hicimos arriba, en cuyo caso se utilizaran los valores por defecto para ancho, alto, y espesor. Luego, definimos un conjunto de puntos que serán utilizados para construir nuestro perfil base.
-</div>
+Aquí definimos nuestra función {{incode|makeBottleTut}}. Esta función puede llamarse sin argumentos, como hicimos anteriormente, en cuyo caso se usarán los valores predeterminados para el ancho, la altura y el grosor. A continuación, definimos un par de puntos que se usarán para construir nuestro perfil base.
 
 {{Code|code=
     ...
