@@ -42,7 +42,7 @@ L'[[Assembly_Workbench/it|Ambiente Assembly]] [[File:Workbench_Assembly.svg|24px
 
 * [[Image:Assembly_CreateBom.svg|32px]] [[Assembly_CreateBom/it|Distinta base]]: crea una distinta dei materiali (BOM) da un assieme selezionato o dal documento.
 
-# <span id="Assembly_ExportASMT">[[Image:Assembly_ExportASMT.svg|32px]] Export ASMT File:<!--Do not edit span id: the Assembly_ExportASMT pages redirect here--> esporta i dati dell'assieme attualmente attivo come file ASMT per scopi di debug.
+# <span id="Assembly_ExportASMT">[[Image:Assembly_ExportASMT.svg|32px]] Esporta file ASMT:<!--Do not edit span id: the Assembly_ExportASMT pages redirect here--> esporta i dati dell'assieme attualmente attivo come file ASMT per scopi di debug.
 : Questo strumento è per gli sviluppatori e non sarà incluso nelle versioni future. (vedere [https://forum.freecad.org/viewtopic.php?p=812936#p812925 forum thread])
 
 <span id="Joints"></span>
