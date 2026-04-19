@@ -324,7 +324,7 @@ arc = Part.Arc(circle,0,pi)
 Los arcos son bordes válidos, al igual que las líneas, por lo que también se pueden utilizar en cables.
 {{Top}}
 <span id="Create_a_polygon"></span>
-==== Creación de un polígono ====
+=== Crear un polígono ===
 
 Un polígono es simplemente un cable con múltiples aristas rectas. La función {{incode|makePolygon()}} toma una lista de puntos y crea un cable a través de esos puntos:
 
