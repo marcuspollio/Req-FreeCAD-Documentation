@@ -73,8 +73,8 @@ Une vue détaillée, en fait un objet {{Incode|TechDraw::DrawViewDetail}}, est d
 
 * {{PropertyData|Base View|Link}} : la vue sur laquelle la vue détaillée est basée.
 * {{PropertyData|Anchor Point|Vector}} : centre de la vue détaillée dans la {{PropertyData|Base View}}.
-* {{PropertyData|Radius|Float}} : taille de la zone de la {{PropertyData|Base View}} affichée dans la vue détaillée.
-* {{PropertyData|Reference|String}} : un identifiant pour la vue détaillée dans la {{PropertyData|Base View}}.
+* {{PropertyData|Radius|Float}} : taille de la zone de la propriété {{PropertyData|Base View}} affichée dans la vue détaillée.
+* {{PropertyData|Reference|String}} : un identifiant pour la vue détaillée dans la propriété {{PropertyData|Base View}}.
 
 
 {{Docnav/fr
