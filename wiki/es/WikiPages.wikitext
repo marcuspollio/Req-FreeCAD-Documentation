@@ -495,14 +495,16 @@ Asigne nombres descriptivos a sus imágenes. Si tiene una imagen que muestre las
 <span id="Screen_capture"></span>
 === Captura de pantalla ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Recommended sizes for screen captures are:
-* Native 400x200 (or width=400 and height<=200), for [[GuiCommand_model|command reference]] pages, to allow the picture to fit in the left part of the page, and for other standard snapshots.
-* Native 600x400 (or width=600 and height<=400), for [[GuiCommand_model|command reference]] pages, when you really need a bigger picture, and still allow the picture to fit in the left part of the page, and for other standard snapshots.
-* Native 1024x768 (or width=1024 and height<=768), only for full screen images.
-* Smaller sizes are possible when showing details.
-* Avoid images with larger resolutions, as they won't be very portable to other kinds of displays or the printed PDF documentation.
-</div>
+Los tamaños recomendados para capturas de pantalla son:
+* 400x200 (o ancho=400 y alto<=200) para páginas [[GuiCommand_model|referencia de comando]], para que la imagen se ajuste a la parte izquierda de la página, y para otras capturas estándar.
+
+* 600x400 (o ancho=600 y alto<=400) para páginas [[GuiCommand_model|referencia de comando]], cuando se necesita una imagen más grande y que aún así se ajuste a la parte izquierda de la página, y para otras capturas estándar.
+
+* 1024x768 (o ancho=1024 y alto<=768) solo para imágenes a pantalla completa.
+
+* Se pueden usar tamaños más pequeños al mostrar detalles.
+
+* Evite imágenes con resoluciones altas, ya que no se adaptarán bien a otros tipos de pantallas ni a la documentación PDF impresa.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 You shouldn't depend on a custom configuration of your desktop or operating system when you create screenshots and you should use the visual defaults of the FreeCAD interface whenever possible.
