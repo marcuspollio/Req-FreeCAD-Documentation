@@ -138,9 +138,7 @@ The [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Wo
 
 :* [[Image:Part_Compound.svg|32px]] [[Part_Compound|复合体]]: 从选定的对象创建一个复合体。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:Part_ExplodeCompound.svg|32px]] [[Part_ExplodeCompound|Explode Compound]]: Splits up compounds.
-</div>
+:* [[Image:Part_ExplodeCompound.svg|32px]] [[Part_ExplodeCompound|分解复合对象]]: 将复合体拆解开来。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:Part_CompoundFilter.svg|32px]] [[Part_CompoundFilter|Compound Filter]]: Extracts the individual pieces from compounds.
