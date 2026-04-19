@@ -134,9 +134,7 @@ Para usar una imagen como enlace:
 
 Si omite el texto opcional, el enlace se mostrará al pasar el cursor sobre la imagen, lo cual es preferible, y también debería agregar un enlace de texto después del enlace de la imagen:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-<code><nowiki>[[Image:Draft_Wire.svg|24px|link=Draft_Wire]] [[Draft_Wire|Draft Wire]]</nowiki></code>
-</div>
+<code><nowiki>[[Image:Draft_Wire.svg|24px|link=Draft_Wire]] [[Draft_Wire|Alambre de borrador]]</nowiki></code>
 
 <span id="Workbench_pages"></span>
 === Páginas del ambiente de trabajo ===
