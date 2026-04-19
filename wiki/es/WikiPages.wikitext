@@ -213,12 +213,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{RadioButton|Option}}
 |Úselo para indicar un botón de opción en la interfaz gráfica de usuario que debe estar {{RadioButton|TRUE|Selected}} o {{RadioButton|FALSE|Not}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:CheckBox|CheckBox]]
 |{{CheckBox|Option}}
-|Use it to indicate a checkbox in the graphical user interface that needs to be {{CheckBox|TRUE|Checked}} or {{CheckBox|FALSE|Not}}.
-</div>
+|Úselo para indicar una casilla de verificación en la interfaz gráfica de usuario que debe estar {{CheckBox|TRUE|Marcada}} o {{CheckBox|FALSE|No}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
