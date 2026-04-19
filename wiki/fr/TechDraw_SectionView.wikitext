@@ -58,7 +58,7 @@ Une vue en coupe, en fait un objet {{Incode|TechDraw::DrawViewSection}}, est dé
 {{TitleProperty|Cut Operation}}
 
 * {{PropertyData|Fuse Before Cut|Bool}} : fusionne les formes sources avant d'effectuer la coupe de section.
-* {{PropertyData|Trim After Cut|Bool}} : découpe la forme résultante après le découpage de section pour supprimer les morceaux indésirables. {{Version/fr|0.21}}
+* {{PropertyData|Trim After Cut|Bool}} : ajuste la forme résultante après le découpage de section pour supprimer les morceaux indésirables. {{Version/fr|0.21}}
 * {{PropertyData|Use Previous Cut|Bool}} : permet d'utiliser la forme découpée dans la vue de base au lieu de l'objet original. {{Version/fr|1.0}}
 
 {{TitleProperty|Cut Surface Format}}
