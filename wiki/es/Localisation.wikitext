@@ -82,9 +82,7 @@ Para comenzar rápidamente a preparar una página para su traducción, lea el [h
 &lt;translate&gt; ... &lt;/translate&gt;
 </pre><!--using lt and gt so that tags are not recognized-->
 
-<div class="mw-translate-fuzzy">
-tags rodear toda la página para activar el sistema de traducción, y la página debe estar marcada para ser traducida.
-</div>
+La página también debe marcarse para su traducción.
 
 Para ver un ejemplo de cómo funciona la herramienta de traducción, visite la [[Main Page/es|Página principal]]. Verá una barra de idiomas generada automáticamente en la parte superior. Haga clic en [[Main Page/de|Hauptseite]] (alemán), le llevará a [[Main Page/de]]. Justo debajo del título, puedes leer <small>{{Emphasis|Esta página es una versión traducida de la página Principal y la traducción está completada en un XX%}}</small>, siendo XX el porcentaje actual de traducción. Haga clic en "Traducir" en la parte superior de la página para iniciar la utilidad de traducción para actualizar, corregir y revisar la traducción existente.
 
