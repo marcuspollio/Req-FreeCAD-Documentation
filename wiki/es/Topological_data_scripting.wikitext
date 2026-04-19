@@ -264,9 +264,7 @@ sface.isValid()
 > False
 }}
 
-<div class="mw-translate-fuzzy">
-Sólo las caras tendrán un área, ni los contornos ni las aristas.
-</div>
+Solo las caras tendrán un área definida; los cables y los bordes no.
 {{Top}}
 <span id="Create_a_circle"></span>
 ===Crear un círculo===
