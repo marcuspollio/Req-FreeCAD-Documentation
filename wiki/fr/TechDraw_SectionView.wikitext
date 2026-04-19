@@ -66,12 +66,12 @@ Une vue en coupe, en fait un objet {{Incode|TechDraw::DrawViewSection}}, est dé
 * {{PropertyData|Cut Surface Display|Enumeration}} : apparence de la surface de coupe. Options :
 ** {{Value|Hide}} : masque la surface découpée, seul le contour sera affiché.
 ** {{Value|Color}} : colore la surface de coupe en utilisant le paramètre '''Cut Surface Color''' dans les [[TechDraw_Preferences/fr|TechDraw Préférences]].
-** {{Value|SvgHatch}} : hachure la section coupée en utilisant une [[TechDraw_Hatch/fr|Hachure]]. 
-** {{Value|PatHatch}} : hachure la coupe de section en utilisant une [[TechDraw_GeometricHatch/fr|Hachure géométrique]].
-* {{PropertyData|File Hatch Pattern|File}} : chemin complet vers le fichier de motif de hachures SVG.
-* {{PropertyData|File Geom Pattern|File}} : chemin complet du fichier de motif PAT.
-* {{PropertyData|Svg Included|FileIncluded}} : chemin complet vers le fichier de motif de hachures SVG inclus.
-* {{PropertyData|Pat Included|FileIncluded}} : chemin complet vers le fichier de modèle PAT inclus.
+** {{Value|SvgHatch}} : hachure la section coupée en utilisant une [[TechDraw_Hatch/fr|hachure]]. 
+** {{Value|PatHatch}} : hachure la coupe de section en utilisant une [[TechDraw_GeometricHatch/fr|hachure géométrique]].
+* {{PropertyData|File Hatch Pattern|File}} : chemin d'accès complet vers le fichier de motif de hachures SVG.
+* {{PropertyData|File Geom Pattern|File}} : chemin d'accès complet du fichier de motif PAT.
+* {{PropertyData|Svg Included|FileIncluded}} : chemin d'accès complet vers le fichier de motif de hachures SVG inclus.
+* {{PropertyData|Pat Included|FileIncluded}} : chemin d'accès complet vers le fichier de modèle PAT inclus.
 * {{PropertyData|Name Geom Pattern|String}} : nom du modèle PAT à utiliser.
 * {{PropertyData|Hatch Scale|Float}} : réglage de la taille du motif de hachures.
 * {{PropertyData|Hatch Rotation|Float}} : rotation du motif de hachure en degrés dans le sens anti-horaire. {{Version/fr|0.21}}
