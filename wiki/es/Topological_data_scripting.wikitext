@@ -363,9 +363,7 @@ plane.BoundBox
 
 {{incode|BoundBox}} es un cuboide que encierra el plano con una diagonal que comienza en (3, 0, 0) y termina en (5, 0, 2). Aquí, el grosor de {{incode|BoundBox}} a lo largo del eje Y es cero, ya que nuestra figura es totalmente plana.
 
-<div class="mw-translate-fuzzy">
-Nota: makePlane sólo acepta Base.Vector() para start_pnt y dir_normal pero no tuplas
-</div>
+Nota: {{incode|makePlane()}} solo acepta {{incode|App.Vector()}} para start_pnt y dir_normal y no tuplas.
 {{Top}}
 <span id="Create_an_ellipse"></span>
 <div class="mw-translate-fuzzy">
