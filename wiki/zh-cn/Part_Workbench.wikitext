@@ -55,9 +55,7 @@ The [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Wo
 
 * [[Image:Part_Primitives.svg|32px]] [[Part_Primitives|基础几何体]]: 用于创建以下基础几何体的工具:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:Part_Plane.svg|32px]] [[Part_Plane|Plane]]: Creates a plane.
-</div>
+:* [[Image:Part_Plane.svg|32px]] [[Part_Plane|平面]]: 创建一个平面。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:Part_Box.svg|32px]] [[Part_Box|Box]]: Creates a box. This object can also be created with the [[Part_Box|Cube]] tool.
