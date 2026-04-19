@@ -166,7 +166,7 @@ Preparar su módulo para la traducción es bastante fácil. En primer lugar, deb
 
 Esto crea un archivo de traducción vacío. Una vez hecho esto, debe asegurarse de que los scripts de traducción estén actualizados como en esta [https://github.com/FreeCAD/FreeCAD/pull/810 pull request].  
 
-Todo lo que sigue es automático en lo que respecta a un desarrollador. El administrador extraerá las cadenas de texto, los traductores las traducirán, luego el administrador extraerá las traducciones y actualizará FreeCAD/master.
+Todo lo demás es automático para el desarrollador. El administrador extraerá las cadenas de texto, los traductores las traducirán, luego el administrador extraerá las traducciones y actualizará FreeCAD/master.
 
 <span id="Preparing_your_3rd_party_module_or_macro_for_translation"></span>
 === Preparar su módulo o macro de terceros para la traducción ===
