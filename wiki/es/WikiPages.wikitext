@@ -253,12 +253,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{FileName|File name}}
 |Úselo para indicar el nombre de un archivo o directorio.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:SystemInput|SystemInput]]
 |{{SystemInput|Type this text}}
-|Use it to indicate user typed input text.
-</div>
+|Úselo para indicar el texto introducido por el usuario.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
