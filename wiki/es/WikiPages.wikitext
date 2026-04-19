@@ -73,8 +73,8 @@ Los nombres de las páginas deben ser cortos y deben usar mayúsculas iniciales:
 ;Nombre de página incorrecto:
 Construcción de aviones de AeroCompany
 
-; Buen nombre de página:
-: Construction of AeroCompany Airplanes
+;Nombre de página adecuado:
+Construcción de aviones de AeroCompany
 
 Los nombres de las páginas de los ambientes de trabajo de nivel superior deben tener este formato <code>XYZ Workbench</code>, donde <code>XYZ</code> es el nombre del ambiente de trabajo, por ejemplo [[PartDesign_Workbench/es|Ambiente de trabajo DiseñoPieza]]. Y los nombres de las páginas que describen los comandos (o herramientas) pertenecientes a un banco de trabajo deben tener este formato <code>XYZ Command</code>, por ejemplo [[PartDesign_Pad/es|DiseñoPieza Alcolchado]]. Ten en cuenta que debes utilizar el nombre del comando tal y como aparece en el código fuente.
 
