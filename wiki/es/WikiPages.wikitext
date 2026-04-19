@@ -288,12 +288,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{Obsolete|0.19}}
 |Úselo para indicar que una función quedó obsoleta en la versión de FreeCAD especificada.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:Obsolete|VersionNoteObsolete]]
 |{{VersionNoteObsolete|0.19}}
-|Idem (superscript variant).
-</div>
+|Idem (variante en superíndice).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
