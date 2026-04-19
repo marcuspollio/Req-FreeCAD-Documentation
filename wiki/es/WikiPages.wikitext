@@ -365,12 +365,10 @@ Estas plantillas requieren más parámetros de entrada o generan un bloque de te
 
 El código Python debe ajustarse a las recomendaciones generales establecidas en [https://www.python.org/dev/peps/pep-0008/ PEP8: Style Guide for Python Code]. En particular, los paréntesis deben seguir inmediatamente al nombre de la función, y debe haber un espacio después de una coma. Esto facilita la lectura del código.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:CodeDownload|CodeDownload]]
 |{{CodeDownload|https://wiki.freecad.org/Main_Page|Some label}}
-|Use it to create a link on a [[Macros|macro]] page.
-</div>
+|Úselo para crear un enlace en una página [[Macros|macro]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
