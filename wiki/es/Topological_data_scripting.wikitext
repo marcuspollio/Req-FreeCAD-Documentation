@@ -860,7 +860,7 @@ Finalmente, llamamos a la función para crear la pieza y luego hacerla visible.
 <span id="Example:_Pierced_box"></span>
 == Ejemplo: Caja perforada ==
 
-Here is a complete example of building a pierced box.
+Aquí tiene un ejemplo completo de cómo construir una caja perforada.
 
 The construction is done one side at a time. When the cube is finished, it is hollowed out by cutting a cylinder through it.
 
