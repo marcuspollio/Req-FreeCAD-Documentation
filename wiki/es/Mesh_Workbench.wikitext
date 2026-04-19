@@ -86,14 +86,16 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 
 ** [[Image:Mesh_Difference.svg|32px]] [[Mesh_Difference|Diferencia]]: Crea un objeto de malla que es la diferencia de dos objetos de malla.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Cutting
-** [[Image:Mesh_PolyCut.svg|32px]] [[Mesh_PolyCut|Cut]]: Cuts whole faces from mesh objects.
-** [[Image:Mesh_PolyTrim.svg|32px]] [[Mesh_PolyTrim|Trim]]: Trims faces and parts of faces from mesh objects.
-** [[Image:Mesh_TrimByPlane.svg|32px]] [[Mesh_TrimByPlane|Trim With Plane]]: Trims faces and parts of faces on one side of a plane from a mesh object.
-** [[Image:Mesh_SectionByPlane.svg|32px]] [[Mesh_SectionByPlane|Section From Plane]]: Creates a cross section across a mesh object.
-** [[Image:Mesh_CrossSections.svg|32px]] [[Mesh_CrossSections|Cross-Sections]]: Creates multiple cross sections across mesh objects.
-</div>
+* Corte
+** [[Image:Mesh_PolyCut.svg|32px]] [[Mesh_PolyCut|Cortar]]: Corta caras completas de objetos de malla.
+
+** [[Image:Mesh_PolyTrim.svg|32px]] [[Mesh_PolyTrim|Recortar]]: Recorta caras y partes de caras de objetos de malla.
+
+** [[Image:Mesh_TrimByPlane.svg|32px]] [[Mesh_TrimByPlane|Recortar con planos]]: Recorta caras y partes de caras en un lado de un plano de un objeto de malla.
+
+** [[Image:Mesh_SectionByPlane.svg|32px]] [[Mesh_SectionByPlane|Sección desde plano]]: Crea una sección transversal de un objeto de malla.
+
+** [[Image:Mesh_CrossSections.svg|32px]] [[Mesh_CrossSections|Secciones transversales]]: Crea múltiples secciones transversales a través de objetos de malla.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Mesh_Merge.svg|32px]] [[Mesh_Merge|Merge]]: Creates a mesh object by combining the meshes of two or more mesh objects.
