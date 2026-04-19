@@ -245,11 +245,7 @@ wire2.isClosed()
 }}
 {{Top}}
 <span id="Create_a_face"></span>
-<div class="mw-translate-fuzzy">
-==== Creación de una cara ====
-
-Sólo serán válidas las caras creadas a partir de contornos cerrados. En este ejemplo, wire3 es un contorno cerrado pero wire2 no es un contorno cerrado (mira más arriba)
-</div>
+=== Crear una cara ===
 
 Only faces created from closed wires will be valid. In this example, wire3 is a closed wire but wire2 is not (see above):
 
