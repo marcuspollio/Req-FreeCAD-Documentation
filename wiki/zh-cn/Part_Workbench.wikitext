@@ -182,9 +182,7 @@ The [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Wo
 :* [[Image:Part_XOR.svg|32px]] [[Part_XOR|Boolean XOR]]: Removes space shared by an even number of objects.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[File:Part_CheckGeometry.svg|32px]] [[Part_CheckGeometry|Check Geometry]]: Checks the geometry of selected objects for errors.
-</div>
+* [[File:Part_CheckGeometry.svg|32px]] [[Part_CheckGeometry|检查几何]]: 检查选定对象的几何错误。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Part Defeaturing.svg|32px]] [[Part_Defeaturing|Defeaturing]]: Removes features from an object.
