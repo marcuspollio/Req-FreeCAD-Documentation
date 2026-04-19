@@ -506,9 +506,7 @@ Los tamaños recomendados para capturas de pantalla son:
 
 * Evite imágenes con resoluciones altas, ya que no se adaptarán bien a otros tipos de pantallas ni a la documentación PDF impresa.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You shouldn't depend on a custom configuration of your desktop or operating system when you create screenshots and you should use the visual defaults of the FreeCAD interface whenever possible.
-</div>
+Al crear capturas de pantalla no debe aparecer con una configuración personalizada de su ordenador o sistema operativo. Siempre que sea posible, debe utilizar la configuración visual predeterminada de la interfaz de FreeCAD.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To create a screenshots you can use the options provided by your operating system, or one of these macros: [[Image:Snip.png|24px]] [[Macro_Snip|Macro Snip]] and [[Image:Macro_Screen_Wiki.png|24px]] [[Macro_Screen_Wiki|Macro Screen Wiki]].
