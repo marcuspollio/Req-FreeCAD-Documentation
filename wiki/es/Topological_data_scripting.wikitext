@@ -424,7 +424,7 @@ para el constructor de la elipse de arriba hemos pasado el centro, MajorRadius y
 <span id="Create_a_torus"></span>
 ==== Crear un toroide ====
 
-Using {{incode|makeTorus(radius1, radius2, [pnt, dir, angle1, angle2, angle])}}. By default pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = 0, angle2 = 360 and angle = 360. Consider a torus as small circle sweeping along a big circle. Radius1 is the radius of the big circle, radius2 is the radius of the small circle, pnt is the center of the torus and dir is the normal direction. angle1 and angle2 are angles in degrees for the small circle; the last angle parameter is to make a section of the torus:
+Usando {{incode|makeTorus(radius1, radius2, [pnt, dir, angle1, angle2, angle])}}. Por defecto, pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = 0, angle2 = 360 y angle = 360. Consideremos un toroide como un círculo pequeño cuyo centro se desplaza a lo largo de un círculo grande de tal forma que el plano del círculo siempre es perpendicular a la trayectoria del círculo grande. Radius1 es el radio del círculo grande, radius2 es el radio del círculo pequeño, pnt es el centro del toroide y dir es la dirección normal. angle1 y angle2 son ángulos en grados para el círculo pequeño; el último parámetro angle es para hacer una sección del toro:
 
 {{Code|code=
 torus = Part.makeTorus(10, 2)
