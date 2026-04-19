@@ -46,7 +46,7 @@ Voir aussi : [[Property_View/fr|Éditeur de propriétés]]
 
 Dans les propriétés de {{PropertyData|Base View}}, vous pouvez modifier l'apparence de la ligne de la coupe.
 
-Une vue de coupe, en fait un objet {{Incode|TechDraw::DrawViewSection}}, est dérivée d'une [[TechDraw_View/fr#Propriétés_Vue_de_Part|vue de Part]], objet {{Incode|TechDraw::DrawViewPart}}, et hérite de toutes ses propriétés. Elle possède également les propriétés supplémentaires suivantes :
+Une vue en coupe, en fait un objet {{Incode|TechDraw::DrawViewSection}}, est dérivée d'une [[TechDraw_View/fr#Propriétés_Vue_d'une_pièce|vue d'une pièce]], càd un objet {{Incode|TechDraw::DrawViewPart}}, et hérite de toutes ses propriétés. Elle possède également les propriétés supplémentaires suivantes :
 
 <span id="Data"></span>
 === Données ===
