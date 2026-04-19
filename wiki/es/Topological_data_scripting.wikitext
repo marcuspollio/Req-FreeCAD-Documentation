@@ -581,12 +581,7 @@ fuse = cylinder1.fuse(cylinder2)
 }}
 {{Top}}
 <span id="Section"></span>
-<div class="mw-translate-fuzzy">
-==== Sección ====
-
-Una sección es la intersección entre una forma de un sólido y una forma de un plano.
-Devolverá una curva de intersección, un componente con aristas
-</div>
+=== Sección ===
 
 A "section" is the intersection between a solid shape and a plane shape. It will return an intersection curve, a compound curve composed of edges.
 
