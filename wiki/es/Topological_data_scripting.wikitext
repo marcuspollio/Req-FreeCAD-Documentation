@@ -857,7 +857,8 @@ Part.show(el)
 
 Finalmente, llamamos a la función para crear la pieza y luego hacerla visible.
 {{Top}}
-==Example: Pierced box==
+<span id="Example:_Pierced_box"></span>
+== Ejemplo: Caja perforada ==
 
 Here is a complete example of building a pierced box.
 
