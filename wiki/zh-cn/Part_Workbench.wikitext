@@ -150,9 +150,7 @@ The [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Wo
 
 * [[Image:Part_Common.svg|32px]] [[Part_Common|交集]]: 提取两个对象的公共部分。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* <span id="Part_CompJoinFeatures">[[Image:Part_JoinConnect.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] Join:</span><!--Do not edit span id: the Part_CompJoinFeatures pages redirect here-->
-</div>
+* <span id="Part_CompJoinFeatures">[[Image:Part_JoinConnect.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] 合并形状:</span><!--Do not edit span id: the Part_CompJoinFeatures pages redirect here-->
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:Part_JoinConnect.svg|32px]] [[Part_JoinConnect|Connect Shapes]]: Connects interiors of walled objects.
