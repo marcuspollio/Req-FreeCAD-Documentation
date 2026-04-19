@@ -247,7 +247,7 @@ wire2.isClosed()
 <span id="Create_a_face"></span>
 === Crear una cara ===
 
-Only faces created from closed wires will be valid. In this example, wire3 is a closed wire but wire2 is not (see above):
+Solo serán válidas las caras creadas a partir de cables cerrados. En este ejemplo, wire3 es un cable cerrado, pero wire2 no lo es (ver más arriba):
 
 {{Code|code=
 face = Part.Face(wire3)
