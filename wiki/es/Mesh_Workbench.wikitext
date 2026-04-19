@@ -64,9 +64,7 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 
 * [[Image:Mesh_RemoveComponents.svg|32px]] [[Mesh_RemoveComponents|Eliminar componentes]]: Elimina caras de objetos de malla.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Mesh_RemoveCompByHand.svg|32px]] [[Mesh_RemoveCompByHand|Remove Components Manually]]: Removes components by hand from mesh objects.
-</div>
+* [[Image:Mesh_RemoveCompByHand.svg|32px]] [[Mesh_RemoveCompByHand|Eliminar componentes manualmente]]: Elimina componentes manualmente de objetos de malla.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Mesh_Segmentation.svg|32px]] [[Mesh_Segmentation|Segmentation]]: Creates separate mesh segments for specified surface types of a mesh object.
