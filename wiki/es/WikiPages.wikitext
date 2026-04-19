@@ -358,12 +358,10 @@ Estas plantillas requieren más parámetros de entrada o generan un bloque de te
 |
 |Úsela para borrar columnas. Consulte la definición de la plantilla para obtener una explicación detallada. Se suele usar para evitar que el texto aparezca junto a imágenes no relacionadas.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:Code|Code]]
 |{{Code|code=import FreeCAD}}
-|Use it to include multi-line code examples with a monospace font. The default language is Python, but other languages can be specified.
-</div>
+|Úselo para incluir ejemplos de código de varias líneas con una fuente monoespaciada. El lenguaje predeterminado es Python, pero se pueden especificar otros lenguajes.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[Python|Python]] code should adhere to the general recommendations established by [https://www.python.org/dev/peps/pep-0008/ PEP8: Style Guide for Python Code]. In particular, parentheses should immediately follow the function name, and a space should follow a comma. This makes the code more readable.
