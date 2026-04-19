@@ -104,7 +104,7 @@ La barra lateral izquierda también es traducible, pero solo los administradores
 La primera vez que se cambia una página al nuevo sistema de traducción, se pierden todas las traducciones manuales anteriores. Para recuperar una traducción, conviene guardar una copia sin conexión del texto original antes del cambio. A continuación, se puede usar este texto traducido para completar las unidades de traducción en el nuevo sistema. También se puede abrir una versión anterior del historial y, de esta manera, recuperar el texto original. Este procedimiento debe repetirse para cada idioma que tuviera una página traducida.
 
 <span id="Translate_the_FreeCAD_documentation"></span>
-=== Traducir la documentación de FreeCAD ===
+== Traducir la documentación de FreeCAD ==
 
 Según el consenso general, la página de referencia en la wiki es la página en inglés, que debería crearse primero. Si quieres cambiar o añadir contenido a una página, debes hacerlo primero en la página en inglés, y sólo una vez completada la actualización, portar la modificación a la página traducida.
 
