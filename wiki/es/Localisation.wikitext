@@ -46,7 +46,7 @@ Visite [[Translating_an_external_workbench/es|Traducir un ambiente de trabajo ex
 
 A partir de la versión 0.20 de FreeCAD, las siguientes variables se pueden agregar manualmente a la sección BaseApp/Preferences/General del archivo user.cfg para ayudar con el desarrollo de nuevas traducciones:
 
-'''AddreDallanguageMainEnentries''' - para agregar idiomas completamente nuevos a FreeCAD que actualmente no son compatibles con el código fuente, puede usar esta preferencia del usuario para agregarlos a la lista de idiomas disponibles. El formato de los idiomas es "nombre del idioma" = "código"; por ejemplo:
+'''AdditionalLanguageDomainEntries''' - para agregar idiomas completamente nuevos a FreeCAD que actualmente no son compatibles con el código fuente, puede usar esta preferencia de usuario para agregarlos a la lista de idiomas disponibles. El formato de los idiomas es "Nombre del idioma"="código"; por ejemplo:
 
 <pre>
 <FCText Name="AdditionalLanguageDomainEntries">"Esperanto"="eo";"French"="fr";</FCText>
