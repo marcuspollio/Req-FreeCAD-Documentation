@@ -66,7 +66,7 @@ L'[[Assembly_Workbench/it|Ambiente Assembly]] [[File:Workbench_Assembly.svg|24px
 
 * [[Image:Assembly_CreateJointPerpendicular.svg|32px]] [[Assembly_CreateJointPerpendicular/it|Vincolo di perpendicolarità]]: crea un vincolo di  perpendicolarità tra le due parti selezionate, rendendo perpendicolari gli assi Z dei sistemi di coordinate selezionati.
 
-* [[Image:Assembly_CreateJointAngle.svg|32px]] [[Assembly_CreateJointAngle/it|Vincolo angolare]]: crea un vincolo angolare tra due parti selezionate, impostando l'angolo tra gli assi Z dei sistemi di coordinate selezionati.
+* [[Image:Assembly_CreateJointAngle.svg|32px]] [[Assembly_CreateJointAngle/it|Vincolo angolare]]: crea un vincolo angolare tra due parti selezionate, rendendo fisso l'angolo tra gli assi Z dei sistemi di coordinate selezionati.
 
 * [[Image:Assembly_CreateJointRackPinion.svg|32px]] [[Assembly_CreateJointRackPinion/it|Giunto a Cremagliera e Pignone]]: crea un vincolo tra cremagliera e pignone che sincronizza la traslazione di una parte di un giunto scorrevole e la rotazione di una parte di un giunto rotante.
 
