@@ -328,13 +328,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{ColoredText|Colored Text}}
 |Utilice esta plantilla para colorear el fondo, el texto o ambos. (Consulte la página [[Template:ColoredText|ColoredText]] para ver más ejemplos).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:ColoredParagraph|ColoredParagraph]]
 |{{ColoredParagraph|Colored Paragraph}}
-|Use this template to color the background, text, or background and text of an entire paragraph. ([[Template:ColoredParagraph|ColoredParagraph]] page for more examples)
-|}
-</div>
+|Utilice esta plantilla para colorear el fondo, el texto o ambos de un párrafo completo. (Consulte la página [[Template:ColoredParagraph|ColoredParagraph]] para ver más ejemplos).
 
 <span id="Complex_templates"></span>
 === Plantillas complejas ===
