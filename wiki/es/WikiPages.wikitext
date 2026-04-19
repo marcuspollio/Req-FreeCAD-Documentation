@@ -218,12 +218,10 @@ Estas plantillas aceptan un parámetro de texto simple y lo formatean con un est
 |{{CheckBox|Option}}
 |Úselo para indicar una casilla de verificación en la interfaz gráfica de usuario que debe estar {{CheckBox|TRUE|Marcada}} o {{CheckBox|FALSE|No}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:SpinBox|SpinBox]]
 |{{SpinBox|1.50}}
-|Use it to indicate a spinbox in the graphical user interface that needs to be modified.
-</div>
+|Úselo para indicar un cuadro de selección en la interfaz gráfica de usuario que necesita ser modificado.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
