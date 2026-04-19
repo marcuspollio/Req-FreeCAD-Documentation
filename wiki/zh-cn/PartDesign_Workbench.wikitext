@@ -38,9 +38,9 @@
 
 *[[File:PartDesign_Body.svg|32px]] [[PartDesign_Body|新建实体]]：在当前活动文档中创建一个[[Body|实体]]对象，并将其设为活动状态。
 
-* <span id="PartDesign_CompSketches">[[Image:PartDesign_NewSketch.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] New Sketch:</span><!--Do not edit span id: the PartDesign_CompSketches pages redirect here-->
+*<span id="PartDesign_CompSketches">[[Image:PartDesign_NewSketch.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] 新建草图:</span><!--请勿编辑 span id：PartDesign_CompSketches 页面会重定向至此处-->
 
-:*[[File:PartDesign_NewSketch.svg|32px]] [[PartDesign_NewSketch|New Sketch]]: creates a new sketch on a selected face or plane. If no face is selected while this tool is executed, the user is prompted to select a plane from the Tasks panel. The interface then switches to the [[Sketcher_Workbench|Sketcher Workbench]] in sketch editing mode.
+:*[[File:PartDesign_NewSketch.svg|32px]] [[PartDesign_NewSketch|新建草图]]：在选定的平面或面上创建新草图。若执行此工具时未选中任何面，系统将在任务面板中提示用户选择一个平面。随后界面将切换至**草图绘制工作台（Sketcher Workbench）**并进入草图编辑模式。
 
 :* [[File:Sketcher_MapSketch.svg|32px]] [[Sketcher_MapSketch|Attach Sketch]]: attaches a sketch to geometry selected from the active body.
 
