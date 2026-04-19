@@ -789,9 +789,7 @@ Aquí definimos nuestra función {{incode|makeBottleTut}}. Esta función puede l
     aSegment2=Part.LineSegment(aPnt4, aPnt5)
 }}
 
-<div class="mw-translate-fuzzy">
-Aquí en realidad definimos la geometría: un arco, creado por 3 puntos, y dos segmentos de línea, creados por 2 puntos.
-</div>
+Aquí definimos la geometría: un arco, formado por tres puntos, y dos segmentos de línea, formados por dos puntos.
 
 {{Code|code=
     ...
