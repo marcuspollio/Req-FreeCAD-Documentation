@@ -166,9 +166,7 @@ Para ver ejemplos, visite la página [[Tutorials|Tutoriales]].
 <span id="Templates"></span>
 == Plantillas ==
 <div class="mw-collapsible-content">
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Styling of the FreeCAD wiki pages is achieved through the use of templates ([[Help:Editing#Templates_and_transcluding_pages]]). They ensure a standardized look and feel across all pages, and also make it possible to re-style the wiki. You can see the complete list of defined templates by accessing [[Special:PrefixIndex/Template:]]. But please only use the templates listed in the tables below. Only in very special cases should you use HTML tags directly.
-</div>
+El estilo de las páginas wiki de FreeCAD se logra mediante el uso de plantillas ([[Help:Editing#Templates_and_transcluding_pages]]). Estas garantizan una apariencia uniforme en todas las páginas y permiten personalizar el estilo de la wiki. Puede consultar la lista completa de plantillas definidas accediendo a [[Special:PrefixIndex/Plantilla:]]. Sin embargo, utilice únicamente las plantillas que aparecen en las tablas a continuación. Solo en casos muy específicos debe usar etiquetas HTML directamente.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Click on the template link to see the usage instructions for a template, and to see its implementation. Templates are a powerful feature of the MediaWiki software. You should be an experienced wiki user if you wish to propose additions and modifications to existing templates. If implemented incorrectly, templates make it difficult to translate pages into other languages, so their use should be limited to text formatting, page transclusion should be avoided. See [https://www.mediawiki.org/wiki/Help:Templates MediaWiki Help:Templates] to learn more.
