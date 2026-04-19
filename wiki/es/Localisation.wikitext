@@ -74,7 +74,7 @@ También debería tener suficientes conocimientos de marcado wiki y seguir las d
 
 Cuando la wiki dejó de usar SourceForge, [[User:Yorik|Yorik]] instaló [http://www.mediawiki.org/wiki/Help:Extension:Translate MediaWiki's Translation extension], que facilita la traducción de páginas. Las ventajas de esta extensión son que ahora se puede traducir el título de la página, realiza un seguimiento de las traducciones, notifica si la página original se ha actualizado y mantiene las traducciones sincronizadas con la página original en inglés.
 
-La herramienta está documentada en [http://www.mediawiki.org/wiki/Help:Extension:Translate Help:Extension:Translate], y forma parte de [http://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle MediaWiki Language Extension Bundle].
+La herramienta está documentada en [http://www.mediawiki.org/wiki/Help:Extension:Translate Help:Extension:Translate], y forma parte de [http://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle Paquete de extensión de idioma MediaWiki].
 
 Para comenzar rápidamente a preparar una página para su traducción, lea el [http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example ejemplo de traducción de página]. Se necesitan dos etiquetas para rodear toda la página y activar el sistema de traducción:
 
