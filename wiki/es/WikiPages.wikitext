@@ -129,10 +129,8 @@ Para usar una imagen como enlace:
 
 <code><nowiki>[[Image:Draft_Wire.svg|24px|Texto opcional que se muestra al pasar el ratón por encima de la imagen|link=Draft_Wire]]</nowiki></code>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Image link + text link
-: [[Image:Draft_Wire.svg|24px|link=Draft_Wire]] [[Draft_Wire|Draft Wire]]
-</div>
+; Enlace de imagen + enlace de texto
+: [[Image:Draft_Wire.svg|24px|link=Draft_Wire]] [[Draft_Wire|Alambre de borrador]]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you leave out the optional text the link itself will be shown when the image is hovered, which is preferable, and you should also add a text link after the image link:
