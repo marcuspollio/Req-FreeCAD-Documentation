@@ -107,9 +107,7 @@ The [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign Wo
 
 * [[Image:Part_Chamfer.svg|32px]] [[Part_Chamfer|倒角]]: 为对象的边倒角
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[File:Part_MakeFace.svg|32px]] [[Part_MakeFace|Face From Wires]]: Makes a face from a set of wires (contours).
-</div>
+* [[File:Part_MakeFace.svg|32px]] [[Part_MakeFace|从线框创建面]]: 根据一组轮廓线（闭合曲线）生成一个面。
 
 * [[Image:Part_RuledSurface.svg|32px]] [[Part_RuledSurface|Ruled Surface]]:
 
