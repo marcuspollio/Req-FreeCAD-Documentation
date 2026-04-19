@@ -57,7 +57,7 @@ Une vue interrompue, en fait un objet {{Incode|TechDraw::DrawBrokenView}}, est d
 <span id="Notes"></span>
 == Remarques ==
 
-* Les cassures doivent être verticales ou horizontales. Les cassures inclinées ne sont pas prises en charge.
+* Les interruptions doivent être verticales ou horizontales. Les interruptions inclinées ne sont pas prises en charge.
 * Voir aussi [[TechDraw_View/fr|TechDraw Vue]].
 
 <span id="Scripting"></span>
