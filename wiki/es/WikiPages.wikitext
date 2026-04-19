@@ -490,9 +490,7 @@ Las imágenes se pueden subir a través de la página [[Special:Upload|Special:U
 <span id="Name"></span>
 === Nombre ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Give meaningful names to your images. If you have an image that showcases the characteristics of a particular command, you should use the name of that command with {{incode|_example}} at the end. For example for the command [[Draft_Offset|Draft Offset]] the image should be called {{incode|Draft_Offset_example.png}}.
-</div>
+Asigne nombres descriptivos a sus imágenes. Si tiene una imagen que muestre las características de un comando específico, utilice el nombre de dicho comando seguido de {{incode|_example}}. Por ejemplo, para el comando [[Draft_Offset|Draft Offset]], la imagen debería llamarse {{incode|Draft_Offset_example.png}}.
 
 <span id="Screen_capture"></span>
 === Captura de pantalla ===
