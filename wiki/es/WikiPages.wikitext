@@ -483,9 +483,7 @@ These templates require more input parameters, or produce a block of text with a
 <div class="mw-collapsible-content">
 Las imágenes y capturas de pantalla son necesarias para elaborar una documentación completa de FreeCAD. Son especialmente útiles para ilustrar ejemplos y tutoriales. Las imágenes deben mostrarse en su tamaño original para que presenten suficiente detalle y sean legibles si incluyen texto. Las imágenes de tipo [[bitmap|Bitmap]] no deben redimensionarse.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Avoid animated pictures (GIF) in the general help pages. Animations and videos should be reserved for tutorials not intended to be used as offline PDF documentation.
-</div>
+Evite usar imágenes animadas (GIF) en las páginas de ayuda general. Las animaciones y los vídeos deben reservarse para tutoriales que no estén destinados a ser utilizados como documentación PDF sin conexión.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Images can be uploaded through the [[Special:Upload|Special:Upload]] page.
