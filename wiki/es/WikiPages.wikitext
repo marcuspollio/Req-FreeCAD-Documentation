@@ -375,12 +375,10 @@ El código Python debe ajustarse a las recomendaciones generales establecidas en
 |{{Codeextralink|https://wiki.freecad.org/Main_Page}}
 |Úselo si el código de una [[Macros|macro]] es demasiado grande para alojarlo en la Wiki. El código se puede alojar en otro lugar y el enlace directo se especifica con esta plantilla. El [[Std_AddonMgr|Administrador de complementos]] utilizará este enlace.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 |--
 |[[Template:Fake heading|Fake heading]]
 |{{Fake heading|Heading|2}}
-|Use it to create a heading that will not be automatically included in the table of contents.
-</div>
+|Úselo para crear un encabezado que no se incluirá automáticamente en la tabla de contenido.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |--
