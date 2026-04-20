@@ -289,11 +289,9 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 |}
 
 {| cellpadding=5
-| [[Archivo:FEM_results_animation_relnotes_1.1.gif|384px]]</br>Haga clic en la imagen si la animación no se inicia.
-
-| [[Imagen:FEM_ResultShow.svg|24px]] [[FEM_ResultShow|Objetos de resultados FEM]] ahora admiten animaciones de resultados.
-
-[https://github.com/FreeCAD/FreeCAD/pull/18496 Solicitud de extracción n.° 18496]
+| [[File:FEM_results_animation_relnotes_1.1.gif|384px]]</br>Haga clic sobre la animación si esta no comienza.
+| [[Image:FEM_ResultShow.svg|24px]] [[FEM_ResultShow|FEM results objects]] Ahora admite animaciones de resultados.
+[https://github.com/FreeCAD/FreeCAD/pull/18496 Pull request #18496]
 |}
 
 {| cellpadding=5
