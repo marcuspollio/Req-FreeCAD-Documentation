@@ -171,8 +171,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 == Entorno de trabajo BIM ==
 
 {| cellpadding=5
-| [[Archivo:BIM_solar_diagram_relnotes_1.1.png|384px]]
-| Se agregó visualización interactiva de la posición y los rayos del sol a [[Imagen:Arch_Site.svg|24px]] [[Arch_Site|Arch Site]]. Se requiere el módulo de Python ''pysolar'' o ''ladybug''.
+| [[File:BIM_solar_diagram_relnotes_1.1.png|384px]]
+| Se agregó visualización interactiva de la posición y los rayos del sol a [[Image:Arch_Site.svg|24px]] [[Arch_Site|Arch Site]]. Se requiere el módulo de Python ''pysolar'' o ''ladybug''.
 
 [https://github.com/FreeCAD/FreeCAD/pull/22516 Solicitud de extracción n.° 22516]
 |}
