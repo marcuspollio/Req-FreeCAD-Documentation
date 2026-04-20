@@ -231,9 +231,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 * Se mejoró la funcionalidad [[CAM_DressupLeadInOut|LeadInOut]]. [https://github.com/FreeCAD/FreeCAD/pull/22669 Solicitud de extracción n.° 22669]
 * Se agregaron elementos de la interfaz de usuario para permitir la visualización y edición de los parámetros del controlador de herramientas desde el panel de tareas de la operación. [https://github.com/FreeCAD/FreeCAD/pull/23180 Solicitud de extracción n.° 23180]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Draft Workbench ==
-</div>
+<span id="Draft_Workbench"></span>
+== Mesa de trabajo de borrador ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Objects with two arrows can now have different start and end arrows. The size of an object's start and end arrows can also be different. [https://github.com/FreeCAD/FreeCAD/pull/11941 Pull request #11941]
