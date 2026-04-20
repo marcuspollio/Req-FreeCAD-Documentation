@@ -41,9 +41,9 @@ Aquí seleccionamos todas las aristas de una forma y aplicamos redondeos.<br />
 Por lo tanto, es necesario seleccionar las aristas ANTES de crear la ranura.
 
 
-===Notes===
-This tutorial is using part primitives and boolean operations, which can be performance consuming.<br />
-For doing a scripted part with revolved sketches have a look at the tutorial [[Scripted Parts: Ball Bearing - Part 2]].
+===Notas===
+Este tutorial utiliza primitivas de piezas y operaciones booleanas, lo que puede afectar el rendimiento.<br />
+Para crear una pieza programada con bocetos de revolución, consulte el tutorial [[Piezas programadas: Rodamiento de bolas - Parte 2]].
 
 
 ===Links===
