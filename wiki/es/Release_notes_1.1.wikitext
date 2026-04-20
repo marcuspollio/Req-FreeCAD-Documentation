@@ -136,9 +136,7 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 
 * Se encuentra disponible una nueva clase estática <code>FreeCAD.ApplicationDirectories</code> que proporciona características relacionadas con la nueva estructura de directorios versionada.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 == Start ==
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The Start page can now display the contents of additional folders specified by the user. Their paths should be separated by double semicolons ({{Incode|;;}}). [https://github.com/FreeCAD/FreeCAD/pull/19473 Pull request #19473], [https://github.com/FreeCAD/FreeCAD/pull/19918 Pull request #19918] and [https://github.com/FreeCAD/FreeCAD/pull/19948 Pull request #19948].
