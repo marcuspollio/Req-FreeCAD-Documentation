@@ -3,7 +3,7 @@
 <span id="Introduction"></span>
 == Introducción ==
 
-This is an example of [[Dialog_creation|dialog creation]] with [[PySide|PySide]].
+Este es un ejemplo de [[Dialog_creation|creación de diálogo]] con [[PySide|PySide]].
 
 In this example, the entire interface is defined in [[Python|Python]]. Although this is possible for small interfaces, for larger interfaces the recommendation is to create {{FileName|.ui}} files through Qt Designer, and load these in the program.
 
