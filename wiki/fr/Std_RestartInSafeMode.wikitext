@@ -35,7 +35,7 @@ La commande '''Std Redémarrer en mode sans échec''' redémarre FreeCAD dans un
 <span id="Notes"></span>
 == Remarques == 
 
-* Le mode sans échec peut également être lancé à partir de l'interface de ligne de commande (CLI) en utilisant le drapeau {{Incode|--safe-mode}}. Voir [[Start_up_and_Configuration/fr|Démarrage et configuration]].
+* Le mode sans échec peut également être lancé à partir de l'interface de ligne de commande (CLI) à l'aide de l'option {{Incode|--safe-mode}}. Voir [[Start_up_and_Configuration/fr|Démarrage et configuration]].
 
 
 {{Docnav/fr
