@@ -15,9 +15,10 @@ Los usuarios avanzados tienen la posibilidad de [[Interface_creation|crear inter
 Las interfaces se crean utilizando [[PySide|PySide]], que es una biblioteca para usar Qt con [[Python|Python]].
 
 [[File:FreeCAD_creating_interfaces.svg|600px]]
-{{Caption|Two general methods to create interfaces, by including the interface in the Python file, or by using {{incode|.ui}} files.}}
+{{Caption|Dos métodos generales para crear interfaces: incluyendo la interfaz en el archivo Python o utilizando archivos {{incode|.ui}}.}}
 
-== Description ==
+<span id="Description"></span>
+==Descripción==
 
 There are typically two ways of creating interfaces with PySide.
 
