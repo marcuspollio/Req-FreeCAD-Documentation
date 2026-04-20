@@ -52,7 +52,7 @@ La funcionalidad de FreeCAD está separada en Módulos que tratan con tipos de d
 * [[Mesh_Scripting/es|Guionización Mallas]]: Cómo interactuar con el [[Mesh_Workbench/es|Ambiente de trabajo Mallas]]
 
 <span id="Working_with_Parts"></span>
-=== Trabajando con Piezas ===
+==== Trabajando con Piezas ====
 
 * [[Part_Workbench/es|El Ambiente de trabajo Pieza]]: Cómo se utilizan las herramientas y la estructura de [https://en.wikipedia.org/wiki/Open_CASCADE Tecnología Open CASCADE] en FreeCAD
 * [[Topological data scripting/es|Guionización topología de datos]]: Cómo interactuar con el módulo de Pieza
