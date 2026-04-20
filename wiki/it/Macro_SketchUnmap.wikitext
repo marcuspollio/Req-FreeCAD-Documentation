@@ -26,12 +26,10 @@ Per evitare danni, la macro deve essere applicata quando il modello è ancora co
 
 Dal punto di vista funzionale, la macro rimuoverà la mappatura corrente dello schizzo su cui viene applicata, quindi applicherà ad esso un posizionamento assoluto in modo che sia immune alle modifiche del supporto di mappatura.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To do so, the macro will basically propose 3 options (if your sketch isn't in a PartDesign Body, only first option is available and will be applied automatically) :
-* "Raw" mode => the sketch placement is made absolute in the body referential, nothing more
-* "DP@Face mode" => a datum plane is created where the mapping face is, then the sketch is attached to it respecting its attachment offset
-* "DP@Sketch" mode => a datum place is created where the sketch is (including attachment offset), then the sketch is attached to its origin
-</div>
+Per fare ciò, la macro proporrà fondamentalmente 3 opzioni (se lo schizzo non si trova in un corpo PartDesign, è disponibile solo la prima opzione e verrà applicata automaticamente):
+* Modalità "Raw" => il posizionamento dello schizzo viene reso assoluto nel riferimento del corpo, niente di più
+* Modalità "DP@Face" => viene creato un piano di riferimento dove si trova la faccia di mappatura, quindi lo schizzo viene collegato ad esso rispettando il suo offset di collegamento
+* Modalità "DP@Sketch" => viene creato un punto di riferimento dove si trova lo schizzo (incluso l'offset di collegamento), quindi lo schizzo viene collegato alla sua origine
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To use the macro, just select the target sketch (eg. in the tree view) then run the macro. That's it !
