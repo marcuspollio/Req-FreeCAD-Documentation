@@ -35,10 +35,10 @@ Solo hay algunas pequeñas diferencias.<br />
 *Ajustar el zoom para que se vea todo.
 
 
-===Filleting edges===
-In part workbench using the GUI, you would select chamfers in the 3D view or in the menu for fillets and then apply the fillets.<br />
-Here we select all edges of a shape and apply fillets.<br />
-Therefore we need to select the edges BEFORE creating the groove.
+===Redondeo de aristas===
+En el entorno de trabajo de piezas, mediante la interfaz gráfica, se seleccionan los chaflanes en la vista 3D o en el menú de redondeos y, a continuación, se aplican.<br />
+Aquí seleccionamos todas las aristas de una forma y aplicamos redondeos.<br />
+Por lo tanto, es necesario seleccionar las aristas ANTES de crear la ranura.
 
 
 ===Notes===
