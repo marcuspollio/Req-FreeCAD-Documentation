@@ -243,9 +243,7 @@ Algunos comandos son experimentales y no están disponibles de forma predetermin
 * [[Image:CAM_Custom.svg|32px]] [[CAM_Custom/es|Personalizar]]: Inserta código G personalizado.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:CAM_Probe.svg|32px]] [[CAM_Probe|Probe]]: Creates a Probing Grid from a job stock.
-</div>
+* [[Image:CAM_Probe.svg|32px]] [[CAM_Probe|Sonda]]: Crea una cuadrícula de sondeo a partir de un stock de trabajo.
 
 <div class="mw-translate-fuzzy">
 * [[Image:CAM_Shape.svg|32px]] [[CAM_Shape/es|Código G de un forma]]: Crea un objecto trayectoria a partir de un objecto parte seleccionado.
