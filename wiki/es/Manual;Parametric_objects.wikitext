@@ -31,7 +31,7 @@ En el proceso de modelado paramétrico de FreeCAD, examinar el árbol de depende
 
 A continuación, se dibuja un círculo sobre la superficie recién formada. Este círculo sirve de base para la posterior operación de vaciado. Esta operación elimina estratégicamente material de la estructura, creando una sección a partir del círculo dibujado. Este proceso de añadir y luego sustraer material permite integrar geometrías y características complejas en el modelo básico de forma fluida.
 
-Through this sequence of operations—starting from the base sketch, adding volume with a pad, and creating detailed features with additional sketches and pockets—the final object takes shape. Each step in this chain depends on its predecessor, illustrating the interconnected nature of parametric design in FreeCAD.
+Mediante esta secuencia de operaciones —que comienza con el boceto base, continúa con la adición de volumen mediante un panel y crea detalles con bocetos y cavidades adicionales— el objeto final va tomando forma. Cada paso de esta cadena depende del anterior, lo que ilustra la interconexión del diseño paramétrico en FreeCAD.
 
 [[Image:FreeCAD_022_ParametricDesignDependGraph.png]]
 
