@@ -30,7 +30,9 @@ FreeCAD est disponible dans les dépôts officiels d'Ubuntu et peut être instal
 sudo snap install freecad
 }}
 
+<div class="mw-translate-fuzzy">
 {{Emphasis|Remarque :}} le dépôt d'Ubuntu peut être obsolète. L'empaquetage peut prendre du retard par rapport au dernier code source stable. Dans ce cas, il est suggéré d'installer le package à partir du PPA {{incode|-stable}} ci-dessous. De plus, l'installation du package {{incode|-daily}} peut être effectuée pour tester la branche de développement.
+</div>
 
 <span id="Stable_PPA_version"></span>
 === Le PPA de la version stable ===
