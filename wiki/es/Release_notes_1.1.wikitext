@@ -408,9 +408,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="Part_Workbench"></span>
 == Ambiente de Trabajo de Piezas ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Further Part improvements ===
-</div>
+<span id="Further_Part_improvements"></span>
+=== Mejoras adicionales en Piezas ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The [[Image:Part_ToleranceSet.svg|24px]] [[Part_ToleranceSet|Set Tolerance]] tool was added to allow the creation of parametric copies of the selected objects with all contained tolerances set to at least a certain minimum value. Moreover, the [[Image:Part_CheckGeometry.svg|24px]] [[Part_CheckGeometry|Check geometry]] tool now includes output about tolerances in the Shape Content tab. [https://github.com/FreeCAD/FreeCAD/pull/17214 Pull request #17214]
