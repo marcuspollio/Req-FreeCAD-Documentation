@@ -17,7 +17,7 @@ Por ejemplo, consideremos la creación de un objeto cúbico sólido mediante mod
 
 [[Image:FreeCAD_022_PArametricDesignPlate.png]]
 
-On the top face of the plate you sketch a circle of a given diameter d. You then use this circle to create a pocket (remove material) from the original plate.
+En la cara superior de la placa, dibuja un círculo de un diámetro '''d''' determinado. Luego, usa este círculo para crear una cavidad (quitar material) de la placa original.
 
 [[Image:FreeCAD_022_ParametricDesignPocket.png]]
 
