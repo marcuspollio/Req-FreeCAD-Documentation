@@ -39,9 +39,7 @@ El Entorno de Trabajo de Trayectoria genera código G que define las trayectoria
 
 El código G se genera a partir de las directivas y operaciones contenidas en un trabajo CAM. El flujo de trabajo las enumera en el orden en que se ejecutarán. La lista se completa añadiendo operaciones CAM, mejoras de trayectoria, comandos suplementarios y modificaciones de trayectoria desde el menú CAM o los botones de la interfaz gráfica de usuario (GUI).
 
-<div class="mw-translate-fuzzy">
-El banco de trabajo Trayectoria provee un administrador de herramientas (Biblioteca, Tabla de herramientas), inspector de código G y herramientas de simulación. Conectan el pos procesador y permiten importar y exportar plantillas de trabajos.
-</div>
+El entorno de trabajo CAM proporciona un gestor de herramientas (biblioteca, tabla de herramientas), así como herramientas de inspección y simulación de código G. Se conecta con el posprocesador y permite importar y exportar plantillas de trabajo.
 
 <div class="mw-translate-fuzzy">
 Path Workbench tiene dependencias externas que incluyen:
