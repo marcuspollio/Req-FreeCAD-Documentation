@@ -282,13 +282,12 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 [https://github.com/FreeCAD/FreeCAD/pull/18812 Solicitud de extracción n.° 18812]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:FEM_Netgen_hex_relnotes_1.1.png|384px]]
-| ''ZRefine'' property was added to [[Image:FEM_MeshNetgenFromShape.svg|24px]] [[FEM_MeshNetgenFromShape|Netgen]] making it possible to create simple extruded hex-dominated meshes when ''Quad Dominated'' property is enabled. However, it works only for first order elements unless the generated elements are all hexahedrons.
-[https://github.com/FreeCAD/FreeCAD/pull/19524 Pull request #19524]
+| [[Archivo:FEM_Netgen_hex_relnotes_1.1.png|384px]]
+| Se agregó la propiedad ''ZRefine'' a [[Imagen:FEM_MeshNetgenFromShape.svg|24px]] [[FEM_MeshNetgenFromShape|Netgen]], lo que permite crear mallas extruidas simples dominadas por hexaedros cuando la propiedad ''Quad Dominated'' está habilitada. Sin embargo, solo funciona para elementos de primer orden, a menos que todos los elementos generados sean hexaedros.
+
+[https://github.com/FreeCAD/FreeCAD/pull/19524 Solicitud de extracción n.° 19524]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
