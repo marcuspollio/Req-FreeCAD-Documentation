@@ -109,7 +109,7 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 |}
 
 {| cellpadding=5
-| [[Archivo:Core_pick_geometry_relnotes_1.1.gif|384px]]</br>Haga clic en la imagen si la animación no se inicia.
+| [[File:Core_pick_geometry_relnotes_1.1.gif|384px]]</br>Haga clic en la imagen si la animación no se inicia.
 
 | La herramienta [[Std_ClarifySelection|Clarificar selección]] se agregó basándose en la herramienta Seleccionar geometría de Realthunder. Se puede activar con la combinación de teclas {{KEY|G}}, {{KEY|G}}, la opción del menú contextual o (dependiendo del estilo de navegación seleccionado) manteniendo presionado el botón izquierdo del ratón. Permite la transparencia temporal y muestra una lista de todas las entidades geométricas cercanas de diferentes tipos (Objeto, Cara, Arista, Vértice, Otro) para permitir la selección de objetos ocultos/interiores al pasar el cursor sobre un modelo en la vista 3D.
 
