@@ -9,7 +9,7 @@
 
 {{Manual:TOC}}
 
-El [[Imagen:Workbench_Spreadsheet.svg|16px]] [[Spreadsheet_Workbench|Entorno de Trabajo Hoja de Cálculo]] en FreeCAD permite a los usuarios crear y administrar [https://en.wikipedia.org/wiki/Spreadsheet] hojas de cálculo, como las creadas con [https://en.wikipedia.org/wiki/Microsoft_Excel Excel] o [https://en.wikipedia.org/wiki/LibreOffice_Calc Calc de LibreOffice], directamente dentro de sus proyectos de diseño. Permite ingresar, organizar y manipular datos en formato de tabla, que luego se pueden vincular a varios parámetros y modelos en el proyecto.
+El [[Image:Workbench_Spreadsheet.svg|16px]] [[Spreadsheet_Workbench|Entorno de Trabajo Hoja de Cálculo]] en FreeCAD permite a los usuarios crear y administrar [https://en.wikipedia.org/wiki/Spreadsheet] hojas de cálculo, como las creadas con [https://en.wikipedia.org/wiki/Microsoft_Excel Excel] o [https://en.wikipedia.org/wiki/LibreOffice_Calc Calc de LibreOffice], directamente dentro de sus proyectos de diseño. Permite ingresar, organizar y manipular datos en formato de tabla, que luego se pueden vincular a varios parámetros y modelos en el proyecto.
 
 Una de las principales ventajas es su uso en el modelado paramétrico. Las hojas de cálculo se pueden vincular a las dimensiones y propiedades de los modelos 3D, lo que las convierte en una herramienta esencial para los cambios de diseño dinámicos. Por ejemplo, al ajustar un valor en la hoja de cálculo, la dimensión correspondiente en el modelo se actualizará automáticamente.
 
