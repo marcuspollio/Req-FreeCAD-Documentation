@@ -311,13 +311,12 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 [https://github.com/FreeCAD/FreeCAD/pull/20494 Solicitud de extracción n.° 20494]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:FEM_multiframe_pipeline_relnotes_1.1.png|384px]]
-| The [[Image:FEM_PostPipelineFromResult.svg|24px]] [[FEM_PostPipelineFromResult|Results pipeline]] can now store results from multiple frames.
-[https://github.com/FreeCAD/FreeCAD/pull/19610 Pull request #19610]
+| [[Archivo:FEM_multiframe_pipeline_relnotes_1.1.png|384px]]
+| La [[Imagen:FEM_PostPipelineFromResult.svg|24px]] [[FEM_PostPipelineFromResult|canal de resultados]] ahora puede almacenar resultados de múltiples fotogramas.
+
+[https://github.com/FreeCAD/FreeCAD/pull/19610 Solicitud de extracción n.° 19610]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
