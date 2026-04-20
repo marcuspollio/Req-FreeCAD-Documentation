@@ -6,9 +6,7 @@
 
 La [[Vista_3D|Vista 3D]] de FreeCAD es una instancia de un [[Scenegraph|escenografía]] de Coin3D que constituye la ventana más importante de la [[Interface|interfaz]]. Coin3D es una biblioteca que implementa el estándar de descripción de escenas de OpenInventor 2.1.
 
-<div class="mw-translate-fuzzy">
-Ciertas propiedades de la vista, como el color de fondo, el estilo [[Mouse Model/es|navegación con ratón]], y los pasos de zoom, pueden ser configurados en el [[Preferences_Editor/es|editor de preferencias]].
-</div>
+Ciertas propiedades de la vista, como el color de fondo, el estilo de [[Mouse_navigation|navegación con el ratón]] y los pasos de zoom, se pueden configurar en el [[Preferences_Editor|Editor de preferencias]].
 
 [[File:FreeCAD_3D_view.png|600px]]
 
