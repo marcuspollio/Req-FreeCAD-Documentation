@@ -177,9 +177,7 @@ Uruchom skrypt za pomocą zielonej strzałki, a w widoku 3D zobaczysz coś takie
 
 Koncepcja umiejscowienia jest stosunkowo złożona, zobacz [[Aeroplane/pl|poradnik samolotu]], aby uzyskać bardziej dogłębne wyjaśnienie.
 
-<div class="mw-translate-fuzzy">
-Zazwyczaj potrzebujemy umieścić geometrie względem siebie, podczas budowania złożonych obiektów jest to powtarzające się zadanie, najczęstszym sposobem jest użycie właściwości geometrii {{incode|Placement}}.
-</div>
+Zazwyczaj potrzebujemy umieścić geometrie względem siebie, podczas budowania złożonych obiektów jest to powtarzające się zadanie. Najczęstszym sposobem jest użycie właściwości geometrii {{incode|Placement}}.
 
 <div class="mw-translate-fuzzy">
 FreeCAD oferuje szeroki wybór sposobów ustawiania tej właściwości, jeden jest bardziej dostosowany do drugiego w zależności od wiedzy i doświadczenia użytkownika, ale bardziej proste pisanie jest wyjaśnione w cytowanym samouczku, używa osobliwej definicji części {{incode|Rotation}} {{incode|Placement}}, dość łatwej do nauczenia.
