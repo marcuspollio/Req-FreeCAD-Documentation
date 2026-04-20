@@ -11,9 +11,7 @@
 
 FreeCAD emplea un enfoque de modelado paramétrico, donde la geometría de los objetos se rige por reglas y parámetros predefinidos, en lugar de poder ser esculpida libremente. Esto significa que las dimensiones y características de cada componente se definen mediante parámetros que indican al programa cómo generar la geometría. Por ejemplo, para crear un cilindro, se especifican parámetros como el radio y la altura. Con estos valores, FreeCAD genera la forma geométrica precisa.
 
-<div class="mw-translate-fuzzy">
-Los objetos paramétricos, en FreeCAD, son en realidad pequeñas piezas de un programa que se ejecutan siempre que uno de los parámetros ha cambiado. Los objetos pueden tener muchos tipos de parámetros: números (enteros como 1, 2, 3 o valores de punto flotante como 3.1416), tamaños del mundo real (1mm, 2.4m, 4.5ft), coordenadas (x,y,z), cadenas de texto ("¡hola!") o incluso otro objeto.
-</div>
+En FreeCAD, los objetos paramétricos son en esencia pequeños scripts programables que se ejecutan al modificar cualquier parámetro. Estos parámetros pueden variar ampliamente, incluyendo números enteros y de coma flotante, valores dimensionales reales como: milímetros, metros o pies, coordenadas (expresadas como x, y, z), cadenas de texto e incluso referencias a otros objetos. Esta versatilidad en los parámetros permite la creación de modelos complejos mediante una serie de operaciones encadenadas, donde cada nuevo objeto deriva sus características de uno anterior, a la vez que introduce atributos adicionales.
 
 <div class="mw-translate-fuzzy">
 En el siguiente ejemplo, un objeto sólido y cúbico (Pastilla) se basa en una forma 2D rectangular (Croquis) y tiene una distancia de extrusión. Con estas dos propiedades, produce una forma sólida extruyendo la forma base por la distancia dada. A continuación, puede utilizar este objeto como base para otras operaciones, como dibujar una nueva forma 2D en una de sus caras (Sketch001) y luego hacer una sustracción (Cajera), hasta llegar a su objeto final.
