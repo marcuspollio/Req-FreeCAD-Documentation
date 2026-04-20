@@ -20,7 +20,8 @@ Como la mayoría de ellos requieren interacción del usuario, los comandos de Fr
 
 Los comandos se pueden definir tanto en C++ como en Python.
 
-== Commands defined in C++ ==
+<span id="Commands_defined_in_C++"></span>
+== Comandos definidos en C++ ==
 
 Example of a C++ command definition, usually defined following the structure {{FileName|Mod/ModuleName/Gui/Command.cpp}}.
 
