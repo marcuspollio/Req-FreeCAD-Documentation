@@ -29,7 +29,7 @@ m = Mesh.Mesh(faces)
 Mesh.show(m)
 }}
 
-Alternative example:
+Ejemplo alternativo:
 
 {{Code|code=
 import Mesh
