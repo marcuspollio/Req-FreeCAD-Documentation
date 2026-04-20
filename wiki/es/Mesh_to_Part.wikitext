@@ -3,9 +3,7 @@
 {{TOCright}}
 
 <span id="Convert_Part_objects_to_meshes"></span>
-<div class="mw-translate-fuzzy">
-== Convertir Objetos parte en mallas ==
-</div>
+==Convertir objetos de piezas en mallas==
 
 Convertir objetos de nivel superior, como las formas [[Part_Workbench|piezas]], en objetos más simples, como las [[Mesh_Workbench|mallas]], es una operación bastante sencilla en la que todas las caras de un objeto Pieza se triangulan. El resultado de esa triangulación (teselación) se utiliza luego para construir una malla:
 
