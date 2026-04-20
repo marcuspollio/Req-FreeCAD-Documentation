@@ -45,9 +45,7 @@ mesh.Mesh = MeshPart.meshFromShape(
 }}
 
 <span id="Convert_meshes_to_Part_objects"></span>
-<div class="mw-translate-fuzzy">
 == Convertir Mallas en objetos Pieza ==
-</div>
 
 <div class="mw-translate-fuzzy">
 La conversión de mallas en objetos Pieza es una operación muy importante en el trabajo de CAD, ya que a menudo se reciben datos 3D en formato de malla de otras personas o son generados con otras aplicaciones. Las mallas son muy prácticas para representar la geometría de forma libre y para grandes escenas visuales, ya que son muy ligeras. Pero, por lo general, el CAD prefiere objetos de nivel superior que llevan mucha más información, como la idea de sólidos, o caras  hechas de curvas, en lugar de triángulos.
