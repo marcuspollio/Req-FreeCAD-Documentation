@@ -163,14 +163,7 @@ sumvec = myvec.add(othervec)
 }}
 </div>
 
-<div class="mw-translate-fuzzy">
-{{Docnav/es
-|[[Manual:Creating renderings/es|Creación Renderización]]
-|[[Manual:Creating and manipulating geometry/es|Creación y manipular geometría]]
-|[[Manual:Introduction/es|Inicio manual]]
-|IconC=Crystal Clear manual.png
-}}
-</div>
+Otra característica común de los objetos de FreeCAD es su '''Posicionamiento'''. Como vimos en capítulos anteriores, cada objeto tiene una propiedad de Posicionamiento, que contiene la posición (Base) y la orientación (Rotación) del objeto. Estas propiedades son fáciles de manipular desde Python, por ejemplo, para mover nuestro objeto:
 
 {{Code|code=
 print(box.Placement)
