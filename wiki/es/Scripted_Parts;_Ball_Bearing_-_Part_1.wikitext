@@ -9,13 +9,13 @@
 }}
 
 
-===Introduction===
-This tutorial is meant as a beginner's introduction to creating parts with python scripts within FreeCAD.<br />
-This tutorial will cover how to build a ball bearing with a CSG-workflow.<br />
-The code will produce a new FreeCAD document with 12 shapes (Inner Ring, Outer Ring and 10 balls/spheres).<br />
-It will look like this:<br />
+===Introducción===
+Este tutorial está pensado como una introducción para principiantes a la creación de piezas con scripts de Python en FreeCAD.<br />
+Este tutorial explicará cómo construir un rodamiento de bolas con un flujo de trabajo CSG.<br />
+El código generará un nuevo documento de FreeCAD con 12 formas (anillo interior, anillo exterior y 10 bolas/esferas).<br />
+Tendrá este aspecto:<br />
 <br />
-[[Image:Tutorial_BallBearing01.jpg|400px]]
+[[Imagen:Tutorial_BallBearing01.jpg|400px]]
 
 
 ===Workflow===
