@@ -52,9 +52,7 @@ Ora, per qualche motivo, è necessario invertire il senso di aspirazione (ovviam
 
 [[File:Unmap_ex2.png]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The treeview shows an error, the 3D view isn't updated, and the circle sketch is floating in the middle of nowhere...
-</div>
+La visualizzazione ad albero mostra un errore, la vista 3D non è aggiornata e lo schizzo del cerchio fluttua nel nulla...
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Now comes the job of the macro (that you need to run before changing the reference face, when the sketch is still at its right place). Select the sketch and run it. If your sketch is in a body, a message box will ask to choose among the 3 different options (if your sketch is out of a body, it will automatically apply the 1st one) :
