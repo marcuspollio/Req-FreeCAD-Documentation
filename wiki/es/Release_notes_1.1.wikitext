@@ -146,13 +146,14 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="Addon_Manager"></span>
 == Administrador de complementos ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The Python dependency updater now works correctly if FreeCAD is installed as a snap package or as an AppImage. [https://github.com/FreeCAD/FreeCAD/pull/19384 Pull request #19384], [https://github.com/FreeCAD/FreeCAD/pull/19766 Pull request #19766] and [https://github.com/FreeCAD/FreeCAD/pull/19814 Pull request #19814].
-* The installation path of Python modules in the dependency updater is now shown as an absolute path for better readability. It is also shown correctly according to the FreeCAD installation method. [https://github.com/FreeCAD/FreeCAD/pull/19828 Pull request #19828] and [https://github.com/FreeCAD/FreeCAD/pull/19816 Pull request #19816].
-* The Addon Manager is itself an addon, and can be updated by navigating to its page in the Addon Manager's addons list.
-* Addons can now explicitly declare their support for particular FreeCAD versions, and multiple versions and branches are supported for each.
-* Python dependencies now use a pip-constraints file to ensure conflict-free installation.
-</div>
+* El actualizador de dependencias de Python ahora funciona correctamente si FreeCAD se instala como paquete snap o como AppImage. [https://github.com/FreeCAD/FreeCAD/pull/19384 Solicitud de extracción n.° 19384], [https://github.com/FreeCAD/FreeCAD/pull/19766 Solicitud de extracción n.° 19766] y [https://github.com/FreeCAD/FreeCAD/pull/19814 Solicitud de extracción n.° 19814].
+
+* La ruta de instalación de los módulos de Python en el actualizador de dependencias ahora se muestra como una ruta absoluta para una mejor legibilidad. También se muestra correctamente según el método de instalación de FreeCAD. [https://github.com/FreeCAD/FreeCAD/pull/19828 Solicitud de extracción n.° 19828] y [https://github.com/FreeCAD/FreeCAD/pull/19816 Solicitud de extracción n.° 19816].
+* El Administrador de complementos es un complemento en sí mismo y se puede actualizar accediendo a su página en la lista de complementos del Administrador de complementos.
+
+* Los complementos ahora pueden declarar explícitamente su compatibilidad con versiones específicas de FreeCAD, y se admiten múltiples versiones y ramas para cada una.
+
+* Las dependencias de Python ahora utilizan un archivo pip-constraints para garantizar una instalación sin conflictos.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Assembly Workbench ==
