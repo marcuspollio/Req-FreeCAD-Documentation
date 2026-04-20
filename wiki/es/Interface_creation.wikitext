@@ -10,7 +10,7 @@
 <span id="Introduction"></span>
 == Introducción ==
 
-Power users have the possibility of [[Interface_creation|creating interfaces]] to help them produce complex tools for their custom [[Addon|addons]], such as [[Macros|macros]] or full [[Workbenches|workbenches]].
+Los usuarios avanzados tienen la posibilidad de [[Interface_creation|crear interfaces]] para ayudarlos a producir herramientas complejas para sus [[Addon|addons]] personalizados, como [[Macros|macros]] o [[Workbenches|Entornos de Trabajo]] completos.
 
 Interfaces are created using [[PySide|PySide]], which is a library for using Qt with [[Python|Python]].
 
