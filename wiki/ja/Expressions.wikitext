@@ -526,9 +526,7 @@ a_{41} & a_{42} & a_{43} & a_{44} \\
 <span id="Conditional_expressions"></span>
 == 条件式 ==
 
-<div class="mw-translate-fuzzy">
-条件式は{{incode|条件 ? 真の場合の結果 : 偽の場合の結果}}という形式です。条件部分も数式で定義します。{{incode|0}}は偽、0以外は真と解釈します。
-</div>
+条件式は{{incode|条件 ? 真の場合の結果 : 偽の場合の結果}}という形式です。条件部分も数式で定義します。{{incode|0}}は偽、0以外は真と解釈します。（訳注: 条件式において）値が{{incode|abs(value) < 1e-7}}の場合は0（訳注: 偽）と評価され、そうでない場合は0以外（訳注: 真）と評価されることに注意してください。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 See [[#Supported_operators|Supported operators]] for the available [https://en.wikipedia.org/wiki/Relational_operator#Standard_relational_operators relational operators].
