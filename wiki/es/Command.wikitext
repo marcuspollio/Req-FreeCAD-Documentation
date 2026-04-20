@@ -55,7 +55,8 @@ CommandManager &rcCmdMgr = Application::Instance->commandManager();
 rcCmdMgr.addCommand(new StdCmdMyCommand());
 }}
 
-== Commands defined in Python ==
+<span id="Commands_defined_in_Python"></span>
+== Comandos definidos en Python ==
 
 Example of a Python command definition, it can be placed in a directory like {{FileName|Mod/ModuleName/tools/commands.py}}.
 {{Code|code=
