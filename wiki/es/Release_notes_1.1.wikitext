@@ -275,13 +275,12 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="FEM_Workbench"></span>
 == Ambiente de Trabajo FEM ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:FEM_compsolid_selection_relnotes_1.1.png|384px]]
-| A popup menu was added to enable the selection of a proper solid if the selected face of CompSolid belongs to two solids. This makes it easier to select inner solids e.g. to apply materials to them.
-[https://github.com/FreeCAD/FreeCAD/pull/18812 Pull request #18812]
+| [[Archivo:FEM_compsolid_selection_relnotes_1.1.png|384px]]
+| Se agregó un menú emergente para permitir la selección de un sólido adecuado si la cara seleccionada de CompSolid pertenece a dos sólidos. Esto facilita la selección de sólidos internos, por ejemplo, para aplicarles materiales.
+
+[https://github.com/FreeCAD/FreeCAD/pull/18812 Solicitud de extracción n.° 18812]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
