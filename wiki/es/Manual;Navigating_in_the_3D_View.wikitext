@@ -14,10 +14,7 @@
 
 Si no tiene ninguna experiencia con aplicaciones de modelado 3D, es fundamental que comprenda algunos conceptos básicos antes de continuar. Si ya tiene experiencia con este tipo de software, puede omitir esta introducción.
 
-<div class="mw-translate-fuzzy">
-El espacio 3D de FreeCAD es un 
-[https://es.wikipedia.org/wiki/Espacio_eucl%C3%ADdeo Espacio euclídeo]. Tiene un punto de origen y tres ejes: X, Y y Z. Si miras tu escena desde arriba, convencionalmente, el eje X apunta hacia la derecha, el eje Y hacia atrás, y el eje Z hacia arriba. En la esquina inferior derecha de la vista de FreeCAD, siempre puedes ver desde dónde estás viendo la escena:
-</div>
+FreeCAD opera en un espacio euclidiano tridimensional [https://en.wikipedia.org/wiki/Euclidean_space Espacio euclídeo] centrado en un punto de origen definido por tres ejes cartesianos: X, Y y Z. Normalmente, al visualizar FreeCAD desde arriba, el eje X se extiende horizontalmente hacia la derecha, el eje Y hacia atrás y el eje Z verticalmente hacia arriba. El punto de intersección de estos ejes, donde cada coordenada es cero, se conoce como origen de coordenadas.
 
 <div class="mw-translate-fuzzy">
 El punto de encuentro de los tres ejes es el origen.  Es el punto donde el valor de todas las coordenadas es cero.  Para cualquier eje, el movimiento en una dirección aumentará el valor de la coordenada y el movimiento en la dirección opuesta disminuirá el valor de la coordenada.  Cada punto de cada objeto que existe en el espacio 3D puede ser localizado por sus coordenadas (x,y,z). Por ejemplo, un punto con coordenadas (2,3,1) estará a +2 unidades en el eje X, +3 unidades en el eje Y y +1 unidad en el eje Z:
