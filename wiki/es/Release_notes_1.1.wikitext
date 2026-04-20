@@ -79,13 +79,13 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 [https://github.com/FreeCAD/FreeCAD/pull/17564 Solicitud de extracción n.° 17564]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:Std_TransformManip_Custom_Alignment_relnotes_1.1.gif|384px]]</br>Click on the image if the animation does not start.
-| Advanced options for axis-specific alignment of the [[Image:Std_TransformManip.svg|24px]] [[Std_TransformManip#Options|Transform tool's]] ''Move to Other Object'' command have been added, enabling selective alignment by individual translation and rotation axes. This allows more precise control when matching an object's position and orientation to a target if only selected axis components should be considered.
-[https://github.com/FreeCAD/FreeCAD/pull/21642 Pull request #21642]
+| [[Archivo:Std_TransformManip_Custom_Alignment_relnotes_1.1.gif|384px]]</br>Haga clic en la imagen si la animación no se inicia.
+
+| Se han añadido opciones avanzadas para la alineación específica de ejes del comando "Mover a otro objeto" de la herramienta [[Imagen:Std_TransformManip.svg|24px]] [[Std_TransformManip#Options|Transformar]], lo que permite la alineación selectiva mediante ejes de traslación y rotación individuales. Esto permite un control más preciso al hacer coincidir la posición y orientación de un objeto con un objetivo si solo se deben considerar los componentes de los ejes seleccionados.
+
+[https://github.com/FreeCAD/FreeCAD/pull/21642 Solicitud de extracción n.º 21642]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
