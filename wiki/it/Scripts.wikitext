@@ -131,14 +131,18 @@ def my_cyl(name, ang, rad, hei):
 
 Anche qui nulla di eccezionale. Notiamo alcune cose nella costruzione del codice:
 
+<div class="mw-translate-fuzzy">
 * L'assenza degli usuali riferimenti ad {{incode|App.}},  presenti in molta documentazione che parla di scripting, è pienamente voluto, in futuro si potrà riusare il codice per accedere a FreeCAD come un modula da un interprete Python esterno, la cosa non è proprio facilissima da AppImage, ma con qualche accortezza è possibile. Di più facendo riferimento al motto di Python "esplicito è meglio che implicito", {{incode|App.}} non indica molto bene da dove arrivano i metodi che si usano.
 * Notate l'uso della "costante" DOC assegnata al documento attivo in {{incode|DOC &#61; FreeCAD.activeDocument()}}; activeDocument ovviamente non è una "costante", ma dal punto di vista semantico è il nostro "documento attivo", da qui l'uso della convenzione di Pyhton del nome "TUTTO MAIUSCOLO" per le "costanti", senza considerare che {{incode|DOC}} è molto pià corto che {{incode|FreeCAD.activeDocument()}}.
 * Ogni funzione restituisce una geometria, questo sarà chiaro nel seguito della pagina.
 * La geometria viene creata senza definire la proprietà {{incode|Placement}}, questo è voluto perché utilizzando geometrie semplici per creare geometrie più complesse, la gestione della proprietà {{incode|Placement}} è una cosa "delicata".
+</div>
 
 Ora cosa dobbiamo fare con questi oggetti?
 
+<div class="mw-translate-fuzzy">
 Introduciamo ora le operazioni booleane. Un esempio per cominciare, mettendo queste linee dopo {{incode|my_cyl}}, si crea una funzione che esegue una operazione di "Fusione" conosciuta anche come "Unione":
+</div>
 
 {{Code|code=
 def fuse_obj(name, obj_0, obj_1):
@@ -152,9 +156,13 @@ def fuse_obj(name, obj_0, obj_1):
     return obj
 }}
 
+<div class="mw-translate-fuzzy">
 Anche qui nulla di eccezionale, notate comunque l'uniformità nel codice della funzione di scrittura; Questo approccio è molto più lineare di quello usato in molti altri Tutorial, aiuta molto ad incrementare la leggibilità del codice e anche quando si vuole fare copia e incolla.
+</div>
 
+<div class="mw-translate-fuzzy">
 Usiamo ora queste geometrie, cancellate le linee di codice dopo {{incode|# objects definition}} e inserite queste linee:
+</div>
 
 {{Code|code=
 # objects definition
@@ -168,7 +176,9 @@ fuse_obj("Fusion", obj, obj1)
 set_view()
 }}
 
+<div class="mw-translate-fuzzy">
 Lanciate lo script con la freccia verde e vedrete nella vista 3D, qualcosa che assomiglia all'immagine qui sotto:
+</div>
 
 [[File:Cucil.png|thumb|center|Cubo and cilindro]]
 
@@ -177,15 +187,21 @@ Lanciate lo script con la freccia verde e vedrete nella vista 3D, qualcosa che a
 
 Il concetto di Posizionamento è relativamente complesso, potete vedere [[Aeroplane/it|Tutorial Aeroplano]] per una spiegazione più approfondita.
 
+<div class="mw-translate-fuzzy">
 In genere abbiamo bisogno di posizionare una geometria rispetto ad un'altra geometria, cosa abbastanza frequente quando si creano geometrie complesse, il modo più comodo è quello di usare la proprietà {{incode|Placement}} della geometria.
+</div>
 
+<div class="mw-translate-fuzzy">
 FreeCAD offre un'ampia scelta di modi con cui specificare questa proprietà, molto dipende anche dalle conoscenze di fondo dell'utente, quella più facile da comprendere è quella spiegata nel Tutorial citato, usa una particolare definizione della porzione {{incode|Rotation}} all'interno della definizione di {{incode|Placement}}.
+</div>
 
 {{Code|code=
 FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
 }}
 
+<div class="mw-translate-fuzzy">
 Comunque al di sopra di ogni ulteriore considerazione, una cosa è cruciale, il concetto di "punto di riferimento" della geometria. In altri termini, il punto dal quale l'oggetto viene costruito da parte di FreeCAD, riportiamo in questa tabella, copiata direttamente da [[Placement/it|Placement]]:
+</div>
 
 {| class="wikitable" border="1"
 !Oggetto!!Punto di riferimento
