@@ -1,6 +1,10 @@
 <languages/>
-{{clear}}
+
 {{VeryImportantMessage|Środowisko pracy Flamingo (Python2/Qt4) zostało zastąpione przez środowisko pracy Dodo (Python3/Qt5). Ta strona wiki przedstawia różnice między tymi dwoma środowiskami. Obecnie [[Dodo_Workbench/pl|środowisko pracy Dodo]] odnosi się do tej strony.}}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{VeryImportantMessage|As of 2024, the Dodo Workbench has been superseded by the [[Quetzal Workbench]].}}
+</div>
 
 <span id="Introduction"></span>
 ==Wprowadzenie==
@@ -21,10 +25,12 @@ Dla wygody narzędzia Flamingo / Dodo są pogrupowane w trzy paski narzędziowe/
 
 [[Image:dodoBlob.png|left]]{{clear}}
 
+<div class="mw-translate-fuzzy">
 * '''Narzędzia ram''': służą do rozmieszczania ram, kratownic i podobnych elementów w programie FreeCAD przy użyciu obiektów Konstrukcji modułu Arch. .../flamingo/tutorial/tutorialFrame.pdf
 * '''Narzędzia rur''': to logiczna kontynuacja narzędzia ram, ponieważ zajmuje się tworzeniem rurociągów i konstrukcji rurowych. Posiada również własne klasy Python do tworzenia obiektów rurociągów, takich jak rury, kolanka, kołnierze itp. .../flamingo/tutorials/tutorialPype2.pdf
 * '''Narzędzia Eagle''': to w zasadzie dodatek i skrót do bardzo profesjonalnego programu [https://github.com/marmni/FreeCAD-PCB FreeCAD-PCB] ''(dostępnego także w repozytorium dodatków programu FreeCAD)'' do importowania pozycji obiektów z pliku .brd programu Eagle na płytce drukowanej narysowanej w programie FreeCAD za pomocą programu a.m., odnoszący się tylko do ich nazw. Jest to także początek, a właściwie nazwa całego środowiska pracy. .../flamingo/tutorial/tutorialEagle.pdf
 :* Pasek narzędzi '''Przybory''' umożliwia wyszukiwanie obiektów w modelu i ich odległości, przesuwanie / obracanie płaszczyzny roboczej oraz mały hack okna dialogowego [[Draft_Wire/pl|Linia łamana]] środowiska Rysunek Roboczy, który pozwala na zmianę położenia płaszczyzny roboczej w locie.
+</div>
 
 <span id="References"></span>
 ==Bibliografia==
@@ -457,9 +463,11 @@ Współczynnik tarcia jest obliczany dla każdej rury prostej i kolana. Dla inny
 <span id="Links"></span>
 ==Odnośniki internetowe==
 
+<div class="mw-translate-fuzzy">
 * Forum: [https://forum.freecad.org/viewtopic.php?f=8&t=17035 Nowe środowisko pracy dla konstrukcji metalowych] ''(ogłoszenie)''.
 * Forum: [https://forum.freecad.org/viewtopic.php?t=22711 środowiska pracy Flamingo & Dodo - dyskusja na forum]
 * Poradniki: [https://github.com/oddtopus/flamingo/tree/master/tutorials flamingo/tutorials]
+</div>
 
 * Poradniki wideo: 
 ** [https://www.youtube.com/watch?v=_Or91gdBLMU Prosty samouczek wideo do tworzenia ram z rur].
