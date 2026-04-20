@@ -211,13 +211,12 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 [https://github.com/FreeCAD/FreeCAD/pull/21425 Solicitud de extracción n.° 21425]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:CAM_toolbit_library_manager_relnotes_1.1.png|384px]]
-| The [[CAM_ToolBitLibraryOpen|Toolbit Library Editor]] was replaced and supports copy and paste as well as drag and drop features.
-[https://github.com/FreeCAD/FreeCAD/pull/23856 Pull request #23856]
+| [[Archivo:CAM_toolbit_library_manager_relnotes_1.1.png|384px]]
+| El [[CAM_ToolBitLibraryOpen|Editor de la biblioteca Toolbit]] se ha reemplazado y ahora admite copiar y pegar, así como arrastrar y soltar.
+
+[https://github.com/FreeCAD/FreeCAD/pull/23856 Solicitud de extracción n.° 23856]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Further CAM improvements ===
