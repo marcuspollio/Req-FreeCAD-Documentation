@@ -26,9 +26,7 @@ Cada ubicación en el espacio de FreeCAD se determina mediante  las coordenadas 
 <span id="Mouse_navigation"></span>
 ==== Navegación del ratón ====
 
-<div class="mw-translate-fuzzy">
-La navegación en la [[3D_view/es|vista 3D]] de FreeCAD puede hacerse con un ratón, un dispositivo de navegación espacial, el teclado, un panel táctil, o una combinación de ellos. FreeCAD implementa varios [[Mouse_navigation/es|modos de navegación]], que determinan cómo se realizan las tres operaciones básicas de manipulación de la vista (panorámica, rotativo, zoom), así como cómo se realiza la selección de objetos en la pantalla. A los modos de navegación se accede desde la pantalla de Preferencias, o directamente haciendo clic con el botón derecho del ratón en cualquier parte de la [[3D_view/es|vista 3D]]:
-</div>
+La navegación en la vista 3D de FreeCAD se puede realizar mediante diversos métodos, como el ratón, el Space Navigator, atajos de teclado, el panel táctil o cualquier combinación de estos. FreeCAD ofrece una variedad de estilos de navegación que definen cómo se ejecutan las tres operaciones de visualización fundamentales: desplazamiento, rotación y zoom. Además, estos estilos rigen la selección de objetos en el espacio de trabajo. Para acceder a estos estilos de navegación y cambiar entre ellos, puede ir al editor de preferencias o, simplemente, hacer clic con el botón derecho en la vista 3D. También existe una tercera opción, más inmediata, para modificar el estilo de navegación clicando directamente sobre el icono del ratón de la interfaz de usuario, ubicada en la parte inferior derecha de la pantalla.
 
 [[Image:FreeCAD_022_NavigationMethod.png]]
 
