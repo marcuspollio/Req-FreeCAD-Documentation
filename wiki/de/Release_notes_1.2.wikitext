@@ -53,6 +53,7 @@ Frühere FreeCAD-Versionshinweise können unter [[Feature_list/de#Release_notes|
 <span id="Further_Core_improvements"></span>
 ==== Weitere Core-Verbesserungen ====
 
+<div class="mw-translate-fuzzy">
 * Die Suchleiste in den [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences/de|Einstellungen]] kann nun Tooltipps, Klapplisten-Werte, Kontrollkästchen und Gruppentitel durchsuchen. [https://github.com/FreeCAD/FreeCAD/pull/24283 Pull-Request #24283]
 * Das Werkzeug [[Image:Std_Measure.svg|24px]] [[Std_Measure/de|Messen]] bietet nun die Möglichkeit, das Messergebnis von kreisförmigen Elementen als Durchmesser anzuzeigen  anstatt als Radien. [https://github.com/FreeCAD/FreeCAD/pull/24853 Pull-Request #24853]
 * Das Werkzeug [[Image:Std_Measure.svg|24px]] [[Std_Measure/de|Messen]] unterstützt jetzt das Messen von Radius und Durchmesser zylindrischer Flächen.[https://github.com/FreeCAD/FreeCAD/pull/27044 Pull-Request #27044]
@@ -61,6 +62,7 @@ Frühere FreeCAD-Versionshinweise können unter [[Feature_list/de#Release_notes|
 * Das Werkzeug [[Image:Std_Measure.svg|24px]] [[Std_Measure/de|Messen]] kann jetzt, zusätzlich zu den schon vorhandenen Messarten, den Radius oder den Durchmesser von kreisförmigen (zylindrischen?) Flächen ausgeben. [https://github.com/FreeCAD/FreeCAD/pull/27415 Pull-Request #27415]
 * Das Werkzeug [[Image:Std_Measure.svg|24px]] [[Std_Measure/de|Messen]] stellt Flächeneinheiten jetzt mit hochgestellten Unicode-Zeichen an. [https://github.com/FreeCAD/FreeCAD/pull/28044 Pull-Request #28044]
 * Makros unterstützen nun Verzeichnisse, um die zugehörigen Dateien zu sammeln. [https://github.com/FreeCAD/FreeCAD/pull/27005 Pull-Request #27005]
+</div>
 
 === API ===
 
@@ -121,6 +123,7 @@ ToDo (last check: 20260412):
 <span id="Further_CAM_improvements"></span>
 === Weitere CAM-Verbesserungen ===
 
+<div class="mw-translate-fuzzy">
 * Im Dialogfeld für den G-Code-Export werden nun Zeilennummern angezeigt. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull-Request #23862]
 * Die MillFace-Funktion wurde als MillFacing mit erheblichen Verbesserungen neu implementiert. [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull-Request #24367]
 * [[CAM_SimpleCopy/de|EinfacheKopie]] ermöglicht nun die Mehrfachauswahl von Bearbeitungen. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull-Request #24297]
@@ -148,6 +151,7 @@ ToDo (last check: 20260412):
 * Das Werkzeug [[CAM_SelectLoop/de|SchleifeAuswählen]] wurde verbessert und gibt nun den Linienzug zurück, wenn Kanten ausgewählt wurden und andere Methoden fehlgeschlagen sind. [https://github.com/FreeCAD/FreeCAD/pull/24185 Pull-Request #24185]
 * Der Kinetic-Postprozessor wurde um eine Kühlfunktion erweitert. [https://github.com/FreeCAD/FreeCAD/pull/25022 Pull-Request #25022]
 * Die Eigenschaft ''Units'' (metrisch/britisch) wurde zu ToolBits hinzugefügt. [https://github.com/FreeCAD/FreeCAD/pull/25783 Pull-Request #25783]
+</div>
 
 <span id="Draft_Workbench"></span>
 == Arbeitsbereich Draft ==
@@ -306,6 +310,10 @@ ToDo (last check: 20260412):
 
 <span id="Further_Spreadsheet_improvements"></span>
 === Weitere Spreadsheet-Verbesserungen ===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* The color picker was redesigned and has two buttons - for custom colors and for resetting. [https://github.com/FreeCAD/FreeCAD/pull/28698 Pull request #28698]
+</div>
 
 <span id="Surface_Workbench"></span>
 == Arbeitsbereich Surface ==
