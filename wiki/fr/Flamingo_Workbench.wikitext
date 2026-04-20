@@ -23,12 +23,10 @@ Par commodité, les outils Flamingo/Dodo sont groupés dans trois barres d'outil
 
 [[Image:dodoBlob.png|left]]{{clear}}
 
-<div class="mw-translate-fuzzy">
-:* '''Frame tools''' : a pour but d'organiser des poutres, des fermes et autres éléments similaires dans FreeCAD en utilisant les objets Structure du module Arch. .../flamingo/tutorials/tutorialFrame.pdf
+:* '''Frame tools''' : est conçu pour agencer des charpentes, des fermes et autres éléments similaires. Il utilise les objets Structure du module Arch. .../flamingo/tutorials/tutorialFrame.pdf
 :* '''Pype tools''' : la suite logique de l'outil Frame puisqu'il traite de la création de tuyauteries et de structures tubulaires. Il dispose également de ses propres classes Python pour créer les objets de tuyauterie, tels que des tubes, des coudes, des brides, etc. .../flamingo/tutorials/tutorialPype2.pdf
 :* '''Eagle tools''' : il s'agit essentiellement d'un complément, et d'un raccourci, de l'atelier très professionnel [https://github.com/marmni/FreeCAD-PCB FreeCAD-PCB] (également disponible dans le dépôt d'extensions de FreeCAD) pour importer la position des objets d'un fichier .brd Eagle sur un PCB dessiné dans FreeCAD avec l'atelier a.m. en se basant uniquement sur leurs noms. C'est aussi l'origine, par extension, du nom de l'ensemble du workbench. .../flamingo/tutorials/tutorialEagle.pdf
 :* '''Utils''' fournit quelques fonctionnalités pour interroger les objets du modèle et leur distance, pour déplacer/pivoter le plan de travail et un petit hack de la boîte de dialogue de création de [[Draft_Wire/fr|Draft Polyligne]], qui permet de changer la position du plan de travail à la volée.
-</div>
 
 <span id="References"></span>
 ==Références==
