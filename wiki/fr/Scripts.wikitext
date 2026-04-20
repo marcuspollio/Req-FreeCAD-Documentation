@@ -183,9 +183,7 @@ FreeCAD offre un large choix de moyens pour définir cette propriété, l'un est
 FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
 }}
 
-<div class="mw-translate-fuzzy">
 Mais par rapport à d'autres considérations, une chose est cruciale, la géométrie '''point de référence''', c'est-à-dire le point à partir duquel l'objet est modélisé par FreeCAD, comme décrit dans ce tableau, copié de [[Placement/fr|Placement]] :
-</div>
 
 {| class="wikitable" border="1"
 !Objet!!Point de référence
