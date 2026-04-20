@@ -500,9 +500,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 [https://github.com/FreeCAD/FreeCAD/pull/22388 Solicitud de extracción n.° 22388]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Further Sketcher improvements ===
-</div>
+<span id="Further_Sketcher_improvements"></span>
+=== Otras mejoras de Sketcher ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * It is now possible to directly use external geometry as input for tools like offset or transform (array), for both external construction and defining geometry. [https://github.com/FreeCAD/FreeCAD/pull/17615 Pull request #17615]
