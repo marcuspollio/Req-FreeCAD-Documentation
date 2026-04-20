@@ -201,9 +201,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 * Al crear [[Image:Arch_Wall.svg|24px]] [[Arch_Wall|Wall]], también se puede ingresar la propiedad {{PropertyData|Offset}} del muro. [https://github.com/FreeCAD/FreeCAD/pull/21042 Solicitud de extracción n.° 21042]
 * Los comandos de creación de vistas 2D ahora están agrupados para una mejor usabilidad. [https://github.com/FreeCAD/FreeCAD/pull/20941 Solicitud de extracción n.° 20941]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== CAM Workbench ==
-</div>
+<span id="CAM_Workbench"></span>
+== Ambiente de Trabajo de CAM ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
