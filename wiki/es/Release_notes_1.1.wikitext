@@ -520,9 +520,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 * La selección de recuadros de izquierda a derecha ahora usa un color diferente al de derecha a izquierda para indicar un comportamiento distinto. [https://github.com/FreeCAD/FreeCAD/pull/23261 Solicitud de extracción n.° 23261]
 * Se ha añadido una nueva preferencia para el tamaño de los símbolos de restricción. [https://github.com/FreeCAD/FreeCAD/pull/23366 Solicitud de extracción n.° 23366]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Spreadsheet Workbench ==
-</div>
+<span id="Spreadsheet_Workbench"></span>
+== Ambiente de Trabajo de Hoja de Cálculo ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Default shortcuts for [[Image:Spreadsheet_StyleBold.svg|24px]] [[Spreadsheet_StyleBold|Bold text]], [[Image:Spreadsheet_StyleItalic.svg|24px]] [[Spreadsheet_StyleItalic|Italic text]] and [[Image:Spreadsheet_StyleUnderline.svg|24px]] [[Spreadsheet_StyleUnderline|Underline text]] have been added. [https://github.com/FreeCAD/FreeCAD/pull/15556 Pull request #15556]
