@@ -550,12 +550,10 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="Import_and_Export"></span>
 ==Importar y Exportar ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The DXF importer was significantly redesigned at the implementation and user level for a more predictable and consistent user experience. [https://github.com/FreeCAD/FreeCAD/pull/22251 Pull Request #22251]
-* The DXF importer gained improved support for BLOCK and INSERT DXF entities. [https://github.com/FreeCAD/FreeCAD/pull/22045 Pull Request #22045]
-* The DXF importer now reports import stats after an import. [https://github.com/FreeCAD/FreeCAD/pull/21985 Pull Request #21985]
-* The alignment of sketches in SVG export and legacy DXF export has been fixed. [https://github.com/FreeCAD/FreeCAD/pull/19765 Pull request #19765]
-</div>
+* El importador de archivos DXF se rediseñó significativamente a nivel de implementación y de usuario para ofrecer una experiencia más predecible y consistente. [https://github.com/FreeCAD/FreeCAD/pull/22251 Solicitud de extracción n.° 22251]
+* El importador de archivos DXF ahora ofrece compatibilidad mejorada con entidades DXF de tipo BLOQUE e INSERTAR. [https://github.com/FreeCAD/FreeCAD/pull/22045 Solicitud de extracción n.° 22045]
+* Ahora, el importador de DXF informa de las estadísticas de importación tras cada operación. [https://github.com/FreeCAD/FreeCAD/pull/21985 Solicitud de extracción n.° 21985]
+* Se corrigió la alineación de los bocetos en la exportación a SVG y en la exportación a DXF heredada. [https://github.com/FreeCAD/FreeCAD/pull/19765 Solicitud de extracción n.° 19765]
 
 
 [[Category:News{{#translation:}}]]
