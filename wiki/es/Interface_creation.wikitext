@@ -12,7 +12,7 @@
 
 Los usuarios avanzados tienen la posibilidad de [[Interface_creation|crear interfaces]] para ayudarlos a producir herramientas complejas para sus [[Addon|addons]] personalizados, como [[Macros|macros]] o [[Workbenches|Entornos de Trabajo]] completos.
 
-Interfaces are created using [[PySide|PySide]], which is a library for using Qt with [[Python|Python]].
+Las interfaces se crean utilizando [[PySide|PySide]], que es una biblioteca para usar Qt con [[Python|Python]].
 
 [[File:FreeCAD_creating_interfaces.svg|600px]]
 {{Caption|Two general methods to create interfaces, by including the interface in the Python file, or by using {{incode|.ui}} files.}}
