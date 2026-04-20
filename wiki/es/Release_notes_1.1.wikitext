@@ -416,9 +416,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 * Las herramientas [[Image:Part_Loft.svg|24px]] [[Part_Loft|Loft]] y [[Image:Part_Sweep.svg|24px]] [[Part_Sweep|Sweep]] ahora crean sólidos por defecto. [https://github.com/FreeCAD/FreeCAD/pull/22098 Solicitud de extracción n.° 22098]
 * Las herramientas redundantes [[Image:Part_Import.svg|24px]] [[Part_Import|Part Import]] y [[Image:Part_Export.svg|24px]] [[Part_Export|Part Export]] se eliminaron del menú. [https://github.com/FreeCAD/FreeCAD/pull/22116 Solicitud de extracción n.° 22116]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Part Design Workbench ==
-</div>
+<span id="Part_Design_Workbench"></span>
+== Ambiente de Trabajo de Diseño de Pieza ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
