@@ -155,9 +155,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 
 * Las dependencias de Python ahora utilizan un archivo pip-constraints para garantizar una instalación sin conflictos.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Assembly Workbench ==
-</div>
+<span id="Assembly_Workbench"></span>
+== Banco de trabajo de ensamblaje ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The [[Image:Assembly_InsertNewPart.svg|24px]] [[Assembly_InsertNewPart|Insert a new part]] tool was added making it possible to easily add new parts to assembly. [https://github.com/FreeCAD/FreeCAD/pull/17922 Pull request #17922]
