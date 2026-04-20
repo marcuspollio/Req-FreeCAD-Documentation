@@ -77,14 +77,17 @@ Esquemas:
 
 # Cambiar su esquema de unidades preferido no afectará la salida, pero ayudará a evitar errores de entrada.
 
-<div class="mw-translate-fuzzy">
 Salida:
-# La generación de la unidad correcta en la salida es responsabilidad del postprocesador y solo se realiza en ese momento.
-# La unidad de salida de la máquina no está relacionada con el esquema de la unidad seleccionada
-# Los postprocesadores producen salida métrica (G21), salida Imperial (G20) o son configurables.
-# Post-procesadores configurables por defecto a la métrica (G21)
-# Si desea que su post-procesador configurable emita gcode imperial (G20), establezca el argumento correcto en la confluencia de salida de su trabajo (es decir, --inches for linuxcnc). Esto puede almacenarse en una plantilla de trabajo y establecerse como su plantilla predeterminada para que sea automática para todos los trabajos futuros.
-</div>
+
+# Generar la unidad correcta en la salida es responsabilidad del posprocesador y se realiza únicamente en ese momento.
+
+# La unidad de salida de la máquina es completamente independiente del esquema de unidades seleccionado.
+
+# Los posprocesadores generan salida métrica (G21), imperial (G20) o son configurables.
+
+# Los posprocesadores configurables utilizan por defecto el sistema métrico (G21).
+
+# Si desea que su posprocesador configurable genere código G imperial (G20), configure el argumento correspondiente en la configuración de salida de su trabajo (por ejemplo, `--inches` para LinuxCNC). Esto se puede guardar en una plantilla de trabajo y establecerla como plantilla predeterminada para que se aplique automáticamente a todos los trabajos futuros.
 
 <div class="mw-translate-fuzzy">
 Inspección de Path:
