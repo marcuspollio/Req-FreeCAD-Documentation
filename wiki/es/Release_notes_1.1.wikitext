@@ -528,9 +528,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 * Se ha añadido la función de zoom a la Hoja de cálculo. [https://github.com/FreeCAD/FreeCAD/pull/16130 Solicitud de extracción n.° 16130]
 * Se han agregado iconos a las entradas del menú contextual. [https://github.com/FreeCAD/FreeCAD/pull/22773 Solicitud de extracción n.° 22773]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Surface Workbench ==
-</div>
+<span id="Surface_Workbench"></span>
+== Ambiente de Trabajo de Superficie ==
 
 * Se agregó un panel de tareas para la herramienta [[Image:Surface_BlendCurve.svg|24px]] [[Surface_BlendCurve|Blend Curve]]. [https://github.com/FreeCAD/FreeCAD/pull/21825 Solicitud de extracción n.° 21825]
 
