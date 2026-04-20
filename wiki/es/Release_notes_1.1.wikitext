@@ -547,9 +547,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 * Se eliminaron las herramientas obsoletas [[Image:TechDraw_LandmarkDimension.svg|24px]] [[TechDraw_LandmarkDimension|LandmarkDimension]] y [[Image:TechDraw_LinkDimension.svg|24px]] [[TechDraw_LinkDimension|LinkDimension]]. [https://github.com/FreeCAD/FreeCAD/pull/21483 Solicitud de extracción n.° 21483]
 * Se agregaron las opciones de número con decimales y dimensión de referencia al panel de tareas [[Image:TechDraw_Dimension.svg|24px]] [[TechDraw_Dimension|dimension]]. [https://github.com/FreeCAD/FreeCAD/pull/23501 Solicitud de extracción n.° 23501]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Import and Export ==
-</div>
+<span id="Import_and_Export"></span>
+==Importar y Exportar ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The DXF importer was significantly redesigned at the implementation and user level for a more predictable and consistent user experience. [https://github.com/FreeCAD/FreeCAD/pull/22251 Pull Request #22251]
