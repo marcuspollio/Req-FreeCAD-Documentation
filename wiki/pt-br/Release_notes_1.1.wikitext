@@ -14,21 +14,17 @@ As notas de versão das versões anteriores do FreeCAD podem ser encontradas na 
 <span id="User_Interface"></span>
 == Interface do Usuário ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:Three_point_lighting_relnotes_1.1.png|384px]]
 | Three-point lighting was added to improve the rendering of 3D models.
 [https://github.com/FreeCAD/FreeCAD/pull/19397 Pull request #19397]
 |}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:Pref_search_relnotes_1.1.png|384px]]
 | Search bar was added to the [[Image:Std_DlgPreferences.svg|24px]] [[Preferences_Editor|Preferences Editor]].
 [https://github.com/FreeCAD/FreeCAD/pull/22002 Pull request #22002]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
