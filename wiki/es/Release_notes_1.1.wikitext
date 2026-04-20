@@ -96,8 +96,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 |}
 
 {| cellpadding=5
-| [[Archivo:Attachment_Placement_relnotes_1.1.png|384px]]
-| Si el [[Imagen:Part_EditAttachment.svg|24px]] [[Part_EditAttachment|Editor de adjuntos]] está abierto, el objeto 2D que se va a adjuntar muestra el origen y la orientación (propiedad "Mostrar ubicación"). Para los bocetos, también se muestra el plano del boceto (propiedad "Mostrar plano").
+| [[File:Attachment_Placement_relnotes_1.1.png|384px]]
+| Si el [[Image:Part_EditAttachment.svg|24px]] [[Part_EditAttachment|Editor de adjuntos]] está abierto, el objeto 2D que se va a adjuntar muestra el origen y la orientación (propiedad "Mostrar ubicación"). Para los bocetos, también se muestra el plano del boceto (propiedad "Mostrar plano").
 [https://github.com/FreeCAD/FreeCAD/pull/23368 Solicitud de extracción n.° 23368]
 |}
 
