@@ -58,9 +58,8 @@ As notas de versão das versões anteriores do FreeCAD podem ser encontradas na 
 * All MDI windows (including e.g. Spreadsheet and TechDraw) can now be undocked and set to fullscreen using shortcuts (''V'', ''U'' or ''F11'') or ''View → Document window'' menu option. [https://github.com/FreeCAD/FreeCAD/pull/22544 Pull request #22544]
 * The default list of workbenches is now shorter as rarely used workbenches are deactivated by default. This includes the Inspection, <none>, OpenSCAD, Robot and Test Framework workbenches. [https://github.com/FreeCAD/FreeCAD/pull/23034 Pull request #23034]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Core system and API ==
-</div>
+<span id="Core_system_and_API"></span>
+== Sistema central e API ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Core ===
