@@ -153,8 +153,8 @@ Esta sección es para los desarrolladores que quieren añadir localización a su
 
 Estas son las etapas del proceso de traducción de FreeCAD:
 * Extraer cadenas de texto del código fuente a archivos *.ts
-* Cargar archivos *.ts en [http://crowdin.net/project/freecad FreeCAD Crowdin].
-* Traducción de cadenas dentro de Crowdin
+* Cargar los archivos *.ts en [http://crowdin.net/project/freecad FreeCAD Crowdin].
+* Traducir las cadenas dentro de Crowdin
 * Extraer archivos *.ts modificados/nuevos de Crowdin
 * Convertir archivos *.ts a archivos *.qm y actualizar el archivo *.qrc de cada módulo
 * Actualizar el archivo maestro de FreeCAD
