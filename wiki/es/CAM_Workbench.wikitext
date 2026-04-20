@@ -35,11 +35,7 @@ Este paso se denomina ''postprocesamiento''; hay diferentes postprocesadores dis
 <span id="General_concepts"></span>
 == Conceptos generales ==
 
-<div class="mw-translate-fuzzy">
-==Conceptos generales==
-El ambiente de trabajo Trayectoria genera el codigo G definiendo las trayectorias requeridas para mecanizar el proyecto representado por el modelo 3D al mecanizado objetivo dentro del [[CAM_scripting#The_FreeCAD_Internal_GCode_Format/es|el dialeto del código G de las operaciones de ruta de FreeCAD]], el cual luego es traducida al apropiado dialeto para el controlador CNC seleccionando el pos procesador apropiado.
-El código G generado de directivas y operaciones contenidas en el objecto trabajo. El flujo de trabajo lista estos en el orden que seran ejecutados. La lista esta poblada por operaciones agregar trayectorias, enmascarado de trayectorias, comandos parciales de trayectorias y modificacion de trayectorias del menu de trayectoria o botones GUI.
-</div>
+El Entorno de Trabajo de Trayectoria genera código G que define las trayectorias necesarias para fresar el proyecto representado por el modelo 3D en la fresadora de destino en [[CAM_scripting#The_FreeCAD_Internal_GCode_Format|el dialecto de código G de FreeCAD para operaciones de trabajos CAM]], que posteriormente se traduce al dialecto apropiado para el controlador CNC de destino seleccionando el posprocesador adecuado.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The G-code is generated from directives and Operations contained in a CAM Job. The Job Workflow lists these in the order they will be executed. The list is populated by adding CAM Operations, Path Dressups, Supplemental Commands, and Path Modifications from the CAM Menu, or GUI buttons.
