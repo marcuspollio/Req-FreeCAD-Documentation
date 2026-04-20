@@ -454,9 +454,10 @@ Você precisará das seguintes bibliotecas dos repositórios oficiais:
 *{{incode|verdict}}
 *{{incode|xerces-c}}
 *{{incode|yaml-cpp}}
+*{{incode|fast_float}}
 
 {{Code|code=
-sudo pacman -S --needed --asdeps blosc boost boost-libs cmake coin curl desktop-file-utils eigen fmt git glew hicolor-icon-theme jsoncpp libspnav med netcdf ninja nlohmann-json opencascade pybind11 pyside6 pyside6-tools python-lark-parser python-matplotlib  python-packaging python-pivy python-ply qt6-svg qt6-tools qt6-base qt6-5compat shared-mime-info shiboken6 swig vtk xerces-c yaml-cpp 
+sudo pacman -S --needed --asdeps blosc boost boost-libs cmake coin curl desktop-file-utils eigen fmt git glew hicolor-icon-theme jsoncpp libspnav med netcdf ninja nlohmann-json opencascade pybind11 pyside6 pyside6-tools python-lark-parser python-matplotlib  python-packaging python-pivy python-ply qt6-svg qt6-tools qt6-base qt6-5compat shared-mime-info shiboken6 swig vtk xerces-c yaml-cpp fast_float 
 }}
 
 </div>
