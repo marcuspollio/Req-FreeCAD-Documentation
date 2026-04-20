@@ -1,6 +1,8 @@
 <languages/>
-{{clear}}
+
 {{VeryImportantMessage|Flamingo Workbench (Python2/Qt4) has been superseded by the Dodo Workbench (Python3/Qt5). This wiki page will highlight the differences between these two workbenches. Currently [[Dodo_Workbench|Dodo Workbench]] links here.}}
+
+{{VeryImportantMessage|As of 2024, the Dodo Workbench has been superseded by the [[Quetzal Workbench]].}}
 
 ==Introduction==
 
@@ -20,7 +22,7 @@ For convenience Flamingo/Dodo tools are grouped in three toolbars/menus + one ut
 
 [[Image:dodoBlob.png|left]]{{clear}}
 
-:* '''Frame tools''': that is aimed to arrange frames, trusses and similar in FreeCAD using the Structure objects of Arch module. .../flamingo/tutorials/tutorialFrame.pdf
+:* '''Frame tools''': is designed to arrange frames, trusses, and similar. It uses Structure objects from the Arch module. .../flamingo/tutorials/tutorialFrame.pdf
 :* '''Pype tools''': that's the logical continuation of frame tool since it deals with creating pipelines and tubular structures. It also features its own Python classes to create the piping objects, such as tubes, elbows, flanges etc. .../flamingo/tutorials/tutorialPype2.pdf
 :* '''Eagle tools''': that's basically an addition, and shortcut, to the very professional [https://github.com/marmni/FreeCAD-PCB FreeCAD-PCB] workbench (also available in the FreeCAD's add-on repository) to import position of objects from a .brd Eagle's file on a PCB drawn in FreeCAD with the a.m. workbench relating only on their names. It's also the origin, by extension, of the name of the entire workbench. .../flamingo/tutorials/tutorialEagle.pdf
 :* '''Utils''' toolbar provides some functionality to query the objects in the model and their distance, to move/rotate the work plane and a little hack of the [[Draft_Wire|Draft Wire]] creation dialog, which allow to change the work plane position on-the-fly.
@@ -448,7 +450,7 @@ The friction coefficient is calculated for each straight tube and elbow. For oth
 ==Links==
 
 * Forum: [https://forum.freecad.org/viewtopic.php?f=8&t=17035 New workbench for metal structures] (announcement)
-* Forum: [https://forum.freecad.org/viewtopic.php?t=22711 Flamingo & Dodo workbench(s) discussion thread]
+* Forum: [https://forum.freecad.org/viewtopic.php?t=22711 Flamingo, Dodo and Quetzal workbenches discussion thread]
 * Tutorials: [https://github.com/oddtopus/flamingo/tree/master/tutorials flamingo/tutorials]
 
 * Video tutorials: 
@@ -467,14 +469,6 @@ The friction coefficient is calculated for each straight tube and elbow. For oth
 * [https://www.freecad.org/addons.php Addons]
 * [https://wiki.opensourceecology.org/wiki/OSE_Piping_Workbench OSE-Piping-Workbench: to create extra pipe fittings]
 
-
-== External workbenches ==
-
-FreeCAD workbenches are easy to program in [[Python|Python]], there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
-
-The [[external workbenches|external workbenches]] page has some information and tutorials on some of them, and the [https://github.com/FreeCAD/FreeCAD-addons FreeCAD Addons] project aims at gathering them and making them easily installable from within FreeCAD.
-
-New workbenches are in development, stay tuned!
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
