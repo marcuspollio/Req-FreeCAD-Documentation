@@ -23,7 +23,7 @@ Los comandos se pueden definir tanto en C++ como en Python.
 <span id="Commands_defined_in_C++"></span>
 == Comandos definidos en C++ ==
 
-Example of a C++ command definition, usually defined following the structure {{FileName|Mod/ModuleName/Gui/Command.cpp}}.
+Ejemplo de definición de comando C++, generalmente definida siguiendo la estructura {{FileName|NombreMódulo/Gui/Comando.cpp}}.
 
 {{Code|lang=cpp|code=
 DEF_STD_CMD_A(StdCmdMyCommand);
