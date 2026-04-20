@@ -114,9 +114,7 @@ Algunos comandos son experimentales y no están disponibles de forma predetermin
 <span id="Project_Commands"></span>
 === Comandos del proyecto ===
 
-<div class="mw-translate-fuzzy">
-* [[Image:CAM_Job.svg|32px]] [[CAM_Job/es|Trabajo]]:  Crea un nuevo trabajo CNC.
-</div>
+* [[Image:CAM_Job.svg|32px]] [[CAM_Job|Nuevo trabajo]]: Crea un nuevo trabajo CNC.
 
 <div class="mw-translate-fuzzy">
 * [[Image:CAM_Post.svg|32px]] [[CAM_Post/es|Post Process]]: Exporta un proyecto a código G.
