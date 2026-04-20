@@ -73,9 +73,9 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 |}
 
 {| cellpadding=5
-| [[Archivo:Std_Transform_Manip_relnotes_1.1.gif|384px]]</br>Haz clic en la imagen si la animación no se inicia.
+| [[File:Std_Transform_Manip_relnotes_1.1.gif|384px]]</br>Haz clic en la imagen si la animación no se inicia.
 
-| La herramienta [[Imagen:Std_TransformManip.svg|24px]] [[Std TransformManip|Transformación]] se ha renovado y ahora permite entradas precisas además de arrastrar en la vista 3D. Es posible alinear el arrastrador interactivo con cualquier elemento del documento y transformar el objeto en el sistema de coordenadas local (U, V, W) del arrastrador, o en el sistema de coordenadas global del documento. El arrastrador se puede alinear con el origen del objeto, como antes, y también con su centro de masas. Incluye una nueva función para mover el objeto (en la posición del arrastrador) a una ubicación de destino en el documento e invertir su orientación. Consulta todas las [[Std_TransformManip#Opciones|nuevas opciones]].
+| La herramienta [[Image:Std_TransformManip.svg|24px]] [[Std TransformManip|Transformación]] se ha renovado y ahora permite entradas precisas además de arrastrar en la vista 3D. Es posible alinear el arrastrador interactivo con cualquier elemento del documento y transformar el objeto en el sistema de coordenadas local (U, V, W) del arrastrador, o en el sistema de coordenadas global del documento. El arrastrador se puede alinear con el origen del objeto, como antes, y también con su centro de masas. Incluye una nueva función para mover el objeto (en la posición del arrastrador) a una ubicación de destino en el documento e invertir su orientación. Consulta todas las [[Std_TransformManip#Opciones|nuevas opciones]].
 [https://github.com/FreeCAD/FreeCAD/pull/17564 Solicitud de extracción n.° 17564]
 |}
 
