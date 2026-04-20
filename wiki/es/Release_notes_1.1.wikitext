@@ -138,11 +138,10 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 
 == Start ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The Start page can now display the contents of additional folders specified by the user. Their paths should be separated by double semicolons ({{Incode|;;}}). [https://github.com/FreeCAD/FreeCAD/pull/19473 Pull request #19473], [https://github.com/FreeCAD/FreeCAD/pull/19918 Pull request #19918] and [https://github.com/FreeCAD/FreeCAD/pull/19948 Pull request #19948].
-* The Examples section on the Start page can be hidden with a setting in the preferences. [https://github.com/FreeCAD/FreeCAD/pull/19376 Pull request #19376] and [https://github.com/FreeCAD/FreeCAD/pull/19918 Pull request #19918].
-* Previews (thumbnails) for more 3D model formats (such as STEP and STL) are now displayed in the Recent Files and Examples sections of the Start page if F3D viewer is installed and added to system PATH. [https://github.com/FreeCAD/FreeCAD/pull/19489 Pull request #19489]
-</div>
+* La página de inicio ahora puede mostrar el contenido de carpetas adicionales especificadas por el usuario. Sus rutas deben estar separadas por dos puntos y coma ({{Incode|;;}}). [https://github.com/FreeCAD/FreeCAD/pull/19473 Solicitud de extracción n.° 19473], [https://github.com/FreeCAD/FreeCAD/pull/19918 Solicitud de extracción n.° 19918] y [https://github.com/FreeCAD/FreeCAD/pull/19948 Solicitud de extracción n.° 19948].
+
+* La sección Ejemplos de la página de inicio se puede ocultar mediante una configuración en las preferencias. [https://github.com/FreeCAD/FreeCAD/pull/19376 Solicitud de extracción n.° 19376] y [https://github.com/FreeCAD/FreeCAD/pull/19918 Solicitud de extracción n.° 19918].
+* Las vistas previas (miniaturas) para más formatos de modelos 3D (como STEP y STL) ahora se muestran en las secciones Archivos recientes y Ejemplos de la página de inicio si el visor F3D está instalado y agregado a la variable de entorno PATH del sistema. [https://github.com/FreeCAD/FreeCAD/pull/19489 Solicitud de extracción n.° 19489]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Addon Manager ==
