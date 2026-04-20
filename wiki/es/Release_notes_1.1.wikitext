@@ -397,15 +397,13 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="Further_Material_improvements"></span>
 === Mejoras adicionales en el material ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Several new materials with physical properties were added to the material database:
-** [https://en.wikipedia.org/wiki/Polycarbonate Polycarbonate] [https://github.com/FreeCAD/FreeCAD/pull/19432 Pull request #19432]
-** [https://en.wikipedia.org/wiki/Poly(methyl_methacrylate) PMMA] [https://github.com/FreeCAD/FreeCAD/pull/24006 Pull request #24006]
-** Homopolymer and copolymer [https://en.wikipedia.org/wiki/Polyoxymethylene POM] [https://github.com/FreeCAD/FreeCAD/pull/23820 Pull request #23820]
-** [https://en.wikipedia.org/wiki/Polyether_ether_ketone PEEK] [https://github.com/FreeCAD/FreeCAD/pull/23779 Pull request #23779]
-** [https://en.wikipedia.org/wiki/7075_aluminium_alloy Aluminum 7075-T6] [https://github.com/FreeCAD/FreeCAD/pull/23976 Pull request #23976]
-** Updated [https://en.wikipedia.org/wiki/6061_aluminium_alloy Aluminum 6061-T6] [https://github.com/FreeCAD/FreeCAD/pull/23977 Pull request #23977]
-</div>
+* Se añadieron varios materiales nuevos con propiedades físicas a la base de datos de materiales:
+** [https://en.wikipedia.org/wiki/Polycarbonate] [https://github.com/FreeCAD/FreeCAD/pull/19432 Solicitud de extracción n.º 19432]
+** [https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)] [https://github.com/FreeCAD/FreeCAD/pull/24006 Solicitud de extracción n.º 24006]
+** Homopolímero y copolímero [https://en.wikipedia.org/wiki/Polyoxymethylene] [https://github.com/FreeCAD/FreeCAD/pull/23820 Solicitud de extracción n.º 23820]
+** [https://en.wikipedia.org/wiki/Polyether_ether_ketone] [https://github.com/FreeCAD/FreeCAD/pull/23779 Solicitud de extracción n.º 23779]
+** [https://en.wikipedia.org/wiki/7075_aluminium_alloy Aluminio 7075-T6] [https://github.com/FreeCAD/FreeCAD/pull/23976 Solicitud de extracción n.° 23976]
+** Actualizado [https://en.wikipedia.org/wiki/6061_aluminium_alloy Aluminio 6061-T6] [https://github.com/FreeCAD/FreeCAD/pull/23977 Solicitud de extracción n.° 23977]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Part Workbench ==
