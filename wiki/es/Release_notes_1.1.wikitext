@@ -411,12 +411,10 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="Further_Part_improvements"></span>
 === Mejoras adicionales en Piezas ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The [[Image:Part_ToleranceSet.svg|24px]] [[Part_ToleranceSet|Set Tolerance]] tool was added to allow the creation of parametric copies of the selected objects with all contained tolerances set to at least a certain minimum value. Moreover, the [[Image:Part_CheckGeometry.svg|24px]] [[Part_CheckGeometry|Check geometry]] tool now includes output about tolerances in the Shape Content tab. [https://github.com/FreeCAD/FreeCAD/pull/17214 Pull request #17214]
-* The [[Image:Part_CheckGeometry.svg|24px]] [[Part_CheckGeometry|Check geometry]] tool now also has results entries for valid shapes, shows skipped objects and generates reports in the [[Report_view|report view]]. [https://github.com/FreeCAD/FreeCAD/pull/17631 Pull request #17631]
-* [[Image:Part_Loft.svg|24px]] [[Part_Loft|Loft]] and [[Image:Part_Sweep.svg|24px]] [[Part_Sweep|Sweep]] now create solids by default. [https://github.com/FreeCAD/FreeCAD/pull/22098 Pull request #22098]
-* The redundant [[Image:Part_Import.svg|24px]] [[Part_Import|Part Import]] and [[Image:Part_Export.svg|24px]] [[Part_Export|Part Export]] tools were removed from the menu. [https://github.com/FreeCAD/FreeCAD/pull/22116 Pull request #22116]
-</div>
+* Se agregó la herramienta [[Image:Part_ToleranceSet.svg|24px]] [[Part_ToleranceSet|Establecer tolerancia]] para permitir la creación de copias paramétricas de los objetos seleccionados con todas las tolerancias establecidas a un valor mínimo determinado. Además, la herramienta [[Image:Part_CheckGeometry.svg|24px]] [[Part_CheckGeometry|Comprobar geometría]] ahora incluye información sobre las tolerancias en la pestaña Contenido de la forma. [https://github.com/FreeCAD/FreeCAD/pull/17214 Solicitud de extracción n.° 17214]
+* La herramienta [[Image:Part_CheckGeometry.svg|24px]] [[Part_CheckGeometry|Comprobar geometría]] ahora también incluye entradas de resultados para formas válidas, muestra los objetos omitidos y genera informes en la [[Report_view|Vista de informe]]. [https://github.com/FreeCAD/FreeCAD/pull/17631 Solicitud de extracción n.° 17631]
+* Las herramientas [[Image:Part_Loft.svg|24px]] [[Part_Loft|Loft]] y [[Image:Part_Sweep.svg|24px]] [[Part_Sweep|Sweep]] ahora crean sólidos por defecto. [https://github.com/FreeCAD/FreeCAD/pull/22098 Solicitud de extracción n.° 22098]
+* Las herramientas redundantes [[Image:Part_Import.svg|24px]] [[Part_Import|Part Import]] y [[Image:Part_Export.svg|24px]] [[Part_Export|Part Export]] se eliminaron del menú. [https://github.com/FreeCAD/FreeCAD/pull/22116 Solicitud de extracción n.° 22116]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Part Design Workbench ==
