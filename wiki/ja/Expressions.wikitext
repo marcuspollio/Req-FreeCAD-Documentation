@@ -536,9 +536,8 @@ See [[#Supported_operators|Supported operators]] for the available [https://en.w
 === Notes ===
 </div>
 
-<div class="mw-translate-fuzzy">
-ブール型プロパティを条件の式に入れる場合、{{incode|VarSet.MyBool &#61;&#61; 1 ? 10 mm : 15 mm}}のように書く必要があることに注意してください。
-</div>
+* {{VersionMinus|1.0}}: ブール型プロパティを条件の式に入れる場合、{{incode|VarSet.MyBool &#61;&#61; 1 ? 10 mm : 15 mm}}のように書く必要があることに注意してください。
+* {{VersionPlus|1.1}}: ブール型プロパティを条件の式に入れる場合、{{incode|VarSet.MyBool ? 10 mm : 15 mm}}のように書く必要があることに注意してください。
 {{Top}}
 <span id="Units"></span>
 == 単位 ==
