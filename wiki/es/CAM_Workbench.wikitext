@@ -302,9 +302,13 @@ Gestiona herramientas, brocas y la biblioteca de herramientas. Basado en la arqu
 <span id="Other"></span>
 == Otros ==
 
-<div class="mw-translate-fuzzy">
-El ambiente de trabajo comparte muchos conceptos con otros paquetes de programas CAM pero tienen sus propias peculiaridades. Si algo va mal, este es un buen lugar para empezar.
-</div>
+* [[CAM_FAQ|Preguntas frecuentes sobre CAM]]: El entorno de trabajo CAM comparte muchos conceptos con otros paquetes de software CAM, pero tiene sus propias particularidades. Si algo parece incorrecto, este es un buen punto de partida.
+
+* [[CAM_SetupSheet|Hoja de configuración de CAM]]: Puede usar una hoja de configuración para personalizar cómo se calculan los distintos valores de las propiedades de las operaciones.
+
+* [[CAM_Postprocessor_Customization|Personalización del posprocesador de CAM]]: Si tiene una máquina especial que no puede usar uno de los posprocesadores disponibles, es posible que deba escribir su propio posprocesador.
+
+* [[CAM_fourth_axis|Cuarto eje de CAM]]: Fresado experimental de cuatro ejes.
 
 <span id="Preferences"></span>
 <div class="mw-translate-fuzzy">
