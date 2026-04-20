@@ -295,10 +295,9 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 |}
 
 {| cellpadding=5
-| [[Archivo:FEM_current_conduction_relnotes_1.1.png|384px]]
-| Se agregó compatibilidad con el [[Imagen:FEM_EquationStaticCurrent.svg|24px]] [[FEM_EquationStaticCurrent|solucionador de conducción de corriente estática]] de Elmer. También se puede calcular el calentamiento Joule con él.
-
-[https://github.com/FreeCAD/FreeCAD/pull/19835 Solicitud de extracción n.° 19835]
+| [[File:FEM_current_conduction_relnotes_1.1.png|384px]]
+| Support for Elmer's [[Image:FEM_EquationStaticCurrent.svg|24px]] Se añadió el [[FEM_EquationStaticCurrent|solucionador de conducción de corriente estática]]. Con ello también se puede calcular el calentamiento Joule.
+[https://github.com/FreeCAD/FreeCAD/pull/19835 Pull request #19835]
 |}
 
 {| cellpadding=5
