@@ -60,7 +60,7 @@ La funcionalidad de FreeCAD está separada en Módulos que tratan con tipos de d
 * [[Mesh to Part/es|Malla a Pieza]]: Conversión entre tipos de objetos
 
 <span id="Accessing_the_Coin_scenegraph"></span>
-====Accediendo los gráficos de escena Coin===
+=== Accediendo a los gráficos de escena Coin ==
 
 * [[Scenegraph/es|Los gráficos de escena de Coin/Inventor]]: Cómo funciona la escenografía FreeCAD
 * [[Pivy/es|Pivy]]: Cómo acceder y modificar las escenografías
