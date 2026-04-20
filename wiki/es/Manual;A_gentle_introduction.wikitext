@@ -94,7 +94,7 @@ doc.recompute()
 
 Ahora nuestra caja ha aparecido en la vista 3D. Muchos de los botones de la barra de herramientas para añadir objetos en FreeCAD realizan dos acciones: añadir el objeto y recalcular. Intente ahora añadir una esfera con el botón correspondiente en el Entorno de trabajo (Part Workbench) de piezas y verá cómo se ejecutan las dos líneas de código Python una tras otra.
 
-[[Archivo:FreeCAD python Sphere.png]]
+[[File:FreeCAD python Sphere.png]]
 
 Puedes obtener una lista de todos los tipos de objetos posibles como Part::Box:
 
