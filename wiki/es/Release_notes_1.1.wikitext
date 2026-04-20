@@ -328,7 +328,7 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 |}
 
 {| cellpadding=5
-| [[Archivo:FEM_Electrostatic_ccx_relnotes_1.1.PNG|384px]]
+| [[File:FEM_Electrostatic_ccx_relnotes_1.1.PNG|384px]]
 | Ahora se admiten análisis electrostáticos (incluidos los 2D) con el objeto de solucionador CalculiX recientemente refactorizado [[Imagen:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools|Objeto de solucionador CalculiX]].
 
 [https://github.com/FreeCAD/FreeCAD/pull/21197 Solicitud de extracción n.° 21197]
