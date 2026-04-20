@@ -65,13 +65,12 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="Core"></span>
 === Núcleo ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:Core_datums_relnotes_1.1.png|384px]]
-| [[Image:Part CoordinateSystem.svg|24px]] [[Std_Base#Part_Datums|Core Datum tools]] were implemented to create coordinate systems, datum planes, datum lines and datum points which can be attached and also used in Assembly.
-[https://github.com/FreeCAD/FreeCAD/pull/18332 Pull request #18332]
+| [[Archivo:Core_datums_relnotes_1.1.png|384px]]
+| [[Imagen:Part CoordinateSystem.svg|24px]] Las herramientas de referencia básica [[Std_Base#Part_Datums|Herramientas de referencia básica]] se han implementado para crear sistemas de coordenadas, planos de referencia, líneas de referencia y puntos de referencia que se pueden adjuntar y utilizar en ensamblajes.
+
+[https://github.com/FreeCAD/FreeCAD/pull/18332 Solicitud de extracción n.° 18332]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
