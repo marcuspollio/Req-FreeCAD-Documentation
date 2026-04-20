@@ -301,8 +301,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 |}
 
 {| cellpadding=5
-| [[Archivo:FEM_Electric_charge_relnotes_1.1.PNG|384px]]
-| [[Imagen:FEM_ConstraintElectricChargeDensity.svg|24px]] Se agregó la carga [[FEM_ElectricChargeDensity|Densidad de carga eléctrica]] para usarla con la [[FEM_EquationElectrostatic|Ecuación electrostática]] de Elmer.
+| [[File:FEM_Electric_charge_relnotes_1.1.PNG|384px]]
+|[[Imagen:FEM_ConstraintElectricChargeDensity.svg|24px]] Se agregó la carga [[FEM_ElectricChargeDensity|Densidad de carga eléctrica]] para su uso con la [[FEM_EquationElectrostatic|Ecuación electrostática]] de Elmer.
 
 [https://github.com/FreeCAD/FreeCAD/pull/20494 Solicitud de extracción n.° 20494]
 |}
