@@ -138,9 +138,7 @@ Nawet tutaj nie ma nic zbyt ekscytującego. Warto jednak zwrócić uwagę na kil
 
 Co teraz zrobić z tą geometrią?
 
-<div class="mw-translate-fuzzy">
-Wprowadźmy operacje logiczne. Jako przykład początkowy umieść te linie po {{incode|my_cyl}}, to utworzy metodę dla operacji '''Fusion''' znanej również jako '''Union''':
-</div>
+Wprowadźmy operacje logiczne. Jako przykład początkowy umieść te linie po {{incode|my_cyl}}. To utworzy funkcję dla operacji '''Fusion''' znanej również jako '''Union''':
 
 {{Code|code=
 def fuse_obj(name, obj_0, obj_1):
