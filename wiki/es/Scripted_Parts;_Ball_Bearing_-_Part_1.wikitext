@@ -18,21 +18,21 @@ Tendrá este aspecto:<br />
 [[Imagen:Tutorial_BallBearing01.jpg|400px]]
 
 
-===Workflow===
-The workflow is more or less identical how you would create the part in part workbench.<br />
-Just some small differences.<br />
-*Create a new empty document and make it the active document
-*Insert Cylinder
-*Insert Cylinder
-*Do boolean cut to get basic shape of inner ring
-*Select all edges and apply a fillet
-*Insert torus
-*Move torus into position and do a boolean cut to create the groove for the balls
-*Repeat all steps for getting the shape for the outer ring
-*Insert first ball
-*Insert other balls using math to calculate the position of the balls
-*Set view to axometric
-*Zoom to fit all
+===Flujo de trabajo===
+El flujo de trabajo es prácticamente idéntico al de crear la pieza en el Entorno de Trabajo de Piezas.<br />
+Solo hay algunas pequeñas diferencias.<br />
+*Crear un nuevo documento vacío y conviértalo en el documento activo.
+*Insertar cilindro.
+*Insertar cilindro.
+*Realizar un corte booleano para obtener la forma básica del anillo interior.
+*Seleccionar todos los bordes y aplicar un redondeo.
+*Insertar toroide.
+*Mover el toroide a su posición y realizar un corte booleano para crear la ranura para las bolas.
+*Repetir todos los pasos para obtener la forma del anillo exterior.
+*Insertar la primera bola.
+*Insertar las demás bolas utilizando cálculos matemáticos para determinar su posición.
+*Establecer la vista en axométrica.
+*Ajustar el zoom para que se vea todo.
 
 
 ===Filleting edges===
