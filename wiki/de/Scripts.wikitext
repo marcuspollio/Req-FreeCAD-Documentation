@@ -177,9 +177,7 @@ Das Skript über den grünen Pfeil starten, und man sieht in der 3D-Ansicht etwa
 
 Das Platzierungskonzept ist relativ komplex, siehe [[Aeroplane/de|Aeroplane Tutorium]] für eine ausführlichere Erklärung.
 
-<div class="mw-translate-fuzzy">
-Normalerweise ist es notwendig, dass sich die Geometrien gegenseitig respektieren. Beim Bau komplexer Objekte ist dies eine wiederkehrende Aufgabe, am häufigsten wird die Geometrie {{incode|Placement}} Eigenschaft verwendet.
-</div>
+Normalerweise ist es notwendig, dass sich die Geometrien gegenseitig respektieren. Beim Bau komplexer Objekte ist dies eine wiederkehrende Aufgabe. Am häufigsten wird dazu die Geometrie-Eigenschaft {{incode|Placement}} verwendet.
 
 <div class="mw-translate-fuzzy">
 FreeCAD bietet eine große Auswahl an Möglichkeiten, diese Eigenschaft zu setzen, eine ist mehr auf eine andere zugeschnitten, abhängig vom Wissen und dem Hintergrund des Benutzers, aber je klarer das Schreiben im zitierten Tutoriumerklärt wird, verwendet es eine eigentümliche Definition des {{incode|Rotation}} Anteils von {{incode|Placement}}, recht einfach zu erlernen.
