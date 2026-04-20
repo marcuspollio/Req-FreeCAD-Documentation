@@ -13,9 +13,7 @@ FreeCAD emplea un enfoque de modelado paramétrico, donde la geometría de los o
 
 En FreeCAD, los objetos paramétricos son en esencia pequeños scripts programables que se ejecutan al modificar cualquier parámetro. Estos parámetros pueden variar ampliamente, incluyendo números enteros y de coma flotante, valores dimensionales reales como: milímetros, metros o pies, coordenadas (expresadas como x, y, z), cadenas de texto e incluso referencias a otros objetos. Esta versatilidad en los parámetros permite la creación de modelos complejos mediante una serie de operaciones encadenadas, donde cada nuevo objeto deriva sus características de uno anterior, a la vez que introduce atributos adicionales.
 
-<div class="mw-translate-fuzzy">
-En el siguiente ejemplo, un objeto sólido y cúbico (Pastilla) se basa en una forma 2D rectangular (Croquis) y tiene una distancia de extrusión. Con estas dos propiedades, produce una forma sólida extruyendo la forma base por la distancia dada. A continuación, puede utilizar este objeto como base para otras operaciones, como dibujar una nueva forma 2D en una de sus caras (Sketch001) y luego hacer una sustracción (Cajera), hasta llegar a su objeto final.
-</div>
+Por ejemplo, consideremos la creación de un objeto cúbico sólido mediante modelado paramétrico. Se parte de una forma rectangular básica en 2D, denominada «placa», con longitud '''l''' y anchura '''a'''. Este boceto define la base del objeto cúbico. A continuación, se define una operación de «Extrusión» o «Extrusión de relleno», especificando la distancia a la que se empujará o tirará del boceto para convertirlo en un objeto 3D. El resultado final es una forma cúbica sólida basada en la forma del boceto y la distancia de extrusión especificada.
 
 [[Image:FreeCAD_022_PArametricDesignPlate.png]]
 
