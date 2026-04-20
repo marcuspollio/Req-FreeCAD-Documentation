@@ -175,9 +175,7 @@ Lancez le script avec la flèche verte et vous verrez dans la vue 3D quelque cho
 
 Le concept de placement est relativement complexe, voir [[Aeroplane/fr|tutoriel avion]] pour une explication plus approfondie.
 
-<div class="mw-translate-fuzzy">
-Nous avons généralement besoin de placer des géométries respectueuses les unes des autres, lorsque la construction d'un objet complexe est une tâche récurrente, le moyen le plus courant est d'utiliser la propriété geometry {{incode|Placement}}.
-</div>
+Nous avons généralement besoin de placer des géométries respectueuses les unes des autres, lorsque la construction d'un objet complexe est une tâche récurrente. Le moyen le plus courant est d'utiliser la propriété de géométrie {{incode|Placement}}.
 
 <div class="mw-translate-fuzzy">
 FreeCAD offre un large choix de moyens pour définir cette propriété, l'un est plus adapté à l'autre en fonction des connaissances et du parcours de l'utilisateur, mais plus l'écriture est simple et expliquée dans le Tutoriel cité, plus il utilise une définition particulière de la partie {{incode|Rotation}} de {{incode|Placement}}, assez facile à apprendre.
