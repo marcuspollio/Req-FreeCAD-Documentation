@@ -158,11 +158,9 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="Assembly_Workbench"></span>
 == Banco de trabajo de ensamblaje ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The [[Image:Assembly_InsertNewPart.svg|24px]] [[Assembly_InsertNewPart|Insert a new part]] tool was added making it possible to easily add new parts to assembly. [https://github.com/FreeCAD/FreeCAD/pull/17922 Pull request #17922]
-* The [[Image:Assembly_CreateSimulation.svg|24px]] [[Assembly_CreateSimulation|Create Simulation]] tool was added making it possible to add motions to joints and create animations. [https://github.com/FreeCAD/FreeCAD/pull/16414 Pull request #16414]
-* The [[Image:Assembly_CreateBom.svg|24px]] [[Assembly_CreateBom|Bill Of Materials (BOM)]] command can now output the values of given properties. [https://github.com/FreeCAD/FreeCAD/pull/20732 Pull request #20732]
-</div>
+* Se agregó la herramienta [[Image:Assembly_InsertNewPart.svg|24px]] [[Assembly_InsertNewPart|Insertar una nueva pieza]], lo que permite agregar fácilmente nuevas piezas a un ensamblaje. [https://github.com/FreeCAD/FreeCAD/pull/17922 Solicitud de extracción n.° 17922]
+* Se agregó la herramienta [[Image:Assembly_CreateSimulation.svg|24px]] [[Assembly_CreateSimulation|Crear simulación]], lo que permite agregar movimientos a las articulaciones y crear animaciones. [https://github.com/FreeCAD/FreeCAD/pull/16414 Solicitud de extracción n.° 16414]
+* El comando [[Imagen:Assembly_CreateBom.svg|24px]] [[Assembly_CreateBom|Lista de materiales (BOM)]] ahora puede mostrar los valores de las propiedades especificadas. [https://github.com/FreeCAD/FreeCAD/pull/20732 Solicitud de extracción n.° 20732]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Further Assembly improvements ===
