@@ -318,13 +318,12 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 [https://github.com/FreeCAD/FreeCAD/pull/19610 Solicitud de extracción n.° 19610]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:FEM_Calculator_relnotes_1.1.png|384px]]
-| [[Image:FEM_PostFilterCalculator.svg|24px]] [[FEM_PostFilterCalculator|Calculator filter]] was added to allow the creation of custom fields by defining mathematical expression operating on the existing fields.
-[https://github.com/FreeCAD/FreeCAD/pull/20286 Pull request #20286]
+| [[Archivo:FEM_Calculator_relnotes_1.1.png|384px]]
+| [[Imagen:FEM_PostFilterCalculator.svg|24px]] [[FEM_PostFilterCalculator|Filtro de calculadora]] se agregó para permitir la creación de campos personalizados mediante la definición de expresiones matemáticas que operan sobre los campos existentes.
+
+[https://github.com/FreeCAD/FreeCAD/pull/20286 Solicitud de extracción n.° 20286]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
