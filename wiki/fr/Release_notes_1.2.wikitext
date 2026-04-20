@@ -122,7 +122,6 @@ ToDo (last check: 20260412):
 <span id="Further_CAM_improvements"></span>
 === Autres améliorations de CAM ===
 
-<div class="mw-translate-fuzzy">
 * La boîte de dialogue d'exportation du G-code affiche désormais les numéros de ligne. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull request #23862]
 * L'opération « MillFace » a été réimplémentée avec des améliorations significatives sous le nom de « MillFacing ». [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull request #24367]
 * [[CAM_SimpleCopy/fr|Copie simple]] permet désormais la sélection multiple d'opérations. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull request #24297]
@@ -150,7 +149,9 @@ ToDo (last check: 20260412):
 * L'outil [[CAM_SelectLoop/fr|Sélectionner une boucle]] a été amélioré et renvoie désormais la polyligne si une ou plusieurs arêtes ont été sélectionnées et que les autres méthodes ont échoué. [https://github.com/FreeCAD/FreeCAD/pull/24185 Pull request #24185]
 * Une fonction de refroidissement a été ajoutée au post-processeur Kinetic. [https://github.com/FreeCAD/FreeCAD/pull/25022 Pull request #25022]
 * La propriété ''Units'' (métrique/impériale) a été ajoutée aux outils coupants. [https://github.com/FreeCAD/FreeCAD/pull/25783 Pull request #25783]
-</div>
+* Le [[CAM_SimulatorGL/fr|nouveau simulateur de CAM]] utilise désormais le même mode d'affichage orthographique/perspective et le même style de navigation que la [[3D_View/fr|vue 3D]]. [https://github.com/FreeCAD/FreeCAD/pull/23073 Pull request #23073]
+* L'opération [[CAM_Pocket_Shape/fr|Poche]] peut désormais gérer les arêtes horizontales en plus des faces. [https://github.com/FreeCAD/FreeCAD/pull/27750 Pull request #27750]
+* La propriété ''Op Final Depth'' de l'opération [[CAM_Engrave/fr|Gravure]] dispose désormais d'une meilleure valeur par défaut en fonction du brut et de la forme de la gravure. [https://github.com/FreeCAD/FreeCAD/pull/26543 Pull request #26543]
 
 <span id="Draft_Workbench"></span>
 == Atelier Draft ==
