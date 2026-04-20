@@ -5,7 +5,7 @@
 
 Este es un ejemplo de [[Dialog_creation|creación de diálogo]] con [[PySide|PySide]].
 
-In this example, the entire interface is defined in [[Python|Python]]. Although this is possible for small interfaces, for larger interfaces the recommendation is to create {{FileName|.ui}} files through Qt Designer, and load these in the program.
+En este ejemplo, toda la interfaz está definida en [[Python|Python]]. Si bien esto es posible para interfaces pequeñas, para interfaces más grandes se recomienda crear archivos {{FileName|.ui}} a través de Qt Designer y cargarlos en el programa.
 
 ==Dialog with image (QLabel) and animated GIF (QMovie) ==
 
