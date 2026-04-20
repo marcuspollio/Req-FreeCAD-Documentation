@@ -29,24 +29,22 @@ Image:Qt_Example_01.png|Detalles del ejemplo de Qt
 
 Son tratados :
 
-<div class="mw-translate-fuzzy">
-# '''icon for window''' : El icono que aparece en la ventana principal
-# '''horizontalSlider''' : deslizador horizontal su conexión y extracción de datos / asignación
-# '''progressBar horizontal''' : barra de progreso horizontal su conexión y extracción de datos / asignación
-# '''verticalSlider''' : deslizador vertical su conexión y extracción / asignación de datos
-# '''progressBar vertical''' : barra de progreso vertical su conexión y extracción de datos / asignación
-# '''lineEdit''' : línea editar su conexión y extracción de datos / asignación
-# '''lineEdit''' : línea editar su conexión y extracción de datos / asignación
-# '''doubleSpinBox''' : doble spinbox su conexión y extracción de datos / asignación
-# '''doubleSpinBox''' : 
-# '''doubleSpinBox''' :
-# '''buttom''' : buttom its connection
-# '''buttom''' :
-# '''radioButtom''' : botón de radio con iconos su conexión y comprobado
-# '''checkBox''' : casilla con el icono de su conexión marcada y desmarcada
-# '''textEdit''' : texto editar su conexión y extracción de datos / asignación
-# '''graphicsView''' : vista gráfica con 2 gráficos y método utilizado para cambiar la imagen
-</div> 
+# '''icono para ventana''': El icono que se muestra en la ventana principal
+# '''deslizador horizontal''': Deslizador horizontal, su conexión y extracción/asignación de datos
+# '''barra de progreso horizontal''': Barra de progreso horizontal, su conexión y extracción/asignación de datos
+# '''deslizador vertical''': Deslizador vertical, su conexión y extracción/asignación de datos
+# '''barra de progreso vertical''': Barra de progreso vertical, su conexión y extracción/asignación de datos
+# '''edición de línea''': Edición de línea, su conexión y extracción/asignación de datos
+# '''edición de línea''': Edición de línea, su conexión y extracción/asignación de datos
+# '''cuadro doble de selección''': Cuadro doble de selección, su conexión y extracción/asignación de datos
+# '''cuadro doble de selección''':
+# '''cuadro doble de selección''':
+# '''botón''': Botón, su conexión
+# '''botón''':
+# '''botón de opción''': Botón de opción con iconos, su conexión y selección
+# '''checkBox''': casilla de verificación con icono que indica si está marcada o desmarcada.
+# '''textEdit''': editor de texto que indica si está conectado y si extrae o asigna datos.
+# '''graphicsView''': vista gráfica con dos gráficos y método para cambiar la imagen. 
 
 Las herramientas utilizadas son:
 
