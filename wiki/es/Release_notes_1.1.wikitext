@@ -389,13 +389,10 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 * El objeto y el panel de tareas del solucionador Elmer se han rediseñado de forma similar a como se hizo anteriormente con CalculiX. Ahora funciona con la nueva implementación de Netgen. Además, ahora se pueden importar archivos PVD de ParaView. [https://github.com/FreeCAD/FreeCAD/pull/24912 Solicitud de extracción n.° 24912]
 * Se agregaron tres nuevos ejemplos de elementos finitos (FEM): uno para la electrostática recientemente implementada con el solucionador CalculiX refactorizado, otro para las cargas de presión en los bordes de los modelos 2D recientemente implementadas y otro para la simetría cíclica introducida en FreeCAD 1.0. [https://github.com/FreeCAD/FreeCAD/pull/25117 Solicitud de extracción n.° 25117], [https://github.com/FreeCAD/FreeCAD/pull/25191 Solicitud de extracción n.° 25191] y [https://github.com/FreeCAD/FreeCAD/pull/25268 Solicitud de extracción n.° 25268]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Material Workbench ==
-</div>
+<span id="Material_Workbench"></span>
+== Ambiente de Trabajo Material ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Materials can now be stored in external datastores. This feature is experimental and has to be activated explicitly when compiling the source code. It is not available in the standard FreeCAD builds. [https://github.com/FreeCAD/FreeCAD/pull/21047 Pull request #21047]
-</div>
+* Ahora es posible almacenar materiales en bases de datos externas. Esta función es experimental y debe activarse explícitamente al compilar el código fuente. No está disponible en las versiones estándar de FreeCAD. [https://github.com/FreeCAD/FreeCAD/pull/21047 Solicitud de extracción n.° 21047]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Further Material improvements ===
