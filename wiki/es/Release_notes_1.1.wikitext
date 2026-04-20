@@ -341,13 +341,12 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 [https://github.com/FreeCAD/FreeCAD/pull/21221 Solicitud de extracción n.° 21221]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:FEM_pressure_2d_relnotes_1.1.png|384px]]
-| Pressure and heat flux loads as well as tie constraint and contact can now be applied to edges in 2D analyses with CalculiX. Similarly, body heat source and centrifugal force loads can be applied to faces of 2D models.
-[https://github.com/FreeCAD/FreeCAD/pull/23453 Pull request #23453] and [https://github.com/FreeCAD/FreeCAD/pull/23551 Pull request #23551]
+| Ahora se pueden aplicar cargas de presión y flujo de calor, así como restricciones de unión y contacto, a los bordes en análisis 2D con CalculiX. De manera similar, se pueden aplicar cargas de fuente de calor corporal y fuerza centrífuga a las caras de modelos 2D.
+
+[https://github.com/FreeCAD/FreeCAD/pull/23453 Solicitud de extracción n.° 23453] y [https://github.com/FreeCAD/FreeCAD/pull/23551 Solicitud de extracción n.° 23551]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Further FEM improvements ===
