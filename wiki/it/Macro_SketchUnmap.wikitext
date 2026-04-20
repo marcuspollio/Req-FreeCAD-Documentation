@@ -31,13 +31,10 @@ Per fare ciò, la macro proporrà fondamentalmente 3 opzioni (se lo schizzo non 
 * Modalità "DP@Face" => viene creato un piano di riferimento dove si trova la faccia di mappatura, quindi lo schizzo viene collegato ad esso rispettando il suo offset di collegamento
 * Modalità "DP@Sketch" => viene creato un punto di riferimento dove si trova lo schizzo (incluso l'offset di collegamento), quindi lo schizzo viene collegato alla sua origine
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To use the macro, just select the target sketch (eg. in the tree view) then run the macro. That's it !
-</div>
+Per utilizzare la macro, è sufficiente selezionare lo schizzo di destinazione (ad esempio, nella vista ad albero) e quindi eseguire la macro. Tutto qui!
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Installation===
-</div>
+<span id="Installation"></span>
+===Installazione===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The macro is available through [[Std AddonMgr|Addon Manager]].
