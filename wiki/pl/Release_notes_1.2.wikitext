@@ -124,7 +124,6 @@ Do [[CAM_Preferences/pl|Preferencji środowiska pracy CAM]] dodano Bibliotekę m
 <span id="Further_CAM_improvements"></span>
 ===Pozostałe ulepszenia środowiska CAM===
 
-<div class="mw-translate-fuzzy">
 * Okno dialogowe eksportu G-code pokazuje teraz numery linii. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull request #23862]
 * Operacja MillFace została ponownie zaimplementowana z istotnymi ulepszeniami jako MillFacing. [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull request #24367]
 * [[CAM_SimpleCopy/pl|Szybka kopia]] pozwala teraz na wybór wielu operacji. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull request #24297]
@@ -152,7 +151,9 @@ Do [[CAM_Preferences/pl|Preferencji środowiska pracy CAM]] dodano Bibliotekę m
 * Narzędzie [[CAM_SelectLoop/pl|Zakończ zaznaczoną pętlę]] zostało ulepszone i zwraca teraz polilinię, jeśli wybrano krawędzie, a inne metody zawiodły. [https://github.com/FreeCAD/FreeCAD/pull/24185 Pull request #24185]
 * Funkcja chłodzenia została dodana do postprocesora Kinetic. [https://github.com/FreeCAD/FreeCAD/pull/25022 Pull request #25022]
 * Właściwość ''Jednostki'' (Metryczne/Imperialne) została dodana do końcówek narzędzi. [https://github.com/FreeCAD/FreeCAD/pull/25783 Pull request #25783]
-</div>
+* [[CAM_SimulatorGL/pl|Nowy symulator CAM]] używa teraz tego samego trybu widoku orto/perspektywa i stylu nawigacji co [[3D_View/pl|widok 3D]]. [https://github.com/FreeCAD/FreeCAD/pull/23073 Pull request #23073]
+* Operacja [[CAM_Pocket_Shape/pl|Kieszeń]] może teraz obsługiwać poziome krawędzie oprócz ścian. [https://github.com/FreeCAD/FreeCAD/pull/27750 Pull request #27750]
+* Właściwość ''Op Final Depth'' operacji [[CAM_Engrave/pl|Grawer]] ma teraz lepszą domyślną wartość zależną od półfabrykatu i kształtu grawerowania. [https://github.com/FreeCAD/FreeCAD/pull/26543 Pull request #26543]
 
 <span id="Draft_Workbench"></span>
 ==Środowisko pracy Rysunek Roboczy==
