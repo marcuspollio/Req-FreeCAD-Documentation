@@ -155,12 +155,12 @@ sumvec = myvec.add(othervec)
 }}
 
 Aquí tiene un breve resumen de los comandos anteriores:
-* '''myvec = FreeCAD.Vector(2,0,0)''': Crea un vector myvec con X = 2, Y = 0, Z = 0.
-* '''print(myvec)''': Imprime el vector myvec con sus componentes (X, Y, Z).
-* '''print(myvec.x)''': Imprime la componente X de myvec.
-* '''print(myvec.y)''': Imprime la componente Y de myvec.
-* '''othervec = FreeCAD.Vector(0,3,0)''': Crea un segundo vector othervec de componentes: X = 0, Y = 3, Z = 0.
-* '''sumvec = myvec.add(othervec)''': Suma myvec y othervec para crear un nuevo vector sumvec que contiene la suma de sus componentes.
+* '''myvec = FreeCAD.Vector(2,0,0)''': Crea un vector '''myvec''' con las siguientes componentes: X = 2, Y = 0, Z = 0.
+* '''print(myvec)''': Imprime el vector '''myvec''' con sus componentes (X, Y, Z).
+* '''print(myvec.x)''': Imprime la componente X de '''myvec'''.
+* '''print(myvec.y)''': Imprime la componente Y de '''myvec'''.
+* '''othervec = FreeCAD.Vector(0,3,0)''': Crea un segundo vector '''othervec''' de componentes: X = 0, Y = 3, Z = 0.
+* '''sumvec = myvec.add(othervec)''': Suma '''myvec''' y '''othervec''' para crear un nuevo vector '''sumvec''' que contiene la suma de sus componentes.
 
 Otra característica común de los objetos de FreeCAD es su '''Posicionamiento'''. Como vimos en capítulos anteriores, cada objeto tiene una propiedad de Posicionamiento, que contiene la posición (Base) y la orientación (Rotación) del objeto. Estas propiedades son fáciles de manipular desde Python, por ejemplo, para mover nuestro objeto:
 
