@@ -35,9 +35,7 @@ Mediante esta secuencia de operaciones —que comienza con el boceto base, conti
 
 [[Image:FreeCAD_022_ParametricDesignDependGraph.png]]
 
-<div class="mw-translate-fuzzy">
-No todos los objetos son paramétricos en FreeCAD. A menudo, la geometría que importas de otros archivos no contendrá ningún parámetro, y serán objetos simples, no paramétricos. Sin embargo, a menudo pueden ser utilizados como una base, o punto de partida para los objetos paramétricos recién creados, dependiendo, por supuesto, de lo que el objeto paramétrico requiere y la calidad de la geometría importada.
-</div>
+No todos los objetos son paramétricos en FreeCAD. A menudo, la geometría importada de otros archivos no contiene parámetros y consiste en objetos simples, no paramétricos. Sin embargo, estos pueden servir como base o punto de partida para la creación de nuevos objetos paramétricos, dependiendo, por supuesto, de los requisitos del objeto paramétrico y de la calidad de la geometría importada.
 
 Todos los objetos, sin embargo, paramétricos o no, tendrán un par de parámetros básicos, como un Nombre, que es único en el documento y no puede ser editado, una Etiqueta, que es un nombre definido por el usuario que puede ser editado, y una [[placement/es|colocación]], que mantiene su posición en el espacio 3D.
 
