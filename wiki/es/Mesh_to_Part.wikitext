@@ -47,9 +47,7 @@ mesh.Mesh = MeshPart.meshFromShape(
 <span id="Convert_meshes_to_Part_objects"></span>
 == Convertir Mallas en objetos Pieza ==
 
-<div class="mw-translate-fuzzy">
-La conversión de mallas en objetos Pieza es una operación muy importante en el trabajo de CAD, ya que a menudo se reciben datos 3D en formato de malla de otras personas o son generados con otras aplicaciones. Las mallas son muy prácticas para representar la geometría de forma libre y para grandes escenas visuales, ya que son muy ligeras. Pero, por lo general, el CAD prefiere objetos de nivel superior que llevan mucha más información, como la idea de sólidos, o caras  hechas de curvas, en lugar de triángulos.
-</div>
+Convertir mallas en objetos Pieza es una operación común. Con frecuencia, recibirá datos 3D en formato de malla. Las mallas son muy prácticas para representar geometría de forma libre y escenas visuales extensas, ya que son muy ligeras. Sin embargo, en FreeCAD generalmente preferimos objetos de nivel superior, los sólidos, que pueden contener mucha más información y permiten caras curvas.
 
 <div class="mw-translate-fuzzy">
 La conversión de las mallas a esos objetos de nivel superior (manejados por el [[Part_Workbench/es|Módulo de Piezas]] en FreeCAD) no es una operación fácil. Las mallas pueden tener miles de triángulos (por ejemplo, los generados por un escáner 3D), y si los sólidos se hacen con el mismo número de caras, serían extremadamente pesados de manipular. Así que por lo general, se desea optimizar el objeto durante la conversión.
