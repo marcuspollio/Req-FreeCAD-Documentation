@@ -1,6 +1,10 @@
 <languages/>
-{{clear}}
+
 {{VeryImportantMessage|Flamingo Workbench (Python2/Qt4) è stato sostituito da Dodo Workbench (Python3/Qt5). Questa pagina wiki evidenzia le differenze tra questi due ambienti. I link indicati qui si riferiscono all'attuale [[Dodo_Workbench/it|Dodo]].}}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{VeryImportantMessage|As of 2024, the Dodo Workbench has been superseded by the [[Quetzal Workbench]].}}
+</div>
 
 <span id="Introduction"></span>
 ==Introduzione==
@@ -21,10 +25,12 @@ Per comodità gli strumenti di Flamingo e Dodo sono raggruppati in tre barre di 
 
 [[Image:dodoBlob.png|left]]{{clear}}
 
+<div class="mw-translate-fuzzy">
 :* '''Frame tools''': strumenti struttura che hanno lo scopo di posizionare strutture, travi e simili in FreeCAD usando gli oggetti Structure del modulo Arch. .../flamingo/tutorials/tutorialFrame.pdf
 :* '''Pype tools''': strumenti tubazione che sono la continuazione logica dello strumento Frame poiché si occupano della creazione di condutture e strutture tubolari. Questo gruppo dispone inoltre di proprie classi Python per creare gli oggetti tubazioni, come tubi, gomiti, flange, ecc. .../flamingo/tutorials/tutorialPype2.pdf
 :* '''Eagle tools''': è fondamentalmente un'aggiunta, e una scorciatoia, al molto professionale ambiente [https://github.com/marmni/FreeCAD-PCB FreeCAD-PCB]  (disponibile anche nel repository aggiuntivo di FreeCAD) to import position of objects from a .brd Eagle's file on a PCB drawn in FreeCAD with the a.m. workbench relating only on their names. È anche l'origine, per estensione, del nome dell'intero workbench. .../flamingo/tutorials/tutorialEagle.pdf
 :* '''Utils''' è una barra degli strumenti fornisce alcune funzionalità per interrogare gli oggetti nel modello e la loro distanza, per spostare o ruotare il piano di lavoro e una scorciatoia alla finestra di dialogo per la creazione di [[Draft_Wire/it|Draft Wire]] del modulo Draft, che consente di modificare la posizione del piano di lavoro al volo.
+</div>
 
 <span id="References"></span>
 ==Riferimenti==
@@ -454,9 +460,11 @@ Viene calcolato il coefficiente di attrito per ciascun tubo dritto e gomito. Per
 <span id="Links"></span>
 ==Link==
 
+<div class="mw-translate-fuzzy">
 * Forum: [https://forum.freecad.org/viewtopic.php?f=8&t=17035 New workbench for metal structures] (announcement)
 * Forum: [https://forum.freecad.org/viewtopic.php?t=22711 Flamingo & Dodo workbench(s) discussion thread]
 * Tutorial: [https://github.com/oddtopus/flamingo/tree/master/tutorials flamingo/tutorials]
+</div>
 
 * Video tutorial: 
 ** [https://www.youtube.com/watch?v=_Or91gdBLMU Semplice tutorial video per la creazione di strutture con tubi]
@@ -478,15 +486,6 @@ Viene calcolato il coefficiente di attrito per ciascun tubo dritto e gomito. Per
 * [https://wiki.opensourceecology.org/wiki/OSE_Piping_Workbench OSE-Piping-Workbench: applicazione per creare ulteriori raccordi per tubi]
 </div>
 
-
-<span id="External_workbenches"></span>
-== Ambienti esterni ==
-
-Gli ambienti di lavoro per FreeCAD sono facilmente programmabili in [[Python/it|Python]], quindi ci sono molte persone che stanno sviluppando degli ambienti aggiuntivi al di fuori del codice di base di FreeCAD.
-
-La pagina [[external workbenches/it|Ambienti complementari]] contiene alcune informazioni e tutorial su alcuni di loro, e il progetto [https://github.com/FreeCAD/FreeCAD-addons FreeCAD Addons] mira a raccoglierli e renderli facilmente installabili dall'interno di FreeCAD.
-
-Sono in fase di sviluppo ulteriori nuovi ambienti.
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Addons{{#translation:}}]]
