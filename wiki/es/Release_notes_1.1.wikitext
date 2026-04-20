@@ -427,17 +427,16 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 [https://github.com/FreeCAD/FreeCAD/pull/19052 Solicitud de extracción n.° 19052] y [https://github.com/FreeCAD/FreeCAD/pull/19167 Solicitud de extracción n.° 19167]
 : |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:Part_Design_thread_profiles_relnotes_1.1.gif|384px]]</br>Click on the image if the animation does not start.
-| Added model taper support and more thread profiles to the [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Hole tool]]:
+| [[Fille:Part_Design_thread_profiles_relnotes_1.1.gif|384px]]</br>Haz clic en la imagen si la animación no se inicia.
+
+| Se agregó compatibilidad con conicidad de modelo y más perfiles de rosca a la herramienta [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Herramienta de agujero]]:
 * [https://en.wikipedia.org/wiki/British_Standard_Whitworth British Standard Whitworth]
 * [https://en.wikipedia.org/wiki/British_Standard_Fine British Standard Fine]
 * [https://en.wikipedia.org/wiki/British_Standard_Pipe British Standard Pipe]
 * [https://en.wikipedia.org/wiki/National_pipe_thread National Pipe Threads]
 [https://github.com/FreeCAD/FreeCAD/pull/15744 Pull request #15744]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
