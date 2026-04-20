@@ -54,6 +54,7 @@ Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [[Featu
 <span id="Further_Core_improvements"></span>
 === Autres améliorations du noyau ===
 
+<div class="mw-translate-fuzzy">
 * La barre de recherche dans les [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences/fr|préférences]] permet désormais d'effectuer des recherches dans les infobulles, les valeurs des menus déroulants, les cases à cocher et les titres de groupe. [https://github.com/FreeCAD/FreeCAD/pull/24283 Pull request #24283]
 * L'outil [[Image:Std_Measure.svg|24px]] [[Std_Measure/fr|Mesurer]] prend désormais en charge la mesure du rayon et du diamètre des faces cylindriques. [https://github.com/FreeCAD/FreeCAD/pull/27044 Pull request #27044]
 * Sous macOS, les fichiers .FCStd prennent désormais en charge l'extension native QuickLook pour afficher une vignette du fichier dans le Finder et un aperçu complet. [https://github.com/FreeCAD/FreeCAD/pull/25239 Pull request #25239]
@@ -61,6 +62,7 @@ Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [[Featu
 * L'outil [[Image:Std_Measure.svg|24px]] [[Std_Measure/fr|Mesurer]] peut désormais indiquer le rayon et le diamètre des faces circulaires en plus des types de mesure existants. [https://github.com/FreeCAD/FreeCAD/pull/27415 Pull request #27415]
 * L'outil [[Image:Std_Measure.svg|24px]] [[Std_Measure/fr|Mesurer]] affiche désormais les unités de surface à l'aide d'exposants Unicode. [https://github.com/FreeCAD/FreeCAD/pull/28044 Pull request #28044]
 * Les macros prennent désormais en charge les répertoires pour regrouper les fichiers qui leur sont associés. [https://github.com/FreeCAD/FreeCAD/pull/27005 Pull request #27005]
+</div>
 
 === API ===
 
@@ -121,6 +123,7 @@ ToDo (last check: 20260412):
 <span id="Further_CAM_improvements"></span>
 === Autres améliorations de CAM ===
 
+<div class="mw-translate-fuzzy">
 * La boîte de dialogue d'exportation du G-code affiche désormais les numéros de ligne. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull request #23862]
 * L'opération « MillFace » a été réimplémentée avec des améliorations significatives sous le nom de « MillFacing ». [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull request #24367]
 * [[CAM_SimpleCopy/fr|Copie simple]] permet désormais la sélection multiple d'opérations. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull request #24297]
@@ -148,6 +151,7 @@ ToDo (last check: 20260412):
 * L'outil [[CAM_SelectLoop/fr|Sélectionner une boucle]] a été amélioré et renvoie désormais la polyligne si une ou plusieurs arêtes ont été sélectionnées et que les autres méthodes ont échoué. [https://github.com/FreeCAD/FreeCAD/pull/24185 Pull request #24185]
 * Une fonction de refroidissement a été ajoutée au post-processeur Kinetic. [https://github.com/FreeCAD/FreeCAD/pull/25022 Pull request #25022]
 * La propriété ''Units'' (métrique/impériale) a été ajoutée aux outils coupants. [https://github.com/FreeCAD/FreeCAD/pull/25783 Pull request #25783]
+</div>
 
 <span id="Draft_Workbench"></span>
 == Atelier Draft ==
@@ -306,6 +310,10 @@ ToDo (last check: 20260412):
 
 <span id="Further_Spreadsheet_improvements"></span>
 === Autres améliorations de Spreadsheet ===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* The color picker was redesigned and has two buttons - for custom colors and for resetting. [https://github.com/FreeCAD/FreeCAD/pull/28698 Pull request #28698]
+</div>
 
 <span id="Surface_Workbench"></span>
 == Atelier Surface ==
