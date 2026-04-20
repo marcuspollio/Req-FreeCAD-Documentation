@@ -394,9 +394,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 
 * Ahora es posible almacenar materiales en bases de datos externas. Esta función es experimental y debe activarse explícitamente al compilar el código fuente. No está disponible en las versiones estándar de FreeCAD. [https://github.com/FreeCAD/FreeCAD/pull/21047 Solicitud de extracción n.° 21047]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Further Material improvements ===
-</div>
+<span id="Further_Material_improvements"></span>
+=== Mejoras adicionales en el material ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Several new materials with physical properties were added to the material database:
