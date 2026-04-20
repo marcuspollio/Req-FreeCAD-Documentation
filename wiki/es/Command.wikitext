@@ -89,7 +89,8 @@ class MyCommand:
 FreeCADGui.addCommand('My_Command', MyCommand())
 }}
 
-== Examples ==
+<span id="Examples"></span>
+== Ejemplos ==
 
 See [[Line_drawing_function|Line drawing function]].
 
