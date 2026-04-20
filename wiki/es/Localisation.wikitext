@@ -164,7 +164,7 @@ Todos los pasos anteriores los realizan los "scripts de traducción", que un adm
 Preparar su módulo para la traducción es bastante fácil. En primer lugar, debe asegurarse de que tiene un directorio "translations" en {{FileName|myModule/Gui/Resources}}. A continuación, abra una ventana en una terminal (o su equivalente en Windows/OSX) en su directorio "translations" e introduzca el siguiente comando:
 {{Code|code=lupdate -ts myModule.ts}}
 
-Esto crea un archivo de traducción vacío. Una vez hecho esto, debe asegurarse de que los scripts de traducción estén actualizados como en esta [https://github.com/FreeCAD/FreeCAD/pull/810 pull request].  
+Esto crea un archivo de traducción vacío. Una vez hecho esto, debe asegurarse de que los scripts de traducción estén actualizados como en esta [https://github.com/FreeCAD/FreeCAD/pull/810 solicitud de extracción].  
 
 Todo lo demás es automático para el desarrollador. El administrador extraerá las cadenas de texto, los traductores las traducirán, luego el administrador extraerá las traducciones y actualizará FreeCAD/master.
 
