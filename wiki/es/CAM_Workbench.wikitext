@@ -68,12 +68,10 @@ Algunas limitaciones actuales que debe tener en cuenta son:
 <span id="Units"></span>
 == Unidades ==
 
-<div class="mw-translate-fuzzy">
-El manejo de unidades en Path puede ser confuso. Hay varios puntos para entender:
+El manejo de unidades en CAM puede ser confuso. Hay varios puntos para entender:
 # Las unidades base de FreeCAD para longitud y tiempo son 'mm' y 's' respectivamente. La velocidad es así 'mm / s'. Esto es lo que FreeCAD almacena internamente independientemente de cualquier otra cosa
 # El esquema de unidad predeterminado usa las unidades predeterminadas. Si está utilizando el esquema predeterminado e ingresa una velocidad de avance sin una cadena de unidades, se ingresará como 'mm / s'
 # La mayoría de las máquinas CNC esperan una velocidad de avance en forma de 'mm / min' o 'in / min'. La mayoría de los procesadores posteriores convertirán automáticamente la unidad cuando generen gcode.
-</div>
 
 <div class="mw-translate-fuzzy">
 Schemas:
