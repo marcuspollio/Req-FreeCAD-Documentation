@@ -94,7 +94,7 @@ La funcionalidad de FreeCAD está separada en Módulos que tratan con tipos de d
 
 La documentación completa de la API de FreeCAD se encuentra en http://www.freecad.org/api/ . Contiene tanto las APIs de C++ como las de Python, y aún no está totalmente bien formateada, lo que puede ser confuso cuando se busca código sólo en python. Una versión más fácil de navegar se puede encontrar [[:Category:API|aquí]]. Tenga en cuenta que puede estar incompleta, ya que se actualiza manualmente. Para una información más precisa, navega por los módulos directamente desde la consola de Python de FreeCAD.
 
-Relacionado: [[Exposing_C%2B%2B_to_Python/es|Exponer C++ a Python]]
+Relacionado: [[Exposing_C%2B%2B_to_Python|Exponer C++ a Python]]
 
 <span id="Advanced_modification"></span>
 == Modificación avanzada ==
