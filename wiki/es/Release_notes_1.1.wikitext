@@ -221,18 +221,15 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="Further_CAM_improvements"></span>
 === Mejoras adicionales de CAM ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The [[Image:CAM_Shape.svg|24px]] [[CAM_Shape|CAM Shape]] experimental tool was replaced by ''Path from Shape with Tool Controller'' which is a significantly improved version of that tool based on a macro. [https://github.com/FreeCAD/FreeCAD/pull/21108 Pull request #21108]
-* Adaptive roughing/overhang detection was implemented including intelligent 2.5D projection of the model and stock for all adaptive operations, one-click "adaptive roughing" of the entire model, "Z stock to leave" setting to complement the "finishing stepdown" setting and a checkbox to order cuts by depth or region. [https://github.com/FreeCAD/FreeCAD/pull/18880 Pull request #18880]
-* G84/G74 tapping operations were added experimentaly. [https://github.com/FreeCAD/FreeCAD/pull/8069 Pull request #8069] and [https://github.com/FreeCAD/FreeCAD/pull/24148 Pull request #24148]
-* Multi-pass support was added for profile operations. [https://github.com/FreeCAD/FreeCAD/pull/17326 Pull request #17326]
-* Support for Snapmaker, Masso and Ondsel SVG postprocessors was added. [https://github.com/FreeCAD/FreeCAD/pull/20154 Pull request #20154], [https://github.com/FreeCAD/FreeCAD/pull/18845 Pull request #18845] and [https://github.com/FreeCAD/FreeCAD/pull/21743 Pull request #21743]
-* The [[Image:CAM_SimulatorGL.svg|24px]] [[CAM_SimulatorGL|New CAM Simulator]] was improved, including two additional buttons to reset the camera and decrease the speed. [https://github.com/FreeCAD/FreeCAD/pull/21288 Pull request #21288], [https://github.com/FreeCAD/FreeCAD/pull/21222 Pull request #21222] and more
-* The [[CAM_Array|Array]] operation is now considered deprecated as it's currently also implemented as a dressup. [https://github.com/FreeCAD/FreeCAD/pull/20321 Pull request #20321]
-* Support for multi-pass profile operations was implemented. [https://github.com/FreeCAD/FreeCAD/pull/17326 Pull request #17326]
-* The [[CAM_DressupLeadInOut|LeadInOut]] functionality was improved. [https://github.com/FreeCAD/FreeCAD/pull/22669 Pull request #22669]
-* UI elements were added to allow viewing and editing tool controller parameters from within the operation's task panel. [https://github.com/FreeCAD/FreeCAD/pull/23180 Pull request #23180]
-</div>
+* La herramienta experimental [[Image:CAM_Shape.svg|24px]] [[CAM_Shape|Forma de CAM]] fue reemplazada por "Trayectoria desde forma con controlador de herramienta", una versión significativamente mejorada basada en una macro. [https://github.com/FreeCAD/FreeCAD/pull/21108 Solicitud de extracción n.° 21108]
+* Se implementó la detección adaptativa de desbaste/volante, incluyendo la proyección inteligente 2.5D del modelo y el material para todas las operaciones adaptativas, el desbaste adaptativo con un solo clic de todo el modelo, la configuración "Material Z a dejar" para complementar la configuración de "Reducción de acabado" y una casilla de verificación para ordenar los cortes por profundidad o región. [https://github.com/FreeCAD/FreeCAD/pull/18880 Solicitud de extracción n.° 18880]
+* Se agregaron experimentalmente operaciones de roscado G84/G74. [https://github.com/FreeCAD/FreeCAD/pull/8069 Solicitud de extracción n.° 8069] y [https://github.com/FreeCAD/FreeCAD/pull/24148 Solicitud de extracción n.° 24148]
+* Se agregó compatibilidad con operaciones de perfilado multipaso. [https://github.com/FreeCAD/FreeCAD/pull/17326 Solicitud de extracción n.° 17326]
+* Se agregó compatibilidad con los postprocesadores SVG Snapmaker, Masso y Ondsel. [https://github.com/FreeCAD/FreeCAD/pull/20154 Solicitud de extracción n.° 20154], [https://github.com/FreeCAD/FreeCAD/pull/18845 Solicitud de extracción n.° 18845] y [https://github.com/FreeCAD/FreeCAD/pull/21743 Solicitud de extracción n.° 21743] * Se mejoró el [[Imagen:CAM_SimulatorGL.svg|24px]] [[CAM_SimulatorGL|Nuevo simulador CAM]], incluyendo dos botones adicionales para reiniciar la cámara y disminuir la velocidad. [https://github.com/FreeCAD/FreeCAD/pull/21288 Solicitud de extracción n.° 21288], [https://github.com/FreeCAD/FreeCAD/pull/21222 Solicitud de extracción n.° 21222] y más.
+* La operación [[CAM_Array|Array]] ahora se considera obsoleta, ya que actualmente también se implementa como una operación de preprocesamiento. [https://github.com/FreeCAD/FreeCAD/pull/20321 Solicitud de extracción n.° 20321]
+* Se implementó la compatibilidad con operaciones de perfil de múltiples pasadas. [https://github.com/FreeCAD/FreeCAD/pull/17326 Solicitud de extracción n.° 17326]
+* Se mejoró la funcionalidad [[CAM_DressupLeadInOut|LeadInOut]]. [https://github.com/FreeCAD/FreeCAD/pull/22669 Solicitud de extracción n.° 22669]
+* Se agregaron elementos de la interfaz de usuario para permitir la visualización y edición de los parámetros del controlador de herramientas desde el panel de tareas de la operación. [https://github.com/FreeCAD/FreeCAD/pull/23180 Solicitud de extracción n.° 23180]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Draft Workbench ==
