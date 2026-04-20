@@ -59,9 +59,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 * Todas las ventanas MDI (incluyendo por ejemplo Hojas de Cálculo y Techdraw) ahora pueden ser desancladas y extendidas a pantalla completa usando atajos de teclado (''V'', ''U'' or ''F11'') o con la opción de menú ''Vista → Ventana de Documento''. [https://github.com/FreeCAD/FreeCAD/pull/22544 Pull request #22544]
 * La lista por defecto de los Escritorios de Trabajo ahora es más corta y los escritorios menos usados están desactivados por defecto. Esto incluye los escritorios Inspección, OpenSCAD y Test Framework. [https://github.com/FreeCAD/FreeCAD/pull/23034 Pull request #23034]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Core system and API ==
-</div>
+<span id="Core_system_and_API"></span>
+== Núcleo del sistema y API ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Core ===
