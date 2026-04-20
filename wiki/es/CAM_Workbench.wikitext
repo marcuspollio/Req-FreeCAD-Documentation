@@ -286,9 +286,7 @@ Algunos comandos son experimentales y no están disponibles de forma predetermin
 <span id="Obsolete_Commands"></span>
 === Comandos obsoletos ===
 
-<div class="mw-translate-fuzzy">
-* [[Image:CAM_Fixture.svg|32px]] [[CAM_Fixture/es|Fixtura]]: Cambia la posición de la fixtura.
-</div>
+* [[Image:CAM_Fixture.svg|32px]] [[CAM_Fixture|Fixture]]: Cambia la posición del accesorio. No disponible en {{VersionPlus|1.1}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == ToolBit architecture ==
