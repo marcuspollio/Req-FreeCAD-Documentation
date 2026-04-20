@@ -523,12 +523,10 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="Spreadsheet_Workbench"></span>
 == Ambiente de Trabajo de Hoja de Cálculo ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Default shortcuts for [[Image:Spreadsheet_StyleBold.svg|24px]] [[Spreadsheet_StyleBold|Bold text]], [[Image:Spreadsheet_StyleItalic.svg|24px]] [[Spreadsheet_StyleItalic|Italic text]] and [[Image:Spreadsheet_StyleUnderline.svg|24px]] [[Spreadsheet_StyleUnderline|Underline text]] have been added. [https://github.com/FreeCAD/FreeCAD/pull/15556 Pull request #15556]
-* Double-clicking on the separator in the header now resizes the column to content. [https://github.com/FreeCAD/FreeCAD/pull/16296 Pull request #16296]
-* Zoom was added to Spreadsheet. [https://github.com/FreeCAD/FreeCAD/pull/16130 Pull request #16130]
-* Icons were added to context menu entries. [https://github.com/FreeCAD/FreeCAD/pull/22773 Pull request #22773]
-</div>
+* Se han añadido atajos de teclado predeterminados para [[Image:Spreadsheet_StyleBold.svg|24px]] [[Spreadsheet_StyleBold|Texto en negrita]], [[Image:Spreadsheet_StyleItalic.svg|24px]] [[Spreadsheet_StyleItalic|Texto en cursiva]] y [[Image:Spreadsheet_StyleUnderline.svg|24px]] [[Spreadsheet_StyleUnderline|Texto subrayado]]. [https://github.com/FreeCAD/FreeCAD/pull/15556 Solicitud de extracción n.º 15556]
+* Al hacer doble clic en el separador del encabezado, la columna se redimensiona al contenido. [https://github.com/FreeCAD/FreeCAD/pull/16296 Solicitud de extracción n.º 16296]
+* Se ha añadido la función de zoom a la Hoja de cálculo. [https://github.com/FreeCAD/FreeCAD/pull/16130 Solicitud de extracción n.° 16130]
+* Se han agregado iconos a las entradas del menú contextual. [https://github.com/FreeCAD/FreeCAD/pull/22773 Solicitud de extracción n.° 22773]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Surface Workbench ==
