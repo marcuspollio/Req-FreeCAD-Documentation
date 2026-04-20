@@ -138,9 +138,7 @@ Auch hier nichts allzu Aufregendes. Aber bitte beachte einige Besonderheiten:
 
 Was ist nun mit diesen Geometrien zu tun?
 
-<div class="mw-translate-fuzzy">
-Lasst uns boolesche Verknüpfungen einführen. Als Einstiegsbeispiel werden diese Zeilen nach {{incode|my_cyl}} eingefügt; dies erzeugt eine Funktion zum '''Verschmelzen''' (fuse), bekannt als '''Vereinigung''':
-</div>
+Lasst uns boolesche Verknüpfungen einführen. Als Einstiegsbeispiel werden diese Zeilen nach {{incode|my_cyl}} eingefügt. Dies erzeugt eine Funktion zum '''Verschmelzen''' (fuse), bekannt als '''Vereinigung''':
 
 {{Code|code=
 def fuse_obj(name, obj_0, obj_1):
