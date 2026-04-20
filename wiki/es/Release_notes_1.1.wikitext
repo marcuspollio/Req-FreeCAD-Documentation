@@ -204,13 +204,12 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="CAM_Workbench"></span>
 == Ambiente de Trabajo de CAM ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:CAM_BTL_relnotes_1.1.png|384px]]
-| [[CAM_ToolBitLibraryOpen|CAM Tool Management]] was replaced with [https://github.com/knipknap/better-tool-library/ Better Tool Library integration] introducing a new toolbit editor and selector.
-[https://github.com/FreeCAD/FreeCAD/pull/21425 Pull request #21425]
+| [[Archivo:CAM_BTL_relnotes_1.1.png|384px]]
+| [[CAM_ToolBitLibraryOpen|Gestión de herramientas CAM]] se reemplazó con [https://github.com/knipknap/better-tool-library/ Integración mejorada de la biblioteca de herramientas], que introduce un nuevo editor y selector de brocas.
+
+[https://github.com/FreeCAD/FreeCAD/pull/21425 Solicitud de extracción n.° 21425]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
