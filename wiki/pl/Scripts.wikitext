@@ -131,12 +131,10 @@ def my_cyl(name, ang, rad, hei):
 
 Nawet tutaj nie ma nic zbyt ekscytującego. Warto jednak zwrócić uwagę na kilka osobliwości:
 
-<div class="mw-translate-fuzzy">
 * Brak zwykłego odniesienia do {{incode|App.}}, obecnego w wielu fragmentach kodu Dokumentacji, jest zamierzony, kod ten może być użyty nawet do wywołania FreeCAD jako modułu w zewnętrznym interpreterze Pythona, nie jest to łatwe do zrobienia z AppImage, ale z pewną ostrożnością można to zrobić. Plus w standardowym motto Pythona, że "lepiej jawnie niż niejawnie" {{incode|App.}} wyjaśnia w bardzo "kiepski" sposób, skąd pochodzą rzeczy.
 * Zwróć uwagę na użycie "stałej" nazwy przypisanej do aktywnego Dokumentu w {{incode|DOC &#61; FreeCAD. activeDocument()}}; activeDocument nie jest "stałą" w ścisłym sensie, ale w sposób "semantyczny" jest naszym "aktywnym dokumentem", który dla naszego użytku jest właściwą "stałą", więc konwencja Pythona polega na używaniu nazwy "ALL CAPS" dla "stałych", nie wspominając o tym, że {{incode|DOC}} jest znacznie krótszy niż {{incode|FreeCAD.activeDocument()}}.
 * Każda metoda zwraca geometrię, będzie to jasne w dalszej części strony.
 * Geometria nie miała właściwości {{incode|Placement}}, podczas używania prostych geometrii do tworzenia bardziej złożonych geometrii, zarządzanie {{incode|Placement}} jest kłopotliwe.
-</div>
 
 Co teraz zrobić z tą geometrią?
 
