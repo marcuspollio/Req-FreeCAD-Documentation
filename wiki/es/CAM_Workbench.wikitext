@@ -137,9 +137,7 @@ Algunos comandos son experimentales y no están disponibles de forma predetermin
 * [[Image:CAM_Simulator.svg|32px]] [[CAM_Simulator/es|Simulador]]: Muestra la operación de mecanizado como si estuviera hecha sobre la maquina.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:CAM_SimulatorGL.svg|32px]] [[CAM_SimulatorGL|CAM Simulator]]: Enables the new, improved CAM simulator. {{Version|1.0}}
-</div>
+* [[Image:CAM_SimulatorGL.svg|32px]] [[CAM_SimulatorGL|Simulador CAM]]: Habilita el nuevo y mejorado simulador CAM. {{Version|1.0}}
 
 <div class="mw-translate-fuzzy">
 * [[Image:CAM_SelectLoop.svg|32px]] [[CAM_SelectLoop/es|Completar ciclo]]: Completa un ciclo a partir de dos esquinas seleccionadas
