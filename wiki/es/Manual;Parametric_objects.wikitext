@@ -21,7 +21,7 @@ En la cara superior de la placa, dibuja un círculo de un diámetro '''d''' dete
 
 [[Image:FreeCAD_022_ParametricDesignPocket.png]]
 
-If you decide to change either of the dimensions of the plate, or of the circle, the final object would be also modified. Thanks to the use of a parametric design approach, there is no need to redo the object from the beginning.
+Si decide modificar posteriormente las dimensiones de la placa o del círculo, el objeto final también se verá alterado. Gracias al uso de un enfoque de diseño paramétrico, no es necesario rehacer el objeto desde cero.
 
 <div class="mw-translate-fuzzy">
 # El recálculo no siempre es automático. Las operaciones pesadas, que pueden modificar una gran parte de su documento, y que por lo tanto llevan algún tiempo, no se realizan automáticamente. En su lugar, el objeto (y todos los objetos que dependen de él) se marcarán para su recálculo (aparece un pequeño icono azul sobre ellos en la vista de árbol). A continuación, debe pulsar el botón de recálculo (o {{MenuCommand|Edición->Refrescar}}) para que se vuelvan a calcular todos los objetos marcados.
