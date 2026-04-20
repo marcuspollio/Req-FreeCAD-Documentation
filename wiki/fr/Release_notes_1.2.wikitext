@@ -311,9 +311,7 @@ ToDo (last check: 20260412):
 <span id="Further_Spreadsheet_improvements"></span>
 === Autres améliorations de Spreadsheet ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The color picker was redesigned and has two buttons - for custom colors and for resetting. [https://github.com/FreeCAD/FreeCAD/pull/28698 Pull request #28698]
-</div>
+* Le sélecteur de couleurs a été repensé et comporte désormais deux boutons : l'un pour les couleurs personnalisées et l'autre pour la réinitialisation. [https://github.com/FreeCAD/FreeCAD/pull/28698 Pull request #28698]
 
 <span id="Surface_Workbench"></span>
 == Atelier Surface ==
