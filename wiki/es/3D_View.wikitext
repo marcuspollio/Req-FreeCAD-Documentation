@@ -22,7 +22,7 @@ Las opciones del menú contextual de la vista 3D dependen del objeto o los objet
 
 FreeCAD utiliza la biblioteca Quarter para usar Coin3D en un entorno Qt.
 
-It is possible to interact directly with the 3D View scenegraph from the [[Python_Console|Python Console]] by using the Python library Pivy.
+Es posible interactuar directamente con el grafo de escena de la vista 3D desde la [[Python_Console|consola Python]] utilizando la biblioteca de Python Pivy.
 
 For more information see the power user documentation:
 * [[Scenegraph|Scenegraph]], description of Coin3D.
