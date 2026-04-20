@@ -165,9 +165,7 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="Further_Assembly_improvements"></span>
 === Mejoras adicionales en el ensamblaje ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The new core datums can be used for attaching joints to assemble multiple parts. [https://github.com/FreeCAD/FreeCAD/pull/18332 Pull request #18332]
-</div>
+* Los nuevos datos básicos se pueden usar para unir juntas y ensamblar varias piezas. [https://github.com/FreeCAD/FreeCAD/pull/18332 Solicitud de extracción n.° 18332]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == BIM Workbench ==
