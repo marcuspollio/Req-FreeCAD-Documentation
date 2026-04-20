@@ -185,9 +185,7 @@ FreeCAD bietet eine große Auswahl an Möglichkeiten, diese Eigenschaft zu setze
 FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
 }}
 
-<div class="mw-translate-fuzzy">
 Aber gegenüber anderen Überlegungen ist eine Sache ausschlaggebend, nämlich der geometrische '''Referenzpunkt''', also der Punkt, von dem aus das Objekt von FreeCAD modelliert wird, wie in dieser Tabelle beschrieben, kopiert von [[Placement/de|Platzierung]]:
-</div>
 
 {| class="wikitable" border="1"
 !Objekt!!Referenzpunkt
