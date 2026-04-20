@@ -120,9 +120,7 @@ Nelle versioni precedenti di FreeCAD è possibile utilizzare due metodi automati
 * [https://github.com/FreeCAD/FreeCAD-addons addons_installer.FCMacro]: è essa stessa una macro, è il precursore del Gestore Addon ed è ospitato nel repository [https://github.com/FreeCAD/FreeCAD-addons FreeCAD-addons]. Non è necessario utilizzare questo strumento nelle recenti versioni di FreeCAD.
 * [https://github.com/microelly2/freecad-pluginloader freecad-pluginloader]: è anche una macro, potrebbe essere usata per installare nuovi componenti in FreeCAD. Non è più sviluppato.
 
-<div class="mw-translate-fuzzy">
-Il metodo consigliato per installare i componenti aggiuntivi, ovvero gli [[external workbenches/it|ambienti esterni]] e le macro, è [[Std_AddonMgr/it|Addon Manager]]. Tuttavia, è ancora possibile aggiungere delle macro al proprio sistema con i metodi manuali descritti nelle seguenti sezioni; questo è utile per sviluppare e testare il proprio codice.
-</div>
+Il metodo consigliato per installare i componenti aggiuntivi, ovvero gli [[https://www.freecad.org/addons.php|ambienti esterni]] e le macro, è [[Std_AddonMgr/it|Addon Manager]]. Tuttavia, è ancora possibile aggiungere delle macro al proprio sistema con i metodi manuali descritti nelle seguenti sezioni; questo è utile per sviluppare e testare il proprio codice.
 
 </div>
 </div>
