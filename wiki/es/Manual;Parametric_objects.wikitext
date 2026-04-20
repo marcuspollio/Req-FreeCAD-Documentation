@@ -39,9 +39,7 @@ No todos los objetos son paramétricos en FreeCAD. A menudo, la geometría impor
 
 Sin embargo, todos los objetos, paramétricos o no, tendrán un par de parámetros básicos, como un Nombre, que es único en el documento y no se puede editar, una Etiqueta, que es un nombre definido por el usuario que se puede editar, y una [[placement|posición]], que mantiene su posición en el espacio 3D.
 
-<div class="mw-translate-fuzzy">
-Por último, cabe destacar que los objetos paramétricos personalizados son [[Scripted objects/es|fácil de programar en python]].
-</div>
+Por último, cabe destacar que los objetos paramétricos personalizados son [[Scripted objects|fáciles de programar en Python]].
 
 '''Leer más'''
 
