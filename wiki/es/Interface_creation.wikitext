@@ -22,7 +22,8 @@ Las interfaces se crean utilizando [[PySide|PySide]], que es una biblioteca para
 
 Normalmente existen dos maneras de crear interfaces con PySide.
 
-=== Interface in a .ui file ===
+<span id="Interface_in_a_.ui_file"></span>
+=== Interfaz en un archivo .ui ===
 
 In this method the interface is defined in a {{incode|.ui}} file (an XML document that defines the structure of the interface), which is then imported into [[Python|Python]] code that uses it. This is the recommended approach.
 * It allows the programmer to work with the graphical interface separately from the logic that will use it.
