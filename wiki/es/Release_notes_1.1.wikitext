@@ -131,9 +131,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="Changed_Python_API"></span>
 ==== API de Python modificada ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== New Python API ====
-</div>
+<span id="New_Python_API"></span>
+==== Nueva API de Python ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * A new <code>FreeCAD.ApplicationDirectories</code> static class is available providing features related to the new versioned directory structure.
