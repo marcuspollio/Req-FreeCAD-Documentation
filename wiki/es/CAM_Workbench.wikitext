@@ -41,14 +41,16 @@ El código G se genera a partir de las directivas y operaciones contenidas en un
 
 El entorno de trabajo CAM proporciona un gestor de herramientas (biblioteca, tabla de herramientas), así como herramientas de inspección y simulación de código G. Se conecta con el posprocesador y permite importar y exportar plantillas de trabajo.
 
-<div class="mw-translate-fuzzy">
-Path Workbench tiene dependencias externas que incluyen:
-# Las unidades del modelo 3D de FreeCAD se definen en la {{MenuCommand|Editar → Preferencia → General → Configuración de unidades de la pestaña Unidades}}. La configuración del postprocesador define las unidades finales de código G.
-# La ruta del archivo de macros, y las tolerancias geométricas, se definen en la pestaña {{MenuCommand|Editar → Preferencias → Ruta → Preferencias de trabajo}} ficha.
-# Los colores se definen en la pestaña {{MenuCommand|Editar → Preferencias → Ruta → Colores de ruta}} ficha.
-# Los parámetros de etiqueta de retención se definen en la pestaña {{MenuCommand|Editar → Preferencias → Ruta → Adelantos}} ficha.
-# Que la calidad del modelo 3D base soporte los requisitos del ambiente de trabajo Trayectoria, pasa a comprobar la geometría.
-</div>
+El entorno de trabajo de trayectoria tiene dependencias externas, entre las que se incluyen:
+# Las unidades del modelo 3D de FreeCAD se definen en {{Menú | Editar → Preferencias → General → Sistema de unidades predeterminado}}. La configuración del posprocesador define las unidades finales del código G.
+
+# La ruta del archivo de macro y las tolerancias geométricas se definen en la pestaña {{Menú | Editar → Preferencias → CAM → Preferencias de trabajo}}.
+
+# Los colores se definen en la pestaña {{Menú | Editar → Preferencias → CAM → Interfaz gráfica de usuario}}.
+
+# Los parámetros de las etiquetas de sujeción se definen en la pestaña {{Menú | Editar → Preferencias → CAM → Diseños}}.
+
+# La calidad del modelo 3D base cumple con los requisitos del entorno de trabajo CAM, superando la comprobación de geometría [[Part_CheckGeometry]].
 
 <span id="Limitations"></span>
 ==Limitaciones==
