@@ -89,10 +89,8 @@ Salida:
 
 # Si desea que su posprocesador configurable genere código G imperial (G20), configure el argumento correspondiente en la configuración de salida de su trabajo (por ejemplo, `--inches` para LinuxCNC). Esto se puede guardar en una plantilla de trabajo y establecerla como plantilla predeterminada para que se aplique automáticamente a todos los trabajos futuros.
 
-<div class="mw-translate-fuzzy">
-Inspección de Path:
-# Si usa la herramienta Path Inspect para ver el gcode, lo verá en 'mm / s' porque no está siendo procesado
-</div>
+Inspección CAM:
+# Si utiliza la herramienta Inspección CAM para ver el código G, lo verá en '''mm/s''' porque no se está siendo procesado.
 
 <span id="Heights_and_depths"></span>
 == Alturas y profundidades ==
