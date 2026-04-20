@@ -1,21 +1,18 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Macro
+{{Macro/it
 |Name=SketchUnmap
-|Description=This macro resets a sketch placement to an absolute one, eventually creating a datum plane.<br />This macro has been written mainly to circumvent Topological Naming Issue that can break a model when a sketch has been directly or indirectly attached to a face or any other topological item.<br />
-To prevent breakage, macro shall be applied when the model is still right. It can't "repair" a broken model. If you just break your model, undo the last change(s) back to a good situation, apply the macro to the unstable sketch(es) then redo the previous operation. 
+|Description=Questa macro ripristina la posizione di uno schizzo a una posizione assoluta, creando infine un piano di riferimento.<br />Questa macro è stata scritta principalmente per aggirare il problema di denominazione topologica che può danneggiare un modello quando uno schizzo è stato collegato direttamente o indirettamente a una faccia o a qualsiasi altro elemento topologico.<br />
+Per evitare danni, la macro deve essere applicata quando il modello è ancora corretto. Non può "riparare" un modello danneggiato. Se il modello si danneggia, annullare le ultime modifiche per ripristinare la situazione corretta, applicare la macro allo schizzo instabile e quindi ripetere l'operazione precedente.
 |Author=OpenBrain
-|Date=2019-06-14
+|Date=14/06/20192
 |Version=0.6.2
 |FCVersion=0.17 and above
 |Download=[https://wiki.freecad.org/images/3/34/SketchUnmap.svg ToolBar Icon]
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Description==
-</div>
+<span id="Description"></span>
+==Descrizione==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Context===
