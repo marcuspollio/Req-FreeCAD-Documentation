@@ -54,6 +54,7 @@ Starsze informacje na temat wydań FreeCAD można znaleźć na stronie [[Feature
 <span id="Further_Core_improvements"></span>
 ===Pozostałe ulepszenia rdzenia===
 
+<div class="mw-translate-fuzzy">
 * Pasek wyszukiwania w [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences/pl|Ustawieniach]] może teraz uwzględniać podpowiedzi, opcje z list rozwijanych, pola wyboru i tytuły grup. [https://github.com/FreeCAD/FreeCAD/pull/24283 Pull request #24283]
 * Narzędzie [[Image:Std_Measure.svg|24px]] [[Std_Measure/pl|Pomiary]] zyskało opcję wyświetlania pomiaru dla elementów okrągłych w formie średnicy zamiast promienia. [https://github.com/FreeCAD/FreeCAD/pull/24853 Pull request #24853]
 * Narzędzie [[Image:Std_Measure.svg|24px]] [[Std_Measure/pl|Pomiary]] wspiera teraz pomiar promienia i średnicy ścian cylindrycznych. [https://github.com/FreeCAD/FreeCAD/pull/27044 Pull request #27044]
@@ -62,6 +63,7 @@ Starsze informacje na temat wydań FreeCAD można znaleźć na stronie [[Feature
 * Narzędzie [[Image:Std_Measure.svg|24px]] [[Std_Measure/pl|Pomiary]] może teraz podawać promień i średnicę dla kołowych ścian poza dotychczasowymi typami pomiarów dla nich. [https://github.com/FreeCAD/FreeCAD/pull/27415 Pull request #27415]
 * Narzędzie [[Image:Std_Measure.svg|24px]] [[Std_Measure/pl|Pomiary]] wyświetla teraz jednostki pola powierzchni za pomocą indeksów górnych standardu unicode. [https://github.com/FreeCAD/FreeCAD/pull/28044 Pull request #28044]
 * Makra wspierają teraz ścieżki, umożliwiając zbieranie plików związanych z nimi. [https://github.com/FreeCAD/FreeCAD/pull/27005 Pull request #27005]
+</div>
 
 === API ===
 
@@ -123,6 +125,7 @@ Do [[CAM_Preferences/pl|Preferencji środowiska pracy CAM]] dodano Bibliotekę m
 <span id="Further_CAM_improvements"></span>
 ===Pozostałe ulepszenia środowiska CAM===
 
+<div class="mw-translate-fuzzy">
 * Okno dialogowe eksportu G-code pokazuje teraz numery linii. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull request #23862]
 * Operacja MillFace została ponownie zaimplementowana z istotnymi ulepszeniami jako MillFacing. [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull request #24367]
 * [[CAM_SimpleCopy/pl|Szybka kopia]] pozwala teraz na wybór wielu operacji. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull request #24297]
@@ -150,6 +153,7 @@ Do [[CAM_Preferences/pl|Preferencji środowiska pracy CAM]] dodano Bibliotekę m
 * Narzędzie [[CAM_SelectLoop/pl|Zakończ zaznaczoną pętlę]] zostało ulepszone i zwraca teraz polilinię, jeśli wybrano krawędzie, a inne metody zawiodły. [https://github.com/FreeCAD/FreeCAD/pull/24185 Pull request #24185]
 * Funkcja chłodzenia została dodana do postprocesora Kinetic. [https://github.com/FreeCAD/FreeCAD/pull/25022 Pull request #25022]
 * Właściwość ''Jednostki'' (Metryczne/Imperialne) została dodana do końcówek narzędzi. [https://github.com/FreeCAD/FreeCAD/pull/25783 Pull request #25783]
+</div>
 
 <span id="Draft_Workbench"></span>
 ==Środowisko pracy Rysunek Roboczy==
@@ -308,6 +312,10 @@ ToDo (last check: 20260412):
 
 <span id="Further_Spreadsheet_improvements"></span>
 ===Pozostałe ulepszenia środowiska Arkusz Kalkulacyjny===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* The color picker was redesigned and has two buttons - for custom colors and for resetting. [https://github.com/FreeCAD/FreeCAD/pull/28698 Pull request #28698]
+</div>
 
 <span id="Surface_Workbench"></span>
 ==Środowisko pracy Powierzchnia 3D==
