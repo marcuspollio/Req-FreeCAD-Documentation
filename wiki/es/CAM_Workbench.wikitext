@@ -18,15 +18,17 @@ El [[Image:Workbench_CAM.svg|24px]] [[CAM_Workbench|Ambiente de Trabajo de Traye
 
 [[Image:pathwb.png|600px]]
 
-<div class="mw-translate-fuzzy">
-El flujo de trabajo del ambiente de trabajo Trayectoria crea estas instrucciones maquina como sigue:
-* Un modelo 3D es la base del objeto, tipicamente creado utilizando uno o más de los bancos de trabajo [[PartDesign_Workbench/es|Diseño de parte]], [[Part_Workbench/es|Parte]] o [[Draft_Workbench/es|Boceto]].
-*Un [[CAM_Job/es|Objeto trabajo]] es creado en el banco de trabajo Trayectoria. Este contiene toda la información necesaria para generar el código G para procesarlo el trabajo sobre una maquina CNC:Eso es material stock, la maquina de mecanizado tiene un cierto [[CAM_ToolBitLibraryOpen|Conjunto de herramientas]] y estos siguen cierto comandos de control de velocidad y movimientos (Usualmente codigo G).
-*Herramientas son seleccionadas como son requeridas por las operaciones de trabajo.
-*Trayectorias de mecanizado son creadas utilizando por ejemplo, operaciones [[CAM_Profile|Contorno]] and [[CAM_Pocket_3D|Vaciado]]. Esos Objectos trayectoria utilizan una dialecto de código G el cual es independiente de la maquina CNC.
-* Exporte el trabajo con un código G, que coincida con su máquina.
-Este paso se denomina ''postprocesamiento''; hay diferentes postprocesadores disponibles.
-</div>
+El flujo de trabajo de FreeCAD CAM Workbench crea estas instrucciones de máquina de la siguiente manera:
+
+* El objeto base es un modelo 3D generalmente creado con uno o más de los entornos de trabajo [[Image:Workbench_PartDesign.svg|24px]] [[PartDesign_Workbench|Part]], [[Image:Workbench_Part.svg|24px]] [[Part_Workbench|Pieza]] o [[Image:Workbench_Draft.svg|24px]] [[Draft_Workbench|Boceto]].
+
+* Se crea un [[CAM_Job|trabajo CAM]] en el entorno de trabajo CAM. Este contiene toda la información necesaria para generar el código G necesario para procesar el trabajo en una fresadora CNC. Hay material en bruto, la fresadora tiene un [[CAM_ToolBitLibraryOpen|conjunto de herramientas]] determinado y sigue ciertos comandos que controlan la velocidad y los movimientos (generalmente código G).
+
+* Las herramientas CAM se seleccionan según lo requieran las operaciones del trabajo.
+
+* Las trayectorias de fresado se crean utilizando, por ejemplo, las operaciones [[CAM_Profile|Contorno]] y [[CAM_Pocket3D|Vaciado]]. Estos objetos CAM utilizan el dialecto de código G interno de FreeCAD, independiente de la máquina CNC.
+
+* Exportar el trabajo con un código G compatible con su máquina. Este paso se denomina «posprocesamiento»; existen diferentes posprocesadores disponibles.
 
 <span id="General_concepts"></span>
 == Conceptos generales ==
