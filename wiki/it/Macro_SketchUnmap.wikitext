@@ -54,9 +54,7 @@ Ora, per qualche motivo, è necessario invertire il senso di aspirazione (ovviam
 
 La visualizzazione ad albero mostra un errore, la vista 3D non è aggiornata e lo schizzo del cerchio fluttua nel nulla...
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Now comes the job of the macro (that you need to run before changing the reference face, when the sketch is still at its right place). Select the sketch and run it. If your sketch is in a body, a message box will ask to choose among the 3 different options (if your sketch is out of a body, it will automatically apply the 1st one) :
-</div>
+Ora arriva il momento della macro (che si deve eseguire prima di cambiare la faccia di riferimento, quando lo schizzo è ancora nella posizione corretta). Selezionare lo schizzo ed eseguirla. Se lo schizzo si trova all'interno di un corpo, verrà visualizzata una finestra di messaggio che chiederà di scegliere tra le 3 diverse opzioni (se lo schizzo si trova all'esterno di un corpo, verrà applicata automaticamente la prima):
 
 * "Raw" mode
 * "DP@Face mode"
