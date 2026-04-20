@@ -185,9 +185,7 @@ FreeCAD oferuje szeroki wybór sposobów ustawiania tej właściwości, jeden je
 FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
 }}
 
-<div class="mw-translate-fuzzy">
 Ale ponad innymi rozważaniami, jedna rzecz jest kluczowa, geometria '''punkt odniesienia'''. Innymi słowy punkt, z którego obiekt jest modelowany przez FreeCAD, jak opisano w tej tabeli, skopiowanej z [[Placement/pl|umiejscowienia]]:
-</div>
 
 {| class="wikitable" border="1"
 !Object!!Punkt odniesienia
