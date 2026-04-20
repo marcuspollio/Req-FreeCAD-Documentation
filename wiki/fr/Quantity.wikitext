@@ -175,7 +175,7 @@ Units.Quantity('1 MPa').getValueAs(Units.Quantity('N/m^2')) # a quantity
 <span id="User_facing_values"></span>
 === Valeurs orientées vers l'usager ===
 
-Normalement, dans un script, vous pouvez utiliser Quantity pour tout genre de calcul et vérification, mais il peut mettre un certain temps pour afficher les informations à l'utilisateur. Vous pouvez utiliser getValueAs() pour forcer une certaine unité, mais normalement l'utilisateur définit son système d'unités préféré dans les préférences. Ce système d'unités donne toutes les représentations de la conversions que l'utilisateur veut voir. Actuellement, les systèmes suivants sont implémentés :
+Normalement, dans un script, vous pouvez utiliser Quantity pour tout genre de calcul et vérification, mais il peut mettre un certain temps pour afficher les informations à l'utilisateur. Vous pouvez utiliser getValueAs() pour forcer une certaine unité, mais normalement l'utilisateur définit son système d'unités préféré dans les préférences. Ce système d'unités donne toutes les représentations de la conversion que l'utilisateur veut voir. Actuellement, les systèmes suivants sont implémentés :
 # Standard (mm, kg, s) 
 # MKS (m, kg, s)
 # Système américain (in, lb) 
