@@ -293,13 +293,11 @@ Algunos comandos son experimentales y no están disponibles de forma predetermin
 
 Gestiona herramientas, brocas y la biblioteca de herramientas. Basado en la arquitectura ToolBit.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[CAM_Tools|CAM Tools]]
-* [[CAM_ToolShape|CAM ToolShape]]
-* [[CAM_ToolBit|CAM ToolBit]]
-* [[CAM_ToolBit_Library|CAM ToolBit Library]]
-* [[CAM_ToolController|CAM ToolController]]
-</div>
+* [[CAM_Tools|Herramientas CAM]]
+* [[CAM_ToolShape|Forma de herramienta CAM]]
+* [[CAM_ToolBit|Broca de herramienta CAM]]
+* [[CAM_ToolBit_Library|Biblioteca de brocas de herramienta CAM]]
+* [[CAM_ToolController|Controlador de herramientas CAM]]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Other ==
