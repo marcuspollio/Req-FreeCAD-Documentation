@@ -143,9 +143,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 * La sección Ejemplos de la página de inicio se puede ocultar mediante una configuración en las preferencias. [https://github.com/FreeCAD/FreeCAD/pull/19376 Solicitud de extracción n.° 19376] y [https://github.com/FreeCAD/FreeCAD/pull/19918 Solicitud de extracción n.° 19918].
 * Las vistas previas (miniaturas) para más formatos de modelos 3D (como STEP y STL) ahora se muestran en las secciones Archivos recientes y Ejemplos de la página de inicio si el visor F3D está instalado y agregado a la variable de entorno PATH del sistema. [https://github.com/FreeCAD/FreeCAD/pull/19489 Solicitud de extracción n.° 19489]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Addon Manager ==
-</div>
+<span id="Addon_Manager"></span>
+== Administrador de complementos ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The Python dependency updater now works correctly if FreeCAD is installed as a snap package or as an AppImage. [https://github.com/FreeCAD/FreeCAD/pull/19384 Pull request #19384], [https://github.com/FreeCAD/FreeCAD/pull/19766 Pull request #19766] and [https://github.com/FreeCAD/FreeCAD/pull/19814 Pull request #19814].
