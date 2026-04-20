@@ -130,14 +130,18 @@ def my_cyl(name, ang, rad, hei):
 
 Même ici, rien de trop excitant. Mais veuillez noter quelques particularités:
 
+<div class="mw-translate-fuzzy">
 * L'absence de la référence habituelle à l '{{incode|App.}}, présente dans de nombreux extraits de code de documentation est délibérée. Ce code pourrait être utilisé même en invoquant FreeCAD comme module dans un interpréteur Python externe, la chose n'est pas facilement faisable avec une AppImage, mais avec un certain soin, cela pourrait être fait. De plus, dans la devise standard de Python, "mieux explicite qu'implicite", {{incode|App.}} explique de manière très "mal" d'où viennent les choses.
 * Notez l'utilisation du nom "constant" attribué au document actif dans {{incode|DOC &#61; FreeCAD.activeDocument()}}. activeDocument n'est pas une "constante" au sens strict, mais d'une manière "sémantique" c'est notre "Document actif", qui pour notre utilisation sera une "constante" appropriée. La convention Python d'utiliser le nom "ALL CAPS" pour "constantes", sans oublier que {{incode|DOC}} est beaucoup plus court que {{incode|FreeCAD.activeDocument()}}.
 * Chaque fonction retourne une géométrie, cela sera clair dans la suite de la page.
 * Géométrie n'avait pas la propriété {{incode|Placement}}, lors de l'utilisation de géométries simples pour créer une géométrie plus complexe, gérer {{incode|Placement}} est une chose délicate.
+</div>
 
 Maintenant, que faire avec ces géométries?
 
+<div class="mw-translate-fuzzy">
 Introduisons les opérations booléennes. Comme exemple pour démmarrer, placez ces lignes après {{incode|my_cyl}}, cela crée une fonction pour une '''Fusion''' également connue sous le nom d'opération '''Union''' :
+</div>
 
 {{Code|code=
 def fuse_obj(name, obj_0, obj_1):
@@ -151,9 +155,13 @@ def fuse_obj(name, obj_0, obj_1):
     return obj
 }}
 
+<div class="mw-translate-fuzzy">
 Rien d'exceptionnel ici aussi, notez cependant l'uniformité dans le codage des fonctions. Cette approche est plus linéaire que celles vues autour d'autres tutoriels sur les scripts, cette "linéarité" aide grandement à la lisibilité et aussi avec les opérations couper-copier-coller.
+</div>
 
+<div class="mw-translate-fuzzy">
 Utilisons les géométries, supprimons les lignes sous la section de code commençant par {{incode|# objects definition}} et insérons les lignes suivantes:
+</div>
 
 {{Code|code=
 # objects definition
@@ -167,7 +175,9 @@ fuse_obj("Fusion", obj, obj1)
 set_view()
 }}
 
+<div class="mw-translate-fuzzy">
 Lancez le script avec la flèche verte et nous verrons dans la vue 3D quelque chose comme :
+</div>
 
 [[File:Cucil.png|thumb|center|Cube et cylindre]]
 
@@ -175,15 +185,21 @@ Lancez le script avec la flèche verte et nous verrons dans la vue 3D quelque ch
 
 Le concept de placement est relativement complexe, voir [[Aeroplane/fr|tutoriel avion]] pour une explication plus approfondie.
 
+<div class="mw-translate-fuzzy">
 Nous avons généralement besoin de placer des géométries respectueuses les unes des autres, lorsque la construction d'un objet complexe est une tâche récurrente, le moyen le plus courant est d'utiliser la propriété geometry {{incode|Placement}}.
+</div>
 
+<div class="mw-translate-fuzzy">
 FreeCAD offre un large choix de moyens pour définir cette propriété, l'un est plus adapté à l'autre en fonction des connaissances et du parcours de l'utilisateur, mais plus l'écriture est simple et expliquée dans le Tutoriel cité, plus il utilise une définition particulière de la partie {{incode|Rotation}} de {{incode|Placement}}, assez facile à apprendre.
+</div>
 
 {{Code|code=
 FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
 }}
 
+<div class="mw-translate-fuzzy">
 Mais par rapport à d'autres considérations, une chose est cruciale, la géométrie '''point de référence''', c'est-à-dire le point à partir duquel l'objet est modélisé par FreeCAD, comme décrit dans ce tableau, copié de [[Placement/fr|Placement]] :
+</div>
 
 {| class="wikitable" border="1"
 !Objet!!Point de référence
