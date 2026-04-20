@@ -21,18 +21,18 @@
 ** [[Python_scripting_tutorial|Tutorial de scripting en Python]]
 ** [[FreeCAD_Scripting_Basics|Conceptos básicos de scripting en FreeCAD]]
 
-* Built-in workbench related:
-** [[Drawing_API_example|Drawing scripting]] ({{Emphasis|the Drawing workbench is obsolete}})
-** [[FEM_Tutorial_Python|FEM scripting]]
-** [[Mesh_Scripting|Mesh scripting]]
-** [[Mesh_to_Part|Mesh: Converting between Meshes and Parts]]
-** [[Part_scripting|Part scripting]]
-** [[Topological_data_scripting|Part: Basic shape manipulation]]
-** [[Scripted_Parts:_Ball_Bearing_-_Part_1|Part: Create a ball bearing part I]]
-** [[Scripted_Parts:_Ball_Bearing_-_Part_2|Part: Create a ball bearing part II]]
-** [[Path_scripting|Path scripting]]
-** [[Raytracing_API_example|Raytracing scripting]] ({{Emphasis|the Raytracing workbench is obsolete}})
-** [[Sketcher_scripting|Sketcher scripting]]
+* Relacionado con el entorno de trabajo integrado:
+** [[Drawing_API_example|Scripting de dibujo]] ({{Emphasis|El entorno de trabajo de dibujo está obsoleto}})
+** [[FEM_Tutorial_Python|Scripting de elementos finitos]]
+** [[Mesh_Scripting|Scripting de mallas]]
+** [[Mesh_to_Part|Mesh: Conversión entre mallas y piezas]]
+** [[Part_scripting|Scripting de piezas]]
+** [[Topological_data_scripting|Part: Manipulación básica de formas]]
+** [[Scripted_Parts:_Ball_Bearing_-_Part_1|Part: Crear una pieza de rodamiento de bolas I]]
+** [[Scripted_Parts:_Ball_Bearing_-_Part_2|Part: Crear una pieza de rodamiento de bolas II]]
+** [[Path_scripting|Scripting de rutas]]
+** [[Raytracing_API_example|Raytracing_scripting]] ({{Emphasis|El entorno de trabajo de Raytracing está obsoleto}})
+** [[Sketcher_scripting|Sketcher_scripting]]
 
 * FeaturePython objects (also called 'scripted objects'):
 ** [[Create_a_FeaturePython_object_part_I|Create a FeaturePython object part I]]
