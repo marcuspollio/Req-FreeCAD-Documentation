@@ -344,14 +344,12 @@ Consulte [[CAM_scripting|CAM scripting]].
 * [[CAM_Development_Roadmap|CAM Development Roadmap]]: Lea esto si es desarrollador y desea contribuir a CAM.
 
 
-<div class="mw-translate-fuzzy">
-{{Docnav/es
-|[[PartDesign_Workbench/es|PartDesign Ambiente de trabajo]]
-|[[Points_Workbench/es|Puntos Ambiente de trabajo]]
-|IconL=Workbench_PartDesign.svg
-|IconR=Workbench_Points.svg
+{{Docnav
+|[[BIM_Workbench|Ambiente de Trabajo BIM]]
+|[[Draft_Workbench|Ambiente de Trabajo Boceto]]
+|IconL=Workbench_BIM.svg
+|IconR=Workbench_Draft.svg
 }}
-</div>
 
 {{CAM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
