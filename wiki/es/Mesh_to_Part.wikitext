@@ -64,9 +64,7 @@ solid = Part.makeSolid(shape)
 Part.show(solid)
 }}
 
-<div class="mw-translate-fuzzy">
-El segundo método ofrece la posibilidad de considerar coplanares las facetas de malla que forman entre si un pequeño ángulo. Esto permite la construcción de formas mucho más simples:
-</div>
+El segundo método ofrece la posibilidad de considerar las facetas de la malla como coplanares cuando el ángulo entre ellas es inferior a un cierto valor, reduciendo así el número de caras en el resultado final:
 
 {{Code|code=
 import Mesh
