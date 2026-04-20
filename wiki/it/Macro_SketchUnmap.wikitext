@@ -24,9 +24,7 @@ Per evitare danni, la macro deve essere applicata quando il modello è ancora co
 <span id="Usage"></span>
 ===Utilizzo===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Functionally, the macro will remove the current mapping of the sketch on which it is applied, then apply to it an absolute placement so it is immune to mapping support change.
-</div>
+Dal punto di vista funzionale, la macro rimuoverà la mappatura corrente dello schizzo su cui viene applicata, quindi applicherà ad esso un posizionamento assoluto in modo che sia immune alle modifiche del supporto di mappatura.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To do so, the macro will basically propose 3 options (if your sketch isn't in a PartDesign Body, only first option is available and will be applied automatically) :
