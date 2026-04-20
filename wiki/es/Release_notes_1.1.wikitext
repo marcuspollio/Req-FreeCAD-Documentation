@@ -101,13 +101,12 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 [https://github.com/FreeCAD/FreeCAD/pull/23368 Solicitud de extracción n.° 23368]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:Core_datum_size_relnotes_1.1.png|384px]]
-| Origin planes are now enlarged when hovering the cursor over them. There is also a new ''Datum size'' preference to control the size of datum objects.
-[https://github.com/FreeCAD/FreeCAD/pull/23274 Pull request #23274]
+| [[Archivo:Core_datum_size_relnotes_1.1.png|384px]]
+| Los planos de origen ahora se amplían al pasar el cursor sobre ellos. También hay una nueva preferencia de "Tamaño de referencia" para controlar el tamaño de los objetos de referencia.
+
+[https://github.com/FreeCAD/FreeCAD/pull/23274 Solicitud de extracción n.° 23274]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
