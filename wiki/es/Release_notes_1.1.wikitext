@@ -537,17 +537,15 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="TechDraw_Workbench"></span>
 == Ambiente de Trabajo TechDraw ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The [[Image:TechDraw_AreaDimension.svg|24px]] [[TechDraw_AreaDimension|Insert Area Annotation]] tool now properly accounts for holes in faces. [https://github.com/FreeCAD/FreeCAD/pull/17740 Pull request #17740]
-* Shape validation is now available and can be enabled in [[TechDraw_Preferences#Advanced|Preferences]]. [https://github.com/FreeCAD/FreeCAD/pull/18282 Pull request #18282]
-* Scaling of SVG symbols has been fixed. [https://github.com/FreeCAD/FreeCAD/pull/18757 Pull request #18757]
-* New ''r'' format specifier was added. It rounds the dimension value to the step specified as decimal before ''r''. For example, ''%0.5r'' (or just ''%.5r'') rounds to 0.5. [https://github.com/FreeCAD/FreeCAD/pull/19393 Pull request #19393]
-* Snapping of detail view highlights to the closest vertex in the TaskDialog drag highlight process was added. [https://github.com/FreeCAD/FreeCAD/pull/22036 Pull request #22036]
-* Instead of [[TechDraw_ToggleFrame|toggling view frames]], they are now shown and hidden automatically when hovering the cursor over the view. [https://github.com/FreeCAD/FreeCAD/pull/22869 Pull request #22869]
-* The cosmetic circle commands were renamed and grouped for clarity. [https://github.com/FreeCAD/FreeCAD/pull/22945 Pull request #22945]
-* The deprecated [[Image:TechDraw_LandmarkDimension.svg|24px]] [[TechDraw_LandmarkDimension|LandmarkDimension]] and [[Image:TechDraw_LinkDimension.svg|24px]] [[TechDraw_LinkDimension|LinkDimension]] tools were removed. [https://github.com/FreeCAD/FreeCAD/pull/21483 Pull request #21483]
-* Number of decimals and reference dimension options were added to the [[Image:TechDraw_Dimension.svg|24px]] [[TechDraw_Dimension|dimension]] task panel. [https://github.com/FreeCAD/FreeCAD/pull/23501 Pull request #23501]
-</div>
+* La herramienta [[Image:TechDraw_AreaDimension.svg|24px]] [[TechDraw_AreaDimension|Insertar anotación de área]] ahora tiene en cuenta correctamente los agujeros en las caras. [https://github.com/FreeCAD/FreeCAD/pull/17740 Solicitud de extracción n.° 17740]
+* La validación de formas ya está disponible y se puede habilitar en [[TechDraw_Preferences#Advanced|Preferencias]]. [https://github.com/FreeCAD/FreeCAD/pull/18282 Solicitud de extracción n.° 18282]
+* Se ha corregido el escalado de los símbolos SVG. [https://github.com/FreeCAD/FreeCAD/pull/18757 Solicitud de extracción n.° 18757]
+* Se ha añadido un nuevo especificador de formato «r». Este redondea el valor de la dimensión al paso especificado como decimal antes de «r». Por ejemplo, «%0.5r» (o simplemente «%.5r») se redondea a 0.5. [https://github.com/FreeCAD/FreeCAD/pull/19393 Solicitud de extracción n.° 19393]
+* Se agregó el ajuste de los resaltados de la vista de detalle al vértice más cercano en el proceso de resaltado por arrastre del cuadro de diálogo de tareas. [https://github.com/FreeCAD/FreeCAD/pull/22036 Solicitud de extracción n.° 22036]
+* En lugar de [[TechDraw_ToggleFrame|alternar marcos de vista]], ahora se muestran y ocultan automáticamente al pasar el cursor sobre la vista. [https://github.com/FreeCAD/FreeCAD/pull/22869 Solicitud de extracción n.° 22869]
+* Los comandos de círculo cosmético se renombraron y agruparon para mayor claridad. [https://github.com/FreeCAD/FreeCAD/pull/22945 Solicitud de extracción n.° 22945]
+* Se eliminaron las herramientas obsoletas [[Image:TechDraw_LandmarkDimension.svg|24px]] [[TechDraw_LandmarkDimension|LandmarkDimension]] y [[Image:TechDraw_LinkDimension.svg|24px]] [[TechDraw_LinkDimension|LinkDimension]]. [https://github.com/FreeCAD/FreeCAD/pull/21483 Solicitud de extracción n.° 21483]
+* Se agregaron las opciones de número con decimales y dimensión de referencia al panel de tareas [[Image:TechDraw_Dimension.svg|24px]] [[TechDraw_Dimension|dimension]]. [https://github.com/FreeCAD/FreeCAD/pull/23501 Solicitud de extracción n.° 23501]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Import and Export ==
