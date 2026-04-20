@@ -456,17 +456,15 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="Further_Part_Design_improvements"></span>
 === Mejoras adicionales en el diseño de las piezas ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The origin feature in a Part Design body makes use of the new core datums. The appearance has been changed and the planes enlarge when creating a new sketch. As the orientation was wrong in older FreeCAD versions, files created with these versions need to be converted on opening. It can break files which reference the datums, and converted or new files created with {{VersionPlus|1.1}} will be broken in {{VersionMinus|1.0}}. [https://github.com/FreeCAD/FreeCAD/pull/18126 Pull request #18126]
-* The [[Image:Std_ToggleFreeze.svg|24px]] [[Std_ToggleFreeze|Toggle freeze]] command is now available from Part Design. [https://github.com/FreeCAD/FreeCAD/pull/18373 Pull request #18373]
-* The performance of modeled threads from the [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Hole tool]] has been improved. [https://github.com/FreeCAD/FreeCAD/pull/15744 Pull request #15744]
-* The initial angle for tapered threads in the [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Hole tool]] is now automatically set to the value from the ISO 7-1 and ASME B1.20.1 standards. [https://github.com/FreeCAD/FreeCAD/pull/15744 Pull request #15744]
-* The [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Hole tool]] can now create holes based on sketch points and arcs in addition to circles. [https://github.com/FreeCAD/FreeCAD/pull/20583 Pull request #20583]
-* ''SwitchToTask'', formerly a  [[Fine-tuning|fine-tuning]] parameter, can now be accessed from the [[PartDesign_Preferences#General|Preferences Editor]]. It can be used to enable and disable automatic switching to the task panel when the Part Design Workbench is activated. [https://github.com/FreeCAD/FreeCAD/pull/22136 Pull request #22136]
-* The [[Image:PartDesign_Pad.svg|24px]] [[PartDesign_Pad|Pad]] task panel was improved to have more options for ''Two sided'' mode. [https://github.com/FreeCAD/FreeCAD/pull/21794 Pull request #21794]
-* The preference to allow compounds (multiple solids) for Bodies is now enabled by default and not treated as an experimental feature anymore. [https://github.com/FreeCAD/FreeCAD/pull/23003 Pull request #23003]
-* [[PartDesign_Workbench#Transformation_tools|Transform tools]] can now use different spacing. [https://github.com/FreeCAD/FreeCAD/pull/22389 Pull request #22389]
-</div>
+* La función de origen en el cuerpo de Diseño de piezas utiliza los nuevos datos básicos. La apariencia ha cambiado y los planos se amplían al crear un nuevo boceto. Dado que la orientación era incorrecta en versiones anteriores de FreeCAD, los archivos creados con estas versiones deben convertirse al abrirlos. Esto puede dañar los archivos que hacen referencia a los datos, y los archivos convertidos o nuevos creados con {{VersionPlus|1.1}} se dañarán en {{VersionMinus|1.0}}. [https://github.com/FreeCAD/FreeCAD/pull/18126 Solicitud de extracción n.° 18126]
+* El comando [[Image:Std_ToggleFreeze.svg|24px]] [[Std_ToggleFreeze|Toggle freeze]] ya está disponible en Diseño de piezas. [https://github.com/FreeCAD/FreeCAD/pull/18373 Solicitud de extracción n.° 18373]
+* Se ha mejorado el rendimiento de las roscas modeladas con la herramienta [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Hole]]. [https://github.com/FreeCAD/FreeCAD/pull/15744 Solicitud de extracción n.° 15744]
+* El ángulo inicial para roscas cónicas en la herramienta [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Hole]] ahora se establece automáticamente al valor de las normas ISO 7-1 y ASME B1.20.1. [https://github.com/FreeCAD/FreeCAD/pull/15744 Solicitud de extracción n.° 15744]
+* La herramienta [[PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Agujero]] ahora puede crear agujeros a partir de puntos de boceto y arcos, además de círculos. [https://github.com/FreeCAD/FreeCAD/pull/20583 Solicitud de extracción n.° 20583]
+* El parámetro «SwitchToTask», anteriormente de [[Fine-tuning|Ajuste fino]], ahora se puede acceder desde el [[PartDesign_Preferences#General|Editor de preferencias]]. Se puede usar para activar y desactivar el cambio automático al panel de tareas cuando se activa el Entorno de trabajo de diseño de piezas. [https://github.com/FreeCAD/FreeCAD/pull/22136 Solicitud de extracción n.° 22136]
+* El panel de tareas [[Image:PartDesign_Pad.svg|24px]] [[PartDesign_Pad|Pad]] se ha mejorado para ofrecer más opciones en el modo «Doble cara». [https://github.com/FreeCAD/FreeCAD/pull/21794 Solicitud de extracción n.° 21794]
+* La preferencia para permitir compuestos (varios sólidos) en los cuerpos ahora está habilitada por defecto y ya no se considera una función experimental. [https://github.com/FreeCAD/FreeCAD/pull/23003 Solicitud de extracción n.° 23003]
+* [[PartDesign_Workbench#Transformation_tools|Herramientas de transformación]] ahora puede usar diferentes espaciados. [https://github.com/FreeCAD/FreeCAD/pull/22389 Solicitud de extracción n.° 22389]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Sketcher Workbench ==
