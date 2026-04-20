@@ -153,9 +153,7 @@ def fuse_obj(name, obj_0, obj_1):
 
 Rien d'exceptionnel ici aussi, notez cependant l'uniformité dans le codage des fonctions. Cette approche est plus linéaire que celles vues autour d'autres tutoriels sur les scripts, cette "linéarité" aide grandement à la lisibilité et aussi avec les opérations couper-copier-coller.
 
-<div class="mw-translate-fuzzy">
-Utilisons les géométries, supprimons les lignes sous la section de code commençant par {{incode|# objects definition}} et insérons les lignes suivantes:
-</div>
+Utilisons les géométries : supprimons les lignes sous la section de code commençant par {{incode|# objects definition}} et insérons les lignes suivantes:
 
 {{Code|code=
 # objects definition
