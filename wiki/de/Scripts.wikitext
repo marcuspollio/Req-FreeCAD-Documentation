@@ -131,14 +131,18 @@ def my_cyl(name, ang, rad, hei):
 
 Auch hier nichts allzu Aufregendes. Aber bitte beachte einige Besonderheiten:
 
+<div class="mw-translate-fuzzy">
 * Das Fehlen des üblichen Verweises auf die {{incode|App.}}, die in vielen Dokumentations-Code-Schnipseln vorhanden ist, ist beabsichtigt, dieser Code könnte sogar beim Aufruf von FreeCAD als Modul in einem externen Python-Interpreter verwendet werden, die Sache ist mit einem AppImage nicht einfach zu bewerkstelligen, aber mit etwas Vorsicht wäre es machbar. Und in dem Standard Motto von Python, dass "besser explizit als implizit" {{incode|App.}} in einer sehr " dürftigen" Weise erklärt, woher die Dinge kommen.
 * Beachte die Verwendung des dem aktiven Dokument zugewiesenen "konstanten" Namens in {{incode|DOC &#61; FreeCAD. activeDocument()}}; activeDocument ist keine "Konstante" im strengen Sinne, aber in einer "semantischen" Weise ist unser "aktives Dokument", das für unseren Gebrauch eine richtige "Konstante" ist, so dass die Python Konvention, den "ALL CAPS" Namen für "Konstanten" zu verwenden, ganz zu schweigen davon, dass {{incode|DOC}} viel kürzer ist als {{incode|FreeCAD.activeDocument()}}.
 * Jede Funktion gibt eine Geometrie zurück, dies wird in der Fortsetzung der Seite deutlich.
 * Geometrie hatte nicht die Eigenschaft {{incode|Placement}}, wenn die einfachen Geometrien verwendet werden, um komplexere Geometrie zu erstellen, ist die Verwaltung von {{incode|Placement}} eine umständliche Sache.
+</div>
 
 Was ist nun mit diesen Geometrien zu tun?
 
+<div class="mw-translate-fuzzy">
 Lasst uns boolesche Verknüpfungen einführen. Als Einstiegsbeispiel werden diese Zeilen nach {{incode|my_cyl}} eingefügt; dies erzeugt eine Funktion zum '''Verschmelzen''' (fuse), bekannt als '''Vereinigung''':
+</div>
 
 {{Code|code=
 def fuse_obj(name, obj_0, obj_1):
@@ -152,9 +156,13 @@ def fuse_obj(name, obj_0, obj_1):
     return obj
 }}
 
+<div class="mw-translate-fuzzy">
 Nichts Außergewöhnliches auch hier, beachte jedoch die Einheitlichkeit in der Programmierung der Funktion; Dieser Ansatz ist linearer als derjenige, den man in anderen Anleitungen zur Skripterstellung sieht, diese "Linearität" hilft sehr bei der Lesbarkeit und auch bei Ausschneiden-Kopieren-Einfügen Operationen.
+</div>
 
+<div class="mw-translate-fuzzy">
 Verwenden wir die Geometrien, löschen wir Zeilen unterhalb des Codeabschnitts, die mit {{incode|# objects definition}} beginnen, und fügen wir die folgenden Zeilen ein:
+</div>
 
 {{Code|code=
 # objects definition
@@ -168,7 +176,9 @@ fuse_obj("Fusion", obj, obj1)
 set_view()
 }}
 
+<div class="mw-translate-fuzzy">
 Starte das Skript mit dem grünen Pfeil und wir sehen in der 3D_Ansicht so etwas:
+</div>
 
 [[File:Cucil.png|thumb|center|Würfel und Zylinder]]
 
@@ -177,15 +187,21 @@ Starte das Skript mit dem grünen Pfeil und wir sehen in der 3D_Ansicht so etwas
 
 Das Platzierungskonzept ist relativ komplex, siehe [[Aeroplane/de|Aeroplane Tutorium]] für eine ausführlichere Erklärung.
 
+<div class="mw-translate-fuzzy">
 Normalerweise ist es notwendig, dass sich die Geometrien gegenseitig respektieren. Beim Bau komplexer Objekte ist dies eine wiederkehrende Aufgabe, am häufigsten wird die Geometrie {{incode|Placement}} Eigenschaft verwendet.
+</div>
 
+<div class="mw-translate-fuzzy">
 FreeCAD bietet eine große Auswahl an Möglichkeiten, diese Eigenschaft zu setzen, eine ist mehr auf eine andere zugeschnitten, abhängig vom Wissen und dem Hintergrund des Benutzers, aber je klarer das Schreiben im zitierten Tutoriumerklärt wird, verwendet es eine eigentümliche Definition des {{incode|Rotation}} Anteils von {{incode|Placement}}, recht einfach zu erlernen.
+</div>
 
 {{Code|code=
 FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
 }}
 
+<div class="mw-translate-fuzzy">
 Aber gegenüber anderen Überlegungen ist eine Sache ausschlaggebend, nämlich der geometrische '''Referenzpunkt''', also der Punkt, von dem aus das Objekt von FreeCAD modelliert wird, wie in dieser Tabelle beschrieben, kopiert von [[Placement/de|Platzierung]]:
+</div>
 
 {| class="wikitable" border="1"
 !Objekt!!Referenzpunkt
