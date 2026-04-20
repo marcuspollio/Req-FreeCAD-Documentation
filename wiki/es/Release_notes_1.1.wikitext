@@ -469,13 +469,13 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 <span id="Sketcher_Workbench"></span>
 === Ambiente de Trabajo Croquizador ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:Sketcher_defining_external_relnotes_1.1.gif|384px]]</br>Click on the image if the animation does not start.
-| [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection|Projection]] tool was added making it possible to create defining [[Sketcher_External|external geometry]] and toggle between defining and construction modes for external geometry.
-[https://github.com/FreeCAD/FreeCAD/pull/17736 Pull request #17736]
+| [[File:Sketcher_defining_external_relnotes_1.1.gif|384px]]</br>Haz clic en la imagen si la animación no se inicia.
+
+| [[Image:Sketcher_Projection.svg|24px]] Se agregó la herramienta [[Sketcher_Projection|Proyección]], lo que permite crear [[Sketcher_External|geometría externa]] definiendo y alternardo entre los modos de definición y construcción para geometría externa.
+
+[https://github.com/FreeCAD/FreeCAD/pull/17736 Solicitud de extracción n.° 17736]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
