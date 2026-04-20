@@ -252,9 +252,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 * Para simplificar la entrada de datos del usuario en matrices de un solo eje, se ha añadido la opción «modo lineal» al panel de tareas del comando [[Image:Draft_OrthoArray.svg|24px]] [[Draft_OrthoArray|Draft OrthoArray]]. [https://github.com/FreeCAD/FreeCAD/pull/21602 Solicitud de extracción n.° 21602]
 * Se han añadido sugerencias a la barra de estado para las herramientas de [[Draft_Workbench#Drafting|Draft Creation tools]]. [https://github.com/FreeCAD/FreeCAD/pull/23244 Solicitud de extracción n.° 23244]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Further Draft improvements ===
-</div>
+<span id="Further_Draft_improvements"></span>
+=== Otras mejoras de Draft ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The [[Draft_Fillet|Draft Fillet]] command now works on selected edges, instead of the first edge of selected objects. [https://github.com/FreeCAD/FreeCAD/pull/17945 Pull request #17945] and [https://github.com/FreeCAD/FreeCAD/pull/18150 Pull request #18150]
