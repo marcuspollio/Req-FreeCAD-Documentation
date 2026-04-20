@@ -137,9 +137,7 @@ Même ici, rien de trop excitant. Mais veuillez noter quelques particularités:
 
 Maintenant, que faire avec ces géométries?
 
-<div class="mw-translate-fuzzy">
-Introduisons les opérations booléennes. Comme exemple pour démmarrer, placez ces lignes après {{incode|my_cyl}}, cela crée une fonction pour une '''Fusion''' également connue sous le nom d'opération '''Union''' :
-</div>
+Introduisons les opérations booléennes. Comme exemple pour démmarrer, placez ces lignes après {{incode|my_cyl}}. Cela crée une fonction pour une '''Fusion''' également connue sous le nom d'opération '''Union''' :
 
 {{Code|code=
 def fuse_obj(name, obj_0, obj_1):
