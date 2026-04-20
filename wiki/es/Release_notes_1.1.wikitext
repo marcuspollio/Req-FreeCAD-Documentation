@@ -272,9 +272,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 * La opción [[Draft_Snap_Intersection|Intersection snap]] ahora también detecta intersecciones entre caras y aristas. [https://github.com/FreeCAD/FreeCAD/pull/23352 Solicitud de extracción n.° 23352]
 * La opción «Orientación del plano de trabajo» se ha eliminado del comando [[Draft_Scale|Draft Scale]] porque no funcionaba correctamente. [https://github.com/FreeCAD/FreeCAD/pull/23716 Solicitud de extracción n.° 23716]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== FEM Workbench ==
-</div>
+<span id="FEM_Workbench"></span>
+== Ambiente de Trabajo FEM ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
