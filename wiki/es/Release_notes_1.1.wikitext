@@ -492,13 +492,13 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 [https://github.com/FreeCAD/FreeCAD/pull/17736 Solicitud de extracción n.° 17736]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:InternalFaces_relnotes_1.1.gif|384px]]</br>Click on the image if the animation does not start.
-| The ''Make Internals'' property of sketches is now fully functional. If enabled, it displays faces for closed contours and makes it possible to select them for Part Design operations. The setting is still experimental but allows for a ''Master Sketch'' workflow in Part Design.
-[https://github.com/FreeCAD/FreeCAD/pull/22388 Pull request #22388]
+| [[File:InternalFaces_relnotes_1.1.gif|384px]]</br>''Haga clic en la imagen si la animación no se inicia.''
+
+| La propiedad "Crear internos" de los bocetos ahora funciona completamente. Si está habilitada, muestra las caras de los contornos cerrados y permite seleccionarlas para las operaciones de diseño de piezas. Esta configuración aún es experimental, pero permite un flujo de trabajo de "Boceto maestro" en el diseño de piezas.
+
+[https://github.com/FreeCAD/FreeCAD/pull/22388 Solicitud de extracción n.° 22388]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Further Sketcher improvements ===
