@@ -6,9 +6,7 @@
 
 Un comando es lo que se ejecuta al pulsar un botón de la barra de herramientas o al escribir una combinación de teclas. Puede ser una acción muy sencilla, como cambiar el nivel de zoom de la vista 3D o rotar el punto de vista, o un sistema complejo que abre cuadros de diálogo y espera a que el usuario realice tareas específicas.
 
-<div class="mw-translate-fuzzy">
-Cada comando de FreeCAD tiene un nombre único, que aparece en la página [[: Category: Command_Reference]]. Los comandos se pueden iniciar mediante un botón de la barra de herramientas, un elemento del menú o desde una secuencia de comandos de Python o la consola de Python, ejecutando:
-</div>
+Cada comando de FreeCAD tiene un nombre único que aparece en la página [[:Category:Command_Reference|:Categoría:Referencia de comandos]]. Los comandos se pueden ejecutar mediante un botón de la barra de herramientas, un elemento de menú o desde un script [[Python|python]] o la [[Python_console|Consola de Python]], ejecutando:
 
 {{Code|code=
 FreeCADGui.runCommand("my_Command_Name")
