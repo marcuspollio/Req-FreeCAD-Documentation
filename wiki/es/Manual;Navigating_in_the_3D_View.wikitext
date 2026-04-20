@@ -145,11 +145,15 @@ En la parte inferior derecha del Cubo de Navegación hay un minicubo más peque�
 <span id="Selecting_objects"></span>
 === Seleccionar objetos ===
 
-Objects in the 3D View can be selected by clicking them with the corresponding mouse button, depending on the navigation style (described above).
-* A single click will select the object and one of its subelements (edge, face, vertex).
-* Double-clicking will select the object and all its subelements.
-* You can select more than one object and more than one subelement, from the same or different objects, by pressing the {{KEY|CTRL}} key (or the {{KEY|CMD}} key on the Mac).
-* Clicking with the selection button on an empty portion of the 3D View will deselect everything.
+En la vista 3D, los objetos se pueden seleccionar haciendo clic con el botón del ratón correspondiente, según el estilo de navegación (descritos anteriormente).
+
+* Un solo clic seleccionará el objeto y uno de sus subelementos (arista, cara, vértice).
+
+* Un doble clic seleccionará el objeto y todos sus subelementos.
+
+* Puede seleccionar varios objetos y subelementos, del mismo objeto o de objetos diferentes, pulsando la tecla CTRL (o Cmd en Mac).
+
+* Al hacer clic con el botón de selección en una zona vacía de la vista 3D, se deseleccionará todo.
 
 A panel called [[Selection_View|Selection View]], available from the View menu, can also be turned on, which shows you what is currently selected:
 
