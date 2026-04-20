@@ -477,13 +477,12 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 [https://github.com/FreeCAD/FreeCAD/pull/17736 Solicitud de extracción n.° 17736]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:Sketcher_intersection_relnotes_1.1.png|384px]]
-| [[Image:Sketcher_Intersection.svg|24px]] [[Sketcher_Intersection|Intersection]] tool was added making it possible to create [[Sketcher_External|external geometry]] based on the selected reference geometry and the intersection of the sketch plane.
-[https://github.com/FreeCAD/FreeCAD/pull/17736 Pull request #17736]
+| [[Image:Sketcher_Intersection.svg|24px]] Se agregó la herramienta [[Sketcher_Intersection|Intersección]], lo que permite crear [[Sketcher_External|geometría externa]] a partir de la geometría de referencia seleccionada y la intersección del plano del boceto.
+
+[https://github.com/FreeCAD/FreeCAD/pull/17736 Solicitud de extracción n.° 17736]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
