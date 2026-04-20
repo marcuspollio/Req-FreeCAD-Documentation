@@ -466,9 +466,8 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 * La preferencia para permitir compuestos (varios sólidos) en los cuerpos ahora está habilitada por defecto y ya no se considera una función experimental. [https://github.com/FreeCAD/FreeCAD/pull/23003 Solicitud de extracción n.° 23003]
 * [[PartDesign_Workbench#Transformation_tools|Herramientas de transformación]] ahora puede usar diferentes espaciados. [https://github.com/FreeCAD/FreeCAD/pull/22389 Solicitud de extracción n.° 22389]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Sketcher Workbench ==
-</div>
+<span id="Sketcher_Workbench"></span>
+=== Ambiente de Trabajo Croquizador ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
