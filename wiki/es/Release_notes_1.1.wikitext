@@ -90,7 +90,7 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 {| cellpadding=5
 | [[File:QuickMeasure_relnotes_1.1.gif|384px]]</br>Haga clic en la imagen si la animación no se inicia.
 
-| [[Barra_de_estado#Medición_rápida|Medición rápida]] muestra más información según los elementos seleccionados en la barra de estado. Además de la longitud, el ángulo, el área y el radio, ahora muestra el diámetro de los elementos circulares cerrados y la distancia entre ejes. Funciona con elementos seleccionados individualmente o en grupo. También hay una opción de menú para desactivarlo.
+| [[Status_Bar#Quick_measure|Medición rápida]] muestra más información según los elementos seleccionados en la barra de estado. Además de la longitud, el ángulo, el área y el radio, ahora muestra el diámetro de los elementos circulares cerrados y la distancia entre ejes. Funciona con elementos seleccionados individualmente o en grupo. También hay una opción de menú para desactivarlo.
 
 [https://github.com/FreeCAD/FreeCAD/pull/23385 Solicitud de extracción n.° 23385] y [https://github.com/FreeCAD/FreeCAD/pull/23399 Solicitud de extracción n.° 23399]
 |}
