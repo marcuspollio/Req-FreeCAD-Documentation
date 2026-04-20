@@ -59,7 +59,6 @@ It is possible to add [[Property_editor#Context_menu|custom properties]] to obje
 
 以下の演算子を使えます。
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable"
 !style="width: 33%;"|演算子
 !style="width: 66%;"|説明
@@ -81,8 +80,25 @@ It is possible to add [[Property_editor#Context_menu|custom properties]] to obje
 |-
 | style="text-align:center;" | '''^'''
 | [https://ja.wikipedia.org/wiki/%E5%86%AA%E4%B9%97 べき算（指数）]
+|-
+| style="text-align:center;" | '''=='''
+| [https://ja.wikipedia.org/wiki/%E9%96%A2%E4%BF%82%E6%BC%94%E7%AE%97%E5%AD%90 等しい]
+|-
+| style="text-align:center;" | '''!='''
+| [https://ja.wikipedia.org/wiki/%E9%96%A2%E4%BF%82%E6%BC%94%E7%AE%97%E5%AD%90 等しくない]
+|-
+| style="text-align:center;" | '''>'''
+| [https://ja.wikipedia.org/wiki/%E9%96%A2%E4%BF%82%E6%BC%94%E7%AE%97%E5%AD%90 より大きい]
+|-
+| style="text-align:center;" | '''>='''
+| [https://ja.wikipedia.org/wiki/%E9%96%A2%E4%BF%82%E6%BC%94%E7%AE%97%E5%AD%90 以上]
+|-
+| style="text-align:center;" | '''<'''
+| [https://ja.wikipedia.org/wiki/%E9%96%A2%E4%BF%82%E6%BC%94%E7%AE%97%E5%AD%90 より小さい]
+|-
+| style="text-align:center;" | '''<='''
+| [https://ja.wikipedia.org/wiki/%E9%96%A2%E4%BF%82%E6%BC%94%E7%AE%97%E5%AD%90 以下]
 |}
-</div>
 {{Top}}
 <span id="Supported_functions"></span>
 == 関数 ==
