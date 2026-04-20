@@ -65,9 +65,7 @@ Las herramientas utilizadas son..:
 
 Para convertir el archivo .ui en .py debes usar '' pyuic.py'' se encuentra en "C:\Python27\Lib\N-sitio-packages\N-PyQt4\Npyuic.py" (para Windows)
 
-<div class="mw-translate-fuzzy">
-puedes crear un archivo convertuitopy.bat para automatizar el proceso
-</div>
+Puede crear un archivo convertuitopy.bat para automatizar el proceso:
 
 '' 1:''' Crear un nuevo archivo en el directorio de trabajo de Qt y nombrarlo '''convertuitopy.bat''.
 
