@@ -30,7 +30,7 @@ Al aprovechar Python, los usuarios de FreeCAD pueden liberar todo el potencial d
 FreeCAD incluye una consola Python avanzada, accesible a través de '''Ver → Paneles → Consola Python'''. Esta herramienta permite a los usuarios realizar operaciones más allá de la interfaz gráfica, como acceder a funciones avanzadas, solucionar problemas de geometría y automatizar tareas. También registra los comandos Python para las acciones de la interfaz gráfica si la opción ''Mostrar comandos de script en la consola Python'' está habilitada en {{MenuCommand|Editar → Preferencias → Python → Macro}}). Al mantener la consola abierta, puede observar cómo se ejecuta el código Python mientras trabaja, lo que ofrece una forma intuitiva de aprender el lenguaje mientras explora las capacidades de FreeCAD. Por último, FreeCAD también cuenta con un sistema de [[Macros|macros system]] que permite grabar acciones para reproducirlas posteriormente. Este sistema también utiliza la consola Python, simplemente registrando todo lo que se hace en ella.
 
 
-[[Archivo:FreeCAD Python Console.png]]
+[[File:FreeCAD Python Console.png]]
 
 En este capítulo, descubriremos de forma general el lenguaje Python. Si le interesa aprender más, la wiki de documentación de FreeCAD tiene una sección extensa relacionada con la programación en Python ([[Power_users_hub|Python programming]]).
 
