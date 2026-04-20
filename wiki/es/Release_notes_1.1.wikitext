@@ -445,13 +445,13 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 [https://github.com/FreeCAD/FreeCAD/pull/17249 Solicitud de extracción n.° 17249] y [https://github.com/FreeCAD/FreeCAD/pull/23477 Solicitud de extracción n.° 23477]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:PartDesignDraggers_relnotes_1.1.gif|384px]]</br>Click on the image if the animation does not start.
-| Interactive control draggers were added to Part Design features as a Google Summer of Code project. These allow to manipulate the values of the features by dragging in the 3D view.
-[https://github.com/FreeCAD/FreeCAD/pull/22880 Pull request #22880]
+| [[File:PartDesignDraggers_relnotes_1.1.gif|384px]]</br>''Haga clic en la imagen si la animación no se inicia.''
+
+| Se añadieron controles interactivos a las funciones de Diseño de piezas como parte de un proyecto de Google Summer of Code. Estos permiten manipular los valores de las funciones arrastrándolos en la vista 3D.
+
+[https://github.com/FreeCAD/FreeCAD/pull/22880 Solicitud de extracción n.º 22880]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Further Part Design improvements ===
