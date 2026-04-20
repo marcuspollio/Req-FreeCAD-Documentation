@@ -37,7 +37,8 @@ En este método, la interfaz se define en un archivo {{incode|.ui}} (un document
 
 * Dado que el archivo {{incode|.ui}} solo describe la "apariencia" de la interfaz, no necesita estar vinculado a un lenguaje de programación en particular. Puede utilizarse tanto en código [[Python|Python]] como en código C++.
 
-=== Interface completely in Python code ===
+<span id="Interface_completely_in_Python_code"></span>
+=== Interfaz completamente en código Python ===
 
 In this method the entire interface is defined by several Python calls.
 * This is an older way of working with interfaces.
