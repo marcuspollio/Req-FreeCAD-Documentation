@@ -325,13 +325,12 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 [https://github.com/FreeCAD/FreeCAD/pull/20286 Solicitud de extracción n.° 20286]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
-| [[File:FEM_Glyph_filter_relnotes_1.1.PNG|384px]]
-| [[Image:FEM_PostFilterGlyph.svg|24px]] [[FEM_PostFilterGlyph|Glyph filter]] was added along with a framework making it possible to develop more Python VTK filters.
-[https://github.com/FreeCAD/FreeCAD/pull/20891 Pull request #20891]
+| [[Archivo:FEM_Glyph_filter_relnotes_1.1.PNG|384px]]
+| [[Imagen:FEM_PostFilterGlyph.svg|24px]] [[FEM_PostFilterGlyph|Filtro de glifos]] se agregó junto con un marco que permite desarrollar más filtros VTK de Python.
+
+[https://github.com/FreeCAD/FreeCAD/pull/20891 Solicitud de extracción n.° 20891]
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
