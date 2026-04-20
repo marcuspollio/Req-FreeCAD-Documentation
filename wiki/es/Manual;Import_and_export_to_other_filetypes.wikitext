@@ -11,7 +11,6 @@
 
 FreeCAD puede importar y exportar a muchos tipos de archivo. Aquí tiene una lista de los más importantes con una breve descripción de las funciones disponibles:
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable" style="width:100%" 
 ! Formato 
 ! Importar 
@@ -31,7 +30,7 @@ FreeCAD puede importar y exportar a muchos tipos de archivo. Aquí tiene una lis
 | BREP   
 | Sí    
 | Sí    
-| El formato nativo de [https://en.wikipedia.org/wiki/Open_Cascade_Technology OpenCasCade], el núcleo de geometría de FreeCAD.  
+| El formato nativo de [https://en.wikipedia.org/wiki/Open_Cascade_Technology OpenCasCade], el núcleo de la geometría de FreeCAD.  
 |-
 | DXF    
 | Sí    
@@ -41,7 +40,7 @@ FreeCAD puede importar y exportar a muchos tipos de archivo. Aquí tiene una lis
 | DWG    
 | Sí    
 | Sí    
-| La versión propietaria de DXF. Requiere la instalación de la utilidad [https://www.opendesign.com/guestfiles Teigha File Converter]. Este formato sufre las mismas limitaciones que el DXF.
+| La versión propietaria de DXF. Requiere la instalación de la utilidad [https://www.opendesign.com/guestfiles Convertidor de archivos Teigha]. Este formato sufre las mismas limitaciones que el DXF.
 |-
 | OBJ    
 | Sí    
@@ -81,14 +80,13 @@ FreeCAD puede importar y exportar a muchos tipos de archivo. Aquí tiene una lis
 | GCODE  
 | Sí    
 | Sí    
-| FreeCAD ya puede importar y exportar a/desde varios sabores de GCode, pero sólo un pequeño número de máquinas es soportado por el momento. 
+| FreeCAD ahora puede importar y exportar a/desde varios sabores de GCode, pero sólo lo soportan un pequeño número de máquinas por el momento. 
 |-
 | CSG    
 | Sí    
 | No     
 | El formato [https://en.wikipedia.org/wiki/Constructive_solid_geometry CSG] (Constructive Solid Geometry) de OpenSCAD. 
 |}
-</div>
 
 Algunos de estos formatos de archivo tienen opciones. Estas se pueden configurar desde el menú '''Edición → Preferencias → Importar/exportar:'''
 
