@@ -277,7 +277,7 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 
 {| cellpadding=5
 | [[File:FEM_compsolid_selection_relnotes_1.1.png|384px]]
-| A popup menu was added to enable the selection of a proper solid if the selected face of CompSolid belongs to two solids. This makes it easier to select inner solids e.g. to apply materials to them.
+| Se agregó un menú emergente para permitir la selección del sólido adecuado si la cara seleccionada de CompSolid pertenece a dos sólidos. Esto facilita la selección de sólidos internos, por ejemplo, para aplicarles materiales.
 [https://github.com/FreeCAD/FreeCAD/pull/18812 Pull request #18812]
 |}
 
