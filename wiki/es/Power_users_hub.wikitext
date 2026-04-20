@@ -39,7 +39,7 @@ Si quieres contribuir con contenido a estas páginas, solicita una cuenta wiki c
 *[[Entorno_de_desarrollo_de_Python|Entorno de desarrollo de Python]] - Un entorno de desarrollo sencillo para Python dentro de FreeCAD
 
 <span id="Modules"></span>
-=== Modulos ===
+=== Módulos ===
 
 La funcionalidad de FreeCAD está separada en Módulos que tratan con tipos de datos y aplicaciones especiales. FreeCAD tiene módulos incorporados y módulos de extensión (plug-ins). Una vez que los módulos de extensión son instalados, están disponibles para ti tan fácilmente como los módulos incorporados. Los módulos descritos a continuación son los módulos por defecto, incluidos en cada instalación de FreeCAD.
 
@@ -47,7 +47,7 @@ La funcionalidad de FreeCAD está separada en Módulos que tratan con tipos de d
 * [[Workbench creation/es|Creación de ambientes de trabajo]] te muestra cómo crear tu propio ambientes de trabajo
 
 <span id="Working_with_Meshes"></span>
-====Trabajando con Mallas====
+=== Trabajando con Mallas ===
 
 * [[Mesh_Scripting/es|Guionización Mallas]]: Cómo interactuar con el [[Mesh_Workbench/es|Ambiente de trabajo Mallas]]
 
