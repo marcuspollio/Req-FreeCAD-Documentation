@@ -177,9 +177,7 @@ Le concept de placement est relativement complexe, voir [[Aeroplane/fr|tutoriel 
 
 Nous avons généralement besoin de placer des géométries respectueuses les unes des autres, lorsque la construction d'un objet complexe est une tâche récurrente. Le moyen le plus courant est d'utiliser la propriété de géométrie {{incode|Placement}}.
 
-<div class="mw-translate-fuzzy">
-FreeCAD offre un large choix de moyens pour définir cette propriété, l'un est plus adapté à l'autre en fonction des connaissances et du parcours de l'utilisateur, mais plus l'écriture est simple et expliquée dans le Tutoriel cité, plus il utilise une définition particulière de la partie {{incode|Rotation}} de {{incode|Placement}}, assez facile à apprendre.
-</div>
+FreeCAD offre un large choix de moyens pour définir cette propriété, l'un est plus adapté à l'autre en fonction des connaissances et du parcours de l'utilisateur. Le texte plus simple est expliqué dans le tutoriel cité, qui utilise une définition particulière de la partie {{incode|Rotation}} de {{incode|Placement}} : assez facile à comprendre.
 
 {{Code|code=
 FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
