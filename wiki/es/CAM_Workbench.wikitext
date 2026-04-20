@@ -71,11 +71,11 @@ El manejo de unidades en CAM puede ser confuso. Hay varios puntos para entender:
 # El esquema de unidad predeterminado usa las unidades predeterminadas. Si está utilizando el esquema predeterminado e ingresa una velocidad de avance sin una cadena de unidades, se ingresará como '''mm/s'''
 # La mayoría de las máquinas CNC esperan una velocidad de avance en forma de '''mm/min''' o '''in/min'''. La mayoría de los procesadores posteriores convertirán automáticamente la unidad cuando generen gcode.
 
-<div class="mw-translate-fuzzy">
-Schemas:
-# El cambio de esquema en las preferencias cambia la cadena de unidad predeterminada para los campos de entrada. Si usted es un usuario de Path y prefiere diseñar en métricas, es muy recomendable que use el esquema "Metric Small Parts & CNC". Si diseñas en unidades de EE. UU., Ya sea el decimal imperial o el Building US funcionarán
-# Cambiar el esquema de su unidad preferida no tendrá ningún efecto en la salida, pero ayudará a evitar errores de entrada
-</div>
+Esquemas:
+
+# Cambiar el esquema en las preferencias modifica la cadena de unidades predeterminada para los campos de entrada. Si utiliza CAM y prefiere diseñar en unidades métricas, se recomienda encarecidamente usar el esquema "Métrico para piezas pequeñas y CNC". Si diseña usando unidades estadounidenses, tanto el esquema Imperial Decimal como el de Construcción en EEUU funcionarán.
+
+# Cambiar su esquema de unidades preferido no afectará la salida, pero ayudará a evitar errores de entrada.
 
 <div class="mw-translate-fuzzy">
 Salida:
