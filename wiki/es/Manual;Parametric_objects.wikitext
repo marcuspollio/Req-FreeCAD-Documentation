@@ -29,7 +29,7 @@ Si decide modificar posteriormente las dimensiones de la placa o del círculo, e
 
 En el proceso de modelado paramétrico de FreeCAD, examinar el árbol de dependencias de un objeto proporciona una visión clara de la secuencia de construcción y las relaciones dentro del modelo. En el ejemplo anterior, la estructura se basa en el boceto de placa, que sirve como base para la forma inicial del modelo. A continuación, se aplica la operación de relleno, que añade material a este boceto base, creando así una estructura tridimensional a partir de una base bidimensional.
 
-Following this, a 'Circle Sketch' is drafted on the newly formed surface. This circle forms the basis for the subsequent 'Pocket' operation. The pocket operation strategically removes material from the structure, essentially carving out a portion based on the circle sketch. This process of adding and then subtracting material allows for complex geometries and features to be integrated into the basic model seamlessly.
+A continuación, se dibuja un círculo sobre la superficie recién formada. Este círculo sirve de base para la posterior operación de vaciado. Esta operación elimina estratégicamente material de la estructura, creando una sección a partir del círculo dibujado. Este proceso de añadir y luego sustraer material permite integrar geometrías y características complejas en el modelo básico de forma fluida.
 
 Through this sequence of operations—starting from the base sketch, adding volume with a pad, and creating detailed features with additional sketches and pockets—the final object takes shape. Each step in this chain depends on its predecessor, illustrating the interconnected nature of parametric design in FreeCAD.
 
