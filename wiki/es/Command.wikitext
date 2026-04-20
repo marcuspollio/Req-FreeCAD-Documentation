@@ -18,7 +18,7 @@ Los comandos de FreeCAD se definen por cada entorno de trabajo. Normalmente, los
 
 Como la mayoría de ellos requieren interacción del usuario, los comandos de FreeCAD solo están disponibles en modo GUI y no en modo consola. Sin embargo, para mayor comodidad, la mayoría de los comandos de FreeCAD tendrán una función Python correspondiente (como {{incode|Part.makeBox}} o {{incode|Draft.makeLine}}), o ejecutarán código que es muy fácil de replicar en un script de Python y/o [[macros|macro]].
 
-Commands can be defined either in C++ or in Python.
+Los comandos se pueden definir tanto en C++ como en Python.
 
 == Commands defined in C++ ==
 
