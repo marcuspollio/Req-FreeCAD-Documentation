@@ -131,14 +131,18 @@ def my_cyl(name, ang, rad, hei):
 
 Nawet tutaj nie ma nic zbyt ekscytującego. Warto jednak zwrócić uwagę na kilka osobliwości:
 
+<div class="mw-translate-fuzzy">
 * Brak zwykłego odniesienia do {{incode|App.}}, obecnego w wielu fragmentach kodu Dokumentacji, jest zamierzony, kod ten może być użyty nawet do wywołania FreeCAD jako modułu w zewnętrznym interpreterze Pythona, nie jest to łatwe do zrobienia z AppImage, ale z pewną ostrożnością można to zrobić. Plus w standardowym motto Pythona, że "lepiej jawnie niż niejawnie" {{incode|App.}} wyjaśnia w bardzo "kiepski" sposób, skąd pochodzą rzeczy.
 * Zwróć uwagę na użycie "stałej" nazwy przypisanej do aktywnego Dokumentu w {{incode|DOC &#61; FreeCAD. activeDocument()}}; activeDocument nie jest "stałą" w ścisłym sensie, ale w sposób "semantyczny" jest naszym "aktywnym dokumentem", który dla naszego użytku jest właściwą "stałą", więc konwencja Pythona polega na używaniu nazwy "ALL CAPS" dla "stałych", nie wspominając o tym, że {{incode|DOC}} jest znacznie krótszy niż {{incode|FreeCAD.activeDocument()}}.
 * Każda metoda zwraca geometrię, będzie to jasne w dalszej części strony.
 * Geometria nie miała właściwości {{incode|Placement}}, podczas używania prostych geometrii do tworzenia bardziej złożonych geometrii, zarządzanie {{incode|Placement}} jest kłopotliwe.
+</div>
 
 Co teraz zrobić z tą geometrią?
 
+<div class="mw-translate-fuzzy">
 Wprowadźmy operacje logiczne. Jako przykład początkowy umieść te linie po {{incode|my_cyl}}, to utworzy metodę dla operacji '''Fusion''' znanej również jako '''Union''':
+</div>
 
 {{Code|code=
 def fuse_obj(name, obj_0, obj_1):
@@ -152,9 +156,13 @@ def fuse_obj(name, obj_0, obj_1):
     return obj
 }}
 
+<div class="mw-translate-fuzzy">
 Tutaj również nie ma nic wyjątkowego, należy jednak zwrócić uwagę na jednolitość kodowania metod; to podejście jest bardziej liniowe niż te spotykane w innych samouczkach dotyczących skryptów, ta "liniowość" znacznie pomaga w czytelności, a także w operacjach wycinania, kopiowania i wklejania.
+</div>
 
+<div class="mw-translate-fuzzy">
 Użyjmy geometrii, usuńmy linie poniżej sekcji kodu zaczynającej się od {{incode|# objects definition}} i wstawmy następujące linie:
+</div>
 
 {{Code|code=
 # objects definition
@@ -168,7 +176,9 @@ fuse_obj("Fusion", obj, obj1)
 set_view()
 }}
 
+<div class="mw-translate-fuzzy">
 Uruchom skrypt za pomocą zielonej strzałki, a w widoku 3D zobaczymy coś takiego:
+</div>
 
 [[File:Cucil.png|thumb|center|Sześcian i cylinder.]]
 
@@ -177,15 +187,21 @@ Uruchom skrypt za pomocą zielonej strzałki, a w widoku 3D zobaczymy coś takie
 
 Koncepcja umiejscowienia jest stosunkowo złożona, zobacz [[Aeroplane/pl|poradnik samolotu]], aby uzyskać bardziej dogłębne wyjaśnienie.
 
+<div class="mw-translate-fuzzy">
 Zazwyczaj potrzebujemy umieścić geometrie względem siebie, podczas budowania złożonych obiektów jest to powtarzające się zadanie, najczęstszym sposobem jest użycie właściwości geometrii {{incode|Placement}}.
+</div>
 
+<div class="mw-translate-fuzzy">
 FreeCAD oferuje szeroki wybór sposobów ustawiania tej właściwości, jeden jest bardziej dostosowany do drugiego w zależności od wiedzy i doświadczenia użytkownika, ale bardziej proste pisanie jest wyjaśnione w cytowanym samouczku, używa osobliwej definicji części {{incode|Rotation}} {{incode|Placement}}, dość łatwej do nauczenia.
+</div>
 
 {{Code|code=
 FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
 }}
 
+<div class="mw-translate-fuzzy">
 Ale ponad innymi rozważaniami, jedna rzecz jest kluczowa, geometria '''punkt odniesienia'''. Innymi słowy punkt, z którego obiekt jest modelowany przez FreeCAD, jak opisano w tej tabeli, skopiowanej z [[Placement/pl|umiejscowienia]]:
+</div>
 
 {| class="wikitable" border="1"
 !Object!!Punkt odniesienia
