@@ -58,7 +58,7 @@ rcCmdMgr.addCommand(new StdCmdMyCommand());
 <span id="Commands_defined_in_Python"></span>
 == Comandos definidos en Python ==
 
-Example of a Python command definition, it can be placed in a directory like {{FileName|Mod/ModuleName/tools/commands.py}}.
+Ejemplo de definición de comando Python, se puede colocar en un directorio como {{FileName|Mod/ModuleName/tools/commands.py}}.
 {{Code|code=
 from PySide.QtCore import QT_TRANSLATE_NOOP
 
