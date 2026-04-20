@@ -133,13 +133,13 @@ def my_cyl(name, ang, rad, hei):
 Even here nothing too exciting. But please note some peculiarities:
 
 * The absence of the usual reference to the {{incode|App.}}, present in many Documentation code snippets, is deliberate, this code could be used even invoking FreeCAD as a module in an external Python interpreter, the thing is not easily doable with an AppImage, but with some care it could be done. Plus in the standard Python motto that "better explicit than implicit" {{incode|App.}} is explaining in a very "poor" way where the things are from.
-* Note the use of the "constant" name assigned to the active Document in {{incode|DOC &#61; FreeCAD.activeDocument()}}; activeDocument is not a "constant" in a strict sense, but in a "semantical" way is our "active Document", that for our use is a proper "constant" so the Python convention to use the "ALL CAPS" name for "constants", not to mention that {{incode|DOC}} is much shorten than {{incode|FreeCAD.activeDocument()}}.
+* Note the use of the "constant" name assigned to the active Document in {{incode|DOC &#61; FreeCAD.activeDocument()}}; activeDocument is not a "constant" in a strict sense, but in a "semantical" way is our "active Document", that for our use is a proper "constant" so the Python convention to use the "ALL CAPS" name for "constants", not to mention that {{incode|DOC}} is much shorter than {{incode|FreeCAD.activeDocument()}}.
 * Every function returns a geometry, this will be clear in the continuation of the page.
-* Geometry didn't have the {{incode|Placement}} property, when using the simple geometries to make more complex geometry, managing {{incode|Placement}} is a awkward thing.
+* Geometry didn't have the {{incode|Placement}} property, when using the simple geometries to make more complex geometry, managing {{incode|Placement}} is awkward.
 
 Now what to do with this geometries?
 
-Let's introduce boolean operations. As a starter example put these lines after {{incode|my_cyl}}, this create a function for a '''Fusion''' also know as '''Union''' operation:
+Let's introduce boolean operations. As a starter example, put these lines after {{incode|my_cyl}}. This creates a function for a '''Fusion''' also know as '''Union''' operation:
 
 {{Code|code=
 def fuse_obj(name, obj_0, obj_1):
@@ -153,9 +153,9 @@ def fuse_obj(name, obj_0, obj_1):
     return obj
 }}
 
-Nothing exceptional also here, note however the uniformity in function coding; This approach is more linear than those seen around other tutorial on scripting, this "linearity" help greatly in readability and also with cut-copy-paste operations.
+Nothing exceptional also here; however, note the uniformity in function coding. This approach is more linear than those seen around other tutorials on scripting, this "linearity" helps greatly in readability and also with cut-copy-paste operations.
 
-Let's use the geometries, delete lines below the code section starting with {{incode|# objects definition}}, and insert the following lines:
+Let's use the geometries: delete lines below the code section starting with {{incode|# objects definition}}, and insert the following lines:
 
 {{Code|code=
 # objects definition
@@ -169,7 +169,7 @@ fuse_obj("Fusion", obj, obj1)
 set_view()
 }}
 
-Launch the script with the green arrow and we will see in the 3D view something like:
+Launch the script with the green arrow and you will see in the 3D view something like:
 
 [[File:Cucil.png|thumb|center|Cube and cylinder]]
 
@@ -177,15 +177,15 @@ Launch the script with the green arrow and we will see in the 3D view something 
 
 Placement Concept is relatively complex, see [[Aeroplane|Aeroplane Tutorial]] for a more deep explanation.
 
-We usually are in need of placing geometries respect each other, when building complex object this is a recurring task, the most common way is to use the geometry {{incode|Placement}} property.
+We usually are in need of placing geometries with respect to each other, when building complex object this is a recurring task. The most common way is to use the geometry {{incode|Placement}} property.
 
-FreeCAD offer a wide choice of ways to set this property, one is more tailored to another depending the knowledge and the background of the user, but the more plain writing is explained in the cited Tutorial, it use a peculiar definition of the {{incode|Rotation}} portion of {{incode|Placement}}, quite easy to learn.
+FreeCAD offers a wide choice of ways to set this property, one is more tailored to another depending on the knowledge and the background of the user. The more plain writing is explained in the cited Tutorial, which uses a peculiar definition of the {{incode|Rotation}} portion of {{incode|Placement}}: quite easy to learn.
 
 {{Code|code=
 FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
 }}
 
-But over other consideration, one thing is crucial, geometry '''reference point''', in other words the point from which the object is modeled by FreeCAD, as described in this table, copied from [[Placement|Placement]]:
+But over other considerations, one thing is crucial, geometry '''reference point''', in other words the point from which the object is modeled by FreeCAD, as described in this table, copied from [[Placement|Placement]]:
 
 {| class="wikitable" border="1"
 !Object!!Reference Point
