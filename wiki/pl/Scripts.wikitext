@@ -154,9 +154,7 @@ def fuse_obj(name, obj_0, obj_1):
 
 Tutaj również nie ma nic wyjątkowego, należy jednak zwrócić uwagę na jednolitość kodowania metod. To podejście jest bardziej liniowe niż te spotykane w innych samouczkach dotyczących skryptów, ta "liniowość" znacznie pomaga w czytelności, a także w operacjach wycinania, kopiowania i wklejania.
 
-<div class="mw-translate-fuzzy">
-Użyjmy geometrii, usuńmy linie poniżej sekcji kodu zaczynającej się od {{incode|# objects definition}} i wstawmy następujące linie:
-</div>
+Użyjmy geometrii: usuńmy linie poniżej sekcji kodu zaczynającej się od {{incode|# objects definition}} i wstawmy następujące linie:
 
 {{Code|code=
 # objects definition
