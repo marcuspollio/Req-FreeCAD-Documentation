@@ -17,14 +17,12 @@ Per evitare danni, la macro deve essere applicata quando il modello è ancora co
 <span id="Context"></span>
 ===Contesto===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This macro has been written mainly to circumvent Topological Naming Issue that can break a model when a sketch has been directly or indirectly attached to a face or any other topological item.
-To prevent breakage, macro shall be applied when the model is still right. It can't "repair" a broken model. If you just break your model, undo the last change(s) back to a good situation, apply the macro to the unstable sketch(es) then redo the previous operation.
-</div>
+Questa macro è stata scritta principalmente per aggirare il problema della denominazione topologica che può danneggiare un modello quando uno schizzo viene collegato direttamente o indirettamente a una faccia o a qualsiasi altro elemento topologico.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Usage===
-</div>
+Per evitare danni, la macro deve essere applicata quando il modello è ancora corretto. Non può "riparare" un modello danneggiato. Se il modello si danneggia, annullare le ultime modifiche per ripristinare la situazione corretta, applicare la macro allo schizzo instabile e quindi ripetere l'operazione precedente.
+
+<span id="Usage"></span>
+===Utilizzo===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Functionally, the macro will remove the current mapping of the sketch on which it is applied, then apply to it an absolute placement so it is immune to mapping support change.
