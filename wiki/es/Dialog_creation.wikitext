@@ -89,9 +89,7 @@ ln -s /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packa
 
 En Linux hacer:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Since FreeCAD progressively moved away from PyQt after version 0.13, in favour of [http://qt-project.org/wiki/PySide PySide] (Choose your PySide install [http://pyside.readthedocs.org/en/latest/building/ building PySide]), to make the file based on PySide now you have to use:
-</div>
+Dado que FreeCAD se fue alejando progresivamente de PyQt después de la versión 0.13, a favor de [http://qt-project.org/wiki/PySide PySide] (Elija su instalación de PySide [http://pyside.readthedocs.org/en/latest/building/ build PySide]). Para hacer que el archivo se base en PySide ahora debe usar:
 
 {{Code|code=
 pyside-uic mywidget.ui -o mywidget.py
