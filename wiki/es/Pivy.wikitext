@@ -67,9 +67,7 @@ col.rgb = (1, 1, 0)
 
 Como puede ver, todo sigue siendo accesible y modificable sobre la marcha. No es necesario recalcular ni redibujar nada; Coin se encarga de todo. Puede añadir elementos a su grafo de escena, cambiar propiedades, ocultarlos, mostrar objetos temporales, lo que quiera. Por supuesto, esto solo afecta a la visualización en la vista 3D. FreeCAD recalcula dicha visualización al abrir el archivo y cuando un objeto necesita ser recalculado. Por lo tanto, si cambia la apariencia de un objeto de FreeCAD existente, esos cambios se perderán si el objeto se recalcula o al volver a abrir el archivo.
 
-<div class="mw-translate-fuzzy">
-Una de las claves para trabajar con escenas gráficas en los archivos de guión es poder tener acceso cuando sea necesario a ciertas propiedades de los nodos que has añadido. Por ejemplo, si quisieramos mover nuestro cubo, habríamos añadido un nodo SoTranslation a nuestro nodo de referencia, y se vería así:
-</div>
+Como ya se mencionó anteriomente, el orden es muy importante en un grafo de escena de openInventor. Un nodo afecta lo que viene después. Por ejemplo, si queremos tener la capacidad de mover nuestro cubo, necesitaremos agregar un nodo {{incode|SoTranslation}} {{Emphasis|before}} al cubo:
 
 {{Code|code=
 col = coin.SoBaseColor()
