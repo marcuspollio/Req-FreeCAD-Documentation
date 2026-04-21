@@ -477,11 +477,9 @@ Este ejemplo se basa en una discusión [https://forum.freecad.org/viewtopic.php?
 <span id="Prerequisites"></span>
 === Requisitos previos ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Create a solid with ShapeString as Cutout
-* Create a Job using this solid as its BaseObject
-* Create a ProfileFromFaces operation named "Profile_Faces" with empty BaseGeometry.
-</div>
+* Crea un sólido con ShapeString como recorte.
+* Crea un trabajo usando este sólido como su objeto base.
+* Crea una operación ProfileFromFaces llamada "Profile_Faces" con BaseGeometry vacía.
 
 <span id="The_code"></span>
 === El código ===
