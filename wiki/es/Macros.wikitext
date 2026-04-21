@@ -14,10 +14,10 @@ Las [[Macros|Macros]] son una forma práctica de reproducir acciones complejas e
 
 Si bien los scripts de Python suelen tener la extensión {{incode|.py}}, las macros de FreeCAD deben tener la extensión {{incode|.FCMacro}}. En la página [[Macros_recipes|Recetas de Macros]] encontrará una colección de macros escritas por usuarios experimentados.
 
-Vea el [[Power_users_hub/es|Centro de usuarios avanzados]] para aprender más sobre el lenguaje de programación [[Python/es|Python]], y sobre la escritura de macros. En particular, deberías empezar con estas páginas:
-* [[Introduction_to_Python/es|Introducción a Python]]
-* [[Python_scripting_tutorial/es|Tutorial de Guión en Python]]
-* [[FreeCAD_Scripting_Basics/es|Fundamentos de Guión en FreeCAD]]
+Consulte el [[Power_users_hub|Centro de Usuarios Avanzados]] para obtener más información sobre el lenguaje de programación [[Python|Python]] y sobre cómo elaborar macros. En particular, debería empezar por estas páginas:
+* [[Introduction_to_Python|Introducción a Python]]
+* [[Python_scripting_tutorial|Tutorial de Guión en Python]]
+* [[FreeCAD_Scripting_Basics|Fundamentos de Guión en FreeCAD]]
 
 <span id="How_it_works"></span>
 ==  ¿Cómo funciona? ==
