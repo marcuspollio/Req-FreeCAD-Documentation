@@ -57,9 +57,7 @@ También disponemos de muchos otros elementos para organizar nuestra escena, com
 
 Si está interesado en aprender más sobre Open Inventor, diríjase directamente a su referencia más famosa: el [http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/ Inventor mentor].
 
-<div class="mw-translate-fuzzy">
-En FreeCAD, normalmente, no es necesario interactuar directamente con la escena gráfica (scenegraph) de openInventor. Cada objeto en un documento de FreeCAD, ya sea una malla, una forma de pieza o cualquier otra cosa, se convierte automáticamente en código de openInventor y se inserta en la escena gráfica (scenegraph) principal que aparecen en una vista 3D. Esa escena gráfica se actualiza continuamente cuando se hacen modificaciones, se añaden o eliminan objetos en el documento. De hecho, cada objeto (en el espacio App) tiene un proveedor de vista (un objeto correspondiente en el espacio de la interfaz gráfica del usuario GUI), responsable de la expedición de código de openInventor.
-</div>
+En FreeCAD, normalmente no se necesita interactuar directamente con el grafo de escena de Open Inventor. Cada objeto en un documento de FreeCAD, ya sea una malla, una forma de una pieza o cualquier otra cosa, se convierte automáticamente a código de Open Inventor y se inserta en el grafo de escena principal que se ve en una vista 3D. Este grafo de escena se actualiza continuamente al modificar, agregar o eliminar objetos. De hecho, cada objeto (en el espacio de la aplicación) tiene un proveedor de vista (un objeto correspondiente en el espacio de la interfaz gráfica) responsable de generar el código de Open Inventor.
 
 <div class="mw-translate-fuzzy">
 Pero poder acceder a la escena gráfica directamente tiene muchas ventajas. Por ejemplo, puedes cambiar temporalmente la apariencia de un objeto, o podemos agregar objetos a la escena que no tienen existencia real en el documento de FreeCAD, como la geometría constructiva, ayudantes, sugerencias o herramientas gráficas como manipuladores o información en pantalla.
