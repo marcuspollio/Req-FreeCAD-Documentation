@@ -52,9 +52,7 @@ a_variable = translate("context", "My text")
 FreeCAD.Console.PrintMessage(a_variable  + "\n")
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-: This can be used anywhere: in {{incode|print()}}, in {{incode|FreeCAD.Console.PrintMessage()}}, in Qt dialogs, etc. The {{incode|FreeCAD.Console}} functions do not automatically add the newline character ({{incode|\n}}), so this must be added at the end if desired. This character doesn't need translation either, so it can be outside the translating function:
-</div>
+Esto se puede usar en cualquier lugar: en {{incode|print()}}, en {{incode|FreeCAD.Console.PrintMessage()}}, en diálogos de Qt, etc. Las funciones {{incode|FreeCAD.Console}} no agregan automáticamente el carácter de nueva línea ({{incode|\n}}), por lo que, si se desea, se debe agregar al final. Este carácter tampoco necesita traducción, por lo que puede estar fuera de la función de traducción:
 
 : {{Code|code=
 FreeCAD.Console.PrintMessage(translate("context", "My text") + "\n")
