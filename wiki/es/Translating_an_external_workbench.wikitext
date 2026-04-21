@@ -105,9 +105,7 @@ FreeCADGui.updateLocale()
 <span id="Inside_each_FreeCAD_command_class"></span>
 === Dentro de cada clase de comando de FreeCAD ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Add the following line near the top of the file:
-</div>
+* Agregue la siguiente línea cerca del inicio del archivo:
 
 : {{Code|code=
 def QT_TRANSLATE_NOOP(context, text):
