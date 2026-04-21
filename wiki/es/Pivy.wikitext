@@ -125,9 +125,7 @@ Consulte también la [[Code_snippets#Observe_mouse_events_in_the_3D_viewer_via_P
 <span id="Documentation"></span>
 == Documentación == 
 
-<div class="mw-translate-fuzzy">
-Lamentablemente Pivy aún no tiene una documentación formal, pero como es una traducción exacta de Coin, puedes utilizar con seguridad la documentación de Coin como referencia, y utilizar el estilo de Python en lugar del estilo de C++ (por ejemplo, SoFile::getClassTypeId() se escribiría en Pivy como: SoFile.getClassId() )
-</div>
+Lamentablemente, Pivy no cuenta con su propia documentación. Sin embargo, dado que es una interfaz precisa para la biblioteca Coin, puede consultar la documentación de referencia de C++ para obtener información. En este caso, deberá adaptar el estilo de nomenclatura de clases de C++ al estilo de Python.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In C++:
