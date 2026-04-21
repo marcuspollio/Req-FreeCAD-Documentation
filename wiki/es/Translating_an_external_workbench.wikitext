@@ -140,9 +140,7 @@ FreeCADGui.addCommand('CommandName', My_Command_Class())
 lupdate *.ui -ts translations/uifiles.ts
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-: This is recursive and will find {{incode|.ui}} files inside your whole directory structure.
-</div>
+: Esto es recursivo y encontrará archivos {{incode|.ui}} dentro de toda su estructura de directorios.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * If you have {{incode|.py}} files, you need to run {{incode|pylupdate}} too:
