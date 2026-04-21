@@ -39,7 +39,7 @@ Pulse el botón de grabación, asigne un nombre, por ejemplo, "cilindro 10x10", 
 <span id="Customizing"></span>
 == Personalización ==
 
-Por supuesto que no es práctico cargar una macro en el editor con el fin de usarla. FreeCAD proporciona formas mucho mejores de iniciar la macro, como la asignación de un atajo de teclado, o poner una entrada en el menú. Una vez que la macro se crea, todo esto se puede hacer a través de menú  {{MenuCommand| Herramientas →  Personalizar}}.
+Naturalmente, como puede imaginar no es práctico cargar una macro en el editor para usarla. FreeCAD ofrece alternativas mucho mejores para usarla, como asignarle un atajo de teclado o añadir una entrada en el menú. Una vez creada la macro, todo esto se puede hacer a través del menú {{MenuCommand|Herramientas → Personalizar}}
 
 [[Image:Macros config.jpg]]
 
