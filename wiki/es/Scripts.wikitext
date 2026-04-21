@@ -299,8 +299,8 @@ Vamos a explicar algo del código:
 
 {| class="wikitable"
 |-
-| [[File:Aereo.png|thumb|left|Airplane example]] || [[File:Aereo2.png|thumb|center|Airplane rotated]]||
-[[File:Aereo-prop.png|thumb|center|Placement property]]
+| [[File:Aereo.png|thumb|left|Ejemplo de avión]] || [[Archivo:Aereo2.png|thumb|center|Avión girado]]||
+[[File:Aereo-prop.png|thumb|center|Propiedad de ubicación]]
 |}
 
 It can be easily noted that '''airplane''' geometry rotate around his "barycenter" or "center of gravity", that I've fixed at wing center, a place that is relatively "natural", but could be placed wherever you want.
