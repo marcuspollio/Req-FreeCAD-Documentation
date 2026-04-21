@@ -47,14 +47,11 @@ Nella seguente figura tutte le estrusioni sono realizzate utilizzando la stessa 
 <span id="Tips"></span>
 == Suggerimenti ==
 
-<div class="mw-translate-fuzzy">
-== Avvertenze ==
 * La '''sezione''' deve essere un profilo chiuso altrimenti il risultato non sarà un solido.
 * Non è necessario che la sezione sia posizionata sulla traiettoria, ma è preferibile che sia normale (perpendicolare) alla traiettoria.
 * La '''traiettoria''' può essere sia un profilo aperto che chiuso (cerchi, o segmenti e archi), ma tutti gli elementi devono essere tangenti o la forma risultante è inaspettata. Ad esempio, una traiettoria con angoli retti (come un rettangolo) non produce un solido.
 * Se il solido diventa contorto, modificare la macro e impostare il valore ''isFrenet'' a 0 (zero) e riprovare.
 * Impostando nella macro la variabile ''makeSolid'' a 0 (zero) si produce un insieme di superfici con le estremità aperte.
-</div>
 
 <span id="Script"></span>
 == La macro ==
