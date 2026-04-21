@@ -270,9 +270,7 @@ for command in commands:
 
 En este caso, {{incode|lupdate}} no puede extraer ninguna cadena de la llamada a {{incode|translate()}} porque hace referencia a una variable. Por lo tanto, {{incode|lupdate}} ignora esa llamada, pero en tiempo de ejecución Qt busca la cadena que se le pasa. Siempre que en algún lugar del código haya una llamada a una de las funciones de traducción con una cadena literal coincidente (en este caso, en la función {{incode|GetResources()}}), esta llamada de traducción se realizará correctamente.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To verify that the expected strings are being extracted, you can manually run the {{incode|pylupdate}} command:
-</div>
+Para verificar que se están extrayendo las cadenas esperadas, puede ejecutar manualmente el comando {{incode|pylupdate}}:
 
 {{Code|code=
 pylupdate myfile.py -ts outfile.ts
