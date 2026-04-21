@@ -276,9 +276,7 @@ Para verificar que se están extrayendo las cadenas esperadas, puede ejecutar ma
 pylupdate myfile.py -ts outfile.ts
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The file {{incode|outfile.ts}} will contain the set of strings that are uploaded to CrowdIn for translation.
-</div>
+El archivo {{incode|outfile.ts}} contendrá el conjunto de cadenas que se cargan en CrowdIn para su traducción.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Important references ==
