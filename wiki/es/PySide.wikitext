@@ -50,7 +50,7 @@ Al instalar FreeCAD, obtendrá Qt y PySide como parte del paquete. Si va a compi
 
 La principal diferencia entre PySide y las bibliotecas posteriores PySide2 y PySide6 radica en los espacios de nombres. PySide (Qt4) tiene los espacios de nombres principales {{incode|QtGui}} e {{incode|QtCore}}, mientras que PySide2 (Qt5) y PySide6 (Qt6) introdujeron el espacio de nombres adicional {{incode|QtWidgets}}, donde ahora se ubican todos los widgets, que antes estaban en el espacio de nombres QtGui.
 
-FreeCAD’s approach to handle the different versions of Qt/PySide is to call them all PySide, which really should be thought of as PySideX. It does not matter which Qt/PySide version is installed, they are all imported with PySide.
+FreeCAD gestiona las distintas versiones de Qt/PySide llamándolas todas PySide, aunque en realidad debería considerarse PySideX. No importa qué versión de Qt/PySide esté instalada, todas se importan con PySide.
 
 A [https://en.wikipedia.org/wiki/Shim_(computing) shim] handles the differences between the versions. This {{incode|PySide}} shim is located in the {{incode|Ext/}} directory of an installation of FreeCAD compiled for Qt5/Qt6.
 
