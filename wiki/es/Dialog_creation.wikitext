@@ -105,9 +105,7 @@ compSide myUiFile
 }}
 En Linux hacer:
 
-<div class="mw-translate-fuzzy">
-En algunos sistemas el programa se llama pyuic4 en lugar de pyuic. Esta operación simplemente convertirá el archivo .ui en un archivo de guión de Python. Si abrimos el archivo mywidget.py, su contenido es muy fácil de entender:
-</div>
+En algunos sistemas, el programa se llama pyuic4 en lugar de pyuic. Esto simplemente convertirá el archivo .ui en un script de Python. Si abrimos el archivo mywidget.py, su contenido es muy fácil de entender:
 {{Code|code=
 from PySide import QtCore, QtGui
 
