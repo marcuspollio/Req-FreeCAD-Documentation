@@ -206,9 +206,7 @@ done
 
 Debería encontrar un archivo {{incode|.qm}} por cada archivo {{incode|.ts}} traducido. Los archivos {{incode|.qm}} son los que usarán Qt y FreeCAD durante la ejecución.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-That's all you need. Note that certain parts of your workbench cannot be translated on-the-fly if you decide to switch languages. If this is the case, you will need to restart FreeCAD for the new language to take effect.
-</div>
+Eso es todo lo que necesita. Tenga en cuenta que algunas partes de su entorno de trabajo no se pueden traducir automáticamente si cambia de idioma. En ese caso, tendrá que reiniciar FreeCAD para que el nuevo idioma surta efecto.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Testing translations ==
