@@ -273,9 +273,7 @@ Sin embargo, las Trayectorias Compuestas pueden utilizar la ubicación de sus hi
 == La Herramienta y tabla de herramientas objetos ==
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''NOTE:''' This type of tool usage is depreciated as of the 0.19 official release. In 0.19 the new ToolBit tool system was implemented to supersede this older, Legacy, system. Therefore, coding has changed from what is represented below. Please visit [[CAM_Tools|CAM Tools]] page for more information.
-</div>
+'''NOTA:''' Este tipo de uso de herramientas está obsoleto desde la versión oficial 0.19. En la versión 0.19 se implementó el nuevo sistema de herramientas ToolBit para reemplazar este sistema anterior. Por lo tanto, el código ha cambiado con respecto a lo que se muestra a continuación. Visite la página [[CAM_Tools|Herramientas de CAM]] para obtener más información.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Scripting <= 0.18===
