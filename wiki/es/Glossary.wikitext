@@ -470,10 +470,10 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{term|Task Tab}}
 {{defn|defn=Consulte [[#Panel_de_tareas|Panel de tareas]].}}
 {{term|Tessellation}}
-{{defn|defn=Una teselación de una superficie es el recubrimiento de la superficie mediante una o más formas geométricas, llamadas teselas, sin superposiciones ni huecos. En FreeCAD, es necesaria para mostrar las formas geométricas en la vista 3D. La teselación relativa a las dimensiones de una forma se puede configurar en las preferencias para obtener una vista más suave de las superficies curvas, aunque esto aumenta el tiempo de cálculo. Consulte [[Editor_de_preferencias|Editor de preferencias]].
+{{defn|defn=Una teselación de una superficie es el recubrimiento de la superficie mediante una o más formas geométricas, llamadas teselas, sin superposiciones ni huecos. En FreeCAD, es necesaria para mostrar las formas geométricas en la vista 3D. La teselación relativa a las dimensiones de una forma se puede configurar en las preferencias para obtener una vista más suave de las superficies curvas, aunque esto aumenta el tiempo de cálculo. Consulte [[Preferences_Editor|Editor de preferencias]].
 {{term|Thickness}}
 {{defn|no=1|defn=Una medida del grosor de una forma.}}
-{{defn|no=2|defn=Una herramienta [[Entorno_de_trabajo_de_partes|Parte]] [[#Entorno_de_trabajo|Entorno_de_trabajo]] para ahuecar un sólido y dejar un grosor uniforme definido.}}
+{{defn|no=2|defn=Una herramienta del [[Part_Workbench|Parte]] [[##Workbench|Entorno_de_trabajo]] para ahuecar un sólido y dejar un grosor uniforme definido.}}
 {{term|Toggle}}
 {{defn|defn=Una configuración que se puede cambiar entre dos opciones, por ejemplo, entre Verdadero o Falso, o entre Desactivado y Activado.}}
 {{term|Topological Naming}}
