@@ -38,7 +38,7 @@ Para hacer las cosas de una manera estandarizada, el archivo debe escribirse con
 
 Guárdelos con un nombre significativo con la extensión {{incode|.py}} y cargue el archivo resultante en FreeCAD, con el comando {{MenuCommand|Archivo → Abrir}}.
 
-A minimal example of what is necessary to have in a script is shown in this portion of code that you could be use as a template for almost any future script:
+En este fragmento de código se muestra el mínimo ejemplo de lo que es necesario incluir en un script que podría utilizarse como plantilla para casi cualquier script futuro:
 
 {{Code|code=
 """filename.py
