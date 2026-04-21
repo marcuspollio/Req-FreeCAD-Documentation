@@ -99,9 +99,8 @@ analysis_object.addObject(force_constraint)
 <!-- START of FEM mesh collapsible section below. Do not erase! -->
 <div class="mw-collapsible mw-collapsed toccolours" style="width:750px ">
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== FEM mesh (manual) ===
-</div>
+<span id="FEM_mesh_(manual)"></span>
+=== Malla FEM (manual) ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This section contains the FEM mesh code. Please expand it to view the contents.
