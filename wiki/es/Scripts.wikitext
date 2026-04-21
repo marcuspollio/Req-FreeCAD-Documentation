@@ -287,7 +287,7 @@ set_view()
 
 }}
 
-Let's explain something in the code:
+Vamos a explicar algo del código:
 
 * We have used a function to define a sphere, using the most easy definition, using only the radius.
 * We have introduced a second writing for the '''Union''' or '''Fusion''', using multiple objects, not more distant from the usual '''Part::Fuse''' it uses '''Part:Multifuse'''. We only use one property {{incode|Shapes}}. We have passed a '''tuple''' as arguments, but it accepts also a '''list'''.
