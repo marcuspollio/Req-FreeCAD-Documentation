@@ -301,58 +301,56 @@ Ir a la letra {{CompactTOC|center=yes}}
 ==P==
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{gloss}}
 {{term|Pad}}
-{{defn|defn=An extension of a [[#Sketch|Sketch]] in a direction perpendicular to the plane of the Sketch. See also [[#Extrude|Extrude]].}}
+{{defn|defn=Extensión de un [[#Sketch|Sketch]] en dirección perpendicular al plano del Sketch. Véase también [[#Extrude|Extrude]].}}
 {{term|Parametric}}
-{{defn|defn=Most objects in FreeCAD are parametric. This means that their shape depends on their properties, or on the source objects they are based on. For example, the shape of an existing [[Part_Box|Part Box]] can be changed by editing its dimensions. And if the box is one of the source objects of a [[Part_Fuse|Part Fuse]], that object will change as well. Deleting one of the source objects of a parametric object will change it and may even break it.}}
+{{defn|defn=La mayoría de los objetos en FreeCAD son paramétricos. Esto significa que su forma depende de sus propiedades o de los objetos de origen en los que se basan. Por ejemplo, la forma de una [[Part_Box|Part Box]] existente se puede modificar editando sus dimensiones. Y si la caja es uno de los objetos de origen de un [[Part_Fuse|Part Fuse]], ese objeto también cambiará.}} Eliminar uno de los objetos fuente de un objeto paramétrico lo modificará e incluso podría dañarlo.
 {{term|Part}}
-{{defn|no=1|defn=A FreeCAD [[#Workbench|workbench]] primarily used for a [https://en.wikipedia.org/wiki/Constructive_solid_geometry Constructive Solid Geometry] workflow. See [[Part_Workbench|Part Workbench]].}}
-{{defn|no=2|defn=A FreeCAD Python module, directly interfacing with [[#OCC|OCC]]. See [[Part_scripting|Part scripting]].}}
-{{defn|no=3|defn=A container which groups any type of FreeCAD object and has a [[#Placement|placement]]. See [[Std_Part|Std Part]].}}
-{{defn|no=4|defn=A unibody solid. The lowest level component in an assembly.}}
+{{defn|no=1|defn=Un [[#Workbench|workbench]] de FreeCAD utilizado principalmente para un flujo de trabajo de [https://en.wikipedia.org/wiki/Constructive_solid_geometry Geometría sólida constructiva]. Véase [[Part_Workbench|Part Workbench]].}}
+{{defn|no=2|defn=Un módulo de Python de FreeCAD que interactúa directamente con [[#OCC|OCC]]. Véase [[Part_scripting|Part scripting]].}}
+{{defn|no=3|defn=Un contenedor que agrupa cualquier tipo de objeto de FreeCAD y tiene una [[#Placement|placement]]. Véase [[Std_Part|Std Part]].}}
+{{defn|no=4|defn=Un sólido unibody. El componente de nivel más bajo en un ensamblaje.}}
 {{term|PartDesignNext}}
-{{defn|defn=Nickname used over the forums to distinguish the [[PartDesign_Workbench|PartDesign]] [[#Workbench|workbench]] in the FreeCAD 0.17 release version from the one in v0.16 and earlier, because of the vast changes introduced.}}
+{{defn|defn=Apodo utilizado en los foros para distinguir el [[PartDesign_Workbench|PartDesign]] [[#Workbench|workbench]] de la versión 0.17 de FreeCAD del de la versión 0.16 y anteriores, debido a los grandes cambios introducidos.}}
 {{term|PD}}
-{{defn|defn=Abbreviation of [[PartDesign_Workbench|PartDesign]], a FreeCAD [[#Workbench|workbench]].}}
+{{defn|defn=Abreviatura de [[PartDesign_Workbench|PartDesign]], un [[#Workbench|workbench]] de FreeCAD.}}
 {{term|PDN}}
-{{defn|defn=Abbreviation of [[#PartDesignNext|PartDesignNext]].}}
+{{defn|defn=Abreviatura de [[#PartDesignNext|PartDesignNext]].}}
 {{term|Perspective}}
-{{defn|defn=[https://en.wikipedia.org/wiki/Graphical_projection#Perspective Perspective projection]}}
+{{defn|defn=[https://en.wikipedia.org/wiki/Graphical_projection#Perspective Perspective proyección]}}
 {{term|Pivy|content=[http://pypi.python.org/pypi/Pivy Pivy]}}
-{{defn|defn=A software library that allows Python to use Coin.}}
+{{defn|defn=Una biblioteca de software que permite a Python usar Coin.}}
 {{term|Placement}}
-{{defn|defn=Set of properties of an object that defines its coordinates and orientation in space. See [[Placement]].}}
+{{defn|defn=Conjunto de propiedades de un objeto que define sus coordenadas y orientación en el espacio. Ver [[Colocación]].}}
 {{term|Planar}}
-{{defn|defn=Said of geometry of which elements all lie on a same plane.}}
-{{term|Plane}}
-{{defn|no=1|defn=A flat, two-dimensional surface that extends infinitely far.}}
-{{defn|no=2|defn=A primitive two-dimensional object created in the [[Part_Workbench|Part]] [[#Workbench|workbench]].}}
-{{term|Plot}}
-{{defn|no=1|defn=An outdated synonym for a technical drawing made by a pen plotter. See [https://en.wikipedia.org/wiki/Plotter Plotter]}}
-{{defn|no=2|defn=Short for plot plan. See [https://en.wikipedia.org/wiki/Site_plan Site plan]}}
-{{defn|no=3|defn=Graphical representation of data. See [https://en.wikipedia.org/wiki/Plot_(graphics) Plot (graphics)]}}
+{{defn|defn=Se dice de la geometría cuyos elementos se encuentran todos en un mismo plano.}}
+{{term|Plano}}
+{{defn|no=1|defn=Una superficie plana bidimensional que se extiende infinitamente.}}
+{{defn|no=2|defn=Un objeto bidimensional primitivo creado en el [[Part_Workbench|Part]] [[#Workbench|workbench]].}}
+{{term|Trazado}}
+{{defn|no=1|defn=Un sinónimo obsoleto de dibujo técnico realizado con un trazador de pluma. Ver [https://en.wikipedia.org/wiki/Plotter Plotter]}}
+{{defn|no=2|defn=Abreviatura de plan de trazado. Ver [https://en.wikipedia.org/wiki/Site_plan Plano del sitio]}}
+{{defn|no=3|defn=Representación gráfica de datos. Ver [https://en.wikipedia.org/wiki/Plot_(graphics) Gráfico (gráficos)]}}
 {{term|Pocket}}
-{{defn|defn=A [[#Feature|feature]] that removes material from a solid based on a [[#Sketch|Sketch]].}}
+{{defn|defn=Una [[#Feature|característica]] que elimina material de un sólido basándose en un [[#Sketch|boceto]].}}
 {{term|Point}}
-{{defn|defn=An item used to reference a single area in the 3D workspace. A “point” is dimensionless. It has a dimension on the screen, usually represented by a “dot” only so we can see where it is. See also [[#Vertex|Vertex]].}}
-{{term|Polygon mesh}}
-{{defn|defn=See [https://en.wikipedia.org/wiki/Polygonal_mesh Polygonal_mesh]}}
-{{term|Polyline}}
-{{defn|defn=A series of connected line or arc segments.}}
+{{defn|defn=Un elemento utilizado para referenciar un área específica en el espacio de trabajo 3D. Un "punto" no tiene dimensiones. Tiene una dimensión en la pantalla, generalmente representada solo por un "punto" para que podamos ver dónde se encuentra. Véase también [[#Vértice|Vértice]].}}
+{{term|Malla poligonal}}
+{{defn|defn=Véase [https://en.wikipedia.org/wiki/Polygonal_mesh Polygonal_mesh]}}
+{{term|Polilínea}}
+{{defn|defn=Una serie de segmentos de línea o arco conectados.}}
 {{term|POV-Ray}}
 {{defn|defn=[https://en.wikipedia.org/wiki/POV-Ray POV-Ray]}}
 {{term|PPA}}
-{{defn|defn=An acronym that stands for '''P'''ersonal '''P'''ackage '''A'''rchive. It's a type of software repository exclusive to the Ubuntu Linux operating system. The FreeCAD project offers the latest release as well as development versions through two PPA repositories. Updates are managed by the host system's update manager.}}
-{{term|Primitive}}
-{{defn|defn=A basic shape used in the construction of models. Some 2D primitives are: point, line, polygon, circle, ellipse, spiral, helix. 3D primitives are: box, cylinder, cone, torus, sphere, ellipsoid, prism.}}
-{{term|PySide|content=[https://wiki.qt.io/PySide PySide]}}
-{{defn|defn=A freely available software library that allows Python to use QT.}}
-{{term|Python|content=[http://www.python.org Python]}}
-{{defn|defn=A programming language used in the development of FreeCAD as well as in user-written [[#Macro|macros]] or scripts.}}
+{{defn|defn=Un acrónimo que significa '''P'''Personal '''P'''ackage '''A'''rchive. Es un tipo de repositorio de software exclusivo del sistema operativo Ubuntu Linux. El proyecto FreeCAD ofrece la última versión, así como versiones de desarrollo, a través de dos repositorios PPA. Las actualizaciones son gestionadas por el gestor de actualizaciones del sistema anfitrión.
+Primitiva
+Forma básica utilizada en la construcción de modelos. Algunas primitivas 2D son: punto, línea, polígono, círculo, elipse, espiral, hélice. Las primitivas 3D son: caja, cilindro, cono, toroide, esfera, elipsoide, prisma.
+PySide
+Biblioteca de software gratuita que permite a Python usar QT.
+Python
+Lenguaje de programación utilizado en el desarrollo de FreeCAD, así como en macros o scripts escritos por el usuario.}}
 {{glossend}}
-</div>
 
 <span id="Q"></span>
 == Q ==
