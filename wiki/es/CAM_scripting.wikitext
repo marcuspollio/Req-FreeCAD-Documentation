@@ -199,9 +199,7 @@ Command G1 [ X:10 Y:2 ]
 <span id="The_Path_object"></span>
 == El objeto Trayectoria ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The Path object holds a list of commands
-</div>
+El objeto Trayectoria (Path) contiene una lista de comandos.
 
 {{Code|code=
 >>> import Path
