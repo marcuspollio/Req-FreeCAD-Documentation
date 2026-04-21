@@ -275,9 +275,7 @@ Sin embargo, las Trayectorias Compuestas pueden utilizar la ubicación de sus hi
 
 '''NOTA:''' Este tipo de uso de herramientas está obsoleto desde la versión oficial 0.19. En la versión 0.19 se implementó el nuevo sistema de herramientas ToolBit para reemplazar este sistema anterior. Por lo tanto, el código ha cambiado con respecto a lo que se muestra a continuación. Visite la página [[CAM_Tools|Herramientas de CAM]] para obtener más información.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 ===Scripting <= 0.18===
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The Tool object contains the definitions of a CNC tool. The Tooltable object contains an ordered list of tools. Tooltables are attached as a property to Path Project features, and can also be edited via the GUI, by double-clicking a project in the Tree View, and clicking the "Edit tooltable" button in the task views that opens.
