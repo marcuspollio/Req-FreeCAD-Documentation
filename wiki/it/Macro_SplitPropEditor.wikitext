@@ -19,9 +19,8 @@ Inoltre, quando l'editor delle proprietà è separato, viene fornito un meccanis
 <span id="Description"></span>
 ==Descrizione==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Context===
-</div>
+<span id="Context"></span>
+===Contesto===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This macro has been written because some operations in FreeCAD need to get a frequent access to the property editor. Its limited height in the combo view can be a problem, especially when access to the tree view is also needed at the same time.
