@@ -42,30 +42,31 @@ Ir a la letra {{CompactTOC|center=yes}}
 ==B==
 </div>
 
-==B==
 {{gloss}}
-{{term|term=Backtrace}}
-{{defn|defn=Salida de un programa de  depurado que muestra la serie de instrucciones que FreeCAD siguio antes de que un problema ocurriera.}}
-{{term|term=Curva Bezier}}
-{{defn|defn=Un tipo de curva paramétrica. Ver [http://en.wikipedia.org/wiki/B%C3%A9zier_curve Curva Bezier]}}
-{{term|term=Impresión-azúl}}
-{{defn|defn=Antiguo termino utilizado para [[#Drawing|dibujos]], y acuñado por su originalidad en el [http://en.wikipedia.org/wiki/Blueprint proceso de reproducción].}}
-{{term|term=Cuerpo}}
-{{defn|defn=Un tipo de contenedor utilizado dentro del banco de trabajo diseño de parte que agrupa una secuencia de  operaciones de ([[#Sketch|bosquejo]], construcción de geometrías y [[#Feature|caracteristicas]]) para crear un solido simple contiguo.(Introducido en FreeCAD V0.17.)}}
-{{term|term=Logica booleana}}
-{{defn|defn=Un metodo de manipulación de datos utilizando los operadores: AND, OR, NOT.}}
-{{term|term=Operación booleana}}
-{{defn|defn=A method of manipulating objects by using Boolean Logic. In FreeCAD, the Boolean Operations are: Union ([[#Fuse|Fuse]]), Difference ([[#Cut|Cut]]), Intersection, and Section.}}
-{{term|term=Boolean OPerations check}}
+{{term|Backtrace}}
+{{defn|defn=Salida de un programa de depuración que muestra la secuencia de instrucciones que FreeCAD siguió antes de que ocurriera un problema.}}
+{{term|Bezier Curve|content=[https://en.wikipedia.org/wiki/B%C3%A9zier_curve Bezier Curve]}}
+{{defn|defn=Un tipo de curva paramétrica que se crea ubicando unos nodos de ajuste}}
+{{term|BIM|content=[[BIM_Workbench|BIM]]}}
+{{defn|defn=Una abreviatura para el [https://en.wikipedia.org/wiki/Building_information_modeling modelado de información de construcción]. El [[BIM_Workbench|BIM Workbench]] proporciona un flujo de trabajo BIM en FreeCAD.}}
+{{term|Blueprint}}
+{{defn|defn=Término desfasado [[#Drawing|drawing]], y acuñado por su origen [https://en.wikipedia.org/wiki/Blueprint reproduction process].}}
+{{term|Body}}
+{{defn|defn=Un tipo de contenedor usado en [[PartDesign_Workbench|el Ambiente de Trabajo de Parte]] [[#Workbench|workbench]] que agrupa una secuencia de ([[#Sketch|bocetos]], geometría de construcción y [[#Feature|características]]) para crear un único sólido contiguo. (Introducido en FreeCAD V0.17.)}}
+{{term|Boolean Logic}}
+{{defn|defn=Método de manipulación de datos mediante el uso de los operandos: Y, O, No.}}
+{{term|Operación Booleana}}
+{{defn|defn=Método para manipular objetos mediante lógica booleana. En FreeCAD, las operaciones booleanas son: Unión ([[#Fuse|Fuse]]), Diferencia ([[#Cut|Cut]]), Intersección y Sección.}}
+{{term|Boolean OPerations check}}
 {{defn|defn=See [[#BOPcheck|BOPcheck]].}}
-{{term|term=BOPcheck}}
-{{defn|defn=A setting that allows the Check Geometry tools in the Part WB and OpenSCAD WB to also check geometry made from [[#Boolean Logic|Boolean logic]]. The default setting is "false" (or off) but the user can enable it to provide more accuracy when running a Check Geometry, but this is at the expense of longer Check Geometry processing times.  The setting is enabled by navigating to Tools > Edit Parameters > Preferences folder > Mod folder > Part folder > Check geometry folder, then double-clicking "false" in the right pane, changing the value to "true", clicking the "OK" button, clicking the "Save to disk" button, then clicking the "Close" button.  A corresponding screen grab and description of how to enable BOPCheck is [http://forum.freecad.org/viewtopic.php?t=8031#p65914 in this forum post].}}
-{{term|term=brep}}
-{{defn|defn=Native file format for [[#Open CASCADE|Open CASCADE]] and shared by a few applications. FreeCAD can save in *.brep format.}}
-{{term|term=B-rep}}
-{{defn|defn=Stands for [http://en.wikipedia.org/wiki/B-rep boundary representation], which is one of two types of 3D models that FreeCAD supports (the other being [[#Mesh|mesh]]).}}
-{{term|term=B-spline}}
-{{defn|defn=A type of parametric curve. See [http://en.wikipedia.org/wiki/B-spline B-spline]}}
+{{term|BOPcheck}}
+{{defn|defn=Una configuración que permite que las herramientas de Verificación de Geometría en Part WB y OpenSCAD WB también verifiquen la geometría creada con [[#Boolean_Logic|Lógica booleana]]. La configuración predeterminada de Verificación de Geometría para BOPcheck es "false" (o desactivada). El usuario puede habilitar BOPcheck para obtener mayor precisión al ejecutar la herramienta Verificación de Geometría, pero esto conlleva tiempos de procesamiento más largos. A partir de FreeCAD 0.19, la configuración de BOPcheck se habilita fácilmente desde la sección Configuración del widget Verificación de Geometría.}}
+{{term|brep}}
+{{defn|defn=Formato de archivo nativo para [[#Open_CASCADE|Open CASCADE]] y compartido por algunas aplicaciones. FreeCAD puede guardar en formato *.brep.}}
+{{term|B-rep}}
+{{defn|defn=Significa [https://en.wikipedia.org/wiki/B-rep boundary representation], que es uno de los dos tipos de modelos 3D que FreeCAD admite (el otro es [[#Mesh|mesh]]).}}
+{{term|B-spline}}
+{{defn|defn=Un tipo de curva paramétrica. Ver [https://en.wikipedia.org/wiki/B-spline B-spline]}}
 {{glossend}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
