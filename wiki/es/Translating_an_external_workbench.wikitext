@@ -217,9 +217,8 @@ Eso es todo lo que necesita. Tenga en cuenta que algunas partes de su entorno de
 
 Resultado: Esto debería proporcionarle la traducción al alemán. Si funciona, la configuración básica es correcta. Entonces podemos analizar otros aspectos. Por ejemplo, los nombres de los comandos siempre deben usar un contexto especial, que es el nombre del comando tal como está registrado en FreeCAD.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Important notes ===
-</div> 
+<span id="Important_notes"></span>
+=== Notas importantes === 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Make sure you are using a *context* and *string* that actually are in the ts/qm file of course.
