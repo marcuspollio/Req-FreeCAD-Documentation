@@ -405,7 +405,7 @@ o = App.ActiveDocument.addObject("Path::Feature","boomerang")
 o.Path = p
 }}
 
-De la misma manera, puede obtener la información de la ruta como código G "agnóstico" y almacenarla manualmente en un archivo:
+De la misma manera, puede obtener la información de la ruta como '''código G "agnóstico"''' y almacenarla manualmente en un archivo:
 
 {{Code|code=
 text = o.Path.toGCode()
