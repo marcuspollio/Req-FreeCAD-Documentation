@@ -79,9 +79,7 @@ G90 (El comando se llama G90 y no tiene argumentos)
 Se admiten comandos de código G distintos de los que aparecen en la tabla siguiente; es decir, se guardan dentro de los datos de la trayectoria (siempre que cumplan las reglas anteriores, por supuesto), pero no producirán ningún resultado visible en pantalla. Por ejemplo, se puede añadir un comando G81; se almacenará, pero no se mostrará.
 
 <span id="List_of_currently_supported_G-code_commands"></span>
-<div class="mw-translate-fuzzy">
-=== Lista de comandos GCode actualmente soportados ===
-</div>
+=== Lista de comandos G-code compatibles actualmente ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable"
