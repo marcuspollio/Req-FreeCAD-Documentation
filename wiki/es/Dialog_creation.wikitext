@@ -265,9 +265,8 @@ class plane():
 
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==More examples ==
-</div>
+<span id="More_examples"></span>
+== Más ejemplos ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Dialog_creation_with_various_widgets|Dialog creation with various widgets]] with {{incode|QPushButton}}, {{incode|QLineEdit}}, {{incode|QCheckBox}}, {{incode|QRadioButton}}, and others.
