@@ -12,9 +12,7 @@
 
 [[Pivy|Pivy]] es una biblioteca de enlace [[Python|Python]] para [https://github.com/coin3d Coin], la biblioteca de renderizado 3D utilizada en FreeCAD para mostrar objetos en una [[3D_view|vista 3D]]. Coin es una implementación de código abierto de la especificación "Open Inventor" para el manejo de gráficos. Por lo tanto, en FreeCAD, los términos "Pivy", "Coin" u "Open Inventor" se refieren esencialmente a lo mismo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-When imported in a running Python interpreter, Pivy allows us to communicate directly with any running Coin [[Scenegraph|scenegraph]], such as the [[3D_view|3D view]], or even to create new ones. Pivy is not required to compile FreeCAD, but it is required at runtime when running Python-based workbenches that create shapes on screen, like [[Draft_Workbench|Draft]] and [[BIM_Workbench|BIM]]. Because of this, Pivy is normally installed when installing a distribution of FreeCAD.
-</div>
+Cuando se importa en un intérprete de Python en ejecución, Pivy nos permite comunicarnos directamente con cualquier [[Scenegraph|escenógrafo]] de Coin en ejecución, como la [[3D_view|vista 3D]], o incluso crear nuevas. No se necesita a Pivy para compilar FreeCAD, pero sí lo es en tiempo de ejecución cuando se utilizan entornos de trabajo basados ​​en Python que crean formas en pantalla, como el [[Draft_Workbench|Entorno de Trabajo Borrador]] y el [[BIM_Workbench|Entorno de Trabajo BIM]]. Por este motivo, Pivy se instala normalmente al instalar una distribución de FreeCAD.
 
 <div class="mw-translate-fuzzy">
 La biblioteca de Coin se divide en varias partes, la propia Coin, para manipular escenas gráficas, y pasarelas a varios sistemas de interfaz gráfica de usuario (GUI), tales como Windows o, en nuestro caso, Qt. Esos módulos están también disponibles para Pivy, si están presentes en el sistema. El módulo Coin está siempre presente, y es lo que vamos a utilizar en todos los casos, y no tendrás que preocuparte de anclar nuestra pantalla 3D en ninguna interfaz, ya que FreeCAD ya lo ha hecho por si mismo. Todo lo que necesitamos hacer es esto:
