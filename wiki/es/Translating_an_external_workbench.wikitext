@@ -176,9 +176,8 @@ Si desea alojar su archivo en la cuenta FreeCAD Crowdin, póngase en contacto co
 
 {{Emphasis|Nota:}} Algunas plataformas como Crowdin pueden integrarse con GitHub y realizar automáticamente todo el proceso de los puntos 2, 3 y 4. Para que esto sea posible, no podrá usar la cuenta de FreeCAD Crowdin; tendrá que crear su propia cuenta.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Merge the translations ==
-</div>
+<span id="Merge_the_translations"></span>
+== Combinar las traducciones ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Once your {{incode|.ts}} file has been translated, even if partially, you can download the translations from the site:
