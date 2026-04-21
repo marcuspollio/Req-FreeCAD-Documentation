@@ -191,9 +191,8 @@ myDialog = mywidget.plane()
 }}
 Eso es todo, amigos... Ahora pueden probar todo tipo de cosas, como por ejemplo, insertar su widget en la interfaz de FreeCAD (consulte la página [[Code snippets|Fragmentos de código]]), o crear herramientas personalizadas mucho más avanzadas, utilizando otros elementos en su widget.
 
-==  El archivo de guión completo ==
-
-Este es el archivo de guión completo, como referencia:
+== El script completo ==
+Este es el guion completo, para referencia:
 {{Code|code=
 # Form implementation generated from reading ui file 'mywidget.ui'
 #
