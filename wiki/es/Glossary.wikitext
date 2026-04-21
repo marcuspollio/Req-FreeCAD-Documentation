@@ -269,18 +269,16 @@ Ir a la letra {{CompactTOC|center=yes}}
 <span id="N"></span>
 == N ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{gloss}}
 {{term|Name}}
-{{defn|defn=An unique identifier for a FreeCAD document object. Once assigned by the program, the Name can not be easily changed. Contrast with [[#Label|Label]].}}
+{{defn|defn=Identificador único para un objeto de documento de FreeCAD. Una vez asignado por el programa, el Nombre no se puede cambiar fácilmente. A diferencia de [[#Label|Label]].}}
 {{term|Non-manifold}}
-{{defn|defn=Non-manifold topology, also called zero-thickness, is two distinct solid bodies connected at a theoretical vertex or edge. It is an unsupported type of shape (not always detected by FreeCAD) that should be avoided, as it can cause trouble with further steps and export.}}
+{{defn|defn=Topología no manifold, también llamada de espesor cero, consiste en dos cuerpos sólidos distintos conectados en un vértice o arista teórica. Es un tipo de forma no compatible (no siempre detectado por FreeCAD) que debe evitarse, ya que puede causar problemas en pasos posteriores y en la exportación.}}
 {{term|Non-parametric}}
-{{defn|defn=A non-parametric object does not have editable shape properties, nor does its shape depend on other objects. After creating a [[Part_SimpleCopy|non-parametric copy]] of an object, the original object can be modified or deleted without affecting the copy.}}
+{{defn|defn=Un objeto no paramétrico no tiene propiedades de forma editables, ni su forma depende de otros objetos.}} Tras crear una copia no paramétrica de un objeto, el objeto original puede modificarse o eliminarse sin afectar a la copia.
 {{term|Null Shape}}
-{{defn|defn=A [[#Shape|Shape]] property that has not been initialized by a program/macro. Usually an error condition.}}
+{{defn|defn=Una propiedad [[#Shape|Shape]] que no ha sido inicializada por un programa/macro. Generalmente, se trata de un error.}}
 {{glossend}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==O==
