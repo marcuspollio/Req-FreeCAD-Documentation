@@ -21,7 +21,7 @@ Este entorno se encuentra actualmente en fase de desarrollo inicial y no ofrece 
 <span id="Quickstart"></span>
 == Inicio rapido ==
 
-Los objectos trayectoria de FreeCAD son hechos de una secuencia de comandos de movimiento. Un uso típico es este:
+Los objetos Path de FreeCAD se componen de una secuencia de comandos de movimiento. Un uso típico sería el siguiente:
 
 {{Code|code=
 >>> import Path
