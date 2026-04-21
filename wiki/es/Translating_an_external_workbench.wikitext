@@ -179,9 +179,7 @@ Si desea alojar su archivo en la cuenta FreeCAD Crowdin, póngase en contacto co
 <span id="Merge_the_translations"></span>
 == Combinar las traducciones ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Once your {{incode|.ts}} file has been translated, even if partially, you can download the translations from the site:
-</div>
+Una vez que su archivo {{incode|.ts}} haya sido traducido, aunque sea parcialmente, puede descargar las traducciones desde el sitio:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * You will usually download a {{incode|.zip}} file containing one {{incode|.ts}} per language
