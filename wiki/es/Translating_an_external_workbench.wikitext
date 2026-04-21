@@ -81,9 +81,7 @@ from PySide.QtCore import QT_TRANSLATE_NOOP
 
 La función {{incode|QT_TRANSLATE_NOOP}} no hace nada, pero marca los textos que la utilidad {{incode|lupdate}} procesará posteriormente. Solo la utilizamos en casos especiales donde FreeCAD se encarga de todo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* To translate menu and toolbar names use the word {{incode|"Workbench"}} as the context:
-</div>
+* Para traducir los nombres de menús y barras de herramientas, utilice la palabra {{incode|"Workbench"}} como contexto:
 
 : {{Code|code=
 self.appendMenu(QT_TRANSLATE_NOOP("Workbench", "My menu"), [list of commands, ...])
