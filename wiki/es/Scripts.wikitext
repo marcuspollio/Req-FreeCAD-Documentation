@@ -334,7 +334,7 @@ En otras palabras, el '''centro de rotación''' de la geometría está en {{inco
 Este es el significado de la palabra "awkward" que se ha usado para definir la propiedad {{incode|Placement}}.
 
 
-Este es el ejemplo de código completo con una cadena de documentación de script adecuada que sigue la [https://www.sphinx-doc.org/en/master/usage/extensions/example_google.html#example-google Convención de cadenas de documentación de Google]:
+Este es el ejemplo de código completo formado por una cadena de documentación de script estandarizada que sigue la [https://www.sphinx-doc.org/en/master/usage/extensions/example_google.html#example-google Convención de cadenas de documentación de Google]:
 
 {{Code|code=
 """Sample code.
