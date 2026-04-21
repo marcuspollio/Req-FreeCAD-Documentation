@@ -97,9 +97,7 @@ sg.removeChild(myCustomNode)
 <span id="Callbacks"></span>
 == Funciones de devolución de llamada ==
 
-<div class="mw-translate-fuzzy">
-Un [http://en.wikipedia.org/wiki/Callback_%28computer_science%29 callback mechanism]  (mecanismo de devolución de llamada) es un sistema que permite a una biblioteca que se está utilizando, como la biblioteca Coin, que le devuelva la llamada, es decir, que llame a una función específica de tu objeto de Python ejecutado actualmente. Esto es muy útil, porque de esa manera Coin puede avisarte si algún evento específico se produce en la escena. Coin pueden ver cosas muy diferentes, como la posición del ratón, clics en un botón del ratón, las teclas del teclado que son pulsadas y muchas otras cosas.
-</div>
+Un [https://en.wikipedia.org/wiki/Callback_%28computer_science%29 mecanismo de devolución de llamada] es un sistema que permite que una biblioteca, como nuestra biblioteca Coin, le llame, es decir, que ejecute una función específica desde su objeto Python en ejecución. De esta forma, Coin puede notificarle que ha ocurrido un evento concreto en la escena. Coin puede monitorizar diversas cosas, como la posición del ratón, los clics de los botones del ratón, las teclas pulsadas y mucho más.
 
 FreeCAD cuenta con una sencilla manera de utilizar devoluciones de llamada de este tipo:
 
