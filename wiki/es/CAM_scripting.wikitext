@@ -470,7 +470,7 @@ def open(filename):
 Los preprocesadores y postprocesadores funcionan exactamente igual. Simplemente hacen lo contrario: los preprocesadores convierten el código G específico al código G "agnóstico" de FreeCAD, mientras que los posprocesadores convierten el código G "agnóstico" de FreeCAD al código G específico de la máquina.
 
 <span id="Adding_all_faces_of_a_ShapeString_to_the_BaseFeature&#039;s_list_of_a_ProfileFromFaces_operation"></span>
-== Añadir todas las caras de una CadenaForma a la lista de CaracterísticaBase  de una operación PerfilDeCaras ==
+== Agregar todas las caras de un ShapeString a la lista de BaseFeature de una operación ProfileFromFaces ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This example is based on a [https://forum.freecad.org/viewtopic.php?f=13&t=33310&p=279991#p279959 discussion in the german forum].
