@@ -449,9 +449,8 @@ print(error)
 analysis_object.addObject(femmesh_obj)
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== FEM mesh (netgen) ===
-</div>
+<span id="FEM_mesh_(netgen)"></span>
+=== Malla FEM (netgen) ===
 
 {{Code|code=
 mesh = doc.addObject('Fem::FemMeshShapeNetgenObject', 'FEMMeshNetgen')
