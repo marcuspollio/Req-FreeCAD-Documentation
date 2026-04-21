@@ -12,16 +12,11 @@
 |Download=[https://wiki.freecad.org/images/6/6d/Macro_Solid_Sweep.png ToolBar Icon]
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Description==
-</div>
-
-<div class="mw-translate-fuzzy">
+<span id="Description"></span>
 ==Descrizione==
-Questa macro crea un solido estrudendo un profilo 2D lungo una traiettoria precedentemente selezionata nella vista 3D.
 
+Questa macro crea un solido estrudendo un profilo 2D lungo una traiettoria precedentemente selezionata nella vista 3D.
 Gli elementi 2D possono essere creati attraverso i normali strumenti della GUI di FreeCAD.
-</div>
 
 Notare che il solido risultante non è parametrico. Se si decide di modificare il profilo o il percorso, si deve nuovamente eseguire la macro.
 
@@ -29,9 +24,8 @@ Nella seguente figura tutte le estrusioni sono realizzate utilizzando la stessa 
 
 [[File:Solid_sweep.png‎|500px|Alcuni esempi di estrusioni, tutte sono realizzate utilizzando la stessa sezione, ma su tre diverse traiettorie.]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Usage ==
-</div>
+<span id="Usage"></span>
+== Utilizzo ==
 
 <div class="mw-translate-fuzzy">
 == Utilizzo ==
