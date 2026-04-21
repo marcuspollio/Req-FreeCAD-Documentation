@@ -112,9 +112,7 @@ def QT_TRANSLATE_NOOP(context, text):
     return text
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Translate the {{incode|'MenuText'}} and {{incode|'Tooltip'}} of the command like this:
-</div>
+* Traduzca el {{incode|'MenuText'}} y el {{incode|'Tooltip'}} del comando de esta manera:
 
 : {{Code|code=
 def GetResources(self):
