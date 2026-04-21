@@ -39,9 +39,9 @@ La idea original de FreeCAD era combinar CasCADE (núcleo geométrico), Qt (kit 
 
 Si desea saber qué versión de Qt utiliza su instalación, el diálogo [[Std_About|Acerca de]] contiene listados de versiones donde se incluye Qt.
 
-For more information see:
+Para más información, consulte:
 * [https://en.wikipedia.org/wiki/PySide Wikipedia:PySide]
-* [https://wiki.qt.io/Differences_Between_PySide_and_PyQt Differences Between PySide and PyQt]
+* [https://wiki.qt.io/Differences_Between_PySide_and_PyQt Diferencias entre PySide y PyQt]
 
 When you install FreeCAD, you will get both Qt and a matching PySide as part of the package. If you are [[Compiling|compiling]] yourself, you must verify that matching versions of these two libraries are installed in order for FreeCAD to run correctly. Of course, PySide will only work if Qt is present.
 {{Top}}
