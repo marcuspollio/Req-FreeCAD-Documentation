@@ -233,22 +233,20 @@ Ir a la letra {{CompactTOC|center=yes}}
 <span id="L"></span>
 == L ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{gloss}}
 {{term|Label}}
-{{defn|no=1|defn=A user defined property of an object; used to make the [[#Tree_view|Tree view]] easier to understand by humans.}}
-{{defn|no=2|defn=A string of descriptive text added to a drawing (see [[Draft_Label|Draft Label]]).}}
-{{defn|defn=Contrast with [[#Name|Name]].}}
+{{defn|no=1|defn=Propiedad definida por el usuario de un objeto; se utiliza para facilitar la comprensión de la [[#Tree_view|Vista de árbol]] por parte de los humanos.}}
+{{defn|no=2|defn=Cadena de texto descriptivo que se añade a un dibujo (véase [[Draft_Label|Etiqueta de borrador]]).}}
+{{defn|defn=Contrasta con [[#Name|Name]].}}
 {{term|Line}}
-{{defn|defn=Most often this is used as a synonym for a [[#Line_Segment|line segment]]. In Sketcher, it is used sometimes with its exact meaning of an infinite straight path.}}
+{{defn|defn=Generalmente se utiliza como sinónimo de [[#Line_Segment|segmento de línea]]. En Sketcher, a veces se usa con su significado exacto de trayectoria recta infinita.}}
 {{term|Line Segment}}
-{{defn|defn=A straight path between two [[#Point|points]].}}
+{{defn|defn=Trayectoria recta entre dos [[#Point|puntos]].}}
 {{term|Lock}}
-{{defn|defn=[[Sketcher_ConstrainLock|Constraint Lock]]}}
+{{defn|defn=[[Sketcher_ConstrainLock|Bloqueo de restricción]]}}
 {{term|Loft|content=[https://en.wikipedia.org/wiki/Loft_%283D%29 Loft]}}
-{{defn|defn=A topological form created by linking consecutive profiles with a surface. Similar to the process used to make fabric covered aeroplanes or boats. Also the FreeCAD function for creating such a form.}}
+{{defn|defn=Forma topológica creada mediante la unión, con una superficie, de perfiles consecutivos. Similar al proceso utilizado para fabricar aviones o barcos recubiertos de tela. También es la función de FreeCAD para crear dicha forma.}}
 {{glossend}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==M==
