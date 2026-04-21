@@ -35,7 +35,7 @@ from PySide import QtCore, QtGui, QtWidgets
 <span id="FreeCAD_and_PySide"></span>
 == FreeCAD y PySide ==
 
-The original idea behind FreeCAD was to bring Cas.CADE (geometric kernel), Qt (gui toolkit) and Python together to create a free 3D parametric CAD program with a built-in scripting engine. This was in the early 2000’s, i.e. prior to the existence of PySide, thus a different wrapper – PyQt – was used for the first good decade of FreeCAD’s life. PySide came about to solve licensing issues with PyQt, and the switch for FreeCAD to PySide was made in 2013 ([https://github.com/FreeCAD/FreeCAD/commit/1dc122dc9a commit 1dc122dc9a]).
+La idea original de FreeCAD era combinar CasCADE (núcleo geométrico), Qt (kit de herramientas de interfaz gráfica) y Python para crear un programa CAD paramétrico 3D gratuito con un motor de scripting integrado. Esto ocurrió a principios de la década de 2000, antes de la existencia de PySide, por lo que se utilizó un envoltorio diferente, PyQt, durante la primera década de vida de FreeCAD. PySide surgió para resolver los problemas de licencia de PyQt, y el cambio de FreeCAD a PySide se produjo en 2013 ([https://github.com/FreeCAD/FreeCAD/commit/1dc122dc9a commit 1dc122dc9a]).
 
 If you would like to know which Qt version your installation uses, the [[Std_About|About dialog]] has version listings where Qt is included.
 
