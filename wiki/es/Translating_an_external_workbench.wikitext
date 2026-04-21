@@ -142,9 +142,7 @@ lupdate *.ui -ts translations/uifiles.ts
 
 : Esto es recursivo y encontrará archivos {{incode|.ui}} dentro de toda su estructura de directorios.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* If you have {{incode|.py}} files, you need to run {{incode|pylupdate}} too:
-</div>
+* Si tiene archivos {{incode|.py}}, también necesita ejecutar {{incode|pylupdate}}:
 
 : {{Code|code=
 pylupdate *.py -ts translations/pyfiles.ts
