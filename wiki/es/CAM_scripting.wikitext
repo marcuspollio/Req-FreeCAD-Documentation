@@ -351,9 +351,7 @@ El proyecto Trayectoria (Path) es una versión extendida de Compuesto (Compound)
 Tooltable containing 0 tools
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The Path module also features a GUI tooltable editor that can be called from Python, giving it an object that has a ToolTable property:
-</div>
+El módulo Trayectoria también incluye un editor de Tabla de Herramientas GUI que se puede llamar desde Python, proporcionándole un objeto que tiene una propiedad ToolTable:
 
 {{Code|code=
 >>> from PathScripts import TooltableEditor
