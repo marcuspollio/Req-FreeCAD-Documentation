@@ -23,9 +23,7 @@ from pivy import coin
 <span id="Scenegraph"></span>
 == Escenógrafo ==
 
-<div class="mw-translate-fuzzy">
-Vimos en la Página de [[Scenegraph/es|escenas gráficas]] cómo se organiza una típica escena de Coin. Todo lo que aparece en una vista 3D de FreeCAD es una escena gráfica de Coin, organizada de la misma manera. Tenemos un nodo raíz, y todos los objetos en la pantalla son sus hijos.
-</div>
+En la página [[Scenegraph|Escenógrafo]] ya se vio cómo se organiza una escena típica de Coin. Todo lo que aparece en una [[3D_view|vista 3D]] es un escenógrafo de Coin, organizado de la misma manera. Tenemos un nodo raíz, y todos los objetos en la pantalla son sus hijos.
 
 FreeCAD tiene una sencilla forma de acceder al nodo raíz de una escenas gráficas en vista 3D:
 
