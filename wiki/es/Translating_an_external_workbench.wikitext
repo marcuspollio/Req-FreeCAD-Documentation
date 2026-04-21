@@ -68,9 +68,7 @@ FreeCAD.Console.PrintMessage(translate("context", "My text") + "\n")
 obj.addProperty("App::PropertyBool", "MyProperty", "PropertyGroup", QT_TRANSLATE_NOOP("App::Property", "This is what My Property does"))
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-: Don't use your own {{incode|"context"}} in this specific case. Keep {{incode|"App::Property"}}.
-</div>
+: No use su propio {{incode|"context"}} en este caso específico. Mantenga {{incode|"App::Property"}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === In InitGui.py ===
