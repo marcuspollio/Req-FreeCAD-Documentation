@@ -52,8 +52,8 @@ Los [[Workbenches|Entornos de trabajo]] son ​​conjuntos de herramientas que 
 
 {{Version|1.1}}: Algunos entornos de trabajo poco utilizados están deshabilitados por defecto. Estos están marcados con {{Incode|D}} más abajo. Un entorno de trabajo deshabilitado se puede habilitar en [[Preferences_Editor#Workbenches|Preferencias]]. Los entornos de trabajo deshabilitados aún se pueden activar a través del menú {{Button|[[Image:List-add.svg|x16px]][[Image:Toolbar_flyout_arrow.svg|x16px]]}} de [[Std_Workbench|Selector de la barra de pestañas del banco de trabajo]].
 
-<!--Please keep this list consistent with Online_Help_Toc and Workbenches-->
-* [[Image:Freecad.svg|32px]] [[Std_Base/es|Herramientas estándar]]. Estos comandos y herramientas están presentes en todos los bancos de trabajo.
+<!--Por favor, mantenga esta lista coherente con Online_Help_Toc y Workbench-->
+* [[Image:Freecad.svg|32px]] [[Std_Base|Herramientas estándar]]. Estos comandos y herramientas están presentes en todos los entornos de trabajo.
 
 * [[Image:Workbench_Assembly.svg|32px]] El [[Assembly_Workbench|banco de trabajo Assembly]] para la construcción y resolución de ensamblajes mecánicos. {{Version|1.0}}
 
