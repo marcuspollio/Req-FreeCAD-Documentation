@@ -20,9 +20,7 @@ FreeCAD 可以导入和导出包含属于特定**命名空间**代码的[https:/
 <span id="Default_namespace"></span>
 ==默认命名空间==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The default SVG namespace used by FreeCAD is declared with this line:
-</div>
+FreeCAD 使用的默认 SVG 命名空间通过以下代码行声明：
 
 {{Code|lang=xml|code=
 xmlns="http://www.w3.org/2000/svg" version="1.1"
