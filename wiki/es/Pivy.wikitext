@@ -127,9 +127,7 @@ Consulte también la [[Code_snippets#Observe_mouse_events_in_the_3D_viewer_via_P
 
 Lamentablemente, Pivy no cuenta con su propia documentación. Sin embargo, dado que es una interfaz precisa para la biblioteca Coin, puede consultar la documentación de referencia de C++ para obtener información. En este caso, deberá adaptar el estilo de nomenclatura de clases de C++ al estilo de Python.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In C++:
-</div>
+En C++:
 
 {{Code|code=
 SoFile::getClassTypeId()
