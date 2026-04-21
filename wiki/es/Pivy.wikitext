@@ -123,9 +123,7 @@ La llamada de retorno debe iniciarse desde un objeto, ya que dicho objeto debe s
 Consulte también la [[Code_snippets#Observe_mouse_events_in_the_3D_viewer_via_Python|lista completa]] de los posibles eventos y sus parámetros, o la documentación oficial de Coin.
 {{Top}}
 <span id="Documentation"></span>
-<div class="mw-translate-fuzzy">
-== Documentación ==
-</div> 
+== Documentación == 
 
 <div class="mw-translate-fuzzy">
 Lamentablemente Pivy aún no tiene una documentación formal, pero como es una traducción exacta de Coin, puedes utilizar con seguridad la documentación de Coin como referencia, y utilizar el estilo de Python en lugar del estilo de C++ (por ejemplo, SoFile::getClassTypeId() se escribiría en Pivy como: SoFile.getClassId() )
