@@ -55,9 +55,7 @@ Qt Designer es muy sencillo de usar. En la barra lateral izquierda, encontrará 
 
 '''Nota:''' Aquí hemos optado por controles muy sencillos. Qt ofrece muchas más opciones; por ejemplo, se podrían usar '''Spinboxes''' en lugar de '''LineEdits''', etc. Échele un vistazo a las opciones disponibles, explore... seguro que se le ocurrirán otras opciones.
 
-<div class="mw-translate-fuzzy">
-Eso es prácticamente todo lo que necesitamos hacer en Qt Designer. Una última cosa, sin embargo, vamos a cambiar el nombre de todos nuestros elementos con nombres más adecuados, de modo que sea más fácil identificarlos en nuestros archivos de guión:
-</div>
+Eso es prácticamente todo lo que necesitamos hacer en Qt Designer. Sin embargo, una última cosa: vamos a renombrar todos nuestros elementos con nombres más sencillos para que sea más fácil identificarlos en nuestros scripts.
 
 [[Image:Qtpropeditor.jpg]]
 
