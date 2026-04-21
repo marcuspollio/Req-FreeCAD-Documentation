@@ -289,13 +289,13 @@ set_view()
 
 Vamos a explicar algo del código anterior:
 
-* Hemos utilizado una función para definir una esfera, empleando la definición más sencilla, usando solo el radio.
+* Se ha utilizado una función para definir una esfera, empleando la definición más sencilla, usando solo el radio.
 
 * Hemos introducido una segunda forma de escribir la operación '''Unión''' o '''Fusión''', utilizando múltiples objetos, similar a la habitual '''Part::Fuse''', que utiliza '''Part:Multifuse'''. Solo utilizamos una propiedad {{incode|Shapes}}. Hemos pasado una '''tupla''' como argumentos, pero también acepta una '''lista'''.
 
-* Hemos definido un objeto complejo '''avión''', pero lo hemos hecho de forma '''paramétrica''', definiendo algunos parámetros y derivando otros, mediante cálculos, a partir de los parámetros principales.
+* Se ha definido un objeto complejo '''avión''', pero lo hemos hecho de forma '''paramétrica''', definiendo algunos parámetros y derivando otros, mediante cálculos, a partir de los parámetros principales.
 
-* Hemos utilizado algunas propiedades de Posicionamiento {{incode|Placement}} dentro de la función y, antes de devolver las geometrías finales, hemos utilizado una propiedad {{incode|Rotation}} con la escritura ''Yaw-Pitch-Roll''. Nótese el último {{incode|Vector(0, 0, tail_position)}}, que define un '''centro de rotación'' de toda la geometría.
+* Finalmente, se han usado algunas propiedades de Posicionamiento {{incode|Placement}} dentro de la función y, antes de devolver las geometrías finales, hemos utilizado una propiedad {{incode|Rotation}} con la escritura ''Yaw-Pitch-Roll''. Nótese el último {{incode|Vector(0, 0, tail_position)}}, que define un '''centro de rotación'' de toda la geometría.
 
 {| class="wikitable"
 |-
