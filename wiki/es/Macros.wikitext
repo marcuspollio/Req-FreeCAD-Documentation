@@ -37,7 +37,7 @@ Allí podrá administrar sus macros, eliminarlas, editarlas, duplicarlas, instal
 Pulse el botón de grabación, asigne un nombre, por ejemplo, "cilindro 10x10", y luego, en el [[Part_Workbench|Entorno de Trabajo de Piezas]], cree un cilindro con radio = 10 y altura = 10. A continuación, pulse el botón "detener grabación". En el cuadro de diálogo de edición de macros, podrá ver el código Python grabado y, si lo desea, modificarlo. Para ejecutar la macro, simplemente pulse el botón de ejecución de la barra de herramientas mientras esté en el editor. La macro creada se guarda siempre en el disco, por lo que cualquier cambio que realice o cualquier nueva macro que cree estará disponible la próxima vez que inicie FreeCAD.
 
 <span id="Customizing"></span>
-== Personalización  ==
+== Personalización ==
 
 Por supuesto que no es práctico cargar una macro en el editor con el fin de usarla. FreeCAD proporciona formas mucho mejores de iniciar la macro, como la asignación de un atajo de teclado, o poner una entrada en el menú. Una vez que la macro se crea, todo esto se puede hacer a través de menú  {{MenuCommand| Herramientas →  Personalizar}}.
 
