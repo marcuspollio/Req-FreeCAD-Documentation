@@ -220,9 +220,7 @@ Resultado: Esto debería proporcionarle la traducción al alemán. Si funciona, 
 <span id="Important_notes"></span>
 === Notas importantes === 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Make sure you are using a *context* and *string* that actually are in the ts/qm file of course.
-</div>
+* Asegúrese de utilizar un *contexto* y una *cadena* que realmente estén en el archivo ts/qm, por supuesto.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Convenience script ==
