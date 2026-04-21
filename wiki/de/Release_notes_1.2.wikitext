@@ -122,7 +122,6 @@ ToDo (last check: 20260412):
 <span id="Further_CAM_improvements"></span>
 === Weitere CAM-Verbesserungen ===
 
-<div class="mw-translate-fuzzy">
 * Im Dialogfeld für den G-Code-Export werden nun Zeilennummern angezeigt. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull-Request #23862]
 * Die MillFace-Funktion wurde als MillFacing mit erheblichen Verbesserungen neu implementiert. [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull-Request #24367]
 * [[CAM_SimpleCopy/de|EinfacheKopie]] ermöglicht nun die Mehrfachauswahl von Bearbeitungen. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull-Request #24297]
@@ -150,7 +149,10 @@ ToDo (last check: 20260412):
 * Das Werkzeug [[CAM_SelectLoop/de|SchleifeAuswählen]] wurde verbessert und gibt nun den Linienzug zurück, wenn Kanten ausgewählt wurden und andere Methoden fehlgeschlagen sind. [https://github.com/FreeCAD/FreeCAD/pull/24185 Pull-Request #24185]
 * Der Kinetic-Postprozessor wurde um eine Kühlfunktion erweitert. [https://github.com/FreeCAD/FreeCAD/pull/25022 Pull-Request #25022]
 * Die Eigenschaft ''Units'' (metrisch/britisch) wurde zu ToolBits hinzugefügt. [https://github.com/FreeCAD/FreeCAD/pull/25783 Pull-Request #25783]
-</div>
+
+* Der [[CAM_SimulatorGL/de|neue CAM-Simulator]] verwendet nun denselben Ansichtsmodus (Orthogonal/Perspektivisch) und denselben Navigationsstil wie die [[3D_View/de|3D-Ansicht]]. [https://github.com/FreeCAD/FreeCAD/pull/23073 Pull-Request #23073]
+* Die [[CAM_Pocket_Shape/de|Taschen]]-Bearbeitung kann nun neben Flächen auch horizontale Kanten verarbeiten. [https://github.com/FreeCAD/FreeCAD/pull/27750 Pull-Request #27750]
+* Die Eigenschaft ''Op Final Depth'' der [[CAM_Engrave/de|Gravieren]]-Bearbeitung hat nun je nach Material und Gravurform einen besseren Standardwert. [https://github.com/FreeCAD/FreeCAD/pull/26543 Pull-Request #26543]
 
 <span id="Draft_Workbench"></span>
 == Arbeitsbereich Draft ==
