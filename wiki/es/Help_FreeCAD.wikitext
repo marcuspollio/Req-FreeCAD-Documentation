@@ -4,7 +4,7 @@
 <span id="Introduction"></span>
 == Introducción ==
 
-Si te gusta FreeCAD y quieres ayudar al proyecto, hay muchas otras cosas que puedes hacer, no importa si prefieres invertir tiempo o dinero o si sabes escribir código o no.
+Si le gusta FreeCAD y quiere ayudar al proyecto, hay muchas cosas que puede hacer, tanto si prefiere invertir tiempo o dinero, como si sabe programar o no.
 
 <span id="Donate_money"></span>
 == Donar dinero ==
@@ -14,9 +14,7 @@ Aunque FreeCAD no necesita dinero para desarrollarse, las donaciones pueden ayud
 <span id="Work_on_the_documentation"></span>
 == Trabaja en la documentación ==
 
-<div class="mw-translate-fuzzy">
-Ayúdanos a construir, corregir y extender esta documentación. Corrige errores, extiende o corrige páginas que no estén claras, crea nuevas páginas si falta un tema, etc. Contribuir al wiki de FreeCAD es fácil, en [[WikiPages|WikiPages]] puedes encontrar las directrices generales y la ayuda necesaria para empezar. Para editar el wiki, necesitarás una cuenta wiki con permisos de "Editor" (el wiki está protegido contra escritura para evitar el spam). Puedes solicitar una cuenta [http://forum.freecadweb.org/viewtopic.php?f=21&t=6830 en el foro] o en el [https://wiki.freecadweb.org/Help#Chat canal IRC]. Por favor, ten en cuenta que el canal IRC puede no ser tan receptivo como el foro. [https://forum.freecadweb.org El foro oficial de FreeCAD] debería ser el lugar principal para hacer preguntas y comenzar discusiones, ya que ayudará a preservar la experiencia y el conocimiento de la comunidad.
-</div>
+Ayúdanos a construir, corregir y extender esta documentación. Corrige errores, extiende o corrige páginas que no estén claras, crea nuevas páginas si falta un tema, etc. Contribuir al wiki de FreeCAD es fácil, en [[WikiPages|WikiPages]] puedes encontrar las directrices generales y la ayuda necesaria para empezar. Para editar el wiki, necesitarás una cuenta wiki con permisos de "Editor" (el wiki está protegido contra escritura para evitar el spam). Puedes solicitar una cuenta [http://forum.freecad.org/viewtopic.php?f=21&t=6830 en el foro] o en el [https://wiki.freecad.org/Help#Chat canal IRC]. Por favor, ten en cuenta que el canal IRC puede no ser tan receptivo como el foro. [https://forum.freecad.org El foro oficial de FreeCAD] debería ser el lugar principal para hacer preguntas y comenzar discusiones, ya que ayudará a preservar la experiencia y el conocimiento de la comunidad.
 
 Algunas áreas en las que será bienvenido tu trabajo:
 * La página [[:Category:Command_Reference]] lista y documenta todos los FreeCAD [[command/es|comandos]]. La mayoría de ellos contienen poca o ninguna información. Por favor, consulta [[WikiPages/es|WikiPáginas]] para ver buenos ejemplos de cómo deberían ser las páginas de documentación de comandos.
@@ -26,12 +24,10 @@ Algunas áreas en las que será bienvenido tu trabajo:
 <span id="Share_your_FreeCAD_knowledge"></span>
 == Comparte tus conocimientos de FreeCAD ==
 
-<div class="mw-translate-fuzzy">
 La comunidad de usuarios que rodea a FreeCAD aún es pequeña, pero ya incluye varios usuarios avanzados que realizan un trabajo muy importante mostrando a los recién llegados como utilizar el software. Si te empiezas a sentir cómodo con FreeCAD, tus conocimientos podrían ser muy apreciados por otros, y podrías contribuir con asuntos importantes , como:
-* Mostrando el trabajo que haces con FreeCAD en este [http://forum.freecadweb.org/viewtopic.php?f=8&t=1222 hilo del foro]. Puedes publicar capturas de pantalla, e incluso mejor aún, adjuntar adjuntar tus archivos de FreeCAD así otras personas podrán examinarlos y comprender como los hiciste.
+* Mostrando el trabajo que haces con FreeCAD en este [http://forum.freecad.org/viewtopic.php?f=8&t=1222 hilo del foro]. Puedes publicar capturas de pantalla, e incluso mejor aún, adjuntar adjuntar tus archivos de FreeCAD así otras personas podrán examinarlos y comprender como los hiciste.
 * Grabar [http://www.youtube.com/user/FreeCADNews vídeos] mostrando como hiciste algo interesante en FreeCAD. Estos vídeos normalmente hacen un gran trabajo mostrando el funcionamiento de las nuevas características.
 * Escribe [http://freecad-tutorial.blogspot.com/ tutoriales] describiendo o enseñando algo interesante. Puedes escribir tutoriales en tu propio blog, directamente en nuestra wiki, o incluso en el foro.
-</div>
 
 <span id="Translate_FreeCAD"></span>
 == Traduce FreeCAD ==
@@ -102,17 +98,15 @@ Mira la página del [[Artwork_Guidelines/es|Directrices Obras de Arte]] para ver
 <span id="Write_code"></span>
 == Escribe código! ==
 
-<div class="mw-translate-fuzzy">
 Escribir código para FreeCAD no es difícil, y no necesitas ningún tipo de permiso, puedes empezar ahora mismo a trabajar en algo que quieras, luego [https://github.com/FreeCAD/FreeCAD/issues issue tracker] o solicitar una fusión desde una rama de Git. Pero para evitar algunos dolores de cabeza deberías conocer primero los siguientes prerequisitos:
 
 * Información de [[Developer_hub/es#Compilando_FreeCAD|como compilar FreeCAD]] está disponible para diferentes sistemas operativos.
 * Antes de que empieces a programar para FreeCAD, debes conocer como funciona FreeCAD. Esto parece obvio, pero si no sabes como se supone que trabaja no podrás saber que hacer internamente o como hacerlo.
 * Casi todo se puede hacer en Python o C++. El trabajo interno casi siempre es en estos lenguajes. Sugerimos que leas las páginas de los [[Power_users_hub/es|Usuarios avanzados]], incluso si vas a programar en C++, ya que te dará una buena visión de su funcionamiento interno.
 * Si vas a trabajar en C++, asegúrate antes de que puedes compilar FreeCAD sin problemas.
-* Preséntate a otros desarrolladores. FreeCAD es antes de nada un proyecto social, discutimos un montón de asuntos en los [http://forum.freecadweb.org foros] antes de implementarlo, y siempre es mejor discutir tus ideas y decirle a la gente lo que tienes planeado hacer antes de hacerlo. También tenemos un [irc://chat.freenode.net/freecad canal de IRC], pero el foro es el principal y único sitio en el que encontraras a todos los desarrolladores.
+* Preséntate a otros desarrolladores. FreeCAD es antes de nada un proyecto social, discutimos un montón de asuntos en los [http://forum.freecad.org foros] antes de implementarlo, y siempre es mejor discutir tus ideas y decirle a la gente lo que tienes planeado hacer antes de hacerlo. También tenemos un [irc://chat.freenode.net/freecad canal de IRC], pero el foro es el principal y único sitio en el que encontraras a todos los desarrolladores.
 * Desde 2016, FreeCAD participa en el [[Google_Summer_of_Code_2020|Google Summer of Code 2020]]. Asegúrate de checar nuestras ideas si estás interesado en participar en la siguiente edición.
 * Cada vez más funciones de FreeCAD no están escritas en el código de FreeCAD en sí, sino en complementos, macros y extensiones.  En conjunto, este ecosistema es lo que hace que FreeCAD sea poderoso.  A menudo, trabajar en un complemento es más fácil porque hay menos código que leer y comprender, y menos personas involucradas.  Consulte el [https://github.com/FreeCAD/FreeCAD-addons repositorio de complementos] y el [https://github.com/FreeCAD/FreeCAD-macros repositorio de macros] para obtener algunas ideas.
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Create models ==
