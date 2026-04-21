@@ -95,13 +95,12 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{term|Constraint}}
 {{defn|defn=Una restricción en la relación geométrica entre primitivas en un [[#Sketch|Sketch]]. Si una restricción tiene un valor numérico, se denomina Datum (por ejemplo, una restricción de distancia tiene un valor numérico: la longitud de una línea imaginaria que conecta los dos puntos). Una restricción que no tiene valor numérico (por ejemplo, una restricción horizontal) a veces se denomina Restricción Geométrica.]}}
 {{defn|defn=Un método de modelado sólido para crear formas usando [[#Boolean_Operation|operaciones booleanas]] en [[#Primitive|primitivas]].}} {{term|Coordinate}}
-{{defn|defn=A number which defines the position of an object in space in reference to a [https://en.wikipedia.org/wiki/Cartesian_coordinate_system coordinate system].}}
+{{defn|defn=Un número que define la posición de un objeto en el espacio con respecto a un sistema de coordenadas cartesianas [https://en.wikipedia.org/wiki/Cartesian_coordinate_system].}}
 {{term|Coplanar}}
-{{defn|defn=Existing on the same plane.}}
+{{defn|defn=Existen en el mismo plano.}}
 {{term|CSG}}
-{{defn|defn=Short for [[#Constructive_Solid_Geometry|Constructive Solid Geometry]].}}
-{{term|Cut}}
-{{defn|defn=Applying a [[#Boolean_Operation|boolean difference]] between shapes.}}
+{{defn|defn=Abreviatura de [[#Geometría_Sólida_Constructiva|Geometría Sólida Constructiva]].}} {{term|Corte}}
+{{defn|defn=Aplicando una [[#Boolean_Operation|diferencia booleana]] entre formas.}}
 {{glossend}}
 </div>
 
