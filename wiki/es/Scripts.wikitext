@@ -140,7 +140,7 @@ Hasta aquí no hay nada especialmente emocionante. Pero hay que tener en cuenta 
 
 * La geometría no tenía la propiedad {{incode|Placement}}. Al usar geometrías simples para crear geometrías más complejas, gestionar {{incode|Placement}} resultaba engorroso.
 
-Now what to do with this geometries?
+¿Y ahora qué hacemos con estas geometrías?
 
 Let's introduce boolean operations. As a starter example, put these lines after {{incode|my_cyl}}. This creates a function for a '''Fusion''' also know as '''Union''' operation:
 
