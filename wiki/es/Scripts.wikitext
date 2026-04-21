@@ -26,7 +26,7 @@ Lamentablemente, la información sobre la programación de scripts en la documen
 
 El primer obstáculo para programar de una manera sencilla los scripts es que no hay una forma directa de acceder al editor interno de Python de FreeCAD a través de un elemento de menú o un icono en el área de la barra de herramientas, pero sabiendo que FreeCAD abre un archivo con una extensión {{incode|.py}} en el editor interno de Python, el truco más sencillo es crearlo directamente en su editor de texto favorito y luego abrirlo con el comando habitual {{MenuCommand|Archivo → Abrir}}.
 
-To make the things in a polite way, the file has to be written with some order, FreeCAD Python editor have a good "Syntax Highlighting" that lacks in many simple editors like Windows Notepad or some basic Linux editors, so it is sufficient to write these few lines:
+Para hacer las cosas de una manera estandarizada, el archivo debe escribirse con cierto orden. El editor de Python de FreeCAD tiene un buen "resaltado de sintaxis" del que carecen muchos editores sencillos como el Bloc de notas de Windows o algunos editores básicos de Linux, por lo que basta con escribir estas pocas líneas:
 
 {{Code|code=
 """filename.py
