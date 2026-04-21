@@ -61,9 +61,7 @@ En FreeCAD, normalmente no se necesita interactuar directamente con el grafo de 
 
 Acceder directamente al grafo de escena tiene muchas ventajas. Por ejemplo, se puede cambiar temporalmente la apariencia de un objeto o añadir a la escena objetos que no existen realmente en el documento de FreeCAD, como geometrías de construcción, ayudantes, sugerencias gráficas o herramientas como manipuladores o información en pantalla.
 
-<div class="mw-translate-fuzzy">
-FreeCAD cuenta con varias herramientas para ver o modificar código de openInventor. Por ejemplo, el código de Python siguiente muestra la representación en openInventor de un objeto seleccionado:
-</div>
+FreeCAD incluye varias herramientas para ver o modificar el código de Open Inventor. Por ejemplo, el siguiente código Python mostrará la representación de Open Inventor de un objeto seleccionado:
 
 {{Code|code=
 obj = FreeCAD.ActiveDocument.ActiveObject
