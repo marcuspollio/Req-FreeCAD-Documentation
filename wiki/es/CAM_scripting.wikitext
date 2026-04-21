@@ -254,7 +254,7 @@ Path [ size:2 length:2 ]
 <span id="The_Path_feature"></span>
 == La caracteristica Trayectoria ==
 
-La característica Ruta es un objeto del documento de FreeCAD que contiene una ruta y la representa en la vista 3D.
+La característica Ruta o Trayectoria es un objeto del documento de FreeCAD que contiene una ruta y la representa en la vista 3D.
 
 {{Code|code=
 >>> pf = App.ActiveDocument.addObject("Path::Feature","mypath")
