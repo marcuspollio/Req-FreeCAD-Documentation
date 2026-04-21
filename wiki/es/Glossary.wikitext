@@ -134,20 +134,18 @@ Ir a la letra {{CompactTOC|center=yes}}
 <span id="E"></span>
 == E ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{gloss}}
 {{term|Edge}}
-{{defn|no=1|defn=A segment joining two [[#Vertices|vertices]]. This segment can be a straight line or a curve. The CAD kernel defines it as: One-dimensional shape corresponding to a curve and bounded by a vertex at each extremity. A closed circle has therefore only one vertex, where it starts and ends. See [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 "Open CASCADE Technology, Profile: Defining the Topology"].}}
-{{defn|no=2|defn=The joining line between two faces. It can be curved or straight.}}
-{{term|Element}}
-{{defn|defn=An item of Sketcher geometry such as a point, a line segment, an arc, a circle, etc.}}
-{{term|Expression}}
-{{defn|no=1|defn=A general term used in mathematics and programming.}}
-{{defn|no=2|defn=In FreeCAD [[Expressions|expressions]] are used to compute values. They can reference and drive object properties. They are used in [[Spreadsheet_Workbench|spreadsheets]] and to control parametric models.}}
-{{term|Extrude}}
-{{defn|defn=A general term for extending a 2D object into 3D along 1 direction. See also [[#Pad|Pad]].}}
+{{defn|no=1|defn=Un segmento que une dos [[#Vertices|vértices]]. Este segmento puede ser una línea recta o una curva. El núcleo CAD lo define como: una forma unidimensional que corresponde a una curva y está delimitada por un vértice en cada extremo. Por lo tanto, un círculo cerrado tiene un solo vértice, donde comienza y termina. Véase [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 "Open CASCADE Technology, Profile: Defining the Topology"].}}
+{{defn|no=2|defn=La línea de unión entre dos caras. Puede ser curvo o recto.}}
+{{term|Elemento}}
+{{defn|defn=Un elemento de la geometría del Sketcher, como un punto, un segmento de línea, un arco, un círculo, etc.}}
+{{term|Expresión}}
+{{defn|no=1|defn=Término general utilizado en matemáticas y programación.}}
+{{defn|no=2|defn=En FreeCAD, las expresiones se utilizan para calcular valores. Pueden hacer referencia a las propiedades de los objetos y controlarlas. Se utilizan en hojas de cálculo y para controlar modelos paramétricos.}}
+{{term|Extrusión}}
+{{defn|defn=Término general para extender un objeto 2D a 3D en una dirección. Véase también [[#Pad|Pad]].}}
 {{glossend}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==F==
