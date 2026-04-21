@@ -74,7 +74,7 @@ Por esta razón, las clases {{incode|PySide2.QtWidgets}} también se colocan en 
 PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
 }}
 
-But the current recommended way is to use the modern namespacing.
+Pero la forma recomendada actualmente es utilizar el sistema de espacios de nombres moderno.
 
 {{Code|code=
 from PySide import QtCore, QtGui, QtWidgets
