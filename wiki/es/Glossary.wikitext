@@ -73,7 +73,6 @@ Ir a la letra {{CompactTOC|center=yes}}
 ==C==
 </div>
 
-<div class="mw-translate-fuzzy">
 {{gloss}}
 {{term|Callout}}
 {{defn|defn=Cadena de texto conectada a una línea que apunta a un objeto en un [[#Drawing|drawing]].}}
@@ -87,13 +86,13 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{term|COLLADA}}
 {{defn|defn=Formato de archivo de intercambio para modelos [[#Mesh|mesh]]. La extensión del archivo es *.dae.}}
 {{term|Command|content=[[Command|Command]]}}
-{{defn|defn=Una acción invocada desde la [[#GUI|GUI]] cuando presiona un botón de la barra de herramientas o escribe un atajo de teclado o escribe en la consola de Python. }}
+{{defn|defn=Una acción invocada desde la [[#GUI|GUI]] cuando presiona un botón de la barra de herramientas o escribe un atajo de teclado o escribe en la consola de Python.}}
 {{term|Compound}}
 {{defn|defn=Agrupa objetos sin fusionarlos como lo haría una [[#Boolean_Operation|Unión Booleana]].}}
 {{term|CompSolid}}
 {{defn|defn=Conjunto de [[#Solid|solidos]] conectados por sus [[#Face|caras]]. Los CompSolids son necesarios en [[#FEM|FEM]], donde se utiliza más de un material en una malla FEM.}}
 {{term|Constraint}}
-{{defn|defn=Una restricción en la relación geométrica entre primitivas en un [[#Sketch|Sketch]]. Si una restricción tiene un valor numérico, se denomina Datum (por ejemplo, una restricción de distancia tiene un valor numérico: la longitud de una línea imaginaria que conecta los dos puntos). Una restricción que no tiene valor numérico (por ejemplo, una restricción horizontal) a veces se denomina Restricción Geométrica.]}}
+{{defn|defn=Una restricción en la relación geométrica entre primitivas en un [[#Sketch|Sketch]]. Si una restricción tiene un valor numérico, se denomina Datum (por ejemplo, una restricción de distancia tiene un valor numérico: la longitud de una línea imaginaria que conecta los dos puntos). Una restricción que no tiene valor numérico (por ejemplo, una restricción horizontal) a veces se denomina Restricción Geométrica.}}
 {{defn|defn=Un método de modelado sólido para crear formas usando [[#Boolean_Operation|operaciones booleanas]] en [[#Primitive|primitivas]].}} {{term|Coordinate}}
 {{defn|defn=Un número que define la posición de un objeto en el espacio con respecto a un sistema de coordenadas cartesianas [https://en.wikipedia.org/wiki/Cartesian_coordinate_system].}}
 {{term|Coplanar}}
@@ -102,7 +101,6 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{defn|defn=Abreviatura de [[#Geometría_Sólida_Constructiva|Geometría Sólida Constructiva]].}} {{term|Corte}}
 {{defn|defn=Aplicando una [[#Boolean_Operation|diferencia booleana]] entre formas.}}
 {{glossend}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==D==
