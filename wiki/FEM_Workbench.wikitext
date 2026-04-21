@@ -202,6 +202,8 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 :* [[Image:FEM_MeshTransfiniteSurface.svg|32px]] [[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]: Creates a structured mesh on a face. {{Version|1.2}}
 
+:* [[Image:FEM_MeshTransfiniteVolume.svg|32px]] [[FEM_MeshTransfiniteVolume|Structured Transfinite Volume]]: Creates a structured mesh in a 4- or 5-sided volume bounded by transfinite surfaces. {{Version|1.2}}
+
 <!--T:194-->
 * [[Image:FEM_CreateElementsSet.svg|32px]] [[FEM_CreateElementsSet|Erase Elements]]: Hides elements selected by a polygon from the mesh. {{Version|1.0}}
 
