@@ -17,9 +17,7 @@ La geometría que aparece en las vistas 3D de FreeCAD se renderiza mediante la b
 
 [https://en.wikipedia.org/wiki/Open_Inventor] Open Inventor es un lenguaje de descripción de escenas 3D. La escena descrita en Open Inventor se renderiza en OpenGL en la pantalla. Coin3D se encarga de esto, por lo que los programadores no necesitan lidiar con llamadas complejas a OpenGL y solo necesitan proporcionar código Open Inventor válido. La gran ventaja es que Open Inventor es un estándar muy conocido y bien documentado.
 
-<div class="mw-translate-fuzzy">
-Uno de los trabajos mas inportantes que FreeCAD hace por ti es, básicamente, traducir la información de geometría OpenCascade al idioma de openInventor.
-</div>
+Una de las principales funciones de FreeCAD es traducir la información geométrica de OpenCASCADE al lenguaje de Open Inventor.
 
 <div class="mw-translate-fuzzy">
 OpenInventor describe una escena 3D en forma de una [http://en.wikipedia.org/wiki/Scene_graph escena gráfica] (scenegraph), como la siguiente:
