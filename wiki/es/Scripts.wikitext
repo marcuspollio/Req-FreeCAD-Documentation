@@ -79,8 +79,9 @@ def set_view():
 
 En el código anterior se incorporan algunos trucos:
 
-* {{incode|import FreeCAD}} This line import FreeCAD in the FreeCAD Python interpreter, it may seem a redundant thing, but it isn't.
-* {{incode|from FreeCAD import Placement, Rotation, Vector}} '''Placement''' '''Rotation''' and '''Vector''' are widely used in FreeCAD scripting, import them in this manner will save you to invoke them with {{incode|FreeCAD.Vector}} or {{incode|FreeCAD.Placement}} instead of {{incode|Vector}} or {{incode|Placement}}, this will save many keystrokes and make codelines much smaller.
+* {{incode|import FreeCAD}} Esta línea importa FreeCAD en el intérprete de Python de FreeCAD. Puede parecer redundante, pero no lo es.
+
+* {{incode|from FreeCAD import Placement, Rotation, Vector}} '''Placement''' '''Rotation''' y '''Vector''' se utilizan ampliamente en la programación de scripts de FreeCAD. Importarlos de esta manera le ahorrará tener que invocarlos con {{incode|FreeCAD.Vector}} o {{incode|FreeCAD.Placement}} en lugar de {{incode|Vector}} o {{incode|Placement}}. Esto le ahorrará muchas pulsaciones de teclas y hará que las líneas de código sean mucho más cortas.
 
 Let's start with a small script that does a very small job, but display the power of this approach.
 
