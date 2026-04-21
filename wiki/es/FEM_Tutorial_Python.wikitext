@@ -30,9 +30,8 @@ Este tutorial muestra cómo realizar un análisis de elementos finitos (FEA) sen
 <span id="Let&#039;s_start"></span>
 == Empecemos ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== New document and the part to analyze ===
-</div>
+<span id="New_document_and_the_part_to_analyze"></span>
+=== Nuevo documento y la pieza a analizar ===
 
 {{Code|code=
 # new document
