@@ -180,7 +180,7 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{gloss}}
 {{term|GDB o gdb}}
 {{defn|defn=[https://www.gnu.org/software/gdb/ '''G'''NU Project '''D'''e'''B'''ugger], un programa de depuración utilizado en Unix y otros sistemas operativos 'nix para obtener un [[#Backtrace|backtrace]]. "gdb" (sin las comillas) también es la primera parte del comando utilizado para iniciar el programa GDB. Un ejemplo de cómo usar GDB con FreeCAD se encuentra en [https://forum.freecad.org/viewtopic.php?t=7052#p56918 esta publicación del foro]}}
-{{term|Núcleo de modelado geométrico}}
+{{term|Geometric modeling kernel}}
 {{defn|defn=También llamado núcleo CAD. Un conjunto de bibliotecas de software complejas responsables de la creación de formas 3D. Todas las operaciones sobre objetos (extrusión, operaciones booleanas, chaflán, redondeo) dependen del núcleo de modelado geométrico.}}
 {{term|Git}}
 {{defn|defn=[https://en.wikipedia.org/wiki/Distributed_revision_control Sistema de control de revisiones distribuido] utilizado por FreeCAD para alojar y gestionar su código fuente.}}
