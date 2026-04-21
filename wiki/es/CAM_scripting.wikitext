@@ -82,53 +82,53 @@ Se admiten comandos de código G distintos de los que aparecen en la tabla sigui
 === Lista de comandos G-code compatibles actualmente ===
 
 {| class="wikitable"
-!Command 
-!Description 
-!Supported Arguments
-!Displayed
+!Comando 
+!Descrición 
+!Argumentos soportados
+!Mostrado
 |-
 |G0             
-|rapid move              
+|movimiento rápido              
 |X,Y,Z,A,B,C
-|Red
+|Rojo
 |-
 |G1             
-|normal move             
+|movimiento normal             
 |X,Y,Z,A,B,C
-|Green
+|Verde
 |-
 |G2             
-|clockwise arc           
+|arco en sentido horario          
 |X,Y,Z,A,B,C,I,J,K
-|Green
+|Verde
 |-
 |G3             
-|counterclockwise arc    
+|arco en sentido antihorario    
 |X,Y,Z,A,B,C,I,J,K
-|Green
+|Verde
 |-
 |G81, G82, G83  
-|drill                   
+|Perforar                   
 |X,Y,Z,R,Q
-|Red/Green
+|Rojo/verde
 |-
 |G38.2
-|Straight probe move (used in probe operation)
+|Movimiento recto de la sonda (utilizado en el funcionamiento de la sonda)
 |Z,F
-|Yellow
+|Amarillo
 |-
 |G90            
-|absolute coordinates    
+|Coordenadas absolutas    
 | 
 |
 |-
 |G91            
-|relative coordinates    
+|Coordenadas relativas    
 |
 | 
 |-
-|(Message)      
-|comment                 
+|(Mensaje)      
+|comentario                
 |
 | 
 |}
