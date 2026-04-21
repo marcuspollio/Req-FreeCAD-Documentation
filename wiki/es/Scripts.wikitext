@@ -132,10 +132,13 @@ def my_cyl(name, ang, rad, hei):
 
 Hasta aquí no hay nada especialmente emocionante. Pero hay que tener en cuenta algunas peculiaridades:
 
-* The absence of the usual reference to the {{incode|App.}}, present in many Documentation code snippets, is deliberate, this code could be used even invoking FreeCAD as a module in an external Python interpreter, the thing is not easily doable with an AppImage, but with some care it could be done. Plus in the standard Python motto that "better explicit than implicit" {{incode|App.}} is explaining in a very "poor" way where the things are from.
-* Note the use of the "constant" name assigned to the active Document in {{incode|DOC &#61; FreeCAD.activeDocument()}}; activeDocument is not a "constant" in a strict sense, but in a "semantical" way is our "active Document", that for our use is a proper "constant" so the Python convention to use the "ALL CAPS" name for "constants", not to mention that {{incode|DOC}} is much shorter than {{incode|FreeCAD.activeDocument()}}.
-* Every function returns a geometry, this will be clear in the continuation of the page.
-* Geometry didn't have the {{incode|Placement}} property, when using the simple geometries to make more complex geometry, managing {{incode|Placement}} is awkward.
+* La ausencia de la referencia habitual a {{incode|App.}}, presente en muchos fragmentos de código de la documentación, es deliberada. Este código podría usarse incluso invocando FreeCAD como un módulo en un intérprete de Python externo. Si bien no es fácil hacerlo con una AppImage, con cuidado se podría lograr. Además, siguiendo el lema estándar de Python de que "mejor explícito que implícito", {{incode|App.}} explica de forma muy deficiente el origen de los elementos.
+
+* Nótese el uso del nombre "constante" asignado al documento activo en {{incode|DOC &#61; FreeCAD.activeDocument()}}; activeDocument no es una "constante" en sentido estricto, pero semánticamente es nuestro "Documento activo", que para nuestro uso sí es una "constante" propiamente dicha. Por eso, en Python se utiliza la convención de escribir las "constantes" en mayúsculas, sin mencionar que {{incode|DOC}} es mucho más corto que {{incode|FreeCAD.activeDocument()}}.
+
+* Cada función devuelve una geometría; esto se explicará más adelante.
+
+* La geometría no tenía la propiedad {{incode|Placement}}. Al usar geometrías simples para crear geometrías más complejas, gestionar {{incode|Placement}} resultaba engorroso.
 
 Now what to do with this geometries?
 
