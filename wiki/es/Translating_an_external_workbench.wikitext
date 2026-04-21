@@ -25,9 +25,7 @@ import FreeCAD
 translate = FreeCAD.Qt.translate
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* All text that must be translated must be passed through the {{incode|translate()}} function:
-</div>
+* Todo el texto que deba traducirse debe pasarse por la función {{incode|translate()}}:
 
 : {{Code|code=
 print("My text")
