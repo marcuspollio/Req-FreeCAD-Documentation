@@ -9,9 +9,11 @@ En las siguientes notas, {{incode|"context"}} debe ser el nombre de su complemen
 
 === General ===
 
-* Agregar una carpeta {{incode|translations/}}. Puedes nombrarlo con algo más, pero esto sera mas sencillo como es el mismo en todo FreeCAD. En esta carpeta, tu colocaras los archivos {{incode|.ts}} (Los archivos de traducción "fuente" ) y los archivos {{incode|.qm}} (Archivos compilados de traducción).
-* Solo el texto que es mostrado al usuario en la Interface de usuario FreeCAD debera ser traducida. Solo el texto que es mostrado en la consola de python no debe ser traducida.
-* Texto que es impreso con {{incode|FreeCAD.Console}} es mostrado en "Vista de reporte", y por lo tanto de ser traducido. La "Vista de reporte es diferente a la consola de Python".
+* Añada una carpeta {{incode|translations/}}. Puedee cambiarle el nombre, pero este será más sencillo, ya que es el mismo en todo FreeCAD. En esta carpeta, colocará los archivos {{incode|.ts}} (los archivos de traducción "fuente") y los archivos {{incode|.qm}} (los archivos de traducción compilados).
+
+* Solo se debe traducir el texto que se muestra al usuario en la interfaz de FreeCAD. El texto que solo se muestra en la consola de Python no debe traducirse.
+
+* El texto que se imprime en {{incode|FreeCAD.Console}} se muestra en la "Vista de informe" y, por lo tanto, debe traducirse. La "Vista de informe" es diferente de la consola de Python.
 
 <span id="In_every_Python_.py_file"></span>
 <div class="mw-translate-fuzzy">
