@@ -51,9 +51,8 @@ FreeCADGui.SendMsgToActiveView("ViewFit")
 #
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Analysis and analysis objects ===
-</div>
+<span id="Analysis_and_analysis_objects"></span>
+=== Análisis y objetos de análisis ===
 
 {{Code|code=
 # let us create some objects
