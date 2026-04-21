@@ -270,7 +270,7 @@ La característica Trayectoria también incluye una propiedad de Posicionamiento
 Sin embargo, las Trayectorias Compuestas pueden utilizar la ubicación de sus hijos (ver más abajo).
 
 <span id="The_Tool_and_Tooltable_objects"></span>
-== La Herramienta y tabla de herramientas objetos ==
+== Los objetos Herramienta y Tabla de Herramientas ==
 
 
 '''NOTA:''' Este tipo de uso de herramientas está obsoleto desde la versión oficial 0.19. En la versión 0.19 se implementó el nuevo sistema de herramientas ToolBit para reemplazar este sistema anterior. Por lo tanto, el código ha cambiado con respecto a lo que se muestra a continuación. Visite la página [[CAM_Tools|Herramientas de CAM]] para obtener más información.
