@@ -55,7 +55,7 @@ Los [[Workbenches|Entornos de trabajo]] son ​​conjuntos de herramientas que 
 <!--Por favor, mantenga esta lista coherente con Online_Help_Toc y Workbench-->
 * [[Image:Freecad.svg|32px]] [[Std_Base|Herramientas estándar]]. Estos comandos y herramientas están presentes en todos los entornos de trabajo.
 
-* [[Image:Workbench_Assembly.svg|32px]] El [[Assembly_Workbench|banco de trabajo Assembly]] para la construcción y resolución de ensamblajes mecánicos. {{Version|1.0}}
+* [[Image:Workbench_Assembly.svg|32px]] El [[Assembly_Workbench|Entorno de trabajo de ensamblaje]] para construir y resolver ensamblajes mecánicos. {{Version|1.0}}
 
 * [[Image:Workbench_BIM.svg|32px]] El [[BIM_Workbench|banco de trabajo BIM]] para trabajar con elementos arquitectónicos y crear modelos [https://en.wikipedia.org/wiki/Building_information_modeling BIM]. Combina el banco de trabajo Arch y el anteriormente externo banco de trabajo BIM disponible en {{VersionMinus|0.21}}.
 
