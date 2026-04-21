@@ -420,7 +420,7 @@ Si necesita un formato de salida diferente, tendrá que convertir ese código G 
 <span id="Using_pre-_and_post-processing_scripts"></span>
 === Uso de scripts de preprocesamiento y posprocesamiento ===
 
-Si dispone de un archivo de código G escrito para una máquina específica, que no cumple con las reglas internas de FreeCAD, descritas en la sección anterior "Formato interno de código G de FreeCAD", es posible que no se importe o no se visualice correctamente en la vista 3D. Para solucionar este problema, debe utilizar un script de preprocesamiento que convierta el archivo del formato específico de su máquina al formato de FreeCAD.
+Si dispone de un archivo de código G escrito para una máquina específica, que no cumple con las reglas internas de FreeCAD, descritas en la sección anterior '''Formato interno de código G de FreeCAD''', es posible que no se importe o no se visualice correctamente en la vista 3D. Para solucionar este problema, debe utilizar un script de preprocesamiento que convierta el archivo del formato específico de su máquina al formato de FreeCAD.
 
 Si conoce el nombre del script de preprocesamiento que debe usar, puede importar su archivo usándolo desde la consola de Python de esta manera:
 
