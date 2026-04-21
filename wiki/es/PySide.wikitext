@@ -98,7 +98,7 @@ Se espera que estos ejemplos sean útiles para empezar y, más adelante, el usua
 <span id="Documentation"></span>
 ==Documentación==
 
-There are some differences in the handling of widgets between the different versions. Programmers should be aware of these incompatibilities, and consult the official documentation if something doesn't work as expected on a given platform. Although rare, sometimes it may be required to make versioned calls through if-clauses.
+Existen algunas diferencias en el manejo de widgets entre las distintas versiones. Los programadores deben tener en cuenta estas incompatibilidades y consultar la documentación oficial si algo no funciona como se espera en una plataforma determinada. Aunque es poco frecuente, en ocasiones puede ser necesario realizar llamadas con control de versiones mediante cláusulas condicionales.
 
 The PySide documentation refers to the Python-style classes; however, since Qt is originally a C++ library, the same information should be available in the corresponding C++ reference.
 * [https://doc.qt.io/qtforpython/modules.html Qt Modules] available from PySide2/PySide6 (Qt5/Qt6).
