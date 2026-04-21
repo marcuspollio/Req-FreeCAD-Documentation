@@ -303,7 +303,7 @@ Vamos a explicar algo del código:
 [[File:Aereo-prop.png|thumb|center|Propiedad de ubicación]]
 |}
 
-It can be easily noted that '''airplane''' geometry rotate around his "barycenter" or "center of gravity", that I've fixed at wing center, a place that is relatively "natural", but could be placed wherever you want.
+Se puede observar fácilmente que la geometría del "avión" gira alrededor de su "baricentro" o "centro de gravedad", que se ha fijado en el centro del ala, un lugar relativamente "natural", pero que podría ubicarse donde se desee.
 
 The first {{incode|Vector(0, 0, 0)}} is the Translation vector, not used here, but if you substitute {{incode|airplane()}} with these lines:
 
