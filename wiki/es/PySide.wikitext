@@ -7,7 +7,8 @@
 
 {{TOCright}}
 
-==Introduction==
+<span id="Introduction"></span>
+== Introducción ==
 
 <div class="mw-translate-fuzzy">
 [http://en.wikipedia.org/wiki/PySide PySide] es un enlace Python del conjunto de herramientas GUI multiplataforma Qt. FreeCAD utiliza PySide para todos los fines de la GUI (interfaz de usuario gráfica) dentro de Python. PySide es una alternativa al paquete PyQt que fue utilizado anteriormente por FreeCAD para su GUI. PySide tiene una licencia más permisible. Ver [http://qt-project.org/wiki/Differences_Between_PySide_and_PyQt Differences Between PySide and PyQt] Para más información sobre las diferencias.
