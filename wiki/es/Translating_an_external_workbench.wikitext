@@ -208,9 +208,8 @@ Debería encontrar un archivo {{incode|.qm}} por cada archivo {{incode|.ts}} tra
 
 Eso es todo lo que necesita. Tenga en cuenta que algunas partes de su entorno de trabajo no se pueden traducir automáticamente si cambia de idioma. En ese caso, tendrá que reiniciar FreeCAD para que el nuevo idioma surta efecto.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Testing translations ==
-</div>
+<span id="Testing_translations"></span>
+== Probando traducciones ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Switch FreeCAD to a language you have translated (for example German)
