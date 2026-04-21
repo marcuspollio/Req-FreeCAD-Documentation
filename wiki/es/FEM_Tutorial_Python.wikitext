@@ -557,9 +557,7 @@ femmesh_obj.ViewObject.applyDisplacement(10)
 
 Se intentó programar el objeto de malla Netgen en el [https://forum.freecad.org/viewtopic.php?f=18&t=16944#p134519 "Estudio FEM parametrizado"] (hilo del subforo FEM de FreeCAD), pero tiene algunas limitaciones. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 ===== GMSH =====
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 On the contrary, the GMSH mesh object fully supports Python scripting. See the following forum posts: 
