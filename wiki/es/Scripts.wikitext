@@ -331,7 +331,7 @@ tail_position = 21.0
 
 En otras palabras, el '''centro de rotación''' de la geometría está en {{incode|Vector(0, 0, 21)}}, pero este centro de rotación no se muestra en la Interfaz gráfica de Usuario (GUI), podría ingresarse como un valor {{incode|Placement}}, pero no podría recuperarse fácilmente.
 
-This is the meaning of the word "awkward" that I've used to define {{incode|Placement}} property.
+Este es el significado de la palabra "awkward" que se ha usado para definir la propiedad {{incode|Placement}}.
 
 
 This is the complete code example with a decent script docstring following [https://www.sphinx-doc.org/en/master/usage/extensions/example_google.html#example-google Google docstrings convention]:
