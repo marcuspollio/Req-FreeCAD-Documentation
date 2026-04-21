@@ -145,7 +145,7 @@ d.hide()
 
 == Haciendo que nuestro diálogo funcione == Ahora que podemos mostrar y ocultar nuestro diálogo, solo necesitamos añadir una última parte: ¡Hacer que funcione! Si experimenta un poco con Qt Designer, descubrirá rápidamente una sección completa llamada '''señales y ranuras'''. Básicamente, funciona así: los elementos de sus widgets (en la terminología de Qt, estos elementos son widgets) pueden enviar señales. Estas señales varían según el tipo de widget. Por ejemplo, un botón puede enviar una señal al pulsarlo y al soltarlo. Estas señales se pueden conectar a ranuras, que pueden ser funcionalidades especiales de otros widgets (por ejemplo, un diálogo tiene una ranura '''cerrar''' a la que puede conectar la señal de un botón de cierre), o pueden ser funciones personalizadas. La [http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/classes.html Documentación de referencia de PyQt] enumera todos los widgets de Qt, sus funciones, las señales que pueden enviar, etc.
 
-Lo que haremos aquí, es crear una nueva función que va a formar un plano basado en la altura y anchura, y conectar dicha función a la señal de "pulsado" emitida por nuestro botón "Create!". Empezaremos con la importación de nuestros módulos FreeCAD, poniendo la siguiente línea al comienzo del archivo de guión, donde ya hemos mandado también la importación de QtCore y QtGui:
+Lo que haremos aquí será diseñar una nueva función que creará un plano en función de su altura y anchura, y conectar esa función a la señal pulsada emitida por nuestro botón '''¡Crear!'''. Así pues, comencemos importando nuestros módulos de FreeCAD, colocando la siguiente línea al principio del script, donde ya importamos QtCore y QtGui:
 {{Code|code=
 import FreeCAD, Part
 }}
