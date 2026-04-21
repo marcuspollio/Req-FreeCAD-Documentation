@@ -103,9 +103,7 @@ En la consola de DOS escriba sin extensión:
 {{Code|code=
 compSide myUiFile
 }}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Into Linux : to do
-</div>
+En Linux hacer:
 
 <div class="mw-translate-fuzzy">
 En algunos sistemas el programa se llama pyuic4 en lugar de pyuic. Esta operación simplemente convertirá el archivo .ui en un archivo de guión de Python. Si abrimos el archivo mywidget.py, su contenido es muy fácil de entender:
