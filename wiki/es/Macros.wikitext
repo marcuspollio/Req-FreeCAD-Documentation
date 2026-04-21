@@ -34,9 +34,7 @@ Allí podrá administrar sus macros, eliminarlas, editarlas, duplicarlas, instal
 <span id="Example"></span>
 == Ejemplo ==
 
-<div class="mw-translate-fuzzy">
-Pulsa el botón de grabar, dale un nombre, digamos "cilindro de 10x10, entonces, en el [[Part_Workbench/es|Entorno de Pieza]], crea un cilindro con radio = 10 y altura = 10. A continuación, pulsa el botón "Detener la sesión de grabación de la macro". En el letrero de diálogo de edición macros, puedes ver el código Python que se ha registrado, y, si lo deseas, realizar modificaciones en él. Para ejecutar la macro, basta con pulsar el botón de ejecutar en la barra de herramientas mientras la macro se encuentra en el editor. Tu macro siempre se guarda en el disco, por lo que cualquier cambio que hagas, o cualquier macro nueva que crees, siempre estará disponible la próxima vez que inicies FreeCAD.
-</div>
+Pulse el botón de grabación, asigne un nombre, por ejemplo, "cilindro 10x10", y luego, en el [[Part_Workbench|Entorno de Trabajo de Piezas]], cree un cilindro con radio = 10 y altura = 10. A continuación, pulse el botón "detener grabación". En el cuadro de diálogo de edición de macros, podrá ver el código Python grabado y, si lo desea, modificarlo. Para ejecutar la macro, simplemente pulse el botón de ejecución de la barra de herramientas mientras esté en el editor. La macro creada se guarda siempre en el disco, por lo que cualquier cambio que realice o cualquier nueva macro que cree estará disponible la próxima vez que inicie FreeCAD.
 
 <span id="Customizing"></span>
 == Personalización  ==
