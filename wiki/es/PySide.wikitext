@@ -30,7 +30,7 @@ from PySide import QtCore, QtGui, QtWidgets
 ** El envoltorio de Python para Qt 6.x se llama PySide6. 
 
 [[File:PySideScreenSnapshot1.jpg]] [[File:PySideScreenSnapshot2.jpg]]
-{{Caption|Examples created with PySide. Left: a simple dialog. Right: a more complex dialog with graphs.}}
+{{Caption|Ejemplos creados con PySide. Izquierda: un diálogo simple. Derecha: un diálogo más complejo con gráficos.}}
 {{Top}}
 ==FreeCAD and PySide==
 
