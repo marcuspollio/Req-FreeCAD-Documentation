@@ -58,11 +58,11 @@ Esto se puede usar en cualquier lugar: en {{incode|print()}}, en {{incode|FreeCA
 FreeCAD.Console.PrintMessage(translate("context", "My text") + "\n")
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* If you are using {{incode|.ui}} files made with QtDesigner, nothing special needs to be done with them.
-* When creating new objects, do not translate the object's "Name". Rather, translate the object's "Label". The difference is that a "Name" is unique; it stays the same throughout the life of the object; on the other hand, a "Label" can be changed by the user as desired.
-* When creating properties for your objects, don't translate the property name. But place the description inside {{incode|QT_TRANSLATE_NOOP}}:
-</div>
+* Si utiliza archivos {{incode|.ui}} creados con QtDesigner, no es necesario realizar ninguna acción especial.
+
+* Al crear nuevos objetos, no traduzca el "Nombre" del objeto. En su lugar, traduzca la "Etiqueta" del objeto. La diferencia radica en que un "Nombre" es único y permanece igual durante toda la vida útil del objeto; en cambio, una "Etiqueta" puede ser modificada por el usuario según se desee.
+
+* Al crear propiedades para sus objetos, no traduzca el nombre de la propiedad. En su lugar, coloque la descripción dentro de {{incode|QT_TRANSLATE_NOOP}}:
 
 : {{Code|code=
 obj.addProperty("App::PropertyBool", "MyProperty", "PropertyGroup", QT_TRANSLATE_NOOP("App::Property", "This is what My Property does"))
