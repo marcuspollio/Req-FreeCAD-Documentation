@@ -95,9 +95,7 @@ Aunque el lugar para reportar errores confirmados y sugerir nuevas funciones es 
 <span id="Triage_bugs"></span>
 == Errores de clasificación ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-There are dozens of bugs reported on [https://github.com/FreeCAD/FreeCAD/issues GitHub] weekly. It takes a lot of time to read them, categorize them, verify if the issue is reproducible, see if some easy actions can be done, or ask the person who posted the issue to provide more information. Helping to triage is easy, just head over the [https://github.com/FreeCAD/FreeCAD/issues GitHub] and start commenting on any issue where you think you might be able to help!
-</div>
+Cada semana se reportan decenas de errores en [https://github.com/FreeCAD/FreeCAD/issues GitHub]. Leerlos, clasificarlos, verificar si el problema es reproducible, buscar soluciones sencillas o solicitar más información al autor del informe lleva mucho tiempo. Ayudar a clasificar los errores es fácil: ¡visite [https://github.com/FreeCAD/FreeCAD/issues GitHub] y comente cualquier problema en el que crea que puede colaborar!
 
 <span id="Design_artwork"></span>
 == Diseña material gráfico ==
