@@ -289,10 +289,13 @@ set_view()
 
 Vamos a explicar algo del código:
 
-* We have used a function to define a sphere, using the most easy definition, using only the radius.
-* We have introduced a second writing for the '''Union''' or '''Fusion''', using multiple objects, not more distant from the usual '''Part::Fuse''' it uses '''Part:Multifuse'''. We only use one property {{incode|Shapes}}. We have passed a '''tuple''' as arguments, but it accepts also a '''list'''.
-* We have defined a complex object '''airplane''', but we have done it in a '''"parametric"''' way, defining some parameters and deriving other parameters, through some calculation, based on the main parameters.
-* We have used some Placement {{incode|Placement}} poperties around in the function and before returning the final geometries we have used a {{incode|Rotation}} property with the ''Yaw-Pitch-Roll'' writing. Note the last {{incode|Vector(0, 0, tail_position)}}, that define a '''center of rotation''' of the whole geometry.
+* Hemos utilizado una función para definir una esfera, empleando la definición más sencilla, usando solo el radio.
+
+* Hemos introducido una segunda forma de escribir la operación '''Unión''' o '''Fusión''', utilizando múltiples objetos, similar a la habitual '''Part::Fuse''', que utiliza '''Part:Multifuse'''. Solo utilizamos una propiedad {{incode|Shapes}}. Hemos pasado una '''tupla''' como argumentos, pero también acepta una '''lista'''.
+
+* Hemos definido un objeto complejo '''avión''', pero lo hemos hecho de forma '''paramétrica''', definiendo algunos parámetros y derivando otros, mediante cálculos, a partir de los parámetros principales.
+
+* Hemos utilizado algunas propiedades de Posicionamiento {{incode|Placement}} dentro de la función y, antes de devolver las geometrías finales, hemos utilizado una propiedad {{incode|Rotation}} con la escritura ''Yaw-Pitch-Roll''. Nótese el último {{incode|Vector(0, 0, tail_position)}}, que define un '''centro de rotación'' de toda la geometría.
 
 {| class="wikitable"
 |-
