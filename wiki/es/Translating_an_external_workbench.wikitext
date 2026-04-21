@@ -278,9 +278,8 @@ pylupdate myfile.py -ts outfile.ts
 
 El archivo {{incode|outfile.ts}} contendrá el conjunto de cadenas que se cargan en CrowdIn para su traducción.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Important references ==
-</div>
+<span id="Important_references"></span>
+== Referencias importantes ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Why and how to translate {{incode|openCommand()}} functions ([https://forum.freecad.org/viewtopic.php?f=10&t=55869 forum thread])
