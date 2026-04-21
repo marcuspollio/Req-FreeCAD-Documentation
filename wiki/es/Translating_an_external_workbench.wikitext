@@ -102,9 +102,8 @@ FreeCADGui.addLanguagePath(os.path.join(os.path.dirname(__file__), "translations
 FreeCADGui.updateLocale()
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Inside each FreeCAD command class ===
-</div>
+<span id="Inside_each_FreeCAD_command_class"></span>
+=== Dentro de cada clase de comando de FreeCAD ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Add the following line near the top of the file:
