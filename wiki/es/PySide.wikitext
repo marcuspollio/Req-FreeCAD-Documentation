@@ -45,7 +45,8 @@ Para más información, consulte:
 
 Al instalar FreeCAD, obtendrá Qt y PySide como parte del paquete. Si va a compilar FreeCAD usted mismo, debe verificar que tenga instaladas versiones compatibles de estas dos bibliotecas para que FreeCAD funcione correctamente. Por supuesto, PySide solo funcionará si Qt está presente.
 {{Top}}
-==Multi version compatibility==
+<span id="Multi_version_compatibility"></span>
+==Compatibilidad con múltiples versiones==
 
 The main difference between the PySide and subsequent PySide2 and PySide6 libraries is the namespacing. PySide (Qt4) has the main namespaces {{incode|QtGui}} and {{incode|QtCore}}, whereas PySide2 (Qt5) and PySide6 (Qt6) introduced the additional namespace {{incode|QtWidgets}}, where all the widgets are now located, they used to be in QtGui namespace.
 
