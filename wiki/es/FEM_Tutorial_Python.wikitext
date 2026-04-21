@@ -474,9 +474,8 @@ doc.recompute()
 ###
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Run the analysis ==
-</div>
+<span id="Run_the_analysis"></span>
+== Ejecutar el análisis ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To run the analysis using Python, an instance of the {{incode|ccxtools}} module class {{incode|FemToolsCcx}} needs to be created. Once this instance has been created, we have two choices when running the analysis: 
