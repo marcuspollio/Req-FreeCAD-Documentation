@@ -138,9 +138,7 @@ d.ui = mywidget.Ui_Dialog()
 d.ui.setupUi(d)
 d.show()
 }}
-<div class="mw-translate-fuzzy">
-¡Y nuestro letrero de diálogo aparecerá! Ten en cuenta que nuestro intérprete de Python todavía está trabajando, ya que hemos usado un letrero de diálogo no modal. Por lo tanto, para cerrarlo, podemos (aparte de hacer clic en el icono de cerrar, por supuesto) escribir:
-</div>
+¡Y nuestro letrero de diálogo aparecerá! Tenga en cuenta que nuestro intérprete de Python todavía está trabajando, ya que hemos usado un letrero de diálogo no modal. Por lo tanto, para cerrarlo, podemos (aparte de hacer clic en el icono de cerrar, por supuesto) escribir:
 {{Code|code=
 d.hide()
 }}
