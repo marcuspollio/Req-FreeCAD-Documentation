@@ -307,9 +307,9 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{term|Parametric}}
 {{defn|defn=La mayoría de los objetos en FreeCAD son paramétricos. Esto significa que su forma depende de sus propiedades o de los objetos de origen en los que se basan. Por ejemplo, la forma de una [[Part_Box|Part Box]] existente se puede modificar editando sus dimensiones. Y si la caja es uno de los objetos de origen de un [[Part_Fuse|Part Fuse]], ese objeto también cambiará.}} Eliminar uno de los objetos fuente de un objeto paramétrico lo modificará e incluso podría dañarlo.
 {{term|Part}}
-{{defn|no=1|defn=Un [[#Workbench|workbench]] de FreeCAD utilizado principalmente para un flujo de trabajo de [https://en.wikipedia.org/wiki/Constructive_solid_geometry Geometría sólida constructiva]. Véase [[Part_Workbench|Part Workbench]].}}
+{{defn|no=1|defn=Un [[#Workbench|Entorno de Trabajo]] de FreeCAD utilizado principalmente para un flujo de trabajo de [https://en.wikipedia.org/wiki/Constructive_solid_geometry Geometría sólida constructiva]. Véase [[Part_Workbench|Part Workbench]].}}
 {{defn|no=2|defn=Un módulo de Python de FreeCAD que interactúa directamente con [[#OCC|OCC]]. Véase [[Part_scripting|Part scripting]].}}
-{{defn|no=3|defn=Un contenedor que agrupa cualquier tipo de objeto de FreeCAD y tiene una [[#Placement|placement]]. Véase [[Std_Part|Std Part]].}}
+{{defn|no=3|defn=Un contenedor que agrupa cualquier tipo de objeto de FreeCAD y tiene un [[#Placement|emplazamiento]]. Véase [[Std_Part|Std Part]].}}
 {{defn|no=4|defn=Un sólido unibody. El componente de nivel más bajo en un ensamblaje.}}
 {{term|PartDesignNext}}
 {{defn|defn=Apodo utilizado en los foros para distinguir el [[PartDesign_Workbench|PartDesign]] [[#Workbench|workbench]] de la versión 0.17 de FreeCAD del de la versión 0.16 y anteriores, debido a los grandes cambios introducidos.}}
@@ -322,12 +322,12 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{term|Pivy|content=[http://pypi.python.org/pypi/Pivy Pivy]}}
 {{defn|defn=Una biblioteca de software que permite a Python usar Coin.}}
 {{term|Placement}}
-{{defn|defn=Conjunto de propiedades de un objeto que define sus coordenadas y orientación en el espacio. Ver [[Colocación]].}}
+{{defn|defn=Conjunto de propiedades de un objeto que define sus coordenadas y orientación en el espacio. Ver [[Placement]].}}
 {{term|Planar}}
 {{defn|defn=Se dice de la geometría cuyos elementos se encuentran todos en un mismo plano.}}
 {{term|Plane}}
 {{defn|no=1|defn=Una superficie plana bidimensional que se extiende infinitamente.}}
-{{defn|no=2|defn=Un objeto bidimensional primitivo creado en el [[Part_Workbench|Part]] [[#Workbench|workbench]].}}
+{{defn|no=2|defn=Un objeto bidimensional primitivo creado en el [[#Workbench|Entorno de Trabajo]] de [[Part_Workbench|Pieza]] }}
 {{term|Plot}}
 {{defn|no=1|defn=Un sinónimo obsoleto de dibujo técnico realizado con un trazador de pluma. Ver [https://en.wikipedia.org/wiki/Plotter Plotter]}}
 {{defn|no=2|defn=Abreviatura de plan de trazado. Ver [https://en.wikipedia.org/wiki/Site_plan Plano del sitio]}}
