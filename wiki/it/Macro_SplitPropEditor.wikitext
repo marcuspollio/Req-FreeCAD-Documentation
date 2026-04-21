@@ -31,14 +31,12 @@ Inoltre, quando l'editor delle proprietà è separato, viene fornito un meccanis
 <span id="Usage"></span>
 ===Utilizzo===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To split the property editor, just run the macro.
-When the macro has been run once in the session, different ways to split/reset the property editor exists :
-* When the property editor is split, closing the extra dock widget will reset it to the combo view
-* Run the macro again : at each run, property editor split will be toggled. This is a useful way if you attach the macro to a custom icon in a toolbar
-* Double-click the 'Model' tab label in the Combo view : each double-click will toggle property editor split
-* Go to View->Panels and toggle the 'Property editor' panel
-</div>
+Per dividere l'editor delle proprietà, è sufficiente eseguire la macro.
+Dopo aver eseguito la macro una volta nella sessione, esistono diversi modi per dividere/ripristinare l'editor delle proprietà:
+* Quando l'editor delle proprietà è diviso, chiudendo il widget aggiuntivo nel dock si tornerà alla visualizzazione combinata.
+* Eseguire nuovamente la macro: ad ogni esecuzione, la divisione dell'editor delle proprietà verrà attivata/disattivata. Questo è un metodo utile se si associa la macro a un'icona personalizzata in una barra degli strumenti.
+* Fare doppio clic sull'etichetta della scheda "Modello" nella visualizzazione combinata: ogni doppio clic attiverà/disattiva la divisione dell'editor delle proprietà.
+* Andare su Visualizza -> Pannelli e attivare/disattivare il pannello "Editor delle proprietà".
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 When the property editor is split in its separated widget, perform a mouse middle click on the widget title bar to get access to the font sizer.
