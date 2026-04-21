@@ -10,9 +10,7 @@
 <span id="Introduction"></span>
 == Introducción ==
 
-<div class="mw-translate-fuzzy">
-La geometría que aparece en las vistas 3D de FreeCAD son renderizadas por la biblioteca Coin3D. Coin3D es una implementación del estandard [http://en.wikipedia.org/wiki/Open_Inventor OpenInventor]. El software OpenCascade también proporciona la misma funcionalidad, pero se decidió, al comenzar el desarrollo de FreeCAD, no utilizar el visor de OpenCascade, sino cambiar al software Coin3D, por tener mejor rendimiento. Un buen modo de aprender sobre esa librería es el libro [http://www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/ Open Inventor Mentor].
-</div>
+La geometría que aparece en las vistas 3D de FreeCAD se renderiza mediante la biblioteca Coin3D. Coin3D es una implementación del estándar Open Inventor. El software OpenCASCADE también ofrece la misma funcionalidad, pero en las primeras etapas de FreeCAD se decidió no utilizar el visor OpenCASCADE integrado, sino optar por el software Coin3D, de mayor rendimiento. Una buena manera de aprender sobre esta biblioteca es consultar el libro [http://www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/ Open Inventor Mentor].
 
 ==Description==
 
