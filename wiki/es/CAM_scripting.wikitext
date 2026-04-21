@@ -279,9 +279,7 @@ Sin embargo, las Trayectorias Compuestas pueden utilizar la ubicación de sus hi
 
 El objeto Herramienta contiene las definiciones de una herramienta CNC. El objeto Tabla de herramientas contiene una lista ordenada de herramientas. Las tablas de herramientas se adjuntan como una propiedad a las funciones de Proyecto de trayectoria y también se pueden editar a través de la interfaz gráfica de usuario (GUI), haciendo doble clic en un proyecto en la Vista de árbol y haciendo clic en el botón "Editar tabla de herramientas" en las vistas de tareas que se abren.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-From that dialog, tooltables can be imported from FreeCAD's .xml and HeeksCad's .tooltable formats, and exported to FreeCAD's .xml format.
-</div>
+Desde ese cuadro de diálogo, se pueden importar tablas de herramientas desde los formatos .xml de FreeCAD y .tooltable de HeeksCad, y exportarlas al formato .xml de FreeCAD.
 
 {{Code|code=
 >>> import Path
