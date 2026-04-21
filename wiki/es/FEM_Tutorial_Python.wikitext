@@ -464,9 +464,8 @@ doc.recompute()
 analysis_object.addObject(mesh)
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Recompute ===
-</div>
+<span id="Recompute"></span>
+=== Recalcular ===
 
 {{Code|code=
 # recompute
