@@ -222,9 +222,8 @@ Resultado: Esto debería proporcionarle la traducción al alemán. Si funciona, 
 
 * Asegúrese de utilizar un *contexto* y una *cadena* que realmente estén en el archivo ts/qm, por supuesto.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Convenience script ==
-</div>
+<span id="Convenience_script"></span>
+== Script de conveniencia ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Yorik maintains a convenience script for the BIM workbench, that can gather, upload and download ts files.
