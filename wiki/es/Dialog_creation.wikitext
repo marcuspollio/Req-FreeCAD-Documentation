@@ -38,9 +38,20 @@ Luego usaremos este cuadro de diálogo en FreeCAD para crear un plano rectangula
 
 [[Image:Qtdesigner-screenshot.jpg]]
 
-<div class="mw-translate-fuzzy">
-Es muy sencillo de utilizar. En la barra de la izquierda tienes elementos que pueden ser arrastrados a tu widget. En el lado derecho tienes los paneles de propiedades mostrando todo tipo de propiedades editables de los elementos seleccionados. Comencemos ahora con la creación de un nuevo widget o complemento. Selecciona "letrero de diálogo sin botones", ya que no queremos el formato predeterminado de botones Ok/Cancelar. A continuación, arrastra sobre tu widget '''3 etiquetas''', una para el título, una para escribir "Altura" y otra para escribir "Ancho". Las etiquetas son textos sencillos que aparecen en tu widget, simplemente para informar al usuario. Si seleccionas una etiqueta, en la parte derecha aparecerán varias propiedades que puedes cambiar si lo deseas, como el estilo de fuente, altura, etc.
-</div>
+== Creación del diálogo ==
+
+Qt Designer es muy sencillo de usar. En la barra lateral izquierda, encontrará elementos que puede arrastrar al widget. En la derecha, verá paneles de propiedades que muestran las propiedades editables de los elementos seleccionados. Comencemos creando un nuevo widget.
+
+# Seleccione '''Diálogo sin botones''', ya que no queremos los botones predeterminados {{KEY|OK}}/{{KEY|Cancelar}}.
+
+# Necesitamos etiquetas. Las etiquetas son simples cadenas de texto que aparecen en el widget para informar al usuario. Al seleccionar una etiqueta, observe que en la derecha aparecerán varias propiedades que puede modificar, como el estilo de fuente, la altura, etc. Arrastremos tres etiquetas al widget:
+#* Una etiqueta para el título
+#* Otra etiqueta para escribir "Altura"
+#* Otra etiqueta para escribir "Ancho"
+
+# Ahora necesitamos campos de edición de línea (dos, de hecho). Arrastre dos de ellos al widget. Los campos de texto ('''LineEdit''') son campos que el usuario final puede completar. Necesitamos un LineEdit para la altura y otro para el ancho. Aquí también podemos editar las propiedades. Por ejemplo, ¿por qué no establecer un valor predeterminado, digamos 1.00 para cada uno? De esta forma, cuando el usuario vea el cuadro de diálogo, ambos valores ya estarán completados. Si el usuario final está conforme, puede pulsar el botón directamente, ahorrando un tiempo valioso.
+
+# A continuación, añadiremos un botón ('''PushButton'''). Este es el botón que el usuario final deberá pulsar después de haber completado ambos campos.
 
 <div class="mw-translate-fuzzy">
 Ten en cuenta que he elegido aquí controles muy sencillos, pero Qt tiene muchas más opciones, por ejemplo, podría utilizar Spinboxes en lugar de LineEdits, etc. Echa un vistazo a lo que está disponible, seguramente tendrás otras ideas.
