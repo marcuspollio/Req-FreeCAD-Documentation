@@ -4,10 +4,10 @@
 <!--T:4-->
 {{Docnav
 |[[FEM_MeshRegion|Mesh Refinement]]
-|[[FEM_CreateElementsSet|Erase Elements]]
+|[[FEM_MeshDistance|Distance-Based Refinement]]
 |[[FEM_Workbench|FEM]]
 |IconL=FEM_MeshRegion.svg
-|IconR=FEM_CreateElementsSet.svg
+|IconR=FEM_MeshDistance.svg
 |IconC=Workbench_FEM.svg
 }}
 
@@ -60,10 +60,10 @@ FEM MeshGroup therefore enables FreeCAD to be used with external solvers (or vie
 <!--T:5-->
 {{Docnav
 |[[FEM_MeshRegion|Mesh Refinement]]
-|[[FEM_CreateElementsSet|Erase Elements]]
+|[[FEM_MeshDistance|Distance-Based Refinement]]
 |[[FEM_Workbench|FEM]]
 |IconL=FEM_MeshRegion.svg
-|IconR=FEM_CreateElementsSet.svg
+|IconR=FEM_MeshDistance.svg
 |IconC=Workbench_FEM.svg
 }}
 
