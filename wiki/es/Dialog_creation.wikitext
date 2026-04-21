@@ -61,7 +61,7 @@ Eso es prácticamente todo lo que necesitamos hacer en Qt Designer. Sin embargo,
 
 <span id="Converting_our_dialog_to_python"></span>
 == Convirtiendo nuestro diálogo a Python ==
-Ahora, vamos a salvar nuestro widget en alguna parte. Se guardará como un archivo .ui, que fácilmente se convertirá en un archivo de guión de Python por medio de pyuic. En Windows, el programa pyuic se ve enriquecido con PyQt (por verificar), en linux es probable que tengas que instalarlo por separado desde tu gestor de paquetes (en sistemas basados en Debian, es parte del paquete de herramientas PyQt4-dev-tools). Para realizar la conversión, tendrás que abrir una ventana de terminal (o una ventana de símbolo de sistema en Windows), ve a donde guardaste el archivo .ui, y escribe:
+Ahora, guardemos nuestro widget en algún lugar. Se guardará como un archivo .ui, que convertiremos fácilmente a un script de Python con pyuic. En Windows, el programa pyuic viene incluido con PyQt (esto se puede verificar); en Linux, probablemente tendrá que instalarlo por separado desde tu gestor de paquetes (en sistemas basados ​​en Debian, forma parte del paquete pyqt4-dev-tools). Para realizar la conversión, tendrá que abrir una ventana desde una terminal (o una ventana de símbolo del sistema en Windows) y navegar hasta donde guardó su archivo .ui para poder ejecutarlo:
 {{Code|code=
 pyuic mywidget.ui > mywidget.py
 }}
