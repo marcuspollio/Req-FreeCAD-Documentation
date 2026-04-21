@@ -123,9 +123,7 @@ def GetResources(self):
     }
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-: where {{incode|"CommandName"}} is the name of the command, defined by:
-</div>
+: donde {{incode|"CommandName"}} es el nombre del comando, definido por:
 
 : {{Code|code=
 FreeCADGui.addCommand('CommandName', My_Command_Class())
