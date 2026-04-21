@@ -62,15 +62,15 @@ G1 X30 (El nombre del comando es G1, el único argumento es X=30)
 G90 (El comando se llama G90 y no tiene argumentos)
 </pre>
 
-* Para la parte numérica de un comando G o M, se admiten las formas "G1" y "G01".
+* Para la parte numérica de un comando G o M, se admiten las formas '''G1''' y '''G01'''.
 
 * Por el momento, solo se admiten comandos que comiencen con G o M.
 
 * Por ahora, solo se aceptan milímetros. G20/G21 se ignoran.
 
-* Los argumentos siempre se ordenan alfabéticamente. Esto significa que si crea un comando con "G1 X2 Y4 F300", se almacenará como "G1 F300 X2 Y4".
+* Los argumentos siempre se ordenan alfabéticamente. Esto significa que si crea un comando con '''G1 X2 Y4 F300''', se almacenará como '''G1 F300 X2 Y4'''.
 
-* Los argumentos no se pueden repetir dentro del mismo comando. Por ejemplo, "G1 X1 Y2 X2 Y3" no funcionará. Deberá dividirlo en dos comandos, por ejemplo: "G1 X1 Y2, G1 X2 Y3".
+* Los argumentos no se pueden repetir dentro del mismo comando. Por ejemplo, '''G1 X1 Y2 X2 Y3''' no funcionará. Deberá dividirlo en dos comandos, por ejemplo: '''G1 X1 Y2, G1 X2 Y3'''.
 
 * Los argumentos X, Y, Z, A, B y C son absolutos o relativos, según el modo G90/G91 actual. Por defecto (si no se especifica), son absolutos.
 
