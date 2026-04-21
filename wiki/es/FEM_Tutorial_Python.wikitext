@@ -432,9 +432,8 @@ analysis_object.addObject(femmesh_obj)
 </div> <!-- END of FEM mesh collapsible section. Do not remove -->
 </div> <!-- END of FEM mesh collapsible section. Do not remove -->
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== FEM mesh (gmsh) ===
-</div>
+<span id="FEM_mesh_(gmsh)"></span>
+=== Malla FEM (gmsh) ===
 
 {{Code|code=
 femmesh_obj = ObjectsFem.makeMeshGmsh(doc, box_obj.Name + "_Mesh")
