@@ -268,9 +268,7 @@ for command in commands:
     menu_text = translate(resources['MenuText'])
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In this case, {{incode|lupdate}} cannot extract any string from the call to {{incode|translate()}} because it refers to a variable. So {{incode|lupdate}} ignores that call, but at runtime Qt searches for the string that's passed to it. As long as someplace in the code there is a call to one of the translation functions with a matching literal string (in this case, in the {{incode|GetResources()}} function), this translation call will succeed.
-</div>
+En este caso, {{incode|lupdate}} no puede extraer ninguna cadena de la llamada a {{incode|translate()}} porque hace referencia a una variable. Por lo tanto, {{incode|lupdate}} ignora esa llamada, pero en tiempo de ejecución Qt busca la cadena que se le pasa. Siempre que en algún lugar del código haya una llamada a una de las funciones de traducción con una cadena literal coincidente (en este caso, en la función {{incode|GetResources()}}), esta llamada de traducción se realizará correctamente.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To verify that the expected strings are being extracted, you can manually run the {{incode|pylupdate}} command:
