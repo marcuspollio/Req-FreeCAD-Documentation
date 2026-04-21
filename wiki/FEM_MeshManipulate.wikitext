@@ -2,11 +2,11 @@
 <translate>
 
 {{Docnav
-|[[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]]
-|[[FEM_MeshRegion|Mesh Refinement]]
+|[[FEM_MeshShape|Shape-Based Refinement]]
+|[[FEM_MeshAdvanced|Advanced Refinement Types]]
 |[[FEM_Workbench|FEM]]
-|IconL=FEM_MeshGmshFromShape.svg
-|IconR=FEM_MeshRegion.svg
+|IconL=FEM_MeshShape.svg
+|IconR=FEM_MeshAdvanced.svg
 |IconC=Workbench_FEM.svg
 }}
 
@@ -71,11 +71,11 @@ You can create as many different refinement manipulations as needed.
 
 
 {{Docnav
-|[[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]]
-|[[FEM_MeshRegion|Mesh Refinement]]
+|[[FEM_MeshShape|Shape-Based Refinement]]
+|[[FEM_MeshAdvanced|Advanced Refinement Types]]
 |[[FEM_Workbench|FEM]]
-|IconL=FEM_MeshGmshFromShape.svg
-|IconR=FEM_MeshRegion.svg
+|IconL=FEM_MeshShape.svg
+|IconR=FEM_MeshAdvanced.svg
 |IconC=Workbench_FEM.svg
 }}
 
