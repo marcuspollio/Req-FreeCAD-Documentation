@@ -319,7 +319,7 @@ En la ventana de informe verá este texto:
 Placement [Pos=(0, -21, 21), Yaw-Pitch-Roll=(0, 0, -90)]
 }}
 
-What has happened?
+¿Qué ha pasado?
 
 FreeCAD has translated the {{incode|Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, tail_position)}} in other words our {{incode|Placement}} definition that specifies three components, '''Translation''', '''Rotation''' and '''center of rotation''' in the "internal" values of only two components, '''Translation''' and '''Rotation'''.
 
