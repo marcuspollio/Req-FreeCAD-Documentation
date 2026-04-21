@@ -11,12 +11,11 @@
 
 FreeCAD 可以导入和导出包含属于特定**命名空间**代码的[https://en.wikipedia.org/wiki/Scalable_Vector_Graphics SVG]文档，该命名空间是 XML 指令的一个子集。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Like any XML document an SVG document consist of two sections:
-* [[#Head|Head]]: just one line to declare which version of the XML language is used for the instructions in the body of this document.
-* [[#Body|Body]]: a list of instructions. SVG documents enclose all instructions in {{Incode|<svg>}} tags.
-: The opening tag contains information about the size and the used SVG namespaces.
-</div>
+与任意 XML 文档一样，SVG 文档包含两部分：
+* [[#Head|头部]]：仅一行，用于声明文档主体中的指令所使用的 XML 语言版本。
+* [[#Body|主体]]：一系列指令。SVG 文档将所有指令包含在 {{Incode|&lt;svg&gt;}} 标签中。
+
+开始标签中包含尺寸及所使用的 SVG 命名空间信息。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Default namespace==
