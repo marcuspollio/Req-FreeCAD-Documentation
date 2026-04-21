@@ -313,7 +313,7 @@ obj_f = airplane()
 print(obj_F.Placement)
 }}
 
-You will see in the Report window this text:
+En la ventana de informe verá este texto:
 
 {{Code|code=
 Placement [Pos=(0, -21, 21), Yaw-Pitch-Roll=(0, 0, -90)]
