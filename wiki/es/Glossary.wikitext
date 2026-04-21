@@ -377,40 +377,38 @@ Lenguaje de programación utilizado en el desarrollo de FreeCAD, así como en ma
 <span id="S"></span>
 == S ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{gloss}}
-{{term|Section}}
-{{defn|defn=[https://en.wikipedia.org/wiki/Cross_section_%28geometry%29 Cross section (geometry)]}}
-{{term|Self Intersection}}
-{{defn|defn=A condition where a curve crosses over itself (ex.'8','&'). This confuses geometric kernel algorithms and generally produces an error condition.}}
-{{term|Shape}}
-{{defn|defn=Generic term used in FreeCAD to describe most elements (except for [[#Mesh|meshes]]).}}
-{{term|Shell}}
-{{defn|defn=Shape made of two or more contiguous [[#Face|faces]]. A [[#Manifold|manifold]] (enclosed) shell can be converted into a [[#Solid|solid]].}}
-{{term|Sketch}}
-{{defn|defn=A constrained 2D depiction of an object fixed to a plane or a [[#Face|Face]]. In FreeCAD a Sketch is always a 2-dimensional object somewhere in the 3D space.}}
+{{term|Sección}}
+{{defn|defn=[https://en.wikipedia.org/wiki/Cross_section_%28geometry%29 Sección transversal (geometría)]}}
+{{term|Autointersección}}
+{{defn|defn=Condición en la que una curva se cruza a sí misma (ej. '8', '&'). Esto confunde los algoritmos de núcleo geométrico y generalmente produce una condición de error.}}
+{{term|Forma}}
+{{defn|defn=Término genérico utilizado en FreeCAD para describir la mayoría de los elementos (excepto las [[#Mesh|mallas]]).}}
+{{term|Cáscara}}
+{{defn|defn=Forma compuesta por dos o más [[#Face|caras]] contiguas. Una [[#Variedad|variedad]] (encapsulada) se puede convertir en un [[#Sólido|sólido]].}}
+{{término|Boceto}}
+{{definición|definición=Representación bidimensional restringida de un objeto fijo a un plano o una [[#Cara|Cara]]. En FreeCAD, un boceto siempre es un objeto bidimensional ubicado en algún lugar del espacio tridimensional.}}
 {{term|Sketcher|content=[[Sketcher_Workbench|Sketcher]]}}
-{{defn|defn=A [[#Workbench|workbench]] used to create 2D geometry by use of [[#Element|elements]] and [[#Constraint|constraints]].}}
+{{defn|defn=Un [[#Workbench|entorno de trabajo]] utilizado para crear geometría bidimensional mediante [[#Element|elementos]] y [[#Constraint|restricciones]].}}
 {{term|Sketcher Solver}}
-{{defn|defn=The internal FreeCAD mechanism that calculates inter-dependencies and effects of adding, deleting, and modifying geometry and associated constraints in each Sketch. Sketcher Solver also calculates the arrangement of all geometry in each Sketch so it can be displayed correctly.}}
+{{defn|defn=El mecanismo interno de FreeCAD que calcula las interdependencias y los efectos de agregar, eliminar y modificar la geometría y las restricciones asociadas en cada boceto. El Sketcher Solver también calcula la disposición de toda la geometría en cada boceto para que se pueda visualizar correctamente.}}
 {{term|Smooth Line}}
-{{defn|defn=In a Drawing, a line indicating a change between tangent surfaces, as in the transition from a flat surface to a fillet. Also "tangent edge". See [[Drawing_View#Modify_an_existing_view|Drawing View]]}}
-{{term|Solid}}
-{{defn|defn=Part of 3D space bounded by [[#Shell|Shells]]. A solid has a volume and other properties related to objects with a mass.}}
-{{term|Solver}}
-{{defn|defn=See [[#Sketcher_Solver|Sketcher Solver]].}}
-{{term|Stable}}
-{{defn|defn=A nickname for the last general release version of the FreeCAD software. This is typically the version available from sources other than the FreeCAD project. Compare with [[#Unstable|Unstable]].}}
+{{defn|defn=En un dibujo, una línea que indica un cambio entre superficies tangentes, como en la transición de una superficie plana a un redondeo. También "borde tangente". Véase [[Vista_de_dibujo#Modificar_una_vista_existente|Vista_de_dibujo]]}}
+{{término|Sólido}}
+{{defn|defn=Parte del espacio 3D delimitado por [[#Cáscara|Cáscaras]]. Un sólido tiene volumen y otras propiedades relacionadas con objetos con masa.}}
+{{término|Solucionador}}
+{{defn|defn=Véase [[#Solucionador_de_boceto|Solucionador de boceto]].}}
+{{término|Estable}}
+{{defn|defn=Apodo para la última versión general del software FreeCAD. Esta suele ser la versión disponible en fuentes distintas al proyecto FreeCAD. Comparar con [[#Inestable|Inestable]].}}
 {{term|STL}}
-{{defn|defn=''STereoLithography'', also known as ''Standard Tessellation Language.'' A [[#Mesh|mesh]] file format defining only the surface of a 3D object. File extensions is *.stl}}
+{{defn|defn=''Estereolitografía'', también conocida como ''Lenguaje de Teselación Estándar''. Un formato de archivo [[#Mesh|malla]] que define únicamente la superficie de un objeto 3D. La extensión de archivo es *.stl}}
 {{term|STEP}}
-{{defn|defn=An ISO standard (ISO 10303) for the exchange of 3D data and product manufacturing information. It replaces [[#IGES|IGES]]. File extensions are *.step, *.stp.}}
+{{defn|defn=Estándar ISO (ISO 10303) para el intercambio de datos 3D e información de fabricación de productos. Sustituye a [[#IGES|IGES]]. Las extensiones de archivo son *.step, *.stp.}}
 {{term|SVG}}
-{{defn|defn=[https://en.wikipedia.org/wiki/Scalable_Vector_Graphics Scalable Vector Graphics]. A vector graphics file format.}}
-{{term|Sweep}}
-{{defn|defn=A 3D shape generated from at least one 2D cross-section that traces along a trajectory (path). Commonly used to define the tool as well as the created shape. See [https://en.wikipedia.org/wiki/Solid_modeling#Sweeping Solid modeling]}}
+{{defn|defn=[https://en.wikipedia.org/wiki/Scalable_Vector_Graphics Gráficos Vectoriales Escalables]. Formato de archivo de gráficos vectoriales.}}
+{{term|Barrido}}
+{{defn|defn=Forma 3D generada a partir de al menos una sección transversal 2D que traza una trayectoria (ruta). Se usa comúnmente para definir tanto la herramienta como la forma creada. Véase [https://en.wikipedia.org/wiki/Solid_modeling#Sweeping Solid modeling]}}
 {{glossend}}
-</div>
 
 <span id="T"></span>
 == T ==
