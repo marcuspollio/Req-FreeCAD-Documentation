@@ -59,9 +59,7 @@ Si está interesado en aprender más sobre Open Inventor, diríjase directamente
 
 En FreeCAD, normalmente no se necesita interactuar directamente con el grafo de escena de Open Inventor. Cada objeto en un documento de FreeCAD, ya sea una malla, una forma de una pieza o cualquier otra cosa, se convierte automáticamente a código de Open Inventor y se inserta en el grafo de escena principal que se ve en una vista 3D. Este grafo de escena se actualiza continuamente al modificar, agregar o eliminar objetos. De hecho, cada objeto (en el espacio de la aplicación) tiene un proveedor de vista (un objeto correspondiente en el espacio de la interfaz gráfica) responsable de generar el código de Open Inventor.
 
-<div class="mw-translate-fuzzy">
-Pero poder acceder a la escena gráfica directamente tiene muchas ventajas. Por ejemplo, puedes cambiar temporalmente la apariencia de un objeto, o podemos agregar objetos a la escena que no tienen existencia real en el documento de FreeCAD, como la geometría constructiva, ayudantes, sugerencias o herramientas gráficas como manipuladores o información en pantalla.
-</div>
+Acceder directamente al grafo de escena tiene muchas ventajas. Por ejemplo, se puede cambiar temporalmente la apariencia de un objeto o añadir a la escena objetos que no existen realmente en el documento de FreeCAD, como geometrías de construcción, ayudantes, sugerencias gráficas o herramientas como manipuladores o información en pantalla.
 
 <div class="mw-translate-fuzzy">
 FreeCAD cuenta con varias herramientas para ver o modificar código de openInventor. Por ejemplo, el código de Python siguiente muestra la representación en openInventor de un objeto seleccionado:
