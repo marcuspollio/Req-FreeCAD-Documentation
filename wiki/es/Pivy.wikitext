@@ -10,9 +10,7 @@
 <span id="Introduction"></span>
 == Introducción ==
 
-<div class="mw-translate-fuzzy">
-[http://pivy.coin3d.org/ Pivy] es una biblioteca para enlazar Python con [http://www.coin3d.org Coin3d], la biblioteca de renderizado-3D utilizada en FreeCAD. Cuando se importa en un intérprete de Python en ejecución, permite dialogar directamente con cualquier [[Scenegraph/es|escenas gráficas]] (scenegraphs) de Coin3d en ejecución, como las vistas 3D de FreeCAD, o incluso para crear otras nuevas. Pivy se incluye en la instalación estándar de FreeCAD.
-</div>
+[[Pivy|Pivy]] es una biblioteca de enlace [[Python|Python]] para [https://github.com/coin3d Coin], la biblioteca de renderizado 3D utilizada en FreeCAD para mostrar objetos en una [[3D_view|vista 3D]]. Coin es una implementación de código abierto de la especificación "Open Inventor" para el manejo de gráficos. Por lo tanto, en FreeCAD, los términos "Pivy", "Coin" u "Open Inventor" se refieren esencialmente a lo mismo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 When imported in a running Python interpreter, Pivy allows us to communicate directly with any running Coin [[Scenegraph|scenegraph]], such as the [[3D_view|3D view]], or even to create new ones. Pivy is not required to compile FreeCAD, but it is required at runtime when running Python-based workbenches that create shapes on screen, like [[Draft_Workbench|Draft]] and [[BIM_Workbench|BIM]]. Because of this, Pivy is normally installed when installing a distribution of FreeCAD.
