@@ -19,9 +19,7 @@ La geometría que aparece en las vistas 3D de FreeCAD se renderiza mediante la b
 
 Una de las principales funciones de FreeCAD es traducir la información geométrica de OpenCASCADE al lenguaje de Open Inventor.
 
-<div class="mw-translate-fuzzy">
-OpenInventor describe una escena 3D en forma de una [http://en.wikipedia.org/wiki/Scene_graph escena gráfica] (scenegraph), como la siguiente:
-</div>
+Open Inventor describe una escena 3D en forma de un [https://en.wikipedia.org/wiki/Scene_graph grafo de escena], como el que se muestra a continuación:
 
 [[Image:Scenegraph.gif]]
 <div class="mw-translate-fuzzy">
