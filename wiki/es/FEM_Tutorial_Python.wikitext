@@ -477,12 +477,10 @@ doc.recompute()
 <span id="Run_the_analysis"></span>
 == Ejecutar el análisis ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To run the analysis using Python, an instance of the {{incode|ccxtools}} module class {{incode|FemToolsCcx}} needs to be created. Once this instance has been created, we have two choices when running the analysis: 
-# Run all processes together at once (see [[#All in one|"All in one"]] section below)
-# Run processes one after the other (see [[#Step by step|"Step by step"]] section below)
-If there is only one analysis in the document and only one solver in the analysis, then no objects need to be passed on {{incode|fea init}}. The {{incode|init}} method of the {{incode|fea}} class will activate the analysis '''if the GUI is up'''.
-</div> 
+Para ejecutar el análisis con Python, es necesario crear una instancia de la clase del módulo {{incode|ccxtools}} llamada {{incode|FemToolsCcx}}. Una vez creada esta instancia, tenemos dos opciones para ejecutar el análisis:
+# Ejecutar todos los procesos a la vez (véase la sección [[#All in one|"Todo en uno"]] más abajo)
+# Ejecutar los procesos uno tras otro (véase la sección [[#Step by step|"Paso a paso"]] más abajo)
+Si el documento contiene un solo análisis y un solo solucionador, no es necesario pasar ningún objeto a {{incode|fea init}}. El método {{incode|init}} de la clase {{incode|fea}} activará el análisis '''si la interfaz gráfica de usuario está activa'''. 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Activating an analysis using Python works a follows:
