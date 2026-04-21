@@ -37,9 +37,7 @@ print("My text")
 print(translate("context", "My text"))
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-: Be aware that {{incode|translate()}} is not just a normal function: it also serves as a "tag" for the {{incode|lupdate}} text-processing utility, so must be named exactly "translate". The {{incode|lupdate}} program is a simple text processor, it does not execute your code. You must pass string literals directly to the {{incode|translate()}} function: you cannot pass variables, constants, etc. For example:
-</div>
+Tenga en cuenta que {{incode|translate()}} no es una función normal: también sirve como "etiqueta" para la utilidad de procesamiento de texto {{incode|lupdate}}, por lo que debe llamarse exactamente "translate". El programa {{incode|lupdate}} es un procesador de texto simple; no ejecuta su código. Debe pasar cadenas literales directamente a la función {{incode|translate()}}: no puede pasar variables, constantes, etc. Por ejemplo:
 
 : {{Code|code=
 # This works:
