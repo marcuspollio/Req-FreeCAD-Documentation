@@ -108,9 +108,7 @@ Desde FreeCAD 0.17, muchas macros pueden ser instaladas usando el [[Std_AddonMgr
 
 Cuando se desarrollan muchas macros o funciones juntas, y se organizan en barras de herramientas y menús, pueden convertirse en un nuevo banco de trabajo.
 
-<div class="mw-translate-fuzzy">
-Los [[External_workbenches/es|bancos de trabajo externos]] son colecciones de funciones que no forman parte del sistema base de FreeCAD, normalmente desarrolladas por usuarios experimentados, y dirigidas a una necesidad particular.
-</div>
+Los [[External_workbenches|bancos de trabajo externos]] son colecciones de funciones que no forman parte del sistema base de FreeCAD, normalmente desarrolladas por usuarios experimentados, y dirigidas a una necesidad particular.
 
 Desde FreeCAD 0.17, muchos bancos de trabajo pueden ser instalados usando el [[Std_AddonMgr/es|Gestor de complementos]]. Para la instalación manual vea [[How_to_install_additional_workbenches/es|Cómo instalar bancos de trabajo adicionales]].
 
