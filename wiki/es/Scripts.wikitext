@@ -21,7 +21,8 @@ Con el término "scripting" nos referimos a la creación de objetos topológicos
 
 Lamentablemente, la información sobre la programación de scripts en la documentación, incluso en esta wiki, está dispersa y carece de la necesaria uniformidad en la forma de escribirla; además, la mayoría de las explicaciones se realizan de una manera demasiado técnica.
 
-== Getting started ==
+<span id="Getting_started"></span>
+== Primeros pasos ==
 
 The first obstacle in an easy way to scripting is that there is no direct way to access the FreeCAD internal Python editor through a menu item or a icon on the toolbar area, but knowing that FreeCAD opens a file with a {{incode|.py}} extension in the internal Python editor, the most simple trick is create in your favorite text editor and then open it with the usual command {{MenuCommand|File → Open}}.
 
