@@ -184,9 +184,8 @@ Una vez que su archivo {{incode|.ts}} haya sido traducido, aunque sea parcialmen
 * Normalmente, descargará un archivo {{incode|.zip}} que contiene un archivo {{incode|.ts}} por idioma.
 * Coloque todos los archivos {{incode|.ts}} traducidos, junto con tu archivo {{incode|.ts}} base, en la carpeta {{incode|translations/}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Compile the translations ==
-</div>
+<span id="Compile_the_translations"></span>
+== Compilar las traducciones ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Now run the {{incode|lrelease}} program on each file that you have:
