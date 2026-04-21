@@ -210,7 +210,7 @@ Pero, por encima de otras consideraciones, un aspecto crucial es, el '''punto de
 
 Esta información debe tenerse en cuenta, especialmente cuando tengamos que aplicar una rotación.
 
-Some examples may help, delete the {{incode|my_box}} function and all lines after the {{incode|my_cyl}} function, and add the code below after the {{incode|my_cyl}} function:
+Algunos ejemplos pueden ser útiles; elimine la función {{incode|my_box}} y todas las líneas posteriores a la función {{incode|my_cyl}}, y agregue el código siguiente después de la función {{incode|my_cyl}}:
 
 {{Code|code=
 def my_sphere(name, rad):
