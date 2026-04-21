@@ -73,31 +73,28 @@ Ir a la letra {{CompactTOC|center=yes}}
 ==C==
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+<div class="mw-translate-fuzzy">
 {{gloss}}
 {{term|Callout}}
-{{defn|defn=String of text connected to a line pointing to an object in a [[#Drawing|drawing]].}}
+{{defn|defn=Cadena de texto conectada a una línea que apunta a un objeto en un [[#Drawing|drawing]].}}
 {{term|Chamfer}}
-{{defn|defn=The cutting off of an edge, at an angle, to get rid of its sharpness; a beveled edge.}}
+{{defn|defn=Recorte de un borde, en ángulo, para eliminar su agudeza; un borde biselado.}}
 {{term|Clipping Plane}}
-{{defn|defn=The clipping plane is used to cut away at the model in the 3D view. It is just a visual aid and does not actually cut the model.}}
-{{term|Clone}}
-{{defn|defn=A copy of an object whereby the copy remains parametric.  When the original object is changed the Clone(s) also change to show modifications made to the original object.}}
+{{defn|defn=El plano de recorte se utiliza para recortar el modelo en la vista 3D. Es solo una ayuda visual y no recorta realmente el modelo.}}
+{{defn|defn=Una copia de un objeto que conserva sus parámetros. Cuando se modifica el objeto original, la(s) copia(s) también se modifican para reflejar los cambios realizados.}}
 {{term|Coin}}
-{{defn|defn=Also called [https://www.coin3d.org Coin3D]. Third-party software library used for 3D representation by FreeCAD.}}
+{{defn|defn=También conocida como [https://www.coin3d.org Coin3D]. Biblioteca de software de terceros utilizada para la representación 3D por FreeCAD.}}
 {{term|COLLADA}}
-{{defn|defn=An interchange file format for [[#Mesh|mesh]] models. File extension is *.dae.}}
+{{defn|defn=Formato de archivo de intercambio para modelos [[#Mesh|mesh]]. La extensión del archivo es *.dae.}}
 {{term|Command|content=[[Command|Command]]}}
-{{defn|defn=An action invoked from the [[#GUI|GUI]] when you press a toolbar button or type a keyboard shortcut or type into the Python console. }}
+{{defn|defn=Una acción invocada desde la [[#GUI|GUI]] cuando presiona un botón de la barra de herramientas o escribe un atajo de teclado o escribe en la consola de Python. }}
 {{term|Compound}}
-{{defn|defn=Groups objects together without fusing them like a [[#Boolean_Operation|boolean union]] would.}}
+{{defn|defn=Agrupa objetos sin fusionarlos como lo haría una [[#Boolean_Operation|Unión Booleana]].}}
 {{term|CompSolid}}
-{{defn|defn=Set of [[#Solid|solids]] connected by their [[#Face|faces]]. CompSolids are needed in [[#FEM|FEM]], where more than one material is used in one FEM-mesh.}}
+{{defn|defn=Conjunto de [[#Solid|solidos]] conectados por sus [[#Face|caras]]. Los CompSolids son necesarios en [[#FEM|FEM]], donde se utiliza más de un material en una malla FEM.}}
 {{term|Constraint}}
-{{defn|defn=A restriction on the geometric relationship between primitives in a [[#Sketch|Sketch]]. If a constraint has a numerical value, it is referred to as Datum (e.g., a distance constraint has a numerical value - the length of an imaginary line connecting the two points). A constraint that has no numerical value (e.g., a Horizontal constraint) is sometimes referred to as Geometric Constraint.}}
-{{term|Constructive Solid Geometry|content=[https://en.wikipedia.org/wiki/Constructive_solid_geometry Constructive Solid Geometry]}}
-{{defn|defn=A solid modeling method for creating shapes by using [[#Boolean_Operation|boolean operations]] on [[#Primitive|primitives]].}}
-{{term|Coordinate}}
+{{defn|defn=Una restricción en la relación geométrica entre primitivas en un [[#Sketch|Sketch]]. Si una restricción tiene un valor numérico, se denomina Datum (por ejemplo, una restricción de distancia tiene un valor numérico: la longitud de una línea imaginaria que conecta los dos puntos). Una restricción que no tiene valor numérico (por ejemplo, una restricción horizontal) a veces se denomina Restricción Geométrica.]}}
+{{defn|defn=Un método de modelado sólido para crear formas usando [[#Boolean_Operation|operaciones booleanas]] en [[#Primitive|primitivas]].}} {{term|Coordinate}}
 {{defn|defn=A number which defines the position of an object in space in reference to a [https://en.wikipedia.org/wiki/Cartesian_coordinate_system coordinate system].}}
 {{term|Coplanar}}
 {{defn|defn=Existing on the same plane.}}
