@@ -88,9 +88,7 @@ self.appendMenu(QT_TRANSLATE_NOOP("Workbench", "My menu"), [list of commands, ..
 self.appendToolbar(QT_TRANSLATE_NOOP("Workbench", "My toolbar"), [list of commands, ...])
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Add the path to your {{incode|translations/}} folder and update the locale in the Initialized function:
-</div>
+* Agregue la ruta a su carpeta {{incode|translations/}} y actualice la configuración regional en la función Initialized:
 
 : {{Code|code=
 FreeCADGui.addLanguagePath("/path/to/translations")
