@@ -277,9 +277,7 @@ Sin embargo, las Trayectorias Compuestas pueden utilizar la ubicación de sus hi
 
 ===Scripting <= 0.18===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The Tool object contains the definitions of a CNC tool. The Tooltable object contains an ordered list of tools. Tooltables are attached as a property to Path Project features, and can also be edited via the GUI, by double-clicking a project in the Tree View, and clicking the "Edit tooltable" button in the task views that opens.
-</div>
+El objeto Herramienta contiene las definiciones de una herramienta CNC. El objeto Tabla de herramientas contiene una lista ordenada de herramientas. Las tablas de herramientas se adjuntan como una propiedad a las funciones de Proyecto de trayectoria y también se pueden editar a través de la interfaz gráfica de usuario (GUI), haciendo doble clic en un proyecto en la Vista de árbol y haciendo clic en el botón "Editar tabla de herramientas" en las vistas de tareas que se abren.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 From that dialog, tooltables can be imported from FreeCAD's .xml and HeeksCad's .tooltable formats, and exported to FreeCAD's .xml format.
