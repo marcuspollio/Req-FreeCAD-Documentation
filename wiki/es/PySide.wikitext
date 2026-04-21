@@ -52,7 +52,7 @@ La principal diferencia entre PySide y las bibliotecas posteriores PySide2 y PyS
 
 FreeCAD gestiona las distintas versiones de Qt/PySide llamándolas todas PySide, aunque en realidad debería considerarse PySideX. No importa qué versión de Qt/PySide esté instalada, todas se importan con PySide.
 
-A [https://en.wikipedia.org/wiki/Shim_(computing) shim] handles the differences between the versions. This {{incode|PySide}} shim is located in the {{incode|Ext/}} directory of an installation of FreeCAD compiled for Qt5/Qt6.
+Un [https://en.wikipedia.org/wiki/Shim_(computing) shim] maneja las diferencias entre las versiones. Este shim {{incode|PySide}} se encuentra en el directorio {{incode|Ext/}} de una instalación de FreeCAD compilada para Qt5/Qt6.
 
 {{Code|code=
 /usr/share/freecad/Ext/PySide
