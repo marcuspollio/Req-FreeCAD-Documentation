@@ -100,10 +100,13 @@ Se espera que estos ejemplos sean útiles para empezar y, más adelante, el usua
 
 Existen algunas diferencias en el manejo de widgets entre las distintas versiones. Los programadores deben tener en cuenta estas incompatibilidades y consultar la documentación oficial si algo no funciona como se espera en una plataforma determinada. Aunque es poco frecuente, en ocasiones puede ser necesario realizar llamadas con control de versiones mediante cláusulas condicionales.
 
-The PySide documentation refers to the Python-style classes; however, since Qt is originally a C++ library, the same information should be available in the corresponding C++ reference.
-* [https://doc.qt.io/qtforpython/modules.html Qt Modules] available from PySide2/PySide6 (Qt5/Qt6).
-* [https://doc.qt.io/qt-5/modules-cpp.html All Qt classes by module] in Qt5 for C++.
-* [https://pyside.readthedocs.io/en/latest/ Qt Modules] available from PySide (Qt4).
+La documentación de PySide hace referencia a las clases de estilo Python; sin embargo, dado que Qt es originalmente una biblioteca de C++, la misma información debería estar disponible en la referencia de C++ correspondiente.
+
+* [https://doc.qt.io/qtforpython/modules.html Módulos de Qt] disponible en PySide2/PySide6 (Qt5/Qt6).
+
+* [https://doc.qt.io/qt-5/modules-cpp.html Todas las clases de Qt por módulo] en Qt5 para C++.
+
+* [https://pyside.readthedocs.io/en/latest/ Módulos de Qt] disponible en PySide (Qt4).
 {{Top}}
 
 {{Docnav
