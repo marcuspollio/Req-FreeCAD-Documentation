@@ -58,7 +58,7 @@ Un [https://en.wikipedia.org/wiki/Shim_(computing) shim] maneja las diferencias 
 /usr/share/freecad/Ext/PySide
 }}
 
-This module just imports the necessary classes from {{incode|PySide2/6}}, and places them in the {{incode|PySide}} namespace. This approach was chosen for it's ability to provide backwards compatibility from a Qt4 perspective.
+Este módulo simplemente importa las clases necesarias de {{incode|PySide2/6}} y las ubica en el espacio de nombres {{incode|PySide}}. Se eligió este enfoque por su capacidad para brindar compatibilidad con versiones anteriores desde la perspectiva de Qt4.
 
 {{Code|code=
 PySide2.QtCore -> PySide.QtCore
