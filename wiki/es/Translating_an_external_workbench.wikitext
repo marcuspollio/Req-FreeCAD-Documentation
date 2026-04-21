@@ -129,9 +129,8 @@ def GetResources(self):
 FreeCADGui.addCommand('CommandName', My_Command_Class())
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Gather all the strings from your module ==
-</div>
+<span id="Gather_all_the_strings_from_your_module"></span>
+== Reúna todas las cadenas de su módulo ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * You will need the {{incode|lupdate}}, {{incode|lconvert}}, {{incode|lrelease}} and {{incode|pylupdate}} tools installed on your system. In Linux distributions they usually come in packages named {{incode|pyside-tools}} or {{incode|pyside2-tools}}. On some systems {{incode|lupdate}} is named {{incode|lupdate4}} or {{incode|lupdate5}} or {{incode|lupdate-qt4}} or similar. Same for the other tools. You may use the Qt4 or Qt5 version at your choice. In Qt6 there is no separate translation system for Python files, {{incode|lupdate}} is used to extract strings from all types of source files.
