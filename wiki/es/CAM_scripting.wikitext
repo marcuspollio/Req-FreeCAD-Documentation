@@ -16,9 +16,7 @@
 
 El Entorno de Trabajo CAM ofrece herramientas para importar, crear, manipular y exportar trayectorias de herramientas de máquinas G-code en FreeCAD. Con este, el usuario puede importar, visualizar y modificar programas G-code existentes, generar trayectorias de herramientas a partir de formas 3D y exportarlas a G-code.
 
-<div class="mw-translate-fuzzy">
-El ambiente de trabajo Trayectoria está actualmente en fase de desarrollo, y no ofrece todas las funciones avanzadas que se encuentran en algunas alternativas comerciales. Sin embargo, la interfaz de scripts de Python facilita la modificación o el desarrollo de herramientas más potentes.
-</div>
+Este entorno se encuentra actualmente en fase de desarrollo inicial y no ofrece todas las funciones avanzadas presentes en algunas alternativas comerciales. Sin embargo, su interfaz de programación en Python facilita la modificación y el desarrollo de herramientas más potentes.
 
 <span id="Quickstart"></span>
 == Inicio rapido ==
