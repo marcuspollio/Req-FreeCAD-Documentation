@@ -17,9 +17,8 @@ FreeCAD 可以导入和导出包含属于特定**命名空间**代码的[https:/
 
 开始标签中包含尺寸及所使用的 SVG 命名空间信息。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Default namespace==
-</div>
+<span id="Default_namespace"></span>
+==默认命名空间==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The default SVG namespace used by FreeCAD is declared with this line:
