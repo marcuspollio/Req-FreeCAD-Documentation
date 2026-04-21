@@ -133,9 +133,7 @@ En C++:
 SoFile::getClassTypeId()
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In Pivy:
-</div>
+En Pivy:
 
 {{Code|code=
 SoFile.getClassId()
