@@ -335,9 +335,7 @@ El objetivo de esta función es agrupar una o más trayectorias de herramienta y
 
 Una característica importante de los compuestos de trayectoria es la posibilidad de tener en cuenta o no la ubicación de sus rutas secundarias, configurando su propiedad UsePlacements como verdadera o falsa. Si no se establece en falso, los datos de ruta de sus rutas secundarias se añadirán secuencialmente. Si se establece en verdadero, cada comando de las rutas secundarias, si contiene información de posición (G0, G1, etc.), se transformará primero según la ubicación antes de añadirse.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Creating a compound with just one child path allows you therefore to turn the child path's Placement "real" (it affects the Path data).
-</div>
+Por lo tanto, al crear un compuesto con una sola ruta secundaria, se puede hacer que la ubicación de dicha ruta secundaria sea "real" (afecta a los datos de la ruta).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === The Path Project feature ===
