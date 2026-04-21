@@ -129,9 +129,7 @@ class Ui_Dialog(object):
 }}
 Como puede ver, tiene una estructura muy simple: se crea una clase llamada '''Ui_Dialog''' que almacena los elementos de la interfaz de nuestro widget. Esta clase tiene dos métodos: uno para configurar el widget y otro para traducir su contenido, lo cual forma parte del mecanismo general de Qt para la traducción de elementos de interfaz. El método de configuración simplemente crea, uno por uno, los widgets tal como los definimos en Qt Designer y establece sus opciones según lo acordado previamente. Luego, se traduce toda la interfaz y, finalmente, se conectan las conexiones (slots) (lo veremos más adelante).
 
-<div class="mw-translate-fuzzy">
-Ahora podemos crear un nuevo widget, y utilizar esta clase para crear su interfaz. Ya podemos ver nuestro widget en acción, poniendo nuestro archivo mywidget.py en un lugar donde FreeCAD lo encuentre (en el directorio bin de FreeCAD, o en cualquiera de los subdirectorios Mod), y, en el intérprete de Python FreeCAD, ejecutamos:
-</div>
+Ahora podemos crear un nuevo widget y usar esta clase para crear su interfaz. Ya podemos ver nuestro widget en acción colocando nuestro archivo '''mywidget.py''' en un lugar donde FreeCAD lo encontrará (en el directorio bin de FreeCAD o en cualquiera de los subdirectorios Mod) y, en el intérprete de Python de FreeCAD, ejecutando:
 {{Code|code=
 from PySide import QtGui
 import mywidget
