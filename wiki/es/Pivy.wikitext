@@ -156,9 +156,10 @@ Estos enlaces proporcionan documentación de referencia para Coin v3.x. Las dife
 * [https://mevislabdownloads.mevis.de/docs/current/MeVis/ThirdParty/Documentation/Publish/OpenInventorReference/index.html Documentación de referencia de Open Inventor], por MeVisLab.
 {{Top}}
 
-<div class="mw-translate-fuzzy">
-{{docnav/es|Scenegraph/es|PySide/es}}
-</div>
+{{Docnav
+|[[Scenegraph|Escenógrafo]]
+|[[PySide|PySide]]
+}}
 
 {{Powerdocnavi{{#translation:}}}}
 [[Category:Developer Documentation{{#translation:}}]]
