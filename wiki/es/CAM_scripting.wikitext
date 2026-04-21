@@ -35,9 +35,7 @@ Los objetos Path de FreeCAD se componen de una secuencia de comandos de movimien
 }}
 
 <span id="The_FreeCAD_Internal_G-code_Format"></span>
-<div class="mw-translate-fuzzy">
-== El formato GCode interno de FreeCAD ==
-</div>
+== Formato interno del código G de FreeCAD ==
 
 <div class="mw-translate-fuzzy">
 Un concepto preliminar es importante para comprenter.La mayoría de la implementación debajo, se relaciona fuertemente en comandos de movimientos, pero no significa que tiene que ser apegados a una implementación de controlador. Nosotros elegimos nombres tal como 'G0' para representar movimiento'rapido' o 'G1' para representar movimiento 'avance' para rendimiento (guardado de archivo eficiente) y para minimizar el trabajo necesario para traducir de un formato de código G a otro. Desde que el mundo de CNC habla miles de dialetos de código G, nosotros estar junto a un subconjunto muy simplificado de este. Tu podrias describir el formato de código G de FreeCAD como una forma de "agnostica de maquina" para código G.
