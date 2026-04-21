@@ -65,9 +65,7 @@ Ahora, probemos esto:
 col.rgb = (1, 1, 0)
 }}
 
-<div class="mw-translate-fuzzy">
-¿Ves? todo se mantiene accesible y modificable sobre la marcha. No hay necesidad de volver a calcular o dibujar cualquier cosa, Coin se encarga de todo. Puedes agregar cosas a la escena gráfica, cambiar las propiedades, ocultar cosas, mostrar objetos temporales, cualquier cosa. Por supuesto, esto sólo afecta a la pantalla en la vista 3D. Esa pantalla se vuelve a calcular por FreeCAD al abrir el archivo, y cuando un objeto necesita recalcularse. Por lo tanto, si cambias el aspecto de un objeto FreeCAD existente, esos cambios se perderán si el objeto se vuelve a recalcular o cuando se vuelve a abrir el archivo.
-</div>
+Como puede ver, todo sigue siendo accesible y modificable sobre la marcha. No es necesario recalcular ni redibujar nada; Coin se encarga de todo. Puede añadir elementos a su grafo de escena, cambiar propiedades, ocultarlos, mostrar objetos temporales, lo que quiera. Por supuesto, esto solo afecta a la visualización en la vista 3D. FreeCAD recalcula dicha visualización al abrir el archivo y cuando un objeto necesita ser recalculado. Por lo tanto, si cambia la apariencia de un objeto de FreeCAD existente, esos cambios se perderán si el objeto se recalcula o al volver a abrir el archivo.
 
 <div class="mw-translate-fuzzy">
 Una de las claves para trabajar con escenas gráficas en los archivos de guión es poder tener acceso cuando sea necesario a ciertas propiedades de los nodos que has añadido. Por ejemplo, si quisieramos mover nuestro cubo, habríamos añadido un nodo SoTranslation a nuestro nodo de referencia, y se vería así:
