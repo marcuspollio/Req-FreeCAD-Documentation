@@ -74,9 +74,7 @@ En la consola de DOS escriba sin extensión:
 compQt4 myUiFile
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In macOS, you can retrieve the appropriate version (the same that is used internally in FreeCAD 0.19) of QT and Pyside with these commands (pip required)
-</div>
+En macOS, puede obtener la versión adecuada (la misma que se usa internamente en FreeCAD 0.19) de QT y Pyside con estos comandos (se requiere pip).
 {{Code|code=
 python3 -m pip install pyqt5
 python3 -m pip install pySide2
