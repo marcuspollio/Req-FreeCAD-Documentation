@@ -22,14 +22,21 @@ Ir a la letra {{CompactTOC|center=yes}}
 <span id="A"></span>
 == A ==
 
-<div class="mw-translate-fuzzy">
-==A==
 {{gloss}}
-{{term|term=Arco}}
+{{term|Arc}}
 {{defn|defn=Una porción o segmento de un círculo.}}
-{{term|term=Arch|content=[[Arch_Workbench/es|Arch]]}}
-{{defn|defn=Abreviatura del [[#Workbench|Banco de Trabajo]] de Arquitectura  el cual se usa principalmente para modelar edificios y estructuras. Muy relacionado con el Banco de Trabajo [[#Draft|Boceto]].}}
-</div>
+{{term|App}}
+{{defn|defn=La capa de la aplicación FreeCAD.}}
+{{term|Arch|content=[[Arch_Workbench|Ambiente de Trabajo Arc]]}}
+{{defn|defn=Una abreviatura del antiguo entorno de Arquitectura[[#Workbench|workbench]]. Este banco de trabajo ha sido reemplazado por el [[BIM_Workbench|Banco de Trabajo BIM]] ({{Version|1.0}}).}}
+{{term|Assembly|content=[[Assembly|Ensamblaje]]}}
+{{defn|no=1|defn=Un conjunto de [[#Part|piezas]] que tienen posiciones definidas entre sí.}}
+{{defn|no=2|defn=The [[Assembly_Workbench|Banco de Trabajo de Ensamblaje]].}}
+{{term|Axes}}
+{{defn|defn=Plural de [[#Axis|Ejes]]}}
+{{term|Ejes}}
+{{defn|defn=Una línea imaginaria que pasa por el origen del espacio de trabajo. Hay 3 ejes normales. Tienen los nombres clásicos de X, Y y Z. X es de lado a lado. Y es de arriba abajo. Z es de adentro hacia afuera de la página/pantalla.}}
+{{glossend}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==B==
