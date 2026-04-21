@@ -177,20 +177,18 @@ Ir a la letra {{CompactTOC|center=yes}}
 <span id="G"></span>
 == G ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{gloss}}
-{{term|GDB or gdb}}
-{{defn|defn=[https://www.gnu.org/software/gdb/ '''G'''NU Project '''D'''e'''B'''ugger], a debugging program used on Unix and other 'nix operating systems in order to get a [[#Backtrace|backtrace]]. "gdb" (without the quotation marks) is also the first part of the command used to start the GDB program itself. An example of how to use GDB with FreeCAD is in [https://forum.freecad.org/viewtopic.php?t=7052#p56918 this forum post]}}
-{{term|Geometric modeling kernel}}
-{{defn|defn=Also called CAD kernel. A set of complex software libraries responsible for the creation of 3D shapes. All operations on objects (extrude, boolean operations, chamfer, fillet) rely on the geometric modeling kernel.}}
+{{term|GDB o gdb}}
+{{defn|defn=[https://www.gnu.org/software/gdb/ '''G'''NU Project '''D'''e'''B'''ugger], un programa de depuración utilizado en Unix y otros sistemas operativos 'nix para obtener un [[#Backtrace|backtrace]]. "gdb" (sin las comillas) también es la primera parte del comando utilizado para iniciar el programa GDB. Un ejemplo de cómo usar GDB con FreeCAD se encuentra en [https://forum.freecad.org/viewtopic.php?t=7052#p56918 esta publicación del foro]}}
+{{term|Núcleo de modelado geométrico}}
+{{defn|defn=También llamado núcleo CAD. Un conjunto de bibliotecas de software complejas responsables de la creación de formas 3D. Todas las operaciones sobre objetos (extrusión, operaciones booleanas, chaflán, redondeo) dependen del núcleo de modelado geométrico.}}
 {{term|Git}}
-{{defn|defn=[https://en.wikipedia.org/wiki/Distributed_revision_control Distributed revision control system] used by FreeCAD to host and manage its code base.}}
-{{term|[[Std_Group|Group]]}}
-{{defn|defn=Used to organize elements in the [[#Tree_view|Tree view]].}}
+{{defn|defn=[https://en.wikipedia.org/wiki/Distributed_revision_control Sistema de control de revisiones distribuido] utilizado por FreeCAD para alojar y gestionar su código fuente.}}
+{{term|[[Std_Group|Grupo]]}}
+{{defn|defn=Se utiliza para organizar elementos en la [[#Tree_view|Vista de árbol]].}}
 {{term|GUI}}
-{{defn|defn='''G'''raphical '''U'''ser '''I'''nterface. Allows users to interact with FreeCAD through graphical icons and the mouse pointer.}}
+{{defn|defn='''Interfaz gráfica de usuario. Permite a los usuarios interactuar con FreeCAD mediante iconos gráficos y el puntero del ratón.}}
 {{glossend}}
-</div>
 
 <span id="H"></span>
 == H ==
