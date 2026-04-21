@@ -65,9 +65,7 @@ Los [[Workbenches|Entornos de trabajo]] son ​​conjuntos de herramientas que 
 
 * [[Image:Workbench_FEM.svg|32px]] El [[FEM_Workbench/es|banco de trabajo FEM]] proporciona un flujo de trabajo de análisis de elementos finitos (FEA).
 
-<div class="mw-translate-fuzzy">
-* [[Image:Workbench_Inspection.svg|32px]] El [[Inspection_Workbench/es|Banco de Trabajo de Inspección]] está hecho para dar herramientas específicas para el examen de formas. Todavía está en una etapa temprana de desarrollo.
-</div>
+* [[Image:Workbench_Inspection.svg|32px]] El [[Inspection_Workbench|Entorno de Trabajo de Inspección]] está diseñado para brindarle herramientas específicas para el examen de formas. Aún se encuentra en las primeras etapas de desarrollo. {{Incode|D}}
 
 * [[Image:Workbench_Material.svg|32px]] El [[Material_Workbench|banco de trabajo Material]] maneja el sistema de materiales de FreeCAD. {{Version|1.0}}
 
