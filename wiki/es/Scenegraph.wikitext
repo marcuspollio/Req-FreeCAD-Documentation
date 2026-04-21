@@ -72,7 +72,8 @@ print viewprovider.toString()
 
 Pero también tenemos un módulo de Python que permite el acceso completo a todo lo gestionado por Coin3D, como nuestro grafo de escena de FreeCAD. Así que, debería continuar leyendo en [[Pivy|Pivy]].
 
-== Coding examples ==
+<span id="Coding_examples"></span>
+== Ejemplos de código ==
 
 See [[Coin3d_snippets|Coin3d snippets]] courtesy of MariwanJ's research for the [[Design456_Workbench|Design456 Workbench]]. The code repository can be found at https://github.com/MariwanJ/COIN3D_Snippet.
 {{Top}}
