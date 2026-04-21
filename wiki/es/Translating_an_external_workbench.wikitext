@@ -249,9 +249,7 @@ def GetResources(self):
     }
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In this usage, at runtime the dictionary returned by this function is literally:
-</div>
+En este uso, en tiempo de ejecución el diccionario devuelto por esta función es literalmente:
 
 {{Code|code=
 { 
