@@ -83,7 +83,7 @@ En el código anterior se incorporan algunos trucos:
 
 * {{incode|from FreeCAD import Placement, Rotation, Vector}} '''Placement''' '''Rotation''' y '''Vector''' se utilizan ampliamente en la programación de scripts de FreeCAD. Importarlos de esta manera le ahorrará tener que invocarlos con {{incode|FreeCAD.Vector}} o {{incode|FreeCAD.Placement}} en lugar de {{incode|Vector}} o {{incode|Placement}}. Esto le ahorrará muchas pulsaciones de teclas y hará que las líneas de código sean mucho más cortas.
 
-Let's start with a small script that does a very small job, but display the power of this approach.
+Comencemos con un pequeño script que realiza una tarea muy sencilla, pero que demuestra el poder de este enfoque.
 
 {{Code|code=
 # Script functions
