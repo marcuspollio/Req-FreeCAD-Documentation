@@ -31,9 +31,7 @@ translate = FreeCAD.Qt.translate
 print("My text")
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-: becomes:
-</div>
+: se convierte en:
 
 : {{Code|code=
 print(translate("context", "My text"))
