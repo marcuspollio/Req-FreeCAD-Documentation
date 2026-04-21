@@ -22,13 +22,11 @@ Inoltre, quando l'editor delle proprietà è separato, viene fornito un meccanis
 <span id="Context"></span>
 ===Contesto===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This macro has been written because some operations in FreeCAD need to get a frequent access to the property editor. Its limited height in the combo view can be a problem, especially when access to the tree view is also needed at the same time.
-The macro solves this by allowing the user to temporarily split the property editor widget to a separated dock widget. The newly created widget is set to the right of the window at creation but can be moved (docked or floating) as any other dock widget.
-When separated property editor is no more needed, user can close the extra widget and property editor is set back to the combo view automatically.
-Notice that when the property editor is detached from the combo view, its height is stored and is then restored when it's back to the combo view.
-Moreover, when the property editor is split, it provides a font sizing mechanism so even more properties can be displayed.
-</div>
+Questa macro è stata scritta perché alcune operazioni in FreeCAD richiedono un accesso frequente all'editor delle proprietà. La sua altezza limitata nella vista combinata può rappresentare un problema, soprattutto quando è necessario accedere contemporaneamente anche alla vista ad albero.
+La macro risolve questo problema consentendo all'utente di separare temporaneamente il widget dell'editor delle proprietà in un widget ancorabile separato. Il widget appena creato viene posizionato a destra della finestra al momento della creazione, ma può essere spostato (ancorato o mobile) come qualsiasi altro widget ancorabile.
+Quando l'editor delle proprietà separato non è più necessario, l'utente può chiudere il widget aggiuntivo e l'editor delle proprietà viene automaticamente riportato nella vista combinata.
+Si noti che quando l'editor delle proprietà viene separato dalla vista combinata, la sua altezza viene memorizzata e ripristinata quando viene riportato nella vista combinata.
+Inoltre, quando l'editor delle proprietà è separato, viene fornito un meccanismo di ridimensionamento del carattere in modo da poter visualizzare ancora più proprietà.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Usage===
