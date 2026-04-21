@@ -142,7 +142,7 @@ Hasta aquí no hay nada especialmente emocionante. Pero hay que tener en cuenta 
 
 ¿Y ahora qué hacemos con estas geometrías?
 
-Let's introduce boolean operations. As a starter example, put these lines after {{incode|my_cyl}}. This creates a function for a '''Fusion''' also know as '''Union''' operation:
+Introduzcamos las operaciones booleanas. Como ejemplo inicial, coloque estas líneas después de {{incode|my_cyl}}. Esto crea una función para una operación '''Fusion''' también conocida como '''Union''':
 
 {{Code|code=
 def fuse_obj(name, obj_0, obj_1):
