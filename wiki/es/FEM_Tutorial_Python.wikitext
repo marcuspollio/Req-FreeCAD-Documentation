@@ -553,9 +553,7 @@ femmesh_obj.ViewObject.applyDisplacement(10)
 <span id="Scripting_FEM_mesh_objects"></span>
 ==== Programación de objetos de malla FEM ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 ===== Netgen =====
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Scripting the Netgen mesh object was attempted in the [https://forum.freecad.org/viewtopic.php?f=18&t=16944#p134519 "Parametrized FEM study"] (FreeCAD FEM subforum thread), but has some limitations.
