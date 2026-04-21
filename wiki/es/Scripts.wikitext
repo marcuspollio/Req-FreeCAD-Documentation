@@ -189,7 +189,7 @@ FreeCAD ofrece una amplia variedad de maneras para configurar esta propiedad; ca
 FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
 }}
 
-But over other considerations, one thing is crucial, geometry '''reference point''', in other words the point from which the object is modeled by FreeCAD, as described in this table, copied from [[Placement|Placement]]:
+Pero, por encima de otras consideraciones, un aspecto crucial es, el '''punto de referencia''' geométrico, es decir, el punto desde el cual FreeCAD modela el objeto, como se describe en esta tabla, copiada de [[Placement|Placement]]:
 
 {| class="wikitable" border="1"
 !Object!!Reference Point
