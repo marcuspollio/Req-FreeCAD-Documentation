@@ -48,7 +48,7 @@ Todas las traducciones de dialectos a código G de FreeCAD se realizan mediante 
 
 Las siguientes reglas y directrices definen el subconjunto de código G utilizado internamente en FreeCAD:
 
-Los datos de código G, dentro de los objetos de ruta de FreeCAD, se dividen en '''comandos'''. Un comando se define mediante un nombre que debe comenzar con G o M y (opcionalmente) argumentos, que tienen el formato letra seguida de un número decimal, por ejemplo '''X 0.02''', '''Y 3.5''' o '''F 300'''. Estos son ejemplos de comandos típicos de código G en FreeCAD:
+Los datos de código G, dentro de los objetos de ruta de FreeCAD, se dividen en '''comandos'''. Un comando se define mediante un nombre que debe comenzar con '''G''' o '''M''' y (opcionalmente) argumentos, que tienen el formato letra seguida de un número decimal, por ejemplo '''X 0.02''', '''Y 3.5''' o '''F 300'''. Estos son ejemplos de comandos típicos de código G en FreeCAD:
 
 <pre>
 G0 X2.5 Y0 (El nombre del comando es G0, los argumentos son X=2.5 e Y=0)
