@@ -26,9 +26,7 @@ FreeCAD 使用的默认 SVG 命名空间通过以下代码行声明：
 xmlns="http://www.w3.org/2000/svg" version="1.1"
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The external link leads to a web site containing information about the namespace and its set of instructions. Attributes of this namespace are used without prefix.
-</div>
+该外部链接指向一个包含此命名空间及其指令集信息的网站。此命名空间的属性在使用时**无需前缀**。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Namespace extension==
