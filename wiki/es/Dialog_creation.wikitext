@@ -65,10 +65,7 @@ Ahora, guardemos nuestro widget en algún lugar. Se guardará como un archivo .u
 {{Code|code=
 pyuic mywidget.ui > mywidget.py
 }}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In Windows pyuic.py is located in "C:\Python27\Lib\site-packages\PyQt4\uic\pyuic.py"
-For conversion create a batch file called "compQt4.bat:
-</div>
+En Windows, pyuic.py se encuentra en '''C:\Python27\Lib\site-packages\PyQt4\uic\pyuic.py'''. Para la conversión, cree un archivo por lotes llamado '''compQt4.bat''':
 {{Code|code=
 @"C:\Python27\python" "C:\Python27\Lib\site-packages\PyQt4\uic\pyuic.py" -x %1.ui > %1.py
 }}
