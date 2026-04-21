@@ -194,6 +194,8 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 :* [[Image:FEM_MeshShape.svg|32px]] [[FEM_MeshShape|Shape-Based Refinement]]: Sets mesh size within and outside of a geometric shape (box, sphere or cylinder). {{Version|1.2}}
 
+:* [[Image:FEM_MeshManipulate.svg|32px]] [[FEM_MeshManipulate|Manipulate Refinement]]: Allows to manipulate the output of a refinement in various ways. {{Version|1.2}}
+
 <!--T:194-->
 * [[Image:FEM_CreateElementsSet.svg|32px]] [[FEM_CreateElementsSet|Erase Elements]]: Hides elements selected by a polygon from the mesh. {{Version|1.0}}
 
