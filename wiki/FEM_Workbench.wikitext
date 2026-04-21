@@ -200,6 +200,8 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 :* [[Image:FEM_MeshTransfiniteCurve.svg|32px]] [[FEM_MeshTransfiniteCurve|Structured Transfinite Curve]]: Creates a fixed amount of nodes on an edge with a structured algorithm. {{Version|1.2}}
 
+:* [[Image:FEM_MeshTransfiniteSurface.svg|32px]] [[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]: Creates a structured mesh on a face. {{Version|1.2}}
+
 <!--T:194-->
 * [[Image:FEM_CreateElementsSet.svg|32px]] [[FEM_CreateElementsSet|Erase Elements]]: Hides elements selected by a polygon from the mesh. {{Version|1.0}}
 
