@@ -179,14 +179,18 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 <!--T:108-->
 * [[Image:FEM_MeshGmshFromShape.svg|32px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]]: Generates a finite element mesh for a model using Gmsh.
 
-<!--T:109-->
-* [[Image:FEM_MeshBoundaryLayer.svg|32px]] [[FEM_MeshBoundaryLayer|Mesh Boundary Layer]]: Creates anisotropic meshes for accurate calculations near boundaries.
-
 <!--T:141-->
 * [[Image:FEM_MeshRegion.svg|32px]] [[FEM_MeshRegion|Mesh Refinement]]: Creates a localized area(s) to mesh which highly optimizes analysis time.
 
 <!--T:110-->
 * [[Image:FEM_MeshGroup.svg|32px]] [[FEM_MeshGroup|Mesh Group]]: Groups and labels elements of a mesh (vertex, edge, surface) together, useful for exporting the mesh to external solvers.
+
+=== <span id="FEM_GMSHRefinements">GMSH Refinements</span><!--Do not edit span id: the FEM_GMSHRefinements pages redirect here--> ===
+
+:* [[Image:FEM_MeshDistance.svg|32px]] [[FEM_MeshDistance|Distance-Based Refinement]]: Sets mesh size based on the distance to vertices, edges and faces. {{Version|1.2}}
+
+<!--T:109-->
+:* [[Image:FEM_MeshBoundaryLayer.svg|32px]] [[FEM_MeshBoundaryLayer|2D Boundary Layer]]: Creates anisotropic meshes for accurate calculations near boundaries.
 
 <!--T:194-->
 * [[Image:FEM_CreateElementsSet.svg|32px]] [[FEM_CreateElementsSet|Erase Elements]]: Hides elements selected by a polygon from the mesh. {{Version|1.0}}
