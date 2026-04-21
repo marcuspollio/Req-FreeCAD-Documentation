@@ -39,9 +39,7 @@ Los objetos Path de FreeCAD se componen de una secuencia de comandos de movimien
 
 Es importante comprender un concepto preliminar. La mayor parte de la implementación que se muestra a continuación se basa en comandos de movimiento con nombres idénticos a los de los comandos de código G, pero que no están diseñados para ser idénticos a la implementación de un controlador específico. Se eligieron nombres como "G0" para representar el movimiento rápido o "G1" para representar el movimiento de avance, con el fin de optimizar el rendimiento (ahorro eficiente de archivos) y minimizar el trabajo necesario para la conversión a/desde otros formatos de código G. Dado que el mundo del CNC utiliza miles de dialectos de código G, se seleccionó un subconjunto muy simplificado. El formato de código G de FreeCAD podría describirse como una forma de código G independiente de la máquina.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Inside .FCStd files, Path data is saved directly into that G-code form.
-</div>
+Dentro de los archivos .FCStd, los datos de ruta se guardan directamente en ese formato de código G.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 All translations to/from dialects to FreeCAD G-code are done through pre- and post- scripts. That means that if you want to work with a machine that uses a specific LinuxCNC, Fanuc, Mitusubishi, or HAAS controller etc, you will have to use (or write if nonexistent) a post processor for that particular controller (see the "Importing and exporting G-code" section below).
