@@ -82,9 +82,7 @@ myCustomNode.addChild(cub)
 sg.addChild(myCustomNode)
 }}
 
-<div class="mw-translate-fuzzy">
-Recuerda que en una escena gráfica de openInventor, el orden es importante. Un nodo afecta a lo que viene a continuación, por lo que puedes decir algo como: color rojo, cubo, color amarillo, esfera, y obtendrás un cubo rojo y una esfera amarilla. Si ahora añadimos la traslación a nuestro nodo de referencia existente, eso llegaría después del cubo, y no lo afectaría. Si lo hubieramos insertado cuando lo creamos, como aquí arriba, ahora podríamos hacer:
-</div>
+Para mover nuestro cubo ahora podemos hacer lo siguiente:
 
 {{Code|code=
 trans.translation.setValue([2, 0, 0])
