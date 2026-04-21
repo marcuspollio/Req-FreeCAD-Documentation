@@ -305,7 +305,7 @@ Vamos a explicar algo del código:
 
 Se puede observar fácilmente que la geometría del "avión" gira alrededor de su "baricentro" o "centro de gravedad", que se ha fijado en el centro del ala, un lugar relativamente "natural", pero que podría ubicarse donde se desee.
 
-The first {{incode|Vector(0, 0, 0)}} is the Translation vector, not used here, but if you substitute {{incode|airplane()}} with these lines:
+El primer {{incode|Vector(0, 0, 0)}} es el vector de traslación, que no se usa aquí, pero si sustituye {{incode|airplane()}} con estas líneas:
 
 {{Code|code=
 obj_f = airplane()
