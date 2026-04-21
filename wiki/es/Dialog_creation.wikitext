@@ -79,10 +79,9 @@ En macOS, puede obtener la versión adecuada (la misma que se usa internamente e
 python3 -m pip install pyqt5
 python3 -m pip install pySide2
 }}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This will install uic in the folder "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/uic", and Designer in "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/Designer.app".
-For convenience you can create a link of uic in /usr/local/bin to be able to call it simply with uic -g python ... instead of typing the whole path of the program, and a link to Designer to retrieve it in the mac's Applications folder with
-</div>
+Esto instalará uic en la carpeta '''/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/uic''' y Designer en '''/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/Designer.app'''.
+
+Para mayor comodidad, puede crear un enlace simbólico de uic en /usr/local/bin para poder ejecutarlo simplemente con '''uic -g python ...''' en lugar de escribir la ruta completa del programa, y ​​un enlace simbólico de Designer para recuperarlo en la carpeta Aplicaciones de su Mac.
 {{Code|code=
 sudo ln -s /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/uic /usr/local/bin
 ln -s /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/Designer.app /Applications
