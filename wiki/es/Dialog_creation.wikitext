@@ -14,10 +14,8 @@ En esta página mostraremos cómo crear una interfaz gráfica sencilla con Qt De
 
 En este ejemplo, toda la interfaz está definida en [[Python|Python]]. Si bien esto es posible para interfaces pequeñas, para interfaces más grandes se recomienda cargar los archivos {{FileName|.ui}} creados directamente en el programa.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FreeCAD_creating_interfaces.svg|600px]]
-{{Caption|Two general methods to create interfaces, by including the interface in the Python file, or by using {{incode|.ui}} files.}}
-</div>
+{{Caption|Dos métodos generales para crear interfaces: incluyendo la interfaz en el archivo Python o utilizando archivos {{incode|.ui}}.}}
 
 <span id="Designing_the_dialog"></span>
 <div class="mw-translate-fuzzy">
