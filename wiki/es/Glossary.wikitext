@@ -524,17 +524,15 @@ Ir a la letra {{CompactTOC|center=yes}}
 <span id="W"></span>
 == W ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{gloss}}
 {{term|WB}}
-{{defn|defn=Short for [[#Workbench|workbench]].}}
+{{defn|defn=Abreviatura de [[#Workbench|workbench]].}}
 {{term|Wire}}
-{{defn|no=1|defn=A sequence of connected [[#Edge|edges]] by [[#Vertex|vertices]]. The term wire is used in this sense mainly by [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Open Cascade Technology] and therefore also inside of FreeCAD.}}
-{{defn|no=2|defn=A [[Draft_Workbench|Draft]] [[#Workbench|workbench]] command that creates a parametric wire.}}
+{{defn|no=1|defn=Una secuencia de [[#Edge|aristas]] conectadas por [[#Vertex|vértices]]. El término cable se usa en este sentido principalmente por [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Open Cascade Technology] y, por lo tanto, también dentro de FreeCAD.}}
+{{defn|no=2|defn=Un comando [[Draft_Workbench|Draft]] [[#Workbench|workbench]] que crea un cable paramétrico.}}
 {{term|Workbench}}
-{{defn|defn=Also called a module, each [[Workbenches|workbench]] groups a set of tools dedicated to a specific task.}}
+{{defn|defn=También llamado módulo, cada [[Workbenches|Ambiente de Trabajo]] agrupa un conjunto de herramientas dedicadas a una tarea específica.}}
 {{glossend}}
-</div>
 
 <span id="X"></span>
 == X ==
