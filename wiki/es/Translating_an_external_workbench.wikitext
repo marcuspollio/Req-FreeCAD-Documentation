@@ -132,10 +132,9 @@ FreeCADGui.addCommand('CommandName', My_Command_Class())
 <span id="Gather_all_the_strings_from_your_module"></span>
 == Reúna todas las cadenas de su módulo ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* You will need the {{incode|lupdate}}, {{incode|lconvert}}, {{incode|lrelease}} and {{incode|pylupdate}} tools installed on your system. In Linux distributions they usually come in packages named {{incode|pyside-tools}} or {{incode|pyside2-tools}}. On some systems {{incode|lupdate}} is named {{incode|lupdate4}} or {{incode|lupdate5}} or {{incode|lupdate-qt4}} or similar. Same for the other tools. You may use the Qt4 or Qt5 version at your choice. In Qt6 there is no separate translation system for Python files, {{incode|lupdate}} is used to extract strings from all types of source files.
-* If you have {{incode|.ui}} files, you need to run {{incode|lupdate}} first:
-</div>
+* Necesitará tener instaladas en su sistema las herramientas {{incode|lupdate}}, {{incode|lconvert}}, {{incode|lrelease}} y {{incode|pylupdate}}. En las distribuciones de Linux, suelen venir en paquetes llamados {{incode|pyside-tools}} o {{incode|pyside2-tools}}. En algunos sistemas, {{incode|lupdate}} se llama {{incode|lupdate4}}, {{incode|lupdate5}}, {{incode|lupdate-qt4}} o similar. Lo mismo ocurre con las demás herramientas. Puede usar la versión Qt4 o Qt5 según su preferencia. En Qt6 no existe un sistema de traducción independiente para archivos Python; {{incode|lupdate}} se utiliza para extraer cadenas de todo tipo de archivos fuente.
+
+* Si tiene archivos {{incode|.ui}}, primero debe ejecutar {{incode|lupdate}}:
 
 : {{Code|code=
 lupdate *.ui -ts translations/uifiles.ts
