@@ -77,7 +77,7 @@ def set_view():
     view.fitAll()
 }}
 
-Some tricks are incorporated in the above code:
+En el código anterior se incorporan algunos trucos:
 
 * {{incode|import FreeCAD}} This line import FreeCAD in the FreeCAD Python interpreter, it may seem a redundant thing, but it isn't.
 * {{incode|from FreeCAD import Placement, Rotation, Vector}} '''Placement''' '''Rotation''' and '''Vector''' are widely used in FreeCAD scripting, import them in this manner will save you to invoke them with {{incode|FreeCAD.Vector}} or {{incode|FreeCAD.Placement}} instead of {{incode|Vector}} or {{incode|Placement}}, this will save many keystrokes and make codelines much smaller.
