@@ -22,13 +22,13 @@ En este ejemplo, toda la interfaz está definida en [[Python|Python]]. Si bien e
 
 En las aplicaciones CAD, diseñar una buena interfaz de usuario (UI) es fundamental. Prácticamente, todas las acciones del usuario se realizarán a través de algún elemento de la interfaz: leer cuadros de diálogo, pulsar botones, seleccionar iconos, etc. Por lo tanto, es crucial reflexionar detenidamente sobre qué se desea lograr, cómo se espera que se comporte el usuario y cuál será el flujo de trabajo de la acción.
 
-<div class="mw-translate-fuzzy">
-Hay un par de conceptos que debes saber a la hora de diseñar la interfaz:
+Hay algunos conceptos clave para diseñar interfaces:
 
-* [http://en.wikipedia.org/wiki/Modal_window Letreros de diálogo Modales/no modales]: Un letrero de diálogo modal aparece delante de la pantalla, deteniendo la acción de la ventana principal, obligando al usuario a responder al cuadro de diálogo, mientras que un cuadro de diálogo no modal permite seguir trabajando en la ventana principal. En algunos casos la primera opción es mejor, pero en otros casos no.
-* Identificación de lo que es necesario y lo que es opcional: Asegúrate de que el usuario sabe lo que debe hacer. Etiqueta todo con la descripción adecuada, utiliza etiquetas de información sobre el uso de las herramientas, etc.
-* Separar los comandos de los parámetros: Esto se hace generalmente con botones y cuadros de texto. El usuario sabe que al hacer clic en un botón, se produce una acción mientras que al cambiar un valor dentro de un cuadro de texto va a cambiar un parámetro en alguna parte. Hoy en día, sin embargo, los usuarios suelen conocer bien lo que es un botón, lo que es un cuadro de texto, etc. El conjunto de herramientas de interfaz que está utilizando, Qt, es el conjunto de herramientas más avanzado, y no tendrás que preocuparte mucho de hacer las cosas claras, puesto que ya va a ser muy clara por sí misma.
-</div>
+* [https://en.wikipedia.org/wiki/Modal_window Diálogos modales/no modales]: Un diálogo modal aparece en primer plano, interrumpiendo la acción de la ventana principal y obligando al usuario a responder. Un diálogo no modal, en cambio, permite seguir trabajando en la ventana principal. En algunos casos, la primera opción es mejor; en otros, no.
+
+* Identificar qué es obligatorio y qué es opcional: Asegúrese de que el usuario sepa qué debe hacer. Etiquete todo con una descripción adecuada, utilice información sobre herramientas, etc.
+
+* Separar comandos de parámetros: Esto se suele hacer con botones y campos de texto. El usuario sabe que al hacer clic en un botón se ejecutará una acción, mientras que al cambiar un valor en un campo de texto se modificará un parámetro. Hoy en día, los usuarios suelen saber bien qué es un botón, qué es un campo de entrada, etc. El kit de herramientas de interfaz que estamos utilizando, Qt, es de última generación, y no tendremos que preocuparnos mucho por aclarar las cosas, ya que estarán muy claras por sí mismas.
 
 Así que, ahora que tenemos bien definido lo que haremos, es el momento para abrir el diseñador de Qt Designer. Diseñemos un letrero de diálogo muy sencillo, como este:
 
