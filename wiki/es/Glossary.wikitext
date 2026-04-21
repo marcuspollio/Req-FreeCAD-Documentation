@@ -325,10 +325,10 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{defn|defn=Conjunto de propiedades de un objeto que define sus coordenadas y orientación en el espacio. Ver [[Colocación]].}}
 {{term|Planar}}
 {{defn|defn=Se dice de la geometría cuyos elementos se encuentran todos en un mismo plano.}}
-{{term|Plano}}
+{{term|Plane}}
 {{defn|no=1|defn=Una superficie plana bidimensional que se extiende infinitamente.}}
 {{defn|no=2|defn=Un objeto bidimensional primitivo creado en el [[Part_Workbench|Part]] [[#Workbench|workbench]].}}
-{{term|Trazado}}
+{{term|Plot}}
 {{defn|no=1|defn=Un sinónimo obsoleto de dibujo técnico realizado con un trazador de pluma. Ver [https://en.wikipedia.org/wiki/Plotter Plotter]}}
 {{defn|no=2|defn=Abreviatura de plan de trazado. Ver [https://en.wikipedia.org/wiki/Site_plan Plano del sitio]}}
 {{defn|no=3|defn=Representación gráfica de datos. Ver [https://en.wikipedia.org/wiki/Plot_(graphics) Gráfico (gráficos)]}}
@@ -336,14 +336,14 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{defn|defn=Una [[#Feature|característica]] que elimina material de un sólido basándose en un [[#Sketch|boceto]].}}
 {{term|Point}}
 {{defn|defn=Un elemento utilizado para referenciar un área específica en el espacio de trabajo 3D. Un "punto" no tiene dimensiones. Tiene una dimensión en la pantalla, generalmente representada solo por un "punto" para que podamos ver dónde se encuentra. Véase también [[#Vértice|Vértice]].}}
-{{term|Malla poligonal}}
+{{term|Polygon Mesh}}
 {{defn|defn=Véase [https://en.wikipedia.org/wiki/Polygonal_mesh Polygonal_mesh]}}
-{{term|Polilínea}}
+{{term|Polyline}}
 {{defn|defn=Una serie de segmentos de línea o arco conectados.}}
 {{term|POV-Ray}}
 {{defn|defn=[https://en.wikipedia.org/wiki/POV-Ray POV-Ray]}}
 {{term|PPA}}
-{{defn|defn=Un acrónimo que significa '''P'''Personal '''P'''ackage '''A'''rchive. Es un tipo de repositorio de software exclusivo del sistema operativo Ubuntu Linux. El proyecto FreeCAD ofrece la última versión, así como versiones de desarrollo, a través de dos repositorios PPA. Las actualizaciones son gestionadas por el gestor de actualizaciones del sistema anfitrión.
+{{defn|defn=Un acrónimo que significa '''P'''ersonal '''P'''ackage '''A'''rchive. Es un tipo de repositorio de software exclusivo del sistema operativo Ubuntu Linux. El proyecto FreeCAD ofrece la última versión, así como versiones de desarrollo, a través de dos repositorios PPA. Las actualizaciones son gestionadas por el gestor de actualizaciones del sistema anfitrión.
 Primitiva
 Forma básica utilizada en la construcción de modelos. Algunas primitivas 2D son: punto, línea, polígono, círculo, elipse, espiral, hélice. Las primitivas 3D son: caja, cilindro, cono, toroide, esfera, elipsoide, prisma.
 PySide
