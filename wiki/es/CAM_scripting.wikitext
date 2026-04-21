@@ -421,9 +421,7 @@ Si necesita un formato de salida diferente, tendrá que convertir ese código G 
 
 Si dispone de un archivo de código G escrito para una máquina específica, que no cumple con las reglas internas de FreeCAD, descritas en la sección anterior "Formato interno de código G de FreeCAD", es posible que no se importe o no se visualice correctamente en la vista 3D. Para solucionar este problema, debe utilizar un script de preprocesamiento que convierta el archivo del formato específico de su máquina al formato de FreeCAD.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If you know the name of the pre-processing script to use, you can import your file using it, from the Python Console like this:
-</div>
+Si conoce el nombre del script de preprocesamiento que debe usar, puede importar su archivo usándolo desde la consola de Python de esta manera:
 
 {{Code|code=
 import example_pre
