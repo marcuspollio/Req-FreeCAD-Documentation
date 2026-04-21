@@ -1,19 +1,22 @@
 <languages/>
 
 {{Docnav
-|[[Scenegraph|Scenegraph]]
+|[[Scenegraph|Escenógrafo]]
 |[[PySide|PySide]]
 }}
 
 {{TOCright}}
 
-==Introduction==
+<span id="Introduction"></span>
+== Introducción ==
 
 <div class="mw-translate-fuzzy">
 [http://pivy.coin3d.org/ Pivy] es una biblioteca para enlazar Python con [http://www.coin3d.org Coin3d], la biblioteca de renderizado-3D utilizada en FreeCAD. Cuando se importa en un intérprete de Python en ejecución, permite dialogar directamente con cualquier [[Scenegraph/es|escenas gráficas]] (scenegraphs) de Coin3d en ejecución, como las vistas 3D de FreeCAD, o incluso para crear otras nuevas. Pivy se incluye en la instalación estándar de FreeCAD.
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 When imported in a running Python interpreter, Pivy allows us to communicate directly with any running Coin [[Scenegraph|scenegraph]], such as the [[3D_view|3D view]], or even to create new ones. Pivy is not required to compile FreeCAD, but it is required at runtime when running Python-based workbenches that create shapes on screen, like [[Draft_Workbench|Draft]] and [[BIM_Workbench|BIM]]. Because of this, Pivy is normally installed when installing a distribution of FreeCAD.
+</div>
 
 <div class="mw-translate-fuzzy">
 La biblioteca de Coin se divide en varias partes, la propia Coin, para manipular escenas gráficas, y pasarelas a varios sistemas de interfaz gráfica de usuario (GUI), tales como Windows o, en nuestro caso, Qt. Esos módulos están también disponibles para Pivy, si están presentes en el sistema. El módulo Coin está siempre presente, y es lo que vamos a utilizar en todos los casos, y no tendrás que preocuparte de anclar nuestra pantalla 3D en ninguna interfaz, ya que FreeCAD ya lo ha hecho por si mismo. Todo lo que necesitamos hacer es esto:
@@ -156,32 +159,44 @@ Mira también una [[Code_snippets/es#Observación_de_Eventos_del_ratón_en_el_vi
 Lamentablemente Pivy aún no tiene una documentación formal, pero como es una traducción exacta de Coin, puedes utilizar con seguridad la documentación de Coin como referencia, y utilizar el estilo de Python en lugar del estilo de C++ (por ejemplo, SoFile::getClassTypeId() se escribiría en Pivy como: SoFile.getClassId() )
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 In C++:
+</div>
 
 {{Code|code=
 SoFile::getClassTypeId()
 }}
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 In Pivy:
+</div>
 
 {{Code|code=
 SoFile.getClassId()
 }}
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 * [https://github.com/coin3d Coin3D] homepage.
 * [https://github.com/coin3d/pivy Pivy] homepage.
 * [https://github.com/coin3d/coin/wiki Coin3D wiki], at GitHub.
 * [https://github.com/coin3d/coin/wiki/Documentation Coin3D wiki documentation], at GitHub.
 * [https://coin3d.github.io/Coin/html/ Coin3D Documentation], latest automatically generated Doxygen documentation.
 * [https://webdocs.cs.ualberta.ca/~graphics/books/mentor.pdf (Open)Inventor Mentor] - recommended.
+</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 === Older ===
+</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 These links provide reference documentation for Coin v3.x. The differences with v4.x are minimal, so they may still be useful.
+</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 * [https://coin3d.bitbucket.io/Coin/index.html Coin3D Documentation], at BitBucket.
 * [https://grey.colorado.edu/coin3d/index.html Coin3D Documentation], at University of Colorado.
 * [https://mevislabdownloads.mevis.de/docs/current/MeVis/ThirdParty/Documentation/Publish/OpenInventorReference/index.html Open Inventor Reference Documentation], by MeVisLab.
+</div>
 {{Top}}
 
 <div class="mw-translate-fuzzy">
