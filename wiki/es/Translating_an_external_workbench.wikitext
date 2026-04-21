@@ -95,9 +95,7 @@ FreeCADGui.addLanguagePath("/path/to/translations")
 FreeCADGui.updateLocale()
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-: The {{incode|InitGui.py}} file has no '''file''' attribute, so it is not easy to find the translations folder's relative location. An easy way to work around this is to make it import another file from the same folder, and in that file do:
-</div>
+El archivo {{incode|InitGui.py}} no tiene el atributo '''file'', por lo que no es fácil encontrar la ubicación relativa de la carpeta de traducciones. Una forma sencilla de solucionar esto es hacer que importe otro archivo de la misma carpeta y, en ese archivo, hacer lo siguiente:
 
 : {{Code|code=
 FreeCADGui.addLanguagePath(os.path.join(os.path.dirname(__file__), "translations"))
