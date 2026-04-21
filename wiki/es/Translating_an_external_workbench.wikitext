@@ -181,10 +181,8 @@ Si desea alojar su archivo en la cuenta FreeCAD Crowdin, póngase en contacto co
 
 Una vez que su archivo {{incode|.ts}} haya sido traducido, aunque sea parcialmente, puede descargar las traducciones desde el sitio:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* You will usually download a {{incode|.zip}} file containing one {{incode|.ts}} per language
-* Place all the translated {{incode|.ts}} files, together with your base {{incode|.ts}} file, in the {{incode|translations/}} folder
-</div>
+* Normalmente, descargará un archivo {{incode|.zip}} que contiene un archivo {{incode|.ts}} por idioma.
+* Coloque todos los archivos {{incode|.ts}} traducidos, junto con tu archivo {{incode|.ts}} base, en la carpeta {{incode|translations/}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Compile the translations ==
