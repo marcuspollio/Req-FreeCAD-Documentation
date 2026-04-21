@@ -87,9 +87,7 @@ sudo ln -s /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-
 ln -s /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/Designer.app /Applications
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Into Linux : to do
-</div>
+En Linux hacer:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Since FreeCAD progressively moved away from PyQt after version 0.13, in favour of [http://qt-project.org/wiki/PySide PySide] (Choose your PySide install [http://pyside.readthedocs.org/en/latest/building/ building PySide]), to make the file based on PySide now you have to use:
