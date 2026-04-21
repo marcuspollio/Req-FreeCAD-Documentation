@@ -95,7 +95,8 @@ Los ejemplos de PySide se dividen en tres partes, diferenciadas según el nivel 
 
 Se espera que estos ejemplos sean útiles para empezar y, más adelante, el usuario podrá consultar otros recursos en línea o la documentación oficial.
 {{Top}}
-==Documentation==
+<span id="Documentation"></span>
+==Documentación==
 
 There are some differences in the handling of widgets between the different versions. Programmers should be aware of these incompatibilities, and consult the official documentation if something doesn't work as expected on a given platform. Although rare, sometimes it may be required to make versioned calls through if-clauses.
 
