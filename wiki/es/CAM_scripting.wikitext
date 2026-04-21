@@ -134,7 +134,7 @@ Se admiten comandos de código G distintos de los que aparecen en la tabla sigui
 |}
 
 <span id="The_Command_object"></span>
-== El objeto Comando ==
+== El Comando objeto ==
 
 El comando objeto representa un comando de código G. Tiene tres atributos: Nombre, Parámetros y Posición, y dos métodos: toGCode() y setFromGCode(). Internamente, solo contiene un nombre y un diccionario de parámetros. El resto (posición y código G) se calcula a partir de estos datos.
 
