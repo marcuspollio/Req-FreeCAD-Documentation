@@ -183,9 +183,8 @@ class plane():
        self.ui.setupUi(self.d)
        self.d.show()
 }}
-(Python reminder: the __init__ method of a class is automatically executed whenever a new object is created!)
-
-A continuación, en FreeCAD, sólo tenemos que hacer:
+(Recordatorio de Python: ¡'''the __init__ method''' de una clase se ejecuta automáticamente cada vez que se crea un nuevo objeto!)
+Luego, desde FreeCAD, solo necesitamos hacer lo siguiente:
 {{Code|code=
 import mywidget
 myDialog = mywidget.plane()
