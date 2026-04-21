@@ -196,6 +196,8 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 :* [[Image:FEM_MeshManipulate.svg|32px]] [[FEM_MeshManipulate|Manipulate Refinement]]: Allows to manipulate the output of a refinement in various ways. {{Version|1.2}}
 
+:* [[Image:FEM_MeshAdvanced.svg|32px]] [[FEM_MeshAdvanced|Advanced Refinement Types]]: Allows to define the mesh size by various advanced means. {{Version|1.2}}
+
 <!--T:194-->
 * [[Image:FEM_CreateElementsSet.svg|32px]] [[FEM_CreateElementsSet|Erase Elements]]: Hides elements selected by a polygon from the mesh. {{Version|1.0}}
 
