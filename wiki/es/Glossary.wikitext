@@ -143,38 +143,36 @@ Ir a la letra {{CompactTOC|center=yes}}
 <span id="F"></span>
 == F ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{gloss}}
 {{term|Face}}
-{{defn|defn=A 2 dimensional topological construct. For example, a cube has 6 Faces. A face can be curved, like in case of a sphere, which has one face in FreeCAD. The CAD kernel defines it as: Part of a surface bounded by a closed [[#Wire|wire(s)]]. See [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Profile: Defining the Topology].}}
+{{defn|defn=Una construcción topológica bidimensional. Por ejemplo, un cubo tiene 6 caras. Una cara puede ser curva, como en el caso de una esfera, que tiene una cara en FreeCAD. El núcleo CAD la define como: Parte de una superficie delimitada por un [[#Wire|wire(s)]] cerrado. Véase [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Perfil: Definición de la topología].}}
 {{term|Facet}}
-{{defn|defn=Often used to describe planar faces on a [[#Mesh|mesh]].}}
+{{defn|defn=Se utiliza a menudo para describir caras planas en una [[#Mesh|malla]].}}
 {{term|FC}}
 {{defn|defn=Short for FreeCAD.}}
 {{term|FCStd}}
 {{defn|defn=FreeCAD native file format. File extension *.fcstd, *.FCStd}}
 {{term|Feature}}
-{{defn|defn=A step in a 3d part's evolution in the [[PartDesign_Workbench|Part Design]] [[#Workbench|workbench]] workflow.  Examples are [[#Pad|Pad]], [[#Pocket|Pocket]], [[#Groove|Groove]], [[#Fillet|Fillet]], etc. As we create a model in the [[PartDesign_Workbench|Part Design]] [[#Workbench|workbench]], each feature takes the shape of the last one and adds or removes something.  Hence a "Pocket" feature is not only the pocketed hole itself, but the whole part with the pocket feature.}}
+{{defn|defn=Un paso en la evolución de una pieza 3D en el flujo de [[PartDesign_Workbench|diseño de pieza]] del [[#Workbench|entorno de trabajo]].  Ejemplos de esto son [[#Pad|reondeo]], [[#Pocket|vaciado]], [[#Groove|ranurado]], [[#Fillet|Filetado]], etc. Al crear un modelo en el [[#Workbench|entorno de trabajo]] del [[PartDesign_Workbench|diseño de pieza]] , cada operación toma la forma de la anterior y agrega o elimina algo. Por lo tanto, una operación "Pocket" no es solo el orificio en sí, sino toda la pieza con la operación de cavidad.}}
 {{term|FEM|content=[[FEM_Workbench|FEM]]}}
-{{defn|defn=[https://en.wikipedia.org/wiki/Finite_element_method Finite Element Method], a [[#Workbench|workbench]] used to solve engineering and mathematical physics problems associated with parts, assemblies and structures.}}
+{{defn|defn=[https://en.wikipedia.org/wiki/Finite_element_method Método de elementos finitos], un [[#Workbench|entorno de trabajo]] utilizado para resolver problemas de ingeniería y física matemática asociados con piezas, ensamblajes y estructuras.}}
 {{term|Fillet}}
-{{defn|defn=A rounded relief or cut at an edge added for a finished appearance and to break sharp edges. See [[Part_Fillet|Part Fillet]] and [[PartDesign_Fillet|PartDesign Fillet]].}}
+{{defn|defn=Un redondeo o corte en el borde añadido para un acabado estético y para suavizar los bordes afilados. Véase [[Part_Fillet|redondeo de pieza]] y [[PartDesign_Fillet|filetado en el diseño de pieza].}}
 {{term|Fork}}
 {{defn|defn=See [[#Forked_Model|Forked Model]].}}
 {{term|Forked Model}}
-{{defn|defn=A modeling method, usually accidental and incorrect in FreeCAD, that creates two or more versions of a model from a previous item. (Not to be confused with intentional operations like Array, Clone, Polar Pattern, etc.)}}
+{{defn|defn=Método de modelado, generalmente accidental e incorrecto en FreeCAD, que crea dos o más versiones de un modelo a partir de un elemento anterior. (No confundir con operaciones intencionadas como Matriz, Clonar, Patrón Polar, etc.)}}
 {{term|Frenet}}
-{{defn|defn=When Sweeping a profile along a 3D path, the Frenet parameter controls the orientation of the profile as it travels along the path. If Frenet is true, the profiles are oriented using the Frenet Frame (tangent, binormal, normal) of the path. If Frenet is false the profile's rotation is not restricted. [https://en.wikipedia.org/wiki/Differentiable_curve#Frenet_frame Frenet frame]}}
+{{defn|defn=Al barrer un perfil a lo largo de una trayectoria 3D, el parámetro Frenet controla la orientación del perfil a medida que se desplaza por dicha trayectoria. Si Frenet es verdadero, los perfiles se orientan utilizando el marco de Frenet (tangente, binormal, normal) de la trayectoria. Si Frenet es falso, la rotación del perfil no está restringida. [https://en.wikipedia.org/wiki/Differentiable_curve#Frenet_frame Marco de Frenet]}}
 {{term|Freetype|content=[http://www.freetype.org FreeType]}}
-{{defn|defn=A freely available software library used to extract information from font definition files.}}
+{{defn|defn=Una biblioteca de software de libre acceso que se utiliza para extraer información de los archivos de definición de fuentes.}}
 {{term|Frustum|content=[https://en.wikipedia.org/wiki/Frustum Frustum]}}
-{{defn|defn=The portion of a solid that lies between two parallel planes cutting it. Used in computer graphics to describe the three-dimensional region which is visible on the screen, the [https://en.wikipedia.org/wiki/Viewing_frustum "viewing frustum"]}}
+{{defn|defn=La porción de un sólido que se encuentra entre dos planos paralelos que lo cortan. Utilizado en gráficos por computadora para describir la región tridimensional que es visible en la pantalla, el [https://en.wikipedia.org/wiki/Viewing_frustum "cono de visión"]]}}
 {{term|Fully Constrained}}
-{{defn|defn=In [[#Sketcher|Sketcher]], when a [[#Sketch|Sketch]] has no [[#Degrees_Of_Freedom|Degrees Of Freedom]], the Sketch is said to be "fully constrained" by the applied [[#Constraint|Constraints]].}}
+{{defn|defn=En [[#Sketcher|Sketcher]], cuando un [[#Sketch|boceto]] no tiene [[#Degrees_Of_Freedom|grados de libertad]], se dice que el Sketch está "totalmente restringido" por las [[#Constraint|restricciones]] aplicadas.}}
 {{term|Fuse}}
-{{defn|defn=Term commonly used in FreeCAD to refer to a [[#Boolean_Operation|boolean union]] of shapes.}}
+{{defn|defn=Término comúnmente utilizado en FreeCAD para referirse a una [[#Boolean_Operation|unión booleana]] de formas.}}
 {{glossend}}
-</div>
 
 <span id="G"></span>
 == G ==
