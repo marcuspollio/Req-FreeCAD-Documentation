@@ -73,9 +73,7 @@ obj.addProperty("App::PropertyBool", "MyProperty", "PropertyGroup", QT_TRANSLATE
 <span id="In_InitGui.py"></span>
 === En InitGui.py ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Add the following line near the top of the file:
-</div>
+* Agregue la siguiente línea cerca del inicio del archivo:
 
 : {{Code|code=
 from PySide.QtCore import QT_TRANSLATE_NOOP
