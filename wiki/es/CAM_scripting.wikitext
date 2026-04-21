@@ -81,7 +81,6 @@ Se admiten comandos de código G distintos de los que aparecen en la tabla sigui
 <span id="List_of_currently_supported_G-code_commands"></span>
 === Lista de comandos G-code compatibles actualmente ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable"
 !Command 
 !Description 
@@ -133,7 +132,6 @@ Se admiten comandos de código G distintos de los que aparecen en la tabla sigui
 |
 | 
 |}
-</div>
 
 <span id="The_Command_object"></span>
 == El objeto Comando ==
