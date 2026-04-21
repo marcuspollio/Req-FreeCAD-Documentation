@@ -439,7 +439,7 @@ example_post.export (myObjectName,"/path/to/outputFile.ncc")
 <span id="Writing_processing_scripts"></span>
 === Escritura de scripts de procesamiento ===
 
-Los scripts de preprocesamiento y posprocesamiento funcionan como las importaciones y exportaciones habituales de FreeCAD. Al seleccionar un script de preprocesamiento o posprocesamiento en el cuadro de diálogo, el proceso de importación o exportación se redirigirá al script especificado. Los scripts de preprocesamiento deben contener, como mínimo, los métodos `open(filename)` e `insert(filename, docname)`. Los scripts de posprocesamiento deben implementar el método `export(objectslist, filename)`.
+Los scripts de preprocesamiento y posprocesamiento funcionan como las importaciones y exportaciones habituales de FreeCAD. Al seleccionar un script de preprocesamiento o posprocesamiento en el cuadro de diálogo, el proceso de importación o exportación se redirigirá al script especificado. Los scripts de preprocesamiento deben contener, como mínimo, los métodos '''open(filename)''' e '''insert(filename, docname)'''. Los scripts de posprocesamiento deben implementar el método '''export(objectslist, filename)'''.
 
 Los scripts se colocan en la carpeta Mod/Path/Path/Post/scripts o en el directorio de macros del usuario. Puede darles el nombre que desee, pero por convenio, y para que la interfaz gráfica los seleccione, los nombres de los scripts de preprocesamiento deben terminar en "'''_pre'''" y los de los scripts de posprocesamiento en "'''_post'''" (asegúrese de usar el guion bajo, no el guion normal, de lo contrario Python no podrá importarlo). Este es un ejemplo de un preprocesador muy sencillo. Encontrará ejemplos más complejos en la carpeta Mod/Path/Path/Post/scripts.
 
