@@ -333,9 +333,7 @@ El objetivo de esta función es agrupar una o más trayectorias de herramienta y
 >>> o3.Group=[o1,o2]
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-An important feature of Path Compounds is the possibility to take into account the Placement of their child paths or not, by setting their UsePlacements property to True or False. If not, the Path data of their children will simply be added sequentially. If True, each command of the child paths, if containing position information (G0, G1, etc..) will first be transformed by the Placement before being added.
-</div>
+Una característica importante de los compuestos de trayectoria es la posibilidad de tener en cuenta o no la ubicación de sus rutas secundarias, configurando su propiedad UsePlacements como verdadera o falsa. Si no se establece en falso, los datos de ruta de sus rutas secundarias se añadirán secuencialmente. Si se establece en verdadero, cada comando de las rutas secundarias, si contiene información de posición (G0, G1, etc.), se transformará primero según la ubicación antes de añadirse.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Creating a compound with just one child path allows you therefore to turn the child path's Placement "real" (it affects the Path data).
