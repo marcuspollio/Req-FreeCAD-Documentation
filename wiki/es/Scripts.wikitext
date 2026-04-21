@@ -329,7 +329,7 @@ Puede visualizar fácilmente el valor de {{incode|tail_position}} usando una ins
 tail_position = 21.0
 }}
 
-in other words the '''rotation center''' of the geometry is at {{incode|Vector(0, 0, 21)}}, but this rotation center is not shown in the GUI, it could be entered as a {{incode|Placement}} value, it could not be easily retrieved.
+En otras palabras, el '''centro de rotación''' de la geometría está en {{incode|Vector(0, 0, 21)}}, pero este centro de rotación no se muestra en la Interfaz gráfica de Usuario (GUI), podría ingresarse como un valor {{incode|Placement}}, pero no podría recuperarse fácilmente.
 
 This is the meaning of the word "awkward" that I've used to define {{incode|Placement}} property.
 
