@@ -130,7 +130,7 @@ def my_cyl(name, ang, rad, hei):
     return obj
 }}
 
-Even here nothing too exciting. But please note some peculiarities:
+Hasta aquí no hay nada especialmente emocionante. Pero hay que tener en cuenta algunas peculiaridades:
 
 * The absence of the usual reference to the {{incode|App.}}, present in many Documentation code snippets, is deliberate, this code could be used even invoking FreeCAD as a module in an external Python interpreter, the thing is not easily doable with an AppImage, but with some care it could be done. Plus in the standard Python motto that "better explicit than implicit" {{incode|App.}} is explaining in a very "poor" way where the things are from.
 * Note the use of the "constant" name assigned to the active Document in {{incode|DOC &#61; FreeCAD.activeDocument()}}; activeDocument is not a "constant" in a strict sense, but in a "semantical" way is our "active Document", that for our use is a proper "constant" so the Python convention to use the "ALL CAPS" name for "constants", not to mention that {{incode|DOC}} is much shorter than {{incode|FreeCAD.activeDocument()}}.
