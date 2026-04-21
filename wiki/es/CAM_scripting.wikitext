@@ -404,9 +404,7 @@ o = App.ActiveDocument.addObject("Path::Feature","boomerang")
 o.Path = p
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In the same manner, you can obtain the path information as "agnostic" G-code, and store it manually in a file:
-</div>
+De la misma manera, puede obtener la información de la ruta como código G "agnóstico" y almacenarla manualmente en un archivo:
 
 {{Code|code=
 text = o.Path.toGCode()
