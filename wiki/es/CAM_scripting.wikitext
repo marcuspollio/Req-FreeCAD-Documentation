@@ -340,9 +340,7 @@ Por lo tanto, al crear un compuesto con una sola ruta secundaria, se puede hacer
 <span id="The_Path_Project_feature"></span>
 === Función del proyecto Trayectoria ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The Path project is an extended kind of Compound, that has a couple of additional machine-related properties such as a tooltable. It is made mainly to be the main object type you'll want to export to G-code once your whole path setup is ready. The Project object is now coded in Python, so its creation mechanism is a bit different:
-</div>
+El proyecto Trayectoria (Path) es una versión extendida de Compuesto (Compound), que incluye algunas propiedades adicionales relacionadas con la máquina, como una tabla de herramientas. Está diseñado principalmente para ser el tipo de objeto principal que querrá exportar a código G una vez que tenga lista la configuración completa de la trayectoria. El objeto Proyecto ahora está programado en Python, por lo que su mecanismo de creación es ligeramente diferente:
 
 {{Code|code=
 >>> from PathScripts import PathProject
