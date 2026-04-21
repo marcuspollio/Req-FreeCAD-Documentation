@@ -3,10 +3,10 @@
 
 <!--T:4-->
 {{Docnav
-|[[FEM_MeshBoundaryLayer|Mesh Boundary Layer]]
+|[[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]]
 |[[FEM_MeshGroup|Mesh Group]]
 |[[FEM_Workbench|FEM]]
-|IconL=FEM_MeshBoundaryLayer.svg
+|IconL=FEM_MeshGmshFromShape.svg
 |IconR=FEM_MeshGroup.svg
 |IconC=Workbench_FEM.svg
 }}
@@ -82,10 +82,10 @@ You can create as many different mesh regions as needed.
 
 <!--T:5-->
 {{Docnav
-|[[FEM_MeshBoundaryLayer|Mesh Boundary Layer]]
+|[[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]]
 |[[FEM_MeshGroup|Mesh Group]]
 |[[FEM_Workbench|FEM]]
-|IconL=FEM_MeshBoundaryLayer.svg
+|IconL=FEM_MeshGmshFromShape.svg
 |IconR=FEM_MeshGroup.svg
 |IconC=Workbench_FEM.svg
 }}
