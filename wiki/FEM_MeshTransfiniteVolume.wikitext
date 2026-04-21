@@ -51,6 +51,9 @@ After the mesh has been created you can change its properties using the [[Proper
 
 You can create as many different transfinite volumes as needed.
 
+==Notes==
+* Using this tool with the ''Auto apply transfinite surfaces and curves'' and ''Recombine'' checkboxes enabled is the easiest way to generate structured hexahedral meshes using the transfinite Gmsh algorithm. All subvolumes must have 5 or 6 faces with 3 or 4 edges each, though.
+
 
 {{Docnav
 |[[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]
