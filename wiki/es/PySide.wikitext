@@ -43,7 +43,7 @@ Para más información, consulte:
 * [https://en.wikipedia.org/wiki/PySide Wikipedia:PySide]
 * [https://wiki.qt.io/Differences_Between_PySide_and_PyQt Diferencias entre PySide y PyQt]
 
-When you install FreeCAD, you will get both Qt and a matching PySide as part of the package. If you are [[Compiling|compiling]] yourself, you must verify that matching versions of these two libraries are installed in order for FreeCAD to run correctly. Of course, PySide will only work if Qt is present.
+Al instalar FreeCAD, obtendrá Qt y PySide como parte del paquete. Si va a compilar FreeCAD usted mismo, debe verificar que tenga instaladas versiones compatibles de estas dos bibliotecas para que FreeCAD funcione correctamente. Por supuesto, PySide solo funcionará si Qt está presente.
 {{Top}}
 ==Multi version compatibility==
 
