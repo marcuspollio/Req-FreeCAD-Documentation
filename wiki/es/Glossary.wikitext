@@ -108,18 +108,19 @@ Ir a la letra {{CompactTOC|center=yes}}
 ==D==
 </div>
 
+<div class="mw-translate-fuzzy">
 {{gloss}}
 {{term|DAG}}
 {{defn|defn=See [[#Directed_Acyclic_Graph|Directed Acyclic Graph.]]}}
 {{term|Degrees Of Freedom}}
-{{defn|defn=The number of ways geometry in a [[#Sketch|Sketch]] may vary. For example, if we have a Sketch consisting of only one point, and the point has no [[#Constraint|Constraints]] applied to it, the point has two [[#DOF|DOF]] because it is free to move both vertically and horizontally. Similarly, a Sketch consisting of only a single unconstrained circle has three [[#DOF|DOF]] because the circle can move vertically and horizontally and, additionally, the radius is not defined. It is good practice to constrain a Sketch until it has no [[#DOF|DOF]] remaining, in which case it is said to be [[#Fully_Constrained|Fully Constrained]].}}
+{{defn|defn=El número de manerar en un [[#Sketch|boceto]] pueden varias. Por ejemplo, si tenemos un boceto que consta de un solo punto y a ese punto no se le aplican restricciones, el punto tiene dos grados de libertad (DOF) porque puede moverse tanto vertical como horizontalmente. De manera similar, un boceto que consta de un solo círculo sin [[#Constraint|restricciones]] tiene tres grados de libertad [[#DOF|DOF]] porque el círculo puede moverse vertical y horizontalmente y, además, el radio no está definido. Es recomendable restringir un boceto hasta que no le queden grados de libertad [[#DOF|DOF]], en cuyo caso se dice que está [[#Fully_Constrained|completamente restringido]].}}
 {{term|Dependency Graph}}
 {{defn|defn=A third-party graphing tool used to show how objects in a FreeCAD model use or are related to one another. For more information, refer to the [[Std_DependencyGraph|Dependency Graph]] Wiki page.}}
 {{term|Difference}}
 {{defn|no=1|defn=The result of, or remainder of, a subtraction.}}
-{{defn|no=2|defn=A [[#Boolean_operation|Boolean Operation]] in the [[Part_Workbench|Part]] [[#Workbench|workbench]] which is used to subtract one geometry from another; it results in a [[#Cut|Cut]].}}
-{{term|Directed Acyclic Graph}} (abbreviated as "DAG")
-{{defn|defn=A type of [[#Dependency_Graph|Dependency Graph]] where the relationship of objects flows in a generally linear direction from start to end with no circular dependencies. When following a DAG there is no flow from one object A to any other objects and then back to that same object A again. In FreeCAD, a graph of the model must always be a DAG.}}
+{{defn|no=2{{defn=Una [[#Boolean_operation|operación booleana]] en el [[Part_Workbench|Part]] [[#Workbench|workbench]] que se utiliza para restar una geometría de otra; el resultado es un [[#Cut|Corte]].}}
+{{term|Grafo acíclico dirigido}} (abreviado como "DAG")
+{{defn|defn=Un tipo de [[#Dependency_Graph|Grafo de dependencias]] donde la relación entre objetos fluye en una dirección generalmente lineal de principio a fin, sin dependencias circulares. Al seguir un DAG, no hay flujo de un objeto A a ningún otro objeto y luego de vuelta al mismo objeto A. En FreeCAD, un grafo del modelo siempre debe ser un DAG.}}
 {{term|DOF}}
 {{defn|defn=[[#Degrees_Of_Freedom|Degrees Of Freedom]]}}
 {{term|Draft|content=[[Draft_Workbench|Draft]]}}
@@ -128,6 +129,7 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{term|Drawing}}
 {{defn|defn=Describes a representation of geometry through the use of two-dimensional views. Also called plan or [[#Blueprint|blueprint]].}}
 {{glossend}}
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==E==
