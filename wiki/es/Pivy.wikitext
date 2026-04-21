@@ -59,9 +59,7 @@ myCustomNode.addChild(cub)
 sg.addChild(myCustomNode)
 }}
 
-<div class="mw-translate-fuzzy">
-y aquí está nuestro (magnífico) cubo rojo. Ahora, vamos a probar esto:
-</div>
+Ahora, probemos esto:
 
 {{Code|code=
 col.rgb = (1, 1, 0)
