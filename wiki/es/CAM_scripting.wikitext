@@ -265,9 +265,7 @@ La característica Ruta es un objeto del documento de FreeCAD que contiene una r
 Path [ size:2 length:2 ]
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The Path feature also holds a Placement property. Changing the value of that placement will change the position of the Feature in the 3D View, although the Path information itself won't be modified. The transformation is purely visual. This allows you, for example, to create a Path around a face that has a particular orientation on your model, that is not the same orientation as your cutting material will have on the CNC machine.
-</div>
+La característica Trayectoria también incluye una propiedad de Posicionamiento. Al cambiar el valor de esta propiedad, se modificará la posición de la función en la vista 3D, aunque la información de la trayectoria en sí no se verá afectada. La transformación es puramente visual. Esto permite, por ejemplo, crear una trayectoria alrededor de una cara con una orientación específica en el modelo, distinta a la que tendrá el material de corte en la máquina CNC.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 However, Path Compounds can make use of the Placement of their children (see below).
