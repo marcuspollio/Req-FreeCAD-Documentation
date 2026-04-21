@@ -85,9 +85,11 @@ my_check_box = QtWidgets.QCheckBox()
 <span id="Examples_of_PySide_use"></span>
 ==Ejemplos de uso de PySide==
 
-* [[PySide_Beginner_Examples|PySide Beginner Examples]], hello world, announcements, enter text, enter number.
-* [[PySide_Intermediate_Examples|PySide Intermediate Examples]], window sizing, hiding widgets, popup menus, mouse position, mouse events.
-* [[PySide_Advanced_Examples|PySide Advanced Examples]], many widgets.
+* [[PySide_Beginner_Examples|Ejemplos para principiantes de PySide]], hola mundo, anuncios, introducir texto, introducir número.
+
+* [[PySide_Intermediate_Examples|Ejemplos intermedios de PySide]], redimensionamiento de ventanas, ocultar widgets, menús emergentes, posición del ratón, eventos del ratón.
+
+* [[PySide_Advanced_Examples|Ejemplos avanzados de PySide]], muchos widgets.
 
 The examples of PySide are divided into 3 parts, differentiated by level of exposure to PySide, Python and the FreeCAD internals. The first page has an overview on PySide; the second and third pages are mostly code examples at different levels.
 
