@@ -43,10 +43,8 @@
 ==Notes==
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* This tool relies on the {{FileName|FillTemplateFields.csv}} spreadsheet file in the FreeCAD installation directory under {{FileName|.../share/Mod/TechDraw/CSVdata}}.
-* {{Version|1.0}}: There is also the [[TechDraw_Templates#Description|autofill tool]].
-</div>
+* 该工具依赖 FreeCAD 安装目录下 {{FileName|.../share/Mod/TechDraw/CSVdata}} 路径中的 {{FileName|FillTemplateFields.csv}} 表格文件。
+* {{Version|1.0}}：同时提供了 [[TechDraw_Templates#Description|自动填充工具]]。
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
