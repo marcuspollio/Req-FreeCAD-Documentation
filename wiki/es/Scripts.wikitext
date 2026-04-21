@@ -183,7 +183,7 @@ El concepto de colocación es relativamente complejo; consulte [[Aeroplane|Tutor
 
 Por lo general, al construir objetos complejos, necesitamos colocar las geometrías unas con respecto a otras. Este procedimientos es una tarea recurrente. La forma más común es usar la propiedad {{incode|Placement}} de geometría.
 
-FreeCAD offers a wide choice of ways to set this property, one is more tailored to another depending on the knowledge and the background of the user. The more plain writing is explained in the cited Tutorial, which uses a peculiar definition of the {{incode|Rotation}} portion of {{incode|Placement}}: quite easy to learn.
+FreeCAD ofrece una amplia variedad de maneras para configurar esta propiedad; cada una de las cuales se adapta a los conocimientos y la experiencia del usuario. La forma más sencilla de escribirla se explica en el tutorial citado, que utiliza una definición particular de la parte {{incode|Rotation}} de {{incode|Placement}}: bastante fácil de aprender.
 
 {{Code|code=
 FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
