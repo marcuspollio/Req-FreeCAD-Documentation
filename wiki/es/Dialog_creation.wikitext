@@ -18,10 +18,7 @@ En este ejemplo, toda la interfaz está definida en [[Python|Python]]. Si bien e
 {{Caption|Dos métodos generales para crear interfaces: incluyendo la interfaz en el archivo Python o utilizando archivos {{incode|.ui}}.}}
 
 <span id="Designing_the_dialog"></span>
-<div class="mw-translate-fuzzy">
-==  Diseñar el letrero de diálogo ==
-En las aplicaciones de CAD, el diseño de una buena interfaz de usuario (UI, User Interface) es muy importante. Casi todo lo que el usuario haga será a través de alguna parte de la interfaz: leyendo los letreros de diálogo, pulsando los botones, eligiendo entre iconos, etc. Así que es muy importante pensar cuidadosamente lo que quieres hacer, cómo deseas que el usuario se comporte, y cómo será el flujo de trabajo de tu acción.
-</div>
+== Diseño del diálogo ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In CAD applications, designing a good UI (User Interface) is very important. About everything the user will do will be through some piece of interface: reading dialog boxes, pressing buttons, choosing between icons, etc. So it is very important to think carefully to what you want to do, how you want the user to behave, and how will be the workflow of your action.
