@@ -267,9 +267,7 @@ Path [ size:2 length:2 ]
 
 La característica Trayectoria también incluye una propiedad de Posicionamiento. Al cambiar el valor de esta propiedad, se modificará la posición de la función en la vista 3D, aunque la información de la trayectoria en sí no se verá afectada. La transformación es puramente visual. Esto permite, por ejemplo, crear una trayectoria alrededor de una cara con una orientación específica en el modelo, distinta a la que tendrá el material de corte en la máquina CNC.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-However, Path Compounds can make use of the Placement of their children (see below).
-</div>
+Sin embargo, las Trayectorias Compuestas pueden utilizar la ubicación de sus hijos (ver más abajo).
 
 <span id="The_Tool_and_Tooltable_objects"></span>
 <div class="mw-translate-fuzzy">
