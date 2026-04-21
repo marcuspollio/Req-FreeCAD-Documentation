@@ -102,9 +102,7 @@ analysis_object.addObject(force_constraint)
 <span id="FEM_mesh_(manual)"></span>
 === Malla FEM (manual) ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This section contains the FEM mesh code. Please expand it to view the contents.
-</div>
+Esta sección contiene el código de la malla FEM. Expándalo para ver el contenido.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''Note:''' Check out the [[#Additional_Information|Additional Information]] section below for how to script mesh generation with GMSH or Netgen mesh object.
