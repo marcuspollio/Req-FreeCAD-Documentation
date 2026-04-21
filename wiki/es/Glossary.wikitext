@@ -394,9 +394,9 @@ Lenguaje de programación utilizado en el desarrollo de FreeCAD, así como en ma
 {{defn|defn=El mecanismo interno de FreeCAD que calcula las interdependencias y los efectos de agregar, eliminar y modificar la geometría y las restricciones asociadas en cada boceto. El Sketcher Solver también calcula la disposición de toda la geometría en cada boceto para que se pueda visualizar correctamente.}}
 {{term|Smooth Line}}
 {{defn|defn=En un dibujo, una línea que indica un cambio entre superficies tangentes, como en la transición de una superficie plana a un redondeo. También "borde tangente". Véase [[Vista_de_dibujo#Modificar_una_vista_existente|Vista_de_dibujo]]}}
-{{term|Sólido}}
+{{term|Solid}}
 {{defn|defn=Parte del espacio 3D delimitado por [[#Shell|Cáscaras]]. Un sólido tiene volumen y otras propiedades relacionadas con objetos con masa.}}
-{{término|Solucionador}}
+{{term|Solucionador}}
 {{defn|defn=Véase [[#Solucionador_de_boceto|Solucionador de boceto]].}}
 {{término|Estable}}
 {{defn|defn=Apodo para la última versión general del software FreeCAD. Esta suele ser la versión disponible en fuentes distintas al proyecto FreeCAD. Comparar con [[#Inestable|Inestable]].}}
