@@ -53,9 +53,7 @@ Qt Designer es muy sencillo de usar. En la barra lateral izquierda, encontrará 
 
 # A continuación, añadiremos un botón ('''PushButton'''). Este es el botón que el usuario final deberá pulsar después de haber completado ambos campos.
 
-<div class="mw-translate-fuzzy">
-Ten en cuenta que he elegido aquí controles muy sencillos, pero Qt tiene muchas más opciones, por ejemplo, podría utilizar Spinboxes en lugar de LineEdits, etc. Echa un vistazo a lo que está disponible, seguramente tendrás otras ideas.
-</div>
+'''Nota:''' Aquí hemos optado por controles muy sencillos. Qt ofrece muchas más opciones; por ejemplo, se podrían usar '''Spinboxes''' en lugar de '''LineEdits''', etc. Échele un vistazo a las opciones disponibles, explore... seguro que se le ocurrirán otras opciones.
 
 <div class="mw-translate-fuzzy">
 Eso es prácticamente todo lo que necesitamos hacer en Qt Designer. Una última cosa, sin embargo, vamos a cambiar el nombre de todos nuestros elementos con nombres más adecuados, de modo que sea más fácil identificarlos en nuestros archivos de guión:
