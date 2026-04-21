@@ -22,10 +22,7 @@ Una de las principales funciones de FreeCAD es traducir la información geométr
 Open Inventor describe una escena 3D en forma de un [https://en.wikipedia.org/wiki/Scene_graph grafo de escena], como el que se muestra a continuación:
 
 [[Image:Scenegraph.gif]]
-<div class="mw-translate-fuzzy">
-[[Image:Scenegraph.gif]]
-image from [http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/index.html Inventor mentor]
-</div>
+{{Caption|Imagen tomada de [https://web.archive.org/web/20190807185912/http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/ Mentor de inventores]}}
 
 <div class="mw-translate-fuzzy">
 Una escena gráfica de openInventor describe todo lo que es parte de una escena 3D, como la geometría, colores, materiales, luces, etc, y organiza todos los datos en una estructura cómoda y clara. Todo puede agruparse en sub-estructuras, lo que te permite organizar los contenidos de tu escena más o menos de la forma que quiera. He aquí un ejemplo de un archivo de openInventor:
