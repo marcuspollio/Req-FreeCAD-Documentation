@@ -215,9 +215,7 @@ Eso es todo lo que necesita. Tenga en cuenta que algunas partes de su entorno de
 # Cargue la traducción en FreeCAD, por ejemplo: {{incode|FreeCADGui.addTranslationPath("/ruta/a/la/carpeta/que/contiene/el/archivo/qm")}}
 # Pruebe algo, por ejemplo: {{incode|FreeCAD.Qt.translate("tu contexto","alguna cadena")}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Result: This should give you the German translation. If this works, then the basic setup is OK. Then we can look at something else. For example, command names should always use a special context that is the name of the command as registered to FreeCAD.
-</div>
+Resultado: Esto debería proporcionarle la traducción al alemán. Si funciona, la configuración básica es correcta. Entonces podemos analizar otros aspectos. Por ejemplo, los nombres de los comandos siempre deben usar un contexto especial, que es el nombre del comando tal como está registrado en FreeCAD.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Important notes ===
