@@ -1,0 +1,66 @@
+<languages/>
+<translate>
+
+{{Docnav
+|[[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]]
+|[[FEM_MeshRegion|Mesh Refinement]]
+|[[FEM_Workbench|FEM]]
+|IconL=FEM_MeshGmshFromShape.svg
+|IconR=FEM_MeshRegion.svg
+|IconC=Workbench_FEM.svg
+}}
+
+{{GuiCommandContainer|
+{{GuiCommand
+|Name=FEM MeshTransfiniteSurface
+|MenuLocation=Mesh → GMSH Refinements → Structured Transfinite Surface
+|Workbenches=[[FEM_Workbench|FEM]]
+|Version=1.2
+|SeeAlso=[[FEM_tutorial|FEM tutorial]]
+}}
+{{GuiCommandFemInfo
+|Solvers=All
+}}
+}}
+
+==Description==
+
+The '''FEM MeshTransfiniteSurface''' command creates a structured mesh on a face.
+
+[[File:FEM_mesh_transfinite_surface_task_panel.PNG|400px]]
+{{Caption|Task panel of the MeshTransfiniteSurface tool}}
+
+==Usage==
+
+# To enable the command a [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
+# Select the Mesh object in the [[Tree_View|Tree View]].
+# There are several ways to invoke the command:
+#* Press the {{Button|[[Image:FEM_MeshTransfiniteSurface.svg|16px]] [[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]}} button.
+#* Select the {{MenuCommand|Mesh → GMSH Refinements → [[Image:FEM_MeshTransfiniteSurface.svg|16px]] Structured Transfinite Surface}} option from the menu.
+# Optionally, use the ''Recombine'' checkbox to enable recombination of triangular elements into quadrilateral ones.
+# If recombination is not enabled, select the triangle orientation: Left, Right, AlternateRight, AlternateLeft
+# Optionally, use the ''Auto apply transfinite curves'' checkbox and specify the number of nodes, distribution (Constant, Bump, Bump Inverted, Progression or Progression Inverted) and the corresponding coefficient.
+# Press the {{Button|Add}} button. Select a vertex or face. To remove objects from the selection, press the {{Button|Remove}} button.
+# Click the {{Button|OK}} button.
+# Close the task.
+#: Result: You now should see a new {{incode|TransfiniteSurface}} object under the {{incode|FEMMeshGmsh}} object in your active analysis container.
+# Double-click on the {{incode|FEMMeshGmsh}} parent object in your Model Tree and press {{Button|Apply}} to force a mesh recalculation.
+# Close the task.
+
+After the mesh has been created you can change its properties using the [[Property_View|Property View]]. After you changed a property, you must reopen the Gmsh dialog again and click the {{Button|Apply}} button. (You can leave the dialog open while changing properties.)
+
+You can create as many different transfinite surfaces as needed.
+
+
+{{Docnav
+|[[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]]
+|[[FEM_MeshRegion|Mesh Refinement]]
+|[[FEM_Workbench|FEM]]
+|IconL=FEM_MeshGmshFromShape.svg
+|IconR=FEM_MeshRegion.svg
+|IconC=Workbench_FEM.svg
+}}
+
+</translate>
+{{FEM_Tools_navi{{#translation:}}}}
+{{Userdocnavi{{#translation:}}}}
