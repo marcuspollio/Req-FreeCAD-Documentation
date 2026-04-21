@@ -391,9 +391,7 @@ Las características Path::Feature y Path::FeatureShape tienen una versión en P
 
 Los archivos de código G se pueden importar y exportar directamente a través de la interfaz gráfica de usuario (GUI), utilizando las opciones de menú '''Abrir''', '''Insertar''' o '''Exportar'''. Una vez obtenido el nombre del archivo, aparece un cuadro de diálogo que pregunta qué script de procesamiento se debe utilizar. También se puede hacer desde Python.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Path information is stored into Path objects using a subset of G-code described in the "FreeCAD's internal G-code format"section above. This subset can be imported or exported "as is", or converted to/from a particular version of G-code suited for your machine.
-</div>
+La información de la trayectoria se almacena en objetos Path mediante un subconjunto del código G descrito en la sección anterior "Formato interno del código G de FreeCAD". Este subconjunto se puede importar o exportar tal cual, o bien convertir a/desde una versión específica del código G compatible con su equipo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you have a very simple and standard G-code program, that complies to the rules described in the "FreeCAD's internal G-code format" section above, for example the boomerang from [https://www.cnccookbook.com/g-code-examples-files/ cnccookbook], it can be imported directly into a Path object, without translation (this is equivalent to using the "None" option of the GUI dialog):
