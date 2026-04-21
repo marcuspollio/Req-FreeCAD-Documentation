@@ -8,7 +8,7 @@
 {{TOCright}}
 
 <span id="Compilation_with_Pixi"></span>
-使用Pixi编译
+= 使用Pixi编译 =
 
 目前，编译 FreeCAD 最简捷的方式是使用 [https://pixi.sh/latest/ Pixi]。这个工具可以自动处理所有的依赖关系。详情可参阅 [https://freecad.github.io/DevelopersHandbook/gettingstarted/ Developers Handbook]。以下是在 Windows 上必需的步骤：
 # 下载并安装 [https://aka.ms/vs/17/release/vs_community.exe MS Visual Studio 2022 Community Edition], 勾选“Desktop development with C++”。
