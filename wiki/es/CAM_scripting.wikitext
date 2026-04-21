@@ -136,9 +136,7 @@ Se admiten comandos de código G distintos de los que aparecen en la tabla sigui
 <span id="The_Command_object"></span>
 == El objeto Comando ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The Command object represents a G-code command. It has three attributes: Name, Parameters and Placement, and two methods: toGCode() and setFromGCode(). Internally, it contains only a name and a dictionary of parameters. The rest (placement and gcode) is computed to/from this data.
-</div>
+El comando objeto representa un comando de código G. Tiene tres atributos: Nombre, Parámetros y Posición, y dos métodos: toGCode() y setFromGCode(). Internamente, solo contiene un nombre y un diccionario de parámetros. El resto (posición y código G) se calcula a partir de estos datos.
 
 {{Code|code=
 >>> import Path
