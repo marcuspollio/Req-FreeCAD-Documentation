@@ -174,7 +174,7 @@ Luego, debemos indicarle a Qt que conecte el botón a la función, colocando la 
 {{Code|code=
 QtCore.QObject.connect(self.create,QtCore.SIGNAL("pressed()"),self.createPlane)
 }}
-Como ves, esto conecta la señal pressed() de nuestro objeto create (el Botón "Create!"), a un slot llamado createPlane, que acabamos de definir. Eso es! Ahora, como toque final, podemos añadir una pequeña función para crear el cuadro de diálogo. Así será más fácil hacer las llamadas. Fuera de la clase Ui_Dialog, vamos a añadir este código:
+Como puede ver, esto conecta la señal pressed() de nuestro objeto create (el '''botón ¡Crear!''') a una ranura llamada '''createPlane''', que acabamos de definir. ¡Eso es todo! Ahora, como toque final, podemos agregar una pequeña función para crear el diálogo; será más fácil llamarla. Fuera de la clase '''Ui_Dialog''', agreguemos el siguiente código:
 {{Code|code=
 class plane():
    def __init__(self):
