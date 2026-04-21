@@ -337,9 +337,8 @@ Una característica importante de los compuestos de trayectoria es la posibilida
 
 Por lo tanto, al crear un compuesto con una sola ruta secundaria, se puede hacer que la ubicación de dicha ruta secundaria sea "real" (afecta a los datos de la ruta).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== The Path Project feature ===
-</div>
+<span id="The_Path_Project_feature"></span>
+=== Función del proyecto Trayectoria ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The Path project is an extended kind of Compound, that has a couple of additional machine-related properties such as a tooltable. It is made mainly to be the main object type you'll want to export to G-code once your whole path setup is ready. The Project object is now coded in Python, so its creation mechanism is a bit different:
