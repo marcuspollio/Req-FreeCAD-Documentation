@@ -115,7 +115,7 @@ Verá que suceden algunas cosas sorprendentes. Se abrirá un nuevo documento lla
 <span id="Something_more"></span>
 == Algo más ==
 
-¿No es asombroso? Sí, pero tenemos que empezar por algún lado, podemos hacer lo mismo con un [[Part_Cylinder|Cilindro]], agregando estas líneas de código después de la función {{incode|my_box()}} y antes de la línea: {{incode|# objects definition}}.
+¿No es asombroso? Sí, pero tenemos que empezar por algún lado. Podemos hacer lo mismo con un [[Part_Cylinder|Cilindro]], agregando estas líneas de código después de la función {{incode|my_box()}} y antes de la línea: {{incode|# objects definition}}.
 
 {{Code|code=
 def my_cyl(name, ang, rad, hei):
