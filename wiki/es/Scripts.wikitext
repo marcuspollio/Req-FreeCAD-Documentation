@@ -112,7 +112,8 @@ Verás algunas cosas mágicas, se abrirá un nuevo documento llamado "Wiki_examp
 
 [[File:Cubo.png|thumb|center|Test cube]]
 
-== Something more ==
+<span id="Something_more"></span>
+== Algo más ==
 
 Not that amazing? Yes, but we have to start somewhere, we can do the same thing with a [[Part_Cylinder|Cylinder]], add these lines of code after the {{incode|my_box()}} function and before the line: {{incode|# objects definition}}.
 
