@@ -70,9 +70,8 @@ obj.addProperty("App::PropertyBool", "MyProperty", "PropertyGroup", QT_TRANSLATE
 
 : No use su propio {{incode|"context"}} en este caso específico. Mantenga {{incode|"App::Property"}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== In InitGui.py ===
-</div>
+<span id="In_InitGui.py"></span>
+=== En InitGui.py ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Add the following line near the top of the file:
