@@ -12,7 +12,8 @@
 
 La geometría que aparece en las vistas 3D de FreeCAD se renderiza mediante la biblioteca Coin3D. Coin3D es una implementación del estándar Open Inventor. El software OpenCASCADE también ofrece la misma funcionalidad, pero en las primeras etapas de FreeCAD se decidió no utilizar el visor OpenCASCADE integrado, sino optar por el software Coin3D, de mayor rendimiento. Una buena manera de aprender sobre esta biblioteca es consultar el libro [http://www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/ Open Inventor Mentor].
 
-==Description==
+<span id="Description"></span>
+==Descripción==
 
 <div class="mw-translate-fuzzy">
 [http://en.wikipedia.org/wiki/Open_Inventor OpenInventor] es en realidad un lenguaje de descripción de escena 3D. La escena descrita en openInventor es seguidamente renderizada en la pantalla con OpenGL. Coin3d se encarga de hacer esto, por lo que el programador no tiene que lidiar con complejas llamadas a OpenGL, bastará con que le proporcione código OpenInventor válido. La gran ventaja es que openInventor es un estándard muy bien conocido y bien documentado.
