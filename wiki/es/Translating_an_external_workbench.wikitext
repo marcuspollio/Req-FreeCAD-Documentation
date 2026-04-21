@@ -16,9 +16,7 @@ En las siguientes notas, {{incode|"context"}} debe ser el nombre de su complemen
 * El texto que se imprime en {{incode|FreeCAD.Console}} se muestra en la "Vista de informe" y, por lo tanto, debe traducirse. La "Vista de informe" es diferente de la consola de Python.
 
 <span id="In_every_Python_.py_file"></span>
-<div class="mw-translate-fuzzy">
-=== En cada archivo Python .py: ===
-</div>
+=== En cada archivo .py de Python ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * In every file where you need to translate text, you need a {{incode|translate()}} function defined. It must be named exactly {{incode|translate}}: the string extractor relies on that exact name. You can use the fully-qualified name from Qt, but it's a little cleaner to use:
