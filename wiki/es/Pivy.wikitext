@@ -47,7 +47,7 @@ for node in sg.getChildren():
 
 Algunos de estos nodos, como {{incode|SoSeparator}} o {{incode|SoGroup}}, pueden tener nodos hijos. La lista completa de los objetos Coin disponibles se encuentra en la documentación oficial de Coin.
 
-Ahora vamos a tratar de añadir algo a nuestra escena gráfica. Vamos a añadir un bonito cubo rojo:
+Ahora, vamos a intentar añadir algo a nuestro grafo de escena. Añadiremos un bonito cubo rojo:
 
 {{Code|code=
 col = coin.SoBaseColor()
