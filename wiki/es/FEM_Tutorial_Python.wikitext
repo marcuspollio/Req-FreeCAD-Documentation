@@ -1,19 +1,16 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{TutorialInfo/es
 |Topic= Finite Element Analysis
 |Level= Intermediates
 |Time= 30 minutes
-|Author=[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
+|Author=[http://www.freecad.org/wiki/index.php?title=User:Berndhahnebach Bernd]
 |FCVersion=0.18.15985 or above
 |Files=
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Introduction ==
-</div>
+<span id="Introduction"></span>
+== Introducción ==
 
 <div class="mw-translate-fuzzy">
 == Introducción ==
@@ -550,8 +547,8 @@ if not message:
     fea.ccx_run()
     fea.load_results()
 else:
-    FreeCAD.Console.PrintError("Houston, we have a problem! {}\n".format(message))  # in report view
-    print("Houston, we have a problem! {}\n".format(message))  # in Python console
+    FreeCAD.Console.PrintError("Houston, we have a problem! {}\n".format(message))  # in Report View
+    print("Houston, we have a problem! {}\n".format(message))  # in Python Console
 
 ###
 }}
@@ -638,10 +635,8 @@ See forum posts:
 ==== Console mode ====
 </div>
 
-<div class="mw-translate-fuzzy">
 ===== Modo de consola =====
-Escribir el archivo de entrada en el modo de consola FreeCAD (sin Gui) se podría hacer en modo de prueba. Consulte la publicación del foro a este respecto: https://forum.freecadweb.org/viewtopic.php?f=22&t=25852&p=208897#p208897
-</div>
+Escribir el archivo de entrada en el modo de consola FreeCAD (sin Gui) se podría hacer en modo de prueba. Consulte la publicación del foro a este respecto: https://forum.freecad.org/viewtopic.php?f=22&t=25852&p=208897#p208897
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Appendix ==
@@ -653,6 +648,6 @@ Escribir el archivo de entrada en el modo de consola FreeCAD (sin Gui) se podrí
 </div>
 
 
-{{FEM Tools navi{{#translation:}}}}
+{{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
 [[Category:Python Code{{#translation:}}]]
