@@ -211,11 +211,9 @@ Eso es todo lo que necesita. Tenga en cuenta que algunas partes de su entorno de
 <span id="Testing_translations"></span>
 == Probando traducciones ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Switch FreeCAD to a language you have translated (for example German)
-# Load translation into FreeCAD, ex. {{incode|FreeCADGui.addTranslationPath("/path/to/the/folder/containing/qmfile")}}
-# Test something, for example {{incode|FreeCAD.Qt.translate("your context","some string")}}
-</div>
+# Cambie FreeCAD a un idioma que haya traducido (por ejemplo, alemán)
+# Cargue la traducción en FreeCAD, por ejemplo: {{incode|FreeCADGui.addTranslationPath("/ruta/a/la/carpeta/que/contiene/el/archivo/qm")}}
+# Pruebe algo, por ejemplo: {{incode|FreeCAD.Qt.translate("tu contexto","alguna cadena")}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Result: This should give you the German translation. If this works, then the basic setup is OK. Then we can look at something else. For example, command names should always use a special context that is the name of the command as registered to FreeCAD.
