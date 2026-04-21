@@ -11,9 +11,8 @@ Esta página es un glosario de términos y definiciones comunes en FreeCAD. (Ver
 
 Ir a la letra {{CompactTOC|center=yes}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==0-9==
-</div>
+<span id="0-9"></span>
+== 0-9 ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{gloss}}
@@ -39,7 +38,6 @@ Ir a la letra {{CompactTOC|center=yes}}
 ==B==
 </div>
 
-<div class="mw-translate-fuzzy">
 ==B==
 {{gloss}}
 {{term|term=Backtrace}}
@@ -57,7 +55,7 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{term|term=Boolean OPerations check}}
 {{defn|defn=See [[#BOPcheck|BOPcheck]].}}
 {{term|term=BOPcheck}}
-{{defn|defn=A setting that allows the Check Geometry tools in the Part WB and OpenSCAD WB to also check geometry made from [[#Boolean Logic|Boolean logic]]. The default setting is "false" (or off) but the user can enable it to provide more accuracy when running a Check Geometry, but this is at the expense of longer Check Geometry processing times.  The setting is enabled by navigating to Tools > Edit Parameters > Preferences folder > Mod folder > Part folder > Check geometry folder, then double-clicking "false" in the right pane, changing the value to "true", clicking the "OK" button, clicking the "Save to disk" button, then clicking the "Close" button.  A corresponding screen grab and description of how to enable BOPCheck is [http://forum.freecadweb.org/viewtopic.php?t=8031#p65914 in this forum post].}}
+{{defn|defn=A setting that allows the Check Geometry tools in the Part WB and OpenSCAD WB to also check geometry made from [[#Boolean Logic|Boolean logic]]. The default setting is "false" (or off) but the user can enable it to provide more accuracy when running a Check Geometry, but this is at the expense of longer Check Geometry processing times.  The setting is enabled by navigating to Tools > Edit Parameters > Preferences folder > Mod folder > Part folder > Check geometry folder, then double-clicking "false" in the right pane, changing the value to "true", clicking the "OK" button, clicking the "Save to disk" button, then clicking the "Close" button.  A corresponding screen grab and description of how to enable BOPCheck is [http://forum.freecad.org/viewtopic.php?t=8031#p65914 in this forum post].}}
 {{term|term=brep}}
 {{defn|defn=Native file format for [[#Open CASCADE|Open CASCADE]] and shared by a few applications. FreeCAD can save in *.brep format.}}
 {{term|term=B-rep}}
@@ -65,7 +63,6 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{term|term=B-spline}}
 {{defn|defn=A type of parametric curve. See [http://en.wikipedia.org/wiki/B-spline B-spline]}}
 {{glossend}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==C==
