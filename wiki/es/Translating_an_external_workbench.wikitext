@@ -234,9 +234,7 @@ https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslati
 <span id="Technical_details_and_advanced_usage"></span>
 == Detalles técnicos y uso avanzado ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In the above examples there are two separate functions being used: {{incode|translate()}} and {{incode|QT_TRANSLATE_NOOP}}. You may also run across {{incode|tr()}} and {{incode|QT_TR_NOOP}}, which automatically provide the "context" argument based on their calling location. These two pairs of functions are fundamentally different.
-</div> 
+En los ejemplos anteriores se utilizan dos funciones distintas: {{incode|translate()}} y {{incode|QT_TRANSLATE_NOOP}}. También es posible encontrar {{incode|tr()}} y {{incode|QT_TR_NOOP}}, que proporcionan automáticamente el argumento "context" según su ubicación de llamada. Estos dos pares de funciones son fundamentalmente diferentes. 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{incode|translate()}} and {{incode|tr()}} accomplish two separate tasks: at runtime they perform the actual translation from the string passed into them to the final translated string. This is true whether they are provided a literal string, or a variable, or a constant: the lookup is dynamic and real-time during the run of the code. However, they provide an additional non-runtime function: they are recognized by the {{incode|pylupdate}} utility. If (and only if) they contain a string literal, that literal is extracted by the utility. ONLY string literals are extracted by {{incode|pylupdate}} -- if a variable is passed it is ignored by the {{incode|pylupdate}} utility. Qt will attempt to provide a translation at runtime, but this will only work if some other piece of code called one of the translation functions with the literal string that needs to be translated, so that {{incode|pylupdate}} can extract it. Note that the code with the string literal need not actually ever execute, it must simply exist as a line of code in a file somewhere: {{incode|pylupdate}} performs no analysis or code execution, it is simply performing a string search and extraction.
