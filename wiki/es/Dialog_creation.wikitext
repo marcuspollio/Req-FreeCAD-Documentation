@@ -189,7 +189,7 @@ Luego, desde FreeCAD, solo necesitamos hacer lo siguiente:
 import mywidget
 myDialog = mywidget.plane()
 }}
-Y eso es todo amigos... Ahora puedes probar todo tipo de cosas, como por ejemplo insertar tu widget en la interfaz de FreeCAD (mira la página [[Code snippets/es|Pedazos de código]]), o la creación de herramientas personalizadas mucho más avanzado, mediante el uso de otros elementos en tu widget o complemento.
+Eso es todo, amigos... Ahora pueden probar todo tipo de cosas, como por ejemplo, insertar su widget en la interfaz de FreeCAD (consulte la página [[Code snippets|Fragmentos de código]]), o crear herramientas personalizadas mucho más avanzadas, utilizando otros elementos en su widget.
 
 ==  El archivo de guión completo ==
 
