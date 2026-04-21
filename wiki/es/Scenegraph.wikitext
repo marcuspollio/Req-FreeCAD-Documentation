@@ -70,9 +70,7 @@ print viewprovider.toString()
 
 }}
 
-<div class="mw-translate-fuzzy">
-Pero también tenemos un módulo de Python que permite un acceso completo a todo lo controlado por Coin3d, como la escena gráfica (scenegraph) de FreeCAD. Sigue leyendo en [[Pivy/es|Pivy]].
-</div>
+Pero también tenemos un módulo de Python que permite el acceso completo a todo lo gestionado por Coin3D, como nuestro grafo de escena de FreeCAD. Así que, debería continuar leyendo en [[Pivy|Pivy]].
 
 == Coding examples ==
 
