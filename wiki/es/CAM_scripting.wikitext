@@ -385,7 +385,7 @@ Asigne la forma de una pieza de alambre a un objeto Trayecto normal mediante la 
 Las características Path::Feature y Path::FeatureShape tienen una versión en Python, denominada respectivamente Path::FeaturePython y Path::FeatureShapePython, que se puede utilizar en código Python para crear objetos paramétricos más avanzados derivados de ellas.
 
 <span id="Importing_and_exporting_G-code"></span>
-== Importación y exportación de G-Code ==
+== Importar y exportar código G ==
 
 <span id="Native_format"></span>
 === Formato nativo ===
