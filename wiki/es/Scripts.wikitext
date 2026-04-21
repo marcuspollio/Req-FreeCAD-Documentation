@@ -179,7 +179,7 @@ Ejecute el script con la flecha verde y verá en la vista 3D algo como esto:
 <span id="Placement"></span>
 == Colocación ==
 
-Placement Concept is relatively complex, see [[Aeroplane|Aeroplane Tutorial]] for a more deep explanation.
+El concepto de colocación es relativamente complejo; consulte [[Aeroplane|Tutorial Aeroplano]] para obtener una explicación más detallada.
 
 We usually are in need of placing geometries with respect to each other, when building complex object this is a recurring task. The most common way is to use the geometry {{incode|Placement}} property.
 
