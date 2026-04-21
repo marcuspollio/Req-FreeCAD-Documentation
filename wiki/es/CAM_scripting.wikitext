@@ -428,9 +428,7 @@ import example_pre
 example_pre.insert("/path/to/myfile.ncc","DocumentName")
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In the same manner, you can output a Path object to G-code, using a post_processor script like this:
-</div>
+De la misma manera, puede generar un objeto Trayectoria (Path) en código G, utilizando un script posprocessor como este:
 
 {{Code|code=
 import example_post
