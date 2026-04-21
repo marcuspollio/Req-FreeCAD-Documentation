@@ -260,9 +260,7 @@ En este uso, en tiempo de ejecución el diccionario devuelto por esta función e
 }
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-There is no reference to any type of translation information. When FreeCAD actually displays this information to the user, the pseudo-code is:
-</div>
+No hay ninguna referencia a ningún tipo de información de traducción. Cuando FreeCAD muestra esta información al usuario, el pseudocódigo es:
 
 {{Code|code=
 for command in commands:
