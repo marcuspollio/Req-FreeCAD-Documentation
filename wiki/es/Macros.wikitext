@@ -10,7 +10,7 @@
 <span id="Introduction"></span>
 == Introducción ==
 
-[[Macros/es|Macros]] son una forma conveniente de reproducir acciones complejas en FreeCAD. Simplemente grabas las acciones mientras las realizas, luego guardas esas acciones con un nombre, y las reproduces cuando quieras. Como las macros son en realidad una lista de comandos [[Python/es|Python]], también puedes editarlas, y crear scripts muy complejos.
+Las [[Macros|Macros]] son una forma práctica de reproducir acciones complejas en FreeCAD. Sencillamente, grabe las acciones mientras las realiza, guárdeñas con un nombre y repítalas cuando quiera. Dado que las macros son en realidad una lista de comandos en Python, también puedes editarla y crear scripts muy complejos.
 
 <div class="mw-translate-fuzzy">
 Mientras que los scripts de Python normalmente tienen la extensión {{incode|.py}}, las macros de FreeCAD deben tener la extensión {{incode|.FCMacro}}. Una colección de macros escritas por usuarios experimentados se encuentra en la página [[macros recipes/es|recipes macros]].
