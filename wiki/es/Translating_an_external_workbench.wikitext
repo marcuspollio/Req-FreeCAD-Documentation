@@ -174,9 +174,7 @@ Es momento de traducir su archivo {{incode|.ts}}. Puede crear una cuenta en una 
 
 Si desea alojar su archivo en la cuenta FreeCAD Crowdin, póngase en contacto con [https://forum.freecad.org/memberlist.php?mode=viewprofile&u=68 Yorik] en el [https://forum.freecad.org/ FreeCAD forum].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Emphasis|Note:}} some platforms like Crowdin can integrate with GitHub and do all the process from points 2, 3 and 4 automatically. For that, you can't use the FreeCAD Crowdin account; you will need to set up your own account.
-</div>
+{{Emphasis|Nota:}} Algunas plataformas como Crowdin pueden integrarse con GitHub y realizar automáticamente todo el proceso de los puntos 2, 3 y 4. Para que esto sea posible, no podrá usar la cuenta de FreeCAD Crowdin; tendrá que crear su propia cuenta.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Merge the translations ==
