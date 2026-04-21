@@ -92,9 +92,8 @@ Aunque el lugar para reportar errores confirmados y sugerir nuevas funciones es 
 
 * Antes de enviar una solicitud de función, siempre coméntela primero con otros usuarios en el [Foro de discusión abierto: https://forum.freecad.org/viewforum.php?f=8], para que pueda llegar a una propuesta más sólida y con más posibilidades de interesar a un desarrollador para que la implemente. Recuerde que FreeCAD es desarrollado por voluntarios que dedican su tiempo libre a su desarrollo. Si bien todos se esfuerzan por crear la mejor aplicación posible, su informe de errores podría recibir baja prioridad o ser cancelado si no proporciona suficiente información. Asimismo, su solicitud de nuevas funciones podría posponerse o incluso ser rechazada si ningún desarrollador está interesado en implementarla o si implica una cantidad de trabajo excesiva.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Triage bugs ==
-</div>
+<span id="Triage_bugs"></span>
+== Errores de clasificación ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 There are dozens of bugs reported on [https://github.com/FreeCAD/FreeCAD/issues GitHub] weekly. It takes a lot of time to read them, categorize them, verify if the issue is reproducible, see if some easy actions can be done, or ask the person who posted the issue to provide more information. Helping to triage is easy, just head over the [https://github.com/FreeCAD/FreeCAD/issues GitHub] and start commenting on any issue where you think you might be able to help!
