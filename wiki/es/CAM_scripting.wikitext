@@ -394,7 +394,7 @@ Los archivos de código G se pueden importar y exportar directamente a través d
 
 La información de la trayectoria se almacena en objetos Path mediante un subconjunto del código G descrito en la sección anterior '''Formato interno del código G de FreeCAD'''. Este subconjunto se puede importar o exportar tal cual, o bien convertir a/desde una versión específica del código G compatible con su equipo.
 
-Si dispone de un programa de código G muy simple y estándar que cumpla con las reglas descritas en la sección anterior "Formato de código G interno de FreeCAD", por ejemplo el boomerang de [https://www.cnccookbook.com/g-code-examples-files/ cnccookbook], puede importarlo directamente a un objeto Path, sin traducción (esto equivale a utilizar la opción '''Ninguno''' del cuadro de diálogo de la GUI):
+Si dispone de un programa de código G muy simple y estándar que cumpla con las reglas descritas en la sección anterior '''Formato de código G interno de FreeCAD''', por ejemplo el boomerang de [https://www.cnccookbook.com/g-code-examples-files/ cnccookbook], puede importarlo directamente a un objeto Path, sin traducción (esto equivale a utilizar la opción '''Ninguno''' del cuadro de diálogo de la GUI):
 
 {{Code|code=
 import Path
