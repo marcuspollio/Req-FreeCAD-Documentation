@@ -17,7 +17,7 @@
 <span id="Introduction"></span>
 == Introducción ==
 
-With Scripting we mean create topological objects using FreeCAD's Python interpreter. FreeCAD could be used as a "very good" replacement of OpenSCAD, mainly because it has a real Python interpreter, that means that it has a real programming language on board, almost everything you could do with the GUI, is doable with a Python Script.
+Con el término "scripting" nos referimos a la creación de objetos topológicos mediante el intérprete de Python de FreeCAD. FreeCAD podría ser una excelente alternativa a OpenSCAD, principalmente porque cuenta con un intérprete de Python real, lo que significa que dispone de un lenguaje de programación integrado. Prácticamente, todo lo que se puede hacer con la interfaz gráfica de usuario (GUI) se puede realizar mediante un script de Python.
 
 Sadly information about scripting in the documentation, and even in this wiki are scattered around and lacks of "writing" uniformity and most of them are explained in a too technical manner.
 
