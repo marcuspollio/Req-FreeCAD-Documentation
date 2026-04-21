@@ -19,13 +19,13 @@ Este tutorial muestra cómo realizar un análisis de elementos finitos (FEA) sen
 <span id="Requirements"></span>
 == Requisitos ==
 
-<div class="mw-translate-fuzzy">
-=== Requisitos ===
-* Versión de FreeCAD -> Descripción general del tutorial correspondiente
-* Esto se puede verificar en el menú Ayuda -> acerca de FreeCAD.
-* Al pensar que debido a los cambios continuos en el módulo FEM, se recomienda utilizar la última instantánea de desarrollo de FreeCAD para los análisis FEM con guión en Python.
-* Un módulo de configuración FEM. Marque [[FEM_CalculiX_Cantilever_3D]]
-</div>
+* La versión compatible de FreeCAD, tal como se indica en la descripción general del tutorial.
+
+*: Utilice {{MenuCommand|Ayuda → Acerca de FreeCAD}} para ver la versión de FreeCAD instalada.
+
+* '''Nota importante:''' Debido al desarrollo continuo de [[Image:Workbench_FEM.svg|32px]] [[FEM_Workbench|Entorno de trabajo FEM]], se recomienda utilizar la última versión de desarrollo de FreeCAD, especialmente para análisis FEM con scripts de Python.
+
+* Un entorno de trabajo FEM funcional. Ejecute el análisis [[FEM_CalculiX_Cantilever_3D|FEM CalculiX Cantilever 3D]] para comprobarlo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Let's start ==
