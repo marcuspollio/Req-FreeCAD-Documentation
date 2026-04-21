@@ -559,11 +559,9 @@ Se intentó programar el objeto de malla Netgen en el [https://forum.freecad.org
 
 ===== GMSH =====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-On the contrary, the GMSH mesh object fully supports Python scripting. See the following forum posts: 
-* https://forum.freecad.org/viewtopic.php?f=22&t=42922#p365042  
-* forum topic https://forum.freecad.org/viewtopic.php?f=18&t=20087
-</div>
+Por el contrario, el objeto de malla GMSH es totalmente compatible con la programación en Python. Consulte las siguientes publicaciones del foro:
+* https://forum.freecad.org/viewtopic.php?f=22&t=42922#p365042
+* Tema del foro: https://forum.freecad.org/viewtopic.php?f=18&t=20087
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Scripting multiple analysis ====
