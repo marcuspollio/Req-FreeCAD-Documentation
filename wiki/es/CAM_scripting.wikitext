@@ -319,9 +319,7 @@ Tooltable containing 2 tools
 <span id="The_Path_Compound_feature"></span>
 === La función Trayectoria Compuesta ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The aim of this feature is to gather one or more toolpaths and associate it (them) with a tooltable. The Compound feature also behaves like a standard FreeCAD group, so you can add or remove objects to/from it directly from the Tree View. You can also reorder items by double-clicking the Compound object in the Tree View, and reorder its elements in the Task view that opens.
-</div>
+El objetivo de esta función es agrupar una o más trayectorias de herramienta y asociarlas a una tabla de herramientas. La función Compuesto se comporta como un grupo estándar de FreeCAD, por lo que puede añadir o eliminar objetos directamente desde la Vista de árbol. También puede reordenar los elementos haciendo doble clic en el objeto Compuesto en la Vista de árbol y reordenar sus elementos en la Vista de tareas que se abre.
 
 {{Code|code=
 >>> import Path
