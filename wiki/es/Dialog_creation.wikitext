@@ -268,14 +268,12 @@ class plane():
 <span id="More_examples"></span>
 == Más ejemplos ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Dialog_creation_with_various_widgets|Dialog creation with various widgets]] with {{incode|QPushButton}}, {{incode|QLineEdit}}, {{incode|QCheckBox}}, {{incode|QRadioButton}}, and others.
-* [[Dialog_creation_reading_and_writing_files|Dialog creation reading and writing files]] with {{incode|QFileDialog}}.
-* [[Dialog_creation_setting_colors|Dialog creation setting colors]] with {{incode|QColorDialog}}.
-* [[Dialog_creation_image_and_animated_GIF|Dialog creation image and animated GIF]] with {{incode|QLabel}} and {{incode|QMovie}}.
-* [[PySide_usage_snippets|PySide usage snippets]].
-* [[Qt_Example|Qt Example]]
-</div>
+* [[Dialog_creation_with_various_widgets|Creación de diálogos con]] {{incode|QPushButton}}, {{incode|QLineEdit}}, {{incode|QCheckBox}}, {{incode|QRadioButton}}, y otros.
+* [[Dialog_creation_reading_and_writing_files|Creación de diálogos, lectura y escritura de archivos]] con {{incode|QFileDialog}}.
+* [[Dialog_creation_setting_colors|Colores de configuración de creación de diálogo]] con {{incode|QColorDialog}}.
+* [[Dialog_creation_image_and_animated_GIF|Imagen de creación de diálogo y GIF animado]] con {{incode|QLabel}} y {{incode|QMovie}}.
+* [[PySide_usage_snippets|Fragmentos de uso de PySide]].
+* [[Qt_Example|Ejemplo de Qt]]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Relevant links ==
