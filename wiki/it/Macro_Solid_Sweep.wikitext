@@ -27,9 +27,6 @@ Nella seguente figura tutte le estrusioni sono realizzate utilizzando la stessa 
 <span id="Usage"></span>
 == Utilizzo ==
 
-<div class="mw-translate-fuzzy">
-== Utilizzo ==
-
 # Creare due elementi 2D del tipo indicato sotto, uno per la sezione e uno per la traiettoria.
 # Selezionare, nella  [[Tree view/it|Vista ad albero]] del progetto o nella [[3D view/it|Vista 3D]], prima la traiettoria e poi il profilo. ('''L'ordine è importante!'''):
 ## La traiettoria
@@ -38,7 +35,6 @@ Nella seguente figura tutte le estrusioni sono realizzate utilizzando la stessa 
 # Selezionare la '''Solid Sweep''' macro
 # Cliccare {{Button|Esegui}}
 '''Risultato:''' Un oggetto '''Sweep''' viene creato nella struttura del progetto
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Supported 2D elements ==
