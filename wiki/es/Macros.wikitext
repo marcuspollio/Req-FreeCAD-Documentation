@@ -50,7 +50,7 @@ Ver [[Customize_Toolbars|Personalizar Barras de Herramientas]] para una descripc
 <span id="Creating_macros_without_recording"></span>
 == Creación de macros sin grabación ==
 
-También puedes copiar/pegar directamente código python en una macro, sin grabar acciones de la interfaz gráfica de usuario. Basta con crear una nueva macro, editarla, y pegar el código. A continuación, puedes guardar la macro del mismo modo que se guarda un documento de FreeCAD. La próxima vez que se inicie FreeCAD, la macro aparecerá bajo el apartado "Macros instaladas" del menú Macro.
+También puede copiar y pegar código Python directamente en una macro, sin necesidad de grabar la acción de la interfaz gráfica. Simplemente, cree una nueva macro, edítela y pegue su código. Luego, puede guardar la macro del mismo modo que guarda un documento de FreeCAD. La próxima vez que inicie FreeCAD, la macro aparecerá en la sección "Macros instaladas" del menú Macro.
 
 <div class="mw-translate-fuzzy">
 Ver [[How to install macros/es|Cómo instalar las macros]] para obtener una descripción más detallada.
