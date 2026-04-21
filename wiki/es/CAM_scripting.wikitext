@@ -44,9 +44,7 @@ Dentro de los archivos .FCStd, los datos de ruta se guardan directamente en ese 
 Todas las traducciones de dialectos a código G de FreeCAD se realizan mediante scripts previos y posteriores. Esto significa que si desea trabajar con una máquina que utiliza un controlador LinuxCNC, Fanuc, Mitsubishi o HAAS específico, deberá usar (o escribir, si no existe) un posprocesador para ese controlador en particular (consulte la sección "Importación y exportación de código G" a continuación).
 
 <span id="G-code_Reference"></span>
-<div class="mw-translate-fuzzy">
-=== Referencia GCode ===
-</div>
+=== Referencia de código G ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The following rules and guidelines define the G-code subset used internally in FreeCAD:
