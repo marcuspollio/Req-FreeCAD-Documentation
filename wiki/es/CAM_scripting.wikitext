@@ -389,9 +389,7 @@ Las características Path::Feature y Path::FeatureShape tienen una versión en P
 <span id="Native_format"></span>
 === Formato nativo ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-G-code files can be directly imported and exported via the GUI, by using the "open", "insert" or "export" menu items. After the file name is acquired, a dialog pops up to ask which processing script must be used. It can also be done from Python:
-</div>
+Los archivos de código G se pueden importar y exportar directamente a través de la interfaz gráfica de usuario (GUI), utilizando las opciones de menú '''Abrir''', '''Insertar''' o '''Exportar'''. Una vez obtenido el nombre del archivo, aparece un cuadro de diálogo que pregunta qué script de procesamiento se debe utilizar. También se puede hacer desde Python.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Path information is stored into Path objects using a subset of G-code described in the "FreeCAD's internal G-code format"section above. This subset can be imported or exported "as is", or converted to/from a particular version of G-code suited for your machine.
