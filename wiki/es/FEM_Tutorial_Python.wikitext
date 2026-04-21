@@ -12,10 +12,7 @@
 <span id="Introduction"></span>
 == Introducción ==
 
-<div class="mw-translate-fuzzy">
-== Introducción ==
-Este ejemplo pretende mostrar cómo Python realiza un simple Análisis de elementos finitos (FEA) en FreeCADs [[FEM_Workbench|FEM Workbench]]. El modelo de [[FEM_CalculiX_Cantilever_3D]] se tomará para este ejemplo.
-</div>
+Este tutorial muestra cómo realizar un análisis de elementos finitos (FEA) sencillo en FreeCAD [[Image:Workbench_FEM.svg|32px]] [[FEM_Workbench|FEM Workbench]] utilizando Python. Para este ejemplo, se utilizará el modelo del tutorial [[FEM_CalculiX_Cantilever_3D|FEM CalculiX Cantilever 3D]].
 
 [[Image:FEM_example01_pic00.jpg|700px]]
 
