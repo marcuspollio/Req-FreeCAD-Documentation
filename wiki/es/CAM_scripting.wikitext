@@ -54,11 +54,9 @@ Los datos de código G, dentro de los objetos de ruta de FreeCAD, se dividen en 
 G0 X2.5 Y0 (El nombre del comando es G0, los argumentos son X=2.5 e Y=0)
 </pre>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 <pre>
-G1 X30 (The command name is G1, the only argument is X=30)
+G1 X30 (El nombre del comando es G1, el único argumento es X=30)
 </pre>
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 <pre>
