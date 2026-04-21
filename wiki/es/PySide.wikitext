@@ -18,7 +18,8 @@ La forma recomendada de importar PySide (de cualquier versión) en FreeCAD es:
 from PySide import QtCore, QtGui, QtWidgets
 }}
 
-==Qt & PySide versions==
+<span id="Qt_&amp;_PySide_versions"></span>
+==Versiones Qt y PySide==
 
 * Version 1.0 of Qt was released in mid 1990’s
 * Version 4.0 of Qt was released in 2005 and the 4.x series was officially retired in 2015
