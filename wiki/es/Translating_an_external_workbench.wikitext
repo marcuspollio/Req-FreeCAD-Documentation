@@ -2,9 +2,7 @@
 
 En las siguientes notas, {{incode|"context"}} debe ser el nombre de su complemento o entorno de trabajo, por ejemplo, {{incode|"MySuperAddon"}} o {{incode|"DraftPlus"}}, o cualquier otro. Aquí importa el uso de mayúsculas: {{incode|"Context"}} no es lo mismo que {{incode|"context"}}, por ejemplo. El contexto permite que todas las traducciones de su código se agrupen bajo el mismo nombre, para que los traductores puedan identificarlas más fácilmente. Es decir, sabrán exactamente a qué complemento o entorno de trabajo pertenece una cadena de texto en particular.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''Note''': Here is an all-in-one script that automates the complete procedure mentioned below (you are still advised to read the procedure to know what the script should do, though): https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py
-</div>
+'''Nota''': Aquí tiene un script todo en uno que automatiza el procedimiento completo mencionado a continuación (aunque se recomienda leer el procedimiento para saber qué debe hacer el script): https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py
 
 <span id="Preparing_the_sources"></span>
 == Preparando las fuentes ==
