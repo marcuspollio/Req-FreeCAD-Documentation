@@ -283,25 +283,23 @@ Ir a la letra {{CompactTOC|center=yes}}
 <span id="O"></span>
 == O ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{gloss}}
 {{term|OCC}}
-{{defn|defn=Acronym for [[#Open_CASCADE|Open CASCADE]]. Prior to being open sourced, it used to be named CAS.CADE (abbreviated from Computer Aided Software for Computer Aided Design and Engineering).}}
+{{defn|defn=Acrónimo de [[#Open_CASCADE|Open CASCADE]]. Antes de ser de código abierto, se llamaba CAS.CADE (abreviatura de Computer Aided Software for Computer Aided Design and Engineering).}}
 {{term|OCE}}
-{{defn|defn='''O'''pen CASCADE '''C'''ommunity '''E'''dition. It provides patches, improvements and experiments contributed by users over the official [[#Open_CASCADE|Open CASCADE]] library. FreeCAD is known to work on either OCC or OCE.}}
+{{defn|defn='Edición de la comunidad Open CASCADE. Proporciona parches, mejoras y experimentos aportados por los usuarios sobre la biblioteca oficial de [[#Open_CASCADE|Open CASCADE]]. Se sabe que FreeCAD funciona tanto con OCC como con OCE.}}
 {{term|OCCT}}
-{{defn|defn=Open CASCADE Technology. See [[#OCC|OCC]].}}
+{{defn|defn=Tecnología Open CASCADE. Ver [[#OCC|OCC]].}}
 {{term|Open CASCADE|content=[http://www.opencascade.org Open CASCADE]}}
-{{defn|defn=The [[#Geometric_modeling_kernel|geometric modeling kernel]] (software library) underlying FreeCAD. Also called [[#OCC|OCC]] or [[#OCCT|OCCT]] (for Open CASCADE Technology). See also [[#OCE|OCE]].}}
+{{defn|defn=El [[#Geometric_modeling_kernel|núcleo de modelado geométrico]] (biblioteca de software) subyacente a FreeCAD. También llamado [[#OCC|OCC]] o [[#OCCT|OCCT]] (por Open CASCADE Technology). Ver también [[#OCE|OCE]].}}
 {{term|OpenSCAD|content=[http://www.openscad.org/ OpenSCAD]}}
-{{defn|no=1|defn=Name of a script-only based CAD program.}}
-{{defn|no=2|defn=A [[#Workbench|workbench]] in FreeCAD. The [[OpenSCAD_Workbench|OpenSCAD]] [[#Workbench|workbench]] provides an interface for import/export of *.scad and *.csg models, as well as a some utility tools.}}
+{{defn|no=1|defn=Nombre de un programa CAD basado únicamente en scripts.}}
+{{defn|no=2|defn=Un [[#Workbench|entorno de trabajo]] en FreeCAD. El [[OpenSCAD_Workbench|OpenSCAD]] [[#Workbench|workbench]] proporciona una interfaz para importar/exportar modelos *.scad y *.csg, así como algunas herramientas de utilidad.}}
 {{term|Origin}}
-{{defn|defn=The center of the coordinate system. Everything goes out from here in either the positive or negative directions. As is our view of the universe with Earth being the “origin”.}}
+{{defn|defn=El centro del sistema de coordenadas. Todo se extiende desde aquí en direcciones positivas o negativas. Como nuestra visión del universo, con la Tierra como el "origen".}}
 {{term|Orthographic}}
-{{defn|defn=See [https://en.wikipedia.org/wiki/Orthographic_projection Orthographic projection] and [https://en.wikipedia.org/wiki/Multiview_orthographic_projection Multiview orthographic projection].}}
+{{defn|defn=Véase [https://en.wikipedia.org/wiki/Orthographic_projection Proyección ortográfica] y [https://en.wikipedia.org/wiki/Multiview_orthographic_projection Proyección ortográfica multivista].}}
 {{glossend}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==P==
