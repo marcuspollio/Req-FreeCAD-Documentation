@@ -386,7 +386,7 @@ Lenguaje de programación utilizado en el desarrollo de FreeCAD, así como en ma
 {{defn|defn=Término genérico utilizado en FreeCAD para describir la mayoría de los elementos (excepto las [[#Mesh|mallas]]).}}
 {{term|Shell}}
 {{defn|defn=Forma compuesta por dos o más [[#Face|caras]] contiguas. Una [[#Manifold|variedad]] (encapsulada) se puede convertir en un [[#Solid|sólido]].}}
-{{term|Boceto}}
+{{term|Sketcher}}
 {{definición|definición=Representación bidimensional restringida de un objeto fijo a un plano o una [[#Cara|Cara]]. En FreeCAD, un boceto siempre es un objeto bidimensional ubicado en algún lugar del espacio tridimensional.}}
 {{term|Sketcher|content=[[Sketcher_Workbench|Sketcher]]}}
 {{defn|defn=Un [[#Workbench|entorno de trabajo]] utilizado para crear geometría bidimensional mediante [[#Element|elementos]] y [[#Constraint|restricciones]].}}
