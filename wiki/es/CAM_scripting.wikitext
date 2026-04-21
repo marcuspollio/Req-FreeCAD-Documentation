@@ -62,17 +62,21 @@ G1 X30 (El nombre del comando es G1, el único argumento es X=30)
 G90 (El comando se llama G90 y no tiene argumentos)
 </pre>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* For the numeric part of a G or M command, both "G1" or "G01" forms are supported.
-* Only commands starting with G or M are supported at the moment.
-* Only millimeters are accepted at the moment. G20/G21 are ignored.
-* Arguments are always sorted alphabetically. This means that if you create a command with "G1 X2 Y4 F300", it will be stored as "G1 F300 X2 Y4"
-* Arguments cannot be repeated inside a same command. For example, "G1 X1 Y2 X2 Y3" will not work. You will need to split it into two commands, for example: "G1 X1 Y2, G1 X2 Y3"
-* X, Y, Z, A, B, C arguments are absolute or relative, depending on the current G90/G91 mode. Default (if not specified) is absolute.
-* I, J, K are always relative to the last point. K can be omitted.
-* X, Y, or Z (and A, B, C) can be omitted. In this case, the previous X-, Y- or Z-coordinates are maintained.
-* G-code commands other than the ones listed in the table below are supported, that is, they are saved inside the path data (as long as they comply to the rules above, of course), but they simply won't produce any visible result on screen. For example, you could add a G81 command, it will be stored, but not displayed.
-</div>
+* Para la parte numérica de un comando G o M, se admiten las formas "G1" y "G01".
+
+* Por el momento, solo se admiten comandos que comiencen con G o M.
+
+* Por ahora, solo se aceptan milímetros. G20/G21 se ignoran.
+
+* Los argumentos siempre se ordenan alfabéticamente. Esto significa que si crea un comando con "G1 X2 Y4 F300", se almacenará como "G1 F300 X2 Y4".
+
+* Los argumentos no se pueden repetir dentro del mismo comando. Por ejemplo, "G1 X1 Y2 X2 Y3" no funcionará. Deberá dividirlo en dos comandos, por ejemplo: "G1 X1 Y2, G1 X2 Y3".
+
+* Los argumentos X, Y, Z, A, B y C son absolutos o relativos, según el modo G90/G91 actual. Por defecto (si no se especifica), son absolutos.
+
+* I, J y K siempre son relativos al último punto. Se puede omitir K. Se pueden omitir X, Y o Z (y A, B, C). En este caso, se mantienen las coordenadas X, Y o Z anteriores.
+
+Se admiten comandos de código G distintos de los que aparecen en la tabla siguiente; es decir, se guardan dentro de los datos de la trayectoria (siempre que cumplan las reglas anteriores, por supuesto), pero no producirán ningún resultado visible en pantalla. Por ejemplo, se puede añadir un comando G81; se almacenará, pero no se mostrará.
 
 <span id="List_of_currently_supported_G-code_commands"></span>
 <div class="mw-translate-fuzzy">
