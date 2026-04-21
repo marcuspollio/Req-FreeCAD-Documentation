@@ -79,9 +79,7 @@ obj.addProperty("App::PropertyBool", "MyProperty", "PropertyGroup", QT_TRANSLATE
 from PySide.QtCore import QT_TRANSLATE_NOOP
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-: The {{incode|QT_TRANSLATE_NOOP}} function doesn't do anything, but it marks texts to be picked up by the {{incode|lupdate}} utility later on. We only use it in special cases where FreeCAD itself takes care of everything.
-</div>
+La función {{incode|QT_TRANSLATE_NOOP}} no hace nada, pero marca los textos que la utilidad {{incode|lupdate}} procesará posteriormente. Solo la utilizamos en casos especiales donde FreeCAD se encarga de todo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * To translate menu and toolbar names use the word {{incode|"Workbench"}} as the context:
