@@ -31,15 +31,13 @@
 ==Usage==
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Before starting the tool, create a page with the selected template and add a view.
-# There are several ways to invoke the tool:
-#* Press the {{Button|[[Image:TechDraw_FillTemplateFields.svg|16px]] [[TechDraw_FillTemplateFields|Update Template Fields]]}} button.
-#* Select the {{MenuCommand|TechDraw → Page → [[Image:TechDraw_FillTemplateFields.svg|16px]] Update Template Fields}} option from the menu.
-# The ''Fill Template Fields in Page'' window will appear.
-# Deselect the ''Update'' checkboxes next to fields that you don't want to update. You can also use the ''Update All'' checkbox to enable and disable all fields. Optionally, edit the strings shown on the right if you want to modify the data taken from document information.
-# Press {{Button|Ok}} to update the fields or {{Button|Cancel}} to discard the changes.
-</div>
+# 在启动该工具前，先使用选定的模板创建一个页面并添加一个视图。
+# 调用该工具有多种方式：
+#* 点击 {{Button|[[Image:TechDraw_FillTemplateFields.svg|16px]] [[TechDraw_FillTemplateFields|更新模板字段]]}} 按钮。
+#* 从菜单中选择 {{MenuCommand|TechDraw → 页面 → [[Image:TechDraw_FillTemplateFields.svg|16px]] 更新模板字段}} 选项。
+# 将会弹出“在页面中填充模板字段”窗口。
+# 取消勾选不需要更新的字段旁的“更新”复选框。你也可以使用“全部更新”复选框来一次性启用或禁用所有字段。如有需要，还可编辑右侧显示的文本，修改从文档信息中提取的数据。
+# 点击 {{Button|确定}} 以更新字段，或点击 {{Button|取消}} 放弃更改。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Notes==
