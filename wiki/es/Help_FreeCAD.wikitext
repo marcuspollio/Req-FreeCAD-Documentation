@@ -105,15 +105,20 @@ Consulte las páginas [[Artwork|Artwork]] y [[Artwork_Guidelines|Directrices par
 <span id="Write_code"></span>
 == Escriba el código ==
 
-Escribir código para FreeCAD no es difícil, y no necesitas ningún tipo de permiso, puedes empezar ahora mismo a trabajar en algo que quieras, luego [https://github.com/FreeCAD/FreeCAD/issues issue tracker] o solicitar una fusión desde una rama de Git. Pero para evitar algunos dolores de cabeza deberías conocer primero los siguientes prerequisitos:
+Escribir código para FreeCAD no es difícil y no necesita ningún permiso. Puede empezar ahora mismo a trabajar en lo que quiera y luego enviar un parche al [https://github.com/FreeCAD/FreeCAD/issues] o solicitar una fusión desde una [https://github.com/FreeCAD git branch]. Para evitar problemas, debe cumplir con los siguientes requisitos previos:
 
-* Información de [[Developer_hub/es#Compilando_FreeCAD|como compilar FreeCAD]] está disponible para diferentes sistemas operativos.
-* Antes de que empieces a programar para FreeCAD, debes conocer como funciona FreeCAD. Esto parece obvio, pero si no sabes como se supone que trabaja no podrás saber que hacer internamente o como hacerlo.
-* Casi todo se puede hacer en Python o C++. El trabajo interno casi siempre es en estos lenguajes. Sugerimos que leas las páginas de los [[Power_users_hub/es|Usuarios avanzados]], incluso si vas a programar en C++, ya que te dará una buena visión de su funcionamiento interno.
-* Si vas a trabajar en C++, asegúrate antes de que puedes compilar FreeCAD sin problemas.
-* Preséntate a otros desarrolladores. FreeCAD es antes de nada un proyecto social, discutimos un montón de asuntos en los [http://forum.freecad.org foros] antes de implementarlo, y siempre es mejor discutir tus ideas y decirle a la gente lo que tienes planeado hacer antes de hacerlo. También tenemos un [irc://chat.freenode.net/freecad canal de IRC], pero el foro es el principal y único sitio en el que encontraras a todos los desarrolladores.
-* Desde 2016, FreeCAD participa en el [[Google_Summer_of_Code_2020|Google Summer of Code 2020]]. Asegúrate de checar nuestras ideas si estás interesado en participar en la siguiente edición.
-* Cada vez más funciones de FreeCAD no están escritas en el código de FreeCAD en sí, sino en complementos, macros y extensiones.  En conjunto, este ecosistema es lo que hace que FreeCAD sea poderoso.  A menudo, trabajar en un complemento es más fácil porque hay menos código que leer y comprender, y menos personas involucradas.  Consulte el [https://github.com/FreeCAD/FreeCAD-addons repositorio de complementos] y el [https://github.com/FreeCAD/FreeCAD-macros repositorio de macros] para obtener algunas ideas.
+* Hay información [[Developer_hub#Compiling_FreeCAD|cómo compilar FreeCAD]] disponible para diferentes sistemas operativos.
+
+* Antes de empezar a programar para FreeCAD, debe saber cómo funciona. Esto parece obvio, pero si no sabe cómo se supone que funciona, no sabrá qué hacer internamente ni cómo hacerlo.
+
+* Casi todo se puede hacer tanto en Python como en C++. El funcionamiento interno es prácticamente el mismo en ambos lenguajes. Le sugerimos que lea las páginas del [[Power_users_hub|centro de usuarios avanzados]], incluso si va a programar en C++, ya que le darán una buena visión general del funcionamiento interno.
+
+* Si va a trabajar con C++, asegúrase primero de poder compilar FreeCAD sin problemas.
+
+* Preséntese a otros desarrolladores. FreeCAD es, ante todo, un proyecto social. Debatimos mucho en el foro [https://forum.freecad.org] antes de implementarlo, y siempre es mejor compartir tus ideas y explicar sus planes antes de llevarlos a cabo. También contamos con un canal IRC [https://wiki.freecad.org/Help#Chat] sincronizado con nuestro canal [https://matrix.to/#/#FreeCAD_FreeCAD:gitter.im Matrix], así como un canal de Discord [https://discord.gg/w2cTKGzccC].
+
+* Desde 2016, FreeCAD participa en [[Google_Summer_of_Code_2020|Google Summer of Code 2020]]. Consulte nuestras ideas allí si le interesa participar en la próxima edición.
+Cada vez más funcionalidades de FreeCAD no están escritas en el código fuente de FreeCAD, sino en complementos, macros y extensiones. Este ecosistema es lo que hace que FreeCAD sea tan potente. A menudo, trabajar en un complemento es más sencillo porque hay menos código que leer y comprender, y menos personas involucradas. ¡Consulte los repositorios [https://github.com/FreeCAD/FreeCAD-addons Addons repository] y [https://github.com/FreeCAD/FreeCAD-macros Macros repository] para inspirarse!
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Create models ==
