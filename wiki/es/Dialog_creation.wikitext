@@ -99,9 +99,7 @@ Para crear el archivo por lotes '''compSide.bat''':
 {{Code|code=
 @"C:\Python27\python" "C:\Python27\Lib\site-packages\PySide\scripts\uic.py" %1.ui > %1.py
 }}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In the DOS console type without extension
-</div>
+En la consola de DOS escriba sin extensión:
 {{Code|code=
 compSide myUiFile
 }}
