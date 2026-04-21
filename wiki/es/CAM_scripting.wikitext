@@ -58,11 +58,9 @@ G0 X2.5 Y0 (El nombre del comando es G0, los argumentos son X=2.5 e Y=0)
 G1 X30 (El nombre del comando es G1, el único argumento es X=30)
 </pre>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 <pre>
-G90 (The command name is G90, there are no arguments)
+G90 (El comando se llama G90 y no tiene argumentos)
 </pre>
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * For the numeric part of a G or M command, both "G1" or "G01" forms are supported.
