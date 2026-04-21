@@ -170,9 +170,7 @@ rm translations/uifiles.ts
 <span id="Send_the_.ts_file_to_a_translation_platform"></span>
 == Enviar el archivo .ts a una plataforma de traducción ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-It is time to have your {{incode|.ts}} file translated. You can choose to set up an account on a public translation platform such as [https://crowdin.com/ Crowdin] or [https://www.transifex.com/ Transifex], or you can benefit from our existing [https://crowdin.com/project/freecad-addons FreeCAD-addons account at Crowdin], which has many users already, and therefore more chance to have your file translated quickly and by people who know FreeCAD.
-</div>
+Es momento de traducir su archivo {{incode|.ts}}. Puede crear una cuenta en una plataforma de traducción pública como [https://crowdin.com/ Crowdin] o [https://www.transifex.com/ Transifex], o puede aprovechar nuestra cuenta existente [https://crowdin.com/project/freecad-addons FreeCAD-addons en Crowdin], que ya cuenta con muchos usuarios, lo que aumenta las posibilidades de que su archivo sea traducido rápidamente por personas que conocen FreeCAD.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you wish to host your file on the FreeCAD Crowdin account, get in touch with [https://forum.freecad.org/memberlist.php?mode=viewprofile&u=68 Yorik] on the [https://forum.freecad.org/ FreeCAD forum].
