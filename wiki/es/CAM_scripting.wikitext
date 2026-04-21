@@ -435,9 +435,8 @@ import example_post
 example_post.export (myObjectName,"/path/to/outputFile.ncc")
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Writing processing scripts ===
-</div>
+<span id="Writing_processing_scripts"></span>
+=== Escritura de scripts de procesamiento ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Pre- and post-processing scripts behave like other common FreeCAD imports/exporters. When choosing a pre/post processing script from the dialog, the import/export process will be redirected to the specified given script.  Preprocessing scripts must contain at least the following methods open(filename) and insert(filename,docname).  Postprocessing scripts need to implement export(objectslist,filename).
