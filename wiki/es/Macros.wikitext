@@ -57,9 +57,7 @@ Para una descripción más detallada consulte [[How to install macros/es|cómo i
 <span id="Macro_repositories"></span>
 == Repositorio de Macros ==
 
-<div class="mw-translate-fuzzy">
-Visita la página [[Macros recipes/es|Recetas de macros]] para recoger algunas macros útiles para añadir a tu instalación de FreeCAD.
-</div>
+Existen dos fuentes principales de macros. La primera es el repositorio oficial de macros revisado por pares en [https://github.com/FreeCAD/FreeCAD-macros GitHub]. La segunda es la página [[Macros_recipes|Recetas de Macros]], donde puede seleccionar macros útiles para añadir a su instalación de FreeCAD. Las macros de ambos repositorios se pueden instalar directamente desde FreeCAD mediante el [[Std_AddonMgr|Administrador de Complementos]].
 
 <span id="Additional_information"></span>
 == Información adicional ==
