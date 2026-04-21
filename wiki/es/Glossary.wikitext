@@ -251,22 +251,20 @@ Ir a la letra {{CompactTOC|center=yes}}
 <span id="M"></span>
 == M ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{gloss}}
 {{term|Macro}}
-{{defn|defn=A saved sequence of FreeCAD instructions, often written by end users.}}
+{{defn|defn=Secuencia guardada de instrucciones de FreeCAD, a menudo escrita por los usuarios finales.}}
 {{term|Manifold}}
-{{defn|defn=Said of a [[#Shape|shape]] that forms a perfectly enclosed volume. A familiar synonym that gives a good description is "watertight". To generate a solid, a [[#Shell|shell]] must be manifold.}}
+{{defn|defn=Se dice de una [[#Shape|forma]] que define un volumen perfectamente cerrado. Un sinónimo común que la describe bien es "estanque". Para generar un sólido, una [[#Shell|estructura]] debe ser manifold.}}
 {{term|Mantis}}
-{{defn|defn=[[#Tracker|Bug tracking system]] used by the FreeCAD project.}}
+{{defn|defn=[[#Tracker|Sistema de seguimiento de errores]] utilizado por el proyecto FreeCAD.}}
 {{term|Mesh}}
-{{defn|defn=Type of object that can be imported or created by FreeCAD. See [https://en.wikipedia.org/wiki/Polygon_mesh Polygon mesh] for more details.}}
+{{defn|defn=Tipo de objeto que puede importar o crear FreeCAD.}} Consulte [https://en.wikipedia.org/wiki/Polygon_mesh Malla poligonal] para obtener más detalles.
 {{term|Model}}
-{{defn|defn=Also called 3D model. Computer representation of a three-dimensional [[#Part|part]] or [[#Assembly|assembly]].}}
+{{defn|defn=También llamado modelo 3D. Representación informática de una [[#Part|pieza]] o [[#Assembly|ensamblaje]] tridimensional.}}
 {{term|MultiTransform|content=[[PartDesign_MultiTransform|MultiTransform]]}}
-{{defn|defn=Stands for multiple transformation. A [[#Feature|feature]] from the [[PartDesign_Workbench|PartDesign]] [[#Workbench|workbench]] that applies a series of chained transformations (linear and circular pattern, mirrored) to selected features.}}
+{{defn|defn=Significa transformación múltiple. Una [[#Feature|característica]] del [[PartDesign_Workbench|PartDesign]] [[#Workbench|entorno de trabajo]] que aplica una serie de transformaciones encadenadas (patrón lineal y circular, simétrico) a las características seleccionadas.}}
 {{glossend}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==N==
