@@ -243,9 +243,7 @@ p = Path.Path()
 p.setFromGCode(lines)
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-As a shortcut, a Path object can also be created directly from a full G-code sequence. It will be divided into a sequence of commands automatically.
-</div>
+Como atajo, también se puede crear un objeto Path directamente a partir de una secuencia completa de código G. Este se dividirá automáticamente en una secuencia de comandos.
 
 {{Code|code=
 >>> p = Path.Path("G0 X2 Y2 G1 X0 Y2")
