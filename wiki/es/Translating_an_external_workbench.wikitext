@@ -187,9 +187,7 @@ Una vez que su archivo {{incode|.ts}} haya sido traducido, aunque sea parcialmen
 <span id="Compile_the_translations"></span>
 == Compilar las traducciones ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Now run the {{incode|lrelease}} program on each file that you have:
-</div>
+Ahora ejecute el programa {{incode|lrelease}} en cada archivo que tenga:
 
 {{Code|code=
 lrelease "translations/Draft_de.ts"
