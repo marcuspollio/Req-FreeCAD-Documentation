@@ -94,7 +94,8 @@ trabajo Mesh]] para trabajar con mallas trianguladas.
 
 * [[Image:Workbench_Test.svg|32px]] El [[Testing|banco de Trabajo del Prueba Estructura del marco]] es para depurar FreeCAD.
 
-===Macros===
+<span id="Macros"></span>
+=== Macros ===
 
 [[Macros/es|Macros]] son fragmentos relativamente pequeños de código [[Python/es|Python]] que realizan una tarea simple o compleja que no está disponible en el sistema base de FreeCAD.
 
