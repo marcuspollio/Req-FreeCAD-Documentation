@@ -231,9 +231,8 @@ Simplemente copie y adapte ese script para su entorno de trabajo:
 
 https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Technical details and advanced usage ==
-</div>
+<span id="Technical_details_and_advanced_usage"></span>
+== Detalles técnicos y uso avanzado ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In the above examples there are two separate functions being used: {{incode|translate()}} and {{incode|QT_TRANSLATE_NOOP}}. You may also run across {{incode|tr()}} and {{incode|QT_TR_NOOP}}, which automatically provide the "context" argument based on their calling location. These two pairs of functions are fundamentally different.
