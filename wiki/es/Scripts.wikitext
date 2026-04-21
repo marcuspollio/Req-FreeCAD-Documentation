@@ -321,7 +321,7 @@ Placement [Pos=(0, -21, 21), Yaw-Pitch-Roll=(0, 0, -90)]
 
 ¿Qué ha pasado?
 
-FreeCAD has translated the {{incode|Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, tail_position)}} in other words our {{incode|Placement}} definition that specifies three components, '''Translation''', '''Rotation''' and '''center of rotation''' in the "internal" values of only two components, '''Translation''' and '''Rotation'''.
+FreeCAD ha traducido la definición {{incode|Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, tail_position)}} en otras palabras, nuestra definición {{incode|Placement}} que especifica tres componentes, '''Traslación''', '''Rotación''' y '''centro de rotación''' en los valores "internos" de solo dos componentes, '''Translación''' y '''Rotación'''.
 
 you can easily visualize the value of {{incode|tail_position}} using a print statement in the {{incode|airplane()}} function and see that it is:
 
