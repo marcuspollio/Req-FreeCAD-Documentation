@@ -50,9 +50,7 @@ Si desea saber cómo comenzó FreeCAD hace años, visite la página [[History|Hi
 
 Los [[Workbenches|Entornos de trabajo]] son ​​conjuntos de herramientas que se utilizan para tareas específicas. Los entornos de trabajo que se enumeran a continuación se incluyen con cada instalación de FreeCAD.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.1}}: Some rarely used workbenches are disabled by default. These are marked with {{Incode|D}} below. A disabled workbench can be enabled in the [[Preferences_Editor#Workbenches|preferences]]. Disabled workbenches can still be activated via the {{Button|[[Image:List-add.svg|x16px]][[Image:Toolbar_flyout_arrow.svg|x16px]]}} menu of [[Std_Workbench|TabBar Workbench selector]].
-</div>
+{{Version|1.1}}: Algunos entornos de trabajo poco utilizados están deshabilitados por defecto. Estos están marcados con {{Incode|D}} más abajo. Un entorno de trabajo deshabilitado se puede habilitar en [[Preferences_Editor#Workbenches|Preferencias]]. Los entornos de trabajo deshabilitados aún se pueden activar a través del menú {{Button|[[Image:List-add.svg|x16px]][[Image:Toolbar_flyout_arrow.svg|x16px]]}} de [[Std_Workbench|Selector de la barra de pestañas del banco de trabajo]].
 
 <!--Please keep this list consistent with Online_Help_Toc and Workbenches-->
 * [[Image:Freecad.svg|32px]] [[Std_Base/es|Herramientas estándar]]. Estos comandos y herramientas están presentes en todos los bancos de trabajo.
