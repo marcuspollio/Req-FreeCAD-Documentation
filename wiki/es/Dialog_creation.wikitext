@@ -149,7 +149,7 @@ Lo que haremos aquí será diseñar una nueva función que creará un plano en f
 {{Code|code=
 import FreeCAD, Part
 }}
-ahora, añadamos una nueva función a nuestra clase Ui_Dialog:
+A continuación, agreguemos una nueva función a nuestra clase '''Ui_Dialog''':
 {{Code|code=
 def createPlane(self):
     try:
