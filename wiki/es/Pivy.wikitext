@@ -88,10 +88,7 @@ Para mover nuestro cubo ahora podemos hacer lo siguiente:
 trans.translation.setValue([2, 0, 0])
 }}
 
-<div class="mw-translate-fuzzy">
-Y nuestro cubo saltaría 2 unidades a la derecha.
-Por último, para eliminar algo se hace con:
-</div>
+Finalmente, la eliminación de algo se lleva a cabo con:
 
 {{Code|code=
 sg.removeChild(myCustomNode)
