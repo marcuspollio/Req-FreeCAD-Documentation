@@ -195,9 +195,7 @@ lrelease "translations/Draft_fr.ts"
 lrelease "translations/Draft_pt-BR.ts"
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You can automate the process:
-</div>
+Puede automatizar el proceso:
 
 {{Code|code=
 for f in translations/*_*.ts
