@@ -414,9 +414,7 @@ myfile.write(text)
 myfile.close()
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If you need a different output, though, you will need to convert this agnostic G-code into a format suited for your machine. That is the job of post-processing scripts.
-</div>
+Si necesita un formato de salida diferente, tendrá que convertir ese código G genérico a un formato compatible con su máquina. Esa es la función de los scripts de posprocesamiento.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Using pre- and post-processing scripts ===
