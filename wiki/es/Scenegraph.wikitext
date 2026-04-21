@@ -78,9 +78,10 @@ Pero también tenemos un módulo de Python que permite el acceso completo a todo
 Consulte [[Coin3d_snippets|los fragmentos de código de Coin3D]], cortesía de la investigación de MariwanJ para el [[Design456_Workbench|entorno de trabajo Design456]]. El repositorio del código se encuentra en https://github.com/MariwanJ/COIN3D_Snippet.
 {{Top}}
 
-<div class="mw-translate-fuzzy">
-{{docnav/es|Mesh to Part/es|Pivy/es}}
-</div>
+{{Docnav
+|[[Scripted_objects|Objetos con script]]
+|[[Pivy|Pivy]]
+}}
 
 {{Powerdocnavi{{#translation:}}}}
 [[Category:Developer Documentation{{#translation:}}]]
