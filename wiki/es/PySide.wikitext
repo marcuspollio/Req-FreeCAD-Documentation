@@ -93,7 +93,7 @@ my_check_box = QtWidgets.QCheckBox()
 
 Los ejemplos de PySide se dividen en tres partes, diferenciadas según el nivel de familiarización con PySide, Python y el funcionamiento interno de FreeCAD. La primera página ofrece una descripción general de PySide; la segunda y la tercera contienen principalmente ejemplos de código de distintos niveles.
 
-It is expected that these examples are useful to get started, and afterwards the user can consult other resources online, or the official documentation.
+Se espera que estos ejemplos sean útiles para empezar y, más adelante, el usuario podrá consultar otros recursos en línea o la documentación oficial.
 {{Top}}
 ==Documentation==
 
