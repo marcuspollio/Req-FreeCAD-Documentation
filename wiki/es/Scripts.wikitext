@@ -156,7 +156,7 @@ def fuse_obj(name, obj_0, obj_1):
     return obj
 }}
 
-Nothing exceptional also here; however, note the uniformity in function coding. This approach is more linear than those seen around other tutorials on scripting, this "linearity" helps greatly in readability and also with cut-copy-paste operations.
+Nada excepcional aquí tampoco; sin embargo, cabe destacar la uniformidad en la codificación de las funciones. Este enfoque es más lineal que el que se observa en otros tutoriales de scripting, y esta linealidad facilita enormemente la legibilidad y las operaciones de cortar, copiar y pegar.
 
 Let's use the geometries: delete lines below the code section starting with {{incode|# objects definition}}, and insert the following lines:
 
