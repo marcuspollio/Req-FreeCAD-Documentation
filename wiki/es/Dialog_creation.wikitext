@@ -170,7 +170,7 @@ def createPlane(self):
         Part.show(myface)
         self.hide()
 }}
-A continuación, tenemos que informar a Qt para que conecte el botón con la función, mediante la colocación de la siguiente línea justo antes de QtCore.QMetaObject.connectSlotsByName(Dialog):
+Luego, debemos indicarle a Qt que conecte el botón a la función, colocando la siguiente línea justo antes de QtCore.QMetaObject.connectSlotsByName(Dialog):
 {{Code|code=
 QtCore.QObject.connect(self.create,QtCore.SIGNAL("pressed()"),self.createPlane)
 }}
