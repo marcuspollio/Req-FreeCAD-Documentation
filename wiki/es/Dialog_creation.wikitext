@@ -7,9 +7,8 @@
 
 {{TOCright}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Introduction ==
-</div>
+<span id="Introduction"></span>
+== Introducción ==
 
 <div class="mw-translate-fuzzy">
 En esta página vamos a mostrar cómo crear un simple letrero de diálogo con [http://qt-project.org/doc/qt-4.8/designer-manual.html Qt Designer], la herramienta oficial de Qt para el diseño de interfaces, después lo convertiremos en código de Python, para luego utilizarlo en FreeCAD. Vamos a suponer en el ejemplo que ya sabes cómo editar y ejecutar archivos de guión de Python, y que puedes hacer cosas simples en una ventana de terminal, como navegar, etc. También debes tener, por supuesto, PyQt instalado.
