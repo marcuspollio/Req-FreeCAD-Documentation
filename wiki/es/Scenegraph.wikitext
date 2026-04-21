@@ -51,9 +51,7 @@ Separator {
 }
 }}
 
-<div class="mw-translate-fuzzy">
-Como puedes ver, la estructura es muy simple. Utiliza separadores para organizar los datos en bloques, parecido a como harías al organizar tus archivos en carpetas. Cada declaración afecta a lo que viene después, por ejemplo los dos primeros puntos de nuestro separador raíz son una rotación y una traslación, todo ello afectará al siguiente elemento, que es un separador. En ese separador, se define un material y otra transformación. Nuestro cilindro por lo tanto se verá afectado por las dos transformaciones, la que le fue aplicada directamente, y la que se aplicó al separador que le contiene.
-</div>
+Como puede apreciar, la estructura es muy simple. Se utilizan separadores para organizar los datos en bloques, de forma similar a como se organizan los archivos en carpetas. Cada instrucción afecta a la siguiente; por ejemplo, los dos primeros elementos de nuestro separador raíz son una rotación y una traslación, y ambos afectarán al siguiente elemento, que es otro separador. En este separador se define un material y otra transformación. Por lo tanto, nuestro cilindro se verá afectado por ambas transformaciones: la que se le aplica directamente y la que se aplicó a su separador padre.
 
 <div class="mw-translate-fuzzy">
 También tenemos muchos otros tipos de elementos para organizar nuestra escena, como los grupos, conmutadores o anotaciones. Podemos definir materiales muy complejos para nuestros objetos, con el color, las texturas, los modos de sombreado y transparencia. También podemos definir las luces, cámaras, e incluso movimiento. También es posible integrar pedazos de secuencias de comandos en los archivos de openInventor, para definir comportamientos más complejos.
