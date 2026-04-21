@@ -30,7 +30,7 @@ Hay algunos conceptos clave para diseñar interfaces:
 
 * Separar comandos de parámetros: Esto se suele hacer con botones y campos de texto. El usuario sabe que al hacer clic en un botón se ejecutará una acción, mientras que al cambiar un valor en un campo de texto se modificará un parámetro. Hoy en día, los usuarios suelen saber bien qué es un botón, qué es un campo de entrada, etc. El kit de herramientas de interfaz que estamos utilizando, Qt, es de última generación, y no tendremos que preocuparnos mucho por aclarar las cosas, ya que estarán muy claras por sí mismas.
 
-Así que, ahora que tenemos bien definido lo que haremos, es el momento para abrir el diseñador de Qt Designer. Diseñemos un letrero de diálogo muy sencillo, como este:
+Ahora que ya hemos definido bien lo que se pretende hacer, es hora de abrir el diseñador de Qt. Vamos a diseñar un diálogo tan sencillo como este:
 
 [[Image:Qttestdialog.jpg]]
 
