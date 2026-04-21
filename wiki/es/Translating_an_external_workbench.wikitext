@@ -18,9 +18,7 @@ En las siguientes notas, {{incode|"context"}} debe ser el nombre de su complemen
 <span id="In_every_Python_.py_file"></span>
 === En cada archivo .py de Python ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* In every file where you need to translate text, you need a {{incode|translate()}} function defined. It must be named exactly {{incode|translate}}: the string extractor relies on that exact name. You can use the fully-qualified name from Qt, but it's a little cleaner to use:
-</div>
+* En cada archivo donde necesite traducir texto, debe definir una función {{incode|translate()}}. Debe llamarse exactamente {{incode|translate}}: el extractor de cadenas se basa en ese nombre exacto. Puede usar el nombre completo de Qt, pero es un poco más limpio usar:
 
 : {{Code|code=
 import FreeCAD
