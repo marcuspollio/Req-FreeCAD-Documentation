@@ -484,9 +484,7 @@ Este ejemplo se basa en una discusión [https://forum.freecad.org/viewtopic.php?
 <span id="The_code"></span>
 === El código ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The following code will then add all faces from ShapeString and create the paths:
-</div>
+El siguiente código agregará todas las caras de ShapeString y creará las rutas:
 
 {{Code|code=
 doc = App.ActiveDocument
