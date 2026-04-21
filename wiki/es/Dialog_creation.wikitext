@@ -69,9 +69,7 @@ En Windows, pyuic.py se encuentra en '''C:\Python27\Lib\site-packages\PyQt4\uic\
 {{Code|code=
 @"C:\Python27\python" "C:\Python27\Lib\site-packages\PyQt4\uic\pyuic.py" -x %1.ui > %1.py
 }}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In the DOS console type without extension
-</div>
+En la consola de DOS escriba sin extensión:
 {{Code|code=
 compQt4 myUiFile
 }}
