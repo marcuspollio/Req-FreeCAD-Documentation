@@ -104,7 +104,7 @@ analysis_object.addObject(force_constraint)
 
 Esta sección contiene el código de la malla FEM. Expándalo para ver el contenido.
 
-'''Nota:''' Consulte la sección [[#Additional_Information|Información adicional]] a continuación para saber cómo generar la malla mediante scripts con GMSH o el objeto de malla Netgen.
+'''Nota:''' A continuación consulte la sección [[#Additional_Information|Información adicional]] para saber cómo generar la malla mediante scripts con GMSH o el objeto de malla Netgen.
 
 <div class="mw-collapsible-content">
 {{Code|code=
