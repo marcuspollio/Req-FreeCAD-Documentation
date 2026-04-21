@@ -225,10 +225,9 @@ Resultado: Esto debería proporcionarle la traducción al alemán. Si funciona, 
 <span id="Convenience_script"></span>
 == Script de conveniencia ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Yorik maintains a convenience script for the BIM workbench, that can gather, upload and download ts files.
-You can just copy and adapt that script for your workbench:
-</div>
+Yorik mantiene un script práctico para el entorno de trabajo BIM que permite recopilar, cargar y descargar archivos .ts.
+
+Simplemente copie y adapte ese script para su entorno de trabajo:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py
