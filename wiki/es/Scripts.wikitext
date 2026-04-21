@@ -194,17 +194,18 @@ Pero, por encima de otras consideraciones, un aspecto crucial es, el '''punto de
 {| class="wikitable" border="1"
 !Object!!Reference Point
 |-
-|Part.Box ||left (minx), front (miny), bottom (minz) vertex
+|Part.Box ||vértice izquierdo (minx), frontal (miny), inferior (minz)
 |-
-|Part.Sphere||center of the sphere
+|Part.Sphere ||centro de la esfera
 |-
-|Part.Cylinder||center of the bottom face
+|Part.Cylinder ||centro de la cara inferior
 |-
-|Part.Cone||center of bottom face (or apex if bottom radius is 0)
+|Part.Cone ||centro de la cara inferior (o vértice si el radio inferior es 0)
 |-
-|Part.Torus||center of the torus
+|Part.Torus ||centro del toroide
 |-
-|Features derived from Sketches||the Feature inherits the Position of the underlying Sketch. Sketches always start with Position = (0, 0, 0). This position corresponds to the origin in the sketch.
+|Funciones derivadas de bocetos ||la función hereda la posición del boceto subyacente. Los bocetos siempre comienzan con la posición = (0, 0, 0). Esta posición corresponde al origen en el boceto.
+
 |}
 
 This information has to be kept in mind especially when we have to apply a rotation.
