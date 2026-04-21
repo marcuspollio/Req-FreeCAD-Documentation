@@ -154,10 +154,9 @@ pylupdate *.py -ts translations/pyfiles.ts
 lconvert -i translations/uifiles.ts translations/pyfiles.ts -o translations/MyModule.ts
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Check the contents of the three {{incode|.ts}} files to make sure that they contain the strings, then you can delete both {{incode|pyfiles.ts}} and {{incode|uifiles.ts}}.
-* You can do it all in one bash script like this:
-</div>
+* Compruebe el contenido de los tres archivos {{incode|.ts}} para asegurarse de que contienen las cadenas; luego puede eliminar tanto {{incode|pyfiles.ts}} como {{incode|uifiles.ts}}.
+
+* Puede hacerlo todo en un script bash como este:
 
 : {{Code|code=
 #!/bin/sh
