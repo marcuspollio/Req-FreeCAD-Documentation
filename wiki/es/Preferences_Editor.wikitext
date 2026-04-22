@@ -96,7 +96,7 @@ La imagen se puede cambiar agregando las carpetas {{FileName|Gui/Images}} en la 
 
 {{FileName|$HOME/.FreeCAD}} (en Linux) o
 
-{{FileName|$HOME/Library/Preferences/FreeCAD}} (on macOS).
+{{FileName|$HOME/Library/Preferences/FreeCAD}} (en macOS).
 
 Place a file named {{FileName|background.png}} in the {{FileName|Images}} folder, and uncheck/check this option to see the changed file.
 |-
