@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[FEM_MeshNetgenFromShape/pl|Siatka MES generowana przez Netgen]]
 |[[FEM_MeshBoundaryLayer/pl|Warstwa przyścienna siatki MES]]
@@ -8,6 +9,7 @@
 |IconR=FEM_MeshBoundaryLayer.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{GuiCommandContainer|
 {{GuiCommand/pl
@@ -125,6 +127,7 @@ Dolny lewy róg: rekombinacja na powierzchni i w objętości przy pomocy algoryt
 Dolny prawy róg: rekombinacja na powierzchni i w objętości przy pomocy algorytmu '''Simple full-quad'''}}
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[FEM_MeshNetgenFromShape/pl|Siatka MES generowana przez Netgen]]
 |[[FEM_MeshBoundaryLayer/pl|Warstwa przyścienna siatki]]
@@ -133,6 +136,7 @@ Dolny prawy róg: rekombinacja na powierzchni i w objętości przy pomocy algory
 |IconR=FEM_MeshBoundaryLayer.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
