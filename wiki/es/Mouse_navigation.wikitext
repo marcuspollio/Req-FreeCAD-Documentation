@@ -21,9 +21,7 @@ Para obtener más información sobre cómo manipular objetos, consulte [[Std_Tra
 
 # Realiza una de las siguientes acciones:
 #* Pulsa el botón {{Button|[[File:NavigationCAD_dark.svg|16px]]}} en la [[Status_bar|Barra de estado]].
-
 #* Haz clic derecho en un área vacía de la [[3D_view|Vista 3D]] y selecciona {{MenuCommand|Estilos de navegación}} en el menú contextual.
-
 #* Usa el [[Preferences_Editor#Navigation|Editor de preferencias]]. En el menú, selecciona {{MenuCommand|Editar → Preferencias}} y luego {{MenuCommand|Visualización → Navegación → Navegación 3D}}.
 # Selecciona un estilo de la lista.
 # Opcionalmente, cambie el estilo {{MenuCommand|Orbit}}: pulse el botón {{Button|[[File:NavigationCAD_dark.svg|16px]]}} en la [[Status_bar|Status bar]] y, a continuación, seleccione {{MenuCommand|Settings → Orbit style}}. Consulte [[Preferences_Editor#Navigation|Preferences Editor]].
