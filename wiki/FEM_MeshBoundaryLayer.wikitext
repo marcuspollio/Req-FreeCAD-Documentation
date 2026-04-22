@@ -57,20 +57,8 @@ After the mesh has been created you can change its properties using the [[Proper
 <!--T:15-->
 You can create as many different mesh boundary layers as needed.
 
-==Visual examples== <!--T:16--> 
-
-<!--T:17-->
-[[File:FEMMeshBoundaryLayer Example1.png.png|300px]]
-{{Caption|Example 1: The initial coarse FEMMeshGMSH on a 2D case}}
-
-
-<!--T:18-->
-[[File:FEMMeshBoundaryLayer Example2.png.png|300px]]
-{{Caption|Example 2: After applying a Mesh boundary layer}}
-
-<!--T:19-->
-[[File:FEMMeshBoundaryLayer Example3.png.png|300px]]
-{{Caption|Example 3: A simple example of the resulting Model Tree}}
+[[File:FEM_boundary_layer_2D.PNG|500px]]
+{{Caption|Example of a 2D boundary layer around a hole}}
 
 
 <!--T:5-->
