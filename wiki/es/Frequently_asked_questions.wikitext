@@ -185,9 +185,7 @@ Consulte la página [[Workarounds|Soluciones alternativas]].
 
 La teoría es simple: las líneas (o alambres), al ser extruidas, forman caras. Las caras, al ser extruidas, forman sólidos.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If you extrude something and the result is not a solid, then the something was not a face. If you have lines and you want to extrude a solid from them, you must first select lines that form a closed perimeter (select several objects by pressing {{KEY|Ctrl}}), join them into a wire ([[Draft_Upgrade|Draft Upgrade]] tool), then make a face from that wire ([[File:Draft_Upgrade.svg|16px]] [[Draft_Upgrade|Draft Upgrade]] tool again). There you are, if all went well you can now extrude it to a solid.
-</div>
+Si extruye algo y el resultado no es un sólido, entonces ese algo no era una cara. Si tiene líneas y quieres extrui un sólido a partir de ellas, primero debe seleccionar líneas que formen un perímetro cerrado (seleccione varios objetos pulsando {{KEY|Ctrl}}), unirlas en un alambre ([[Draft_Upgrade|Actualización de borrador]] herramienta), y luego cree una cara a partir de ese alambre ([[File:Draft_Upgrade.svg|16px]] [[Draft_Upgrade|actualización de borrador]] herramienta). Listo, si todo salió bien, ahora puedes extruirlo para convertirlo en un sólido.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Now, there can be many little twists that make you obtain the wrong result. The best way to make sure is to check what's inside the object you are extruding. Objects contents can be easily explored with python. Assuming for example you have an object called "Wire", you could type this into the Python console:
