@@ -131,7 +131,7 @@ Figure 11 Deformed Mesh.png|link=[[FEM_Shear_of_a_Composite_Block]]|[[FEM_Shear_
 
 Femconcrete_Wall_3D_rx_PSS.png|link=[[Analysis_of_reinforced_concrete_with_FEM]]|[[Analysis_of_reinforced_concrete_with_FEM|Análisis de hormigón armado con el Método de Elementos Finitos (MEF)]] (v0.19) <br/>Calcular en una estructura de hormigón el nivel de refuerzo necesario para evitar fallos de fragilidad por tensiones o fuerzas cortantes.
 
-Two_balls_result_2-cropped.png|link=[[FEM_Example_Capacitance_Two_Balls]]|[[FEM_Example_Capacitance_Two_Balls|Electrostatic equation – Capacitance of two balls]] (v0.19)<br/>Este ejemplo muestra cómo simular una capacitancia. Ilustra cómo configurar el ejemplo, estudiar sus diferentes partes, resolverlo usando el [[FEM_SolverElmer|Elmer Solver]] y visualizar los resultados usando el [[FEM_PostFilterClipRegion|Clip Filter]].
+Two_balls_result_2-cropped.png|link=[[FEM_Example_Capacitance_Two_Balls]]|[[FEM_Example_Capacitance_Two_Balls|Ecuación electrostática – Capacitancia de dos esferas]] (v0.19)<br/>Este ejemplo muestra cómo simular una capacitancia. Ilustra cómo configurar el ejemplo, estudiar sus diferentes partes, resolverlo usando el [[FEM_SolverElmer|Elmer Solver]] y visualizar los resultados usando el [[FEM_PostFilterClipRegion|Clip Filter]].
 
 FEM_post-processing_Paraview.png|link=[[Post-Processing_of_FEM_Results_with_Paraview]]|[[Post-Processing_of_FEM_Results_with_Paraview|Post-Processing of FEM results with Paraview]] (v0.19)<br/>Este tutorial explica los aspectos básicos de la transferencia de datos desde FEM Workbench a Paraview y muestra algunas de las opciones y configuraciones para la visualización de datos.
 
