@@ -179,9 +179,7 @@ Si '''*blocks''' está marcada, también se importarán los bloques anónimos (c
 | {{MenuCommand|Crear}}
 | Seleccione lo que se creará.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If '''simple Part shapes''' is selected, only standard Part objects will be created. This is the fastest.
-</div>
+Si se selecciona '''Formas de piezas simples''', solo se crearán objetos de piezas estándar. Esta es la opción más rápida.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If '''Draft objects''' is selected, parametric Draft objects will be created whenever possible.
