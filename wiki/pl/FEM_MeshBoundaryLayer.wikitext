@@ -9,12 +9,11 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
 {{GuiCommand/pl
 |Name=FEM MeshBoundaryLayer
 |Name/pl=MES: Warstwa przyścienna siatki MES
-|MenuLocation=Siatka → Warstwa przyścienna siatki
+|MenuLocation=Siatka → Zagęszczenia GMSH → Warstwa przyścienna 2D
 |Workbenches=[[FEM_Workbench/pl|MES]]
 |SeeAlso=[[FEM_tutorial/pl|Poradnik MES]]
 }}
@@ -22,7 +21,6 @@
 |Solvers=Wszystkie
 }}
 }}
-</div>
 
 <span id="Description"></span>
 ==Opis==
