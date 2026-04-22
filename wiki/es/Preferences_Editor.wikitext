@@ -1021,41 +1021,49 @@ Estas preferencias controlan el comportamiento del [[Std AddonMgr|Administrador 
 En esta página puede especificar lo siguiente:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Automatically check for updates at start (requires git)}}
-| If checked, the Addon manager will check for updates when it is launched. Git must be installed for this to work.
+| {{MenuCommand|Buscar actualizaciones automáticamente al inicio (requiere git)}}
+| Si está marcada, el administrador de complementos buscará actualizaciones al iniciarse. Git debe estar instalado para que esto funcione.
+
 |-
-| {{MenuCommand|Download Macro metadata (approximately 10MB)}}
-| If checked, macro metadata is downloaded for display in the Addon manager's main addon listing. This data is cached locally.
+| {{MenuCommand|Descargar metadatos de macros (aproximadamente 10 MB)}}
+| Si está marcada, se descargan los metadatos de las macros para mostrarlos en la lista principal de complementos del administrador de complementos. Estos datos se almacenan en caché localmente.
+
 |-
-| {{MenuCommand|Cache update frequency}}
-| Controls the frequency with which the locally cached addon availability and metadata information is updated. The options are:
-* '''Manual (no automatic updates)'''
-* '''Daily'''
-* '''Weekly'''
+| {{MenuCommand|Frecuencia de actualización de caché}}
+| Controla la frecuencia con la que se actualiza la disponibilidad de los complementos y la información de metadatos almacenada en caché localmente. Las opciones son:
+* '''Manual (sin actualizaciones automáticas)'''
+* '''Diario'''
+* '''Semanal'''
 |-
-| {{MenuCommand|Hide Addons without license}} {{Version|1.0}}
-| If checked, addons without a license are not included in the listing.
+| {{MenuCommand|Ocultar complementos sin licencia}} {{Version|1.0}}
+| Si está marcada, los complementos sin licencia no se incluyen en la lista.
+
 |-
-| {{MenuCommand|Hide Addons with non-FSF Free/Libre license}} {{Version|1.0}}
-| If checked, addons with a Free/Libre license not published by the [https://www.fsf.org/licensing Free Software Foundation] are not included in the listing.
+| {{MenuCommand|Ocultar complementos con licencia libre no FSF}} {{Version|1.0}}
+| Si está marcada, los complementos con una licencia libre no publicada por la [https://www.fsf.org/licensing Free Software Foundation] no se incluyen en la lista.
+
 |-
-| {{MenuCommand|Hide Addons with non-OSI-approved license}} {{Version|1.0}}
-| If checked, addons with a license not approved by the [https://opensource.org/licenses Open Source Initiative] are not included in the listing.
+| {{MenuCommand|Ocultar complementos con licencia no aprobada por OSI}} {{Version|1.0}}
+| Si está marcada, los complementos con una licencia no aprobada por la [https://opensource.org/licenses Open Source Initiative] no se incluyen en la lista.
+
 |-
-| {{MenuCommand|Hide Addons marked Python 2 Only}}
-| If checked, addons marked as "Python 2 Only" are not included in the listing. These addons are unlikely to work in the current FreeCAD version.
+| {{MenuCommand|Ocultar complementos marcados como "Solo Python 2"}}
+| Si está marcada, los complementos marcados como "Solo Python 2" no se incluyen en la lista. Es probable que estos complementos no funcionen en la versión actual de FreeCAD.
+
 |-
-| {{MenuCommand|Hide Addons marked Obsolete}}
-| If checked, addons marked as "Obsolete" are not included in the listing.
+| {{MenuCommand|Ocultar complementos marcados como "Obsoletos"}}
+| Si está marcada, los complementos marcados como "Obsoletos" no se incluyen en la lista.
+
 |-
-| {{MenuCommand|Hide Addons that require a newer version of FreeCAD}}
-| If checked, addons that require a newer FreeCAD version are not included in the listing.
+| {{MenuCommand|Ocultar complementos que requieren una versión más reciente de FreeCAD}}
+| Si está marcada, los complementos que requieren una versión más reciente de FreeCAD no se incluyen en la lista.
+
 |-
-| {{MenuCommand|Custom repositories}}
-| Custom repositories can be specified here.
+| {{MenuCommand|Repositorios personalizados}}
+| Aquí se pueden especificar repositorios personalizados.
 
 To add a repository press the {{Button|[[Image:List-add.svg|16px]]}} button. Both the {{MenuCommand|Repository URL}} and the {{MenuCommand|Branch}}, typically {{Value|master}} or {{Value|main}}, must be specifies in the dialog that opens.
 
