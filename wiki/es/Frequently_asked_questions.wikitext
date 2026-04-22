@@ -123,7 +123,7 @@ Es muy probable que tenga una configuración regional de Windows incorrecta. Com
 {{clear}}
 
 <span id="FreeCAD_was_running_normally,_and_suddenly_it_doesn&#039;t_start_anymore"></span>
-=== FreeCAD se estaba ejecutando normalmente, y de repente ya no se inicia ===
+=== FreeCAD estaba funcionando con normalidad y de repente ya no se inicia ===
 
 Esto también puede ocurrir si tenías una versión anterior de FreeCAD instalada, y actualizaste a una versión más reciente. En ese proceso, los archivos de configuración de FreeCAD podrían haberse corrompido por alguna razón, y ahora FreeCAD no puede leerlos más, y falla al iniciarse. La solución es simplemente borrar estos archivos de configuración, para que FreeCAD los recree en la primera ejecución.
 
