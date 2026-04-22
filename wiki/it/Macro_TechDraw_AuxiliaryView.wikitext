@@ -42,13 +42,10 @@ L'idea alla base è quella di scegliere una linea retta in una vista di base e d
 
 La linea retta posizionata arbitrariamente (rossa) nella vista iniziale verrà proiettata come una linea di lunghezza reale in AuxView X e come un punto in AuxView Y, dove si può anche vedere la larghezza e lo spessore reali della piastra di base. AuxView Z è definita perpendicolarmente alla piastra di base e presenta la forma reale della piastra di base e dei suoi fori. AuxView R è perpendicolare al lato più lungo della piastra di base e mostra gli angoli reali della faccia superiore e inferiore della sottoforma cilindrica e come questa si adatta alla piastra di base. L'ultima, AuxView S, è definita lungo l'asse del cilindro e mostra il diametro e lo spessore della sottoforma cilindrica.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Drawing auxiliary views manually requires a second base view to access the heights above the base view plane, but since FreeCAD does all the projection work, we can concentrate on the view direction solely.
-</div>
+Disegnare manualmente le viste ausiliarie richiede una seconda vista di base per accedere alle altezze rispetto al piano della vista di base, ma poiché FreeCAD si occupa di tutte le proiezioni, ci si può concentrare esclusivamente sulla direzione della vista.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Utilizzo==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Make sure to [[Image:TechDraw_ToggleFrame.svg|16px]] [[TechDraw_ToggleFrame|turn frames on]] and vertices are selectable.
