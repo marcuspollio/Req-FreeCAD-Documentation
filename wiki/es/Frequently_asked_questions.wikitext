@@ -199,9 +199,7 @@ if shp.Wires:
         print w.isClosed()
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The above code retrieves the shape from an object, shows the faces and wires your object has (if any), and, if there are wires, prints if those wires are closed. If you don't have any face, you won't get a solid. If there is no closed wire, it won't become a face. If you are interested, there is more info about what you can check with Python on the [[Topological_data_scripting|part scripting]] page. If you cannot join several lines into a wire, the most probable cause is that their endpoints don't meet, there must be small gaps between (some of) them. There, I'm afraid, my experience tells me the quickest way would be to redraw a wire on top of them.
-</div>
+El código anterior recupera la forma de un objeto, muestra las caras y los cables que tiene (si los hay) y, si hay cables, imprime si esos cables están cerrados. Si no hay ninguna cara, no obtendrá un sólido. Si no hay ningún cable cerrado, no se convertirá en una cara. Si le interesa, hay más información sobre lo que puede comprobar con Python en la página [[Topological_data_scripting|part scripting]]. Si no puede unir varias líneas en un cable, la causa más probable es que sus extremos no se encuentren, debe haber pequeños huecos entre (algunas de) ellas. En ese caso, me temo que mi experiencia me dice que la forma más rápida sería redibujar un cable encima de ellas.
 
 <span id="My_boolean_operations_fail,_or_give_weird_results"></span>
 === Mis operaciones booleanas fallan, o dan resultados extraños ===
