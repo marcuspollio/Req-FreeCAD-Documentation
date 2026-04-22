@@ -17,9 +17,7 @@
 <span id="Introduction"></span>
 ==Introduzione==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Not everyone who has to deliver a drawing with their model gets by with only three main views (primary views) and sections parallel to those views. To depict a model from any possible angle designers rely on auxiliary views (secondary views) that are placed on a drawing page in a certain order to be able to retrace the way each view in a chain was defined. Disconnected views defined in 3D space that are randomly placed on the drawing page aren't a useful replacement for properly ordered auxiliary views.
-</div>
+Non tutti coloro che devono consegnare un disegno insieme al proprio modello si accontentano di sole tre viste principali (viste primarie) e delle relative sezioni parallele. Per rappresentare un modello da qualsiasi angolazione possibile, i progettisti si affidano a viste ausiliarie (viste secondarie) che vengono posizionate sulla pagina di disegno in un ordine specifico, in modo da poter ricostruire la sequenza di definizione di ciascuna vista. Viste non correlate, definite nello spazio 3D e posizionate casualmente sulla pagina di disegno, non rappresentano un valido sostituto per le viste ausiliarie correttamente ordinate.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 For now this page only hosts a macro that is a proof of concept that shows that it is possible to define an auxiliary view within a base view without the detour via the 3D space.
