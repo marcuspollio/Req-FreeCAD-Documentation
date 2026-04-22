@@ -336,32 +336,36 @@ Para obtener las propiedades de FreeCAD, el modelo debe haberse exportado utiliz
 
 En esta página puede especificar lo siguiente:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Show this dialog when exporting}}
-| If checked, this preferences dialog will be shown when exporting IFC files.
+| {{MenuCommand|Mostrar este diálogo al exportar}}
+| Si está marcada, este diálogo de preferencias se mostrará al exportar archivos IFC.
+
 |-
-| {{MenuCommand|Export type}}
-| Select how the model should be exported: as '''Standard model''', '''Structural Analysis''', or '''Standard + structural'''.
+| {{MenuCommand|Tipo de exportación}}
+| Seleccione cómo se debe exportar el modelo: como '''Modelo estándar''', '''Análisis estructural''' o '''Estándar + estructural'''.
+
 |-
-| {{MenuCommand|Force export as Brep}}
-|  Some IFC viewers don't like objects exported as extrusions. Use this to force all objects to be exported as [https://en.wikipedia.org/wiki/Boundary_representation BREP] geometry. But avoid exporting as Brep if possible as this makes objects non-parametric.
+| {{MenuCommand|Forzar exportación como BREP}}
+| Algunos visores de IFC no admiten objetos exportados como extrusiones. Use esta opción para forzar la exportación de todos los objetos como geometría [https://en.wikipedia.org/wiki/Boundary_representation BREP]. Pero evite exportar como Brep si es posible, ya que esto convierte los objetos en no paramétricos.
+
 |-
-| {{MenuCommand|Use DAE triangulation options}}
-|  Use triangulation options set in the DAE options page.
+| {{MenuCommand|Usar opciones de triangulación DAE}}
+| Usar las opciones de triangulación configuradas en la página de opciones DAE.
+
 |-
-| {{MenuCommand|Join coplanar facets when triangulating}}
-|  Curved shapes that cannot be represented as curves in IFC are decomposed into flat facets. If this is checked, some additional calculation is done to join coplanar facets.
+| {{MenuCommand|Unir facetas coplanares al triangular}}
+| Las formas curvas que no se pueden representar como curvas en IFC se descomponen en facetas planas. Si esta opción está marcada, se realiza un cálculo adicional para unir las facetas coplanares.
+
 |-
-| {{MenuCommand|Store IFC unique ID in FreeCAD objects}}
-|  When exporting objects without a [http://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcutilityresource/lexical/ifcgloballyuniqueid.htm unique ID] (UID), the generated UID will be stored inside the FreeCAD object for reuse the next time the object is exported. This leads to smaller differences between file versions.
+| {{MenuCommand|Almacenar ID único de IFC en objetos de FreeCAD}}
+| Al exportar objetos sin un ID único (UID), el UID generado se almacenará dentro del objeto de FreeCAD para su reutilización la próxima vez que se exporte. Esto reduce las diferencias entre las versiones de los archivos.
+
 |-
-| {{MenuCommand|Use IfcOpenShell serializer if available}}
-|  [[Extra_python_modules#IfcOpenShell|IFCOpenShell]] is a library for IFC files. Its ''serializer'' functionality can produce valid IFC geometry from [[Glossary#OCC|OCC]] shapes.
-</div>
+| {{MenuCommand|Usar el serializador IfcOpenShell si está disponible}}
+| [[Extra_python_modules#IfcOpenShell|IFCOpenShell]] es una biblioteca para archivos IFC. Su funcionalidad de serialización puede generar geometría IFC válida a partir de formas [[Glossary#OCC|OCC]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Note that this is still an experimental feature.
