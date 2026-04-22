@@ -3,10 +3,10 @@
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
 |[[FEM_MeshNetgenFromShape|Mesh From Shape by Netgen]]
-|[[FEM_MeshBoundaryLayer|Mesh Boundary Layer]]
+|[[FEM_MeshRegion|Mesh Refinement]]
 |[[FEM_Workbench|FEM]]
 |IconL=FEM_MeshNetgenFromShape.svg
-|IconR=FEM_MeshBoundaryLayer.svg
+|IconR=FEM_MeshRegion.svg
 |IconC=Workbench_FEM.svg
 }}
 </div>
@@ -166,10 +166,10 @@ Lower right: recombination at the surface and in the volume using the '''Simple 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
 |[[FEM_MeshNetgenFromShape|Mesh From Shape by Netgen]]
-|[[FEM_MeshBoundaryLayer|Mesh Boundary Layer]]
+|[[FEM_MeshRegion|Mesh Refinement]]
 |[[FEM_Workbench|FEM]]
 |IconL=FEM_MeshNetgenFromShape.svg
-|IconR=FEM_MeshBoundaryLayer.svg
+|IconR=FEM_MeshRegion.svg
 |IconC=Workbench_FEM.svg
 }}
 </div>
