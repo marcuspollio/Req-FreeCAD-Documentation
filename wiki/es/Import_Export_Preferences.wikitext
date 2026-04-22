@@ -250,62 +250,76 @@ Nota para usuarios de Linux: Para manejar este formato de archivo, FreeCAD requi
 
 En esta página puede especificar lo siguiente:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Show this dialog when importing}}
-| If checked, this preferences dialog will be shown when importing IFC files.
+| {{MenuCommand|Mostrar este diálogo al importar}}
+| Si está marcada, este diálogo de preferencias se mostrará al importar archivos IFC.
+
 |-
-| {{MenuCommand|Show debug messages}}
-| Shows verbose debug messages during import and export of IFC files in the [[Report view|Report view]].
+| {{MenuCommand|Mostrar mensajes de depuración}}
+| Muestra mensajes de depuración detallados durante la importación y exportación de archivos IFC en la [[Report view|Vista de informe]].
+
 |-
-| {{MenuCommand|Create clones when objects have shared geometry}}
-|  IFC objects can share a same geometry definition between several objects, only their placement is different. When this option is enabled, clones are used to achieve the same result in FreeCAD. One object is the base object, the others are clones.
+| {{MenuCommand|Crear clones cuando los objetos comparten geometría}}
+| Los objetos IFC pueden compartir la misma definición de geometría entre varios objetos; solo su ubicación es diferente. Cuando esta opción está habilitada, se utilizan clones para lograr el mismo resultado en FreeCAD. Un objeto es el objeto base, los demás son clones.
+
 |-
-| {{MenuCommand|Number of cores to use (experimental)}}
-|  Specify the number of CPU cores to use for IFC import. The maximum number should be smaller than the number of actually available cores. Use '''0''' to disable this feature.
+| {{MenuCommand|Número de núcleos a usar (experimental)}}
+| Especifique el número de núcleos de CPU que se utilizarán para la importación de IFC. El número máximo debe ser menor que el número de núcleos disponibles. Use '''0''' para desactivar esta función.
+
 |-
-| {{MenuCommand|Import arch IFC objects as}}
-|  What will be created in FreeCAD for arch IFC objects.
+| {{MenuCommand|Importar objetos IFC de arquitectura como}}
+| Lo que se creará en FreeCAD para los objetos IFC de arquitectura.
+
 |-
-| {{MenuCommand|Import struct IFC objects as}}
-|  What will be created in FreeCAD for struct IFC objects.
+| {{MenuCommand|Importar objetos IFC de estructura como}}
+| Lo que se creará en FreeCAD para los objetos IFC de estructura.
+
 |-
-| {{MenuCommand|Root element}}
-|  Only subtypes of the specified element will be imported. Keep the predefined element [http://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifckernel/lexical/ifcproduct.htm IfcProduct] to import all building elements.
+| {{MenuCommand|Elemento raíz}}
+| Solo se importarán los subtipos del elemento especificado. Mantenga el elemento predefinido [http://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifckernel/lexical/ifcproduct.htm IfcProduct] para importar todos los elementos de construcción.
+
 |-
-| {{MenuCommand|Separate openings}}
-|  If checked, openings will be imported as subtractions, otherwise wall shapes will already have their openings subtracted.
+| {{MenuCommand|Separar aberturas}}
+| Si está marcada, las aberturas se importarán como sustracciones; de lo contrario, las formas de los muros ya tendrán sus aberturas sustraídas.
+
 |-
-| {{MenuCommand|Detect extrusions}}
-|  If checked, the importer will try to detect extrusions. Note that this might slow things down.
+| {{MenuCommand|Detectar extrusiones}}
+| Si está marcada, el importador intentará detectar extrusiones. Tenga en cuenta que esto podría ralentizar el proceso.
+
 |-
-| {{MenuCommand|Split multilayer walls}}
-|  Splits walls made of multiple layers.
+| {{MenuCommand|Dividir muros multicapa}}
+| Divide los muros compuestos en varias capas.
+
 |-
-| {{MenuCommand|Prefix names with ID number}}
-|  If checked, object names will be prefixed with the [http://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcutilityresource/lexical/ifcgloballyuniqueid.htm IFC ID] number.
+| {{MenuCommand|Añadir prefijo a los nombres con el número de ID}}
+| Si está marcada, los nombres de los objetos se antepondrán al número de ID IFC [http://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcutilityresource/lexical/ifcgloballyuniqueid.htm].
+
 |-
-| {{MenuCommand|Merge materials with same name and same color}}
-|  If several materials with the same name are found in the IFC file, they will be treated as one.
+| {{MenúComando|Combinar materiales con el mismo nombre y color}}
+| Si se encuentran varios materiales con el mismo nombre en el archivo IFC, se tratarán como uno solo.
+
 |-
-| {{MenuCommand|Import Ifc properties in spreadsheet}}
-|  If checked, each object will have their [http://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcpropertyresource/lexical/ifcproperty.htm IFC properties] stored in a spreadsheet object.
+| {{MenúComando|Importar propiedades IFC en una hoja de cálculo}}
+| Si está marcada, cada objeto tendrá sus propiedades IFC [http://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcpropertyresource/lexical/ifcproperty.htm] almacenadas en una hoja de cálculo.
+
 |-
-| {{MenuCommand|Allow invalid shapes}}
-|  If unchecked invalid shapes are not imported.
+| {{MenúComando|Permitir formas no válidas}}
+| Si no está marcada, no se importarán las formas no válidas.
+
 |-
-| {{MenuCommand|Exclude list}}
-| A comma-separated list of [https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/toc-5.htm IFC entities] to be excluded from imports.
+| {{MenúComando|Excluir lista}}
+| Lista separada por comas de entidades IFC [https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/toc-5.htm] que se excluirán de las importaciones.
+
 |-
-| {{MenuCommand|Fit view while importing}}
-|  Fit view during import on the imported objects. This will slow down the import, but one can watch the import.
+| {{MenuCommand|Ajustar vista durante la importación}}
+| Ajusta la vista durante la importación de los objetos importados. Esto ralentizará la importación, pero permite supervisarla.
+
 |-
-| {{MenuCommand|Import full FreeCAD parametric definitions if available}}
-|  Creates a full parametric model on import using stored FreeCAD object properties.
-</div>
+| {{MenuCommand|Importar definiciones paramétricas completas de FreeCAD si están disponibles}}
+| Crea un modelo paramétrico completo durante la importación utilizando las propiedades de los objetos de FreeCAD almacenadas.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To get the FreeCAD properties, the model must have been exported using the option {{MenuCommand|Export full FreeCAD parametric model}}.
