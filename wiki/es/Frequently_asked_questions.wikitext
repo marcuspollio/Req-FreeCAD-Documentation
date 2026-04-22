@@ -33,7 +33,7 @@ El código fuente de FreeCAD siempre está disponible en el repositorio de códi
 <span id="FreeCAD_tells_me_some_module_or_application_is_missing"></span>
 === FreeCAD me indica que falta algún módulo o aplicación ===
 
-FreeCAD depende de muchas cosas para ofrecer toda su funcionalidad. Todos los principales componentes necesarios están normalmente incluidos en tu instalación de FreeCAD o proporcionados por tu gestor de paquetes, así que normalmente no tienes nada de qué preocuparte. Sin embargo, si has instalado FreeCAD desde fuentes no oficiales, o has compilado FreeCAD tú mismo, puede faltar alguna pieza, que no es crítica para FreeCAD en sí mismo, pero puede causar que alguna funcionalidad no esté disponible. Algunos formatos de archivo específicos como Collada o DWG también requieren componentes adicionales, que no pueden ser incluidos en FreeCAD, y deben ser instalados por ti mismo por separado. 
+FreeCAD depende de muchos elementos para ofrecer todas sus funcionalidades. Los componentes principales necesarios suelen venir incluidos en la instalación de FreeCAD o proporcionados por el gestor de paquetes, por lo que normalmente no hay de qué preocuparse. Sin embargo, si instaló FreeCAD desde fuentes no oficiales o lo compiló usted mismo, es posible que falte algún componente, lo cual no es crítico para FreeCAD, pero podría provocar que algunas funciones no estén disponibles. Algunos formatos de archivo específicos, como Collada o DWG, también requieren componentes adicionales que no se incluyen en FreeCAD y que debe instalar por separado. 
 
 Todos esos componentes y la forma adecuada de instalarlos están listados en la página [[Extra_python_modules/es|Módulos extra python]].
 
