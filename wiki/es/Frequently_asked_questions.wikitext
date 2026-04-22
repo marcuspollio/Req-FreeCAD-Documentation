@@ -293,7 +293,7 @@ No. FreeCAD es totalmente gratuito para usar, descargar, redistribuir o modifica
 Claro. Todos los elementos gráficos (iconos, banners, etc.) de FreeCAD tienen licencia LGPL, al igual que el código de FreeCAD. Puede consultarlos en la página [[Artwork|Diseño Gráfico]]. El sitio web es un sitio MediaWiki estándar; todos los elementos gráficos se pueden reutilizar libremente. Si le interesa saber cómo personalizar el software MediaWiki, como hicimos nosotros, consulte las páginas especiales de CSS y JavaScript comunes.
 
 <span id="Can_I_reuse_pieces_of_FreeCAD_in_another_application?"></span>
-=== ¿Puedo reutilizar piezas de FreeCAD en otra aplicación? ===
+=== ¿Puedo reutilizar partes de FreeCAD en otra aplicación? ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Yes, you can use the core parts of FreeCAD in other applications as long as you comply with the terms of the LGPL. Third party libraries, [https://www.freecad.org/addons.php external workbenches], and [[Macros|macros]] may be subject to their own license terms, so please consult with their authors. More details on the [[License|License]] page.
