@@ -479,13 +479,12 @@ Si se selecciona '''Todos''', se exportarán todos los elementos.
 
 Si se selecciona '''Máximo''', solo se exportarán los elementos de mayor altura. Esto significa volúmenes para una malla volumétrica y caras para una malla de superficie.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If '''FEM''' is selected, only FEM elements will be exported. This means only edges not belonging to faces and faces not belonging to volumes.
-|-
-| {{MenuCommand|Export group data}}
-| If checked, mesh groups are exported too. Every constraint and, if there are different materials, material consists of two mesh groups, faces and nodes where the constraint or material is applied.
+Si se selecciona '''FEM''', solo se exportarán los elementos FEM. Esto significa que solo se exportarán las aristas que no pertenezcan a caras y las caras que no pertenezcan a volúmenes.
+
+|-| {{MenuCommand|Exportar datos de grupo}}
+| Si está marcada, también se exportarán los grupos de malla. Cada restricción y, si hay diferentes materiales, cada material consta de dos grupos de malla: caras y nodos donde se aplica la restricción o el material.
+
 |}
-</div>
 
 <span id="Mesh_Formats"></span>
 ===Formatos Malla===
