@@ -152,18 +152,20 @@ En esta página puede especificar lo siguiente:
 | {{MenuCommand|Usar el importador de Python heredado}}
 | Si está marcada, se utiliza el importador de Python; de lo contrario, se utiliza el importador de C++ más reciente. El importador de C++ es más rápido, pero aún no tiene tantas funciones.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The Python importer uses the {{MenuCommand|Edit → Preferences... → Draft → General settings → Internal precision level}} preference. For an accurate import result set this value to 8 or higher.
+El importador de Python utiliza la preferencia {{MenuCommand|'''Editar → Preferencias... → Borrador → Configuración general → Nivel de precisión interna'''}}. Para obtener una importación precisa, establezca este valor en 8 o superior.
+
 |-
-| {{MenuCommand|Use legacy python exporter}}
-|  If checked, the Python exporter is used, otherwise the newer C++ one. The C++ exporter is faster, but has not as many features yet.
+| {{MenuCommand|Usar exportador de Python heredado}}
+| Si está marcada, se utiliza el exportador de Python; de lo contrario, se utiliza el más reciente de C++. El exportador de C++ es más rápido, pero aún no cuenta con tantas funciones.
+
 |-
-| {{MenuCommand|Allow FreeCAD to automatically download and update the DXF libraries}}
-| By checking this, you will allow FreeCAD to download the [[FreeCAD_and_DXF_Import|Python converter]] for DXF import and export. This converter cannot be bundled with FreeCAD because it has a different software license.
+| {{MenuCommand|Permitir que FreeCAD descargue y actualice automáticamente las bibliotecas DXF}}
+
+| Al marcar esta opción, permitirá que FreeCAD descargue el [[FreeCAD_and_DXF_Import|Convertidor de Python]] para la importación y exportación de DXF. Este convertidor no se puede incluir con FreeCAD porque tiene una licencia de software diferente.
+
 |-
-| {{MenuCommand|Import}}
-|  Select what will be imported.
-</div>
+| {{MenuCommand|Importar}}
+| Seleccione qué se importará.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If '''texts and dimensions''' is checked, texts and [https://www.autodesk.com/techpubs/autocad/acad2000/dxf/mtext_dxf_06.htm mtexts] will be imported too.
