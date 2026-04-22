@@ -51,18 +51,8 @@ Po utworzeniu siatki możesz zmienić jej właściwości przy pomocy [[Property_
 
 Możesz utworzyć tyle różnych warstw przyściennych, ile potrzeba.
 
-<span id="Visual_examples"></span>
-==Przykłady wizualne== 
-
-[[File:FEMMeshBoundaryLayer Example1.png.png|300px]]
-{{Caption|Przykład 1: Początkowa rzadka siatka FEMMeshGMSH dla przypadku 2D}}
-
-
-[[File:FEMMeshBoundaryLayer Example2.png.png|300px]]
-{{Caption|Przykład 2: Po zastosowaniu warstwy granicznej siatki MES}}
-
-[[File:FEMMeshBoundaryLayer Example3.png.png|300px]]
-{{Caption|Przykład 3: Prosty przykład rezultatu w drzewie modelu}}
+[[File:FEM_boundary_layer_2D.PNG|500px]]
+{{Caption|Example of a 2D boundary layer around a hole}}
 
 
 {{Docnav
