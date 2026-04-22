@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav
-|[[FEM_MeshGroup/pl|Grupa siatki MES]]
+|[[FEM_MeshTransfiniteVolume/pl|Strukturalna objętość transfinite]]
 |[[FEM_FemMesh2Mesh/pl|Siatka MES do siatki]]
 |[[FEM_Workbench/pl|środowisko pracy MES]]
-|IconL=FEM_MeshGroup.svg
+|IconL=FEM_MeshTransfiniteVolume.svg
 |IconR=FEM_FemMesh2Mesh.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{GuiCommand/pl
 |Name=FEM CreateElementsSet
