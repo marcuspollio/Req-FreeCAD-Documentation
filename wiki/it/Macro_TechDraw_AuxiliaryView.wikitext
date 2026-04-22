@@ -31,9 +31,8 @@ La '''Macro TechDraw AuxiliaryView''' aggiunge una vista ausiliaria (oggetto Aux
 {{Caption|AuxView definita dalla linea rossa nella vista base a destra}}
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Example use case===
-</div>
+<span id="Example_use_case"></span>
+===Esempio di caso d'uso===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Let's assume we have a grid-parallel view and we want to develop other views to see the true shapes of the form features we want to dimension.
