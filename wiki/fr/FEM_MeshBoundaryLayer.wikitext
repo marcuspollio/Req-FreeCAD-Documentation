@@ -59,18 +59,8 @@ Une fois que le maillage a été créé, vous pouvez modifier ses propriétés �
 
 Vous pouvez créer autant de couches limites de maillage différentes que nécessaire.
 
-<span id="Visual_examples"></span>
-==Exemples visuels== 
-
-[[File:FEMMeshBoundaryLayer Example1.png.png|300px]]
-{{Caption|Exemple 1 : le maillage grossier initial de FEMMeshGMSH sur un cas 2D}}
-
-
-[[File:FEMMeshBoundaryLayer Example2.png.png|300px]]
-{{Caption|Exemple 2 : après l'application d'une couche limite de maillage}}
-
-[[File:FEMMeshBoundaryLayer Example3.png.png|300px]]
-{{Caption|Exemple 3 : un exemple simple de l'arborescence résultante}}
+[[File:FEM_boundary_layer_2D.PNG|500px]]
+{{Caption|Example of a 2D boundary layer around a hole}}
 
 
 <div class="mw-translate-fuzzy">
