@@ -44,7 +44,7 @@ The '''FEM MeshAdvanced''' command allows to define the mesh size by various adv
 #* ''MathEval'' - calculates the mesh size from a formula based on coordinates (x,y,z) and other refinements (F1, F2, etc.). Drag refinements into the advanced mesh object in the tree to make them accessible in the Formula.
 #** Enter the Mesh size equation. The usual math functions such as Sin and Log (upper case) as well as operators +, -, *, /, ^ are available.
 #* ''MathEvalAniso'' - calculates the anisotropic mesh size from multiple formulas based on coordinates (x,y,z) and other refinements (F1, F2, etc.). Drag refinements into the advanced mesh object in the tree to make them accessible in the Formula. Anisotropic mesh refinements work only with the BAMG (2D) and MMG3D (3D) algorithms.
-#** Enter the mesh size equations in the fields M11, M22, M12, M23, M13 and M33.
+#** Enter the mesh size equations in the fields corresponding to metric tensor elements M11, M22, M12, M23, M13 and M33.
 #* ''Distance'' - computes the distance to the selected reference geometry (vertices, edges and surfaces). For efficiency, curves and surfaces are replaced by a set of points.
 #** Optionally, change ''Sampling''
 #* ''Result'' - uses a data field from a FEM postprocessing pipeline as mesh size. This allows you to adapt the mesh according to the physical behavior of the result.
