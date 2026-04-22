@@ -155,7 +155,7 @@ Exercise meshing 03.jpg|link=[[Manual:Preparing_models_for_3D_printing]]|[[Manua
 
 Exercise raytracing 05.jpg|link=[[Manual:Creating_renderings]]|[[Manual:Creating_renderings|Creación de representaciones]] <br/>Genere rápidamente una imagen renderizada de sus cuerpos con POV-Ray y LuxRender, si están instalados en su sistema.
 
-Raytracing tutorial result.png|link=[[Raytracing_tutorial]]|[[Tutorial de trazado de rayos]] (v0.16) <br/>Describe el flujo de trabajo básico de Raytracing Workbench usando POV-Ray o LuxRender: establecer la ruta a los renderizadores, crear un proyecto, establecer la posición de la cámara, seleccionar el modelo y ejecutar el renderizador.
+Raytracing tutorial result.png|link=[[Raytracing_tutorial]]|[[Raytracing_tutorial|Tutorial de trazado de rayos]] (v0.16) <br/>Describe el flujo de trabajo básico de Raytracing Workbench usando POV-Ray o LuxRender: establecer la ruta a los renderizadores, crear un proyecto, establecer la posición de la cámara, seleccionar el modelo y ejecutar el renderizador.
 
 12_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_final.png|link=[[Tutorial_FreeCAD_POV_ray]]|[[Tutorial_FreeCAD_POV_ray|Tutorial intermedio de FreeCAD y POV-ray]] (v0.18) <br/>Flujo de trabajo para producir una mejor renderización con POV-Ray: crear un proyecto, agregar objetos, configurar la cámara, guardar el archivo .pov, editar manualmente el archivo para mejorar las texturas, los planos y las luces, y luego ejecutar el renderizador.
 
