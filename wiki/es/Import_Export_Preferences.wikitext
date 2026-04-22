@@ -49,9 +49,7 @@ Consulte las siguientes páginas para obtener información adicional:
 
 El formato DAE (Digital Asset Exchange) [https://en.wikipedia.org/wiki/COLLADA Collada] es un formato de archivo estándar para el intercambio de datos de malla. FreeCAD puede importar mallas desde archivos {{FileName|.dae}} y exportar objetos basados ​​en [[Part_Workbench|Shape]] al formato {{FileName|.dae}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Note for Linux users: To handle this file format FreeCAD requires the [[Extra_python_modules|pyCollada module]].
-</div>
+Nota para usuarios de Linux: Para manejar este formato de archivo, FreeCAD requiere el módulo [[Extra_python_modules|pyCollada]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 On this page you can specify the following:
