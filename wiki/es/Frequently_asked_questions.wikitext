@@ -170,27 +170,20 @@ Existe mucha documentación dispersa en diferentes lugares, tanto dentro como fu
 <span id="I_want_to_import/export_data_in_format_XYZ_to/from_FreeCAD._How_do_I_do_that?"></span>
 === Quiero importar/exportar datos en formato XYZ a/desde FreeCAD. ¿Cómo lo hago? ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Please refer to the [[FreeCAD_Howto_Import_Export|FreeCAD Howto Import Export]] page. Maybe your questions are already answered there.
-</div>
+Consulte la página [[FreeCAD_Howto_Import_Export|Cómo importar y exportar en FreeCAD]]. Es posible que allí encuentre respuesta a sus preguntas.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Where can I find workarounds for features that FreeCAD currently does not support? ===
-</div>
+<span id="Where_can_I_find_workarounds_for_features_that_FreeCAD_currently_does_not_support?"></span>
+=== ¿Dónde puedo encontrar soluciones alternativas para las funciones que FreeCAD actualmente no admite? ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Please refer to the [[Workarounds|Workarounds]] page.
-</div>
+Consulte la página [[Workarounds|Soluciones alternativas]].
 
 <span id="Working_with_Part_geometry"></span>
 == Trabajar con la geometría de la pieza ==
 
 <span id="How_do_I_extrude_stuff_into_solids?_I_don&#039;t_get_the_right_result"></span>
-=== ¿Cómo puedo extrudir cosas en sólidos? No obtengo el resultado correcto ===
+=== ¿Cómo extruyo objetos para convertirlos en sólidos? No obtengo el resultado correcto ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The theory is simple: Lines (or wires), when extruded, form faces. Faces, when extruded, form solids.
-</div>
+La teoría es simple: las líneas (o alambres), al ser extruidas, forman caras. Las caras, al ser extruidas, forman sólidos.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you extrude something and the result is not a solid, then the something was not a face. If you have lines and you want to extrude a solid from them, you must first select lines that form a closed perimeter (select several objects by pressing {{KEY|Ctrl}}), join them into a wire ([[Draft_Upgrade|Draft Upgrade]] tool), then make a face from that wire ([[File:Draft_Upgrade.svg|16px]] [[Draft_Upgrade|Draft Upgrade]] tool again). There you are, if all went well you can now extrude it to a solid.
