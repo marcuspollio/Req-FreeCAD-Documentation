@@ -659,8 +659,9 @@ Si la opción {{MenuCommand|Enable spinning animations}} está marcada y {{MenuC
 | Habilita la herramienta [[Std_ClarifySelection|Aclarar selección]] al mantener pulsado el botón izquierdo del ratón (LMB) durante un tiempo determinado (definido por la preferencia que se indica a continuación). Algunos estilos de navegación (OpenInventor, Gesture y OpenSCAD) utilizan Ctrl+LMB en su lugar.
 
 |-
-| {{MenuCommand|Long press timeout}} {{Version|1.1}}
-| Time in seconds to keep the left mouse button pressed in order to start the Clarify Selection tool. The possible range is 0.3 to 3 seconds. The default value is 1 second.
+| {{MenuCommand|Tiempo de espera tras pulsación larga}} {{Version|1.1}}
+| Tiempo en segundos que debe mantenerse pulsado el botón izquierdo del ratón para activar la herramienta Clarificar selección. El rango posible es de 0,3 a 3 segundos. El valor predeterminado es 1 segundo.
+
 |}
 
 <span id="Colors"></span>
