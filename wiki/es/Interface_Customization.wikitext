@@ -209,7 +209,7 @@ Ver [[#Search|Teclado]].
 
 En esta pestaña se pueden configurar comandos de macro. Una vez configurados, se pueden agregar a barras de herramientas personalizadas. Las macros instaladas con [[Image:Std_AddonMgr.svg|16px]] [[Std_AddonMgr|Administrador de complementos]] se configuran automáticamente y se agregan a una barra de herramientas {{Value|Global}} (consulte [[#Toolbars|Barras de herramientas]]), si confirma el botón '''Agregar''' que aparece durante el proceso de instalación.
 
-If you want to use a macro downloaded from a different source you will have to install it manually. See [[How_to_install_macros|How to install macros]] for more information. Note that FreeCAD uses a dedicated folder for macros and only macros in that folder can be set up. Use the [[Image:Std_DlgMacroExecute.svg|16px]] [[Std_DlgMacroExecute|Std DlgMacroExecute]] command to find this folder on your system.
+Si desea utilizar una macro descargada de otra fuente, deberá instalarla manualmente. Consulte [[How_to_install_macros|Cómo instalar macros]] para obtener más información. Tenga en cuenta que FreeCAD utiliza una carpeta específica para macros y solo se pueden configurar las macros que se encuentren en esa carpeta. Utilice el comando [[Imagen:Std_DlgMacroExecute.svg|16px]] [[Std_DlgMacroExecute|Std DlgMacroExecute]] para encontrar esta carpeta en su sistema.
 
 <span id="Add_a_macro_command"></span>
 ====Añadir un macrocomando====
