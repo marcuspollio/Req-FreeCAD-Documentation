@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[FEM_MeshBoundaryLayer/pl|Warstwa przyścienna siatki MES]]
 |[[FEM_MeshGroup/pl|Grupa siatki MES]]
@@ -8,6 +9,7 @@
 |IconR=FEM_MeshGroup.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{GuiCommandContainer|
 {{GuiCommand/pl
@@ -73,6 +75,7 @@ Możesz utworzyć tyle różnych obszarów siatki, ile potrzeba.
 * "Mesh Regions for a Better Analysis" - poradnik wideo autorstwa ([https://www.youtube.com/watch?v=X5RVe2SDPvw Joko Engineering])
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[FEM_MeshBoundaryLayer/pl|Warstwa przyścienna siatki MES]]
 |[[FEM_MeshGroup/pl|Grupa siatki MES]]
@@ -81,6 +84,7 @@ Możesz utworzyć tyle różnych obszarów siatki, ile potrzeba.
 |IconR=FEM_MeshGroup.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
