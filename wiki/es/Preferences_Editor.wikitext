@@ -413,11 +413,13 @@ En esta página puede especificar lo siguiente:
 | Especifica el color de la fuente para los mensajes de error.
 
 |-
-| {{MenuCommand|Redirect internal Python output to report view}}
-| If checked, internal Python output will be redirected from the [[Python_Console|Python Console]] to the [[Report_View|Report View]].
+| {{MenuCommand|Redirigir la salida interna de Python a la vista de informe}}
+| Si está marcada, la salida interna de Python se redirigirá de la [[Python_Console|Consola de Python]] a la [[Report_View|Vista de informe]].
+
 |-
-| {{MenuCommand|Redirect internal Python errors to report view}}
-| If checked, internal Python error messages will be redirected from the [[Python_Console|Python Console]] to the [[Report_View|Report View]].
+| {{MenuCommand|Redirigir los errores internos de Python a la vista de informe}}
+| Si está marcada, los mensajes de error internos de Python se redirigirán de la [[Python_Console|Consola de Python]] a la [[Report_View|Vista de informe]].
+
 |}
 
 ===Help===
