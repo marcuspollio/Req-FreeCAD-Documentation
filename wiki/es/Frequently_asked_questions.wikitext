@@ -206,15 +206,12 @@ El código anterior recupera la forma de un objeto, muestra las caras y los cabl
 
 Como todos los núcleos de modelado sólido, el núcleo de modelado geométrico [https://en.wikipedia.org/wiki/Open_CASCADE_Technology Open CASCADE] utilizado en FreeCAD para la geometría de piezas, aunque probablemente sea el mejor núcleo de geometría de código abierto disponible, tiene fallos y limitaciones. Las operaciones booleanas (fusión, sustracción, intersección) son complejas y a menudo dan resultados extraños. Esta es una limitación actual que no podemos solucionar de inmediato, por lo que la mejor opción es intentar obtener el resultado deseado modelando de otra manera. Por ejemplo, los problemas con primitivas como el cilindro a menudo se pueden resolver utilizando un círculo extruido. Las superficies coplanares entre piezas pueden causar problemas, al igual que la tangencia de superficies. Como regla general, si una forma no funciona, intente remodelarla de otra manera. En el 99% de los casos, al final logrará obtener el resultado deseado.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To understand boolean operations better, see these articles:
+Para comprender mejor las operaciones booleanas, consulte estos artículos:
 * https://wiki.mcneel.com/rhino/booleanfaq
 * https://dev.opencascade.org/doc/overview/html/specification__boolean_operations.html#autotoc_md293
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== When I export (or view) my model, the holes are filled in ===
-</div>
+<span id="When_I_export_(or_view)_my_model,_the_holes_are_filled_in"></span>
+=== Cuando exporto (o visualizo) mi modelo, los agujeros se rellenan ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Don't use {{KEY|Ctrl}} + {{KEY|A}} (Select All) to export everything from the hierarchy tree. If the model is of one single item, try selecting only the newest item (usually the last one) in the hierarchy tree.
