@@ -367,36 +367,42 @@ En esta página puede especificar lo siguiente:
 | {{MenuCommand|Usar el serializador IfcOpenShell si está disponible}}
 | [[Extra_python_modules#IfcOpenShell|IFCOpenShell]] es una biblioteca para archivos IFC. Su funcionalidad de serialización puede generar geometría IFC válida a partir de formas [[Glossary#OCC|OCC]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Note that this is still an experimental feature.
+Tenga en cuenta que esta función aún está en fase experimental.
+
 |-
-| {{MenuCommand|Export 2D objects as IfcAnnotations}}
-|  If checked, 2D objects will be exported as [https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcproductextension/lexical/ifcannotation.htm IfcAnnotation].
+| {{MenuCommand|Exportar objetos 2D como IfcAnnotations}}
+| Si está marcada, los objetos 2D se exportarán como [https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcproductextension/lexical/ifcannotation.htm IfcAnnotation].
+
 |-
-| {{MenuCommand|Export full FreeCAD parametric model}}
-|  If checked, all FreeCAD object properties will be stored inside the exported objects, allowing to recreate a full parametric model on reimport using the option {{MenuCommand|Import full FreeCAD parametric definitions if available}}.
+| {{MenuCommand|Exportar modelo paramétrico completo de FreeCAD}}
+| Si está marcada, todas las propiedades de los objetos de FreeCAD se almacenarán dentro de los objetos exportados, lo que permite recrear un modelo paramétrico completo al reimportarlo mediante la opción {{MenuCommand|Importar definiciones paramétricas completas de FreeCAD si están disponibles}}.
+
 |-
-| {{MenuCommand|Reuse similar entities}}
-|  If checked, similar entities will be used only once in the file if possible. This can reduce the file size a lot, but will make it less easily readable.
+| {{MenuCommand|Reutilizar entidades similares}}
+| Si está marcada, las entidades similares se utilizarán solo una vez en el archivo, si es posible. Esto puede reducir considerablemente el tamaño del archivo, pero dificultará su lectura.
 |-
-| {{MenuCommand|Disable IfcRectangleProfileDef}}
-|  Whenever possible, IFC objects that are extruded rectangles will be exported as [http://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcprofileresource/lexical/ifcrectangleprofiledef.htm IfcRectangleProfileDef]. For applications that have problems importing these entities, select this option to ensure that all profiles are exported as [http://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcprofileresource/lexical/ifcarbitraryclosedprofiledef.htm IfcArbitraryClosedProfileDef] instead.
+| {{MenuCommand|Deshabilitar IfcRectangleProfileDef}}
+| Siempre que sea posible, los objetos IFC que sean rectángulos extruidos se exportarán como [http://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcprofileresource/lexical/ifcrectangleprofiledef.htm IfcRectangleProfileDef]. Para las aplicaciones que tengan problemas para importar estas entidades, seleccione esta opción para asegurarse de que todos los perfiles se exporten como [http://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcprofileresource/lexical/ifcarbitraryclosedprofiledef.htm IfcArbitraryClosedProfileDef].
+
 |-
-| {{MenuCommand|Auto-detect and export as standard cases when applicable}}
-|  Some IFC types such as [https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcsharedbldgelements/lexical/ifcwall.htm IfcWall] or [https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcsharedbldgelements/lexical/ifcbeam.htm IfcBeam] have special standard versions like [https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcsharedbldgelements/lexical/ifcwallstandardcase.htm IfcWallStandardCase] or [https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcsharedbldgelements/lexical/ifcbeamstandardcase.htm IfcBeamStandardCase]. If this option is selected, FreeCAD will automatically export such objects as standard cases when the necessary conditions are met.
+| {{MenuCommand|Detección automática y exportación como casos estándar cuando corresponda}}
+| Algunos tipos de IFC como [https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcsharedbldgelements/lexical/ifcwall.htm IfcWall] o [https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcsharedbldgelements/lexical/ifcbeam.htm IfcBeam] tienen versiones estándar especiales como [https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcsharedbldgelements/lexical/ifcwallstandardcase.htm IfcWallStandardCase] ​​o [https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcsharedbldgelements/lexical/ifcbeamstandardcase.htm IfcBeamStandardCase]. Si se selecciona esta opción, FreeCAD exportará automáticamente dichos objetos como casos estándar cuando se cumplan las condiciones necesarias.
+
 |-
-| {{MenuCommand|Add default site if one is not found in the document}}
-|  When exporting an IFC file, if no site is found in the FreeCAD document, a default one is added. A site is not mandatory according to the IFC standard, but it is common practice to have at least one in the file.
+| {{MenuCommand|Añadir emplazamiento predeterminado si no se encuentra en el documento}}
+| Al exportar un archivo IFC, si no se encuentra ningún emplazamiento en el documento de FreeCAD, se añade uno predeterminado. Un emplazamiento no es obligatorio según el estándar IFC, pero es práctica común incluir al menos uno en el archivo.
+
 |-
-| {{MenuCommand|Add default building storey if one is not found in the document}}
-|  When exporting an IFC file, if no building storey is found in the FreeCAD document, a default one is added. A building storey is not mandatory according to the IFC standard, but it is common practice to have at least one in the file.
+| {{MenuCommand|Añadir planta predeterminada si no se encuentra en el documento}}
+| Al exportar un archivo IFC, si no se encuentra ninguna planta en el documento de FreeCAD, se añade una predeterminada. Una planta no es obligatoria según el estándar IFC, pero es práctica común incluir al menos una en el archivo.
+
 |-
-| {{MenuCommand|IFC file units}}
-| Select which units will be used when exporting IFC files.
+| {{MenuCommand|Unidades del archivo IFC}}
+| Seleccione las unidades que se utilizarán al exportar archivos IFC.
+
 |-
-| {{MenuCommand|Add default building if one is not found in the document}}
-|  When exporting an IFC file, if no building is found in the FreeCAD document, a default one is added.
-</div>
+| {{MenuCommand|Añadir edificio predeterminado si no se encuentra ninguno en el documento}}
+| Al exportar un archivo IFC, si no se encuentra ningún edificio en el documento de FreeCAD, se añade uno predeterminado.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''Warning''': The IFC standard asks for at least one building in each file. By turning this option off, you will produce a non-standard IFC file.
