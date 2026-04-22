@@ -173,12 +173,11 @@ Si '''puntos''' está marcada, los puntos también se importarán.
 
 Si '''layouts''' está marcada, también se importarán los objetos del espacio papel.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If '''*blocks''' is checked, anonymous blocks (which have names beginning with a *) will be imported too.
+Si '''*blocks''' está marcada, también se importarán los bloques anónimos (cuyos nombres comienzan con *).
+
 |-
-| {{MenuCommand|Create}}
-|  Select what will be created.
-</div>
+| {{MenuCommand|Crear}}
+| Seleccione lo que se creará.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If '''simple Part shapes''' is selected, only standard Part objects will be created. This is the fastest.
