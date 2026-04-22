@@ -18,7 +18,7 @@ Si usa Windows o macOS, la forma más sencilla es dirigirse a la página de [[De
 <span id="What_are_the_prerequisites_for_running_FreeCAD?"></span>
 === ¿Cuáles son los requisitos previos para ejecutar FreeCAD? ===
 
-A diferencia de la mayoría de los programas de CAD en 3D, FreeCAD puede funcionar sin problemas en los ordenadores más modestos: se sabe que funciona en CPUs Pentium IV e Intel Core2 Solo. Si tu ordenador ejecuta un sistema operativo actual, lo más probable es que FreeCAD funcione. El único prerrequisito es que tu tarjeta gráfica o chipset debe soportar [https://en.wikipedia.org/wiki/OpenGL OpenGL], preferiblemente no más antigua que la v2.0. En caso de problemas, consulta la sección [[Frequently_asked_questions/es#Solución_de_problemas|Solución de problemas]] de este FAQ.
+A diferencia de la mayoría del software CAD 3D, FreeCAD funciona sin problemas incluso en los ordenadores más modestos; se sabe que funciona en procesadores Pentium IV e Intel Core2 Solo CPUs. Si su ordenador utiliza un sistema operativo actual, es probable que FreeCAD funcione. El único requisito previo es que su tarjeta gráfica o chipset sea compatible con [https://en.wikipedia.org/wiki/OpenGL OpenGL], preferiblemente con una versión no anterior a la 2.0. En caso de problemas, consulte la sección de [[Frequently_asked_questions#Troubleshooting|solución de problemas]] de las preguntas frecuentes en este artículo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Multithreading ====
