@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav
-|[[FEM_MeshBoundaryLayer/pl|Warstwa przyścienna siatki MES]]
+|[[FEM_MeshGmshFromShape/pl|Siatka MES z kształtu generowana przez Gmsh]]
 |[[FEM_MeshGroup/pl|Grupa siatki MES]]
 |[[FEM_Workbench/pl|środowisko pracy MES]]
-|IconL=FEM_MeshBoundaryLayer.svg
+|IconL=FEM_MeshGmshFromShape.svg
 |IconR=FEM_MeshGroup.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{GuiCommandContainer|
 {{GuiCommand/pl
