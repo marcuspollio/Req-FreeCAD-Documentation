@@ -213,11 +213,17 @@ The following properties are computed automatically on every recompute and can b
 | {{PropertyData|CountPartialTiles}}
 | Number of tiles that are cut by the boundary.
 |-
+| {{PropertyData|HoleAreas}}
+| The individual area of each hole in the base face, in mm², sorted by size (largest first).
+|-
 | {{PropertyData|NetArea}}
 | Surface area of the base face (the area to be covered).
 |-
 | {{PropertyData|GrossArea}}
 | Total area of material consumed, including partial tiles ordered as full units.
+|-
+| {{PropertyData|OuterArea}}
+| The area enclosed by the outer boundary of the base face, ignoring any holes.
 |-
 | {{PropertyData|WasteArea}}
 | GrossArea − NetArea: the area of cut-off material that is discarded.
