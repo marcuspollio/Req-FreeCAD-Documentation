@@ -16,9 +16,7 @@ FreeCAD utiliza un sistema de entornos de trabajo, donde cada entorno se encarga
 
 Para ahorrar recursos, FreeCAD no carga automáticamente todos los entornos de trabajo disponibles. Consulte [[#Workbenches|Entornos de trabajo]] para obtener más información. Para ver una lista de las preferencias relacionadas con los entornos de trabajo, consulte [[#Workbench_related_preferences|Preferencias relacionadas con los entornos de trabajo]].
 
-<div class="mw-translate-fuzzy">
-Si no hay ningún ambiente de trabajo cargado, aparecen cuatro secciones en el editor de Preferencias: [[#Configuración_general|General]], [[#Configuración_de_pantalla|Pantalla]], [[#Ambientes de trabajo|Ambientes de trabajo]], y [[#Configuración_de_importación|Importación-Exportación]]. Cualquier ambiente de trabajo que haya sido cargado, y tenga sus propias preferencias, aparecerá debajo de estos.
-</div>
+Si no hay ningún entorno de trabajo cargado, aparecen 8 grupos en el editor de preferencias: [[#General|General]], [[#Display|Mostrar]], [[#Workbenches|Entornos de trabajo]], [[#Import-Export|Importar-Exportar]], [[#Python|Python]], [[#Start|Comenzar]], [[#Measure|Medida]] y [[#Addon_Manager|Administración de complementos]]. Los entornos de trabajo que se hayan cargado y tengan sus propias preferencias aparecerán debajo de estos.
 
 Pressing the {{Button|Reset}} button in the lower left corner of the Preferences dialog opens a menu ({{Version|1.0}}) with options to reset preferences to their default values. You can reset the current page, the current group, or all preferences.
 
