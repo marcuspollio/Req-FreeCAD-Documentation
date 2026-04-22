@@ -537,23 +537,26 @@ El {{MenuCommand|Tamaño relativo}} define el tamaño de la representación como
 En esta página puede especificar lo siguiente:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Main Light}}
-| If checked, the objects in the [[3D_View|3D View]] are lit by main light source of three-point lighting from given Horizontal Angle and Vertical Angle. The specified Color and Intensity will be used for it.
+| {{MenuCommand|Luz principal}}
+| Si está marcada, los objetos en la [[3D_View|Vista 3D]] se iluminan con una fuente de luz principal de tres puntos desde el ángulo horizontal y vertical especificados. Se utilizará el color y la intensidad indicados.
+
 |-
-| {{MenuCommand|Back Light}}
-| If checked, the objects in the [[3D_View|3D View]] are lit by back light source of three-point lighting from given Horizontal Angle and Vertical Angle. The specified Color and Intensity will be used for it.
+| {{MenuCommand|Luz de fondo}}
+| Si está marcada, los objetos en la [[3D_View|Vista 3D]] se iluminan con una fuente de luz de fondo de tres puntos desde el ángulo horizontal y vertical especificados. Se utilizará el color y la intensidad indicados.
+
 |-
-| {{MenuCommand|Fill Light}}
-| If checked, the objects in the [[3D_View|3D View]] are lit by fill light source of three-point lighting from given Horizontal Angle and Vertical Angle. The specified Color and Intensity will be used for it.
-|-
-| {{MenuCommand|Ambient Light}}
-| Color and Intensity settings for ambient light.
-|-
-| {{MenuCommand|Preview}}
-| The preview shows a sphere lit by the currently enabled lights. You can zoom the preview in and out with the buttons in the lower left corner.
+| {{MenuCommand|Luz de relleno}}
+| Si está marcada, los objetos en la [[3D_View|Vista_3D]] se iluminan con una fuente de luz de relleno de iluminación de tres puntos desde el ángulo horizontal y el ángulo vertical especificados. Se utilizarán el color y la intensidad indicados.
+
+|-| {{MenuCommand|Luz ambiental}}
+| Ajustes de color e intensidad para la luz ambiental.
+
+|-| {{MenuCommand|Vista previa}}
+| La vista previa muestra una esfera iluminada por las luces activadas. Puede acercar o alejar la vista previa con los botones de la esquina inferior izquierda.
+
 |}
 
 ===UI===
