@@ -167,9 +167,7 @@ El importador de Python utiliza la preferencia {{MenuCommand|'''Editar → Prefe
 | {{MenuCommand|Importar}}
 | Seleccione qué se importará.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If '''texts and dimensions''' is checked, texts and [https://www.autodesk.com/techpubs/autocad/acad2000/dxf/mtext_dxf_06.htm mtexts] will be imported too.
-</div>
+Si '''textos y dimensiones''' está marcada, los textos y [https://www.autodesk.com/techpubs/autocad/acad2000/dxf/mtext_dxf_06.htm mtexts] también se importarán.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If '''points''' is checked, points will be imported too.
