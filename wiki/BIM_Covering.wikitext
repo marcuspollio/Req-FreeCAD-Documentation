@@ -282,13 +282,15 @@ An Arch Covering object shares the common properties and behaviors of all [[Arch
 
 {{TitleProperty|Quantities}}
 
-* {{PropertyData|CountFullTiles}}: Number of uncut tiles.
-* {{PropertyData|CountPartialTiles}}: Number of cut tiles.
-* {{PropertyData|NetArea}}: Surface area of the base face.
-* {{PropertyData|GrossArea}}: Total material area consumed.
-* {{PropertyData|WasteArea}}: Cut-off material area (Gross − Net).
-* {{PropertyData|TotalJointLength}}: Total joint centre-line length.
-* {{PropertyData|PerimeterLength}}: Base face perimeter length.
+* {{PropertyData|CountFullTiles|Integer}}: Number of uncut tiles.
+* {{PropertyData|CountPartialTiles|Integer}}: Number of cut tiles.
+* {{PropertyData|HoleAreas|FloatList}}: Sorted list of individual hole areas, largest first, in mm².
+* {{PropertyData|NetArea|Area}}: Surface area of the base face.
+* {{PropertyData|GrossArea|Area}}: Total material area consumed.
+* {{PropertyData|OuterArea|Area}}: Total covering area including hole areas.
+* {{PropertyData|WasteArea|Area}}: Cut-off material area (Gross − Net).
+* {{PropertyData|TotalJointLength|Length}}: Total joint centre-line length.
+* {{PropertyData|PerimeterLength|Length}}: Base face perimeter length.
 
 {{TitleProperty|Visual}}
 
