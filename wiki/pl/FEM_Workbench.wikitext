@@ -145,9 +145,8 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 
 * [[Image:FEM_MeshGroup.svg|32px]] [[FEM_MeshGroup/pl|Grupa siatki]]: Grupuje i oznacza elementy siatki ''(wierzchołek, krawędź, powierzchnia)'' razem - przydatne do eksportowania siatki do zewnętrznych solverów.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== GMSH Refinements ===
-</div>
+<span id="GMSH_Refinements"></span>
+=== Zagęszczenia GMSH ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:FEM_MeshDistance.svg|32px]] [[FEM_MeshDistance|Distance-Based Refinement]]: Sets mesh size based on the distance to vertices, edges and faces. {{Version|1.2}}
