@@ -1110,15 +1110,15 @@ Las preferencias para los entornos de trabajo integrados se encuentran enlazadas
 * [[Mesh_Workbench#Preferences|Preferencias del diseño de Malla]]
 * [[OpenSCAD_Preferences|Preferencias de OpenSCAD]]
 <!--Las preferencias de diseño de piezas se definen en el entorno de trabajo de piezas y tanto el entorno de trabajo de diseño de piezas como el de piezas las utilizan-->
-* Part Preferences: Preferencias del  [[PartDesign_Preferences|Entorno de Trabajo de Pieza]]
+* [[ PartDesign_Preferences|Preferencias del Entorno de Trabajo de Pieza]]
 * [[PartDesign_Preferences|Preferencias del Diseño de Piezas]]
 * Preferencias para Puntos (ninguna)
-* Preferencias de ingeniería Inversa (none)
+* Preferencias de ingeniería Inversa (ninguna)
 * Preferencias para Robot (ninguna)
-* [[Sketcher_Preferences|Sketcher Preferences]]
-* [[Spreadsheet_Preferences|Preferencias Hoja de Cálculo]]
+* [[Sketcher_Preferences|Preferencias del Bocetador]]
+* [[Spreadsheet_Preferences|Preferencias de la Hoja de Cálculo]]
 * Preferencias de Superficie (ninguna)
-* [[TechDraw_Preferences|TechDraw Preferences]]
+* [[TechDraw_Preferences|Preferencias de TechDraw]]
 * Preferencias el test de Estructuras (none)
 
 ==Scripting==
