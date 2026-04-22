@@ -153,9 +153,7 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 :* [[Image:FEM_MeshDistance.svg|32px]] [[FEM_MeshDistance|Distance-Based Refinement]]: Sets mesh size based on the distance to vertices, edges and faces. {{Version|1.2}}
 </div>
 
-<div class="mw-translate-fuzzy">
-* [[Image:FEM_MeshBoundaryLayer.svg|32px]] [[FEM_MeshBoundaryLayer/de|FEM Netz Grenzschicht]]: Erzeugt anisotrope Netze für genaue Berechnungen in der Nähe von Grenzen.
-</div>
+* [[Image:FEM_MeshBoundaryLayer.svg|32px]] [[FEM_MeshBoundaryLayer/de|2D-Grenzschicht]]: Erzeugt anisotrope Netze für genaue Berechnungen in der Nähe von Grenzen.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:FEM_MeshShape.svg|32px]] [[FEM_MeshShape|Shape-Based Refinement]]: Sets mesh size within and outside of a geometric shape (box, sphere or cylinder). {{Version|1.2}}
