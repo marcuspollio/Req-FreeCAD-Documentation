@@ -298,19 +298,19 @@ En esta página puede especificar lo siguiente:
 | Si está marcada, los nombres de los objetos se antepondrán al número de ID IFC [http://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcutilityresource/lexical/ifcgloballyuniqueid.htm].
 
 |-
-| {{MenúComando|Combinar materiales con el mismo nombre y color}}
+| {{MenuCommand|Combinar materiales con el mismo nombre y color}}
 | Si se encuentran varios materiales con el mismo nombre en el archivo IFC, se tratarán como uno solo.
 
 |-
-| {{MenúComando|Importar propiedades IFC en una hoja de cálculo}}
+| {{MenuCommand|Importar propiedades IFC en una hoja de cálculo}}
 | Si está marcada, cada objeto tendrá sus propiedades IFC [http://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/ifcpropertyresource/lexical/ifcproperty.htm] almacenadas en una hoja de cálculo.
 
 |-
-| {{MenúComando|Permitir formas no válidas}}
+| {{MenuCommand|Permitir formas no válidas}}
 | Si no está marcada, no se importarán las formas no válidas.
 
 |-
-| {{MenúComando|Excluir lista}}
+| {{MenuCommand|Excluir lista}}
 | Lista separada por comas de entidades IFC [https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/toc-5.htm] que se excluirán de las importaciones.
 
 |-
