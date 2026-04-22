@@ -179,11 +179,45 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 * [[Image:FEM_MeshGmshFromShape.svg|32px]] [[FEM_MeshGmshFromShape/it|Mesh FEM da forma con Gmsh]]: Genera una mesh agli elementi finiti per un modello usando Gmsh.
 
-* [[Image:FEM_MeshBoundaryLayer.svg|32px]] [[FEM_MeshBoundaryLayer/it|Strato limite di mesh FEM]]: Crea mesh anisotrope per calcoli accurati vicino ai confini.
-
 * [[Image:FEM_MeshRegion.svg|32px]] [[FEM_MeshRegion/it|Regione di mesh FEM]]: Crea una o più aree localizzate da meshare in modo da ottimizzare il tempo di analisi.
 
 * [[Image:FEM_MeshGroup.svg|32px]] [[FEM_MeshGroup/it|Gruppo di mesh FEM]]: Raggruppa ed etichetta insieme gli elementi di una mesh (vertice, bordo, superficie), utile per esportare la mesh a solutori esterni.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== GMSH Refinements ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+:* [[Image:FEM_MeshDistance.svg|32px]] [[FEM_MeshDistance|Distance-Based Refinement]]: Sets mesh size based on the distance to vertices, edges and faces. {{Version|1.2}}
+</div>
+
+<div class="mw-translate-fuzzy">
+* [[Image:FEM_MeshBoundaryLayer.svg|32px]] [[FEM_MeshBoundaryLayer/it|Strato limite di mesh FEM]]: Crea mesh anisotrope per calcoli accurati vicino ai confini.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+:* [[Image:FEM_MeshShape.svg|32px]] [[FEM_MeshShape|Shape-Based Refinement]]: Sets mesh size within and outside of a geometric shape (box, sphere or cylinder). {{Version|1.2}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+:* [[Image:FEM_MeshManipulate.svg|32px]] [[FEM_MeshManipulate|Manipulate Refinement]]: Allows to manipulate the output of a refinement in various ways. {{Version|1.2}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+:* [[Image:FEM_MeshAdvanced.svg|32px]] [[FEM_MeshAdvanced|Advanced Refinement Types]]: Allows to define the mesh size by various advanced means. {{Version|1.2}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+:* [[Image:FEM_MeshTransfiniteCurve.svg|32px]] [[FEM_MeshTransfiniteCurve|Structured Transfinite Curve]]: Creates a fixed amount of nodes on an edge with a structured algorithm. {{Version|1.2}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+:* [[Image:FEM_MeshTransfiniteSurface.svg|32px]] [[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]: Creates a structured mesh on a face. {{Version|1.2}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+:* [[Image:FEM_MeshTransfiniteVolume.svg|32px]] [[FEM_MeshTransfiniteVolume|Structured Transfinite Volume]]: Creates a structured mesh in a 4- or 5-sided volume bounded by transfinite surfaces. {{Version|1.2}}
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:FEM_CreateElementsSet.svg|32px]] [[FEM_CreateElementsSet|Erase Elements]]: Hides elements selected by a polygon from the mesh. {{Version|1.0}}
