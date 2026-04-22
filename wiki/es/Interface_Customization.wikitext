@@ -214,20 +214,31 @@ Si desea utilizar una macro descargada de otra fuente, deberá instalarla manual
 <span id="Add_a_macro_command"></span>
 ==== Añadir un macrocomando ====
 
-# In the '''Macro''' dropdown list select a macro.
-# Enter a '''Menu text'''. This will be the name used to identify the macro command and will also appear in the toolbar if there is no icon.
-# Optionally enter a '''Tool tip'''. This text will appear near the location of the mouse when you hover the toolbar icon.
-# Optionally enter a '''Status text'''. This text will appear in the [[Status_Bar|Status Bar]] when you hover the toolbar icon.
-# Optionally enter the wiki page for the macro, if available, in the '''What's this''' input box. Enter the page name, not the full URL.
-# Optionally enter a shortcut in the '''Accelerator''' input box. See [[#Keyboard|Keyboard]] for more information.
-# To add an icon:
-## Press the '''Icon''' {{Button|…}} button.
-## The '''Choose Icon''' dialog box opens.
-## If required press the {{Button|Icon Folders}} button to add an icon folder.
-## Select an icon from the panel. The '''Choose Icon''' dialog box closes automatically.
-# Press the {{Button|Add}} button.
-# The macro command appears in the panel on the left.
-# The macro command can now be selected on the [[#Toolbars|Toolbars]] tab.
+# En la lista desplegable '''Macro''', seleccione una macro.
+
+# Introduzca un '''Texto de menú'''. Este será el nombre que se utilizará para identificar el comando de la macro y también aparecerá en la barra de herramientas si no hay un icono.
+
+# Opcionalmente, introduzca una '''Información sobre herramientas'''. Este texto aparecerá cerca de la posición del ratón al pasar el cursor sobre el icono de la barra de herramientas.
+
+# Opcionalmente, introduzca un '''Texto de estado'''. Este texto aparecerá en la [[Status_Bar|Barra_de_estado]] al pasar el cursor sobre el icono de la barra de herramientas.
+
+# Opcionalmente, introduzca la página wiki de la macro, si está disponible, en el cuadro de texto '''¿Qué es esto?'''. Introduzca el nombre de la página, no la URL completa.
+
+# Opcionalmente, introduzca un atajo de teclado en el cuadro de texto '''Acelerador'''. Consulte [[#Keyboard|Teclado]] para obtener más información.
+
+# Para añadir un icono:
+## Pulse el botón '''Icono''' {{Button|…}}.
+## Se abre el cuadro de diálogo '''Elegir icono'''.
+
+## Si es necesario, pulse el botón {{Button|Icon Folders}} para añadir una carpeta de iconos.
+
+## Seleccione un icono del panel. El cuadro de diálogo '''Elegir icono''' se cierra automáticamente.
+
+# Pulse el botón {{Button|Add}}.
+
+# El comando macro aparece en el panel de la izquierda.
+
+# Ahora puede seleccionar el comando macro en la pestaña [[#Toolbars|Barra de herramientas]].
 
 <span id="Remove_a_macro_command"></span>
 ====Elimina un macrocomando====
