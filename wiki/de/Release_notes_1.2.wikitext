@@ -297,7 +297,6 @@ ToDo (last check: 20260412):
 <span id="Further_Sketcher_improvements"></span>
 === Weitere Sketcher-Verbesserungen ===
 
-<div class="mw-translate-fuzzy">
 * Es ist nun möglich, Bézier- und Versatz-Kurven als [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection/de|externe Geometrie]] zu importieren. [https://github.com/FreeCAD/FreeCAD/pull/25144 Pull-Request #25144]
 * Werden Maße kreisförmiger Elemente bearbeitet, kann jetzt zwischen Radius und Durchmesser gewechselt werden. [https://github.com/FreeCAD/FreeCAD/pull/26794 Pull-Request #26794]
 * Die Liste der Randbedingungen zeigt jetzt die Art der Randbedingung im Namen an. [https://github.com/FreeCAD/FreeCAD/pull/26797 Pull-Request #26797]
@@ -308,7 +307,7 @@ ToDo (last check: 20260412):
 * Die Eigenschaften Grid und Make Internals sind jetzt für neue Skizzen standardmäßig aktiviert und eine Einstellung für die Transparenz des Rasters wurde hinzugefügt. [https://github.com/FreeCAD/FreeCAD/pull/28771 Pull-Request #28771] und [https://github.com/FreeCAD/FreeCAD/pull/28791 Pull-Request #28791]
 * Ausgewählte Randbedingungen für Abstände (Punkt-Linie, Kreis-Kreis und Kreis-Linie) verwende jetzt eine Ausrichtung, um [[Sketcher_Workbench/de#Flipping|Flipping]] zu verhindern. [https://github.com/FreeCAD/FreeCAD/pull/26518 Pull-Request #26518]
 * Die Option ''Symmetrie-Randbedingungen erstellen'' des Werkzeugs  [[Image:Sketcher_Symmetry.svg|24px]] [[Sketcher_Symmetry/de|Spiegeln]] wurde verbessert, um Überbestimmtheit zu vermeiden. Es ist jetzt auch standardmäßig aktiviert. [https://github.com/FreeCAD/FreeCAD/pull/28118 Pull-Request #28118] und [https://github.com/FreeCAD/FreeCAD/pull/28319 Pull-Request #28319]
-</div>
+* Es gibt jetzt eine Schaltfläche ''Abbrechen'', die es ermöglichen, Änderungen an einer Skizze zu verwerfen. [https://github.com/FreeCAD/FreeCAD/pull/29337 Pull-Request #29337]
 
 <span id="Spreadsheet_Workbench"></span>
 == Arbeitsbereich Spreadsheet ==
