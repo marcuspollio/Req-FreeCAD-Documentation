@@ -84,9 +84,7 @@ En algunos casos excepcionales, es posible que tenga instalado un controlador gr
 
 Puede haber dos caminos para este problema: o simplemente falta alguna librería, por lo que FreeCAD se negará a iniciarse, o la librería está ahí, pero es una versión más antigua que la que FreeCAD espera, por lo que se producirá un fallo cuando FreeCAD intente usar una característica que falta de esa librería. Un ejemplo común es cuando tiene Qt3 y Qt4 instalado en tu sistema, FreeCAD podría detectar Qt4 pero si su instalación de Qt no está configurada correctamente, algunas piezas de Qt3 podrían seguir siendo utilizadas, provocando fallos.
 
-<div class="mw-translate-fuzzy">
-Por favor, revise el procedimiento de instalación ([[Installing_on_Windows/es|Windows]], [[Installing_on_Linux/es|Linux]] o [[Installing_on_Mac/es|Mac]]), asegúrese de que ha instalado todas las librerías necesarias (en la mayoría de los sistemas linux esto se hace automáticamente), y compruebe cuál es el número de versión mínimo para cada uno de los componentes.
-</div>
+Por favor, revise el procedimiento de instalación de ([[Instalación_en_Windows|Windows]], [[Instalación_en_Linux|Linux]] o [[Instalación_en_Mac|Mac]]). Asegúrese de haber instalado todas las bibliotecas necesarias (en la mayoría de los sistemas Linux esto se hace automáticamente) y compruebe cuál es el número de versión mínimo para cada uno de los componentes.
 
 Si todo parece correcto, describe el problema en el [http://forum.freecad.org/ foro] o en [[Tracker/es|enviar un error]]. Si estás en un sistema linux, es fácil hacer un backtrace de depuración, que proporciona información muy útil sobre el fallo a los desarrolladores:
 * en un terminal, escriba {{SystemInput|gdb freecad}} (asumiendo que el paquete gdb está instalado)
