@@ -213,9 +213,7 @@ Para comprender mejor las operaciones booleanas, consulte estos artículos:
 <span id="When_I_export_(or_view)_my_model,_the_holes_are_filled_in"></span>
 === Cuando exporto (o visualizo) mi modelo, los agujeros se rellenan ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Don't use {{KEY|Ctrl}} + {{KEY|A}} (Select All) to export everything from the hierarchy tree. If the model is of one single item, try selecting only the newest item (usually the last one) in the hierarchy tree.
-</div>
+No utilice {{KEY|Ctrl}} + {{KEY|A}} (Seleccionar todo) para exportar todo el árbol de jerarquía. Si el modelo consta de un solo elemento, intente seleccionar únicamente el elemento más reciente (normalmente el último) en el árbol de jerarquía.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 As we create a model in the [[PartDesign_Workbench|PartDesign Workbench]], each feature takes the shape of the last one and adds or removes something, creating linear dependencies from feature to feature as the model is created. Hence a "Cut" feature is not only the cut hole itself, but the whole part with the cut. This is why the user usually should only have the newest item (feature) in the model tree visible, because otherwise the phases of the model overlay each other, and holes are filled in by the earlier model features.
