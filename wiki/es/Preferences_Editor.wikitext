@@ -92,7 +92,7 @@ Esta opción solo tiene efecto si no se ha seleccionado ninguna {{MenuCommand|ho
 
 La imagen se puede cambiar agregando las carpetas {{FileName|Gui/Images}} en la carpeta:
 
-{{FileName|[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/ %APPDATA%]/FreeCAD}} (on Windows),
+{{FileName|[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/ %APPDATA%]/FreeCAD}} (en Windows),
 
 {{FileName|$HOME/.FreeCAD}} (on Linux) or
 
