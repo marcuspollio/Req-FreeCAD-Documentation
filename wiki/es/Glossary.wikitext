@@ -105,7 +105,7 @@ Ir a la letra {{CompactTOC|center=yes}}
 
 {{gloss}}
 {{term|DAG}}
-{{defn|defn=Vea [[#Directed_Acyclic_Graph|grafo cíclico dirigido]].}}
+{{defn|defn=Vea [[#Directed_Acyclic_Graph|grafo acíclico dirigido]].}}
 {{term|Degrees Of Freedom}}
 {{defn|defn=El número de formas en la que la geometría de un [[#Sketch|boceto]] puede variar. Por ejemplo, si tenemos un boceto que consta de un solo punto, y a ese punto no se le aplican [[#Constraint|restricciones]], el punto tiene dos [[#DOF|grados de libertad]] porque puede moverse libremente tanto vertical como horizontalmente. De manera similar, un croquis que consta de un solo círculo sin restricciones tiene tres [[#DOF|grados de libertad]] porque el círculo puede moverse vertical y horizontalmente y, además, el radio no está definido. Restringir un boceto hasta que no tenga [[#DOF|grados de libertad]] restantes es la mejor manera de diseñar una pieza. En ese caso se dice que el boceto está [[#Fully_Constrained|completamente restringido]].}}
 {{term|Dependency Graph}}
@@ -118,10 +118,10 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{term|DOF}}
 {{defn|defn=[[#Degrees_Of_Freedom|Degrees Of Freedom]]}}
 {{term|Draft|content=[[Draft_Workbench|Draft]]}}
-{{defn|no=1|defn=Un [[#Workbench|workbench]] de FreeCAD utilizado principalmente para trabajos bidimensionales.}}
-{{defn|no=2|defn=Ángulo de alivio en un molde para permitir la extracción del producto terminado. Véase [[PartDesign_Draft|PartDesign Draft]].}}
+{{defn|no=1|defn=Un [[#Workbench|entorno de trabajo]] de FreeCAD utilizado principalmente para la elaboración de gráficos bidimensionales.}}
+{{defn|no=2|defn=Ángulo de alivio en un molde para permitir la extracción del producto terminado. Véase [[PartDesign_Draft|diseño de boceto]].}}
 {{term|Drawing}}
-{{defn|defn=Describe una representación geométrica mediante el uso de vistas bidimensionales. También llamado plano o [[#Blueprint|blueprint]].}}
+{{defn|defn=Describe una representación geométrica mediante el uso de vistas bidimensionales. También llamado plano o [[#Blueprint|cianotipo]].}}
 {{glossend}}
 
 <span id="E"></span>
