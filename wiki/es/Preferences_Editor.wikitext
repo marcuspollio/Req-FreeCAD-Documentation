@@ -831,32 +831,40 @@ Este grupo de preferencias tiene tres páginas: Macro, General y Editor.
 En esta página puede especificar lo siguiente:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
+
 |-
-| {{MenuCommand|Run macros in local environment}}
-| If checked, variables defined by macros are created as local variables, otherwise as global Python variables.
+| {{MenuCommand|Ejecutar macros en el entorno local}}
+| Si está marcada, las variables definidas por las macros se crean como variables locales; de lo contrario, como variables globales de Python.
+
 |-
-| {{MenuCommand|Macro path}}
-| Specifies the path for macro files.
+| {{MenuCommand|Ruta de la macro}}
+| Especifica la ruta de los archivos de macros.
+
 |-
-| {{MenuCommand|Record GUI commands}}
-| If checked, [[Std_DlgMacroRecord|recorded macros]] will also contain user interface commands.
+| {{MenuCommand|Registrar comandos de la interfaz gráfica}}
+| Si está marcada, las macros registradas también contendrán comandos de la interfaz de usuario.
+
 |-
-| {{MenuCommand|Record as comment}}
-| If checked, [[Std_DlgMacroRecord|recorded macros]] will also contain user interface commands, but as comments. This is useful if you don't want to execute these commands when running the macro, but do want to see what has been done while recording.
+| {{MenuCommand|Registrar como comentario}}
+| Si está marcada, las macros registradas también contendrán comandos de la interfaz de usuario, pero como comentarios. Esto es útil si no desea ejecutar estos comandos al ejecutar la macro, pero sí desea ver qué se ha hecho durante la grabación.
+
 |-
-| {{MenuCommand|Show script commands in python console}}
-| If checked, the commands executed by macro scripts are shown in the Python Console. This console can be opened using the {{MenuCommand|View → Panels → Python Console}} menu option.
+| {{MenuCommand|Mostrar comandos de script en la consola de Python}}
+| Si está marcada, los comandos ejecutados por los scripts de macro se muestran en la consola de Python. Esta consola se puede abrir mediante la opción de menú {{MenuCommand|'''Ver → Paneles → Consola de Python'''}}.
+
 |-
-| {{MenuCommand|Size of recent macro list}}
-| Controls the number of recent macros to display in the menu.
+| {{MenuCommand|Tamaño de la lista de macros recientes}}
+| Controla la cantidad de macros recientes que se muestran en el menú.
+
 |-
-| {{MenuCommand|Shortcut count}}
-| Controls the number of recent macros that get dynamically assigned shortcuts.
+| {{MenuCommand|Número de atajos}}
+| Controla la cantidad de macros recientes a las que se les asignan atajos de teclado dinámicamente.
+
 |-
-| {{MenuCommand|Keyboard Modifiers}}
-| Controls which keyboard modifiers are used for the shortcuts, example '''Ctrl+Shift+''' creates shortcuts in the form of '''Ctrl+Shift+1''', '''Ctrl+Shift+2''', etc.
+| {{MenuCommand|Modificadores de teclado}}
+| Controla qué teclas modificadoras se utilizan para los atajos de teclado; por ejemplo, '''Ctrl+Shift+'' crea atajos como '''Ctrl+Shift+1''', '''Ctrl+Shift+2''', etc.
 |}
 
 ===General===
