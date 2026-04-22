@@ -779,31 +779,38 @@ Estas preferencias controlan la carga del entorno de trabajo.
 En esta página puede especificar lo siguiente:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Workbench list}}
-| The list displays all installed workbenches. The list can be reordered by drag and drop and sorted by right-clicking the list and selecting {{MenuCommand|Sort alphabetically}} ({{Version|1.0}}). The order of the list also determines the order of the [[Std_Workbench|Workbench selector]].
-* {{MenuCommand|First checkbox in each row}}: If checked, the workbench will be available in the Workbench selector in the next FreeCAD session. The start up workbench cannot be unchecked. Unchecked workbenches are moved to the bottom of the list.
-* {{MenuCommand|Auto-load}}: If checked, the workbench will auto-load when FreeCAD starts. Loading more workbenches will make the start up slower, but switching between workbenches that have already been loaded is faster.
-* {{Button|Load}}: Press this button to load the workbench in the current FreeCAD session.
+| {{MenuCommand|Lista de entornos de trabajo}}
+| La lista muestra todos los entornos de trabajo instalados. Se puede reordenar arrastrando y soltando, y ordenar haciendo clic derecho sobre la lista y seleccionando {{MenuCommand|Ordenar alfabéticamente}} ({{Version|1.0}}). El orden de la lista también determina el orden del [[Std_Workbench|Selector de entornos de trabajo]].
+
+* {{MenuCommand|Primera casilla de verificación de cada fila}}: Si está marcada, el entorno de trabajo estará disponible en el selector de entornos de trabajo en la siguiente sesión de FreeCAD. El entorno de trabajo de inicio no se puede desmarcar. Los entornos de trabajo desmarcados se mueven al final de la lista.
+
+* {{MenuCommand|Carga automática}}: Si está marcada, el entorno de trabajo se cargará automáticamente al iniciar FreeCAD. Cargar más entornos de trabajo ralentizará el inicio, pero cambiar entre entornos de trabajo ya cargados será más rápido.
+
+* {{Button|Cargar}}: Pulse este botón para cargar el entorno de trabajo en la sesión actual de FreeCAD.
+
 |-
-| {{MenuCommand|Workbench selector items style}} {{Version|1.0}}
-| The options are:
-* '''Icon & Text'''
-* '''Icon'''
-* '''Text'''
+| {{MenuCommand|Estilo de elementos del selector de entorno de trabajo}} {{Version|1.0}}
+| Las opciones son:
+* '''Icono y texto'''
+* '''Icono'''
+* '''Texto'''
+
 |-
-| {{MenuCommand|Workbench selector type}} {{Version|1.0}}
-| The options are:
-* '''ComboBox''': Workbenches can be selected from a dropdown list.
-* '''TabBar''': Workbenches can be selected from a tab bar. This takes fewer clicks than the previous option, but takes up more screen space.
-|-
-| {{MenuCommand|Start up workbench}}
-| The workbench that is activated when FreeCAD starts.
-|-
-| {{MenuCommand|Remember active workbench by tab}}
-| If checked, FreeCAD will remember and restore the workbench that was active for each tab in the [[Main_View_Area|Main View Area]].
+| {{MenuCommand|Tipo de selector de entorno de trabajo}} {{Version|1.0}}
+| Las opciones son:
+* '''ComboBox''': Los entornos de trabajo se pueden seleccionar desde una lista desplegable.
+
+* '''TabBar''': Los entornos de trabajo se pueden seleccionar desde una barra de pestañas. Esto requiere menos clics que la opción anterior, pero ocupa más espacio en la pantalla.
+
+|-| {{MenuCommand|Iniciar entorno de trabajo}}
+| El entorno de trabajo que se activa al iniciar FreeCAD.
+
+|-| {{MenuCommand|Recordar entorno de trabajo activo por pestaña}}
+| Si está marcada, FreeCAD recordará y restaurará el entorno de trabajo que estaba activo para cada pestaña en el [[Main_View_Area|Área de vista principal]].
+
 |}
 
 <span id="Import-Export"></span>
