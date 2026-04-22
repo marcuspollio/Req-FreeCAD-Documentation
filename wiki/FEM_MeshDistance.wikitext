@@ -59,6 +59,9 @@ After the mesh has been created you can change its properties using the [[Proper
 
 You can create as many different distance-based refinements as needed.
 
+[[File:FEM_distance_based_refinement.PNG|700px]]
+{{Caption|Example of distance-based mesh refinement}}
+
 
 {{Docnav
 |[[FEM_MeshGroup|Mesh Group]]
