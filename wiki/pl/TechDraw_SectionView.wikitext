@@ -106,10 +106,12 @@ Widok przekroju, formalnie obiekt {{Incode|TechDraw::DrawViewSection}}, wywodzi 
 <span id="Notes"></span>
 ==Uwagi==
 
+<div class="mw-translate-fuzzy">
 * '''Format linii przekroju''': obsługiwane są dwa formaty linii przekroju (jak pokazano powyżej) i kontrolowane przez ustawienie preferencji "Standard linii przekroju" na karcie Adnotacja. Opcja {{Value|ANSI}} używa "ciągnących strzałek" ''(znanych jako "tradycyjny format" w niektórych obszarach)'', a opcja {{Value|ISO}} używa "pchających strzałek" ''(znanych również jako "format strzałki odniesienia")''.
 * "Połącz przed wycięciem": operacja przekroju czasami nie wycina kształtów źródłowych. Jeśli parametr "Połącz przed wycięciem" ma wartość true, kształty źródłowe są łączone w jeden kształt przed próbą wykonania operacji przekroju. Jeśli wystąpią problemy z operacją przekroju, należy spróbować zmienić tę wartość.
 * '''Przytnij po wycięciu''': operacja przekroju czasami pozostawia część kształtu źródłowego. Jeśli parametr ''Przytnij po cięciu'' ma wartość true, na wyniku pierwszego cięcia wykonywana jest dodatkowa operacja cięcia, która powinna usunąć wszelkie niechciane elementy.
 * '''Wyświetlanie powierzchni cięcia''': powierzchnia cięcia może być ukryta, pomalowana na jednolity kolor, zakreskowana przy użyciu wzoru Svg ''(domyślnie)'' lub zakreskowana przy użyciu wzoru PAT. Zobacz temat [[TechDraw_Hatching/pl|kreskowanie]].
+</div>
 
 <span id="Scripting"></span>
 ==Tworzenie skryptów==
