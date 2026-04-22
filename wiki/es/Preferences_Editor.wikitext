@@ -915,38 +915,46 @@ La configuración de color y fuente también la utiliza la [[Python_Console|Cons
 En esta página puede especificar lo siguiente:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Enable line numbers}}
-| If checked, the code lines will be numbered.
+| {{MenuCommand|Habilitar numeración de líneas}}
+| Si está marcada, las líneas de código se numerarán.
+
 |-
-| {{MenuCommand|Enable block cursor}}
-| If checked, the cursor will have a block shape.
+| {{MenuCommand|Habilitar cursor de bloque}}
+| Si está marcada, el cursor tendrá forma de bloque.
+
 |-
-| {{MenuCommand|Tab size}}
-| Specifies the tabulator raster (how many spaces). If it is for example set to '''6''', pressing {{KEY|Tab}} will jump to character 7 or 13 or 19 etc., depending on the current cursor position. This setting is only used if {{MenuCommand|Keep tabs}} is selected.
+| {{MenuCommand|Tamaño de tabulación}}
+| Especifica la cuadrícula del tabulador (cuántos espacios). Si, por ejemplo, se establece en '''6''', al pulsar {{KEY|Tab}} se saltará al carácter 7, 13, 19, etc., según la posición actual del cursor. Esta configuración solo se utiliza si {{MenuCommand|Mantener tabulaciones}} está seleccionada.
+
 |-
-| {{MenuCommand|Indent size}}
-| Specifies how many spaces will be inserted when pressing {{KEY|Tab}}. This setting is only used if {{MenuCommand|Insert spaces}} is selected.
+| {{MenuCommand|Tamaño de sangría}}
+| Especifica cuántos espacios se insertarán al pulsar {{TECLA|Tab}}. Esta configuración solo se usa si se selecciona {{MenúComando|Insertar espacios}}.
+
 |-
-| {{MenuCommand|Keep tabs}}
-| If selected, pressing {{KEY|Tab}} will insert a tabulator with the raster defined by {{MenuCommand|Tab size}}.
+| {{MenúComando|Mantener tabulaciones}}
+| Si se selecciona, al pulsar {{TECLA|Tab}} se insertará un tabulador con la trama definida por {{MenúComando|Tamaño de tabulación}}.
+
 |-
-| {{MenuCommand|Insert spaces}}
-| If selected, pressing {{KEY|Tab}} will insert the amount of spaces defined by {{MenuCommand|Indent size}}.
+| {{MenúComando|Insertar espacios}}
+| Si se selecciona, al pulsar {{TECLA|Tab}} se insertará la cantidad de espacios definida por {{MenúComando|Tamaño de sangría}}.
+
 |-
-| {{MenuCommand|Display Items}}
-| Specifies the code type the color and font settings will be applied to. The result can be checked in the {{MenuCommand|Preview}} field.
+| {{MenúComando|Mostrar elementos}}
+| Especifica el tipo de código al que se aplicarán los ajustes de color y fuente. El resultado se puede comprobar en el campo {{MenúComando|Vista previa}}.
+
 |-
-| {{MenuCommand|Family}}
-| Specifies the font family that should be used for the selected code type.
-|-
-| {{MenuCommand|Size}}
-| Specifies the font size that should be used for the selected code type.
-|-
-| {{MenuCommand|Color}}
-| Specifies the color that should be used for the selected code type.
+| {{MenúComando|Familia}}
+| Especifica la familia de fuentes que se debe usar para el tipo de código seleccionado.
+
+|-| {{MenuCommand|Size}}
+| Especifica el tamaño de fuente que se debe usar para el tipo de código seleccionado.
+
+|-| {{MenuCommand|Color}}
+| Especifica el color que se debe usar para el tipo de código seleccionado.
+
 |}
 
 ==Start==
