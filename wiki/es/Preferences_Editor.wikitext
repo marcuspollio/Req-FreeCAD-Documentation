@@ -879,26 +879,32 @@ Tenga en cuenta que la configuración de color y fuente para la consola se defin
 En esta página puede especificar lo siguiente:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Enable word wrap}}
-| If checked, words will be wrapped if they exceed the available horizontal space in the console.
+| {{MenuCommand|Habilitar ajuste de línea}}
+| Si está marcada, las palabras se ajustarán si exceden el espacio horizontal disponible en la consola.
+
 |-
-| {{MenuCommand|Enable block cursor}}
-| If checked, the cursor will have a block shape.
+| {{MenuCommand|Habilitar cursor de bloque}}
+| Si está marcada, el cursor tendrá forma de bloque.
+
 |-
-| {{MenuCommand|Save history}}
-| If checked, Python history is saved across sessions.
+| {{MenuCommand|Guardar historial}}
+| Si está marcada, el historial de Python se guarda entre sesiones.
+
 |-
-| {{MenuCommand|Python profiler interval (milliseconds)}} {{Version|1.0}}
-| The interval at which the profiler runs when there is Python code running (to keep the GUI responding). Set to 0 to disable.
+| {{MenuCommand|Intervalo del generador de perfiles de Python (milisegundos)}} {{Version|1.0}}
+| El intervalo en el que se ejecuta el generador de perfiles cuando hay código Python en ejecución (para mantener la interfaz gráfica respondiendo). Establecer en 0 para deshabilitar.
+
 |-
-| {{MenuCommand|Path to external Python executable (optional)}}
-| Used for package installation with pip and debugging with debugpy. Autodetected if needed and not specified.
+| {{MenuCommand|Ruta al ejecutable externo de Python (opcional)}}
+| Se utiliza para la instalación de paquetes con pip y la depuración con debugpy. Se detecta automáticamente si es necesario y no se especifica.
+
 |}
 
-===Editor===
+<span id="Editor"></span>
+=== Editor ===
 
 [[Image:Preferences_Python_Page_Editor.png|400px]]
 
