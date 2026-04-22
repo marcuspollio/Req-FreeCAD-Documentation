@@ -148,13 +148,9 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 <span id="GMSH_Refinements"></span>
 === Zagęszczenia GMSH ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:FEM_MeshDistance.svg|32px]] [[FEM_MeshDistance|Distance-Based Refinement]]: Sets mesh size based on the distance to vertices, edges and faces. {{Version|1.2}}
-</div>
+:* [[Image:FEM_MeshDistance.svg|32px]] [[FEM_MeshDistance/pl|Zagęszczenie oparte o odległość]]: Ustawia rozmiar siatki w oparciu o odległość do wierzchołków, krawędzi i ścian. {{Version/pl|1.2}}
 
-<div class="mw-translate-fuzzy">
-* [[Image:FEM_MeshBoundaryLayer.svg|32px]] [[FEM_MeshBoundaryLayer/pl|Warstwa graniczna siatki]]: Tworzy anizotropowe siatki dla dokładnych obliczeń przy brzegach.
-</div>
+:* [[Image:FEM_MeshBoundaryLayer.svg|32px]] [[FEM_MeshBoundaryLayer/pl|Warstwa graniczna 2D]]: Tworzy anizotropowe siatki dla dokładnych obliczeń przy brzegach.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:FEM_MeshShape.svg|32px]] [[FEM_MeshShape|Shape-Based Refinement]]: Sets mesh size within and outside of a geometric shape (box, sphere or cylinder). {{Version|1.2}}
