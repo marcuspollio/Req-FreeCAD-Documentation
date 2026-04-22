@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[FEM_MeshGroup/fr|Grouper un maillage]]
 |[[FEM_FemMesh2Mesh/fr|Maillage FEM en maillage surfacique]]
@@ -8,6 +9,7 @@
 |IconR=FEM_FemMesh2Mesh.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{GuiCommand/fr
 |Name=FEM CreateElementsSet
@@ -44,6 +46,7 @@ Masque les éléments sélectionnés par un polygone dans le maillage FEM ou le 
 * Pour masquer d'autres éléments du même maillage FEM après la première utilisation de l'outil, vous devez sélectionner manuellement le nouveau maillage (modifié). Ce n'est pas le cas avec les maillages de résultats.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[FEM_MeshGroup/fr|Grouper un maillage]]
 |[[FEM_FemMesh2Mesh/fr|Maillage FEM en maillage surfacique]]
@@ -52,6 +55,7 @@ Masque les éléments sélectionnés par un polygone dans le maillage FEM ou le 
 |IconR=FEM_FemMesh2Mesh.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
