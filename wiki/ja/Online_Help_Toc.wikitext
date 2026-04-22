@@ -23,6 +23,7 @@
 ** [[Document_structure/ja|FreeCADファイルの構造]] (FStdファイルの構造)
 ** [[Property_View/ja|プロパティビュー]]
 
+<div class="mw-translate-fuzzy">
 * [[Workbenches/ja|ワークベンチ]]
 <!--Please keep this list consistent with User_hub, Workbenches and Manual:The_FreeCAD_Interface-->
 ** [[Image:Freecad.svg|32px]] [[Std_Base/ja|共通ツール]] (すべてのワークベンチに共通のツール)
@@ -46,6 +47,7 @@
 ** [[Image:Workbench_TechDraw.svg|32px]] [[TechDraw_Workbench/ja|テックドローワークベンチ]]
 ** [[Image:Workbench_Test.svg|32px]] [[Testing/ja|テストフレームワークワークベンチ]]
 ** [[External_workbenches/ja|外部ワークベンチ]]
+</div>
 
 * [[List_of_Commands|FreeCADコマンド一覧]]
 
@@ -78,15 +80,12 @@
 ** [[Interface_creation|インタフェースの作成]]
 ** [[Dialog_creation|ダイアログの作成]]
 
-<div class="mw-translate-fuzzy">
 * 開発
 ** [[License/ja|ライセンス]]
 ** FreeCADのコンパイル
 *** [[Compile_on_Windows/ja|Windowsでのコンパイル]]
 *** [[Compile_on_Linux/ja|Linuxでのコンパイル]]
-*** [[https://freecad.github.io/DevelopersHandbook/gettingstarted/#pixi Compiling on MacOS|MacOSでのコンパイル]]
-*** [[Compile_on_Docker/ja|Dockerでのコンパイル]]
-*** [[FreeCAD_Docker_CLI_mode/ja|Docker CLIでのコンパイル]]
+*** [[https://freecad.github.io/DevelopersHandbook/gettingstarted/#pixi Compiling on MacOS|macOSでのコンパイル]]
 *** [[Compiling_(Speeding_up)/ja|コンパイルのスピード向上]]
 *** [[Third_Party_Libraries/ja|第三者提供ライブラリ]]
 *** [[Third_Party_Tools/ja|第三者提供ツール]]
@@ -103,7 +102,6 @@
 *** [[Extra_python_modules/ja|外部Pythonモジュールの追加]]
 ** [[Source_documentation/ja|ソースコードのドキュメンテーション]]
 ** [https://www.freecad.org/api/ API]
-</div>
 
 * 貢献者
 **[[Contributors|貢献者一覧]]
