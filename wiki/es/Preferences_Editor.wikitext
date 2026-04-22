@@ -471,49 +471,62 @@ Este grupo de preferencias tiene seis páginas estándar: Vista 3D, Fuentes de l
 En esta página puede especificar lo siguiente:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Show coordinate system in the corner}}
-| If checked, the main coordinate system will be shown in the lower right corner of the [[3D_View|3D View]].
-The {{MenuCommand|Relative size}} defines the size of the representation as a percentage of the view size (the minimum of its height and width). The {{MenuCommand|Letter color}} defines the color of the axis letters. {{Version|1.1}}: The {{MenuCommand|X-axis color}}, {{MenuCommand|Y-axis color}} and {{MenuCommand|Z-axis color}} define the colors of the axes.
+| {{MenuCommand|Mostrar sistema de coordenadas en la esquina}}
+| Si está marcada, el sistema de coordenadas principal se mostrará en la esquina inferior derecha de la [[3D_View|Vista 3D]].
+
+El {{MenuCommand|Tamaño relativo}} define el tamaño de la representación como un porcentaje del tamaño de la vista (el mínimo entre su altura y anchura). El {{MenuCommand|Color de las letras}} define el color de las letras de los ejes. {{Versión|1.1}}: {{MenuCommand|Color del eje X}}, {{MenuCommand|Color del eje Y}} y {{MenuCommand|Color del eje Z}} definen los colores de los ejes.
+
 |-
-| {{MenuCommand|Show axis cross by default}}
-| If checked, the axis cross will be shown by default in the [[3D_View|3D View]].
+| {{MenuCommand|Mostrar cruz de ejes por defecto}}
+| Si está marcada, la cruz de ejes se mostrará por defecto en la [[3D_View|Vista 3D]].
+
 |-
-| {{MenuCommand|Show counter of frames per second}}
-| If checked, the time needed for the last operation and the resulting [https://en.wikipedia.org/wiki/Frame_rate frame rate] will be shown in the lower left corner of the [[3D_View|3D View]].
+| {{MenuCommand|Mostrar contador de fotogramas por segundo}}
+| Si está marcada, el tiempo necesario para la última operación y la [https://en.wikipedia.org/wiki/Frame_rate] velocidad de fotogramas resultante se mostrarán en la esquina inferior izquierda de la [[3D_View|Vista 3D]].
+
 |-
-| {{MenuCommand|Use software OpenGL}}
-| If checked, [https://en.wikipedia.org/wiki/OpenGL OpenGL] will use the CPU instead of the GPU. This option is useful for troubleshooting graphics card and driver problems. Changing this option requires a restart of the application.
+| {{MenuCommand|Usar OpenGL por software}}
+| Si está marcada, [https://en.wikipedia.org/wiki/OpenGL] utilizará la CPU en lugar de la GPU. Esta opción es útil para solucionar problemas de la tarjeta gráfica y los controladores. Cambiar esta opción requiere reiniciar la aplicación.
+
 |-
-| {{MenuCommand|Use OpenGL VBO (Vertex Buffer Object)}}
-| If checked, [https://en.wikipedia.org/wiki/Vertex_Buffer_Object Vertex Buffer Objects] (VBO) will be used. A VBO is an [https://en.wikipedia.org/wiki/OpenGL OpenGL] feature that provides methods for uploading vertex data (position, normal vector, color, etc.) to the graphics card. VBOs offer substantial performance gains because the data resides in the graphics memory rather than the system memory and so it can be rendered directly by the GPU. For more background info see [https://www.haroldserrano.com/blog/understanding-opengl-objects Understanding OpenGL Objects].
+| {{MenuCommand|Usar OpenGL VBO (Objeto de búfer de vértices)}}
+| Si está marcada, se utilizarán los objetos de búfer de vértices (VBO). Un VBO es una característica de OpenGL que proporciona métodos para cargar datos de vértices (posición, vector normal, color, etc.) a la tarjeta gráfica. Los VBO ofrecen mejoras sustanciales en el rendimiento porque los datos residen en la memoria gráfica en lugar de la memoria del sistema, por lo que la GPU puede renderizarlos directamente. Para obtener más información, consulte la documentación sobre objetos de OpenGL (https://www.haroldserrano.com/blog/understanding-opengl-objects).
+
+|-| {{MenuCommand|Render Cache}}
+| La "Caché de renderizado" o "Aceleración de renderizado" se explica con más detalle en la documentación de FreeCAD Assembly 3 (https://github.com/realthunder/FreeCAD_assembly3/wiki/Link#render-caching). Las opciones son:
+* '''Automático''': Coin3D decide dónde almacenar en caché (predeterminado).
+
+* '''Distribuido''': Activa manualmente la caché para todos los nodos raíz de los proveedores de vista.
+
+* '''Centralizado''': Desactiva manualmente la caché en todos los nodos de todos los proveedores de vista y solo la almacena en el nodo raíz del grafo de escena. Esto ofrece la velocidad de renderizado más rápida, pero una respuesta más lenta a los cambios en la escena.
+
 |-
-| {{MenuCommand|Render Cache}}
-| "Render Cache" or "Render Acceleration" is explained in more detail in [https://github.com/realthunder/FreeCAD_assembly3/wiki/Link#render-caching FreeCAD assembly3 render-caching]. The options are:
-* '''Auto''': Let Coin3D decide where to cache (default).
-* '''Distributed''': Manually turn on cache for all view provider root nodes.
-* '''Centralized''': Manually turn off cache in all nodes of all view providers, and only cache at the scene graph root node. This offers the fastest rendering speed, but slower response to any scene changes.
+| {{MenuCommand|Suavizado de bordes}}
+| Especifica si se utiliza y de qué tipo [https://en.wikipedia.org/wiki/Multisample_anti-aliasing]
 |-
-| {{MenuCommand|Anti-Aliasing}}
-| Specifies if and what type of [https://en.wikipedia.org/wiki/Multisample_anti-aliasing multisample anti-aliasing] is used
+| {{MenuCommand|Objetos transparentes}}
+| Especifica el tipo de renderizado de objetos transparentes. Las opciones son:
+* '''Una pasada''': El renderizado se realiza en una sola pasada (predeterminado). Esto puede generar artefactos triangulares. Si se producen, se puede utilizar el tipo '''Paso de cara posterior''' para evitarlos.
+* '''Paso de caras posteriores''': El renderizado se realiza en dos pasadas. Los polígonos posteriores se renderizan en la primera pasada y los frontales en la segunda.
+
 |-
-| {{MenuCommand|Transparent objects}}
-| Specifies the render type of transparent objects. The options are:
-* '''One pass''': Rendering is done in one pass (default). This can lead to triangular artifacts. If these occur the type '''Backface pass''' can be used to avoid them.
-* '''Backface pass''': Rendering is done in two passes. Back-facing polygons are rendered in the first pass and front-facing polygons in the second pass.
+| {{MenuCommand|Tamaño del marcador}}
+| Especifica el tamaño de los [[Glossary#Vertex|vértices]] (puntos) en el [[Entorno de trabajo del dibujante|Entorno de trabajo del dibujante]]. El área clicable de los puntos se puede ampliar aumentando el {{MenuCommand|Radio de selección}}.
+
 |-
-| {{MenuCommand|Marker size}}
-| Specifies the size of [[Glossary#Vertex|vertices]] (points) in the [[Sketcher_Workbench|Sketcher Workbench]]. The clickable area of points can be additionally enlarged by increasing the {{MenuCommand|Pick radius}}.
+| {{MenuCommand|Distancia entre ojos para modos estéreo}}
+| Especifica la distancia entre ojos utilizada para las proyecciones estéreo. El valor especificado es un factor que se multiplicará por el tamaño del [[Property_View#View|cuadro delimitador]] del objeto 3D que se muestra actualmente.
+
 |-
-| {{MenuCommand|Eye to eye distance for stereo modes}}
-| Specifies the eye-to-eye distance used for stereo projections. The specified value is a factor that will be multiplied with the [[Property_View#View|bounding box]] size of the 3D object that is currently displayed.
-|-
-| {{MenuCommand|Camera type}}
-| Specifies the camera projection type. The options are:
-* '''Perspective rendering''': Objects will appear in a [[Std_PerspectiveCamera|perspective projection]].
-* '''Orthographic rendering''': Objects will be appear in an [[Std_OrthographicCamera|orthographic projection]].
+| {{MenuCommand|Tipo de cámara}}
+| Especifica el tipo de proyección de la cámara. Las opciones son:
+* '''Renderizado en perspectiva''': Los objetos aparecerán en una [[Std_PerspectiveCamera|proyección en perspectiva]].
+
+* '''Renderizado ortográfico''': Los objetos aparecerán en una [[Std_OrthographicCamera|proyección ortográfica]].
+
 |}
 
 ===Light Sources===
