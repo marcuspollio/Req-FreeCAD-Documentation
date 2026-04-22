@@ -109,10 +109,12 @@ A Section View, formally a {{Incode|TechDraw::DrawViewSection}} object, is deriv
 <span id="Notes"></span>
 == 보충 설명 ==
 
+<div class="mw-translate-fuzzy">
 * '''단면선 형식''': 두 가지 단면선 형식이 지원되며(위에 표시된 대로) 주석 탭의 기본 설정 "단면선 표준"에 의해 제어됩니다. {{Value|ANSI}} 옵션은 "당기는 화살표"(일부 지역에서는 "전통 형식"이라고 함)를 사용하고, {{Value|ISO}} 옵션은 "밀어내는 화살표"(참조 화살표 형식이라고도 함)를 사용합니다.
 * '''Fuse Before Cut''': the section operation sometimes fails to cut the source shapes. If '''Fuse Before Cut''' is true, the source shapes are merged into a single shape before the section operation is attempted. If you encounter problems with the section operation, try flipping this value.
 * '''Trim After Cut''': the section cut operation sometimes leaves behind a portion of the source shape. If '''Trim After Cut''' is true, an additional cut operation is performed on the result of the first cut which should remove any unwanted pieces.
 * '''Cut Surface Display''': the cut surface can be hidden, painted in a solid color, hatched using an Svg pattern (default) or hatched using a PAT pattern. See [[TechDraw_Hatching|Hatching]].
+</div>
 
 ==Scripting==
 
