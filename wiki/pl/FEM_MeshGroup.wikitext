@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav
 |[[FEM_MeshRegion/pl|Zagęszczenie siatki MES]]
-|[[FEM_CreateElementsSet/pl|Utwórz zestaw elementów]]
+|[[FEM_MeshDistance/pl|Zagęszczenie oparte o odległość]]
 |[[FEM_Workbench/pl|środowisko pracy MES]]
 |IconL=FEM_MeshRegion.svg
-|IconR=FEM_CreateElementsSet.svg
+|IconR=FEM_MeshDistance.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{GuiCommand/pl
 |Name=FEM MeshGroup
