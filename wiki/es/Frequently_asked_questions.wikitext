@@ -238,19 +238,24 @@ Ha conocido el (infame) problema de nomenclatura topológica (PNT). Este problem
 <span id="FreeCAD_is_such_a_great_program!_How_can_I_help?"></span>
 === ¡FreeCAD es un gran programa! ¿Cómo puedo ayudar? ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-There are a lot of different ways to help, even if you are not a programmer. Here are a couple of things you can do:
-* Give some feedback to the FreeCAD developers: It is always useful to know what people think, what they found good, what they miss, etc. Drop a note on the [https://forum.freecad.org forum] giving your opinion or make a request in our [https://github.com/FreeCAD/FreeCAD/issues Issues section]!
-* Help with writing documentation: The documentation we have here on this site is sometimes very limited. If you discovered something that is not well documented, add your knowledge there!
-* Help others newcomers: Hang around the forum, and help new people to solve basic questions, like how do I install, how do I add a cube, etc.
-* [[Help_FreeCAD#Translate_the_documentation|Translate the documentation]] into your own language
-* [[Help_FreeCAD#Translate_FreeCAD|Translate FreeCAD]] into your own language
-* Write [[Tutorials|Tutorials]], or record video tutorials: Tutorials are a very easy way for newcomers to learn a new software. If you did some nice stuff, why not show other people how to do it?
-* Contribute with assets and examples: We are still missing good example files in FreeCAD. If you created something good, share it with us!
-* [https://github.com/FreeCAD/FreeCAD/issues Submit bugs]: It is very important to have all possible bugs fixed. If you find one, report it as clearly as possible, so we can understand exactly what's happening.
-* Try to do some Python coding: You never programmed before but you want to try? Python is easy. Read our [[Introduction_to_Python|introduction to Python]], but beware, you might get addicted quickly!
-* See the [[Help_FreeCAD|Help FreeCAD]] page for more details on how to contribute.
-</div>
+Hay muchas maneras de contribuir al desarrollo de FreeCAD, incluso si no es programador. Aquí tienes algunas sugerencias:
+
+* Comparta su opinión con los desarrolladores de FreeCAD: Siempre es útil saber qué piensan los usuarios, qué les pareció bien, qué les falta, etc. Deje un comentario en el foro [https://forum.freecad.org] o envíe una solicitud en la sección de Problemas [https://github.com/FreeCAD/FreeCAD/issues].
+
+* Colabore con la documentación: La documentación disponible en este sitio a veces es muy limitada. Si encuentras algo que no esté bien documentado, ¡comparta tu conocimiento!
+
+* Ayude a los nuevos usuarios: Participe en el foro y ayude a los principiantes a resolver preguntas básicas, como cómo instalar el programa, cómo añadir un cubo, etc.
+* [[Help_FreeCAD#Translate_the_documentation|Traduzca la documentación]] a su idioma
+* [[Help_FreeCAD#Translate_FreeCAD|Traduzca FreeCAD]] a su idioma
+* Escriba [[Tutorials|Tutoriales]] o grabe vídeotutoriales: Los tutoriales son una forma muy sencilla para que los principiantes aprendan un nuevo software. Si ha creado algo interesante, ¿por qué no compartirlo con otros?
+
+* Contribuya con recursos y ejemplos: Todavía nos faltan buenos ejemplos en FreeCAD. Si ha creado algo útil, ¡compártalo con nosotros!
+
+* [https://github.com/FreeCAD/FreeCAD/issues Informe de errores]: Es muy importante corregir todos los errores posibles. Si encuentra alguno, informe con la mayor claridad posible para que podamos entender exactamente qué ocurre.
+
+* Anímase a programar en Python: ¿Nunca ha programado pero quiere intentarlo? Python es fácil. Lee nuestra [[Introducción_a_Python|Introducción_a_Python]], ¡pero tenga cuidado, es una actividad adictiva y podría engancharse rápidamente!
+
+* Consulte la página de [[Ayuda_FreeCAD|Ayuda_a_FreeCAD]] para obtener más información sobre cómo contribuir.
 
 <span id="How_can_I_get_edit_permission_on_the_wiki?"></span>
 === ¿Cómo puedo obtener permiso de edición en el wiki? ===
