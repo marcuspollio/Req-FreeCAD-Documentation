@@ -46,7 +46,7 @@ En esta pestaña se pueden definir combinaciones de teclas personalizadas. Las c
 <span id="Search"></span>
 ==== Buscar ====
 
-You can search for commands by entering at least 3 characters of their menu text or name in the search field. The search is case-insensitive.
+Puede buscar comandos introduciendo al menos 3 caracteres de su texto o nombre en el campo de búsqueda. La búsqueda no distingue entre mayúsculas y minúsculas.
 
 It is also possible to search for shortcuts:
 * In the search field special keys in shortcuts must be entered as strings. For example to search for commands that use {{KEY|Ctrl}} in their shortcut enter {{Value|ctrl}} (4 letters).
