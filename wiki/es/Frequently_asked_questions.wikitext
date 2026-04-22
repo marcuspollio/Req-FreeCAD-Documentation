@@ -147,15 +147,13 @@ FreeCAD es software de código abierto (https://en.wikipedia.org/wiki/Open-sourc
 <span id="How_do_I_rotate_the_3D_view?"></span>
 === ¿Cómo puedo girar la vista 3D? ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 <center>
-<gallery widths="300" heights="200">
-Image:Style_of_navigation.png|From the {{KEY|right mouse button}}
-Image:Style of navigation menu.png|From the menu {{MenuCommand|Edit → Preferences →}}
+<gallery width="300" height="200">
+Imagen:Style_of_navigation.png|Desde el ({{KEY|botón derecho del ratón)}}
+Imagen:Style of navigation menu.png|Desde el menú {{MenuCommand|Editar → Preferencias →}}
 </gallery>
 </center>
 {{clear}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 FreeCAD has several different [[Mouse_navigation|navigation modes]] available, that can be set in the preferences settings dialog or changed by right-clicking in the 3D view. For full details about the modes, see the [[Mouse_navigation|Mouse navigation]] page.
