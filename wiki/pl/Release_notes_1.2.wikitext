@@ -54,6 +54,7 @@ Starsze informacje na temat wydań FreeCAD można znaleźć na stronie [[Feature
 <span id="Further_Core_improvements"></span>
 ===Pozostałe ulepszenia rdzenia===
 
+<div class="mw-translate-fuzzy">
 * Pasek wyszukiwania w [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences/pl|Ustawieniach]] może teraz uwzględniać podpowiedzi, opcje z list rozwijanych, pola wyboru i tytuły grup. [https://github.com/FreeCAD/FreeCAD/pull/24283 Pull request #24283]
 * Narzędzie [[Image:Std_Measure.svg|24px]] [[Std_Measure/pl|Pomiary]] zyskało opcję wyświetlania pomiaru dla elementów okrągłych w formie średnicy zamiast promienia. [https://github.com/FreeCAD/FreeCAD/pull/24853 Pull request #24853]
 * Narzędzie [[Image:Std_Measure.svg|24px]] [[Std_Measure/pl|Pomiary]] wspiera teraz pomiar promienia i średnicy ścian cylindrycznych. [https://github.com/FreeCAD/FreeCAD/pull/27044 Pull request #27044]
@@ -63,6 +64,7 @@ Starsze informacje na temat wydań FreeCAD można znaleźć na stronie [[Feature
 * Narzędzie [[Image:Std_Measure.svg|24px]] [[Std_Measure/pl|Pomiary]] wyświetla teraz jednostki pola powierzchni za pomocą indeksów górnych standardu unicode. [https://github.com/FreeCAD/FreeCAD/pull/28044 Pull request #28044]
 * Makra wspierają teraz ścieżki, umożliwiając zbieranie plików związanych z nimi. [https://github.com/FreeCAD/FreeCAD/pull/27005 Pull request #27005]
 * [[Image:Part CoordinateSystem.svg|24px]] [[Std_Base/pl#Menu_Struktura|Geometrie odniesienia]] korzystają teraz z właściwości ''Show Placement'', dzięki czemu odsunięcia [[Part_EditAttachment/pl|dołączenia]] (bez obrotów) w lokalnych współrzędnych są bardziej intuicyjne. [https://github.com/FreeCAD/FreeCAD/pull/29176 Pull request #29176]
+</div>
 
 === API ===
 
@@ -296,6 +298,7 @@ ToDo (last check: 20260412):
 <span id="Further_Sketcher_improvements"></span>
 ===Pozostałe ulepszenia środowiska Szkicownik===
 
+<div class="mw-translate-fuzzy">
 * Możliwe jest już importowanie krzywych typu Bézier i Offset jako [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection/pl|Geometrii zewnętrznej]]. [https://github.com/FreeCAD/FreeCAD/pull/25144 Pull request #25144]
 * Podczas tworzenia lub edycji wymiarów kołowych, możliwe jest przełączanie między promieniem a średnicą. [https://github.com/FreeCAD/FreeCAD/pull/26794 Pull request #26794]
 * Lista wiązań zawiera teraz typ wiązania w jego nazwie. [https://github.com/FreeCAD/FreeCAD/pull/26797 Pull request #26797]
@@ -306,6 +309,7 @@ ToDo (last check: 20260412):
 * Właściwości Grid i Make Internals są teraz domyślnie włączone dla nowych szkiców i dodano również preferencję przezroczystości siatki. [https://github.com/FreeCAD/FreeCAD/pull/28771 Pull request #28771] oraz [https://github.com/FreeCAD/FreeCAD/pull/28791 Pull request #28791]
 * Wybrane wiązania odległości (punkt-linia, okrąg-okrąg oraz okrąg-linia) wykorzystują teraz orientację, aby zapobiegać [[Sketcher_Workbench/pl#Flipping|odwracaniu]]. [https://github.com/FreeCAD/FreeCAD/pull/26518 Pull request #26518]
 * Opcja ''Utwórz wiązania symetrii'' narzędzia [[Image:Sketcher_Symmetry.svg|24px]] [[Sketcher_Symmetry/pl|Symetria]] została ulepszona, aby unikać nadmiarowych więzów. Jest ona teraz również domyślnie włączona. [https://github.com/FreeCAD/FreeCAD/pull/28118 Pull request #28118] oraz [https://github.com/FreeCAD/FreeCAD/pull/28319 Pull request #28319]
+</div>
 
 <span id="Spreadsheet_Workbench"></span>
 ==Środowisko pracy Arkusz Kalkulacyjny==
