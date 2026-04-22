@@ -314,12 +314,11 @@ En esta página puede especificar lo siguiente:
 | Lista separada por comas de entidades IFC [https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD1/HTML/schema/toc-5.htm] que se excluirán de las importaciones.
 
 |-
-| {{MenuCommand|Ajustar vista durante la importación}}
-| Ajusta la vista durante la importación de los objetos importados. Esto ralentizará la importación, pero permite supervisarla.
-
+| {{MenuCommand|Fit view while importing}}
+|  Fit view during import on the imported objects. This will slow down the import, but one can watch the import.
 |-
-| {{MenuCommand|Importar definiciones paramétricas completas de FreeCAD si están disponibles}}
-| Crea un modelo paramétrico completo durante la importación utilizando las propiedades de los objetos de FreeCAD almacenadas.
+| {{MenuCommand|Import full FreeCAD parametric definitions if available}}
+|  Creates a full parametric model on import using stored FreeCAD object properties.
 
 Para obtener las propiedades de FreeCAD, el modelo debe haberse exportado utilizando la opción {{MenuCommand|Exportar modelo paramétrico completo de FreeCAD}}.
 
