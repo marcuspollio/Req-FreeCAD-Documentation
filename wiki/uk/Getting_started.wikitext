@@ -202,7 +202,7 @@ Any user can develop their own new features for FreeCAD and make them available 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 There are three types of addons:
 * [[Macros|Macros]]: short snippet of [[Python|Python]] code that provides a new tool or functionality in a single file ending with {{incode|.FCMacro}}.
-* [https://www.freecad.org/addons.php Workbenches]]: collections of Python files that provide related [[Gui_Command|Gui Commands]] (tools) centered around a particular topic.
+* [https://www.freecad.org/addons.php Workbenches]: collections of Python files that provide related [[Gui_Command|Gui Commands]] (tools) centered around a particular topic.
 * [[Preference_Packs|Preference Packs]]: distributable collections of user preferences.
 </div>
 
