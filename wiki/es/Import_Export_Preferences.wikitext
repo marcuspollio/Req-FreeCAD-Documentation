@@ -406,13 +406,12 @@ Tenga en cuenta que esta función aún está en fase experimental.
 
 '''Advertencia''': El estándar IFC requiere al menos un edificio en cada archivo. Si desactiva esta opción, generará un archivo IFC no estándar.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-However, at FreeCAD we believe having a building should not be mandatory, and this option is there to have a chance to demonstrate our point of view.
-|-
-| {{MenuCommand|Export nested groups as assemblies}}
-| In FreeCAD, it is possible to nest groups inside buildings or storeys. If this option is disabled, FreeCAD groups will be saved as IfcGroups and aggregated to the building structure. Aggregating non-building elements such as IfcGroups is however not recommended by the IFC standards. It is therefore also possible to export these groups as IfcElementAssemblies, which produces an IFC-compliant file. However, at FreeCAD, we believe nesting groups inside structures should be possible, and this option is there to have a chance to demonstrate our point of view.
+Sin embargo, en FreeCAD creemos que tener un edificio no debería ser obligatorio, y esta opción está disponible para que podamos demostrar nuestro punto de vista.
+
+|-| {{MenuCommand|Exportar grupos anidados como ensamblajes}}
+| En FreeCAD, es posible anidar grupos dentro de edificios o plantas. Si esta opción está desactivada, los grupos de FreeCAD se guardarán como IfcGroups y se agregarán a la estructura del edificio. Sin embargo, los estándares IFC no recomiendan agregar elementos que no sean edificios, como IfcGroups. Por lo tanto, también es posible exportar estos grupos como IfcElementAssemblies, lo que genera un archivo compatible con IFC. No obstante, en FreeCAD creemos que debería ser posible anidar grupos dentro de estructuras, y esta opción está disponible para que podamos demostrar nuestro punto de vista.
+
 |}
-</div>
 
 ===IGES===
 
