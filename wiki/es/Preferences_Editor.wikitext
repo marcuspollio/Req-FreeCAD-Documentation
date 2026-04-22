@@ -745,13 +745,16 @@ En esta página puede especificar lo siguiente:
 | {{MenuCommand|Renderizado a dos caras}}
 | Si está marcada, el valor predeterminado para la propiedad {{PropertyView|Iluminación}} es {{value|Dos caras}} en lugar de {{valor|Una cara}}. {{value|Dos caras}} significa que el color de la cara interior de las caras es el mismo que el de la cara exterior. {{value|Una cara}} significa que su color es el [[#3D_View|color de retroiluminación]], si está habilitado, o negro.
 
-|-| {{MenuCommand|Mostrar cuadro delimitador para mallas resaltadas o seleccionadas}}
+|-
+| {{MenuCommand|Mostrar cuadro delimitador para mallas resaltadas o seleccionadas}}
 | Si está marcada, el valor predeterminado para la propiedad {{PropertyView|Estilo de selección}} es {{value|BoundBox}} en lugar de {{value|Forma}}. {{value|BoundBox}} significa que se muestra un cuadro delimitador resaltado si las mallas están resaltadas o seleccionadas. {{value|Forma}} significa que se resalta la forma en sí.
 
-|-| {{MenuCommand|Definir normal por vértice}}
+|-
+| {{MenuCommand|Definir normal por vértice}}
 | Si está marcada, se utiliza el sombreado Phong [https://en.wikipedia.org/wiki/Phong_shading]; de lo contrario, se utiliza el sombreado plano. El sombreado define la apariencia de las superficies. Con el sombreado plano, las normales de la superficie no se definen por vértice. Esto produce una apariencia poco realista en superficies curvas. En cambio, el sombreado Phong ofrece una apariencia más realista y suave.
 
-|-| {{MenuCommand|Ángulo de pliegue}}
+|-
+| {{MenuCommand|Ángulo de pliegue}}
 | El ángulo de pliegue es un ángulo umbral entre dos caras. Solo se puede configurar si se utiliza la opción {{MenuCommand|Definir normal por vértice}}.
 
 :Si el ángulo de la cara es mayor o igual que el ángulo de pliegue, se utiliza el sombreado de facetas.
