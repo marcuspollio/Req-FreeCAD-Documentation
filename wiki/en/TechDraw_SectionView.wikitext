@@ -98,7 +98,7 @@ A Section View, formally a {{Incode|TechDraw::DrawViewSection}} object, is deriv
 
 == Notes ==
 
-* '''Section Line Format''': two section line formats are supported (as depicted above) and controlled by the Preference setting "Section Line Standard" on the Annotation tab. The {{Value|ANSI}} option uses "pulling arrows" (known as the "traditional format" in some areas) and the {{Value|ISO}} option uses "pushing arrows" (also known as the "reference arrow format").
+* '''Section Line Format''': two section line formats are supported (as depicted above) and controlled by the Preference setting "Section line convention" on the General page. The {{Value|ANSI}} option uses "pulling arrows" (also known as the "traditional format") and the {{Value|ISO}} option uses "pushing arrows" (also known as the "reference arrow format").
 * '''Fuse Before Cut''': the section operation sometimes fails to cut the source shapes. If '''Fuse Before Cut''' is true, the source shapes are merged into a single shape before the section operation is attempted. If you encounter problems with the section operation, try flipping this value.
 * '''Trim After Cut''': the section cut operation sometimes leaves behind a portion of the source shape. If '''Trim After Cut''' is true, an additional cut operation is performed on the result of the first cut which should remove any unwanted pieces.
 * '''Cut Surface Display''': the cut surface can be hidden, painted in a solid color, hatched using an Svg pattern (default) or hatched using a PAT pattern. See [[TechDraw_Hatching|Hatching]].
