@@ -10,9 +10,7 @@
 <span id="Introduction"></span>
 ==Introducción==
 
-<div class="mw-translate-fuzzy">
-Para iniciar el '''Editor de preferencias''' seleccione la opción {{MenuCommand|Edición → Preferencias...}} del menú. En Mac OS la opción {{MenuCommand|Preferencias...}} aparece en el menú {{MenuCommand|FreeCAD}} (este es el lugar por defecto para las preferencias en Mac).
-</div>
+Para iniciar el '''Editor de preferencias''', seleccione la opción {{MenuCommand|Editar → Preferencias}} del menú o ({{Version|1.1}}) use el atajo de teclado {{KEY|Ctrl}}+{{KEY|,}}. En macOS, la opción {{MenuCommand|Preferencias}} aparece en el menú {{MenuCommand|FreeCAD}} (este es el lugar predeterminado para las preferencias en Mac).
 
 <div class="mw-translate-fuzzy">
 FreeCAD utiliza un concepto de ambiente de trabajo, donde cada ambiente de trabajo es responsable de tareas y funciones específicas. Un ambiente de trabajo puede tener sus propias preferencias. Estas sólo aparecerán en el editor de Preferencias si el ambiente de trabajo ha sido cargado en la sesión actual de FreeCAD. Ver [[#Ambiente de trabajo|Ambiente de trabajo]] más abajo para más información.
