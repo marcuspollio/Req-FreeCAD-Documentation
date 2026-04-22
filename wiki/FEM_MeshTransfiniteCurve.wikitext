@@ -60,6 +60,7 @@ After the mesh has been created you can change its properties using the [[Proper
 <!--T:9-->
 You can create as many different transfinite curves as needed.
 
+<!--T:11-->
 [[File:FEM_transfinite_curve.png|400px]]
 {{Caption|Surface mesh with the highlighted edges using the transfinite algorithm with progression (bias) towards the edge of the cutout}}
 
