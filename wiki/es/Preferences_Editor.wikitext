@@ -986,20 +986,24 @@ Este grupo de preferencias tiene una sola página: Apariencia
 En esta página puede especificar lo siguiente:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Text size}}
-| Specifies the size of the text in pixels.
+| {{MenuCommand|Tamaño del texto}}
+| Especifica el tamaño del texto en píxeles.
+
 |-
-| {{MenuCommand|Text color}}
-| Specifies the color of the text.
+| {{MenuCommand|Color del texto}}
+| Especifica el color del texto.
+
 |-
-| {{MenuCommand|Line color}}
-| Specifies the color of the line connecting the text label with the measured element(s).
+| {{MenuCommand|Color de la línea}}
+| Especifica el color de la línea que conecta la etiqueta de texto con el/los elemento(s) medido(s).
+
 |-
-| {{MenuCommand|Background color}}
-| Specifies the background color of the text label.
+| {{MenuCommand|Color de fondo}}
+| Especifica el color de fondo de la etiqueta de texto.
+
 |}
 
 ==Addon Manager==
