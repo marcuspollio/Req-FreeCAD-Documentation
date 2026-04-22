@@ -22,9 +22,8 @@ No todas las páginas de preferencias de importación y exportación están disp
 
 Las preferencias DXF y SVG que se enumeran aquí no la utilizan los comandos [[File:TechDraw_ExportPageSVG.svg|24px]] [[TechDraw_ExportPageSVG|Exportar página como SVG]] y [[File:TechDraw_ExportPageDXF.svg|24px]] [[TechDraw_ExportPageDXF|Exportar página como DXF]] del [[Image:Workbench_TechDraw.svg|24px]] [[TechDraw_Workbench|Entorno de Trabajo TechDraw]], ni por la opción de exportación [[TechDraw_Workbench|TechDraw]]: {{MenuCommand|'''Archivo → Exportar → Dibujo técnico (*.svg *.dxf *.pdf)'''}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===IFC files===
-</div>
+<span id="IFC_files"></span>
+=== Archivos IFC ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Some NativeIFC specific IFC import and export preferences can be found under the [[BIM_Preferences|BIM Preferences]].
