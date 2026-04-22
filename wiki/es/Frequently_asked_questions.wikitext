@@ -23,7 +23,7 @@ A diferencia de la mayoría del software CAD 3D, FreeCAD funciona sin problemas 
 <span id="Multithreading"></span>
 ==== Multihilo ====
 
-El núcleo de modelado geométrico subyacente de FreeCAD, la biblioteca de terceros [http://en.wikipedia.org/wiki/Open_Cascade_Technology Tecnología OpenCASCADE] (OCCT), [https://forum.freecad.org/viewtopic.php?f=4&t=17501&p=173095&hilit=Multithread#p173095 sólo tiene soporte parcial de multihilo en este momento]. Mira la página [[multithreading/es|multithreading]] para más detalles.
+El núcleo de modelado geométrico subyacente de FreeCAD, la biblioteca de terceros [https://en.wikipedia.org/wiki/Open_Cascade_Technology OpenCASCADE Technology] (OCCT), [https://forum.freecad.org/viewtopic.php?f=4&t=17501&p=173095&hilit=Multithread#p173095 en este momento solo tiene soporte parcial para multihilo]. Consulte la página [[multithreading|multihilo]] para más detalles.
 
 <span id="What_if_I_want_to_compile_FreeCAD_myself?"></span>
 === ¿Qué pasa si quiero compilar FreeCAD yo mismo? ===
