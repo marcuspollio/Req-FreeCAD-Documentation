@@ -212,7 +212,7 @@ En esta pestaña se pueden configurar comandos de macro. Una vez configurados, s
 Si desea utilizar una macro descargada de otra fuente, deberá instalarla manualmente. Consulte [[How_to_install_macros|Cómo instalar macros]] para obtener más información. Tenga en cuenta que FreeCAD utiliza una carpeta específica para macros y solo se pueden configurar las macros que se encuentren en esa carpeta. Utilice el comando [[Imagen:Std_DlgMacroExecute.svg|16px]] [[Std_DlgMacroExecute|Std DlgMacroExecute]] para encontrar esta carpeta en su sistema.
 
 <span id="Add_a_macro_command"></span>
-====Añadir un macrocomando====
+==== Añadir un macrocomando ====
 
 # In the '''Macro''' dropdown list select a macro.
 # Enter a '''Menu text'''. This will be the name used to identify the macro command and will also appear in the toolbar if there is no icon.
