@@ -160,17 +160,12 @@ Este método está desactivado por defecto. Para activarlo, ve a {{MenuCommand|E
 In Maya-Gesture Navigation, panning, zooming, and rotating the view require the {{KEY|Alt}} key together with a mouse button; therefore, a three-button mouse is required. It's also possible to use gestures as this style was developed over the [[#Gesture_navigation|Gesture navigation]] style.
 </div>
 
-<div class="mw-translate-fuzzy">
-{{MayaGesture Navigation
-|Select_name=Selección
-|Pan_name=Pan
+{{MayaGesture_Navigation
+|Select_name=Select
 |Zoom_name=Zoom
-|Rotate_view_name=Rotar la vista
-|Alt={KEY|Alt}}
-|Select_text=Presione el botón izquierdo del ratón sobre un objeto que desee seleccionar.
-|Pan_text=Mantenga pulsados {{KEY|Alt}} y el botón central del ratón, luego mueva el puntero.
-|Zoom_text=Mantenga pulsados {{KEY|Alt}} y el botón derecho del ratón, luego mueva el puntero.
-</div>
+|Rotate_view_name=Rotate view
+|Pan_name=Pan
+|Tilt_view_name=Tilt view
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |Alt={{KEY|Alt}}
