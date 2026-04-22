@@ -107,12 +107,12 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{term|DAG}}
 {{defn|defn=See [[#Directed_Acyclic_Graph|Directed Acyclic Graph.]]}}
 {{term|Degrees Of Freedom}}
-{{defn|defn=El número de manerar en un [[#Sketch|boceto]] pueden varias. Por ejemplo, si tenemos un boceto que consta de un solo punto y a ese punto no se le aplican restricciones, el punto tiene dos grados de libertad (DOF) porque puede moverse tanto vertical como horizontalmente. De manera similar, un boceto que consta de un solo círculo sin [[#Constraint|restricciones]] tiene tres grados de libertad [[#DOF|DOF]] porque el círculo puede moverse vertical y horizontalmente y, además, el radio no está definido. Es recomendable restringir un boceto hasta que no le queden grados de libertad [[#DOF|DOF]], en cuyo caso se dice que está [[#Fully_Constrained|completamente restringido]].}}
+{{defn|defn=El número de formas en que la geometría en un [[#Sketch|boceto]] puede variar. Por ejemplo, si tenemos un boceto que consta de un solo punto, y a ese punto no se le aplican [[#Constraint|restricciones]], el punto tiene dos [[#DOF|grados de libertad]] porque puede moverse libremente tanto vertical como horizontalmente. De manera similar, un croquis que consta de un solo círculo sin restricciones tiene tres [[#DOF|grados de libertad]] porque el círculo puede moverse vertical y horizontalmente y, además, el radio no está definido. Restringir un boceto hasta que no tenga [[#DOF|grados de libertad]] restantes es la mejor manera de diseñar una pieza. En ese caso se dice que el boceto está [[#Fully_Constrained|completamente restringido]].}}
 {{term|Dependency Graph}}
-{{defn|defn=Una herramienta gráfica de terceros que muestra cómo los objetos de un modelo FreeCAD se utilizan entre sí o se relacionan. Para obtener más información, consulte la página wiki [[Std_DependencyGraph|Dependency Graph]].}}
+{{defn|defn=Una herramienta gráfica de terceros que muestra cómo los objetos de un modelo FreeCAD se utilizan entre sí o se relacionan. Para obtener más información, consulte la página wiki [[Std_DependencyGraph|dependencia gráfica]].}}
 {{term|Difference}}
 {{defn|no=1|defn=El resultado o resto de una resta.}}
-{{defn|no=2|defn=Una [[#Boolean_operation|operación booleana]] en el [[Part_Workbench|Part]] [[#Workbench|workbench]] que se utiliza para restar una geometría de otra; el resultado es un [[#Cut|Corte]].}}
+{{defn|no=2|defn=Una [[#Boolean_operation|operación booleana]] en el [[#Workbench|entorno de trabajo]] de [[Part_Workbench|pieza]] que se utiliza para restar una geometría de otra; el resultado es un [[#Cut|corte]].}}
 {{term|Grafo acíclico dirigido}} (abreviado como "DAG")
 {{defn|defn=Un tipo de [[#Dependency_Graph|Grafo de dependencias]] donde la relación entre objetos fluye en una dirección generalmente lineal de principio a fin, sin dependencias circulares. Al seguir un DAG, no hay flujo de un objeto A a ningún otro objeto y luego de vuelta al mismo objeto A. En FreeCAD, un grafo del modelo siempre debe ser un DAG.}}
 {{term|DOF}}
