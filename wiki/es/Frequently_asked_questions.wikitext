@@ -134,9 +134,7 @@ Esto también puede ocurrir si tenía instalada una versión anterior de FreeCAD
 FreeCAD debería iniciarse ahora con normalidad, con todos sus ajustes restablecidos.
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-There is a [[Macro_findConfigFiles|Macro findConfigFiles]] available to help in locating your configuration files. It can be installed using the Addon Manager in the Tools menu. {{MenuCommand|Tools → Addon Manager → Macros → findConfigFiles}}. The macro will find your config file folder, copy it to the clipboard, and (attempt to) open that location with your default file browser. It makes no changes to your files or settings.
-</div>
+Existe una macro llamada [[Macro_findConfigFiles|Macro findConfigFiles]] que le ayudará a localizar sus archivos de configuración. Puede instalarla usando el Administrador de complementos en el menú Herramientas: {{MenuCommand|Herramientas → Administrador de complementos → Macros → findConfigFiles}}. La macro encontrará la carpeta de sus archivos de configuración, la copiará al portapapeles e intentará abrirla con su explorador de archivos predeterminado. No modifique sus archivos ni su configuración.
 
 <span id="Using_FreeCAD"></span>
 == Utilizando FreeCAD ==
