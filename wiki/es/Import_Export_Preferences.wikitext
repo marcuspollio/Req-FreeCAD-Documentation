@@ -53,39 +53,46 @@ Nota para usuarios de Linux: Para manejar este formato de archivo, FreeCAD requi
 
 En esta página puede especificar lo siguiente:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Scaling factor}}
-| All dimensions in the file will be scaled with the specified factor.
+| {{MenuCommand|Factor de escala}}
+| Todas las dimensiones del archivo se escalarán con el factor especificado.
+
 |-
-| {{MenuCommand|Mesher}}
-|  Sets the meshing program that should be used. If using ''Netgen'', make sure that it is available. This can be checked by using the [[Image:Workbench_Mesh.svg|24px]] [[Mesh_Workbench|Mesh Workbench]] and [[Mesh_FromPartShape|creating a mesh]] using Netgen. If it is not available another version of FreeCAD, compiled with Netgen, must be installed.
+| {{MenuCommand|Mallador}}
+| Establece el programa de mallado que se debe usar. Si usa ''Netgen'', asegúrese de que esté disponible. Esto se puede comprobar usando [[Image:Workbench_Mesh.svg|24px]] [[Mesh_Workbench|Entorno de Trabajo de Mallado]] y [[Mesh_FromPartShape|creando una malla]] con Netgen. Si no está disponible, debe instalarse otra versión de FreeCAD compilada con Netgen.
+
 |-
-| {{MenuCommand|Tessellation}}
-|  The tessellation value to use with the ''Builtin'' and the ''Mefisto'' meshing program.
+| {{MenuCommand|Teselación}}
+| Valor de teselación que se utilizará con los programas de mallado «Builtin» y «Mefisto».
+
 |-
-| {{MenuCommand|Grading}}
-|  The grading value to use for meshing using ''Netgen''. This value describes how fast the mesh size decreases. The gradient of the local mesh size {{incode|h(x)}} is bound by {{incode|abs(Δh(x)) ≤ 1/value}}.
+| {{MenuCommand|Gradación}}
+| Valor de gradación que se utilizará para el mallado con «Netgen». Este valor describe la rapidez con la que disminuye el tamaño de la malla. El gradiente del tamaño de la malla local {{incode|h(x)}} está limitado por {{incode|abs(Δh(x)) ≤ 1/value}}.
+
 |-
-| {{MenuCommand|Segments per edge}}
-|  The maximum number of segments per edge.
+| {{MenuCommand|Segmentos por arista}}
+| Número máximo de segmentos por arista.
+
 |-
-| {{MenuCommand|Segments per radius}}
-|  The number of segments per radius.
+| {{MenuCommand|Segments por radio}}
+| Número de segmentos por radio.
+
 |-
-| {{MenuCommand|Second order}}
-|  Allow a second order mesh.
+| {{MenuCommand|Segundo orden}}
+| Permite una malla de segundo orden.
+
 |-
-| {{MenuCommand|Optimize}}
-|  Allow optimization.
+| {{MenuCommand|Optimización}}
+| Permite la optimización.
+
 |-
-| {{MenuCommand|Allow quads}}
-|  Allow [https://en.wikipedia.org/wiki/Types_of_mesh#Two-dimensional quadrilateral faces].
+| {{MenuCommand|Permitir cuadriláteros}}
+| Permitir [https://en.wikipedia.org/wiki/Types_of_mesh#Two-dimensional quadrilateral faces].
+
 |}
-</div>
 
 ===DWG===
 
