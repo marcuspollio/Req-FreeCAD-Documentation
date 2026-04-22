@@ -159,7 +159,7 @@ Raytracing tutorial result.png|link=[[Raytracing_tutorial]]|[[Tutorial de trazad
 
 12_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_final.png|link=[[Tutorial_FreeCAD_POV_ray]]|[[Tutorial_FreeCAD_POV_ray|Tutorial intermedio de FreeCAD y POV-ray]] (v0.18) <br/>Flujo de trabajo para producir una mejor renderización con POV-Ray: crear un proyecto, agregar objetos, configurar la cámara, guardar el archivo .pov, editar manualmente el archivo para mejorar las texturas, los planos y las luces, y luego ejecutar el renderizador.
 
-07_T03_FreeCAD_Blender_EEVEE_render.png|link=[[Tutorial_Render_with_Blender]]|[[Tutorial_Render_with_Blender|Rendering a FreeCAD assembly with Blender]] (v0.18) <br/>Exporta los cuerpos de FreeCAD a Wavefront .obj, importa el archivo a Blender, configura una luz solar simple, asigna materiales básicos con el sombreador Principled BSDF y produce una imagen renderizada con EEVEE y Cycles.
+07_T03_FreeCAD_Blender_EEVEE_render.png|link=[[Tutorial_Render_with_Blender]]|[[Tutorial_Render_with_Blender|Renderizado de un ensamblaje de FreeCAD con Blender]] (v0.18) <br/>Exporta los cuerpos de FreeCAD a Wavefront .obj, importa el archivo a Blender, configura una luz solar simple, asigna materiales básicos con el sombreador Principled BSDF y produce una imagen renderizada con EEVEE y Cycles.
 
 </gallery>
 
