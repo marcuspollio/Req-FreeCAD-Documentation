@@ -420,9 +420,7 @@ Sin embargo, en FreeCAD creemos que tener un edificio no debería ser obligatori
 
 El formato de archivo [https://en.wikipedia.org/wiki/IGES Initial Graphics Exchange Specification] (IGES) permite el intercambio digital de información entre sistemas CAD. Tras la publicación del formato de archivo [[Preferences_Editor#STEP|STEP]], el desarrollo de IGES se detuvo en 1996, pero aún es compatible con muchos programas CAD. Los archivos IGES tienen la extensión {{FileName|.iges}} o {{FileName|.igs}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This page is only shown if the [[Image:Workbench_Part.svg|24px]] [[Part_Workbench|Part Workbench]], [[Image:Workbench_PartDesign.svg|24px]] [[PartDesign_Workbench|PartDesign Workbench]], or [[Image:Workbench_OpenSCAD.svg|24px]] [[OpenSCAD_Workbench|OpenSCAD Workbench]] has been loaded in the current FreeCAD session.
-</div>
+Esta página solo se muestra si [[Image:Workbench_Part.svg|24px]] [[Part_Workbench|Part Workbench]], [[Image:Workbench_PartDesign.svg|24px]] [[PartDesign_Workbench|PartDesign Workbench]] o [[Image:Workbench_OpenSCAD.svg|24px]] [[OpenSCAD_Workbench|OpenSCAD Workbench]] se ha cargado en la sesión actual de FreeCAD.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 On this page you can specify the following:
