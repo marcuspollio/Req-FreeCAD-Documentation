@@ -160,9 +160,7 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 
 :* [[Image:FEM_MeshTransfiniteCurve.svg|32px]] [[FEM_MeshTransfiniteCurve/pl|Strukturalna krzywa transfinite]]: Tworzy ustaloną liczbę węzłów na krawędzi z użyciem algorytmu strukturalnego. {{Version/pl|1.2}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:FEM_MeshTransfiniteSurface.svg|32px]] [[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]: Creates a structured mesh on a face. {{Version|1.2}}
-</div>
+:* [[Image:FEM_MeshTransfiniteSurface.svg|32px]] [[FEM_MeshTransfiniteSurface/pl|Strukturalna powierzchnia transfinite]]: Tworzy strukturalną siatkę na ścianie. {{Version/pl|1.2}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:FEM_MeshTransfiniteVolume.svg|32px]] [[FEM_MeshTransfiniteVolume|Structured Transfinite Volume]]: Creates a structured mesh in a 4- or 5-sided volume bounded by transfinite surfaces. {{Version|1.2}}
