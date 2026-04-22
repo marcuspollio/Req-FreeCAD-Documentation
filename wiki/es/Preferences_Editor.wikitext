@@ -931,15 +931,15 @@ En esta página puede especificar lo siguiente:
 
 |-
 | {{MenuCommand|Tamaño de sangría}}
-| Especifica cuántos espacios se insertarán al pulsar {{TECLA|Tab}}. Esta configuración solo se usa si se selecciona {{MenuCommand|Insertar espacios}}.
+| Especifica cuántos espacios se insertarán al pulsar {{KEY|Tab}}. Esta configuración solo se usa si se selecciona {{MenuCommand|Insertar espacios}}.
 
 |-
 | {{MenuCommand|Mantener tabulaciones}}
-| Si se selecciona, al pulsar {{TECLA|Tab}} se insertará un tabulador con la trama definida por {{MenuCommand|Tamaño de tabulación}}.
+| Si se selecciona, al pulsar {{KEY|Tab}} se insertará un tabulador con la trama definida por {{MenuCommand|Tamaño de tabulación}}.
 
 |-
 | {{MenuCommand|Insertar espacios}}
-| Si se selecciona, al pulsar {{TECLA|Tab}} se insertará la cantidad de espacios definida por {{MenuCommand|Tamaño de sangría}}.
+| Si se selecciona, al pulsar {{KEY|Tab}} se insertará la cantidad de espacios definida por {{MenuCommand|Tamaño de sangría}}.
 
 |-
 | {{MenuCommand|Mostrar elementos}}
