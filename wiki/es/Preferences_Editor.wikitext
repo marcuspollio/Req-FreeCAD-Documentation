@@ -605,37 +605,44 @@ Si la opción {{MenuCommand|Rotar al más cercano}} está marcada, al hacer clic
 Se pueden especificar el {{MenuCommand|Tamaño de la esfera}} y el {{MenuCommand|Color y transparencia}} del indicador.
 
 |-
-| {{MenuCommand|3D Navigation}}
-| Specifies a [[Mouse_navigation|mouse navigation style]]. To see the details of each style, select it and then press the {{Button|Mouse Configuration}} button.
+| {{MenuCommand|Navegación 3D}}
+| Especifica un [[Mouse_navigation|estilo de navegación con el ratón]]. Para ver los detalles de cada estilo, selecciónelo y pulse el botón {{Button|Configuración del ratón}}.
+
 |-
-| {{MenuCommand|Orbit style}}
-| Specifies the rotation orbit style used when in rotation mode. The options are:
-* '''Turntable''': Moving the mouse will divide the rotation in steps, rotations around the different axes are performed sequentially.
-* '''Trackball''': Rotations around the different axes are performed simultaneously.
-* '''Free Turntable''': Like '''Trackball''', but if possible, the rotation axis is kept collinear with the global 3D view axis.
-* '''Trackball Classic''': {{Version|1.1}}
-* '''Rounded Arcball''': {{Version|1.1}}
+| {{MenuCommand|Estilo de órbita}}
+| Especifica el estilo de órbita de rotación que se utiliza en el modo de rotación. Las opciones son:
+* '''Plataforma giratoria''': Al mover el ratón, la rotación se divide en pasos; las rotaciones alrededor de los diferentes ejes se realizan secuencialmente.
+
+* '''Trackball''': Las rotaciones alrededor de los diferentes ejes se realizan simultáneamente.
+
+* '''Plataforma giratoria libre''': Similar a '''Trackball''', pero, si es posible, el eje de rotación se mantiene colineal con el eje de la vista 3D global.
+* '''Trackball Clásico''': {{Version|1.1}}
+* '''Arco Redondeado''': {{Version|1.1}}
 |-
-| {{MenuCommand|Rotation mode}}
-| Defines the rotation center. The options are:
-* '''Window center'''
-* '''Drag at cursor'''
-* '''Object center'''
+| {{MenuCommand|Modo de rotación}}
+| Define el centro de rotación. Las opciones son:
+* '''Centro de la ventana'''
+* '''Arrastrar en el cursor'''
+* '''Centro del objeto'''
 |-
-| {{MenuCommand|Default camera orientation}}
-| Specifies the camera orientation for new documents. This setting is also used by the [[Std_ViewHome|Std ViewHome]] command.
+| {{MenuCommand|Orientación predeterminada de la cámara}}
+| Especifica la orientación de la cámara para los nuevos documentos. Esta configuración también la utiliza el comando [[Std_ViewHome|Vista estándar]].
+
 |-
-| {{MenuCommand|Camera zoom}}
-| Affects the initial camera zoom level for new documents. The value you set is the diameter of a sphere that fits in the [[3D_View|3D View]]. The default is 100 mm. It also sets the initial size of origin features (base planes in new [[PartDesign_Body|PartDesign Bodies]] and [[Std_Part|Std Parts]]).
+| {{MenuCommand|Zoom de la cámara}}
+| Afecta al nivel de zoom inicial de la cámara para los nuevos documentos. El valor que se establece es el diámetro de una esfera que cabe en la [[3D_View|Vista 3D]]. El valor predeterminado es 100 mm. También establece el tamaño inicial de las características de origen (planos base en los nuevos [[PartDesign_Body|PartDesign Bodies]] y [[Std_Part|Std Parts]]).
+
 |-
-| {{MenuCommand|Zoom at cursor}}
-| If checked, zoom operations will be performed at the position of the mouse pointer. Otherwise, zoom operations will be performed at the center of the current view. The {{MenuCommand|Zoom step}} defines how much will be zoomed. A zoom step of '''1''' means a factor of 7.5 for every zoom step.
+| {{MenuCommand|Zoom en el cursor}}
+| Si está marcada, las operaciones de zoom se realizarán en la posición del puntero del ratón. De lo contrario, se realizarán en el centro de la vista actual. El {{MenuCommand|Paso de zoom}} define cuánto se ampliará. Un paso de zoom de '''1''' significa un factor de 7,5 por cada paso de zoom.
+
 |-
-| {{MenuCommand|Invert zoom}}
-| If checked, the direction of zoom operations will be inverted.
+| {{MenuCommand|Invertir zoom}}
+| Si está marcada, se invertirá la dirección de las operaciones de zoom.
+
 |-
-| {{MenuCommand|Disable touchscreen tilt gesture}}
-| If checked, and {{MenuCommand|3D Navigation}} is set to '''Gesture''', the tilting gesture will be disabled for pinch-zooming (two-finger zooming).
+| {{MenuCommand|Deshabilitar gesto de inclinación de la pantalla táctil}}
+| Si está marcada y {{MenuCommand|Navegación 3D}} está configurada en '''Gesto''', el gesto de inclinación se desactivará para el zoom con pellizco (zoom con dos dedos).
 
 |-
 | {{MenuCommand|Enable support of legacy space mouse devices}} {{Version|1.1}}
