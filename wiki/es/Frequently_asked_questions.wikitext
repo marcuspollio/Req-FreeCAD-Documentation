@@ -28,9 +28,7 @@ El núcleo de modelado geométrico subyacente de FreeCAD, la biblioteca de terce
 <span id="What_if_I_want_to_compile_FreeCAD_myself?"></span>
 === ¿Qué ocurre si quiero compilar FreeCAD yo mismo? ===
 
-<div class="mw-translate-fuzzy">
-El código fuente de FreeCAD está siempre disponible en el repositorio de código fuente del proyecto. Compilar FreeCAD por ti mismo te permite utilizar las características más recientes que se están desarrollando, pero requiere un poco de conocimiento informático, aunque el procedimiento es bastante sencillo. El acceso al código fuente se explica [[Compile_on_Linux/es#Obtener_la_fuente|aquí]], y tenemos instrucciones detalladas para compilar en [[Compile_on_Windows/es|Windows]], [[Compile_on_Linux/es|Linux/Unix]] y [[Compile_on_MacOS/es|MacOS]].
-</div>
+El código fuente de FreeCAD siempre está disponible en el repositorio de código fuente del proyecto. Compilar FreeCAD por su cuenta le permite usar las funciones más recientes en desarrollo, pero requiere algunos conocimientos de informática, aunque el procedimiento es bastante sencillo. El acceso al código fuente se explica [[Compile_on_Linux#Getting_the_source|aquí]], y tenemos instrucciones detalladas para compilar en [[Compile_on_Windows|Windows]], [[Compile_on_Linux|Linux]] y [[Compile_on_MacOS|macOS]].
 
 <span id="FreeCAD_tells_me_some_module_or_application_is_missing"></span>
 === FreeCAD me dice que falta algún módulo o aplicación ===
