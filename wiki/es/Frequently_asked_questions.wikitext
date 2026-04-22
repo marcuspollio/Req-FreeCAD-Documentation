@@ -131,9 +131,7 @@ Esto también puede ocurrir si tenía instalada una versión anterior de FreeCAD
 * En Linux: Navegue a {{FileName|/home/USERNAME/.local/share/FreeCAD}} ({{VersionPlus|0.20}}) o {{FileName|/home/USERNAME/.FreeCAD}} ({{VersionMinus|0.19}}) y elimine los archivos {{FileName|user.cfg}} y {{FileName|system.cfg}}.
 * En Mac: Navegue a {{FileName|/Users/USERNAME/Library/Preferences/FreeCAD}} y elimine los archivos {{FileName|user.cfg}} y {{FileName|system.cfg}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-FreeCAD should now start again normally with all its settings reset.
-</div>
+FreeCAD debería iniciarse ahora con normalidad, con todos sus ajustes restablecidos.
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
