@@ -218,28 +218,35 @@ En esta página puede especificar lo siguiente:
 | {{MenuCommand|Habilitar selección}}
 | Si está marcada, se activa la selección en la vista 3D y se utilizará el color especificado. Si no está marcada, los objetos solo se pueden seleccionar en la [[Tree_View|Vista de Árbol]].
 
-Note that objects created while this option is not checked will have their {{PropertyView|Selectable}} property set to {{FALSE}}. With that value they are not selectable in the 3D view, even if this option is checked again.
+Tenga en cuenta que, cuando esta opción no esté marcada, los objetos creados  tendrán su propiedad {{PropertyView|Seleccionable}} establecida en {{FALSE}}. Con ese valor, no se podrán seleccionar en la vista 3D, incluso si se vuelve a marcar esta opción.
+
 |-
 | {{MenuCommand|Radius}}
-| Sets the area for picking elements in the [[3D_View|3D View]]. A larger value (in px) makes it easier to pick things, but can make some small features impossible to select.
+| Establece el área para seleccionar elementos en la [[3D_View|Vista 3D]]. Un valor mayor (en píxeles) facilita la selección, pero puede impedir la selección de algunos elementos pequeños.
+
 |-
-| {{MenuCommand|Preselect the object in 3D View when hovering the cursor over the tree item}}
-| Enables the [[Std_TreePreSelection|Tree View PreSelection mode]].
+| {{MenuCommand|Preseleccionar el objeto en la vista 3D al pasar el cursor sobre el elemento del árbol}}
+| Habilita el [[Std_TreePreSelection|Modo de preselección de la vista de árbol]].
+
 |-
-| {{MenuCommand|Auto switch to the 3D view containing the selected item}}
-| Enables the [[Std_TreeSyncView|Tree View SyncView mode]].
+| {{MenuCommand|Cambiar automáticamente a la vista 3D que contiene el elemento seleccionado}}
+| Habilita el [[Std_TreeSyncView|Modo de sincronización de la vista de árbol]].
 |-
-| {{MenuCommand|Auto expand tree item when the corresponding object is selected in 3D view}}
-| Enables the [[Std_TreeSyncSelection|Tree View SyncSelection mode]].
+| {{MenuCommand|Expandir automáticamente el elemento del árbol al seleccionar el objeto correspondiente en la vista 3D}}
+| Habilita el [[Std_TreeSyncSelection|Modo de sincronización de selección en la vista de árbol]].
+
 |-
-| {{MenuCommand|Record selection in tree view in order to go back/forward using navigation button}}
-| Enables the [[Std_TreeRecordSelection|Tree View RecordSelection mode]].
+| {{MenuCommand|Registrar la selección en la vista de árbol para retroceder/avanzar con los botones de navegación}}
+| Habilita el [[Std_TreeRecordSelection|Modo de registro de selección en la vista de árbol]].
+
 |-
-| {{MenuCommand|Add checkboxes for selection in document tree}}
-| Each [[Tree_View|Tree View]] item will get a checkbox. This is for example useful for selecting multiple items on a touchscreen.
+| {{MenuCommand|Agregar casillas de verificación para la selección en el árbol del documento}}
+| Cada elemento de la [[Tree_View|Vista de árbol]] tendrá una casilla de verificación. Esto es útil, por ejemplo, para seleccionar varios elementos en una pantalla táctil.
+
 |}
 
-===Cache===
+<span id="Cache"></span>
+=== Cache ===
 
 [[Image:Preferences_General_Page_Cache.png|400px]]
 
