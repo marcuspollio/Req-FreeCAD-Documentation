@@ -574,11 +574,11 @@ En esta página puede especificar lo siguiente:
 En esta página puede especificar lo siguiente:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Navigation cube}}
-| If checked, the [[Navigation_Cube|Navigation cube]] is shown in the [[3D_View|3D View]].
+| {{MenuCommand|Cubo de navegación}}
+| Si está marcada, el [[Navigation_Cube|Cubo de navegación]] se muestra en la [[3D_View|Vista 3D]].
 
 {{MenuCommand|Steps by turn}} defines the number of steps required for a full rotation when using the Navigation cube rotation arrows.
 
