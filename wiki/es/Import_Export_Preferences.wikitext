@@ -141,17 +141,16 @@ AutoCAD [[DXF|DXF]] (Drawing eXchange Format) es un formato propietario para int
 
 En esta página puede especificar lo siguiente:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Show this dialog when importing and exporting}}
-| If checked, this preferences dialog will be shown when importing or exporting DXF files.
+| {{MenuCommand|Mostrar este diálogo al importar y exportar}}
+| Si está marcada, este diálogo de preferencias se mostrará al importar o exportar archivos DXF.
+
 |-
-| {{MenuCommand|Use legacy python importer}}
-|  If checked, the Python importer is used, otherwise the newer C++ one. The C++ importer is faster, but has not as many features yet.
-</div>
+| {{MenuCommand|Usar el importador de Python heredado}}
+| Si está marcada, se utiliza el importador de Python; de lo contrario, se utiliza el importador de C++ más reciente. El importador de C++ es más rápido, pero aún no tiene tantas funciones.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The Python importer uses the {{MenuCommand|Edit → Preferences... → Draft → General settings → Internal precision level}} preference. For an accurate import result set this value to 8 or higher.
