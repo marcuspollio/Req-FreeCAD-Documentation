@@ -676,6 +676,7 @@ En esta página puede especificar lo siguiente:
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
 !style="width: 33%;"|Nombre
 !style="width: 66%;"|Descripción
+
 |-
 | {{MenuCommand|Color simple}}
 | Si se selecciona, el fondo de la [[3D_View|Vista 3D]] tendrá el color especificado.
@@ -686,18 +687,18 @@ En esta página puede especificar lo siguiente:
 
 |-
 | {{MenuCommand|Gradiente radial}}
-| Si se selecciona, el fondo de la [[Vista_3D|Vista 3D]] tendrá un degradado de color radial definido por los colores '''Central''' y '''Extremo''' especificados. Si está habilitado, también se puede especificar un color '''Intermedio'''. Pulse el botón {{Botón|[[Imagen:Button_sort.svg|16px]]}} para cambiar los colores central y extremo.
+| Si se selecciona, el fondo de la [[3D_View|Vista 3D]] tendrá un degradado de color radial definido por los colores '''Central''' y '''Extremo''' especificados. Si está habilitado, también se puede especificar un color '''Intermedio'''. Pulse el botón {{Botón|[[Image:Button_sort.svg|16px]]}} para cambiar los colores central y extremo.
 
 |-
-| {{ComandoMenú|Objeto en edición}}
+| {{MenuCommand|Objeto en edición}}
 | Especifica el color de fondo de los objetos en la vista de árbol que se están editando actualmente.
 
 |-
-| {{ComandoMenú|Contenedor activo}}
+| {{MenuCommand|Contenedor activo}}
 | Especifica el color de fondo de los contenedores activos en la vista de árbol. Por ejemplo, un [[PartDesign_Body#Active_Status|Cuerpo de Diseño Parte activo]] tendrá este color.
 
 |-
-| {{ComandoMenú|Color del texto de la etiqueta}}
+| {{MenuCommand|Color del texto de la etiqueta}}
 | El color utilizado para las etiquetas de la barra de color. La barra de color se utiliza en [[Mesh_Workbench|Entorno de Trabajo de Malla]] y [[FEM_Workbench|Entorno de Trabajo de FEM]].
 
 |-
