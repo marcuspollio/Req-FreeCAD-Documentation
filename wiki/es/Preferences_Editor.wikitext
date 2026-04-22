@@ -908,7 +908,7 @@ En esta página puede especificar lo siguiente:
 
 [[Image:Preferences_Python_Page_Editor.png|400px]]
 
-These preferences control the behavior of the [[Std_DlgMacroExecute#Edit|Macro editor]]. This editor can be opened using the {{MenuCommand|Macro → Macros... → Edit}} or {{menuCommand|Create}} menu option.
+Estas preferencias controlan el comportamiento del [[Std_DlgMacroExecute#Edit|editor de macros]]. Este editor se puede abrir mediante la opción de menú {{MenuCommand|'''Macro → Macros... → Editar'''}} o {{menuCommand|Crear}}.
 
 The color and font settings are also used by the [[Python_Console|Python Console]]. The font settings are also used by the [[Report_View|Report View]].
 
