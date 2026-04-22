@@ -721,34 +721,41 @@ Esta página solo está disponible si se ha cargado el [[Mesh_Workbench|Entorno 
 En esta página puede especificar lo siguiente:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Default mesh color}}
-| Specifies the default face color.
+| {{MenuCommand|Color predeterminado de malla}}
+| Especifica el color predeterminado de la cara.
+
 |-
-| {{MenuCommand|Default line color}}
-| Specifies the default line color.
+| {{MenuCommand|Color predeterminado de línea}}
+| Especifica el color predeterminado de la línea.
+
 |-
-| {{MenuCommand|Mesh transparency}}
-| Specifies the default mesh transparency.
+| {{MenuCommand|Transparencia de malla}}
+| Especifica la transparencia predeterminada de la malla.
+
 |-
-| {{MenuCommand|Line transparency}}
-| Specifies the default line transparency.
+| {{MenuCommand|Transparencia de línea}}
+| Especifica la transparencia predeterminada de la línea.
+
 |-
-| {{MenuCommand|Two-side rendering}}
-| If checked, the default value for the {{PropertyView|Lighting}} property is {{value|Two side}} instead of {{value|One side}}. {{value|Two side}} means the color of the interior side of faces is the same as the color of the exterior side. {{value|One side}} means their color is either the [[#3D_View|backlight color]], if enabled, or black.
-|-
-| {{MenuCommand|Show bounding-box for highlighted or selected meshes}}
-| If checked, the default value for the {{PropertyView|Selection Style}} property is {{value|BoundBox}} instead of {{value|Shape}}. {{value|BoundBox}} means a highlighted bounding box is displayed if meshes are highlighted or selected. {{value|Shape}} means the shape itself is then highlighted.
-|-
-| {{MenuCommand|Define normal per vertex}}
-| If checked, [https://en.wikipedia.org/wiki/Phong_shading Phong shading] is used, otherwise flat shading. Shading defines the appearance of surfaces. With flat shading the surface normals are not defined per vertex. This leads to an unrealistic appearance for curved surfaces. While Phong shading leads to a more realistic, smoother appearance.
-|-
-| {{MenuCommand|Crease angle}}
-| The crease angle is a threshold angle between two faces. It can only be set if the option {{MenuCommand|Define normal per vertex}} is used.
-:If face angle ≥ crease angle, facet shading is used.
-:If face angle < crease angle, smooth shading is used.
+| {{MenuCommand|Renderizado a dos caras}}
+| Si está marcada, el valor predeterminado para la propiedad {{PropertyView|Iluminación}} es {{value|Dos caras}} en lugar de {{valor|Una cara}}. {{value|Dos caras}} significa que el color de la cara interior de las caras es el mismo que el de la cara exterior. {{value|Una cara}} significa que su color es el [[#3D_View|color de retroiluminación]], si está habilitado, o negro.
+
+|-| {{MenuCommand|Mostrar cuadro delimitador para mallas resaltadas o seleccionadas}}
+| Si está marcada, el valor predeterminado para la propiedad {{PropertyView|Estilo de selección}} es {{value|BoundBox}} en lugar de {{value|Forma}}. {{value|BoundBox}} significa que se muestra un cuadro delimitador resaltado si las mallas están resaltadas o seleccionadas. {{value|Forma}} significa que se resalta la forma en sí.
+
+|-| {{MenuCommand|Definir normal por vértice}}
+| Si está marcada, se utiliza el sombreado Phong [https://en.wikipedia.org/wiki/Phong_shading]; de lo contrario, se utiliza el sombreado plano. El sombreado define la apariencia de las superficies. Con el sombreado plano, las normales de la superficie no se definen por vértice. Esto produce una apariencia poco realista en superficies curvas. En cambio, el sombreado Phong ofrece una apariencia más realista y suave.
+
+|-| {{MenuCommand|Ángulo de pliegue}}
+| El ángulo de pliegue es un ángulo umbral entre dos caras. Solo se puede configurar si se utiliza la opción {{MenuCommand|Definir normal por vértice}}.
+
+:Si el ángulo de la cara es mayor o igual que el ángulo de pliegue, se utiliza el sombreado de facetas.
+
+:Si el ángulo de la cara es menor que el ángulo de pliegue, se utiliza el sombreado suave.
+
 |}
 
 <span id="Workbenches"></span>
