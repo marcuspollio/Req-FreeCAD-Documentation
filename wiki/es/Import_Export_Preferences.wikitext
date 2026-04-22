@@ -20,9 +20,7 @@ No todas las páginas de preferencias de importación y exportación están disp
 <span id="TechDraw_pages"></span>
 === Páginas de TechDraw ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The DXF and SVG preferences listed here are not used by the [[File:TechDraw_ExportPageSVG.svg|24px]] [[TechDraw_ExportPageSVG|Export Page as SVG]] and [[File:TechDraw_ExportPageDXF.svg|24px]] [[TechDraw_ExportPageDXF|Export Page as DXF]] commands of the [[Image:Workbench_TechDraw.svg|24px]] [[TechDraw_Workbench|TechDraw Workbench]], or by the [[TechDraw_Workbench|TechDraw]] export option: {{MenuCommand|File → Export → Technical Drawing (*.svg *.dxf *.pdf)}}.
-</div>
+Las preferencias DXF y SVG que se enumeran aquí no la utilizan los comandos [[File:TechDraw_ExportPageSVG.svg|24px]] [[TechDraw_ExportPageSVG|Exportar página como SVG]] y [[File:TechDraw_ExportPageDXF.svg|24px]] [[TechDraw_ExportPageDXF|Exportar página como DXF]] del [[Image:Workbench_TechDraw.svg|24px]] [[TechDraw_Workbench|Entorno de Trabajo TechDraw]], ni por la opción de exportación [[TechDraw_Workbench|TechDraw]]: {{MenuCommand|'''Archivo → Exportar → Dibujo técnico (*.svg *.dxf *.pdf)'''}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===IFC files===
