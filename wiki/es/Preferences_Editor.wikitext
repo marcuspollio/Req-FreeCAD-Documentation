@@ -128,60 +128,76 @@ La imagen de la pantalla de inicio se puede cambiar colocando un archivo llamado
 On this page you can specify the following:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Create new document at start up}}
-| If checked, FreeCAD will create a new document when started.
+| {{MenuCommand|Crear nuevo documento al iniciar}}
+| Si está marcada, FreeCAD creará un nuevo documento al iniciarse.
+
 |-
-| {{MenuCommand|Document save compression level}}
-| Specifies the compression level for {{FileName|FCStd}} files. {{FileName|FCStd}} files are ZIP-compressed files. Therefore you can rename their suffix {{FileName|.FCStd}} to {{FileName|.zip}} and open them with a ZIP archive program.
+| {{MenuCommand|Nivel de compresión al guardar el documento}}
+| Especifica el nivel de compresión para los archivos {{FileName|FCStd}}. Los archivos {{FileName|FCStd}} son archivos comprimidos con ZIP. Por lo tanto, puede cambiar su sufijo {{FileName|.FCStd}} a {{FileName|.zip}} y abrirlos con un programa de compresión ZIP.
+
 |-
-| {{MenuCommand|Using Undo/Redo on documents}}
-| If checked, all changes in documents are stored so that they can be undone/redone.
+| {{MenuCommand|Usar Deshacer/Rehacer en documentos}}
+| Si está marcada, todos los cambios en los documentos se guardan para poder deshacerlos/rehacerlos.
+
 |-
-| {{MenuCommand|Maximum Undo/Redo steps}}
-| Specifies how many Undo/Redo steps should be recorded.
+| {{MenuCommand|Número máximo de pasos para deshacer/rehacer}}
+| Especifica cuántos pasos para deshacer/rehacer se deben registrar.
+
 |-
-| {{MenuCommand|Allow aborting recomputation}}
-| If checked, recomputations can be aborted by pressing {{KEY|Esc}}. This may slightly increase the recomputation time.
+| {{MenuCommand|Permitir cancelar el recálculo}}
+| Si está marcada, los recálculos se pueden cancelar pulsando {{KEY|Esc}}. Esto puede aumentar ligeramente el tiempo de recálculo.
+
 |-
-| {{MenuCommand|Run AutoRecovery at startup}}
-| If there is a recovery file available FreeCAD will automatically run a file recovery when it is started. This way files can be restored if a crash occurred.
+| {{MenuCommand|Ejecutar recuperación automática al inicio}}
+| Si hay un archivo de recuperación disponible, FreeCAD ejecutará automáticamente una recuperación de archivos al iniciarse. De esta forma, los archivos se pueden restaurar en caso de un fallo.
+
 |-
-| {{MenuCommand|Save AutoRecovery information every}}
-| Specifies how often a recovery file is written.
+| {{MenuCommand|Guardar información de recuperación automática cada}}
+| Especifica con qué frecuencia se escribe un archivo de recuperación.
+
 |-
-| {{MenuCommand|Add thumbnail to project file when saving}}
-| If checked, a thumbnail will be stored when the document is saved. The thumbnail will for example be shown in the list of recent files on the Start page. It is possible to select a {{MenuCommand|Size}} between 128×128 and 512×512 pixels for the thumbnail. Common sizes are powers of two: 128, 256, 512.
+| {{MenuCommand|Añadir miniatura al archivo de proyecto al guardar}}
+| Si está marcada, se guardará una miniatura al guardar el documento. La miniatura se mostrará, por ejemplo, en la lista de archivos recientes de la página de inicio. Es posible seleccionar un tamaño ({{MenuCommand|Size}}) entre 128×128 y 512×512 píxeles para la miniatura. Los tamaños más comunes son potencias de dos: 128, 256 y 512.
 |-
-| {{MenuCommand|Add program icon to the generated thumbnail}}
-| If checked, the FreeCAD program icon [[image:Freecad.svg|24px]] will be added to the thumbnail.
+| {{MenuCommand|Agregar el icono del programa a la miniatura generada.}}
+| Si está marcada, se añadirá el icono del programa FreeCAD [[image:Freecad.svg|24px]] a la miniatura.
+
 |-
-| {{MenuCommand|Maximum number of backup files to keep when resaving document}}
-| If checked, backup files will be kept when saving the document. You can specify the number of backup files to keep. Backup files are previously saved versions of the document.
+| {{MenuCommand|Máximo de archivos de respaldo para proteger el documento rawait}}
+| Si está marcada, se guardarán los archivos de copia de seguridad al guardar el documento. Puede especificar el número de archivos de copia de seguridad que desea conservar. Los archivos de copia de seguridad son versiones del documento guardadas previamente.
+
 |-
-| {{MenuCommand|Use date and FCBak extension}}
-| If checked, backup files will get the extension {{FileName|.FCbak}} and their file names get a date suffix according to the specified {{MenuCommand|Date format}}. For a description of the date format see [https://devhints.io/datetime Date & time formats cheatsheet].
-With the default settings a backup file will for example get this name {{FileName|TD-Cube.20200315-215654.FCBak}} (original filename is {{FileName|TD-Cube.FCStd}}).
+| {{MenuCommand|Utilice la fecha y la extensión FCBak.}}
+| Si está marcada, los archivos de copia de seguridad tendrán la extensión {{FileName|.FCbak}} y sus nombres incluirán un sufijo de fecha según el formato de fecha especificado en {{MenuCommand|formato de fecha}}. Para obtener una descripción del formato de fecha, consulte [https://devhints.io/datetime Date & time formats cheatsheet].
+
+Con la configuración predeterminada, un archivo de copia de seguridad, por ejemplo, tendrá el nombre {{FileName|TD-Cube.20200315-215654.FCBak}} (el nombre de archivo original es {{FileName|TD-Cube.FCStd}}).
+
 |-
-| {{MenuCommand|Allow duplicate object labels in one document}}
-| If checked, objects can have the same label.
+| {{MenuCommand|Permitir etiquetas de objeto duplicadas en un documento}}
+| Si está marcada, los objetos pueden tener la misma etiqueta.
+
 |-
-| {{MenuCommand|Disable partial loading of external linked objects}}
-| If partial loading of external linked objects is enabled, only the referenced objects and their dependencies will be loaded when the linked document is auto opened together with the main document. Such a partially loaded document cannot be edited. Double click the document icon in the tree view to reload it in full. A more detailed explanation of this feature can be found on the [https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes#partial-document-loading Assembly3 documentation page].
+| {{MenuCommand|Deshabilitar la carga parcial de objetos externos vinculados}}
+| Si la carga parcial de objetos externos vinculados está habilitada, solo se cargarán los objetos referenciados y sus dependencias cuando el documento vinculado se abra automáticamente junto con el documento principal. Un documento cargado parcialmente no se puede editar. Haga doble clic en el icono del documento en la vista de árbol para recargarlo por completo. Encontrará una explicación más detallada de esta función en la página de documentación de Assembly3 [https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes#partial-document-loading].
+
 |-
-| {{MenuCommand|Author name}}
-| All created documents will get the specified author name. Keep the author field blank if you do not want to include this information. If the option {{MenuCommand|Set on save}} is checked, the field '''Last modified by''' will be set to the specified author when saving the file. This field can be viewed using the {{MenuCommand|File → Project information}} menu option.
+| {{MenuCommand|Nombre del autor}}
+| Todos los documentos creados tendrán el nombre del autor especificado. Deje el campo "Autor" en blanco si no desea incluir esta información. Si la opción {{MenuCommand|Establecer al guardar}} está marcada, el campo "Última modificación por" se establecerá con el autor especificado al guardar el archivo. Este campo se puede consultar mediante la opción de menú {{MenuCommand|Archivo → Información del proyecto}}.
+
 |-
-| {{MenuCommand|Company}}
-| All created documents will get the specified company name.
+| {{MenuCommand|Empresa}}
+| Todos los documentos creados tendrán el nombre de la empresa especificada.
+
 |-
-| {{MenuCommand|Default license}}
-| Specifies the license for new documents. For predefined licenses the {{MenuCommand|License URL}} will automatically be set accordingly. Select '''Other''' for a custom license.
-|-
-| {{MenuCommand|License URL}}
-| Specifies an URL describing the license selected in {{MenuCommand|Default license}}.
+| {{MenuCommand|Licencia predeterminada}}
+| Especifica la licencia para los nuevos documentos. Para las licencias predefinidas, la URL de la licencia ({{MenuCommand|License URL}}) se configurará automáticamente. Seleccione '''Otra''' para una licencia personalizada.
+
+|-| URL de la licencia ({{MenuCommand|License URL}})
+| Especifica una URL que describe la licencia seleccionada en Licencia predeterminada ({{MenuCommand|Licencia predeterminada}}).
+
 |}
 
 <span id="Selection"></span>
