@@ -39,8 +39,8 @@ The '''FEM MeshTransfiniteCurve''' command creates a fixed amount of nodes on an
 #* Select the {{MenuCommand|Mesh → GMSH Refinements → [[Image:FEM_MeshTransfiniteCurve.svg|16px]] Structured Transfinite Curve}} option from the menu.
 # Select the type of node distribution on an edge:
 #* ''Constant'' - specify the number of nodes
-#* ''Bump'' - specify the number of nodes and the coefficient
-#* ''Progression'' - specify the number of nodes and the coefficient
+#* ''Bump'' - refinement towards both ends of the curve: specify the number of nodes and the coefficient
+#* ''Progression'' - geometrical progression with power x: specify the number of nodes and the coefficient x (e.g. 2 means that each element on the edge will be twice as long as the preceding one)
 # Optionally, check the ''Invert'' box.
 # Press the {{Button|Add}} button. Select a vertex, edge or face. To remove objects from the selection, press the {{Button|Remove}} button.
 # Click the {{Button|OK}} button.
