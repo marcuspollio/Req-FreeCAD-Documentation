@@ -98,10 +98,11 @@ La imagen se puede cambiar agregando las carpetas {{FileName|Gui/Images}} en la 
 
 {{FileName|$HOME/Library/Preferences/FreeCAD}} (en macOS).
 
-Place a file named {{FileName|background.png}} in the {{FileName|Images}} folder, and uncheck/check this option to see the changed file.
+Coloca un archivo llamado {{FileName|background.png}} en la carpeta {{FileName|Imágenes}} y desmarca/marca esta opción para ver el archivo modificado.
+
 |-
-| {{MenuCommand|Enable splash screen at start up}}
-| If checked, a splash screen is shown when starting FreeCAD.
+| {{MenuCommand|Habilitar pantalla de inicio al arrancar}}
+| Si está marcada, se mostrará una pantalla de inicio al iniciar FreeCAD.
 
 The splash screen image can be changed by placing a file named {{FileName|splash_image.png}} in the {{FileName|Images}} folder already mentioned under {{MenuCommand|Enable tiled background}}.
 |-
