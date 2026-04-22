@@ -462,9 +462,7 @@ Si se selecciona '''Sólidos (tipo 186) y cáscaras (tipo 514) / Modo B-REP''', 
 
 [[Image:Preferences_Import-Export_Page_INP.png|400px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-INP is the input file format for the FEM software [https://en.wikipedia.org/wiki/Abaqus Abaqus]. It is used for the [[FEM_CalculiX|CalculiX]] solver in the [[Image:Workbench_FEM.svg|24px]] [[FEM_Workbench|FEM Workbench]].
-</div>
+INP es el formato de archivo de entrada para el software FEM [https://en.wikipedia.org/wiki/Abaqus Abaqus]. Se utiliza para el solucionador [[FEM_CalculiX|CalculiX]] en el [[Image:Workbench_FEM.svg|24px]] [[FEM_Workbench|FEM Workbench]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This page is only shown if the [[Image:Workbench_FEM.svg|24px]] [[FEM_Workbench|FEM Workbench]] has been loaded in the current FreeCAD session.
