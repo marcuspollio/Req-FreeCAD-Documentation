@@ -10,9 +10,7 @@
 <span id="Introduction"></span>
 ==Introducción==
 
-<div class="mw-translate-fuzzy">
-La interfaz de FreeCAD está basada en el moderno kit de herramientas [http://en.wikipedia.org/wiki/Qt_(toolkit) Qt] y tiene una organización a nivel de la técnica . Algunos aspectos de la interfaz pueden ser personalizados. Puedes, por ejemplo, añadir barras de herramientas personalizadas, con herramientas de varios ambientes de trabajo o herramientas definidas en macros, y puedes crear tus propios atajos de teclado. Pero los menús y las barras de herramientas por defecto que vienen con FreeCAD y sus ambientes de trabajo no se pueden cambiar.
-</div>
+La interfaz de FreeCAD se basa en el moderno conjunto de herramientas [https://en.wikipedia.org/wiki/Qt_(software) Qt] y cuenta con una organización de vanguardia. Algunos aspectos de la interfaz se pueden personalizar. Por ejemplo, se pueden añadir barras de herramientas personalizadas con herramientas de varios entornos de trabajo o herramientas definidas en macros. También se pueden crear atajos de teclado propios. Sin embargo, los menús y las barras de herramientas predeterminadas de FreeCAD y sus entornos de trabajo no se pueden modificar.
 
 [[Image:Std_DlgCustomize_tab_Toolbars.png]]
 {{Caption|El cuadro diálogo Personalizar}}
