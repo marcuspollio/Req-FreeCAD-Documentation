@@ -19,9 +19,7 @@
 
 Non tutti coloro che devono consegnare un disegno insieme al proprio modello si accontentano di sole tre viste principali (viste primarie) e delle relative sezioni parallele. Per rappresentare un modello da qualsiasi angolazione possibile, i progettisti si affidano a viste ausiliarie (viste secondarie) che vengono posizionate sulla pagina di disegno in un ordine specifico, in modo da poter ricostruire la sequenza di definizione di ciascuna vista. Viste non correlate, definite nello spazio 3D e posizionate casualmente sulla pagina di disegno, non rappresentano un valido sostituto per le viste ausiliarie correttamente ordinate.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For now this page only hosts a macro that is a proof of concept that shows that it is possible to define an auxiliary view within a base view without the detour via the 3D space.
-</div>
+Per ora questa pagina ospita solo una macro che funge da prova di concetto e dimostra che è possibile definire una vista ausiliaria all'interno di una vista di base senza dover passare attraverso lo spazio 3D.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Description==
