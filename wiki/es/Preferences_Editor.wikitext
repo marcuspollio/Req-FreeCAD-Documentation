@@ -39,47 +39,49 @@ En esta página puede especificar lo siguiente:
 !style="width: 33%;"|Nombre
 !style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Language}}
+| {{MenuCommand|Idioma}}
 | Idioma de la interfaz de usuario de la aplicación.
 |-
-| {{MenuCommand|Default unit system}}
+| {{MenuCommand|Sistema de unidades predeterminado}}
 | Sistema de unidades para todas las partes de la aplicación. {{Version|1.0}}: Se utiliza como predeterminado para el [[Std_ProjectInfo|sistema de unidades del documento]] de los nuevos documentos. El sistema de unidades del documento activo anula el sistema de unidades predeterminado a menos que se marque la siguiente opción.
 |-
 | {{MenuCommand|Ignorar el sistema de unidades del proyecto y usar el predeterminado}} {{Version|1.0}}
 | Si está marcada esta opción, los sistemas de unidades del proyecto se ignoran y no anulan el sistema de unidades predeterminado.
 |-
-| {{MenuCommand|Number of decimals}}
+| {{MenuCommand|Número de decimales}}
 | El número de decimales que deben mostrarse para los números y las dimensiones.
 |-
-| {{MenuCommand|Minimum fractional inch}}
-| The minimum fractional inch that should be shown for numbers and dimensions. Only available for unit systems with fractional inches.
+| {{MenuCommand|Pulgadas fraccionarias mínimas}}
+| La pulgada fraccionaria mínima que debe mostrarse para números y dimensiones. Solo disponible para sistemas de unidades con pulgadas fraccionarias.
 |-
-| {{MenuCommand|Number format}}
-| Specifies the number format. The options are:
-* '''Operating system''': The decimal separator defined by the operating system is used.
-* '''Selected language''': The decimal separator of the selected FreeCAD interface language is used.
+| {{MenuCommand|Formato de número}}
+| Especifica el formato numérico. Las opciones son:
+* '''Sistema operativo''': Se utiliza el separador decimal definido por el sistema operativo.
+
+* '''Idioma seleccionado''': Se utiliza el separador decimal del idioma de la interfaz de FreeCAD seleccionado.
 * '''C/POSIX''': A point is used as the decimal separator.
 |-
-| {{MenuCommand|Substitute decimal separator}}
-| If checked, the numerical keypad decimal separator will be substituted with the separator defined by the {{MenuCommand|Number format}} setting. Notice that if this preference is enabled, using the numerical keypad decimal separator will always print a dot/period in the [[Python_Console|Python Console]] and the [[Std_DlgMacroExecute#Edit|Macro editor]].
+| {{MenuCommand|Sustituir separador decimal}}
+| Si está marcada, el separador decimal del teclado numérico se sustituirá por el separador definido por la configuración {{MenuCommand|formato de número}}. Tenga en cuenta que si esta preferencia está habilitada, al usar el separador decimal del teclado numérico siempre se imprimirá un punto en la [[Python_Console|Python Console]] y en el [[Std_DlgMacroExecute#Edit|editor de Macro]].
+
 |-
-| {{MenuCommand|Theme}}
-| Specifies a [[Interface_Customization#Themes|theme]] to customize the appearance of the user interface.
+| {{MenuCommand|Tema}}
+| Especifica un [[Interface_Customization#Themes|tema]] para personalizar la apariencia de la interfaz de usuario.
 |-
-| {{MenuCommand|Size of toolbar icons}}
-| Specifies the size of the toolbar icons. The options are:
-* '''Small (16px)'''
-* '''Medium (24px)'''
-* '''Large (32px)'''
-* '''Extra large (48px)'''
+| {{MenuCommand|Tamaño de los iconos de la barra de herramientas}}
+| Especifica el tamaño de los iconos de la barra de herramientas. Las opciones son:
+* '''Pequeño (16px)'''
+* '''Mediano (24px)'''
+* '''Grande (32px)'''
+* '''Extragrande (48px)'''
 |-
-| {{MenuCommand|Tree view and Property view mode}}
-| Defines how the Tree view is shown in the user interface (restart required). The options are:
-* '''Combined''': Combines the [[Tree_View|Tree View]] and the [[Property_View|Property View]] into one [[Combo_View|panel]].
-* '''Independent''': Splits the Tree view and the Property view into separate panels.
+| {{MenuCommand|Modo de vista de árbol y vista de propiedad}}
+| Define cómo se muestra la vista de árbol en la interfaz de usuario (se requiere reiniciar). Las opciones son:
+* '''Combinada''': [[Tree_View|vista de árbol]] y la [[Property_View|vista de la propiedad]] en un [[Combo_View|panel]].
+* '''Independiente''': Separa la vista de árbol y la vista de propiedades en paneles independientes.
 |-
-| {{MenuCommand|Size of recent file list}}
-| Specifies how many files should be listed in the recent files list.
+| {{MenuCommand|Tamaño de la lista de archivos recientes}}
+| Especifica cuántos archivos se mostrarán en la lista de archivos recientes.
 
 Optionally, imported files can be excluded from this list, and exported files can be included. See [[Fine-tuning|Fine-tuning]].
 |-
