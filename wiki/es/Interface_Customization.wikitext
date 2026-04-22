@@ -18,15 +18,17 @@ La interfaz de FreeCAD se basa en el moderno conjunto de herramientas [https://e
 <span id="Usage"></span>
 == Uso ==
 
-<div class="mw-translate-fuzzy">
-# Los comandos disponibles en el cuadro de diálogo Personalizar dependen de los ambientes de trabajo que se hayan cargado en la sesión actual de FreeCAD.  Así que deberías cargar primero todos las ambientes de trabajo a cuyos comandos quieras tener acceso.
-# Hay varias formas de invocar el [[Image:Std_DlgCustomize.svg|16px]] [[Std_DlgCustomize/es|Std DiálogoPersonalizar]] comando:
-#* Seleccione la opción {{MenuCommand|Herramientas → [[Image:Std_DlgCustomize.svg|16px]] Personalizar...}} en el menú.
-#* Haga clic con el botón derecho en un área de la barra de herramientas y elija {{MenuCommand|[[Image:Std_DlgCustomize.svg|16px]] Personalizar...}} en el menú contextual.
-# Se abre el cuadro de diálogo Personalizar. Para más información, consulte [[#Opciones|Opciones]].
-# El botón {{Button|Ayuda}} no funciona en este momento.
-# Pulse el botón {{Button|Cerrar}} para cerrar el cuadro de diálogo.
-</div>
+# Los comandos disponibles en el cuadro de diálogo Personalizar dependen de los entornos de trabajo cargados en la sesión actual de FreeCAD. Por lo tanto, primero debe cargar todos los entornos de trabajo cuyos comandos desee utilizar.
+
+# Existen varias maneras de ejecutar el comando [[Image:Std_DlgCustomize.svg|16px]] [[Std_DlgCustomize|Std DlgCustomize]]:
+#* Seleccione la opción {{MenuCommand|Herramientas → [[Image:Std_DlgCustomize.svg|16px]] Personalizar}} del menú.
+
+#* Haga clic con el botón derecho en un área de la barra de herramientas y seleccione {{MenuCommand|[[Image:Std_DlgCustomize.svg|16px]] Personalizar}} del menú contextual.
+
+# Se abrirá el cuadro de diálogo '''Personalizar'''. Para obtener más información, consulte [[#Options|Opciones]].
+# El botón {{Button|Help}} no funciona en este momento.
+
+# Pulse el botón {{Button|Close}} para cerrar el cuadro de diálogo.
 
 <span id="Options"></span>
 ==Opciones==
