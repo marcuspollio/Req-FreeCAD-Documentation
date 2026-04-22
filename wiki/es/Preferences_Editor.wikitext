@@ -255,23 +255,24 @@ Estas preferencias están relacionadas con el directorio de caché donde FreeCAD
 En esta página puede especificar lo siguiente:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Location (read-only)}}
-| Shows the path of the cache directory. Use the {{Button|[[image:Document-open.svg|16px]]}} button to browse the directory.
+| {{MenuCommand|Ubicación (solo lectura)}}
+| Muestra la ruta del directorio de caché. Use el botón {{Button|[[image:Document-open.svg|16px]]}} para explorar el directorio.
+
 |-
-| {{MenuCommand|Check periodically at program start}}
-| Controls the frequency with which the directory size is checked. The options are:
-* '''Always'''
-* '''Daily'''
-* '''Weekly'''
-* '''Monthly'''
-* '''Yearly'''
-* '''Never'''
+| {{MenuCommand|Comprobar periódicamente al inicio del programa}}
+| Controla la frecuencia con la que se comprueba el tamaño del directorio. Las opciones son:
+* '''Siempre'''
+* '''Diariamente'''
+* '''Semanalmente'''
+* '''Mensualmente'''
+* '''Anualmente'''
+* '''Nunca'''
 |-
-| {{MenuCommand|Cache size limit}}
-| Specifies the maximum size of the directory. You will be notified if a check is performed and the size exceeds this value. The options are:
+| {{MenuCommand|Límite de tamaño de caché}}
+| Especifica el tamaño máximo del directorio. Se le notificará si se realiza una comprobación y el tamaño supera este valor. Las opciones son:
 * '''100 MB'''
 * '''300 MB'''
 * '''500 MB'''
@@ -279,8 +280,9 @@ En esta página puede especificar lo siguiente:
 * '''2 GB'''
 * '''3 GB'''
 |-
-| {{MenuCommand|Current cache size}}
-| Shows the current size of the directory, if available. Press the {{Button|Check now...}} button to update the value.
+| {{MenuCommand|Tamaño actual de la caché}}
+| Muestra el tamaño actual del directorio, si está disponible. Pulse el botón {{Button|Comprobar ahora...}} para actualizar el valor.
+
 |}
 
 ===Notification Area===
