@@ -55,6 +55,7 @@ You can create as many different transfinite curves as needed.
 [[File:FEM_transfinite_curve.png|400px]]
 {{Caption|Surface mesh with the highlighted edges using the transfinite algorithm with progression (bias) towards the edge of the cutout}}
 
+
 {{Docnav
 |[[FEM_MeshAdvanced|Advanced Refinement Types]]
 |[[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]
