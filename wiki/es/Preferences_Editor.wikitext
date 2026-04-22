@@ -645,8 +645,8 @@ Se pueden especificar el {{MenuCommand|Tamaño de la esfera}} y el {{MenuCommand
 | Si está marcada y {{MenuCommand|Navegación 3D}} está configurada en '''Gesto''', el gesto de inclinación se desactivará para el zoom con pellizco (zoom con dos dedos).
 
 |-
-| {{MenuCommand|Enable support of legacy space mouse devices}} {{Version|1.1}}
-| If checked, legacy space mouse devices can be used.
+| {{MenuCommand|Habilitar compatibilidad con dispositivos de ratón antiguos}} {{Version|1.1}}
+| Si está marcada, se podrán usar dispositivos de ratón antiguos.
 
 |-
 | {{MenuCommand|Animations}}
