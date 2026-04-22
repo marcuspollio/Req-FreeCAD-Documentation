@@ -295,9 +295,7 @@ Claro. Todos los elementos gráficos (iconos, banners, etc.) de FreeCAD tienen l
 <span id="Can_I_reuse_pieces_of_FreeCAD_in_another_application?"></span>
 === ¿Puedo reutilizar partes de FreeCAD en otra aplicación? ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Yes, you can use the core parts of FreeCAD in other applications as long as you comply with the terms of the LGPL. Third party libraries, [https://www.freecad.org/addons.php external workbenches], and [[Macros|macros]] may be subject to their own license terms, so please consult with their authors. More details on the [[License|License]] page.
-</div>
+Sí, puede usar las partes principales de FreeCAD en otras aplicaciones siempre que cumpla con los términos de la LGPL. Las bibliotecas de terceros, los [https://www.freecad.org/addons.php Entornos de trabajo externos] y las [[Macros|macros]] pueden estar sujetos a sus propios términos de licencia, por lo que le recomendamos consultar a sus autores. Encontrará más detalles en la página [[License|Licencia]].
 
 
 {{Docnav/es
