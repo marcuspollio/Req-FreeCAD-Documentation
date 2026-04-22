@@ -83,10 +83,10 @@ En esta página puede especificar lo siguiente:
 | {{MenuCommand|Tamaño de la lista de archivos recientes}}
 | Especifica cuántos archivos se mostrarán en la lista de archivos recientes.
 
-Optionally, imported files can be excluded from this list, and exported files can be included. See [[Fine-tuning|Fine-tuning]].
-|-
-| {{MenuCommand|Enable tiled background}}
-| If checked, the background of FreeCAD's main window will by default consist of tiles of this image: [[File:Background.png|64px]]
+Opcionalmente, se pueden excluir de esta lista los archivos importados e incluir los exportados. Consulte [[Fine-tuning|Ajustes finos]].
+
+|-| {{MenuCommand|Habilitar fondo en mosaico}}
+| Si está marcada, el fondo de la ventana principal de FreeCAD estará compuesto por mosaicos de esta imagen: [[File:Background.png|64px]]
 
 This option only has an effect if no {{MenuCommand|Style sheet}} is selected.
 
