@@ -404,9 +404,7 @@ Tenga en cuenta que esta función aún está en fase experimental.
 | {{MenuCommand|Añadir edificio predeterminado si no se encuentra ninguno en el documento}}
 | Al exportar un archivo IFC, si no se encuentra ningún edificio en el documento de FreeCAD, se añade uno predeterminado.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''Warning''': The IFC standard asks for at least one building in each file. By turning this option off, you will produce a non-standard IFC file.
-</div>
+'''Advertencia''': El estándar IFC requiere al menos un edificio en cada archivo. Si desactiva esta opción, generará un archivo IFC no estándar.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 However, at FreeCAD we believe having a building should not be mandatory, and this option is there to have a chance to demonstrate our point of view.
