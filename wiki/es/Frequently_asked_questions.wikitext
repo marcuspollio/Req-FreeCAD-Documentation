@@ -222,9 +222,7 @@ Para activar o desactivar la visibilidad de un objeto, selecciónelo en el árbo
 <span id="My_parametric_objects_break_when_I_modify_their_base_sketches"></span>
 === Mis objetos paramétricos se rompen cuando modifico sus bocetos base ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You have met the (in)famous [[Topological_naming_problem|Topological Naming Problem (TNP)]]. This may still be a major issue in FreeCAD for newcomers. It can be present all over FreeCAD, but is more prominent when using [[Sketcher_Workbench|sketches]]. The explanation is simple: When recalculating a sketch, the geometric entities (edges, faces...) are rebuilt in a different order, depending on the constraints precedence. They then receive a different name (Edge1, Edge2, Face1, Face2...). Most subsequent operations depend on these names to identify which subcomponent they work on. Therefore, when the sketch is rebuilt, features that are based on such subcomponents might suddenly get their base geometry changed and give a wrong result.
-</div>
+Ha conocido el (infame) problema de nomenclatura topológica (PNT). Este problema puede seguir siendo importante para los nuevos usuarios de FreeCAD. Puede presentarse en todo FreeCAD, pero es más notorio al usar bocetos. La explicación es sencilla: al recalcular un boceto, las entidades geométricas (aristas, caras, etc.) se reconstruyen en un orden diferente, según la precedencia de las restricciones. Luego reciben un nombre diferente (Arista1, Arista2, Cara1, Cara2...). La mayoría de las operaciones posteriores dependen de estos nombres para identificar en qué subcomponente trabajan. Por lo tanto, cuando se reconstruye el boceto, las operaciones que se basan en dichos subcomponentes pueden ver su geometría base modificada repentinamente y dar un resultado erróneo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Version|1.0}}: The TNP mitigation code is implemented but it doesn't eliminate the problem entirely and the users should still follow the good practices listed below:
