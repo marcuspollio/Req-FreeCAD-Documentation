@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[FEM_MeshBoundaryLayer/de|FEM NetzGrenzschicht]]
 |[[FEM_MeshGroup/de|FEM NetzGruppe]]
@@ -8,6 +9,7 @@
 |IconR=FEM_MeshGroup.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{GuiCommandContainer|
 {{GuiCommand/de
@@ -73,6 +75,7 @@ Es können so viele unterschiedliche Netzbereiche wie nötig erstellt werden.
 * "Mesh Regions for a Better Analysis" - Video-Tutorial von Joko Engineering ([https://www.youtube.com/watch?v=X5RVe2SDPvw link])
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[FEM_MeshBoundaryLayer/de|FEM NetzGrenzschicht]]
 |[[FEM_MeshGroup/de|FEM NetzGruppe]]
@@ -81,6 +84,7 @@ Es können so viele unterschiedliche Netzbereiche wie nötig erstellt werden.
 |IconR=FEM_MeshGroup.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
