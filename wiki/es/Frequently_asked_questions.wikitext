@@ -224,9 +224,7 @@ Para activar o desactivar la visibilidad de un objeto, selecciónelo en el árbo
 
 Ha conocido el (infame) problema de nomenclatura topológica (PNT). Este problema puede seguir siendo importante para los nuevos usuarios de FreeCAD. Puede presentarse en todo FreeCAD, pero es más notorio al usar bocetos. La explicación es sencilla: al recalcular un boceto, las entidades geométricas (aristas, caras, etc.) se reconstruyen en un orden diferente, según la precedencia de las restricciones. Luego reciben un nombre diferente (Arista1, Arista2, Cara1, Cara2...). La mayoría de las operaciones posteriores dependen de estos nombres para identificar en qué subcomponente trabajan. Por lo tanto, cuando se reconstruye el boceto, las operaciones que se basan en dichos subcomponentes pueden ver su geometría base modificada repentinamente y dar un resultado erróneo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Version|1.0}}: The TNP mitigation code is implemented but it doesn't eliminate the problem entirely and the users should still follow the good practices listed below:
-</div>
+{{Version|1.0}}: El código de mitigación de TNP está implementado, pero no elimina el problema por completo y los usuarios aún deben seguir las buenas prácticas que se enumeran a continuación:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Know that sketches are highly sensitive to the problem. Referencing a specific edge of a sketch, or a face of an object built on a sketch, such as a [[PartDesign_Pad|PartDesign Pad]], is dangerous, unless you are pretty confident that these sketches will not change over time or the sketch is very simple. A Pad built on a simple rectangular sketch, for example, will likely be safe as it will generate only one face, so there is no order problem.
