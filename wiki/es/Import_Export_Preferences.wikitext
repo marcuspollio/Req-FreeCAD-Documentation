@@ -1,14 +1,14 @@
 <languages/>
 
 {{Docnav/es
-|[[Preferences_Editor/es|Editor Preferencias]]
-|[[Start_up_and_Configuration/es|Puesta en marcha y Configuración]]
+|[[Preferences_Editor|Editor de Preferencias]]
+|[[Start_up_and_Configuration|Puesta en marcha y Configuración]]
 }}
 
 {{TOCright}}
 
 <span id="Introduction"></span>
-==Introducción==
+== Introducción ==
 
 FreeCAD can import and export many file formats. For some formats dedicated preferences exist. These can be found in the [[Preferences_Editor|Preferences editor]]. In the menu select {{MenuCommand|Edit → Preferences...}} and then {{MenuCommand|Import-Export}}.
 
