@@ -481,7 +481,8 @@ Si se selecciona '''Máximo''', solo se exportarán los elementos de mayor altur
 
 Si se selecciona '''FEM''', solo se exportarán los elementos FEM. Esto significa que solo se exportarán las aristas que no pertenezcan a caras y las caras que no pertenezcan a volúmenes.
 
-|-| {{MenuCommand|Exportar datos de grupo}}
+|-
+| {{MenuCommand|Exportar datos de grupo}}
 | Si está marcada, también se exportarán los grupos de malla. Cada restricción y, si hay diferentes materiales, cada material consta de dos grupos de malla: caras y nodos donde se aplica la restricción o el material.
 
 |}
