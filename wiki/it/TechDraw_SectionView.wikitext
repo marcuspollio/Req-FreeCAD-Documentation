@@ -115,10 +115,12 @@ Una Vista di Sezione, formalmente un oggetto {{Incode|TechDraw::DrawViewSection}
 <span id="Notes"></span>
 ==Note==
 
+<div class="mw-translate-fuzzy">
 * '''Section Line Format''': sono supportati due formati di linea di sezione (come illustrato sopra) e controllati dall'impostazione delle preferenze "Standard linea di sezione" nella scheda Annotazione. L'opzione {{Value|ANSI}} utilizza "frecce che tirano" (noto anche come "formato tradizionale" in alcune aree) e l'opzione {{Value|ISO}} utilizza "frecce che spingono" (noto anche come "formato freccia di riferimento ").
 * '''Fuse Before Cut''': l'operazione di sezione a volte non riesce a tagliare le forme sorgente. Se '''Fuse Before Cut''' è true, le forme di origine vengono unite in un'unica forma prima che venga tentata l'operazione di sezione. Se si riscontrano problemi con il funzionamento della sezione, prova a invertire questo valore.
 * '''Trim After Cut''': l'operazione di taglio della sezione a volte lascia dietro di sé una porzione della forma sorgente. Se '''Trim After Cut''' è true, viene eseguita un'operazione di taglio aggiuntiva sul risultato del primo taglio che dovrebbe rimuovere eventuali pezzi indesiderati.
 * '''Cut Surface Display''': la superficie tagliata può essere nascosta, dipinta in un colore solido, tratteggiata utilizzando un modello Svg (predefinito) o tratteggiata utilizzando un modello PAT. Vedere [[TechDraw_Hatching/it|Tratteggio]].
+</div>
 
 <span id="Scripting"></span>
 ==Script==
