@@ -464,9 +464,7 @@ Si se selecciona '''Sólidos (tipo 186) y cáscaras (tipo 514) / Modo B-REP''', 
 
 INP es el formato de archivo de entrada para el software FEM [https://en.wikipedia.org/wiki/Abaqus Abaqus]. Se utiliza para el solucionador [[FEM_CalculiX|CalculiX]] en el [[Image:Workbench_FEM.svg|24px]] [[FEM_Workbench|FEM Workbench]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This page is only shown if the [[Image:Workbench_FEM.svg|24px]] [[FEM_Workbench|FEM Workbench]] has been loaded in the current FreeCAD session.
-</div>
+Esta página solo se muestra si el [[Image:Workbench_FEM.svg|24px]] [[FEM_Workbench|FEM Workbench]] se ha cargado en la sesión actual de FreeCAD.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 On this page you can specify the following:
