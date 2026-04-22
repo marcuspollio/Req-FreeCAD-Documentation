@@ -36,20 +36,20 @@ Este grupo de preferencias tiene siete páginas: General, Documento, Selección,
 En esta página puede especificar lo siguiente:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
 | {{MenuCommand|Language}}
-| Language of the application's user interface.
+| Idioma de la interfaz de usuario de la aplicación.
 |-
 | {{MenuCommand|Default unit system}}
-| Unit system for all parts of the application. {{Version|1.0}}: Used as the default for the [[Std_ProjectInfo|document unit system]] of new documents. The active document's unit system overrides the default unit system unless the next option is checked.
+| Sistema de unidades para todas las partes de la aplicación. {{Version|1.0}}: Se utiliza como predeterminado para el [[Std_ProjectInfo|sistema de unidades del documento]] de los nuevos documentos. El sistema de unidades del documento activo anula el sistema de unidades predeterminado a menos que se marque la siguiente opción.
 |-
-| {{MenuCommand|Ignore project unit system and use default}} {{Version|1.0}}
-| If checked, project unit systems are ignored and do not override the default unit system.
+| {{MenuCommand|Ignorar el sistema de unidades del proyecto y usar el predeterminado}} {{Version|1.0}}
+| Si está marcada esta opción, los sistemas de unidades del proyecto se ignoran y no anulan el sistema de unidades predeterminado.
 |-
 | {{MenuCommand|Number of decimals}}
-| The number of decimals that should be shown for numbers and dimensions.
+| El número de decimales que deben mostrarse para los números y las dimensiones.
 |-
 | {{MenuCommand|Minimum fractional inch}}
 | The minimum fractional inch that should be shown for numbers and dimensions. Only available for unit systems with fractional inches.
