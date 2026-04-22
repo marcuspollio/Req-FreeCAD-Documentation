@@ -12,9 +12,7 @@
 
 FreeCAD puede importar y exportar muchos formatos de archivo. Para algunos formatos existen preferencias específicas. Estas se encuentran en el [[Preferences_Editor|Editor de preferencias]]. En el menú, seleccione {{MenuCommand|'''Editar → Preferencias...'''}} y luego {{MenuCommand|'''Importar-Exportar'''}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Not all import and export preferences pages are available by default. For some a workbench has to be loaded first.
-</div>
+No todas las páginas de preferencias de importación y exportación están disponibles por defecto. Para algunas, es necesario cargar primero un entorno de trabajo.
 
 <span id="Notes"></span>
 ==Notas==
