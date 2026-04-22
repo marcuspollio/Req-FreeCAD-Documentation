@@ -53,7 +53,6 @@ Frühere FreeCAD-Versionshinweise können unter [[Feature_list/de#Release_notes|
 <span id="Further_Core_improvements"></span>
 ==== Weitere Core-Verbesserungen ====
 
-<div class="mw-translate-fuzzy">
 * Die Suchleiste in den [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences/de|Einstellungen]] kann nun Tooltipps, Klapplisten-Werte, Kontrollkästchen und Gruppentitel durchsuchen. [https://github.com/FreeCAD/FreeCAD/pull/24283 Pull-Request #24283]
 * Das Werkzeug [[Image:Std_Measure.svg|24px]] [[Std_Measure/de|Messen]] bietet nun die Möglichkeit, das Messergebnis von kreisförmigen Elementen als Durchmesser anzuzeigen  anstatt als Radien. [https://github.com/FreeCAD/FreeCAD/pull/24853 Pull-Request #24853]
 * Das Werkzeug [[Image:Std_Measure.svg|24px]] [[Std_Measure/de|Messen]] unterstützt jetzt das Messen von Radius und Durchmesser zylindrischer Flächen.[https://github.com/FreeCAD/FreeCAD/pull/27044 Pull-Request #27044]
@@ -63,7 +62,8 @@ Frühere FreeCAD-Versionshinweise können unter [[Feature_list/de#Release_notes|
 * Das Werkzeug [[Image:Std_Measure.svg|24px]] [[Std_Measure/de|Messen]] stellt Flächeneinheiten jetzt mit hochgestellten Unicode-Zeichen an. [https://github.com/FreeCAD/FreeCAD/pull/28044 Pull-Request #28044]
 * Makros unterstützen nun Verzeichnisse, um die zugehörigen Dateien zu sammeln. [https://github.com/FreeCAD/FreeCAD/pull/27005 Pull-Request #27005]
 * [[Image:Part CoordinateSystem.svg|24px]] [[Std_Base/de#Part_Datums|Bezugselemente]] verwenden jetzt die Eigenschaft ''Show Placement'', wodurch die Versatzangaben (ohne Drehungen) von [[Part_EditAttachment/de|Befestigungen]] in lokalen Koordinaten intuitiver werden. [https://github.com/FreeCAD/FreeCAD/pull/29176 Pull-Request #29176]
-</div>
+* Das Werkzeug [[Image:Std_Measure.svg|24px]] [[Std_Measure/de|Messen]] kann jetzt den Radius und den Durchmesser von Kugeln und Tori angeben. [https://github.com/FreeCAD/FreeCAD/pull/29369 Pull-Request #29369]
+* Das Werkzeug [[Image:Std_Measure.svg|24px]] [[Std_Measure/de|Messen]] unterstützt jetzt im Modus ''Distance'' gekrümmte Flächen. [https://github.com/FreeCAD/FreeCAD/pull/29367 Pull-Request #29367]
 
 === API ===
 
