@@ -154,9 +154,7 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 
 :* [[Image:FEM_MeshShape.svg|32px]] [[FEM_MeshShape/pl|Zagęszczenie oparte o kształt]]: Ustawia rozmiar siatki wewnątrz i poza kształtem geometrycznym (prostopadłościan, sfera lub walec). {{Version/pl|1.2}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:FEM_MeshManipulate.svg|32px]] [[FEM_MeshManipulate|Manipulate Refinement]]: Allows to manipulate the output of a refinement in various ways. {{Version|1.2}}
-</div>
+:* [[Image:FEM_MeshManipulate.svg|32px]] [[FEM_MeshManipulate/pl|Manipulacja zagęszczeniem]]: Umożliwia manipulację wynikiem zagęszczenia na różne sposoby. {{Version/pl|1.2}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:FEM_MeshAdvanced.svg|32px]] [[FEM_MeshAdvanced|Advanced Refinement Types]]: Allows to define the mesh size by various advanced means. {{Version|1.2}}
