@@ -94,7 +94,7 @@ Si todo parece correcto, describa el problema en el [http://forum.freecad.org/ f
 <span id="FreeCAD_freezes_after_startup"></span>
 === FreeCAD se congela tras el arranque ===
 
-Al iniciar FreeCAD la GUI aparece casi inmediatamente pero la GUI está congelada y la cpu está al 99%. Esto puede ocurrir en el escritorio KDE cuando se utiliza el tema Oxígeno. Es un error del tema Oxígeno y elegir otro tema debería solucionar este problema.
+Al iniciar FreeCAD la GUI aparece casi inmediatamente pero la GUI está congelada y la CPU está al 99%. Esto puede ocurrir en el escritorio KDE cuando se utiliza el tema Oxígeno. Es un error del tema Oxígeno y elegir otro tema debería solucionar este problema.
 
 <span id="FreeCAD_crashes_on_creating_a_new_document_or_opening_a_file"></span>
 === FreeCAD se bloquea al crear un nuevo documento o abrir un archivo ===
