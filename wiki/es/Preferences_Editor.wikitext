@@ -931,22 +931,22 @@ En esta página puede especificar lo siguiente:
 
 |-
 | {{MenuCommand|Tamaño de sangría}}
-| Especifica cuántos espacios se insertarán al pulsar {{TECLA|Tab}}. Esta configuración solo se usa si se selecciona {{MenúComando|Insertar espacios}}.
+| Especifica cuántos espacios se insertarán al pulsar {{TECLA|Tab}}. Esta configuración solo se usa si se selecciona {{MenuCommand|Insertar espacios}}.
 
 |-
 | {{MenúComando|Mantener tabulaciones}}
-| Si se selecciona, al pulsar {{TECLA|Tab}} se insertará un tabulador con la trama definida por {{MenúComando|Tamaño de tabulación}}.
+| Si se selecciona, al pulsar {{TECLA|Tab}} se insertará un tabulador con la trama definida por {{MenuCommand|Tamaño de tabulación}}.
 
 |-
 | {{MenúComando|Insertar espacios}}
-| Si se selecciona, al pulsar {{TECLA|Tab}} se insertará la cantidad de espacios definida por {{MenúComando|Tamaño de sangría}}.
+| Si se selecciona, al pulsar {{TECLA|Tab}} se insertará la cantidad de espacios definida por {{MenuCommand|Tamaño de sangría}}.
 
 |-
 | {{MenúComando|Mostrar elementos}}
-| Especifica el tipo de código al que se aplicarán los ajustes de color y fuente. El resultado se puede comprobar en el campo {{MenúComando|Vista previa}}.
+| Especifica el tipo de código al que se aplicarán los ajustes de color y fuente. El resultado se puede comprobar en el campo {{MenuCommand|Vista previa}}.
 
 |-
-| {{MenúComando|Familia}}
+| {{MenuCommand|Familia}}
 | Especifica la familia de fuentes que se debe usar para el tipo de código seleccionado.
 
 |-| {{MenuCommand|Size}}
