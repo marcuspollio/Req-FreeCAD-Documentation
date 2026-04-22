@@ -103,10 +103,12 @@ Une vue en coupe, en fait un objet {{Incode|TechDraw::DrawViewSection}}, est dé
 <span id="Notes"></span>
 == Remarques ==
 
+<div class="mw-translate-fuzzy">
 * '''Section Line Format''' : deux formats de lignes de section sont pris en charge (comme illustré ci-dessus) et contrôlés par le paramètre des préférences « Norme des lignes » dans l'onglet Annotation. L'option {{Value|ANSI}} utilise des « flèches tirées » (aussi appelées « format traditionnel ») et l'option {{Value|ISO}} utilise des « flèches poussées » (également appelées « format à flèches de référence »).
 * '''Fuse Before Cut''' : l'opération de coupe échoue parfois à découper les formes sources. Si '''Fuse Before Cut''' est vrai, les formes sources sont fusionnées en une seule forme avant que l'opération de section ne soit tentée. Si vous rencontrez des problèmes avec l'opération de section, essayez d'inverser cette valeur.
 * '''Trim After Cut''' : l'opération d'ajustement de la coupe laisse parfois derrière elle une partie de la forme source. Si '''Trim After Cut''' est vrai, une opération d'ajustement supplémentaire est effectuée sur le résultat de le premier ajustement qui devrait enlever tous les morceaux non désirés.
 * '''Cut Surface Display''': la surface de coupe peut être cachée, rendue par une couleur pleine, hachurée en utilisant un motif SVG (par défaut) ou hachurée en utilisant un motif PAT. Voir [[TechDraw_Hatching/fr|TechDraw Hachures]].
+</div>
 
 <span id="Scripting"></span>
 ==Script==
