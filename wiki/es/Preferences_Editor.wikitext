@@ -1067,25 +1067,32 @@ En esta página puede especificar lo siguiente:
 
 Para agregar un repositorio, pulse el botón {{Button|[[Image:List-add.svg|16px]]}}. Tanto la {{MenuCommand|URL del repositorio}} como la {{MenuCommand|Rama}}, normalmente {{Value|maestra}} o {{Value|principal}}, deben especificarse en el cuadro de diálogo que se abre.
 
-To remove a repository select it in the list and press the {{Button|[[Image:List-remove.svg|16px]]}} button.
+Para eliminar un repositorio, selecciónelo en la lista y pulse el botón {{Button|[[Image:List-remove.svg|16px]]}}.
+
 |-
 | {{MenuCommand|Proxy}}
-| The Addon manager includes experimental support for proxies requiring authentication, set up as user-defined proxies.
+| El administrador de complementos incluye soporte experimental para proxies que requieren autenticación, configurados como proxies definidos por el usuario.
+
 |-
-| {{MenuCommand|Score source URL}} {{Version|1.0}}
-| The URL for the Addon Score data. See [[Std_AddonMgr#Sorting_by_score|Std AddonMgr]] for formatting and hosting details.
+| {{MenuCommand|URL de origen de la puntuación}} {{Version|1.0}}
+| La URL de los datos de puntuación del complemento. Consulte [[Std_AddonMgr#Sorting_by_score|Std AddonMgr]] para obtener detalles sobre el formato y el alojamiento.
+
 |-
-| {{MenuCommand|Path to git executable (optional)}}
-| The Addon manager attempts to determine the git executable. To override this selection, the path to the executable can be set here.
+| {{MenuCommand|Ruta al ejecutable de Git (opcional)}}
+| El administrador de complementos intenta determinar el ejecutable de Git. Para anular esta selección, puede establecer aquí la ruta al ejecutable.
+
 |-
-| {{MenuCommand|Show option to change branches (requires git)}}
-| If checked, the Addon manager provides an interface on the addon's details screen that allows switching which git branch is currently checked out. This is intended for advanced users only, as it is possible that a non-primary-branch version of an addon may result in instability and compatibility issues. Git must be installed for this to work. Use with caution.
+| {{MenuCommand|Mostrar opción para cambiar de rama (requiere Git)}}
+| Si está marcada, el administrador de complementos proporciona una interfaz en la pantalla de detalles del complemento que permite cambiar la rama de Git que está activa. Esta función está pensada solo para usuarios avanzados, ya que una versión de un complemento que no sea la rama principal puede provocar inestabilidad y problemas de compatibilidad. Git debe estar instalado para que esto funcione. Úselo con precaución.
+
 |-
-| {{MenuCommand|Disable git (fall back to ZIP downloads only)}}
-| If checked, git downloads are disabled.
+| {{MenuCommand|Deshabilitar Git (solo descargas ZIP)}}
+| Si está marcada, se deshabilitan las descargas de Git.
+
 |-
-| {{MenuCommand|Addon developer mode}}
-| If checked, Addon manager options intended for developers of addons are activated.
+| {{MenuCommand|Modo desarrollador de complementos}}
+| Si está marcada, se activan las opciones del administrador de complementos destinadas a los desarrolladores de complementos.
+
 |}
 
 <span id="Workbench_related_preferences"></span>
