@@ -239,9 +239,7 @@ La opción '''Max Spline Segment''' define la longitud máxima de cada segmento 
 <span id="IFC"></span>
 === IFC ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-[https://en.wikipedia.org/wiki/Industry_Foundation_Classes Industry Foundation Classes] (IFC) is a wide spread format to exchange data between [https://en.wikipedia.org/wiki/Building_Information_Modeling BIM] applications. It is used in architecture and engineering.
-</div>
+[https://en.wikipedia.org/wiki/Industry_Foundation_Classes Industry Foundation Classes] (IFC) es un formato ampliamente utilizado para intercambiar datos entre aplicaciones [https://en.wikipedia.org/wiki/Building_Information_Modeling BIM]. Se utiliza en arquitectura e ingeniería.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Note for Linux users: To handle this file format FreeCAD requires the [[Extra_python_modules|IfcOpenShell module]].
