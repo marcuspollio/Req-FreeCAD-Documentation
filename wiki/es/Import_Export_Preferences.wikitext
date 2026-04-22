@@ -243,9 +243,8 @@ La opción '''Max Spline Segment''' define la longitud máxima de cada segmento 
 
 Nota para usuarios de Linux: Para manejar este formato de archivo, FreeCAD requiere el módulo [[Extra_python_modules|IfcOpenShell]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====IFC Import====
-</div>
+<span id="IFC_Import"></span>
+==== Importación IFC ====
 
 [[Image:Preferences_Import-Export_Page_IFC_import.png|400px]]
 
