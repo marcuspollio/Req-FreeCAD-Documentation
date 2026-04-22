@@ -540,11 +540,11 @@ Seleccione el objeto que desea seleccionar.
 
 Con el estilo de navegación a través del panel táctil, para desplazar, ampliar y rotar la vista se requiere una tecla modificadora junto con el panel táctil. Este estilo también se puede usar con un ratón.
 
-{{Navegación_del_panel_táctil
-|Seleccionar_nombre=Seleccionar
-|Zoom_nombre=Zoom
-|Rotar_vista_nombre=Rotar vista
-|Desplazar_nombre=Desplazar
+{{Touchpad_Navigation
+|Select_name=Seleccionar
+|Zoom_name=Zoom
+|Rotate_view_name=Rotar vista
+|Pan_name=Desplazar
 
 |Ctrl={{KEY|Ctrl}}
 |Shift={{KEY|Mayús}}
