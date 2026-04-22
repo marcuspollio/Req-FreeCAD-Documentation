@@ -65,7 +65,7 @@ chmod +x ./name_of_AppImage_file.AppImage
 HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./name_of_AppImage_file.AppImage
 }}
 
-Puedes encontrar más información sobre las variables de entorno de FreeCAD en [[Start_up_and_Configuration#Environment_variables | la página de configuración]].
+Puede encontrar más información sobre las variables de entorno de FreeCAD en [[Start_up_and_Configuration#Environment_variables |la página de configuración]].
 
 <span id="Development_versions"></span>
 == Versiones de desarrollo ==
