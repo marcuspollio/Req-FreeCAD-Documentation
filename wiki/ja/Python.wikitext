@@ -75,7 +75,8 @@ Wire = make_wire(pointslist, closed=True, face=True)
 Window = make_window(Wire, name="Big window")
 }}
 
-== Imports ==
+<span id="Imports"></span>
+== インポート ==
 
 Pythonの関数はモジュールと呼ばれるファイルに収められています。あるモジュールの関数を呼び出す前に、{{incode|import}}文をつかってドキュメントにそのモジュールをインポートする必要があります。
 
