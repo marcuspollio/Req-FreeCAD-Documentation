@@ -25,8 +25,10 @@ Alle Einstellungen mit ''kursiven'' Beschriftungen sind Standardwerte für neue 
 
 [[Image:Preferences_TechDraw_Page_General.png|thumb|350px|Allgemeine Einstellungen]]
 
-<span id="Drawing_Update"></span>
+<span id="Page_Update"></span>
+<div class="mw-translate-fuzzy">
 ===Aktualisieren der Zeichnungsblätter===
+</div>
 
 * '''Mit 3D aktualisieren (globale Richtlinie)''': Gibt an, ob die Seiten jedes Mal aktualisiert werden, wenn das 3D-Modell geändert wird oder nicht.
 * '''Überschreiben durch Blatteigenschaften zulassen (globale Richtlinie)''': Gibt an, ob die Eigenschaft '''[[TechDraw_PageDefault/de#Properties|Keep Updated]]''' (aktuell halten) eines Zeichnungsblattes den globalen Parameter '''Update with 3D''' überschreiben kann oder nicht.
@@ -200,6 +202,7 @@ Alle Einstellungen mit ''kursiven'' Beschriftungen sind Standardwerte für neue 
 
 Einstellung der Standardfarben für neue Zeichnungsblätter:
 
+<div class="mw-translate-fuzzy">
 * '''Normal''': Normale Linienfarbe.
 * '''Vorausgewählt''': Vorausgewählte Farbe. Die Farbe, die verwendet wird, um Objekte hervorzuheben, wenn die Maus darüber bewegt wird.
 * '''Ausgewählt''': Farbe für ausgewählte Objekte.
@@ -220,6 +223,7 @@ Einstellung der Standardfarben für neue Zeichnungsblätter:
 * '''Hell auf dunkel''': Wenn aktiviert, erhalten Texte und Linien eine helle Farbe. Wird verwendet, wenn die "Blattfarbe" dunkel ist. Transparente oder hell eingefärbte Flächen werden für diese Option empfohlen. {{Version/de|0.21}}
 * '''Einfarbig''': Wenn aktiviert, wird die eingestellte Farbe für alle Texte und Linien verwendet. {{Version/de|0.21}}
 * '''Blattfarbe''': Die Hintergrundfarbe des Zeichenblattes. {{Version/de|0.21}}
+</div>
 
 <span id="HLR"></span>
 ==Ausblenden verdeckter Kanten (HLR)==
@@ -240,6 +244,7 @@ HLR steht für ''Entfernen (oder Ausblenden) verdeckter Linien'' (engl.: hidden 
 
 [[Image:Preferences_TechDraw_Page_Advanced.png|thumb|350px|Erweiterte Einstellungen]]
 
+<div class="mw-translate-fuzzy">
 * '''Flächen erkennen''': Wenn angehakt, versucht TechDraw, Flächen unter Verwendung der Liniensegmente zu erzeugen, die vom Algorithmus zum Entfernen verdeckter Linien zurückgegeben werden. Flächen müssen erkannt werden, um [[TechDraw_Hatching/de|Schraffieren]] verwenden zu können, aber bei komplexen Modellen kann es zu Leistungseinbußen kommen.
 * '''Fortschritt anzeigen''': Gibt Fortschrittsmeldungen aus, während die darzustellende Geometrie berechnet wird. {{Version/de|0.21}}
 * '''Neuen Flächenfinder-Algorithmus verwenden'': Wenn aktiviert, wird der neue Flächenfinder-Algorithmus verwendet, anstatt des originalen. {{Version/de|0.21}}
@@ -258,6 +263,7 @@ HLR steht für ''Entfernen (oder Ausblenden) verdeckter Linien'' (engl.: hidden 
 * '''Max. SVG-Schraffur-Felder''': Die maximale Anzahl (Limit) von SVG-Kacheln mit einer Größe von 64x64 Pixeln, die zum Schraffieren einer einzelnen Fläche verwendet werden. Bei großen Maßstäben könnte man einen Fehler wegen zu vieler SVG-Kacheln erhalten, dann muss man das Kachellimit erhöhen.
 * '''Maximum der PAT-Schraffur-Segmente''': Die maximale Anzahl von Schraffursegmenten, die beim Schraffieren einer Fläche mit einem PAT-Muster verwendet werden.
 * '''Hinweisfeld ziehen''': Die Modifikatortaste für das Ziehen des Hinweisfeldes kann angepasst werden, um Konflikte mit dem Betriebssystem oder der Tastenzuordnungen der Navigationsart zu verhindern. {{Version/de|1.0}}
+</div>
 
 
 {{Docnav/de
