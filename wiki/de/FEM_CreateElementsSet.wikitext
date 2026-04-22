@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[FEM_MeshGroup/de|FEM Netz-Gruppe]]
 |[[FEM_FemMesh2Mesh/de|FEM-Netz zu Netz]]
@@ -8,6 +9,7 @@
 |IconR=FEM_FemMesh2Mesh.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{GuiCommand/de
 |Name=FEM CreateElementsSet |Name/de=FEM Elemente löschen
@@ -44,6 +46,7 @@ Blendet die durch ein Polygon ausgewählten Elemente des FEM-Netzes oder des Erg
 * Um nach der ersten Verwendung des Werkzeugs weitere Elemente aus demselben FEM-Netz auszublenden, müssen Sie das neue (geänderte) Netz manuell auswählen. Dies ist bei den Ergebnisnetzen nicht der Fall.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[FEM_MeshGroup/de|FEM Netz-Gruppe]]
 |[[FEM_FemMesh2Mesh/de|FEM-Netz zu Netz]]
@@ -52,6 +55,7 @@ Blendet die durch ein Polygon ausgewählten Elemente des FEM-Netzes oder des Erg
 |IconR=FEM_FemMesh2Mesh.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
