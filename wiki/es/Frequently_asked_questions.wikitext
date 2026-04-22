@@ -119,7 +119,7 @@ Se produce un error de segmentación en {{SystemOutput|vbo_save_playback_vertex_
 
 [[File:Jj62l.png|480px|left|opciones de idioma]]
 
-Lo más probable es que tenga una mala configuración regional de Windows. Compruebe si tiene el mismo símbolo para el separador decimal y el símbolo de agrupación de dígitos en su configuración regional. Si es así, [http://forum.freecad.org/viewtopic.php?f=4&t=2655&p=20046#p20041 adapte la configuración de su sistema] para utilizar caracteres diferentes para el símbolo de agrupación de dígitos y el separador decimal. Tenga en cuenta que no es obligatorio utilizar el punto como separador de decimales. Es obligatorio utilizar símbolos diferentes en estas dos configuraciones.
+Es muy probable que tenga una configuración regional de Windows incorrecta. Compruebe si tiene el mismo símbolo para el separador decimal y el separador de dígitos en la configuración regional. Si es así, [https://forum.freecad.org/viewtopic.php?f=4&t=2655&p=20046#p20041 adapte la configuración del sistema] para usar caracteres diferentes para el separador decimal y el separador de dígitos. Tenga en cuenta que no es obligatorio usar el punto como separador decimal. Sí es obligatorio usar símbolos diferentes en estas dos configuraciones.
 {{clear}}
 
 <span id="FreeCAD_was_running_normally,_and_suddenly_it_doesn&#039;t_start_anymore"></span>
