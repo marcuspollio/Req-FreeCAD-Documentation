@@ -31,7 +31,7 @@ El núcleo de modelado geométrico subyacente de FreeCAD, la biblioteca de terce
 El código fuente de FreeCAD siempre está disponible en el repositorio de código fuente del proyecto. Compilar FreeCAD por su cuenta le permite usar las funciones más recientes en desarrollo, pero requiere algunos conocimientos de informática, aunque el procedimiento es bastante sencillo. El acceso al código fuente se explica [[Compile_on_Linux#Getting_the_source|aquí]], y tenemos instrucciones detalladas para compilar en [[Compile_on_Windows|Windows]], [[Compile_on_Linux|Linux]] y [[Compile_on_MacOS|macOS]].
 
 <span id="FreeCAD_tells_me_some_module_or_application_is_missing"></span>
-=== FreeCAD me dice que falta algún módulo o aplicación ===
+=== FreeCAD me indica que falta algún módulo o aplicación ===
 
 FreeCAD depende de muchas cosas para ofrecer toda su funcionalidad. Todos los principales componentes necesarios están normalmente incluidos en tu instalación de FreeCAD o proporcionados por tu gestor de paquetes, así que normalmente no tienes nada de qué preocuparte. Sin embargo, si has instalado FreeCAD desde fuentes no oficiales, o has compilado FreeCAD tú mismo, puede faltar alguna pieza, que no es crítica para FreeCAD en sí mismo, pero puede causar que alguna funcionalidad no esté disponible. Algunos formatos de archivo específicos como Collada o DWG también requieren componentes adicionales, que no pueden ser incluidos en FreeCAD, y deben ser instalados por ti mismo por separado. 
 
