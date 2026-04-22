@@ -127,10 +127,12 @@ Więcej informacji znajdziesz na stronie [[Tutorials/pl|Poradniki]].
 
 Każdy użytkownik może opracować własne nowe funkcje dla FreeCAD i udostępnić je społeczności FreeCAD jako [[Addon/pl|Dodatki]].
 
+<div class="mw-translate-fuzzy">
 Istnieją trzy rodzaje dodatków:
 * [[Macros/pl|Makrodefinicje]]: krótki fragment kodu w [[Python/pl|Pythonie]], który dostarcza nowe narzędzie lub funkcjonalność w pojedynczym pliku z rozszerzeniem {{incode|.FCMacro}}.
 * [https://www.freecad.org/addons.php Środowiska pracy]: zbiory plików Pythona dostarczające powiązane [[Gui_Command/pl|polecenia GUI]] ''(narzędzia)'' skupione wokół określonego tematu.
 * [[Preference_Packs/pl|Pakiety preferencji]]: dystrybuowane zbiory preferencji użytkownika.
+</div>
 
 <span id="Scripting"></span>
 ==Tworzenie skryptów==
