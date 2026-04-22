@@ -79,15 +79,15 @@ Ahora colocaremos cotas e indicaciones en nuestro dibujo. Hay dos maneras de añ
 
 [[Image:Exercise_TechDraw_06.png]]
 
-# En la ventana de [[Vista 3D]], seleccione la vista a la que se adjuntará el globo, tal y como se muestra en la imagen superior.
+# En la ventana de [[3D_view/es|Vista 3D]], seleccione la vista a la que se adjuntará el globo, tal y como se muestra en la imagen superior.
 
-# Pulse el botón Globo [[Imagen:TechDraw Balloon.svg|16px]].
+# Pulse el botón Globo [[Image:TechDraw Balloon.svg|16px]].
 # El cursor ahora se muestra como un icono de globo. Haga clic en la página para colocar el origen del globo en la posición deseada.
 
 # Puede arrastrar la burbuja del globo a la posición deseada.
 
-# Cambie las propiedades del globo haciendo doble clic en la etiqueta o sobre el objeto del globo en la [[Vista de árbol]]. Esto abrirá el cuadro de diálogo de tareas del globo. Establezca el valor del campo con el texto deseado y cambie la selección del menú desplegable Símbolo a {{MenuCommand|Ninguno}}.
-# Pulse {{Botón|Aceptar}}.
+# Cambie las propiedades del globo haciendo doble clic en la etiqueta o sobre el objeto del globo en la [[Tree_view|Vista de árbol]]. Esto abrirá el cuadro de diálogo de tareas del globo. Establezca el valor del campo con el texto deseado y cambie la selección del menú desplegable Símbolo a {{MenuCommand|Ninguno}}.
+# Pulse {{Button|Aceptar}}.
 # Repita la operación para la segunda llamada.
 
 * Ahora completaremos el bloque de título de la hoja.
