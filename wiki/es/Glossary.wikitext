@@ -452,10 +452,10 @@ Lenguaje de programación utilizado en el desarrollo de FreeCAD, así como en ma
 {{gloss}}
 {{term|Vector}}
 {{defn|defn=Una magnitud con una dirección. A menudo se representa gráficamente como una flecha en 2 o 3 dimensiones. Por ejemplo, "cincuenta pasos al norte", "9,8 m/s² hacia abajo" y "(3, 5, 6) unidades en las direcciones x, y, z, respectivamente" son todos vectores. En FreeCAD, se suelen denotar como pares ordenados (x, y) o tríos ordenados (x, y, z).}}
-{{term|Vértice}}
-{{defn|defn=Un punto aislado en el espacio, o en la esquina de una forma donde se encuentran las aristas. La tecnología abierta Cascade lo define como una forma de dimensión cero que corresponde a un punto en la geometría. Véase [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Perfil OCCT: Definición de la topología]}}
-{{term|Vértices}}
-{{defn|defn=Plural de [[#Vértice|Vértice]]}}
+{{term|Vertex}}
+{{defn|defn=Un [[Vertex|vértice]] es punto aislado en el espacio, o en la esquina de una forma donde se encuentran las aristas. La tecnología abierta Cascade lo define como una forma de dimensión cero que corresponde a un punto en la geometría. Véase [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Perfil OCCT: Definición de la topología]}}
+{{term|Vertices}}
+{{defn|defn=Plural de [[#Vertex|Vértice]]}}
 {{term|Viewprovider}}
 {{defn|defn=Interfaz general para todos los elementos visuales en FreeCAD. Un ViewProvider genera y gestiona la visualización y presentación de objetos de la capa [[#App|App]] de FreeCAD al usuario. Esta clase y sus descendientes deben implementarse para cualquier tipo de objeto con el fin de mostrarlos en la vista [[#3D_view|3D]] y la vista [[#Tree_view|Tree]].}}
 {{glossend}}
