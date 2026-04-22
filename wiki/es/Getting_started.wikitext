@@ -129,10 +129,12 @@ El principio de [[Addon/es|Complementos]] se basa en el desarrollo de un complem
 En el foro, cualquier usuario previamente registrado, puede solicitar una opinión o una ayuda. Puede compartir, o no, el objeto de su desarrollo según las normas de derechos de autor del archivo elaborado.
 Para contribuir al desarrollo del programa, el usuario dispone de funciones estructuradas o [[scripting/es|scrpits]].
 
+<div class="mw-translate-fuzzy">
 Hay dos tipos de complementos:
 #[[Macros/es|Macros]]: breves fragmentos de código Python que proporcionan una nueva herramienta o funcionalidad. Las macros suelen empezar como una forma de simplificar o automatizar la tarea de dibujar o editar un objeto concreto. Si muchas de estas macros se reúnen dentro de un directorio, todo el directorio puede ser distribuido como un nuevo ambiente de trabajo.
 #[[External_workbenches/es|Ambientes de trabajo externos]]: colecciones de herramientas programadas en Python o C++ que extienden FreeCAD de forma importante. Si un ambiente de trabajo está suficientemente desarrollado y está bien documentado, puede ser incluido como uno de los ambientes de trabajo base en FreeCAD. En [[External_workbenches/es|Ambientes de trabajo externos]], encontrarás el principio y una lista de las bibliotecas existentes.
 #[[Preference_Packs|Preference Packs]]: colecciones distribuibles de preferencias de usuario.
+</div>
 
 <span id="Scripting"></span>
 ==Guión==
