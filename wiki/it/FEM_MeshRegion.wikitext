@@ -1,6 +1,8 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/it|[[FEM_MeshBoundaryLayer/it|Strato limite di mesh FEM]]|[[FEM_MeshGroup/it|Gruppo di mesh FEM]]|[[FEM_Workbench/it|FEM]]|IconL=Fem-femmesh-boundary-layer.svg|IconC=Workbench_FEM.svg|IconR=FEM_MeshGroup.png}}
+</div>
 
 <div class="mw-translate-fuzzy">
 {{GuiCommand/it|Name=FEM_MeshRegion|Name/it=FEM MeshRegion|MenuLocation= Mesh → FEM Mesh region||Workbenches=[[FEM_Workbench/it|FEM]]|Shortcut=|SeeAlso=[[FEM_tutorial/it|Tutorial FEM]]}}
@@ -79,7 +81,9 @@ L'ordine in cui le regioni sono mostrate nella [[Tree view/it|vista ad albero]] 
 </div>
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/it|[[FEM_MeshBoundaryLayer/it|Strato limite di mesh FEM]]|[[FEM_MeshGroup/it|Gruppo di mesh FEM]]|[[FEM_Workbench/it|FEM]]|IconL=Fem-femmesh-boundary-layer.svg|IconC=Workbench_FEM.svg|IconR=FEM_MeshGroup.png}}
+</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
