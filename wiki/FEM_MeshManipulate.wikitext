@@ -50,14 +50,14 @@ The '''FEM MeshManipulate''' command allows to manipulate the output of a refine
 #** Optionally, use the ''Linear interpolation'' checkbox to define if interpolation of the mesh size between SizeMinimum and SizeMaximum should be linear or sigmoid function
 #** Optionally, use the ''Stop at max input'' checkbox
 #* ''Mean'' - calculates the mean value of child refinement G
-#** Specify ''Delta'' - distance at which mesh size will be SizeMaximum
+#** Specify ''Delta''
 #* ''Gradient'' - computes the finite difference gradient of child refinement G
 #** Select ''Kind'': X, Y, Z or Mean
-#** Specify ''Delta'' - distance at which mesh size will be SizeMaximum
+#** Specify ''Delta''
 #* ''Curvature'' - computes the curvature of child refinement G
-#** Specify ''Delta'' - distance at which mesh size will be SizeMaximum
+#** Specify ''Delta''
 #* ''Laplacian'' - computes finite difference of the Laplacian of child refinement G
-#** Specify ''Delta'' - distance at which mesh size will be SizeMaximum
+#** Specify ''Delta''
 # Optionally, press the {{Button|[[Image:Preferences-system.svg|x16px]]}} button to edit the global refinement preview settings:
 #* Auto enable on open - automatically enables the visualization of the refinement mesh size when opening a refinement task dialog.
 #* Preview mesh fineness - determines how fine the preview mesh is. Larger number means finer mesh (smaller elements).
