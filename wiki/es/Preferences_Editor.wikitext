@@ -582,7 +582,7 @@ En esta página puede especificar lo siguiente:
 
 {{MenuCommand|Pasos por turno}} define el número de pasos necesarios para una rotación completa al usar las flechas de rotación del cubo de navegación.
 
-If {{MenuCommand|Rotate to nearest}} is checked, the 3D view is rotated to the nearest most logical position, based on the current orientation of the cube, when a cube face is clicked. Otherwise, clicking a face will always result in the same rotation.
+Si la opción {{MenuCommand|Rotar al más cercano}} está marcada, al hacer clic en una cara del cubo, la vista 3D se rota a la posición lógica más cercana, según la orientación actual del cubo. De lo contrario, al hacer clic en una cara, siempre se producirá la misma rotación.
 
 {{MenuCommand|Cube size}} defines the size of the cube.
 
