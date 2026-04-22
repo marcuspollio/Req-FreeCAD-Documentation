@@ -475,9 +475,7 @@ En esta página puede especificar lo siguiente:
 | {{MenuCommand|Qué elementos de malla exportar}}
 | Seleccione qué elementos de malla se deben exportar.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If '''All''' is selected, all elements will be exported.
-</div>
+Si se selecciona '''Todos''', se exportarán todos los elementos.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If '''Highest''' is selected, only the highest elements will be exported. This means volumes for a volume mesh and faces for a shell mesh.
