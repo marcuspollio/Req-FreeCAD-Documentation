@@ -373,15 +373,15 @@ En esta página puede especificar lo siguiente:
 
 |-
 | {{MenuCommand|Registrar mensajes de error}}
-| Si está marcada, se registrarán los mensajes de error. Se mostrarán en la [[Report_View|Vista_de_informe]] con el color configurado en {{MenuCommand|Errores}}.
+| Si está marcada, se registrarán los mensajes de error. Se mostrarán en la [[Report_View|Vista de informe]] con el color configurado en {{MenuCommand|Errores}}.
 
 |-
 | {{MenuCommand|Mostrar vista de informe en caso de error}}
-| Si está marcada, la [[Report_View|Vista_de_informe]] se mostrará automáticamente cuando se registre un error.
+| Si está marcada, la [[Report_View|Vista de informe]] se mostrará automáticamente cuando se registre un error.
 
 |-
 | {{MenuCommand|Mostrar vista de informe en caso de advertencia}}
-| Si está marcada, la [[Report_View|Vista_de_informe]] se mostrará automáticamente cuando se registre una advertencia.
+| Si está marcada, la [[Report_View|Vista de informe]] se mostrará automáticamente cuando se registre una advertencia.
 
 |-
 | {{MenuCommand|Mostrar vista de informe en caso de mensaje normal}}
