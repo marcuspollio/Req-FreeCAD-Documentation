@@ -129,7 +129,7 @@ FEM tutorial result.png|link=[[FEM_tutorial]]|[[FEM_tutorial|Introducción senci
 
 Figure 11 Deformed Mesh.png|link=[[FEM_Shear_of_a_Composite_Block]]|[[FEM_Shear_of_a_Composite_Block|Análisis de corte por Elementos Finitos de un bloque compuesto]] (v0.17) <br/>Estudie la deformación de un bloque formado por un núcleo duro rodeado de un material más blando: cree regiones de malla, añada materiales, establezca restricciones de deslizamiento, añada cargas de corte, ejecute el solucionador y visualice los resultados con un plano de recorte.
 
-Femconcrete_Wall_3D_rx_PSS.png|link=[[Analysis_of_reinforced_concrete_with_FEM]]|[[Analysis_of_reinforced_concrete_with_FEM|Analysis of reinforced concrete with FEM]] (v0.19) <br/>Calcular en una estructura de hormigón el nivel de refuerzo necesario para evitar fallos de fragilidad por tensiones o fuerzas cortantes.
+Femconcrete_Wall_3D_rx_PSS.png|link=[[Analysis_of_reinforced_concrete_with_FEM]]|[[Analysis_of_reinforced_concrete_with_FEM|Análisis de hormigón armado con el Método de Elementos Finitos (MEF)]] (v0.19) <br/>Calcular en una estructura de hormigón el nivel de refuerzo necesario para evitar fallos de fragilidad por tensiones o fuerzas cortantes.
 
 Two_balls_result_2-cropped.png|link=[[FEM_Example_Capacitance_Two_Balls]]|[[FEM_Example_Capacitance_Two_Balls|Electrostatic equation – Capacitance of two balls]] (v0.19)<br/>Este ejemplo muestra cómo simular una capacitancia. Ilustra cómo configurar el ejemplo, estudiar sus diferentes partes, resolverlo usando el [[FEM_SolverElmer|Elmer Solver]] y visualizar los resultados usando el [[FEM_PostFilterClipRegion|Clip Filter]].
 
