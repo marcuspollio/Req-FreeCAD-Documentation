@@ -1065,7 +1065,7 @@ En esta página puede especificar lo siguiente:
 | {{MenuCommand|Repositorios personalizados}}
 | Aquí se pueden especificar repositorios personalizados.
 
-To add a repository press the {{Button|[[Image:List-add.svg|16px]]}} button. Both the {{MenuCommand|Repository URL}} and the {{MenuCommand|Branch}}, typically {{Value|master}} or {{Value|main}}, must be specifies in the dialog that opens.
+Para agregar un repositorio, pulse el botón {{Button|[[Image:List-add.svg|16px]]}}. Tanto la {{MenuCommand|URL del repositorio}} como la {{MenuCommand|Rama}}, normalmente {{Value|maestra}} o {{Value|principal}}, deben especificarse en el cuadro de diálogo que se abre.
 
 To remove a repository select it in the list and press the {{Button|[[Image:List-remove.svg|16px]]}} button.
 |-
