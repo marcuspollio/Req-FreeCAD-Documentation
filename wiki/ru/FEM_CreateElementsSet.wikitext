@@ -2,10 +2,10 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
-|[[FEM_MeshGroup|Mesh Group]]
+|[[FEM_MeshTransfiniteVolume|Structured Transfinite Volume]]
 |[[FEM_FemMesh2Mesh|FEM Mesh to Mesh]]
 |[[FEM_Workbench|FEM]]
-|IconL=FEM_MeshGroup.svg
+|IconL=FEM_MeshTransfiniteVolume.svg
 |IconR=FEM_FemMesh2Mesh.svg
 |IconC=Workbench_FEM.svg
 }}
@@ -60,10 +60,10 @@ Hides the elements selected by a polygon from the FEM mesh or results mesh, maki
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
-|[[FEM_MeshGroup|Mesh Group]]
+|[[FEM_MeshTransfiniteVolume|Structured Transfinite Volume]]
 |[[FEM_FemMesh2Mesh|FEM Mesh to Mesh]]
 |[[FEM_Workbench|FEM]]
-|IconL=FEM_MeshGroup.svg
+|IconL=FEM_MeshTransfiniteVolume.svg
 |IconR=FEM_FemMesh2Mesh.svg
 |IconC=Workbench_FEM.svg
 }}
