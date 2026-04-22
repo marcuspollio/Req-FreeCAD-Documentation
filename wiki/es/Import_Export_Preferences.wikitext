@@ -220,19 +220,21 @@ Si se selecciona '''Bocetos''', se crearán bocetos siempre que sea posible.
 | {{MenuCommand|Tratar elipses y splines como polilíneas}}
 | La exportación de elipses y splines no es totalmente compatible. Utilice esta opción para exportarlas como polilíneas.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The setting '''Max Spline Segment''' is then the maximum length of each of the polyline segments. If it is set to '''0''' the whole spline is treated as a straight segment.
+La opción '''Max Spline Segment''' define la longitud máxima de cada segmento de polilínea. Si se establece en '''0''', toda la spline se trata como un segmento recto.
+
 |-
-| {{MenuCommand|Export 3D objects as polyface meshes}}
-|  If checked, all objects containing faces will be exported as 3D polyfaces.
+| {{MenuCommand|Exportar objetos 3D como mallas de policaras}}
+| Si está marcada, todos los objetos que contengan caras se exportarán como policaras 3D.
+
 |-
-| {{MenuCommand|Export TechDraw Views as blocks}}
-|  If this is checked, TechDraw Views will be exported as blocks. This might fail for post DXF R12 templates.
+| {{MenuCommand|Exportar vistas de TechDraw como bloques}}
+| Si está marcada, las vistas de TechDraw se exportarán como bloques. Esto podría fallar con plantillas posteriores a DXF R12.
+
 |-
-| {{MenuCommand|Project exported objects along current view direction}}
-|  If checked, the exported objects will be projected to reflect the current view direction. This option only works if the legacy Python exporter is used.
+| {{MenuCommand|Proyectar objetos exportados en la dirección de la vista actual}}
+| Si está marcada, los objetos exportados se proyectarán para reflejar la dirección de la vista actual. Esta opción solo funciona si se utiliza el exportador de Python heredado.
+
 |}
-</div>
 
 ===IFC===
 
