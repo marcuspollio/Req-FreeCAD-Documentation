@@ -169,9 +169,7 @@ El importador de Python utiliza la preferencia {{MenuCommand|'''Editar → Prefe
 
 Si '''textos y dimensiones''' está marcada, los textos y [https://www.autodesk.com/techpubs/autocad/acad2000/dxf/mtext_dxf_06.htm mtexts] también se importarán.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If '''points''' is checked, points will be imported too.
-</div>
+Si '''puntos''' está marcada, los puntos también se importarán.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If '''layouts''' is checked, paper space objects will be imported too.
