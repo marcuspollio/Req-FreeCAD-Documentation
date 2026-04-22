@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[FEM_MeshGmshFromShape/de|FEM Netz aus Form durch Gmsh]]
 |[[FEM_MeshRegion/de|FEM Netz Bereich]]
@@ -8,7 +9,9 @@
 |IconC=Workbench_FEM.svg
 |IconR=FEM_MeshRegion.png
 }}
+</div>
 
+<div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
 {{GuiCommand/de
 |Name=FEM MeshBoundaryLayer
@@ -21,11 +24,14 @@
 |Solvers=Alle
 }}
 }}
+</div>
 
 <span id="Description"></span>
 ==Beschreibung==
 
+<div class="mw-translate-fuzzy">
 Der Befehl '''FEM NetzGrenzSchicht''' ermöglicht es dem Benutzer, eine lokalisierte Reihe von Vernetzungsparametern festzulegen, indem er eine Reihe von Elementen (Eckpunkt, Kante, Fläche) auswählt und die Parameter darauf anwendet.
+</div>
 
 Es ist besonders nützlich für die Verfeinerung von Netzen in der Nähe von Kanten oder Oberflächen in Strömungssimulationen. Beispielsweise kann es verwendet werden, um das Netz in der Nähe eines Tragflügels oder Hindernisses in einer Strömung zu verfeinern.
 
@@ -34,6 +40,7 @@ Die Grenzschicht hat den Vorteil, dass sie hochauflösende, anisotrope Netze erz
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 # Um den Befehl zu aktivieren, muss zunächst ein [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/de|Netz aus Form durch Gmsh]] bereitgestellt werden.
 # Das Mesh-Objekt in der [[Tree_View/de|Baumansicht]] auswählen.
 # Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
@@ -46,6 +53,7 @@ Die Grenzschicht hat den Vorteil, dass sie hochauflösende, anisotrope Netze erz
 #: Ergebnis: Sie sollten nun ein neues {{incode|FEMMeshBoundaryLayer}}-Objekt unter dem {{incode|FEMMeshGMSH}}-Objekt (siehe Beispiel Nr. 3 unten) in Ihrem aktiven Analysecontainer sehen.
 # Auf das übergeordnete Objekt {{incode|FEMMeshGMSH}} im Modellbaum doppelklicken und {{Button|Anwenden}} drücken, um eine Neuberechnung des Netzes zu erzwingen.
 # Die Aufgabe schließen.
+</div>
 
 Nachdem das Netz erstellt wurde, können seine Eigenschaften mit dem [[Property_View/de|Eigenschaften-Ansicht]] geändert werden. Nachdem eine Eigenschaft geändert wurde, muss der Gmsh-Dialog erneut geöffnet werden und auf die Schaltfläche {{Button|Anwenden}} gedrückt werden. (Der Dialog kann während der Änderung der Eigenschaften geöffnet bleiben.)
 
@@ -65,6 +73,7 @@ Es können so viele unterschiedliche Grenzschichten wie nötig erstellt werden.
 {{Caption|Beispiel 3: Ein einfaches Beispiel der resultierenden Baumansicht}}
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[FEM_MeshGmshFromShape/de|FEM Netz aus Form durch Gmsh]]
 |[[FEM_MeshRegion/de|FEM Netz Bereich]]
@@ -73,6 +82,7 @@ Es können so viele unterschiedliche Grenzschichten wie nötig erstellt werden.
 |IconC=Workbench_FEM.svg
 |IconR=FEM_MeshRegion.png
 }}
+</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
