@@ -70,11 +70,11 @@ Puede encontrar más información sobre las variables de entorno de FreeCAD en [
 <span id="Development_versions"></span>
 == Versiones de desarrollo ==
 
-<div class="mw-translate-fuzzy">
-El desarrollo de FreeCAD es activo.
-* Para lanzamientos de desarrollo y código fuente de desarrollo, véa la página [https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds lanzamientos semanales].
-* Para compilar el último código fuente, vea [[Compiling/es|compilar]].
-</div>
+El desarrollo de FreeCAD está siempre activo.
+
+* Para obtener versiones de desarrollo y el código fuente de desarrollo, consulte las versiones semanales en [https://github.com/FreeCAD/FreeCAD/releases]. Allí encontrará versiones semanales para Linux, macOS y Windows. Para Linux, también hay versiones diarias disponibles: utilice el canal edge del paquete [[Ubuntu_Snap|snap]] o el repositorio PPA diario de FreeCAD [https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-daily] (este último solo para distribuciones basadas en Debian).
+
+* Para compilar el código fuente más reciente, consulte [[Compiling|compilando]].
 
 <span id="Additional_modules_and_macros"></span>
 == Módulos y Macros Adicionales ==
