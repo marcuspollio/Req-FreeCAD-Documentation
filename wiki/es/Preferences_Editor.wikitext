@@ -295,44 +295,55 @@ Estas preferencias controlan el Área de notificaciones y sus notificaciones.
 En esta página puede especificar lo siguiente:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Enable notification area}}
-| If checked, the Notification Area will appear in the status bar.
+| {{MenuCommand|Habilitar área de notificaciones}}
+| Si está marcada, el área de notificaciones aparecerá en la barra de estado.
+
 |-
-| {{MenuCommand|Debug errors}}
-| If checked, errors intended for developers will appear in the Notification Area.
+| {{MenuCommand|Depurar errores}}
+| Si está marcada, los errores destinados a desarrolladores aparecerán en el área de notificaciones.
+
 |-
-| {{MenuCommand|Debug warnings}}
-| If checked, warnings intended for developers will appear in the Notification Area.
+| {{MenuCommand|Depurar advertencias}}
+| Si está marcada, las advertencias destinadas a desarrolladores aparecerán en el área de notificaciones.
+
 |-
-| {{MenuCommand|Maximum notification count}}
-| Limits the number of notifications that will be kept in the list. If 0, there is no limit.
+| {{MenuCommand|Número máximo de notificaciones}}
+| Limita el número de notificaciones que se mantendrán en la lista. Si es 0, no hay límite.
+
 |-
-| {{MenuCommand|Auto-remove user notifications}}
-| If checked, notifications will be removed from the message list when the '''Maximum Duration''' has elapsed.
+| {{MenuCommand|Eliminar automáticamente las notificaciones de usuario}}
+| Si está marcada, las notificaciones se eliminarán de la lista de mensajes cuando haya transcurrido la '''Duración máxima'''.
+
 |-
-| {{MenuCommand|Enable pop-up notifications}}
-| If checked, non-intrusive pop-up notifications will appear above the status bar.
+| {{MenuCommand|Habilitar notificaciones emergentes}}
+| Si está marcada, aparecerán notificaciones emergentes no intrusivas encima de la barra de estado.
+
 |-
-| {{MenuCommand|Maximum duration}}
-| Maximum duration during which notifications are shown (unless mouse buttons are clicked).
+| {{MenuCommand|Duración máxima}}
+| Duración máxima durante la cual se muestran las notificaciones (a menos que se haga clic con el ratón).
+
 |-
-| {{MenuCommand|Minimum duration}}
-| Minimum duration (idem).
+| {{MenuCommand|Duración mínima}}
+| Duración mínima (ídem).
+
 |-
-| {{MenuCommand|Maximum concurrent notification count}}
-| Maximum number of notifications that will be simultaneously present in the notification bubble.
+| {{MenuCommand|Número máximo de notificaciones simultáneas}}
+| Número máximo de notificaciones que se mostrarán simultáneamente en la burbuja de notificación.
+
 |-
-| {{MenuCommand|Notification bubble width}}
-| Width of the pop-up notification bubble in pixels.
+| {{MenuCommand|Ancho de la burbuja de notificación}}
+| Ancho de la burbuja de notificación emergente en píxeles.
+
 |-
-| {{MenuCommand|Hide when other window is activated}}
-| If checked, open notifications will disappear when another window is activated.
-|-
-| {{MenuCommand|Do not show when window is inactive}}
-| If checked, notifications will not appear if the FreeCAD window is not the active window.
+| {{MenuCommand|Ocultar cuando se active otra ventana}}
+| Si está marcada, las notificaciones de apertura desaparecerán cuando se active otra ventana.
+
+|-| {{MenuCommand|No mostrar cuando la ventana esté inactiva}}
+| Si está marcada, las notificaciones no aparecerán si la ventana de FreeCAD no es la ventana activa.
+
 |}
 
 ===Report View===
