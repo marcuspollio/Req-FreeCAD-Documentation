@@ -21,9 +21,8 @@ Non tutti coloro che devono consegnare un disegno insieme al proprio modello si 
 
 Per ora questa pagina ospita solo una macro che funge da prova di concetto e dimostra che è possibile definire una vista ausiliaria all'interno di una vista di base senza dover passare attraverso lo spazio 3D.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Description==
-</div>
+<span id="Description"></span>
+==Descrizione==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The '''Macro TechDraw AuxiliaryView''' adds an auxiliary view (AuxView object) to a TechDraw page. This is a simple view that is defined in a base view instead of 3D space.
