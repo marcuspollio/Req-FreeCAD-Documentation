@@ -24,8 +24,10 @@ Tous les préférences avec des étiquettes en ''italiques'' sont des valeurs pa
 
 [[Image:Preferences_TechDraw_Page_General.png|thumb|350px|Préférences générales]]
 
-<span id="Drawing_Update"></span>
+<span id="Page_Update"></span>
+<div class="mw-translate-fuzzy">
 ===Mises à jour des pages===
+</div>
 
 * '''Mettre à jour avec la 3D (règle globale)''' : si les feuilles sont mises à jour ou non chaque fois que le modèle 3D est modifié.
 * '''Autoriser le remplacement des feuilles (règle globale)''' : permet ou pas à la propriété '''[[TechDraw_PageDefault/fr#Propri.C3.A9t.C3.A9s|KeepUpdated]]''' d'une feuille de supplanter le paramètre global '''Mettre à jour avec la 3D'''.
@@ -198,6 +200,7 @@ Tous les préférences avec des étiquettes en ''italiques'' sont des valeurs pa
 
 Configuration des couleurs par défaut pour les nouvelles feuilles:
 
+<div class="mw-translate-fuzzy">
 * '''Normal''' : couleur des lignes normales.
 * '''Préselections''' : couleur des présélections. Couleur utilisée pour mettre en surbrillance les objets lorsque vous passez la souris dessus.
 * '''Sélections''' : couleur des objets sélectionnés.
@@ -218,6 +221,7 @@ Configuration des couleurs par défaut pour les nouvelles feuilles:
 * '''Clair sur sombre''' : si cette option est cochée, le texte et les lignes auront une couleur claire. A utiliser si '''Couleur des feuilles''' est sombre. Les faces transparentes ou de couleur claire sont recommandées avec cette option. {{Version/fr|0.21}}
 * '''Monochrome''' : si cette option est cochée, la couleur définie sera utilisée pour tout le texte et toutes les lignes. {{Version/fr|0.21}}
 * '''Couleur des feuilles''' : couleur du fond des feuilles. {{Version/fr|0.21}}
+</div>
 
 <span id="HLR"></span>
 ==Suppression des lignes cachées==
@@ -238,6 +242,7 @@ HLR pour ''hidden line removal'' traduit en ''Suppression des lignes cachées''.
 
 [[Image:Preferences_TechDraw_Page_Advanced.png|thumb|350px|Préférences de Avancé]]
 
+<div class="mw-translate-fuzzy">
 * '''Détecter les faces''' : si cette option est cochée, TechDraw tentera de créer des faces en utilisant les segments de ligne renvoyés par l'algorithme de suppression de ligne cachée. Les faces doivent être détectés pour utiliser les [[TechDraw_Hatching/fr|hachures]], mais il peut y avoir une dégradation des performances pour les modèles complexes.
 * '''Rapport d'avancement''' : affiche des messages d'avancement pendant la construction des géométries de vue. {{Version/fr|0.21}}
 * '''Utiliser le nouvel algorithme de recherche de faces''' : si cette option est cochée, le nouvel algorithme de recherche de face sera utilisé à la place de l'algorithme d'origine. {{Version/fr|0.21}}
@@ -256,6 +261,7 @@ HLR pour ''hidden line removal'' traduit en ''Suppression des lignes cachées''.
 * '''Nombre maximum de tuiles de hachures au format SVG''' : taille limite des tuiles SVG à 64x64 pixels utilisées pour hachurer une seule face. Pour des mises à l'échelle importantes, il se peut que l'on obtienne une erreur concernant le nombre trop élevé de tuiles SVG, il faut alors augmenter le nombre maximum de tuiles.
 * '''Nombre maximum de segments des hachures au format PAT''' : nombre maximal de segments de hachures utilisés pour hachurer une face avec un motif PAT.
 * '''Déplacement des bulles''' : la touche du modificateur pour le déplacement des bulles peut être modifiée par rapport à la valeur par défaut pour éviter les conflits avec les raccourcis clavier du système d'exploitation ou du style de navigation. {{Version/fr|1.0}}
+</div>
 
 
 {{Docnav/fr
