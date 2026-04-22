@@ -152,9 +152,7 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 
 :* [[Image:FEM_MeshBoundaryLayer.svg|32px]] [[FEM_MeshBoundaryLayer/pl|Warstwa graniczna 2D]]: Tworzy anizotropowe siatki dla dokładnych obliczeń przy brzegach.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:FEM_MeshShape.svg|32px]] [[FEM_MeshShape|Shape-Based Refinement]]: Sets mesh size within and outside of a geometric shape (box, sphere or cylinder). {{Version|1.2}}
-</div>
+:* [[Image:FEM_MeshShape.svg|32px]] [[FEM_MeshShape/pl|Zagęszczenie oparte o kształt]]: Ustawia rozmiar siatki wewnątrz i poza kształtem geometrycznym (prostopadłościan, sfera lub walec). {{Version/pl|1.2}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:FEM_MeshManipulate.svg|32px]] [[FEM_MeshManipulate|Manipulate Refinement]]: Allows to manipulate the output of a refinement in various ways. {{Version|1.2}}
