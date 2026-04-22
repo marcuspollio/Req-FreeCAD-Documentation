@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[FEM_MeshRegion/pl|Zagęszczenie siatki MES]]
 |[[FEM_CreateElementsSet/pl|Utwórz zestaw elementów]]
@@ -8,6 +9,7 @@
 |IconR=FEM_CreateElementsSet.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{GuiCommand/pl
 |Name=FEM MeshGroup
@@ -54,6 +56,7 @@ To narzędzie umożliwia więc używanie programu FreeCAD z zewnętrznymi solver
 * Aby sprawdzić czy grupa została poprawnie wyeksportowana, możesz otworzyć wygenerowany plik w dowolnym edytorze tekstu i poszukać w nim nazwy grupy.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[FEM_MeshRegion/pl|Zagęszczenie siatki MES]]
 |[[FEM_CreateElementsSet/pl|Utwórz zestaw elementów]]
@@ -62,6 +65,7 @@ To narzędzie umożliwia więc używanie programu FreeCAD z zewnętrznymi solver
 |IconR=FEM_CreateElementsSet.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
