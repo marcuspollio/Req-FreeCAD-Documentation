@@ -1,18 +1,18 @@
 <languages/>
 
 {{Docnav
-|[[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]]
-|[[FEM_MeshRegion|Mesh Refinement]]
+|[[FEM_MeshDistance|Distance-Based Refinement]]
+|[[FEM_MeshShape|Shape-Based Refinement]]
 |[[FEM_Workbench|FEM]]
-|IconL=FEM_MeshGmshFromShape.svg
-|IconR=FEM_MeshRegion.svg
+|IconL=FEM_MeshDistance.svg
+|IconR=FEM_MeshShape.svg
 |IconC=Workbench_FEM.svg
 }}
 
 {{GuiCommandContainer|
 {{GuiCommand
 |Name=FEM MeshBoundaryLayer
-|MenuLocation=Mesh → Mesh Boundary Layer
+|MenuLocation=Mesh → GMSH Refinements → 2D Boundary Layer
 |Workbenches=[[FEM_Workbench|FEM]]
 |SeeAlso=[[FEM_tutorial|FEM tutorial]]
 }}
@@ -23,7 +23,7 @@
 
 ==Description==
 
-The '''FEM MeshBoundaryLayer''' command enables the user to set a localized set of meshing parameters by selecting a set of elements (Vertex, Edge, Face) and applying the parameters to it.
+The '''FEM MeshBoundaryLayer''' command enables the user to set a localized set of meshing parameters by selecting an edge and applying the parameters to it.
 
 It is especially useful for refining meshes close to edges or surfaces in flow simulations. For example, it can be used to refine the mesh in the vicinity of an air foil or obstacle in a flow.
 
@@ -31,13 +31,13 @@ The boundary layer has the advantage of creating highly defined, anisotropic mes
 
 ==Usage==
 
-# To enable the command a [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
+# To enable the command a 2D [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
 # Select the Mesh object in the [[Tree_View|Tree View]].
 # There are several ways to invoke the command:
-#* Press the {{Button|[[Image:FEM_MeshBoundaryLayer.svg|16px]] [[FEM_MeshBoundaryLayer|Mesh Boundary Layer]]}} button.
-#* Select the {{MenuCommand|Mesh → [[Image:FEM_MeshBoundaryLayer.svg|16px]] Mesh Boundary Layer}} option from the menu.
-# Edit the start element size, the growth rate and the number of growth layers.
-# Press the {{Button|Add}} button. Select a vertex, edge, face. {{Version|1.1}}: To remove objects from the selection, press the {{Button|Remove}} button.
+#* Press the {{Button|[[Image:FEM_MeshBoundaryLayer.svg|16px]] [[FEM_MeshBoundaryLayer|2D Boundary Layer]]}} button.
+#* Select the {{MenuCommand|Mesh → GMSH Refinements → [[Image:FEM_MeshBoundaryLayer.svg|16px]] 2D Boundary Layer}} option from the menu.
+# Edit the maximum number of layers, minimum/1st thickness and growth ratio.
+# Press the {{Button|Add}} button. Select an edge. {{Version|1.1}}: To remove objects from the selection, press the {{Button|Remove}} button.
 # Click the {{Button|OK}} button.
 # Close the task.
 #: Result: You now should see a new {{incode|FEMMeshBoundaryLayer}} object under the {{incode|FEMMeshGMSH}} object (see example #3 below) in your active analysis container.
@@ -62,11 +62,11 @@ You can create as many different mesh boundary layers as needed.
 
 
 {{Docnav
-|[[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]]
-|[[FEM_MeshRegion|Mesh Refinement]]
+|[[FEM_MeshDistance|Distance-Based Refinement]]
+|[[FEM_MeshShape|Shape-Based Refinement]]
 |[[FEM_Workbench|FEM]]
-|IconL=FEM_MeshGmshFromShape.svg
-|IconR=FEM_MeshRegion.svg
+|IconL=FEM_MeshDistance.svg
+|IconR=FEM_MeshShape.svg
 |IconC=Workbench_FEM.svg
 }}
 
