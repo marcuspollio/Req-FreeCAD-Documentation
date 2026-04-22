@@ -71,16 +71,14 @@ Możesz utworzyć tyle różnych warstw przyściennych, ile potrzeba.
 {{Caption|Przykład 3: Prosty przykład rezultatu w drzewie modelu}}
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav
-|[[FEM_MeshGmshFromShape/pl|Siatka MES z kształtu generowana przez Gmsh]]
-|[[FEM_MeshRegion/pl|Zagęszczenie siatki MES]]
+|[[FEM_MeshDistance/pl|Zagęszczenie oparte o odległość]]
+|[[FEM_MeshShape/pl|Zagęszczenie oparte o kształt]]
 |[[FEM_Workbench/pl|środowisko pracy MES]]
-|IconL=FEM_MeshGmshFromShape.svg
-|IconR=FEM_MeshRegion.svg
+|IconL=FEM_MeshDistance.svg
+|IconR=FEM_MeshShape.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
