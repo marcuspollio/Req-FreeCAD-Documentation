@@ -128,12 +128,10 @@ Mehr dazu auf der Seite [[Tutorials/de|Anleitungen]].
 
 Jeder Benutzer kann eigene Funktionen für FreeCAD entwickeln und sie der FreeCAD-Gemeinschaft als [[Addon/de|Addon]] zur Verfügung stellen.
 
-<div class="mw-translate-fuzzy">
 Es gibt Drei Arten von Addons:
 * [[Macros/de|Makros]]: kurze Abschnitte von [[Python/de|Python]]-Code, die ein neues Werkzeug oder eine neue Funktionalität in einer einzelnen Datei mit der Endung {{incode|.FCMacro}} bereitstellen. 
 * [https://www.freecad.org/addons.php Externe Arbeitsbereiche]: Sammlungen von Python-Dateien, die zusammengehörige [[Gui_Command/de|Befehle der Benutzerschnittstelle]] (Werkzeuge) zur Verfügung stellen, die sich auf ein bestimmtes Thema beziehen.
 * [[Preference_Packs/de|Voreinstellungspakete]]: Verteilbare Sammlungen von Benutzervoreinstellungen.
-</div>
 
 <span id="Scripting"></span>
 ==Skripten==
