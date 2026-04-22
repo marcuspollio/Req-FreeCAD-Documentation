@@ -949,10 +949,12 @@ En esta página puede especificar lo siguiente:
 | {{MenuCommand|Familia}}
 | Especifica la familia de fuentes que se debe usar para el tipo de código seleccionado.
 
-|-| {{MenuCommand|Size}}
+|-
+| {{MenuCommand|Size}}
 | Especifica el tamaño de fuente que se debe usar para el tipo de código seleccionado.
 
-|-| {{MenuCommand|Color}}
+|-
+| {{MenuCommand|Color}}
 | Especifica el color que se debe usar para el tipo de código seleccionado.
 
 |}
