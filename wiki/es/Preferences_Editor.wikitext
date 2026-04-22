@@ -385,7 +385,7 @@ En esta página puede especificar lo siguiente:
 | Si está marcada, la [[Report_View|Vista_de_informe]] se mostrará automáticamente cuando se registre una advertencia.
 
 |-
-| {{MMenuCommand|Mostrar vista de informe en caso de mensaje normal}}
+| {{MenuCommand|Mostrar vista de informe en caso de mensaje normal}}
 | Si está marcada, la vista de informe se mostrará automáticamente al registrar un mensaje normal.
 
 |-
@@ -393,7 +393,7 @@ En esta página puede especificar lo siguiente:
 | Si está marcada, la vista de informe se mostrará automáticamente al registrar un mensaje de registro.
 
 |-
-| {{MMenuCommand|Incluir un código de tiempo para cada entrada}}
+| {{MenuCommand|Incluir un código de tiempo para cada entrada}}
 | Si está marcada, cada mensaje y advertencia recibirá un código de tiempo.
 
 |-
