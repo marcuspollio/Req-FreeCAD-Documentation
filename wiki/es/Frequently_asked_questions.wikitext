@@ -20,9 +20,8 @@ Si usa Windows o macOS, la forma más sencilla es dirigirse a la página de [[De
 
 A diferencia de la mayoría del software CAD 3D, FreeCAD funciona sin problemas incluso en los ordenadores más modestos; se sabe que funciona en procesadores Pentium IV e Intel Core2 Solo CPUs. Si su ordenador utiliza un sistema operativo actual, es probable que FreeCAD funcione. El único requisito previo es que su tarjeta gráfica o chipset sea compatible con [https://en.wikipedia.org/wiki/OpenGL OpenGL], preferiblemente con una versión no anterior a la 2.0. En caso de problemas, consulte la sección de [[Frequently_asked_questions#Troubleshooting|solución de problemas]] de las preguntas frecuentes en este artículo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Multithreading ====
-</div>
+<span id="Multithreading"></span>
+==== Multihilo ====
 
 El núcleo de modelado geométrico subyacente de FreeCAD, la biblioteca de terceros [http://en.wikipedia.org/wiki/Open_Cascade_Technology Tecnología OpenCASCADE] (OCCT), [https://forum.freecad.org/viewtopic.php?f=4&t=17501&p=173095&hilit=Multithread#p173095 sólo tiene soporte parcial de multihilo en este momento]. Mira la página [[multithreading/es|multithreading]] para más detalles.
 
