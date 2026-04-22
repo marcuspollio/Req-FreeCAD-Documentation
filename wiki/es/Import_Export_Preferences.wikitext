@@ -468,14 +468,12 @@ Esta página solo se muestra si el [[Image:Workbench_FEM.svg|24px]] [[FEM_Workbe
 
 En esta página puede especificar lo siguiente:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Which mesh elements to export}}
-| Select which mesh elements should be exported.
-</div>
+| {{MenuCommand|Qué elementos de malla exportar}}
+| Seleccione qué elementos de malla se deben exportar.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If '''All''' is selected, all elements will be exported.
