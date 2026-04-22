@@ -160,14 +160,19 @@ Ver [[#Search|Teclado]].
 # Una barra de herramientas desactivada no será visible en la interfaz de FreeCAD.
 
 <span id="Add_a_command"></span>
-====Añadir un comando====
+==== Añadir un comando ====
 
-# At least one custom toolbar is required. See [[#Create_a_toolbar|Create a toolbar]].
-# Select the correct toolbar in the panel on the right. If no toolbar is selected, the command will be added to the first toolbar in the list.
-# Select a command category from the '''Category''' dropdown list. Macro commands that have been set up on the [[#Macros|Macros]] tab appear in the {{Value|Macros}} category.
-# Select a command from the '''Commands''' panel, or select {{Value|<Separator>}} to add a separator (a line between two toolbar buttons).
-#* Optionally drag the splitter to the right of the panel to resize it.
-# Press {{Button|[[Image:Button_right.svg|16px]]}} button.
+# Se requiere al menos una barra de herramientas personalizada. Consulte [[#Create_a_toolbar|Crear una barra de herramientas]].
+
+# Seleccione la barra de herramientas correcta en el panel de la derecha. Si no se selecciona ninguna barra de herramientas, el comando se agregará a la primera barra de herramientas de la lista.
+
+# Seleccione una categoría de comando en la lista desplegable '''Categoría'''. Los comandos de macro configurados en la pestaña [[#Macros|Macros]] aparecen en la categoría {{Value|Macros}}.
+
+# Seleccione un comando en el panel '''Comandos''' o seleccione {{Value|<Separator>}} para agregar un separador (una línea entre dos botones de la barra de herramientas).
+
+#* Opcionalmente, arrastre el separador a la derecha del panel para cambiar su tamaño.
+
+# Pulse el botón {{Button|[[Image:Button_right.svg|16px]]}}.
 
 <span id="Remove_a_command"></span>
 ====Elimina un comando====
