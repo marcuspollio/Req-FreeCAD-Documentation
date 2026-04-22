@@ -113,12 +113,12 @@ Los usuarios que utilizan el ratón con la mano derecha pueden encontrar este m�
 
 Este estilo se diseñó para usarse con una pantalla táctil y un lápiz óptico. Sin embargo, también se puede usar con un ratón y se recomienda su uso con un Mac con trackpad.
 
-{{Navegación_por_gestos
-|Seleccionar_nombre=Seleccionar
-|Zoom_nombre=Zoom
-|Rotar_vista_nombre=Rotar vista
-|Desplazar_nombre=Desplazar
-|Inclinar_vista_nombre=Inclinar vista
+{{Gesture_Navigation
+|Select_name=Seleccionar
+|Zoom_name=Zoom
+|Rotate_view_name=Rotar vista
+|Pan_name=Desplazar
+|Tilt_view_name=Inclinar vista
 
 Seleccione el objeto que desea seleccionar.
 
