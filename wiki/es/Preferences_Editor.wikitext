@@ -652,7 +652,7 @@ Se pueden especificar el {{MenuCommand|Tamaño de la esfera}} y el {{MenuCommand
 | {{MenuCommand|Animaciones}}
 | Si está marcada, las rotaciones y los zooms de la vista, excepto los que se activan con el ratón, se animan. Se puede especificar la duración de la animación ({{MenuCommand|Duración}}).
 
-{{MenuCommand|Enable spinning animations}} if checked, and if {{MenuCommand|3D Navigation}} is set to '''CAD''', rotations invoked by the mouse can be animated as well. If the mouse is moved while the scroll wheel and the right mouse button are pressed, the view is rotated. If one keeps the mouse moving while releasing the right mouse button, the rotation will continue. To end this animation, left-click with the mouse.
+Si la opción {{MenuCommand|Enable spinning animations}} está marcada y {{MenuCommand|3D Navigation}} está configurada en '''CAD''', las rotaciones realizadas con el ratón también se animarán. Si se mueve el ratón mientras se pulsa la rueda de desplazamiento y el botón derecho, la vista girará. Si se mantiene el ratón en movimiento mientras se suelta el botón derecho, la rotación continuará. Para finalizar la animación, haga clic con el botón izquierdo del ratón.
 
 |-
 | {{MenuCommand|Enable long press clarify selection}} {{Version|1.1}}
