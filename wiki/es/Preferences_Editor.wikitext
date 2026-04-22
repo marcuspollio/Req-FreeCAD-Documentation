@@ -588,11 +588,11 @@ Si la opción {{MenuCommand|Rotar al más cercano}} está marcada, al hacer clic
 
 {{MenuCommand|Color}} establece el color base para todos los elementos.
 
-{{MenuCommand|Corner}} defines where the Navigation cube is displayed in the [[3D_View|3D View]]. The options are:
-* '''Top left'''
-* '''Top right'''
-* '''Bottom left'''
-* '''Bottom right'''
+{{MenuCommand|Esquina}} define dónde se muestra el cubo de navegación en la [[3D_View|3D View]]. Las opciones son:
+* '''Esquina superior izquierda'''
+* '''Esquina superior derecha'''
+* '''Esquina inferior izquierda'''
+* '''Esquina inferior derecha'''
 
 {{MenuCommand|Font name}} specifies the font used for the cube's texts.
 
