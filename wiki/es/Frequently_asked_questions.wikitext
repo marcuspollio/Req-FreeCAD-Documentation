@@ -73,7 +73,7 @@ Un fallo puede indicar un error más grave o algún problema en la configuració
 <span id="OpenGL_drivers_are_not_installed,_or_not_working_properly"></span>
 ==== Los controladores OpenGL no están instalados, o no funcionan correctamente ====
 
-Esta es una causa muy común del problema. Los síntomas son simplemente que FreeCAD se bloquea al inicio, o cada vez que abres una vista 3D (por ejemplo creando un nuevo documento). Intenta averiguar cuál es tu chip gráfico, luego averigua si soporta [https://en.wikipedia.org/wiki/OpenGL OpenGL] (la mayoría de los chips recientes lo hacen), luego encuentra el controlador correcto e instálalo. Una buena forma de comprobar si OpenGL está disponible es intentar ejecutar otra aplicación OpenGL como [http://www.blender.org blender].
+Esta es una causa muy común del problema. Los síntomas son simplemente que FreeCAD se bloquea al inicio, o cada vez que abres una vista 3D (por ejemplo creando un nuevo documento). Intente averiguar cuál es el chip gráfico de su ordenador y luego averigüe si soporta [https://en.wikipedia.org/wiki/OpenGL OpenGL] (la mayoría de los chips recientes lo hacen), a continuación encuentre el controlador correcto e instálalo. Una buena forma de comprobar si OpenGL está disponible es intentar ejecutar otra aplicación OpenGL como [http://www.blender.org blender].
 
 <div class="mw-translate-fuzzy">
 Y como consejo general para obtener más información sobre los fallos con FreeCAD puedes iniciarlo con el parámetro del programa {{SystemInput|--write-log}}. Esto creará el archivo {{FileName|FreeCAD.log}} en {{FileName|$HOME/.FreeCAD}} en Linux y Mac OS X o {{FileName|%APPDATA%/FreeCAD}} en sistemas Windows.
