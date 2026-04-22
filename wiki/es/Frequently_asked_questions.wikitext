@@ -75,9 +75,7 @@ Un fallo puede indicar un error más grave o algún problema en la configuració
 
 Esta es una causa muy común del problema. Los síntomas son simplemente que FreeCAD se bloquea al inicio, o cada vez que abres una vista 3D (por ejemplo creando un nuevo documento). Intente averiguar cuál es el chip gráfico de su ordenador y luego averigüe si soporta [https://en.wikipedia.org/wiki/OpenGL OpenGL] (la mayoría de los chips recientes lo hacen), a continuación encuentre el controlador correcto e instálalo. Una buena forma de comprobar si OpenGL está disponible es intentar ejecutar otra aplicación OpenGL como [http://www.blender.org blender].
 
-<div class="mw-translate-fuzzy">
-Y como consejo general para obtener más información sobre los fallos con FreeCAD puedes iniciarlo con el parámetro del programa {{SystemInput|--write-log}}. Esto creará el archivo {{FileName|FreeCAD.log}} en {{FileName|$HOME/.FreeCAD}} en Linux y Mac OS X o {{FileName|%APPDATA%/FreeCAD}} en sistemas Windows.
-</div>
+Como consejo general, para obtener más información sobre los fallos con FreeCAD, trate de iniciarlo con el parámetro del programa {{SystemInput|--write-log}}. Esto creará el archivo {{FileName|FreeCAD.log}} en {{FileName|$XDG_CONFIG_HOME/FreeCAD}} ({{VersionPlus|0.20}}) o {{FileName|$HOME/.FreeCAD}} ({{VersionMinus|0.19}}) en Linux, o {{FileName|$HOME/Library/Preferences/FreeCAD}} en macOS, o {{FileName|%APPDATA%/FreeCAD}} en sistemas Windows.
 
 En algunos casos raros puede tener instalado un controlador gráfico que no se ajusta a su tarjeta gráfica. Tuvimos un caso en el que el portátil del usuario tenía una gráfica Intel a bordo pero tenía instalados unos drivers ATI. [http://forum.freecad.org/viewtopic.php?f=13&t=5160&start=10#p41042]
 Después de eliminar los archivos y volver a instalar el controlador correcto FreeCAD empezó a funcionar.
