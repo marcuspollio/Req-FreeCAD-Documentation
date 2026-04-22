@@ -88,7 +88,7 @@ Opcionalmente, se pueden excluir de esta lista los archivos importados e incluir
 |-| {{MenuCommand|Habilitar fondo en mosaico}}
 | Si está marcada, el fondo de la ventana principal de FreeCAD estará compuesto por mosaicos de esta imagen: [[File:Background.png|64px]]
 
-This option only has an effect if no {{MenuCommand|Style sheet}} is selected.
+Esta opción solo tiene efecto si no se ha seleccionado ninguna {{MenuCommand|hoja de estilo}}.
 
 The image can be changed by adding the folders {{FileName|Gui/Images}} in the folder:
 
