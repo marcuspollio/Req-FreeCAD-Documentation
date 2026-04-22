@@ -1100,9 +1100,26 @@ Para eliminar un repositorio, selecciónelo en la lista y pulse el botón {{Butt
 
 Las preferencias para los entornos de trabajo integrados se encuentran enlazadas a continuación. Estos enlaces también aparecen en [[:Category:Preferencias]]. Algunos entornos de trabajo no tienen preferencias.
 
-<div class="mw-translate-fuzzy">
-El módulo Draft tiene su pantalla [[Draft Preferences/es|preferences]]
-</div>
+* [[Assembly_Preferences|Preferencias de Ensamblaje]]
+* [[BIM_Preferences|Preferencias de BIM]]
+* [[CAM_Preferences|Preferencias de CAM]]
+* [[Draft_Preferences|Preferencias de Draft]]
+* [[FEM_Preferences|Preferencias de FEM]]
+* Preferencias de Inspección (nninguna)
+* [[Material_Preferences|Preferencias de Material]]
+* [[Mesh_Workbench#Preferences|Preferencias del diseño de Malla]]
+* [[OpenSCAD_Preferences|Preferencias de OpenSCAD]]
+<!--Las preferencias de diseño de piezas se definen en el entorno de trabajo de piezas y tanto el entorno de trabajo de diseño de piezas como el de piezas las utilizan-->
+* Part Preferences: the Part workbench also uses the [[PartDesign_Preferences|PartDesign Preferences]]
+* [[PartDesign_Preferences|PartDesign Preferences]]
+* Points Preferences (none)
+* Preferencias de ingeniería Inversa (none)
+* Robot Preferences (none)
+* [[Sketcher_Preferences|Sketcher Preferences]]
+* [[Spreadsheet_Preferences|Spreadsheet Preferences]]
+* Preferencias de Superficie (ninguna)
+* [[TechDraw_Preferences|TechDraw Preferences]]
+* Test Framework Preferences (none)
 
 ==Scripting==
 
