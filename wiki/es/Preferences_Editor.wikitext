@@ -655,8 +655,8 @@ Se pueden especificar el {{MenuCommand|Tamaño de la esfera}} y el {{MenuCommand
 Si la opción {{MenuCommand|Enable spinning animations}} está marcada y {{MenuCommand|3D Navigation}} está configurada en '''CAD''', las rotaciones realizadas con el ratón también se animarán. Si se mueve el ratón mientras se pulsa la rueda de desplazamiento y el botón derecho, la vista girará. Si se mantiene el ratón en movimiento mientras se suelta el botón derecho, la rotación continuará. Para finalizar la animación, haga clic con el botón izquierdo del ratón.
 
 |-
-| {{MenuCommand|Enable long press clarify selection}} {{Version|1.1}}
-| Enables the [[Std_ClarifySelection|Clarify Selection]] tool when the left mouse button (LMB) is pressed for a certain time (defined by the preference listed below). Some [[Mouse_navigation|navigation styles]] (OpenInventor, Gesture and OpenSCAD) use Ctrl+LMB instead.
+| {{MenuCommand|Habilitar la opción de aclarar selección con pulsación larga}} {{Version|1.1}}
+| Habilita la herramienta [[Std_ClarifySelection|Aclarar selección]] al mantener pulsado el botón izquierdo del ratón (LMB) durante un tiempo determinado (definido por la preferencia que se indica a continuación). Algunos estilos de navegación (OpenInventor, Gesture y OpenSCAD) utilizan Ctrl+LMB en su lugar.
 
 |-
 | {{MenuCommand|Long press timeout}} {{Version|1.1}}
