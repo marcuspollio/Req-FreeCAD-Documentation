@@ -14,7 +14,7 @@ Para iniciar el '''Editor de preferencias''', seleccione la opción {{MenuComman
 
 FreeCAD utiliza un sistema de entornos de trabajo, donde cada entorno se encarga de tareas y funciones específicas. Cada entorno puede tener sus propias preferencias, que solo aparecerán en el editor de preferencias (normalmente en un grupo específico) si el entorno se ha cargado en la sesión actual de FreeCAD. Algunos entornos admiten formatos de importación y exportación concretos. Si existen preferencias relacionadas, aparecerán en una o más páginas adicionales del grupo [[#Import-Export|Importar-exportar]] del editor de preferencias.
 
-To preserve resources, FreeCAD does not automatically load all available workbenches. See [[#Workbenches|Workbenches]] for more information. For a list of workbench related preferences see [[#Workbench_related_preferences|Workbench related preferences]].
+Para ahorrar recursos, FreeCAD no carga automáticamente todos los entornos de trabajo disponibles. Consulte [[#Workbenches|Entornos de trabajo]] para obtener más información. Para ver una lista de las preferencias relacionadas con los entornos de trabajo, consulte [[#Workbench_related_preferences|Preferencias relacionadas con los entornos de trabajo]].
 
 <div class="mw-translate-fuzzy">
 Si no hay ningún ambiente de trabajo cargado, aparecen cuatro secciones en el editor de Preferencias: [[#Configuración_general|General]], [[#Configuración_de_pantalla|Pantalla]], [[#Ambientes de trabajo|Ambientes de trabajo]], y [[#Configuración_de_importación|Importación-Exportación]]. Cualquier ambiente de trabajo que haya sido cargado, y tenga sus propias preferencias, aparecerá debajo de estos.
