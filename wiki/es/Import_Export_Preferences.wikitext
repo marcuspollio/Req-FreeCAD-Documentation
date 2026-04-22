@@ -477,9 +477,7 @@ En esta página puede especificar lo siguiente:
 
 Si se selecciona '''Todos''', se exportarán todos los elementos.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If '''Highest''' is selected, only the highest elements will be exported. This means volumes for a volume mesh and faces for a shell mesh.
-</div>
+Si se selecciona '''Máximo''', solo se exportarán los elementos de mayor altura. Esto significa volúmenes para una malla volumétrica y caras para una malla de superficie.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If '''FEM''' is selected, only FEM elements will be exported. This means only edges not belonging to faces and faces not belonging to volumes.
