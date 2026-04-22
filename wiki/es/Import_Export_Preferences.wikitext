@@ -183,36 +183,42 @@ Si se selecciona '''Formas de piezas simples''', solo se crearán objetos de pie
 
 Si se selecciona '''Objetos de borrador''', se crearán objetos de borrador paramétricos siempre que sea posible.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If '''Sketches''' is selected, sketches will be created whenever possible.
+Si se selecciona '''Bocetos''', se crearán bocetos siempre que sea posible.
+
 |-
-| {{MenuCommand|Scale factor to apply to imported files}}
-|  Scale factor to apply to DXF files on import. The factor is the conversion between the units of your DXF file and millimeters. Example: for files in millimeters: 1, in centimeters: 10, in meters: 1000, in inches: 25.4, in feet: 304.8.
+| {{MenuCommand|Factor de escala para aplicar a los archivos importados}}
+| Factor de escala que se aplicará a los archivos DXF al importarlos. El factor es la conversión entre las unidades del archivo DXF y los milímetros. Ejemplo: para archivos en milímetros: 1, en centímetros: 10, en metros: 1000, en pulgadas: 25,4, en pies: 304,8.
+
 |-
-| {{MenuCommand|Use colors from the DXF file}}
-|  If checked, colors will be retrieved from the DXF objects whenever possible. Otherwise default colors will be applied.
+| {{MenuCommand|Usar colores del archivo DXF}}
+| Si está marcada, se recuperarán los colores de los objetos DXF siempre que sea posible. De lo contrario, se aplicarán los colores predeterminados.
+
 |-
-| {{MenuCommand|Join geometry}}
-|  If checked, FreeCAD will try to join coincident objects into wires. Note that this can take a while!
+| {{MenuCommand|Unir geometría}}
+| Si está marcada, FreeCAD intentará unir los objetos coincidentes en líneas. ¡Tenga en cuenta que esto puede tardar un tiempo!
+
 |-
-| {{MenuCommand|Group layers into blocks}}
-|  If checked, objects from the same layers will be joined into Draft Blocks, which display faster, but are less easily editable. <!-- Draft Blocks are internal elements in Draft, basically a Part.Compound; they aren't exposed in the graphical interface; see Draft.makeBlock in the source code.-->
+| {{MenuCommand|Agrupar capas en bloques}}
+| Si está marcada, los objetos de las mismas capas se unirán en bloques de borrador, que se muestran más rápido, pero son más difíciles de editar. <!-- Los bloques de borrador son elementos internos de Draft, básicamente un Part.Compound; no se muestran en la interfaz gráfica; consulte Draft.makeBlock en el código fuente.-->
 |-
-| {{MenuCommand|Use standard font size for texts}}
-|  If checked, imported texts will get the standard [[Draft_Text|Draft Text]] size, instead of the size they have in the DXF document.
+| {{MenuCommand|Usar tamaño de fuente estándar para los textos}}
+| Si está marcada, los textos importados tendrán el tamaño estándar [[Draft_Text|Texto de borrador]], en lugar del tamaño que tienen en el documento DXF.
+
 |-
-| {{MenuCommand|Use layers}}
-|  If checked, DXF layers will be imported as [[Draft_Layer|Draft Layers]].
+| {{MenuCommand|Usar capas}}
+| Si está marcada, las capas DXF se importarán como [[Draft_Layer|Capas de borrador]].
+
 |-
-| {{MenuCommand|Import hatch boundaries as wires}}
-|  If checked, hatches will be converted to simple wires.
+| {{MenuCommand|Importar contornos de sombreado como alambres}}
+| Si está marcada, los sombreados se convertirán en alambres simples.
+
 |-
-| {{MenuCommand|Render polylines with width}}
-|  If checked, if polylines have a width defined, they will be rendered as closed wires with the correct width.
+| {{MenuCommand|Renderizar polilíneas con ancho}}
+| Si está marcada, si las polilíneas tienen un ancho definido, se representarán como líneas cerradas con el ancho correcto.
+
 |-
-| {{MenuCommand|Treat ellipses and splines as polylines}}
-|  The export of ellipses and splines is poorly supported. Use this option to export them as polylines instead.
-</div>
+| {{MenuCommand|Tratar elipses y splines como polilíneas}}
+| La exportación de elipses y splines no es totalmente compatible. Utilice esta opción para exportarlas como polilíneas.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The setting '''Max Spline Segment''' is then the maximum length of each of the polyline segments. If it is set to '''0''' the whole spline is treated as a straight segment.
