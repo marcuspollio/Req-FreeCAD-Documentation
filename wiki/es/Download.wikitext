@@ -53,7 +53,7 @@ Las versiones anteriores se pueden descargar desde la página [https://github.co
 <span id="Notes_for_GNU/Linux_users"></span>
 === Notas para usuarios de GNU/Linux ===
 
-La mayoría de las distribuciones tienen FreeCAD en sus repositorios oficiales, sin embargo, si la distribución no sigue un modelo de lanzamiento rodante  (rolling) la versión que proporcionan puede estar desactualizada. En su lugar, puede descargar la AppImage mostrada más arriba , marcarla como ejecutable e iniciarla sin instalación.
+La mayoría de las distribuciones incluyen FreeCAD en sus repositorios oficiales; sin embargo, si la distribución no sigue un modelo de lanzamiento continuo, la versión que ofrecen podría estar desactualizada. En su lugar, puede descargar la AppImage mencionada anteriormente, marcarla como ejecutable y ejecutarla sin necesidad de instalación.
 
 Por favor, consulte la página [[Installing_on_Linux/es|Instalar en Linux]] para más opciones de instalación, incluyendo paquetes diarios para Ubuntu y derivados.
 
