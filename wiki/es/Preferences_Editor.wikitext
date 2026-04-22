@@ -85,7 +85,8 @@ En esta página puede especificar lo siguiente:
 
 Opcionalmente, se pueden excluir de esta lista los archivos importados e incluir los exportados. Consulte [[Fine-tuning|Ajustes finos]].
 
-|-| {{MenuCommand|Habilitar fondo en mosaico}}
+|-
+| {{MenuCommand|Habilitar fondo en mosaico}}
 | Si está marcada, el fondo de la ventana principal de FreeCAD estará compuesto por mosaicos de esta imagen: [[File:Background.png|64px]]
 
 Esta opción solo tiene efecto si no se ha seleccionado ninguna {{MenuCommand|hoja de estilo}}.
