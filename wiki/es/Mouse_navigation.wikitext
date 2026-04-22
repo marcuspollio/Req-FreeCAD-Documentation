@@ -45,25 +45,11 @@ Las siguientes opciones de teclado están disponibles para todos los estilos:
 
 El estilo de navegación de Blender se basó en [https://www.blender.org Blender].
 
-<div class="mw-translate-fuzzy">
-
-En la Navegación de Blender, no se puede hacer un encuadre sólo con el ratón. Para hacer un encuadre, debes mantener presionada la tecla {{KEY|SHIFT}}.
-{{Blender Navigation/es}}
-
-{{Blender Navigation
+{{Blender_Navigation
 |Select_name=Select
-|Pan_name=Pan
 |Zoom_name=Zoom
 |Rotate_view_name=Rotate view
-|Shift={{KEY|Shift}}
-|Select_text=Press the left mouse button over an object you want to select.
-|Pan_text=Hold {{KEY|Shift}} and the middle mouse button, then move the pointer.
-
-Alternatively, hold both left and right mouse buttons, and then move the pointer.
-|Zoom_text=Use the mouse wheel to zoom in and out.
-|Rotate_view_text=Hold the middle mouse button, then move the pointer.
-}}
-</div>
+|Pan_name=Pan
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |Shift={{KEY|Shift}}
