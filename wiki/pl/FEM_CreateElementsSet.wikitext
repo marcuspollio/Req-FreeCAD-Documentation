@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[FEM_MeshGroup/pl|Grupa siatki MES]]
 |[[FEM_FemMesh2Mesh/pl|Siatka MES do siatki]]
@@ -8,6 +9,7 @@
 |IconR=FEM_FemMesh2Mesh.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{GuiCommand/pl
 |Name=FEM CreateElementsSet
@@ -45,6 +47,7 @@ Ukrywa elementy zaznaczone wielokątem z siatki MES lub siatki wyników, umożli
 * Aby ukryć więcej elementów z tej samej siatki MES po początkowym użyciu narzędzia, należy ręcznie wskazać nową (zmodyfikowaną) siatkę jako cel operacji. Nie ma takiej potrzeby w przypadku siatek wyników.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[FEM_MeshGroup/pl|Grupa siatki MES]]
 |[[FEM_FemMesh2Mesh/pl|Siatka MES do siatki]]
@@ -53,6 +56,7 @@ Ukrywa elementy zaznaczone wielokątem z siatki MES lub siatki wyników, umożli
 |IconR=FEM_FemMesh2Mesh.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
