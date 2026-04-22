@@ -90,7 +90,7 @@ Opcionalmente, se pueden excluir de esta lista los archivos importados e incluir
 
 Esta opción solo tiene efecto si no se ha seleccionado ninguna {{MenuCommand|hoja de estilo}}.
 
-The image can be changed by adding the folders {{FileName|Gui/Images}} in the folder:
+La imagen se puede cambiar agregando las carpetas {{FileName|Gui/Images}} en la carpeta:
 
 {{FileName|[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/ %APPDATA%]/FreeCAD}} (on Windows),
 
