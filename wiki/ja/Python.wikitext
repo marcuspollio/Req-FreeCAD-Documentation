@@ -49,7 +49,7 @@ Wire = make_wire(pointslist, placement=None, closed=False, face=None)
 Wire = make_wire(pointslist, support=None, closed=False, placement=None, face=None)
 }}
 
-* Pythonのガイドラインでは、コードの可読性が重視されます。特に、関数名の直後に括弧を書くこと、コンマの後には空白を入れることなどです。
+* Pythonのガイドラインでは、コードの可読性が重視されます。特に、関数名の直後に括弧を書くこと、カンマの後には空白を入れることなどです。
 
 {{Code|code=
 p1 = Vector(0, 0, 0)
