@@ -599,9 +599,10 @@ Si la opción {{MenuCommand|Rotar al más cercano}} está marcada, al hacer clic
 {{MenuCommand|Opacidad cuando está inactivo}} Opacidad del cubo de navegación cuando no se pasa el ratón por encima. {{Version|1.0}}
 
 |-
-| {{MenuCommand|Rotation center indicator}} {{Version|1.0}}
-| If checked, the rotation center of the view is shown when dragging.
-The {{MenuCommand|Sphere size}} and the {{MenuCommand|Color and transparency}} of the indicator can be specified.
+| {{MenuCommand|Indicador del centro de rotación}} {{Version|1.0}}
+| Si está marcada, se muestra el centro de rotación de la vista al arrastrar.
+
+Se pueden especificar el {{MenuCommand|Tamaño de la esfera}} y el {{MenuCommand|Color y transparencia}} del indicador.
 
 |-
 | {{MenuCommand|3D Navigation}}
