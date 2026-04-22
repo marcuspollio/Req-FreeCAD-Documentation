@@ -41,11 +41,9 @@ Las versiones anteriores se pueden descargar desde la página [https://github.co
 <span id="Notes_for_Windows_users"></span>
 === Notas para usuarios de Windows ===
 
-<div class="mw-translate-fuzzy">
-* Las siguientes versiones de Windows son soportadas: 64-bit 7/8/10/11. Windows de 32-bit no está soportado.
-* Una versión portable que no necesita instalación está disponible en la página de [https://github.com/FreeCAD/FreeCAD/releases/ lanzamientos].
-* El paquete también puede instalarse desde el gestor [https://chocolatey.org/packages/freecad Chocolatey].
-</div>
+* Se admiten las siguientes versiones de Windows: 10/11 de 64 bits.
+
+* El paquete también se puede instalar desde el gestor de paquetes [https://chocolatey.org/packages/freecad Chocolatey].
 
 <span id="Notes_for_macOS_users"></span>
 === Notas para usuarios de macOS ===
