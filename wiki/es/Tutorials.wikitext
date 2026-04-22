@@ -125,7 +125,7 @@ FEM locally refined mesh.PNG|link=[[FEM_Geometry_Preparation_and_Meshing]]|[[FEM
 
 FEM example01 pic00.jpg|link=[[FEM_CalculiX_Cantilever_3D]]|[[FEM_CalculiX_Cantilever_3D|Análisis de elementos finitos en voladizos con CalculiX]] (v0.20) <br/>Este es un ejemplo incluido en todas las instalaciones de FreeCAD. Muestra un análisis básico con el solucionador de elementos finitos CalculiX. Borre el resultado actual, vuelva a ejecutar el solucionador y visualice los desplazamientos y las tensiones en la malla deformada en la ventana gráfica.
 
-FEM tutorial result.png|link=[[FEM_tutorial]]|[[FEM_tutorial|Simple FEM introduction]] (v0.20) <br/>Esta es una breve introducción de los pasos necesarios para realizar un análisis en FEM Workbench: modelar el objeto, crear una malla, añadir restricciones y fuerzas, añadir un material, ejecutar el solucionador y visualizar los resultados.
+FEM tutorial result.png|link=[[FEM_tutorial]]|[[FEM_tutorial|Introducción sencilla al Método de Elementos Finitos (FEM)]] (v0.20) <br/>Esta es una breve introducción de los pasos necesarios para realizar un análisis en FEM Workbench: modelar el objeto, crear una malla, añadir restricciones y fuerzas, añadir un material, ejecutar el solucionador y visualizar los resultados.
 
 Figure 11 Deformed Mesh.png|link=[[FEM_Shear_of_a_Composite_Block]]|[[FEM_Shear_of_a_Composite_Block|FEM shear analysis of a composite block]] (v0.17) <br/>Estudie la deformación de un bloque formado por un núcleo duro rodeado de un material más blando: cree regiones de malla, añada materiales, establezca restricciones de deslizamiento, añada cargas de corte, ejecute el solucionador y visualice los resultados con un plano de recorte.
 
