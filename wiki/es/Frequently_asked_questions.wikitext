@@ -60,10 +60,10 @@ Algunas partes de FreeCAD dependen de un módulo externo de Python llamado Pivy.
 <span id="I_have_display_problems,_the_3D_view_doesn&#039;t_behave_correctly,_there_is_garbage_when_I_move/rotate_the_view,_etc."></span>
 === Tengo problemas de visualización, la vista 3D no se comporta correctamente, hay basura cuando muevo/roto la vista, etc. ===
 
-FreeCAD depende de OpenGL para mostrar contenidos 3D, y por lo tanto requiere un entorno OpenGL que funcione. En algunos sistemas, OpenGL no está activado por defecto, y puede que necesites instalar o actualizar tus drivers gráficos. Este problema ocurre con mayor frecuencia en sistemas Linux o en sistemas virtuales. Si estás en un sistema basado en Linux, intenta los siguientes pasos:
-* verifique que su ordenador tiene una tarjeta gráfica con capacidad 3D
-* Escriba {{SystemInput|glxinfo}} en una ventana de terminal, y compruebe en la salida que Direct Rendering está configurado como "sí", y que el proveedor/renderizador/versión de OpenGL coincide con su tarjeta gráfica.
-* Instala otro software basado en OpenGL ([http://www.blender.org Blender], por ejemplo) y comprueba si se ejecuta y muestra correctamente.
+FreeCAD depende de OpenGL para mostrar contenidos 3D, y por lo tanto requiere un entorno OpenGL que funcione. En algunos sistemas, OpenGL no está activado por defecto, y puede que necesite instalar o actualizar sus drivers gráficos. Este problema ocurre con mayor frecuencia en sistemas Linux o en sistemas virtuales. Si está en un sistema basado en Linux, intente los siguientes pasos:
+* verifique que su ordenador tiene una tarjeta gráfica con capacidad 3D.
+* Teclee {{SystemInput|glxinfo}} en una ventana de terminal, y compruebe en la salida que Direct Rendering está configurado como "sí", y que el proveedor/renderizador/versión de OpenGL coincide con su tarjeta gráfica.
+* Instale otro software basado en OpenGL ([http://www.blender.org Blender], por ejemplo) y compruebe si se ejecuta y muestra correctamente.
 
 <span id="FreeCAD_crashes_on_startup"></span>
 === FreeCAD se bloquea al iniciar ===
