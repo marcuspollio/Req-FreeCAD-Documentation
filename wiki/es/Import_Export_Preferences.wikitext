@@ -181,9 +181,7 @@ Si '''*blocks''' está marcada, también se importarán los bloques anónimos (c
 
 Si se selecciona '''Formas de piezas simples''', solo se crearán objetos de piezas estándar. Esta es la opción más rápida.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If '''Draft objects''' is selected, parametric Draft objects will be created whenever possible.
-</div>
+Si se selecciona '''Objetos de borrador''', se crearán objetos de borrador paramétricos siempre que sea posible.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If '''Sketches''' is selected, sketches will be created whenever possible.
