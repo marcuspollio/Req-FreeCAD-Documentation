@@ -21,7 +21,7 @@
 </div>
 
 <span id="Description"></span>
-==説明==
+== 概要 ==
 
 <div class="mw-translate-fuzzy">
 Arch Floorは床を作成するのに特に便利な追加プロパティを持った特殊なタイプのです。特徴的なのがheightプロパティを持っていることで、その子オブジェクト（[[Arch Wall|壁]]や[[Arch Structure|骨組み]]）ではそれを使ってその高さを自動で設定することができます。
