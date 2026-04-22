@@ -744,7 +744,7 @@ En esta página puede especificar lo siguiente:
 
 |-
 | {{MenuCommand|Renderizado a dos caras}}
-| Si está marcada, el valor predeterminado para la propiedad {{PropertyView|Iluminación}} es {{value|Dos caras}} en lugar de {{valor|Una cara}}. {{value|Dos caras}} significa que el color de la cara interior de las caras es el mismo que el de la cara exterior. {{value|Una cara}} significa que su color es el [[#3D_View|color de retroiluminación]], si está habilitado, o negro.
+| Si está marcada, el valor predeterminado para la propiedad {{PropertyView|Iluminación}} es {{value|Dos caras}} en lugar de {{value|Una cara}}. {{value|Dos caras}} significa que el color de la cara interior de las caras es el mismo que el de la cara exterior. {{value|Una cara}} significa que su color es el [[#3D_View|color de retroiluminación]], si está habilitado, o negro.
 
 |-
 | {{MenuCommand|Mostrar cuadro delimitador para mallas resaltadas o seleccionadas}}
