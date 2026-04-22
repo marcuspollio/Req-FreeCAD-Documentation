@@ -321,13 +321,12 @@ En esta página puede especificar lo siguiente:
 | {{MenuCommand|Importar definiciones paramétricas completas de FreeCAD si están disponibles}}
 | Crea un modelo paramétrico completo durante la importación utilizando las propiedades de los objetos de FreeCAD almacenadas.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To get the FreeCAD properties, the model must have been exported using the option {{MenuCommand|Export full FreeCAD parametric model}}.
-|-
-| {{MenuCommand|Replace 'Project', 'Site', 'Building' and 'Storey' with 'Group'}}
-|  If checked, groups will be used to replace the mentioned objects.
+Para obtener las propiedades de FreeCAD, el modelo debe haberse exportado utilizando la opción {{MenuCommand|Exportar modelo paramétrico completo de FreeCAD}}.
+
+|-| {{MenuCommand|Reemplazar 'Proyecto', 'Sitio', 'Edificio' y 'Planta' por 'Grupo'}}
+| Si está marcada, se utilizarán grupos para reemplazar los objetos mencionados.
+
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ====IFC Export====
