@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[FEM_MeshRegion/fr|Mailler plus finement]]
 |[[FEM_CreateElementsSet/fr|Masquer des éléments]]
@@ -8,6 +9,7 @@
 |IconR=FEM_CreateElementsSet.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{GuiCommand/fr
 |Name=FEM MeshGroup
@@ -52,6 +54,7 @@ FEM Grouper un maillage permet donc à FreeCAD d'être utilisé avec des solveur
 * Pour vérifier si un groupe a été correctement exporté, vous pouvez ouvrir le fichier généré dans n'importe quel éditeur de texte et rechercher le nom du groupe.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[FEM_MeshRegion/fr|Mailler plus finement]]
 |[[FEM_CreateElementsSet/fr|Masquer des éléments]]
@@ -60,6 +63,7 @@ FEM Grouper un maillage permet donc à FreeCAD d'être utilisé avec des solveur
 |IconR=FEM_CreateElementsSet.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
