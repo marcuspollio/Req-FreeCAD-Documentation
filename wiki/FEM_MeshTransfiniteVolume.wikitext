@@ -1,6 +1,7 @@
 <languages/>
 <translate>
 
+<!--T:1-->
 {{Docnav
 |[[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]
 |[[FEM_CreateElementsSet|Erase Elements]]
@@ -10,6 +11,7 @@
 |IconC=Workbench_FEM.svg
 }}
 
+<!--T:2-->
 {{GuiCommandContainer|
 {{GuiCommand
 |Name=FEM MeshTransfiniteVolume
@@ -23,15 +25,18 @@
 }}
 }}
 
-==Description==
+==Description== <!--T:3-->
 
+<!--T:4-->
 The '''FEM MeshTransfiniteVolume''' command creates a structured mesh in a 4- or 5-sided volume bounded by transfinite surfaces.
 
+<!--T:5-->
 [[File:FEM_mesh_transfinite_volume_task_panel.PNG|400px]]
 {{Caption|Task panel of the MeshTransfiniteVolume tool}}
 
-==Usage==
+==Usage== <!--T:6-->
 
+<!--T:7-->
 # To enable the command a [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
 # Select the Mesh object in the [[Tree_View|Tree View]].
 # There are several ways to invoke the command:
@@ -47,14 +52,18 @@ The '''FEM MeshTransfiniteVolume''' command creates a structured mesh in a 4- or
 # Double-click on the {{incode|FEMMeshGmsh}} parent object in your Model Tree and press {{Button|Apply}} to force a mesh recalculation.
 # Close the task.
 
+<!--T:8-->
 After the mesh has been created you can change its properties using the [[Property_View|Property View]]. After you changed a property, you must reopen the Gmsh dialog again and click the {{Button|Apply}} button. (You can leave the dialog open while changing properties.)
 
+<!--T:9-->
 You can create as many different transfinite volumes as needed.
 
+<!--T:10-->
 ==Notes==
 * Using this tool with the ''Auto apply transfinite surfaces and curves'' and ''Recombine'' checkboxes enabled is the easiest way to generate structured hexahedral meshes using the transfinite Gmsh algorithm. All subvolumes must have 5 or 6 faces with 3 or 4 edges each, though.
 
 
+<!--T:11-->
 {{Docnav
 |[[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]
 |[[FEM_CreateElementsSet|Erase Elements]]
