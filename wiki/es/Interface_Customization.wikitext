@@ -48,10 +48,13 @@ En esta pestaña se pueden definir combinaciones de teclas personalizadas. Las c
 
 Puede buscar comandos introduciendo al menos 3 caracteres de su texto o nombre en el campo de búsqueda. La búsqueda no distingue entre mayúsculas y minúsculas.
 
-It is also possible to search for shortcuts:
-* In the search field special keys in shortcuts must be entered as strings. For example to search for commands that use {{KEY|Ctrl}} in their shortcut enter {{Value|ctrl}} (4 letters).
-* Add parenthesis to search for single character shortcuts, for example: {{Value|(c)}}.
-* Add a comma and space between the characters of multi-character shortcuts, for example: {{Value|g, b, b}}.
+También es posible buscar atajos de teclado:
+
+* En el campo de búsqueda, las teclas especiales de los atajos deben introducirse como cadenas de texto. Por ejemplo, para buscar comandos que utilicen {{KEY|Ctrl}} en su atajo, introduzca {{Value|ctrl}} (4 letras).
+
+* Añada paréntesis para buscar atajos de un solo carácter, por ejemplo: {{Value|(c)}}.
+
+* Añada una coma y un espacio entre los caracteres de los atajos de varios caracteres, por ejemplo: {{Value|g, b, b}}.
 
 <span id="Add_a_shortcut"></span>
 <div class="mw-translate-fuzzy">
