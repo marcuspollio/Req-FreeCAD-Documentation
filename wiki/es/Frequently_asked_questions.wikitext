@@ -110,7 +110,7 @@ Si hay alguna diferencia, FreeCAD o SoQt deben recompilarse (es mejor recompilar
 Si desea realizar este paso usted mismo y no es posible recompilar SoQt porque interfiere con otras aplicaciones de su sistema, puede forzar la compilación de FreeCAD con la versión de Coin requerida mediante {{SystemInput|<nowiki>./configure --with-coin=DIR</nowiki>}}. Sin embargo, debe asegurarse de que el paquete de desarrollo correcto de esta versión de Coin esté instalado.
 
 <span id="FreeCAD_crashes_after_Edit_→_Alignment"></span>
-=== FreeCAD se bloquea después de Edición → Alineación ===
+=== FreeCAD se bloquea después de Editar → Alinear ===
 
 Un fallo de segmentación ocurre en {{SystemOutput|vbo_save_playback_vertex_list()}}. Esto significa que la implementación de VBO en el controlador gráfico es mala. Para evitar el almacenamiento en caché de las llamadas a OpenGL puedes intentar establecer la variable de entorno {{SystemInput|<nowiki>IV_SEPARATOR_MAX_CACHES=0</nowiki>}} y reiniciar FreeCAD.
 
