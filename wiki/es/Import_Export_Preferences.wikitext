@@ -105,24 +105,29 @@ DWG (del dibujo) es un formato de archivo binario propietario y de código cerra
 
 En esta página puede especificar lo siguiente:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
+
 |-
-| {{MenuCommand|Conversion method}}
-| Select the DWG converter to use:
-* '''Automatic''': FreeCAD will try to find a converter automatically following the order of the rest of this list. {{Version|0.21}}: For LibreDWG the OS search path is searched ({{Incode|os.getenv("PATH")}}), for the other converters default installation paths are assumed.
-* '''LibreDWG''': [https://www.gnu.org/software/libredwg/ LibreDWG] is an open-source DWG reading and writing library. It lacks support for several DWG entities, and may not always give faithful results.
-* '''ODA Converter''': The [https://www.opendesign.com/guestfiles/oda_file_converter ODA File Converter] is a free utility provided by the Open Design Alliance. It gives very good and reliable results.
-* '''QCAD pro''': [https://qcad.org/en/qcad-command-line-tools#dwg2dwg QCAD pro] is the paid version of the open-source QCAD DXF-based 2D CAD platform. Its DWG converter uses the Teigha libraries from the OpenDesign Alliance and therefore gives the same good results as the ODA File Converter.
+| {{MenuCommand|Método de conversión}}
+| Seleccione el convertidor DWG que desea usar:
+* '''Automático''': FreeCAD intentará encontrar un convertidor automáticamente siguiendo el orden del resto de esta lista. {{Version|0.21}}: Para LibreDWG, se busca en la ruta de búsqueda del sistema operativo ({{Incode|os.getenv("RUTA")}}); para los demás convertidores. Se asumen las rutas de instalación predeterminadas.
+
+* '''LibreDWG''': [https://www.gnu.org/software/libredwg/ LibreDWG] es una biblioteca de código abierto para leer y escribir archivos DWG. Carece de compatibilidad con varias entidades DWG y puede que no siempre ofrezca resultados precisos.
+
+* '''Convertidor ODA''': El [https://www.opendesign.com/guestfiles/oda_file_converter Convertidor de archivos ODA] es una utilidad gratuita proporcionada por Open Design Alliance. Ofrece resultados muy buenos y fiables.
+
+* '''QCAD pro''': [https://qcad.org/en/qcad-command-line-tools#dwg2dwg QCAD pro] es la versión de pago de la plataforma CAD 2D de código abierto QCAD basada en DXF. Su convertidor DWG utiliza las bibliotecas Teigha de OpenDesign Alliance y, por lo tanto, ofrece los mismos buenos resultados que el Convertidor de archivos ODA.
+
 |-
-| {{MenuCommand|Path to file converter}}
-| If FreeCAD is unable to find a converter you need to specify a path here:
-* LibreDWG: {{FileName|dwg2dxf}} or {{FileName|dxf2dwg}} on Linux and macOS, {{FileName|dwg2dxf.exe}} or {{FileName|dxf2dwg.exe}} on Windows. Either filename can be specified for both the conversion from DWG and to DWG.
-* ODA Converter: {{FileName|ODAFileConverter}} on Linux and macOS, {{FileName|ODAFileConverter.exe}} on Windows.
-* QCAD pro: {{FileName|dwg2dwg}} (a bash script) on Linux and macOS, {{FileName|dwg2dwg.bat}} on Windows.
-</div>
+| {{MenuCommand|Ruta al convertidor de archivos}}
+| Si FreeCAD no encuentra un convertidor, debe especificar una ruta aquí:
+* LibreDWG: {{FileName|dwg2dxf}} o {{FileName|dxf2dwg}} en Linux y macOS, {{FileName|dwg2dxf.exe}} o {{FileName|dxf2dwg.exe}} en Windows. Se puede especificar cualquiera de los dos nombres de archivo tanto para la conversión de DWG como para la conversión a DWG.
+
+* Convertidor ODA: {{FileName|ODAFileConverter}} en Linux y macOS, {{FileName|ODAFileConverter.exe}} en Windows.
+
+* QCAD pro: {{FileName|dwg2dwg}} (un script bash) en Linux y macOS, {{FileName|dwg2dwg.bat}} en Windows.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Version|0.21}}: The path must contain the correct filename.
