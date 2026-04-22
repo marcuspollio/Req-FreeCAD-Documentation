@@ -1,8 +1,6 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{VeryImportantMessage|FreeCAD's TechDraw workbench still lacks a tool to create auxiliary views.<br>This page gives a description of a use case and holds a macro to show one way to create an auxiliary view.<br><br>Hopefully this is an inspiration for a C++ programmer to convert this proof of concept into an integrated TechDraw command. }}
-</div>
+{{VeryImportantMessage|L'ambiente di lavoro TechDraw di FreeCAD non dispone ancora di uno strumento per creare viste ausiliarie.<br>Questa pagina descrive un caso d'uso e contiene una macro che mostra un modo per creare una vista ausiliaria.<br><br>Si auspica che questo possa essere d'ispirazione per un programmatore C++ affinché converta questa dimostrazione di fattibilità in un comando integrato di TechDraw.}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Macro
