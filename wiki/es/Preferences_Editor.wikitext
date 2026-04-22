@@ -672,29 +672,36 @@ Si la opción {{MenuCommand|Enable spinning animations}} está marcada y {{MenuC
 En esta página puede especificar lo siguiente:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Simple color}}
-| If selected, the background of the [[3D_View|3D View]] will have the specified color.
+| {{MenuCommand|Color simple}}
+| Si se selecciona, el fondo de la [[3D_View|Vista 3D]] tendrá el color especificado.
+
 |-
-| {{MenuCommand|Linear gradient}}
-| If selected, the background of the [[3D_View|3D View]] will have a vertical color gradient defined by the specified '''Top''' and '''Bottom''' colors. if enabled, a '''Middle''' color can also be specified. Press the {{Button|[[Image:Button_sort.svg|16px]]}} button to switch the top and bottom colors.
+| {{MenuCommand|Gradiente lineal}}
+| Si se selecciona, el fondo de la [[3D_View|Vista 3D]] tendrá un degradado de color vertical definido por los colores '''Superior''' e '''Inferior''' especificados. Si está habilitado, también se puede especificar un color '''Medio'''. Pulse el botón {{Button|[[Image:Button_sort.svg|16px]]}} para intercambiar los colores superior e inferior.
+
 |-
-| {{MenuCommand|Radial gradient}}
-| If selected, the background of the [[3D_View|3D View]] will have a radial color gradient defined by the specified '''Central''' and '''End''' colors. if enabled, a '''Midway''' color can also be specified. Press the {{Button|[[Image:Button_sort.svg|16px]]}} button to switch the central and end colors.
+| {{MenuCommand|Gradiente radial}}
+| Si se selecciona, el fondo de la [[Vista_3D|Vista 3D]] tendrá un degradado de color radial definido por los colores '''Central''' y '''Extremo''' especificados. Si está habilitado, también se puede especificar un color '''Intermedio'''. Pulse el botón {{Botón|[[Imagen:Button_sort.svg|16px]]}} para cambiar los colores central y extremo.
+
 |-
-| {{MenuCommand|Object being edited}}
-| Specifies the background color for objects in the tree view that are currently edited.
+| {{ComandoMenú|Objeto en edición}}
+| Especifica el color de fondo de los objetos en la vista de árbol que se están editando actualmente.
+
 |-
-| {{MenuCommand|Active container}}
-| Specifies the background color for active containers in the tree view. For example an [[PartDesign_Body#Active_Status|active PartDesign Body]] will get this color.
+| {{ComandoMenú|Contenedor activo}}
+| Especifica el color de fondo de los contenedores activos en la vista de árbol. Por ejemplo, un [[PartDesign_Body#Active_Status|Cuerpo de Diseño Parte activo]] tendrá este color.
+
 |-
-| {{MenuCommand|Label text color}}
-| The color used for the labels of the color bar. The color bar is used in the [[Mesh_Workbench|Mesh Workbench]] and [[FEM_Workbench|FEM Workbench]].
+| {{ComandoMenú|Color del texto de la etiqueta}}
+| El color utilizado para las etiquetas de la barra de color. La barra de color se utiliza en [[Mesh_Workbench|Entorno de Trabajo de Malla]] y [[FEM_Workbench|Entorno de Trabajo de FEM]].
+
 |-
 | {{MenuCommand|Label text size}}
-| The size of those labels.
+| El tamaño de esas etiquetas.
+
 |}
 
 ===Advanced===
