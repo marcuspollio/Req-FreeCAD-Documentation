@@ -269,7 +269,7 @@ Esta pestaña está en blanco si no se detecta ningún Spaceball. Consulte: [[3D
 <span id="Themes"></span>
 ==Temas==
 
-FreeCAD supports complete theming of the interface, via .qss stylesheets. The [https://doc.qt.io/qt-5/stylesheet-syntax.html qss format] is very similar to the [https://en.wikipedia.org/wiki/CSS css format] used in web pages, it basically adds methods to reference the different widgets and elements of the Qt interface. You can change the default theme (which simply takes the style defined by your desktop system) by selecting a '''style sheet''' in the [[Preferences_Editor#General|FreeCAD preferences]].
+FreeCAD admite la personalización completa de la interfaz mediante hojas de estilo .qss. El formato qss [https://doc.qt.io/qt-5/stylesheet-syntax.html] es muy similar al formato CSS [https://en.wikipedia.org/wiki/CSS] utilizado en páginas web; básicamente, añade métodos para referenciar los diferentes widgets y elementos de la interfaz Qt. Puede cambiar el tema predeterminado (que simplemente adopta el estilo definido por su sistema operativo) seleccionando una hoja de estilo en el [[Preferences_Editor#General|Editor de preferencias de FreeCAD]].
 
 You can also create your own theme if you are not satisfied with the themes that are bundled with FreeCAD, for example by editing an [https://github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets existing style sheet]. Your new style must be placed in a specific folder for it to be found by FreeCAD:
 * {{FileName|%APPDATA%/FreeCAD/Gui/Stylesheets}} (on Windows). The {{FileName|%APPDATA%}} folder can be retrieved by entering {{Incode|App.getUserAppDataDir()}} in the [[Python_Console|Python Console]].
