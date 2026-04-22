@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[FEM_MeshGmshFromShape/pl|Siatka MES z kształtu generowana przez Gmsh]]
 |[[FEM_MeshRegion/pl|Zagęszczenie siatki MES]]
@@ -8,7 +9,9 @@
 |IconR=FEM_MeshRegion.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
+<div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
 {{GuiCommand/pl
 |Name=FEM MeshBoundaryLayer
@@ -21,11 +24,14 @@
 |Solvers=Wszystkie
 }}
 }}
+</div>
 
 <span id="Description"></span>
 ==Opis==
 
+<div class="mw-translate-fuzzy">
 Umożliwia ustawienie zlokalizowanego zestawu parametrów tworzenia siatki poprzez wskazanie zestawu obiektów ''(wierzchołek, krawędź, ściana)'' i przypisanie do nich parametrów.
+</div>
 
 Jest to szczególnie przydatne do zagęszczenia siatek w pobliżu krawędzi lub powierzchni w przypadku symulacji przepływów. Przykładowo, można skorzystać z tego narzędzia do zagęszczenia siatki w pobliżu profilu skrzydła samolotu lub przeszkody w przepływie.
 
@@ -34,6 +40,7 @@ Warstwa przyścienna ma tę zaletę, że tworzy silnie zdefiniowane, anizotropow
 <span id="Usage"></span>
 ==Użycie==
 
+<div class="mw-translate-fuzzy">
 # Aby skorzystać z tego polecenia, potrzebna jest [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/pl|siatka wygenerowana przez Gmsh]].
 # Wybierz obiekt siatki w [[Tree_view/pl|widoku drzewa]].
 # Istnieje kilka sposobów na wywołanie tego polecenia:
@@ -46,6 +53,7 @@ Warstwa przyścienna ma tę zaletę, że tworzy silnie zdefiniowane, anizotropow
 #: Rezultat: Powinieneś zobaczyć nowy obiekt {{incode|FEMMeshBoundaryLayer}} pod obiektem {{incode|FEMMeshGMSH}} (zobacz przykład #3 poniżej) w aktywnym kontenerze analizy.
 # Kliknij dwukrotnie na obiekcie {{incode|FEMMeshGMSH}} w drzewie modelu i wciśnij przycisk {{Button|Zastosuj}} aby wymusić ponowne przeliczenie siatki.
 # Zamknij okno dialogowe.
+</div>
 
 Po utworzeniu siatki możesz zmienić jej właściwości przy pomocy [[Property_editor/pl|edytora właściwości]]. Po zmianie właściwości należy ponownie otworzyć okno dialogowe Gmsh i wcisnąć przycisk {{Button|Zastosuj}}. (możesz zostawić okno dialogowe otwarte podczas zmieniana właściwości).
 
@@ -65,6 +73,7 @@ Możesz utworzyć tyle różnych warstw przyściennych, ile potrzeba.
 {{Caption|Przykład 3: Prosty przykład rezultatu w drzewie modelu}}
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[FEM_MeshGmshFromShape/pl|Siatka MES z kształtu generowana przez Gmsh]]
 |[[FEM_MeshRegion/pl|Zagęszczenie siatki MES]]
@@ -73,6 +82,7 @@ Możesz utworzyć tyle różnych warstw przyściennych, ile potrzeba.
 |IconR=FEM_MeshRegion.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
