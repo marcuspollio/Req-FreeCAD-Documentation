@@ -34,9 +34,7 @@ La '''Macro TechDraw AuxiliaryView''' aggiunge una vista ausiliaria (oggetto Aux
 <span id="Example_use_case"></span>
 ===Esempio di caso d'uso===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Let's assume we have a grid-parallel view and we want to develop other views to see the true shapes of the form features we want to dimension.
-</div>
+Si supponga di avere una vista parallela alla griglia e di voler sviluppare altre viste per visualizzare le forme reali degli elementi geometrici che si desidera quotare.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The key idea is to pick a straight line in a base view and define an auxiliary view perpendicular to it, this will be the base view for another auxiliary view along the straight line. We can chain auxiliary views until we have created all three main views of the object and one along its cylindrical sub-shape:
