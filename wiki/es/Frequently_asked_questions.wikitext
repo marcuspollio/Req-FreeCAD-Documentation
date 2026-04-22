@@ -77,8 +77,7 @@ Esta es una causa muy común del problema. Los síntomas son simplemente que Fre
 
 Como consejo general, para obtener más información sobre los fallos con FreeCAD, trate de iniciarlo con el parámetro del programa {{SystemInput|--write-log}}. Esto creará el archivo {{FileName|FreeCAD.log}} en {{FileName|$XDG_CONFIG_HOME/FreeCAD}} ({{VersionPlus|0.20}}) o {{FileName|$HOME/.FreeCAD}} ({{VersionMinus|0.19}}) en Linux, o {{FileName|$HOME/Library/Preferences/FreeCAD}} en macOS, o {{FileName|%APPDATA%/FreeCAD}} en sistemas Windows.
 
-En algunos casos raros puede tener instalado un controlador gráfico que no se ajusta a su tarjeta gráfica. Tuvimos un caso en el que el portátil del usuario tenía una gráfica Intel a bordo pero tenía instalados unos drivers ATI. [http://forum.freecad.org/viewtopic.php?f=13&t=5160&start=10#p41042]
-Después de eliminar los archivos y volver a instalar el controlador correcto FreeCAD empezó a funcionar.
+En algunos casos excepcionales, es posible que tenga instalado un controlador gráfico incompatible con su tarjeta gráfica. Tuvimos un caso en el que el portátil del usuario tenía gráficos integrados Intel, pero se habían instalado controladores ATI. Consulte el hilo del foro en alemán [https://forum.freecad.org/viewtopic.php?f=13&t=5160&start=10#p41042 FreeCAD startet nicht]. Tras eliminar los archivos y reinstalar el controlador correcto, FreeCAD volvió a funcionar.
 
 <span id="Some_library,_needed_by_FreeCAD,_is_not_present_on_your_system,_or_wasn&#039;t_found_by_FreeCAD"></span>
 ==== Alguna biblioteca, necesaria para FreeCAD, no está presente en su sistema, o no fue encontrada por FreeCAD ====
