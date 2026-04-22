@@ -125,16 +125,14 @@ Dolny lewy róg: rekombinacja na powierzchni i w objętości przy pomocy algoryt
 Dolny prawy róg: rekombinacja na powierzchni i w objętości przy pomocy algorytmu '''Simple full-quad'''}}
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav
 |[[FEM_MeshNetgenFromShape/pl|Siatka MES generowana przez Netgen]]
-|[[FEM_MeshBoundaryLayer/pl|Warstwa przyścienna siatki]]
+|[[FEM_MeshRegion/pl|Zagęszczenie siatki]]
 |[[FEM_Workbench/pl|środowisko pracy MES]]
 |IconL=FEM_MeshNetgenFromShape.svg
-|IconR=FEM_MeshBoundaryLayer.svg
+|IconR=FEM_MeshRegion.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
