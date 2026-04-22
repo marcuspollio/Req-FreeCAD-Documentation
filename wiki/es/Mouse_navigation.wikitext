@@ -491,10 +491,10 @@ Al hacer clic con el botón central del ratón, la vista se vuelve a centrar en 
 El estilo de navegación de TinkerCAD se basó en [https://en.wikipedia.org/wiki/Tinkercad TinkerCAD].
 
 {{TinkerCAD_Navigation
-|Seleccionar=Seleccionar
-|Zoom=Zoom
-|Rotar_vista=Rotar vista
-|Desplazar=Desplazar
+|Select_name=Seleccionar
+|Zoom_name=Zoom
+|Rotate_view_name=Rotar vista
+|Pan_name=Desplazar
 
 |Select_text=Seleccione el objeto que desea seleccionar.
 
