@@ -2,19 +2,17 @@
 
 {{VeryImportantMessage|L'ambiente di lavoro TechDraw di FreeCAD non dispone ancora di uno strumento per creare viste ausiliarie.<br>Questa pagina descrive un caso d'uso e contiene una macro che mostra un modo per creare una vista ausiliaria.<br><br>Si auspica che questo possa essere d'ispirazione per un programmatore C++ affinché converta questa dimostrazione di fattibilità in un comando integrato di TechDraw.}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Macro
+{{Macro/it
 |Name=Macro TechDraw AuxiliaryView
 |Icon=
-|Description=This macro adds an auxiliary view to a TechDraw page
+|Description=Questa macro aggiunge una vista ausiliaria a una pagina TechDraw
 |Author=FBXL5
 |Version=0.02
-|Date=2025-06-27
+|Date=27/06/2025
 |Download=
 |FCVersion=
 |SeeAlso=
 }}
-</div>
 
 <span id="Introduction"></span>
 ==Introduzione==
