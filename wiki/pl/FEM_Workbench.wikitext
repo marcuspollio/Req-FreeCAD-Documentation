@@ -158,9 +158,7 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 
 :* [[Image:FEM_MeshAdvanced.svg|32px]] [[FEM_MeshAdvanced/pl|Zaawansowane typy zagęszczenia]]: Umożliwia definiowanie rozmiaru siatki na różne zaawansowane sposoby. {{Version/pl|1.2}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:FEM_MeshTransfiniteCurve.svg|32px]] [[FEM_MeshTransfiniteCurve|Structured Transfinite Curve]]: Creates a fixed amount of nodes on an edge with a structured algorithm. {{Version|1.2}}
-</div>
+:* [[Image:FEM_MeshTransfiniteCurve.svg|32px]] [[FEM_MeshTransfiniteCurve/pl|Strukturalna krzywa transfinite]]: Tworzy ustaloną liczbę węzłów na krawędzi z użyciem algorytmu strukturalnego. {{Version/pl|1.2}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:FEM_MeshTransfiniteSurface.svg|32px]] [[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]: Creates a structured mesh on a face. {{Version|1.2}}
