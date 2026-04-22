@@ -13,10 +13,7 @@ La comunidad de FreeCAD proporciona muchos módulos y macros adicionales. Se pue
 <span id="What_is_the_easiest_way_to_install_FreeCAD_on_my_system?"></span>
 === ¿Cuál es la forma más sencilla de instalar FreeCAD en mi sistema? ===
 
-<div class="mw-translate-fuzzy">
-Si estás en Windows o Mac OS, la forma más sencilla es ir a la página [[Download/es|Descargar]], donde encontrarás varios paquetes listos para instalar. Si estás en Debian, Fedora o Ubuntu y algunas otras distribuciones, FreeCAD ya está incluido en los repositorios de software estándar y puedes simplemente instalarlo con el gestor de software. En Ubuntu, el equipo de FreeCAD también mantiene sus propios repositorios [[Installing_on_Linux/es#PPA_estable|PPA]].
-Para más detalles sobre la instalación, consulta la página de instalación de tu sistema operativo ([[Installing_on_Windows/es|Windows]], [[Installing_on_Linux/es|Linux]] o [[Installing_on_Mac/es|Mac]]).
-</div>
+Si usa Windows o macOS, la forma más sencilla es dirigirse a la página de [[Descargar|Descargar]], donde encontrará varios paquetes listos para instalar. Si usa Debian, Fedora, Ubuntu u otras distribuciones, FreeCAD ya está incluido en los repositorios de software estándar y puede instalarlo fácilmente con el gestor de software. En Ubuntu, el equipo de FreeCAD también mantiene sus propios [[Instalación_en_Linux#Versión_PPA_estable|Repositorios PPA]]. Para obtener más detalles sobre la instalación, consulte la página de instalación correspondiente a su sistema operativo ([[Instalación_en_Windows|Windows]], [[Instalación_en_Linux|Linux]] o [[Instalación_en_Mac|Mac]]).
 
 <span id="What_are_the_prerequisites_for_running_FreeCAD?"></span>
 === ¿Cuáles son los requisitos previos para ejecutar FreeCAD? ===
