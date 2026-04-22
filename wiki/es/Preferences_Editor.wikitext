@@ -430,25 +430,30 @@ En esta página puede especificar lo siguiente:
 En esta página puede especificar lo siguiente:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Source}}
-| Specifies the source of the Help files. The options are:
-* {{MenuCommand|FreeCAD Wiki (online)}}:
-* {{MenuCommand|Markdown version (online)}}:
-* {{MenuCommand|GitHub (online)}}: Cannot be selected.
-* {{MenuCommand|Custom location}}: Enter the path where the downloaded FreeCAD documentation can be found. To download the documentation select the ''offline-documentation'' addon from the Workbenches list in the [[Std_AddonMgr|Addon Manager]].
-{{MenuCommand|Translation suffix}}: For the Wiki option and the Markdown option a [https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes language suffix] can be specified. Use for example {{Value|fr}} for the French translation.
+| {{MenuCommand|Origen}}
+| Especifica el origen de los archivos de ayuda. Las opciones son:
+* {{MenuCommand|FreeCAD Wiki (en línea)}}:
+* {{MenuCommand|Versión Markdown (en línea)}}:
+* {{MenuCommand|GitHub (en línea)}}: No se puede seleccionar.
+
+* {{MenuCommand|Ubicación personalizada}}: Introduzca la ruta donde se encuentra la documentación de FreeCAD descargada. Para descargar la documentación, seleccione el complemento "offline-documentation" de la lista de entornos de trabajo en el [[Std_AddonMgr|Administrador de complementos]].
+{{MenuCommand|Sufijo de traducción}}: Para las opciones Wiki y Markdown, se puede especificar un sufijo de idioma [https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes]. Por ejemplo, use {{Value|fr}} para la traducción al francés.
+
 |-
-| {{MenuCommand|Display}}
-| Specifies where the documentation should be displayed. The options are:
-* {{MenuCommand|In the default web browser}}: The documentation is displayed in the default web browser.
-* {{MenuCommand|In a FreeCAD tab}}: The documentation is displayed on a new tab in the [[Main_View_Area|Main View Area]]. {{Version|1.0}}: Can no longer be used.
-* {{MenuCommand|In a separate, embeddable, dialog}}: The documentation is displayed in a separate dialog. This dialog can be docked on top of the [[Combo_View|Combo View]] for example. {{Version|1.0}}: Can no longer be used.
-|-
-| {{MenuCommand|Custom stylesheet}}
-| Specifies an optional custom stylesheet. Not used for the Wiki.
+| {{MenuCommand|Mostrar}}
+| Especifica dónde se debe mostrar la documentación. Las opciones son:
+* {{MenuCommand|En el navegador web predeterminado}}: La documentación se muestra en el navegador web predeterminado.
+
+* {{MenuCommand|En una pestaña de FreeCAD}}: La documentación se muestra en una nueva pestaña en el [[Main_View_Area|Área de visualización principal]]. {{Version|1.0}}: Ya no se puede usar.
+
+* {{MenuCommand|En un diálogo incrustable independiente}}: La documentación se muestra en un diálogo independiente. Este cuadro de diálogo se puede acoplar encima de la [[Combo_View|Vista combinada]], por ejemplo. {{Version|1.0}}: Ya no se puede usar.
+
+|-| {{MenuCommand|Hoja de estilo personalizada}}
+| Especifica una hoja de estilo personalizada opcional. No se usa para la Wiki.
+
 |}
 
 <span id="Display"></span>
