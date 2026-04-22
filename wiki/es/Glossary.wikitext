@@ -105,7 +105,7 @@ Ir a la letra {{CompactTOC|center=yes}}
 
 {{gloss}}
 {{term|DAG}}
-{{defn|defn=See [[#Directed_Acyclic_Graph|Directed Acyclic Graph.]]}}
+{{defn|defn=Vea [[#Directed_Acyclic_Graph|grafo cíclico dirigido]].}}
 {{term|Degrees Of Freedom}}
 {{defn|defn=El número de formas en la que la geometría de un [[#Sketch|boceto]] puede variar. Por ejemplo, si tenemos un boceto que consta de un solo punto, y a ese punto no se le aplican [[#Constraint|restricciones]], el punto tiene dos [[#DOF|grados de libertad]] porque puede moverse libremente tanto vertical como horizontalmente. De manera similar, un croquis que consta de un solo círculo sin restricciones tiene tres [[#DOF|grados de libertad]] porque el círculo puede moverse vertical y horizontalmente y, además, el radio no está definido. Restringir un boceto hasta que no tenga [[#DOF|grados de libertad]] restantes es la mejor manera de diseñar una pieza. En ese caso se dice que el boceto está [[#Fully_Constrained|completamente restringido]].}}
 {{term|Dependency Graph}}
