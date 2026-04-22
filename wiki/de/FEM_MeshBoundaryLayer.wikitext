@@ -59,18 +59,8 @@ Nachdem das Netz erstellt wurde, können seine Eigenschaften mit dem [[Property_
 
 Es können so viele unterschiedliche Grenzschichten wie nötig erstellt werden.
 
-<span id="Visual_examples"></span>
-==Bildhafte Beispiele== 
-
-[[File:FEMMeshBoundaryLayer Example1.png.png|300px]]
-{{Caption|Beispiel 1: Das anfängliche grobe FEMMeshGMSH in einem 2D-Fall}}
-
-
-[[File:FEMMeshBoundaryLayer Example2.png.png|300px]]
-{{Caption|Beispiel 2: Nach dem Anwenden einer Netzgrenzschicht}}
-
-[[File:FEMMeshBoundaryLayer Example3.png.png|300px]]
-{{Caption|Beispiel 3: Ein einfaches Beispiel der resultierenden Baumansicht}}
+[[File:FEM_boundary_layer_2D.PNG|500px]]
+{{Caption|Example of a 2D boundary layer around a hole}}
 
 
 <div class="mw-translate-fuzzy">
