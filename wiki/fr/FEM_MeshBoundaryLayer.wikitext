@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[FEM_MeshGmshFromShape/fr|Mailler avec Gmsh]]
 |[[FEM_MeshRegion/fr|Mailler plus finement]]
@@ -8,7 +9,9 @@
 |IconR=FEM_MeshRegion.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
+<div class="mw-translate-fuzzy">
 {{GuiCommandContainer
 |
 {{GuiCommand/fr
@@ -22,10 +25,13 @@
 |Solvers=Tous
 }}
 }}
+</div>
 
 ==Description==
 
+<div class="mw-translate-fuzzy">
 La commande '''FEM Couche limite de maillage''' permet à l'utilisateur de définir un jeu donné de paramètres de maillage en sélectionnant un ensemble d'éléments (sommet, arête, face) et en lui appliquant des paramètres.
+</div>
 
 Elle est particulièrement utile pour mailler plus finement à proximité des bords ou des surfaces dans les simulations d'écoulement. Par exemple, elle peut être utilisée pour mailler plus finement à proximité d'un profil aérodynamique ou d'un obstacle dans un écoulement.
 
@@ -34,6 +40,7 @@ La couche limite présente l'avantage de créer des maillages anisotropes hautem
 <span id="Usage"></span>
 ==Utilisation==
 
+<div class="mw-translate-fuzzy">
 # Pour activer la commande, un [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/fr|maillage avec Gmsh]] doit d'abord être fourni.
 # Sélectionnez l'objet Mesh dans la [[Tree_view/fr|vue en arborescence]]
 # Il y a plusieurs façons de lancer la commande :
@@ -46,6 +53,7 @@ La couche limite présente l'avantage de créer des maillages anisotropes hautem
 #: Résultat : vous devriez maintenant voir un nouvel objet {{incode|FEMMeshBoundaryLayer}} sous l'objet {{incode|FEMMeshGMSH}} (voir l'exemple 3 ci-dessous) dans votre conteneur d'analyse actif.
 # Double-cliquez sur l'objet parent {{incode|FEMMeshGMSH}} dans votre arbre de modèle et appuyez sur {{Button|Appliquer}} pour forcer un recalcul de maillage.
 # Fermez la tâche.
+</div>
 
 Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l'aide de l'[[Property_editor/fr|éditeur de propriétés]]. Après avoir modifié une propriété, vous devez rouvrir la fenêtre de dialogue Gmsh et cliquer sur le bouton {{Button|Appliquer}}. (Vous pouvez laisser la fenêtre de dialogue ouverte pendant la modification des propriétés).
 
@@ -65,6 +73,7 @@ Vous pouvez créer autant de couches limites de maillage différentes que néces
 {{Caption|Exemple 3 : un exemple simple de l'arborescence résultante}}
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[FEM_MeshGmshFromShape/fr|Mailler avec Gmsh]]
 |[[FEM_MeshRegion/fr|Mailler plus finement]]
@@ -73,6 +82,7 @@ Vous pouvez créer autant de couches limites de maillage différentes que néces
 |IconR=FEM_MeshRegion.svg
 |IconC=Workbench_FEM.svg
 }}
+</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
