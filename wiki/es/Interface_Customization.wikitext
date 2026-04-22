@@ -207,7 +207,7 @@ Ver [[#Search|Teclado]].
 [[Image:Std_DlgCustomize_tab_Macros.png]]
 {{Caption|La pestaña Macros}}
 
-On this tab macro commands can be set up. Once set up, they can be added to custom toolbars. Macros installed with the [[Image:Std_AddonMgr.svg|16px]] [[Std_AddonMgr|Addon Manager]] are set up automatically, and added to a {{Value|Global}} toolbar (see [[#Toolbars|Toolbars]]), if you confirm the '''Add button''' popup during the installation process.
+En esta pestaña se pueden configurar comandos de macro. Una vez configurados, se pueden agregar a barras de herramientas personalizadas. Las macros instaladas con [[Image:Std_AddonMgr.svg|16px]] [[Std_AddonMgr|Administrador de complementos]] se configuran automáticamente y se agregan a una barra de herramientas {{Value|Global}} (consulte [[#Toolbars|Barras de herramientas]]), si confirma el botón '''Agregar''' que aparece durante el proceso de instalación.
 
 If you want to use a macro downloaded from a different source you will have to install it manually. See [[How_to_install_macros|How to install macros]] for more information. Note that FreeCAD uses a dedicated folder for macros and only macros in that folder can be set up. Use the [[Image:Std_DlgMacroExecute.svg|16px]] [[Std_DlgMacroExecute|Std DlgMacroExecute]] command to find this folder on your system.
 
