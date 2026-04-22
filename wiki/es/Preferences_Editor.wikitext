@@ -104,16 +104,20 @@ Coloca un archivo llamado {{FileName|background.png}} en la carpeta {{FileName|I
 | {{MenuCommand|Habilitar pantalla de inicio al arrancar}}
 | Si está marcada, se mostrará una pantalla de inicio al iniciar FreeCAD.
 
-The splash screen image can be changed by placing a file named {{FileName|splash_image.png}} in the {{FileName|Images}} folder already mentioned under {{MenuCommand|Enable tiled background}}.
+La imagen de la pantalla de inicio se puede cambiar colocando un archivo llamado {{FileName|splash_image.png}} en la carpeta {{FileName|Imágenes}} ya mencionada en {{MenuCommand|Habilitar fondo en mosaico}}.
+
 |-
-| {{MenuCommand|Enable cursor blinking}}
-| If checked the text cursor in the [[Python_Console|Python Console]] and the [[Std_DlgMacroExecute#Edit|Macro editor]] will blink.
+| {{MenuCommand|Habilitar parpadeo del cursor}}
+| Si está marcada, el cursor de texto en la [[Python_Console|Consola de Python]] y en el [[Std_DlgMacroExecute#Edit|Editor de macros]] parpadeará.
+
 |-
-| {{MenuCommand|Activate overlay handling}} {{Version|1.0}}
-| If checked, docked windows can be handled as transparent overlays.
+| {{MenuCommand|Activar manejo de superposiciones}} {{Version|1.0}}
+| Si está marcada, las ventanas acopladas se pueden manejar como superposiciones transparentes.
+
 |-
-| {{MenuCommand|Preference packs}}
-| Lists the available [[Preference_Packs|preference packs]] and also allows you to import, save, manage and revert them.
+| {{MenuCommand|Paquetes de preferencias}}
+| Muestra los [[Preference_Packs|paquetes de preferencias]] disponibles y también permite importarlos, guardarlos, administrarlos y revertirlos.
+
 |}
 
 <span id="Document"></span>
