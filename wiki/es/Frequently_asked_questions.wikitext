@@ -86,10 +86,10 @@ Puede haber dos caminos para este problema: o simplemente falta alguna librería
 
 Por favor, revise el procedimiento de instalación de ([[Instalación_en_Windows|Windows]], [[Instalación_en_Linux|Linux]] o [[Instalación_en_Mac|Mac]]). Asegúrese de haber instalado todas las bibliotecas necesarias (en la mayoría de los sistemas Linux esto se hace automáticamente) y compruebe cuál es el número de versión mínimo para cada uno de los componentes.
 
-Si todo parece correcto, describe el problema en el [http://forum.freecad.org/ foro] o en [[Tracker/es|enviar un error]]. Si estás en un sistema linux, es fácil hacer un backtrace de depuración, que proporciona información muy útil sobre el fallo a los desarrolladores:
-* en un terminal, escriba {{SystemInput|gdb freecad}} (asumiendo que el paquete gdb está instalado)
-* dentro de gdb, escriba {{SystemInput|run}}
-* Después de la caída, escriba {{SystemInput|bt}} para obtener el seguimiento, que puede incluir en su informe de error.
+Si todo parece correcto, describa el problema en el [http://forum.freecad.org/ foro] o en [[Tracker/es|enviar un error]]. Si está trabajando en un sistema linux, es fácil hacer un rastreo inverso (backtrace) de depuración, que proporciona información muy útil sobre el fallo a los desarrolladores:
+* En un terminal, escriba {{SystemInput|gdb freecad}} (asumiendo que el paquete gdb está instalado)
+* Dentro de gdb, escriba {{SystemInput|run}}
+* Después del bloqueo, escriba {{SystemInput|bt}} para obtener el seguimiento, que puede incluir en su informe de error.
 
 <span id="FreeCAD_freezes_after_startup"></span>
 === FreeCAD se congela tras el arranque ===
