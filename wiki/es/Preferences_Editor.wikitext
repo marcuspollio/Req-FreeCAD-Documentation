@@ -208,14 +208,15 @@ Con la configuración predeterminada, un archivo de copia de seguridad, por ejem
 En esta página puede especificar lo siguiente:
 
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Enable preselection}}
-| If checked, [[3D_View|3D View]] preselection is turned on and the specified color will be used for it. Preselection means that for example edges of objects will be highlighted while hovering over them with the mouse to indicate they can be selected.
+| {{MenuCommand|Habilitar preselección}}
+| Si está marcada, se activa la preselección en la [[3D_View|Vista 3D]] y se utilizará el color especificado. La preselección significa que, por ejemplo, los bordes de los objetos se resaltarán al pasar el ratón por encima para indicar qué se pueden seleccionar.
+
 |-
-| {{MenuCommand|Enable selection}}
-| If checked, 3D view selection is turned on and the specified color is used for it. If not checked, objects can only be selected in the [[Tree_View|Tree View]].
+| {{MenuCommand|Habilitar selección}}
+| Si está marcada, se activa la selección en la vista 3D y se utilizará el color especificado. Si no está marcada, los objetos solo se pueden seleccionar en la [[Tree_View|Vista de Árbol]].
 
 Note that objects created while this option is not checked will have their {{PropertyView|Selectable}} property set to {{FALSE}}. With that value they are not selectable in the 3D view, even if this option is checked again.
 |-
