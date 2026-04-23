@@ -313,9 +313,7 @@ Depuración de LiClipse →
 
 <div class="mw-collapsible-content">
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Extract AppImage.
-</div>
+* Extraer AppImage.
 
 {{Code|code=
 > ./your location/FreeCAD_xxx.AppImage --appimage-extract
