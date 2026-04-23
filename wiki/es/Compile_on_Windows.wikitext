@@ -446,9 +446,7 @@ El complemento no puede ser cargado por Qt Designer si fue compilado utilizando 
 
 * Abra MSVC y compile el destino '''FreeCAD_widgets'''.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-As result you will get the plugin file '''FreeCAD_widgets.dll'' in the folder</br>''~\src\Tools\plugins\widget\Release''
-</div>
+Como resultado, obtendrá el archivo de complemento '''FreeCAD_widgets.dll'' en la carpeta</br>'''~\src\Tools\plugins\widget\Release'''
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ====Installation====
