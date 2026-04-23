@@ -460,9 +460,8 @@ make -j$(nproc --ignore=2)
 
 La opción {{incode|-j}} de {{incode|make}} controla cuántos trabajos (archivos) se compilan en paralelo. El programa {{incode|nproc}} muestra el número de núcleos de CPU de su sistema; al usarlo junto con la opción {{incode|-j}}, puede elegir procesar tantos archivos como núcleos tenga, para acelerar la compilación general del programa. En el ejemplo anterior, utilizará todos los núcleos de su sistema excepto dos; esto mantendrá su computadora disponible para otros usos mientras la compilación se realiza en segundo plano. El ejecutable de FreeCAD aparecerá finalmente en el directorio {{incode|build/bin}}. Consulte también [[Compiling_(Speeding_up)|Compiling (speeding up)]] para mejorar la velocidad de compilación.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Resolving cmake issues ===
-</div>
+<span id="Resolving_cmake_issues"></span>
+=== Solución de problemas de cmake ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you have done a build before and get stuck on a dependency that is not recognized or can't seem to be resolved, try the following:
