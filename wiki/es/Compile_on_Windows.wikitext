@@ -632,10 +632,8 @@ Esto garantiza que los nombres de archivo de las bibliotecas de depuración sean
 * Abra el proyecto en Visual Studio y compile primero los destinos ALL_BUILD y luego INSTALL en modo '''Release'''.
 * Repita la compilación de ambos destinos en modo '''Debug'''.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To build FreeCAD using the self-compiled Netgen, you must do the following:
-* Copy all folders from the CMAKE_INSTALL_PREFIX to your LibPack folder (overwrite the existing files)
-</div>
+Para compilar FreeCAD usando Netgen autocompilado, debe hacer lo siguiente:
+* Copie todas las carpetas de CMAKE_INSTALL_PREFIX a su carpeta LibPack (sobrescriba los archivos existentes).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == References ==
