@@ -179,10 +179,8 @@ sudo apt-get install winpdb
 
 Ahora vamos a configurar el depurador.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Start ''Winpdb''.
-# Set the debugger password to "test": Go to menu ''File'' → ''Password" and set the password.
-</div>
+# Iniciar ''Winpdb''.
+# Establecer la contraseña del depurador como "test": Ir al menú ''Archivo'' → ''Contraseña'' y establecer la contraseña.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Now we will run a test Python script in FreeCAD step by step.
