@@ -370,14 +370,12 @@ Para el Método 1, debe habilitar las opciones '''FREECAD_COPY_*''' mencionadas 
 
 Al ejecutar FreeCAD, es posible que encuentre archivos DLL faltantes al usar ciertos entornos de trabajo o funciones de los mismos. El mensaje de error en la consola de FreeCAD no le indicará qué archivo DLL falta. Para averiguarlo, debe usar una herramienta externa.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Download the latest release of the program '''Dependencies''': https://github.com/lucasg/Dependencies/releases (choose the file ''Dependencies_x64_Release.zip'')
-* In the FreeCAD [[Python console]] execute these commands:
- <nowiki>import os
+* Descargue la última versión del programa '''Dependencies''': https://github.com/lucasg/Dependencies/releases (elija el archivo ''Dependencies_x64_Release.zip'')
+* En la consola de Python de FreeCAD, ejecute estos comandos:
+<nowiki>import os
 os.system(r"~\DependenciesGui.exe")</nowiki>
-'''Note''': Instead of the ~ you must specify the full path to the ''DependenciesGui.exe'' on your system.
-* Now drag in the *.pyd file of the workbench with which you get missing DLLs reported.
-</div>
+Nota: En lugar de la ~, debe especificar la ruta completa a ''DependenciesGui.exe'' en su sistema.
+* Ahora arrastre el archivo *.pyd del entorno de trabajo que muestra el informe de DLL faltantes.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Updating the build==
