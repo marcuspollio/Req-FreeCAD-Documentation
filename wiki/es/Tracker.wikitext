@@ -135,15 +135,14 @@ Además del marcado MantisBT mencionado anteriormente, también es posible usar 
 </code>
 </small>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== MantisBT <=> GitHub Markup ===
-Below are special MantisBT Source-Integration plugin keywords which will link to the FreeCAD GitHub repo. See [[Tracker#GitHub_and_MantisBT|GitHub and MantisBT]].
-* '''c:FreeCAD:git commit hash:''' - '''c''' stands for 'commit'. FreeCAD stands for the FreeCAD GitHub repo. 'git commit hash' is the specific git commit hash to reference. Note: the trailing colon is necessary. Exampleː <code>cːFreeCADː709d2f325db0490016807b8fa6f49d1c867b6bd8ː</code> 
-* '''d:FreeCAD:git commit hash:''' - similar to the above, '''d''' stands for 'diff' which will provide a Diff view of the commit. Exampleː <code>dːFreeCADː709d2f325db0490016807b8fa6f49d1c867b6bd8ː</code> 
-* '''p:FreeCAD:pullrequest:''' - similar to the above, '''p''' stands for Pull Request. Exampleː <code>pːFreeCADː498ː</code> 
-[[File:mantisbt-source-integration-markup.jpg|center|600px]]
+=== MantisBT <=> Marcado de GitHub ===
+A continuación se muestran palabras clave especiales del plugin de integración de código fuente de MantisBT que enlazan con el repositorio de GitHub de FreeCAD. Consulte [[Tracker#GitHub_and_MantisBT|GitHub y MantisBT]].
+
+* '''c:FreeCAD:git commit hash:''' - '''c''' significa 'commit'. FreeCAD se refiere al repositorio de GitHub de FreeCAD. 'git commit hash' es el hash de confirmación de Git específico al que se hace referencia. Nota: los dos puntos finales son necesarios. Ejemplo: <code>cːFreeCADː709d2f325db0490016807b8fa6f49d1c867b6bd8ː</code>
+* '''d:FreeCAD:git commit hash:''' - similar al anterior, '''d''' significa 'diff', que proporciona una vista de diferencias del commit. Ejemplo: <code>dːFreeCADː709d2f325db0490016807b8fa6f49d1c867b6bd8ː</code>
+* '''p:FreeCAD:pullrequest:''' - similar al anterior, '''p''' significa Pull Request (Solicitud de extracción). Ejemploː <code>pːFreeCADː498ː</code>
+[[Archivo:mantisbt-source-integration-markup.jpg|center|600px]]
 {{clear}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == GitHub and MantisBT ==
