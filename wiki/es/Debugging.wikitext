@@ -372,9 +372,7 @@ import sys; sys.path.append("path ending with /pysrc")
 import pydevd; pydevd.settrace()
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* This is where the execution will halt when the macro is run.
-</div>
+:* Aquí es donde se detendrá la ejecución cuando se ejecute la macro.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Start the liclipse debug server (menu pydev).
