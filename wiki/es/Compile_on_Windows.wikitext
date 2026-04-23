@@ -427,9 +427,8 @@ Para actualizar su LibPack, siga estos pasos:
 # En CMake, haga clic en el botón '''Open Project''' y se abrirá el IDE de MSVC.
 # En el IDE de MSVC, compile el objetivo '''INSTALL'''.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Tools==
-</div>
+<span id="Tools"></span>
+== Herramientas ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In order to join the FreeCAD development you should compile and install the following tools:
