@@ -210,9 +210,7 @@ A continuación se describe alguna de estas variables:
 <span id="Building_FreeCAD"></span>
 == Construyendo FreeCAD ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Depending on your compiler, the process for building FreeCAD will be slightly different. In the following sections known workflows are described. If you are building with Qt Creator, jump to [[#Building_with_Qt_Creator_.28outdated.29|Building with Qt Creator (outdated)]], otherwise proceed directly:
-</div>
+Dependiendo del compilador, el proceso de compilación de FreeCAD será ligeramente diferente. En las siguientes secciones se describen los flujos de trabajo habituales. Si está compilando con Qt Creator, vaya a [[#Building_with_Qt_Creator_.28outdated.29|Compilación con Qt Creator (obsoleto)]], de lo contrario, continúe directamente:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Building from cmd.exe command line ===
