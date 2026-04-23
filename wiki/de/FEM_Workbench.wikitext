@@ -160,9 +160,7 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 :* [[Image:FEM_MeshTransfiniteCurve.svg|32px]] [[FEM_MeshTransfiniteCurve/de|Strukturierte transfinite Kurve]]: Erzeugt mithilfe eines strukturierten Algorithmus eine festgelegte Anzahl von Knoten auf einer Kante. {{Version/de|1.2}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:FEM_MeshTransfiniteSurface.svg|32px]] [[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]: Creates a structured mesh on a face. {{Version|1.2}}
-</div>
+:* [[Image:FEM_MeshTransfiniteSurface.svg|32px]] [[FEM_MeshTransfiniteSurface/de|Strukturierte transfinite Fläche]]: Erstellt ein strukturiertes Netz auf einer Fläche. {{Version/de|1.2}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:FEM_MeshTransfiniteVolume.svg|32px]] [[FEM_MeshTransfiniteVolume|Structured Transfinite Volume]]: Creates a structured mesh in a 4- or 5-sided volume bounded by transfinite surfaces. {{Version|1.2}}
