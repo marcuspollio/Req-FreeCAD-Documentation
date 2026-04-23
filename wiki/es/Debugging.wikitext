@@ -145,9 +145,7 @@ A veces resulta útil saber qué bibliotecas carga FreeCAD, especialmente si se 
 
 {{código|ps -A &#124; grepFreeCAD}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Use the returned id and pass it to {{incode|lsof}}:
-</div>
+Utilice el ID devuelto y páselo a {{incode|lsof}}:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{incode| lsof -p process_id}}
