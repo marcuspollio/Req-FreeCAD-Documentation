@@ -20,7 +20,7 @@ Actualmente, la forma más fácil y rápida de compilar FreeCAD es con [https://
 
 No es necesario volver a ejecutar el comando ''configure'', ya que se ejecutará automáticamente con ''pixi run build'' si es necesario. Sin embargo, si se agrega o actualiza un submódulo de Git, utilice el comando ''pixi run initialize''.
 
-Si cambias de rama con ''git checkout'' y luego cambias de rama, simplemente vuelve a usar ''pixi run build''. No es necesario limpiar los directorios de la compilación anterior.
+Si cambia de rama con ''git checkout'' y luego cambia de rama, simplemente vuelva a usar ''pixi run build''. No es necesario limpiar los directorios de la compilación anterior.
 
 <span id="Legacy_compilation_workflow"></span>
 = Flujo de trabajo de compilación heredado =
