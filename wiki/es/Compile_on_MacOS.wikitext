@@ -150,7 +150,7 @@ A continuación, ejecutaremos CMake para generar la configuración de compilaci�
 
 |}
 
-Note: Command line to generate CMAKE_PREFIX_PATH:  
+Nota: Línea de comandos para generar CMAKE_PREFIX_PATH:  
 
 <!--NOT CHANGE THE <pre> </pre> BALISE CAUSE THE PIPE OR SPACE IN MACRO CODE CUT THE MACRO-->
  ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/lib/cmake
