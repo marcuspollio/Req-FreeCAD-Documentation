@@ -310,7 +310,7 @@ La forma más sencilla de comprobar qué paquetes se necesitan para compilar Fre
 
 Esto debería proporcionarle una buena lista de paquetes adicionales que necesita instalar en su sistema.
 
-Si FreeCAD no está disponible en Portage, está disponible en [https://github.com/waebbl/waebbl-gentoo waebbl overlay]. El rastreador de problemas en el Github de la superposición waebbl puede ayudar a guiar a través de algunos problemas que puede encontrar. El overlay proporciona <tt>freecad-9999</tt>, que puedes elegir para compilar, o simplemente usar para obtener las dependencias.
+Si FreeCAD no está disponible en Portage, lo estará en [https://github.com/waebbl/waebbl-gentoo waebbl overlay]. El sistema de seguimiento de incidencias en el repositorio de GitHub de waebbl overlay puede ayudarle a resolver algunos problemas que pueda encontrar. Overlay proporciona <tt>freecad-9999</tt>, que puede compilar o simplemente usar para obtener las dependencias.
 
 <tt>layman -a waebbl</tt>
 
