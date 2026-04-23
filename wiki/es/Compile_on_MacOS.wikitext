@@ -155,7 +155,8 @@ Nota: Línea de comandos para generar CMAKE_PREFIX_PATH:
 <!--NOT CHANGE THE <pre> </pre> BALISE CAUSE THE PIPE OR SPACE IN MACRO CODE CUT THE MACRO-->
  ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/lib/cmake
 
-=== CMake GUI ===
+<span id="CMake_GUI"></span>
+=== Interfaz gráfica de usuario de CMake ===
 
 Open the CMake app, and fill in the source and build folder fields. In this example, it would be '''/Users/username/FreeCAD/FreeCAD-git''' for the source, and '''/Users/username/FreeCAD/build''' for the build folder. 
 
