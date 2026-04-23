@@ -56,9 +56,7 @@ Możesz tworzyć tyle różnych objętości transfinite, ile potrzeba.
 <span id="Notes"></span>
 ==Uwagi==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Using this tool with the ''Auto apply transfinite surfaces and curves'' and ''Recombine'' checkboxes enabled is the easiest way to generate structured hexahedral meshes using the transfinite Gmsh algorithm. All subvolumes must have 5 or 6 faces with 3 or 4 edges each, though.
-</div>
+* Użycie tego narzędzia z włączonymi polami ''Automatycznie zastosuj powierzchnie i krzywe transfinite'' oraz ''Rekombinacja'' to najprostszy sposób wygenerowania strukturalnych siatek elementów sześciościennych przy pomocy algorytmu transfinite generatora siatki Gmsh. Wszystkie objętości podrzędne muszą mieć jednak 5 lub 6 ścian z 3 lub 4 krawędziami każda.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_transfinite_volume.png|600px]]
