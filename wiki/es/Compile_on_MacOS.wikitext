@@ -241,7 +241,7 @@ Cuando se utilizan versiones de CMake anteriores a la 3.1.0, es necesario config
 <span id="Additional_Build_Instructions"></span>
 === Instrucciones de montaje adicionales ===
 
-FreeCAD can be built against the latest git master hosted on github, and launched from a CLI using libraries provided by the homebrew-freecad tap. For a complete list of build instructions see [https://github.com/ipatch/homebrew-us-05/tree/dev/freecad#building-freecad-for-macos-by-macos here].
+FreeCAD se puede compilar con la última versión maestra de Git alojada en GitHub y ejecutarse desde la línea de comandos utilizando las bibliotecas proporcionadas por el repositorio homebrew-freecad. Para obtener una lista completa de las instrucciones de compilación, consulte [https://github.com/ipatch/homebrew-us-05/tree/dev/freecad#building-freecad-for-macos-by-macos aquí].
 
 {{Docnav/es
 |[[Compile_on_Linux/es|Compile on Linux]]
