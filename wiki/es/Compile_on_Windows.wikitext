@@ -128,13 +128,9 @@ Para agregar rutas de carpetas a la variable PATH:
 Una vez que tenga todas las herramientas, bibliotecas además del código fuente de FreeCAD necesarios, estará listo para comenzar el proceso de configuración y compilación. Este proceso consta de cinco pasos:
 
 # Ejecute CMake una vez para examinar su sistema e iniciar la configuración (esto indicará que falló).
-
 # Ajuste la configuración necesaria de CMake para establecer las ubicaciones de LibPack y habilitar Qt5.
-
 # Vuelva a ejecutar CMake para finalizar la configuración (esta vez debería completarse correctamente).
-
 # Use CMake para generar el sistema de compilación de Visual Studio.
-
 # Use Visual Studio para compilar FreeCAD.
 
 <span id="CMake"></span>
