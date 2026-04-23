@@ -90,7 +90,7 @@ Se necesita instalar las bibliotecas Boost:
 *{{incode|libboost-serialization-dev}}
 *{{incode|libboost-thread-dev}}
 
-Las bibliotecas Coin deben instalarse: *{{incode|libcoin-dev}}, para Debian Buster, Ubuntu 19.04 y versiones posteriores, así como para Ubuntu 18.04/18.10 con los repositorios PPA [[Installing_on_Linux#Development_PPA_(Daily)|freecad-stable/freecad-daily]] añadidos a sus fuentes de software.
+Deben instalarse las bibliotecas Coin : *{{incode|libcoin-dev}}, para Debian Buster, Ubuntu 19.04 y versiones posteriores, así como para Ubuntu 18.04/18.10 con los repositorios PPA [[Installing_on_Linux#Development_PPA_(Daily)|freecad-stable/freecad-daily]] añadidos a sus fuentes de software.
 
 Varias bibliotecas que tratan temas de matemáticas, superficies trianguladas, clasificación, mallas, visión artificial, proyecciones cartográficas, visualización 3D, bibliotecas de nubes de puntos, el sistema de ventanas X11, análisis XML y lectura de archivos Zip:
 
