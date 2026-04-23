@@ -202,7 +202,7 @@ cd ~/FreeCAD/build
 make -j5 install
 }}
 
-The -j option specifies how many make processes to run at once. One plus the number of CPU cores is usually a good number to use. However, if compiling fails for some reason, it is useful to rerun make without the -j option, so that you can see exactly where the error occurred.
+La opción ''-j'' especifica cuántos procesos make se ejecutarán simultáneamente. Generalmente, un proceso más el número de núcleos de la CPU es un buen valor. Sin embargo, si la compilación falla por algún motivo, es útil volver a ejecutar make sin la opción ''-j'' para poder identificar con precisión dónde se produjo el error.
 
 See also [[Compiling_(Speeding_up)|Compiling - Speeding up]].
 
