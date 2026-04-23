@@ -347,9 +347,7 @@ En lugar de llamar a '''compile-FC''' con la opción ''install'', también puede
 
 ''release'' - compila FreeCAD en configuración de lanzamiento
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''install'' &nbsp;&nbsp; - compile FreeCAD in release configuration and create an install setup
-</div>
+''install'' &nbsp;&nbsp; - compila FreeCAD en configuración de lanzamiento y crea un archivo de instalación
 
 </div>
 </div>
