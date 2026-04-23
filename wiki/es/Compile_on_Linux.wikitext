@@ -265,7 +265,7 @@ cmake ../ -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DUSE_PYBIND11=ON
 make -j2
 }}
 
-La opción {{incode|-j}} de {{incode|make}} no debe ser más de 3 porque la Raspberry Pi tiene memoria limitada. Tardará varias horas en compilar, por lo que es mejor hacerlo durante la noche.
+La opción {{incode|-j}} para {{incode|make}} no debería ser superior a 3, ya que la Raspberry Pi tiene memoria limitada. La compilación tardará varias horas, por lo que es mejor realizarla durante la noche.
 
 <div class="mw-translate-fuzzy">
 Más información, [https://forum.freecad.org/viewtopic.php?f=42&t=37458&start=160#p396652 FreeCAD y Raspberry Pi 4].
