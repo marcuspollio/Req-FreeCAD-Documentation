@@ -427,7 +427,7 @@ A partir de noviembre de 2015 la versión obsoleta de Pivy incluida con el códi
 <span id="Debug_symbols"></span>
 === Símbolos de depuración ===
 
-Para solucionar los fallos en FreeCAD, es útil tener los símbolos de depuración de las bibliotecas de dependencia importantes como Qt. Para ello, intenta instalar los paquetes de dependencia que terminan con {{incode|-dbg}}, {{incode|-dbgsym}}, {{incode|-debuginfo}} o similares, dependiendo de tu distribución de Linux.
+Para solucionar problemas de bloqueos en FreeCAD, es útil tener los símbolos de depuración de bibliotecas de dependencia importantes como Qt. Para ello, intente instalar los paquetes de dependencia que terminen en {{incode|-dbg}}, {{incode|-dbgsym}}, {{incode|-debuginfo}} o similares, según su distribución de Linux.
 
 Para Ubuntu, es posible que tenga que habilitar repositorios especiales para poder ver e instalar estos paquetes de depuración con el gestor de paquetes. Consulte [https://wiki.ubuntu.com/Debug_Symbol_Packages Debug Symbol Packages] para obtener más información.
 
