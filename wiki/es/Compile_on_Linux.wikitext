@@ -228,7 +228,7 @@ NOTA: En algunas versiones de Ubuntu y Qt, aparecerá un error que indica que no
 sudo apt install cmake debhelper dh-exec dh-python libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin80-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside-dev libqt4-dev libqt4-opengl-dev libqtwebkit-dev libshiboken-dev libspnav-dev libvtk6-dev libx11-dev libxerces-c-dev libzipios++-dev lsb-release occt-draw pyside-tools python-dev python-matplotlib python-pivy python-ply swig
 }}
 
-Los usuarios de Ubuntu 16.04 por favor vean también la discusión de compilación en el foro: [http://forum.freecad.org/viewtopic.php?f=4&t=16292 Compilación en Linux (Kubuntu): CMake no puede encontrar VTK].
+Los usuarios de Ubuntu 16.04, por favor, consulten también la discusión sobre la compilación en el foro: [https://forum.freecad.org/viewtopic.php?f=4&t=16292 Compile on Linux (Kubuntu): CMake can't find VTK].
 
 </div>
 </div>
