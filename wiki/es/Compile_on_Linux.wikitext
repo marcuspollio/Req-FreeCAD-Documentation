@@ -283,9 +283,7 @@ La forma más sencilla de obtener las dependencias en Fedora es usar este comand
 sudo dnf builddep package/fedora/freecad.spec
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To create an installable rpm package use one of the following commands:
-</div>
+Para crear un paquete rpm instalable, utilice uno de los siguientes comandos:
 
 {{Code|lang=bash|code=
 sudo dnf install packit
