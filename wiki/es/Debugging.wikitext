@@ -126,9 +126,7 @@ LLDB mostrará información de inicialización. (lldb) muestra que el depurador 
 (lldb) run
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-FreeCAD will now start up. Perform the steps that cause FreeCAD to crash or freeze, then enter in the terminal window:
-</div>
+FreeCAD se iniciará ahora. Realice los pasos que provocan que FreeCAD se bloquee o se congele, y luego ingrese en la ventana del terminal:
 
 {{Code|code=
 (lldb) bt
