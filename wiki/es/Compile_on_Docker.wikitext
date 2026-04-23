@@ -91,9 +91,7 @@ Para quienes usan macOS, es posible que el sistema de ventanas X no esté instal
 <span id="Launch_the_docker_image"></span>
 === Iniciar la imagen de Docker ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Assign environment variables so the Docker container will mount FreeCAD's source code, and build directory. In addition, you can mount an extra directory to contain any files you'd like to use for testing purposes. In the below snippet, we've left it as your home directory as a simple default.
-</div>
+Asigne variables de entorno para que el contenedor Docker monte el código fuente y el directorio de compilación de FreeCAD. Además, puede montar un directorio adicional para almacenar los archivos que quiera usar para realizar pruebas. En el siguiente fragmento de código, hemos dejado su directorio personal como valor predeterminado.
 
 {{Code|lang=bash|code=
 fc_source=~/my_code/freecad_source
