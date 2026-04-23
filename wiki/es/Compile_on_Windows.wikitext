@@ -499,9 +499,7 @@ Como resultado, ahora debería tener un archivo '''FCStdThumbnail.dll''' en la c
 
 El LibPack (paquete de bibliotecas) incluye una versión de Open Cascade (https://en.wikipedia.org/wiki/Open_Cascade) adecuada para uso general. Sin embargo, en ciertas circunstancias, es posible que desee compilar con una versión alternativa de Open Cascade, como una de sus versiones oficiales o una bifurcación modificada.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-When compiling Open Cascade for FreeCAD note that there is no guarantee that FreeCAD will work with all versions of Open Cascade. Note also that when you are using the Netgen library, you must use the a NetGen version that it approved to compile with the Open Cascade version you like to compile.
-</div>
+Al compilar Open Cascade para FreeCAD, tenga en cuenta que no hay garantía de que FreeCAD funcione con todas las versiones de Open Cascade. Asimismo, al usar la biblioteca NetGen, debe utilizar una versión de NetGen aprobada para compilarse con la versión de Open Cascade que desea compilar.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To compile:
