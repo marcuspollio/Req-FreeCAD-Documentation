@@ -538,7 +538,7 @@ Alternativamente, utilice el comando {{incode|cmake -LH}} para listar la configu
 <span id="For_a_Debug_build"></span>
 ==== Para una creación de depuración ==== 
 
-Crea una compilación {{incode|Debug}} para solucionar fallos en FreeCAD. Ten en cuenta que con esta compilación el [[Sketcher_Workbench/es|Croquizador]] se vuelve muy lento con croquis complejos.
+Crea una compilación {{incode|Debug}} para solucionar fallos en FreeCAD. Tenga en cuenta que con esta compilación el [[Sketcher_Workbench/es|Entorno de Trabajo Croquizador]] se vuelve muy lento con croquis complejos.
 
 {{Code|lang=bash|code=
 cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Debug ../
