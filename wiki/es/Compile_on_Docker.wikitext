@@ -113,9 +113,7 @@ registry.gitlab.com/daviddaish/freecad_docker_env:latest
 <span id="Build_FreeCAD"></span>
 === Crear FreeCAD ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You can build FreeCAD using the installed build script, or using your preferred method.
-</div>
+Puede compilar FreeCAD utilizando el script de compilación instalado o mediante tu método preferido.
 
 {{Code|lang=bash|code=
 /root/build_script.sh
