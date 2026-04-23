@@ -77,7 +77,7 @@ La compilación de FreeCAD utiliza el lenguaje Python, que también se usa en ti
 *{{incode|python3}}
 *{{incode|swig}}, la herramienta que crea interfaces entre código C++ y Python.
 
-Es necesario instalar las bibliotecas Boost:
+Se necesita instalar las bibliotecas Boost:
 
 *{{incode|libboost-dev}}
 *{{incode|libboost-date-time-dev}}
