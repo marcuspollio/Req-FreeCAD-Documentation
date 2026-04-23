@@ -230,9 +230,7 @@ pip install ptvsd
 xcopy "C:\Users\<userid>\AppData\Local\Programs\Python\Python37\Lib\site-packages\ptvsd" "C:\freecad\bin\Lib\site-packages\ptvsd"
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 [https://pypi.org/project/ptvsd/ pypi page]
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [https://code.visualstudio.com/docs/python/debugging#_remote-debugging Visual Studio Code documentation for remote debugging]
