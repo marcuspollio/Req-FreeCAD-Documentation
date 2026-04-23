@@ -716,9 +716,7 @@ lintian freecad-package.deb
 
 El script de Debian {{incode|checkinstall}} permite crear un paquete *.deb que se puede instalar y desinstalar con los comandos estándar {{incode|dpkg}}. Es posible que deba instalarse previamente (en Ubuntu, use {{incode|sudo apt install checkinstall}}). Es interactivo y solicita la información necesaria, proporcionando valores predeterminados útiles. Durante el proceso, se instala el paquete y se crean un archivo *.deb y un archivo de copia de seguridad.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-It's a good idea to define a name and a short description for the package. The name must be entered to uninstall it again and the desription will be listed by {{incode|dpkg -l}}. The default name "build" is not very informative.
-</div>
+Es recomendable definir un nombre y una breve descripción para el paquete. El nombre debe introducirse para desinstalarlo, y la descripción aparecerá en la lista con el comando {{incode|dpkg -l}}. El nombre predeterminado ''build'' no es muy descriptivo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Example:
