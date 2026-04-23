@@ -624,15 +624,13 @@ Sin embargo, podría compilar Netgen de todos modos. Es una tarea sencilla:
 nombre: ''CMAKE_DEBUG_POSTFIX'', tipo: ''string'', contenido: '''_d'''</br>
 Esto garantiza que los nombres de archivo de las bibliotecas de depuración sean diferentes a los de las bibliotecas de lanzamiento y que posteriormente no se intercambien accidentalmente.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Press the ''Configure'' button in CMake to generate the *.cmake files.
-* Only necessary if older CPU should be supported that don't have the AVX2 instruction set:
-** Search your Netgen build folder for the file ''netgen-targets.cmake'' and open it with a text editor. Remove the setting '';/arch:AVX2'' in the Option INTERFACE_COMPILE_OPTIONS.
-** Press the ''Configure'' button in CMake again.
-* Press the ''Generate'' button in CMake.
-* Open the project in Visual Studio and first build the ALL_BUILD and then INSTALL targets in the '''Release''' mode.
-* Repeat building the two targets in the '''Debug''' mode.
-</div>
+* Pulse el botón '''Configure''' en CMake para generar los archivos *.cmake.
+* Solo es necesario si se desea admitir procesadores antiguos que no tengan el conjunto de instrucciones AVX2:
+** Busque el archivo «netgen-targets.cmake» en la carpeta de compilación de Netgen y ábralo con un editor de texto. Elimine la configuración '';/arch:AVX2'' en la opción INTERFACE_COMPILE_OPTIONS.
+** Pulse de nuevo el botón '''Configure''' en CMake.
+* Pulse el botón '''Generate''' en CMake.
+* Abra el proyecto en Visual Studio y compile primero los destinos ALL_BUILD y luego INSTALL en modo '''Release'''.
+* Repita la compilación de ambos destinos en modo '''Debug'''.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To build FreeCAD using the self-compiled Netgen, you must do the following:
