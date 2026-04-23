@@ -160,13 +160,9 @@ Si aparece el mensaje de error '''No se pudo encontrar Visual Studio''', signifi
  Para instalarlo:
 
 # Abra el IDE de MSVC
-
 # Vaya al menú '''Herramientas → Obtener herramientas y características'''
-
 # En la pestaña '''Cargas de trabajo''', active '''Desarrollo de escritorio con C++'''
-
 # En el lado derecho, debería ver que se instalará el componente ''Herramientas de Visual C++ para CMake'''.
-
 # Instálelo.
 
 Si no hay errores relacionados con Visual Studio o Python, todo está bien, pero CMake aún no conoce todas las configuraciones necesarias. Por lo tanto:
