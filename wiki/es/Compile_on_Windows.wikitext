@@ -578,44 +578,47 @@ El paquete de bibliotecas incluye una versión de Netgen (https://ngsolve.org) q
 
 Sin embargo, podría compilar Netgen de todos modos. Es una tarea sencilla:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* First obtain the Netgen source code from [https://github.com/NGSolve/netgen Netgen 's git repository].
-* Then open the CMake GUI to configure the build system in a similar manner to building FreeCAD. These CMake options have to be set:
+* Primero, consiga el código fuente de Netgen del repositorio Git de Netgen en [https://github.com/NGSolve/netgen].
+* Luego, abra la interfaz gráfica de CMake para configurar el sistema de compilación de forma similar a como se compila FreeCAD. Debe configurar las siguientes opciones de CMake:
 {| class="wikitable" style="text-align:left"
 |-
-! Variable name       !! Description  !! Default
+! Nombre de la variable !! Descripción !! Valor predeterminado
 |-
-| CMAKE_INSTALL_PREFIX|| The output folder when building the target ''INSTALL''. If the build was successful, take the files from this folder to update your LibPack.
+| CMAKE_INSTALL_PREFIX|| La carpeta de salida al compilar el objetivo ''INSTALL''. Si la compilación fue exitosa, copie los archivos de esta carpeta para actualizar su LibPack.
+
 || C:/netgen
 |-
-| OpenCasCade_DIR|| The path to the CMake files of Open Cascade. If you built Open Cascade as described in the section [[#Compiling_Open_Cascade|Compiling Open Cascade]] you can use the subfolder ''cmake'' of there folder you used as INSTALL_DIR. If not, use the subfolder ''cmake'' of your LibPack. Note hereby that the LibPack must then already contain a proper Open Cascade build. Independent what folder you use, you must now also create there a subfolder ''lib'' and copy in the files ''freetype.lib'' and ''freetyped.lib'' from your LibPack.
-|| empty
+| OpenCasCade_DIR|| La ruta a los archivos CMake de Open Cascade. Si compiló Open Cascade como se describe en la sección [[#Compiling_Open_Cascade|Compilando Open Cascade]], puede usar la subcarpeta ''cmake'' de la carpeta que usó como INSTALL_DIR. De lo contrario, utilice la subcarpeta ''cmake'' de su LibPack. Tenga en cuenta que el LibPack debe contener una compilación Open Cascade adecuada. Independientemente de la carpeta que utilice, también debe crear allí una subcarpeta ''lib'' y copiar los archivos ''freetype.lib'' y ''freetyped.lib'' de su LibPack.
+
+|| Vacío
 |-
-| USE_GUI|| set it to '''OFF'''
+| USE_GUI|| establecer en '''OFF'''
 || ON
 |-
-| USE_NATIVE_ARCH|| set it to '''OFF'''; this is only necessary important to support older CPU that don't have the [https://en.wikipedia.org/wiki/Advanced_Vector_Extensions AVX2] instruction set
+| USE_NATIVE_ARCH|| establecer en '''OFF'''; esto solo es necesario para admitir CPUs antiguas que no tienen el conjunto de instrucciones AVX2 [https://en.wikipedia.org/wiki/Advanced_Vector_Extensions].
 || ON
 |-
-| USE_OCC|| set it to '''ON'''
+| USE_OCC|| establecer en '''ON'''
 || OFF
 |-
-| USE_PYTHON|| set it to '''OFF'''
+| USE_PYTHON|| establecer en '''OFF'''
 || ON
 |-
-| USE_SUPERBUILD|| set it to '''OFF'''
-|| ON
+| USE_SUPERBUILD|| Establecer en '''OFF'''
+|| ENCENDIDO
 |-
-| ZLIB_INCLUDE_DIR|| The path to the necessary 3rdparty component [https://en.wikipedia.org/wiki/Zlib zlib]. It is recommended to use the folder as input where your used LibPack is.
-|| empty
+| ZLIB_INCLUDE_DIR|| Ruta al componente de terceros necesario [https://en.wikipedia.org/wiki/Zlib zlib]. Se recomienda usar como entrada la carpeta donde se encuentra el LibPack que esté utilizando.
+
+|| Vacío
 |-
-| ZLIB_LIBRARY_DEBUG|| The path to the ZLib file ''zlibd.lib''. It is located in the subfolder ''lib'' of your LibPack folder.
-|| empty
+| ZLIB_LIBRARY_DEBUG|| Ruta al archivo ZLib ''zlibd.lib''. Se encuentra en la subcarpeta ''lib'' de la carpeta de su LibPack.
+
+|| Vacío
 |-
-| ZLIB_LIBRARY_RELEASE|| The path to the ZLib file ''zlib.lib''. It is located in the subfolder ''lib'' of your LibPack folder.
-|| empty
+| ZLIB_LIBRARY_RELEASE|| Ruta al archivo ZLib ''zlib.lib''. Se encuentra en la subcarpeta ''lib'' de la carpeta de su LibPack.
+
+|| Vacío
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Additionally you need to add a new CMake entry:
