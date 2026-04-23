@@ -65,9 +65,7 @@ El logotipo de FreeCAD es una marca registrada [https://fpa.freecad.org/document
 
 Sé que el debate sobre la licencia "correcta" para el software libre ocupó una parte importante del ancho de banda de Internet, y esta es la razón por la que, en mi opinión, FreeCAD debería tener esta licencia.
 
-<div class="mw-translate-fuzzy">
-Elegí el [http://en.wikipedia.org/wiki/LGPL LGPL] y [http://en.wikipedia.org/wiki/GPL GPL] para el proyecto y conozco los pros y los contras sobre LGPL, de modo que te explicaré algunos motivos para haber tomado esta elección.
-</div>
+Elegí la [http://en.wikipedia.org/wiki/LGPL LGPL] para el proyecto y conozco las ventajas y desventajas de la LGPL y les daré algunas razones para esa decisión.
 
 FreeCAD es un híbrido entre una biblioteca y una aplicación, de modo que la licencia GPL sería demasiado fuerte para eso. No permitiría escribir módulos comerciales para FreeCAD porque impediría la vinculación con las librerías base de FreeCAD. Te puedes preguntar ¿por qué no prescindir totalmente de los módulos comerciales? En este ámbito Linux es un buen ejemplo. ¿Tendría Linux tanto éxito si la biblioteca GNU de C fuese GPL y, por tanto, incapacitada para ligarse con las aplicaciones no-GPL? Y aunque me encanta la libertad de Linux, yo también quiero ser capaz de usar el magnífico controlador gráfico NVIDIA 3D. Entiendo y acepto que NVIDIA tenga razones para no querer regalar el código de su controlador. Todos trabajamos para empresas y necesitamos el sueldo, o por lo menos comer. Por todo lo anterior, para mí, una coexistencia de software de código abierto y de código cerrado no es algo malo, cuando obedece a las reglas de la LGPL. Me gustaría ver a alguien escribiendo un módulo de importación/exportación de formato Catia para FreeCAD, y que se distribuyese, ya fuera gratis o por dinero. No me gusta obligar a nadie a que ceda más de lo que quiere. Eso no sería bueno ni para él, ni para FreeCAD.
 
