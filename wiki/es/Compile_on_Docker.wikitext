@@ -81,9 +81,7 @@ Para que FreeCAD inicie su interfaz gráfica desde el contenedor Docker, debe ot
 xhost +
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If you're connected to any untrusted systems, such as via {{incode|ssh}}, this will make you vulnerable to malicious code. Either close any {{incode|ssh}} connections, or look into more secure xhost permissions, which is outside the scope of this tutorial.
-</div>
+Si se conecta a algún sistema no confiable, como por ejemplo mediante SSH, será vulnerable a código malicioso. Cierra todas las conexiones SSH o considera configurar permisos de host X más seguros, lo cual queda fuera del alcance de este tutorial.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ====MacOS users====
