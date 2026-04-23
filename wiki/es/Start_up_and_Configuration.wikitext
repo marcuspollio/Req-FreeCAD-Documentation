@@ -263,29 +263,29 @@ Nota: Para las distribuciones de Linux, puede existir un archivo de configuraci�
 <span id="Command_line_arguments"></span>
 === Argumentos de la línea de comandos ===
 
-<div class="mw-translate-fuzzy">
 {| border="2" cellpadding="4" cellspacing="0" style="margin-top:1em; margin-bottom:1em; background:#f9f9f9; border:1px #aaa solid; border-collapse:collapse;"
-|+ Entradas de configuración de usuario
+
 |-
-! Nombre variable configuración      !! Sinopsis                         !! Ejemplo                
-|-               
-| LoggingFile          || 1 si el logging está activado || 1      
-|-               
-| LoggingFileName      || Nombre de archivo en el que está ubicado el registro ||  C:\Documents and Settings\username\Application Data\FreeCAD\FreeCAD.log      
-|-               
-| RunMode              || Esto indica como funcionará el bucle principal. '''"Script"''' significa que el archivo de guión dado se llamará y luego se saldrá. '''"Cmd"''' ejecuta el interprete de la línea de comandos. '''"Internal"''' ejecuta un archivo de guión interno. '''"Gui"''' introduce el bucle de eventos de la interfaz de usuario gráfica GUI. '''"Module"''' carga un módulo de Python dado. || "Cmd"
-|-               
-| FileName             || Su significado depende del modo de ejecución ||       
-|-               
-| ScriptFileName       || Su significado depende del modo de ejecución ||       
-|-               
-| Verbose              || Nivel de verborrea de FreeCAD      || "" o "strict" 
-|-               
-| OpenFileCount        ||Mantiene el número de archivos abiertos a través de argumentos de la línea de comandos   || "12" 
-|-            
-| AdditionalModulePaths||Mantiene las rutas de módulos adicionales dados en la línea de comandos   || "extraModules/" 
+! Nombre de la variable de configuración !! Sinopsis !! Ejemplo
+|-
+| LoggingFile || 1 si el registro está activado || 1
+|-
+| LoggingFileName || Nombre del archivo donde se guarda el registro || {{FileName|C:\Users\username\AppData\Roaming\FreeCAD\FreeCAD.log}}
+|-
+| RunMode || Indica cómo funcionará el bucle principal. '''"Script"''' significa que se ejecuta el script especificado y luego se finaliza. '''"Cmd"''' ejecuta el intérprete de línea de comandos. '''"Internal"''' ejecuta un script interno. '''"Gui"''' entra en el bucle de eventos de la interfaz gráfica de usuario (GUI). '''"Módulo"''' carga un módulo de Python especificado. || "Cmd"
+|-
+| NombreArchivo || Su significado depende del modo de ejecución ||
+
+|-
+| NombreArchivoScript || Su significado depende del modo de ejecución ||
+
+|-
+| Detallado || Nivel de detalle de FreeCAD || "" o "estricto"
+|-
+| NúmeroArchivosAbiertos || Indica el número de archivos abiertos mediante argumentos de línea de comandos || "12"
+|-
+| RutasMóduloAdicionales || Indica las rutas de los módulos adicionales especificadas en la línea de comandos || "extraModules/"
 |}
-</div>
 
 <span id="System_related"></span>
 === Relativos al sistema ===
