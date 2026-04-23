@@ -63,9 +63,8 @@ Crea un directorio para almacenar el código fuente compilado de FreeCAD.
 mkdir ~/my_code/freecad_build
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Pull Docker image===
-</div>
+<span id="Pull_Docker_image"></span>
+=== Descargar imagen de Docker ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Pull the Docker image. (Official image coming soon.)
