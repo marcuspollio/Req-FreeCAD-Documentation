@@ -380,9 +380,7 @@ FreeCAD --get-config ExeVersion
 
 Utilice la opción {{incode|--dump-config}} para obtener una lista de nombres y sus valores. No todos los nombres son compatibles.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''From FreeCAD console'''
-</div>
+'''Desde la consola de FreeCAD'''
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Start FreeCAD in console mode with {{incode|--console}} and query with Python code. For example:
