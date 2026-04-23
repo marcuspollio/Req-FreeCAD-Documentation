@@ -15,7 +15,7 @@ Antes de pasar por el engorroso proceso de depuración, utilice el marco de prue
 <span id="Command_Line"></span>
 == Línea de comandos ==
 
-La ''depuración'' de FreeCAD está respaldada por algunos mecanismos internos.  La versión de línea de comandos de FreeCAD proporciona algunas opciones para soporte de depuración.
+La ''depuración'' de FreeCAD se realiza mediante algunos mecanismos internos. La versión de línea de comandos de FreeCAD ofrece varias opciones para facilitar la depuración.
 
 Estas son las opciones reconocidas actualmente en FreeCAD 0.19:
 
