@@ -143,13 +143,9 @@ Una vez que tenga todas las herramientas, bibliotecas además del código fuente
 Primero, configure el entorno de compilación con CMake:
 
 # Abra la interfaz gráfica de CMake.
-
 # Especifique la carpeta de origen de FreeCAD.
-
 # Especifique una carpeta de compilación. Puede ser '''build''' en la carpeta donde clonó el repositorio, ya que Git ignora esta ruta. No utilice la carpeta de origen. CMake la creará si no existe.
-
 # Haga clic en '''Configurar'''.
-
 # En el cuadro de diálogo que aparece, especifique el generador que desea usar: en la mayoría de los casos, se usarán las opciones predeterminadas. Para el compilador estándar de Microsoft Visual Studio, use '''Visual Studio xx 2yyy''', donde xx es la versión del compilador y 2yyy el año de su lanzamiento. Se recomienda usar la opción predeterminada '''Usar compiladores nativos predeterminados'''.
 
 '''Nota:''' Es importante especificar la versión de bits correcta. Si tiene la variante de 64 bits de LibPack, también debe usar el compilador x64.
