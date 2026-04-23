@@ -216,7 +216,7 @@ El desarrollo de FreeCAD avanza rápidamente; casi a diario se corrigen errores 
 <span id="Building_with_Qt4_and_Python_2.7"></span>
 == Compilación con Qt4 y Python 2.7 ==
 
-FreeCAD has transitioned from Qt 4 to Qt 5 as well as homebrew. Qt 4 is no longer available as an option for new build on macOS following Qt 5 transition. Python 2.7 has been deprecated within homebrew and upcoming macOS and we do not support it anymore for macOS build either.
+FreeCAD y Homebrew han migrado de Qt 4 a Qt 5. Tras la transición a Qt 5, Qt 4 ya no está disponible como opción para nuevas compilaciones en macOS. Python 2.7 ha quedado obsoleto en Homebrew y en las próximas versiones de macOS, y tampoco lo admitimos para compilaciones en macOS.
 
 == Troubleshooting ==
 
