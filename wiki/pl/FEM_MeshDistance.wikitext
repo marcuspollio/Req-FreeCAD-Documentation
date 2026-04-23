@@ -12,8 +12,8 @@
 {{GuiCommandContainer|
 {{GuiCommand/pl
 |Name=FEM MeshDistance
-|Name/pl=MES: Zagęszczenie siatki oparte o odległość
-|MenuLocation=Siatka → Zagęszczenia GMSH → Zagęszczenie siatki oparte o odległość
+|Name/pl=MES: Zagęszczenie oparte na odległości
+|MenuLocation=Siatka → Zagęszczenia GMSH → Zagęszczenie oparte na odległości
 |Workbenches=[[FEM_Workbench/pl|MES]]
 |Version=1.2
 |SeeAlso=[[FEM_tutorial/pl|Poradnik MES]]
