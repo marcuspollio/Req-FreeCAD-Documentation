@@ -156,9 +156,7 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 :* [[Image:FEM_MeshManipulate.svg|32px]] [[FEM_MeshManipulate/de|Verfeinerung bearbeiten]]: Ermöglicht es, die Ausgabe einer Verfeinerung auf verschiedene Weise zu bearbeiten. {{Version/de|1.2}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:FEM_MeshAdvanced.svg|32px]] [[FEM_MeshAdvanced|Advanced Refinement Types]]: Allows to define the mesh size by various advanced means. {{Version|1.2}}
-</div>
+:* [[Image:FEM_MeshAdvanced.svg|32px]] [[FEM_MeshAdvanced/de|Erweiterte Verfeinerungstypen]]: Ermöglicht die Festlegung der Gittergröße durch verschiedene erweiterte Methoden. {{Version/de|1.2}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:FEM_MeshTransfiniteCurve.svg|32px]] [[FEM_MeshTransfiniteCurve|Structured Transfinite Curve]]: Creates a fixed amount of nodes on an edge with a structured algorithm. {{Version|1.2}}
