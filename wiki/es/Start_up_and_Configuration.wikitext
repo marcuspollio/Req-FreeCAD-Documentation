@@ -153,16 +153,16 @@ Para obtener más información sobre el modo de consola o sin interfaz gráfica,
 === Ejecución de módulos, macros y scripts ===
 
 {| border="2" cellpadding="4" cellspacing="0" style="margin-top:1em; margin-bottom:1em; background:#f9f9f9; border:1px #aaa solid; border-collapse:collapse;"
-!  File type    !! System !! Command line example
+!  Tipo de archivo    !! Sistema !! Ejemplo de línea de comandos
 |-
-| Module ||Windows || {{incode|"C:\Program Files\FreeCAD\bin\FreeCAD.exe" -M "C:\FreeCAD\Mod\Draft"}}
+| Módulo ||Windows || {{incode|"C:\Program Files\FreeCAD\bin\FreeCAD.exe" -M "C:\FreeCAD\Mod\Draft"}}
 |-               
 |            ||Linux   || {{incode|FreeCAD_0.19 -M ~/.FreeCAD/Mod/Draft}}
 |-
 |            ||Linux (AppImage) || {{incode|path/to/FreeCADXXX.AppImage -M ~/.FreeCAD/Mod/Draft}}
 |-
 |-
-| .FCMacro or .py  ||Windows          || {{incode|"C:\Program Files\FreeCAD\bin\FreeCAD.exe" "C:\Users\userName\AppData\Roaming\FreeCAD\Mod\WorkFeature\start_WF.FCMacro"}}
+| .FCMacro o .py  ||Windows          || {{incode|"C:\Program Files\FreeCAD\bin\FreeCAD.exe" "C:\Users\userName\AppData\Roaming\FreeCAD\Mod\WorkFeature\start_WF.FCMacro"}}
 |-
 |                  ||Linux            || {{incode|FreeCAD_0.19 ~/.FreeCAD/Mod/WorkFeature/start_WF.FCMacro}}
 |-
