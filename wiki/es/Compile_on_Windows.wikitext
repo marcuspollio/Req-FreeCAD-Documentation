@@ -156,14 +156,18 @@ Primero, configure el entorno de compilación con CMake:
 
 Esto iniciará la configuración y fallará debido a la falta de ajustes. Esto es normal, ya que aún no ha especificado la ubicación de LibPack. Sin embargo, pueden ocurrir otros fallos que requieren alguna acción adicional por su parte.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If it fails with the message that Visual Studio could not be found, the CMake support in MSVC is not yet installed. To do this:
-# Open the MSVC IDE
-# Use the menu Tools → Get Tools and Features
-# In the ''Workloads'' tab enable ''Desktop development with C++''
-# On the right side you should now see that the component ''Visual C++ tools for CMake'' will be installed.
-# Install it.
-</div>
+Si aparece el mensaje de error '''No se pudo encontrar Visual Studio''', significa que aún no está instalado el soporte para CMake en MSVC.
+ Para instalarlo:
+
+# Abra el IDE de MSVC
+
+# Vaya al menú '''Herramientas → Obtener herramientas y características'''
+
+# En la pestaña '''Cargas de trabajo''', active '''Desarrollo de escritorio con C++'''
+
+# En el lado derecho, debería ver que se instalará el componente ''Herramientas de Visual C++ para CMake'''.
+
+# Instálelo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If there is no error about Visual Studio or Python, everything is fine, but CMake does not yet know all necessary settings. Therefore now:
