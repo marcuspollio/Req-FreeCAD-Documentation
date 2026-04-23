@@ -152,7 +152,6 @@ Para obtener más información sobre el modo de consola o sin interfaz gráfica,
 <span id="Running_modules,_macros_and_scripts"></span>
 === Ejecución de módulos, macros y scripts ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| border="2" cellpadding="4" cellspacing="0" style="margin-top:1em; margin-bottom:1em; background:#f9f9f9; border:1px #aaa solid; border-collapse:collapse;"
 !  File type    !! System !! Command line example
 |-
@@ -169,7 +168,6 @@ Para obtener más información sobre el modo de consola o sin interfaz gráfica,
 |-
 |                  ||Linux (AppImage) || {{incode|path/to/FreeCADXXX.AppImage ~/.FreeCAD/Mod/WorkFeature/start_WF.FCMacro}}
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 See [[Macro_at_Startup|Macro at Startup]] on how to set up a macro to automatically run at FreeCAD startup.
