@@ -459,9 +459,8 @@ Finalmente, reinicie Qt Designer y revise su menú {{MenuCommand|Help → Plugin
 
 Si prefiere usar [https://en.wikipedia.org/wiki/Qt_Creator Qt Creator] en lugar de Qt Designer, el archivo del complemento debe colocarse en esta carpeta:</br>'''C:\Qt\Qt5.15.2\Tools\QtCreator\bin\plugins\designer'''</br>Luego (re)inicie Qt Creator, cambie al modo '''Diseño''' y luego verifique el menú {{MenuCommand|Herramientas → Editor de formularios → Acerca de los complementos de Qt Designer}}. Si el complemento '''FreeCAD_widgets.dll''' aparece como cargado, ahora puede diseñar y cambiar los archivos .ui de FreeCAD. De lo contrario, debe [[#Compilación|compilar]] la DLL usted mismo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Thumbnail Provider===
-</div>
+<span id="Thumbnail_Provider"></span>
+=== Proveedor de miniaturas ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 FreeCAD has the feature to provide preview thumbnails for *.FCStd files. That means that in the Windows file explorer *.FCStd files are shown with a screenshot of the model it contains. To provide this feature, FreeCAD needs to have the file '''FCStdThumbnail.dll''' installed to Windows.
