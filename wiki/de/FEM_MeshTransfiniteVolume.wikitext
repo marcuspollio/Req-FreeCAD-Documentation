@@ -67,10 +67,8 @@ Es können so viele verschiedene transfinite Volumen wie nötig erstellt werden.
 * Using this tool with the ''Auto apply transfinite surfaces and curves'' and ''Recombine'' checkboxes enabled is the easiest way to generate structured hexahedral meshes using the transfinite Gmsh algorithm. All subvolumes must have 5 or 6 faces with 3 or 4 edges each, though.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_transfinite_volume.png|600px]]
-{{Caption|Structured hexahedral mesh generated using the transfinite volume tool (the lug was divided into subvolumes having the proper number of surfaces and edges)}}
-</div>
+{{Caption|Strukturiertes hexaedrisches Netz, das mit dem Transfinite-Volume-Werkzeug erzeugt wurde (der Vorsprung wurde in Teilvolumina mit der entsprechenden Anzahl an Flächen und Kanten unterteilt)}}
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
