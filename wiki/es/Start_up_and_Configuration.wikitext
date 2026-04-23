@@ -92,7 +92,7 @@ Las opciones se pueden escribir de dos formas: {{incode|--long-option arg}} y {{
 <span id="Response_and_config_files"></span>
 === Archivos de respuesta y configuración ===
 
-FreeCAD puede leer algunas de estas opciones desde un archivo de configuración. Este archivo debe estar en la ruta de la papelera y debe llamarse {{FileName|FreeCAD.cfg}}. Tenga en cuenta que las opciones especificadas en la línea de comandos anulan el archivo de configuración.
+FreeCAD puede leer algunas de estas opciones desde un archivo de configuración. Este archivo debe estar en la ruta bin y llamarse {{FileName|FreeCAD.cfg}}. ¡Tenga en cuenta que las opciones especificadas en la línea de comandos anulan el archivo de configuración!
 
 Algunos sistemas operativos tienen límites de longitud muy bajos para la línea de comandos. El modo más habitual de evitar esas limitaciones es utilizar un archivo de respuesta. Un archivo de respuesta es simplemente un archivo de configuración que utiliza la misma sintaxis que la línea de comandos. Si la línea de comandos especifica un nombre de archivo de respuesta a utilizar, es cargado y analizado sintáticamente en adición a la línea de comandos:
 
