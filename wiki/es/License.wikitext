@@ -14,9 +14,7 @@ FreeCAD utiliza dos licencias diferentes: una para la aplicación en sí y otra 
 
 '''[[wikipedia:LGPL|Licencia Pública General Reducida, versión 2 o superior (LGPL2+)]]''' Para todo el código fuente de FreeCAD que se encuentra en el [https://github.com/FreeCAD/FreeCAD repositorio Git oficial]. El + significa que también puede, si lo desea, usar FreeCAD bajo los términos de una versión posterior de la licencia, como LGPL3.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''[http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License (CC-BY-3.0)]''' For the [https://wiki.freecad.org documentation] and the  [https://www.freecad.org website].
-</div>
+'''[http://creativecommons.org/licenses/by/3.0/ Licencia Creative Commons Atribución 3.0 (CC-BY-3.0)]''' Para la documentación de [https://wiki.freecad.org] y el [sitio web de https://www.freecad.org].
 
 <div class="mw-translate-fuzzy">
 Mira el archivo [http://free-cad.git.sourceforge.net/git/gitweb.cgi?p=free-cad/free-cad;a=blob;f=package/debian/copyright;h=a97cf019d020edba596f2d0f614c9b09ce546b0f;hb=HEAD debian copyright file] de FreeCAD, para tener más detalles sobre las licencias utilizadas en FreeCAD
