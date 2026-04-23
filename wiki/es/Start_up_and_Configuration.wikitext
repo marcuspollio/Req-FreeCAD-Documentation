@@ -76,18 +76,18 @@ En la siguiente tabla se describen con más detalle algunas de las opciones sele
 {| border="2" cellpadding="4" cellspacing="0" style="margin-top:1em; margin-bottom:1em; background:#f9f9f9; border:1px #aaa solid; border-collapse:collapse;"
 
 |-
-! Opción larga !! Correspondiente a [[#Configuration_set|config var name]] !! Synopsis
+! Opción larga !! Correspondiente a [[#Configuration_set|config var name]] !! Sinopsis
 |-
-| {{incode|--user-cfg <filename>}} || Parámetro de usuario || Nombre de archivo o ruta relativa que termina con un nombre de archivo. Por defecto, {{incode|user.cfg}}.
+| {{incode|--user-cfg <nombre_del_archivo>}} || Parámetro de usuario || Nombre de archivo o ruta relativa que termina con un nombre de archivo. Por defecto, {{incode|user.cfg}}.
 
 |-
 | {{incode|--module-path <dir>}} || Antepone a AdditionalModulePaths || Directorio que contiene los módulos. Esta opción se puede especificar repetidamente para indicar varios directorios.
 
 |-
-| {{incode|--get-config <config-var-name>}} || most || Muestra el valor solicitado en un cuadro de diálogo emergente. Sale tras confirmar con {{KEY|OK}}. No se puede usar repetidamente. Si se usa un nombre de variable desconocido o no válido, la respuesta está vacía. No se respeta la opción {{incode|--console}}.
+| {{incode|--get-config <nombre_variable_configuración>}} || most || Muestra el valor solicitado en un cuadro de diálogo emergente. Sale tras confirmar con {{KEY|OK}}. No se puede usar repetidamente. Si se usa un nombre de variable desconocido o no válido, la respuesta está vacía. No se respeta la opción {{incode|--console}}.
 |}
 
-Las opciones se pueden escribir de dos formas: {{incode|--long-option arg}} e {{incode|--long-option<nowiki>=</nowiki>arg}}.
+Las opciones se pueden escribir de dos formas: {{incode|--long-option arg}} y {{incode|--long-option<nowiki>=</nowiki>arg}}.
 
 <span id="Response_and_config_files"></span>
 === Respuesta y archivos de configuración ===
