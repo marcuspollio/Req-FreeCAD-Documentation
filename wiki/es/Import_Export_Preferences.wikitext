@@ -705,9 +705,7 @@ Si se selecciona '''Raw (para CAM)''', los objetos SVG se colocan tal cual, en l
 
 [[Image:Preferences_Import-Export_Page_VTK.png|400px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The [https://en.wikipedia.org/wiki/VTK Visualization Toolkit] (VTK) is an open-source, freely available software system for 3D computer graphics, image processing and visualization. VTK files are used by the [[Image:Workbench_FEM.svg|24px]] [[FEM_Workbench|FEM Workbench]] for the [[FEM_Post_Processing_based_on_VTK|post processing]] of simulation results.
-</div>
+El [https://en.wikipedia.org/wiki/VTK Visualization Toolkit] (VTK) Kit de Herramientas de Visualización es un sistema de software de código abierto y disponible gratuitamente para gráficos 3D por computadora, procesamiento de imágenes y visualización. Los archivos VTK son utilizados por el [[Image:Workbench_FEM.svg|24px]] [[FEM_Workbench|Banco de Trabajo de FEM]] para el [[FEM_Post_Processing_based_on_VTK|posprocesamiento]] de los resultados de la simulación.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This page is only shown if the [[Image:Workbench_FEM.svg|24px]] [[FEM_Workbench|FEM Workbench]] has been loaded in the current FreeCAD session.
