@@ -244,21 +244,19 @@ App.getUserConfigDir()
 <span id="User_related_information"></span>
 === Información relacionada con el usuario ===
 
-<div class="mw-translate-fuzzy">
 {| border="2" cellpadding="4" cellspacing="0" style="margin-top:1em; margin-bottom:1em; background:#f9f9f9; border:1px #aaa solid; border-collapse:collapse;"
-|+ Entradas de configuración de usuario
+
 |-
-! Nombre variable configuración      !! Sinopsis                         !! Ejemplo M$                 !! Ejemplo Posix (Linux)    
-|-               
-| UserAppData          || Ruta donde FreeCAD almacena los datos de la aplicación relativos al usuario. ||  C:\Documents and Settings\username\Application Data\FreeCAD ||/home/username/.FreeCAD      
-|-               
-| UserParameter        || Archivo donde FreeCAD almacena los datos de la aplicación relativos al usuario. ||  C:\Documents and Settings\username\Application Data\FreeCAD\user.cfg ||/home/username/.FreeCAD/user.cfg      
-|-               
-| SystemParameter      || Archivo donde FreeCAD almacena datos relativos a la aplicación. ||  C:\Documents and Settings\username\Application Data\FreeCAD\system.cfg ||/home/username/.FreeCAD/system.cfg      
-|-               
-| UserHomePath         || Ruta de la carpeta de inicio del usuario actual  ||  C:\Documents and Settings\username\My Documents ||/home/username      
+! Nombre de la variable de configuración !! Sinopsis !! Ejemplo Windows !! Ejemplo Linux
+|-
+| UserAppData || Ruta donde FreeCAD almacena los datos de la aplicación relacionados con el usuario. || {{FileName|C:\Users\username\AppData\Roaming\FreeCAD}}<hr />''Ruta corta: ''{{FileName|%APPDATA%\FreeCAD}} || {{FileName|/home/username/.local/share/FreeCAD}}<hr />''Ruta corta: ''{{FileName|~/.local/share/FreeCAD}}
+|-
+| UserParameter || Archivo donde FreeCAD almacena los datos de la aplicación relacionados con el usuario. || {{FileName|C:\Users\username\AppData\Roaming\FreeCAD\user.cfg}}<hr />''Ruta corta: ''{{FileName|%APPDATA%\FreeCAD\user.cfg}} || {{FileName|/home/username/.config/FreeCAD/user.cfg}}<hr />''Ruta corta: ''{{FileName|~/.config/FreeCAD/user.cfg}} o {{FileName|$HOME/.config/FreeCAD/user.cfg}}
+|-
+| SystemParameter || Archivo donde FreeCAD almacena los datos relacionados con la aplicación. || {{FileName|C:\Users\username\AppData\Roaming\FreeCAD\system.cfg}}<hr />''Ruta corta: ''{{FileName|%APPDATA%\FreeCAD\system.cfg}} || Ruta corta: {{FileName|/home/username/.config/FreeCAD/system.cfg}}<hr />''Ruta corta: ''{{FileName|~/.config/FreeCAD/system.cfg}} o {{FileName|$HOME/.config/FreeCAD/system.cfg}}
+|-
+| Ruta de inicio del usuario || Ruta de inicio del usuario actual || {{FileName|C:\Users\username}}<hr />''Ruta corta: ''{{FileName|%USERPROFILE%}} || {{FileName|/home/username}}<hr />''Ruta corta: ''{{FileName|~}}
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Note: For Linux distributions, an additional configuration file that relates to [[Third_Party_Tools#Qt-Toolkit|Qt]] may exist at path {{FileName|/home/username/.config/FreeCAD/FreeCAD.conf}}.
