@@ -22,9 +22,8 @@ No es necesario volver a ejecutar el comando ''configure'', ya que se ejecutará
 
 Si cambias de rama con ''git checkout'' y luego cambias de rama, simplemente vuelve a usar ''pixi run build''. No es necesario limpiar los directorios de la compilación anterior.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-= Legacy compilation workflow =
-</div>
+<span id="Legacy_compilation_workflow"></span>
+= Flujo de trabajo de compilación heredado =
 
 <div class="mw-translate-fuzzy">
 Esta página explica paso a paso ''cómo compilar FreeCAD 0.19 o más reciente en Windows''. Para otras plataformas ver [[Compiling/es|Compilación]].
