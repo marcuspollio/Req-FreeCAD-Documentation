@@ -50,9 +50,7 @@ Para compilar FreeCAD en Windows se necesitan varias herramientas y bibliotecas.
 
 A continuación, describimos el manejo del código fuente mediante la interfaz de TortoiseGit [https://tortoisegit.org/]. Esta interfaz se integra directamente con el explorador de archivos de Windows y cuenta con una amplia comunidad de usuarios que ofrece ayuda en caso de problemas.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [http://sourceforge.net/projects/nsis/ NSIS] is used to generate the FreeCAD Windows installer.
-</div>
+* [http://sourceforge.net/projects/nsis/ NSIS] se utiliza para generar el instalador de FreeCAD para Windows.
 
 <span id="Source_code"></span>
 ===Código fuente===
