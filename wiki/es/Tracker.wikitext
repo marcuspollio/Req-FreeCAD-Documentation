@@ -81,21 +81,24 @@ Si ha creado una rama de Git con cambios que le gustaría que se integraran al c
 <span id="MantisBT_Tips_and_Tricks"></span>
 == Trucos y consejos de MantisBT ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== MantisBT Markup ===
-MantisBT (Mantis Bug Tracker) has it's own unique markup.
-* '''@'''mention - works just like on GitHub where if you prepend '@' to someone's username they will receive an email that they have been 'mentioned' in a ticket thread
+=== Marcado de MantisBT ===
+MantisBT (Mantis Bug Tracker) tiene su propio marcado único.
+
+* '''@'''mención: funciona igual que en GitHub, donde si antepone '@' al nombre de usuario de alguien, recibirá un correo electrónico informándole de que ha sido mencionado en un hilo de discusión.
+
 [[File:mantisbt-mention-example.jpg|center|600px]]
-* '''#'''1234 - By adding a hash tag in front of a number a shortcut to link to another ticket within MantisBT will present. 
-*: '''Note''': if you hover over a ticket it will show you the summary +  if the ticket is closed, it will be struck-through like <s>#1234</s>.
-[[File:mantisbt-ticket-shortcut-example.jpg|center|600px]]
-* '''~'''5678 - a shortcut that links to a bug note within a ticket. This can be used to reference someone's response within the thread. Each person that posts will show a unique ~#### number next to their username. If you look at the image in the example, you see that the shortcut is referencing the ''ticket number:comment number'' of said ticket
+* '''#'''1234: al añadir una almohadilla delante de un número, se mostrará un acceso directo a otro ticket dentro de MantisBT.
+
+*: '''Nota''': si pasa el cursor sobre un ticket, se mostrará el resumen. Si el ticket está cerrado, aparecerá tachado como <s>#1234</s>.
+
+[[Archivo:mantisbt-ticket-shortcut-example.jpg|center|600px]]
+* '''~'''5678 - un acceso directo que enlaza con una nota de error dentro de un ticket. Se puede usar para hacer referencia a la respuesta de alguien dentro del hilo. Cada persona que publique mostrará un número único ~#### junto a su nombre de usuario. Si observa la imagen del ejemplo, verá que el acceso directo hace referencia al ''número de ticket:número de comentario'' de dicho ticket.
 [[File:mantisbt-comment-shortcut-example.jpg|center|600px]]
-* '''<nowiki><del></del></nowiki>''' - Using these tags will <s>strikeout text</s>. 
+* '''<nowiki><del></del></nowiki>''' - El uso de estas etiquetas <s>tachará el texto</s>.
 [[File:mantisbt-strikeout-text-example.jpg|center|600px]]
-* '''<nowiki><code></code></nowiki>''' - To present a line or block of code, use this tag and it will colorize and differentiate it elegantly. 
+* '''<nowiki><code></code></nowiki>''' - Para presentar una línea o bloque de código, use esta etiqueta y lo coloreará y diferenciará elegantemente.
+
 [[File:mantisbt-colorized-code-example.jpg|center|600px]]
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === MantisBT BBCode  ===
