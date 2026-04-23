@@ -20,9 +20,8 @@ Instale {{incode|ccache}} para almacenar en caché las compilaciones.
 
 En la mayoría de los sistemas, ccache se detectará y habilitará automáticamente; puede usar la opción {{incode|FREECAD_USE_CCACHE}} {{incode|cmake}} para controlar este comportamiento.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Disable modules ==
-</div>
+<span id="Disable_modules"></span>
+== Deshabilitar módulos ==
 
 <div class="mw-translate-fuzzy">
 == Desactivar módulos ==
