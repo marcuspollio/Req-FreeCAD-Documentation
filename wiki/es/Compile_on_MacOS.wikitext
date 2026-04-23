@@ -204,7 +204,7 @@ make -j5 install
 
 La opción ''-j'' especifica cuántos procesos make se ejecutarán simultáneamente. Generalmente, un proceso más el número de núcleos de la CPU es un buen valor. Sin embargo, si la compilación falla por algún motivo, es útil volver a ejecutar make sin la opción ''-j'' para poder identificar con precisión dónde se produjo el error.
 
-See also [[Compiling_(Speeding_up)|Compiling - Speeding up]].
+Véase también [[Compilación_(Aceleración)|Compilación - Aceleración]].
 
 If make finishes without any errors, you can now launch FreeCAD by double clicking the executable in the Finder.
 
