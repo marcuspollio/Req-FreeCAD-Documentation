@@ -154,9 +154,7 @@ Primero, configure el entorno de compilación con CMake:
 
 '''Nota:''' Es importante especificar la versión de bits correcta. Si tiene la variante de 64 bits de LibPack, también debe usar el compilador x64.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This will begin the configuration and ''will fail'' because of missing settings. This is normal, you have not yet specified the location of the LibPack. However, there are other failures that might occur that require some further action on your part.
-</div>
+Esto iniciará la configuración y fallará debido a la falta de ajustes. Esto es normal, ya que aún no ha especificado la ubicación de LibPack. Sin embargo, pueden ocurrir otros fallos que requieren alguna acción adicional por su parte.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If it fails with the message that Visual Studio could not be found, the CMake support in MSVC is not yet installed. To do this:
