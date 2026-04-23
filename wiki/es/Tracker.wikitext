@@ -177,12 +177,10 @@ Formato que MantisBT reconoce:
 <code>/(?:fixe?d?s?|resolved?s?)+\s*:?\s+(?:#(?:\d+)[,\.\s]*)+/i</code></small>
 
 
-<div class="mw-translate-fuzzy">
-{{Docnav/es
-|[[Third_Party_Tools/es|Third Party Tools]]
-|[[Bug_Triage/es|Bug Triage]]
+{{Docnav
+|[[Third_Party_Tools|Herramientas de terceros]]
+|[[Debugging|Depuración]]
 }}
-</div>
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Developer Documentation{{#translation:}}]]
