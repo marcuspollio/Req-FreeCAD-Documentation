@@ -718,9 +718,7 @@ En esta página puede especificar lo siguiente:
 | {{MenuCommand|Objeto a importar}}
 | Seleccione qué objetos se importarán y cómo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If '''VTK result object''' is selected, a FreeCAD FEM VTK result object will be imported (equals to the object which was exported).
-</div>
+Si se selecciona '''Objeto de resultado VTK''', se importará un objeto de resultado VTK de FreeCAD FEM (igual al objeto que se exportó).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If '''FEM mesh object''' is selected, the results in the VTK file will be omitted, only the mesh data will be imported and a FreeCAD FEM mesh object will be created.
