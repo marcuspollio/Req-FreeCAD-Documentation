@@ -987,7 +987,7 @@ make -j$(nproc)
 
 <div class="mw-collapsible-content">
 
-[https://aur.archlinux.org/ Repositorio de usuarios Arch (AUR)] es una colección de recetas hechas por el usuario para construir paquetes que no están oficialmente soportados por los mantenedores de la distribución / comunidad. Por lo general, son seguros. Puedes ver quién mantiene el paquete y durante cuánto tiempo lo ha hecho. Se recomienda comprobar los archivos de construcción. También hay software que no es de código abierto disponible en esta área, incluso si es mantenido por la compañía oficial propietaria.
+El Repositorio de Usuarios de Arch (AUR) [https://aur.archlinux.org/] es una colección de recetas creadas por usuarios para compilar paquetes que no cuentan con el soporte oficial de los mantenedores o la comunidad de la distribución. Suelen ser seguras. Puede ver quién mantiene el paquete y desde cuándo. Se recomienda revisar los archivos de compilación. También encontrará software que no es de código abierto, incluso si lo mantiene la empresa propietaria oficial.
 
 Requisito previo : git
 
