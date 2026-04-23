@@ -374,10 +374,9 @@ Si no se encuentra el nombre, se devuelve una cadena vacía.
 
 '''Desde la línea de comandos'''
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Use the {{incode|--get-config <config-var-name>}} option to query a single name. Not all names are supported. For example:
-  FreeCAD --get-config ExeVersion
-</div>
+Utilice la opción {{incode|--get-config <config-var-name>}} para consultar un único nombre. No todos los nombres son compatibles. Por ejemplo:
+
+FreeCAD --get-config ExeVersion
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Use the {{incode|--dump-config}} option to get a list of names and their values. Not all names are supported.
