@@ -221,9 +221,7 @@ Si desea compilar desde la línea de comandos, la salida de CMake le mostrará e
 cmake --build E:/release --config Release
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Please note that setting CMake variables like ''CMAKE_BUILD_TYPE'' does not have any effect, only specifying the ''--config'' option as shown above works.
-</div>
+Tenga en cuenta que configurar variables de CMake como ''CMAKE_BUILD_TYPE'' no tiene ningún efecto; solo funciona especificar la opción ''--config'' como se muestra arriba.
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
