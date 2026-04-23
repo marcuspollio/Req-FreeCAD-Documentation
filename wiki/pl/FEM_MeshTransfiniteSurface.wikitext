@@ -52,9 +52,7 @@ Narzędzie '''Strukturalna powierzchnia transfinite''' tworzy strukturalną siat
 
 Po utworzeniu siatki możesz zmienić jej właściwości przy pomocy [[Property_View/pl|Widoku właściwości]]. Po zmianie właściwości należy ponownie otworzyć okno dialogowe Gmsh i wcisnąć przycisk {{Button|Zastosuj}}. (Możesz zostawić okno dialogowe otwarte podczas zmieniania właściwości.)
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You can create as many different transfinite surfaces as needed.
-</div>
+Możesz tworzyć tyle różnych powierzchni transfinite, ile potrzeba.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_transfinite_surface.png|400px]]
