@@ -236,7 +236,7 @@ brew uninstall --ignore-dependencies --force cartr/qt4/shiboken@1.2 cartr/qt4/py
 
 === FreeType ===
 
-When using CMake versions older than 3.1.0, it's necessary to set CMake variable FREETYPE_INCLUDE_DIR_freetype2 manually, eg /usr/local/include/freetype2
+Cuando se utilizan versiones de CMake anteriores a la 3.1.0, es necesario configurar manualmente la variable de CMake FREETYPE_INCLUDE_DIR_freetype2, por ejemplo, /usr/local/include/freetype2.
 
 === Additional Build Instructions ===
 
