@@ -25,9 +25,7 @@ Si cambia de rama con ''git checkout'' y luego cambia de rama, simplemente vuelv
 <span id="Legacy_compilation_workflow"></span>
 = Flujo de trabajo de compilación heredado =
 
-<div class="mw-translate-fuzzy">
-Esta página explica paso a paso ''cómo compilar FreeCAD 0.19 o más reciente en Windows''. Para otras plataformas ver [[Compiling/es|Compilación]].
-</div>
+El contenido expuesto a continuación explica paso a paso cómo compilar FreeCAD 0.19 o posterior en Windows utilizando el compilador MSVC de Microsoft. Para obtener información sobre el uso de MSYS2/MinGW, consulte [[Compile_on_MinGW|Compile en MinGW]]. Para otras plataformas, consulte [[Compiling|Compile]].
 
 <span id="Prerequisites"></span>
 == Prerequisitos ==
