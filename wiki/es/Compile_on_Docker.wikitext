@@ -52,7 +52,7 @@ Esto colocará una copia de la última versión del código fuente de FreeCAD en
 git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git ~/my_code/freecad_source
 }}
 
-Para obtener más información sobre el uso de Git y cómo contribuir con código al proyecto, consulte [[Administración de código fuente|Administración de código fuente]].
+Para obtener más información sobre el uso de Git y cómo contribuir con código al proyecto, consulte [[Source code management|Administración de código fuente]].
 
 <span id="Create_build_directory"></span>
 === Crear directorio de compilación ===
