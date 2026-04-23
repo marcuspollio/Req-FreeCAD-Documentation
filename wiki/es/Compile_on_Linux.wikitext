@@ -718,9 +718,7 @@ El script de Debian {{incode|checkinstall}} permite crear un paquete *.deb que s
 
 Es recomendable definir un nombre y una breve descripción para el paquete. El nombre debe introducirse para desinstalarlo, y la descripción aparecerá en la lista con el comando {{incode|dpkg -l}}. El nombre predeterminado ''build'' no es muy descriptivo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Example:
-</div>
+Ejemplo:
 
 {{Code|lang=bash|code=
 cd freecad-source/build
