@@ -64,7 +64,7 @@ sudo apt build-dep freecad
 
 Como alternativa, sustituya {{incode|freecad}} por {{incode|freecad-daily}} para instalar las dependencias de compilación de la rama de desarrollo principal. Deberá añadir los PPA [[Installing_on_Linux#Development_PPA_(Daily)|freecad-stable/freecad-daily]] a sus fuentes de software.
 
-Sin embargo, si la versión de FreeCAD en los repositorios es antigua, las dependencias pueden ser las incorrectas para compilar una versión reciente de FreeCAD. Por lo tanto, comprueba que tienes instalados los siguientes paquetes.
+Sin embargo, si la versión de FreeCAD en los repositorios es antigua, las dependencias podrían no ser las adecuadas para compilar una versión reciente de FreeCAD. Por lo tanto, verifique que haya instalado los siguientes paquetes.
 
 Estos paquetes son esenciales para que cualquier tipo de compilación tenga éxito:
 *{{incode|build-essential}}, instala los compiladores C y C++, las librerías de desarrollo C y el programa {{incode|make}}.
