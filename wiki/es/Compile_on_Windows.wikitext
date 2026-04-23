@@ -560,10 +560,9 @@ Para compilar:
 || DESACTIVADO
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Open the project in Visual Studio and first build the ALL_BUILD and then INSTALL targets in the '''Release''' mode.
-* Repeat building the two targets in the '''Debug''' mode.
-</div>
+* Abra el proyecto en Visual Studio y compile primero los destinos ALL_BUILD y luego INSTALL en modo '''Release'''.
+
+* Repita la compilación de ambos destinos en modo '''Debug'''.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To build FreeCAD using the self-compiled Open Cascade, you must do the following:
