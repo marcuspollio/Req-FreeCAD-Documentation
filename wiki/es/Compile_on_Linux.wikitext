@@ -547,7 +547,7 @@ cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Debug ../
 <span id="For_a_Release_build"></span>
 ==== Para una compilación de lanzamiento ====
 
-Crea una compilación {{incode|Release}} para probar el código que no se bloquea. Una compilación {{incode|Release}} se ejecutará mucho más rápido que una compilación {{incode|Debug}}.
+Cree una compilación {{incode|Release}} para probar el código que no se bloquea. Una compilación {{incode|Release}} se ejecutará mucho más rápido que una compilación {{incode|Debug}}.
 
 {{Code|lang=bash|code=
 cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../
