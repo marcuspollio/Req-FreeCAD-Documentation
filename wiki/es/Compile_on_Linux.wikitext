@@ -448,9 +448,7 @@ Dado que FreeCAD es una aplicación de gran tamaño, la compilación de todo el 
 === Creación fuera-fuente ===
 </div>
 
-<div class="mw-translate-fuzzy">
-Para construir fuera-fuente, simplemente crea un directorio de construcción, {{incode|freecad-build}}, distinto de tu carpeta de fuentes de FreeCAD, {{incode|freecad-source}}; entonces desde este directorio de construcción apunta {{incode|cmake}} a la carpeta de fuentes correcta. Puedes usar {{incode|cmake-gui}} o {{incode|ccmake}} en lugar de {{incode|cmake}} en las instrucciones de abajo también. Una vez que {{incode|cmake}} termine de configurar el entorno, utilice {{incode|make}} para iniciar la compilación real.
-</div>
+Para compilar, simplemente cree un directorio de compilación, {{incode|build}}. Luego, desde este directorio, configure {{incode|cmake}} para que apunte a la carpeta de origen correcta. También puede usar {{incode|cmake-gui}} o {{incode|ccmake}} en lugar de {{incode|cmake}} en las instrucciones a continuación. Una vez que {{incode|cmake}} termine de configurar el entorno, use {{incode|make}} para iniciar la compilación.
 
 {{Code|lang=bash|code=
 # from your freecad-source folder:
