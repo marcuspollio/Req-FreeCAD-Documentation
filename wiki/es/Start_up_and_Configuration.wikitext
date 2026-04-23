@@ -258,9 +258,7 @@ App.getUserConfigDir()
 | Ruta de inicio del usuario || Ruta de inicio del usuario actual || {{FileName|C:\Users\username}}<hr />''Ruta corta: ''{{FileName|%USERPROFILE%}} || {{FileName|/home/username}}<hr />''Ruta corta: ''{{FileName|~}}
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Note: For Linux distributions, an additional configuration file that relates to [[Third_Party_Tools#Qt-Toolkit|Qt]] may exist at path {{FileName|/home/username/.config/FreeCAD/FreeCAD.conf}}.
-</div>
+Nota: Para las distribuciones de Linux, puede existir un archivo de configuración adicional relacionado con [[Third_Party_Tools#Qt-Toolkit|Qt]] en la ruta {{FileName|/home/username/.config/FreeCAD/FreeCAD.conf}}.
 
 <span id="Command_line_arguments"></span>
 === Argumentos de la línea de comando ===
