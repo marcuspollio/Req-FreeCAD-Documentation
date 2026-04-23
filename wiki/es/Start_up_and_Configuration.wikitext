@@ -137,9 +137,7 @@ Existen algunas opciones no visibles para el usuario. Estas opciones son, por ej
 * ''-cmap'': Hace que la aplicación instale un mapa de color privado en una pantalla de 8 bits.
 
 <span id="Running_FreeCAD_without_GUI_(headless)"></span>
-<div class="mw-translate-fuzzy">
-== Ejecución de FreeCAD sin interfaz de usuario ==
-</div>
+=== Ejecutando FreeCAD sin interfaz gráfica (sin cabeza) ===
 
 <div class="mw-translate-fuzzy">
 FreeCAD normalmente se inicia en el modo de interfaz de usuario gráfico GUI, pero puedes forzar que inicie en modo consola escribiendo:
