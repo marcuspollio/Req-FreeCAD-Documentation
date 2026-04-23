@@ -814,7 +814,7 @@ make -j$(nproc --ignore=2)
 
 Si lo desea, puede desinstalar la versión precompilada de FreeCAD ({{incode|freecad-daily}}) dejando las dependencias en su lugar, sin embargo, dejar este paquete instalado permitirá al gestor de paquetes mantener sus dependencias actualizadas también; esto es sobre todo útil si tiene la intención de seguir el desarrollo de FreeCAD, y actualizar y compilar constantemente las fuentes desde el repositorio Git.
 
-El script anterior asume que quieres compilar la última versión de FreeCAD, por lo que estás usando el repositorio "diario" para obtener las dependencias. Sin embargo, puedes obtener las dependencias de la versión "estable" de tu versión actual de Ubuntu. Si este es el caso, reemplace la parte superior del script anterior con las siguientes instrucciones. Para Ubuntu 12.04, omita {{incode|--enable-source}} del comando.
+El script anterior asume que quiere compilar la última versión de FreeCAD, por lo que está usando el repositorio "diario" para obtener las dependencias. Sin embargo, puede obtener las dependencias de la versión "estable" de su versión actual de Ubuntu. Si este es el caso, reemplace la parte superior del script anterior con las siguientes instrucciones. Para Ubuntu 12.04, omita {{incode|--enable-source}} del comando.
 
 {{Code|lang=bash|code=
 #!/bin/sh
