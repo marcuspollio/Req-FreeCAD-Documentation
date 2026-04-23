@@ -686,9 +686,7 @@ Si se selecciona '''Color y grosor de línea originales''', FreeCAD utilizará e
 | {{MenuCommand|Estilo de exportación}}
 | Seleccione cómo se exportan los bocetos a SVG.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If '''Translated (for print & display)''' is selected, SVG objects are encapsulated in a group that is scaled and moved to the correct place in the SVG document to fit into a printable area.
-</div>
+Si se selecciona '''Traducido (para impresión y visualización)''', los objetos SVG se encapsulan en un grupo que se escala y se mueve al lugar correcto en el documento SVG para que quepa en un área imprimible.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If '''Raw (for CAM)''' is selected, SVG objects are placed as they are - at the same coordinates as in the FreeCAD model (1:1 export).
