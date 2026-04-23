@@ -30,9 +30,7 @@ Para interactuar con el código fuente se requiere [https://git-scm.com/ {{incod
 sudo apt install git
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For an in-depth explanation on the contributing process, refer to [[Source_code_management|Source code management]].
-</div>
+Para obtener una explicación detallada sobre el proceso de contribución, consulte [[Source_code_management|Gestión del código fuente]].
 
 <div class="mw-translate-fuzzy">
 La mejor manera de obtener el código es clonar el repositorio Git de sólo lectura [https://github.com/FreeCAD/FreeCAD]. Para ello se necesita el programa {{incode|git}} que se puede instalar fácilmente en la mayoría de las distribuciones de Linux. También puede obtenerse en el [http://git-scm.com/ sitio web oficial].
