@@ -359,9 +359,7 @@ Existen dos métodos para ejecutar FreeCAD compilado:
 
 ''Método 1'': Ejecute el archivo FreeCAD.exe que encontrará en la carpeta de compilación, en la subcarpeta ''bin''.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''Method 2'': You build the target ''INSTALL''
-</div>
+''Método 2'': Construye el objetivo ''INSTALAR''
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Method 2 is the simpler one because it automatically assures that all libraries needed to run the FreeCAD.exe are in the correct folder. The FreeCAD.exe and the libraries will be output in the folder you specified in the CMake variable ''CMAKE_INSTALL_PREFIX''.
