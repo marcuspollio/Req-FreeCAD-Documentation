@@ -35,26 +35,22 @@ Narzędzie '''Strukturalna powierzchnia transfinite''' tworzy strukturalną siat
 ==Usage==
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# To enable the command a [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
-# Select the Mesh object in the [[Tree_View|Tree View]].
-# There are several ways to invoke the command:
-#* Press the {{Button|[[Image:FEM_MeshTransfiniteSurface.svg|16px]] [[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]}} button.
-#* Select the {{MenuCommand|Mesh → GMSH Refinements → [[Image:FEM_MeshTransfiniteSurface.svg|16px]] Structured Transfinite Surface}} option from the menu.
-# Optionally, use the ''Recombine'' checkbox to enable recombination of triangular elements into quadrilateral ones.
-# If recombination is not enabled, select the triangle orientation: Left, Right, AlternateRight, AlternateLeft
-# Optionally, use the ''Auto apply transfinite curves'' checkbox and specify the number of nodes, distribution (Constant, Bump, Bump Inverted, Progression or Progression Inverted) and the corresponding coefficient.
-# Press the {{Button|Add}} button. Select a vertex or face. To remove objects from the selection, press the {{Button|Remove}} button.
-# Click the {{Button|OK}} button.
-# Close the task.
-#: Result: You now should see a new {{incode|TransfiniteSurface}} object under the {{incode|FEMMeshGmsh}} object in your active analysis container.
-# Double-click on the {{incode|FEMMeshGmsh}} parent object in your Model Tree and press {{Button|Apply}} to force a mesh recalculation.
-# Close the task.
-</div>
+# Aby skorzystać z tego polecenia, potrzebna jest [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/pl|siatka wygenerowana przez Gmsh]].
+# Wybierz obiekt siatki w [[Tree_View/pl|Widoku drzewa]].
+# Istnieje kilka sposobów na wywołanie tego polecenia:
+#* Wciśnij przycisk {{Button|[[Image:FEM_MeshTransfiniteSurface.svg|16px]] [[FEM_MeshTransfiniteSurface/pl|Strukturalna powierzchnia transfinite]]}}.
+#* Wybierz opcję {{MenuCommand|Siatka → Zagęszczenia GMSH → [[Image:FEM_MeshTransfiniteSurface.svg|16px]] Strukturalna powierzchnia transfinite}} z menu.
+# Opcjonalnie, użyj pola ''Rekombinacja'', aby włączyć rekombinację elementów trójkątnych w czworokątne.
+# Jeśli rekombinacja nie jest włączona, wybierz orientację trójkąta: Lewo, Prawo, AlternatywniePrawo, AlternatywnieLewo
+# Opcjonalnie, użyj pola ''Automatycznie zastosuj krzywe transfinite'' i określ liczbę węzłów, rozkład (Stały, Obustronne zagęszczenie, Odwrócone obustronne zagęszczenie, Progresja lub Progresja odwrócona) i odpowiedni współczynnik.
+# Wciśnij przycisk {{Button|Dodaj}}. Wybierz wierzchołek lub ścianę. Aby usunąć obiekty z zaznaczenia, wciśnij przycisk {{Button|Usuń}}.
+# Wciśnij przycisk {{Button|OK}}.
+# Zamknij panel zadań.
+#: Wynik: Powinieneś teraz widzieć nowy obiekt {{incode|TransfiniteSurface}} pod obiektem {{incode|FEMMeshGmsh}} w aktywnym kontenerze analizy.
+# Dwukrotnie kliknij na obiekcie nadrzędnym {{incode|FEMMeshGmsh}} w drzewie modelu i kliknij {{Button|Zastosuj}}, aby wymusić przebudowanie siatki.
+# Zamknij panel zadań.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-After the mesh has been created you can change its properties using the [[Property_View|Property View]]. After you changed a property, you must reopen the Gmsh dialog again and click the {{Button|Apply}} button. (You can leave the dialog open while changing properties.)
-</div>
+Po utworzeniu siatki możesz zmienić jej właściwości przy pomocy [[Property_View/pl|Widoku właściwości]]. Po zmianie właściwości należy ponownie otworzyć okno dialogowe Gmsh i wcisnąć przycisk {{Button|Zastosuj}}. (Możesz zostawić okno dialogowe otwarte podczas zmieniania właściwości.)
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 You can create as many different transfinite surfaces as needed.
