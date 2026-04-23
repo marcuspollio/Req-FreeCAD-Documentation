@@ -161,9 +161,8 @@ El formato que reconoce MantisBT es:
 <small>Para quienes tengan curiosidad, aquí está la expresión regular que usa MantisBT para esta operación: <br />
 <code>/(?:bugs?|issues?|reports?)+\s*:?\s+(?:#(?:\d+)[,\.\s]*)+/i</code></small>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Remotely resolving a ticket ===
-The format MantisBT will recognize:
+=== Resolución remota de un ticket ===
+Formato que MantisBT reconoce:
 * fix #1234
 * fixed #1234
 * fixes #1234
@@ -174,9 +173,8 @@ The format MantisBT will recognize:
 * resolves #1234
 * resolved #1234, #5678
 * resolves #1234, #5678
-<small>For the inquisitive here is the regex MantisBT uses for this operation: <br />
+<small>Para los curiosos, aquí está la expresión regular que MantisBT usa para esta operación: <br />
 <code>/(?:fixe?d?s?|resolved?s?)+\s*:?\s+(?:#(?:\d+)[,\.\s]*)+/i</code></small>
-</div>
 
 
 <div class="mw-translate-fuzzy">
