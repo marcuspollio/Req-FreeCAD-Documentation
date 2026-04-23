@@ -115,18 +115,26 @@ FreeCAD --response-file ResponseFile.txt
 <span id="Hidden_options"></span>
 === Opciones ocultas ===
 
-Existen varias opciones no visibles por el usuario. Estas opciones son por ejemplo los parámetros de X-Window analizados por el sistema Windows:
-* -display display, establece la visualización de X (por defecto es $DISPLAY).
-* -geometry geometry, establece la geometría cliente de la primera ventana que es mostrada.
-* -fn or -font font, Define la fuente de letra de la aplicación. La fuente de letra debería estar especificada utilizando una descripción de fuente lógica de X.
-* -bg or -background color, establece el color de fondo por defectoy una paleta para la aplicación (se calculan las sombras iluminadas y oscuras).
-* -fg or -foreground color, establece el color de primer planor.
-* -btn or -button color, establece el color por defecto de los botones.
-* -name name, establece el nombre de la aplicación.
-* -title title, establece el título de la aplicación.
-* -visual TrueColor, fuerza a la aplicación a utilizar la visualización TrueColor en una visualización de 8-bit.
-* -ncols count, limita el número de colores asignados en el cubo de color de visualización de 8-bit, si la aplicación está utilizando la especificación del color QApplication::ManyColor. Si el computo es 216 entonces se utiliza un cubo de color de 6x6x6 (por ejemplo 6 niveles de rojo, 6 de verde y 6 de azul); para otros valores, se utiliza un cubo aproximadamente proporcional a un cubo de 2x3x1.
-* -cmap, cause que la aplicación instale un mapa de color privado en una visualización de 8-bit.
+Existen algunas opciones no visibles para el usuario. Estas opciones son, por ejemplo, los parámetros de X-Window interpretados por el sistema Windows:
+* ''-display'': Establece la pantalla X (por defecto, $DISPLAY).
+
+* ''-geometry'': Establece la geometría del cliente de la primera ventana que se muestra.
+
+* ''-fn'' o ''-font'': Define la fuente de la aplicación. La fuente debe especificarse mediante una descripción lógica de fuente X.
+
+* ''-bg'' o ''-background'': Establece el color de fondo predeterminado y una paleta de colores para la aplicación (se calculan tonos claros y oscuros).
+
+* ''-fg'' o ''-foreground'': Establece el color de primer plano predeterminado.
+
+* ''-btn'' o ''-button'': Establece el color del botón predeterminado.
+
+* ''-name'': Establece el nombre de la aplicación.
+
+* ''-title'': Establece el título de la aplicación.
+
+* ''-visual'': Fuerza a la aplicación a usar una visualización TrueColor en una pantalla de 8 bits. * ''-ncols'': Limita el número de colores asignados al cubo de color en una pantalla de 8 bits, si la aplicación utiliza la especificación de color QApplication::ManyColor. Si count es 216, se utiliza un cubo de color de 6x6x6 (es decir, 6 niveles de rojo, 6 de verde y 6 de azul); para otros valores, se utiliza un cubo aproximadamente proporcional a uno de 2x3x1.
+
+* ''-cmap'': Hace que la aplicación instale un mapa de color privado en una pantalla de 8 bits.
 
 <span id="Running_FreeCAD_without_GUI_(headless)"></span>
 <div class="mw-translate-fuzzy">
