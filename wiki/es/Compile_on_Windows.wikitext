@@ -248,11 +248,10 @@ Si no aparece ningún error, ha terminado. '''¡Enhorabuena!''' Puede cerrar MSV
 <span id="Debug_Build"></span>
 ==== Compilación de depuración ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-As prerequisite for the debug build, you need to do this:
-# Copy the content of the LibPack folder ''bind'' to the ''bin'' folder of the FreeCAD build folder (overwrite the existing files).
-# Copy the content of the LibPack folder ''libd'' to the ''lib'' folder of the FreeCAD build folder.
-</div>
+Como requisito previo para la compilación de depuración, debe realizar lo siguiente:
+# Copie el contenido de la carpeta «bind» de LibPack a la carpeta «bin» de la carpeta de compilación de FreeCAD (sobrescriba los archivos existentes).
+
+# Copie el contenido de la carpeta «libd» de LibPack a la carpeta «lib» de la carpeta de compilación de FreeCAD.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Now you can compile:
