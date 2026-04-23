@@ -29,9 +29,7 @@
 <span id="Description"></span>
 ==Beschreibung==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The '''FEM MeshTransfiniteCurve''' command creates a fixed amount of nodes on an edge with a structured algorithm.
-</div>
+Der Befehl '''FEM NetzTransfiniteKurve''' erstellt mithilfe eines strukturierten Algorithmus eine festgelegte Anzahl von Knoten auf einer Kante.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_mesh_transfinite_curve_task_panel.PNG|400px]]
