@@ -192,7 +192,8 @@ $cmake \
 
 }}
 
-== Run make ==
+<span id="Run_make"></span>
+== Ejecutar make ==
 
 Finally, from a terminal run '''make''' to compile and link FreeCAD, and generate the app bundle.
 
