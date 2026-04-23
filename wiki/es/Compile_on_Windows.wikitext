@@ -241,9 +241,7 @@ Este proceso tardará bastante tiempo.
 
 Para compilar una versión de FreeCAD lista para usar, compile el destino ''INSTALL'', consulte la sección [[#Running and installing FreeCAD|Ejecución e instalación de FreeCAD]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If you don't get any errors you are done. '''Congratulations!''' You can exit MSVC or keep it open.
-</div>
+Si no aparece ningún error, ha terminado. '''¡Enhorabuena!''' Puede cerrar MSVC o dejarlo abierto.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''Important:''' Since Visual Studio 17.4 you cannot use the code optimization that is on by default for the target '''SketcherGui'''. If you do, angle constraints will be misplaced in sketches. To fix this, right-click on this target in the MSVC solution explorer and select the last entry '''Properties''' in the context menu. In the appearing dialog go to C/C++ → Optimization and there disable the setting '''Optimization'''. Finally build the target '''ALL_BUILD''' again.
