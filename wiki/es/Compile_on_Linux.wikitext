@@ -24,9 +24,7 @@ A continuación, encontrará explicaciones detalladas de todo el proceso, alguno
 <span id="Getting_the_source"></span>
 == Obtención del código fuente ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Interacting with the source code requires [https://git-scm.com/ {{incode|git}}]. Refer to your current distribution's instructions on how to install its binaries. For instance, on Debian related distributions, Git can be installed via the following command:
-</div>
+Para interactuar con el código fuente se requiere [https://git-scm.com/ {{incode|git}}]. Consulte las instrucciones de su distribución actual sobre cómo instalar sus binarios. Por ejemplo, en distribuciones basadas en Debian, Git se puede instalar mediante el siguiente comando:
 
 {{Code|lang=bash|code=
 sudo apt install git
