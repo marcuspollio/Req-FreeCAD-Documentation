@@ -510,7 +510,7 @@ cmake -D <var>:<type>=<value> $SOURCE_DIR
 
 Donde {{incode|$SOURCE_DIR}} es el directorio que contiene el código fuente. En la mayoría de los casos, se puede omitir {{incode|<type>}}. También se puede omitir el espacio después de la opción {{incode|-D}}.
 
-Por ejemplo, para evitar construir el [[FEM Workbench/es|Ambiente de trabajo MEF]]:
+Por ejemplo, para evitar construir el [[FEM Workbench/es|Ambiente de Trabajo de MEF]]:
 
 {{Code|lang=bash|code=
 cmake -D BUILD_FEM:BOOL=OFF ../
