@@ -22,11 +22,9 @@ FreeCAD se puede iniciar normalmente haciendo doble clic en su icono del escrito
 <span id="Using_command_line_options_without_a_command_line_shell"></span>
 === Uso de las opciones de línea de comandos sin un intérprete de línea de comandos ===
 
-<div class="mw-translate-fuzzy">
-=== Usar las opciones de la línea de comandos sin un shell de línea de comandos ===
-* En Ubuntu puedes crear un icono de escritorio y editar sus propiedades. Añade las opciones de la línea de comandos separadas por espacios detrás del nombre del programa en el campo "Comando".
-* En Windows crea un acceso directo y edita las propiedades. Añade las opciones de la línea de comandos separadas por espacios en el campo "Objetivo".
-</div>
+* En Ubuntu, puede crear un icono en el escritorio y editar sus propiedades. Añada las opciones de línea de comandos separadas por espacios después del nombre del programa en el campo '''Comando''' (Comand).
+
+* En Windows, cree un acceso directo y edite sus propiedades. Añada las opciones de línea de comandos separadas por espacios en el campo '''Destino''' (Target).
 
 <span id="Command_line_options"></span>
 === Opciones de la línea de comandos ===
