@@ -532,19 +532,17 @@ OCA se basa principalmente en el formato de archivo GCAD generado por [http://ww
 
 En esta página puede especificar lo siguiente:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Import OCA areas}}
-| If checked, the areas (3D faces) will be imported too.
-|}
-</div>
+| {{MenuCommand|Importar áreas OCA}}
+| Si está marcada, también se importarán las áreas (caras 3D).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===PDF===
-</div>
+|}
+
+<span id="PDF"></span>
+=== PDF ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Version|1.1}}
