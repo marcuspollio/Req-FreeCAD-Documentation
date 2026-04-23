@@ -725,7 +725,7 @@ make
 sudo checkinstall                                  # e.g. name=freecad-test1
 }}
 
-El resultado es un archivo *.deb en la carpeta de compilación. {{incode|checkinstall}} instalará la compilación por defecto. Así es como puedes instalarla o desinstalarla:
+El resultado es un archivo *.deb en la carpeta de compilación. {{incode|checkinstall}} instalará la compilación por defecto. Así es como puede instalarla o desinstalarla:
 
 {{Code|lang=bash|code=
 cd freecad-source/build
