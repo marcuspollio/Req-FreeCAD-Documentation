@@ -293,9 +293,7 @@ La ruta apunta al directorio donde se instaló ptvsd.
 
 En la versión para Mac, la ruta es /Applications/FreeCAD.App/Contents/Resources/bin/python.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You can locate it on your system by typing
-</div>
+Puede localizarlo en su sistema escribiendo
 
 {{Code|code=
 import sys
