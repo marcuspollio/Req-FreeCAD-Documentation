@@ -333,13 +333,11 @@ o
 
 {{Code|code=msbuild INSTALL.vcxproj /p:Configuration=Release}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-These steps can also be automaized. Here is for example a solution for MSVC 2017:
-# Download the script [https://forum.freecad.org/download/file.php?id=92135 compile-FC.txt].
-# Rename it to ''compile-FC.bat''
-# In Windows file explorer Shift+Right-click on your build folder and use from the context menu ''Command prompt here''.
-# Execute the command
-</div>
+Estos pasos también se pueden automatizar. Aquí tiene, por ejemplo, una solución para MSVC 2017:
+# Descargue el script [https://forum.freecad.org/download/file.php?id=92135 compile-FC.txt].
+# Cámbiele el nombre a ''compile-FC.bat''.
+# En el Explorador de archivos de Windows, mantenga pulsada la tecla Mayús y haz clic derecho en la carpeta de compilación. Seleccione la opción ''Símbolo del sistema'' en el menú contextual.
+# Ejecute el comando.
 
 {{Code|code=compile-FC install}}
 
