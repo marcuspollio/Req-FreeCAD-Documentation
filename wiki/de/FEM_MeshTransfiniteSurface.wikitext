@@ -60,9 +60,7 @@ Der Befehl '''FEM NetzTransfiniteFläche''' erstellt ein strukturiertes Netz auf
 After the mesh has been created you can change its properties using the [[Property_View|Property View]]. After you changed a property, you must reopen the Gmsh dialog again and click the {{Button|Apply}} button. (You can leave the dialog open while changing properties.)
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You can create as many different transfinite surfaces as needed.
-</div>
+Es können so viele verschiedene transfinite Flächen erstellen, wie benötigt werden.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_transfinite_surface.png|400px]]
