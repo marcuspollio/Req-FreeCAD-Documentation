@@ -290,17 +290,18 @@ Nota: Para las distribuciones de Linux, puede existir un archivo de configuraci�
 <span id="System_related"></span>
 === Relativos al sistema ===
 
-<div class="mw-translate-fuzzy">
 {| border="2" cellpadding="4" cellspacing="0" style="margin-top:1em; margin-bottom:1em; background:#f9f9f9; border:1px #aaa solid; border-collapse:collapse;"
-|+ Entradas de configuración de usuario
+
 |-
-! Nombre variable configuración      !! Sinopsis                        !! Ejemplo M$                 !! Ejemplo Posix (Linux)    
-|-               
-| AppHomePath          || Ruta en la que es instalado FreeCAD | c:/Progam Files/FreeCAD_0.7|| /user/local/FreeCAD_0.7
-|-               
-| PythonSearchPath     || Mantiene una lista de las rutas en las cuales Python busca módulos. Esto es al inicio se puede cambiar durante la ejecución  ||  ||      
+! Nombre de la variable de configuración !! Sinopsis !! Ejemplo Windows !! Ejemplo Linux
+|-
+| AppHomePath || Ruta donde está instalado FreeCAD || {{FileName|c:/Archivos de programa/FreeCAD_0.19}} || {{FileName|/user/local/FreeCAD_0.19}}
+|-
+| PythonSearchPath || Contiene una lista de rutas donde Python busca módulos. Se establece al inicio y puede cambiar durante la ejecución || ||
+
+|-
+| AppTempPath || Ruta del directorio temporal. Se puede especificar mediante la variable de entorno {{incode|TMPDIR}} o mediante el editor de parámetros [[Image:Std_DlgParameter.svg|16px]] [[Std_DlgParameter|Parameter Editor]]: {{MenuCommand|Tools → Edit parameters... → BaseApp → Preferences → General → TempPath}} || || {{FileName|/tmp/}} (predeterminado)
 |}
-</div>
 
 <span id="Build_related_information"></span>
 === Información relativa a la construcción ===
