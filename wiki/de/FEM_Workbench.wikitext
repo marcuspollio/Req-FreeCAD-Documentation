@@ -148,9 +148,7 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 <span id="GMSH_Refinements"></span>
 === GMSH-Verfeinerungen ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:FEM_MeshDistance.svg|32px]] [[FEM_MeshDistance|Distance-Based Refinement]]: Sets mesh size based on the distance to vertices, edges and faces. {{Version|1.2}}
-</div>
+:* [[Image:FEM_MeshDistance.svg|32px]] [[FEM_MeshDistance/de|Entfernungsbasierte Verfeinerung]]: Legt die Maschenweite anhand des Abstands zu Eckpunkten, Kanten und Flächen fest. {{Version/de|1.2}}
 
 * [[Image:FEM_MeshBoundaryLayer.svg|32px]] [[FEM_MeshBoundaryLayer/de|2D-Grenzschicht]]: Erzeugt anisotrope Netze für genaue Berechnungen in der Nähe von Grenzen.
 
