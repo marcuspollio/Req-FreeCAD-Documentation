@@ -14,10 +14,7 @@ FreeCAD es una aplicación grande que puede tardar entre 10 minutos y una hora e
 
 == CCache ==
 
-<div class="mw-translate-fuzzy">
-== CCache ==
-Instalar {{incode|ccache}} para almacenar en caché las construcciones.
-</div>
+Instale {{incode|ccache}} para almacenar en caché las compilaciones.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [https://ccache.dev/ Ccache] speeds up recompilation by caching previous compilations and detecting when the same compilation is done again. Ccache is free software, released under GPLv3 or later.
