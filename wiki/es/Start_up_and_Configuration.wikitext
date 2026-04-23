@@ -178,7 +178,7 @@ FreeCAD admite las siguientes variables de entorno, que se pueden usar para conf
 {| border="2" cellpadding="4" cellspacing="0" style="margin-top:1em; margin-bottom:1em; background:#f9f9f9; border:1px #aaa solid; border-collapse:collapse;"
 
 |-
-! Variable de entorno !! Correspondiente [[#Configuration_set|Nombre de la variable de configuración]] !! Sinopsis
+! Variable de entorno correspondiente !!  [[#Configuration_set|Nombre de la variable de configuración]] !! Sinopsis
 |-
 | {{incode|FREECAD_USER_HOME}} || UserHomePath || Directorio base de FreeCAD para almacenar los datos locales del usuario.
 
