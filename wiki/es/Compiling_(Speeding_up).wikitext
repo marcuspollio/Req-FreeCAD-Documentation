@@ -18,9 +18,7 @@ Instale {{incode|ccache}} para almacenar en caché las compilaciones.
 
 [https://ccache.dev/ Ccache] acelera la recompilación almacenando en caché compilaciones anteriores y detectando cuándo se realiza la misma compilación nuevamente. Ccache es software libre, distribuido bajo la licencia GPLv3 o posterior.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-On most systems ccache will be automatically detected and enabled, you can use the {{incode|FREECAD_USE_CCACHE}} {{incode|cmake}} option to control this behavior.
-</div>
+En la mayoría de los sistemas, ccache se detectará y habilitará automáticamente; puede usar la opción {{incode|FREECAD_USE_CCACHE}} {{incode|cmake}} para controlar este comportamiento.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Disable modules ==
