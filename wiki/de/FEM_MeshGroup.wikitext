@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[FEM_MeshRegion/de|FEM NetzBereich]]
-|[[FEM_CreateElementsSet/de|Elementsatz erstellen]]
+|[[FEM_MeshDistance/de|FEM NetzAbstand]]
 |[[FEM_Workbench/de|FEM]]
 |IconL=FEM_MeshRegion.svg
-|IconR=FEM_CreateElementsSet.svg
+|IconR=FEM_MeshDistance.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{GuiCommand/de
 |Name=FEM NetzGruppe
@@ -55,16 +53,14 @@ FEM NetzGruppe ermöglicht daher die Verwendung von FreeCAD mit externen Lösern
 * Um zu überprüfen, ob eine Gruppe ordnungsgemäß exportiert wurde, können Sie die generierte Datei in einem beliebigen Texteditor öffnen und nach dem Namen der Gruppe suchen.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[FEM_MeshRegion/de|FEM NetzBereich]]
-|[[FEM_CreateElementsSet/de|Elementsatz erstellen]]
+|[[FEM_MeshDistance/de|FEM NetzAbstand]]
 |[[FEM_Workbench/de|FEM]]
 |IconL=FEM_MeshRegion.svg
-|IconR=FEM_CreateElementsSet.svg
+|IconR=FEM_MeshDistance.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
