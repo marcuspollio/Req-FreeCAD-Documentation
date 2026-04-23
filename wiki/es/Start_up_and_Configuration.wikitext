@@ -363,9 +363,7 @@ Estas entradas de configuración están relacionadas con el mecanismo de persona
 <span id="Querying_the_configuration"></span>
 === Consultando la configuración ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''From FreeCAD's Python console'''
-</div>
+'''Desde la consola de Python de FreeCAD'''
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Entries of the configuration set can be queried with the '''config var name''' (see tables above) from the [[Python_console|Python console]]. For example:
