@@ -43,7 +43,7 @@ FreeCAD mantiene un paquete Homebrew que instala las fórmulas y dependencias ne
 
 {{Incode|brew install}} puede tardar bastante, así que quizás quiera ir a buscar algo de beber. :-).
 
-Alternately, you can install the individual dependencies manually by installing the following packages using {{Incode|brew install ...}}:
+Alternativamente, puede instalar las dependencias individuales manualmente instalando los siguientes paquetes usando {{Incode|brew install ...}}:
 
 * {{incode|cmake}}
 * {{incode|swig}}
