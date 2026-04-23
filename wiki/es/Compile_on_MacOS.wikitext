@@ -167,7 +167,7 @@ Seleccione las opciones de la tabla anterior, luego haga clic en '''Configurar''
 <span id="CMake_command_line"></span>
 === Línea de comandos de CMake ===
 
-Enter the following in the terminal.
+Introduzca lo siguiente en la terminal:
 
 {{Code|code=
 export PREFIX_PATH="/usr/local/opt/qt5152;\
