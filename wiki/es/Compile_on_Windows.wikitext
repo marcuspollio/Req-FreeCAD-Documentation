@@ -501,10 +501,8 @@ El LibPack (paquete de bibliotecas) incluye una versión de Open Cascade (https:
 
 Al compilar Open Cascade para FreeCAD, tenga en cuenta que no hay garantía de que FreeCAD funcione con todas las versiones de Open Cascade. Asimismo, al usar la biblioteca NetGen, debe utilizar una versión de NetGen aprobada para compilarse con la versión de Open Cascade que desea compilar.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To compile:
-* First obtain the Open Cascade source code, either directly from [https://github.com/Open-Cascade-SAS/OCCT Open Cascade's git repository] or by cloning someone else's fork, such as [https://gitlab.com/blobfish/occt the "blobfish" fork] maintained by FreeCAD forum member [https://forum.freecad.org/memberlist.php?mode=viewprofile&u=208 tanderson69].
-</div>
+Para compilar:
+* Primero, obtenga el código fuente de Open Cascade, ya sea directamente del repositorio Git de Open Cascade (https://github.com/Open-Cascade-SAS/OCCT) o clonando una bifurcación de otra persona, como la bifurcación "blobfish" (https://gitlab.com/blobfish/occt) mantenida por el miembro del foro de FreeCAD (https://forum.freecad.org/memberlist.php?mode=viewprofile&u=208) tanderson69.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Then open the CMake GUI to configure the build system in a similar manner to building FreeCAD. These CMake options have to be set (or explicitly not set):
