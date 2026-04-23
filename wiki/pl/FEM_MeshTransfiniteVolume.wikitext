@@ -58,10 +58,8 @@ Możesz tworzyć tyle różnych objętości transfinite, ile potrzeba.
 
 * Użycie tego narzędzia z włączonymi polami ''Automatycznie zastosuj powierzchnie i krzywe transfinite'' oraz ''Rekombinacja'' to najprostszy sposób wygenerowania strukturalnych siatek elementów sześciościennych przy pomocy algorytmu transfinite generatora siatki Gmsh. Wszystkie objętości podrzędne muszą mieć jednak 5 lub 6 ścian z 3 lub 4 krawędziami każda.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_transfinite_volume.png|600px]]
-{{Caption|Structured hexahedral mesh generated using the transfinite volume tool (the lug was divided into subvolumes having the proper number of surfaces and edges)}}
-</div>
+{{Caption|Strukturalna siatka elementów sześciościennych wygenerowana przy pomocy narzędzia Strukturalna objętość transfinite (ucho zostało podzielone na podobjętości o odpowiedniej liczbie powierzchni i krawędzi)}}
 
 
 {{Docnav
