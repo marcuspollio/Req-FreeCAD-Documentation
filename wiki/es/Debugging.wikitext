@@ -330,11 +330,11 @@ squashfs-root> ./usr/bin/freecadcmd
 
 * Debe iniciar una sesión de línea de comandos de FreeCAD.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Install [https://www.liclipse.com/ LiClipse].
-** Comes ready with pydev and has installers for all platforms.
-** For linux it is just to extract (to any location) and run.
-</div>
+* Instale [https://www.liclipse.com/ LiClipse].
+
+** Viene con PyDev preinstalado y cuenta con instaladores para todas las plataformas.
+
+** Para Linux, solo tiene que extraerlo (en cualquier ubicación) y ejecutarlo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Configure liclipse for debugging.
