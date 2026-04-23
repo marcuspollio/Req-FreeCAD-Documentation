@@ -455,9 +455,7 @@ Para instalar el complemento, copie la DLL en una de las siguientes ubicaciones:
 * Si usa LibPack: a la carpeta '''~\FreeCADLibs_2_8_x64_VC2019\plugins\designer'''
 * Si tiene una instalación completa de Qt: puede elegir entre la carpeta ''C:\Qt\5.15.2\msvc2019_64\plugins\designer'' o ''C:\Qt\5.15.2\msvc2019_64\bin\designer'' (primero debe crear la subcarpeta ''designer''). (¡Adapte las rutas a su instalación!).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Finally (re)start Qt Designer and check its menu {{MenuCommand|Help → Plugins}}. If the plugin '''FreeCAD_widgets.dll''' is listed as being loaded, you can now design and change FreeCAD's .ui files. If not, you must [[#Compilation|compile]] the DLL by yourself.
-</div>
+Finalmente, reinicie Qt Designer y revise su menú {{MenuCommand|Help → Plugins}}. Si el plugin '''FreeCAD_widgets.dll''' aparece como cargado, ya puede diseñar y modificar los archivos .ui de FreeCAD. De lo contrario, debe [[#Compilation|compilar]] la DLL manualmente.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you prefer using [https://en.wikipedia.org/wiki/Qt_Creator Qt Creator] instead of Qt Designer, the plugin file must be placed in this folder:</br>''C:\Qt\Qt5.15.2\Tools\QtCreator\bin\plugins\designer''</br>Then (re)start Qt Creator, switch to the mode '''Design''' and then check the menu {{MenuCommand|Tools → Form Editor → About Qt Designer Plugins}}. If the plugin '''FreeCAD_widgets.dll''' is listed as being loaded, you can now design and change FreeCAD's .ui files. If not, you must [[#Compilation|compile]] the DLL by yourself.
