@@ -646,7 +646,7 @@ El programa {{incode|cmake}} debería ejecutarse automáticamente de nuevo, y de
 
 Si quiere desarrollar código Qt para FreeCAD, necesitará el plugin Qt Designer que proporciona todos los widgets personalizados de FreeCAD.
 
-Entra en un directorio auxiliar del código fuente, ejecuta {{incode|qmake}} con el archivo de proyecto indicado para crear un {{incode|Makefile}}; luego ejecuta {{incode|make}} para compilar el plugin.
+Acceda a un directorio auxiliar del código fuente y, a continuación, ejecute {{incode|qmake}} con el archivo de proyecto indicado para crear un {{incode|Makefile}}; luego ejecute {{incode|make}} para compilar el complemento.
 
 {{Code|lang=bash|code=
 cd freecad-source/src/Tools/plugins/widget
