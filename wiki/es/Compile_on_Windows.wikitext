@@ -137,7 +137,8 @@ Una vez que tenga todas las herramientas, bibliotecas además del código fuente
 
 # Use Visual Studio para compilar FreeCAD.
 
-===CMake===
+<span id="CMake"></span>
+=== CMake ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 First, configure the build environment using CMake:
