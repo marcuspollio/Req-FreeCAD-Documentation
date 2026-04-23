@@ -336,19 +336,26 @@ squashfs-root> ./usr/bin/freecadcmd
 
 ** Para Linux, solo tiene que extraerlo (en cualquier ubicación) y ejecutarlo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Configure liclipse for debugging.
-** Right-click pydev icon (upper right corner) and choose customize.
-*** Activate "PyDev Debug" (through checkbox, or it might be needed to go to tab "Action Set Availability" and activate there first).
-*** In the pydev menu you can now choose "start debug server".
-** Use menu window/open perspective/other > debug.
-*** Right-click debug icon (upper right corner) and choose customize.
-*** Checking "Debug" brings the debugging navigation tools to the toolbar.
-** Open preferences through menu window/preferences.
-*** In PyDev/Interpreters add "new Interpreter by browsing".
-*** The added interpreter should be: {{incode|your loc/squashfs-root/usr/bin/python}}.
-*** If you are only using this for FreeCAD, you can add AddOn workbench folders as well, or do that in a pydev-project later on.
-</div>
+* Configure liclipse para la depuración.
+
+** Haga clic derecho en el icono de pydev (esquina superior derecha) y seleccione "Personalizar".
+
+*** Active "PyDev Debug" (mediante la casilla de verificación; también puede ser necesario ir a la pestaña "Disponibilidad del conjunto de acciones" y activarlo allí primero).
+
+*** En el menú de pydev, ahora puede seleccionar "Iniciar servidor de depuración".
+
+** Use el menú Ventana/Abrir perspectiva/Otros > Depurar.
+
+*** Haga clic derecho en el icono de depuración (esquina superior derecha) y seleccione "Personalizar".
+
+*** Al marcar "Depurar", las herramientas de navegación de depuración se añaden a la barra de herramientas.
+
+** Abra las preferencias a través del menú Ventana/Preferencias.
+
+*** En PyDev/Interpreters, añada "Nuevo intérprete mediante la búsqueda".
+
+*** El intérprete añadido debe ser: {{incode|tu_ruta_local/squashfs-root/usr/bin/python}}.
+*** Si solo lo usa para FreeCAD, también puede agregar carpetas de entorno de trabajo AddOn, o hacerlo más adelante en un proyecto pydev.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Find path to {{incode|pydevd.py}} in your liclipse installation.
