@@ -444,9 +444,7 @@ FreeCAD utiliza CMake como su principal sistema de compilación, ya que está di
 Dado que FreeCAD es una aplicación de gran tamaño, la compilación de todo el código fuente puede tardar entre 10 minutos y una hora, dependiendo de tu CPU y del número de núcleos de la CPU utilizados para la compilación.
 
 <span id="Building"></span>
-<div class="mw-translate-fuzzy">
-=== Creación fuera-fuente ===
-</div>
+=== Compilando ===
 
 Para compilar, simplemente cree un directorio de compilación, {{incode|build}}. Luego, desde este directorio, configure {{incode|cmake}} para que apunte a la carpeta de origen correcta. También puede usar {{incode|cmake-gui}} o {{incode|ccmake}} en lugar de {{incode|cmake}} en las instrucciones a continuación. Una vez que {{incode|cmake}} termine de configurar el entorno, use {{incode|make}} para iniciar la compilación.
 
