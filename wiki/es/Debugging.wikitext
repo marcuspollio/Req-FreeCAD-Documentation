@@ -266,19 +266,21 @@ ptvsd.wait_for_attach()
         },
 </pre>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* In VS Code add a breakpoint anywhere you want.
-* Launch the script in FreeCAD. FreeCAD freeze waiting for attachment.
-* In VS Code start debugging using created configuration. You should see variables in debugger area.
-* When setting breakpoints, VS Code will complain about not finding the .py file opened in the VS Code editor.
-** Change "remoteRoot": "." to "remoteRoot": "<directory of file>"
-*** For example, if the Python file resides in ''/home/FC_myscripts/myscript.py''
-*** Change to: "remoteRoot": "/home/FC_myscripts"
-** If you're just debugging FreeCAD macros from the FreeCAD macro folder, and that folder is "C:/Users/<userid>/AppData/Roaming/FreeCAD/Macro", then use:
+* En VS Code, añada un punto de interrupción donde quiera.
+
+* Ejecute el script en FreeCAD. FreeCAD se congelará esperando la conexión.
+
+* En VS Code, inicie la depuración con la configuración creada. Debería ver las variables en el área del depurador.
+
+* Al establecer puntos de interrupción, VS Code mostrará un error indicando que no encuentra el archivo .py abierto en el editor de VS Code.
+
+** Cambie "remoteRoot": "." a "remoteRoot": "<directorio del archivo>"
+*** Por ejemplo, si el archivo Python se encuentra en ''/home/FC_myscripts/myscript.py''
+*** Cambiar a: "remoteRoot": "/home/FC_myscripts"
+** Si solo está depurando macros de FreeCAD desde la carpeta de macros de FreeCAD, y esa carpeta es "C:/Users/<userid>/AppData/Roaming/FreeCAD/Macro", entonces use:
 *** "localRoot": "C:/Users/<userid>/AppData/Roaming/FreeCAD/Macro",
 *** "remoteRoot": "C:/Users/<userid>/AppData/Roaming/FreeCAD/Macro"
-* If your macro can't find ptvsd despite having installed it somewhere precede 'import ptvsd' with
-</div>
+* Si su macro no encuentra ptvsd a pesar de haberlo instalado en algún lugar, anteponga 'import ptvsd' con
 
 {{Code|code=
 from sys import path
