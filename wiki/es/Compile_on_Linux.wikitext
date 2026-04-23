@@ -741,7 +741,7 @@ sudo dpkg -r freecad-test1                        # uninstall by name
 
 El sistema CMake permite actualizar de forma inteligente el código fuente, y sólo recompilar lo que ha cambiado, haciendo que las compilaciones posteriores sean más rápidas.
 
-Muévete a la ubicación donde el código fuente de FreeCAD fue descargado por primera vez, y saca el nuevo código:
+Diríjase a la ubicación donde se descargó por primera vez el código fuente de FreeCAD y descargue el nuevo código:
 
 {{Code|lang=bash|code=
 cd freecad-source
