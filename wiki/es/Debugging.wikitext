@@ -384,9 +384,7 @@ squashfs-root> ./usr/bin/freecad
 
 * Ejecute la macro (o cualquier otro archivo con un disparador {{incode|pydevd.settrace()}}) desde FreeCAD, como lo haría normalmente.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Happy debugging.
-</div>
+* ¡Feliz depuración!
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The use of LiClipse for remote debugging, and the steps described here related to liclipse, should work on any platform.  The parts related to AppImage is for linux only.
