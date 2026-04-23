@@ -9,7 +9,7 @@
 
 {{VeryImportantMessage|En febrero de 2022, el seguimiento de errores de FreeCAD se migró a [https://github.com/FreeCAD/FreeCAD/issues GitHub Issues]. El sistema de seguimiento de errores Mantis que se describe a continuación ahora está en modo de solo lectura.}}
 
-[[Archivo:Mantis_logo_262x90.png|center|link=https://mantisbt.org es el marco de seguimiento de errores que utiliza FreeCAD]]
+[[File:Mantis_logo_262x90.png|center|link=https://mantisbt.org es el marco de seguimiento de errores que utiliza FreeCAD]]
 
 El [https://tracker.freecad.org FreeCAD BugTracker] es el lugar para informar de errores, enviar solicitudes de nuevas funciones, parches o solicitar la fusión de su rama si ha desarrollado algo con Git. El sistema está dividido en '''Entornos de trabajo''', así que sea específico y publique su solicitud en la subsección correspondiente. En caso de duda, déjela en la sección "FreeCAD". 
 
