@@ -166,9 +166,7 @@ Ahora no debería haber errores. Si sigue encontrando errores que no puede diagn
 
 El sistema de compilación CMake le permite controlar algunos aspectos del proceso de compilación. En particular, puede activar o desactivar ciertas funciones o módulos mediante variables de CMake.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Here is a description of some of these variables:
-</div>
+A continuación se describe alguna de estas variables:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable" style="text-align:left"
