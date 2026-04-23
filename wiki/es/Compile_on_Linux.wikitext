@@ -758,9 +758,8 @@ cmake ../
 make -j$(nproc --ignore=2)
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Uninstalling the source code ==
-</div>
+<span id="Uninstalling_the_source_code"></span>
+== Desinstalación del código fuente ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In case the compiled source code was installed with {{incode|sudo make install}} (for Debian) the files were copied to the {{FileName|/usr/local}} folder into several subfolders. For uninstallation the file {{FileName|install_manifest.txt}} can be used. It has been created into the build folder during compilation and contains all installed files. As long as this file exists, the installation can be uninstalled.
