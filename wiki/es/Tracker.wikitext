@@ -24,14 +24,30 @@ Como se muestra en el diagrama de flujo anterior, antes de crear incidencias, co
 
 Si cree que ha encontrado un error, puede informar de este siempre y cuando haya seguido nuestras instrucciones paso a paso.
 
-<div class="mw-translate-fuzzy">
-* Asegúrate de que tu error es realmente un bug, es decir, algo que debería estar trabajando y que no está funcionando. Si no estás seguro, no dudes en explicar tu problema en el [http://forum.freecadweb.org/ foro] y pregunta qué hacer.
-* Antes de enviar cualquier cosa, lee las [[FAQ|FAQ - Preguntas más frecuentes]], haz una búsqueda en el [http://forum.freecadweb.org/ foro], y asegúrate de que el mismo error no se ha informado antes, haciendo una búsqueda en el bug tracker.
-* Describe lo más claramente posible el problema, y cómo puede ser reproducido. Si no podemos verificar el error, puede que no seamos capaces de solucionarlo.
-* Incluye la siguiente información: Tu sistema operativo, si es 32 o 64 bits, y la versión de FreeCAD que estás ejecutando.
-* Por favor presenta un informe por separado para cada error.
-* Si estás en un sistema linux y tu error provoca un cuelgue en FreeCAD, puedes intentar ejecutar un backtrace debug: Desde un terminal ejecuta ''gdb freecad'' (suponiendo que el paquete gdb esté instalado), entonces, dentro de gdb, escribe ''run''. FreeCAD se ejecutará. Después de que se produzca el fallo, teclea ''bt'', para obtener el trazado completo. Incluye la salida del backtrace en tu informe de error.
-</div>
+* Asegúrese de usar la versión más reciente de FreeCAD. '''NOTA''': Es posible que su error se haya corregido en la versión de desarrollo (inestable). El usuario promedio usa la versión estable de FreeCAD.
+
+* Asegúrase de que su error sea realmente un error, es decir, algo que debería funcionar pero no lo hace. '''Asegúrase de que el mismo error no se haya reportado antes buscando primero en el sistema de seguimiento de errores y en el foro'''.
+
+** Recuerde: si no está seguro, no dude en explicar su problema/error en el [foro de ayuda https://forum.freecad.org/viewforum.php?f=3] y preguntar qué hacer.
+
+** '''NOTA''': antes de publicar en el foro, lea las [directrices del foro https://forum.freecad.org/viewtopic.php?f=3&t=2264].
+
+* Describa el problema con la mayor claridad posible y cómo se puede reproducir. Si no podemos verificar el error, es posible que no podamos solucionarlo.
+** Esto significa informar del error de forma clara, con formato adecuado y paso a paso, para que incluso un usuario aficionado pueda reproducirlo.
+
+** Se recomienda incluir capturas de pantalla del error. Usuarios de Windows: no adjunten capturas de pantalla en formato Word o PDF. Utilicen la herramienta Recortes de Windows para guardar la captura como imagen PNG.
+
+** Se recomienda aún más incluir un GIF animado o una grabación de pantalla para aumentar la probabilidad de reproducir el problema.
+
+** Añadan un archivo de ejemplo de FreeCAD (.FCStd) para que los desarrolladores/probadores puedan reproducir el error rápidamente.
+
+** No compriman el archivo *.FCStd, ya está comprimido.
+
+** El tamaño de los archivos adjuntos es limitado. Si su archivo *.FCStd es demasiado grande para adjuntarlo, puede usar un servicio de almacenamiento en la nube (muchos son gratuitos, como Google Drive, Microsoft OneDrive y Dropbox). * Incluya toda la información del botón "Copiar al portapapeles" en el cuadro de diálogo '''Ayuda (menú) -> Acerca de FreeCAD'''. Asegúrese de que sus datos incluyan su versión de OCC u OCE.
+
+* Por favor, envíe un informe independiente para cada error.
+
+* Si su error provoca un fallo en FreeCAD y su sistema lo admite, puede intentar ejecutar un '''seguimiento de depuración''' y adjuntarlo al informe. Esto puede ahorrarles mucho tiempo a los desarrolladores al identificar la causa del fallo. Consulte [[Depuración|Depuración]] para obtener más detalles.
 
 <span id="Requesting_features"></span>
 == Solicitar funcionalidades ==
