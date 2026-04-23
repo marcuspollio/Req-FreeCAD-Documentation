@@ -69,7 +69,7 @@ Elegí la [http://en.wikipedia.org/wiki/LGPL LGPL] para el proyecto y conozco la
 
 FreeCAD es una mezcla de biblioteca y aplicación, por lo que la GPL sería demasiado restrictiva. Impediría escribir módulos comerciales para FreeCAD, ya que impediría la vinculación con las bibliotecas base de FreeCAD. Quizás se pregunten qué módulos comerciales. Linux es un buen ejemplo. ¿Tendría Linux tanto éxito si la biblioteca C de GNU fuera GPL e impidiera la vinculación con aplicaciones que no lo fueran? Y aunque me encanta la libertad de Linux, también quiero poder usar el excelente controlador gráfico 3D de NVIDIA. Entiendo y acepto la razón por la que NVIDIA no quiere regalar el código del controlador. Todos trabajamos para empresas y necesitamos un salario o al menos comida. Así que, para mí, la coexistencia de software de código abierto y de código cerrado no es mala, siempre que cumpla con las reglas de la LGPL. Me gustaría ver a alguien escribir un procesador de importación/exportación de Catia para FreeCAD y distribuirlo gratuitamente o a cambio de dinero. No me gusta obligarlo a regalar más de lo que quiere. Eso no sería bueno ni para él ni para FreeCAD.
 
-No obstante, esta decisión se ha tomado sólo para el sistema básico de FreeCAD. Todo escritor de un módulo de aplicación puede tomar su propia decisión.
+Sin embargo, esta decisión se aplica únicamente al sistema central de FreeCAD. Cada desarrollador de un módulo de aplicación puede tomar su propia decisión.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Quote|Jürgen Riegel|15 October 2006}}
