@@ -296,7 +296,7 @@ Un tutorial en inglés que comienza con la configuración en CMake Gui y contin�
 *** Desmarcar: Desplegar siempre el proyecto antes de ejecutarlo
 
 <span id="Import_project_and_building"></span>
-==== Importar proyecto y edificio ====
+==== Importar proyecto y compilación ====
 
 * Archivo → Abrir archivo o proyecto
 * Abra '''CMakeLists.txt''', que se encuentra en la raíz del código fuente.
