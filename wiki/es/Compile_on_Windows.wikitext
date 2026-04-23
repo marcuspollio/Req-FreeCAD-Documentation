@@ -620,11 +620,9 @@ Sin embargo, podría compilar Netgen de todos modos. Es una tarea sencilla:
 || Vacío
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Additionally you need to add a new CMake entry:
-name: ''CMAKE_DEBUG_POSTFIX'', type: ''string'', content: '''_d'''</br>
-This assures that he file names of the debug libraries get another name than the release libraries and can later not be accidentally exchanged.
-</div>
+* Además, debe agregar una nueva entrada de CMake:
+nombre: ''CMAKE_DEBUG_POSTFIX'', tipo: ''string'', contenido: '''_d'''</br>
+Esto garantiza que los nombres de archivo de las bibliotecas de depuración sean diferentes a los de las bibliotecas de lanzamiento y que posteriormente no se intercambien accidentalmente.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Press the ''Configure'' button in CMake to generate the *.cmake files.
