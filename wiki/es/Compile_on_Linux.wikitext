@@ -22,7 +22,7 @@ A continuación, encontrará explicaciones detalladas de todo el proceso, alguno
 {{Caption|Flujo de trabajo general para compilar FreeCAD desde el código fuente. Las dependencias de terceros deben estar en el sistema, así como el propio código fuente de FreeCAD. CMake configura el sistema de manera que con una sola instrucción make se compile todo el proyecto.}}
 
 <span id="Getting_the_source"></span>
-== Obtener la fuente ==
+== Obtención del código fuente ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Interacting with the source code requires [https://git-scm.com/ {{incode|git}}]. Refer to your current distribution's instructions on how to install its binaries. For instance, on Debian related distributions, Git can be installed via the following command:
