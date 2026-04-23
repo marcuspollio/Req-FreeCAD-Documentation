@@ -595,9 +595,7 @@ locate python3.6
 
 Puede utilizar {{incode|python3 -m site}} en un terminal para determinar el directorio {{incode|site-packages}}, o {{incode|dist-packages}} para los sistemas Debian.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Some components of FreeCAD, such as PySide, try to autodetect the most recent Python version installed on your system, which might fail if it is different from what you entered above. Adding the following cMake option might solve the issue:
-</div>
+Algunos componentes de FreeCAD, como PySide, intentan detectar automáticamente la versión más reciente de Python instalada en su sistema, lo que podría fallar si es diferente de la que ingresó anteriormente. Agregar la siguiente opción de cMake podría solucionar el problema:
 
 {{Code|lang=bash|code=
 -DPython3_FIND_STRATEGY=LOCATION
