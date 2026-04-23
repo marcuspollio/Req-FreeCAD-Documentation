@@ -419,15 +419,13 @@ donde ''main'' es el nombre de la rama principal de desarrollo. Si desea obtener
 
 Si se publica una nueva versión principal de una dependencia de terceros como Open Cascade, o si una dependencia de terceros incluye correcciones de errores importantes, se publica un nuevo LibPack. Puede encontrar la última versión aquí [https://github.com/FreeCAD/FreeCAD-LibPack/releases/].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To update your LibPack the following recipe is best practice:
-# Delete the ''bin'' folder in your build folder.
-# Switch to your local LibPack folder and delete everything there.
-# Extract the content of the new LibPack ZIP file into the existing, but now empty, local LibPack folder.
-# Open CMake and there press the button '''Configure''' and then the button '''Generate'''. This recreates the ''bin'' folder you just deleted and also copies the new LibPack files into it.
-# In CMake click the button '''Open Project''' and the MSVC IDE will open.
-# In the MSVC IDE build the target ''INSTALL''.
-</div>
+Para actualizar su LibPack, siga estos pasos:
+# Elimine la carpeta "bin" de su carpeta de compilación.
+# Acceda a su carpeta local de LibPack y elimine todo su contenido.
+# Extraiga el contenido del nuevo archivo ZIP de LibPack en la carpeta local de LibPack existente, ahora vacía.
+# Abra CMake y pulse el botón '''Configure''' y luego el botón '''Generate'''. Esto recrea la carpeta '''bin''' que acaba de eliminar. Copie los nuevos archivos de LibPack en ella.
+# En CMake, haga clic en el botón '''Open Project''' y se abrirá el IDE de MSVC.
+# En el IDE de MSVC, compile el objetivo '''INSTALL'''.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Tools==
