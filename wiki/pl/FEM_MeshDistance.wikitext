@@ -37,8 +37,8 @@ Narzędzie '''Zagęszczenie oparte na odległości''' może być użyte do ustaw
 # Aby skorzystać z tego polecenia, potrzebna jest [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/pl|siatka wygenerowana przez Gmsh]].
 # Wybierz obiekt siatki w [[Tree_View/pl|Widoku drzewa]].
 # Istnieje kilka sposobów na wywołanie tego polecenia:
-#* Wciśnij przycisk {{Button|[[Image:FEM_MeshDistance.svg|16px]] [[FEM_MeshDistance/pl|Zagęszczenie oparte o odległość]]}}.
-#* Wybierz opcję {{MenuCommand|Siatka → Zagęszczenia GMSH → [[Image:FEM_MeshDistance.svg|16px]] Zagęszczenie oparte o odległość}} z menu.
+#* Wciśnij przycisk {{Button|[[Image:FEM_MeshDistance.svg|16px]] [[FEM_MeshDistance/pl|Zagęszczenie oparte na odległości]]}}.
+#* Wybierz opcję {{MenuCommand|Siatka → Zagęszczenia GMSH → [[Image:FEM_MeshDistance.svg|16px]] Zagęszczenie oparte na odległości}} z menu.
 # Edytuj cztery pola odległość vs rozmiar siatki. Od góry do prawej:
 #* Rozmiar siatki gdy odległość < odległość minimalna
 #* Rozmiar siatki gdy odległość = odległość maksymalna
