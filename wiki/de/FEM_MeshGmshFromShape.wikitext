@@ -125,16 +125,14 @@ Unten links: Rekombination an der Oberfläche und im Volumen unter Verwendung de
 Unten rechts: Rekombination an der Oberfläche und im Volumen unter Verwendung des '''einfachen full-quad''' Algorithmus}}
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[FEM_MeshNetgenFromShape/de|Netz aus Form durch Netgen]]
-|[[FEM_MeshBoundaryLayer/de|NetzGrenzschicht]]
+|[[FEM_MeshRegion/de|NetzBereich]]
 |[[FEM_Workbench/de|FEM]]
 |IconL=FEM_MeshNetgenFromShape.svg
-|IconR=Fem-femmesh-boundary-layer.svg
+|IconR= FEM_MeshRegion.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
