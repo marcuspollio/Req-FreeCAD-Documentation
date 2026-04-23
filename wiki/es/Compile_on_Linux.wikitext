@@ -420,9 +420,7 @@ FreeCAD requiere una versión del compilador GNU g++ igual o superior a la 3.0.0
 
 === Pivy ===
 
-<div class="mw-translate-fuzzy">
-[[Pivy/es|Pivy]] (envoltorios de Python para Coin3d) no es necesario para construir FreeCAD o para iniciarlo, pero es necesario como una dependencia en tiempo de ejecución por el [[Draft_Workbench/es|Ambiente de Trabajo Borrador]]. Si no vas a utilizar este ambiente de trabajo, no necesitarás Pivy. Sin embargo, ten en cuenta que el Ambiente de Trabajo Borrador es utilizado internamente por otros ambientes de trabajo, como [[Arch_Workbench/es|Arquitectura]] y [[BIM_Workbench/es|BIM]], por lo que Pivy necesita ser instalado para utilizar estos ambientes de trabajo también.
-</div>
+[[Pivy|Pivy]] (un envoltorio de Python para Coin3D) no es necesario para compilar FreeCAD ni para iniciarlo, pero sí como dependencia de tiempo de ejecución para el Entorno de Trabajo de Piezas. Si no va a utilizar este entorno de trabajo, no necesitará Pivy. Sin embargo, tenga en cuenta que este entorno se utiliza internamente por otros entornos de trabajo, como el Entorno de Trabajo de BIM, por lo que Pivy debe estar instalado para utilizar también estos entornos.
 
 En noviembre de 2015 la versión obsoleta de Pivy incluida con el código fuente de FreeCAD ya no compilará en muchos sistemas. Esto no es un gran problema ya que normalmente deberías obtener Pivy desde el gestor de paquetes de tu distribución; si no puedes encontrar Pivy, puede que tengas que compilarlo tú mismo, ver [[Extra_python_modules/es#Pivy|Instrucciones de compilación de Pivy]].
 
