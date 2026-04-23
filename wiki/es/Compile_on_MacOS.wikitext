@@ -160,7 +160,7 @@ Nota: Línea de comandos para generar CMAKE_PREFIX_PATH:
 
 Abra la aplicación CMake y complete los campos de carpeta de origen y de compilación. En este ejemplo, sería '''/Users/username/FreeCAD/FreeCAD-git''' para el origen y '''/Users/username/FreeCAD/build''' para la compilación. 
 
-Next, click the '''Configure''' button to populate the list of configuration options. This will display a dialog asking you to specify what generator to use. Leave it at the default '''Unix Makefiles.''' Configuring will fail the first time because there are some options that need to be changed. Note: You will need to check the '''Advanced''' checkbox to get all of the options.
+A continuación, haga clic en el botón '''Configurar''' para que aparezca la lista de opciones de configuración. Se mostrará un cuadro de diálogo donde deberá especificar el generador que desea utilizar. Déjelo en la opción predeterminada '''Unix Makefiles'''. La configuración fallará la primera vez porque hay algunas opciones que deben modificarse. Nota: Deberá marcar la casilla '''Avanzado''' para acceder a todas las opciones.
 
 Set options from the table above, then click '''Configure''' again and then '''Generate'''.
 
