@@ -66,11 +66,11 @@ Como alternativa, sustituya {{incode|freecad}} por {{incode|freecad-daily}} para
 
 Sin embargo, si la versión de FreeCAD en los repositorios es antigua, las dependencias podrían no ser las adecuadas para compilar una versión reciente de FreeCAD. Por lo tanto, verifique que haya instalado los siguientes paquetes.
 
-Estos paquetes son esenciales para que cualquier tipo de compilación tenga éxito:
-*{{incode|build-essential}}, instala los compiladores C y C++, las librerías de desarrollo C y el programa {{incode|make}}.
-*{{incode|cmake}}, herramienta esencial para configurar el código fuente de FreeCAD. También puedes querer instalar {{incode|cmake-gui}} y {{incode|cmake-curses-gui}} para una opción gráfica.
-*{{incode|libtool}}, herramientas esenciales para producir bibliotecas compartidas.
-*{{incode|lsb-release}}, la utilidad estándar de informes de base normalmente ya está instalada en un sistema Debian, y le permite distinguir mediante programación entre una instalación Debian pura o una variante, como Ubuntu o Linux Mint. No elimine este paquete, ya que muchos otros paquetes del sistema pueden depender de él.
+Estos paquetes son esenciales para que cualquier compilación se realice correctamente:
+*{{incode|build-essential}}, instale los compiladores de C y C++, las bibliotecas de desarrollo de C y el programa {{incode|make}}.
+*{{incode|cmake}}, herramienta esencial para configurar el código fuente de FreeCAD. También puede instalar {{incode|cmake-gui}} y {{incode|cmake-curses-gui}} para una interfaz gráfica.
+*{{incode|libtool}}, herramientas esenciales para generar bibliotecas compartidas.
+*{{incode|lsb-release}}, la utilidad estándar de informes base, normalmente ya está instalada en un sistema Debian y permite distinguir programáticamente entre una instalación Debian pura y una variante, como Ubuntu o Linux Mint. No elimine este paquete, ya que muchos otros paquetes del sistema pueden depender de él.
 
 La compilación de FreeCAD utiliza el lenguaje Python, y también se utiliza en tiempo de ejecución como lenguaje de scripting. Si estás usando una distribución basada en Debian el intérprete de Python normalmente ya está instalado.
 *{{incode|python3}}
