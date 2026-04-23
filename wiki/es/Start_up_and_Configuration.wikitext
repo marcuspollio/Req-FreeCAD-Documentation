@@ -195,9 +195,7 @@ Las variables de entorno mencionadas anteriormente están diseñadas para crear 
 
 === {{incode|HOME}} ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-FreeCAD uses [[Third_Party_Libraries#Qt|Qt]], which does honor the {{incode|HOME}} environmental variable. Thus, setting {{incode|HOME}} can be used to specify the base directory of Qt-related configuration files ({{incode|.config/FreeCAD/FreeCAD.conf}}).
-</div>
+FreeCAD utiliza [[Third_Party_Libraries#Qt|Qt]], que sí respeta la variable de entorno {{incode|HOME}}. Por lo tanto, configurar {{incode|HOME}} se puede usar para especificar el directorio base de los archivos de configuración relacionados con Qt ({{incode|.config/FreeCAD/FreeCAD.conf}}).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 FreeCad itself does not honor the {{incode|HOME}} environmental variable (because it determines the user's home directory from a lower-level system API). Use {{incode|FREECAD_USER_HOME}} for this pupose.
