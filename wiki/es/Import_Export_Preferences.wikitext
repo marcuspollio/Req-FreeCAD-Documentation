@@ -674,9 +674,7 @@ En esta página puede especificar lo siguiente:
 
 Si se selecciona '''Ninguno (más rápido)''', no se importarán las configuraciones de color ni de ancho de línea.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If '''Use default color and linewidth''' is selected FreeCAD will use its default color and line width.
-</div>
+Si se selecciona '''Usar color y grosor de línea predeterminados''', FreeCAD utilizará su color y grosor de línea predeterminados.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If '''Original color and linewidth''' is selected FreeCAD will use the color and linewidth from the SVG objects.
