@@ -654,7 +654,7 @@ qmake plugin.pro
 make
 }}
 
-Si estás compilando para Qt5, asegúrate de que el binario {{incode|qmake}} es el correspondiente a esta versión, para que el {{incode|Makefile}} resultante contenga la información necesaria para Qt5.
+Si está compilando para Qt5, asegúrase de que el binario {{incode|qmake}} es el correspondiente a esta versión, para que el {{incode|Makefile}} resultante contenga la información necesaria para Qt5.
 
 {{Code|lang=bash|code=
 cd freecad-source/src/Tools/plugins/widget
