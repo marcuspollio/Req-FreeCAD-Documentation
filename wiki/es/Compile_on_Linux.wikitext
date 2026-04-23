@@ -994,7 +994,6 @@ Pasos: #Abra una terminal. Opcionalmente, cree un directorio, por ejemplo: {{inc
 #Clone el repositorio AUR: {{incode | git clone https://aur.archlinux.org/freecad-git.git}}.
 #Entre en la carpeta del repositorio AUR: {{incode | cd freecad-git}}.
 #Compile usando Makepkg (disponible en [https://wiki.archlinux.org/index.php/Makepkg Arch makepkg]): {{incode | makepkg -s}}. La opción -s o --syncdeps también instalará las dependencias necesarias.
-
 #Instale el paquete creado: {{incode | makepkg --install}} o haga doble clic en el archivo pkgname-pkgver.pkg.tar.xz en su explorador de archivos.
 
 Para actualizar FreeCAD a la última versión, repita desde el paso 3. Actualice el repositorio AUR cuando haya algún cambio incompatible en la receta o nuevas funciones usando {{incode|git checkout -f}} dentro de la carpeta.
