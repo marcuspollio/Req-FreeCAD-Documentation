@@ -464,9 +464,8 @@ Si prefiere usar [https://en.wikipedia.org/wiki/Qt_Creator Qt Creator] en lugar 
 
 FreeCAD incluye la función de previsualización en miniatura para archivos *.FCStd. Esto significa que, en el explorador de archivos de Windows, los archivos *.FCStd se muestran con una captura de pantalla del modelo que contienen. Para que FreeCAD disponga de esta función, es necesario tener instalado en Windows el archivo '''FCStdThumbnail.dll'''.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====Installation====
-</div>
+<span id="Installation"></span>
+==== Instalación ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The DLL is installed this way:
