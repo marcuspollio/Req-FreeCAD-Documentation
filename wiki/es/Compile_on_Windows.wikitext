@@ -162,7 +162,7 @@ Si no hay errores relacionados con Visual Studio o Python, todo está bien, pero
 Ahora no debería haber errores. Si sigue encontrando errores que no puede diagnosticar, visite el foro [https://forum.freecad.org/viewforum.php?f=4 Install/Compile forum] en el sitio web del foro de FreeCAD. Si CMake se ejecutó correctamente, haga clic en '''Generate'''. Una vez hecho esto, puede cerrar CMake e iniciar la compilación de FreeCAD con Visual Studio. Sin embargo, para la primera compilación, manténgalo abierto por si necesita modificar alguna opción del proceso de compilación.
 
 <span id="Options_for_the_build_process"></span>
-=== Opciones para el proceso de construcción ===
+=== Opciones para el proceso de compilación ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The CMake build system gives you control over some aspects of the build process. In particular, you can switch on and off some features or modules using CMake variables.
