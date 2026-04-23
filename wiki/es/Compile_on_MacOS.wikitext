@@ -30,7 +30,7 @@ Para que el proceso de compilación sea compatible, es necesario instalar el sig
 <span id="Homebrew_Package_Manager"></span>
 === Gestor de paquetes Homebrew ===
 
-Homebrew is a command line based package manager for macOS. The [https://brew.sh/ Homebrew main page] provides an installation command line that you simply paste into a terminal window.
+Homebrew es un gestor de paquetes basado en línea de comandos para macOS. La página principal de Homebrew (https://brew.sh/) proporciona una línea de comandos de instalación que simplemente debes pegar en una ventana de terminal.
 
 === CMake ===
 
