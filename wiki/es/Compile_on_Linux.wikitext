@@ -257,7 +257,7 @@ ln -s pyrcc5 pyside2-rcc
 ln -s pyuic5 pyside2-uic
 }}
 
-Ahora la compilación puede continuar.
+Ahora, la compilación puede continuar.
 
 {{Code|lang=bash|code=
 cd build/
