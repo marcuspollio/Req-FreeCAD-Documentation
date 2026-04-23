@@ -17,10 +17,13 @@ Imagen Docker de FreeCAD compilada sin interfaz gráfica de usuario (GUI). Esta 
 <span id="Benefits"></span>
 === Beneficios ===
 
-Todas las dependencias de FreeCAD ya están instaladas, son compatibles entre sí y están configuradas adecuadamente, lo que te permite empezar a desarrollar muy rápidamente.
-* Es fácil de usar y ligero.
-* Da un mejor rendimiento en términos de velocidad.
-* No es necesario añadir rutas de FreeCAD para importarlo a Python.
+Todas las dependencias de FreeCAD ya están instaladas, son compatibles entre sí y están configuradas correctamente, lo que permite comenzar a desarrollar rápidamente.
+
+* Fácil de usar y ligero.
+
+* Ofrece un mejor rendimiento en términos de velocidad.
+
+* No es necesario agregar rutas de FreeCAD para importarlo en Python.
 
 <span id="Docker_Repository"></span>
 ==Docker Repositorio== 
