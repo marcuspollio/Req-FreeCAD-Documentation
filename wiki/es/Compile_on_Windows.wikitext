@@ -504,52 +504,61 @@ Al compilar Open Cascade para FreeCAD, tenga en cuenta que no hay garantía de q
 Para compilar:
 * Primero, obtenga el código fuente de Open Cascade, ya sea directamente del repositorio Git de Open Cascade (https://github.com/Open-Cascade-SAS/OCCT) o clonando una bifurcación de otra persona, como la bifurcación "blobfish" (https://gitlab.com/blobfish/occt) mantenida por el miembro del foro de FreeCAD (https://forum.freecad.org/memberlist.php?mode=viewprofile&u=208) tanderson69.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Then open the CMake GUI to configure the build system in a similar manner to building FreeCAD. These CMake options have to be set (or explicitly not set):
+* A continuación, abra la interfaz gráfica de CMake para configurar el sistema de compilación de forma similar a como se compila FreeCAD. Debe configurar (o no configurar explícitamente) las siguientes opciones de CMake:
 {| class="wikitable" style="text-align:left"
 |-
-! Variable name       !! Description  !! Default
+! Nombre de la variable !! Descripción !! Valor predeterminado
 |-
-| 3RDPARTY_DIR|| The path to 3rdparty components. It is recommended to use the folder as input where your used LibPack is. Explicitly leave this field empty.
-|| empty
+| 3RDPARTY_DIR|| Ruta a los componentes de terceros. Se recomienda usar como entrada la carpeta donde se encuentra su LibPack. Deje este campo vacío.
+
+|| Vacío
 |-
-| 3RDPARTY_DOXYGEN_EXECUTABLE|| The path to the executable of  the 3rdparty component [https://en.wikipedia.org/wiki/Doxygen Doxygen]. It is recommended to install Doxygen. CMake will then find it automatically.
-|| empty
+| 3RDPARTY_DOXYGEN_EXECUTABLE|| Ruta al ejecutable del componente de terceros [https://en.wikipedia.org/wiki/Doxygen]. Se recomienda instalar Doxygen. CMake lo encontrará automáticamente.
+
+|| Vacío
 |-
-| 3RDPARTY_FREETYPE_DIR|| The path to the necessary 3rdparty component [https://en.wikipedia.org/wiki/FreeType Freetype]. It is recommended to use the folder as input where your used LibPack is.
-|| empty
+| 3RDPARTY_FREETYPE_DIR|| Ruta al componente de terceros necesario [https://en.wikipedia.org/wiki/FreeType]. Se recomienda usar como entrada la carpeta donde se encuentra el LibPack que esté utilizando.
+
+|| Vacío
 |-
-| 3RDPARTY_RAPIDJSON_DIR|| Only available if '''USE_RAPIDJSON''' is used. The path to the 3rdparty component [https://rapidjson.org/ RapidJSON]. It is recommended NOT to use an existing LibPack folder as input. You can use the RapidJSOn folder from a LibPack, but copy it to a new folder and use this new folder as input.
-|| empty
+| 3RDPARTY_RAPIDJSON_DIR|| Solo disponible si se usa '''USE_RAPIDJSON'''. Ruta al componente de terceros [https://rapidjson.org/ RapidJSON]. Se recomienda NO usar una carpeta LibPack existente como entrada. Puede usar la carpeta RapidJSON de un LibPack, pero cópiela a una nueva carpeta y use esta nueva carpeta como entrada.
+
+|| Vacío
 |-
-| 3RDPARTY_TCL_DIR|| The path to the necessary 3rdparty component [https://en.wikipedia.org/wiki/Tcl TCL].  It is recommended NOT to use an existing LibPack folder as input. Take for example one of [https://github.com/teclab-at/tcltk/releases these releases], extract it and take this as input folder for CMake.
-|| empty
+| 3RDPARTY_TCL_DIR|| Ruta al componente de terceros necesario [https://en.wikipedia.org/wiki/Tcl TCL]. Se recomienda NO usar una carpeta LibPack existente como entrada. Por ejemplo, tome una de estas versiones [https://github.com/teclab-at/tcltk/releases], extráigala y úsela como carpeta de entrada para CMake.
+
+|| Vacío
 |-
-| 3RDPARTY_TK_DIR|| The path to the necessary 3rdparty component [https://en.wikipedia.org/wiki/Tk_(software) TK]. It is recommended NOT to use an existing LibPack folder as input. Take for example one of [https://github.com/teclab-at/tcltk/releases these releases], extract it and take this as input folder for CMake.
-|| empty
+| 3RDPARTY_TK_DIR || Ruta al componente de terceros necesario [https://en.wikipedia.org/wiki/Tk_(software) TK]. Se recomienda NO usar una carpeta LibPack existente como entrada. Por ejemplo, tome una de estas versiones [https://github.com/teclab-at/tcltk/releases], extráigala y úsela como carpeta de entrada para CMake.
+
+|| Vacío
 |-
-| 3RDPARTY_VTK_DIR|| Only available if '''USE_VTK''' is used. The path to the necessary 3rdparty component [https://en.wikipedia.org/wiki/VTK VTK]. It is recommended to use the folder as input where your used LibPack is. If you use another folder please assure that you don't use VTK 9.x or newer.
-|| empty
+| 3RDPARTY_VTK_DIR || Solo disponible si se usa '''USE_VTK'''. Ruta al componente de terceros necesario [https://en.wikipedia.org/wiki/VTK VTK]. Se recomienda usar como entrada la carpeta donde se encuentra su LibPack. Si usa otra carpeta, asegúrese de no usar VTK 9.x o posterior.
+
+|| vacío
 |-
-| BUILD_RELEASE_DISABLE_EXCEPTIONS|| Disables exception handling for release builds. For FreeCAD you must set it to '''OFF'''.
+| BUILD_RELEASE_DISABLE_EXCEPTIONS || Deshabilita el manejo de excepciones para compilaciones de lanzamiento. Para FreeCAD, debe configurarlo en '''OFF'''.
+
 || ON
 |-
-| INSTALL_DIR|| The output folder when building the target ''INSTALL''. If the build was successful, take the files from this folder to update your LibPack.
-|| Windows default program installation folder
+| INSTALL_DIR|| La carpeta de salida al compilar el destino ''INSTALL''. Si la compilación fue exitosa, copie los archivos de esta carpeta para actualizar su LibPack.
+
+|| Carpeta de instalación predeterminada de programas de Windows
 |-
-| INSTALL_DIR_BIN|| The output subfolder for the DLL when building the target ''INSTALL''. You must change it to '''bin'''
+| INSTALL_DIR_BIN|| La subcarpeta de salida para la DLL al compilar el destino ''INSTALL''. Debe cambiarla a '''bin'''.
 || win64/vc14/bin
 |-
-| INSTALL_DIR_LIB|| The output subfolder for the .lib files when building the target ''INSTALL''. You must change it to '''lib'''
+| INSTALL_DIR_LIB|| La subcarpeta de salida para los archivos .lib al compilar el destino ''INSTALL''. Debe cambiarla a '''lib'''.
 || win64/vc14/lib
 |-
-| USE_RAPIDJSON|| To compile Open Cascade with support for RapidJSON. Enabling this is mandatory in order to get support for the file format [https://en.wikipedia.org/wiki/Gltf glTF].
-|| OFF
+| USE_RAPIDJSON|| Para compilar Open Cascade con soporte para RapidJSON. Es obligatorio habilitar esta opción para obtener compatibilidad con el formato de archivo [https://en.wikipedia.org/wiki/Gltf glTF].
+
+|| DESACTIVADO
 |-
-| USE_VTK|| To compile Open Cascade with support for VTK. Enabling this is optimal. You can use this to build Open Cascade's VTK bridge.
-|| OFF
+| USAR VTK || Para compilar Open Cascade con compatibilidad con VTK. Se recomienda habilitar esta opción. Puede usarla para crear el puente VTK de Open Cascade.
+
+|| DESACTIVADO
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Open the project in Visual Studio and first build the ALL_BUILD and then INSTALL targets in the '''Release''' mode.
