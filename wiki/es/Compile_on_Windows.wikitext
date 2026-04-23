@@ -77,7 +77,7 @@ TortoiseGit:
 El código fuente más reciente se descargará del repositorio Git de FreeCAD y Git realizará el seguimiento de la carpeta.
 
 <span id="Using_the_command_line"></span>
-====Usando la línea de comando====
+==== Uso de la línea de comandos ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To create a local tracking branch and download the source code, open a terminal (command prompt) and switch there to the directory you want the source, then type:
