@@ -29,9 +29,7 @@
 <span id="Description"></span>
 ==Beschreibung==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The '''FEM MeshDistance''' command can be used to set mesh size based on the distance to vertices, edges and faces.
-</div>
+Der Befehl '''FEM NetzAbstand''' kann verwendet werden, um die Gittergröße anhand des Abstands zu Eckpunkten, Kanten und Flächen festzulegen.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FM_mesh_distance_task_panel.PNG|400px]]
