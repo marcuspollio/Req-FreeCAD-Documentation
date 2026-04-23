@@ -394,14 +394,16 @@ $ FreeCAD --console
 
 >>> exit()
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For Linux (bash shell) you can modify the following command line to suit your needs:
-  $ FreeCAD --console <<EOF
-  print( "FREECAD_USER_HOME: " + ( "not set" if ( os.environ.get('FREECAD_USER_HOME') is None ) else os.environ.get('FREECAD_USER_HOME') ) )
-  print( "UserHomePath: " + FreeCAD.ConfigGet("UserHomePath") )
-  exit()
-  EOF
-</div>
+Para Linux (consola bash), puede modificar la siguiente línea de comandos según sus necesidades:
+
+$ FreeCAD --console <<EOF
+
+print( "FREECAD_USER_HOME: " + ( "no está configurado" if ( os.environ.get('FREECAD_USER_HOME') is None ) else os.environ.get('FREECAD_USER_HOME') ) )
+
+print( "UserHomePath: " + FreeCAD.ConfigGet("UserHomePath") )
+exit()
+
+EOF
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Starting FreeCAD from the desktop ==
