@@ -672,9 +672,7 @@ En esta página puede especificar lo siguiente:
 | {{MenuCommand|Importar estilo}}
 | Seleccione cómo se importarán los colores y el grosor de las líneas de los objetos SVG.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If '''None (fastest)''' is selected no color or line width settings will be imported.
-</div>
+Si se selecciona '''Ninguno (más rápido)''', no se importarán las configuraciones de color ni de ancho de línea.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If '''Use default color and linewidth''' is selected FreeCAD will use its default color and line width.
