@@ -377,9 +377,8 @@ os.system(r"~\DependenciesGui.exe")</nowiki>
 Nota: En lugar de la ~, debe especificar la ruta completa a ''DependenciesGui.exe'' en su sistema.
 * Ahora arrastre el archivo *.pyd del entorno de trabajo que muestra el informe de DLL faltantes.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Updating the build==
-</div>
+<span id="Updating_the_build"></span>
+== Actualizando la compilación ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 FreeCAD is very actively developed. Therefore its source code changes almost daily. New features are added and bugs are fixed. To benefit from these source code changes, you must rebuild your FreeCAD. This is done in two steps:
