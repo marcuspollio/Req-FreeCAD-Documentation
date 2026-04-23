@@ -144,10 +144,8 @@ A continuación se muestran palabras clave especiales del plugin de integración
 [[Archivo:mantisbt-source-integration-markup.jpg|center|600px]]
 {{clear}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== GitHub and MantisBT ==
-The FreeCAD bugtracker has a plug-in called [https://github.com/mantisbt-plugins/source-integration Source Integration] which essentially ties both the FreeCAD GitHub repo to our MantisBT tracker. It makes it easier to track and associate git commits with their respective MantisBT tickets. '''The Source Integration plugin scans the git commit messages for specific keywords in order to execute the following actions:'''
-</div>
+== GitHub y MantisBT ==
+El sistema de seguimiento de errores de FreeCAD cuenta con un complemento llamado [https://github.com/mantisbt-plugins/source-integration Source Integration] que conecta el repositorio de FreeCAD en GitHub con nuestro sistema de seguimiento MantisBT. Esto facilita el seguimiento y la asociación de las confirmaciones de Git con sus respectivos tickets en MantisBT. '''El complemento Source Integration analiza los mensajes de confirmación de Git en busca de palabras clave específicas para ejecutar las siguientes acciones:'''
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''Note''' The below keywords need to be added in the <u>git commit message</u> and not the PR subject
