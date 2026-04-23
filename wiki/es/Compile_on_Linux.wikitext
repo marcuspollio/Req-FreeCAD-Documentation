@@ -111,9 +111,7 @@ Varias bibliotecas que tratan temas de matemáticas, superficies trianguladas, c
 <span id="Python_3_and_Qt6"></span>
 ==== Python 3 y Qt6 ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To compile FreeCAD for Debian Trixie install the following dependencies.
-</div>
+Para compilar FreeCAD para Debian Trixie, instale las siguientes dependencias.
 
 *{{incode|pybind11-dev}}
 *{{incode|qt6-base-dev}}
