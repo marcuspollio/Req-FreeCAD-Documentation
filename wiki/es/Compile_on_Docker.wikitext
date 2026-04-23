@@ -110,9 +110,8 @@ docker run -it --rm \
 registry.gitlab.com/daviddaish/freecad_docker_env:latest
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Build FreeCAD===
-</div>
+<span id="Build_FreeCAD"></span>
+=== Crear FreeCAD ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 You can build FreeCAD using the installed build script, or using your preferred method.
