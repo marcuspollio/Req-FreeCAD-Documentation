@@ -141,7 +141,7 @@ A continuación se muestran palabras clave especiales del plugin de integración
 * '''c:FreeCAD:git commit hash:''' - '''c''' significa 'commit'. FreeCAD se refiere al repositorio de GitHub de FreeCAD. 'git commit hash' es el hash de confirmación de Git específico al que se hace referencia. Nota: los dos puntos finales son necesarios. Ejemplo: <code>cːFreeCADː709d2f325db0490016807b8fa6f49d1c867b6bd8ː</code>
 * '''d:FreeCAD:git commit hash:''' - similar al anterior, '''d''' significa 'diff', que proporciona una vista de diferencias del commit. Ejemplo: <code>dːFreeCADː709d2f325db0490016807b8fa6f49d1c867b6bd8ː</code>
 * '''p:FreeCAD:pullrequest:''' - similar al anterior, '''p''' significa Pull Request (Solicitud de extracción). Ejemploː <code>pːFreeCADː498ː</code>
-[[Archivo:mantisbt-source-integration-markup.jpg|center|600px]]
+[[File:mantisbt-source-integration-markup.jpg|center|600px]]
 {{clear}}
 
 == GitHub y MantisBT ==
