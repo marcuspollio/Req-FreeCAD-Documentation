@@ -139,9 +139,9 @@ Existen algunas opciones no visibles para el usuario. Estas opciones son, por ej
 <span id="Running_FreeCAD_without_GUI_(headless)"></span>
 === Ejecutando FreeCAD sin interfaz gráfica (sin cabeza) ===
 
-<div class="mw-translate-fuzzy">
-FreeCAD normalmente se inicia en el modo de interfaz de usuario gráfico GUI, pero puedes forzar que inicie en modo consola escribiendo:
-</div>
+FreeCAD suele compilarse con dos ejecutables: uno con interfaz gráfica de usuario (GUI), llamado {{FileName|FreeCAD}} o {{FileName|freecad}}, y otro sin interfaz gráfica, llamado {{FileName|FreeCADCmd}} o {{FileName|freecadcmd}}.
+
+FreeCAD puede utilizarse en modo consola mediante el modificador {{incode|--console}} (que es el comportamiento predeterminado de {{FileName|FreeCADCmd}}):
 
  FreeCAD --console
 
