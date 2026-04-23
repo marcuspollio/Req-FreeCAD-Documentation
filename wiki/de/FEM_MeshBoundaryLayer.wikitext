@@ -29,9 +29,7 @@
 <span id="Description"></span>
 ==Beschreibung==
 
-<div class="mw-translate-fuzzy">
-Der Befehl '''FEM NetzGrenzSchicht''' ermöglicht es dem Benutzer, eine lokalisierte Reihe von Vernetzungsparametern festzulegen, indem er eine Reihe von Elementen (Eckpunkt, Kante, Fläche) auswählt und die Parameter darauf anwendet.
-</div>
+Der Befehl '''FEM NetzGrenzSchicht''' ermöglicht es dem Benutzer, einen lokalisierten Satz von Vernetzungsparametern festzulegen, indem er eine Kante auswählt und die Parameter darauf anwendet.
 
 Es ist besonders nützlich für die Verfeinerung von Netzen in der Nähe von Kanten oder Oberflächen in Strömungssimulationen. Beispielsweise kann es verwendet werden, um das Netz in der Nähe eines Tragflügels oder Hindernisses in einer Strömung zu verfeinern.
 
