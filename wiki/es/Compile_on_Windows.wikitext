@@ -432,9 +432,8 @@ Para actualizar su LibPack, siga estos pasos:
 
 Para unirse al desarrollo de FreeCAD debe compilar e instalar las siguientes herramientas:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Qt Designer plugin===
-</div>
+<span id="Qt_Designer_plugin"></span>
+=== Complemento de Qt Designer ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 FreeCAD uses [https://en.wikipedia.org/wiki/Qt_(software) Qt] as toolkit for its user interface. All dialogs are setup in UI-files that can be edited using the program [https://doc.qt.io/qt-5/qtdesigner-manual.html Qt Designer] that is part of any Qt installation and also included in the LibPack. FreeCAD has its own set of Qt widgets to provide special features like adding a unit to input fields and to set preferences properties.
