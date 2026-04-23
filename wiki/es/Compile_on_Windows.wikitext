@@ -94,9 +94,7 @@ Puede obtener una versión gratuita de MSVC (para uso individual) descargando la
 
 Para aquellos que quieran evitar instalar el enorme MSVC con el único propósito de tener un compilador, consulten [[CompileOnWindows - Reducing Disk Footprint]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''Note:''' Although the ''Community'' edition of MSVC is free, to use the IDE for more than a 30-day trial period you must create a Microsoft account. If you will only compile using the command line, you don't need the IDE and thus no Microsoft account.
-</div>
+'''Nota:''' Si bien la edición «Community» de MSVC es gratuita, para usar el IDE durante más de un período de prueba de 30 días, debe crear una cuenta de Microsoft. Si solo va a compilar mediante la línea de comandos, no necesita el IDE y, por lo tanto, no necesita una cuenta de Microsoft.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 As a free and OpenSource alternative IDE you can use [https://www.kdevelop.org/download KDevelop]. You can use KDevelop to modify and write C++ code but must use the command line to compile.
