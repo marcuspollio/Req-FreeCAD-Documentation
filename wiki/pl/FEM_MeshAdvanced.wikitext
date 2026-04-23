@@ -62,9 +62,7 @@ Narzędzie '''Zaawansowane typy zagęszczenia''' umożliwia definiowanie rozmiar
 # Dwukrotnie kliknij na obiekcie nadrzędnym {{incode|FEMMeshGmsh}} w drzewie modelu i kliknij {{Button|Zastosuj}}, aby wymusić przebudowanie siatki.
 # Zamknij panel zadań.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-After the mesh has been created you can change its properties using the [[Property_View|Property View]]. After you changed a property, you must reopen the Gmsh dialog again and click the {{Button|Apply}} button. (You can leave the dialog open while changing properties.)
-</div>
+Po utworzeniu siatki możesz zmienić jej właściwości przy pomocy [[Property_View/pl|Widoku właściwości]]. Po zmianie właściwości należy ponownie otworzyć okno dialogowe Gmsh i wcisnąć przycisk {{Button|Zastosuj}}. (Możesz zostawić okno dialogowe otwarte podczas zmieniania właściwości.)
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 You can create as many different advanced refinements as needed.
