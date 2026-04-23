@@ -62,14 +62,17 @@ Ahora puede obtener el código fuente de FreeCAD:
 
 Al utilizar las interfaces Git [https://git-scm.com/downloads/guis]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 TortoiseGit:
-# Create a new folder where the source code will be downloaded.
-# Right-click on this folder in the Windows file explorer and select '''Git Clone''' in the context menu.
-# A dialog will appear.
-# In it, enter the URL for the FreeCAD Git repository:<br>''https://github.com/FreeCAD/FreeCAD.git''
-# Click '''OK'''.
-</div>
+
+# Crea una nueva carpeta donde se descargará el código fuente.
+
+# Haga clic derecho en esta carpeta en el Explorador de archivos de Windows y seleccione «Clonar Git» en el menú contextual.
+
+# Aparecerá un cuadro de diálogo.
+
+# En él, introduzca la URL del repositorio Git de FreeCAD: <br>«https://github.com/FreeCAD/FreeCAD.git»
+
+# Haga clic en '''Aceptar'''.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The latest source code will be downloaded from the FreeCAD Git repository and the folder will be tracked by Git.
