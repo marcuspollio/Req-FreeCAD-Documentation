@@ -604,7 +604,7 @@ Algunos componentes de FreeCAD, como PySide, intentan detectar automáticamente 
 
 1. Inicie Qt Creator.
 
-2. Haga clic en {{MenuCommand|Abierto Proyecto}}.
+2. Haga clic en {{MenuCommand|Proyecto Abierto}}.
 
 3. Navega hasta el directorio donde está el código fuente, {{incode|freecad-source/}}, y elige el archivo {{incode|CMakeLists.txt}} más alto.
 
