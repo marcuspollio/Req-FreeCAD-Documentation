@@ -408,9 +408,8 @@ EOF
 <span id="Starting_FreeCAD_from_the_desktop"></span>
 == Iniciando FreeCAD desde el escritorio ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Linux: Creating an additional start option ===
-</div>
+<span id="Linux:_Creating_an_additional_start_option"></span>
+=== Linux: Creando una opción de inicio adicional ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The following assumes that your desktop is configured such that you can launch FreeCAD from it. Depending on your Linux distribution and desktop environment, you may have to adapt the following steps:
