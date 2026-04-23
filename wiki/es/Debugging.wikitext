@@ -149,9 +149,7 @@ Utilice el ID devuelto y páselo a {{incode|lsof}}:
 
 {{incode| lsof -p process_id}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This prints a long list of loaded resources. So for example, if trying to ascertain if more than one Coin3d library versions is loaded, scroll through the list or search directly for Coin in the output:
-</div>
+Esto imprime una larga lista de recursos cargados. Por ejemplo, si intenta determinar si se ha cargado más de una versión de la biblioteca Coin3d, desplácese por la lista o busque directamente "Coin" en la salida:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{incode|lsof -p process_id &#124; grep Coin}}
