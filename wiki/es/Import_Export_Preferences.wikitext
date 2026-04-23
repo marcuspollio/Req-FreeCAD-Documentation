@@ -595,36 +595,43 @@ En esta página puede especificar lo siguiente:
 
 '''AP 203''' es el protocolo para diseños 3D con control de configuración de piezas y ensamblajes mecánicos.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''AP 214''' is the protocol for core data for automotive mechanical design processes.
+'''AP 214''' es el protocolo para datos básicos en procesos de diseño mecánico automotriz.
+
 |-
-| {{MenuCommand|Enable STEP Compound merge}}
-| If checked, a [[Glossary#Compound|compound]] merge will be done during file reading. This is slower but results in higher details.
+| {{MenuCommand|Habilitar fusión de compuestos STEP}}
+| Si está marcada, se realizará una fusión [[Glossary#Compound|compuesto]] durante la lectura del archivo. Esto es más lento, pero proporciona mayor detalle.
+
 |-
-| {{MenuCommand|Use LinkGroup}}
-| Select this to use App::LinkGroup group containers instead of App::Part group containers.
+| {{MenuCommand|Usar LinkGroup}}
+| Seleccione esta opción para usar contenedores de grupo App::LinkGroup en lugar de contenedores de grupo App::Part.
+
 |-
-| {{MenuCommand|Import invisible objects}}
-| Select this to import invisible objects.
+| {{MenuCommand|Importar objetos invisibles}}
+| Seleccione esta opción para importar objetos invisibles.
+
 |-
-| {{MenuCommand|Reduce number of objects}}
-| Reduce the number of objects using Link arrays.
+| {{MenuCommand|Reducir número de objetos}}
+| Reduce el número de objetos mediante matrices de enlaces.
+
 |-
-| {{MenuCommand|Expand compound shape}}
-| Expand compound shapes with multiple solids.
+| {{MenuCommand|Expandir forma compuesta}}
+| Expande formas compuestas con varios sólidos.
+
 |-
-| {{MenuCommand|Show progress bar when importing}}
-| Show a progress bar when importing.
+| {{MenuCommand|Mostrar barra de progreso al importar}}
+| Mostrar una barra de progreso durante la importación.
+
 |-
-| {{MenuCommand|Ignore instance names}}
-| Do not use instance names. Useful for some legacy STEP files with non-meaningful auto-generated instance names.
+| {{MenuCommand|Ignorar nombres de instancia}}
+| No usar nombres de instancia. Útil para algunos archivos STEP antiguos con nombres de instancia generados automáticamente sin sentido.
+
 |-
 | {{MenuCommand|CodePage}}
-| The encoding of STEP files can be specified here.
+| Aquí se puede especificar la codificación de los archivos STEP.
+
 |-
 | {{MenuCommand|Mode}}
-| Select the required document structure.
-</div>
+| Seleccionar la estructura de documento requerida.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''Single document'''
