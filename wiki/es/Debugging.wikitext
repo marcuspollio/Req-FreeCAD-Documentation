@@ -182,9 +182,7 @@ Ahora vamos a configurar el depurador.
 # Iniciar ''Winpdb''.
 # Establecer la contraseña del depurador como "test": Ir al menú ''Archivo'' → ''Contraseña'' y establecer la contraseña.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Now we will run a test Python script in FreeCAD step by step.
-</div>
+Ahora ejecutaremos un script de prueba de Python en FreeCAD paso a paso.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Run winpdb and set the password (e.g. test)
