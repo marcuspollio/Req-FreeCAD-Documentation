@@ -612,9 +612,7 @@ Algunos componentes de FreeCAD, como PySide, intentan detectar automáticamente 
 
 4. Al seleccionar el archivo, se ejecutará automáticamente {{incode|cmake}} en él, pero puede fallar si las opciones apropiadas no están correctamente configuradas.
 
-<div class="mw-translate-fuzzy">
-5. Vaya a {{MenuCommand|Projects → Build & Run → Imported Kit → Build → Build Settings → CMake}}. Establezca el directorio de compilación adecuado, {{incode|freecad-build/}}.
-</div>
+5. Vaya a {{MenuCommand|''Proyectos → Compilación y ejecución → Kit importado → Compilación → Configuración de compilación → CMake''}}. Establezca el directorio de compilación apropiado, {{incode|build/}}.
 
 6. Establezca las variables apropiadas en el diálogo Clave-Valor, de tipos {{incode|String}} y {{incode|Bool}}.
 {{Code|code=
