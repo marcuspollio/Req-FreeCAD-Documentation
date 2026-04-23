@@ -26,9 +26,7 @@
 <span id="Description"></span>
 ==Opis==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The '''FEM MeshDistance''' command can be used to set mesh size based on the distance to vertices, edges and faces.
-</div>
+Narzędzie '''Zagęszczenie siatki oparte o odległość''' może być użyte do ustawienia rozmiaru siatki w oparciu o odległość do wierzchołków, krawędzi i ścian.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FM_mesh_distance_task_panel.PNG|400px]]
