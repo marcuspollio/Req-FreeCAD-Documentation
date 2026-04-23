@@ -217,11 +217,9 @@ Dependiendo del compilador, el proceso de compilación de FreeCAD será ligerame
 
 Si desea compilar desde la línea de comandos, la salida de CMake le mostrará el comando adecuado para ejecutar (que depende del directorio de lanzamiento configurado). Sin embargo, este comando generará una compilación de ''depuración'' que no funciona en Windows y produce un error de importación de Numpy en FreeCAD (un problema conocido pero difícil de solucionar). Debe especificar la opción ''--config Release'' para forzar una compilación de ''lanzamiento'':
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Code|code=
+{{Code|código=
 cmake --build E:/release --config Release
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Please note that setting CMake variables like ''CMAKE_BUILD_TYPE'' does not have any effect, only specifying the ''--config'' option as shown above works.
