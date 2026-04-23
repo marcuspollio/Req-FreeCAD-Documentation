@@ -467,13 +467,11 @@ FreeCAD incluye la función de previsualización en miniatura para archivos *.FC
 <span id="Installation"></span>
 ==== Instalación ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The DLL is installed this way:
-# Download [https://forum.freecad.org/download/file.php?id=13404 this ZIP file] and extract it.
-# Open a Windows command prompt with administrator privileges (these privileges are a requirement).
-# Change to the folder where the DLL is.
-# Execute this command {{Code|code=regsvr32 FCStdThumbnail.dll}}
-</div>
+La DLL se instala de la siguiente manera:
+# Descargue este archivo ZIP [https://forum.freecad.org/download/file.php?id=13404] y extráiagalo.
+# Abra el símbolo del sistema de Windows con permisos de administrador (estos permisos son imprescindibles).
+# Cambie a la carpeta donde se encuentra la DLL.
+# Ejecute este comando: {{Code|code=regsvr32 FCStdThumbnail.dll}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 So check if it works, assure that in FreeCAD the preferences option '''[[Preferences_Editor#Document|Save thumbnail into project file when saving document]]''' is enabled and save a model. Then view in Windows Explorer the folder of the saved model using a symbol view. You should now see a screenshot of the model in the folder view.
