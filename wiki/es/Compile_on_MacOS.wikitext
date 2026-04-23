@@ -119,7 +119,8 @@ Crea la carpeta de compilación.
 mkdir ~/FreeCAD/build
 }}
 
-== Run CMake ==
+<span id="Run_CMake"></span>
+== Ejecutar CMake ==
 
 Next, we will run CMake to generate the build configuration.  Several options must be passed to CMake.  The following table describes the options and gives some background. 
 
