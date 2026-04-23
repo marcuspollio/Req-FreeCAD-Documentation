@@ -73,16 +73,14 @@ You can create as many different shape-based refinements as needed.
 </div>
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
-|[[FEM_MeshBoundaryLayer|2D Boundary Layer]]
-|[[FEM_MeshManipulate|Manipulate Refinement]]
-|[[FEM_Workbench|FEM]]
+|[[FEM_MeshBoundaryLayer/pl|Warstwa przyścienna 2D]]
+|[[FEM_MeshManipulate/pl|Manipulacja zagęszczeniem]]
+|[[FEM_Workbench/pl|środowisko pracy MES]]
 |IconL=FEM_MeshBoundaryLayer.svg
 |IconR=FEM_MeshManipulate.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
