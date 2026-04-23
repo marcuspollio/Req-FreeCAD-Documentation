@@ -437,9 +437,8 @@ Para unirse al desarrollo de FreeCAD debe compilar e instalar las siguientes her
 
 FreeCAD utiliza Qt como conjunto de herramientas para su interfaz de usuario. Todos los diálogos se configuran en archivos de interfaz de usuario que se pueden editar con Qt Designer, un programa incluido en cualquier instalación de Qt y también en el LibPack. FreeCAD cuenta con su propio conjunto de widgets de Qt para ofrecer funciones especiales, como agregar unidades a los campos de entrada y configurar las propiedades de las preferencias.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====Compilation====
-</div>
+<span id="Compilation"></span>
+==== Compilación ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The plugin cannot be loaded by the Qt Designer if  it was compiled using another Qt version than the one your Qt Designer/Qt Creator is based on. Therefore the plugin must be compiled together with FreeCAD:
