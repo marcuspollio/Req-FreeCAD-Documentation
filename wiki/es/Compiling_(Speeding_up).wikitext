@@ -10,7 +10,7 @@
 <span id="Overview"></span>
 == Vista general == 
 
-FreeCAD es una gran aplicación que puede tardar entre 10 minutos y una hora en compilarse completamente desde el código fuente. Esto depende principalmente de la CPU que tengas, y del número de núcleos que se utilicen en el proceso de compilación. Aquí hay algunos consejos para acortar ese proceso y hacer que los tiempos de compilación sean más cortos.
+FreeCAD es una aplicación grande que puede tardar entre 10 minutos y una hora en compilarse completamente desde el código fuente. Esto depende principalmente de la CPU y del número de núcleos utilizados en el proceso de compilación. A continuación, le ofrecemos algunos consejos para acortar este proceso y reducir los tiempos de compilación.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == CCache ==
