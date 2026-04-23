@@ -20,7 +20,7 @@ La ''depuración'' de FreeCAD se realiza mediante algunos mecanismos internos. L
 Estas son las opciones reconocidas actualmente en FreeCAD 0.19:
 
 Opciones genéricas:
-   -v [ --version ]          Imprime la cadena de versión
+   -v [ --version ]          Imprime la cadena de la versión
    -h [ --help ]             Imprime el mensaje de ayuda
    -c [ --console ]          Comienza en modo consola
    --response-file arg       También se puede especificar con '@nombre'
