@@ -83,9 +83,8 @@ xhost +
 
 Si se conecta a algún sistema no confiable, como por ejemplo mediante SSH, será vulnerable a código malicioso. Cierra todas las conexiones SSH o considera configurar permisos de host X más seguros, lo cual queda fuera del alcance de este tutorial.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====MacOS users====
-</div>
+<span id="MacOS_users"></span>
+==== Usuarios de macOS ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 For those using macOS, the X window system may not be installed. The XQuartz project is a long running open source project that will allow you to add it to your computer. [https://www.xquartz.org/ You can find it here].
