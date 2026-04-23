@@ -59,7 +59,7 @@ Alternativamente, puede instalar las dependencias individuales manualmente insta
 * {{incode|pkgconfig}}
 * {{incode|coin3d}} - Tenga en cuenta que, a la fecha de redacción de este documento (noviembre de 2022), esto instalará una versión inutilizable de pyside@2 como dependencia.
 
-There are several packages that are only available when you have tapped the freecad cask: you must do that ({{incode|brew tap freecad/freecad}}). Due to some historical bug workarounds, at the time of this writing (Nov. 2022) the versions of PySide2 and Shiboken2 installed by Homebrew are not usable because they force the use of Py_Limited_API, which FreeCAD does not support. It is expected that this workaround will be removed in the coming months, but in the meantime you must use the FreeCAD cask versions of PySide and Shiboken. Use {{incode|brew install ...}}, install the following packages:
+Hay varios paquetes que solo están disponibles cuando ha instalado el paquete freecad: debe hacerlo ({{incode|brew tap freecad/freecad}}). Debido a algunas soluciones alternativas para errores históricos, en el momento de redactar este manual (noviembre de 2022), las versiones de PySide2 y Shiboken2 instaladas por Homebrew no se pueden usar porque fuerzan el uso de Py_Limited_API, que FreeCAD no admite. Se espera que esta solución alternativa se elimine en los próximos meses, pero mientras tanto debe usar las versiones de FreeCAD de PySide y Shiboken. Use {{incode|brew install ...}}, e instale los siguientes paquetes:
 
 * {{incode|freecad/freecad/pyside2@5.15.5}}
 * {{incode|freecad/freecad/shiboken2@5.15.5}}
