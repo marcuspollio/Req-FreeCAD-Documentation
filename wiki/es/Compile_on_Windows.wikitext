@@ -357,9 +357,7 @@ En lugar de llamar a '''compile-FC''' con la opción ''install'', también puede
 
 Existen dos métodos para ejecutar FreeCAD compilado:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''Method 1'': You execute the FreeCAD.exe that you find in your build folder in the subfolder ''bin''
-</div>
+''Método 1'': Ejecute el archivo FreeCAD.exe que encontrará en la carpeta de compilación, en la subcarpeta ''bin''.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''Method 2'': You build the target ''INSTALL''
