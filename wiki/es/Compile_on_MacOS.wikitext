@@ -39,7 +39,7 @@ CMake es una herramienta de compilación que genera una configuración de compil
 <span id="Install_Dependencies"></span>
 == Instalar dependencias ==
 
-FreeCAD maintains a Homebrew 'cask' which installs the required formulas and dependencies. You can find the latest install instructions [https://github.com/FreeCAD/homebrew-freecad here].
+FreeCAD mantiene un paquete Homebrew que instala las fórmulas y dependencias necesarias. Puede encontrar las instrucciones de instalación más recientes aquí: [https://github.com/FreeCAD/homebrew-freecad].
 
 {{Incode|brew install}} may take quite a while, so you may want go grab a beverage. :-).
 
