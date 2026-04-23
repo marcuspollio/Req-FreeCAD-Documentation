@@ -691,7 +691,7 @@ El código fuente de FreeCAD es muy extenso, y con CMake es posible configurar m
 <span id="Making_a_debian_package"></span>
 === Creando un paquete Debian ===
 
-Si planea construir un paquete Debian a partir de las fuentes, necesita instalar primero ciertos paquetes:
+Si planea compilar un paquete Debian a partir de las fuentes, necesita instalar primero ciertos paquetes:
 
 {{Code|lang=bash|code=
 sudo apt install dh-make devscripts lintian
