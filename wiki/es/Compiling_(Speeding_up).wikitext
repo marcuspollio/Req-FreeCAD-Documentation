@@ -56,9 +56,7 @@ Compile en paralelo tantos archivos como núcleos de CPU tenga su sistema, menos
 make -j$(nproc --ignore=2)
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 == distcc ==
-</div>
 
 <div class="mw-translate-fuzzy">
 == distcc ==
