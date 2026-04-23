@@ -74,7 +74,7 @@ brew link freecad/freecad/pyside2@5.15.5 freecad/freecad/shiboken2@5.15.5
 
 En algunos casos, los paquetes instalados por Homebrew no usan la misma versión de Python: por ejemplo, al momento de escribir esto, PySide2 usa Python 3.10, pero boost-python3 usa Python 3.11. Si bien es posible revertir la versión más reciente (de modo que en este caso boost-python3 use Python 3.10), esta es una operación avanzada y, en muchos casos, es mejor esperar una actualización del otro paquete. Si aun así desea seguir ese camino, consulte el comando "brew extract", que puede usar para extraer una fórmula a un nuevo cask (normalmente freecad/freecad). Luego, puede editar esa fórmula según sea necesario.
 
-You will need to set the path to Qt: Qt5 is currently supported, while support for Qt6 is a work-in-progress. Set FREECAD_QT_VERSION to "Auto" or "5" to select Qt5 (the default). On the command line, use something like:
+Deberá configurar la ruta a Qt: Qt5 es compatible actualmente, mientras que la compatibilidad con Qt6 está en desarrollo. Configure FREECAD_QT_VERSION en "Auto" o "5" para seleccionar Qt5 (el predeterminado). En la línea de comandos, utilice algo como:
 
 {{Code|code=
 cmake \
