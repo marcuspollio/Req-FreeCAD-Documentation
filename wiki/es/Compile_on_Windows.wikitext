@@ -28,7 +28,7 @@ Si cambia de rama con ''git checkout'' y luego cambia de rama, simplemente vuelv
 El contenido expuesto a continuación explica paso a paso cómo compilar FreeCAD 0.19 o posterior en Windows utilizando el compilador MSVC de Microsoft. Para obtener información sobre el uso de MSYS2/MinGW, consulte [[Compile_on_MinGW|Compile en MinGW]]. Para otras plataformas, consulte [[Compiling|Compile]].
 
 <span id="Prerequisites"></span>
-== Prerequisitos ==
+== Requisitos previos ==
 
 La compilación de FreeCAD en Windows requiere varias herramientas y bibliotecas.
 
