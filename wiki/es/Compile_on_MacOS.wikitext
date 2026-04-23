@@ -66,7 +66,7 @@ Hay varios paquetes que solo están disponibles cuando ha instalado el paquete f
 * {{incode|freecad/freecad/med-file}}
 * {{incode|freecad/freecad/netgen}}
 
-You will also need to "link" PySide and Shiboken:
+También necesitará "vincular" PySide y Shiboken:
 
 {{Code|code=
 brew link freecad/freecad/pyside2@5.15.5 freecad/freecad/shiboken2@5.15.5
