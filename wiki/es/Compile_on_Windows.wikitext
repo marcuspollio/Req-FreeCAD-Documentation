@@ -341,9 +341,7 @@ Estos pasos también se pueden automatizar. Aquí tiene, por ejemplo, una soluci
 
 {{Code|code=compile-FC install}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Instead of calling '''compile-FC''' with the option ''install'' you can also use ''debug'' or ''release'':
-</div>
+En lugar de llamar a '''compile-FC''' con la opción ''install'', también puede usar ''debug'' o ''release'':
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''debug'' &nbsp; - compile FreeCAD in debug configuration
