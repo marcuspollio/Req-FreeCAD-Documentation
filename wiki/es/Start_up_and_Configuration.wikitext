@@ -441,9 +441,7 @@ set CURRENTDIR="%cd%"
 set FREECAD_USER_DATA=%CURRENTDIR%/..
 start FreeCAD.exe -u %FREECAD_USER_DATA%/user.cfg -s %FREECAD_USER_DATA%/system.cfg}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-With the batch in the root of the USB medium:
-</div>
+Con el lote en la raíz del medio USB:
 
 {{Code|code=
 set CURRENTDIR=%cd%
