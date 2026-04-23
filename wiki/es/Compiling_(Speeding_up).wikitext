@@ -38,7 +38,7 @@ Utilice {{incode|cmake-gui}}, {{incode|cmake-curses-gui}} o {{incode|cmake-qt-gu
 
 Tras configurar {{incode|cmake}}, el programa {{incode|make}} inicie el compilador de C++ para procesar los archivos del código fuente. Puede acelerar la compilación trabajando con varios archivos simultáneamente. Esto se logra con la opción {{incode|-j}} de {{incode|make}}, que indica el número de tareas o comandos de compilación que se ejecutan al mismo tiempo. Esta opción es un número entero.
 
-Ejecuta cuatro comandos de compilación en paralelo:
+Ejecute cuatro comandos de compilación en paralelo:
 
 {{Code|code=
 make -j4
