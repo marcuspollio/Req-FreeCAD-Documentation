@@ -39,7 +39,7 @@ git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git freecad-so
 }}
 
 <span id="Getting_the_dependencies"></span>
-== Obtener las dependencias ==
+== Obteniendo las dependencias ==
 
 <div class="mw-translate-fuzzy">
 Para compilar FreeCAD tienes que instalar las dependencias necesarias mencionadas en [[Third Party Libraries/es|Bibliotecas de terceros]]; los paquetes que contienen estas dependencias están listados abajo para diferentes distribuciones de Linux. Tenga en cuenta que los nombres y la disponibilidad de las bibliotecas dependerán de su distribución particular; si su distribución es antigua, algunos paquetes pueden no estar disponibles o tener un nombre diferente. En este caso, busque en la sección [[#Older and non-conventional distributions|Distribuciones antiguas y no convencionales]] más abajo.
