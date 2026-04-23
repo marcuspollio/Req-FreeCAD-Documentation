@@ -671,7 +671,7 @@ sudo cp libFreeCAD_widgets.so $QT_DIR/plugins/designer
 <span id="External_or_internal_Pivy"></span>
 ==== Pivy externo o interno ====
 
-Anteriormente, una versión de Pivy estaba incluida en el código fuente de FreeCAD (interno). Si quería usar la copia de Pivy de su sistema (externa), tenía que usar {{Incode|-DFREECAD_USE_EXTERNAL_PIVY=1}}.
+Anteriormente, estaba incluida una versión de Pivy en el código fuente de FreeCAD (interno). Si quería usar la copia de Pivy de su sistema (externa), tenía que usar {{Incode|-DFREECAD_USE_EXTERNAL_PIVY=1}}.
 
 El uso de Pivy externo se convirtió en el valor por defecto durante el desarrollo de FreeCAD 0.16, por lo que ya no es necesario configurar esta opción manualmente.
 
