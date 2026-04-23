@@ -517,7 +517,7 @@ cmake -D BUILD_FEM:BOOL=OFF ../
 cmake -DBUILD_FEM=OFF ../
 }}
 
-Todas las variables posibles están listadas en el archivo {{incode|InitializeFreeCADBuildOptions.cmake}}, ubicado en el directorio {{incode|cMake/FreeCAD_Helpers}}. En este archivo, busque la palabra {{incode|option}} para llegar a las variables que se pueden establecer, y ver sus valores por defecto.
+Todas las variables posibles se enumeran en el archivo {{incode|InitializeFreeCADBuildOptions.cmake}}, ubicado en el directorio {{incode|cMake/FreeCAD_Helpers}}. En este archivo, busque la palabra {{incode|option}} para acceder a las variables que se pueden configurar y poder ver sus valores predeterminados.
 
 <!--Do not remove the <pre> </pre> tags-->
 <pre>
