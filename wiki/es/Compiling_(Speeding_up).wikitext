@@ -58,10 +58,7 @@ make -j$(nproc --ignore=2)
 
 == distcc ==
 
-<div class="mw-translate-fuzzy">
-== distcc ==
-El programa {{incode|distcc}} puede utilizarse para realizar la compilación distribuida de código C y C++ en varias máquinas de una red.
-</div>
+El programa {{incode|distcc}} se puede utilizar para realizar la compilación distribuida de código C y C++ en varias máquinas de una red.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [https://www.distcc.org/ Distcc] should always generate the same results as a local compilation. It is free, simple to install and use, and often two or more times faster than compiling locally.
