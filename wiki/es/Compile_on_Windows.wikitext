@@ -571,9 +571,8 @@ Para compilar FreeCAD usando Open Cascade autocompilado, debe hacer lo siguiente
 * Busque las rutas absolutas a su carpeta LibPack y elimínelas. Por ejemplo, la ruta absoluta ''D:/FreeCADLibs_12.5.4_x64_VC17/lib/freetype.lib'' se convierte en ''freetype.lib''.
 * Haga lo mismo con el archivo ''OpenCASCADEVisualizationTargets.cmake''.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Compiling Netgen==
-</div>
+<span id="Compiling_Netgen"></span>
+== Compilando Netgen ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The LibPack comes with a version of [https://ngsolve.org Netgen] that will was tested to be build with the Open Cascade version of the LibPack. The problem is that every new release of Netgen changes the API. Also every new release of Open Cascade does the same. Therefore one cannot just easily change the Netgen version.
