@@ -54,7 +54,7 @@ docker run -it amrit3701/freecad-cli:lastest bash
 <span id="Extend_Docker_image"></span>
 === Extender la imagen de Docker === 
 
-También puedes ampliar estas imágenes Docker para añadir dependencias adicionales para tu proyecto. Por ejemplo
+También puede extender estas imágenes de Docker para agregar dependencias adicionales para su proyecto. Por ejemplo:
 {{Code|lang=docker|code=
 
 # Dockerfile
