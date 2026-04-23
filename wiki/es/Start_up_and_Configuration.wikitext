@@ -201,9 +201,7 @@ FreeCAD no tiene en cuenta la variable de entorno {{incode|HOME}} (ya que determ
 
 === {{incode|TMPDIR}} ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The default temporary directory is {{FileName|/tmp/}}. The {{incode|TMPDIR}} environmental variable can be used to override the default. (''Editor: precedence?'').
-</div>
+El directorio temporal predeterminado es {{FileName|/tmp/}}. La variable de entorno {{incode|TMPDIR}} se puede usar para anular el valor predeterminado. (''Editor: ¿precedencia?'').
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Libraries ===
