@@ -36,10 +36,7 @@ FreeCAD puede utilizarse libremente para cualquier fin, ya sea privado, comercia
 <span id="Open-source_software_developers"></span>
 ==== Desarrolladores de software de código abierto ====
 
-<div class="mw-translate-fuzzy">
-==== Desarrolladores de código abierto (Open Source) ====
-Puede utilizar FreeCAD como base para sus propios módulos de extensión para usos especiales. Pueden elegir entre GPL o LGPL para permitir, o no, el uso de su trabajo en software propietario.
-</div>
+Puede usar FreeCAD como base para desarrollar su propia aplicación o simplemente extenderla creando nuevos módulos. Si FreeCAD está integrado en su aplicación, puedes elegir la licencia GPL o LGPL, o cualquier otra compatible con LGPL, para permitir o no, el uso de su trabajo en software propietario. Si está desarrollando un módulo para usarlo como extensión y no incluye código de FreeCAD, puede elegir la licencia que prefiera. Sin embargo, si desea que su módulo se integre en FreeCAD en el futuro, es recomendable usar la misma licencia LGPL que FreeCAD, ya que FreeCAD solo acepta código con licencias LGPL, MIT o BSD.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Closed-source software developers ====
