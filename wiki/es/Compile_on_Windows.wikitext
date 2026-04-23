@@ -363,9 +363,7 @@ Existen dos métodos para ejecutar FreeCAD compilado:
 
 El método 2 es el más sencillo porque garantiza automáticamente que todas las bibliotecas necesarias para ejecutar FreeCAD.exe se encuentren en la carpeta correcta. FreeCAD.exe y las bibliotecas se generarán en la carpeta que ha especificado en la variable de CMake ''CMAKE_INSTALL_PREFIX''.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For Method 1 you need to enable the '''FREECAD_COPY_*''' options mentioned in the [[#CMake|CMake Configuration step]] above.
-</div>
+Para el Método 1, debe habilitar las opciones '''FREECAD_COPY_*''' mencionadas en el paso [[#CMake|CMake Ajustes de configuración]] anterior.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Troubleshooting===
