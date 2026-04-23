@@ -408,9 +408,8 @@ git pull https://github.com/FreeCAD/FreeCAD.git main
 
 donde ''main'' es el nombre de la rama principal de desarrollo. Si desea obtener código de otra rama, utilice su nombre en lugar de ''main''.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Recompilation===
-</div>
+<span id="Recompilation"></span>
+=== Recompilación ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Open the MSVC IDE by double-clicking either on the file ''FreeCAD.sln'' or on the file ''ALL_BUILD.vcxproj'' in your build folder.
