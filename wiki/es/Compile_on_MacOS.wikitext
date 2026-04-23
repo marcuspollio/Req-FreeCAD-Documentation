@@ -107,7 +107,7 @@ mkdir ~/FreeCAD
 cd ~/FreeCAD
 }}
 
-The following command will clone the FreeCAD git repository into a directory called FreeCAD-git.
+El siguiente comando clonará el repositorio git de FreeCAD en un directorio llamado FreeCAD-git.
 
 {{Code|code=
 git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD FreeCAD-git
