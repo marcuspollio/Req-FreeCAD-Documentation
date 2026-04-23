@@ -64,9 +64,7 @@ The '''FEM MeshTransfiniteCurve''' command creates a fixed amount of nodes on an
 After the mesh has been created you can change its properties using the [[Property_View|Property View]]. After you changed a property, you must reopen the Gmsh dialog again and click the {{Button|Apply}} button. (You can leave the dialog open while changing properties.)
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You can create as many different transfinite curves as needed.
-</div>
+Es können so viele verschiedene transfinite Kurven wie nötig erstellt werden.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_transfinite_curve.png|400px]]
