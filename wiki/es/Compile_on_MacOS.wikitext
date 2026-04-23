@@ -53,11 +53,11 @@ Alternativamente, puede instalar las dependencias individuales manualmente insta
 * {{incode|gts}}
 * {{incode|vtk}}
 * {{incode|xerces-c}}
-* {{incode|qt@5}} - Only Qt5 is currently supported, support for Qt6 is a work-in-progress
+* {{incode|qt@5}} - Actualmente solo se admite Qt5; la compatibilidad con Qt6 está en desarrollo.
 * {{incode|opencascade}}
 * {{incode|doxygen}}
 * {{incode|pkgconfig}}
-* {{incode|coin3d}} - Note that as of this writing (Nov. 2022) this will install an unusable version of pyside@2 as a dependency.
+* {{incode|coin3d}} - Tenga en cuenta que, a la fecha de redacción de este documento (noviembre de 2022), esto instalará una versión inutilizable de pyside@2 como dependencia.
 
 There are several packages that are only available when you have tapped the freecad cask: you must do that ({{incode|brew tap freecad/freecad}}). Due to some historical bug workarounds, at the time of this writing (Nov. 2022) the versions of PySide2 and Shiboken2 installed by Homebrew are not usable because they force the use of Py_Limited_API, which FreeCAD does not support. It is expected that this workaround will be removed in the coming months, but in the meantime you must use the FreeCAD cask versions of PySide and Shiboken. Use {{incode|brew install ...}}, install the following packages:
 
