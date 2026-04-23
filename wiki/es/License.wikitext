@@ -45,9 +45,7 @@ La licencia LGPL le permite usar FreeCAD como un componente para su propia aplic
 
 1) Debe informar claramente a sus usuarios de que su aplicación utiliza FreeCAD y que FreeCAD tiene licencia LGPL.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-2) The LGPL license also stipulate your users must be able to swap your modified FreeCAD component with the original FreeCAD equivalent. That is would be done by dynamically linking to the FreeCAD components, so users are allowed to change it. However, this is often hard to achieve by today's requirements. At FreeCAD, we understand that the important point here is to not restrict the freedom given to FreeCAD users by the LGPL license. So an equivalent to dynamic linking is to offer the choice to your users, by '''making your users aware of the possibility to use FreeCAD for free'''. This can be done in a number of ways.
-</div>
+2) La licencia LGPL también estipula que sus usuarios deben poder intercambiar su componente FreeCAD modificado con el equivalente original de FreeCAD. Esto se haría mediante la vinculación dinámica a los componentes de FreeCAD, de modo que los usuarios puedan modificarlo. Sin embargo, esto suele ser difícil de lograr con los requisitos actuales. En FreeCAD, entendemos que lo importante aquí es no restringir la libertad que la licencia LGPL otorga a los usuarios de FreeCAD. Por lo tanto, una alternativa a la vinculación dinámica es ofrecer a sus usuarios la opción de utilizar FreeCAD de forma gratuita. Esto se puede hacer de varias maneras.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If any of the two conditions above are unacceptable to you or cannot be implemented, then you must make your FreeCAD component LGPL too and release the source code with all the modifications you made to it.
