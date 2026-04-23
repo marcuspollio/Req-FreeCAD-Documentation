@@ -560,9 +560,7 @@ cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../
 
 FreeCAD está migrando a Qt6 y pronto dejará de ser compatible con Qt5 y FREECAD_QT_VERSION establecido en "5".
 
-<div class="mw-translate-fuzzy">
-Por 0.20_dev:
-</div>
+Para 0.20 y 0.21_dev:
 
 {{Code|lang=bash|code=
 cmake ../
