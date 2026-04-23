@@ -462,9 +462,7 @@ Si prefiere usar [https://en.wikipedia.org/wiki/Qt_Creator Qt Creator] en lugar 
 <span id="Thumbnail_Provider"></span>
 === Proveedor de miniaturas ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-FreeCAD has the feature to provide preview thumbnails for *.FCStd files. That means that in the Windows file explorer *.FCStd files are shown with a screenshot of the model it contains. To provide this feature, FreeCAD needs to have the file '''FCStdThumbnail.dll''' installed to Windows.
-</div>
+FreeCAD incluye la función de previsualización en miniatura para archivos *.FCStd. Esto significa que, en el explorador de archivos de Windows, los archivos *.FCStd se muestran con una captura de pantalla del modelo que contienen. Para que FreeCAD disponga de esta función, es necesario tener instalado en Windows el archivo '''FCStdThumbnail.dll'''.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ====Installation====
