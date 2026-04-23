@@ -395,9 +395,7 @@ Al usar la interfaz gráfica de usuario de Git, TortoiseGit:
 
 # Aparecerá un cuadro de diálogo. Seleccione la rama de desarrollo que desea obtener. '''main''' es la rama principal. Por lo tanto, úsela a menos que desee compilar una nueva función especial desde una rama que aún no se haya fusionado con '''main'''. (Para obtener más información sobre las ramas de Git, consulte el proceso de desarrollo de Git).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Finally click '''OK'''.
-</div>
+Finalmente, haga clic en '''Aceptar'''.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ====Using the command line====
