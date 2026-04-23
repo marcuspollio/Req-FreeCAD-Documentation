@@ -166,43 +166,46 @@ El sistema de compilación CMake le permite controlar algunos aspectos del proce
 
 A continuación se describe alguna de estas variables:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable" style="text-align:left"
 |-
-! Variable name       !! Description  !! Default
+! Nombre de la variable !! Descripción !! Valor predeterminado
 |-
-| BUILD_XXX || Build FreeCAD with the component XXX. If you don't want/need to compile e.g. the workbench ''OpenSCAD'', disable the variable ''BUILD_OPENSCAD''. FreeCAD will then not have this workbench.
-'''Note:''' Some components are required for other components. If you for example uncheck ''BUILD_ROBOT'' CMake will inform you that then the component ''Path'' cannot be compiled correctly. Therefore check the CMake output after you changed a BUILD_XXX option!
-|| depends
+| BUILD_XXX || Compila FreeCAD con el componente XXX. Si no desea compilar, por ejemplo, el entorno de desarrollo "OpenSCAD", desactive la variable "BUILD_OPENSCAD". FreeCAD no tendrá este entorno de desarrollo.
+
+'''Nota:''' Algunos componentes son necesarios para otros. Si, por ejemplo, desmarca "BUILD_ROBOT", CMake le informará de que el componente "Path" no se puede compilar correctamente. Por lo tanto, ¡revise la salida de CMake después de modificar una opción de BUILD_XXX!
+
+|| depende
 |-
-| BUILD_ENABLE_CXX_STD || The version of the C++ language standard. '''C++14''' is the highest possible for FreeCAD 0.19 while at least '''C++17''' is required for FreeCAD 0.20. See also the note in the section [[#Release_Build|Building with Visual Studio 15 (2017) and 16 (2019)]]
-|| depends
+| BUILD_ENABLE_CXX_STD || La versión del estándar del lenguaje C++. "C++14" es la versión más alta posible para FreeCAD 0.19, mientras que se requiere al menos "C++17" para FreeCAD 0.20. Consulte también la nota en la sección [[#Release_Build|Compilación con Visual Studio 15 (2017) y 16 (2019)]]
+|| depende
 |-
-| BUILD_DESIGNER_PLUGIN|| To build the Qt Designer plugin, see [[Compile_on_Windows#Qt_Designer_plugin|this section below]] || OFF
+| BUILD_DESIGNER_PLUGIN|| Para compilar el complemento Qt Designer, consulte [[Compile_on_Windows#Qt_Designer_plugin|esta sección a continuación]] || DESACTIVADO
 |-
-| BUILD_FLAT_MESH|| Necessary to have a build that includes the [[MeshPart_CreateFlatMesh|CreateFlatMesh feature]] || OFF
+| BUILD_FLAT_MESH|| Necesario para tener una compilación que incluya la [[MeshPart_CreateFlatMesh|función CreateFlatMesh]] || DESACTIVADO
 |-
-| CMAKE_INSTALL_PREFIX   || The output folder when building the target ''INSTALL'', see also the section [[#Running and installing FreeCAD|Running and installing FreeCAD]] || Windows default program installation folder
+| CMAKE_INSTALL_PREFIX || La carpeta de salida al compilar el destino ''INSTALL'', consulte también la sección [[#Ejecución e instalación de FreeCAD|Ejecución e instalación de FreeCAD]] || Carpeta de instalación predeterminada de programas de Windows
 |-
-| FREECAD_COPY_DEPEND_DIRS_TO_BUILD || Copies depending libraries needed to execute the FreeCAD.exe to the build folder. See also the section [[#Running and installing FreeCAD|Running and installing FreeCAD]].</br> '''Note:''' the options FREECAD_COPY_XXX only appear if the libraries were not already copied. If you only need to upgrade/change to another LibPack version, see the section [[#Updating_the_LibPack|Updating the LibPack]]. If you want to bring back the options for some reason, you need to delete all folders in your build folder, except for the LibPack folder. In CMake delete the cache and start as if you compile for the first time. || OFF
+| FREECAD_COPY_DEPEND_DIRS_TO_BUILD || Copia las bibliotecas necesarias para ejecutar FreeCAD.exe a la carpeta de compilación. Consulte también la sección [[#Ejecutar e instalar FreeCAD|Ejecutar e instalar FreeCAD]].</br> '''Nota:''' Las opciones FREECAD_COPY_XXX solo aparecen si las bibliotecas no se han copiado previamente. Si solo necesita actualizar o cambiar a otra versión de LibPack, consulte la sección [[#Actualizar_LibPack|Actualizar LibPack]]. Si desea recuperar estas opciones por algún motivo, debe eliminar todas las carpetas de la carpeta de compilación, excepto la carpeta LibPack. En CMake, elimine la caché y comience como si compilara por primera vez.
+|| DESACTIVADO
 |-
-| FREECAD_COPY_LIBPACK_BIN_TO_BUILD || Copies the LibPack binaries needed to execute the FreeCAD.exe to the build folder. See also the section [[#Running and installing FreeCAD|Running and installing FreeCAD]]. || OFF
+| FREECAD_COPY_LIBPACK_BIN_TO_BUILD || Copia los binarios de LibPack necesarios para ejecutar FreeCAD.exe a la carpeta de compilación. Consulte también la sección [[#Ejecutar e instalar FreeCAD|Ejecutar e instalar FreeCAD]].
+|| DESACTIVADO
 |-
-| FREECAD_COPY_PLUGINS_BIN_TO_BUILD|| Copies Qt's plugin files needed to execute the FreeCAD.exe to the build folder. See also the section [[#Running and installing FreeCAD|Running and installing FreeCAD]]. || OFF
+| FREECAD_COPY_PLUGINS_BIN_TO_BUILD || Copia los archivos de complementos de Qt necesarios para ejecutar FreeCAD.exe a la carpeta de compilación. Consulte también la sección [[#Ejecución e instalación de FreeCAD|Ejecución e instalación de FreeCAD]]. || DESACTIVADO
 |-
-| FREECAD_LIBPACK_USE || Switch the usage of the FreeCAD LibPack on or off  || ON
+| FREECAD_LIBPACK_USE || Activa o desactiva el uso del paquete de bibliotecas de FreeCAD || ACTIVADO
 |-
-| FREECAD_LIBPACK_DIR || Directory where the LibPack is || FreeCAD's source code folder
+| FREECAD_LIBPACK_DIR || Directorio donde se encuentra el paquete de bibliotecas || Carpeta del código fuente de FreeCAD
 |-
-| FREECAD_RELEASE_PDB || Create debug libraries (*.pdb) also for release builds. It doesn't affect the speed (like a real debug build would do) and can be very useful to locate crashes in FreeCAD code. In case FreeCAD crashes a ''crash.dmp'' file will be created that can be loaded with MSVC and if you have the corresponding PDB files plus the source code of that version you can debug through the code. Without the PDB files it's not possible to debug the code and all what the debugger shows is the name of the DLL where the crash has occurred. || ON
+| FREECAD_RELEASE_PDB || Crea bibliotecas de depuración (*.pdb) también para las compilaciones de lanzamiento. No afecta a la velocidad (como lo haría una compilación de depuración real) y puede ser muy útil para localizar fallos en el código de FreeCAD. En caso de que FreeCAD falle, se creará un archivo ''crash.dmp'' que se puede cargar con MSVC y, si dispone de los archivos PDB correspondientes, además del código fuente de esa versión, puede depurar el código. Sin los archivos PDB, no es posible depurar el código y el depurador solo muestra el nombre de la DLL donde se produjo el fallo. || ACTIVADO
 |-
-| FREECAD_USE_MP_COMPILE_FLAG || Adds the /MP (multiprocessor) option to the Visual Studio projects, enabling speedups on multi-core CPUs. This can greatly accelerate builds on modern processors.</br>'''Note:''' If you turn off '''FREECAD_USE_PCH''', the compilation can quickly overload your heap space, even if you have 16 GB RAM. || ON
+| FREECAD_USE_MP_COMPILE_FLAG || Agrega la opción /MP (multiprocesador) a los proyectos de Visual Studio, lo que permite acelerar el proceso en CPU multinúcleo. Esto puede acelerar considerablemente la compilación en procesadores modernos.</br> ''''Nota:'''' Si desactiva '''FREECAD_USE_PCH''', la compilación puede sobrecargar rápidamente el espacio de memoria dinámica, incluso con 16 GB de RAM. || ACTIVADO
 |-
-| FREECAD_USE_PCH || [https://en.wikipedia.org/wiki/Precompiled_header Precompiles the headers] in order to save compilation time. || ON
+| FREECAD_USE_PCH || [https://en.wikipedia.org/wiki/Precompiled_header Precompila los encabezados] para ahorrar tiempo de compilación. || ACTIVADO
 |-
-| FREECAD_USE_PYBIND11|| Includes the [https://github.com/pybind/pybind11 PyBind11] library. Necessary to have a build that includes the [[MeshPart_CreateFlatMesh|CreateFlatMesh feature]].</br>'''Note:''' after turning it on you might get a configuration error. Just configure again and the problem should go away. || OFF
+| FREECAD_USE_PYBIND11 || Incluye la biblioteca [https://github.com/pybind/pybind11 PyBind11]. Es necesario tener una compilación que incluya la función [[MeshPart_CreateFlatMesh|CreateFlatMesh]].</br>''Nota:'' Después de activarla, es posible que aparezca un error de configuración. Simplemente vuelva a configurarla y el problema debería desaparecer.
+|| DESACTIVADO
 |}
-</div>
 
 <span id="Building_FreeCAD"></span>
 == Construyendo FreeCAD ==
