@@ -72,9 +72,10 @@ Estos paquetes son esenciales para que cualquier compilación se realice correct
 *{{incode|libtool}}, herramientas esenciales para generar bibliotecas compartidas.
 *{{incode|lsb-release}}, la utilidad estándar de informes base, normalmente ya está instalada en un sistema Debian y permite distinguir programáticamente entre una instalación Debian pura y una variante, como Ubuntu o Linux Mint. No elimine este paquete, ya que muchos otros paquetes del sistema pueden depender de él.
 
-La compilación de FreeCAD utiliza el lenguaje Python, y también se utiliza en tiempo de ejecución como lenguaje de scripting. Si estás usando una distribución basada en Debian el intérprete de Python normalmente ya está instalado.
+La compilación de FreeCAD utiliza el lenguaje Python, que también se usa en tiempo de ejecución como lenguaje de scripting. Si utiliza una distribución basada en Debian, el intérprete de Python normalmente ya viene instalado:
+
 *{{incode|python3}}
-*{{incode|swig}}, la herramienta que crea interfaces entre el código C++ y Python.
+*{{incode|swig}}, la herramienta que crea interfaces entre código C++ y Python.
 
 Es necesario instalar las bibliotecas Boost:
 
