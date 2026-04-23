@@ -70,9 +70,7 @@ The '''FEM MeshDistance''' command can be used to set mesh size based on the dis
 After the mesh has been created you can change its properties using the [[Property_View|Property View]]. After you changed a property, you must reopen the Gmsh dialog again and click the {{Button|Apply}} button. (You can leave the dialog open while changing properties.)
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You can create as many different distance-based refinements as needed.
-</div>
+Es können so viele verschiedene, auf der Entfernung basierende Verfeinerungen erstellt werden, wie benötigt werden.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_distance_based_refinement.PNG|700px]]
