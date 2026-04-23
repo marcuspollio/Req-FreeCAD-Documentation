@@ -305,11 +305,9 @@ Un tutorial en inglés que comienza con la configuración en CMake Gui y contin�
 * Establezca el generador en '''NMake Generator (MSVC 2008)'''.
 * Haga clic en Ejecutar CMake. Siga las instrucciones anteriores para configurar CMake a su gusto.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Now FreeCAD can be built
-* Build → Build All
-* This will take a long time...
-</div>
+Ahora se puede compilar FreeCAD
+* Compilar → Compilar todo
+* Esto tardará bastante...
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Once complete, it can be run:
