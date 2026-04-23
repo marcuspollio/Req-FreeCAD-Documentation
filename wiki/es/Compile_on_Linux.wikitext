@@ -566,9 +566,7 @@ Para 0.20 y 0.21_dev:
 cmake ../
 }}
 
-<div class="mw-translate-fuzzy">
-Tenga en cuenta que al cambiar entre las compilaciones 0.19 y 0.20, puede ser necesario borrar CMakeCache.txt antes de ejecutar cmake.
-</div>
+Tenga en cuenta que al cambiar entre las compilaciones 0.20 y 0.21_dev, puede ser necesario eliminar CMakeCache.txt antes de ejecutar cmake.
 
 <span id="Building_for_a_specific_Python_version"></span>
 ==== Creación para una versión específica de Python ====
