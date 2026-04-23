@@ -90,7 +90,7 @@ En la siguiente tabla se describen con más detalle algunas de las opciones sele
 Las opciones se pueden escribir de dos formas: {{incode|--long-option arg}} y {{incode|--long-option<nowiki>=</nowiki>arg}}.
 
 <span id="Response_and_config_files"></span>
-=== Respuesta y archivos de configuración ===
+=== Archivos de respuesta y configuración ===
 
 FreeCAD puede leer algunas de estas opciones desde un archivo de configuración. Este archivo debe estar en la ruta de la papelera y debe llamarse {{FileName|FreeCAD.cfg}}. Tenga en cuenta que las opciones especificadas en la línea de comandos anulan el archivo de configuración.
 
