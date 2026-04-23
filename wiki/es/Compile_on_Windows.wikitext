@@ -164,9 +164,7 @@ Ahora no debería haber errores. Si sigue encontrando errores que no puede diagn
 <span id="Options_for_the_build_process"></span>
 === Opciones para el proceso de compilación ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The CMake build system gives you control over some aspects of the build process. In particular, you can switch on and off some features or modules using CMake variables.
-</div>
+El sistema de compilación CMake le permite controlar algunos aspectos del proceso de compilación. En particular, puede activar o desactivar ciertas funciones o módulos mediante variables de CMake.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Here is a description of some of these variables:
