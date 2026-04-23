@@ -86,9 +86,7 @@ Si se conecta a algún sistema no confiable, como por ejemplo mediante SSH, ser�
 <span id="MacOS_users"></span>
 ==== Usuarios de macOS ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For those using macOS, the X window system may not be installed. The XQuartz project is a long running open source project that will allow you to add it to your computer. [https://www.xquartz.org/ You can find it here].
-</div> 
+Para quienes usan macOS, es posible que el sistema de ventanas X no esté instalado. El proyecto XQuartz es un proyecto de código abierto con una larga trayectoria que permite agregarlo al equipo. [https://www.xquartz.org/ Puedes encontrarlo aquí]. 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Launch the docker image===
