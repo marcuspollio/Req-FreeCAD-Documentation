@@ -233,12 +233,11 @@ Tenga en cuenta que configurar variables de CMake como ''CMAKE_BUILD_TYPE'' no t
 <span id="Release_Build"></span>
 ==== Versión de lanzamiento ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Start the Visual Studio IDE. This can either be done by pressing the button ''Open Project'' in the CMake GUI or by double-clicking on the file ''FreeCAD.sln'' that you find in your build folder.
-# In the toolbar of the MSVC IDE assure that you use for the first compilation ''Release''.
-# There is a window called ''Solution Explorer''. It lists all possible compilation targets. To start a full compilation, right-click on the target '''ALL_BUILD''' and then choose '''Build'''.
-This will now take quite a long time.
-</div>
+# Inicie el IDE de Visual Studio. Puede hacerlo pulsando el botón ''Abrir proyecto'' en la interfaz gráfica de CMake o haciendo doble clic en el archivo ''FreeCAD.sln'' que encontrará en la carpeta de compilación.
+# En la barra de herramientas del IDE de MSVC, asegúrese de usar ''Release'' para la primera compilación.
+# Se abrirá una ventana llamada ''Explorador de soluciones''. En ella se muestran todos los destinos de compilación posibles. Para iniciar una compilación completa, haga clic con el botón derecho en el destino '''ALL_BUILD''' y seleccione '''Compilar'''.
+
+Este proceso tardará bastante tiempo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To compile a ready-to use FreeCAD, compile the target ''INSTALL'', see the section [[#Running and installing FreeCAD|Running and installing FreeCAD]].
