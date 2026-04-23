@@ -68,7 +68,7 @@ Hay varios paquetes que solo están disponibles cuando ha instalado el paquete f
 
 También necesitará "vincular" PySide y Shiboken:
 
-{{Código|código=
+{{Code|código=
 brew link freecad/freecad/pyside2@5.15.5 freecad/freecad/shiboken2@5.15.5
 }}
 
