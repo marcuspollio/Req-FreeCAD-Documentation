@@ -494,9 +494,8 @@ Se abrirá una ventana llamada ''Solution Explorer''. Haga clic con el botón de
 
 Como resultado, ahora debería tener un archivo '''FCStdThumbnail.dll''' en la carpeta ''~\src\Tools\thumbs\ThumbnailProvider\release'' que puede instalar como se describió anteriormente.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Compiling Open Cascade==
-</div>
+<span id="Compiling_Open_Cascade"></span>
+== Compilando Open Cascade ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The LibPack comes with a version of [https://en.wikipedia.org/wiki/Open_Cascade Open Cascade] that is suitable for general use. However, under some circumstances you may wish to compile against an alternate version of Open Cascade, such as one of their official releases, or a patched fork.
