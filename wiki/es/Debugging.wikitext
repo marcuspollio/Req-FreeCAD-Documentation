@@ -108,11 +108,9 @@ Depuración de macOS →
 
 Requisitos previos: 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* software package lldb installed
-* a debug build of FreeCAD
-* a FreeCAD model that causes a crash
-</div>
+* Paquete de software lldb instalado
+* Versión de depuración de FreeCAD
+* Modelo de FreeCAD que provoca un fallo
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Steps:
