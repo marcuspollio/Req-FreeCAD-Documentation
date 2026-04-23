@@ -230,9 +230,8 @@ Tenga en cuenta que configurar variables de CMake como ''CMAKE_BUILD_TYPE'' no t
 
 <div class="mw-collapsible-content">
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Release Build ====
-</div>
+<span id="Release_Build"></span>
+==== Versión de lanzamiento ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Start the Visual Studio IDE. This can either be done by pressing the button ''Open Project'' in the CMake GUI or by double-clicking on the file ''FreeCAD.sln'' that you find in your build folder.
