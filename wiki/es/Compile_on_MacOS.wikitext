@@ -16,7 +16,7 @@ Esta página describe cómo compilar el código fuente de FreeCAD en macOS. Para
 
 La forma más sencilla y actualizada de crear un entorno de desarrollo es mediante Pixi. Consulte [https://github.com/FreeCAD/DevelopersHandbook/blob/main/gettingstarted/index.md#pixi aquí] para obtener instrucciones sobre cómo usar esta herramienta. A continuación, encontrará otros métodos con distintos niveles de dificultad.
 
-These instructions have been tested on macOS Catalina with standard XCode 11.6. It is known to work on macOS BigSur Beta with XCode 12.0 beta. If you plan to use XCode Beta, please be sure to download Command Line Tools add on through a dmg package to workaround some libz dependency issues.
+Estas instrucciones se han probado en macOS Catalina con Xcode 11.6 estándar. Se sabe que funcionan en macOS Big Sur Beta con Xcode 12.0 beta. Si planea usar Xcode Beta, asegúrese de descargar el complemento Command Line Tools mediante un paquete .dmg para solucionar algunos problemas de dependencia de libz.
 
 This page serves as a quick start, and is not intended to be comprehensive with regard to describing all the available build options. 
 
