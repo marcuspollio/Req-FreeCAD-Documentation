@@ -169,9 +169,7 @@ Para obtener más información sobre el modo de consola o sin interfaz gráfica,
 |                  ||Linux (AppImage) || {{incode|path/to/FreeCADXXX.AppImage ~/.FreeCAD/Mod/WorkFeature/start_WF.FCMacro}}
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-See [[Macro_at_Startup|Macro at Startup]] on how to set up a macro to automatically run at FreeCAD startup.
-</div>
+Consulte [[Macro_at_Startup|Macro al inicio]] para obtener información sobre cómo configurar una macro para que se ejecute automáticamente al iniciar FreeCAD.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Environment variables ==
