@@ -66,9 +66,7 @@ mkdir ~/my_code/freecad_build
 <span id="Pull_Docker_image"></span>
 === Descargar imagen de Docker ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Pull the Docker image. (Official image coming soon.)
-</div>
+Descarga la imagen de Docker. (La imagen oficial estará disponible próximamente).
 
 {{Code|lang=bash|code=
 docker pull registry.gitlab.com/daviddaish/freecad_docker_env:latest
