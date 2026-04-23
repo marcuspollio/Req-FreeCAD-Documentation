@@ -424,9 +424,7 @@ A continuación, se asume que su escritorio está configurado para que pueda ini
 <span id="Starting_FreeCAD_from_a_portable_USB_medium"></span>
 == Iniciando FreeCAD desde un medio USB portátil ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 '''Windows'''
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Put the FreeCAD executable, {{FileName|FreeCAD.exe}}, on the USB medium. Create a batch file, {{FileName|FreeCAD.bat}}, and put it into the same directory as {{FileName|FreeCAD.exe}}. Inside the batch file write:
