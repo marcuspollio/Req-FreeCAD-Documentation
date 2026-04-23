@@ -38,9 +38,8 @@ The '''FEM MeshTransfiniteCurve''' command creates a fixed amount of nodes on an
 {{Caption|Task panel of the MeshTransfiniteCurve tool}}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Anwendung==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # To enable the command a [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
