@@ -158,7 +158,7 @@ Nota: Línea de comandos para generar CMAKE_PREFIX_PATH:
 <span id="CMake_GUI"></span>
 === Interfaz gráfica de usuario de CMake ===
 
-Open the CMake app, and fill in the source and build folder fields. In this example, it would be '''/Users/username/FreeCAD/FreeCAD-git''' for the source, and '''/Users/username/FreeCAD/build''' for the build folder. 
+Abra la aplicación CMake y complete los campos de carpeta de origen y de compilación. En este ejemplo, sería '''/Users/username/FreeCAD/FreeCAD-git''' para el origen y '''/Users/username/FreeCAD/build''' para la compilación. 
 
 Next, click the '''Configure''' button to populate the list of configuration options. This will display a dialog asking you to specify what generator to use. Leave it at the default '''Unix Makefiles.''' Configuring will fail the first time because there are some options that need to be changed. Note: You will need to check the '''Advanced''' checkbox to get all of the options.
 
