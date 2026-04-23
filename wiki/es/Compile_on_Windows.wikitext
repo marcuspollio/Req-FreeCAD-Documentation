@@ -39,9 +39,7 @@ Para compilar FreeCAD en Windows se necesitan varias herramientas y bibliotecas.
 
 * [http://git-scm.com/ Git] (También hay interfaces gráficas de usuario disponibles para Git, consulte la siguiente sección).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [https://cmake.org/download/ CMake] version 3.11.x or newer. </br> ''Hint:'' Choosing the option ''Add CMake to the system PATH for all users'' when installing CMake will make CMake accessible from the Windows command prompt, which can be useful.
-</div>
+* [https://cmake.org/download/ CMake] versión 3.11.x o posterior. </br> ''Sugerencia:'' Elegir la opción ''Agregar CMake a la variable PATH del sistema para todos los usuarios'' al instalar CMake hará que CMake sea accesible desde el símbolo del sistema de Windows, lo que puede ser bastante útil.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The [https://github.com/FreeCAD/FreeCAD-LibPack LibPack]. This is a single package containing all of the libraries necessary to compile FreeCAD on Windows. Download the version of the LibPack that corresponds to the version of FreeCAD you want to compile. To compile FreeCAD 0.20 download the [https://github.com/FreeCAD/FreeCAD-LibPack/releases/tag/2.6 LibPack version 2.6], for FreeCAD 0.19 download the [https://github.com/FreeCAD/FreeCAD-LibPack/releases/tag/1.0 LibPack version 1.0]. Extract the LibPack to a convenient location. (If your computer does not recognize the .7z extension, you must install the program [https://www.7-zip.org 7-zip].) </br> '''Note''': It is highly recommended to compile FreeCAD with the compiler version the LibPack is designed for. For example, you might run into problems compiling FreeCAD 0.20 using MSVC&nbsp;2017 because the LibPack is designed to be built with MSVC&nbsp;2019 or newer.</br>To update your LibPack later, see the section [[#Updating_the_LibPack|Updating the LibPack]].
