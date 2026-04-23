@@ -382,9 +382,7 @@ import pydevd; pydevd.settrace()
 squashfs-root> ./usr/bin/freecad
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Run the macro (or any other file with a {{incode|pydevd.settrace()}} trigger) from within FreeCAD, as you would normally do.
-</div>
+* Ejecute la macro (o cualquier otro archivo con un disparador {{incode|pydevd.settrace()}}) desde FreeCAD, como lo haría normalmente.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Happy debugging.
