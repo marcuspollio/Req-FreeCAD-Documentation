@@ -298,14 +298,12 @@ Un tutorial en inglés que comienza con la configuración en CMake Gui y contin�
 <span id="Import_project_and_building"></span>
 ==== Importar proyecto y edificio ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* File → Open File or Project
-* Open '''CMakeLists.txt''' which is in the top level of the source
-* This will start CMake
-* Choose build directory and click next
-* Set generator to '''NMake Generator (MSVC 2008)'''
-* Click Run CMake. Follow the instructions depicted above to configure CMake to your liking.
-</div>
+* Archivo → Abrir archivo o proyecto
+* Abra '''CMakeLists.txt''', que se encuentra en la raíz del código fuente.
+* Esto iniciará CMake.
+* Elija el directorio de compilación y haga clic en Siguiente.
+* Establezca el generador en '''NMake Generator (MSVC 2008)'''.
+* Haga clic en Ejecutar CMake. Siga las instrucciones anteriores para configurar CMake a su gusto.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Now FreeCAD can be built
