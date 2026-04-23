@@ -211,7 +211,7 @@ Si todo ha finalizado sin errores, ahora puede iniciar FreeCAD haciendo doble cl
 <span id="Updating_from_Github"></span>
 == Actualizando desde Github ==
 
-El desarrollo de FreeCAD avanza rápidamente; casi a diario se corrigen errores y se añaden nuevas funciones. Para obtener los últimos cambios, utilice Git para actualizar el directorio de origen (consulte [[Administración del código fuente]]) y, a continuación, vuelva a ejecutar los pasos de CMake y make descritos anteriormente. En este caso, no suele ser necesario empezar con un directorio de compilación limpio, y las compilaciones posteriores generalmente serán mucho más rápidas que la primera.
+El desarrollo de FreeCAD avanza rápidamente; casi a diario se corrigen errores y se añaden nuevas funciones. Para obtener los últimos cambios, utilice Git para actualizar el directorio de origen (consulte [[Source code management|Administración del código fuente]]) y, a continuación, vuelva a ejecutar los pasos de CMake y make descritos anteriormente. En este caso, no suele ser necesario empezar con un directorio de compilación limpio, y las compilaciones posteriores generalmente serán mucho más rápidas que la primera.
 
 <span id="Building_with_Qt4_and_Python_2.7"></span>
 == Compilación con Qt4 y Python 2.7 ==
