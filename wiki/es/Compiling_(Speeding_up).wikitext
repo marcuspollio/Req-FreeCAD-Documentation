@@ -44,7 +44,7 @@ Ejecute cuatro comandos de compilación en paralelo:
 make -j4
 }}
 
-Compilar tantos archivos en paralelo como el número de núcleos de la CPU en su sistema. Esto es útil si tienes muchos núcleos y quieres usarlos todos para compilar el software.
+Compile en paralelo tantos archivos como núcleos de CPU tenga su sistema. Esto es útil si tiene muchos núcleos y quiere usarlos todos para compilar el software.
 
 {{code|code=
 make -j$(nproc)
