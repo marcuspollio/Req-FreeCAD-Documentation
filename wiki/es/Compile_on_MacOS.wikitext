@@ -136,14 +136,18 @@ A continuación, ejecutaremos CMake para generar la configuración de compilaci�
 |-
 | CMAKE_PREFIX_PATH || "/usr/local/opt/qt5152;" ... (RUTA) || Requerido para compilar con Qt5. Ver nota a continuación. También debe agregar la ruta a las bibliotecas VTK y NGLIB al archivo de configuración de CMake.
 
-|-               
-| FREECAD_CREATE_MAC_APP || 1 (BOOL) || Create a FreeCAD.app bundle at the location specified in CMAKE_INSTALL_PREFIX, when the 'make install' command issued.
 |-
-| CMAKE_INSTALL_PREFIX || "./.." (PATH) || Path where you want to generate the FreeCAD.app bundle.
-|-               
-| FREECAD_USE_EXTERNAL_KDL || 1 (BOOL) || Required.
+| FREECAD_CREATE_MAC_APP || 1 (BOOL) || Crea un paquete FreeCAD.app en la ubicación especificada en CMAKE_INSTALL_PREFIX cuando se ejecuta el comando 'make install'.
+
 |-
-| BUILD_FEM_NETGEN || 1 (BOOL) || Required if choosing to build the FEM tools.
+| CMAKE_INSTALL_PREFIX || "./.." (RUTA) || Ruta donde se generará el paquete FreeCAD.app.
+
+|-
+| FREECAD_USE_EXTERNAL_KDL || 1 (BOOL) || Obligatorio.
+
+|-
+| BUILD_FEM_NETGEN || 1 (BOOL) || Obligatorio si se elige compilar las herramientas FEM.
+
 |}
 
 Note: Command line to generate CMAKE_PREFIX_PATH:  
