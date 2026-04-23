@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[FEM_MeshGroup/de|FEM Netz-Gruppe]]
+|[[FEM_MeshTransfiniteVolume/de|FEM NetzTransfinitesVolumen]]
 |[[FEM_FemMesh2Mesh/de|FEM-Netz zu Netz]]
 |[[FEM_Workbench/de|FEM]]
-|IconL=FEM_MeshGroup.svg
+|IconL=FEM_MeshTransfiniteVolume.svg
 |IconR=FEM_FemMesh2Mesh.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{GuiCommand/de
 |Name=FEM CreateElementsSet |Name/de=FEM Elemente löschen
