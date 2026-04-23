@@ -336,7 +336,7 @@ El siguiente comando instalará Qt Creator y el depurador de proyectos GNU.
 
 {{Code|code=zypper in libqt5-creator gdb}}
 
-Si falta algún paquete, puedes comprobar el archivo Tumbleweed [https://build.opensuse.org/package/view_file/openSUSE:Factory/FreeCAD/FreeCAD.spec "FreeCAD.spec"] en el [https://build.opensuse.org/package/show/openSUSE:Factory/FreeCAD Open Build Service].
+Si falta algún paquete, puede consultar el archivo Tumbleweed [https://build.opensuse.org/package/view_file/openSUSE:Factory/FreeCAD/FreeCAD.spec "FreeCAD.spec"] en el [https://build.opensuse.org/package/show/openSUSE:Factory/FreeCAD Open Build Service].
 
 Además, compruebe si hay algún parche que deba aplicar (como [https://build.opensuse.org/package/view_file/openSUSE:Factory/FreeCAD/0001-find-openmpi2-include-files.patch 0001-find-openmpi2-include-files.patch]).
 
