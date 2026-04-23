@@ -41,9 +41,8 @@ Configuración:
    -P [ --python-path ] arg  Rutas adicionales de Python
    --single-instance         Permite ejecutar una única instancia de la aplicación
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Generating a Backtrace ==
-</div>
+<span id="Generating_a_Backtrace"></span>
+== Generando un rastreo de pila ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you are running a version of FreeCAD from the bleeding edge of the development curve, it may "crash".  You can help solve such problems by providing the developers with a "backtrace".  To do this, you need to be running a "debug build" of the software. "Debug build" is a parameter that is set at compile time, so you'll either need to compile FreeCAD yourself, or obtain a pre-compiled "debug" version.
