@@ -220,9 +220,7 @@ Depuración en VS Code →
 
 Requisitos previos: 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The ptvsd package needs to be installed in a Python 3 outside of FreeCAD, then the module must be copied to FreeCAD's Python library folder.
-</div>
+* El paquete ptvsd debe instalarse en Python 3 fuera de FreeCAD, luego el módulo debe copiarse a la carpeta de la biblioteca de Python de FreeCAD.
 
 {{Code|code=
 # In a cmd window that has a path to you local Python 3:
