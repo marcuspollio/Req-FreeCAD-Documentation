@@ -711,9 +711,8 @@ Una vez construido el paquete, puede utilizar {{incode|lintian}} para comprobar 
 lintian freecad-package.deb
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== *.deb package with checkinstall ====
-</div>
+<span id="*.deb_package_with_checkinstall"></span>
+==== Paquete *.deb con checkinstall ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The Debian script {{incode|checkinstall}} allows to create a *.deb package that can be installed and removed with the standard {{incode|dpkg}} commands. It may need to be installed first (on Ubuntu use {{incode|sudo apt install checkinstall}}). It's interactive and asks for the required information providing helpful defaults. During the process the package is installed and a *.deb file and a backup archive are created.
