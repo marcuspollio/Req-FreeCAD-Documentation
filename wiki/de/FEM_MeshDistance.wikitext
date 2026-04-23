@@ -26,9 +26,8 @@
 }}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Description==
-</div>
+<span id="Description"></span>
+==Beschreibung==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The '''FEM MeshDistance''' command can be used to set mesh size based on the distance to vertices, edges and faces.
