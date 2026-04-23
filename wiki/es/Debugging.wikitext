@@ -44,9 +44,7 @@ Configuración:
 <span id="Generating_a_Backtrace"></span>
 == Generando un rastreo de pila ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If you are running a version of FreeCAD from the bleeding edge of the development curve, it may "crash".  You can help solve such problems by providing the developers with a "backtrace".  To do this, you need to be running a "debug build" of the software. "Debug build" is a parameter that is set at compile time, so you'll either need to compile FreeCAD yourself, or obtain a pre-compiled "debug" version.
-</div>  
+Si utiliza una versión de FreeCAD muy reciente, es posible que se produzca un fallo. Puede ayudar a solucionar estos problemas proporcionando a los desarrolladores un registro de errores. Para ello, necesita ejecutar una versión de depuración del software. La opción "versión de depuración" es un parámetro que se configura durante la compilación, por lo que tendrá que compilar FreeCAD por su cuenta u obtener una versión de depuración precompilada.  
 
 <span id="For_Linux"></span>
 === Para Linux ===
