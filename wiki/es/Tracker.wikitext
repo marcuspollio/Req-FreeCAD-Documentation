@@ -14,10 +14,8 @@
 El [https://tracker.freecad.org FreeCAD BugTracker] es el lugar para informar de errores, enviar solicitudes de nuevas funciones, parches o solicitar la fusión de su rama si ha desarrollado algo con Git. El sistema está dividido en '''Entornos de trabajo''', así que sea específico y publique su solicitud en la subsección correspondiente. En caso de duda, déjela en la sección "FreeCAD". 
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Recommended Workflow ==
-[[File:Bugreport-workflow.png|center]]
-</div>
+== Flujo de trabajo recomendado ==
+[[Archivo:Bugreport-workflow.png|center]]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 As shown in the above flowchart, before creating tickets, please always first search the forums and bugtracker to discover if your issue is a known issue. This saves a lot of time/work for developers and volunteers that could be spending said time making FreeCAD even more awesome.
