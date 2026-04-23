@@ -265,10 +265,8 @@ Si no hubo errores de compilación y si las opciones '''FREECAD_COPY_*''' mencio
 
 Esto iniciará la compilación de depuración de FreeCAD y podrá utilizar el IDE de MSVC para depurarla.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Video Resource ====
-An English language tutorial that begins with configuration in CMake Gui and continues to the `Build` command in Visual Studio 16 2019 is available unlisted on YouTube at [https://youtu.be/s4pHvlDOSZQ Tutorial: Build FreeCAD from source on Windows 10].
-</div>
+==== Recurso de vídeo ====
+Un tutorial en inglés que comienza con la configuración en CMake Gui y continúa con el comando `Build` en Visual Studio 16 2019 está disponible en YouTube (sin listar) en [https://youtu.be/s4pHvlDOSZQ Tutorial: Compilar FreeCAD desde el código fuente en Windows 10].
 </div>
 </div>
 <div class="mw-collapsible mw-collapsed toccolours">
