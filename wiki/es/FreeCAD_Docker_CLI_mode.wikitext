@@ -69,7 +69,7 @@ FROM amrit3701/freecad-cli:lastest
 <span id="Import_FreeCAD_in_Python"></span>
 === Importar FreeCAD en Python === 
 
-Después de ejecutar la imagen Docker, simplemente ejecuta <code>Python</code>.
+Después de ejecutar la imagen de Docker, simplemente ejecute <code>Python</code>.
 
 {{Code|lang=bash|code=
 $ docker run -it amrit3701/freecad-cli:lastest bash
