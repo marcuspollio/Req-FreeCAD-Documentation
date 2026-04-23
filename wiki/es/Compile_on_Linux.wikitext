@@ -478,9 +478,7 @@ GNU libc 2.34 introduce un cambio en la biblioteca que puede provocar que las co
 No rule to make target '/usr/lib/x86_64-linux-gnu/libdl.so
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To resolve this, a symbolic link must be manually created from the (now empty) system-installed libdl.so.* to the location your compiler says it is looking for the file. For example (if the actual installed copy of libdl.so on your system is /usr/lib/x86_64-linux-gnu/libdl.so.2):
-</div>
+Para resolver esto, se debe crear manualmente un enlace simbólico desde el archivo libdl.so.* instalado en el sistema (ahora vacío) hasta la ubicación donde su compilador indica que está buscando el archivo. Por ejemplo (si la copia instalada de libdl.so en su sistema es /usr/lib/x86_64-linux-gnu/libdl.so.2):
 
 {{Code|lang=bash|code=
 sudo ln -s /usr/lib/x86_64-linux-gnu/libdl.so.2 /usr/lib/x86_64-linux-gnu/libdl.so
