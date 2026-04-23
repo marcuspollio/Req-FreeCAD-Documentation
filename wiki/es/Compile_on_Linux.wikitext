@@ -62,9 +62,7 @@ Si ya ha instalado FreeCAD desde los repositorios oficiales, puede instalar sus 
 sudo apt build-dep freecad
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Alternatively, replace {{incode|freecad}} with {{incode|freecad-daily}} to install the build dependencies for the main development branch. You'll need to have the [[Installing_on_Linux#Development_PPA_(Daily)|freecad-stable/freecad-daily PPAs]] added to your software sources.
-</div>
+Como alternativa, sustituya {{incode|freecad}} por {{incode|freecad-daily}} para instalar las dependencias de compilación de la rama de desarrollo principal. Deberá añadir los PPA [[Installing_on_Linux#Development_PPA_(Daily)|freecad-stable/freecad-daily]] a sus fuentes de software.
 
 Sin embargo, si la versión de FreeCAD en los repositorios es antigua, las dependencias pueden ser las incorrectas para compilar una versión reciente de FreeCAD. Por lo tanto, comprueba que tienes instalados los siguientes paquetes.
 
