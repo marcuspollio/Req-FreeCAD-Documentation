@@ -153,9 +153,8 @@ Esto imprime una larga lista de recursos cargados. Por ejemplo, si intenta deter
 
 {{incode|lsof -p process_id &#124; grep Coin}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Python Debugging ==
-</div>
+<span id="Python_Debugging"></span>
+== Depuración de Python ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 For a more modern approach to debugging Python, see these posts:
