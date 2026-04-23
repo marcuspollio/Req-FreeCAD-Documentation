@@ -320,9 +320,7 @@ Depuración de LiClipse →
 > cd squashfs-root/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The sqashfs-root location is where the debugger later on is hooked up to.
-</div>
+* La ubicación sqashfs-root es donde se conecta posteriormente el depurador.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Make sure you can start a FreeCAD session from within the squashfs-root location.
