@@ -99,9 +99,7 @@ fc_build=~/my_code/freecad_build
 other_files=~/
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Launch the Docker image.
-</div>
+Inicie la imagen de Docker.
 
 {{Code|lang=bash|code=
 docker run -it --rm \
