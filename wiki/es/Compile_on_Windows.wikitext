@@ -239,9 +239,7 @@ Tenga en cuenta que configurar variables de CMake como ''CMAKE_BUILD_TYPE'' no t
 
 Este proceso tardará bastante tiempo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To compile a ready-to use FreeCAD, compile the target ''INSTALL'', see the section [[#Running and installing FreeCAD|Running and installing FreeCAD]].
-</div>
+Para compilar una versión de FreeCAD lista para usar, compile el destino ''INSTALL'', consulte la sección [[#Running and installing FreeCAD|Ejecución e instalación de FreeCAD]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you don't get any errors you are done. '''Congratulations!''' You can exit MSVC or keep it open.
