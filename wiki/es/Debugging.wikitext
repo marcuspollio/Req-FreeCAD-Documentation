@@ -171,9 +171,7 @@ Depuración de winpdb →
 
 Aquí tiene un ejemplo de cómo usar ''Winpdb'' dentro de FreeCAD:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-We need the Python debugger: ''Winpdb''. If you do not have it installed, on Ubuntu/Debian install it with:
-</div>
+Necesitamos el depurador de Python: ''Winpdb''. Si no lo tiene instalado, en Ubuntu/Debian instálelo con:
 
 {{Code|code=
 sudo apt-get install winpdb
