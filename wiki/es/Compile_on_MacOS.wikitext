@@ -76,14 +76,19 @@ En algunos casos, los paquetes instalados por Homebrew no usan la misma versión
 
 Deberá configurar la ruta a Qt: Qt5 es compatible actualmente, mientras que la compatibilidad con Qt6 está en desarrollo. Configure FREECAD_QT_VERSION en "Auto" o "5" para seleccionar Qt5 (el predeterminado). En la línea de comandos, utilice algo como:
 
-{{Code|code=
+{{Código|código=
 cmake \
-  -DCMAKE_BUILD_TYPE="Release" \
-  -DPYTHON_EXECUTABLE="/usr/local/bin/python3" \
-  -DQt5_DIR="/usr/local/Cellar/qt@5/5.15.7/lib/cmake/Qt5" \
-  -DPySide2_DIR="/usr/local/Cellar/pyside2@5.15.5/5.15.5/lib/cmake/PySide2-5.15.5" \
-  -DShiboken2_DIR="/usr/local/Cellar/shiboken2@5.15.5/5.15.5_1/lib/cmake/Shiboken2-5.15.5" \
-  ../freecad-source
+
+-DCMAKE_BUILD_TYPE="Release" \
+
+-DPYTHON_EXECUTABLE="/usr/local/bin/python3" \
+
+-DQt5_DIR="/usr/local/Cellar/qt@5/5.15.7/lib/cmake/Qt5" \
+
+-DPySide2_DIR="/usr/local/Cellar/pyside2@5.15.5/5.15.5/lib/cmake/PySide2-5.15.5" \
+
+-DShiboken2_DIR="/usr/local/Cellar/shiboken2@5.15.5/5.15.5_1/lib/cmake/Shiboken2-5.15.5" \
+../freecad-source
 }}
 
 == Get the source ==
