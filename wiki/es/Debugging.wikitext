@@ -376,9 +376,7 @@ import pydevd; pydevd.settrace()
 
 * Inicie el servidor de depuración de Liclipse (menú pydev).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Start FreeCAD.
-</div>
+* Inicie FreeCAD.
 
 {{Code|code=
 squashfs-root> ./usr/bin/freecad
