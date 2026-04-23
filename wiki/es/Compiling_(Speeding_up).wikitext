@@ -62,9 +62,7 @@ El programa {{incode|distcc}} se puede utilizar para realizar la compilación di
 
 Distcc (https://www.distcc.org/) siempre debería generar los mismos resultados que una compilación local. Es gratuito, fácil de instalar y usar, y a menudo es dos o más veces más rápido que compilar localmente.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-FreeCAD dev 'etrombly' has published a short explanation on [https://forum.freecad.org/viewtopic.php?f=4&t=50810&p=459142#p458614 how to install distcc to compile FreeCAD on a network of computers using Docker].
-</div>
+El desarrollador de FreeCAD, 'etrombly', ha publicado una breve explicación en [https://forum.freecad.org/viewtopic.php?f=4&t=50810&p=459142#p458614 sobre cómo instalar distcc para compilar FreeCAD en una red de ordenadores usando Docker].
 
 
 {{Docnav/es
