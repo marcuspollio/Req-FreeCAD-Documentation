@@ -193,9 +193,7 @@ Si la ruta especificada no existe, ¡la configuración se ignora!
 
 Las variables de entorno mencionadas anteriormente están diseñadas para crear un entorno FreeCAD "portátil". Para ver un ejemplo de cómo usar las variables de entorno desde la línea de comandos en Linux, consulte las [[Download#Notes_for_GNU.2FLinux_users|notas para usuarios de Linux en la página de descargas]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 === {{incode|HOME}} ===
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 FreeCAD uses [[Third_Party_Libraries#Qt|Qt]], which does honor the {{incode|HOME}} environmental variable. Thus, setting {{incode|HOME}} can be used to specify the base directory of Qt-related configuration files ({{incode|.config/FreeCAD/FreeCAD.conf}}).
