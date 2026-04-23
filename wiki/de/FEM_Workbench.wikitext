@@ -154,9 +154,7 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 :* [[Image:FEM_MeshShape.svg|32px]] [[FEM_MeshShape/de|Formbasierte Verfeinerung]]: Legt die Maschenweite innerhalb und außerhalb einer geometrischen Form (Quader, Kugel oder Zylinder) fest. {{Version/de|1.2}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:FEM_MeshManipulate.svg|32px]] [[FEM_MeshManipulate|Manipulate Refinement]]: Allows to manipulate the output of a refinement in various ways. {{Version|1.2}}
-</div>
+:* [[Image:FEM_MeshManipulate.svg|32px]] [[FEM_MeshManipulate/de|Verfeinerung bearbeiten]]: Ermöglicht es, die Ausgabe einer Verfeinerung auf verschiedene Weise zu bearbeiten. {{Version/de|1.2}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:FEM_MeshAdvanced.svg|32px]] [[FEM_MeshAdvanced|Advanced Refinement Types]]: Allows to define the mesh size by various advanced means. {{Version|1.2}}
