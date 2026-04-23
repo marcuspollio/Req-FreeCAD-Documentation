@@ -88,9 +88,8 @@ Si se conecta a algún sistema no confiable, como por ejemplo mediante SSH, ser�
 
 Para quienes usan macOS, es posible que el sistema de ventanas X no esté instalado. El proyecto XQuartz es un proyecto de código abierto con una larga trayectoria que permite agregarlo al equipo. [https://www.xquartz.org/ Puedes encontrarlo aquí]. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Launch the docker image===
-</div>
+<span id="Launch_the_docker_image"></span>
+=== Iniciar la imagen de Docker ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Assign environment variables so the Docker container will mount FreeCAD's source code, and build directory. In addition, you can mount an extra directory to contain any files you'd like to use for testing purposes. In the below snippet, we've left it as your home directory as a simple default.
