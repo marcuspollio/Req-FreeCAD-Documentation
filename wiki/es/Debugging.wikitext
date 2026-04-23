@@ -132,9 +132,7 @@ FreeCAD se iniciará ahora. Realice los pasos que provocan que FreeCAD se bloque
 (lldb) bt
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This will generate a lengthy listing of exactly what the program was doing when it crashed or froze. Include this with your problem report.
-</div>
+Esto generará una lista detallada de lo que estaba haciendo el programa cuando falló o se bloqueó. Incluya esta información en su informe de problemas.
 
 </div></div> <!-- END OF COLLAPSIBLE DIV -->
 
