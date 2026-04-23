@@ -279,23 +279,21 @@ Un tutorial en inglés que comienza con la configuración en CMake Gui y contin�
 <span id="Installation_and_configuration_of_Qt_Creator"></span>
 ==== Instalación y configuración de Qt Creator ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Download and install [https://www.qt.io/offline-installers Qt Creator]
-* Tools → Options → Text Editor → Behavior tab:
-** File Encodings → Default Encodings:
-** Set to: '''ISO-8859-1 /...csISOLatin1''' (Certain characters create errors/warnings with Qt Creator if left set to UTF-8.  This seems to fix it.)
-* Tools → Options → Build & Run:
-** CMake tab
-*** Fill Executable box with path to cmake.exe
-** Kits tab
-*** Name: MSVC 2008
-*** Compiler: Microsoft Visual C++ Compiler 9.0 (x86)
-*** Debugger: Auto detected...
-*** Qt version: None
-** General tab
-*** Uncheck: Always build project before deploying it
-*** Uncheck: Always deploy project before running it
-</div>
+* Descargue e instale [https://www.qt.io/offline-installers Qt Creator]
+* ''Herramientas → Opciones → Editor de texto →'' Pestaña Comportamiento:
+** ''Codificaciones de archivo → Codificaciones predeterminadas'':
+** Establecer en: '''ISO-8859-1 /...csISOLatin1''' (Algunos caracteres generan errores/advertencias en Qt Creator si se deja en UTF-8. Esto parece solucionarlo).
+* ''Herramientas → Opciones → Compilar y ejecutar'':
+** Pestaña CMake
+*** Introduce la ruta a cmake.exe en el campo Ejecutable
+** Pestaña Kits
+*** Nombre: MSVC 2008
+*** Compilador: Microsoft Visual C++ Compiler 9.0 (x86)
+*** Depurador: Detección automática...
+*** Versión de Qt: Ninguna
+** Pestaña General
+*** Desmarcar: Compilar siempre el proyecto antes de desplegarlo
+*** Desmarcar: Desplegar siempre el proyecto antes de ejecutarlo
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ====Import project and building====
