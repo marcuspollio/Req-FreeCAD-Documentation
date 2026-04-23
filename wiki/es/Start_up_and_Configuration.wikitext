@@ -231,9 +231,7 @@ Algunas bibliotecas necesitan acceder a variables de entorno del sistema. En oca
 * CSF_STEPDefaults
 
 <span id="Configuration_set"></span>
-<div class="mw-translate-fuzzy">
-== El conjunto de configuración ==
-</div>
+== Ajuste de configuración ==
 
 <div class="mw-translate-fuzzy">
 En cada inicio FreeCAD examina sus alrededores y los parámetros de la línea de comandos. Esto construye un '''conjunto de configuración''' que guarda la esencia de toda la información de la ejecución. Esta información es después utilizada para determinar la ubicación donde guardar los datos del usuario o archivos de registro. También es muy importante para los análisis postmortem. Por lo tanto es guardado en el archivo de registro.
