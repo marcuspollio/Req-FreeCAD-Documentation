@@ -259,11 +259,9 @@ Ahora puede compilar:
 
 Esto tardará bastante tiempo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If there were no compilation errors, and if the '''FREECAD_COPY_*''' options mentioned in the [[#CMake|CMake Configuration step]] above were enabled, you can start the debug build:
-# Right-click on the target '''FreeCADMain''' and then choose '''Set as Startup Project''' in the context menu.
-# Finally click in the toolbar on the button with the green triangle named '''Local Windows Debugger'''.
-</div>
+Si no hubo errores de compilación y si las opciones '''FREECAD_COPY_*''' mencionadas en el paso [[#CMake|Configuración de CMake]] anterior estaban habilitadas, puede iniciar la compilación de depuración:
+# Haga clic con el botón derecho en el destino '''FreeCADMain''' y luego seleccione '''Establecer como proyecto de inicio''' en el menú contextual.
+# Finalmente, haga clic en el botón con el triángulo verde llamado '''Depurador local de Windows''' en la barra de herramientas.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This will start the debug build of FreeCAD and you can use the  MSVC IDE to debug it.
