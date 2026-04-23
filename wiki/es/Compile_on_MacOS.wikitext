@@ -195,7 +195,7 @@ $cmake \
 <span id="Run_make"></span>
 == Ejecutar make ==
 
-Finally, from a terminal run '''make''' to compile and link FreeCAD, and generate the app bundle.
+Finalmente, desde una terminal ejecute '''make''' para compilar y enlazar FreeCAD y generar el paquete de la aplicación.
 
 {{Code|code=
 cd ~/FreeCAD/build
