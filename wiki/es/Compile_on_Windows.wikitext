@@ -380,11 +380,9 @@ Nota: En lugar de la ~, debe especificar la ruta completa a ''DependenciesGui.ex
 <span id="Updating_the_build"></span>
 == Actualizando la compilación ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-FreeCAD is very actively developed. Therefore its source code changes almost daily. New features are added and bugs are fixed. To benefit from these source code changes, you must rebuild your FreeCAD. This is done in two steps:
-# Updating the source code
-# Recompilation
-</div>
+FreeCAD se desarrolla de forma muy activa. Por lo tanto, su código fuente cambia casi a diario. Se añaden nuevas funciones y se corrigen errores. Para beneficiarse de estos cambios en el código fuente, debe recompilar FreeCAD. Esto se realiza en dos pasos:
+# Actualización del código fuente
+# Recompilación
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Updating the source code===
