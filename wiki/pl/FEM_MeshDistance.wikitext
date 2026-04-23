@@ -28,14 +28,11 @@
 
 Narzędzie '''Zagęszczenie siatki oparte o odległość''' może być użyte do ustawienia rozmiaru siatki w oparciu o odległość do wierzchołków, krawędzi i ścian.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FM_mesh_distance_task_panel.PNG|400px]]
-{{Caption|Task panel of the MeshDistance tool}}
-</div>
+{{Caption|Panel zadań narzędzia Zagęszczenie siatki oparte o odległość}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Użycie==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # To enable the command a [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
