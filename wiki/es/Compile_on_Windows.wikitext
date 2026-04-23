@@ -79,9 +79,7 @@ El código fuente más reciente se descargará del repositorio Git de FreeCAD y 
 <span id="Using_the_command_line"></span>
 ==== Uso de la línea de comandos ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To create a local tracking branch and download the source code, open a terminal (command prompt) and switch there to the directory you want the source, then type:
-</div>
+Para crear una rama de seguimiento local y descargar el código fuente, abra una terminal (símbolo del sistema) y cambie al directorio donde desee descargar el código fuente, luego escriba:
 
 {{Code|code=
 git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git
