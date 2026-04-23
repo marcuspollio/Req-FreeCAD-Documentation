@@ -90,9 +90,7 @@ git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git
 
 El compilador predeterminado (recomendado) es MS Visual Studio (MSVC). Si bien es posible usar otros compiladores, como gcc a través de Cygwin o MinGW, no se han probado ni se tratan en este documento.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You can get a free version of MSVC (for individual usage) by downloading the [https://visualstudio.microsoft.com/vs/community/ ''Community'' edition of MS Visual Studio].
-</div>
+Puede obtener una versión gratuita de MSVC (para uso individual) descargando la edición ''Community'' de MS Visual Studio [https://visualstudio.microsoft.com/vs/community/].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 For those who want to avoid installing the huge MSVC for the mere purpose of having a compiler, see [[CompileOnWindows - Reducing Disk Footprint]].
