@@ -411,7 +411,7 @@ sudo pacman -S --needed --asdeps blosc boost boost-libs cmake coin curl desktop-
 
 En otras distribuciones, tenemos muy pocos comentarios de los usuarios, por lo que podría ser más difícil encontrar los paquetes necesarios.
 
-Intente primero localizar las bibliotecas necesarias mencionadas en [[Third Party Libraries/es|bibliotecas de terceros]] en su gestor de paquetes. Tenga en cuenta que algunas de ellas pueden tener un nombre de paquete ligeramente diferente; busque {{incode|nombre}}, pero también {{incode|libname}}, {{incode|nombre-dev}}, {{incode|nombre-devel}}, y similares. Si no es posible, intente compilar esas bibliotecas usted mismo.
+Primero, intente localizar las bibliotecas necesarias mencionadas en [[Third Party Libraries|bibliotecas de terceros]] en su gestor de paquetes. Tenga en cuenta que algunas pueden tener un nombre de paquete ligeramente diferente; busque {{incode|name}}, pero también {{incode|libname}}, {{incode|name-dev}}, {{incode|name-devel}}, y similares. Si no es posible, intente compilar esas bibliotecas por usted mismo.
 
 FreeCAD requiere una versión del compilador GNU g++ igual o superior a la 3.0.0, ya que FreeCAD está escrito principalmente en C++. Durante la compilación se ejecutan algunos scripts de Python, por lo que el intérprete de Python tiene que funcionar correctamente. Para evitar cualquier problema con el enlazador también es una buena idea tener las rutas de las bibliotecas en la variable {{incode|LD_LIBRARY_PATH}} o en el archivo {{incode|ld.so.conf}}. Esto ya se hace en las distribuciones modernas de Linux, pero puede ser necesario configurarlo en las más antiguas.
 
