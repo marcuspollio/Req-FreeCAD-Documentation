@@ -239,9 +239,7 @@ Los usuarios de Ubuntu 16.04, por favor, consulten también la discusión sobre 
 <div class="mw-collapsible-content">
 Siga los mismos pasos que en Debian y Ubuntu.
 
-<div class="mw-translate-fuzzy">
-Hay problemas reportados cuando se intenta compilar en Raspbian con Python 3 y Qt5, pero la combinación Python 3 y Qt4 parece funcionar para versiones antiguas de FreeCAD.
-</div>
+Se han reportado problemas al intentar compilar en Raspberry Pi OS de 32 bits con Python 3 y Qt5, pero la combinación de Python 3 y Qt4 parece funcionar para versiones anteriores de FreeCAD (con problemas menores).
 
 <div class="mw-translate-fuzzy">
 Para las nuevas versiones de FreeCAD la compilación con Py3/Qt5 tiene éxito si el sistema operativo instalado es Ubuntu 20.04.
