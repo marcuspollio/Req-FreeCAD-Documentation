@@ -378,9 +378,7 @@ Utilice la opción {{incode|--get-config <config-var-name>}} para consultar un �
 
 FreeCAD --get-config ExeVersion
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Use the {{incode|--dump-config}} option to get a list of names and their values. Not all names are supported.
-</div>
+Utilice la opción {{incode|--dump-config}} para obtener una lista de nombres y sus valores. No todos los nombres son compatibles.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''From FreeCAD console'''
