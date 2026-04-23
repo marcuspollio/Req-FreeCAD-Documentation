@@ -417,9 +417,7 @@ donde ''main'' es el nombre de la rama principal de desarrollo. Si desea obtener
 <span id="Updating_the_LibPack"></span>
 == Actualizando el LibPack ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If a new major version of a third-party dependency like Open Cascade is released, or if a third-party dependency has important bug fixes, a new LibPack is released. You can find the latest version [https://github.com/FreeCAD/FreeCAD-LibPack/releases/ here].
-</div>
+Si se publica una nueva versión principal de una dependencia de terceros como Open Cascade, o si una dependencia de terceros incluye correcciones de errores importantes, se publica un nuevo LibPack. Puede encontrar la última versión aquí [https://github.com/FreeCAD/FreeCAD-LibPack/releases/].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To update your LibPack the following recipe is best practice:
