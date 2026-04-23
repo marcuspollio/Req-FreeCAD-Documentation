@@ -129,11 +129,12 @@ A continuación, ejecutaremos CMake para generar la configuración de compilaci�
 
 {| class="wikitable" style="text-align:left"
 |-
-! Name !! Value  !! Notes
+! Nombre !! Valor !! Notas
 |-
-| CMAKE_BUILD_TYPE || Release (STRING) ||  Release or Debug.  Debug is generally used for developer-level testing but may also be required for user-level testing and troubleshooting.
-|-               
-| CMAKE_PREFIX_PATH || "/usr/local/opt/qt5152;" ... (PATH) || Required to build with Qt5. See note below. You also need to add path to VTK libraries and NGLIB libraries cmake configuration file.
+| CMAKE_BUILD_TYPE || Release (CADENA) || Release o Debug. Debug se usa generalmente para pruebas de desarrollador, pero también puede ser necesario para pruebas y solución de problemas de usuario.
+
+|-
+| CMAKE_PREFIX_PATH || "/usr/local/opt/qt5152;" ... (RUTA) || Requerido para compilar con Qt5. Ver nota a continuación. También debe agregar la ruta a las bibliotecas VTK y NGLIB al archivo de configuración de CMake.
 
 |-               
 | FREECAD_CREATE_MAC_APP || 1 (BOOL) || Create a FreeCAD.app bundle at the location specified in CMAKE_INSTALL_PREFIX, when the 'make install' command issued.
