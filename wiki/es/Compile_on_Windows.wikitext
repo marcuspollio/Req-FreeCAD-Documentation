@@ -44,7 +44,7 @@ Para compilar FreeCAD en Windows se necesitan varias herramientas y bibliotecas.
 * El [https://github.com/FreeCAD/FreeCAD-LibPack LibPack]. Este es un paquete único que contiene todas las bibliotecas necesarias para compilar FreeCAD en Windows. Descargue la versión del LibPack que corresponda a la versión de FreeCAD que desea compilar. Para compilar FreeCAD 0.20, descargue el [https://github.com/FreeCAD/FreeCAD-LibPack/releases/tag/2.6 LibPack versión 2.6], para FreeCAD 0.19, descargue el [https://github.com/FreeCAD/FreeCAD-LibPack/releases/tag/1.0 LibPack versión 1.0]. Extraiga el LibPack en una ubicación conveniente. (Si su computadora no reconoce la extensión .7z, debe instalar el programa [https://www.7-zip.org 7-zip].) </br> '''Nota''': Se recomienda encarecidamente compilar FreeCAD con la versión del compilador para la que está diseñado el LibPack. Por ejemplo, podría encontrar problemas al compilar FreeCAD 0.20 usando MSVC 2017 porque LibPack está diseñado para compilarse con MSVC 2019 o posterior.</br>Para actualizar LibPack más adelante, consulte la sección [[#Actualización_de_LibPack|Actualización de LibPack]].
 
 <span id="Optional_programs"></span>
-===Programas opcionales===
+=== Programas opcionales ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 *  A GUI frontend for Git. There are several frontends available, see [https://git-scm.com/downloads/guis this list]. The main benefit of a frontend is that you don't have to learn the Git commands to get the source code of FreeCAD or to send patches to the GitHub repository of FreeCAD.
