@@ -452,9 +452,10 @@ start %cd%FreeCAD\bin\FreeCAD.exe -u %FREECAD_USER_DATA%user.cfg -s %FREECAD_USE
 Ahora haga doble clic en el archivo por lotes para iniciar FreeCAD. ([Ver https://forum.freecad.org/viewtopic.php?f=4&t=49028])
 
 
-<div class="mw-translate-fuzzy">
-{{docnav/es|Third Party Tools/es|FreeCAD Build Tool/es}}
-</div>
+{{Docnav
+|[[Import_Export_Preferences|Importar preferencias de exportación]]
+|[[Scripting_and_macros|Scripts y macros]]
+}}
 
 {{Userdocnavi{{#translation:}}}}
 [[Category:Developer Documentation{{#translation:}}]]
