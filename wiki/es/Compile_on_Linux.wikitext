@@ -689,7 +689,7 @@ El código fuente de FreeCAD es muy extenso, y con CMake es posible configurar m
 * [https://preshing.com/20170522/learn-cmakes-scripting-language-in-15-minutes/ Aprenda el lenguaje de scripting de CMake en 15 minutos] (blog) por Preshing sobre programación.
 
 <span id="Making_a_debian_package"></span>
-=== Hacer un paquete debian ===
+=== Creando un paquete Debian ===
 
 Si planea construir un paquete Debian a partir de las fuentes, necesita instalar primero ciertos paquetes:
 
