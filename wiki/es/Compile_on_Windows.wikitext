@@ -172,11 +172,8 @@ Si aparece el mensaje de error '''No se pudo encontrar Visual Studio''', signifi
 Si no hay errores relacionados con Visual Studio o Python, todo está bien, pero CMake aún no conoce todas las configuraciones necesarias. Por lo tanto:
 
 # Busque en CMake la variable '''FREECAD_LIBPACK_DIR''' y especifique la ubicación de la carpeta LibPack que descargó anteriormente. Use barras inclinadas hacia adelante "/". Usar barras invertidas "\" provocará un error en CMake.
-
 # (Si está compilando FreeCAD 0.19) Busque la variable '''BUILD_QT5''' y habilite esta opción.
-
 # Haga clic en '''Configurar''' nuevamente.
-
 # (Si planea ejecutarlo directamente desde la carpeta de compilación, por ejemplo, para depuración) Busque y habilite las siguientes opciones:
 #* '''FREECAD_COPY_DEPEND_DIRS_TO_BUILD'''
 #* '''FREECAD_COPY_LIBPACK_BIN_TO_BUILD'''
