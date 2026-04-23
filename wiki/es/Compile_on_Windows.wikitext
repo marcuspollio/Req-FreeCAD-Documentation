@@ -440,9 +440,7 @@ FreeCAD utiliza Qt como conjunto de herramientas para su interfaz de usuario. To
 <span id="Compilation"></span>
 ==== Compilación ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The plugin cannot be loaded by the Qt Designer if  it was compiled using another Qt version than the one your Qt Designer/Qt Creator is based on. Therefore the plugin must be compiled together with FreeCAD:
-</div>
+El complemento no puede ser cargado por Qt Designer si fue compilado utilizando una versión de Qt distinta a la que utiliza su Qt Designer/Qt Creator. Por lo tanto, el complemento debe compilarse junto con FreeCAD:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * In the CMake options (see [[Compile_on_Windows#Options_for_the_build_process|this section above]]) enable the option BUILD_DESIGNER_PLUGIN and reconfigure.
