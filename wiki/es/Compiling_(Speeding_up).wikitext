@@ -36,10 +36,7 @@ Utilice {{incode|cmake-gui}}, {{incode|cmake-curses-gui}} o {{incode|cmake-qt-gu
 <span id="Number_of_jobs_in_parallel"></span>
 == Número de trabajos en paralelo ==
 
-<div class="mw-translate-fuzzy">
-== Número de trabajos en paralelo ==
-Después de la configuración con {{incode|cmake}}, el programa {{incode|make}} lanza el compilador C++ real para trabajar en los archivos de código fuente. Se puede acelerar la compilación trabajando en varios archivos al mismo tiempo. Esto se consigue con la opción {{incode|-j}} de {{incode|make}}, que denota el número de "trabajos" o comandos de compilación que se ejecutan simultáneamente. Esta opción es un número entero.
-</div>
+Tras configurar {{incode|cmake}}, el programa {{incode|make}} inicie el compilador de C++ para procesar los archivos del código fuente. Puede acelerar la compilación trabajando con varios archivos simultáneamente. Esto se logra con la opción {{incode|-j}} de {{incode|make}}, que indica el número de tareas o comandos de compilación que se ejecutan al mismo tiempo. Esta opción es un número entero.
 
 Ejecuta cuatro comandos de compilación en paralelo:
 
