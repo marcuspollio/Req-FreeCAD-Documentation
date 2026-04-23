@@ -571,9 +571,7 @@ Tenga en cuenta que al cambiar entre las compilaciones 0.20 y 0.21_dev, puede se
 <span id="Building_for_a_specific_Python_version"></span>
 ==== Compilación para una versión específica de Python ====
 
-<div class="mw-translate-fuzzy">
-Si el ejecutable {{incode|python}} por defecto en tu sistema es un enlace simbólico a Python 2, {{incode|cmake}} intentará configurar FreeCAD para esta versión. Puedes elegir otra versión de Python dando la ruta a un ejecutable específico:
-</div>
+Si el ejecutable {{incode|python}} predeterminado en su sistema no es el deseado, puede elegir otra versión de Python proporcionando la ruta a un ejecutable específico a {{incode|cmake}}:
 
 {{Code|lang=bash|code=
 cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 ../
