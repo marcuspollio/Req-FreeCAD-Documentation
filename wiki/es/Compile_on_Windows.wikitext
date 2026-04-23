@@ -245,9 +245,8 @@ Si no aparece ningún error, ha terminado. '''¡Enhorabuena!''' Puede cerrar MSV
 
 '''Importante:''' Desde Visual Studio 17.4, no se puede usar la optimización de código que está activada por defecto para el destino '''SketcherGui'''. Si se usa, las restricciones de ángulo se colocarán incorrectamente en los bocetos. Para solucionar esto, haga clic con el botón derecho en este destino en el Explorador de soluciones de MSVC y seleccione la última entrada '''Propiedades''' en el menú contextual. En el cuadro de diálogo que aparece, vaya a ''C/C++ → Optimización'' y allí desactive la configuración '''Optimización'''. Finalmente, vuelva a compilar el destino '''ALL_BUILD'''.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Debug Build ====
-</div>
+<span id="Debug_Build"></span>
+==== Compilación de depuración ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 As prerequisite for the debug build, you need to do this:
