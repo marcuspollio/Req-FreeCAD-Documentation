@@ -1,15 +1,13 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
-|[[FEM_MeshShape|Shape-Based Refinement]]
-|[[FEM_MeshAdvanced|Advanced Refinement Types]]
-|[[FEM_Workbench|FEM]]
+|[[FEM_MeshShape/pl|Zagęszczenie oparte o kształt]]
+|[[FEM_MeshAdvanced/pl|Zaawansowane typy zagęszczenia]]
+|[[FEM_Workbench/pl|środowisko pracy MES]]
 |IconL=FEM_MeshShape.svg
 |IconR=FEM_MeshAdvanced.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommandContainer|
