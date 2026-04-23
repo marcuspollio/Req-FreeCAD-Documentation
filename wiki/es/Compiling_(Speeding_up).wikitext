@@ -50,7 +50,7 @@ Compile en paralelo tantos archivos como núcleos de CPU tenga su sistema. Esto 
 make -j$(nproc)
 }}
 
-Compila tantos archivos en paralelo como el número de núcleos de la CPU de tu sistema, menos dos. Usa esto para que tu sistema siga respondiendo para hacer alguna otra tarea; por ejemplo, dos núcleos te permitirán usar un navegador, mientras el resto de los núcleos siguen compilando el software en segundo plano.
+Compile en paralelo tantos archivos como núcleos de CPU tenga su sistema, menos dos. Esto permite que su sistema siga respondiendo para realizar otras tareas; por ejemplo, dos núcleos le permitirán usar un navegador mientras el resto compila el software en segundo plano.
 
 {{code|code=
 make -j$(nproc --ignore=2)
