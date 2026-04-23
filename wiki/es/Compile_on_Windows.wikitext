@@ -406,9 +406,7 @@ Abra una terminal (símbolo del sistema) y cambie al directorio de origen. Luego
 git pull https://github.com/FreeCAD/FreeCAD.git main
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-where ''main'' the the name of the main development branch. If you want to get code from another branch, use its name instead of ''main''.
-</div>
+donde ''main'' es el nombre de la rama principal de desarrollo. Si desea obtener código de otra rama, utilice su nombre en lugar de ''main''.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Recompilation===
