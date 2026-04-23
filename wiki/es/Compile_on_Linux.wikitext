@@ -174,7 +174,7 @@ Para compilar FreeCAD para Debian Buster, Ubuntu 19.04 y versiones posteriores, 
 <span id="OpenCascade_kernel"></span>
 ==== Núcleo de OpenCascade ====
 
-El núcleo de OpenCascade es el núcleo de la biblioteca de gráficos para crear formas 3D. Existe una versión oficial OCCT, y una versión comunitaria OCE. La versión de la comunidad ya no se recomienda, ya que está obsoleta.
+El núcleo de OpenCascade es la biblioteca gráfica principal para crear figuras 3D. Existe en una versión oficial, OCCT, y en una versión comunitaria, OCE. Esta última ya no se recomienda, pues está desfasada.
 
 <div class="mw-translate-fuzzy">
 Para Debian Buster y Ubuntu 18.10 y posteriores, así como para Ubuntu 18.04 con el [[Installing_on_Linux#Repositorio_Oficial_Ubuntu|freecad-stable/freecad-daily PPAs]] añadido a sus fuentes de software, instale los paquetes oficiales.
