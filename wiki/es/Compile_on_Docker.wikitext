@@ -17,13 +17,14 @@ Entre las opciones para compilar e instalar FreeCAD, se encuentra la de usar Doc
 <span id="Benefits"></span>
 === Beneficios ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-All of FreeCAD's dependencies are already installed, compatible with each other, and configured appropriately, allowing you to get started developing very quickly. 
-* The dependencies are contained within the docker container, preventing any unwanted packages contaminating your workstation, and preventing any clashing versions.
-* The source code and build directories are outside the docker container. This allows you to use your preferred editors, versioning systems, dev tools etc, without having to set them up in the docker container. You can just use them as normal, right from your workstation. (Also, it means you don't have to rebuild the docker container each time you want to build FreeCAD.)
-* For those using obscure *nix distros and [[Compile_on_Linux#Getting_the_dependencies|instructions are not available]] for fetching dependencies, all you need to install on your workstation is docker, which is quite commonly available across many distributions.
-* It provides a static, immutable development environment. I personally find this useful when developing to reduce the number of potential variables that could be causing an issue. You know you've not altered something esoteric in the environment between builds. For developers collaborating, and both using the same docker container, you can be sure you're both working from the same environment, which reduces communication errors caused by differences in environment.
-</div>
+Todas las dependencias de FreeCAD ya están instaladas, son compatibles entre sí y están configuradas correctamente, lo que le permite comenzar a desarrollar muy rápidamente.
+
+* Las dependencias se encuentran dentro del contenedor Docker, lo que evita que paquetes no deseados contaminen su estación de trabajo y previene conflictos de versiones.
+
+* El código fuente y los directorios de compilación están fuera del contenedor Docker. Esto le permite usar sus editores, sistemas de control de versiones, herramientas de desarrollo, etc., preferidos, sin tener que configurarlos dentro del contenedor Docker. Puede usarlos con normalidad, directamente desde su estación de trabajo. (Además, significa que no tendrá que reconstruir el contenedor Docker cada vez que quiera compilar FreeCAD).
+* Para quienes usan distribuciones *nix poco comunes [[Compile_on_Linux#Getting_the_dependencies|las instrucciones no están disponibles]]. Para obtener las dependencias, solo se necesita instalar Docker en la estación de trabajo, que está disponible en muchas distribuciones.
+
+* Proporciona un entorno de desarrollo estático e inmutable. Personalmente, me resulta útil durante el desarrollo para reducir la cantidad de variables potenciales que podrían causar un problema. Así, sabe que no ha modificado nada complejo del entorno entre compilaciones. Para los desarrolladores que colaboran y usan el mismo contenedor Docker, puede estar seguro de que ambos trabajan en el mismo entorno, lo que reduce los errores de comunicación causados ​​por diferencias en el entorno.
 
 <span id="Docker_Repository"></span>
 ==Docker Repositorio==
