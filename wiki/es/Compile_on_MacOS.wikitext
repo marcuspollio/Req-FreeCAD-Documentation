@@ -218,7 +218,8 @@ El desarrollo de FreeCAD avanza rápidamente; casi a diario se corrigen errores 
 
 FreeCAD y Homebrew han migrado de Qt 4 a Qt 5. Tras la transición a Qt 5, Qt 4 ya no está disponible como opción para nuevas compilaciones en macOS. Python 2.7 ha quedado obsoleto en Homebrew y en las próximas versiones de macOS, y tampoco lo admitimos para compilaciones en macOS.
 
-== Troubleshooting ==
+<span id="Troubleshooting"></span>
+== Solución de problemas ==
 
 === Segfault on Qt5 launch ===
 
