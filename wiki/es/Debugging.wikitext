@@ -218,9 +218,7 @@ Depuración en VS Code →
 
 <div class="mw-collapsible-content">
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Prerequisites:
-</div> 
+Requisitos previos: 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The ptvsd package needs to be installed in a Python 3 outside of FreeCAD, then the module must be copied to FreeCAD's Python library folder.
