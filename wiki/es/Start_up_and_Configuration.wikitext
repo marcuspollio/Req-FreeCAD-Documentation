@@ -199,9 +199,7 @@ FreeCAD utiliza [[Third_Party_Libraries#Qt|Qt]], que sí respeta la variable de 
 
 FreeCAD no tiene en cuenta la variable de entorno {{incode|HOME}} (ya que determina el directorio principal del usuario a partir de una API del sistema de nivel inferior). Para ello, utilice {{incode|FREECAD_USER_HOME}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 === {{incode|TMPDIR}} ===
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The default temporary directory is {{FileName|/tmp/}}. The {{incode|TMPDIR}} environmental variable can be used to override the default. (''Editor: precedence?'').
