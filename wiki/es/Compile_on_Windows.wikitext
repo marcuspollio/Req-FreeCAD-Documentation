@@ -442,10 +442,9 @@ FreeCAD utiliza Qt como conjunto de herramientas para su interfaz de usuario. To
 
 El complemento no puede ser cargado por Qt Designer si fue compilado utilizando una versión de Qt distinta a la que utiliza su Qt Designer/Qt Creator. Por lo tanto, el complemento debe compilarse junto con FreeCAD:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* In the CMake options (see [[Compile_on_Windows#Options_for_the_build_process|this section above]]) enable the option BUILD_DESIGNER_PLUGIN and reconfigure.
-* open MSVC and build the target '''FreeCAD_widgets'''
-</div>
+* En las opciones de CMake (consulte [[Compile_on_Windows#Options_for_the_build_process|esta sección anterior]]) habilite la opción BUILD_DESIGNER_PLUGIN y reconfigure.
+
+* Abra MSVC y compile el destino '''FreeCAD_widgets'''.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 As result you will get the plugin file '''FreeCAD_widgets.dll'' in the folder</br>''~\src\Tools\plugins\widget\Release''
