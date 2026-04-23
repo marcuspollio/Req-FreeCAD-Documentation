@@ -263,9 +263,7 @@ Si no hubo errores de compilación y si las opciones '''FREECAD_COPY_*''' mencio
 # Haga clic con el botón derecho en el destino '''FreeCADMain''' y luego seleccione '''Establecer como proyecto de inicio''' en el menú contextual.
 # Finalmente, haga clic en el botón con el triángulo verde llamado '''Depurador local de Windows''' en la barra de herramientas.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This will start the debug build of FreeCAD and you can use the  MSVC IDE to debug it.
-</div>
+Esto iniciará la compilación de depuración de FreeCAD y podrá utilizar el IDE de MSVC para depurarla.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Video Resource ====
