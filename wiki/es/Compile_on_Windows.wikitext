@@ -88,9 +88,7 @@ git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git
 <span id="Compiler"></span>
 ===Compilador===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The default (recommended) compiler is MS Visual Studio (MSVC). Though it may be possible to use other compilers, for example gcc via Cygwin or MinGW, it is not tested or covered here.
-</div>
+El compilador predeterminado (recomendado) es MS Visual Studio (MSVC). Si bien es posible usar otros compiladores, como gcc a través de Cygwin o MinGW, no se han probado ni se tratan en este documento.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 You can get a free version of MSVC (for individual usage) by downloading the [https://visualstudio.microsoft.com/vs/community/ ''Community'' edition of MS Visual Studio].
