@@ -221,7 +221,8 @@ FreeCAD y Homebrew han migrado de Qt 4 a Qt 5. Tras la transición a Qt 5, Qt 4 
 <span id="Troubleshooting"></span>
 == Solución de problemas ==
 
-=== Segfault on Qt5 launch ===
+<span id="Segfault_on_Qt5_launch"></span>
+=== Error de segmentación al iniciar Qt5 ===
 
 If Qt4 was previously installed via brew, and you then build with Qt5, you may get a EXC_BAD_ACCESS (SEGSEGV) exception when launching the new Qt5 build.  The fix for this is to manually uninstall Qt4.
 
