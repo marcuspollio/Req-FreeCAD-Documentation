@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[FEM_MeshBoundaryLayer/de|FEM NetzGrenzschicht]]
+|[[FEM_MeshGmshFromShape/de|FEM Netz aus Form von Gmsh]]
 |[[FEM_MeshGroup/de|FEM NetzGruppe]]
 |[[FEM_Workbench/de|FEM]]
 |IconL=FEM_MeshBoundaryLayer.svg
 |IconR=FEM_MeshGroup.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{GuiCommandContainer|
 {{GuiCommand/de
