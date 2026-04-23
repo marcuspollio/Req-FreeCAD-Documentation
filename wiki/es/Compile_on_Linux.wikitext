@@ -489,7 +489,7 @@ Adapte el comando a la estructura de su sistema buscando libdl.so* y creando un 
 <span id="How_to_repair_your_source_code_directory"></span>
 === Cómo reparar el directorio de código fuente ===
 
-Si accidentalmente realizaste una compilación dentro del directorio de código fuente, o agregaste archivos extraños, y quisieras restaurar el contenido a sólo el código fuente original, puedes realizar los siguientes pasos.
+Si accidentalmente realizó una compilación dentro del directorio del código fuente, o agregó archivos extraños, y desea restaurar el contenido para que solo contenga el código fuente original, puede seguir los siguientes pasos.
 
 {{Code|lang=bash|code=
 > .gitignore
