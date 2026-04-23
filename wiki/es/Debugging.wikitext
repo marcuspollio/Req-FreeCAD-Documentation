@@ -120,9 +120,7 @@ $ cd FreeCAD/bin
 $ lldb FreeCAD
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-LLDB will output some initializing information. The (lldb) shows the debugger is running in the terminal, now input:
-</div>
+LLDB mostrará información de inicialización. (lldb) muestra que el depurador se está ejecutando en la terminal, ahora ingrese:
 
 {{Code|code=
 (lldb) run
