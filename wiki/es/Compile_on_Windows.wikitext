@@ -576,9 +576,7 @@ Para compilar FreeCAD usando Open Cascade autocompilado, debe hacer lo siguiente
 
 El paquete de bibliotecas incluye una versión de Netgen (https://ngsolve.org) que se probó para compilarse con la versión Open Cascade del paquete. El problema es que cada nueva versión de Netgen modifica la API, al igual que cada nueva versión de Open Cascade. Por lo tanto, no es fácil cambiar la versión de Netgen.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-However, you might build Netgen nevertheless. This is an easy task:
-</div>
+Sin embargo, podría compilar Netgen de todos modos. Es una tarea sencilla:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * First obtain the Netgen source code from [https://github.com/NGSolve/netgen Netgen 's git repository].
