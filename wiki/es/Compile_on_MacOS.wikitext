@@ -124,7 +124,8 @@ mkdir ~/FreeCAD/build
 
 A continuación, ejecutaremos CMake para generar la configuración de compilación. Se deben pasar varias opciones a CMake. La siguiente tabla describe las opciones y proporciona información adicional. 
 
-=== CMake Options ===
+<span id="CMake_Options"></span>
+=== Opciones de CMake ===
 
 {| class="wikitable" style="text-align:left"
 |-
