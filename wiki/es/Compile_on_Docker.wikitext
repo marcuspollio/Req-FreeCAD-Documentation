@@ -54,9 +54,8 @@ git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git ~/my_code/
 
 Para obtener más información sobre el uso de Git y cómo contribuir con código al proyecto, consulte [[Administración de código fuente|Administración de código fuente]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Create build directory===
-</div>
+<span id="Create_build_directory"></span>
+=== Crear directorio de compilación ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Create a directory to hold your compiled FreeCAD source.
