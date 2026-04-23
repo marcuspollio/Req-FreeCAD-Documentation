@@ -52,9 +52,7 @@ Narzędzie '''Zagęszczenie oparte o kształt''' może być użyte do ustawienia
 
 Po utworzeniu siatki możesz zmienić jej właściwości przy pomocy [[Property_View/pl|Widoku właściwości]]. Po zmianie właściwości należy ponownie otworzyć okno dialogowe Gmsh i wcisnąć przycisk {{Button|Zastosuj}}. (możesz zostawić okno dialogowe otwarte podczas zmieniania właściwości).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You can create as many different shape-based refinements as needed.
-</div>
+Możesz tworzyć tyle różnych zagęszczeń opartych o kształt, ile potrzeba.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_shape_based_refinement.PNG|500px]]
