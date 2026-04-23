@@ -100,42 +100,40 @@ MantisBT (Mantis Bug Tracker) tiene su propio marcado único.
 
 [[File:mantisbt-colorized-code-example.jpg|center|600px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== MantisBT BBCode  ===
-In addition to the above [[Tracker#MantisBT_Markup|MantisBT Markup]] one also has the possibility to use BBCode format. For a comprehensive list see the [https://github.com/mantisbt-plugins/BBCodePlus#supported-bbcode-tags BBCode plus plugin page]. Here is a list of supported BBCode tagsː
+=== MantisBT BBCode ===
+Además del marcado MantisBT mencionado anteriormente, también es posible usar el formato BBCode. Para obtener una lista completa, consulte la página del plugin BBCode Plus en [https://github.com/mantisbt-plugins/BBCodePlus#supported-bbcode-tags]. Aquí tiene una lista de las etiquetas BBCode compatibles:
 <small><code><br />
-[img][/img] - Images <br />
-[url][/url] - Links <br />
-[email][/email] - Email addresses <br />
-[color=red][/color] - Colored text <br />
-[highlight=yellow][/highlight] - Highlighted text <br />
-[size][/size] - Font size <br />
-[list][/list] - Lists <br />
-[list=1][/list] - Numbered lists (number is starting number) <br />
-[*] - List items <br />
-[b][/b] - Bold <br />
-[u][/u] - underline <br />
-[i][/i] - Italic <br />
-[s][/s] - Strikethrough <br />
-[left][/left] - Left align <br />
-[center][/center] - Center <br />
-[right][/right] - Right align <br />
-[justify][/justify] - Justify <br />
-[hr] - Horizontal rule <br />
-[sub][/sub] - Subscript <br />
-[sup][/sup] - Superscript <br />
-[table][/table] - Table <br />
-[table=1][/table] - Table with border of specified width <br />
-[tr][/tr] - Table row <br />
-[td][/td] - Table column <br />
-[code][/code] - Code block <br />
-[code=sql][/code] - Code block with language definition <br />
-[code start=3][/code] - Code block with line numbers starting at number <br />
-[quote][/quote] - Quote by *someone* (no name) <br />
-[quote=name][/quote] - Quote by *name* <br />
+[img][/img] - Imágenes <br />
+[url][/url] - Enlaces <br />
+[email][/email] - Direcciones de correo electrónico <br />
+[color=red][/color] - Texto de color <br />
+[highlight=yellow][/highlight] - Texto resaltado <br />
+[size][/size] - Tamaño de fuente <br />
+[list][/list] - Listas <br />
+[list=1][/list] - Listas numeradas (el número es el número inicial) <br />
+[*] - Elementos de la lista <br />
+[b][/b] - Negrita <br />
+[u][/u] - Subrayado <br />
+[i][/i] - Cursiva <br />
+[s][/s] - Tachado <br />
+[left][/left] - Alineación a la izquierda <br />
+[center][/center] - Centrado <br />
+[right][/right] - Alineación a la derecha <br />
+[justify][/justify] - Justificar <br />
+[hr] - Línea horizontal <br />
+[sub][/sub] - Subíndice <br />
+[sup][/sup] - Superíndice <br />
+[table][/table] - Tabla <br />
+[table=1][/table] - Tabla con borde de ancho especificado <br />
+[tr][/tr] - Fila de tabla <br />
+[td][/td] - Columna de tabla <br />
+[code][/code] - Bloque de código <br />
+[code=sql][/code] - Bloque de código con definición de lenguaje <br />
+[code start=3][/code] - Bloque de código con numeración de línea a partir del número <br />
+[quote][/quote] - Cita de *alguien* (sin nombre) <br />
+[quote=name][/quote] - Cita de *nombre* />
 </code>
 </small>
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === MantisBT <=> GitHub Markup ===
