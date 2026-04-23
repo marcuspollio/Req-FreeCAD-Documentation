@@ -825,7 +825,7 @@ sudo apt-get install libqt5xmlpatterns5-dev   # Needed for 0.20; should go away 
 sudo apt-get install freecad
 }}
 
-Una vez que instales el paquete {{incode|freecad}} desde el repositorio {{incode|freecad-stable}}, sustituirá al ejecutable de FreeCAD que está disponible en el repositorio de Universe Ubuntu. El ejecutable se llamará simplemente {{incode|freecad}}, y no {{incode|freecad-stable}}.
+Una vez que instale el paquete {{incode|freecad}} desde el repositorio {{incode|freecad-stable}}, sustituirá al ejecutable de FreeCAD que está disponible en el repositorio de Universe Ubuntu. El ejecutable se llamará simplemente {{incode|freecad}}, y no {{incode|freecad-stable}}.
 
 </div>
 </div>
