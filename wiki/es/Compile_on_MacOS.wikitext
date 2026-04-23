@@ -113,7 +113,7 @@ El siguiente comando clonará el repositorio git de FreeCAD en un directorio lla
 git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD FreeCAD-git
 }}
 
-Create the build folder.
+Crea la carpeta de compilación.
 
 {{Code|code=
 mkdir ~/FreeCAD/build
