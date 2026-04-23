@@ -206,9 +206,7 @@ El directorio temporal predeterminado es {{FileName|/tmp/}}. La variable de ento
 <span id="Libraries"></span>
 === Bibliotecas ===
 
-<div class="mw-translate-fuzzy">
-Algunas bibliotecas necesitan llamar a variables de entorno del sistema. A veces cuando existe un problema con una instalación de FreeCAD, es porque algunas variables de entorno no están o se han definido mal. Por tanto, algunas variables importantes son duplicadas en la Configuración y guardadas en el archivo de registro.
-</div>
+Algunas bibliotecas necesitan acceder a variables de entorno del sistema. En ocasiones, uno de los problemas con la instalación de FreeCAD se debe a que alguna variable de entorno falta o es incorrecta. Por lo tanto, algunas variables importantes se duplican en el archivo de configuración y se guardan en el archivo de registro.
 
 <div class="mw-translate-fuzzy">
 '''Variables de entorno relativas a Python:'''
