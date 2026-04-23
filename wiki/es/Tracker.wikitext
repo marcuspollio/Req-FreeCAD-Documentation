@@ -65,9 +65,11 @@ Si quiere que aparezca algo en FreeCAD que aún no está implementado, <u>no es 
 <span id="Submitting_patches"></span>
 ==  Envío de parches ==
 
-<div class="mw-translate-fuzzy">
-En caso de haber programado la corrección de un error, una extensión o algo que puede ser de uso público en FreeCAD, crea un parche con la herramienta Subversion diff y preséntalo en el mismo tracker (lo archivas como parche).
-</div>
+Si ha programado una corrección de errores, una extensión o cualquier otra cosa que pueda ser de utilidad pública para FreeCAD, envíe su parche como una "Solicitud de Extracción" (Pull Request) en [https://github.com/FreeCAD/FreeCAD GitHub].
+
+# Para una contribución grande, compleja o que modifique el comportamiento, abra un hilo en el foro [https://forum.freecad.org/viewforum.php?f=10 Subforo de Desarrolladores] para anunciar y debatir su parche. Para correcciones de errores menores, esto no es necesario.
+# Envíe su Solicitud de Extracción (PR) al [https://github.com/FreeCAD/FreeCAD Repositorio de FreeCAD en GitHub]. El mensaje de envío de la PR incluirá una lista de verificación que debe seguir para asegurar que su contribución tenga las mayores probabilidades de ser aceptada rápidamente. Si no ha trabajado con {{incode|git}} anteriormente o no está familiarizado con el envío de una PR a GitHub, consulta nuestra introducción a la página wiki de [[Source_code_management|github]].
+# Participe en la discusión, tanto en el foro como en la solicitud de extracción de GitHub, para que su código pueda fusionarse de manera más efectiva.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Requesting merge ==
