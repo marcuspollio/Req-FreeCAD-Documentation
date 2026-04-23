@@ -149,19 +149,17 @@ El sistema de seguimiento de errores de FreeCAD cuenta con un complemento llamad
 
 '''Nota''' Las siguientes palabras clave deben agregarse en el <u>mensaje de confirmación de git</u> y no en el asunto de la solicitud de extracción.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Remotely referencing a ticket ===
-Using this pattern will automagically associate a git commit to a ticket ('''Note:''' this will not close the ticket.)
-The format MantisBT will recognize:
+=== Referencia remota a un ticket ===
+Usando este patrón, se asociará automáticamente un commit de Git a un ticket (Nota: esto no cerrará el ticket).
+El formato que reconoce MantisBT es:
 * bug #1234
 * bugs #1234, #5678
 * issue #1234
 * issues #1234, #5678
 * report #1234
 * reports #1234, #5678
-<small>For the inquisitive here is the regex MantisBT uses for this operation: <br />
+<small>Para quienes tengan curiosidad, aquí está la expresión regular que usa MantisBT para esta operación: <br />
 <code>/(?:bugs?|issues?|reports?)+\s*:?\s+(?:#(?:\d+)[,\.\s]*)+/i</code></small>
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Remotely resolving a ticket ===
