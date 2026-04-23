@@ -76,7 +76,7 @@ En algunos casos, los paquetes instalados por Homebrew no usan la misma versión
 
 Deberá configurar la ruta a Qt: Qt5 es compatible actualmente, mientras que la compatibilidad con Qt6 está en desarrollo. Configure FREECAD_QT_VERSION en "Auto" o "5" para seleccionar Qt5 (el predeterminado). En la línea de comandos, utilice algo como:
 
-{{Código|código=
+{{Code|código=
 cmake \
 
 -DCMAKE_BUILD_TYPE="Release" \
