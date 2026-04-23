@@ -322,18 +322,14 @@ El otro es para ejecutar. Elija el que prefiera.
 
 <div class="mw-collapsible-content">
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The steps how to compile from the command line depends on the compiler. For MSVC 2017 the steps are:
-# In Windows start menu go to {{MenuCommand|Visual Studio 2017 → Visual Studio Tools}} and choose '''Developer Command Prompt for VS 2017'''
-# Change to your build folder.
-# Execute the command
-</div>
+Los pasos para compilar desde la línea de comandos dependen del compilador. Para MSVC 2017, los pasos son:
+# En el menú Inicio de Windows, vaya a {{MenuCommand|Visual Studio 2017 → Visual Studio Tools}} y seleccione '''Símbolo del sistema para desarrolladores de VS 2017'''
+# Cambie a la carpeta de compilación.
+# Ejecute el comando
 
 {{Code|code=msbuild ALL_BUILD.vcxproj /p:Configuration=Release}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-or
-</div>
+o
 
 {{Code|code=msbuild INSTALL.vcxproj /p:Configuration=Release}}
 
