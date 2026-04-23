@@ -357,13 +357,15 @@ squashfs-root> ./usr/bin/freecadcmd
 *** El intérprete añadido debe ser: {{incode|tu_ruta_local/squashfs-root/usr/bin/python}}.
 *** Si solo lo usa para FreeCAD, también puede agregar carpetas de entorno de trabajo AddOn, o hacerlo más adelante en un proyecto pydev.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Find path to {{incode|pydevd.py}} in your liclipse installation.
-** Something along the lines of: {{incode|your location/liclipse/plugins/org.python.pydev.xx/pysrc}}.
-* Create a regular pydev-project in liclipse.
-** Import external sources, for example a macro that you want to debug, or an external workbench.
-** In that macro (or workbench .py file) add the code lines:
-</div>
+* Encuentre la ruta a {{incode|pydevd.py}} en su instalación de liclipse.
+
+** Algo parecido a: {{incode|tu_ubicación/liclipse/plugins/org.python.pydev.xx/pysrc}}.
+
+* Cree un proyecto pydev normal en liclipse.
+
+** Importe fuentes externas, por ejemplo, una macro que quiera depurar o un entorno de desarrollo externo.
+
+** En esa macro (o archivo .py del entorno de desarrollo) añada las siguientes líneas de código:
 
 : {{Code|code=
 import sys; sys.path.append("path ending with /pysrc")
