@@ -676,15 +676,15 @@ Si se selecciona '''Ninguno (más rápido)''', no se importarán las configuraci
 
 Si se selecciona '''Usar color y grosor de línea predeterminados''', FreeCAD utilizará su color y grosor de línea predeterminados.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If '''Original color and linewidth''' is selected FreeCAD will use the color and linewidth from the SVG objects.
+Si se selecciona '''Color y grosor de línea originales''', FreeCAD utilizará el color y el grosor de línea de los objetos SVG.
+
 |-
-| {{MenuCommand|Disable units scaling}}
-| If checked, no unit conversion will occur. One unit in the SVG file will translate as one millimeter.
+| {{MenuCommand|Desactivar escalado de unidades}}
+| Si está marcada, no se realizará ninguna conversión de unidades. Una unidad del archivo SVG se traducirá a un milímetro.
+
 |-
-| {{MenuCommand|Export style}}
-| Select how Sketches are exported to SVG.
-</div>
+| {{MenuCommand|Estilo de exportación}}
+| Seleccione cómo se exportan los bocetos a SVG.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If '''Translated (for print & display)''' is selected, SVG objects are encapsulated in a group that is scaled and moved to the correct place in the SVG document to fit into a printable area.
