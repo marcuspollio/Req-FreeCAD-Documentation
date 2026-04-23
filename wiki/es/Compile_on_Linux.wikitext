@@ -778,7 +778,7 @@ Al compilar FreeCAD para 64 bits, existe un problema conocido con el paquete Ope
 ./configure CXXFLAGS="-D_OCC64"
 }}
 
-Para los sistemas basados en Debian, esta opción no es necesaria cuando se utilizan los paquetes precompilados de OpenCASCADE porque éstos establecen el {{incode|CXXFLAGS}} adecuado internamente.
+Para sistemas basados ​​en Debian, esta opción no es necesaria cuando se utilizan los paquetes OpenCASCADE precompilados porque estos establecen internamente los {{incode|CXXFLAGS}} adecuados.
 
 <span id="Automatic_build_scripts"></span>
 == Scripts de creación automática ==
