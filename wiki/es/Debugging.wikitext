@@ -184,10 +184,8 @@ Ahora vamos a configurar el depurador.
 
 Ahora ejecutaremos un script de prueba de Python en FreeCAD paso a paso.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Run winpdb and set the password (e.g. test)
-# Create a Python file with this content
-</div>
+# Ejecute winpdb y establezca la contraseña (por ejemplo, test)
+# Cree un archivo Python con este contenido
 
 {{Code|code=
 import rpdb2
