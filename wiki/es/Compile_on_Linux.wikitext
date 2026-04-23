@@ -683,10 +683,10 @@ Si tienes Doxygen instalado puedes construir la documentación del código fuent
 <span id="Additional_documentation"></span>
 === Documentación adicional ===
 
-El código fuente de FreeCAD es muy extenso, y con CMake es posible configurar muchas opciones. Aprender a usar CMake completamente puede ser útil para elegir las opciones adecuadas para tus necesidades particulares.
+El código fuente de FreeCAD es muy extenso, y con CMake es posible configurar muchas opciones. Aprender a usar CMake completamente puede serle útil para elegir las opciones adecuadas para sus necesidades particulares.
 * [https://cmake.org/documentation/ CMake Documentación de referencia] de Kitware.
 * [https://preshing.com/20170511/how-to-build-a-cmake-based-project/ Cómo construir un proyecto basado en CMake] (blog) por Preshing sobre programación.
-* [https://preshing.com/20170522/learn-cmakes-scripting-language-in-15-minutes/ Aprende el lenguaje de scripting de CMake en 15 minutos] (blog) por Preshing sobre programación.
+* [https://preshing.com/20170522/learn-cmakes-scripting-language-in-15-minutes/ Aprenda el lenguaje de scripting de CMake en 15 minutos] (blog) por Preshing sobre programación.
 
 <span id="Making_a_debian_package"></span>
 === Hacer un paquete debian ===
