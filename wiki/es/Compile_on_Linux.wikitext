@@ -502,7 +502,7 @@ Si no borra el directorio de origen, las ejecuciones posteriores de {{incode|cma
 <span id="Configuration"></span>
 === Configuración ===
 
-Pasando diferentes opciones a {{incode|cmake}}, puedes cambiar cómo se compila FreeCAD. La sintaxis es la siguiente.
+Pasando diferentes opciones a {{incode|cmake}}, puede cambiar cómo se compila FreeCAD. La sintaxis es la siguiente.
 
 {{Code|code=
 cmake -D <var>:<type>=<value> $SOURCE_DIR
