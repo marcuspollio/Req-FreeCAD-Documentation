@@ -31,7 +31,7 @@ Por ejemplo, para evitar la creación de los Entornos de Trabajo FEM y Mesh:
 cmake -DBUILD_FEM=OFF -DBUILD_MESH=OFF ../freecad-source
 }}
 
-Utiliza {{incode|cmake-gui}}, {{incode|cmake-curses-gui}}, o {{incode|cmake-qt-gui}} para mostrar todas las posibles variables que se pueden editar en la configuración; utilizando estas interfaces puedes activar o desactivar fácilmente diferentes ambientes de trabajo.
+Utilice {{incode|cmake-gui}}, {{incode|cmake-curses-gui}} o {{incode|cmake-qt-gui}} para visualizar todas las variables posibles que se pueden editar en la configuración; mediante estas interfaces, puede activar o desactivar fácilmente diferentes entornos de trabajo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Number of jobs in parallel ==
