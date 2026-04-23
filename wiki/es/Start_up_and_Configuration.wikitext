@@ -360,9 +360,8 @@ Estas entradas de configuración están relacionadas con el mecanismo de persona
 | Ventana acoplable oculta || Lista de ventanas acoplables (separadas por punto y coma) que se deshabilitarán || "Editor de propiedades"
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Querying the configuration ===
-</div>
+<span id="Querying_the_configuration"></span>
+=== Consultando la configuración ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''From FreeCAD's Python console'''
