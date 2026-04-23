@@ -304,7 +304,7 @@ rpmbuild  --noclean --build-in-place -bb package/fedora/freecad.spec
 
 <div class="mw-collapsible-content">
 
-La forma más fácil de comprobar qué paquetes son necesarios para compilar FreeCAD es comprobarlo a través de portage:
+La forma más sencilla de comprobar qué paquetes se necesitan para compilar FreeCAD es consultarlo a través de Portage:
 
 <tt>emerge -pv freecad</tt>
 
