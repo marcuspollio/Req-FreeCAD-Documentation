@@ -465,9 +465,7 @@ La opción {{incode|-j}} de {{incode|make}} controla cuántos trabajos (archivos
 
 Si ya ha realizado una compilación anteriormente y se queda atascado en una dependencia que no se reconoce o que no parece poder resolverse, pruebe lo siguiente:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Delete the contents of the build directory before running cmake again. FreeCAD is a rapidly moving target, you may be tripping over cached cmake information that points at an older version than the new repository head can use. Clearing the cache may allow cmake to recover and recognize the version you actually need.
-</div>
+* Elimine el contenido del directorio de compilación antes de ejecutar cmake nuevamente. FreeCAD está en constante evolución, por lo que podría estar encontrándose con información de cmake almacenada en caché que apunta a una versión anterior a la que admite la versión más reciente del repositorio. Borrar la caché podría permitir que cmake se recupere y reconozca la versión que realmente necesita.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * If cmake complains about missing a specific file, use a tool such as "apt-file search", or its equivalent in other package systems, to discover what package that file belongs to and install it. Bear in mind that you are likely to need the -dev version of the package that carries header or config files files required for FreeCAD to use the package.
