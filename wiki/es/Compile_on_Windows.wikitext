@@ -475,9 +475,8 @@ La DLL se instala de la siguiente manera:
 
 Compruebe si funciona y asegúrese de que en FreeCAD la opción de preferencias '''[[Preferences_Editor#Document|Save thumbnail into project file when saving document]]''' esté activada. Guarde un modelo. A continuación, visualice la carpeta del modelo guardado en el Explorador de Windows usando la vista de símbolos. Ahora debería ver una captura de pantalla del modelo en la vista de carpetas.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====Compilation====
-</div>
+<span id="Compilation"></span>
+==== Compilado ====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To compile the FCStdThumbnail.dll
