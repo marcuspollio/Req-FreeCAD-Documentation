@@ -864,7 +864,7 @@ cd bin
 ./FreeCAD -t 0
 }}
 
-Como está usando git, la próxima vez que desee compilar no tiene que clonar todo, simplemente tire de git y compile una vez más
+Dado que está usando Git, la próxima vez que quiera compilar no tendrá que clonar todo, simplemente descargue desde Git y compile una vez más.
 
 {{Code|lang=bash|code=
 # go into free-cad dir created earlier
