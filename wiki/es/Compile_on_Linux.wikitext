@@ -487,7 +487,7 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/libdl.so.2 /usr/lib/x86_64-linux-gnu/libdl.
 Adapte el comando a la estructura de su sistema buscando libdl.so* y creando un enlace con la ubicación adecuada.
 
 <span id="How_to_repair_your_source_code_directory"></span>
-=== Cómo reparar su directorio de código fuente ===
+=== Cómo reparar el directorio de código fuente ===
 
 Si accidentalmente realizaste una compilación dentro del directorio de código fuente, o agregaste archivos extraños, y quisieras restaurar el contenido a sólo el código fuente original, puedes realizar los siguientes pasos.
 
