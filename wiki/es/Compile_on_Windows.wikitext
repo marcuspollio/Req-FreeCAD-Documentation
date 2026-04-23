@@ -473,9 +473,7 @@ La DLL se instala de la siguiente manera:
 # Cambie a la carpeta donde se encuentra la DLL.
 # Ejecute este comando: {{Code|code=regsvr32 FCStdThumbnail.dll}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-So check if it works, assure that in FreeCAD the preferences option '''[[Preferences_Editor#Document|Save thumbnail into project file when saving document]]''' is enabled and save a model. Then view in Windows Explorer the folder of the saved model using a symbol view. You should now see a screenshot of the model in the folder view.
-</div>
+Compruebe si funciona y asegúrese de que en FreeCAD la opción de preferencias '''[[Preferences_Editor#Document|Save thumbnail into project file when saving document]]''' esté activada. Guarde un modelo. A continuación, visualice la carpeta del modelo guardado en el Explorador de Windows usando la vista de símbolos. Ahora debería ver una captura de pantalla del modelo en la vista de carpetas.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ====Compilation====
