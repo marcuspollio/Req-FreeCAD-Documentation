@@ -215,9 +215,7 @@ Dependiendo del compilador, el proceso de compilación de FreeCAD será ligerame
 <span id="Building_from_cmd.exe_command_line"></span>
 === Compilación desde la línea de comandos cmd.exe ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If you want build from the command line, CMake output will show you the proper command to run (which depends on the configured release directory). But this command will produce a ''Debug'' build which does not work on Windows and results in a Numpy import error in FreeCAD (which is a known issue but hard to fix). You need to specify the ''--config Release'' option to force a ''Release'' build:
-</div>
+Si desea compilar desde la línea de comandos, la salida de CMake le mostrará el comando adecuado para ejecutar (que depende del directorio de lanzamiento configurado). Sin embargo, este comando generará una compilación de ''depuración'' que no funciona en Windows y produce un error de importación de Numpy en FreeCAD (un problema conocido pero difícil de solucionar). Debe especificar la opción ''--config Release'' para forzar una compilación de ''lanzamiento'':
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Code|code=
