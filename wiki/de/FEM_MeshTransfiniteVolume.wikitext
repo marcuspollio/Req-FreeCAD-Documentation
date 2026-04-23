@@ -38,9 +38,8 @@ The '''FEM MeshTransfiniteVolume''' command creates a structured mesh in a 4- or
 {{Caption|Task panel of the MeshTransfiniteVolume tool}}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Anwendung==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # To enable the command a [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
