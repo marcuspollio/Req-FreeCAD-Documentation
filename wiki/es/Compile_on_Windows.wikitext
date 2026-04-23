@@ -152,9 +152,7 @@ Primero, configure el entorno de compilación con CMake:
 
 # En el cuadro de diálogo que aparece, especifique el generador que desea usar: en la mayoría de los casos, se usarán las opciones predeterminadas. Para el compilador estándar de Microsoft Visual Studio, use '''Visual Studio xx 2yyy''', donde xx es la versión del compilador y 2yyy el año de su lanzamiento. Se recomienda usar la opción predeterminada '''Usar compiladores nativos predeterminados'''.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''Note:''' It is important to specify the correct bit variant. If you have the 64-bit variant of the LibPack you must also use the x64 compiler.
-</div>
+'''Nota:''' Es importante especificar la versión de bits correcta. Si tiene la variante de 64 bits de LibPack, también debe usar el compilador x64.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This will begin the configuration and ''will fail'' because of missing settings. This is normal, you have not yet specified the location of the LibPack. However, there are other failures that might occur that require some further action on your part.
