@@ -122,9 +122,7 @@ Puede compilar FreeCAD utilizando el script de compilación instalado o mediante
 <span id="Run_FreeCAD"></span>
 === Ejecutar FreeCAD ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Once FreeCAD has been built, it can be run as normal.
-</div>
+Una vez compilado FreeCAD, se puede ejecutar con normalidad.
 
 {{Code|lang=bash|code=
 /mnt/build/bin/FreeCAD
