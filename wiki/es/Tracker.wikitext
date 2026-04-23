@@ -78,9 +78,8 @@ Si ha programado una corrección de errores, una extensión o cualquier otra cos
 
 Si ha creado una rama de Git con cambios que le gustaría que se integraran al código de FreeCAD, puede solicitar que se revise y se fusione si los desarrolladores de FreeCAD lo aprueban. Para ello, primero debes publicar su rama en un repositorio público de Git (GitHub, GitLab, Bitbucket, SourceForge, etc.) y, a continuación, proporcionar la URL de su rama en su solicitud de fusión.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== MantisBT Tips and Tricks ==
-</div>
+<span id="MantisBT_Tips_and_Tricks"></span>
+== Trucos y consejos de MantisBT ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === MantisBT Markup ===
