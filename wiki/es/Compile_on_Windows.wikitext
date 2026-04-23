@@ -249,8 +249,8 @@ Si no aparece ningún error, ha terminado. '''¡Enhorabuena!''' Puede cerrar MSV
 ==== Compilación de depuración ====
 
 Como requisito previo para la compilación de depuración, debe realizar lo siguiente:
-# Copie el contenido de la carpeta «bind» de LibPack a la carpeta «bin» de la carpeta de compilación de FreeCAD (sobrescriba los archivos existentes).
-# Copie el contenido de la carpeta «libd» de LibPack a la carpeta «lib» de la carpeta de compilación de FreeCAD.
+# Copie el contenido de la carpeta ''bind'' de LibPack a la carpeta ''bin'' de la carpeta de compilación de FreeCAD (sobrescriba los archivos existentes).
+# Copie el contenido de la carpeta ''libd'' de LibPack a la carpeta ''lib'' de la carpeta de compilación de FreeCAD.
 
 Ahora puede compilar:
 # Inicia el IDE de Visual Studio. Puede hacerlo pulsando el botón ''Abrir proyecto'' en la interfaz gráfica de CMake o haciendo doble clic en el archivo ''FreeCAD.sln'' que encontrarás en la carpeta de compilación.
