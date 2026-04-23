@@ -203,9 +203,8 @@ FreeCAD no tiene en cuenta la variable de entorno {{incode|HOME}} (ya que determ
 
 El directorio temporal predeterminado es {{FileName|/tmp/}}. La variable de entorno {{incode|TMPDIR}} se puede usar para anular el valor predeterminado. (''Editor: ¿precedencia?'').
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Libraries ===
-</div>
+<span id="Libraries"></span>
+=== Bibliotecas ===
 
 <div class="mw-translate-fuzzy">
 Algunas bibliotecas necesitan llamar a variables de entorno del sistema. A veces cuando existe un problema con una instalación de FreeCAD, es porque algunas variables de entorno no están o se han definido mal. Por tanto, algunas variables importantes son duplicadas en la Configuración y guardadas en el archivo de registro.
