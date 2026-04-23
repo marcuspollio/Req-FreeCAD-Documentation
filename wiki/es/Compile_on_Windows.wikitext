@@ -635,9 +635,8 @@ Esto garantiza que los nombres de archivo de las bibliotecas de depuración sean
 Para compilar FreeCAD usando Netgen autocompilado, debe hacer lo siguiente:
 * Copie todas las carpetas de CMAKE_INSTALL_PREFIX a su carpeta LibPack (sobrescriba los archivos existentes).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== References ==
-</div>
+<span id="References"></span>
+== Referencias ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 See also
