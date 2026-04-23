@@ -703,7 +703,7 @@ Vaya al directorio de FreeCAD y llame a
 debuild
 }}
 
-Una vez construido el paquete, puede utilizar {{incode|lintian}} para comprobar si el paquete contiene errores
+Una vez construido el paquete, puede utilizar {{incode|lintian}} para comprobar si el paquete contiene errores.
 
 {{Code|lang=bash|code=
 lintian freecad-package.deb
