@@ -112,10 +112,8 @@ Requisitos previos:
 * Versión de depuración de FreeCAD
 * Modelo de FreeCAD que provoca un fallo
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Steps:
-Enter the following in your terminal window:
-</div>
+Pasos:
+Introduzca lo siguiente en la ventana de su terminal:
 
 {{Code|code=
 $ cd FreeCAD/bin
