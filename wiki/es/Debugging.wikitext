@@ -177,9 +177,7 @@ Necesitamos el depurador de Python: ''Winpdb''. Si no lo tiene instalado, en Ubu
 sudo apt-get install winpdb
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Now lets setup the debugger.
-</div>
+Ahora vamos a configurar el depurador.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Start ''Winpdb''.
