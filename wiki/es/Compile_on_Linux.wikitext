@@ -748,7 +748,7 @@ cd freecad-source
 git pull
 }}
 
-A continuación, muévete al directorio de compilación donde el código fue compilado inicialmente, y ejecuta {{incode|cmake}} especificando el directorio actual (denotado por un punto); luego activa la re-compilación con {{incode|make}}.
+Luego, diríjase al directorio de compilación donde se compiló el código inicialmente y ejecute {{incode|cmake}} especificando el directorio actual (indicado por un punto); luego active la recompilación con {{incode|make}}.
 
 {{Code|lang=bash|code=
 cd build
