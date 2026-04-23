@@ -213,7 +213,8 @@ Si todo ha finalizado sin errores, ahora puede iniciar FreeCAD haciendo doble cl
 
 El desarrollo de FreeCAD avanza rápidamente; casi a diario se corrigen errores y se añaden nuevas funciones. Para obtener los últimos cambios, utilice Git para actualizar el directorio de origen (consulte [[Administración del código fuente]]) y, a continuación, vuelva a ejecutar los pasos de CMake y make descritos anteriormente. En este caso, no suele ser necesario empezar con un directorio de compilación limpio, y las compilaciones posteriores generalmente serán mucho más rápidas que la primera.
 
-== Building with Qt4 and Python 2.7 ==
+<span id="Building_with_Qt4_and_Python_2.7"></span>
+== Compilación con Qt4 y Python 2.7 ==
 
 FreeCAD has transitioned from Qt 4 to Qt 5 as well as homebrew. Qt 4 is no longer available as an option for new build on macOS following Qt 5 transition. Python 2.7 has been deprecated within homebrew and upcoming macOS and we do not support it anymore for macOS build either.
 
