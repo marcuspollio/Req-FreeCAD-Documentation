@@ -606,7 +606,7 @@ Algunos componentes de FreeCAD, como PySide, intentan detectar automáticamente 
 
 2. Haga clic en {{MenuCommand|Proyecto Abierto}}.
 
-3. Navega hasta el directorio donde está el código fuente, {{incode|freecad-source/}}, y elige el archivo {{incode|CMakeLists.txt}} más alto.
+3. Navegue hasta el directorio donde está el código fuente, {{incode|freecad-source/}}, y elija el archivo {{incode|CMakeLists.txt}} más alto.
 
 4. Al seleccionar el archivo, se ejecutará automáticamente {{incode|cmake}} en él, pero puede fallar si las opciones apropiadas no están correctamente configuradas.
 
