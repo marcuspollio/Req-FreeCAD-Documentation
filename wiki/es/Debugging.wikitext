@@ -143,9 +143,7 @@ Esto generará una lista detallada de lo que estaba haciendo el programa cuando 
 
 A veces resulta útil saber qué bibliotecas carga FreeCAD, especialmente si se cargan varias bibliotecas con el mismo nombre pero de versiones diferentes (colisión de versiones). Para ver qué bibliotecas carga FreeCAD cuando falla, abra una terminal y ejecute el depurador. En una segunda ventana de terminal, averigüe el ID del proceso de FreeCAD:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{incode|ps -A &#124; grep FreeCAD}}
-</div>
+{{código|ps -A &#124; grepFreeCAD}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Use the returned id and pass it to {{incode|lsof}}:
