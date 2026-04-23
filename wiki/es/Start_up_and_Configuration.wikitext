@@ -171,9 +171,8 @@ Para obtener más información sobre el modo de consola o sin interfaz gráfica,
 
 Consulte [[Macro_at_Startup|Macro al inicio]] para obtener información sobre cómo configurar una macro para que se ejecute automáticamente al iniciar FreeCAD.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Environment variables ==
-</div>
+<span id="Environment_variables"></span>
+== Variables de entorno ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 FreeCAD supports the following environment variables, which can be used to configure directories: {{Version|0.19}}
