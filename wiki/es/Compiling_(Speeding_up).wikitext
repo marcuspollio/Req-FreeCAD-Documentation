@@ -25,7 +25,7 @@ En la mayoría de los sistemas, ccache se detectará y habilitará automáticame
 
 Al usar {{incode|cmake}} para configurar la compilación, puede deshabilitar la compilación de ciertos entornos de desarrollo que no necesite en este momento. Esto es útil si solo necesita probar unos pocos entornos de desarrollo.
 
-Por ejemplo, para evitar la construcción de los ambientes de trabajo FEM y Malla:
+Por ejemplo, para evitar la creación de los Entornos de Trabajo FEM y Mesh:
 
 {{Code|code=
 cmake -DBUILD_FEM=OFF -DBUILD_MESH=OFF ../freecad-source
