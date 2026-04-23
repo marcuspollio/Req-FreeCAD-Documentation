@@ -71,9 +71,8 @@ Si ha programado una corrección de errores, una extensión o cualquier otra cos
 # Envíe su Solicitud de Extracción (PR) al [https://github.com/FreeCAD/FreeCAD Repositorio de FreeCAD en GitHub]. El mensaje de envío de la PR incluirá una lista de verificación que debe seguir para asegurar que su contribución tenga las mayores probabilidades de ser aceptada rápidamente. Si no ha trabajado con {{incode|git}} anteriormente o no está familiarizado con el envío de una PR a GitHub, consulta nuestra introducción a la página wiki de [[Source_code_management|github]].
 # Participe en la discusión, tanto en el foro como en la solicitud de extracción de GitHub, para que su código pueda fusionarse de manera más efectiva.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Requesting merge ==
-</div>
+<span id="Requesting_merge"></span>
+== Solicitando fusión ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 (Same guidelines as [https://wiki.freecad.org/Tracker#Submitting_patches Submiting patches])
