@@ -43,7 +43,7 @@ git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git freecad-so
 
 Para compilar FreeCAD, debe instalar las dependencias necesarias que se mencionan en [[Third Party Libraries|Bibliotecas de terceros]]; los paquetes que contienen estas dependencias se enumeran a continuación para diferentes distribuciones de Linux. Tenga en cuenta que los nombres y la disponibilidad de las bibliotecas dependerán de su distribución específica; si su distribución es antigua, es posible que algunos paquetes no estén disponibles o tengan un nombre diferente. En ese caso, consulte la sección [[#Older and non-conventional distributions|Distribuciones antiguas y no convencionales]] a continuación.
 
-Una vez que tengas todas las dependencias instaladas, procede a [[#Compilar_FreeCAD|compilar FreeCAD]].
+Una vez que haya instalado todas las dependencias, proceda a [[#Compile_FreeCAD|compilar FreeCAD]].
 
 Ten en cuenta que el código fuente de FreeCAD tiene un tamaño de unos 500 MB; puede ser tres veces mayor si clonas el repositorio Git con todo su historial de modificaciones. Obtener todas las dependencias puede requerir la descarga de 500 MB o más de nuevos archivos; cuando estos archivos se descomprimen pueden requerir 1500 MB o más de espacio. También ten en cuenta que el proceso de compilación puede generar hasta 1500 MB de archivos adicionales ya que el sistema copia y modifica todo el código fuente. Por lo tanto, asegúrese de tener suficiente espacio libre en su disco duro, al menos 4 GB, cuando intente la compilación.
 
