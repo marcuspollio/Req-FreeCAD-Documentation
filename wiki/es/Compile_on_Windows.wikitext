@@ -96,9 +96,7 @@ Para aquellos que quieran evitar instalar el enorme MSVC con el único propósit
 
 '''Nota:''' Si bien la edición «Community» de MSVC es gratuita, para usar el IDE durante más de un período de prueba de 30 días, debe crear una cuenta de Microsoft. Si solo va a compilar mediante la línea de comandos, no necesita el IDE y, por lo tanto, no necesita una cuenta de Microsoft.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-As a free and OpenSource alternative IDE you can use [https://www.kdevelop.org/download KDevelop]. You can use KDevelop to modify and write C++ code but must use the command line to compile.
-</div>
+Como IDE alternativo gratuito y de código abierto, puede usar [https://www.kdevelop.org/download KDevelop]. Con KDevelop puede modificar y escribir código C++, pero debe usar la línea de comandos para compilarlo.
 
 <span id="Optional_system_path_configuration"></span>
 ===Configuración opcional de la ruta del sistema===
