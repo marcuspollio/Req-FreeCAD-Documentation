@@ -308,29 +308,27 @@ Nota: Para las distribuciones de Linux, puede existir un archivo de configuraci�
 
 La tabla que aparece a continuación muestra la información disponible sobre la versión de compilación. La mayor parte proviene del repositorio de Subversion. ¡Esta información es necesaria para reconstruir una versión con precisión!
 
-<div class="mw-translate-fuzzy">
 {| border="2" cellpadding="4" cellspacing="0" style="margin-top:1em; margin-bottom:1em; background:#f9f9f9; border:1px #aaa solid; border-collapse:collapse;"
-|+ Entradas de configuración de usuario
+
 |-
-! Nombre variable configuración      !! Sinopsis                         !! Ejemplo                  
-|-               
-| BuildVersionMajor    || Número de versión principal de la construcción. Definida en src/Build/Version.h.in   || 0
-|-               
-| BuildVersionMinor    || Número de versión secundario de la construcción. Definida en src/Build/Version.h.in   || 7
-|-               
-| BuildRevision        || Número de revisión del repositorio SVN del src en la construcción. Generado por SVN    || 356         
-|-               
-| BuildRevisionRange   || Rango de diferentes cambios     ||  123-356 
-|-               
-| BuildRepositoryURL   || URL del repositorio    || https://free-cad.svn.sourceforge.net/svnroot/free-cad/trunk/src
-|-               
-| BuildRevisionDate    || Fecha de la revisión de arriba    || 2007/02/03 22:21:18    
-|-               
-| BuildScrClean        || Indica si el código fuente fue modificado después de su descarga   ||Src modified            
-|-               
-| BuildScrMixed        ||       || Src not mixed
+! Nombre de la variable de configuración !! Sinopsis !! Ejemplo
+|-
+| BuildVersionMajor || Número de versión principal de la compilación. Definido en {{FileName|src/Build/Version.h.in}} || 0
+|-
+| BuildVersionMinor || Número de versión secundaria de la compilación. Definido en {{FileName|src/Build/Version.h.in}} || 7
+|-
+| BuildRevision || Número de revisión del repositorio SVN del código fuente en la compilación. Generado por SVN || 356
+|-
+| BuildRevisionRange || Rango de cambios diferentes || 123-356
+|-
+| BuildRepositoryURL || URL del repositorio || https://free-cad.svn.sourceforge.net/svnroot/free-cad/trunk/src
+|-
+| BuildRevisionDate || Fecha de la revisión anterior || 2007/02/03 22:21:18
+|-
+| BuildScrClean || Indica si el código fuente se modificó después de la extracción || Código fuente modificado
+|-
+| BuildScrMixed || || Código fuente no mezclado
 |}
-</div>
 
 <span id="Branding_related"></span>
 === Relativos al marcado ===
