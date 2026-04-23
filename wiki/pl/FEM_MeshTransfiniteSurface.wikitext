@@ -9,20 +9,19 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommandContainer|
-{{GuiCommand
+{{GuiCommand/pl
 |Name=FEM MeshTransfiniteSurface
-|MenuLocation=Mesh → GMSH Refinements → Structured Transfinite Surface
-|Workbenches=[[FEM_Workbench|FEM]]
+|Name/pl=MES: Strukturalna powierzchnia transfinite
+|MenuLocation=Siatka → Zagęszczenia GMSH → Strukturalna powierzchnia transfinite
+|Workbenches=[[FEM_Workbench/pl|MES]]
 |Version=1.2
-|SeeAlso=[[FEM_tutorial|FEM tutorial]]
+|SeeAlso=[[FEM_tutorial/pl|Poradnik MES]]
 }}
 {{GuiCommandFemInfo
-|Solvers=All
+|Solvers=Wszystkie
 }}
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Description==
