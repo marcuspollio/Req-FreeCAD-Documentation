@@ -108,15 +108,19 @@ Como alternativa, puede incluir las rutas de algunas carpetas en la variable de 
 * Si no usó la opción de agregar CMake a la variable PATH durante la instalación, agregue su carpeta de instalación a la variable PATH: <br>''C:\Archivos de programa\CMake\bin''
 * Si no usó la opción de agregar TortoiseGit a la variable PATH durante la instalación, agregue su carpeta de instalación a la variable PATH: <br>''C:\Archivos de programa\TortoiseGit\bin''
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To add folder paths to the PATH variable:
-# In the Windows Start menu Right click on ''Computer'' and choose ''Properties''.
-# In the appearing dialog click on ''Advanced system settings''.
-# Another dialog will open. Click there in the tab ''Advanced'' on '''Environment Variables'''.
-# Again another dialog will open. Select then the variable ''Path'' and click on '''Edit'''.
-# And again another dialog will open. Click there on '''New''' and add to path to the folder of Git or the LibPack.
-# Finally press '''OK''' and close all dialogs by pressing '''OK''' as well.
-</div>
+Para agregar rutas de carpetas a la variable PATH:
+
+# En el menú Inicio de Windows, haga clic derecho en "Equipo" y seleccione "Propiedades".
+
+# En el cuadro de diálogo que aparece, haga clic en "Configuración avanzada del sistema".
+
+# Se abrirá otro cuadro de diálogo. En la pestaña "Avanzado", haga clic en "Variables de entorno".
+
+# Se abrirá otro cuadro de diálogo. Seleccione la variable "Path" y haga clic en "Editar".
+
+# Se abrirá otro cuadro de diálogo. Haga clic en "Nuevo" y agregue la ruta a la carpeta de Git o LibPack.
+
+# Finalmente, haga clic en "Aceptar" y cierre todos los cuadros de diálogo haciendo clic también en "Aceptar".
 
 <span id="Configuration"></span>
 == Configuración ==
