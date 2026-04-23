@@ -365,12 +365,12 @@ Estas entradas de configuración están relacionadas con el mecanismo de persona
 
 '''Desde la consola de Python de FreeCAD'''
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Entries of the configuration set can be queried with the '''config var name''' (see tables above) from the [[Python_console|Python console]]. For example:
-  >>> FreeCAD.ConfigGet("ExeVersion")
-  '0.19'
-If the name is not found, an empty string is returned.
-</div>
+Las entradas del conjunto de configuración se pueden consultar con el parámetro '''config var name''' (ver tablas anteriores) desde la consola de Python. Por ejemplo:
+
+>>> FreeCAD.ConfigGet("ExeVersion")
+
+'0.19'
+Si no se encuentra el nombre, se devuelve una cadena vacía.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''From command line'''
