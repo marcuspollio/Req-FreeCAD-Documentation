@@ -36,9 +36,8 @@ Der Befehl '''FEM NetzTransfiniteFläche''' erstellt ein strukturiertes Netz auf
 {{Caption|Task panel of the MeshTransfiniteSurface tool}}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Anwendung==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # To enable the command a [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
