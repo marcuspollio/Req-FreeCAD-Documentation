@@ -343,9 +343,7 @@ Estos pasos también se pueden automatizar. Aquí tiene, por ejemplo, una soluci
 
 En lugar de llamar a '''compile-FC''' con la opción ''install'', también puede usar ''debug'' o ''release'':
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''debug'' &nbsp; - compile FreeCAD in debug configuration
-</div>
+''debug'' &nbsp; - compila FreeCAD en configuración de depuración
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''release'' - compile FreeCAD in release configuration
