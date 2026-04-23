@@ -10,9 +10,7 @@
 <span id="Licenses_used_in_FreeCAD"></span>
 == Licencias utilizadas en FreeCAD ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-FreeCAD uses two different licenses, one for the application itself, and one for the documentation:
-</div>
+FreeCAD utiliza dos licencias diferentes: una para la aplicación en sí y otra para la documentación.
 
 <div class="mw-translate-fuzzy">
 ;[[wikipedia:LGPL|Lesser General Public Licence (LGPL2+)]]: Para las bibliotecas principales como se indica en los fichero .h y .cpp en src/App, src/Gui, sic/Base, y muchos de los [[Workbenches/es|módulos]] en src/Mod y para el ejecutable como se indica en los archivos .h y .cpp en el directorio src/main. Los iconos y otro material gráfico también son LGPL.
