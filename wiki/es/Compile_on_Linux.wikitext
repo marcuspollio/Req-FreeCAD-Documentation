@@ -569,7 +569,7 @@ cmake ../
 Tenga en cuenta que al cambiar entre las compilaciones 0.20 y 0.21_dev, puede ser necesario eliminar CMakeCache.txt antes de ejecutar cmake.
 
 <span id="Building_for_a_specific_Python_version"></span>
-==== Creación para una versión específica de Python ====
+==== Compilación para una versión específica de Python ====
 
 <div class="mw-translate-fuzzy">
 Si el ejecutable {{incode|python}} por defecto en tu sistema es un enlace simbólico a Python 2, {{incode|cmake}} intentará configurar FreeCAD para esta versión. Puedes elegir otra versión de Python dando la ruta a un ejecutable específico:
