@@ -250,7 +250,6 @@ Si no aparece ningún error, ha terminado. '''¡Enhorabuena!''' Puede cerrar MSV
 
 Como requisito previo para la compilación de depuración, debe realizar lo siguiente:
 # Copie el contenido de la carpeta «bind» de LibPack a la carpeta «bin» de la carpeta de compilación de FreeCAD (sobrescriba los archivos existentes).
-
 # Copie el contenido de la carpeta «libd» de LibPack a la carpeta «lib» de la carpeta de compilación de FreeCAD.
 
 Ahora puede compilar:
