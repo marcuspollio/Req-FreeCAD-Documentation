@@ -492,9 +492,7 @@ Si se selecciona '''FEM''', solo se exportarán los elementos FEM. Esto signific
 
 [[Image:Preferences_Import-Export_Page_Mesh_Formats.png|400px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Meshes are a special type of 3D object, composed of triangular faces connected by their [[Glossary#Vertex|vertices]] and edges. They are widely used for [https://en.wikipedia.org/wiki/3D_printing additive manufacturing]. FreeCAD provides the [[Image:Workbench_Mesh.svg|24px]] [[Mesh_Workbench|Mesh Workbench]] to create and handle meshes. FreeCAD supports several mesh file formats.
-</div>
+Las mallas son un tipo especial de objeto 3D, compuesto por caras triangulares conectadas por sus [[Glossary#Vertex|vértices]] y aristas. Se utilizan ampliamente en la fabricación aditiva [https://en.wikipedia.org/wiki/3D_printing]. FreeCAD proporciona el [[Imagen:Workbench_Mesh.svg|24px]] [[Mesh_Workbench|Entorno de Trabajo de Malla]] para crear y gestionar mallas. FreeCAD admite varios formatos de archivo de malla.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This page is only shown if the [[Image:Workbench_Mesh.svg|24px]] [[Mesh_Workbench|Mesh Workbench]] has been loaded in the current FreeCAD session.
