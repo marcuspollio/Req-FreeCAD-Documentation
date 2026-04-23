@@ -54,14 +54,13 @@ Si cree que ha encontrado un error, puede informar de este siempre y cuando haya
 
 Si quiere que aparezca algo en FreeCAD que aún no está implementado, <u>no es un error, sino una solicitud de función</u>. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# '''IMPORTANTː''' Before requesting a potential Feature Request '''please be certain that you are the first one doing so by searching the forums and the bugtracker'''. If you have concluded that there are no pre-existing tickets/discussions the next step is toː 
-# Start a forum thread to discuss your feature request with the community via the  [https://forum.freecad.org/viewforum.php?f=8 Open Discussion forum]. 
-# Once the community agrees that this is a valid Feature, you then can open a ticket on the tracker (file it under ''feature request'' instead of ''bug''). 
-* '''NOTE #1''' To keep things organized please remember to link the forum thread URL into the ticket and the ticket number (as a link) in to the forum thread. 
-* '''NOTE #2''' Keep in mind there are no guarantees that your wish will be fulfilled. 
-[[File:MantisBT-setting-Feature-Request.jpg|thumb|FreeCAD Bugtracker report page - use the dropdown to correctly designate what the ticket is]]
-</div>
+# '''IMPORTANTE'' Antes de solicitar una posible función, asegúrese de ser el primero en hacerlo buscando en los foros y en el sistema de seguimiento de errores. Si no encuentra incidencias o discusiones previas, el siguiente paso es:
+# Iniciar un hilo en el foro para debatir su solicitud de función con la comunidad a través del foro de discusión abierta [https://forum.freecad.org/viewforum.php?f=8].
+# Una vez que la comunidad apruebe que se trata de una función válida, puede abrir una incidencia en el sistema de seguimiento de errores (archítela como "solicitud de función" en lugar de "error").
+
+* '''NOTA N.º 1'' Para mantener todo organizado, recuerde incluir el enlace del hilo del foro y el número de incidencia (como enlace) en el hilo del foro.
+
+* '''NOTA N.º 2'' Tenga en cuenta que no hay garantías de que su solicitud se cumpla. [[Archivo:MantisBT-setting-Feature-Request.jpg|thumb|Página de informe de errores de FreeCAD Bugtracker: utilice el menú desplegable para designar correctamente el tipo de incidencia]]
 
 <span id="Submitting_patches"></span>
 ==  Envío de parches ==
