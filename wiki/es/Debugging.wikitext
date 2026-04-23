@@ -156,12 +156,10 @@ Esto imprime una larga lista de recursos cargados. Por ejemplo, si intenta deter
 <span id="Python_Debugging"></span>
 == Depuración de Python ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For a more modern approach to debugging Python, see these posts:
-* [https://forum.freecad.org/viewtopic.php?f=22&t=28901 Debugging macros with VS 2017]
-* [https://forum.freecad.org/viewtopic.php?f=10&t=35383 Python workbenches debugging]
-* [https://forum.freecad.org/viewtopic.php?f=4&t=40251 python3.dll, Qt5Windgets.dll, Qt5Gui.dll and Qt5Core.dll not found]
-</div>
+Para un enfoque más moderno para depurar Python, consulte estas publicaciones:
+* [https://forum.freecad.org/viewtopic.php?f=22&t=28901 Depuración de macros con VS 2017]
+* [https://forum.freecad.org/viewtopic.php?f=10&t=35383 Depuración de entornos de trabajo de Python]
+* [https://forum.freecad.org/viewtopic.php?f=4&t=40251 No se encontraron python3.dll, Qt5Windgets.dll, Qt5Gui.dll ni Qt5Core.dll]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === winpdb ===
