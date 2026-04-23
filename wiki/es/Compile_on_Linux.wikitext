@@ -32,9 +32,7 @@ sudo apt install git
 
 Para obtener una explicación detallada sobre el proceso de contribución, consulte [[Source_code_management|Gestión del código fuente]].
 
-<div class="mw-translate-fuzzy">
-La mejor manera de obtener el código es clonar el repositorio Git de sólo lectura [https://github.com/FreeCAD/FreeCAD]. Para ello se necesita el programa {{incode|git}} que se puede instalar fácilmente en la mayoría de las distribuciones de Linux. También puede obtenerse en el [http://git-scm.com/ sitio web oficial].
-</div>
+Si solo necesita compilar FreeCAD, la forma más rápida de obtener su código es clonar el repositorio oficial de solo lectura [https://github.com/FreeCAD/FreeCAD Git]. El siguiente comando colocará una copia de la última versión del código fuente de FreeCAD en un nuevo directorio llamado freecad-source.
 
 {{Code|lang=bash|code=
 git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git freecad-source
