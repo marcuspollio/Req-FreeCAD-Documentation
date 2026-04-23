@@ -147,9 +147,7 @@ FreeCAD puede utilizarse en modo consola mediante el modificador {{incode|--cons
 
 En el modo consola, no se mostrará ninguna interfaz gráfica de usuario y aparecerá el intérprete de Python: {{incode|>>>}}. Desde este intérprete, tendrá la misma funcionalidad que el intérprete de Python que se ejecuta dentro de la interfaz gráfica de FreeCAD, así como acceso a todos los módulos y complementos de FreeCAD, excepto el módulo FreeCADGui. Tenga en cuenta que los módulos que dependen de FreeCADGui podrían no estar disponibles.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To read more about console or headless mode, refer to [[Headless_FreeCAD|Headless FreeCAD]].
-</div>
+Para obtener más información sobre el modo de consola o sin interfaz gráfica, consulte [[Headless_FreeCAD|FreeCAD sin interfaz gráfica]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Running modules, macros and scripts ===
