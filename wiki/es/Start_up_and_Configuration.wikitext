@@ -261,7 +261,7 @@ App.getUserConfigDir()
 Nota: Para las distribuciones de Linux, puede existir un archivo de configuración adicional relacionado con [[Third_Party_Tools#Qt-Toolkit|Qt]] en la ruta {{FileName|/home/username/.config/FreeCAD/FreeCAD.conf}}.
 
 <span id="Command_line_arguments"></span>
-=== Argumentos de la línea de comando ===
+=== Argumentos de la línea de comandos ===
 
 <div class="mw-translate-fuzzy">
 {| border="2" cellpadding="4" cellspacing="0" style="margin-top:1em; margin-bottom:1em; background:#f9f9f9; border:1px #aaa solid; border-collapse:collapse;"
