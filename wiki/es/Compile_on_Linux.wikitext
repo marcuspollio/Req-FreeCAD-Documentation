@@ -54,7 +54,7 @@ Tenga en cuenta que el código fuente de FreeCAD tiene un tamaño aproximado de 
 
 <div class="mw-collapsible-content">
 
-En los sistemas basados en Debian (Debian, Ubuntu, Mint, etc.) es bastante fácil conseguir instalar todas las dependencias necesarias. La mayoría de las bibliotecas están disponibles a través de {{incode|apt}} o del gestor de paquetes Synaptic.
+En sistemas basados ​​en Debian (Debian, Ubuntu, Mint, etc.) es bastante fácil instalar todas las dependencias necesarias. La mayoría de las bibliotecas están disponibles a través de {{incode|apt}} o el gestor de paquetes Synaptic.
 
 Si ya has instalado FreeCAD desde los repositorios oficiales, puedes instalar sus dependencias de construcción con esta única línea de código en un terminal:
 
