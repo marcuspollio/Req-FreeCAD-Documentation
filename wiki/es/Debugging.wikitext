@@ -139,9 +139,7 @@ Esto generará una lista detallada de lo que estaba haciendo el programa cuando 
 <span id="List_Libraries_Loaded_by_FreeCAD"></span>
 == Listado de bibliotecas cargadas por FreeCAD ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-(Applicable to Linux and macOS)
-</div>
+(Aplicable a Linux y macOS)
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Sometimes it's helpful to understand what libraries FreeCAD is loading, specifically if there are multiple libraries being loaded of the same name but different versions (version collision). In order to see which libraries are loaded by FreeCAD when it crashes you should open a terminal and run it in the debugger. In a second terminal window, find out the process id of FreeCAD:
