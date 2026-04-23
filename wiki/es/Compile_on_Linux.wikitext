@@ -248,7 +248,7 @@ Debido a diversos problemas con Qt, en Ubuntu 20.04 no se encontrarán las herra
 E: Unable to locate package python3-pyside2uic
 }}
 
-En este caso, podemos instalar los paquetes desde PyQt y crear enlaces simbólicos a las herramientas necesarias.
+En este caso, podemos instalar los paquetes de PyQt y crear enlaces simbólicos a las herramientas necesarias.
 {{Code|lang=bash|code=
 sudo apt-get install pyqt5-dev
 sudo apt-get install pyqt5-dev-tools
