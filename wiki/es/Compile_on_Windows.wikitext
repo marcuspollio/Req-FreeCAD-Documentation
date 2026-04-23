@@ -174,10 +174,10 @@ A continuación se describe alguna de estas variables:
 
 '''Nota:''' Algunos componentes son necesarios para otros. Si, por ejemplo, desmarca "BUILD_ROBOT", CMake le informará de que el componente "Path" no se puede compilar correctamente. Por lo tanto, ¡revise la salida de CMake después de modificar una opción de BUILD_XXX!
 
-|| depende
+|| DEPENDE
 |-
 | BUILD_ENABLE_CXX_STD || La versión del estándar del lenguaje C++. "C++14" es la versión más alta posible para FreeCAD 0.19, mientras que se requiere al menos "C++17" para FreeCAD 0.20. Consulte también la nota en la sección [[#Release_Build|Compilación con Visual Studio 15 (2017) y 16 (2019)]]
-|| depende
+|| DEPENDE
 |-
 | BUILD_DESIGNER_PLUGIN|| Para compilar el complemento Qt Designer, consulte [[Compile_on_Windows#Qt_Designer_plugin|esta sección a continuación]] || DESACTIVADO
 |-
