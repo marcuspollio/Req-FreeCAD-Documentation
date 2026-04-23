@@ -28,14 +28,11 @@
 
 Narzędzie '''Zaawansowane typy zagęszczenia''' umożliwia definiowanie rozmiaru siatki na różne zaawansowane sposoby.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FM_mesh_advanced_task_panel.PNG|400px]]
-{{Caption|Task panel of the MeshAdvanced tool}}
-</div>
+{{Caption|Panel zadań narzędzia Zaawansowane typy zagęszczenia}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Użycie==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # To enable the command a [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
