@@ -9,24 +9,22 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommandContainer|
-{{GuiCommand
+{{GuiCommand/pl
 |Name=FEM MeshTransfiniteCurve
-|MenuLocation=Mesh → GMSH Refinements → Structured Transfinite Curve
-|Workbenches=[[FEM_Workbench|FEM]]
+|Name/pl=MES: Strukturalna krzywa transfinite
+|MenuLocation=Siatka → Zagęszczenia GMSH → Strukturalna krzywa transfinite
+|Workbenches=[[FEM_Workbench/pl|MES]]
 |Version=1.2
-|SeeAlso=[[FEM_tutorial|FEM tutorial]]
+|SeeAlso=[[FEM_tutorial/pl|Poradnik MES]]
 }}
 {{GuiCommandFemInfo
-|Solvers=All
+|Solvers=Wszystkie
 }}
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Description==
-</div>
+<span id="Description"></span>
+==Opis==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The '''FEM MeshTransfiniteCurve''' command creates a fixed amount of nodes on an edge with a structured algorithm.
