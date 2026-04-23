@@ -76,6 +76,9 @@ After the mesh has been created you can change its properties using the [[Proper
 <!--T:9-->
 You can create as many different refinement manipulations as needed.
 
+[[File:FEM_manipulate_refinement.PNG|700px]]
+{{Caption|Distance based refinement restricted to the top surface and its boundary (highlighted)}}
+
 
 <!--T:10-->
 {{Docnav
