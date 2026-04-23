@@ -355,9 +355,7 @@ En lugar de llamar a '''compile-FC''' con la opción ''install'', también puede
 <span id="Running_and_installing_FreeCAD"></span>
 == Ejecutando e instalando FreeCAD ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-There are 2 methods to run the compiled FreeCAD:
-</div>
+Existen dos métodos para ejecutar FreeCAD compilado:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''Method 1'': You execute the FreeCAD.exe that you find in your build folder in the subfolder ''bin''
