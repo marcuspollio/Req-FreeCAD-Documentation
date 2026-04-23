@@ -244,10 +244,9 @@ ptvsd.enable_attach(address=('localhost', 5678), redirect_output=True)
 ptvsd.wait_for_attach()
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Add a debug configuration in Visual Studio Code {{MenuCommand|Debug → Add Configurations…}}. 
-* The config should look like this:
-</div>
+* Agregue una configuración de depuración en Visual Studio Code {{MenuCommand|Debug → Add Configurations…}}.
+
+* La configuración debería verse de la siguiente manera:
 
 <!--NOT CHANGE THE <pre> </pre> BALISE CAUSE THE PIPE OR SPACE IN MACRO CODE CUT THE MACRO-->
 <pre>
