@@ -772,7 +772,7 @@ xargs sudo rm < install_manifest.txt
 <span id="For_64_bit_systems"></span>
 === Para sistemas de 64 bits ===
 
-Cuando se compone FreeCAD para 64 bits hay un problema conocido con el paquete OpenCASCADE (OCCT) de 64 bits. Para que FreeCAD funcione correctamente puede ser necesario ejecutar el script {{incode|configure}} y establecer {{incode|CXXFLAGS}} adicionales:
+Al compilar FreeCAD para 64 bits, existe un problema conocido con el paquete OpenCASCADE (OCCT) de 64 bits. Para que FreeCAD funcione correctamente, es posible que deba ejecutar el script {{incode|configure}} y establecer {{incode|CXXFLAGS}} adicionales:
 
 {{Code|lang=bash|code=
 ./configure CXXFLAGS="-D_OCC64"
