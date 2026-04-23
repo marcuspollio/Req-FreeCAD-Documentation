@@ -101,9 +101,7 @@ Como IDE alternativo gratuito y de código abierto, puede usar [https://www.kdev
 <span id="Optional_system_path_configuration"></span>
 === Configuración opcional de la ruta del sistema ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Optionally you can include the paths to some folders to the system PATH variable. This is helpful if you want to access programs in these folders from the command line/powershell or if you want special programs to be found by the compiler or CMake. Besides this, adding folders to the PATH might be necessary if you did not use the corresponding options when installing the program.
-</div>
+Como alternativa, puede incluir las rutas de algunas carpetas en la variable de entorno PATH del sistema. Esto resulta útil si desea acceder a programas en estas carpetas desde la línea de comandos o PowerShell, o si desea que el compilador o CMake encuentren programas específicos. Además, agregar carpetas a PATH podría ser necesario si no utilizó las opciones correspondientes durante la instalación del programa.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * You can include the folder of your LibPack in your system PATH variable. This is useful if you plan to build multiple configurations/versions of FreeCAD.
