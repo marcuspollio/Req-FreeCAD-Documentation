@@ -85,16 +85,14 @@ You can create as many different advanced refinements as needed.
 </div>
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
-|[[FEM_MeshManipulate|Manipulate Refinement]]
-|[[FEM_MeshTransfiniteCurve|Structured Transfinite Curve]]
-|[[FEM_Workbench|FEM]]
+|[[FEM_MeshManipulate/pl|Manipulacja zagęszczeniem]]
+|[[FEM_MeshTransfiniteCurve/pl|Strukturalna krzywa transfinite]]
+|[[FEM_Workbench/pl|środowisko pracy MES]]
 |IconL=FEM_MeshManipulate.svg
 |IconR=FEM_MeshTransfiniteCurve.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
