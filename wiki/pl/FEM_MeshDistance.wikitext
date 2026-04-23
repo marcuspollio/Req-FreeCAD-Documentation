@@ -1,15 +1,13 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
-|[[FEM_MeshGroup|Mesh Group]]
-|[[FEM_MeshBoundaryLayer|2D Boundary Layer]]
-|[[FEM_Workbench|FEM]]
+|[[FEM_MeshGroup/pl|Grupa siatki MES]]
+|[[FEM_MeshBoundaryLayer/pl|Warstwa przyścienna 2D]]
+|[[FEM_Workbench/pl|środowisko pracy MES]]
 |IconL=FEM_MeshGroup.svg
 |IconR=FEM_MeshBoundaryLayer.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommandContainer|
