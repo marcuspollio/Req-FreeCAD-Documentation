@@ -42,7 +42,7 @@ Todas las dependencias de FreeCAD ya están instaladas, son compatibles entre s�
 == Instalación ==
 
 <span id="Download_the_source"></span>
-===Descargar la fuente===
+=== Descargar la fuente ===
 
 <div class="mw-translate-fuzzy">
 La mejor manera de obtener el código fuente de FreeCAD es clonar el [https://github.com/FreeCAD/FreeCAD repositorio Git]. Para ello se necesita el programa {{incode|git}} que puede instalarse fácilmente en la mayoría de las distribuciones de Linux y Mac OS, y también puede obtenerse en el [http://git-scm.com/ sitio web oficial].
