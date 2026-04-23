@@ -23,10 +23,7 @@ En la mayoría de los sistemas, ccache se detectará y habilitará automáticame
 <span id="Disable_modules"></span>
 == Deshabilitar módulos ==
 
-<div class="mw-translate-fuzzy">
-== Desactivar módulos ==
-Cuando se utiliza {{incode|cmake}} para configurar la compilación, se puede deshabilitar la compilación de ciertos bancos de trabajo que no se necesitan en este momento. Esto es útil si sólo necesita probar algunos ambientes de trabajo.
-</div>
+Al usar {{incode|cmake}} para configurar la compilación, puede deshabilitar la compilación de ciertos entornos de desarrollo que no necesite en este momento. Esto es útil si solo necesita probar unos pocos entornos de desarrollo.
 
 Por ejemplo, para evitar la construcción de los ambientes de trabajo FEM y Malla:
 
