@@ -151,9 +151,7 @@ Utilice el ID devuelto y páselo a {{incode|lsof}}:
 
 Esto imprime una larga lista de recursos cargados. Por ejemplo, si intenta determinar si se ha cargado más de una versión de la biblioteca Coin3d, desplácese por la lista o busque directamente "Coin" en la salida:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{incode|lsof -p process_id &#124; grep Coin}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Python Debugging ==
