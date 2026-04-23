@@ -497,7 +497,7 @@ git reset --hard HEAD
 
 La primera línea borra el archivo {{incode|.gitignore}}. Esto asegura que los siguientes comandos de limpieza y reinicio afectarán a todo el directorio y no ignorarán los elementos que coincidan con las expresiones en {{incode|.gitignore}}. La segunda línea borra todos los archivos y directorios que no son rastreados por el repositorio git; luego el último comando restablecerá cualquier cambio en los archivos rastreados, incluyendo el primer comando que borró el archivo {{incode|.gitignore}}.
 
-Si no borra el directorio de fuentes, las siguientes ejecuciones de {{incode|cmake}} pueden no capturar las nuevas opciones del sistema si el código cambia.
+Si no borra el directorio de origen, las ejecuciones posteriores de {{incode|cmake}} podrían no capturar las nuevas opciones del sistema si el código cambia.
 
 <span id="Configuration"></span>
 === Configuración ===
