@@ -34,7 +34,7 @@ Homebrew es un gestor de paquetes basado en línea de comandos para macOS. La p�
 
 === CMake ===
 
-CMake is a build tool that generates a build configuration based on variables you specify. You then issue the 'make' command to actually build that configuration.  The command-line version of CMake is automatically installed as part of the Homebrew installation, above.  If you prefer to use a GUI version of CMake, you can download it from [https://www.cmake.org/downloadDownload here].
+CMake es una herramienta de compilación que genera una configuración de compilación basada en las variables que especifiques. Luego, ejecute el comando 'make' para compilar dicha configuración. La versión de línea de comandos de CMake se instala automáticamente como parte de la instalación de Homebrew, mencionada anteriormente. Si prefiere usar una versión gráfica de CMake, puede descargarla desde [https://www.cmake.org/download].
 
 == Install Dependencies ==
 
