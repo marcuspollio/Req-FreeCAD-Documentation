@@ -365,9 +365,8 @@ El método 2 es el más sencillo porque garantiza automáticamente que todas las
 
 Para el Método 1, debe habilitar las opciones '''FREECAD_COPY_*''' mencionadas en el paso [[#CMake|CMake Ajustes de configuración]] anterior.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Troubleshooting===
-</div>
+<span id="Troubleshooting"></span>
+=== Solución de problemas ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 When running FreeCAD you may encounter missing DLLs when using certain workbenches or features of workbenches. The error message in FreeCAD's console will not tell you what DLL is missing. To find this out you must use an external tool:
