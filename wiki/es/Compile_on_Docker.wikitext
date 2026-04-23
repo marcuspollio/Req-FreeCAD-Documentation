@@ -72,9 +72,8 @@ Descarga la imagen de Docker. (La imagen oficial estará disponible próximament
 docker pull registry.gitlab.com/daviddaish/freecad_docker_env:latest
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Allow access to your window manager===
-</div>
+<span id="Allow_access_to_your_window_manager"></span>
+=== Permitir el acceso a su gestor de ventanas ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In order for FreeCAD to launch it's GUI from within the Docker container, you need to give Docker access permissions to your window manager. In most Linux distributions, this is the X window system. You can use the below command to allow blanket access to X, until you reboot or logoff your computer.
