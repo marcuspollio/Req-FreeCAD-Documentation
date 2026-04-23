@@ -57,9 +57,7 @@ Para obtener más información sobre el uso de Git y cómo contribuir con códig
 <span id="Create_build_directory"></span>
 === Crear directorio de compilación ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Create a directory to hold your compiled FreeCAD source.
-</div>
+Crea un directorio para almacenar el código fuente compilado de FreeCAD.
 
 {{Code|lang=bash|code=
 mkdir ~/my_code/freecad_build
