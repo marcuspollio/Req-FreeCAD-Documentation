@@ -103,11 +103,10 @@ Como IDE alternativo gratuito y de código abierto, puede usar [https://www.kdev
 
 Como alternativa, puede incluir las rutas de algunas carpetas en la variable de entorno PATH del sistema. Esto resulta útil si desea acceder a programas en estas carpetas desde la línea de comandos o PowerShell, o si desea que el compilador o CMake encuentren programas específicos. Además, agregar carpetas a PATH podría ser necesario si no utilizó las opciones correspondientes durante la instalación del programa.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* You can include the folder of your LibPack in your system PATH variable. This is useful if you plan to build multiple configurations/versions of FreeCAD.
-* If you did not use the option to add CMake to the PATH while installing it, add its installation folder to the PATH:<br>''C:\Program Files\CMake\bin''
-* If you did not use the option to add TortoiseGit to the PATH while installing it, add its installation folder to the PATH:<br>''C:\Program Files\TortoiseGit\bin''
-</div>
+* Puede incluir la carpeta de su LibPack en la variable PATH del sistema. Esto es útil si planea compilar varias configuraciones/versiones de FreeCAD.
+
+* Si no usó la opción de agregar CMake a la variable PATH durante la instalación, agregue su carpeta de instalación a la variable PATH: <br>''C:\Archivos de programa\CMake\bin''
+* Si no usó la opción de agregar TortoiseGit a la variable PATH durante la instalación, agregue su carpeta de instalación a la variable PATH: <br>''C:\Archivos de programa\TortoiseGit\bin''
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To add folder paths to the PATH variable:
