@@ -400,9 +400,7 @@ Finalmente, haga clic en '''Aceptar'''.
 <span id="Using_the_command_line"></span>
 ==== Uso de la línea de comandos ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Open a terminal (command prompt) and switch there to your source directory. Then type:
-</div>
+Abra una terminal (símbolo del sistema) y cambie al directorio de origen. Luego escriba:
 
 {{Code|code=
 git pull https://github.com/FreeCAD/FreeCAD.git main
