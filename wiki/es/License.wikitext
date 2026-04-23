@@ -12,11 +12,7 @@
 
 FreeCAD utiliza dos licencias diferentes: una para la aplicación en sí y otra para la documentación.
 
-<div class="mw-translate-fuzzy">
-;[[wikipedia:LGPL|Lesser General Public Licence (LGPL2+)]]: Para las bibliotecas principales como se indica en los fichero .h y .cpp en src/App, src/Gui, sic/Base, y muchos de los [[Workbenches/es|módulos]] en src/Mod y para el ejecutable como se indica en los archivos .h y .cpp en el directorio src/main. Los iconos y otro material gráfico también son LGPL.
-;[[wikipedia:GPL|General Public Licence (GPL2+)]]:  Para los archivo de guión de Python que construyen los binarios como se indica en los archivos .py en src/Tools
-;[[wikipedia:Open Publication License|Open Publication Licence]]: Para la documentacion en http://free-cad.sourceforge.net/ salvo que se indique lo contrario por su autor
-</div>
+'''[[wikipedia:LGPL|Licencia Pública General Reducida, versión 2 o superior (LGPL2+)]]''' Para todo el código fuente de FreeCAD que se encuentra en el [https://github.com/FreeCAD/FreeCAD repositorio Git oficial]. El + significa que también puede, si lo desea, usar FreeCAD bajo los términos de una versión posterior de la licencia, como LGPL3.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''[http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution 3.0 License (CC-BY-3.0)]''' For the [https://wiki.freecad.org documentation] and the  [https://www.freecad.org website].
