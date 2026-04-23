@@ -99,7 +99,7 @@ Para aquellos que quieran evitar instalar el enorme MSVC con el único propósit
 Como IDE alternativo gratuito y de código abierto, puede usar [https://www.kdevelop.org/download KDevelop]. Con KDevelop puede modificar y escribir código C++, pero debe usar la línea de comandos para compilarlo.
 
 <span id="Optional_system_path_configuration"></span>
-===Configuración opcional de la ruta del sistema===
+=== Configuración opcional de la ruta del sistema ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Optionally you can include the paths to some folders to the system PATH variable. This is helpful if you want to access programs in these folders from the command line/powershell or if you want special programs to be found by the compiler or CMake. Besides this, adding folders to the PATH might be necessary if you did not use the corresponding options when installing the program.
