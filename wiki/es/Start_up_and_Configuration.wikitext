@@ -19,9 +19,8 @@ Esta página muestra las diferentes formas de iniciar FreeCAD y las característ
 
 FreeCAD se puede iniciar normalmente haciendo doble clic en su icono del escritorio o seleccionándolo desde el menú Inicio, pero también se puede iniciar directamente desde la línea de comandos. Esto permite modificar algunas de las opciones de inicio predeterminadas.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Using command line options without a command line shell ===
-</div>
+<span id="Using_command_line_options_without_a_command_line_shell"></span>
+=== Uso de las opciones de línea de comandos sin un intérprete de línea de comandos ===
 
 <div class="mw-translate-fuzzy">
 === Usar las opciones de la línea de comandos sin un shell de línea de comandos ===
