@@ -637,7 +637,7 @@ El programa {{incode|cmake}} debería ejecutarse automáticamente de nuevo, y de
 
 8. Vaya a {{MenuCommand|Projects → Build & Run → Imported Kit → Run → Run Settings → Run Configuration}} y elija {{incode|FreeCADMain}} para compilar la versión gráfica de FreeCAD, o {{incode|FreeCADMainCMD}} para compilar sólo la versión de línea de comandos.
 
-9. Finalmente, vaya al menú {{MenuCommand|Build → Build Project "FreeCAD"}}. Si se trata de una nueva compilación, debería tardar varios minutos, incluso horas, dependiendo del número de procesadores que tengas disponibles.
+9. Finalmente, vaya al menú {{MenuCommand|''Build → Build Project "FreeCAD"''}}. Si se trata de una nueva compilación, debería tardar varios minutos, incluso horas, dependiendo del número de procesadores que tenga disponibles.
 
 <span id="Qt_designer_plugin"></span>
 ==== Qt designer complemento ====
