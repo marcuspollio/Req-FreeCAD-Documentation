@@ -33,9 +33,7 @@ Las opciones de la línea de comandos están sujetas a cambios frecuentes. Por l
 
  FreeCAD --help
 
-<div class="mw-translate-fuzzy">
-En la respuesta puedes leer los posibles parámetros:
-</div>
+En la respuesta se pueden leer los parámetros posibles. Para la versión 1.0 de FreeCAD son:
 
   Usage: FreeCAD [options] File1 File2 ...
   
