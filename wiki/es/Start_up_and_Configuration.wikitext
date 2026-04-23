@@ -426,9 +426,7 @@ A continuación, se asume que su escritorio está configurado para que pueda ini
 
 '''Windows'''
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Put the FreeCAD executable, {{FileName|FreeCAD.exe}}, on the USB medium. Create a batch file, {{FileName|FreeCAD.bat}}, and put it into the same directory as {{FileName|FreeCAD.exe}}. Inside the batch file write:
-</div> 
+Coloque el ejecutable de FreeCAD, {{FileName|FreeCAD.exe}}, en el medio USB. Cree un archivo por lotes, {{FileName|FreeCAD.bat}}, y colóquelo en el mismo directorio que {{FileName|FreeCAD.exe}}. Dentro del archivo por lotes escriba: 
 
 {{Code|code=
 set CURRENTDIR=%cd%
