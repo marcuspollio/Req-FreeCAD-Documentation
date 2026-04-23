@@ -58,9 +58,7 @@ Der Befehl '''FEM NetzTransfinitesVolumen''' erzeugt ein strukturiertes Netz in 
 
 Nachdem das Netz erstellt wurde, können seine Eigenschaften mit der [[Property_View/de|Eigenschaften-Ansicht]] geändert werden. Nachdem eine Eigenschaft geändert wurde, muss der Gmsh-Dialog erneut geöffnet werden und auf die Schaltfläche {{Button|Anwenden}} gedrückt werden. (Der Dialog kann während der Änderung der Eigenschaften geöffnet bleiben.)
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You can create as many different transfinite volumes as needed.
-</div>
+Es können so viele verschiedene transfinite Volumen wie nötig erstellt werden.
 
 <span id="Notes"></span>
 ==Hinweise==
