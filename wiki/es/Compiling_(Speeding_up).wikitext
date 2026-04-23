@@ -33,9 +33,8 @@ cmake -DBUILD_FEM=OFF -DBUILD_MESH=OFF ../freecad-source
 
 Utilice {{incode|cmake-gui}}, {{incode|cmake-curses-gui}} o {{incode|cmake-qt-gui}} para visualizar todas las variables posibles que se pueden editar en la configuración; mediante estas interfaces, puede activar o desactivar fácilmente diferentes entornos de trabajo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Number of jobs in parallel ==
-</div>
+<span id="Number_of_jobs_in_parallel"></span>
+== Número de trabajos en paralelo ==
 
 <div class="mw-translate-fuzzy">
 == Número de trabajos en paralelo ==
