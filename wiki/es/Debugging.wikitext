@@ -200,15 +200,13 @@ points=[FreeCAD.Vector(-3.0,-1.0,0.0),FreeCAD.Vector(-2.0,0.0,0.0)]
 Draft.makeWire(points,closed=False,face=False,support=None)
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Start FreeCAD and load the above file into FreeCAD
-# Press F6 to execute it
-# Now FreeCAD will become unresponsive because the Python debugger is waiting
-# Switch to the Windpdb GUI and click on "Attach". After a few seconds an item "<Input>" appears where you have to double-click
-# Now the currently executed script appears in Winpdb.
-# Set a break at the last line and press F5
-# Now press F7 to step into the Python code of Draft.makeWire
-</div>
+# Inicie FreeCAD y cargue el archivo anterior.
+# Presione F6 para ejecutarlo.
+# Ahora FreeCAD dejará de responder porque el depurador de Python está esperando.
+# Cambie a la interfaz gráfica de Winpdb y haga clic en "Adjuntar". Después de unos segundos, aparecerá un elemento "<Entrada>" donde debe hacer doble clic.
+# Ahora el script que se está ejecutando aparece en Winpdb.
+# Establezca un punto de interrupción en la última línea y presione F5.
+# Ahora presione F7 para entrar en el código Python de Draft.makeWire.
 
 </div></div> <!-- END OF COLLAPSIBLE DIV -->
 
