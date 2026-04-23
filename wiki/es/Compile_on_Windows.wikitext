@@ -33,7 +33,7 @@ El contenido expuesto a continuación explica paso a paso cómo compilar FreeCAD
 Para compilar FreeCAD en Windows se necesitan varias herramientas y bibliotecas.
 
 <span id="Required"></span>
-===Requerido===
+=== Requerido ===
 
 <div class="mw-translate-fuzzy">
 * Un compilador. FreeCAD está probado con Visual Studio (MSVC)-otros compiladores pueden funcionar, pero las instrucciones de uso no se incluyen aquí. Más detalles en [[#Compiler]], más abajo.
