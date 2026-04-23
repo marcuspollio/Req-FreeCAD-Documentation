@@ -19,7 +19,7 @@ A continuación, encontrará explicaciones detalladas de todo el proceso, alguno
 
 [[File:FreeCAD_source_compilation_workflow.svg|800px]]
 
-{{Caption|Flujo de trabajo general para compilar FreeCAD desde la fuente. Las dependencias de terceros deben estar en el sistema, así como el propio código fuente de FreeCAD. CMake configura el sistema de manera que con una sola instrucción de creación se compila todo el proyecto.}}
+{{Caption|Flujo de trabajo general para compilar FreeCAD desde el código fuente. Las dependencias de terceros deben estar en el sistema, así como el propio código fuente de FreeCAD. CMake configura el sistema de manera que con una sola instrucción make se compile todo el proyecto.}}
 
 <span id="Getting_the_source"></span>
 == Obtener la fuente ==
