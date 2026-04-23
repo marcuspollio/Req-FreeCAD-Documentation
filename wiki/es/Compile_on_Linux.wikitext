@@ -727,9 +727,7 @@ make
 sudo checkinstall                                  # e.g. name=freecad-test1
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The result is a *.deb file in the build folder. {{incode|checkinstall}} will install the build by default. This is how you can install or uninstall it:
-</div>
+El resultado es un archivo *.deb en la carpeta de compilación. {{incode|checkinstall}} instalará la compilación por defecto. Así es como puedes instalarla o desinstalarla:
 
 {{Code|lang=bash|code=
 cd freecad-source/build
