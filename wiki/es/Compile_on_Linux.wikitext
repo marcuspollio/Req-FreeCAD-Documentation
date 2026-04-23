@@ -761,9 +761,7 @@ make -j$(nproc --ignore=2)
 <span id="Uninstalling_the_source_code"></span>
 == Desinstalación del código fuente ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In case the compiled source code was installed with {{incode|sudo make install}} (for Debian) the files were copied to the {{FileName|/usr/local}} folder into several subfolders. For uninstallation the file {{FileName|install_manifest.txt}} can be used. It has been created into the build folder during compilation and contains all installed files. As long as this file exists, the installation can be uninstalled.
-</div>
+En caso de que el código fuente compilado se haya instalado con {{incode|sudo make install}} (para Debian), los archivos se copiaron a la carpeta {{FileName|/usr/local}} en varias subcarpetas. Para desinstalar, se puede usar el archivo {{FileName|install_manifest.txt}}. Este archivo se creó en la carpeta de compilación durante la misma y contiene todos los archivos instalados. Mientras este archivo exista, la instalación se puede desinstalar.
 
 {{Code|lang=bash|code=
 cd freecad-source/build
