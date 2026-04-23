@@ -382,14 +382,17 @@ Utilice la opción {{incode|--dump-config}} para obtener una lista de nombres y 
 
 '''Desde la consola de FreeCAD'''
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Start FreeCAD in console mode with {{incode|--console}} and query with Python code. For example:
-  $ FreeCAD --console
-  [FreeCAD Console mode <Use Ctrl-D (i.e. EOF) to exit.>]
-  >>> FreeCAD.ConfigGet("ExeVersion")
-  '0.19'
-  >>> exit()
-</div>
+Inicie FreeCAD en modo consola con {{incode|--console}} y realice consultas con código Python. Por ejemplo:
+
+$ FreeCAD --console
+
+[Modo consola de FreeCAD <Use Ctrl+D (es decir, EOF) para salir.>]
+
+>>> FreeCAD.ConfigGet("ExeVersion")
+
+'0.19'
+
+>>> exit()
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 For Linux (bash shell) you can modify the following command line to suit your needs:
