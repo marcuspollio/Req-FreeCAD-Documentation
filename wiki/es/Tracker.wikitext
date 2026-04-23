@@ -47,7 +47,7 @@ Si cree que ha encontrado un error, puede informar de este siempre y cuando haya
 
 * Por favor, envíe un informe independiente para cada error.
 
-* Si su error provoca un fallo en FreeCAD y su sistema lo admite, puede intentar ejecutar un '''seguimiento de depuración''' y adjuntarlo al informe. Esto puede ahorrarles mucho tiempo a los desarrolladores al identificar la causa del fallo. Consulte [[Depuración|Depuración]] para obtener más detalles.
+* Si su error provoca un fallo en FreeCAD y su sistema lo admite, puede intentar ejecutar un '''seguimiento de depuración''' y adjuntarlo al informe. Esto puede ahorrarles mucho tiempo a los desarrolladores al identificar la causa del fallo. Consulte [[Debugging|Depuración]] para obtener más detalles.
 
 <span id="Requesting_features"></span>
 == Solicitar funcionalidades ==
