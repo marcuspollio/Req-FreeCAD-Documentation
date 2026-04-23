@@ -198,7 +198,7 @@ Para Debian Jessie, Stretch, Ubuntu 16.04 y versiones posteriores, instale los p
 **{{incode|liboce-visualization-dev}}
 *{{incode|oce-draw}}
 
-Puede instalar las bibliotecas individualmente, o utilizando la expansión de asterisco. Cambie {{incode|occ}} por {{incode|oce}} si desea instalar las bibliotecas comunitarias.
+Puede instalar las bibliotecas individualmente o mediante la expansión con asterisco. Cambir {{incode|occ}} por {{incode|oce}} si quiere instalar las bibliotecas de la comunidad.
 
 {{Code|code=
 sudo apt install libocct*-dev
