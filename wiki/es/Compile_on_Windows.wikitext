@@ -390,11 +390,10 @@ FreeCAD se desarrolla de forma muy activa. Por lo tanto, su código fuente cambi
 <span id="Using_a_frontend"></span>
 ==== Usando una interfaz de usuario ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-When using the [https://en.wikipedia.org/wiki/Comparison_of_Git_GUIs Git frontend] TortoiseGit:
-# Right-click on your FreeCAD source code folder in the Windows file explorer and select '''Pull''' in the context menu.
-# A dialog will appear. Select there what development branch you want to get. '''main''' is the main branch. Therefore use this unless you want to compile a special new feature from a branch that has not yet been merged to ''main''. (For more about Git branches, see [[Source_code_management#Git_development_process|Git development process]].)
-</div>
+Al usar la interfaz gráfica de usuario de Git, TortoiseGit:
+# Haga clic con el botón derecho en la carpeta del código fuente de FreeCAD en el Explorador de archivos de Windows y seleccione '''Extraer''' en el menú contextual.
+
+# Aparecerá un cuadro de diálogo. Seleccione la rama de desarrollo que desea obtener. '''main''' es la rama principal. Por lo tanto, úsela a menos que desee compilar una nueva función especial desde una rama que aún no se haya fusionado con '''main'''. (Para obtener más información sobre las ramas de Git, consulte el proceso de desarrollo de Git).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Finally click '''OK'''.
