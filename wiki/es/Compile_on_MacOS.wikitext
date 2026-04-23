@@ -18,7 +18,7 @@ La forma más sencilla y actualizada de crear un entorno de desarrollo es median
 
 Estas instrucciones se han probado en macOS Catalina con Xcode 11.6 estándar. Se sabe que funcionan en macOS Big Sur Beta con Xcode 12.0 beta. Si planea usar Xcode Beta, asegúrese de descargar el complemento Command Line Tools mediante un paquete .dmg para solucionar algunos problemas de dependencia de libz.
 
-This page serves as a quick start, and is not intended to be comprehensive with regard to describing all the available build options. 
+Esta página sirve como punto de partida rápido y no pretende ser exhaustiva en lo que respecta a la descripción de todas las opciones de configuración disponibles. 
 
 If you just want to evaluate the latest pre-release build of FreeCAD, you can download pre-built binaries [https://github.com/FreeCAD/FreeCAD/releases from here].
 
