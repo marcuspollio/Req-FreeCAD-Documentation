@@ -65,9 +65,9 @@ Distcc (https://www.distcc.org/) siempre debería generar los mismos resultados 
 El desarrollador de FreeCAD, 'etrombly', ha publicado una breve explicación en [https://forum.freecad.org/viewtopic.php?f=4&t=50810&p=459142#p458614 sobre cómo instalar distcc para compilar FreeCAD en una red de ordenadores usando Docker].
 
 
-{{Docnav/es
-|[[FreeCAD_Docker_CLI_mode/es|Modo CLI de FreeCAD]]
-|[[Third_Party_Libraries/es|Bibliotecas de terceros]]
+{{Docnav
+|[[FreeCAD_Docker_CLI_mode|Modo CLI de FreeCAD Docker]]
+|[[Third_Party_Libraries|Bibliotecas de terceros]]
 }}
 
 {{Userdocnavi{{#translation:}}}}
