@@ -835,9 +835,7 @@ Una vez que instale el paquete {{incode|freecad}} desde el repositorio {{incode|
 
 <div class="mw-collapsible-content">
 
-<div class="mw-translate-fuzzy">
-No se necesitan repositorios externos para compilar FreeCAD. Sin embargo, hay una incompatibilidad con python3-devel que debe ser eliminada.  FreeCAD puede ser compilado desde GIT
-</div>
+No se necesitan repositorios externos para compilar FreeCAD. Sin embargo, existe una incompatibilidad con python3-devel que debe eliminarse. FreeCAD se puede compilar desde GIT.
 
 {{Code|lang=bash|code=
 # install needed packages for development
