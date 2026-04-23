@@ -394,9 +394,8 @@ squashfs-root> ./usr/bin/freecad
 
 Consulte el [[Pyzo|artículo principal sobre Pyzo]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Debugging OpenCasCade ==
-</div>
+<span id="Debugging_OpenCasCade"></span>
+== Depuración de OpenCasCade ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 For developers needing to dig deeper in to the OpenCasCade kernel, user @abdullah has created a [https://forum.freecad.org/viewtopic.php?f=10&t=47017 thread] orientation discussing how to do so.
