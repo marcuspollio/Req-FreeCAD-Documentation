@@ -62,10 +62,8 @@ Nachdem das Netz erstellt wurde, können seine Eigenschaften mit der [[Property_
 
 Es können so viele verschiedene transfinite Kurven wie nötig erstellt werden.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_transfinite_curve.png|400px]]
-{{Caption|Surface mesh with the highlighted edges using the transfinite algorithm with progression (bias) towards the edge of the cutout}}
-</div>
+{{Caption|Ein Oberflächennetz mit den hervorgehobenen Kanten unter Verwendung des transfiniten Algorithmus mit einer Tendenz (Voreinstellung) in Richtung der Kante des Ausschnitts erstellen}}
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
