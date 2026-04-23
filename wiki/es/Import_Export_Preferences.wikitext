@@ -566,29 +566,32 @@ Esta página solo se muestra si [[Image:Workbench_Part.svg|24px]] [[Part_Workben
 
 En esta página puede especificar lo siguiente:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable float-right mw-collapsible mw-uncollapsed"
-!style="width: 33%;"|Name
-!style="width: 66%;"|Description
+!style="width: 33%;"|Nombre
+!style="width: 66%;"|Descripción
 |-
-| {{MenuCommand|Write out curves in parametric space of surface}}
-| If checked, parametric curves (curves in parametric space of surfaces) will be written into the STEP file. Unchecking the option can be helpful to minimize the size of the resulting STEP file.
+| {{MenuCommand|Escribir curvas en el espacio paramétrico de la superficie}}
+| Si está marcada, las curvas paramétricas (curvas en el espacio paramétrico de las superficies) se escribirán en el archivo STEP. Desmarcar esta opción puede ayudar a minimizar el tamaño del archivo STEP resultante.
+
 |-
-| {{MenuCommand|Export invisible objects}}
-| Uncheck this to skip invisible object when exporting, which is useful for CAD applications that do not support invisibility STEP styling.
+| {{MenuCommand|Exportar objetos invisibles}}
+| Desmarque esta opción para omitir los objetos invisibles al exportar, lo cual es útil para aplicaciones CAD que no admiten el estilo STEP de invisibilidad.
+
 |-
-| {{MenuCommand|Export single object placement}}
-| Check this option to keep the placement information when exporting a single object. Please note that when re-importing the STEP file, the placement will be encoded into the shape geometry, instead of keeping it inside the Placement property.
+| {{MenuCommand|Exportar la ubicación de un solo objeto}}
+| Marque esta opción para conservar la información de ubicación al exportar un solo objeto. Tenga en cuenta que al reimportar el archivo STEP, la ubicación se codificará en la geometría de la forma, en lugar de conservarse en la propiedad "Ubicación".
+
 |-
-| {{MenuCommand|Use legacy export function}}
-| Use the legacy export function.
+| {{MenuCommand|Usar función de exportación heredada}}
+| Usar la función de exportación heredada.
+
 |-
-| {{MenuCommand|Units for export of STEP}}
-| Select which units will be used when exporting STEP files.
+| {{MenuCommand|Unidades para la exportación de STEP}}
+| Seleccione las unidades que se utilizarán al exportar archivos STEP.
+
 |-
-| {{MenuCommand|Scheme}}
-| Select the STEP application protocol (AP) to be used for the export.
-</div>
+| {{MenuCommand|Esquema}}
+| Seleccione el protocolo de aplicación (AP, Application Protocol) STEP que se utilizará para la exportación.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''AP 203''' is the protocol for configuration controlled 3D designs of mechanical parts and assemblies.
