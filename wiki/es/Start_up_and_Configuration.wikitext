@@ -372,9 +372,7 @@ Las entradas del conjunto de configuración se pueden consultar con el parámetr
 '0.19'
 Si no se encuentra el nombre, se devuelve una cadena vacía.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''From command line'''
-</div>
+'''Desde la línea de comandos'''
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Use the {{incode|--get-config <config-var-name>}} option to query a single name. Not all names are supported. For example:
