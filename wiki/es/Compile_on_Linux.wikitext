@@ -469,9 +469,8 @@ Si ya ha realizado una compilación anteriormente y se queda atascado en una dep
 
 Si cmake indica que falta un archivo específico, utilice una herramienta como "apt-file search" o su equivalente en otros sistemas de paquetes para identificar a qué paquete pertenece dicho archivo e instalarlo. Tenga en cuenta que probablemente necesite la versión -dev del paquete, que contiene los archivos de cabecera o de configuración necesarios para que FreeCAD pueda utilizarlo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Compiling against GNU libc 2.34 and later ===
-</div>
+<span id="Compiling_against_GNU_libc_2.34_and_later"></span>
+=== Compilación con GNU libc 2.34 y versiones posteriores ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 GNU libc 2.34 introduces a change to the library that can cause builds on some Linux systems to fail with an error like:
