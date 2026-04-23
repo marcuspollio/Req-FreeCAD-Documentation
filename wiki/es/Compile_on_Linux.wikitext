@@ -45,7 +45,7 @@ Para compilar FreeCAD, debe instalar las dependencias necesarias que se menciona
 
 Una vez que haya instalado todas las dependencias, proceda a [[#Compile_FreeCAD|compilar FreeCAD]].
 
-Ten en cuenta que el código fuente de FreeCAD tiene un tamaño de unos 500 MB; puede ser tres veces mayor si clonas el repositorio Git con todo su historial de modificaciones. Obtener todas las dependencias puede requerir la descarga de 500 MB o más de nuevos archivos; cuando estos archivos se descomprimen pueden requerir 1500 MB o más de espacio. También ten en cuenta que el proceso de compilación puede generar hasta 1500 MB de archivos adicionales ya que el sistema copia y modifica todo el código fuente. Por lo tanto, asegúrese de tener suficiente espacio libre en su disco duro, al menos 4 GB, cuando intente la compilación.
+Tenga en cuenta que el código fuente de FreeCAD tiene un tamaño aproximado de 500 MB; puede triplicarse si clona el repositorio Git con todo su historial de modificaciones. Para obtener todas las dependencias, es posible que deba descargar 500 MB o más de archivos nuevos. Al descomprimirlos, estos archivos pueden ocupar 1500 MB o más de espacio. Además, tenga en cuenta que el proceso de compilación puede generar hasta 1500 MB de archivos adicionales, ya que el sistema copia y modifica todo el código fuente. Por lo tanto, asegúrese de tener suficiente espacio libre en su disco duro, al menos 4 GB, antes de intentar la compilación.
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
