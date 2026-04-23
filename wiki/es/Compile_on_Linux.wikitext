@@ -10,12 +10,10 @@
 <span id="Overview"></span>
 == Vista general ==
 
-<div class="mw-translate-fuzzy">
-En las distribuciones recientes de Linux, FreeCAD es generalmente fácil de construir, ya que todas las dependencias suelen ser proporcionadas por el administrador de paquetes. Básicamente implica 3 pasos:
-# Obtener el código fuente de FreeCAD
-# Obtener las dependencias o paquetes de los que depende FreeCAD
-# Configurar con {{incode|cmake}} y compilar con {{incode|make}}
-</div>
+La instalación de FreeCAD en distribuciones Linux recientes consta básicamente de tres pasos:
+# Obtener el código fuente de FreeCAD.
+# Obtener las dependencias de FreeCAD.
+# Compilar FreeCAD.
 
 A continuación, encontrará explicaciones detalladas de todo el proceso, algunos [[#Automatic build scripts|build scripts]], y las particularidades que puede encontrar. Si encuentras algo incorrecto o desactualizado en el texto de abajo (las distribuciones de Linux cambian a menudo), o si usas una distribución que no está en la lista, discute el tema en el [https://forum.freecad.org/index.php forum], y ayúdanos a corregirlo.
 
