@@ -434,9 +434,7 @@ Para Ubuntu, es posible que tenga que habilitar repositorios especiales para pod
 <span id="Compile_FreeCAD"></span>
 == Compila FreeCAD ==
 
-<div class="mw-translate-fuzzy">
-{{VeryImportantMessage|Compilación contra Python 2 y Qt4 ya no está bien soportada, y a partir de la versión 0.20 ya no está soportada en absoluto. Debería compilar contra Python 3 y Qt5. 0.20 requiere al menos Python3.6 y Qt 5.9.}}
-</div>
+{{VeryImportantMessage|Para compilar FreeCAD 0.20 se requiere al menos Python 3.6 y Qt 5.9.}}
 
 FreeCAD utiliza CMake como su principal sistema de compilación, ya que está disponible en los principales sistemas operativos. La compilación con CMake es normalmente muy simple y ocurre en dos pasos.
 
