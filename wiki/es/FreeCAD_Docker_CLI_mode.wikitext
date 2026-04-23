@@ -12,7 +12,7 @@
 <span id="Overview"></span>
 ==Vista general==
 
-Imagen Docker de FreeCAD compilada sin GUI. Esta imagen Docker es especialmente para los desarrolladores que sólo quieren utilizar FreeCAD en la interfaz de línea de comandos (CLI).
+Imagen Docker de FreeCAD compilada sin interfaz gráfica de usuario (GUI). Esta imagen Docker está especialmente diseñada para desarrolladores que solo desean usar FreeCAD mediante la interfaz de línea de comandos (CLI).
 
 <span id="Benefits"></span>
 ===Beneficios===
