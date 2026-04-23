@@ -37,7 +37,7 @@ Para compilar FreeCAD en Windows se necesitan varias herramientas y bibliotecas.
 
 * Un compilador. FreeCAD se ha probado con Visual Studio (MSVC); otros compiladores podrían funcionar, pero aquí no se incluyen instrucciones de uso. Para más detalles, consulte la sección [[#Compiler|Compilador]] a continuación.
 
-* [http://git-scm.com/ Git] (También hay frontales de GUI disponibles para Git, ver la siguiente sección).
+* [http://git-scm.com/ Git] (También hay interfaces gráficas de usuario disponibles para Git, consulte la siguiente sección).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [https://cmake.org/download/ CMake] version 3.11.x or newer. </br> ''Hint:'' Choosing the option ''Add CMake to the system PATH for all users'' when installing CMake will make CMake accessible from the Windows command prompt, which can be useful.
