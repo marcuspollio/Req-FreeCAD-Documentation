@@ -617,7 +617,7 @@ Algunos componentes de FreeCAD, como PySide, intentan detectar automáticamente 
 PYTHON_EXECUTABLE=/usr/bin/python3
 }}
 
-7. Si las variables no cargan el proyecto correctamente, puede que tenga que ir a {{MenuCommand|Projects → Manage Kits → Kits → Default (o Kit importado o similar) → CMake Configuration}}.
+7. Si las variables no cargan el proyecto correctamente, puede que tenga que ir a {{MenuCommand|''Projects → Manage Kits → Kits → Default (o Kit importado o similar) → CMake Configuration''}}.
 A continuación, pulse {{Button|Cambiar}}, y añada la configuración adecuada como se ha descrito anteriormente. Puede que tenga que añadir más variables sobre las rutas de Python, si no se encuentra el Python del sistema.
 
 {{Code|code=
