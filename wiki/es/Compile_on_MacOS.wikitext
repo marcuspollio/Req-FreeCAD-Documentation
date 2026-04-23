@@ -162,7 +162,7 @@ Abra la aplicación CMake y complete los campos de carpeta de origen y de compil
 
 A continuación, haga clic en el botón '''Configurar''' para que aparezca la lista de opciones de configuración. Se mostrará un cuadro de diálogo donde deberá especificar el generador que desea utilizar. Déjelo en la opción predeterminada '''Unix Makefiles'''. La configuración fallará la primera vez porque hay algunas opciones que deben modificarse. Nota: Deberá marcar la casilla '''Avanzado''' para acceder a todas las opciones.
 
-Set options from the table above, then click '''Configure''' again and then '''Generate'''.
+Seleccione las opciones de la tabla anterior, luego haga clic en '''Configurar''' nuevamente y luego en '''Generar'''.
 
 === CMake command line ===
 
