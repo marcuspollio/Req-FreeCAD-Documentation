@@ -158,9 +158,7 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 :* [[Image:FEM_MeshAdvanced.svg|32px]] [[FEM_MeshAdvanced/de|Erweiterte Verfeinerungstypen]]: Ermöglicht die Festlegung der Gittergröße durch verschiedene erweiterte Methoden. {{Version/de|1.2}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:FEM_MeshTransfiniteCurve.svg|32px]] [[FEM_MeshTransfiniteCurve|Structured Transfinite Curve]]: Creates a fixed amount of nodes on an edge with a structured algorithm. {{Version|1.2}}
-</div>
+:* [[Image:FEM_MeshTransfiniteCurve.svg|32px]] [[FEM_MeshTransfiniteCurve/de|Strukturierte transfinite Kurve]]: Erzeugt mithilfe eines strukturierten Algorithmus eine festgelegte Anzahl von Knoten auf einer Kante. {{Version/de|1.2}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:FEM_MeshTransfiniteSurface.svg|32px]] [[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]: Creates a structured mesh on a face. {{Version|1.2}}
