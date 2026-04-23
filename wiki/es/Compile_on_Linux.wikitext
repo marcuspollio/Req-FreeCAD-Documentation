@@ -15,7 +15,7 @@ La instalación de FreeCAD en distribuciones Linux recientes consta básicamente
 # Obtener las dependencias de FreeCAD.
 # Compilar FreeCAD.
 
-A continuación, encontrará explicaciones detalladas de todo el proceso, algunos [[#Automatic build scripts|build scripts]], y las particularidades que puede encontrar. Si encuentras algo incorrecto o desactualizado en el texto de abajo (las distribuciones de Linux cambian a menudo), o si usas una distribución que no está en la lista, discute el tema en el [https://forum.freecad.org/index.php forum], y ayúdanos a corregirlo.
+A continuación, encontrará explicaciones detalladas de todo el proceso, algunos scripts de compilación y particularidades que podría encontrar. Si detecta algún error o información desactualizada en el texto (las distribuciones de Linux cambian con frecuencia), o si utiliza una distribución que no aparece en la lista, comente el problema en el foro [https://forum.freecad.org/index.php] y ayúdenos a corregirlo.
 
 [[File:FreeCAD_source_compilation_workflow.svg|800px]]
 
