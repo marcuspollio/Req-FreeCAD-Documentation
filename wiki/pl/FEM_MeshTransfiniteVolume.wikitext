@@ -34,22 +34,20 @@ Narzędzie '''Strukturalna objętość transfinite''' tworzy strukturalną siatk
 <span id="Usage"></span>
 ==Użycie==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# To enable the command a [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
-# Select the Mesh object in the [[Tree_View|Tree View]].
-# There are several ways to invoke the command:
-#* Press the {{Button|[[Image:FEM_MeshTransfiniteVolume.svg|16px]] [[FEM_MeshTransfiniteVolume|Structured Transfinite Volume]]}} button.
-#* Select the {{MenuCommand|Mesh → GMSH Refinements → [[Image:FEM_MeshTransfiniteVolume.svg|16px]] Structured Transfinite Volume}} option from the menu.
-# Optionally, use the ''Mixed mesh elements'' checkbox.
-# Optionally, use the ''Auto apply transfinite surfaces and curves'' checkbox and select the Surface type (Left, Right, AlternateRight or AlternateLeft, specify the number of nodes, distribution type (Constant, Bump, Bump Inverted, Progression or Progression Inverted) and the corresponding coefficient.
-#* Optionally, use the ''Recombine'' checkbox. If activated, all edges and surfaces belonging to the selected volumes that do not have transfinite definitions already become transfinite automatically. Use strategically placed transfinite curve and surface definitions to guide the automatic algorithm.
-# Press the {{Button|Add}} button. Select a solid. To remove objects from the selection, press the {{Button|Remove}} button.
-# Click the {{Button|OK}} button.
-# Close the task.
-#: Result: You now should see a new {{incode|TransfiniteVolume}} object under the {{incode|FEMMeshGmsh}} object in your active analysis container.
-# Double-click on the {{incode|FEMMeshGmsh}} parent object in your Model Tree and press {{Button|Apply}} to force a mesh recalculation.
-# Close the task.
-</div>
+# Aby skorzystać z tego polecenia, potrzebna jest [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/pl|siatka wygenerowana przez Gmsh]].
+# Wybierz obiekt siatki w [[Tree_View/pl|Widoku drzewa]].
+# Istnieje kilka sposobów na wywołanie tego polecenia:
+#* Wciśnij przycisk {{Button|[[Image:FEM_MeshTransfiniteVolume.svg|16px]] [[FEM_MeshTransfiniteVolume/pl|Strukturalna objętość transfinite]]}}.
+#* Wybierz opcję {{MenuCommand|Siatka → Zagęszczenia GMSH → [[Image:FEM_MeshTransfiniteVolume.svg|16px]] Strukturalna objętość transfinite}} z menu.
+# Opcjonalnie, użyj pola ''Mieszane elementy siatki''.
+# Opcjonalnie, użyj pola ''Automatycznie zastosuj powierzchnie i krzywe transfinite'' i wybierz typ Powierzchni (Lewa, Prawa, AlternatywniePrawa lub AlternatywnieLewa, określ liczbę węzłów, typ rozkładu (Stały, Obustronne zagęszczenie, Odwrócone obustronne zagęszczenie, Progresja lub Odwrócona progresja) i odpowiedni współczynnik.
+#* Opcjonalnie, użyj pola ''Rekombinacja''. Jeśli jest ono aktywne, wszystkie krawędzie i powierzchnie należące do wybranych objętości, które nie mają jeszcze definicji transfinite staną się automatycznie transfinite. Użyj strategicznie umieszczonych definicji krzywych i powierzchni transfinite, aby pokierować algorytmem automatycznym.
+# Wciśnij przycisk {{Button|Dodaj}}. Wybierz bryłę. Aby usunąć obiekty z zaznaczenia, wciśnij przycisk {{Button|Usuń}}.
+# Wciśnij przycisk {{Button|OK}}.
+# Zamknij panel zadań.
+#: Wynik: Powinieneś teraz widzieć nowy obiekt {{incode|TransfiniteVolume}} pod obiektem {{incode|FEMMeshGmsh}} w aktywnym kontenerze analizy.
+# Dwukrotnie kliknij na obiekcie nadrzędnym {{incode|FEMMeshGmsh}} w drzewie modelu i kliknij {{Button|Zastosuj}}, aby wymusić przebudowanie siatki.
+# Zamknij panel zadań.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 After the mesh has been created you can change its properties using the [[Property_View|Property View]]. After you changed a property, you must reopen the Gmsh dialog again and click the {{Button|Apply}} button. (You can leave the dialog open while changing properties.)
