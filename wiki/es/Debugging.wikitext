@@ -322,9 +322,7 @@ Depuración de LiClipse →
 
 * La ubicación sqashfs-root es donde se conecta posteriormente el depurador.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Make sure you can start a FreeCAD session from within the squashfs-root location.
-</div>
+* Asegúrese de poder iniciar una sesión de FreeCAD desde la ubicación raíz de squashfs.
 
 {{Code|code=
 squashfs-root> ./usr/bin/freecadcmd
