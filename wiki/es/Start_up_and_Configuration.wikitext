@@ -73,19 +73,21 @@ En la respuesta se pueden leer los parámetros posibles. Para la versión 1.0 de
 
 En la siguiente tabla se describen con más detalle algunas de las opciones seleccionadas:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| border="2" cellpadding="4" cellspacing="0" style="margin-top:1em; margin-bottom:1em; background:#f9f9f9; border:1px #aaa solid; border-collapse:collapse;"
+
 |-
-! Long option !! Corresponding [[#Configuration_set|config var name]] !! Synopsis
+! Opción larga !! Correspondiente a [[#Configuration_set|config var name]] !! Synopsis
 |-
-| {{incode|--user-cfg <filename>}} || UserParameter || Filename or relative path that ends with a filename. Defaults to {{incode|user.cfg}}.
+| {{incode|--user-cfg <filename>}} || Parámetro de usuario || Nombre de archivo o ruta relativa que termina con un nombre de archivo. Por defecto, {{incode|user.cfg}}.
+
 |-
-| {{incode|--module-path <dir>}} || Prepends to AdditionalModulePaths || Directory that contains modules. This option can be given repeatedly to specify multiple directories.
+| {{incode|--module-path <dir>}} || Antepone a AdditionalModulePaths || Directorio que contiene los módulos. Esta opción se puede especificar repetidamente para indicar varios directorios.
+
 |-
-| {{incode|--get-config <config-var-name>}} || most || Outputs the requested value in a popup dialog. Exits upon confirmation with {{KEY|OK}}. Cannot be used repeatedly. If an unknown/illegal variable name is used, the response is empty. The {{incode|--console}} flag is not honored.
+| {{incode|--get-config <config-var-name>}} || most || Muestra el valor solicitado en un cuadro de diálogo emergente. Sale tras confirmar con {{KEY|OK}}. No se puede usar repetidamente. Si se usa un nombre de variable desconocido o no válido, la respuesta está vacía. No se respeta la opción {{incode|--console}}.
 |}
-Options can written in two forms: {{incode|--long-option arg}} and {{incode|--long-option<nowiki>=</nowiki>arg}}.
-</div>
+
+Las opciones se pueden escribir de dos formas: {{incode|--long-option arg}} e {{incode|--long-option<nowiki>=</nowiki>arg}}.
 
 <span id="Response_and_config_files"></span>
 === Respuesta y archivos de configuración ===
