@@ -27,7 +27,7 @@ Todas las dependencias de FreeCAD ya están instaladas, son compatibles entre s�
 * Proporciona un entorno de desarrollo estático e inmutable. Personalmente, me resulta útil durante el desarrollo para reducir la cantidad de variables potenciales que podrían causar un problema. Así, sabe que no ha modificado nada complejo del entorno entre compilaciones. Para los desarrolladores que colaboran y usan el mismo contenedor Docker, puede estar seguro de que ambos trabajan en el mismo entorno, lo que reduce los errores de comunicación causados ​​por diferencias en el entorno.
 
 <span id="Docker_Repository"></span>
-==Docker Repositorio==
+==Repositorio Docker==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Original: https://gitlab.com/daviddaish/freecad_docker_env
