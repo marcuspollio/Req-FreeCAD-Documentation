@@ -59,7 +59,7 @@ Narzędzie '''Zagęszczenie oparte na odległości''' może być użyte do ustaw
 
 Po utworzeniu siatki możesz zmienić jej właściwości przy pomocy [[Property_View/pl|Widoku właściwości]]. Po zmianie właściwości należy ponownie otworzyć okno dialogowe Gmsh i wcisnąć przycisk {{Button|Zastosuj}}. (Możesz zostawić okno dialogowe otwarte podczas zmieniania właściwości).
 
-Możesz tworzyć tyle różnych zagęszczeń opartych o odległość, ile potrzeba.
+Możesz tworzyć tyle różnych zagęszczeń opartych na odległości, ile potrzeba.
 
 [[File:FEM_distance_based_refinement.PNG|700px]]
 {{Caption|Przykład zagęszczenia opartego o odległość}}
