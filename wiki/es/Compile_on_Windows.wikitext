@@ -414,9 +414,8 @@ donde ''main'' es el nombre de la rama principal de desarrollo. Si desea obtener
 # Abra el IDE de MSVC haciendo doble clic en el archivo ''FreeCAD.sln'' o en el archivo ''ALL_BUILD.vcxproj'' en su carpeta de compilación.
 # Continúe con el paso 2 de la sección [[#Building_with_Visual_Studio_15_.282017.29_or_newer|Building with Visual Studio 15 2017]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Updating the LibPack==
-</div>
+<span id="Updating_the_LibPack"></span>
+== Actualizando el LibPack ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If a new major version of a third-party dependency like Open Cascade is released, or if a third-party dependency has important bug fixes, a new LibPack is released. You can find the latest version [https://github.com/FreeCAD/FreeCAD-LibPack/releases/ here].
