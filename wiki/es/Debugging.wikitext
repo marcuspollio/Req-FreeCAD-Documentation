@@ -234,10 +234,7 @@ xcopy "C:\Users\<userid>\AppData\Local\Programs\Python\Python37\Lib\site-package
 
 [https://code.visualstudio.com/docs/python/debugging#_remote-debugging Documentación de Visual Studio Code para la depuración remota]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Steps:
-* Add following code at the beginning of your script
-</div>
+Pasos: * Agregue el siguiente código al principio de tu script.
 
 {{Code|code=
 import ptvsd
