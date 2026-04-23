@@ -342,7 +342,7 @@ Además, compruebe si hay algún parche que deba aplicar (como [https://build.op
 
 ==== Leap ====
 
-Si hay una diferencia entre los paquetes disponibles en Tumbleweed y Leap, entonces puedes leer el archivo Leap [https://build.opensuse.org/package/view_file/openSUSE:Leap:15.0/FreeCAD/FreeCAD.spec "FreeCAD.spec"] en el [https://build.opensuse.org/ Open Build Service] para determinar los paquetes necesarios.
+Si existe alguna diferencia entre los paquetes disponibles en Tumbleweed y Leap, puede consultar el archivo Leap [https://build.opensuse.org/package/view_file/openSUSE:Leap:15.0/FreeCAD/FreeCAD.spec "FreeCAD.spec"] en el [https://build.opensuse.org/ Open Build Service] para determinar los paquetes necesarios.
 
 Ver [https://forum.freecad.org/viewtopic.php?f=4&t=49726 piano_jonas guía no oficial "Compilar en openSUSE"].
 
