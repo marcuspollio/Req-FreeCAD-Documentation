@@ -374,9 +374,7 @@ import pydevd; pydevd.settrace()
 
 :* Aquí es donde se detendrá la ejecución cuando se ejecute la macro.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Start the liclipse debug server (menu pydev).
-</div>
+* Inicie el servidor de depuración de Liclipse (menú pydev).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Start FreeCAD.
