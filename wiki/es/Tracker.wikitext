@@ -91,7 +91,7 @@ MantisBT (Mantis Bug Tracker) tiene su propio marcado único.
 
 *: '''Nota''': si pasa el cursor sobre un ticket, se mostrará el resumen. Si el ticket está cerrado, aparecerá tachado como <s>#1234</s>.
 
-[[Archivo:mantisbt-ticket-shortcut-example.jpg|center|600px]]
+[[File:mantisbt-ticket-shortcut-example.jpg|center|600px]]
 * '''~'''5678 - un acceso directo que enlaza con una nota de error dentro de un ticket. Se puede usar para hacer referencia a la respuesta de alguien dentro del hilo. Cada persona que publique mostrará un número único ~#### junto a su nombre de usuario. Si observa la imagen del ejemplo, verá que el acceso directo hace referencia al ''número de ticket:número de comentario'' de dicho ticket.
 [[File:mantisbt-comment-shortcut-example.jpg|center|600px]]
 * '''<nowiki><del></del></nowiki>''' - El uso de estas etiquetas <s>tachará el texto</s>.
