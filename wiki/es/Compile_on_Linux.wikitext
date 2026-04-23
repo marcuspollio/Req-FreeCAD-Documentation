@@ -508,7 +508,7 @@ Pasando diferentes opciones a {{incode|cmake}}, puede cambiar cómo se compila F
 cmake -D <var>:<type>=<value> $SOURCE_DIR
 }}
 
-Donde {{incode|$SOURCE_DIR}} es el directorio que contiene el código fuente. El {{incode|<tipo>}} puede omitirse en la mayoría de los casos. El espacio después de la opción {{incode|-D}} también puede omitirse.
+Donde {{incode|$SOURCE_DIR}} es el directorio que contiene el código fuente. En la mayoría de los casos, se puede omitir {{incode|<type>}}. También se puede omitir el espacio después de la opción {{incode|-D}}.
 
 Por ejemplo, para evitar construir el [[FEM Workbench/es|Ambiente de trabajo MEF]]:
 
