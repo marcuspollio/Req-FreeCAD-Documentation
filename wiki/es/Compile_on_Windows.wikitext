@@ -92,9 +92,7 @@ El compilador predeterminado (recomendado) es MS Visual Studio (MSVC). Si bien e
 
 Puede obtener una versión gratuita de MSVC (para uso individual) descargando la edición ''Community'' de MS Visual Studio [https://visualstudio.microsoft.com/vs/community/].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For those who want to avoid installing the huge MSVC for the mere purpose of having a compiler, see [[CompileOnWindows - Reducing Disk Footprint]].
-</div>
+Para aquellos que quieran evitar instalar el enorme MSVC con el único propósito de tener un compilador, consulten [[CompileOnWindows - Reducing Disk Footprint]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''Note:''' Although the ''Community'' edition of MSVC is free, to use the IDE for more than a 30-day trial period you must create a Microsoft account. If you will only compile using the command line, you don't need the IDE and thus no Microsoft account.
