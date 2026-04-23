@@ -420,7 +420,7 @@ donde ''main'' es el nombre de la rama principal de desarrollo. Si desea obtener
 Si se publica una nueva versión principal de una dependencia de terceros como Open Cascade, o si una dependencia de terceros incluye correcciones de errores importantes, se publica un nuevo LibPack. Puede encontrar la última versión aquí [https://github.com/FreeCAD/FreeCAD-LibPack/releases/].
 
 Para actualizar su LibPack, siga estos pasos:
-# Elimine la carpeta "bin" de su carpeta de compilación.
+# Elimine la carpeta '''bin''' de su carpeta de compilación.
 # Acceda a su carpeta local de LibPack y elimine todo su contenido.
 # Extraiga el contenido del nuevo archivo ZIP de LibPack en la carpeta local de LibPack existente, ahora vacía.
 # Abra CMake y pulse el botón '''Configure''' y luego el botón '''Generate'''. Esto recrea la carpeta '''bin''' que acaba de eliminar. Copie los nuevos archivos de LibPack en ella.
