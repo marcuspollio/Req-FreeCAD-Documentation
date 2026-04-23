@@ -36,7 +36,8 @@ Homebrew es un gestor de paquetes basado en línea de comandos para macOS. La p�
 
 CMake es una herramienta de compilación que genera una configuración de compilación basada en las variables que especifiques. Luego, ejecute el comando 'make' para compilar dicha configuración. La versión de línea de comandos de CMake se instala automáticamente como parte de la instalación de Homebrew, mencionada anteriormente. Si prefiere usar una versión gráfica de CMake, puede descargarla desde [https://www.cmake.org/download].
 
-== Install Dependencies ==
+<span id="Install_Dependencies"></span>
+== Instalar dependencias ==
 
 FreeCAD maintains a Homebrew 'cask' which installs the required formulas and dependencies. You can find the latest install instructions [https://github.com/FreeCAD/homebrew-freecad here].
 
