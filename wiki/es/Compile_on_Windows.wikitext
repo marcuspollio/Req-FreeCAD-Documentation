@@ -478,20 +478,21 @@ Compruebe si funciona y asegúrese de que en FreeCAD la opción de preferencias 
 <span id="Compilation"></span>
 ==== Compilado ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To compile the FCStdThumbnail.dll
-# Change to the FreeCAD source folder</br>''~\src\Tools\thumbs\ThumbnailProvider''
-# Open the CMake GUI
-# Specify there as source folder the one you are currently in.
-# Use the same folder as build folder.
-# Click '''Configure'''
-# In the appearing dialog, specify the generator according to the one you want to use. For the standard MS Visual Studio use ''Visual Studio xx 2yyy'' where xx is the compiler version and 2yyy the year of its release. It is recommended to use the default option ''Use default native compilers''.</br>'''Note:''' It is important to specify the correct bit variant. If you have the 64bit variant of LibPack you must also use the x64 compiler.
-# Click on '''Generate'''.
-# You should now have the file '''ALL_BUILD.vcxproj''' in the folder ''~\src\Tools\thumbs\ThumbnailProvider''. Double-click on it and the MSVC IDE will open.
-# In the toolbar of the MSVC IDE assure that you use the compilation target ''Release''.
-# There is a window called ''Solution Explorer''. Right-click there on '''ALL_BUILD''' and then choose '''Build'''.
-# As result you should now have a '''FCStdThumbnail.dll''' in the folder ''~\src\Tools\thumbs\ThumbnailProvider\release'' that you can install as described above.
-</div>
+Para compilar FCStdThumbnail.dll
+# Cambie a la carpeta de origen de FreeCAD: ''~\src\Tools\thumbs\ThumbnailProvider''
+# Abra la interfaz gráfica de CMake
+# Especifique como carpeta de origen la carpeta en la que se encuentra actualmente.
+# Use la misma carpeta como carpeta de compilación.
+# Haga clic en '''Configurar'''
+# En el cuadro de diálogo que aparece, especifique el generador que desee utilizar. Para el estándar MS Visual Studio, use ''Visual Studio xx 2yyy'', donde xx es la versión del compilador y 2yyy el año de su lanzamiento. Se recomienda usar la opción predeterminada ''Usar compiladores nativos predeterminados''. ''Note:'' Es importante especificar la arquitectura correcta. Si tiene la variante de 64 bits de LibPack, también debe usar el compilador x64.
+# Haga clic en '''Generate'''.
+Ahora debería tener el archivo '''ALL_BUILD.vcxproj''' en la carpeta ''~\src\Tools\thumbs\ThumbnailProvider''. Haga doble clic en él y se abrirá el IDE de MSVC.
+
+En la barra de herramientas del IDE de MSVC, asegúrese de usar el destino de compilación ''Release''.
+
+Se abrirá una ventana llamada ''Solution Explorer''. Haga clic con el botón derecho en '''ALL_BUILD''' y seleccione '''Build'''.
+
+Como resultado, ahora debería tener un archivo '''FCStdThumbnail.dll''' en la carpeta ''~\src\Tools\thumbs\ThumbnailProvider\release'' que puede instalar como se describió anteriormente.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Compiling Open Cascade==
