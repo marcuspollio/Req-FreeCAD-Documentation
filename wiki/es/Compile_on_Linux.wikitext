@@ -482,7 +482,7 @@ Para resolver esto, se debe crear manualmente un enlace simbólico desde el arch
 sudo ln -s /usr/lib/x86_64-linux-gnu/libdl.so.2 /usr/lib/x86_64-linux-gnu/libdl.so
 }}
 
-Adapte el comando a la estructura de su sistema buscando libdl.so* y creando un enlace con la ubicación adecuada.
+Adapte el comando a la estructura de su sistema buscando ''libdl.so*'' y creando un enlace con la ubicación adecuada.
 
 <span id="How_to_repair_your_source_code_directory"></span>
 === Cómo reparar el directorio de código fuente ===
