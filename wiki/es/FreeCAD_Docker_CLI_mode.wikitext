@@ -38,7 +38,7 @@ Todas las dependencias de FreeCAD ya están instaladas, son compatibles entre s�
 * Docker
 
 <span id="Installation"></span>
-==Instalación== 
+== Instalación == 
 
 # Extrae la imagen Docker.{{Code|lang=bash|code=
 docker pull amrit3701/freecad-cli:latest
