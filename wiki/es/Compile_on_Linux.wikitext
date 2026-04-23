@@ -243,9 +243,7 @@ Se han reportado problemas al intentar compilar en Raspberry Pi OS de 32 bits co
 
 Para las versiones más recientes de FreeCAD (>= 0.20), la compilación con Py3/Qt5 se realiza correctamente si el sistema operativo instalado es Raspberry Pi OS de 64 bits o Ubuntu 20.04.
 
-<div class="mw-translate-fuzzy">
-Debido a diferentes problemas con Qt, en esta versión no se encontrarán las herramientas normales de PySide.
-</div>
+Debido a diversos problemas con Qt, en Ubuntu 20.04 no se encontrarán las herramientas PySide habituales.
 {{Code|lang=bash|code=
 E: Unable to locate package python3-pyside2uic
 }}
