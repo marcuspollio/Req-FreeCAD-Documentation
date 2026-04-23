@@ -207,13 +207,11 @@ sudo apt install libocct*-dev
 <span id="Optional_packages"></span>
 ==== Paquetes opcionales ====
 
-<div class="mw-translate-fuzzy">
 Opcionalmente, también puede instalar estos paquetes adicionales:
-* {{incode|libsimage-dev}}, para que Coin soporte formatos de archivo de imagen adicionales.
-* {{incode|doxygen}} y {{incode|libcoin-doc}} (o {{incode|libcoin80-doc}} para los sistemas más antiguos), si quieres generar documentación del código fuente.
-* {{incode|libspnav-dev}}, para soporte de [[3D input devices/es|Dispositivos de entrada 3D]], como el "Space Navigator" o el "Space Pilot" de 3Dconnexion.
-* {{incode|checkinstall}}, si pretende registrar los archivos instalados en el gestor de paquetes de su sistema, para poder desinstalarlo más tarde.
-</div>
+* {{incode|libsimage-dev}}, para que Coin admita formatos de archivo de imagen adicionales.
+* {{incode|doxygen}} y {{incode|libcoin-doc}} (o {{incode|libcoin80-doc}} para sistemas más antiguos), si desea generar documentación del código fuente.
+* {{incode|libspnav-dev}}, para la compatibilidad con dispositivos de entrada 3D, como el '''Space Navigator''' o el '''Space Pilot''' de 3Dconnexion.
+* {{incode|checkinstall}}, si desea registrar los archivos instalados en el gestor de paquetes de su sistema para poder desinstalarlos posteriormente.
 
 <span id="Single_command_for_Python_3_and_Qt5"></span>
 ==== Comando único para Python 3 y Qt5 ====
