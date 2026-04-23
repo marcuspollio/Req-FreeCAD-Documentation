@@ -720,9 +720,7 @@ En esta página puede especificar lo siguiente:
 
 Si se selecciona '''Objeto de resultado VTK''', se importará un objeto de resultado VTK de FreeCAD FEM (igual al objeto que se exportó).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If '''FEM mesh object''' is selected, the results in the VTK file will be omitted, only the mesh data will be imported and a FreeCAD FEM mesh object will be created.
-</div>
+Si se selecciona '''Objeto de malla FEM''', se omitirán los resultados del archivo VTK, solo se importarán los datos de la malla y se creará un objeto de malla FEM de FreeCAD.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If '''FreeCAD result object''' is selected, the imported data will be converted into a FreeCAD FEM Result object. '''Note:''' this setting needs the exact result component names and thus it only works properly with VTK files exported from FreeCAD.
