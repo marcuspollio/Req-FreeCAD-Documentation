@@ -41,10 +41,7 @@ Puede usar FreeCAD como base para desarrollar su propia aplicación o simplement
 <span id="Closed-source_software_developers"></span>
 ==== Desarrolladores de software de código privativo ====
 
-<div class="mw-translate-fuzzy">
-==== Desarrolladores profesionales ====
-Los desarrolladores profesionales pueden utilizar FreeCAD como base para sus propios módulos de extensión para propósitos especiales y no están obligados a hacer sus módulos en código abierto. Pueden utilizar todos los módulos que utilizan LGPL. Se les permite distribuir FreeCAD junto con su software propietario. Se dará todo el apoyo del autor(es) siempre y cuando exista una actitud de correspondencia recíproca. Si quieres vender tu módulo necesitas una licencia de Coin3d, de lo contrario estás obligado por esta biblioteca a que tu módulo sea de código abierto.
-</div>
+La licencia LGPL le permite usar FreeCAD como un componente para su propia aplicación, y no está obligado a que su aplicación sea de código abierto. Recibirá soporte de los desarrolladores de FreeCAD siempre que no sea una relación unilateral. Sin embargo, la licencia establece dos condiciones importantes:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 1) You must clearly '''inform your users that your application is using FreeCAD''' and that FreeCAD is LGPL.
