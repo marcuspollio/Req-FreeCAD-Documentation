@@ -76,9 +76,7 @@ Si ha programado una corrección de errores, una extensión o cualquier otra cos
 
 (Las mismas directrices que en [https://wiki.freecad.org/Tracker#Submitting_patches Envío de parches])
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If you have created a git branch containing changes that you would like to see merged into the FreeCAD code, you can ask there to have your branch reviewed and merged if the FreeCAD developers are OK with it. You must first publish your branch to a public git repository (github, gitlab, bitbucket, sourceforge etc...) and then give the URL of your branch in your merge request.
-</div>
+Si ha creado una rama de Git con cambios que le gustaría que se integraran al código de FreeCAD, puede solicitar que se revise y se fusione si los desarrolladores de FreeCAD lo aprueban. Para ello, primero debes publicar su rama en un repositorio público de Git (GitHub, GitLab, Bitbucket, SourceForge, etc.) y, a continuación, proporcionar la URL de su rama en su solicitud de fusión.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == MantisBT Tips and Tricks ==
