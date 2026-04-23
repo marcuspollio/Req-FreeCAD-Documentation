@@ -472,9 +472,7 @@ Si cmake indica que falta un archivo específico, utilice una herramienta como "
 <span id="Compiling_against_GNU_libc_2.34_and_later"></span>
 === Compilación con GNU libc 2.34 y versiones posteriores ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-GNU libc 2.34 introduces a change to the library that can cause builds on some Linux systems to fail with an error like:
-</div>
+GNU libc 2.34 introduce un cambio en la biblioteca que puede provocar que las compilaciones en algunos sistemas Linux fallen con un error como este:
 
 {{Code|lang=bash|code=
 No rule to make target '/usr/lib/x86_64-linux-gnu/libdl.so
