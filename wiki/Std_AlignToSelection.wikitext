@@ -32,6 +32,8 @@ The '''Std AlignToSelection''' command points the camera in the active [[3D_View
 <!--T:9-->
 {{Version|1.1}} The final direction of the camera is the direction of the normal or edge, or its opposite, whichever is closest to the previous camera direction.
 
+{{Version|1.2}} It works now with any geometry element selected and also for multiple elements (average).
+
 ==Usage== <!--T:5-->
 
 <!--T:6-->
