@@ -50,9 +50,7 @@ La commande '''FEM Surface structurée transfinie''' crée un maillage structur�
 
 Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l'aide de l'[[Property_View/fr|éditeur de propriétés]]. Après avoir modifié une propriété, vous devez rouvrir la fenêtre de dialogue Gmsh et cliquer sur le bouton {{Button|Appliquer}}. (Vous pouvez laisser la fenêtre de dialogue ouverte pendant la modification des propriétés).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You can create as many different transfinite surfaces as needed.
-</div>
+Vous pouvez créer autant de surfaces différentes transfinies que nécessaire.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_transfinite_surface.png|400px]]
