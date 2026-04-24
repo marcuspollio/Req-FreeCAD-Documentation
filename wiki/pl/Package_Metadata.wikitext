@@ -312,16 +312,6 @@ Maksymalna wersja FreeCAD wymagana do korzystania z pakietu / elementu, jako ci�
 
 ''(Nowość w FreeCAD 0.21, ignorowana przez poprzednie wersje.)'' Minimalna wersja środowiska Python wymagana do użycia pakietu/elementu, jako ciąg semantyczny wersji 2.0 w formacie MAJOR.MINOR. Menedżer dodatków nie zezwoli na zainstalowanie dodatku w systemie z wersją Python wcześniejszą niż ta. Obsługiwane są tylko wersje Python 3.x. Chociaż można określić wersję trójskładnikową, tylko numer minor jest brany pod uwagę podczas sprawdzania zgodności.
 
-<span id="Validation"></span>
-== Sprawdzanie poprawności ==
-
-Aby zweryfikować plik package.xml, możesz włączyć "tryb deweloperski" w menedżerze dodatków: utwórz zmienną logiczną o nazwie "developerMode" w grupie parametrów "Addons" i ustaw ją na True: {{MenuCommand|Przybory → Edycja parametrów ... → BaseApp → Preferencje → Addons → developerMode}}. Gdy menedżer dodatków zakończy odczytywanie bazy danych dodatków, sprawdzi wszystkie dostępne pliki package.xml pod kątem błędów.
-
-<span id="Quick_guide"></span>
-==Krótki przewodnik==
-
-Aby uzyskać krótki przewodnik na temat tworzenia podstawowego pliku package.xml i dodawania środowiska roboczego do [[Std_AddonMgr/pl|Menedżera dodatków]], zobacz stronę [[Add_Workbench_to_Addon_Manager/pl|Dodaj środowisko pracy do Menadżera dodatków]].
-
 <span id="Examples"></span>
 ==Przykłady==
 
