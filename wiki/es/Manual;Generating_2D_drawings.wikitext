@@ -95,7 +95,7 @@ Ahora colocaremos cotas e indicaciones en nuestro dibujo. Hay dos maneras de añ
 
 Ahora puede exportar su página a formato SVG para trabajar con aplicaciones gráficas como Inkscape (http://www.inkscape.org) o a formato DXF. Seleccione la página en la vista de árbol y, a continuación, seleccione el {{MenuCommand|''Archivo → Exportar''}}. El formato DXF es compatible con casi todas las aplicaciones CAD 2D existentes. Las páginas de TechDraw también se pueden imprimir directamente o exportar a PDF.
 
-'''Descargas''''
+'''Descargas'''
 
 * El archivo creado durante este ejercicio: [https://github.com/JoshuaCall/FreeCAD-manual/blob/master/files/drawing.FCStd drawing.FCStd]
 * La hoja SVG generada a partir de ese archivo: [https://github.com/JoshuaCall/FreeCAD-manual/blob/master/files/drawing.svg drawing.svg]
