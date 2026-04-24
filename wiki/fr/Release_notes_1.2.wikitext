@@ -296,7 +296,6 @@ ToDo (last check: 20260412):
 <span id="Further_Sketcher_improvements"></span>
 === Autres améliorations de Sketcher ===
 
-<div class="mw-translate-fuzzy">
 * Il est désormais possible d'importer des courbes de Bézier et de décalage en tant que [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection/fr|géométries externes]]. [https://github.com/FreeCAD/FreeCAD/pull/25144 Pull request #25144]
 * Lors de la création ou de la modification de dimensions circulaires, il est désormais possible de basculer entre rayon et diamètre. [https://github.com/FreeCAD/FreeCAD/pull/26794 Pull request #26794]
 * La liste des contraintes affiche désormais le type de contrainte dans le nom. [https://github.com/FreeCAD/FreeCAD/pull/26797 Pull request #26797]
@@ -307,7 +306,7 @@ ToDo (last check: 20260412):
 * Les propriétés de la grille et de Créer des éléments internes sont désormais activées par défaut pour les nouvelles esquisses, et une préférence de transparence de la grille a été ajoutée. [https://github.com/FreeCAD/FreeCAD/pull/28771 Pull request #28771] et [https://github.com/FreeCAD/FreeCAD/pull/28791 Pull request #28791]
 * Les contraintes de distance sélectionnées (point-ligne, cercle-cercle et cercle-ligne) utilisent désormais l'orientation pour empêcher le [[Sketcher_Workbench/fr#Flipping|flipping]]. [https://github.com/FreeCAD/FreeCAD/pull/26518 Pull request #26518]
 * L'option ''Créer des contraintes de symétrie'' de l'outil [[Image:Sketcher_Symmetry.svg|24px]] [[Sketcher_Symmetry/fr|Symétriser]] a été améliorée pour éviter les surcontraintes. Elle est désormais activée par défaut. [https://github.com/FreeCAD/FreeCAD/pull/28118 Pull request #28118] et [https://github.com/FreeCAD/FreeCAD/pull/28319 Pull request #28319]
-</div>
+* Un bouton ''Annuler'' a été ajouté, permettant d'annuler les modifications apportées à une esquisse. [https://github.com/FreeCAD/FreeCAD/pull/29337 Pull request #29337]
 
 <span id="Spreadsheet_Workbench"></span>
 == Atelier Spreadsheet ==
