@@ -67,7 +67,7 @@ La forma más sencilla de garantizar esto es guardar el código Python en un arc
 
 A continuación, realizaremos un pequeño ejercicio: construir un objeto paramétrico que consiste en una simple cara rectangular paramétrica. Encontrará ejemplos más complejos en el [[Scripted_objects|ejemplo de objeto paramétrico]] y en el propio [https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py código fuente de FreeCAD].
 
-We will give our object two properties: Length and Width, which we will use to construct a rectangle. Then, since our object will already have a pre-built Placement property (all geometric objects have one by default, no need to add it ourselves), we will displace our rectangle to the location/rotation set in the Placement, so the user will be able to move the rectangle anywhere by editing the Placement property.
+Le daremos a nuestro objeto dos propiedades: Longitud y Anchura, que utilizaremos para construir un rectángulo. Luego, como nuestro objeto ya tendrá una propiedad de [[Emplacement|Posicionamiento]] predefinida (todos los objetos geométricos la tienen por defecto, no es necesario que la agreguemos nosotros mismos), desplazaremos el rectángulo a la posición/rotación establecida en la propiedad de posicionamiento, de modo que el usuario podrá mover el rectángulo a cualquier lugar editando dicha propiedad.
 
 {{Code|code=
 class ParametricRectangle:
