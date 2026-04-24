@@ -10,9 +10,7 @@
 
 {{Manual:TOC}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FreeCAD 022 example.png]]
-</div>
 
 <div class="mw-translate-fuzzy">
 FreeCAD es una aplicación de modelado paramétrico 3D de propósito general, hecha principalmente para diseñar objetos de la vida real. [https://es.wikipedia.org/wiki/Modelado_de_s%C3%B3lidos El modelado paramétrico] es un tipo de modelado en el que las formas de los objetos 3D que se diseñan están controladas por parámetros. Por ejemplo, la forma de un ladrillo puede estar controlada por tres parámetros: altura, anchura y longitud. Estos parámetros forman parte del objeto y pueden modificarse en cualquier momento, incluso después de la creación del objeto. Además de los valores simples, un objeto puede tener otros objetos como parámetros.  Por ejemplo, puedes tener un objeto que tome tu ladrillo como entrada y cree una columna a partir de él. Podrías pensar en un objeto paramétrico como un pequeño programa que crea geometría a partir de parámetros.
