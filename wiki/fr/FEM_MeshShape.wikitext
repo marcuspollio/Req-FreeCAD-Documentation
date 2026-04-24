@@ -23,20 +23,15 @@
 }}
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 ==Description==
-</div>
 
 La commande '''FEM Maillage intérieur/extérieur''' permet de définir la taille des éléments du maillage à l'intérieur et à l'extérieur d'une forme géométrique (cube, sphère ou cylindre).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_mesh_shape_task_panel.PNG|400px]]
-{{Caption|Task panel of the MeshShape tool}}
-</div>
+{{Caption|Panneau des tâches de l'outil Maillage intérieur/extérieur}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Utilisation==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # To enable the command a [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
