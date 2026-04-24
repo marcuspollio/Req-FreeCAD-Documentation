@@ -78,16 +78,14 @@ You can create as many different distance-based refinements as needed.
 </div>
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[FEM_MeshGroup|Mesh Group]]
-|[[FEM_MeshBoundaryLayer|2D Boundary Layer]]
-|[[FEM_Workbench|FEM]]
+{{Docnav/fr
+|[[FEM_MeshGroup/fr|Grouper un maillage]]
+|[[FEM_MeshBoundaryLayer/fr|Couche aux limites]]
+|[[FEM_Workbench/fr|Atelier FEM]]
 |IconL=FEM_MeshGroup.svg
 |IconR=FEM_MeshBoundaryLayer.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
