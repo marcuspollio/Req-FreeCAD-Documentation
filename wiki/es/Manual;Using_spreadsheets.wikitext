@@ -73,7 +73,7 @@ Otra potente función del Entorno de Trabajo de Hojas de Cálculo en FreeCAD es 
 * En la celda '''A1''', escriba un texto descriptivo, por ejemplo: '''Dimensiones del cubo'''.
 * En la celda '''B1''', escriba '''=5mm''' (el signo = garantiza que el valor se interprete como una unidad, no como texto).
 
-* Para poder usar este valor fuera de la hoja de cálculo, debemos asignarle un nombre o alias a la celda B1. Haga clic con el botón derecho en la celda, haga clic en '''Propiedades''' y seleccione la pestaña '''Alias'''. Asígnele un nombre, como '''cubedims''':
+* Para poder usar este valor fuera de la hoja de cálculo, debemos asignarle un nombre o alias a la celda '''B1'''. Haga clic con el botón derecho en la celda, haga clic en '''Propiedades''' y seleccione la pestaña '''Alias'''. Asígnele un nombre, como '''cubedims''':
 
 [[File:FreeCAD Spreedsheet Alias.png]]
 
