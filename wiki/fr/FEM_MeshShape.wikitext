@@ -71,16 +71,14 @@ You can create as many different shape-based refinements as needed.
 </div>
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[FEM_MeshBoundaryLayer|2D Boundary Layer]]
-|[[FEM_MeshManipulate|Manipulate Refinement]]
-|[[FEM_Workbench|FEM]]
+{{Docnav/fr
+|[[FEM_MeshBoundaryLayer/fr|Couche limite de maillage]]
+|[[FEM_MeshManipulate/fr|Manipuler l'affinage]]
+|[[FEM_Workbench/fr|Atelier FEM]]
 |IconL=FEM_MeshBoundaryLayer.svg
 |IconR=FEM_MeshManipulate.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
