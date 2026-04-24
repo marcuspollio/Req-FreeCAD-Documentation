@@ -96,7 +96,7 @@ Se abrirá un panel de tareas para que podamos elegir un material. En la lista d
 
 [[File: FreeCAD_FEM_Beam_force.png|600px]]
 
-* Ya podemos comenzar el cálculo. Seleccione [[Image:FEM_SolverCalculixCcxtools.svg|16px]] [[FEM_SolverCalculixCcxtools|Calculix solver]].
+* Ya podemos comenzar el cálculo. Seleccione [[Image:FEM_SolverCalculixCcxtools.svg|16px]] [[FEM_SolverCalculixCcxtools|Solucionador Calculix]].
 
 * Seleccione el análisis '''Estático''' y pulse '''Escribir archivo .inp''' para crear el archivo de entrada para CalculiX. A continuación, pulse '''Ejecutar CalculiX'''. La simulación se ejecutará.
 
