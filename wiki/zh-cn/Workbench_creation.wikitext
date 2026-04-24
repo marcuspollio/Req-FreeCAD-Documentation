@@ -199,8 +199,6 @@ Gui.addWorkbench(MyWorkbench())
 要分发您的 Python 工作台，可以直接把文件放到某个地方，然后让用户下载并手动放入他们的 Mod 目录；亦可将代码托管在在线的 git 仓库（目前支持 GitHub、GitLab、Framagit 和 Debian Salsa），并配置好让 [[Std_AddonMgr/zh-cn|插件管理器]] 自动安装。
 关于如何将工作台加入 FreeCAD 官方插件列表的说明，请参见 [https://github.com/FreeCAD/FreeCAD-addons/blob/master/README.md FreeCAD Addons GitHub 仓库]。使用插件管理器时，应包含一个 [[Package_Metadata|package.xml 元数据文件]]，该文件告诉插件管理器如何找到工作台图标，并显示描述、版本号等信息。它还可以用来指定该工作台依赖的其他工作台或 Python 包，阻止的包，或者需要替代的包。
 
-关于如何快速创建基本的 package.xml 文件并将工作台添加到[[Std_AddonMgr|插件管理器]]，请见： [[Add_Workbench_to_Addon_Manager/zh-cn|添加工作台到插件管理器]]。
-
 也可以选择添加一个单独的元数据文件来描述你的 Python 依赖项。这个文件可以是名为 metadata.txt 的文件，用来描述工作台对其他插件、工作台或 Python 模块的外部依赖；也可以是一个 [https://pip.pypa.io/en/latest/reference/requirements-file-format/ requirements.txt] 文件，用来描述你的 Python 依赖。注意，如果使用 requirements.txt 文件，插件管理器仅会使用其中指定的包名来进行依赖关系解析，而不会支持 pip 的命令行选项、包含选项和版本信息。如果需要 pip 的这些功能，用户可以手动运行 pip 并使用该 requirements 文件。
 
 metadata.txt 文件是纯文本格式，包含三行可选的内容：
