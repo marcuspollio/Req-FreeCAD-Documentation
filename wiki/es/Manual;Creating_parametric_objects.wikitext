@@ -123,7 +123,7 @@ Una vez hecho esto, podemos hacerlo ahora en la consola de Python:
 import ParamRectangle
 }}
 
-By exploring the contents of ParamRectangle, we can verify that it contains our ParametricRectangle class.
+Al explorar el contenido de '''ParamRectangle''', podemos verificar que contiene nuestra clase '''ParametricRectangle'''.
 
 To create a new parametric object using our ParametricRectangle class, we will use the following code. Observe that we use '''Part::FeaturePython''' instead of '''Part::Feature''' that we have been using in the previous chapters (The Python version allows to define our own parametric behaviour):
 
