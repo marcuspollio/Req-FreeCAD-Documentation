@@ -11,7 +11,7 @@
 
 FreeCAD se distribuye bajo la licencia [https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_LGPL], que permite descargarlo, instalarlo, redistribuirlo y usarlo para cualquier fin, comercial o no comercial, sin restricciones. Usted conserva la plena propiedad de los archivos que cree.
 
-FreeCAD se comporta igual en Windows, Mac OS y Linux. Sin embargo, la forma de instalarlo difiere ligeramente dependiendo de tu plataforma. En Windows y Mac, la comunidad de FreeCAD proporciona paquetes precompilados (instaladores) listos para descargar; mientras que en Linux, el código fuente se pone a disposición de los mantenedores de las distribuciones de Linux, que son los responsables de empaquetar FreeCAD para su distribución específica. Como resultado, en Linux, normalmente puedes instalar FreeCAD directamente desde la aplicación de gestión de software.
+FreeCAD funciona correctamente en Windows, macOS y Linux, aunque el proceso de instalación varía según la plataforma. Para usuarios de Windows y Mac, la comunidad de FreeCAD ofrece instaladores precompilados listos para usar. En Linux, el código fuente se proporciona a los responsables del mantenimiento de las distribuciones, quienes empaquetan el software para sus sistemas específicos. Por lo general, los usuarios de Linux pueden instalar FreeCAD directamente a través del gestor de software de su sistema.
 
 <div class="mw-translate-fuzzy">
 La página oficial de descarga de FreeCAD para Windows y Mac OS es https://github.com/FreeCAD/FreeCAD/releases
