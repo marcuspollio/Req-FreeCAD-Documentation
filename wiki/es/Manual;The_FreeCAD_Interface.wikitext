@@ -70,7 +70,8 @@ Los siguientes entornos de trabajo están habilitados de forma predeterminada:
 
 * [[Image:Workbench_TechDraw.svg|32px]] El [[TechDraw_Workbench/es|Banco de Trabajo DibujoTécnico]] para producir dibujos técnicos a partir de modelos 3D. Es el sucesor del [[Drawing_Workbench/es|Banco de Trabajo de Dibujo]].
 
-==== Disabled workbenches ====
+<span id="Disabled_workbenches"></span>
+==== Bancos de trabajo deshabilitados ====
 
 {{Version|1.1}} The following rarely used workbenches are [[Workbenches#Current|disabled]] by default, they can be enabled in [[Preferences_Editor#Workbenches|preferences]]:
 
