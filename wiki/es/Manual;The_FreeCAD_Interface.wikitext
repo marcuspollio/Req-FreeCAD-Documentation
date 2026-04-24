@@ -32,6 +32,13 @@ El control más importante de la interfaz de FreeCAD es el selector de Banco de 
 
 [[Image:FreeCAD_WB.png]]
 
+Los Bancos de Trabajo suelen confundir a los nuevos usuarios, ya que no siempre es fácil saber en qué Banco de Trabajo buscar una herramienta específica. Sin embargo, son fáciles de aprender y, al cabo de poco tiempo, se utilizan con total naturalidad. Los nuevos usuarios se dan cuenta rápidamente de que los Bancos de Trabajo son una forma cómoda de organizar la gran cantidad de herramientas que ofrece FreeCAD. Además, los Bancos de Trabajo también son totalmente personalizables.
+
+<span id="Enabled_workbenches"></span>
+==== Mesas de trabajo habilitadas ====
+
+The following workbenches are enabled by default:
+
 <!--Please keep this list consistent with Workbenches, Online_Help_Toc and User_hub-->
 * [[Image:Workbench_Assembly.svg|32px]] El [[Assembly_Workbench|Banco de Trabajo Assembly]] para construir y resolver ensamblajes mecánicos. {{Version|1.0}}
 
@@ -43,13 +50,9 @@ El control más importante de la interfaz de FreeCAD es el selector de Banco de 
 
 * [[Image:Workbench_FEM.svg|32px]] El [[FEM_Workbench/es|Banco de Trabajo MEF]] proporciona un flujo de trabajo de análisis de elementos finitos (FEA).
 
-* [[Image:Workbench_Inspection.svg|32px]] El [[Inspection_Workbench/es|Banco de Trabajo de Inspección]] está hecho para dar herramientas específicas para el examen de formas. Todavía está en una etapa temprana de desarrollo.
-
 * [[Image:Workbench_Material.svg|32px]] El [[Material_Workbench|Banco de Trabajo Material]] maneja el sistema de materiales de FreeCAD. {{Version|1.0}}
 
 * [[Image:Workbench_Mesh.svg|32px]] El [[Mesh_Workbench/es|Banco de Trabajo Malla]] para trabajar con mallas trianguladas.
-
-* [[Image:Workbench_OpenSCAD.svg|32px]] El [[OpenSCAD_Workbench/es|Banco de Trabajo OpenSCAD]] para la interoperabilidad con OpenSCAD y la reparación del historial del modelo de [[constructive solid geometry/es|geometría sólida constructiva]] (CSG).
 
 * [[Image:Workbench_Part.svg|32px]] El [[Part_Workbench/es|Banco de Trabajo Part]] para trabajar con primitivas geométricas y operaciones booleanas.
 
@@ -59,8 +62,6 @@ El control más importante de la interfaz de FreeCAD es el selector de Banco de 
 
 * [[Image:Workbench_Reverse_Engineering.svg|32px]] El [[Reverse_Engineering_Workbench/es|Banco de Trabajo Ingeniería Inversa]] pretende proporcionar herramientas específicas para convertir formas/sólidos/mallas en características paramétricas compatibles con FreeCAD.
 
-* [[Image:Workbench_Robot.svg|32px]] El [[Robot_Workbench/es|Banco de Trabajo Robots]] para estudiar los movimientos de los robots. Actualmente sin mantenimiento.
-
 * [[Image:Workbench_Sketcher.svg|32px]] El [[Sketcher_Workbench|Banco de Trabajo Bocetista]] para trabajar con bocetos con restricciones geométricas.
 
 * [[Image:Workbench_Spreadsheet.svg|32px]] El [[Spreadsheet_Workbench|Banco de Trabajo Hoja de Cálculo]] para crear y manipular datos de hojas de cálculo.
@@ -69,9 +70,17 @@ El control más importante de la interfaz de FreeCAD es el selector de Banco de 
 
 * [[Image:Workbench_TechDraw.svg|32px]] El [[TechDraw_Workbench/es|Banco de Trabajo DibujoTécnico]] para producir dibujos técnicos a partir de modelos 3D. Es el sucesor del [[Drawing_Workbench/es|Banco de Trabajo de Dibujo]].
 
-* [[Image:Workbench_Test.svg|32px]] El [[Testing|Bando de Trabajo Entorno de Pueba]] sirve para depurar FreeCAD.
+==== Disabled workbenches ====
 
-Los Bancos de Trabajo suelen confundir a los nuevos usuarios, ya que no siempre es fácil saber en qué Banco de Trabajo buscar una herramienta específica. Sin embargo, son fáciles de aprender y, al cabo de poco tiempo, se utilizan con total naturalidad. Los nuevos usuarios se dan cuenta rápidamente de que los Bancos de Trabajo son una forma cómoda de organizar la gran cantidad de herramientas que ofrece FreeCAD. Además, los Bancos de Trabajo también son totalmente personalizables.
+{{Version|1.1}} The following rarely used workbenches are [[Workbenches#Current|disabled]] by default, they can be enabled in [[Preferences_Editor#Workbenches|preferences]]:
+
+* [[Image:Workbench_Inspection.svg|32px]] El [[Inspection_Workbench/es|Banco de Trabajo de Inspección]] está hecho para dar herramientas específicas para el examen de formas. Todavía está en una etapa temprana de desarrollo.
+
+* [[Image:Workbench_OpenSCAD.svg|32px]] El [[OpenSCAD_Workbench/es|Banco de Trabajo OpenSCAD]] para la interoperabilidad con OpenSCAD y la reparación del historial del modelo de [[constructive solid geometry/es|geometría sólida constructiva]] (CSG).
+
+* [[Image:Workbench_Robot.svg|32px]] El [[Robot_Workbench/es|Banco de Trabajo Robots]] para estudiar los movimientos de los robots. Actualmente sin mantenimiento.
+
+* [[Image:Workbench_Test.svg|32px]] El [[Testing|Bando de Trabajo Entorno de Pueba]] sirve para depurar FreeCAD.
 
 <span id="The_interface"></span>
 === La interfaz ===
