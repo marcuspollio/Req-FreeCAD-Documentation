@@ -301,6 +301,7 @@ ToDo (last check: 20260412):
 * Selected distance constraints (point-line, circle-circle, and circle-line) now use orientation to prevent [[Sketcher_Workbench#Flipping|flipping]]. [https://github.com/FreeCAD/FreeCAD/pull/26518 Pull request #26518]
 * The ''Create symmetry constraints'' option of the [[Image:Sketcher_Symmetry.svg|24px]] [[Sketcher_Symmetry|Symmetry]] tool was improved to avoid overconstraints. It is now also enabled by default. [https://github.com/FreeCAD/FreeCAD/pull/28118 Pull request #28118] and [https://github.com/FreeCAD/FreeCAD/pull/28319 Pull request #28319]
 * There is now a ''Cancel'' button, making it possible to discard modifications in a sketch.  [https://github.com/FreeCAD/FreeCAD/pull/29337 Pull request #29337]
+* The [[Image:Sketcher_ConstrainHorizontal.svg|24px]] [[Sketcher_ConstrainHorizontal|Horizontal]],[[Image:Sketcher_ConstrainVertical.svg|24px]] [[Sketcher_ConstrainVertical|Vertical]] and [[Image:Sketcher_ConstrainDistance.svg|24px]] [[Sketcher_ConstrainDistance|Distance]] dimensions are now positioned better by default to avoid overlap with the lines being constrained. [https://github.com/FreeCAD/FreeCAD/pull/29538 Pull request #29538]
 
 == Spreadsheet Workbench == <!--T:53-->
 
