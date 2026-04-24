@@ -98,10 +98,10 @@ Las ventanas siempre se basan en bocetos. Puede crear fácilmente ventanas perso
 
 Con esto, nuestro modelo ya está completo. El siguiente paso es organizarlo adecuadamente para garantizar que se exporte correctamente al formato IFC. Los archivos IFC requieren que todos los elementos del edificio se agrupen dentro de un objeto '''edificio''' y, opcionalmente, dentro de una '''planta''' específica. Además, todos los edificios deben estar ubicados en un '''emplazamiento'''. Sin embargo, el exportador IFC de FreeCAD generará automáticamente un emplazamiento predeterminado si no hay ninguno, por lo que no es necesario añadirlo manualmente. Es importante estructurar adecuadamente el modelo para cumplir con los estándares IFC, lo que garantiza una colaboración fluida y la compatibilidad con otro software BIM. Una organización adecuada también ayudará a evitar cualquier pérdida de datos o errores durante el proceso de exportación.
 
-* Selecciona las paredes, la losa y el techo.
-* Pulsa el botón [[Image:Arch_Floor.svg|16px]] [[Arch_Floor|Suelo]].
-* Selecciona el suelo que acabamos de crear.
-* Pulsa el botón [[Image:Arch_Building.svg|16px]] [[Arch_Building|Edificio]].
+* Seleccione las paredes, la losa y el techo.
+* Pulse el botón [[Image:Arch_Floor.svg|16px]] [[Arch_Floor|Suelo]].
+* Seleccione el suelo que acabamos de crear.
+* Pulse el botón [[Image:Arch_Building.svg|16px]] [[Arch_Building|Edificio]].
 
 Nuestro modelo ya está listo para exportar:
 
