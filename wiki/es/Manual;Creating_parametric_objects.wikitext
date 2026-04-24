@@ -51,7 +51,7 @@ FreeCAD.ActiveDocument.addObject("Part::FeaturePython", "dummy").supportedProper
 
 La segunda parte clave de nuestra clase es el método '''execute'''. Este método se activa automáticamente cuando el objeto se marca para recálculo, lo que ocurre al modificarse una de sus propiedades. En el método '''execute''' se realizan todos los recálculos del objeto, asegurando que su forma y comportamiento se actualicen para reflejar cualquier cambio. Dentro del método '''execute''', se llevan a cabo todas las operaciones necesarias para generar la nueva geometría del objeto. Normalmente, esto implica recalcular la forma en función de los valores actuales de sus propiedades y, a continuación, asignar la forma actualizada al atributo '''Shape''' del objeto mediante una instrucción como '''obj.Shape = myNewShape'''. El método '''execute''' recibe un único argumento, '''obj''', que representa el objeto del documento de FreeCAD asociado al objeto paramétrico. Esto permite manipular directamente el objeto dentro del método, por ejemplo, acceder a sus propiedades, actualizar su geometría o realizar otras operaciones.
 
-In summary:
+En resumen:
 
 * El método '''execute''' se invoca siempre que sea necesario actualizar el objeto.
 
