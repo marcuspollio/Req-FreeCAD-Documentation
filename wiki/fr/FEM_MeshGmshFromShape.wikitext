@@ -122,16 +122,14 @@ L'algorithme de recombinaison ''Simple'' laissera quelques triangles dans le mai
 {{Caption|Effet de la recombinaison des éléments du maillage. </br>En haut à gauche : maillage standard.</br> En haut à droite : recombinaison uniquement en surface avec l'algorithme '''Simple'''.</br> En bas à gauche : recombinaison en surface et dans le volume avec l'algorithme '''Simple'''.</br> En bas à droite : recombinaison en surface et dans le volume avec l'algorithme '''Simple full-quad'''.}}
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[FEM_MeshNetgenFromShape/fr|Mailler avec Netgen]]
-|[[FEM_MeshBoundaryLayer/fr|Couche limite de maillage]]
+|[[FEM_MeshRegion/fr|Mailler plus finement]]
 |[[FEM_Workbench/fr|Atelier FEM]]
 |IconL=FEM_MeshNetgenFromShape.svg
-|IconR=FEM_MeshBoundaryLayer.svg
+|IconR=FEM_MeshRegion.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
