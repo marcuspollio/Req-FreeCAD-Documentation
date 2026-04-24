@@ -27,14 +27,11 @@
 
 La commande '''FEM Maillage fonction de la distance''' permet de définir la taille des éléments du maillage en fonction de la distance par rapport aux sommets, aux arêtes et aux faces.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FM_mesh_distance_task_panel.PNG|400px]]
-{{Caption|Task panel of the MeshDistance tool}}
-</div>
+{{Caption|Panneau des tâches de l'outil Maillage fonction de la distance}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Utilisation==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # To enable the command a [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
