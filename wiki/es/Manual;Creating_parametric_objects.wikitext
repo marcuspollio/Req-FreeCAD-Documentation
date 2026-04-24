@@ -150,8 +150,8 @@ Por supuesto, sería tedioso tener que escribir estas 4 líneas de código Pytho
 
 Ahora, cuando escribamos: '''import ParamRectangle''', se creará automáticamente un nuevo rectángulo paramétrico. Mejor aún, podemos añadir un botón a la barra de herramientas que haga precisamente eso:
 
-* Open menu '''Tools -> Customize'''
-* Under the "Macros" tab, select our ParamRectangle.py macro, fill in the details as you wish, and press "Add":
+* Abra el menú '''Herramientas → Personalizar'''
+* En la pestaña '''Macros''', selecciona nuestra macro '''ParamRectangle.py''', complete los detalles como desee y pulse '''Añadir''':
 
 [[File:FreeCAD_python_macroRec.png]]
 
