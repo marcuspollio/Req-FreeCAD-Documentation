@@ -50,7 +50,7 @@ En FreeCAD, además de las funciones estándar de una hoja de cálculo, existe u
 
 [[File:FreeCAD Spreedsheet Autocomplete.png]]
 
-* Aunque estos resultados se expresan con sus unidades, los valores se pueden manipular como cualquier número. Por ejemplo, intente introducir en la celda C1: '''=B1*2'''.
+* Aunque estos resultados se expresan con sus unidades, los valores se pueden manipular como cualquier número. Por ejemplo, intente introducir en la celda '''C1: =B1*2'''.
 
 * Ahora podemos cambiar uno de estos valores en el editor de propiedades, y el cambio se reflejará inmediatamente en la hoja de cálculo. Por ejemplo, cambiemos la longitud de nuestro cubo a '''20 mm''':
 
