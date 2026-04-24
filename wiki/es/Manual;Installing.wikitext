@@ -111,11 +111,9 @@ A medida que la comunidad de FreeCAD se expande y la facilidad de personalizaci�
 
 [[Image:FreeCAD_022_AddonsMenu.png|none]]
 
-<div class="mw-translate-fuzzy">
-# Una [https://github.com/FreeCAD/FreeCAD-library Biblioteca Piezas], que contiene todo tipo de modelos útiles, o piezas de modelos, creados por los usuarios de FreeCAD que pueden ser utilizados libremente en sus proyectos. La biblioteca puede ser utilizada y accedida directamente desde tu instalación de FreeCAD.
-# [https://github.com/FreeCAD/FreeCAD-addons Ambientes de trabajo adicionales], que amplían la funcionalidad de FreeCAD para ciertas tareas, por ejemplo animar partes de tus modelos, o áreas, como el plegado de chapa o BIM. Más explicaciones de cada ambiente de trabajo y qué herramientas contiene se dan en cada página de complementos, que puedes visitar haciendo clic en el enlace correspondiente en el gestor de complemento.
-# Una [https://github.com/FreeCAD/FreeCAD-macros colección de macros], que también están disponibles [[Macros recipes/es|en el wiki de FreeCAD]] junto con la documentación sobre cómo usarlas.
-</div>
+# Una [https://github.com/FreeCAD/FreeCAD-library] biblioteca de piezas. Esta biblioteca es un tesoro de modelos o fragmentos de modelos útiles creados por usuarios de FreeCAD. Todos los elementos de esta biblioteca están disponibles gratuitamente para su uso en sus proyectos y se puede acceder a ellos directamente desde su configuración de FreeCAD.
+# [https://github.com/FreeCAD/FreeCAD-addons] Entornos de trabajo adicionales. Son extensiones especializadas que mejoran la funcionalidad de FreeCAD para tareas específicas. Algunos ejemplos de aplicaciones incluyen la animación de piezas de modelos o la gestión de procesos de construcción específicos, como el plegado de chapa metálica o BIM (Modelado de Información para la Construcción). En la página de cada complemento, accesible a través del enlace correspondiente en el gestor de complementos, se proporciona información detallada sobre cada entorno de trabajo, incluyendo una descripción general de las herramientas que contiene.
+# También está disponible para su descarga una amplia gama de [https://github.com/FreeCAD/FreeCAD-macros] macros. Estas pueden optimizar significativamente su flujo de trabajo, y puede encontrar documentación detallada sobre cómo usarlas en la [[Macros_recipes|FreeCAD wiki]].
 
 
 <div class="mw-translate-fuzzy">
