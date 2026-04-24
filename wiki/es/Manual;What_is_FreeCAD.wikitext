@@ -14,9 +14,7 @@
 
 Como se mencionó en la sección anterior, FreeCAD es una aplicación de modelado paramétrico en 3D de diseño asistido por computadora (CAD). [https://en.wikipedia.org/wiki/Parametric_design] El diseño paramétrico es un método para diseñar objetos basado en la definición de parámetros y sus relaciones entre ellos. En este enfoque, los cambios en los parámetros se propagan automáticamente a través de los elementos asociados del diseño, lo que permite iteraciones y adaptaciones rápidas. 
 
-<div class="mw-translate-fuzzy">
-FreeCAD no está diseñado para un tipo de trabajo concreto, ni para fabricar un tipo de objeto determinado. En su lugar, permite a los usuarios producir modelos de objetos de tamaños muy diferentes para muchos propósitos, desde pequeños componentes electrónicos a piezas imprimibles en 3D hasta edificios. Cada una de estas tareas cuenta con diferentes conjuntos de herramientas y flujos de trabajo específicos.
-</div>
+El diseño paramétrico, comúnmente utilizado en campos como la arquitectura, la ingeniería y el diseño de productos, ayuda a crear formas complejas de manera eficiente, permitiendo ajustar y perfeccionar diversos aspectos del diseño mediante la modificación de los valores de entrada. Este enfoque resulta especialmente eficaz en programas como FreeCAD, donde los usuarios pueden configurar estos parámetros de manera dinámica para automatizar y optimizar el proceso de diseño.
 
 <div class="mw-translate-fuzzy">
 FreeCAD también es multiplataforma (se ejecuta exactamente igual en las plataformas Windows, Mac OS y Linux), y es [http://en.wikipedia.org/wiki/Open-source_software open source]. Al ser de código abierto, FreeCAD se beneficia de las contribuciones y esfuerzos de una gran comunidad de programadores, entusiastas y usuarios de todo el mundo. FreeCAD es esencialmente una aplicación construida por la gente que la usa, en lugar de ser hecha por una compañía que intenta venderte un producto. También significa que FreeCAD es libre, no sólo para usar, sino también para distribuir, copiar, modificar o incluso vender.
