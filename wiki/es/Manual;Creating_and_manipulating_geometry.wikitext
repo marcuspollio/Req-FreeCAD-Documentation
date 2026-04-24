@@ -208,9 +208,7 @@ Luego lo extruimos:
 P = F.extrude(FreeCAD.Vector(0,0,10)) 
 }}
 
-<div class="mw-translate-fuzzy">
-Tenga en cuenta que P ya es un sólido:
-</div>
+Tenga en cuenta que P ya es un '''Sólido''':
 
 {{Code|code=
 print(P.ShapeType) 
