@@ -47,12 +47,12 @@ La commande '''FEM Manipuler l'affinage''' permet de manipuler le résultat d'un
 #** Vous pouvez cocher la case ''S'arrêter à la valeur d'entrée maximale''.
 #* ''Moyenne'' : calcule la valeur moyenne de l'affinage de l'enfant G.
 #** Spécifiez ''Delta''
-#* ''Gradient'' : calcule le gradient par différences finies du raffinement enfant G
+#* ''Gradient'' : calcule le gradient par différences finies de l'affinage enfant G
 #** Sélectionnez ''Type'' : X, Y, Z ou Moyenne
 #** Spécifiez ''Delta''
-#* ''Courbure'' : calcule la courbure du raffinement enfant G
+#* ''Courbure'' : calcule la courbure de l'affinage enfant G
 #** Spécifiez ''Delta''
-#* ''Laplacien'' : calcule la différence finie du laplacien du raffinement enfant G
+#* ''Laplacien'' : calcule la différence finie du laplacien de l'affinage enfant G
 #** Spécifiez ''Delta''
 # Vous pouvez cliquer sur le bouton {{Button|[[Image:Preferences-system.svg|x16px]]}} pour modifier les paramètres globaux d'aperçu du raffinement :
 #* ''Activation automatique à l'ouverture'' : active automatiquement la visualisation de la taille du maillage de l'affinage à l'ouverture d'une boîte de dialogue de tâche de l'affinage.
