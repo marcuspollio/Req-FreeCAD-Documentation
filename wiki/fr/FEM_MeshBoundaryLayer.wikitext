@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
-|[[FEM_MeshGmshFromShape/fr|Mailler avec Gmsh]]
-|[[FEM_MeshRegion/fr|Mailler plus finement]]
+|[[FEM_MeshDistance/fr|Maillage fonction de la distance]]
+|[[FEM_MeshShape/fr|Maillage intérieur/extérieur]]
 |[[FEM_Workbench/fr|Atelier FEM]]
-|IconL=FEM_MeshGmshFromShape.svg
-|IconR=FEM_MeshRegion.svg
+|IconL=FEM_MeshDistance.svg
+|IconR=FEM_MeshShape.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 <div class="mw-translate-fuzzy">
 {{GuiCommandContainer
