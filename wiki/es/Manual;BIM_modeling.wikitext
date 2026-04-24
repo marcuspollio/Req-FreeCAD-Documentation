@@ -83,7 +83,7 @@ Las ventanas siempre se basan en bocetos. Puede crear fácilmente ventanas perso
 * Seleccione el rectángulo
 * Haga clic en la herramienta [[Image:BIM_Slab.svg|16px]] [[BIM_Slab|Losa]] para crear una losa a partir del rectángulo
 * Mantenga los valores predeterminados de 0,2 m para la propiedad '''altura''' y establezca la '''dirección''' normal en (0,0,-1), de modo que la extrusión vaya hacia abajo. Aunque podríamos haber movido el objeto 0,2 m hacia abajo, es una buena práctica mantener los objetos extruidos alineados con su perfil base para mantener la coherencia y la precisión del modelo.
-* Establezca la propiedad '''Tipo Ifc''' de la losa en '''losa'''. Esto no es necesario en FreeCAD, pero es importante para la exportación IFC, ya que garantizará que el objeto se exporte con el tipo IFC correcto.
+* Establezca la propiedad '''Tipo Ifc''' de la losa en '''losa'''. Esto no se necesita en FreeCAD, pero es importante para la exportación IFC, ya que garantizará que el objeto se exporte con el tipo IFC correcto.
 
 [[File:FreeCAD BIMSlab.png]]
 
