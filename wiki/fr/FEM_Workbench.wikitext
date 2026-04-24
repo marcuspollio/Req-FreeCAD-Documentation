@@ -147,9 +147,7 @@ L'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné qu
 <span id="GMSH_Refinements"></span>
 === Affinages Gmsh ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:FEM_MeshDistance.svg|32px]] [[FEM_MeshDistance|Distance-Based Refinement]]: Sets mesh size based on the distance to vertices, edges and faces. {{Version|1.2}}
-</div>
+:* [[Image:FEM_MeshDistance.svg|32px]] [[FEM_MeshDistance/fr|Maillage fonction de la distance]] : définit la taille du maillage en fonction de la distance par rapport aux sommets, aux arêtes et aux faces. {{Version/fr|1.2}}
 
 <div class="mw-translate-fuzzy">
 * [[Image:FEM_MeshBoundaryLayer.svg|32px]] [[FEM_MeshBoundaryLayer/fr|Couche limite de maillage]] : crée des maillages anisotropes pour des calculs précis près des frontières.
