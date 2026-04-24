@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[FEM_MeshNetgenFromShape/fr|Mailler avec Netgen]]
 |[[FEM_MeshBoundaryLayer/fr|Couche limite de maillage]]
 |[[FEM_Workbench/fr|Atelier FEM]]
 |IconL=FEM_MeshNetgenFromShape.svg
-|IconR=FEM_MeshBoundaryLayer.svg
+|IconR=FEM_MeshRegion.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{GuiCommandContainer
 |
