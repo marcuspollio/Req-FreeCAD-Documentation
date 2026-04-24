@@ -116,9 +116,7 @@ A medida que la comunidad de FreeCAD se expande y la facilidad de personalizaci�
 # También está disponible para su descarga una amplia gama de [https://github.com/FreeCAD/FreeCAD-macros] macros. Estas pueden optimizar significativamente su flujo de trabajo, y puede encontrar documentación detallada sobre cómo usarlas en la [[Macros_recipes|FreeCAD wiki]].
 
 
-<div class="mw-translate-fuzzy">
-[[Image:FreeCAD-addon-manager01.jpg|800px]]
-</div> 
+A partir de FreeCAD v0.17.9940, el método de instalación recomendado para cualquiera de las herramientas mencionadas anteriormente es el Administrador de complementos integrado. Sin embargo, si por alguna razón esta opción no está disponible, siempre es posible la instalación manual. Puede encontrar más información en la página de complementos de FreeCAD [https://github.com/FreeCAD/FreeCAD-addons]. 
 
 '''Leer más'''
 
