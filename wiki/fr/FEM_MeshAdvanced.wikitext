@@ -65,10 +65,8 @@ Une fois que le maillage a été créé, vous pouvez modifier ses propriétés �
 
 Vous pouvez créer autant d'affinages avancés différents que nécessaire.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-[[File:FEM_advanced_refinement.PNG|400px]]
-{{Caption|Example of MathEval advanced refinement with the following function: 0.05 + 0.4 * (16 * x^2 * y^2 * (x^2 - y^2)^2 / (x^2 + y^2)^4) + 0.1 * (Sqrt(x^2 + y^2) - 4)}}
-</div>
+[[Fichier:FEM_advanced_refinement.PNG|400px]]
+{{Caption|Exemple d'affinage avancé Évaluation mathématique avec la fonction suivante : 0.05 + 0.4 * (16 * x^2 * y^2 * (x^2 - y^2)^2 / (x^2 + y^2)^4) + 0.1 * (Sqrt(x^2 + y^2) - 4)}}
 
 
 {{Docnav/fr
