@@ -159,7 +159,7 @@ Ahora, cuando escribamos: '''import ParamRectangle''', se creará automáticamen
 
 [[File:FreeCAD_python_toolbarCus.png]]
 
-* That's it, we now have a new toolbar button which, when clicked, will create a parametric rectangle.
+* Eso es todo, ahora tenemos un nuevo botón en la barra de herramientas que, al hacer clic, creará un rectángulo paramétrico.
 
 Remember, if you want to distribute files created with this new tool to other people, they must have the '''ParamRectangle.py''' macro installed on their computers too.
 
