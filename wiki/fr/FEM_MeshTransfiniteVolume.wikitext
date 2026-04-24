@@ -1,15 +1,13 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]
-|[[FEM_CreateElementsSet|Erase Elements]]
-|[[FEM_Workbench|FEM]]
+{{Docnav/fr
+|[[FEM_MeshTransfiniteSurface/fr|Surface structurelle transfinie]]
+|[[FEM_CreateElementsSet/fr|Masquer des éléments]]
+|[[FEM_Workbench/fr|Atelier FEM]]
 |IconL=FEM_MeshTransfiniteSurface.svg
 |IconR=FEM_CreateElementsSet.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommandContainer|
