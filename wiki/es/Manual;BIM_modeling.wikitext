@@ -39,7 +39,7 @@ En este capítulo veremos cómo modelar este pequeño edificio:
 
 Observe que hemos dibujado las líneas siempre en la misma dirección (en el sentido de las agujas del reloj). Aunque no es obligatorio, esto ayuda a garantizar que las paredes que construiremos a continuación tengan orientaciones izquierda y derecha coherentes. Quizás se pregunte por qué no hemos dibujado simplemente un rectángulo, lo que habría sido más sencillo. Hemos utilizado el procedimiento de usar cuatro líneas separadas porque nos brinda la oportunidad de mostrar funcionalidades BIM adicionales, como la forma de combinar varios objetos en uno solo, lo cual es una parte esencial del flujo de trabajo.
 
-* Una vez creadas las líneas, comprueba sus puntos inicial y final y ajústalos si es necesario para que queden exactamente correctos.
+* Una vez creadas las líneas, compruebe sus puntos inicial y final y ajústelos, si es necesario, para que queden con las medidas exactas.
 
 [[Image:Manual-BIM_Modeling_-_Adjusting_Lines.png]]
 
