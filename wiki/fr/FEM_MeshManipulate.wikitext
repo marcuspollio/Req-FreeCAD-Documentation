@@ -54,7 +54,7 @@ La commande '''FEM Manipuler l'affinage''' permet de manipuler le résultat d'un
 #** Spécifiez ''Delta''
 #* ''Laplacien'' : calcule la différence finie du laplacien de l'affinage enfant G
 #** Spécifiez ''Delta''
-# Vous pouvez cliquer sur le bouton {{Button|[[Image:Preferences-system.svg|x16px]]}} pour modifier les paramètres globaux d'aperçu du raffinement :
+# Vous pouvez cliquer sur le bouton {{Button|[[Image:Preferences-system.svg|x16px]]}} pour modifier les paramètres globaux d'aperçu de l'affinage :
 #* ''Activation automatique à l'ouverture'' : active automatiquement la visualisation de la taille du maillage de l'affinage à l'ouverture d'une boîte de dialogue de tâche de l'affinage.
 #* ''Finesse du maillage de l'aperçu'' détermine la finesse du maillage de l'aperçu. Un nombre plus élevé signifie un maillage plus fin (éléments plus petits).
 # Vous pouvez cliquer sur le bouton {{Button|Visualiser}} pour visualiser le résultat de l'affinage de la taille du maillage. Les tailles de maillages obtenues par l'affinage sont représentées par des couleurs sur un maillage d'aperçu. Notez que l'aperçu évalue l'affinage sur un maillage grossier. Les détails plus petits que la taille de maillage peuvent donc ne pas être visibles.
