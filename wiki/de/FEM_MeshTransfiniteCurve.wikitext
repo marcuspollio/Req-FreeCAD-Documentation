@@ -64,16 +64,14 @@ Es können so viele verschiedene transfinite Kurven wie nötig erstellt werden.
 {{Caption|Ein Oberflächennetz mit den hervorgehobenen Kanten unter Verwendung des transfiniten Algorithmus mit einer Tendenz (Voreinstellung) in Richtung der Kante des Ausschnitts erstellen}}
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[FEM_MeshAdvanced|Advanced Refinement Types]]
-|[[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]
-|[[FEM_Workbench|FEM]]
+{{Docnav/de
+|[[FEM_MeshAdvanced/de|Erweiterte Filteroptionen]]
+|[[FEM_MeshTransfiniteSurface/de|Strukturierte transfinite Fläche]]
+|[[FEM_Workbench/de|FEM]]
 |IconL=FEM_MeshAdvanced.svg
 |IconR=FEM_MeshTransfiniteSurface.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
