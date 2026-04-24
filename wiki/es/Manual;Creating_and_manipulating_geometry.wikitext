@@ -176,9 +176,7 @@ E3 = Part.Edge(C1)
 E4 = Part.Edge(C2)
 }}
 
-<div class="mw-translate-fuzzy">
-Alternativamente, las geometrías base también tienen una función toShape() que hace exactamente lo mismo:
-</div>
+Alternativamente, las geometrías base también tienen una función '''toShape()''' que hace exactamente lo mismo:
 
 {{Code|code=
 E1 = L1.toShape()
