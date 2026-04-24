@@ -50,8 +50,8 @@ The '''FEM MeshDistance''' command can be used to set mesh size based on the dis
 # Optionally, switch the ''Interpolation: Linear'' field to define if interpolation of mesh size between SizeMinimum and SizeMaximum should be linear or sigmoid function.
 # Optionally, specify the ''Sampling size'' to define the number of sampling points used to discretize curves and surfaces. For surfaces it is the sampling size per direction.
 # Optionally, press the {{Button|[[Image:Preferences-system.svg|x16px]]}} button to edit the global refinement preview settings:
-#* Auto enable on open - automatically enables the visualization of the refinement mesh size when opening a refinement task dialog.
-#* Preview mesh fineness - determines how fine the preview mesh is. Larger number means finer mesh (smaller elements).
+#* ''Auto enable on open'' - automatically enables the visualization of the refinement mesh size when opening a refinement task dialog.
+#* ''Preview mesh fineness'' - determines how fine the preview mesh is. Larger number means finer mesh (smaller elements).
 # Optionally, press the {{Button|Visualize}} button to visualize the refinement mesh size output. It shows the mesh sizes given by the refinement as colors on a preview mesh. Note that the preview evaluates the refinement on a coarse mesh so details smaller than the mesh size may not be visible.
 # Press the {{Button|Add}} button. Select a vertex, edge or face. To remove objects from the selection, press the {{Button|Remove}} button.
 # Click the {{Button|OK}} button.
