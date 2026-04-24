@@ -58,9 +58,7 @@ La commande '''FEM Maillage fonction de la distance''' permet de définir la tai
 
 Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l'aide de l'[[Property_View/fr|éditeur de propriétés]]. Après avoir modifié une propriété, vous devez rouvrir la fenêtre de dialogue Gmsh et cliquer sur le bouton {{Button|Appliquer}}. (Vous pouvez laisser la fenêtre de dialogue ouverte pendant la modification des propriétés).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You can create as many different distance-based refinements as needed.
-</div>
+Vous pouvez créer autant d'affinages différents basés sur la distance que nécessaire.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_distance_based_refinement.PNG|700px]]
