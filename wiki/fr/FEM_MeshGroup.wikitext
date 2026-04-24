@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[FEM_MeshRegion/fr|Mailler plus finement]]
-|[[FEM_CreateElementsSet/fr|Masquer des éléments]]
+|[[FEM_MeshDistance/fr|Maillage fonction de la distance]]
 |[[FEM_Workbench/fr|Atelier FEM]]
 |IconL=FEM_MeshRegion.svg
-|IconR=FEM_CreateElementsSet.svg
+|IconR=FEM_MeshDistance.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{GuiCommand/fr
 |Name=FEM MeshGroup
