@@ -105,7 +105,7 @@ Aunque FreeCAD normalmente se abre en la página de inicio, esta configuración 
 Aquí se definen los parámetros básicos para importar y exportar en varios formatos.
 
 <span id="Installing_additional_content"></span>
-=== Instalación de contenidos adicionales ===
+=== Instalando contenidos adicionales ===
 
 <div class="mw-translate-fuzzy">
 Como el proyecto FreeCAD y su comunidad crecen rápidamente, y también porque es fácil de extender, las contribuciones externas y los proyectos secundarios realizados por los miembros de la comunidad y otros entusiastas comienzan a aparecer por todas partes en Internet. La mayoría de estos proyectos externos son ambientes de trabajo o macros, y pueden ser fácilmente instalados desde FreeCAD a través del [[Std_AddonMgr/es|Administrador de Complementos]] situado en el menú '''Herramientas'''. El gestor de complementos te permitirá instalar muchos componentes interesantes, por ejemplo:
