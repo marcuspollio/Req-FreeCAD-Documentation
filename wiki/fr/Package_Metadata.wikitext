@@ -310,15 +310,6 @@ La version maximale de FreeCAD requise pour utiliser le package/élément, sous 
 
 (Nouveau dans FreeCAD 0.21, ignoré par les versions précédentes). La version minimale requise de Python pour utiliser le package/élément, sous la forme d'une chaîne sémantique version 2.0 au format MAJOR.MINOR. Le gestionnaire des extensions ne permettra pas l'installation d'une extension sur un système utilisant une version de Python antérieure à celle-ci. Seules les versions Python 3.x sont prises en charge. Bien que vous puissiez spécifier une version à trois composants, seul le numéro mineur est pris en compte lors de la vérification de la compatibilité.
 
-== Validation ==
-
-Pour valider votre fichier package.xml, vous pouvez activer le "mode développeur" dans le gestionnaire d'addons : créez une variable booléenne appelée "developerMode" dans le groupe de paramètres "Addons" et définissez-la sur True : {{MenuCommand|Outils → Editer les paramètres... → BaseApp → Préférences → Addons → developerMode}}. Lorsque le gestionnaire d'addons a fini de lire la base de données des addons, il examine tous les fichiers package.xml disponibles à la recherche d'erreurs.
-
-<span id="Quick_guide"></span>
-== Guide rapide ==
-
-Pour un guide rapide sur la façon de créer un fichier package.xml de base et d'ajouter un atelier au [[Std_AddonMgr/fr|Gestionnaire des extensions]] voir : [[Add_Workbench_to_Addon_Manager/fr|Ajouter un atelier au gestionnaire des extensions]].
-
 <span id="Examples"></span>
 == Exemples ==
 
