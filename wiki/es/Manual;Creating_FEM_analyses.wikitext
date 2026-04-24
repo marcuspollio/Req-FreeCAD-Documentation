@@ -42,17 +42,17 @@ En esta sección, ilustraremos el procedimiento general de análisis de elemento
 
 Primero, crearemos nuestra geometría simple. Para ello, utilizaremos el entorno de trabajo [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign]].
 
-* Cree un nuevo documento y vaya al Entorno de Trabajo [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|PartDesign]].
+* Cree un nuevo documento y vaya al Entorno de Trabajo [[Image:Workbench_PartDesign.svg|16px]] [[PartDesign_Workbench|Diseño de Pieza]].
 
 * Pulse [[Image:Sketcher_NewSketch.svg|16px]] [[Sketcher_NewSketch|Nuevo Boceto]] para crear un nuevo boceto en el plano YZ.
 
 * Genere un rectángulo centrado alrededor del punto de origen.
 
-** Con la herramienta [[Image:Sketcher_Dimension.svg|16px]] [[Sketcher_Dimension|Sketcher Dimension]], asigne la dimensión vertical de '''20 mm''' y la horizontal de '''10 mm'''.
+** Con la herramienta [[Image:Sketcher_Dimension.svg|16px]] [[Sketcher_Dimension|Dimensión del Esbozador]], asigne la dimensión vertical de '''20 mm''' y la horizontal de '''10 mm'''.
 
 * Salga del modo de boceto.
 
-* Tras seleccionar nuestro boceto recién creado, se aplica una operación de relleno ([[Image:PartDesign_Pad.svg|16px]] [[PartDesign_Pad|padding]]) con una longitud de '''1000 mm'''.
+* Tras seleccionar nuestro boceto recién creado, se aplica una operación de ([[Image:PartDesign_Pad.svg|16px]] [[PartDesign_Pad|Relleno]]) con una longitud de '''1000 mm'''.
 
 * Nuestra geometría ya está lista.
 
