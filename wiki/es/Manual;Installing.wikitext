@@ -37,9 +37,7 @@ Empaquetar FreeCAD y desarrollar un instalador requiere una inversión considera
 <span id="Installing_on_Linux"></span>
 === Instalación en Linux ===
 
-<div class="mw-translate-fuzzy">
-En la mayoría de las distribuciones modernas de Linux (Ubuntu, Fedora, openSUSE, Debian, Mint, Elementary, etc), FreeCAD puede instalarse con el clic de un botón, directamente desde la aplicación de gestión de software proporcionada por su distribución (el aspecto de la misma puede diferir de las imágenes de abajo, cada distribución utiliza su propia herramienta).
-</div>
+Para los usuarios de distribuciones modernas de Linux como Ubuntu, Fedora, openSUSE, Debian, Mint y Elementary, instalar FreeCAD es tan sencillo como hacer un clic. Puede instalarlo fácilmente a través de la herramienta de gestión de software que proporciona su distribución, aunque la apariencia de estas herramientas puede diferir de las imágenes ilustrativas, ya que cada distribución utiliza su propia aplicación.
 
 <div class="mw-translate-fuzzy">
 # Abre el gestor de software y busca "freecad": <br>[[Image:Freecad-linux-install-01.jpg|800px]]
