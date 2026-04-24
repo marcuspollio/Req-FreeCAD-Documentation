@@ -214,9 +214,7 @@ Tenga en cuenta que P ya es un '''Sólido''':
 print(P.ShapeType) 
 }}
 
-<div class="mw-translate-fuzzy">
-Esto se debe a que cuando extruimos una sola Cara, siempre obtenemos un Sólido. Este no sería el caso, por ejemplo, si hubiéramos extruido el Hilo en su lugar:
-</div>
+Esto se debe a que cuando extruimos una sola cara, siempre obtenemos un sólido. Esto no ocurriría, por ejemplo, si hubiéramos extruido el alambre en su lugar:
 
 {{Code|code=
 S = W.extrude(FreeCAD.Vector(0,0,10))
