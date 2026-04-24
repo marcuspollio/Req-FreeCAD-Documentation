@@ -33,28 +33,24 @@ La commande '''FEM Courbe structurée transfinie''' crée un nombre fixe de nœu
 <span id="Usage"></span>
 ==Utilisation==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# To enable the command a [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
-# Select the Mesh object in the [[Tree_View|Tree View]].
-# There are several ways to invoke the command:
-#* Press the {{Button|[[Image:FEM_MeshTransfiniteCurve.svg|16px]] [[FEM_MeshTransfiniteCurve|Structured Transfinite Curve]]}} button.
-#* Select the {{MenuCommand|Mesh → GMSH Refinements → [[Image:FEM_MeshTransfiniteCurve.svg|16px]] Structured Transfinite Curve}} option from the menu.
-# Select the type of node distribution on an edge:
-#* ''Constant'' - specify the number of nodes
-#* ''Bump'' - refinement towards both ends of the curve: specify the number of nodes and the coefficient
-#* ''Progression'' - geometrical progression with power x: specify the number of nodes and the coefficient x (e.g. 2 means that each element on the edge will be twice as long as the preceding one)
-# Optionally, check the ''Invert'' box.
-# Press the {{Button|Add}} button. Select a vertex, edge or face. To remove objects from the selection, press the {{Button|Remove}} button.
-# Click the {{Button|OK}} button.
-# Close the task.
-#: Result: You now should see a new {{incode|TransfiniteCurve}} object under the {{incode|FEMMeshGmsh}} object in your active analysis container.
-# Double-click on the {{incode|FEMMeshGmsh}} parent object in your Model Tree and press {{Button|Apply}} to force a mesh recalculation.
-# Close the task.
-</div>
+# Pour activer la commande, il faut d'abord fournir un [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/fr|maillage Gmsh]].
+# Sélectionnez l'objet Mesh dans l'[[Tree_View/fr|arborescence]].
+# Il existe plusieurs façons de lancer la commande :
+#* Appuyez sur le bouton {{Button|[[Image:FEM_MeshTransfiniteCurve.svg|16px]] [[FEM_MeshTransfiniteCurve/fr|Courbe structurée transfinie]]}}.
+#* Sélectionnez l'option {{MenuCommand|Maillage → Affinements Gmsh → [[Image:FEM_MeshTransfiniteCurve.svg|16px]] Courbe structurée transfinie}} du menu.
+# Sélectionnez le type de distribution des nœuds sur une arête :
+#* ''Constante'' : spécifiez le nombre de nœuds.
+#* ''Densification bilatérale'' : affinage sur les deux extrémités de la courbe : spécifiez le nombre de nœuds et le coefficient.
+#* ''Progression'' : progression géométrique de puissance x : spécifiez le nombre de nœuds et le coefficient x (par exemple, 2 signifie que chaque élément de l'arête sera deux fois plus long que le précédent)
+# Vous pouvez cocher la case ''Inverser''.
+# Cliquez sur le bouton {{Button|Ajouter}}. Sélectionnez un sommet, une arête ou une face. Pour supprimer des objets de la sélection, cliquez sur le bouton {{Button|Supprimer}}.
+# Cliquez sur le bouton {{Button|OK}}.
+# Fermez la tâche.
+#: Résultat : vous devriez maintenant voir un nouvel objet {{incode|TransfiniteCurve}} sous l'objet {{incode|FEMMeshGmsh}} dans votre conteneur d'analyse actif.
+# Double-cliquez sur l'objet parent {{incode|FEMMeshGmsh}} dans votre arborescence de modèle et appuyez sur {{Button|Appliquer}} pour forcer un recalcul du maillage.
+# Fermez la tâche.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-After the mesh has been created you can change its properties using the [[Property_View|Property View]]. After you changed a property, you must reopen the Gmsh dialog again and click the {{Button|Apply}} button. (You can leave the dialog open while changing properties.)
-</div>
+Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l'aide de l'[[Property_View/fr|éditeur de propriétés]]. Après avoir modifié une propriété, vous devez rouvrir la fenêtre de dialogue Gmsh et cliquer sur le bouton {{Button|Appliquer}}. (Vous pouvez laisser la fenêtre de dialogue ouverte pendant la modification des propriétés).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 You can create as many different transfinite curves as needed.
