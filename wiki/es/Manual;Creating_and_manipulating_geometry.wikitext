@@ -196,9 +196,7 @@ Y podemos comprobar si nuestro cable se ha entendido correctamente y si está co
 print( W.isClosed() ) 
 }}
 
-<div class="mw-translate-fuzzy">
-Que imprimirá "Verdadero" o "Falso". Para hacer una Cara, necesitamos Hilos cerrados, por lo que siempre es una buena idea comprobarlo antes de crear la Cara. Ahora podemos crear una Cara, dándole un solo Alambre (o una lista de Alambres si queremos agujeros):
-</div>
+Esto imprimirá "Verdadero" o "Falso". Para crear una "cara", necesitamos "cables cerrados", por lo que siempre es una buena idea comprobarlo antes de crearla. Ahora podemos crear una cara, proporcionándole un solo cable (o una lista de cables si queremos agujeros):
 
 {{Code|code=
 F = Part.Face(W) 
