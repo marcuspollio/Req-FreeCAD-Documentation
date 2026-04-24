@@ -75,16 +75,14 @@ Es können so viele verschiedene erweiterte Filterkriterien wie nötig erstellt 
 {{Caption|Beispiel für eine erweiterte Verfeinerung mit MathEval unter Verwendung der folgenden Funktion: 0.05 + 0.4 * (16 * x^2 * y^2 * (x^2 - y^2)^2 / (x^2 + y^2)^4) + 0.1 * (Sqrt(x^2 + y^2) - 4)}}
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[FEM_MeshManipulate|Manipulate Refinement]]
-|[[FEM_MeshTransfiniteCurve|Structured Transfinite Curve]]
-|[[FEM_Workbench|FEM]]
+{{Docnav/de
+|[[FEM_MeshManipulate/de|Verfeinerung bearbeiten]]
+|[[FEM_MeshTransfiniteCurve/de|Strukturierte transfinite Kurve]]
+|[[FEM_Workbench/de|FEM]]
 |IconL=FEM_MeshManipulate.svg
 |IconR=FEM_MeshTransfiniteCurve.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
