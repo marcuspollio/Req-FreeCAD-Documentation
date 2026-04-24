@@ -190,9 +190,7 @@ Una vez que tenemos una serie de aristas, podemos formar un '''Cable''' asignán
 W = Part.Wire([E1,E4,E2,E3]) 
 }}
 
-<div class="mw-translate-fuzzy">
-Y podemos comprobar si nuestro hilo se ha entendido correctamente, y que está correctamente cerrado:
-</div>
+Y podemos comprobar si nuestro cable se ha entendido correctamente y si está correctamente cerrado:
 
 {{Code|code=
 print( W.isClosed() ) 
