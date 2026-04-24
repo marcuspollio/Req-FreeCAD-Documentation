@@ -9,13 +9,12 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommandContainer
 |
 {{GuiCommand/fr
 |Name=FEM MeshBoundaryLayer
 |Name/fr=FEM Couche limite de maillage FEM
-|MenuLocation=Maillage → Créer une couche limite de maillage
+|MenuLocation=Maillage → Affinements Gmsh → Couche aux limites du modèle 2D
 |Workbenches=[[FEM_Workbench/fr|FEM]]
 |SeeAlso=[[FEM_tutorial/fr|FEM Tutoriel]]
 }}
@@ -23,7 +22,6 @@
 |Solvers=Tous
 }}
 }}
-</div>
 
 ==Description==
 
