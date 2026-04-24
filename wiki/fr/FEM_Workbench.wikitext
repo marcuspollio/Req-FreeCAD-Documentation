@@ -149,9 +149,7 @@ L'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné qu
 
 :* [[Image:FEM_MeshDistance.svg|32px]] [[FEM_MeshDistance/fr|Maillage fonction de la distance]] : définit la taille du maillage en fonction de la distance par rapport aux sommets, aux arêtes et aux faces. {{Version/fr|1.2}}
 
-<div class="mw-translate-fuzzy">
-* [[Image:FEM_MeshBoundaryLayer.svg|32px]] [[FEM_MeshBoundaryLayer/fr|Couche limite de maillage]] : crée des maillages anisotropes pour des calculs précis près des frontières.
-</div>
+:* [[Image:FEM_MeshBoundaryLayer.svg|32px]] [[FEM_MeshBoundaryLayer/fr|Couche aux limites]] : crée des maillages anisotropes pour des calculs précis près des limites.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:FEM_MeshShape.svg|32px]] [[FEM_MeshShape|Shape-Based Refinement]]: Sets mesh size within and outside of a geometric shape (box, sphere or cylinder). {{Version|1.2}}
