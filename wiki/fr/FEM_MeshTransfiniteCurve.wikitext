@@ -9,24 +9,21 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommandContainer|
-{{GuiCommand
+{{GuiCommand/fr
 |Name=FEM MeshTransfiniteCurve
-|MenuLocation=Mesh → GMSH Refinements → Structured Transfinite Curve
-|Workbenches=[[FEM_Workbench|FEM]]
+|Name/fr=FEM Courbe structurée transfinie
+|MenuLocation=Maillage → Affinements Gmsh → Courbe structurée transfinie
+|Workbenches=[[FEM_Workbench/fr|FEM]]
 |Version=1.2
-|SeeAlso=[[FEM_tutorial|FEM tutorial]]
+|SeeAlso=[[FEM_tutorial/fr|FEM Tutoriel]]
 }}
-{{GuiCommandFemInfo
-|Solvers=All
+{{GuiCommandFemInfo/fr
+|Solvers=Tous
 }}
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 ==Description==
-</div>
 
 La commande '''FEM Courbe structurelle transfinie''' crée un nombre fixe de nœuds sur une arête à l'aide d'un algorithme structuré.
 
