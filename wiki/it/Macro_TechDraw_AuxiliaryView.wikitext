@@ -55,15 +55,12 @@ Disegnare manualmente le viste ausiliarie richiede una seconda vista di base per
 # Trascinare la vista ausiliaria nella posizione desiderata.
 # Modificare il tag di direzione e il tag di vista di conseguenza.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Notes==
-</div>
+<span id="Notes"></span>
+==Note==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* The selection order of the vertices controls the view direction.
-* The view origin is the center of the bounding box and thus useless for any geometric operation like measuring the distance to the line/vector between the selected vertices. Such a distance would allow to define a section line in the base view and use the information in 3D space to create a section view.
-* The auxiliary views are placed at the page center by default and have to be positioned manually.
-</div>
+* L'ordine di selezione dei vertici controlla la direzione di visualizzazione.
+* L'origine della vista è il centro del parallelepipedo di delimitazione e quindi è inutile per qualsiasi operazione geometrica come la misurazione della distanza dalla linea/vettore che unisce i vertici selezionati. Tale distanza consentirebbe di definire una linea di sezione nella vista base e di utilizzare le informazioni nello spazio 3D per creare una vista in sezione.
+* Le viste ausiliarie sono posizionate al centro della pagina per impostazione predefinita e devono essere posizionate manualmente.
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
