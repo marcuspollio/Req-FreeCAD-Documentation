@@ -29,7 +29,7 @@ Para ilustrar el uso del Entorno de Trabajo de Piezas, modelaremos esta mesa uti
 
 [[Image:Exercise_table_complete.jpg]]
 
-Vamos a crear un nuevo documento ('''Ctrl+N''' o menú '''Archivo → Nuevo''') para el diseño de nuestra mesa. Inicialmente, el documento se llama "Sin nombre" en la pestaña Modelo del panel Vista combinada. Si guarda el documento ('''Ctrl+Mayús+S''' o menú '''Archivo → Guardar como''') como "table.FCStd", se renombrará como "table", lo que identifica el proyecto con mayor claridad. Usaremos milímetros (mm) como unidades de longitud aunque puede cambiar las unidades según sus preferencias mediante el menú situado en la esquina inferior derecha. 
+Vamos a crear un nuevo documento ('''Ctrl+N''' o menú '''Archivo → Nuevo''') para el diseño de nuestra mesa. Inicialmente, el documento se llama "Sin nombre" en la pestaña Modelo del panel Vista combinada. Si guarda el documento ('''Ctrl+Mayús+S''' o menú '''Archivo → Guardar como''') como "''table.FCStd''", se renombrará como "''table''", lo que identifica el proyecto con mayor claridad. Usaremos milímetros (mm) como unidades de longitud aunque puede cambiar las unidades según sus preferencias mediante el menú situado en la esquina inferior derecha. 
 
 Ahora podemos pasar al Entorno de Trabajo de Piezas y crear nuestra primera pata de mesa.
 
