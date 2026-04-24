@@ -58,7 +58,7 @@ En el siguiente ejercicio, veremos cómo crear un dibujo sencillo de un modelo d
 
 * Podemos ajustar el aspecto de nuestras vistas si queremos; por ejemplo, podemos cambiar su propiedad '''Ancho de línea''' (en la pestaña Vista en la Vista combinada) a 0,5.
 
-Ahora colocaremos cotas e indicaciones en nuestro dibujo. Hay dos maneras de añadir cotas a un modelo: una es colocar las cotas dentro del modelo 3D, usando la herramienta [[Image:Draft_Dimension.svg|16px]] [[Draft_Dimension|Dimension]] del [[Draft_Workbench|Draft Workbench]], y luego colocar una vista de estas cotas en nuestra hoja con la herramienta [[Image:TechDraw_DraftView.svg|16px]] [[TechDraw_DraftView|TechDraw DraftView]]. La otra es hacerlo directamente en la hoja de TechDraw. Usaremos este último método.
+Ahora colocaremos cotas e indicaciones en nuestro dibujo. Hay dos maneras de añadir cotas a un modelo: una es colocar las cotas dentro del modelo 3D, usando la herramienta [[Image:Draft_Dimension.svg|16px]] [[Draft_Dimension|Dimension]] del [[Draft_Workbench|Entorno de Trabajo de Borrador]], y luego colocar una vista de estas cotas en nuestra hoja con la herramienta [[Image:TechDraw_DraftView.svg|16px]] [[TechDraw_DraftView|Vista de Trabajo de Dibujo Técnico]]. La otra es hacerlo directamente en la hoja de TechDraw. Usaremos este último método.
 
 * Pulse el botón [[Image:TechDraw_ToggleFrame.svg|16px]] para activar los vértices.
 
