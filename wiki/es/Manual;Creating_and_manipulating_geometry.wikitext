@@ -202,7 +202,7 @@ Esto imprimirá "Verdadero" o "Falso". Para crear una "cara", necesitamos "cable
 F = Part.Face(W) 
 }}
 
-Entonces lo extruimos:
+Luego lo extruimos:
 
 {{Code|code=
 P = F.extrude(FreeCAD.Vector(0,0,10)) 
