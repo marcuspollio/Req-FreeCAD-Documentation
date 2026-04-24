@@ -309,16 +309,6 @@ Die maximale Version von FreeCAD, die für die Verwendung des Pakets/Elements er
 
 (Neu in FreeCAD 0.21, in früheren Versionen ignoriert.) Die Mindestversion von Python, die für die Verwendung des Pakets/Elements erforderlich ist, als semantische Version 2.0-Zeichenkette im Format MAJOR.MINOR. Der Addon-Manager erlaubt keine Installation eines Addons auf einem System, auf dem eine ältere Version von Python läuft. Es werden nur Python 3.x-Versionen unterstützt. Obwohl eine dreiteilige Version angegeben werden kann, wird bei der Kompatibilitätsprüfung nur die Minor-Nummer berücksichtigt.
 
-<span id="Validation"></span>
-== Validierung ==
-
-Um die package.xml-Datei zu validieren, kann man den "Entwicklermodus" im Addon-Manager aktivieren: Eine boolesche Variable namens "developerMode" in der Parametergruppe "Addons" erstellen und sie auf True setzen: {{MenuCommand|Werkzeuge → Parameter bearbeiten... → BaseApp → Einstellungen → Addons → Entwicklermodus}}. Nachdem der Addon-Manager die Addons-Datenbank gelesen hat, überprüft er alle verfügbaren package.xml-Dateien auf Fehler.
-
-<span id="Quick_guide"></span>
-== Kurzanleitung ==
-
-Für eine Kurzanleitung wie man eine einfache package.xml-Datei erstellt und einen Arbeitsbereich zum [[Std_AddonMgr/de|Addon-Manager]] hinzufügt, siehe: [[Add_Workbench_to_Addon_Manager/de|Arbeitsbereich zum Addon-Manager hinzufügen]].
-
 <span id="Examples"></span>
 == Beispiele ==
 
