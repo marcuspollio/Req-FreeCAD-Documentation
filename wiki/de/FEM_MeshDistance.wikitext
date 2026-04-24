@@ -70,16 +70,14 @@ Es können so viele verschiedene, auf der Entfernung basierende Verfeinerungen e
 {{Caption|Beispiel für eine abstandsabhängige Netzverfeinerung}}
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[FEM_MeshGroup|Mesh Group]]
-|[[FEM_MeshBoundaryLayer|2D Boundary Layer]]
-|[[FEM_Workbench|FEM]]
+{{Docnav/de
+|[[FEM_MeshGroup/de|Netz-Gruppe]]
+|[[FEM_MeshBoundaryLayer/de|2D-Grenzschicht]]
+|[[FEM_Workbench/de|FEM]]
 |IconL=FEM_MeshGroup.svg
 |IconR=FEM_MeshBoundaryLayer.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
