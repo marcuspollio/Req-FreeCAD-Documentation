@@ -27,9 +27,7 @@
 
 ==Description==
 
-<div class="mw-translate-fuzzy">
-La commande '''FEM Couche limite de maillage''' permet à l'utilisateur de définir un jeu donné de paramètres de maillage en sélectionnant un ensemble d'éléments (sommet, arête, face) et en lui appliquant des paramètres.
-</div>
+La commande '''FEM Couche limite de maillage''' permet à l'utilisateur de définir un ensemble localisé de paramètres de maillage en sélectionnant une arête et en y appliquant ces paramètres.
 
 Elle est particulièrement utile pour mailler plus finement à proximité des bords ou des surfaces dans les simulations d'écoulement. Par exemple, elle peut être utilisée pour mailler plus finement à proximité d'un profil aérodynamique ou d'un obstacle dans un écoulement.
 
