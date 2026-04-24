@@ -115,7 +115,7 @@ class ParametricRectangle:
         obj.Shape = f
 }}
 
-En lugar de pegar el código anterior en la consola de Python, es mejor guardarlo en algún lugar para poder reutilizarlo y modificarlo más adelante. Por ejemplo, en una nueva macro (menú '''Macro -> Macros -> Crear'''). Nómbrela, por ejemplo, '''ParamRectangle'''. Sin embargo, las macros de FreeCAD se guardan con la extensión '''.FCMacro''', que Python no reconoce al usar la importación. Por lo tanto, antes de usar el código anterior, tendremos que cambiar el nombre del archivo '''ParamRectangle.FCMacro''' a '''ParamRectangle.py'''. Esto se puede hacer fácilmente desde el explorador de archivos, navegando a la carpeta Macros indicada en el menú '''Herramientas -> Macros'''.
+En lugar de pegar el código anterior en la consola de Python, es mejor guardarlo en algún lugar para poder reutilizarlo y modificarlo más adelante. Por ejemplo, en una nueva macro (menú '''Macro → Macros → Crear'''). Nómbrela, por ejemplo, '''ParamRectangle'''. Sin embargo, las macros de FreeCAD se guardan con la extensión '''.FCMacro''', que Python no reconoce al usar la importación. Por lo tanto, antes de usar el código anterior, tendremos que cambiar el nombre del archivo '''ParamRectangle.FCMacro''' a '''ParamRectangle.py'''. Esto se puede hacer fácilmente desde el explorador de archivos, navegando a la carpeta Macros indicada en el menú '''Herramientas → Macros'''.
 
 Una vez hecho esto, podemos hacerlo ahora en la consola de Python:
 
