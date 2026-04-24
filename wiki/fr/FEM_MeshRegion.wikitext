@@ -73,16 +73,14 @@ L'ordre dans lequel les régions sont affichées dans l'[[Tree_View/fr|arboresce
 * "Mesh Regions for a Better Analysis" : tutoriel vidéo par Joko Engineering ([https://www.youtube.com/watch?v=X5RVe2SDPvw lien])
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
-|[[FEM_MeshBoundaryLayer/fr|Couche limite de maillage]]
+|[[FEM_MeshGmshFromShape/fr|Mailler avec Gmsh]]
 |[[FEM_MeshGroup/fr|Grouper un maillage]]
 |[[FEM_Workbench/fr|Atelier FEM]]
-|IconL=FEM_MeshBoundaryLayer.svg
+|IconL=FEM_MeshGmshFromShape.svg
 |IconR=FEM_MeshGroup.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
