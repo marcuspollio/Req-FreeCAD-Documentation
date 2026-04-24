@@ -32,9 +32,7 @@ Si planea instalar FreeCAD en una máquina virtual, tenga en cuenta que su rendi
 
 '''Instalando una versión en desarrollo'''
 
-<div class="mw-translate-fuzzy">
-Empaquetar FreeCAD y crear un instalador lleva algo de tiempo y dedicación, así que normalmente las versiones de desarrollo (también llamadas pre-lanzamiento) se proporcionan como archivos .zip (o .7z). Estos no necesitan ser instalados; sólo tienes que descomprimirlos y lanzar FreeCAD haciendo doble clic en el archivo FreeCAD.exe que encontrarás dentro. Esto también te permite mantener tanto la versión estable como la "inestable" juntas en el mismo ordenador.
-</div>
+Empaquetar FreeCAD y desarrollar un instalador requiere una inversión considerable de tiempo y esfuerzo. Por ello, las versiones de desarrollo (también conocidas como versiones preliminares) suelen distribuirse en archivos .zip o .7z disponibles en la página de descargas de FreeCAD [https://www.freecad.org/downloads.php]. No es necesario un proceso de instalación formal; simplemente extraiga el contenido e inicie FreeCAD haciendo doble clic en el archivo FreeCAD.exe. Este método también le permite mantener tanto la versión estable como la "inestable" en el mismo ordenador. ¡Es como tener un coche fiable para el día a día y un propulsor experimental en su garaje!
 
 <span id="Installing_on_Linux"></span>
 === Instalación en Linux ===
