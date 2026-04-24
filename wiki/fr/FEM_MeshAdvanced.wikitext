@@ -9,20 +9,19 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommandContainer|
-{{GuiCommand
+{{GuiCommand/fr
 |Name=FEM MeshAdvanced
-|MenuLocation=Mesh → GMSH Refinements → Advanced Refinement Types
-|Workbenches=[[FEM_Workbench|FEM]]
+|Name/fr=FEM Affinage avancé
+|MenuLocation=Maillage → Affinements Gmsh → Types d'affinage avancé
+|Workbenches=[[FEM_Workbench/fr|FEM]]
 |Version=1.2
-|SeeAlso=[[FEM_tutorial|FEM tutorial]]
+|SeeAlso=[[FEM_tutorial/fr|FEM Tutoriel]]
 }}
-{{GuiCommandFemInfo
-|Solvers=All
+{{GuiCommandFemInfo/fr
+|Solvers=Tous
 }}
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Description==
