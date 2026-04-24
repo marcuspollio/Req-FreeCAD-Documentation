@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
-|[[FEM_MeshBoundaryLayer/fr|Couche limite de maillage]]
+|[[FEM_MeshGmshFromShape/fr|Mailler avec Gmsh]]
 |[[FEM_MeshGroup/fr|Grouper un maillage]]
 |[[FEM_Workbench/fr|Atelier FEM]]
-|IconL=FEM_MeshBoundaryLayer.svg
+|IconL=FEM_MeshGmshFromShape.svg
 |IconR=FEM_MeshGroup.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{GuiCommandContainer
 |
