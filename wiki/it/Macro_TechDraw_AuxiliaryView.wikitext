@@ -47,15 +47,13 @@ Disegnare manualmente le viste ausiliarie richiede una seconda vista di base per
 <span id="Usage"></span>
 ==Utilizzo==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Make sure to [[Image:TechDraw_ToggleFrame.svg|16px]] [[TechDraw_ToggleFrame|turn frames on]] and vertices are selectable.
-# Select two vertices in the same view.
-# Run this macro.
-# A new '''AuxiliaryView''' is created including an "AuxView X" view tag (a simple text field).
-# A view arrow is added to the base view including an "X" direction tag.
-# Drag the auxiliary view in place.
-# Edit the direction tag, and the view tag accordingly.
-</div>
+# Assicurarsi che siano [[Image:TechDraw_ToggleFrame.svg|16px]] [[TechDraw_ToggleFrame/it|attivi i frame]] e che i vertici siano selezionabili.
+# Selezionare due vertici nella stessa vista.
+# Eseguire questa macro.
+# Viene creata una nuova '''VistaAusiliaria''' che include un tag di vista "AuxView X" (un semplice campo di testo).
+# Viene aggiunta una freccia di vista alla vista base che include un tag di direzione "X".
+# Trascinare la vista ausiliaria nella posizione desiderata.
+# Modificare il tag di direzione e il tag di vista di conseguenza.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Notes==
