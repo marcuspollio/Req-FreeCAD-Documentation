@@ -59,12 +59,12 @@ Después de crear las paredes, el siguiente paso es unirlas para que se crucen c
 Sin embargo, las paredes individuales aún son accesibles al expandir la pared en la vista de árbol.
 
 * Ahora vamos a colocar una puerta pulsando sobre la herramienta [[Image:BIM_Door.svg|16px]] [[BIM_Door|Puerta]].
-* Empieza seleccionando la pared. Aunque este paso no es obligatorio, es un hábito útil que conviene adquirir. Si se selecciona un objeto antes de iniciar una operación, esta se aplicará automáticamente a esa entidad de forma predeterminada. 
+* Empiece seleccionando la pared. Aunque este paso no es obligatorio, es un hábito útil que conviene adquirir. Si se selecciona un objeto antes de iniciar una operación, esta se aplicará automáticamente a esa entidad de forma predeterminada. 
 * Establezca el [[Image:View-axonometric.svg|16px]] [[Draft_SelectPlane|Plano de trabajo]] en '''auto''' para no estar restringidos al plano del suelo.
 * Pulse el botón [[Image:BIM_Door.svg|16px]]  [[BIM_Door|Puerta]].
-* En el panel de creación de puertas, seleccione el ajuste preestablecido '''Puerta de cristal''' y establezca su '''Ancho''' en 1 m y su '''Altura''' en 2,1 m. Observará que puede elegir entre varios tipos de puertas y configurar sus parámetros como desee. En FreeCAD, una puerta se deriva de una operación [[Arch_Window|ventana]].
-* Asegúrate de que la opción [[Image:Draft_Snap_Near.svg|16px]] [[Draft_Snap_Near|Ajustar cerca]] está activada, para que podamos ajustar las caras
-* Coloca la puerta aproximadamente en el centro de la cara frontal de la pared:
+* En el panel de creación de puertas, seleccione el ajuste preestablecido '''Puerta de cristal''' y establezca su '''Ancho''' en 1 m y la '''Altura''' en 2,1 m. Observará que puede elegir entre varios tipos de puertas y configurar sus parámetros como desee. En FreeCAD, una puerta se deriva de una operación [[Arch_Window|ventana]].
+* Asegúrase de que la opción [[Image:Draft_Snap_Near.svg|16px]] [[Draft_Snap_Near|Ajustar cerca]] está activada, para que podamos ajustar las caras
+* Coloque la puerta aproximadamente en el centro de la cara frontal de la pared:
 
 [[File:FreeCAD BIMDoor.png]]
 
