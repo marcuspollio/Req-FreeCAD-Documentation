@@ -14,7 +14,7 @@
 <!--T:2-->
 {{GuiCommandContainer|
 {{GuiCommand
-|Name=FEM MeshShape
+|Name=FEM MeshManipulate
 |MenuLocation=Mesh → GMSH Refinements → Manipulate Refinement
 |Workbenches=[[FEM_Workbench|FEM]]
 |Version=1.2
