@@ -52,9 +52,8 @@ Une fois que le maillage a été créé, vous pouvez modifier ses propriétés �
 
 Vous pouvez créer autant de volumes transfinis que nécessaire.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Notes==
-</div>
+<span id="Notes"></span>
+==Remarques==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Using this tool with the ''Auto apply transfinite surfaces and curves'' and ''Recombine'' checkboxes enabled is the easiest way to generate structured hexahedral meshes using the transfinite Gmsh algorithm. All subvolumes must have 5 or 6 faces with 3 or 4 edges each, though.
