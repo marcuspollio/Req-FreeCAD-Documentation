@@ -21,7 +21,7 @@ En este capítulo veremos cómo modelar este pequeño edificio:
 
 [[File:FreeCAD BIMHouse.png]]
 
-* Cree un nuevo documento y cambie al [[Archivo:Workbench_BIM.svg|16px]] [[BIM_Workbench|Entorno de Trabajo BIM]].
+* Cree un nuevo documento y cambie al [[File:Workbench_BIM.svg|16px]] [[BIM_Workbench|Entorno de Trabajo BIM]].
 * Abra el menú {{MenuCommand|Editar → Preferencias → Borrador → Cuadrícula y ajuste}} y configure:
 ** '''Líneas principales cada''' {{incode|10}}.
 ** '''Espaciado de la cuadrícula''' {{incode|1000 mm}} para tener una cuadrícula normalizada a un metro, lo que resulta conveniente para el tamaño de nuestro edificio.
@@ -29,7 +29,7 @@ En este capítulo veremos cómo modelar este pequeño edificio:
 * En la '''barra de herramientas de ajuste''' asegúrese de que el botón [[Image:Draft_Snap_Grid.svg|16px]] [[Draft_Snap_Grid|Ajustar cuadrícula]] esté activado, para que podamos utilizar la cuadrícula al máximo.
 * Si no ve los ejes, haga clic en el botón [[Image:Draft_ToggleGrid.svg|16px]] [[Draft_ToggleGrid|Alternar cuadrícula]].
 * Establezca el [[Draft_SelectPlane|Plano de trabajo]] en el plano '''XY'''.
-* Dibuje cuatro líneas con la herramienta [[Image:Draft_Line.svg|16px]] [[Línea de borrador]]. Puede introducir las coordenadas manualmente o simplemente seleccionar los puntos en la cuadrícula con el ratón. Usaremos metros para nuestras dimensiones:
+* Dibuje cuatro líneas con la herramienta [[Image:Draft_Line.svg|16px]] [[Draft Line|Línea de borrador]]. Puede introducir las coordenadas manualmente o simplemente seleccionar los puntos en la cuadrícula con el ratón. Usaremos metros para nuestras dimensiones:
 ** Desde el punto (0,0) hasta el punto (0,3)
 ** Desde el punto (0,3) hasta el punto (4,3)
 ** Desde el punto (4,3) hasta el punto (4,0)
