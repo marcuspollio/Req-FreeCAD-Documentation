@@ -9,7 +9,7 @@
 
 {{Manual:TOC}}
 
-En el [[Manual:Manual:Creating and manipulating geometry|Capítulo anterior]], exploramos cómo crear geometría '''Pieza''' y visualizarla en pantalla adjuntándola a un objeto de documento "mudo" (no paramétrico). Si bien este método es efectivo, se vuelve engorroso cuando se necesita modificar la forma. Cada cambio requiere crear una nueva forma y reasignarla al objeto, lo que se traduce en flujos de trabajo repetitivos e ineficientes.
+En el [[Manual:Creating and manipulating geometry|Capítulo anterior]], exploramos cómo crear la geometría '''Pieza''' y visualizarla en pantalla adjuntándola a un objeto de documento "mudo" (no paramétrico). Si bien este método es efectivo, se vuelve engorroso cuando se necesita modificar la forma. Cada cambio requiere crear una nueva forma y reasignarla al objeto, lo que se traduce en flujos de trabajo repetitivos e ineficientes.
 
 A lo largo de este manual, hemos visto cómo los objetos paramétricos abordan este problema permitiendo actualizaciones dinámicas. Al modificar una sola propiedad, la forma se recalcula automáticamente, eliminando la necesidad de actualizaciones manuales. Este proceso de recálculo permite un modelado más eficiente y aporta adaptabilidad a los diseños. Internamente, los objetos paramétricos funcionan de forma similar a lo que ya hemos visto: recalculan el contenido de su propiedad '''Forma''' cada vez que cambia una de sus propiedades. Este proceso iterativo es fluido y garantiza que el diseño del objeto se mantenga coherente con sus parámetros definidos.
 
