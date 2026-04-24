@@ -42,7 +42,7 @@ Aunque el editor de hojas de cálculo de FreeCAD no es tan completo como aplicac
 
 En FreeCAD, además de las funciones estándar de una hoja de cálculo, existe una función particularmente útil: la capacidad de hacer referencia no solo a otras celdas, sino también a objetos dentro del documento y extraer valores de sus propiedades. Por ejemplo, se pueden recuperar propiedades de objetos 3D que se muestran en la pestaña '''Datos''' del '''Editor de propiedades''' cuando se selecciona un objeto. Esto permite una integración perfecta entre la hoja de cálculo y el modelo 3D, facilitando la vinculación y automatización de cambios basados ​​en los parámetros de los objetos dentro del diseño, lo que ofrece un flujo de trabajo más dinámico e interconectado.
 
-* Comencemos introduciendo un par de textos en las celdas A1, A2 y A3 para recordar qué significa cada uno más adelante; por ejemplo, '''Longitud del cubo''', '''Radio del cilindro''' y '''Radio de la esfera'''. Para introducir texto, simplemente escriba en el campo "Contenido" encima de la hoja de cálculo o haga doble clic en una celda.
+* Comencemos introduciendo un par de textos en las celdas A1, A2 y A3 para recordar qué significa cada uno más adelante; por ejemplo, '''Longitud del cubo''', '''Radio del cilindro''' y '''Radio de la esfera'''. Para introducir texto, simplemente escriba en el campo '''Contenido''' encima de la hoja de cálculo o haga doble clic en una celda.
 
 * Ahora obtengamos la longitud real de nuestro cubo. En la celda B1, escriba '''=Longitud.Cubo'''. Observará que la hoja de cálculo tiene un mecanismo de autocompletado, que es el mismo que el editor de expresiones que usamos en el capítulo anterior.
 
