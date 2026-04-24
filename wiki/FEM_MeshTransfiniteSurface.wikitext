@@ -58,6 +58,13 @@ After the mesh has been created you can change its properties using the [[Proper
 <!--T:9-->
 You can create as many different transfinite surfaces as needed.
 
+[[File:FEM_transfinite_surface_triangle_orientation.png|400px]]
+{{Caption|Illustration of the Left, Right, AlternateRight and AlternateLeft triangle orientations}}
+
+==Notes==
+* Using this tool with the ''Auto apply transfinite curves'' and ''Recombine'' checkboxes enabled is the easiest way to generate structured quadrilateral meshes using the transfinite Gmsh algorithm. All subfaces must have 3 or 4 edges, though.
+
+
 <!--T:11-->
 [[File:FEM_transfinite_surface.png|400px]]
 {{Caption|Transfinite (structured) surface mesh}}
