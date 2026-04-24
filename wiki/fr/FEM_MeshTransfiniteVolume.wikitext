@@ -50,7 +50,7 @@ La commande '''FEM Volume structuré transfini''' crée un maillage structuré d
 
 Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l'aide de l'[[Property_View/fr|éditeur de propriétés]]. Après avoir modifié une propriété, vous devez rouvrir la fenêtre de dialogue Gmsh et cliquer sur le bouton {{Button|Appliquer}}. (Vous pouvez laisser la fenêtre de dialogue ouverte pendant la modification des propriétés).
 
-Vous pouvez créer autant de volumes transfinis que nécessaire.
+Vous pouvez créer autant de volumes différents transfinis que nécessaire.
 
 <span id="Notes"></span>
 ==Remarques==
