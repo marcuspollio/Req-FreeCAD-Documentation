@@ -102,7 +102,7 @@ Aunque la generación de trayectorias de fresado CNC es un tema demasiado extens
 
 * Dado que esta sección no pretende ofrecer un tutorial exhaustivo del CAM Workbench, utilizaremos los valores predeterminados.
 
-Si desea un tutorial más detallado, consulte [[CAM Walkthrough for the Imppatient|CAM walk-through]]. Tenga en cuenta que en el CAM Workbench se crea automáticamente un cuerpo base alrededor del objeto, que representa la materia prima que se mecanizará. Inicialmente, este cuerpo base se extiende 1 mm en todas las direcciones desde el objeto.
+Si desea un tutorial más detallado, consulte el [[CAM Walkthrough for the Imppatient|Manual de CAM para el impaciente]]. Tenga en cuenta que en el CAM Workbench se crea automáticamente un cuerpo base alrededor del objeto, que representa la materia prima que se mecanizará. Inicialmente, este cuerpo base se extiende 1 mm en todas las direcciones desde el objeto.
 
 [[File:FreeCAD CAM1.png]]
 
