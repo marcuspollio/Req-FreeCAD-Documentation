@@ -19,9 +19,7 @@ La página oficial de descarga de FreeCAD se encuentra en [https://www.freecad.o
 
 Las versiones estables oficiales de FreeCAD están disponibles en la página de descargas mencionada y en el gestor de software de su distribución. Sin embargo, el desarrollo de FreeCAD avanza muy rápidamente, incorporando nuevas funciones y correcciones de errores casi a diario. Debido a los largos periodos entre versiones estables, es posible que desee experimentar con versiones más recientes y de vanguardia de FreeCAD. Estas versiones de desarrollo, o pre-lanzamientos, se encuentran en la misma página de descargas. Para los usuarios de Ubuntu o Fedora, la comunidad de FreeCAD también ofrece [https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-daily PPA] (Archivos de Paquetes Personales) y [https://copr.fedorainfracloud.org/groups/g/freecad/coprs/ copr] compilaciones diarias, que se actualizan periódicamente con las últimas novedades.
 
-<div class="mw-translate-fuzzy">
-Si estás instalando FreeCAD en una máquina virtual, ten en cuenta que el rendimiento puede ser pobre (en algunos casos inutilizable) debido a los límites de soporte de [https://en.wikipedia.org/wiki/OpenGL OpenGL] en la mayoría de las máquinas virtuales.
-</div>
+Si planea instalar FreeCAD en una máquina virtual, tenga en cuenta que su rendimiento podría verse significativamente afectado, e incluso resultar inutilizable, debido a la limitada compatibilidad con OpenGL en muchas máquinas virtuales.
 
 <span id="Installing_on_Windows"></span>
 === Instalación en Windows ===
