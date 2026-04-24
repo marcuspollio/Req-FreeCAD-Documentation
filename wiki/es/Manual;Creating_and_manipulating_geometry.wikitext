@@ -106,9 +106,7 @@ for e in boxShape.Edges:
    print(e.Vertexes[1].Point)
 }}
 
-<div class="mw-translate-fuzzy">
-Como ves, si nuestra boxShape tiene un atributo "Vértices", cada arista de la boxShape también tiene un atributo "Vértices". Como podemos esperar, la boxShape tendrá 8 vértices, mientras que la arista sólo tendrá 2, que son ambos parte de la lista de 8.
-</div>
+Como puede observar, si nuestra figura rectangular (boxShape) tiene un atributo '''Vertexes''', cada arista de la figura rectangular también tiene dicho atributo. Como era de esperar, la figura rectangular tendrá 8 vértices, mientras que la arista solo tendrá 2, los cuales forman parte de la lista de 8.
 
 Siempre podemos comprobar cuál es el tipo de una forma:
 
