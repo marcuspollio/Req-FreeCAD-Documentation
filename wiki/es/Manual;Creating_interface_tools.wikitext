@@ -9,7 +9,7 @@
 
 {{Manual:TOC}}
 
-En los dos últimos capítulos, vimos cómo [[Manual:Creación y manipulación de geometría|crear geometrías de piezas]] y [[Manual:Creación de objetos paramétricos|crear objetos paramétricos]]. Falta un último elemento para obtener el control total de FreeCAD: crear herramientas que interactúen con el usuario.
+En los dos últimos capítulos, vimos cómo [[Manual:Creating and manipulating geometry|crear geometrías de piezas]] y [[Manual:Creating parametric objects|Creación de objetos paramétricos|crear objetos paramétricos]]. Falta un último elemento para obtener el control total de FreeCAD: crear herramientas que interactúen con el usuario.
 
 En muchas situaciones, no resulta muy práctico crear un objeto con valores cero, como hicimos con el rectángulo en el capítulo anterior, y luego pedirle al usuario que introduzca los valores de altura y anchura en el panel de propiedades. Esto funciona para un número reducido de objetos, pero se vuelve muy tedioso si hay que crear muchos rectángulos. Una mejor solución sería poder especificar la altura y la anchura al crear el rectángulo.
 
