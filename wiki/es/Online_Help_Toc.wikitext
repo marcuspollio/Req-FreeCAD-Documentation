@@ -81,34 +81,32 @@ Alli esta otra tabla de contenidos para el [[Manual:Introduction|Manual de FreeC
 ** [[Interface_creation|Creación de interfaces]]
 ** [[Dialog_creation|Creación de diálogos]]
 
-<div class="mw-translate-fuzzy">
 * Desarrollo
-** [[License/es|Licencia]]
+** [[License|Licencia]]
 ** Compilando FreeCAD
-*** [[Tracker/es|Encontrando ayuda]]
-*** [[Compile_on_Windows/es|Compilando en Windows]]
-*** [[Compile_on_Linux/es|Compilando en Linux]]
-*** [[Compile_on_MacOS/es|Compilando en MacOS]]
-*** [[Compile on Docker/es|Compilando en Docker]]
-*** [[FreeCAD_Docker_CLI_mode/es|Compilando en Docker CLI mode]]
-*** [[Compiling_(Speeding_up)/es|Compilando (Acelerar)]]
-*** [[Third_Party_Libraries/es|Librerías de terceros]]
-*** [[Third_Party_Tools/es|Herramientas de terceros]]
-** Crear herramientas de apoyo
-*** [[Tracker/es|Bug tracker]]
-*** [[Bug_Triage/es|Bug triage]]
-*** [[Debugging/es|Depurando FreeCAD]]
-*** [[Testing/es|Evaluando FreeCAD]]
-*** [[FreeCAD_Build_Tool/es|La herramienta de creación de FreeCAD]]
-*** [[Continuous_Integration/es|Integración continua]]
-** Modificando FreeCAD 
-*** [[Branding/es|Técnicas de marca]] 
-*** [[Localisation/es|Traduciendo FreeCAD]]
-*** [[Workbench_creation/es|Añadir un ambiente de trabajo]]
-*** [[Extra_python_modules/es|Instalando módulos extra de python]]
-** [[Source_documentation/es|Fuentes de documentación]]
+*** [[Tracker|Encontrando ayuda]]
+*** [[Compile_on_Windows|Compilando en Windows]]
+*** [[Compile_on_Linux|Compilando en Linux]]
+*** [[Compile_on_MacOS|Compilando en MacOS]]
+*** [[Compile on Docker|Compilando en Docker]]
+*** [[FreeCAD_Docker_CLI_mode|Compilando en Docker CLI mode]]
+*** [[Compiling_(Speeding_up)|Compilando (Acelerar)]]
+*** [[Third_Party_Libraries|Librerías de terceros]]
+*** [[Third_Party_Tools|Herramientas de terceros]]
+** Herramientas de soporte para la creación de proyectos
+*** [[Tracker|Bug tracker]]
+*** [[Bug_Triage|Bug triage]]
+*** [[Debugging|Depurando FreeCAD]]
+*** [[Testing|Evaluando FreeCAD]]
+*** [[FreeCAD_Build_Tool|La herramienta de creación de FreeCAD]]
+*** [[Continuous_Integration|Integración continua]]
+** Modificación de FreeCAD 
+*** [[Branding|Técnicas de marca]] 
+*** [[Localisation|Traduciendo FreeCAD]]
+*** [[Workbench_creation|Añadir un ambiente de trabajo]]
+*** [[Extra_python_modules|Instalando módulos extra de python]]
+** [[Source_documentation|Fuentes de documentación]]
 ** [https://www.freecad.org/api/ API]
-</div>
 
 * Créditos
 **[[Contributors/es|Contribuciones]]
