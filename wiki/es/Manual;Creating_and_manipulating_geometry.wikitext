@@ -9,9 +9,7 @@
 
 {{Manual:TOC}}
 
-<div class="mw-translate-fuzzy">
-En los capítulos anteriores, hemos aprendido sobre los diferentes ambientes de trabajo de FreeCAD, y cómo cada uno de ellos implementa sus propias herramientas y tipos de geometría. El mismo concepto se aplica cuando se trabaja desde el código de Python.
-</div>
+En capítulos anteriores, exploramos los distintos entornos de trabajo de FreeCAD y cómo cada uno introduce su propio conjunto de herramientas y tipos de geometría. Los mismos principios se aplican al trabajar con FreeCAD mediante scripts de Python.
 
 <div class="mw-translate-fuzzy">
 También vimos que la gran mayoría de los ambientes de trabajo de FreeCAD dependen de uno muy fundamental: el [[Part_Workbench/es|Ambiente de trabajo Pieza]]. De hecho, muchos otros ambientes de trabajo, como [[Draft_Workbench/es|Borrador]] y [[Arch_Workbench/es|Arquitectura]], hacen exactamente lo que haremos en este capítulo: usar código Python para crear y manipular la geometría de la Pieza.
