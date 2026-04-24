@@ -31,9 +31,8 @@ Narzędzie '''Strukturalna powierzchnia transfinite''' tworzy strukturalną siat
 [[File:FEM_mesh_transfinite_surface_task_panel.PNG|400px]]
 {{Caption|Panel zadań narzędzia Strukturalna powierzchnia transfinite}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Użycie==
 
 # Aby skorzystać z tego polecenia, potrzebna jest [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/pl|siatka wygenerowana przez Gmsh]].
 # Wybierz obiekt siatki w [[Tree_View/pl|Widoku drzewa]].
