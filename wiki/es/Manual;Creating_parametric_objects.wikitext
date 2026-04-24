@@ -161,9 +161,9 @@ Ahora, cuando escribamos: '''import ParamRectangle''', se creará automáticamen
 
 * Eso es todo, ahora tenemos un nuevo botón en la barra de herramientas que, al hacer clic, creará un rectángulo paramétrico.
 
-Remember, if you want to distribute files created with this new tool to other people, they must have the '''ParamRectangle.py''' macro installed on their computers too.
+Recuerde que, si quiere distribuir archivos creados con esta nueva herramienta a otras personas, ellas también deben tener instalada la macro '''ParamRectangle.py''' en sus ordenadores.
 
-'''Read more'''
+'''Leer más'''
 
 * [[Macros_recipes|The FreeCAD macros repository]]
 * [[Scripted_objects|Parametric object example]]
