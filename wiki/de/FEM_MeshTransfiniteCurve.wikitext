@@ -1,15 +1,13 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[FEM_MeshAdvanced|Advanced Refinement Types]]
-|[[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]
-|[[FEM_Workbench|FEM]]
+{{Docnav/de
+|[[FEM_MeshAdvanced/de|Erweiterte Filteroptionen]]
+|[[FEM_MeshTransfiniteSurface/de|Strukturierte transfinite Fläche]]
+|[[FEM_Workbench/de|FEM]]
 |IconL=FEM_MeshAdvanced.svg
 |IconR=FEM_MeshTransfiniteSurface.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommandContainer|
