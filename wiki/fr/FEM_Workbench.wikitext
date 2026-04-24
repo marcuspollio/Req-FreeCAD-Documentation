@@ -161,9 +161,7 @@ L'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné qu
 
 :* [[Image:FEM_MeshTransfiniteSurface.svg|32px]] [[FEM_MeshTransfiniteSurface/fr|Surface structurée transfinie]] : crée un maillage structuré sur une face. {{Version/fr|1.2}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:FEM_MeshTransfiniteVolume.svg|32px]] [[FEM_MeshTransfiniteVolume|Structured Transfinite Volume]]: Creates a structured mesh in a 4- or 5-sided volume bounded by transfinite surfaces. {{Version|1.2}}
-</div>
+:* [[Image:FEM_MeshTransfiniteVolume.svg|32px]] [[FEM_MeshTransfiniteVolume/fr|Volume structuré transfini]] : crée un maillage structuré dans un volume à 4 ou 5 faces délimité par des surfaces transfinies. {{Version/fr|1.2}}
 
 * [[Image:FEM_CreateElementsSet.svg|32px]] [[FEM_CreateElementsSet/fr|Masquer des éléments]] : masque les éléments sélectionnés par un polygone du maillage. {{Version/fr|1.0}}
 
