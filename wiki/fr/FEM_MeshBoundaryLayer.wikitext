@@ -47,7 +47,7 @@ La couche limite présente l'avantage de créer des maillages anisotropes hautem
 # Double-cliquez sur l'objet parent {{incode|FEMMeshGMSH}} dans votre arbre de modèle et appuyez sur {{Button|Appliquer}} pour forcer un recalcul de maillage.
 # Fermez la tâche.
 
-Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l'aide de l'[[Property_editor/fr|éditeur de propriétés]]. Après avoir modifié une propriété, vous devez rouvrir la fenêtre de dialogue Gmsh et cliquer sur le bouton {{Button|Appliquer}}. (Vous pouvez laisser la fenêtre de dialogue ouverte pendant la modification des propriétés).
+Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l'aide de l'[[Property_View/fr|éditeur de propriétés]]. Après avoir modifié une propriété, vous devez rouvrir la fenêtre de dialogue Gmsh et cliquer sur le bouton {{Button|Appliquer}}. (Vous pouvez laisser la fenêtre de dialogue ouverte pendant la modification des propriétés).
 
 Vous pouvez créer autant de couches limites de maillage différentes que nécessaire.
 
