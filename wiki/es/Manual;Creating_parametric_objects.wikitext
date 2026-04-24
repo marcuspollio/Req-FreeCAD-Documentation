@@ -140,7 +140,7 @@ Aquí tenéis un breve resumen de los comandos anteriores:
 
 * '''ParamRectangle.ParametricRectangle(myObj)''': Inicializa el objeto asociándolo con la clase '''ParametricRectangle''' del módulo o script '''ParamRectangle'''. Esto vincula la lógica personalizada definida en Python con el objeto, lo que le permite actuar como un objeto paramétrico.
 
-* '''myObj.ViewObject.Proxy = 0''': Resets the '''ViewObject.Proxy''' attribute to 0, ensuring that the object uses FreeCAD’s default view handling. This step is required unless you define a custom ViewProvider to manage the visual representation of the object.
+* '''myObj.ViewObject.Proxy = 0''': Restablece el atributo '''ViewObject.Proxy''' a 0, asegurando que el objeto utilice el manejo de vista predeterminado de FreeCAD. Este paso es necesario a menos que defina un '''ViewProvider''' personalizado para gestionar la representación visual del objeto.
 
 * '''FreeCAD.ActiveDocument.recompute()''': Recomputes the document to update the geometry and reflect changes in the FreeCAD graphical interface, making the new object fully visible and functional
 
