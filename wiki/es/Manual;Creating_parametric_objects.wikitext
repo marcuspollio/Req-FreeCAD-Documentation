@@ -125,7 +125,7 @@ import ParamRectangle
 
 Al explorar el contenido de '''ParamRectangle''', podemos verificar que contiene nuestra clase '''ParametricRectangle'''.
 
-To create a new parametric object using our ParametricRectangle class, we will use the following code. Observe that we use '''Part::FeaturePython''' instead of '''Part::Feature''' that we have been using in the previous chapters (The Python version allows to define our own parametric behaviour):
+Para crear un nuevo objeto paramétrico usando nuestra clase '''ParametricRectangle''', utilizaremos el siguiente código. Observe que usamos '''Part::FeaturePython''' en lugar de '''Part::Feature''', que hemos estado usando en los capítulos anteriores (la versión de Python permite definir nuestro propio comportamiento paramétrico):
 
 {{Code|code=
 myObj = FreeCAD.ActiveDocument.addObject("Part::FeaturePython", "Rectangle")
