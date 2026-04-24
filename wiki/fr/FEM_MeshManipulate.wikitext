@@ -43,16 +43,16 @@ La commande '''FEM Manipuler l'affinage''' permet de manipuler le résultat d'un
 #** Utilisez la case à cocher ''Inclure la limite'' pour inclure la limite des éléments de référence sélectionnés.
 #* ''Seuil'' : applique un seuil à la valeur des affinages des enfants :
 #** Utilisez les champs de valeur de saisie versus la taille des résultats pour contrôler les seuils.
-#** Vous pouvez cocher la case ''Interpolation linéaire'' pour définir si l'interpolation de la taille des maillages entre la taille minimum et la taille maximum doit être linéaire ou sigmoïde
+#** Vous pouvez cocher la case ''Interpolation linéaire'' pour définir si l'interpolation de la taille des maillages entre la taille minimum et la taille maximum doit être linéaire ou sigmoïde.
 #** Vous pouvez cocher la case ''S'arrêter à la valeur d'entrée maximale''.
 #* ''Moyenne'' : calcule la valeur moyenne de l'affinage de l'enfant G.
 #** Spécifiez ''Delta''
-#* ''Gradient'' : calcule le gradient par différences finies de l'affinage enfant G
+#* ''Gradient'' : calcule le gradient par différences finies de l'affinage enfant G.
 #** Sélectionnez ''Type'' : X, Y, Z ou Moyenne
 #** Spécifiez ''Delta''
-#* ''Courbure'' : calcule la courbure de l'affinage enfant G
+#* ''Courbure'' : calcule la courbure de l'affinage enfant G.
 #** Spécifiez ''Delta''
-#* ''Laplacien'' : calcule la différence finie du laplacien de l'affinage enfant G
+#* ''Laplacien'' : calcule la différence finie du laplacien de l'affinage enfant G.
 #** Spécifiez ''Delta''
 # Vous pouvez cliquer sur le bouton {{Button|[[Image:Preferences-system.svg|x16px]]}} pour modifier les paramètres globaux d'aperçu de l'affinage :
 #* ''Activation automatique à l'ouverture'' : active automatiquement la visualisation de la taille du maillage de l'affinage à l'ouverture d'une boîte de dialogue de tâche de l'affinage.
