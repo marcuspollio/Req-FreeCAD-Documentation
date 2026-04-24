@@ -33,30 +33,28 @@ La commande '''FEM Maillage fonction de la distance''' permet de définir la tai
 <span id="Usage"></span>
 ==Utilisation==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# To enable the command a [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
-# Select the Mesh object in the [[Tree_View|Tree View]].
-# There are several ways to invoke the command:
-#* Press the {{Button|[[Image:FEM_MeshDistance.svg|16px]] [[FEM_MeshDistance|Distance-Based Refinement]]}} button.
-#* Select the {{MenuCommand|Mesh → GMSH Refinements → [[Image:FEM_MeshDistance.svg|16px]] Distance-Based Refinement}} option from the menu.
-# Edit the four distance vs size fields. From the top to the right:
-#* Mesh size when distance < DistanceMinimum
-#* Mesh size when distance = DistanceMaximum
-#* Distance up to which the mesh size will be SizeMinimum
-#* Distance at which the mesh size will be SizeMaximum
-# Optionally, switch the ''Interpolation: Linear'' field to define if interpolation of mesh size between SizeMinimum and SizeMaximum should be linear or sigmoid function.
-# Optionally, specify the ''Sampling size'' to define the number of sampling points used to discretize curves and surfaces. For surfaces it is the sampling size per direction.
-# Optionally, press the {{Button|[[Image:Preferences-system.svg|x16px]]}} button to edit the global refinement preview settings:
-#* Auto enable on open - automatically enables the visualization of the refinement mesh size when opening a refinement task dialog.
-#* Preview mesh fineness - determines how fine the preview mesh is. Larger number means finer mesh (smaller elements).
-# Optionally, press the {{Button|Visualize}} button to visualize the refinement mesh size output. It shows the mesh sizes given by the refinement as colors on a preview mesh. Note that the preview evaluates the refinement on a coarse mesh so details smaller than the mesh size may not be visible.
-# Press the {{Button|Add}} button. Select a vertex, edge or face. To remove objects from the selection, press the {{Button|Remove}} button.
-# Click the {{Button|OK}} button.
-# Close the task.
-#: Result: You now should see a new {{incode|Distance}} object under the {{incode|FEMMeshGmsh}} object in your active analysis container.
-# Double-click on the {{incode|FEMMeshGmsh}} parent object in your Model Tree and press {{Button|Apply}} to force a mesh recalculation.
-# Close the task.
-</div>
+# Pour activer la commande, il faut d'abord fournir un [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/fr|maillage Gmsh]].
+# Sélectionnez l'objet Mesh dans l'[[Tree_View/fr|arborescence]].
+# Il existe plusieurs façons de lancer la commande :
+#* Appuyez sur le bouton {{Button|[[Image:FEM_MeshDistance.svg|16px]] [[FEM_MeshDistance/fr|Affinage basé sur la distance]]}}.
+#* Sélectionnez l'option {{MenuCommand|Maillage → Affinements Gmsh → [[Image:FEM_MeshDistance.svg|16px]] Affinage basé sur la distance}} du menu.
+# Modifiez les quatre champs distance versus taille. De haut en bas et de gauche à droite :
+#* Taille de maillage lorsque la distance est < à la distance minimum.
+#* Taille de maillage lorsque la distance est = à la distance maximum.
+#* Distance jusqu'à laquelle la taille du maillage sera = à la taille minimum.
+#* Distance à laquelle la taille de maillage sera = à la taille maximum.
+# Vous pouvez modifier le champ ''Interpolation : linéaire'' pour définir si l'interpolation de la taille du maillage entre la taille minimum et la taille maximum doit être linéaire ou sigmoïde.
+# Vous pouvez spécifier la ''Taille d'échantillonnage'' pour définir le nombre de points d'échantillonnage utilisés pour discrétiser les courbes et les surfaces. Pour les surfaces, il s'agit de la taille d'échantillonnage par direction.
+# Vous pouvez cliquer sur le bouton {{Button|[[Image:Preferences-system.svg|x16px]]}} pour modifier les paramètres globaux d'aperçu de l'aAffinage :
+#* ''Activation automatique à l'ouverture'' : active automatiquement la visualisation de la taille du maillage de l'affinage à l'ouverture d'une boîte de dialogue de tâche de l'affinage.
+#* ''Finesse du maillage de l'aperçu'' détermine la finesse du maillage de l'aperçu. Un nombre plus élevé signifie un maillage plus fin (éléments plus petits).
+# Vous pouvez cliquer sur le bouton {{Button|Visualiser}} pour visualiser le résultat de l'affinage de la taille du maillage. Les tailles de maillages obtenues par l'affinage sont représentées par des couleurs sur un maillage d'aperçu. Notez que l'aperçu évalue l'affinage sur un maillage grossier. Les détails plus petits que la taille de maillage peuvent donc ne pas être visibles.
+# Appuyez sur le bouton {{Button|Ajouter}}. Sélectionnez un sommet, une arête ou une face. Pour supprimer des objets de la sélection, appuyez sur le bouton {{Button|Supprimer}}.
+# Cliquez sur le bouton {{Button|OK}}.
+# Fermez la tâche.
+#: Résultat : vous devriez maintenant voir un nouvel objet {{incode|Distance}} sous l'objet {{incode|FEMMeshGmsh}} dans votre conteneur d'analyse actif.
+# Double-cliquez sur l'objet parent {{incode|FEMMeshGmsh}} dans votre arborescence de modèle et cliquez sur {{Button|Apply}} pour forcer un recalcul du maillage.
+# Fermez la tâche.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 After the mesh has been created you can change its properties using the [[Property_View|Property View]]. After you changed a property, you must reopen the Gmsh dialog again and click the {{Button|Apply}} button. (You can leave the dialog open while changing properties.)
