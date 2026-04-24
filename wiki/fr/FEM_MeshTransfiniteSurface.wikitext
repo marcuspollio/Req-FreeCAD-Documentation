@@ -27,14 +27,11 @@
 
 La commande '''FEM Surface structurée transfinie''' crée un maillage structuré sur une face.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_mesh_transfinite_surface_task_panel.PNG|400px]]
-{{Caption|Task panel of the MeshTransfiniteSurface tool}}
-</div>
+{{Caption|Panneau des tâches de l'outil Surface structurée transfinie}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+==Utilisation==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # To enable the command a [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
