@@ -134,7 +134,7 @@ myObj.ViewObject.Proxy = 0 # This is mandatory unless we code the ViewProvider t
 FreeCAD.ActiveDocument.recompute()
 }}
 
-Here is a quick breakdown of the previous commands:
+Aquí tenéis un breve resumen de los comandos anteriores:
 
 * '''myObj = FreeCAD.ActiveDocument.addObject("Part::FeaturePython", "Rectangle")''': Creates a new '''Part::FeaturePython''' object named '''Rectangle''' in the active FreeCAD document. This object is specifically designed for custom parametric behavior, allowing Python-defined logic to manage its properties and behavior.
 
