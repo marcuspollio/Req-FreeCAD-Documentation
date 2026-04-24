@@ -75,6 +75,7 @@ Previous FreeCAD release notes can be found in the [[Feature_list#Release_notes|
 * The [[Image:Std_Measure.svg|24px]] [[Std_Measure|Measure]] tool can now report the radius and diameter for spheres and toruses. [https://github.com/FreeCAD/FreeCAD/pull/29369 Pull request #29369]
 * The [[Image:Std_Measure.svg|24px]] [[Std_Measure|Measure]] tool now supports curved faces in ''Distance'' mode. [https://github.com/FreeCAD/FreeCAD/pull/29367 Pull request #29367]
 * The appearance and placement of the ''Angle'' [[Image:Std_Measure.svg|24px]] [[Std_Measure|Measurement]] arrows was significantly improved. [https://github.com/FreeCAD/FreeCAD/pull/27135 Pull request #27135]
+* [[Image:Std_BoxElementSelection.svg|24px]] [[Std_BoxElementSelection|Box Element Selection]] now takes into account the [[Image:Part_SelectFilter.svg|24px]] [[Part_SelectFilter|selection filters]]. [https://github.com/FreeCAD/FreeCAD/pull/28982 Pull request #28982]
 
 === API === <!--T:15-->
 
