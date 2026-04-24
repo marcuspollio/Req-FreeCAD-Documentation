@@ -54,10 +54,8 @@ Une fois que le maillage a été créé, vous pouvez modifier ses propriétés �
 
 Vous pouvez créer autant de courbes différentes transfinies que nécessaire.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_transfinite_curve.png|400px]]
-{{Caption|Surface mesh with the highlighted edges using the transfinite algorithm with progression (bias) towards the edge of the cutout}}
-</div>
+{{Caption|Maillage de surface avec les arêtes mises en évidence, obtenu à l'aide de l'algorithme transfini avec une progression (biais) vers le bord de la découpe}}
 
 
 {{Docnav/fr
