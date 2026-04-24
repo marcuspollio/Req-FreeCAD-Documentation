@@ -48,9 +48,7 @@ La commande '''FEM Volume structurel transfini''' crée un maillage structuré d
 # Double-cliquez sur l'objet parent {{incode|FEMMeshGmsh}} dans votre arborescence de modèle et cliquez sur {{Button|Appliquer}} pour forcer le recalcul du maillage.
 # Fermez la tâche.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-After the mesh has been created you can change its properties using the [[Property_View|Property View]]. After you changed a property, you must reopen the Gmsh dialog again and click the {{Button|Apply}} button. (You can leave the dialog open while changing properties.)
-</div>
+Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l'aide de l'[[Property_View/fr|éditeur de propriétés]]. Après avoir modifié une propriété, vous devez rouvrir la fenêtre de dialogue Gmsh et cliquer sur le bouton {{Button|Appliquer}}. (Vous pouvez laisser la fenêtre de dialogue ouverte pendant la modification des propriétés).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 You can create as many different transfinite volumes as needed.
