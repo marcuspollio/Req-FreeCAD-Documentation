@@ -36,7 +36,7 @@ class myParametricObject:
         ...
 }}
 
-All Python classes typically have an '''__init__''' method. This method is executed when a class is instantiated—that is, when a Python object is created from the class. You can think of a class as a "template" or blueprint used to create live instances of itself. Each instance of the class becomes an independent object with its own attributes and methods. In our '''__init__''' method, we perform two crucial tasks:
+Todas las clases de Python suelen tener un método '''__init__'''. Este método se ejecuta cuando se instancia una clase, es decir, cuando se crea un objeto Python a partir de la clase. Se puede pensar en una clase como una "plantilla" o plano que se utiliza para crear instancias vivas de sí misma. Cada instancia de la clase se convierte en un objeto independiente con sus propios atributos y métodos. En nuestro método '''__init__''', realizamos dos tareas cruciales:
 
 Almacene la clase en el atributo '''Proxy''' del objeto de un documento de FreeCAD: Al asignar '''self''' al atributo '''Proxy''' del objeto de documento de FreeCAD, vinculamos la lógica de nuestra clase Python con el objeto de FreeCAD. Esto significa que el objeto de documento "contendrá" el código de la clase Python en su interior, lo que le permite comportarse según la lógica definida en la clase. Esta conexión permite a FreeCAD saber cómo interactuar con el objeto paramétrico y recalcularlo.
 
