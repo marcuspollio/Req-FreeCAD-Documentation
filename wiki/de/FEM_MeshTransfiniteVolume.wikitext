@@ -1,15 +1,13 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]
-|[[FEM_CreateElementsSet|Erase Elements]]
-|[[FEM_Workbench|FEM]]
+{{Docnav/de
+|[[FEM_MeshTransfiniteSurface/de|Strukturierte transfinite Fläche]]
+|[[FEM_CreateElementsSet/de|Elemente löschen]]
+|[[FEM_Workbench/de|FEM]]
 |IconL=FEM_MeshTransfiniteSurface.svg
 |IconR=FEM_CreateElementsSet.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommandContainer|
@@ -71,16 +69,14 @@ Es können so viele verschiedene transfinite Volumen wie nötig erstellt werden.
 {{Caption|Strukturiertes hexaedrisches Netz, das mit dem Transfinite-Volume-Werkzeug erzeugt wurde (der Vorsprung wurde in Teilvolumina mit der entsprechenden Anzahl an Flächen und Kanten unterteilt)}}
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]
-|[[FEM_CreateElementsSet|Erase Elements]]
-|[[FEM_Workbench|FEM]]
+{{Docnav/de
+|[[FEM_MeshTransfiniteSurface/de|Strukturierte transfinite Fläche]]
+|[[FEM_CreateElementsSet/de|Elemente löschen]]
+|[[FEM_Workbench/de|FEM]]
 |IconL=FEM_MeshTransfiniteSurface.svg
 |IconR=FEM_CreateElementsSet.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
