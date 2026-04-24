@@ -144,7 +144,7 @@ Aquí tenéis un breve resumen de los comandos anteriores:
 
 * '''FreeCAD.ActiveDocument.recompute()''': Recalcula el documento para actualizar la geometría y reflejar los cambios en la interfaz gráfica de FreeCAD, haciendo que el nuevo objeto sea completamente visible y funcional.
 
-Nothing will appear on screen just yet, because the '''Length''' and '''Width''' properties are 0, which will trigger our "do-nothing" condition inside execute. We just need to change the values of Length and Width, and our object will magically appear and be recalculated on the fly.
+Todavía no aparecerá nada en pantalla, ya que las propiedades '''Length''' y '''Width''' son 0, lo que activará nuestra condición de "no hacer nada" dentro de execute. Solo necesitamos cambiar los valores de '''Length''' y '''Width''', y nuestro objeto aparecerá mágicamente y se recalculará sobre la marcha.
 
 Of course, it would be tedious to have to type these 4 lines of Python code each time we want to create a new parametric rectangle. A very simple way to solve this is placing the 4 lines above inside our '''ParamRectangle.py''' file, at the end, after the end of the '''ParametricRectange''' class (We can do this from the Macro editor).
 
