@@ -127,12 +127,10 @@ Plus d'informations sur la page [[Tutorials/fr|tutoriels]].
 
 Tout utilisateur peut développer ses propres fonctions pour FreeCAD et les mettre à la disposition de la communauté FreeCAD en tant qu'[[Addon/fr|extension]].
 
-<div class="mw-translate-fuzzy">
 Il existe trois types de extensions :
 * Les [[Macros/fr|macros]] : petit bout de code en [[Python/fr|Python]] qui fournit un nouvel outil ou une nouvelle fonction dans un fichier unique se terminant par {{incode|.FCMacro}}.
 * Les [https://www.freecad.org/addons.php ateliers externes] : ensembles de fichiers en Python qui fournissent des [[Gui_Command/fr|commandes graphiques]] (outils) autour d'un sujet particulier.
 * Les [[Preference_Packs/fr|kits de préférences]] : des paquets de préférences d'utilisateurs.
-</div>
 
 <span id="Scripting"></span>
 ==Script==
