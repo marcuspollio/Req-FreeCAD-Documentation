@@ -67,9 +67,7 @@ Disegnare manualmente le viste ausiliarie richiede una seconda vista di base per
 ===Espandere per copiare e incollare la macro===
 <div class="mw-collapsible-content">
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Press the {{Button|[[Image:Std_DlgMacroExecute.svg|16px]] [[Std_DlgMacroExecute|Macros...]]}} button and [[Std_DlgMacroExecute#Create|create]] a new macro. Copy and paste the macro below to the macro editor.
-</div> 
+Premere il pulsante {{Button|[[Image:Std_DlgMacroExecute.svg|16px]] [[Std_DlgMacroExecute/it|Macro...]]}} e [[Std_DlgMacroExecute#Create/it|crea]] una nuova macro. Copiare e incollare la macro qui sotto nell'editor delle macro. 
 
 {{MacroCode|code=
 #! python
