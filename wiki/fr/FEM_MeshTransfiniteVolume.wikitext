@@ -58,7 +58,7 @@ Vous pouvez créer autant de volumes transfinis que nécessaire.
 * L'utilisation de cet outil avec les cases ''Appliquer automatiquement les surfaces et courbes transfinies'' et ''Recombiner'' cochées constitue le moyen le plus simple de générer des maillages hexaédriques structurés à l'aide de l'algorithme transfini de Gmsh. Tous les sous-volumes doivent toutefois comporter 5 ou 6 faces, chacune comportant 3 ou 4 arêtes.
 
 [[File:FEM_transfinite_volume.png|600px]]
-{{Caption|Maillage hexaédrique structurel généré à l'aide de l'outil de volume transfini (la pièce a été divisée en sous-volumes comportant le nombre approprié de faces et d'arêtes)}}
+{{Caption|Maillage hexaédrique structuré généré à l'aide de l'outil de volume transfini (la pièce a été divisée en sous-volumes comportant le nombre approprié de faces et d'arêtes)}}
 
 
 {{Docnav/fr
