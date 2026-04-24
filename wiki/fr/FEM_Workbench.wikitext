@@ -159,9 +159,7 @@ L'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné qu
 
 :* [[Image:FEM_MeshTransfiniteCurve.svg|32px]] [[FEM_MeshTransfiniteCurve/fr|Courbe structurée transfinie]] : crée un nombre fixe de nœuds sur une arête à l'aide d'un algorithme structuré. {{Version/fr|1.2}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:FEM_MeshTransfiniteSurface.svg|32px]] [[FEM_MeshTransfiniteSurface|Structured Transfinite Surface]]: Creates a structured mesh on a face. {{Version|1.2}}
-</div>
+:* [[Image:FEM_MeshTransfiniteSurface.svg|32px]] [[FEM_MeshTransfiniteSurface/fr|Surface structurée transfinie]] : crée un maillage structuré sur une face. {{Version/fr|1.2}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:FEM_MeshTransfiniteVolume.svg|32px]] [[FEM_MeshTransfiniteVolume|Structured Transfinite Volume]]: Creates a structured mesh in a 4- or 5-sided volume bounded by transfinite surfaces. {{Version|1.2}}
