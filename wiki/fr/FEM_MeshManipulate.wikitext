@@ -1,15 +1,13 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[FEM_MeshShape|Shape-Based Refinement]]
-|[[FEM_MeshAdvanced|Advanced Refinement Types]]
-|[[FEM_Workbench|FEM]]
+{{Docnav/fr
+|[[FEM_MeshShape/fr|Maillage intérieur/extérieur]]
+|[[FEM_MeshAdvanced/fr|Affinage avancé]]
+|[[FEM_Workbench/fr|Atelier FEM]]
 |IconL=FEM_MeshShape.svg
 |IconR=FEM_MeshAdvanced.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommandContainer|
