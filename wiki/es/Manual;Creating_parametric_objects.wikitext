@@ -138,7 +138,7 @@ Aquí tenéis un breve resumen de los comandos anteriores:
 
 * '''myObj = FreeCAD.ActiveDocument.addObject("Part::FeaturePython", "Rectangle")''': Crea un nuevo objeto '''Part::FeaturePython''' llamado '''Rectangle''' en el documento FreeCAD activo. Este objeto está diseñado específicamente para un comportamiento paramétrico personalizado, lo que permite que la lógica definida en Python gestione sus propiedades y comportamiento.
 
-* '''ParamRectangle.ParametricRectangle(myObj)''': Initializes the object by associating it with the '''ParametricRectangle''' class from the '''ParamRectangle''' module or script. This links the custom Python-defined logic to the object, enabling it to act as a parametric object.
+* '''ParamRectangle.ParametricRectangle(myObj)''': Inicializa el objeto asociándolo con la clase '''ParametricRectangle''' del módulo o script '''ParamRectangle'''. Esto vincula la lógica personalizada definida en Python con el objeto, lo que le permite actuar como un objeto paramétrico.
 
 * '''myObj.ViewObject.Proxy = 0''': Resets the '''ViewObject.Proxy''' attribute to 0, ensuring that the object uses FreeCAD’s default view handling. This step is required unless you define a custom ViewProvider to manage the visual representation of the object.
 
