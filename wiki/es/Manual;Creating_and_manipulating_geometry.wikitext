@@ -40,9 +40,7 @@ Esta distinción destaca un concepto fundamental en FreeCAD: los objetos y su ge
 
 En este caso, creamos manualmente una forma usando la función '''Part.makeBox()'''. Esta forma es un objeto no paramétrico, lo que significa que no se actualiza automáticamente según ninguna propiedad; es estática a menos que la manipulemos mediante programación. Para que esta forma forme parte del documento FreeCAD activo, sería necesario asignarla a un objeto de documento (como '''Part::Feature'''), lo que la vincularía a la interfaz gráfica y la haría visible y manejable dentro del entorno FreeCAD.
 
-<div class="mw-translate-fuzzy">
-Observe como manejamos miObj.Shape , note que se hace exactamente como lo hicimos en el capítulo anterior, cuando cambiamos otras propiedades de un objeto, como box.Height = 5 . De hecho, '''Forma''' también es una propiedad, al igual que '''Altura''''. Sólo que toma una Forma Pieza, no un número. En el próximo capítulo veremos mejor cómo se construyen estos objetos paramétricos.
-</div>
+Esta separación entre formas y objetos de documento es lo que hace que FreeCAD sea altamente versátil, permitiendo a los usuarios manipular formas mediante programación e integrarlas en un flujo de trabajo de modelado paramétrico según sea necesario.
 
 Ahora podemos crear fácilmente un objeto de documento "genérico" en el documento actual (asegúrese de tener al menos un documento nuevo abierto) y darle una forma de caja como la que acabamos de crear:
 
