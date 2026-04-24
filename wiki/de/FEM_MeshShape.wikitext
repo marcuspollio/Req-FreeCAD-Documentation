@@ -1,15 +1,13 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[FEM_MeshBoundaryLayer|2D Boundary Layer]]
-|[[FEM_MeshManipulate|Manipulate Refinement]]
-|[[FEM_Workbench|FEM]]
+{{Docnav/de
+|[[FEM_MeshBoundaryLayer/de|2D-Grenzschicht]]
+|[[FEM_MeshManipulate/de|Verfeinerung bearbeiten]]
+|[[FEM_Workbench/de|FEM]]
 |IconL=FEM_MeshBoundaryLayer.svg
 |IconR=FEM_MeshManipulate.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommandContainer|
@@ -65,16 +63,14 @@ Es können so viele verschiedene formbasierte Verfeinerungen wie nötig erstellt
 {{Caption|Beispiel für eine formbasierte Netzverfeinerung unter Verwendung einer Kugel}}
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[FEM_MeshBoundaryLayer|2D Boundary Layer]]
-|[[FEM_MeshManipulate|Manipulate Refinement]]
-|[[FEM_Workbench|FEM]]
+{{Docnav/de
+|[[FEM_MeshBoundaryLayer/de|2D-Grenzschicht]]
+|[[FEM_MeshManipulate/de|Verfeinerung bearbeiten]]
+|[[FEM_Workbench/de|FEM]]
 |IconL=FEM_MeshBoundaryLayer.svg
 |IconR=FEM_MeshManipulate.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
