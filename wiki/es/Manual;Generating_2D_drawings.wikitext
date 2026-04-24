@@ -48,8 +48,8 @@ En el siguiente ejercicio, veremos cómo crear un dibujo sencillo de un modelo d
 [[Image:Exercise_drawing_02.jpg]]
 
 * Repitamos la operación dos veces para crear dos vistas más. Definiremos sus valores X e Y, que indican la posición de la vista en la página, para mostrarlas separadas de la vista superior, y su orientación, para crear diferentes orientaciones. Asignaremos a cada nueva vista las siguientes propiedades:
-** Vista001 (vista frontal): X: 70, Y: 220, Escala: 0.1, Rotación: 0, Dirección: (-1,0,0), Dirección X: (0,-1,0)
-** Vista002 (vista lateral): X: 150, Y: 220, Escala: 0.1, Rotación: 0, Dirección: (0,-1,0), Dirección X: (1,0,0)
+** '''Vista001''' (vista frontal): X: 70, Y: 220, Escala: 0.1, Rotación: 0, Dirección: (-1,0,0), Dirección X: (0,-1,0)
+** '''Vista002''' (vista lateral): X: 150, Y: 220, Escala: 0.1, Rotación: 0, Dirección: (0,-1,0), Dirección X: (1,0,0)
 * Después de esto, obtenemos la siguiente página:
 
 [[Image:Exercise_TechDraw_04.png]]
