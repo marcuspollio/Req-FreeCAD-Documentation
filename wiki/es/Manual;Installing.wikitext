@@ -30,7 +30,7 @@ Si planea instalar FreeCAD en una máquina virtual, tenga en cuenta que su rendi
 # Asegúrese de seleccionar todos los componentes que desea instalar: [[Image:Components0212.jpeg|ninguna]]
 # ¡Listo! La instalación se ha completado y ya puede empezar a explorar las capacidades de FreeCAD. 
 
-'''Instalando una versión en desarrollo'''
+'''Instalando una versión de desarrollo'''
 
 Empaquetar FreeCAD y desarrollar un instalador requiere una inversión considerable de tiempo y esfuerzo. Por ello, las versiones de desarrollo (también conocidas como versiones preliminares) suelen distribuirse en archivos .zip o .7z disponibles en la página de descargas de FreeCAD [https://www.freecad.org/downloads.php]. No es necesario un proceso de instalación formal; simplemente extraiga el contenido e inicie FreeCAD haciendo doble clic en el archivo FreeCAD.exe. Este método también le permite mantener tanto la versión estable como la "inestable" en el mismo ordenador. ¡Es como tener un coche fiable para el día a día y un propulsor experimental en su garaje!
 
