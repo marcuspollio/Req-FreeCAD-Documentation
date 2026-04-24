@@ -56,6 +56,12 @@
 * {{PropertyData|Thickness}}: Specifies the thickness of the 2D elements.
 * {{PropertyData|Offset}} - {{Version|1.1}}: Specifies offset of the shell mid-surface with respect to the meshed geometry. The unit is the shell thickness. Positive values indicate offset in the positive normal direction, negative values indicate offset in the opposite direction. Zero means no offset (mid-surface located on the meshed geometrical surface). For example, 0.5 means that the meshed geometrical surface will be the top surface of the expanded shell while -0.5 means that it will be the bottom surface.
 
+</translate>
+[[Image:FEM_shell_offset.svg|700px]]
+<translate>
+
+{{Caption|Offset examples on square plates (view from the side). Each blue line represents the actual geometry for which a 2D shell mesh is generated. The surface mesh is internally expanded to solid elements (green rectangles) by the solver. Offset direction depends on the sign of the specified offset value '''o''' and on the surface normal '''n'''. Normals in the bottom row were inverted. The offset is measured from the midsurface of the expanded mesh (red dashed line) to the surface of the geometry and 2D mesh (blue solid line) - in this direction indicated by the pink arrows. Thus, as explained above, it follows the normal direction when the offset value is positive and opposes it when the offset value is negative.}}
+
 ==Notes== <!--T:11-->
 
 <!--T:16-->
