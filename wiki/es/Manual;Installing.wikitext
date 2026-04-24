@@ -24,15 +24,11 @@ Si planea instalar FreeCAD en una máquina virtual, tenga en cuenta que su rendi
 <span id="Installing_on_Windows"></span>
 === Instalación en Windows ===
 
-<div class="mw-translate-fuzzy">
-# Descargue un paquete instalador (.exe) correspondiente a su versión de Windows (32bit o 64bit) desde la [página de descargas https://github.com/FreeCAD/FreeCAD/releases]. Los instaladores de FreeCAD deberían funcionar en cualquier versión de Windows a partir de Windows 7.
-# Haz doble clic en el instalador descargado.
-# Acepta los términos de la licencia LGPL, este será uno de los pocos casos en los que puedes realmente, con seguridad, hacer clic en el botón "aceptar" sin leer el texto. No hay cláusulas ocultas: [[Image:Freecad-windows-install-01.jpg|none]]
-# Puede dejar la ruta por defecto aquí, o cambiarla si lo desea: [[Image:Freecad-windows-install-02.jpg|none]]
-# No es necesario establecer la variable PYTHONPATH, a menos que planee hacer algo de programación avanzada en python, en cuyo caso probablemente ya sepa para qué sirve: [[Image:Freecad-windows-install-03.jpg|none]]
-# Durante la instalación, se instalarán también un par de componentes adicionales, que están incluidos en el instalador: [[Image:Freecad-windows-install-04.jpg|none]]
-# Eso es todo, FreeCAD está instalado. Lo encontrarás en tu menú de inicio. [[Image:Freecad-windows-install-05.jpg|no]]
-</div> 
+# Descargue el instalador (.exe) desde la página de descargas. Los instaladores de FreeCAD deberían funcionar en cualquier versión de Windows a partir de Windows 7.
+# Acepte los términos de la licencia LGPL; este será uno de los pocos casos en los que pueda hacer clic en el botón "aceptar" sin leer el texto. Sin cláusulas ocultas: [[Image:LicenseAgreement_0212.jpeg|ninguna]]
+# Puede dejar la ruta predeterminada o cambiarla si lo desea: [[Image:Path0212.jpeg|ninguna]]
+# Asegúrese de seleccionar todos los componentes que desea instalar: [[Image:Components0212.jpeg|ninguna]]
+# ¡Listo! La instalación se ha completado y ya puede empezar a explorar las capacidades de FreeCAD. 
 
 '''Instalación una versión desarrollo'''
 
