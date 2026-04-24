@@ -153,9 +153,7 @@ L'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné qu
 
 :* [[Image:FEM_MeshShape.svg|32px]] [[FEM_MeshShape/fr|Maillage intérieur/extérieur]] : définit la taille du maillage à l'intérieur et à l'extérieur d'une forme géométrique (prisme droit, sphère ou cylindre). {{Version/fr|1.2}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:FEM_MeshManipulate.svg|32px]] [[FEM_MeshManipulate|Manipulate Refinement]]: Allows to manipulate the output of a refinement in various ways. {{Version|1.2}}
-</div>
+:* [[Image:FEM_MeshManipulate.svg|32px]] [[FEM_MeshManipulate/fr|Manipuler l'affinage]] : permet de manipuler le résultat d'un affinage de différentes manières. {{Version/fr|1.2}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:FEM_MeshAdvanced.svg|32px]] [[FEM_MeshAdvanced|Advanced Refinement Types]]: Allows to define the mesh size by various advanced means. {{Version|1.2}}
