@@ -13,7 +13,7 @@
 |
 {{GuiCommand/fr
 |Name=FEM MeshBoundaryLayer
-|Name/fr=FEM Couche limite de maillage FEM
+|Name/fr=FEM Couche aux limites
 |MenuLocation=Maillage → Affinements Gmsh → Couche aux limites du modèle 2D
 |Workbenches=[[FEM_Workbench/fr|FEM]]
 |SeeAlso=[[FEM_tutorial/fr|FEM Tutoriel]]
