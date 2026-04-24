@@ -148,7 +148,7 @@ Todavía no aparecerá nada en pantalla, ya que las propiedades '''Length''' y '
 
 Por supuesto, sería tedioso tener que escribir estas 4 líneas de código Python cada vez que queramos crear un nuevo rectángulo paramétrico. Una forma muy sencilla de solucionarlo es colocar las 4 líneas anteriores dentro de nuestro archivo '''ParamRectangle.py''', al final, después del final de la clase '''ParametricRectange''' (podemos hacerlo desde el editor de macros).
 
-Now, when we type import ParamRectangle, a new parametric rectangle will automatically be created.  Even better, we can add a toolbar button that will do just that:
+Ahora, cuando escribamos: '''import ParamRectangle''', se creará automáticamente un nuevo rectángulo paramétrico. Mejor aún, podemos añadir un botón a la barra de herramientas que haga precisamente eso:
 
 * Open menu '''Tools -> Customize'''
 * Under the "Macros" tab, select our ParamRectangle.py macro, fill in the details as you wish, and press "Add":
