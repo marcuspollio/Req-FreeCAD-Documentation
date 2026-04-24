@@ -51,13 +51,11 @@ Una de las grandes ventajas de usar Linux es la amplia gama de opciones disponib
 
 Instalar FreeCAD en Mac OS X hoy en día es tan sencillo como en otras plataformas. Sin embargo, dado que cada vez hay menos usuarios de Mac, los paquetes disponibles a veces presentan un desfase de algunas versiones con respecto a otras plataformas.
 
-<div class="mw-translate-fuzzy">
-# Descargue el paquete comprimido correspondiente a su versión desde la página [https://github.com/FreeCAD/FreeCAD/releases página de descarga].
-# Abra la carpeta de descargas, y expanda el archivo zip descargado: [[Image:Freecad-mac-01.jpg|none]]
-# Arrastra la aplicación FreeCAD desde el interior del zip a la carpeta de Aplicaciones: [[Image:Freecad-mac-02.jpg|none]]
-# ¡Ya está, FreeCAD está instalado! [[Image:Freecad-mac-03.jpg|none]]
-5. Si el sistema impide que FreeCAD se inicie debido a los permisos restringidos para aplicaciones que no provienen de la tienda de aplicaciones, tendrás que habilitarlo en la configuración del sistema: [[Image:Freecad-mac-04.jpg|none]]
-</div>
+# Descargue el paquete comprimido correspondiente a su versión.
+# Abra la carpeta Descargas y descomprima el archivo ZIP descargado: [[Image:Freecad-mac-01.jpg|none]]
+# Arrastre la aplicación FreeCAD desde el archivo ZIP a la carpeta Aplicaciones: [[Image:Freecad-mac-02.jpg|none]]
+# ¡Listo! FreeCAD está instalado. [[Image:Freecad-mac-03.jpg|none]]
+# Si el sistema impide que FreeCAD se inicie debido a permisos restringidos para aplicaciones que no provienen de la App Store, deberá habilitarlo en la configuración del sistema: [[Image:Freecad-mac-04.jpg|none]]
 
 <span id="Uninstalling"></span>
 === Desinstalación ===
