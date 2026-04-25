@@ -171,6 +171,7 @@ ToDo (last check: 20260412):
 * The ''Zig Zag Angle'' property of the [[CAM_Pocket_Shape|Pocket]] operation was renamed to ''Angle''. It is now hidden if the selected pattern is ''Offset''. [https://github.com/FreeCAD/FreeCAD/pull/26842 Pull request #26842]
 * A new tool was added to allow mirroring dressups. [https://github.com/FreeCAD/FreeCAD/pull/21820 Pull request #21820]
 * A rapid move from ''Clearance Height'' to ''Safe Height'' was added at the beginning of the [[CAM_Slot|Slot]] operation's G-code. [https://github.com/FreeCAD/FreeCAD/pull/25845 Pull request #25845]
+* The CAM context menu was improved. [https://github.com/FreeCAD/FreeCAD/pull/26492 Pull request #26492]
 
 == Draft Workbench == <!--T:27-->
 
