@@ -165,6 +165,12 @@ ToDo (last check: 20260412):
 * The [[CAM_SimulatorGL|new CAM simulator]] now uses the same ortho/perspective view mode and navigation style as the [[3D_View|3D View]]. [https://github.com/FreeCAD/FreeCAD/pull/23073 Pull request #23073]
 * The [[CAM_Pocket_Shape|Pocket]] operation can now handle horizontal edges in addition to faces. [https://github.com/FreeCAD/FreeCAD/pull/27750 Pull request #27750]
 * The ''Op Final Depth'' property of the [[CAM_Engrave|Engrave]] operation now has a better default value depending on stock and engraving shape. [https://github.com/FreeCAD/FreeCAD/pull/26543 Pull request #26543]
+* ''Start Point'' can now be set from the task panel for [[CAM_Profile|Profile]] and [[CAM_Pocket_Shape|Pocket]] operations. [https://github.com/FreeCAD/FreeCAD/pull/29502 Pull request #29502]
+* The Circular Hole Base feature used to select Base Geometry for some operations now shows position and blind state (for cylinder faces) in addition to face name and diameter. [https://github.com/FreeCAD/FreeCAD/pull/27869 Pull request #27869]
+* The [[CAM_Helix|Helix]] operation now has the ''Helix Max Ramp Angle'' property while ''Helix Pitch'' was renamed to ''Helix Max Pitch''. [https://github.com/FreeCAD/FreeCAD/pull/29286 Pull request #29286]
+* The ''Zig Zag Angle'' property of the [[CAM_Pocket_Shape|Pocket]] operation was renamed to ''Angle''. It is now hidden if the selected pattern is ''Offset''. [https://github.com/FreeCAD/FreeCAD/pull/26842 Pull request #26842]
+* A new tool was added to allow mirroring dressups. [https://github.com/FreeCAD/FreeCAD/pull/21820 Pull request #21820]
+* A rapid move from ''Clearance Height'' to ''Safe Height'' was added at the beginning of the [[CAM_Slot|Slot]] operation's G-code. [https://github.com/FreeCAD/FreeCAD/pull/25845 Pull request #25845]
 
 == Draft Workbench == <!--T:27-->
 
