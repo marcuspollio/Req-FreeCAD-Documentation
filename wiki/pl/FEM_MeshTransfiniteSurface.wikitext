@@ -59,9 +59,7 @@ Możesz tworzyć tyle różnych powierzchni transfinite, ile potrzeba.
 <span id="Notes"></span>
 ==Uwagi==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Using this tool with the ''Auto apply transfinite curves'' and ''Recombine'' checkboxes enabled is the easiest way to generate structured quadrilateral meshes using the transfinite Gmsh algorithm. All subfaces must have 3 or 4 edges, though.
-</div>
+* Użycie tego narzędzia z włączonymi polami ''Automatycznie zastosuj krzywe transfinite'' oraz ''Rekombinacja'' to najprostszy sposób wygenerowania strukturalnych siatek elementów czworokątnych przy pomocy algorytmu transfinite generatora siatki Gmsh. Wszystkie podrzędne ściany muszą mieć jednak 3 lub 4 krawędzie.
 
 [[File:FEM_transfinite_surface.png|400px]]
 <div class="mw-translate-fuzzy">
