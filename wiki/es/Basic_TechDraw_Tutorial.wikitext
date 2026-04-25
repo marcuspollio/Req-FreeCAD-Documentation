@@ -96,14 +96,12 @@ Antes de abandonar esta página, veamos cómo quedará al imprimirla.
 
 Vamos a crear un dibujo multivista usando una plantilla diferente como punto de partida. Usaremos la convención de primer ángulo, pero puede cambiarla a tercer ángulo si esa es su convención local. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Click on [[Image:TechDraw_PageTemplate.svg|32px]] [[TechDraw_PageTemplate|TechDraw PageTemplate]]. A file chooser dialog will appear. Select a template file. We're going to use "ANSIB.SVG". A new tab will appear.
-# Select "Body" and "Page001" (if you have more than one page in your document, you need to tell TechDraw which one to use).
-# Click on [[Image:TechDraw_ProjectionGroup.svg|32px]] [[TechDraw_ProjectionGroup|TechDraw ProjectionGroup]]. The familiar small view in the middle of the page will appear and a dialog will appear in the Task panel.
-# Click on several boxes in the Secondary Views section of the dialog. 
-# Drag the View labelled "Front". All the other Views move with it. 
-# Change the Scale drop down box from Page to Custom and change the Custom Scale to 2:1. Press the {{Button|OK}} button.
-</div>
+# Haga clic en [[Image:TechDraw_PageTemplate.svg|32px]] [[TechDraw_PageTemplate|Plantilla de página de TechDraw]]. Aparecerá un cuadro de diálogo para seleccionar archivos. Seleccione un archivo de plantilla. Usaremos "ANSIB.SVG". Aparecerá una nueva pestaña.
+# Seleccione "Cuerpo" y "Página001" (si su documento tiene más de una página, debe indicarle a TechDraw cuál usar).
+# Haga clic en [[Image:TechDraw_ProjectionGroup.svg|32px]] [[TechDraw_ProjectionGroup|Grupo de Proyección de TechDraw]]. Aparecerá la vista pequeña habitual en el centro de la página y un cuadro de diálogo en el panel de tareas.
+# Haga clic en varias casillas en la sección Vistas secundarias del cuadro de diálogo.
+# Arrastre la vista etiquetada como "Frontal". Todas las demás vistas se moverán con ella.
+# Cambie el menú desplegable Escala de Página a Personalizada y cambie la Escala personalizada a 2:1. Pulse el botón {{Button|OK}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[Image:TDTut_ProjGroup21.png|center]]
