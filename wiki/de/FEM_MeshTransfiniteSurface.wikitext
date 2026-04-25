@@ -64,9 +64,7 @@ Es können so viele verschiedene transfinite Flächen wie nötig erstellt werden
 <span id="Notes"></span>
 ==Hinweise==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Using this tool with the ''Auto apply transfinite curves'' and ''Recombine'' checkboxes enabled is the easiest way to generate structured quadrilateral meshes using the transfinite Gmsh algorithm. All subfaces must have 3 or 4 edges, though.
-</div>
+* Die Verwendung dieses Werkzeugs bei aktivierten Kontrollkästchen ''Transfinite Kurven automatisch anwenden'' und ''Neu kombinieren'' ist der einfachste Weg, um strukturierte Vierecknetze mithilfe des transfiniten Gmsh-Algorithmus zu erzeugen. Alle Teilflächen müssen jedoch 3 oder 4 Kanten aufweisen.
 
 [[File:FEM_transfinite_surface.png|400px]]
 <div class="mw-translate-fuzzy">
