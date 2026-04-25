@@ -56,8 +56,8 @@ Der Befehl '''FEM MeshAdvanced''' ermöglicht es, die Maschenweite auf verschied
 #* ''Result'' - uses a data field from a FEM postprocessing pipeline as mesh size. This allows you to adapt the mesh according to the physical behavior of the result.
 #** Select the ''Result'' and the ''Field''.
 # Optionally, press the {{Button|[[Image:Preferences-system.svg|x16px]]}} button to edit the global refinement preview settings:
-#* Auto enable on open - automatically enables the visualization of the refinement mesh size when opening a refinement task dialog.
-#* Preview mesh fineness - determines how fine the preview mesh is. Larger number means finer mesh (smaller elements).
+#* ''Auto enable on open'' - automatically enables the visualization of the refinement mesh size when opening a refinement task dialog.
+#* ''Preview mesh fineness'' - determines how fine the preview mesh is. Larger number means finer mesh (smaller elements).
 # Optionally, press the {{Button|Visualize}} button to visualize the refinement mesh size output. It shows the mesh sizes given by the refinement as colors on a preview mesh. Note that the preview evaluates the refinement on a coarse mesh so details smaller than the mesh size may not be visible.
 # Press the {{Button|Add}} button. Select a face, edge or vertex as reference geometries for AnisoCurve and Distance refinements. To remove objects from the selection, press the {{Button|Remove}} button.
 # Click the {{Button|OK}} button.
@@ -71,8 +71,10 @@ Nachdem das Netz erstellt wurde, können seine Eigenschaften mit der [[Property_
 
 Es können so viele verschiedene erweiterte Filterkriterien wie nötig erstellt werden.
 
+<div class="mw-translate-fuzzy">
 [[File:FEM_advanced_refinement.PNG|400px]]
 {{Caption|Beispiel für eine erweiterte Verfeinerung mit MathEval unter Verwendung der folgenden Funktion: 0.05 + 0.4 * (16 * x^2 * y^2 * (x^2 - y^2)^2 / (x^2 + y^2)^4) + 0.1 * (Sqrt(x^2 + y^2) - 4)}}
+</div>
 
 
 {{Docnav/de
