@@ -26,7 +26,6 @@ class VariousStates:
         Type["Version"] = "Custom"
         Type["Release"] = "production"
         self.Type = Type
-        self.Type = "Custom"
         self.ver = "0.18"
         self.color = (0, 0, 1)
         self.width = 2.5
