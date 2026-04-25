@@ -29,7 +29,10 @@
 Narzędzie '''Strukturalna powierzchnia transfinite''' tworzy strukturalną siatkę na ścianie.
 
 [[File:FEM_mesh_transfinite_surface_task_panel.PNG|400px]]
+<div class="mw-translate-fuzzy">
+[[File:FEM_mesh_transfinite_surface_task_panel.PNG|400px]]
 {{Caption|Panel zadań narzędzia Strukturalna powierzchnia transfinite}}
+</div>
 
 <span id="Usage"></span>
 ==Użycie==
@@ -53,8 +56,24 @@ Po utworzeniu siatki możesz zmienić jej właściwości przy pomocy [[Property_
 
 Możesz tworzyć tyle różnych powierzchni transfinite, ile potrzeba.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[File:FEM_transfinite_surface_triangle_orientation.png|400px]]
+{{Caption|Illustration of the Left, Right, AlternateRight and AlternateLeft triangle orientations}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Notes==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* Using this tool with the ''Auto apply transfinite curves'' and ''Recombine'' checkboxes enabled is the easiest way to generate structured quadrilateral meshes using the transfinite Gmsh algorithm. All subfaces must have 3 or 4 edges, though.
+</div>
+
+[[File:FEM_transfinite_surface.png|400px]]
+<div class="mw-translate-fuzzy">
 [[File:FEM_transfinite_surface.png|400px]]
 {{Caption|Siatka powierzchniowa transfinite (strukturalna)}}
+</div>
 
 
 {{Docnav
