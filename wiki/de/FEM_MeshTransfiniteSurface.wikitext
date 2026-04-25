@@ -67,10 +67,7 @@ Es können so viele verschiedene transfinite Flächen wie nötig erstellt werden
 * Die Verwendung dieses Werkzeugs bei aktivierten Kontrollkästchen ''Transfinite Kurven automatisch anwenden'' und ''Neu kombinieren'' ist der einfachste Weg, um strukturierte Vierecknetze mithilfe des transfiniten Gmsh-Algorithmus zu erzeugen. Alle Teilflächen müssen jedoch 3 oder 4 Kanten aufweisen.
 
 [[File:FEM_transfinite_surface.png|400px]]
-<div class="mw-translate-fuzzy">
-[[File:FEM_transfinite_surface.png|400px]]
 {{Caption|Transfinites (strukturiertes) Oberflächennetz}}
-</div>
 
 
 {{Docnav/de
