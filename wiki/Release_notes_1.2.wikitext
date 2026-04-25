@@ -207,6 +207,7 @@ ToDo (last check: 20260412):
 * The ''Beam Reduced Integration'' property of the [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools|CalculiX solver]] was replaced by the generalized ''Reduced Integration'' property that replaces standard solid, face (shell, 2D) and beam elements with their reduced integration counterparts. [https://github.com/FreeCAD/FreeCAD/pull/29223 Pull request #29223]
 * The refactored [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools|CalculiX solver]] is now used by default. [https://github.com/FreeCAD/FreeCAD/pull/29220 Pull request #29220]
 * The [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint|Section print]] feature can now be used with the [[Image:FEM_SolverZ88.svg|24px]] [[FEM_SolverZ88|Z88 solver]]. [https://github.com/FreeCAD/FreeCAD/pull/29188 Pull request #29188]
+* Materials now have the ''Material Name'' property, making it easier to identify the actual materials represented by the material objects in the Analysis container. [https://github.com/FreeCAD/FreeCAD/pull/29609 Pull request #29609]
 
 == Inspection Workbench == <!--T:32-->
 
