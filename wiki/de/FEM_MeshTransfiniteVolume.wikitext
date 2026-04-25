@@ -29,10 +29,8 @@
 
 Der Befehl '''FEM NetzTransfinitesVolumen''' erzeugt ein strukturiertes Netz in einem 4- oder 5-seitigen Volumen, das von transfiniten Flächen begrenzt wird.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_mesh_transfinite_volume_task_panel.PNG|400px]]
-{{Caption|Task panel of the MeshTransfiniteVolume tool}}
-</div>
+{{Caption|Aufgaben-Fenster des Werkzeugs MeshTransfiniteVolume}}
 
 <span id="Usage"></span>
 ==Anwendung==
