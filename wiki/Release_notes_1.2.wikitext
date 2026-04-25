@@ -305,6 +305,7 @@ ToDo (last check: 20260412):
 * There is now a ''Cancel'' button, making it possible to discard modifications in a sketch.  [https://github.com/FreeCAD/FreeCAD/pull/29337 Pull request #29337]
 * The [[Image:Sketcher_ConstrainHorizontal.svg|24px]] [[Sketcher_ConstrainHorizontal|Horizontal]],[[Image:Sketcher_ConstrainVertical.svg|24px]] [[Sketcher_ConstrainVertical|Vertical]] and [[Image:Sketcher_ConstrainDistance.svg|24px]] [[Sketcher_ConstrainDistance|Distance]] dimensions are now positioned better by default to avoid overlap with the lines being constrained. [https://github.com/FreeCAD/FreeCAD/pull/29538 Pull request #29538]
 * [[Sketcher_Workbench#3D_View_box_selection|Sketcher box selection]] now takes into account the [[Image:Part_SelectFilter.svg|24px]] [[Part_SelectFilter|selection filters]]. [https://github.com/FreeCAD/FreeCAD/pull/28982 Pull request #28982]
+* Arc length dimensions are now positioned better for larger arc spans. [https://github.com/FreeCAD/FreeCAD/pull/29594 Pull request #29594]
 
 == Spreadsheet Workbench == <!--T:53-->
 
