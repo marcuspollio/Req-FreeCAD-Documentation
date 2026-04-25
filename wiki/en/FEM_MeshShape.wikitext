@@ -36,7 +36,7 @@ The '''FEM MeshShape''' command can be used to set mesh size within and outside 
 # There are several ways to invoke the command:
 #* Press the {{Button|[[Image:FEM_MeshShape.svg|16px]] [[FEM_MeshShape|Shape-Based Refinement]]}} button.
 #* Select the {{MenuCommand|Mesh → GMSH Refinements → [[Image:FEM_MeshShape.svg|16px]] Shape-Based Refinement}} option from the menu.
-# Edit the size inside and outside of the shape as well as the thickness of the transition layer between the in/out mesh sizes (aded outside of the shape).
+# Edit the size inside and outside of the shape as well as the thickness of the transition layer between the in/out mesh sizes (added outside of the shape).
 # Select the shape from the drop-down list and adjust its location and size using the input fields or [[3D_View|3D View]] draggers:
 #* ''Box'' - set the center coordinates, length, width and height
 #* ''Sphere'' - set the center coordinates and radius
