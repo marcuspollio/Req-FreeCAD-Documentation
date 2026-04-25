@@ -42,13 +42,11 @@ En este tutorial, utilizará el Entorno de Trabajo de Dibujo Técnico para crear
 <span id="Views_and_Dimensions"></span>
 === Vistas y dimensiones ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-All work in TechDraw begins with a Page. Pages are based on Templates and contain Views.
- 
-# Click on [[Image:TechDraw_PageDefault.svg|32px]] [[TechDraw_PageDefault|TechDraw PageDefault]] to create a new Page.
-# Click on Body in the [[3D_view|3D view]] or in the [[Combo_view|Combo view]].
-# Click on [[Image:TechDraw_View.svg|32px]] [[TechDraw_View|TechDraw View]]. This will add the View to the page we just created.
-</div>
+Todo el trabajo comienza con una página. Las páginas se basan en plantillas y contienen vistas.
+
+# Haga clic en [[Image:TechDraw_PageDefault.svg|32px]] [[TechDraw_PageDefault|la página predeterminada del Entorno de Trabajo de Dibujo Técnico]] para crear una nueva página.
+# Haga clic en Cuerpo en la [[3D_view|Vista 3D]] o en la [[Combo_view|Vista combinada]].
+# Haga clic en [[Image:TechDraw_View.svg|32px]] [[TechDraw_View|Vista TechDraw]]. Esto agregará la vista a la página que acabamos de crear.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Now we have a View on the Page looking down at the top of the Body. It is a little small, though.
