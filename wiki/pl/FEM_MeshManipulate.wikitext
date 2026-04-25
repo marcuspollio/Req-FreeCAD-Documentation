@@ -34,7 +34,6 @@ Narzędzie '''Manipulacja zagęszczeniem''' pozwala manipulować wynikiem zagęs
 <span id="Usage"></span>
 ==Użycie==
 
-<div class="mw-translate-fuzzy">
 # Aby skorzystać z tego polecenia, potrzebna jest [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/pl|siatka wygenerowana przez Gmsh]].
 # Wybierz obiekt siatki w [[Tree_View/pl|Widoku drzewa]].
 # Istnieje kilka sposobów na wywołanie tego polecenia:
@@ -57,8 +56,8 @@ Narzędzie '''Manipulacja zagęszczeniem''' pozwala manipulować wynikiem zagęs
 #* ''Laplasjan'' - oblicza różnicę skończoną laplasjanu zagęszczenia podrzędnego G
 #** Zdefiniuj parametr ''Delta''
 # Opcjonalnie, wciśnij przycisk {{Button|[[Image:Preferences-system.svg|x16px]]}}, aby edytować ustawienia podglądu globalnego zagęszczenia:
-#* Włącz automatycznie przy otwarciu - automatycznie włącza wizualizację rozmiaru siatki zagęszczenia przy otwieraniu panelu zadań zagęszczenia.
-#* Gęstość siatki podglądu - określa jak gęsta jest siatka podglądu. Większa wartość oznacza gęstszą siatkę (mniejsze elementy).
+#* ''Włącz automatycznie przy otwarciu'' - automatycznie włącza wizualizację rozmiaru siatki zagęszczenia przy otwieraniu panelu zadań zagęszczenia.
+#* ''Gęstość siatki podglądu'' - określa jak gęsta jest siatka podglądu. Większa wartość oznacza gęstszą siatkę (mniejsze elementy).
 # Opcjonalnie, wciśnij przycisk {{Button|Wizualizuj}}, aby zwizualizować wynikowy rozmiar siatki zagęszczenia. Pokazuje to rozmiary siatki podane przez zagęszczenie jako kolory na siatce podglądu. Zauważ, że podgląd określa zagęszczenie na rzadkiej siatce, więc detale mniejsze niż rozmiar siatki mogą nie być widoczne.
 # Wciśnij przycisk {{Button|Dodaj}}. Wybierz wierzchołek, krawędź, ścianę lub bryłę jako geometrie odniesienia dla ograniczenia. Aby usunąć obiekty z zaznaczenia, wciśnij przycisk {{Button|Usuń}}.
 # Wciśnij przycisk {{Button|OK}}.
@@ -67,7 +66,6 @@ Narzędzie '''Manipulacja zagęszczeniem''' pozwala manipulować wynikiem zagęs
 # Przeciągnij zagęszczenie, które powinno zostać zmienione do obiektu {{incode|Manipulate}} w drzewie dokumentu. Zagęszczenie będzie zgrupowane pod obiektem {{incode|Manipulate}}.
 # Dwukrotnie kliknij na obiekcie nadrzędnym {{incode|FEMMeshGmsh}} w drzewie modelu i kliknij {{Button|Zastosuj}}, aby wymusić przebudowanie siatki.
 # Zamknij panel zadań.
-</div>
 
 Po utworzeniu siatki możesz zmienić jej właściwości przy pomocy [[Property_View/pl|Widoku właściwości]]. Po zmianie właściwości należy ponownie otworzyć okno dialogowe Gmsh i wcisnąć przycisk {{Button|Zastosuj}}. (Możesz zostawić okno dialogowe otwarte podczas zmieniania właściwości.)
 
