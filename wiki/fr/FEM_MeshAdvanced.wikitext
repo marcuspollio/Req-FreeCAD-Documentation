@@ -33,7 +33,6 @@ La commande '''FEM Affinage avancé''' permet de définir la taille des élémen
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
 # Pour activer la commande, il faut d'abord fournir un [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/fr|maillage avec Gmsh]].
 # Sélectionnez l'objet Mesh dans l'[[Tree_View/fr|arborescence]].
 # Il existe plusieurs façons de lancer la commande :
@@ -61,17 +60,14 @@ La commande '''FEM Affinage avancé''' permet de définir la taille des élémen
 #: Résultat : vous devriez maintenant voir un nouvel objet {{incode|Advanced}} sous l'objet {{incode|FEMMeshGmsh}} dans votre conteneur d'analyse actif.
 # Double-cliquez sur l'objet parent {{incode|FEMMeshGmsh}} dans votre arborescence de modèle et cliquez sur {{Button|Appliquer}} pour forcer un recalcul du maillage.
 # Fermez la tâche.
-</div>
 
 Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l'aide de l'[[Property_View/fr|éditeur de propriétés]]. Après avoir modifié une propriété, vous devez rouvrir la fenêtre de dialogue Gmsh et cliquer sur le bouton {{Button|Appliquer}}. (Vous pouvez laisser la fenêtre de dialogue ouverte pendant la modification des propriétés).
 
 Vous pouvez créer autant d'affinages avancés différents que nécessaire.
 
-<div class="mw-translate-fuzzy">
 [[File:FEM_advanced_refinement.PNG|400px]]
 {{Caption|Exemple d'affinage avancé Évaluation mathématique avec la fonction suivante :<br/>
 0.05 + 0.4 * (16 * x^2 * y^2 * (x^2 - y^2)^2 / (x^2 + y^2)^4) + 0.1 * (Sqrt(x^2 + y^2) - 4)}}
-</div>
 
 
 {{Docnav/fr
