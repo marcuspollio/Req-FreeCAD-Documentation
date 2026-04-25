@@ -24,19 +24,16 @@ Descargue el [https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_
 
 En este tutorial, utilizará el Entorno de Trabajo de Dibujo Técnico para crear dibujos 2D de la pieza 3D que se muestra a continuación. Crearemos varias vistas de la pieza y añadiremos las dimensiones clave. Como ya se ha comentado, este tutorial no utilizará todas las funciones y herramientas disponibles en este entorno, pero sí las suficientes para que el usuario adquiera una base sólida sobre la cual desarrollar sus conocimientos y habilidades. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== The Part ==
-</div>
+<span id="The_Part"></span>
+== La pieza ==
 
 [[Image:Tut17_final_refined.png|center]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Creating a Drawing ==
-</div>
+<span id="Creating_a_Drawing"></span>
+== Creación de un dibujo ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Startup===
-</div>
+<span id="Startup"></span>
+=== Inicio ===
 
 * Es posible que desee hacer unos ajustes en la configuración de [[TechDraw_Preferences|preferencias]] antes de comenzar. Consulte la Nota 1.
 * Primero, abra el archivo que contiene nuestra pieza 3D. Luego, asegúrese de estar en el Entorno de Trabajo de Dibujo Técnico.
