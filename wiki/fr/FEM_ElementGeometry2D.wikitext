@@ -52,7 +52,7 @@
 
 [[Image:FEM_shell_offset.svg|700px]]
 
-{{Caption|Offset examples on square plates (view from the side). Each blue line represents the actual geometry for which a 2D shell mesh is generated. The surface mesh is internally expanded to solid elements (green rectangles) by the solver. Offset direction depends on the sign of the specified offset value '''o''' and on the surface normal '''n'''. Normals in the bottom row were inverted. The offset is measured from the midsurface of the expanded mesh (red dashed line) to the surface of the geometry and 2D mesh (blue solid line) - in this direction indicated by the pink arrows. Thus, as explained above, it follows the normal direction when the offset value is positive and opposes it when the offset value is negative.}}
+{{Caption|Exemples de décalage sur des plaques carrées (vue de profil). Chaque ligne bleue représente la géométrie réelle pour laquelle un maillage de coque 2D est généré. Le maillage de surface est étendu en interne en éléments solides (rectangles verts) par le solveur. La direction du décalage dépend du signe de la valeur de décalage spécifiée '''o''' et de la normale à la surface '''n'''. Les normales de la rangée du bas ont été inversées. Le décalage est mesuré depuis la surface médiane du maillage étendu (ligne pointillée rouge) jusqu'à la surface de la géométrie et du maillage 2D (ligne continue bleue) – dans cette direction indiquée par les flèches roses. Ainsi, comme expliqué ci-dessus, il suit la direction de la normale lorsque la valeur de décalage est positive et s'y oppose lorsque la valeur de décalage est négative.}}
 
 <span id="Notes"></span>
 ==Remarques==
