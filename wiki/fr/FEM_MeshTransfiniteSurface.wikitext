@@ -61,10 +61,7 @@ Vous pouvez créer autant de surfaces différentes transfinies que nécessaire.
 * L'utilisation de cet outil avec les cases  ''Appliquer automatiquement les surfaces et courbes transfinies'' et ''Recombiner'' cochées constitue le moyen le plus simple de générer des maillages quadrilatéraux structurés à l'aide de l'algorithme transfini de Gmsh. Toutes les sous-faces doivent toutefois comporter 3 ou 4 arêtes.
 
 [[File:FEM_transfinite_surface.png|400px]]
-<div class="mw-translate-fuzzy">
-[[File:FEM_transfinite_surface.png|400px]]
 {{Caption|Maillage de surface transfinie (structurée)}}
-</div>
 
 
 {{Docnav/fr
