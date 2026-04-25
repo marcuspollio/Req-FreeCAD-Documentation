@@ -53,7 +53,7 @@
 
 [[Image:FEM_shell_offset.svg|700px]]
 
-{{Caption|Przykłady odsunięcia na kwadratowych płytkach (widok z boku). Każda niebieska linia oznacza rzeczywistą geometrię, dla której generowana jest powłokowa siatka 2D. Siatka powierzchniowa jest wewnętrznie wyciągana do elementów bryłowych (zielone prostokąty) przez solver. Kierunek odsunięcia zależy od znaku podanej wartości odsunięcia '''o''' oraz od kierunku normalnego '''n'''. Kierunki normalne w dolnym rzędzie zostały odwrócone. Odsunięcie jest mierzone od powierzchni środkowej wyciągniętej siatki (czerwona linia przerywana) do powierzchni geometrii i siatki 2D (niebieska linia ciągła) - w tym kierunku wskazanym przez różowe strzałki. Tak więc, jak wyjaśniono wyżej, kierunek ten jest zgodny z kierunkiem normalnym jeśli wartość odsunięcia jest dodatna i przeciwnym do niego gdy wartość odsunięcia jest ujemna.}}
+{{Caption|Przykłady odsunięcia na kwadratowych płytkach (widok z boku). Każda niebieska linia oznacza rzeczywistą geometrię, dla której generowana jest powłokowa siatka 2D. Siatka powierzchniowa jest wewnętrznie wyciągana do elementów bryłowych (zielone prostokąty) przez solver. Kierunek odsunięcia zależy od znaku podanej wartości odsunięcia '''o''' oraz od kierunku normalnego '''n'''. Kierunki normalne w dolnym rzędzie zostały odwrócone. Odsunięcie jest mierzone od powierzchni środkowej wyciągniętej siatki (czerwona linia przerywana) do powierzchni geometrii i siatki 2D (niebieska linia ciągła) - w tym kierunku wskazanym przez różowe strzałki. Tak więc, jak wyjaśniono wyżej, kierunek ten jest zgodny z kierunkiem normalnym, jeśli wartość odsunięcia jest dodatnia i przeciwny do niego, gdy wartość odsunięcia jest ujemna.}}
 
 <span id="Notes"></span>
 ==Uwagi==
