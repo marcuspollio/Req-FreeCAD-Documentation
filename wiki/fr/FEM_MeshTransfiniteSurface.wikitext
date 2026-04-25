@@ -28,7 +28,10 @@
 La commande '''FEM Surface structurée transfinie''' crée un maillage structuré sur une face.
 
 [[File:FEM_mesh_transfinite_surface_task_panel.PNG|400px]]
+<div class="mw-translate-fuzzy">
+[[File:FEM_mesh_transfinite_surface_task_panel.PNG|400px]]
 {{Caption|Panneau des tâches de l'outil Surface structurée transfinie}}
+</div>
 
 <span id="Usage"></span>
 ==Utilisation==
@@ -52,8 +55,24 @@ Une fois que le maillage a été créé, vous pouvez modifier ses propriétés �
 
 Vous pouvez créer autant de surfaces différentes transfinies que nécessaire.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[File:FEM_transfinite_surface_triangle_orientation.png|400px]]
+{{Caption|Illustration of the Left, Right, AlternateRight and AlternateLeft triangle orientations}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Notes==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* Using this tool with the ''Auto apply transfinite curves'' and ''Recombine'' checkboxes enabled is the easiest way to generate structured quadrilateral meshes using the transfinite Gmsh algorithm. All subfaces must have 3 or 4 edges, though.
+</div>
+
+[[File:FEM_transfinite_surface.png|400px]]
+<div class="mw-translate-fuzzy">
 [[File:FEM_transfinite_surface.png|400px]]
 {{Caption|Maillage de surface transfinie (structurée)}}
+</div>
 
 
 {{Docnav/fr
