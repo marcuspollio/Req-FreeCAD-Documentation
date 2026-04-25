@@ -94,9 +94,7 @@ Antes de abandonar esta página, veamos cómo quedará al imprimirla.
 <span id="Multiple_Views_of_a_Single_Part"></span>
 === Múltiples vistas de una misma pieza ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Let's create a multiview drawing using a different Template as a starting point. We'll be using the First Angle convention, but you can change to Third Angle if that is your local convention.
-</div> 
+Vamos a crear un dibujo multivista usando una plantilla diferente como punto de partida. Usaremos la convención de primer ángulo, pero puede cambiarla a tercer ángulo si esa es su convención local. 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Click on [[Image:TechDraw_PageTemplate.svg|32px]] [[TechDraw_PageTemplate|TechDraw PageTemplate]]. A file chooser dialog will appear. Select a template file. We're going to use "ANSIB.SVG". A new tab will appear.
