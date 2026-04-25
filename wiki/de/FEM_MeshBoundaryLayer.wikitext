@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[FEM_MeshGmshFromShape/de|FEM Netz aus Form durch Gmsh]]
-|[[FEM_MeshRegion/de|FEM Netz Bereich]]
+|[[FEM_MeshDistance/de|Entfernungsbasierte Verfeinerung]]
+|[[FEM_MeshShape/de|Formbasierte Verfeinerung]]
 |[[FEM_Workbench/de|FEM]]
-|IconL=FEM_MeshGmshFromShape.png
+|IconL=FEM_MeshDistance.svg
+|IconR=FEM_MeshShape.svg
 |IconC=Workbench_FEM.svg
-|IconR=FEM_MeshRegion.png
 }}
-</div>
 
 <div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
