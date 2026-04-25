@@ -13,9 +13,7 @@
 
 El entorno de trabajo[[Image:Workbench_Start.svg|24px]] [[Start_Workbench/es|Start]] no es realmente un ambiente de trabajo, es sólo la página que se presenta cuando abres FreeCAD sin ningún documento cargado.
 
-<div class="mw-translate-fuzzy">
-Desde esta interfaz puedes crear nuevos archivos, saltar hacia entornos de trabajo usados comúnmente con botones de inico rápido ({{Version|0.22}}), ver información útil y saltar a los archivos abiertos recientemente, ver ejemplos, ver la documentación, y obtener las últimas noticias del mundo de FreeCAD. Puedes cambiar cómo se comporta el ambiente de trabajo de inicio, o cambiar el ambiente de trabajo por defecto, en el [[Preferences_Editor/es|Editor de preferencias]] del menú {{MenuCommand|Edición → Preferencias → Inicio}}.
-</div>
+Desde esta interfaz puede crear nuevos archivos, acceder a los entornos de trabajo más utilizados con los botones de inicio rápido ({{Version|1.0}}), consultar información útil, acceder a los archivos abiertos recientemente, ver ejemplos, consultar la documentación y estar al día de las últimas novedades de FreeCAD. Puede modificar el comportamiento del Entorno de Trabajo de Inicio o cambiar el entorno de trabajo predeterminado en el [[Editor de preferencias|Editor de preferencias]] del menú {{MenuCommand|Editar → Preferencias → Inicio}}.
 
 [[Image:Start_Documents.png|thumb|left|500px|Entorno de trabajo Inicio, pestaña de documentos]]
 
