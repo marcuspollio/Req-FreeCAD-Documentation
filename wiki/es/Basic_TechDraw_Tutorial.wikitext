@@ -58,12 +58,11 @@ Ahora tenemos una vista de la página que muestra la parte superior del cuerpo. 
 
 [[Image:TDTut_TopView2to1.png|centro]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Better, but a little boring. Let's add some Dimensions.
-# Select the top-left Vertex (small dot) with the {{KEY|LMB}} (Left Mouse Button), then also select ({{KEY|Ctrl}}+{{KEY|LMB}}) the bottom-left vertex.
-# Click on [[Image:TechDraw_VerticalDimension.svg|32px]] [[TechDraw_VerticalDimension|TechDraw VerticalDimension]]. Drag the dimension text away from the Body.
-# Try that again with the top-left and top-right Vertices and [[Image:TechDraw_HorizontalDimension.svg|32px]] [[TechDraw_HorizontalDimension|TechDraw HorizontalDimension]].
-</div>
+Mejor, pero un poco aburrido. Añadamos algunas dimensiones.
+
+# Seleccione el vértice superior izquierdo (punto pequeño) con el botón izquierdo del ratón ({{KEY|LMB}}), y luego seleccione también ({{KEY|Ctrl}}+{{KEY|LMB}}) el vértice inferior izquierdo.
+# Haga clic en [[Image:TechDraw_VerticalDimension.svg|32px]] [[TechDraw_VerticalDimension|Dimensión vertical del Entorno de Trabajo de Dibujo Técnico]]. Arrastre el texto de la dimensión fuera del cuerpo.
+# Repita el proceso con los vértices superior izquierdo y superior derecho y [[Image:TechDraw_HorizontalDimension.svg|32px]] [[TechDraw_HorizontalDimension|Dimensión horizontal del Entorno de Trabajo de Dibujo Técnico]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[Image:TDTut_TopView2Dims.png|center]]
