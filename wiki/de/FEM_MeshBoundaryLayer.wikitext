@@ -59,16 +59,14 @@ Es können so viele unterschiedliche Grenzschichten wie nötig erstellt werden.
 {{Caption|Beispiel für eine 2D-Grenzschicht um eine Öffnung}}
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[FEM_MeshGmshFromShape/de|FEM Netz aus Form durch Gmsh]]
-|[[FEM_MeshRegion/de|FEM Netz Bereich]]
+|[[FEM_MeshDistance/de|Entfernungsbasierte Verfeinerung]]
+|[[FEM_MeshShape/de|Formbasierte Verfeinerung]]
 |[[FEM_Workbench/de|FEM]]
-|IconL=FEM_MeshGmshFromShape.png
+|IconL=FEM_MeshDistance.svg
+|IconR=FEM_MeshShape.svg
 |IconC=Workbench_FEM.svg
-|IconR=FEM_MeshRegion.png
 }}
-</div>
 
 {{FEM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
