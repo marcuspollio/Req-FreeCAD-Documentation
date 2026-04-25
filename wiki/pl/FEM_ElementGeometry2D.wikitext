@@ -53,7 +53,7 @@
 
 [[Image:FEM_shell_offset.svg|700px]]
 
-{{Caption|Offset examples on square plates (view from the side). Each blue line represents the actual geometry for which a 2D shell mesh is generated. The surface mesh is internally expanded to solid elements (green rectangles) by the solver. Offset direction depends on the sign of the specified offset value '''o''' and on the surface normal '''n'''. Normals in the bottom row were inverted. The offset is measured from the midsurface of the expanded mesh (red dashed line) to the surface of the geometry and 2D mesh (blue solid line) - in this direction indicated by the pink arrows. Thus, as explained above, it follows the normal direction when the offset value is positive and opposes it when the offset value is negative.}}
+{{Caption|Przykłady odsunięcia na kwadratowych płytkach (widok z boku). Każda niebieska linia oznacza rzeczywistą geometrię, dla której generowana jest powłokowa siatka 2D. Siatka powierzchniowa jest wewnętrznie wyciągana do elementów bryłowych (zielone prostokąty) przez solver. Kierunek odsunięcia zależy od znaku podanej wartości odsunięcia '''o''' oraz od kierunku normalnego '''n'''. Kierunki normalne w dolnym rzędzie zostały odwrócone. Odsunięcie jest mierzone od powierzchni środkowej wyciągniętej siatki (czerwona linia przerywana) do powierzchni geometrii i siatki 2D (niebieska linia ciągła) - w tym kierunku wskazanym przez różowe strzałki. Tak więc, jak wyjaśniono wyżej, kierunek ten jest zgodny z kierunkiem normalnym jeśli wartość odsunięcia jest dodatna i przeciwnym do niego gdy wartość odsunięcia jest ujemna.}}
 
 <span id="Notes"></span>
 ==Uwagi==
