@@ -40,11 +40,9 @@ In this tutorial, you will be using the TechDraw Workbench to create a 2D drawin
 ===Startup===
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* You may wish to adjust your [[TechDraw_Preferences|preference]] settings before beginning. See Note 1.
-* First open the file containing our 3D part. Then make sure you are in the TechDraw Workbench.
-* You will be selecting items in the Drawing window and/or the Combo panel. Selection in TechDraw works the same as in the 3D window. Items turn yellow when the cursor is in position to select them and turn green when selected. To select multiple items use the {{KEY|Ctrl}} key while clicking.
-</div>
+* Es posible que desee hacer unos ajustes en la configuración de [[TechDraw_Preferences|preferencias]] antes de comenzar. Consulte la Nota 1.
+* Primero, abra el archivo que contiene nuestra pieza 3D. Luego, asegúrese de estar en el Entorno de Trabajo de Dibujo Técnico.
+* Seleccionará elementos en la ventana de dibujo o en el panel combinado. La selección en este entorno funciona igual que en la ventana 3D. Los elementos se vuelven amarillos cuando el cursor está en posición de selección y verdes cuando están seleccionados. Para seleccionar varios elementos, mantenga presionada la tecla {{KEY|Ctrl}} mientras hace clic.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Views and Dimensions===
