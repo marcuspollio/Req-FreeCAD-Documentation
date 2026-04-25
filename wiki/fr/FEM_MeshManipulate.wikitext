@@ -9,10 +9,9 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
 {{GuiCommand/fr
-|Name=FEM MeshShape
+|Name=FEM MeshManipulate
 |Name/fr=FEM Manipuler l'affinage
 |MenuLocation=Maillage → Affinements Gmsh → Manipuler l'affinage
 |Workbenches=[[FEM_Workbench/fr|FEM]]
@@ -23,7 +22,6 @@
 |Solvers=Tous
 }}
 }}
-</div>
 
 ==Description==
 
