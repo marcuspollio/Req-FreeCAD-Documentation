@@ -61,9 +61,8 @@ Es können so viele verschiedene transfinite Flächen wie nötig erstellt werden
 {{Caption|Illustration of the Left, Right, AlternateRight and AlternateLeft triangle orientations}}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Notes==
-</div>
+<span id="Notes"></span>
+==Hinweise==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Using this tool with the ''Auto apply transfinite curves'' and ''Recombine'' checkboxes enabled is the easiest way to generate structured quadrilateral meshes using the transfinite Gmsh algorithm. All subfaces must have 3 or 4 edges, though.
