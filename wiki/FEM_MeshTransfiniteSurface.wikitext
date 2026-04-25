@@ -30,8 +30,10 @@
 <!--T:4-->
 The '''FEM MeshTransfiniteSurface''' command creates a structured mesh on a face.
 
-<!--T:5-->
+</translate>
 [[File:FEM_mesh_transfinite_surface_task_panel.PNG|400px]]
+<translate>
+<!--T:5-->
 {{Caption|Task panel of the MeshTransfiniteSurface tool}}
 
 ==Usage== <!--T:6-->
@@ -58,15 +60,19 @@ After the mesh has been created you can change its properties using the [[Proper
 <!--T:9-->
 You can create as many different transfinite surfaces as needed.
 
+<!--T:12-->
 [[File:FEM_transfinite_surface_triangle_orientation.png|400px]]
 {{Caption|Illustration of the Left, Right, AlternateRight and AlternateLeft triangle orientations}}
 
-==Notes==
+==Notes== <!--T:13-->
+
+<!--T:14-->
 * Using this tool with the ''Auto apply transfinite curves'' and ''Recombine'' checkboxes enabled is the easiest way to generate structured quadrilateral meshes using the transfinite Gmsh algorithm. All subfaces must have 3 or 4 edges, though.
 
-
-<!--T:11-->
+</translate>
 [[File:FEM_transfinite_surface.png|400px]]
+<translate>
+<!--T:11-->
 {{Caption|Transfinite (structured) surface mesh}}
 
 
