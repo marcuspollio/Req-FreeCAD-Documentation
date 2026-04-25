@@ -117,13 +117,11 @@ Vamos a crear un dibujo multivista usando una plantilla diferente como punto de 
 
 En la primera parte de este tutorial, sabemos que la pieza de trabajo tiene 53 mm de ancho, pero nuestras nuevas dimensiones son 43,27. Esto se debe a que la "Parte superior izquierda frontal" es una proyección isométrica (https://en.wikipedia.org/wiki/Isometric_projection), y nuestro primer dibujo era una proyección ortogonal (multivista) (https://en.wikipedia.org/wiki/Orthographic_projection). Para obtener el valor correcto, debemos vincular nuestra dimensión directamente al modelo 3D. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Note the name of our faulty dimension in the Combo panel. We'll need it in a minute.
-# Change to the 3D tab and select the Vertices at the ends of the front edge of the work piece. Also select Page001.
-# Click on [[Image:TechDraw_LinkDimension.svg|32px]] [[TechDraw_LinkDimension|TechDraw LinkDimension]]. A dialog will open in the Task panel.
-# In the dialog, move our dimension from the Available column to the Selected column. Press {{Button|OK}}.
-# Return to Page001. Our dimension should now read the correct value of 53. (if you still see 43.27, you may need to press the {{Button|Recompute}} button or drag the dimension value a bit until it changes.)
-</div>
+# Anote el nombre de esa cota errónea en el panel Combinado. La necesitaremos en un momento.
+# Cambie a la pestaña 3D y seleccione los vértices en los extremos del borde frontal de la pieza de trabajo. Seleccione también la página 001.
+# Haga clic en la [[Image:TechDraw_LinkDimension.svg|32px]] [[TechDraw_LinkDimension|Dimensión del enlace de TechDraw]]. Se abrirá un cuadro de diálogo en el panel Tareas.
+# En el cuadro de diálogo, mueva la cota de la columna Disponible a la columna Seleccionada. Pulse {{Button|Aceptar}}.
+# Vuelva a la página 001. Nuestra cota ahora debería mostrar el valor correcto de 53. (Si aún ve 43,27, es posible que tenga que pulsar el botón {{Button|Recalcular}} o arrastrar el valor de la cota hasta que cambie).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Going Further ==
