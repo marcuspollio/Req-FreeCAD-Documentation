@@ -29,8 +29,8 @@
 
 Der Befehl '''FEM NetzTransfiniteFläche''' erstellt ein strukturiertes Netz auf einer Fläche.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 [[File:FEM_mesh_transfinite_surface_task_panel.PNG|400px]]
+<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Caption|Task panel of the MeshTransfiniteSurface tool}}
 </div>
 
@@ -58,8 +58,24 @@ Nachdem das Netz erstellt wurde, können seine Eigenschaften mit der [[Property_
 
 Es können so viele verschiedene transfinite Flächen wie nötig erstellt werden.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[File:FEM_transfinite_surface_triangle_orientation.png|400px]]
+{{Caption|Illustration of the Left, Right, AlternateRight and AlternateLeft triangle orientations}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Notes==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* Using this tool with the ''Auto apply transfinite curves'' and ''Recombine'' checkboxes enabled is the easiest way to generate structured quadrilateral meshes using the transfinite Gmsh algorithm. All subfaces must have 3 or 4 edges, though.
+</div>
+
+[[File:FEM_transfinite_surface.png|400px]]
+<div class="mw-translate-fuzzy">
 [[File:FEM_transfinite_surface.png|400px]]
 {{Caption|Transfinites (strukturiertes) Oberflächennetz}}
+</div>
 
 
 {{Docnav/de
