@@ -9,10 +9,9 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
 {{GuiCommand/pl
-|Name=FEM MeshShape
+|Name=FEM MeshManipulate
 |Name/pl=MES: Manipulacja zagęszczeniem
 |MenuLocation=Siatka → Zagęszczenia GMSH → Manipulacja zagęszczeniem
 |Workbenches=[[FEM_Workbench/pl|MES]]
@@ -23,7 +22,6 @@
 |Solvers=Wszystkie
 }}
 }}
-</div>
 
 <span id="Description"></span>
 ==Opis==
