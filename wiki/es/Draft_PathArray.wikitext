@@ -149,12 +149,11 @@ Las propiedades de este grupo solo están disponibles para Matrices de Enlace. C
 
 Las propiedades de este grupo, con la excepción de la propiedad heredada, solo están disponibles para matrices de Enlace. Consulte [[Std_LinkMake#Properties|Matrices de Enlace Enlace]] para obtener más información.
 
-* {{PropertyView|Draw Style|Enumeration}}
-* {{PropertyView|Line Width|FloatConstraint}}
+* {{PropertyView|Draw Style|Enumeración}}
+* {{PropertyView|Line Width|Restricción de flotación}}
 * {{PropertyView|Override Material|Bool}}
-* {{PropertyView|Point Size|FloatConstraint}}
+* {{PropertyView|Point Size|Restricción de flotación}}
 * {{PropertyView|Selectable|Bool}}: esta es una propiedad heredada que aparece en el grupo Selección para otras matrices.
-
 * {{PropertyView|Shape Material|Material}}
 
 {{Properties_Title|Base}}
