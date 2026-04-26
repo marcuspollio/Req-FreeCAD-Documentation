@@ -160,7 +160,7 @@ Las propiedades de este grupo, con la excepción de la propiedad heredada, solo 
 * {{PropertyView|Line Width|FloatConstraint}}
 * {{PropertyView|Override Material|Bool}}
 * {{PropertyView|Point Size|FloatConstraint}}
-* {{PropertyView|Selectable|Bool}}: this is an inherited property that appears in the Selection group for other arrays
+* {{PropertyView|Selectable|Bool}}: esta es una propiedad heredada que aparece en el grupo Selección para otras matrices
 * {{PropertyView|Shape Material|Material}}
 
 {{Properties_Title|Base}}
