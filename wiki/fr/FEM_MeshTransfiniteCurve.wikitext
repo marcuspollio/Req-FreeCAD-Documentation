@@ -37,7 +37,7 @@ La commande '''FEM Courbe structurée transfinie''' crée un nombre fixe de nœu
 # Sélectionnez l'objet Mesh dans l'[[Tree_View/fr|arborescence]].
 # Il existe plusieurs façons de lancer la commande :
 #* Appuyez sur le bouton {{Button|[[Image:FEM_MeshTransfiniteCurve.svg|16px]] [[FEM_MeshTransfiniteCurve/fr|Courbe structurée transfinie]]}}.
-#* Sélectionnez l'option {{MenuCommand|Maillage → Affinements Gmsh → [[Image:FEM_MeshTransfiniteCurve.svg|16px]] Courbe structurée transfinie}} du menu.
+#* Sélectionnez l'option {{MenuCommand|Maillage → Densifications sous Gmsh → [[Image:FEM_MeshTransfiniteCurve.svg|16px]] Courbe structurée transfinie}} du menu.
 # Sélectionnez le type de distribution des nœuds sur une arête :
 #* ''Constante'' : spécifiez le nombre de nœuds.
 #* ''Densification bilatérale'' : densification aux deux extrémités de la courbe : spécifiez le nombre de nœuds et le coefficient.
