@@ -20,7 +20,7 @@
 <span id="Description"></span>
 == Descripción ==
 
-El comando [[Image:Draft_PathLinkArray.svg|24px]] '''Draft PathLinkArray''' crea un arreglo de [[App_Link|Link]] de un objeto seleccionado al colocar copias a lo largo de una trayectoria. Use el comando [[Draft_PathArray|Draft PathArray]] para crear un arreglo regular menos eficiente en su lugar. Exeptuan por el tipo de arreglo que es creado, arreglo [[App_Link|Link]] o arreglo regular, este comando es idéntico al comando [[Draft_PathArray|Draft PathArray]]. Consulte para más información.
+El comando [[Image:Draft_PathLinkArray.svg|24px]] '''Draft PathLinkArray''' crea una [[App_Link|Matriz de Enlace]] a partir de un objeto seleccionado colocando copias a lo largo de una ruta. Utilice el comando [[Draft_PathArray|Borrador Matriz de Ruta]] para crear una matriz regular menos eficiente. Excepto por el tipo de matriz que se crea, [[App_Link|Matriz de Enlace]] o Matriz Regular, este comando es idéntico al comando [[Draft_PathArray|Borrador Matriz de Ruta]]. Consulte allí para obtener más información.
 
 
 {{Docnav
