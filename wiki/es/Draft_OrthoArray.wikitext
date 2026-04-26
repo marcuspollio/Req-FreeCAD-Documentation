@@ -239,12 +239,12 @@ array = make_rect_array2d(base_object,
                           use_link=True)
 }}
 
-* {{incode|base_object}} is the object to be arrayed. It can also be the {{incode|Label}} (string) of an object in the current document.
-* {{incode|v_x}}, {{incode|v_y}}, and {{incode|v_z}} are the vectors between the base points of the elements in the respective directions.
-* {{incode|d_x}}, {{incode|d_y}}, and {{incode|d_z}} are the  distances between the base points of the elements in the respective directions.
-* {{incode|n_x}}, {{incode|n_y}}, and {{incode|n_z}} are the numbers of elements in the respective directions.
-* If {{incode|use_link}} is {{incode|True}} the created elements are [[App_Link|App Links]] instead of regular copies.
-* {{incode|array}} is returned with the created array object.
+* {{incode|base_object}} es el objeto que se va a agrupar. También puede ser la {{incode|Label}} (cadena de texto) de un objeto en el documento actual.
+* {{incode|v_x}}, {{incode|v_y}} y {{incode|v_z}} son los vectores entre los puntos base de los elementos en las direcciones correspondientes.
+* {{incode|d_x}}, {{incode|d_y}} y {{incode|d_z}} son las distancias entre los puntos base de los elementos en las direcciones correspondientes.
+* {{incode|n_x}}, {{incode|n_y}} y {{incode|n_z}} son la cantidad de elementos en las direcciones correspondientes.
+* Si {{incode|use_link}} es {{incode|True}}, los elementos creados son [[App_Link|App Links]] en lugar de copias normales.
+* {{incode|array}} se devuelve con el objeto array creado.
 
 Example:
 
