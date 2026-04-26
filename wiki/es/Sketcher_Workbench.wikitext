@@ -417,13 +417,10 @@ Las siguientes restricciones se aplican automáticamente:
 
 Es posible [[Sketcher_Grid|ajustar a las líneas de la cuadrícula y a las intersecciones de la cuadrícula]], y [[Sketcher_Snap|ajustar a los bordes de la geometría y a los puntos medios de líneas y arcos, y a ciertos ángulos]]. Tenga en cuenta que el ajuste no produce restricciones por sí mismo. Por ejemplo, solo si el modo [[#Auto_constraints|Restricciones automáticas]] está activado, el ajuste a un borde producirá una [[Sketcher_ConstrainPointOnObject|restricción de punto en objeto]]. Pero simplemente seleccionar un punto en el borde tendría el mismo resultado.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== On-View-Parameters ===
-</div>
+<span id="On-View-Parameters"></span>
+=== Parámetros de visualización ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Version|1.0}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Depending on the selected option in the [[Sketcher_Preferences#General|preferences]] only the dimensional On-View-Parameters or both the dimensional and the positional On-View-Parameters can be enabled. Positional parameters allow the input of exact coordinates, for example the center of a circle, or the start point of a line. Dimensional parameters allow the input of exact dimensions, for example the radius of a circle, or the length and angle of a line. On-View-Parameters are not available for all tools.
