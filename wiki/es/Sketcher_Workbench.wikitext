@@ -301,7 +301,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[File: Sketcher_Offset.svg|32px]] [[Sketcher_Offset|Offset]]: Crea bordes equidistantes alrededor de los bordes seleccionados. {{Version|1.0}}
 
-* [[Archivo:Sketcher_Symmetry.svg|32px]] [[Sketcher_Symmetry|Espejo]]: Crea copias reflejadas de los elementos seleccionados.
+* [[File:Sketcher_Symmetry.svg|32px]] [[Sketcher_Symmetry|Espejo]]: Crea copias reflejadas de los elementos seleccionados.
 
 * [[Archivo:Sketcher_RemoveAxesAlignment.svg|32px]] [[Sketcher_RemoveAxesAlignment|Eliminar Alineación de Ejes]]: Elimina la alineación de ejes de los bordes seleccionados reemplazando las restricciones [[Sketcher_ConstrainHorizontal|Horizontal]] y [[Sketcher_ConstrainVertical|Vertical]] con las restricciones [[Sketcher_ConstrainParallel|Paralelo]] y [[Sketcher_ConstrainPerpendicular|Perpendicular]].
 
