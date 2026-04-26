@@ -37,7 +37,7 @@ La couche limite présente l'avantage de créer des maillages anisotropes hautem
 # Sélectionnez l'objet Mesh dans l'[[Tree_View/fr|arborescence]].
 # Il existe plusieurs façons de lancer la commande :
 #* Appuyez sur le bouton {{Button|[[Image:FEM_MeshBoundaryLayer.svg|16px]] [[FEM_MeshBoundaryLayer/fr|Couche aux limites du modèle 2D]]}}.
-#* Sélectionnez l'option {{MenuCommand|Maillage → Affinements Gmsh → [[Image:FEM_MeshBoundaryLayer.svg|16px]] Couche aux limites du modèle 2D}} du menu.
+#* Sélectionnez l'option {{MenuCommand|Maillage → Densifications sous Gmsh → [[Image:FEM_MeshBoundaryLayer.svg|16px]] Couche aux limites du modèle 2D}} du menu.
 # Modifiez le nombre maximal de couches, l'épaisseur minimale/initiale et le taux de croissance.
 # Cliquez sur le bouton {{Button|Ajouter}}. Sélectionnez une arête. {{Version/fr|1.1}} : pour supprimer des objets de la sélection, cliquez sur le bouton {{Button|Supprimer}}.
 # Cliquez sur le bouton {{Button|OK}}.
