@@ -20,7 +20,7 @@
 <span id="Description"></span>
 == Descripción ==
 
-El comando [[Image:Draft_OrthoArray.svg|24px]] '''Draft OrthoArray''' crea una matriz ortogonal (de 3 ejes) a partir de un objeto seleccionado. Opcionalmente, el comando puede crear una matriz [[App_Link|enlace]], que es más eficiente que una matriz normal.
+El comando [[Image:Draft_OrthoArray.svg|24px]] '''Draft Matriz Ortogonal''' crea una matriz ortogonal (de 3 ejes) a partir de un objeto seleccionado. Opcionalmente, el comando puede crear una matriz [[App_Link|enlace]], que es más eficiente que una matriz normal.
 
 El comando se puede utilizar en objetos 2D creados con el [[Draft_Workbench|Ambiente de Trabajo de Borrador]] o el [[Sketcher_Workbench|Ambiente de Trabajo de Boceto]], pero también en muchos objetos 3D como los creados con el [[Part_Workbench|Ambiente de Trabajo de Pieza]], [[PartDesign_Workbench|Ambiente de Trabajo de Diseño de Pieza]] o el [[BIM_Workbench|Ambiente de Trabajo de Arquitectura]].
 
