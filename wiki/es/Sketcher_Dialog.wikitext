@@ -53,7 +53,7 @@ Las restricciones mal formadas se pueden corregir con [[Image:Sketcher_ValidateS
 
 Algunos mensajes se muestran en rojo por una razón: son advertencias que no deben ignorarse. Indican problemas que deben solucionarse, ya que interfieren con el solucionador. Los mensajes no son mutuamente excluyentes. Si se aplica más de uno, solo se mostrará el primero de la lista.
 
-To change the colors used for the message see [[Fine-tuning#Constraint_label_colors|Fine-tuning]].
+Para cambiar los colores utilizados en el mensaje, consulte [[Fine-tuning#Constraint_label_colors|Ajuste fino]].
 
 Available options:
 
