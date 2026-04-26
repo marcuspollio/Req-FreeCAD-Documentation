@@ -160,11 +160,11 @@ Las propiedades de este grupo, con la excepción de la propiedad heredada, solo 
 
 Las propiedades de este grupo, con la excepción de la propiedad heredada, solo están disponibles para matrices de Enlace. Consulte [[Std_LinkMake#Properties|Matrices de Enlace Estándar]] para obtener más información.
 
-* {{PropertyView|Child View Provider|PersistentObject|Hidden}}
-* {{PropertyView|Material List|MaterialList|Hidden}}
-* {{PropertyView|Override Color List|ColorList|Hidden}}
-* {{PropertyView|Override Material List|BoolList|Hidden}}
-* {{PropertyView|Proxy|PythonObject|Hidden}}: this is an inherited property.
+* {{PropertyView|Child View Provider|PersistentObject|Oculto}}
+* {{PropertyView|Material List|MaterialList|Oculto}}
+* {{PropertyView|Override Color List|ColorList|Oculto}}
+* {{PropertyView|Override Material List|BoolList|Oculto}}
+* {{PropertyView|Proxy|PythonObject|Oculto}}: esta es una propiedad heredada.
 
 {{Properties_Title|Display Options}}
 
