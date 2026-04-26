@@ -52,7 +52,8 @@ La alineación de los elementos en un Borrador Matriz de Ruta depende de las pro
 
 Hay tres modos disponibles:
 
-====Original====
+<span id="Original"></span>
+==== Original ====
 
 This mode comes closest to the single {{PropertyData|Align Mode}} available in version 0.18. It relies on a fixed normal vector. If the path is planar this vector is perpendicular to the plane of the path, else a default vector, the positive Z axis, is used. From this normal vector and the local tangent vector (the local X axis) a [https://en.wikipedia.org/wiki/Cross_product cross product] is calculated. This new vector is used as the local Z axis. The orientation of the local Y axis is determined from the local X and Z axes.
 
