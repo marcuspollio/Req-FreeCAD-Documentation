@@ -228,7 +228,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[File:Sketcher_ConstrainCoincidentUnified.svg|32px]] [[Sketcher_ConstrainCoincidentUnified|Restricción de coincidencia (unificada)]]: Crea una restricción de coincidencia entre puntos, fija puntos en aristas o ejes, o crea una restricción concéntrica. Combina las herramientas [[Sketcher_ConstrainCoincident|Restricción de Coincidencia]] y [[Sketcher_ConstrainPointOnObject|Restricción de Punto en Objeto]]. {{Versión|1.0}}
 
-* [[Archivo:Sketcher_ConstrainCoincident.svg|32px]] [[Sketcher_ConstrainCoincident|Restricción de coincidencia]]: Crea una restricción de coincidencia entre puntos o una restricción concéntrica.
+* [[File:Sketcher_ConstrainCoincident.svg|32px]] [[Sketcher_ConstrainCoincident|Restricción de coincidencia]]: Crea una restricción de coincidencia entre puntos o una restricción concéntrica.
 
 * [[Archivo:Sketcher_ConstrainPointOnObject.svg|32px]] [[Sketcher_ConstrainPointOnObject|Restricción de punto en objeto]]: Fija puntos en bordes o ejes.
 
