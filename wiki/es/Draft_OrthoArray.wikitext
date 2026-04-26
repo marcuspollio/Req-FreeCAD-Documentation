@@ -272,7 +272,7 @@ array(objectslist, xvector, yvector, xnum, ynum)
 array(objectslist, xvector, yvector, zvector, xnum, ynum, znum)
 }}
 
-Example:
+Ejemplo:
 
 {{Code|code=
 import FreeCAD as App
