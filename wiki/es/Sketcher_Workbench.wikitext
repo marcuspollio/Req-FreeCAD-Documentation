@@ -230,9 +230,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[Archivo:Sketcher_ConstrainCoincident.svg|32px]] [[Sketcher_ConstrainCoincident|Restricción de coincidencia]]: Crea una restricción de coincidencia entre puntos o una restricción concéntrica.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_ConstrainPointOnObject.svg|32px]] [[Sketcher_ConstrainPointOnObject/es|Punto sobre objeto]]: Pone un punto sobre otro objeto como una línea, un arco o un eje.
-</div>
+* [[Archivo:Sketcher_ConstrainPointOnObject.svg|32px]] [[Sketcher_ConstrainPointOnObject|Restricción de punto en objeto]]: Fija puntos en bordes o ejes.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * <span id="Sketcher_CompHorVer">[[Image:Sketcher_ConstrainHorVer.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]]Horizontal/Vertical Constraints:</span><!--Do not edit span id: the Sketcher_CompHorVer pages redirect here-->
