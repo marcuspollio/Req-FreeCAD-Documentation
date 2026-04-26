@@ -57,7 +57,8 @@ Hay tres modos disponibles:
 
 Este modo es el más parecido al {{PropertyData|modo de alineación}} único disponible en la versión 0.18. Se basa en un vector normal fijo. Si la trayectoria es plana, este vector es perpendicular al plano de la trayectoria; de lo contrario, se utiliza un vector predeterminado, el eje Z positivo. A partir de este vector normal y el vector tangente local (el eje X local), se calcula un producto vectorial [https://en.wikipedia.org/wiki/Cross_product]. Este nuevo vector se utiliza como eje Z local. La orientación del eje Y local se determina a partir de los ejes X y Z locales.
 
-====Frenet====
+<span id="Frenet"></span>
+==== Frenet ====
 
 This mode uses the local normal vector derived from the path at each element placement. If this vector cannot be determined (for example in the case of a straight segment) a default vector, again the positive Z axis, is used instead. With this vector and the local tangent vector the local coordinate system is determined using the same procedure as in the previous paragraph.
 
