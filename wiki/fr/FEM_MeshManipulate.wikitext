@@ -71,7 +71,7 @@ Une fois que le maillage a été créé, vous pouvez modifier ses propriétés �
 Vous pouvez créer autant de manipulations d'affinage que nécessaire.
 
 [[File:FEM_manipulate_refinement.PNG|700px]]
-{{Caption|Affinage basé sur la distance limité à la surface supérieure et à sa limite (mis en évidence)}}
+{{Caption|Densification fonction de la distance limitée à la surface supérieure et à sa limite (mis en évidence)}}
 
 
 {{Docnav/fr
