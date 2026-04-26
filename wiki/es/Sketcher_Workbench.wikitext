@@ -349,9 +349,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * <span id="Sketcher_CompBSplineShowHideGeometryInformation">[[Image:Sketcher_BSplinePolygon.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] Toggle B-Spline Information Layer:</span><!--Do not edit span id: the Sketcher_CompBSplineShowHideGeometryInformation pages redirect here-->
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_BSplineDegree.svg|32px]] [[Sketcher_BSplineDegree/es|Mostrar/ocultar el grado de B-spline]]
-</div>
+:* [[File:Sketcher_BSplineDegree.svg|32px]] [[Sketcher_BSplineDegree|Alternar Grado de B-spline]]: Muestra u oculta el grado de B-spline en todos los bocetos.
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_BSplinePolygon.svg|32px]] [[Sketcher_BSplinePolygon/es|Mostrar/ocultar el polígono de control de la B-spline]]
