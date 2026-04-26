@@ -39,7 +39,8 @@ Ambos comandos se pueden usar en objetos 2D creados con el [[Draft_Workbench|Ent
 # Se creará la matriz.
 # Opcionalmente, cambie las [[#Properties|propiedades]] de la matriz en la [[Property_View|Vista de propiedades]].
 
-==Alignment==
+<span id="Alignment"></span>
+== Alineación ==
 
 The alignment of the elements in a Draft PathArray depends on the properties of the array and the orientation of the source object. The position of the source object is ignored: for the purpose of the array the {{Value|x}}, {{Value|y}} and {{Value|z}} are set to {{Value|0}}. If the {{PropertyData|Align}} property of the array is set to {{FALSE}} the orientation of the array elements is identical to that of the source object. If it is set to {{TRUE}} the X axis of the local coordinate system of each element placement is tangent to the path. The Y and Z axes of the local coordinate systems depend on the {{PropertyData|Align Mode}} property of the array. Other array properties involved in the alignment include {{PropertyData|Tangent Vector}}, {{PropertyData|Force Vertical}} and {{PropertyData|Vertical Vector}}.
 
