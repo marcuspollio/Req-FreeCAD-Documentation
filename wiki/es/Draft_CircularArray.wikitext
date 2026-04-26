@@ -48,15 +48,15 @@ Ver también: [[Draft_Snap/es|Borrador Atrapar]]
 <span id="Options"></span>
 ==Opciones==
 
-* Enter the {{MenuCommand|Radial distance}} to specify the distance between the circular layers, and between the center and the first circular layer.
-* Enter the {{MenuCommand|Tangential distance}} to specify the distance between the elements on the same circular layer. Must be larger than zero.
-* Enter the {{MenuCommand|Number of concentric circles}}. The element at the center counts as one circle. Must be at least {{Value|2}}.
-* Enter the {{MenuCommand|Symmetry}} value. This number determines how the elements are distributed. A value of {{Value|3}}, for example, results in a pattern with three equal 120° pie segments. Larger values for the {{MenuCommand|Symmetry}} and the {{MenuCommand|Tangential distance}} result in fewer or even no elements on the inner layers.
-* Pick a point in the [[3D_View|3D View]], note that this will also finish the command, or type coordinates for the {{MenuCommand|Center of Rotation}}. The rotation axis of the array will pass through this point. It is advisable to move the pointer out of the [[3D_View|3D View]] before entering coordinates.
-* Press the {{MenuCommand|Reset Point}} button to reset the {{MenuCommand|Center of Rotation}} to the origin.
-* If the {{MenuCommand|Fuse}} checkbox is checked overlapping elements in the array are fused.
-* If the {{MenuCommand|Link array}} checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [[App_Link|App Link]] objects.
-* Press {{KEY|Esc}} or the {{Button|Cancel}} button to abort the command.
+* Introduzca la {{MenuCommand|Distancia radial}} para especificar la distancia entre las capas circulares y entre el centro y la primera capa circular.
+* Introduzca la {{MenuCommand|Distancia tangencial}} para especificar la distancia entre los elementos de la misma capa circular. Debe ser mayor que cero.
+* Introduzca el {{MenuCommand|Número de círculos concéntricos}}. El elemento central cuenta como un círculo. Debe ser al menos {{Value|2}}.
+* Introduzca el valor de {{MenuCommand|Simetría}}. Este número determina cómo se distribuyen los elementos. Un valor de {{Value|3}}, por ejemplo, da como resultado un patrón con tres segmentos de sector circular de 120° iguales. Valores mayores para {{MenuCommand|Simetría}} y {{MenuCommand|Distancia tangencial}} dan como resultado menos elementos, o incluso ninguno, en las capas internas.
+* Seleccione un punto en la [[Vista_3D|Vista 3D]] (tenga en cuenta que esto también finalizará el comando) o introduzca las coordenadas del {{MenuCommand|Centro de Rotación}}. El eje de rotación de la matriz pasará por este punto. Se recomienda mover el puntero fuera de la [[Vista_3D|Vista 3D]] antes de introducir las coordenadas.
+* Pulse el botón {{MenuCommand|Restablecer Punto}} para restablecer el {{MenuCommand|Centro de Rotación}} al origen.
+* Si la casilla {{MenuCommand|Fusionar}} está marcada, los elementos superpuestos de la matriz se fusionarán.
+* Si la casilla {{MenuCommand|Enlazar matriz}} está marcada, se creará una matriz de enlace en lugar de una matriz normal. Una matriz de enlace es más eficiente porque sus elementos son objetos del tipo [[App_Link|Enlace de Aplicación]].
+* Pulse {{KEY|Esc}} o el botón {{Button|Cancel}} para abortar el comando.
 
 <span id="Notes"></span>
 ==Notas==
