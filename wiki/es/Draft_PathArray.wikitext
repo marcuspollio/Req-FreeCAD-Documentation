@@ -129,7 +129,7 @@ Las propiedades de este grupo solo están disponibles para Matrices de Enlace. C
 * {{PropertyData|Path Subelements|LinkSubListGlobal}}: especifica una lista de aristas del {{PropertyData|Objeto Ruta}}. Si se proporciona, solo se utilizarán estas aristas para la ruta.
 * {{PropertyData|Placement List|PlacementList}}: la ubicación de cada elemento. Aparece en el grupo Enlace para las Matrices de Enlace. {{Version|1.1}}
 
-{{Properties_Title|Spacing}}
+{{Properties_Title|Espaciado}}
 
 * {{PropertyData|Count|Integer}}: specifies the number of elements in the array.
 * {{PropertyData|End Offset|Length}}: specifies the length from the end of the path to the last copy. Must be smaller than the length of the path minus the {{PropertyData|Start Offset}}. {{Version|0.21}}
