@@ -51,7 +51,7 @@ Si un croquis tiene restricciones redundantes o está sobredeterminado, se indic
 
 Las restricciones mal formadas se pueden corregir con [[Image:Sketcher_ValidateSketch.svg|16px]] [[Sketcher_ValidateSketch|Croquis, Validar Croquis]].
 
-Some messages are displayed in red for a reason: they are warnings that should not be ignored. They signal issues that must be addressed as they interfere with the solver. The messages are not mutually exclusive. If more than one applies only the first in the list is displayed.
+Algunos mensajes se muestran en rojo por una razón: son advertencias que no deben ignorarse. Indican problemas que deben solucionarse, ya que interfieren con el solucionador. Los mensajes no son mutuamente excluyentes. Si se aplica más de uno, solo se mostrará el primero de la lista.
 
 To change the colors used for the message see [[Fine-tuning#Constraint_label_colors|Fine-tuning]].
 
