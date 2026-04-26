@@ -397,9 +397,8 @@ El Entorno de Trabajo Croquizador cuenta con varias herramientas de dibujo y otr
 
 Hay dos modos de continuación: '''Creación de geometría "Modo de continuación"'' y '''Creación de restricciones "Modo de continuación"''. Si están marcados (por defecto) en [[Sketcher_Preferences#Display|Preferencias]], las herramientas relacionadas se reiniciarán después de terminar. Para salir de una herramienta continua, pulse {{KEY|Esc}} o el botón derecho del ratón. Esto debe repetirse si una herramienta de geometría continua ya ha recibido entrada. También puede salir de una herramienta continua iniciando otra herramienta de creación de geometría o restricciones. Tenga en cuenta que pulsar {{KEY|Esc}} si no hay ninguna herramienta activa saldrá del modo de edición de boceto. Desmarque la opción '''La tecla Esc puede salir del modo de edición de boceto''' [[Sketcher_Preferences#General|Preferencia]] si pulsa {{KEY|Esc}} demasiadas veces sin darse cuenta.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Auto constraints ===
-</div>
+<span id="Auto_constraints"></span>
+=== Restricciones automáticas ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In sketches that have '''Auto constraints''' checked (default) several constraints are applied automatically. The icon of a proposed automatic constraint is shown next to the cursor when it is placed correctly. Left-clicking will then apply that constraint. This is a per-sketch setting that can be changed in the [[Sketcher_Dialog#Constraints|Sketcher Dialog]] or by changing the {{PropertyView|Autoconstraints}} [[Property_View|property]] of the sketch.
