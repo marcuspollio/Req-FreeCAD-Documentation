@@ -79,9 +79,7 @@ Estas reglas no se aplican a la geometría de construcción (color azul por defe
 
 Las herramientas del Entorno de Trabajo de Croquis se encuentran en el menú Croquis o en varias barras de herramientas. Casi todas las barras de herramientas del Croquizador solo se muestran cuando un boceto está en modo de edición. La única excepción es la barra de herramientas de Croquis, que solo se muestra si no hay ningún boceto en modo de edición.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Some tools are also available from the [[3D_View|3D View]] context menu while a sketch is in edit mode, or from the context menus of the [[Sketcher_Dialog|Sketcher Dialog]].
-</div>
+También están disponibles algunas herramientas desde el menú contextual [[3D_View|Vista 3D]] mientras un boceto está en modo de edición, o desde los menús contextuales del [[Sketcher_Dialog|Diálogo del Croquizador]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If a sketch is in edit mode the Structure toolbar is hidden as none of its tools can then be used.
