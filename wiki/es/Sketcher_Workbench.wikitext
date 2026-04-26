@@ -242,7 +242,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[File:Sketcher_ConstrainParallel.svg|32px]] [[Sketcher_ConstrainParallel|Restricción Paralela]]: Restringe las líneas para que sean paralelas.
 
-* [[Archivo:Sketcher_ConstrainPerpendicular.svg|32px]] [[Sketcher_ConstrainPerpendicular|Restricción Perpendicular]]: Restringe dos líneas para que sean perpendiculares, o dos aristas, o una arista y un eje, para que sean perpendiculares en su intersección. La restricción también puede conectar dos aristas, obligándolas a ser perpendiculares en la unión.
+* [[File:Sketcher_ConstrainPerpendicular.svg|32px]] [[Sketcher_ConstrainPerpendicular|Restricción Perpendicular]]: Restringe dos líneas para que sean perpendiculares, o dos aristas, o una arista y un eje, para que sean perpendiculares en su intersección. La restricción también puede conectar dos aristas, obligándolas a ser perpendiculares en la unión.
 
 * [[Archivo:Sketcher_ConstrainTangent.svg|32px]] [[Sketcher_ConstrainTangent|Restricción Tangente/Colineal]]: Restringe dos aristas, o una arista y un eje, para que sean tangentes. La restricción también puede conectar dos aristas, forzándolas a ser tangentes en la unión. Si se seleccionan dos líneas, se convierten en colineales.
 
