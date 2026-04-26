@@ -55,7 +55,7 @@ Hay tres modos disponibles:
 <span id="Original"></span>
 ==== Original ====
 
-This mode comes closest to the single {{PropertyData|Align Mode}} available in version 0.18. It relies on a fixed normal vector. If the path is planar this vector is perpendicular to the plane of the path, else a default vector, the positive Z axis, is used. From this normal vector and the local tangent vector (the local X axis) a [https://en.wikipedia.org/wiki/Cross_product cross product] is calculated. This new vector is used as the local Z axis. The orientation of the local Y axis is determined from the local X and Z axes.
+Este modo es el más parecido al {{PropertyData|modo de alineación}} único disponible en la versión 0.18. Se basa en un vector normal fijo. Si la trayectoria es plana, este vector es perpendicular al plano de la trayectoria; de lo contrario, se utiliza un vector predeterminado, el eje Z positivo. A partir de este vector normal y el vector tangente local (el eje X local), se calcula un producto vectorial [https://en.wikipedia.org/wiki/Cross_product]. Este nuevo vector se utiliza como eje Z local. La orientación del eje Y local se determina a partir de los ejes X y Z locales.
 
 ====Frenet====
 
