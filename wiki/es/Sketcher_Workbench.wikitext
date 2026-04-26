@@ -236,9 +236,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 :* [[Archivo:Sketcher_ConstrainHorVer.svg|32px]] [[Sketcher_ConstrainHorVer|Restricción Horizontal/Vertical]]: Restringe líneas o pares de puntos para que sean horizontales o verticales, según cuál esté más cerca de la alineación actual. Combina las herramientas [[Sketcher_ConstrainHorizontal|Restricción Horizontal]] y [[Sketcher_ConstrainVertical|Restricción Vertical]]. {{Version|1.0}}
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_ConstrainHorizontal.svg|32px]] [[Sketcher_ConstrainHorizontal/es|Horizontal]]: Limita las líneas o elementos de polilínea seleccionados a una verdadera orientación horizontal. Se puede seleccionar más de un objeto antes de aplicar esta restricción.
-</div>
+:* [[Archivo:Sketcher_ConstrainHorizontal.svg|32px]] [[Sketcher_ConstrainHorizontal|Restricción Horizontal]]: Restringe líneas o pares de puntos para que sean horizontales.
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_ConstrainVertical.svg|32px]][[Sketcher_ConstrainVertical/es|Vertical]]: Limita las líneas o elementos de polilínea seleccionados a una verdadera orientación vertical. Se puede seleccionar más de un objeto antes de aplicar esta restricción.
