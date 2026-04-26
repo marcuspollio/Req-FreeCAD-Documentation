@@ -84,7 +84,7 @@ El uso de estas propiedades se puede necesitar si uno de los bordes del camino e
 
 Véase también:[[property_View|Vista de propiedad]].
 
-A Draft PathArray object is derived from a [[Part_Feature|Part Feature]] object and inherits all its properties (with the exception of some View properties that are not inherited by Link arrays). The following properties are additional unless otherwise stated:
+Un objeto Boceto Matriz de Ruta se deriva de un objeto [[Part_Feature|Característica de la pieza]] y hereda todas sus propiedades (con la excepción de algunas propiedades de ''Vista'' que no son heredadas por los arreglos ''Enlace''). Las siguientes propiedades son adicionales a menos que se indique lo contrario:
 
 ===Data===
 
