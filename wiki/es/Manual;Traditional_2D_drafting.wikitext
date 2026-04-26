@@ -103,7 +103,7 @@ A continuación, añadamos un fregadero y una placa de cocina. Dibujar este tipo
 
 Ahora podemos colocar un par de cotas usando la herramienta [[Image:Draft_Dimension.svg|16px]] [[Draft_Dimension|Dimensión]]. Para crear una cota, primero seleccione tres puntos: el primero establece el inicio de la medición, el segundo define el punto final y el tercero determina dónde se colocarán la línea de cota y el texto. Al hacer clic con cuidado en estos puntos, se asegura de que la cota represente con precisión la distancia entre los dos puntos seleccionados. Si desea que la cota sea perfectamente horizontal o vertical, incluso si los puntos inicial y final no están alineados, mantenga presionada la tecla '''Mayús''' mientras hace clic en el segundo punto. Esto bloquea la cota en la orientación deseada. Puede refinar aún más la cota ajustando propiedades como el tamaño del texto, la precisión y el color en el panel de propiedades, asegurándose de que las cotas se ajusten a los estándares visuales y técnicos de su proyecto.
 
-Puede cambiar la posición del texto de una cota haciendo doble clic en la cota en la vista de árbol. Un punto de control le permitirá mover el texto gráficamente. En nuestro ejercicio, los textos "0.15" se han movido para mayor claridad.
+Puede cambiar la posición del texto de una cota haciendo doble clic en la cota en la vista de árbol. Un punto de control le permitirá mover el texto gráficamente. Con el objeto de conseguir una mayor claridad visual, en nuestro ejercicio, los textos «0.15» se han movido de posición.
 
 * Puede cambiar el contenido del texto de las dimensiones editando su propiedad '''Override'''. En nuestro ejemplo, los textos de las dimensiones de la puerta y la ventana se han editado para indicar sus alturas:
 
