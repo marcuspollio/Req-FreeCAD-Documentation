@@ -61,7 +61,7 @@ Ver también: [[Draft_Snap/es|Borrador Atrapar]]
 <span id="Notes"></span>
 == Notas ==
 
-See [[Draft_OrthoArray#Notes|Draft OrthoArray]].
+Ver [[Draft_OrthoArray#Notes|Borrador Matriz Ortogonal]].
 
 * {{Version|1.2}}: The array uses the Z-axis of the current [[Draft_SelectPlane|working plane]] for the rotation axis. This can be changed by editing the {{PropertyData|Axis}} property.
 
