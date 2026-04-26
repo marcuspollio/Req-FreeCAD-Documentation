@@ -92,59 +92,60 @@ Opciones disponibles:
 !style="width: 15%;"|Option
 !style="width: 85%;"|Description
 |-
-| {{MenuCommand|Default solver}}
-| The solver that is used for solving the geometry. '''[https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm LevenbergMarquardt]''' and '''DogLeg''' are [https://en.wikipedia.org/wiki/Trust_region trust region] optimization algorithms. The '''BFGS''' solver uses the  [https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm Broyden–Fletcher–Goldfarb–Shanno algorithm].
+| {{MenuCommand|Solucionador predeterminado}}
+| El solucionador que se utiliza para resolver la geometría. '''[https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm Levenberg-Marquardt]''' y '''DogLeg''' son algoritmos de optimización [https://en.wikipedia.org/wiki/Trust_region trust region]. El solucionador '''BFGS''' utiliza el algoritmo de Broyden-Fletcher-Goldfarb-Shanno (https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm).
 |-
-| {{MenuCommand|DogLeg Gauss step}}
-| This setting is only available for the solver '''DogLeg'''. It is the step type used in the DogLeg algorithm.
+| {{MenuCommand|Paso Gauss DogLeg}}
+| Esta opción solo está disponible para el solucionador '''DogLeg'''. Indica el tipo de paso utilizado en el algoritmo DogLeg.
 |-
-| {{MenuCommand|Maximum iterations}}
-| If the solver needs more iterations to find a convergence to a solution, it will stop and output that it failed.
+| {{MenuCommand|Iteraciones Máximas}}
+| Si el solucionador necesita más iteraciones para converger a una solución, se detendrá e indicará que ha fallado.
 |-
-| {{MenuCommand|Sketch size multiplier}}
-|  If checked, the maximum iterations will be multiplied by the number of parameters. The idea is that bigger sketches would need more iterations to converge.
+| {{MenuCommand|Multiplicador del Tamaño del Croquis}}
+| Si está marcada, el número máximo de iteraciones se multiplicará por el número de parámetros. La idea es que los croquis más grandes requerirían más iteraciones para converger.
 |-
-| {{MenuCommand|Convergence}}
-| The threshold for the squared error. This error is used to determine whether a solution converges or not.
+| {{MenuCommand|Convergencia}}
+| El umbral para el error cuadrático. Este error se utiliza para determinar si una solución converge o no.
 |-
 | {{MenuCommand|Eps/Eps1/Tau}}
-| These settings are only available for the solver '''LevenbergMarquardt'''. You should only change something here  if you fully understand how the LevenbergMarquardt solver works.
+| Estas opciones solo están disponibles para el solucionador '''LevenbergMarquardt'''. Solo debe modificar algo aquí si comprende completamente cómo funciona el solucionador LevenbergMarquardt.
+
 |-
 | {{MenuCommand|Tolg/Tolx/Tolf}}
-| These settings are only available for the solver '''DogLeg'''. You should only change something here if you fully understand how the DogLeg solver works.
+| Estas opciones solo están disponibles para el solucionador '''DogLeg'''. Solo debe modificar algo aquí si comprende completamente cómo funciona el solucionador DogLeg.
 |-
-| {{MenuCommand|QR Algorithm}}
-| During diagnosing the rank of the matrix is calculated which enables to further analyze the constraint system to determine if there are redundant/conflicting constraints. The rank revealing decomposition used in FreeCAD is QR. There are two algorithms: '''Eigen Dense QR''' is a dense matrix QR with full pivoting, which is the legacy proven algorithm that works very well but it is rather slow as the system grows. The '''Eigen Sparse QR''' algorithm is an optimization for sparse matrices (having lots of zeros), which is usually much faster, since FreeCAD's systems do have a lot of zeros.
+| {{MenuCommand|Algoritmo QR}}
+| Durante el diagnóstico, se calcula el rango de la matriz, lo que permite analizar el sistema de restricciones para determinar si existen restricciones redundantes o conflictivas. La descomposición para revelar el rango utilizada en FreeCAD es QR. Existen dos algoritmos: '''Eigen Dense QR''' es una descomposición QR de matriz densa con pivoteo completo, un algoritmo tradicional de eficacia probada que funciona muy bien, pero que resulta bastante lento a medida que el sistema crece. El algoritmo '''Eigen Sparse QR''' es una optimización para matrices dispersas (con muchos ceros), que suele ser mucho más rápido, dado que los sistemas de FreeCAD contienen muchos ceros.
 |-
-| {{MenuCommand|Pivot threshold}}
-| When doing a QR, values under the pivot threshold are treated as zero.
+| {{MenuCommand|Umbral de Pivote}}
+| Al realizar una descomposición QR, los valores inferiores al umbral de pivote se tratan como cero.
 |-
-| {{MenuCommand|Redundant Solver}}
-| The solver that is used during diagnosing to determine whether a group is redundant or conflicting.
+| {{MenuCommand|Solucionador de Redundancia}}
+| El solucionador que se utiliza durante el diagnóstico para determinar si un grupo es redundante o conflictivo.
 |-
-| {{MenuCommand|Red. Max Iterations}}
-| The same as {{MenuCommand|Maximum iterations}}, but for the redundant solving.
+| {{MenuCommand|Red. Máx. Iteraciones}}
+| Igual que {{MenuCommand|Máximo de iteraciones}}, pero para la resolución redundante.
 |-
-| {{MenuCommand|Red. Sketch size multiplier}}
-| The same as {{MenuCommand|Sketch size multiplier}}, but for the redundant solving.
+| {{MenuCommand|Red. Multiplicador del Tamaño del Croquis}}
+| Igual que {{MenuCommand|Multiplicador del tamaño del boceto}}, pero para la resolución redundante.
 |-
-| {{MenuCommand|Red. Convergence}} 
-| The same as {{MenuCommand|Convergence}}, but for the redundant solving.
+| {{MenuCommand|Red. Convergencia}}
+| Igual que {{MenuCommand|Convergencia}}, pero para la resolución redundante.
 |-
 | {{MenuCommand|R.Eps/R.Eps1/R.Tau}}
-| The same as {{MenuCommand|Eps/Eps1/Tau}}, but for the redundant solving.
+| Igual que {{MenuCommand|Eps/Eps1/Tau}}, pero para la resolución redundante.
 |-
 | {{MenuCommand|R.Tolg/R.Tolx/R.Tolf}}
-| The same as {{MenuCommand|Tolg/Tolx/Tolf}}, but for the redundant solving.
+| Igual que {{MenuCommand|Tolg/Tolx/Tolf}}, pero para la resolución redundante.
 |-
-| {{MenuCommand|Console Debug mode}}
-| Setting to specify the verbosity of the console output.
+| {{MenuCommand|Modo de Depuración de la Consola}}
+| Permite especificar el nivel de detalle de la salida de la consola.
 |-
-| {{Button|Solve}}
-| This button explicitly starts the solver.
+| {{Button|Resolver}}
+| Este botón inicia el solucionador explícitamente.
 |-
-| {{Button|Restore Defaults}}
-| This button restores the default solver settings.
+| {{Button|Restaurar Valores Predeterminados}}
+| Este botón restaura la configuración predeterminada del solucionador.
 |}
 
 ==Constraints==
