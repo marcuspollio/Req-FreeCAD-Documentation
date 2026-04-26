@@ -67,9 +67,11 @@ El comando se puede utilizar en objetos 2D creados con el [[Draft_Workbench|Ambi
 <span id="Notes"></span>
 == Notas ==
 
-* A Draft OrthoArray can be turned into a [[Draft_PolarArray|Draft PolarArray]] or a [[Draft_CircularArray|Draft CircularArray]] by changing its {{PropertyData|Array Type}} property.
-* A Link array cannot be turned into a regular array or vice versa. The type of array must be decided at creation time.
-* Fused Link arrays are not displayed properly, in the 3D View their elements always appear unfused.
+* Una Draft Matriz ortogonal se puede convertir en una [[Draft_PolarArray|Draft Matriz polar]] o una [[Draft_CircularArray|Draft Matriz circular]] modificando su propiedad {{PropertyData|tipo de matriz}}.
+
+* Una matriz de enlaces no se puede convertir en una normal ni viceversa. El tipo de matriz debe definirse al crearlo.
+
+* Las matrices de enlaces fusionados no se visualizan correctamente; en la vista 3D, sus elementos siempre aparecen sin fusionar.
 
 <span id="Properties"></span>
 == Propiedades ==
