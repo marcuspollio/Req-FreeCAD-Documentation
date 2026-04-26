@@ -122,12 +122,12 @@ Las propiedades de este grupo solo están disponibles para Matrices de Enlace. C
 
 {{Properties_Title|Objectos}}
 
-* {{PropertyData|Base|LinkGlobal}}: specifies the object to duplicate in the array.
-* {{PropertyData|Expand Array|Bool}}: specifies whether to expand the array in the [[Tree_View|Tree View]] to enable the selection of its individual elements. Only available for Link arrays.
-* {{PropertyData|Fuse|Bool}}: specifies if overlapping elements in the array are fused or not. {{Version|1.0}}
-* {{PropertyData|Path Object|LinkGlobal}}: specifies the object to be used for the path. It must contain {{Value|Edges}} in its [[Part_TopoShape|Part TopoShape]].
-* {{PropertyData|Path Subelements|LinkSubListGlobal}}: specifies a list of edges of the {{PropertyData|Path Object}}. If supplied only these edges are used for the path.
-* {{PropertyData|Placement List|PlacementList}}: the placement for each element. Appears in the Link group for Link arrays. {{Version|1.1}}
+* {{PropertyData|Base|LinkGlobal}}: especifica el objeto que se duplicará en la matriz.
+* {{PropertyData|Expand Array|Bool}}: especifica si se debe expandir la matriz en la [[Tree_View|Vista de Árbol]] para permitir la selección de sus elementos individuales. Solo disponible para matrices de enlaces.
+* {{PropertyData|Fuse|Bool}}: especifica si los elementos superpuestos en la matriz se fusionan o no. {{Version|1.0}}
+* {{PropertyData|Path Object|LinkGlobal}}: especifica el objeto que se utilizará para la ruta. Debe contener {{Value|Bordes}} en su [[Part_TopoShape|Part TopoShape]].
+* {{PropertyData|Path Subelements|LinkSubListGlobal}}: especifica una lista de aristas del {{PropertyData|Objeto Ruta}}. Si se proporciona, solo se utilizarán estas aristas para la ruta.
+* {{PropertyData|Placement List|PlacementList}}: la ubicación de cada elemento. Aparece en el grupo Enlace para las Matrices de Enlace. {{Version|1.1}}
 
 {{Properties_Title|Spacing}}
 
