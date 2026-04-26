@@ -13,7 +13,7 @@
 {{GuiCommand/de
 |Name=FEM MeshAdvanced
 |Name/de=FEM NetzErweitert
-|MenuLocation=Mesh → GMSH-Verfeinerungen → Erweiterte Verfeinerungsarten
+|MenuLocation=Netz → GMSH-Verfeinerungen → Erweiterte Verfeinerungsarten
 |Workbenches=[[FEM_Workbench/de|FEM]]
 |Version=1.2
 |SeeAlso=[[FEM_tutorial/de|FEM Tutorial]]
