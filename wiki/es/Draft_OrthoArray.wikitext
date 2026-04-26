@@ -289,16 +289,14 @@ doc.recompute()
 }}
 
 
-<div class="mw-translate-fuzzy">
-{{Docnav/es
-|[[Draft_Clone/es|Clon]]
-|[[Draft_PolarArray/es|ArregloPolar]]
-|[[Draft_Workbench/es|Borrador]]
+{{Docnav
+|[[Draft_Clone|Clonar]]
+|[[Draft_PolarArray|Matriz Polar]]
+|[[Draft_Workbench|Borrador]]
 |IconL=Draft_Clone.svg
 |IconR=Draft_PolarArray.svg
 |IconC=Workbench_Draft.svg
 }}
-</div>
 
 {{Draft Tools navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
