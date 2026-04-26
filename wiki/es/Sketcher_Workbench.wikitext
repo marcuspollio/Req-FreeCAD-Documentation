@@ -504,7 +504,7 @@ Cada usuario de CAD desarrolla su propia forma de trabajar con el tiempo, pero e
 
 * En general, las mejores restricciones son: restricciones horizontales y verticales; dimensiones horizontales y verticales; restricciones de tangencia punto a punto. Si es posible, limite el uso de las siguientes: dimensión de distancia; restricción de tangencia de borde a borde; restricción de punto sobre objeto; restricción de simetría.
 
-* Si tiene dudas sobre la validez de un boceto una vez completado (las características se ponen verdes), cierre el cuadro de diálogo del Croquizador y utilice [[Archivo: Sketcher_ValidateSketch.svg|24px]] [[Sketcher_ValidateSketch|Validar Croquis]].
+* Si tiene dudas sobre la validez de un boceto una vez completado (las características se ponen verdes), cierre el cuadro de diálogo del Croquizador y utilice [[File: Sketcher_ValidateSketch.svg|24px]] [[Sketcher_ValidateSketch|Validar Croquis]].
 
 <span id="Flipping"></span>
 == Inversión o Volteo ==
