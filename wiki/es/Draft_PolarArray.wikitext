@@ -9,16 +9,14 @@
 |IconC=Workbench_Draft.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/es
 |Name=Draft PolarArray
-|Name/es=Borrador ArregloPolar
+|Name/es=Borrador Matriz Polar
 |MenuLocation=Modificación → Herramientas de  Arreglo → Arreglo Polar
 |Workbenches=[[Draft_Workbench/es|Borrador]], [[Arch_Workbench/es|Arquitectura]]
 |Version=0.19
-|SeeAlso=[[Draft_OrthoArray/es|Borrador OrthoArray]], [[Draft_CircularArray/es|Borrador ArregloCircular]], [[Draft_PathArray/es|Borrador ArregloRuta]], [[Draft_PathLinkArray/es|Borrador ArregloEnlaceRuta]], [[Draft_PointArray/es|Borrador ArregloPunto]], [[Draft_PointLinkArray/es|Borrador ArregloEnlacePunto]]
+|SeeAlso=[[Draft_OrthoArray/es|Borrador OrthoArray]], [[Draft_CircularArray/es|Borrador Matriz Circular]], [[Draft_PathArray/es|BorradorMatrizRuta]], [[Draft_PathLinkArray/es|Borrador MatrizEnlaceRuta]], [[Draft_PointArray/es|Borrador MatrizPunto]], [[Draft_PointLinkArray/es|Borrador MatrizEnlacePunto]]
 }}
-</div>
 
 <span id="Description"></span>
 ==Descripción==
