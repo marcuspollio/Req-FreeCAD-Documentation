@@ -135,9 +135,7 @@ Estas son herramientas para crear objetos.
 
 * <span id="Sketcher_CompCreateArc">[[Image:Sketcher_CreateArc.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] Create Arc:</span><!--Do not edit span id: the Sketcher_CompCreateArc pages redirect here-->
 
-<div class="mw-translate-fuzzy">
-:* [[Image:Sketcher_Arc.svg|32px]] [[Sketcher_CreateArc/es|Arco]]: Dibuja un segmento de arco dada por el centro, radio, ángulo inicial y ángulo final.
-</div> 
+:* [[Image:Sketcher_CreateArc.svg|32px]] [[Sketcher_CreateArc|Arco desde el centro]]: Crea un arco desde su centro y sus puntos extremos. {{Version|1.0}}: O desde sus puntos extremos y un punto a lo largo del arco. 
 
 <div class="mw-translate-fuzzy">
 :* [[Image:Sketcher_Create3PointArc.svg|32px]] [[Sketcher_Create3PointArc/es|Arco a través de 3 Puntos]]: Dibuja un segmento de arco entre dos puntos y un tercer punto que se haya en la circumferencia.
