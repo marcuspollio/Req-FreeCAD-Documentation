@@ -168,7 +168,7 @@ Las propiedades de este grupo, con la excepción de la propiedad heredada, solo 
 
 {{Properties_Title|Opciones de visualización}}
 
-The properties in this group are inherited properties. See [[Part_Feature#Properties|Part Feature]] for more information.
+Las propiedades de este grupo son propiedades heredadas. Consulte [[Part_Feature#Properties|Características de Pieza]] para obtener más información.
 
 * {{PropertyView|Bounding Box|Bool}}: this property is not inherited by Link arrays.
 * {{PropertyView|Display Mode|Enumeration}}: for Link arrays it can be {{value|Link}} or {{value|ChildView}}. For other arrays it can be: {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} or {{value|Points}}.
