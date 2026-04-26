@@ -161,9 +161,7 @@ Estas son herramientas para crear objetos.
 
 :* [[Image:Sketcher_CreateRectangle_Center.svg|32px]] [[Sketcher_CreateRectangle_Center|Rectángulo Centrado]]: Crea un rectángulo centrado. {{Version|1.0}}: Esta es la misma herramienta que [[Sketcher_CreateRectangle|Rectángulo]] pero con un modo inicial diferente.
 
-<div class="mw-translate-fuzzy">
-:* [[Image:Sketcher_CreateOblong.svg|32px]] [[Sketcher_CreateOblong/es|Rectángulo Redondeado]]: Dibuja un rectángulo redondeado desde 2 puntos opuestos. {{Version/es|0.20}}
-</div>
+:* [[Image:Sketcher_CreateOblong.svg|32px]] [[Sketcher_CreateOblong|Rectángulo Redondeado]]: Crea un rectángulo redondeado. Ídem.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * <span id="Sketcher_CompCreateRegularPolygon">[[Image:Sketcher_CreateHexagon.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] Create Polygon:</span><!--Do not edit span id: the Sketcher_CompCreateRegularPolygon pages redirect here-->
