@@ -428,9 +428,7 @@ Según la opción seleccionada en [[Sketcher_Preferences#General|Preferencias]],
 {{Caption|Determinación del punto central de un círculo con los parámetros de posición habilitados}}
 
 [[Image:Sketcher_On_view_parameters_dimensional.png]]
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Determining the radius of a circle with the dimensional parameters enabled}}
-</div>
+{{Caption|Determinación del radio de un círculo con los parámetros dimensionales habilitados}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If values are entered and confirmed by pressing {{KEY|Enter}} or {{KEY|Tab}}, related constraints are added automatically. If two parameters are displayed at the same time, for example the X- and Y-coordinate of a point, it is possible to enter one value and pick a point to define the other. Depending on the object additional constraints may be required to fully constrain it. Constraints resulting from On-View-Parameters take precedence over those that may result from [[Sketcher_Dialog#Constraints|Auto constraints]].
