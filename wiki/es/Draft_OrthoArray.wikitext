@@ -76,7 +76,7 @@ El comando se puede utilizar en objetos 2D creados con el [[Draft_Workbench|Ambi
 <span id="Properties"></span>
 == Propiedades ==
 
-See also: [[property_View|Property View]].
+Véase también: [[property_View|Vista de propiedad]].
 
 The Draft OrthoArray command, the [[Draft_PolarArray|Draft PolarArray command]] and the [[Draft_CircularArray|Draft CircularArray command]] create the same object. This object is derived from a [[Part_Feature|Part Feature]] object and inherits all its properties (with the exception of some View properties that are not inherited by Link arrays). The following properties are additional unless otherwise stated:
 
