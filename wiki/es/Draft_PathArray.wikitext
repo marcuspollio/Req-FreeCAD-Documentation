@@ -120,7 +120,7 @@ Las propiedades de este grupo solo están disponibles para Matrices de Enlace. C
 
 * {{PropertyData|Always Sync Placement|Bool}}
 
-{{Properties_Title|Objects}}
+{{Properties_Title|Objectos}}
 
 * {{PropertyData|Base|LinkGlobal}}: specifies the object to duplicate in the array.
 * {{PropertyData|Expand Array|Bool}}: specifies whether to expand the array in the [[Tree_View|Tree View]] to enable the selection of its individual elements. Only available for Link arrays.
