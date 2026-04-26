@@ -72,7 +72,7 @@ Este modo es similar al {{PropertyData|Modo de Alineación}} {{Value|Original}} 
 
 Estas propiedades solo están disponibles si el {{PropertyData|Mode de Alineación}} es {{Value|Original}} o {{Value|Tangente}}. Si la {{PropertyData|Fuerza Vertical}} se establece en {{TRUE}}, el sistema de coordenadas local se calcula de manera diferente. El {{PropertyData|Vector Vertical}} se utiliza como un vector normal fijo. A partir de este vector normal y el vector tangente local (el eje X local), se calcula nuevamente un producto vectorial. Pero ahora este vector se utiliza como el eje Y local. La orientación del eje Z local se determina a partir de los ejes X e Y locales.
 
-Using these properties can be required if one of the edged of the path is (almost) parallel to the default normal of the path.
+El uso de estas propiedades se puede necesitar si uno de los bordes del camino es (casi) paralelo a la normal predeterminada del camino.
 
 ==Notes==
 
