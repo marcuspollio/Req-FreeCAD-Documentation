@@ -129,9 +129,7 @@ Estas son herramientas para crear objetos.
 
 * [[Image:Sketcher_CreatePoint.svg|32px]] [[Sketcher_CreatePoint|Punto]]: Crea un punto.
 
-<div class="mw-translate-fuzzy">
-* [[Image:Sketcher_CreatePolyline.svg|32px]] [[Sketcher_CreatePolyline/es|Polilínea (línea de múltiples puntos)]]: Dibuja una línea creada por múltiples segmentos de línea. Presionando la tecla M se puede iterar entre los diferents modos.
-</div>
+* [[Image:Sketcher_CreatePolyline.svg|32px]] [[Sketcher_CreatePolyline|Polilinea]]: Crea una serie de segmentos de línea y arco conectados por sus puntos finales. La herramienta tiene varios modos de uso.
 
 <div class="mw-translate-fuzzy">
 * [[Image:Sketcher_Line.svg|32px]] [[Sketcher_CreateLine/es|Línea]]: Dibuja un segmento de línea entre 2 puntos. Las líneas son infinitas en lo que respecta a ciertas restricciones.
