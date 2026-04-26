@@ -23,9 +23,7 @@
 
 El comando [[Image:Draft_CircularArray.svg|24px]] '''Borrador ArregloCircular''' genera una matriz a partir de un objeto seleccionado colocando copias a lo largo de circunferencias concéntricas. El comando puede crear opcionalmente una matriz de [[App_Link/es|Enlace]], que es más eficiente que un arreglo normal.
 
-<div class="mw-translate-fuzzy">
-El comando puede usarse en objetos 2D creados con el [[Draft_Workbench/es|Ambiente de Trabajo Borrador]] o [[Sketcher_Workbench/es|Ambiente de Trabajo Dibujo]], pero también en muchos objetos 3D como los creados con el [[Part_Workbench/es|Ambiente de Trabajo Pieza]], [[PartDesign_Workbench/es|Ambiente de Trabajo DiseñoPieza]] o [[Arch_Workbench/es|Ambiente de Trabajo Arquitectura]].
-</div>
+El comando puede usarse en objetos 2D creados con el [[Draft_Workbench/es|Ambiente de Trabajo de Borrador]] o el [[Sketcher_Workbench/es|Ambiente de Trabajo de Boceto]], pero también en muchos objetos 3D como los creados con el [[Part_Workbench/es|Ambiente de Trabajo de Pieza]], el [[PartDesign_Workbench/es|Ambiente de Trabajo de Diseño de Pieza]] o el [[Arch_Workbench/es|Ambiente de Trabajo Arquitectura]].
 
 [[Image:Draft_CircularArray_example.png|400px]]
 {{Caption|Borrador ArregloCircular}}
