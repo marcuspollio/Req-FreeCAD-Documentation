@@ -139,16 +139,14 @@ doc.recompute()
 }}
 
 
-<div class="mw-translate-fuzzy">
-{{Docnav/es
-|[[Draft_OrthoArray/es|ArregloOrtogonal]]
-|[[Draft_CircularArray/es|ArregloCircular]]
-|[[Draft_Workbench/es|Borrador]]
+{{Docnav
+|[[Draft_OrthoArray|Matriz ortogonal]]
+|[[Draft_CircularArray|Matriz circular]]
+|[[Draft_Workbench|Borrador]]
 |IconL=Draft_OrthoArray.svg
 |IconR=Draft_CircularArray.svg
 |IconC=Workbench_Draft.svg
 }}
-</div>
 
 {{Draft Tools navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
