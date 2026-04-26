@@ -450,9 +450,8 @@ Mientras un croquis está en modo de edición, se pueden utilizar los siguientes
 
 Como en otras partes de FreeCAD, se puede seleccionar un elemento en la vista 3D con un solo clic izquierdo del ratón. Sin embargo, no es necesario mantener pulsada la tecla Ctrl para seleccionar varios elementos. Mantenerla pulsada es posible, lo que tiene la ventaja de que se puede hacer clic accidentalmente sin perder la selección. De esta forma, se pueden seleccionar aristas, puntos y restricciones.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== 3D View box selection ===
-</div>
+<span id="3D_View_box_selection"></span>
+=== Selección de recuadro de vista 3D ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Box selection in the 3D View works without using [[Std_BoxSelection|Std BoxSelection]] or [[Std_BoxElementSelection|Std BoxElementSelection]]:
