@@ -12,8 +12,8 @@
 {{GuiCommandContainer|
 {{GuiCommand/fr
 |Name=FEM MeshAdvanced
-|Name/fr=FEM Affinage avancé
-|MenuLocation=Maillage → Affinements Gmsh → Types d'affinage avancé
+|Name/fr=FEM Densification avancée
+|MenuLocation=Maillage → Densifications sous Gmsh → Types de densification avancée
 |Workbenches=[[FEM_Workbench/fr|FEM]]
 |Version=1.2
 |SeeAlso=[[FEM_tutorial/fr|FEM Tutoriel]]
