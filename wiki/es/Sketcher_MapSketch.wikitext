@@ -9,9 +9,12 @@
 |IconC=Workbench_Sketcher.svg
 }}
 
-<div class="mw-translate-fuzzy">
-{{GuiCommand/es|Name=Sketcher MapSketch|Name/es=Sketcher MapSketch|Create a sketch on a face|Workbenches=[[Sketcher Workbench/es|Sketcher]], [[PartDesign Workbench/es|PartDesign]]|MenuLocation=Part Design/Sketch → Map sketch to face...|SeeAlso=[[Sketcher NewSketch/es|Create a new sketch]]}}
-</div>
+{{GuiCommand
+|Name=Sketcher MapSketch
+|MenuLocation=Croquis → Adjuntar Croquis
+|Workbenches=[[Sketcher_Workbench|Sketcher]], [[PartDesign_Workbench|Diseño de Pieza]]
+|SeeAlso=[[Sketcher_ReorientSketch|Reorientar Croquis]], [[Sketcher_NewSketch|Nuevo Croquis]]
+}}
 
 <span id="Description"></span>
 == Descripción ==
