@@ -151,9 +151,7 @@ Estas son herramientas para crear objetos.
 
 :* [[Image:Sketcher_Create3PointCircle.svg|32px]] [[Sketcher_Create3PointCircle|Círculo a partir de 3 puntos]]: Crea un círculo a partir de tres puntos a lo largo del círculo. {{Version|1.0}}: Esta es la misma herramienta que [[Sketcher_CreateCircle|Círculo desde el centro]] pero con un modo inicial diferente.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:Sketcher_CreateEllipseByCenter.svg|32px]] [[Sketcher_CreateEllipseByCenter|Ellipse From Center]]: Creates an ellipse from its center, an endpoint of one of its axes, and a point along the ellipse. {{Version|1.0}}: Or from both endpoints of one of its axes and a point along the ellipse.
-</div>
+:* [[Image:Sketcher_CreateEllipseByCenter.svg|32px]] [[Sketcher_CreateEllipseByCenter|Elipse From Center]]: Crea una elipse a partir de su centro, un extremo de uno de sus ejes y un punto a lo largo de la elipse. {{Version|1.0}}: O a partir de ambos extremos de uno de sus ejes y un punto a lo largo de la elipse.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:Sketcher_CreateEllipseBy3Points.svg|32px]] [[Sketcher_CreateEllipseBy3Points|Ellipse From 3 Points]]: Creates an ellipse from the endpoints of one of its axes and a point along the ellipse. {{Version|1.0}}: This is the same tool as [[Sketcher_CreateEllipseByCenter|Ellipse From Center]] but with a different initial mode.
