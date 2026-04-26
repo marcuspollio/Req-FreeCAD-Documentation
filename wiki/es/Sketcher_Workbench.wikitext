@@ -252,7 +252,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[File:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock|Restricción de Bloque]]: Bloquea los bordes en su lugar con una sola restricción. Está principalmente destinado a B-splines.
 
-* [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Restricción de grupo]]: Agrupa la geometría seleccionada. {{Version|1.2}}
+* [[File:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Restricción de grupo]]: Agrupa la geometría seleccionada. {{Version|1.2}}
 
 * [[Archivo:Sketcher_ConstrainSnellsLaw.svg|32px]] [[Sketcher_ConstrainSnellsLaw|Restricción de Refracción]]: Restringe dos líneas para que sigan la ley de refracción de la luz a medida que penetra a través de una interfaz.
 
