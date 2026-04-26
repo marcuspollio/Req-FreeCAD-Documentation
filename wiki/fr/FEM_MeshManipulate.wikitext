@@ -47,7 +47,7 @@ La commande '''FEM Manipuler la densification''' permet de manipuler le résulta
 #** Vous pouvez cocher la case ''S'arrêter à la valeur d'entrée maximale''.
 #* ''Moyenne'' : calcule la valeur moyenne de la densification de l'enfant G.
 #** Spécifiez ''Delta''
-#* ''Gradient'' : calcule le gradient par différences finies de l'affinage de l'enfant G.
+#* ''Gradient'' : calcule le gradient par différences finies de la densification de l'enfant G.
 #** Sélectionnez ''Type'' : X, Y, Z ou Moyenne
 #** Spécifiez ''Delta''
 #* ''Courbure'' : calcule la courbure de la densification de l'enfant G.
@@ -57,7 +57,7 @@ La commande '''FEM Manipuler la densification''' permet de manipuler le résulta
 # Vous pouvez cliquer sur le bouton {{Button|[[Image:Preferences-system.svg|x16px]]}} pour modifier les paramètres globaux d'aperçu de la densification :
 #* ''Activation automatique à l'ouverture'' : active automatiquement la visualisation de la taille du maillage de la densification à l'ouverture d'une boîte de dialogue de tâche de la densification.
 #* ''Finesse du maillage de l'aperçu'' détermine la finesse du maillage de l'aperçu. Un nombre plus élevé signifie un maillage plus fin (éléments plus petits).
-# Vous pouvez cliquer sur le bouton {{Button|Visualiser}} pour visualiser le résultat de la densification de la taille du maillage. Les tailles de maillages obtenues par l'affinage sont représentées par des couleurs sur un maillage d'aperçu. Notez que l'aperçu évalue la densification sur un maillage grossier. Les détails plus petits que la taille de maillage peuvent donc ne pas être visibles.
+# Vous pouvez cliquer sur le bouton {{Button|Visualiser}} pour visualiser le résultat de la densification de la taille du maillage. Les tailles de maillages obtenues par la densification sont représentées par des couleurs sur un maillage d'aperçu. Notez que l'aperçu évalue la densification sur un maillage grossier. Les détails plus petits que la taille de maillage peuvent donc ne pas être visibles.
 # Cliquez sur le bouton {{Button|Ajouter}}. Sélectionnez une face, une arête ou un sommet comme géométries de référence pour les densifications Courbe anisotrope et Distance. Pour supprimer des objets de la sélection, cliquez sur le bouton {{Button|Supprimer}}.
 # Cliquez sur le bouton {{Button|OK}}.
 # Fermez la tâche.
