@@ -204,9 +204,7 @@ Estas son herramientas para crear objetos.
 <span id="Constraints"></span>
 === Restricciones ===
 
-<div class="mw-translate-fuzzy">
-Las restricciones son utilizadas para establecer reglas entre los elementos del croquis, y para bloquear el croquis a lo largo de los ejes verticales y horizontales. Algunas restricciones crean restricciones auxiliares adicionales [[Sketcher_helper_constraint/es|Restricciones auxiliares]]
-</div>
+A continuación se muestran las herramientas para crear [[#Constraints|restricciones]]. Algunas restricciones requieren el uso de [[Sketcher_helper_constraint|restricciones auxiliares]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * <span id="Sketcher_CompDimensionTools">[[Image:Sketcher_Dimension.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] Dimensional Constraints:</span><!--Do not edit span id: the Sketcher_CompDimensionTools pages redirect here-->
