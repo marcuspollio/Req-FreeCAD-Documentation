@@ -195,9 +195,7 @@ Estas son herramientas para crear objetos.
 
 :* [[Archivo:Sketcher_CreatePeriodicBSplineByInterpolation.svg|32px]] [[Sketcher_CreatePeriodicBSplineByInterpolation|B-Spline periódica a partir de nodos]]: Crea una curva B-spline periódica (cerrada) a partir de puntos de nodos. Idem.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[File:Sketcher_CreateText.svg|32px]] [[Sketcher_CreateText|Text]]: Creates text geometry controlled by a text constraint {{Version|1.2}}.
-</div>
+* [[Archivo:Sketcher_CreateText.svg|32px]] [[Sketcher_CreateText|Texto]]: Crea geometría de texto controlada por una restricción de texto {{Versión|1.2}}.
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_ToggleConstruction.svg|32px]] [[Sketcher_ToggleConstruction/es|Modo de construcción]]: Cambia la geometría del boceto del modo de construcción. La geometría de la construcción se muestra en azul y se descarta fuera del modo de edición del boceto.
