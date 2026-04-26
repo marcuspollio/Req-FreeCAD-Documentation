@@ -9,20 +9,19 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommandContainer|
-{{GuiCommand
+{{GuiCommand/de
 |Name=FEM MeshDistance
-|MenuLocation=Mesh → GMSH Refinements → Distance-Based Refinement
-|Workbenches=[[FEM_Workbench|FEM]]
+|Name/de=FEM NetzAbstand
+|MenuLocation=Netz → GMSH-Verfeinerungen → Entfernungsbasierte Verfeinerung
+|Workbenches=[[FEM_Workbench/de|FEM]]
 |Version=1.2
-|SeeAlso=[[FEM_tutorial|FEM tutorial]]
+|SeeAlso=[[FEM_tutorial/de|FEM Tutorial]]
 }}
 {{GuiCommandFemInfo
-|Solvers=All
+|Solvers=Alle
 }}
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung==
