@@ -37,13 +37,13 @@ Esta sección informa sobre el estado del croquis.
 
 Los posibles mensajes son:
 * Croquis vacío
-* <span style="color:red;">Restricciones excesivas: </span><span style="color:blue;text-decoration:underline;">(#, #, #)</span>
-* <span style="color:red;">Restricciones mal formadas: </span><span style="color:blue;text-decoration:underline;">(#, #, #)</span>
-* <span style="color:red;">Restricciones redundantes: </span><span style="color:blue;text-decoration:underline;">(#, #, #)</span>
-* <span style="color:blue;">Parcialmente redundante: </span><span style="color:blue;text-decoration:underline;">(#, #, #)</span>
-* <span style="color:red;">El solucionador no convergió</span>
-* Restricciones insuficientes: <span n grados de libertad
-* <span style="color:blue;">Totalmente restringido</span>
+* <span style="color:red;">Over-constrained: </span><span style="color:blue;text-decoration:underline;">(#, #, #)</span>
+* <span style="color:red;">Malformed constraints: </span><span style="color:blue;text-decoration:underline;">(#, #, #)</span>
+* <span style="color:red;">Redundant constraints: </span><span style="color:blue;text-decoration:underline;">(#, #, #)</span>
+* <span style="color:blue;">Partially redundant: </span><span style="color:blue;text-decoration:underline;">(#, #, #)</span>
+* <span style="color:red;">Solver failed to converge</span>
+* Under-constrained: <span style="color:blue;text-decoration:underline;">n Degrees of Freedom</span>
+* <span style="color:green;">Fully constrained</span>
 
 Si un croquis tiene restricciones insuficientes, se indica el número de grados de libertad. Al hacer clic en el texto subrayado, se seleccionarán los elementos del boceto con restricciones insuficientes. Véase [[Image:Sketcher_SelectElementsWithDoFs.svg|16px]] [[Sketcher_SelectElementsWithDoFs|Sketcher SelectElementsWithDoFs]].
 
