@@ -248,7 +248,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[File:Sketcher_ConstrainEqual.svg|32px]] [[Sketcher_ConstrainEqual|Restricción de Igualdad]]: Restringe los bordes para que tengan la misma longitud (líneas) o curvatura (otros bordes excepto B-splines).
 
-* [[Archivo:Sketcher_ConstrainSymmetric.svg|32px]] [[Sketcher_ConstrainSymmetric|Restricción Simétrica]]: Restringe dos puntos para que sean simétricos alrededor de una línea o eje, o alrededor de un tercer punto.
+* [[File:Sketcher_ConstrainSymmetric.svg|32px]] [[Sketcher_ConstrainSymmetric|Restricción Simétrica]]: Restringe dos puntos para que sean simétricos alrededor de una línea o eje, o alrededor de un tercer punto.
 
 * [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock|Restricción de Bloque]]: Bloquea los bordes en su lugar con una sola restricción. Está principalmente destinado a B-splines.
 
