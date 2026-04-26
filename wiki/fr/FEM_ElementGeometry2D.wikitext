@@ -52,7 +52,12 @@
 
 [[Image:FEM_shell_offset.svg|700px]]
 
-{{Caption|Exemples de décalage sur des plaques carrées (vue de profil). Chaque ligne bleue représente la géométrie réelle pour laquelle un maillage de coque 2D est généré. Le maillage de surface est étendu en interne en éléments solides (rectangles verts) par le solveur. La direction du décalage dépend du signe de la valeur de décalage spécifiée '''o''' et de la normale à la surface '''n'''. Les normales de la rangée du bas ont été inversées. Le décalage est mesuré depuis la surface médiane du maillage étendu (ligne pointillée rouge) jusqu'à la surface de la géométrie et du maillage 2D (ligne continue bleue) – dans cette direction indiquée par les flèches roses. Ainsi, comme expliqué ci-dessus, il suit la direction de la normale lorsque la valeur de décalage est positive et s'y oppose lorsque la valeur de décalage est négative.}}
+{{Caption|Exemples de décalage sur des plaques carrées (vue de profil).<br>
+Chaque ligne bleue représente la géométrie réelle pour laquelle un maillage de coque 2D est généré.<br>
+Le maillage de surface est étendu en interne en éléments solides (rectangles verts) par le solveur.<br>
+La direction du décalage dépend du signe de la valeur de décalage spécifiée '''o''' et de la normale à la surface '''n'''.<br>
+Les normales de la rangée du bas ont été inversées.<br>
+Le décalage est mesuré depuis la surface médiane du maillage étendu (ligne pointillée rouge) jusqu'à la surface de la géométrie et du maillage 2D (ligne continue bleue) – dans cette direction indiquée par les flèches roses. Ainsi, comme expliqué ci-dessus, il suit la direction de la normale lorsque la valeur de décalage est positive et s'y oppose lorsque la valeur de décalage est négative.}}
 
 <span id="Notes"></span>
 ==Remarques==
