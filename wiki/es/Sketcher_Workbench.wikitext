@@ -20,11 +20,7 @@ Junto con las operaciones booleanas definidas en el [[Image:Workbench_Part.svg|1
 
 El Entorno de Trabajo Croquizador incluye [[#Constraints|Restricciones]], lo que permite que las formas 2D sigan definiciones geométricas precisas en términos de longitud y ángulos, además de relaciones de horizontalidad, verticalidad, perpendicularidad, paralalismo, simetría etc. Un solucionador de restricciones calcula la extensión restringida de la geometría 2D y permite explorar de forma interactiva los grados de libertad del boceto.
 
-<div class="mw-translate-fuzzy">
-==== ¿Para qué no es bueno el entorno de croquizado? ====
-
-El Croquizador no está pensado para producir planos detallados en 2D. Una vez que los croquis se utilizan para generar un sólido, son automáticamente ocultados. Las cotas son sólo visibles en el modo de edición del croquis.
-</div>
+El Croquizador no está diseñado para generar planos 2D. Una vez que se utilizan bocetos para generar una operación sólida, estos se ocultan automáticamente y las restricciones solo son visibles en el modo de edición de bocetos. Si solo necesita generar vistas 2D para impresión y no desea crear modelos 3D, consulte el [[Draft_Workbench|Entorno de Trabajo de Bocetos]].
 
 [[File:FC_ConstrainedSketch.png|450px]]
 {{Caption|Un croquis completamente restringido‎}}
