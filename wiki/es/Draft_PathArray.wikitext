@@ -137,9 +137,9 @@ Las propiedades de este grupo solo están disponibles para Matrices de Enlace. C
 ** {{Value|Recuento Fijo}}: la longitud de ruta disponible (menos los desplazamientos inicial y final) se divide uniformemente para acomodar el {{PropertyData|contar}} elementos.
 ** {{Value|Espacido Fijado}}: comienza en el desplazamiento inicial y coloca nuevos elementos después de recorrer una distancia fija a lo largo de la ruta.
 ** {{Value|Recuento y espaciado fijos}}: igual que {{Value|Espaciado fijo}}, pero también se detiene en {{PropertyData|Recuento}} elementos.
-* {{PropertyData|Patrón de espaciado|Lista flotante}}: el espaciado se multiplica por un número correspondiente en esta secuencia. Solo se usa si {{PropertyData|Usar patrón de espaciado}} es {{TRUE}}; de lo contrario, se oculta. {{Version|1.1}}
-* {{PropertyData|Unidad de espaciado|Longitud}}: la distancia base fija entre elementos. Solo se usa si {{PropertyData|Modo de espaciado}} es {{Value|Espaciado fijo}} o {{Value|Recuento y espaciado fijos}}; de lo contrario, se oculta. {{Version|1.1}}
-* {{PropertyData|Desplazamiento inicial|Longitud}}: especifica la longitud desde el inicio de la ruta hasta la primera copia. Debe ser menor que la longitud de la ruta. {{Version|0.21}}
+* {{PropertyData|Spacing Pattern|Lista flotante}}: el espaciado se multiplica por un número correspondiente en esta secuencia. Solo se usa si {{PropertyData|Usar patrón de espaciado}} es {{TRUE}}; de lo contrario, se oculta. {{Version|1.1}}
+* {{PropertyData|Spacing Unit|Longitud}}: la distancia base fija entre elementos. Solo se usa si {{PropertyData|Modo de espaciado}} es {{Value|Espaciado fijo}} o {{Value|Recuento y espaciado fijos}}; de lo contrario, se oculta. {{Version|1.1}}
+* {{PropertyData|Start Offset|Longitud}}: especifica la longitud desde el inicio de la ruta hasta la primera copia. Debe ser menor que la longitud de la ruta. {{Version|0.21}}
 * {{PropertyData|Use Spacing Pattern|Bool}}: utiliza patrones de espaciado repetitivos en lugar de espaciado uniforme. {{Version|1.1}}
 
 ===View===
