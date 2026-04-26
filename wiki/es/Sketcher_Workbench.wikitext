@@ -50,9 +50,8 @@ Para editar el valor de una restricción dimensional existente, realice una de l
 * Haga doble clic en la restricción sobre el [[Sketcher_Dialog|Diálogo de dibujo]].
 * Haga clic con el botón derecho en la restricción en el Diálogo de dibujo y seleccione la opción {{MenuCommand|Cambiar valor}} del menú contextual.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Reposition constraints ===
-</div>
+<span id="Reposition_constraints"></span>
+=== Restricciones de reposicionamiento ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Dimensional constraints can be repositioned in the 3D View by dragging. Hold down the left mouse button over the constraint value and move the mouse. The symbols of geometric constraints are positioned automatically and cannot be moved.
