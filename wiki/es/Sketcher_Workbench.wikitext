@@ -357,9 +357,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 :* [[File:Sketcher_BSplineKnotMultiplicity.svg|32px]] [[Sketcher_BSplineKnotMultiplicity|Alternar Multiplicidad de Nudos B-spline]]: Muestra u oculta la multiplicidad de nudos B-spline en todos los bocetos.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_BSplinePoleWeight.svg|32px]] [[Sketcher_BSplinePoleWeight/es|Mostrar/ocultar el peso del punto de control de la B-spline]], {{Version|0.19}}
-</div>
+:* [[File:Sketcher_BSplinePoleWeight.svg|32px]] [[Sketcher_BSplinePoleWeight|Alternar Peso del Punto de Control de B-spline]]: Muestra u oculta el peso del punto de control de B-spline en todos los bocetos.
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_RestoreInternalAlignmentGeometry.svg|32px]] [[Sketcher_RestoreInternalAlignmentGeometry/es|Mostrar/Ocultar geometría interna]]: Recrea la geometría interna que falta/elimina la innecesaria de una elipse, arco de elipse/hiperbola/parábola o B-spline seleccionados.
