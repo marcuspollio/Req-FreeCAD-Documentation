@@ -359,9 +359,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 :* [[File:Sketcher_BSplinePoleWeight.svg|32px]] [[Sketcher_BSplinePoleWeight|Alternar Peso del Punto de Control de B-spline]]: Muestra u oculta el peso del punto de control de B-spline en todos los bocetos.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_RestoreInternalAlignmentGeometry.svg|32px]] [[Sketcher_RestoreInternalAlignmentGeometry/es|Mostrar/Ocultar geometría interna]]: Recrea la geometría interna que falta/elimina la innecesaria de una elipse, arco de elipse/hiperbola/parábola o B-spline seleccionados.
-</div>
+* [[File:Sketcher_RestoreInternalAlignmentGeometry.svg|32px]] [[Sketcher_RestoreInternalAlignmentGeometry|Alternar Geometría Interna]]: Elimina la geometría interna de los elementos o recrea la geometría interna faltante.
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_SwitchVirtualSpace.svg|32px]] [[Sketcher_SwitchVirtualSpace/es|Cambiar el espacio virtual]]: Permite ocultar todas las restricciones de un boceto y hacerlas visibles de nuevo.
