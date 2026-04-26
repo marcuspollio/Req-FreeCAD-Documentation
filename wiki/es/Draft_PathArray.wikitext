@@ -91,7 +91,7 @@ Un objeto Boceto Matriz de Ruta se deriva de un objeto [[Part_Feature|Caracterí
 
 {{Properties_Title|Enlace}}
 
-The properties in this group are only available for Link arrays. See [[Std_LinkMake#Properties|Std LinkMake]] for more information.
+Las propiedades de este grupo solo están disponibles para Matrices de Enlace. Consulte [[Std_LinkMake#Properties|Matriz de Enlace Estándar]] para obtener más información.
 
 * {{PropertyData|Scale|Float}}
 * {{PropertyData|Scale Vector|Vector|Hidden}}
