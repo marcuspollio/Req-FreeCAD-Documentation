@@ -13,7 +13,7 @@ El Entorno de Trabajo de Borrador de FreeCAD actúa como puente entre el dibujo 
 
 Una de las ventajas de la especificidad de este ambiente de trabajo es su completo conjunto de herramientas, que incluye tanto herramientas básicas de dibujo como herramientas avanzadas de modificación. Estas herramientas se pueden usar no solo para dibujar en 2D, sino también para manipular objetos en el espacio 3D. Puede establecer planos de trabajo, definir cuadrículas y aplicar restricciones para garantizar que las relaciones geométricas se mantengan intactas en todo el diseño. Los objetos de dibujo se pueden modificar y recolocar mediante modos de ajuste y diversas restricciones, lo que facilita enormemente el dibujo preciso.
 
-Algunas de las herramientas que se encuentran en el Entorno de Trabajo de Dibujo Técnico:
+Algunas de las herramientas que se encuentran en el Entorno de Trabajo de Borrador:
 * '''Herramientas de Dibujo''':
 ** [[Image:Draft_Line.svg|16px]] [[Draft_Line|Line]], [[Image:Draft_Wire.svg|16px]] [[Draft_Wire|Wire]] (polilínea): Estas herramientas permiten crear segmentos de línea recta o polilíneas continuas, que se pueden restringir y convertir en formas 3D.
 **[[Image:Draft_Circle.svg|16px]] [[Draft_Circle|Círculo]], [[Image:Draft_Ellipse.svg|16px]] [[Draft_Ellipse|Elipse]] y [[Image:Draft_Arc.svg|16px]] [[Draft_Arc|Arco]]: Se utilizan para definir formas circulares y elípticas básicas, con opciones para su posterior manipulación.
