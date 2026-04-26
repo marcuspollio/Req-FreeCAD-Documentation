@@ -75,7 +75,8 @@ Opciones disponibles:
 * {{MenuCommand|Ángulo de ajuste}}: Especifica el ángulo de ajuste angular. El ajuste se producirá en múltiplos de este valor, comenzando desde la dirección del eje X positivo del croquis. Para este ajuste, debe mantenerse pulsada la tecla {{KEY|Ctrl}}. El ajuste angular solo funciona al crear cierta geometría. {{Version|1.1}}
 * {{MenuCommand|Orden de representación}}: Los elementos de la lista se pueden arrastrar para cambiar el orden de representación de todos los croquis. En caso de objetos coincidentes, el orden de representación determina qué elementos aparecen en primer plano y, por lo tanto, se seleccionan primero en la [[3D_View|Vista_3D]]. {{Version|1.1}}
 
-Snapping only works while creating geometry. Note that snapping is just a drawing aid, it does not produce additional constraints.
+El ajuste solo funciona al crear geometría. Tenga en cuenta que el ajuste es solo una ayuda para el dibujo; no genera restricciones adicionales.
+
 |}
 
 ==Advanced Solver Controls==
