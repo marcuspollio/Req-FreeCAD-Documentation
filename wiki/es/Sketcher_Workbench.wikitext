@@ -165,9 +165,7 @@ Estas son herramientas para crear objetos.
 
 * <span id="Sketcher_CompCreateRegularPolygon">[[Image:Sketcher_CreateHexagon.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] Create Polygon:</span><!--Do not edit span id: the Sketcher_CompCreateRegularPolygon pages redirect here-->
 
-<div class="mw-translate-fuzzy">
-* [[Image:Sketcher_CreateTriangle.svg|32px]] [[Sketcher_CreateTriangle/es|Triángulo]]: Dibuja un triángulo regular inscrito en un círculo de geometría de construcción.
-</div>
+:* [[Image:Sketcher_CreateTriangle.svg|32px]] [[Sketcher_CreateTriangle|Triángulo]]: crea un triángulo equilátero. {{Version|1.0}}: Esta es la misma herramienta que [[Sketcher_CreateRegularPolygon|Polígono]] pero con el número de lados preestablecido a un valor específico.
 
 <div class="mw-translate-fuzzy">
 * [[Image:Sketcher_CreateSquare.svg|32px]] [[Sketcher_CreateSquare/es|Cuadrado]]: Dibuja un cuadrado regular inscrito en una circumferencia en modo construcción.
