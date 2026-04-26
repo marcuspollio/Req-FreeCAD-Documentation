@@ -82,7 +82,7 @@ El ajuste solo funciona al crear geometría. Tenga en cuenta que el ajuste es so
 <span id="Advanced_Solver_Controls"></span>
 == Controles avanzados del solucionador ==
 
-This section will only appear if you check the '''Show section 'Advanced Solver Controls'''' option in the [[Sketcher_Preferences|sketcher preferences]].
+Esta sección solo aparecerá si marca la opción '''Mostrar sección 'Controles avanzados del solucionador''' en las [[Preferencias_de_Sketcher|Preferencias del Croquizador]].
 
 Note that most of the options in this section are of no practical use. They can however help with testing and understanding the solvers.
 
