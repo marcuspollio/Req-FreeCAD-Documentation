@@ -9,16 +9,13 @@
 |IconC=Workbench_Draft.svg
 }}
 
-<div class="mw-translate-fuzzy">
-{{GuiCommand/es
+{{GuiCommand
 |Name=Draft OrthoArray
-|Name/es=Borrador ArregloOrtogonal
-|MenuLocation=Modificación → Herramientas de  Arreglo → Arreglo
-|Workbenches=[[Draft_Workbench/es|Borrador]], [[Arch_Workbench/es|Arquitectura]]
+|MenuLocation=Modificación → Herramientas para matriz → Array<br>Modificar → Matriz
+|Workbench=[[Draft_Workbench|Borrador]], [[BIM_Workbench|Arquitectura]]
 |Version=0.19
-|SeeAlso=[[Draft_PolarArray/es|Borrador ArregloPolar]], [[Draft_CircularArray/es|Borrador ArregloCircular]], [[Draft_PathArray/es|Borrador ArregloRutas]], [[Draft_PathLinkArray/es|Borrador ArregloEnlaceRuta]], [[Draft_PointArray/es|Borrador ArregloPunto]], [[Draft_PointLinkArray/es|Borrador ArregloEnlacePunto]].
+|SeeAlso=[[Draft_PolarArray|Draft PolarArray]], [[Draft_CircularArray|Draft CircularArray]], [[Draft_PathArray|Draft PathArray]], [[Draft_PathLinkArray|Draft PathLinkArray]], [[Draft_PointArray|Draft PointArray]], [[Draft_PointLinkArray|Draft PointLinkArray]]
 }}
-</div>
 
 <span id="Description"></span>
 == Descripción ==
