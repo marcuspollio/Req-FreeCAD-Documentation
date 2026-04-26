@@ -28,11 +28,7 @@ El Croquizador no está diseñado para generar planos 2D. Una vez que se utiliza
 <span id="Constraints"></span>
 == Restricciones ==
 
-<div class="mw-translate-fuzzy">
-==== ¿Qué son las restricciones? ====
-
-Las restricciones se utilizan para limitar los grados de libertad de un objeto. Por ejemplo, una línea tiene 4   [[#Degrees Of Freedom|grados de libertad]] (en inglés Degrees Of Freedom, generalmente abreviado como " DOF "): Se puede mover horizontal o verticalmente, se puede estirar, y puede girarse.
-</div>
+Las restricciones se utilizan para limitar los grados de libertad de un objeto. Por ejemplo, una línea sin restricciones tiene 4 grados de libertad (abreviados como "DoF"): pues puede moverse horizontal o verticalmente, estirarse y rotarse.
 
 Aplicando una restricción horizontal o vertical,  o una restricción angular (relativa a otra línea o a uno de los ejes), se limitará su capacidad de girar, aunque seguirá con 3 grados de libertad. Bloqueando uno de sus extremos en relación con el origen eliminará otros 2 grados de libertad. Y aplicando una restricción dimensional se eliminará el último grado de libertad. La línea se considerará que está entonces '''completamente restringida'''.
 
