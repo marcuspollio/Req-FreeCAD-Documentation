@@ -451,7 +451,7 @@ Como en otras partes de FreeCAD, se puede seleccionar un elemento en la vista 3D
 <span id="3D_View_box_selection"></span>
 === Selección de recuadro de vista 3D ===
 
-La selección de recuadros en la vista 3D funciona sin usar [[Std_BoxSelection|Std BoxSelection]] ni [[Std_BoxElementSelection|Std BoxElementSelection]]:
+La selección de recuadros en la vista 3D funciona sin usar la [[Std_BoxSelection|Caja de Selección estándar]] ni la [[Std_BoxElementSelection|Caja de selección de elementos estándar]]:
 # Asegúrese de que no haya ninguna herramienta activa.
 # Realice una de las siguientes acciones:
 #* Haga clic en un área vacía y arrastre un rectángulo de izquierda a derecha para seleccionar los elementos que se encuentran completamente dentro del rectángulo.
