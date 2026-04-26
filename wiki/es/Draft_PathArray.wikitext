@@ -82,7 +82,7 @@ El uso de estas propiedades se puede necesitar si uno de los bordes del camino e
 <span id="Properties"></span>
 == Propiedades ==
 
-See also: [[property_View|Property View]].
+Véase también:[[property_View|Vista de propiedad]].
 
 A Draft PathArray object is derived from a [[Part_Feature|Part Feature]] object and inherits all its properties (with the exception of some View properties that are not inherited by Link arrays). The following properties are additional unless otherwise stated:
 
