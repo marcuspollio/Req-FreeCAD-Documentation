@@ -36,8 +36,8 @@ La commande '''FEM Maillage fonction de la distance''' permet de définir la tai
 # Pour activer la commande, il faut d'abord fournir un [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/fr|maillage Gmsh]].
 # Sélectionnez l'objet Mesh dans l'[[Tree_View/fr|arborescence]].
 # Il existe plusieurs façons de lancer la commande :
-#* Appuyez sur le bouton {{Button|[[Image:FEM_MeshDistance.svg|16px]] [[FEM_MeshDistance/fr|Affinage basé sur la distance]]}}.
-#* Sélectionnez l'option {{MenuCommand|Maillage → Affinements Gmsh → [[Image:FEM_MeshDistance.svg|16px]] Affinage basé sur la distance}} du menu.
+#* Appuyez sur le bouton {{Button|[[Image:FEM_MeshDistance.svg|16px]] [[FEM_MeshDistance/fr|Densification fonction de la distance]]}}.
+#* Sélectionnez l'option {{MenuCommand|Maillage → Densifications de Gmsh → [[Image:FEM_MeshDistance.svg|16px]] Densification fonction de la distance}} du menu.
 # Modifiez les quatre champs distance versus taille. De haut en bas et de gauche à droite :
 #* Taille de maillage lorsque la distance est < à la distance minimum.
 #* Taille de maillage lorsque la distance est = à la distance maximum.
