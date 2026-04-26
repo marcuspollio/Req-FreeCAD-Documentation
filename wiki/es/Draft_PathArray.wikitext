@@ -74,7 +74,8 @@ Estas propiedades solo est√°n disponibles si el {{PropertyData|Mode de Alineaci√
 
 El uso de estas propiedades se puede necesitar si uno de los bordes del camino es (casi) paralelo a la normal predeterminada del camino.
 
-==Notes==
+<span id="Notes"></span>
+== Notas ==
 
 * Fused Link arrays are not displayed properly, in the [[3D_View|3D View]] their elements always appear unfused.
 
