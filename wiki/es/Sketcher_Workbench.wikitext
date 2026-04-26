@@ -283,9 +283,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 :* [[Image:Sketcher_Projection.svg|32px]] [[Sketcher_Projection|Proyección externa]]: Crea los bordes de proyección de la geometría externa. {{Version|1.1}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[Image:Sketcher_Intersection.svg|32px]] [[Sketcher_Intersection|External Intersection]]: Creates the intersection edges of external geometry with the sketch plane. {{Version|1.1}}
-</div>
+:* [[Image:Sketcher_Intersection.svg|32px]] [[Sketcher_Intersection|Intersección Externa]]: Crea los bordes de intersección de la geometría externa con el plano del boceto. {{Version|1.1}}
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_CarbonCopy.svg|32px]] [[Sketcher_CarbonCopy/es|CarbonoCopia]]: Copia la geometría de otro boceto.
