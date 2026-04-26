@@ -52,7 +52,7 @@
 
 [[Image:FEM_shell_offset.svg|700px]]
 
-{{Caption|Exemples de décalage sur des plaques carrées (vue de profil).<br>
+{{Caption|Exemples de décalage sur des plaques carrées (vue de profil)<br>
 Chaque ligne bleue représente la géométrie réelle pour laquelle un maillage de coque 2D est généré.<br>
 Le maillage de surface est étendu en interne en éléments solides (rectangles verts) par le solveur.<br>
 La direction du décalage dépend du signe de la valeur de décalage spécifiée '''o''' et de la normale à la surface '''n'''.<br>
