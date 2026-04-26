@@ -430,9 +430,7 @@ Según la opción seleccionada en [[Sketcher_Preferences#General|Preferencias]],
 [[Image:Sketcher_On_view_parameters_dimensional.png]]
 {{Caption|Determinación del radio de un círculo con los parámetros dimensionales habilitados}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If values are entered and confirmed by pressing {{KEY|Enter}} or {{KEY|Tab}}, related constraints are added automatically. If two parameters are displayed at the same time, for example the X- and Y-coordinate of a point, it is possible to enter one value and pick a point to define the other. Depending on the object additional constraints may be required to fully constrain it. Constraints resulting from On-View-Parameters take precedence over those that may result from [[Sketcher_Dialog#Constraints|Auto constraints]].
-</div>
+Si se introducen valores y se confirman pulsando {{KEY|Enter}} o {{KEY|Tab}}, se añaden automáticamente las restricciones correspondientes. Si se muestran dos parámetros simultáneamente, por ejemplo, las coordenadas X e Y de un punto, es posible introducir un valor y seleccionar un punto para definir el otro. Dependiendo del objeto, pueden ser necesarias restricciones adicionales para restringirlo completamente. Las restricciones derivadas de los parámetros en vista tienen prioridad sobre las que puedan derivarse de las restricciones automáticas del diálogo del dibujante.
 
 [[Image:Sketcher_ArcExample3.png|300px]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
