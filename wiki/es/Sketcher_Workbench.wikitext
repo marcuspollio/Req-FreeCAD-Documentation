@@ -238,9 +238,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 :* [[Archivo:Sketcher_ConstrainHorizontal.svg|32px]] [[Sketcher_ConstrainHorizontal|Restricción Horizontal]]: Restringe líneas o pares de puntos para que sean horizontales.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_ConstrainVertical.svg|32px]][[Sketcher_ConstrainVertical/es|Vertical]]: Limita las líneas o elementos de polilínea seleccionados a una verdadera orientación vertical. Se puede seleccionar más de un objeto antes de aplicar esta restricción.
-</div>
+:* [[Archivo:Sketcher_ConstrainVertical.svg|32px]] [[Sketcher_ConstrainVertical|Restricción Vertical]]: Restringe líneas o pares de puntos para que sean verticales.
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_ConstrainParallel.svg|32px]][[Sketcher_ConstrainParallel/es|Paralelo]]: Restringir dos o más líneas paralelas entre sí.
