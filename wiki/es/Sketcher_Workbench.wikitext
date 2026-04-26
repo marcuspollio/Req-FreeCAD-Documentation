@@ -337,9 +337,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[File:Sketcher_SelectElementsWithDoFs.svg|32px]] [[Sketcher_SelectElementsWithDoFs|Seleccionar Elementos Subrestringidos]]: Selecciona los elementos que no están completamente restringidos en el boceto.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_SelectConstraints.svg|32px]] [[Sketcher_SelectConstraints/es|Seleccione Restricciones]]: Selecciona las restricciones de un elemento de dibujo
-</div>
+* [[File:Sketcher_SelectConstraints.svg|32px]] [[Sketcher_SelectConstraints|Seleccionar Restricciones Asociadas]]: Selecciona las restricciones asociadas a los elementos del boceto.
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_SelectElementsAssociatedWithConstraints.svg|32px]] [[Sketcher_SelectElementsAssociatedWithConstraints/es|Seleccionar elementos asociados con restricciones]]: Seleccionar los elementos de bosquejo asociados a las restricciones
