@@ -109,13 +109,10 @@ Si un boceto o croquis está en modo de edición, la barra de herramientas Estru
 
 * [[Image:Sketcher_ViewSketch.svg|32px]] [[Sketcher_ViewSketch|Alinear vista con boceto]]: Alinea la [[3D_View|Vista 3D]] con el boceto.
 
-<div class="mw-translate-fuzzy">
-* [[Image:Sketcher_ViewSection.svg|32px]] [[Sketcher_ViewSection/es|Ver sección]]: Crea un plano de sección que oculta temporalmente cualquier materia delante del plano de dibujo.
-</div>
+* [[Image:Sketcher_ViewSection.svg|32px]] [[Sketcher_ViewSection|Alternar Vista de Sección]]: Activa o desactiva un plano de sección temporal que oculta cualquier objeto y partes de objetos que se encuentren delante del plano de boceto.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Other ====
-</div>
+<span id="Other"></span>
+=== Otros ===
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_StopOperation.svg|32px]] [[Sketcher_StopOperation/es|Detener la operación]]: cuando esté en el modo de edición, detenga la operación actual, ya sea el dibujo, la configuración de restricciones, etc.
