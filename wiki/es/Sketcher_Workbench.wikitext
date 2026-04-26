@@ -395,9 +395,7 @@ El Entorno de Trabajo Croquizador cuenta con varias herramientas de dibujo y otr
 <span id="Continue_modes"></span>
 === Continuar modos ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-There are two continue modes: '''Geometry creation "Continue Mode"''' and '''Constraint creation "Continue Mode"'''. If these are checked (default) in the [[Sketcher_Preferences#Display|preferences]], related tools will restart after finishing. To exit a continuous tool press {{KEY|Esc}} or the right mouse button. This must be repeated if a continuous geometry tool has already received input. You can also exit a continuous tool by starting another geometry or constraint creation tool. Note that pressing {{KEY|Esc}} if no tool is active will exit sketch edit mode. Uncheck the '''Esc key can leave sketch edit mode''' [[Sketcher_Preferences#General|preference]] if you often inadvertently press {{KEY|Esc}} too many times.
-</div>
+Hay dos modos de continuación: '''Creación de geometría "Modo de continuación"'' y '''Creación de restricciones "Modo de continuación"''. Si están marcados (por defecto) en [[Sketcher_Preferences#Display|Preferencias]], las herramientas relacionadas se reiniciarán después de terminar. Para salir de una herramienta continua, pulse {{KEY|Esc}} o el botón derecho del ratón. Esto debe repetirse si una herramienta de geometría continua ya ha recibido entrada. También puede salir de una herramienta continua iniciando otra herramienta de creación de geometría o restricciones. Tenga en cuenta que pulsar {{KEY|Esc}} si no hay ninguna herramienta activa saldrá del modo de edición de boceto. Desmarque la opción '''La tecla Esc puede salir del modo de edición de boceto''' [[Sketcher_Preferences#General|Preferencia]] si pulsa {{KEY|Esc}} demasiadas veces sin darse cuenta.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Auto constraints ===
