@@ -85,7 +85,7 @@ Los comandos Draft Matriz ortogonal, [[Draft_PolarArray|Draft Matriz polar]] y [
 
 {{Properties_Title|Enlace}}
 
-The properties in this group are only available for Link arrays. See [[Std_LinkMake#Properties|Std LinkMake]] for more information.
+Las propiedades de este grupo solo están disponibles para matrices de enlace. Consulte [[Std_LinkMake#Properties|Enlace estándar]] para obtener más información.
 
 * {{PropertyData|Scale|Float}}
 * {{PropertyData|Scale Vector|Vector|Hidden}}
