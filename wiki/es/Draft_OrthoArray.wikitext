@@ -115,13 +115,13 @@ Las propiedades de este grupo están ocultas para matrices ortogonales y matrice
 
 {{Properties_Title|Objetos}}
 
-* {{PropertyData|Array Type|Enumeration}}: specifies the type of array, which can be {{value|ortho}}, {{value|polar}} or {{value|circular}}.
-* {{PropertyData|Axis Reference|LinkGlobal}}: specifies the object and edge to be used instead of the {{PropertyData|Axis}} and {{PropertyData|Center}} properties. Not used for orthogonal arrays.
-* {{PropertyData|Base|Link}}: specifies the object to duplicate in the array.
-* {{PropertyData|Count|Integer}}: (read-only) specifies the total number of elements in the array.
-* {{PropertyData|Expand Array|Bool}}: specifies whether to expand the array in the [[Tree_View|Tree View]] to enable the selection of its individual elements. Only available for Link arrays.
-* {{PropertyData|Fuse|Bool}}: specifies if overlapping elements in the array are fused or not.
-* {{PropertyData|Placement List|PlacementList|Hidden}}: the placement for each element. Appears in the Link group for Link arrays. {{Version|1.1}}
+* {{PropertyData|Array Type|Enumeración}}: especifica el tipo de matriz, que puede ser {{value|ortogonal}}, {{value|polar}} o {{value|circular}}.
+* {{PropertyData|Axis Reference|Enlace global}}: especifica el objeto y la arista que se usarán en lugar de las propiedades {{PropertyData|Eje}} y {{PropertyData|Centro}}. No se usa para matrices ortogonales.
+* {{PropertyData|Base|Enlace}}: especifica el objeto que se duplicará en la matriz.
+* {{PropertyData|Count|Entero}}: (solo lectura) especifica el número total de elementos en la matriz.
+* {{PropertyData|Expand Array|Bool}}: especifica si se debe expandir la matriz en la [[Tree_View|Vista de árbol]] para permitir la selección de sus elementos individuales. Solo disponible para matrices de enlace.
+* {{PropertyData|Fuse|Bool}}: especifica si los elementos superpuestos en la matriz se fusionan o no.
+* {{PropertyData|Placement List|PlacementList|Hidden}}: la ubicación de cada elemento. Aparece en el grupo Link para las matrices Link. {{Version|1.1}}
 
 {{Properties_Title|Orthogonal array}}
 
