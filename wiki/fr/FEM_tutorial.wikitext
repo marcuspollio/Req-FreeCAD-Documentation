@@ -82,7 +82,7 @@ Vous pouvez également faire glisser et déposer un maillage pour une analyse m�
 ==== GMSH ====
 
 # Sélectionnez le modèle.
-# [[Image:FEM_MeshGmshFromShape.svg|24px]] [[FEM_MeshGmshFromShape/fr|FEM Mailler avec Gmsh]] : génère un maillage d'éléments finis pour un modèle en utilisant Gmsh.
+# [[Image:FEM_MeshGmshFromShape.svg|24px]] [[FEM_MeshGmshFromShape/fr|Mailler avec Gmsh]] : génère un maillage d'éléments finis pour un modèle en utilisant Gmsh.
 # Dans la boîte de dialogue de maillage, cliquez sur {{Button|Appliquer}} et {{Button|OK}}.
 
 Nous avons maintenant créé un maillage de notre objet et nous sommes prêt à ajouter des contraintes et des forces.
