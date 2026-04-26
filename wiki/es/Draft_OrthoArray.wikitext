@@ -125,7 +125,7 @@ Las propiedades de este grupo están ocultas para matrices ortogonales y matrice
 
 {{Properties_Title|Matriz ortogonal}}
 
-The properties in this group are hidden for circular arrays and polar arrays. 
+Las propiedades de este grupo están ocultas para matrices circulares y matrices polares. 
 
 * {{PropertyData|Interval X|VectorDistance}}: specifies the interval between elements in the X direction.
 * {{PropertyData|Interval Y|VectorDistance}}: specifies the interval between elements in the Y direction.
