@@ -372,9 +372,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[File:Sketcher_CreatePointFillet.svg|32px]] [[Sketcher_CreatePointFillet|Redondeo que Conserva las Esquinas]]: Crea un redondeo entre dos líneas no paralelas conservando su punto de esquina. No disponible en {{VersionPlus|1.0}}.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_ConnectLines.svg|32px]] [[Sketcher_ConnectLines/es|Conecta los bordes]]: Conectar los elementos del esbozo aplicando restricciones coincidentes a los puntos finales
-</div>
+* [[Archivo:Sketcher_ConnectLines.svg|32px]] [[Sketcher_ConnectLines|Conectar Bordes]]: Conecta elementos de Sketcher aplicando restricciones coincidentes a los puntos finales. No disponible en {{VersionPlus|0.21}}.
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_Copy.svg|32px]] [[Sketcher_Copy/es|Copiar]]: Copia un elemento del croquis
