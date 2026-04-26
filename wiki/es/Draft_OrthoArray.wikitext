@@ -123,7 +123,7 @@ Las propiedades de este grupo están ocultas para matrices ortogonales y matrice
 * {{PropertyData|Fuse|Bool}}: especifica si los elementos superpuestos en la matriz se fusionan o no.
 * {{PropertyData|Placement List|PlacementList|Hidden}}: la ubicación de cada elemento. Aparece en el grupo Link para las matrices Link. {{Version|1.1}}
 
-{{Properties_Title|Orthogonal array}}
+{{Properties_Title|Matriz ortogonal}}
 
 The properties in this group are hidden for circular arrays and polar arrays. 
 
