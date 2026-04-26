@@ -81,7 +81,7 @@ Véase también: [[property_View|Vista de propiedad]].
 Los comandos Draft Matriz ortogonal, [[Draft_PolarArray|Draft Matriz polar]] y [[Draft_CircularArray|Draft Matriz circular]] crean el mismo objeto. Este objeto se deriva de un objeto [[Part_Feature|Característica de la pieza]] y hereda todas sus propiedades (con la excepción de algunas propiedades de Vista que no son heredadas por las matrices de Enlace). Las siguientes propiedades son adicionales, a menos que se indique lo contrario:
 
 <span id="Data"></span>
-===Datos===
+=== Datos ===
 
 {{Properties_Title|Link}}
 
