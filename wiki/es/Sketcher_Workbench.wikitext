@@ -34,9 +34,7 @@ Aplicar una restricción horizontal o vertical, o una restricción angular (con 
 
 Los objetos pueden estar restringidos entre sí. Por ejemplo, dos líneas pueden unirse a través de uno de sus puntos con una restricción de coincidencia. Se puede establecer un ángulo entre ellas o hacerlas perpendiculares. Una línea puede ser tangente a un arco o a un círculo, etc. Un boceto puede tener varias soluciones diferentes, y al hacer que esté "totalmente restringido" significa que solo se ha alcanzado una de estas posibles soluciones en función de las restricciones aplicadas. Véase también: [[#Flipping|Los objetos pueden estar restringidos entre sí. Dos líneas pueden unirse a través de uno de sus puntos con una restricción de coincidencia. Se puede establecer un ángulo entre ellas o hacerlas perpendiculares. Una línea puede ser tangente a un arco o a un círculo, etc. Un boceto puede tener varias soluciones diferentes, y al hacer que esté "totalmente restringido" significa que solo se ha alcanzado una de estas posibles soluciones en función de las restricciones aplicadas. Véase también: [[#Flipping|Voltear]].]].
 
-<div class="mw-translate-fuzzy">
-Existen dos tipos de restricciones: geométricas y dimensionales. Ambas son explicadas en la sección [[#Las herramientas]] más abajo.
-</div>
+Existen dos tipos de restricciones: geométricas y dimensionales. A continuación, se detallan en la sección [[#Herramientas|Herramientas]] .
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Edit constraints ===
