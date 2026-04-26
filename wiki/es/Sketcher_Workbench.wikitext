@@ -271,9 +271,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 :* [[Image:Sketcher_CreateChamfer.svg|32px]] [[Sketcher_CreateChamfer|Chaflán]]: crea un chaflán entre dos aristas no paralelas. Esta es la misma herramienta que [[Sketcher_CreateFillet|Redondeo]] pero con un modo inicial diferente. {{Version|1.0}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 * <span id="Sketcher_CompCurveEdition">[[Image:Sketcher_Trimming.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] Edit Edge:</span><!--Do not edit span id: the Sketcher_CompCurveEdition pages redirect here-->
-</div>
 
 <div class="mw-translate-fuzzy">
 * [[Image:Sketcher_Trimming.svg|32px]] [[Sketcher_Trimming/es|Recortar]]: Recorta una línea, círculo o arco con respecto al punto designado.
