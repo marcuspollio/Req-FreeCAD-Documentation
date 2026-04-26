@@ -21,7 +21,7 @@
 <span id="Description"></span>
 ==Descripción==
 
-El [[Image:Draft_PolarArray.svg|24px]] comando '''Borrador ArregloPolar''' crea un arreglo a partir de un objeto seleccionado colocando copias a lo largo de una circunferencia. El comando puede crear opcionalmente un arreglo [[App_Link/es|Enlace]], que es más eficiente que un arreglo normal.
+El comando [[Image:Draft_PolarArray.svg|24px]] '''Borrador Matriz Polar''' crea una matriz a partir de un objeto seleccionado colocando copias a lo largo de un círculo. Opcionalmente, el comando puede crear una matriz [[App_Link|enlace]], que es más eficiente que una matriz normal.
 
 <div class="mw-translate-fuzzy">
 El comando puede usarse en objetos 2D creados con el [[Draft_Workbench/es|Ambiente de Trabajo Borrador]] o [[Sketcher_Workbench/es|Ambiente de Trabajo Dibujo]], pero también en muchos objetos 3D como los creados con el [[Part_Workbench/es|Ambiente de Trabajo Pieza]], [[PartDesign_Workbench/es|Ambiente de Trabajo DiseñoPieza]] o [[Arch_Workbench/es|Ambiente de Trabajo Arquitectura]].
