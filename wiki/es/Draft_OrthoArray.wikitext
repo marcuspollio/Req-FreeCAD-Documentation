@@ -246,7 +246,7 @@ array = make_rect_array2d(base_object,
 * Si {{incode|use_link}} es {{incode|True}}, los elementos creados son [[App_Link|App Links]] en lugar de copias normales.
 * {{incode|array}} se devuelve con el objeto array creado.
 
-Example:
+Ejemplo:
 
 {{Code|code=
 import FreeCAD as App
