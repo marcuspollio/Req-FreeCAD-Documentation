@@ -250,9 +250,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[Archivo:Sketcher_ConstrainSymmetric.svg|32px]] [[Sketcher_ConstrainSymmetric|Restricción Simétrica]]: Restringe dos puntos para que sean simétricos alrededor de una línea o eje, o alrededor de un tercer punto.
 
-<div class="mw-translate-fuzzy">
-* [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock/es|Bloqueo]]: bloquea el movimiento de un borde, es decir, impide que sus vértices cambien su posición actual. Debería ser particularmente útil para fijar la posición de las Líneas B. Ver el [https://forum.freecadweb.org/viewtopic.php?f=9&t=26572 Tema de foro Bloqueo de restricción].
-</div>
+* [[Image:Sketcher_ConstrainBlock.svg|32px]] [[Sketcher_ConstrainBlock|Restricción de Bloque]]: Bloquea los bordes en su lugar con una sola restricción. Está principalmente destinado a B-splines.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Group Constraint]]: Groups selected geometry. {{Version|1.2}}
