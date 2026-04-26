@@ -61,7 +61,7 @@ Ver también: [[Draft_Snap/es|Borrador Atrapar]]
 
 See [[Draft_OrthoArray#Notes|Borrador Matriz Ortogonal]].
 
-* {{Version|1.2}}: The array uses the Z-axis of the current [[Draft_SelectPlane|working plane]] for the rotation axis. This can be changed by editing the {{PropertyData|Axis}} property.
+* {{Version|1.2}}: La matriz utiliza el eje Z del [[Draft_SelectPlane|plano de trabajo]] actual para el eje de rotación. Esto se puede cambiar editando la propiedad {{PropertyData|Eje}}.
 
 <span id="Properties"></span>
 == Propiedades ==
