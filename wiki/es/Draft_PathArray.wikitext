@@ -199,9 +199,15 @@ path_array = make_path_array(base_object, path_object,
                              use_link=True)
 }}
 
-<div class="mw-translate-fuzzy">
-* Distribuir recuento de copias de un objeto de forma de documento a lo largo de un objeto de ruta o subobjetos de un objeto de ruta. Opcionalmente, traduce cada copia por FreeCAD.Vector xlate la dirección y la distancia para ajustar la diferencia entre el centro de la forma y el punto de referencia de la forma. Opcionalmente alinea el objeto base con la tangente / normal / binormal de la ruta.
-</div>
+* {{incode|base_object}} es el objeto que se va a incluir en el array. También puede ser la {{incode|Label}} (cadena de texto) de un objeto del documento actual.
+* {{incode|path_object}} es el objeto de ruta. También puede ser la {{incode|Label}} (cadena de texto) de un objeto del documento actual.
+* {{incode|count}} es el número de elementos de la matriz.
+* {{incode|extra}} es un vector que desplaza cada elemento.
+* {{incode|subelements}} es una lista de aristas de {{incode|path_object}}, por ejemplo {{incode|["Edge1", "Edge2"]}}. Si se proporciona, solo se usarán estas aristas para la ruta.
+* Si {{incode|align}} es {{incode|True}}, los elementos se alinean a lo largo de la ruta según el valor de {{incode|align_mode}}, que puede ser {{incode|"Original"}}, {{incode|"Frenet"}} o {{incode|"Tangent"}}.
+* {{incode|tan_vector}} es un vector unitario que define la dirección tangente local de los elementos a lo largo de la ruta. Se utiliza cuando {{incode|align_mode}} es {{incode|"Tangent"}}.
+Si {{incode|force_vertical}} es {{incode|True}}, {{incode|vertical_vector}} se utiliza para la dirección Z local de los elementos a lo largo de la ruta. Se utiliza cuando {{incode|align_mode}} es {{incode|"Original"}} o {{incode|"Tangent"}}. * Si {{incode|use_link}} es {{incode|True}}, los elementos creados son [[App_Link|App Links]] en lugar de copias normales.
+* {{incode|path_array}} se devuelve con el objeto array creado.
 
 Ejemplo:
 
