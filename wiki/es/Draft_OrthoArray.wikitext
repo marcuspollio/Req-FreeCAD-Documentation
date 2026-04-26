@@ -33,7 +33,7 @@ El comando se puede utilizar en objetos 2D creados con el [[Draft_Workbench|Ambi
 # Opcionalmente, seleccione un objeto.
 # Existen varias maneras de ejecutar el comando:
 #* Pulse el botón {{Button|[[Image:Draft_OrthoArray.svg|16px]] [[Draft_OrthoArray|Array]]}}.
-#* [[Draft_Workbench|Draft]]: Seleccione la opción {{MenuCommand|'''Modificación → Herramienta matriz''' → [[Image:Draft_OrthoArray.svg|16px]] Array}} del menú.
+#* [[Draft_Workbench|Borrador]]: Seleccione la opción {{MenuCommand|'''Modificación → Herramienta matriz''' → [[Image:Draft_OrthoArray.svg|16px]] Array}} del menú.
 #* [[BIM_Workbench|BIM]]: Seleccione la opción {{MenuCommand|'''Modicar →''' [[Image:Draft_OrthoArray.svg|16px]] Array}} del menú.
 # Se abre el panel de tareas {{MenuCommand|Matriz ortogonal}}. Consulte [[#Opciones|Opciones]] para obtener más información.
 # Si aún no ha seleccionado ningún objeto: seleccione uno.
