@@ -224,9 +224,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 :* [[Archivo:Sketcher_ConstrainAngle.svg|32px]] [[Sketcher_ConstrainAngle|Dimensión del Ángulo]]: Fija el ángulo entre dos bordes, el ángulo de una línea con el eje horizontal del boceto o el ángulo de apertura de un arco circular.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_ConstrainLock.svg|32px]] [[Sketcher_ConstrainLock/es|Bloquear]]: Restringe el artículo seleccionado estableciendo distancias verticales y horizontales relativas al origen, bloqueando así la ubicación de ese artículo. Estas distancias de restricción pueden ser editadas más tarde.
-</div>
+:* [[Archivo:Sketcher_ConstrainLock.svg|32px]] [[Sketcher_ConstrainLock|Bloquear posición]]: Aplica restricciones de [[Sketcher_ConstrainDistanceX|Dimensión Horizontal]] y [[Sketcher_ConstrainDistanceY|Dimensión Vertical]] a los puntos. Si se selecciona un solo punto, las restricciones hacen referencia al origen del boceto. Si se seleccionan dos o más puntos, las restricciones hacen referencia al último punto seleccionado.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[File:Sketcher_ConstrainCoincidentUnified.svg|32px]] [[Sketcher_ConstrainCoincidentUnified|Coincident Constraint (Unified)]]: Creates a coincident constraint between points, fixes points on edges or axes, or creates a concentric constraint. It combines the [[Sketcher_ConstrainCoincident|Coincident Constraint]] and [[Sketcher_ConstrainPointOnObject|Point-On-Object Constraint]] tools. {{Version|1.0}}
