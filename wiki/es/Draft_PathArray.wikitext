@@ -86,7 +86,8 @@ Véase también:[[property_View|Vista de propiedad]].
 
 Un objeto Boceto Matriz de Ruta se deriva de un objeto [[Part_Feature|Característica de la pieza]] y hereda todas sus propiedades (con la excepción de algunas propiedades de ''Vista'' que no son heredadas por los arreglos ''Enlace''). Las siguientes propiedades son adicionales a menos que se indique lo contrario:
 
-===Data===
+<span id="Data"></span>
+=== Datos ===
 
 {{Properties_Title|Link}}
 
