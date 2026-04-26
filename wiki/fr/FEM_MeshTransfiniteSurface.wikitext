@@ -37,7 +37,7 @@ La commande '''FEM Surface structurée transfinie''' crée un maillage structur�
 # Sélectionnez l'objet Mesh dans l'[[Tree_View/fr|arborescence]].
 # Il existe plusieurs façons de lancer la commande :
 #* Appuyez sur le bouton {{Button|[[Image:FEM_MeshTransfiniteSurface.svg|16px]] [[FEM_MeshTransfiniteSurface/fr|Surface structurée transfinie]]}}.
-#* Sélectionnez l'option {{MenuCommand|Maillage → Affinements Gmsh → [[Image:FEM_MeshTransfiniteSurface.svg|16px]] Surface structurée transfinie}} du menu.
+#* Sélectionnez l'option {{MenuCommand|Maillage → Densifications sous Gmsh → [[Image:FEM_MeshTransfiniteSurface.svg|16px]] Surface structurée transfinie}} du menu.
 # Vous pouvez cocher la case ''Recombiner'' pour activer la recombinaison des éléments triangulaires en éléments quadrilatéraux.
 # Si la recombinaison n'est pas activée, sélectionnez l'orientation des triangles : Gauche, Droite, Droite alternée ou Gauche alternée
 # Vous pouvez cocher la case ''Appliquer automatiquement les courbes transfinies'' et spécifier le nombre de nœuds, la distribution (Constante, Densification bilatérale, Densification bilatérale inversée, Progression ou Progression inversée) et le coefficient correspondant.
