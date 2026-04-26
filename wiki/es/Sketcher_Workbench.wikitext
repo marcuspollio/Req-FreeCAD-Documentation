@@ -440,9 +440,8 @@ Si se introducen valores y se confirman pulsando {{KEY|Enter}} o {{KEY|Tab}}, se
 
 Si la opción '''Mostrar coordenadas junto al cursor durante la edición''' [[Sketcher_Preferences#Display|preferencia]] está marcada (opción predeterminada), los parámetros de la herramienta geométrica actual (coordenadas, radio o longitud y ángulo) se muestran junto al cursor. Esta opción se desactiva cuando se muestran los parámetros en vista.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Selection methods ==
-</div>
+<span id="Selection_methods"></span>
+== Métodos de selección ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 While a sketch is in edit mode the following selection methods can be used:
