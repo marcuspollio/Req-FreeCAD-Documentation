@@ -368,9 +368,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[File:Sketcher_Clone.svg|32px]] [[Sketcher_Clone|Clonar]]: Clona un elemento del croquis. No disponible en {{VersionPlus|1.0}}.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_CloseShape.svg|32px]] [[Sketcher_CloseShape/es|Forma cercana]]: Crea una forma cerrada aplicando restricciones coincidentes a los puntos finales
-</div>
+* [[File:Sketcher_CloseShape.svg|32px]] [[Sketcher_CloseShape|Forma Cerrada]]: Crea una forma cerrada aplicando restricciones coincidentes a los puntos finales. No disponible en {{VersionPlus|0.21}}.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[File:Sketcher_CreatePointFillet.svg|32px]] [[Sketcher_CreatePointFillet|Corner-preserving fillet]]: Creates a fillet between two non-parallel lines while preserving their corner point. Not available in {{VersionPlus|1.0}}.
