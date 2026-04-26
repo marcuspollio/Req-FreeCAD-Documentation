@@ -378,9 +378,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[File:Sketcher_External.svg|32px]] [[Sketcher_External|Geometría Externa]]: Proyecta aristas y/o vértices pertenecientes a objetos fuera del boceto sobre el plano del boceto. No disponible en {{VersionPlus|1.1}}.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_Move.svg|32px]] [[Sketcher_Move/es|Muévete]]: Mueve la geometría seleccionada tomando como referencia el último punto seleccionado.
-</div>
+* [[File:Sketcher_Move.svg|32px]] [[Sketcher_Move|Mover]]: Mueve la geometría seleccionada tomando como referencia el último punto seleccionado. No disponible en {{VersionPlus|1.0}}.
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_RectangularArray.svg|32px]] [[Sketcher_RectangularArray/es|ordenación rectangular]]: Crea un conjunto de elementos seleccionados de croquis
