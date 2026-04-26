@@ -67,7 +67,8 @@ Este modo utiliza el vector normal local derivado de la trayectoria en cada ubic
 
 Este modo es similar al {{PropertyData|Modo de Alineación}} {{Value|Original}} pero incluye la posibilidad de pre-rotar el objeto de origen especificando un {{PropertyData|Vector tangente}}.
 
-===Force Vertical and Vertical Vector===
+<span id="Force_Vertical_and_Vertical_Vector"></span>
+=== Fuerza vertical y vector vertical ===
 
 These properties are only available if {{PropertyData|Align Mode}} is {{Value|Original}} or {{Value|Tangent}}. If {{PropertyData|Force Vertical}} is set to {{TRUE}} the local coordinate system is calculated in a different manner. The {{PropertyData|Vertical Vector}} is used as a fixed normal vector. From this normal vector and the local tangent vector (the local X axis) again a cross product is calculated. But now this vector is used as the local Y axis. The orientation of the local Z axis is determined from the local X and Y axes.
 
