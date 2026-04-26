@@ -63,7 +63,7 @@ La commande '''FEM Densification avancée''' permet de définir la taille des é
 
 Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l'aide de l'[[Property_View/fr|éditeur de propriétés]]. Après avoir modifié une propriété, vous devez rouvrir la fenêtre de dialogue Gmsh et cliquer sur le bouton {{Button|Appliquer}}. (Vous pouvez laisser la fenêtre de dialogue ouverte pendant la modification des propriétés).
 
-Vous pouvez créer autant d'affinages avancés différents que nécessaire.
+Vous pouvez créer autant de densifications différentes avancées que nécessaire.
 
 [[File:FEM_advanced_refinement.PNG|400px]]
 {{Caption|Exemple d'affinage avancé Évaluation mathématique avec la fonction suivante :<br/>
