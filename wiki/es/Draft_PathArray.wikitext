@@ -20,9 +20,7 @@
 <span id="Description"></span>
 ==Descripción==
 
-<div class="mw-translate-fuzzy">
-La herramienta PathArray coloca copias de una forma seleccionada a lo largo de una ruta seleccionada. La ruta puede ser un alambre o uno o más bordes. Las formas pueden alinearse opcionalmente con la tangente del camino. Si es necesario, se puede especificar un vector de translación para cambiar las formas de modo que el centroide esté en la ruta. Si no se seleccionan objetos, se le invitará a seleccionarlos.
-</div>
+El comando [[Image:Draft_PathArray.svg|24px]] '''Borrador Matriz de Ruta''' crea una matriz regular a partir de un objeto seleccionado colocando copias a lo largo de una ruta. Utilice el comando [[Draft_PathLinkArray|Borrador Matriz de Enlace de Ruta]] para crear una Matriz de [[App_Link|Enlace]] más eficiente. Excepto por el tipo de matriz que se crea, matriz Link o matriz regular, el comando [[Draft_PathLinkArray|Borrador Matriz de Enlace de Ruta]] es idéntico a este comando.
 
 Both commands can be used on 2D objects created with the [[Draft_Workbench|Draft Workbench]] or [[Sketcher_Workbench|Sketcher Workbench]], but also on many 3D objects such as those created with the [[Part_Workbench|Part Workbench]], [[PartDesign_Workbench|PartDesign Workbench]] or [[BIM_Workbench|BIM Workbench]].
 
