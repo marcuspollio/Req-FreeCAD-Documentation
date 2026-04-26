@@ -376,9 +376,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[File:Sketcher_Copy.svg|32px]] [[Sketcher_Copy|Copia]]: Copia un elemento de Sketcher. No disponible en {{VersionPlus|1.0}}.
 
-<div class="mw-translate-fuzzy">
-* [[Image:Sketcher_External.svg|32px]] [[Sketcher_External/es|Geometría externa]]: Crea una arista enlazada a geometría externa.
-</div>
+* [[File:Sketcher_External.svg|32px]] [[Sketcher_External|Geometría Externa]]: Proyecta aristas y/o vértices pertenecientes a objetos fuera del boceto sobre el plano del boceto. No disponible en {{VersionPlus|1.1}}.
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_Move.svg|32px]] [[Sketcher_Move/es|Muévete]]: Mueve la geometría seleccionada tomando como referencia el último punto seleccionado.
