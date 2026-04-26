@@ -65,7 +65,7 @@ El comando se puede utilizar en objetos 2D creados con el [[Draft_Workbench|Ambi
 * Pulse {{KEY|Esc}} o el botón {{Button|Cancel}} para cancelar el comando.
 
 <span id="Notes"></span>
-==Notas==
+== Notas ==
 
 * A Draft OrthoArray can be turned into a [[Draft_PolarArray|Draft PolarArray]] or a [[Draft_CircularArray|Draft CircularArray]] by changing its {{PropertyData|Array Type}} property.
 * A Link array cannot be turned into a regular array or vice versa. The type of array must be decided at creation time.
