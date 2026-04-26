@@ -199,7 +199,7 @@ Véase también: [https://freecad.github.io/SourceDoc/ Documentación de la API 
 <span id="Parametric_array"></span>
 === Matriz paramétrica ===
 
-To create a parametric orthogonal array use the {{incode|make_array}} method ({{Version|0.19}}) of the Draft module. This method replaces the deprecated {{incode|makeArray}} method. The {{incode|make_array}} method can create Draft OrthoArrays, [[Draft_PolarArray|Draft PolarArrays]] and [[Draft_CircularArray|Draft CircularArrays]]. For each array type one or more wrappers are available.
+Para crear una matriz ortogonal paramétrica, utilice el método {{incode|make_array}} ({{Version|0.19}}) del módulo de Borrador. Este método reemplaza al método obsoleto {{incode|makeArray}}. El método {{incode|make_array}} puede crear matrices ortogonales, matrices polares y matrices circulares en Borrador (Draft). Para cada tipo de matriz, hay uno o más envoltorios disponibles.
 
 The main method:
 
