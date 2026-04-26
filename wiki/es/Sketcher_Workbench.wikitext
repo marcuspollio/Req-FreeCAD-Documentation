@@ -45,12 +45,10 @@ Cuando se crea una [[Sketcher_ToggleDrivingConstraint|restricción dimensional i
 
 Puede introducir un valor numérico o una [[Expressions|expresión]], y es posible nombrar la restricción para facilitar su uso en otras expresiones. También puede marcar la casilla {{MenuCommand|Reference}} para cambiar la restricción al modo [[Sketcher_ToggleDrivingConstraint|referencia]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To edit the value of an existing dimensional constraint do one of the following:
-* Double-click the constraint value in the [[3D_View|3D View]].
-* Double-click the constraint in the [[Sketcher_Dialog|Sketcher Dialog]].
-* Right-click the constraint in the Sketcher Dialog and select the {{MenuCommand|Change value}} option from the context menu.
-</div>
+Para editar el valor de una restricción dimensional existente, realice una de las siguientes acciones:
+* Haga doble clic en el valor de la restricción en la [[3D_View|Vista 3D]].
+* Haga doble clic en la restricción sobre el [[Sketcher_Dialog|Diálogo de dibujo]].
+* Haga clic con el botón derecho en la restricción en el Diálogo de dibujo y seleccione la opción {{MenuCommand|Cambiar valor}} del menú contextual.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Reposition constraints ===
