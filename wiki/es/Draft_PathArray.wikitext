@@ -170,8 +170,8 @@ Las propiedades de este grupo, con la excepción de la propiedad heredada, solo 
 
 Las propiedades de este grupo son propiedades heredadas. Consulte [[Part_Feature#Properties|Características de Pieza]] para obtener más información.
 
-* {{PropertyView|Bounding Box|Bool}}: this property is not inherited by Link arrays.
-* {{PropertyView|Display Mode|Enumeration}}: for Link arrays it can be {{value|Link}} or {{value|ChildView}}. For other arrays it can be: {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} or {{value|Points}}.
+* {{PropertyView|Bounding Box|Bool}}: esta propiedad no se hereda en las Matrices de Enlace.
+* {{PropertyView|Display Mode|Enumeration}}: para las Matrices de Enlace, puede ser {{value|Link}} o {{value|ChildView}}. Para otras matrices, puede ser: {{value|Líneas planas}}, {{value|Sombreado}}, {{value|Estructura alámbrica}} o {{value|Puntos}}.
 * {{PropertyView|Show In Tree|Bool}}
 * {{PropertyView|Visibility|Bool}}
 
