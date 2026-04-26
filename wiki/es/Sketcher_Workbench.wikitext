@@ -374,9 +374,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[Archivo:Sketcher_ConnectLines.svg|32px]] [[Sketcher_ConnectLines|Conectar Bordes]]: Conecta elementos de Sketcher aplicando restricciones coincidentes a los puntos finales. No disponible en {{VersionPlus|0.21}}.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_Copy.svg|32px]] [[Sketcher_Copy/es|Copiar]]: Copia un elemento del croquis
-</div>
+* [[File:Sketcher_Copy.svg|32px]] [[Sketcher_Copy|Copia]]: Copia un elemento de Sketcher. No disponible en {{VersionPlus|1.0}}.
 
 <div class="mw-translate-fuzzy">
 * [[Image:Sketcher_External.svg|32px]] [[Sketcher_External/es|Geometría externa]]: Crea una arista enlazada a geometría externa.
