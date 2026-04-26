@@ -250,22 +250,23 @@ Opciones disponibles:
 Hacer clic en el texto tiene el mismo efecto que hacer clic en el primer botón disponible del elemento.
 
 [[Image:Sketcher_Dialog_Elements.png]]<br>
-''In the image the edge of a line and the center of an arc have been selected.''<br>
-''The line does not have a button in column 4 as it does not have a center.''
+''En la imagen se han seleccionado el borde de una línea y el centro de un arco.''<br>
+''La línea no tiene un botón en la columna 4 porque no tiene centro.''
 |-
-| {{MenuCommand|Context menu}}
-| Right-clicking the background of the list, or right-clicking elements selected in the list opens a context menu. The menu contains the Geometric [[Sketcher_Workbench#Constraints|constraint tools]], the Dimensional constraint tools and the following additional options:
-* {{MenuCommand|Toggle Construction Geometry}}: See [[Sketcher_ToggleConstruction|Sketcher ToggleConstruction]].
-* {{MenuCommand|Select Constraints}}: See [[Sketcher_SelectConstraints|Sketcher SelectConstraints]].
-* {{MenuCommand|Select Origin}}: See [[Sketcher_SelectOrigin|Sketcher SelectOrigin]].
-* {{MenuCommand|Select Horizontal Axis}}: See [[Sketcher_SelectHorizontalAxis|Sketcher SelectHorizontalAxis]].
-* {{MenuCommand|Select Vertical Axis}}: See [[Sketcher_SelectVerticalAxis|Sketcher SelectVerticalAxis]].
-* {{MenuCommand|Layer}}: 3 layers are available:
-** {{MenuCommand|Layer 0}}: Indicated as {{Incode|VL0}} in extended information. This is the default layer. Elements on this layer are displayed with a solid line type.
-** {{MenuCommand|Layer 1}}: Indicated as {{Incode|VL1}} in extended information. Elements on this layer are displayed with a dashed line type.
-** {{MenuCommand|Hidden}}: Indicated as {{Incode|VL2}} in extended information. Elements on this layer are hidden in the sketch.
-: The rendering order of layers 0 and 1 is such that when picking coincident points in the [[3D_View|3D View]] elements on layer 0 are selected in favor of those on layer 1.
-* {{MenuCommand|Delete}}: Deletes the selected elements. The {{KEY|Del}} key can also be used.
+| {{MenuCommand|Menú contextual}}
+| Al hacer clic con el botón derecho en el fondo de la lista o en los elementos seleccionados, se abre un menú contextual. Este menú contiene las herramientas de restricción geométrica [[Sketcher_Workbench#Constraints|Herramientas de restricción]], las herramientas de restricción dimensional y las siguientes opciones adicionales:
+* {{MenuCommand|Alternar geometría de construcción}}: Consulte [[Sketcher_ToggleConstruction|Sketcher ToggleConstruction]].
+* {{MenuCommand|Seleccionar restricciones}}: Consulte [[Sketcher_SelectConstraints|Sketcher SelectConstraints]].
+* {{MenuCommand|Seleccionar origen}}: Ver [[Sketcher_SelectOrigin|Sketcher SelectOrigin]].
+* {{MenuCommand|Seleccionar eje horizontal}}: Ver [[Sketcher_SelectHorizontalAxis|Sketcher SelectHorizontalAxis]].
+* {{MenuCommand|Seleccionar eje vertical}}: Ver [[Sketcher_SelectVerticalAxis|Sketcher SelectVerticalAxis]].
+* {{MenuCommand|Capa}}: Hay 3 capas disponibles:
+** {{MenuCommand|Capa 0}}: Indicada como {{Incode|VL0}} en la información extendida. Esta es la capa predeterminada. Los elementos de esta capa se muestran con una línea continua.
+** {{MenuCommand|Capa 1}}: Indicada como {{Incode|VL1}} en la información extendida. Los elementos de esta capa se muestran con una línea discontinua.
+** {{MenuCommand|Hidden}}: Se indica como {{Incode|VL2}} en la información extendida. Los elementos de esta capa están ocultos en el boceto.
+: El orden de renderizado de las capas 0 y 1 es tal que, al seleccionar puntos coincidentes en la [[3D_View|3D View]], se seleccionan los elementos de la capa 0 en lugar de los de la capa 1.
+* {{MenuCommand|Delete}}: Elimina los elementos seleccionados. También se puede usar la tecla {{KEY|Del}}.
+
 |}
 
 
