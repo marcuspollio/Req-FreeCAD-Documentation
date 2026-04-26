@@ -36,7 +36,7 @@ Crée un élément FEM de section fluide pour les réseaux pneumatiques et hydra
 # Sélectionnez le type de fluide : Liquide, Gaz ou Canal ouvert
 # Sélectionnez le type de section : Pipe Manning, Pipe Inlet etc.
 # Entrez les paramètres du type de section.
-# Appuyez sur le bouton {{Button|Ajouter}}. Sélectionnez les bords. Cliquez sur le bouton {{Version/fr|1.1}} : pour supprimer les bords de la sélection, appuyez sur le bouton {{Button|Supprimer}}.
+# Appuyez sur le bouton {{Button|Ajouter}}. Sélectionnez les arêtes. Cliquez sur le bouton {{Version/fr|1.1}} : pour supprimer les arêtes de la sélection, appuyez sur le bouton {{Button|Supprimer}}.
 
 ==Limitations==
 
