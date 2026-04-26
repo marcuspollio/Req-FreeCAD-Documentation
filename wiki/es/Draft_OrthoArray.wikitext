@@ -23,7 +23,7 @@
 <span id="Description"></span>
 == Descripción ==
 
-El [[Image:Draft_OrthoArray.svg|24px]] '''Borrador ArregloOrtogonal''' crea un arreglo ortogonal (3 ejes) a partir de un objeto seleccionado. El comando puede crear opcionalmente un arreglo [[App_Link/es|Enlace]], que es más eficiente que un arreglo normal.
+El comando [[Image:Draft_OrthoArray.svg|24px]] '''Draft OrthoArray''' crea una matriz ortogonal (de 3 ejes) a partir de un objeto seleccionado. Opcionalmente, el comando puede crear una matriz [[App_Link|enlace]], que es más eficiente que una matriz normal.
 
 <div class="mw-translate-fuzzy">
 El comando puede usarse en objetos 2D creados con el [[Draft_Workbench/es|Ambiente de Trabajo Borrador]] o [[Sketcher_Workbench/es|Ambiente de Trabajo Dibujo]], pero también en muchos objetos 3D como los creados con el [[Part_Workbench/es|Ambiente de Trabajo Pieza]], [[PartDesign_Workbench/es|Ambiente de Trabajo DiseñoPieza]] o [[Arch_Workbench/es|Ambiente de Trabajo Arquitectura]].
