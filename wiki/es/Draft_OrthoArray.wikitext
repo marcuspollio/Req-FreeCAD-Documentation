@@ -223,7 +223,7 @@ array = make_ortho_array2d(base_object,
                            use_link=True)
 }}
 
-The wrappers for rectangular arrays are:
+Los contenedores para matrices rectangulares son:
 
 {{Code|code=
 array = make_rect_array(base_object,
