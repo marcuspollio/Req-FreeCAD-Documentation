@@ -13,7 +13,8 @@
 {{GuiCommand/es|Name=Sketcher MapSketch|Name/es=Sketcher MapSketch|Create a sketch on a face|Workbenches=[[Sketcher Workbench/es|Sketcher]], [[PartDesign Workbench/es|PartDesign]]|MenuLocation=Part Design/Sketch → Map sketch to face...|SeeAlso=[[Sketcher NewSketch/es|Create a new sketch]]}}
 </div>
 
-==Description==
+<span id="Description"></span>
+== Descripción ==
 
 The [[Image:Sketcher_MapSketch.svg|24px]] [[Sketcher_MapSketch|Sketcher MapSketch]] tool attaches a sketch to selected geometry.
 
