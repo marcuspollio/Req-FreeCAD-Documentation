@@ -33,20 +33,18 @@ El comando se puede utilizar en objetos 2D creados con el [[Draft_Workbench|Ambi
 <span id="Usage"></span>
 ==Utilización==
 
-<div class="mw-translate-fuzzy">
-# Opcionalmente selecciona un objeto.
-# Hay varias formas de invocar el comando:
-#* Pulsar el {{Button|[[Image:Draft_OrthoArray.svg|16px]] [[Draft_OrthoArray/es|Borrador ArregloOrtogonal]]}}.
-#* Seleccione la opción {{MenuCommand|Modificación → Herramientas de arreglo →
-[[Image:Draft_OrthoArray.svg|16px]] Array}} en el menú.
-# Se abre el panel de tareas {{MenuCommand|Arreglo Ortogonal}}. Ver [[#Opciones|Opciones]] para más información.
-# Si aún no ha seleccionado ningún objeto: seleccione un objeto.
+# Opcionalmente, seleccione un objeto.
+# Existen varias maneras de ejecutar el comando:
+#* Pulse el botón {{Button|[[Image:Draft_OrthoArray.svg|16px]] [[Draft_OrthoArray|Array]]}}.
+#* [[Draft_Workbench|Draft]]: Seleccione la opción {{MenuCommand|'''Modificación → Herramienta matriz''' → [[Image:Draft_OrthoArray.svg|16px]] Array}} del menú.
+#* [[BIM_Workbench|BIM]]: Seleccione la opción {{MenuCommand|'''Modicar →''' [[Image:Draft_OrthoArray.svg|16px]] Array}} del menú.
+# Se abre el panel de tareas {{MenuCommand|Matriz ortogonal}}. Consulte [[#Opciones|Opciones]] para obtener más información.
+# Si aún no ha seleccionado ningún objeto: seleccione uno.
 # Introduzca los parámetros necesarios en el panel de tareas.
-# Para terminar el comando haga una de las siguientes cosas:
-#* Haga clic en la [[3D_view/es|Vista 3D]].
+# Para finalizar el comando, realice una de las siguientes acciones:
+#* Haga clic en la [[3D_View|Vista 3D]].
 #* Pulse {{KEY|Enter}}.
 #* Pulse el botón {{Button|OK}}.
-</div>
 
 <span id="Options"></span>
 ==Opciones==
