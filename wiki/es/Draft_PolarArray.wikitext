@@ -33,19 +33,17 @@ El comando se puede utilizar en objetos 2D creados en el [[Draft_Workbench|Entor
 
 Ver también: [[Draft_Snap/es|Borrador Atrapar]]
 
-<div class="mw-translate-fuzzy">
 # Opcionalmente selecciona un objeto.
 # Hay varias formas de invocar el comando:
-#* Pulsar el {{Button|[[Image:Draft_PolarArray.svg|16px]] [[Draft_PolarArray/es|Borrador ArregloPolar]]}}.
-#* Seleccione la opción {{MenuCommand|Modificación → Herramientas de matriz → [[Image:Draft_PolarArray.svg|16px]] Arreglo polar}} en el menú.
-# Se abre el panel de tareas {{MenuCommand|Arreglo polar}}. Ver [[#Opciones|Opciones]] para más información.
+#* Pulsar el {{Button|[[Image:Draft_PolarArray.svg|16px]] [[Draft_PolarArray/es|Borrador MatrizPolar]]}}.
+#* Seleccione la opción {{MenuCommand|Modificación → Herramientas de matriz → [[Image:Draft_PolarArray.svg|16px]] Matriz polar}} en el menú.
+# Se abre el panel de tareas {{MenuCommand|Matriz polar}}. Ver [[#Opciones|Opciones]] para más información.
 # Si aún no ha seleccionado ningún objeto: seleccione un objeto.
 # Introduzca los parámetros necesarios en el panel de tareas.
-# Para terminar el comando haga una de las siguientes cosas:
+# Para terminar el comando ejecute la siguiente secuencia:
 #* Elija un punto en la [[3D_view/es|Vista 3D]] para el {{MenuCommand|Centro de rotación}}.
-#* Pulsa {{KEY|Entre}}.
-#* Pulsar el botón {{Button|Aceptar}}.
-</div>
+#* Pulse {{KEY|Entre}}.
+#* Pulse el botón {{Button|Aceptar}}.
 
 <span id="Options"></span>
 ==Opciones==
