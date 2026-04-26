@@ -18,7 +18,7 @@ Ce tutoriel a pour but de présenter au lecteur le flux de travail de base de l'
 == Conditions ==
 
 * FreeCAD version 0.17 ou supérieure.
-* [http://sourceforge.net/projects/netgen-mesher/ Netgen] et/ou [http://geuz.org/gmsh/ GMSH] sont installés sur le système (inclus dans l'installation de FreeCAD).
+* [http://sourceforge.net/projects/netgen-mesher/ Netgen] et/ou [http://geuz.org/gmsh/ Gmsh] sont installés sur le système (inclus dans l'installation de FreeCAD).
 * [http://www.calculix.de/ Calculix] est installé sur le système (inclus dans l'installation de FreeCAD).
 * Le lecteur possède les connaissances de base pour utiliser les ateliers [[Part_Workbench/fr|Part]] et [[PartDesign_Workbench/fr|PartDesign]].
 
