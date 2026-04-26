@@ -36,25 +36,25 @@ La commande '''FEM Densification avancée''' permet de définir la taille des é
 # Pour activer la commande, il faut d'abord fournir un [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/fr|maillage avec Gmsh]].
 # Sélectionnez l'objet Mesh dans l'[[Tree_View/fr|arborescence]].
 # Il existe plusieurs façons de lancer la commande :
-#* Appuyez sur le bouton {{Button|[[Image:FEM_MeshAdvanced.svg|16px]] [[FEM_MeshShape/fr|Types d'affinage avancé]]}}.
-#* Sélectionnez l'option {{MenuCommand|Mesh → GMSH Refinements → [[Image:FEM_MeshAdvanced.svg|16px]] Types d'affinage avancé}} du menu.
-# Sélectionnez le type d'affinage :
-#* ''Courbe anisotrope de l'attracteur'' : calcule la distance par rapport aux arêtes de référence sélectionnées et spécifie la taille du maillage indépendamment dans la direction normale et parallèle à la courbe la plus proche. Pour plus d'efficacité, chaque courbe est remplacée par un ensemble de points d'échantillonnage pour lesquels la distance est effectivement calculée. Les affinages de maillage anisotropes ne fonctionnent qu'avec les algorithmes BAMG (2D) et MMG3D (3D).
+#* Appuyez sur le bouton {{Button|[[Image:FEM_MeshAdvanced.svg|16px]] [[FEM_MeshShape/fr|Types de densification avancée]]}}.
+#* Sélectionnez l'option {{MenuCommand|Maillage → Densifications sous Gmsh → [[Image:FEM_MeshAdvanced.svg|16px]] Types de densification avancée}} du menu.
+# Sélectionnez le type de densification :
+#* ''Courbe anisotrope de l'attracteur'' : calcule la distance par rapport aux arêtes de référence sélectionnées et spécifie la taille du maillage indépendamment dans la direction normale et parallèle à la courbe la plus proche. Pour plus d'efficacité, chaque courbe est remplacée par un ensemble de points d'échantillonnage pour lesquels la distance est effectivement calculée. Les densifications de maillage anisotropes ne fonctionnent qu'avec les algorithmes BAMG (2D) et MMG3D (3D).
 #** Modifiez les six champs distance vs taille normale/tangente
 #** Vous pouvez modifier le paramètre ''Échantillonnage''.
-#* ''Évaluation mathématique'' : calcule la taille des maillages à partir d'une formule basée sur les coordonnées (x, y, z) et d'autres affinages (F1, F2, etc.). Faites glisser les affinages dans l'objet de maillage avancé de l'arborescence pour les rendre accessibles dans la formule.
-#** Saisissez l'équation de la taille du maillage. Les fonctions mathématiques habituelles telles que Sin et Log (en majuscules) ainsi que les opérateurs +, -, *, /, ^ sont disponibles.
-#* ''Évaluation mathématique anisotrope'' : calcule la taille des maillages anisotropes à partir de plusieurs formules basées sur les coordonnées (x, y, z) et d'autres affinages (F1, F2, etc.). Faites glisser les affinages dans l'objet de maillage avancé de l'arborescence pour les rendre accessibles dans la formule. Les affinages des maillages anisotropes ne fonctionnent qu'avec les algorithmes BAMG (2D) et MMG3D (3D).
+#* ''Évaluation mathématique'' : calcule la taille des maillages à partir d'une formule basée sur les coordonnées (x, y, z) et d'autres affinages (F1, F2, etc.). Faites glisser les densifications dans l'objet de maillage avancé de l'arborescence pour les rendre accessibles dans la formule.
+#** Saisissez l'équation de la taille du maillage. Les fonctions mathématiques courantes telles que Sin et Log (en majuscules) ainsi que les opérateurs +, -, *, /, ^ sont disponibles.
+#* ''Évaluation mathématique anisotrope'' : calcule la taille des maillages anisotropes à partir de plusieurs formules basées sur les coordonnées (x, y, z) et d'autres densifications (F1, F2, etc.). Faites glisser les densifications dans l'objet de maillage avancé de l'arborescence pour les rendre accessibles dans la formule. Les affinages des maillages anisotropes ne fonctionnent qu'avec les algorithmes BAMG (2D) et MMG3D (3D).
 #** Saisissez les équations de taille de maillage dans les champs correspondant aux éléments du tenseur métrique M11, M22, M12, M23, M13 et M33.
 #* ''Distance'' : calcule la distance par rapport à la géométrie de référence sélectionnée (sommets, arêtes et surfaces). Pour plus d'efficacité, les courbes et les surfaces sont remplacées par un ensemble de points.
-#** Vous pouvez éventuellement modifier l'''Échantillonnage''.
+#** Vous pouvez modifier l'''Échantillonnage''.
 #* ''Résultat'' : utilise un champ de données issu d'un pipeline de post-traitement FEM comme taille du maillage. Cela vous permet d'adapter le maillage en fonction du comportement physique du résultat.
 #** Sélectionnez le ''Résultat'' et le ''Champ''.
 # Vous pouvez cliquer sur le bouton {{Button|[[Image:Preferences-system.svg|x16px]]}} pour modifier les paramètres globaux d'aperçu de l'affinage :
-#* ''Activation automatique à l'ouverture'' : active automatiquement la visualisation de la taille du maillage de l'affinage à l'ouverture d'une boîte de dialogue de tâche de l'affinage.
+#* ''Activation automatique à l'ouverture'' : active automatiquement la visualisation de la taille du maillage de l'affinage à l'ouverture d'une boîte de dialogue de tâche de la densification.
 #* ''Finesse du maillage de l'aperçu'' : détermine la finesse du maillage de l'aperçu. Un nombre plus élevé signifie un maillage plus fin (éléments plus petits).
-# Vous pouvez cliquer sur le bouton {{Button|Visualiser}} pour visualiser le résultat de l'affinage de la taille du maillage. Les tailles de maillages obtenues par l'affinage sont représentées par des couleurs sur un maillage d'aperçu. Notez que l'aperçu évalue l'affinage sur un maillage grossier. Les détails plus petits que la taille de maillage peuvent donc ne pas être visibles.
-# Cliquez sur le bouton {{Button|Ajouter}}. Sélectionnez une face, une arête ou un sommet comme géométries de référence pour les affinages Courbe anisotrope et Distance. Pour supprimer des objets de la sélection, cliquez sur le bouton {{Button|Supprimer}}.
+# Vous pouvez cliquer sur le bouton {{Button|Visualiser}} pour visualiser le résultat de la densification de la taille du maillage. Les tailles de maillages obtenues par la densification sont représentées par des couleurs sur un maillage d'aperçu. Notez que l'aperçu évalue la densification sur un maillage grossier. Les détails plus petits que la taille de maillage peuvent donc ne pas être visibles.
+# Cliquez sur le bouton {{Button|Ajouter}}. Sélectionnez une face, une arête ou un sommet comme géométries de référence pour les densifications Courbe anisotrope et Distance. Pour supprimer des objets de la sélection, cliquez sur le bouton {{Button|Supprimer}}.
 # Cliquez sur le bouton {{Button|OK}}.
 # Fermez la tâche.
 #: Résultat : vous devriez maintenant voir un nouvel objet {{incode|Advanced}} sous l'objet {{incode|FEMMeshGmsh}} dans votre conteneur d'analyse actif.
