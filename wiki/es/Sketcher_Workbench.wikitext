@@ -77,10 +77,7 @@ Estas reglas no se aplican a la geometría de construcción (color azul por defe
 <span id="Tools"></span>
 == Herramientas ==
 
-<div class="mw-translate-fuzzy">
-== Las herramientas ==
-Todas las herramientas del Ambiente de Trabajo Croquiz se encuentran en el menú Boceto que aparece al cargar el Ambiente de Trabajo Croquiz.
-</div>
+Las herramientas del Entorno de Trabajo de Croquis se encuentran en el menú Croquis o en varias barras de herramientas. Casi todas las barras de herramientas del Croquizador solo se muestran cuando un boceto está en modo de edición. La única excepción es la barra de herramientas de Croquis, que solo se muestra si no hay ningún boceto en modo de edición.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Some tools are also available from the [[3D_View|3D View]] context menu while a sketch is in edit mode, or from the context menus of the [[Sketcher_Dialog|Sketcher Dialog]].
