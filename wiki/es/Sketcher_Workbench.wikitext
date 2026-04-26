@@ -226,9 +226,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 :* [[Archivo:Sketcher_ConstrainLock.svg|32px]] [[Sketcher_ConstrainLock|Bloquear posición]]: Aplica restricciones de [[Sketcher_ConstrainDistanceX|Dimensión Horizontal]] y [[Sketcher_ConstrainDistanceY|Dimensión Vertical]] a los puntos. Si se selecciona un solo punto, las restricciones hacen referencia al origen del boceto. Si se seleccionan dos o más puntos, las restricciones hacen referencia al último punto seleccionado.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[File:Sketcher_ConstrainCoincidentUnified.svg|32px]] [[Sketcher_ConstrainCoincidentUnified|Coincident Constraint (Unified)]]: Creates a coincident constraint between points, fixes points on edges or axes, or creates a concentric constraint. It combines the [[Sketcher_ConstrainCoincident|Coincident Constraint]] and [[Sketcher_ConstrainPointOnObject|Point-On-Object Constraint]] tools. {{Version|1.0}}
-</div>
+* [[Archivo:Sketcher_ConstrainCoincidentUnified.svg|32px]] [[Sketcher_ConstrainCoincidentUnified|Restricción de coincidencia (unificada)]]: Crea una restricción de coincidencia entre puntos, fija puntos en aristas o ejes, o crea una restricción concéntrica. Combina las herramientas [[Sketcher_ConstrainCoincident|Restricción de Coincidencia]] y [[Sketcher_ConstrainPointOnObject|Restricción de Punto en Objeto]]. {{Versión|1.0}}
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_ConstrainCoincident.svg|32px]] [[Sketcher_ConstrainCoincident/es|Coincidente]]: Pone un punto en (coincidente con) uno o más puntos.
