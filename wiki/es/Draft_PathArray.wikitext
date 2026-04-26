@@ -47,7 +47,8 @@ La alineación de los elementos en un Borrador Matriz de Ruta depende de las pro
 [[Image:Draft_PathArray_example2.png|600px]]
 {{Caption|3 matrices basadas en la misma ruta no planar. De izquierda a derecha: Alinear es falso, Alinear es verdadero con el modo de alineación original y Alinear es verdadero con el modo de alineación Frenet.}}
 
-===Align Mode===
+<span id="Align_Mode"></span>
+=== Modo de alineación ===
 
 Three modes are available:
 
