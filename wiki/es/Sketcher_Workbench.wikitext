@@ -433,9 +433,7 @@ Según la opción seleccionada en [[Sketcher_Preferences#General|Preferencias]],
 Si se introducen valores y se confirman pulsando {{KEY|Enter}} o {{KEY|Tab}}, se añaden automáticamente las restricciones correspondientes. Si se muestran dos parámetros simultáneamente, por ejemplo, las coordenadas X e Y de un punto, es posible introducir un valor y seleccionar un punto para definir el otro. Dependiendo del objeto, pueden ser necesarias restricciones adicionales para restringirlo completamente. Las restricciones derivadas de los parámetros en vista tienen prioridad sobre las que puedan derivarse de las restricciones automáticas del diálogo del dibujante.
 
 [[Image:Sketcher_ArcExample3.png|300px]]
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Arc created by entering all On-View-Parameters with resulting automatically created constraints}}
-</div>
+{{Caption|Arco creado al introducir todos los parámetros ''On-View'' con las restricciones generadas automáticamente}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Coordinate display ===
