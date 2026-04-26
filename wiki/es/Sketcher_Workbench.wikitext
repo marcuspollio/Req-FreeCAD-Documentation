@@ -275,9 +275,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 :* [[Image:Sketcher_Trimming.svg|32px]] [[Sketcher_Trimming|Recorte de Borde]]: Recorta un borde en las intersecciones más cercanas con otros bordes.
 
-<div class="mw-translate-fuzzy">
-* [[Image:Sketcher_Split.svg|32px]] [[Sketcher_Split/es|Dividir]]: Divide una línea o un arco en dos, convierte un círculo en un arco manteniendo la mayoría de las restricciones.  {{Version/es|0.20}}
-</div>
+:* [[Image:Sketcher_Split.svg|32px]] [[Sketcher_Split|Dividir Arista]]: Divide una arista mientras transfiere la mayoría de las restricciones.
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_Extend.svg|32px]] [[Sketcher_Extend/es|Extender]]: Extiende una línea o un arco a una línea límite, arco, elipse, arco de elipse o un punto en el espacio.
