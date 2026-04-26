@@ -193,9 +193,7 @@ Estas son herramientas para crear objetos.
 
 :* [[Archivo:Sketcher_CreateBSplineByInterpolation.svg|32px]] [[Sketcher_CreateBSplineByInterpolation|B-Spline a partir de nudos]]: Crea una curva B-spline a partir de puntos de nudo. Ídem.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[File:Sketcher_CreatePeriodicBSplineByInterpolation.svg|32px]] [[Sketcher_CreatePeriodicBSplineByInterpolation|Periodic B-Spline From Knots]]: Creates a periodic (closed) B-spline curve from knot points. Idem.
-</div>
+:* [[Archivo:Sketcher_CreatePeriodicBSplineByInterpolation.svg|32px]] [[Sketcher_CreatePeriodicBSplineByInterpolation|B-Spline periódica a partir de nodos]]: Crea una curva B-spline periódica (cerrada) a partir de puntos de nodos. Idem.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[File:Sketcher_CreateText.svg|32px]] [[Sketcher_CreateText|Text]]: Creates text geometry controlled by a text constraint {{Version|1.2}}.
