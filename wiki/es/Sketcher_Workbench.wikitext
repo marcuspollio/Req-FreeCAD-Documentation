@@ -254,9 +254,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[Image:Sketcher_ConstrainGroup.svg|32px]] [[Sketcher_ConstrainGroup|Restricción de grupo]]: Agrupa la geometría seleccionada. {{Version|1.2}}
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_ConstrainSnellsLaw.svg|32px]] [[Sketcher_ConstrainSnellsLaw/es|Ley de Snell]]: restringe dos líneas para obedecer una ley de refracción para simular la luz que pasa a través de una interfaz.
-</div>
+* [[Archivo:Sketcher_ConstrainSnellsLaw.svg|32px]] [[Sketcher_ConstrainSnellsLaw|Restricción de Refracción]]: Restringe dos líneas para que sigan la ley de refracción de la luz a medida que penetra a través de una interfaz.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * <span id="Sketcher_CompToggleConstraints">[[Image:Sketcher_ToggleDrivingConstraint.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] Toggle Constraints:</span><!--Do not edit span id: the Sketcher_CompToggleConstraints pages redirect here-->
