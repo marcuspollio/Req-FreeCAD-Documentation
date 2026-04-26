@@ -70,7 +70,7 @@ Este modo es similar al {{PropertyData|Modo de Alineación}} {{Value|Original}} 
 <span id="Force_Vertical_and_Vertical_Vector"></span>
 === Fuerza vertical y vector vertical ===
 
-These properties are only available if {{PropertyData|Align Mode}} is {{Value|Original}} or {{Value|Tangent}}. If {{PropertyData|Force Vertical}} is set to {{TRUE}} the local coordinate system is calculated in a different manner. The {{PropertyData|Vertical Vector}} is used as a fixed normal vector. From this normal vector and the local tangent vector (the local X axis) again a cross product is calculated. But now this vector is used as the local Y axis. The orientation of the local Z axis is determined from the local X and Y axes.
+Estas propiedades solo están disponibles si el {{PropertyData|Mode de Alineación}} es {{Value|Original}} o {{Value|Tangente}}. Si la {{PropertyData|Fuerza Vertical}} se establece en {{TRUE}}, el sistema de coordenadas local se calcula de manera diferente. El {{PropertyData|Vector Vertical}} se utiliza como un vector normal fijo. A partir de este vector normal y el vector tangente local (el eje X local), se calcula nuevamente un producto vectorial. Pero ahora este vector se utiliza como el eje Y local. La orientación del eje Z local se determina a partir de los ejes X e Y locales.
 
 Using these properties can be required if one of the edged of the path is (almost) parallel to the default normal of the path.
 
