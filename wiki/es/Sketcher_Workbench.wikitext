@@ -532,9 +532,7 @@ Esto no siempre es práctico, pero cambiar los valores de las dimensiones en inc
 <span id="Use_a_different_solver"></span>
 ==== Utilice un solucionador diferente ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The LevenbergMarquardt solver, which is not the default solver, is known to be less prone to flipping. See [[Sketcher_Dialog#Advanced_solver_control|Sketcher Dialog]] for more information.
-</div>
+Se sabe que el solucionador Levenberg-Marquardt, que no es el solucionador predeterminado, es menos propenso a invertir valores. Consulte [[Sketcher_Dialog#Advanced_solver_control|Diálogo del Croquizador]] para obtener más información.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Use horizontal and vertical dimensions ====
