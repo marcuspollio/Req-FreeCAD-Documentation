@@ -326,9 +326,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[Archivo:Sketcher_BSplineIncreaseKnotMultiplicity.svg|32px]] [[Sketcher_BSplineIncreaseKnotMultiplicity|Incrementar Multiplicidad de Nudos]]: Aumenta la multiplicidad de un nudo B-spline.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_BSplineDecreaseKnotMultiplicity.svg|32px]] [[Sketcher_BSplineDecreaseKnotMultiplicity/es|Disminuir la multiplicidad de nudos]]
-</div>
+* [[File:Sketcher_BSplineDecreaseKnotMultiplicity.svg|32px]] [[Sketcher_BSplineDecreaseKnotMultiplicity|Disminuir la multiplicidad del nudo]]: Disminuye la multiplicidad de un nudo B-spline.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[File:Sketcher_BSplineInsertKnot.svg|32px]] [[Sketcher_BSplineInsertKnot|Insert Knot]]: Inserts a knot into a B-spline or increases the multiplicity of an existing knot.
