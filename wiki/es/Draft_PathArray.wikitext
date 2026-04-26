@@ -60,7 +60,7 @@ Este modo es el más parecido al {{PropertyData|modo de alineación}} único dis
 <span id="Frenet"></span>
 ==== Frenet ====
 
-This mode uses the local normal vector derived from the path at each element placement. If this vector cannot be determined (for example in the case of a straight segment) a default vector, again the positive Z axis, is used instead. With this vector and the local tangent vector the local coordinate system is determined using the same procedure as in the previous paragraph.
+Este modo utiliza el vector normal local derivado de la trayectoria en cada ubicación de elemento. Si este vector no se puede determinar (por ejemplo, en el caso de un segmento recto), se utiliza un vector predeterminado, nuevamente el eje Z positivo. Con este vector y el vector tangente local, se determina el sistema de coordenadas local mediante el mismo procedimiento descrito en el párrafo anterior.
 
 ====Tangent====
 
