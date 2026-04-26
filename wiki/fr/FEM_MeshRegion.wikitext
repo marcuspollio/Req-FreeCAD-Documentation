@@ -25,7 +25,7 @@
 
 ==Description==
 
-Permet à l'utilisateur de définir un ensemble localisé de paramètres de maillage en sélectionnant un ensemble d'éléments (sommet, arête, face) et en lui appliquant les paramètres. Cette fonction est particulièrement utile pour mailler plus finement des maillages dans des zones d'intérêt ou dans des zones où le solveur génère un gradient plus fort d'une variable. Par exemple, il peut être utilisé pour affiner le maillage autour des points de contrainte (arêtes vives, trous, encoches, …) dans l'analyse mécanique, ou dans les zones de contraction dans un écoulement de fluide.
+Permet à l'utilisateur de définir un ensemble localisé de paramètres d'un maillage en sélectionnant un ensemble d'éléments (sommet, arête, face) et en lui appliquant les paramètres. Cette fonction est particulièrement utile pour mailler plus finement des maillages dans des zones d'intérêt ou dans des zones où le solveur génère un gradient plus fort d'une variable. Par exemple, il peut être utilisé pour densifier le maillage autour des points de contrainte (arêtes vives, trous, encoches, …) pour une analyse mécanique, ou dans des zones de contraction d'un écoulement de fluide.
 
 Mailler plus finement présente l'avantage de permettre une simulation précise là où c'est nécessaire, tout en autorisant un maillage plus grossier dans le domaine plus large, ce qui permet d'optimiser considérablement le temps de calcul tout en conservant des solutions significatives en sortie.
 
