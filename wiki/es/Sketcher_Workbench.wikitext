@@ -361,9 +361,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[File:Sketcher_RestoreInternalAlignmentGeometry.svg|32px]] [[Sketcher_RestoreInternalAlignmentGeometry|Alternar Geometría Interna]]: Elimina la geometría interna de los elementos o recrea la geometría interna faltante.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_SwitchVirtualSpace.svg|32px]] [[Sketcher_SwitchVirtualSpace/es|Cambiar el espacio virtual]]: Permite ocultar todas las restricciones de un boceto y hacerlas visibles de nuevo.
-</div>
+* [[File:Sketcher_SwitchVirtualSpace.svg|32px]] [[Sketcher_SwitchVirtualSpace|Cambiar Espacio Virtual]]: oculta (o muestra) restricciones o cambia el espacio virtual visible.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Obsolete tools===
