@@ -45,7 +45,7 @@ Ambos comandos se pueden usar en objetos 2D creados con el [[Draft_Workbench|Ent
 La alineación de los elementos en un Borrador Matriz de Ruta depende de las propiedades de la matriz y de la orientación del objeto de origen. La posición del objeto de origen se ignora: para la matriz, {{Value|x}}, {{Value|y}} y {{Value|z}} se establecen en {{Value|0}}. Si la propiedad {{PropertyData|Alinear}} de la matriz se establece en {{FALSE}}, la orientación de los elementos de la matriz es idéntica a la del objeto de origen. Si se establece en {{TRUE}}, el eje X del sistema de coordenadas local de la ubicación de cada elemento es tangente a la ruta. Los ejes Y y Z de los sistemas de coordenadas locales dependen de la propiedad {{PropertyData|Modo de Alinear}} de la matriz. Otras propiedades de la matriz que intervienen en la alineación incluyen {{PropertyData|Vector Tangente}}, {{PropertyData|Fuerza vertical}} y {{PropertyData|Vector Vertical}}.
 
 [[Image:Draft_PathArray_example2.png|600px]]
-{{Caption|3 arrays based on the same non-planar path. From left to right: Align is false, Align is true with Align Mode Original and Align is true with Align Mode Frenet.}}
+{{Caption|3 matrices basadas en la misma ruta no planar. De izquierda a derecha: Alinear es falso, Alinear es verdadero con el modo de alineación original y Alinear es verdadero con el modo de alineación Frenet.}}
 
 ===Align Mode===
 
