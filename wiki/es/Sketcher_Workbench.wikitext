@@ -425,9 +425,7 @@ Es posible [[Sketcher_Grid|ajustar a las líneas de la cuadrícula y a las inter
 Según la opción seleccionada en [[Sketcher_Preferences#General|Preferencias]], se pueden habilitar solo los parámetros dimensionales en vista o tanto los parámetros dimensionales como los posicionales. Los parámetros posicionales permiten introducir coordenadas exactas, por ejemplo, el centro de un círculo o el punto de inicio de una línea. Los parámetros dimensionales permiten introducir dimensiones exactas, por ejemplo, el radio de un círculo o la longitud y el ángulo de una línea. Los parámetros en vista no están disponibles para todas las herramientas.
 
 [[Image:Sketcher_On_view_parameters_positional.png]]
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Caption|Determining the center point of a circle with the positional parameters enabled}}
-</div>
+{{Caption|Determinación del punto central de un círculo con los parámetros de posición habilitados}}
 
 [[Image:Sketcher_On_view_parameters_dimensional.png]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
