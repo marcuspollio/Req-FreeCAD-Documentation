@@ -512,7 +512,7 @@ Cada usuario de CAD desarrolla su propia forma de trabajar con el tiempo, pero e
 * Si tiene dudas sobre la validez de un boceto una vez completado (las características se ponen verdes), cierre el cuadro de diálogo del Croquizador y utilice [[Archivo: Sketcher_ValidateSketch.svg|24px]] [[Sketcher_ValidateSketch|Validar Croquis]].
 
 <span id="Flipping"></span>
-== Volteo ==
+== Inversión o Volteo ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The phenomenon that a fully constrained sketch, usually after a major change to one of its dimensions, reaches an unintended new state is know as "flipping". In the example below, changing one dimension completely changes the shape of the sketch. Note that the sketch with the new shape is still fully constrained.
