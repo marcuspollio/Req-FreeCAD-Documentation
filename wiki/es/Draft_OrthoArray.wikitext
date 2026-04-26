@@ -177,8 +177,8 @@ Las propiedades de este grupo, con la excepción de la propiedad heredada, solo 
 
 Las propiedades de este grupo son propiedades heredadas. Consulte [[Part_Feature#Properties|Part Feature]] para obtener más información.
 
-* {{PropertyView|Bounding Box|Bool}}: this property is not inherited by Link arrays.
-* {{PropertyView|Display Mode|Enumeration}}: for Link arrays it can be {{value|Link}} or {{value|ChildView}}. For other arrays it can be: {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} or {{value|Points}}
+* {{PropertyView|Bounding Box|Bool}}: esta propiedad no se hereda en las matrices de enlaces.
+* {{PropertyView|Display Mode|Enumeration}}: para las matrices de enlaces, puede ser {{value|Link}} o {{value|ChildView}}. Para otros tipos, puede ser: {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} o {{value|Points}}.
 * {{PropertyView|Show In Tree|Bool}}
 * {{PropertyView|Visibility|Bool}}
 
