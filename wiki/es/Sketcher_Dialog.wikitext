@@ -61,10 +61,10 @@ Opciones disponibles:
 !style="width: 15%;"|Option
 !style="width: 85%;"|Description
 |-
-| {{Button|[[Imagen:View-refresh.svg|x16px]]}}
+| {{Button|[[Image:View-refresh.svg|x16px]]}}
 | Este botón recalcula el documento.
 |-
-| {{Button|[[Imagen:Sketcher_Settings.svg|x16px]] [[Imagen:Toolbar_flyout_arrow.svg|x16px]]}}
+| {{Button|[[Image:Sketcher_Settings.svg|x16px]] [[Image:Toolbar_flyout_arrow.svg|x16px]]}}
 | Este botón abre un menú:
 * {{MenuCommand|Actualización automática}}: Si está marcada, todo el documento se recalcula después de cada acción de dibujo. No se recomienda para documentos complejos.
 * {{MenuCommand|Mostrar cuadrícula}}: Activa o desactiva la visibilidad de la cuadrícula. {{Version|1.1}}
