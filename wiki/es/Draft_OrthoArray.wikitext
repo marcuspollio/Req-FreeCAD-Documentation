@@ -102,7 +102,7 @@ Las propiedades de este grupo solo están disponibles para matrices de enlace. C
 
 {{Properties_Title|Matriz circular}}
 
-The properties in this group are hidden for orthogonal arrays and polar arrays.
+Las propiedades de este grupo están ocultas para matrices ortogonales y matrices polares.
 
 * {{PropertyData|Number Circles|Integer}}: specifies the number of circular layers. Must be at least {{Value|2}}.
 * {{PropertyData|Radial Distance|Distance}}: specifies the distance between circular layers.
