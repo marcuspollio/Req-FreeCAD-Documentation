@@ -301,9 +301,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[Archivo: Sketcher_Offset.svg|32px]] [[Sketcher_Offset|Offset]]: Crea bordes equidistantes alrededor de los bordes seleccionados. {{Version|1.0}}
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_Symmetry.svg|32px]] [[Sketcher_Symmetry/es|Symmetría]]: Copia un elemento del croquis manteniéndolo simétrico a una línea seleccionada
-</div>
+* [[Archivo:Sketcher_Symmetry.svg|32px]] [[Sketcher_Symmetry|Espejo]]: Crea copias reflejadas de los elementos seleccionados.
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_RemoveAxesAlignment.svg|32px]] [[Sketcher_RemoveAxesAlignment/es|Eliminar la alineación de los ejes]]: Elimina la alineación de los ejes intentando conservar la relación de restricción de la selección {{Version/es|0.20}}
