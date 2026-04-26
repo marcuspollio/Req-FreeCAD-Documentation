@@ -147,9 +147,7 @@ Estas son herramientas para crear objetos.
 
 * <span id="Sketcher_CompCreateConic">[[Image:Sketcher_CreateCircle.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] Create Circle/Ellipse:</span><!--Do not edit span id: the Sketcher_CompCreateConic pages redirect here-->
 
-<div class="mw-translate-fuzzy">
-:* [[Image:Sketcher_Circle.svg|32px]] [[Sketcher_CreateCircle/es|Círculo]]: Dibuja un círculo desde el centro y el radio.
-</div>
+:* [[Image:Sketcher_CreateCircle.svg|32px]] [[Sketcher_CreateCircle|Círculo desde el centro]]: Crea un círculo desde su centro y un punto a lo largo del círculo. {{Version|1.0}}: O desde tres puntos a lo largo del círculo.
 
 <div class="mw-translate-fuzzy">
 :* [[Image:Sketcher_Create3PointCircle.svg|32px]] [[Sketcher_Create3PointCircle/es|Círculo de 3 puntos]]: Dibuja un círculo de tres puntos en la circunferencia.
