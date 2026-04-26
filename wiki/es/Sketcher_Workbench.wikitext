@@ -246,9 +246,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[Archivo:Sketcher_ConstrainTangent.svg|32px]] [[Sketcher_ConstrainTangent|Restricción Tangente/Colineal]]: Restringe dos aristas, o una arista y un eje, para que sean tangentes. La restricción también puede conectar dos aristas, forzándolas a ser tangentes en la unión. Si se seleccionan dos líneas, se convierten en colineales.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_ConstrainEqual.svg|32px]] [[Sketcher_ConstrainEqual/es|Iguales]]: Limita a dos entidades seleccionadas iguales entre sí.  Si se usan en círculos o arcos, sus radios serán iguales.
-</div>
+* [[Archivo:Sketcher_ConstrainEqual.svg|32px]] [[Sketcher_ConstrainEqual|Restricción de Igualdad]]: Restringe los bordes para que tengan la misma longitud (líneas) o curvatura (otros bordes excepto B-splines).
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_ConstrainSymmetric.svg|32px]] [[Sketcher_ConstrainSymmetric/es|Simétrico]]: Restringe dos puntos simétricamente sobre una línea, o restringe los dos primeros puntos seleccionados simétricamente sobre un tercer punto seleccionado.
