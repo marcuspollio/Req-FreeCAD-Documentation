@@ -332,9 +332,8 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves|Unir Curvas]]: Crea una B-spline uniendo dos B-splines existentes u otros bordes.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Visual Helpers===
-</div>
+<span id="Visual_Helpers"></span>
+=== Ayudantes visuales ===
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_SelectElementsWithDoFs.svg|32px]] [[Sketcher_SelectElementsWithDoFs/es|Selecciona los DOF del solucionador]]: Resalta en verde la geometría con grados de libertad (DOFs), es decir, no totalmente restringida.
