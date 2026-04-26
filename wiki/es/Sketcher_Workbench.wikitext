@@ -218,12 +218,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 :* <span id="Sketcher_CompConstrainRadDia">[[File:Sketcher_ConstrainRadiam.svg|32px]] [[Sketcher_ConstrainRadiam|Radius/Diameter Dimension]]: Fixes the radius of arcs and B-spline weight circles, and the diameter of circles.</span><!--Do not edit span id: the Sketcher_CompConstrainRadDia pages redirect here-->
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_ConstrainRadius.svg|32px]] [[Sketcher_ConstrainRadius/es|Radio]]: Define el radio de un arco o círculo seleccionado restringiendo el radio.
-* [[File:Sketcher_ConstrainDiameter.svg|32px]] [[Sketcher_ConstrainDiameter/es|Diámetro]]: Define el diámetro de un arco o círculo seleccionado restringiendo el diámetro.
-* [[File:Sketcher_ConstrainRadiam.svg|32px]] [[Sketcher_ConstrainRadiam/es|Radiam]]: Define automáticamente el radio/diámetro de un arco o círculo seleccionado (peso para un polo B-spline, diámetro para un círculo completo, radio para un arco) {{Version/es|0.20}}
-* [[File:Sketcher_ConstrainAngle.svg|32px]] [[Sketcher_ConstrainAngle/es|Ángulo]]: Define el ángulo interno entre dos líneas seleccionadas.
-</div>
+:* [[Archivo:Sketcher_ConstrainRadius.svg|32px]] [[Sketcher_ConstrainRadius|Dimensión del Radio]]: Corrige el radio de círculos, arcos y círculos de peso en B-spline.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[File:Sketcher_ConstrainDiameter.svg|32px]] [[Sketcher_ConstrainDiameter|Diameter Dimension]]: Fixes the diameter of circles and arcs.
