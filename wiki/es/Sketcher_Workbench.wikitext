@@ -495,23 +495,21 @@ Los atajos de teclado estándar, {{KEY|Ctrl}}+{{KEY|C}}, {{KEY|Ctrl}}+{{KEY|X}} 
 
 Cada usuario de CAD desarrolla su propia forma de trabajar con el tiempo, pero existen algunos principios generales útiles que se pueden seguir.
 
-<div class="mw-translate-fuzzy">
-* Una serie de croquis simples es más sencilla de manejar que un croquis complejo. Por ejemplo, un primer croquis se puede crear para la operación base 3D (ya sea un saliente o una revolución), mientras una segunda puede contener taladros o cajeras. Algunos detalles se pueden dejar fuera, para realizar luego como operaciones 3D. Puedes elegir evitar los redondeos en tu croquis si son muchos, y añadirlos como una operación 3D.
+* Una serie de bocetos sencillos es más fácil de gestionar que uno solo complejo. Por ejemplo, se puede crear un primer boceto para la operación 3D básica (una almohadilla o una revolución, por ejemplo), mientras que un segundo puede contener agujeros o recortes (cavidades). Algunos detalles se pueden omitir para implementarlos posteriormente como operaciones 3D. Si hay demasiados redondeos en el boceto, puede optar por no incluirlos y añadirlos como operaciones 3D.
 
-* Crea siempre un perfil cerrado, o tu croquis no producirá un sólido, sino un conjunto de caras abiertas. Si no quieres que alguno de los objetos sea incluido en la creación del sólido, cámbialos a elementos de construcción con la herramienta de Modo de Contrucción.
+* Cree siempre un perfil cerrado; de lo contrario, el boceto no generará un sólido, sino un conjunto de caras abiertas. Si no desea que algunos objetos se incluyan en la creación del sólido, conviértalos en elementos de construcción con la herramienta [[Sketcher_ToggleConstruction|Alternar geometría de construcción]].
 
-* Utiliza las restricciones automáticas para limitar el número de restricciones que tendrás que añadir manualmente.
+* Utilice la función de restricciones automáticas para limitar el número de restricciones que deberá añadir manualmente.
 
-* Como regla general, aplica las restricciones geométricas primero, luego las restricciones dimensionales, y bloquea tu croquis al final. Pero recuerda: Las reglas se hacen para romperlas. Si tienes problemas manipulando tu croquis, puede ser útil restringir algunos objetos antes de completar el perfil.
+* Como regla general, aplique primero las restricciones geométricas, luego las dimensionales y, por último, bloquee el boceto. Pero recuerde: las reglas están para romperse. Si tiene problemas para manipular su boceto, puede ser útil restringir algunos objetos antes de completar el perfil.
 
-* Si es posible, centra tu croquis en el origen (0,0) con la restricción de bloqueo. Si tu croquis no es simétrico, ubica uno de sus puntos en el origen, o selecciona un buen número para las distancias de bloqueo. En la v0.12, las restricciones externas (restringiendo el croquis con respecto a geometría 3D como aristas u otros croquis) no están  implementada. Esto significa q2ue para ubicar las siguientes geometrías de croquis a tu primer croquis, necesitaras definir distancias relativas a tu primer croquis manualmente. Una restricción de bloqueo de (25,75) desde el origen es más fácil de recordar que (23.47,73.02).
+* Si es posible, centre el boceto en el origen (0,0). Si el boceto no es simétrico, coloque uno de sus puntos en el origen.
 
-* Si tienes la posibilidad de seleccionar entre la Restricción Distancia y las restricciones de Distancia Vertical o Distancia Horizontal, es mejor que utilices las últimas pues se comportan mejor a nivel de consumo de memoria.
+* Si puede elegir entre la dimensión de distancia y las dimensiones horizontales o verticales, prefiera estas últimas. Las dimensiones horizontales y verticales son computacionalmente más económicas.
 
-* En general, las mejores restricciones a utilizar son: Restricciones horizontales/verticales; Restricciones de distancia horizontal o vertical y tangencia en puntos finales. De ser posible, conviene limitar el uso de: Restricciones de Distancia; tangencia entre aristas; Punto en Objeto y simetría.
+* En general, las mejores restricciones son: restricciones horizontales y verticales; dimensiones horizontales y verticales; restricciones de tangencia punto a punto. Si es posible, limite el uso de las siguientes: dimensión de distancia; restricción de tangencia de borde a borde; restricción de punto sobre objeto; restricción de simetría.
 
-* Si tiene dudas sobre la validez de un boceto una vez completado (las características se vuelven verdes), cierre el cuadro de diálogo Sketcher, cambie al [[Image:Workbench_Part.svg|24px]] [[Part_Workbench/es|Ambiente de trabajos piezas]] y ejecuta {{Button|[[File:Part_CheckGeometry.svg|16px]] [[Part_CheckGeometry/es|Comprobar geometría]]}}.
-</div>
+* Si tiene dudas sobre la validez de un boceto una vez completado (las características se ponen verdes), cierre el cuadro de diálogo del Croquizador y utilice [[Archivo: Sketcher_ValidateSketch.svg|24px]] [[Sketcher_ValidateSketch|Validar Croquis]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Flipping ==
