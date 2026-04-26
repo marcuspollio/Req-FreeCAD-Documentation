@@ -47,7 +47,7 @@ Los posibles mensajes son:
 
 Si un croquis tiene restricciones insuficientes, se indica el número de grados de libertad. Al hacer clic en el texto subrayado, se seleccionarán los elementos del boceto con restricciones insuficientes. Véase [[Image:Sketcher_SelectElementsWithDoFs.svg|16px]] [[Sketcher_SelectElementsWithDoFs|Sketcher SelectElementsWithDoFs]].
 
-If a sketch has redundant constraints or is over-constrained the indices of the involved constraints are indicated. Clicking the underlined text will select them. See [[Image:Sketcher_SelectRedundantConstraints.svg|16px]] [[Sketcher_SelectRedundantConstraints|Sketcher SelectRedundantConstraints]] and [[Image:Sketcher_SelectConflictingConstraints.svg|16px]] [[Sketcher_SelectConflictingConstraints|Sketcher SelectConflictingConstraints]].
+Si un croquis tiene restricciones redundantes o está sobredeterminado, se indican los índices de las restricciones involucradas. Al hacer clic en el texto subrayado, se seleccionarán. Consulte [[Image:Sketcher_SelectRedundantConstraints.svg|16px]] [[Sketcher_SelectRedundantConstraints|Sketcher SelectRedundantConstraints]] y [[Image:Sketcher_SelectConflictingConstraints.svg|16px]] [[Sketcher_SelectConflictingConstraints|Sketcher SelectConflictingConstraints]].
 
 Malformed constraints can be fixed with [[Image:Sketcher_ValidateSketch.svg|16px]] [[Sketcher_ValidateSketch|Sketcher ValidateSketch]].
 
