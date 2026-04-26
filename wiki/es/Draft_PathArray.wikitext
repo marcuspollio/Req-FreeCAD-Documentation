@@ -116,7 +116,7 @@ Las propiedades de este grupo solo están disponibles para Matrices de Enlace. C
 * {{PropertyData|Tangent Vector|Vector}}: especifica el vector de alineación. Solo se usa si {{PropertyData|Modo de alineación}} es {{Value|Tangente}}.
 * {{PropertyData|Vertical Vector|Vector}}: especifica la anulación de la dirección normal predeterminada. Solo se usa si {{PropertyData|Vector Vertical}} es {{TRUE}}.
 
-{{Properties_Title|Draft}}
+{{Properties_Title|Boceto}}
 
 * {{PropertyData|Always Sync Placement|Bool}}
 
