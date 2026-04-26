@@ -39,9 +39,7 @@ Existen dos tipos de restricciones: geométricas y dimensionales. A continuació
 <span id="Edit_constraints"></span>
 === Restricciones de edición ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-When a [[Sketcher_ToggleDrivingConstraint|driving dimensional constraint]] is created, and if the {{MenuCommand|Ask for value after creating a dimensional constraint}} [[Sketcher_Preferences#Display|preference]] is selected (default), a dialog opens to edit its value.
-</div>
+Cuando se crea una [[Sketcher_ToggleDrivingConstraint|restricción dimensional impulsora]] y si se selecciona la preferencia {{MenuCommand|Solicitar valor después de crear una restricción dimensional}} la [[Sketcher_Preferences#Display|preferencia]] (por defecto), se abre un cuadro de diálogo para editar su valor.
 
 [[Image:Sketcher_Edit_Constraint.png|Sketcher_Edit_Constraint.png]]
 
