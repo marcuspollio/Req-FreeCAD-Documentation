@@ -539,9 +539,7 @@ Se sabe que el solucionador Levenberg-Marquardt, que no es el solucionador prede
 
 [[File:Sketcher_Flipping_HorVer_Dimensions.png|300px]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Using [[Sketcher_ConstrainDistanceX|horizontal]] and [[Sketcher_ConstrainDistanceY|vertical dimensions]] instead of [[Sketcher_ConstrainDistance|distance dimensions]] or [[Sketcher_ConstrainEqual|equal constraints]] can prevent flipping. Points constrained by these dimensions will only switch places if the sign of their value is changed. In the image above the added (orange) dimensional constraints are linked to the original dimensions via [[Expressions|expressions]].
-</div>
+El uso de [[Sketcher_ConstrainDistanceX|Dimensión Horizontal]] y [[Sketcher_ConstrainDistanceY|Dimensión Vertical]] en lugar de [[Sketcher_ConstrainDistance|Dimensión de Distancia]] o [[Sketcher_ConstrainEqual|Restricciones de Igualdad]] puede evitar el volteo. Los puntos restringidos por estas dimensiones solo cambiarán de lugar si se cambia el signo de su valor. En la imagen superior, las restricciones dimensionales añadidas (en naranja) están vinculadas a las dimensiones originales mediante [[Expressions|Expresiones]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Use angle dimensions ====
