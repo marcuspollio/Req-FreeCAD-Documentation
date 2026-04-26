@@ -222,9 +222,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 :* [[Archivo:Sketcher_ConstrainDiameter.svg|32px]] [[Sketcher_ConstrainDiameter|Dimensión del Diámetro]]: Fija el diámetro de círculos y arcos.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[File:Sketcher_ConstrainAngle.svg|32px]] [[Sketcher_ConstrainAngle|Angle Dimension]]: Fixes the angle between two edges, the angle of a line with the horizontal axis of the sketch, or the aperture angle of a circular arc.
-</div>
+:* [[Archivo:Sketcher_ConstrainAngle.svg|32px]] [[Sketcher_ConstrainAngle|Dimensión del Ángulo]]: Fija el ángulo entre dos bordes, el ángulo de una línea con el eje horizontal del boceto o el ángulo de apertura de un arco circular.
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_ConstrainLock.svg|32px]] [[Sketcher_ConstrainLock/es|Bloquear]]: Restringe el artículo seleccionado estableciendo distancias verticales y horizontales relativas al origen, bloqueando así la ubicación de ese artículo. Estas distancias de restricción pueden ser editadas más tarde.
