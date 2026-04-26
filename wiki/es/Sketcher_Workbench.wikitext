@@ -191,9 +191,7 @@ Estas son herramientas para crear objetos.
 
 :* [[Archivo:Sketcher_CreatePeriodicBSpline.svg|32px]] [[Sketcher_CreatePeriodicBSpline|B-Spline periódica]]: Crea una curva B-spline periódica (cerrada) a partir de puntos de control. {{Versión|1.0}}: Esta es la misma herramienta que [[Sketcher_CreateBSpline|B-Spline]] pero con un modo inicial diferente.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-:* [[File:Sketcher_CreateBSplineByInterpolation.svg|32px]] [[Sketcher_CreateBSplineByInterpolation|B-Spline From Knots]]: Creates a B-spline curve from knot points. Idem.
-</div>
+:* [[Archivo:Sketcher_CreateBSplineByInterpolation.svg|32px]] [[Sketcher_CreateBSplineByInterpolation|B-Spline a partir de nudos]]: Crea una curva B-spline a partir de puntos de nudo. Ídem.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[File:Sketcher_CreatePeriodicBSplineByInterpolation.svg|32px]] [[Sketcher_CreatePeriodicBSplineByInterpolation|Periodic B-Spline From Knots]]: Creates a periodic (closed) B-spline curve from knot points. Idem.
