@@ -415,9 +415,7 @@ Las siguientes restricciones se aplican automáticamente:
 
 {{Version|0.21}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-It is possible to [[Sketcher_Grid|snap to grid lines and grid intersection]], and to [[Sketcher_Snap|snap to edges of geometry and midpoints of lines and arcs, and to certain angles]]. Please note that snapping does not produce constraints in and of itself. For example, only if [[#Auto_constraints|Auto constraints]] is switched on will snapping to an edge produce a [[Sketcher_ConstrainPointOnObject|point-on-object constraint]]. But just picking a point on the edge would then have the same result.
-</div>
+Es posible [[Sketcher_Grid|ajustar a las líneas de la cuadrícula y a las intersecciones de la cuadrícula]], y [[Sketcher_Snap|ajustar a los bordes de la geometría y a los puntos medios de líneas y arcos, y a ciertos ángulos]]. Tenga en cuenta que el ajuste no produce restricciones por sí mismo. Por ejemplo, solo si el modo [[#Auto_constraints|Restricciones automáticas]] está activado, el ajuste a un borde producirá una [[Sketcher_ConstrainPointOnObject|restricción de punto en objeto]]. Pero simplemente seleccionar un punto en el borde tendría el mismo resultado.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === On-View-Parameters ===
