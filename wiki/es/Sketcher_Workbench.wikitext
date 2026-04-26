@@ -541,9 +541,8 @@ Se sabe que el solucionador Levenberg-Marquardt, que no es el solucionador prede
 
 El uso de [[Sketcher_ConstrainDistanceX|Dimensión Horizontal]] y [[Sketcher_ConstrainDistanceY|Dimensión Vertical]] en lugar de [[Sketcher_ConstrainDistance|Dimensión de Distancia]] o [[Sketcher_ConstrainEqual|Restricciones de Igualdad]] puede evitar el volteo. Los puntos restringidos por estas dimensiones solo cambiarán de lugar si se cambia el signo de su valor. En la imagen superior, las restricciones dimensionales añadidas (en naranja) están vinculadas a las dimensiones originales mediante [[Expressions|Expresiones]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Use angle dimensions ====
-</div>
+<span id="Use_angle_dimensions"></span>
+==== Utilice dimensiones angulares ====
 
 [[File:Sketcher_Flipping_Angular_Dimensions.png|300px]]
 
