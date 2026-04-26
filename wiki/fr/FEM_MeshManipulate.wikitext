@@ -68,7 +68,7 @@ La commande '''FEM Manipuler l'affinage''' permet de manipuler le résultat d'un
 
 Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l'aide de l'[[Property_View/fr|éditeur de propriétés]]. Après avoir modifié une propriété, vous devez rouvrir la fenêtre de dialogue Gmsh et cliquer sur le bouton {{Button|Appliquer}}. (Vous pouvez laisser la fenêtre de dialogue ouverte pendant la modification des propriétés).
 
-Vous pouvez créer autant de manipulations d'affinage que nécessaire.
+Vous pouvez créer autant de manipulations différentes de densification que nécessaire.
 
 [[File:FEM_manipulate_refinement.PNG|700px]]
 {{Caption|Densification fonction de la distance limitée à la surface supérieure et à sa limite (mis en évidence)}}
