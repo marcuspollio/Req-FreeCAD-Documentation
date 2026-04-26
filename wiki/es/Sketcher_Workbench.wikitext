@@ -105,9 +105,7 @@ Si un boceto o croquis está en modo de edición, la barra de herramientas Estru
 <span id="Edit_Mode_toolbar"></span>
 ==== Barra de herramientas del modo de edición ====
 
-<div class="mw-translate-fuzzy">
-* [[Image:Sketcher_LeaveSketch.svg|32px]] [[Sketcher_LeaveSketch/es|Abandonar el croquis]]: Abandona el modo de edición del croquis.
-</div>
+* [[Image:Sketcher_LeaveSketch.svg|32px]] [[Sketcher_LeaveSketch|Salir del Boceto]]: Finaliza el modo de edición del boceto y cierra el [[Sketcher_Dialog|Diálogo del Boceto]].
 
 <div class="mw-translate-fuzzy">
 * [[Image:Sketcher_ViewSketch.svg‎|32px]] [[Sketcher_ViewSketch/es|Vista de croquis]]: Establece la vista del modelo perpendicular al plano del croquis.
