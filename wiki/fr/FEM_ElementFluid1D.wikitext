@@ -40,7 +40,7 @@ Crée un élément FEM de section fluide pour les réseaux pneumatiques et hydra
 
 ==Limitations==
 
-# Le jeu de paramètres ne fonctionne qu'avec un type d'élément de réseau à 3 nœuds. Les informations peuvent être trouvées ici : http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html
+# Le jeu de paramètres fonctionne uniquement avec des éléments de circuit hydraulique à 3 nœuds. Les informations peuvent être trouvées ici : http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html
 
 <span id="Notes"></span>
 ==Remarques==
