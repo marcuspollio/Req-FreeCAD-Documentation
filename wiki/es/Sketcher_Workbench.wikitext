@@ -551,12 +551,11 @@ También se pueden usar [[Sketcher_ConstrainAngle|Dimensiones Angulares]] en lug
 <span id="Tutorials"></span>
 == Tutoriales ==
 
-<div class="mw-translate-fuzzy">
-* [https://forum.freecadweb.org/viewtopic.php?f=36&t=30104 Tutorial de croquis] por Chrisb. Este es un documento PDF de 70 páginas que sirve como un manual detallado para el croquis. Explica los fundamentos del uso del croquis, y entra en muchos detalles sobre la creación de formas geométricas, y cada una de las restricciones.
-* [[Basic Sketcher Tutorial/es|Tutorial básico de dibujo]] para principiantes
-* [[Sketcher Micro Tutorial - Constraint Practices/es|Coquis Micro Tutorial - Prácticas de Restricción]]
-* [[Sketcher requirement for a sketch/es|Requisito por un boceto]] Requisito mínimo de un boceto y determinación completa de un boceto
-</div>
+* [https://forum.freecad.org/viewtopic.php?f=36&t=30104 Sketcher Lecture] por chrisb. Este documento PDF de más de 80 páginas sirve como manual detallado para el Croquizador. Explica los conceptos básicos de su uso y profundiza en la creación de formas geométricas y sus restricciones.
+
+* [[Basic_Sketcher_Tutorial|Tutorial básico de Sketcher]] para principiantes
+* [[Sketcher_Micro_Tutorial_-_Constraint_Practices|Microtutorial de Sketcher: Prácticas con restricciones]]
+* [[Sketcher_requirement_for_a_sketch|Requisitos del Croquizador para un boceto]] Requisitos mínimos para un boceto y determinación completa de un boceto.
 
 <span id="Scripting"></span>
 == Guión ==
