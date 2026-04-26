@@ -305,9 +305,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[Archivo:Sketcher_RemoveAxesAlignment.svg|32px]] [[Sketcher_RemoveAxesAlignment|Eliminar Alineación de Ejes]]: Elimina la alineación de ejes de los bordes seleccionados reemplazando las restricciones [[Sketcher_ConstrainHorizontal|Horizontal]] y [[Sketcher_ConstrainVertical|Vertical]] con las restricciones [[Sketcher_ConstrainParallel|Paralelo]] y [[Sketcher_ConstrainPerpendicular|Perpendicular]].
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_DeleteAllGeometry.svg|32px]] [[Sketcher_DeleteAllGeometry/es|Eliminar toda la geometría]]: Elimina toda la geometría del boceto.
-</div>
+* [[Archivo:Sketcher_DeleteAllGeometry.svg|32px]] [[Sketcher_DeleteAllGeometry|Eliminar toda la Geometría]]: Elimina toda la geometría y todas las restricciones del boceto.
 
 * [[File:Sketcher_DeleteAllConstraints.svg|32px]] [[Sketcher_DeleteAllConstraints/es|Eliminar todas las restricciones]]: Elimina todas las restricciones del boceto.
 
