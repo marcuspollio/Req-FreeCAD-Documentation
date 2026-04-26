@@ -149,7 +149,8 @@ Las propiedades de este grupo están ocultas para matrices ortogonales.
 * {{PropertyData|Axis|Vector}}: especifica la dirección del eje de la matriz.
 * {{PropertyData|Center|VectorDistance}}: especifica el punto central de la matriz. El eje de la matriz pasa por este punto. Para matrices circulares, es un desplazamiento con respecto a {{PropertyData|Placement}} del objeto {{PropertyData|Base}}.
 
-===View===
+<span id="View"></span>
+=== Ver ===
 
 {{Properties_Title|Link}}
 
