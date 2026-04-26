@@ -49,7 +49,7 @@ Si un croquis tiene restricciones insuficientes, se indica el número de grados 
 
 Si un croquis tiene restricciones redundantes o está sobredeterminado, se indican los índices de las restricciones involucradas. Al hacer clic en el texto subrayado, se seleccionarán. Consulte [[Image:Sketcher_SelectRedundantConstraints.svg|16px]] [[Sketcher_SelectRedundantConstraints|Sketcher SelectRedundantConstraints]] y [[Image:Sketcher_SelectConflictingConstraints.svg|16px]] [[Sketcher_SelectConflictingConstraints|Sketcher SelectConflictingConstraints]].
 
-Malformed constraints can be fixed with [[Image:Sketcher_ValidateSketch.svg|16px]] [[Sketcher_ValidateSketch|Sketcher ValidateSketch]].
+Las restricciones mal formadas se pueden corregir con [[Image:Sketcher_ValidateSketch.svg|16px]] [[Sketcher_ValidateSketch|Croquis, Validar Croquis]].
 
 Some messages are displayed in red for a reason: they are warnings that should not be ignored. They signal issues that must be addressed as they interfere with the solver. The messages are not mutually exclusive. If more than one applies only the first in the list is displayed.
 
