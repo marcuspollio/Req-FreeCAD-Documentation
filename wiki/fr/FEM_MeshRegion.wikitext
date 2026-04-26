@@ -35,8 +35,8 @@ Mailler plus finement présente l'avantage de permettre une simulation précise 
 # Pour activer la commande, un [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/fr|maillage avec Gmsh]] ou ({{VersionPlus/fr|1.1}}) un [[Image:FEM_MeshNetgenFromShape.svg|16px]] [[FEM_MeshNetgenFromShape/fr|maillage avec Netgen]] doit d'abord être fourni.
 # Sélectionnez l'objet Mesh dans l'[[Tree_View/fr|arborescence]].
 # Il y a plusieurs façons de lancer la commande :
-#* Appuyez sur le bouton {{Button|[[Image:FEM_MeshRegion.svg|16px]] [[FEM_MeshRegion/fr|Mailler plus finement]]}}.
-#* Sélectionnez l'option {{MenuCommand|Maillage → [[Image:FEM_MeshRegion.svg|16px]] Mailler plus finement}} du menu.
+#* Appuyez sur le bouton {{Button|[[Image:FEM_MeshRegion.svg|16px]] [[FEM_MeshRegion/fr|Densifier un maillage]]}}.
+#* Sélectionnez l'option {{MenuCommand|Maillage → [[Image:FEM_MeshRegion.svg|16px]] Densifier un maillage}} du menu.
 # Appuyez sur le bouton {{Button|Ajouter}} et sélectionnez une ou plusieurs ''faces'', ''arêtes'' ou ''sommets'' dans la [[3D_View/fr|vue 3D]] pour appliquer le raffinement du maillage. Les éléments sélectionnés apparaissent dans la liste des objets géométriques. Le mode de sélection peut également être réglé sur ''Solide''. {{Version/fr|1.1}} : pour supprimer des objets de la sélection, appuyez sur le bouton {{Button|Supprimer}}.
 # Entrez la taille maximale de l'élément pour la région.
 # Cliquez sur le bouton {{Button|OK}}.
