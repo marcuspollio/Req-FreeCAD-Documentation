@@ -45,9 +45,14 @@ Los casos de uso típicos son:
 # Pulse el botón {{Button|OK}}.
 
 
-<div class="mw-translate-fuzzy">
-[[Category:Sketcher/es]]
-</div>
+{{Documento
+|[[Sketcher_Dialog|Diálogo]]
+|[[Sketcher_ReorientSketch|Reorientar boceto]]
+|[[Sketcher_Workbench|Croquizador]]
+|IconoL=
+|IconR=Sketcher_ReorientSketch.svg
+|IconC=Workbench_Sketcher.svg
+}}
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
