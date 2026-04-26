@@ -36,33 +36,33 @@ La commande '''FEM Manipuler l'affinage''' permet de manipuler le résultat d'un
 # Pour activer la commande, il faut d'abord fournir un [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/fr|maillage avec Gmsh]].
 # Sélectionnez l'objet Mesh dans l'[[Tree_View/fr|arborescence]].
 # Il existe plusieurs façons de lancer la commande :
-#* Appuyez sur le bouton {{Button|[[Image:FEM_MeshManipulate.svg|16px]] [[FEM_MeshManipulate/fr|Manipuler l'affinage]]}}.
-#* Sélectionnez l'option {{MenuCommand|Maillage → Affinements Gmsh → [[Image:FEM_MeshManipulate.svg|16px]] Manipuler l'affinage}} du menu.
+#* Appuyez sur le bouton {{Button|[[Image:FEM_MeshManipulate.svg|16px]] [[FEM_MeshManipulate/fr|Manipuler la densification]]}}.
+#* Sélectionnez l'option {{MenuCommand|Maillage → Densifications sous Gmsh → [[Image:FEM_MeshManipulate.svg|16px]] Manipuler la densification}} du menu.
 # Sélectionnez le type de manipulation :
-#* ''Restreindre'' : limite l'application de l'affinage des enfants aux éléments de référence sélectionnés.
+#* ''Restreindre'' : limite l'application de la densification des enfants aux éléments de référence sélectionnés.
 #** Utilisez la case à cocher ''Inclure la limite'' pour inclure la limite des éléments de référence sélectionnés.
-#* ''Seuil'' : applique un seuil à la valeur des affinages des enfants :
+#* ''Seuil'' : applique un seuil à la valeur des densifications des enfants :
 #** Utilisez les champs de valeur de saisie versus la taille des résultats pour contrôler les seuils.
 #** Vous pouvez cocher la case ''Interpolation linéaire'' pour définir si l'interpolation de la taille des maillages entre la taille minimum et la taille maximum doit être linéaire ou sigmoïde.
 #** Vous pouvez cocher la case ''S'arrêter à la valeur d'entrée maximale''.
-#* ''Moyenne'' : calcule la valeur moyenne de l'affinage de l'enfant G.
+#* ''Moyenne'' : calcule la valeur moyenne de la densification de l'enfant G.
 #** Spécifiez ''Delta''
-#* ''Gradient'' : calcule le gradient par différences finies de l'affinage enfant G.
+#* ''Gradient'' : calcule le gradient par différences finies de l'affinage de l'enfant G.
 #** Sélectionnez ''Type'' : X, Y, Z ou Moyenne
 #** Spécifiez ''Delta''
-#* ''Courbure'' : calcule la courbure de l'affinage enfant G.
+#* ''Courbure'' : calcule la courbure de la densification de l'enfant G.
 #** Spécifiez ''Delta''
-#* ''Laplacien'' : calcule la différence finie du laplacien de l'affinage enfant G.
+#* ''Laplacien'' : calcule la différence finie du laplacien de la densification de l'enfant G.
 #** Spécifiez ''Delta''
-# Vous pouvez cliquer sur le bouton {{Button|[[Image:Preferences-system.svg|x16px]]}} pour modifier les paramètres globaux d'aperçu de l'affinage :
-#* ''Activation automatique à l'ouverture'' : active automatiquement la visualisation de la taille du maillage de l'affinage à l'ouverture d'une boîte de dialogue de tâche de l'affinage.
+# Vous pouvez cliquer sur le bouton {{Button|[[Image:Preferences-system.svg|x16px]]}} pour modifier les paramètres globaux d'aperçu de la densification :
+#* ''Activation automatique à l'ouverture'' : active automatiquement la visualisation de la taille du maillage de la densification à l'ouverture d'une boîte de dialogue de tâche de la densification.
 #* ''Finesse du maillage de l'aperçu'' détermine la finesse du maillage de l'aperçu. Un nombre plus élevé signifie un maillage plus fin (éléments plus petits).
-# Vous pouvez cliquer sur le bouton {{Button|Visualiser}} pour visualiser le résultat de l'affinage de la taille du maillage. Les tailles de maillages obtenues par l'affinage sont représentées par des couleurs sur un maillage d'aperçu. Notez que l'aperçu évalue l'affinage sur un maillage grossier. Les détails plus petits que la taille de maillage peuvent donc ne pas être visibles.
-# Cliquez sur le bouton {{Button|Ajouter}}. Sélectionnez une face, une arête ou un sommet comme géométries de référence pour les affinages Courbe anisotrope et Distance. Pour supprimer des objets de la sélection, cliquez sur le bouton {{Button|Supprimer}}.
+# Vous pouvez cliquer sur le bouton {{Button|Visualiser}} pour visualiser le résultat de la densification de la taille du maillage. Les tailles de maillages obtenues par l'affinage sont représentées par des couleurs sur un maillage d'aperçu. Notez que l'aperçu évalue l'affinage sur un maillage grossier. Les détails plus petits que la taille de maillage peuvent donc ne pas être visibles.
+# Cliquez sur le bouton {{Button|Ajouter}}. Sélectionnez une face, une arête ou un sommet comme géométries de référence pour les densifications Courbe anisotrope et Distance. Pour supprimer des objets de la sélection, cliquez sur le bouton {{Button|Supprimer}}.
 # Cliquez sur le bouton {{Button|OK}}.
 # Fermez la tâche.
 #: Résultat : vous devriez maintenant voir un nouvel objet {{incode|Manipulate}} sous l'objet {{incode|FEMMeshGmsh}} dans votre conteneur d'analyse actif.
-# Faites glisser l'affinage à modifier vers l'objet {{incode|Manipulate}} dans l'arborescence du document. L'affinage sera regroupé sous l'objet {{incode|Manipulate}}.
+# Faites glisser l'affinage à modifier vers l'objet {{incode|Manipulate}} dans l'arborescence du document. La densification sera regroupée sous l'objet {{incode|Manipulate}}.
 # Double-cliquez sur l'objet parent {{incode|FEMMeshGmsh}} dans votre arborescence de modèle et cliquez sur {{Button|Appliquer}} pour forcer un recalcul du maillage.
 # Fermez la tâche.
 
