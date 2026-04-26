@@ -9,16 +9,14 @@
 |IconC=Workbench_Draft.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/es
 |Name=Draft CircularArray
 |Name/es=Borrador ArregloCircular
 |MenuLocation=Modificación → Herramientas de  Arreglo → Arreglo Circular
 |Workbenches=[[Draft_Workbench/es|Borrador]], [[Arch_Workbench/es|Arquitectura]]
 |Version=0.19
-|SeeAlso=[[Draft_OrthoArray/es|Borrador OrthoArray]], [[Draft_PolarArray/es|Borrador ArregloPolar]], [[Draft_PathArray/es|Borrador ArregloRuta]], [[Draft_PathLinkArray/es|Borrador ArregloEnlaceRuta]], [[Draft_PointArray/es|Borrador ArregloPunto]], [[Draft_PointLinkArray/es|Borrador ArregloEnlacePunto]]
+|SeeAlso=[[Draft_OrthoArray/es|Borrador OrthoArray]], [[Draft_PolarArray/es|Borrador ArregloPolar]], [[Draft_PathArray/es|Borrador ArregloRuta]], [[Draft_PathLinkArray/es|Borrador ArregloEnlaceRuta]], [[Draft_PointArray|Borrador ArregloPunto]], [[Draft_PointLinkArray|Borrador ArregloEnlacePunto]]
 }}
-</div>
 
 <span id="Description"></span>
 ==Descripción==
