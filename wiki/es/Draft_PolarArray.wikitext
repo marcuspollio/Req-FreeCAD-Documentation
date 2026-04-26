@@ -48,13 +48,13 @@ Ver también: [[Draft_Snap/es|Borrador Atrapar]]
 <span id="Options"></span>
 ==Opciones==
 
-* Enter the {{MenuCommand|Polar angle}} to specify the total angle of the array. The angle is positive in the counter-clockwise direction.
-* Enter the {{MenuCommand|Number of elements}}. Must be at least {{Value|2}}.
-* Pick a point in the [[3D_View|3D View]], note that this will also finish the command, or type coordinates for the {{MenuCommand|Center of Rotation}}. The rotation axis of the array will pass through this point. It is advisable to move the pointer out of the [[3D_View|3D View]] before entering coordinates.
-* Press the {{MenuCommand|Reset Point}} button to reset the {{MenuCommand|Center of Rotation}} to the origin.
-* If the {{MenuCommand|Fuse}} checkbox is checked overlapping elements in the array are fused.
-* If the {{MenuCommand|Link array}} checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [[App_Link|App Link]] objects.
-* Press {{KEY|Esc}} or the {{Button|Cancel}} button to abort the command.
+* Introduzca el {{MenuCommand|Ángulo polar}} para especificar el ángulo total de la matriz. El ángulo es positivo en sentido antihorario.
+* Introduzca el {{MenuCommand|Número de elementos}}. Debe ser al menos {{Value|2}}.
+* Seleccione un punto en la [[3D_View|Vista 3D]] (tenga en cuenta que esto también finalizará el comando) o introduzca las coordenadas del {{MenuCommand|Centro de rotación}}. El eje de rotación de la matriz pasará por este punto. Se recomienda mover el puntero fuera de la [[3D_View|Vista 3D]] antes de introducir las coordenadas.
+* Pulse el botón {{MenuCommand|Restablecer punto}} para restablecer el {{MenuCommand|Centro de rotación}} al origen.
+* Si la casilla {{MenuCommand|Fusionar}} está marcada, los elementos superpuestos de la matriz se fusionarán.
+* Si la casilla de verificación {{MenuCommand|Link array}} está marcada, se crea un matriz de enlaces en lugar de una normal. Una matriz de enlaces es más eficiente porque sus elementos son objetos [[App_Link|App Link]].
+* Pulse {{KEY|Esc}} o el botón {{Button|Cancel}} para cancelar el comando.
 
 <span id="Notes"></span>
 ==Notas==
