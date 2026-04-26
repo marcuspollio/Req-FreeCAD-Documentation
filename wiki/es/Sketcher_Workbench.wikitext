@@ -137,9 +137,7 @@ Estas son herramientas para crear objetos.
 
 :* [[Image:Sketcher_CreateArc.svg|32px]] [[Sketcher_CreateArc|Arco desde el centro]]: Crea un arco desde su centro y sus puntos extremos. {{Version|1.0}}: O desde sus puntos extremos y un punto a lo largo del arco. 
 
-<div class="mw-translate-fuzzy">
-:* [[Image:Sketcher_Create3PointArc.svg|32px]] [[Sketcher_Create3PointArc/es|Arco a través de 3 Puntos]]: Dibuja un segmento de arco entre dos puntos y un tercer punto que se haya en la circumferencia.
-</div>
+:* [[Image:Sketcher_Create3PointArc.svg|32px]] [[Sketcher_Create3PointArc|Arco desde 3 puntos]]: Crea un arco desde sus puntos extremos y un punto a lo largo del arco. {{Version|1.0}}: Esta es la misma herramienta que [[Sketcher_CreateArc|Arco desde el centro]] pero con un modo inicial diferente.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 :* [[Image:Sketcher_CreateArcOfEllipse.svg|32px]] [[Sketcher_CreateArcOfEllipse|Elliptical Arc]]: Creates an elliptical arc.
