@@ -438,9 +438,7 @@ Si se introducen valores y se confirman pulsando {{KEY|Enter}} o {{KEY|Tab}}, se
 <span id="Coordinate_display"></span>
 === Visualización de coordenadas ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If the '''Show coordinates next to the cursor while editing''' [[Sketcher_Preferences#Display|preference]] is checked (default), the parameters of the current geometry tool (coordinates, radius, or length and angle) are displayed next to the cursor. This is deactivated while On-View-Parameters are shown.
-</div>
+Si la opción '''Mostrar coordenadas junto al cursor durante la edición''' [[Sketcher_Preferences#Display|preferencia]] está marcada (opción predeterminada), los parámetros de la herramienta geométrica actual (coordenadas, radio o longitud y ángulo) se muestran junto al cursor. Esta opción se desactiva cuando se muestran los parámetros en vista.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Selection methods ==
