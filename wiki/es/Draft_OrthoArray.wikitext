@@ -138,9 +138,9 @@ Las propiedades de este grupo están ocultas para matrices circulares y matrices
 
 Las propiedades de este grupo están ocultas para matrices circulares y matrices ortogonales. 
 
-* {{PropertyData|Angle|Angle}}: specifies the aperture of the circular arc. Use {{value|360&#176;}} for a full circle.
-* {{PropertyData|Interval Axis|VectorDistance}}: specifies the interval between elements in the {{PropertyData|Axis}} direction.
-* {{PropertyData|Number Polar|Integer}}: specifies the number of elements in the polar direction.
+* {{PropertyData|Angle|Angle}}: especifica la apertura del arco circular. Use {{value|360&#176;}} para un círculo completo.
+* {{PropertyData|Interval Axis|VectorDistance}}: especifica el intervalo entre elementos en la dirección {{PropertyData|Axis}}.
+* {{PropertyData|Number Polar|Integer}}: especifica el número de elementos en la dirección polar.
 
 {{Properties_Title|Polar/circular array}}
 
