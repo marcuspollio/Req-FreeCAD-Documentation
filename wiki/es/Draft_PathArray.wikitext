@@ -30,12 +30,14 @@ Ambos comandos se pueden usar en objetos 2D creados con el [[Draft_Workbench|Ent
 <span id="Usage"></span>
 == Como utilizar ==
 
-<div class="mw-translate-fuzzy">
-# Crea un objeto de forma que desees distribuir. Obtendrá los mejores resultados si su objeto está centrado en el origen, incluso si la ruta comienza en otro lugar.
-# Seleccione un objeto de ruta a lo largo del cual se distribuirán las formas. -o-
-# Seleccione algunos bordes de un objeto de ruta.
-# Presiona el botón {{KEY|[[Image:Draft_PathArray.png|16px]] [[Draft PathArray]]}} .
-</div>
+# Seleccione el objeto que desea crear en una matriz.
+# Añada el objeto de ruta a la selección. También puede seleccionar aristas. Las aristas deben pertenecer al mismo objeto y estar conectadas.
+# Existen varias formas de ejecutar el comando:
+#* Pulse el botón {{Button|[[Image:Draft_PathArray.svg|16px]] [[Draft_PathArray|Matriz de rutas]]}}.
+#* [[Draft_Workbench|Draft]]: Seleccione la opción {{MenuCommand|Modification → Herramientas de Matriz → [[Image:Draft_PathArray.svg|16px]] Martriz de Ruta}} del menú.
+#* [[BIM_Workbench|BIM]]: Seleccione la opción {{MenuCommand|Modificar → [[Image:Draft_PathArray.svg|16px]] Matriz de rutas}} del menú.
+# Se creará la matriz.
+# Opcionalmente, cambie las [[#Properties|propiedades]] de la matriz en la [[Property_View|Vista de propiedades]].
 
 ==Alignment==
 
