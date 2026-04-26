@@ -210,44 +210,44 @@ Opciones disponibles:
 
 {| class="wikitable"
 !style="width: 15%;"|Option
-!style="width: 85%;"|Description
+!style="width: 85%;"|Descriptión
 |-
-| {{Button|Filter [[Image:Toolbar_flyout_arrow.svg|x16px]]}}
-| If the Filter checkbox is checked the Filter dropdown list controls which elements are listed:
-* {{MenuCommand|Normal}}: Normal geometry: geometry that does not fall in the next three categories.
-* {{MenuCommand|Construction}}: [[Sketcher_ToggleConstruction|Construction geometry]].
-* {{MenuCommand|Internal}}: [[Sketcher_RestoreInternalAlignmentGeometry|Internal geometry]].
-* {{MenuCommand|External}}: [[Sketcher_External|External geometry]].
-* {{MenuCommand|All types}}: All geometry types. Specific types can be selected in the rest of the list:
-** {{MenuCommand|Point}}
-** {{MenuCommand|Line}}
-** {{MenuCommand|Circle}}
-** {{MenuCommand|Ellipse}}
-** {{MenuCommand|Arc of circle}}
-** {{MenuCommand|Arc of ellipse}}
-** {{MenuCommand|Arc of hyperbola}}
-** {{MenuCommand|Arc of parabola}}
+| {{Button|Filter [[Imagen:Toolbar_flyout_arrow.svg|x16px]]}}
+| Si la casilla de verificación Filtro está marcada, la lista desplegable Filtro controla qué elementos se muestran:
+* {{MenuCommand|Normal}}: Geometría normal: geometría que no pertenece a las siguientes tres categorías.
+* {{MenuCommand|Construction}}: [[Sketcher_ToggleConstruction|Geometría de construcción]].
+* {{MenuCommand|Internal}}: [[Sketcher_RestoreInternalAlignmentGeometry|Geometría interna]].
+* {{MenuCommand|External}}: [[Sketcher_External|Geometría externa]].
+* {{MenuCommand|Todos los tipos}}: Todos los tipos de geometría. Se pueden seleccionar tipos específicos en el resto de la lista:
+** {{MenuCommand|Punto}}
+** {{MenuCommand|Línea}}
+** {{MenuCommand|Círculo}}
+** {{MenuCommand|Elipse}}
+** {{MenuCommand|Arco de círculo}}
+** {{MenuCommand|Arco de elipse}}
+** {{MenuCommand|Arco de hipérbola}}
+** {{MenuCommand|Arco de parábola}}
 ** {{MenuCommand|B-Spline}}
 |-
 | {{Button|[[Image:Sketcher_Settings.svg|x16px]] [[Image:Toolbar_flyout_arrow.svg|x16px]]}}
-| This button opens a menu:
-* {{MenuCommand|Extended information}}: If checked, extended element information is provided.
-: For non-external geometry the information in the list then changes from:
+| Este botón abre un menú:
+* {{MenuCommand|Información extendida}}: Si está marcada, se proporciona información extendida del elemento.
+: Para geometría no externa, la información de la lista cambia de:
 : {{Incode|<N>-<TYPE>}}
-: to:
+: a:
 : {{Incode|<TYPE>(Edge<N>#ID<GeoID>#<VLX>)[-Construction]}}
-: <TYPE>: Element type.
-: <N>: A 1-based index that indicates the creation order of the element.
-: <GeoID>: See under [[#Constraints|Constraints]].
-: <VLX>: Element layer. See below.
+: <TYPE>: Tipo de elemento.
+: <N>: Un índice basado en 1 que indica el orden de creación del elemento.
+: <GeoID>: Véase en [[#Constraints|Restricciones]].
+: <VLX>: Capa del elemento. Véase más abajo.
 |-
 | [[Image:Sketcher_Element_Arc_Edge.svg|24px]] [[Image:Sketcher_Element_Arc_StartingPoint.svg|24px]] [[Image:Sketcher_Element_Arc_EndPoint.svg|24px]] [[Image:Sketcher_Element_Arc_MidPoint.svg|24px]]
-| Each element in the list has 1 to 4 buttons organized in 4 columns. These select a specific part of the element. Only applicable buttons are shown.
-* Button in column 1: Selects the edge of the element.
-* Button in column 2: Selects the start point of the element.
-* Button in column 3: Selects the end point of the element.
-* Button in column 4: Selects the center point of the element.
-Clicking the text has the same effect as clicking the first available button of the element.
+| Cada elemento de la lista tiene de 1 a 4 botones organizados en 4 columnas. Estos botones seleccionan una parte específica del elemento. Solo se muestran los botones aplicables.
+* Botón en la columna 1: Selecciona el borde del elemento.
+* Botón en la columna 2: Selecciona el punto de inicio del elemento.
+* Botón en la columna 3: Selecciona el punto final del elemento.
+* Botón en la columna 4: Selecciona el punto central del elemento.
+Hacer clic en el texto tiene el mismo efecto que hacer clic en el primer botón disponible del elemento.
 
 [[Image:Sketcher_Dialog_Elements.png]]<br>
 ''In the image the edge of a line and the center of an arc have been selected.''<br>
