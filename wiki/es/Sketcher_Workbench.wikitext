@@ -30,7 +30,7 @@ El Croquizador no está diseñado para generar planos 2D. Una vez que se utiliza
 
 Las restricciones se utilizan para limitar los grados de libertad de un objeto. Por ejemplo, una línea sin restricciones tiene 4 grados de libertad (abreviados como "DoF"): pues puede moverse horizontal o verticalmente, estirarse y rotarse.
 
-Aplicando una restricción horizontal o vertical,  o una restricción angular (relativa a otra línea o a uno de los ejes), se limitará su capacidad de girar, aunque seguirá con 3 grados de libertad. Bloqueando uno de sus extremos en relación con el origen eliminará otros 2 grados de libertad. Y aplicando una restricción dimensional se eliminará el último grado de libertad. La línea se considerará que está entonces '''completamente restringida'''.
+Aplicar una restricción horizontal o vertical, o una restricción angular (con respecto a otra línea o a uno de los ejes), limitará su capacidad de rotación, dejándole así 3 grados de libertad. Fijar uno de sus puntos con respecto al origen eliminará otros 2 grados de libertad. Y aplicar una dimensión de distancia eliminará el último grado de libertad. En ese caso, la línea se considera «completamente restringida».
 
 <div class="mw-translate-fuzzy">
 Múltiples objetos pueden ser restringidos con respecto a otro. Dos líneas se pueden unir por uno de sus puntos con la restricción de coincidencia de puntos. Un ángulo se puede definir entre ellas, o se pueden establecer como perpendiculares. Una línea puede ser tangente a un arco o a una circunferencia, etc. Un Croquis complejo puede tener diferentes soluciones y '''restringir completamente''' significa encontrar una de esas posibles soluciones mediante el uso de restricciones.
