@@ -109,7 +109,7 @@ Las propiedades de este grupo están ocultas para matrices ortogonales y matrice
 * {{PropertyData|Symmetry|Integer}}: especifica el número de líneas de simetría. Este número modifica la distribución de los elementos en la matriz.
 * {{PropertyData|Tangential Distance|Distance}}: especifica la distancia entre elementos de la misma capa circular. Debe ser mayor que cero.
 
-{{Properties_Title|Draft}}
+{{Properties_Title|Borrador}}
 
 * {{PropertyData|Always Sync Placement|Bool}}
 
