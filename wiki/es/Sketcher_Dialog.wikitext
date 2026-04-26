@@ -161,45 +161,44 @@ Opciones disponibles:
 !style="width: 15%;"|Option
 !style="width: 85%;"|Description
 |-
-| {{Button|Filter [[Image:Toolbar_flyout_arrow.svg|x16px]]}}
-| If the Filter checkbox is checked the Filter dropdown list controls which constraints are listed:
-* {{MenuCommand|All}}: All constraints.
-* {{MenuCommand|Geometric}}: Geometric constraints.
-* {{MenuCommand|Datums}}: [[Sketcher_ToggleDrivingConstraint|Driving]] dimensional constraints. Does not work properly: all dimensional constraints are filtered.
-* {{MenuCommand|Named}}: Named constraints. Does not work.
-* {{MenuCommand|Reference}}: [[Sketcher_ToggleDrivingConstraint|Driven]] dimensional constraints. Does not work.
-* {{MenuCommand|Selected constraints}}: Constraints selected in the sketch.
-* {{MenuCommand|Associated constraints}}: Constraints associated with elements selected in the sketch.
+| {{Button|Filtrar [[Imagen:Toolbar_flyout_arrow.svg|x16px]]}}
+| Si la casilla de verificación Filtro está marcada, la lista desplegable Filtro controla qué restricciones se muestran:
+* {{MenuCommand|Todas}}: Todas las restricciones.
+* {{MenuCommand|Geométricas}}: Restricciones geométricas.
+* {{MenuCommand|Datums}}: Restricciones dimensionales [[Sketcher_ToggleDrivingConstraint|Conducción]]. No funciona correctamente: se filtran todas las restricciones dimensionales.
+* {{MenuCommand|Con nombre}}: Restricciones con nombre. No funciona. * {{MenuCommand|Referencia}}: Restricciones dimensionales [[Sketcher_ToggleDrivingConstraint|Controladas]]. No funciona.
+* {{MenuCommand|Restricciones Seleccionadas}}: Restricciones seleccionadas en el boceto.
+* {{MenuCommand|Restricciones Asociadas}}: Restricciones asociadas a los elementos seleccionados en el croquis.
 |-
 | {{Button|[[Image:Std_ToggleVisibility.svg|x16px]]}}
-| This button toggles the visibility of the listed constraints in the sketch.
+| Este botón alterna la visibilidad de las restricciones listadas en el croquis.
 |-
 | {{Button|[[Image:Sketcher_Settings.svg|x16px]] [[Image:Toolbar_flyout_arrow.svg|x16px]]}}
-| This button opens a menu:
-* {{MenuCommand|Auto constraints}}: If checked, some geometric constraints are applied automatically to new elements.
-* {{MenuCommand|Auto remove redundants}}: If checked, new constraints that are redundant are automatically removed.
-* {{MenuCommand|Show only filtered Constraints}}: If checked, only the listed constraints are shown in the sketch.
-* {{MenuCommand|Extended information (in widget)}}: If checked, extended information is added in this form:
+| Este botón abre un menú:
+* {{MenuCommand|Restricciones Automáticas}}: Si está marcada, se aplican automáticamente algunas restricciones geométricas a los nuevos elementos.
+* {{MenuCommand|Eliminar Automáticamente Redundantes}}: Si está marcada, se eliminan automáticamente las nuevas restricciones redundantes.
+* {{MenuCommand|Mostrar solo Restricciones Filtradas}}: Si está marcada, solo se muestran las restricciones listadas en el Croquis.
+* {{MenuCommand|Información extendida (en el widget)}}: Si está marcada, se añade información extendida en este formato:
 : {{Incode|[(GeoID1,PosID1),(GeoID2,PosID2),(GeoID3,PosID3)]}}
-: GeoID is a zero-based index for non-external geometry. The X-axis has GeoID -1, the Y-axis has GeoID -2. GeoID -3, -4 etc. are used for external geometry.
-: PosID can have the following values:
-: 0 = edge, 1 = start point, 2 = end point, 3 = center point.
-: For example a dimension from the origin to the center of a circle that is the 2nd non-external element in the sketch will have this extended information:
-: {{Incode|[(-1,1),(1,3)]}}
-* {{MenuCommand|Hide internal alignment (in widget)}}: If checked, constraints associated with internal alignments are hidden in the list. The [[Image:Sketcher_RestoreInternalAlignmentGeometry‎.svg|16px]] [[Sketcher_RestoreInternalAlignmentGeometry|Show/Hide internal geometry]] tool can also hide these constraints, but will also hide the internal alignments in the sketch.
+: GeoID es un índice basado en cero para geometría no externa. El eje X tiene GeoID -1, el eje Y tiene GeoID -2. GeoID -3, -4, etc., se utilizan para geometría externa.
+PosID puede tener los siguientes valores:
+0 = borde, 1 = punto de inicio, 2 = punto final, 3 = punto central.
+Por ejemplo, una dimensión desde el origen hasta el centro de un círculo que sea el segundo elemento no externo del boceto tendrá esta información extendida:
+{{Incode|[(-1,1),(1,3)]}}
+* {{MenuCommand|Ocultar alineación interna (en el widget)}}: Si está marcada, las restricciones asociadas a las alineaciones internas se ocultan en la lista. La herramienta [[Image:Sketcher_RestoreInternalAlignmentGeometry‎.svg|16px]] [[Sketcher_RestoreInternalAlignmentGeometry|Mostrar/Ocultar geometría interna]] también puede ocultar estas restricciones, pero también ocultará las alineaciones internas en el boceto.
 |-
-| {{MenuCommand|Context menu}}
-| Right-clicking the background of the list, or right-clicking constraints selected in the list opens a context menu. The menu has the following options:
-* {{MenuCommand|Change Value}}: Changes the value of a dimensional constraint. Only works for a single constraint. You can also double click the constraint in the list, or double click its value in the [[3D_View|3D View]].
-* {{MenuCommand|Toggle Driving/Reference}}: See [[Sketcher_ToggleDrivingConstraint|Sketcher ToggleDrivingConstraint]].
-* {{MenuCommand|Deactivate}} or {{MenuCommand|Activate}}: See [[Sketcher_ToggleActiveConstraint|Sketcher ToggleActiveConstraint]].
-* {{MenuCommand|Show Constraints}}: Same as checking the constraint checkbox. But, unlike the checkbox, also works for more than one constraint.
-* {{MenuCommand|Hide Constraints}}: Same as unchecking the constraint checkbox. Idem.
-* {{MenuCommand|Select Elements}}: See [[Sketcher_SelectElementsAssociatedWithConstraints|Sketcher SelectElementsAssociatedWithConstraints]].
-* {{MenuCommand|Rename}}: Renames the constraint.
-* {{MenuCommand|Center Sketch}}: Centers the 3D View around the selected constraints.
-* {{MenuCommand|Delete}}: Deletes the selected constrains. The {{KEY|Del}} key can also be used.
-* {{MenuCommand|Swap Constraint Names}}: Swaps the names of selected constraints. Only works if two constraints with user given names are selected.
+| {{MenuCommand|Menú Contextual}}
+| Al hacer clic con el botón derecho en el fondo de la lista o en las restricciones seleccionadas, se abre un menú contextual. Este menú ofrece las siguientes opciones:
+* {{MenuCommand|Cambiar valor}}: Cambia el valor de una restricción dimensional. Solo funciona para una restricción. También puede hacer doble clic en la restricción de la lista o en su valor en la [[Vista 3D|Vista 3D]].
+* {{MenuCommand|Alternar restricción de referencia/control}}: Consulte [[Sketcher_ToggleDrivingConstraint|Sketcher ToggleDrivingConstraint]].
+* {{MenuCommand|Desactivar}} o {{MenuCommand|Activar}}: Consulte [[Sketcher_ToggleActiveConstraint|Sketcher ToggleActiveConstraint]].
+* {{MenuCommand|Mostrar restricciones}}: Funciona igual que marcar la casilla de restricción. Pero, a diferencia de la casilla de verificación, también funciona para más de una restricción.
+* {{MenuCommand|Ocultar restricciones}}: Equivalente a desmarcar la casilla de verificación de la restricción. Ídem.
+* {{MenuCommand|Seleccionar elementos}}: Ver [[Sketcher_SelectElementsAssociatedWithConstraints|Sketcher SelectElementsAssociatedWithConstraints]].
+* {{MenuCommand|Renombrar}}: Cambia el nombre de la restricción.
+* {{MenuCommand|Centrar boceto}}: Centra la vista 3D alrededor de las restricciones seleccionadas.
+* {{MenuCommand|Eliminar}}: Elimina las restricciones seleccionadas. También se puede usar la tecla {{KEY|Supr}}.
+* {{MenuCommand|Intercambiar nombres de restricciones}}: Intercambia los nombres de las restricciones seleccionadas. Solo funciona si se seleccionan dos restricciones con nombres proporcionados por el usuario.
 |}
 
 ==Elements==
