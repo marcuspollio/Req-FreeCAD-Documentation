@@ -104,10 +104,10 @@ Las propiedades de este grupo solo están disponibles para matrices de enlace. C
 
 Las propiedades de este grupo están ocultas para matrices ortogonales y matrices polares.
 
-* {{PropertyData|Number Circles|Integer}}: specifies the number of circular layers. Must be at least {{Value|2}}.
-* {{PropertyData|Radial Distance|Distance}}: specifies the distance between circular layers.
-* {{PropertyData|Symmetry|Integer}}: specifies the number of symmetry lines. This number changes the distribution of the elements in the array.
-* {{PropertyData|Tangential Distance|Distance}}: specifies the distance between elements in the same circular layer. Must be larger than zero.
+* {{PropertyData|Number Circles|Integer}}: especifica el número de capas circulares. Debe ser al menos {{Value|2}}.
+* {{PropertyData|Radial Distance|Distance}}: especifica la distancia entre capas circulares.
+* {{PropertyData|Symmetry|Integer}}: especifica el número de líneas de simetría. Este número modifica la distribución de los elementos en la matriz.
+* {{PropertyData|Tangential Distance|Distance}}: especifica la distancia entre elementos de la misma capa circular. Debe ser mayor que cero.
 
 {{Properties_Title|Draft}}
 
