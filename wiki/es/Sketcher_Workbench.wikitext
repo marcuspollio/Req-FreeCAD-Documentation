@@ -400,9 +400,7 @@ Hay dos modos de continuación: '''Creación de geometría "Modo de continuació
 <span id="Auto_constraints"></span>
 === Restricciones automáticas ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-In sketches that have '''Auto constraints''' checked (default) several constraints are applied automatically. The icon of a proposed automatic constraint is shown next to the cursor when it is placed correctly. Left-clicking will then apply that constraint. This is a per-sketch setting that can be changed in the [[Sketcher_Dialog#Constraints|Sketcher Dialog]] or by changing the {{PropertyView|Autoconstraints}} [[Property_View|property]] of the sketch.
-</div>
+En los bocetos que tienen marcada la opción '''Restricciones automáticas''' (por defecto), se aplican varias restricciones automáticamente. El icono de una restricción automática propuesta se muestra junto al cursor cuando se coloca correctamente. Al hacer clic con el botón izquierdo del ratón, se aplicará dicha restricción. Esta configuración es específica de cada boceto y se puede modificar en el cuadro de diálogo [[Sketcher_Dialog#Constraints|Diálogo del Croquizador]] o cambiando la propiedad {{PropertyView|Restricciones Automáticas}} [[Property_View|Propiedad]] del boceto.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The following constraints are applied automatically:
