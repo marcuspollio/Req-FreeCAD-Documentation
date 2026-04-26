@@ -343,9 +343,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[File:Sketcher_SelectRedundantConstraints.svg|32px]] [[Sketcher_SelectRedundantConstraints|Seleccionar Restricciones Redundantes]]: Selecciona las restricciones redundantes en el boceto.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_SelectConflictingConstraints.svg|32px]] [[Sketcher_SelectConflictingConstraints/es|Seleccionar restricciones conflictivas]]: Selecciona las restricciones conflictivas del croquis
-</div>
+* [[File:Sketcher_SelectConflictingConstraints.svg|32px]] [[Sketcher_SelectConflictingConstraints|Seleccionar Restricciones Conflictivas]]: Selecciona las restricciones conflictivas en el boceto.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[File:Sketcher_ArcOverlay.svg|32px]] [[Sketcher_ArcOverlay|Toggle Circular Helper for Arcs]]: Shows or hides the circular helpers (underlying virtual circles) for arcs in all sketches. {{Version|1.0}}
