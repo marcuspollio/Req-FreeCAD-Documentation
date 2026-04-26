@@ -187,9 +187,7 @@ Las propiedades de este grupo no se heredan en las Matrices de Enlace.
 <span id="Scripting"></span>
 == Programación de Scripts ==
 
-<div class="mw-translate-fuzzy">
-==Programación==
-</div>
+Véase también: [https://freecad.github.io/SourceDoc/ Documentación de la API autogenerada] y [[FreeCAD Scripting Basics|Conceptos básicos de scripting de FreeCAD]].
 
 <div class="mw-translate-fuzzy">
 La herramienta PathArray puede usarse en [[macros/es|macros]] y desde la consola de Python utilizando la siguiente función:
