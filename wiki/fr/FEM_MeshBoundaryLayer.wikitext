@@ -48,7 +48,7 @@ La couche limite présente l'avantage de créer des maillages anisotropes hautem
 
 Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l'aide de l'[[Property_View/fr|éditeur de propriétés]]. Après avoir modifié une propriété, vous devez rouvrir la fenêtre de dialogue Gmsh et cliquer sur le bouton {{Button|Appliquer}}. (Vous pouvez laisser la fenêtre de dialogue ouverte pendant la modification des propriétés).
 
-Vous pouvez créer autant de couches limites de maillage différentes que nécessaire.
+Vous pouvez créer autant de couches limites différentes de maillage que nécessaire.
 
 [[File:FEM_boundary_layer_2D.PNG|500px]]
 {{Caption|Exemple de couche limite en 2D autour d'un trou}}
