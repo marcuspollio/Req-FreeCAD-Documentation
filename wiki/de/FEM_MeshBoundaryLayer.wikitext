@@ -9,20 +9,18 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommandContainer|
 {{GuiCommand/de
 |Name=FEM MeshBoundaryLayer
-|Name/de=FEM NetzGrenzschicht
-|MenuLocation=Netz → Netz Begrenzungsschicht
+|Name/de=FEM NetzGrenzSchicht
+|MenuLocation=Netz → GMSH-Verfeinerungen → 2D-Begrenzungsschicht
 |Workbenches=[[FEM_Workbench/de|FEM]]
-|SeeAlso=[[FEM_tutorial/de|FEM Tutorium]]
+|SeeAlso=[[FEM_tutorial/de|FEM Tutorial]]
 }}
-{{GuiCommandFemInfo/de
+{{GuiCommandFemInfo
 |Solvers=Alle
 }}
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung==
