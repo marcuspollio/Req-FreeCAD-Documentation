@@ -127,12 +127,12 @@ Las propiedades de este grupo están ocultas para matrices ortogonales y matrice
 
 Las propiedades de este grupo están ocultas para matrices circulares y matrices polares. 
 
-* {{PropertyData|Interval X|VectorDistance}}: specifies the interval between elements in the X direction.
-* {{PropertyData|Interval Y|VectorDistance}}: specifies the interval between elements in the Y direction.
-* {{PropertyData|Interval Z|VectorDistance}}: specifies the interval between elements in the Z direction.
-* {{PropertyData|Number X|Integer}}: specifies the number of elements in the X direction. Must be at least {{Value|1}}.
-* {{PropertyData|Number Y|Integer}}: specifies the number of elements in the Y direction. Must be at least {{Value|1}}.
-* {{PropertyData|Number Z|Integer}}: specifies the number of elements in the Z direction. Must be at least {{Value|1}}.
+* {{PropertyData|Interval X|VectorDistance}}: especifica el intervalo entre elementos en la dirección X.
+* {{PropertyData|Interval Y|VectorDistance}}: especifica el intervalo entre elementos en la dirección Y.
+* {{PropertyData|Interval Z|VectorDistance}}: especifica el intervalo entre elementos en la dirección Z.
+* {{PropertyData|Number X|Integer}}: especifica el número de elementos en la dirección X. Debe ser al menos {{Value|1}}.
+* {{PropertyData|Number Y|Integer}}: especifica el número de elementos en la dirección Y. Debe ser al menos {{Value|1}}.
+* {{PropertyData|Number Z|Integer}}: especifica el número de elementos en la dirección Z. Debe ser al menos {{Value|1}}.
 
 {{Properties_Title|Polar array}}
 
