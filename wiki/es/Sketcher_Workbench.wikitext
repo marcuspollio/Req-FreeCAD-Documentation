@@ -216,9 +216,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 :* [[Archivo:Sketcher_ConstrainDistance.svg|32px]] [[Sketcher_ConstrainDistance|Dimensión de Distancia]]: Fija la longitud de una línea, la distancia entre dos puntos, la distancia perpendicular entre un punto y una línea; o la distancia entre los bordes de dos círculos o arcos, o entre el borde de un círculo o arco y una línea; o, {{Versión|1.0}}, la longitud de un arco.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 :* <span id="Sketcher_CompConstrainRadDia">[[File:Sketcher_ConstrainRadiam.svg|32px]] [[Sketcher_ConstrainRadiam|Radius/Diameter Dimension]]: Fixes the radius of arcs and B-spline weight circles, and the diameter of circles.</span><!--Do not edit span id: the Sketcher_CompConstrainRadDia pages redirect here-->
-</div>
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_ConstrainRadius.svg|32px]] [[Sketcher_ConstrainRadius/es|Radio]]: Define el radio de un arco o círculo seleccionado restringiendo el radio.
