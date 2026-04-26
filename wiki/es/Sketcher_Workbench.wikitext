@@ -380,9 +380,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[File:Sketcher_Move.svg|32px]] [[Sketcher_Move|Mover]]: Mueve la geometría seleccionada tomando como referencia el último punto seleccionado. No disponible en {{VersionPlus|1.0}}.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_RectangularArray.svg|32px]] [[Sketcher_RectangularArray/es|ordenación rectangular]]: Crea un conjunto de elementos seleccionados de croquis
-</div>
+* [[File:Sketcher_RectangularArray.svg|32px]] [[Sketcher_RectangularArray|Matriz Rectangular]]: Crea una matriz de elementos seleccionados del Boceto. No disponible en {{VersionPlus|1.0}}.
 
 <span id="Preferences"></span>
 <div class="mw-translate-fuzzy">
