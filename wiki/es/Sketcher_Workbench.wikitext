@@ -303,7 +303,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[File:Sketcher_Symmetry.svg|32px]] [[Sketcher_Symmetry|Espejo]]: Crea copias reflejadas de los elementos seleccionados.
 
-* [[Archivo:Sketcher_RemoveAxesAlignment.svg|32px]] [[Sketcher_RemoveAxesAlignment|Eliminar Alineación de Ejes]]: Elimina la alineación de ejes de los bordes seleccionados reemplazando las restricciones [[Sketcher_ConstrainHorizontal|Horizontal]] y [[Sketcher_ConstrainVertical|Vertical]] con las restricciones [[Sketcher_ConstrainParallel|Paralelo]] y [[Sketcher_ConstrainPerpendicular|Perpendicular]].
+* [[File:Sketcher_RemoveAxesAlignment.svg|32px]] [[Sketcher_RemoveAxesAlignment|Eliminar Alineación de Ejes]]: Elimina la alineación de ejes de los bordes seleccionados reemplazando las restricciones [[Sketcher_ConstrainHorizontal|Horizontal]] y [[Sketcher_ConstrainVertical|Vertical]] con las restricciones [[Sketcher_ConstrainParallel|Paralelo]] y [[Sketcher_ConstrainPerpendicular|Perpendicular]].
 
 * [[Archivo:Sketcher_DeleteAllGeometry.svg|32px]] [[Sketcher_DeleteAllGeometry|Eliminar toda la Geometría]]: Elimina toda la geometría y todas las restricciones del boceto.
 
