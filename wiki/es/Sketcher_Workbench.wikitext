@@ -335,9 +335,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 <span id="Visual_Helpers"></span>
 === Ayudantes visuales ===
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_SelectElementsWithDoFs.svg|32px]] [[Sketcher_SelectElementsWithDoFs/es|Selecciona los DOF del solucionador]]: Resalta en verde la geometría con grados de libertad (DOFs), es decir, no totalmente restringida.
-</div>
+* [[File:Sketcher_SelectElementsWithDoFs.svg|32px]] [[Sketcher_SelectElementsWithDoFs|Seleccionar Elementos Subrestringidos]]: Selecciona los elementos que no están completamente restringidos en el boceto.
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_SelectConstraints.svg|32px]] [[Sketcher_SelectConstraints/es|Seleccione Restricciones]]: Selecciona las restricciones de un elemento de dibujo
