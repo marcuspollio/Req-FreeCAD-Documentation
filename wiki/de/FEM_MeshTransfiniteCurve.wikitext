@@ -9,20 +9,19 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommandContainer|
-{{GuiCommand
+{{GuiCommand/de
 |Name=FEM MeshTransfiniteCurve
-|MenuLocation=Mesh → GMSH Refinements → Structured Transfinite Curve
-|Workbenches=[[FEM_Workbench|FEM]]
+|Name/de=FEM NetzTransfiniteKurve
+|MenuLocation=Netz → GMSH-Verfeinerungen → Strukturierte transfinite Kurve
+|Workbenches=[[FEM_Workbench/de|FEM]]
 |Version=1.2
-|SeeAlso=[[FEM_tutorial|FEM tutorial]]
+|SeeAlso=[[FEM_tutorial/de|FEM Tutorial]]
 }}
 {{GuiCommandFemInfo
-|Solvers=All
+|Solvers=Alle
 }}
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung==
