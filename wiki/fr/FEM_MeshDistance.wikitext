@@ -25,7 +25,7 @@
 
 ==Description==
 
-La commande '''FEM Maillage fonction de la distance''' permet de définir la taille des éléments du maillage en fonction de la distance par rapport aux sommets, aux arêtes et aux faces.
+La commande '''FEM Maillage fonction de la distance''' permet de définir la taille des éléments du maillage en fonction de la distance par rapport à des sommets, arêtes et faces.
 
 [[File:FM_mesh_distance_task_panel.PNG|400px]]
 {{Caption|Panneau des tâches de l'outil Maillage fonction de la distance}}
