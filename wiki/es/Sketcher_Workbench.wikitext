@@ -212,9 +212,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 :* [[Archivo:Sketcher_ConstrainDistanceX.svg|32px]] [[Sketcher_ConstrainDistanceX|Dimensión Horizontal]]: Fija la distancia horizontal entre dos puntos o los extremos de una línea. Si se preselecciona un solo punto, la distancia es relativa al origen del boceto.
 
-<div class="mw-translate-fuzzy">
-* [[File:Sketcher_ConstrainDistanceY.svg|32px]][[Sketcher_ConstrainDistanceY/es|Distancia Vertical]]: Fija la distancia vertical entre dos puntos o puntos finales de líneas. Si solo se selecciona uno, la distancia se define respecto al origen.
-</div>
+:* [[Archivo:Sketcher_ConstrainDistanceY.svg|32px]] [[Sketcher_ConstrainDistanceY|Dimensión Vertical]]: Fija la distancia vertical entre dos puntos o los extremos de una línea. Si se preselecciona un solo punto, la distancia es relativa al origen del boceto.
 
 <div class="mw-translate-fuzzy">
 * [[File:Sketcher_ConstrainDistance.svg|32px]] [[Sketcher_ConstrainDistance/es|Distancia]]: Define la distancia de una línea seleccionada limitando su longitud, o define la distancia entre dos puntos limitando la distancia entre ellos.
