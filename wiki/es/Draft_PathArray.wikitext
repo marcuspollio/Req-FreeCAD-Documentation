@@ -9,15 +9,13 @@
 |IconC=Workbench_Draft.svg
 }}
 
-<div class="mw-translate-fuzzy">
-{{GuiCommand/es
+{{GuiCommand
 |Name=Draft PathArray
-|Name/es=Draft PathArray
-|MenuLocation=Draft → PathArray
-|Workbenches=[[Draft_Workbench/es|Draft]], [[Arch_Workbench/es|Arch]]
-|SeeAlso=[[Draft Array/es|Draft Array]]
+|MenuLocation=Modificación → Herramientas de matriz → Matriz de ruta<br>Modicar → Matriz de ruta
+|Workbench=[[Draft_Workbench|Borrador]], [[BIM_Workbench|BIM]]
+|Version=0.14
+|SeeAlso=[[Draft_OrthoArray|Borrador Matriz Ortogonal]], [[Draft_PolarArray|Borrador Matriz Polar]], [[Draft_CircularArray|Borrador Matriz Circular]], [[Draft_PathLinkArray|Borrador Matriz de Enlaces de Ruta]], [[Draft_PointArray|Borrador Matriz de Puntos]], [[Draft_PointLinkArray|Borrador Matriz de enlaces de Puntos]]
 }}
-</div>
 
 <span id="Description"></span>
 ==Descripción==
