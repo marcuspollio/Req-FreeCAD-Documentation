@@ -21,10 +21,12 @@
 
 La herramienta [[Image:Sketcher_MapSketch.svg|24px]] [[Sketcher_MapSketch|Sketcher MapSketch]] adjunta un boceto a la geometría seleccionada.
 
-Typical use cases are:
-* The sketch was created on a standard plane (XY, XZ or YZ) and you want to attach it to the face of a solid in order to build a new feature upon it.
-* The sketch was attached to a specific face of a solid but you need to attached it to a different face.
-* A broken model needs to be repaired.
+Los casos de uso típicos son:
+* El boceto se creó en un plano estándar (XY, XZ o YZ) y se desea adjuntarlo a la cara de un sólido para crear una nueva operación sobre él.
+
+* El boceto se adjuntó a una cara específica de un sólido, pero se necesita adjuntarlo a otra cara.
+
+* Es necesario reparar un modelo dañado.
 
 [[File:Sketcher_MapSketch_00.png|480px|none]]
 
