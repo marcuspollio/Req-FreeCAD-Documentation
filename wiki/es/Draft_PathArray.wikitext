@@ -22,7 +22,7 @@
 
 El comando [[Image:Draft_PathArray.svg|24px]] '''Borrador Matriz de Ruta''' crea una matriz regular a partir de un objeto seleccionado colocando copias a lo largo de una ruta. Utilice el comando [[Draft_PathLinkArray|Borrador Matriz de Enlace de Ruta]] para crear una Matriz de [[App_Link|Enlace]] más eficiente. Excepto por el tipo de matriz que se crea, matriz Link o matriz regular, el comando [[Draft_PathLinkArray|Borrador Matriz de Enlace de Ruta]] es idéntico a este comando.
 
-Both commands can be used on 2D objects created with the [[Draft_Workbench|Draft Workbench]] or [[Sketcher_Workbench|Sketcher Workbench]], but also on many 3D objects such as those created with the [[Part_Workbench|Part Workbench]], [[PartDesign_Workbench|PartDesign Workbench]] or [[BIM_Workbench|BIM Workbench]].
+Ambos comandos se pueden usar en objetos 2D creados con el [[Draft_Workbench|Entorno de Trabajo de Borrador]] o el [[Sketcher_Workbench|Entorno de Trabajo de Boceto]], pero también en muchos objetos 3D como los creados con el [[Part_Workbench|Ambiente de Trabajo de Pieza]], el [[PartDesign_Workbench|Entorno de Trabajo de Diseño de Pieza]] o el [[BIM_Workbench|Entorno de Trabajo de Arquitectura]].
 
 [[Image:Draft_PathArray_Example.png|400px]]
 {{Caption|Draft PathArray}}
