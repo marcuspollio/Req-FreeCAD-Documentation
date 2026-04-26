@@ -189,7 +189,7 @@ Por ejemplo, una dimensión desde el origen hasta el centro de un círculo que s
 |-
 | {{MenuCommand|Menú Contextual}}
 | Al hacer clic con el botón derecho en el fondo de la lista o en las restricciones seleccionadas, se abre un menú contextual. Este menú ofrece las siguientes opciones:
-* {{MenuCommand|Cambiar valor}}: Cambia el valor de una restricción dimensional. Solo funciona para una restricción. También puede hacer doble clic en la restricción de la lista o en su valor en la [[Vista 3D|Vista 3D]].
+* {{MenuCommand|Cambiar valor}}: Cambia el valor de una restricción dimensional. Solo funciona para una restricción. También puede hacer doble clic en la restricción de la lista o en su valor en la [[3D_View|Vista 3D]].
 * {{MenuCommand|Alternar restricción de referencia/control}}: Consulte [[Sketcher_ToggleDrivingConstraint|Sketcher ToggleDrivingConstraint]].
 * {{MenuCommand|Desactivar}} o {{MenuCommand|Activar}}: Consulte [[Sketcher_ToggleActiveConstraint|Sketcher ToggleActiveConstraint]].
 * {{MenuCommand|Mostrar restricciones}}: Funciona igual que marcar la casilla de restricción. Pero, a diferencia de la casilla de verificación, también funciona para más de una restricción.
