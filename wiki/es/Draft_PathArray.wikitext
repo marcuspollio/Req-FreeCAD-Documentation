@@ -65,7 +65,7 @@ Este modo utiliza el vector normal local derivado de la trayectoria en cada ubic
 <span id="Tangent"></span>
 ==== Tangente ====
 
-This mode is similar to {{PropertyData|Align Mode}} {{Value|Original}} but includes the possibility to pre-rotate the source object by specifying a {{PropertyData|Tangent Vector}}.
+Este modo es similar al {{PropertyData|Modo de Alineación}} {{Value|Original}} pero incluye la posibilidad de pre-rotar el objeto de origen especificando un {{PropertyData|Vector tangente}}.
 
 ===Force Vertical and Vertical Vector===
 
