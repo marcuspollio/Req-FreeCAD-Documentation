@@ -44,7 +44,7 @@ Para mostrar el flujo de trabajo y las posibilidades del Entorno de Trabajo de B
 
 * Activar todos los botones de ajuste es práctico, pero también ralentiza el dibujo, ya que se requiere más cálculo al mover el cursor del ratón. A menudo es mejor mantener solo los que realmente vaya a usar.
 
-* Comencemos activando el modo de construcción, que nos permitirá dibujar algunas guías sobre las que trazaremos la geometría final. Para ello, pulse el comando [[Image:Draft_ToggleConstructionMode.svg|24px]] [[Draft_ToggleConstructionMode|Toggle construction mode]].
+* Comencemos activando el modo de construcción, que nos permitirá dibujar algunas guías sobre las que trazaremos la geometría final. Para ello, pulse el comando [[Image:Draft_ToggleConstructionMode.svg|24px]] [[Draft_ToggleConstructionMode|Alternar al modo de construcción]].
 
 * Si lo prefiere, puede establecer el plano de trabajo en XY. Esto bloqueará el plano de trabajo, asegurando que permanezca en el plano XY, independientemente de cómo cambie la vista. Si decide no hacerlo, el plano de trabajo se adaptará automáticamente a la vista actual, por lo que deberá asegurarse de estar en la vista superior siempre que desee dibujar en el plano XY (suelo) para evitar cambios de orientación involuntarios.
 
