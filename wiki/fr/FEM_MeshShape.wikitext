@@ -36,8 +36,8 @@ La commande '''FEM Maillage intérieur/extérieur''' permet de définir la taill
 # Pour activer la commande, il faut d'abord fournir un [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/fr|maillage Gmsh]].
 # Sélectionnez l'objet Mesh dans l'[[Tree_View/fr|arborescence]].
 # Il existe plusieurs façons de lancer la commande :
-#* Appuyez sur le bouton {{Button|[[Image:FEM_MeshShape.svg|16px]] [[FEM_MeshShape/fr|Affinage basé sur la forme]]}}.
-#* Sélectionnez l'option {{MenuCommand|Maillage → Affinements Gmsh → [[Image:FEM_MeshShape.svg|16px]] Affinage basé sur la forme}} du menu.
+#* Appuyez sur le bouton {{Button|[[Image:FEM_MeshShape.svg|16px]] [[FEM_MeshShape/fr|Densification fonction d'une forme]]}}.
+#* Sélectionnez l'option {{MenuCommand|Maillage → Densifications sous Gmsh → [[Image:FEM_MeshShape.svg|16px]] Densification fonction d'une forme}} du menu.
 # Modifiez la taille à l'intérieur et à l'extérieur de la forme ainsi que l'épaisseur de la couche de transition entre les tailles du maillage intérieur et extérieur (ajoutée à l'extérieur de la forme).
 # Sélectionnez la forme dans la liste déroulante et ajustez son emplacement et sa taille à l'aide des champs de saisie ou des poignées de la [[3D_View/fr|vue 3D]] :
 #* ''Pavé droit'' : définissez les coordonnées du centre, la longueur, la largeur et la hauteur.
