@@ -49,20 +49,20 @@ El comando se puede utilizar en objetos 2D creados con el [[Draft_Workbench|Ambi
 <span id="Options"></span>
 ==Opciones==
 
-* Optionally press the {{Button|Switch to ... Mode}} button: {{Version|1.1}}
-** Linear Mode: {{Version|1.1}}
-**# Select the {{MenuCommand|X axis}}, {{MenuCommand|Y axis}} or {{MenuCommand|Z axis}} radio button to specify the direction of the array.
-**# Enter the {{MenuCommand|Number of Elements}}.
-**# Enter the {{MenuCommand|Interval}}.
-** Ortho Mode:
-**# Enter the {{MenuCommand|Number of Elements}} for the X, Y and Z directions. This number must be at least {{Value|1}} for every direction.
-**# Enter the {{MenuCommand|X Intervals}} to specify the displacement for the elements in the X direction. For a rectangular array the Y and Z values must be {{Value|0}}.
-**# Enter the {{MenuCommand|Y Intervals}} to specify the displacement for the elements in the Y direction. For a rectangular array the X and Z values must be {{Value|0}}.
-**# Enter the {{MenuCommand|Z Intervals}} to specify the displacement for the elements in the Z direction. For a rectangular array the X and Y values must be {{Value|0}}.
-* Press the {{Button|Reset X}}, {{Button|Reset Y}} or {{Button|Reset Z}} button to reset the interval in the given direction to the default.
-* If the {{MenuCommand|Fuse}} checkbox is checked overlapping elements in the array are fused.
-* If the {{MenuCommand|Link array}} checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [[App_Link|App Link]] objects.
-* Press {{KEY|Esc}} or the {{Button|Cancel}} button to abort the command.
+* Opcionalmente, pulse el botón {{Button|Switch to ... Mode}}: {{Version|1.1}}
+** Modo lineal: {{Version|1.1}}
+**# Seleccione el botón de opción {{MenuCommand|eje X}}, {{MenuCommand|eje Y}} o {{MenuCommand|eje Z}} para especificar la dirección de la matriz.
+**# Introduzca el {{MenuCommand|Número de elementos}}.
+**# Introduzca el {{MenuCommand|Intervalo}}.
+** Modo ortogonal:
+**# Introduzca el {{MenuCommand|Numbero de elementos}} para las direcciones X, Y y Z. Este número debe ser al menos {{Value|1}} para cada dirección.
+**# Introduzca los {{MenuCommand|Intervalos de X}} para especificar el desplazamiento de los elementos en la dirección X. Para una matriz rectangular, los valores Y y Z deben ser {{Value|0}}.
+**# Introduzca los {{MenuCommand|Intervalos de Y}} para especificar el desplazamiento de los elementos en la dirección Y. Para una matriz rectangular, los valores X y Z deben ser {{Value|0}}.
+**# Introduzca los {{MenuCommand|Intervalos de Y}} para especificar el desplazamiento de los elementos en la dirección Z. Para una matriz rectangular, los valores X e Y deben ser {{Value|0}}.
+* Pulse el botón {{Button|Reiniciar X}}, {{Button|Reiniciar Y}} o {{Button|Reiniciar Z}} para restablecer el intervalo en la dirección indicada al valor predeterminado.
+* Si la casilla {{MenuCommand|Fusionar}} está marcada, los elementos superpuestos de la matriz se fusionan.
+* Si la casilla {{MenuCommand|Matriz de enlaces}} está marcada, se crea una matriz de enlaces en lugar de una matriz normal. Una matriz de enlaces es más eficiente porque sus elementos son objetos [[App_Link|App Link]].
+* Pulse {{KEY|Esc}} o el botón {{Button|Cancel}} para cancelar el comando.
 
 <span id="Notes"></span>
 ==Notas==
