@@ -72,9 +72,7 @@ Para crear un croquis o boceto que sirva como perfil para generar sólidos, se d
 3. Aristas duplicadas (puntos finales de aristas superpuestas resaltados por la [[Sketcher_ValidateSketch|Herramienta de Validación de Bocetos]])<br>
 4. Conexiones en T}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-These rules do not apply to construction geometry (default color blue), which is not shown outside edit mode, or if the sketch is used for a different purpose. Depending on the workbench and the tool that will use the profile sketch, additional restrictions may apply.
-</div>
+Estas reglas no se aplican a la geometría de construcción (color azul por defecto), que no se muestra fuera del modo de edición, ni si el boceto se utiliza para otro fin. Dependiendo del entorno de trabajo y de la herramienta que utilice el boceto de perfil, pueden aplicarse restricciones adicionales.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Tools ==
