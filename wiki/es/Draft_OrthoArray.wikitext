@@ -134,7 +134,7 @@ Las propiedades de este grupo están ocultas para matrices circulares y matrices
 * {{PropertyData|Number Y|Integer}}: especifica el número de elementos en la dirección Y. Debe ser al menos {{Value|1}}.
 * {{PropertyData|Number Z|Integer}}: especifica el número de elementos en la dirección Z. Debe ser al menos {{Value|1}}.
 
-{{Properties_Title|Polar array}}
+{{Properties_Title|Matriz polar}}
 
 The properties in this group are hidden for circular arrays and orthogonal arrays. 
 
