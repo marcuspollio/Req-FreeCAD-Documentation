@@ -78,7 +78,7 @@ Véase también: [https://freecad.github.io/SourceDoc/ Documentación de la API 
 
 Para crear una matriz polar paramétrica, utilice el método {{incode|make_array}} ({{Version|0.19}}) del módulo Borrador. Este método reemplaza al método obsoleto {{incode|makeArray}}. El método {{incode|make_array}} puede crear [[Draft_OrthoArray|Borrador Matriz Ortogonal]], Draft PolarArrays y [[Draft_CircularArray|Borrador Matriz Circular]]. Para cada tipo de matriz, hay uno o más contenedores disponibles.
 
-The main method:
+El método principal:
 
 {{Code|code=
 array = make_array(base_object, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None, use_link=True)
