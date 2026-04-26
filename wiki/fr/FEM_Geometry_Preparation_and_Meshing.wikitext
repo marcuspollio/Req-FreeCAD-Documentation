@@ -149,7 +149,7 @@ Un autre type de symétrie, moins courant, disponible dans FreeCAD FEM est la sy
 Ce qu'on appelle le partitionnement est une division de la géométrie en segments plus petits. Dans d'autres logiciels, il est couramment utilisé pour permettre le maillage hexagonal, mais dans FreeCAD, il peut également être utile pour d'autres raisons :
 * créer des sous-régions pour l'attribution de fonctions d'analyse,
 * diviser des pièces en sections composées de différents matériaux,
-* créer des régions pour l'[[FEM_MeshRegion/fr|affinement du maillage]],
+* créer des régions pour une [[FEM_MeshRegion/fr|densification du maillage]],
 * contrôler l'algorithme de maillage en le forçant à suivre des arêtes supplémentaires (particulièrement utile pour contrôler la [[FEM_MeshGmshFromShape/fr#Croissance_du_maillage|croissance du maillage Gmsh]]).
 
 <span id="Partitioning_faces_of_solids_with_sketches"></span>
