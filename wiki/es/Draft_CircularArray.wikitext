@@ -93,13 +93,13 @@ array = make_circular_array(base_object,
                             use_link=True)
 }}
 
-* {{incode|base_object}} is the object to be arrayed. It can also be the {{incode|Label}} (string) of an object in the current document.
-* {{incode|r_distance}} and {{incode|tan_distance}} are the radial and tangential distances between the elements.
-* {{incode|number}} is the number of circular layers in the pattern, the original object counts as the first layer.
-* {{incode|symmetry}} is an integer used in some calculations that affect the way the elements are distributed around the circumferences. Usual values are from 1 to 6. Higher values are not recommended and will make the elements in the inner layers disappear.
-* {{incode|axis}} and {{incode|center}} are vectors that describe the direction of the axis of rotation, and a point through which that axis passes.
-* If {{incode|use_link}} is {{incode|True}} the created elements are [[App_Link|App Links]] instead of regular copies.
-* {{incode|array}} is returned with the created array object.
+* {{incode|base_object}} es el objeto que se va a agrupar. También puede ser la {{incode|Label}} (cadena de texto) de un objeto en el documento actual.
+* {{incode|r_distance}} y {{incode|tan_distance}} son las distancias radial y tangencial entre los elementos.
+* {{incode|number}} es el número de capas circulares en el patrón; el objeto original cuenta como la primera capa.
+* {{incode|symmetry}} es un número entero que se utiliza en algunos cálculos que afectan a la distribución de los elementos alrededor de las circunferencias. Los valores habituales van de 1 a 6. No se recomiendan valores superiores, ya que harán que los elementos de las capas internas desaparezcan.
+* {{incode|axis}} y {{incode|center}} son vectores que describen la dirección del eje de rotación y un punto por el que pasa dicho eje.
+* Si {{incode|use_link}} es {{incode|True}}, los elementos creados son [[App_Link|App Links]] en lugar de copias normales.
+* {{incode|array}} se devuelve con el objeto array creado.
 
 Ejemplo:
 
