@@ -3,6 +3,7 @@
 
 {{Macro|Name=DXF to 3D converter|Description=Automated tool to convert DXF profiles into 3D objects by defining a custom length.|Author=Aris Drosiou|Version=1.0.0|Date=2026-04-26|FCVersion=0.19 or above|Download=[https://wiki.freecad.org/images/placeholder.png Icon]}}
 
+{{MacroCode|code=
 __Name__ = "DXF to 3D converter"
 __Comment__ = "Automated tool to convert DXF profiles into 3D objects by defining a custom length."
 __Author__ = "Aris Drosiou"
@@ -193,6 +194,6 @@ for widget in QtGui.QApplication.allWidgets():
 
 steel_panel = DXFTo3DPanel()
 steel_panel.show()
-
+}}
 
 </translate>
