@@ -33,19 +33,17 @@ El comando puede usarse en objetos 2D creados con el [[Draft_Workbench/es|Ambien
 
 Ver también: [[Draft_Snap/es|Borrador Atrapar]]
 
-<div class="mw-translate-fuzzy">
-# Opcionalmente selecciona un objeto.
+# Opcionalmente, seleccione un objeto.
 # Hay varias formas de invocar el comando:
-#* Pulsar el {{Button|[[Image:Draft_CircularArray.svg|16px]] [[Draft_CircularArray/es|Borrador ArregloCircular]]}}.
-#* Selecciona la opción {{MenuCommand|Modificación → Herramientas de arreglo →[[Image:Draft_CircularArray.svg|16px]] Arreglo circular}} opción del menú.
-# Se abre el panel de tareas {{MenuCommand|Arreglo circular}}. Ver [[#Opciones|Opciones]] para más información.
+#* Pulse el {{Button|[[Image:Draft_CircularArray.svg|16px]] [[Draft_CircularArray/es|Borrador Matriz Circular]]}}.
+#* Seleccione la opción {{MenuCommand|Modificación → Herramientas de matriz →[[Image:Draft_CircularArray.svg|16px]] Matriz circular}} opción del menú.
+# Se abre el panel de tareas {{MenuCommand|Matriz Circular}}. Explore [[#Opciones|Opciones]] si desea información adicional.
 # Si aún no ha seleccionado ningún objeto: seleccione un objeto.
 # Introduzca los parámetros necesarios en el panel de tareas.
 # Para terminar el comando haga una de las siguientes cosas:
 #* Elija un punto en la [[3D_view/es|Vista 3D]] para el {{MenuCommand|Centro de rotación}}.
-#* Pulsa {{KEY|Enter}}.
-#* Pulsar el botón {{Button|Aceptar}}.
-</div>
+#* Pulse {{KEY|Enter}}.
+#* Pulse finalmente el botón {{Button|Aceptar}} para confirmar.
 
 <span id="Options"></span>
 ==Opciones==
