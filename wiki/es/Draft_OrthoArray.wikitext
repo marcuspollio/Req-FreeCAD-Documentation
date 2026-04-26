@@ -154,7 +154,7 @@ Las propiedades de este grupo están ocultas para matrices ortogonales.
 
 {{Properties_Title|Enlace}}
 
-The properties in this group, with the exception of the inherited property, are only available for Link arrays. See [[Std_LinkMake#Properties|Std LinkMake]] for more information.
+Las propiedades de este grupo, con la excepción de la propiedad heredada, solo están disponibles para matrices de enlace. Consulte [[Std_LinkMake#Properties|Std LinkMake]] para obtener más información.
 
 * {{PropertyView|Draw Style|Enumeration}}
 * {{PropertyView|Line Width|FloatConstraint}}
