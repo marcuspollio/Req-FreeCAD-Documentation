@@ -72,7 +72,7 @@ Este flujo de trabajo mediante teclado acelera el dibujo, especialmente al traba
 
 [[Image:Exercise_cabin_03.jpg]]
 
-Eso es todo lo que necesitamos ahora para desactivar el modo de construcción. Compruebe que toda la geometría de construcción se haya colocado en un grupo de "Construcción", lo que facilita ocultarla de una vez o incluso eliminarla por completo más adelante.
+Eso es todo lo que necesitamos ahora para desactivar el modo de construcción. Compruebe que toda la geometría de construcción se haya colocado en un grupo de "Construcción", lo que facilitará ocultarla de una vez o incluso eliminarla por completo más adelante.
 
 Ahora vamos a dibujar nuestras dos piezas de pared usando la herramienta [[Image:Draft_Wire.svg|16px]] [[Draft_Wire|Cable]]. Asegúrese de que la opción [[Image:Draft_Snap_Intersection.svg|16px]] [[Draft_Snap|Ajuste de intersección]] esté activada, ya que necesitaremos ajustarnos a las intersecciones de nuestras líneas y rectángulos. Dibuje dos polilíneas como se muestra a continuación, haciendo clic en todos los puntos de sus contornos. Para cerrarlos, haga clic de nuevo en el primer punto o pulse el botón '''Cerrar''':
 
