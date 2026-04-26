@@ -40,7 +40,7 @@ La commande '''FEM Courbe structurée transfinie''' crée un nombre fixe de nœu
 #* Sélectionnez l'option {{MenuCommand|Maillage → Affinements Gmsh → [[Image:FEM_MeshTransfiniteCurve.svg|16px]] Courbe structurée transfinie}} du menu.
 # Sélectionnez le type de distribution des nœuds sur une arête :
 #* ''Constante'' : spécifiez le nombre de nœuds.
-#* ''Densification bilatérale'' : affinage sur les deux extrémités de la courbe : spécifiez le nombre de nœuds et le coefficient.
+#* ''Densification bilatérale'' : densification aux deux extrémités de la courbe : spécifiez le nombre de nœuds et le coefficient.
 #* ''Progression'' : progression géométrique de puissance x : spécifiez le nombre de nœuds et le coefficient x (par exemple, 2 signifie que chaque élément de l'arête sera deux fois plus long que le précédent)
 # Vous pouvez cocher la case ''Inverser''.
 # Cliquez sur le bouton {{Button|Ajouter}}. Sélectionnez un sommet, une arête ou une face. Pour supprimer des objets de la sélection, cliquez sur le bouton {{Button|Supprimer}}.
