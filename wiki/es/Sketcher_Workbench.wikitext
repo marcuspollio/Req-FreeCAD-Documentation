@@ -328,9 +328,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * [[File:Sketcher_BSplineDecreaseKnotMultiplicity.svg|32px]] [[Sketcher_BSplineDecreaseKnotMultiplicity|Disminuir la multiplicidad del nudo]]: Disminuye la multiplicidad de un nudo B-spline.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[File:Sketcher_BSplineInsertKnot.svg|32px]] [[Sketcher_BSplineInsertKnot|Insert Knot]]: Inserts a knot into a B-spline or increases the multiplicity of an existing knot.
-</div>
+* [[File:Sketcher_BSplineInsertKnot.svg|32px]] [[Sketcher_BSplineInsertKnot|Insertar nudo]]: Inserta un nudo en una B-spline o aumenta la multiplicidad de un nudo existente.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[File:Sketcher_JoinCurves.svg|32px]] [[Sketcher_JoinCurves|Join Curves]]: Creates a B-spline by joining two existing B-splines or other edges.
