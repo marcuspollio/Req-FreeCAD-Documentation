@@ -483,9 +483,7 @@ Para seleccionar todo dentro de un boceto, utilice el atajo de teclado estándar
 <span id="Copy,_cut_and_paste"></span>
 == Copiar, cortar y pegar ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Version|1.0}}
-</div>
 
 Los atajos de teclado estándar, {{KEY|Ctrl}}+{{KEY|C}}, {{KEY|Ctrl}}+{{KEY|X}} y {{KEY|Ctrl}}+{{KEY|V}}, permiten copiar, cortar y pegar la geometría seleccionada del Croquizador, incluyendo las restricciones asociadas. Estas herramientas también están disponibles en el menú {{MenuCommand|Croquizador → Herramientas del Croquizador}}. Se pueden usar dentro del mismo boceto, así como entre distintos bocetos o instancias separadas de FreeCAD. Dado que los datos se copian al portapapeles en forma de código Python, también se pueden utilizar de otras maneras (por ejemplo, compartirlos en el foro).
 
