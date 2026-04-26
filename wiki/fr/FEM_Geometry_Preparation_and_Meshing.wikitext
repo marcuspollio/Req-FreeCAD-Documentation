@@ -316,7 +316,7 @@ Indépendamment de ces conseils, il est important de souligner une fois de plus 
 == Études sur la convergence des maillages ==
 
 Les études de convergence de maillage sont recommandées dans tous les projets sérieux nécessitant des résultats précis. En effet, les résultats peuvent changer considérablement et s'approcher des valeurs correctes lorsque le maillage est affiné. L'approche suivante doit être utilisée :
-# Après avoir obtenu les premiers résultats et les avoir notés (généralement la contrainte de von Mises maximale, la contrainte de von Mises à un endroit donné et le déplacement maximal), affiner le maillage (globalement ou mieux localement avec [[FEM_MeshRegion/fr|FEM Mailler plus finement]]) et réexécuter la simulation.
+# Après avoir obtenu les premiers résultats et les avoir notés (généralement la contrainte de von Mises maximale, la contrainte de von Mises à un endroit donné et le déplacement maximal), affiner le maillage (globalement ou mieux localement avec une [[FEM_MeshRegion/fr|densification du maillage]]) et réexécuter la simulation.
 # Vérifiez les résultats et notez leurs nouvelles valeurs. S'ils diffèrent significativement des résultats initiaux, affinez encore le maillage et relancez l'analyse.
 # Répétez le processus si les résultats changent encore (généralement en augmentant) de manière significative avec l'affinement du maillage.
 Il est généralement utile de créer un graphique avec un résultat donné en fonction de la densité du maillage. De cette façon, il est plus facile de remarquer quand les résultats commencent à converger. La différence acceptable dans les résultats entre deux exécutions est généralement de l'ordre de quelques pour cent (par exemple, moins de 5 %).
