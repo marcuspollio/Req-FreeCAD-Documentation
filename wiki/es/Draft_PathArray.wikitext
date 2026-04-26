@@ -142,7 +142,8 @@ Las propiedades de este grupo solo están disponibles para Matrices de Enlace. C
 * {{PropertyData|Start Offset|Longitud}}: especifica la longitud desde el inicio de la ruta hasta la primera copia. Debe ser menor que la longitud de la ruta. {{Version|0.21}}
 * {{PropertyData|Use Spacing Pattern|Bool}}: utiliza patrones de espaciado repetitivos en lugar de espaciado uniforme. {{Version|1.1}}
 
-===View===
+<span id="View"></span>
+=== Vista ===
 
 {{Properties_Title|Link}}
 
