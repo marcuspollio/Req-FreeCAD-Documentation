@@ -2,7 +2,7 @@
 
 {{Docnav/fr
 |[[FEM_MeshBoundaryLayer/fr|Couche limite de maillage]]
-|[[FEM_MeshManipulate/fr|Manipuler l'affinage]]
+|[[FEM_MeshManipulate/fr|Manipuler la densification]]
 |[[FEM_Workbench/fr|Atelier FEM]]
 |IconL=FEM_MeshBoundaryLayer.svg
 |IconR=FEM_MeshManipulate.svg
@@ -54,7 +54,7 @@ Une fois que le maillage a été créé, vous pouvez modifier ses propriétés �
 Vous pouvez créer autant de densifications différentes fonction de formes que nécessaire.
 
 [[File:FEM_shape_based_refinement.PNG|500px]]
-{{Caption|Exemple d'affinage de maillage basé sur la forme à l'aide d'une sphère}}
+{{Caption|Exemple de densification d'un maillage fonction d'une forme, ici une sphère}}
 
 
 {{Docnav/fr
