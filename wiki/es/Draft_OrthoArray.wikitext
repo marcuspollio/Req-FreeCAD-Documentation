@@ -144,7 +144,7 @@ Las propiedades de este grupo están ocultas para matrices circulares y matrices
 
 {{Properties_Title|Matriz polar/circular}}
 
-The properties in this group are hidden for orthogonal arrays.
+Las propiedades de este grupo están ocultas para matrices ortogonales.
 
 * {{PropertyData|Axis|Vector}}: specifies the direction of the axis of the array.
 * {{PropertyData|Center|VectorDistance}}: specifies the center point of the array. The axis of the array passes through this point. For circular arrays it is an offset from the {{PropertyData|Placement}} of the {{PropertyData|Base}} object.
