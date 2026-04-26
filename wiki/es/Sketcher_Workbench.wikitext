@@ -273,9 +273,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 * <span id="Sketcher_CompCurveEdition">[[Image:Sketcher_Trimming.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] Edit Edge:</span><!--Do not edit span id: the Sketcher_CompCurveEdition pages redirect here-->
 
-<div class="mw-translate-fuzzy">
-* [[Image:Sketcher_Trimming.svg|32px]] [[Sketcher_Trimming/es|Recortar]]: Recorta una línea, círculo o arco con respecto al punto designado.
-</div>
+:* [[Image:Sketcher_Trimming.svg|32px]] [[Sketcher_Trimming|Recorte de Borde]]: Recorta un borde en las intersecciones más cercanas con otros bordes.
 
 <div class="mw-translate-fuzzy">
 * [[Image:Sketcher_Split.svg|32px]] [[Sketcher_Split/es|Dividir]]: Divide una línea o un arco en dos, convierte un círculo en un arco manteniendo la mayoría de las restricciones.  {{Version/es|0.20}}
