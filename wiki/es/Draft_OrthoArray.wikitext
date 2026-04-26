@@ -113,7 +113,7 @@ Las propiedades de este grupo están ocultas para matrices ortogonales y matrice
 
 * {{PropertyData|Always Sync Placement|Bool}}
 
-{{Properties_Title|Objects}}
+{{Properties_Title|Objetos}}
 
 * {{PropertyData|Array Type|Enumeration}}: specifies the type of array, which can be {{value|ortho}}, {{value|polar}} or {{value|circular}}.
 * {{PropertyData|Axis Reference|LinkGlobal}}: specifies the object and edge to be used instead of the {{PropertyData|Axis}} and {{PropertyData|Center}} properties. Not used for orthogonal arrays.
