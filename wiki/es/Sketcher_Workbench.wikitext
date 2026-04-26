@@ -269,7 +269,7 @@ A continuación se muestran las herramientas para crear [[#Constraints|restricci
 
 :* [[File:Sketcher_CreateFillet.svg|32px]] [[Sketcher_CreateFillet|Redondeo]]: Crea un redondeo entre dos bordes no paralelos. {{Version|1.0}}: La herramienta también puede crear un chaflán.
 
-:* [[Image:Sketcher_CreateChamfer.svg|32px]] [[Sketcher_CreateChamfer|Chaflán]]: crea un chaflán entre dos aristas no paralelas. Esta es la misma herramienta que [[Sketcher_CreateFillet|Redondeo]] pero con un modo inicial diferente. {{Version|1.0}}
+:* [[File:Sketcher_CreateChamfer.svg|32px]] [[Sketcher_CreateChamfer|Chaflán]]: crea un chaflán entre dos aristas no paralelas. Esta es la misma herramienta que [[Sketcher_CreateFillet|Redondeo]] pero con un modo inicial diferente. {{Version|1.0}}
 
 * <span id="Sketcher_CompCurveEdition">[[Image:Sketcher_Trimming.svg|x32px]][[Image:Toolbar_flyout_arrow_blue_background.svg|x32px]] Edit Edge:</span><!--Do not edit span id: the Sketcher_CompCurveEdition pages redirect here-->
 
