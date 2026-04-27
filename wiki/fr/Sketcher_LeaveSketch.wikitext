@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Sketcher_MirrorSketch/fr|Esquisse miroir]]
 |[[Sketcher_ViewSketch/fr|Vue de l'esquisse]]
@@ -8,6 +9,7 @@
 |IconR=Sketcher_ViewSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{GuiCommand/fr
 |Name=Sketcher LeaveSketch
@@ -34,6 +36,7 @@ L'outil [[Image:Sketcher_LeaveSketch.svg|24px]] [[Sketcher_LeaveSketch/fr|Sketch
 # La boîte de dialogue de Sketcher se ferme.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Sketcher_MirrorSketch/fr|Esquisse miroir]]
 |[[Sketcher_ViewSketch/fr|Vue de l'esquisse]]
@@ -42,6 +45,7 @@ L'outil [[Image:Sketcher_LeaveSketch.svg|24px]] [[Sketcher_LeaveSketch/fr|Sketch
 |IconR=Sketcher_ViewSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
