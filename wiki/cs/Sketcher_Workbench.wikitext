@@ -108,6 +108,10 @@ Pokud je skica v režimu úprav, panel nástrojů Struktura je skrytý, protože
 
 * [[Image:Sketcher_LeaveSketch.svg|32px]] [[Sketcher_LeaveSketch/cs|Opustit náčrt]]: Ukončí režim úprav náčrtu a zavře [[Sketcher_Dialog/cs|dialogové okno Sketcher]].
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_CancelSketch.svg|32px]] [[Sketcher_CancelSketch|Cancel Editing]]: Leaves sketch edit mode, reverts any changes, and closes the [[Sketcher_Dialog|Sketcher Dialog]]. {{Version|1.2}}
+</div>
+
 * [[Image:Sketcher_ViewSketch.svg|32px]] [[Sketcher_ViewSketch/cs|Zarovnat pohled ke skice]]: Zarovná [[3D_View/cs|3D pohled]] ke skice.
 
 * [[Image:Sketcher_ViewSection.svg|32px]] [[Sketcher_ViewSection/cs|Přepnout zobrazení sekce]]: Přepne dočasnou rovinu sekce, která skryje všechny objekty a části objektů před rovinou náčrtu.
