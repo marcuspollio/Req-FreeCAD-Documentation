@@ -84,7 +84,7 @@ Este proceso podría resultar útil si los bocetos con geometría externa no se 
 <span id="Constraint_Orientation_Locking"></span>
 === Bloqueo de la orientación de las restricciones ===
 
-Tangent and perpendicular constraints are implemented (via-point).
+Se implementan restricciones de tangencia y perpendicularidad (vía punto).
 
 Internally they work by constraining the angle between tangent vectors. With tangent constraint for example, the angle can be 0 or 180 degrees (co-directed or opposed vectors). The actual angle is remembered in the constraint data ("constraint orientation is locked"), it guards against flipping. But the angle can be erased ("constraint orientation unlock") or updated; these tools do exactly that. 
 
