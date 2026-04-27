@@ -9,9 +9,12 @@
 |IconC=Workbench_Sketcher.svg
 }}
 
-<div class="mw-translate-fuzzy">
-{{GuiCommand/es|Name=Sketcher LeaveSketch|Workbenches=[[Sketcher Workbench/es|Croquizador]], [[PartDesign Workbench/es|Diseño de Piezas]]|MenuLocation=Croquizador→ Abandonar croquis|}}
-</div>
+{{GuiCommand
+|Name=Sketcher LeaveSketch
+|MenuLocation=Croquizador → Dejar Croquis
+|Workbenches=[[Sketcher_Workbench|Croquizador]]
+|SeeAlso=[[Sketcher_EditSketch|Croquizador Editar Croquis]]
+}}
 
 <span id="Description"></span>
 <div class="mw-translate-fuzzy">
