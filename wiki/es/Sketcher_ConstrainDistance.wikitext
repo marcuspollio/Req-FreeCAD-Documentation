@@ -70,9 +70,11 @@ Véase también: [[Sketcher_Workbench#Drawing_aids|Materiales de Dibujo]].
 <span id="Notes"></span>
 == Notas ==
 
-See [[Sketcher_Dimension#Notes|Sketcher Dimension]].
-* {{Version|1.2}} For point-line and circle/arc distance constraints, the solver preserves the intended orientation of the constraint more reliably. This reduces unexpected [[Sketcher_Workbench#Flipping|flips]] when geometry changes.
-* If needed, toggling a constraint between [[Sketcher_ToggleDrivingConstraint|driving and reference]], or deactivating and reactivating it, can recompute its orientation.
+Consulte [[Sketcher_Dimension#Notes|Croquizador Cotas]].
+
+* {{Version|1.2}} Para las restricciones de distancia entre puntos y líneas, así como entre círculos y arcos, el solucionador conserva la orientación prevista de la restricción de forma más fiable. Esto reduce los [[Sketcher_Workbench#Flipping|volteos]] inesperados cuando cambia la geometría.
+
+* Si es necesario, alternar una restricción entre [[Sketcher_ToggleDrivingConstraint|conducción y referencia]], o desactivarla y reactivarla, puede recalcular su orientación.
 
 == Scripting ==
 
