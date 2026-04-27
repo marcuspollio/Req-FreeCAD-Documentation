@@ -24,18 +24,16 @@ Se lo si desidera, è possibile riempire lo spazio tra il cartiglio e il bordo s
 <span id="Usage"></span>
 == Utilizzo ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Open a FreeCAD file or add a new one.
-# Find the macro file in your macro directory using [[Image:Std_DlgMacroExecute.svg|16px]] [[Std_DlgMacroExecute|Macros...]] and select it.
-#: (The Script section below describes how to put it there.)
-# Press {{Button|Execute}} to start the macro.
-# Select the page format.
-# Select the language for the title block.
-# If you need a BOM change the number of rows:
-#: You can use the right mouse button to reset to 0 or
-#: to set the maximum number of rows that fits on your chosen page size.
-# Click {{Button|OK}} to finish.
-</div>
+# Aprire un file FreeCAD o aggiungerne uno nuovo.
+# Trovare il file macro nella directory delle macro utilizzando [[Image:Std_DlgMacroExecute.svg|16px]] [[Std_DlgMacroExecute/it|Macro...]] e selezionalo.
+#: (La sezione Script di seguito descrive come inserirlo.)
+# Premere {{Button|Execute}} per avviare la macro.
+# Selezionare il formato della pagina.
+# Selezionare la lingua per il cartiglio.
+# Se si ha bisogno di una distinta base, modificare il numero di righe:
+#: È possibile utilizzare il pulsante destro del mouse per reimpostare su 0 o
+#: per impostare il numero massimo di righe che si adattino alla dimensione della pagina scelta.
+# Fare clic su {{Button|OK}} per terminare.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Dialogue window ==
