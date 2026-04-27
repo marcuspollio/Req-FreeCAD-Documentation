@@ -32,20 +32,21 @@ Véase también: [[Sketcher_Workbench#Drawing_aids|Materiales de Dibujo]].
 <span id="Continue_mode"></span>
 === [[Sketcher_Workbench#Continue_modes|Modo Continuar]] ===
 
-# Make sure there is no selection.
-# There are several ways to invoke the tool: 
-#* Press the {{Button|[[Image:Sketcher_ConstrainCoincident.svg|16px]] [[Sketcher_ConstrainCoincident|Coincident Constraint]]}} button.
-#* Select the {{MenuCommand|Sketch → Constraints → [[Image:Sketcher_ConstrainCoincident.svg|16px]] Coincident Constraint}} option from the menu.
-#* Use the keyboard shortcut: {{KEY|C}}.
-# The cursor changes to a cross with the tool icon.
-# Do one of the following:
-#* Select two points.
-#* Select two edges of circles, arcs, ellipses or arcs of ellipses.
-# A constraint is added.
-# Optionally keep creating constraints.
-# To finish, right-click or press {{KEY|Esc}}, or start another geometry or constraint creation tool.
+# Asegúrese de que no haya ninguna selección.
+# Hay varias maneras de usar la herramienta:
+#* Pulse el botón {{Button|[[Image:Sketcher_ConstrainCoincident.svg|16px]] [[Sketcher_ConstrainCoincident|Restricción de coincidencia]]}}.
+#* Seleccione la opción {{MenuCommand|Croquizador → Restricciones → [[Image:Sketcher_ConstrainCoincident.svg|16px]] Restricción de Coincidencia}} del menú.
+#* Use el atajo de teclado: {{KEY|C}}.
+# El cursor cambia a una cruz con el icono de la herramienta.
+# Realice una de las siguientes acciones:
+#* Seleccione dos puntos.
+#* Seleccione dos aristas de círculos, arcos, elipses o arcos de elipses.
+# Se añade una restricción.
+# Opcionalmente, puede seguir creando restricciones.
+# Para finalizar, haga clic con el botón derecho o pulse {{KEY|Esc}}, o inicie otra herramienta de creación de geometría o restricciones.
 
-===Run-once mode===
+<span id="Run-once_mode"></span>
+=== Modo de ejecución única ===
 
 # Do one of the following:
 #* Select two or more points.
