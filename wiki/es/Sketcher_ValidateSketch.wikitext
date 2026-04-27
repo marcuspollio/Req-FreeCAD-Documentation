@@ -50,7 +50,7 @@ Si es necesario, defina un valor de tolerancia diferente en el menú desplegable
 
 Pulse {{Button|Highlight Troublesome Vertices}} para resaltar los vértices que estén fuera de esta tolerancia.
 
-This tolerance is also used by the {{Button|Find}}/{{Button|Fix}} process.
+Esta tolerancia también se utiliza en el proceso {{Button|Find}}/{{Button|Fix}}.
 
 Leave the "Ignore construction geometry" checkbox checked to disregard construction geometry in the analysis.
 
