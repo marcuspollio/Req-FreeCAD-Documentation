@@ -25,11 +25,17 @@ La herramienta [[Image:Sketcher_MirrorSketch.svg|24px]] [[Sketcher_MirrorSketch|
 <span id="Usage"></span>
 == Uso ==
 
-<div class="mw-translate-fuzzy">
-#Seleccione el croquis que desea simétrica (normalmente haciendo clic en él en la [[Tree_view/es|vista de árbol]]).
-#Haga clic en {{Button|[[File:Sketcher_MirrorSketch.svg|16px]] [[Sketcher_MirrorSketch/es|Simetría Croquis]]}} o elige {{MenuCommand|Croquis → [[File:Sketcher_MirrorSketch.svg|16px]] [[Sketcher_MirrorSketch/es|Simetría Croquis]]}} en el menú superior.
-#El croquis resultante se crea como un nuevo objeto independiente.
-</div>
+# Seleccione uno o más bocetos.
+# Hay varias maneras de usar la herramienta:
+#* Pulse el botón {{Button|[[Image:Sketcher_MirrorSketch.svg|16px]] [[Sketcher_MirrorSketch|Reflejar boceto]]}} (no disponible en el [[PartDesign_Workbench|Entorno de Trabajo de Diseño de Piezas]]).
+#* Seleccione la opción {{MenuCommand|Croquis → [[Image:Sketcher_MirrorSketch.svg|16px]] Reflejar Croquis}} del menú.
+# Se abrirá el cuadro de diálogo '''Seleccionar eje o punto de simetría'''.
+# Seleccione una de las opciones disponibles:
+#* '''Eje X'''
+#* '''Eje Y'''
+#* '''Origen'''
+# Pulse el botón {{Button|OK}}.
+# Se creará un nuevo boceto para cada boceto seleccionado.
 
 ==Notes==
 
