@@ -18,9 +18,8 @@
 |SeeAlso=[[Sketcher_ConstrainCoincident|Sketcher ConstrainCoincident]], [[Sketcher_ConstrainPointOnObject|Sketcher ConstrainPointOnObject]]
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Description==
-</div>
+<span id="Description"></span>
+== Descripción ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The [[Image:Sketcher_ConstrainCoincidentUnified.svg|24px]] [[Sketcher_ConstrainCoincidentUnified|Sketcher ConstrainCoincidentUnified]] tool creates a coincident constraint between points, fixes points on edges or axes (lines are then treated as infinite, and open curves are virtually extended as well), or creates a concentric constraint between circles, arcs and/or ellipses (by making their centers coincident).
