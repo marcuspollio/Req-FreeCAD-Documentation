@@ -21,7 +21,7 @@
 <span id="Description"></span>
 == Descripción ==
 
-The [[Image:Sketcher_CreateBSpline.svg|24px]] [[Sketcher_CreateBSpline|Sketcher CreateBSpline]] tool creates a [[B-Splines|B-spline]] curve from control points. {{Version|1.0}}: Or optionally from knot points.
+La herramienta [[Image:Sketcher_CreateBSpline.svg|24px]] [[Sketcher_CreateBSpline|Croquizador: Crear una BSpline]] crea una curva [[B-Splines|B-spline]] a partir de puntos de control. {{Version|1.0}}: O bien, a partir de puntos de nodo.
 
 [[Image:Sketcher_CreateBSpline_Example.png]]
 {{Caption|B-spline curve (white) defined by 5 control points.<br>
