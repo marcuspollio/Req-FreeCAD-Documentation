@@ -38,7 +38,7 @@ Véase también: [[Sketcher_Workbench#Drawing_aids|Materiales de Dibujo]].
 #* {{Version|1.0}}: Si la preferencia {{MenuCommand|Restricciones de acotación}} [[Sketcher_Preferences#General|Preferencia]] está configurada en {{Value|Herramienta única}} (predeterminado): pulse la flecha hacia abajo a la derecha del botón {{Button|[[Image:Sketcher_Dimension.svg||x16px]][[Image:Toolbar_flyout_arrow.svg|x16px]]}} y seleccione la opción {{MenuCommand|[[Image:Sketcher_ConstrainDistance.svg|16px]] Dimensión de Distancia}} en el menú desplegable.
 #* Si esta preferencia tiene un valor diferente (y está en {{VersionMinus|0.21}}): pulse el botón {{Button|[[Image:Sketcher_ConstrainDistance.svg|16px]] [[Sketcher_ConstrainDistance|Cota de Distancia]]}}.
 #* Seleccione la opción {{MenuCommand|Croquis → Restricciones → [[File:Sketcher_ConstrainDistance.svg|16px]] Cota de Distancia}} del menú.
-#* {{Version|1.0}}: Haga clic con el botón derecho en la [[3D_View|3D View]] y seleccione la opción {{MenuCommand|Dimension → [[Image:Sketcher_ConstrainDistance.svg|16px]] Cota de Distanica}} del menú contextual.
+#* {{Version|1.0}}: Haga clic con el botón derecho en la [[3D_View|3D View]] y seleccione la opción {{MenuCommand|Dimension → [[Image:Sketcher_ConstrainDistance.svg|16px]] Cota de Distancia}} del menú contextual.
 #* Use el atajo de teclado {{KEY|K}} seguido de {{KEY|D}}.
 # El cursor cambia a una cruz con el icono de la herramienta.
 # Realice una de las siguientes acciones:
