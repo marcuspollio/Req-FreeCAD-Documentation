@@ -79,7 +79,7 @@ Otros ejemplos: una línea de longitud cero o un círculo/arco de radio cero.
 
 La geometría externa invertida puede ocurrir porque el manejo de la geometría invertida cambió a partir de la revisión 0.15.
 
-This process might be helpful if sketches with external-geometry fail to solve because of these changes.
+Este proceso podría resultar útil si los bocetos con geometría externa no se resuelven debido a estos cambios.
 
 <span id="Constraint_Orientation_Locking"></span>
 ===Bloqueo de la orientación de las restricciones===
