@@ -59,7 +59,7 @@ Deje marcada la casilla "Ignorar geometría de construcción" para no tener en c
 
 Compruebe si hay restricciones mal formadas.
 
-For example, if there is a Circle-Line-Tangent constraint, but it references two lines, it is considered invalid.
+Por ejemplo, si existe una restricción de círculo-línea-tangente, pero hace referencia a dos líneas, se considera inválida.
 
 (This sometimes happens due to the [[Topological_naming_problem|Topological naming problem]], i.e. the external geometry changes type).
 
