@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Std_DockOverlayToggleBottom/fr|Basculer en bas]]
 |[[Std_LinkSelectLinkedFinal/fr|Objet lié le plus profond]]
@@ -8,6 +9,7 @@
 |IconR=Std_LinkSelectLinkedFinal.svg
 |IconC=Freecad.svg
 }}
+</div>
 
 {{GuiCommand/fr
 |Name=Std LinkSelectLinked
@@ -35,6 +37,7 @@ La commande '''Std Objet lié''' sélectionne la propriété {{PropertyData|Link
 # Vous pouvez utiliser [[Image:Std_SelBack.svg|16px]] [[Std_SelBack/fr|Std Sélection précédente]] pour resélectionner le lien.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Std_DockOverlayToggleBottom/fr|Basculer en bas]]
 |[[Std_LinkSelectLinkedFinal/fr|Objet lié le plus profond]]
@@ -43,6 +46,7 @@ La commande '''Std Objet lié''' sélectionne la propriété {{PropertyData|Link
 |IconR=Std_LinkSelectLinkedFinal.svg
 |IconC=Freecad.svg
 }}
+</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
