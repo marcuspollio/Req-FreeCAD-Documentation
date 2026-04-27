@@ -35,16 +35,14 @@ Polecenie '''Wybierz powiązane łącza''' wybiera {{PropertyData|Powiązany obi
 # Opcjonalnie można użyć funkcji [[Image:Std_SelBack.svg|16px]] [[Std_SelBack/pl|Przywróć zaznaczenie]], aby ponownie wybrać link
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav
-|[[Std_DockOverlayToggleBottom/pl|DockOverlayToggleBottom]]
+|[[Std_ToggleBottomPanels/pl|Przełącz dolne panele]]
 |[[Std_LinkSelectLinkedFinal/pl|Przejdź do najgłębiej połączonego obiektu]]
 |[[Std_View_Menu/pl|Menu Widok]]
-|IconL=Std_DockOverlayToggleBottom.svg
+|IconL=Std_ToggleBottomPanels.svg
 |IconR=Std_LinkSelectLinkedFinal.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
