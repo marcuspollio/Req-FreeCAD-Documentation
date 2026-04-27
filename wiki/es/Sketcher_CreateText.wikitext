@@ -56,16 +56,14 @@ Pos-OVP = Posicional [[Sketcher_Preferences#General|Parámetros de visualizació
 
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
-|[[Sketcher_CreatePeriodicBSplineByInterpolation|Periodic B-Spline From Knots]]
-|[[Sketcher_ToggleConstruction|Toggle Construction Geometry]]
-|[[Sketcher_Workbench|Sketcher]]
+|[[Sketcher_CreatePeriodicBSplineByInterpolation|Spline B periódica a partir de nodos]]
+|[[Sketcher_ToggleConstruction|Alternar geometría de construcción]]
+|[[Sketcher_Workbench|Croquizador]]
 |IconL=Sketcher_CreatePeriodicBSplineByInterpolation.svg
 |IconR=Sketcher_ToggleConstruction.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
