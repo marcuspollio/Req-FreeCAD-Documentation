@@ -47,7 +47,7 @@ La geometría de construcción se marca con un color específico en [[Sketcher_P
 
 # Seleccione uno o más elementos en el croquis.
 # Active la herramienta como se describe anteriormente, o con la siguiente opción adicional:
-#* Haga clic con el botón derecho en la sección {{MenuCommand|Elements}} del [[Sketcher_Dialog|Diálogo del Croquizador]] y seleccione la opción {{MenuCommand|[[Image:Sketcher_ToggleConstruction.svg|16px]] Alternar a Geometría de Construcción}} del menú contextual.
+#* Haga clic con el botón derecho en la sección {{MenuCommand|Elementos}} del [[Sketcher_Dialog|Diálogo del Croquizador]] y seleccione la opción {{MenuCommand|[[Image:Sketcher_ToggleConstruction.svg|16px]] Alternar a Geometría de Construcción}} del menú contextual.
 # Los elementos seleccionados cambian de geometría normal a geometría de construcción o viceversa. Su apariencia cambia en consecuencia.
 # El modo de las herramientas de creación de geometría no cambia.
 
