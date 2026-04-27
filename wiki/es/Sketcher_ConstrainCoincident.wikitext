@@ -63,7 +63,7 @@ Véase también: [[Sketcher_Workbench#Drawing_aids|Materiales de Dibujo]].
 <span id="Scripting"></span>
 == Programación de Scripts ==
 
-The constraint can be created from [[Macros|macros]] and from the [[Python|Python]] console by using the following command:
+La restricción se puede crear desde [[Macros|macros]] y desde la consola [[Python|Python]] usando el siguiente comando:
 
 {{Code|code=Sketch.addConstraint(Sketcher.Constraint('Coincident',LineFixed,PointOfLineFixed,LineMoving,PointOfLineMoving)) }}
 
