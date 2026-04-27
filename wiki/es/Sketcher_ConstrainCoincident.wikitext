@@ -73,7 +73,7 @@ donde: * {{incode|Sketch}} es un objeto de boceto
 * {{incode|LineMoving}} es el número de la línea que se moverá al aplicar la restricción
 * {{incode|PointOfLineMoving}} indica qué vértice de {{incode|LineMoving}} debe cumplir la restricción
 
-As the names {{incode|LineFixed}} and {{incode|LineMoving}} indicate, if both constrained vertices are free to move in any direction, the first one (first to be selected in the Gui) will remain fixed and the other one will move. In the presence of existing constraints, however, both edges may move.
+Como indican los nombres {{incode|LineFixed}} y {{incode|LineMoving}}, si ambos vértices restringidos pueden moverse libremente en cualquier dirección, el primero (el que se seleccione primero en la interfaz gráfica) permanecerá fijo y el otro se moverá. Sin embargo, si existen restricciones, ambos bordes pueden moverse.
 
 The [[Sketcher_scripting|Sketcher scripting]] page explains the values which can be used for {{incode|LineFixed}}, {{incode|PointOfLineFixed}}, {{incode|LineMoving}} and {{incode|PointOfLineMoving}}, and contains further examples on how to create constraints from Python scripts.
 
