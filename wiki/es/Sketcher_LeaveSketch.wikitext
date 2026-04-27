@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[Sketcher_MirrorSketch|Reflejar croquis]]
 |[[Sketcher_ViewSketch|Alinear vista al croquis]]
@@ -8,6 +9,7 @@
 |IconR=Sketcher_ViewSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{GuiCommand
 |Name=Sketcher LeaveSketch
@@ -33,6 +35,7 @@ La herramienta [[Image:Sketcher_LeaveSketch.svg|24px]] [[Sketcher_LeaveSketch|Cr
 # El cuadro de diálogo del Boceto se cierra.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav
 |[[Sketcher_MirrorSketch|Reflejar Croquis]]
 |[[Sketcher_ViewSketch|Alinear vista al Croquis]]
@@ -41,6 +44,7 @@ La herramienta [[Image:Sketcher_LeaveSketch.svg|24px]] [[Sketcher_LeaveSketch|Cr
 |IconR=Sketcher_ViewSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
