@@ -90,7 +90,7 @@ El ángulo entre las dos líneas es fijo. No es necesario que las líneas se int
 
 [[Image:Sketcher_ConsraintAngle_mode4.png|400px]]
 
-The angle between the two edges at a given point is fixed. The point can be any point, e.g. the center of a circle, the endpoint of an edge, or the origin, it can belong to either or both edges, and it can also be a [[Sketcher_CreatePoint|point object]]. If required [[Sketcher_ConstrainPointOnObject|point-on-object constraint(s)]] are added to ensure the point lies on both (extended) edges. These additional constraints are called [[Sketcher_helper_constraint|helper constraints]].
+El ángulo entre los dos bordes en un punto dado es fijo. El punto puede ser cualquiera, por ejemplo, el centro de un círculo, el extremo de un borde o el origen; puede pertenecer a uno o ambos bordes, y también puede ser un objeto de punto ([[Sketcher_CreatePoint|point object]]). Si es necesario, se añaden las [[Sketcher_ConstrainPointOnObject|restricciones de punto sobre objeto]] para asegurar que el punto se encuentre en ambos bordes (extendidos). Estas restricciones adicionales se denominan  ([[Sketcher_helper_constraint|restricciones auxiliares]]).
 
 ==Scripting==
 
