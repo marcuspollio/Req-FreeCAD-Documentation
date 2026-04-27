@@ -54,15 +54,13 @@ L'inglese è predefinito e c'è solo una versione, ma forse a qualcuno piacerà 
 
 == Script ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The Macro should be found in the macro directory. To put it there, you need to:
-# Select the macro below (from '''#! pyth...''' to '''...main()''').
-# Copy the selection.
-# Create a new macro file using [[Image:Std_DlgMacroExecute.svg|16px]] [[Std_DlgMacroExecute|Macros...]] and select {{Button|Create}}.
-# Type in the name (TemplateHelper) and select {{Button|OK}}. (''.FCMacro'' is added automatically.)
-# Paste the clipboard content into the Editor window.
-# Press [[Image:Std_DlgMacroExecuteDirect.svg|16px]] [[Std_DlgMacroExecuteDirect|Execute macro]] to start the macro.
-</div>
+La macro andremme inserita nella cartella delle macro. Per metterla in quella cartella, si deve fare:
+# Selezionare la macro qui sotto (da '''#! pyth...''' a '''...main()''').
+# Copiare la selezione.
+# Creare un nuovo file macro utilizzando [[Image:Std_DlgMacroExecute.svg|16px]] [[Std_DlgMacroExecute/it|Macros...]] e selezionare {{Button|Crea}}.
+# Digitare il nome (TemplateHelper) e selezionare {{Button|OK}}. (''.FCMacro'' viene aggiunto automaticamente.)
+# Incollare il contenuto degli appunti nella finestra dell'editor.
+# Premere [[Image:Std_DlgMacroExecuteDirect.svg|16px]] [[Std_DlgMacroExecuteDirect/it|Esegui]] per avviare la macro.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
