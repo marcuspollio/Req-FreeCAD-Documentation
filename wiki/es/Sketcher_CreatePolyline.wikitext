@@ -16,11 +16,7 @@
 <span id="Description"></span>
 == Descripción ==
 
-<div class="mw-translate-fuzzy">
-Esta herramienta trabaja como la herramienta [[Sketcher CreateLine/es|Línea]], pero crea segmentos de líneas continuos conectados por sus vértices.
-
-Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de polilínea rojo. Las coordenadas del puntero se muestran al lado de este en color azul en tiempo real.
-</div>
+La herramienta [[Image:Sketcher_CreatePolyline.svg|24px]] [[Sketcher_CreatePolyline|Crear Polilínea del Croquizador]] genera una serie de segmentos de línea y arco conectados por sus puntos finales. La herramienta tiene varios modos.
 
 [[Image:Sketcher_PolylineExample1.png]]
 
