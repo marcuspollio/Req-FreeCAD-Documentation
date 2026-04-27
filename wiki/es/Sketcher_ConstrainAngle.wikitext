@@ -18,7 +18,8 @@
 |SeeAlso=[[Sketcher_ConstrainDistance/es|Restricción distancia]], [[Sketcher_ConstrainPerpendicular/es|Restricción perpendicular]]
 }}
 
-==Description==
+<span id="Description"></span>
+== Descripción ==
 
 The [[Image:Sketcher_ConstrainAngle.svg|24px]] [[Sketcher_ConstrainAngle|Sketcher ConstrainAngle]] tool fixes the angle between two edges (lines are then treated as infinite, and open curves are virtually extended as well), the angle of a line with the horizontal axis of the sketch, or the aperture angle of a circular arc.
 
