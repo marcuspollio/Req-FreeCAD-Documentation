@@ -42,9 +42,8 @@ La geometría de construcción se marca con un color específico en [[Sketcher_P
 #* En modo normal, los iconos de su menú y barra de herramientas son blancos y crean geometría regular (color predeterminado: blanco). El icono de esta herramienta es: [[Image:Sketcher_ToggleConstruction.svg|16px]].
 #* En modo construcción, los iconos de su menú y barra de herramientas son azules y crean geometría de construcción (color predeterminado: azul). El icono de esta herramienta es: [[Image:Sketcher_ToggleConstruction_Constr.svg|16px]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Toggle geometry===
-</div>
+<span id="Toggle_geometry"></span>
+=== Alternar geometría ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Select one or more elements in the sketch.
