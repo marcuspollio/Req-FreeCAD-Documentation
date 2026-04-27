@@ -9,9 +9,12 @@
 |IconC=Workbench_Sketcher.svg
 }}
 
-<div class="mw-translate-fuzzy">
-{{GuiCommand/es|Name=Sketcher ViewSketch|Workbenches=[[Sketcher Workbench/es|Sketcher]], [[PartDesign Workbench/es|PartDesign]]|MenuLocation=Sketch → View sketch}}
-</div>
+{{GuiCommand
+|Name=Croquizador Vista Croquis
+|MenuLocation=Sketch → Alinear la Vista con el Croquis
+|Workbenches=[[Sketcher_Workbench|Croquizador]]
+|Shortcut={{KEY|Q}} {{KEY|P}}
+}}
 
 ==Description==
 
