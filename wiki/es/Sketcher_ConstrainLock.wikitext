@@ -50,7 +50,8 @@ Véase también: [[Sketcher_Workbench#Drawing_aids|Ayudas para el dibujo]].
 #* Haga clic con el botón derecho en la sección {{MenuCommand|Elementos}} del [[Sketcher_Dialog|Diálogo del Croquizador]] y seleccione la opción {{MenuCommand|[[Image:Sketcher_ConstrainLock.svg|16px]] Bloquear Posición}} del menú contextual.
 # Dependiendo de la selección, se añadirán dos o más restricciones.
 
-==Notes==
+<span id="Notes"></span>
+== Notas ==
 
 * There is no automatic prompt to edit the constraint values. If required values can be [[Sketcher_Workbench#Edit_constraints|edited manually]].
 
