@@ -29,34 +29,30 @@ La herramienta [[Image:Sketcher_CreateText.svg|24px]] [[Sketcher_CreateText|Croq
 
 Véase también: [[Sketcher_Workbench#Drawing_aids|Ayudas para el dibujo]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Pos-OVP = Positional [[Sketcher_Preferences#General|On-View-Parameters]]. {{Version|1.0}}
-</div>
+Pos-OVP = Posicional [[Sketcher_Preferences#General|Parámetros de visualización]]. {{Version|1.0}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# There are several ways to invoke the tool:
-#* Press the {{Button|[[Image:Sketcher_CreateText.svg|16px]] [[Sketcher_CreateText|Text]]}} button.
-#* Select the {{MenuCommand|Sketch → Geometries → [[Image:Sketcher_CreateText.svg|16px]] Text}} option from the menu.
-#* Right-click in the [[3D_View|3D View]] and select the {{MenuCommand|[[Image:Sketcher_CreateText.svg|16px]] Text}} option from the context menu.
-#* Use the keyboard shortcut: {{KEY|G}} then {{KEY|T}}.
-# The cursor changes to a cross with the tool icon.
-# The '''Text Parameters''' section is added at the top of the [[Sketcher_Dialog|Sketcher Dialog]].
-# Optionally press the {{KEY|M}} key or select from the dropdown list in the parameters section to change the tool mode:
-#* '''Width''':
-#*# Optionally select a different '''Font''' from the dropdown list.
-#*# Optionally enter a '''Text'''.
-#*# Pick a start point. Or with Pos-OVP: enter its X- and/or Y-coordinate.
-#*# Pick an end point. Or with Pos-OVP: enter the length and/or angle of the text.
-#* '''Height''':
-#*# Optionally select a different '''Font''' from the dropdown list.
-#*# Optionally enter a '''Text'''.
-#*# Pick a start point (bottom). Or with Pos-OVP: enter its X- and/or Y-coordinate.
-#*# Pick an end point (top). Or with Pos-OVP: enter the height and/or angle of the text.
-# The text, a '''Text''' object, is created and applicable Pos-OVP based constraints are added.
-# If the tool runs in [[Sketcher_Workbench#Continue_modes|continue mode]]:
-## Optionally keep creating texts.
-## To finish, right-click or press {{KEY|Esc}}, or start another geometry or constraint creation tool.
-</div>
+# Existen varias formas de invocar la herramienta:
+#* Pulse el botón {{Button|[[Image:Sketcher_CreateText.svg|16px]] [[Sketcher_CreateText|Texto]]}}.
+#* Seleccione la opción {{MenuCommand|Croquis → Geometrías → [[Image:Sketcher_CreateText.svg|16px]] Texto}} del menú.
+#* Haga clic con el botón derecho en la [[3D_View|Vista 3D]] y seleccione la opción {{MenuCommand|[[Image:Sketcher_CreateText.svg|16px]] Texto}} del menú contextual.
+#* Utilice el atajo de teclado: {{KEY|G}} seguido de {{KEY|T}}.
+# El cursor cambia a una cruz con el icono de la herramienta.
+# La sección '''Parámetros de texto''' se añade en la parte superior del [[Sketcher_Dialog|Diálogo del Croquizador]].
+# Opcionalmente, pulse la tecla {{KEY|M}} o seleccione una opción de la lista desplegable en la sección de parámetros para cambiar el modo de la herramienta:
+#* '''Ancho''':
+#*# Opcionalmente, seleccione una '''Fuente''' diferente de la lista desplegable.
+#*# Opcionalmente, introduzca un '''Texto'''.
+#*# Seleccione un punto de inicio. O con Pos-OVP: introduzca sus coordenadas X y/o Y.
+#*# Seleccione un punto final. O con Pos-OVP: introduzca la longitud y/o el ángulo del texto.
+#* '''Alto''':
+#*# Opcionalmente, seleccione una '''Fuente''' diferente de la lista desplegable.
+#*# Opcionalmente, introduzca un '''Texto'''.
+#*# Seleccione un punto de inicio (inferior). O con Pos-OVP: introduzca sus coordenadas X y/o Y.
+#*# Seleccione un punto final (superior). O con Pos-OVP: introduzca la altura y/o el ángulo del texto.
+# Se crea el texto, un objeto '''Text''', y se añaden las restricciones aplicables basadas en Pos-OVP.
+# Si la herramienta se ejecuta en [[Sketcher_Workbench#Continue_modes|Modo Continuo]]:
+## Opcionalmente, siga creando textos.
+## Para finalizar, haga clic con el botón derecho o pulse {{KEY|Esc}}, o inicie otra herramienta de creación de geometría o restricciones.
 
 
 
