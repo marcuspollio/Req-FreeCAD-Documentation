@@ -110,6 +110,10 @@ Jeśli szkic jest w trybie edycji, pasek narzędzi '''Konstrukcja''' jest ukryty
 
 * [[Image:Sketcher_LeaveSketch.svg|32px]] [[Sketcher_LeaveSketch/pl|Opuść szkic]]: Kończy tryb edycji szkicu i zamyka [[Sketcher_Dialog/pl|okno dialogowe]] Szkicownka.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_CancelSketch.svg|32px]] [[Sketcher_CancelSketch|Cancel Editing]]: Leaves sketch edit mode, reverts any changes, and closes the [[Sketcher_Dialog|Sketcher Dialog]]. {{Version|1.2}}
+</div>
+
 * [[Image:Sketcher_ViewSketch.svg|32px]] [[Sketcher_ViewSketch/pl|Widok szkicu]]: Wyrównuje [[3D_view/pl|widok 3D]] ze szkicem.
 
 * [[Image:Sketcher_ViewSection.svg|32px]] [[Sketcher_ViewSection/pl|Zobacz przekrój]]: Uaktywnia tymczasową płaszczyznę przekroju, która ukrywa wszelkie obiekty i części obiektów znajdujące się przed płaszczyzną szkicu.
