@@ -24,11 +24,11 @@
 La herramienta [[Image:Sketcher_CreateBSpline.svg|24px]] [[Sketcher_CreateBSpline|Croquizador: Crear una BSpline]] crea una curva [[B-Splines|B-spline]] a partir de puntos de control. {{Version|1.0}}: O bien, a partir de puntos de nodo.
 
 [[Image:Sketcher_CreateBSpline_Example.png]]
-{{Caption|B-spline curve (white) defined by 5 control points.<br>
-The control polygon (green) connects the control points (marked with dark yellow weight circles).<br>
-The number 3 (green, without brackets) in the center refers to the [[Sketcher_BSplineIncreaseDegree#Description|degree]] of the B-spline.<br>
-The numbers (1) and (4) (green, in round brackets) refer to the [[Sketcher_BSplineDecreaseKnotMultiplicity#Description|multiplicity]] of the knot points.<br>
-The numbers [1.00] (green, in square brackets) refer to the weights of the control points.}}
+{{Caption|Curva B-spline (blanca) definida por 5 puntos de control.<br>
+El polígono de control (verde) conecta los puntos de control (marcados con círculos de peso amarillo oscuro).<br>
+El número 3 (verde, sin paréntesis) en el centro se refiere al [[Sketcher_BSplineIncreaseDegree#Description|grado de la función matemática]] de la B-spline.<br>
+Los números (1) y (4) (verdes, entre paréntesis) se refieren a la [[Sketcher_BSplineDecreaseKnotMultiplicity#Description|multiplicidad]] de los nodos.<br>
+Los números [1.00] (verdes, entre corchetes) se refieren a los pesos de los puntos de control.}}
 
 ==Usage==
 
