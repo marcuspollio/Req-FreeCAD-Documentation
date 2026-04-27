@@ -22,9 +22,7 @@
 <span id="Description"></span>
 ==Descripción==
 
-<div class="mw-translate-fuzzy">
-La utilidad '''Validar croquis''' puede utilizarse para analizar y reparar un croquis que ya no es editable o que tiene restricciones no válidas, o para añadir las restricciones [[Sketcher_ConstrainCoincident/es|coincidentes]] que faltan a un croquis creado a partir de geometría importada, como los archivos DXF. También puede ser útil para localizar una coincidencia que falta en un boceto nativo que genera un error de "no se puede validar la cara rota" al intentar aplicar una función de DiseñoPieza.
-</div>
+La herramienta [[Image:Sketcher_ValidateSketch.svg|24px]] [[Sketcher_ValidateSketch|Croquizador Validar Croquis]] puede analizar y reparar un boceto que ya no se puede editar o que tiene restricciones no válidas, o agregar [[Sketcher_ConstrainCoincident|restricciones coincidentes]] faltantes a un boceto creado a partir de geometría importada, como archivos DXF. También puede ser útil para localizar una coincidencia faltante en un boceto nativo que genera un error al intentar aplicar una función de en el Entorno de Trabajo de Diseño de Pieza.
 
 [[File:Sketcher_ValidateSketch_taskpanel.png|x500px]]
 {{Caption|El panel de tareas de validación de Croquizador}}
