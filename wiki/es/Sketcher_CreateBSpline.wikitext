@@ -10,12 +10,12 @@
 }}
 
 {{GuiCommand
-|Name=Sketcher CreateBSpline
-|MenuLocation=Sketch → Geometries → B-Spline
-|Workbenches=[[Sketcher_Workbench|Sketcher]]
+|Name=Croquizador: Crear BSpline
+|MenuLocation=Croquizador → Geometrías → B-Spline
+|Workbench=[[Sketcher_Workbench|Croquizador]]
 |Shortcut={{KEY|G}} {{KEY|B}} {{KEY|B}}
 |Version=0.17
-|SeeAlso=[[Sketcher_CreatePeriodicBSpline|Sketcher CreatePeriodicBSpline]]
+|SeeAlso=[[Sketcher_CreatePeriodicBSpline|Corquizador Crear una BSPline Periódica]]
 }}
 
 ==Description==
