@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/ja
 |[[Sketcher_LeaveSketch/ja|スケッチの編集を終了]]
 |[[Sketcher_ViewSection/ja|スケッチを表示]]
@@ -8,6 +9,7 @@
 |IconR=Sketcher_ViewSection.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{GuiCommand/ja
 |Name=Sketcher ViewSketch
@@ -35,6 +37,7 @@ See also: [[Sketcher_Preferences#Display|Sketcher Preferences]].
 #* Use the keyboard shortcut: {{KEY|Q}} then {{KEY|P}}.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/ja
 |[[Sketcher_LeaveSketch/ja|スケッチの編集を終了]]
 |[[Sketcher_ViewSection/ja|スケッチを表示]]
@@ -43,6 +46,7 @@ See also: [[Sketcher_Preferences#Display|Sketcher Preferences]].
 |IconR=Sketcher_ViewSection.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
