@@ -82,7 +82,7 @@ La geometría externa invertida puede ocurrir porque el manejo de la geometría 
 Este proceso podría resultar útil si los bocetos con geometría externa no se resuelven debido a estos cambios.
 
 <span id="Constraint_Orientation_Locking"></span>
-===Bloqueo de la orientación de las restricciones===
+=== Bloqueo de la orientación de las restricciones ===
 
 Tangent and perpendicular constraints are implemented (via-point).
 
