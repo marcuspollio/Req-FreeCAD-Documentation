@@ -88,7 +88,7 @@ Se implementan restricciones de tangencia y perpendicularidad (vía punto).
 
 Internamente, funcionan limitando el ángulo entre vectores tangentes. Por ejemplo, con la restricción de tangente, el ángulo puede ser de 0 o 180 grados (vectores codireccionales u opuestos). El ángulo real se guarda en los datos de la restricción ("la orientación de la restricción está bloqueada"), lo que evita que se invierta. Sin embargo, el ángulo se puede borrar ("desbloquear la orientación de la restricción") o actualizar; estas herramientas hacen precisamente eso. 
 
-The locking mechanism typically works well and this tool should not be needed. '''It should only used after making a backup of the open document.'''
+El mecanismo de bloqueo suele funcionar correctamente y esta herramienta no debería ser necesaria. '''Solo debe utilizarse después de realizar una copia de seguridad del documento abierto.'''
 
 
 {{Docnav/es
