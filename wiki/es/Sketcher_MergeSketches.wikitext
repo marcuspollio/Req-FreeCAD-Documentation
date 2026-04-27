@@ -25,11 +25,13 @@ La herramienta [[Image:Sketcher_MergeSketches.svg|24px]] [[Sketcher_MergeSketche
 <span id="Usage"></span>
 == Uso ==
 
-# Select two or more sketches.
-# There are several ways to invoke the tool:
-#* Press the {{Button|[[Image:Sketcher_MergeSketches.svg|16px]] [[Sketcher_MergeSketches|Merge Sketches]]}} button (not available in the [[PartDesign_Workbench|PartDesign Workbench]]).
-#* Select the {{MenuCommand|Sketch → [[Image:Sketcher_MergeSketches.svg|16px]] Merge Sketches}} option from the menu.
-# A new sketch is created.
+# Seleccione dos o más croquis.
+# Existen varias maneras de usar la herramienta:
+#* Pulse el botón {{Button|[[Image:Sketcher_MergeSketches.svg|16px]] [[Sketcher_MergeSketches|Combinar bocetos]]}} (no disponible en el [[PartDesign_Workbench|Entorno de Trabajo de Diseño de Piezas]]).
+
+#* Seleccione la opción {{MenuCommand|Croquis → [[Image:Sketcher_MergeSketches.svg|16px]] Combinar croquis}} del menú.
+
+# Se crea un nuevo croquis.
 
 
 {{Docnav
