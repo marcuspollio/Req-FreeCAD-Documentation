@@ -116,6 +116,10 @@ Alcuni strumenti sono disponibili anche dal menu contestuale [[3D_view/it|Vista 
 
 * [[Image:Sketcher_LeaveSketch.svg‎‎|32px]] [[Sketcher_LeaveSketch/it|Esci]]: Termina la modalità di modifica dello schizzo  e chiude la finestra [[Sketcher_Dialog/it|Dialogo Sketcher]].
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_CancelSketch.svg|32px]] [[Sketcher_CancelSketch|Cancel Editing]]: Leaves sketch edit mode, reverts any changes, and closes the [[Sketcher_Dialog|Sketcher Dialog]]. {{Version|1.2}}
+</div>
+
 * [[Image:Sketcher_ViewSketch.svg|32px]] [[Sketcher_ViewSketch/it|Vista normale allo schizzo]]: allinea la [[3D_view/it|Vista 3D]] con lo schizzo.
 
 * [[Image:Sketcher_ViewSection.svg|32px]] [[Sketcher_ViewSection/it|Vista in sezione]]: attiva o disattiva un piano di sezione temporaneo che nasconde eventuali oggetti e parti di oggetti davanti al piano dello schizzo.
