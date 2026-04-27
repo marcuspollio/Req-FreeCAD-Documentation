@@ -9,16 +9,14 @@
 |IconC=Workbench_Sketcher.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommand
-|Name=Sketcher ConstrainCoincidentUnified
-|MenuLocation=Sketch → Constraints → Coincident Constraint
-|Workbenches=[[Sketcher_Workbench|Sketcher]]
+|Name=Croquizador Restricción de Coincidencia Unificada
+|MenuLocation=Croquizador → Restricciones → Restricción de Coincidencia
+|Workbenches=[[Sketcher_Workbench|Croquizador]]
 |Shortcut={{KEY|C}}
 |Version=1.0
 |SeeAlso=[[Sketcher_ConstrainCoincident|Sketcher ConstrainCoincident]], [[Sketcher_ConstrainPointOnObject|Sketcher ConstrainPointOnObject]]
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Description==
