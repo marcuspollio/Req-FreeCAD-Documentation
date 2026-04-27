@@ -9,15 +9,13 @@
 |IconC=Workbench_Sketcher.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommand
-|Name=Sketcher CreateText
+|Name=Croquizador: Creación de Texto
 |MenuLocation=Sketch → Geometries → Text
-|Workbenches=[[Sketcher_Workbench|Sketcher]]
+|Workbench=[[Sketcher_Workbench|Sketcher]]
 |Shortcut={{KEY|G}} {{KEY|T}}
 |Version=1.2
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Description==
