@@ -23,11 +23,7 @@
 <span id="Description"></span>
 == Descripción ==
 
-<div class="mw-translate-fuzzy">
-==Descripción==
-
-La Restricción de Distancia restringe la longitud de una línea, la distancia perpendicular entre un punto y una línea o la distancia entre dos puntos a un valor específico.
-</div>
+La herramienta [[Image:Sketcher_ConstrainDistance.svg|24px]] [[Sketcher_ConstrainDistance|Croquizador Restricción de Distancia]] fija la longitud de una línea, la distancia entre dos puntos, la distancia perpendicular entre un punto y una línea; o, {{Version|0.21}}, la distancia entre los bordes de dos círculos o arcos, o entre el borde de un círculo o arco y una línea; o, {{Version|1.0}}, la longitud de un arco.
 
 [[Image:Sketcher_ConstrainDistance_example.png]]
 
