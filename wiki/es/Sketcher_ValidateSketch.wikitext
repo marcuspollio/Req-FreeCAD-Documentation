@@ -55,7 +55,7 @@ Esta tolerancia también se utiliza en el proceso {{Button|Find}}/{{Button|Fix}}
 Deje marcada la casilla "Ignorar geometría de construcción" para no tener en cuenta la geometría de construcción en el análisis.
 
 <span id="Invalid_Constraints"></span>
-===Restricciones no válidas===
+=== Restricciones no válidas ===
 
 Checks for malformed constraints.
 
