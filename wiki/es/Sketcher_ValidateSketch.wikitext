@@ -48,7 +48,7 @@ Detecta coincidencias faltantes en vértices superpuestos y las agrega. Pulse el
 
 Si es necesario, defina un valor de tolerancia diferente en el menú desplegable.
 
-Press {{Button|Highlight Troublesome Vertices}} to highlight vertexes that are outside this tolerance.
+Pulse {{Button|Highlight Troublesome Vertices}} para resaltar los vértices que estén fuera de esta tolerancia.
 
 This tolerance is also used by the {{Button|Find}}/{{Button|Fix}} process.
 
