@@ -31,22 +31,22 @@ Véase también: [[Sketcher_Workbench#Drawing_aids|Ayudas para el dibujo]].
 <span id="Continue_mode"></span>
 === [[Sketcher_Workbench#Continue_modes|Modo Continuar]] ===
 
-# Make sure there is no selection.
-# There are several ways to invoke the tool:
-#* {{Version|1.0}}: If the {{MenuCommand|Dimensioning constraints}} [[Sketcher_Preferences#General|preference]] is set to {{Value|Single tool}} (default): press the down arrow to the right of the {{Button|[[Image:Sketcher_Dimension.svg||x16px]][[Image:Toolbar_flyout_arrow.svg|x16px]]}} button and select the {{MenuCommand|[[Image:Sketcher_ConstrainAngle.svg|16px]] Angle Dimension}} option from the dropdown.
-#* If this preference has a different value (and in {{VersionMinus|0.21}}): press the {{Button|[[Image:Sketcher_ConstrainAngle.svg|16px]] [[Sketcher_ConstrainAngle|Angle Dimension]]}} button.
-#* Select the {{MenuCommand|Sketch → Constraints → [[Image:Sketcher_ConstrainAngle.svg|16px]] Angle Dimension}} option from the menu.
-#* {{Version|1.0}}: Right-click in the [[3D_View|3D View]] and select the {{MenuCommand|Dimension → [[Image:Sketcher_ConstrainAngle.svg|16px]] Angle Dimension}} option from the context menu.
-#* Use the keyboard shortcut: {{KEY|K}} then {{KEY|A}}.
-# The cursor changes to a cross with the tool icon.
-# Do one of the following:
-#* Select two lines.
-#* Select a point and two edges (in that order).
-#* Select an edge, a point and an edge (idem).
-# If a [[Sketcher_ToggleDrivingConstraint|driving dimensional constraint]] is created, depending on the [[Sketcher_Preferences#Display|preferences]], a dialog opens to [[Sketcher_Workbench#Edit_constraints|edit its value]]. A negative value will reverse the angle direction.
-# An angle constraint is added. If a point and two edges have been selected, up to two [[Sketcher_ConstrainPointOnObject|point-on-object constraints]] can also be added. See [[#Between_two_edges_at_point|Examples]].
-# Optionally keep creating constraints.
-# To finish, right-click or press {{KEY|Esc}}, or start another geometry or constraint creation tool.
+# Asegúrese de que no haya ninguna selección.
+# Existen varias maneras de invocar la herramienta:
+#* {{Version|1.0}}: Si la preferencia {{MenuCommand|Restricciones de acotación}} [[Sketcher_Preferences#General|Preferencia]] está configurada en {{Value|Herramienta Única}} (predeterminado): pulse la flecha hacia abajo a la derecha del botón {{Button|[[Image:Sketcher_Dimension.svg||x16px]][[Image:Toolbar_flyout_arrow.svg|x16px]]}} y seleccione la opción {{MenuCommand|[[Image:Sketcher_ConstrainAngle.svg|16px]] Cota de Ángulo}} del menú desplegable.
+#* Si esta preferencia tiene un valor diferente (y en {{VersionMinus|0.21}}): pulse el botón {{Button|[[Image:Sketcher_ConstrainAngle.svg|16px]] [[Sketcher_ConstrainAngle|Cota Angular]]}}.
+#* Seleccione la opción {{MenuCommand|Croquis → Restricciones → [[Image:Sketcher_ConstrainAngle.svg|16px]] Cota Angular}} del menú.
+#* {{Version|1.0}}: Haga clic con el botón derecho en la [[3D_View|Vista 3D]] y seleccione la opción {{MenuCommand|Cota → [[Image:Sketcher_ConstrainAngle.svg|16px]] Cota Angular}} del menú contextual.
+#* Use el atajo de teclado: {{KEY|K}} seguido de {{KEY|A}}.
+# El cursor cambia a una cruz con el icono de la herramienta.
+# Realice una de las siguientes acciones:
+#* Seleccione dos líneas.
+#* Seleccione un punto y dos aristas (en ese orden).
+#* Seleccione una arista, un punto y una arista (ídem).
+# Si se crea una [[Sketcher_ToggleDrivingConstraint|restricción dimensional de conducción]], según las [[Sketcher_Preferences#Display|Preferencias]], se abre un cuadro de diálogo para [[Sketcher_Workbench#Edit_constraints|editar su valor]]. Un valor negativo invertirá la dirección del ángulo.
+# Se añade una restricción de ángulo. Si se han seleccionado un punto y dos aristas, también se pueden añadir hasta dos [[Sketcher_ConstrainPointOnObject|restricciones de punto sobre objeto]] Consulte [[#Between_two_edges_at_point|Ejemplos]].
+# Opcionalmente, puede seguir creando restricciones.
+# Para finalizar, haga clic con el botón derecho o pulse {{KEY|Esc}}, o inicie otra herramienta de creación de geometría o restricciones.
 
 ===Run-once mode===
 
