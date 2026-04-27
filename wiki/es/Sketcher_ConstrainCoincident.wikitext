@@ -55,9 +55,10 @@ Véase también: [[Sketcher_Workbench#Drawing_aids|Materiales de Dibujo]].
 #* Haga clic con el botón derecho en la sección {{MenuCommand|Elementos}} del [[Sketcher_Dialog|Diálogo del Croquizador]] y seleccione la opción {{MenuCommand|[[Image:Sketcher_ConstrainCoincident.svg|16px]] Restricción de Coincidencia}} del menú contextual.
 # Dependiendo de la selección, se añadirán una o más restricciones.
 
-==Notes==
+<span id="Notes"></span>
+== Notas ==
 
-* {{Version|1.0}}: Points with coincident constraints are marked with the '''Constraint symbols''' [[Sketcher_Preferences#Display|color]].
+* {{Version|1.0}}: Los puntos con restricciones coincidentes se marcan con los '''Símbolos de restricción''' [[Sketcher_Preferences#Display|color]].
 
 ==Scripting==
 
