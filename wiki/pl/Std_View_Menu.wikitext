@@ -138,20 +138,18 @@ W tym menu dostępne są następujące narzędzia:
 
 * [[Std_Workbench/pl|Środowisko pracy]]: {{Emphasis|-- Wybierz jedno ze środowisk pracy w menu.}}
 
-<div class="mw-translate-fuzzy">
 * Paski narzędzi {{Emphasis|-- Każdy pasek narzędzi można włączyć lub wyłączyć w menu podrzędnym.}}
 ** Plik
-** Edycja {{Version|0.21}}
-** Schowek {{Version|0.21}}
+** Edycja
+** Schowek
 ** Środowisko pracy
 ** Makrodefinicje
 ** Widok
 ** Poszczególne widoki {{Version|1.0}}
 ** Struktura
-** Pomoc {{Version|0.21}}
-** ... Jeśli bieżące środowisko pracy ma paski narzędzi, pojawiają się one tutaj.
+** Pomoc
+** … Jeśli bieżące środowisko pracy ma paski narzędzi, pojawiają się one tutaj.
 ** [[Std_ToggleToolBarLock/pl|Zablokuj paski narzędzi]]: Jeśli funkcja jest włączona, paski narzędzi nie są ruchome. {{Version/pl|1.0}}
-</div>
 
 * Panele {{Emphasis|-- Każdy panel można włączyć lub wyłączyć w menu podrzędnym.}}
 ** [[Tree_View/pl|Widok drzewa]] {{Emphasis|-- Dostępne jako osobny panel, jeśli opcja [[Preferences_Editor/pl#Ogólne_2|Tryb Widoku drzewa i Widoku właściwości]] jest ustawiona na {{Value|Niezależny}}.}}
