@@ -86,7 +86,7 @@ Este proceso podría resultar útil si los bocetos con geometría externa no se 
 
 Se implementan restricciones de tangencia y perpendicularidad (vía punto).
 
-Internally they work by constraining the angle between tangent vectors. With tangent constraint for example, the angle can be 0 or 180 degrees (co-directed or opposed vectors). The actual angle is remembered in the constraint data ("constraint orientation is locked"), it guards against flipping. But the angle can be erased ("constraint orientation unlock") or updated; these tools do exactly that. 
+Internamente, funcionan limitando el ángulo entre vectores tangentes. Por ejemplo, con la restricción de tangente, el ángulo puede ser de 0 o 180 grados (vectores codireccionales u opuestos). El ángulo real se guarda en los datos de la restricción ("la orientación de la restricción está bloqueada"), lo que evita que se invierta. Sin embargo, el ángulo se puede borrar ("desbloquear la orientación de la restricción") o actualizar; estas herramientas hacen precisamente eso. 
 
 The locking mechanism typically works well and this tool should not be needed. '''It should only used after making a backup of the open document.'''
 
