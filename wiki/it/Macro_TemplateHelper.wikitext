@@ -1,15 +1,13 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Macro
 |Name=Macro TemplateHelper
-|Description=This macro generates a template to use with the TechDraw workbench and adds a new page with a new template object to the active dokument, ready to place views on it. And it can supply a bill of material (BOM), if wanted.
+|Description=Questa macro genera un modello da utilizzare con l'ambiente TechDraw e aggiunge una nuova pagina con un nuovo oggetto modello al documento attivo, pronto per posizionare le viste su di esso. E può creare una distinta base (BOM), se lo si desidera.
 |Author=FBXL5
 |Date=2023-12-26
 |Version=00.02
-|SeeAlso=[[TechDraw_TemplateGenerator|TechDraw TemplateGenerator]]
+|SeeAlso=[[TechDraw_TemplateGenerator/it|TechDraw TemplateGenerator]]
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Description ==
