@@ -23,30 +23,7 @@
 La herramienta [[Image:Sketcher_ConstrainLock.svg|24px]] [[Sketcher_ConstrainLock|Croquizador Bloqueo de Restricción]] aplica restricciones [[Sketcher_ConstrainDistanceX|Cota Horizontal]] y [[Sketcher_ConstrainDistanceY|Cota Vertical]] a los puntos. Si se selecciona un solo punto, las restricciones hacen referencia al origen del boceto. Si se seleccionan dos o más puntos, las restricciones hacen referencia al último punto seleccionado.
 
 <span id="Usage"></span>
-<div class="mw-translate-fuzzy">
-Debido a que FreeCAD aún está en desarrollo - esta herramienta presenta un comportamiento extraño cuando se intenta 'bloquear' cualquier cosa que no sea un punto. Por ejemplo (para V0.12 R4802), cuando se bloquea una circunferencia por su contorno y no por su <em>punto</em> central, aparece una restricción horizontal y una vertical en el letrero de diálogo pero no en la ventana gráfica.
-
-==Funcionamiento==
-<ol>
-<li>En primer lugar es necesario resaltar una entidad que quieras restringir. Por las razones mencionadas anteriormente es preferible sólo destacar un <em>punto</em>.<br />  
-[[File:LockConstraint1.png|256px]]</li>
-<li>
-El destacado de un elemento de dibujo se logra moviendo el ratón sobre el elemento y pulsando el botón izquierdo del ratón.
-Un elemento destacado cambiará su color a verde.<br />  
-[[File:LockConstraint2.png|256px]]</li>
-<li>
-Una vez que un elemento está destacado, pulsar con el botón izquierdo del ratón en la restricción de <em>bloquear</em> sirve para bloquear el elemento destacado en su ubicación. Esto normalmente se manifiesta como dos restricciones: Una distancia horizontal desde el origen de coordenadas del dibujo, y una restricción vertical desde el origen del sistema de coordenadas. Estas se establecen por defecto para las coordenadas actuales del punto.<br />  
-[[File:LockConstraint3.png|256px]]</li>
-<li>
-Las restricciones Vertical y Horizontal que forman el bloqueo se pueden editar haciendo doble clic en la restricción apropiada para ser editada ya sea en el dibujo o en la pestaña de restricciones del panel. Esto abrirá un letrero de diálogo para editar la restricción. Pulsar en la componente horizontal de la restricción produce:<br />  
-[[File:LockConstraint4.png|256px]].</li>
-<li>Introduce el valor deseado en el letrero de diálogo y pulsa OK.<br />  
-[[File:LockConstraint5.png|256px]]</li>
-<li>El nuevo valor de la restricción se aplica al dibujo.<br />  
-[[File:LockConstraint6.png|256px]]</li>
-<li>La restricción vertical se puede editar de forma similar para restringir el punto a la ubicación deseada.<br />  
-[[File:LockConstraint7.png|256px]]</li></ol>
-</div>
+== Uso ==
 
 See also: [[Sketcher_Workbench#Drawing_aids|Drawing aids]].
 
