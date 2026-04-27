@@ -92,7 +92,8 @@ El ángulo entre las dos líneas es fijo. No es necesario que las líneas se int
 
 El ángulo entre los dos bordes en un punto dado es fijo. El punto puede ser cualquiera, por ejemplo, el centro de un círculo, el extremo de un borde o el origen; puede pertenecer a uno o ambos bordes, y también puede ser un objeto de punto ([[Sketcher_CreatePoint|point object]]). Si es necesario, se añaden las [[Sketcher_ConstrainPointOnObject|restricciones de punto sobre objeto]] para asegurar que el punto se encuentre en ambos bordes (extendidos). Estas restricciones adicionales se denominan  ([[Sketcher_helper_constraint|restricciones auxiliares]]).
 
-==Scripting==
+<span id="Scripting"></span>
+== Programación de scripts ==
 
 Angle Constraint can be created from [[Macros|macros]] and from the [[Python|Python]] console by using the following:
 {{Code|code=
