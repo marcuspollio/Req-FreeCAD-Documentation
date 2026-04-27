@@ -50,6 +50,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 * [[Image:Std_MainFullscreen.svg|32px]] [[Std_MainFullscreen/it|Schermo intero]]: attiva o disattiva la modalità a schermo intero della finestra principale.
 
+<div class="mw-translate-fuzzy">
 * Viste standard
 ** [[Image:Std_ViewFitAll.svg|32px]] [[Std_ViewFitAll/it|Visualizza tutto]]: adatta la vista per rendere visibili tutti gli oggetti.
 ** [[Image:Std_ViewFitSelection.svg|32px]] [[Std_ViewFitSelection/it|Visualizza la selezione]]: adatta la vista agli oggetti selezionati.
@@ -69,6 +70,7 @@ In questo menu sono disponibili i seguenti strumenti:
 ** [[Image:Std_ViewRotateRight.svg|32px]] [[Std_ViewRotateRight/it|Ruota a destra]]: ruota la vista a destra.
 ** [[Std_StoreWorkingView/it|Memorizza vista attiva]]: memorizza le impostazioni della telecamera della vista 3D attiva nella sua vista di lavoro. {{Version/it|0.21}}
 ** [[Std_RecallWorkingView/it|Richiama vista]]: Richiama la vista di lavoro memorizzata della vista 3D attiva. {{Version/it|0.21}}
+</div>
 
 * [[Std_FreezeViews/it|Viste bloccate]]
 ** [[Std_FreezeViews/it#Salva le viste|Salva le viste...]]: salva le viste fissate in un file.
@@ -136,6 +138,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 * [[Std_Workbench/it|Ambiente]]: seleziona nel sottomenu uno degli ambienti di lavoro di base, oppure un [[external workbenches/it|ambiente esterno]] installato nel sistema.
 
+<div class="mw-translate-fuzzy">
 * Barre degli strumenti {{Emphasis|-- Ogni barra degli strumenti può essere attivata o disattivata nel sottomenu.}}
 ** File
 ** Modifica {{Version/it|0.21}}
@@ -148,6 +151,7 @@ In questo menu sono disponibili i seguenti strumenti:
 ** Aiuto {{Version/it|0.21}}
 ** ... Se l'ambiente corrente dispone di barre degli strumenti, queste verranno visualizzate qui.
 ** [[Std_ToggleToolBarLock/it|Blocca le barre degli strumenti]]: Se attivato, le barre degli strumenti non si possono spostare. {{Version/it|1.0}}
+</div>
 
 <div class="mw-translate-fuzzy">
 * Pannelli {{Emphasis|-- Ciascun pannello può essere attivato o disattivato nel sottomenu.}}
@@ -171,6 +175,8 @@ In questo menu sono disponibili i seguenti strumenti:
 ** [[Image:Std_DockOverlayToggleRight.svg|32px]][[Std_DockOverlayToggleRight/it|Attiva/disattiva a destra]]: mostra/nasconde il pannello in sovrapposizione destro.
 ** [[Image:Std_DockOverlayToggleTop.svg|32px]] [[Std_DockOverlayToggleTop/it|Attiva/disattiva superiore]]: mostra/nasconde il pannello in sovrapposizione superiore.
 ** [[Image:Std_DockOverlayToggleBottom.svg|32px]] [[Std_DockOverlayToggleBottom/it|Attiva/disattiva inferiore]]: mostra/nasconde il pannello di sovrapposizione inferiore.
+
+* [[Image:Std_ToggleBottomPanels.svg|32px]] [[Std_ToggleBottomPanels|Toggle Bottom Panels]]: Shows/hides the bottom panels (usually [[Report_View|Report View]] and [[Python_Console|Python Console]]). {{Version|1.2}}
 
 * Collegamento di navigazione
 ** [[File:Std_LinkSelectLinked.svg|32px]] [[Std_LinkSelectLinked/it|Vai all'oggetto collegato]]: seleziona l'oggetto collegato e passa al suo documento.
