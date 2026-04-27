@@ -9,15 +9,13 @@
 |IconC=Workbench_Sketcher.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/es
 |Icon=Sketcher MergeSketch.svg
 |Name/es=Combinar croquis
-|Workbenches=[[Sketcher Workbench/es|Sketcher]]
-|MenuLocation=Sketch → Combinar croquis
+|Workbenches=[[Sketcher Workbench/es|Croquizador]]
+|MenuLocation=Croquizador → Combinar croquis
 |Version=0.15
 }}
-</div>
 
 <span id="Description"></span>
 ==Descripción==
