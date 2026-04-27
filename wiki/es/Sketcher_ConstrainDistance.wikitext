@@ -67,7 +67,8 @@ Véase también: [[Sketcher_Workbench#Drawing_aids|Materiales de Dibujo]].
 # Opcionalmente, [[Sketcher_Workbench#Edit_constraints|edita el valor de la restricción]].
 # Se agrega una restricción.
 
-==Notes==
+<span id="Notes"></span>
+== Notas ==
 
 See [[Sketcher_Dimension#Notes|Sketcher Dimension]].
 * {{Version|1.2}} For point-line and circle/arc distance constraints, the solver preserves the intended orientation of the constraint more reliably. This reduces unexpected [[Sketcher_Workbench#Flipping|flips]] when geometry changes.
