@@ -173,6 +173,10 @@ If a sketch is in edit mode the Structure toolbar is hidden as none of its tools
 * [[Image:Sketcher_LeaveSketch.png|32px]] [[Sketcher_LeaveSketch|Leave sketch]]: Părăsește modul de editare al Sketch.
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_CancelSketch.svg|32px]] [[Sketcher_CancelSketch|Cancel Editing]]: Leaves sketch edit mode, reverts any changes, and closes the [[Sketcher_Dialog|Sketcher Dialog]]. {{Version|1.2}}
+</div>
+
 <div class="mw-translate-fuzzy">
 * [[Image:Sketcher_ViewSketch.png‎|32px]] [[Sketcher_ViewSketch|View sketch]]: Setează modul de vedere perpendicular pe planul schiței.
 </div>
