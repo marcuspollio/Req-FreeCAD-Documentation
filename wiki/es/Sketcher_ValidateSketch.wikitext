@@ -52,7 +52,7 @@ Pulse {{Button|Highlight Troublesome Vertices}} para resaltar los vértices que 
 
 Esta tolerancia también se utiliza en el proceso {{Button|Find}}/{{Button|Fix}}.
 
-Leave the "Ignore construction geometry" checkbox checked to disregard construction geometry in the analysis.
+Deje marcada la casilla "Ignorar geometría de construcción" para no tener en cuenta la geometría de construcción en el análisis.
 
 <span id="Invalid_Constraints"></span>
 ===Restricciones no válidas===
