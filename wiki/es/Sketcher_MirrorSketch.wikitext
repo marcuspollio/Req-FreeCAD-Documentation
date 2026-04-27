@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
-{{Docnav/es
-|[[Sketcher_MergeSketches/es|Fusionar bocetos]]
-|[[Sketcher_CreatePoint/es|Punto]]
-|[[Sketcher_Workbench/es|Croquizador]]
+{{Docnav
+|[[Sketcher_MergeSketches|Combinar Croquis]]
+|[[Sketcher_LeaveSketch|Salir del Croquis]]
+|[[Sketcher_Workbench|Croquizador]]
 |IconL=Sketcher_MergeSketches.svg‎
-|IconR=Sketcher_CreatePoint.svg
+|IconR=Sketcher_LeaveSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 <div class="mw-translate-fuzzy">
 {{GuiCommand/es
