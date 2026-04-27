@@ -48,10 +48,12 @@ Ein '''ElementGeometry2D'''-Objekt wird zum Festlegen der Wandstärke von 2D-FEM
 <span id="Properties"></span>
 ==Eigenschaften==
 
+<div class="mw-translate-fuzzy">
 * {{PropertyData/de|Thickness}}: Legt die Wandstärke der 2D-Elemente fest.
 * {{PropertyData/de|Offset}} - {{Version/de|1.1}}: Legt den Abstand der mittleren Flächen eines Hüllkörpers bezogen auf die vernetzte Geometrie fest. Die Einheit ist die Wandstärke des Hüllkörpers. Positive Werte zeigen einen Abstand in der positive Richtung der Normale an, negative Werte zeigen einen Abstand in der entgegengesetzten Richtung an. Null bedeutet kein Abstand (die mittleren Flächen befinden sich auf der vernetzten geometrischen Oberfläche). Beispielsweise bedeutet 0,5, dass die vernetzte geometrische Oberfläche der oberen Oberfläche des Hüllkörpers entspricht, während -0,5 bedeutet, dass sie der unteren Oberfläche entspricht.
+</div>
 
-[[Image:FEM_shell_offset.svg|700px]]
+[[Image:FEM_shell_offset.svg|800px]]
 
 {{Caption|Beispiele für Versätze an quadratischen Platten (Seitenansicht). Jede blaue Linie stellt die tatsächliche Geometrie dar, für die ein 2D-Schalen-Netz generiert wird. Das Oberflächennetz wird vom Löser intern zu Festkörperelementen (grüne Rechtecke) erweitert. Die Versatzrichtung hängt vom Vorzeichen des angegebenen Versatzwerts '''o''' und von der Oberflächennormalen '''n''' ab. Die Normalen in der unteren Reihe wurden umgekehrt. Der Versatz wird von der Mittelebene des erweiterten Netzes (rote gestrichelte Linie) zur Oberfläche der Geometrie und des 2D-Netzes (blaue durchgezogene Linie) gemessen – in dieser durch die rosa Pfeile angegebenen Richtung. Wie oben erläutert, folgt er somit der Normalenrichtung, wenn der Versatzwert positiv ist, und verläuft entgegengesetzt, wenn der Versatzwert negativ ist.}}
 
