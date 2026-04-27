@@ -60,9 +60,8 @@ Véase también: [[Sketcher_Workbench#Drawing_aids|Ayudas para el dibujo]].
 #* Haga clic con el botón derecho en la [[3D_View|Vista 3D]] y seleccione la opción {{MenuCommand|[[Image:Croquizador Restricción de Coincidencia Unificada]] Restricción de coincidencia}} del menú contextual.
 # Dependiendo de la selección, se añadirán una o más restricciones.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Notes==
-</div>
+<span id="Notes"></span>
+== Notas ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * {{Version|1.0}}: Points with coincident constraints are marked with the '''Constraint symbols''' [[Sketcher_Preferences#Display|color]].
