@@ -18,15 +18,7 @@
 }}
 
 <span id="Description"></span>
-<div class="mw-translate-fuzzy">
-
-
-"Crea una restricción de bloqueo sobre el elemento seleccionado"
-
-==Descripción==
-
-Esta restricción trata de <em>restringir completamente</em> cualquier elemento seleccionado.
-</div>
+== Descripción ==
 
 The [[Image:Sketcher_ConstrainLock.svg|24px]] [[Sketcher_ConstrainLock|Sketcher ConstrainLock]] tool applies [[Sketcher_ConstrainDistanceX|horizontal dimension]] and [[Sketcher_ConstrainDistanceY|vertical dimension]] constraints to points. If a single point is selected the constraints reference the origin of the sketch. If two or more points are selected the constraints reference the last point in the selection.
 
