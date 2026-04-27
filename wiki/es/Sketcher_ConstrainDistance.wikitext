@@ -99,7 +99,7 @@ Distancia entre los bordes de dos círculos:
 
 {{Code|code=Sketch.addConstraint(Sketcher.Constraint('Distance', Circle1, 0, Circle2, 0, App.Units.Quantity('123.0 mm')))}}
 
-The [[Sketcher_scripting|Sketcher scripting]] page explains the values which can be used for {{incode|Edge}}, {{incode|Edge1}}, {{incode|Edge2}}, {{incode|PointOfEdge}}, {{incode|PointOfEdge1}}, {{incode|PointOfEdge2}}, {{incode|Line}}, {{incode|Circle1}} and {{incode|Circle2}}, and contains further examples on how to create constraints from Python scripts.
+La página [[Sketcher_scripting|Croquizador Programación de scripts]] explica los valores que se pueden usar para {{incode|Edge}}, {{incode|Edge1}}, {{incode|Edge2}}, {{incode|PointOfEdge}}, {{incode|PointOfEdge1}}, {{incode|PointOfEdge2}}, {{incode|Line}}, {{incode|Circle1}} y {{incode|Circle2}}, y contiene más ejemplos sobre cómo crear restricciones desde scripts de Python.
 
 
 {{Docnav
