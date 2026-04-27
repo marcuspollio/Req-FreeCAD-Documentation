@@ -57,7 +57,7 @@ Deje marcada la casilla "Ignorar geometría de construcción" para no tener en c
 <span id="Invalid_Constraints"></span>
 === Restricciones no válidas ===
 
-Checks for malformed constraints.
+Compruebe si hay restricciones mal formadas.
 
 For example, if there is a Circle-Line-Tangent constraint, but it references two lines, it is considered invalid.
 
