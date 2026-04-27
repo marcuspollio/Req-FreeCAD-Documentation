@@ -51,15 +51,15 @@ Véase también: [[Sketcher_Workbench#Drawing_aids|Ayudas para el dibujo]].
 <span id="Run-once_mode"></span>
 === Modo de ejecución única ===
 
-# Do one of the following:
-#* Select a single line.
-#* Select a single circular arc.
-#* Select two lines.
-#* Select a point and two edges (in any order).
-# Invoke the tool as described above, or with the following additional option:
-#* Right-click in the {{MenuCommand|Elements}} section of the [[Sketcher_Dialog|Sketcher Dialog]] and select the {{MenuCommand|[[Image:Sketcher_ConstrainAngle.svg|16px]] Angle Dimension}} option from the context menu.
-# Optionally [[Sketcher_Workbench#Edit_constraints|edit the constraint value]].
-# An angle constraint is added. If a point and two edges have been selected, up to two [[Sketcher_ConstrainPointOnObject|point-on-object constraints]] can also be added. See [[#Between_two_edges_at_point|Examples]].
+# Realice una de las siguientes acciones:
+#* Seleccione una línea.
+#* Seleccione un arco circular.
+#* Seleccione dos líneas.
+#* Seleccione un punto y dos aristas (en cualquier orden).
+# Invoque la herramienta como se describe anteriormente, o con la siguiente opción adicional:
+#* Haga clic con el botón derecho en la sección {{MenuCommand|Elementos}} del [[Sketcher_Dialog|Diálogo del Croquizador]] y seleccione la opción {{MenuCommand|[[Image:Sketcher_ConstrainAngle.svg|16px]] Cota Angular}} del menú contextual.
+# Opcionalmente, [[Sketcher_Workbench#Edit_constraints|edite el valor de la restricción]].
+# Se agrega una restricción de ángulo. Si se han seleccionado un punto y dos aristas, también se pueden agregar hasta dos [[Sketcher_ConstrainPointOnObject|restricciones de punto sobre objeto]]. Ver [[#Entre_dos_bordes_en_un_punto|Ejemplos]].
 
 ==Examples==
 
