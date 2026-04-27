@@ -14,9 +14,7 @@
 
 Se si è stanchi di riscrivere le informazioni ogni volta che si inserisce una nuova pagina in un documento FreeCAD o se si preferisce una distinta base "disegnata" (BOM) su un foglio di calcolo inserito, questa macro fa questo lavoro.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This macro generates a TechDraw template on the fly and inserts it into the active document, ready to get new views added.
-</div>
+Questa macro genera al volo un modello TechDraw e lo inserisce nel documento attivo, pronto per l'aggiunta di nuove viste.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you wish, you can fill the space between the title block and the upper border of the drawing area with a BOM. You choose how many lines you need or if you fill the whole space.
