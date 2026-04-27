@@ -95,7 +95,7 @@ El ángulo entre los dos bordes en un punto dado es fijo. El punto puede ser cua
 <span id="Scripting"></span>
 == Programación de scripts ==
 
-Angle Constraint can be created from [[Macros|macros]] and from the [[Python|Python]] console by using the following:
+La restricción de ángulo se puede crear desde [[Macros|macros]] y desde la consola [[Python|Python]] utilizando lo siguiente:
 {{Code|code=
 # line slope angle
 Sketch.addConstraint(Sketcher.Constraint('Angle',iline,angle))
