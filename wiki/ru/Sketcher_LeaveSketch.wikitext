@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/ru
 |[[Sketcher_MirrorSketch/ru|Отразить эскиз зеркально]]
 |[[Sketcher_ViewSketch/ru|Просмотр эскиза]]
@@ -8,6 +9,7 @@
 |IconR=Sketcher_ViewSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{GuiCommand/ru
 |Name/ru=Покинуть эскиз
@@ -37,6 +39,7 @@
 # Диалоговое окно Скетчера закрыто.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/ru
 |[[Sketcher_MirrorSketch/ru|Отразить эскиз зеркально]]
 |[[Sketcher_ViewSketch/ru|Просмотр эскиза]]
@@ -45,6 +48,7 @@
 |IconR=Sketcher_ViewSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
