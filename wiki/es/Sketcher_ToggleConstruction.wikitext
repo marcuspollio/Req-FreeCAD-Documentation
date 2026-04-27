@@ -52,9 +52,14 @@ La geometría de construcción se marca con un color específico en [[Sketcher_P
 # El modo de las herramientas de creación de geometría no cambia.
 
 
-<div class="mw-translate-fuzzy">
-[[Category:Sketcher/es]]
-</div>
+{{Docnav
+|[[Sketcher_CreateText|Texto]]
+|[[Sketcher_Dimension|Dimensión]]
+|[[Sketcher_Workbench|Croquizador]]
+|IconL=Sketcher_CreateText.svg
+|IconR=Sketcher_Dimension.svg
+|IconC=Workbench_Sketcher.svg
+}}
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
