@@ -9,15 +9,13 @@
 |IconC=Workbench_Sketcher.svg
 }}
 
-<div class="mw-translate-fuzzy">
 {{GuiCommand/es
 |Name=Sketcher MirrorSketch
-|Name/es=Croquizador SimetríaCroquis
-|MenuLocation=Croquis → SimetríaCroquis
+|Name/es=Croquizador Croquis en Espejo
+|MenuLocation=Croquis → Croquis en Espejo
 |Workbenches=[[Sketcher_Workbench/es|Croquizador]]
 |Version=0.16
 }}
-</div>
 
 <span id="Description"></span>
 ==Descripción==
