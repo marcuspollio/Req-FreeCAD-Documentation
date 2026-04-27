@@ -137,6 +137,7 @@ If a sketch is in edit mode the Structure toolbar is hidden as none of its tools
 <!--T:25-->
 * [[Image:Sketcher_LeaveSketch.svg|32px]] [[Sketcher_LeaveSketch|Leave Sketch]]: Finishes sketch edit mode and closes the [[Sketcher_Dialog|Sketcher Dialog]].
 
+<!--T:276-->
 * [[Image:Sketcher_CancelSketch.svg|32px]] [[Sketcher_CancelSketch|Cancel Editing]]: Leaves sketch edit mode, reverts any changes, and closes the [[Sketcher_Dialog|Sketcher Dialog]]. {{Version|1.2}}
 
 <!--T:26-->
