@@ -68,10 +68,11 @@ Nachdem das Netz erstellt wurde, können seine Eigenschaften mit der [[Property_
 
 Es können so viele verschiedene erweiterte Filterkriterien wie nötig erstellt werden.
 
+<div class="mw-translate-fuzzy">
 [[File:FEM_advanced_refinement.PNG|400px]]
 {{Caption|Beispiel für eine erweiterte Verfeinerung mit MathEval unter Verwendung der folgenden Funktion:<br/>
 <math>0.05 + 0.4 * (16 * x^2 * y^2 * (x^2 - y^2)^2 / (x^2 + y^2)^4) + 0.1 * (\sqrt{x^2 + y^2} - 4)</math>}}
-
+</div>
 
 {{Docnav/de
 |[[FEM_MeshManipulate/de|Verfeinerung bearbeiten]]
