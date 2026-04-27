@@ -119,7 +119,7 @@ donde:
 
 * {{incode|angle}} es el valor del ángulo en radianes. El ángulo se cuenta entre vectores tangentes en sentido antihorario. Los vectores tangentes apuntan desde el inicio hasta el final para las líneas (o viceversa si se proporciona el punto final en el modo de ángulo entre líneas), y en sentido antihorario para círculos, arcos y elipses. La cantidad también se acepta como un ángulo (p. ej., {{incode|App.Units.Quantity('45 deg')}}).
 
-The [[Sketcher_scripting|Sketcher scripting]] page explains the values which can be used for {{incode|iline}}, {{incode|iline1}}, {{incode|iline2}}, {{incode|pointpos1}}, {{incode|pointpos2}}, {{incode|geoidpoint}} and {{incode|pointpos}} and contains further examples on how to create constraints from Python scripts.
+La página [[Sketcher_scripting|Croquizador Programación de Scripts]] explica los valores que se pueden usar para {{incode|iline}}, {{incode|iline1}}, {{incode|iline2}}, {{incode|pointpos1}}, {{incode|pointpos2}}, {{incode|geoidpoint}} y {{incode|pointpos}} y contiene más ejemplos sobre cómo crear restricciones desde scripts de Python.
 
 
 {{Docnav
