@@ -72,11 +72,11 @@ Véase también: [[Sketcher_Workbench#Drawing_aids|Ayudas para el Dibujo]].
 <span id="Limitations"></span>
 == Limitaciones ==
 
-* Several constraints are not supported at this time.
-* The defined knot multiplicity may not always be respected:
-** For a periodic spline, the first knot (coincident with last) always has a multiplicity of 2.
-** For a non-periodic spline, the first and last knots always have a multiplicity of 4.
-** If the points just before and just after have multiplicities >=3, the piece between these two is fully continuous, and this (middle) point will only be constrained with point-on-object. If a knot is needed, consider using the [[Sketcher_BSplineInsertKnot|insert knot tool]].
+* Varias restricciones no son compatibles actualmente.
+* La multiplicidad de nodos definida puede no respetarse siempre:
+** Para una spline periódica, el primer nodo (coincidente con el último) siempre tiene una multiplicidad de 2.
+** Para una spline no periódica, el primer y el último nodo siempre tienen una multiplicidad de 4.
+** Si los puntos inmediatamente anterior y posterior tienen multiplicidades >=3, el segmento entre estos dos puntos es completamente continuo, y este punto (el del medio) solo estará restringido con la propiedad point-on-object. Si se necesita un nodo, considere usar la herramienta [[Sketcher_BSplineInsertKnot|insertar nodo]].
 
 
 {{Docnav
