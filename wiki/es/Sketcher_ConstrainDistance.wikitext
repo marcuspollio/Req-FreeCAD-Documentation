@@ -91,7 +91,7 @@ Longitud de la línea (la interfaz gráfica permite seleccionar el borde en sí,
 
 {{Code|code=Sketch.addConstraint(Sketcher.Constraint('Distance', Line, 1, Line, 2, App.Units.Quantity('123.0 mm')))}}
 
-Distance from point ({{incode|Edge, PointOfEdge}}) to perpendicular point on line ({{incode|Line}}):
+Distancia desde el punto ({{incode|Edge, PointOfEdge}}) hasta el punto perpendicular en la línea ({{incode|Line}}):
 
 {{Code|code=Sketch.addConstraint(Sketcher.Constraint('Distance', Edge, PointOfEdge, Line, 0, App.Units.Quantity('123.0 mm')))}}
 
