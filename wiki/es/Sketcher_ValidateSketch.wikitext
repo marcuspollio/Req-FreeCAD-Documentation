@@ -91,10 +91,10 @@ Internamente, funcionan limitando el ángulo entre vectores tangentes. Por ejemp
 El mecanismo de bloqueo suele funcionar correctamente y esta herramienta no debería ser necesaria. '''Solo debe utilizarse después de realizar una copia de seguridad del documento abierto.'''
 
 
-{{Docnav/es
-|[[Sketcher_ReorientSketch/es|Reorientar croquis]]
-|[[Sketcher_MergeSketches/es|Fusionar croquis]]
-|[[Sketcher_Workbench/es|Croquizador]]
+{{Docnav
+|[[Sketcher_ReorientSketch|Reorientar boceto]]
+|[[Sketcher_MergeSketches|Fusionar bocetos]]
+|[[Sketcher_Workbench|Croquizador]]
 |IconL=Sketcher_ReorientSketch.svg
 |IconR=Sketcher MergeSketch.svg‎
 |IconC=Workbench_Sketcher.svg
