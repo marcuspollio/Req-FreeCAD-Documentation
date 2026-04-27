@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/ja
 |[[Sketcher_MirrorSketch/ja|スケッチを鏡像化]]
 |[[Sketcher_ViewSketch/ja|スケッチを表示]]
@@ -8,6 +9,7 @@
 |IconR=Sketcher_ViewSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{GuiCommand/ja
 |Name=Sketcher LeaveSketch
@@ -37,6 +39,7 @@
 # The Sketcher Dialog is closed.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/ja
 |[[Sketcher_MirrorSketch/ja|スケッチを鏡像化]]
 |[[Sketcher_ViewSketch/ja|スケッチを表示]]
@@ -45,6 +48,7 @@
 |IconR=Sketcher_ViewSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
+</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
