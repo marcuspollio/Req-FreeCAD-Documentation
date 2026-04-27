@@ -50,17 +50,15 @@ Véase también: [[Sketcher_Workbench#Drawing_aids|Ayudas para el dibujo]].
 <span id="Run-once_mode"></span>
 === Modo de ejecución única ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Do one of the following:
-#* Select two or more points.
-#* Select two or more edges of circles, arcs, ellipses or arcs of ellipses.
-#* Select a single point and a single edge (in any order).
-#* Select several points and a single edge (idem).
-#* Select a single point and several edges (idem).
-# Invoke the tool as described above, or with the following additional option:
-#* Right-click in the [[3D_View|3D View]] and select the {{MenuCommand|[[Image:Sketcher_ConstrainCoincidentUnified.svg|16px]] Coincident Constraint}} option from the context menu.
-# Depending on the selection one or more constraints are added.
-</div>
+# Realice una de las siguientes acciones:
+#* Seleccione dos o más puntos.
+#* Seleccione dos o más aristas de círculos, arcos, elipses o arcos de elipses.
+#* Seleccione un punto y una arista (en cualquier orden).
+#* Seleccione varios puntos y una arista (ídem).
+#* Seleccione un punto y varias aristas (ídem).
+# Invoque la herramienta como se describe anteriormente, o con la siguiente opción adicional:
+#* Haga clic con el botón derecho en la [[3D_View|Vista 3D]] y seleccione la opción {{MenuCommand|[[Image:Croquizador Restricción de Coincidencia Unificada]] Restricción de coincidencia}} del menú contextual.
+# Dependiendo de la selección, se añadirán una o más restricciones.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Notes==
