@@ -23,7 +23,8 @@
 
 La herramienta [[Image:Sketcher_CreatePeriodicBSpline.svg|24px]] [[Sketcher_CreatePeriodicBSpline|Croquizador: Crear una BSpline Periódica]] crea una curva [[B-Splines|B-spline]] periódica (cerrada) a partir de los puntos de control. {{Version|1.0}}: Esta es la misma herramienta que [[Sketcher_CreateBSpline|Croquizador: Crear una BSpline]] pero con un modo inicial diferente.
 
-==Usage==
+<span id="Usage"></span>
+== Uso ==
 
 See also: [[Sketcher_Workbench#Drawing_aids|Drawing aids]].
 
