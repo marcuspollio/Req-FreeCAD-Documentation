@@ -53,7 +53,6 @@ W tym menu dostępne są następujące narzędzia:
 
 * [[Image:Std_MainFullscreen.svg|32px]] [[Std_MainFullscreen/pl|Pełny ekran]]: Przełącza tryb pełnoekranowy okna głównego.
 
-<div class="mw-translate-fuzzy">
 * Widoki standardowe
 ** [[Image:Std_ViewFitAll.svg|32px]] [[Std_ViewFitAll/pl|Dopasuj wszystko]]: Dopasowuje wszystkie widoczne obiekty wewnątrz widoku.
 ** [[Image:Std_ViewFitSelection.svg|32px]] [[Std_ViewFitSelection/pl|Dopasuj wybrane]]: Dopasowuje do widoku wybrane obiekty.
@@ -71,9 +70,8 @@ W tym menu dostępne są następujące narzędzia:
 ** [[Image:Std_ViewLeft.svg|32px]] [[Std_ViewLeft/pl|Od lewej]]: Przełącz na widok z lewej strony.
 ** [[Image:Std_RotateLeft.png|32px]] [[Std_ViewRotateLeft/pl|Obróć w lewo]]: Obraca widok na lewo.
 ** [[Image:Std_RotateRight.png|32px]] [[Std_ViewRotateRight/pl|Obróć w prawo]]: Obraca widok na prawo.
-** [[Std_StoreWorkingView/pl|Zachowaj widok]]: Zapisuje ustawienia ujęcia aktywnego widoku 3D w swoim widoku roboczym. {{Version/pl|0.21}}
-** [[Std_RecallWorkingView/pl|Przywróć widok]]: Przywołuje zapisany widok roboczy aktywnego widoku 3D. {{Version/pl|0.21}}
-</div>
+** [[Std_StoreWorkingView/pl|Zachowaj widok]]: Zapisuje ustawienia ujęcia aktywnego widoku 3D w swoim Widoku roboczym.
+** [[Std_RecallWorkingView/pl|Przywróć widok]]: Przywołuje zapisany widok roboczy aktywnego Widoku 3D.
 
 * [[Std_FreezeViews/pl|Przechwyć aktualny obraz]]
 ** [[Std_FreezeViews/pl#Zapisz_widok|Zapisz widok ...]]: Zapisuje w pliku zamrożony widok.
