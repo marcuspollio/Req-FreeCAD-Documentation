@@ -34,6 +34,7 @@ Die Grenzschicht hat den Vorteil, dass sie hochauflösende, anisotrope Netze erz
 <span id="Usage"></span>
 ==Anwendung==
 
+<div class="mw-translate-fuzzy">
 # Um den Befehl zu aktivieren, muss zunächst ein 2D-[[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/de|Netz aus Form durch Gmsh]] bereitgestellt werden.
 # Das Mesh-Objekt in der [[Tree_View/de|Baumansicht]] auswählen.
 # Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
@@ -46,8 +47,11 @@ Die Grenzschicht hat den Vorteil, dass sie hochauflösende, anisotrope Netze erz
 #: Ergebnis: Sie sollten nun ein neues {{incode|FEMMeshBoundaryLayer}}-Objekt unter dem {{incode|FEMMeshGMSH}}-Objekt (siehe Beispiel Nr. 3 unten) in Ihrem aktiven Analysecontainer sehen.
 # Auf das übergeordnete Objekt {{incode|FEMMeshGMSH}} im Modellbaum doppelklicken und {{Button|Anwenden}} drücken, um eine Neuberechnung des Netzes zu erzwingen.
 # Die Aufgabe schließen.
+</div>
 
+<div class="mw-translate-fuzzy">
 Nachdem das Netz erstellt wurde, können seine Eigenschaften mit der [[Property_View/de|Eigenschaften-Ansicht]] geändert werden. Nachdem eine Eigenschaft geändert wurde, muss der Gmsh-Dialog erneut geöffnet werden und auf die Schaltfläche {{Button|Anwenden}} gedrückt werden. (Der Dialog kann während der Änderung der Eigenschaften geöffnet bleiben.)
+</div>
 
 Es können so viele unterschiedliche Grenzschichten wie nötig erstellt werden.
 
