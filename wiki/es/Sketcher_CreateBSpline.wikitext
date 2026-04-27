@@ -69,7 +69,8 @@ Véase también: [[Sketcher_Workbench#Drawing_aids|Ayudas para el Dibujo]].
 * El grado de una B-spline creada puede ser [[Sketcher_BSplineIncreaseDegree|incrementado]] o [[Sketcher_BSplineDecreaseDegree|disminuido]], y la multiplicidad de sus nodos también puede ser [[Sketcher_BSplineIncreaseKnotMultiplicity|incrementada]] o [[Sketcher_BSplineIncreaseKnotMultiplicity|disminuida]].
 * La visibilidad del [[Sketcher_BSplineDegree|grado]], del [[Sketcher_BSplinePolygon|polígono de control]], [[Sketcher_BSplineComb|peine de curvatura]], [[Sketcher_BSplineKnotMultiplicity|multiplicidad de nudos]] y [[Sketcher_BSplinePoleWeight|peso del punto de control]] se puede activar/desactivar desde la barra de herramientas [[Sketcher_Workbench#Visual Helpers|Ayudantes visuales]].
 
-==Limitations==
+<span id="Limitations"></span>
+== Limitaciones ==
 
 * Several constraints are not supported at this time.
 * The defined knot multiplicity may not always be respected:
