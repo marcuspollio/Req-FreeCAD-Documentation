@@ -118,6 +118,10 @@
 
 * [[Image:Sketcher_LeaveSketch.svg|32px]] [[Sketcher_LeaveSketch/ja|スケッチの編集を終了]]：スケッチ編集モードを終了し、[[Sketcher_Dialog/ja|スケッチャー・ダイアログ]]を閉じます。
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_CancelSketch.svg|32px]] [[Sketcher_CancelSketch|Cancel Editing]]: Leaves sketch edit mode, reverts any changes, and closes the [[Sketcher_Dialog|Sketcher Dialog]]. {{Version|1.2}}
+</div>
+
 * [[Image:Sketcher_ViewSketch.svg|32px]] [[Sketcher_ViewSketch/ja|スケッチを表示]]：[[3D_view/ja|3Dビュー]]をスケッチ平面に垂直にします。
 
 * [[Image:Sketcher_ViewSection.svg|32px]] [[Sketcher_ViewSection/ja|セクション表示]]：セクション表示（スケッチ平面の手前にあるオブジェクトやその一部を非表示する）を切り替えます。
