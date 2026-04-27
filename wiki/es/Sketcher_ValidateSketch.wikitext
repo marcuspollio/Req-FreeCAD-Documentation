@@ -44,7 +44,7 @@ La herramienta [[Image:Sketcher_ValidateSketch.svg|24px]] [[Sketcher_ValidateSke
 <span id="Missing_Coincidences"></span>
 === Coincidencias perdidas ===
 
-Finds out missing coincidences for overlapping vertices, and adds them. Press the {{Button|Find}} button; a pop up dialog will appear to report how many missing coincidences were found; they will be shown in the 3D View as yellow crosses. Press {{Button|OK}} to close the dialog, then press the {{Button|Fix}} button to add the missing coincidences.
+Detecta coincidencias faltantes en vértices superpuestos y las agrega. Pulse el {{Button|Find}}; aparecerá un cuadro de diálogo emergente que indica cuántas coincidencias faltantes se encontraron; se mostrarán en la vista 3D como cruces amarillas. Pulse {{Button|OK}} para cerrar el cuadro de diálogo y, a continuación, pulse el {{Button|Fix}} para agregar las coincidencias faltantes.
 
 If necessary, define a different tolerance value in the drop-down field.
 
