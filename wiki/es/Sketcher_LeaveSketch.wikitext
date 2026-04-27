@@ -24,14 +24,13 @@ La herramienta [[Image:Sketcher_LeaveSketch.svg|24px]] [[Sketcher_LeaveSketch|Cr
 <span id="Usage"></span>
 == Uso ==
 
-# There are several ways to invoke the tool:
-#* Press the {{Button|Close}} button at the top of the Sketcher Dialog.
-#* If the {{MenuCommand|Esc key can leave sketch edit mode}} [[Sketcher_Preferences#General|preference]] is selected (default): press the {{KEY|Esc}} key.
-#* Press the {{Button|[[Image:Sketcher_LeaveSketch.svg|16px]] [[Sketcher_LeaveSketch|Leave Sketch]]}} button.
-#* Select the {{MenuCommand|Sketch → [[Image:Sketcher_LeaveSketch.svg|16px]] Leave Sketch}} option from the menu.
-#* Right-click in the [[3D_View|3D View]] and select the {{MenuCommand|[[Image:Sketcher_LeaveSketch.svg|16px]] Leave Sketch}} option from the context menu.
-#* Right-click the sketch in the [[Tree_View|Tree View]] and select the {{MenuCommand|Finish Editing}} option from the context menu.
-# The Sketcher Dialog is closed.
+# Existen varias formas de usar la herramienta:
+#* Pulse el botón {{Button|Cerrar}} en la parte superior del cuadro de diálogo del Boceto.
+#* Si la opción {{MenuCommand|Esc key can out of sketch mode}} [[Sketcher_Preferences#General|Preferencia]] está seleccionada (por defecto): pulse la tecla {{KEY|Esc}}.
+#* Pulse el botón {{Button|[[Image:Sketcher_LeaveSketch.svg|16px]] [[Sketcher_LeaveSketch|Out Sketch]]}}.
+#* Seleccione la opción {{MenuCommand|Sketch → [[Image:Sketcher_LeaveSketch.svg|16px]] Dejar Croquis}} del menú. #* Haga clic derecho en la [[3D_View|Vista 3D]] y seleccione la opción {{MenuCommand|[[Image:Sketcher_LeaveSketch.svg|16px]] Salir del boceto}} del menú contextual.
+#* Haga clic derecho en el boceto en la [[Tree_View|Vista de árbol]] y seleccione la opción {{MenuCommand|Finalizar edición}} del menú contextual.
+# El cuadro de diálogo del Boceto se cierra.
 
 
 <div class="mw-translate-fuzzy">
