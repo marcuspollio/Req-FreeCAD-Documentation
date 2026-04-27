@@ -28,11 +28,14 @@ La herramienta [[Image:Sketcher_CreatePeriodicBSpline.svg|24px]] [[Sketcher_Crea
 
 Véase también: [[Sketcher_Workbench#Drawing_aids|Ayudas para el dibujo]].
 
-# There are several ways to invoke the tool:
-#* Press the {{Button|[[Image:Sketcher_CreatePeriodicBSpline.svg|16px]] [[Sketcher_CreatePeriodicBSpline|Periodic B-Spline]]}} button.
-#* Select the {{MenuCommand|Sketch → Geometries → [[Image:Sketcher_CreatePeriodicBSpline.svg|16px]] Periodic B-Spline}} option from the menu.
-#* Use the keyboard shortcut: {{KEY|G}} then {{KEY|B}}, then {{KEY|P}}.
-# For further steps see [[Sketcher_CreateBSpline#Usage|Sketcher CreateBSpline]].
+# Existen varias formas de usar la herramienta:
+#* Pulse el botón {{Button|[[Image:Sketcher_CreatePeriodicBSpline.svg|16px]] [[Sketcher_CreatePeriodicBSpline|B-Spline Periódica]]}}.
+
+#* Seleccione la opción {{MenuCommand|Croquizador → Geometrías → [[Image:Sketcher_CreatePeriodicBSpline.svg|16px]] B-Spline Periódica}} del menú.
+
+#* Use el atajo de teclado: {{KEY|G}} seguido de {{KEY|B}} y, a continuación, {{KEY|P}}.
+
+# Para más información, consulte [[Sketcher_CreateBSpline#Usage|Croquizador: Crear BSpline]].
 
 ==Notes==
 
