@@ -35,7 +35,7 @@ Véase también: [[Sketcher_Workbench#Drawing_aids|Ayudas para el dibujo]].
 
 # Asegúrese de que no haya ninguna selección.
 # Existen varias maneras de usar la herramienta:
-#* Pulse el botón {{Button|[[Image:Croquizador Restricción de Coincidencia Unificada.svg|16px]] [[Sketcher_ConstrainCoincidentUnified|Restricción de coincidencia]]}}.
+#* Pulse el botón {{Button|[[Image:Sketcher_ConstrainCoincidentUnified.svg|16px]] [[Sketcher_ConstrainCoincidentUnified|Restricción de coincidencia]]}}.
 #* Seleccione la opción {{MenuCommand|Croquizador → Restricciones → [[Image:Sketcher_ConstrainCoincidentUnified.svg|16px]] Restricción de Coincidencia}} del menú.
 #* Haga clic con el botón derecho en la [[3D_View|Vista 3D]] y seleccione la opción {{MenuCommand|Restricción → [[Image:Sketcher_ConstrainCoincidentUnified.svg|16px]] Restricción de Coincidencia}} del menú contextual. #* Usa el atajo de teclado: {{KEY|C}}.
 # El cursor cambia a una cruz con el icono de la herramienta.
