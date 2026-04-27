@@ -48,10 +48,8 @@
 <span id="Properties"></span>
 ==Właściwości==
 
-<div class="mw-translate-fuzzy">
 * {{PropertyData|Grubość}}: Określa grubość elementów 2D.
-* {{PropertyData|Odsunięcie}} - {{Version/pl|1.1}}: Określa odsunięcie powierzchni środkowej powłoki w stosunku do geometrii z siatką. Jednostką jest grubość powłoki. Dodatnie wartości wskazują odsunięcie w dodatnim kierunku normalnym, ujemne wartości wskazują odsunięcie w przeciwnym kierunku. Zero oznacza brak odsunięcia (powierzchnia środkowa zlokalizowana na geometrycznej powierzchni z siatką). Przykładowo, 0.5 oznacza, że geometryczna powierzchnia z siatką będzie górną powierzchnią wyciągniętej powłoki, podczas gdy -0.5 oznacza, że będzie dolną powierzchnią.
-</div>
+* {{PropertyData|Odsunięcie}} - {{Version/pl|1.1}}: Używane tylko przez solver CalculiX. Określa odsunięcie powierzchni środkowej powłoki w stosunku do geometrii z siatką. Jednostką jest grubość powłoki. Dodatnie wartości wskazują odsunięcie w dodatnim kierunku normalnym, ujemne wartości wskazują odsunięcie w przeciwnym kierunku. Zero oznacza brak odsunięcia (powierzchnia środkowa zlokalizowana na geometrycznej powierzchni z siatką). Przykładowo, 0.5 oznacza, że geometryczna powierzchnia z siatką będzie górną powierzchnią wyciągniętej powłoki, podczas gdy -0.5 oznacza, że będzie dolną powierzchnią.
 
 [[Image:FEM_shell_offset.svg|800px]]
 
