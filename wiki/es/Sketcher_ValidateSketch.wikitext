@@ -46,7 +46,7 @@ La herramienta [[Image:Sketcher_ValidateSketch.svg|24px]] [[Sketcher_ValidateSke
 
 Detecta coincidencias faltantes en vértices superpuestos y las agrega. Pulse el {{Button|Find}}; aparecerá un cuadro de diálogo emergente que indica cuántas coincidencias faltantes se encontraron; se mostrarán en la vista 3D como cruces amarillas. Pulse {{Button|OK}} para cerrar el cuadro de diálogo y, a continuación, pulse el {{Button|Fix}} para agregar las coincidencias faltantes.
 
-If necessary, define a different tolerance value in the drop-down field.
+Si es necesario, defina un valor de tolerancia diferente en el menú desplegable.
 
 Press {{Button|Highlight Troublesome Vertices}} to highlight vertexes that are outside this tolerance.
 
