@@ -95,7 +95,7 @@ Distancia desde el punto ({{incode|Edge, PointOfEdge}}) hasta el punto perpendic
 
 {{Code|code=Sketch.addConstraint(Sketcher.Constraint('Distance', Edge, PointOfEdge, Line, 0, App.Units.Quantity('123.0 mm')))}}
 
-Distance between the edges of two circles:
+Distancia entre los bordes de dos círculos:
 
 {{Code|code=Sketch.addConstraint(Sketcher.Constraint('Distance', Circle1, 0, Circle2, 0, App.Units.Quantity('123.0 mm')))}}
 
