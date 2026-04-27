@@ -78,9 +78,14 @@ Como indican los nombres {{incode|LineFixed}} y {{incode|LineMoving}}, si ambos 
 La página [[Sketcher_scripting|Croquizador Programación de Scripts]] explica los valores que se pueden usar para {{incode|LineFixed}}, {{incode|PointOfLineFixed}}, {{incode|LineMoving}} y {{incode|PointOfLineMoving}}, y contiene más ejemplos sobre cómo crear restricciones desde scripts de Python.
 
 
-<div class="mw-translate-fuzzy">
-[[Category:Sketcher/es]]
-</div>
+{{Docnav
+|[[Sketcher_ConstrainCoincidentUnified|Restricción de coincidencia (unificada)]]
+|[[Sketcher_ConstrainPointOnObject|Restricción de punto sobre objeto]]
+|[[Sketcher_Workbench|Sketcher]]
+|IconL=Sketcher_ConstrainCoincidentUnified.svg
+|IconR=Constraint_PointOnObject.svg
+|IconC=Workbench_Sketcher.svg
+}}
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
