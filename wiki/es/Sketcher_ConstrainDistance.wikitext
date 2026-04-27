@@ -79,7 +79,7 @@ Consulte [[Sketcher_Dimension#Notes|Croquizador Cotas]].
 <span id="Scripting"></span>
 == Programación de Scripts ==
 
-Distance from origin:
+Cota desde el origen.
 
 {{Code|code=Sketch.addConstraint(Sketcher.Constraint('Distance', Edge, PointOfEdge, -1, 1, App.Units.Quantity('123.0 mm')))}}
 
