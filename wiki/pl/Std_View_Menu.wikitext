@@ -53,6 +53,7 @@ W tym menu dostępne są następujące narzędzia:
 
 * [[Image:Std_MainFullscreen.svg|32px]] [[Std_MainFullscreen/pl|Pełny ekran]]: Przełącza tryb pełnoekranowy okna głównego.
 
+<div class="mw-translate-fuzzy">
 * Widoki standardowe
 ** [[Image:Std_ViewFitAll.svg|32px]] [[Std_ViewFitAll/pl|Dopasuj wszystko]]: Dopasowuje wszystkie widoczne obiekty wewnątrz widoku.
 ** [[Image:Std_ViewFitSelection.svg|32px]] [[Std_ViewFitSelection/pl|Dopasuj wybrane]]: Dopasowuje do widoku wybrane obiekty.
@@ -72,6 +73,7 @@ W tym menu dostępne są następujące narzędzia:
 ** [[Image:Std_RotateRight.png|32px]] [[Std_ViewRotateRight/pl|Obróć w prawo]]: Obraca widok na prawo.
 ** [[Std_StoreWorkingView/pl|Zachowaj widok]]: Zapisuje ustawienia ujęcia aktywnego widoku 3D w swoim widoku roboczym. {{Version/pl|0.21}}
 ** [[Std_RecallWorkingView/pl|Przywróć widok]]: Przywołuje zapisany widok roboczy aktywnego widoku 3D. {{Version/pl|0.21}}
+</div>
 
 * [[Std_FreezeViews/pl|Przechwyć aktualny obraz]]
 ** [[Std_FreezeViews/pl#Zapisz_widok|Zapisz widok ...]]: Zapisuje w pliku zamrożony widok.
@@ -138,6 +140,7 @@ W tym menu dostępne są następujące narzędzia:
 
 * [[Std_Workbench/pl|Środowisko pracy]]: {{Emphasis|-- Wybierz jedno ze środowisk pracy w menu.}}
 
+<div class="mw-translate-fuzzy">
 * Paski narzędzi {{Emphasis|-- Każdy pasek narzędzi można włączyć lub wyłączyć w menu podrzędnym.}}
 ** Plik
 ** Edycja {{Version|0.21}}
@@ -150,6 +153,7 @@ W tym menu dostępne są następujące narzędzia:
 ** Pomoc {{Version|0.21}}
 ** ... Jeśli bieżące środowisko pracy ma paski narzędzi, pojawiają się one tutaj.
 ** [[Std_ToggleToolBarLock/pl|Zablokuj paski narzędzi]]: Jeśli funkcja jest włączona, paski narzędzi nie są ruchome. {{Version/pl|1.0}}
+</div>
 
 * Panele {{Emphasis|-- Każdy panel można włączyć lub wyłączyć w menu podrzędnym.}}
 ** [[Tree_View/pl|Widok drzewa]] {{Emphasis|-- Dostępne jako osobny panel, jeśli opcja [[Preferences_Editor/pl#Ogólne_2|Tryb Widoku drzewa i Widoku właściwości]] jest ustawiona na {{Value|Niezależny}}.}}
@@ -171,6 +175,8 @@ W tym menu dostępne są następujące narzędzia:
 ** [[Image:Std_DockOverlayToggleRight.svg|32px]]  [[Std_DockOverlayToggleRight/pl|Przełącz z prawej]]: Pokazuje / ukrywa prawy panel nakładki.
 ** [[Image:Std_DockOverlayToggleTop.svg|32px]]  [[Std_DockOverlayToggleTop/pl|Przełącz u góry]]: Pokazuje / ukrywa górny panel nakładki.
 ** [[Image:Std_DockOverlayToggleBottom.svg|32px]]  [[Std_DockOverlayToggleBottom/pl|Przełącz u dołu]]: Pokazuje / ukrywa dolny panel nakładki.
+
+* [[Image:Std_ToggleBottomPanels.svg|32px]] [[Std_ToggleBottomPanels|Toggle Bottom Panels]]: Shows/hides the bottom panels (usually [[Report_View|Report View]] and [[Python_Console|Python Console]]). {{Version|1.2}}
 
 * Nawigacja przy użyciu łączy
 ** [[File:Std_LinkSelectLinked.svg|32px]] [[Std_LinkSelectLinked/pl|Przejdź do połączonego obiektu]]: Wybiera połączony obiekt i przełącza do jego dokumentu.
