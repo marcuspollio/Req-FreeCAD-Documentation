@@ -81,8 +81,8 @@ The following tools are available in this menu:
 ** [[Image:Std_ViewLeft.svg|32px]] [[Std_ViewLeft|Left]]: Switches to the left view.
 ** [[Image:Std_ViewRotateLeft.svg|32px]] [[Std_ViewRotateLeft|Rotate Left]]: Rotates the view to the left.
 ** [[Image:Std_ViewRotateRight.svg|32px]] [[Std_ViewRotateRight|Rotate Right]]: Rotates the view to the right.
-** [[Std_StoreWorkingView|Store Working View]]: Stores the camera settings of the active 3D View in its working view. {{Version|0.21}}
-** [[Std_RecallWorkingView|Recall Working View]]: Recalls the active 3D View's stored working view. {{Version|0.21}}
+** [[Std_StoreWorkingView|Store Working View]]: Stores the camera settings of the active 3D View in its working view.
+** [[Std_RecallWorkingView|Recall Working View]]: Recalls the active 3D View's stored working view.
 
 <!--T:9-->
 * [[Std_FreezeViews|Freeze Display]]
@@ -169,14 +169,14 @@ The following tools are available in this menu:
 <!--T:23-->
 * Toolbars {{Emphasis|-- Each toolbar can be switched on or off in the submenu.}}
 ** File
-** Edit {{Version|0.21}}
-** Clipboard {{Version|0.21}}
+** Edit
+** Clipboard
 ** Workbench
 ** Macro
 ** View
 ** Individual Views {{Version|1.0}}
 ** Structure
-** Help {{Version|0.21}}
+** Help
 ** … If the current workbench has toolbars they appear here.
 ** [[Std_ToggleToolBarLock|Lock Toolbars]]: If switched on toolbars are not movable. {{Version|1.0}}
 
