@@ -20,7 +20,7 @@
 <span id="Description"></span>
 == Descripción ==
 
-The [[Image:Sketcher_ConstrainLock.svg|24px]] [[Sketcher_ConstrainLock|Sketcher ConstrainLock]] tool applies [[Sketcher_ConstrainDistanceX|horizontal dimension]] and [[Sketcher_ConstrainDistanceY|vertical dimension]] constraints to points. If a single point is selected the constraints reference the origin of the sketch. If two or more points are selected the constraints reference the last point in the selection.
+La herramienta [[Image:Sketcher_ConstrainLock.svg|24px]] [[Sketcher_ConstrainLock|Croquizador Bloqueo de Restricción]] aplica restricciones [[Sketcher_ConstrainDistanceX|Cota Horizontal]] y [[Sketcher_ConstrainDistanceY|Cota Vertical]] a los puntos. Si se selecciona un solo punto, las restricciones hacen referencia al origen del boceto. Si se seleccionan dos o más puntos, las restricciones hacen referencia al último punto seleccionado.
 
 <span id="Usage"></span>
 <div class="mw-translate-fuzzy">
