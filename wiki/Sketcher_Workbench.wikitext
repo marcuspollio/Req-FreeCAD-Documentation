@@ -135,11 +135,9 @@ If a sketch is in edit mode the Structure toolbar is hidden as none of its tools
 ==== Edit Mode toolbar ==== <!--T:165-->
 
 <!--T:25-->
-* [[Image:Sketcher_LeaveSketch.svg|32px]] [[Sketcher_LeaveSketch|Leave Sketch]]{{VersionNoteMinus|1.1}}: Finishes sketch edit mode and closes the [[Sketcher_Dialog|Sketcher Dialog]].
+* [[Image:Sketcher_LeaveSketch.svg|32px]] [[Sketcher_LeaveSketch|Leave Sketch]]: Finishes sketch edit mode and closes the [[Sketcher_Dialog|Sketcher Dialog]].
 
-* [[Image:Sketcher_Leave_Sketch.svg|32px]] [[Sketcher_LeaveSketch|Leave Sketch]]{{VersionNotePlus|1.2}}: Finishes sketch edit mode and closes the [[Sketcher_Dialog|Sketcher Dialog]].
-
-* [[Image:Sketcher_CancelSketch.svg|32px]] [[Sketcher_CancelSketch|Cancel Editing]]: Leaves the edit mode , reverts any changes, and closes the [[Sketcher_Dialog|Sketcher Dialog]] ({{Version|1.2}}).
+* [[Image:Sketcher_CancelSketch.svg|32px]] [[Sketcher_CancelSketch|Cancel Editing]]: Leaves edit mode, reverts any changes, and closes the [[Sketcher_Dialog|Sketcher Dialog]] ({{Version|1.2}}).
 
 <!--T:26-->
 * [[Image:Sketcher_ViewSketch.svg|32px]] [[Sketcher_ViewSketch|Align View to Sketch]]: Aligns the [[3D_View|3D View]] with the sketch.
