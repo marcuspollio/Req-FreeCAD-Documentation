@@ -9,15 +9,13 @@
 |IconC=Workbench_Sketcher.svg
 }}
 
-<div class="mw-translate-fuzzy">
-{{GuiCommand/es
-|Icon=Constraint PointOnPoint.svg
-|Name/es=Restricción de coincidencia
-|Workbenches=[[Sketcher Workbench/es|Sketcher]]
-|Shortcut=C
-|MenuLocation=Sketch → Restricciones de croquis → Restricción de coincidencia|SeeAlso=[[Sketcher_ConstrainLock/es|Restricción de bloqueo]], [[Sketcher_ConstrainPointOnObject/es|Punto en objeto]]
+{{GuiCommand
+|Name=Restricción de coincidencia del Croquizador
+|MenuLocation=Croquis → Restricciones → Restricción de coincidencia
+|Workbenches=[[Sketcher_Workbench|Croquizador]]
+|Shortcut={{KEY|C}}
+|SeeAlso=[[Sketcher_ConstrainCoincidentUnified|Restricción de coincidencia unificada del dibujante]], [[Sketcher_ConstrainPointOnObject|Restricción de punto en objeto del Croquizador]]
 }}
-</div>
 
 ==Description== 
 
