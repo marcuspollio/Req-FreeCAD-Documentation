@@ -52,6 +52,7 @@ Les outils suivants sont disponibles dans ce menu :
 
 * [[Image:Std_MainFullscreen.svg|32px]] [[Std_MainFullscreen/fr|Plein écran]] : bascule le mode plein écran de la fenêtre principale.
 
+<div class="mw-translate-fuzzy">
 * Vues standards
 ** [[Image:Std_ViewFitAll.svg|32px]] [[Std_ViewFitAll/fr|Tout afficher]] : adapte tous les objets visibles à l'intérieur de la vue.
 ** [[Image:Std_ViewFitSelection.svg|32px]] [[Std_ViewFitSelection/fr|Afficher la sélection]] : adapte les objets sélectionnés à l'intérieur de la vue.
@@ -71,6 +72,7 @@ Les outils suivants sont disponibles dans ce menu :
 ** [[Image:Std_ViewRotateRight.svg|32px]] [[Std_ViewRotateRight/fr|Pivoter à droite]] : fait pivoter la vue vers la droite.
 ** [[Std_StoreWorkingView/fr|Stocker la vue de travail]] : stocke les paramètres de la caméra de la vue 3D active dans sa vue de travail. {{Version/fr|0.21}}
 ** [[Std_RecallWorkingView/fr|Rappel de la vue de travail]] : rappelle la vue de travail enregistrée de la vue 3D active. {{Version/fr|0.21}}
+</div>
 
 * [[Std_FreezeViews/fr|Figer l'affichage]]
 ** [[Std_FreezeViews/fr#Enregistrer_les_vues|Enregistrer les vues...]] : enregistre les vues figées dans un fichier.
@@ -137,6 +139,7 @@ Les outils suivants sont disponibles dans ce menu :
 
 * [[Std_Workbench/fr|Sélecteur d'atelier]] {{Emphasis|-- Sélection d'un atelier à partir du sous-menu.}}
 
+<div class="mw-translate-fuzzy">
 * Barres d'outils {{Emphasis|-- Chaque barre d'outils peut être activée ou désactivée dans le sous-menu.}}
 ** Fichier
 ** Édition {{Version/fr|0.21}}
@@ -149,6 +152,7 @@ Les outils suivants sont disponibles dans ce menu :
 ** Aide {{Version/fr|0.21}}
 ** ... Si l'atelier en cours possède des barres d'outils, elles apparaissent ici.
 ** [[Std_ToggleToolBarLock/fr|Verrouiller les barres d'outils]] : si cette option est activée, les barres d'outils ne peuvent pas être déplacées. {{Version/fr|1.0}}
+</div>
 
 * Panneaux {{Emphasis|-- Chaque panneau peut être activé ou désactivé dans le sous-menu.}}
 ** [[Tree_View/fr|Arborescence]] {{Emphasis|-- Disponible comme panneau indépendant si le [[Preferences_Editor/fr#Général_2|Mode d'affichage de l'arborescence et des propriétés]] est mis à {{Value|Indépendant}}.}}
@@ -170,6 +174,8 @@ Les outils suivants sont disponibles dans ce menu :
 ** [[Image:Std_DockOverlayToggleRight.svg|32px]] [[Std_DockOverlayToggleRight/fr|Basculer à droite]] : affiche/masque le panneau superposé de droite.
 ** [[Image:Std_DockOverlayToggleTop.svg|32px]] [[Std_DockOverlayToggleTop/fr|Basculer en haut]] : affiche/masque le panneau superposé supérieur.
 ** [[Image:Std_DockOverlayToggleBottom.svg|32px]] [[Std_DockOverlayToggleBottom/fr|Basculer en bas]] : affiche/masque le panneau superposé inférieur.
+
+* [[Image:Std_ToggleBottomPanels.svg|32px]] [[Std_ToggleBottomPanels|Toggle Bottom Panels]]: Shows/hides the bottom panels (usually [[Report_View|Report View]] and [[Python_Console|Python Console]]). {{Version|1.2}}
 
 * Lien de navigation
 ** [[File:Std_LinkSelectLinked.svg|32px]] [[Std_LinkSelectLinked/fr|Objet lié]] : sélectionne l'objet lié et bascule à son document.
