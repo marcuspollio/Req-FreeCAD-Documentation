@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[Std_DockOverlayToggleTop/de|DockÜberlagernObenUmschalten]]
 |[[Std_LinkSelectLinked/de|ZumVerknüpftenObjektGehen]]
@@ -8,6 +9,7 @@
 |IconR=Std_LinkSelectLinked.svg
 |IconC=Freecad.svg
 }}
+</div>
 
 {{GuiCommand/de
 |Name=Std DockOverlayToggleBottom
@@ -36,6 +38,7 @@ Dieser Befehl bewegt kein Fenster in das Überlagerungssystem oder aus diesem he
 #* Die Schaltfläche Unten umschalten ([[File:Std DockOverlayToggleBottom.svg|12x12px]]) in der Titelleiste eines angedockten Fensters drücken.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[Std_DockOverlayToggleTop/de|DockÜberlagernObenUmschalten]]
 |[[Std_LinkSelectLinked/de|ZumVerknüpftenObjektGehen]]
@@ -44,6 +47,7 @@ Dieser Befehl bewegt kein Fenster in das Überlagerungssystem oder aus diesem he
 |IconR=Std_LinkSelectLinked.svg
 |IconC=Freecad.svg
 }}
+</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
