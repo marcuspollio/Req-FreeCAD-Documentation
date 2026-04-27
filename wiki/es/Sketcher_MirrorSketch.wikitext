@@ -44,16 +44,14 @@ La herramienta [[Image:Sketcher_MirrorSketch.svg|24px]] [[Sketcher_MirrorSketch|
 
 * Si la geometría reflejada toca el eje de simetría, las restricciones necesarias se crean automáticamente.
 
-<div class="mw-translate-fuzzy">
-{{Docnav/es
-|[[Sketcher_MergeSketches/es|Fusionar bocetos]]
-|[[Sketcher_CreatePoint/es|Punto]]
-|[[Sketcher_Workbench/es|Croquizador]]
+{{Docnav
+|[[Sketcher_MergeSketches|Combinar Croquis]]
+|[[Sketcher_LeaveSketch|Salir del Croquis]]
+|[[Sketcher_Workbench|Croquizador]]
 |IconL=Sketcher_MergeSketches.svg‎
-|IconR=Sketcher_CreatePoint.svg
+|IconR=Sketcher_LeaveSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
