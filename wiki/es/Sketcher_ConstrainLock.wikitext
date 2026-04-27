@@ -45,10 +45,10 @@ Véase también: [[Sketcher_Workbench#Drawing_aids|Ayudas para el dibujo]].
 <span id="Run-once_mode"></span>
 === Modo de ejecución única ===
 
-# Select one or more points.
-# Invoke the tool as described above, or with the following additional option:
-#* Right-click in the {{MenuCommand|Elements}} section of the [[Sketcher_Dialog|Sketcher Dialog]] and select the {{MenuCommand|[[Image:Sketcher_ConstrainLock.svg|16px]] Lock Position}} option from the context menu.
-# Depending on the selection two or more constraints are added.
+# Seleccione uno o más puntos.
+# Invoque la herramienta como se describe anteriormente, o con la siguiente opción adicional:
+#* Haga clic con el botón derecho en la sección {{MenuCommand|Elementos}} del [[Sketcher_Dialog|Diálogo del Croquizador]] y seleccione la opción {{MenuCommand|[[Image:Sketcher_ConstrainLock.svg|16px]] Bloquear Posición}} del menú contextual.
+# Dependiendo de la selección, se añadirán dos o más restricciones.
 
 ==Notes==
 
