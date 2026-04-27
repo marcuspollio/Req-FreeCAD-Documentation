@@ -23,9 +23,7 @@
 
 La herramienta [[Image:Sketcher_ConstrainCoincidentUnified.svg|24px]] [[Sketcher_ConstrainCoincidentUnified|Croquizador Coincidencia de Restricción Unificada]] crea una restricción coincidente entre puntos, fija puntos en bordes o ejes (las líneas se tratan como infinitas y las curvas abiertas también se extienden virtualmente), o crea una restricción concéntrica entre círculos, arcos y/o elipses (haciendo que sus centros coincidan).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This tool replaces the [[Sketcher_ConstrainCoincident|Sketcher ConstrainCoincident]] and [[Sketcher_ConstrainPointOnObject|Sketcher ConstrainPointOnObject]] tools if the '''Unify coincident and point-on-object constraints''' option is selected in the [[Sketcher_Preferences#General|preferences]].
-</div>
+Esta herramienta reemplaza las herramientas [[Sketcher_ConstrainCoincident|Croquizador Coincidencia de Restricción]] y [[Sketcher_ConstrainPointOnObject|Croquizador Restringir Punto en Objeto]] si la opción '''Unificar restricciones coincidentes y de punto en objeto''' está seleccionada en [[Sketcher_Preferences#General|Preferencias]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Usage==
