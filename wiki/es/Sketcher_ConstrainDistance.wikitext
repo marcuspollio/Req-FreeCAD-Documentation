@@ -83,7 +83,7 @@ Cota desde el origen.
 
 {{Code|code=Sketch.addConstraint(Sketcher.Constraint('Distance', Edge, PointOfEdge, -1, 1, App.Units.Quantity('123.0 mm')))}}
 
-Distance between two vertices:
+Distancia entre dos vértices:
 
 {{Code|code=Sketch.addConstraint(Sketcher.Constraint('Distance', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))}}
 
