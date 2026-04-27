@@ -55,17 +55,17 @@ Véase también: [[Sketcher_Workbench#Drawing_aids|Materiales de Dibujo]].
 <span id="Run-once_mode"></span>
 === Modo de ejecución única ===
 
-# Do one of the following:
-#* Select a single line.
-#* Select two points.
-#* Select a point and a line (in any order).
-#* Select the edges of two circles or arcs.
-#* Select the edge of a circle or arc and a line (idem).
-#* {{Version|1.0}}: Select the edge of a single arc.
-# Invoke the tool as described above, or with the following additional option:
-#* Right-click in the {{MenuCommand|Elements}} section of the [[Sketcher_Dialog|Sketcher Dialog]] and select the {{MenuCommand|[[Image:Sketcher_ConstrainDistance.svg|16px]] Distance Dimension}} option from the context menu.
-# Optionally [[Sketcher_Workbench#Edit_constraints|edit the constraint value]].
-# A constraint is added.
+# Realice una de las siguientes acciones:
+#* Seleccione una línea.
+#* Seleccione dos puntos.
+#* Seleccione un punto y una línea (en cualquier orden).
+#* Seleccione los bordes de dos círculos o arcos.
+#* Seleccione el borde de un círculo o arco y una línea (ídem).
+#* {{Version|1.0}}: Seleccione el borde de un arco.
+# Active la herramienta como se ha descrito anteriormente, o con la siguiente opción adicional:
+#* Haga clic derecho en la sección {{MenuCommand|Elementos}} del [[Sketcher_Dialog|Diálogo del Croquizador]] y seleccione la opción {{MenuCommand|[[Image:Sketcher_ConstrainDistance.svg|16px]] Cota de Distancia}} del menú contextual.
+# Opcionalmente, [[Sketcher_Workbench#Edit_constraints|edita el valor de la restricción]].
+# Se agrega una restricción.
 
 ==Notes==
 
