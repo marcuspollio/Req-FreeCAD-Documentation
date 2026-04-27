@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[Sketcher_MirrorSketch/pl|Odbicie lustrzane]]
-|[[Sketcher_ViewSketch/pl|Widok szkicu]]
+|[[Sketcher_CancelSketch/pl|Anuluj edycję]]
 |[[Sketcher_Workbench/pl|środowisko pracy Szkicownik]]
 |IconL=Sketcher_MirrorSketch.svg
-|IconR=Sketcher_ViewSketch.svg
+|IconR=Sketcher_CancelSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 {{GuiCommand/pl
 |Name=Sketcher LeaveSketch
@@ -37,16 +35,14 @@ Narzędzie [[Image:Sketcher_LeaveSketch.svg|24px]] [[Sketcher_LeaveSketch/pl|Zam
 * Okno dialogowe Szkicownika zostanie zamknięte.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[Sketcher_MirrorSketch/pl|Odbicie lustrzane]]
-|[[Sketcher_ViewSketch/pl|Widok szkicu]]
+|[[Sketcher_CancelSketch/pl|Anuluj edycję]]
 |[[Sketcher_Workbench/pl|środowisko pracy Szkicownik]]
 |IconL=Sketcher_MirrorSketch.svg
-|IconR=Sketcher_ViewSketch.svg
+|IconR=Sketcher_CancelSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
