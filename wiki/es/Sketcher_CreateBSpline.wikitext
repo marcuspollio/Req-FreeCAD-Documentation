@@ -18,7 +18,8 @@
 |SeeAlso=[[Sketcher_CreatePeriodicBSpline|Corquizador Crear una BSPline Periódica]]
 }}
 
-==Description==
+<span id="Description"></span>
+== Descripción ==
 
 The [[Image:Sketcher_CreateBSpline.svg|24px]] [[Sketcher_CreateBSpline|Sketcher CreateBSpline]] tool creates a [[B-Splines|B-spline]] curve from control points. {{Version|1.0}}: Or optionally from knot points.
 
