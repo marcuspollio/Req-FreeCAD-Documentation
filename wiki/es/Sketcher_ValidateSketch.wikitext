@@ -61,7 +61,7 @@ Compruebe si hay restricciones mal formadas.
 
 Por ejemplo, si existe una restricción de círculo-línea-tangente, pero hace referencia a dos líneas, se considera inválida.
 
-(This sometimes happens due to the [[Topological_naming_problem|Topological naming problem]], i.e. the external geometry changes type).
+(Esto a veces ocurre debido al [[Topological_naming_problem|Problema de nomenclatura topológica]], es decir, el tipo de cambio de la geometría externa).
 
 It also does other checks, such as for empty links.
 
