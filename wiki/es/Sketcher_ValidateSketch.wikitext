@@ -70,7 +70,7 @@ También realiza otras comprobaciones, como la de enlaces vacíos.
 
 La geometría degenerada puede ser el resultado de las acciones del solucionador en un boceto.
 
-For instance, if a line is forced to shorten to become almost a point.
+Por ejemplo, si una línea se ve obligada a acortarse hasta convertirse casi en un punto.
 
 Other examples: a zero length line or zero radius circle/arc.
 
