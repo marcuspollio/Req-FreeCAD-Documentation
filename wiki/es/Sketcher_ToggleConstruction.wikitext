@@ -22,9 +22,7 @@
 
 La herramienta [[Image:Sketcher_ToggleConstruction.svg|24px]] [[Sketcher_ToggleConstruction|Croquizador Alternar a Geometría de Construcción]] alterna las herramientas de creación de geometría entre el modo de construcción y el modo de construcción, o bien alterna la geometría seleccionada entre el modo de construcción y el modo de construcción.
 
-<div class="mw-translate-fuzzy">
-La geometría de Construcción es una importante herramienta del Croquizador. Cuando se utiliza un croquis para una operación 3D, la geometría de Construcción es ignorada.
-</div>
+La geometría de construcción se marca con un color específico en [[Sketcher_Preferences#Appearance|color]] (azul por defecto) y un tipo de línea ({{Version|1.0}}). La geometría de construcción no es visible fuera del boceto; su función es ayudar a definir restricciones y otra geometría dentro del propio boceto. Sin embargo, las líneas de construcción pueden utilizarse como eje de rotación mediante [[PartDesign_Revolution|Diseño de Pieza Revolución]].
 
 [[File:Sketcher_ConstructionMode_fr_01.png|480px]]
 
