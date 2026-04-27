@@ -2,10 +2,10 @@
 
 {{Docnav/pl
 |[[Std_DockOverlayToggleTop/pl|Nakładka okna dokowania - Przełącz u góry]]
-|[[Std_LinkSelectLinked/pl|Przejdź do połączonego obiektu]]
+|[[Std_ToggleBottomPanels/pl|Przełącz dolne panele]]
 |[[Std_View_Menu/pl|Menu Widok]]
 |IconL=Std_DockOverlayToggleTop.svg
-|IconR=Std_LinkSelectLinked.svg
+|IconR=Std_ToggleBottomPanels.svg
 |IconC=Freecad.svg
 }}
 
@@ -36,6 +36,7 @@ To polecenie nie przenosi paneli do lub z systemu nakładki; przełącza jedynie
 #* Użyj przycisku przełączania dolnej nakładki ([[File:Std DockOverlayToggleBottom.svg|12x12px]]) z paska tytułowego zadokowanego okna.
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[Std_DockOverlayToggleTop/pl|Nakładka okna dokowania - Przełącz u góry]]
 |[[Std_LinkSelectLinked/pl|Przejdź do połączonego obiektu]]
@@ -44,6 +45,7 @@ To polecenie nie przenosi paneli do lub z systemu nakładki; przełącza jedynie
 |IconR=Std_LinkSelectLinked.svg
 |IconC=Freecad.svg
 }}
+</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
