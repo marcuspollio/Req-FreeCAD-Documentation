@@ -12,9 +12,7 @@
 <span id="Description"></span>
 == Descrizione ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-If you are tired of retyping information whenever you insert another page into your FreeCAD document or if you prefer a "drawn" bill of material (BOM) over an inserted spread sheet this macro is for you.
-</div>
+Se si è stanchi di riscrivere le informazioni ogni volta che si inserisce una nuova pagina in un documento FreeCAD o se si preferisce una distinta base "disegnata" (BOM) su un foglio di calcolo inserito, questa macro fa questo lavoro.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 This macro generates a TechDraw template on the fly and inserts it into the active document, ready to get new views added.
