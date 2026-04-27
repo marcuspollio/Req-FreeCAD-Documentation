@@ -45,13 +45,11 @@ La geometría de construcción se marca con un color específico en [[Sketcher_P
 <span id="Toggle_geometry"></span>
 === Alternar geometría ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Select one or more elements in the sketch.
-# Invoke the tool as described above, or with the following additional option:
-#* Right-click in the {{MenuCommand|Elements}} section of the [[Sketcher_Dialog|Sketcher Dialog]] and select the {{MenuCommand|[[Image:Sketcher_ToggleConstruction.svg|16px]] Toggle Construction Geometry}} option from the context menu.
-# The selected elements are changed from normal geometry to construction geometry or vice versa. Their appearance changes accordingly.
-# The mode of the geometry creation tools is not changed.
-</div>
+# Seleccione uno o más elementos en el croquis.
+# Active la herramienta como se describe anteriormente, o con la siguiente opción adicional:
+#* Haga clic con el botón derecho en la sección {{MenuCommand|Elements}} del [[Sketcher_Dialog|Diálogo del Croquizador]] y seleccione la opción {{MenuCommand|[[Image:Sketcher_ToggleConstruction.svg|16px]] Alternar a Geometría de Construcción}} del menú contextual.
+# Los elementos seleccionados cambian de geometría normal a geometría de construcción o viceversa. Su apariencia cambia en consecuencia.
+# El modo de las herramientas de creación de geometría no cambia.
 
 
 <div class="mw-translate-fuzzy">
