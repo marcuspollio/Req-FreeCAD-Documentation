@@ -108,9 +108,7 @@ Ist eine Skizze im Bearbeitungsmodus, ist die Werkzeugleiste Struktur ausgeblend
 
 * [[Image:Sketcher_LeaveSketch.png|32px]] [[Sketcher_LeaveSketch/de|Skizze verlassen]]: Beendet den Bearbeitungsmodus des Sketchers und schließt den [[Sketcher_Dialog/de|Sketcher-Dialog]]..
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:Sketcher_CancelSketch.svg|32px]] [[Sketcher_CancelSketch|Cancel Editing]]: Leaves sketch edit mode, reverts any changes, and closes the [[Sketcher_Dialog|Sketcher Dialog]]. {{Version|1.2}}
-</div>
+* [[Image:Sketcher_CancelSketch.svg|32px]] [[Sketcher_CancelSketch/de|Bearbeitung Abbrechen]]: Beendet den Bearbeitungsmodus für Skizzen, macht alle Änderungen rückgängig und schließt den [[Sketcher_Dialog/de|Sketcher Dialog]]. {{Version/de|1.2}}
 
 * [[Image:Sketcher_ViewSketch.png‎|32px]] [[Sketcher_ViewSketch/de|Skizze anzeigen]]: Richtet die [[3D_View/de|3D-Ansicht]] zur Skizzenebene aus.
 
