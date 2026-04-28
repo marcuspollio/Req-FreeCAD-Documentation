@@ -47,7 +47,8 @@ Para ejecutar un ejecutable específico (por ejemplo, {{incode|FreeCADCmd}} para
 flatpak run --command=FreeCADCmd org.freecad.FreeCAD
 }}
 
-== Repository ==
+<span id="Repository"></span>
+== Repositorio ==
 
 * https://github.com/flathub/org.freecad.FreeCAD
 
