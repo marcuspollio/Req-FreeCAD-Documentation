@@ -10,11 +10,9 @@
 <span id="Overview"></span>
 ==Vista general==
 
-<div class="mw-translate-fuzzy">
-La instalación de FreeCAD en los sistemas Linux más conocidos ha sido aprobada por la comunidad, y FreeCAD debería estar disponible directamente a través del gestor de paquetes disponible en su distribución. El equipo de FreeCAD también proporciona algunos:
-* Paquetes "oficiales" cuando se hacen nuevos lanzamientos
-* Repositorios experimentales [https://help.ubuntu.com/community/PPA Archivo de Paquetes Personales] (APP), [[AppImage/es|AppImages]], y [[Ubuntu_Snap/es|Ubuntu Snaps]] para probar las características de sangrado.
-</div>
+La comunidad respalda la instalación de FreeCAD en la mayoría de los sistemas Linux más conocidos, y FreeCAD está disponible a través del gestor de paquetes en dichos sistemas. El equipo de FreeCAD también proporciona:
+* Paquetes "oficiales" cuando se publican nuevas versiones a través de [[Ubuntu_Snap|Paquetes Snap]], [[AppImage|AppImages]], [[Flatpak|Flatpaks]] y el [[#Stable_PPA_version|PPA]].
+* Versiones experimentales o de vanguardia, disponibles a través del repositorio diario [[#Development_PPA_.28Daily.29|PPA]], [[AppImage|AppImages]] y [[Ubuntu_Snap|Ubuntu Snaps]].
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
