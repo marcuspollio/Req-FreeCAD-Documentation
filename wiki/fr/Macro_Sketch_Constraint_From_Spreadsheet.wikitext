@@ -13,8 +13,6 @@
 
 == Description ==
 
-'''Contactez-moi sur le forum FreeCAD en cas de problème.'''
-
 Macro qui, par un simple clic sur une cellule du tableur, ajoute une contrainte de longueur à une ligne ou entre 2 points en utilisant un alias ou une adresse de cellule du tableur (ex. C2). Les modifications ultérieures de la feuille de calcul mettront à jour la contrainte. La macro peut créer des alias pour vous.
 
 Il suffit de sélectionner 1 ligne, 2 points ou une contrainte, de cliquer sur une cellule du tableur et d'exécuter la macro. Vous pouvez sélectionner des polylignes, des points aux extrémités d'une ligne, des points, des cercles ou des arcs de cercle.
