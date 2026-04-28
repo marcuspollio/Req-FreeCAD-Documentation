@@ -34,16 +34,14 @@ Voir aussi : [[Sketcher_Preferences/fr#Affichage|Sketcher Préférences]].
 #* Utilisez le raccourci clavier : {{KEY|Q}} puis {{KEY|P}}.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
-|[[Sketcher_LeaveSketch/fr|Quitter l'esquisse]]
+|[[Sketcher_CancelSketch/fr|Annuler l'esquisse]]
 |[[Sketcher_ViewSection/fr|Vue en coupe]]
 |[[Sketcher_Workbench/fr|Atelier Sketcher]]
-|IconL=Sketcher_LeaveSketch.svg
+|IconL=Sketcher_CancelSketch.svg
 |IconR=Sketcher_ViewSection.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
