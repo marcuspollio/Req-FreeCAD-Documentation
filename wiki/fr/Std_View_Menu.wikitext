@@ -171,7 +171,7 @@ Les outils suivants sont disponibles dans ce menu :
 ** [[Image:Std_DockOverlayToggleTop.svg|32px]] [[Std_DockOverlayToggleTop/fr|Basculer en haut]] : affiche/masque le panneau superposé supérieur.
 ** [[Image:Std_DockOverlayToggleBottom.svg|32px]] [[Std_DockOverlayToggleBottom/fr|Basculer en bas]] : affiche/masque le panneau superposé inférieur.
 
-* [[Image:Std_ToggleBottomPanels.svg|32px]] [[Std_ToggleBottomPanels|Toggle Bottom Panels]]: Shows/hides the bottom panels (usually [[Report_View|Report View]] and [[Python_Console|Python Console]]). {{Version|1.2}}
+* [[Image:Std_ToggleBottomPanels.svg|32px]] [[Std_ToggleBottomPanels/fr|Panneaux inférieurs]] : affiche/masque les panneaux inférieurs (généralement la [[Report_View/fr|vue rapport]] et la [[Python_Console/fr|console Python]]). {{Version/fr|1.2}}
 
 * Lien de navigation
 ** [[File:Std_LinkSelectLinked.svg|32px]] [[Std_LinkSelectLinked/fr|Objet lié]] : sélectionne l'objet lié et bascule à son document.
