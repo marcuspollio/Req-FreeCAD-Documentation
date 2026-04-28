@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Std_DockOverlayToggleTop/fr|Basculer en haut]]
-|[[Std_LinkSelectLinked/fr|Objet lié]]
+|[[Std_ToggleBottomPanels/fr|Panneaux du bas]]
 |[[Std_View_Menu/fr|Menu Affichage]]
 |IconL=Std_DockOverlayToggleTop.svg
-|IconR=Std_LinkSelectLinked.svg
+|IconR=Std_ToggleBottomPanels.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{GuiCommand/fr
 |Name=Std DockOverlayToggleBottom
