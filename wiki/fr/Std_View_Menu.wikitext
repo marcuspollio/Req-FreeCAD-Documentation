@@ -137,20 +137,18 @@ Les outils suivants sont disponibles dans ce menu :
 
 * [[Std_Workbench/fr|Sélecteur d'atelier]] {{Emphasis|-- Sélection d'un atelier à partir du sous-menu.}}
 
-<div class="mw-translate-fuzzy">
 * Barres d'outils {{Emphasis|-- Chaque barre d'outils peut être activée ou désactivée dans le sous-menu.}}
 ** Fichier
-** Édition {{Version/fr|0.21}}
-** Presse-papiers {{Version/fr|0.21}}
+** Édition
+** Presse-papiers
 ** Atelier
 ** Macro
 ** Vue
 ** Vues séparées {{Version/fr|1.0}}
 ** Structure
 ** Aide {{Version/fr|0.21}}
-** ... Si l'atelier en cours possède des barres d'outils, elles apparaissent ici.
+** … Si l'atelier en cours possède des barres d'outils, elles apparaissent ici.
 ** [[Std_ToggleToolBarLock/fr|Verrouiller les barres d'outils]] : si cette option est activée, les barres d'outils ne peuvent pas être déplacées. {{Version/fr|1.0}}
-</div>
 
 * Panneaux {{Emphasis|-- Chaque panneau peut être activé ou désactivé dans le sous-menu.}}
 ** [[Tree_View/fr|Arborescence]] {{Emphasis|-- Disponible comme panneau indépendant si le [[Preferences_Editor/fr#Général_2|Mode d'affichage de l'arborescence et des propriétés]] est mis à {{Value|Indépendant}}.}}
