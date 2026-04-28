@@ -10,15 +10,14 @@
 }}
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/de
 |Name=Std ToggleBottomPanels
-|MenuLocation=View → Toggle Bottom Panels
-|Workbenches=All
-|Shortcut={{KEY|Ctrl}} + {{KEY|O}}
+|Name/de=UntereAnzeigenUmschalten
+|MenuLocation=Ansicht → Untere Anzeigen umschalten
+|Workbenches=Alle
+|Shortcut={{KEY|Strg}} + {{KEY|O}}
 |Version=1.2
 }}
-</div>
 
 <span id="Description"></span>
 == Beschreibung ==
