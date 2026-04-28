@@ -72,7 +72,7 @@ sudo apt update
 sudo apt install freecad freecad-doc
 }}
 
-{{Emphasis|Nota:}} debido a problemas de empaquetado, en ciertas versiones de Ubuntu el paquete {{incode|freecad-doc}} ha colisionado con la instalación de FreeCAD o una de sus dependencias; si este es el caso, retire el paquete {{incode|freecad-doc}} y sólo instale el paquete {{incode|freecad}}. Si el paquete {{incode|freecad-doc}} no existe, entonces ignóralo.
+{{Emphasis|Nota:}} debido a problemas de empaquetado, en ciertas versiones de Ubuntu el paquete {{incode|freecad-doc}} ha entrado en conflicto con la instalación de FreeCAD o alguna de sus dependencias; si este es el caso, retire el paquete {{incode|freecad-doc}} y sólo instale el paquete {{incode|freecad}}. Si el paquete {{incode|freecad-doc}} no existe, entonces ignórelo.
 
 <span id="Checking_Installation"></span>
 ==== Comprobando la instalación ====
