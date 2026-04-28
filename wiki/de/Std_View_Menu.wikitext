@@ -139,20 +139,18 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 * [[Std_Workbench/de|Arbeitsbereich]] {{Emphasis|-- Einen Arbeitsbereich aus dem Untermenü auswählen.}}
 
-<div class="mw-translate-fuzzy">
 * Symbolleisten {{Emphasis|-- Jede Symbolleiste kann im Untermenü ein- oder ausgeschaltet werden.}}
 ** Datei
-** Bearbeiten {{Version/de|0.21}}
-** Zwischenablage {{Version/de|0.21}}
+** Bearbeiten
+** Zwischenablage
 ** Arbeitsbereich
 ** Makro
 ** Ansicht
-** Individuelle Ansichten {{Version|1.0}}
+** Individuelle Ansichten {{Version/de|1.0}}
 ** Struktur
-** Hilfe {{Version/de|0.21}}
-** ... Wenn der aktuelle Arbeitsbereich Symbolleisten besitzt, werden sie hier angezeigt.
+** Hilfe
+** … Wenn der aktuelle Arbeitsbereich Symbolleisten besitzt, werden sie hier angezeigt.
 ** [[Std_ToggleToolBarLock/de|Symbolleisten sperren]]: Wenn aktiviert, können Symbolleisten nicht bewegt werden. {{Version/de|1.0}}
-</div>
 
 * Fenster {{Emphasis|-- Jedes Fenster kann im Untermenü ein- oder ausgeschaltet werden.}}
 ** [[Tree_View/de|Baumansicht]] {{Emphasis|-- Steht als eigenständiges Fenster zur Verfügung, wenn [[Preferences_Editor/de#Allgemein_2|Anzeige von Baumansicht und Eigenschaften-Ansicht]] auf {{Value|Eigenständig}} gesetzt ist.}}
