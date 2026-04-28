@@ -14,8 +14,6 @@
 <span id="Description"></span>
 == Beschreibung ==
 
-'''Kontaktiere mich bei Problemen im FreeCAD-Forum.'''
-
 Makro, das mit einem einfachen Klick in die Zelle einer Kalkulationstabelle eine Längen-Beschränkung zu einer Linie, einem Kreis, oder zwischen zwei Punkten, mit einem Alias oder einer Adresse (bspw. C2) hinzufügt. Änderungen an der Kalkulationstabelle ändern die Beschränkung. Das Makro erzeugt die Alias.
 
 Wähle eine Linie, zwei Punkte oder eine Beschränkung, klicke auf eine Tabellenzelle und führe das Makro aus. Es können Linien, Punkte am Ende der Line, Punkte, Kreise oder Bögen von Kreisen ausgewählt werden.
