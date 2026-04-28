@@ -198,7 +198,7 @@ Las opciones disponibles actualmente son (ver también abajo):
 
 Las versiones actuales se pueden obtener descargando una de las versiones [https://github.com/FreeCAD/FreeCAD/releases/ .AppImage] del repositorio de GitHub. Funcionan correctamente en Fedora.
 
-Si quieres estar al día con las últimas novedades diarias, FreeCAD también está disponible en [https://copr.fedorainfracloud.org/groups/g/freecad/coprs/ copr]. Para instalar la construcción desde allí, en una sesión de terminal, entra:
+Si quiere estar al día con las últimas novedades diarias, FreeCAD también está disponible en: [https://copr.fedorainfracloud.org/groups/g/freecad/coprs/ copr]. Para instalar la construcción desde allí, en una sesión de terminal, entra:
 
 {{Code|lang=bash|code=
 sudo dnf copr enable @freecad/nightly
