@@ -150,9 +150,7 @@ FreeCAD se puede instalar con Myrlyn (que reemplazó a YAST en septiembre de 202
 zypper install FreeCAD
 }}
 
-<div class="mw-translate-fuzzy">
-{{Emphasis|Nota:}} Este procedimiento sólo cubre la instalación de versiones del programa FreeCAD ''estables'', dependiendo de los enlaces instalados a los repositorios de paquetes de programas de su versión de SO. El paquete openSUSE ''puede estar desactualizado'' ya que el paquete puede estar atrasado con respecto al último código fuente estable. En este caso, se sugiere instalar el paquete manualmente desde los repositorios de fuentes indicados abajo (Expandir).
-</div>
+{{Emphasis|Nota:}} Este procedimiento solo cubre la instalación de versiones estables oficiales del programa FreeCAD, según los enlaces instalados a los repositorios de paquetes del programa de su versión del sistema operativo. El paquete de openSUSE puede estar desactualizado, ya que el empaquetado puede no estar al día con el código fuente estable más reciente. En este caso, se recomienda instalar el paquete manualmente desde los repositorios de código fuente indicados a continuación (Expandir).
 <div class="mw-collapsible-content">
 
 Se ofrece un vasto programa de lanzamiento de paquetes de FreeCAD. Por favor, visite para una encuesta:
