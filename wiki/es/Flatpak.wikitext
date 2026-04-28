@@ -18,7 +18,7 @@ flatpak install flathub org.freecad.FreeCAD
 <span id="Development_versions"></span>
 === Versiones de desarrollo ===
 
-If you want to install at the user level or don't have sudo privileges add the {{incode|--user}} flag to the following commands.
+Si desea instalar a nivel de usuario o no tiene privilegios de sudo, agregue la bandera {{incode|--user}} a los siguientes comandos.
 
 {{code|lang=bash|code=
 # flathub-beta repo is not enabled by default
