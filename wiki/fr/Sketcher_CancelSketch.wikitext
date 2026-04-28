@@ -11,19 +11,15 @@
 }}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/fr
 |Name=Sketcher CancelSketch
-|MenuLocation=Sketch → Cancel Editing
-|Workbenches=[[Sketcher_Workbench|Sketcher]]
-|Version=1.2
-|SeeAlso=[[Sketcher_EditSketch|Sketcher EditSketch]]
+|Name/fr=Sketcher Annuler l'esquisse
+|MenuLocation=Esquisse → Annuler l'édition
+|Workbenches=[[Sketcher_Workbench/fr|Sketcher]]
+|SeeAlso=[[Sketcher_EditSketch/fr|Sketcher Modifier une esquisse]]
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 ==Description==
-</div>
 
 
 L'outil [[Image:Sketcher_CancelSketch.svg|24px]] [[Sketcher_CancelSketch/fr|Sketcher Annuler l'esquisse]] permet de quitter le mode d'édition de l'esquisse, d'annuler toutes les modifications et de fermer la [[Sketcher_Dialog/fr|boîte de dialogue de Sketcher]].
