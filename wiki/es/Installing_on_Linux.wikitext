@@ -67,7 +67,7 @@ sudo add-apt-repository ppa:freecad-maintainers/freecad-stable
 sudo apt update
 }}
 
-:3. Entonces instala FreeCAD junto con su documentación offline:
+:3. Entonces instale FreeCAD junto con su documentación offline:
 ::{{Code|code=
 sudo apt install freecad freecad-doc
 }}
