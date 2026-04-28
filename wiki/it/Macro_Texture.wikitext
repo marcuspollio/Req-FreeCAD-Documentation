@@ -41,9 +41,7 @@ La configurazione si esegue prima di aprire il file, i valori predefiniti produc
 
 In FreeCAD il file dell'immagine si sviluppa come in una scansione x1 x2 x3 ... con incrementi del valore y di 1 mm per volta. Il valore di z è determinato dal valore del colore. Questi valori sono configurabili nell'interfaccia della macro.
 
-<div class="mw-translate-fuzzy">
-Attenzione: secondo le dimensioni dell'immagine, il file del disegno può diventare molto grande! Tenere presente che un'immagine di 100 px di larghezza e 100 px di altezza produce '''100 x 100 = 10000 punti''' e quindi, siccome a ogni punto corrisponde una coordinata, ci sono '''10000 coordinate XYZ''' o vettori.
-</div>
+Nota importante: a seconda delle dimensioni dell'immagine, il progetto può diventare molto grande! Ad esempio, una semplice immagine di (100px x 100px) larghezza/altezza sarebbe: ''100 x 100 = 10000 punti'''. Ciascuno dei 10.000 punti corrisponde a una coordinata, quindi in realtà si tratta di 10000 coordinate X, 10000 Y e 10000 Z.
 
 <span id="Interface"></span>
 ===Interfaccia===
