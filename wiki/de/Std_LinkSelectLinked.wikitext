@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
-|[[Std_DockOverlayToggleBottom/de|DockÜberlagernUntenUmschalten]]
+|[[Std_ToggleBottomPanels/de|UntereAnzeigenUmschalten]]
 |[[Std_LinkSelectLinkedFinal/de|ZumLetztenVerknüpftenObjektGehen]]
 |[[Std_View_Menu/de|Std Menü Ansicht]]
-|IconL=Std_DockOverlayToggleBottom.svg
+|IconL=Std_ToggleBottomPanels.svg
 |IconR=Std_LinkSelectLinkedFinal.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{GuiCommand/de
 |Name=Std LinkSelectLinked
