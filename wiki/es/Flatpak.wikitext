@@ -7,7 +7,7 @@
 <span id="Stable"></span>
 === Estable ===
 
-If you want to install at the user level or don't have sudo privileges add the {{incode|--user}} flag to the following commands.
+Si desea instalar a nivel de usuario o no tiene privilegios de sudo, agregue la bandera {{incode|--user}} a los siguientes comandos.
 
 {{code|lang=bash|code=
 # add flathub repo just to be sure as it might not be enabled if it is your first time using flatpak
