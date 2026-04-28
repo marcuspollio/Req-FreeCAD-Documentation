@@ -239,7 +239,7 @@ Diversos paquetes de FreeCAD alternativos, no oficiales están disponibles en la
 <span id="Installing_on_other_Linux/Unix_systems"></span>
 ===Instalación en otros sistemas Linux/Unix=== 
 
-Muchas distribuciones comunes de Linux ahora incluyen un FreeCAD precompilado como parte de los paquetes estándar. Esto está a menudo desactualizado, pero es un lugar para empezar. Revise los administradores de paquetes estándar de su sistema. Una de las siguientes listas (parciales) de comandos podría instalar la versión oficial de FreeCAD para su distribución desde la terminal. Estos probablemente necesitan privilegios de administrador.
+Muchas distribuciones de Linux comunes ahora incluyen FreeCAD precompilado como parte de los paquetes estándar. Si bien suelen estar desfasados, son un buen punto de partida. Consulte los gestores de paquetes estándar de su sistema. Uno de los siguientes comandos (parciales) podría instalar la versión oficial de FreeCAD para su distribución desde una sesión de la terminal. Probablemente, necesite permisos de administrador para ejecutarlos.
 
 {{Code|code=
 apt install freecad
