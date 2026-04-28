@@ -32,11 +32,7 @@ La [[File:FCCreaLoft.png|32px|FCCreaLoft]] [[Macro_Loft/it|Macro Loft]] viene ut
 <span id="Usage"></span>
 ==Utilizzo==
 
-<div class="mw-translate-fuzzy">
-==Uso==
-
-Questo macro ha bisogno di una immagine con 256 livelli di grigio (0-255) (8 bit) pertanto prima di utilizzare la macro è necessario convertire l'immagine in scala di grigi. Il numero di colori viene rilevato automaticamente. Ogni colore viene trattato come un livello di grigio, il bianco (255) è il livello più alto e il nero (0) è il livello più basso. Se l'immagine ha più di 256 colori (32 bit) viene attivato il modo Plan. (Il tempo di esecuzione delle funzioni di visualizzazione dei punti può essere molto lungo)
-</div>
+Questa macro richiede un'immagine con 256 sfumature di grigio (0-255), quindi prima di eseguirla, convertire l'immagine in scala di grigi (bianco e nero). All'avvio della macro, il numero di colori viene rilevato automaticamente. Nota: se l'immagine ha più di 256 colori, è prevista un'altra funzione (in fase di sviluppo). Ogni colore (livello di grigio) è considerato profondo, il bianco (255) il livello più alto e il nero (0) il livello più basso (profondo).
 
 La configurazione si esegue prima di aprire il file, i valori predefiniti producono un disegno con le seguenti dimensioni:
 * la coordinata '''X''' è la larghezza dell'immagine in punti,
