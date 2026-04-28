@@ -95,7 +95,7 @@ freecad:
 ubuntu@ubuntu:~$ apt-cache policy freecad-doc
 }}
 
-:5. Invoca la versión estable (PPA) de FreeCAD desde el GUI o CLI. Este último método es el siguiente:
+:5. Invoque la versión estable (PPA) de FreeCAD desde el GUI o CLI. Este último método es el siguiente:
 :{{Code|code=
 ./freecad
 }}
