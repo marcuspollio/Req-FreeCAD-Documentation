@@ -1,0 +1,57 @@
+<languages/>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Docnav
+|[[Sketcher_LeaveSketch|Leave Sketch]]
+|[[Sketcher_ViewSketch|Align View to Sketch]]
+|[[Sketcher_Workbench|Sketcher]]
+|IconL=Sketcher_LeaveSketch.svg
+|IconR=Sketcher_ViewSketch.svg
+|IconC=Workbench_Sketcher.svg
+}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{GuiCommand
+|Name=Sketcher CancelSketch
+|MenuLocation=Sketch → Cancel Editing
+|Workbenches=[[Sketcher_Workbench|Sketcher]]
+|Version=1.2
+|SeeAlso=[[Sketcher_EditSketch|Sketcher EditSketch]]
+}}
+</div>
+
+<span id="Description"></span>
+==Beschreibung==
+
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The [[Image:Sketcher_CancelSketch.svg|24px]] [[Sketcher_CancelSketch|Sketcher CancelSketch]] tool cancels sketch edit mode, reverts any changes, and closes the [[Sketcher_Dialog|Sketcher Dialog]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Usage==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+# There are several ways to invoke the tool:
+#* Press the {{Button|Cancel}} button at the top of the Sketcher Dialog.
+#* Press the {{Button|[[Image:Sketcher_CancelSketch.svg|16px]] [[Sketcher_CancelSketch|Cancel Editing]]}} button.
+#* Select the {{MenuCommand|Sketch → [[Image:Sketcher_CancelSketch.svg|16px]] Cancel Editing}} option from the menu.
+# The Sketcher Dialog is closed.
+</div>
+
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Docnav
+|[[Sketcher_LeaveSketch|Leave Sketch]]
+|[[Sketcher_ViewSketch|Align View to Sketch]]
+|[[Sketcher_Workbench|Sketcher]]
+|IconL=Sketcher_LeaveSketch.svg
+|IconR=Sketcher_ViewSketch.svg
+|IconC=Workbench_Sketcher.svg
+}}
+</div>
+
+{{Sketcher_Tools_navi{{#translation:}}}}
+{{Userdocnavi{{#translation:}}}}
