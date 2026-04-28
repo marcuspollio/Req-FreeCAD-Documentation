@@ -2,7 +2,7 @@
 |Name=Spreadsheet Dependency Inspector
 |Description=The macro displays, for a selection of spreadsheet cells, all dependencies between spreadsheet cells and even between a cell and object properties. .<br>
 |Author=2cv001
-|Download=[https://wiki.freecad.org/File:SpreadsheetDependencyInspector.png ToolBar icon]
+|Download=[https://wiki.freecad.org/images/8/86/SpreadsheetDependencyInspector.png ToolBar icon]
 |Version=02.03
 |Date=2025/10/27
 |FCVersion=All
@@ -18,3 +18,11 @@ The macro SpreadsheetDependencyInspector displays, for a selection of spreadshee
 * Both directions
 
 The macro is multilingual, currently supporting English and French. The language used is the one you selected in your FreeCAD preferences.
+
+
+== Usage ==
+[[File:Capture d'écran 2026-04-28 130322.png]]
+
+Select one or several cells, then run the macro. Choose the information you want to display.
+
+The refresh button image recalculates the analysis, for example after you modify a cell or change the selection. The expand/collapse button lets you expand or collapse the whole tree. You can also do it branch by branch by clicking on the ▶ or ▼ symbols.
