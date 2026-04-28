@@ -1,15 +1,13 @@
 <languages/>
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Sketcher_MirrorSketch/fr|Esquisse miroir]]
-|[[Sketcher_ViewSketch/fr|Vue de l'esquisse]]
+|[[Sketcher_CancelSketch/fr|Annuler l'esquisse]]
 |[[Sketcher_Workbench/fr|Atelier Sketcher]]
 |IconL=Sketcher_MirrorSketch.svg
-|IconR=Sketcher_ViewSketch.svg
+|IconR=Sketcher_CancelSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 {{GuiCommand/fr
 |Name=Sketcher LeaveSketch
