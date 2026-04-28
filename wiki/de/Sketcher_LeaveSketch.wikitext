@@ -35,16 +35,14 @@ Das Werkzeug [[Image:Sketcher_LeaveSketch.svg|24px]] [[Sketcher_LeaveSketch/de|S
 # Der Sketcher-Dialog wird geschlossen.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/de
 |[[Sketcher_MirrorSketch/de|SkizzeSpiegeln]]
-|[[Sketcher_ViewSketch/de|SkizzeAnzeigen]]
-|[[Sketcher_Workbench|Sketcher]]
+|[[Sketcher_CancelSketch/de|SkizzeAbbrechen]]
+|[[Sketcher_Workbench/de|Sketcher]]
 |IconL=Sketcher_MirrorSketch.svg
 |IconR=Sketcher_ViewSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
