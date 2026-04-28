@@ -134,7 +134,7 @@ freecad-daily
 <span id="Debian_and_other_Debian-based_systems"></span>
 == Debian y otros sistemas basados en Debian ==
 
-A partir de Debian Lenny, FreeCAD está disponible directamente de los repositorios de software Debian y puede ser installado vía synaptic o simplemente con:
+A partir de Debian Lenny, FreeCAD está disponible directamente de los repositorios de software Debian y se puede instalar vía synaptic o simplemente con:
 
 {{Code|code=
 sudo apt install freecad
@@ -142,7 +142,8 @@ sudo apt install freecad
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-==OpenSUSE==
+<span id="OpenSUSE"></span>
+== OpenSUSE ==
 
 FreeCAD se puede instalar con Myrlyn (que reemplazó a YAST en septiembre de 2025), o en cualquier terminal/consola (se requieren permisos de root) con:
 
