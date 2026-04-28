@@ -251,7 +251,7 @@ zypper install freecad
 pacman -Sy freecad
 }}
 
-El nombre del paquete es sensible a las mayúsculas y minúsculas, así que prueba con "FreeCAD" y "freecad". Si eso no funciona para usted, ya sea porque su administrador de paquetes no tiene una versión precompilada de FreeCAD disponible, o porque la versión disponible es demasiado vieja para sus necesidades, puede intentar instalar los paquetes [[Flatpak|Flatpak]] o [[Ubuntu_Snap|Snap]] o descargar uno de los [https://github.com/FreeCAD/FreeCAD/releases/ .AppImage] 
+El nombre del paquete distingue entre mayúsculas y minúsculas, así que pruebe con "FreeCAD" y también con "freecad". Si eso no funciona, ya sea porque su gestor de paquetes no tiene una versión precompilada de FreeCAD disponible o porque la versión disponible es demasiado antigua para sus necesidades, puede intentar instalar los paquetes [[Flatpak|Flatpak]] o [[Ubuntu_Snap|Snap]] (estos funcionan en la mayoría de las distribuciones de Linux x86_64) o puede intentar descargar uno de los [https://github.com/FreeCAD/FreeCAD/releases/ .AppImage] 
 ... lanzamientos desde el depósito de github. Estas también tienden a funcionar en la mayoría de las distribuciones de Linux x86_64, sin ninguna instalación especial. Sólo asegúrate de que el archivo descargado esté marcado como ejecutable, y luego ejecútalo.
 
 Si eso todavía no es lo suficientemente bueno, y no puedes localizar otra fuente de un paquete precompilado para tu situación, necesitarás [[Compile_on_Linux/es|Compilar FreeCAD tú mismo]].
