@@ -35,7 +35,7 @@ Puede iniciar el archivo flatpak utilizando el archivo desktop o utilizando el s
 flatpak run org.freecad.FreeCAD
 }}
 
-The different branches can be installed in parallel. To choose which one to run use the {{incode|--branch}} flag:
+Las diferentes ramas se pueden instalar en paralelo. Para elegir cuál ejecutar, utilice la bandera {{incode|--branch}}:
 
 {{code|lang=bash|code=
 flatpak run --branch=beta org.freecad.FreeCAD
