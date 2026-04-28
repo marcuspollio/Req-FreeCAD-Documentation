@@ -144,9 +144,7 @@ sudo apt install freecad
 
 ==OpenSUSE==
 
-<div class="mw-translate-fuzzy">
-FreeCAD se instala típicamente con YAST (abbr. Otra herramienta de configuración) la herramienta de configuración del sistema operativo Linux, o en cualquier terminal/consola (se requieren derechos de root) con:
-</div>
+FreeCAD se puede instalar con Myrlyn (que reemplazó a YAST en septiembre de 2025), o en cualquier terminal/consola (se requieren permisos de root) con:
 
 :{{Code|code=
 zypper install FreeCAD
