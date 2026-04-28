@@ -35,16 +35,14 @@ Cette commande ne déplace pas les panneaux vers ou hors du système de superpos
 #* Utilisez le bouton de basculement de superposition bas ([[File:Std_DockOverlayToggleBottom.svg|16px]]) de la barre de titre du panneau ancré.
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/fr
 |[[Std_DockOverlayToggleTop/fr|Basculer en haut]]
-|[[Std_LinkSelectLinked/fr|Objet lié]]
+|[[Std_ToggleBottomPanels/fr|Panneaux du bas]]
 |[[Std_View_Menu/fr|Menu Affichage]]
 |IconL=Std_DockOverlayToggleTop.svg
-|IconR=Std_LinkSelectLinked.svg
+|IconR=Std_ToggleBottomPanels.svg
 |IconC=Freecad.svg
 }}
-</div>
 
 {{Std_Base_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
