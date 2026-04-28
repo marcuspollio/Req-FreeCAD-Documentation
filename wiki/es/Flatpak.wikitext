@@ -29,7 +29,7 @@ flatpak install flathub-beta org.freecad.FreeCAD
 <span id="Running"></span>
 == Corriendo ==
 
-You may start the flatpak using the desktop file or using the following command:
+Puede iniciar el archivo flatpak utilizando el archivo desktop o utilizando el siguiente comando:
 
 {{code|lang=bash|code=
 flatpak run org.freecad.FreeCAD
