@@ -74,7 +74,7 @@ You can create as many different advanced refinements as needed.
 <!--T:10-->
 [[File:FEM_advanced_refinement.PNG|400px]]
 {{Caption|Example of ''MathEval'' advanced refinement with the following function:<br/>
-<math>0.05 + 0.4 * (16 * x^2 * y^2 * (x^2 - y^2)^2 / (x^2 + y^2)^4) + 0.1 * (\sqrt{x^2 + y^2} - 4)</math>
+<math>0.05 + 0.4 * (16 * x^2 * y^2 * (x^2 - y^2)^2 / (x^2 + y^2)^4) + 0.1 * (\sqrt{x^2 + y^2} - 4)</math>}}
 
 <!--T:11-->
 {{Docnav
