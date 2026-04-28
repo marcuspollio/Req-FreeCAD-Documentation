@@ -33,7 +33,7 @@ Crée un élément FEM de section fluide pour les réseaux pneumatiques et hydra
 # Il existe plusieurs façons de lancer la commande :
 #* Appuyez sur le bouton {{Button|[[Image:FEM_ElementFluid1D.svg|16px]] [[FEM_ElementFluid1D/fr|Section de fluide pour un écoulement 1D]]}}.
 #* Sélectionnez l'option {{MenuCommand|Modèle → Géométrie de l'élement → [[Image:FEM_ElementFluid1D.svg|16px]] Section de fluide pour un écoulement 1D}} du menu.
-# Sélectionnez le type de fluide : Liquide, Gaz ou Canal ouvert
+# Sélectionnez le type de fluide : Liquide, Gaz ou Surface libre
 # Sélectionnez le type de section : Section selon Manning, Section d'entrée etc.
 # Entrez les paramètres du type de section.
 # Appuyez sur le bouton {{Button|Ajouter}}. Sélectionnez les arêtes. Cliquez sur le bouton {{Version/fr|1.1}} : pour supprimer les arêtes de la sélection, appuyez sur le bouton {{Button|Supprimer}}.
