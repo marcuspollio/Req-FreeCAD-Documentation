@@ -107,7 +107,7 @@ Como FreeCAD está en constante desarrollo, puede que desee instalar el paquete 
 
 Esta versión se compila diariamente desde el repositorio maestro oficial. Tenga en cuenta que, si bien incluirá nuevas funciones y correcciones de errores, también podría contener errores nuevos y ser inestable.
 
-Añade la APP diaria a tus fuentes de software, actualiza las listas de paquetes e instala el paquete diario:
+Añada la APP diaria a sus fuentes de software, actualice las listas de paquetes e instale el paquete diario:
 {{Code|code=
 sudo add-apt-repository ppa:freecad-maintainers/freecad-daily
 sudo apt update
