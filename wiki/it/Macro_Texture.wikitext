@@ -107,19 +107,16 @@ Il valore iniziale dell'operazione si adegua automaticamente alla funzione selez
 
 ====Command====
 
-<div class="mw-translate-fuzzy">
-====Command====
-* {{Button|File and launch}} : Apre il file immagine e avvia la conversione.
-* {{Button|Help}} : Apre la pagina del wiki dentro il FreeCAD webBrowser 
-** Visualizza la pagina Wiki nel browser di FreeCAD
-** Per modificare il parametro disponibile: vai su '' 'Strumenti → Modifica parametro ...' ''
-** __ Il passaggio globale su spinBox: __
-**User parameter:'''BaseApp/Preferences/Macros/FCMmacros/FCTexture → SingleStep'''
-** Regola il valore desiderato (1.0 per impostazione predefinita)
-** __ Per la ricerca se la macro è aggiornata: __
-**User parameter:'''BaseApp/Preferences/Macros/FCMmacros/FCTexture → switchVesionMacroSearch'''
-** Regola switchVesionMacroSearch su {{TRUE}} ({{FALSE}} per impostazione predefinita)
-</div>
+* {{Button|File and launch}}: apre il file immagine e avvia la conversione.
+* {{Button|Help}}:
+**Visualizza la pagina Wiki nel browser di FreeCAD
+**Per modificare il parametro disponibile: andare su '''Strumenti → Modifica parametri'''
+**__The global step on spinBox:__
+**Parametro utente:'''BaseApp/Preferenze/Macro/FCMmacros/FCTexture → SingleStep'''
+**Regola il valore desiderato (1.0 per impostazione predefinita)
+**__For search if the macro is upgraded :__
+**Parametro utente:'''BaseApp/Preferenze/Macro/FCMmacros/FCTexture → switchVesionMacroSearch'''
+**Imposta switchVesionMacroSearch su {{TRUE}} ({{FALSE}} per impostazione predefinita)
 
 <div class="mw-translate-fuzzy">
 * {{Button|Quit}} : Esce dalla funzione.
