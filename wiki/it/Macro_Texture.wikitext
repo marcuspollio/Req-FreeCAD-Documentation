@@ -74,13 +74,11 @@ Nota importante: a seconda delle dimensioni dell'immagine, il progetto può dive
 
 Il valore iniziale dell'operazione si adegua automaticamente alla funzione selezionata: 0 se l'impostazione è su Nero (Black), oppure 255 o 20 se l'impostazione è Bianco (White)
 
-<div class="mw-translate-fuzzy">
-* {{RadioButton|TRUE|[[Image:Draft_Wire.svg|24px]] Wire}} : Costruisce la linea (i vettori) in forma di Wire.
-* {{RadioButton|[[Image:Draft_BSpline.svg|24px]] Bspline}} : Costruisce la linea (i vettori) in forma di Bspline.
-* {{RadioButton|[[Image:Workbench_Points.svg|24px]] Cloud}} : Crea i vettori dei punti nella nuvola di punti.
-* {{RadioButton|[[Image:Draft_Point.svg|24px]] Point}} : Crea un punto per ogni pixel (vettoriale). (La procedura può essere lunga)
-* {{CheckBox|Nuance}} : Se Nuance è attivato i colori dei punti sono restituiti come se fosse una foto.
-</div>
+* {{RadioButton|TRUE|[[Image:Draft_Wire.svg|24px]] Wire}}: crea la linea (vettore) in forma di wire.
+* {{RadioButton|[[Image:Draft_BSpline.svg|24px]] Bspline}}: crea la linea (vettore) in forma di Bspline.
+* {{RadioButton|[[Image:Workbench_Points.svg|24px]] Cloud}}: crea i vettori dei punti in una nuvola di punti.
+* {{RadioButton|[[Image:Draft_Point.svg|24px]] Point}}: crea un punto per ogni pixel (vettore) (Nota: questa procedura richiede un elevato utilizzo della CPU).
+* {{CheckBox|Nuance}}: se l'opzione "Nuance" è selezionata, il colore del punto viene rappresentato come un'immagine.
 
 <span id="32_bit_Mode"></span>
 ====Modalità a 32 bit====
