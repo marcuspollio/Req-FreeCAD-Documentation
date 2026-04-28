@@ -41,7 +41,7 @@ Las diferentes ramas se pueden instalar en paralelo. Para elegir cuál ejecutar,
 flatpak run --branch=beta org.freecad.FreeCAD
 }}
 
-To run a specific executable (for example {{incode|FreeCADCmd}} to run without GUI) from the flatpak use the {{incode|--command}} flag:
+Para ejecutar un ejecutable específico (por ejemplo, {{incode|FreeCADCmd}} para ejecutarlo sin interfaz gráfica) desde el flatpak, utilice la bandera {{incode|--command}}:
 
 {{code|lang=bash|code=
 flatpak run --command=FreeCADCmd org.freecad.FreeCAD
