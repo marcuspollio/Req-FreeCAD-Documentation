@@ -57,7 +57,7 @@ Ahora puede encontrar e instalar la última versión estable de FreeCAD desde el
 
 Instale el APP estable a través de la Interfaz de Línea de Comando (CLI):
 
-:1. Añade la APP a tus fuentes de software:
+:1. Añada la APP a sus fuentes de software:
 ::{{Code|code=
 sudo add-apt-repository ppa:freecad-maintainers/freecad-stable
 }}
