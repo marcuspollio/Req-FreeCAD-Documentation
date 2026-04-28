@@ -1,15 +1,13 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[Sketcher_LeaveSketch|Leave Sketch]]
-|[[Sketcher_ViewSketch|Align View to Sketch]]
-|[[Sketcher_Workbench|Sketcher]]
+{{Docnav/de
+|[[Sketcher_LeaveSketch/de|SkizzeVerlassen]]
+|[[Sketcher_ViewSketch/de|SkizzeAnzeigen]]
+|[[Sketcher_Workbench/de|Sketcher]]
 |IconL=Sketcher_LeaveSketch.svg
 |IconR=Sketcher_ViewSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommand
@@ -41,16 +39,14 @@ The [[Image:Sketcher_CancelSketch.svg|24px]] [[Sketcher_CancelSketch|Sketcher Ca
 </div>
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[Sketcher_LeaveSketch|Leave Sketch]]
-|[[Sketcher_ViewSketch|Align View to Sketch]]
-|[[Sketcher_Workbench|Sketcher]]
+{{Docnav/de
+|[[Sketcher_LeaveSketch/de|SkizzeVerlassen]]
+|[[Sketcher_ViewSketch/de|SkizzeAnzeigen]]
+|[[Sketcher_Workbench/de|Sketcher]]
 |IconL=Sketcher_LeaveSketch.svg
 |IconR=Sketcher_ViewSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
