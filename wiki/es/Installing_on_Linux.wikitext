@@ -120,7 +120,7 @@ sudo apt update
 sudo apt install freecad-daily
 }}
 
-{{Emphasis|Nota:}} en algunos casos el nuevo código o las dependencias añadidas a FreeCAD causarán errores de empaquetado; si esto ocurre, no se generará un paquete diario hasta que los mantenedores solucionen manualmente los problemas. Si desea continuar probando el último código, debería obtener el código fuente y compilar FreeCAD directamente; para instrucciones vea [[compiling/es|compilar]].
+{{Emphasis|Nota:}} en algunos casos el nuevo código o las dependencias añadidas a FreeCAD causarán errores de empaquetado; si esto ocurre, no se generará un paquete diario hasta que los encargados del mantenimiento solucionen manualmente los problemas. Si desea continuar probando el último código, debería obtener el código fuente y compilar FreeCAD directamente; para instrucciones vea [[compiling/es|compilar]].
 
 Ejecute la versión diaria (APP) de FreeCAD:
 :{{Code|code=
