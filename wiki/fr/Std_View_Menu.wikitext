@@ -52,7 +52,6 @@ Les outils suivants sont disponibles dans ce menu :
 
 * [[Image:Std_MainFullscreen.svg|32px]] [[Std_MainFullscreen/fr|Plein écran]] : bascule le mode plein écran de la fenêtre principale.
 
-<div class="mw-translate-fuzzy">
 * Vues standards
 ** [[Image:Std_ViewFitAll.svg|32px]] [[Std_ViewFitAll/fr|Tout afficher]] : adapte tous les objets visibles à l'intérieur de la vue.
 ** [[Image:Std_ViewFitSelection.svg|32px]] [[Std_ViewFitSelection/fr|Afficher la sélection]] : adapte les objets sélectionnés à l'intérieur de la vue.
@@ -70,9 +69,8 @@ Les outils suivants sont disponibles dans ce menu :
 ** [[Image:Std_ViewLeft.svg|32px]] [[Std_ViewLeft/fr|Vue de gauche]] : bascule vers la vue de gauche.
 ** [[Image:Std_ViewRotateLeft.svg|32px]] [[Std_ViewRotateLeft/fr|Pivoter à gauche]] : fait pivoter la vue vers la gauche.
 ** [[Image:Std_ViewRotateRight.svg|32px]] [[Std_ViewRotateRight/fr|Pivoter à droite]] : fait pivoter la vue vers la droite.
-** [[Std_StoreWorkingView/fr|Stocker la vue de travail]] : stocke les paramètres de la caméra de la vue 3D active dans sa vue de travail. {{Version/fr|0.21}}
-** [[Std_RecallWorkingView/fr|Rappel de la vue de travail]] : rappelle la vue de travail enregistrée de la vue 3D active. {{Version/fr|0.21}}
-</div>
+** [[Std_StoreWorkingView/fr|Stocker la vue de travail]] : stocke les paramètres de la caméra de la vue 3D active dans sa vue de travail.
+** [[Std_RecallWorkingView/fr|Rappel de la vue de travail]] : rappelle la vue de travail enregistrée de la vue 3D active.
 
 * [[Std_FreezeViews/fr|Figer l'affichage]]
 ** [[Std_FreezeViews/fr#Enregistrer_les_vues|Enregistrer les vues...]] : enregistre les vues figées dans un fichier.
