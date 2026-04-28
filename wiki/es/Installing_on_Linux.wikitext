@@ -30,9 +30,7 @@ FreeCAD está disponible en el repositorio del Universo Ubuntu, y puede ser inst
 sudo snap install freecad
 }}
 
-<div class="mw-translate-fuzzy">
-{{Emphasis|Nota:}} el paquete del Universo Ubuntu puede estar desactualizado, ya que el paquete puede ir por detrás del último código fuente estable. En este caso, se sugiere instalar el paquete desde el {{incode|-estable}} PPA abajo. Además, se puede instalar el paquete {{incode|-diario}} para probar la rama de desarrollo.
-</div>
+{{Emphasis|Nota:}} El paquete Ubuntu Universe podría estar muy desactualizado, ya que su empaquetado podría no estar al día con el código fuente estable más reciente. En este caso, se recomienda instalar el paquete desde el repositorio PPA {{incode|-stable}} que se indica a continuación. Además, se puede instalar el paquete {{incode|-daily}} para probar la rama de desarrollo.
 
 <span id="Stable_PPA_version"></span>
 === Versión estable PPA ===
