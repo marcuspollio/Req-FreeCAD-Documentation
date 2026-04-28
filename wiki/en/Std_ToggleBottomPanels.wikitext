@@ -1,0 +1,43 @@
+<languages/>
+
+{{Docnav
+|[[Std_DockOverlayToggleBottom|DockOverlayToggleBottom]]
+|[[Std_LinkSelectLinked|LinkSelectLinked]]
+|[[Std_View_Menu|Std View Menu]]
+|IconL=Std_DockOverlayToggleBottom.svg
+|IconR=Std_LinkSelectLinked.svg
+|IconC=Freecad.svg
+}}
+
+
+{{GuiCommand
+|Name=Std ToggleBottomPanels
+|MenuLocation=View → Toggle Bottom Panels
+|Workbenches=All
+|Shortcut={{KEY|Ctrl}} + {{KEY|O}}
+|Version=1.2
+}}
+
+== Description ==
+
+The [[Image:Std_ToggleBottomPanels.svg|24px]] '''Std ToggleBottomPanels''' command toggles the visibility of the bottom panels (usually [[Report_View|Report View]] and [[Python_Console|Python Console]]).
+
+== Usage ==
+
+# There are several ways to invoke the command:
+#* Select the {{MenuCommand|View →  [[Image:Std_ToggleBottomPanels.svg|16px]] Toggle Bottom Panels}} option from the menu.
+#* Press the {{Button|[[Image:Std_ToggleBottomPanels.svg|16px]] Toggle Bottom Panels}} button in the [[Status_Bar|Status Bar]] context menu.
+#* Use the keyboard shortcut: {{KEY|Ctrl}} + {{KEY|O}}.
+
+
+{{Docnav
+|[[Std_DockOverlayToggleBottom|DockOverlayToggleBottom]]
+|[[Std_LinkSelectLinked|LinkSelectLinked]]
+|[[Std_View_Menu|Std View Menu]]
+|IconL=Std_DockOverlayToggleBottom.svg
+|IconR=Std_LinkSelectLinked.svg
+|IconC=Freecad.svg
+}}
+
+{{Std_Base_navi{{#translation:}}}}
+{{Userdocnavi{{#translation:}}}}
