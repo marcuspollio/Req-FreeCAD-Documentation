@@ -114,7 +114,7 @@ sudo apt update
 sudo apt install freecad-daily
 }}
 
-Todos los días puedes actualizarte con las últimas novedades:
+Todos los días puede actualizar a la última versión diaria:
 {{Code|code=
 sudo apt update
 sudo apt install freecad-daily
