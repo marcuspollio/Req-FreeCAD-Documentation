@@ -105,7 +105,7 @@ ubuntu@ubuntu:~$ apt-cache policy freecad-doc
 
 Como FreeCAD está en constante desarrollo, puede que desee instalar el paquete {{Emphasis|diario}} para estar al tanto de las últimas mejoras y correcciones de errores. El repositorio también está alojado en Launchpad y se llama [https://launchpad.net/~freecad-maintainers/+archive/freecad-daily freecad-daily].
 
-Esta versión se compila diariamente desde el repositorio maestro oficial. Por favor, tened cuidado de que aunque contenga nuevas características y correcciones de errores, también puede tener nuevos errores y ser inestable.
+Esta versión se compila diariamente desde el repositorio maestro oficial. Tenga en cuenta que, si bien incluirá nuevas funciones y correcciones de errores, también podría contener errores nuevos y ser inestable.
 
 Añade la APP diaria a tus fuentes de software, actualiza las listas de paquetes e instala el paquete diario:
 {{Code|code=
