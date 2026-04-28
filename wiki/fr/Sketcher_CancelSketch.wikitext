@@ -1,15 +1,13 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[Sketcher_LeaveSketch|Leave Sketch]]
-|[[Sketcher_ViewSketch|Align View to Sketch]]
-|[[Sketcher_Workbench|Sketcher]]
+{{Docnav/fr
+|[[Sketcher_LeaveSketch/fr|Quitter l'esquisse]]
+|[[Sketcher_ViewSketch/fr|Vue de l'esquisse]]
+|[[Sketcher_Workbench/fr|Atelier Sketcher]]
 |IconL=Sketcher_LeaveSketch.svg
 |IconR=Sketcher_ViewSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 {{GuiCommand/fr
 |Name=Sketcher CancelSketch
@@ -34,16 +32,14 @@ L'outil [[Image:Sketcher_CancelSketch.svg|24px]] [[Sketcher_CancelSketch/fr|Sket
 # La boîte de dialogue de l'esquisse est fermée.
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{Docnav
-|[[Sketcher_LeaveSketch|Leave Sketch]]
-|[[Sketcher_ViewSketch|Align View to Sketch]]
-|[[Sketcher_Workbench|Sketcher]]
+{{Docnav/fr
+|[[Sketcher_LeaveSketch/fr|Quitter l'esquisse]]
+|[[Sketcher_ViewSketch/fr|Vue de l'esquisse]]
+|[[Sketcher_Workbench/fr|Atelier Sketcher]]
 |IconL=Sketcher_LeaveSketch.svg
 |IconR=Sketcher_ViewSketch.svg
 |IconC=Workbench_Sketcher.svg
 }}
-</div>
 
 {{Sketcher_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
