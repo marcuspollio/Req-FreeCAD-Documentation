@@ -187,9 +187,7 @@ emerge freecad
 
 ==Fedora==
 
-<div class="mw-translate-fuzzy">
-FreeCAD ha sido incluido en los paquetes oficiales de Fedora desde Fedora 20. Se puede instalar desde la línea de comandos con:
-</div>
+El paquete FreeCAD ha estado presente en Fedora desde la versión F20 a la F38. Actualmente, no hay ningún paquete oficial de Fedora, ya que fue eliminado en la versión F39 debido a [https://pagure.io/fesco/issue/3080 diversas dificultades para empaquetar sus dependencias].
 
 Currently available options are (also see below):
 * AppImage - download from [https://github.com/FreeCAD/FreeCAD/releases FreeCAD's Github releases page]
