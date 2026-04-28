@@ -26,3 +26,9 @@ The macro is multilingual, currently supporting English and French. The language
 Select one or several cells, then run the macro. Choose the information you want to display.
 
 The refresh button image recalculates the analysis, for example after you modify a cell or change the selection. The expand/collapse button lets you expand or collapse the whole tree. You can also do it branch by branch by clicking on the ▶ or ▼ symbols.
+
+
+==== Download ==== <!--T:37-->
+
+
+{{CodeDownload|https://raw.githubusercontent.com/2cv001/SpreadsheetDependencyInspector.FCMacro/refs/heads/main/SpreadsheetDependencyInspector.FCMacro| Download latest version of the macro}}
