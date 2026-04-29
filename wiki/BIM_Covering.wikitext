@@ -193,12 +193,6 @@ The {{Button|Match Working Plane}} button sets the grid origin to the projection
 
 Texture images are mapped onto the covering surface using a continuous linear projection with a period equal to {{Incode|TileLength + JointWidth}} in U and {{Incode|TileWidth + JointWidth}} in V. The texture repeats seamlessly across the entire surface with no gaps.
 
-=== Known limitations ===
-
-# Because Coin3D (FreeCAD's 3D renderer) does not support discontinuous texture mapping, it is not possible to leave the joint region genuinely empty in the texture. As a workaround, the texture origin is shifted by half the joint width, so the tile body is centered within its period and the texture image is centered on the physical tile. Since the joint region cuts off only the outermost border of the texture on each side, this is visually indistinguishable from a true gap for typical joint widths (5–10 mm with 300 mm tiles). For cases where the joint is large relative to the tile — and the cut-off edge is noticeable — the joint appearance can be incorporated directly into the texture image itself, for example by including a grout-coloured border.
-# Texture images will not be present in Covering objects exported in IFC format. This is a limitation of the exporter, not of the Covering object. It is also unclear how well supported this feature is in most IFC viewers.
-# At this time, and unlike other BIM objects, Additions and Subtractions support is not yet implemented.
-
 == Quantity Take-Off ==
 
 The following properties are computed automatically on every recompute and can be read from the object's Data panel or referenced in a FreeCAD spreadsheet:
@@ -252,6 +246,13 @@ To reference a Covering's quantities in a FreeCAD spreadsheet, use the standard 
 {{Code|code=
 =Covering.NetArea
 }}
+
+== Known limitations ==
+
+# Because Coin3D (FreeCAD's 3D renderer) does not support discontinuous texture mapping, it is not possible to leave the joint region genuinely empty in the texture. As a workaround, the texture origin is shifted by half the joint width, so the tile body is centered within its period and the texture image is centered on the physical tile. Since the joint region cuts off only the outermost border of the texture on each side, this is visually indistinguishable from a true gap for typical joint widths (5–10 mm with 300 mm tiles). For cases where the joint is large relative to the tile — and the cut-off edge is noticeable — the joint appearance can be incorporated directly into the texture image itself, for example by including a grout-coloured border.
+# Texture images will not be present in Covering objects exported in IFC format. This is a limitation of the exporter, not of the Covering object. It is also unclear how well supported this feature is in most IFC viewers.
+# At this time, and unlike other BIM objects, Additions and Subtractions support is not yet implemented.
+# If both the Covering and its base object (e.g. Slab) are moved, the final position of the Covering will not be correct. If a relocation is desired, either the base or the Covering can be moved, but only one at a time. This is a limitation of all BIM objects, but on Covering objects it's easier to select both at the same time, since the base is deliberately not shown as the Covering's child on the Tree View.
 
 == Properties ==
 
