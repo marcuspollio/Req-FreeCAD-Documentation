@@ -9,15 +9,14 @@
 |IconC=Workbench_Sketcher.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/de
 |Name=Sketcher CancelSketch
-|MenuLocation=Sketch → Cancel Editing
-|Workbenches=[[Sketcher_Workbench|Sketcher]]
+|Name/de=Sketcher SkizzeAbbrechen
+|MenuLocation=Skizze → Bearbeitung abbrechen
+|Workbenches=[[Sketcher_Workbench/de|Sketcher]]
 |Version=1.2
-|SeeAlso=[[Sketcher_EditSketch|Sketcher EditSketch]]
+|SeeAlso=[[Sketcher_EditSketch/de|Sketcher SkizzeBearbeiten]]
 }}
-</div>
 
 <span id="Description"></span>
 ==Beschreibung==
