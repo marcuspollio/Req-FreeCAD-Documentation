@@ -22,13 +22,10 @@
 <span id="Description"></span>
 ==Description==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The '''Std ToggleBottomPanels''' command toggles the visibility of the bottom panels (usually the [[Report_View|Report View]] and the [[Python_Console|Python Console]]).
-</div>
+La commande '''Std Panneaux inférieurs''' permet d'afficher ou de masquer les panneaux inférieurs (généralement la [[Report_View/fr|vue rapport]] et la [[Python_Console/fr|console Python]]).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Usage ==
-</div>
+<span id="Usage"></span>
+==Utilisation==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # There are several ways to invoke the command:
