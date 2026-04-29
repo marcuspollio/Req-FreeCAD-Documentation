@@ -152,7 +152,7 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
 
 :* [[Image:Sketcher_Circle.svg|32px]] [[Sketcher_CreateCircle/de|Kreis um Mittelpunkt]]: Erstellt einen Kreis durch Festlegen seines Mittelpunktes und eines Punktes im Verlauf seines Umfangs. {{Version/de|1.0}}: Oder durch Festlegen dreier Punkte im Verlauf seines Umfangs.
 
-:* [[Image:Sketcher_Create3PointCircle.svg|32px]] [[Sketcher_Create3PointCircle/de|Kreis aus drei Punkten erstellen]]: Erstellt einen Kreis durch Festlegen dreier Punkte im Verlauf seines Umfangs. {{Version/de|1.0}}: Dies ist dasselbe Werkzeug wie [[Sketcher_CreateCircle/de|Kreis um Mittelpunkt erstellen]] aber mit einem anderen Startmodus.
+:* [[Image:Sketcher_Create3PointCircle.svg|32px]] [[Sketcher_Create3PointCircle/de|Kreis durch 3 Punkte]]: Erstellt einen Kreis durch Festlegen dreier Punkte im Verlauf seines Umfangs. {{Version/de|1.0}}: Dies ist dasselbe Werkzeug wie [[Sketcher_CreateCircle/de|Kreis um Mittelpunkt]] aber mit einem anderen Startmodus.
 
 :* [[Image:Sketcher_CreateEllipseByCenter.svg|32px]] [[Sketcher_CreateEllipseByCenter/de|Ellipse um Mittelpunkt erstellen]]: Erstellt eine Ellipse durch Festlegen ihres Mittelpunktes, eines Endpunktes einer ihrer Achsen und eines Punktes im Verlauf ihres Umfangs. {{Version/de|1.0}}: Oder durch Festlegen beider Endpunkte einer Achse und eines Punktes im Verlauf ihres Umfangs.
 
