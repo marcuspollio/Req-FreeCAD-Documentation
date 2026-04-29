@@ -110,7 +110,7 @@ Ist eine Skizze im Bearbeitungsmodus, ist die Werkzeugleiste Struktur ausgeblend
 
 * [[Image:Sketcher_CancelSketch.svg|32px]] [[Sketcher_CancelSketch/de|Bearbeitung abbrechen]]: Beendet den Bearbeitungsmodus der Skizze, macht alle Änderungen rückgängig und schließt den [[Sketcher_Dialog/de|Sketcher-Dialog]]. {{Version/de|1.2}}
 
-* [[Image:Sketcher_ViewSketch.png‎|32px]] [[Sketcher_ViewSketch/de|Skizze anzeigen]]: Richtet die [[3D_View/de|3D-Ansicht]] zur Skizzenebene aus.
+* [[Image:Sketcher_ViewSketch.png‎|32px]] [[Sketcher_ViewSketch/de|Ansicht auf Skizze ausrichten]]: Richtet die [[3D_View/de|3D-Ansicht]] auf die Skizzenebene aus.
 
 * [[Image:Sketcher_ViewSection.svg|32px]] [[Sketcher_ViewSection/de|Schnitt anzeigen]]: Schaltet eine zeitweilige Schnittebene ein bzw. aus, die vorübergehend alle Anteile von Objekten ausblendet, die sich vor der Skizzenebene befinden.
 
