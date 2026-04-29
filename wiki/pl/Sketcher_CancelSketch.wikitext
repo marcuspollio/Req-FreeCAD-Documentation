@@ -27,13 +27,11 @@ Narzędzie [[Image:Sketcher_CancelSketch.svg|24px]] [[Sketcher_CancelSketch/pl|A
 <span id="Usage"></span>
 ==Użycie==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# There are several ways to invoke the tool:
-#* Press the {{Button|Cancel}} button at the top of the Sketcher Dialog.
-#* Press the {{Button|[[Image:Sketcher_CancelSketch.svg|16px]] [[Sketcher_CancelSketch|Cancel Editing]]}} button.
-#* Select the {{MenuCommand|Sketch → [[Image:Sketcher_CancelSketch.svg|16px]] Cancel Editing}} option from the menu.
-# The Sketcher Dialog is closed.
-</div>
+# Istnieje kilka sposobów na wywołanie tego polecenia:
+#* Wciśnij przycisk {{Button|Anuluj}} w górnej części okna dialogowego Szkicownika.
+#* Wciśnij przycisk {{Button|[[Image:Sketcher_CancelSketch.svg|16px]] [[Sketcher_CancelSketch/pl|Anuluj edycję]]}}.
+#* Wybierz opcję {{MenuCommand|Szkic → [[Image:Sketcher_CancelSketch.svg|16px]] Anuluj edycję}} z menu.
+# Okno dialogowe Szkicownika zostanie zamknięte.
 
 
 {{Docnav
