@@ -27,13 +27,11 @@ Das Werkzeug [[Image:Sketcher_CancelSketch.svg|24px]] [[Sketcher_CancelSketch/de
 <span id="Usage"></span>
 ==Anwendung==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# There are several ways to invoke the tool:
-#* Press the {{Button|Cancel}} button at the top of the Sketcher Dialog.
-#* Press the {{Button|[[Image:Sketcher_CancelSketch.svg|16px]] [[Sketcher_CancelSketch|Cancel Editing]]}} button.
-#* Select the {{MenuCommand|Sketch → [[Image:Sketcher_CancelSketch.svg|16px]] Cancel Editing}} option from the menu.
-# The Sketcher Dialog is closed.
-</div>
+# Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+#* Die Schaltfläche {{Button|Abbrechen}} oben im Sketcher Dialog drücken.
+#* Die Schaltfläche {{Button|[[Image:Sketcher_CancelSketch.svg|16px]] [[Sketcher_CancelSketch/de|Bearbeitung abbrechen]]}} drücken.
+#* Im Menü die Option {{MenuCommand|Skizze → [[Image:Sketcher_CancelSketch.svg|16px]] Bearbeitung Abbrechen}} wählen.
+# Der Sketcher Dialog wird geschlossen.
 
 
 {{Docnav/de
