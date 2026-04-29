@@ -140,7 +140,7 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
 
 :* [[Image:Sketcher_CreateArc.svg|32px]] [[Sketcher_CreateArc/de|Kreisbogen um Mittelpunkt]]: Erstellt einen Kreisbogen durch Festlegen seines Mittelpunktes und seiner Endpunkte. {{Version/de|1.0}}: Oder durch Festlegen seiner Endpunkte und eines Punktes im Verlauf des Bogens. 
 
-:* [[Image:Sketcher_Create3PointArc.svg|32px]] [[Sketcher_Create3PointArc/de|Kreisbogen durch 3 Punkte erstellen]]: Erstellt einen Kreisbogen durch seine Endpunkte und eine weiteren Punkt im Verlauf des Bogens. {{Version/de|1.0}}: Dies ist dasselbe Werkzeug wie [[Sketcher_CreateArc/de|Kreisbogen um Miitelpunkt erstellen]] aber mit einem anderen Startmodus.
+:* [[Image:Sketcher_Create3PointArc.svg|32px]] [[Sketcher_Create3PointArc/de|Kreisbogen durch 3 Punkte]]: Erstellt einen Kreisbogen durch seine Endpunkte und einen weiteren Punkt im Verlauf des Bogens. {{Version/de|1.0}}: Dies ist dasselbe Werkzeug wie [[Sketcher_CreateArc/de|Kreisbogen um Mittelpunkt]] aber mit einem anderen Startmodus.
 
 :* [[Image:Sketcher_CreateArcOfEllipse.svg|32px]] [[Sketcher_CreateArcOfEllipse/de|Ellipsenbogen erstellen]]: Erstellt einen Ellipsenbogen.
 
