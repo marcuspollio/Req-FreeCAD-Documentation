@@ -10,15 +10,14 @@
 }}
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/pl
 |Name=Std ToggleBottomPanels
-|MenuLocation=View → Toggle Bottom Panels
-|Workbenches=All
+|Name/pl=Std: Przełącz dolne panele
+|MenuLocation=Widok → Przełącz dolne panele
+|Workbenches=Wszystkie
 |Shortcut={{KEY|Ctrl}} + {{KEY|O}}
 |Version=1.2
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Description ==
