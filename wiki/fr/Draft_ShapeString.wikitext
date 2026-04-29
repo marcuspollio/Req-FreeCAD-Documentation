@@ -80,7 +80,7 @@ Voir le paragraphe [[#Pr.C3.A9f.C3.A9rences|Préférences]] ci-dessous pour l'em
 <span id="Notes"></span>
 ==Remarques==
 
-* Une Draft Forme à partir d'un texte peut être éditée en double-cliquant dessus dans la [[Tree_View/fr|vue en arborescence]].
+* Une Draft Forme à partir d'un texte peut être éditée en double-cliquant dessus dans l'[[Tree_View/fr|arborescence]].
 * Les polices prises en charge comprennent TrueType Collection ({{FileName|.ttc}}, {{Version/fr|1.1}}), TrueType ({{FileName|.ttf}}), OpenType ({{FileName|.otf}}) et Type 1 ({{FileName|.pfb}}). Notez que seule la première police d'un fichier TrueType Collection peut être utilisée.
 * La commande est limitée au texte de gauche à droite. Les textes de droite à gauche et de haut en bas ne sont pas pris en charge.
 * De très petites hauteurs de texte peuvent entraîner des formes de caractères déformées en raison de la perte de détails lors de la mise à l'échelle.
