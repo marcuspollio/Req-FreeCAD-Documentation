@@ -10,8 +10,6 @@
 |IconC=Workbench_BIM.svg
 }}
 
-{{VeryImportantMessage|THIS COMMAND IS EXPERIMENTAL AND NOT PART OF FREECAD. It is a work in progress PR (https://github.com/FreeCAD/FreeCAD/pull/27222) that needs to be reviewed and tested. This is a placeholder to host documentation for testers.}}
-
 {{GuiCommand
 |Name=BIM Covering
 |MenuLocation=3D/BIM → Covering
