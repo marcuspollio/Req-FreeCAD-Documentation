@@ -89,16 +89,13 @@ Il valore iniziale dell'operazione si adegua automaticamente alla funzione selez
 
 ====Capping (10mm)====
 
-<div class="mw-translate-fuzzy">
-====Capping (10mm)====
-* Slider : Definisce l'altezza della forma, l'altezza viene visualizzata nel riquadro del titolo.
-* {{SpinBox|0 height}} : Definisce l'altezza della forma, l'altezza viene visualizzata nel riquadro del titolo.
-* Raw mode {{CheckBox|20}} : Serve a regolare il numero di colori (livelli). La modalità predefinita è 0-19 (che costituisce un filtro e permette di ottenere maggiori dettagli, secondo la complessità dell'immagine). Quando viene selezionata questa opzione la modalità passa a 0-255 (tutta la scala di colori).
-* {{CheckBox}} : Questo checkBox abilita lo spinbox.
-* {{SpinBox|0/2 Contour}} : Questa casella numerica determina il colore che deve essere rimosso per ottenere il contorno dell'oggetto (ad esempio 0 per rimuovere lo sfondo).
-* Capping {{CheckBox|White}} : L'operazione di tappatura può essere eseguita su colori a scelta, bianco (impostazione predefinita) o nero. Il grado di tappatura si regola da 19 a 0 (o da 255 a 0) se la casella di controllo è impostata su '''White''' , oppure da 0 a 19 (o da 0 a 255) se la casella di controllo è impostata su '''Black'''.
-* {{SpinBox|20 Capping}} : Questa casella numerica determina il grado di Capping
-</div>
+* Slider: Inserire l'altezza della forma. L'altezza verrà visualizzata nella cornice del titolo.
+* {{SpinBox|0 height}}: Inserire l'altezza della forma. L'altezza verrà visualizzata nella cornice del titolo.
+* Raw mode {{CheckBox|20}}: Per regolare il numero di colori (profondità). La modalità predefinita è 0-20 (che costituisce un filtro e permette di ottenere maggiori dettagli a seconda della complessità dell'immagine), una volta selezionata la modalità è 0-255 (l'intera gamma di colori).
+* {{CheckBox}}: questa opzione consente di accedere alla casella di selezione Contour
+* {{SpinBox|0/2 Contour}}: Questa casella di selezione genera la linea di contorno. Non utilizzare (es: 0 per la base).
+* Capping {{CheckBox|White}}: Questa funzione può essere realizzata scegliendo i colori, bianco (predefinito) o nero. I gradi di capping sono regolati da 20 a 0 (o da 255 a 0) se la casella di controllo è impostata su '''W''' (non selezionata) o da 0 a 20 (o da 0 a 255) se la casella di controllo è impostata su '''B''' (selezionata).
+* {{SpinBox|20 Capping}}: questa casella di selezione fornisce i gradi di capping.
 
 ====Command====
 
