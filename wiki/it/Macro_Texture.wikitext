@@ -77,8 +77,7 @@ Il valore iniziale dell'operazione si adegua automaticamente alla funzione selez
 * {{RadioButton|[[Image:Draft_Point.svg|24px]] Point}}: crea un punto per ogni pixel (vettore) (Nota: questa procedura richiede un elevato utilizzo della CPU).
 * {{CheckBox|Nuance}}: se l'opzione "Nuance" è selezionata, il colore del punto viene rappresentato come un'immagine.
 
-<span id="32_bit_Mode"></span>
-====Modalità a 32 bit====
+====32 bit Mode====
 
 * {{RadioButton|TRUE|Photo}}: la modalità foto si attiva automaticamente quando viene rilevata un'''immagine a 32 bit'''. (Nota: questa procedura richiede un uso intensivo della CPU)
 * {{RadioButton|Plan}}: consente di importare un'''immagine a 32 bit''' e ignorare lo sfondo del piano. Per impostazione predefinita, lo sfondo della mappa è nero; i colori ignorati sono regolabili con il comando '''Capping'''. Se si seleziona Bianco, la parte inferiore della mappa sarà bianca. (Nota: questa procedura richiede un uso intensivo della CPU)
