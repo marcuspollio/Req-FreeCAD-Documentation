@@ -10,19 +10,17 @@
 }}
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{GuiCommand
+{{GuiCommand/fr
 |Name=Std ToggleBottomPanels
-|MenuLocation=View → Toggle Bottom Panels
-|Workbenches=All
+|Name/fr=Std Panneaux inférieurs
+|MenuLocation=Affichage → Activer/Désactiver les panneaux inférieurs
+|Workbenches=Tous
 |Shortcut={{KEY|Ctrl}} + {{KEY|O}}
 |Version=1.2
 }}
-</div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Description ==
-</div>
+<span id="Description"></span>
+==Description==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The '''Std ToggleBottomPanels''' command toggles the visibility of the bottom panels (usually the [[Report_View|Report View]] and the [[Python_Console|Python Console]]).
