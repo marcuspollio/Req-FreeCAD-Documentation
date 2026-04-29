@@ -322,7 +322,7 @@ Standard FreeCAD ViewProvider properties (Visibility, ShapeColor, Transparency, 
 
 == Notes ==
 
-* '''Corner alignment and joint bleed:''' For the TopLeft, TopRight, and BottomRight presets, the tile body corner sits flush with the face corner and the joint bleeds slightly outside the face boundary. This is intentional and physically correct — grout at a wall or floor edge is cut at the edge, not inset from it.
+* '''Corner alignment and joint bleed:''' For the Top Left, Top Right, and Bottom Right presets, the tile body corner sits flush with the face corner and the joint bleeds slightly outside the face boundary. This is intentional and physically correct — grout at a wall or floor edge is cut at the edge, not inset from it.
 
 * '''Edge clicks in the 3D View:''' When picking a base face interactively, clicking an edge instead of a face surface clears the current selection. If the selection field reverts to "No selection" unexpectedly, or if you are trying to select a base object with no faces (e.g. a Draft Rectangle), either select the object in the Tree View or double-click one of its edges on the 3D View to select the full object.
 
