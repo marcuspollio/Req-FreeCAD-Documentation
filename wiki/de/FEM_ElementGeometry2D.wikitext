@@ -48,10 +48,8 @@ Ein '''ElementGeometry2D'''-Objekt wird zum Festlegen der Wandstärke von 2D-FEM
 <span id="Properties"></span>
 ==Eigenschaften==
 
-<div class="mw-translate-fuzzy">
 * {{PropertyData/de|Thickness}}: Legt die Wandstärke der 2D-Elemente fest.
-* {{PropertyData/de|Offset}} - {{Version/de|1.1}}: Legt den Abstand der mittleren Flächen eines Hüllkörpers bezogen auf die vernetzte Geometrie fest. Die Einheit ist die Wandstärke des Hüllkörpers. Positive Werte zeigen einen Abstand in der positive Richtung der Normale an, negative Werte zeigen einen Abstand in der entgegengesetzten Richtung an. Null bedeutet kein Abstand (die mittleren Flächen befinden sich auf der vernetzten geometrischen Oberfläche). Beispielsweise bedeutet 0,5, dass die vernetzte geometrische Oberfläche der oberen Oberfläche des Hüllkörpers entspricht, während -0,5 bedeutet, dass sie der unteren Oberfläche entspricht.
-</div>
+* {{PropertyData/de|Offset}} - {{Version/de|1.1}}: Nur von CalculiX genutzt. Legt den Abstand der mittleren Flächen eines Hüllkörpers bezogen auf die vernetzte Geometrie fest. Die Einheit ist die Wandstärke des Hüllkörpers. Positive Werte zeigen einen Abstand in der positive Richtung der Normale an, negative Werte zeigen einen Abstand in der entgegengesetzten Richtung an. Null bedeutet kein Abstand (die mittleren Flächen befinden sich auf der vernetzten geometrischen Oberfläche). Beispielsweise bedeutet 0,5, dass die vernetzte geometrische Oberfläche der oberen Oberfläche des Hüllkörpers entspricht, während -0,5 bedeutet, dass sie der unteren Oberfläche entspricht.
 
 [[Image:FEM_shell_offset.svg|800px]]
 
