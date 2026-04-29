@@ -61,8 +61,7 @@ Nota importante: a seconda delle dimensioni dell'immagine, il progetto può dive
 * {{Button|Stretching Y}} {{SpinBox|0,00 mm}}: restringimento o ingrandimento della '''Y''' (altezza) dell'oggetto (predefinito: 0)
 * {{Button|Stretching Z}} {{SpinBox|0,00 mm}}: restringimento o ingrandimento della '''Z''' (profondità) dell'oggetto (predefinito: 0)
 
-<span id="Inversion"></span>
-====Inversione====
+====Inversion====
 
 * {{CheckBox|Axis X}}: inverte le coordinate '''X''' dell'immagine.
 * {{CheckBox|Axis Y}}: inverte le coordinate '''Y''' dell'immagine.
