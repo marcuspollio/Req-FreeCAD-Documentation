@@ -55,8 +55,7 @@ Nota importante: a seconda delle dimensioni dell'immagine, il progetto può dive
 * {{Button|Coordinate Y [[Image:Std_CoordinateSystem.svg|24px]]}} {{SpinBox|0,00 mm}}: Posizione della coordinata '''Y''' dell'oggetto (predefinito: 0)
 * {{Button|Coordinate Z [[Image:Std_CoordinateSystem.svg|24px]]}} {{SpinBox|0,00 mm}}: Posizione della coordinata '''Z''' dell'oggetto (predefinito: 0)
 
-<span id="Stretching"></span>
-====Deformazione====
+====Stretching====
 
 * {{Button|Stretching X}} {{SpinBox|0,00 mm}}: restringimento o ingrandimento della '''X''' (lunghezza) dell'oggetto (predefinito: 0)
 * {{Button|Stretching Y}} {{SpinBox|0,00 mm}}: restringimento o ingrandimento della '''Y''' (altezza) dell'oggetto (predefinito: 0)
