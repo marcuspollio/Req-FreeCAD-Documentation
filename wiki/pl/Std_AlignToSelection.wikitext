@@ -29,14 +29,12 @@ Finalny kierunek kamery jest kierunkiem normalnej lub przeciwnym do niego, w zal
 <span id="Usage"></span>
 ==Użycie==
 
-<div class="mw-translate-fuzzy">
-# Wybierz ścianę (musi być płaska w wersji 1.0), płaską zakrzywioną krawędź lub prostą krawędź w widoku 3D.
+# Wybierz jedną ({{VersionMinus/pl|1.1}}) lub więcej ({{VersionPlus/pl|1.2}}) ścian lub krawędzi w Widoku 3D.
 # Jest kilka sposobów na wywołanie tego polecenia:
 #* Wciśnij przycisk {{Button|[[Image:Std_AlignToSelection.svg|16px]] [[Std_AlignToSelection/pl|Wyrównaj do zaznaczenia]]}}.
 #* Wybierz opcję {{MenuCommand|Widok → Widoki standardowe → [[Image:Std_AlignToSelection.svg|16px]] Wyrównaj do zaznaczenia}} z menu.
-#* Wybierz opcję {{MenuCommand|[[Image:Std_AlignToSelection.svg|16px]] Wyrównaj do zaznaczenia}} z menu kontekstowego [[3D_view/pl|widoku 3D]].
+#* Wybierz opcję {{MenuCommand|[[Image:Std_AlignToSelection.svg|16px]] Wyrównaj do zaznaczenia}} z menu kontekstowego [[3D_View/pl|Widoku 3D]].
 #* Wybierz opcję {{MenuCommand|[[Image:Std_AlignToSelection.svg|16px]] Wyrównaj do zaznaczenia}} z menu mini kostki [[Navigation_Cube/pl|kostki nawigacyjnej]].
-</div>
 
 
 {{Docnav/pl
