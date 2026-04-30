@@ -53,12 +53,10 @@ Starsze informacje na temat wydań FreeCAD można znaleźć na stronie [[Feature
 [https://github.com/FreeCAD/FreeCAD/pull/27347 Pull request #27347]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:Core_datum_show_placement_relnotes_1.2.png|384px]]
-| [[Image:Part CoordinateSystem.svg|24px]] [[Std_Base#Part_Datums|Core Datums]] now use the ''Show Placement'' property, making [[Part_EditAttachment|attachment]] offsets (without rotations) in local coordinates more intuitive. [https://github.com/FreeCAD/FreeCAD/pull/29176 Pull request #29176]
+| [[Image:Part CoordinateSystem.svg|24px]] [[Std_Base/pl#Menu_Struktura|Geometrie odniesienia]] korzystają teraz z właściwości ''Show Placement'', dzięki czemu odsunięcia [[Part_EditAttachment/pl|dołączenia]] (bez obrotów) w lokalnych współrzędnych są bardziej intuicyjne. [https://github.com/FreeCAD/FreeCAD/pull/29176 Pull request #29176]
 |}
-</div>
 
 <span id="Further_Core_improvements"></span>
 ===Pozostałe ulepszenia rdzenia===
