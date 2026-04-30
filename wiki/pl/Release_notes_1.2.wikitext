@@ -266,13 +266,11 @@ ToDo (last check: 20260430, #29258):
 [https://github.com/FreeCAD/FreeCAD/pull/22573 Pull request #22573]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:Part_Design_sketch_attachment_relnotes_1.2.png|384px]]
-| Creating [[Image:PartDesign_NewSketch.svg|24px]] [[PartDesign_NewSketch|New sketch]] now activates the [[Image:Part_EditAttachment.svg|24px]] [[Part_EditAttachment|Attachment]] dialog unless a single planar face or datum plane is selected or a new related preference is enabled.
+| Tworzenie [[Image:PartDesign_NewSketch.svg|24px]] [[PartDesign_NewSketch/pl|Nowego szkicu]] aktywuje teraz okno dialogowe [[Image:Part_EditAttachment.svg|24px]] [[Part_EditAttachment/pl|Dołączenia]], chyba że wybrana jest pojedyncza płaska ściana lub płaszczyzna konstrukcyjna bądź włączone jest nowe powiązane ustawienie.
 [https://github.com/FreeCAD/FreeCAD/pull/29168 Pull request #29168]
 |}
-</div>
 
 <span id="Further_Part_Design_improvements"></span>
 ===Pozostałe ulepszenia środowiska Projekt Części===
