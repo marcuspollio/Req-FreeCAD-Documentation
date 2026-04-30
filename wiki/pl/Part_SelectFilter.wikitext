@@ -60,8 +60,10 @@ Polecenie '''Część: Filtr wyboru''' może być wykorzystane do ograniczenia w
 <span id="Notes"></span>
 ==Uwagi==
 
+<div class="mw-translate-fuzzy">
 * Wybieranie z [[Tree_view/pl|widoku drzewa]] nie jest możliwe z opcjami wyboru wierzchołków, krawędzi i ścian.
 * Opcje wyboru wierzchołków, krawędzi i ścian nie działają razem ze [[Std_BoxSelection/pl|Std: Zaznacz obszar]] i [[Std_BoxElementSelection/pl|Std: Wybór elementów ramką zaznaczenia]].
+</div>
 
 
 {{Docnav
