@@ -11,7 +11,13 @@
 |Download=[https://wiki.freecad.org/images/placeholder.png ToolBar Icon]
 }}
 
+==Description==
+
+Automated tool to convert DXF profiles into 3D objects by defining a custom length.
+
 [[File:DXF_to_3D.png|center|thumb|600x600px|The DXF to 3D Converter in action]]
+
+==Script==
 
 {{MacroCode|code=
 __Name__ = "DXF to 3D converter"
