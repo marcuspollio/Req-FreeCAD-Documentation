@@ -27,7 +27,6 @@
 
 [[Image:Workbench_Part.svg|24px]] [[Part_Workbench|Part Workbench]] 工作台提供编辑实体部件的基础工具，包含球体和立方体等原始物件，以及基本几何与布尔操作。作为与 [https://en.wikipedia.org/wiki/Open_Cascade_Technology OpenCasCade] 的主要联系，Part 工作台是 FreeCAD 几何系统的基石（几乎所有其他工作台都生成基于 Part 的几何图形）。这种基于参数的建模系统允许使用基于历史的工作流程对 3D 模型进行精细的控制和修改。用户可以通过码放和调整简单图形和操作构建和打磨复杂的设计，从而有健壮且灵活的设计过程。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable" style="width:100%"
 ! Tool
 ! Description
@@ -35,44 +34,44 @@
 ! Description
 |-
 | [[Image:Part_Box.svg|32px]] [[Part_Box|Box]]
-| Creates a box
+| 创建立方体
 | [[Image:Part_Cylinder.svg|32px]] [[Part_Cylinder|Cylinder]]
-| Creates a cylinder
+| 创建圆柱
 |-
 | [[Image:Part_Sphere.svg|32px]] [[Part_Sphere|Sphere]]
-| Creates a sphere
+| 创建球体
 | [[Image:Part_Cone.svg|32px]] [[Part_Cone|Cone]]
-| Creates a cone
+| 创建圆锥
 |-
 | [[Image:Part_Torus.svg|32px]] [[Part_Torus|Torus]]
-| Creates a torus (ring)
+| 创建环面
 | [[Image:Part_Tube.svg|32px]] [[Part_Tube|Tube]]
-| Creates a tube
+| 创建管子
 |-
 | [[Image:Part_Primitives.svg|32px]] [[Part_Primitives|Create primitives]]
-| Creates various other parametric geometric primitives
+| 创建其它参数化基础几何图形
 | [[Image:Part_Builder.svg|32px]] [[Part_Builder|Shape builder]]
-| Creates more complex shapes from primitives
+| 从基础图形创建复杂图形
 |-
 | [[Image:Part_Extrude.svg|32px]] [[Part_Extrude|Extrude]]
-| Extrudes planar faces of an object
+| 从物体的平面拉伸
 | [[Image:Part_Revolve.svg|32px]] [[Part_Revolve|Revolve]]
-| Creates a solid by revolving another object (not solid) around an axis
+| 使非实体绕轴旋转形成实体
 |-
 | [[Image:Part_Mirror.svg|32px]] [[Part_Mirror|Mirror]]
-| Mirrors the selected object on a given mirror plane
+| 在给定的平面上对称选中的物体
 | [[Image:Part_Scale.svg|32px]] [[Part_Scale|Scale]]
-| Scales a selected shape
+| 缩放选中的图形
 |-
 | [[Image:Part_Fillet.svg|32px]] [[Part_Fillet|Fillet]]
-| Fillets (rounds) edges of an object
+| 为物体边缘添加圆角
 | [[Image:Part_Chamfer.svg|32px]] [[Part_Chamfer|Chamfer]]
-| Chamfers edges of an object
+| 为物体边缘添加倒角
 |-
 | [[Image:Part_MakeFace.svg|32px]] [[Part_MakeFace|MakeFace]]
-| Creates a face from a sketch
+| 从草图创建面
 | [[Image:Part_RuledSurface.svg|32px]] [[Part_RuledSurface|Ruled Surface]]
-| Create a ruled surface between selected curves
+| 在选中的曲线间创建规则限定的表面
 |-
 | [[Image:Part_Loft.svg|32px]] [[Part_Loft|Loft]]
 | Lofts from one profile to another
@@ -134,7 +133,6 @@
 | [[Image:Part_Defeaturing.svg|32px]] [[Part_Defeaturing|Defeaturing]]
 | Removes features from a shape
 |}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Part Design ===
