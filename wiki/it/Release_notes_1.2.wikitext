@@ -34,7 +34,9 @@ Le note di rilascio delle versioni precedenti di FreeCAD sono disponibili alla p
 * In the built-in text editor, the search field is now prefilled with the currently selected text. [https://github.com/FreeCAD/FreeCAD/pull/27674 Pull request #27674]
 * Double-clicking a face of the [[Navigation_Cube|navigation cube]] will now rotate to it, but also center the view. [https://github.com/FreeCAD/FreeCAD/pull/28608 Pull request #28608]
 * The ''Recompute Object'' [[Tree_View|Tree View]] context menu option (''Std_Recompute'' command) now has a keyboard shortcut {{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|R}}. [https://github.com/FreeCAD/FreeCAD/pull/27880 Pull request #27880]
-* There is now a button and a shortcut to toggle the bottom panels ([[Report_View|Report View]] and [[Python_Console|Python Console]]). [https://github.com/FreeCAD/FreeCAD/pull/28598 Pull request #28598]
+* There is now a {{Button|[[Image:Std_ToggleBottomPanels.svg|16px]] Toggle Bottom Panels}} button and a shortcut {{KEY|Ctrl}} + {{KEY|O}} to toggle the bottom panels ([[Report_View|Report View]] and [[Python_Console|Python Console]]). [https://github.com/FreeCAD/FreeCAD/pull/28598 Pull request #28598]
+* The [[Image:Std_AlignToSelection.svg|24px]] [[Std_AlignToSelection|Align to Selection]] command now supports multi-selection. [https://github.com/FreeCAD/FreeCAD/pull/29182 Pull request #29182]
+* Double-clicking on an expression field now clears the expression and keeps the current value. If no change is made, the expression is restored after losing focus. [https://github.com/FreeCAD/FreeCAD/pull/29414 Pull request #29414]
 </div>
 
 <span id="Core_system_and_API"></span>
@@ -59,6 +61,13 @@ Le note di rilascio delle versioni precedenti di FreeCAD sono disponibili alla p
 |}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:Core_datum_show_placement_relnotes_1.2.png|384px]]
+| [[Image:Part CoordinateSystem.svg|24px]] [[Std_Base#Part_Datums|Core Datums]] now use the ''Show Placement'' property, making [[Part_EditAttachment|attachment]] offsets (without rotations) in local coordinates more intuitive. [https://github.com/FreeCAD/FreeCAD/pull/29176 Pull request #29176]
+|}
+</div>
+
 <span id="Further_Core_improvements"></span>
 === Ulteriori miglioramenti del Sistema Principale ===
 
@@ -71,9 +80,10 @@ Le note di rilascio delle versioni precedenti di FreeCAD sono disponibili alla p
 * The [[Image:Std_Measure.svg|24px]] [[Std_Measure|Measure]] tool can now report the radius and diameter for circular faces in addition to the existing measurement types. [https://github.com/FreeCAD/FreeCAD/pull/27415 Pull request #27415]
 * The [[Image:Std_Measure.svg|24px]] [[Std_Measure|Measure]] tool now displays area units using unicode superscripts. [https://github.com/FreeCAD/FreeCAD/pull/28044 Pull request #28044]
 * Macros now support directories to collect the files associated with them. [https://github.com/FreeCAD/FreeCAD/pull/27005 Pull request #27005]
-* [[Image:Part CoordinateSystem.svg|24px]] [[Std_Base#Part_Datums|Core Datums]] now use the ''Show Placement'' property, making [[Part_EditAttachment|attachment]] offsets (without rotations) in local coordinates more intuitive. [https://github.com/FreeCAD/FreeCAD/pull/29176 Pull request #29176]
 * The [[Image:Std_Measure.svg|24px]] [[Std_Measure|Measure]] tool can now report the radius and diameter for spheres and toruses. [https://github.com/FreeCAD/FreeCAD/pull/29369 Pull request #29369]
 * The [[Image:Std_Measure.svg|24px]] [[Std_Measure|Measure]] tool now supports curved faces in ''Distance'' mode. [https://github.com/FreeCAD/FreeCAD/pull/29367 Pull request #29367]
+* The appearance and placement of the ''Angle'' [[Image:Std_Measure.svg|24px]] [[Std_Measure|Measurement]] arrows was significantly improved. [https://github.com/FreeCAD/FreeCAD/pull/27135 Pull request #27135]
+* [[Image:Std_BoxElementSelection.svg|24px]] [[Std_BoxElementSelection|Box Element Selection]] now takes into account the [[Image:Part_SelectFilter.svg|24px]] [[Part_SelectFilter|selection filters]]. [https://github.com/FreeCAD/FreeCAD/pull/28982 Pull request #28982]
 </div>
 
 === API ===
@@ -169,6 +179,13 @@ ToDo (last check: 20260412):
 * The [[CAM_SimulatorGL|new CAM simulator]] now uses the same ortho/perspective view mode and navigation style as the [[3D_View|3D View]]. [https://github.com/FreeCAD/FreeCAD/pull/23073 Pull request #23073]
 * The [[CAM_Pocket_Shape|Pocket]] operation can now handle horizontal edges in addition to faces. [https://github.com/FreeCAD/FreeCAD/pull/27750 Pull request #27750]
 * The ''Op Final Depth'' property of the [[CAM_Engrave|Engrave]] operation now has a better default value depending on stock and engraving shape. [https://github.com/FreeCAD/FreeCAD/pull/26543 Pull request #26543]
+* ''Start Point'' can now be set from the task panel for [[CAM_Profile|Profile]] and [[CAM_Pocket_Shape|Pocket]] operations. [https://github.com/FreeCAD/FreeCAD/pull/29502 Pull request #29502]
+* The Circular Hole Base feature used to select Base Geometry for some operations now shows position and blind state (for cylinder faces) in addition to face name and diameter. [https://github.com/FreeCAD/FreeCAD/pull/27869 Pull request #27869]
+* The [[CAM_Helix|Helix]] operation now has the ''Helix Max Ramp Angle'' property while ''Helix Pitch'' was renamed to ''Helix Max Pitch''. [https://github.com/FreeCAD/FreeCAD/pull/29286 Pull request #29286]
+* The ''Zig Zag Angle'' property of the [[CAM_Pocket_Shape|Pocket]] operation was renamed to ''Angle''. It is now hidden if the selected pattern is ''Offset''. [https://github.com/FreeCAD/FreeCAD/pull/26842 Pull request #26842]
+* A new tool was added to allow mirroring dressups. [https://github.com/FreeCAD/FreeCAD/pull/21820 Pull request #21820]
+* A rapid move from ''Clearance Height'' to ''Safe Height'' was added at the beginning of the [[CAM_Slot|Slot]] operation's G-code. [https://github.com/FreeCAD/FreeCAD/pull/25845 Pull request #25845]
+* The CAM context menu was improved. [https://github.com/FreeCAD/FreeCAD/pull/26492 Pull request #26492]
 </div>
 
 <span id="Draft_Workbench"></span>
@@ -219,6 +236,7 @@ ToDo (last check: 20260412):
 * The ''Beam Reduced Integration'' property of the [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools|CalculiX solver]] was replaced by the generalized ''Reduced Integration'' property that replaces standard solid, face (shell, 2D) and beam elements with their reduced integration counterparts. [https://github.com/FreeCAD/FreeCAD/pull/29223 Pull request #29223]
 * The refactored [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools|CalculiX solver]] is now used by default. [https://github.com/FreeCAD/FreeCAD/pull/29220 Pull request #29220]
 * The [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint|Section print]] feature can now be used with the [[Image:FEM_SolverZ88.svg|24px]] [[FEM_SolverZ88|Z88 solver]]. [https://github.com/FreeCAD/FreeCAD/pull/29188 Pull request #29188]
+* Materials now have the ''Material Name'' property, making it easier to identify the actual materials represented by the material objects in the Analysis container. [https://github.com/FreeCAD/FreeCAD/pull/29609 Pull request #29609]
 </div>
 
 <span id="Inspection_Workbench"></span>
@@ -269,6 +287,14 @@ ToDo (last check: 20260412):
 | [[File:PartDesign_thread_texture_relnotes_1.2.png|384px]]
 | Support for cosmetic threads (thread textures) was added to the [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole|Hole]] tool. They can be enabled using the ''Cosmetic Thread'' property (''Threaded'' has to be enabled and ''Model Thread'' must be disabled).
 [https://github.com/FreeCAD/FreeCAD/pull/22573 Pull request #22573]
+|}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:Part_Design_sketch_attachment_relnotes_1.2.png|384px]]
+| Creating [[Image:PartDesign_NewSketch.svg|24px]] [[PartDesign_NewSketch|New sketch]] now activates the [[Image:Part_EditAttachment.svg|24px]] [[Part_EditAttachment|Attachment]] dialog unless a single planar face or datum plane is selected or a new related preference is enabled.
+[https://github.com/FreeCAD/FreeCAD/pull/29168 Pull request #29168]
 |}
 </div>
 
