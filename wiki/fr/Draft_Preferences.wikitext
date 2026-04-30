@@ -416,8 +416,8 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | Chaîne de caractères facultative insérée entre les valeurs en pieds et en pouces dans les dimensions. {{Version/fr|1.0}}
 
 |-
-| {{MenuCommand|Dépassement de la ligne des dimensions}}
-| La distance par défaut de la ligne des dimensions est prolongée au-delà des lignes d'extension.
+| {{MenuCommand|Dépassement des lignes de dimension}}
+| La distance par défaut des lignes de dimension est prolongée au-delà des lignes d'extension.
 
 |-
 | {{MenuCommand|Longueur des lignes d'extension}}
