@@ -1,13 +1,16 @@
 <languages/>
 
 {{Docnav
-|[[BIM_Preflight|Preflight]]
-|[[BIM_Trash|Trash]]
+|
+|
 |[[BIM_Workbench|BIM]]
-|IconL=BIM_Preflight.svg
-|IconR=BIM_Trash.svg
+|
+|
 |IconC=Workbench_BIM.svg
 }}
+
+{{VeryImportantMessage|THIS COMMAND IS OBSOLETE<br>
+It is not available in {{VersionPlus|1.2}}. Use [[Std_ToggleBottomPanels|Std ToggleBottomPanels]] instead.}}
 
 {{GuiCommand
 |Name=BIM TogglePanels
@@ -21,11 +24,11 @@ The '''BIM TogglePanels''' tool toggles the display of bottom panels ([[Report_V
 
 
 {{Docnav
-|[[BIM_Preflight|Preflight]]
-|[[BIM_Trash|Trash]]
+|
+|
 |[[BIM_Workbench|BIM]]
-|IconL=BIM_Preflight.svg
-|IconR=BIM_Trash.svg
+|
+|
 |IconC=Workbench_BIM.svg
 }}
 
