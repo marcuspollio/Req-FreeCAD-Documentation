@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[BIM_Preflight/pl|Kontrola wstępna]]
 |[[BIM_Trash/pl|Przenieś do kosza]]
@@ -8,6 +9,12 @@
 |IconR=BIM_Trash.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{VeryImportantMessage|THIS COMMAND IS OBSOLETE<br>
+It is not available in {{VersionPlus|1.2}}. Use [[Std_ToggleBottomPanels|Std ToggleBottomPanels]] instead.}}
+</div>
 
 {{GuiCommand/pl
 |Name=BIM TogglePanels
@@ -22,6 +29,7 @@
 Narzędzie '''Przełącz panele''' włącza i wyłącza wyświetlanie dolnych paneli ([[Report_view/pl|widoku raportu]] i [[Python_console/pl|konsoli Pythona]]).
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[BIM_Preflight/pl|Kontrola wstępna]]
 |[[BIM_Trash/pl|Przenieś do kosza]]
@@ -30,6 +38,7 @@ Narzędzie '''Przełącz panele''' włącza i wyłącza wyświetlanie dolnych pa
 |IconR=BIM_Trash.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
