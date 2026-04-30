@@ -113,6 +113,10 @@
 
 * [[Image:Sketcher_LeaveSketch.svg|32px]] [[Sketcher_LeaveSketch/ru|Покинуть эскиз]]: Завершает режим редактирования эскиза и закрывает [[Sketcher_Dialog/ru|Диалоговое окно Скетчера]].
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:Sketcher_CancelSketch.svg|32px]] [[Sketcher_CancelSketch|Cancel Editing]]: Leaves sketch edit mode, reverts any changes, and closes the [[Sketcher_Dialog|Sketcher Dialog]]. {{Version|1.2}}
+</div>
+
 * [[Image:Sketcher_ViewSketch.svg|32px]] [[Sketcher_ViewSketch/ru|Просмотр эскиза]]: Выравнивает [[3D_view/ru|3D вид]] нормально эскиза.
 
 * [[Image:Sketcher_ViewSection.svg|32px]] [[Sketcher_ViewSection/ru|Просмотр сечения]]: Включает временную плоскость сечения, которая скрывает любые объекты и части объектов перед плоскостью эскиза.
@@ -471,7 +475,9 @@
 #* Щёлкните в пустой области и растяните прямоугольник слева направо, чтобы выбрать элементы, которые полностью находятся внутри прямоугольника.
 #* Щёлкните в пустой области и растяните прямоугольник справа налево, чтобы также выбрать элементы, которые касаются прямоугольника или пересекают его.
 
+<div class="mw-translate-fuzzy">
 Вы можете выделить рамкой рёбра и вершины, но ограничения не могут быть выбраны рамкой.
+</div>
 
 <span id="3D_View_connected_geometry_selection"></span>
 === Выбор связанной геометрии в 3D виде ===
