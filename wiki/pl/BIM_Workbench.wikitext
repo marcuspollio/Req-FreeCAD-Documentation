@@ -480,9 +480,7 @@ Do opracowania.
 
 * [[Image:Arch_SetMaterial.svg|32px]] [[Arch_SetMaterial/pl|Ustaw materiał]]: Tworzy materiał i przypisuje go do wybranych obiektów, jeśli jakiekolwiek są. Niedostępne w {{VersionPlus/pl|1.0}}. Użyj narzędzia [[BIM_Material/pl|Materiał BIM]] zamiast tego.
 
-<div class="mw-translate-fuzzy">
-* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels/pl|Przełącz dolne panele]]: Pokazuje lub ukrywa okna wyników (widok raportu i konsola Pythona).
-</div>
+* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels/pl|Przełącz dolne panele]]: Pokazuje lub ukrywa okna wyników (Widok raportu i Konsolę Pythona). Niedostępne w {{VersionPlus/pl|1.2}}. Użyj [[Std_ToggleBottomPanels/pl|Przełącz dolne panele]] zamiast tego.
 
 <span id="Preferences"></span>
 ==Ustawienia==
