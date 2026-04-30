@@ -129,7 +129,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | Raccourci pour changer le focus du champ de saisie de la coordonnée X au champ de saisie de la longueur et vice versa.
 
 |-
-| {{MenuCommand|Créer des faces}}
+| {{MenuCommand|Créer une face}}
 | Raccourci pour activer le mode de remplissage. Si le mode remplissage est activé, {{PropertyData|Make Face}} de l'objet créé aura la valeur {{TRUE}}.
 
 |-
