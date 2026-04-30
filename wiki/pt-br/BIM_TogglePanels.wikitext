@@ -2,13 +2,18 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
-|[[BIM_Preflight|Preflight]]
-|[[BIM_Trash|Trash]]
+|
+|
 |[[BIM_Workbench|BIM]]
-|IconL=BIM_Preflight.svg
-|IconR=BIM_Trash.svg
+|
+|
 |IconC=Workbench_BIM.svg
 }}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{VeryImportantMessage|THIS COMMAND IS OBSOLETE<br>
+It is not available in {{VersionPlus|1.2}}. Use [[Std_ToggleBottomPanels|Std ToggleBottomPanels]] instead.}}
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -29,11 +34,11 @@ The '''BIM TogglePanels''' tool toggles the display of bottom panels ([[Report_V
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
-|[[BIM_Preflight|Preflight]]
-|[[BIM_Trash|Trash]]
+|
+|
 |[[BIM_Workbench|BIM]]
-|IconL=BIM_Preflight.svg
-|IconR=BIM_Trash.svg
+|
+|
 |IconC=Workbench_BIM.svg
 }}
 </div>
