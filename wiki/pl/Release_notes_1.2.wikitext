@@ -27,13 +27,13 @@ Starsze informacje na temat wydań FreeCAD można znaleźć na stronie [[Feature
 <span id="Further_user_interface_improvements"></span>
 ===Pozostałe ulepszenia interfejsu użytkownika===
 
-<div class="mw-translate-fuzzy">
 * Wbudowany edytor tekstu wspiera teraz zaznaczanie linii poprzez kliknięcie na jej numerze (i opcjonalnie również przytrzymanie klawisza {{KEY|Shift}}, aby zaznaczyć zakres linii). [https://github.com/FreeCAD/FreeCAD/pull/27677 Pull request #27677]
 * We wbudowanym edytorze tekstu, pole wyszukiwania jest teraz wstępnie wypełnione aktualnie zaznaczonym tekstem. [https://github.com/FreeCAD/FreeCAD/pull/27674 Pull request #27674]
 * Od teraz dwukrotne kliknięcie na ścianie [[Navigation_Cube/pl|kostki nawigacyjnej]] dokona obrotu do niej, ale też wyśrodkuje widok. [https://github.com/FreeCAD/FreeCAD/pull/28608 Pull request #28608]
 * Opcja menu kontekstowego [[Tree_View/pl|Widoku drzewa]] ''Przelicz obiekt'' (polecenie ''Std_Recompute'') ma teraz skrót klawiaturowy {{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|R}}. [https://github.com/FreeCAD/FreeCAD/pull/27880 Pull request #27880]
-* Dostępny jest teraz przycisk i skrót do przełączania dolnych paneli ([[Report_View/pl|Widoku raportu]] i [[Python_Console/pl|Konsoli Pythona]]). [https://github.com/FreeCAD/FreeCAD/pull/28598 Pull request #28598]
-</div>
+* Dostępny jest teraz przycisk {{Button|[[Image:Std_ToggleBottomPanels.svg|16px]] Przełącz dolne panele}} i skrót {{KEY|Ctrl}} + {{KEY|O}} do przełączania dolnych paneli ([[Report_View/pl|Widoku raportu]] i [[Python_Console/pl|Konsoli Pythona]]). [https://github.com/FreeCAD/FreeCAD/pull/28598 Pull request #28598]
+* Polecenie [[Image:Std_AlignToSelection.svg|24px]] [[Std_AlignToSelection/pl|Wyrównaj do zaznaczenia]] wspiera teraz zaznaczanie wielu obiektów. [https://github.com/FreeCAD/FreeCAD/pull/29182 Pull request #29182]
+* Dwukrotne kliknięcie na polu wyrażenia czyści je teraz i zachowuje bieżącą wartość. Jeśli nie nastąpi żadna zmiana, wyrażenie zostanie przywrócone po kliknięciu poza polem. [https://github.com/FreeCAD/FreeCAD/pull/29414 Pull request #29414]
 
 <span id="Core_system_and_API"></span>
 == Rdzeń i API==
