@@ -7,7 +7,7 @@ Quetzal is a FreeCAD workbench for designing piping systems. It is a fork of the
 
 The user interface consists of three toolbars and menus:
 
-=== Pipe Tools ===
+== Pipe Tools ==
 
 [[File:Pipe Tools toolbar r1.png|alt=Pipe tools toolbar|thumb|Pipe tools toolbar]]
 
@@ -37,11 +37,11 @@ The user interface consists of three toolbars and menus:
 * Draw Tube Point by Point - Combines drafting a pipe path with the Pypeline Manager interface in one step
 * Insert Any Shape - This is a tool to create a "pype" object from a .STEP or .IGES or .BREP file. It loads the imported file into the Shape property of a FeaturePython. Shape files should be added to the "shapez" folder in the Quetzal workbench directory.
 
-=== Frame Tools ===
+== Frame Tools ==
 
 [[File:Frame Tools toolbar for Quetzal.png|alt=Frame Tools toolbar|Frame Tools toolbar]]
 
-=== Utilities ===
+== Utilities ==
 
 [[File:Utilities toolbar for Quetzal.png|alt=Utilities toolbar|Utilities toolbar]]
 
