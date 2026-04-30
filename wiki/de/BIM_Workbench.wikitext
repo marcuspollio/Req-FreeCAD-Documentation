@@ -346,8 +346,6 @@ Dieses Menü enthält die Werkzeuge unter [[Draft_Snap/de|Draft-Einrasten]] sowi
 <span id="Utils"></span>
 === Werkzeuge ===
 
-* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels/de|Anzeigen umschalten]]: Zeigt oder verbirgt Ausgabefenster (die Berichtsansicht und die Python-Konsole).
-
 * [[Image:BIM_Trash.svg|32px]] [[BIM_Trash/de|Papierkorb]]: Verschiebt ausgewählte Objekte in eine Papierkorbgruppe, die bei Bedarf erstellt wird.
 
 * [[Image:BIM_WPView.svg|32px]] [[BIM_WPView/de|Arbeitsebenen-Ansicht]]: Richtet die Kamera auf die aktuelle Arbeitsebene aus
@@ -449,8 +447,6 @@ Dieses Menü enthält die Werkzeuge unter [[Draft_Snap/de|Draft-Einrasten]] sowi
 
 Die Statusleiste enthält einige Schaltflächen, mit denen sich verschiedene Zustände einfach ändern lassen:
 
-* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels/de|Untere Bedienfelder umschalten]]: Zeigt oder verbirgt Ausgabefenster (die Berichtsansicht und die Python-Konsole).
-
 * [[Image:BIM_Views.svg|32px]] Ansichten umschalten: Blendet das Bedienfeld [[BIM_Views/de|BIM-Ansichten]] ein bzw. aus.
 
 * [[Image:BIM_ToggleBackground.svg|32px]] Zwischen einfachem Hintergrund und Farbverlauf in der 3D-Ansicht umschalten: Wechselt zwischen vertikalen, radialen und einfachen Farbhintergrundmodi. Damit kann zwischen einem dunklen Hintergrund für die Modellierung und einem weißen Hintergrund für 2D-Zeichnungen umgeschaltet werden.
@@ -483,6 +479,10 @@ in Arbeit...
 * [[Image:Arch_Project.svg|32px]] [[Arch_Project/de|Arch Projekt]]: Erzeugt ein Projekt mit den gewählten Objekten. Nicht verfügbar in {{VersionPlus/de|1.0}}. Nutze stattdessen [[BIM_Project/de|BIM Projekt]].
 
 * [[Image:Arch_SetMaterial.svg|32px]] [[Arch_SetMaterial/de|Arch MaterialZuordnen]]: Erstellt ein Material und weist es ausgewählten Objekten zu, sofern vorhanden. Nicht verfügbar in {{VersionPlus/de|1.0}}. Nutze stattdessen [[BIM_Material/de|BIM Material]].
+
+<div class="mw-translate-fuzzy">
+* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels/de|Anzeigen umschalten]]: Zeigt oder verbirgt Ausgabefenster (die Berichtsansicht und die Python-Konsole).
+</div>
 
 <span id="Preferences"></span>
 ==Einstellungen==
