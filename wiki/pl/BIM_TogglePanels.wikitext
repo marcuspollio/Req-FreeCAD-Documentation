@@ -27,16 +27,14 @@ It is not available in {{VersionPlus|1.2}}. Use [[Std_ToggleBottomPanels|Std Tog
 Narzędzie '''Przełącz panele''' włącza i wyłącza wyświetlanie dolnych paneli ([[Report_view/pl|widoku raportu]] i [[Python_console/pl|konsoli Pythona]]).
 
 
-<div class="mw-translate-fuzzy">
 {{Docnav/pl
-|[[BIM_Preflight/pl|Kontrola wstępna]]
-|[[BIM_Trash/pl|Przenieś do kosza]]
+|
+|
 |[[BIM_Workbench/pl|środowisko pracy BIM]]
-|IconL=BIM_Preflight.svg
-|IconR=BIM_Trash.svg
+|
+|
 |IconC=Workbench_BIM.svg
 }}
-</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
