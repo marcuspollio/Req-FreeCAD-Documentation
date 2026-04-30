@@ -425,8 +425,6 @@ Este menú contiene las herramientas  [[Draft_Snap|Encaje de Borrador]] así com
 <span id="Utils"></span>
 === Utilidades ===
 
-* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels|Alternar Paneles Inferiores]]: Muestra u oculta las ventanas de salida (la vista Informe y la consola Python).
-
 * [[Image:BIM_Trash.svg|32px]] [[BIM_Trash|Mover a la papelera]]: Mueve los objetos seleccionados a un grupo Papelera, que se crea si es necesario.
 
 * [[Image:BIM_WPView.svg|32px]] [[BIM_WPView|Vista del Plano de Trabajo]]: Configura la cámara para que se oriente hacia el plano de trabajo actual.
@@ -544,8 +542,6 @@ Este menú contiene las herramientas  [[Draft_Snap|Encaje de Borrador]] así com
 
 La barra de estado contiene varios botones que permiten cambiar fácilmente entre diferentes estados:
 
-* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels|Alternar Paneles]]: Muestra u oculta la [[Report view]] y la [[Python console]].
-
 * [[Image:BIM_Views.svg|32px]] Alternar vistas: muestra u oculta el panel [[BIM_Views|Vistas BIM]].
 
 <div class="mw-translate-fuzzy">
@@ -584,6 +580,10 @@ TBD
 * [[Image:Arch_Project.svg|32px]] [[Arch_Project|Arch Project]]: Crea un proyecto que incluye los objetos seleccionados. No disponible en {{VersionPlus|1.0}}. Utilice [[BIM_Project|BIM Project]] en su lugar.
 
 * [[Image:Arch_SetMaterial.svg|32px]] [[Arch_SetMaterial|Arch SetMaterial]]: Crea un material y lo atribuye a los objetos seleccionados, si los hay. No disponible en {{VersionPlus|1.0}}. Utilice [[BIM_Material|BIM Material]] en su lugar.
+
+<div class="mw-translate-fuzzy">
+* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels|Alternar Paneles Inferiores]]: Muestra u oculta las ventanas de salida (la vista Informe y la consola Python).
+</div>
 
 <span id="Preferences"></span>
 == Preferencias ==
