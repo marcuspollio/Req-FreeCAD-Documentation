@@ -1,5 +1,6 @@
 <languages/>
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[Arch_Schedule/pl|Obmiar]]
 |[[BIM_TogglePanels/pl|Przełącz panele]]
@@ -8,6 +9,7 @@
 |IconR=BIM_TogglePanels.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{GuiCommandAddon/pl
 |Name=BIM Preflight
@@ -112,6 +114,7 @@ Typowy plik testowy powinien mieć nazwę "myCustomTest.py" i być umieszczony w
     return result
 
 
+<div class="mw-translate-fuzzy">
 {{Docnav/pl
 |[[Arch_Schedule/pl|Obmiar]]
 |[[BIM_TogglePanels/pl|Przełącz panele]]
@@ -120,6 +123,7 @@ Typowy plik testowy powinien mieć nazwę "myCustomTest.py" i być umieszczony w
 |IconR=BIM_TogglePanels.svg
 |IconC=Workbench_BIM.svg
 }}
+</div>
 
 {{BIM_Tools_navi{{#translation:}}}}
 {{Userdocnavi{{#translation:}}}}
