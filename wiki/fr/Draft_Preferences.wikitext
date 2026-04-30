@@ -205,8 +205,8 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | Raccourci pour recentrer temporairement le plan de travail pendant les commandes. Voir [[https://wiki.freecad.org/Draft_Snap/fr#Aimantation_avanc%C3%A9e|Draft Aimantation]]. {{Version/fr|1.1}}
 
 |-
-| {{MenuCommand|Afficher la barre d'outils d'aimantation de Draft uniquement pendant les commandes}}
-| Si cette option est cochée, la barre d'outils d'aimantation de Draft ne sera visible que pendant les commandes. {{Version/fr|1.0}}
+| {{MenuCommand|Afficher la barre d'outils Aimantation de Draft uniquement pendant les commandes}}
+| Si cette option est cochée, la barre d'outils Aimantation de Draft ne sera visible que pendant les commandes. {{Version/fr|1.0}}
 
 |-
 | {{MenuCommand|Afficher le widget d'aimantation dans l'atelier Draft}}
