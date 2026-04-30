@@ -59,7 +59,9 @@ O [[BIM_ingame_tutorial|tutorial integrado]] é uma maneira fácil de rapidament
 
 A bancada de trabalho BIM reúne ferramentas de várias outras bancadas do FreeCAD, principalmente [[Draft_Workbench|Draft]] e [[Part_Workbench|Part]], reorganizadas de forma aproximada em categorias lógicas.
 
+<div class="mw-translate-fuzzy">
 Além disso, se [[External_workbenches|addons]] como esses estiverem instalados, ferramentas de [[Reinforcement_Workbench|Reinforcement]] (ferramentas adicionais para barras de reforço), [[Fasteners_Workbench|Fasteners]] (parafusos e porcas), [[Flamingo_Workbench|Flamingo/Dodo]] (ferramentas para estruturas metálicas e tubulações) e [[Parts_Library_Workbench|Parts Library]] são automaticamente incluídas na bancada de trabalho BIM.
+</div>
 
 A bancada de trabalho BIM também adiciona uma série de itens na '''barra de status''' do FreeCAD e alguns '''itens de menu de contexto''', acessíveis ao clicar com o botão direito na vista 3D ou na vista em árvore.
 
@@ -608,10 +610,6 @@ This menu contains the [[Draft_Snap|Draft Snap]] tools as well as the following 
 === Utilitários ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels|Toggle Bottom Panels]]: Shows or hides output windows (the Report View and the Python Console).
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:BIM_Trash.svg|32px]] [[BIM_Trash|Move to Trash]]: Moves selected objects to a Trash group, which gets created if necessary
 </div>
 
@@ -811,10 +809,6 @@ The Status Bar contains a few buttons that allow to easily change different stat
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels|Toggle report panels on/off]]: Shows or hides the [[Report_View|Report View]] and the [[Python Console]].
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:BIM_Views.svg|32px]] Toggle BIM views panels on/off: Shows or hides the [[BIM_Views|BIM Views]] panel.
 </div>
 
@@ -869,6 +863,10 @@ TBD
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Image:Arch_SetMaterial.svg|32px]] [[Arch_SetMaterial|Arch SetMaterial]]: Creates a material and attributes it to selected objects, if any. Not available in {{VersionPlus|1.0}}. Use [[BIM_Material|BIM Material]] instead.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels|Toggle Bottom Panels]]: Shows or hides output windows (the Report View and the Python Console). Not available in {{VersionPlus|1.2}}. Use [[Std_ToggleBottomPanels|Std ToggleBottomPanels]] instead.
 </div>
 
 <span id="Preferences"></span>
