@@ -21,16 +21,16 @@
 
 == Description ==
 
-<gallery widths="330">
-File:Stairs with covering.png|Covering as floor and stair tiles
-File:Exterior thermal insulation boards as covering.png|Covering as thermal insulation boards
-</gallery>
-
 The '''BIM Covering''' tool creates a parametric object representing a surface finish applied to a planar face. Typical use cases include floor tiling, wall cladding, ceiling finishes, roofing, skirting boards, and any other repeating surface material.
 
 Depending on the selected Finish Mode, the object produces either individual 3D tile geometry with real joint gaps, a flat parametric representation, or a technical hatch pattern. All modes update a set of Quantity Take-Off properties on every recompute, making the object useful for material schedules and cost estimation regardless of the level of geometric detail chosen.
 
 The Covering object is semantically equivalent to the IFC {{Incode|IfcCovering}} class. Its {{PropertyData|PredefinedType}} property maps directly to the IFC subtypes (FLOORING, CLADDING, ROOFING, MOLDING, SKIRTINGBOARD, CEILING, WRAPPING), making it suitable for BIM workflows that require IFC export.
+
+<gallery widths="330">
+File:Stairs with covering.png|Covering as floor and stair tiles
+File:Exterior thermal insulation boards as covering.png|Covering as thermal insulation boards
+</gallery>
 
 == Usage ==
 
