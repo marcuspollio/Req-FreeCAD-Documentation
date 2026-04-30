@@ -346,8 +346,6 @@ To menu zawiera narzędzia [[Draft_Snap/pl|Przyciągania]] środowiska Rysunek R
 <span id="Utils"></span>
 ===Narzędzia===
 
-* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels/pl|Przełącz dolne panele]]: Pokazuje lub ukrywa okna wyników (widok raportu i konsola Pythona).
-
 * [[Image:BIM_Trash.svg|32px]] [[BIM_Trash/pl|Przenieś do kosza]]: Przenosi wybrane obiekty do grupy kosz, która jest tworzona w razie potrzeby
 
 * [[Image:BIM_WPView.svg|32px]] [[BIM_WPView/pl|Widok płaszczyzny roboczej]]: Ustawia kamerę na wprost bieżącej płaszczyzny roboczej
@@ -449,8 +447,6 @@ To menu zawiera narzędzia [[Draft_Snap/pl|Przyciągania]] środowiska Rysunek R
 
 Pasek statusu zawiera kilka przycisków, które pozwalają na łatwą zmianę różnych stanów:
 
-* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels/pl|Przełącz panele]]: Pokazuje lub ukrywa [[Report_view|widok raportu]] i [[Python_console|konsolę Pythona]].
-
 * [[Image:BIM_Views.svg|32px]] Przełącz widoki: Pokazuje lub ukrywa panel [[BIM_Views/pl|widoków BIM]].
 
 * [[Image:BIM_ToggleBackground.svg|32px]] Przełącz tło widoku 3D między prostym i gradientowym: Przełącza cyklicznie między gradientem pionowym i promieniowym oraz pojedynczym kolorem tła. Można z tego skorzystać do przełączania między ciemnym tłem do modelowania i białym tłem do rysunków 2D.
@@ -483,6 +479,10 @@ Do opracowania.
 * [[Image:Arch_Project.svg|32px]] [[Arch_Project/pl|Arch Projekt]]: Tworzy projekt zawierający wybrane obiekty. Niedostępne w {{VersionPlus/pl|1.0}}. Zamiast tego należy użyć [[BIM_Project/pl|Projekt BIM]].
 
 * [[Image:Arch_SetMaterial.svg|32px]] [[Arch_SetMaterial/pl|Ustaw materiał]]: Tworzy materiał i przypisuje go do wybranych obiektów, jeśli jakiekolwiek są. Niedostępne w {{VersionPlus/pl|1.0}}. Użyj narzędzia [[BIM_Material/pl|Materiał BIM]] zamiast tego.
+
+<div class="mw-translate-fuzzy">
+* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels/pl|Przełącz dolne panele]]: Pokazuje lub ukrywa okna wyników (widok raportu i konsola Pythona).
+</div>
 
 <span id="Preferences"></span>
 ==Ustawienia==
