@@ -239,7 +239,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | Si cette option est cochée, la grille sera visible pendant les commandes dans les nouvelles vues. Utilisez [[Draft_ToggleGrid/fr|Draft Basculer la grille]] pour changer cela pour la vue active. {{Version/fr|1.0}}
 
 |-
-| {{MenuCommand|Afficher la bordure de la grille}}.
+| {{MenuCommand|Afficher la bordure de la grille}}
 | Si cette option est cochée, une bordure supplémentaire est affichée autour de la grille, indiquant la taille du carré principal dans le coin inférieur gauche.
 
 |-
