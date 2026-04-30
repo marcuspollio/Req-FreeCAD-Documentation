@@ -33,7 +33,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 !style="width: 66%;"|Description
 
 |-
-| {{MenuCommand|Niveau de précision interne}}.
+| {{MenuCommand|Niveau de précision interne}}
 | Le nombre de décimales utilisées dans les opérations de coordonnées internes (par exemple 3 = 0.001). Les valeurs comprises entre 6 et 8 sont généralement considérées comme le meilleur compromis.
 
 |-
