@@ -27,11 +27,13 @@ Frühere FreeCAD-Versionshinweise können unter [[Feature_list/de#Release_notes|
 <span id="Further_user_interface_improvements"></span>
 === Weitere Verbesserungen der Benutzeroberfläche ===
 
+<div class="mw-translate-fuzzy">
 * Der eingebaute Texteditor unterstützt jetzt die Auswahl von Zeilen durch Anklicken der Zeilennummer (und wahlweise auch eine Bereichsauswahl mit gedrückter {{KEY|Umschalttaste}}). [https://github.com/FreeCAD/FreeCAD/pull/27677 Pull-Request #27677]
 * In dem eingebauten Texteditor wird jetzt das Suchfeld mit dem aktuell ausgewählten Text vorausgefüllt. [https://github.com/FreeCAD/FreeCAD/pull/27674 Pull-Request #27674]
 * Ein Doppelklick auf eine Fläche des [[Navigation_Cube/de|Navigationswürfels]] stellt jetzt die Ansicht darauf ein und zentriert sie auch noch. [https://github.com/FreeCAD/FreeCAD/pull/28608 Pull-Request #28608]
 * Die Menüoption ''Recompute Object'' im Kontextmenü der [[Tree_View/de|Baumansicht]] (Befehl ''Std_Recompute'') besitzt jetzt ein Tastaturkürzel {{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|R}}. [https://github.com/FreeCAD/FreeCAD/pull/27880 Pull-Request #27880]
 * Es gibt nun eine Schaltfläche und eine Tastenkombination zum Ein- und Ausblenden der unteren Bereiche ([[Report_View/de|Ausgabefenster]] und [[Python_Console/de|Python-Konsole]]). [https://github.com/FreeCAD/FreeCAD/pull/28598 Pull-Request #28598]
+</div>
 
 <span id="Core_system_and_API"></span>
 == Kernsystem und API ==
@@ -50,9 +52,17 @@ Frühere FreeCAD-Versionshinweise können unter [[Feature_list/de#Release_notes|
 [https://github.com/FreeCAD/FreeCAD/pull/27347 Pull-Request #27347]
 |}
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:Core_datum_show_placement_relnotes_1.2.png|384px]]
+| [[Image:Part CoordinateSystem.svg|24px]] [[Std_Base#Part_Datums|Core Datums]] now use the ''Show Placement'' property, making [[Part_EditAttachment|attachment]] offsets (without rotations) in local coordinates more intuitive. [https://github.com/FreeCAD/FreeCAD/pull/29176 Pull request #29176]
+|}
+</div>
+
 <span id="Further_Core_improvements"></span>
 ==== Weitere Core-Verbesserungen ====
 
+<div class="mw-translate-fuzzy">
 * Die Suchleiste in den [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences/de|Einstellungen]] kann nun Tooltipps, Klapplisten-Werte, Kontrollkästchen und Gruppentitel durchsuchen. [https://github.com/FreeCAD/FreeCAD/pull/24283 Pull-Request #24283]
 * Das Werkzeug [[Image:Std_Measure.svg|24px]] [[Std_Measure/de|Messen]] bietet nun die Möglichkeit, das Messergebnis von kreisförmigen Elementen als Durchmesser anzuzeigen  anstatt als Radien. [https://github.com/FreeCAD/FreeCAD/pull/24853 Pull-Request #24853]
 * Das Werkzeug [[Image:Std_Measure.svg|24px]] [[Std_Measure/de|Messen]] unterstützt jetzt das Messen von Radius und Durchmesser zylindrischer Flächen.[https://github.com/FreeCAD/FreeCAD/pull/27044 Pull-Request #27044]
@@ -64,6 +74,7 @@ Frühere FreeCAD-Versionshinweise können unter [[Feature_list/de#Release_notes|
 * [[Image:Part CoordinateSystem.svg|24px]] [[Std_Base/de#Part_Datums|Bezugselemente]] verwenden jetzt die Eigenschaft ''Show Placement'', wodurch die Versatzangaben (ohne Drehungen) von [[Part_EditAttachment/de|Befestigungen]] in lokalen Koordinaten intuitiver werden. [https://github.com/FreeCAD/FreeCAD/pull/29176 Pull-Request #29176]
 * Das Werkzeug [[Image:Std_Measure.svg|24px]] [[Std_Measure/de|Messen]] kann jetzt den Radius und den Durchmesser von Kugeln und Tori angeben. [https://github.com/FreeCAD/FreeCAD/pull/29369 Pull-Request #29369]
 * Das Werkzeug [[Image:Std_Measure.svg|24px]] [[Std_Measure/de|Messen]] unterstützt jetzt im Modus ''Distance'' gekrümmte Flächen. [https://github.com/FreeCAD/FreeCAD/pull/29367 Pull-Request #29367]
+</div>
 
 === API ===
 
@@ -124,6 +135,7 @@ ToDo (last check: 20260412):
 <span id="Further_CAM_improvements"></span>
 === Weitere CAM-Verbesserungen ===
 
+<div class="mw-translate-fuzzy">
 * Im Dialogfeld für den G-Code-Export werden nun Zeilennummern angezeigt. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull-Request #23862]
 * Die MillFace-Funktion wurde als MillFacing mit erheblichen Verbesserungen neu implementiert. [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull-Request #24367]
 * [[CAM_SimpleCopy/de|EinfacheKopie]] ermöglicht nun die Mehrfachauswahl von Bearbeitungen. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull-Request #24297]
@@ -155,6 +167,7 @@ ToDo (last check: 20260412):
 * Der [[CAM_SimulatorGL/de|neue CAM-Simulator]] verwendet nun denselben Ansichtsmodus (Orthogonal/Perspektivisch) und denselben Navigationsstil wie die [[3D_View/de|3D-Ansicht]]. [https://github.com/FreeCAD/FreeCAD/pull/23073 Pull-Request #23073]
 * Die [[CAM_Pocket_Shape/de|Taschen]]-Bearbeitung kann nun neben Flächen auch horizontale Kanten verarbeiten. [https://github.com/FreeCAD/FreeCAD/pull/27750 Pull-Request #27750]
 * Die Eigenschaft ''Op Final Depth'' der [[CAM_Engrave/de|Gravieren]]-Bearbeitung hat nun je nach Material und Gravurform einen besseren Standardwert. [https://github.com/FreeCAD/FreeCAD/pull/26543 Pull-Request #26543]
+</div>
 
 <span id="Draft_Workbench"></span>
 == Arbeitsbereich Draft ==
@@ -181,6 +194,7 @@ ToDo (last check: 20260412):
 <span id="Further_FEM_improvements"></span>
 === Weitere FEM-Verbesserungen ===
 
+<div class="mw-translate-fuzzy">
 * Die Last der [[Image:FEM_ConstraintElectricChargeDensity.svg|24px]] [[FEM_ElectricChargeDensity/de|Elektrische Ladungsdichte]] verfügt nun im Modus ''Total Source'' über ein Kontrollkästchen ''Concentrated'', um mit CalculiX Punktlasten anstelle von verteilten Lasten (Flächen-/Streckenlasten) zu verwenden (wodurch sie auch auf Kanten und Eckpunkte anwendbar ist). [https://github.com/FreeCAD/FreeCAD/pull/25237 Pull-Request #25237]
 * Die [[Image:FEM_ResultShow.svg|24px]] [[FEM_ResultShow/de|FEM-Ergebnisobjekte]] unterstützen nun zusätzlich zu umgekehrten Vollzyklen auch die Animation von Halbzyklen. [https://github.com/FreeCAD/FreeCAD/pull/24129 Pull-Request #24129]
 * Die [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint/de|Querschnitt-Druckfunktion]] unterstützt nun 2D-Modelle und den elektrischen Fluss in elektrostatischen Analysen. [https://github.com/FreeCAD/FreeCAD/pull/25081 Pull-Request #25081]
@@ -201,6 +215,7 @@ ToDo (last check: 20260412):
 * Die Eigenschaft ''Beam Reduced Integration'' des [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools/de|CalculiX-Lösers]] wurde durch die verallgemeinerte Eigenschaft ''Reduced Integration'' ersetzt, die Standard-Volumen-, Flächen- (Schale, 2D) und Balkenelemente durch ihre reduzierten Integrationspendants ersetzt. [https://github.com/FreeCAD/FreeCAD/pull/29223 Pull-Request #29223]
 * Der überarbeitete [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools/de|CalculiX-Löser]] wird nun standardmäßig verwendet. [https://github.com/FreeCAD/FreeCAD/pull/29220 Pull-Request #29220]
 * Die Funktion [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint/de|RandbedingungQuerschnittsAusgabe]] kann nun mit dem [[Image:FEM_SolverZ88.svg|24px]] [[FEM_SolverZ88/de|Z88-Löser]] verwendet werden. [https://github.com/FreeCAD/FreeCAD/pull/29188 Pull-Request #29188]
+</div>
 
 <span id="Inspection_Workbench"></span>
 == Arbeitsbereich Inspection ==
@@ -245,6 +260,14 @@ ToDo (last check: 20260412):
 | Die Unterstützung für Hilfsdarstellungen von Gewinden (Gewindetexturen) wurde dem Werkzeug [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole/de|Bohrung]] hinzugefügt. Sie können über die Eigenschaft ''Cosmetic Thread'' (Gewindetextur) aktiviert werden (dazu muss ''Threaded'' aktiviert und ''Model Thread'' deaktiviert sein).
 [https://github.com/FreeCAD/FreeCAD/pull/22573 Pull-Request #22573]
 |}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:Part_Design_sketch_attachment_relnotes_1.2.png|384px]]
+| Creating [[Image:PartDesign_NewSketch.svg|24px]] [[PartDesign_NewSketch|New sketch]] now activates the [[Image:Part_EditAttachment.svg|24px]] [[Part_EditAttachment|Attachment]] dialog unless a single planar face or datum plane is selected or a new related preference is enabled.
+[https://github.com/FreeCAD/FreeCAD/pull/29168 Pull request #29168]
+|}
+</div>
 
 <span id="Further_Part_Design_improvements"></span>
 === Weitere Part Design-Verbesserungen ===
@@ -297,6 +320,7 @@ ToDo (last check: 20260412):
 <span id="Further_Sketcher_improvements"></span>
 === Weitere Sketcher-Verbesserungen ===
 
+<div class="mw-translate-fuzzy">
 * Es ist nun möglich, Bézier- und Versatz-Kurven als [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection/de|externe Geometrie]] zu importieren. [https://github.com/FreeCAD/FreeCAD/pull/25144 Pull-Request #25144]
 * Werden Maße kreisförmiger Elemente bearbeitet, kann jetzt zwischen Radius und Durchmesser gewechselt werden. [https://github.com/FreeCAD/FreeCAD/pull/26794 Pull-Request #26794]
 * Die Liste der Randbedingungen zeigt jetzt die Art der Randbedingung im Namen an. [https://github.com/FreeCAD/FreeCAD/pull/26797 Pull-Request #26797]
@@ -308,6 +332,7 @@ ToDo (last check: 20260412):
 * Ausgewählte Randbedingungen für Abstände (Punkt-Linie, Kreis-Kreis und Kreis-Linie) verwende jetzt eine Ausrichtung, um [[Sketcher_Workbench/de#Flipping|Flipping]] zu verhindern. [https://github.com/FreeCAD/FreeCAD/pull/26518 Pull-Request #26518]
 * Die Option ''Symmetrie-Randbedingungen erstellen'' des Werkzeugs  [[Image:Sketcher_Symmetry.svg|24px]] [[Sketcher_Symmetry/de|Spiegeln]] wurde verbessert, um Überbestimmtheit zu vermeiden. Es ist jetzt auch standardmäßig aktiviert. [https://github.com/FreeCAD/FreeCAD/pull/28118 Pull-Request #28118] und [https://github.com/FreeCAD/FreeCAD/pull/28319 Pull-Request #28319]
 * Es gibt jetzt eine Schaltfläche ''Abbrechen'', die es ermöglichen, Änderungen an einer Skizze zu verwerfen. [https://github.com/FreeCAD/FreeCAD/pull/29337 Pull-Request #29337]
+</div>
 
 <span id="Spreadsheet_Workbench"></span>
 == Arbeitsbereich Spreadsheet ==
