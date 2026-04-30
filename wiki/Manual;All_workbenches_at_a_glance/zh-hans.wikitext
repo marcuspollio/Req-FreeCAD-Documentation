@@ -13,9 +13,7 @@
 
 正如之前所述，FreeCAD 提供不同工作台分别应对不同应用。虽然一开始选项可能让人感觉过多，每个工作台是为了迎合特定的任务而设计的，使得整体的工作流程更加有效率并符合不同的项目需求。例如，Part Design 工作台适合创建和修改实体的 3D 模型，Draft 工作台适合 2D 起草和画图。这种模块化的方式允许用户根据特定的需求和偏好定制用户界面和工具组合。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-On this page, you will find information regarding the basic set of workbenches and their functionalities. For additional information, feel free to refer to each [[Workbenches|workbench]] page in the FreeCAD documentation for a more complete list.
-</div>
+本页将会陈述针对一些基本工作台和其功能的信息。想要更多信息，可以查阅 FreeCAD 文档中各个 [[Workbenches|workbench]] 页面来获得更加完整的列表。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 An interesting feature of FreeCAD is the ability to obtain additional information by hovering the mouse over a command. This tooltip functionality helps users understand what each command does, providing guidance and making it easier to learn and navigate the software.
