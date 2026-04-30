@@ -9,10 +9,8 @@
 |IconC=Workbench_BIM.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{VeryImportantMessage|THIS COMMAND IS OBSOLETE<br>
-It is not available in {{VersionPlus|1.2}}. Use [[Std_ToggleBottomPanels|Std ToggleBottomPanels]] instead.}}
-</div>
+{{VeryImportantMessage|TO NARZĘDZIE JEST PRZESTARZAŁE<br>
+Nie jest ono dostępne w {{VersionPlus/pl|1.2}}. Zamiast tego należy użyć narzędzia [[Std_ToggleBottomPanels/pl|Przełącz dolne panele]].}}
 
 {{GuiCommand/pl
 |Name=BIM TogglePanels
