@@ -3,11 +3,12 @@
 
 == Introduction ==
 
-Quetzal is a FreeCAD workbench for designing piping systems. It is a fork of the Dodo and Flamingo workbenches which were initially designed for structural framing and piping design.
+Quetzal is a FreeCAD workbench for designing piping systems. It is a fork of the [[Flamingo_Workbench|Dodo and Flamingo workbenches]] which were initially designed for structural framing and piping design.
 
 The user interface consists of three toolbars and menus:
 
 === Pipe Tools ===
+
 [[File:Pipe Tools toolbar r1.png|alt=Pipe tools toolbar|thumb|Pipe tools toolbar]]
 
 * Insert Pipe - Loads the Insert Pipes form to insert a section of pipe of a selected schedule, nominal diameter, and length.
@@ -45,6 +46,10 @@ The user interface consists of three toolbars and menus:
 [[File:Utilities toolbar for Quetzal.png|alt=Utilities toolbar|Utilities toolbar]]
 
 == Links ==
+
 * GitHub repository: https://github.com/EdgarJRobles/quetzal
 * Forum: [https://forum.freecad.org/viewtopic.php?t=22711 Flamingo, Dodo and Quetzal workbenches discussion thread]
 </translate>
+
+[[Category:User_Documentation{{#translation:}}]]
+[[Category:External_Workbenches{{#translation:}}]]
