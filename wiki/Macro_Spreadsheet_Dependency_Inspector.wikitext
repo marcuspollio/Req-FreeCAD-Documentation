@@ -2,7 +2,7 @@
 <translate>
 {{Macro
 |Name=Spreadsheet Dependency Inspector
-|Description=The macro displays, for a selection of spreadsheet cells, all dependencies between spreadsheet cells and even between a cell and object properties. .<br>
+|Description=The macro displays, for a selection of spreadsheet cells, all dependencies between spreadsheet cells and even between a cell and object properties.<br>
 |Author=2cv001
 |Icon=SpreadsheetDependencyInspector.png
 |Download=[https://wiki.freecad.org/images/8/86/SpreadsheetDependencyInspector.png ToolBar icon]
@@ -13,6 +13,7 @@
 
 
 == Description == <!--T:2-->
+
 The macro SpreadsheetDependencyInspector displays, for a selection of spreadsheet cells, all dependencies between spreadsheet cells and even between a cell and object properties. Everything is shown as an expandable tree that displays the cell name, its alias, its formula, and its value. Three display modes:
 
 * Cells that use other cells
@@ -28,16 +29,17 @@ The macro is multilingual, currently supporting English and French. The language
 <translate>
 == Usage ==
 
-In a SpreadSheet, delect one or several cells, then run the macro. Choose the information you want to display.
+In a SpreadSheet, select one or several cells, then run the macro. Choose the information you want to display.
 
 The refresh button image recalculates the analysis, for example after you modify a cell or change the selection. The expand/collapse button lets you expand or collapse the whole tree. You can also do it branch by branch by clicking on the ▶ or ▼ symbols.
 
 ==Discussion (forum)==
-In english : https://forum.freecad.org/viewtopic.php?t=105015
 
+In english : https://forum.freecad.org/viewtopic.php?t=105015
 In french : https://forum.freecad.org/viewtopic.php?t=104883
 
 == Credits==
+
 Thanks to L'ami René for tests, ideas, and the icone !
 
 == Download ==
