@@ -60,8 +60,10 @@ Il comando '''Part Filtro di selezione''' può essere utilizzato per limitare la
 <span id="Notes"></span>
 == Note ==
 
+<div class="mw-translate-fuzzy">
 * La selezione dalla [[Tree_view/it|Vista ad albero]] è impossibile con le opzioni di selezione vertice, bordo e faccia.
 * Le opzioni di selezione del vertice, del bordo e della faccia non funzionano insieme a [[Std_BoxSelection/it|Box di selezione]] o [[Std_BoxElementSelection/it|Box di selezione di elementi]].
+</div>
 
 
 {{Docnav/it
