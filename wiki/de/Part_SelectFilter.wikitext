@@ -60,10 +60,8 @@ Der Befehl '''Part Auswahlfilter''' wird benutzt, um die Auswahl in der [[3D_Vie
 <span id="Notes"></span>
 ==Hinweise==
 
-<div class="mw-translate-fuzzy">
-* Die Auswahl aus der [[Tree_view/de|Baumansicht]] ist mit den Optionen zur Auswahl von Knoten, Kanten und Flächen unmöglich.
-* Die Optionen der Auswahl von Knoten, Kanten und Flächen funktioniert nicht mit der [[Std_BoxSelection/de|Std Rechteckauswahl]] oder der [[Std_BoxElementSelection/de|Std RechteckElementAuswahl]].
-</div>
+* Eine Auswahl aus der [[Tree_View/de|Baumansicht]] ist mit den Auswahloptionen für Knoten, Kanten und Flächen nicht möglich.
+* Die Auswahloptionen für Knoten, Kanten und Flächen funktionieren mit [[Std_BoxElementSelection/de|Std RechteckElementAuswahl]] ({{Version/De|1.2}}), jedoch nicht mit [[Std_BoxSelection/de|Std Rechteckauswahl]].
 
 
 {{Docnav/de
