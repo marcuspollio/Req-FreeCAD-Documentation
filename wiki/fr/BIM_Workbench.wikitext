@@ -343,8 +343,6 @@ Ce menu contient les outils [[Draft_Snap/fr|Draft Aimantation]] ainsi que les ou
 <span id="Utils"></span>
 === Utilitaires ===
 
-* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels/fr|Bascule des panneaux inférieurs]] : affiche ou masque les fenêtres de sortie (la vue rapport et la console Python).
-
 * [[Image:BIM_Trash.svg|32px]] [[BIM_Trash/fr|Corbeille]] : déplace les objets sélectionnés vers la corbeille, créée si nécessaire.
 
 * [[Image:BIM_WPView.svg|32px]] [[BIM_WPView/fr|Vue du plan de travail]] : règle la caméra pour qu'elle soit face au plan de travail en cours.
@@ -446,8 +444,6 @@ Ce menu contient les outils [[Draft_Snap/fr|Draft Aimantation]] ainsi que les ou
 
 La barre d'état contient quelques boutons qui permettent de changer facilement d'état :
 
-* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels/fr|Bascule des panneaux de bas de page]] : affiche ou masque la [[Report_view/fr|vue rapport]] et la [[Python_console/fr|console Python]].
-
 * [[Image:BIM_Views.svg|32px]] Bascule des panneaux des vues de BIM : affiche ou masque le panneau de [[BIM_Views/fr|Gérer les vues]].
 
 * [[Image:BIM_ToggleBackground.svg|32px]] Basculer entre un arrière-plan simple et un dégradé dans la vue 3D :  cycles entre les modes dégradé vertical, dégradé radial et arrière-plan de couleur simple. Cela peut être utilisé pour alterner entre un arrière-plan sombre pour la modélisation et un arrière-plan blanc pour le dessin en 2D.
@@ -480,6 +476,10 @@ A définir
 * [[Image:Arch_Project.svg|32px]] [[Arch_Project/fr|Arch Projet]] : crée un projet incluant les objets sélectionnés. Non disponible dans {{VersionPlus/fr|1.0}}. Utilisez plutôt [[BIM_Project/fr|BIM Projet IFC]].
 
 * [[Image:Arch_SetMaterial.svg|32px]] [[Arch_SetMaterial/fr|Arch Matériau]] : crée un matériau et l'attribue aux objets sélectionnés, s'il y en a. Non disponible dans {{VersionPlus/fr|1.0}}. Utilisez plutôt [[BIM_Material/fr|BIM Matériau]].
+
+<div class="mw-translate-fuzzy">
+* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels/fr|Bascule des panneaux inférieurs]] : affiche ou masque les fenêtres de sortie (la vue rapport et la console Python).
+</div>
 
 <span id="Preferences"></span>
 ==Préférences==
