@@ -27,11 +27,13 @@ Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [[Featu
 <span id="Further_user_interface_improvements"></span>
 === Autres améliorations de l'interface utilisateur ===
 
+<div class="mw-translate-fuzzy">
 * L'éditeur de texte intégré prend désormais en charge la sélection de lignes en cliquant sur le numéro de ligne (et, en option, en maintenant la touche {{KEY|Maj}} enfoncée pour sélectionner une plage). [https://github.com/FreeCAD/FreeCAD/pull/27677 Pull request #27677]
 * Dans l'éditeur de texte intégré, le champ de recherche est désormais prérempli avec le texte sélectionné. [https://github.com/FreeCAD/FreeCAD/pull/27674 Pull request #27674]
 * Un double-clic sur une face du [[Navigation_Cube/fr|cube de navigation]] permet désormais de pivoter vers celle-ci, mais aussi de centrer la vue. [https://github.com/FreeCAD/FreeCAD/pull/28608 Pull request #28608]
 * L'option du menu contextuel  ''Recalculer un objet'' de l'[[Tree_View/fr|arborescence]] (commande ''Std_Recompute'') dispose désormais d'un raccourci clavier {{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|R}}. [https://github.com/FreeCAD/FreeCAD/pull/27880 Pull request #27880]
 * Il existe désormais un bouton et un raccourci permettant d'activer ou de désactiver les panneaux inférieurs (la [[Report_View/fr|vue rapport]] et la [[Python_Console/fr|console Python]]). [https://github.com/FreeCAD/FreeCAD/pull/28598 Pull request #28598]
+</div>
 
 <span id="Core_system_and_API"></span>
 == Noyau et API ==
@@ -51,9 +53,17 @@ Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [[Featu
 [https://github.com/FreeCAD/FreeCAD/pull/27347 Pull request #27347]
 |}
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:Core_datum_show_placement_relnotes_1.2.png|384px]]
+| [[Image:Part CoordinateSystem.svg|24px]] [[Std_Base#Part_Datums|Core Datums]] now use the ''Show Placement'' property, making [[Part_EditAttachment|attachment]] offsets (without rotations) in local coordinates more intuitive. [https://github.com/FreeCAD/FreeCAD/pull/29176 Pull request #29176]
+|}
+</div>
+
 <span id="Further_Core_improvements"></span>
 === Autres améliorations du noyau ===
 
+<div class="mw-translate-fuzzy">
 * La barre de recherche dans les [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences/fr|préférences]] permet désormais d'effectuer des recherches dans les infobulles, les valeurs des menus déroulants, les cases à cocher et les titres de groupe. [https://github.com/FreeCAD/FreeCAD/pull/24283 Pull request #24283]
 * L'outil [[Image:Std_Measure.svg|24px]] [[Std_Measure/fr|Mesurer]] prend désormais en charge la mesure du rayon et du diamètre des faces cylindriques. [https://github.com/FreeCAD/FreeCAD/pull/27044 Pull request #27044]
 * Sous macOS, les fichiers .FCStd prennent désormais en charge l'extension native QuickLook pour afficher une vignette du fichier dans le Finder et un aperçu complet. [https://github.com/FreeCAD/FreeCAD/pull/25239 Pull request #25239]
@@ -64,6 +74,7 @@ Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [[Featu
 * Les [[Image:Part_CoordinateSystem.svg|24px]] [[Std_Base/fr#Part_Datums|référentiels de base]] utilisent désormais la propriété ''Show Placement'', ce qui rend les décalages (sans rotation) des [[Part_EditAttachment/fr|ancrages]] plus intuitifs dans les coordonnées locales. [https://github.com/FreeCAD/FreeCAD/pull/29176 Pull request #29176]
 * L'outil [[Image:Std_Measure.svg|24px]] [[Std_Measure/fr|Mesurer]] peut désormais indiquer le rayon et le diamètre des sphères et des tores. [https://github.com/FreeCAD/FreeCAD/pull/29369 Pull request #29369]
 * L'outil [[Image:Std_Measure.svg|24px]] [[Std_Measure/fr|Mesurer]] prend désormais en charge les faces courbes en mode ''Distance''. [https://github.com/FreeCAD/FreeCAD/pull/29367 Pull request #29367]
+</div>
 
 === API ===
 
@@ -124,6 +135,7 @@ ToDo (last check: 20260412):
 <span id="Further_CAM_improvements"></span>
 === Autres améliorations de CAM ===
 
+<div class="mw-translate-fuzzy">
 * La boîte de dialogue d'exportation du G-code affiche désormais les numéros de ligne. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull request #23862]
 * L'opération « MillFace » a été réimplémentée avec des améliorations significatives sous le nom de « MillFacing ». [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull request #24367]
 * [[CAM_SimpleCopy/fr|Copie simple]] permet désormais la sélection multiple d'opérations. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull request #24297]
@@ -154,6 +166,7 @@ ToDo (last check: 20260412):
 * Le [[CAM_SimulatorGL/fr|nouveau simulateur de CAM]] utilise désormais le même mode d'affichage orthographique/perspective et le même style de navigation que la [[3D_View/fr|vue 3D]]. [https://github.com/FreeCAD/FreeCAD/pull/23073 Pull request #23073]
 * L'opération [[CAM_Pocket_Shape/fr|Poche]] peut désormais gérer les arêtes horizontales en plus des faces. [https://github.com/FreeCAD/FreeCAD/pull/27750 Pull request #27750]
 * La propriété ''Op Final Depth'' de l'opération [[CAM_Engrave/fr|Gravure]] dispose désormais d'une meilleure valeur par défaut en fonction du brut et de la forme de la gravure. [https://github.com/FreeCAD/FreeCAD/pull/26543 Pull request #26543]
+</div>
 
 <span id="Draft_Workbench"></span>
 == Atelier Draft ==
@@ -180,6 +193,7 @@ ToDo (last check: 20260412):
 <span id="Further_FEM_improvements"></span>
 === Autres améliorations de FEM ===
 
+<div class="mw-translate-fuzzy">
 * La [[Image:FEM_ConstraintElectricChargeDensity.svg|24px]] [[FEM_ElectricChargeDensity/fr|densité de charge électrique]] dispose désormais d'une case à cocher « Concentrée » dans le mode « Source totale » pour utiliser une charge concentrée au lieu d'une charge distribuée (ce qui la rend également applicable aux arêtes et aux sommets) avec CalculiX. [https://github.com/FreeCAD/FreeCAD/pull/25237 Pull request #25237]
 * Les [[Image:FEM_ResultShow.svg|24px]] [[FEM_ResultShow/fr|résultats de FEM]] prennent désormais en charge l'animation de demi-cycles en plus des cycles complets inversés. [https://github.com/FreeCAD/FreeCAD/pull/24129 Pull request #24129]
 * La fonction [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint/fr|Enregistrer les résultats par section]] prend désormais en charge les modèles 2D et le flux électrique dans les analyses électrostatiques. [https://github.com/FreeCAD/FreeCAD/pull/25081 Pull request #25081]
@@ -200,6 +214,7 @@ ToDo (last check: 20260412):
 * La propriété ''Beam Reduced Integration'' du [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools/fr|solveur CalculiX]] a été remplacée par la propriété généralisée ''Reduced Integration'' qui remplace les éléments standard de type solide, face (coque, 2D) et poutre par leurs équivalents à intégration réduite. [https://github.com/FreeCAD/FreeCAD/pull/29223 Pull request #29223]
 * Le [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools/fr|solveur CalculiX]] refactorisé est désormais utilisé par défaut. [https://github.com/FreeCAD/FreeCAD/pull/29220 Pull request #29220]
 * La fonction [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint/fr|Enregistrer les résultats par section]] peut désormais être utilisée avec le [[Image:FEM_SolverZ88.svg|24px]] [[FEM_SolverZ88/fr|solveur Z88]]. [https://github.com/FreeCAD/FreeCAD/pull/29188 Pull request #29188]
+</div>
 
 <span id="Inspection_Workbench"></span>
 == Atelier Inspection ==
@@ -244,6 +259,14 @@ ToDo (last check: 20260412):
 | La prise en charge des filetages cosmétiques (textures de filetage) a été ajoutée à l'outil [[Image:PartDesign_Hole.svg|24px]] [[PartDesign_Hole/fr|Perçage]]. Ils peuvent être activés à l'aide de la propriété ''Cosmetic Thread'' (l'option ''Threaded'' doit être activée et ''Model Thread'' doit être désactivée).
 [https://github.com/FreeCAD/FreeCAD/pull/22573 Pull request #22573]
 |}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| cellpadding=5
+| [[File:Part_Design_sketch_attachment_relnotes_1.2.png|384px]]
+| Creating [[Image:PartDesign_NewSketch.svg|24px]] [[PartDesign_NewSketch|New sketch]] now activates the [[Image:Part_EditAttachment.svg|24px]] [[Part_EditAttachment|Attachment]] dialog unless a single planar face or datum plane is selected or a new related preference is enabled.
+[https://github.com/FreeCAD/FreeCAD/pull/29168 Pull request #29168]
+|}
+</div>
 
 <span id="Further_Part_Design_improvements"></span>
 === Autres améliorations de PartDesign ===
@@ -296,6 +319,7 @@ ToDo (last check: 20260412):
 <span id="Further_Sketcher_improvements"></span>
 === Autres améliorations de Sketcher ===
 
+<div class="mw-translate-fuzzy">
 * Il est désormais possible d'importer des courbes de Bézier et de décalage en tant que [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection/fr|géométries externes]]. [https://github.com/FreeCAD/FreeCAD/pull/25144 Pull request #25144]
 * Lors de la création ou de la modification de dimensions circulaires, il est désormais possible de basculer entre rayon et diamètre. [https://github.com/FreeCAD/FreeCAD/pull/26794 Pull request #26794]
 * La liste des contraintes affiche désormais le type de contrainte dans le nom. [https://github.com/FreeCAD/FreeCAD/pull/26797 Pull request #26797]
@@ -307,6 +331,7 @@ ToDo (last check: 20260412):
 * Les contraintes de distance sélectionnées (point-ligne, cercle-cercle et cercle-ligne) utilisent désormais l'orientation pour empêcher le [[Sketcher_Workbench/fr#Flipping|flipping]]. [https://github.com/FreeCAD/FreeCAD/pull/26518 Pull request #26518]
 * L'option ''Créer des contraintes de symétrie'' de l'outil [[Image:Sketcher_Symmetry.svg|24px]] [[Sketcher_Symmetry/fr|Symétriser]] a été améliorée pour éviter les surcontraintes. Elle est désormais activée par défaut. [https://github.com/FreeCAD/FreeCAD/pull/28118 Pull request #28118] et [https://github.com/FreeCAD/FreeCAD/pull/28319 Pull request #28319]
 * Un bouton ''Annuler'' a été ajouté, permettant d'annuler les modifications apportées à une esquisse. [https://github.com/FreeCAD/FreeCAD/pull/29337 Pull request #29337]
+</div>
 
 <span id="Spreadsheet_Workbench"></span>
 == Atelier Spreadsheet ==
