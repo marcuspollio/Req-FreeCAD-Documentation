@@ -251,7 +251,7 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 | Si cette option est cochée, les deux axes principaux de la grille seront colorés en rouge, vert ou bleu s'ils correspondent à l'axe X, Y ou Z du système de coordonnées global.
 
 |-
-| {{MenuCommand|Lignes principales toutes les}}
+| {{MenuCommand|Espacement des lignes principales}}
 | Le nombre de carrés entre les lignes principales de la grille. Les lignes de grille principales sont plus épaisses que les lignes de grille secondaires.
 
 |-
