@@ -24,9 +24,7 @@
 
 Der Befehl '''Std AusrichtenZurAuswahl''' richtet die Kamera der aktiven [[3D_View/de|3D-Ansicht]] in Richtung der Flächennormale einer Fläche, der Flächennormale einer Ebene, die durch eine ebene gekrümmte Kante festgelegt wird aus. {{Version/de|1.2}}: Wenn mehrere Elemente ausgewählt werden, die mehrere Normalen definieren, wird der Durchschnitt der Normalen verwendet.
 
-<div class="mw-translate-fuzzy">
-{{Version/de|1.1}} Die endgültige Ausrichtung der Kamera ist die Richtung der Normale bzw. Kante oder ist der Richtung der Normale bzw. Kante entgegengesetzt, je nach dem welche Richtung eher der vorherigen Kameraausrichtung entspricht.
-</div>
+Die endgültige Ausrichtung der Kamera entspricht der Richtung der Normalen oder deren Entgegengesetzten, je nachdem, welche der beiden der vorherigen Kameraausrichtung am nächsten liegt.
 
 <span id="Usage"></span>
 ==Anwendung==
