@@ -29,14 +29,12 @@ Die endgültige Ausrichtung der Kamera entspricht der Richtung der Normalen oder
 <span id="Usage"></span>
 ==Anwendung==
 
-<div class="mw-translate-fuzzy">
-# Eine Fläche (muss in Version 1.0 eben sein), eine ebene gekrümmte Kante oder eine gerade Kante in der 3D-Ansicht auswählen.
+# Eine ({{VersionMinus/de|1.1}}) oder mehrere ({{VersionPlus/de|1.2}}) Flächen oder Kanten in der 3D-Ansicht auswählen.
 # Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
 #* Die Schaltfläche {{Button|[[Image:Std_AlignToSelection.svg|16px]] [[Std_AlignToSelection/de|Auf Auswahl ausrichten]]}} drücken.
 #* Den Menüeintrag {{MenuCommand|Ansicht → Standardansichten → [[Image:Std_AlignToSelection.svg|16px]] Auf Auswahl ausrichten}} auswählen.
 #* Die Menüoption {{MenuCommand|[[Image:Std_AlignToSelection.svg|16px]] Auf Auswahl ausrichten}} im Kontextmenü der [[3D_View/de|3D-Ansicht]] auswählen.
 #* Die Menüoption {{MenuCommand|[[Image:Std_AlignToSelection.svg|16px]] Auf die Auswahl ausrichten}} im Miniwürfel-Menü des [[Navigation_Cube/de|Navigationswürfels]].
-</div>
 
 
 {{Docnav/de
