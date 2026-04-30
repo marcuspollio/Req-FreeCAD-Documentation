@@ -25,7 +25,7 @@
 === Part ===
 </div>
 
-[[Image:Workbench_Part.svg|24px]] [[Part_Workbench|Part Workbench]] 工作台提供编辑实体部件的基础工具，包含球体和立方体等原始物件，以及基本几何与布尔操作。作为与 [https://en.wikipedia.org/wiki/Open_Cascade_Technology OpenCasCade] 的主要联系，Part 工作台是 FreeCAD 几何系统的基石。（几乎所有其他工作台都生成基于 Part 的几何图形）
+[[Image:Workbench_Part.svg|24px]] [[Part_Workbench|Part Workbench]] 工作台提供编辑实体部件的基础工具，包含球体和立方体等原始物件，以及基本几何与布尔操作。作为与 [https://en.wikipedia.org/wiki/Open_Cascade_Technology OpenCasCade] 的主要联系，Part 工作台是 FreeCAD 几何系统的基石（几乎所有其他工作台都生成基于 Part 的几何图形）。这种基于参数的建模系统允许使用基于历史的工作流程对 3D 模型进行精细的控制和修改。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable" style="width:100%"
