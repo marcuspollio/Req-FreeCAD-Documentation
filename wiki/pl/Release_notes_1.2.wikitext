@@ -135,7 +135,6 @@ Do [[CAM_Preferences/pl|Preferencji środowiska pracy CAM]] dodano Bibliotekę m
 <span id="Further_CAM_improvements"></span>
 ===Pozostałe ulepszenia środowiska CAM===
 
-<div class="mw-translate-fuzzy">
 * Okno dialogowe eksportu G-code pokazuje teraz numery linii. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull request #23862]
 * Operacja MillFace została ponownie zaimplementowana z istotnymi ulepszeniami jako MillFacing. [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull request #24367]
 * [[CAM_SimpleCopy/pl|Szybka kopia]] pozwala teraz na wybór wielu operacji. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull request #24297]
@@ -166,7 +165,13 @@ Do [[CAM_Preferences/pl|Preferencji środowiska pracy CAM]] dodano Bibliotekę m
 * [[CAM_SimulatorGL/pl|Nowy symulator CAM]] używa teraz tego samego trybu widoku orto/perspektywa i stylu nawigacji co [[3D_View/pl|widok 3D]]. [https://github.com/FreeCAD/FreeCAD/pull/23073 Pull request #23073]
 * Operacja [[CAM_Pocket_Shape/pl|Kieszeń]] może teraz obsługiwać poziome krawędzie oprócz ścian. [https://github.com/FreeCAD/FreeCAD/pull/27750 Pull request #27750]
 * Właściwość ''Op Final Depth'' operacji [[CAM_Engrave/pl|Grawer]] ma teraz lepszą domyślną wartość zależną od półfabrykatu i kształtu grawerowania. [https://github.com/FreeCAD/FreeCAD/pull/26543 Pull request #26543]
-</div>
+* Właściwość ''Start Point'' można teraz ustawić z panelu zadań operacji [[CAM_Profile/pl|Profil]] i [[CAM_Pocket_Shape/pl|Kieszeń]]. [https://github.com/FreeCAD/FreeCAD/pull/29502 Pull request #29502]
+* Funkcja Circular Hole Base używana do wskazywania geometrii bazowej dla niektórych operacji pokazuje teraz pozycję i przelotowość (dla ścian cylindrycznych) oprócz nazwy ściany i promienia. [https://github.com/FreeCAD/FreeCAD/pull/27869 Pull request #27869]
+* Operacja [[CAM_Helix/pl|Helisa]] ma teraz właściwość ''Helix Max Ramp Angle'', podczas gdy właściwość ''Helix Pitch'' jest teraz nazwana ''Helix Max Pitch''. [https://github.com/FreeCAD/FreeCAD/pull/29286 Pull request #29286]
+* Właściwość ''Zig Zag Angle'' operacji [[CAM_Pocket_Shape/pl|Kieszeń]] nazywa się teraz ''Angle''. Jest ukryta jeśli wybrany wzór to ''Offset''. [https://github.com/FreeCAD/FreeCAD/pull/26842 Pull request #26842]
+* Dodane zostało nowe narzędzie umożliwiające tworzenie odbić lustrzanych wykończeń. [https://github.com/FreeCAD/FreeCAD/pull/21820 Pull request #21820]
+* Dodany został szybki ruch z ''Clearance Height'' do ''Safe Height'' na początku kodu G operacji [[CAM_Slot/pl|Rowek]]. [https://github.com/FreeCAD/FreeCAD/pull/25845 Pull request #25845]
+* Usprawione zostało menu kontekstowe środowiska CAM. [https://github.com/FreeCAD/FreeCAD/pull/26492 Pull request #26492]
 
 <span id="Draft_Workbench"></span>
 ==Środowisko pracy Rysunek Roboczy==
