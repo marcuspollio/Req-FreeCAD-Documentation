@@ -61,7 +61,6 @@ Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [[Featu
 <span id="Further_Core_improvements"></span>
 === Autres améliorations du noyau ===
 
-<div class="mw-translate-fuzzy">
 * La barre de recherche dans les [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences/fr|préférences]] permet désormais d'effectuer des recherches dans les infobulles, les valeurs des menus déroulants, les cases à cocher et les titres de groupe. [https://github.com/FreeCAD/FreeCAD/pull/24283 Pull request #24283]
 * L'outil [[Image:Std_Measure.svg|24px]] [[Std_Measure/fr|Mesurer]] prend désormais en charge la mesure du rayon et du diamètre des faces cylindriques. [https://github.com/FreeCAD/FreeCAD/pull/27044 Pull request #27044]
 * Sous macOS, les fichiers .FCStd prennent désormais en charge l'extension native QuickLook pour afficher une vignette du fichier dans le Finder et un aperçu complet. [https://github.com/FreeCAD/FreeCAD/pull/25239 Pull request #25239]
@@ -69,10 +68,10 @@ Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [[Featu
 * L'outil [[Image:Std_Measure.svg|24px]] [[Std_Measure/fr|Mesurer]] peut désormais indiquer le rayon et le diamètre des faces circulaires en plus des types de mesure existants. [https://github.com/FreeCAD/FreeCAD/pull/27415 Pull request #27415]
 * L'outil [[Image:Std_Measure.svg|24px]] [[Std_Measure/fr|Mesurer]] affiche désormais les unités de surface à l'aide d'exposants Unicode. [https://github.com/FreeCAD/FreeCAD/pull/28044 Pull request #28044]
 * Les macros prennent désormais en charge les répertoires pour regrouper les fichiers qui leur sont associés. [https://github.com/FreeCAD/FreeCAD/pull/27005 Pull request #27005]
-* Les [[Image:Part_CoordinateSystem.svg|24px]] [[Std_Base/fr#Part_Datums|référentiels de base]] utilisent désormais la propriété ''Show Placement'', ce qui rend les décalages (sans rotation) des [[Part_EditAttachment/fr|ancrages]] plus intuitifs dans les coordonnées locales. [https://github.com/FreeCAD/FreeCAD/pull/29176 Pull request #29176]
 * L'outil [[Image:Std_Measure.svg|24px]] [[Std_Measure/fr|Mesurer]] peut désormais indiquer le rayon et le diamètre des sphères et des tores. [https://github.com/FreeCAD/FreeCAD/pull/29369 Pull request #29369]
 * L'outil [[Image:Std_Measure.svg|24px]] [[Std_Measure/fr|Mesurer]] prend désormais en charge les faces courbes en mode ''Distance''. [https://github.com/FreeCAD/FreeCAD/pull/29367 Pull request #29367]
-</div>
+* L'apparence et le positionnement des flèches de [[Image:Std_Measure.svg|24px]] [[Std_Measure/fr|mesures]] des ''angles''  ont été considérablement améliorés. [https://github.com/FreeCAD/FreeCAD/pull/27135 Pull request #27135]
+* [[Image:Std_BoxElementSelection.svg|24px]] [[Std_BoxElementSelection/fr|La sélection d'éléments de boîte]] prend désormais en compte les [[Image:Part_SelectFilter.svg|24px]] [[Part_SelectFilter/fr|filtres de sélection]]. [https://github.com/FreeCAD/FreeCAD/pull/28982 Pull request #28982]
 
 === API ===
 
