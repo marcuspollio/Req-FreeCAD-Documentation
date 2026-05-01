@@ -133,7 +133,6 @@ ToDo (last check: 20260430, #27222):
 <span id="Further_CAM_improvements"></span>
 === Weitere CAM-Verbesserungen ===
 
-<div class="mw-translate-fuzzy">
 * Im Dialogfeld für den G-Code-Export werden nun Zeilennummern angezeigt. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull-Request #23862]
 * Die MillFace-Funktion wurde als MillFacing mit erheblichen Verbesserungen neu implementiert. [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull-Request #24367]
 * [[CAM_SimpleCopy/de|EinfacheKopie]] ermöglicht nun die Mehrfachauswahl von Bearbeitungen. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull-Request #24297]
@@ -161,11 +160,16 @@ ToDo (last check: 20260430, #27222):
 * Das Werkzeug [[CAM_SelectLoop/de|SchleifeAuswählen]] wurde verbessert und gibt nun den Linienzug zurück, wenn Kanten ausgewählt wurden und andere Methoden fehlgeschlagen sind. [https://github.com/FreeCAD/FreeCAD/pull/24185 Pull-Request #24185]
 * Der Kinetic-Postprozessor wurde um eine Kühlfunktion erweitert. [https://github.com/FreeCAD/FreeCAD/pull/25022 Pull-Request #25022]
 * Die Eigenschaft ''Units'' (metrisch/britisch) wurde zu ToolBits hinzugefügt. [https://github.com/FreeCAD/FreeCAD/pull/25783 Pull-Request #25783]
-
 * Der [[CAM_SimulatorGL/de|neue CAM-Simulator]] verwendet nun denselben Ansichtsmodus (Orthogonal/Perspektivisch) und denselben Navigationsstil wie die [[3D_View/de|3D-Ansicht]]. [https://github.com/FreeCAD/FreeCAD/pull/23073 Pull-Request #23073]
 * Die [[CAM_Pocket_Shape/de|Taschen]]-Bearbeitung kann nun neben Flächen auch horizontale Kanten verarbeiten. [https://github.com/FreeCAD/FreeCAD/pull/27750 Pull-Request #27750]
 * Die Eigenschaft ''Op Final Depth'' der [[CAM_Engrave/de|Gravieren]]-Bearbeitung hat nun je nach Material und Gravurform einen besseren Standardwert. [https://github.com/FreeCAD/FreeCAD/pull/26543 Pull-Request #26543]
-</div>
+* ''Start Point'' kann nun über das Aufgabenfenster für [[CAM_Profile/de|Profile]] und [[CAM_Pocket_Shape/de|Taschenform]]-Bearbeitungen definiert werden. [https://github.com/FreeCAD/FreeCAD/pull/29502 Pull-Request #29502]
+* Die Funktion Circular Hole Base, die zur Auswahl der Basisgeometrie für bestimmte Bearbeitungsvorgänge dient, zeigt nun zusätzlich zum Flächennamen und zum Durchmesser auch die Position und den Blindstatus (bei Zylinderflächen) an. [https://github.com/FreeCAD/FreeCAD/pull/27869 Pull-Request #27869]
+* Die Bearbeitung [[CAM_Helix/de|Wendel]] verfügt nun über die Eigenschaft ''Helix Max Ramp Angle'', während ''Helix Pitch'' in ''Helix Max Pitch'' umbenannt wurde. [https://github.com/FreeCAD/FreeCAD/pull/29286 Pull-Request #29286]
+* Die Eigenschaft ''Zig Zag Angle'' des [[CAM_Pocket_Shape/de|Nut]]-Bearbeitung wurde in ''Angle'' umbenannt. Es wird nun ausgeblendet, wenn das ausgewählte Muster ''Offset'' ist. [https://github.com/FreeCAD/FreeCAD/pull/26842 Pull-Request #26842]
+* Es wurde ein neues Werkzeug hinzugefügt, mit dem sich Aufbereitungen spiegeln lassen. [https://github.com/FreeCAD/FreeCAD/pull/21820 Pull-Request #21820]
+* Eine schnelle Bewegung von ''Clearance Height'' zu ''Safe Height'' wurde am Anfang des [[CAM_Slot/de|Nut]]-Bearbeitungen-G-Code hinzugefügt. [https://github.com/FreeCAD/FreeCAD/pull/25845 Pull-Request #25845]
+* Das CAM-Kontextmenü wurde verbessert. [https://github.com/FreeCAD/FreeCAD/pull/26492 Pull-Request #26492]
 
 <span id="Draft_Workbench"></span>
 == Arbeitsbereich Draft ==
