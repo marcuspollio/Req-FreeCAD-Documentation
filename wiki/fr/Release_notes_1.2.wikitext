@@ -198,7 +198,6 @@ ToDo (last check: 20260430, #29258):
 <span id="Further_FEM_improvements"></span>
 === Autres améliorations de FEM ===
 
-<div class="mw-translate-fuzzy">
 * La [[Image:FEM_ConstraintElectricChargeDensity.svg|24px]] [[FEM_ElectricChargeDensity/fr|densité de charge électrique]] dispose désormais d'une case à cocher « Concentrée » dans le mode « Source totale » pour utiliser une charge concentrée au lieu d'une charge distribuée (ce qui la rend également applicable aux arêtes et aux sommets) avec CalculiX. [https://github.com/FreeCAD/FreeCAD/pull/25237 Pull request #25237]
 * Les [[Image:FEM_ResultShow.svg|24px]] [[FEM_ResultShow/fr|résultats de FEM]] prennent désormais en charge l'animation de demi-cycles en plus des cycles complets inversés. [https://github.com/FreeCAD/FreeCAD/pull/24129 Pull request #24129]
 * La fonction [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint/fr|Enregistrer les résultats par section]] prend désormais en charge les modèles 2D et le flux électrique dans les analyses électrostatiques. [https://github.com/FreeCAD/FreeCAD/pull/25081 Pull request #25081]
@@ -219,7 +218,7 @@ ToDo (last check: 20260430, #29258):
 * La propriété ''Beam Reduced Integration'' du [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools/fr|solveur CalculiX]] a été remplacée par la propriété généralisée ''Reduced Integration'' qui remplace les éléments standard de type solide, face (coque, 2D) et poutre par leurs équivalents à intégration réduite. [https://github.com/FreeCAD/FreeCAD/pull/29223 Pull request #29223]
 * Le [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools/fr|solveur CalculiX]] refactorisé est désormais utilisé par défaut. [https://github.com/FreeCAD/FreeCAD/pull/29220 Pull request #29220]
 * La fonction [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint/fr|Enregistrer les résultats par section]] peut désormais être utilisée avec le [[Image:FEM_SolverZ88.svg|24px]] [[FEM_SolverZ88/fr|solveur Z88]]. [https://github.com/FreeCAD/FreeCAD/pull/29188 Pull request #29188]
-</div>
+* Les matériaux disposent désormais de la propriété ''Material Name'', ce qui facilite l'identification des matériaux réels représentés par les objets matérial dans le conteneur d'analyse. [Pull request n° 29609 sur https://github.com/FreeCAD/FreeCAD/pull/29609]
 
 <span id="Inspection_Workbench"></span>
 == Atelier Inspection ==
