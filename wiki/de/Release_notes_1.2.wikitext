@@ -321,7 +321,6 @@ ToDo (last check: 20260430, #29258):
 <span id="Further_Sketcher_improvements"></span>
 === Weitere Sketcher-Verbesserungen ===
 
-<div class="mw-translate-fuzzy">
 * Es ist nun möglich, Bézier- und Versatz-Kurven als [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection/de|externe Geometrie]] zu importieren. [https://github.com/FreeCAD/FreeCAD/pull/25144 Pull-Request #25144]
 * Werden Maße kreisförmiger Elemente bearbeitet, kann jetzt zwischen Radius und Durchmesser gewechselt werden. [https://github.com/FreeCAD/FreeCAD/pull/26794 Pull-Request #26794]
 * Die Liste der Randbedingungen zeigt jetzt die Art der Randbedingung im Namen an. [https://github.com/FreeCAD/FreeCAD/pull/26797 Pull-Request #26797]
@@ -333,7 +332,9 @@ ToDo (last check: 20260430, #29258):
 * Ausgewählte Randbedingungen für Abstände (Punkt-Linie, Kreis-Kreis und Kreis-Linie) verwende jetzt eine Ausrichtung, um [[Sketcher_Workbench/de#Flipping|Flipping]] zu verhindern. [https://github.com/FreeCAD/FreeCAD/pull/26518 Pull-Request #26518]
 * Die Option ''Symmetrie-Randbedingungen erstellen'' des Werkzeugs  [[Image:Sketcher_Symmetry.svg|24px]] [[Sketcher_Symmetry/de|Spiegeln]] wurde verbessert, um Überbestimmtheit zu vermeiden. Es ist jetzt auch standardmäßig aktiviert. [https://github.com/FreeCAD/FreeCAD/pull/28118 Pull-Request #28118] und [https://github.com/FreeCAD/FreeCAD/pull/28319 Pull-Request #28319]
 * Es gibt jetzt eine Schaltfläche ''Abbrechen'', die es ermöglichen, Änderungen an einer Skizze zu verwerfen. [https://github.com/FreeCAD/FreeCAD/pull/29337 Pull-Request #29337]
-</div>
+* Die Maße [[Image:Sketcher_ConstrainHorizontal.svg|24px]] [[Sketcher_ConstrainHorizontal/de|Horizontal]],[[Image:Sketcher_ConstrainVertical.svg|24px]] [[Sketcher_ConstrainVertical/de|Vertikal]] und [[Image:Sketcher_ConstrainDistance.svg|24px]] [[Sketcher_ConstrainDistance/de|Abstand]] werden nun standardmäßig so positioniert, dass Überschneidungen mit den eingeschränkten Linien vermieden werden. [https://github.com/FreeCAD/FreeCAD/pull/29538 Pull-Request #29538]
+* [[Sketcher_Workbench/de#3D_View_box_selection|Sketcher Rechteckauswahl]] berücksichtigt nun die [[Image:Part_SelectFilter.svg|24px]] [[Part_SelectFilter/de|Auswahlfilter]]. [https://github.com/FreeCAD/FreeCAD/pull/28982 Pull-Request #28982]
+* Die Bogenlängenmaße sind nun bei größeren Bogenweiten besser positioniert. [https://github.com/FreeCAD/FreeCAD/pull/29594 Pull-Request #29594]
 
 <span id="Spreadsheet_Workbench"></span>
 == Arbeitsbereich Spreadsheet ==
