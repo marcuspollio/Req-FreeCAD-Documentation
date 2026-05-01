@@ -9,10 +9,8 @@
 |IconC=Workbench_BIM.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-{{VeryImportantMessage|THIS COMMAND IS OBSOLETE<br>
-It is not available in {{VersionPlus|1.2}}. Use [[Std_ToggleBottomPanels|Std ToggleBottomPanels]] instead.}}
-</div>
+{{VeryImportantMessage|Cette commande est obsolète.<br>
+Elle n'est plus disponible depuis {{VersionPlus/fr|1.2}}. Utilisez plutôt [[Std_ToggleBottomPanels/fr|Std Panneaux inférieurs]].}}
 
 {{GuiCommand/fr
 |Name=BIM TogglePanels
