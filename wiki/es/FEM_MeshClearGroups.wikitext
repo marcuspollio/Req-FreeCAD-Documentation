@@ -17,9 +17,8 @@
 |SeeAlso=[[FEM_tutorial|Tutorial de FEM]], [[FEM_MeshClear|FEM MeshClear]]
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Description==
-</div>
+<span id="Description"></span>
+== Descripción ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Works similarly to [[FEM_MeshClear|Clear FEM Mesh]], but only removes the [[FEM_MeshGroup|mesh groups]] (including the ones automatically generated for [[FEM_SolverElmer|Elmer]]), while keeping the mesh itself with all the elements. This can be useful to reduce the file size when exporting to any mesh format.
