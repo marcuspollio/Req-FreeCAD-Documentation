@@ -9,15 +9,13 @@
 |IconC=Workbench_FEM.svg
 }}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommand
 |Name=FEM MeshClearGroups
-|MenuLocation=Context menu on mesh object → Clear Mesh Groups
-|Workbenches=[[FEM_Workbench|FEM]]
+|MenuLocation=Menú contextual en el objeto de malla → Borrar grupos de malla
+|Workbench=[[FEM_Workbench|FEM]]
 |Version=1.2
-|SeeAlso=[[FEM_tutorial|FEM tutorial]], [[FEM_MeshClear|FEM MeshClear]]
+|SeeAlso=[[FEM_tutorial|Tutorial de FEM]], [[FEM_MeshClear|FEM MeshClear]]
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Description==
