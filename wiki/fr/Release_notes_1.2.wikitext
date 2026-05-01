@@ -264,13 +264,11 @@ ToDo (last check: 20260430, #29258):
 [https://github.com/FreeCAD/FreeCAD/pull/22573 Pull request #22573]
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| cellpadding=5
 | [[File:Part_Design_sketch_attachment_relnotes_1.2.png|384px]]
-| Creating [[Image:PartDesign_NewSketch.svg|24px]] [[PartDesign_NewSketch|New sketch]] now activates the [[Image:Part_EditAttachment.svg|24px]] [[Part_EditAttachment|Attachment]] dialog unless a single planar face or datum plane is selected or a new related preference is enabled.
+| La création d'une [[Image:PartDesign_NewSketch.svg|24px]] [[PartDesign_NewSketch/fr|nouvelle esquisse]] active désormais la boîte de dialogue d'[[Image:Part_EditAttachment.svg|24px]] [[Part_EditAttachment/fr|ancrage]], sauf si une seule face plane ou un seul plan de référence est sélectionné, ou si une nouvelle préférence associée est activée.
 [https://github.com/FreeCAD/FreeCAD/pull/29168 Pull request #29168]
 |}
-</div>
 
 <span id="Further_Part_Design_improvements"></span>
 === Autres améliorations de PartDesign ===
