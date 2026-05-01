@@ -25,14 +25,11 @@ Funciona de forma similar a [[FEM_MeshClear|Borrar malla FEM]], pero solo elimin
 <span id="Usage"></span>
 == Uso ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Right-click a [[Image:FEM_MeshNetgenFromShape.svg|16px]] [[FEM_MeshNetgenFromShape|Netgen]] or [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Gmsh]] FEM mesh object in the [[Tree_View|Tree View]].
-# Select the {{MenuCommand|[[Image:FEM_MeshClearGroups.svg|16px]] Clear Mesh Groups}} option from the context menu.
-</div>
+# Haga clic con el botón derecho en un objeto de malla FEM [[Image:FEM_MeshNetgenFromShape.svg|16px]] [[FEM_MeshNetgenFromShape|Netgen]] o [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Gmsh]] en la [[Tree_View|Vista de árbol]].
+# Seleccione la opción {{MenuCommand|[[Image:FEM_MeshClearGroups.svg|16px]] Borrar grupos de malla}} del menú contextual.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Notes==
-</div>
+<span id="Notes"></span>
+== Notas ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The mesh can still be used by solvers other than [[FEM_SolverElmer|Elmer]], but has no groups associated with it.
