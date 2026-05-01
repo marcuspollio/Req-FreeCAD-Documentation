@@ -53,7 +53,7 @@ To showcase the workflow and possibilities of the Draft Workbench, we will walk 
 [[File:FreeCAD DraftPreferences.png]]
 
 <!--T:9-->
-* The Draft Preferences Panel in FreeCAD allows you to customize various aspects of your 2D drafting environment. In the '''General Settings''', you can define the default working plane, adjust decimal precision, and set the default line width, style, and color for objects. The '''Grid and Snapping''' section enables you to control grid visibility, spacing, and snapping modes, allowing for precise alignment and positioning of elements. The '''Visual Style''' options let you customize the appearance of objects and the grid, including line and fill colors. In '''Text and Dimensions''', you can configure the default text size, font, and color for annotations, ensuring clarity in technical drawings.
+* The Draft Preferences Panel in FreeCAD allows you to customize various aspects of your 2D drafting environment. In the '''General''' settings, you can define the default working plane, adjust decimal precision, and set the default line width, style, and color for objects. The '''Grid and snapping''' section enables you to control grid visibility, spacing, and snapping modes, allowing for precise alignment and positioning of elements. The '''Visual''' options let you customize the appearance of objects and the grid, including line and fill colors. In '''Texts and dimensions''', you can configure the default text size, font, and color for annotations, ensuring clarity in technical drawings.
 
 <!--T:10-->
 [[Image:Draft_toolbars.png]]
@@ -75,7 +75,7 @@ Let's begin laying out the basic shape of our floorplan.
 This keyboard-driven workflow speeds up drafting, especially when working with repetitive tasks or precision input, making it ideal for users looking to streamline their workflow. You can view the keystrokes for every object by hovering over the corresponding button.
 
 <!--T:115-->
-* Duplicate that rectangle by 15cm inside, using the [[Image:Draft_Offset.svg|16px]] [[Draft_Offset|Offset]] tool, turning its Copy mode on, and giving it a distance of 15cm:
+*Duplicate that rectangle 15cm smaller by using the [[Image:Draft_Offset.svg|16px]] [[Draft_Offset|Offset]] tool, placing the cursor inside the rectangle, turning on Copy mode, and giving it a distance of 15cm:
 
 <!--T:12-->
 [[Image:Exercise_cabin_02.png]]
@@ -95,7 +95,7 @@ This keyboard-driven workflow speeds up drafting, especially when working with r
 
 <!--T:15-->
 * That is all we need now, so we can switch construction mode off. Check that all the construction geometry has been placed into a "Construction" group, which makes it easy to hide it all at once or even delete it completely later on.
-* Now let's draw our two wall pieces using the [[Image:Draft_Wire.svg|16px]] [[Draft_Wire|Wire]] tool. Make sure the [[Image:Draft_Snap_Intersection.svg|16px]] [[Draft_Snap|intersection snap]] is turned on, as we will need to snap to the intersections of our lines and rectangles. Draw two wires as follows, by clicking all the points of their contours. To close them, either click on the first point again or press the '''Close''' button:
+* Now let's draw our two wall pieces using the [[Image:Draft_Wire.svg|16px]] [[Draft_Wire|Wire]] tool. Make sure the [[Image:Draft_Snap_Intersection.svg|16px]] [[Draft_Snap|intersection snap]] is turned on, as we will need to snap to the intersections of our lines and rectangles. Draw two wires as follows, by clicking all the points of their contours. To close them, either click on the first point again or press the '''Close (O)''' button:
 
 <!--T:16-->
 [[Image:Exercise_cabin_04.jpg]]
