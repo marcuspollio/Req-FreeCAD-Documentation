@@ -22,9 +22,8 @@
 
 Funciona de forma similar a [[FEM_MeshClear|Borrar malla FEM]], pero solo elimina los [[FEM_MeshGroup|grupos de malla]] (incluidos los generados automáticamente por el [[FEM_SolverElmer|Solucionador Elmer]]), conservando la malla con todos sus elementos. Esto puede ser útil para reducir el tamaño del archivo al exportarlo a cualquier formato de malla.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Usage==
-</div>
+<span id="Usage"></span>
+== Uso ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 # Right-click a [[Image:FEM_MeshNetgenFromShape.svg|16px]] [[FEM_MeshNetgenFromShape|Netgen]] or [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Gmsh]] FEM mesh object in the [[Tree_View|Tree View]].
