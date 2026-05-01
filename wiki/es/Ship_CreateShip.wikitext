@@ -17,6 +17,7 @@
 |SeeAlso=
 }}
 
+<span id="Description"></span>
 ==Descripción==
 
 Create a New Ship or new Ship Instance.
@@ -29,6 +30,7 @@ Ship works over '''Ship entities''', that must be created on top of provided geo
 [[Image:FreeCAD-Ship-SignCriteria.jpg]]
 {{Caption|Ship sign criteria}}
 
+<span id="Usage"></span>
 == Uso == 
 
 In order to create a '''Ship instance''' (in other words, a New Ship), select the hull solid geometry and invoke {{MenuCommand|Ship design → [[Image:Ship_CreateShip.svg|16px]] Create a new ship}}.
@@ -56,6 +58,7 @@ Same process is valid for Beam fit. Note that the requested value is the total b
 
 When you press {{Button|Accept}} button, a new Ship instance named '''Ship''' is created at ''Tags & Attributes'' dialog. The geometry is not needed anymore, so feel free to hide or remove it.
 
+<span id="Tutorials"></span>
 == Tutoriales ==
 
 * [[FreeCAD-Ship_s60_tutorial|FreeCAD-Ship s60 tutorial ]]
