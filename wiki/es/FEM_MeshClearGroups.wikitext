@@ -20,9 +20,7 @@
 <span id="Description"></span>
 == Descripción ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Works similarly to [[FEM_MeshClear|Clear FEM Mesh]], but only removes the [[FEM_MeshGroup|mesh groups]] (including the ones automatically generated for [[FEM_SolverElmer|Elmer]]), while keeping the mesh itself with all the elements. This can be useful to reduce the file size when exporting to any mesh format.
-</div>
+Funciona de forma similar a [[FEM_MeshClear|Borrar malla FEM]], pero solo elimina los [[FEM_MeshGroup|grupos de malla]] (incluidos los generados automáticamente por el [[FEM_SolverElmer|Solucionador Elmer]]), conservando la malla con todos sus elementos. Esto puede ser útil para reducir el tamaño del archivo al exportarlo a cualquier formato de malla.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Usage==
