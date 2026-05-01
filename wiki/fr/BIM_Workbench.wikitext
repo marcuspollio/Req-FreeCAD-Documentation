@@ -477,9 +477,7 @@ A définir
 
 * [[Image:Arch_SetMaterial.svg|32px]] [[Arch_SetMaterial/fr|Arch Matériau]] : crée un matériau et l'attribue aux objets sélectionnés, s'il y en a. Non disponible dans {{VersionPlus/fr|1.0}}. Utilisez plutôt [[BIM_Material/fr|BIM Matériau]].
 
-<div class="mw-translate-fuzzy">
-* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels/fr|Bascule des panneaux inférieurs]] : affiche ou masque les fenêtres de sortie (la vue rapport et la console Python).
-</div>
+* [[Image:BIM_TogglePanels.svg|32px]] [[BIM_TogglePanels/fr|Bascule des panneaux inférieurs]] : affiche ou masque les fenêtres de sortie (la vue rapport et la console Python). Non disponible dans {{VersionPlus/fr|1.2}}. Utilisez plutôt [[Std_ToggleBottomPanels/fr|Std Panneaux inférieurs]].
 
 <span id="Preferences"></span>
 ==Préférences==
