@@ -31,9 +31,7 @@ Funciona de forma similar a [[FEM_MeshClear|Borrar malla FEM]], pero solo elimin
 <span id="Notes"></span>
 == Notas ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The mesh can still be used by solvers other than [[FEM_SolverElmer|Elmer]], but has no groups associated with it.
-</div>
+La malla aún puede ser utilizada por solucionadores distintos de [[FEM_SolverElmer|Elmer]], pero no tiene grupos asociados.
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
