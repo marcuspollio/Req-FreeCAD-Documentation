@@ -48,98 +48,34 @@ The task panel and a free-surface annotation in the [[3D_view|3D view]] are show
 <!--T:6-->
 Most relevant ship data must be introduced (Ship uses a progressive data introduction system, so basic operations can be performed knowing only basic ship data, more information is needed as the operations become more complex).
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
-  <rect width="1200" height="600" fill="white"/>
-  <!-- 标题 -->
-  <text x="600" y="30" text-anchor="middle" font-size="20" font-weight="bold">西班牙海军战列舰 E-50 “冲锋”号 (Arranque) — 43,500吨版</text>
-  <text x="600" y="50" text-anchor="middle" font-size="14">侧视图与俯视图（示意比例）</text>
-  
-  <!-- 侧视图（左侧） -->
-  <g transform="translate(100, 350)">
-    <!-- 水线 -->
-    <line x1="0" y1="100" x2="780" y2="100" stroke="blue" stroke-width="1.5" stroke-dasharray="5,5"/>
-    <text x="790" y="105" font-size="12" fill="blue">水线</text>
-    
-    <!-- 船体侧影（水下红色，水上灰色） -->
-    <path d="M60,100 L80,160 Q200,200 400,195 Q600,190 720,160 L760,100 Z" fill="#ccc" stroke="black" stroke-width="1.5"/>
-    <path d="M60,100 L80,160 Q200,200 400,195 Q600,190 720,160 L760,100" fill="none" stroke="black" stroke-width="1.5"/>
-    <path d="M80,160 Q200,200 400,195 Q600,190 720,160" fill="#b22222" opacity="0.6" stroke="brown" stroke-width="1"/>
-    
-    <!-- 主甲板线 -->
-    <line x1="60" y1="100" x2="760" y2="100" stroke="black" stroke-width="1"/>
-    
-    <!-- 主炮塔（前二后一） -->
-    <!-- 1号炮塔（A） -->
-    <rect x="120" y="65" width="40" height="35" rx="5" fill="#555" stroke="black" stroke-width="1.5"/>
-    <line x1="130" y1="65" x2="130" y2="55" stroke="black" stroke-width="2"/>
-    <line x1="150" y1="65" x2="150" y2="55" stroke="black" stroke-width="2"/>
-    <!-- 2号炮塔（B，背负式，更高） -->
-    <rect x="190" y="45" width="40" height="35" rx="5" fill="#555" stroke="black" stroke-width="1.5"/>
-    <line x1="200" y1="45" x2="200" y2="35" stroke="black" stroke-width="2"/>
-    <line x1="220" y1="45" x2="220" y2="35" stroke="black" stroke-width="2"/>
-    <!-- 3号炮塔（X，后向） -->
-    <rect x="640" y="65" width="40" height="35" rx="5" fill="#555" stroke="black" stroke-width="1.5"/>
-    <line x1="650" y1="65" x2="650" y2="55" stroke="black" stroke-width="2"/>
-    <line x1="670" y1="65" x2="670" y2="55" stroke="black" stroke-width="2"/>
-    
-    <!-- 前部舰桥（基座13.5m高，塔楼至22.5m） -->
-    <!-- 基座（英式写字楼风格） -->
-    <rect x="300" y="30" width="60" height="70" fill="#888" stroke="black" stroke-width="1.5"/>
-    <!-- 塔楼（收窄） -->
-    <rect x="310" y="0" width="40" height="30" fill="#999" stroke="black" stroke-width="1.5"/>
-    <!-- 司令塔凸起 -->
-    <rect x="320" y="-10" width="20" height="15" fill="#777" stroke="black" stroke-width="1"/>
-    <!-- 主桅杆（三脚桅） -->
-    <line x1="330" y1="-10" x2="330" y2="-70" stroke="black" stroke-width="2"/>
-    <line x1="330" y1="-30" x2="310" y2="-5" stroke="black" stroke-width="1"/>
-    <line x1="330" y1="-30" x2="360" y2="-5" stroke="black" stroke-width="1"/>
-    <circle cx="330" cy="-70" r="4" fill="black"/> <!-- 雷达天线示意 -->
-    
-    <!-- 烟囱（向后倾斜，紧邻舰桥后方） -->
-    <path d="M360,40 L400,20 L410,25 L380,50 Z" fill="#666" stroke="black" stroke-width="1.5"/>
-    
-    <!-- 后部舰桥 -->
-    <rect x="460" y="45" width="40" height="55" fill="#888" stroke="black" stroke-width="1.5"/>
-    <rect x="470" y="20" width="20" height="25" fill="#999" stroke="black" stroke-width="1"/>
-    <!-- 后桅杆 -->
-    <line x1="480" y1="20" x2="480" y2="-40" stroke="black" stroke-width="1.5"/>
-    <line x1="480" y1="-10" x2="460" y2="5" stroke="black" stroke-width="1"/>
-    <line x1="480" y1="-10" x2="500" y2="5" stroke="black" stroke-width="1"/>
-    
-    <!-- 舰尾弹射器与机库 -->
-    <rect x="700" y="80" width="50" height="18" fill="#aaa" stroke="black" stroke-width="1"/> <!-- 弹射器轨道 -->
-    <text x="715" y="93" font-size="8">弹射器</text>
-    <rect x="680" y="85" width="20" height="12" fill="#777"/> <!-- 机库入口 -->
-    
-    <!-- 152mm副炮（两侧各三门，只画左侧示意） -->
-    <circle cx="280" cy="95" r="4" fill="none" stroke="black" stroke-width="1.5"/>
-    <circle cx="420" cy="95" r="4" fill="none" stroke="black" stroke-width="1.5"/>
-    <circle cx="550" cy="95" r="4" fill="none" stroke="black" stroke-width="1.5"/>
-    
-    <!-- 100mm高平两用炮（舯部每侧4座，只画左侧） -->
-    <line x1="380" y1="90" x2="380" y2="82" stroke="black" stroke-width="1.5"/>
-    <line x1="430" y1="90" x2="430" y2="82" stroke="black" stroke-width="1.5"/>
-    <line x1="490" y1="90" x2="490" y2="82" stroke="black" stroke-width="1.5"/>
-    <line x1="540" y1="90" x2="540" y2="82" stroke="black" stroke-width="1.5"/>
-    
-    <!-- 救生艇（画在肋部） -->
-    <ellipse cx="340" cy="95" rx="6" ry="3" fill="#aaa" stroke="black" stroke-width="0.5"/>
-    <ellipse cx="440" cy="95" rx="6" ry="3" fill="#aaa" stroke="black" stroke-width="0.5"/>
-    
-    <!-- 文字标注 -->
-    <text x="130" y="55" font-size="12">406mm主炮</text>
-    <text x="310" y="20" font-size="12">前舰桥(22.5m)</text>
-    <text x="475" y="35" font-size="12">后舰桥</text>
-    <text x="390" y="25" font-size="12">烟囱</text>
-    <text x="250" y="85" font-size="10">152mm</text>
-    <text x="390" y="78" font-size="10">100mm</text>
-  </g>
-  
-  <!-- 俯视图（右侧） -->
-  <g transform="translate(600, 50) scale(0.65)">
-    <!-- 船体俯视轮廓 -->
-    <path d="M0,150 L40,20 Q200,0 400,0 Q600,0 760,20 L800,150 Z" fill="none" stroke="black" stroke-width="2"/>
-    <path d="M0,150 L40,280
+== Ship data == <!--T:24-->
+
+<!--T:7-->
+Main dimensions must be introduced here:
+* Length: Length between perpendiculars.
+* Beam: Total ship beam.
+* Draft: Design draft.
+
+</translate>
+[[Image:FreeCAD-Ship-S60ShipCreationFront.png]]
+<translate>
+<!--T:8-->
+{{Caption|Length annotations}}
+
+<!--T:9-->
+Usually the Length between perpendiculars depends on design draft, so if you don't know what is the length of your ship you can set draft, and fit length in order to get bow and draft intersection.
+
+</translate>
+[[Image:FreeCAD-Ship-S60ShipCreationSide.png]]
+<translate>
+<!--T:10-->
+{{Caption|Beam annotations}}
+
+<!--T:11-->
+Same process is valid for Beam fit. Note that the requested value is the total beam, but just the annotation on starboard side is shown.
+
+<!--T:12-->
+When you press {{Button|Accept}} button, a new Ship instance named '''Ship''' is created at ''Tags & Attributes'' dialog. The geometry is not needed anymore, so feel free to hide or remove it.
 
 ==Tutorials== <!--T:15-->
 
