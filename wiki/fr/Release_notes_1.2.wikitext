@@ -27,13 +27,13 @@ Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [[Featu
 <span id="Further_user_interface_improvements"></span>
 === Autres améliorations de l'interface utilisateur ===
 
-<div class="mw-translate-fuzzy">
 * L'éditeur de texte intégré prend désormais en charge la sélection de lignes en cliquant sur le numéro de ligne (et, en option, en maintenant la touche {{KEY|Maj}} enfoncée pour sélectionner une plage). [https://github.com/FreeCAD/FreeCAD/pull/27677 Pull request #27677]
 * Dans l'éditeur de texte intégré, le champ de recherche est désormais prérempli avec le texte sélectionné. [https://github.com/FreeCAD/FreeCAD/pull/27674 Pull request #27674]
 * Un double-clic sur une face du [[Navigation_Cube/fr|cube de navigation]] permet désormais de pivoter vers celle-ci, mais aussi de centrer la vue. [https://github.com/FreeCAD/FreeCAD/pull/28608 Pull request #28608]
 * L'option du menu contextuel  ''Recalculer un objet'' de l'[[Tree_View/fr|arborescence]] (commande ''Std_Recompute'') dispose désormais d'un raccourci clavier {{KEY|Ctrl}}+{{KEY|Shift}}+{{KEY|R}}. [https://github.com/FreeCAD/FreeCAD/pull/27880 Pull request #27880]
-* Il existe désormais un bouton et un raccourci permettant d'activer ou de désactiver les panneaux inférieurs (la [[Report_View/fr|vue rapport]] et la [[Python_Console/fr|console Python]]). [https://github.com/FreeCAD/FreeCAD/pull/28598 Pull request #28598]
-</div>
+* Il existe désormais un bouton {{Button|[[Image:Std_ToggleBottomPanels.svg|16px]] Panneaux inférieurs}} et un raccourci clavier {{KEY|Ctrl}} + {{KEY|O}} pour afficher ou masquer les panneaux inférieurs (la [[Report_View/fr|vue rapport]] et la [[Python_Console/fr|console Python]]). [https://github.com/FreeCAD/FreeCAD/pull/28598 Pull request #28598]
+* La commande [[Image:Std_AlignToSelection.svg|24px]] [[Std_AlignToSelection/fr|Aligner sur la sélection]] prend désormais en charge la sélection multiple. [https://github.com/FreeCAD/FreeCAD/pull/29182 Pull request #29182]
+* Un double-clic sur un champ d'expression efface désormais l'expression tout en conservant la valeur actuelle. Si aucune modification n'est effectuée, l'expression est restaurée après la perte du focus. [https://github.com/FreeCAD/FreeCAD/pull/29414 Pull request #29414]
 
 <span id="Core_system_and_API"></span>
 == Noyau et API ==
