@@ -40,7 +40,7 @@ Crea un elemento de sección fluida FEM para redes neumáticas e hidráulicas re
 <span id="Limitations"></span>
 == Limitaciones ==
 
-#The card only works with a 3 noded network element type. Information can be found here: http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html
+#La tarjeta solo funciona con un tipo de elemento de red de 3 nodos. Puede encontrar información aquí: http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html
 
 ==Notes==
 
