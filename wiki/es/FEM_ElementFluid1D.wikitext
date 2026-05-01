@@ -12,8 +12,8 @@
 {{GuiCommandContainer|
 {{GuiCommand
 |Name=FEM ElementFluid1D
-|MenuLocation=Model → Element Geometry → Fluid Section for 1D Flow
-|Workbenches=[[FEM_Workbench|FEM]]
+|MenuLocation=Modelo → Elemento Geométrico → Sección de fluido para flujo unidimensional
+|Workbench=[[FEM_Workbench|FEM]]
 |SeeAlso=[[FEM_tutorial|FEM tutorial]]
 }}
 {{GuiCommandFemInfo
@@ -21,7 +21,8 @@
 }}
 }}
 
-==Description==
+<span id="Description"></span>
+== Descripción ==
 
 Creates a FEM fluid section element for pneumatic and hydraulic networks solved with CalculiX.
 
