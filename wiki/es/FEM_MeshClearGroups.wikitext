@@ -1,15 +1,13 @@
 <languages/>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Docnav
-|[[FEM_MeshClear|Clear FEM Mesh]]
-|[[FEM_MeshDisplayInfo|Display Mesh Info]]
+|[[FEM_MeshClear|Borrar malla FEM]]
+|[[FEM_MeshDisplayInfo|Mostrar información de la malla]]
 |[[FEM_Workbench|FEM]]
 |IconL=FEM_MeshClear.svg
 |IconR=FEM_MeshDisplayInfo.svg
 |IconC=Workbench_FEM.svg
 }}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{GuiCommand
