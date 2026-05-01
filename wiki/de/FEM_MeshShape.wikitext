@@ -34,23 +34,21 @@ Der Befehl '''FEM NetzForm''' kann verwendet werden, um die Gittergröße innerh
 <span id="Usage"></span>
 ==Anwendung==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# To enable the command a [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape|Mesh From Shape by Gmsh]] must be provided first.
-# Select the Mesh object in the [[Tree_View|Tree View]].
-# There are several ways to invoke the command:
-#* Press the {{Button|[[Image:FEM_MeshShape.svg|16px]] [[FEM_MeshShape|Shape-Based Refinement]]}} button.
-#* Select the {{MenuCommand|Mesh → GMSH Refinements → [[Image:FEM_MeshShape.svg|16px]] Shape-Based Refinement}} option from the menu.
-# Edit the size inside and outside of the shape as well as the thickness of the transition layer between the in/out mesh sizes (added outside of the shape).
-# Select the shape from the drop-down list and adjust its location and size using the input fields or [[3D_View|3D View]] draggers:
-#* ''Box'' - set the center coordinates, length, width and height
-#* ''Sphere'' - set the center coordinates and radius
-#* ''Cylinder'' - set the center coordinates, axis and radius
-# Click the {{Button|OK}} button.
-# Close the task.
-#: Result: You now should see a new {{incode|Shape}} object under the {{incode|FEMMeshGmsh}} object in your active analysis container.
-# Double-click on the {{incode|FEMMeshGmsh}} parent object in your Model Tree and press {{Button|Apply}} to force a mesh recalculation.
-# Close the task.
-</div>
+# Um den Befehl zu aktivieren, muss zuerst ein [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/de|Netz aus Form durch Gmsh]] bereitgestellt werden.
+# Das Mesh-Objekt in der [[Tree_View/de|Baumansicht]] auswählen.
+# Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+#* Die Schaltfläche {{Button|[[Image:FEM_MeshShape.svg|16px]] [[FEM_MeshShape/de|Formbasierte Verfeinerung]]}} drücken.
+#* Aus dem Menü die Option {{MenuCommand|Netz → GMSH-Verfeinerungen → [[Image:FEM_MeshShape.svg|16px]] Formbasierte Verfeinerung}} wählen.
+# Die Größe innerhalb und außerhalb der Form sowie die Dicke der Übergangsschicht zwischen den Ein- und Auslassmaschenweiten (außerhalb der Form hinzugefügt) bearbeiten.
+# Die Form aus der Dropdown-Liste auswählen und ihre Position und Größe mithilfe der Eingabefelder oder der Schieberegler in der [[3D_View/de|3D-Ansicht]] anpassen:
+#* ''Quader'' - die Koordinaten des Mittelpunkts, die Länge, die Breite und die Höhe festlegen
+#* ''Kugel'' - die Koordinaten des Mittelpunkts und den Radius festlegen
+#* ''Zylinder'' - die Koordinaten des Mittelpunkts, die Achse und den Radius festlegen
+# Die Schaltfläche {{Button|OK}} drücken.
+# Die Aufgabe schließen.
+#: Ergebnis: Es sollte nun ein neues {{incode|Shape}}-Objekt unter dem {{incode|FEMMeshGmsh}}-Objekt im aktiven Analysecontainer zu sehen sein.
+# In der Baumansicht auf das übergeordnete Objekt {{incode|FEMMeshGmsh}} doppelklicken und auf {{Button|Anwenden}} klicken, um eine Neuberechnung des Netzes zu erzwingen.
+# Die Aufgabe schließen.
 
 Nachdem das Netz erstellt wurde, können seine Eigenschaften mit der [[Property_View/de|Eigenschaften-Ansicht]] geändert werden. Nachdem eine Eigenschaft geändert wurde, muss der Gmsh-Dialog erneut geöffnet werden und auf die Schaltfläche {{Button|Anwenden}} gedrückt werden. (Der Dialog kann während der Änderung der Eigenschaften geöffnet bleiben.)
 
