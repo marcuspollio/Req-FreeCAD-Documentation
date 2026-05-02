@@ -109,34 +109,32 @@ FreeCAD utiliza una paleta adaptada de la [https://web.archive.org/web/201909210
 {{Caption|Ejemplo de una familia de colores de 4 tonos (Camaleón)}}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-A selection of some key colors.
+Una selección de algunos colores clave.
 {| class="wikitable" style="width:70%;"
 |style="background-color:#fce94f; width:4%;"|
 |style="background-color:#edd400; width:4%;"|
 |style="background-color:#c4a000; width:4%;"|
 |style="background-color:#302b00; width:4%;"|
-|Use the Yellow tones for tools that create objects; for an example, see [[Part Workbench|Part]] and [[Draft Workbench|Draft Workbenches]].
+|Utilice los tonos amarillos para las herramientas que crean objetos; por ejemplo, consulte [[Part Workbench|Pieza]] and [[Draft Workbench|Entorno de Trabajo de Boceto]].
 |-
 |style="background-color:#729fcf;|
 |style="background-color:#3465a4;|
 |style="background-color:#204a87;|
 |style="background-color:#0b1521;|
-|Use the Blue tones for tools that modify objects; for an example, see [[Part Workbench|Part]] and [[Draft Workbench|Draft Workbenches]].
+|Utilice los tonos azules para las herramientas que modifican objetos; por ejemplo, consulte [[Part Workbench|Entorno de Trabajo de Pieza]] y [[Draft Workbench|Entorno de Trabajo de Boceto]].
 |-
 |style="background-color:#34e0e2|
 |style="background-color:#16d0d2|
 |style="background-color:#06989a|
 |style="background-color:#042a2a|
-|Use the Teal tones for view-related tools; for an example, see the [[Std_View_Menu|View Menu]].
+|Utilice los tonos verde azulados para las herramientas relacionadas con la vista; para ver un ejemplo, consulte el [[Std_View_Menu|Menú de vista]].
 |-
 |style="background-color:#ef2929|
 |style="background-color:#cc0000|
 |style="background-color:#a40000|
 |style="background-color:#280000|
-|Use the Red tones for Constraint related tools; for an example, see [[Sketcher Workbench|Sketcher Workbench]].
+|Utilice los tonos rojos para las herramientas relacionadas con restricciones; para ver un ejemplo, consulte el [[Sketcher Workbench|Entorno de Trabajo del Croquizador]]..
 |}
-</div>
 
 <div class="mw-translate-fuzzy">
 {| class="wikitable" style="width:70%;"
