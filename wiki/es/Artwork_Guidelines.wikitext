@@ -112,6 +112,7 @@ FreeCAD utiliza una paleta adaptada de la [https://web.archive.org/web/201909210
 {{Caption|Ejemplo de una familia de colores de 4 tonos (Camaleón)}}
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 A selection of some key colors.
 {| class="wikitable" style="width:70%;"
 |style="background-color:#fce94f; width:4%;"|
@@ -138,6 +139,7 @@ A selection of some key colors.
 |style="background-color:#280000|
 |Use the Red tones for Constraint related tools; for an example, see [[Sketcher Workbench|Sketcher Workbench]].
 |}
+</div>
 
 <div class="mw-translate-fuzzy">
 {| class="wikitable" style="width:70%;"
@@ -235,8 +237,10 @@ Según las directrices de Tango, si está añadiendo un efecto de iluminación d
 <span id="Recommended_recording_format"></span>
 == Formato de grabación recomendado ==
 
+<div class="mw-translate-fuzzy">
 Todos los iconos deben crearse en formato [[SVG/es|SVG]] con una aplicación de imágenes vectoriales, como [http://inkscape.org Inkscape].
 Esto facilita la aplicación de cambios y la derivación de iconos adicionales en el mismo espacio de la aplicación.
+</div>
 
 Cuando se comprometan iconos para ser utilizados directamente por FreeCAD (en un archivo *.qrc), guárdalos como "Puro SVG". Esto reducirá el tamaño del icono y ahorrará espacio en el disco y en la memoria.
 
