@@ -61,6 +61,7 @@ Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [[Featu
 <span id="Further_Core_improvements"></span>
 === Autres améliorations du noyau ===
 
+<div class="mw-translate-fuzzy">
 * La barre de recherche dans les [[Image:Std_DlgPreferences.svg|24px]] [[Std_DlgPreferences/fr|préférences]] permet désormais d'effectuer des recherches dans les infobulles, les valeurs des menus déroulants, les cases à cocher et les titres de groupe. [https://github.com/FreeCAD/FreeCAD/pull/24283 Pull request #24283]
 * L'outil [[Image:Std_Measure.svg|24px]] [[Std_Measure/fr|Mesurer]] prend désormais en charge la mesure du rayon et du diamètre des faces cylindriques. [https://github.com/FreeCAD/FreeCAD/pull/27044 Pull request #27044]
 * Sous macOS, les fichiers .FCStd prennent désormais en charge l'extension native QuickLook pour afficher une vignette du fichier dans le Finder et un aperçu complet. [https://github.com/FreeCAD/FreeCAD/pull/25239 Pull request #25239]
@@ -72,6 +73,7 @@ Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [[Featu
 * L'outil [[Image:Std_Measure.svg|24px]] [[Std_Measure/fr|Mesurer]] prend désormais en charge les faces courbes en mode ''Distance''. [https://github.com/FreeCAD/FreeCAD/pull/29367 Pull request #29367]
 * L'apparence et le positionnement des flèches des [[Image:Std_Measure.svg|24px]] [[Std_Measure/fr|mesures]] des ''angles''  ont été considérablement améliorés. [https://github.com/FreeCAD/FreeCAD/pull/27135 Pull request #27135]
 * [[Image:Std_BoxElementSelection.svg|24px]] [[Std_BoxElementSelection/fr|La sélection d'éléments de boîte]] prend désormais en compte les [[Image:Part_SelectFilter.svg|24px]] [[Part_SelectFilter/fr|filtres de sélection]]. [https://github.com/FreeCAD/FreeCAD/pull/28982 Pull request #28982]
+</div>
 
 === API ===
 
@@ -198,6 +200,7 @@ ToDo (last check: 20260430, #29258):
 <span id="Further_FEM_improvements"></span>
 === Autres améliorations de FEM ===
 
+<div class="mw-translate-fuzzy">
 * La [[Image:FEM_ConstraintElectricChargeDensity.svg|24px]] [[FEM_ElectricChargeDensity/fr|densité de charge électrique]] dispose désormais d'une case à cocher « Concentrée » dans le mode « Source totale » pour utiliser une charge concentrée au lieu d'une charge distribuée (ce qui la rend également applicable aux arêtes et aux sommets) avec CalculiX. [https://github.com/FreeCAD/FreeCAD/pull/25237 Pull request #25237]
 * Les [[Image:FEM_ResultShow.svg|24px]] [[FEM_ResultShow/fr|résultats de FEM]] prennent désormais en charge l'animation de demi-cycles en plus des cycles complets inversés. [https://github.com/FreeCAD/FreeCAD/pull/24129 Pull request #24129]
 * La fonction [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint/fr|Enregistrer les résultats par section]] prend désormais en charge les modèles 2D et le flux électrique dans les analyses électrostatiques. [https://github.com/FreeCAD/FreeCAD/pull/25081 Pull request #25081]
@@ -219,6 +222,7 @@ ToDo (last check: 20260430, #29258):
 * Le [[Image:FEM_SolverCalculixCcxtools.svg|24px]] [[FEM_SolverCalculixCcxtools/fr|solveur CalculiX]] refactorisé est désormais utilisé par défaut. [https://github.com/FreeCAD/FreeCAD/pull/29220 Pull request #29220]
 * La fonction [[Image:FEM_ConstraintSectionPrint.svg|24px]] [[FEM_ConstraintSectionPrint/fr|Enregistrer les résultats par section]] peut désormais être utilisée avec le [[Image:FEM_SolverZ88.svg|24px]] [[FEM_SolverZ88/fr|solveur Z88]]. [https://github.com/FreeCAD/FreeCAD/pull/29188 Pull request #29188]
 * Les matériaux disposent désormais de la propriété ''Material Name'', ce qui facilite l'identification des matériaux réels représentés par les objets matérial dans le conteneur d'analyse. [Pull request n° 29609 sur https://github.com/FreeCAD/FreeCAD/pull/29609]
+</div>
 
 <span id="Inspection_Workbench"></span>
 == Atelier Inspection ==
