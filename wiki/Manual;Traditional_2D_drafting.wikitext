@@ -55,7 +55,7 @@ To showcase the workflow and possibilities of the Draft Workbench, we will walk 
 <translate>
 
 <!--T:9-->
-* The Draft Preferences Panel in FreeCAD allows you to customize various aspects of your 2D drafting environment. In the '''General Settings''', you can define the default working plane, adjust decimal precision, and set the default line width, style, and color for objects. The '''Grid and Snapping''' section enables you to control grid visibility, spacing, and snapping modes, allowing for precise alignment and positioning of elements. The '''Visual Style''' options let you customize the appearance of objects and the grid, including line and fill colors. In '''Text and Dimensions''', you can configure the default text size, font, and color for annotations, ensuring clarity in technical drawings.
+* The Draft Preferences allow you to customize various aspects of your 2D drafting environment. On the '''General''' page, you can define the default working plane and adjust the decimal precision. The '''Grid and Snapping''' page enables you to control grid visibility and spacing. The '''Visual''' page lets you customize line types. On the '''Texts and Dimensions''' page, you can configure the default text size, font, and color for annotations.
 
 </translate>
 [[Image:Draft_toolbars.png]]
