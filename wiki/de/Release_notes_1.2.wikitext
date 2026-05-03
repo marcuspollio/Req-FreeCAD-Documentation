@@ -135,6 +135,7 @@ ToDo (last check: 20260430, #27222):
 <span id="Further_CAM_improvements"></span>
 === Weitere CAM-Verbesserungen ===
 
+<div class="mw-translate-fuzzy">
 * Im Dialogfeld für den G-Code-Export werden nun Zeilennummern angezeigt. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull-Request #23862]
 * Die MillFace-Funktion wurde als MillFacing mit erheblichen Verbesserungen neu implementiert. [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull-Request #24367]
 * [[CAM_SimpleCopy/de|EinfacheKopie]] ermöglicht nun die Mehrfachauswahl von Bearbeitungen. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull-Request #24297]
@@ -172,6 +173,7 @@ ToDo (last check: 20260430, #27222):
 * Es wurde ein neues Werkzeug hinzugefügt, mit dem sich Aufbereitungen spiegeln lassen. [https://github.com/FreeCAD/FreeCAD/pull/21820 Pull-Request #21820]
 * Eine schnelle Bewegung von ''Clearance Height'' zu ''Safe Height'' wurde am Anfang des [[CAM_Slot/de|Nut]]-Bearbeitungen-G-Code hinzugefügt. [https://github.com/FreeCAD/FreeCAD/pull/25845 Pull-Request #25845]
 * Das CAM-Kontextmenü wurde verbessert. [https://github.com/FreeCAD/FreeCAD/pull/26492 Pull-Request #26492]
+</div>
 
 <span id="Draft_Workbench"></span>
 == Arbeitsbereich Draft ==
@@ -324,6 +326,7 @@ ToDo (last check: 20260430, #29258):
 <span id="Further_Sketcher_improvements"></span>
 === Weitere Sketcher-Verbesserungen ===
 
+<div class="mw-translate-fuzzy">
 * Es ist nun möglich, Bézier- und Versatz-Kurven als [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection/de|externe Geometrie]] zu importieren. [https://github.com/FreeCAD/FreeCAD/pull/25144 Pull-Request #25144]
 * Werden Maße kreisförmiger Elemente bearbeitet, kann jetzt zwischen Radius und Durchmesser gewechselt werden. [https://github.com/FreeCAD/FreeCAD/pull/26794 Pull-Request #26794]
 * Die Liste der Randbedingungen zeigt jetzt die Art der Randbedingung im Namen an. [https://github.com/FreeCAD/FreeCAD/pull/26797 Pull-Request #26797]
@@ -338,6 +341,7 @@ ToDo (last check: 20260430, #29258):
 * Die Maße [[Image:Sketcher_ConstrainHorizontal.svg|24px]] [[Sketcher_ConstrainHorizontal/de|Horizontal]],[[Image:Sketcher_ConstrainVertical.svg|24px]] [[Sketcher_ConstrainVertical/de|Vertikal]] und [[Image:Sketcher_ConstrainDistance.svg|24px]] [[Sketcher_ConstrainDistance/de|Abstand]] werden nun standardmäßig so positioniert, dass Überschneidungen mit den eingeschränkten Linien vermieden werden. [https://github.com/FreeCAD/FreeCAD/pull/29538 Pull-Request #29538]
 * [[Sketcher_Workbench/de#3D_View_box_selection|Sketcher Rechteckauswahl]] berücksichtigt nun die [[Image:Part_SelectFilter.svg|24px]] [[Part_SelectFilter/de|Auswahlfilter]]. [https://github.com/FreeCAD/FreeCAD/pull/28982 Pull-Request #28982]
 * Die Bogenlängenmaße sind nun bei größeren Bogenweiten besser positioniert. [https://github.com/FreeCAD/FreeCAD/pull/29594 Pull-Request #29594]
+</div>
 
 <span id="Spreadsheet_Workbench"></span>
 == Arbeitsbereich Spreadsheet ==
