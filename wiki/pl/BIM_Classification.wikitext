@@ -34,9 +34,7 @@
 <span id="Downloading_classification_systems"></span>
 ==Pobieranie systemów klasyfikacji==
 
-<div class="mw-translate-fuzzy">
-Kilka systemów klasyfikacji jest dostępnych w formie XML lub IFC ''(oba są obsługiwane przez to narzędzie)'' ze strony https://github.com/Moult/IfcClassification, bezpośrednio od ich wydawców lub ze strony https://www.graphisoft.com/downloads/archicad/BIM_Data.html. Aby te pliki XML lub IFC były znane FreeCAD, muszą być umieszczone w katalogu BIM folderu użytkownika FreeCAD. Dokładna lokalizacja w systemie jest podana w oknie dialogowym klasyfikacji BIM. Ten folder musi być utworzony jeśli nie istnieje.
-</div>
+Kilka systemów klasyfikacji jest dostępnych w formie XML lub IFC ''(oba są obsługiwane przez to narzędzie)'' ze strony https://github.com/IfcOpenShell/IfcOpenShell/tree/v0.8.0/src/bonsai/bonsai/bim/data/classifications, bezpośrednio od ich wydawców lub ze strony https://www.graphisoft.com/downloads/archicad/BIM_Data.html. Aby te pliki XML lub IFC były znane FreeCAD, muszą być umieszczone w katalogu BIM folderu użytkownika FreeCAD. Dokładna lokalizacja w systemie jest podana w oknie dialogowym klasyfikacji BIM. Ten folder Classification musi być utworzony, jeśli nie istnieje.
 
 Jeśli dostępny jest zarówno plik IFC, jak i XML, narzędzie klasyfikacji BIM preferuje plik IFC.
 
