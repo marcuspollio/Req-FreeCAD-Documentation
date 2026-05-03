@@ -53,7 +53,7 @@ To showcase the workflow and possibilities of the Draft Workbench, we will walk 
 [[File:FreeCAD DraftPreferences.png]]
 
 <!--T:9-->
-* The Draft Preferences Panel in FreeCAD allows you to customize various aspects of your 2D drafting environment. In the '''General''' settings, you can define the default working plane, adjust decimal precision, and set the default line width, style, and color for objects. The '''Grid and snapping''' section enables you to control grid visibility, spacing, and snapping modes, allowing for precise alignment and positioning of elements. The '''Visual''' options let you customize the appearance of objects and the grid, including line and fill colors. In '''Texts and dimensions''', you can configure the default text size, font, and color for annotations, ensuring clarity in technical drawings.
+* The Draft Preferences Panel in FreeCAD allows you to customize various aspects of your 2D drafting environment. In the '''General Settings''', you can define the default working plane, adjust decimal precision, and set the default line width, style, and color for objects. The '''Grid and Snapping''' section enables you to control grid visibility, spacing, and snapping modes, allowing for precise alignment and positioning of elements. The '''Visual Style''' options let you customize the appearance of objects and the grid, including line and fill colors. In '''Text and Dimensions''', you can configure the default text size, font, and color for annotations, ensuring clarity in technical drawings.
 
 <!--T:10-->
 [[Image:Draft_toolbars.png]]
@@ -75,7 +75,7 @@ Let's begin laying out the basic shape of our floorplan.
 This keyboard-driven workflow speeds up drafting, especially when working with repetitive tasks or precision input, making it ideal for users looking to streamline their workflow. You can view the keystrokes for every object by hovering over the corresponding button.
 
 <!--T:115-->
-*Duplicate that rectangle 15cm smaller by using the [[Image:Draft_Offset.svg|16px]] [[Draft_Offset|Offset]] tool, placing the cursor inside the rectangle, turning on Copy mode, and giving it a distance of 15cm:
+* Duplicate that rectangle by 15cm inside, using the [[Image:Draft_Offset.svg|16px]] [[Draft_Offset|Offset]] tool, turning its Copy mode on, and giving it a distance of 15cm:
 
 <!--T:12-->
 [[Image:Exercise_cabin_02.png]]
@@ -95,7 +95,7 @@ This keyboard-driven workflow speeds up drafting, especially when working with r
 
 <!--T:15-->
 * That is all we need now, so we can switch construction mode off. Check that all the construction geometry has been placed into a "Construction" group, which makes it easy to hide it all at once or even delete it completely later on.
-* Now let's draw our two wall pieces using the [[Image:Draft_Wire.svg|16px]] [[Draft_Wire|Wire]] tool. Make sure the [[Image:Draft_Snap_Intersection.svg|16px]] [[Draft_Snap|intersection snap]] is turned on, as we will need to snap to the intersections of our lines and rectangles. Draw two wires as follows, by clicking all the points of their contours. To close them, either click on the first point again or press the '''Close (O)''' button:
+* Now let's draw our two wall pieces using the [[Image:Draft_Wire.svg|16px]] [[Draft_Wire|Wire]] tool. Make sure the [[Image:Draft_Snap_Intersection.svg|16px]] [[Draft_Snap|intersection snap]] is turned on, as we will need to snap to the intersections of our lines and rectangles. Draw two wires as follows, by clicking all the points of their contours. To close them, either click on the first point again or press the '''Close''' button:
 
 <!--T:16-->
 [[Image:Exercise_cabin_04.jpg]]
@@ -123,7 +123,7 @@ This keyboard-driven workflow speeds up drafting, especially when working with r
 <!--T:23-->
 * We can now start placing some furniture. To begin with, let's place a counter by drawing a rectangle from the upper left inner corner, and giving it a width of 170cm and a height of -60cm. In the image below, the '''Transparency''' property of the rectangle is set to 80%, to give it a nice furniture look.
 * Then let's add a sink and a cooktop. Drawing these kinds of symbols by hand can be very tedious, and they are usually easy to find on the internet, for example on http://www.cad-blocks.net. In the '''Downloads''' section below, for convenience, we separated a sink and a cooktop from this project and saved them as DXF files. You can download these two files by visiting the links below, and right-clicking the '''Raw''' button, then choosing '''save as'''.
-* Inserting a DXF file into an opened FreeCAD document can be done either by choosing the '''File → Import''' menu option, or by dragging and dropping the DXF file from your file explorer into the FreeCAD window. The contents of the DXF files might not appear right on the center of your current view, depending on where they were in the DXF file. You can use the menu '''View → Standard views → Fit all''' to zoom out and find the imported objects. Insert the two DXF files, and move them to a suitable location on the tabletop:
+* Inserting a DXF file into an opened FreeCAD document can be done either by choosing the '''File → Import''' menu option, or by dragging and dropping the DXF file from your file explorer into the FreeCAD window. The contents of the DXF files might not appear right on the center of your current view, depending on where they were in the DXF file. You can use the menu '''View → Standard views → Fit all''' to zoom out and find the imported objects. Insert the two DXF files. Select all the entities of each pattern in the tree, and use the Move tool (M,V) to move them to a suitable location on the tabletop:
 
 <!--T:24-->
 [[Image:Exercise_cabin_08.jpg]]
