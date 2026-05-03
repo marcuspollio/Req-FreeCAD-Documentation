@@ -137,6 +137,7 @@ Do [[CAM_Preferences/pl|Preferencji środowiska pracy CAM]] dodano Bibliotekę m
 <span id="Further_CAM_improvements"></span>
 ===Pozostałe ulepszenia środowiska CAM===
 
+<div class="mw-translate-fuzzy">
 * Okno dialogowe eksportu G-code pokazuje teraz numery linii. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull request #23862]
 * Operacja MillFace została ponownie zaimplementowana z istotnymi ulepszeniami jako MillFacing. [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull request #24367]
 * [[CAM_SimpleCopy/pl|Szybka kopia]] pozwala teraz na wybór wielu operacji. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull request #24297]
@@ -174,6 +175,7 @@ Do [[CAM_Preferences/pl|Preferencji środowiska pracy CAM]] dodano Bibliotekę m
 * Dodane zostało nowe narzędzie umożliwiające tworzenie odbić lustrzanych wykończeń. [https://github.com/FreeCAD/FreeCAD/pull/21820 Pull request #21820]
 * Dodany został szybki ruch z ''Clearance Height'' do ''Safe Height'' na początku kodu G operacji [[CAM_Slot/pl|Rowek]]. [https://github.com/FreeCAD/FreeCAD/pull/25845 Pull request #25845]
 * Usprawione zostało menu kontekstowe środowiska CAM. [https://github.com/FreeCAD/FreeCAD/pull/26492 Pull request #26492]
+</div>
 
 <span id="Draft_Workbench"></span>
 ==Środowisko pracy Rysunek Roboczy==
@@ -326,6 +328,7 @@ ToDo (last check: 20260430, #29258):
 <span id="Further_Sketcher_improvements"></span>
 ===Pozostałe ulepszenia środowiska Szkicownik===
 
+<div class="mw-translate-fuzzy">
 * Możliwe jest już importowanie krzywych typu Bézier i Offset jako [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection/pl|Geometrii zewnętrznej]]. [https://github.com/FreeCAD/FreeCAD/pull/25144 Pull request #25144]
 * Podczas tworzenia lub edycji wymiarów kołowych, możliwe jest przełączanie między promieniem a średnicą. [https://github.com/FreeCAD/FreeCAD/pull/26794 Pull request #26794]
 * Lista wiązań zawiera teraz typ wiązania w jego nazwie. [https://github.com/FreeCAD/FreeCAD/pull/26797 Pull request #26797]
@@ -340,6 +343,7 @@ ToDo (last check: 20260430, #29258):
 * Wymiary [[Image:Sketcher_ConstrainHorizontal.svg|24px]] [[Sketcher_ConstrainHorizontal/pl|Poziome]],[[Image:Sketcher_ConstrainVertical.svg|24px]] [[Sketcher_ConstrainVertical/pl|Pionowe]] i [[Image:Sketcher_ConstrainDistance.svg|24px]] [[Sketcher_ConstrainDistance/pl|Odległości]] są teraz lepiej pozycjonowane domyślnie, aby unikać nakładania się ich z wymiarowanymi liniami. [https://github.com/FreeCAD/FreeCAD/pull/29538 Pull request #29538]
 * [[Sketcher_Workbench/pl#Zaznaczanie_obszarem_w_widoku_3D|Zaznaczanie obszarem w Szkicowniku]] bierze teraz pod uwagę [[Image:Part_SelectFilter.svg|24px]] [[Part_SelectFilter/pl|filtry wyboru]]. [https://github.com/FreeCAD/FreeCAD/pull/28982 Pull request #28982]
 * Wymiary długości łuku są teraz lepiej pozycjonowane dla łuków o większych rozpiętościach. [https://github.com/FreeCAD/FreeCAD/pull/29594 Pull request #29594]
+</div>
 
 <span id="Spreadsheet_Workbench"></span>
 ==Środowisko pracy Arkusz Kalkulacyjny==
