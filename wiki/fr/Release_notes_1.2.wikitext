@@ -135,6 +135,7 @@ ToDo (last check: 20260430, #27222):
 <span id="Further_CAM_improvements"></span>
 === Autres améliorations de CAM ===
 
+<div class="mw-translate-fuzzy">
 * La boîte de dialogue d'exportation du G-code affiche désormais les numéros de ligne. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull request #23862]
 * L'opération « MillFace » a été réimplémentée avec des améliorations significatives sous le nom de « MillFacing ». [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull request #24367]
 * [[CAM_SimpleCopy/fr|Copie simple]] permet désormais la sélection multiple d'opérations. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull request #24297]
@@ -172,6 +173,7 @@ ToDo (last check: 20260430, #27222):
 * Un nouvel outil a été ajouté pour permettre la mise en miroir des habillages. [https://github.com/FreeCAD/FreeCAD/pull/21820 Pull request #21820]
 * Un passage rapide de ''Clearance Height'' à ''Safe Height'' a été ajouté au début du G-code de l'opération [[CAM_Slot/fr|Rainure]]. [https://github.com/FreeCAD/FreeCAD/pull/25845 Pull request #25845]
 * Le menu contextuel CAM a été amélioré. [https://github.com/FreeCAD/FreeCAD/pull/26492 Pull request #26492]
+</div>
 
 <span id="Draft_Workbench"></span>
 == Atelier Draft ==
@@ -324,6 +326,7 @@ ToDo (last check: 20260430, #29258):
 <span id="Further_Sketcher_improvements"></span>
 === Autres améliorations de Sketcher ===
 
+<div class="mw-translate-fuzzy">
 * Il est désormais possible d'importer des courbes de Bézier et de décalage en tant que [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection/fr|géométries externes]]. [https://github.com/FreeCAD/FreeCAD/pull/25144 Pull request #25144]
 * Lors de la création ou de la modification de dimensions circulaires, il est désormais possible de basculer entre rayon et diamètre. [https://github.com/FreeCAD/FreeCAD/pull/26794 Pull request #26794]
 * La liste des contraintes affiche désormais le type de contrainte dans le nom. [https://github.com/FreeCAD/FreeCAD/pull/26797 Pull request #26797]
@@ -338,6 +341,7 @@ ToDo (last check: 20260430, #29258):
 * Les dimensions [[Image:Sketcher_ConstrainHorizontal.svg|24px]] [[Sketcher_ConstrainHorizontal/fr|horizontales]], [[Image:Sketcher_ConstrainVertical.svg|24px]] [[Sketcher_ConstrainVertical/fr|verticales]] et les [[Image:Sketcher_ConstrainDistance.svg|24px]] [[Sketcher_ConstrainDistance/fr|distances]] sont désormais mieux positionnées par défaut afin d'éviter tout chevauchement avec les lignes contraintes. [https://github.com/FreeCAD/FreeCAD/pull/29538 Pull request #29538]
 * La [[Sketcher_Workbench/fr#Sélection_par_une_boîte_dans_la_vue_3D|sélection par boîte dans Sketcher]] prend désormais en compte les [[Image:Part_SelectFilter.svg|24px]] [[Part_SelectFilter/fr|filtres de sélection]]. [https://github.com/FreeCAD/FreeCAD/pull/28982 Pull request #28982]
 * Les dimensions des longueurs des arcs sont désormais mieux positionnées pour les arcs de plus grande envergure. [https://github.com/FreeCAD/FreeCAD/pull/29594 Pull request #29594]
+</div>
 
 <span id="Spreadsheet_Workbench"></span>
 == Atelier Spreadsheet ==
