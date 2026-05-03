@@ -38,9 +38,7 @@ Es stehen mehrere Klassifizierungssysteme in XML- oder IFC-Form zur Verfügung (
 
 Wenn sowohl eine IFC- als auch eine XML-Datei vorhanden sind, wird das BIM-Klassifizierungswerkzeug die IFC-Datei bevorzugen.
 
-<div class="mw-translate-fuzzy">
-Es gibt ein [[Macro_Download_Classifications/de|nützliches Makro]], das alle bereitgestellten Systeme von https://github.com/Moult/IfcClassification herunterladen und direkt in den richtigen Ordner ablegen kann. Nach dem Ausführen des Makros ist dieses Werkzeug einsatzbereit.
-</div>
+Es gibt ein [[Macro_Download_Classifications/de|nützliches Makro]], das alle bereitgestellten Systeme von https://github.com/Moult/IfcClassification herunterladen und direkt in den richtigen Ordner ablegen kann. Nach dem Ausführen des Makros ist dieses Werkzeug einsatzbereit. Man beachte, dass ein Klassifizierungssystem, das aus dieser Quelle geladen wurde, veraltet sein könnte.
 
 
 {{Docnav/de
