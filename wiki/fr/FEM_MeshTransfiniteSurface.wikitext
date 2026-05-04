@@ -33,7 +33,6 @@ La commande '''FEM Surface structurée transfinie''' crée un maillage structur�
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
 # Pour activer la commande, il faut d'abord fournir un [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/fr|maillage Gmsh]].
 # Sélectionnez l'objet Mesh dans l'[[Tree_View/fr|arborescence]].
 # Il existe plusieurs façons de lancer la commande :
@@ -42,13 +41,12 @@ La commande '''FEM Surface structurée transfinie''' crée un maillage structur�
 # Vous pouvez cocher la case ''Recombiner'' pour activer la recombinaison des éléments triangulaires en éléments quadrilatéraux.
 # Si la recombinaison n'est pas activée, sélectionnez l'orientation des triangles : Gauche, Droite, Droite inversée ou Gauche inversée
 # Vous pouvez cocher la case ''Appliquer automatiquement les courbes transfinies'' et spécifier le nombre de nœuds, la distribution (Constante, Densification bilatérale, Densification bilatérale inversée, Progression ou Progression inversée) et le coefficient correspondant.
-# Appuyez sur le bouton {{Button|Ajouter}}. Sélectionnez un sommet ou une face. Pour supprimer des objets de la sélection, appuyez sur le bouton {{Button|Supprimer}}.
+# Appuyez sur le bouton {{Button|Ajouter}}. Sélectionnez une face (et, si nécessaire, un ou plusieurs sommets). Pour supprimer des objets de la sélection, appuyez sur le bouton {{Button|Supprimer}}.
 # Cliquez sur le bouton {{Button|OK}}.
 # Fermez la tâche.
 #: Résultat : vous devriez maintenant voir un nouvel objet {{incode|TransfiniteSurface}} sous l'objet {{incode|FEMMeshGmsh}} dans votre conteneur d'analyse actif.
 # Double-cliquez sur l'objet parent {{incode|FEMMeshGmsh}} dans votre arborescence de modèle et appuyez sur {{Button|Appliquer}} pour forcer un recalcul du maillage.
 # Fermez la tâche.
-</div>
 
 Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l'aide de l'[[Property_View/fr|éditeur de propriétés]]. Après avoir modifié une propriété, vous devez rouvrir la fenêtre de dialogue Gmsh et cliquer sur le bouton {{Button|Appliquer}}. (Vous pouvez laisser la fenêtre de dialogue ouverte pendant la modification des propriétés).
 
