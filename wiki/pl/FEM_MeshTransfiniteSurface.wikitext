@@ -59,9 +59,8 @@ Możesz tworzyć tyle różnych powierzchni transfinite, ile potrzeba.
 <span id="Notes"></span>
 ==Uwagi==
 
-<div class="mw-translate-fuzzy">
+* Wybór wierzchołków może być opcjonalnie użyty do zdefiniowania "czubka" powierzchni 3-stronnej. Jest również potrzebny dla ścian o więcej niż 4 krawędziach do wskazania 3 lub 4 wierzchołków narożnikowych.
 * Użycie tego narzędzia z włączonymi polami ''Automatycznie zastosuj krzywe transfinite'' oraz ''Rekombinacja'' to najprostszy sposób wygenerowania strukturalnych siatek elementów czworokątnych przy pomocy algorytmu transfinite generatora siatki Gmsh. Wszystkie podrzędne ściany muszą mieć jednak 3 lub 4 krawędzie.
-</div>
 
 [[File:FEM_transfinite_surface.png|400px]]
 {{Caption|Siatka powierzchniowa transfinite (strukturalna)}}
