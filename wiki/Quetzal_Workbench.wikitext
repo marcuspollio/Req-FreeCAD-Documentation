@@ -5,14 +5,14 @@
 
 '''Quetzal workbench''' is an [https://www.freecad.org/addons.php external workbench] for designing piping systems. It is a fork of the [[Flamingo_Workbench|Dodo and Flamingo workbenches]] which were initially designed for structural framing and piping design.
 
-== Interfaces ==
+== Tools ==
 
-The user interface consists of three toolbars and menus:
+The tools are organized in three toolbars and menus:
 
 === Pipe Tools ===
 
-[[File:Pipe Tools toolbar r1.png|alt=Pipe tools toolbar|Pipe tools toolbar]]
-{{Caption|Pipe tools toolbar}}
+[[File:Pipe Tools toolbar r1.png|alt=Pipe Tools toolbar|Pipe Tools toolbar]]
+{{Caption|Pipe Tools toolbar}}
 
 * Insert Pipe - Loads the Insert Pipes form to insert a section of pipe of a selected schedule, nominal diameter, and length.
 * Insert Elbow - Loads the Insert Elbow form to insert an elbow of a selected schedule/rating and nominal diameter. Optional input boxes allow overriding of the default bend angle and bend radius for butt welded fittings. A rotation dial allows the fitting to be rotated after insertion.
