@@ -34,7 +34,6 @@ Narzędzie '''Manipulacja zagęszczeniem''' pozwala manipulować wynikiem zagęs
 <span id="Usage"></span>
 ==Użycie==
 
-<div class="mw-translate-fuzzy">
 # Aby skorzystać z tego polecenia, potrzebna jest [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/pl|siatka wygenerowana przez Gmsh]].
 # Wybierz obiekt siatki w [[Tree_View/pl|Widoku drzewa]].
 # Istnieje kilka sposobów na wywołanie tego polecenia:
@@ -46,7 +45,7 @@ Narzędzie '''Manipulacja zagęszczeniem''' pozwala manipulować wynikiem zagęs
 #* ''Próg'' - stosuj próg na wartości zagęszczenia podrzędnego:
 #** Użyj pól wartość wejściowa vs rozmiar wyjściowy do sterowania progami
 #** Opcjonalnie, użyj pola ''Interpolacja liniowa'', aby określić czy interpolacja rozmiar siatki między rozmiarem minimalnym a maksymalnym powinna być funkcją liniową czy sigmoidalną
-#** Opcjonalnie, użyj pola ''Zatrzymaj przy maksymalnym wejściu''
+#** Opcjonalnie, użyj pola ''Zatrzymaj przy maksymalnym wejściu'' - pozostaw je włączone, aby nie definiować rozmiaru siatki poza ''Distance Maximum''
 #* ''Średnia'' - oblicza średnią wartość zagęszczenia podrzędnego G
 #** Zdefiniuj parametr ''Delta''
 #* ''Gradient'' - oblicza gradient różnicy skończonej zagęszczenia podrzędnego G
@@ -67,7 +66,6 @@ Narzędzie '''Manipulacja zagęszczeniem''' pozwala manipulować wynikiem zagęs
 # Przeciągnij zagęszczenie, które powinno zostać zmienione do obiektu {{incode|Manipulate}} w drzewie dokumentu. Zagęszczenie będzie zgrupowane pod obiektem {{incode|Manipulate}}.
 # Dwukrotnie kliknij na obiekcie nadrzędnym {{incode|FEMMeshGmsh}} w drzewie modelu i kliknij {{Button|Zastosuj}}, aby wymusić przebudowanie siatki.
 # Zamknij panel zadań.
-</div>
 
 Po utworzeniu siatki możesz zmienić jej właściwości przy pomocy [[Property_View/pl|Widoku właściwości]]. Po zmianie właściwości należy ponownie otworzyć okno dialogowe Gmsh i wcisnąć przycisk {{Button|Zastosuj}}. (Możesz zostawić okno dialogowe otwarte podczas zmieniania właściwości.)
 
