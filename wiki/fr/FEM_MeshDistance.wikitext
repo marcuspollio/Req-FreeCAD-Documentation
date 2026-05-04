@@ -33,15 +33,14 @@ La commande '''FEM Maillage fonction de la distance''' permet de définir la tai
 <span id="Usage"></span>
 ==Utilisation==
 
-<div class="mw-translate-fuzzy">
 # Pour activer la commande, il faut d'abord fournir un [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/fr|maillage Gmsh]].
 # Sélectionnez l'objet Mesh dans l'[[Tree_View/fr|arborescence]].
 # Il existe plusieurs façons de lancer la commande :
 #* Appuyez sur le bouton {{Button|[[Image:FEM_MeshDistance.svg|16px]] [[FEM_MeshDistance/fr|Densification fonction de la distance]]}}.
 #* Sélectionnez l'option {{MenuCommand|Maillage → Densifications sous Gmsh → [[Image:FEM_MeshDistance.svg|16px]] Densification fonction de la distance}} du menu.
 # Modifiez les quatre champs distance versus taille. De haut en bas et de gauche à droite :
-#* Taille de maillage lorsque la distance est < à la distance minimum.
 #* Taille de maillage lorsque la distance est = à la distance maximum.
+#* Taille de maillage lorsque la distance est < à la distance minimum.
 #* Distance jusqu'à laquelle la taille du maillage sera = à la taille minimum.
 #* Distance à laquelle la taille de maillage sera = à la taille maximum.
 # Vous pouvez modifier le champ ''Interpolation : linéaire'' pour définir si l'interpolation de la taille du maillage entre la taille minimum et la taille maximum doit être linéaire ou sigmoïde.
@@ -56,7 +55,6 @@ La commande '''FEM Maillage fonction de la distance''' permet de définir la tai
 #: Résultat : vous devriez maintenant voir un nouvel objet {{incode|Distance}} sous l'objet {{incode|FEMMeshGmsh}} dans votre conteneur d'analyse actif.
 # Double-cliquez sur l'objet parent {{incode|FEMMeshGmsh}} dans votre arborescence de modèle et cliquez sur {{Button|Appliquer}} pour forcer un recalcul du maillage.
 # Fermez la tâche.
-</div>
 
 Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l'aide de l'[[Property_View/fr|éditeur de propriétés]]. Après avoir modifié une propriété, vous devez rouvrir la fenêtre de dialogue Gmsh et cliquer sur le bouton {{Button|Appliquer}}. (Vous pouvez laisser la fenêtre de dialogue ouverte pendant la modification des propriétés).
 
