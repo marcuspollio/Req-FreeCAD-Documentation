@@ -135,7 +135,6 @@ ToDo (last check: 20260430, #27222):
 <span id="Further_CAM_improvements"></span>
 === Autres améliorations de CAM ===
 
-<div class="mw-translate-fuzzy">
 * La boîte de dialogue d'exportation du G-code affiche désormais les numéros de ligne. [https://github.com/FreeCAD/FreeCAD/pull/23862 Pull request #23862]
 * L'opération « MillFace » a été réimplémentée avec des améliorations significatives sous le nom de « MillFacing ». [https://github.com/FreeCAD/FreeCAD/pull/24367 Pull request #24367]
 * [[CAM_SimpleCopy/fr|Copie simple]] permet désormais la sélection multiple d'opérations. [https://github.com/FreeCAD/FreeCAD/pull/24297 Pull request #24297]
@@ -173,7 +172,10 @@ ToDo (last check: 20260430, #27222):
 * Un nouvel outil a été ajouté pour permettre la mise en miroir des habillages. [https://github.com/FreeCAD/FreeCAD/pull/21820 Pull request #21820]
 * Un passage rapide de ''Clearance Height'' à ''Safe Height'' a été ajouté au début du G-code de l'opération [[CAM_Slot/fr|Rainure]]. [https://github.com/FreeCAD/FreeCAD/pull/25845 Pull request #25845]
 * Le menu contextuel CAM a été amélioré. [https://github.com/FreeCAD/FreeCAD/pull/26492 Pull request #26492]
-</div>
+* La commande [[CAM_Engrave/fr|Gravure]] dispose désormais de deux nouvelles propriétés : ''Pattern'' (permet d'inverser le sens après une descente pour éviter le retrait) et ''Reverse'' (force le changement de sens). [https://github.com/FreeCAD/FreeCAD/pull/22226 Pull request #22226]
+* La liaison prend désormais en compte la forme de l'outil. [https://github.com/FreeCAD/FreeCAD/pull/28180 Pull request #28180]
+* La fonction Jitter de l'outil Réseau a été améliorée. [https://github.com/FreeCAD/FreeCAD/pull/26326 Pull request #26326]
+* La fonction HandleMultipleFeatures peut désormais traiter davantage de cas pour l'opération [[CAM_Area/fr|Surface]]. [https://github.com/FreeCAD/FreeCAD/pull/26867 Pull request #26867]
 
 <span id="Draft_Workbench"></span>
 == Atelier Draft ==
