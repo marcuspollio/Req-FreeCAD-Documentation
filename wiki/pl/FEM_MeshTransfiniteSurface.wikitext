@@ -34,7 +34,6 @@ Narzędzie '''Strukturalna powierzchnia transfinite''' tworzy strukturalną siat
 <span id="Usage"></span>
 ==Użycie==
 
-<div class="mw-translate-fuzzy">
 # Aby skorzystać z tego polecenia, potrzebna jest [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/pl|siatka wygenerowana przez Gmsh]].
 # Wybierz obiekt siatki w [[Tree_View/pl|Widoku drzewa]].
 # Istnieje kilka sposobów na wywołanie tego polecenia:
@@ -43,13 +42,12 @@ Narzędzie '''Strukturalna powierzchnia transfinite''' tworzy strukturalną siat
 # Opcjonalnie, użyj pola ''Rekombinacja'', aby włączyć rekombinację elementów trójkątnych w czworokątne.
 # Jeśli rekombinacja nie jest włączona, wybierz orientację trójkąta: Lewo, Prawo, AlternatywniePrawo, AlternatywnieLewo
 # Opcjonalnie, użyj pola ''Automatycznie zastosuj krzywe transfinite'' i określ liczbę węzłów, rozkład (Stały, Obustronne zagęszczenie, Odwrócone obustronne zagęszczenie, Progresja lub Progresja odwrócona) i odpowiedni współczynnik.
-# Wciśnij przycisk {{Button|Dodaj}}. Wybierz wierzchołek lub ścianę. Aby usunąć obiekty z zaznaczenia, wciśnij przycisk {{Button|Usuń}}.
+# Wciśnij przycisk {{Button|Dodaj}}. Wybierz ścianę (i jeśli potrzeba również wierzchołek lub kilka wierzchołków). Aby usunąć obiekty z zaznaczenia, wciśnij przycisk {{Button|Usuń}}.
 # Wciśnij przycisk {{Button|OK}}.
 # Zamknij panel zadań.
 #: Wynik: Powinieneś teraz widzieć nowy obiekt {{incode|TransfiniteSurface}} pod obiektem {{incode|FEMMeshGmsh}} w aktywnym kontenerze analizy.
 # Dwukrotnie kliknij na obiekcie nadrzędnym {{incode|FEMMeshGmsh}} w drzewie modelu i kliknij {{Button|Zastosuj}}, aby wymusić przebudowanie siatki.
 # Zamknij panel zadań.
-</div>
 
 Po utworzeniu siatki możesz zmienić jej właściwości przy pomocy [[Property_View/pl|Widoku właściwości]]. Po zmianie właściwości należy ponownie otworzyć okno dialogowe Gmsh i wcisnąć przycisk {{Button|Zastosuj}}. (Możesz zostawić okno dialogowe otwarte podczas zmieniania właściwości.)
 
