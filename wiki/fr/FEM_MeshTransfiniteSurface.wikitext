@@ -58,9 +58,8 @@ Vous pouvez créer autant de surfaces différentes transfinies que nécessaire.
 <span id="Notes"></span>
 ==Remarques==
 
-<div class="mw-translate-fuzzy">
+* La sélection des sommets peut être utilisée, si nécessaire, pour définir la « pointe » d'une surface à trois côtés. Elle est également nécessaire pour les faces comportant plus de quatre arêtes, afin de sélectionner les trois ou quatre sommets d'angle.
 * L'utilisation de cet outil avec les cases  ''Appliquer automatiquement les surfaces et courbes transfinies'' et ''Recombiner'' cochées constitue le moyen le plus simple de générer des maillages quadrilatéraux structurés à l'aide de l'algorithme transfini de Gmsh. Toutes les sous-faces doivent toutefois comporter 3 ou 4 arêtes.
-</div>
 
 [[File:FEM_transfinite_surface.png|400px]]
 {{Caption|Maillage de surface transfinie (structurée)}}
