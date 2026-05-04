@@ -33,6 +33,7 @@ La commande '''FEM Surface structurée transfinie''' crée un maillage structur�
 <span id="Usage"></span>
 ==Utilisation==
 
+<div class="mw-translate-fuzzy">
 # Pour activer la commande, il faut d'abord fournir un [[Image:FEM_MeshGmshFromShape.svg|16px]] [[FEM_MeshGmshFromShape/fr|maillage Gmsh]].
 # Sélectionnez l'objet Mesh dans l'[[Tree_View/fr|arborescence]].
 # Il existe plusieurs façons de lancer la commande :
@@ -47,6 +48,7 @@ La commande '''FEM Surface structurée transfinie''' crée un maillage structur�
 #: Résultat : vous devriez maintenant voir un nouvel objet {{incode|TransfiniteSurface}} sous l'objet {{incode|FEMMeshGmsh}} dans votre conteneur d'analyse actif.
 # Double-cliquez sur l'objet parent {{incode|FEMMeshGmsh}} dans votre arborescence de modèle et appuyez sur {{Button|Appliquer}} pour forcer un recalcul du maillage.
 # Fermez la tâche.
+</div>
 
 Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l'aide de l'[[Property_View/fr|éditeur de propriétés]]. Après avoir modifié une propriété, vous devez rouvrir la fenêtre de dialogue Gmsh et cliquer sur le bouton {{Button|Appliquer}}. (Vous pouvez laisser la fenêtre de dialogue ouverte pendant la modification des propriétés).
 
@@ -58,7 +60,9 @@ Vous pouvez créer autant de surfaces différentes transfinies que nécessaire.
 <span id="Notes"></span>
 ==Remarques==
 
+<div class="mw-translate-fuzzy">
 * L'utilisation de cet outil avec les cases  ''Appliquer automatiquement les surfaces et courbes transfinies'' et ''Recombiner'' cochées constitue le moyen le plus simple de générer des maillages quadrilatéraux structurés à l'aide de l'algorithme transfini de Gmsh. Toutes les sous-faces doivent toutefois comporter 3 ou 4 arêtes.
+</div>
 
 [[File:FEM_transfinite_surface.png|400px]]
 {{Caption|Maillage de surface transfinie (structurée)}}
