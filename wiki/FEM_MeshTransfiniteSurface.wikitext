@@ -67,6 +67,7 @@ You can create as many different transfinite surfaces as needed.
 ==Notes== <!--T:13-->
 
 <!--T:14-->
+* Vertex selection can be optionally used to define the "tip" of a 3-sided surface. It is also needed for faces with more than 4 edges to select the 3 or 4 corner vertices.
 * Using this tool with the ''Auto apply transfinite curves'' and ''Recombine'' checkboxes enabled is the easiest way to generate structured quadrilateral meshes using the transfinite Gmsh algorithm. All subfaces must have 3 or 4 edges, though.
 
 </translate>
