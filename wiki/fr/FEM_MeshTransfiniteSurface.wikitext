@@ -41,7 +41,7 @@ La commande '''FEM Surface structurée transfinie''' crée un maillage structur�
 # Vous pouvez cocher la case ''Recombiner'' pour activer la recombinaison des éléments triangulaires en éléments quadrilatéraux.
 # Si la recombinaison n'est pas activée, sélectionnez l'orientation des triangles : Gauche, Droite, Droite inversée ou Gauche inversée
 # Vous pouvez cocher la case ''Appliquer automatiquement les courbes transfinies'' et spécifier le nombre de nœuds, la distribution (Constante, Densification bilatérale, Densification bilatérale inversée, Progression ou Progression inversée) et le coefficient correspondant.
-# Appuyez sur le bouton {{Button|Ajouter}}. Sélectionnez une face (et, si nécessaire, un ou plusieurs sommets). Pour supprimer des objets de la sélection, appuyez sur le bouton {{Button|Supprimer}}.
+# Cliquez sur le bouton {{Button|Ajouter}}. Sélectionnez une face (et, si nécessaire, un ou plusieurs sommets). Pour supprimer des objets de la sélection, cliquez sur le bouton {{Button|Supprimer}}.
 # Cliquez sur le bouton {{Button|OK}}.
 # Fermez la tâche.
 #: Résultat : vous devriez maintenant voir un nouvel objet {{incode|TransfiniteSurface}} sous l'objet {{incode|FEMMeshGmsh}} dans votre conteneur d'analyse actif.
