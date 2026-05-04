@@ -15,11 +15,10 @@
 == Description == <!--T:2-->
 '''WORK IN PROGRES Many changes and additions are coming.'''
 
-The macro SpreadsheetDependencyInspector displays, for a selection of spreadsheet cells, all dependencies between spreadsheet cells and even between a cell and object properties. Everything is shown as an expandable tree that displays the cell name, its alias, its formula, and its value. Three display modes:
-
+The macro SpreadsheetDependencyInspector displays, for a selection of spreadsheet cells, all dependencies between spreadsheet cells and even between a cell and object properties. Everything is shown as an expandable tree that displays the cell name, its alias, its formula, and its value. It displays 
 * Cells that use other cells
 * Cells that are used by other cells
-* Both directions
+
 
 The macro is multilingual, currently supporting English and French. The language used is the one you selected in your FreeCAD preferences.
 </translate>
