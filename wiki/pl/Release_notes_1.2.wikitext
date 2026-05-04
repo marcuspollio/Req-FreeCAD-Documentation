@@ -330,7 +330,6 @@ ToDo (last check: 20260430, #29258):
 <span id="Further_Sketcher_improvements"></span>
 ===Pozostałe ulepszenia środowiska Szkicownik===
 
-<div class="mw-translate-fuzzy">
 * Możliwe jest już importowanie krzywych typu Bézier i Offset jako [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection/pl|Geometrii zewnętrznej]]. [https://github.com/FreeCAD/FreeCAD/pull/25144 Pull request #25144]
 * Podczas tworzenia lub edycji wymiarów kołowych, możliwe jest przełączanie między promieniem a średnicą. [https://github.com/FreeCAD/FreeCAD/pull/26794 Pull request #26794]
 * Lista wiązań zawiera teraz typ wiązania w jego nazwie. [https://github.com/FreeCAD/FreeCAD/pull/26797 Pull request #26797]
@@ -342,10 +341,9 @@ ToDo (last check: 20260430, #29258):
 * Wybrane wiązania odległości (punkt-linia, okrąg-okrąg oraz okrąg-linia) wykorzystują teraz orientację, aby zapobiegać [[Sketcher_Workbench/pl#Flipping|odwracaniu]]. [https://github.com/FreeCAD/FreeCAD/pull/26518 Pull request #26518]
 * Opcja ''Utwórz wiązania symetrii'' narzędzia [[Image:Sketcher_Symmetry.svg|24px]] [[Sketcher_Symmetry/pl|Symetria]] została ulepszona, aby unikać nadmiarowych więzów. Jest ona teraz również domyślnie włączona. [https://github.com/FreeCAD/FreeCAD/pull/28118 Pull request #28118] oraz [https://github.com/FreeCAD/FreeCAD/pull/28319 Pull request #28319]
 * Dostępny jest teraz przycisk ''Anuluj'', który pozwala odrzucić modyfikacje w szkicu.  [https://github.com/FreeCAD/FreeCAD/pull/29337 Pull request #29337]
-* Wymiary [[Image:Sketcher_ConstrainHorizontal.svg|24px]] [[Sketcher_ConstrainHorizontal/pl|Poziome]],[[Image:Sketcher_ConstrainVertical.svg|24px]] [[Sketcher_ConstrainVertical/pl|Pionowe]] i [[Image:Sketcher_ConstrainDistance.svg|24px]] [[Sketcher_ConstrainDistance/pl|Odległości]] są teraz lepiej pozycjonowane domyślnie, aby unikać nakładania się ich z wymiarowanymi liniami. [https://github.com/FreeCAD/FreeCAD/pull/29538 Pull request #29538]
+* Wymiary [[Image:Sketcher_ConstrainDistanceX.svg|24px]] [[Sketcher_ConstrainDistanceX/pl|Poziome]],[[Image:Sketcher_ConstrainDistanceY.svg|24px]] [[Sketcher_ConstrainDistanceY/pl|Pionowe]] i [[Image:Sketcher_ConstrainDistance.svg|24px]] [[Sketcher_ConstrainDistance/pl|Odległości]] są teraz lepiej pozycjonowane domyślnie, aby unikać nakładania się ich z wymiarowanymi liniami. [https://github.com/FreeCAD/FreeCAD/pull/29538 Pull request #29538]
 * [[Sketcher_Workbench/pl#Zaznaczanie_obszarem_w_widoku_3D|Zaznaczanie obszarem w Szkicowniku]] bierze teraz pod uwagę [[Image:Part_SelectFilter.svg|24px]] [[Part_SelectFilter/pl|filtry wyboru]]. [https://github.com/FreeCAD/FreeCAD/pull/28982 Pull request #28982]
 * Wymiary długości łuku są teraz lepiej pozycjonowane dla łuków o większych rozpiętościach. [https://github.com/FreeCAD/FreeCAD/pull/29594 Pull request #29594]
-</div>
 
 <span id="Spreadsheet_Workbench"></span>
 ==Środowisko pracy Arkusz Kalkulacyjny==
