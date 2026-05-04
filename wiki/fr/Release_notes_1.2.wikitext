@@ -328,7 +328,6 @@ ToDo (last check: 20260430, #29258):
 <span id="Further_Sketcher_improvements"></span>
 === Autres améliorations de Sketcher ===
 
-<div class="mw-translate-fuzzy">
 * Il est désormais possible d'importer des courbes de Bézier et de décalage en tant que [[Image:Sketcher_Projection.svg|24px]] [[Sketcher_Projection/fr|géométries externes]]. [https://github.com/FreeCAD/FreeCAD/pull/25144 Pull request #25144]
 * Lors de la création ou de la modification de dimensions circulaires, il est désormais possible de basculer entre rayon et diamètre. [https://github.com/FreeCAD/FreeCAD/pull/26794 Pull request #26794]
 * La liste des contraintes affiche désormais le type de contrainte dans le nom. [https://github.com/FreeCAD/FreeCAD/pull/26797 Pull request #26797]
@@ -340,10 +339,9 @@ ToDo (last check: 20260430, #29258):
 * Les contraintes de distance sélectionnées (point-ligne, cercle-cercle et cercle-ligne) utilisent désormais l'orientation pour empêcher le [[Sketcher_Workbench/fr#Flipping|flipping]]. [https://github.com/FreeCAD/FreeCAD/pull/26518 Pull request #26518]
 * L'option ''Créer des contraintes de symétrie'' de l'outil [[Image:Sketcher_Symmetry.svg|24px]] [[Sketcher_Symmetry/fr|Symétriser]] a été améliorée pour éviter les surcontraintes. Elle est désormais activée par défaut. [https://github.com/FreeCAD/FreeCAD/pull/28118 Pull request #28118] et [https://github.com/FreeCAD/FreeCAD/pull/28319 Pull request #28319]
 * Un bouton ''Annuler'' a été ajouté, permettant d'annuler les modifications apportées à une esquisse. [https://github.com/FreeCAD/FreeCAD/pull/29337 Pull request #29337]
-* Les dimensions [[Image:Sketcher_ConstrainHorizontal.svg|24px]] [[Sketcher_ConstrainHorizontal/fr|horizontales]], [[Image:Sketcher_ConstrainVertical.svg|24px]] [[Sketcher_ConstrainVertical/fr|verticales]] et les [[Image:Sketcher_ConstrainDistance.svg|24px]] [[Sketcher_ConstrainDistance/fr|distances]] sont désormais mieux positionnées par défaut afin d'éviter tout chevauchement avec les lignes contraintes. [https://github.com/FreeCAD/FreeCAD/pull/29538 Pull request #29538]
+* Les contraintes de [[Image:Sketcher_ConstrainDistanceX.svg|24px]] [[Sketcher_ConstrainDistanceX/fr|dimension horizontale]], [[Image:Sketcher_ConstrainDistanceY.svg|24px]] [[Sketcher_ConstrainDistanceY/fr|dimension verticale]] et de [[Image:Sketcher_ConstrainDistance.svg|24px]] [[Sketcher_ConstrainDistance/fr|distance]] sont désormais mieux positionnées par défaut afin d'éviter tout chevauchement avec les lignes contraintes. [https://github.com/FreeCAD/FreeCAD/pull/29538 Pull request #29538]
 * La [[Sketcher_Workbench/fr#Sélection_par_une_boîte_dans_la_vue_3D|sélection par boîte dans Sketcher]] prend désormais en compte les [[Image:Part_SelectFilter.svg|24px]] [[Part_SelectFilter/fr|filtres de sélection]]. [https://github.com/FreeCAD/FreeCAD/pull/28982 Pull request #28982]
 * Les dimensions des longueurs des arcs sont désormais mieux positionnées pour les arcs de plus grande envergure. [https://github.com/FreeCAD/FreeCAD/pull/29594 Pull request #29594]
-</div>
 
 <span id="Spreadsheet_Workbench"></span>
 == Atelier Spreadsheet ==
