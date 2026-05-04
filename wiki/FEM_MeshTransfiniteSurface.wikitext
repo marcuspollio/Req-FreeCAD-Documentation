@@ -47,7 +47,7 @@ The '''FEM MeshTransfiniteSurface''' command creates a structured mesh on a face
 # Optionally, use the ''Recombine'' checkbox to enable recombination of triangular elements into quadrilateral ones.
 # If recombination is not enabled, select the triangle orientation: Left, Right, AlternateRight, AlternateLeft
 # Optionally, use the ''Auto apply transfinite curves'' checkbox and specify the number of nodes, distribution (Constant, Bump, Bump Inverted, Progression or Progression Inverted) and the corresponding coefficient.
-# Press the {{Button|Add}} button. Select a vertex or face. To remove objects from the selection, press the {{Button|Remove}} button.
+# Press the {{Button|Add}} button. Select a face (and if needed also a vertex or multiple vertices). To remove objects from the selection, press the {{Button|Remove}} button.
 # Click the {{Button|OK}} button.
 # Close the task.
 #: Result: You now should see a new {{incode|TransfiniteSurface}} object under the {{incode|FEMMeshGmsh}} object in your active analysis container.
