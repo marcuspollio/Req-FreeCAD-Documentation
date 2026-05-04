@@ -23,10 +23,11 @@ The macro SpreadsheetDependencyInspector displays, for a selection of spreadshee
 
 The macro is multilingual, currently supporting English and French. The language used is the one you selected in your FreeCAD preferences.
 </translate>
+[[File:Capture d'écran 2026-05-04 135141.png]]
 
-[[File:SpreadsheetDependencyInspector02.png]]
 
 <translate>
+
 == Usage ==
 
 In a SpreadSheet, select one or several cells, then run the macro. Choose the information you want to display.
