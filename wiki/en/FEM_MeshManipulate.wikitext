@@ -42,7 +42,7 @@ The '''FEM MeshManipulate''' command allows to manipulate the output of a refine
 #* ''Threshold'' - applies a threshold to the child refinements' value:
 #** Use the input value vs output size fields to control the thresholds
 #** Optionally, use the ''Linear interpolation'' checkbox to define if interpolation of the mesh size between SizeMinimum and SizeMaximum should be linear or sigmoid function
-#** Optionally, use the ''Stop at max input'' checkbox
+#** Optionally, use the ''Stop at max input'' checkbox - keep it enabled to not impose mesh size outside ''Distance Maximum''
 #* ''Mean'' - calculates the mean value of child refinement G
 #** Specify ''Delta''
 #* ''Gradient'' - computes the finite difference gradient of child refinement G
