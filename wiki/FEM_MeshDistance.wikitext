@@ -43,8 +43,8 @@ The '''FEM MeshDistance''' command can be used to set mesh size based on the dis
 #* Press the {{Button|[[Image:FEM_MeshDistance.svg|16px]] [[FEM_MeshDistance|Distance-Based Refinement]]}} button.
 #* Select the {{MenuCommand|Mesh → GMSH Refinements → [[Image:FEM_MeshDistance.svg|16px]] Distance-Based Refinement}} option from the menu.
 # Edit the four distance vs size fields. From the top to the right:
-#* Mesh size when distance < DistanceMinimum
 #* Mesh size when distance = DistanceMaximum
+#* Mesh size when distance < DistanceMinimum
 #* Distance up to which the mesh size will be SizeMinimum
 #* Distance at which the mesh size will be SizeMaximum
 # Optionally, switch the ''Interpolation: Linear'' field to define if interpolation of mesh size between SizeMinimum and SizeMaximum should be linear or sigmoid function.
